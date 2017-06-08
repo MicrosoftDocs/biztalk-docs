@@ -1,0 +1,36 @@
+---
+title: "WCF Adapter FAQ: Service Architecture | Microsoft Docs"
+ms.custom: ""
+ms.date: "06/08/2017"
+ms.prod: "biztalk-server"
+ms.reviewer: ""
+ms.service: "biztalk-server"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 8bad0063-ccff-41f4-b4e0-a02b49403c2d
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
+---
+# WCF Adapter FAQ: Service Architecture
+## What is the difference between a WCF custom behavior and a BizTalk pipeline component?  
+ Upon initial inspection, a WCF custom behavior is very much like a traditional BizTalk pipeline. Both leverage the basic concept of message interception to interrupt the flow of a message to its destination, execute some custom message processing in it, and forward it on to its destination. This interception can occur either before (bound to a receive location) or after (bound to a send port) a message has been processed by BizTalk Server. How this interception occurs within the two methods differs not only in implementation but also from within the point of interception. Here are some of the differences:  
+  
+-   Pipelines can be used by an orchestration. WCF behaviors are limited to being called by a WCF adapter from within BizTalk Server.  
+  
+-   Pipelines are an older technology specific to BizTalk Server. WCF behaviors can be used by BizTalk Server, and also in other pure WCF scenarios.  
+  
+-   Pipelines live within set pipeline stages, such as Decode, Validate, etc. WCF behaviors can be plugged into the message flow at any of its four interception entry points (described shortly).  
+  
+-   Pipelines are purely runtime in their functionality. While WCF behaviors are as well, they can also enforce relational or data constraints upon the values set during configuration from within the BizTalk Server Administration console.  
+  
+-   Pipelines can operate on a BizTalk message whereas WCF behaviors operate on a WCF message. This means the pipeline can do things like promote a BizTalk context property whereas a WCF behavior can access a WCF message property.  
+  
+-   There is no model of multipart messages in WCF or in the WCF adapters. However, since a pipeline component can manipulate the BizTalk message in whatever way it needs to, it can process a multipart message if necessary.  
+  
+## For the receive locations or send ports using the WCF-BasicHttp and WCF-WSHttp adapters, what type of encoding should I select?  
+ For each of these adapters there is HTTP-based message and text encoding. Message encoding specifies the SOAP encoder used for the message, which is either MTOM (Message Transmission Organization Mechanism) or Text. If Text is chosen, then a Text encoding must be selected. The choices for this are unicodeFFF (big endian), utf-16 (16-bit encoding), and utf-8 (8-bit encoding).  
+  
+ MTOM is the recommended and most efficient transfer mechanism for binary data. However it requires that the service be able to process MTOM data, and this makes this option much less portable than plain Text. If used to transfer standard, non-binary data, MTOM can actually be less efficient than using the Text option. Text is universally accepted and allows for more cross-platform interoperability, but it is the less efficient choice of the two if the data being transmitted contains non-textual content. This is an important factor when selecting a choice of binding encodings when using WCF service contracts. Knowing the data that the WCF operations will transfer and process affects the correct choice of message encoding.

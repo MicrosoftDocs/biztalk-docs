@@ -1,0 +1,59 @@
+---
+title: "Configuring a Port to Receive EDI Messages and Acknowledgments | Microsoft Docs"
+ms.custom: ""
+ms.date: "06/08/2017"
+ms.prod: "biztalk-server"
+ms.reviewer: ""
+ms.service: "biztalk-server"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: c043e648-b7f5-40aa-b7b5-0172fbea7b31
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
+---
+# Configuring a Port to Receive EDI Messages and Acknowledgments
+To receive an EDI interchange, you can create either a one-way receive port or a request-response (two-way) receive port to receive the interchange.  
+  
+-   Create a one-way receive port if you will also create a one-way send port to send EDI acknowledgments (if enabled). You will also have to clear the **Route ACK to send pipeline on request-response receive port** agreement property.  
+  
+-   Create a request response receive port and location to return EDI acknowledgments (if enabled) over the associated send pipeline. You will also have to select the **Route ACK to send pipeline on request-response receive port** agreement property.  
+  
+## Creating a One-Way Receive Port  
+ Create the receive port and location with the following configuration:  
+  
+|Location|Property|Setting|  
+|--------------|--------------|-------------|  
+|**Receive Port Properties: General**|Port type|One-Way|  
+|**Receive Port Properties: General**|Authentication|Set to **Drop messages if authentication fails** or **Keep messages if authentication fails** to authenticate the party that sent the received message.<br /><br /> Set to **No authentication** to disable authentication of the party that sent the received message.<br /><br /> If set to **Drop messages if authentication fails**, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will suspend a message if the authentication of its sender fails.<br /><br /> If set to **Drop messages if authentication fails** or **Keep messages if authentication fails**, the message must resolve to an agreement. Using the fallback agreement properties is not allowed. If no agreement is determined for an incoming message, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will treat the message as though authentication had failed, and will suspend the message.|  
+|**Receive Location Properties: General**|Transport Type|Can be any of a number of transport types.|  
+|**Receive Location Properties: General**|Receive handler|BizTalkServerApplication|  
+|**Receive Location Properties: General**|Receive pipeline|EdiReceive|  
+|**FILE Transport Properties: Authentication**|Use these credentials when host does not have access to network share (with User name and Password)|Set if authentication is required.|  
+|**FILE Transport Properties: Batching**|Number of messages in a batch|Set if interchange is batched.|  
+|**FILE Transport Properties: Batching**|Maximum batch size (in bytes)|Set if interchange is batched.|  
+  
+## Creating a Request-Response Receive Port  
+ Create the receive port and location with the following configuration:  
+  
+|Location|Property|Setting|  
+|--------------|--------------|-------------|  
+|**Receive Port Properties: General**|Port type|Request Response|  
+|**Receive Port Properties: General**|Authentication|Set to **Drop messages if authentication fails** or **Keep messages if authentication fails** to authenticate the party that sent the received message.<br /><br /> Set to **No authentication** to disable authentication of the party that sent the received message.<br /><br /> **Note:** If set to **Drop messages if authentication fails** or **Keep messages if authentication fails**, the message must resolve to an agreement.|  
+|**Receive Location Properties: General**|Transport Type|Can be any of a number of transport types, except FILE, which is not available in the drop-down list.<br /><br /> **Note:** A security issue could occur if you create a receive location that uses the EDIReceive pipeline and has a transport type of HTTP. The EdiReceive pipeline will not generate an HTTP "200 OK" acknowledgment. If no EDI acknowledgment is returned, the connection will remain open until the time-out period has expired.|  
+|**Receive Location Properties: General**|Receive handler|BizTalkServerApplication|  
+|**Receive Location Properties: General**|Receive pipeline|EdiReceive|  
+|**Receive Location Properties: General**|Send pipeline|EdiSend|  
+|**FILE Transport Properties: Authentication**|Use these credentials when host does not have access to network share (with User name and Password)|Set if authentication is required.|  
+|**FILE Transport Properties: Batching**|Number of messages in a batch|Set if interchange is batched.|  
+|**FILE Transport Properties: Batching**|Maximum batch size (in bytes)|Set if interchange is batched.|  
+  
+## Setting Agreement Properties  
+ After creating the receive port and location, you need to set the agreement properties required for the receive pipeline to function. These properties are set in various pages of the **Agreement Properties** dialog box. For a list of the properties that the EDI Disassembler must have to process an EDI interchange in the EdiReceive receive pipeline, see [How the EDI Disassembler Works](../core/how-the-edi-disassembler-works.md).  
+  
+## See Also  
+ [Configuring Ports for an EDI Solution](../core/configuring-ports-for-an-edi-solution.md)   
+ [How the EDI Disassembler Works](../core/how-the-edi-disassembler-works.md)   
+ [How to Create a Receive Port](../core/how-to-create-a-receive-port.md)
