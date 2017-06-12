@@ -1,0 +1,1 @@
+Add Adapter Metadata Wizard

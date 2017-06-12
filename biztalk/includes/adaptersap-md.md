@@ -1,0 +1,1 @@
+Microsoft BizTalk Adapter for mySAP Business Suite

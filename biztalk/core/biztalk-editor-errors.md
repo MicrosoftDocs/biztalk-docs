@@ -1,0 +1,32 @@
+---
+title: "BizTalk Editor Errors | Microsoft Docs"
+ms.custom: ""
+ms.date: "06/08/2017"
+ms.prod: "biztalk-server"
+ms.reviewer: ""
+ms.service: "biztalk-server"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Editor, error messages"
+  - "troubleshooting, BizTalk Editor"
+  - "BizTalk Editor, troubleshooting"
+  - "troubleshooting, error messages [BizTalk Editor]"
+  - "error messages, BizTalk Editor"
+ms.assetid: d044af11-708a-4365-a105-dd19a2c610a4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
+---
+# BizTalk Editor Errors
+This section provides supplemental information about compilation messages associated with BizTalk Editor. You can access this information using the F1 key when one of the relevant messages is selected in the Task List window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. For conceptual and procedural information about BizTalk Editor, see [Creating Schemas Using BizTalk Editor](../core/creating-schemas-using-biztalk-editor.md).  
+  
+ The following table shows the warnings, errors, and other information associated with BizTalk Editor for which supplemental information is available, organized by category.  
+  
+|Category|Message|  
+|--------------|-------------|  
+|Warning|[Body XPath Not A Descendent](../core/warning-body-xpath-not-a-descendent.md)<br /><br /> [Body XPath Not Valid](../core/warning-body-xpath-not-valid.md)<br /><br /> [Distinguished Field XPath Not Found](../core/warning-distinguished-field-xpath-not-found.md)<br /><br /> [Empty Target Namespace](../core/warning-empty-target-namespace.md)<br /><br /> [Envelope Schema Needs Root Record Node](../core/warning-envelope-schema-needs-root-record-node.md)<br /><br /> [Field Data Type Mismatch](../core/warning-field-data-type-mismatch.md)<br /><br /> [Promoted Field XPath Not Found](../core/warning-promoted-field-xpath-not-found.md)<br /><br /> [Record Body XPath Not Found](../core/warning-record-body-xpath-not-found.md)|  
+|Error|[Cannot resolve schemaLocation attribute.](../core/error-cannot-resolve-schemalocation-attribute.md)<br /><br /> [Create Instance Failure](../core/error-create-instance-failure.md)<br /><br /> [Duplicate Distinguished Field Promotion](../core/error-duplicate-distinguished-field-promotion.md)<br /><br /> [Duplicate Property Field Promotion](../core/error-duplicate-property-field-promotion.md)<br /><br /> [Input Instance File Missing](../core/error-input-instance-file-missing.md)<br /><br /> [Input Instance File Not Valid](../core/error-input-instance-file-not-valid.md)<br /><br /> [Nested Class Name Collision](../core/error-nested-class-name-collision.md)<br /><br /> [Node Not Valid For Distinguished Field Promotion](../core/error-node-not-valid-for-distinguished-field-promotion.md)<br /><br /> [Node Not Valid For Property Field Promotion](../core/error-node-not-valid-for-property-field-promotion.md)<br /><br /> [Output Instance File Not Valid](../core/error-output-instance-file-not-valid.md)<br /><br /> [Promoted Property Max Occurs](../core/error-promoted-property-max-occurs.md)<br /><br /> [Property Field Missing](../core/error-property-field-missing.md)<br /><br /> [Property Schema Field Data Type Not Valid](../core/error-property-schema-field-data-type-not-valid.md)<br /><br /> [Property Schema Structure Not Valid](../core/error-property-schema-structure-not-valid.md)<br /><br /> [Root Node Class Name Not Valid](../core/error-root-node-class-name-not-valid.md)<br /><br /> [Root Node Duplicate Class Name](../core/error-root-node-duplicate-class-name.md)<br /><br /> [Schema Dependency Not Valid](../core/error-schema-dependency-not-valid.md)<br /><br /> [Schema File Format Not Valid](../core/error-schema-file-format-not-valid.md)<br /><br /> [Schema File Name Not Valid](../core/error-schema-file-name-not-valid.md)<br /><br /> [Schema File Not In Build](../core/error-schema-file-not-in-build.md)<br /><br /> [Schema Root Reference Empty](../core/error-schema-root-reference-empty.md)<br /><br /> [Schema Root Reference Nonexistent](../core/error-schema-root-reference-nonexistent.md)<br /><br /> [Type Name Not Valid](../core/error-type-name-not-valid.md)<br /><br /> [Unspecified Fatal Error](../core/error-unspecified-fatal-error.md)<br /><br /> [Validate Instance Failure](../core/error-validate-instance-failure.md)<br /><br /> [Validate Schema Failure](../core/error-validate-schema-failure.md)|  
+|Success|[Create Native Instance](../core/success-create-native-instance.md)<br /><br /> [Create XML Instance](../core/success-create-xml-instance.md)<br /><br /> [Validate Instance](../core/success-validate-instance.md)<br /><br /> [Validate Instance Generated XML Output](../core/success-validate-instance-generated-xml-output.md)<br /><br /> [Validate Schema](../core/success-validate-schema.md)|

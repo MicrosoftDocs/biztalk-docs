@@ -1,0 +1,53 @@
+---
+title: "WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab | Microsoft Docs"
+ms.custom: ""
+ms.date: "06/08/2017"
+ms.prod: "biztalk-server"
+ms.reviewer: ""
+ms.service: "biztalk-server"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "bts10.adapters.wcf-wshttp.transport.send.security"
+helpviewer_keywords: 
+  - "WCF-WSHttp adapters, properties"
+  - "WCF-WSHttp adapters, security"
+  - "security, WCF-WSHttp adapters"
+  - "properties, WCF-WSHttp adapters"
+ms.assetid: 8ba2f499-8d83-4644-a084-bc4f43efe6d3
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
+---
+# WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab
+Use the **Security** tab to define the security capabilities of the WCF-WSHttp send adapter.  
+  
+|Use this|To do this|  
+|--------------|----------------|  
+|**Security mode**|Specifies the type of security that is used. Valid values include the following:<br /><br /> -   **None**: Messages are not secured during transfer.<br />-   **Transport**: Security is provided using the HTTPS transport. The SOAP messages are secured using HTTPS. The CA certificate chain for the service's X.509 certificate must be installed in the Trusted Root Certification Authorities certificate store of this computer so that the service can be authenticated to the send port using the service's certificate.<br />-   **Message**: Security is provided using SOAP message security over the HTTP transport. By default, the SOAP **Body** element is encrypted and signed. This mode offers a variety of features, such as whether the service credentials are available at the client out of band, and the algorithm suite to use.<br />-   **TransportWithMessageCredential**: Integrity, confidentiality, and service authentication are provided by the HTTPS transport. The CA certificate chain for the service's X.509 certificate must be installed in the Trusted Root Certification Authorities certificate store on this computer so that the service can be authenticated to the send port using the service's certificate. The send port authentication is provided by SOAP message security.<br /><br /> The default is **Message**.|  
+|**Transport client credential type**|Specify the type of credential to be used when performing the send port authentication. Valid values include the following:<br /><br /> -   **None**: No authentication occurs at the transport level.<br />-   **Basic**: Basic authentication. In Basic authentication, user names and passwords are sent in plain text over the network. This option requires configuring the **Client credentials** property.<br />-   **Digest**: Digest authentication. This authentication method operates much like Basic authentication, except that passwords are sent across the network as a hash value for additional security. Digest authentication is available only on domains with domain controllers running Windows Server operating systems authentication. This option requires configuring the **Client credentials** property.<br />-   **Ntlm**: NTLM authentication. The user account under which this send port runs is used for services to authenticate this send port.<br />-   **Windows**: Windows integrated authentication. The user account under which this send port runs is used for services to authenticate this send port.<br />-   **Certificate**: Client authentication using the client certificate specified through the **Client certificate - Thumbprint** property.<br /><br /> The default is **Windows**.|  
+|**Message client credential type**|Specify the credential type to be used when performing client authentication using message-based security. Valid values include the following:<br /><br /> -   **None**: This allows the service to interact with anonymous clients. This indicates that this send port does not provide any client credential.<br />-   **Windows**: Allow the SOAP exchanges to be under the authenticated context of a Windows credential. The user account under which this send port runs is used for services to authenticate this send port. The client credential is passed through the SOAP **Header** element using the **WSS SOAP Message Security Kerberos Token Profile 1.0** protocol.<br />-   **UserName**: This send port is authenticated to services with a **UserName** credential. The credential is passed through the SOAP **Header** element using the **WSS SOAP Message Security UsernameToken Profile 1.0** protocol. This option requires configuring the **Client credentials** property.<br />-   **Certificate**: This send port is authenticated to services using the client certificate specified through the **Client certificate - Thumbprint** property. The credential is passed through the SOAP **Header** element using the **WSS SOAP Message Security X509 Token Profile 1.0** protocol.<br /><br /> The default is **Windows**.|  
+|**Algorithm suite**|Specify the message encryption and key-wrap algorithms. These algorithms map to those specified in the Security Policy Language (WS-SecurityPolicy) specification. Possible values are:<br /><br /> -   **Basic128**: Use Aes128 encryption, Sha1 for message digest, and Rsa-oaep-mgf1p for key wrap.<br />-   **Basic128Rsa15**: Use Aes128 for message encryption, Sha1 for message digest, and Rsa15 for key wrap.<br />-   **Basic128Sha256**: Use Aes256 for message encryption, Sha256 for message digest, and Rsa-oaep-mgf1p for key wrap.<br />-   **Basic128Sha256Rsa15**: Use Aes128 for message encryption, Sha256 for message digest, and Rsa15 for key wrap.<br />-   **Basic192**: Use Aes192 encryption, Sha1 for message digest, and Rsa-oaep-mgf1p for key wrap.<br />-   **Basic192Rsa15**: Use Aes192 for message encryption, Sha1 for message digest, and Rsa15 for key wrap.<br />-   **Basic192Sha256**: Use Aes192 for message encryption, Sha256 for message digest, and Rsa-oaep-mgf1p for key wrap.<br />-   **Basic192Sha256Rsa15**: Use Aes192 for message encryption, Sha256 for message digest, and Rsa15 for key wrap.<br />-   **Basic256**: Use Aes256 encryption, Sha1 for message digest, and Rsa-oaep-mgf1p for key wrap.<br />-   **Basic256Rsa15**: Use Aes256 for message encryption, Sha1 for message digest, and Rsa15 for key wrap.<br />-   **Basic256Sha256**: Use Aes256 for message encryption, Sha256 for message digest, and Rsa-oaep-mgf1p for key wrap.<br />-   **Basic256Sha256Rsa15**: Use Aes256 for message encryption, Sha256 for message digest, and Rsa15 for key wrap.<br />-   **TripleDes**: Use TripleDes encryption, Sha1 for message digest, Rsa-oaep-mgf1p for key wrap.<br />-   **TripleDesRsa15**: Use TripleDes encryption, Sha1 for message digest, and Rsa15 for key wrap.<br />-   **TripleDesSha256**: Use TripleDes for message encryption, Sha256 for message digest, and Rsa-oaep-mgf1p for key wrap.<br />-   **TripleDesSha256Rsa15**: Use TripleDes for message encryption, Sha256 for message digest, and Rsa15 for key wrap.<br /><br /> The default value is **Basic256**.|  
+|**Negotiate service credential**|Specify whether the service credential is provisioned at this send port out of band, or is obtained from the service to this send port through a process of negotiation. Such a negotiation is a precursor to the usual message exchange.<br /><br /> If this check box is cleared and the **Message client credential type** property is set to **None**, **UserName**, or **Certificate**, the service certificate must be provided through the **Service certificate - Thumbprint** property.<br /><br /> If this check box is cleared and the **Message client credential type** property is set to **Windows**, Kerberos-based authentication is used. This means that the client and service must be part of the same Kerberos domain.<br /><br /> When this check box is selected, it causes a .NET SOAP negotiation that tunnels **SPNego** exchange over SOAP messages.<br /><br /> The default valued is selected.|  
+|**Establish security context**|Specify whether a security context token is established through a **WS-SecureConversation** exchange between this send port and the service. If this check box is selected then the destination service must support **WS-SecureConversation**.<br /><br /> The default valued is selected.|  
+|**Client certificate -Thumbprint**|Specify the thumbprint of the X.509 certificate for authenticating this send port to services. You can select the thumbprint by navigating to the **My** store in the **Current User** location with the **Browse** button. **Note:**  You must install the client certificate into the **Current User** location of the user account for the send handler hosting this send port. <br /><br /> Minimum length: 0<br /><br /> Maximum length: 40<br /><br /> The default is an empty string.|  
+|**Service certificate - Thumbprint**|Specify the thumbprint of the X.509 certificate for this send port to authenticate the destination service. You can select the thumbprint by navigating to the **Other People** store in the **Local Machine** location with the **Browse** button.<br /><br /> Minimum length: 0<br /><br /> Maximum length: 40<br /><br /> The default is an empty string.|  
+|**Client credentials**|Specify the credentials for sending messages. You can specify the property by clicking the **Edit Credentials** button. This option is valid only for the security configurations listed in the section, "Enterprise Single Sign-On Supportability for the WCF-WSHttp Send Adapter."<br /><br /> The default value is **Do not use Single Sign-On**.|  
+  
+## Enterprise Single Sign-On Supportability for the WCF-WSHttp Send Adapter  
+ The WCF-WSHttp send adapter can redeem an SSO ticket from the SSO server to obtain the user credential only in the security configurations shown in the following table.  
+  
+|**Security mode**|**Transport client credential type**|**Message client credential type**|  
+|-----------------------|------------------------------------------|----------------------------------------|  
+|**Transport**|**Basic**|N/A|  
+|**Transport**|**Digest**|N/A|  
+|**Message**|N/A|**UserName**|  
+|**TransportWithMessageCredential**|N/A|**UserName**|  
+  
+## See Also  
+ [How to Configure a WCF-WSHttp Send Port](../core/how-to-configure-a-wcf-wshttp-send-port.md)   
+ [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)   
+ [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
+ [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)
