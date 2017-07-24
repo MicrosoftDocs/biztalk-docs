@@ -43,4 +43,4 @@ This section contains checklists for deploying and maintaining [!INCLUDE[btsBizT
  [Maintaining BizTalk Server2](../technical-guides/maintaining-biztalk-server2.md)  
   
 ## See Also  
- [BizTalk Server 2010 Operations Guide](../Topic/BizTalk%20Server%202010%20Operations%20Guide.md)
+ [BizTalk Server 2010 Operations Guide](~/technical-guides/biztalk-server-2010-operations-guide.md)

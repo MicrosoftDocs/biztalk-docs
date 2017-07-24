@@ -31,5 +31,5 @@ Use the **Overview Screen** page to view a high-level analysis on the configurat
 |**Unconfigure Features**|Click **Unconfigure Features** to specify features you want to unconfigure.|  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)   
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
  [Getting Started](../core/getting-started-with-biztalk-server.md)

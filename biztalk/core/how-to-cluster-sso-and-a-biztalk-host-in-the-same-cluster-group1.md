@@ -38,7 +38,7 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
     > [!NOTE]
     >  If an unclustered instance of a BizTalk host is running on the same cluster node that a clustered instance of the SSO service is running then the clustered instance of the SSO service cannot be failed over unless the unclustered instance of the BizTalk host is stopped. An un-clustered instance of the BizTalk host maintains a dependency upon the clustered instance of the SSO service running on the cluster node and prevents the clustered instance of the SSO service from failing over. For this reason, it is recommended that you not create a unclustered instance of a BizTalk host to run on the same cluster node that is running a clustered instance of the SSO service.  
   
-3.  Clustering one or more BizTalk hosts on a Windows Server cluster without clustering the SSO service. In this scenario, one or more BizTalk hosts are configured as cluster resources but the SSO service is not configured as a clustered resource. This design provides high availability for the clustered BizTalk hosts but does not provide high availability for the SSO service. In this scenario, if the SSO service on a node fails then BizTalk Server components that depend on SSO on that node will also fail. For more information about how to configure a BizTalk Server host as a cluster resource see [How to Configure a BizTalk Host as a Cluster Resource](../Topic/How%20to%20Configure%20a%20BizTalk%20Host%20as%20a%20Cluster%20Resource2.md).  
+3.  Clustering one or more BizTalk hosts on a Windows Server cluster without clustering the SSO service. In this scenario, one or more BizTalk hosts are configured as cluster resources but the SSO service is not configured as a clustered resource. This design provides high availability for the clustered BizTalk hosts but does not provide high availability for the SSO service. In this scenario, if the SSO service on a node fails then BizTalk Server components that depend on SSO on that node will also fail. For more information about how to configure a BizTalk Server host as a cluster resource see [How to Configure a BizTalk Host as a Cluster Resource](http://msdn.microsoft.com/library/6e9aab00-7623-4175-bb12-ba916306f1e3).  
   
  The following procedures describe the steps that you should follow to cluster a BizTalk host and the SSO service on the same Windows Server cluster.  
   
@@ -46,7 +46,7 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
   
 1.  If the cluster is not configured with a clustered Distributed Transaction Coordinator (MSDTC) resource, cluster MSDTC on a Windows Server failover cluster by following the steps in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](http://go.microsoft.com/fwlink/p/?LinkID=129677) (http://go.microsoft.com/fwlink/p/?LinkID=129677).  
   
-2.  Install and configure the SSO service on the Windows Server cluster by following the steps in [How to Cluster the Master Secret Server](../Topic/How%20to%20Cluster%20the%20Master%20Secret%20Server2.md). Since you will be running BizTalk Server on the Windows Server cluster, install all required BizTalk Server components even though you will only be configuring the SSO components at this time.  
+2.  Install and configure the SSO service on the Windows Server cluster by following the steps in [How to Cluster the Master Secret Server](http://msdn.microsoft.com/library/59895616-4178-46d0-b9ff-95589b809ff5). Since you will be running BizTalk Server on the Windows Server cluster, install all required BizTalk Server components even though you will only be configuring the SSO components at this time.  
   
 3.  Cluster IIS on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer by following the steps documented in [Microsoft Knowledge Base article 970759 "Configuring IIS 7.0 in a Microsoft Windows Server 2008 failover cluster"](http://go.microsoft.com/fwlink/p/?LinkId=152793) (http://go.microsoft.com/fwlink/p/?LinkId=152793). Create the clustered IIS Web service in the same cluster group as the clustered SSO service.  
   
@@ -58,7 +58,7 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
   
 7.  Start the BizTalk Server Configuration program, and complete the configuration of BizTalk Server on this cluster node. Click **Join an existing BizTalk Group** when configuring the BizTalk Group component on this cluster node, and specify the BizTalk group that you created on the first node.  
   
-8.  Once the BizTalk Server configuration has completed successfully, create one or more clustered BizTalk hosts by following the steps in [How to Configure a BizTalk Host as a Cluster Resource](../Topic/How%20to%20Configure%20a%20BizTalk%20Host%20as%20a%20Cluster%20Resource2.md).  
+8.  Once the BizTalk Server configuration has completed successfully, create one or more clustered BizTalk hosts by following the steps in [How to Configure a BizTalk Host as a Cluster Resource](http://msdn.microsoft.com/library/6e9aab00-7623-4175-bb12-ba916306f1e3).  
   
     > [!NOTE]
     >  In this scenario, all BizTalk hosts must be created as cluster resources in the same cluster group as the clustered SSO service resource. Running a unclustered BizTalk host instance on a Windows Server Cluster node where the SSO service is clustered is not a supported configuration. This is because the unclustered BizTalk host instance will fail when the clustered SSO service is failed over to another node due to the dependency of a BizTalk host instance on the SSO service.  
@@ -167,7 +167,7 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
   
 21. Update the SSO Server name accessible in the **BizTalk Group Properties** page to reference the clustered SSO service. Open **BizTalk Server Administration**, right-click the BizTalk Group, select the **Properties** menu item, update the entry for SSO Server name, and then click **OK**.  
   
-22. Follow the steps in [How to Configure a BizTalk Host as a Cluster Resource](../Topic/How%20to%20Configure%20a%20BizTalk%20Host%20as%20a%20Cluster%20Resource2.md) to create one or more clustered BizTalk host instances in the same cluster group that you have created the clustered SSO service.  
+22. Follow the steps in [How to Configure a BizTalk Host as a Cluster Resource](http://msdn.microsoft.com/library/6e9aab00-7623-4175-bb12-ba916306f1e3) to create one or more clustered BizTalk host instances in the same cluster group that you have created the clustered SSO service.  
   
     > [!NOTE]
     >  In this scenario, all BizTalk hosts must be created as cluster resources in the same cluster group as the clustered SSO service resource. Running an unclustered BizTalk host instance on a Windows Server Cluster node where the SSO service is clustered is not a supported configuration. This is because the unclustered BizTalk host instance will fail when the clustered SSO service is failed over to another node due to the dependency of a BizTalk host instance on the SSO service.

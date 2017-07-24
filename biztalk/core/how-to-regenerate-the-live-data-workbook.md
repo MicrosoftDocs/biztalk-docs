@@ -45,7 +45,7 @@ In cases where the BAM live data workbook has been lost or corrupted, you can re
 2.  Click the **Add-Ins** tab, and then select **Import XML** from the **BAM** drop-down list in the **Menu Commands** group.  
   
     > [!NOTE]
-    >  If the **Add-Ins** tab is not present, follow the instructions in [Step 1: Add the BAM Add-In to Microsoft Office Excel](../Topic/Step%201:%20Add%20the%20BAM%20Add-In%20to%20Microsoft%20Office%20Excel.md) to add the BAM add-in.  
+    >  If the **Add-Ins** tab is not present, follow the instructions in [Step 1: Add the BAM Add-In to Microsoft Office Excel](http://msdn.microsoft.com/library/3400969f-0c54-4a75-979d-ad2f7af86448) to add the BAM add-in.  
   
 3.  Navigate to the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking folder and select the abc.xml file.  
   
@@ -79,4 +79,4 @@ In cases where the BAM live data workbook has been lost or corrupted, you can re
  [Managing BAM](../core/managing-bam.md)   
  [BAM Management Utility](../core/bam-management-utility.md)   
  [Requirements for Using the BAM Add-In for Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md)   
- [Step 1: Add the BAM Add-In to Microsoft Office Excel](../Topic/Step%201:%20Add%20the%20BAM%20Add-In%20to%20Microsoft%20Office%20Excel.md)
+ [Step 1: Add the BAM Add-In to Microsoft Office Excel](http://msdn.microsoft.com/library/3400969f-0c54-4a75-979d-ad2f7af86448)

@@ -22,7 +22,7 @@ Read about what's new in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]
   
  [What's New in BizTalk Server 2013 and 2013 R2](../install-and-config-guides/what-s-new-in-biztalk-server-2013-and-2013-r2.md)  
   
- [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)  
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)  
   
  [Upgrade to BizTalk Server 2013 and 2013 R2](../install-and-config-guides/upgrade-to-biztalk-server-2013-and-2013-r2.md)  
   

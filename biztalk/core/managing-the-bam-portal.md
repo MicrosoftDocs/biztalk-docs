@@ -22,7 +22,7 @@ Administrators set up the BAM portal by running the [!INCLUDE[btsBizTalkServerNo
   
  For more information about installing the BAM portal, see [Installing and Configuring BizTalk Server and BAM in Multiple Computer Environments](http://download.microsoft.com/download/E/9/7/E97E3B84-1C1E-4D95-A1B8-FEB0A814CFBB/Installing%20BizTalk%20Server%202013%20and%20BAM%20in%20a%20Multi-Computer%20Environment.docx) or [Install and Configure BAM in Multiple Computer Environments](http://social.technet.microsoft.com/wiki/contents/articles/1888.install-and-configure-bam-business-activity-monitoring-in-a-multi-computer-environment.aspx) in the TechNet Wiki.  
   
- For more information about configuring the BAM portal, see [Configuring the BAM Portal Using the BizTalk Server Configuration](../Topic/Configuring%20the%20BAM%20Portal%20Using%20the%20BizTalk%20Server%20Configuration.md).  
+ For more information about configuring the BAM portal, see [Configuring the BAM Portal Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/8af7cccb-823e-48bd-9743-dfbba4bafa11).  
   
  The BAM portal has many customizable settings that are accessed by modifying the webconfig.xml file. These settings control the performance and operation of the BAM portal. This rest of this section describes how to customize your BAM portal configuration.  
   

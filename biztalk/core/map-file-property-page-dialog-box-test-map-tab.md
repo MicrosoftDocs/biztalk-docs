@@ -38,5 +38,5 @@ Use the **Test Map** tab on the **\<Map File> Property Page** dialog box to sele
   
 ## See Also  
  [Validating Instance Data](../core/validating-instance-data.md)   
- [How to Test Maps](../Topic/How%20to%20Test%20Maps.md)   
- [How to Validate Maps](../Topic/How%20to%20Validate%20Maps.md)
+ [How to Test Maps](http://msdn.microsoft.com/library/5931367a-3465-4b13-90bb-4fab26f01dd6)   
+ [How to Validate Maps](http://msdn.microsoft.com/library/af90eeac-a710-4ee7-b905-ae5c3bb42bc2)

@@ -49,5 +49,5 @@ Use the **Properties** tab to configure the send handler for the FTP adapter.
 |**Temporary Folder**|Specify the location for a temporary folder on the FTP server. If a binary file is uploaded, this folder is used to guarantee recovery from a transfer failure.<br /><br /> If an ASCII file is uploaded, the file is first uploaded to this folder and then moved to the destination FTP folder. In the event of transfer failure, the adapter restarts upload. **Note:**  Use of this property supports atomic writing of files.|  
   
 ## See Also  
- [How to Configure an FTP Send Handler](../Topic/How%20to%20Configure%20an%20FTP%20Send%20Handler.md)   
- [Enhancements to the FTP Adapter](../Topic/Enhancements%20to%20the%20FTP%20Adapter.md)
+ [How to Configure an FTP Send Handler](http://msdn.microsoft.com/library/8d41e23f-0e7d-49b1-8698-30408e91349c)   
+ [Enhancements to the FTP Adapter](http://msdn.microsoft.com/library/c5ea3d2d-2d7c-4571-b458-de01d8912e87)

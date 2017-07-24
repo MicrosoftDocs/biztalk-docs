@@ -30,7 +30,7 @@ To configure the sending of an EDI acknowledgment in response to a received inte
   
 -   If you are a party that is expecting an EDI acknowledgement, set up a two-way send port or a one-way receive port to receive the acknowledgment. For more information, see [Configuring a Port to Receive EDI Messages and Acknowledgments](../core/configuring-a-port-to-receive-edi-messages-and-acknowledgments.md).  
   
--   The BizTalk EDI Application contains the control schemas. As a result, the application containing your EDI solution must contain a reference to BizTalk EDI Application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](../Topic/How%20to%20Add%20a%20Reference%20to%20the%20BizTalk%20Server%20EDI%20Application.md).  
+-   The BizTalk EDI Application contains the control schemas. As a result, the application containing your EDI solution must contain a reference to BizTalk EDI Application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.  

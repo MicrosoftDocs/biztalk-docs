@@ -52,7 +52,7 @@ uint32 Remove (string Server, string Database, string Assembly, string Name, str
  This parameter is ignored. Whether **true** or **false**, the assembly will not be uninstalled from the global assembly cache.  
   
 > [!NOTE]
->  To properly uninstall an assembly from the GAC, refer to [How to Uninstall an Assembly from the GAC](../Topic/How%20to%20Uninstall%20an%20Assembly%20from%20the%20GAC.md).  
+>  To properly uninstall an assembly from the GAC, refer to [How to Uninstall an Assembly from the GAC](http://msdn.microsoft.com/library/464706a8-f902-4d05-a724-19169facd2b4).  
   
  *Log*  
  Pathname to the output log file.  

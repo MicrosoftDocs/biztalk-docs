@@ -44,7 +44,7 @@ This topic describes how to use the BizTalk Server Administration console to imp
   
 -   You must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
--   The Business Rule Engine must be installed. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md).  
+-   The Business Rule Engine must be installed. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
 -   If you want to use the BizTalk Server Administration console to import a policy, you must have available an .xml file containing the policy that you want to import. You can generate such an .xml file by exporting a policy from another BizTalk group or application, as described in [How to Export a Policy](../core/how-to-export-a-policy.md), or by using the Business Rule Composer, as described in [How to Import and Export Policies and Vocabularies](../core/how-to-import-and-export-policies-and-vocabularies.md).  
   

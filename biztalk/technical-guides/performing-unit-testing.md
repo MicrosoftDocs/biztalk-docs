@@ -25,7 +25,7 @@ Unit testing is focused at the component level and is basically a pass/fail test
 >  Visual Studio is very useful for unit testing BizTalk artifacts such as orchestrations, schemas, pipelines, and pipeline components. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] provides test classes that you can use with Visual Studio Team System to test BizTalk artifacts.  
   
 ## Using Non-Microsoft Tools  
- Two other commonly used tools for unit testing BizTalk solutions are **BizUnit** and **NUnit**. **BizUnit** works seamlessly with Visual Studio Team System Test Edition. Similarly, **NUnit** tests can be easily modified so that they can run as-is in Visual Studio Team System Test Edition. For more information about these tools, see [Tools for Testing](../Topic/Tools%20for%20Testing.md).  
+ Two other commonly used tools for unit testing BizTalk solutions are **BizUnit** and **NUnit**. **BizUnit** works seamlessly with Visual Studio Team System Test Edition. Similarly, **NUnit** tests can be easily modified so that they can run as-is in Visual Studio Team System Test Edition. For more information about these tools, see [Tools for Testing](~/technical-guides/tools-for-testing.md).  
   
 > [!NOTE]  
 >  Use of **BizUnit** and **NUnit** are not supported by Microsoft, and Microsoft makes no guarantees about the suitability of these programs. Use of these programs is entirely at your own risk.  
@@ -46,4 +46,4 @@ Unit testing is focused at the component level and is basically a pass/fail test
  For more information about the utilities available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK, see [Utilities in the SDK](http://go.microsoft.com/fwlink/?LinkId=154387) (http://go.microsoft.com/fwlink/?LinkId=154387).  
   
 ## See Also  
- [Tools for Testing](../Topic/Tools%20for%20Testing.md)
+ [Tools for Testing](~/technical-guides/tools-for-testing.md)

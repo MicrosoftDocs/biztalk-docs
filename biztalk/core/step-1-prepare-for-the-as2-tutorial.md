@@ -17,7 +17,7 @@ manager: "anneta"
 # Step 1: Prepare for the AS2 Tutorial
 ![Step 1 of 11](../core/media/tut-step1-of-11.gif "Tut_Step1_of_11")  
   
- The AS2 tutorial is run on a single computer. To prepare for the tutorial, you must install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] as described in [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md) section. You must also add a reference to the BizTalk Server EDI Application as described in this topic. The files required for the AS2 tutorial are located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial folder.  
+ The AS2 tutorial is run on a single computer. To prepare for the tutorial, you must install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] as described in [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5) section. You must also add a reference to the BizTalk Server EDI Application as described in this topic. The files required for the AS2 tutorial are located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial folder.  
   
 > [!NOTE]
 >  For this tutorial to work, you need to use the same logon account for both the in-process host instance and the isolated host instance.  

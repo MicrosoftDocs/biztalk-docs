@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Maintaining BizTalk Server Databases
-For information about maintaining [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, see [Checklist: Maintaining and Troubleshooting BizTalk Server Databases](../Topic/Checklist:%20Maintaining%20and%20Troubleshooting%20BizTalk%20Server%20Databases.md).  
+For information about maintaining [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, see [Checklist: Maintaining and Troubleshooting BizTalk Server Databases](~/technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md).  
   
 ## See Also  
  [Maintaining BizTalk Server2](../technical-guides/maintaining-biztalk-server2.md)

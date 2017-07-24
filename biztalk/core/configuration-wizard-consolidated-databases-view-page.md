@@ -24,4 +24,4 @@ Use the **Consolidated Databases View** page to view an aggregated list of featu
 |**Edit**|Edit the database server name and database name of the selected features. **Note:**  You can edit multiple features by pressing CTRL and clicking the mouse.|  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)   
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   

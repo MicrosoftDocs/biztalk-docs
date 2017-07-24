@@ -50,7 +50,7 @@ Before you create your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizta
   
 ### To create a BizTalk Server hosting environment  
   
-1.  Use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration to create a new BizTalk group. For information about creating a new [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group, see [Configuring Groups Using the BizTalk Server Configuration](../Topic/Configuring%20Groups%20Using%20the%20BizTalk%20Server%20Configuration.md).  
+1.  Use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration to create a new BizTalk group. For information about creating a new [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group, see [Configuring Groups Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/16beb7bb-091c-4056-8622-cc79c95186e9).  
   
      [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration creates the following administration objects:  
   

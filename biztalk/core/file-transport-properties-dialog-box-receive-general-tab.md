@@ -33,5 +33,5 @@ Use the **General** tab to configure the receive location for the File adapter.
 |||  
   
 ## See Also  
- [How to Configure a File Receive Location](../Topic/How%20to%20Configure%20a%20File%20Receive%20Location.md)   
- [Restrictions on the File Mask and File Name Properties](../Topic/Restrictions%20on%20the%20File%20Mask%20and%20File%20Name%20Properties.md)
+ [How to Configure a File Receive Location](http://msdn.microsoft.com/library/09736a30-885b-4ecf-a2e0-0f9d064e4ee6)   
+ [Restrictions on the File Mask and File Name Properties](http://msdn.microsoft.com/library/d8f5afd0-a61f-4c9b-8a57-4792e3054769)

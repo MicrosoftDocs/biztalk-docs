@@ -52,7 +52,7 @@ Use the **Security** tab to define the security capabilities of the WCF-BasicHtt
 |**TransportCredentialOnly**|**Certificate**|N/A|  
   
 ## See Also  
- [How to Configure a WCF-BasicHttp Receive Location](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Receive%20Location.md)   
+ [How to Configure a WCF-BasicHttp Receive Location](http://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd)   
  [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)   
  [Configuring IIS for the Isolated WCF Receive Adapters](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md)   
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   

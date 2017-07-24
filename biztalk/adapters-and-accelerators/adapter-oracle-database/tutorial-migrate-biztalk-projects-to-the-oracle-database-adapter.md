@@ -29,7 +29,7 @@ The BizTalk ODBC Adapter for Oracle Database that shipped with Microsoft BizTalk
   
 -   Physical port configuration in the BizTalk Server Administration console  
   
- These differences are explained in the topics within [Migrating BizTalk Projects Created Using the BizTalk ODBC Adapter for Oracle Database](../Topic/Migrating%20BizTalk%20Projects%20Created%20Using%20the%20BizTalk%20ODBC%20Adapter%20for%20Oracle%20Database.md).  
+ These differences are explained in the topics within [Migrating BizTalk Projects Created Using the BizTalk ODBC Adapter for Oracle Database](http://msdn.microsoft.com/library/18f40265-c7f3-44a1-99b6-1b1dc800561e).  
   
  However, you can make changes to the BizTalk project that was created using the BizTalk ODBC Adapter for Oracle Database and make it work with the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
   
@@ -57,7 +57,7 @@ The BizTalk ODBC Adapter for Oracle Database that shipped with Microsoft BizTalk
 -   **Schema for the operation you wish to perform on the Oracle database**. This tutorial involves a BizTalk project that performs an Insert operation on the CUSTOMER table in the SCOTT schema. The CUSTOMER table is created under the SCOTT schema by running the SQL scripts provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] samples. The schema generated for the CUSTOMER table is CUSTOMERService_CUSTOMER_x5d.xsd. This schema is generated using the vPrev Oracle Database adapter.  
   
     > [!NOTE]
-    >  Unlike the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], the vPrev Oracle Database adapter does not support generating metadata for specific operations on an Oracle database table. By default, the adapter generates schema for all the operations supported on the table. For more such differences between the vPrev Oracle Database adapter and the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Migrating BizTalk Projects Created Using the BizTalk ODBC Adapter for Oracle Database](../Topic/Migrating%20BizTalk%20Projects%20Created%20Using%20the%20BizTalk%20ODBC%20Adapter%20for%20Oracle%20Database.md).  
+    >  Unlike the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], the vPrev Oracle Database adapter does not support generating metadata for specific operations on an Oracle database table. By default, the adapter generates schema for all the operations supported on the table. For more such differences between the vPrev Oracle Database adapter and the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Migrating BizTalk Projects Created Using the BizTalk ODBC Adapter for Oracle Database](http://msdn.microsoft.com/library/18f40265-c7f3-44a1-99b6-1b1dc800561e).  
   
 -   **Request message**. The request message to perform an Insert operation on the CUSTOMER table. The schema of the request message conforms to the schema of the Insert operation as surfaced by the previous version of the Oracle Database adapter.  
   

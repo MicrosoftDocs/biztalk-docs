@@ -16,7 +16,7 @@ manager: "anneta"
 # Managing Certificates
 This section describes how to manage digital certificates used with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Its topics describe how to install certificates (and which folder to install them into), and how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use the certificate for MIME/SMIME and AS2, and for use with BizTalk adapters. Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] can make use of public key infrastructure (PKI) digital certificates for purposes of document encryption and decryption, document signing and verification (non-repudiation), and party resolution.  
   
- For a checklist of steps to install the certificates, see [Checklist: Installing and Configuring Certificates](../Topic/Checklist:%20Installing%20and%20Configuring%20Certificates.md).  
+ For a checklist of steps to install the certificates, see [Checklist: Installing and Configuring Certificates](~/technical-guides/checklist-installing-and-configuring-certificates.md).  
   
 ## In This Section  
   
@@ -24,4 +24,4 @@ This section describes how to manage digital certificates used with [!INCLUDE[bt
   
 -   [Known Issues with Certificates in BizTalk Server](../technical-guides/known-issues-with-certificates-in-biztalk-server.md)  
   
--   [Installing and Configuring Digital Certificates](../Topic/Installing%20and%20Configuring%20Digital%20Certificates.md)
+-   [Installing and Configuring Digital Certificates](~/technical-guides/installing-and-configuring-digital-certificates.md)

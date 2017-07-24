@@ -43,7 +43,7 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
   
 -   [Administration UI Help](../core/administration-ui-help.md)  
   
--   [Orchestration Designer UI Help1](../Topic/Orchestration%20Designer%20UI%20Help1.md)  
+-   [Orchestration Designer UI Help1](http://msdn.microsoft.com/library/4b6f9ed1-fb1d-4668-9df8-ebcc34cb351c)  
   
 -   [Pipeline Designer UI Help](../core/pipeline-designer-ui-help.md)  
   

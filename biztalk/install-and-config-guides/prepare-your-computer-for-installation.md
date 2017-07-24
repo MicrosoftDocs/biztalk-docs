@@ -16,7 +16,8 @@ manager: "anneta"
 # Prepare Your Computer for Installation
 This topic lists the steps to prepare your computer by installing and configuring all software prerequisites, and then creating accounts and setting permissions.  
 
-> [!TIP] An integration MVP prepared a very detailed step-by-step guide to install the prerequisites, and BizTalk Server:  [BizTalk 2013 Installation and Configuration part 1](http://sandroaspbiztalkblog.wordpress.com/2013/05/05/biztalk-2013-installation-and-configuration-important-considerations-before-set-up-the-server-part-1/).  
+> [!TIP] 
+> An integration MVP prepared a very detailed step-by-step guide to install the prerequisites, and BizTalk Server:  [BizTalk 2013 Installation and Configuration part 1](http://sandroaspbiztalkblog.wordpress.com/2013/05/05/biztalk-2013-installation-and-configuration-important-considerations-before-set-up-the-server-part-1/).  
 > 
 > Some steps are not recommended by Microsoft, such as disabling User Access Control (UAC) or Windows Firewall. 
   
@@ -424,10 +425,10 @@ This topic lists the steps to prepare your computer by installing and configurin
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup keeps a record of events in the Application Event Log. Depending on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup, the installation fails. Changing the Application Event Log settings prevents this failure.  
   
 ## Next  
- [Choose BizTalk Server Features and Components](../Topic/Choose%20BizTalk%20Server%20Features%20and%20Components.md)  
+ [Choose BizTalk Server Features and Components](http://msdn.microsoft.com/library/b8c43fcf-9e5c-48ba-830b-13a5177e30f0)  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)   
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
  [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)   
  [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)   
  [Appendix C: Redistributable CAB Files](../install-and-config-guides/appendix-c-redistributable-cab-files.md)   

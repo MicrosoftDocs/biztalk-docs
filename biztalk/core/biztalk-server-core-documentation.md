@@ -21,12 +21,13 @@ manager: "anneta"
 # BizTalk Server core documentation
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] core documentation includes a variety of resources that can help you learn to develop, deploy, administer, and use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
 
-> [!NOTE] The core documentation  applies to  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013, and newer versions, but many topics still apply to previous BizTalk versions. For these previous BizTalk versions, it may be best to use that documentation set. Use the links at [Microsoft BizTalk Server](https://msdn.microsoft.com/library/dd547397\(BTS.10\).aspx) for previous versions.  
+> [!NOTE] 
+> The core documentation  applies to  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013, and newer versions, but many topics still apply to previous BizTalk versions. For these previous BizTalk versions, it may be best to use that documentation set. Use the links at [Microsoft BizTalk Server](https://msdn.microsoft.com/library/dd547397\(BTS.10\).aspx) for previous versions.  
 
 ## Get started
 **[Getting started](../core/getting-started-with-biztalk-server.md)** includes information about common tasks, the message engine, trading partner management using EDI and AS2, BizTalk Server tutorials, and topics for new  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] users.
   
-[Common Tasks and walkthroughs](../Topic/Common%20Tasks%20and%20Walkthroughs1.md) and [Tutorials](../Topic/Tutorials3.md) are also a great way to get started.
+[Common Tasks and walkthroughs](http://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) and [Tutorials](http://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) are also a great way to get started.
 
 ## Get new features in the Feature Pack 
 **[Configure the feature pack](../core/configure-the-feature-pack.md)** lists the different updates available in the feature pack, including using Application Insights and Power BI for tracking data, automatic deployment with Visual Studio Team Services, and more good stuff. 

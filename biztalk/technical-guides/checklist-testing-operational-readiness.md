@@ -36,4 +36,4 @@ Testing for operational readiness is a vital procedure that is often overlooked 
   
 -   [Performing Availability Testing](../technical-guides/performing-availability-testing.md)  
   
--   [Tools for Testing](../Topic/Tools%20for%20Testing.md)
+-   [Tools for Testing](~/technical-guides/tools-for-testing.md)

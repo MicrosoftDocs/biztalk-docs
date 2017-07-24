@@ -40,7 +40,7 @@ This section provides information that is intended to help you resolve performan
   
 -   For information about ensuring that the system is not experiencing frequent auto-growth of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, see [Defining Auto-Growth Settings for Databases](../technical-guides/defining-auto-growth-settings-for-databases.md), "Tracking Database Sizing Guidelines" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154677](http://go.microsoft.com/fwlink/?LinkId=154677), and "Identifying Bottlenecks in the Database Tier" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154678](http://go.microsoft.com/fwlink/?LinkId=154678).  
   
--   For information about maintaining SQL Server, [Performing SQL Server Maintenance Procedures](../Topic/Checklist:%20Configuring%20SQL%20Server.md#BKMK_Maintain).  
+-   For information about maintaining SQL Server, [Performing SQL Server Maintenance Procedures](~/technical-guides/checklist-configuring-sql-server.md).  
   
 -   For information about running SQL Server Profiler during high load to check for long response times and high resource usage, see "Using SQL Server Profiler" in SQL Server Help at [http://go.microsoft.com/fwlink/?LinkID=106720](http://go.microsoft.com/fwlink/?LinkID=106720).  
   

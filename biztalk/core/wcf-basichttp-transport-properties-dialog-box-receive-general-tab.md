@@ -31,7 +31,7 @@ Use the **General** tab to configure the receive location for the WCF-BasicHttp 
 |**Endpoint Identity**|Optional. Specify the identity of the service that this receive location provides by clicking the **Edit** button. The values that can be specified for the **Endpoint Identity** property differ according to the security configuration. These settings enable the client to authenticate this receive location. In the handshake process between the client and service, the Windows Communication Foundation (WCF) infrastructure will ensure that the identity of the expected service matches the values of this element.<br /><br /> The default is an empty string.<br /><br /> Minimum length: 0<br /><br /> Maximum length: 32767|  
   
 ## See Also  
- [How to Configure a WCF-BasicHttp Receive Location](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Receive%20Location.md)   
+ [How to Configure a WCF-BasicHttp Receive Location](http://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd)   
  [Publishing WCF Services with the Isolated WCF Receive Adapters](../core/publishing-wcf-services-with-the-isolated-wcf-receive-adapters.md)   
  [Configuring IIS for the Isolated WCF Receive Adapters](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md)   
  [The \<identity> element](http://go.microsoft.com/fwlink/?LinkID=75747)
