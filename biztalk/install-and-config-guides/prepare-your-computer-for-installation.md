@@ -16,7 +16,8 @@ manager: "anneta"
 # Prepare Your Computer for Installation
 This topic lists the steps to prepare your computer by installing and configuring all software prerequisites, and then creating accounts and setting permissions.  
 
-> [!TIP] An integration MVP prepared a very detailed step-by-step guide to install the prerequisites, and BizTalk Server:  [BizTalk 2013 Installation and Configuration part 1](http://sandroaspbiztalkblog.wordpress.com/2013/05/05/biztalk-2013-installation-and-configuration-important-considerations-before-set-up-the-server-part-1/).  
+> [!TIP] 
+> An integration MVP prepared a very detailed step-by-step guide to install the prerequisites, and BizTalk Server:  [BizTalk 2013 Installation and Configuration part 1](http://sandroaspbiztalkblog.wordpress.com/2013/05/05/biztalk-2013-installation-and-configuration-important-considerations-before-set-up-the-server-part-1/).  
 > 
 > Some steps are not recommended by Microsoft, such as disabling User Access Control (UAC) or Windows Firewall. 
   
