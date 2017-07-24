@@ -48,11 +48,11 @@ This topic describes typical tasks that BAM administrators undertake in managing
   
  For more information about using the configuration wizard see the following topics:  
   
--   [Configuring BAM Alerts Using the BizTalk Server Configuration](../Topic/Configuring%20BAM%20Alerts%20Using%20the%20BizTalk%20Server%20Configuration.md)  
+-   [Configuring BAM Alerts Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/04d79f8c-9e7f-4ba8-83ce-f79c33fb8e60)  
   
--   [Configuring BAM Tools Using the BizTalk Server Configuration](../Topic/Configuring%20BAM%20Tools%20Using%20the%20BizTalk%20Server%20Configuration.md)  
+-   [Configuring BAM Tools Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/075a1627-5bc2-488c-a88c-42c86cc8c3bb)  
   
--   [Configuring the BAM Portal Using the BizTalk Server Configuration](../Topic/Configuring%20the%20BAM%20Portal%20Using%20the%20BizTalk%20Server%20Configuration.md)  
+-   [Configuring the BAM Portal Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/8af7cccb-823e-48bd-9743-dfbba4bafa11)  
   
 ### Distributed Notification Services  
  Configuring BAM to run in a distributed environment affords performance benefits when processing alerts and notifications. When you do this, the Provider, Generator, and Distributor roles of Notification Services are on different computers and you must install Notification Services in the multiple computer environment.  

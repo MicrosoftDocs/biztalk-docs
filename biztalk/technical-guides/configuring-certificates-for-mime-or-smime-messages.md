@@ -31,7 +31,7 @@ To help secure data transfer on [!INCLUDE[btsBizTalkServerNoVersion](../includes
   
 -   [How to Configure BizTalk Server to Receive Encrypted MIME or SMIME Messages](../technical-guides/how-to-configure-biztalk-server-to-receive-encrypted-mime-or-smime-messages.md)  
   
--   [How to Configure BizTalk Server to Send Encrypted MIME or SMIME Messages](../Topic/How%20to%20Configure%20BizTalk%20Server%20to%20Send%20Encrypted%20MIME%20or%20SMIME%20Messages.md)  
+-   [How to Configure BizTalk Server to Send Encrypted MIME or SMIME Messages](~/technical-guides/how-to-configure-biztalk-server-to-send-encrypted-mime-smime-messages.md)  
   
 -   [How to Configure BizTalk Server to Receive Signed MIME or SMIME Messages](../technical-guides/how-to-configure-biztalk-server-to-receive-signed-mime-or-smime-messages.md)  
   

@@ -34,4 +34,4 @@ Use the **Binding** tab to configure the binding properties specific to WCF-Basi
 |**Text encoding**|Specify the character set encoding to be used for emitting messages on the binding when the **Message encoding** property is set to **Text**. Valid values include the following:<br /><br /> -   **utf-16BE (unicodeFFFE)**: Unicode BigEndian encoding.<br />-   **utf-16**: 16-bit encoding.<br />-   **utf-8**: 8-bit encoding<br /><br /> Default value: **utf-8**|  
   
 ## See Also  
- [How to Configure a WCF-BasicHttp Send Port](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Send%20Port.md)
+ [How to Configure a WCF-BasicHttp Send Port](http://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f)

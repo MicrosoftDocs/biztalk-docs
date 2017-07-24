@@ -56,6 +56,6 @@ Use the **FTP Transport Properties** dialog box to configure the send port for t
 |**Temporary Folder**|Specify the location for a temporary folder on the FTP server. If a binary file is uploaded, this folder is used to guarantee recovery from a transfer failure.<br /><br /> If an ASCII file is uploaded, the file is first uploaded here and then moved to the destination FTP folder. In the event of transfer failure, the adapter restarts the upload.<br /><br /> Use of this property supports atomic writing of files.|  
   
 ## See Also  
- [Restrictions on Using Macros in File Names](../Topic/Restrictions%20on%20Using%20Macros%20in%20File%20Names.md)   
- [How to Configure an FTP Send Port](../Topic/How%20to%20Configure%20an%20FTP%20Send%20Port.md)   
- [Enhancements to the FTP Adapter](../Topic/Enhancements%20to%20the%20FTP%20Adapter.md)
+ [Restrictions on Using Macros in File Names](http://msdn.microsoft.com/library/ac60829d-b076-4630-aea5-a59b32d6250f)   
+ [How to Configure an FTP Send Port](http://msdn.microsoft.com/library/03e45656-2f29-4410-a2ee-a830f958cb55)   
+ [Enhancements to the FTP Adapter](http://msdn.microsoft.com/library/c5ea3d2d-2d7c-4571-b458-de01d8912e87)

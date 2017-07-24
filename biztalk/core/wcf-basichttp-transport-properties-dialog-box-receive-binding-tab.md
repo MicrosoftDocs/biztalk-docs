@@ -35,4 +35,4 @@ Use the **Binding** tab to define the binding properties specific to the WCF-Bas
 |**Max concurrent calls**|Specify the number of concurrent calls to a single service instance. Calls in excess of the limit are queued. Setting this value to 0 is equivalent to setting it to **Int32.MaxValue**.<br /><br /> The default is 200|  
   
 ## See Also  
- [How to Configure a WCF-BasicHttp Receive Location](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Receive%20Location.md)
+ [How to Configure a WCF-BasicHttp Receive Location](http://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd)

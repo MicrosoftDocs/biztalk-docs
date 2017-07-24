@@ -113,7 +113,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], create or open a BizTalk project.  
   
     > [!NOTE]
-    >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](../Topic/How%20to%20Add%20a%20Reference%20to%20the%20BizTalk%20Server%20EDI%20Application.md).  
+    >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
 2.  Right-click your project, point to **Add**, and then click **Existing Item**. To use an XML file to test your solution, move to the local folder that contains the XSD schema for the XML test message, and select the XSD file. Click **Add**.  
   
@@ -217,7 +217,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 1.  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Send Ports** node under the **BizTalk Application 1** node, point to **New**, and then click **Static Solicit-Response Send Port**.  
   
     > [!NOTE]
-    >  If you use BizTalk Application 1, you must add a reference in BizTalk Application 1 to the BizTalk EDI Application, so your application can use its artifacts. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](../Topic/How%20to%20Add%20a%20Reference%20to%20the%20BizTalk%20Server%20EDI%20Application.md).  
+    >  If you use BizTalk Application 1, you must add a reference in BizTalk Application 1 to the BizTalk EDI Application, so your application can use its artifacts. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
 2.  In the **Send Port Properties** dialog box, name the send port as **SendToFab_RecvMDN**.  
   

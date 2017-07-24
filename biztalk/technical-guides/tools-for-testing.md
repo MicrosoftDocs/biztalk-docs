@@ -34,4 +34,4 @@ The table below lists tools that you can use to perform the testing associated w
 ||BizTalk Server Best Practices Analyzer|The BizTalk Server Best Practices Analyzer examines a BizTalk Server deployment and generates a list of issues pertaining to best practices standards. The tool performs configuration-level verification by gathering data from different information sources, such as Windows Management Instrumentation (WMI) classes, SQL Server databases, and registry entries. The data is then used to evaluate the deployment configuration. The tool reads and reports only and does not modify any system settings, and is not a self-tuning tool.<br /><br /> The BizTalk Server Best Practices Analyzer tool can be downloaded from [BizTalk Server Best Practices Analyzer](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317).|  
   
 ## See Also  
- [Checklist: Testing Operational Readiness](../Topic/Checklist:%20Testing%20Operational%20Readiness.md)
+ [Checklist: Testing Operational Readiness](~/technical-guides/checklist-testing-operational-readiness.md)

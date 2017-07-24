@@ -26,4 +26,4 @@ Use the **Business Rules Engine** page to configure the Business Rules Engine fo
 |**Windows service**|The Windows service list provides and editable view of the account used to run the Rule Engine Update Service.|  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)   
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   

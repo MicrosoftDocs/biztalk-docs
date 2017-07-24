@@ -65,13 +65,13 @@ The Operational Readiness checklists contain recommendations that you should con
   
 ## In This Section  
   
--   [Checklist: Getting Started with BizTalk Server](../Topic/Checklist:%20Getting%20Started%20with%20BizTalk%20Server.md)  
+-   [Checklist: Getting Started with BizTalk Server](http://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)  
   
 -   [Checklist: Configuring Windows Server](../technical-guides/checklist-configuring-windows-server.md)  
   
 -   [Checklist: Configuring Internet Information Services](../technical-guides/checklist-configuring-internet-information-services.md)  
   
--   [Checklist: Configuring SQL Server](../Topic/Checklist:%20Configuring%20SQL%20Server.md)  
+-   [Checklist: Configuring SQL Server](~/technical-guides/checklist-configuring-sql-server.md)  
   
 -   [Checklist: Configuring BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)  
   
@@ -81,6 +81,6 @@ The Operational Readiness checklists contain recommendations that you should con
   
 -   [Checklist: Monitoring Operational Readiness](../technical-guides/checklist-monitoring-operational-readiness.md)  
   
--   [Checklist: Maintaining and Troubleshooting BizTalk Server Databases](../Topic/Checklist:%20Maintaining%20and%20Troubleshooting%20BizTalk%20Server%20Databases.md)  
+-   [Checklist: Maintaining and Troubleshooting BizTalk Server Databases](~/technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md)  
   
 -   [Checklist: Testing Operational Readiness](../technical-guides/checklist-testing-operational-readiness.md)

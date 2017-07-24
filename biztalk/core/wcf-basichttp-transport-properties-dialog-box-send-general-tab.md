@@ -35,6 +35,6 @@ Use the **General** tab to configure the endpoint address, the service identity,
   
 ## See Also  
  [The \<identity> element](http://go.microsoft.com/fwlink/?LinkID=75747)   
- [How to Configure a WCF-BasicHttp Send Port](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Send%20Port.md)   
+ [How to Configure a WCF-BasicHttp Send Port](http://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f)   
  [WCF Adapters Property Schema and Properties](../core/wcf-adapters-property-schema-and-properties.md)   
  [Configuring Dynamic Send Ports Using WCF Adapters Context Properties](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)

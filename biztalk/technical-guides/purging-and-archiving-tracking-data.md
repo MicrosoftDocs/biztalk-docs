@@ -37,4 +37,4 @@ It is important to configure and enable the DTA Purge and Archive SQL Agent job.
 -   **If you need to keep the tracking archive files, ensure that you have a process in place to successfully restore and use them.**  
   
 ## See Also  
- [Checklist: Configuring SQL Server](../Topic/Checklist:%20Configuring%20SQL%20Server.md)
+ [Checklist: Configuring SQL Server](~/technical-guides/checklist-configuring-sql-server.md)

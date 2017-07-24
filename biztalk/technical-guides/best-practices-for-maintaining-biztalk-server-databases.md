@@ -27,5 +27,5 @@ This topic lists some best practices for maintaining [!INCLUDE[btsBizTalkServerN
 -   Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) to evaluate an existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment. The BPA performs numerous database-related checks. You can download the BizTalk Server Best Practices Analyzer tool from [BizTalk Server Best Practices Analyzer tool](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317).  
   
 ## See Also  
- [Checklist: Maintaining and Troubleshooting BizTalk Server Databases](../Topic/Checklist:%20Maintaining%20and%20Troubleshooting%20BizTalk%20Server%20Databases.md)   
+ [Checklist: Maintaining and Troubleshooting BizTalk Server Databases](~/technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md)   
  [Large-growing BizTalk Server Database Tables](../technical-guides/large-growing-biztalk-server-database-tables.md)

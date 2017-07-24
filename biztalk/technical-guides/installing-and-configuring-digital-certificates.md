@@ -18,12 +18,12 @@ This section provides procedures for managing digital certificates used with [!I
   
 ## In This Section  
   
--   [How to Install Certificates for BizTalk Server](../Topic/How%20to%20Install%20Certificates%20for%20BizTalk%20Server.md)  
+-   [How to Install Certificates for BizTalk Server](~/technical-guides/how-to-install-certificates-for-biztalk-server.md)  
   
 -   [Configuring Certificates for MIME or SMIME Messages](../technical-guides/configuring-certificates-for-mime-or-smime-messages.md)  
   
--   [Configuring Certificates with Adapters](../Topic/Configuring%20Certificates%20with%20Adapters.md)  
+-   [Configuring Certificates with Adapters](~/technical-guides/configuring-certificates-with-adapters.md)  
   
--   [How to Configure Certificates for Party Resolution](../Topic/How%20to%20Configure%20Certificates%20for%20Party%20Resolution.md)  
+-   [How to Configure Certificates for Party Resolution](~/technical-guides/how-to-configure-certificates-for-party-resolution.md)  
   
--   [How to Add Certificates to an Application](../Topic/How%20to%20Add%20Certificates%20to%20an%20Application.md)
+-   [How to Add Certificates to an Application](~/technical-guides/how-to-add-certificates-to-an-application.md)

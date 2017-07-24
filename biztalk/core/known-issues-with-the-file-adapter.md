@@ -105,7 +105,7 @@ This section contains information that may help you avoid errors.
  Setting the **Allow cache on write** property to **False** can reduce performance as this setting disallows the use of in-memory caching of files by the operating system.  
   
 ##### Resolution  
- To increase performance of the File send adapter change the **Allow cache on write** property to **True** (check the box). For more information about the **Allow cache on write** property, see [How to Configure a File Send Port](../Topic/How%20to%20Configure%20a%20File%20Send%20Port.md).  
+ To increase performance of the File send adapter change the **Allow cache on write** property to **True** (check the box). For more information about the **Allow cache on write** property, see [How to Configure a File Send Port](http://msdn.microsoft.com/library/d801c5b7-da0a-4228-af0c-c2d450c251a9).  
   
 > [!NOTE]
 >  Setting the **Allow cache on write** property to **True** increases the possibility of data loss in the event that the operating system experiences a failure. In this scenario, any data that is stored in the in-memory file cache will be lost.  

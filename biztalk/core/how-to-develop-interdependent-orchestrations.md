@@ -23,7 +23,7 @@ You can use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md
   
 -   Orch2 responds back to Orch1 with a Web service call.  
   
- For one example of this type of project, see [Tutorial 2: Purchase Order Process](../Topic/Tutorial%202:%20Purchase%20Order%20Process.md).  
+ For one example of this type of project, see [Tutorial 2: Purchase Order Process](http://msdn.microsoft.com/library/a324ef1b-39b3-49ab-9719-a13f526cb467).  
   
 ### To develop two interdependent orchestrations Orch1 and Orch2  
   

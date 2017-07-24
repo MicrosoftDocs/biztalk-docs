@@ -35,9 +35,9 @@ string CustomCfg;
   
 -   [How to Configure an HTTP Receive Location](../core/how-to-configure-an-http-receive-location.md)  
   
--   [How to Configure an FTP Receive Location](../Topic/How%20to%20Configure%20an%20FTP%20Receive%20Location.md)  
+-   [How to Configure an FTP Receive Location](http://msdn.microsoft.com/library/1d8fde35-f787-4a5e-a8bd-8c418d0f75c3)  
   
--   [How to Configure a File Receive Location](../Topic/How%20to%20Configure%20a%20File%20Receive%20Location.md)  
+-   [How to Configure a File Receive Location](http://msdn.microsoft.com/library/09736a30-885b-4ecf-a2e0-0f9d064e4ee6)  
   
 -   [How to Configure MQSeries Adapter Receive Locations and Send Ports](../core/how-to-configure-mqseries-adapter-receive-locations-and-send-ports.md)  
   

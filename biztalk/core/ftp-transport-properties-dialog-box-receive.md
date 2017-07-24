@@ -65,4 +65,4 @@ Use the **FTP Transport Properties** dialog box to configure the receive locatio
 |**Temporary Folder**|Specify the location for a temporary folder. You use this location to guarantee recovery from a transfer failure.|  
   
 ## See Also  
- [How to Configure an FTP Receive Location](../Topic/How%20to%20Configure%20an%20FTP%20Receive%20Location.md)
+ [How to Configure an FTP Receive Location](http://msdn.microsoft.com/library/1d8fde35-f787-4a5e-a8bd-8c418d0f75c3)

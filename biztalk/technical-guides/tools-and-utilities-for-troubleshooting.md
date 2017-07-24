@@ -28,4 +28,4 @@ This topic describes several tools and utilities that can be useful for diagnosi
   
 ## See Also  
  [Tools for Testing](../technical-guides/tools-for-testing.md)   
- [Checklist: Configuring BizTalk Server](../Topic/Checklist:%20Configuring%20BizTalk%20Server.md)
+ [Checklist: Configuring BizTalk Server](~/technical-guides/checklist-configuring-biztalk-server.md)

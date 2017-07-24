@@ -20,6 +20,6 @@ This section provides checklists for evaluating and optimizing performance of a 
   
 -   [Checklist: Measuring Performance on Hyper-V](../technical-guides/checklist-measuring-performance-on-hyper-v.md)  
   
--   [Checklist: Optimizing Performance on Hyper-V](../Topic/Checklist:%20Optimizing%20Performance%20on%20Hyper-V.md)  
+-   [Checklist: Optimizing Performance on Hyper-V](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)  
   
 -   [System Resource Costs on Hyper-V](../technical-guides/system-resource-costs-on-hyper-v.md)

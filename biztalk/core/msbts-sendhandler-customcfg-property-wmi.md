@@ -35,9 +35,9 @@ string CustomCfg;
   
  For more information about the configuring the receive location of any of the native adapters, see the following topics:  
   
--   [Configuring a File Send Handler](../Topic/How%20to%20Configure%20a%20File%20Send%20Handler.md)  
+-   [Configuring a File Send Handler](http://msdn.microsoft.com/library/9b0bda92-28f7-4d85-af95-3c59e83b3bb0)  
   
--   [Configuring an FTP Send Handler](../Topic/How%20to%20Configure%20an%20FTP%20Send%20Handler.md)  
+-   [Configuring an FTP Send Handler](http://msdn.microsoft.com/library/8d41e23f-0e7d-49b1-8698-30408e91349c)  
   
 -   [Configuring an HTTP Send Handler](../core/how-to-configure-an-http-send-handler.md)  
   

@@ -132,4 +132,4 @@ Running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversi
 |BizTalk Application Users Group|Grant Execute permission on **sp_help_jobhistory** in **msdb** database|Required by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
   
 ## See Also  
- [Checklists for Other Important Tasks](../Topic/Checklists%20for%20Other%20Important%20Tasks.md)
+ [Checklists for Other Important Tasks](~/technical-guides/checklists-for-other-important-tasks.md)
