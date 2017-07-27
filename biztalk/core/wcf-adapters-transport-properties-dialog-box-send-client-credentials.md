@@ -34,7 +34,7 @@ Use the **Client Credentials** dialog box to specify the credentials to be used 
   
 ## See Also  
  [Using SSO](../core/using-sso.md)   
- [How to Configure a WCF-BasicHttp Send Port](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Send%20Port.md)   
+ [How to Configure a WCF-BasicHttp Send Port](http://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f)   
  [How to Configure a WCF-WSHttp Send Port](../core/how-to-configure-a-wcf-wshttp-send-port.md)   
  [How to Configure a WCF-NetTcp Send Port](../core/how-to-configure-a-wcf-nettcp-send-port.md)   
  [How to Configure a WCF-NetMsmq Send Port](../core/how-to-configure-a-wcf-netmsmq-send-port.md)   

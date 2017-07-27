@@ -30,10 +30,10 @@ This section contains checklists for other important tasks that you might need t
   
 -   [Checklist: Updating Artifacts in a BizTalk Application](../technical-guides/checklist-updating-artifacts-in-a-biztalk-application.md)  
   
--   [Checklist: Installing and Configuring Certificates](../Topic/Checklist:%20Installing%20and%20Configuring%20Certificates.md)  
+-   [Checklist: Installing and Configuring Certificates](~/technical-guides/checklist-installing-and-configuring-certificates.md)  
   
 -   [Checklist: Monitoring BizTalk Server with Operations Manager 2007](../technical-guides/checklist-monitoring-biztalk-server-with-operations-manager-2007.md)  
   
 -   [Checklist: Monitoring SQL Servers](../technical-guides/checklist-monitoring-sql-servers.md)  
   
--   [Checklist: Planning for Operations in a Secure Environment](../Topic/Checklist:%20Planning%20for%20Operations%20in%20a%20Secure%20Environment.md)
+-   [Checklist: Planning for Operations in a Secure Environment](~/technical-guides/checklist-planning-for-operations-in-a-secure-environment.md)

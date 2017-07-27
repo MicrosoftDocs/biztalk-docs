@@ -49,10 +49,10 @@ This topic lists the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalk
  All service packs, cumulative updates, security updates, and hot fixes are supported on a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. It is strongly encouraged to install the latest update for [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)], [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], Visual Studio, and any program installed. Service Packs for Microsoft products are supported based on the baseline support for that product. Refer to [Support Lifecycle Index](http://go.microsoft.com/fwlink/p/?LinkID=151890) for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], Visual Studio, and other Microsoft programs.  
   
 ## Next  
- [Considerations Before Installing BizTalk Server 2013 and 2013 R2](../Topic/Considerations%20Before%20Installing%20BizTalk%20Server%202013%20and%202013%20R2.md)  
+ [Considerations Before Installing BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/c39de794-fd80-422b-9171-3e3c418aa691)  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)   
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
  [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)   
  [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)   
  [Appendix C: Redistributable CAB Files](../install-and-config-guides/appendix-c-redistributable-cab-files.md)   

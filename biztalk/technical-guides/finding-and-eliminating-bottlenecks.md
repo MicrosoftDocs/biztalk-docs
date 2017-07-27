@@ -22,7 +22,7 @@ A successful BizTalk Server performance assessment is largely a matter of discov
   
 -   [Investigating Bottlenecks](../technical-guides/investigating-bottlenecks.md)  
   
--   [System-Level Bottlenecks](../Topic/System-Level%20Bottlenecks.md)  
+-   [System-Level Bottlenecks](~/technical-guides/system-level-bottlenecks.md)  
   
 -   [Bottlenecks in the BizTalk Server Tier](../technical-guides/bottlenecks-in-the-biztalk-server-tier.md)  
   

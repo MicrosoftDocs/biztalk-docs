@@ -50,4 +50,4 @@ Use the **Properties** tab to configure the receive handler for the FTP adapter.
 |**Temporary Folder**|Specify the location for a temporary folder. Use this property to guarantee recovery from a transfer failure.|  
   
 ## See Also  
- [How to Configure an FTP Receive Handler](../Topic/How%20to%20Configure%20an%20FTP%20Receive%20Handler.md)
+ [How to Configure an FTP Receive Handler](http://msdn.microsoft.com/library/e9efdf13-3757-4a8b-9b0a-c3ed10ba352e)

@@ -32,6 +32,6 @@ Use the **General** tab to configure the send port for the File adapter.
 |**Use temporary file while writing**|Defines whether to write the output file to a temporary file first and then rename the file once the write operation has completed. If this option is enabled then the temporary file will be created with the extension **BTS-WIP**.<br /><br /> Valid values are:<br /><br /> **True (checked)** The File adapter creates a temporary file when writing to the target folder.<br /><br /> **False (not checked)** The File adapter does not create a temporary file when writing to the target folder. **Note:**  This option is only available when the **CopyMode** property is set to a value of **Create new**.|  
   
 ## See Also  
- [How to Configure a File Receive Location](../Topic/How%20to%20Configure%20a%20File%20Receive%20Location.md)   
- [Restrictions on the File Mask and File Name Properties](../Topic/Restrictions%20on%20the%20File%20Mask%20and%20File%20Name%20Properties.md)   
- [Restrictions on Using Macros in File Names](../Topic/Restrictions%20on%20Using%20Macros%20in%20File%20Names.md)
+ [How to Configure a File Receive Location](http://msdn.microsoft.com/library/09736a30-885b-4ecf-a2e0-0f9d064e4ee6)   
+ [Restrictions on the File Mask and File Name Properties](http://msdn.microsoft.com/library/d8f5afd0-a61f-4c9b-8a57-4792e3054769)   
+ [Restrictions on Using Macros in File Names](http://msdn.microsoft.com/library/ac60829d-b076-4630-aea5-a59b32d6250f)

@@ -53,4 +53,4 @@ Windows Clustering and SQL Server allow you to run SQL Server in Active/Active m
  If you determine that one node cannot handle all SQL Server instances in a failover scenario, an alternative is to use an Active/Active/Passive clustering model. The Active/Active/Passive clustering model greatly increases the likelihood that there will always be one Passive node available for failover scenarios.  
   
 ## See Also  
- [Checklist: Configuring SQL Server](../Topic/Checklist:%20Configuring%20SQL%20Server.md)
+ [Checklist: Configuring SQL Server](~/technical-guides/checklist-configuring-sql-server.md)

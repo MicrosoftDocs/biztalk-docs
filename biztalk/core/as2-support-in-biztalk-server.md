@@ -53,7 +53,7 @@ This topic provides a brief general overview of AS2 processing and how [!INCLUDE
 -   The BizTalk EDI Application that contains artifacts (including pipelines and schemas) that are needed to process AS2 documents.  
   
     > [!NOTE]
-    >  When you configure the AS2 feature in [!INCLUDE[prague](../includes/prague-md.md)], the configuration program creates this application. Whenever you create an application that will process AS2 messages, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](../Topic/How%20to%20Add%20a%20Reference%20to%20the%20BizTalk%20Server%20EDI%20Application.md).  
+    >  When you configure the AS2 feature in [!INCLUDE[prague](../includes/prague-md.md)], the configuration program creates this application. Whenever you create an application that will process AS2 messages, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
 -   The AS2EdiReceive pipeline that performs AS2 processing, and then EDI processing, of an EDI message received over AS2. For more information, see [AS2 Receive Components](../core/as2-receive-components.md).  
   
@@ -67,7 +67,7 @@ This topic provides a brief general overview of AS2 processing and how [!INCLUDE
   
 -   Status reporting user interface that provides comprehensive status of AS2 interchanges and correlated acknowledgments. For more information, see [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md).  
   
--   A migration tool (Party Migration Tool) enables you to migrate party data containing AS2 properties from BizTalk Server 2006 R2 or BizTalk Server 2009 to [!INCLUDE[prague](../includes/prague-md.md)]. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](../Topic/Migrating%20EDI%20Artifacts%20from%20a%20Previous%20Version%20of%20BizTalk%20Server.md).  
+-   A migration tool (Party Migration Tool) enables you to migrate party data containing AS2 properties from BizTalk Server 2006 R2 or BizTalk Server 2009 to [!INCLUDE[prague](../includes/prague-md.md)]. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
   
 ## See Also  
  [AS2 Solution Architecture](../core/as2-solution-architecture.md)   

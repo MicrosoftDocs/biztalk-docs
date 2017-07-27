@@ -60,4 +60,4 @@ When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversi
 >  The contents of the article also apply to [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] and [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)].  
   
 ## See Also  
- [Checklist: Configuring SQL Server](../Topic/Checklist:%20Configuring%20SQL%20Server.md)
+ [Checklist: Configuring SQL Server](~/technical-guides/checklist-configuring-sql-server.md)

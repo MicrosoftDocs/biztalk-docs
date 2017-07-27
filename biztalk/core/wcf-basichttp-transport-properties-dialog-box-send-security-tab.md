@@ -47,7 +47,7 @@ Use the **Security** tab to define the security capabilities of the WCF-BasicHtt
 |**TransportWithMessageCredential**|N/A|**UserName**|  
   
 ## See Also  
- [How to Configure a WCF-BasicHttp Send Port](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Send%20Port.md)   
+ [How to Configure a WCF-BasicHttp Send Port](http://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f)   
  [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)   
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
  [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)

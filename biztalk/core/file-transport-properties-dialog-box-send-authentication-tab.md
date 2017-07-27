@@ -32,6 +32,6 @@ Use the **Authentication** tab to configure the send port for the File adapter.
 |**Password**|Specify the password for the account that has access to the network share.<br /><br /> Type: String|  
   
 ## See Also  
- [How to Configure a File Send Port](../Topic/How%20to%20Configure%20a%20File%20Send%20Port.md)   
- [Restrictions on the File Mask and File Name Properties](../Topic/Restrictions%20on%20the%20File%20Mask%20and%20File%20Name%20Properties.md)   
- [Restrictions on Using Macros in File Names](../Topic/Restrictions%20on%20Using%20Macros%20in%20File%20Names.md)
+ [How to Configure a File Send Port](http://msdn.microsoft.com/library/d801c5b7-da0a-4228-af0c-c2d450c251a9)   
+ [Restrictions on the File Mask and File Name Properties](http://msdn.microsoft.com/library/d8f5afd0-a61f-4c9b-8a57-4792e3054769)   
+ [Restrictions on Using Macros in File Names](http://msdn.microsoft.com/library/ac60829d-b076-4630-aea5-a59b32d6250f)

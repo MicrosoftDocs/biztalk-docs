@@ -34,5 +34,5 @@ Use the **Proxy** tab to configure the proxy for this send port.
 |**Password**|Specify the password to use for authentication.<br /><br /> This property requires a value only if **Use proxy** is selected.<br /><br /> Type: String<br /><br /> Minimum length: 0<br /><br /> Maximum length: 256<br /><br /> The default is an empty string.|  
   
 ## See Also  
- [How to Configure a WCF-BasicHttp Send Port](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Send%20Port.md)   
- [How to Configure a WCF-BasicHttp Send Handler](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Send%20Handler.md)
+ [How to Configure a WCF-BasicHttp Send Port](http://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f)   
+ [How to Configure a WCF-BasicHttp Send Handler](http://msdn.microsoft.com/library/18dcc616-4732-42f8-bd64-e55a5ebbaa49)

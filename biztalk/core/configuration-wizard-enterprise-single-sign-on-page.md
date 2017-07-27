@@ -38,5 +38,5 @@ Use the **Enterprise Single Sign-On (SSO)** page to configure SSO settings for y
 |**Secret backup file**|Provide a file name and file path to the secret backup file. By default it is stored at \Program Files\Common Files\Enterprise Single Sign-On\\.|  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](../Topic/Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)   
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
  [Getting Started](../core/getting-started-with-biztalk-server.md)

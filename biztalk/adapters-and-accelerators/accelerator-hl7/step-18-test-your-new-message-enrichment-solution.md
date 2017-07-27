@@ -24,7 +24,7 @@ In this step, you test your solution by using the WSClient application to send a
 1.  Open a command prompt.  
   
     > [!NOTE]
-    >  Step 2 requires that you have installed the MLLP Test tool using the custom installation procedure. If the \MLLP Utilities directory containing MllpReceive.exe and MllpSend.exe does not exist on your computer, install them by performing a custom installation. For information, see [Performing a Custom Installation](../Topic/Performing%20a%20Custom%20Installation1.md).  
+    >  Step 2 requires that you have installed the MLLP Test tool using the custom installation procedure. If the \MLLP Utilities directory containing MllpReceive.exe and MllpSend.exe does not exist on your computer, install them by performing a custom installation. For information, see [Performing a Custom Installation](http://msdn.microsoft.com/library/e55c86e1-af63-49ba-8510-d177e1b96692).  
   
 2.  At the command prompt, type **cd \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\MLLP Utilities** (where \<*drive*> is your installation drive letter), and then press **Enter**.  
   

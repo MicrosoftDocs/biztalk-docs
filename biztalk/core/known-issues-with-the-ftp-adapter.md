@@ -69,5 +69,5 @@ This section contains information that may help you avoid errors.
  No action is required; this behavior is by design.  
   
 ## See Also  
- [How to Configure an FTP Receive Location](../Topic/How%20to%20Configure%20an%20FTP%20Receive%20Location.md)   
+ [How to Configure an FTP Receive Location](http://msdn.microsoft.com/library/1d8fde35-f787-4a5e-a8bd-8c418d0f75c3)   
  [Troubleshooting the FTP Adapter](../core/troubleshooting-the-ftp-adapter.md)

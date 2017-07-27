@@ -25,7 +25,7 @@ You can validate a map at design time. To do so, you use the XML Tool extensions
 1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open a project. To the project in Solution Explorer, add the map that you want to validate and its input and output message schemas.  
   
     > [!NOTE]
-    >  The message schemas are located in the appropriate subfolder under the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI folder. For more information on installing the schema files, see [How to Install EDI Schema Files](../Topic/How%20to%20Install%20EDI%20Schema%20Files.md).  
+    >  The message schemas are located in the appropriate subfolder under the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI folder. For more information on installing the schema files, see [How to Install EDI Schema Files](http://msdn.microsoft.com/library/787f45d9-d95d-40f4-a4ac-0a0e711f7550).  
   
     > [!NOTE]
     >  You do not have to build the project to validate a map.  

@@ -31,9 +31,9 @@ string STCustomCfg;
   
  For more information about the configuring the receive location of any of the native adapters, see the following topics:  
   
--   [How to Configure a File Send Port](../Topic/How%20to%20Configure%20a%20File%20Send%20Port.md)  
+-   [How to Configure a File Send Port](http://msdn.microsoft.com/library/d801c5b7-da0a-4228-af0c-c2d450c251a9)  
   
--   [How to Configure an FTP Send Port](../Topic/How%20to%20Configure%20an%20FTP%20Send%20Port.md)  
+-   [How to Configure an FTP Send Port](http://msdn.microsoft.com/library/03e45656-2f29-4410-a2ee-a830f958cb55)  
   
 -   [How to Configure an HTTP Send Port](../core/how-to-configure-an-http-send-port.md)  
   

@@ -38,5 +38,5 @@ Use the **Messages** tab to specify the data selection for the SOAP **Body** ele
 |**Include exception detail in faults**|Specify whether to return SOAP faults when an error occurs to easy debugging.<br /><br /> The default value is cleared.|  
   
 ## See Also  
- [How to Configure a WCF-BasicHttp Receive Location](../Topic/How%20to%20Configure%20a%20WCF-BasicHttp%20Receive%20Location.md)   
+ [How to Configure a WCF-BasicHttp Receive Location](http://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd)   
  [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)

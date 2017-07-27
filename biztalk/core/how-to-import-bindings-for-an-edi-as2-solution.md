@@ -25,7 +25,7 @@ This topic describes how to import the configuration of an EDI and/or AS2 soluti
   
 -   You must be logged on with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. For more information, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
--   You must have added a reference to the **BizTalk EDI Application** from a BizTalk application that will be used as an EDI application. For instructions on adding a reference to the BizTalk EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](../Topic/How%20to%20Add%20a%20Reference%20to%20the%20BizTalk%20Server%20EDI%20Application.md).  
+-   You must have added a reference to the **BizTalk EDI Application** from a BizTalk application that will be used as an EDI application. For instructions on adding a reference to the BizTalk EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
 ## Importing Bindings  
  When you import a configuration, existing EDI Properties will be overwritten. If you are importing properties for a party that has the same name as an existing party, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will override the EDI properties (or any bindings) for the existing party. In addition, if you are importing EDI global properties, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will overwrite existing EDI global properties.  
@@ -53,7 +53,7 @@ This topic describes how to import the configuration of an EDI and/or AS2 soluti
 > [!NOTE]
 >  For more information related to TPM enhancements in [!INCLUDE[prague](../includes/prague-md.md)], see [Building Blocks of a Trading Partner Management Solution](../core/building-blocks-of-a-trading-partner-management-solution.md).  
   
- Given the new TPM object model, does this mean that the EDI applications that you created in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] cannot be migrated to [!INCLUDE[prague](../includes/prague-md.md)]? The answer is no. You can reuse the existing applications from BizTalk Server 2006 R2 or BizTalk Server 2009 in [!INCLUDE[prague](../includes/prague-md.md)] by using the Party Migration Tool to migrate the party data from previous BizTalk Server versions. For more information about the tool, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](../Topic/Migrating%20EDI%20Artifacts%20from%20a%20Previous%20Version%20of%20BizTalk%20Server.md).  
+ Given the new TPM object model, does this mean that the EDI applications that you created in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] cannot be migrated to [!INCLUDE[prague](../includes/prague-md.md)]? The answer is no. You can reuse the existing applications from BizTalk Server 2006 R2 or BizTalk Server 2009 in [!INCLUDE[prague](../includes/prague-md.md)] by using the Party Migration Tool to migrate the party data from previous BizTalk Server versions. For more information about the tool, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
   
 ## See Also  
  [Importing Bindings](../core/importing-bindings2.md)
