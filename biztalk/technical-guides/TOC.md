@@ -1,4 +1,47 @@
-# [Key Monitoring Scenarios](key-monitoring-scenarios.md)
+# [BizTalk Server 2013 Performance Optimization Guide](biztalk-server-2013-performance-optimization-guide.md)
+# [BizTalk Server 2013 Monitoring Management Pack Guide](biztalk-server-2013-monitoring-management-pack-guide.md)
+## [Introduction to the BizTalk Server 2013 Monitoring Management Pack](introduction-to-the-biztalk-server-2013-monitoring-management-pack.md)
+### [What's New](what-s-new1.md)
+### [Supported Configurations](supported-configurations.md)
+## [Getting Started](getting-started8.md)
+### [Before You Import the Management Pack](before-you-import-the-management-pack.md)
+#### [Files in This Management Pack](files-in-this-management-pack.md)
+#### [Recommended Additional Management Packs](recommended-additional-management-packs.md)
+### [Import the BizTalk Server 2013 Monitoring Management Pack](import-the-biztalk-server-2013-monitoring-management-pack.md)
+### [Create a New Management Pack for Customizations](create-a-new-management-pack-for-customizations.md)
+## [Optional Configurations](optional-configurations.md)
+## [Security Considerations](security-considerations.md)
+### [Run As Profiles](run-as-profiles.md)
+### [Low-Privilege Environments](low-privilege-environments.md)
+#### [Monitoring](monitoring.md)
+#### [Discoveries](discoveries.md)
+## [Understanding Management Pack Operations](understanding-management-pack-operations.md)
+### [Objects the Management Pack Discovers](objects-the-management-pack-discovers.md)
+### [State Monitoring Definitions](state-monitoring-definitions.md)
+### [Viewing Information in the Operations Manager Console](viewing-information-in-the-operations-manager-console.md)
+### [How Health Rolls Up](how-health-rolls-up.md)
+### [Key Monitoring Scenarios](key-monitoring-scenarios.md)
+## [Troubleshooting](troubleshoot-biztalk-management-pack.md)
+
+
+
+## [Appendix: Monitors and Overrides for Management Packs](appendix-monitors-and-overrides-for-management-packs.md)
+## [Appendix: Scripts](appendix-scripts.md)
+# [Proactivity in BizTalk Server](proactivity-in-biztalk-server.md)
+# [MSCIT: Supply Chain migration from BizTalk Server 2009 hub to BizTalk Server 2013 R2 virtualized hub](mscit-supply-chain-migration-from-biztalk-2009-to-biztalk-2013-r2-virtualized.md)
+# [MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders](mscit-using-microsoft-azure-biztalk-services-for-supply-chain-orders.md)
+# [MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010](msit-real-world-migration-story-from-gentran-5-1-to-biztalk-2010.md)
+# [BizTalk Server 2010 Technical Overview](biztalk-server-2010-technical-overview.md)
+# [BizTalk Server 2010 Hyper-V Guide](biztalk-server-2010-hyper-v-guide.md)
+# [BizTalk Server 2010 Performance Optimization Guide](biztalk-server-2010-performance-optimization-guide.md)
+# [Installing BizTalk Server 2010 Accelerator for SWIFT](installing-biztalk-server-2010-accelerator-for-swift.md)
+# [Instrumentation Best Practices for High Performance BizTalk Solutions](instrumentation-best-practices-for-high-performance-biztalk-solutions.md)
+# [Installing AppFabric Connect for Services](installing-appfabric-connect-for-services.md)
+# [Extending BizTalk ESB Toolkit Capabilities with Sentinet](extending-biztalk-esb-toolkit-capabilities-with-sentinet.md)
+# [Extending BizTalk ESB Toolkit Capabilities with SOA Governance](extending-biztalk-esb-toolkit-capabilities-with-soa-governance.md)
+
+
+
 # [Updating the Bindings in an Application](updating-the-bindings-in-an-application.md)
 # [How to Update a Pipeline Using Side-by-Side Versioning](how-to-update-a-pipeline-using-side-by-side-versioning.md)
 # [Phase 2: Planning the Assessment](phase-2-planning-the-assessment.md)
@@ -6,14 +49,14 @@
 # [Maintaining BizTalk Server Databases](maintaining-biztalk-server-databases.md)
 # [Monitoring BizTalk Server Log Shipping](monitoring-biztalk-server-log-shipping.md)
 # [Checklist: Performing Monthly Performance Checks](checklist-performing-monthly-performance-checks.md)
-# [Appendix: Monitors and Overrides for Management Packs](appendix-monitors-and-overrides-for-management-packs.md)
+
 # [Configuring a Dedicated Tracking Host](configuring-a-dedicated-tracking-host.md)
 # [Optimizing Memory Usage with Streaming](optimizing-memory-usage-with-streaming.md)
 # [Monitoring and Reducing DTC Log File Disk I/O Contention](monitoring-and-reducing-dtc-log-file-disk-i-o-contention.md)
 # [Optimizing Filegroups for the Databases](optimizing-filegroups-for-the-databases1.md)
 # [How to Install and Configure Certificates with a WCF Adapter](how-to-install-and-configure-certificates-with-a-wcf-adapter.md)
 # [Deploying BizTalk Server on Hyper-V](deploying-biztalk-server-on-hyper-v.md)
-# [What's New](what-s-new1.md)
+
 # [Checklist: Measuring Performance on Hyper-V](checklist-measuring-performance-on-hyper-v.md)
 # [Large-growing BizTalk Server Database Tables](large-growing-biztalk-server-database-tables.md)
 # [Checklist: Monitoring Operational Readiness](checklist-monitoring-operational-readiness.md)
@@ -36,7 +79,7 @@
 # [Upgrading and Versioning Strategies for Applications](upgrading-and-versioning-strategies-for-applications.md)
 # [General BizTalk Server Optimizations](general-biztalk-server-optimizations1.md)
 # [Publishing Internet-facing Web Services and WCF Services](publishing-internet-facing-web-services-and-wcf-services.md)
-# [Introduction to the BizTalk Server 2013 Monitoring Management Pack](introduction-to-the-biztalk-server-2013-monitoring-management-pack.md)
+
 # [Best Practices for BizTalk Server Settings](best-practices-for-biztalk-server-settings.md)
 # [Best Practices for Maintaining Performance](best-practices-for-maintaining-performance.md)
 # [Troubleshooting Log Shipping](troubleshooting-log-shipping.md)
@@ -55,8 +98,8 @@
 # [Moving BAM Databases](moving-bam-databases.md)
 # [Best Practices for Monitoring](best-practices-for-monitoring.md)
 # [Using the Performance Analysis of Logs (PAL) Tool](using-the-performance-analysis-of-logs-pal-tool.md)
-# [BizTalk Server 2013 Monitoring Management Pack Guide](biztalk-server-2013-monitoring-management-pack-guide.md)
-# [BizTalk Server 2013 Performance Optimization Guide](biztalk-server-2013-performance-optimization-guide.md)
+
+
 # [Implementing Automated Testing](implementing-automated-testing.md)
 # [How to Add a Binding File to an Application](how-to-add-a-binding-file-to-an-application1.md)
 # [Phase 3: Preparing for the Assessment](phase-3-preparing-for-the-assessment.md)
@@ -65,31 +108,31 @@
 # [Why It Is Important to Test](why-it-is-important-to-test.md)
 # [Stopping Application Processing on the Source System](stopping-application-processing-on-the-source-system.md)
 # [Test Scenario Overview](test-scenario-overview.md)
-# [BizTalk Server 2010 Technical Overview](biztalk-server-2010-technical-overview.md)
+
 # [Low-Latency Scenario Optimizations](low-latency-scenario-optimizations1.md)
-# [Instrumentation Best Practices for High Performance BizTalk Solutions](instrumentation-best-practices-for-high-performance-biztalk-solutions.md)
+
 # [Monitoring Throttling Using Performance Threshold Rules](monitoring-throttling-using-performance-threshold-rules.md)
 # [Planning for Testing](planning-for-testing.md)
 # [Optimizing Business Activity Monitoring (BAM) Performance](optimizing-business-activity-monitoring-bam-performance.md)
 # [Restoring Databases Not Included in the Backup BizTalk Server Job](restoring-databases-not-included-in-the-backup-biztalk-server-job.md)
 # [Unit Testing](unit-testing.md)
-# [How Health Rolls Up](how-health-rolls-up.md)
+
 # [Checklist: Performing Weekly Performance Checks](checklist-performing-weekly-performance-checks.md)
 # [Operational Readiness Checklists](operational-readiness-checklists.md)
 # [Routine Monitoring Tasks](routine-monitoring-tasks.md)
 # [Optimizing Business Rule Engine (BRE) Performance](optimizing-business-rule-engine-bre-performance.md)
-# [Import the BizTalk Server 2013 Monitoring Management Pack](import-the-biztalk-server-2013-monitoring-management-pack.md)
+
 # [Monitoring and Reducing Database I/O Contention](monitoring-and-reducing-database-i-o-contention.md)
 # [Configuring BizTalk Server Log Shipping](configuring-biztalk-server-log-shipping.md)
 # [General Guidelines for Improving Operating System Performance](general-guidelines-for-improving-operating-system-performance.md)
 # [How to Move the BAM Primary Import Database](how-to-move-the-bam-primary-import-database2.md)
 # [Optimizing Performance](optimizing-performance.md)
 # [Monitoring the BizTalk Server Environment](monitoring-the-biztalk-server-environment.md)
-# [Proactivity in BizTalk Server](proactivity-in-biztalk-server.md)
+
 # [How to Export an Application to an .msi File](how-to-export-an-application-to-an-msi-file.md)
 # [Optimizing Network Performance](optimizing-network-performance.md)
-# [Extending BizTalk ESB Toolkit Capabilities with SOA Governance](extending-biztalk-esb-toolkit-capabilities-with-soa-governance.md)
-# [Appendix: Scripts](appendix-scripts.md)
+
+
 # [Step 3: Create a Load Test to Perform Multiple Unit Tests Simultaneously](step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md)
 # [Planning for Publishing Web Services](planning-for-publishing-web-services1.md)
 # [Optimizing Pipeline Performance](optimizing-pipeline-performance.md)
@@ -106,11 +149,11 @@
 # [Configuring for Disaster Recovery](configuring-for-disaster-recovery.md)
 # [Considerations While Using BizTalk Server on a 64-bit Windows Operating System](considerations-while-using-biztalk-server-on-a-64-bit-windows-operating-system.md)
 # [Scenario Overview](scenario-overview.md)
-# [Low-Privilege Environments](low-privilege-environments.md)
+
 # [Known Issues with Certificates in BizTalk Server](known-issues-with-certificates-in-biztalk-server.md)
 # [Planning the BizTalk Server Tier](planning-the-biztalk-server-tier.md)
 # [Advanced Information About Backup and Restore](advanced-information-about-backup-and-restore2.md)
-# [State Monitoring Definitions](state-monitoring-definitions.md)
+
 # [Routine Performance Checklists](routine-performance-checklists.md)
 # [Adding Artifacts to an Application](adding-artifacts-to-an-application.md)
 # [Scaling a Production BizTalk Server Environment](scaling-a-production-biztalk-server-environment.md)
@@ -134,9 +177,9 @@
 # [How to Restore Databases in the Backup BizTalk Server Job](how-to-restore-databases-in-the-backup-biztalk-server-job.md)
 # [High Availability for the Master Secret Server](high-availability-for-the-master-secret-server.md)
 # [How to Identify Bottlenecks in the Tracking Database](how-to-identify-bottlenecks-in-the-tracking-database.md)
-# [BizTalk Server 2010 Performance Optimization Guide](biztalk-server-2010-performance-optimization-guide.md)
+
 # [Automating the Build Process](automating-the-build-process.md)
-# [Run As Profiles](run-as-profiles.md)
+
 # [Windows PowerShell Scripts](windows-powershell-scripts.md)
 # [Checklist: Updating an Orchestration Using Side-by-Side Versioning](checklist-updating-an-orchestration-using-side-by-side-versioning.md)
 # [Managing BizTalk Server](managing-biztalk-server2.md)
@@ -151,7 +194,7 @@
 # [Test Results: BizTalk Server Key Performance Indicators](test-results-biztalk-server-key-performance-indicators.md)
 # [Planning for Tracking](planning-for-tracking.md)
 # [Optimizing Filegroups for the Databases](optimizing-filegroups-for-the-databases2.md)
-# [Extending BizTalk ESB Toolkit Capabilities with Sentinet](extending-biztalk-esb-toolkit-capabilities-with-sentinet.md)
+
 # [Best Practices for Administrative Maintenance](best-practices-for-administrative-maintenance.md)
 # [Pre-Configuration Database Optimizations](pre-configuration-database-optimizations2.md)
 # [Checklists for Other Important Tasks](checklists-for-other-important-tasks.md)
@@ -174,7 +217,7 @@
 # [Step 5: Perform Step Load Pattern Tests to Determine Maximum Sustainable Throughput](step-5-complete-step-load-tests-to-determine-maximum-sustainable-throughput.md)
 # [Monitoring BizTalk Server Databases](monitoring-biztalk-server-databases.md)
 # [How to Display All Management Pack Rules](how-to-display-all-management-pack-rules.md)
-# [Monitoring](monitoring.md)
+
 # [Known Issues with Deploying an Application](known-issues-with-deploying-an-application.md)
 # [Glossary](glossary8.md)
 # [Planning for Single Sign-On](planning-for-single-sign-on.md)
@@ -185,12 +228,12 @@
 # [Troubleshooting Performance Issues](troubleshooting-performance-issues3.md)
 # [What Is BizTalk Server Log Shipping?](what-is-biztalk-server-log-shipping.md)
 # [Using Visual Studio to Facilitate Automated Testing](using-visual-studio-to-facilitate-automated-testing.md)
-# [Installing BizTalk Server 2010 Accelerator for SWIFT](installing-biztalk-server-2010-accelerator-for-swift.md)
+
 # [Post-Configuration Database Optimizations](post-configuration-database-optimizations1.md)
 # [BizTalk Server Optimizations](biztalk-server-optimizations.md)
 # [Using BizUnit and LoadGen to Automate Performance and Stability Testing](using-bizunit-and-loadgen-to-automate-performance-and-stability-testing.md)
-# [MSCIT: Supply Chain migration from BizTalk Server 2009 hub to BizTalk Server 2013 R2 virtualized hub](mscit-supply-chain-migration-from-biztalk-2009-to-biztalk-2013-r2-virtualized.md)
-# [Understanding Management Pack Operations](understanding-management-pack-operations.md)
+
+
 # [Updating Database References](updating-database-references.md)
 # [Increasing Availability for BizTalk Server](increasing-availability-for-biztalk-server.md)
 # [Disaster Recovery](disaster-recovery.md)
@@ -198,25 +241,24 @@
 # [Planning for Database Performance](planning-for-database-performance.md)
 # [Best Practices for Managing Certificates](best-practices-for-managing-certificates2.md)
 # [How to Install Certificates for BizTalk Server](how-to-install-certificates-for-biztalk-server.md)
-# [Known Issues](known-issues2.md)
-# [Before You Import the Management Pack](before-you-import-the-management-pack.md)
-# [Recommended Additional Management Packs](recommended-additional-management-packs.md)
+
+
 # [Apply IIS Configuration Settings](apply-iis-configuration-settings.md)
 # [Performance Tools](performance-tools.md)
 # [Planning the Development, Testing, Staging, and Production Environments](planning-the-development-testing-staging-and-production-environments.md)
 # [Updating Applications and Artifacts](updating-applications-and-artifacts.md)
 # [Performing Functional Testing](performing-functional-testing.md)
-# [Viewing Information in the Operations Manager Console](viewing-information-in-the-operations-manager-console.md)
+
 # [Planning for Database Availability](planning-for-database-availability.md)
 # [Update References to the Tracking Analysis Server Database](update-references-to-the-tracking-analysis-server-database.md)
 # [Moving Databases](moving-databases.md)
-# [Files in This Management Pack](files-in-this-management-pack.md)
+
 # [Step 1: Create a Unit Test to Submit Documents to BizTalk Server](step-1-create-a-unit-test-to-submit-documents-to-biztalk-server.md)
 # [Administrative Maintenance](administrative-maintenance.md)
 # [Best Practices for Monitoring with Operations Manager 2007](best-practices-for-monitoring-with-operations-manager-2007.md)
-# [Troubleshooting](troubleshooting8.md)
+
 # [Optimizing IIS Performance](optimizing-iis-performance.md)
-# [Getting Started](getting-started8.md)
+
 # [Phase 1: Scoping the Assessment](phase-1-scoping-the-assessment.md)
 # [Deploying an Assembly](deploying-an-assembly.md)
 # [Configuring Batching to Improve Adapter Performance](configuring-batching-to-improve-adapter-performance.md)
@@ -243,13 +285,13 @@
 # [Bottlenecks in the Database Tier](bottlenecks-in-the-database-tier.md)
 # [How to Display Performance Collection Rules](how-to-display-performance-collection-rules.md)
 # [Best Practices for Deploying an Application](best-practices-for-deploying-an-application.md)
-# [Discoveries](discoveries.md)
+
 # [BizTalk Server Performance Testing Methodology](biztalk-server-performance-testing-methodology.md)
 # [How to Update an Assembly](how-to-update-an-assembly.md)
 # [Performing a Simple Update](performing-a-simple-update.md)
 # [Monitoring Host Instances](monitoring-host-instances.md)
 # [Monitoring BizTalk Server with System Center Operations Manager 2007](monitoring-biztalk-server-with-system-center-operations-manager-2007.md)
-# [Create a New Management Pack for Customizations](create-a-new-management-pack-for-customizations.md)
+
 # [Monitoring Applications](monitoring-applications.md)
 # [SQL Server Settings That Should Not Be Changed](sql-server-settings-that-should-not-be-changed.md)
 # [How to Disable Tracking](how-to-disable-tracking.md)
@@ -265,7 +307,7 @@
 # [Updating an Artifact](updating-an-artifact.md)
 # [Performing Unit Testing](performing-unit-testing.md)
 # [Designating a New Master Secret Server Manually](designating-a-new-master-secret-server-manually.md)
-# [Optional Configurations](optional-configurations.md)
+
 # [Planning the Database Tier](planning-the-database-tier.md)
 # [Monitor the BizTalk Server Databases](monitor-the-biztalk-server-databases.md)
 # [Planning the Environment for BizTalk Server](planning-the-environment-for-biztalk-server.md)
@@ -274,7 +316,7 @@
 # [Phase 5: Executing the Assessment](phase-5-executing-the-assessment.md)
 # [Monitoring for Throttling](monitoring-for-throttling.md)
 # [Checklist: Providing High Availability with Fault Tolerance or Load Balancing](checklist-providing-high-availability-with-fault-tolerance-or-load-balancing.md)
-# [BizTalk Server 2010 Hyper-V Guide](biztalk-server-2010-hyper-v-guide.md)
+
 # [Phase 4: Building the Assessment Environment](phase-4-building-the-assessment-environment.md)
 # [Checklist: Updating an Application Using Side-by-Side Versioning](checklist-updating-an-application-using-side-by-side-versioning.md)
 # [Bottlenecks in the BizTalk Server Tier](bottlenecks-in-the-biztalk-server-tier.md)
@@ -283,11 +325,11 @@
 # [How to Avoid Disk Contention](how-to-avoid-disk-contention2.md)
 # [How to Export Bindings to a Binding File](how-to-export-bindings-to-a-binding-file.md)
 # [Testing an Application](testing-an-application.md)
-# [Supported Configurations](supported-configurations.md)
+
 # [Update References to the BAM Analysis Server and Star Schema Database Names](update-references-to-the-bam-analysis-server-and-star-schema-database-names.md)
 # [Monitoring SQL Servers](monitoring-sql-servers.md)
 # [High Availability for BizTalk Hosts](high-availability-for-biztalk-hosts.md)
-# [MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010](msit-real-world-migration-story-from-gentran-5-1-to-biztalk-2010.md)
+
 # [Planning the BizTalk Solution](planning-the-biztalk-solution.md)
 # [Performing Load and Throughput Testing](performing-load-and-throughput-testing.md)
 # [Configuring BizTalk Server Log Shipping for Additional Databases](configuring-biztalk-server-log-shipping-for-additional-databases.md)
@@ -296,7 +338,7 @@
 # [Restoring Production from a Warm Backup](restoring-production-from-a-warm-backup.md)
 # [Investigating Bottlenecks](investigating-bottlenecks.md)
 # [Key Performance Indicators](key-performance-indicators.md)
-# [Objects the Management Pack Discovers](objects-the-management-pack-discovers.md)
+
 # [Optimizing BizTalk Server WCF Adapter Performance](optimizing-biztalk-server-wcf-adapter-performance.md)
 # [Optimizing BizTalk Server Applications](optimizing-biztalk-server-applications.md)
 # [Distributed System Problems](distributed-system-problems.md)
@@ -307,11 +349,11 @@
 # [Update References to the BAM Notification Services Databases](update-references-to-the-bam-notification-services-databases.md)
 # [Test Results: Memory Key Performance Indicators](test-results-memory-key-performance-indicators.md)
 # [Known Issues with Updating Applications and Artifacts](known-issues-with-updating-applications-and-artifacts.md)
-# [MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders](mscit-using-microsoft-azure-biztalk-services-for-supply-chain-orders.md)
+
 # [How to Configure Certificates with a SOAP Adapter](how-to-configure-certificates-with-a-soap-adapter.md)
 # [Log Shipping User Accounts and Roles](log-shipping-user-accounts-and-roles.md)
 # [Test Scenario Server Architecture](test-scenario-server-architecture.md)
-# [Installing AppFabric Connect for Services](installing-appfabric-connect-for-services.md)
+
 # [Clustering the BizTalk Server Databases](clustering-the-biztalk-server-databases2.md)
 # [Checklist: Performing Daily Maintenance Checks](checklist-performing-daily-maintenance-checks.md)
 # [Optimizing MQSeries Adapter Performance](optimizing-mqseries-adapter-performance.md)
@@ -329,7 +371,7 @@
 # [Preparing the Disaster Recovery BizTalk Servers](preparing-the-disaster-recovery-biztalk-servers.md)
 # [Clustering the Master Secret Server](clustering-the-master-secret-server.md)
 # [Restoring the BizTalk Group](restoring-the-biztalk-group.md)
-# [Security Considerations](security-considerations.md)
+
 # [Purging and Archiving Tracking Data](purging-and-archiving-tracking-data.md)
 # [Phases of a Performance Assessment](phases-of-a-performance-assessment.md)
 # [Monitoring BizTalk Server](monitoring-biztalk-server2.md)
