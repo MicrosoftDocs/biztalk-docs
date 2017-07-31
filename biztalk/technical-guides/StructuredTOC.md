@@ -71,7 +71,7 @@
 ## [Microsoft BizTalk Server 2010 Operations Guide](biztalk-server-2010-operations-guide.md)
 ### [Operations Checklists](operations-checklists.md)
 #### [Operational Readiness Checklists](operational-readiness-checklists.md)
-##### [Checklist: Getting Started with BizTalk Server](TocOutOfQuery)
+##### [Checklist: Getting Started with BizTalk Server](checklist-getting-started-with-biztalk-server.md)
 ##### [Checklist: Configuring Windows Server](checklist-configuring-windows-server.md)
 ###### [Installing COM+ Hotfix Rollup Packages](installing-com-hotfix-rollup-packages.md)
 ###### [Disabling Windows Server 2003 SP1 and SP2 Denial of Service Checking](disabling-windows-server-2003-sp1-and-sp2-denial-of-service-checking.md)
