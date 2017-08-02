@@ -16,11 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario
-In this step, you create send ports using the SQL adapter provided by [!INCLUDE[btsCoName](../../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../../includes/btsbiztalkserver2006r3-md.md)]. You use the SQL port for sending and receiving the 3A2 Price and Availability response to and from the ERP system for Contoso.  
+In this step, you create send ports using the SQL adapter provided by BizTalk Server. You use the SQL port for sending and receiving the 3A2 Price and Availability response to and from the ERP system for Contoso.  
   
 ### To configure a send port using the SQL adapter  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../../includes/btsvstudionoversion-md.md)], on the **View** menu, click **BizTalk Explorer**.  
+1.  In Visual Studio, on the **View** menu, click **BizTalk Explorer**.  
   
 2.  In BizTalk Explorer, right-click **Send Ports**, and then click **Add Send Port**.  
   
@@ -53,4 +53,4 @@ In this step, you create send ports using the SQL adapter provided by [!INCLUDE[
 16. In BizTalk Explorer, right-click **3A2SQLReqResponseSendPort**, and then click **Enlist**. Right-click it again, and click **Start**.  
   
 ## See Also  
- [Creating and Modifying the Private Process for Contoso](../../../adapters-and-accelerators/accelerator-rosettanet/creating-and-modifying-the-private-process-for-contoso.md)
+ [Creating and Modifying the Private Process for Contoso](creating-and-modifying-the-private-process-for-contoso.md)
