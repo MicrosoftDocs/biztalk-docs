@@ -22,82 +22,82 @@ ms.author: "mandia"
 manager: "dianef"
 ---
 # Orchestration Designer UI Help1
-This section provides instructions for the Orchestration Designer user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the Orchestration Designer to design and implement business processes. For more information about the Orchestration Designer, see [Creating Orchestrations Using Orchestration Designer](../Topic/Creating%20Orchestrations%20Using%20Orchestration%20Designer.md).  
+This section provides instructions for the Orchestration Designer user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the Orchestration Designer to design and implement business processes. For more information about the Orchestration Designer, see [Creating Orchestrations Using Orchestration Designer](~/core/creating-orchestrations-using-orchestration-designer.md).  
   
 ## In This Section  
   
--   [Orchestration Designer](../Topic/Orchestration%20Designer.md)  
+-   [Orchestration Designer](~/core/orchestration-designer.md)  
   
--   [Call Orchestration Shape](../Topic/Call%20Orchestration%20Shape.md)  
+-   [Call Orchestration Shape](~/core/call-orchestration-shape.md)  
   
--   [Catch Exception Block](../Topic/Catch%20Exception%20Block.md)  
+-   [Catch Exception Block](~/core/catch-exception-block.md)  
   
--   [Compensate Shape](../Topic/Compensate%20Shape.md)  
+-   [Compensate Shape](~/core/compensate-shape.md)  
   
--   [Compensation Block](../Topic/Compensation%20Block.md)  
+-   [Compensation Block](~/core/compensation-block.md)  
   
--   [Construct Message Shape](../Topic/Construct%20Message%20Shape.md)  
+-   [Construct Message Shape](~/core/construct-message-shape.md)  
   
--   [Decide Shape](../Topic/Decide%20Shape.md)  
+-   [Decide Shape](~/core/decide-shape.md)  
   
--   [Decision Branch](../Topic/Decision%20Branch.md)  
+-   [Decision Branch](~/core/decision-branch.md)  
   
--   [Delay Shape](../Topic/Delay%20Shape.md)  
+-   [Delay Shape](~/core/delay-shape.md)  
   
--   [Start Orchestration Shape](../Topic/Start%20Orchestration%20Shape.md)  
+-   [Start Orchestration Shape](~/core/start-orchestration-shape.md)  
   
--   [Listen Shape](../Topic/Listen%20Shape.md)  
+-   [Listen Shape](~/core/listen-shape.md)  
   
--   [Listen Branch](../Topic/Listen%20Branch.md)  
+-   [Listen Branch](~/core/listen-branch.md)  
   
--   [Message Assignment Shape](../Topic/Message%20Assignment%20Shape.md)  
+-   [Message Assignment Shape](~/core/message-assignment-shape.md)  
   
--   [Parallel Actions Shape](../Topic/Parallel%20Actions%20Shape.md)  
+-   [Parallel Actions Shape](~/core/parallel-actions-shape.md)  
   
--   [Parallel Branch](../Topic/Parallel%20Branch.md)  
+-   [Parallel Branch](~/core/parallel-branch.md)  
   
--   [Receive Shape](../Topic/Receive%20Shape.md)  
+-   [Receive Shape](~/core/receive-shape.md)  
   
--   [Scope Shape](../Topic/Scope%20Shape.md)  
+-   [Scope Shape](~/core/scope-shape.md)  
   
--   [Send Shape](../Topic/Send%20Shape.md)  
+-   [Send Shape](~/core/send-shape.md)  
   
--   [Role Link Shape](../Topic/Role%20Link%20Shape.md)  
+-   [Role Link Shape](~/core/role-link-shape.md)  
   
--   [Suspend Shape](../Topic/Suspend%20Shape.md)  
+-   [Suspend Shape](~/core/suspend-shape.md)  
   
--   [Group Shape](../Topic/Group%20Shape.md)  
+-   [Group Shape](~/core/group-shape.md)  
   
--   [Terminate Shape](../Topic/Terminate%20Shape.md)  
+-   [Terminate Shape](~/core/terminate-shape.md)  
   
--   [Throw Exception Shape](../Topic/Throw%20Exception%20Shape.md)  
+-   [Throw Exception Shape](~/core/throw-exception-shape.md)  
   
--   [Transform Shape](../Topic/Transform%20Shape.md)  
+-   [Transform Shape](~/core/transform-shape.md)  
   
--   [Expression Shape](../Topic/Expression%20Shape.md)  
+-   [Expression Shape](~/core/expression-shape.md)  
   
--   [Loop Shape](../Topic/Loop%20Shape.md)  
+-   [Loop Shape](~/core/loop-shape.md)  
   
--   [Call Rules Shape](../Topic/Call%20Rules%20Shape.md)  
+-   [Call Rules Shape](~/core/call-rules-shape.md)  
   
--   [Orchestration View Window](../Topic/Orchestration%20View%20Window.md)  
+-   [Orchestration View Window](~/core/orchestration-view-window.md)  
   
--   [Expression Editor](../Topic/Expression%20Editor.md)  
+-   [Expression Editor](~/core/expression-editor.md)  
   
--   [Transform Configuration Dialog Box](../Topic/Transform%20Configuration%20Dialog%20Box.md)  
+-   [Transform Configuration Dialog Box](~/core/transform-configuration-dialog-box.md)  
   
--   [Call Orchestration Configuration Dialog Box](../Topic/Call%20Orchestration%20Configuration%20Dialog%20Box.md)  
+-   [Call Orchestration Configuration Dialog Box](~/core/call-orchestration-configuration-dialog-box.md)  
   
--   [Filter Expression Dialog Box](../Topic/Filter%20Expression%20Dialog%20Box.md)  
+-   [Filter Expression Dialog Box](~/core/filter-expression-dialog-box.md)  
   
--   [Select Artifact Type Dialog Box](../Topic/Select%20Artifact%20Type%20Dialog%20Box.md)  
+-   [Select Artifact Type Dialog Box](~/core/select-artifact-type-dialog-box.md)  
   
--   [Port Configuration Wizard](../Topic/Port%20Configuration%20Wizard.md)  
+-   [Port Configuration Wizard](~/core/port-configuration-wizard.md)  
   
--   [Role Link Wizard](../Topic/Role%20Link%20Wizard.md)  
+-   [Role Link Wizard](~/core/role-link-wizard.md)  
   
--   [Configure Correlation Properties Dialog Box](../Topic/Configure%20Correlation%20Properties%20Dialog%20Box.md)  
+-   [Configure Correlation Properties Dialog Box](~/core/configure-correlation-properties-dialog-box.md)  
   
-  -   [Description Property](../Topic/Description%20Property.md)
+  -   [Description Property](~/core/description-property.md)
   
--   [Policy Configuration Dialog Box](../Topic/Policy%20Configuration%20Dialog%20Box.md)
+-   [Policy Configuration Dialog Box](~/core/policy-configuration-dialog-box.md)
