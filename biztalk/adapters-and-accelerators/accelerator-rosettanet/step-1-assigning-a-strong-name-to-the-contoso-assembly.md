@@ -49,4 +49,4 @@ In this step, you create and assign a strong name for your BizTalk assembly. A s
 7.  In Solution Explorer, right-click the **ContosoPriceAndAvailability** project, and then click **Build**. After the build has succeeded, right-click the project again, and then click **Deploy**.  
   
 ## See Also  
- [Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario](../../adapters-and-accelerators/accelerator-rosettanet/step-2-create-ports-for-contoso-3a2-price-and-availability-query/response.md)
+ [Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario](step-2-create-ports-for-contoso-3a2-price-and-availability-query.md)
