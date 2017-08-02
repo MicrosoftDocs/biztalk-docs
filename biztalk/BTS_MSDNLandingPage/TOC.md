@@ -1,1 +1,1 @@
-# [Microsoft BizTalk Server Documentation](microsoft-biztalk-server-documentation.md)
+# [BizTalk Server documentation](microsoft-biztalk-server-documentation.md)
