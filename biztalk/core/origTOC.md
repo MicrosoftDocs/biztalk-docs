@@ -2834,7 +2834,7 @@
 # [BTAD_Database](btad-database.md)
 # [Single Sign-On: Event 10770](single-sign-on-event-10770.md)
 # [Managing Distributed Navigation of Remote Activities](managing-distributed-navigation-of-remote-activities.md)
-# [Configuration error. The message signature doesn't match the signature configured for this party](configuration-error-message-signature-doesn't-match-the-signature-configured.md)
+# [Configuration error. The message signature doesn't match the signature configured for this party](configuration-error-message-signature-not-match-the-signature-configured.md)
 # [MQSeries Queues](mqseries-queues.md)
 # [EDI Support in BizTalk Server](edi-support-in-biztalk-server1.md)
 # [Step 4: Create a Sample XML BeginDoc](step-4-create-a-sample-xml-begindoc2.md)

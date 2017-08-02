@@ -3654,7 +3654,7 @@
 ###### [Configuration error. Synchronous MDN requested on a one way HTTP receive Port](configuration-error-synchronous-mdn-requested-on-a-one-way-http-receive-port.md)
 ###### [Configuration error. Synchronous MDN requested on one way HTTP send port](configuration-error-synchronous-mdn-requested-on-one-way-http-send-port.md)
 ###### [Configuration error. The message encryption doesn't match the expected value](configuration-error-the-message-encryption-doesn-t-match-the-expected-value.md)
-###### [Configuration error. The message signature doesn't match the signature configured for this party](configuration-error-message-signature-doesn't-match-the-signature-configured.md)
+###### [Configuration error. The message signature doesn't match the signature configured for this party](configuration-error-message-signature-not-match-the-signature-configured.md)
 ###### [Configuration error. The message signing doesn't match the expected value.](configuration-error-the-message-signing-doesn-t-match-the-expected-value.md)
 ###### [Control Number in ISA and IEA do not match](control-number-in-isa-and-iea-do-not-match.md)
 ###### [Control schema should have header segments in the correct order](control-schema-should-have-header-segments-in-the-correct-order.md)

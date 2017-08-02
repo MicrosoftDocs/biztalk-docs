@@ -51,7 +51,7 @@
 ####### [Step 3: Creating the Contoso LOB Application Maps for the Price and Availability Project Using BizTalk Mapper](step-3-create-contoso-lob-application-map-for-price-and-availability-in-mapper.md)
 ###### [Creating and Configuring BizTalk Ports for Contoso](creating-and-configuring-biztalk-ports-for-contoso.md)
 ####### [Step 1: Assigning a Strong Name to the Contoso Assembly](step-1-assigning-a-strong-name-to-the-contoso-assembly.md)
-####### [Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario using BizTalk Explorer](response.md)
+####### [Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario using BizTalk Explorer](step-2-create-ports-for-contoso-3a2-price-and-availability-query.md)
 ###### [Creating and Modifying the Private Process for Contoso](creating-and-modifying-the-private-process-for-contoso.md)
 ####### [Step 1: Adding an Existing BizTalk Project to the Existing Contoso Solution](step-1-adding-an-existing-biztalk-project-to-the-existing-contoso-solution.md)
 ####### [Step 2: Defining and Publishing the Vocabulary for Contoso](step-2-defining-and-publishing-the-vocabulary-for-contoso.md)
