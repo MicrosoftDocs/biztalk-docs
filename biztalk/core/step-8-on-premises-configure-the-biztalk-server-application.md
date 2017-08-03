@@ -17,7 +17,7 @@ manager: "anneta"
 # Step 8 (On Premises): Configure the BizTalk Server Application
 In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration. In this step, you’ll build, deploy, and configure the application.  
   
-### To build and deploy the application  
+## Build and deploy the application  
   
 1.  In Visual Studio, right-click the solution name in the Solution Explorer, and click **Build**.  
   
@@ -43,7 +43,7 @@ In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../inclu
   
     ```  
   
-### To configure the application  
+## Configure the application  
   
 1.  Click **Start**, point to **All Programs**, point to **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**, and then click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
   
@@ -109,7 +109,7 @@ In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../inclu
   
         |Use this|To do this|  
         |--------------|----------------|  
-        |**Address (URI)**|Type **mssql://computername/database_instance_name/databasename**. For example, to connect to a **DemoDB** database on the local computer running under the default database instance, enter `mssql://.//DemoDB`<br /><br /> For more information, see [SQL Server Connection URI](SQL%20Server%20Connection%20URI.md)|  
+        |**Address (URI)**|Type **mssql://computername/database_instance_name/databasename**. For example, to connect to a **DemoDB** database on the local computer running under the default database instance, enter `mssql://.//DemoDB`<br /><br /> For more information, see [Create the SQL Server connection URI](create-the-sql-server-connection-uri.md).|  
         |**Action**|Type **TableOp/Insert/dbo/SalesOrder**.|  
   
     5.  From WCF-SQL Transport Properties, on the **Credentials** tab, select **Do not use Single Sign-On**, and specify credentials (case-sensitive) to connect to the SQL Server database you specified in the connection string. If you want to connect using Windows Authentication, leave the credentials blank.  
@@ -157,7 +157,7 @@ In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../inclu
   
     4.  Click **OK** to save the configuration.  
   
-### To start the application  
+## Start the application  
   
 1.  From the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click **OrderProcessingDemo**, and then click **Start**.  
   

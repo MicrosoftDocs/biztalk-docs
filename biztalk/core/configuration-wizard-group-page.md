@@ -17,6 +17,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configuration Wizard, Group Page
+
+## Enable the group
 Use the **Groups** page to configure the group settings for the BizTalk server you are configuring.  
   
 |Use this|To do this|  
@@ -28,5 +30,5 @@ Use the **Groups** page to configure the group settings for the BizTalk server y
 |**BizTalk Administrative Roles**|The BizTalk Administrative Roles list provides an editable view of the BizTalk Server Administrators and Operators Windows groups.|  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md)   
+ Install [BizTalk Server 2016](biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)  
  [Getting Started](../core/getting-started-with-biztalk-server.md)

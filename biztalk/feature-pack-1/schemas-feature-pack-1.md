@@ -20,9 +20,9 @@ Managing Feature Pack 1 can be accomplished through a REST interface.
 ## Common tasks
 
 **Schemas**
-* get /Schemas [GET Schemas](Get%20Schemas.md).
-* get /Schemas/{schemaName} [GET a schemas by name](Get%20a%20schemas%20by%20name.md)
-* Put /Schemas/{schemaName} [Update Schema (only tracking options and description)](../feature-pack-1/update-schema-only-tracking-options-and-description.md)
+* get /Schemas [GET Schemas](get-schemas.md)
+* get /Schemas/{schemaName} [GET a schemas by name](get-a-schemas-by-name.md)
+* Put /Schemas/{schemaName} [Update Schema (only tracking options and description)](update-schema-only-tracking-options-and-description.md)
 
  
 

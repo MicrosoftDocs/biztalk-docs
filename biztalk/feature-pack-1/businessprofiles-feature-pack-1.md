@@ -20,7 +20,6 @@ Managing Feature Pack 1 can be accomplished through a REST interface.
 Common tasks
 ---
 
-[BusinessProfiles](BusinessProfiles.md)
 - get  /BusinessProfiles/{partyName} [Gets business profiles for a Party](../feature-pack-1/gets-business-profiles-for-a-party.md)
 - post  /BusinessProfiles/{partyName} [Creates a business profile for a party](../feature-pack-1/creates-a-business-profile-for-a-party.md)
 - delete  /BusinessProfiles/{partyName}/{profileName} [Deletes a business profile for a party](../feature-pack-1/deletes-a-business-profile-for-a-party.md)

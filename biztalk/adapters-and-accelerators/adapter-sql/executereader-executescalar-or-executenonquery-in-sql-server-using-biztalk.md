@@ -21,11 +21,11 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
   
 ## Prerequisites  
   
--   You must have completed the steps in [Before You Develop BizTalk Applications](Before%20You%20Develop%20BizTalk%20Applications4.md).  
+-   Create a [strong-name key file, and learn the tools](prerequisites-to-create-sql-applications-using-the-sql-adapter.md)
   
--   You must have configured MSDTC on computers running the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] and SQL Server. See [Before Developing Applications Using the SQL Adapter](Before%20Developing%20Applications%20Using%20the%20SQL%20Adapter.md).  
+-   [Configure MSDTC](configure-msdtc-on-sql-server-and-adapter-client.md) on computers running the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] and SQL Server.
   
-## How to Invoke the ExecuteReader operation on a SQL Server Database  
+## Invoke the ExecuteReader operation on a SQL Server Database  
  Performing an operation on a SQL Server database by using [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to develop BizTalk applications with the SQL adapter](../../adapters-and-accelerators/adapter-sql/building-blocks-to-develop-biztalk-applications-with-the-sql-adapter.md). To invoke the **ExecuteReader** operation in SQL Server, these tasks are:  
   
 1.  Create a BizTalk project, and generate schema for the **ExecuteReader** operation.  
@@ -42,15 +42,13 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
   
  This topic provides instructions to perform these tasks.  
   
-## Generating Schema  
+## Generate Schema  
  This topic demonstrates how to invoke **ExecuteReader** operation in SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. The **ExecuteReader** operation takes any SQL statement as a parameter and returns the result set for the operation as an array of DataSet. This topic shows how to execute the ADD_EMP_DETAILS stored procedure using the **ExecuteReader** operation. This stored procedure adds a record to the Employee table and returns the ID for the newly added employee. The tables and stored procedures used in the topic are created by running the scripts provided with the samples. For more information about the script, see [Samples for the SQL adapter](../../adapters-and-accelerators/adapter-sql/samples-for-the-sql-adapter.md).  
   
  To demonstrate how to invoke **ExecuteReader** operation, schema is generated for the **ExecuteReader** operation. You must create a BizTalk project and use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to generate the schema. See [Retrieving Metadata for SQL Server Operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md) for more information about how to generate schemas.  
   
-## Defining Messages and Message Types  
- The schema that you generated earlier describes the “types” required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. You must now create messages for the orchestration and link them to schemas you generated in the previous step.  
-  
-#### To create messages and link to schema  
+## Define Messages and Message Types  
+ The schema that you generated earlier describes the “types” required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. Now, create messages for the orchestration and link them to schemas you generated in the previous step.  
   
 1.  Add an orchestration to the BizTalk project. From Solution Explorer, right-click the BizTalk project name, point to **Add**, and then click **New Item**. Type a name for the BizTalk orchestration, and then click **Add**.  
   
@@ -74,13 +72,13 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
     |Identifier|Type `Response`|  
     |Message Type|From the drop-down list, expand **Schemas**, and then select *Execute_Reader.GenericOperation.ExecuteReaderResponse*.|  
   
-## Setting up the Orchestration  
- You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for performing an operation on SQL Server. In this orchestration, you drop a request message at a defined receive location. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] consumes this message and passes it on to SQL Server. The response from SQL Server is saved to another location. You must include Send and Receive shapes to send messages to SQL Server and to receive responses, respectively. A sample orchestration for invoking an **ExecuteReader** operation resembles the following:  
+## Set up the Orchestration  
+ Create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for performing an operation on SQL Server. In this orchestration, you drop a request message at a defined receive location. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] consumes this message and passes it on to SQL Server. The response from SQL Server is saved to another location. You must include Send and Receive shapes to send messages to SQL Server and to receive responses, respectively. A sample orchestration for invoking an **ExecuteReader** operation resembles the following:  
   
  ![Orchestration to invoke ExecuteReader operation](../../adapters-and-accelerators/adapter-sql/media/2ac8dc12-918a-4077-a95c-f66b1c0ef4f0.gif "2ac8dc12-918a-4077-a95c-f66b1c0ef4f0")  
   
-### Adding Message Shapes  
- Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
+### Add Message Shapes  
+ Enter the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
   
 |Shape|Shape Type|Properties|  
 |-----------|----------------|----------------|  
@@ -89,7 +87,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
 |ReceiveResponse|Receive|-   Set **Name** to *ReceiveResponse*<br />-   Set **Activate** to *False*|  
 |SendResponse|Send|-   Set **Name** to *SendResponse*|  
   
-### Adding Ports  
+### Add Ports  
  Make sure you specify the following properties for each of the logical ports. The names listed in the Port column are the names of the ports as displayed in the orchestration.  
   
 |Port|Properties|  
@@ -98,7 +96,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
 |LOBPort|-   Set **Identifier** to *LOBPort*<br />-   Set **Type** to *LOBPortType*<br />-   Set **Communication Pattern** to *Request-Response*<br />-   Set **Communication Direction** to *Send-Receive*|  
 |ResponseOut|-   Set **Identifier** to *ResponseOut*<br />-   Set **Type** to *ResponseOutType*<br />-   Set **Communication Pattern** to *One-Way*<br />-   Set **Communication Direction** to *Send*|  
   
-### Specify Messages for Action Shapes, and Connect Them to Ports  
+### Enter Messages for Action Shapes, and Connect Them to Ports  
  The following table specifies the properties and their values that you should set to specify messages for action shapes and to link the messages to the ports. The names listed in the Shape column are the names of the message shapes as displayed in the orchestration mentioned earlier.  
   
 |Shape|Properties|  
@@ -112,7 +110,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
   
  You must now build the BizTalk solution and deploy it to BizTalk Server. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).
   
-## Configuring the BizTalk Application  
+## Configure the BizTalk Application  
  After you have deployed the BizTalk project, the orchestration you created earlier is listed under the Orchestrations pane in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must use the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to configure the application. For more information about configuring an application, see [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md).
   
  Configuring an application involves:  
@@ -130,8 +128,8 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
         > [!NOTE]
         >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).
   
-## Starting the Application  
- You must start the BizTalk application for invoking the **ExecuteReader** operation in the SQL Server database. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).
+## Start the Application  
+ Start the BizTalk application for invoking the **ExecuteReader** operation in the SQL Server database. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).
   
  At this stage, make sure:  
   
@@ -143,7 +141,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes ge
   
 -   The BizTalk orchestration for the operation is running.  
   
-## Executing the Operation  
+## Execute the Operation  
  After you run the application, you must drop a request message to the FILE receive location. The schema for the request message must conform to the schema for the **ExecuteReader** operation you generated earlier. For example, the request message to invoke the ADD_EMP_DETAILS using an **ExecuteReader** operation is:  
   
 ```  

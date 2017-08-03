@@ -17,12 +17,14 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# MQSeries Adapter Security
-MQSeries adapter security begins with securing your BizTalk and MQSeries servers. For information about securing BizTalk Server, see [Security and Protection1](Security%20and%20Protection10.md) in Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help. For information about MQSeries Server security, see the IBM MQSeries Server documentation.  
+# Security with the MQSeries adapter
+
+MQSeries adapter security begins with securing your BizTalk and MQSeries servers. For information about securing BizTalk Server, see [Secure and protect your data](secure-and-protect-your-biztalk-messages.md). For information about MQSeries Server security, see the IBM MQSeries Server documentation.  
   
 > [!NOTE]
 >  The adapter automatically uses packet privacy for sending and receiving messages between BizTalk Server and MQSeries Server.  
-  
+
+## Adapter security  
  Using the adapter itself securely requires attention to four areas:  
   
 -   Choosing the application identity and members for MQSAgent  

@@ -36,7 +36,7 @@ In this tutorial, you will develop a functional adapter using the [!INCLUDE[afpr
   
 -   Synchronous inbound, that is, the consuming client listens for data or events from the target system via the adapter. To support synchronous inbound, implement the <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler> interface.  
   
- For more information about the message exchange patterns, see [Using Messaging Components](Using%20Messaging%20Components.md).  
+ For more information about the message exchange patterns, see [Architecture overview](architecture-overview-of-the-wcf-lob-adapter-sdk.md).  
   
 > [!NOTE]
 >  The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] shows the message exchange pattern as data flow in the UI.  

@@ -20,6 +20,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Groups
+
+## Overview
 The *BizTalk group* is a unit of organization that usually represents an enterprise, department, hub, or other business unit that requires a contained BizTalk Server implementation. The BizTalk group has a one-to-one relationship with a BizTalk Server Management database (known as the BizTalk Server Configuration database in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]).  
   
 > [!NOTE]
@@ -30,6 +32,6 @@ The *BizTalk group* is a unit of organization that usually represents an enterpr
  You must specify the same BizTalk Server Management database for each server installation in the group so that you can administer each server from the administration console.  
   
 ## See Also  
- [Configuring Groups Using the BizTalk Server Configuration](Configuring%20Groups%20Using%20the%20BizTalk%20Server%20Configuration.md)   
+ [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)   
  [Managing Groups](../core/managing-groups.md)   
  [Entities](../core/entities.md)

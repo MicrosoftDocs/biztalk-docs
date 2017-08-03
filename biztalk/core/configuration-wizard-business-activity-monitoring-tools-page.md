@@ -17,6 +17,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configuration Wizard, Business Activity Monitoring - Tools Page
+
+## Enable BAM and analysis
 Use the **Business Activity Monitoring - Tools** page to configure the server with monitoring tools for business users.  
   
 |Use this|To do this|  
@@ -40,5 +42,5 @@ Use the **Business Activity Monitoring - Tools** page to configure the server wi
 |**Prefix for Alerts Database Names**|Type a prefix that will be used for the Alerts databases.|  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](Installation%20Overview%20for%20BizTalk%20Server%202013%20and%202013%20R2.md) 
+ Install [BizTalk Server 2016](biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)  
  [Getting Started](../core/getting-started-with-biztalk-server.md)

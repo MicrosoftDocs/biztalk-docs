@@ -243,5 +243,5 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
 5.  Save and close the machine.config file.  
   
 ## Remove the custom RFCs  
- You must complete this step to remove the custom RFCs that you installed in the SAP system. To remove the custom RFC, see [Removing Custom RFCs](Removing%20Custom%20RFCs%20for%20the%20Data%20Provider%20for%20SAP.md) in the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] documentation.  
+Complete this step to remove the custom RFCs that you installed in the SAP system. See [Install or remove custom RFCs](install-custom-rfcs-for-the-data-provider-for-sap.md).  
   
