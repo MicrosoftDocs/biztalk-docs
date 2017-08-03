@@ -47,7 +47,8 @@ There are a few steps involved for BizTalk Server to receive messages from a log
 
 The Logic App adapter is a separate download, and is not included with the BizTalk Server installation. 
 
-> [!IMPORTANT] To download the LogicAppAdapter.iso:
+> [!IMPORTANT] 
+> To download the LogicAppAdapter.iso:
 > 
 > 1. Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and save. 
 > 2. Open the LogicAppAdapter.iso, and run the **LogicApp Adapter.msi** file to install.
@@ -75,7 +76,8 @@ The IIS applications use the Management and ReceiveService services.
 
 You can run the IIS applications using a new application pool, or an existing application pool. The identity of the AppPool requires membership to the same groups as the account that runs the BizTalk services, such as the BizTalk Application Users and BizTalk Isolated Host Users groups.  
 
-> [!TIP] If you create a new application pool, then keep the default .NET CLR version, and managed pipeline. Remember, choose an identity (Advanced Settings) that has membership to the same BizTalk groups as your BizTalk service account. 
+> [!TIP] 
+> If you create a new application pool, then keep the default .NET CLR version, and managed pipeline. Remember, choose an identity (Advanced Settings) that has membership to the same BizTalk groups as your BizTalk service account. 
 
 #### Create the Management IIS application
 The URL of this IIS application is used by the BizTalk Connector (in your logic app) to use the data gateway on your BizTalk Server.
@@ -127,11 +129,13 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
 5. Select **Create**. 
 6. Configure the action. For **Body**, select the HTTP body output. For **Schema**, select the schema you want to use. 
 
-	> [!NOTE] This step assumes you are familiar with schemas in BizTalk, and know which schema you want. If you're not sure, then deploy the HelloWorld SDK sample, update its artifacts to use the Logic App adapter, and use its schema and sample message. 
+	> [!NOTE] 
+	> This step assumes you are familiar with schemas in BizTalk, and know which schema you want. If you're not sure, then deploy the HelloWorld SDK sample, update its artifacts to use the Logic App adapter, and use its schema and sample message. 
 
 7. Add a new step, and select the **BizTalk Server - Send message** action. For  **Receive Location**, select the URL from the drop-down list, or enter the fully qualified domain name (FQDN) of the ReceiveService IIS application URL. For example, enter `http://BizTalkServerName.corp.contoso.com/ReceiveWCFService/Service1.svc`.
 
-	> [!TIP] When you create the receive location, this exact URL will also be entered in the receive location transport properties as the **Public Address** (General tab).
+	> [!TIP] 
+	> When you create the receive location, this exact URL will also be entered in the receive location transport properties as the **Public Address** (General tab).
 
 	For **Body**, select the body output from the previous BizTalk Server action. 
 
@@ -141,7 +145,8 @@ When you save, the HTTP Request trigger automatically creates a URL. Copy this U
 
 ### Step 4: Create a receive port and a receive location
 
-> [!NOTE] Instead of creating your own receive ports and receive location, you can deploy the HelloWorld SDK sample. Update the artifacts to use the Logic Apps adapter. 
+> [!NOTE] 
+> Instead of creating your own receive ports and receive location, you can deploy the HelloWorld SDK sample. Update the artifacts to use the Logic Apps adapter. 
  
 This section lists the steps to create your own artifacts. 
 
@@ -252,7 +257,8 @@ For BizTalk Server to send messages to a logic app, the logic app must have a **
 	  2. Select the **When an HTTP request is received** card, and copy the **URL**. 
 	  3. In your send port, paste this URL in the **Trigger (Callback URI)** property.
 
-	>[!TIP] You can also use your management APIs to get this URI.
+	> [!TIP] 
+	> You can also use your management APIs to get this URI.
 
 	**Option 2** : If you don't know the Callback URI for your trigger, select **Configure**, and sign-in to Azure. Then, use the drop-down lists to choose your **Subscription**, **Resource Group**, **Logic App**, and **Trigger**.
  

@@ -23,7 +23,8 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 |Memory	| 2 GB or more|
 |Hard disk	|10 GB of available hard disk space for a complete installation, including the operating system and all prerequisite software. The hard disk must be NTFS formatted.|
 
-> [!TIP] The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx). 
+> [!TIP] 
+> The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx). 
 
 
 ## Software Requirements

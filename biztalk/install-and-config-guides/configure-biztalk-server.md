@@ -228,7 +228,8 @@ BAM alerts require BAM tools to be enabled.
 
 ### Configure Windows SharePoint Services web service - BizTalk Server 2013 and R2 only 
 
-> [!IMPORTANT] This section ONLY applies to BizTalk Server 2013 R2 and BizTalk Server 2013. If you're not using BizTalk Server 2013 R2 or BizTalk Server 2013, then skip this section.
+> [!IMPORTANT] 
+> This section ONLY applies to BizTalk Server 2013 R2 and BizTalk Server 2013. If you're not using BizTalk Server 2013 R2 or BizTalk Server 2013, then skip this section.
 
 * This SharePoint Services web service (SSOM) is removed starting with BizTalk Server 2016, and deprecated in BizTalk Server 2013 R2. It is replaced with the SharePoint Services Adapter (CSOM). The CSOM option is not displayed in the BizTalk configuration. The CSOM option is installed automatically with BizTalk, just as the File adapter, or the HTTP adapter is installed automatically.
 

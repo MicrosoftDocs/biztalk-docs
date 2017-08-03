@@ -31,7 +31,8 @@ There may be times when you want to replace either the source or destination sch
   
      ![Select the Schema](../core/media/biztalk-typepicker.gif "BizTalk_TypePicker")  
 
-    > [!TIP] **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, you can resize the Type Picker window to see the full name of your schema.
+    > [!TIP] 
+    > **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, you can resize the Type Picker window to see the full name of your schema.
       
      If only a single root exists in the replacement schema, or a root node has been established for the replacement schema using the **Root Reference** property of the **Schema** node, the replacement schema opens in the relevant pane, and you will not need to perform step 3.  
   

@@ -88,7 +88,8 @@ Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], you can select 
 4. In Settings Dashboard, the general and throttling settings can be set, and applied to the multiple hosts you selected. 
 5. Next, select **Host Instances**. In the host instances list, use the CTRL or SHIFT keys to select multiple host instances simultaneously. In **Settings**, the .NET CLR and orchestration throttling settings can be applied to the multiple host instances you selected. 
 
-> [!NOTE] You can select multiple host and host instances that are the same Host Type. If the host type is different, the **Settings** option is grayed out. For example, if you multi-select an in-process host and an isolated host, then **Settings** is grayed out.
+> [!NOTE]
+> You can select multiple host and host instances that are the same Host Type. If the host type is different, the **Settings** option is grayed out. For example, if you multi-select an in-process host and an isolated host, then **Settings** is grayed out.
 
 #### Filter artifacts in your application
 Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], you can search for artifacts in your application. For example, you can search for a specific schema or an orchestration in an application. 

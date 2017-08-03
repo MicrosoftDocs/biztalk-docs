@@ -24,7 +24,8 @@ Install BizTalk Server on a single computer.
 * **Account names** – Use the default account names whenever possible. The BizTalk Server setup automatically enters the default accounts. If there are multiple BizTalk Server groups within the Domain, change the account names to avoid conflicts. If you change the names, BizTalk Server supports only *NetBIOS domain name\user* for service accounts and Windows groups.
 * **Account names with BAM Management Web Service** – BizTalk Server does not support built-in accounts or accounts without passwords for the BAM Management Web Service User. The web service accesses the BizTalk Server database and these accounts may suggest a security threat.
 
-    > [!NOTE] Configuring BizTalk Server with these typs of accounts may succeed, but the BAM Management Web Service fails. Built-in accounts or accounts without passwords can be used for the BAM Application pool.
+    > [!NOTE] 
+    > Configuring BizTalk Server with these typs of accounts may succeed, but the BAM Management Web Service fails. Built-in accounts or accounts without passwords can be used for the BAM Application pool.
 
 * **BizTalk Assembly Viewer** – Not supported on a 64-bit platform. 
 * **Install and Uninstall** – Uninstalling BizTalk Server requires manually deleting the BizTalk Server databases. If you are installing BizTalk Server as a developer or evaluator, use a virtual machine. If you need to reinstall, you can easily roll back the virtual machine without having to uninstall and delete the databases.

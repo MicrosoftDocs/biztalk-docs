@@ -48,7 +48,8 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
   
          Here, **GET** is the HTTP verb and **On_Time_Performance** is appended to the base URI to construct a unique resource URL to retrieve flight delays.  
          
-         > [!TIP] Within the URL field, any special XML characters must be "escaped". This ensures that the special XML characters are processed, and preserved by the port. For example, the `&` special character must be escaped as `&amp;`. 
+         > [!TIP] 
+         > Within the URL field, any special XML characters must be "escaped". This ensures that the special XML characters are processed, and preserved by the port. For example, the `&` special character must be escaped as `&amp;`. 
            >
            >From: 
            >`Url=”/Customer?{ID}& group=Location”`
