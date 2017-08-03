@@ -53,7 +53,7 @@ Every application built on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/
   
 ## See Also  
  [The BizTalk Server Messaging Engine](../core/the-biztalk-server-messaging-engine.md)   
-Install [BizTalk Server 2016](biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)  
+Install [BizTalk Server 2016](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)    
 [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)  
  [Deploying and Managing BizTalk Applications](../core/deploying-and-managing-biztalk-applications.md)   
  [Using the Group Hub Page](../core/using-the-group-hub-page.md)

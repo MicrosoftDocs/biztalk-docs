@@ -30,5 +30,5 @@ Use the **Runtime** page to configure the BizTalk Server runtime on this compute
 |**Windows Groups**|The Windows Groups list provides an editable view of the BizTalk Host and Isolated Hosts Windows groups.|  
   
 ## See Also  
- Install [BizTalk Server 2016](biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)  
+Install [BizTalk Server 2016](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)    
  [Getting Started](../core/getting-started-with-biztalk-server.md)

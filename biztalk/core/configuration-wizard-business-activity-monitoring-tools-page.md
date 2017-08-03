@@ -42,5 +42,5 @@ Use the **Business Activity Monitoring - Tools** page to configure the server wi
 |**Prefix for Alerts Database Names**|Type a prefix that will be used for the Alerts databases.|  
   
 ## See Also  
- Install [BizTalk Server 2016](biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)  
+ Install [BizTalk Server 2016](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)  
  [Getting Started](../core/getting-started-with-biztalk-server.md)

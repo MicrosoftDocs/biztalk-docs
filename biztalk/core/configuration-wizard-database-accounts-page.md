@@ -27,5 +27,5 @@ Use the **Databases** page to edit the server name and database name for the sel
 |**Database name**|Type the name of the database for this feature.|  
   
 ## See Also  
- Install [BizTalk Server 2016](biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)     
+Install [BizTalk Server 2016](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md) or [BizTalk Server 2013 or R2](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)       
  [Getting Started](../core/getting-started-with-biztalk-server.md)
