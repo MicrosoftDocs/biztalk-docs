@@ -32,11 +32,11 @@ In this tutorial, you will develop a functional adapter using the [!INCLUDE[afpr
 ## Message Exchange Patterns  
  The echo adapter supports the following two message exchange patterns:  
   
--   Synchronous outbound, that is, the consuming client sends the WCF request message via the adapter to the target system, and then waits to receive a WCF response message from the target system via the adapter. This is the most common message exchange pattern for an adapter. To support synchronous outbound, implement the <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler> interface.  
+-   Synchronous outbound, that is, the consuming client sends the WCF request message via the adapter to the target system, and then waits to receive a WCF response message from the target system via the adapter. This is the most common message exchange pattern for an adapter. To support synchronous outbound, implement the  `Microsoft.ServiceModel.Channels.Common.IOutboundHandler` interface.  
   
--   Synchronous inbound, that is, the consuming client listens for data or events from the target system via the adapter. To support synchronous inbound, implement the <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler> interface.  
+-   Synchronous inbound, that is, the consuming client listens for data or events from the target system via the adapter. To support synchronous inbound, implement the  `Microsoft.ServiceModel.Channels.Common.IInboundHandler` interface.  
   
- For more information about the message exchange patterns, see [Using Messaging Components](Using%20Messaging%20Components.md).  
+ For more information about the message exchange patterns, see [Architecture overview](architecture-overview-of-the-wcf-lob-adapter-sdk.md).  
   
 > [!NOTE]
 >  The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] shows the message exchange pattern as data flow in the UI.  
@@ -67,33 +67,33 @@ EchoMainCategory
   
 |**Name**|**Category**|**Data Type**|**Description**|  
 |--------------|------------------|-------------------|---------------------|  
-|Count|Misc|<xref:System.Int32>|Used to echo the input the specified number of times to the calling client.<br /><br /> Default = 5|  
-|EnableConnectionPooling|Misc|<xref:System.Boolean>|Used to enable or disable connection pooling for the adapter.<br /><br /> Default = true, meaning that the connection pooling is enabled in runtime engine of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].|  
-|InboundFileFilter|Inbound|<xref:System.String>|Used for the inbound scenario only and used by the FileSystemWatcher to monitor the files of the extension.<br /><br /> Default=*.txt|  
-|InboundFileSystemWatcherFolder|Inbound|<xref:System.String>|Used to set the folder where the files will be dropped for FileSystemWatcher to raise notification to the adapter.<br /><br /> Default = c:\inbound\watcher.|  
+|Count|Misc|System.Int32|Used to echo the input the specified number of times to the calling client.<br /><br /> Default = 5|  
+|EnableConnectionPooling|Misc|System.Boolean|Used to enable or disable connection pooling for the adapter.<br /><br /> Default = true, meaning that the connection pooling is enabled in runtime engine of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].|  
+|InboundFileFilter|Inbound|System.String|Used for the inbound scenario only and used by the FileSystemWatcher to monitor the files of the extension.<br /><br /> Default=*.txt|  
+|InboundFileSystemWatcherFolder|Inbound|System.String|Used to set the folder where the files will be dropped for FileSystemWatcher to raise notification to the adapter.<br /><br /> Default = c:\inbound\watcher.|  
   
 ## Connection Properties  
  The echo adapter exposes the following connection properties.  
   
 |**Name**|**Data Type**|**Description**|  
 |--------------|-------------------|---------------------|  
-|Application|<xref:System.String>|The application name within the LOB system. This property is for illustrative purpose. The echo adapter does not involve any LOB system.<br /><br /> Default = lobapplication|  
-|EnableAuthentication|<xref:System.Boolean>|When true, the adapter expects a value in the username field within the client credentials.<br /><br /> Default = false|  
-|Hostname|<xref:System.String>|The server name where an LOB system resides. This property is for illustrative purpose. The echo adapter does not involve any LOB system.<br /><br /> Default = lobhostname|  
+|Application|System.String|The application name within the LOB system. This property is for illustrative purpose. The echo adapter does not involve any LOB system.<br /><br /> Default = lobapplication|  
+|EnableAuthentication|System.Boolean|When true, the adapter expects a value in the username field within the client credentials.<br /><br /> Default = false|  
+|Hostname|System.String|The server name where an LOB system resides. This property is for illustrative purpose. The echo adapter does not involve any LOB system.<br /><br /> Default = lobhostname|  
   
 ## Interface Implementation  
  The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] defines a collection of classes and interfaces that must be implemented to support specific features of the adapter. The following table describes those classes and interfaces, their descriptions, and when to implement them.  
   
 |**Class/Interface**|**When to implement**|**Description**|  
 |--------------------------|---------------------------|---------------------|  
-|<xref:Microsoft.ServiceModel.Channels.Common.IConnection>|If you need to define the connection to the target system.|Defines the connection to the target system.|  
-|<xref:Microsoft.ServiceModel.Channels.Common.IConnectionFactory>|If you need to create a connection to the target system.|Creates the connection to the target system.|  
-|<xref:Microsoft.ServiceModel.Channels.Common.ConnectionUri>|If you need to manage a connection Uri.<br /><br /> If you need to categorize connection property within the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool.|Manages a connection Uri for the target system.|  
-|<xref:Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler>|Your adapter must support metadata resolve capability.|Resolves operation and type metadata.|  
-|<xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler>|If your adapter supports metadata search capability.|Searches for the operations within the target system.|  
-|<xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler>|Your adapter must support browse capability|Browses for the operations within the target system.|  
-|<xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler>|If your adapter typically needs to support outbound capability.|Transforms the incoming WCF request message into a target system message, invokes target system specific function, and then transforms the response into an outgoing WCF response message.|  
-|<xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler>|If your adapter supports inbound capability.|Listens for data and/or events from the target system.|  
+|Microsoft.ServiceModel.Channels.Common.IConnection|If you need to define the connection to the target system.|Defines the connection to the target system.|  
+|Microsoft.ServiceModel.Channels.Common.IConnectionFactory|If you need to create a connection to the target system.|Creates the connection to the target system.|  
+|Microsoft.ServiceModel.Channels.Common.ConnectionUri|If you need to manage a connection Uri.<br /><br /> If you need to categorize connection property within the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool.|Manages a connection Uri for the target system.|  
+|Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler|Your adapter must support metadata resolve capability.|Resolves operation and type metadata.|  
+|Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler|If your adapter supports metadata search capability.|Searches for the operations within the target system.|  
+|Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler|Your adapter must support browse capability|Browses for the operations within the target system.|  
+|Microsoft.ServiceModel.Channels.Common.IOutboundHandler|If your adapter typically needs to support outbound capability.|Transforms the incoming WCF request message into a target system message, invokes target system specific function, and then transforms the response into an outgoing WCF response message.|  
+|Microsoft.ServiceModel.Channels.Common.IInboundHandler|If your adapter supports inbound capability.|Listens for data and/or events from the target system.|  
   
  To simplify your adapter development, use the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] to generate your adapter project, which creates a set of derived classes tailored to your adapter features.  
   

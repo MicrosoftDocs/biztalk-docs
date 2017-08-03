@@ -33,9 +33,8 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is i
   
 -   Web Service Description Language (WSDL) and XML Schema  
   
- You should also be familiar with the operation of the target system as well as the technology used to expose the target system API.  
-  
+ You should also be familiar with the operation of the target system as well as the technology used to expose the target system API.    
 
   
 ## See Also  
- [Microsoft Windows Communication Foundation Line of Business Adapter SDK](Microsoft%20Windows%20Communication%20Foundation%20Line%20of%20Business%20Adapter%20SDK1.md)
+[Understand the architecture and different components of the WCF LOB Adapter SDK](understand-the-architecture-and-different-components-of-the-wcf-lob-adapter-sdk.md)

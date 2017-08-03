@@ -67,4 +67,4 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] exte
  In the case of a [!INCLUDE[nextref_btsWinCommFoundation_md](../../includes/nextref-btswincommfoundation-md.md)] service, messages simply pass through without being resolved through metadata.  
   
 ## See Also  
- [BizTalk Adapter for Oracle Database and the WCF LOB Adapter SDK](BizTalk%20Adapter%20for%20Oracle%20Database%20and%20the%20WCF%20LOB%20Adapter%20SDK.md)
+ [BizTalk Adapter for Oracle Database and the WCF LOB Adapter SDK](../adapter-oracle-database/architecture-overview-of-the-biztalk-adapter-for-oracle-database.md)

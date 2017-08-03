@@ -19,7 +19,7 @@ Managing Feature Pack 1 can be accomplished through a REST interface.
 
 Common tasks
 ---
-[Applications](Applications.md)
+
 - get  /Applications [GET Applications](../feature-pack-1/get-applications.md)
 - post  /Applications [Create an Application](../feature-pack-1/create-an-application.md)
 - delete  /Applications/{applicationName} [Delete API.](../feature-pack-1/delete-api.md)

@@ -17,7 +17,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Use Expressions to Assign Values to Dynamic Ports
+# Use Expressions to Assign Values to Dynamic Ports
+
+## Assign values
 If a send port is marked as dynamic, you can assign to it the value of some variable of type string that contains the URI of the port you want to use in the Expression shape. For example,  
   
 ```  
@@ -39,4 +41,4 @@ MyOutgoingMessage((MSMQ.Transactional)=true;
 ```  
   
 ## See Also  
- [Restrictions on Using Macros in File Names](Restrictions%20on%20Using%20Macros%20in%20File%20Names.md)
+[Restrictions when configuring the File adapter](restrictions-when-configuring-the-file-adapter.md)

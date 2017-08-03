@@ -32,5 +32,5 @@ The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssh
  Audit logs enable you to store information about the actions performed by various clients on your enterprise software, and helps usage monitoring and problem tracking. However, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] does not provide any way to manage audit logs for the actions performed by the adapter clients in Oracle E-Business Suite. This might pose a security threat as the adapter clients can repudiate the actions performed by them in Oracle E-Business Suite. To mitigate this issue, you must enable audit trail in Oracle to log the actions performed by the adapter clients in Oracle E-Business Suite. For information about how you can set up Oracle audit trails, see the “Oracle Workflow - Oracle E-Business Suite Process” white paper at [http://go.microsoft.com/fwlink/?LinkId=136388](http://go.microsoft.com/fwlink/?LinkId=136388).  
   
 ## See Also  
- [Security and Protection10](Security%20and%20Protection10.md)  
+ [Secure your Oracle EBS applications](secure-your-oracle-ebs-applications.md)  
  [Best practices to secure the Oracle E-Business Suite adapter](../../adapters-and-accelerators/adapter-oracle-ebs/best-practices-to-secure-the-oracle-e-business-suite-adapter.md)

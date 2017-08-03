@@ -88,4 +88,4 @@ This section provides best practices that you should follow to more completely p
  For more information about improving security when you enable diagnostic tracing, see "Security Concerns and Useful Tips for Tracing" at [http://go.microsoft.com/fwlink/?LinkId=89796](http://go.microsoft.com/fwlink/?LinkId=89796). For more information about improving security when you enable message logging, see "Security Concerns for Message Logging" at [http://go.microsoft.com/fwlink/?LinkId=89797](http://go.microsoft.com/fwlink/?LinkId=89797).  
   
 ## See Also  
- [Security and Protection10](Security%20and%20Protection10.md)
+ [Secure your Oracle EBS applications](secure-your-oracle-ebs-applications.md)

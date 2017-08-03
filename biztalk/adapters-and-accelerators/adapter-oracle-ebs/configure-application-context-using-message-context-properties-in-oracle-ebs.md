@@ -29,7 +29,7 @@ To perform operations on Oracle E-Business Suite artifacts using the [!INCLUDE[a
   
  Adapter clients must set the message context properties on the message that is sent to Oracle E-Business Suite to invoke an operation on Oracle E-Business Suite. The messages in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] are immutable. Hence, clients must first create a message from the existing message, and then set the message context properties on the new message. For the procedure described in this section, assume that the existing message is called **Request**, and the new message is called **New_Request**.  
   
-### To set the message context properties for BizTalk applications  
+## Set the message context properties for BizTalk applications  
   
 1.  Open the BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
@@ -74,10 +74,8 @@ To perform operations on Oracle E-Business Suite artifacts using the [!INCLUDE[a
   
     5.  On the **Options** tab, specify the options for installing the BizTalk assembly to the global assembly cache (GAC), and then click **OK**.  
   
-## Setting the Language for Performing Operations  
+## Set the Language for Performing Operations  
  The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports the Multi-Language Support (MLS) feature of Oracle E-Business Suite, and allows you to specify a language while performing operations. The adapter exposes the **Language** message context property to specify a language for performing operations.  
   
  The value specified for the **Language** message context property overrides the value of the **Language** binding property under the **MlsSettings** binding property. For more information about the **MlsSettings** binding property, see [Read about the BizTalk Adapter for Oracle E-Business Suite binding properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
   
-## See Also  
- [How Do I?](How%20Do%20I?3.md)

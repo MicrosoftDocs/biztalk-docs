@@ -20,7 +20,6 @@ Managing Feature Pack 1 can be accomplished through a REST interface.
 Common tasks
 ---
 
-[OperationalData](OperationalData.md)
 - get  /OperationalData/Instances [Get Instances](../feature-pack-1/get-instances.md)
 - put  /OperationalData/Instances/Terminate/{instanceId} [Terminate instance](../feature-pack-1/terminate-instance.md)
 - put  /OperationalData/Instances/Resume/{instanceId} [Resume instance](../feature-pack-1/resume-instance.md)

@@ -19,7 +19,6 @@ Managing Feature Pack 1 can be accomplished through a REST interface.
 
 ## Common tasks
 
-[Batches](Batches.md)
 - get  /Batches/{senderParty}/{receiverParty}/{agreementName} [Get batches from one party to another](../feature-pack-1/get-batches-from-one-party-to-another.md)
 - post  /Batches/{senderParty}/{receiverParty}/{agreementName} [Create batch.](../feature-pack-1/create-batch.md)
 - delete  /Batches/{senderParty}/{receiverParty}/{agreementName}/{batchName} [Delete batch.](../feature-pack-1/delete-batch.md)

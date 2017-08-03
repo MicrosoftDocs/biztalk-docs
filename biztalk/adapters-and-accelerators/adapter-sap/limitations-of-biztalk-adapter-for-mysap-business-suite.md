@@ -18,12 +18,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Limitations of BizTalk Adapter for mySAP Business Suite
+
+## Limitations list
 The following are known limitations of the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]:  
   
 -   The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] is not compatible with Microsoft BizTalk Adapter for mySAP Business Suite, the previous release of the adapter. This release of the adapter does not support sending and receiving messages having schemas generated using the earlier version of the adapter.  
-  
-    > [!NOTE]
-    >  You can modify the BizTalk projects for previous version of the SAP adapter to use the new WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. For more information, see [Migrating BizTalk Projects Created Using the Previous Version of the SAP Adapter](Migrating%20BizTalk%20Projects%20Created%20Using%20the%20Previous%20Version%20of%20the%20SAP%20Adapter.md).  
   
 -   The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] does not support RFCs with complex parameter types, including ITAB II (hierarchical) table types.  
   

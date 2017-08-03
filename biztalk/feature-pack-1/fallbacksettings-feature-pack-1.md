@@ -19,6 +19,5 @@ Managing Feature Pack 1 can be accomplished through a REST interface.
 
 ## Common tasks
 
-[FallbackSettings](FallbackSettings.md)
 - get  /FallbackSettings [Get all fallback settings](../feature-pack-1/get-all-fallback-settings.md)
 - put  /FallbackSettings [Update fallback settings](../feature-pack-1/update-fallback-settings.md)

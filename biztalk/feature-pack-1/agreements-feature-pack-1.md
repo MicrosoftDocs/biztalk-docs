@@ -19,7 +19,6 @@ Managing Feature Pack 1 can be accomplished through a REST interface.
 
 Common tasks
 ---
-[Agreements](Agreements.md)
 - get  /Agreements [Get all agreements](../feature-pack-1/get-all-agreements.md)
 - post  /Agreements [Create an agreement](../feature-pack-1/create-an-agreement.md)
 - get  /Agreements/{partner1Name}/{partner2Name} [Get agreements between two partners](../feature-pack-1/get-agreements-between-two-partners.md)

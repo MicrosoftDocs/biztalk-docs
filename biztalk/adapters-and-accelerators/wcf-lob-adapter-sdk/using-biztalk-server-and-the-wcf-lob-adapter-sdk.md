@@ -45,7 +45,3 @@ While both the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-m
   
  Adapters created using the BizTalk Adapter Framework are consumable from only within BizTalk Server. On the other hand, adapters written to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] are surfaced as custom WCF bindings. This broadens their reach to any application that consumes a service, which for all practical purposes is any .NET application including [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. The WCF-based adapters are used within [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] using the BizTalk WCF adapter and continue to exist in parallel with the native BizTalk adapters. 
  
- 
-  
-## See Also  
-[Differences Between the WCF LOB Adapter SDK and the BizTalk Server Adapter Framework](Differences%20Between%20the%20WCF%20LOB%20Adapter%20SDK%20and%20the%20BizTalk%20Server%20Adapter%20Framework.md)

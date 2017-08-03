@@ -572,7 +572,7 @@ Complete these steps *only* if the setup wizard fails to register the adapter bi
   
 <a name="BKMK_InstallCustomRFC"></a>   
 #### Install the custom RFCs  
- You only need to do this task if you want to use the [!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]. For instructions on installing custom RFCs, see [Install Custom RFCs](../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md) in the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] documentation. 
+ You only need to do this task if you want to use the [!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]. For instructions on installing custom RFCs, see [Install Custom RFCs](/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md) in the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] documentation. 
   
 > [!IMPORTANT]
 >  If you are using an earlier version of the custom RFCs provided with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], then you must upgrade them to the RFCs provided with this release. Do this by removing the earlier RFCs, and then installing the RFCs shipped with this release.  
@@ -716,7 +716,7 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
 -   Remove the custom RFCs, if you chose to install the [!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]
   
 <a name="BKMK_Remove_Binding"></a>   
-#### Removing the bindings or the .NET Framework Data Provider registration  
+#### Remove the bindings or the .NET Framework Data Provider registration  
  Complete these steps *only* if the setup wizard fails to remove the adapter bindings or .NET Framework Data Provider registration from the machine.config file.  
   
 ###### Remove the adapter bindings or .NET Framework Data Provider registration  
@@ -832,10 +832,10 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
 5.  Save and close the machine.config file.  
   
 <a name="BKMK_Remove_SAP_Pro"></a>   
-#### Removing the custom RFCs  
- You must complete this step to remove the custom RFCs that you installed in the SAP system. To remove the custom RFC, see [Removing Custom RFCs](Removing%20Custom%20RFCs%20for%20the%20Data%20Provider%20for%20SAP.md) in the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] documentation.  
+#### Remove the custom RFCs  
+Complete this step to remove the custom RFCs that you installed in the SAP system. See [Install or remove custom RFCs](/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).  
   
-## Troubleshooting BizTalk Adapter Pack installation  
+## Troubleshoot BizTalk Adapter Pack installation  
  Following are some issues that you might face when installing [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. For a comprehensive list of installation-related issues, refer to **Troublehsooting** topics for each adapter.  
   
 -   **Running setup on a 64-bit computer might throw an error while accessing schema file**  

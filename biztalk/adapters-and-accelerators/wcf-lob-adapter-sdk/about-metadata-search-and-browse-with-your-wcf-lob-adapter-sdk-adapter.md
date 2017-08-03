@@ -26,5 +26,4 @@ Unlike a static service built using the [!INCLUDE[nextref_btsWinCommFoundation](
  If the line of business system contains hundreds or thousands of operations, providing the ability to search for specific operations or browse certain groups of information can enhance the user experience.  
   
 ## See Also  
- <xref:Microsoft.ServiceModel.Channels.IMetadataRetrievalContract>   
- [Plan and Design your Adapter using the WCF LOB Adapter SDK ](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-your-adapter-using-the-wcf-lob-adapter-sdk.md)
+ [Plan and Design your Adapter using the WCF LOB Adapter SDK ](plan-and-design-your-adapter-using-the-wcf-lob-adapter-sdk.md)

@@ -18,17 +18,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshoot operational issues with the Oracle Database adapter
-This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  
+Troubleshooting techniques to resolve operational errors that you may experience using [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  
   
-## Enabling Tracing  
+## Enable tracing  
  For information about tracing support in the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Diagnostic tracing and message logging for the Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/diagnostic-tracing-and-message-logging-for-the-oracle-database-adapter.md).  
   
 ## Known Issues  
- The following are the most common errors you might encounter when using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], along with their probable cause and resolution.  
+ The following are the most common errors you might encounter when using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], along with their probable cause and resolution.   
   
- 
-  
-##  <a name="BKMK_OraDBLoading"></a> Error in loading the adapter bindings  
+### <a name="BKMK_OraDBLoading"></a> Error in loading the adapter bindings  
  **Problem**  
   
  When you try to start the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], you get the following error:  
@@ -48,14 +46,14 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  **Resolution**  
   
--   Make sure that the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For information about the supported client versions, see [Frequently Asked Questions](Frequently%20Asked%20Questions2.md).  
+-   Make sure that the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. [Supported Line-of-Business (LOB) and Enterprise systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported client versions.  
   
 -   Make sure you do a custom installation of the adapters to install only the adapter you need.  
   
     > [!NOTE]
     >  To make sure your application works with the most recent version of ODP.NET, you must have the "policy DLLs" installed on the computer and registered in the GAC. For more information, see [Oracle Data Provider for .NET](http://go.microsoft.com/fwlink/p/?LinkId=92834) on Oracle's website.  
   
-##  <a name="BKMK_OraDBAdapDisplay"></a> The Oracle database adapter does not display in the list of adapters in BizTalk Server Administration console  
+###  <a name="BKMK_OraDBAdapDisplay"></a> The Oracle database adapter does not display in the list of adapters in BizTalk Server Administration console  
  **Problem**  
   
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] inlcuded with [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] is not listed in the list of adapters in the BizTalk Server Administration console.  
@@ -68,7 +66,7 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in
   
  You can explicitly add the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console by following the steps mentioned in [Adding the Oracle Database Adapter to BizTalk Server Administration Console](../../adapters-and-accelerators/adapter-oracle-database/adding-the-oracle-database-adapter-to-biztalk-server-administration-console.md).  
   
-##  <a name="BKMK_OraDBXMLRetrieve"></a> Error while retrieving XML output with more than 65,536 nodes  
+###  <a name="BKMK_OraDBXMLRetrieve"></a> Error while retrieving XML output with more than 65,536 nodes  
  **Problem**  
   
  The adapter gives the following error when retrieving XML output that has more than 65,536 nodes.  
@@ -121,7 +119,7 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
 </configuration>  
 ```  
   
-##  <a name="BKMK_OraDBPerfOps"></a> Error while performing operations on the Oracle database  
+###  <a name="BKMK_OraDBPerfOps"></a> Error while performing operations on the Oracle database  
  **Problem**  
   
  The adapter gives the following error when performing any operation on the Oracle database using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
@@ -140,7 +138,7 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
   
  Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md). See [Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md) to see a list of actions for each operation.  
   
-##  <a name="BKMK_OraDBXmlParsing"></a> XmlReaderParsingException due to an incorrect operation name in the specified action  
+###  <a name="BKMK_OraDBXmlParsing"></a> XmlReaderParsingException due to an incorrect operation name in the specified action  
  **Problem**  
   
  The BizTalk Server Administration Console gives the following error when sending messages to an Oracle database:  
@@ -168,7 +166,7 @@ Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argume
   
  Make sure the operation names in both the logical port (in the BizTalk orchestration in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]) and the physical port (in BizTalk Server Administration Console) are same.  
   
-##  <a name="BKMK_OraDBConnURI"></a> Error while specifying a connection URI for a WCF-Custom port in BizTalk  
+###  <a name="BKMK_OraDBConnURI"></a> Error while specifying a connection URI for a WCF-Custom port in BizTalk  
  **Problem**  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] gives the following error when you specify a connection URI to connect to the Oracle database.  
@@ -188,7 +186,7 @@ Error saving properties.
   
  Make sure the connection URI you specify adheres to the standard encoding format. For example, a blank space must be replaced by "%20".  
   
-##  <a name="BKMK_OraDBInvalCursor"></a> Invalid cursor exception while invoking stored procedures that take REF CURSOR parameters  
+###  <a name="BKMK_OraDBInvalCursor"></a> Invalid cursor exception while invoking stored procedures that take REF CURSOR parameters  
  **Problem**  
   
  When you invoke procedures in the Oracle database that take REF CURSOR inputs, you might get the following exception:  
@@ -205,7 +203,7 @@ Microsoft.ServiceModel.Channels.Common.TargetSystemException: ORA-01001: invalid
   
  The PL/SQL block must not pipe the IN to the OUT REF CURSORs without proper processing.  
   
-##  <a name="BKMK_OraDBValidateResp"></a> Error while validating the response for the ReadLOB operation using BizTalk Server  
+###  <a name="BKMK_OraDBValidateResp"></a> Error while validating the response for the ReadLOB operation using BizTalk Server  
  **Problem**  
   
  While performing a ReadLOB operation using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], the response from the Oracle database fails validation against the Web Services Description Language (WSDL).  
@@ -274,7 +272,7 @@ Microsoft.ServiceModel.Channels.Common.TargetSystemException: ORA-01001: invalid
     > [!NOTE]
     >  ReadLOB operation is not supported with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. You should use a table Select operation to read LOB data from a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solution.  
   
-##  <a name="BKMK_OraDBSchemaValidateFail"></a> Schema validation may fail in polling scenarios  
+###  <a name="BKMK_OraDBSchemaValidateFail"></a> Schema validation may fail in polling scenarios  
  **Problem**  
   
  Schema validation fails in scenarios where the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] polls database tables that contain fields of type ROWID or UNROWID.  
@@ -287,7 +285,7 @@ Microsoft.ServiceModel.Channels.Common.TargetSystemException: ORA-01001: invalid
   
  If you are using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you may choose to disable schema validation. Alternatively, you may manually edit the schema to change “nillbale=true” for ROWID and UNROWID data types.  
   
-##  <a name="BKMK_OraDBUnreasonConv"></a> 'Unreasonable conversion requested' error when executing stored procedures with Record Types as parameters  
+###  <a name="BKMK_OraDBUnreasonConv"></a> 'Unreasonable conversion requested' error when executing stored procedures with Record Types as parameters  
  **Cause**  
   
  Consider a scenario where an Oracle stored procedure takes a Record Type as a parameter. Assume that the Record Type is declared as \<table name>%ROWTYPE, where the table has a column of LONG data type. When the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] encounters the LONG data type, it sets the size of the data type equal to the value specified for the **LongDatatypeColumnSize** binding property. However, the Oracle database does not define a size for the LONG data type. So, when the adapter invokes the stored procedure, it results in an ‘Unreasonable conversion requested’ error.  
@@ -296,7 +294,7 @@ Microsoft.ServiceModel.Channels.Common.TargetSystemException: ORA-01001: invalid
   
  If a Record Type has a LONG data type, you must explicitly define it as part of a package.  
   
-##  <a name="BKMK_OraDBAdapRecognize"></a> The adapter does not recognize the action on the physical port even though you use the binding file generated by the Consume Adapter Service add-in to create the ports  
+###  <a name="BKMK_OraDBAdapRecognize"></a> The adapter does not recognize the action on the physical port even though you use the binding file generated by the Consume Adapter Service add-in to create the ports  
  **Problem**  
   
  After you use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to generate schema for a specific operation on the Oracle database, the add-in also creates a port binding file. You can import this binding file using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create physical ports in BizTalk Server. However, when you send messages to the Oracle database using such ports, the adapter fails to understand the action specified on the port and gives an error similar to the following:  
@@ -330,7 +328,7 @@ Microsoft.ServiceModel.Channels.Common.UnsupportedOperationException: Incorrect 
     <Operation Name="Operation_1" Action="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY/Select" />  
     ```  
   
-##  <a name="BKMK_OraDBOverflowExcep"></a> Adapter throws an overflow exception (“System.OverflowException”) on executing an operation  
+###  <a name="BKMK_OraDBOverflowExcep"></a> Adapter throws an overflow exception (“System.OverflowException”) on executing an operation  
  **Problem**  
   
  Using the adapter, if you try to perform an operation containing Oracle numeric data types inside DataSets or weakly-typed REF CURSORS, the adapter might throw an overflow exception.  
@@ -343,7 +341,7 @@ Microsoft.ServiceModel.Channels.Common.UnsupportedOperationException: Incorrect 
   
  If you want to pass large values for the Oracle numeric data type inside DataSets or weakly-typed REF CURSORS, you must enable safe typing by setting the value of the **EnableSafeTyping** binding property to **true**. Enabling safe typing exposes the Oracle numeric data type inside DataSets or weakly-typed REF CURSORS as strings.  
   
-##  <a name="BKMK_OraDBRootNode"></a> Error with RootNode TypeName in BizTalk Projects  
+###  <a name="BKMK_OraDBRootNode"></a> Error with RootNode TypeName in BizTalk Projects  
  **Problem**  
   
  In a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], if the schemas generated from the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] contains invalid characters or reserved words for the **RootNode TypeName** property, the following error will occur while compiling the project:  
@@ -359,7 +357,7 @@ The current .NET type name of this root node is invalid (it is a reserved BizTal
   
 2.  For the **RootNode TypeName** property, remove any illegal characters or reserved words, for example, dot (.).  
   
-##  <a name="BKMK_OraDBInvalBinding"></a> Invalid binding warning when using the adapter in Visual Studio  
+###  <a name="BKMK_OraDBInvalBinding"></a> Invalid binding warning when using the adapter in Visual Studio  
  **Problem**  
   
  When you use the adapter to create an application in [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] and you open the configuration file (app.config) generated by the adapter, you see a warning similar to the following:  
@@ -376,7 +374,7 @@ The element 'bindings' has invalid child element 'oracleDBBinding'. List of poss
   
  You can safely ignore this warning.  
   
-##  <a name="BKMK_OraDBNotification"></a> BizTalk Server throws an exception if you use more than one Notification schema in the same application or use the Notification schema across multiple applications on the same host  
+###  <a name="BKMK_OraDBNotification"></a> BizTalk Server throws an exception if you use more than one Notification schema in the same application or use the Notification schema across multiple applications on the same host  
  **Problem**  
   
  BizTalk Server throws an XLANG exception or an exception stating that the application cannot locate the document specification because multiple schemas matched the message type.  
@@ -393,7 +391,7 @@ The element 'bindings' has invalid child element 'oracleDBBinding'. List of poss
   
  Use a single Notification schema file for a BizTalk Server application. If you need to use the Notification schema in multiple BizTalk Server applications on the same host, create an application containing a single Notification schema, and then use the notification schema from all other applications in BizTalk Server.  
   
-##  <a name="BKMK_MemUsage"></a> Memory usage and thread count increases when using the adapter in a transacted inbound operation  
+###  <a name="BKMK_MemUsage"></a> Memory usage and thread count increases when using the adapter in a transacted inbound operation  
  **Problem**  
   
  In a transacted inbound operation, such as Polling, **if there is no data available in the table being polled** and the adapter continues to poll, over a period of time you experience an increase in the memory usage and the thread count.  

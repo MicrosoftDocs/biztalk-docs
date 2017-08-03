@@ -20,6 +20,6 @@ manager: "anneta"
 Response Content Types
 ---
 
-- [application/json](../feature-pack-1/terminate-instance-application-json.md)
-- [text/json](Response%20Content%20Type%20text%20json%20for%20terminate%20instance.md)
+- [application/json](terminate-instance-application-json.md)
+- [text/json](response-text-json.md)
 
