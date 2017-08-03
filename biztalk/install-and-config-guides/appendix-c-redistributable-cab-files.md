@@ -22,7 +22,8 @@ These CAB files are used by the BizTalk Server setup.
 |--------------|-------------------|  
 |EN|<ul><li>**X64**<br /><br /> <ul><li>Windows Server 2016: [http://go.microsoft.com/fwlink/p/?LinkId=746413](http://go.microsoft.com/fwlink/p/?LinkId=746413)</li><li>Windows Server 2012 R2: [http://go.microsoft.com/fwlink/p/?LinkId=746412](http://go.microsoft.com/fwlink/p/?LinkId=746412)</li><li>Windows 10: [http://go.microsoft.com/fwlink/p/?LinkId=746408](http://go.microsoft.com/fwlink/p/?LinkId=746408)</li><li>Windows 8.1: [http://go.microsoft.com/fwlink/p/?LinkId=746411](http://go.microsoft.com/fwlink/p/?LinkId=746411)</li></ul></li><li>**X32**<br /><br /><ul><li>Windows 10: [http://go.microsoft.com/fwlink/p/?LinkId=746409](http://go.microsoft.com/fwlink/p/?LinkId=746409)</li><li>Windows 8.1: [http://go.microsoft.com/fwlink/p/?LinkId=746410](http://go.microsoft.com/fwlink/p/?LinkId=746410)</li></ul></li></ul>|  
 
-> [!NOTE] Windows 10 and Windows Server 2016 use the same CAB files as Windows 8.1 and Windows Server 2012 R2. As a reuslt, they have the the same file name.
+> [!NOTE] 
+> Windows 10 and Windows Server 2016 use the same CAB files as Windows 8.1 and Windows Server 2012 R2. As a reuslt, they have the the same file name.
 
 ## BizTalk 2013 R2 and 2013 CAB files  
   

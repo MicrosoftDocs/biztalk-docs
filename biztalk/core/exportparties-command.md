@@ -17,7 +17,8 @@ manager: "anneta"
 # ExportParties Command
 Exports all the parties and agreements to an XML bindings file.
 
-> [!IMPORTANT] This command is new starting with **[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, and any newer versions.
+> [!IMPORTANT]
+> This command is new starting with **[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, and any newer versions.
 
 ## Usage
   **BTSTask ExportParties -Destination**:*value* [**-Server**:*value*] [**-Database**:*value*]

@@ -36,7 +36,8 @@ This topic shows you how to configure the [!INCLUDE[A4SWIFT_CurrentVersion_abbre
 5. Select **Apply Configuration**.
 6. In **Summary**, verify the configuration settings, and then click **Configure**. 
 
-    > [!TIP] You can save the configuration settings as an XML file, if desired.
+    > [!TIP] 
+    > You can save the configuration settings as an XML file, if desired.
 
 7. Select **Finish** when the configuration completes.
 
@@ -67,7 +68,8 @@ After you configure the [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../incl
 4. In the **Log On** tab, note the user account listed as **This account**.
 5. Open **Local Users and Groups** (in Computer Management), and then find the **A4SWIFT Users** group. Add the user account to this group.
 
-> [!TIP] The host instance account needs this group membership for the host Message Repair runtime component to access the BizTalk Server database.
+> [!TIP] 
+> The host instance account needs this group membership for the host Message Repair runtime component to access the BizTalk Server database.
 
 ### Check the identity of the application pool
 The A4SWIFT_MRSR web service is hosted in an application in IIS. The application pool identity *cannot* be Network Service. Change the identity of the application pool to a local or domain account that is a member of the **A4SWIFT Users** group.

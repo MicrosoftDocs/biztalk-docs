@@ -25,7 +25,8 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 | [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)] | [Hardware and Software Requirements for BizTalk Server 2016](../../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) | **SQL Server hardware and software requirements**: <br/>[SQL Server 2016](https://msdn.microsoft.com/library/ms143506(v=sql.130).aspx)<br/>[SQL Server 2014](https://msdn.microsoft.com/library/ms143506(v=sql.120).aspx)<br/><br/>**Windows Server hardware requirements**: <br/>[Windows Server 2016](https://technet.microsoft.com/windows-server-docs/get-started/server-basics)<br/>[Windows Server 2012](https://technet.microsoft.com/library/jj134246.aspx) |
 | [!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)] <br/><br/> [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] 2013 | [Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2](../../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md) |**SQL Server hardware and software requirements**: <br/>[SQL Server 2014](https://msdn.microsoft.com/library/ms143506(v=sql.120).aspx)<br/>[SQL Server 2012](https://msdn.microsoft.com/library/ms143506(v=sql.110).aspx)<br/>[SQL Server 2008 R2](https://msdn.microsoft.com/library/ms143506(v=sql.105).aspx)<br/><br/>**Windows Server hardware requirements**: <br/>[Windows Server 2012](https://technet.microsoft.com/library/jj134246.aspx)<br/>[Windows Server 2008 R2](https://technet.microsoft.com/library/dd379511(v=ws.10).aspx)  |
 
-> [!TIP] The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx)
+> [!TIP]
+> The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx)
 
 ## Install HL7
 
@@ -89,7 +90,8 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
   
 11. Select **Finish** when completed.  
   
-    > [!TIP] Select **Launch Tutorial** to install the End-To-End Tutorial. 
+    > [!TIP] 
+    > Select **Launch Tutorial** to install the End-To-End Tutorial. 
     
 ### Custom installation
 1. Run the [!INCLUDE[btaBTAHL7NoNumber_md](../../includes/btabtahl7nonumber-md.md)] (A4HL7) **setup.exe** as Administrator. 
@@ -153,7 +155,8 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
   
 15. Select **Finish** when completed.  
   
-    > [!TIP] Select **Launch Tutorial** to install the End-To-End Tutorial.   
+    > [!TIP] 
+    > Select **Launch Tutorial** to install the End-To-End Tutorial.   
     
 ## Next steps
 Step through some tutorials at [Get started with the BizTalk Accelerator for HL7](../../adapters-and-accelerators/accelerator-hl7/get-started-with-the-biztalk-accelerator-for-hl7.md).

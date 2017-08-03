@@ -49,7 +49,8 @@ The following table lists the supported operating systems that can be upgraded t
 
 The following table lists the supported SQL Server versions that can be upgraded to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. The SQL Server hosts the databases used by BizTalk Server. “Yes” means BizTalk Server using that SQL Server version can be upgraded. “No” means BizTalk Server using that SQL Server version cannot be upgraded. When “No”, the BizTalk environment must be recreated on a supported SQL Server version. [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) lists the supported SQL Server versions. 
 
-> [!TIP] If you're SQL Server version isn't supported, or isn't in the following list, then review the SQL Server upgrade documentation. The SQL upgrade covers more versions than what BizTalk supports. For example, if you're using SQL Server 2008, you may be able to upgrade SQL Server 2016. Then, you can upgrade to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. [Upgrade to SQL Server 2016](https://msdn.microsoft.com/library/bb677622.aspx) and [Upgrade to SQL Server 2014](https://msdn.microsoft.com/library/bb677622(v=sql.120).aspx) lists the SQL Server versions that can be upgraded.
+> [!TIP] 
+> If you're SQL Server version isn't supported, or isn't in the following list, then review the SQL Server upgrade documentation. The SQL upgrade covers more versions than what BizTalk supports. For example, if you're using SQL Server 2008, you may be able to upgrade SQL Server 2016. Then, you can upgrade to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. [Upgrade to SQL Server 2016](https://msdn.microsoft.com/library/bb677622.aspx) and [Upgrade to SQL Server 2014](https://msdn.microsoft.com/library/bb677622(v=sql.120).aspx) lists the SQL Server versions that can be upgraded.
 
 | SQL Server | BizTalk Server 2013 R2 |BizTalk Server 2013 |
 | --- | --- | --- |
@@ -128,7 +129,8 @@ SQL Server Database Mail is required to use BAM Alerts. If SQL Server is being u
 8. In [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Configuration, configure BAM Alerts.
 9. Deploy the saved definition file in the command prompt: `bm.exe update-all -DefinitionFile:YourBAMDefinition.xml`
 
-> [!IMPORTANT] If you don’t follow these steps in the order listed or create a definition file, you must recreate the definition files after the BizTalk Server upgrade.
+> [!IMPORTANT]
+> If you don’t follow these steps in the order listed or create a definition file, you must recreate the definition files after the BizTalk Server upgrade.
 > 
 > To view the BM.exe help, type: `bm.exe help`.
 
@@ -160,7 +162,8 @@ SQL Server Database Mail is required to use BAM Alerts. If SQL Server is being u
 	4. Regenerate the LiveData Workbook by running the following command:  
 	`BM regenerate-livedataworkbook MyNewBook.xls`
 
-	> [!NOTE] Regenerated LiveData Workbooks do not recreate the Excel artifacts (for example, charts) in the original LiveData Workbook. Manually recreate the artifacts.
+	> [!NOTE]
+	> Regenerated LiveData Workbooks do not recreate the Excel artifacts (for example, charts) in the original LiveData Workbook. Manually recreate the artifacts.
 
 
 ### Enterprise Single Sign-On (ESSO)
@@ -223,7 +226,8 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 
 ## Do the upgrade
 
-> [!IMPORTANT] When you installed SQL Server, setup granted your logged-on account system administrator rights. System administrator rights are also required to install BizTalk Server. Do one of the following:
+> [!IMPORTANT]
+> When you installed SQL Server, setup granted your logged-on account system administrator rights. System administrator rights are also required to install BizTalk Server. Do one of the following:
 > 
 > - Use the same account you used when you installed SQL Server  
 > **OR**  
@@ -336,7 +340,8 @@ By participating in this program, you can help improve the reliability and perfo
 
 - **Restart SSO Service**: If you have a previous Visual Studio version or .NET Framework 4.5 installed on your machine, then the SSO service in earlier versions of BizTalk Server stops working. To resolve this issue, run the `regasm SSOSQL.dll` command from the Visual Studio command prompt. This command restarts the SSO service.
 
-	> [!NOTE] On a 64-bit computer, run the 32-bit and 64-bit versions of the regasm command.
+	> [!NOTE]
+	> On a 64-bit computer, run the 32-bit and 64-bit versions of the regasm command.
 
 - **Unable to use SOAP**: After a platform upgrade, you may not be able to send SOAP message because of permissions. To resolve this, edit the Web.config file at `C:\inetpub\wwwroot\<SOAPExternalAppName>\` with the following text:
 
@@ -376,7 +381,8 @@ By participating in this program, you can help improve the reliability and perfo
 		- key="MainPageContentUrl"
 		- key="AlertNotificationOptions"
 
-	> [!NOTE] On a 64-bit machine, after you upgrade the operating system, we recommend that you reconfigure the BAM portal.
+	> [!NOTE] 
+	> On a 64-bit machine, after you upgrade the operating system, we recommend that you reconfigure the BAM portal.
 
 - **Deploy EDI BAM activities**: When you upgrade, the upgrade may partially succeed. This can happen when you upgrade SQL Server (with EDI configured). The EDI BAM activities might not be upgraded properly. To resolve this issue, deploy the BAM activities by running the following commands at the command prompt with administrative credentials:
 

@@ -142,7 +142,8 @@ This receive location can be configured as one-way or request-response (two-way)
  
 ## Create the send port
 
-> [!NOTE] You can also [create the send port programmatically](../core/create-the-receive-location-and-send-port-programmatically.md).
+> [!NOTE] 
+> You can also [create the send port programmatically](../core/create-the-receive-location-and-send-port-programmatically.md).
 
 1.  In the BizTalk Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **WCF-BasicHttp** for the **Type** option in the **Transport** section of the **General** tab.  
   

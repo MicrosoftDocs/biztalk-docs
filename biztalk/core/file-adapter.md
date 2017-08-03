@@ -25,13 +25,15 @@ The File adapter transfers files into and out of Microsoft BizTalk Server. The F
   
 Use the File receive adapter to read messages from files, and submit them to the server. The receive adapter reads the file, and creates a BizTalk Message object, so that BizTalk Server can process the message. While reading from the file, the adapter locks the file to ensure that no modifications can be made to the file content.  
   
-> [!NOTE] The File receive adapter does not pick up read-only files or system files.  
+> [!NOTE] 
+> The File receive adapter does not pick up read-only files or system files.  
   
  The File receive adapter reads the messages from files on local file systems or on network shares. When the specified location on a network share is unavailable due to network problems, the receive adapter retries the read operation (the number of retries is configurable in the BizTalk Server Administration console). After the message has been read and successfully accepted by the BizTalk Messaging Engine, the receive adapter deletes the file from the file system or network share. If the message was read but the pipeline did not successfully process the message, the adapter puts the message in the suspended queue and then deletes the file from the file system or network share. If the File receive adapter cannot submit or suspend the message to the MessageBox database, it does not delete the original file from the file system or network share.  
   
  You can also configure the File receive adapter to rename files when processing them. You should rename files to ensure that the receive adapter does not generate duplicate messages if the receive location is shut down and restarted. This is a configurable option for File receive locations. By default, renaming is disabled. When renaming is enabled, the File receive adapter appends the extension .BTS-WIP to the file. The receive adapter then reads the messages from the renamed file in the receive location and submits it to the server. After the receive adapter has successfully submitted a file, the receive adapter deletes the renamed file from the file system or network share. If a message has been read but failed processing in the pipeline, the receive adapter places the message in the MessageBox database suspended queue, and deletes the renamed file from the network share.  
   
-> [!NOTE] Renaming files has no impact on performance.  
+> [!NOTE] 
+> Renaming files has no impact on performance.  
   
  If the File receive adapter successfully reads the message but did not successfully store the message in the MessageBox database, the renamed file reverts to its original name, without the .BTS-WIP extension. Note that the receive adapter does not read files with the extension .BTS-WIP if the renaming option is turned on.  
   

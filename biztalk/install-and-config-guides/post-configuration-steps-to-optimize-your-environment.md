@@ -99,9 +99,11 @@ BizTalk Server does not include any job to delete backup files. As a result, how
   
 1.  Run the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] installation, and install the **Developer Tools and SDK** component. This component  downloads the MicrosoftEdiXSDTemplates.exe EDI schema file to the \XSD_Schema\EDI folder.  
   
-    > [!NOTE] If you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], the MicrosoftEdiXSDTemplates.exe file in your installation is replaced with the new MicrosoftEdiXSDTemplates.exe file associated with the upgrade. If you need the previous the schemas, then back up the previous MicrosoftEdiXSDTemplates.exe file.  
+    > [!NOTE]
+	> If you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], the MicrosoftEdiXSDTemplates.exe file in your installation is replaced with the new MicrosoftEdiXSDTemplates.exe file associated with the upgrade. If you need the previous the schemas, then back up the previous MicrosoftEdiXSDTemplates.exe file.  
   
-    > [!NOTE] If you upgrade message schemas when you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] to a later build, you may encounter issues using the updated schemas, or you may have to perform additional updating steps. See the "Considerations for updating schemas" section in [Important Considerations for Updating Applications](../core/important-considerations-for-updating-applications.md)
+    > [!NOTE] 
+	> If you upgrade message schemas when you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] to a later build, you may encounter issues using the updated schemas, or you may have to perform additional updating steps. See the "Considerations for updating schemas" section in [Important Considerations for Updating Applications](../core/important-considerations-for-updating-applications.md)
   
 2.  Go  to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI, and double-click MicrosoftEdiXSDTemplates.exe.  
   

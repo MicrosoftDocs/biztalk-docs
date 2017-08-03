@@ -23,7 +23,8 @@ How to configure the File adapter, read the security recommendations, and view t
 
 You can create a receive location and send port using [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], or programmatically. This topic focuses on the [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] console. For the programmatic steps, go to [Create the receive location or send port programmatically](../core/create-the-receive-location-and-send-port-programmatically.md).
 
-> [!IMPORTANT] **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, you can connect to an Azure file share using the File adapter. The Azure storage account must be mounted on your BizTalk Server. [Get started with Azure File storage on Windows](https://docs.microsoft.com/azure/storage/storage-dotnet-how-to-use-files#mount-the-file-share) lists the mounting steps.
+> [!IMPORTANT]
+> **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, you can connect to an Azure file share using the File adapter. The Azure storage account must be mounted on your BizTalk Server. [Get started with Azure File storage on Windows](https://docs.microsoft.com/azure/storage/storage-dotnet-how-to-use-files#mount-the-file-share) lists the mounting steps.
 
 ## Security recommendations
 
@@ -54,9 +55,11 @@ The host instance user account used by the handler requires the following permis
 | Read permissions | | ✔ <br/> at the file level | 
 | Change | | ✔ <br/> at the share level (if accessing a file share) |
 
-> [!TIP] At the file level, open the **advanced permissions** on the file or folder to see these permissions.
+> [!TIP] 
+> At the file level, open the **advanced permissions** on the file or folder to see these permissions.
 
-> [!NOTE] Each host can associate with only one receive handler.  
+> [!NOTE] 
+> Each host can associate with only one receive handler.  
 
 ## Configure the receive location
   

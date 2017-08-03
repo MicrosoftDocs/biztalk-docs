@@ -66,7 +66,8 @@ See [ImportParties command](../core/importparties-command.md).
 
 3. Select **OK**. 
 
-> [!TIP] In the **Parties and business profiles** pane, you can also use the **CTRL** and **Shift** keys to select multiple parties in the list. All of the parties you select export into the same binding file.
+> [!TIP]
+> In the **Parties and business profiles** pane, you can also use the **CTRL** and **Shift** keys to select multiple parties in the list. All of the parties you select export into the same binding file.
 
 ### BTSTask example
 
@@ -88,7 +89,8 @@ At the application-level, you can import a binding file with EDI and AS2 parties
     |**Import Tracking Settings** | Imports the tracking settings enabled on the different artifacts within the application, such as track message bodies, and track events. <br/><br/>Enabled by default to ensure backwards-compatibility. |
     | **Exclude Parties**|Does not import parties, profiles, and agreements that existing within the file. <br/><br/>Disabled by default to ensure backwards-compatibility.|
 
-     > [!IMPORTANT] The global tracking settings override **Import Tracking Settings**. So if you've disabled tracking at the global level, any tracking settings are not imported, even if **Import Tracking Settings** is checked.
+     > [!IMPORTANT] 
+     > The global tracking settings override **Import Tracking Settings**. So if you've disabled tracking at the global level, any tracking settings are not imported, even if **Import Tracking Settings** is checked.
      > 
      > [BizTalk Settings Dashboard, Group Page](../core/biztalk-settings-dashboard-group-page.md) explains the **Allow import of tracking settings** global setting.
 

@@ -213,7 +213,8 @@ Office 2016 is installed using "Click-to-Run" or "C2R Installer". The C2R instal
 5. Start the Excel installation by entering the following:  
   `setup.exe /configure configuration.xml`
 
-    > [!TIP] `setup.exe /download configuration.xml` downloads the required office setup files.
+    > [!TIP]
+    > `setup.exe /download configuration.xml` downloads the required office setup files.
  
 6. Select Excel, and continue with the installation. 
  
@@ -238,7 +239,8 @@ Visual Studio Enterprise Edition is recommended, but Professional and Community 
 1. Run the Visual Studio setup as Administrator.
 2. Select a **Default** installation. BizTalk Server does not require any of the optional features.
 
-    > [!NOTE] If you use Visual Studio for more than BizTalk projects, then select the **Custom** installation to install other features. Some commonly-used features include Microsoft Web Developer Tools, Microsoft Office Developer Tools, PowerShell Tools for Visual Studio, and ClickOnce Publishing Tools.
+    > [!NOTE]
+    > If you use Visual Studio for more than BizTalk projects, then select the **Custom** installation to install other features. Some commonly-used features include Microsoft Web Developer Tools, Microsoft Office Developer Tools, PowerShell Tools for Visual Studio, and ClickOnce Publishing Tools.
  
 3. Continue with the installation, and restart your computer if prompted.
 
@@ -282,7 +284,8 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
         - Client Tools Connectivity
         - Integration Services
 
-    > [!NOTE] **SQL Server Data Tools** is not included in the default installation of SQL Server. It is not required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://msdn.microsoft.com/library/mt204009.aspx). Download [**SQL Server Management Studio (SSMS)**](https://msdn.microsoft.com/library/mt238290.aspx) that works with all supported versions of SQL Server, including Azure SQL Database. 
+    > [!NOTE]
+    > **SQL Server Data Tools** is not included in the default installation of SQL Server. It is not required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://msdn.microsoft.com/library/mt204009.aspx). Download [**SQL Server Management Studio (SSMS)**](https://msdn.microsoft.com/library/mt238290.aspx) that works with all supported versions of SQL Server, including Azure SQL Database. 
 
 3. Continue with the installation, and restart the computer if prompted.
 
