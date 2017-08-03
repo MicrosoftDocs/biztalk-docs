@@ -109,7 +109,7 @@ In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../inclu
   
         |Use this|To do this|  
         |--------------|----------------|  
-        |**Address (URI)**|Type **mssql://computername/database_instance_name/databasename**. For example, to connect to a **DemoDB** database on the local computer running under the default database instance, enter `mssql://.//DemoDB`<br /><br /> For more information, see [Create the SQL Server connection URI](../../adapter-sql/create-the-sql-server-connection-uri.md).|  
+        |**Address (URI)**|Type **mssql://computername/database_instance_name/databasename**. For example, to connect to a **DemoDB** database on the local computer running under the default database instance, enter `mssql://.//DemoDB`<br /><br /> For more information, see [Create the SQL Server connection URI](../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).|  
         |**Action**|Type **TableOp/Insert/dbo/SalesOrder**.|  
   
     5.  From WCF-SQL Transport Properties, on the **Credentials** tab, select **Do not use Single Sign-On**, and specify credentials (case-sensitive) to connect to the SQL Server database you specified in the connection string. If you want to connect using Windows Authentication, leave the credentials blank.  
