@@ -19,11 +19,11 @@ manager: "anneta"
   
  **Time to complete:** 30 minutes  
   
- In this step, you will update the **EchoAdapterBindingElement** and **EchoAdapterBindingElementExtensionElement** classes to assign a category to your adapter and connection properties. By doing so, properties are logically grouped by category in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] tools. For example, if you want the **Application**, **EnableAuthentication**, and **Hostname** properties to appear under the **Connection** category as shown below, you will need to assign the Connection category to each of the Application, EnableAuthentication, and Hostname properties.  
+ In this step, you update the **EchoAdapterBindingElement** and **EchoAdapterBindingElementExtensionElement** classes to assign a category to your adapter and connection properties. By doing so, properties are logically grouped by category in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] tools. For example, if you want the **Application**, **EnableAuthentication**, and **Hostname** properties to appear under the **Connection** category as shown below, you need to assign the Connection category to each of the Application, EnableAuthentication, and Hostname properties.  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/c7c0c013-6651-4c32-9f8b-b546a68a0267.gif "c7c0c013-6651-4c32-9f8b-b546a68a0267")  
   
- Similarly, if you want the **InboundFileFilter** and **InboundFleSystemWatcherFolder** properties to appear under the **Inbound** category as shown below, you will need to assign the Inbound category to each. If you want **Count** and **EnableConnectionPooling** to appear under the **Misc** category, you will need to assign the Misc category to each.  
+ Similarly, if you want the **InboundFileFilter** and **InboundFleSystemWatcherFolder** properties to appear under the **Inbound** category as shown below, you need to assign the Inbound category to each. If you want **Count** and **EnableConnectionPooling** to appear under the **Misc** category, you need to assign the Misc category to each.  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/2acb7677-8b50-4e45-96a3-42d0e2011f19.gif "2acb7677-8b50-4e45-96a3-42d0e2011f19")  
   
@@ -40,14 +40,14 @@ manager: "anneta"
 |Hostname|Connection|  
 |EchoInUpperCase|Format|  
   
- In addition to those changes, you will also modify the Dispose method of **EchoAdapterHandlerBase**.  
+ In addition to those changes, you also modify the Dispose method of **EchoAdapterHandlerBase**.  
   
  For the adapter properties exposed by the echo adapter, see the adapter properties section of the [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md).  
   
 ## Prerequisites  
- Before you begin this step, you must complete [Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-1-use-the-wcf-lob-adapter-development-wizard-to-create-the-echo-adapter.md). You should also be familiar with the <xref:System.ServiceModel.Configuration.BindingElementExtensionElement> and <xref:System.ServiceModel.Configuration.StandardBindingElement> classes.  
+ Before you begin this step, you must complete [Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-1-use-the-wcf-lob-adapter-development-wizard-to-create-the-echo-adapter.md). You should also be familiar with the `System.ServiceModel.Configuration.BindingElementExtensionElement` and `System.ServiceModel.Configuration.StandardBindingElement` classes.  
   
-### To update the EchoAdapterHandlerBase Dispose method  
+## Update the EchoAdapterHandlerBase Dispose method  
   
 1.  In **Solution Explorer**, double-click the **EchoAdapterHandlerBase.cs** file.  
   
@@ -68,7 +68,7 @@ manager: "anneta"
     }  
     ```  
   
-### To update the Adapter properties class  
+## Update the Adapter properties class  
   
 1.  In **Solution Explorer**, double-click the **EchoAdapterBindingElement.cs** file.  
   
@@ -178,7 +178,7 @@ manager: "anneta"
     #endregion Custom Generated Properties  
     ```  
   
-### To update the Connection Properties  
+## Update the Connection Properties  
   
 1.  In **Solution Explorer**, double-click the **EchoAdapterConnectionUri.cs** file.  
   
@@ -275,7 +275,7 @@ manager: "anneta"
  You just updated classes to assign a category to each adapter and connection property exposed by the echo adapter.  
   
 ## Next Steps  
- You will implement connection, metadata browsing, searching, and resolving capabilities, and the outbound message exchange. Lastly, you will build and deploy the echo adapter.  
+ You implement connection, metadata browsing, searching, and resolving capabilities, and the outbound message exchange. Lastly, you build and deploy the echo adapter.  
   
 ## See Also  
  [Step 3: Implement the Connection for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-3-implement-the-connection-for-the-echo-adapter.md)   

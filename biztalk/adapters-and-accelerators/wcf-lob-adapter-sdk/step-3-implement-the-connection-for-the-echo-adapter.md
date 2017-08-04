@@ -19,20 +19,20 @@ manager: "anneta"
   
  **Time to complete:** 45 minutes  
   
- In this step, you will implement the connection capability of the Echo adapter. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], you must implement the following abstract class and interfaces when connecting to the target system.  
+ In this step, you implement the connection capability of the Echo adapter. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], you must implement the following abstract class and interfaces when connecting to the target system.  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.ConnectionUri>  
+-   `Microsoft.ServiceModel.Channels.Common.ConnectionUri`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.IConnection>  
+-   `Microsoft.ServiceModel.Channels.Common.IConnection`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.IConnectionFactory>  
+-   `Microsoft.ServiceModel.Channels.Common.IConnectionFactory`  
   
- Instead of deriving from the above abstract class and interfaces, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the three derived classes, EchoAdapterConnection, EchoAdapterConnectionUri, and EchoAdapterConnectionFactory. In addition to creating the classes, each will have by default a method that throws a specific exception, <xref:System.NotImplementedException>.  This statement reminds the developer to implement each class.  When the class is implemented, this exception-throwing statement must be removed.  
+ Instead of deriving from the above abstract class and interfaces, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the three derived classes, EchoAdapterConnection, EchoAdapterConnectionUri, and EchoAdapterConnectionFactory. In addition to creating the classes, each has a default method that throws a specific exception, `System.NotImplementedException`.  This statement reminds the developer to implement each class.  When the class is implemented, this exception-throwing statement must be removed.  
   
- In the following section, you will update those three classes to get a better understanding of how to handle a connection, what the URI structure is, and how to programmatically retrieve various URI elements and then use those elements within the adapter.  
+ In the following section, you update those three classes to get a better understanding of how to handle a connection, what the URI structure is, and how to programmatically retrieve various URI elements and then use those elements within the adapter.  
   
 ## Prerequisites  
- Before you begin this step, you must have successfully completed [Step 2: Categorize the Adapter and Connection Properties](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-categorize-the-adapter-and-connection-properties.md). And you should have a clear understanding of the <xref:Microsoft.ServiceModel.Channels.Common.IConnection>, <xref:Microsoft.ServiceModel.Channels.Common.IConnectionFactory>, and <xref:Microsoft.ServiceModel.Channels.Common.ConnectionUri> classes.  
+ Before you begin this step, you must have successfully completed [Step 2: Categorize the Adapter and Connection Properties](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-categorize-the-adapter-and-connection-properties.md). And you should have a clear understanding of the `Microsoft.ServiceModel.Channels.Common.IConnection`, `Microsoft.ServiceModel.Channels.Common.IConnectionFactory`, and `Microsoft.ServiceModel.Channels.Common.ConnectionUri` classes.  
   
 ## Connection-Related Classes  
  The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] generates three derived classes, EchoAdapterConnection, EchoAdapterConnectionUri, and EchoAdapterConnectionFactory. The following provides a brief overview of methods associated with each.  
@@ -61,7 +61,7 @@ manager: "anneta"
 |----------------|---------------------|  
 |public override Uri Uri|Gets and sets the Uri. Gets to build the Uri string and sets to parse the Uri string.|  
 |public EchoAdapterConnectionUri()|Initializes a new instance of the ConnectionUri class.|  
-|public override string SampleUriString|Returns EchoAdapter.SCHEME + "://{hostname}/{application}?enableAuthentication={True&#124;False}".<br /><br /> This return string will display as the **Example** in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, as shown in the following figure.|  
+|public override string SampleUriString|Returns EchoAdapter.SCHEME + "://{hostname}/{application}?enableAuthentication={True&#124;False}".<br /><br /> This return string displays as the **Example** in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, as shown in the following figure.|  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/e4b9d0b8-f07f-4342-815f-9ef1507b0980.gif "e4b9d0b8-f07f-4342-815f-9ef1507b0980")  
   
@@ -80,7 +80,7 @@ manager: "anneta"
   
  Using the echov2 transport schema, go to a computer named lobhostname, where an application named lobapplication expects that authentication is waiting for your connection. For the Echo adapter, only a user name is required.  
   
- With a defined URI, you can programmatically consume and parse it for connectivity and configuration. If the connection requires sensitive data such as a user name and password, do not contain such information in the URI. Instead, add such information in the <xref:System.ServiceModel.Description.ClientCredentials> object. The code example that you will add will show you how to do so.  
+ With a defined URI, you can programmatically consume and parse it for connectivity and configuration. If the connection requires sensitive data such as a user name and password, do not contain such information in the URI. Instead, add such information in the `System.ServiceModel.Description.ClientCredentials` object. The code example that you add shows you how to do so.  
   
  In the following code, the Echo adapter constructs the URI in two ways to show you how the adapter can use various URI elements to modify the adapter feature.  
   
@@ -93,9 +93,9 @@ manager: "anneta"
   
 |**URI Element Value**|**Method**|  
 |---------------------------|----------------|  
-|lobhostname|<xref:System.Uri.Host%2A> to retrieve the host name|  
-|Lobapplication|<xref:System.Uri.AbsolutePath%2A> to retrieve the target application name|  
-|enableAuthentation=false|GetQueryStringValue("enableAuthentication")<br /><br /> Use this URI element to validate user credentials **Note:**  GetQueryStringValue is a static method defined in the <xref:Microsoft.ServiceModel.Channels.Common.ConnectionUri>|  
+|lobhostname|`System.Uri.Host%2A` to retrieve the host name|  
+|Lobapplication|`System.Uri.AbsolutePath%2A` to retrieve the target application name|  
+|enableAuthentation=false|GetQueryStringValue("enableAuthentication")<br /><br /> Use this URI element to validate user credentials **Note:**  GetQueryStringValue is a static method defined in the `Microsoft.ServiceModel.Channels.Common.ConnectionUri`|  
 |echoInUpperValue=false|GetQueryStringValue("echoInUpperValue")<br /><br /> Use this URI element to convert the incoming string to upper case.|  
   
 ### EnableAuthentication URI Element  
@@ -121,7 +121,7 @@ manager: "anneta"
 }  
 ```  
   
- The code checks to see if enableAuthentication is true and if a user name is not provided; if a user name is not provided, it throws an exception, which will be caught by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, as shown below:  
+ The code checks to see if enableAuthentication is true and if a user name is not provided; if a user name is not provided, it throws an exception, which is caught by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, as shown below:  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/901095c7-c70d-491a-a1ae-8f37f22a61a7.gif "901095c7-c70d-491a-a1ae-8f37f22a61a7")  
   
@@ -137,7 +137,7 @@ manager: "anneta"
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/f22511b2-3fca-4875-ac65-8e61f4367e94.gif "f22511b2-3fca-4875-ac65-8e61f4367e94")  
   
 ## Updating EchoAdapterConnection  
- You will implement the IsValid, Open, and Close method of the EchoAdapterConnection class.  
+ You implement the IsValid, Open, and Close method of the EchoAdapterConnection class.  
   
 #### To update the EchoAdapterConnection class  
   
@@ -159,7 +159,7 @@ manager: "anneta"
     if (this.ConnectionFactory.ConnectionUri.EnableAuthentication)  
     {  
         // this adapter expects a value in username  
-        // it will just log the credentials in the trace file  
+        // it just logs the credentials in the trace file  
         if (this.connectionFactory.ClientCredentials != null &&  
             string.IsNullOrEmpty(this.connectionFactory.ClientCredentials.UserName.UserName))  
         {  
@@ -178,7 +178,7 @@ manager: "anneta"
     ```  
   
 ## Updating the EchoAdapterConnectionFactory  
- You will implement EchoAdapterConnectionFactory constructor, and add two properties called ClientCredentials and ConnectionUri.  
+ You implement EchoAdapterConnectionFactory constructor, and add two properties called ClientCredentials and ConnectionUri.  
   
 #### To update the EchoAdapterConnectionFactory class  
   
@@ -252,7 +252,7 @@ manager: "anneta"
     ```  
   
 ## Updating the EchoAdapterConnectionUri  
- You will implement the EchoAdapterConnectionUri default constructor, EchoAdapterConnectionUri(Uri uri) overloaded constructor, and the public override Uri Uri property.  
+ You implement the EchoAdapterConnectionUri default constructor, EchoAdapterConnectionUri(Uri uri) overloaded constructor, and the public override Uri Uri property.  
   
 #### To update the EchoAdapterConnectionUri class  
   
@@ -326,7 +326,7 @@ manager: "anneta"
  You implemented the connection for the Echo adapter. You learned the connection components of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], the basic structure of the connection URI, how to programmatically parse the URI elements, and how you can use the URI element to change the adapter feature.  
   
 ## Next Steps  
- You will implement metadata browsing, searching, and resolving capabilities, and the outbound message exchange. Finally, you will build and deploy the adapter.  
+ You implement metadata browsing, searching, and resolving capabilities, and the outbound message exchange. Finally, you build and deploy the adapter.  
   
 ## See Also  
  [Step 4: Implement the Metadata Browse Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)   

@@ -61,7 +61,7 @@ The WSDL that the  [!INCLUDE[afproductnameshort](../../includes/afproductnamesho
 \</wsdl:portType>  
 ```  
   
- The values for the documentation elements are obtained from <xref:Microsoft.ServiceModel.Channels.Common.ParameterizedOperationMetadata> for the operation. The preceding example was generated as a result of the following example.  
+ The values for the documentation elements are obtained from `Microsoft.ServiceModel.Channels.Common.ParameterizedOperationMetadata` for the operation. The preceding example was generated as a result of the following example.  
   
 ```csharp  
 ParameterizedOperationMetadata om = new ParameterizedOperationMetadata(operationId, operationId);  

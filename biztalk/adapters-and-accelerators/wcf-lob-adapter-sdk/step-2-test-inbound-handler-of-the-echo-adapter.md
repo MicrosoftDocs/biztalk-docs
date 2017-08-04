@@ -19,12 +19,12 @@ manager: "anneta"
   
  **Time to complete:** 10 minutes  
   
- In this step, you will test the inbound service provided by the Echo Adapter. You will do this using [!INCLUDE[vs2010](../../includes/vs2010-md.md)], the Add Adapter Service Reference Visual Studio Plug-In and custom code.  
+ In this step, you test the inbound service provided by the Echo Adapter. You do this using Visual Studio, the Add Adapter Service Reference Visual Studio Plug-In and custom code.  
   
 ## Prerequisites  
  To complete this step, you must have completed [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md). This step can be completed independent of [Step 1: Test Outbound Handler of the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-1-test-outbound-handler-of-the-echo-adapter.md).  
   
-### To create a Visual Studio project  
+## Create a Visual Studio project  
   
 1.  Start Visual Studio.  
   
@@ -44,13 +44,13 @@ manager: "anneta"
   
 5.  In Visual Studio, on the **File** menu, click **Save All**.  
   
-### To browse, search, and generate the WCF service  
+## Browse, search, and generate the WCF service  
   
 1.  In the Visual Studio Solution pane, right-click **ConsumeEchoAdapter_Inbound** project then choose **Add Adapter Service Reference** to launch the Add Adapter Service Reference plug-in.  
   
 2.  In the **Add Adapter Service Reference** screen, choose a binding. This is done by choosing **echoAdapterBindingV2**.  
   
-3.  Next, configure the adapter and connection properties by clicking **Configure**.  This will bring up the **Configure Adapter** screen.  
+3.  Next, configure the adapter and connection properties by clicking **Configure**.  This opens the **Configure Adapter** screen.  
   
 4.  In the **Configure Adapter** screen, select the **Binding Properties** tab to configure the adapter properties. Notice that the custom Echo Adapter categories **Inbound** and **Misc** are shown. Under the **Misc** category, click **InboundFileSystemWatcherFolder** and then enter the directory you want to monitor.  
   
@@ -60,15 +60,15 @@ manager: "anneta"
   
 7.  To view available inbound operations, change the **Service contract type** to **Service (Inbound operations)**.  
   
-8.  In the Category Tree, click **Main Category**. This will populate the list of available categories and operations with a single inbound operation. There will be no categories.  
+8.  In the Category Tree, click **Main Category**. This populates the list of available categories and operations with a single inbound operation. There are no categories.  
   
 9. In the **Available Categories and Operations**, select the **OnReceiveEcho** operation. Click **Add** to make the selected operations part of the generated WCF interface.  
   
-10. Click **OK** to generate the WCF interface. This will add an application configuration file (app.config), a WCF interface (EchoAdapterBindingInterface.cs) and a WCF service (EchoAdapterBindingService.cs) to the project.  
+10. Click **OK** to generate the WCF interface. This adds an application configuration file (app.config), a WCF interface (EchoAdapterBindingInterface.cs) and a WCF service (EchoAdapterBindingService.cs) to the project.  
   
 11. Click **File** on the **Visual Studio** menu and choose **Save All**.  
   
-### To test the Echo Adapter  
+## Test the Echo Adapter  
   
 1.  In Solution Explorer, double-click the **EchoAdapterBindingService.cs** file.  
   
@@ -129,9 +129,8 @@ manager: "anneta"
  In this step, you created a test application for the inbound operation exposed by the Echo Adapter developed in [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md). To do this, you created a Visual Studio project, generated a WCF Service, and provided code to host the WCF Service. Finally, you ran the test application.  
   
 ## Next Steps  
- This is the last step of the tutorial. For more information about Inbound operations, see <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler>. To see an example SDK that demonstrates how to host a WCF Service that requires authentication, download the echo adapter and test code at [http://go.microsoft.com/fwlink/?LinkID=96184](http://go.microsoft.com/fwlink/?LinkID=96184).  
+ This is the last step of the tutorial. For more information about Inbound operations, see `Microsoft.ServiceModel.Channels.Common.IInboundHandler`. To see an example SDK that demonstrates how to host a WCF Service that requires authentication, download the echo adapter and test code at [http://go.microsoft.com/fwlink/?LinkID=96184](http://go.microsoft.com/fwlink/?LinkID=96184).  
   
 ## See Also  
- <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler>   
  [Tutorial 2: Consume the Echo Adapter from .NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)   
  [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)

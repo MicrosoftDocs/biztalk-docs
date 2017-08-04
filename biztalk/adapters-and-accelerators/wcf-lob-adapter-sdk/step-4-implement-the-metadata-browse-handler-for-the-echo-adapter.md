@@ -19,23 +19,23 @@ manager: "anneta"
   
  **Time to complete:** 45 minutes  
   
- In this step, you will implement the browse capability of the Echo adapter. This capability will allow your adapter to perform a connection-based browse to obtain metadata from the target system. Regardless of your adapter's capabilities, your adapter must support the browse capability.  
+ In this step, you implement the browse capability of the Echo adapter. This capability allows your adapter to perform a connection-based browse to obtain metadata from the target system. Regardless of your adapter's capabilities, your adapter must support the browse capability.  
   
- According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], to support browse capability, you must implement the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler> interface. For the Echo adapter, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the derived class called EchoAdapterMetadataBrowseHandler.  
+ According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], to support browse capability, you must implement the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler` interface. For the Echo adapter, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the derived class called EchoAdapterMetadataBrowseHandler.  
   
- In the following steps, you will update this class to get a better understanding of how to implement the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A> method, how to set various properties of the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object, and how the operation and category nodes supported by the adapter appear in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool.  
+ In the following steps, you update this class to get a better understanding of how to implement the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A` method, how to set various properties of the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object, and how the operation and category nodes supported by the adapter appear in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool.  
   
 ## Prerequisites  
  Before you begin this step, you must have successfully completed [Step 3: Implement the Connection for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-3-implement-the-connection-for-the-echo-adapter.md). You must also understand the following classes:  
   
--   <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode>  
+-   `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`  
   
--   <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNodeDirections>  
+-   `Microsoft.ServiceModel.Channels.MetadataRetrievalNodeDirections`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler>  
+-   `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler`  
   
 ## The IMetadataBrowseHandler Interface  
- The <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler> interface is defined as:  
+ The `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler` interface is defined as:  
   
 ```  
 public interface IMetadataBrowseHandler : IConnectionHandler, IDisposable  
@@ -44,22 +44,22 @@ public interface IMetadataBrowseHandler : IConnectionHandler, IDisposable
 }  
 ```  
   
- The <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A> method returns an array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects based on the method parameters. The parameter definitions for the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A> method are described in the following table.  
+ The `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A` method returns an array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects based on the method parameters. The parameter definitions for the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A` method are described in the following table.  
   
 > [!NOTE]
 >  The Echo adapter implementation uses only the node ID and ignores the other three parameters, since the Echo adapter supports only a few nodes.  
   
 |**Parameter**|**Definition**|  
 |-------------------|--------------------|  
-|nodeId|Each item in the hierarchy of the metadata explorer (the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and<br /><br /> [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]) has a nodeId. Each node ID must be unique and can be a category or an operation. The category can have subcategories. **Note:**  If null or an empty string (""), operations will be retrieved from the root node ("/") by default.|  
+|nodeId|Each item in the hierarchy of the metadata explorer (the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and<br /><br /> [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]) has a nodeId. Each node ID must be unique and can be a category or an operation. The category can have subcategories. **Note:**  If null or an empty string (""), operations are retrieved from the root node ("/") by default.|  
 |childStartIndex|The index of the first child to return.<br /><br /> Not supported by the Echo adapter.|  
 |maxChildNodes|The maximum number of result nodes to return. Use Int32.Max to retrieve all result nodes.<br /><br /> Not supported by the Echo adapter.|  
 |timeout|The maximum time allowed for the operation to complete.<br /><br /> Not supported by the Echo adapter.|  
   
- When implementing the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A> method, you must add every category and operation node to the array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects. To specify a node as category, set the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode.IsOperation%2A> to `false`. To specify a node as operation, set the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode.IsOperation%2A> to `true`.  
+ When implementing the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A` method, you must add every category and operation node to the array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects. To specify a node as category, set the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode.IsOperation%2A` to `false`. To specify a node as operation, set the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode.IsOperation%2A` to `true`.  
   
 ## Echo Adapter Metadata Browse  
- Depending on your target system's categories and operations, there are many ways to build an array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects. The operations and categories you choose should represent the operations you want to expose. But for the Echo adapter, it simply creates a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for each of the following nodes with node ID listed:  
+ Depending on your target system's categories and operations, there are many ways to build an array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects. The operations and categories you choose should represent the operations you want to expose. But for the Echo adapter, it simply creates a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for each of the following nodes with node ID listed:  
   
 ```  
 EchoMainCategory  (node under the root node)  
@@ -69,7 +69,7 @@ EchoMainCategory  (node under the root node)
         Echo/OnReceiveEcho (inbound operation)  
 ```  
   
- The EchoMainCategory is the category node under the root node ("/"). This node is also used as the category for both inbound and outbound operations. Hence, when creating the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for that category, you can do the following:  
+ The EchoMainCategory is the category node under the root node ("/"). This node is also used as the category for both inbound and outbound operations. Hence, when creating the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for that category, you can do the following:  
   
 ```  
 MetadataRetrievalNode node = new MetadataRetrievalNode("EchoMainCategory");  
@@ -109,18 +109,18 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/e4b9d0b8-f07f-4342-815f-9ef1507b0980.gif "e4b9d0b8-f07f-4342-815f-9ef1507b0980")  
   
- To browse the three outbound operations, in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, in the **Select contract type** drop-down list,select the **Client (Outbound operations)** option. You will see those operations in the **Available categories and operations** list box, as shown below:  
+ To browse the three outbound operations, in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, in the **Select contract type** drop-down list,select the **Client (Outbound operations)** option. You see those operations in the **Available categories and operations** list box, as shown below:  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/c8755805-cbb0-40f1-887a-a3123f71ae7e.gif "c8755805-cbb0-40f1-887a-a3123f71ae7e")  
   
- In the previous figure, notice that the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode.DisplayName%2A> value appears in the **Name** column of the **Available categories and operations** list box. The parameter passed into the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> constructor appears in the **Node ID** column of the **Available categories and operations** list box, and the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode.Description%2A> value appears as the tool tip that contains the description, when you right-click the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode.DisplayName%2A>.  
+ In the previous figure, notice that the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode.DisplayName%2A` value appears in the **Name** column of the **Available categories and operations** list box. The parameter passed into the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` constructor appears in the **Node ID** column of the **Available categories and operations** list box, and the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode.Description%2A` value appears as the tool tip that contains the description, when you right-click the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode.DisplayName%2A`.  
   
- To see the inbound operations, in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, in the **Select contract type** drop-down list,select the **Service (Inbound operations)** option. You will see the inbound OnReceiveEcho operation in the **Available categories and operations** list box, as shown in the following figure:  
+ To see the inbound operations, in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool, in the **Select contract type** drop-down list,select the **Service (Inbound operations)** option. You see the inbound OnReceiveEcho operation in the **Available categories and operations** list box, as shown in the following figure:  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/26b7b3c7-bc39-46f8-bc73-7d76fd3c02eb.gif "26b7b3c7-bc39-46f8-bc73-7d76fd3c02eb")  
   
 ## Implementing the IMetadataBrowseHandler  
- In this step, you will update the EchoAdapterMetadataBrowseHandler class to implement the Echo adapter's metadata browse, that is, to implement the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A> method of the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler> interface. Specifically, you will create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for each category and operation, set appropriate values for that object, and then return the array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects for category and operations. Keep in mind that when you create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object, you need to pass in the node ID, not the display name.  
+ In this step, you update the EchoAdapterMetadataBrowseHandler class to implement the Echo adapter's metadata browse, that is, to implement the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A` method of the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler` interface. Specifically, you create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for each category and operation, set appropriate values for that object, and then return the array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects for category and operations. Keep in mind that when you create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object, you need to pass in the node ID, not the display name.  
   
 #### To update the EchoAdapterMetadataBrowseHandler class  
   
@@ -128,7 +128,7 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
   
 2.  In the Visual Studio editor, right-click anywhere within the editor, in the context menu, point to **Outlining**, and then click **Stop Outlining**.  
   
-3.  In the Visual Studio editor, inside the **Browse** method, replace the existing logic with the following to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for EchoMainCategory.  
+3.  In the Visual Studio editor, inside the **Browse** method, replace the existing logic with the following to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for EchoMainCategory.  
   
     ```csharp  
     if (MetadataRetrievalNode.Root.NodeId.Equals(nodeId))  
@@ -142,7 +142,7 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
     }  
     ```  
   
-4.  Continue adding the following logic to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for Echo/OnReceiveEcho.  
+4.  Continue adding the following logic to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for Echo/OnReceiveEcho.  
   
     ```csharp  
     if( "EchoMainCategory".CompareTo(nodeId) == 0 )  
@@ -155,7 +155,7 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
         inOpNode1.IsOperation = true;  
     ```  
   
-5.  Continue adding the following logic to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for Echo/EchoStrings.  
+5.  Continue adding the following logic to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for Echo/EchoStrings.  
   
     ```csharp  
     // Outbound operations  
@@ -166,7 +166,7 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
     outOpNode1.IsOperation = true;  
     ```  
   
-6.  Continue adding the following code to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for Echo/EchoGreetings.  
+6.  Continue adding the following code to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for Echo/EchoGreetings.  
   
     ```csharp  
     MetadataRetrievalNode outOpNode2 = new MetadataRetrievalNode("Echo/EchoGreetings");  
@@ -176,7 +176,7 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
     outOpNode2.IsOperation = true;  
     ```  
   
-7.  Continue adding the following code to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for Echo/ EchoGreetingFromFile.  
+7.  Continue adding the following code to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for Echo/ EchoGreetingFromFile.  
   
     ```csharp  
     MetadataRetrievalNode outOpNode3 = new MetadataRetrievalNode("Echo/EchoCustomGreetingFromFile");  
@@ -186,7 +186,7 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
     outOpNode3.IsOperation = true;  
     ```  
   
-8.  Continue adding the following code to return an array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects or null if not matched.  
+8.  Continue adding the following code to return an array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects or null if not matched.  
   
     ```  
         return new MetadataRetrievalNode[] { inOpNode1, outOpNode1, outOpNode2, outOpNode3 };  
@@ -202,10 +202,10 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
 >  You saved your work. You can safely close Visual Studio at this time or go to the next step, [Step 5: Implement the Metadata Search Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-5-implement-the-metadata-search-handler-for-the-echo-adapter.md).  
   
 ## What Did I Just Do?  
- You just implemented the metadata browsing capability of the Echo adapter, by implementing the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A> method of the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler> interface. Specifically, you created a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for the category, and then returned it as an array of the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects. For each operation, you created a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object, and then returned all those objects in an array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode>.  
+ You just implemented the metadata browsing capability of the Echo adapter, by implementing the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler.Browse%2A` method of the `Microsoft.ServiceModel.Channels.Common.IMetadataBrowseHandler` interface. Specifically, you created a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for the category, and then returned it as an array of the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects. For each operation, you created a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object, and then returned all those objects in an array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`.  
   
 ## Next Steps  
- You will implement metadata searching and resolving capabilities, and the outbound message exchange. Finally, you will build and deploy the Echo adapter.  
+ You implement metadata searching and resolving capabilities, and the outbound message exchange. Finally, you build and deploy the Echo adapter.  
   
 ## See Also  
  [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)   

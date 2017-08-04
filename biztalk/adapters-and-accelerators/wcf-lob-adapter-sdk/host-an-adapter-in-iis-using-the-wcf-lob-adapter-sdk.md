@@ -57,13 +57,13 @@ Use the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] to aut
         |**Username**|The client will supply a user name and password.|  
         |**Certificate**|The client will be authenticated by using an X.509 certificate. If this value is set, click **Browse** in the **Client Certificate** area, and then select the certificate to use.|  
   
-    3.  On the **URI Properties** tab, specify the URI parameters required by the adapter. The entries displayed in this tab vary based on the properties exposed in the [ConnectionUri Properties](ConnectionUri%20Properties.xml) class of the adapter.  
+    3.  On the **URI Properties** tab, specify the URI parameters required by the adapter. The entries displayed in this tab vary based on the properties exposed in the  `ConnectionUri Properties` class of the adapter.  
   
-    4.  On the **Binding Properties** tab, specify values for the binding properties required for the adapter. The **General** section contains common settings such as timeout values. Additional properties are listed based on the custom properties exposed in your [AdapterBinding Class](AdapterBinding%20Class.xml) class.  
+    4.  On the **Binding Properties** tab, specify values for the binding properties required for the adapter. The **General** section contains common settings such as timeout values. Additional properties are listed based on the custom properties exposed in your `AdapterBinding` class.  
   
 6.  Once you have specified the configuration values, click **Connect**.  
   
-    1.  From the **Select contract type** list, select the contract to use. This populates the **Select a category** tree control with a list of categories and operations available from this adapter. If the adapter implements search functionality through a [MetadataRetrievalClient Class](MetadataRetrievalClient%20Class.xml) class, you can enter a search term in the **Search in category** field to return only categories and operations that contain the search term.  
+    1.  From the **Select contract type** list, select the contract to use. This populates the **Select a category** tree control with a list of categories and operations available from this adapter. If the adapter implements search functionality through a `MetadataRetrievalClient` class, you can enter a search term in the **Search in category** field to return only categories and operations that contain the search term.  
   
         > [!NOTE]
         >  Only outbound operations are available for selection.  

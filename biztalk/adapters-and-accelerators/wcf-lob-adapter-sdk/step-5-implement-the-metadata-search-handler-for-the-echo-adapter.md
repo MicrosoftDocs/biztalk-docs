@@ -19,21 +19,21 @@ manager: "anneta"
   
  **Time to complete:** 30 minutes  
   
- In this step of the tutorial, you will implement the search capability of the Echo adapter. Unlike browse, search is optional. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], to support search capability, you must implement the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler> interface. For the Echo adapter, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates one derived class called EchoAdapterMetadataSearchHandler.  
+ In this step of the tutorial, you implement the search capability of the Echo adapter. Unlike browse, search is optional. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], to support search capability, you must implement the `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interface. For the Echo adapter, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates one derived class called EchoAdapterMetadataSearchHandler.  
   
- You will first update the EchoAdapterMetadataSearchHandler class to get a better understanding of how to implement this interface, how to populate <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object, and how the search results appear in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool.  
+ You first update the EchoAdapterMetadataSearchHandler class to get a better understanding of how to implement this interface, how to populate  `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object, and how the search results appear in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] tool.  
   
 ## Prerequisites  
- Before you begin this step, you must have successfully completed [Step 4: Implement the Metadata Browse Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md). You must also have a clear understanding about the following classes:  
+ Before you begin this step, complete [Step 4: Implement the Metadata Browse Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md). You must also have a clear understanding about the following classes:  
   
--   <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode>  
+-   `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`
   
--   <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler>  
+-   `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler`  
   
--   <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNodeDirections>  
+-   `Microsoft.ServiceModel.Channels.MetadataRetrievalNodeDirections`  
   
 ## The IMetadataSearchHandler Interface  
- The <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler> is defined as:  
+ The `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` is defined as:  
   
 ```  
 public interface IMetadataSearchHandler : IConnectionHandler, IDisposable  
@@ -42,7 +42,7 @@ public interface IMetadataSearchHandler : IConnectionHandler, IDisposable
 }  
 ```  
   
- The <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A> method returns an array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects based on the search criteria. The parameter definitions for the Search method are described in the following table:  
+ The `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A` method returns an array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects based on the search criteria. The parameter definitions for the Search method are described in the following table:  
   
 |**Parameter**|**Definition**|  
 |-------------------|--------------------|  
@@ -54,7 +54,7 @@ public interface IMetadataSearchHandler : IConnectionHandler, IDisposable
  For search result, your adapter can choose to return either category nodes or operation nodes, or both. It is up to the type of search feature your adapter supports.  
   
 ## Echo adapter Metadata Search  
- Depending on your target system's categories and operations, there are many ways to build an array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects to return. The way Echo adapter implements the search functionality is to go through every operation with its node ID in the following list:  
+ Depending on your target system's categories and operations, there are many ways to build an array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects to return. The way Echo adapter implements the search functionality is to go through every operation with its node ID in the following list:  
   
 ```  
 Echo/OnReceiveEcho, inbound operation  
@@ -63,7 +63,7 @@ Echo/EchoGreetings, outbound operation
 Echo/EchoGreetingFromFile, outbound operation  
 ```  
   
--   If the node ID then matches the search criteria, it creates a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object using the node ID of the operation, and then assigns the properties with values. For example,  
+-   If the node ID then matches the search criteria, it creates a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object using the node ID of the operation, and then assigns the properties with values. For example,  
   
     ```  
     MetadataRetrievalNode nodeInbound = new MetadataRetrievalNode("Echo/OnReceiveEcho"); //create the MetadataRetrievalNode using the operation's node ID.  
@@ -73,7 +73,7 @@ Echo/EchoGreetingFromFile, outbound operation
     nodeInbound.IsOperation = true;  //It is an operation, not category.  
     ```  
   
--   And then add the object to a collection of the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode>s, for example,  
+-   And then add the object to a collection of the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`s, for example,  
   
     ```  
     resultList.Add(nodeInbound);  
@@ -94,13 +94,13 @@ Echo/EchoGreetingFromFile, outbound operation
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/cb1f79a2-a63d-4828-9dce-905c026cd1dc.gif "cb1f79a2-a63d-4828-9dce-905c026cd1dc")  
   
 ## Implementing the IMetadataSearchHandler  
- You will implement the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A> method of the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler> interface. If the operation's display name matches the search criteria, you will create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for that operation, and then add that object to an array of the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects.  
+ You will implement the `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A` method of the `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interface. If the operation's display name matches the search criteria, you will create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for that operation, and then add that object to an array of the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects.  
   
 #### To update the EchoAdapterMetadataSearchHandler class  
   
 1.  In Solution Explorer, double-click the **EchoAdapterMetadataSearchHandler.cs** file.  
   
-2.  In the Visual Studio editor, inside the **Search** method, replace the existing logic with the following. This logic creates a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object if Echo/OnReceiveEcho matches the specified search criteria.  
+2.  In the Visual Studio editor, inside the **Search** method, replace the existing logic with the following. This logic creates a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object if Echo/OnReceiveEcho matches the specified search criteria.  
   
     ```csharp  
     List<MetadataRetrievalNode> resultList = new List<MetadataRetrievalNode>();  
@@ -115,7 +115,7 @@ Echo/EchoGreetingFromFile, outbound operation
     }  
     ```  
   
-3.  Continue adding the following logic to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object if Echo/EchoStrings matches the specified search criteria.  
+3.  Continue adding the following logic to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object if Echo/EchoStrings matches the specified search criteria.  
   
     ```csharp  
     if ("EchoStrings".ToLower().Contains(searchCriteria.ToLower()))  
@@ -129,7 +129,7 @@ Echo/EchoGreetingFromFile, outbound operation
     }  
     ```  
   
-4.  Continue adding the following logic to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object if Echo/EchoGreetings matches the specified search criteria.  
+4.  Continue adding the following logic to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object if Echo/EchoGreetings matches the specified search criteria.  
   
     ```csharp  
     if ("EchoGreetings".ToLower().Contains(searchCriteria.ToLower()))  
@@ -143,7 +143,7 @@ Echo/EchoGreetingFromFile, outbound operation
         }  
     ```  
   
-5.  Continue adding the following code to create a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object if Echo/EchoGreetingFromFile matches the specified search criteria.  
+5.  Continue adding the following code to create a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object if Echo/EchoGreetingFromFile matches the specified search criteria.  
   
     ```csharp  
     if ("EchoCustomGreetingFromFile".ToLower().Contains(searchCriteria.ToLower()))  
@@ -157,7 +157,7 @@ Echo/EchoGreetingFromFile, outbound operation
     }  
     ```  
   
-6.  Continue adding the following code to return an array of <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects.  
+6.  Continue adding the following code to return an array of `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects.  
   
     ```csharp  
     return resultList.ToArray();  
@@ -171,7 +171,7 @@ Echo/EchoGreetingFromFile, outbound operation
     >  You saved your work. You can safely close Visual Studio at this time or go to the next step, [Step 6: Implement the Metadata Resolve Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md).  
   
 ## What Did I Just Do?  
- You just implemented the metadata searching capability of the Echo adapter, by implementing the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A> method of the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler> interface. Specifically, you created a <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> object for every operation that matches the criteria and then returned an array of the <xref:Microsoft.ServiceModel.Channels.MetadataRetrievalNode> objects.  
+ You just implemented the metadata searching capability of the Echo adapter, by implementing the `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A` method of the `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler` interface. Specifically, you created a `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` object for every operation that matches the criteria and then returned an array of the `Microsoft.ServiceModel.Channels.MetadataRetrievalNode` objects.  
   
 ## Next Steps  
  You will implement the metadata resolving capability, and the outbound and inbound message exchange capabilities. Finally, you will build and deploy the Echo adapter.  

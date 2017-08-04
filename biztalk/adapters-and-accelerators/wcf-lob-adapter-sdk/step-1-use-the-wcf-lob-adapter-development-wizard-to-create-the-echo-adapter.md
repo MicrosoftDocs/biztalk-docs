@@ -24,7 +24,7 @@ manager: "anneta"
 ## Prerequisites  
  You must possess the knowledge described in [Before You Begin the Tutorial](../../core/before-you-begin-the-tutorial.md) and have successfully set up your computer for your adapter development by using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].  
   
-### To choose WCF LOB Adapter Plug-in in Visual Studio  
+## Choose WCF LOB Adapter Plug-in in Visual Studio  
   
 1.  Start Visual Studio and then on the **File** menu, point to **New**, and then click **Project**.  
   
@@ -51,7 +51,7 @@ manager: "anneta"
   
 5.  Click **Next**.  
   
-### To provide the scheme and namespace information  
+## Enter the scheme and namespace information  
   
 1.  On the **Scheme, Namespace, and URI Information** page, do the following:  
   
@@ -66,7 +66,7 @@ manager: "anneta"
   
 2.  Click **Next**.  
   
-### To specify the data flow and metadata features  
+## Enter the data flow and metadata features  
   
 1.  On the **Data Flows** and **Metadata Features** page, do the following:  
   
@@ -94,7 +94,7 @@ manager: "anneta"
   
 2.  Click **Next**.  
   
-### To specify adapter properties  
+## Enter the adapter properties  
   
 1.  On the **Adapter Properties** page, do the following:  
   
@@ -140,7 +140,7 @@ manager: "anneta"
   
 6.  Click **Next**.  
   
-### To specify the connection properties  
+## Enter the connection properties  
   
 1.  On the **Connection Properties** page, do the following:  
   
@@ -182,7 +182,7 @@ manager: "anneta"
   
 6.  Click **Next**.  
   
-### To end the wizard  
+## End the wizard  
   
 1.  On the **Summary** page, click **Finish**. The following figure shows **Solution Explorer** with the **EchoAdapter** project.  
   
@@ -200,9 +200,9 @@ manager: "anneta"
   
 |**File Name**|**Description**|  
 |-------------------|---------------------|  
-|EchoAdapter.cs|This is the main adapter class which inherits from <xref:Microsoft.ServiceModel.Channels.Common.Adapter><br /><br /> No changes are necessary for the echo adapter.|  
+|EchoAdapter.cs|This is the main adapter class which inherits from `Microsoft.ServiceModel.Channels.Common.Adapter`.<br /><br /> No changes are necessary for the echo adapter.|  
 |EchoAdapterBinding.cs|This is the class used while creating a binding for an adapter.<br /><br /> No changes are necessary for the echo adapter.|  
-|EchoAdapterBindingCollectionElement.cs|This is the Binding Collection Element class which implements the <xref:System.ServiceModel.Configuration.StandardBindingCollectionElement><br /><br /> No changes are necessary for the echo adapter.|  
+|EchoAdapterBindingCollectionElement.cs|This is the Binding Collection Element class which implements the `System.ServiceModel.Configuration.StandardBindingCollectionElement`.<br /><br /> No changes are necessary for the echo adapter.|  
 |EchoAdapterBindingElement.cs|This provides a base class for the configuration elements.<br /><br /> To categorize the adapter and connection properties of the echo adapter, follow [Step 2: Categorize the Adapter and Connection Properties](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-categorize-the-adapter-and-connection-properties.md).|  
 |EchoAdapterBindingElementExtensionElement.cs|This class is provided to represent the adapter as a binding element, so that it can be used within a user-defined WCF custom binding.<br /><br /> To categorize the adapter and connection properties of the echo adapter, follow [Step 2: Categorize the Adapter and Connection Properties](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-categorize-the-adapter-and-connection-properties.md).|  
 |EchoAdapterHandlerBase.cs|This is the base class for handlers used to store common properties/helper functions exposed by your base class.<br /><br /> To categorize the adapter and connection properties of the echo adapter, follow [Step 2: Categorize the Adapter and Connection Properties](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-categorize-the-adapter-and-connection-properties.md).|  
@@ -217,7 +217,7 @@ manager: "anneta"
 |EchoAdapterTrace.cs|This class implements adapter tracing, for debugging and troubleshooting.|  
   
 ## Next Steps  
- You will categorize adapter and connection properties for their UI logical grouping, and then implement connection, metadata browsing, searching, and resolving capabilities, and the outbound and inbound message exchanges. Lastly, you will build and deploy the echo adapter.  
+ You categorize adapter and connection properties for their UI logical grouping, and then implement connection, metadata browsing, searching, and resolving capabilities, and the outbound and inbound message exchanges. Lastly, you build and deploy the echo adapter.  
   
 ## See Also  
  [Step 2: Categorize the Adapter and Connection Properties](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-categorize-the-adapter-and-connection-properties.md)   

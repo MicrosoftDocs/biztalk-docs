@@ -19,15 +19,15 @@ manager: "anneta"
   
  **Time to complete:** 30 minutes  
   
- In this step, you will implement the synchronous outbound capability of the Echo adapter. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], to support the synchronous outbound capability, you must implement the <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler>interface. For the Echo adapter, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates one derived class called EchoAdapterOutboundHandler.  
+ In this step, you implement the synchronous outbound capability of the Echo adapter. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], to support the synchronous outbound capability, you must implement the `Microsoft.ServiceModel.Channels.Common.IOutboundHandler` interface. For the Echo adapter, the [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates one derived class called EchoAdapterOutboundHandler.  
   
- In the following sections, you will update the EchoAdapterOutboundHandler class to get a better understanding of how to implement the <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A>, how to parse the incoming WCF request message, and how to generate outgoing WCF response messages.  
+ In the following sections, you update the EchoAdapterOutboundHandler class to get a better understanding of how to implement the `Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A`, how to parse the incoming WCF request message, and how to generate outgoing WCF response messages.  
   
 ## Prerequisites  
- Before you begin this step, you must have successfully completed [Step 6: Implement the Metadata Resolve Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md). A basic familiarity with <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler> is also helpful.  
+ Before you begin this step, you must have successfully completed [Step 6: Implement the Metadata Resolve Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md). A basic familiarity with `Microsoft.ServiceModel.Channels.Common.IOutboundHandler` is also helpful.  
   
 ## The IOutboundHandler Interface  
- The <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler> is defined as:  
+ The `Microsoft.ServiceModel.Channels.Common.IOutboundHandler` is defined as:  
   
 ```  
 public interface IOutboundHandler : IConnectionHandler, IDisposable  
@@ -36,17 +36,17 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
 }  
 ```  
   
- The <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A> method executes the incoming WCF request message by invoking the corresponding method on the target system and then returns an outgoing WCF response message. The definitions of its parameters are listed in the following table:  
+ The `Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A` method executes the incoming WCF request message by invoking the corresponding method on the target system and then returns an outgoing WCF response message. The definitions of its parameters are listed in the following table:  
   
 |**Parameter**|**Definition**|  
 |-------------------|--------------------|  
 |message|Incoming WCF request message.|  
-|timeout|Time interval within which this operation should be completed. The operation should throw a <xref:System.TimeoutException> if the specified timeout is exceeded before the operation is completed.|  
+|timeout|Time interval within which this operation should be completed. The operation should throw a `System.TimeoutException` if the specified timeout is exceeded before the operation is completed.|  
   
- If your adapter is performing a one-way send (there is no response message expected by your adapter), this method should return null. If your adapter is performing a two-way operation with <xref:Microsoft.ServiceModel.Channels.Common.OperationResult> equal to <xref:Microsoft.ServiceModel.Channels.Common.OperationResult.Empty%2A>, this method will return a WCF response message with an empty body. Otherwise, it should return the WCF response message with a body that contains the values in the <xref:Microsoft.ServiceModel.Channels.Common.OperationResult> object. To construct the response action string, use <xref:Microsoft.ServiceModel.Channels.Common.OperationMetadata.OutputMessageAction%2A>.  
+ If your adapter is performing a one-way send (there is no response message expected by your adapter), this method should return null. If your adapter is performing a two-way operation with `Microsoft.ServiceModel.Channels.Common.OperationResult` equal to `Microsoft.ServiceModel.Channels.Common.OperationResult.Empty%2A`, this method returns a WCF response message with an empty body. Otherwise, it should return the WCF response message with a body that contains the values in the `Microsoft.ServiceModel.Channels.Common.OperationResult` object. To construct the response action string, use `Microsoft.ServiceModel.Channels.Common.OperationMetadata.OutputMessageAction%2A`.  
   
 ## Echo Adapter Synchronous Outbound  
- Depending on your target system's operations, there are many ways to implement the <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A> method. For the Echo adapter, there are three outbound operations, and their assigned node IDs and display names are:  
+ Depending on your target system's operations, there are many ways to implement the `Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A` method. For the Echo adapter, there are three outbound operations, and their assigned node IDs and display names are:  
   
 -   string[] EchoStrings(string data), node ID = Echo/EchoString, display name=EchoString  
   
@@ -89,10 +89,10 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
 </EchoStringsResponse>  
 ```  
   
- When parsing the incoming WCF request message, you can use the <xref:System.Xml.XmlDictionaryReader> to retrieve content within the WCF message; when composing the WCF response message, you can use the <xref:System.Xml.XmlWriter> to do so.  
+ When parsing the incoming WCF request message, you can use the `System.Xml.XmlDictionaryReader` to retrieve content within the WCF message; when composing the WCF response message, you can use the `System.Xml.XmlWriter` to do so.  
   
 ## Implementing the IOutboundHandler  
- You will implement the Execute method of the <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler>. First, gets a <xref:Microsoft.ServiceModel.Channels.Common.OperationMetadata> object based on the input message action. Then, parses the incoming WCF message and executes the associated echo functionality based on each operation. Finally, creates an outgoing WCF response message by using the format of outgoing message body.  
+ You implement the Execute method of the `Microsoft.ServiceModel.Channels.Common.IOutboundHandler`. First, gets a `Microsoft.ServiceModel.Channels.Common.OperationMetadata` object based on the input message action. Then, parses the incoming WCF message and executes the associated echo functionality based on each operation. Finally, creates an outgoing WCF response message by using the format of outgoing message body.  
   
 #### To implement the Execute method of the EchoAdapterOutboundHandler class  
   
@@ -109,7 +109,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
   
     1.  This logic verifies the requested operation.  
   
-    2.  It gets the <xref:Microsoft.ServiceModel.Channels.Common.OperationMetadata> object based on the SOAP input message action.  
+    2.  It gets the `Microsoft.ServiceModel.Channels.Common.OperationMetadata` object based on the SOAP input message action.  
   
     3.  Based on the action type, it parses the WCF request message and invokes the appropriate operation.  
   
@@ -183,7 +183,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     }  
     ```  
   
-5.  Continue by adding the **ExecuteEchoGreetings** method to handle the EchoGreetings operation. This helper function reads the WCF request message, resolves operation and type by the `ResolveOperationMetadata` and `ResolveTypeMetadata` methods of the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler> interface, and then generates the WCF response message using the format of: \<EchoGreetingsResponse>\<EchoGreetingsResult>…message…\</EchoGreetingsResult>\</EchoGreetingsResponse>.  
+5.  Continue by adding the **ExecuteEchoGreetings** method to handle the EchoGreetings operation. This helper function reads the WCF request message, resolves operation and type by the `ResolveOperationMetadata` and `ResolveTypeMetadata` methods of the `Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler` interface, and then generates the WCF response message using the format of: \<EchoGreetingsResponse>\<EchoGreetingsResult>…message…\</EchoGreetingsResult>\</EchoGreetingsResponse>.  
   
     ```csharp  
     private Message ExecuteEchoGreetings(ParameterizedOperationMetadata om, Message message, TimeSpan timeout)  
@@ -274,12 +274,12 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
 8.  On the **Build** menu, click **Build Solution**. It should compile without errors. If not, ensure that you have followed every step above. Now, you can safely close Visual Studio or continue on to [Step 8: Implement the Synchronous Inbound Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-8-implement-the-synchronous-inbound-handler-for-the-echo-adapter.md).  
   
 ## What Did I Just Do?  
- In this step, you learned how to implement the synchronous outbound messaging functionality of the Echo adapter. To do so, you implemented the <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A> method of the <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler>. This method parsed the incoming WCF request message, performed the necessary actions, and then generated the outgoing WCF response message.  
+ In this step, you learned how to implement the synchronous outbound messaging functionality of the Echo adapter. To do so, you implemented the `Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A` method of the `Microsoft.ServiceModel.Channels.Common.IOutboundHandler`. This method parsed the incoming WCF request message, performed the necessary actions, and then generated the outgoing WCF response message.  
   
- Specifically, for the incoming WCF request message, you used WCF <xref:System.ServiceModel.Channels.Message.Headers.Action%2A> to retrieve the input message action by further understanding the basic structure of the incoming message body. For the outgoing WCF response message, you used <xref:Microsoft.ServiceModel.Channels.Common.OperationMetadata.OutputMessageAction%2A> to retrieve the output message action by further understanding the basic structure of the outgoing message body. When parsing and composing WCF messages, you used <xref:System.Xml.XmlDictionaryReader> to read the incoming WCF request message and used <xref:System.Xml.XmlWriter> to write an outgoing WCF response message.  
+ Specifically, for the incoming WCF request message, you used WCF `System.ServiceModel.Channels.Message.Headers.Action%2A` to retrieve the input message action by further understanding the basic structure of the incoming message body. For the outgoing WCF response message, you used `Microsoft.ServiceModel.Channels.Common.OperationMetadata.OutputMessageAction%2A` to retrieve the output message action by further understanding the basic structure of the outgoing message body. When parsing and composing WCF messages, you used `System.Xml.XmlDictionaryReader` to read the incoming WCF request message and used `System.Xml.XmlWriter` to write an outgoing WCF response message.  
   
 ## Next Steps  
- You will build and deploy the Echo adapter.  
+Build and deploy the Echo adapter.  
   
 ## See Also  
  [Step 6: Implement the Metadata Resolve Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)   

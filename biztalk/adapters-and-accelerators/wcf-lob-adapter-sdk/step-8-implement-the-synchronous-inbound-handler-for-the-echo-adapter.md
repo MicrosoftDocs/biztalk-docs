@@ -19,15 +19,15 @@ manager: "anneta"
   
  **Time to complete:** 45 minutes  
   
- In this step, you implement the inbound capability of the echo adapter. This capability will allow the adapter to listen for data or events from the target system. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], you only need to implement the <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler> interface, when your adapter supports inbound capability. The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the derived class called EchoAdpterInboundHandler for you.  
+ In this step, you implement the inbound capability of the echo adapter. This capability allows the adapter to listen for data or events from the target system. According to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], you only need to implement the `Microsoft.ServiceModel.Channels.Common.IInboundHandler` interface, when your adapter supports inbound capability. The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the derived class called EchoAdpterInboundHandler for you.  
   
- In the following section, you will update the EchoAdpterInboundHandler class to get a better understanding on how to implement this interface. When you complete this step, you will have a working inbound handler for the echo adapter.  
+ In the following section, you update the EchoAdpterInboundHandler class to get a better understanding on how to implement this interface. When you complete this step, you have a working inbound handler for the echo adapter.  
   
 ## Prerequisites  
- Before you begin this step, you must have successfully completed [Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-7-implement-the-synchronous-outbound-handler-for-the-echo-adapter.md). A basic familiarity with <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler> is also helpful.  
+ Before you begin this step, you must have successfully completed [Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-7-implement-the-synchronous-outbound-handler-for-the-echo-adapter.md). A basic familiarity with `Microsoft.ServiceModel.Channels.Common.IInboundHandler` is also helpful.  
   
 ## The IInboundHandler Interface  
- The <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler> is defined as:  
+ The `Microsoft.ServiceModel.Channels.Common.IInboundHandler` is defined as:  
   
 ```  
 public interface IInboundHandler : IConnectionHandler, IDisposable  
@@ -48,10 +48,10 @@ public interface IInboundHandler : IConnectionHandler, IDisposable
 |TryReceive|Tries to receive an inbound message from the target system.|  
 |WaitForMessage|Waits for an inbound WCF message from the target system.|  
   
- For more details on the description for each method parameters, see the documentation on the <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler> interface.  
+ For more details on the description for each method parameters, see the documentation on the `Microsoft.ServiceModel.Channels.Common.IInboundHandler` interface.  
   
 ## Implementing the EchoAdpterInboundHandler  
- The echo adapter uses the <xref:System.IO.FileSystemWatcher> to simulate the target system. In the following, you will implement each method within the <xref:Microsoft.ServiceModel.Channels.Common.IInboundHandler> interface, StartListener, StopListener, TryReceive and WaitForMessage.  
+ The echo adapter uses the `System.IO.FileSystemWatcher` to simulate the target system. In the following, you implement each method within the `Microsoft.ServiceModel.Channels.Common.IInboundHandler` interface, StartListener, StopListener, TryReceive and WaitForMessage.  
   
 #### To implement IInboundHandler interface in the EchoAdpterInboundHandler class  
   
@@ -339,7 +339,7 @@ public interface IInboundHandler : IConnectionHandler, IDisposable
  In this step of the Echo Adapter tutorial, you provided an implementation for the Inbound Handler. This implementation provides file watching capabilities for the Echo Adapter using the **FileSystemWatcher** class of the .NET Framework.  
   
 ## Next Steps  
- In the next step, you will deploy the adapter.  
+ In the next step, you deploy the adapter.  
   
 ## See Also  
  [Step 9: Build and Deploy the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-9-build-and-deploy-the-echo-adapter.md)   
