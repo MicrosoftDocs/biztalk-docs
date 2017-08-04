@@ -134,7 +134,7 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is shipped with [!INCLU
   
      The following screenshot shows the Action and Keywords property specified for the **MyResolver** configuration.  
   
-     ![Sentinet Resolvery configuration](../technical-guides/media/sentinetwp-resolverconfig.bmp "SentinetWP_ResolverConfig")  
+     ![Sentinet Resolvery configuration](../technical-guides/media/sentinetwp-resolverconfig.png "SentinetWP_ResolverConfig")  
   
 8.  Save changes to the configuration.  
   

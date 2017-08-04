@@ -20,13 +20,13 @@ Before developing your adapter using the [!INCLUDE[afproductnameshort](../../inc
 ## The Path to Understanding  
  The purpose of an adapter is to expose data and operations from a line-of-business system in a consistent, accessible manner according to the rules imposed by the adapter specification and/or adapter API. To know which operations and data to expose, you must understand what the system does and how it exposes its data and operations. In particular, you must think about the following design issues:  
   
--   **Connection lifecycle.** How are connections opened and closed? How are open connections maintained? Are there special requirements for reusing a connection? For more information about connections, see <xref:Microsoft.ServiceModel.Channels.Common.IConnection>.  
+-   **Connection lifecycle.** How are connections opened and closed? How are open connections maintained? Are there special requirements for reusing a connection? For more information about connections, see `Microsoft.ServiceModel.Channels.Common.IConnection`.  
   
 -   **The operation and type metadata exposed by the system.** Does the line-of-business system support operation search and browse and easy access to metadata, or must you develop support code to provide this functionality? For example, in SQL Server operations are objects such as stored procedures. Type metadata about columns, tables, and other objects are easy to retrieve. Legacy line-of-business systems may be more difficult to work with.  
   
 -   **How operations and data are exposed by the system.** How is the API exposed? Does the API support blocking (synchronous) and non-blocking (asynchronous) calls? Are callbacks supported? Will you interface at the API or protocol level?  
   
--   **Support for security, transactions, and reliable messaging.** If the API supports any of these features, you will likely want to expose them to the adapter consumer. For example, SQL Server has security and transaction support although reliable messaging isn't practical (but would be with MSMQ or some other queuing system).  
+-   **Support for security, transactions, and reliable messaging.** If the API supports any of these features, you likely want to expose them to the adapter consumer. For example, SQL Server has security and transaction support although reliable messaging isn't practical (but would be with MSMQ or some other queuing system).  
   
 -   **What functionality and usage scenarios are important?** Don't limit your understanding to the purely technical; discuss and capture business requirements with experienced users. Are there any unique constraints imposed on some operations? Are there operations that are obscure yet useful? Is some functionality rarely used?  
   

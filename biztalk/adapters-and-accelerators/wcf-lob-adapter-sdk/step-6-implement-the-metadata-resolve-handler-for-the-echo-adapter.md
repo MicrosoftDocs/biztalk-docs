@@ -19,30 +19,30 @@ manager: "anneta"
   
  **Time to complete:** 45 minutes  
   
- In this step, you will implement the <xref:Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler> interface to resolve operation and type metadata for the echo adapter. Regardless of your adapter's capability, you must implement this interface. The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the derived class called EchoAdapterMetadataResolverHandler for you.  
+ In this step, you implement the `Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler` interface to resolve operation and type metadata for the echo adapter. Regardless of your adapter's capability, you must implement this interface. The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] automatically generates the derived class called EchoAdapterMetadataResolverHandler for you.  
   
- In the following section, you will update the EchoAdapterMetadataResolverHandler class to get a better understanding on how to implement this interface. When you complete this step, you will have a working metadata resolve handler for the echo adapter.  
+ In the following section, you update the EchoAdapterMetadataResolverHandler class to get a better understanding on how to implement this interface. When you complete this step, you have a working metadata resolve handler for the echo adapter.  
   
 ## Prerequisites  
  Before you begin this step, you must have successfully completed [Step 5: Implement the Metadata Search Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-5-implement-the-metadata-search-handler-for-the-echo-adapter.md). You must also understand the following operation and type classes:  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.ParameterizedOperationMetadata>  
+-   `Microsoft.ServiceModel.Channels.Common.ParameterizedOperationMetadata`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.OperationMetadata>  
+-   `Microsoft.ServiceModel.Channels.Common.OperationMetadata`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.OperationParameter>  
+-   `Microsoft.ServiceModel.Channels.Common.OperationParameter`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.OperationResult>  
+-   `Microsoft.ServiceModel.Channels.Common.OperationResult`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.TypeMetadata>  
+-   `Microsoft.ServiceModel.Channels.Common.TypeMetadata`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.StructuredTypeMetadata>  
+-   `Microsoft.ServiceModel.Channels.Common.StructuredTypeMetadata`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.TypeMember>  
+-   `Microsoft.ServiceModel.Channels.Common.TypeMember`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.SimpleQualifiedType>  
+-   `Microsoft.ServiceModel.Channels.Common.SimpleQualifiedType`  
   
--   <xref:Microsoft.ServiceModel.Channels.Common.ComplexQualifiedType>  
+-   `Microsoft.ServiceModel.Channels.Common.ComplexQualifiedType`  
   
 ## The IMetadataResolverHandler Interface  
   
@@ -62,8 +62,8 @@ public interface IMetadataResolverHandler : IConnectionHandler, IDisposable
 |---------------------|---------------------|  
 |IsOperationMetadataValid|Returns a true if the type metadata has not changed since the date and time specified|  
 |IsTypeMetadataValid|Returns a Boolean value that indicates whether the specified type metadata is valid.|  
-|ResolveOperationMetadata|Resolves an operation ID to corresponding <xref:Microsoft.ServiceModel.Channels.Common.OperationMetadata>|  
-|ResolveTypeMetadata|Resolves a supplied metadata typeId to a corresponding <xref:Microsoft.ServiceModel.Channels.Common.TypeMetadata>.|  
+|ResolveOperationMetadata|Resolves an operation ID to corresponding `Microsoft.ServiceModel.Channels.Common.OperationMetadata`|  
+|ResolveTypeMetadata|Resolves a supplied metadata typeId to a corresponding `Microsoft.ServiceModel.Channels.Common.TypeMetadata`.|  
   
 ### To implement the IsOperationMetadataValid method  
   
@@ -179,7 +179,7 @@ public interface IMetadataResolverHandler : IConnectionHandler, IDisposable
   
 ### To implement the ResolveTypeMetadata method  
   
--   In the Visual Studio editor, find the **ResolveTypeMetadata** method, inside this method, replace the existing with the following to return a <xref:Microsoft.ServiceModel.Channels.Common.TypeMetadata> object.  
+-   In the Visual Studio editor, find the **ResolveTypeMetadata** method, inside this method, replace the existing with the following to return a `Microsoft.ServiceModel.Channels.Common.TypeMetadata` object.  
   
     ```csharp  
     extraTypeMetadataResolved = null;  
@@ -431,7 +431,7 @@ public interface IMetadataResolverHandler : IConnectionHandler, IDisposable
  You just implemented the metadata resolving capability for the echo adapter.  
   
 ## Next Steps  
- In the next step, you will implement the synchronous outbound handler for the Echo Adapter. You will then implement the synchronous inbound handler and then build and deploy the Echo Adapter.  
+ In the next step, you implement the synchronous outbound handler for the Echo Adapter. You then implement the synchronous inbound handler and then build and deploy the Echo Adapter.  
   
 ## See Also  
  [Step 5: Implement the Metadata Search Handler for the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-5-implement-the-metadata-search-handler-for-the-echo-adapter.md)   

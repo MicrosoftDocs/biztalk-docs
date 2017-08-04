@@ -18,7 +18,7 @@ manager: "anneta"
 You can use the best practices in this topic to improve your applications and adapters.  
   
 ## Call Abort Before Close on Channel Exception  
- When you write an application that uses the WCF channel model, you should call `IRequestChannel.Abort` before calling `ChannelFactory.Close`. If you do not, `ChannelFactory.Close` will throw an exception.  
+ When you write an application that uses the WCF channel model, you should call `IRequestChannel.Abort` before calling `ChannelFactory.Close`. If you do not, `ChannelFactory.Close` throws an exception.  
   
  In the following example, channel operations are attempted within a try/catch block. If an exception occurs, the channel is aborted.  
   
@@ -52,7 +52,7 @@ finally
  If possible, implement both asynchronous and synchronous handlers in your adapter. If your adapter only implements synchronous calls, you may run into blocking issues when processing a large volume of messages or when the adapter is used in a multithreaded environment.  
   
 ## Use Connection Pooling  
- The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] supports connection pooling by default. However, it is up to the adapter developer to determine which connection pooling properties to expose as binding properties. The available Connection Pool settings are defined within <xref:Microsoft.ServiceModel.Channels.Common.ConnectionPoolSettings>.  
+ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] supports connection pooling by default. However, it is up to the adapter developer to determine which connection pooling properties to expose as binding properties. The available Connection Pool settings are defined within `Microsoft.ServiceModel.Channels.Common.ConnectionPoolSettings`.  
   
  There are no options within the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to easily expose these properties as adapter connection properties. The adapter developer must manually define the properties in the adapter implementation.  
   
@@ -67,7 +67,7 @@ public CustomAdapter(): base()
 ```  
   
 ## Ensure That the Adapter Supports Two-Way Operations  
- If your adapter will be called from BizTalk Server, it must support two-way operations, even if the return value is void. This is because BizTalk Server expects a response returned from any outgoing request, and will throw an exception if your adapter only implements one-way operations.  
+ If your adapter is called from BizTalk Server, it must support two-way operations, even if the return value is void. This is because BizTalk Server expects a response returned from any outgoing request, and throws an exception if your adapter only implements one-way operations.  
   
  Here is an example of a request-response contract that returns void.  
   
@@ -86,7 +86,7 @@ public interface ICalculator
  See [Trace an adapter with the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/trace-an-adapter-with-the-wcf-lob-adapter-sdk.md) for further details.  
   
 ## Use URI Properties for Frequently Changed Settings  
- When deciding whether to expose a custom property as a binding or URI property, it is recommended to use a URI property if the value will change often. Binding properties should be reserved for values that rarely change.  
+ When deciding whether to expose a custom property as a binding or URI property, it is recommended to use a URI property if the value changes often. Binding properties should be reserved for values that rarely change.  
   
  An example binding property would be a database server name that is used by all connections. An example URI property would be a specific table or stored procedure to be used by that specific connection.  
   
@@ -103,17 +103,17 @@ public interface ICalculator
 |Using BizTalk|When using the WCF adapter to consume your adapter, you can add the **clientCredentials** behavior extension on the **Behavior** tab. Once this has been added, you can set the desired client credentials in the endpoint behavior.|  
   
 ## Do Not Return Both StrongDataSetType and WeakDataSetType  
- If your adapter returns a `DataSet`, use either <xref:Microsoft.ServiceModel.Channels.Common.QualifiedType.StrongDataSetType%2A> or <xref:Microsoft.ServiceModel.Channels.Common.QualifiedType.WeakDataSetType%2A>, but do not use both at the same time. The root node name and namespace produced by both types are identical, and cannot exist simultaneously in a WSDL.  
+ If your adapter returns a `DataSet`, use either `Microsoft.ServiceModel.Channels.Common.QualifiedType.StrongDataSetType%2A` or `Microsoft.ServiceModel.Channels.Common.QualifiedType.WeakDataSetType%2A`, but do not use both at the same time. The root node name and namespace produced by both types are identical, and cannot exist simultaneously in a WSDL.  
   
- While `WeakDataSetType` and `StrongDataSetType` both represent a `System.Data.DataSet`, `StrongDataSetType` is easier to use in .NET applications, since the proxy generated will appear as `System.Data.Dataset`. The proxy generated by `WeakDataSetType` is `XmlElement[]`, which is more difficult to use in a .NET application.  BizTalk Server cannot consume the schema returned from `StrongDataSet`, but is able to consume `WeakDataSetType`.  
-  
-> [!NOTE]
->  `StrongDataSetType` and `WeakDataSetType` only control how the client application interprets the XML messages passed by the adapter. The XML message will be the same regardless of which type is specified.  
+ While `WeakDataSetType` and `StrongDataSetType` both represent a `System.Data.DataSet`, `StrongDataSetType` is easier to use in .NET applications, since the proxy generated appears as `System.Data.Dataset`. The proxy generated by `WeakDataSetType` is `XmlElement[]`, which is more difficult to use in a .NET application.  BizTalk Server cannot consume the schema returned from `StrongDataSet`, but is able to consume `WeakDataSetType`.  
   
 > [!NOTE]
->  When returning `StrongDataSetType`, you must set <xref:Microsoft.ServiceModel.Channels.Common.MetadataSettings.CompileWsdl%2A> to `false`. When set to `true`, the default, `XmlSchemaSet::Compile` is called within the adapter to ensure there are no errors in the WSDL, however the schema produced by `StrongDataSetType` will generate an exception in `XmlSchemaSet`.  
+>  `StrongDataSetType` and `WeakDataSetType` only control how the client application interprets the XML messages passed by the adapter. The XML message is the same regardless of which type is specified.  
+  
+> [!NOTE]
+>  When returning `StrongDataSetType`, you must set `Microsoft.ServiceModel.Channels.Common.MetadataSettings.CompileWsdl%2A` to `false`. When set to `true`, the default, `XmlSchemaSet::Compile` is called within the adapter to ensure there are no errors in the WSDL, however the schema produced by `StrongDataSetType` generates an exception in `XmlSchemaSet`.  
 >   
->  Setting `CompileWsdl` to `false` bypasses WSDL schema validation within the adapter and validation will occur during proxy generation.  Utilities such as svcutil.exe are able to generate a proxy for both `StrongDataSetType` and `WeakDataSetType`.  
+>  Setting `CompileWsdl` to `false` bypasses WSDL schema validation within the adapter and validation occurs during proxy generation.  Utilities such as svcutil.exe are able to generate a proxy for both `StrongDataSetType` and `WeakDataSetType`.  
   
  To work with both BizTalk and .NET environments, consider implementing a binding property that allows switching between the two return types as dictated by the environment.  
   
@@ -130,7 +130,7 @@ internal static QualifiedType GetDataSetQualifiedType(MyAdapterBindingProperties
 ## Create Meaningful XSD Schema Names in BizTalk Server  
  When using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] design-time tool, the name of the XSD schema generated in your BizTalk project is created using the `DefaultXsdFileNamePrefix` property, the `fileNameHint` annotation in the WSDL and, if required, a unique integer value.  
   
- For example, if `DefaultXsdFileNamePrefix` is set to “MyAdapter” and the `fileNameHint` annotation is set to “Stream”, the XSD schema created will be named MyAdapterStream.xsd.  
+ For example, if `DefaultXsdFileNamePrefix` is set to “MyAdapter” and the `fileNameHint` annotation is set to “Stream”, the XSD schema created is named MyAdapterStream.xsd.  
   
 ```  
 \<xs:schema elementFormDefault='qualified' targetNamespace='http://schemas.microsoft.com/Message' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://schemas.microsoft.com/Message'>  
@@ -147,12 +147,12 @@ internal static QualifiedType GetDataSetQualifiedType(MyAdapterBindingProperties
 ```  
   
 > [!NOTE]
->  The default value of `DefaultXsdFileNamePrefix` is the name of your binding. To specify a different value, override `DefaultXsdFileNamePrefix` in your Adapter class that is derived from <xref:Microsoft.ServiceModel.Channels.Common.AdapterBinding>.  
+>  The default value of `DefaultXsdFileNamePrefix` is the name of your binding. To specify a different value, override `DefaultXsdFileNamePrefix` in your Adapter class that is derived from `Microsoft.ServiceModel.Channels.Common.AdapterBinding`.  
   
  There are two possible methods to add the `fileNameHint` annotation to the schema: override the Export…Schema methods on OperationMetadata\TypeMetadata or override the IWsdlRetrieval implementation of the adapter. For either method, you can call the base implementation and then add the annotation to the schemas in the schema collection.  
   
 > [!NOTE]
->  When overriding the Export…Schema methods, there may be multiple operation/type definitions in the same schema; the adapter should make sure that multiple occurrences of the `fileNameHints` annotation in the same schema do not conflict. The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] will use the first occurrence of `fileNameHint` if it occurs multiple times within a schema.  
+>  When overriding the Export…Schema methods, there may be multiple operation/type definitions in the same schema; the adapter should make sure that multiple occurrences of the `fileNameHints` annotation in the same schema do not conflict. The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] uses the first occurrence of `fileNameHint` if it occurs multiple times within a schema.  
   
  In the following example, IWsdlRetrieval is used to add the `fileNameHint` annotation to the WSDL.  
   

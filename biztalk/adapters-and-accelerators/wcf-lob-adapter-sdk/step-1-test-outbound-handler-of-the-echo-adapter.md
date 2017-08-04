@@ -24,7 +24,7 @@ manager: "anneta"
 ## Prerequisites  
  To complete this step, you must have completed [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md).  
   
-### To create a Visual Studio project  
+## Create a Visual Studio project  
   
 1.  Start Visual Studio.  
   
@@ -44,7 +44,7 @@ manager: "anneta"
   
 5.  In Visual Studio, on the **File** menu, click **Save All**.  
   
-### To browse, search, and generate the WCF client  
+## Browse, search, and generate the WCF client  
   
 1.  In the Visual Studio Solution pane, right-click **ConsumeEchoAdapter_Outbound** project, then choose **Add Adapter Service Reference** to launch the Add Adapter Service Reference plug-in.  
   
@@ -71,7 +71,7 @@ manager: "anneta"
   
 11. Click **File** on the Visual Studio menu and choose **Save All**.  
   
-### To configure adapter authentication  
+## Configure adapter authentication  
   
 1.  In Visual Studio Solution pane, double-click **app.config**.  
   
@@ -93,7 +93,7 @@ manager: "anneta"
   
 3.  Save the solution by clicking **File** on the Visual Studio menu and choosing **Save All**.  
   
-### To create a sample XML file  
+## Create a sample XML file  
   
 1.  Start an instance of Notepad. Using the Start menu, click **All Programs** &#124; **Accessories** and then choose **Notepad**.  
   
@@ -117,7 +117,7 @@ manager: "anneta"
   
 4.  Close the text editor when the file is successfully saved.  
   
-### To test the Echo Adapter  
+## Test the Echo Adapter  
   
 1.  In Solution Explorer, double-click the **Program.cs** file.  
   
@@ -225,6 +225,5 @@ manager: "anneta"
  To test the Inbound operation, proceed to [Step 2: Test Inbound Handler of the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-test-inbound-handler-of-the-echo-adapter.md).  
   
 ## See Also  
- <xref:Microsoft.ServiceModel.Channels.Common.IOutboundHandler>   
- [Tutorial 2: Consume the Echo Adapter from .NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)   
+  [Tutorial 2: Consume the Echo Adapter from .NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)   
  [Step 2: Test Inbound Handler of the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-test-inbound-handler-of-the-echo-adapter.md)

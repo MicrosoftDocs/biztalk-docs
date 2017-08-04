@@ -122,7 +122,8 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
    | Password | Enter the password of the IIS application pool. |
    | Gateway | Select the gateway you created. |
 
-	> [!TIP] Remember, the data gateway is only required if:
+	> [!TIP] 
+	> Remember, the data gateway is only required if:
 	> - You're using an on-premises BizTalk Server
 	> - You're using a BizTalk Server Azure virtual machine *and* the VM is NOT exposed as an HTTP endpoint (no URL)
 
