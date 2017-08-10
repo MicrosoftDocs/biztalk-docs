@@ -1,5 +1,9 @@
 ---
-title: Uninstall BizTalk RosettaNet Accelerator (BTARN) | Microsoft Docs"
+title: Uninstall BizTalk RosettaNet Accelerator (BTARN) on BizTalk Server | Microsoft Docs"
+description: Undeploy artifacts, and unconfigure BTARN to remove the accelerator from BizTalk Server 
+author: MandiOhlinger
+manager: anneta
+
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.service: "biztalk-server"
@@ -7,14 +11,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 
-author: MandiOhlinger
 ms.author: mandia
-manager: anneta
 ---
 
 # Uninstall the RosettaNet accelerator
 
-## Before you beging
+## Before you begin
   
 * If you only run **Setup.exe**, the uninstall process does not remove the Business Activity Monitoring (BAM) artifacts, the BizTalk artifacts, Internet Information Services (IIS) virtual directories, and application pools.  
   
@@ -47,7 +49,7 @@ We recommend backing up your BAM artifacts before undeploying.
 	> 
     >  Use the **BizTalk Server Deployment Wizard** to remove any additional artifacts that you deployed. For more information, see "Using the Deployment Wizard" in BizTalk server Help.  **INSERT LINK** 
   
-3.  From the BTARN Setup, locate the MSI\Program Files\Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../Token/HL7_CurrentVersion_FirstRef_md.md)]\SDK folder. In the SDK folder, double-click **BTARNClean.exe**, and then select **Y** to continue, or **N** to cancel running the utility.  
+3.  From the BTARN Setup, locate the MSI\Program Files\Microsoft BizTalk Accelerator for RosettaNet\SDK folder. In the SDK folder, double-click **BTARNClean.exe**, and then select **Y** to continue, or **N** to cancel running the utility.  
   
     > [!NOTE]
     >  If your server is part of a multi-computer deployment scenario, you can skip step 3. Undeploying any shared resources breaks the functionality on the other servers in the deployment.  

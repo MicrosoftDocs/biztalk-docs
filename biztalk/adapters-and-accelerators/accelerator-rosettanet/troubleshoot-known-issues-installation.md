@@ -1,5 +1,6 @@
 ---
-title: Troubleshoot and known issues with the BizTalk RosettaNet Accelerator (BTARN) install | Microsoft Docs"
+title: Troubleshoot and known issues with the BizTalk RosettaNet Accelerator (BTARN) install on BizTalk Server | Microsoft Docs"
+description: Recommendations for installing SQL, the service account for the host instances, and known errors with the BTARN installation in BizTalk Server
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.service: "biztalk-server"
@@ -17,7 +18,7 @@ manager: anneta
 
   
 ## Do not install SQL Server on the domain controller computer  
- If you install [!INCLUDE[btsSQLServerNoVersion](../Token/btsSQLServerNoVersion_md.md)] on the same computer as your domain controller computer, it returns the following error message when it is trying to create the SQL send ports:  
+ If you install SQL Server on the same computer as your domain controller computer, it returns the following error message when it is trying to create the SQL send ports:  
   
 ```
 Error: Failed updating binding information.  
@@ -28,7 +29,7 @@ BindingException: Could not validate TransportTypeData or Address properties for
 ```
   
 > [!IMPORTANT]
->  Do not install [!INCLUDE[btsSQLServerNoVersion](../Token/btsSQLServerNoVersion_md.md)] on the domain controller computer.  
+>  Do not install SQL Server on the domain controller computer.  
   
 ## Service account for the application pools must be the same as the service account for the Isolated Host and Host instances  
  If the service account set for the BTARN application pools is different from the Isolated Host account, BTARN does not process incoming messages correctly. When the receive .aspx page calls the pipeline, the pipeline does not have access to the appropriate certificates. Therefore, it does not decrypt the incoming message or validate the signature. Also, it won't be able to access the MessageBox database.  
