@@ -1,7 +1,8 @@
 ---
-title: "BizTalk Server 2016: What&#39;s New, and Installation | Microsoft Docs"
+title: "BizTalk Server 2016: What's New, and Installation | Microsoft Docs"
+description: Introduction to what's new, and installing and upgrading to BizTalk Server 2016
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "08/10/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +13,8 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# BizTalk Server 2016: What&#39;s New, and Installation
+# BizTalk Server 2016: What's New, and Installation
+
 ## Get started with BizTalk Server 2016
 
 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] is the latest on-premises release. With this new version, you can expect closer integration with Azure using the new Logic Apps adapter, and connect to Azure resources using the File and WCF-SQL adapters. 

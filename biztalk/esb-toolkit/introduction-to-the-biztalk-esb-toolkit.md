@@ -59,8 +59,6 @@ Explains the architecture and contents of the Microsoft [!INCLUDE[esbToolkit](..
   
 -   [Contents of the BizTalk ESB Toolkit](../esb-toolkit/contents-of-the-biztalk-esb-toolkit.md)  
   
--   [Target Audience for the BizTalk ESB Toolkit](../esb-toolkit/target-audience-for-the-biztalk-esb-toolkit.md)  
-  
  This documentation also includes the following topic sections:  
   
 -   [Getting Started with the BizTalk ESB Toolkit](../esb-toolkit/getting-started-with-the-biztalk-esb-toolkit.md)  

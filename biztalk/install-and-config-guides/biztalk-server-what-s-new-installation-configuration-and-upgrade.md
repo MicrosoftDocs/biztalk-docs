@@ -1,7 +1,8 @@
 ---
-title: "BizTalk Server What&#39;s New, Installation, Configuration, and Upgrade | Microsoft Docs"
+title: "BizTalk Server What's New, Installation, Configuration, and Upgrade | Microsoft Docs"
+description: Introduction to what's new, and installing and configuring BizTalk Server 2016 and BizTalk Server 2013 R2 and 2013
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "08/10/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +13,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# BizTalk Server What&#39;s New, Installation, Configuration, and Upgrade
+# BizTalk Server What's New, Installation, Configuration, and Upgrade
 Read about what's new, and how to install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. 
 
 ## BizTalk versions
@@ -55,8 +56,6 @@ These topics focus on::
 [Securing Your BizTalk Server Deployment](../install-and-config-guides/securing-your-biztalk-server-deployment.md)
 
 [Uninstall and unconfigure BizTalk Server to remove it](../install-and-config-guides/uninstall-and-unconfigure-biztalk-server-to-remove-it.md)
-
-[Install and Configure the Microsoft BizTalk ESB Toolkit](../install-and-config-guides/install-and-configure-the-microsoft-biztalk-esb-toolkit.md)
 
 [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)
 

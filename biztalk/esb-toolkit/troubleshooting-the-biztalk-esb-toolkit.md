@@ -1,24 +1,23 @@
 ---
 title: "Troubleshooting the BizTalk ESB Toolkit | Microsoft Docs"
+description: Troubleshoot installation issues, and common errors with the ESB Toolkit in BizTalk Server
+caps.latest.revision: 2
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.date: "08/10/2017"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e1ea2d56-2ace-40f2-80df-8a7489bbfc2e
-caps.latest.revision: 2
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
 ---
-# Troubleshooting the BizTalk ESB Toolkit
-This section contains the following troubleshooting tables:  
-  
--   Installation  
-  
--   General Issues  
+
+# Troubleshoot the BizTalk ESB Toolkit
+
   
 ## Installation  
   

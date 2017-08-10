@@ -1,19 +1,22 @@
 ---
-title: "What&#39;s New in BizTalk Server 2013 and 2013 R2 | Microsoft Docs"
+title: "What's New in BizTalk Server 2013 and 2013 R2 | Microsoft Docs"
+description: Complete list of new features and changes in BizTalk Server 2013 R2 and 2013
+caps.latest.revision: 67
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
-ms.date: "2016-03-29"
-ms.prod: "biztalk-server-2013"
+ms.date: "2017-08-10"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bdb841f7-4aa9-45c9-a6f1-d527089fcc09
-caps.latest.revision: 67
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
 ---
-# What&#39;s New in BizTalk Server 2013 and 2013 R2
+
+# What's New in BizTalk Server 2013 and 2013 R2
 See what's new and what is deprecated in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013.
   
 ##  <a name="BKMK_NewR2"></a> What’s New in BizTalk Server 2013 R2?  
@@ -61,7 +64,7 @@ See what's new and what is deprecated in [!INCLUDE[bts2013r2_md](../includes/bts
 |Per Core License Model|BizTalk Server 2013 is per core. SQL Server 2012 is also per core. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 and previous versions are per-processor.<br /><br /> When running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on processors with four cores or less, the license cost remains consistent with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010. Core licenses are priced at one quarter the cost of a processor license. When running servers with higher capacity processors, licensing cost are increased due to the increased power of the hardware.<br /><br /> To help determine the number of licenses you may need, a PowerShell cmdlet in *C:\Program Files (x86)\Microsoft BizTalk Server 20xx\SDK\Utilities\LicenseUsageTracking* is available.<br /><br /> Helpful links:<br /><br /> [BizTalk Server 2013 Pricing & Editions](http://www.microsoft.com/biztalk/pricing.aspx)<br /><br /> [Understand BizTalk Server 2013 Licensing](http://blogs.biztalk360.com/understand-biztalk-server-2013-licensing/)|  
 |Support for new Adapters|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides new adapters to extend connectivity of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications to [!INCLUDE[winazure](../includes/winazure-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also provides updates to SharePoint adapter that gives users the option of choosing between using the client-side or server-side object model for connecting to a SharePoint server. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes a new adapter to send and receive messages from an SFTP server.|  
 |Tracking dependencies between artifacts|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] updates the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administraton console to provide a UI-driven experience to see how different [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] artifacts such as orchestrations, send ports, receive locations, etc. are dependent on each other. For more information, see [Tracking Dependencies Between Artifacts in a BizTalk Server Application](../core/tracking-dependencies-between-artifacts-in-a-biztalk-server-application.md)|  
-|Integrated ESB Toolkit|ESB Toolkit is now integrated as part of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup. Also, the ESB Toolkit configuration experience is simplified to facilitate quick start time for users. For more information, see [Install and Configure the Microsoft BizTalk ESB Toolkit](../install-and-config-guides/install-and-configure-the-microsoft-biztalk-esb-toolkit.md)|  
+|Integrated ESB Toolkit|ESB Toolkit is now integrated as part of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup. Also, the ESB Toolkit configuration experience is simplified to facilitate quick start time for users. For more information, see [Install and Configure the Microsoft BizTalk ESB Toolkit](../esb-toolkit/install-and-configure-the-microsoft-biztalk-esb-toolkit.md)|  
 |Support for new versions of Windows OS, SQL Server, and Visual Studio|See [Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)|  
 |Updates to the supported EDI schemas|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] introduces support for the following EDI schemas:<br /><br /> -                     **X12** – 5040, 5050, 6020, 6030<br /><br /> - **EDIFACT** – D06A, D06B, D07A, D07B, D08A, D08B, D09A, D09B, D10A, D10B<br /><br /> -                     **HL7** – 2.51 message support added<br /><br /> -                     **SWIFT** – 2012 Message Pack<br /><br /> The schemas are included in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation package. You can download the installation package from [http://go.microsoft.com/fwlink/p/?LinkId=258228](http://go.microsoft.com/fwlink/p/?LinkId=258228).|  
 |Mapper uses XSLCompiledTransform|The Mapper uses the XSLCompiledTransform class. Previous [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versions used the XslTransform class, which is obsolete. The XSLCompiledTransform class provides performance enhancements, including:<br /><br /> - Once the Load method completes successfully, the Transform method can be called simultaneously from multiple threads.<br /><br /> - The new XSLT processor compiles the XSLT style sheet to a common intermediate format. Once the style sheet is compiled, it can be cached and reused.<br /><br /> More information at [What the Mapper Updates Mean for You](http://www.quicklearn.com/blog/2013/05/24/what-the-biztalk-server-2013-mapper-updates-mean-for-you/) and [XslCompiledTransform Class](https://msdn.microsoft.com/library/system.xml.xsl.xslcompiledtransform.aspx).|  
