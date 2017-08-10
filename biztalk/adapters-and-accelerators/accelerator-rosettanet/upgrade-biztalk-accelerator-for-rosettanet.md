@@ -37,7 +37,7 @@ You can upgrade the previous version of the BizTalk Accelerator for RosettaNet (
   
 ## Upgrade steps  
   
-1.  Upgrade BizTalk Server. See [BizTalk Server What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
+1.  Upgrade BizTalk Server. See [BizTalk Server What's New, Installation, Configuration, and Upgrade](../../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
   
 2.  Back up the BTARN database and BTARN message schemas.  
   
