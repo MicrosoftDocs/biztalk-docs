@@ -33,6 +33,6 @@ manager: "anneta"
 >  Whenever you change the enable flag to enable or disable tracking, you have to restart all services on which the public processes and the HTTP adapter are running. This includes the host service and the isolated host service.  
   
 ## See Also  
- [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md)   
+ [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)   
  [Enhanced Tracking](../../adapters-and-accelerators/accelerator-rosettanet/enhanced-tracking.md)   
  [Administering the BTARN Configuration](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

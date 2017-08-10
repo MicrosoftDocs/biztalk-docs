@@ -1,22 +1,22 @@
 ---
-title: "Troubleshooting7 | Microsoft Docs"
+title: "Troubleshooting and known issues in the RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+description: Issues and resolutions for common errors or behaviors in BTARN in BizTalk Server
+caps.latest.revision: 4
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.date: "08/09/2017"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting"
-  - "BizTalk Accelerator for RosettaNet, troubleshooting"
 ms.assetid: 7da1689a-8226-4aa8-9f7b-6d85420c682d
-caps.latest.revision: 4
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
 ---
-# Troubleshooting
+
+# Troubleshooting and known issues
 This section is made up of troubleshooting issues, resolutions, and known issues in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  
   
 ## In This Section  

@@ -1,22 +1,21 @@
 ---
-title: "Known Issues3 | Microsoft Docs"
+title: "Known Issues with the RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+description: See known issues and resolutions with 0A1 notification of failure, BAM, installation and configuration, and more in BTARN in BizTalk Server
+caps.latest.revision: 11
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting, known issues"
-  - "BizTalk Accelerator for RosettaNet, known issues"
-  - "known issues"
 ms.assetid: 335eb3c9-b565-470f-b69c-2a771ef8b476
-caps.latest.revision: 11
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
 ---
+
 # Known Issues
 This section contains useful information that may help you avoid errors with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
   
@@ -201,4 +200,4 @@ txtOutput.Text = plainText;
 ```  
   
 ## See Also  
- [Troubleshooting](../../adapters-and-accelerators/accelerator-rosettanet/troubleshooting7.md)
+[Troubleshooting and known issues](troubleshooting-and-known-issues-in-rosettanet.md)

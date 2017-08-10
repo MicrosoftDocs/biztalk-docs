@@ -54,4 +54,4 @@ delete MessageStorageOut where datediff(d, TimeCreated, GetUTCDATA())>7
   
 ## See Also  
  [RNIF Message Processing](../../adapters-and-accelerators/accelerator-rosettanet/rnif-message-processing.md)   
- [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md)
+ [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)

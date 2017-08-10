@@ -52,7 +52,7 @@ manager: "anneta"
 ### Agreements (Trading Partner Agreement Variables)  
  The agreement specifies all aspects of the trading partner relationship. It specifies the display code of the process configuration settings, as defined in the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console. It also specifies the RNIF version, port URLs, protocol settings (encoding and encryption), and other variables. For more information about setting these properties, see [Creating or Editing an Agreement](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-an-agreement.md).  
   
- For more information about the management console, see [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md). You can also gain read-only programmatic access to these settings through the classes and interfaces in the Microsoft.Solutions.BTARN.ConfigurationManager Namespace in the Developer Reference.  
+ For more information about the management console, see [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md). You can also gain read-only programmatic access to these settings through the classes and interfaces in the Microsoft.Solutions.BTARN.ConfigurationManager Namespace in the Developer Reference.  
   
 ## See Also  
  [What BizTalk Accelerator for RosettaNet Adds to BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)   

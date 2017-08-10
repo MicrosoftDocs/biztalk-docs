@@ -40,5 +40,5 @@ By default, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN
     >  The changes to the pipelines will only take effect if you restart the BizTalk Server.  
   
 ## See Also  
- [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md)   
+ [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)   
  [Enabling BAM Tracking](../../adapters-and-accelerators/accelerator-rosettanet/enabling-bam-tracking.md)

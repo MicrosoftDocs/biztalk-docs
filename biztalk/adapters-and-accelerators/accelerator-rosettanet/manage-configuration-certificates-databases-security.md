@@ -1,29 +1,25 @@
 ---
-title: "Operations1 | Microsoft Docs"
+title: "Manage configuration, certificates, databases, and security in RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+description: Administering BTARN configuration, setting up a CIDX solution, managing certificates and the database, and security in BizTalk Server
+caps.latest.revision: 5
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.date: "08/09/2017"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BizTalk Accelerator for RosettaNet, maintaining"
-  - "BizTalk Accelerator for RosettaNet, administering"
-  - "BizTalk Accelerator for RosettaNet, managing"
-  - "maintaining BTARN"
-  - "managing BTARN"
-  - "administering"
 ms.assetid: fd202dc6-d2c2-4721-9a03-348dc05422a8
-caps.latest.revision: 5
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
 ---
-# Operations
-This section provides conceptual and procedural information that lets you effectively configure, monitor, and maintain your [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] application environment.  
+
+# Manage configuration, certificates, databases, and security
+This section provides conceptual and procedural information that lets you effectively configure, monitor, and maintain your [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] application environment.  
   
-## In This Section  
+## Next steps
   
 -   [Administering the BTARN Configuration](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)  
   

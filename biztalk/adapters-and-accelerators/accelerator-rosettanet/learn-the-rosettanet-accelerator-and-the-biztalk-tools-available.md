@@ -1,25 +1,25 @@
 ---
-title: "Planning and Architecture2 | Microsoft Docs"
+title: "Learn the RosettaNet accelerator and the BizTalk Server tools available | Microsoft Docs"
+description: Read how the RosettaNet accelerator (BTARN) works, the tools and features available, and the messaging standards in BizTalk Server
+caps.latest.revision: 4
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.date: "08/09/2017"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "conceptual overview"
-  - "BizTalk Accelerator for RosettaNet, conceptual overview"
 ms.assetid: e8f09634-5adb-4782-bf48-8b24b0a7e630
-caps.latest.revision: 4
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
+
 ---
-# Planning and Architecture
+# About the RosettaNet accelerator
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is a complete solution for the exchange of data between high-technology manufacturing computer applications based on the RosettaNet standards. Use this documentation set to become familiar with the services, capabilities, and features of [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
-## In This Section  
+## Next steps 
   
 -   [The Need for Trading Partner Integration](../../adapters-and-accelerators/accelerator-rosettanet/the-need-for-trading-partner-integration.md)  
   
