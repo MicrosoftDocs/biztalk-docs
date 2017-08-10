@@ -19,7 +19,6 @@
 # [Appendix A: Silent Installation](appendix-a-silent-installation.md)
 # [Install BizTalk Server 2016](install-biztalk-server-2016.md)
 # [Configure BizTalk Server](configure-biztalk-server.md)
-# [Install and Configure the Microsoft BizTalk ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md)
 # [BizTalk Server What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md)
 # [Prepare Your Computer for Installation](prepare-your-computer-for-installation.md)
 # [What's New in BizTalk Server 2016](what-s-new-in-biztalk-server-2016.md)

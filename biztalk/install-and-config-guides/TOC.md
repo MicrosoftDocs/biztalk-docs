@@ -22,7 +22,6 @@
 ## [Working with the Configuration Framework](working-with-the-configuration-framework.md)
 ## [Securing Your BizTalk Server Deployment](securing-your-biztalk-server-deployment.md)
 ## [Uninstall and unconfigure BizTalk Server to remove it](uninstall-and-unconfigure-biztalk-server-to-remove-it.md)
-## [Install and Configure the Microsoft BizTalk ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md)
 ## [Appendix A: Silent Installation](appendix-a-silent-installation.md)
 ## [Appendix B: Install the Microsoft SharePoint Adapter](appendix-b-install-the-microsoft-sharepoint-adapter.md)
 ## [Appendix C: Redistributable CAB Files](appendix-c-redistributable-cab-files.md)
