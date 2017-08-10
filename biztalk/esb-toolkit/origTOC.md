@@ -163,7 +163,6 @@
 # [Install the Namespace Component Sample Using the Install Scripts](install-the-namespace-component-sample-using-the-install-scripts.md)
 # [Running the JMS MQRFH2 Header Preservation Sample](running-the-jms-mqrfh2-header-preservation-sample.md)
 # [Install the Dynamic Resolution Sample Using the Install Scripts](install-the-dynamic-resolution-sample-using-the-install-scripts.md)
-# [Target Audience for the BizTalk ESB Toolkit](target-audience-for-the-biztalk-esb-toolkit.md)
 # [Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries](define-routing-and-message-transformation-through-multiple-orchestrations.md)
 # [Assemblies and Artifacts Installed by the Scatter-Gather Sample](assemblies-and-artifacts-installed-by-the-scatter-gather-sample.md)
 # [Installing the Message Enrichment Sample](installing-the-message-enrichment-sample.md)

@@ -1,18 +1,21 @@
 ---
 title: "Microsoft BizTalk ESB Toolkit | Microsoft Docs"
+description: Introduction,  common scenarios, and components of the ESB Toolkit in BizTalk Server
+caps.latest.revision: 14
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.date: "08/10/2017"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 17ffaebc-7e33-4de8-8e94-109cd5d16ca0
-caps.latest.revision: 14
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
 ---
+
 # Microsoft BizTalk ESB Toolkit
 ![BizTalk ESB Toolkit Logo](../esb-toolkit/media/biztalkesbtoolkitlogo.gif "BizTalkESBToolkitLogo")  
   
@@ -49,19 +52,19 @@ manager: "anneta"
 ## Design Goals  
  The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consists of a series of interoperating components that support and implement a loosely coupled messaging environment that makes it easier to build message-based enterprise applications. The services and components fall naturally into the following seven categories:  
   
--   **Web services.**These expose internal services such as itinerary processing, exception management, resolution of endpoints and maps, BizTalk Server operations, and message transformation.  
+-   **Web services** : These expose internal services such as itinerary processing, exception management, resolution of endpoints and maps, BizTalk Server operations, and message transformation.  
   
--   **Itinerary services.**These include orchestration-based and messaging-based services for performing itinerary-based routing for [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. You can create custom services for itinerary-based routing.  
+-   **Itinerary services** : These include orchestration-based and messaging-based services for performing itinerary-based routing for [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. You can create custom services for itinerary-based routing.  
   
--   **Itinerary on-ramps.**These receive external messages, attach the appropriate itinerary for each message, and perform itinerary processing; they use the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework for dynamic resolution of endpoints and metadata.  
+-   **Itinerary on-ramps.** These receive external messages, attach the appropriate itinerary for each message, and perform itinerary processing; they use the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework for dynamic resolution of endpoints and metadata.  
   
--   **On-ramps.**These receive external messages in a range of formats and transports, such as HTTP, JMS, WMQ, FTP, Flat File, and XML. They are typical BizTalk Server receive locations that optionally use the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] interop pipeline components and the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework for dynamic resolution of endpoints and metadata.  
+-   **On-ramps** : These receive external messages in a range of formats and transports, such as HTTP, JMS, WMQ, FTP, Flat File, and XML. They are typical BizTalk Server receive locations that optionally use the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] interop pipeline components and the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework for dynamic resolution of endpoints and metadata.  
   
--   **Off-ramps.**These implement send ports for the delivery of messages using formats and transports such as SOAP, WCF, JMS, WMQ, FTP, HTTP, Flat File, XML, or any other custom formats. They are typical BizTalk Server dynamic send ports that are direct-bound to the Message Box and that optionally use the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] interop pipeline components and the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework for dynamic resolution of endpoints and metadata.  
+-   **Off-ramps** : These implement send ports for the delivery of messages using formats and transports such as SOAP, WCF, JMS, WMQ, FTP, HTTP, Flat File, XML, or any other custom formats. They are typical BizTalk Server dynamic send ports that are direct-bound to the Message Box and that optionally use the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] interop pipeline components and the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework for dynamic resolution of endpoints and metadata.  
   
--   **Exception Management Framework.**This includes the exception Web service, the exception management API, and components that enrich, process, and pass exception details to the ESB Management Portal.  
+-   **Exception Management Framework** : This includes the exception Web service, the exception management API, and components that enrich, process, and pass exception details to the ESB Management Portal.  
   
--   **ESB Management Portal.**This provides registry provisioning, exception mediation, alert notification, and analytics.  
+-   **ESB Management Portal** : This provides registry provisioning, exception mediation, alert notification, and analytics.  
   
  Many of these components and services rely on features implemented by [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], such as the Orchestration, Transformation, and Business Rules engines and the Message Box database. Figure 2 shows a schematic view of the categories; the components and services typically occurring within each category; and the core BizTalk Server system components used by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  
   
@@ -78,29 +81,27 @@ manager: "anneta"
   
 ## In this section
 
-- [Install and configure the Microsoft BizTalk ESB Toolkit](../install-and-config-guides/install-and-configure-the-microsoft-biztalk-esb-toolkit.md)
+- [Install and configure the Microsoft BizTalk ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md)
 
-- [Introduction to the BizTalk ESB Toolkit](../esb-toolkit/introduction-to-the-biztalk-esb-toolkit.md)
+- [Introduction to the BizTalk ESB Toolkit](introduction-to-the-biztalk-esb-toolkit.md)
 
-- [Getting started and understanding the BizTalk ESB Toolkit](../esb-toolkit/getting-started-with-the-biztalk-esb-toolkit.md)
+- [Getting started and understanding the BizTalk ESB Toolkit](getting-started-with-the-biztalk-esb-toolkit.md)
 
-- [Key scenarios and development tasks](../esb-toolkit/key-scenarios-and-development-tasks.md)
+- [Key scenarios and development tasks](key-scenarios-and-development-tasks.md)
 
-- [Creating itineraries using itinerary designer](../esb-toolkit/creating-itineraries-using-itinerary-designer.md)
+- [Creating itineraries using itinerary designer](creating-itineraries-using-itinerary-designer.md)
 
-- [BizTalk ESB Toolkit sample applications](../esb-toolkit/biztalk-esb-toolkit-sample-applications.md)
+- [BizTalk ESB Toolkit sample applications](biztalk-esb-toolkit-sample-applications.md)
 
-- [Modifying and extending the BizTalk ESB Toolkit](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)
+- [Modifying and extending the BizTalk ESB Toolkit](modifying-and-extending-the-biztalk-esb-toolkit.md)
 
-- [Administration with the BizTalk ESB Toolkit](../esb-toolkit/administration-with-the-biztalk-esb-toolkit.md)
+- [Administration with the BizTalk ESB Toolkit](administration-with-the-biztalk-esb-toolkit.md)
 
-- [SOA governance integration](../esb-toolkit/soa-governance-integration.md)
+- [SOA governance integration](soa-governance-integration.md)
 
-- [Troubleshooting the BizTalk ESB Toolkit](../esb-toolkit/troubleshooting-the-biztalk-esb-toolkit.md)
+- [Troubleshooting the BizTalk ESB Toolkit](troubleshooting-the-biztalk-esb-toolkit.md)
   
 ## Related topics  
-  
--   [BizTalk Enterprise Service Bus (ESB) Guidance](http://go.microsoft.com/fwlink/p/?LinkID=185955) on the BizTalk DevCenter
   
 -   [BizTalk Service Oriented Solutions](../core/service-oriented-solution.md)
 

@@ -1,4 +1,5 @@
 # [Microsoft BizTalk ESB Toolkit](microsoft-biztalk-esb-toolkit.md)
+## [Install and configure](install-and-configure-the-microsoft-biztalk-esb-toolkit.md)
 ## [Introduction to the BizTalk ESB Toolkit](introduction-to-the-biztalk-esb-toolkit.md)
 ### [Overview of the BizTalk ESB Toolkit](overview-of-the-biztalk-esb-toolkit.md)
 ### [Contents of the BizTalk ESB Toolkit](contents-of-the-biztalk-esb-toolkit.md)
@@ -8,7 +9,6 @@
 #### [Exception Management Framework](exception-management-framework.md)
 #### [ESB Resolver and Adapter Provider Framework](esb-resolver-and-adapter-provider-framework.md)
 #### [Itinerary-Based Routing and Processing](itinerary-based-routing-and-processing.md)
-### [Target Audience for the BizTalk ESB Toolkit](target-audience-for-the-biztalk-esb-toolkit.md)
 ## [Getting Started with the BizTalk ESB Toolkit](getting-started-with-the-biztalk-esb-toolkit.md)
 ### [Architecture of the BizTalk ESB Toolkit](architecture-of-the-biztalk-esb-toolkit.md)
 ### [Understanding Message Flow](understanding-message-flow.md)

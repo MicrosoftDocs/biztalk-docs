@@ -80,6 +80,7 @@
 #### [Add a BizTalk application to VSTS](add-a-biztalk-server-application-to-visual-studio-team-services.md)
 ### [Query Always Encrypted database in SQL Server](connect-to-sql-server-always-encrypted-columns-with-biztalk-server.md)
 ### [Connect to Azure API Management](connect-to-azure-api-management.md)
+## [ESB Toolkit](../esb-toolkit/toc.md)
 ## [Plan and architect your solutions](plan-and-architect-your-biztalk-server-solution.md)
 ### [BizTalk Server Architecture](biztalk-server-architecture.md)
 #### [Runtime Architecture](runtime-architecture.md)
