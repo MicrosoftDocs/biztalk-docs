@@ -156,8 +156,8 @@ The BTARN orchestrations, send ports, and receive locations are not automaticall
   
 Restart your computer to apply any modifications made in configuration and permissions.  
   
-    > [!NOTE]
-    >  Developers may choose to install and configure BTARN on a single server for development, staging, or testing purposes. Developers use this server to write their own custom code and test it before moving it to production.  
+> [!NOTE]
+>  Developers may choose to install and configure BTARN on a single server for development, staging, or testing purposes. Developers use this server to write their own custom code and test it before moving it to production.  
   
  For more information about installing BTARN on a single server, see the [Loopback Tutorial](loopback-tutorial.md).
   
