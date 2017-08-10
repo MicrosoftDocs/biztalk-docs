@@ -22,7 +22,7 @@ ms.author: "mandia"
 
  Built as a solution on top of Microsoft BizTalk Server, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] provides the necessary applications and platform to develop RNIF-compliant solutions. These solutions let users automate their e-business processes, such as order management and inventory management. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] takes advantage of the existing [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] functionality to process XML and electronic data interchange (EDI) communication among businesses.  
 
-shows you how to install [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], includes step-by-step tutorials, and provides information to learn about HL7, development tasks, and operational tasks. 
+This topic provides an overview of the topics covered in this documentation, including how to install RosettaNet, provides step-by-step tutorials, read how the accelerator works, use the SDK samples and tools, and more.
 
 ## Install or upgrade
 [Install or upgrade the BizTalk Accelerator for RosettaNet](install-configure-upgrade-uninstall-troubleshoot-rosettanet.md) walks you through installing, configuration, upgrading, and also includes some known issues.
