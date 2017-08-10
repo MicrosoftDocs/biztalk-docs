@@ -1,8 +1,9 @@
 ---
-title: "Customizing Send and Receive Components | Microsoft Docs"
+title: "Customize send and receive components using the RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+description: Create, customize, or set properties of the RosettaNet acclerator (BTARN) on send and receive ports in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.date: "08/09/2017"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,7 +22,7 @@ manager: "anneta"
 # Customizing Send and Receive Components
 The topics in this section describe how to create, customize, or set the properties of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] send and receive components. These components include ASPX pages, send and receive ports, and adapters.  
   
- For more information about [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], see [Planning and Architecture](../../adapters-and-accelerators/accelerator-rosettanet/planning-and-architecture2.md).  
+ For more information about [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], then [read about the RosettaNet accelerator](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md).  
   
 ## In This Section  
   

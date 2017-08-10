@@ -115,4 +115,4 @@ The activity definition file contains information about the tracking process and
   
 ## See Also  
  [Enhanced Tracking](../../adapters-and-accelerators/accelerator-rosettanet/enhanced-tracking.md)   
- [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md)
+ [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)

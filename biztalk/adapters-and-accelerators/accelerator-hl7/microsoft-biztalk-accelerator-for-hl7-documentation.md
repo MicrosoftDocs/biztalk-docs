@@ -30,7 +30,7 @@ manager: "anneta"
 [Get started with the BizTalk Accelerator for HL7](../../adapters-and-accelerators/accelerator-hl7/get-started-with-the-biztalk-accelerator-for-hl7.md) includes some tutorials to help you get familiar with this accelerator.
 
 ## Learn
-[Learn the HL7 accelerator and the BizTalk tools available](../../adapters-and-accelerators/accelerator-hl7/learn-the-hl7-accelerator-and-the-biztalk-tools-available.md) explains how this accelerators works, describes some tools you can use, includes detains on messages, and more.
+[Learn the HL7 accelerator and the BizTalk tools available](../../adapters-and-accelerators/accelerator-hl7/learn-the-hl7-accelerator-and-the-biztalk-tools-available.md) explains how this accelerators works, describes some tools you can use, includes details on messages, and more.
 
 ## Plan
 [Planning for your solution](../../adapters-and-accelerators/accelerator-hl7/planning-for-your-solution.md) gives you an idea of what type of solution you can use in your environment or business scenario.

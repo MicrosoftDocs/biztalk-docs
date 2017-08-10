@@ -23,4 +23,4 @@ Someone could start a denial-of-service attack against an installation of [!INCL
  To defend your server against denial-of-service attacks, it is recommended that you maintain the event log at a reasonable size and take steps to deal with excessive numbers of events. You can accomplish this by setting the maximum log size, selecting a way of overwriting events, or using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]® Management Instrumentation (WMI) to manage the size of the log. For more information, see Help for [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsWinSvrNoVersion](../../includes/btswinsvrnoversion-md.md)]™.  
   
 ## See Also  
- [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md)
+ [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)

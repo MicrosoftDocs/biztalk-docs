@@ -63,4 +63,4 @@ This topic describes how to protect the RNIFSend.aspx page from unauthorized use
 3.  In the property page of your new HTTP protocol rule, in the **Applies To** tab, select **Applies to Client address sets specified below**. Enter only those client IPs that you want to access the page.  
   
 ## See Also  
- [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md)
+ [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)

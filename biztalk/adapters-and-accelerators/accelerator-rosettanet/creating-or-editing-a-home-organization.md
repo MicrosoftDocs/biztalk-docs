@@ -68,5 +68,5 @@ This topic describes how to create or edit a home organization. The home organiz
 6.  Click **OK**.  
   
 ## See Also  
- [Operations](../../adapters-and-accelerators/accelerator-rosettanet/operations1.md)   
+ [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)   
  [Administering the BTARN Configuration](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)
