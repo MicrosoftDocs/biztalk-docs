@@ -2942,7 +2942,6 @@
 ### [Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages](troubleshoot-message-validation-failures-using-the-hexadecimal-contents.md)
 ## [Technical reference](technical-reference5.md)
 ### [Glossary](glossary5.md)
-### [Feature Dependency Matrix](feature-dependency-matrix.md)
 ### [UI Reference](ui-reference.md)
 #### [Adapter UI Help](adapter-ui-help.md)
 ##### [<Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)](host-name-properties-dialog-box-properties-tab-http-adapter-send-handler.md)

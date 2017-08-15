@@ -1,26 +1,25 @@
 ---
-title: "Parties Tab | Microsoft Docs"
+title: "Parties tab in the HL7 accelerator in BizTalk Server| Microsoft Docs"
+description: Use the BTAHL7 Configuration Explorer to view existing parties, and configure acknowledgments in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "08/14/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring, parties"
-  - "parties, Parties tab [Configuration Explorer]"
-  - "parties, configuring"
-  - "Parties tab [Configuration Explorer]"
 ms.assetid: e01052c8-25c5-4736-8403-33f16fbd3fb7
 caps.latest.revision: 3
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Parties Tab
-You use the **Parties** tab to view the available parties and specify [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuration for a particular party that you choose, and to configure properties for acknowledgments. The **Parties** tab contains both a left and right pane. The available parties appear in the left pane. The right pane contains the following tabs for the selected party:  
+# Parties in BTAHL7 Configuration Explorer
+You use the **Parties** tab to view the available parties and specify [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuration for a particular party that you choose, and to configure properties for acknowledgments. 
+
+## Parties UI explained
+The **Parties** tab contains both a left and right pane. The available parties appear in the left pane. The right pane contains the following tabs for the selected party:  
   
 -   **Party Aliases**. Use this tab to view information about the party you have selected from the left pane.  
   
@@ -39,11 +38,10 @@ You use the **Parties** tab to view the available parties and specify [!INCLUDE[
   
     > [!NOTE]
     >  You must configure party aliases, batch definitions, batch schedules, and acknowledgment information for all trading parties.  
+    > 
+    >  You can refresh the parties list by pressing F5, or by right-clicking the parties list, and select **Refresh**.  
   
-    > [!NOTE]
-    >  You can refresh the parties list by pressing F5 or by right-clicking the parties list and clicking **Refresh**.  
-  
-## In This Section  
+## Next steps  
   
 -   [Party Aliases Tab](../../adapters-and-accelerators/accelerator-hl7/party-aliases-tab.md)  
   

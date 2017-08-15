@@ -1,5 +1,6 @@
 ---
-title: "Glossary1 | Microsoft Docs"
+title: "Glossary for HL7 accelerator in BizTalk Server | Microsoft Docs"
+description: Common terms and definitions to know and learn to use the BizTalk Accelerator for HL7
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "glossary"
-  - "technical reference, glossary"
 ms.assetid: ffb9c18a-5fe5-448f-b115-0973e9d12952
 caps.latest.revision: 3
 author: "MandiOhlinger"
@@ -19,6 +17,8 @@ manager: "anneta"
 ---
 # Glossary
 The Health Level Seven (HL7) specification uses the following terms.  
+
+## Terms and definitions
   
  **artifact**  
   
@@ -34,40 +34,35 @@ The Health Level Seven (HL7) specification uses the following terms.
   
  The property of a data element (the number of times a data element may repeat within an individual occurrence of an object view) or column in the Hierarchical Message Description (the minimum and maximum number of occurrences of the message element). See Hierarchical Message Description.  
   
- **D-MIM**  
-  
- See Domain Message Information Model.  
   
  **domain**  
   
- 1. The problem or subject to be addressed by a set of HL7 messages or by a system ("application domain"). A particular area of interest in health care. 2. The set of possible values of a data type, attribute, or data type component. See vocabulary domain. 3. An interest group within HL7, such as Pharmacy, Laboratory, Patient Administration.  
+ 1. The problem or subject to be addressed by a set of HL7 messages or by a system ("application domain"). A particular area of interest in health care. 
+ 2. The set of possible values of a data type, attribute, or data type component. See vocabulary domain. 
+ 3. An interest group within HL7, such as Pharmacy, Laboratory, Patient Administration.  
   
- Domain Message Information Model  
+ 
  **event**  
   
- 1. A stimulus that causes a noteworthy state change of an object. A signal that invokes the behavior of an object. See trigger event. 2. A vocabulary domain value for Mood.  
+ 1. A stimulus that causes a noteworthy state change of an object. A signal that invokes the behavior of an object. See trigger event. 
+ 2. A vocabulary domain value for Mood.  
   
- **Hierarchical Message Description (HMD)**  
+ 
+**Hierarchical Message Description (HMD)**  
   
  A specification of the exact fields of a message and their grouping, sequence, optionality, and cardinality. Either contains message types for one or more interactions or represents one or more common message element types. This is the primary normative structure for HL7 messages.  
   
- **HMD**  
-  
- See Hierarchical Message Description and Hierarchical Message Descriptor.  
   
  **mandatory**  
   
  A column in the Hierarchical Message Description (HMD). If the inclusion for an attribute mandatory, all message elements based on this attribute must contain a non-null value, or they must have a default that is not null.  
   
- **MDF**  
-  
- See Message Development Framework.  
   
  **message**  
   
  A package of information communicated from one application to another. See message type and message instance.  
   
- **Message Development Framework (MFD)**  
+ **Message Development Framework (MDF)**  
   
  The collection of models, methods, and tools that comprise the methodology for specifying HL7 V3.0 messages. Developers of the HL7 standards use this framework. The V3.0 Guide summarizes the content of the methodology.  
   
@@ -109,4 +104,10 @@ The Health Level Seven (HL7) specification uses the following terms.
   
  **schema**  
   
- 1. A diagrammatic presentation, a structured framework, or a plan. 2. A set of requirements that need to be met in order for a document or set of data to be a valid expression within the context of that grammar. An XML schema is a specification in Standard Generalized Markup Language (SGML) of the structure of a document or set of data.
+ 1. A diagrammatic presentation, a structured framework, or a plan. 
+ 2. A set of requirements that need to be met in order for a document or set of data to be a valid expression within the context of that grammar. An XML schema is a specification in Standard Generalized Markup Language (SGML) of the structure of a document or set of data.
+
+## Next steps
+[Parties - BTAHL7 Configuration Explorer](parties-tab.md)  
+[Global Settings - BTAHL7 Configuration Explorer](global-settings-tab.md)  
+[MLLP Transport Properties Dialog Box UI Help](mllp-transport-properties-dialog-box-ui-help.md)

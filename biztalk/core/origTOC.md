@@ -1218,7 +1218,6 @@
 # [MSBTS_ServiceInstance.AssemblyVersion Property (WMI)](msbts-serviceinstance-assemblyversion-property-wmi.md)
 # [Enabling the Receiving of Multiple Interchanges in a Single Message](enabling-the-receiving-of-multiple-interchanges-in-a-single-message.md)
 # [Send Pipelines](send-pipelines.md)
-# [Feature Dependency Matrix](feature-dependency-matrix.md)
 # [UNA segment is invalid. It did not contain 6 fields](una-segment-is-invalid-it-did-not-contain-6-fields.md)
 # [MQSeries Adapter](mqseries-adapter.md)
 # [Required property binding type not specified (R2)](required-property-binding-type-not-specified-r2.md)

@@ -1,17 +1,14 @@
 ---
 title: "Configure BizTalk Server | Microsoft Docs"
+description: Steps to do a basic or custom configuration of BizTalk Server, and learn what happens with each configuration
 ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.date: "08/14/2017"
+ms.prod: "biztalk-server"
+ms.service: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Configuration Manager"
-  - "BizTalk Server, configuring"
-  - "BizTalk Server, custom configuration"
-  - "configuring [BizTalk Server], custom configuration"
 ms.assetid: 861a1237-d77a-42db-b563-d83f7930add6
 caps.latest.revision: 26
 author: "MandiOhlinger"
@@ -264,7 +261,4 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`.
 
  [Securing Your BizTalk Server Deployment](../install-and-config-guides/securing-your-biztalk-server-deployment.md)  
   
-  
-## See Also  
- [Feature Dependency Matrix](../core/feature-dependency-matrix.md)   
  

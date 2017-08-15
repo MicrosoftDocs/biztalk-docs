@@ -19,7 +19,7 @@ manager: "anneta"
 # Step 15: Configure the Send and Receive Ports
 In previous steps, you created a logical send and receive port using Orchestration Designer and set the port binding to "Specify Later". In this step, you use BizTalk Explorer to finalize the port configuration by defining the physical source and destination locations and binding the physical ports to the logical ports that you created in the orchestration.  
   
-### To configure the send and receive ports  
+## Configure the send and receive ports  
   
 1.  In the BizTalk Server Administration Console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand **BizTalk Application 1**.  
   
@@ -52,7 +52,7 @@ In previous steps, you created a logical send and receive port using Orchestrati
 15. Click **OK** to save the changes.  
   
 ## MSH 5 and MSH 6  
- The MSH 5 and MSH 6 header fields contain the destination application and facility, respectively. In Configuration Explorer, you can specify the values for each of the three components of MSH 5 and MSH 6, in cases when you want the destination information in the message to be changed. This is a likely scenario when the original message does not include party-specific information. This step is applicable in the declarative (publisher/subscriber) model. You perform this step if it is applicable in your environment. For more information about setting these values, see [BTAHL7 Configuration Explorer UI Help](../../adapters-and-accelerators/accelerator-hl7/btahl7-configuration-explorer-ui-help.md).  
+ The MSH 5 and MSH 6 header fields contain the destination application and facility, respectively. In Configuration Explorer, you can specify the values for each of the three components of MSH 5 and MSH 6, in cases when you want the destination information in the message to be changed. This is a likely scenario when the original message does not include party-specific information. This step is applicable in the declarative (publisher/subscriber) model. You perform this step if it is applicable in your environment. For more information about setting these values, see [Parties - BTAHL7 Configuration Explorer](parties-tab.md).  
   
  Proceed to [Step 16: Start the Orchestration](../../adapters-and-accelerators/accelerator-hl7/step-16-start-the-orchestration.md).  
   
