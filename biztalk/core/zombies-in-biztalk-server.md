@@ -25,7 +25,8 @@ manager: "anneta"
   
 -   A zombie service instance is an instance of an orchestration which has completed while a message that was routed to the orchestration instance from the messagebox was still "in flight". Since the orchestration instance has ended, it cannot consume the "in flight" messages and so is suspended and marked with a ServiceInstance/State value of "Suspended (Non-resumable)".  
   
- The occurrence of zombies typically falls into one of the following categories:  
+## Typical causes
+The occurrence of zombies typically falls into one of the following categories:  
   
 1.  **Terminate control messages** – The orchestration engine allows the use of control messages to cancel all currently running work in a specific orchestration instance. Since the control message immediately halts the running orchestration, zombie instances are not unexpected. A number of Human Workflow related designs tend to use this mechanism as well as some other designs.  
   
@@ -35,9 +36,7 @@ manager: "anneta"
   
  When a zombie service instance is suspended,  the following error message is generated:  
   
-```  
-0xC0C01B4C The instance completed without consuming all of its messages. The instance and its unconsumed messages have been suspended.  
-```  
+`0xC0C01B4C The instance completed without consuming all of its messages. The instance and its unconsumed messages have been suspended.`  
   
  You can use the [BizTalk Terminator](https://www.microsoft.com/download/details.aspx?id=2846) to help remove zombies.  
   

@@ -54,45 +54,45 @@ Complete the [Walkthrough: Modifying the Policy](../core/walkthrough-modifying-t
   
 4.  In **BizTalk Server Administration**, go to the **Group Overview** page, click on the **Group Hub** tab, and then click on **Tracked Service Instances**.  
   
-6.  Right-click the name of the Orchestration (RuleTest.Orchestration_1), and then click **Message Flow**.  
+5.  Right-click the name of the Orchestration (RuleTest.Orchestration_1), and then click **Message Flow**.  
   
-7.  Click **Follow this link to view the Policy execution details for this orchestration instance**. Make sure you see the window that looks like the following figure:  
+6.  Click **Follow this link to view the Policy execution details for this orchestration instance**. Make sure you see the window that looks like the following figure:  
   
      ![BRE&#45;Walkthrough&#45;FirstScreen](../core/media/1e59fe9e-cf2d-407a-81cd-102b57a515d2.gif "1e59fe9e-cf2d-407a-81cd-102b57a515d2")  
   
-9. Click the time or **ProcessPurchaseOrder1.3** to see the following screen. In this screen, you can see the service (orchestration) that requested the policy execution, the ID of the orchestration, the time at which the policy was executed, and the ID of the policy.  
+7. Click the time or **ProcessPurchaseOrder1.3** to see the following screen. In this screen, you can see the service (orchestration) that requested the policy execution, the ID of the orchestration, the time at which the policy was executed, and the ID of the policy.  
   
      ![BRE&#45;Walkthrough&#45;PolicyExecDetails](../core/media/a65fd48f-2a54-4cc5-9b45-4cd3c211da33.gif "a65fd48f-2a54-4cc5-9b45-4cd3c211da33")  
   
-10. Click **Fact Activity** to see the facts (data) that were asserted into the rule engine's working memory and the facts that were retracted from the rule engine's working memory.  
+8. Click **Fact Activity** to see the facts (data) that were asserted into the rule engine's working memory and the facts that were retracted from the rule engine's working memory.  
   
      ![BRE&#45;Walkthrough&#45;FactActivity](../core/media/27bc0d84-f202-4f5a-87a1-8b53006b3cee.gif "27bc0d84-f202-4f5a-87a1-8b53006b3cee")  
   
-11. On the **File** menu, click **Navigate back**.  
+9. On the **File** menu, click **Navigate back**.  
   
-12. Click **Conditions that Evaluated**. You see the details about the conditions that were evaluated. In this case, there are two rules in the policy, and each policy has a condition. You can see that two conditions were evaluated; one evaluated to `true`, and the other one evaluated to `false`.  
+10. Click **Conditions that Evaluated**. You see the details about the conditions that were evaluated. In this case, there are two rules in the policy, and each policy has a condition. You can see that two conditions were evaluated; one evaluated to `true`, and the other one evaluated to `false`.  
   
      ![BRE&#45;Walkthrough&#45;ConditionEvaluation](../core/media/ac772d01-919f-4b22-995b-409501a96848.gif "ac772d01-919f-4b22-995b-409501a96848")  
   
-13. On the **File** menu, click **Navigate back**.  
+11. On the **File** menu, click **Navigate back**.  
   
-14. Click **Agenda Updates**. You can see that only the ApprovalRule is added to the agenda. The DeniedRule is not added to the agenda because its condition evaluates to `false`.  
+12. Click **Agenda Updates**. You can see that only the ApprovalRule is added to the agenda. The DeniedRule is not added to the agenda because its condition evaluates to `false`.  
   
      ![BRE&#45;Walkthrough&#45;Agenda](../core/media/bc85d9ea-fc76-44de-aa75-134f47a5ec20.gif "bc85d9ea-fc76-44de-aa75-134f47a5ec20")  
   
-15. Click **ApprovalRule** to see the definition of the ApprovalRule.  
+13. Click **ApprovalRule** to see the definition of the ApprovalRule.  
   
-16. On the **File** menu, click **Navigate back**.  
+14. On the **File** menu, click **Navigate back**.  
   
-17. On **File** menu, click **Navigate back** again.  
+15. On **File** menu, click **Navigate back** again.  
   
-18. Click **Rules that fired**. You can see that only ApprovalRule was fired (actions for the ApprovalRule were executed).  
+16. Click **Rules that fired**. You can see that only ApprovalRule was fired (actions for the ApprovalRule were executed).  
   
-19. On the **File** menu, click **Navigate back**.  
+17. On the **File** menu, click **Navigate back**.  
   
-20. Click **Rules that did not fire**. You can see that DeniedRule was not fired because it was not in the agenda.  
+18. Click **Rules that did not fire**. You can see that DeniedRule was not fired because it was not in the agenda.  
   
-21. Repeat steps 1-20 with **SamplePO2.xml**.  
+19. Repeat steps 1-18 with **SamplePO2.xml**.  
   
 ## Key details  
   

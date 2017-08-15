@@ -17,6 +17,7 @@ manager: "anneta"
 ---
 # Logic App Adapter
 
+## Overview
 BizTalk Server uses the Logic Apps adapter to receive messages from an Azure logic app, or send messages to an Azure logic app. 
 
 In Azure, we create a logic app. This logic app uses the BizTalk Connector to connect to a receive location that you create on your BizTalk Server. This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](https://azure.microsoft.com/documentation/articles/app-service-logic-what-are-logic-apps/), and even [creating your own logic app](https://azure.microsoft.com/documentation/articles/app-service-logic-create-a-logic-app/).

@@ -41,3 +41,6 @@ See [API Management](https://azure.microsoft.com/en-us/services/api-management/)
 4. Select if you want to use a **SOAP pass-through**, or set up a **SOAP to REST** service.
 5. Enter the **name** of your API, the **Description**, and the **API Url suffix** for your service.
 6. Select **Create** to create the communication to your backend SOAP endpoint.
+
+## See also
+[Configure the feature pack](configure-the-feature-pack.md)

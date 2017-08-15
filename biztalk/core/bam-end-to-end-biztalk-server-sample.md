@@ -37,7 +37,8 @@ The End-to-End sample demonstrates how to correlate events from multiple compone
   
 -   Using continuations to keep an activity active when multiple pieces of a solution contribute to the activity.  
   
- The sample works as follows:  
+
+The sample works as follows:  
   
 1.  An input message is retrieved from the *\<Samples Path>*\BamEndToEnd\Input folder.  
   
@@ -102,12 +103,9 @@ Services\Schema3.xsd|Message schema.|
   
 3.  Deploy the tracking profile BamEndToEnd.btt that you created in the previous step.  In the command prompt change to the *\<Samples Path>*\BAM\BamEndToEnd directory. To deploy the tracking profile, type the following line, and then press **Enter**:  
   
-    ```  
+    `“<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt`
   
-    “<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt  
-    ```  
-  
-     For more information on deploying a tracking profile refer to [How to Deploy Tracking Profiles with the Tracking Profiles Management Utility](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md).  
+     [How to Deploy Tracking Profiles with the Tracking Profiles Management Utility](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md) provides more information.
   
     > [!IMPORTANT]
     >  You can ignore the message that the ContinuationID Orch1_ does not have a matching Continuation. This message is expected, because the continuation named Orch1_ is defined in the pipeline component, and not in the tracking profile.  
@@ -130,12 +128,10 @@ Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<
   
 1.  Open a command prompt as Administrator, and change to the *\<Samples Path>*\BAM\BamEndToEnd directory. Type the following line:  
   
-    ```  
-    “C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove  
-    ```  
+    `“C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove`  
   
     > [!NOTE]
-    >  If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the C drive, replace "C" with the letter of the drive where you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+    >  If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the C drive, replace "C" with the drive letter where you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 2.  Run *\<Samples Path>*\BAM\BAMEndToEnd\Cleanup.bat. Cleanup.bat removes the BAM infrastructure for this sample.  
   
@@ -258,7 +254,7 @@ Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<
   
 49. Save the tracking profile to *\<Samples Path>*\BAM\BamEndToEnd\BamEndToEnd.btt.  
   
-## Comments  
+## Important details  
  Tracking profiles are not supported for pipelines. However, the call to **BeginActivity** in the pipeline component is the same as using ActivityID in an orchestration. The call to **EnableContinuation** is the same as using a continuation in an orchestration.  
   
 ## See Also  

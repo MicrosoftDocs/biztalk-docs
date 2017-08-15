@@ -104,7 +104,7 @@ Monitoring your BizTalk Server applications and infrastructure on a regular basi
   
  The following topics discuss monitoring and troubleshooting using the BizTalk Server Administration Console, Group Hub page, and Query pages. This section also discusses tracking, which you can use as an aid in troubleshooting and root-cause analysis.  
   
-## In This Section  
+## More good stuff  
   
 -   [Using the BizTalk Server Administration Console](../core/using-the-biztalk-server-administration-console.md)  
   
