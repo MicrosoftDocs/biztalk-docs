@@ -4,7 +4,7 @@ description: Blogs and website by integration and Azure MVPs, and community memb
 author: "MandiOhlinger"
 manager: "anneta"
 
-ms.date: "08/14/2017"
+ms.date: "08/15/2017"
 ms.prod: "biztalk-server"
 ms.service: "biztalk-server"
 ms.suite: ""
@@ -22,15 +22,15 @@ ms.author: "mandia"
 
 Martin has been "doing" Integration for over 15 years, and is one of the admin team members for the Global Integration Bootcamp, and the Global Azure Bootcamp. He doesn't do anything in his spare time because he doesn't have any. 
 
-## BizTalk360
-[Blog](https://blogs.biztalk360.com/)  |  [Twitter](https://twitter.com/BizTalk360)
-
-Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and  the BizTalk360 team. 
-
 ## Bill Chesnut
 [Blog](https://biztalkbill.com)  |  [Twitter](https://twitter.com/BizTalkBill)
 
 Ramblings about all things integration, including BizTalk Server, API Management, Visual Studio Team Services (VSTS), Service Bus, Logic Apps, and more.
+
+## BizTalk360
+[Blog](https://blogs.biztalk360.com/)  |  [Twitter](https://twitter.com/BizTalk360)
+
+Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and  the BizTalk360 team. 
 
 ## Sam Cogan
 [Blog](http://samcogan.com)  |  [Twitter](https://twitter.com/samcogan)
@@ -41,6 +41,13 @@ Sam's blog focuses on Microsoft Azure, and cloud technology in general. Sam also
 [Blog](https://glenncolpaert.wordpress.com/)  |  [Twitter](https://twitter.com/GlennColpaert)
 
 Blogging with his head in the (hybrid) cloud, and his feet on-premises! Blog on Azure / IoT / Integration
+
+## Nino Crudele
+[Blog](https://blog.ninocrudele.com/)  |  [Twitter](https://twitter.com/ninocrudele)
+
+Nino blogs about Integration of Technologies, and anything and everything related to it.
+
+
 
 ## Eldert Grootenboer
 [Blog](https://blog.eldert.net/)  |  [Twitter](https://twitter.com/egrootenboer)
@@ -61,6 +68,11 @@ Edward's blog is about Azure, Visual Studio Team Services (VSTS), and includes g
 [Blog](https://wikiazure.com/)  |  [Twitter](https://twitter.com/DaveRndn)
 
 Get some info on resources and troubleshooting on Azure IaaS. You can also learn about Azure, hands-on labs, and general knowledge on the Microsoft cloud platform.
+
+## Maheshkumar S Tiwari
+[Blog](http://tech-findings.blogspot.in/)  |  [Twitter](https://twitter.com/Savvy_mahesh)
+
+Findings while working on BizTalk, EDI, EAI, Azure and integration technologies.
 
 ## Dan Toomey
 [Blog](https://mindovermessaging.com/)  |  [Twitter](https://twitter.com/daniel2me)

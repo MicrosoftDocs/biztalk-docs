@@ -1,20 +1,14 @@
 ---
-title: "BizTalk Assemblies | Microsoft Docs"
+title: "How assemblies in BizTalk Server are deployed  | Microsoft Docs"
+description: Deploy assemblies to the GAC, and enable versioning for assemblies in BizTalk Server
 ms.custom: ""
-ms.date: "2016-01-21"
+ms.date: "01/21/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "assemblies, about assemblies"
-  - "assemblies"
-  - "deploying, assemblies"
-  - "assemblies, deploying"
-  - "assemblies, .NET versioning"
-  - "GAC, deploying assemblies"
 ms.assetid: c7f99ed5-b64a-4a38-99d7-83070fb69030
 caps.latest.revision: 13
 author: "MandiOhlinger"

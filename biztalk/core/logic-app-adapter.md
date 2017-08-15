@@ -1,5 +1,6 @@
 ---
-title: "Logic App Adapter | Microsoft Docs"
+title: "Use Logic App adapter in BizTalk Server| Microsoft Docs"
+description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -16,6 +17,7 @@ manager: "anneta"
 ---
 # Logic App Adapter
 
+## Overview
 BizTalk Server uses the Logic Apps adapter to receive messages from an Azure logic app, or send messages to an Azure logic app. 
 
 In Azure, we create a logic app. This logic app uses the BizTalk Connector to connect to a receive location that you create on your BizTalk Server. This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](https://azure.microsoft.com/documentation/articles/app-service-logic-what-are-logic-apps/), and even [creating your own logic app](https://azure.microsoft.com/documentation/articles/app-service-logic-create-a-logic-app/).
@@ -207,7 +209,9 @@ This section lists the steps to create your own artifacts.
 2. Paste the URL of the Request trigger from your logic app. You copied this URL in Step 3. 
 3. Select **POST** as the HTTP verb, and set the **Content-type** header to `application/json`. In the body, paste the following JSON:  
 
-	```{“hello”:”world”}```
+    ```json
+    {“hello”:”world”}
+    ```
 
 4. Because this is a one-way call to BizTalk, the result should be an HTTP 202. If you're using the HelloWorld SDK sample, go to your BizTalk server. There may be a file in your send folder. 
 
@@ -218,8 +222,8 @@ This section lists the steps to create your own artifacts.
 
 The Logic Apps adapter is a separate download, and is not included with the BizTalk Server installation.
 
-1. Download the [Logic Apps adapter]().
-2. Double-select **LogicApp Adapter.msi** to install. Accept the license agreement, and **Install**.
+1. Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and save. 
+2. Open the LogicAppAdapter.iso, and run the **LogicApp Adapter.msi** file to install.
 3. **Finish** the install, and restart the **BizTalkServerApplication** and **BizTalkServerIsolatedHost** host instances.
 
 Once installed, you have the following:

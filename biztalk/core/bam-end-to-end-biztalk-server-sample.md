@@ -1,5 +1,6 @@
 ---
-title: "BAM End-to-End (BizTalk Server Sample) | Microsoft Docs"
+title: "BAM End-to-End sample in BizTalk Server | Microsoft Docs"
+description: Scenario on how to correlate events from multiple components using Business Activity Monitoring in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, BAM"
-  - "BAM, examples"
 ms.assetid: 81406038-7f3f-499f-a003-12423d92c44b
 caps.latest.revision: 35
 author: "MandiOhlinger"
@@ -25,7 +23,7 @@ The End-to-End sample demonstrates how to correlate events from multiple compone
  The following diagram illustrates the workflow used in the sample.  
   
  ![](../core/media/ebiz-sdk-samples-bam-endtoendwkflw.gif "ebiz_sdk_samples_bam_endtoendwkflw")  
-End-to-End Workflow  
+
   
 ## What This Sample Does  
  The BAM end-to-end sample shows how you can use BAM to gather information from a pipeline and multiple orchestrations and update a single activity.  
@@ -39,7 +37,8 @@ End-to-End Workflow
   
 -   Using continuations to keep an activity active when multiple pieces of a solution contribute to the activity.  
   
- The sample works as follows:  
+
+The sample works as follows:  
   
 1.  An input message is retrieved from the *\<Samples Path>*\BamEndToEnd\Input folder.  
   
@@ -61,7 +60,7 @@ End-to-End Workflow
  The following table shows the files in this sample and describes their purpose.  
   
 |File(s)|Description|  
-|---------------|-----------------|  
+|----|---|  
 |BamEndToEnd.sln|BAM End-to-End sample solution.|  
 |BamEndToEnd.xls|BAM definition style sheet.|  
 |BamEndToEnd.xml|BAM definition XML.|  
@@ -96,32 +95,26 @@ Services\Schema3.xsd|Message schema.|
   
 -   [To view the BAM data](#To_View_Data)  
   
-##  <a name="To_Build_Sample"></a>   
-#### To build and initialize this sample  
+##  <a name="To_Build_Sample"></a>Build and initialize this sample  
   
-1.  Open a command prompt and run *\<Samples Path>*\BAM\BAMEndToEnd\Setup.bat. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator. Setup.bat builds and initializes the BAM infrastructure for this sample. Keep the command prompt open.  
+1.  Open a command prompt as Administrator, and run *\<Samples Path>*\BAM\BAMEndToEnd\Setup.bat. Setup.bat builds and initializes the BAM infrastructure for this sample. Keep the command prompt open.  
   
 2.  Create a tracking profile to map Orchestration1, Orchestration2, and Orchestration3 to the BAM activity. (Because creating the tracking profile is a complex process, the detailed instructions are in a separate procedure called **To create a tracking profile**. This procedure appears later in this document.)  
   
 3.  Deploy the tracking profile BamEndToEnd.btt that you created in the previous step.  In the command prompt change to the *\<Samples Path>*\BAM\BamEndToEnd directory. To deploy the tracking profile, type the following line, and then press **Enter**:  
   
-    ```  
+    `“<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt`
   
-    “<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt  
-    ```  
-  
-     For more information on deploying a tracking profile refer to [How to Deploy Tracking Profiles with the Tracking Profiles Management Utility](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md).  
+     [How to Deploy Tracking Profiles with the Tracking Profiles Management Utility](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md) provides more information.
   
     > [!IMPORTANT]
     >  You can ignore the message that the ContinuationID Orch1_ does not have a matching Continuation. This message is expected, because the continuation named Orch1_ is defined in the pipeline component, and not in the tracking profile.  
   
-##  <a name="To_Run_Sample"></a>   
-#### To run this sample  
+##  <a name="To_Run_Sample"></a>Run this sample  
   
--   Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<Samples Path>*\BamEndToEnd\Input. After a few seconds, the message disappears from the Input folder, and an output message appears in the *\<Samples Path>*\BamEndToEnd\Output folder.  
+Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<Samples Path>*\BamEndToEnd\Input. After a few seconds, the message disappears from the Input folder, and an output message appears in the *\<Samples Path>*\BamEndToEnd\Output folder.  
   
-##  <a name="To_View_Data"></a>   
-#### To view the BAM data  
+##  <a name="To_View_Data"></a>View the BAM data  
   
 1.  Open SQL Server Management Studio.  
   
@@ -131,25 +124,22 @@ Services\Schema3.xsd|Message schema.|
   
      The contents of the bam_EndToEndActivity_Completed table are displayed in the right pane. Each row in the table represents an EndToEndActivity activity that has been completed.  
   
-#### To re-run this sample  
+#### Rerun this sample  
   
-1.  Open a command prompt and change to the *\<Samples Path>*\BAM\BamEndToEnd directory. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator. Type the following line:  
+1.  Open a command prompt as Administrator, and change to the *\<Samples Path>*\BAM\BamEndToEnd directory. Type the following line:  
   
-    ```  
-    “C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove  
-    ```  
+    `“C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove`  
   
     > [!NOTE]
-    >  If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the C drive, replace "C" with the letter of the drive where you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+    >  If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the C drive, replace "C" with the drive letter where you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 2.  Run *\<Samples Path>*\BAM\BAMEndToEnd\Cleanup.bat. Cleanup.bat removes the BAM infrastructure for this sample.  
   
 3.  Perform the steps in **To build and initialize this sample** section in this topic.  
   
-##  <a name="TPE_procedure"></a>   
-#### To create a tracking profile  
+##  <a name="TPE_procedure"></a>Create a tracking profile  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Tracking Profile Editor**. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], right-click **Tracking Profile Editor** and then click **Run as administrator**.  
+1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]. Right-click **Tracking Profile Editor**, and **Run as administrator**.  
   
 2.  In the left pane of the **Tracking Profile Editor** window, click **Click here to import a BAM Activity Definition**.  
   
@@ -171,7 +161,7 @@ Services\Schema3.xsd|Message schema.|
   
 11. Expand **\<Schema>**, and then drag **DocumentID** in the right pane to **Orch1_** in the left pane.  
   
-12. Click the folder icon with the arrow (![button with folder and up&#45;arrow](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) twice to display the orchestration.  
+12. Click the folder icon with the arrow (![button with folder and up arrow](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) twice to display the orchestration.  
   
 13. Drag the **Receive1** shape in the right pane to **SBegin1** in the left pane.  
   
@@ -245,7 +235,7 @@ Services\Schema3.xsd|Message schema.|
     > [!NOTE]
     >  Do not confuse the Orch3_ continuation with the Orch3_ continuation ID. The icon that represents a continuation ID contains a key (![icon for a continuation ID](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea")), whereas the icon that represents a continuation does not contain a key (![icon for a continuation](../core/media/test.gif "test")).  
   
-42. Click the folder icon with the arrow (![button with folder and up&#45;arrow](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) twice to display the orchestration.  
+42. Click the folder icon with the arrow (![button with folder and up arrow](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) twice to display the orchestration.  
   
 43. Drag the **Receive1** shape in the right pane to **SBegin3** in the left pane.  
   
@@ -264,7 +254,7 @@ Services\Schema3.xsd|Message schema.|
   
 49. Save the tracking profile to *\<Samples Path>*\BAM\BamEndToEnd\BamEndToEnd.btt.  
   
-## Comments  
+## Important details  
  Tracking profiles are not supported for pipelines. However, the call to **BeginActivity** in the pipeline component is the same as using ActivityID in an orchestration. The call to **EnableContinuation** is the same as using a continuation in an orchestration.  
   
 ## See Also  

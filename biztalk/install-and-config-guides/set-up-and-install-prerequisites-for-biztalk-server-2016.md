@@ -1,17 +1,22 @@
 ---
 title: "Set up and install prerequisites for BizTalk Server 2016 | Microsoft Docs"
+description: Step-by-step instructions to install and configure the required software and settings for BizTalk Server 2016
+author: "MandiOhlinger"
+manager: "anneta"
+
+ms.prod: "biztalk-server"
+ms.service: "biztalk-server"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "08/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
 caps.latest.revision: 11
-author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
 ---
+
 # Set up and install prerequisites for BizTalk Server 2016
 Set up the server, and install and configure the software prerequisites.
 
@@ -20,8 +25,8 @@ To install and configure BizTalk Server, sign in to the server using an administ
 
 1.	In the Start menu, open **Computer Management**.
 
-* Or, open **Administrative Tools**, and then select **Computer Management**.
-* Or, open **Server Manager**, select **Tools**, and then select **Computer Management**.
+    * Or, open **Administrative Tools**, and then select **Computer Management**.
+    * Or, open **Server Manager**, select **Tools**, and then select **Computer Management**.
   
 2.	Expand **Local Users and Groups**, and select **Groups**.
 3.	Right-click the **Administrators** group, and select **Add to Group**. **Add** your accounts, and select **OK** to save your changes. 
@@ -40,8 +45,8 @@ If BizTalk and SQL Server are installed on separate computers, then enable Netwo
 
 1. In the Start menu, open "dcomcnfg".
 
-* Or, open **Administrative Tools**, and then select **Component Services**.
-* Or, open **Server Manager**, select **Tools**, and then select **Component Services**.
+    * Or, open **Administrative Tools**, and then select **Component Services**.
+    * Or, open **Server Manager**, select **Tools**, and then select **Component Services**.
   
 2. Expand **Component Services**, expand **Computers**, expand **My Computer**,  and expand **Distributed Transaction Coordinator**.
 3. Right-click **Local DTC**, and select **Properties**.
@@ -52,7 +57,7 @@ If BizTalk and SQL Server are installed on separate computers, then enable Netwo
     * No Authentication Required
 5. Select **OK**. If prompted to restart MS DTC, select **Yes**. 
 
-For additional settings that may be needed, see [Troubleshooting Problems with MSDTC](https://msdn.microsoft.com/library/aa561924.aspx).
+For additional settings that may be needed, see [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
 ## Configure the Application Event Log
 
@@ -60,14 +65,16 @@ BizTalk Server setup keeps a record of events in the Application Event Log. Depe
 
 1. In the Start menu, open **Event Viewer**:
 
-* Or, open **Administrative Tools**, and then select **Event Viewer**.
-* Or, open **Server Manager**, select **Tools**, and then select **Event Viewer**.
+    * Or, open **Administrative Tools**, and then select **Event Viewer**.
+    * Or, open **Server Manager**, select **Tools**, and then select **Event Viewer**.
   
 2. Expand **Windows Logs**, right-click **Application**, and then select **Properties**. 
 3. To determine the available space, compare the **Log Size** and the **Maximum log size** properties. 
+
     * To add space, enter a higher number in **Maximum log size**.
     * To enable overwriting of old events when the log becomes full, select **Overwrite events as needed**.
     * To clear the log events, select **Clear log**.
+
 4. Select **OK**.
 
 ## Edge can’t be opened using the Built-in Administrator account
@@ -246,11 +253,11 @@ Visual Studio Enterprise Edition is recommended, but Professional and Community 
 
 **SEE ALSO** : [Installing Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx)
 
-#### Important
-- If you install Visual Studio before installing BizTalk Server, and then upgrade to Visual Studio Team Explorer, you may need to repair your BizTalk Server installation.
-- Visual Studio automatically installs Microsoft SQL Server Express; which is not used by BizTalk Server. Uninstall Microsoft SQL Server Express. You can also uninstall Microsoft SQL Server Compact.  
-- The BizTalk Server development tools are based on Visual Studio. At a minimum, install the Microsoft Visual C#® .NET component before you install the BizTalk Server Developer Tools and SDK.
-- The BizTalk Server runtime requires .NET Framework 4.6. If the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed, then .NET Framework 3.0 is required
+> [!IMPORTANT]
+> - If you install Visual Studio before installing BizTalk Server, and then upgrade to Visual Studio Team Explorer, you may need to repair your BizTalk Server installation.
+> - Visual Studio automatically installs Microsoft SQL Server Express; which is not used by BizTalk Server. Uninstall Microsoft SQL Server Express. You can also uninstall Microsoft SQL Server Compact.  
+> - The BizTalk Server development tools are based on Visual Studio. At a minimum, install the Microsoft Visual C#® .NET component before you install the BizTalk Server Developer Tools and SDK.
+> - The BizTalk Server runtime requires .NET Framework 4.6. If the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed, then .NET Framework 3.0 is required
 
 #### Uninstall SQL Server Express
 1. In the Start menu, open **Programs and Features**. Or, open the **Control Panel**, and select **Uninstall a program**.
@@ -264,19 +271,19 @@ Visual Studio Enterprise Edition is recommended, but Professional and Community 
 ## Install SQL Server 2016
 BizTalk Server requires SQL Server. SQL Server can be installed on the same computer as BizTalk, or on a different computer. Most production environments install BizTalk and SQL on separate servers. 
 
-#### Important
-- SQL Server Express Edition is not recommended or supported. The Express edition does not include certain features needed by BizTalk Server.
-- BizTalk Server supports SQL Standard Edition. However, to use Business Activity Monitoring real-time aggregation (BAM RTA), install SQL Server Enterprise Edition. BAM real-time aggregation (RTA) is not supported in the Standard Edition of SQL Server.
-- To fully use the BizTalk Server SDK or deploy BizTalk Server applications from a Visual Studio, install the SQL Server Development Tools.
-- BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.
+> [!IMPORTANT]
+> - SQL Server Express Edition is not recommended or supported. The Express edition does not include certain features needed by BizTalk Server.
+> - BizTalk Server supports SQL Standard Edition. However, to use Business Activity Monitoring real-time aggregation (BAM RTA), install SQL Server Enterprise Edition. BAM real-time aggregation (RTA) is not supported in the Standard Edition of SQL Server.
+> - To fully use the BizTalk Server SDK or deploy BizTalk Server applications from a Visual Studio, install the SQL Server Development Tools.
+> - BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.
 
-**For specific install steps, go to** [Install SQL Server 2016](https://msdn.microsoft.com/library/ms143219.aspx) or [Install SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx).
+**For specific install steps, see** [Install SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx).
 
 1. Start the SQL Server installation. 
 2. During the Feature setup, select the following:
     - Database Engine Services
         - SQL Server Replication
-        - R Services (in-Database) (optional; info at [SQL Server R Services](https://msdn.microsoft.com/library/mt604845.aspx))
+        - R Services (in-Database) (**optional**; info at [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
         - Full-Text and Semantic Extractions for Search
     - Analysis Services
     - Reporting Services - Native
@@ -285,9 +292,23 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
         - Integration Services
 
     > [!NOTE]
-    > **SQL Server Data Tools** is not included in the default installation of SQL Server. It is not required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://msdn.microsoft.com/library/mt204009.aspx). Download [**SQL Server Management Studio (SSMS)**](https://msdn.microsoft.com/library/mt238290.aspx) that works with all supported versions of SQL Server, including Azure SQL Database. 
+    > **SQL Server Data Tools** is not included in the default installation of SQL Server. It is not required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. 
 
 3. Continue with the installation, and restart the computer if prompted.
+
+## Disable Shared Memory
+
+1. Open **SQL Server Configuration Manager**.
+2. In SQL Server Configuration Manager, expand **SQL Server Network Configuration**, and then select **Protocols for MSSQLSERVER**.
+3. Right-click **Shared Memory**, and then select **Disable**.
+4. Select **SQL Server Services**, right-click SQL **Server (MSSQLSERVER)**, and then select **Stop**. After the service has stopped, right-click **SQL Server (MSSQLSERVER)**, and then select **Start**.
+5. Close **SQL Server Configuration Manager**.
+
+Typically, the Shared Memory protocol only impacts clients (BizTalk Server) that are installed on the same computer as SQL Server. Under certain stress conditions (such as clients accessing SQL Server from the same computer), the SQL Server Shared Memory protocol may lower BizTalk Server performance. Disabling the Shared Memory network protocol resolves this.
+
+> [!TIP]
+> If SQL Server Agent fails to start after disabling Shared Memory, then confirm 
+> [ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) is installed.
 
 ## Install SQL XML 4
 Required for BizTalk Server Runtime, Administrative Tools, and BAM. 
@@ -297,13 +318,13 @@ Download and install [SqlXml 4.0](https://www.microsoft.com/download/details.asp
 ## Configure SQL Server Database Mail (optional)
 If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you don't use BAM Alerts, then skip this section. 
 
-**SEE ALSO** : More on [Database Mail](http://msdn.microsoft.com/library/ms189635.aspx).
+**SEE ALSO** : More on [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).
 
-#### Important
-- You need to know the server name and TCP port number for the SMTP Server. If you installed IIS and SMTP Server on this same computer, then you use the local SMTP Server. If the SMTP server requires authentication, then have the user name and password ready.
-- The BAM portal and BAM Alerts are separate features. If you are using BAM Alerts, then SQL Server Database Mail is required. If you are not using BAM Alerts, then SQL Server Database Mail is not required.
+> [!IMPORTANT]
+> - You need to know the server name and TCP port number for the SMTP Server. If you installed IIS and SMTP Server on this same computer, then you use the local SMTP Server. If the SMTP server requires authentication, then have the user name and password ready.
+> - The BAM portal and BAM Alerts are separate features. If you are using BAM Alerts, then SQL Server Database Mail is required. If you are not using BAM Alerts, then SQL Server Database Mail is not required.
 
-**For specific configuration steps, go to**: Configure [SQL Server 2016 Database Mail](https://msdn.microsoft.com/library/hh245116.aspx) or [SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx).
+**For specific configuration steps, see**: Configure [SQL Server 2016 Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail) or [SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx).
 
    
 To send a test email: 
