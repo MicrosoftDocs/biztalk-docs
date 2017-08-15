@@ -1,7 +1,8 @@
 ---
 title: "Zombies in BizTalk Server | Microsoft Docs"
+description: Common causes of zombie messages in BizTalk Server
 ms.custom: ""
-ms.date: "2016-03-23"
+ms.date: "03/23/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
@@ -17,7 +18,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Zombies in BizTalk Server
-What is a zombie?  
+
+## What is a zombie?  
   
 -   A zombie message is a message that was routed to a running orchestration from the messagebox and was "in flight" when the orchestration ended. An "in flight" message is a message that has been routed to a service instance and so is in a messagebox queue destined for the service instance. Since the message can no longer be consumed by the subscribing orchestration instance, the message is suspended and marked with a ServiceInstance/State value of "Suspended (Non-resumable)".  
   

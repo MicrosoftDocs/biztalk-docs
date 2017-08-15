@@ -1,7 +1,8 @@
 ---
-title: "Monitoring BizTalk Server | Microsoft Docs"
+title: "Monitor BizTalk Server | Microsoft Docs"
+description: Availability, health, and performance monitoring in BizTalk Server, and monitor SQL Agent jobs
 ms.custom: ""
-ms.date: "2016-01-14"
+ms.date: "01/14/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"

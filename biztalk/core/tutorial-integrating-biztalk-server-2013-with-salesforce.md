@@ -1,7 +1,8 @@
 ---
 title: "Tutorial: Integrating BizTalk Server 2013 with Salesforce | Microsoft Docs"
+description: Use Service Bus and BIzTalk Server to integrate with Salesforce
 ms.custom: ""
-ms.date: "2015-12-07"
+ms.date: "12/07/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
@@ -64,7 +65,7 @@ Reviewers: [Nick Hauenstein](http://social.msdn.microsoft.com/profile/nick.hauen
   
 -   A sample based on this tutorial is available for download at [http://go.microsoft.com/fwlink/?LinkId=290932](http://go.microsoft.com/fwlink/?LinkId=290932).  
   
-## In This Section  
+## Next steps
   
 -   [Step 1: Create a Service Bus Namespace](../core/step-1-create-a-service-bus-namespace.md)  
   

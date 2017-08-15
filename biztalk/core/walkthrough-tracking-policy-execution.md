@@ -1,7 +1,8 @@
 ---
-title: "Walkthrough: Tracking Policy Execution | Microsoft Docs"
+title: "Walkthrough: Tracking Policy Execution in BizTalk Server | Microsoft Docs"
+description: Tutorial to enable tracking, and view the tracking details of the policy in BizTalk Server
 ms.custom: ""
-ms.date: "2016-04-05"
+ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
@@ -15,26 +16,18 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Walkthrough: Tracking Policy Execution
-This walkthrough provides step-by-step procedures for enabling tracking for the **ProcessPurchaseOrder** policy, and for viewing the tracking information after the policy is executed.  
+Step-by-step procedures for enabling tracking for the **ProcessPurchaseOrder** policy, and for viewing the tracking information after the policy is executed.  
   
 ## Prerequisites  
- You must complete the [Walkthrough: Modifying the Policy](../core/walkthrough-modifying-the-policy.md) walkthrough before performing this walkthrough.  
+Complete the [Walkthrough: Modifying the Policy](../core/walkthrough-modifying-the-policy.md) walkthrough before performing this walkthrough.  
   
-## Overview of This Walkthrough  
- This walkthrough contains two procedures, as described in the following table.  
+## Enable tracking for the ProcessPurchaseOrder policy  
   
-|Procedure title|Procedure description|  
-|---------------------|---------------------------|  
-|To enable tracking for the ProcessPurchaseOrder policy|Provides step-by-step instructions for enabling tracking for the **ProcessPurchaseOrder** policy.|  
-|To test the solution and view the tracking information|Provides step-by-step instructions for testing the solution and viewing the tracking information for the policy by using tracking.|  
-  
-### To enable tracking for the ProcessPurchaseOrder policy  
-  
-1.  On the **Start** menu, open **BizTalk Server Administration**. If you have the BizTalk Server Administration console already open, press F5 to refresh it.  
+1.  Open **BizTalk Server Administration**. If it's already open, press F5 to refresh it.  
   
 2.  Expand **Console Root**, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand **RuleTestApp**.  
   
-3.  Right-click **Policies**, point to **Add**, and then click **Policy**.  
+3.  Right-click **Policies**, select **Add**, and then select **Policy**.  
   
     > [!NOTE]
     >  To enable tracking for a policy, you must add the policy to a BizTalk application by using the BizTalk Server Administration console.  
@@ -43,31 +36,27 @@ This walkthrough provides step-by-step procedures for enabling tracking for the 
   
 5.  Click **OK**.  
   
-6.  Press F5 to refresh the view if you do not see **ProcessPurchaseOrder** in the list.  
+6.  If you don't see **ProcessPurchaseOrder** in the list, select F5 to refresh the view.
   
-7.  Right-click **ProcessPurchaseOrder**, and then click **Tracking.**  
+7.  Right-click **ProcessPurchaseOrder**, and then select **Tracking.**  
   
 8.  In the **Policy Tracking Options** dialog box, select all the check boxes for **Fact activity**, **Condition evaluation**, **Rule firings**, and **Agenda updates**.  
   
 9. Click **OK**.  
   
-### To test the solution and view the tracking information  
+## Test the solution and view the tracking information  
   
-1.  Open **SamplePO.xml** and **SamplePO2.xml** in Notepad and change the value of the **Status** field to **XYZ**.  
+1.  Open **SamplePO.xml** and **SamplePO2.xml** in notepad, and change the value of the **Status** field to **XYZ**.  
   
 2.  Copy **SamplePO.xml** that you created in [Walkthrough: Testing the Policy](../core/walkthrough-testing-the-policy.md) to the input directory for the orchestration.  
   
 3.  You should see an output file in the output directory for the orchestration. Open the output XML file and notice that the value of the **Status** field is set to **Approved**.  
   
-4.  Click **Start**, point to **Programs**, point to **Microsoft BizTalk Server**, and then click **BizTalk Server Administration**.  
-  
-5.  On the **Group Overview** page, click on the **Group Hub** tab, and then click on **Tracked Service Instances**.  
+4.  In **BizTalk Server Administration**, go to the **Group Overview** page, click on the **Group Hub** tab, and then click on **Tracked Service Instances**.  
   
 6.  Right-click the name of the Orchestration (RuleTest.Orchestration_1), and then click **Message Flow**.  
   
-7.  Click **Follow this link to view the Policy execution details for this orchestration instance**.  
-  
-8.  Make sure you see the window that looks like the following figure.  
+7.  Click **Follow this link to view the Policy execution details for this orchestration instance**. Make sure you see the window that looks like the following figure:  
   
      ![BRE&#45;Walkthrough&#45;FirstScreen](../core/media/1e59fe9e-cf2d-407a-81cd-102b57a515d2.gif "1e59fe9e-cf2d-407a-81cd-102b57a515d2")  
   
@@ -81,7 +70,7 @@ This walkthrough provides step-by-step procedures for enabling tracking for the 
   
 11. On the **File** menu, click **Navigate back**.  
   
-12. Click **Conditions that Evaluated**. You will see the details about the conditions that were evaluated. In this case, there are two rules in the policy, and each policy has a condition. You can see that two conditions were evaluated; one evaluated to `true` and the other one evaluated to `false`.  
+12. Click **Conditions that Evaluated**. You see the details about the conditions that were evaluated. In this case, there are two rules in the policy, and each policy has a condition. You can see that two conditions were evaluated; one evaluated to `true`, and the other one evaluated to `false`.  
   
      ![BRE&#45;Walkthrough&#45;ConditionEvaluation](../core/media/ac772d01-919f-4b22-995b-409501a96848.gif "ac772d01-919f-4b22-995b-409501a96848")  
   
@@ -105,7 +94,7 @@ This walkthrough provides step-by-step procedures for enabling tracking for the 
   
 21. Repeat steps 1-20 with **SamplePO2.xml**.  
   
-## Comments  
+## Key details  
   
 -   The policy tracking information is very similar to the tracking information you see in Business Rule Composer when you test a policy.  
   
@@ -120,7 +109,7 @@ This walkthrough provides step-by-step procedures for enabling tracking for the 
 -   When you start the RuleTestApp, the ProcessPurchaseOrder policy (version 1.3) is automatically deployed.  
   
 ## Next Steps  
- Now that you have completed this walkthrough, perform the [Walkthrough: Deploying the Policy](../core/walkthrough-deploying-the-policy.md) walkthrough, which gives you step-by-step instructions for deploying policies.  
+ Now that you have completed this walkthrough, go to the [Walkthrough: Deploying the Policy](../core/walkthrough-deploying-the-policy.md) walkthrough, which gives you step-by-step instructions for deploying policies.  
   
 ## See Also  
  [How to Configure Tracking for a Policy](../core/how-to-configure-tracking-for-a-policy.md)   
