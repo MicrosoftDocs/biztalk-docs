@@ -18,79 +18,66 @@ ms.author: "mandia"
 
 
 ## Martin Abbott
-[Blog](http://martinabbott.com)  
-[Twitter](https://twitter.com/martinabbott)
+[Blog](http://martinabbott.com)  |  [Twitter](https://twitter.com/martinabbott)
 
 Martin has been "doing" Integration for over 15 years, and is one of the admin team members for the Global Integration Bootcamp, and the Global Azure Bootcamp. He doesn't do anything in his spare time because he doesn't have any. 
 
 ## BizTalk360
-[Blog](https://blogs.biztalk360.com/)
-[Twitter](https://twitter.com/BizTalk360)
+[Blog](https://blogs.biztalk360.com/)  |  [Twitter](https://twitter.com/BizTalk360)
 
 Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and  the BizTalk360 team. 
 
 ## Bill Chesnut
-[Blog](https://biztalkbill.com)  
-[Twitter](https://twitter.com/BizTalkBill)
+[Blog](https://biztalkbill.com)  |  [Twitter](https://twitter.com/BizTalkBill)
 
 Ramblings about all things integration, including BizTalk Server, API Management, Visual Studio Team Services (VSTS), Service Bus, Logic Apps, and more.
 
 ## Sam Cogan
-[Blog](http://samcogan.com)  
-[Twitter](https://twitter.com/samcogan)
+[Blog](http://samcogan.com)  |  [Twitter](https://twitter.com/samcogan)
 
-Blog focuses on Microsoft Azure, and cloud technology in general. Sam also discussed new and exciting developments in the Azure space with a particular focus on automation, DevOps, and configuration management in the cloud. 
+Sam's blog focuses on Microsoft Azure, and cloud technology in general. Sam also discusses new and exciting developments in the Azure space with a focus on automation, DevOps, and configuration management in the cloud. 
 
 ## Glenn Colpaert
-[Blog](https://glenncolpaert.wordpress.com/)  
-[Twitter](https://twitter.com/GlennColpaert)
+[Blog](https://glenncolpaert.wordpress.com/)  |  [Twitter](https://twitter.com/GlennColpaert)
 
-Blogging with his head in the (hybrid) cloud, and his feet on-premises! Blog on Azure / IoT / Integration!
+Blogging with his head in the (hybrid) cloud, and his feet on-premises! Blog on Azure / IoT / Integration
 
 ## Eldert Grootenboer
-[Blog](https://blog.eldert.net/)  
-[Twitter](https://twitter.com/egrootenboer)
+[Blog](https://blog.eldert.net/)  |  [Twitter](https://twitter.com/egrootenboer)
 
-Blog focuses on everything Microsoft integration, including IoT, Azure integration, and BizTalk Server. 
+A focus on everything Microsoft integration, including IoT, Azure integration, and BizTalk Server. 
 
 ## Aram Koukia
-[Blog](https://koukia.ca)  
-[Twitter](https://twitter.com/aramkoukia)
+[Blog](https://koukia.ca)  |  [Twitter](https://twitter.com/aramkoukia)
 
 Aram has been building software since 2001. And when not creating software, Aram is hiking, playing soccer, tennis, reading, and anything to do with TV shows.
 
 ## Edward Kuo 
-[Blog](http://edwardkuo.imas.tw/)  
-[Twitter](https://twitter.com/Chia_Chi_Kuo)
+[Blog](http://edwardkuo.imas.tw/)  |  [Twitter](https://twitter.com/Chia_Chi_Kuo)
 
-Edward's blog is about Azure, Visual Studio Team Services (VSTS), and includes includes enterprise solutions.
+Edward's blog is about Azure, Visual Studio Team Services (VSTS), and includes guidance on enterprise solutions.
 
 ## Dave Rendón
-[Blog](https://wikiazure.com/)  
-[Twitter](https://twitter.com/DaveRndn)
+[Blog](https://wikiazure.com/)  |  [Twitter](https://twitter.com/DaveRndn)
 
 Get some info on resources and troubleshooting on Azure IaaS. You can also learn about Azure, hands-on labs, and general knowledge on the Microsoft cloud platform.
 
 ## Dan Toomey
-[Blog](www.mindovermessaging.com)  
-[Twitter](https://twitter.com/daniel2me)
+[Blog](https://mindovermessaging.com/)  |  [Twitter](https://twitter.com/daniel2me)
 
 Dan is a MCSA, MCPD, MCTS (BizTalk Server 2010), a Microsoft Certified Trainer (MCT), and a published Pluralsight author. He frequently speaks at Australian community events, including the Brisbane Azure User Group (which he currently leads), and the Brisbane BizTalk User Group which he founded in 2005. 
 
 ## Kent Weare
-[Blog](http://www.MiddlewareInTheCloud.com)  
-[Twitter](https://twitter.com/wearsy)
+[Blog](http://www.MiddlewareInTheCloud.com)  |  [Twitter](https://twitter.com/wearsy)
 
-Blog focuses on Microsoft Integration technologies, including Azure Logic Apps, BizTalk Server, Azure API Management, Service Bus, and Flow.
+Kent has a strong focus on Microsoft Integration technologies, including Azure Logic Apps, BizTalk Server, Azure API Management, Service Bus, and Flow.
 
 ## Steef-Jan Wiggers
-Blog](https://blog.steef-jan-wiggers.com/)  
-[Twitter](https://twitter.com/SteefJan)
+[Blog](https://blog.steef-jan-wiggers.com/)  |  [Twitter](https://twitter.com/SteefJan)
 
 Steef-Jan is all in on Azure, integration, and data science, and has over 15 years experience in a wide variety of scenarios. He is very active in the community as a blogger, TechNet Wiki author, book author, and global public speaker. 
 
 ## Sjoukje Zaal
-[Blog](http://sjoukjezaal.com/)  
-[Twitter](https://twitter.com/sjoukjezaal)
+[Blog](http://sjoukjezaal.com/)  |  [Twitter](https://twitter.com/sjoukjezaal)
 
 Sjoukje's blog is all about Azure, and focuses on Azure security, and application integration. Also a co-founder for [SP&C NL](http://spcnl.nl/), a Dutch community website with articles on Azure, Office 365, and SharePoint. 
