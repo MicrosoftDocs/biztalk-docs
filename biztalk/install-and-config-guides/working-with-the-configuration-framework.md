@@ -2,17 +2,11 @@
 title: "Working with the Configuration Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-10-28"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "code samples, configuring [Configuration Manager]"
-  - "Configuration Manager, configuration framework"
-  - "configuration framework [Configuration Manager]"
-  - "configuring [BizTalk Server], code sample"
-  - "Configuration Manager, code sample"
 ms.assetid: 18ec869d-6e81-42f5-9961-29b06e03fa54
 caps.latest.revision: 16
 author: "MandiOhlinger"
@@ -311,4 +305,3 @@ The Configuration Framework enables you to quickly and easily change Microsoft [
   
 ## See Also  
  [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)   
- [Feature Dependency Matrix](../core/feature-dependency-matrix.md)

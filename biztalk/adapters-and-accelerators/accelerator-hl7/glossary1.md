@@ -1,5 +1,6 @@
 ---
-title: "Glossary1 | Microsoft Docs"
+title: "Glossary for HL7 accelerator in BizTalk Server | Microsoft Docs"
+description: Common terms and definitions to know and learn to use the BizTalk Accelerator for HL7
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "glossary"
-  - "technical reference, glossary"
 ms.assetid: ffb9c18a-5fe5-448f-b115-0973e9d12952
 caps.latest.revision: 3
 author: "MandiOhlinger"
@@ -19,6 +17,8 @@ manager: "anneta"
 ---
 # Glossary
 The Health Level Seven (HL7) specification uses the following terms.  
+
+## Terms and definitions
   
  **artifact**  
   
@@ -109,4 +109,10 @@ The Health Level Seven (HL7) specification uses the following terms.
   
  **schema**  
   
- 1. A diagrammatic presentation, a structured framework, or a plan. 2. A set of requirements that need to be met in order for a document or set of data to be a valid expression within the context of that grammar. An XML schema is a specification in Standard Generalized Markup Language (SGML) of the structure of a document or set of data.
+ 1. A diagrammatic presentation, a structured framework, or a plan. 
+ 2. A set of requirements that need to be met in order for a document or set of data to be a valid expression within the context of that grammar. An XML schema is a specification in Standard Generalized Markup Language (SGML) of the structure of a document or set of data.
+
+## Next steps
+[Parties - BTAHL7 Configuration Explorer](parties-tab.md)  
+[Global Settings - BTAHL7 Configuration Explorer](global-settings-tab.md)  
+[MLLP Transport Properties Dialog Box UI Help](mllp-transport-properties-dialog-box-ui-help.md)

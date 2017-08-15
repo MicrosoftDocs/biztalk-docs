@@ -2,15 +2,11 @@
 title: "Install BizTalk Server in a Multi-Computer Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "installing [BizTalk Server], multiple servers"
-  - "deploying [BizTalk Server], installing"
-  - "BizTalk Server, installing"
 ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
 caps.latest.revision: 27
 author: "MandiOhlinger"
@@ -26,6 +22,5 @@ The following document provides detailed guidelines and instructions for install
  [Post-installation Steps for BizTalk Server 2013 and 2013 R2](../install-and-config-guides/post-installation-steps-for-biztalk-server-2013-and-2013-r2.md)  
   
 ## See Also  
- [Install BizTalk Server 2013 and 2013 R2](../install-and-config-guides/install-biztalk-server-2013-and-2013-r2.md)   
- [Feature Dependency Matrix](../core/feature-dependency-matrix.md)   
+ [Install BizTalk Server 2013 and 2013 R2](../install-and-config-guides/install-biztalk-server-2013-and-2013-r2.md) 
  [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md)

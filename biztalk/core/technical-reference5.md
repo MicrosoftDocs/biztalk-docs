@@ -23,8 +23,6 @@ This section covers technical reference information about Microsoft [!INCLUDE[bt
   
 -   [Glossary](../core/glossary5.md)  
   
--   [Feature Dependency Matrix](../core/feature-dependency-matrix.md)  
-  
 -   [UI Reference](../core/ui-reference.md)  
   
 -   [Command-Line Reference](../core/command-line-reference.md)  

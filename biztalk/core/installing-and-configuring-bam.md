@@ -1,7 +1,8 @@
 ---
-title: "Installing and Configuring BAM | Microsoft Docs"
+title: "Install and configure BAM on BizTalk Server | Microsoft Docs"
+description: Install and configure Business Activity Monitoring in a single or  multi-computer environment on BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "06/14/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
@@ -14,14 +15,13 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Installing and Configuring BAM
-The following document describes how to install and configure Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
+
+# Install and configure BAM
+Business Activity Monitoring (BAM) is included with the BizTalk Server installation. You can install and configure BAM on a single server, or in a multi-computer environment, just like BizTalk Server: 
   
--   Multicomputer installation: [Installation Guides Related to BizTalk Server 2013](http://go.microsoft.com/fwlink/p/?LinkID=269582) and [Install and Configure BAM (Business Activity Monitoring) in a Multi-Computer Environment](http://go.microsoft.com/fwlink/p/?LinkID=208597)  
+-   Multicomputer installation: [Install and Configure BAM in a Multi-Computer Environment](http://go.microsoft.com/fwlink/p/?LinkID=208597)  
   
--   Single server installation: [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+-   Single server installation: [BizTalk Server install & upgrade guides](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
- [Feature Dependency Matrix](../core/feature-dependency-matrix.md)   
  [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md)
