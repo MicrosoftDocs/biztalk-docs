@@ -47,7 +47,8 @@ The Health Level Seven (HL7) specification uses the following terms.
  1. A stimulus that causes a noteworthy state change of an object. A signal that invokes the behavior of an object. See trigger event. 
  2. A vocabulary domain value for Mood.  
   
- **Hierarchical Message Description (HMD)**  
+ 
+**Hierarchical Message Description (HMD)**  
   
  A specification of the exact fields of a message and their grouping, sequence, optionality, and cardinality. Either contains message types for one or more interactions or represents one or more common message element types. This is the primary normative structure for HL7 messages.  
   
