@@ -1,5 +1,6 @@
 ---
-title: "Configure a port using the WCF-OracleEBS adapter | Microsoft Docs"
+title: "Configure a port using the WCF-OracleEBS adapter in BizTalk | Microsoft Docs"
+description: Use the WCF-OracleEBS adapter to receive or send messages from Oracle EBS in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -20,7 +21,7 @@ How to configure WCF-OracleEBS send and receive ports to perform outbound and in
 ## Prerequisites  
 Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx).
   
-## Deploy Adapters for Sending Messages to Oracle E-Business Suite  
+## Deploy adapters to send messages to Oracle EBS 
  Perform the following steps to configure a WCF-OracleEBS send port for sending messages to Oracle E-Business Suite using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.    
  
 1.  Open the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -41,7 +42,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     1.  Click the **General** tab, click the **Configure** button and provide values for the connection parameters. For more information about the connection URI, see [Configure the Connection URI for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-connection-uri-for-oracle-e-business-suite.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See individual topics in [Technical reference](../../adapters-and-accelerators/adapter-oracle-ebs/technical-reference-for-the-oracle-ebs-adapter.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on an interface table (FA_BOOKS) under the Asset application is:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and Message Schemas for Oracle EBS adapter](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on an interface table (FA_BOOKS) under the Asset application is:  
   
         ```  
         InterfaceTables/Insert/OFA/FA/FA_BOOKS  
@@ -79,7 +80,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 12. Click **OK**.  
   
-## Deploy Adapters for Receiving Messages from Oracle E-Business Suite  
+## Deploy adapters to receive messages from Oracle EBS  
  Perform the following steps to configure a WCF-OracleEBS receive port for receiving messages from Oracle E-Business Suite using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
 1.  Open the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  

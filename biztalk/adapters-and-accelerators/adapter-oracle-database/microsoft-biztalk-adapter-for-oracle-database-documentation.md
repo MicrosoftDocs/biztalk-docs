@@ -30,7 +30,7 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] documentation 
 ## Developing apps
 ![Adapter Development icon](../../adapters-and-accelerators/adapter-oracle-database/media/44af70c9-cab1-4201-9912-d115cbc7e16f.gif "44af70c9-cab1-4201-9912-d115cbc7e16f") [Develop your Oracle Database application](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md) shows you how to use the adapter with BizTalk Server, and [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)].
 
-## Messages and Message Schemas
+## Messages and message schemas
 ![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif) [Messages and Message Schemas for the Oracle Database adapter](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) lists the message structure and actions for functions, record types, poling operations, and more. 
 
 ## Troubleshooting

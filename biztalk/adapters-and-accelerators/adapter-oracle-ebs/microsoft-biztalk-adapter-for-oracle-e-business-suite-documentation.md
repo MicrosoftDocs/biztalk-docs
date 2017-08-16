@@ -1,5 +1,6 @@
 ---
 title: "Microsoft BizTalk Adapter for Oracle E-Business Suite documentation | Microsoft Docs"
+description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the Oracle EBS adapter in BizTalk Adapter Pack
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -31,9 +32,9 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
 
 Also includes some [Samples](../../adapters-and-accelerators/adapter-oracle-ebs/samples-for-the-oracle-ebs-adapter.md) on how to use the adapter.
 
+## Messages and message schemas
+![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif "EndtoEndtutorials") [Messages and Message Schemas for Oracle EBS adapter](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md) lists the message structure and actions for functions, record types, poling operations, and more.
+
+
 ## Troubleshooting
 ![Adapter Troubleshooting icon](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [Troubleshooting](../../adapters-and-accelerators/adapter-oracle-ebs/troubleshooting-the-oracle-ebs-adapter.md) shows you how to enable tracing, and provides info on troubleshooting issues with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] and with the adapter.
-
-## Reference
-![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif "EndtoEndtutorials") [Technical reference](../../adapters-and-accelerators/adapter-oracle-ebs/technical-reference-for-the-oracle-ebs-adapter.md) includes details on the message schemas, defines common terms, and provides syntax for the namespaces.
-

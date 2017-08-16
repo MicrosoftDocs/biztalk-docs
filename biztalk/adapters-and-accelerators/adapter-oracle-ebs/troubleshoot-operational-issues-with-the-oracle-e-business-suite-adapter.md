@@ -1,5 +1,6 @@
 ---
 title: "Troubleshoot Operational Issues with the Oracle E-Business Suite adapter | Microsoft Docs"
+description: Common issues and resolutions for Oracle EBS adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -79,7 +80,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-soap-action-for-oracle-e-business-suite.md). See [Technical reference](../../adapters-and-accelerators/adapter-oracle-ebs/technical-reference-for-the-oracle-ebs-adapter.md) to see a list of actions for each operation.  
+ Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-soap-action-for-oracle-e-business-suite.md). See [Messages and Message Schemas for Oracle EBS adapter](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md) to see a list of actions for each operation.  
   
 ###  <a name="BKMK_WrongClient"></a> BizTalk process might crash due to an incorrect Oracle client version when a request message is dropped at the receive location  
  **Problem**  
