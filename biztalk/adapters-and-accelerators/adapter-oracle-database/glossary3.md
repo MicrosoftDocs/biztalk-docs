@@ -1,5 +1,6 @@
 ---
-title: "Glossary3 | Microsoft Docs"
+title: "Glossary for BizTalk Adapter for Oracle Database | Microsoft Docs"
+description: Common terms and definitions used by the Oracle Database adapter in the BizTalk Adapter pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "glossary"
 ms.assetid: d386cd36-d8e4-4e5e-806e-0d02e042344f
 caps.latest.revision: 2
 author: "MandiOhlinger"
@@ -17,154 +16,176 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Glossary
-The following terms and definitions are used in [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] Help.  
+The following terms and definitions are used in [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].    
   
-## Microsoft BizTalk Adapter Pack Glossary  
- [A](#A) [B](#B) [C](#C) [D](#D) [E](#E) F [G](#G)[H](#H)[I](#I) J K [L](#L)[M](#M)[N](#N)[O](#O)[P](#P) Q [R](#R)[S](#S) T [U](#U) V [W](#W)[X](#X) Y Z  
+## A  
   
-####  <a name="A"></a> A  
+**adapter**  
+A WCF-based component that helps exchange messages between applications (for example, a line-of-business system) and BizTalk Server. The adapter consists of design-time components and run-time components for receive and send operations.
+
+**adapter client**  
+An application that interacts with a line-of-business (LOB) system through the adapter.  
   
-|||  
-|-|-|  
-|adapter|A WCF-based component that helps exchange messages between applications (for example, a line-of-business system) and BizTalk Server. The adapter consists of design-time components and run-time components for receive and send operations.|  
-|adapter client|An application that interacts with a line-of-business (LOB) system through the adapter.|  
+## B  
   
-####  <a name="B"></a> B  
+**BFILE**  
+An Oracle data type that enables access to binary file LOBs that are stored in file systems external to the Oracle database. A BFILE column stores a BFILE locator, which represents the directory name and file name that contains the data on the server file system.
+
+**binary large object**  
+1.  A large piece of data, such as a bitmap, characterized by large field values, an unpredictable table size, and data that is formless from the perspective of an application.
+2.  A keyword that designates the BLOB structure that contains information about a block of data.
+
+**binding**  
+A process by which software components and layers are linked together. When a network component is installed, the binding relationships and dependencies for the components are established. Binding allows components to communicate with each other. In BizTalk Server, an established mapping between an orchestration adapter-agnostic endpoint (port or role link) and physical adapter-specific endpoints (send/receive ports or party).
+
+**BizTalk Server**  
+Connects diverse software. BizTalk Server enables you to create and modify process logic that uses that software. BizTalk Server also enables information workers to monitor running processes, interact with trading partners, and perform other business-oriented tasks.
   
-|||  
-|-|-|  
-|BFILE|An Oracle data type that enables access to binary file LOBs that are stored in file systems external to the Oracle database. A BFILE column stores a BFILE locator, which represents the directory name and file name that contains the data on the server file system.|  
-|binary large object|1.  A large piece of data, such as a bitmap, characterized by large field values, an unpredictable table size, and data that is formless from the perspective of an application.<br />2.  A keyword that designates the BLOB structure that contains information about a block of data.|  
-|binding|A process by which software components and layers are linked together. When a network component is installed, the binding relationships and dependencies for the components are established. Binding allows components to communicate with each other. In BizTalk Server, an established mapping between an orchestration adapter-agnostic endpoint (port or role link) and physical adapter-specific endpoints (send/receive ports or party).|  
-|BizTalk Server|Connects diverse software. BizTalk Server enables you to create and modify process logic that uses that software. BizTalk Server also enables information workers to monitor running processes, interact with trading partners, and perform other business-oriented tasks.|  
+## C  
   
-####  <a name="C"></a> C  
+**channel**  
+A concrete implementation of a binding element. The binding represents the configuration, and the channel is the implementation associated with that configuration. Therefore, there is a channel associated with each binding element. Channels stack on top of each other to create the concrete implementation of the binding: the channel stack.
+
+**connection URI**  
+A string that identifies a resource in a distributed environment. Adapters use a connection Uniform Resource Identifier (URI) that contains the information necessary to establish a connection with the LOB system.
+
+**contract**  
+Specifies the collection and structure of messages required to access the operations offered by the service.  
   
-|||  
-|-|-|  
-|channel|A concrete implementation of a binding element. The binding represents the configuration, and the channel is the implementation associated with that configuration. Therefore, there is a channel associated with each binding element. Channels stack on top of each other to create the concrete implementation of the binding: the channel stack.|  
-|connection URI|A string that identifies a resource in a distributed environment. Adapters use a connection Uniform Resource Identifier (URI) that contains the information necessary to establish a connection with the LOB system.|  
-|contract|Specifies the collection and structure of messages required to access the operations offered by the service.|  
+## D  
   
-####  <a name="D"></a> D  
+**data manipulation language (DML)**  
+The subset of SQL statements that is used to retrieve and manipulate data. DML statements typically start with SELECT, INSERT, UPDATE, or DELETE.
+
+**design-time experience**  
+Procedures and operations that a developer performs during design time; for example, using the Consume Adapter Service BizTalk Project Add-in to retrieve message schemas.  
   
-|||  
-|-|-|  
-|data manipulation language (DML)|The subset of SQL statements that is used to retrieve and manipulate data. DML statements typically start with SELECT, INSERT, UPDATE, or DELETE.|  
-|design-time experience|Procedures and operations that a developer performs during design time; for example, using the Consume Adapter Service BizTalk Project Add-in to retrieve message schemas.|  
+## E  
   
-####  <a name="E"></a> E  
+**endpoint address**  
+A network address that identifies the location of a Windows Communication Foundation (WCF) service endpoint. For an adapter, the endpoint address is expressed as a connection Uniform Resource Identifier (URI) that contains location and connection parameters. The adapter can use these to establish a connection to the underlying line-of-business (LOB) system.
+
+**Enterprise Single Sign-on system (SSO)**  
+An SSO database, a master secret server, and one or more Enterprise Single Sign-On (SSO) servers. These servers do the mapping between the Windows and non-Windows credentials, look up the credentials in the SSO database, and are used for administering the SSO system. The SSO database is also used as a configuration store to hold custom configuration data for adapters.
+
+**Extensible Markup Language (XML)**  
+A markup language designed to describe data. XML tags are not predefined.  
   
-|||  
-|-|-|  
-|endpoint address|A network address that identifies the location of a Windows Communication Foundation (WCF) service endpoint. For an adapter, the endpoint address is expressed as a connection Uniform Resource Identifier (URI) that contains location and connection parameters. The adapter can use these to establish a connection to the underlying line-of-business (LOB) system.|  
-|Enterprise Single Sign-on system|An SSO database, a master secret server, and one or more Enterprise Single Sign-On (SSO) servers. These servers do the mapping between the Windows and non-Windows credentials, look up the credentials in the SSO database, and are used for administering the SSO system. The SSO database is also used as a configuration store to hold custom configuration data for adapters.|  
-|Extensible Markup Language|A markup language designed to describe data. XML tags are not predefined.|  
+## G  
   
-####  <a name="G"></a> G  
+**global assembly cache (GAC)**  
+A machine-wide code cache that stores assemblies specifically installed to be shared by many applications on the computer. Applications deployed in the global assembly cache must have a strong name.
   
-|||  
-|-|-|  
-|GAC|See global assembly cache.|  
-|global assembly cache (GAC)|A machine-wide code cache that stores assemblies specifically installed to be shared by many applications on the computer. Applications deployed in the global assembly cache must have a strong name.|  
+## H  
   
-####  <a name="H"></a> H  
+**Health and Activity Tracking (HAT)**  
+A user interface that enables specified data to be tracked. This interface can be used to monitor the health of the BizTalk Server farm and to track and view specific events and messages.  
   
-|||  
-|-|-|  
-|Health and Activity Tracking (HAT)|A user interface that enables specified data to be tracked. This interface can be used to monitor the health of the BizTalk Server farm and to track and view specific events and messages.|  
+## I  
   
-####  <a name="I"></a> I  
+**inbound operation**  
+An operation that is invoked by a line-of-business (LOB) system on the adapter.  
   
-|||  
-|-|-|  
-|inbound operation|An operation that is invoked by a line-of-business (LOB) system on the adapter.|  
+## L  
   
-####  <a name="L"></a> L  
+**local naming method**  
+The Oracle naming method that is supported by the Oracle Database adapter. In this naming method, the Oracle client resolves the net service name to an entry in the local tnsnames.ora file.  
   
-|||  
-|-|-|  
-|local naming method|The Oracle naming method that is supported by the Oracle Database adapter. In this naming method, the Oracle client resolves the net service name to an entry in the local tnsnames.ora file.|  
+## M  
   
-####  <a name="M"></a> M  
+**metadata**  
+In WCF, refers to a description of the contract exposed by a service. This is known as the service description and is expressed in a WSDL document. The metadata exposed by an adapter describes the (interface to) the operations that it can perform on the underlying LOB system.
+
+**[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]**  
+The specifications for building BizTalk adapters using open standards based on Web services.  
   
-|||  
-|-|-|  
-|metadata|In WCF, refers to a description of the contract exposed by a service. This is known as the service description and is expressed in a WSDL document. The metadata exposed by an adapter describes the (interface to) the operations that it can perform on the underlying LOB system.|  
-|[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]|The specifications for building BizTalk adapters using open standards based on Web services.|  
+## N  
   
-####  <a name="N"></a> N  
+**naming method**  
+Oracle naming methods determine how the Oracle client obtains connection information for an Oracle database service (instance). You can configure the Oracle client to use specific naming methods by using the Oracle Net Configuration Assistant. The Oracle Database adapter supports the Local Naming method.
+
+**net service name**  
+An alias used by the Oracle client to obtain connection information for the Oracle database. You supply a net service name as one of the connection properties in the connection URI.  
   
-|||  
-|-|-|  
-|naming method|Oracle naming methods determine how the Oracle client obtains connection information for an Oracle database service (instance). You can configure the Oracle client to use specific naming methods by using the Oracle Net Configuration Assistant. The Oracle Database adapter supports the Local Naming method.|  
-|net service name|An alias used by the Oracle client to obtain connection information for the Oracle database. You supply a net service name as one of the connection properties in the connection URI.|  
+## O  
   
-####  <a name="O"></a> O  
+**one-way**  
+A message exchange pattern (MEP) in which the sender sends a message, but no response is returned by the receiver. In BizTalk Server, MEPs are referred to as communication patterns.
+
+**outbound operation**  
+An operation that is invoked by the adapter on the line-of-business system (LOB).
+
+**output.cs**  
+The default output file created by the ServiceModel Metadata Utility tool (svcutil.exe).  
   
-|||  
-|-|-|  
-|one-way|A message exchange pattern (MEP) in which the sender sends a message, but no response is returned by the receiver. In BizTalk Server, MEPs are referred to as communication patterns.|  
-|outbound operation|An operation that is invoked by the adapter on the line-of-business system (LOB).|  
-|output.cs|The default output file created by the ServiceModel Metadata Utility tool (svcutil.exe).|  
+## P  
   
-####  <a name="P"></a> P  
+**polling**  
+A technique that device drivers use to find out from multiple devices whether they contain data to transmit. The devices are polled one at a time.
+
+**proxy**  
+In WCF, refers to a managed-code object that implements the service contract exposed by a service. The WCF service model is based on the use of such proxies. In the WCF service model, the service contract is expressed as a .NET interface.
   
-|||  
-|-|-|  
-|polling|A technique that device drivers use to find out from multiple devices whether they contain data to transmit. The devices are polled one at a time.|  
-|proxy|In WCF, refers to a managed-code object that implements the service contract exposed by a service. The WCF service model is based on the use of such proxies. In the WCF service model, the service contract is expressed as a .NET interface.|  
+## R  
   
-####  <a name="R"></a> R  
+**REF CURSOR**  
+An Oracle PL/SQL data type that represents a pointer to a result set in the Oracle database. A REF CURSOR type enables input and output streaming of data, and is ideal for transferring large amounts of data to and from a PL/SQL code block.
+
+**request-response**  
+A message exchange pattern (MEP) in which the sender sends a request message and expects a response message from the receiver. In BizTalk Server, MEPs are referred to as communication patterns. Depending on the messaging technology and the direction of the request message (inbound or outbound), this pattern is also called request-reply or solicit-response.
+
+**run-time experience**  
+Procedures and operations performed by a developer during run time or when deploying a solution; for example, creating a physical port binding from the BizTalk Server Administration console.  
   
-|||  
-|-|-|  
-|REF CURSOR|An Oracle PL/SQL data type that represents a pointer to a result set in the Oracle database. A REF CURSOR type enables input and output streaming of data, and is ideal for transferring large amounts of data to and from a PL/SQL code block.|  
-|request-response|A message exchange pattern (MEP) in which the sender sends a request message and expects a response message from the receiver. In BizTalk Server, MEPs are referred to as communication patterns. Depending on the messaging technology and the direction of the request message (inbound or outbound), this pattern is also called request-reply or solicit-response.|  
-|run-time experience|Procedures and operations performed by a developer during run time or when deploying a solution; for example, creating a physical port binding from the BizTalk Server Administration console.|  
+## S  
   
-####  <a name="S"></a> S  
+**schema**  
+The structure for a message. A schema can contain multiple subschema.
+
+**ServiceModel Metadata Utility Tool (svcutil.exe)**  
+A command-line utility that is included with WCF. It is used to create service model proxy code from the service description (metadata) that is exposed by a WCF service such as an adapter. For outbound operations, the tool creates a WCF client class and helper code; for inbound operations, the tool creates a WCF service contract and helper code.
+
+**SOAP (Simple Object Access Protocol)**  
+A simple, XML-based protocol for exchanging structured and type information in decentralized, distributed environments. WCF is based on the exchange of SOAP messages between clients and services to invoke operations and return results.
+
+**SOAP message**  
+A well-formed XML document. It should use the SOAP envelope and SOAP encoding namespaces and include an optional XML declaration, followed by a SOAP envelope (the root element), which is made up of an optional SOAP header and a SOAP message body.
+
+**SQL Server Integration Services (SSIS)**  
+A component that is used to import, export, and transform data from different data sources. Previously called data transformation service (DTS).
+
+**strongly-typed data**  
+A data set or result set that is bound to an underlying object type. Each row in a strongly-typed XML data set is composed of typed, named elements that correspond to fields of the underlying object type.  
+ 
+## W  
+**WCF channel model**  
+A programming model that relies on several interfaces and other types. Channels provide a low-level programming model for sending and receiving messages.
+
+**WCF client**  
+A client-application construct that exposes the service operations as methods. You can use the Add Adapter Service Reference Visual Studio Plug-in or the ServiceModel Metadata Utility Tool to generate a WCF client class from the metadata exposed by an adapter.
+
+**WCF service contract**  
+A managed-code representation of the service contract. It is expressed as an interface in which classes and methods are attributed to define the service, operation, message, and data contracts used to communicate with a service. You can use the ServiceModel Metadata Utility tool or the Add Adapter Service Reference Visual Studio Plug-in to generate a WCF service contract from the metadata exposed by an adapter. You implement the WCF service contract to receive operations from an LOB system.
+
+**WCF service model**  
+A WCF programming model in which a service is represented as a managed code object. The operations exposed by the service are represented as methods with strongly-typed data.
+
+**weakly-typed data**  
+A data set or result set that is not bound to an underlying object type. Each row in a weakly-typed XML data set is composed of a collection of generic columns in which attributes describe the name and type of each element.
+
+**Web services**  
+A unit of application logic providing data and services to other applications. Applications access XML Web services using standard Web protocols and data formats such as HTTP, XML, and SOAP, independent of how each XML Web service is implemented. XML Web services combine the best aspects of component-based development and the Web, and are a cornerstone of the Microsoft .NET programming model.
+
+**Web Services Description Language (WSDL)**  
+An XML-based language that describes a service as a set of endpoints that operate on messages. The WSDL document describes the service contract, operation contracts, message contracts, and data contracts that a client must use to interface with the service.
+
+**Windows Communication Foundation (WCF)**  
+A Microsoft service-oriented communication infrastructure. The framework inherently provides clients with a service programming model and a channel programming model for finer control of message exchanges.
+
+**WS-Metadata Exchange (MEX) endpoint**  
+An endpoint exposed by a WCF service, such as an adapter, that implements the **IMetadataExchange** interface. A WS-Metadata Exchange endpoint can be used to retrieve a service description (WSDL) for operations exposed by an adapter on the target system.
   
-|||  
-|-|-|  
-|schema|The structure for a message. A schema can contain multiple subschema.|  
-|ServiceModel Metadata Utility Tool (svcutil.exe)|A command-line utility that is included with WCF. It is used to create service model proxy code from the service description (metadata) that is exposed by a WCF service such as an adapter. For outbound operations, the tool creates a WCF client class and helper code; for inbound operations, the tool creates a WCF service contract and helper code.|  
-|Simple Object Access Protocol|See SOAP.|  
-|SOAP|A simple, XML-based protocol for exchanging structured and type information in decentralized, distributed environments. WCF is based on the exchange of SOAP messages between clients and services to invoke operations and return results.|  
-|SOAP message|A well-formed XML document. It should use the SOAP envelope and SOAP encoding namespaces and include an optional XML declaration, followed by a SOAP envelope (the root element), which is made up of an optional SOAP header and a SOAP message body.|  
-|SQL Server Integration Services|A component that is used to import, export, and transform data from different data sources. Previously called data transformation service (DTS).|  
-|SSIS|See SQL Server Integration Services.|  
-|SSO|See Enterprise Single Sign-on system.|  
-|strongly-typed data|A data set or result set that is bound to an underlying object type. Each row in a strongly-typed XML data set is composed of typed, named elements that correspond to fields of the underlying object type.|  
-|svcutil.exe|See ServiceModel Metadata Utility Tool.|  
+## X  
   
-####  <a name="U"></a> U  
-  
-|||  
-|-|-|  
-|Uniform Resource Identifier (URI)|See connection URI|  
-  
-####  <a name="W"></a> W  
-  
-|||  
-|-|-|  
-|WCF|See Windows Communication Foundation|  
-|WCF channel model|A programming model that relies on several interfaces and other types. Channels provide a low-level programming model for sending and receiving messages.|  
-|WCF client|A client-application construct that exposes the service operations as methods. You can use the Add Adapter Service Reference Visual Studio Plug-in or the ServiceModel Metadata Utility Tool to generate a WCF client class from the metadata exposed by an adapter.|  
-|[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]|See [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]|  
-|WCF service contract|A managed-code representation of the service contract. It is expressed as an interface in which classes and methods are attributed to define the service, operation, message, and data contracts used to communicate with a service. You can use the ServiceModel Metadata Utility tool or the Add Adapter Service Reference Visual Studio Plug-in to generate a WCF service contract from the metadata exposed by an adapter. You implement the WCF service contract to receive operations from an LOB system.|  
-|WCF service model|A WCF programming model in which a service is represented as a managed code object. The operations exposed by the service are represented as methods with strongly-typed data.|  
-|weakly-typed data|A data set or result set that is not bound to an underlying object type. Each row in a weakly-typed XML data set is composed of a collection of generic columns in which attributes describe the name and type of each element.|  
-|Web services|A unit of application logic providing data and services to other applications. Applications access XML Web services using standard Web protocols and data formats such as HTTP, XML, and SOAP, independent of how each XML Web service is implemented. XML Web services combine the best aspects of component-based development and the Web, and are a cornerstone of the Microsoft .NET programming model.|  
-|Web Services Description Language (WSDL)|An XML-based language that describes a service as a set of endpoints that operate on messages. The WSDL document describes the service contract, operation contracts, message contracts, and data contracts that a client must use to interface with the service.|  
-|Windows Communication Foundation (WCF)|A Microsoft service-oriented communication infrastructure. The framework inherently provides clients with a service programming model and a channel programming model for finer control of message exchanges.|  
-|WSDL|See Web Services Description Language.|  
-|WS-Metadata Exchange (MEX) endpoint|An endpoint exposed by a WCF service, such as an adapter, that implements the **IMetadataExchange** interface. A WS-Metadata Exchange endpoint can be used to retrieve a service description (WSDL) for operations exposed by an adapter on the target system.|  
-  
-####  <a name="X"></a> X  
-  
-|||  
-|-|-|  
-|XML|See Extensible Markup Language.|  
-|XML Schema definition language (XSD)|A schema language. An XML Schema defines the elements, attributes, and data types that comply with the World Wide Web Consortium (W3C) XML Schema Part 1: Structures Recommendation for the XML Schema Definition Language. The W3C XML Schema Part 2: Datatypes Recommendation is the recommendation for defining data types that are used in XML schemas. The XML Schema definition language enables you to define the structure and data types for XML messages.|  
-|XSD|See XML Schema definition language.|
+**XML Schema definition language (XSD)**  
+A schema language. An XML Schema defines the elements, attributes, and data types that comply with the World Wide Web Consortium (W3C) XML Schema Part 1: Structures Recommendation for the XML Schema Definition Language. The W3C XML Schema Part 2: Datatypes Recommendation is the recommendation for defining data types that are used in XML schemas. The XML Schema definition language enables you to define the structure and data types for XML messages.

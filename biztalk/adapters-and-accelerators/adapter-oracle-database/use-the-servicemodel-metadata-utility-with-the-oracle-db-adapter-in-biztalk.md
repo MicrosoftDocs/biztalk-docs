@@ -1,5 +1,6 @@
 ---
-title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Oracle Database | Microsoft Docs"
+title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Oracle Database in BizTalk Server | Microsoft Docs"
+description: Use svcutil.exe for a non-default binding, or to create a WCF Client Class or WCF Service Contract
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "svcutil.exe, configuring"
-  - "svcutil.exe, creating a WCF client class or WCF service contract"
 ms.assetid: f8660014-da04-4692-89e8-f14fcb419496
 caps.latest.revision: 3
 author: "MandiOhlinger"
@@ -27,7 +25,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 ##  <a name="BKMK_ConfigureSvcutil"></a> Configuring svcutil.exe for the Oracle Database Adapter  
  To configure svcutil.exe to use a non-default binding, you must create a local copy of svcutil.exe and then create or modify a local copy of the svcutil.exe.config configuration file.  
   
-#### To configure svcutil.exe for a non-default binding  
+### Configure svcutil.exe for a non-default binding  
   
 1.  Create a folder, and copy svcutil.exe into the new folder. You can typically find svcutil.exe at the Windows SDK installation location, specifically, C:\Program Files\Microsoft SDKs\Windows\v6.0\Bin.  
   
@@ -65,7 +63,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
  For more information about configuring a non-default binding for svcutil.exe, see the "Custom Secure Metadata Endpoint" topic in the WCF documentation at [http://go.microsoft.com/fwlink/?LinkId=96077](http://go.microsoft.com/fwlink/?LinkId=96077).  
   
-### Configuring a Non-Default Binding for the POLLINGSTMT Operation  
+### Configure a Non-Default Binding for the POLLINGSTMT Operation  
  To use svcutil.exe to create a WCF service contract for the POLLINGSTMT operation, you must configure the non-default binding to include the **pollingStatement** property, in addition to **acceptCredentialsInUri**. The **pollingStatement** must contain the SELECT statement that targets the table. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses this property to generate the class that represents the strongly-typed result set that the POLLINGSTMT operation returns. The following example shows a binding configuration that is used to generate a WCF service contract for a POLLINGSTMT operation that targets the /SCOTT/EMP table.  
   
 ```  
@@ -77,7 +75,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 </bindings>  
 ```  
   
-## Creating a WCF Client Class or WCF Service Contract with svcutil.exe  
+## Create a WCF Client Class or WCF Service Contract with svcutil.exe  
  To use svcutil.exe to generate WCF client code or a WCF service contract (interface) for the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], you must supply a connection URI that specifies an WS-Metadata Exchange (MEX) endpoint and the operation or operations for which you want svcutil.exe to generate code. You must also specify connection credentials for the Oracle database in the connection URI.  
   
 > [!NOTE]

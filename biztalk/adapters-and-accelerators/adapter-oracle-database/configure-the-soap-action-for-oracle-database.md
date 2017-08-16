@@ -1,5 +1,6 @@
 ---
 title: "Configure the SOAP action for Oracle Database | Microsoft Docs"
+description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-OracleDB adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP action, specifying at design time"
-  - "SOAP action, specifying at run time"
 ms.assetid: d0d21cca-3907-4f99-af76-c1e7286e1bcf
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -18,11 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure the SOAP action for Oracle Database
-To perform any operation on the Oracle database using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], adapter users must specify a SOAP action. The SOAP action communicates to the adapter what action should be performed. You can specify the SOAP action either at design time or at run time. However, if you specify the SOAP action both at design time and run time, the action you specified at design time will be overridden.  
+To complete any operation on the Oracle database using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], adapter users must enter a SOAP action. The SOAP action communicates to the adapter what action should be completed. You can enter the SOAP action either at design time or at run time. However, if you enter the SOAP action both at design time and run time, the action you enter at design time is overridden.  
   
  For more information about specifying SOAP action, see [Specifying SOAP Actions for WCF Send Adapters](../../core/specifying-soap-actions-for-wcf-send-adapters.md).  
   
-## Specifying SOAP Action from Visual Studio  
+## Enter SOAP Action from Visual Studio  
  From Visual Studio, you must specify the SOAP action as part of the orchestration by using an **Expression** shape.  
   
 1.  In the BizTalk orchestration, include an **Expression** shape by dragging it from the **BizTalk Orchestration** toolbox.  
@@ -31,14 +29,17 @@ To perform any operation on the Oracle database using the WCF-based [!INCLUDE[ad
   
 3.  Specify the action in the BizTalk Expression Editor. For example:  
   
-    ```  
+    ```
     OutboundMessage(WCF.Action)="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert"  
     ```  
   
      For more information about **Expression** shape and the BizTalk Expression Editor, see [How to Create Expressions](../../core/how-to-create-expressions.md).  
   
-## Specifying SOAP Action from the BizTalk Server Administration Console  
- From the BizTalk Server Administration console, you must specify the SOAP action as part of the WCF-Custom or WCF-OracleDB port configuration.  
+## Enter SOAP Action from BizTalk Server Administration  
+ From the BizTalk Server Administration console, you must specify the SOAP action as part of the WCF-Custom or WCF-OracleDB port configuration. 
+
+#### Enter a SOAP action for the WCF-Custom port  
+ 
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -67,9 +68,9 @@ To perform any operation on the Oracle database using the WCF-based [!INCLUDE[ad
   
          This approach provides greater flexibility in terms of specifying a set of actions and hence enabling messages belonging to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about action format for each operation, see the [Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about action format for each operation, see [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md).  
   
-#### To specify a SOAP action for the WCF-OracleDB port  
+#### Enter a SOAP action for the WCF-OracleDB port  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -100,7 +101,7 @@ To perform any operation on the Oracle database using the WCF-based [!INCLUDE[ad
   
          This approach provides greater flexibility in terms of specifying a set of actions and hence enabling messages belonging to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about action format for each operation, see individual topics under [Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about action format for each operation, see [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md).
   
 ## See Also  
 [Building Blocks to develop BizTalk Applications with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)

@@ -1,5 +1,6 @@
 ---
 title: "Messages and Message Schemas for BizTalk Adapter for Oracle Database | Microsoft Docs"
+description: XML structure of messages and data types used by the Oracle Database adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "message and message schemas"
 ms.assetid: fee0a531-b1e6-4b99-bb79-45368c401395
 caps.latest.revision: 6
 author: "MandiOhlinger"
@@ -17,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for Oracle Database
+
+## Overview
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. It exposes operations that applications can invoke on it and that it can, in turn, invoke on applications. These operations are invoked by sending SOAP messages over a channel. If a response is required, it is returned in a SOAP message over the same channel.  
   
  As a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] service, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes metadata for its operations and data types by using standard [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] mechanisms. The sections in this topic describe the XML structure of the messages and data types that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses.  
@@ -43,5 +44,3 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a [!INCLUDE
   
 -   [Message Schemas for the Notification Operation](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-notification-operation1.md)  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md)

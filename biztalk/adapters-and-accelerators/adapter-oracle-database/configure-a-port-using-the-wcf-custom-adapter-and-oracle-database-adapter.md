@@ -1,5 +1,6 @@
 ---
 title: "Configure a port using the WCF-custom adapter and Oracle Database adapter | Microsoft Docs"
+description: Create WCF-custom send and receive ports to use the Oracle DB adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,12 +16,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure a port using the WCF-custom adapter and Oracle Database adapter
-This topic provides instructions on how to configure WCF-Custom send and receive ports to perform outbound and inbound operations on the Oracle database using the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  
+How to configure WCF-Custom send and receive ports to perform outbound and inbound operations on the Oracle database using the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  
   
 ## Prerequisites  
-Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx). 
+Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. See [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx) for permissions guidance.
   
-### To deploy adapters for sending messages to an Oracle database  
+## Deploy adapters for sending messages to an Oracle database  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -38,7 +39,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     1.  Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the Oracle database. For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See individual topics in [Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md) for a list of actions for each operation. For example, the action to invoke the Insert operation an EMPLOYEE table under the HR schema in an Oracle database is:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) for a list of actions for each operation. For example, the action to invoke the Insert operation an EMPLOYEE table under the HR schema in an Oracle database is:  
   
         ```  
         http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEE/Select  
@@ -72,7 +73,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 11. Click **OK**.  
   
-### To deploy adapters for receiving messages from an Oracle database  
+## Deploy adapters for receiving messages from an Oracle database  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
