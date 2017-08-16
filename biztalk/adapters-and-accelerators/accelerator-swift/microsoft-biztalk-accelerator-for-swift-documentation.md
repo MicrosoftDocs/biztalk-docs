@@ -45,6 +45,3 @@ Use this section to also set up a network configuration, and deploy your servers
 
 ## Troubleshoot  
 [Troubleshooting](../../adapters-and-accelerators/accelerator-swift/troubleshooting-and-known-issues.md) lists some guidance on the different parts to this accelerator, and also lists some known issues.
-
-## Reference  
-[Technical reference](../../adapters-and-accelerators/accelerator-swift/technical-reference13.md) lists the error codes, promoted properties, and provides reference to the namespaces and classes.
