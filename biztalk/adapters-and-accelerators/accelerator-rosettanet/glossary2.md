@@ -91,7 +91,7 @@ manager: "anneta"
  **document type definition (DTD)**  
  A standard definition that specifies which elements and attributes might be present in other elements and attributes and that specifies any constraints on their ordering, frequency, and content.  
   
- **double action transaction ** 
+ **double action transaction**   
  A process where an initiator sends a request action, receives a signal, followed by a response action from the responder. The initiator finishes the process by sending a signal to the response action.  
   
 ## E  
@@ -106,7 +106,7 @@ manager: "anneta"
  A unique identifier to identify trading parties. RosettaNet uses the nine-digit Dun and Bradstreet Numbering System (DUNS) as the GBI.  
   
 ## H  
- **home organization ** 
+ **home organization**   
  An alias to identify your organization.  
   
 ## I  
@@ -137,7 +137,7 @@ manager: "anneta"
  **notification**  
  An RNIF 1.1 process type where the initiator notifies the responder with a single message. The responder is expected to reply with a business signal as an acknowledgement.  
   
- **Notification of Failure (PIP 0A1)  **
+ **Notification of Failure (PIP 0A1)**  
  A special PIP that indicates unexpected process failures. The initiator or the responder can initiate a Notification of Failure. It refers to an existing or previously exchanged process. Upon receipt of a 0A1, the receiving party makes sure that the referenced process is considered not valid.  
   
 ## O  
@@ -157,16 +157,16 @@ manager: "anneta"
  **preamble header**  
  An XML node that identifies the name and version of the standard with which a business message is compliant. It is packaged together with other headers to form a complete RosettaNet Message. Also named preamble.  
   
- **private process ** 
+ **private process**   
  Business processes that are internal to an organization. BTARN implements private processes as long-running BizTalk orchestrations.  
   
- **Process Configuration Setting (PCS) profile  **
+ **Process Configuration Setting (PCS) profile**  
  Determines how a partner agreement runs. You use the PCS profile to enter the configuration details of a RosettaNet Partner Interface Process (PIP). All configuration values specified in a RosettaNet PIP specification map to one element in the PCS profile. You can use one PCS profile for multiple partner agreements.  
   
  **port**  
  A named location that uses a specific implementation. In BizTalk Orchestration Designer, a port is defined by the location to which messages are sent or from which messages are received, and the technology that is used to implement the communication action. The location is uniquely identified by the name of the port.  
   
- **public process ** 
+ **public process**   
  Business processes that involve integration with trading partners as public processes. BTARN implements public processes as long-running BizTalk orchestrations. One public-process orchestration runs on the initiator side and one on the responder side. The BTARN Setup program provides versions of the initiator and responder public-process orchestrations for both RNIF 1.1 and RNIF 2.01. These public-process orchestrations implement all RNIF processes. Public processes hide the complexity of RNIF from the rest of the components. Besides enforcing the RNIF-compliant message flow, the public process also determines default-tracking settings and provides process state information at runtime.  
   
 ## R  
