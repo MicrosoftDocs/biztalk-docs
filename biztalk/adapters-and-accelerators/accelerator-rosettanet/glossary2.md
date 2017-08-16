@@ -79,7 +79,7 @@ manager: "anneta"
  **destination organization**  
  An organization that has been designated in a messaging port as the destination for documents.  
   
- **digital algorithms ** 
+ **digital algorithms**  
  An algorithm that takes a message as input and produces a hash or digest of it, a fixed-length set of bits that depend on the message contents in some highly complex manner. Design criteria include making it extremely difficult for anyone to counterfeit a digest or to change a message without changing its digest. Applications that typically use digest algorithms are in message authentication and digital signature schemes. Widely used algorithms include MD5 and SHA1. BTARN supports both MD5 and SHA1 for incoming messages, and only SHA1 for outgoing messages.  
   
  **document definition**  
