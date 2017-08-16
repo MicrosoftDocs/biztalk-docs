@@ -1,14 +1,14 @@
 ---
-title: "Software Development Kit | Microsoft Docs"
+title: "Software Development Kit for the RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+description: Utilities and samples list in the BTARN SDK for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
+ms.service: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SDK"
 ms.assetid: 36a1b283-26e1-407e-afc4-8879ef0d1672
 caps.latest.revision: 4
 author: "MandiOhlinger"
@@ -63,6 +63,5 @@ manager: "anneta"
 ## See Also  
  [What BizTalk Accelerator for RosettaNet Adds to BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)   
  [Programming Guide](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)   
- [Technical Reference](../../adapters-and-accelerators/accelerator-rosettanet/technical-reference3.md)   
  [Utilities](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)   
  [Samples](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)
