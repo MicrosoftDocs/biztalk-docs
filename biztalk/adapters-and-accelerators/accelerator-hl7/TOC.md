@@ -239,4 +239,4 @@
 #### [MSH Map tab](msh-map-tab.md)
 #### [Help Desk tab](help-desk-tab.md)
 ### [Global Settings - BTAHL7 Configuration Explorer](global-settings-tab.md)
-### [MLLP Transport Properties Dialog Box UI Help](mllp-transport-properties-dialog-box-ui-help.md)
+### [MLLP Transport Properties UI help](mllp-transport-properties-dialog-box-ui-help.md)
