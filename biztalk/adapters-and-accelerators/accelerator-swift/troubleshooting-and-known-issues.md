@@ -26,7 +26,7 @@ This section provides a centralized location for information related to troubles
  This section contains:  
 
 - [SWIFT Error Codes](swift-error-codes.md)
--   
+
 -   [Troubleshooting Issues and Resolutions](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)  
   
 -   [Known Issues](../../adapters-and-accelerators/accelerator-swift/known-issues5.md)
