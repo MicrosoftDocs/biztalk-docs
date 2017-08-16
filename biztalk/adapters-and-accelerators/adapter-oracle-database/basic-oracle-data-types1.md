@@ -85,5 +85,3 @@ This topic describes how the [!INCLUDE[adapteroracle](../../includes/adapterorac
   
 -   By ODP.NET for some data types.  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md)

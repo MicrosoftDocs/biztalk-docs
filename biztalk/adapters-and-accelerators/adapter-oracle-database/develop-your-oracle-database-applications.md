@@ -1,5 +1,6 @@
 ---
-title: "Develop your Oracle Database applications | Microsoft Docs"
+title: "Develop your Oracle Database applications in BizTalk Server | Microsoft Docs"
+description: Create Oracle DB applications using WCF, or in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "how to, use adapters"
-  - "working with adapters"
-  - "adapters, working with"
-  - "operations, performing"
 ms.assetid: d4a685b2-ac17-4949-bc77-001f56450847
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -29,7 +25,8 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a [!INCLUDE
 -   As a hosted [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] service.  
   
 -   By sending SOAP messages over a channel instance in code that uses the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel model.  
-  
+
+## BizTalk vs WCF service vs WCF channel  
  The following table:  
   
 -   Lists the different operations that can be performed on an Oracle database using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
@@ -83,3 +80,5 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a [!INCLUDE
 -   [Adapter Samples](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)  
   
 -   [Configure transaction isolation level and transaction timeout with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md)
+
+- [Use svcutil.exe](use-the-servicemodel-metadata-utility-with-the-oracle-db-adapter-in-biztalk.md)

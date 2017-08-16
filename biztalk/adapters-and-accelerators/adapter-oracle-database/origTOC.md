@@ -1,5 +1,4 @@
 # [Messages and Message Schemas for BizTalk Adapter for Oracle Database](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)
-# [Microsoft BizTalk Adapter for Oracle Database Developer Reference](microsoft-biztalk-adapter-for-oracle-database-developer-reference.md)
 # [Message Schemas for the Notification Operation](message-schemas-for-the-notification-operation1.md)
 # [Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Oracle Database](use-the-servicemodel-metadata-utility-with-the-oracle-db-adapter-in-biztalk.md)
 # [Reuse Oracle Database Adapter bindings](reuse-oracle-database-adapter-bindings.md)
@@ -35,7 +34,6 @@
 # [Configure dynamic ports in the Oracle Database Adapter](configure-dynamic-ports-in-the-oracle-database-adapter.md)
 # [Run Composite Operations on Oracle Database using BizTalk Server](run-composite-operations-on-oracle-database-using-biztalk-server.md)
 # [Use performance counters with the Oracle Database adapter](use-performance-counters-with-the-oracle-database-adapter.md)
-# [Technical reference for the Oracle Database adapter](technical-reference-for-the-oracle-database-adapter.md)
 # [Run Composite Operations in Oracle Database](run-composite-operations-in-oracle-database.md)
 # [Message Schemas for the Polling Operations](message-schemas-for-the-polling-operations2.md)
 # [Message Schemas for REF CURSORS](message-schemas-for-ref-cursors.md)

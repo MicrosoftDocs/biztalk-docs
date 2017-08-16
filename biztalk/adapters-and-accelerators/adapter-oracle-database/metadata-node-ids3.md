@@ -1,5 +1,6 @@
 ---
-title: "Metadata Node IDs3 | Microsoft Docs"
+title: "Metadata Node IDs for the Oracle DB adapter in BizTalk Server | Microsoft Docs"
+description: 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,10 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "node ID"
-  - "node IDs, metadata retrieval"
-  - "node IDs, metadata search"
 ms.assetid: 523c7611-b21f-4598-ac77-ba71075db073
 caps.latest.revision: 3
 author: "MandiOhlinger"
@@ -19,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Metadata Node IDs
+
+## Node types and IDs 
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces Oracle database artifacts in a hierarchical manner. The following table lists the node types and node IDs for Oracle database artifacts that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces. The node ID is the absolute path of the node that is used in the **IMetadataRetrievalContractBrowse**, **Search**, and **GetMetadata** methods.  
   
 |Artifact Display Name|Node Type|Node ID|Example|Description|  
@@ -123,4 +122,4 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] su
  For detailed information about the format of the metadata that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes for specific artifacts and operations on the Oracle database, see [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md).  
   
 ## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md)
+[Get metadata for Oracle DB operations in Visual Studio](get-metadata-for-oracle-database-operations-in-visual-studio.md)

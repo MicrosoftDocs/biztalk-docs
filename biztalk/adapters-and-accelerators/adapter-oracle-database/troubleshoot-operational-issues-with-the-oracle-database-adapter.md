@@ -1,5 +1,6 @@
 ---
 title: "Troubleshoot operational issues with the Oracle Database adapter | Microsoft Docs"
+description: Common issues and resolutions for Oracle Database adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "operational issues, troubleshooting"
-  - "troubleshooting, operational issues"
 ms.assetid: 2fb83245-2b6a-48cc-8601-b923bb009a58
 caps.latest.revision: 25
 author: "MandiOhlinger"
@@ -136,7 +134,7 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
   
  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md). See [Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md) to see a list of actions for each operation.  
+ Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md). See [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) to see a list of actions for each operation.  
   
 ###  <a name="BKMK_OraDBXmlParsing"></a> XmlReaderParsingException due to an incorrect operation name in the specified action  
  **Problem**  

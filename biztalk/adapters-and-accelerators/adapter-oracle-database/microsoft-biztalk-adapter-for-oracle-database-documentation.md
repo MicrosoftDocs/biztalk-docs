@@ -1,7 +1,8 @@
 ---
 title: "Microsoft BizTalk Adapter for Oracle Database documentation | Microsoft Docs"
+description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the Oracle Database adapter in BizTalk Adapter Pack
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
@@ -14,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Microsoft BizTalk Adapter for Oracle Database documentation
+# Microsoft BizTalk Adapter for Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] documentation includes a variety of resources that can help you learn to develop, administer, and use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
   
 ## Get started
@@ -29,8 +30,9 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] documentation 
 ## Developing apps
 ![Adapter Development icon](../../adapters-and-accelerators/adapter-oracle-database/media/44af70c9-cab1-4201-9912-d115cbc7e16f.gif "44af70c9-cab1-4201-9912-d115cbc7e16f") [Develop your Oracle Database application](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md) shows you how to use the adapter with BizTalk Server, and [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)].
 
+## Messages and Message Schemas
+![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif) [Messages and Message Schemas for the Oracle Database adapter](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) lists the message structure and actions for functions, record types, poling operations, and more. 
+
 ## Troubleshooting
-![Adapter Troubleshooting icon](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [Troubleshooting the Oracle EBS adapter](../../adapters-and-accelerators/adapter-oracle-ebs/troubleshooting-the-oracle-ebs-adapter.md) includes information on enabling tracing, troubleshooting issues with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)], and with the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].
-  
-## Reference       
-![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif) [Technical reference](../../adapters-and-accelerators/adapter-oracle-database/technical-reference-for-the-oracle-database-adapter.md) describes the different messages schemas, node IDs, and more.
+![Adapter Troubleshooting icon](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [Troubleshooting the Oracle DB adapter](troubleshoot-the-oracle-database-adapter.md) includes information on enabling tracing, troubleshooting issues with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)], and with the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].
+ 
