@@ -114,22 +114,27 @@
 ### [Configure transaction properties and application context](configure-transaction-properties-and-application-context-in-oracle-ebs-adapter.md)
 #### [Configure transaction isolation level and transaction timeout](configure-transaction-isolation-level-and-transaction-timeout-with-oracle-ebs.md)
 #### [Configure the application context using message context properties](configure-application-context-using-message-context-properties-in-oracle-ebs.md)
+## [Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md)
+### [Basic Oracle Data Types](basic-oracle-data-types2.md)
+### [Message Schemas for Insert, Update, Delete, and Select Operations](message-schemas-for-insert-update-delete-and-select-operations.md)
+### [Message Schemas for Stored Procedures, Functions, and PL/SQL APIs](message-schemas-for-stored-procedures-functions-and-pl-sql-apis.md)
+### [Message Schemas for Concurrent Programs](message-schemas-for-concurrent-programs.md)
+### [Message Schemas for Request Sets](message-schemas-for-request-sets.md)
+### [Message Schemas for Special LOB Operations](message-schemas-for-special-lob-operations1.md)
+### [Message Schemas for the Polling Operations](message-schemas-for-the-polling-operations1.md)
+### [Message Schemas for the Notification Operation](message-schemas-for-the-notification-operation2.md)
+### [Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations](executenonquery-executereader-and-executescalar-message-schemas.md)
+### [Message Schemas for the Composite Operation](message-schemas-for-the-composite-operation1.md)
 ## [Troubleshooting](troubleshooting-the-oracle-ebs-adapter.md)
 ### [Diagnostic Tracing and Message Logging](diagnostic-tracing-and-message-logging-in-the-oracle-e-business-suite-adapter.md)
 ### [Troubleshoot Installation Issues](troubleshoot-installation-issues-with-the-oracle-e-business-suite-adapter.md)
 ### [Troubleshoot Operational Issues](troubleshoot-operational-issues-with-the-oracle-e-business-suite-adapter.md)
 ### [Use Performance Counters](use-performance-counters-with-the-oracle-e-business-suite-adapter.md)
-## [Technical reference](technical-reference-for-the-oracle-ebs-adapter.md)
-### [Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md)
-#### [Basic Oracle Data Types](basic-oracle-data-types2.md)
-#### [Message Schemas for Insert, Update, Delete, and Select Operations](message-schemas-for-insert-update-delete-and-select-operations.md)
-#### [Message Schemas for Stored Procedures, Functions, and PL/SQL APIs](message-schemas-for-stored-procedures-functions-and-pl-sql-apis.md)
-#### [Message Schemas for Concurrent Programs](message-schemas-for-concurrent-programs.md)
-#### [Message Schemas for Request Sets](message-schemas-for-request-sets.md)
-#### [Message Schemas for Special LOB Operations](message-schemas-for-special-lob-operations1.md)
-#### [Message Schemas for the Polling Operations](message-schemas-for-the-polling-operations1.md)
-#### [Message Schemas for the Notification Operation](message-schemas-for-the-notification-operation2.md)
-#### [Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations](executenonquery-executereader-and-executescalar-message-schemas.md)
-#### [Message Schemas for the Composite Operation](message-schemas-for-the-composite-operation1.md)
-### [Glossary](glossary12.md)
-### [Microsoft BizTalk Adapter for Oracle E-Business Suite Developer Reference](microsoft-biztalk-adapter-for-oracle-e-business-suite-developer-reference.md)
+## [Terms and definitions](glossary12.md)
+
+
+
+
+
+
+

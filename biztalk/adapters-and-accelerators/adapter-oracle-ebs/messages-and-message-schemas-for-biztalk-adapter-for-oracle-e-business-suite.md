@@ -1,5 +1,6 @@
 ---
 title: "Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite | Microsoft Docs"
+description: XML structure of messages and data types used by the Oracle EBS adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite
+
+## Overview
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. It exposes operations that applications can invoke on it and that it can, in turn, invoke on applications. These operations are invoked by sending SOAP messages over a channel. If a response is required, it is returned in a SOAP message over the same channel.  
   
  As a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] service, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes metadata for its operations and data types by using standard [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] mechanisms. The sections in this topic describe the XML structure of the messages and data types that the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] uses.  
@@ -41,5 +44,3 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
 -   [Message Schemas for the Composite Operation](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-the-composite-operation1.md)  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-oracle-ebs/technical-reference-for-the-oracle-ebs-adapter.md)

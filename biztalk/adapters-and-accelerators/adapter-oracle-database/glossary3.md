@@ -76,11 +76,6 @@ A markup language designed to describe data. XML tags are not predefined.
 **global assembly cache (GAC)**  
 A machine-wide code cache that stores assemblies specifically installed to be shared by many applications on the computer. Applications deployed in the global assembly cache must have a strong name.
   
-## H  
-  
-**Health and Activity Tracking (HAT)**  
-A user interface that enables specified data to be tracked. This interface can be used to monitor the health of the BizTalk Server farm and to track and view specific events and messages.  
-  
 ## I  
   
 **inbound operation**  

@@ -1,5 +1,6 @@
 ---
-title: "Basic Oracle Data Types2 | Microsoft Docs"
+title: "Basic Oracle Data Types in the Oracle EBS adapter in BizTalk | Microsoft Docs"
+description: Data and XSD types, safe typing, and validation in the Oracle e-Business Suite in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Basic Oracle Data Types
-This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]surfaces basic Oracle data types.  
+This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] surfaces basic Oracle data types.  
   
 ## Supported Oracle Data Types  
  The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports safe typing for some Oracle data types. When safe typing is enabled, these data types are represented as strings. You configure safe typing by enabling the **EnableSafeTyping** binding property (disabled by default). For more information about the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] binding properties, see [Read about the BizTalk Adapter for Oracle E-Business Suite binding properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
@@ -62,7 +63,7 @@ This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../include
 >  -   The maximum length of the value in an Oracle data type in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] is bound by the maximum length of the value supported by ODP.NET for the Oracle data type.  
 > -   The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] internally treats the Oracle numeric data types inside UDTs as .NET Decimal. However, in general (that is outside UDTs), the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] internally treats the Oracle numeric data types as OracleDecimal.  
   
-### Safe Typing Enabled  
+## Safe Typing Enabled  
  The following table shows how the Oracle data types that are affected by safe typing are changed when the **EnableSafeTyping** binding property is **true**.  
   
 > [!NOTE]
@@ -76,7 +77,7 @@ This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../include
 > [!IMPORTANT]
 >  If safe typing is enabled, the Oracle numeric data types inside DataSets and weakly-typed REF CURSORS are always exposed as strings.  
   
-### Validation  
+## Validation  
  The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] performs no explicit validation on the values that you specify for Oracle data types. However, depending on the Oracle data type and whether safe typing is enabled or disabled, implicit validation may be performed:  
   
 -   When de-serializing between the XML passed in a message and the .NET types that are used internally by the adapter.  
@@ -84,5 +85,4 @@ This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../include
 -   By ODP.NET for some data types.  
   
 ## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-oracle-ebs/technical-reference-for-the-oracle-ebs-adapter.md)   
  [Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md)

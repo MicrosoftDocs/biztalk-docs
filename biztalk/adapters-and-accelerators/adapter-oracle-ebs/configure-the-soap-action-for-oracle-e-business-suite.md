@@ -1,5 +1,6 @@
 ---
-title: "Configure the SOAP action for Oracle E-Business Suite | Microsoft Docs"
+title: "Configure the SOAP action for Oracle E-Business Suite in BizTalk Server | Microsoft Docs"
+description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-OracleEBS adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,11 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure the SOAP action for Oracle E-Business Suite
-To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must specify a SOAP action. The SOAP action communicates to the adapter what action should be performed. You can specify the SOAP action either from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. However, if you specify the SOAP action from both locations, the action you specified from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] will be overridden.  
+To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must specify a SOAP action. The SOAP action communicates to the adapter what action should be performed. You can specify the SOAP action either from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. However, if you specify the SOAP action from both locations, the action you specified from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] is overridden.  
   
  For more information about specifying SOAP action, see [Specifying SOAP Actions for WCF Send Adapters](../../core/specifying-soap-actions-for-wcf-send-adapters.md).  
   
-## Specifying SOAP Action from Visual Studio  
+## Enter SOAP Action from Visual Studio  
  From [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must specify the SOAP action as part of the orchestration by using an **Expression** shape.  
   
 1.  In the BizTalk orchestration, include an **Expression** shape by dragging it from the **BizTalk Orchestration** toolbox.  
@@ -34,7 +35,7 @@ To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUD
   
      For more information about the **Expression** shape and BizTalk Expression Editor, see [How to Create Expressions](../../core/how-to-create-expressions.md).  
   
-## Specifying SOAP Action from the BizTalk Server Administration Console  
+## Enter SOAP Action from BizTalk Server Administration  
  From the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you must specify the SOAP action as part of the WCF-Custom or WCF-OracleEBS port configuration.  
   
 #### Enter a SOAP action for the WCF-Custom port  
@@ -66,9 +67,9 @@ To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUD
   
          The action mapping approach provides greater flexibility in terms of specifying a set of actions, and hence enabling messages that belong to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see individual topics under [Technical reference](../../adapters-and-accelerators/adapter-oracle-ebs/technical-reference-for-the-oracle-ebs-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see [Messages and Message Schemas for Oracle EBS adapter](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md).
   
-#### To specify a SOAP action for the WCF-OracleEBS port  
+#### Enter a SOAP action for the WCF-OracleEBS port  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -99,7 +100,7 @@ To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUD
   
          The action mapping approach provides greater flexibility in terms of specifying a set of actions, and hence enabling messages that belong to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see individual topics under [Technical reference](../../adapters-and-accelerators/adapter-oracle-ebs/technical-reference-for-the-oracle-ebs-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see [Messages and Message Schemas for Oracle EBS adapter](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md).
   
 ## See Also  
  [Building blocks to create Oracle E-Business Suite applications](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md)
