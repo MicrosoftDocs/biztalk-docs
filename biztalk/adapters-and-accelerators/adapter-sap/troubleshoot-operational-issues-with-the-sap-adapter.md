@@ -1,5 +1,6 @@
 ---
-title: "Troubleshoot Operational Issues with the SAP adapter | Microsoft Docs"
+title: "Troubleshoot Operational Issues with the SAP adapter in BizTalk | Microsoft Docs"
+description: Common errors, issues, and resolutions with mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting, operational issues"
-  - "operational issues, troubleshooting"
 ms.assetid: bb0f005b-7548-478b-8243-69e07c29d02c
 caps.latest.revision: 32
 author: "MandiOhlinger"
@@ -161,7 +159,7 @@ System.ArgumentNullException: Value cannot be null.
   
  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for the SAP system](../../adapters-and-accelerators/adapter-sap/configure-the-soap-action-for-the-sap-system.md). See [Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md) to see a list of actions for each operation.  
+ Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for the SAP system](../../adapters-and-accelerators/adapter-sap/configure-the-soap-action-for-the-sap-system.md). See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md) to see a list of actions for each operation.  
   
 ##  <a name="BKMK_SAPXmlParsing"></a> XmlReaderParsingException due to incorrect operation name in the specified action  
  **Problem**  

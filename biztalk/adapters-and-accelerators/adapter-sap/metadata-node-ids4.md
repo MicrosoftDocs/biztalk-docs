@@ -1,5 +1,6 @@
 ---
-title: "Metadata Node IDs4 | Microsoft Docs"
+title: "Metadata Node IDs for the mySAP adapter in BizTalk Adapter Pack | Microsoft Docs"
+description: Metadata, search, retrieval nodes types and IDs used in SAP components that are exposed in mySAP adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,18 +9,15 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "metadata, retrieval node IDs"
-  - "node IDs"
-  - "metadata, node IDs"
-  - "metadata, search node IDs"
 ms.assetid: 46385060-f56a-4e06-9122-b75808776716
 caps.latest.revision: 4
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Metadata Node IDs
+# Node Types and IDs for the SAP adapter
+
+## Metadata node types and IDs
 The following table lists the node type and node ID for the SAP artifacts that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces. The node ID is the absolute path of the node that is used in the **IMetadataRetrievalContractBrowse**, **Search**, and **GetMetadata** methods.  
   
 |Artifact Display Name|Node Type|Node ID|  
@@ -38,8 +36,8 @@ The following table lists the node type and node ID for the SAP artifacts that t
 |[BUSINESS_OBJECT_METHOD]|OPERATION|[VERSION]/BAPIOBJ/[BUSOBJ_TYPE]/[BUSOBJ_METHOD]/[FUNCTION_MODULE]|  
 |IDOC|CATEGORY|[VERSION]/IDOCSECTION|  
 |[IDOC_MSG_TYPE_NAME]|CATEGORY|[VERSION]/IDOCMESTYP/[IDOC_MSG_TYPE_NAME]|  
-|[IDOC_TYPE_NAME] ([IDOC_CIMTYPE])|CATEGORY|[VERSION]/IDOCCIMTYP/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[FIRST_IDOC_REL_NO]|  
-|[IDOC_TYPE_NAME].V[IDOC_VERSION] ([IDOC_CIMTYPE]) ([IDOC_REL_NO])|CATEGORY|[VERSION]/IDOCCIMVER/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]|  
+|([IDOC_TYPE_NAME]) ([IDOC_CIMTYPE])|CATEGORY|[VERSION]/IDOCCIMTYP/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[FIRST_IDOC_REL_NO]|  
+|([IDOC_TYPE_NAME].V[IDOC_VERSION]) ([IDOC_CIMTYPE]) ([IDOC_REL_NO])|CATEGORY|[VERSION]/IDOCCIMVER/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]|  
 |Send|OPERATION|[VERSION]/Idoc/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]/Send|  
 |SendIdoc|OPERATION|[VERSION]/Idoc/SendIdoc|  
 |Receive|OPERATION|[VERSION]/Idoc/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]/Receive|  
@@ -114,5 +112,3 @@ The following table lists the node type and node ID for the SAP artifacts that t
   
  For detailed information about the format of the metadata that the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] exposes for specific artifacts and operations on the SAP system, see [Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md).  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md)

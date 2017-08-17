@@ -1,6 +1,6 @@
 ---
-title: "Metadata Node IDs for the Oracle DB adapter in BizTalk Server | Microsoft Docs"
-description: 
+title: "Metadata Node IDs for the Oracle DB adapter in BizTalk Adapter Pack | Microsoft Docs"
+description: Metadata, search, retrieval nodes types and IDs used in Oracle components that are exposed in Oracle DB adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,9 +15,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Metadata Node IDs
+# Node Types and IDs for the Oracle Database adapter
 
-## Node types and IDs 
+## Metadata node types and IDs 
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces Oracle database artifacts in a hierarchical manner. The following table lists the node types and node IDs for Oracle database artifacts that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces. The node ID is the absolute path of the node that is used in the **IMetadataRetrievalContractBrowse**, **Search**, and **GetMetadata** methods.  
   
 |Artifact Display Name|Node Type|Node ID|Example|Description|  

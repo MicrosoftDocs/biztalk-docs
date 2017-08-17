@@ -1,6 +1,6 @@
 ---
 title: "Develop your Oracle Database applications in BizTalk Server | Microsoft Docs"
-description: Create Oracle DB applications using WCF, or in BizTalk Server
+description: Create Oracle DB applications using WCF, or in BizTalk Server with the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -16,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Develop your Oracle Database applications
+
+## Overview
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. Client applications can consume the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to invoke operations on Oracle database artifacts. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] can be consumed:  
   
 -   Through a physical port binding in a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solution.  
@@ -47,15 +49,10 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a [!INCLUDE
 |Performing Composite Operations on the Oracle Database|[Run Composite Operations on Oracle Database using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/run-composite-operations-on-oracle-database-using-biztalk-server.md)|||  
 |Receiving Database Change Notifications|[Receive Oracle Database Change Notifications Using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/receive-oracle-database-change-notifications-using-biztalk-server.md)|[Receive Oracle Database Change Notifications Using the WCF Service Model1](../../adapters-and-accelerators/adapter-oracle-database/receive-oracle-database-change-notifications-using-the-wcf-service-model1.md)||  
   
- The topics in this section provide information, procedures, and examples to help you develop applications that consume the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in both [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] programming solutions. The topics also provide information on other key aspects of using the adapters, such as:  
+
   
--   Connecting to the Oracle database.  
-  
--   Retrieving metadata from the Oracle database.  
-  
--   Using binding properties to configure the adapter.  
-  
-## In This Section  
+## Next steps
+ The topics in this section provide information, procedures, and examples to help you develop applications that consume the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in both [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] programming solutions. 
   
 -   [Create a connection to the Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-connection-to-the-oracle-database.md)
   

@@ -1,5 +1,6 @@
 ---
-title: "Configure a port using the WCF-SAP adapter | Microsoft Docs"
+title: "Configure a port using the WCF-SAP adapter in BizTalk| Microsoft Docs"
+description: Create a WCF-SAP port to send or receive messages from SAP using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -20,7 +21,7 @@ This topic provides instructions on how to configure WCF-SAP send and receive po
 ## Prerequisites  
 Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx).
   
-## Deploying Adapters for Sending Messages to SAP System  
+## Deploy adapters to send messages to SAP  
 Complete the following steps to configure a WCF-SAP send port for sending messages to SAP system using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -41,7 +42,7 @@ Complete the following steps to configure a WCF-SAP send port for sending messag
   
     1.  Click the **General** tab, click the **Configure** button, and provide values for the connection parameters. For more information about the connection URI, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See individual topics in [Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md) for a list of actions for each operation. For example, the action to invoke the RFC_CUSTOMER_GET would be:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md) for a list of actions for each operation. For example, the action to invoke the RFC_CUSTOMER_GET would be:  
   
         ```  
         http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET  
@@ -74,7 +75,7 @@ Complete the following steps to configure a WCF-SAP send port for sending messag
   
 12. Click **OK**.  
   
-## Deploying Adapters for Receiving Messages from SAP System  
+## Deploy adapters to receive messages from SAP  
 Complete the following steps to configure a WCF-SAP receive port for receiving messages from SAP system using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -131,4 +132,4 @@ Complete the following steps to configure a WCF-SAP receive port for receiving m
 14. Click **OK** in the **Receive Port Properties** dialog box.
 
 ## See also
-[Manually configure a physical port binding to the SAP adapter](../../adapters-and-accelerators/adapter-sap/manually-configure-a-physical-port-binding-to-the-sap-adapter.md)
+[Manually configure a physical port binding to the SAP adapter](manually-configure-a-physical-port-binding-to-the-sap-adapter.md)

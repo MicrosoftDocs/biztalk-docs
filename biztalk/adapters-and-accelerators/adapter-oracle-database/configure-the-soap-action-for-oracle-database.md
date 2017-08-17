@@ -1,5 +1,5 @@
 ---
-title: "Configure the SOAP action for Oracle Database | Microsoft Docs"
+title: "Configure the SOAP action for Oracle Database in BizTalk | Microsoft Docs"
 description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-OracleDB adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"

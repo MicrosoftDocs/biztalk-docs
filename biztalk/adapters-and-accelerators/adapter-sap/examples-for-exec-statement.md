@@ -1,5 +1,6 @@
 ---
-title: "Examples for EXEC Statement | Microsoft Docs"
+title: "Examples for EXEC Statement in mySAP adapter in BizTalk | Microsoft Docs"
+description: EXEC examples and samples using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "EXEC statement, examples for"
-  - "Data Provider for SAP, EXEC statement grammar"
 ms.assetid: ad2691f4-34bb-423c-9b3e-4abe2d55ddac
 caps.latest.revision: 5
 author: "MandiOhlinger"
@@ -18,7 +16,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Examples for EXEC Statement
-This topic shows example syntax for various EXEC statements:  
+This topic shows example syntax for various EXEC statements.
+
+## Sample statements 
   
 -   To execute a BAPI that takes no input parameters, use the following syntax; data is returned through a **DataReader** object:  
   
@@ -105,12 +105,10 @@ This topic shows example syntax for various EXEC statements:
     p.Value = dt;  
     ```  
   
-### Limitations  
+## Limitations  
  The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] has the following limitations for complex types.  
   
 -   When you pass a complex type in a parameter by using a **DataTable**, you must include all fields (columns) of the complex type in the **DataTable**.  
   
 -   The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] does not support **DbNull**. You cannot set **DbNull** as a value for parameters.  
   
-## See Also  
- [Grammar Examples for Statements Supported with the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/grammar-examples-for-statements-supported-with-the-data-provider-for-sap.md)

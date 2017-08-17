@@ -1,5 +1,6 @@
 ---
-title: "Message Schemas for IDOC Operations | Microsoft Docs"
+title: "Message Schemas for IDOC Operations in the my SAP adapter in BizTalk | Microsoft Docs"
+description: Message operations, structures, and actions to send and receive IDOCs using the mySAP adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,12 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "message schemas, for IDOC operations"
-  - "IDOCs, operations to send"
-  - "IDOC operations, message schemas for"
-  - "RFCs, used by the SAP adapter to send and receive IDOCs"
-  - "IDOCs, operations to receive"
 ms.assetid: 601aa9f9-e42f-47aa-b020-7a1eed4f0780
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -189,5 +184,3 @@ Intermediate documents (IDOCS) are standardized EDI-like documents supported by 
 |ReceiveIdoc|[MESSAGE_VERSION]/Idoc/ReceiveIdoc|http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc|  
 |ReceiveIdoc Response|[MESSAGE_VERSION]/Idoc/ReceiveIdoc/response|http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc/response|  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md)

@@ -1,5 +1,6 @@
 ---
-title: "Examples for EXECQUERY Statement | Microsoft Docs"
+title: "Examples for EXECQUERY Statement in mySAP adapter in BizTalk | Microsoft Docs"
+description: EXECQUERY examples and samples using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -16,7 +17,9 @@ manager: "anneta"
 ---
 # Examples for EXECQUERY Statement
 This topic provides sample EXECQUERY statements.  
-  
+
+
+## Sample statements
 -   Command to execute a query that takes two parameters P1 and P2.  
   
     ```  
@@ -113,5 +116,3 @@ This topic provides sample EXECQUERY statements.
     EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024', @P1 != '0000003262'  
     ```  
   
-## See Also  
- [Grammar Examples for Statements Supported with the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/grammar-examples-for-statements-supported-with-the-data-provider-for-sap.md)
