@@ -1,7 +1,8 @@
 ---
 title: "Microsoft BizTalk Adapter for mySAP Business Suite documentation | Microsoft Docs"
+description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the mySAP adapter in BizTalk Adapter Pack
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
@@ -33,8 +34,10 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] includes a variety o
 ## Developing apps
 ![Adapter Development icon](../../adapters-and-accelerators/adapter-oracle-database/media/44af70c9-cab1-4201-9912-d115cbc7e16f.gif "44af70c9-cab1-4201-9912-d115cbc7e16f") [Develop your SAP applications](../../adapters-and-accelerators/adapter-sap/develop-your-sap-applications.md) shows you how to use the adapters with BizTalk Server, the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] service model, and the WCF channel model.
 
+## Messages and message schemas
+![Adapter Samples icon](../../adapters-and-accelerators/adapter-sap/media/2e8eba6a-6ba1-431e-9e0a-f0f45e036e8a.gif "2e8eba6a-6ba1-431e-9e0a-f0f45e036e8a") [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md) lists the message structure and actions for functions, record types, poling operations, and more.
+
 ## Troubleshooting
 ![Adapter Troubleshooting icon](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [Troubleshoot the SAP adapter](../../adapters-and-accelerators/adapter-sap/troubleshoot-the-sap-adapter.md) lists the steps to enable tracing, and lists some common issues and resolutions. 
 
-## Reference
-![Adapter Samples icon](../../adapters-and-accelerators/adapter-sap/media/2e8eba6a-6ba1-431e-9e0a-f0f45e036e8a.gif "2e8eba6a-6ba1-431e-9e0a-f0f45e036e8a") [Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md) describes the schemas, gives examples of EXEC and other statements, describes the classes, and more reference topics.
+

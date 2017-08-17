@@ -1,5 +1,6 @@
 ---
-title: "Translate SAP query parameters into EXECQUERY command | Microsoft Docs"
+title: "Translate SAP query parameters into EXECQUERY commands in mySAP adapter in BizTalk | Microsoft Docs"
+description: Guidance to translate SAP query to EXECQUERY, with examples
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,9 +16,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Translate SAP query parameters into EXECQUERY command
-This topic, with the help of an example, explains how the parameters of a query translate into an EXECQUERY command text. This topic uses the example of a custom SAP query, ZQUERY_TST_NEW.  
+Explains how the parameters of a query translate into an EXECQUERY command text. This topic uses the example of a custom SAP query, ZQUERY_TST_NEW.  
   
-## Opening the Query in SAP GUI  
+## Open the Query in SAP GUI  
  Perform the following steps to open the query in SAP. The steps provided here are for ZQUERY_TST_NEW query and are specific to SAP versions.  
   
 1.  Run the transaction SQ01.  
@@ -40,7 +41,7 @@ This topic, with the help of an example, explains how the parameters of a query 
   
  The next section provides an explanation about how the values are defined in the SAP GUI and how those values translate to EXECQUERY syntax.  
   
-## Framing an EXECQUERY Syntax  
+## Frame an EXECQUERY Syntax  
  Let’s look at what the EXECQUERY syntax looks like based on the parameter values defined in the query definition. To understand this, we’ll show examples of how the values configured for the first parameter, **Two digit number**, translate to the  **ZQUERY_TST_NEW** query.  
   
  First, let’s assume the values in the **Single vals** tab (with a green dot) are defined as shown in the following screenshot:  
@@ -88,5 +89,3 @@ EXECQUERY ZQUERY_TST_NEW @USERGROUP='mygroup', @P1 = '2', @P1 = '3', @P1 = '5', 
   
  For simplicity and understanding, this topic only talks about the first parameter, **Two digit number**. You can use similar methods to determine how values defined for other parameters translate into an EXECQUERY syntax.  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md)

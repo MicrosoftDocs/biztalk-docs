@@ -1,6 +1,6 @@
 ---
 title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Oracle Database in BizTalk Server | Microsoft Docs"
-description: Use svcutil.exe for a non-default binding, or to create a WCF Client Class or WCF Service Contract
+description: Use svcutil.exe for a non-default binding, or to create a WCF Client Class or WCF Service Contract with Oracle DB adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"

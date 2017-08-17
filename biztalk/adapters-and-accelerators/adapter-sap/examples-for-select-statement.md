@@ -1,5 +1,6 @@
 ---
-title: "Examples for SELECT Statement | Microsoft Docs"
+title: "Examples for SELECT Statement in mySAP adapter in BizTalk| Microsoft Docs"
+description: SELECT examples and samples using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Data Provider for SAP, SELECT statement grammar"
 ms.assetid: 54a5a4ac-a994-4706-9735-a5a1a82b893b
 caps.latest.revision: 3
 author: "MandiOhlinger"
@@ -17,7 +16,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Examples for SELECT Statement
-This topic shows example syntax for various SELECT statements:  
+This topic shows example syntax for various SELECT statements.
+
+## Sample statements 
   
 -   To list details about flights listed in the table named SPFLI, use the following syntax:  
   
@@ -92,6 +93,3 @@ This topic shows example syntax for various SELECT statements:
     ```  
     SELECT top 50000 * from bseg option 'batchsize 20000'  
     ```  
-  
-## See Also  
- [Grammar Examples for Statements Supported with the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/grammar-examples-for-statements-supported-with-the-data-provider-for-sap.md)

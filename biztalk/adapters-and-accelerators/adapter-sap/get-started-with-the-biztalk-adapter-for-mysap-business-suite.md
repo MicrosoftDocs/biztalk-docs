@@ -1,19 +1,14 @@
 ---
 title: "Get started with the BizTalk Adapter for mySAP Business Suite | Microsoft Docs"
+description: Install custom RFCs, learn about the adapter, complete RFC and IDOC tasks on SAP, step through tutorials to use the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters, data"
-  - "adapters, LOB"
-  - "adapters, about"
-  - "LOB adapter"
-  - "data adapter"
 ms.assetid: e2013253-f911-4e35-a33a-b4a9bcb136aa
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -49,9 +44,11 @@ An adapter is a software component that enables you to send and receive messages
   
  If you do not already know how you want to use the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] at your company, it is recommended that you start by exploring features and functionality of the adapter described in [Understand BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md).  
   
-## In this section  
-- [Install Custom RFCs for the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md)
+## Next steps  
+- [Install Custom RFCs for the Data Provider for SAP](install-custom-rfcs-for-the-data-provider-for-sap.md)
   
--   [Understand BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)  
+-   [Understand BizTalk Adapter for mySAP Business Suite](understand-biztalk-adapter-for-mysap-business-suite.md)  
+
+- [Complete RFC and IDOC tasks on SAP](performing-tasks-using-the-sap-gui-for-specific-sap-adapter-scenarios.md)
   
--   [SAP Adapter Tutorials](../../adapters-and-accelerators/adapter-sap/sap-adapter-tutorials.md)  
+-   [SAP Adapter Tutorials](sap-adapter-tutorials.md)  

@@ -1,5 +1,6 @@
 ---
-title: "Creating an RFC in an SAP System | Microsoft Docs"
+title: "Overview of creating an RFC in an SAP to use with the SAP adapter in BizTalk | Microsoft Docs"
+description: Create an RFC, RFC destination, and send an RFC from SAP system - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,19 +9,16 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "RFC, how to create"
-  - "RFC, creating"
 ms.assetid: 35937183-fc1e-49cd-8a75-8f62effe0013
 caps.latest.revision: 3
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating an RFC in an SAP System
-This section lists high-level tasks to be performed on the SAP system to create an RFC. Each of these tasks in turn involves detailed procedures. You must contact your SAP administrator for performing these tasks or refer to the SAP documentation.  
+# Create and send an RFC in SAP
+Lists high-level tasks to complete on the SAP system to create an RFC. Each task may involve very detailed procedures. As a result, we recommend contacting your SAP administrator to complete these tasks, or refer to the SAP guidance.  
   
-### To create an RFC  
+## Create an RFC  
   
 1.  Start the SAP GUI.  
   
@@ -43,6 +41,32 @@ This section lists high-level tasks to be performed on the SAP system to create 
 10. In the **Source Code** tab, enter the source code (logic) for the RFC.  
   
 11. Click the **Activate** icon on the toolbar to activate the function module.  
+
+## Create an RFC destination  
+  
+1.  Start the SAP GUI.  
+  
+2.  Go to Transaction SM59 (Display and Maintain RFC Destinations).  
+  
+3.  From the menu bar, click **Create**.  
+  
+4.  Enter the RFC destination, connection type, description, and then press Enter.  
+  
+5.  Select the **Registered Server Program** radio-button, enter the program ID, gateway host, and gateway service.  
+  
+6.  Save the RFC destination.  
+
+## Send an RFC from an SAP system  
+  
+1.  Start the SAP GUI.  
+  
+2.  Create a logical system using BD54 transaction.  
+  
+3.  Create an RFC destination in TCP/IP connections using SM59 transaction.  
+  
+4.  Create a port using WE21 transaction and attach it to the RFC destination created in the last step.  
+  
+5.  Trigger an RFC by using SE37. This RFC must contain the logic to make an RFC call to an external application and then receive a response from that application.  
   
 ## See Also  
- [Performing Tasks Using the SAP GUI for Specific SAP Adapter Scenarios](../../adapters-and-accelerators/adapter-sap/performing-tasks-using-the-sap-gui-for-specific-sap-adapter-scenarios.md)
+ [Performing Tasks Using the SAP GUI for Specific SAP Adapter Scenarios](performing-tasks-using-the-sap-gui-for-specific-sap-adapter-scenarios.md)

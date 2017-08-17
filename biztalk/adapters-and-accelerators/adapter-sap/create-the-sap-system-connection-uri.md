@@ -163,7 +163,7 @@ sap://Client=800;lang=EN@A/YourSAPHOST/00
 |SNC|UseSnc|UseSnc (user info)|  
   
 ## How to specify a Connection URI for RFC Server Connections.  
- To create an endpoint address through which the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] can act as an RFC server, you must specify a SAP program id, a SAP gateway host, and a SAP gateway service that correspond to an RFC destination on the SAP system. For information about how to setup an RFC destination on SAP, see [Creating an RFC Destination in an SAP System](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-destination-in-an-sap-system.md).  
+ To create an endpoint address through which the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] can act as an RFC server, you must specify a SAP program id, a SAP gateway host, and a SAP gateway service that correspond to an RFC destination on the SAP system. For information about how to setup an RFC destination on SAP, see [Create an RFC, RFC destination, and send an RFC from SAP](creating-an-rfc-in-an-sap-system.md).  
   
  You can specify the program id, gateway host, and gateway service in the connection URI in one of two ways:  
   

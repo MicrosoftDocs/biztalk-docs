@@ -1,5 +1,6 @@
 ---
-title: "Configure the SOAP action for the SAP system | Microsoft Docs"
+title: "Configure the SOAP action for the SAP system in BizTalk | Microsoft Docs"
+description: Enter a SOAP action in Expression shape, or use the WCF-Custom or WCF-SAP adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP action, specifying at design time"
-  - "SOAP action, specifying at run time"
 ms.assetid: 76084bc5-7a10-4c4c-be22-bee83779a011
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -25,8 +23,7 @@ To perform any operation on the SAP system using the WCF-based [!INCLUDE[adapter
 ## Enter SOAP Action at Design Time  
  For design time, you must specify the SOAP action as part of orchestration by including an expression shape.  
   
-### Enter SOAP action at design time  
-  
+ 
 1.  In the BizTalk orchestration, include an Expression shape by dragging it from the **BizTalk Orchestration** toolbox.  
   
 2.  Double-click the **Expression** shape to open the BizTalk Expression Editor.  
@@ -71,7 +68,7 @@ To perform any operation on the SAP system using the WCF-based [!INCLUDE[adapter
   
          This approach provides greater flexibility in terms of specifying a set of actions and hence enabling messages belonging to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about action format for each operation, see individual topics under [Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about action format for each operation, see [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md).
   
 ### Enter a SOAP action for the WCF-SAP port  
   
@@ -104,7 +101,7 @@ To perform any operation on the SAP system using the WCF-based [!INCLUDE[adapter
   
          This approach provides greater flexibility in terms of specifying a set of actions and hence enabling messages belonging to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about action format for each operation, see individual topics under [Technical reference](../../adapters-and-accelerators/adapter-sap/technical-reference-for-the-sap-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about action format for each operation, see [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md).
   
 ## See Also  
 [Building blocks to create SAP applications](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md)

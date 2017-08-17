@@ -1,5 +1,5 @@
 ---
-title: "Glossary for BizTalk Adapter for Oracle Database | Microsoft Docs"
+title: "Glossary for BizTalk Adapter for Oracle Database in BizTalk| Microsoft Docs"
 description: Common terms and definitions used by the Oracle Database adapter in the BizTalk Adapter pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
