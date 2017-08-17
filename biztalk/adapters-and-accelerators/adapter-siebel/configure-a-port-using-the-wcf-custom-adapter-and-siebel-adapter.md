@@ -1,5 +1,6 @@
 ---
-title: "Configure a port using the WCF-custom adapter and Siebel adapter | Microsoft Docs"
+title: "Configure a port using the WCF-custom adapter and Siebel adapter in BizTalk | Microsoft Docs"
+description: Create WCF-custom send and receive ports to use the Siebel eBusiness Applications adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -23,8 +24,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
 ## Deploying Adapters for Sending Messages to a Siebel System  
  Perform the following steps to configure a WCF-Custom send port for sending messages to a Siebel system using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-#### To deploy adapters for sending messages to a Siebel system  
-  
+ 
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
 2.  In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
@@ -41,7 +41,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     1.  Click the **General** tab and in the **Address (URI)** field specify the connection URI to connect to a Siebel system. For more information about the connection URI, see [Create the Siebel system connection URI](../../adapters-and-accelerators/adapter-siebel/create-the-siebel-system-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See individual topics in [Technical reference](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on the Account business component is:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on the Account business component is:  
   
         ```  
         http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert  

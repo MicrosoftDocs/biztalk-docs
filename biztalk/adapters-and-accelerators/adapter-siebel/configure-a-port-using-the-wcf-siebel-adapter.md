@@ -1,5 +1,6 @@
 ---
 title: "Configure a port using the WCF-Siebel adapter | Microsoft Docs"
+description: Create WCF-Siebel send ports to use the Siebel eBusiness Applications adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,15 +16,13 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure a port using the WCF-Siebel adapter
-This topic provides instructions on how to configure WCF-Siebel send ports to perform outbound operations on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
+How to configure WCF-Siebel send ports to perform outbound operations on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
 ## Prerequisites  
 Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx).
   
-## Deploying Adapters for Sending Messages to a Siebel System  
+## Deploy adapters for sending messages to a Siebel system  
  Perform the following steps to configure a WCF-Siebel send port for sending messages to a Siebel system using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
-  
-#### To deploy adapters for sending messages to a Siebel system  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -43,7 +42,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     1.  Click the **General** tab, click the **Configure** button, and provide values for the connection parameters. For more information about the connection URI, see [Create the Siebel system connection URI](../../adapters-and-accelerators/adapter-siebel/create-the-siebel-system-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See individual topics in [Technical reference](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on the Account business component is:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on the Account business component is:  
   
         ```  
         http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert  

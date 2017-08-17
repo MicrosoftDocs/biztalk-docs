@@ -1,5 +1,6 @@
 ---
-title: "Configure the SOAP action for Siebel | Microsoft Docs"
+title: "Configure the SOAP action for Siebel adapter in BizTalk | Microsoft Docs"
+description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-Siebel adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "specifying SOAP action, at run time"
-  - "specifying SOAP action, at design time"
-  - "how to, specify SOAP action at design time"
-  - "how to, specify SOAP action at run time"
 ms.assetid: f22a4691-0355-4f08-a14e-e90a3c987ac0
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -24,7 +20,7 @@ To perform any operation on the Siebel system using the WCF-based [!INCLUDE[adap
   
  For more information about specifying SOAP action, see [Specifying SOAP Actions for WCF Send Adapters](../../core/specifying-soap-actions-for-wcf-send-adapters.md).
   
-## Specifying SOAP Action at Design Time  
+## Enter SOAP Action at Design Time  
  For design time, you must specify the SOAP action as part of orchestration by including an expression shape.  
   
 1.  In the BizTalk orchestration include an Expression shape by dragging it from the **BizTalk Orchestration** toolbox.  
@@ -39,7 +35,7 @@ To perform any operation on the Siebel system using the WCF-based [!INCLUDE[adap
   
      For more information about **Expression** shape and the BizTalk Expression Editor, see [How to Create Expressions](../../core/how-to-create-expressions.md).  
   
-## Specifying SOAP Action at Run Time  
+## Enter SOAP Action at run time  
  For run time, you must specify the SOAP action as part of the WCF-Custom or WCF-Siebel port properties dialog box.  
   
 #### Enter a SOAP action for the WCF-Custom port  
@@ -71,7 +67,7 @@ To perform any operation on the Siebel system using the WCF-based [!INCLUDE[adap
   
          This approach provides greater flexibility in terms of specifying a set of actions and hence enabling messages belonging to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about action format for each operation, see the [Technical reference for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about action format for each operation, see [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md).
   
 #### Enter a SOAP action for the WCF-Siebel port  
   
@@ -104,7 +100,7 @@ To perform any operation on the Siebel system using the WCF-based [!INCLUDE[adap
   
          This approach provides greater flexibility in terms of specifying a set of actions and hence enabling messages belonging to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about action format for each operation, see the [Technical reference for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about action format for each operation, see [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md).
   
 ## See Also  
 [Building blocks to create BizTalk applications with the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md)

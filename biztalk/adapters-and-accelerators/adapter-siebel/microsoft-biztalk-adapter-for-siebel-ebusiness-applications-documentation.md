@@ -1,5 +1,6 @@
 ---
 title: "Microsoft BizTalk Adapter for Siebel eBusiness Applications documentation | Microsoft Docs"
+description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the Siebel adapter in BizTalk Adapter Pack
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -28,9 +29,9 @@ The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] includes a var
 
 ## Developing apps
 ![Adapter Development icon](../../adapters-and-accelerators/adapter-oracle-database/media/44af70c9-cab1-4201-9912-d115cbc7e16f.gif "44af70c9-cab1-4201-9912-d115cbc7e16f") [Develop your Siebel applications](../../adapters-and-accelerators/adapter-siebel/develop-your-siebel-applications.md) shows you how to use the adapters with BizTalk Server, the Windows Communication Foundation (WCF) service model, and the WCF channel model.
+
+## Messages and message schemas
+![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif "EndtoEndtutorials") [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) lists the message structure and actions for functions, record types, poling operations, and more. 
   
 ## Troubleshooting 
 ![Adapter Troubleshooting icon](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [Troubleshoot the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/troubleshoot-the-siebel-adapter.md) lists the steps to enable tracing, how to troubleshoot install and performance issues, and includes exception and error handling.
-
-## Reference
-![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif "EndtoEndtutorials") [Technical reference](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md) describes the schemas and data types, describes the classes, and more reference topics.

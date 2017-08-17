@@ -22,10 +22,8 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
  The following sections show you how to configure svcutil.exe and how to use svcutil.exe to generate WCF client code or a WCF service contract with the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
   
-##  <a name="BKMK_ConfigureSvcutil"></a> Configuring svcutil.exe for the Oracle Database Adapter  
+##  <a name="BKMK_ConfigureSvcutil"></a> Configure svcutil.exe for a non-default binding   
  To configure svcutil.exe to use a non-default binding, you must create a local copy of svcutil.exe and then create or modify a local copy of the svcutil.exe.config configuration file.  
-  
-### Configure svcutil.exe for a non-default binding  
   
 1.  Create a folder, and copy svcutil.exe into the new folder. You can typically find svcutil.exe at the Windows SDK installation location, specifically, C:\Program Files\Microsoft SDKs\Windows\v6.0\Bin.  
   

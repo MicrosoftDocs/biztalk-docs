@@ -1,5 +1,6 @@
 ---
 title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
+description: Use svcutil.exe for a non-default binding, or to create a WCF Client Class or WCF Service Contract with Siebel adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,13 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ServiceModel Metadata Utility Tool"
-  - "svcutil.exe, creating a client class with"
-  - "svcutil.exe, configuring"
-  - "ServiceModel Metadata Utililty Tool, using"
-  - "svcutil.exe, using"
-  - "ServiceModel Metadata Utility Tool, creating a client class with"
 ms.assetid: 03d16481-cc8b-4e28-a33c-92e48a9a7e8f
 caps.latest.revision: 5
 author: "MandiOhlinger"
@@ -28,11 +22,10 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
  The following sections show you how to configure svcutil.exe and how to use svcutil.exe to generate WCF client code with the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
-##  <a name="BKMK_ConfigureSvcutil"></a> Configuring svcutil.exe for the Siebel Adapter  
+##  <a name="BKMK_ConfigureSvcutil"></a>Configure svcutil.exe for a non-default binding   
  To configure svcutil.exe to use a non-default binding, you must create a local copy of svcutil.exe and then create or modify a local copy of the svcutil.exe.config configuration file.  
   
-#### To configure svcutil.exe for a non-default binding  
-  
+ 
 1.  Create a folder, and copy svcutil.exe into the new folder. You can typically find svcutil.exe at the Windows SDK installation location, specifically, C:\Program Files\Microsoft SDKs\Windows\v6.0\Bin.  
   
 2.  Create a file named svcutil.exe.config in the new folder.  
@@ -101,5 +94,3 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
  The [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] provides advanced browse and search capabilities that can greatly simplify generating a WCF client class. For more information about the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], see [Generate a WCF client or a WCF service contract for Siebel solution artifacts](../../adapters-and-accelerators/adapter-siebel/generate-a-wcf-client-or-a-wcf-service-contract-for-siebel-solution-artifacts.md).  
   
-## See Also  
-[Technical reference for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md)

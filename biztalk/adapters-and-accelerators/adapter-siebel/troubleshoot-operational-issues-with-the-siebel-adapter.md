@@ -1,5 +1,6 @@
 ---
-title: "Troubleshoot Operational Issues with the Siebel adapter | Microsoft Docs"
+title: "Troubleshoot Operational Issues with the Siebel adapter in BizTalk | Microsoft Docs"
+description: Common issues and resolutions for Siebel adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting, operational issues"
-  - "operational issues, troubleshooting"
 ms.assetid: 74d152d9-9893-4f93-894a-350bae8be7bd
 caps.latest.revision: 22
 author: "MandiOhlinger"
@@ -171,7 +169,7 @@ Error saving properties.
   
  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Siebel](../../adapters-and-accelerators/adapter-siebel/configure-the-soap-action-for-siebel.md). See the [Technical reference for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md) to see a list of actions for each operation.  
+ Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Siebel](../../adapters-and-accelerators/adapter-siebel/configure-the-soap-action-for-siebel.md). See [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) for a list of actions for each operation.  
   
 ###  <a name="BKMK_SiebelXmlParsing"></a> XmlReaderParsingException due to an incorrect operation name in the specified action  
  **Problem**  
