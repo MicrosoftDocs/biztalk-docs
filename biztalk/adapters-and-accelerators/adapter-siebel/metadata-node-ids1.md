@@ -1,5 +1,6 @@
 ---
-title: "Metadata Node IDs1 | Microsoft Docs"
+title: "Metadata Node IDs for the Siebel adapter in BizTalk Adapter Pack | Microsoft Docs"
+description: Metadata, search, retrieval nodes types and IDs used in Siebel components that are exposed in Siebel adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,18 +9,15 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "node IDs, metadata search"
-  - "node IDs, metadata retrieval"
-  - "metadata node IDs"
 ms.assetid: bdffc8d1-0a0a-48d7-b134-5d16acf2c523
 caps.latest.revision: 5
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Metadata Node IDs
-## Siebel Node IDs  
+# Node Types and IDs for the Siebel adapter
+
+## Metadata node types and IDs 
  The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces Siebel system artifacts in a hierarchical manner. The following table describes the node types and node IDs for Siebel artifacts surfaced by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
 |Artifact|Node Type|Node Id|Example|Description|  
@@ -81,5 +79,3 @@ manager: "anneta"
   
  For detailed information about the format of the metadata that the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] exposes for specific artifacts and operations on the Siebel system, see [Messages and Message Schemas for BizTalk Adapter for Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/messages-and-message-schemas-for-siebel-adapter-in-biztalk.md).  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-siebel/technical-reference-for-the-siebel-adapter.md)
