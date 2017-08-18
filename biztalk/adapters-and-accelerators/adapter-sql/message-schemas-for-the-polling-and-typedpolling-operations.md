@@ -46,13 +46,13 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces the Polling
 **Operation**: `TypedPolling`
 
 **XML Message**:  
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
   <TypedPollingResultSet xmlns="http://schemas.microsoft.com/Sql/2008/05/TypedPolling">
     <COLUMN1>[Value]</Column1>
     <COLUMN2>[Value]</Column2>
     …
-      </TypedPollingResultSet>
+  </TypedPollingResultSet>
 ```
 
 **Description**: The strongly-typed inbound message that is sent by the SQL Server to the adapter clients.

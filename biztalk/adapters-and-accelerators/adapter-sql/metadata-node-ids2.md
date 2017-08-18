@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Node Types and IDs for the SQL Server adapter
+# Node types and IDs for the SQL Server adapter
 
 ## Metadata Node IDs
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces SQL Server database artifacts in a hierarchical manner. The following table lists the node types and node IDs for SQL Server database artifacts that the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] surfaces. The node ID is the absolute path of the node that is used in the **IMetadataRetrievalContractBrowse**, **Search**, and **GetMetadata** methods.  

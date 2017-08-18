@@ -23,16 +23,23 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces the Notific
 ## Message Structure for the Notification operation  
  The following table shows the XML message structure for the Notification operation.  
 
-**XML message**:  
-`<?xml version="1.0" encoding="utf-8" ?>  <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification">    <Info>Value</Info>    <Source>Value</Source>    <Type>Value</Type> </Notification>`
+**Operation**: `Notification`
 
-**Description**:  
-This is the inbound message that is sent by the SQL Server to the adapter clients. In the message:
+**XML message**:  
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+  <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification">
+    <Info>Value</Info>
+    <Source>Value</Source>
+    <Type>Value</Type>
+ </Notification>
+```
+
+**Description**: This is the inbound message that is sent by the SQL Server to the adapter clients. In the message:
 
 - The `<Info>` tag indicates the reason for the notification. For example, an “insert” value in this tag indicates that data has been inserted in one or more of the tables referenced in the notification statement.
 - The `<Source>` tag indicates the source for the notification. For example, a “data” value in this tag indicates a change in the data in a referenced object. Similarly, an “object” value in this tag indicates a change in a referenced object.
 - The `<Type>` tag indicates the type of data change. Query notification messages are of two types: change and subscribe. A “change” value in the `<Type>` tag indicates that the results of the query have changed, whereas a “subscribe” value in the `<Type>` tag indicates that a subscription request failed.
-
 
   
 ## Message Action for the Notification Operation  

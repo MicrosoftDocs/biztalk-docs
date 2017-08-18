@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Node Types and IDs for the SAP adapter
+# Node types and IDs for the SAP adapter
 
 ## Metadata node types and IDs
 The following table lists the node type and node ID for the SAP artifacts that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces. The node ID is the absolute path of the node that is used in the **IMetadataRetrievalContractBrowse**, **Search**, and **GetMetadata** methods.  
