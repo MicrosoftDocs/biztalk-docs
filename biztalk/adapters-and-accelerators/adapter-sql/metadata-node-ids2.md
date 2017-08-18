@@ -1,5 +1,6 @@
 ---
-title: "Metadata Node IDs2 | Microsoft Docs"
+title: "Metadata Node IDs for the SQL adapter in BizTalk Adapter Pack | Microsoft Docs"
+description: Metadata, search, retrieval nodes types and IDs used in SQL components that are exposed in SQL Server adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -14,7 +15,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Metadata Node IDs
+# Node Types and IDs for the SQL Server adapter
+
+## Metadata Node IDs
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces SQL Server database artifacts in a hierarchical manner. The following table lists the node types and node IDs for SQL Server database artifacts that the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] surfaces. The node ID is the absolute path of the node that is used in the **IMetadataRetrievalContractBrowse**, **Search**, and **GetMetadata** methods.  
   
 |Artifact Display Name|Node Type|Node ID|Example|Description|  
@@ -100,7 +103,5 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces SQL Server 
 |Table or View|<ul><li>Table name.</li><li>Table field names.</li><li>Table field data types are mapped to simple or complex WSDL types.</li><li>Table field length is mapped to facet maxLength.</li><li>Table field primary key constraint is mapped to facet minOccurs = 1.</li><li>Table field NULL constraint is mapped to facet isNillable = true.</li><li>Table operations<br /><br /> <ul><li>INSERT</li><li>SELECT</li><li>UPDATE</li><li>DELETE</li><li>SET\<Column Name></li></ul></li></ul>|  
 |Procedure or Function|-   Procedure or function name is mapped to the operation name.<br />-   Procedure or function parameter names.<br />-   Procedure or function parameter data types are mapped to WSDL types.<br />-   Procedure or function parameter direction is mapped to WSDL parameter direction.<br />-   Procedure parameter or function parameter data type length is mapped to facet maxLength.<br />-   Procedure or function parameter order is mapped to element sequence.<br />-   Function return data type is mapped to WSDL type.<br />-   Function return data type length is mapped to facet maxLength.|  
   
- For detailed information about the format of the metadata that the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes for specific artifacts and operations on the SQL Server database, see [Messages and Message Schemas for BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md).  
+ For detailed information about the format of the metadata that the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes for specific artifacts and operations on the SQL Server database, see [Messages and Message Schemas for BizTalk Adapter for SQL Server](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md).  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md)
