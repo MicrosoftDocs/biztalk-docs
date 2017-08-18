@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Windows Communication Foundation Line of Business Adapter SDK documentation | Microsoft Docs"
+description: Quick links to install, get started, plan and design, develop, and troubleshooting the WCF LOB Adapter SDK in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -43,5 +44,3 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] docu
 ## Troubleshoot
 ![Adapter Troubleshooting icon](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [Troubleshoot adapter created using the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/troubleshoot-adapter-created-using-the-wcf-lob-adapter-sdk.md) lists the steps to enable tracing, use performance counters, and generating WSDL.
 
-## Reference
-![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif "EndtoEndtutorials") [Technical Reference for the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/technical-reference-for-the-wcf-lob-adapter-sdk.md) describes the Microsoft.ServiceModel.Channels namespaces.

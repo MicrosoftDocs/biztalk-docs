@@ -208,7 +208,6 @@
 # [Additional Resources](additional-resources.md)
 # [Party Aliases Tab](party-aliases-tab.md)
 # [Batch Message Processing](batch-message-processing.md)
-# [Technical Reference](hl7-technical-reference.md)
 # [Batching Known Issues](batching-known-issues.md)
 # [Step 10: Verify the End-to-End Scenario](step-10-verify-the-end-to-end-scenario.md)
 # [XML Disassembler and Assembler](xml-disassembler-and-assembler.md)
