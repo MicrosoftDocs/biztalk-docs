@@ -4,7 +4,7 @@ description: Blogs and website by integration and Azure MVPs, and community memb
 author: "MandiOhlinger"
 manager: "anneta"
 
-ms.date: "08/15/2017"
+ms.date: "08/17/2017"
 ms.prod: "biztalk-server"
 ms.service: "biztalk-server"
 ms.suite: ""
@@ -27,11 +27,6 @@ Martin has been "doing" Integration for over 15 years, and is one of the admin t
 
 Ramblings about all things integration, including BizTalk Server, API Management, Visual Studio Team Services (VSTS), Service Bus, Logic Apps, and more.
 
-## BizTalk360
-[Blog](https://blogs.biztalk360.com/)  |  [Twitter](https://twitter.com/BizTalk360)
-
-Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and  the BizTalk360 team. 
-
 ## Sam Cogan
 [Blog](http://samcogan.com)  |  [Twitter](https://twitter.com/samcogan)
 
@@ -47,8 +42,6 @@ Blogging with his head in the (hybrid) cloud, and his feet on-premises! Blog on 
 
 Nino blogs about Integration of Technologies, and anything and everything related to it.
 
-
-
 ## Eldert Grootenboer
 [Blog](https://blog.eldert.net/)  |  [Twitter](https://twitter.com/egrootenboer)
 
@@ -59,10 +52,25 @@ A focus on everything Microsoft integration, including IoT, Azure integration, a
 
 Aram has been building software since 2001. And when not creating software, Aram is hiking, playing soccer, tennis, reading, and anything to do with TV shows.
 
+## Saravana Kumar
+[Blog](https://blogs.biztalk360.com/)  |  [Twitter](https://twitter.com/BizTalk360)
+
+Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and  the BizTalk360 team. 
+
 ## Edward Kuo 
 [Blog](http://edwardkuo.imas.tw/)  |  [Twitter](https://twitter.com/Chia_Chi_Kuo)
 
 Edward's blog is about Azure, Visual Studio Team Services (VSTS), and includes guidance on enterprise solutions.
+
+## Steve Melan 
+[Blog](http://stevemelan.wordpress.com)  |  [Twitter](https://twitter.com/SteveMelan)
+
+Steve is an HIS and mainframe expert, and blogs about BizTalk, Host Integration Server, and IBM Heritage Integration.
+
+## Sandro Pereira
+[Blog](https://blog.sandro-pereira.com)  |  [Twitter](https://twitter.com/sandro_asp)
+
+Notes about Enterprise Integration: BizTalk Server, Azure Service Bus, Logic Apps, API Management, and everything integration-related.
 
 ## Dave Rendón
 [Blog](https://wikiazure.com/)  |  [Twitter](https://twitter.com/DaveRndn)

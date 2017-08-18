@@ -60,5 +60,4 @@
 ### [Tracing an adapter](trace-an-adapter-with-the-wcf-lob-adapter-sdk.md)
 ### [Use performance counters](use-performance-counters-with-the-wcf-lob-adapter-sdk.md)
 ### [Generate WSDL](generate-wsdl-with-the-wcf-lob-adapter-sdk.md)
-## [Technical Reference](technical-reference-for-the-wcf-lob-adapter-sdk.md)
-### [WCF LOB Adapter SDK Managed Reference](wcf-lob-adapter-sdk-managed-reference.md)
+

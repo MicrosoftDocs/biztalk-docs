@@ -12,8 +12,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "btarn_default"
 ms.assetid: 04c3a612-6cbc-4595-af81-dec3261803af
 ms.author: "mandia"
 ---

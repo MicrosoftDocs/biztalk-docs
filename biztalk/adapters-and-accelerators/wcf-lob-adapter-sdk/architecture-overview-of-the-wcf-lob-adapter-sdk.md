@@ -1,5 +1,6 @@
 ---
 title: "Architecture overview of the WCF LOB Adapter SDK | Microsoft Docs"
+description: Introduction to handlers, channel implementation, connection management, metadata, and using WSDL in the WCF LOB Adapter SDK
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -76,5 +77,3 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is b
 ## Metadata generation  
  *Metadata generation* allows for generating code for the client (for outbound scenarios) and for the service (for inbound scenarios) based on operations selected by the adapter consumer. Even though we recommend that adapter consumers use the tools [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] ([!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] in case of BizTalk applications), the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] provides a public interface `Microsoft.ServiceModel.Channels.MetadataRetrievalClient.GetMetadata%2A` to retrieve the System.Web.Services.Description.ServiceDescription, which represents a Web Service Description Language (WSDL) containing information about selected operations and types. Adapter writers make use of the metadata object model for the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] that includes classes derived from `Microsoft.ServiceModel.Channels.Common.OperationMetadata` and `Microsoft.ServiceModel.Channels.Common.TypeMetadata` to describe the details of each operation and type.  
   
-## See Also  
- [Technical Reference for the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/technical-reference-for-the-wcf-lob-adapter-sdk.md)
