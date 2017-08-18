@@ -228,8 +228,6 @@
 #### [Delimiters Known Issues](delimiters-known-issues.md)
 #### [Z Segment Known Issues](z-segment-known-issues.md)
 #### [Miscellaneous Known Issues](miscellaneous-known-issues2.md)
-## [Glossary and UI help](hl7-technical-reference.md)
-### [Glossary](glossary1.md)
 ### [Parties - BTAHL7 Configuration Explorer](parties-tab.md)
 #### [Party Aliases tab](party-aliases-tab.md)
 #### [Batch Definition tab](batch-definition-tab.md)
@@ -240,3 +238,4 @@
 #### [Help Desk tab](help-desk-tab.md)
 ### [Global Settings - BTAHL7 Configuration Explorer](global-settings-tab.md)
 ### [MLLP Transport Properties UI help](mllp-transport-properties-dialog-box-ui-help.md)
+## ### [Terms and definitions](glossary1.md)
