@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Node Types and IDs for the Siebel adapter
+# Node types and IDs for the Siebel adapter
 
 ## Metadata node types and IDs 
  The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces Siebel system artifacts in a hierarchical manner. The following table describes the node types and node IDs for Siebel artifacts surfaced by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  

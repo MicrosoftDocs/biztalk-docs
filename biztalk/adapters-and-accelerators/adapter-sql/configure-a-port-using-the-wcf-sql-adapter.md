@@ -1,5 +1,6 @@
 ---
-title: "Configure a port using the WCF-SQL adapter | Microsoft Docs"
+title: "Configure a port using the WCF-SQL adapter in BizTalk | Microsoft Docs"
+description: Create WCF-SQL send and receive ports to use the SQL Server adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -20,10 +21,8 @@ This topic provides instructions on how to configure WCF-SQL send and receive po
 ## Prerequisites  
 Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx).
   
-## Deploying Adapters for Sending Messages to SQL Server  
+## Deploy adapters to send messages to SQL Server  
  Perform the following steps to configure a WCF-SQL send port for sending messages to SQL Server using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
-  
-#### To deploy adapters for sending messages to SQL Server  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -43,7 +42,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     1.  Click the **General** tab, click the **Configure** button, and provide values for the connection parameters. For more information about the connection URI for the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Create the SQL Server Connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See individual topics in [Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on a table in a SQL Server database is:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on a table in a SQL Server database is:  
   
         ```  
         TableOp/Insert/dbo/Employee  
@@ -82,10 +81,8 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 12. Click **OK**.  
   
-## Deploying Adapters for Receiving Messages from SQL Server  
+## Deploy adapters to receive messages from SQL Server  
  Perform the following steps to configure a WCF-SQL receive port for receiving messages from SQL Server using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
-  
-#### To deploy adapters for receiving messages from SQL Server  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   

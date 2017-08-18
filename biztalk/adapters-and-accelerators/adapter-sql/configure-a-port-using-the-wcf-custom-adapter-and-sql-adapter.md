@@ -1,5 +1,6 @@
 ---
-title: "Configure a port using the WCF-custom adapter and SQL adapter | Microsoft Docs"
+title: "Configure a port using the WCF-custom adapter and SQL adapter in BizTalk | Microsoft Docs"
+description: Create WCF-custom send and receive ports to use the SQL Server adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,16 +16,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure a port using the WCF-custom adapter and SQL adapter
-This topic provides instructions on how to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
+Steps to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
   
 ## Prerequisites  
 Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx). 
   
-## Deploying Adapters for Sending Messages to SQL Server  
- Perform the following steps to configure a WCF-Custom send port for sending messages to SQL Server using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
-  
-#### To deploy adapters for sending messages to SQL Server  
-  
+## Deploy adapters to send messages to SQL Server  
+ Perform the following steps to configure a WCF-Custom send port for sending messages to SQL Server using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.    
+ 
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
 2.  In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
@@ -41,7 +40,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     1.  Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for SQL Server. For more information about the connection URI, see [Create the SQL Server connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See the [Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on a table in a SQL Server database is:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on a table in a SQL Server database is:  
   
         ```  
         TableOp/Insert/dbo/Employee  
@@ -77,10 +76,8 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 11. Click **OK**.  
   
-## Deploying Adapters for Receiving Messages from SQL Server  
+## Deploy adapters to receive messages from SQL Server
  Perform the following steps to configure a WCF-Custom receive port for receiving messages from SQL Server using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
-  
-#### To deploy adapters for receiving messages from SQL Server  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   

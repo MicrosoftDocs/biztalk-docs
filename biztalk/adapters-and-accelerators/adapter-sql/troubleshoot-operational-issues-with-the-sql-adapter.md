@@ -1,5 +1,6 @@
 ---
-title: "Troubleshoot Operational Issues with the SQL adapter | Microsoft Docs"
+title: "Troubleshoot Operational Issues with the SQL adapter in BizTalk| Microsoft Docs"
+description: Common issues and resolutions for the SQL adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -73,7 +74,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-soap-action-for-the-sql-adapter.md). See [Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md) to see a list of actions for each operation.  
+ Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-soap-action-for-the-sql-adapter.md). See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md) to see a list of actions for each operation.  
   
 ###  <a name="BKMK_SQLInvalidOp"></a> InvalidOperationException with ErrorCode=5 while performing FILESTREAM operations  
  **Problem**  

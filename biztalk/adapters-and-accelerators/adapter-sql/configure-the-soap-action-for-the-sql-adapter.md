@@ -1,5 +1,6 @@
 ---
-title: "Configure the SOAP action for the SQL adapter | Microsoft Docs"
+title: "Configure the SOAP action for the SQL adapter in BizTalk | Microsoft Docs"
+description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-SQL adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -66,7 +67,7 @@ To perform any operation on SQL Server using the WCF-based [!INCLUDE[adaptersqls
   
          The action mapping approach provides greater flexibility in terms of specifying a set of actions, and hence enabling messages that belong to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see the [Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md).
   
 ### Enter a SOAP action for the WCF-SQL port  
   
@@ -99,7 +100,7 @@ To perform any operation on SQL Server using the WCF-based [!INCLUDE[adaptersqls
   
          The action mapping approach provides greater flexibility in terms of specifying a set of actions, and hence enabling messages that belong to different action types to flow through the same port.  
   
-         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see the [Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md).  
+         The format for the SOAP action is different for each operation. For more information about the action format for each operation, see [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md).
   
 ## See Also  
 [Building blocks to develop BizTalk applications with the SQL adapter](../../adapters-and-accelerators/adapter-sql/building-blocks-to-develop-biztalk-applications-with-the-sql-adapter.md)

@@ -1,5 +1,6 @@
 ---
 title: "Execute stored procedures with a single XML parameter in SQL Server using BizTalk Server | Microsoft Docs"
+description: Pass a single parameter in a stored procedure using WCF-Custom port and the SQL adapter in BizTalk 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,14 +16,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Execute stored procedures with a single XML parameter in SQL Server using BizTalk Server
-Executing a stored procedure that takes a single parameter is similar to executing any other stored procedure as described in [Execute Stored Procedures in SQL Server using BizTalk Server](../../adapters-and-accelerators/adapter-sql/execute-stored-procedures-in-sql-server-using-biztalk-server.md). However, for the approach described in the preceding link, you need to generate metadata for the stored procedure at design time and create an orchestration to invoke the procedure at run time.  
+Executing a stored procedure that takes a single parameter is similar to executing any other stored procedure as described in [Execute Stored Procedures in SQL Server using BizTalk Server](execute-stored-procedures-in-sql-server-using-biztalk-server.md). However, for the approach described in the preceding link, you need to generate metadata for the stored procedure at design time and create an orchestration to invoke the procedure at run time.  
   
- Consider a scenario where you just want to pass one single value to a stored procedure without doing any processing on that value. In such cases, you do not want the overhead of generating metadata, creating an orchestration, deploying the orchestration, and executing the operation. Rather, you can configure a WCF-Custom or WCF-SQL send port to directly invoke the stored procedure. This topic demonstrates how to perform these tasks using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+ Consider a scenario where you just want to pass one single value to a stored procedure without doing any processing on that value. In such cases, you don't want the overhead of generating metadata, creating an orchestration, deploying the orchestration, and executing the operation. Rather, you can configure a WCF-Custom or WCF-SQL send port to directly invoke the stored procedure. This topic demonstrates how to perform these tasks using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
 > [!NOTE]
->  This topic provides instructions on how to configure a WCF-Custom send port for executing stored procedure that takes a single parameter. You can perform the same steps by configuring a WCF-SQL port. For instructions on configuring WCF-SQL port, see [Configure a Port using the WCF-SQL Adapter](../../adapters-and-accelerators/adapter-sql/configure-a-port-using-the-wcf-sql-adapter.md).  
+>  This topic provides instructions on how to configure a WCF-Custom send port for executing stored procedure that takes a single parameter. You can perform the same steps by configuring a WCF-SQL port. For instructions on configuring WCF-SQL port, see [Configure a Port using the WCF-SQL Adapter](configure-a-port-using-the-wcf-sql-adapter.md).  
   
-## How This Topic Demonstrates Invoking Stored Procedures Without an Orchestration  
+## Invoke stored procedures without orchestration  
  To demonstrate how to execute stored procedures with single parameters without an orchestration, this topic uses the ADD_LAST_EMP_XML_INFO stored procedure. This procedure takes an XML value as a parameter and inserts it into the **Address** column of the **Employee** table. You must have the XML value that you will pass to the stored procedure. However, to execute the stored procedure using the adapter, you must send a request message conforming to the schema of the procedure, and containing the XML value for the **Address** field, to the SQL Server. So, you must create that request message by:  
   
 -   Using the **Template** option in the send port configuration using which you can create a request message using a message template.  
@@ -40,10 +41,8 @@ Executing a stored procedure that takes a single parameter is similar to executi
 > [!NOTE]
 >  Even though the information in this topic demonstrates how to execute a stored procedure with a single XML parameter, you can perform the tasks to perform any operation that takes a single parameter of any data type. The only difference will be in the way you create a message template for a specific operation. You can create a message template by taking the request message you would use to execute the operation using an orchestration and replacing the value of the parameter with the BizTalk message body.  
   
-##  <a name="BKMK_OneWay"></a> Configuring a WCF-Custom Send Port  
+##  <a name="BKMK_OneWay"></a> Configure a WCF-Custom send port  
  Before creating the WCF-Custom send port, make sure you created the FILE receive port, **MessageIn**.  
-  
-#### To configure a WCF-Custom send port  
   
 1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -71,7 +70,7 @@ Executing a stored procedure that takes a single parameter is similar to executi
   
     1.  Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for SQL Server. For more information about the connection URI, see [Create the SQL Server Connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See individual topics in [Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md) for a list of actions for each operation. For example, the action to invoke the ADD_LAST_EMP_XML_INFO is:  
+    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md) for a list of actions for each operation. For example, the action to invoke the ADD_LAST_EMP_XML_INFO is:  
   
         ```  
         Procedure/dbo/ADD_LAST_EMP_XML_INFO  
@@ -120,7 +119,7 @@ Executing a stored procedure that takes a single parameter is similar to executi
   
 11. Click **OK**.  
   
-## Starting the Application  
+## Start the Application  
  To start the BizTalk application, you can start both the FILE receive location and the WCF-Custom send port individually. You must now copy an XML file to the folder mapped to the FILE receive location. The BizTalk application consumes the file, and the XML value is inserted in the Address column of the Employee table. You can verify this by using a SQL Server client and selecting records from the Employee table.  
   
 ## Using a Two-way WCF-Custom Send Port  

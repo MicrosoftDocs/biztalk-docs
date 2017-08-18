@@ -1,5 +1,6 @@
 ---
 title: "Messages and Message Schemas for BizTalk Adapter for SQL Server | Microsoft Docs"
+description: XML structure of messages and data types used by the SQL Server adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for SQL Server
+
+## Overview
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. It exposes operations that applications can invoke on it and that it can, in turn, invoke on applications. These operations are invoked by sending SOAP messages over a channel. If a response is required, it is returned in a SOAP message over the same channel.  
   
  As a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] service, the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes metadata for its operations and data types by using standard [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] mechanisms. The sections in this topic describe the XML structure of the messages and data types that the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] uses.  
@@ -35,5 +38,3 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] is a [!INCLUDE[first
   
 -   [Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations](../../adapters-and-accelerators/adapter-sql/executenonquery-executereader-and-executescalar-message-schemas-in-sql.md)  
   
-## See Also  
-[Technical reference](../../adapters-and-accelerators/adapter-sql/technical-reference-for-the-sql-adapter.md)
