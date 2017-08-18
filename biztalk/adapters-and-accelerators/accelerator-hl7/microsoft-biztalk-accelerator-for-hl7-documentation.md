@@ -43,8 +43,6 @@ manager: "anneta"
 ## Troubleshooting
 [Troubleshooting and known issues in HL7](../../adapters-and-accelerators/accelerator-hl7/troubleshooting-and-known-issues-in-hl7.md) provides details on troubleshooting batching & acknowledgements, and includes some known issues.
 
-## Reference
-[Technical reference](../../adapters-and-accelerators/accelerator-hl7/hl7-technical-reference.md) includes managed reference, and more details on parties, global settings, and more.
-  
+
 ## Online community  
  To participate in the online community discussions, go to [MSDN BizTalk Server adapters forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=biztalkr2adapters).

@@ -23,24 +23,26 @@ Adapter developers design and develop WCF-based adapters to line-of-business sys
   
  To help adapter developers be as effective as possible, the following lists provide links for tutorials and general information about developing adapters using [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].  
   
- **Concepts**  
+**Concepts**  
   
 -   [What Is the Windows Communication Foundation Line of Business Adapter SDK](what-is-the-windows-communication-foundation-line-of-business-adapter-sdk.md)  
   
- **Development**  
+
+**Development**  
   
  
 -   [Key Components of the WCF LOB Adapter SDK](key-components-of-the-wcf-lob-adapter-sdk.md) 
   
--   "Extending the Channel Layer" at [http://go.microsoft.com/fwlink/?LinkId=100316](http://go.microsoft.com/fwlink/?LinkId=100316)  
+-   [Extending the Channel Layer](https://docs.microsoft.com/dotnet/framework/wcf/extending/extending-the-channel-layer)  
   
- **Tutorials**  
+
+**Tutorials**  
   
 -   [Tutorials to learn the WCF LOB Adapter SDK](tutorials-to-learn-the-wcf-lob-adapter-sdk.md) 
   
- To the adapter consumer, consuming an adapter is the same as consuming a WCF service. For more information, see the WCF documentation at [http://go.microsoft.com/fwlink/?LinkID=89231](http://go.microsoft.com/fwlink/?LinkID=89231).  
+    To the adapter consumer, consuming an adapter is the same as consuming a WCF service. Get started learning about WCF at [Developing Service-Oriented Applications with WCF)](https://docs.microsoft.com/dotnet/framework/wcf).
   
- The following topics in particular are useful reading for adapter consumers:  
+    The following topics may be useful for adapter consumers:  
   
 -   [What Is Windows Communication Foundation](https://docs.microsoft.com/dotnet/framework/wcf/whats-wcf)  
   
