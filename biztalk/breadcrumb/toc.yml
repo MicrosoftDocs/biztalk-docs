@@ -11,7 +11,7 @@
   - name: BizTalk Server Core Documentation
     tocHref: /biztalk/core/
     topicHref: /biztalk/core/biztalk-server-core-documentation
-  - name: Adapters &amp; Accelerators
+  - name: 'Adapters & Accelerators'
     tocHref: /biztalk/adapters-and-accelerators/
     topicHref: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
     items: 
