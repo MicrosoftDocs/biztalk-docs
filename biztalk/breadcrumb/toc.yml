@@ -1,0 +1,53 @@
+- name: BizTalk Server
+  tocHref: /biztalk/
+  topicHref: /biztalk/index
+  items:
+  - name: Technical Guides
+    tocHref: /biztalk/technical-guides/
+    topicHref: /biztalk/technical-guides/biztalk-technical-guides
+  - name: "BizTalk Server What's New, Installation, Configuration, and Upgrade"
+    tocHref: /biztalk/install-and-config-guides/
+    topicHref: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
+  - name: BizTalk Server Core Documentation
+    tocHref: /biztalk/core/
+    topicHref: /biztalk/core/biztalk-server-core-documentation
+  - name: Adapters &amp; Accelerators
+    tocHref: /biztalk/adapters-and-accelerators/
+    topicHref: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
+    items: 
+    - name: HL7
+      tocHref: /biztalk/adapters-and-accelerators/accelerator-hl7/
+      topicHref: /biztalk/adapters-and-accelerators/accelerator-hl7/microsoft-biztalk-accelerator-for-hl7-documentation
+    - name: Rosettanet
+      tocHref: /biztalk/adapters-and-accelerators/accelerator-rosettanet/
+      topicHref: /biztalk/adapters-and-accelerators/accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation
+    - name: SWIFT
+      tocHref: /biztalk/adapters-and-accelerators/accelerator-swift/
+      topicHref: /biztalk/adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation
+    - name: Oracle database
+      tocHref: /biztalk/adapters-and-accelerators/adapter-oracle-database/
+      topicHref: /biztalk/adapters-and-accelerators/adapter-oracle-database/microsoft-biztalk-adapter-for-oracle-database-documentation
+    - name: Oracle EBS
+      tocHref: /biztalk/adapters-and-accelerators/adapter-oracle-ebs/
+      topicHref: /biztalk/adapters-and-accelerators/adapter-oracle-ebs/microsoft-biztalk-adapter-for-oracle-e-business-suite-documentation
+    - name: SAP
+      tocHref: /biztalk/adapters-and-accelerators/adapter-sap/
+      topicHref: /biztalk/adapters-and-accelerators/adapter-sap/microsoft-biztalk-adapter-for-mysap-business-suite-documentation
+    - name: Siebel
+      tocHref: /biztalk/adapters-and-accelerators/adapter-siebel/
+      topicHref: /biztalk/adapters-and-accelerators/adapter-siebel/microsoft-biztalk-adapter-for-siebel-ebusiness-applications-documentation
+    - name: SQL Server
+      tocHref: /biztalk/adapters-and-accelerators/adapter-sql/
+      topicHref: /biztalk/adapters-and-accelerators/adapter-sql/microsoft-biztalk-adapter-for-sql-server-documentation
+    - name: FileAct
+      tocHref: /biztalk/adapters-and-accelerators/fileact-interact/
+      topicHref: /biztalk/adapters-and-accelerators/fileact-interact/microsoft-biztalk-server-fileact-and-interact-adapters-documentation
+    - name: BizTalk Adapter Pack
+      tocHref: /biztalk/adapters-and-accelerators/wcf-lob-adapter-sdk/
+      topicHref: /biztalk/adapters-and-accelerators/wcf-lob-adapter-sdk/microsoft-wcf-line-of-business-adapter-sdk-documentation
+  - name: ESB Toolkit
+    tocHref: /biztalk/esb-toolkit/
+    topicHref: /biztalk/esb-toolkit/microsoft-biztalk-esb-toolkit
+  - name: Feature Pack 1
+    tocHref: /biztalk/feature-pack-1/
+    topicHref: /biztalk/feature-pack-1/feature-pack-1-rest-api-reference
