@@ -1,5 +1,6 @@
 ---
-title: "Install and configure the management REST APIs in BizTalk Server | Microsoft Docs"
+title: "Install and configure the management REST APIs | Microsoft Docs"
+description: Query the status of the artifacts in your BizTalk environment using management data REST APIs with Feature Pack 1 in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -18,7 +19,7 @@ manager: "anneta"
 Use a Windows PowerShell script to enable REST APIs that remotely manage your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
 
 ## What are Management data APIs
-Management data APIs are the endpoints that let you remotely update, add, and query the status of different artifacts in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environment. The endpoints are added using REST, and come with a Swagger definition. [See the REST API reference](../feature-pack-1/feature-pack-1-rest-api-reference.md).
+Management data APIs are the endpoints that let you remotely update, add, and query the status of different artifacts in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environment. The endpoints are added using REST, and come with a Swagger definition. 
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, there's a Windows PowerShell script that installs these REST APIs, and their swagger definitions. These APIs make REST calls to remotely manage ports, orchestrations, partners, agreements, pipelines, and more. 
 
@@ -44,9 +45,8 @@ This topic shows you how to install the REST APIs.
 
 5. The Swagger definitions loads. You can also change who has access by updating the **web.config** file in the root folder of the Management Application.
 
-The REST APIs are exposed through the machine, and can be accessed and executed by other applications. The [REST API reference](../feature-pack-1/feature-pack-1-rest-api-reference.md) shows what you artifacts you can access, and how.
+The REST APIs are exposed through the machine, and can be accessed and executed by other applications. 
 
 
 ## See also
-[REST API reference](../feature-pack-1/feature-pack-1-rest-api-reference.md)  
  [Configure the Feature Pack](../core/configure-the-feature-pack.md)

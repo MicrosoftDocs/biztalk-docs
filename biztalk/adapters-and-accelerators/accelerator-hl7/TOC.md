@@ -238,4 +238,4 @@
 #### [Help Desk tab](help-desk-tab.md)
 ### [Global Settings - BTAHL7 Configuration Explorer](global-settings-tab.md)
 ### [MLLP Transport Properties UI help](mllp-transport-properties-dialog-box-ui-help.md)
-## ### [Terms and definitions](glossary1.md)
+## [Terms and definitions](glossary1.md)

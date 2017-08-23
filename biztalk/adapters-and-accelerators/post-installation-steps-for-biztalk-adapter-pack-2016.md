@@ -1,5 +1,6 @@
 ---
 title: "Post installation steps for BizTalk Adapter Pack 2016 | Microsoft Docs"
+description: Steps to complete after you install BAP 2016, including add adapter to BizTalk Administration, update Oracle, and register adapter bindings.
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -61,8 +62,8 @@ When you configure a port to use the WCF-OracleDB adapter or use Visual Studio t
     >  In this example, we set *newVersion* to 2.112.1.00. Set this value to the version you have installed.  
   
 > [!IMPORTANT]
->  -   If there are multiple BizTalk Servers in this group, make this change on all the BizTalk servers in the group.  
-> -   The *newVersion* value needs to be updated based on the version of the Oracle.DataAccess.dll file installed on the computer.  Oracle.DataAccess.dll is included with the Oracle Client you install from Oracle.  You must only install an Oracle Client version that is [supported by the BizTalk Adapter Pack](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx).  
+> - If there are multiple BizTalk Servers in this group, make this change on all the BizTalk servers in the group.  
+> - The *newVersion* value needs to be updated based on the version of the Oracle.DataAccess.dll file installed on the computer.  Oracle.DataAccess.dll is included with the Oracle Client you install from Oracle.  You must only install an Oracle Client version that is [supported by the BizTalk Adapter Pack](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx).  
   
 ## Create SQL Server Database objects (SAP adapter only)  
  To invoke tRFCs in an SAP system, run the *SapAdapter-DbScript-Install.sql* SQL script. This script is installed with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation, and creates database objects in SQL Server. The script is typically installed at *\<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]*. You can run this script against any SQL Server database, as long as you enter that database name while using the adapter to invoke tRFCs.
