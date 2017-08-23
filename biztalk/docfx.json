@@ -30,7 +30,7 @@
         "globalMetadata": {
             "breadcrumb_path": "/biztalk/breadcrumb/toc.json",
             "layout": "Conceptual",
-            "titleSuffix": "BizTalk Server",
+            "titleSuffix": "-BizTalk Server",
             "uhfHeaderId": "MSDocsHeader-BizTalk"
         },
         "fileMetadata": {},
