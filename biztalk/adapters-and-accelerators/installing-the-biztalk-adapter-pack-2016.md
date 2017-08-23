@@ -1,5 +1,6 @@
 ---
-title: "Installing the BizTalk Adapter Pack 2016 | Microsoft Docs"
+title: "Install the BizTalk Adapter Pack 2016 | Microsoft Docs"
+description: Typical or custom installation of BAP 2016, 32-bit vs 64-bit, install in silent mode 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -14,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Installing the BizTalk Adapter Pack 2016
+# Install the BizTalk Adapter Pack 2016
 Install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] in the following two ways:  
   
 -   **In interactive mode**: Run the setup wizard  
@@ -22,8 +23,8 @@ Install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.
 -   **In silent mode**: Use the command line  
   
 > [!IMPORTANT]
->  - You must have administrative privileges on the computer where you install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], irrespective of whether you are installing using the wizard, or the command line.  
-> -  Be sure all the [software prerequisites](../adapters-and-accelerators/software-prerequisites-for-biztalk-adapter-pack-2016.md) are installed before installing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
+> - You must have administrative privileges on the computer where you install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], irrespective of whether you are installing using the wizard, or the command line.  
+> - Be sure all the [software prerequisites](../adapters-and-accelerators/software-prerequisites-for-biztalk-adapter-pack-2016.md) are installed before installing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
 
 ## Typical vs custom installation  
 Lists the installation types, and the features that are installed with each option:  
