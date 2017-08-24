@@ -1,5 +1,5 @@
 ---
-title: "Monitor BizTalk Server | Microsoft Docs"
+title: "Monitor the health and performance using built-in tools | Microsoft Docs"
 description: Availability, health, and performance monitoring in BizTalk Server, and monitor SQL Agent jobs
 ms.custom: ""
 ms.date: "01/14/2016"
@@ -9,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "monitoring, BizTalk Server"
-  - "BizTalk Server, monitoring"
 ms.assetid: 96e244dc-b826-4a9f-a4e1-6dabc41eb144
 caps.latest.revision: 20
 author: "MandiOhlinger"
@@ -113,3 +110,5 @@ Monitoring your BizTalk Server applications and infrastructure on a regular basi
 -   [Monitoring EDI and AS2 Solutions](../core/monitoring-edi-and-as2-solutions.md)  
   
 -   [Tracking Dependencies Between Artifacts in a BizTalk Server Application](../core/tracking-dependencies-between-artifacts-in-a-biztalk-server-application.md)
+
+- [Performance Counters](performance-counters.md)

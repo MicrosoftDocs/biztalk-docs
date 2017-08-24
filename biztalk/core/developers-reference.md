@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developers reference"
-  - "technical reference, developers reference"
 ms.assetid: cd392f20-cbe1-4806-8739-1ed2c428b54e
 caps.latest.revision: 15
 author: "MandiOhlinger"
@@ -31,8 +28,6 @@ This section contains the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
 -   [Map Property Reference](../core/map-property-reference.md)  
   
 -   [Functoid Reference](../core/functoid-reference.md)  
-  
--   [BizTalk Server .NET Class Reference](../core/biztalk-server-net-class-reference.md)  
   
 -   [WCF Adapters Service Contract Reference](../core/wcf-adapters-service-contract-reference.md)  
   

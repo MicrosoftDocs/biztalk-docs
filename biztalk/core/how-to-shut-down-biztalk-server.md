@@ -35,7 +35,7 @@ This topic describes how to perform an orderly shutdown of [!INCLUDE[btsBizTalkS
   
      How you proceed with this step depends to some extent on which version of IIS you are using. IIS 6 permits you to stop application pools and Web sites. With IIS 6 you can also stop the IIS Admin Service to shut down all IIS activity including application pools and Web sites. IIS 7.0 is more modular than IIS 6.0, and there is no single switch you can use to stop all IIS 7.0 activities, so you will need to stop Web sites and application pools separately.  
   
-     For a list of application pools and virtual applications (Web sites and Web services) used by BizTalk Server, see [IIS Application Pools and Web Sites](../core/iis-application-pools-and-web-sites.md).  
+     For a list of application pools and virtual applications (Web sites and Web services) used by BizTalk Server, see [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).  
   
  For information about starting and stopping application pools in IIS 7.0, see [http://go.microsoft.com/fwlink/?LinkID=140513](http://go.microsoft.com/fwlink/?LinkID=140513).  
   
@@ -45,4 +45,3 @@ This topic describes how to perform an orderly shutdown of [!INCLUDE[btsBizTalkS
  [How to Start and Stop a BizTalk Application](../core/how-to-start-and-stop-a-biztalk-application.md)   
  [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md)   
  [How to Start, Stop, Pause, Resume, or Restart BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)   
- [IIS Application Pools and Web Sites](../core/iis-application-pools-and-web-sites.md)

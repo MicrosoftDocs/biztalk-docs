@@ -1,5 +1,6 @@
 ---
-title: "Glossary5 | Microsoft Docs"
+title: "Common terms and definitions | Microsoft Docs"
+description: Glossary of terms and and their meanings for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "glossary"
-  - "technical reference, glossary"
 ms.assetid: ac9c7c7d-a97e-425a-9666-02ca6edd8be6
 caps.latest.revision: 68
 author: "MandiOhlinger"
@@ -20,9 +18,7 @@ manager: "anneta"
 # Glossary
 The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
-## Terms  
-  
-### .  
+## .  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -35,7 +31,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |.xsd file|A BizTalk Server schema file.|  
 |||  
   
-### A  
+## A  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -71,7 +67,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |attribute|In XML, an XML construct used to associate additional information with XML elements.|  
 |Authentication Trusted|A means of marking each application indicating that the application can submit messages into the message box with a Party ID (PID) that is different (that is, not aliased by) the Windows Security ID of the application instance service account.|  
   
-### B  
+## B  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -134,7 +130,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |Business Rule Language|A rule markup language in XML format for declarative rule definitions.|  
 |business-to-business|Relating to the sales category pertaining to transactions and related activity between a business and buyers who are not consumers, such as government bodies, companies, and resellers. Refers to one business communicating with or selling to another.|  
   
-### C  
+## C  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -166,7 +162,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |custom numbers|A series of numbers assigned by a counter that increases the value of each number by one.|  
 |cyclical reference|A pattern in an XML schema in which a descendant node is declared to be of the same complex type as one of its ancestor nodes, thereby creating a schema that represents instance messages with potentially unlimited depth.|  
   
-### D  
+## D  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -201,7 +197,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |dynamic policy update|The run-time retrieval of policies using the Rule Engine Update service.|  
 |dynamic port|A send port that does not have a destination address and adapter type associated with it. A dynamic send port allows the association of the destination address and adapter type with itself during runtime execution, thus providing flexibility in using the same port for sending messages to different destinations using different adapter types.|  
   
-### E  
+## E  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -234,7 +230,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |Extensible Stylesheet Language Transformations (XSLT)|Evolved from the early Extensible Stylesheet Language (XSL) standard. XSL specifies a language definition for XML data presentation and data transformations. Data presentation means displaying data in some format and/or medium, and concerns style. Data transformation refers to parsing an input XML document into a tree of nodes, and then converting the source tree into a result tree. Transformation concerns data exchange.|  
 |external message format|The format of the message before or after it is processed by BizTalk Server. Sometimes the term "wire" format is also used when referring to external message format.|  
   
-### F  
+## F  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -255,7 +251,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |Functoid IntelliSense|A BizTalk Mapper functionality in which visual cues are provided on the grid surface, when there are errors in functoid configuration.|  
 |functoid toolbox|A dockable window in Visual Studio that serves as the palette of functoids available for use during map construction. Functoids are organized into different toolbox tabs based on their intended purpose.|  
   
-### G  
+## G  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -267,7 +263,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |group trailer|In EDI, the part of the message used to indicate the end of a functional group of documents.|  
 |GS segment|In EDI, the functional group header segment of a set of ANSI X.12 documents (transaction sets) of the same document type. This required segment contains information about a group of transaction sets in the interchange, such as Application Sender Code, Application Receive Code, Group Control Number, Version/Release/Industry ID, and so on.|  
   
-### H  
+## H  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -285,7 +281,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |host type|A property that determines whether the host is controlled within or outside of the BizTalk Server process. Host types are In-process or Isolated.|  
 |HTTP adapter|An adapter that enables exchange of messages between BizTalk Server and any application using the HTTP or HTTPS protocol.|  
   
-### I  
+## I  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -311,13 +307,13 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |Isolated host|A host type that operates outside of the BizTalk Server installation. An Isolated host cannot have orchestrations enlisted to it, host a send handler, use host tracking, or be used as the default host for the group. Only those receive handlers for Isolated hosts (HTTP, SOAP) can be hosted by an Isolated host.|  
 |isolated receive adapter|The receive adapter that is hosted in a process other than a BizTalk Server process. This adapter is created and controlled by external process and it registers with BizTalk server at run time to submit messages.|  
   
-### K  
+## K  
   
 |Term|Definition|  
 |----------|----------------|  
 |Key Performance Indicator (KPI)|Customizable business metrics provided by Analysis Services. KPIs consist of relevant attributes and associated calculations that generate industry-standard goals and benchmarks. A KPI collection includes a measure, a goal, display properties, and variances. Companies use KPIs to track performance and improve decision-making abilities.|  
   
-### L  
+## L  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -328,7 +324,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |long-running transaction|A collection of actions treated as a unit, typically used to maintain an appropriate state in a robust and predictable fashion. The transaction can take place over an indefinite period of time and contain several nested transactions.|  
 |looping record|A structure that can have more than one occurrence in an instance message.|  
   
-### M  
+## M  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -362,7 +358,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |mixed content|The content of a particular XML element that contains both subelements and data that is not within the subelements. An example from HTML is: &lt;P&gt;Full moons &lt;EM&gt;always&lt;/EM&gt; rise at sunset, more or less.&lt;/P&gt;|  
 |multi-part message type|A definition of the structure of a message, including the data types of its elements. A multi-part message type can contain a single part or many parts.|  
   
-### N  
+## N  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -371,7 +367,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |native pipeline component|A pipeline component that is provided by Microsoft and ships with BizTalk Server.  Examples of this are the Flat File disassembler, the XML disassembler, and  the S/MIME Decoder.|  
 |node|The entry in a schema tree displayed within BizTalk Editor and BizTalk Mapper.|  
   
-### O  
+## O  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -388,7 +384,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |Orchestration Designer|A graphical user interface tool used to design and implement business processes.|  
 |orchestration instance|A running instance of a specific executable business process.|  
   
-### P  
+## P  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -421,13 +417,13 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |publish/subscribe architecture|The combination of publication and subscription used  to move messages between subsystems. For example, receive ports receive messages, process them and  publish them to the MessageBox. BizTalk Server routes these messages to subscribing orchestrations or send ports that further process the documents and either republish them to the MessageBox or send them to external systems.|  
 |publishing|The act of storing a message instance in the MessageBox database so that it can be matched to a subscription from a consuming application.|  
   
-### Q  
+## Q  
   
 |Term|Definition|  
 |----------|----------------|  
 |Query Expression|A group of query clauses on the Group Hub page that you can use to create and run queries against the BizTalk Tracking database.|  
   
-### R  
+## R  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -456,7 +452,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |Rules Engine Update service|A service that performs dynamic policy updates.|  
 |Rules store|A location for persisting policies. A SQL Server database is the default rule store.|  
   
-### S  
+## S  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -509,7 +505,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |suspended instance|An instance of a message or orchestration that BizTalk Server has stopped processing, due to an error in the system or the message. Generally, suspended instances caused by system errors are resumable upon resolution of the system issue. Often, suspended instances due to a message problem are not resumable, and the message itself must be fixed and resubmitted to the BizTalk Server system.|  
 |Suspended queue|A queue that contains work items for which an error or failure was encountered during processing. A suspended queue stores the messages until they can be corrected and reprocessed, or deleted.|  
   
-### T  
+## T  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -543,7 +539,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |Transport Layer Security|A protocol that provides communications privacy and security between two applications communicating over a network. TLS encrypts communications and enables clients to authenticate servers and, optionally, servers to authenticate clients. TLS is a more secure version of the Secure Sockets Layer (SSL) protocol.|  
 |transport protocol|A protocol that governs the transport channel used for sending messages back and forth between two partners. With respect to trading partner management (TPM), only the AS2 protocol is supported.|  
   
-### U  
+## U  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -553,7 +549,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |UNTDED|See United Nations Trade Data Elements Dictionary.|  
 |UNZ segment|In EDI, the Interchange Trailer segment of an EDIFACT document. It includes the elements Interchange Reference and Number of Documents in the interchange. The segment is used to indicate the end of an interchange and to check the interchange reference and number of documents in the interchange.|  
   
-### V  
+## V  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -562,7 +558,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |vocabulary|A collection of vocabulary elements used in rule composition.|  
 |vocabulary element|A human-readable name for facts.|  
   
-### W  
+## W  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -573,7 +569,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |work queue|A queue that contains messages to be processed by a BizTalk server.|  
 |WSDL|See Web Services Description Language.|  
   
-### X  
+## X  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -585,7 +581,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |XSD|See XML Schema Definition language.|  
 |XSLT|See Extensible Stylesheet Language Transformations.|  
   
-### Z  
+## Z  
   
 |Term|Definition|  
 |----------|----------------|  

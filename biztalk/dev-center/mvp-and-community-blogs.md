@@ -4,7 +4,7 @@ description: Blogs and website by integration and Azure MVPs, and community memb
 author: "MandiOhlinger"
 manager: "anneta"
 
-ms.date: "08/17/2017"
+ms.date: "08/23/2017"
 ms.prod: "biztalk-server"
 ms.service: "biztalk-server"
 ms.suite: ""
@@ -76,6 +76,11 @@ Notes about Enterprise Integration: BizTalk Server, Azure Service Bus, Logic App
 [Blog](https://wikiazure.com/)  |  [Twitter](https://twitter.com/DaveRndn)
 
 Get some info on resources and troubleshooting on Azure IaaS. You can also learn about Azure, hands-on labs, and general knowledge on the Microsoft cloud platform.
+
+## Wagner Silveira
+[Blog](https://notetoself.tech)  |  [Twitter](https://twitter.com/WSilveiraNZ)
+
+Things learned while working with Microsoft integration, on projects, interacting with people on social media, or replying to messages on the forums.  
 
 ## Maheshkumar S Tiwari
 [Blog](http://tech-findings.blogspot.in/)  |  [Twitter](https://twitter.com/Savvy_mahesh)
