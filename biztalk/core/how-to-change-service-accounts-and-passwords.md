@@ -8,27 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Configuration Manager, service accounts"
-  - "passwords"
-  - "BAM Notification service account"
-  - "passwords, service accounts"
-  - "Configuration Manager, passwords"
-  - "Master Secret server, service accounts"
-  - "passwords, Configuration Manager"
-  - "Configuration Manager"
-  - "service accounts, passwords"
-  - "BizTalk Isolated Host Instance service account"
-  - "BAM Application Pool account"
-  - "Rule Engine Update Service account"
-  - "modifying, service accounts"
-  - "host instances, service accounts"
-  - "service accounts, modifying"
-  - "SOAP adapters, service accounts"
-  - "BAM Management Web service account"
-  - "service accounts, SSO"
-  - "service accounts, Configuration Manager"
-  - "SSO, service accounts"
 ms.assetid: dff53d6b-c262-4b66-b822-1c61f54ae105
 caps.latest.revision: 20
 author: "MandiOhlinger"
@@ -72,7 +51,6 @@ After you configure BizTalk Server, it is common for organizations to require ch
     >  The Configuration Manager does not provide a centralized place to control over multiple computers. If you install Microsoft BizTalk Server on multiple computers, you have to change service accounts and passwords on each runtime computer.  
   
 ## See Also  
- [IIS Application Pools and Web Sites](../core/iis-application-pools-and-web-sites.md)   
  [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md)   
  [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)   
  [Managing BizTalk Server Security](../core/managing-biztalk-server-security.md)   

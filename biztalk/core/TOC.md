@@ -2467,8 +2467,25 @@
 ###### [How to Export BizTalk Settings Using BTSTask](how-to-export-biztalk-settings-using-btstask.md)
 #### [How to Start, Stop, Pause, Resume, or Restart BizTalk Server Services](how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)
 #### [How to Shut Down BizTalk Server](how-to-shut-down-biztalk-server.md)
+
+
 ### [Monitoring BizTalk Server](monitoring-biztalk-server.md)
 #### [Tracking Dependencies Between Artifacts in a BizTalk Server Application](tracking-dependencies-between-artifacts-in-a-biztalk-server-application.md)
+#### [Performance Counters](performance-counters.md)
+##### [Message Box Performance Counters](message-box-performance-counters.md)
+##### [Orchestration Engine Performance Counters](orchestration-engine-performance-counters.md)
+##### [Messaging Performance Counters](messaging-performance-counters.md)
+##### [Tracking Data Decode Services Performance Counters](tracking-data-decode-services-performance-counters.md)
+##### [File Adapter Performance Counters](file-adapter-performance-counters.md)
+##### [FTP Adapter Performance Counters](ftp-adapter-performance-counters.md)
+##### [HTTP Adapter Performance Counters](http-adapter-performance-counters.md)
+##### [MSMQ Adapter Performance Counters](msmq-adapter-performance-counters.md)
+##### [POP3 Adapter Performance Counters](pop3-adapter-performance-counters.md)
+##### [SMTP Adapter Performance Counters](smtp-adapter-performance-counters.md)
+##### [SOAP Adapter Performance Counters](soap-adapter-performance-counters.md)
+##### [Windows SharePoint Services Adapter Performance Counters](windows-sharepoint-services-adapter-performance-counters.md)
+
+
 ### [Securing BizTalk Server](securing-biztalk-server.md)
 #### [Managing BizTalk Server Security](managing-biztalk-server-security.md)
 ##### [Best Practices for Managing Windows Groups and User Accounts](best-practices-for-managing-windows-groups-and-user-accounts.md)
@@ -2940,8 +2957,10 @@
 #### [How to Use Debug Diagnostics to Analyze a Memory Dump](how-to-use-debug-diagnostics-to-analyze-a-memory-dump.md)
 ### [Tools and Utilities to Use for Troubleshooting](tools-and-utilities-to-use-for-troubleshooting.md)
 ### [Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages](troubleshoot-message-validation-failures-using-the-hexadecimal-contents.md)
-## [Technical reference](technical-reference5.md)
-### [Glossary](glossary5.md)
+
+
+## [UI guidance ](technical-reference5.md)
+### [Terms and definitions](glossary5.md)
 ### [UI Reference](ui-reference.md)
 #### [Adapter UI Help](adapter-ui-help.md)
 ##### [<Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)](host-name-properties-dialog-box-properties-tab-http-adapter-send-handler.md)
@@ -3492,20 +3511,7 @@
 ##### [Keyboard Shortcuts Specific to the Process Area](keyboard-shortcuts-specific-to-the-process-area.md)
 ##### [Keyboard Shortcuts Specific to the Port Surfaces](keyboard-shortcuts-specific-to-the-port-surfaces.md)
 ##### [Keyboard Shortcuts Specific to Port Connectors](keyboard-shortcuts-specific-to-port-connectors.md)
-### [Performance Counters](performance-counters.md)
-#### [Message Box Performance Counters](message-box-performance-counters.md)
-#### [Orchestration Engine Performance Counters](orchestration-engine-performance-counters.md)
-#### [Messaging Performance Counters](messaging-performance-counters.md)
-#### [Tracking Data Decode Services Performance Counters](tracking-data-decode-services-performance-counters.md)
-#### [File Adapter Performance Counters](file-adapter-performance-counters.md)
-#### [FTP Adapter Performance Counters](ftp-adapter-performance-counters.md)
-#### [HTTP Adapter Performance Counters](http-adapter-performance-counters.md)
-#### [MSMQ Adapter Performance Counters](msmq-adapter-performance-counters.md)
-#### [POP3 Adapter Performance Counters](pop3-adapter-performance-counters.md)
-#### [SMTP Adapter Performance Counters](smtp-adapter-performance-counters.md)
-#### [SOAP Adapter Performance Counters](soap-adapter-performance-counters.md)
-#### [Windows SharePoint Services Adapter Performance Counters](windows-sharepoint-services-adapter-performance-counters.md)
-### [Services](services.md)
+
 ### [Events and Errors](events-and-errors2.md)
 #### [WCF Events and Errors](wcf-events-and-errors.md)
 ##### [WCF Run-Time Errors](wcf-run-time-errors.md)
@@ -4380,7 +4386,10 @@
 ##### [Error- The target node '{0}' has more than one unconditional Nil-Value functoid connected to it. Reduce the number to one.](error-the-target-node-has-more-than-one-unconditional-nil-value-functoid.md)
 ##### [Warning- The target node '{0}' has more than one Nil-Value functoid connected to it, with at least one being conditional. Depending on the input, the output may be incorrect.](warning-the-target-node-has-more-than-one-nil-value-functoid-connected.md)
 ##### [Error- The "{0}" functoid has place holders. Replace these with appropriate links or constants.](error-functoid-has-place-holders-in-biztalk-server.md)
-### [IIS Application Pools and Web Sites](iis-application-pools-and-web-sites.md)
+
+
+
+
 ### [Developers Reference](developers-reference.md)
 #### [COM Object Reference](com-object-reference.md)
 ##### [_BatchOperationType Enumeration (COM)](batchoperationtype-enumeration-com.md)
@@ -5450,5 +5459,4 @@
 ##### [BizTalkServiceInstance Class](biztalkserviceinstance-class.md)
 #### [Message Context Properties](message-context-properties1.md)
 #### [Enterprise Single Sign-On Flags](enterprise-single-sign-on-flags.md)
-#### [BizTalk Server .NET Class Reference](biztalk-server-net-class-reference.md)
 ### [Zombies in BizTalk Server](zombies-in-biztalk-server.md)

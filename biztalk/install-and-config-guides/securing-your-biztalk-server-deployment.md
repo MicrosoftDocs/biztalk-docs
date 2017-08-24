@@ -1,16 +1,13 @@
 ---
-title: "Securing Your BizTalk Server Deployment | Microsoft Docs"
+title: "Security overview of your deployment | Microsoft Docs"
+description: Quick links about security, encryption, user groups in your BizTalk Server deployment
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, BizTalk Server"
-  - "security, deploying [BizTalk Server]"
-  - "deploying [BizTalk Server], security"
 ms.assetid: a1c5a000-9f6b-49db-bd87-8c694240a192
 caps.latest.revision: 20
 author: "MandiOhlinger"
@@ -50,6 +47,5 @@ The topics in this section provide the links about configuring firewall ports, I
 ## See Also  
  [Access Control and Data Security](../core/access-control-and-data-security.md)   
  [Minimum Security User Rights](../core/minimum-security-user-rights.md)   
- [IIS Application Pools and Web Sites](../core/iis-application-pools-and-web-sites.md)   
  [Planning for Security](../core/planning-for-security.md)   
  [Designing the System Architectures for BizTalk Server](../core/designing-the-system-architectures-for-biztalk-server.md)   

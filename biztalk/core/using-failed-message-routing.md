@@ -10,35 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.ops.tsroutingfailure"
-helpviewer_keywords: 
-  - "ErrorReport namespace"
-  - "receive pipelines, errors"
-  - "error messages, failed messages"
-  - "error messages, triggers"
-  - "error messages"
-  - "OutboundTransportLocation property"
-  - "ReceivePortName property"
-  - "error messages, subscribing"
-  - "ErrorType property"
-  - "errors, suspended messages"
-  - "FailureCategory property"
-  - "messages, failed messages"
-  - "messages, suspended messages"
-  - "Description property"
-  - "Messaging Engine, failed messages"
-  - "MessageType property"
-  - "error messages, properties"
-  - "send ports, failed messages"
-  - "FailureCode property"
-  - "error messages, security"
-  - "suspended messages, resuming"
-  - "RoutingFailureReportID property"
-  - "InboundTransportLocation property"
-  - "errors, error messages"
-  - "adapters, messages"
-  - "errors, security"
-  - "SendPortName property"
-  - "receive ports, failed messages"
 ms.assetid: d081934c-600e-44ce-8ba4-fb646d494589
 caps.latest.revision: 33
 author: "MandiOhlinger"
@@ -69,7 +40,7 @@ The error-handling facility allows the designer to designate automated handling 
 ## Error Message Specification  
  An error message is a clone of the original failed message, with all previously promoted properties demoted and with a set of error-specific properties promoted to the message context. Previously promoted properties are demoted to avoid unintended delivery to subscribers not designated to receive the error message. The error message is published for distribution to subscribers (orchestrations, send ports, and send port groups).  
   
- The properties that are promoted to the context of an error message all fall under the **ErrorReport** namespace in [BizTalk Server .NET Class Reference](../core/biztalk-server-net-class-reference.md). They are as follows:  
+ The properties that are promoted to the context of an error message all fall under the **ErrorReport** namespace in BizTalk Server. They are as follows:  
   
 |Property name|Data type|Promoted|Description|  
 |-------------------|---------------|--------------|-----------------|  

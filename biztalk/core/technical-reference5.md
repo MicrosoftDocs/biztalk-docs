@@ -1,5 +1,5 @@
 ---
-title: "Technical Reference5 | Microsoft Docs"
+title: "Technical Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "technical reference"
 ms.assetid: b8539fc6-35fb-4c9c-bdc6-c7aefb5efe0a
 caps.latest.revision: 18
 author: "MandiOhlinger"
@@ -33,11 +31,7 @@ This section covers technical reference information about Microsoft [!INCLUDE[bt
   
 -   [Performance Counters](../core/performance-counters.md)  
   
--   [Services](../core/services.md)  
-  
 -   [Events and Errors](../core/events-and-errors2.md)  
-  
--   [IIS Application Pools and Web Sites](../core/iis-application-pools-and-web-sites.md)  
   
 -   [Minimum Security User Rights](../core/minimum-security-user-rights.md)  
   

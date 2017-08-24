@@ -1,5 +1,5 @@
 ---
-title: "Configure BizTalk Server | Microsoft Docs"
+title: "Configure using Basic or Custom configuration | Microsoft Docs"
 description: Steps to do a basic or custom configuration of BizTalk Server, and learn what happens with each configuration
 ms.custom: ""
 ms.date: "08/14/2017"
@@ -249,6 +249,26 @@ Select **Apply configuration**, and continue with the configuration.
 
 When finished, a configuration log file is generated in a temp folder, similar to: `
 C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`.
+
+## IIS application pools and web sites
+After you configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the following Internet Information Services (IIS) application pools and virtual applications may be created: 
+  
+### Application pools  
+  
+|Application Pool|Default Application Pool Identity|Description|  
+|----------------------|---------------------------------------|-----------------|  
+|BAMAppPool|*User-defined*|Application pool for the BAM Portal.|  
+|BTSSharePointAdapterWSAppPool|*User-defined*|Application pool for the Windows SharePoint Service adapter Web service.|  
+|STSWebServiceAppPool|*User-defined*|Application pool for the Trading Partner Management tools.|  
+|TpmWSAppPool|*User-defined*|Application pool for the TPM Management Web service.|  
+  
+### Virtual applications  
+  
+|Virtual Application|Default Application Pool|Description|  
+|-------------------------|------------------------------|-----------------|  
+|BAM|BAMAppPool|Virtual application which hosts the BAM Portal components (pages, images, precompiled code, and other resources). This virtual application calls in to the BAMManagementService application to communicate with the BAM databases. **Note:**  To brand the BAM Portal, you can modify the contents of this application.|  
+|BAMManagementService|BAMAppPool|Virtual application which hosts the BAMManagementService web service. This web service is used by the BAM Portal application to communicate with the BAM Primary Import Tables (PIT). The communication with the database is done using impersonated credentials stored in the registry which is created during configuration. Methods exposed by this web service can be used by custom clients to get views and their details, related activities, and pivot table layouts for any user. They can also be used to manage alerts in the database.|  
+|BTSharePointAdapterWS|BTSSharePointAdapterWSAppPool|Virtual application which hosts the Windows SharePoint Service adapter Web service. Applies to BizTalk Server 2013 R2 and 2013 only.|  
 
  
 ## More configuration topics  
