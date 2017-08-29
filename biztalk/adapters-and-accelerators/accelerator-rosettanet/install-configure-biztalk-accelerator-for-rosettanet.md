@@ -58,7 +58,7 @@ The minimum hardware and software requirements are the same as BizTalk Server.
 * BTARN allows you to add only individual service accounts, and not groups, to the BizTalk Server Administrators group or the BizTalk Application Users group.  
 * You need to create a WebService extension for BTSHTTPReceive.dll, configuring the IIS isolation mode. For more information, see the "404 Not found error when sending a HTTP request" entry in the "Troubleshooting: Issues and Resolutions" topic at [http://go.microsoft.com/fwlink/?LinkId=188560](http://go.microsoft.com/fwlink/?LinkId=188560). Also, see [How to Configure IIS for an HTTP Receive Location](../../core/how-to-configure-iis-for-an-http-receive-location.md).  
 * Add your server (http://<*server name*>) to the Local Internet zone in the Internet Explorer security options.  
-*  If a remote SQL instance using non default port is used for configuring BTARN, then the SQL Server Client Tools must be installed locally. For details, see   **INSERT LINK [BizTalk Server Installation Guide for multicomputer environment]**.
+*  If a remote SQL instance using non default port is used for configuring BTARN, then the SQL Server Client Tools must be installed locally. For details, see [BizTalk Server Installation Guide for multicomputer environment](../../install-and-config-guides/install-biztalk-server-in-a-multi-computer-environment.md).
 *  A separate group must be used for role - BizTalk Administrator, BizTalk Host Users, and BizTalk Isolated Host Users during the configuration of BizTalk Server.  
 *  BTARN does not support the use of alias created for SQL instance to configure the BTARN database.  
 

@@ -1,5 +1,6 @@
 ---
-title: "Error encountered during serialization. The Edifact transaction set contained in interchange (without group) is being suspended with following errors | Microsoft Docs"
+title: Edifact transaction set contained in interchange error | Microsoft Docs
+description: Error encountered during serialization. The Edifact transaction set contained in interchange (without group) is being suspended with following errors
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -14,11 +15,14 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Error encountered during serialization. The Edifact transaction set contained in interchange (without group) is being suspended with following errors
+# Edifact transaction set is suspended error and details
+
+`Error encountered during serialization. The Edifact transaction set contained in interchange (without group) is being suspended with following errors`
+
 ## Details  
   
 |||  
-|-|-|  
+|---|---|  
 |Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Event ID|-|  
@@ -31,4 +35,4 @@ manager: "anneta"
  This Error/Warning/Information event indicates that the EDI send pipeline encountered an error when serializing an outgoing EDIFACT interchange because of the stated errors with the identified transaction set. Note that the transaction set is not in a group in the interchange.  
   
 ## User Action  
- To resolve this error, use the information in the error message to identify the error in the transaction set and then determine the problem resolution in the product help.
+ To resolve this error, use the information in the error message to identify the error in the transaction set and then determine the problem resolution.

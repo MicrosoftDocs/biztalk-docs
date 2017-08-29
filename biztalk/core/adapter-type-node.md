@@ -1,5 +1,6 @@
 ---
-title: "&lt;Adapter Type&gt; Node | Microsoft Docs"
+title: "Adapter Type node | Microsoft Docs"
+description: Create or configure send and receive handlers for different transport types in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -16,9 +17,10 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# &lt;Adapter Type&gt; Node
+# Create adapter handlers using the Adapter Type node
 Use the **\<Adapter Type>** nodes to create and configure new adapter handlers for available transport protocols, view existing adapter handlers, and refresh adapter handler information.  
   
+## Details
  Right-click any of the **\<Adapter Type>** nodes to display the following commands:  
   
 -   **New .** This menu item displays a submenu containing the following commands:  
