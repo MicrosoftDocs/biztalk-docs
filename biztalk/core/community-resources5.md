@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "help for BizTalk Server"
-  - "BizTalk Server, getting help"
 ms.assetid: 632c6dcf-c60a-4914-8df4-97ef76d22b16
 caps.latest.revision: 17
 author: "MandiOhlinger"
@@ -25,7 +22,6 @@ Plug into the BizTalk Server community to connect with other developers and admi
 |Channel 9 videos|[https://channel9.msdn.com/tags/Biztalk/](https://channel9.msdn.com/tags/Biztalk/)|  
 |TechNet Wiki|Search for BizTalk resources and more at [http://social.technet.microsoft.com/wiki](http://social.technet.microsoft.com/wiki).|  
 |BizTalk support team blog|[https://blogs.msdn.microsoft.com/biztalkcpr/](https://blogs.msdn.microsoft.com/biztalkcpr/)|  
-|BizTalk Developer Center|[https://msdn.microsoft.com/biztalk](https://msdn.microsoft.com/biztalk)|  
 |BizTalk integration platform|[https://www.microsoft.com/en-us/server-cloud/products/biztalk](https://www.microsoft.com/en-us/server-cloud/products/biztalk)|  
 |BizTalk forums|[https://social.msdn.microsoft.com/Forums/en-US/home?forum=biztalkgeneral](https://social.msdn.microsoft.com/Forums/en-US/home?forum=biztalkgeneral)|  
 |Search the Microsoft community|Search                for BizTalk questions and discussions at [http://go.microsoft.com/fwlink/p/?LinkId=49361](http://go.microsoft.com/fwlink/p/?LinkId=49361) .|  
