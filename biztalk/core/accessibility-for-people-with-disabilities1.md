@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "accessibility"
-  - "BizTalk Server, accessibility"
 ms.assetid: d96c203e-9697-4c1d-9492-f74cf6f080b6
 caps.latest.revision: 14
 author: "MandiOhlinger"
@@ -18,13 +15,13 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Accessibility for People with Disabilities
-Microsoft is committed to making its products and services easier for everyone to use. Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help contain features that make them more accessible for people with disabilities. The topics in this section describe these features.  
+
+## Overview
+Microsoft is committed to making its products and services easier for everyone to use. Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] contains features that make them more accessible for people with disabilities.  
   
 > [!NOTE]
 >  For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272).  
   
-## In This Section  
+## See also
+-   [Keyboard Shortcuts](../core/keyboard-shortcuts.md)  
   
--   [Accessibility Features of BizTalk Server](../core/accessibility-features-of-biztalk-server.md)  
-  
--   [Accessibility Features of BizTalk Server Help](../core/accessibility-features-of-biztalk-server-help.md)
