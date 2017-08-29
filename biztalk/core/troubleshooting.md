@@ -1,5 +1,6 @@
 ---
-title: "Troubleshooting | Microsoft Docs"
+title: "Troubleshooting and known issues | Microsoft Docs"
+description: Known issues, zombies, troubleshoot performance, troubleshoot adapters, troubleshoot permissions, troubleshoot EDI and AS2, and more in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting"
 ms.assetid: ecb934c6-3efa-40b6-949b-a04a73e60b07
 caps.latest.revision: 32
 author: "MandiOhlinger"
@@ -22,25 +21,27 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 ## In This Section  
   
 -   [Known Issues with BizTalk Server](../core/known-issues-with-biztalk-server.md)  
+
+-   [Zombies in BizTalk Server](zombies-in-biztalk-server.md)
   
--   [Troubleshooting BizTalk Server Administration](../core/troubleshooting-biztalk-server-administration.md)  
+-   [Troubleshoot BizTalk Server Administration](../core/troubleshooting-biztalk-server-administration.md)  
   
 -   [Enabling System.Net Logging](../core/enabling-system-net-logging.md)  
   
--   [Troubleshooting BizTalk Server Permissions](../core/troubleshooting-biztalk-server-permissions.md)  
+-   [Troubleshoot BizTalk Server Permissions](../core/troubleshooting-biztalk-server-permissions.md)  
   
--   [Troubleshooting BizTalk Server Performance](../core/troubleshooting-biztalk-server-performance.md)  
+-   [Troubleshoot BizTalk Server Performance](../core/troubleshooting-biztalk-server-performance.md)  
   
--   [Troubleshooting BizTalk Server Adapters](../core/troubleshooting-biztalk-server-adapters.md)  
+-   [Troubleshoot BizTalk Server Adapters](../core/troubleshooting-biztalk-server-adapters.md)  
   
--   [Troubleshooting EDI and AS2 Solutions](../core/troubleshooting-edi-and-as2-solutions.md)  
+-   [Troubleshoot EDI and AS2 Solutions](../core/troubleshooting-edi-and-as2-solutions.md)  
   
--   [Troubleshooting BizTalk Server Dependencies](../core/troubleshooting-biztalk-server-dependencies.md)  
+-   [Troubleshoot BizTalk Server Dependencies](../core/troubleshooting-biztalk-server-dependencies.md)  
   
--   [Troubleshooting Configuration](../core/troubleshooting-configuration.md)  
+-   [Troubleshoot Configuration](../core/troubleshooting-configuration.md)  
   
 -   [How to Capture a Memory Dump of a BizTalk Process](../core/how-to-capture-a-memory-dump-of-a-biztalk-process.md)  
   
 -   [Tools and Utilities to Use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md)  
   
--   [Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages](../core/troubleshoot-message-validation-failures-using-the-hexadecimal-contents.md)
+-   [Troubleshoot Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages](../core/troubleshoot-message-validation-failures-using-the-hexadecimal-contents.md)

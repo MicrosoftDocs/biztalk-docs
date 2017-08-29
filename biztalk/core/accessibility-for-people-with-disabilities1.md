@@ -1,5 +1,6 @@
 ---
-title: "Accessibility for People with Disabilities1 | Microsoft Docs"
+title: "Accessibility for People with Disabilities | Microsoft Docs"
+description: Keyboard shortcuts and accessibility for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
