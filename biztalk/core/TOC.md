@@ -2502,8 +2502,7 @@
 ####### [RemoveApp Command](removeapp-command.md)
 ####### [UninstallApp Command](uninstallapp-command.md)
 ####### [Change the Console Colors for BTSTask](how-to-edit-the-console-colors-for-btstask.md)
-#### [Start, Stop, Pause, Resume, or Restart BizTalk Server Services](how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)
-#### [Shut Down BizTalk Server](how-to-shut-down-biztalk-server.md)
+#### [Restart BizTalk Server services, shut down BizTalk Server](how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)
 ### [Monitoring BizTalk Server](monitoring-biztalk-server.md)
 #### [Tracking Dependencies Between Artifacts in a BizTalk Server Application](tracking-dependencies-between-artifacts-in-a-biztalk-server-application.md)
 #### [Performance Counters](performance-counters.md)
@@ -3885,6 +3884,8 @@
 ##### [Error- The "{0}" functoid has place holders. Replace these with appropriate links or constants.](error-functoid-has-place-holders-in-biztalk-server.md)
 
 ## [Terms and definitions](glossary5.md)
+
+
 
 ## [UI guidance ](technical-reference5.md)
 ### [User interface help](ui-reference.md)
