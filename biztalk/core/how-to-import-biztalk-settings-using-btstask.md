@@ -25,7 +25,7 @@ This topic lists the steps to import or export the BizTalk Server settings from 
 
 ## Import BizTalk settings 
 > [!IMPORTANT]
->  To import the BizTalk settings from a certain environment, you should have already exported and saved those settings in an XML file. For more information about exporting the settings, see [Import or export BizTalk Settings Using Settings Dashboard](how-to-import-biztalk-settings-using-settings-dashboard.md) or [Export BizTalk Settings Using BTSTask](how-to-export-biztalk-settings-using-btstask.md#export-biztalk-settings) (in this topic).  
+>  To import the BizTalk settings from a certain environment, you should have already exported and saved those settings in an XML file. For more information about exporting the settings, see [Import or export BizTalk Settings Using Settings Dashboard](how-to-import-biztalk-settings-using-settings-dashboard.md) or **Export BizTalk Settings Using BTSTask** (in this topic).  
   
  By importing the XML file, you can replicate the required BizTalk Server settings on the target machine. Using the **BTSTask.exe**, you can import the Group, Host, and Host Instance settings and map the properties of one to another. Following are the necessary assumptions for importing the settings:  
   
