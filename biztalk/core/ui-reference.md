@@ -24,8 +24,6 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
   
 -   [Application Deployment UI](../core/application-deployment-ui-help.md)  
   
--   [Adapter UI](../core/adapter-ui-help.md)  
-  
 -   [Assembly Viewer UI](../core/assembly-viewer-ui-help.md)  
   
 -   [BizTalk Editor UI](../core/biztalk-editor-ui-help.md)  
