@@ -1,5 +1,5 @@
 ---
-title: "Technical Reference | Microsoft Docs"
+title: "UI Guidance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -19,24 +19,8 @@ This section covers technical reference information about Microsoft [!INCLUDE[bt
   
 ## In This Section  
   
--   [Glossary](../core/glossary5.md)  
   
--   [UI Reference](../core/ui-reference.md)  
-  
--   [Command-Line Reference](../core/command-line-reference.md)  
-  
--   [Keyboard Shortcuts](../core/keyboard-shortcuts.md)  
-  
--   [Required Ports for BizTalk Server](../core/required-ports-for-biztalk-server.md)  
-  
--   [Performance Counters](../core/performance-counters.md)  
-  
--   [Events and Errors](../core/events-and-errors2.md)  
-  
--   [Minimum Security User Rights](../core/minimum-security-user-rights.md)  
-  
--   [Structure of a Binding File](../core/structure-of-a-binding-file.md)  
-  
+-   [UI Reference](../core/ui-reference.md)    
+ 
 -   [Developers Reference](../core/developers-reference.md)  
   
--   [Zombies in BizTalk Server](../core/zombies-in-biztalk-server.md)

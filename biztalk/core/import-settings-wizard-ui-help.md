@@ -15,11 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Import Settings Wizard UI Help
-This section provides instructions for the Import Settings Wizard. You access this information by pressing the F1 key or clicking **Help** in the Wizard.  
+This section provides instructions for the Import Settings Wizard.  
   
  Often, BizTalk administrators try to tune the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance in a staging environment, and upon achieving the desired results, they import the settings into a production environment. Use the **Import Settings Wizard** to import the group, host, and host instance settings exported from another group.  
   
-## In This Section  
+## Next
   
 -   [Import Settings Wizard, Specify File Location Page](../core/import-settings-wizard-specify-file-location-page.md)  
   
@@ -32,7 +32,5 @@ This section provides instructions for the Import Settings Wizard. You access th
 -   [Import Settings Wizard, Import Results Page](../core/import-settings-wizard-import-results-page.md)  
   
 ## See Also  
- [How to Import BizTalk Settings Using Settings Dashboard](../core/how-to-import-biztalk-settings-using-settings-dashboard.md)   
- [How to Import BizTalk Settings Using BTSTask](../core/how-to-import-biztalk-settings-using-btstask.md)   
- [How to Export BizTalk Settings Using Settings Dashboard](../core/how-to-export-biztalk-settings-using-settings-dashboard.md)   
- [How to Export BizTalk Settings Using BTSTask](../core/how-to-export-biztalk-settings-using-btstask.md)
+[Import or export BizTalk Settings Using Settings Dashboard](how-to-import-biztalk-settings-using-settings-dashboard.md)   
+[Import or export BizTalk Settings Using BTSTask](how-to-import-biztalk-settings-using-btstask.md)

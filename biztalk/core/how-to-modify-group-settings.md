@@ -1,5 +1,6 @@
 ---
-title: "How to Modify Group Settings | Microsoft Docs"
+title: "Update Group Settings | Microsoft Docs"
+description: Change the performance settings of the group using BizTalk Server Administration
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,26 +9,24 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "Bts10.settings.group"
 ms.assetid: fe0cbeb8-23d6-45cf-8535-c989914f5124
 caps.latest.revision: 24
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Modify Group Settings
+# How to update the BizTalk group settings
 Using the Settings Dashboard, you can modify the configuration information used across all machines in a given BizTalk group. This topic provides the step-by-step procedure to modify the group-level performance settings in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. These settings are applicable for all the machines in a given group.  
   
 > [!NOTE]
 >  You can also modify the host and host instance settings. For more information, see [How to Modify Host Settings](../core/how-to-modify-host-settings.md) and [How to Modify Host Instance Settings](../core/how-to-modify-host-instance-settings.md).  
   
- The current BizTalk Server settings can be exported to an XML file. Later, you can import those settings to the Settings Dashboard instead of setting up new values. For information about how to import the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] settings, see [How to Import BizTalk Settings Using Settings Dashboard](../core/how-to-import-biztalk-settings-using-settings-dashboard.md) and [How to Import BizTalk Settings Using BTSTask](../core/how-to-import-biztalk-settings-using-btstask.md). For information about how to export the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] settings, see [How to Export BizTalk Settings Using Settings Dashboard](../core/how-to-export-biztalk-settings-using-settings-dashboard.md) and [How to Export BizTalk Settings Using BTSTask](../core/how-to-export-biztalk-settings-using-btstask.md).  
+ The current BizTalk Server settings can be exported to an XML file. Later, you can import those settings to the Settings Dashboard instead of setting up new values. For information on importing or exporting the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] settings, see [Import or export BizTalk Settings Using Settings Dashboard](how-to-import-biztalk-settings-using-settings-dashboard.md) and [Import or export BizTalk Settings Using BTSTask](how-to-import-biztalk-settings-using-btstask.md). 
   
 ## Prerequisites  
- To perform this operation, you must be logged on as a member of the BizTalk Server Administrators group.  
+ To perform this operation, you must be signed in as a member of the BizTalk Server Administrators group.  
   
-### To modify the group-level settings  
+## Update the group-level settings  
   
 1.  In the **BizTalk Server Administration Console**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click **BizTalk Group**, and then click **Settings**.  
   
@@ -48,4 +47,4 @@ Using the Settings Dashboard, you can modify the configuration information used 
     >  To restore the default settings, click **Restore Defaults**.  
   
 ## See Also  
- [Using Settings Dashboard for BizTalk Server Performance Tuning](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)
+ [Use Settings Dashboard for BizTalk Server Performance Tuning](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)
