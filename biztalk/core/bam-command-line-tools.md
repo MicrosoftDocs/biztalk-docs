@@ -1,5 +1,6 @@
 ---
 title: "BAM Command-Line Tools | Microsoft Docs"
+description: Get started with BAM Management utility, Tracking profile deployment tools for Business Activity Monitoring in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -17,7 +18,7 @@ manager: "anneta"
 # BAM Command-Line Tools
 This section provides reference information for the BAM command-line tools included with Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
   
-## In This Section  
+## Available tools 
   
 -   [BAM Management Utility](../core/bam-management-utility.md)  
   

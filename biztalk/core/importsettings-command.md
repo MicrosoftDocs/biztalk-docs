@@ -15,10 +15,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # ImportSettings Command
-Imports the BizTalk group, host, or host instance settings from a source XML file to the configuration database. The settings are mapped as they are in the mapping XML file. These settings may have been exported as described in [How to Export BizTalk Settings Using Settings Dashboard](../core/how-to-export-biztalk-settings-using-settings-dashboard.md) or [How to Export BizTalk Settings Using BTSTask](../core/how-to-export-biztalk-settings-using-btstask.md).  
+Imports the BizTalk group, host, or host instance settings from a source XML file to the configuration database. The settings are mapped as they are in the mapping XML file. These settings may have been exported as described in [Import or export BizTalk Settings Using Settings Dashboard](how-to-import-biztalk-settings-using-settings-dashboard.md) or [Import or export BizTalk Settings Using BTSTask](how-to-import-biztalk-settings-using-btstask.md).  
   
 ## Prerequisites  
- To perform this operation, you must be logged on as a member of the BizTalk Server Administrators group.  
+ To perform this operation, you must be signed in as a member of the BizTalk Server Administrators group.  
   
 ## Usage  
  `ImportSettings –Source:value –Map: value [-Server:value] [-Database:value]`  
