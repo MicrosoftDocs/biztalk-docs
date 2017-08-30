@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAPI transactions, sample"
-  - "BAPI transactions, performing using BizTalk Server"
 ms.assetid: 75ff5cf7-5e98-4d74-a13f-4de65c215d41
 caps.latest.revision: 11
 author: "MandiOhlinger"
@@ -223,7 +220,7 @@ SendToAdapter.isCommit == true
   
      ![Schemas mapped using an Index functoid](../../adapters-and-accelerators/adapter-sap/media/d0ade577-ea74-4be3-a724-4ba19397d8d3.gif "d0ade577-ea74-4be3-a724-4ba19397d8d3")  
   
-     For more information about using the **Transform Configuration** dialog box, see [Transform Configuration Dialog Box](../../core/transform-configuration-dialog-box.md).  
+     For more information about using the **Transform Configuration** dialog box, see the **Transform Configuration Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
      For more information about using the Index functoid, see [Index Functoid](../../core/index-functoid.md).
        

@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Table Looping functoids, properties"
-  - "Table Looping functoids, about Table Looping functoids"
 ms.assetid: 1f284a8a-3cfb-4397-b9a9-aa6315919716
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -35,7 +32,7 @@ Use the **Table Looping** functoid ( ![](../core/media/advtablelooping.gif "advt
 ## Remarks  
  You must use this functoid in conjunction with one or more **Table Extractor** functoids.  
   
- This functoid accepts multiple inputs, such as links from the source schema, constants, and the output of other functoids. You use these inputs to configure the table looping grid from which the associated **Table Extractor** functoids extract the data used to build the relevant portion of the output instance message You configure the table looping grid by using the [Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab](../core/configure-table-looping-functoid-dialog-box-table-looping-grid-tab.md). You access this dialog box by using the [Table Looping Grid (Functoid Property)](../core/table-looping-grid-functoid-property.md). The Table Looping Grid is a property of **Table Looping** functoids.  
+ This functoid accepts multiple inputs, such as links from the source schema, constants, and the output of other functoids. You use these inputs to configure the table looping grid from which the associated **Table Extractor** functoids extract the data used to build the relevant portion of the output instance message You configure the table looping grid by using the **Configure Table Looping Functoid Dialog Box, Table Looping Grid** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. You access this dialog box by using the [Table Looping Grid (Functoid Property)](../core/table-looping-grid-functoid-property.md). The Table Looping Grid is a property of **Table Looping** functoids.  
   
  Every cell in the table looping grid is a drop-down list that is populated by input parameters 3 through 100. How the entries in the drop-down list are represented depends on the type of the corresponding input parameter and, where applicable, on whether the [Label](../core/label-link-property.md) property of the link is assigned a value. There are three possibilities:  
   

@@ -8,11 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Table Looping Grid property [functoids], Table Looping functoids"
-  - "Table Looping Grid property [functoids], about Table Looping Grid property"
-  - "Table Looping functoids, Table Looping Grid property"
-  - "Table Looping Grid property [functoids]"
 ms.assetid: 2e5244a1-2a12-40ed-ad67-b8e7baa3f048
 caps.latest.revision: 14
 author: "MandiOhlinger"
@@ -41,4 +36,3 @@ Use the **Table Looping Grid** property to open the **Configure Table Looping Fu
  [General Functoid Properties](../core/general-functoid-properties.md)   
  [Table Looping Functoid Reference](../core/table-looping-functoid-reference.md)   
  [Table Extractor Functoid Reference](../core/table-extractor-functoid-reference.md)   
- [Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab](../core/configure-table-looping-functoid-dialog-box-table-looping-grid-tab.md)
