@@ -82,10 +82,9 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 ## Configure a WCF-WSHttp Send Port Programmatically
   
  You can use the following format to set the properties:  
-  
- \<CustomProps>  
-  
+
 ```  
+ <CustomProps>    
   <ServiceCertificate vt="8" />  
   <UseSSO vt="11">0</UseSSO>  
   <InboundBodyPathExpression vt="8" />  
