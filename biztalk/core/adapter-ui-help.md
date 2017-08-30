@@ -1,5 +1,5 @@
 ---
-title: "Adapter UI Help | Microsoft Docs"
+title: "Adapter UI guidance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -10,9 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.adaptors.ui.help"
-helpviewer_keywords: 
-  - "adapters, tools"
-  - "tools, adapters"
 ms.assetid: 272351df-6425-4bbe-b3e9-8a932fbee71d
 caps.latest.revision: 18
 author: "MandiOhlinger"
@@ -20,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Adapter UI Help
-This section provides instructions for the Microsoft BizTalk Server adapters user interface (UI). You access this information using the F1 key or clicking **Help** in the UI. Use the native adapters to exchange messages between applications and BizTalk Server. For more information about the native adapters, see [Using Adapters](../core/using-adapters.md).  
+Instructions for the Microsoft BizTalk Server adapters user interface (UI). Use the native adapters to exchange messages between applications and BizTalk Server. For more information about the native adapters, see [Using Adapters](../core/using-adapters.md).  
   
 ## In This Section  
  **HTTP Adapter Handler Properties**  
