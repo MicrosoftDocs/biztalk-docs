@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, WCF-NetNamedPipe adapters"
-  - "configuring [WCF-NetNamedPipe adapters], receive locations"
 ms.assetid: e2e8242a-64c7-43de-af5e-25c22e182c72
 caps.latest.revision: 12
 author: "MandiOhlinger"
@@ -20,7 +17,7 @@ manager: "anneta"
 # How to Configure a WCF-NetNamedPipe Receive Location
 You can configure a WCF-NetNamedPipe receive location either programmatically or by using the BizTalk Administration console.  
   
- **How to Configure a WCF-NetNamedPipe Receive Location Programmatically**  
+## Configuration properties
   
  The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-NetNamedPipe receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
   
@@ -49,16 +46,14 @@ You can configure a WCF-NetNamedPipe receive location either programmatically or
 |**SuspendMessageOnFailure**|Boolean|Specify whether to suspend the request message that fails inbound processing due to a receive pipeline failure or a routing failure.<br /><br /> Default value: **True**|  
 |**IncludeExceptionDetailInFaults**|Boolean|Specify whether to include managed exception information in the detail of SOAP faults returned to the client for debugging purposes.<br /><br /> Default: **False**|  
   
- **How to Configure a WCF-NetNamedPipe Receive Location with the BizTalk Administration Console**  
+## Configure a WCF-NetNamedPipe Receive Location with the BizTalk Administration Console
   
  You can set WCF-NetNamedPipe receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.  
   
 > [!NOTE]
 >  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).  
   
-## Procedures  
-  
-#### To configure variables for a WCF-NetNamedPipe receive location  
+## Configure variables for a WCF-NetNamedPipe receive location  
   
 1.  In the BizTalk Administration console, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Applications**, and then expand the application you want to create a receive location in.  
   
@@ -68,15 +63,15 @@ You can configure a WCF-NetNamedPipe receive location either programmatically or
   
 4.  In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-NetNamedPipe** from the drop-down list, and then click **Configure**.  
   
-5.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-NetNamedPipe receive location. For more information about the **General** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Receive, General Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-receive-general-tab.md).  
+5.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-NetNamedPipe receive location. For more information about the **General** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-6.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Binding Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-receive-binding-tab.md).  
+6.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-7.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetNamedPipe receive location. For more information about the **Security** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Security Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-receive-security-tab.md).  
+7.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetNamedPipe receive location. For more information about the **Security** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-8.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Messages Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-receive-messages-tab.md).  
+8.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
- **How to Configure a WCF-NetNamedPipe Receive Location Programmatically**  
+## Configure a WCF-NetNamedPipe Receive Location Programmatically
   
  Use the following format to set the properties:  
   

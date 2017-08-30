@@ -8,19 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP adapters, send ports"
-  - "SOAP adapters, properties"
-  - "send ports, properties"
-  - "Web services, modifying"
-  - "Web services, consuming"
-  - "consuming [Web services]"
-  - "Web ports, port bindings"
-  - "send ports, SOAP adapters"
-  - "Web services, URIs"
-  - "modifying, Web services"
-  - "modifying, send ports"
-  - "send ports, modifying"
 ms.assetid: 95829a28-7898-4757-87cc-40fc99bf707e
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -37,7 +24,7 @@ When you create a Web port for a consumed Web service, you can select a dynamic 
   
  When using dynamic Web ports to consume a Web service, the send port properties are set to the default values. Some of these values are set internally and other values default to the values that are set in the **SOAP Adapter Handler** property pages. You can overwrite these values in an orchestration when you use dynamic send ports. For more information, see [Considerations When Consuming Web Services](../core/considerations-when-consuming-web-services.md).  
   
-### To dynamically change the URI of a consumed Web service  
+## Dynamically change the URI of a consumed Web service  
   
 1.  Add a Web port as outlined in [How to Add a Web Port](../core/how-to-add-a-web-port.md). However, instead of selecting the **Specify now** port binding, select **Dynamic** port binding, as shown in the following figure.  
   
@@ -54,7 +41,7 @@ When you create a Web port for a consumed Web service, you can select a dynamic 
 > [!NOTE]
 >  You can retrieve the URI used in the BizTalk Expression Editor from various locations, including the incoming message, a SQL database, or a line-of-business application.  
   
-#### To dynamically modify send port properties  
+## Dynamically modify send port properties  
   
 1.  In the **Construct Message** shape that you use to construct the Web message, add a **Message Assignment** shape if one is not already present.  
   
@@ -84,7 +71,7 @@ When you create a Web port for a consumed Web service, you can select a dynamic 
 |**ProxyPassword**|String|Password to use for the HTTP proxy.<br /><br /> Default value: Retrieved from SOAP send handler properties.|  
 |**ClientConnectionTimeout**|Int32|Time-out value for HTTP client connection.<br /><br /> Default value: Same as default ASP.NET HTTP connection time-out.|  
 |**TypeName**|String|Specify the name of the class that contains the Web method to be invoked.<br /><br /> Default value: Blank|  
-|**MethodName**|String|Specify the method of the class that will be invoked. **Note:**  To configure **MethodName** property for the static SOAP send port programmatically, you need to set **Method name** as to **[Specify Later]** in the **Web Service** tab of the **SOAP Transport Properties** dialog box in BizTalk Server Administration console. For more information about **SOAP Transport Properties** dialog box, see [SOAP Transport Properties Dialog Box, Web service Tab](../core/soap-transport-properties-dialog-box-web-service-tab.md). <br /><br /> Default value: Blank|  
+|**MethodName**|String|Specify the method of the class that will be invoked. **Note:**  To configure **MethodName** property for the static SOAP send port programmatically, you need to set **Method name** as to **[Specify Later]** in the **Web Service** tab of the **SOAP Transport Properties** dialog box in BizTalk Server Administration console. For more information about **SOAP Transport Properties** dialog box, see the **SOAP Transport Properties Dialog Box, Web service** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. <br /><br /> Default value: Blank|  
 |**AssemblyName**|String|Identifies the .NET type and assembly to be loaded and executed.<br /><br /> Default value: Blank|  
 |**UnknownHeaders**|String|Specifies the serialized list of unknown SOAP headers.<br /><br /> Default value: Blank|  
 |**UserDefined**|String|Defines user-defined classes<br /><br /> Default value: Blank|  

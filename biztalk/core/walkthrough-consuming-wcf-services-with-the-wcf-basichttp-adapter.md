@@ -8,13 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "consuming, WCF services"
-  - "WCF adapters, tutorials"
-  - "tutorials, consuming [WCF services]"
-  - "WCF-BasicHttp adapters, tutorials"
-  - "consuming, tutorials"
-  - "tutorials, WCF adapters"
 ms.assetid: 2d280198-ba55-4937-91c9-19d6d0ed3194
 caps.latest.revision: 49
 author: "MandiOhlinger"
@@ -22,14 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter
-**Documentation Feedback**  
-  
- Microsoft values your feedback. To send feedback and comments about this topic to the documentation team, [click here](mailto:btsdf@microsoft.com?subject=Walkthrough:%20Consuming%20WCF%20Services%20with%20the%20WCF-BasicHttp%20Adapter). For assistance with support issues, refer to the technical support information included with the product.  
   
 > [!NOTE]
 >  For more information about adapters, see [Adapters in BizTalk Server](../core/adapters-in-biztalk-server.md).  
   
- **Introduction**  
+## Introduction
   
  In this walkthrough, you will consume a [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] service hosted inside Internet Information Services (IIS) using BizTalk messaging and the WCF-BasicHttp send adapter. This adapter uses the **BasicHttpBinding** binding to provide a transport/protocol stack implementation compatible with earlier versions of Web services to serve as a bridge between Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] functionality. An orchestration can bind to a send port that uses a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] adapter to call a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service and leverage its functionality within its logical business processing.  
   
@@ -64,7 +54,7 @@ manager: "anneta"
   
 -   You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at[http://go.microsoft.com/fwlink/?LinkId=194140](http://go.microsoft.com/fwlink/?LinkId=194140).  
   
-### To deploy the sample WCF service  
+## Deploy the sample WCF service  
   
 1.  Run the self-extracting **WCFBasicHttpSendAdapter.exe** file and extract the files into the **C:\WCFBasicHttpSendAdapter** folder.  
   
@@ -112,7 +102,7 @@ manager: "anneta"
   
     3.  Copy the full WSDL address to the system Clipboard. Do not copy the **“svcutil.exe”** part: **http://localhost/BasicHttpWcfServiceConsuming/OrderProcess.svc?wsdl**  
   
-### To add the schemas and types for the WCF-BasicHttp adapter to the sample BizTalk application  
+## Add the schemas and types for the WCF-BasicHttp adapter to the sample BizTalk application  
   
 1.  Since the adapter will call the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service it needs information from schemas and types about how to make that call to that service using the metadata. **BizTalkApp** provides the artifacts to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, right-click **BizTalkApp**, click **Add**, and then click **Add Generated Items**.  
   
@@ -144,7 +134,7 @@ manager: "anneta"
   
     -   These files are used for the send port using the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] adapter to consume the sample [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service described in the metadata.  
   
-### To deploy the sample BizTalk solution, BizTalkApp  
+## Deploy the sample BizTalk solution, BizTalkApp  
   
 1.  Deploy the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application as follows:  
   
@@ -183,7 +173,7 @@ manager: "anneta"
          This field indicates the intent of the outgoing SOAP HTTP request message. Here it is to call the Submit operation on the IOrderProcess interface from the Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWcfServiceConsuming namespace.  
   
         > [!NOTE]
-        >  The binding file that the **BizTalk WCF Service Consuming Wizard** generates uses the action mapping format for the **StaticAction** property. When using content-based routing for the WCF send adapters to send messages to WCF services, you need to set the **BTS.Operation** property in pipeline components for the action mapping format as the field to be used for content-based routing. Alternatively, you can use the single action format for content-based routing. In this walkthrough, you use the single action format. For more information about the single action format and the action mapping format, see [WCF-BasicHttp Transport Properties Dialog Box, Send, General Tab](../core/wcf-basichttp-transport-properties-dialog-box-send-general-tab.md).  
+        >  The binding file that the **BizTalk WCF Service Consuming Wizard** generates uses the action mapping format for the **StaticAction** property. When using content-based routing for the WCF send adapters to send messages to WCF services, you need to set the **BTS.Operation** property in pipeline components for the action mapping format as the field to be used for content-based routing. Alternatively, you can use the single action format for content-based routing. In this walkthrough, you use the single action format. For more information about the single action format and the action mapping format, see the **WCF-BasicHttp Transport Properties Dialog Box, Send, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
     9. Click **OK** twice to return to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -237,7 +227,7 @@ manager: "anneta"
   
      In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **WCFBasicHttpSendAdapter**, expand **Orchestrations**, right-click the **Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp.OrderProcessServiceTypeClient** orchestration, click **Properties**, click **Bindings**, set **Host** to **BizTalkServerApplication**, and then click **OK** to save the configuration.  
   
-### To test the sample solution with the WCF-BasicHttp send adapter  
+## Test the sample solution with the WCF-BasicHttp send adapter  
   
 1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **WCFBasicHttpSendAdapter**, and then click **Start**.  
   

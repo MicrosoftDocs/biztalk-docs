@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [WCF-NetNamedPipe adapters], send ports"
-  - "send ports, WCF-NetNamedPipe adapters"
 ms.assetid: 57684e09-1f72-4bde-976c-3fcec65dc182
 caps.latest.revision: 13
 author: "MandiOhlinger"
@@ -20,7 +17,7 @@ manager: "anneta"
 # How to Configure a WCF-NetNamedPipe Send Port
 You can configure a WCF-NetNamedPipe send port either programmatically or by using the BizTalk Administration console.  
   
- **How to Configure a WCF-NetNamedPipe Send Port Programmatically**  
+## Configuration properties
   
  The BizTalk Explorer Object Model exposes an adapter-specific interface for send ports named **ITransportInfo** that has the **TransportTypeData** read/write property. This property accepts a WCF-NetNamedPipe send port configuration property bag in the form of a name-value pair of XML strings.  
   
@@ -47,27 +44,25 @@ You can configure a WCF-NetNamedPipe send port either programmatically or by usi
 |**InboundNodeEncoding**|Enum<br /><br /> -   **XML**<br />-   **Base64** - Base64 encoding.<br />-   **Hex** - Hexadecimal encoding.<br />-   **String** - Text encoding - UTF-8.<br />-   **XML** - The WCF adapters create the BizTalk message body with the outer XML of the node selected by the body path expression in **InboundBodyPathExpression**.|Specify the type of encoding that the WCF-NetNamedPipe send adapter uses to decode for the node identified by the body path specified in **InboundBodyPathExpression**. This property is required if the **InboundBodyLocation** property is set to **UseBodyPath**. This property is valid only for solicit-response ports.<br /><br /> Default value: **XML**|  
 |**PropagateFaultMessage**|Boolean<br /><br /> -   **True** - Route the message that fails outbound processing to a subscribing application (such as another receive port or orchestration schedule).<br />-   **False** - Suspend failed messages and generate a negative acknowledgment (NACK).|Specify whether to route or suspend messages failed in outbound processing.<br /><br /> This property is valid only for solicit-response ports.<br /><br /> Default value: **True**|  
   
- **How to Configure a WCF-NetNamedPipe Send Port with the BizTalk Administration Console**  
+## Configure a WCF-NetNamedPipe Send Port with the BizTalk Administration Console
   
  You can set WCF-NetNamedPipe send port adapter variables in the BizTalk Administration console. If properties are not set for the send port, the default values for the WCF-NetNamedPipe send port configuration are used, as indicated in the previous table.  
   
-## Procedures  
-  
-#### To configure variables for a WCF-NetNamedPipe send port  
+## Configure variables for a WCF-NetNamedPipe send port  
   
 1.  In the BizTalk Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **WCF-NetNamedPipe** for the **Type** option in the **Transport** section of the **General** tab.  
   
 2.  On the **General** tab, in the **Transport** section, click the **Configure** button next to **Type**.  
   
-3.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** header for the WCF-NetNamedPipe send port. For more information about the **General** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Send, General Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-send-general-tab.md).  
+3.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** header for the WCF-NetNamedPipe send port. For more information about the **General** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Send, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-4.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-send-binding-tab.md).  
+4.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-5.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetNamedPipe send port. For more information about the **Security** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Send, Security Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-send-security-tab.md).  
+5.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetNamedPipe send port. For more information about the **Security** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-6.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see [WCF-NetNamedPipe Transport Properties Dialog Box, Send, Messages Tab](../core/wcf-netnamedpipe-transport-properties-dialog-box-send-messages-tab.md).  
+6.  In the **WCF-NetNamedPipe Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetNamedPipe Transport Properties** dialog box, see the **WCF-NetNamedPipe Transport Properties Dialog Box, Send, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
- **How to Configure a WCF-NetNamedPipe Send Port Programmatically**  
+## Configure a WCF-NetNamedPipe Send Port Programmatically
   
  You can use the following format to set the properties:  
   

@@ -29,11 +29,11 @@ manager: "anneta"
   
 ## Explanation  
  A certificate could not be found for the given search criteria.  
+
+#### User Action
+Verify search criteria for certificates. 
   
-## User Action  
- Use the following procedures to verify search criteria for certificates.  
-  
-#### To verify search criteria  
+## Verify search criteria  
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and click **BizTalk Server Administration**.  
   
@@ -57,7 +57,7 @@ manager: "anneta"
   
  For the WCF-Custom and the WCF-CustomIsolated adapters, ensure that the search criteria in the **Certificate Reference** section is configured properly to indicate a valid certificate in the certificate **Store name**.  
   
-#### To verify search criteria for standard WCF adapters  
+## Verify search criteria for standard WCF adapters  
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and click **BizTalk Server Administration**.  
   
@@ -78,9 +78,8 @@ manager: "anneta"
 9. Ensure that the **Thumbprint** properties for the service and client certificates indicate valid certificates in certificate stores.  
   
 10. In the Certificate snap-in, make sure that valid certificates are installed for the WCF transport.  
-  
- For additional information on certificates, see the following resources in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+
+## See also 
   
 -   [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)  
   
--   [WCF Adapters UI Help](../core/wcf-adapters-ui-help.md)

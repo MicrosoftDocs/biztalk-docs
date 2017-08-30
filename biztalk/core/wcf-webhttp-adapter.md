@@ -66,7 +66,7 @@ This topic shows you how to create the receive location and send port using BizT
     | ServiceBehavior | Extend the functionality of your WCF service at the service-level. You can add extensions that do different things, such as define the security settings, enable debugging, implement throttling, and use other .NET classes.  <br/><br/> Right-select **ServiceBehavior**, and **Add Extension**. The list shows you the .NET classes that can be used.|
     | EndpointBehavior | Extend the funcionality of how requests are received at the endpoint-level. You can add extensions that do different things, such as receive HTTP requests from a browser-based ASP.NET AJAX client, specify a time interval on transactions, choose to receive messages synchronously or asynchronously, and use other .NET classes. <br/><br/> Right-select **EndpointBehavior**, and **Add Extension**. The list shows you the .NET classes that can be used.|
 
-    This is similar to the behavior configuration for a WCF-Custom receive location. See [WCF-Custom Transport Properties Dialog Box, Receive, Behavior Tab](../core/wcf-custom-transport-properties-dialog-box-receive-behavior-tab.md).
+    This is similar to the behavior configuration for a WCF-Custom receive location. See the **WCF-Custom Transport Properties Dialog Box, Receive, Behavior** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
     
 9.  In the **Messages** tab, specify the data selection for the SOAP **Body** element.  
   
@@ -123,7 +123,7 @@ This topic shows you how to create the receive location and send port using BizT
     |--------------|----------------|  
     | EndpointBehavior | Extend the funcionality of how requests are sent at the endpoint-level. You can add extensions that do different things, such as define the SOAP processing behavior, specify a time interval on transactions, control the discovery functionality, and use other .NET classes. <br/><br/>Right-select **EndpointBehavior**, and **Add Extension**. The list shows you the .NET classes that can be used. |
     
-    This is similar to the endpoint behavior configuration for a WCF-Custom send port. See [WCF-Custom Transport Properties Dialog Box, Send, Behavior Tab](../core/wcf-custom-transport-properties-dialog-box-send-behavior-tab.md).
+    This is similar to the endpoint behavior configuration for a WCF-Custom send port. See the **WCF-Custom Transport Properties Dialog Box, Send, Behavior** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 7.  In the **Proxy** tab, configure the proxy setting for the WCF-WebHttp send port. 
   
