@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [WCF-Custom adapters], receive locations"
-  - "receive locations, WCF-Custom adapters"
 ms.assetid: e2092cd4-6612-4ac3-81f3-dd25438837ae
 caps.latest.revision: 18
 author: "MandiOhlinger"
@@ -20,7 +17,7 @@ manager: "anneta"
 # How to Configure a WCF-Custom Receive Location
 You can configure a WCF-Custom receive location either programmatically or by using the BizTalk Administration console.  
   
- **How to Configure a WCF-Custom Receive Location Programmatically**  
+## Configuration properties
   
  The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-Custom receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
   
@@ -50,16 +47,14 @@ You can configure a WCF-Custom receive location either programmatically or by us
 |**IncludeExceptionDetailInFaults**|Boolean|Specify whether to include managed exception information in the detail of SOAP faults returned to the client for debugging purposes.<br /><br /> Default: **False**|  
 |**ReferencedBindings**|XML Blob<br /><br /> Example:<br /><br /> \<**BindingConfiguration** vt="8"><br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;binding name="sampleBinding"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message issuedKeyType="AsymmetricKey"&gt;<br /><br /> &lt;issuer address="http://www.contoso.com/samplests" binding="wsFederationHttpBinding" bindingConfiguration="**contosoSTSBinding**"/&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> \</**BindingConfiguration**><br /><br /> \<**ReferencedBindings** vt="8"><br /><br /> &lt;bindings&gt;<br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;binding name="**contosoSTSBinding**"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message negotiateServiceCredential="false"&gt;<br /><br /> &lt;issuer address="http://northwind.com/samplests" bindingConfiguration="**northwindBinding**" binding="wsHttpBinding"&gt;<br /><br /> &lt;/issuer&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> &lt;wsHttpBinding&gt;<br /><br /> &lt;binding name="**northwindBinding**"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message clientCredentialType="Certificate" /&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsHttpBinding&gt;<br /><br /> &lt;/bindings&gt;<br /><br /> \</**ReferencedBindings**> **Note:**  The **ReferencedBinding** property must not contain the binding configuration used in the **BindingConfiguration** property.|Specify the binding configurations referenced by the **bindingConfiguration** attribute of the **\<issuer>** element for the **wsFederationHttpBinding** and **customBinding**, which indicates the Security Token Service (STS) that issues security tokens. For more information about the **\<issuer>** element, see the topic, "\<issuer>" at [http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476).<br /><br /> The binding information including the **\<issuer>** element for the **wsFederationHttpBinding** and **customBinding** can be configured through the **BindingConfiguration** property of the WCF-Custom and the WCF-CustomIsolated adapters. All of the referenced binding configurations for this property must be placed in the form of the [\<bindings>](http://go.microsoft.com/fwlink/?LinkID=80878) element. **Note:**  You cannot configure this property on the **Binding** tab in the transport properties dialog box. You can import and export this property through the **Import/Export** tab in the transport properties dialog box of the WCF-Custom and WCF-CustomIsolated adapters. **Note:**  The **bindingConfiguration** attribute of the **\<issuer>** element must refer a valid binding name in this property. **Note:**  The **\<issuer>** element in the referenced binding configurations can also refer to a different binding configuration in t his property if this reference chain does not make a circular dependency. <br /><br /> The default is an empty string.|  
   
- **How to Configure a WCF-Custom Receive Location with the BizTalk Administration Console**  
+## Configure a WCF-Custom Receive Location with the BizTalk Administration Console
   
  You can set WCF-Custom receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.  
   
 > [!NOTE]
 >  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).  
   
-## Procedures  
-  
-#### To configure variables for a WCF-Custom receive location  
+## Configure variables for a WCF-Custom receive location  
   
 1.  If you plan to use the WCF extensibility points such as the custom binding elements, custom behavior element, and custom channel components when configuring the WCF-Custom adapter, you must add the assemblies that implement the extensibility points and all of the dependent assemblies to the global assembly cache on both the BizTalk processing computer (runtime computer) and the administration computer. In addition, you must register the extension components to the machine.config file. For more information about how to use the WCF extensibility points with the WCF Custom adapter, see [How to Enable the WCF Extensibility Points with the WCF Adapters](../core/how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters.md).  
   
@@ -71,19 +66,19 @@ You can configure a WCF-Custom receive location either programmatically or by us
   
 5.  In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-Custom** from the drop-down list, and then click **Configure**.  
   
-6.  In the **WCF-Custom Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-Custom receive location. For more information about the **General** tab in the **WCF-Custom Transport Properties** dialog box, see [WCF-Custom Transport Properties Dialog Box, Receive, General Tab](../core/wcf-custom-transport-properties-dialog-box-receive-general-tab.md).  
+6.  In the **WCF-Custom Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-Custom receive location. For more information about the **General** tab in the **WCF-Custom Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-7.  In the **WCF-Custom Transport Properties** dialog box, on the **Binding** tab, configure different types of predefined or custom bindings for WCF. For more information about the **Binding** tab in the **WCF-Custom Transport Properties** dialog box, see [WCF-Custom Transport Properties Dialog Box, Receive, Binding Tab](../core/wcf-custom-transport-properties-dialog-box-receive-binding-tab.md).  
+7.  In the **WCF-Custom Transport Properties** dialog box, on the **Binding** tab, configure different types of predefined or custom bindings for WCF. For more information about the **Binding** tab in the **WCF-Custom Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-8.  In the **WCF-Custom Transport Properties** dialog box, on the **Behavior** tab, configure the endpoint and service behaviors for this receive location. An endpoint behavior is a set of behavior extension elements that modify or extend service or client functionality. For more information about the **Behavior** tab in the **WCF-Custom Transport Properties** dialog box, see [WCF-Custom Transport Properties Dialog Box, Receive, Behavior Tab](../core/wcf-custom-transport-properties-dialog-box-receive-behavior-tab.md).  
+8.  In the **WCF-Custom Transport Properties** dialog box, on the **Behavior** tab, configure the endpoint and service behaviors for this receive location. An endpoint behavior is a set of behavior extension elements that modify or extend service or client functionality. For more information about the **Behavior** tab in the **WCF-Custom Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Behavior** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-9. In the **WCF-Custom Transport Properties** dialog box, on the **Other** tab, configure which credentials for this receive location to use when polling an external service, and whether this receive location preserves message order when processing messages. For more information about the **Other** tab in the **WCF-Custom Transport Properties** dialog box, see [WCF-Custom Transport Properties Dialog Box, Receive, Other Tab](../core/wcf-custom-transport-properties-dialog-box-receive-other-tab.md).  
+9. In the **WCF-Custom Transport Properties** dialog box, on the **Other** tab, configure which credentials for this receive location to use when polling an external service, and whether this receive location preserves message order when processing messages. For more information about the **Other** tab in the **WCF-Custom Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Other** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-10. In the **WCF-Custom Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-Custom Transport Properties** dialog box, see [WCF-Custom Transport Properties Dialog Box, Receive, Messages Tab](../core/wcf-custom-transport-properties-dialog-box-receive-messages-tab.md).  
+10. In the **WCF-Custom Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-Custom Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-11. In the **WCF-Custom Transport Properties** dialog box, on the **Import/Export** tab, import and export the **Address (URI)** and **Endpoint Identity** properties on the **General** tab, binding information on the **Binding** tab, and endpoint behavior on the **Behavior** tab for this receive location. For more information about the **Import/Export** tab in the **WCF-Custom Transport Properties** dialog box, see [WCF-Custom Transport Properties Dialog Box, Receive, Import-Export Tab](../core/wcf-custom-transport-properties-dialog-box-receive-import-export-tab.md).  
-  
- **How to Configure a WCF-Custom Receive Location Programmatically**  
+11. In the **WCF-Custom Transport Properties** dialog box, on the **Import/Export** tab, import and export the **Address (URI)** and **Endpoint Identity** properties on the **General** tab, binding information on the **Binding** tab, and endpoint behavior on the **Behavior** tab for this receive location. For more information about the **Import/Export** tab in the **WCF-Custom Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Import-Export** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+
+## Configure a WCF-Custom Receive Location programmatically
   
  You can use the following format to set the properties:  
   

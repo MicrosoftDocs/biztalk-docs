@@ -8,14 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web services, planning"
-  - "Web services, XLANG/s"
-  - "Web services, consuming"
-  - "Web services, references"
-  - "Web services, errors"
-  - "Web services, naming conventions"
-  - "Web services, warnings"
 ms.assetid: ea7038dc-4740-4c0a-b6a1-08bc22f42bc2
 caps.latest.revision: 31
 author: "MandiOhlinger"
@@ -77,7 +69,7 @@ This section provides information that you should take into consideration when c
 >   
 >  For more information about the **MethodName** property, see [How to Dynamically Set the URI of a Consumed Web Service](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md).  
 >   
->  For more information about **SOAP Transport Properties** dialog box, see [SOAP Transport Properties Dialog Box, Web service Tab](../core/soap-transport-properties-dialog-box-web-service-tab.md).  
+>  For more information about **SOAP Transport Properties** dialog box, see the **SOAP Transport Properties Dialog Box, Web service** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Property Rules  
  If the configuration property is set in an orchestration or in a custom pipeline component in a receive pipeline, then the following rules are applied:  
@@ -106,7 +98,7 @@ This section provides information that you should take into consideration when c
   
 3.  In the orchestration, define a late bound port and define the message types. For most cases where no property promotion or distinguished field access is needed, the type can be defined as **XMLDocument**. Select PassThrough pipelines with this type.  
   
-4.  In BizTalk Server Administration console, in the **Web Service** tab in the **SOAP Transport Properties** dialog box of the SOAP send port, specify that you want to use that proxy that you created. You will also need to specify assembly, type, and method. For more information, see [SOAP Transport Properties Dialog Box, Web service Tab](../core/soap-transport-properties-dialog-box-web-service-tab.md).  
+4.  In BizTalk Server Administration console, in the **Web Service** tab in the **SOAP Transport Properties** dialog box of the SOAP send port, specify that you want to use that proxy that you created. You will also need to specify assembly, type, and method. For more information, see the **SOAP Transport Properties Dialog Box, Web service** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Adding a Web reference to a consumed Web service that contains a Web method expecting generic based parameters will cause a compilation error  
  If you add a Web reference to your project for a Web service that contains a Web method expecting generic based parameters such as nullable parameters, an error will occur when the project is compiled. This is not supported. You must use explicit specialization to call the generic class from XLANG/s.  

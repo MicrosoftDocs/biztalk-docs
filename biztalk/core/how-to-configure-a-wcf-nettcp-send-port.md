@@ -8,8 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [WCF-NetTcp adapters], send ports, WCF-NetTcp adapters"
 ms.assetid: a8fff07e-b08e-4f95-8ce2-27b508674a5c
 caps.latest.revision: 14
 author: "MandiOhlinger"
@@ -19,7 +17,7 @@ manager: "anneta"
 # How to Configure a WCF-NetTcp Send Port
 You can configure a WCF-NetTcp send port either programmatically or by using the BizTalk Administration console.  
   
- **How to Configure a WCF-NetTcp Send Port Programmatically**  
+## Configuration properties
   
  The BizTalk Explorer Object Model exposes an adapter-specific interface for send ports named **ITransportInfo** that has the **TransportTypeData** read/write property. This property accepts a WCF-NetTcp send port configuration property bag in the form of a name-value pair of XML strings.  
   
@@ -37,11 +35,11 @@ You can configure a WCF-NetTcp send port either programmatically or by using the
 |**MaxReceivedMessageSize**|Integer|Specify the maximum size, in bytes, for a message (including headers) that can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br /><br /> The WCF-NetTcp adapter leverages the [NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087) class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [NetTcpBinding.MaxBufferSize](http://go.microsoft.com/fwlink/?LinkId=81088) property is always equal to the value of this property.<br /><br /> Default value: 65536|  
 |**EnableTransaction**|Boolean|Specify whether a message is transmitted to the destination service and deleted from the MessageBox database in a transactional context using the transaction protocol specified in the **TransactionProtocol** property.<br /><br /> Default value: **False**|  
 |**TransactionProtocol**|Enum<br /><br /> -   **OleTransaction**<br />-   **WS-AtomicTransaction**|Specify the transaction protocol to be used with this binding.<br /><br /> Default value: **OleTransaction**|  
-|**SecurityMode**|Enum<br /><br /> -   **None**<br />-   **Message**<br />-   **Transport**<br />-   **TransportWithMessageCredential**<br /><br /> For more information about the member names for the **SecurityMode** property, see the **Security mode** property in [WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-security-tab.md).|Specify the type of security that is used.<br /><br /> Default value: **Transport**|  
-|**TransportClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Windows**<br />-   **Certificate**<br /><br /> For more information about the member names for the **TransportClientCredentialType** property, see the **Transport client credential type** property in [WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-security-tab.md).|Specify the type of credential to be used when performing the send port authentication.<br /><br /> Default value: **Windows**|  
+|**SecurityMode**|Enum<br /><br /> -   **None**<br />-   **Message**<br />-   **Transport**<br />-   **TransportWithMessageCredential**<br /><br /> For more information about the member names for the **SecurityMode** property, see the **Security mode** property in the **WCF-NetTcp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the type of security that is used.<br /><br /> Default value: **Transport**|  
+|**TransportClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Windows**<br />-   **Certificate**<br /><br /> For more information about the member names for the **TransportClientCredentialType** property, see the **Transport client credential type** property in the **WCF-NetTcp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the type of credential to be used when performing the send port authentication.<br /><br /> Default value: **Windows**|  
 |**TransportProtectionLevel**|Enum<br /><br /> -   **None** - No protection.<br />-   **Sign** - Messages are signed.<br />-   **EncryptAndSign** - Messages are encrypted and signed.|Specify security at the level of the TCP transport. Signing messages mitigates the risk of a third party tampering with the message while it is being transferred. Encryption provides data-level privacy during transport.<br /><br /> Default value: **EncryptAndSign**|  
-|**MessageClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Windows**<br />-   **UserName**<br />-   **Certificate**<br /><br /> For more information about the member names for the **MessageClientCredentialType** property, see the **Message client credential type** property in [WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-security-tab.md).|Specify the type of credential to be used when performing client authentication using message-based security.<br /><br /> Default value: **Windows**|  
-|**AlgorithmSuite**|Enum<br /><br /> For more information about the member names for the **AlgorithmSuite** property, see the **Algorithm suite** property in [WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-security-tab.md).|Specify the message encryption and key-wrap algorithms. These algorithms map to those specified in the Security Policy Language (WS-SecurityPolicy) specification.<br /><br /> Default value: **Basic256**|  
+|**MessageClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Windows**<br />-   **UserName**<br />-   **Certificate**<br /><br /> For more information about the member names for the **MessageClientCredentialType** property, see the **Message client credential type** property in the **WCF-NetTcp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the type of credential to be used when performing client authentication using message-based security.<br /><br /> Default value: **Windows**|  
+|**AlgorithmSuite**|Enum<br /><br /> For more information about the member names for the **AlgorithmSuite** property, see the **Algorithm suite** property in the **WCF-NetTcp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the message encryption and key-wrap algorithms. These algorithms map to those specified in the Security Policy Language (WS-SecurityPolicy) specification.<br /><br /> Default value: **Basic256**|  
 |**ClientCertificate**|String|Specify the thumbprint of the X.509 certificate for authenticating this send port to services. This property is required if the **ClientCredentialsType** property is set to **Certificate**. The certificate to be used for this property must be installed into the **My** store in the **Current User** location.<br /><br /> The default is an empty string.|  
 |**AffiliateApplicationName**|String|Specify the affiliate application to use for Enterprise Single Sign-On (SSO).<br /><br /> The default is an empty string.|  
 |**UseSSO**|Boolean|Specify whether to use Single Sign-On to retrieve client credentials for authentication with the destination server.<br /><br /> Default value: **False**|  
@@ -58,23 +56,21 @@ You can configure a WCF-NetTcp send port either programmatically or by using the
   
  You can set WCF-NetTcp send port adapter variables in the BizTalk Administration console. If properties are not set for the send port, the default values for the WCF-NetTcp send port configuration are used, as indicated in the previous table.  
   
-## Procedures  
-  
-#### To configure variables for a WCF-NetTcp send port  
+## Configure variables for a WCF-NetTcp send port  
   
 1.  In the BizTalk Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **WCF-NetTcp** for the **Type** option in the **Transport** section of the **General** tab.  
   
 2.  On the **General** tab, in the **Transport** section, click the **Configure** button next to **Type**.  
   
-3.  In the **WCF-NetTcp Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** header for the WCF-NetTcp send port. For more information about the **General** tab in the **WCF-NetTcp Transport Properties** dialog box, see [WCF-NetTcp Transport Properties Dialog Box, Send, General Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-general-tab.md).  
+3.  In the **WCF-NetTcp Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** header for the WCF-NetTcp send port. For more information about the **General** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Send, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-4.  In the **WCF-NetTcp Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetTcp Transport Properties** dialog box, see [WCF-NetTcp Transport Properties Dialog Box, Send, Binding Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-binding-tab.md).  
+4.  In the **WCF-NetTcp Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Send, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-5.  In the **WCF-NetTcp Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetTcp send port. For more information about the **Security** tab in the **WCF-NetTcp Transport Properties** dialog box, see [WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-security-tab.md).  
+5.  In the **WCF-NetTcp Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetTcp send port. For more information about the **Security** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-6.  In the **WCF-NetTcp Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetTcp Transport Properties** dialog box, see [WCF-NetTcp Transport Properties Dialog Box, Send, Messages Tab](../core/wcf-nettcp-transport-properties-dialog-box-send-messages-tab.md).  
+6.  In the **WCF-NetTcp Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Send, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
- **How to Configure a WCF-NetTcp Send Port Programmatically**  
+## Configure a WCF-NetTcp Send Port Programmatically
   
  You can use the following format to set the properties:  
   

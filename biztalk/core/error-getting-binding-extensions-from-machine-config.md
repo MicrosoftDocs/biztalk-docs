@@ -31,9 +31,7 @@ manager: "anneta"
  This error occurs when a  receive location or send port binding configuration has a user defined binding extension, but it is not defined in machine.config file. This situation occurs primarily with the WCF-Custom and WCF-CustomIsolated adapters.  
   
 ## User Action  
- Define the binding extension used in the receive location or send port in machine.config file.  
-  
- Also, to get a custom behavior or binding element to work with WCF-Custom adapter, complete these steps:  
+ Define the binding extension used in the receive location or send port in machine.config file. Also, to get a custom behavior or binding element to work with WCF-Custom adapter, complete these steps:  
   
 1.  GAC the assembly  
   
@@ -56,6 +54,6 @@ manager: "anneta"
         ```  
   
 > [!NOTE]
->  The above code can also be added to the WCF Extensions tab. If the extension needs to be on the receive side, see [\<Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom or WCF-CustomIsolated Adapter Receive Handler)](../core/wcf-custom-or-wcf-customisolated-adapter-receive-handler-properties-in-biztalk.md). If the extension needs to be on the send side, see [\<Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom Adapter Send Handler)](../core/wcf-custom-adapter-send-handler-properties-in-biztalk-server.md).  
+>  The above code can also be added to the WCF Extensions tab. If the extension needs to be on the receive side, see the **\<Host Name> Properties Dialog Box, WCF Extensions** tab (WCF-Custom or WCF-CustomIsolated Adapter Receive Handler) [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. If the extension needs to be on the send side, see **\<Host Name> Properties Dialog Box, WCF Extensions** tab (WCF-Custom Adapter Send Handler) [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
  3. Close and reopen your admin console. You should be able to see your custom behavior in the WCF-Custom adapter, and the port should stay enabled when you enable it.

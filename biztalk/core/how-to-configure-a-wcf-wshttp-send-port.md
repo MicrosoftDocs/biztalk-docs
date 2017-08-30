@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "send ports, WCF-WSHttp adapters"
-  - "configuring [WCF-WSHttp adapters], send ports"
 ms.assetid: 035d9a62-b8a3-4705-a7bc-b62676437206
 caps.latest.revision: 17
 author: "MandiOhlinger"
@@ -20,7 +17,7 @@ manager: "anneta"
 # How to Configure a WCF-WSHttp Send Port
 You can configure a WCF-WSHttp send port either programmatically or by using the BizTalk Administration console.  
   
- **How to Configure a WCF-WSHttp Send Port Programmatically**  
+## Configuration properties
   
  The BizTalk Explorer Object Model exposes an adapter-specific interface for send ports named **ITransportInfo** that has the **TransportTypeData** read/write property. This property accepts a WCF-WSHttp send port configuration property bag in the form of a name-value pair of XML strings.  
   
@@ -39,11 +36,11 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 |**MessageEncoding**|Enum<br /><br /> -   **Text** - Use a text message encoder.<br />-   **Mtom** - Use a Message Transmission Organization Mechanism 1.0 (MTOM) encoder.|Specify the encoder used to encode the SOAP message.<br /><br /> Default value: **Text**|  
 |**TextEncoding**|Enum<br /><br /> -   **unicodeFFF** - Unicode BigEndian encoding.<br />-   **utf-16** - 16-bit encoding.<br />-   **utf-8** - 8-bit encoding.|Specify the character set encoding to be used for emitting messages on the binding when the **MessageEncoding** property is set to **Text**.<br /><br /> Default value: **utf-8**|  
 |**EnableTransaction**|Boolean|Specify whether a message is transmitted to the destination service and deleted from the MessageBox database in a transactional context using the **WS-AtomicTransaction** protocol.<br /><br /> Default value: **False**|  
-|**SecurityMode**|Enum<br /><br /> -   **None**<br />-   **Message**<br />-   **Transport**<br />-   **TransportWithMessageCredential**<br /><br /> For more information about the member names for the **SecurityMode** property, see the **Security mode** property in [WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-security-tab.md).|Specify the type of security that is used.<br /><br /> Default value: **None**|  
-|**TransportClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Basic**<br />-   **Windows**<br />-   **Certificate**<br />-   **Digest**<br />-   **Ntlm**<br /><br /> For more information about the member names for the **TransportClientCredentialType** property, see the **Transport client credential type** property in [WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-security-tab.md).|Specify the type of credential to be used when performing the send port authentication.<br /><br /> Default value: **None**|  
-|**MessageClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Windows**<br />-   **UserName**<br />-   **Certificate**<br /><br /> For more information about the member names for the **MessageClientCredentialType** property, see the **Message client credential type** property in [WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-security-tab.md).|Specify the type of credential to be used when performing client authentication using message-based security.<br /><br /> Default value: **UserName**|  
-|**AlgorithmSuite**|Enum<br /><br /> For more information about the member names for the **AlgorithmSuite** property, see the **Algorithm suite** property in [WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-security-tab.md).|Specify the message encryption and key-wrap algorithms. These algorithms map to those specified in the Security Policy Language (WS-SecurityPolicy) specification.<br /><br /> Default value: **Basic256**|  
-|**NegotiateServiceCredential**|Boolean<br /><br /> For more information about the member names for the **NegotiateServiceCredential** property, see the **Negotiate service credential** property in [WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-security-tab.md).|Specify whether the service credential is provisioned at this send port out of band, or is obtained from the service to this send port through a process of negotiation. Such a negotiation is a precursor to the usual message exchange.<br /><br /> Default value: **False**|  
+|**SecurityMode**|Enum<br /><br /> -   **None**<br />-   **Message**<br />-   **Transport**<br />-   **TransportWithMessageCredential**<br /><br /> For more information about the member names for the **SecurityMode** property, see the **Security mode** property in the **WCF-WSHttp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the type of security that is used.<br /><br /> Default value: **None**|  
+|**TransportClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Basic**<br />-   **Windows**<br />-   **Certificate**<br />-   **Digest**<br />-   **Ntlm**<br /><br /> For more information about the member names for the **TransportClientCredentialType** property, see the **Transport client credential type** property in the **WCF-WSHttp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the type of credential to be used when performing the send port authentication.<br /><br /> Default value: **None**|  
+|**MessageClientCredentialType**|Enum<br /><br /> -   **None**<br />-   **Windows**<br />-   **UserName**<br />-   **Certificate**<br /><br /> For more information about the member names for the **MessageClientCredentialType** property, see the **Message client credential type** property in the **WCF-WSHttp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the type of credential to be used when performing client authentication using message-based security.<br /><br /> Default value: **UserName**|  
+|**AlgorithmSuite**|Enum<br /><br /> For more information about the member names for the **AlgorithmSuite** property, see the **Algorithm suite** property in the **WCF-WSHttp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify the message encryption and key-wrap algorithms. These algorithms map to those specified in the Security Policy Language (WS-SecurityPolicy) specification.<br /><br /> Default value: **Basic256**|  
+|**NegotiateServiceCredential**|Boolean<br /><br /> For more information about the member names for the **NegotiateServiceCredential** property, see the **Negotiate service credential** property in the **WCF-WSHttp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Specify whether the service credential is provisioned at this send port out of band, or is obtained from the service to this send port through a process of negotiation. Such a negotiation is a precursor to the usual message exchange.<br /><br /> Default value: **False**|  
 |**EnableSecurityContext**|Boolean|Specify whether a security context token is established through a **WS-SecureConversation** exchange between this send port and the service. If this property is set to **True** then the destination service must support **WS-SecureConversation**.<br /><br /> Default value: **True**|  
 |**ClientCertificate**|String|Specify the thumbprint of the X.509 certificate for authenticating this send port to services. This property is required if the **ClientCredentialsType** property is set to **Certificate**. The certificate to be used for this property must be installed into the **My** store in the **Current User** location.<br /><br /> The default is an empty string.|  
 |**ServiceCertificate**|String|Specify the thumbprint of the X.509 certificate for authenticating the service to which this send port sends messages. The certificate to be used for this property must be installed into the **Other People** store in the **Local Machine** location.<br /><br /> The default is an empty string.|  
@@ -62,35 +59,32 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 |**InboundNodeEncoding**|Enum<br /><br /> -   **Base64** - Base64 encoding.<br />-   **Hex** - Hexadecimal encoding.<br />-   **String** - Text encoding - UTF-8.<br />-   **XML** - The WCF adapters create the BizTalk message body with the outer XML of the node selected by the body path expression in **InboundBodyPathExpression**.|Specify the type of encoding that the WCF-WSHttp send adapter uses to decode for the node identified by the body path specified in **InboundBodyPathExpression**. This property is required if the **InboundBodyLocation** property is set to **UseBodyPath**. This property is valid only for solicit-response ports.<br /><br /> Default value: **XML**|  
 |**PropagateFaultMessage**|Boolean<br /><br /> -   **True** - Route the message that fails outbound processing to a subscribing application (such as another receive port or orchestration schedule).<br />-   **False** - Suspend failed messages and generate a negative acknowledgment (NACK).|Specify whether to route or suspend messages failed in outbound processing.<br /><br /> This property is valid only for solicit-response ports.<br /><br /> Default value: **True**|  
   
- **How to Configure a WCF-WSHttp Send Port with the BizTalk Administration Console**  
+## Configure a WCF-WSHttp Send Port with the BizTalk Administration Console
   
  You can set WCF-WSHttp send port adapter variables in the BizTalk Administration console. If properties are not set for the send port, the default values for the WCF-WSHttp send port configuration are used, as indicated in the previous table.  
   
-## Procedures  
-  
-#### To configure variables for a WCF-WSHttp send port  
+## Configure variables for a WCF-WSHttp send port  
   
 1.  In the BizTalk Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **WCF-WSHttp** for the **Type** option in the **Transport** section of the **General** tab.  
   
 2.  On the **General** tab, in the **Transport** section, click the **Configure** button next to **Type**.  
   
-3.  In the **WCF-WSHttp Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** HTTP header for the WCF-WSHttp send port. For more information about the **General** tab in the **WCF-WSHttp Transport Properties** dialog box, see [WCF-WSHttp Transport Properties Dialog Box, Send, General Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-general-tab.md).  
+3.  In the **WCF-WSHttp Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** HTTP header for the WCF-WSHttp send port. For more information about the **General** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-4.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Binding** tab, configure the time-out, encoding, and transaction properties. For more information about the **Binding** tab in the **WCF-WSHttp Transport Properties** dialog box, see [WCF-WSHttp Transport Properties Dialog Box, Send, Binding Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-binding-tab.md).  
+4.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Binding** tab, configure the time-out, encoding, and transaction properties. For more information about the **Binding** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-5.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-WSHttp send port. For more information about the **Security** tab in the **WCF-WSHttp Transport Properties** dialog box, see [WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-security-tab.md).  
+5.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-WSHttp send port. For more information about the **Security** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-6.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Proxy** tab, configure the proxy setting for the WCF-WSHttp send port. For more information about the **Proxy** tab in the **WCF-WSHttp Transport Properties** dialog box, see [WCF-WSHttp Transport Properties Dialog Box, Send, Proxy Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-proxy-tab.md)  
+6.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Proxy** tab, configure the proxy setting for the WCF-WSHttp send port. For more information about the **Proxy** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, Proxy** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-7.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-WSHttp Transport Properties** dialog box, see [WCF-WSHttp Transport Properties Dialog Box, Send, Messages Tab](../core/wcf-wshttp-transport-properties-dialog-box-send-messages-tab.md).  
+7.  In the **WCF-WSHttp Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
- **How to Configure a WCF-WSHttp Send Port Programmatically**  
+## Configure a WCF-WSHttp Send Port Programmatically
   
  You can use the following format to set the properties:  
-  
- \<CustomProps>  
-  
+
 ```  
+ <CustomProps>    
   <ServiceCertificate vt="8" />  
   <UseSSO vt="11">0</UseSSO>  
   <InboundBodyPathExpression vt="8" />  

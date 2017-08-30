@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Schema Categories in the Add Adapter Metadata Wizard
+
+## Overview
 > [!NOTE]
 >  This topic is only for static adapters that implement the **IStaticAdapterConfig** interface.  
   
@@ -28,6 +30,9 @@ manager: "anneta"
   
  ![](../core/media/ebiz-prog-custad-tree.gif "ebiz_prog_custad_tree")  
 Tree view of the schema categories in the Add Adapter Metadata Wizard  
+
+
+## Sample XML
   
  The following code shows the CategorySchema.xml file:  
   
@@ -126,4 +131,4 @@ Tree view of the schema categories in the Add Adapter Metadata Wizard
   
  After modifying your CategorySchema.xml file, rebuild the AdapterManagement project, and then run the Add Adapter Metadata Wizard to ensure that the tree represented in CategorySchema.xml appears correctly.  
   
- For information about running the Add Adapter Metadata Wizard, see [Add Adapter Metadata Wizard Dialog Box](../core/add-adapter-metadata-wizard-dialog-box.md).
+ For information about running the Add Adapter Metadata Wizard, see the **Add Adapter Metadata Wizard Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].

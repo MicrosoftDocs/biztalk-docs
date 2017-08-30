@@ -29,11 +29,11 @@ manager: "anneta"
   
 ## Explanation  
  You did not provide a valid certificate for a WCF transport.  
+
+#### User Action
+Add a certificate. 
   
-## User Action  
- Use the following procedure to add a certificate.  
-  
-#### To add a certificate  
+## Add a certificate  
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and click **BizTalk Server Administration**.  
   
@@ -57,7 +57,7 @@ manager: "anneta"
   
  For the WCF-Custom and the WCF-CustomIsolated adapters, ensure that the search criteria in the **Certificate Reference** section is configured properly to indicate a valid certificate in the certificate **Store name**.  
   
-#### To add a certificate for standard WCF adapters  
+## Add a certificate for standard WCF adapters  
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and click **BizTalk Server Administration**.  
   
@@ -79,8 +79,6 @@ manager: "anneta"
   
  In the Certificate snap-in, make sure that valid certificates are installed for the WCF transport.  
   
- For additional information on certificates, see the following:  
+## See also 
   
--   [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)  
-  
--   [WCF Adapters UI Help](../core/wcf-adapters-ui-help.md)
+[Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)  

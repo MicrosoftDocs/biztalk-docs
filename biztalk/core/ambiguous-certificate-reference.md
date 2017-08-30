@@ -30,10 +30,10 @@ manager: "anneta"
 ## Explanation  
  More than one valid certificate was found.  
   
-## User Action  
- Use the following procedure to verify only one valid certificate is configured.  
+#### User action  
+ Verify only one valid certificate is configured.  
   
-#### To verify certificate  
+## Verify certificate 
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and click **BizTalk Server Administration**.  
   
@@ -55,7 +55,7 @@ manager: "anneta"
   
 10. In the **Identity Editor** dialog box, make sure the search criteria in the **Certificate Reference** section is configured properly to indicate only one certificate in the certificate **Store name**.  
   
-#### To verify a certificate for the WCF-Custom and the WCF-CustomIsolated adapters  
+## Verify a certificate for the WCF-Custom and the WCF-CustomIsolated adapters  
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
   
@@ -77,8 +77,6 @@ manager: "anneta"
   
 10. In the Certificate snap-in, make sure only one certificate is installed for the search criteria you configured to the WCF transport.  
   
- For further information on certificates, see the following topics:  
-  
--   [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)  
-  
--   [WCF Adapters UI Help](../core/wcf-adapters-ui-help.md)
+## See also
+[Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)  
+ 
