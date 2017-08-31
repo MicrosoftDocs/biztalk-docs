@@ -35,8 +35,8 @@ manager: "anneta"
   
 -   If mapping conflicts are expected and allowed, use the SSO Admin tools to configure the **Allow Mapping Conflicts** property for the Password Sync Adapter.  
   
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+## More info
   
--   [Password Sync Adapter Properties: Options](../core/password-sync-adapter-properties-options.md)  
+-   **Password Sync Adapter Properties: Options** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
   
 -   [Password Synchronization](../core/password-synchronization2.md)

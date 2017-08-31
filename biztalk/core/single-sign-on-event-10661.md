@@ -37,8 +37,8 @@ manager: "anneta"
   
 -   Verify adapter configuration properties.  
   
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+## More info
   
 -   [How to Administer Password Synchronization](../core/how-to-administer-password-synchronization.md)  
   
--   [Enterprise Single Sign-On UI Help](../core/enterprise-single-sign-on-ui-help.md)
+-   **Enterprise Single Sign-On UI Help** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

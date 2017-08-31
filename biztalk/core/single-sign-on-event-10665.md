@@ -37,8 +37,8 @@ manager: "anneta"
   
 -   Recreate the password sync adapter  
   
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+## More info
   
--   [Password Sync Adapter Properties](../core/password-sync-adapter-properties.md)  
+-   **Password Sync Adapter Properties: Options** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
   
 -   [Password Synchronization](../core/password-synchronization2.md)

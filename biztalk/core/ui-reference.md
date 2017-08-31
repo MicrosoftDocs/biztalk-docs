@@ -20,7 +20,3 @@ manager: "anneta"
 ## Summary
 This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] user interface (UI).  
   
-## Next
-  
- 
--   [Enterprise Single Sign-On UI](../core/enterprise-single-sign-on-ui-help.md)
