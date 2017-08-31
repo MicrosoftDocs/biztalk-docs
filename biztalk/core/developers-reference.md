@@ -19,7 +19,6 @@ This section contains the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
   
 ## In This Section  
   
--   [COM Object Reference](../core/com-object-reference.md)  
   
 -   [WMI Class Reference](../core/wmi-class-reference.md)  
   
