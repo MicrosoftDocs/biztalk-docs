@@ -79,5 +79,3 @@ This report shows the details for transaction sets in a specific EDI interchange
   
 -   Interchange/ACK Status report. This report uses the same user interface as the [EDI Interchange and Correlated ACK Status Report](../core/edi-interchange-and-correlated-ack-status-report.md) that is displayed for multiple interchanges. The difference is that this report data for only the interchange that contains this transaction set.  
   
-## See Also  
- [Transaction Set Details Page UI](../core/transaction-set-details-page-ui.md)

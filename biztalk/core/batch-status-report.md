@@ -67,5 +67,3 @@ This report shows the activity of instances of the batching orchestration. Each 
 |Destination Party|Equals|All (default)<br /><br /> Specific party name|No|  
 |EDI encoding type|Equals|X12<br /><br /> EDIFACT<br /><br /> All (default)|No|  
   
-## See Also  
- [Batch Status Page UI](../core/batch-status-page-ui.md)

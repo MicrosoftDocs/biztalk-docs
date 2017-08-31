@@ -80,7 +80,7 @@ This report shows all AS2 messages that are processed by the AS2 send and receiv
   
  The format of each of the final three messages is the same. For more information, see [AS2 Message Content Status Reports](../core/as2-message-content-status-reports.md).  
   
-## Correlating an AS2 Message with its EDI Payload  
+## Correlate an AS2 Message with its EDI Payload  
  AS2 and EDI status reporting enables you to correlate status entries for an AS2 message and its EDI payload. If you have enabled both AS2 and EDI status reporting, a status entry is made in the AS2 status report for the AS2 message and a status entry is made in the EDI status report for the EDI payload of that AS2 message. If you have the AS2 status report displayed, you can display the status of the EDI payload for an AS2 message by right-clicking the AS2 message status entry, and then clicking **Interchange/ACK Status**. If there is only one EDI interchange in the AS2 message, this action will bring up the status entry for that one interchange.  
   
  If the AS2 message contains multiple EDI interchanges, and you attempt to display the status of the multiple EDI interchanges in the AS2 message, only the last EDI interchange will be displayed in the Interchange/ACK status report. In addition, the **EDI Interchange Control No** field in the AS2/MDN Status report will only show the last interchange control number. (The interchange control number correlates the AS2 message and its EDI interchange payload.)  
@@ -89,7 +89,7 @@ This report shows all AS2 messages that are processed by the AS2 send and receiv
   
  The **Party role** field in the AS2 status report and the **Direction** field in the EDI status report are opposite in their meaning. For an incoming AS2 message with an EDI payload, the **Party role** field for the AS2 message would be **Sender**, while the **Direction** field for the EDI interchange would be **Receive**. The reason for this is that for an incoming message received from a party, the role of that party is a sender. The properties of that party related to an AS2 message that it sends are that of party as AS2 message sender, as defined in the AS2 Properties dialog box in the Partner Agreement Management. As a result, the AS2 party role is opposite to the EDI direction.  
   
-## In This Section  
+## Next steps
   
 -   [AS2 Message Content Status Reports](../core/as2-message-content-status-reports.md)  
   
@@ -97,7 +97,3 @@ This report shows all AS2 messages that are processed by the AS2 send and receiv
   
 ## See Also  
  [AS2 Message and Correlated MDN Status Report](../core/as2-message-and-correlated-mdn-status-report.md)   
- [Message Wire Format Page UI](../core/message-wire-format-page-ui.md)   
- [Message Decoded Page UI](../core/message-decoded-page-ui.md)   
- [MDN Message Page UI](../core/mdn-message-page-ui.md)   
- [Resend Status Details Page UI](../core/resend-status-details-page-ui.md)

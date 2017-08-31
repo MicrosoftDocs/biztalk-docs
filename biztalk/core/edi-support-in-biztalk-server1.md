@@ -80,7 +80,7 @@ This topic provides a brief general overview of EDI and how [!INCLUDE[prague](..
   
 -   The BizTalk EDI Send Pipeline (EdiSend pipeline) converts XML documents into X12 or EDIFACT encoding, serializes EDI-encoded documents, and performs EDI and XSD validation. For more information, see [EDI Send Components](../core/edi-send-components.md).  
   
--   The Trading Partner Management (TPM) user interface enables you to set processing properties for trading partners engaging in EDI document exchange and AS2 document transport. For more information, see [The Role of Agreements in EDI Processing](../core/the-role-of-agreements-in-edi-processing.md) and [EDI and AS2 UI Help](../core/edi-and-as2-ui-help.md).  
+-   The Trading Partner Management (TPM) user interface enables you to set processing properties for trading partners engaging in EDI document exchange and AS2 document transport. For more information, see [The Role of Agreements in EDI Processing](../core/the-role-of-agreements-in-edi-processing.md) and **EDI and AS2 UI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 -   The batching orchestration batches EDI interchanges and sets context properties for sending of the batched interchange. The routing orchestration handles the instances in which messages match multiple batches, creating as many copies of the message as required. For more information, see [Processing Incoming Batches](../core/processing-incoming-batches.md) and [Batching Outgoing EDI Messages](../core/batching-outgoing-edi-messages.md).  
   
