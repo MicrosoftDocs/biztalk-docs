@@ -92,7 +92,7 @@ At the application-level, you can import a binding file with EDI and AS2 parties
      > [!IMPORTANT] 
      > The global tracking settings override **Import Tracking Settings**. So if you've disabled tracking at the global level, any tracking settings are not imported, even if **Import Tracking Settings** is checked.
      > 
-     > [BizTalk Settings Dashboard, Group Page](../core/biztalk-settings-dashboard-group-page.md) explains the **Allow import of tracking settings** global setting.
+     > **BizTalk Settings Dashboard, Group Page** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)] explains the **Allow import of tracking settings** global setting.
 
 ### BTSTask example
 
