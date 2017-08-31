@@ -3885,26 +3885,7 @@
 
 ## [Terms and definitions](glossary5.md)
 
-
-## [UI guidance ](technical-reference5.md)
-### [User interface help](ui-reference.md)
-
-### [Application Deployment UI](application-deployment-ui-help.md)
-#### [Add Policies Page](add-policies-page.md)
-#### [Export Policies Page](export-policies-page.md)
-#### [Export Bindings Page](export-bindings-page.md)
-#### [Export MSI File Wizard, Welcome Page](export-msi-file-wizard-welcome-page.md)
-#### [Export MSI File Wizard, Select Resources Page](export-msi-file-wizard-select-resources-page.md)
-#### [Export MSI File Wizard, Specify IIS Hosts Page](export-msi-file-wizard-specify-iis-hosts-page.md)
-#### [Export MSI File Wizard, Dependencies Page](export-msi-file-wizard-dependencies-page.md)
-#### [Export MSI File Wizard, Destination Page](export-msi-file-wizard-destination-page.md)
-#### [Export MSI File Wizard, Summary Page](export-msi-file-wizard-summary-page.md)
-#### [Import MSI Wizard, Welcome Page](import-msi-wizard-welcome-page.md)
-#### [Import MSI Wizard, Application Settings Page](import-msi-wizard-application-settings-page.md)
-#### [Import MSI Wizard: Application Target Environment Settings](import-msi-wizard-application-target-environment-settings.md)
-#### [Import MSI Wizard, Import Summary Page](import-msi-wizard-import-summary-page.md)
-#### [Import MSI Wizard, Results Page](import-msi-wizard-results-page.md)
-
+## [UI guidance & developers reference](technical-reference5.md)
 
 ### [Developers Reference](developers-reference.md)
 #### [COM Object Reference](com-object-reference.md)

@@ -1,5 +1,6 @@
 ---
-title: "UI Guidance | Microsoft Docs"
+title: "UI Guidance and Developers reference | Microsoft Docs"
+User interface (UI) help for adapters, BizTalk Mapper, Orchestration designer, Rule engine deployment wizard, Web Services Publishing Wizard, and more in BizTalk Server 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -14,13 +15,50 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Technical Reference5
-This section covers technical reference information about Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+# BizTalk Server UI help & Developers reference
+
+Get the UI help for different parts of BizTalk Server, including the different wizard, BizTalk Administration, BAM, EDI & AS2, Rules, WCF services, and more [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
+
+## UI help
+
+* Adapters
+* Assembly Viewer
+* BizTalk Administration
+* BizTalk Editor
+* BizTalk Flat File Schema wizard
+* BizTalk Mapper
+* BPEL Import wizard
+* Business Activity Monitoring (BAM) add-in for Excel
+* Business Activity Monitoring (BAM) portal
+* Business Rule Composer
+* Configuration wizard
+* EDI and AS2
+* Enterprise Single Sign-on
+* Orchestration designer
+* Pipeline designer
+* Project system
+* Rule engine deployment wizard
+* Tracking Profile Editor
+* Web services
+* WCF service
+* Setup & upgrade wizard
+
+## Application deployment UI help
+
+* Add policies
+* Export policies & export bindings
+* Export MSI File wizard
+* Import MSI wizard
+
+
+## Developers reference
   
-## In This Section  
-  
-  
--   [UI Reference](../core/ui-reference.md)    
- 
--   [Developers Reference](../core/developers-reference.md)  
-  
+* COM objects
+* WMI classes
+* Schema properties
+* Map properties
+* Functoids
+* WCF adapters service contract 
+* Message context properties
+* Enterprise Single Sign-on flags
+* BizTalk Server .NET classes
