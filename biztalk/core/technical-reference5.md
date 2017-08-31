@@ -15,6 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # BizTalk Server UI help & Developers reference
 
 Get the UI help for different parts of BizTalk Server and reference topics for developers [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
