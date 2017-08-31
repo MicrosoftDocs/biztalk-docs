@@ -3889,20 +3889,6 @@
 ## [UI guidance ](technical-reference5.md)
 ### [User interface help](ui-reference.md)
 
-#### [EDI and AS2 UI](edi-and-as2-ui-help.md)
-
-###### [Batch Status Page UI](batch-status-page-ui.md)
-###### [Interchange Aggregation Report Page UI](interchange-aggregation-report-page-ui.md)
-###### [Transaction Set Aggregation Report Page UI](transaction-set-aggregation-report-page-ui.md)
-###### [AS2 Message and Correlated MDN Status Page UI](as2-message-and-correlated-mdn-status-page-ui.md)
-####### [Message Wire Format Page UI](message-wire-format-page-ui.md)
-####### [Message Decoded Page UI](message-decoded-page-ui.md)
-####### [MDN Message Page UI](mdn-message-page-ui.md)
-####### [Resend Status Details Page UI](resend-status-details-page-ui.md)
-##### [EDI Design-Time XML Tools UI](edi-design-time-xml-tools-ui-help.md)
-###### [EDI Instance Properties Dialog Box UI](edi-instance-properties-dialog-box-ui-help.md)
-
-
 #### [Administration UI](administration-ui-help.md)
 ##### [BizTalk Server Administration Console UI](biztalk-server-administration-console-ui-help.md)
 ###### [MMC 3.0 Console Tree Nodes](mmc-3-0-console-tree-nodes.md)
