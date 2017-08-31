@@ -94,7 +94,7 @@ Each message has a multi-part message type, a description of the message structu
 >  If a multi part message that contains greater than the number of declared parts is received, the orchestration engine reads how many parts there are in the message, then constructs the proper part types for the parts that match the number of parts in the declared message type and then constructs **XmlDocument** parts for the remaining parts.  
   
 ## See Also  
- [IBaseMessage.AddPart Method (COM)](../core/ibasemessage-addpart-method-com.md)   
+ **IBaseMessage.AddPart Method (COM)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
  [XSD Resources on the Web](../core/xsd-resources-on-the-web.md)   
  [Using Distinguished Fields and Property Fields](../core/using-distinguished-fields-and-property-fields.md)   
  [Using Messages in Orchestrations](../core/using-messages-in-orchestrations.md)

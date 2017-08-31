@@ -52,7 +52,7 @@ msg.Context.Write(
  After the messages are prepared, they can be submitted into the Messaging Engine. To see how a one-way receive adapter might submit a message into the engine, see the code sample [SubmitDirect (BizTalk Server Sample)](../core/submitdirect-biztalk-server-sample.md).  
   
 ## Request-Response  
- Two-way receive adapters are typically used on one-way or two-way receive ports. The adapter determines whether the receive location it is servicing is a one-way or two-way port by inspecting the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration property bag. This process is explained in [IBTTransportConfig.AddReceiveEndpoint Method (COM)](../core/ibttransportconfig-addreceiveendpoint-method-com.md).  
+ Two-way receive adapters are typically used on one-way or two-way receive ports. The adapter determines whether the receive location it is servicing is a one-way or two-way port by inspecting the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration property bag. This process is explained in the **IBTTransportConfig.AddReceiveEndpoint Method (COM)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
  The following object interaction diagram illustrates the process of performing a request-response message exchange. The adapter requests a new batch from the transport proxy and passes in its reference to the **IBTTransmitter** interface through the **SubmitRequestMessage** method. The Messaging Engine delivers the response message on this interface by using the **TransmitMessage** method.  
   
@@ -69,7 +69,7 @@ msg.Context.Write(
  The BaseAdapter project has a utility class, **StandardRequestResponseHandler**, that encapsulates the request-response semantics explained in this topic.  
   
 ## Request-Response Message Time-Outs  
- When an adapter submits a request-request message, it needs to specify the time-out of the request message on the [IBTTransportBatch.SubmitRequestMessage Method (COM)](../core/ibttransportbatch-submitrequestmessage-method-com.md) API. A response message will be delivered to the adapter only within this time-out period. After the time-out expires, a negative acknowledgment (NACK) will be delivered to the adapter instead of the response message. If the adapter does not specify a time-out value, the engine uses the default value of 20 minutes.  
+ When an adapter submits a request-request message, it needs to specify the time-out of the request message on the **IBTTransportBatch.SubmitRequestMessage Method (COM)** API [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. A response message will be delivered to the adapter only within this time-out period. After the time-out expires, a negative acknowledgment (NACK) will be delivered to the adapter instead of the response message. If the adapter does not specify a time-out value, the engine uses the default value of 20 minutes.  
   
  The default time-out for request-response messages may be controlled by using the following registry key for in-process receive adapters:  
   

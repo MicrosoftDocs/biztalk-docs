@@ -65,12 +65,11 @@ GUID* pguidTrackingId
   
  Note that password change complete notifications sent back to the adapter are not completely reliable. Under some error conditions, Single Sign-On may never actually receives the requested notifications.  
   
- In ENTSSO, the definition of credentials, such as those sent by **SendNotification** for password updates, is more flexible than a simple password. When you define an SSO application, you also define the credential fields. The fields identify the labels to use for the UI fields, and whether those fields are masked or not. In addition, there is also a special flage which specifies whether the field should be synchronized or not. Field 0 is a special case and defines the label for the user ID. For more information, see the [ISSOAdmin Interface](../core/issoadmin-interface-com.md).  
+ In ENTSSO, the definition of credentials, such as those sent by **SendNotification** for password updates, is more flexible than a simple password. When you define an SSO application, you also define the credential fields. The fields identify the labels to use for the UI fields, and whether those fields are masked or not. In addition, there is also a special flage which specifies whether the field should be synchronized or not. Field 0 is a special case and defines the label for the user ID. For more information, see the **ISSOAdmin Interface** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
 ## Requirements  
  **Platforms:**  [!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)]  
   
 ## See Also  
- [ISSONotification Interface (COM)](../core/issonotification-interface-com.md)   
- [ISSONotification Members](../core/issonotification-members.md)   
+ **ISSONotification Interface (COM)** and **ISSONotification Members** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]    
  [Programming with Enterprise Single Sign-On](../core/programming-with-enterprise-single-sign-on.md)
