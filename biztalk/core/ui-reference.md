@@ -25,8 +25,6 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
 -   [Application Deployment UI](../core/application-deployment-ui-help.md)  
   
  
--   [Administration UI](../core/administration-ui-help.md)  
-  
 -   [Orchestration Designer UI](http://msdn.microsoft.com/library/4b6f9ed1-fb1d-4668-9df8-ebcc34cb351c)  
   
 -   [Pipeline Designer UI](../core/pipeline-designer-ui-help.md)  
