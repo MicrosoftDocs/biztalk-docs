@@ -22,6 +22,5 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
   
 ## Next
   
--   [Application Deployment UI](../core/application-deployment-ui-help.md)   
-  
+ 
 -   [Enterprise Single Sign-On UI](../core/enterprise-single-sign-on-ui-help.md)
