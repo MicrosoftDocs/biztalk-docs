@@ -17,7 +17,7 @@ manager: "anneta"
 ---
 # BizTalk Server UI help & Developers reference
 
-Get the UI help for different parts of BizTalk Server, including the different wizard, BizTalk Administration, BAM, EDI & AS2, Rules, WCF services, and more [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
+Get the UI help for different parts of BizTalk Server and reference topics for developers [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
 
 ## UI help
 
