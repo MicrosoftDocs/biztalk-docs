@@ -115,4 +115,3 @@ This topic describes how to configure the EDI and AS2 status reports in the **Gr
  [Monitoring EDI and AS2 Solutions](../core/monitoring-edi-and-as2-solutions.md)   
  [Configuring an EDI and AS2 Status Report](../core/configuring-an-edi-and-as2-status-report.md)   
  [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md)   
- [EDI-AS2 Status Reports UI](../core/edi-as2-status-reports-ui.md)

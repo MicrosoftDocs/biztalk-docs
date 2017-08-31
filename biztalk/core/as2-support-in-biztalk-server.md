@@ -63,7 +63,7 @@ This topic provides a brief general overview of AS2 processing and how [!INCLUDE
   
 -   The AS2Send pipeline that performs AS2 processing of a non-EDI message being sent over AS2. For more information, see [AS2 Send Components](../core/as2-send-components.md).  
   
--   The Trading Partner Management (TPM) user interface that enables you to set processing properties for trading partners engaging in AS2 document transport. For more information, see [The Role of Agreements in AS2 Processing](../core/the-role-of-agreements-in-as2-processing.md) and [EDI and AS2 UI Help](../core/edi-and-as2-ui-help.md).  
+-   The Trading Partner Management (TPM) user interface that enables you to set processing properties for trading partners engaging in AS2 document transport. For more information, see [The Role of Agreements in AS2 Processing](../core/the-role-of-agreements-in-as2-processing.md) and the **EDI and AS2 UI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 -   Status reporting user interface that provides comprehensive status of AS2 interchanges and correlated acknowledgments. For more information, see [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md).  
   

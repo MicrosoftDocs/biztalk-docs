@@ -17,7 +17,7 @@ manager: "anneta"
 # Monitoring EDI and AS2 Solutions
 The EDI and AS2 status reporting UI enables you to display the status of incoming and outgoing EDI and AS2 messages. Status Reports can be viewed from the **Group Overview** pane accessible when BizTalk Group Node is clicked, the links to the EDI, AS2 and Batching Status Reporting are present at the bottom of the **Group Overview** pane.  
   
-## In This Section  
+## Next steps 
   
 -   [Enabling EDI and AS2 Status Reports](../core/enabling-edi-and-as2-status-reports.md)  
   
@@ -30,4 +30,3 @@ The EDI and AS2 status reporting UI enables you to display the status of incomin
 ## See Also  
  [Monitoring BizTalk Server](../core/monitoring-biztalk-server.md)   
  [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md)   
- [EDI-AS2 Status Reports UI](../core/edi-as2-status-reports-ui.md)

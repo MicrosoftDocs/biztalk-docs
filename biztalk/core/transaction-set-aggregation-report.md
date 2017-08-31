@@ -54,5 +54,3 @@ This report provides a single record that shows the number of EDI transaction se
 |Status|Equals<br /><br /> Not Equals|Accepted<br /><br /> Accepted with Errors<br /><br /> Sent<br /><br /> All<br /><br /> Ack Expected<br /><br /> Ack Not Expected<br /><br /> Rejected|No|  
 |Transaction Set ID|Equals|All (default)<br /><br /> Specific transaction set ID|No|  
   
-## See Also  
- [Transaction Set Aggregation Report Page UI](../core/transaction-set-aggregation-report-page-ui.md)

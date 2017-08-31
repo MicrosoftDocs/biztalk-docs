@@ -32,7 +32,7 @@ When EDI and AS2 status reports are enabled, you will have access to the followi
   
 -   If you are logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Operators group, you can display read-only status reports.  
   
-### To display an EDI or AS2 status report  
+## Display an EDI or AS2 status report  
   
 1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **BizTalk Group** node.  
   
@@ -84,6 +84,5 @@ When EDI and AS2 status reports are enabled, you will have access to the followi
 ## See Also  
  [Monitoring EDI and AS2 Solutions](../core/monitoring-edi-and-as2-solutions.md)   
  [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md)   
- [EDI-AS2 Status Reports UI](../core/edi-as2-status-reports-ui.md)   
  [Enabling EDI and AS2 Status Reports](../core/enabling-edi-and-as2-status-reports.md)   
  [Configuring an EDI and AS2 Status Report](../core/configuring-an-edi-and-as2-status-report.md)

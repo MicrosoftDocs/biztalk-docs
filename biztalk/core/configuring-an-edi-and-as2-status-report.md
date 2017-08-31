@@ -1,5 +1,6 @@
 ---
-title: "Configuring an EDI and AS2 Status Report | Microsoft Docs"
+title: "Configure an EDI and AS2 Status Report | Microsoft Docs"
+description: Create the EDI or AS2 status report query expression, and select the data you want displayed in the report for in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -14,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Configuring an EDI and AS2 Status Report
+# Configure an EDI and AS2 Status Report
 After you have enabled EDI or AS2 status reports, you display the status report you want from the **EDI Status Reports** or **EDIINT Status Reports** section of the **Group Hub** tab of the **Group Overview** page in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console. When you display a status report, you will see a default set of data. You can configure the following aspects of the status reports:  
   
 -   The query expression that is run to determine the range of data that status is reported for, for example, the date range, the direction of the data (receive or send), or the status value (Accepted, Rejected, All, etc.)  
@@ -29,7 +30,7 @@ After you have enabled EDI or AS2 status reports, you display the status report 
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
-### To configure the status report query expression  
+## Configure the status report query expression  
   
 1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **BizTalk Group** node to see the **Group Overview** pane.  
   
@@ -40,7 +41,7 @@ After you have enabled EDI or AS2 status reports, you display the status report 
 4.  Verify that the values for the filter expressions are as desired. If not, click the down arrow for the **Operator** column to select a query operation, and enter the appropriate value in the **Value** column.  
   
     > [!NOTE]
-    >  The operators and values available for filter criteria in the query expressions are described in [Types of EDI and AS2 Status Reports](../core/types-of-edi-and-as2-status-reports.md) and [EDI-AS2 Status Reports UI](../core/edi-as2-status-reports-ui.md).  
+    >  The operators and values available for filter criteria in the query expressions are described in [Types of EDI and AS2 Status Reports](../core/types-of-edi-and-as2-status-reports.md) and the **EDI-AS2 Status Reports UI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
 5.  To run the query, displaying the status report according to the filter criteria, click **Run Query**.  
   
@@ -48,7 +49,7 @@ After you have enabled EDI or AS2 status reports, you display the status report 
   
 7.  To open a saved .btq file, click **Open Query**.  
   
-### To configure the type of data displayed in the status report pane  
+## Configure the type of data displayed in the status report pane  
   
 1.  Right-click the status results area of the status report pane, and then click **Add/Remove Columns**.  
   
@@ -59,6 +60,5 @@ After you have enabled EDI or AS2 status reports, you display the status report 
 ## See Also  
  [Monitoring EDI and AS2 Solutions](../core/monitoring-edi-and-as2-solutions.md)   
  [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md)   
- [EDI-AS2 Status Reports UI](../core/edi-as2-status-reports-ui.md)   
  [Enabling EDI and AS2 Status Reports](../core/enabling-edi-and-as2-status-reports.md)   
  [Displaying an EDI or AS2 Status Report](../core/displaying-an-edi-or-as2-status-report.md)

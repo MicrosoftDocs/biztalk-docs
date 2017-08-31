@@ -98,7 +98,7 @@ This report shows all EDI interchanges that are processed by the EDI send and re
   
 -   [Transaction Set Details Status Report](../core/transaction-set-details-status-report.md)  
   
-## In This Section  
+## Next steps
   
 -   [Interchange Status and ACK Details Status Report](../core/interchange-status-and-ack-details-status-report.md)  
   
@@ -106,7 +106,3 @@ This report shows all EDI interchanges that are processed by the EDI send and re
   
 -   [EDI Message Content Status Report](../core/edi-message-content-status-report.md)  
   
-## See Also  
- [EDI Interchange and Correlated ACK Status Page UI](../core/edi-interchange-and-correlated-ack-status-page-ui.md)   
- [Interchange Status and ACK Details Page UI](../core/interchange-status-and-ack-details-page-ui.md)   
- [Transaction Set Details Page UI](../core/transaction-set-details-page-ui.md)
