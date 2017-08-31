@@ -33,4 +33,4 @@ manager: "anneta"
 ## User Action  
  If this is expected behavior then no action is required, this message is informational only. If mapping conflicts should be allowed then configure the application accordingly.  
   
- For more information on mapping conflicts, see [Password Sync Adapter Properties: Options](../core/password-sync-adapter-properties-options.md).
+ For more information on mapping conflicts, see **Password Sync Adapter Properties: Options** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].

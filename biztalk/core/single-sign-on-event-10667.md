@@ -34,8 +34,8 @@ manager: "anneta"
   
 -   No user action is necessary.  
   
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+## More info
   
 -   [Password Synchronization](../core/password-synchronization2.md)  
   
--   [Password Sync Adapter Properties: Options](../core/password-sync-adapter-properties-options.md)
+-   **Password Sync Adapter Properties: Options** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

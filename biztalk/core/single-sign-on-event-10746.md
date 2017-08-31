@@ -31,12 +31,11 @@ manager: "anneta"
  This Warning event indicates that the password for the external account has expired.  
   
 ## User Action  
- To resolve this warning, do the following:  
+ To resolve this warning, check the system and application event logs for associated errors.    
+
+## More info
+For more information, see the following resources:  
   
--   Check the system and application event logs for associated errors.  
-  
- For more information, see the following resources:  
-  
--   [Password Sync Adapter Properties: Options](../core/password-sync-adapter-properties-options.md)  
+-   **Password Sync Adapter Properties: Options** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
   
 -   [Password Synchronization](../core/password-synchronization2.md)

@@ -35,8 +35,8 @@ manager: "anneta"
   
 -   Determine which Applications were assigned to this Adapter (name in event log message) and then use the SSO administration tools to set the external credentials for this external account. You must set the external password (for the given account) in all of those Applications.  
   
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+## More info
   
 -   [Password Synchronization](../core/password-synchronization2.md)  
   
--   [Password Sync Adapter Properties: Options](../core/password-sync-adapter-properties-options.md)
+-   **Password Sync Adapter Properties: Options** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
