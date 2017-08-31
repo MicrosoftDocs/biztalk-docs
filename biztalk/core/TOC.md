@@ -3889,37 +3889,6 @@
 ## [UI guidance ](technical-reference5.md)
 ### [User interface help](ui-reference.md)
 
-#### [Pipeline Designer UI](pipeline-designer-ui-help.md)
-##### [Pipeline Design Surface](pipeline-design-surface.md)
-##### [Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab](choose-toolbox-items-dialog-box-biztalk-pipeline-components-tab.md)
-##### [BizTalk Framework Assembler Pipeline Component Properties](biztalk-framework-assembler-pipeline-component-properties.md)
-##### [Flat File Assembler Pipeline Component Properties](flat-file-assembler-pipeline-component-properties.md)
-##### [XML Assembler Pipeline Component Properties](xml-assembler-pipeline-component-properties.md)
-##### [BizTalk Framework Disassembler Pipeline Component Properties](biztalk-framework-disassembler-pipeline-component-properties.md)
-##### [Flat File Disassembler Pipeline Component Properties](flat-file-disassembler-pipeline-component-properties.md)
-##### [XML Disassembler Pipeline Component Properties](xml-disassembler-pipeline-component-properties.md)
-##### [MIME-SMIME Decoder Pipeline Component Properties](mime-smime-decoder-pipeline-component-properties.md)
-##### [MIME-SMIME Encoder Pipeline Component Properties](mime-smime-encoder-pipeline-component-properties.md)
-##### [Party Resolution Pipeline Component Properties](party-resolution-pipeline-component-properties.md)
-##### [XML Validator Pipeline Component Properties](xml-validator-pipeline-component-properties.md)
-
-
-#### [Tracking Profile Editor UI](tracking-profile-editor-ui-help.md)
-##### [Import BAM Activity Definition Dialog Box](import-bam-activity-definition-dialog-box.md)
-##### [Set Management Database Dialog Box](set-management-database-dialog-box.md)
-##### [Select Event Source Parent Assembly Dialog Box](select-event-source-parent-assembly-dialog-box.md)
-##### [Select Orchestration Dialog Box](select-orchestration-dialog-box.md)
-##### [Select Schema Dialog Box](select-schema-dialog-box.md)
-##### [Select Ports Dialog Box](select-ports-dialog-box.md)
-
-
-#### [Setup & Upgrade Wizard UI](setup-upgrade-wizard-ui-help.md)
-##### [Setup Wizard, Welcome Page](setup-wizard-welcome-page.md)
-##### [Setup Wizard, Redistributable Prerequisites Page](setup-wizard-redistributable-prerequisites-page.md)
-##### [Setup Wizard, Platform Prerequisites Page](setup-wizard-platform-prerequisites-page.md)
-##### [Setup Wizard, Download Installation Guide](setup-wizard-download-installation-guide.md)
-
-
 #### [BizTalk Flat File Schema Wizard UI](biztalk-flat-file-schema-wizard-ui-help.md)
 ##### [BizTalk Flat File Schema Wizard, Overview Page](biztalk-flat-file-schema-wizard-overview-page.md)
 ##### [BizTalk Flat File Schema Wizard, Schema Information Page](biztalk-flat-file-schema-wizard-schema-information-page.md)
