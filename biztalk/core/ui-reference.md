@@ -22,18 +22,6 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
   
 ## Next
   
--   [Application Deployment UI](../core/application-deployment-ui-help.md)  
-  
--   [Pipeline Designer UI](../core/pipeline-designer-ui-help.md)  
-  
--   [Tracking Profile Editor UI](../core/tracking-profile-editor-ui-help.md)  
-  
--   [Setup & Upgrade Wizard UI](../core/setup-upgrade-wizard-ui-help.md)  
-  
--   [BizTalk Flat File Schema Wizard UI](../core/biztalk-flat-file-schema-wizard-ui-help.md)  
-  
--   [Business Activity Monitoring Portal UI](../core/business-activity-monitoring-portal-ui-help.md)  
-  
--   [BAM Add-In for Excel](../core/bam-add-in-for-excel.md)  
+-   [Application Deployment UI](../core/application-deployment-ui-help.md)   
   
 -   [Enterprise Single Sign-On UI](../core/enterprise-single-sign-on-ui-help.md)
