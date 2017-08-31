@@ -24,20 +24,9 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
   
 -   [Application Deployment UI](../core/application-deployment-ui-help.md)  
   
- 
--   [Orchestration Designer UI](http://msdn.microsoft.com/library/4b6f9ed1-fb1d-4668-9df8-ebcc34cb351c)  
-  
 -   [Pipeline Designer UI](../core/pipeline-designer-ui-help.md)  
   
--   [Project System UI](../core/project-system-ui-help.md)  
-  
--   [Rule Engine Deployment Wizard UI](../core/rule-engine-deployment-wizard-ui-help.md)  
-  
 -   [Tracking Profile Editor UI](../core/tracking-profile-editor-ui-help.md)  
-  
--   [BizTalk Web Services Publishing Wizard](biztalk-web-services-publishing-wizard.md)
-  
--   [WCF Service UI](../core/wcf-service-ui-help.md)  
   
 -   [Setup & Upgrade Wizard UI](../core/setup-upgrade-wizard-ui-help.md)  
   
