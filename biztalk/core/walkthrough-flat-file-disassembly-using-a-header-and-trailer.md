@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Flat File Disassembly Using a Header and Trailer | Microsoft Docs"
+description: Use the Flat File Schema wizard to create a header schema, trailer schema, and body schema, and then disassemble a flat file in BizTalk Server 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Walkthrough: Flat File Disassembly Using a Header and Trailer
+
+## Overview
 This walkthrough demonstrates the use of schemas created by the Flat File Schema Wizard to perform flat file disassembly of a file containing a header, a trailer, and a repeating message body. In this walkthrough, you develop part of a fictitious error-tracking system that meets the following requirements:  
   
 -   Error messages are logged at various physical sites within the company and sent to a central location for processing into various back-end systems.  
@@ -37,8 +40,6 @@ This walkthrough demonstrates the use of schemas created by the Flat File Schema
 ### Create a New BizTalk Project  
  Before building a solution you need to create a BizTalk project, ensure that it is strongly named, and assign it an application name. Assigning an application name prevents BizTalk Server from deploying the solution into the default BizTalk application.  
   
-##### To create and configure a new BizTalk project  
-  
 1.  Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project. Call the project **FFDisassemblerWalkthrough**.  
   
 2.  Generate a key file and assign it to the project. For more information about this task, see [Signing Page, Project Designer](http://go.microsoft.com/fwlink/?LinkId=125876).  
@@ -46,36 +47,34 @@ This walkthrough demonstrates the use of schemas created by the Flat File Schema
 3.  In the deployment properties for the project, set **Application Name** to “FlatFileExample” and set **Restart Host Instances** to `True`. Setting this flag tells the host to clear any cached instances of the assembly.  
   
 ### Create the Sample Data File  
- Before generating schemas, you need to create a test file. The file consists of a header indicating the location reporting the error(s), a trailer with a batch ID for this batch, and a body consisting of one or more error records. The format of the file is as follows:  
-  
-```  
-Location  
-ERRORid|type|priority|description|errorDateTime  
-…additional error records   
-BatchID  
-```  
-  
- The ERROR record is tagged with the text “ERROR” and delimited with the “&#124;” character (versus positional). The data elements of the ERROR record are described in the following table.  
-  
-|Element|Data type|Description|  
-|-------------|---------------|-----------------|  
-|ID|integer|ID for this error.|  
-|Type|integer|Type of error.|  
-|Priority|string|Priority indicator: Low, Medium, or High.|  
-|Description|string|Description of the error.|  
-|ErrorDateTime|DateTime|Date and time that the error occurred.|  
-  
- The file can have one or more ERROR records.  
-  
-##### To create the sample data file  
+Before generating schemas, you need to create a test file.   
   
 1.  Start Notepad or another text editor.  
   
-2.  Create a sample test file using the layout description above as a guide.  
+2.  Create a sample test file. The file consists of a header indicating the location reporting the error(s), a trailer with a batch ID for this batch, and a body consisting of one or more error records. The format of the file is as follows:  
   
-     -- OR --  
+    ```  
+    Location  
+    ERRORid|type|priority|description|errorDateTime  
+    …additional error records   
+    BatchID  
+    ```  
   
-     Copy the sample data below into the new file. The last line contains a trailing linefeed.  
+    The ERROR record is tagged with the text “ERROR” and delimited with the “&#124;” character (versus positional). The data elements of the ERROR record are described in the following table.  
+  
+    |Element|Data type|Description|  
+    |---|---|---|  
+    |ID|integer|ID for this error.|  
+    |Type|integer|Type of error.|  
+    |Priority|string|Priority indicator: Low, Medium, or High.|  
+    |Description|string|Description of the error.|  
+    |ErrorDateTime|DateTime|Date and time that the error occurred.|  
+  
+    The file can have one or more ERROR records.  
+  
+     **-- OR --  **
+  
+     Copy the following sample data into the new file. The last line contains a trailing linefeed:
   
     ```  
     East Coast Facility  
@@ -90,7 +89,7 @@ BatchID
 ### Create and Test the Header, Trailer, and Body Schemas  
  After the sample data file is created, the next step is to create the header, trailer, and body schemas. These schemas are used with the Flat File Disassembler receive pipeline component to process received messages.  
   
-##### To use the Flat File Schema Wizard to create the header schema  
+##### Use the Flat File Schema Wizard to create the header schema  
   
 1.  Add a new schema to the project. In Solution Explorer, right-click **FFDisassemblerWalkthrough**, point to **Add**, and then click **New Item**.  
   
@@ -127,7 +126,7 @@ BatchID
   
 10. Click the **\<Schema>** node in the Header schema pane. In the Properties pane, change **Element FormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
   
-##### To use the Flat File Schema Wizard to create the trailer schema  
+##### Use the Flat File Schema Wizard to create the trailer schema  
   
 1.  Add a new schema to the project. In Solution Explorer, right-click **FFDisassemblerWalkthrough**, point to **Add** , and then click **New Item**.  
   
@@ -164,7 +163,7 @@ BatchID
   
 10. Click the **\<Schema>** node in the Trailer schema pane. In the Properties pane, change **elementFormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
   
-##### To use the Flat File Schema Wizard to create the body schema  
+##### Use the Flat File Schema Wizard to create the body schema  
   
 1.  Add a new schema to the project. In Solution Explorer, right-click **FFDisassemblerWalkthrough**, point to **Add**, and then click **New Item**.  
   
@@ -217,7 +216,7 @@ BatchID
   
 16. Click the **\<Error>** node on the Body schema pane. In the Properties pane, change **Max Occurs** to **1**. This causes the Flat File Disassembler to split each error into its own message.  
   
-##### To test the schemas using FFDasm  
+##### Test the schemas using FFDasm  
   
 1.  Open a command prompt and change the directory to your project directory.  
   
@@ -244,10 +243,8 @@ BatchID
     ```  
   
 ### Create a Custom Receive Pipeline  
- Now that the flat file schemas are defined, you need to create a custom pipeline that uses the Flat File Disassembler component. The Flat File Disassembler component can then be configured to use the header, body, and trailer schemas to break up messages.  
-  
-##### To create a custom receive pipeline  
-  
+ Now that the flat file schemas are defined, you need to create a custom pipeline that uses the Flat File Disassembler component. The Flat File Disassembler component can then be configured to use the header, body, and trailer schemas to break up messages.    
+ 
 1.  Add a new receive pipeline to the project. In Solution Explorer, right-click the **FFDisassemblerWalkthrough** project, point to **Add**, and then click **New Item**.  
   
 2.  In the **Add New Item** dialog box, point to **Pipeline Files** and then click **Receive Pipeline**. Name the new pipeline "FFReceivePipeline" and then click **Add**.  
@@ -258,14 +255,13 @@ BatchID
   
 ### Deploy the Application and Configure the Send and Receive Ports  
  With the schemas and custom receive pipeline created, you need to compile and deploy the project. After it is deployed, you can use the BizTalk Server Administration console to configure the send and receive ports.  
-  
-##### To deploy FFDisassemblerWalkthrough  
-  
+
+##### Deploy  
 1.  From within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the solution by right-clicking on the project and then clicking **Deploy**.  
   
 2.  Using the BizTalk Server Administration console, expand the **Applications** group to verify that **FlatFileExample** is present as a custom application.  
   
-##### To configure the receive port  
+##### Configure the receive port  
   
 1.  Use Windows Explorer to create a directory named "Receive" under the **FFDisassemblerWalkthrough** project directory.  
   
@@ -277,7 +273,7 @@ BatchID
   
 5.  Click **OK**. Your receive port should now be configured. Click **OK** to close.  
   
-##### To configure the send port  
+##### Configure the send port  
   
 1.  Use Windows Explorer to create a directory named "Send" under the **FFDisassemblerWalkthrough** project directory.  
   
@@ -294,13 +290,9 @@ BatchID
 6.  Click **OK** to complete the send port configuration. Your send port should be configured.  
   
 ### Run the Example  
- It is now time to run the example. After using the BizTalk Server Management console to start the application, you will copy the test files to the receive location and observe what is produced in the send location.  
+ It is now time to run the example. After using the BizTalk Server Management console to start the application, copy the test files to the receive location and observe what is produced in the send location.  
   
-##### To run the FFDisassemblerWalkthrough example  
-  
-1.  In the BizTalk Server Administration console, right-click the **FlatFileExample** application and then click **Start**. This will enlist and start the send and receive ports.  
+1.  In the BizTalk Server Administration console, right-click the **FlatFileExample** application, and then click **Start**. This enlists and starts the send and receive ports.  
   
 2.  Drop the copy of the sample Errorfile.txt into the receive directory. Two output files should be written to the send directory.  
   
-## See Also  
- [BizTalk Flat File Schema Wizard UI Help](../core/biztalk-flat-file-schema-wizard-ui-help.md)
