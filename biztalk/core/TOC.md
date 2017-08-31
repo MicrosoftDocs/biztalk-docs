@@ -3889,48 +3889,6 @@
 ## [UI guidance ](technical-reference5.md)
 ### [User interface help](ui-reference.md)
 
-#### [Orchestration Designer UI](orchestration-designer-ui-help1.md)
-##### [Orchestration Designer](orchestration-designer.md)
-##### [Call Orchestration Shape](call-orchestration-shape.md)
-##### [Catch Exception Block](catch-exception-block.md)
-##### [Compensate Shape](compensate-shape.md)
-##### [Compensation Block](compensation-block.md)
-##### [Construct Message Shape](construct-message-shape.md)
-##### [Decide Shape](decide-shape.md)
-##### [Decision Branch](decision-branch.md)
-##### [Delay Shape](delay-shape.md)
-##### [Start Orchestration Shape](start-orchestration-shape.md)
-##### [Listen Shape](listen-shape.md)
-##### [Listen Branch](listen-branch.md)
-##### [Message Assignment Shape](message-assignment-shape.md)
-##### [Parallel Actions Shape](parallel-actions-shape.md)
-##### [Parallel Branch](parallel-branch.md)
-##### [Receive Shape](receive-shape.md)
-##### [Scope Shape](scope-shape.md)
-##### [Send Shape](send-shape.md)
-##### [Role Link Shape](role-link-shape.md)
-##### [Suspend Shape](suspend-shape.md)
-##### [Group Shape](group-shape.md)
-##### [Terminate Shape](terminate-shape.md)
-##### [Throw Exception Shape](throw-exception-shape.md)
-##### [Transform Shape](transform-shape.md)
-##### [Expression Shape](expression-shape.md)
-##### [Loop Shape](loop-shape.md)
-##### [Call Rules Shape](call-rules-shape.md)
-##### [Orchestration View Window](orchestration-view-window.md)
-##### [Expression Editor](expression-editor.md)
-##### [Transform Configuration Dialog Box](transform-configuration-dialog-box.md)
-##### [Call Orchestration Configuration Dialog Box](call-orchestration-configuration-dialog-box.md)
-##### [Filter Expression Dialog Box](filter-expression-dialog-box.md)
-##### [Select Artifact Type Dialog Box](select-artifact-type-dialog-box.md)
-##### [Port Configuration Wizard](port-configuration-wizard.md)
-##### [Role Link Wizard](role-link-wizard.md)
-##### [Configure Correlation Properties Dialog Box](configure-correlation-properties-dialog-box.md)
-##### [Description Property](description-property.md)
-##### [Policy Configuration Dialog Box](policy-configuration-dialog-box.md)
-
-
-
 #### [Pipeline Designer UI](pipeline-designer-ui-help.md)
 ##### [Pipeline Design Surface](pipeline-design-surface.md)
 ##### [Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab](choose-toolbox-items-dialog-box-biztalk-pipeline-components-tab.md)
@@ -3946,13 +3904,6 @@
 ##### [XML Validator Pipeline Component Properties](xml-validator-pipeline-component-properties.md)
 
 
-#### [Project System UI](project-system-ui-help.md)
-##### [Deployment Page](deployment-page.md)
-
-
-#### [Rule Engine Deployment Wizard UI](rule-engine-deployment-wizard-ui-help.md)
-
-
 #### [Tracking Profile Editor UI](tracking-profile-editor-ui-help.md)
 ##### [Import BAM Activity Definition Dialog Box](import-bam-activity-definition-dialog-box.md)
 ##### [Set Management Database Dialog Box](set-management-database-dialog-box.md)
@@ -3960,14 +3911,6 @@
 ##### [Select Orchestration Dialog Box](select-orchestration-dialog-box.md)
 ##### [Select Schema Dialog Box](select-schema-dialog-box.md)
 ##### [Select Ports Dialog Box](select-ports-dialog-box.md)
-
-
-#### [BizTalk Web Services Publishing Wizard](biztalk-web-services-publishing-wizard.md)
-
-
-#### [WCF Service UI](wcf-service-ui-help.md)
-##### [BizTalk WCF Service Publishing Wizard](biztalk-wcf-service-publishing-wizard.md)
-##### [BizTalk WCF Service Consuming Wizard](biztalk-wcf-service-consuming-wizard.md)
 
 
 #### [Setup & Upgrade Wizard UI](setup-upgrade-wizard-ui-help.md)
