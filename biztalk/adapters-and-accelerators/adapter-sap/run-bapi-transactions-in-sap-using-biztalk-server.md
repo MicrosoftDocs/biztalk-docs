@@ -152,7 +152,7 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables 
   
  Finally, based on whether the request message has information to commit or abort the transaction, the orchestration must decide on the appropriate message to be sent to the SAP system. To achieve this, include a Decide shape in the orchestration.  
   
- For more information about the different shapes included in the orchestration, see [Orchestration Designer UI Help](../../core/orchestration-designer-ui-help1.md).
+ For more information about the different shapes included in the orchestration, see the **Orchestration Designer UI** [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
  A sample orchestration for an SAP transaction resembles the following.  
   

@@ -8,11 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "known issues, configuring"
-  - "configuring, known issues"
-  - "known issues, installing"
-  - "installing, known issues"
 ms.assetid: c58d9dcb-7835-4181-a6cb-203c5d138e6a
 caps.latest.revision: 24
 author: "MandiOhlinger"
@@ -84,7 +79,7 @@ manager: "anneta"
 ## BREDeployment utility cannot deploy or undeploy policies if A4SWIFT vocabularies are not correctly configured  
  If you try to undeploy A4SWIFT Business Rule Engine policies by using the BREDeployment.exe tool, and the BREDeployment.exe configuration file does not point to the correct vocabulary file location, then the tool may report an error. You will have this problem if you change the location in the BREDeployment.exe configuration file and the new location does not contain the vocabulary files. The error informs you that the vocabularies were not found and the configuration stops deploying and/or undeploying policies.  
   
- To resolve this issue, use the standard [Business Rules Engine Deployment Wizard](../../core/rule-engine-deployment-wizard-ui-help.md).
+ To resolve this issue, use the standard **Business Rules Engine Deployment Wizard**. UI details are [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
 ## See Also  
  [Known Issues](../../adapters-and-accelerators/accelerator-swift/known-issues5.md)
