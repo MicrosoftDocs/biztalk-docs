@@ -24,8 +24,6 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
   
 -   [Application Deployment UI](../core/application-deployment-ui-help.md)  
   
-
--   [Business Rule Composer UI](../core/business-rule-composer-ui-help.md)  
   
 -   [Configuration Wizard UI](../core/configuration-wizard-ui-help.md)  
   

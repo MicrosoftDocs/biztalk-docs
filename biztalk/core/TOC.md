@@ -3886,39 +3886,8 @@
 ## [Terms and definitions](glossary5.md)
 
 
-
 ## [UI guidance ](technical-reference5.md)
 ### [User interface help](ui-reference.md)
-
-#### [Business Rule Composer UI](business-rule-composer-ui-help.md)
-##### [Business Rule Composer](business-rule-composer.md)
-##### [Policy Explorer](policy-explorer.md)
-##### [Facts Explorer, Vocabularies Tab](facts-explorer-vocabularies-tab.md)
-##### [Facts Explorer, XML Schemas Tab](facts-explorer-xml-schemas-tab.md)
-##### [Facts Explorer, Databases Tab](facts-explorer-databases-tab.md)
-##### [Facts Explorer, .NET Classes Tab](facts-explorer-net-classes-tab.md)
-##### [Properties Window](properties-window.md)
-##### [Policy Instructions Page](policy-instructions-page.md)
-##### [Rule Editor](rule-editor.md)
-##### [Vocabulary Definition Wizard](vocabulary-definition-wizard.md)
-##### [Constant Value, Range of Values, or Set of Values Page](constant-value-range-of-values-or-set-of-values-page.md)
-##### [Define a Constant Value Page](define-a-constant-value-page.md)
-##### [Define a Range of Values Page](define-a-range-of-values-page.md)
-##### [Define a Set of Values Page](define-a-set-of-values-page.md)
-##### [.NET Class Definition Page](net-class-definition-page.md)
-##### [Database Definition Page](database-definition-page.md)
-##### [XML Definition Page](xml-definition-page.md)
-##### [Display Name Page](display-name-page.md)
-##### [Parameter Definition Window](parameter-definition-window.md)
-##### [Conditions Editor](conditions-editor.md)
-##### [Actions Editor](actions-editor.md)
-##### [Fact Creator List View](fact-creator-list-view.md)
-##### [Fact Retriever Dialog Box](fact-retriever-dialog-box.md)
-##### [Translator Dialog Box](translator-dialog-box.md)
-##### [Output Window](output-window.md)
-##### [Test Policy Window](test-policy-window.md)
-
-
 
 #### [Configuration Wizard UI](configuration-wizard-ui-help.md)
 ##### [Configuration Wizard, Overview Page](configuration-wizard-overview-page.md)

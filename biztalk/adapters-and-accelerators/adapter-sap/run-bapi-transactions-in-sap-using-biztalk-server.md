@@ -224,7 +224,7 @@ SendToAdapter.isCommit == true
   
      For more information about using the Index functoid, see [Index Functoid](../../core/index-functoid.md).
        
-     After you have mapped the schemas, you can test the mapping using the property page of the map file. For more information, see [\<Map File> Property Page Dialog Box, Test Map Tab](../../core/map-file-property-page-dialog-box-test-map-tab.md).
+     After you have mapped the schemas, you can test the mapping using the property page of the map file. For more information, see the **\<Map File> Property Page Dialog Box, Test Map** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  In the Message Assignment shape, specify the message context property to start the transaction. For example, the message context property for the first message could be:  
   
