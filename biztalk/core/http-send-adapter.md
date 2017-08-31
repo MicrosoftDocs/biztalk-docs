@@ -8,37 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HTTP adapters, acknowledgements"
-  - "HTTP adapters, client certificates"
-  - "send adapters [HTTP adapters], about send adapters"
-  - "HTTP adapters, NACK messages"
-  - "SOAP adapters, failed messages"
-  - "certificates, send adapters"
-  - "send adapters [HTTP adapters], chunked encoding"
-  - "NACK messages, subscribing"
-  - "acknowledgements, NACK messages"
-  - "NACK messages, about NACK messages"
-  - "NACK messages, acknowledgements"
-  - "HTTP adapters, send adapters"
-  - "HTTP adapters, batching"
-  - "NACK messages, code sample"
-  - "acknowledgements, HTTP adapters"
-  - "HTTP adapters, single sign-on"
-  - "HTTP adapters, failed messages"
-  - "HTTP adapters, chunked encoding"
-  - "messages, batching"
-  - "send adapters [HTTP adapters], client authentication"
-  - "HTTP adapters, client authentication"
-  - "NACK messages, send adapters"
-  - "send adapters [HTTP adapters], client certificates"
-  - "send adapters [HTTP adapters], single sign-on"
-  - "HTTP adapters, errors"
-  - "batching, messages"
-  - "send adapters [HTTP adapters]"
-  - "NACK messages"
-  - "batching, HTTP adapters"
-  - "SOAP adapters, errors"
 ms.assetid: e69308b4-421f-4d7c-b9bb-ee086df03272
 caps.latest.revision: 24
 author: "MandiOhlinger"
@@ -87,7 +56,7 @@ The HTTP send adapter gets messages from [!INCLUDE[btsBizTalkServerNoVersion](..
   
  When an HTTP request is received by Microsoft Internet Information Services (IIS) from a Web client, IIS authenticates the user. The Internet Server Application Programming Interface (ISAPI) extension impersonates the Microsoft Windows user and then calls the SSO credential store to obtain an encrypted ticket. This ticket is stored as the **SSOTicket** property in the context of the message.  
   
- In the pass-through scenario, the BizTalk Messaging Engine directs the message to the MessageBox database. When the adapter receives the message from the MessageBox database, the HTTP adapter calls the [ISSOTicket.RedeemTicket Method](../core/issoticket-redeemticket-method.md) with the encrypted ticket along with the application name to retrieve the back-end credentials from the SSO store. The HTTP adapter then uses the external credentials to connect to the back-end system and process the request. For more information about the affiliate applications, see [SSO Affiliate Applications](../core/sso-affiliate-applications.md).  
+ In the pass-through scenario, the BizTalk Messaging Engine directs the message to the MessageBox database. When the adapter receives the message from the MessageBox database, the HTTP adapter calls the **ISSOTicket.RedeemTicket Method** with the encrypted ticket along with the application name to retrieve the back-end credentials from the SSO store. The HTTP adapter then uses the external credentials to connect to the back-end system and process the request. For more information about the affiliate applications, see [SSO Affiliate Applications](../core/sso-affiliate-applications.md).  
   
  In the scenario where an orchestration invokes the adapter, the BizTalk Messaging Engine sends this message to the MessageBox database. The orchestration should ensure that both the **SSOTicket** context property and the **Microsoft.BizTalk.XLANGs.BTXEngine.OriginatorSID** context property of the message that contains the ticket are maintained. When the adapter receives this message from the MessageBox database, the adapter calls **RedeemTicket** with the encrypted ticket to retrieve the back-end credentials from the SSO store. The user designing the schedule should specifically copy this property to the message.  
   
@@ -178,4 +147,5 @@ The HTTP send adapter gets messages from [!INCLUDE[btsBizTalkServerNoVersion](..
     ```  
   
 ## See Also  
- [HTTP Adapter](../core/http-adapter.md)
+ [HTTP Adapter](../core/http-adapter.md)  
+**SSO COM objects** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

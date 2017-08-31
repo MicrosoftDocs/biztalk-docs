@@ -8,8 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SendPort node [binding file]"
 ms.assetid: 5cf7a6f9-9240-48b9-b196-8838afd4f41e
 caps.latest.revision: 15
 author: "MandiOhlinger"
@@ -44,4 +42,4 @@ The SendPort node of a binding file contains specific information about a send p
 |Priority|Element|xs:int|Specifies the priority of the send port.|Required|Default value: 5<br /><br /> Possible values are documented in [MSBTS_SendPort.Priority Property (WMI)](../core/msbts-sendport-priority-property-wmi.md)|  
 |StopSendingOnFailure|Element|xs:boolean|Specifies whether or not the send port stops sending messages on a failure.|Required|Default value: none<br /><br /> Possible values are documented in [MSBTS_SendPort.StopSendingOnFailure Property (WMI)](../core/msbts-sendport-stopsendingonfailure-property-wmi.md)|  
 |RouteFailedMessage|Element|xs:boolean|Specifies whether or not failed messages are routed to failed message subscribers.|Required|Default value: none<br /><br /> Possible values are documented in [MSBTS_SendPort.RouteFailedMessage Property (WMI)](../core/msbts-sendport-routefailedmessage-property-wmi.md)|  
-|ApplicationName|Element|xs:string|Specifies the name of the application associated with the send port.|Required|Default value: empty<br /><br /> Possible values are documented in [ISSOMapping.ApplicationName Property](../core/issomapping-applicationname-property.md).|
+|ApplicationName|Element|xs:string|Specifies the name of the application associated with the send port.|Required|Default value: empty<br /><br /> Possible values are documented in the **ISSOMapping.ApplicationName Property** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|

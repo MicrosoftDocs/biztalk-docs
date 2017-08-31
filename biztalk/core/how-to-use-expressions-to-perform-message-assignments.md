@@ -168,4 +168,3 @@ Message_Out.MessagePart_1(MIME.FileName)="document.doc";
 ## See Also  
  [Using Messages in Orchestrations](../core/using-messages-in-orchestrations.md)   
  [Constructing Messages in User Code](../core/constructing-messages-in-user-code.md)   
- [IBaseMessage.AddPart Method (COM)](../core/ibasemessage-addpart-method-com.md)

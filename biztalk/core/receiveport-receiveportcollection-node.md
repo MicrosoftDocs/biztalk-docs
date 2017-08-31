@@ -8,8 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ReceivePort node [binding file]"
 ms.assetid: 30ae9cef-4e0f-42ca-ac45-fe1fabdfc7c5
 caps.latest.revision: 13
 author: "MandiOhlinger"
@@ -36,4 +34,4 @@ The ReceivePort node of the ReceivePortCollection node of a binding file contain
 |[Transforms (ReceivePort Node)](../core/transforms-receiveport-node.md)|Record|ArrayOfTransform (ComplexType)|Specifies the collection of inbound transforms of a one way receive port.|Not required|Default value: none|  
 |[OutboundTransforms](../core/outboundtransforms-receiveport-node.md)|Record|ArrayOfTransform (ComplexType)|Specifies the collection of outbound transforms to apply to documents on a two-way receive port|Not required|Default value: none|  
 |RouteFailedMessage|Element|xs:boolean|Specifies whether or not failed messages are routed to failed message subscribers.|Required|Default value: none<br /><br /> Possible values are documented in [MSBTS_SendPort.RouteFailedMessage Property (WMI)](../core/msbts-sendport-routefailedmessage-property-wmi.md)|  
-|ApplicationName|Element|xs:string|Specifies the name of the application associated with the receive port.|Required|Default value: empty<br /><br /> Possible values are documented in [ISSOMapping Interface (COM)](../core/issomapping-interface-com.md)|
+|ApplicationName|Element|xs:string|Specifies the name of the application associated with the receive port.|Required|Default value: empty<br /><br /> Possible values are documented in the **ISSOMapping Interface (COM)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]|

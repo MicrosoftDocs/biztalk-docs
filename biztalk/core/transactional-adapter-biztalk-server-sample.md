@@ -59,7 +59,7 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
 > [!IMPORTANT]
 >  If the BizTalk installation is 64-bit or the location of installation is modified, OutboundAssemblyPath, InboundAssemblyPath, AdapterMgmtAssemblyPath would need to be changed accordingly.  
   
-#### To Create a Strong Name Key for the Transactional Adapter sample  
+#### Create a Strong Name Key for the Transactional Adapter sample  
   
 1.  Start **Visual Studio Command Prompt**.  
   
@@ -77,7 +77,7 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
   
 4.  At the command prompt, type **exit**, and then press enter to close the command prompt window.  
   
-#### To Build the Transactional Adapter Solution  
+#### Build the Transactional Adapter Solution  
   
 1.  Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Windows Explorer**.  
   
@@ -87,7 +87,7 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
   
 ## Running This Sample  
   
-#### To register the Transactional Adapter  
+#### Register the Transactional Adapter  
   
 1.  In Windows Explorer, navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AdaptersDevelopment\TransactionalAdapter\Admin.  
   
@@ -183,9 +183,7 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
   
 8.  Use the default values for the remainder of the adapter properties and select **OK**.  
   
-## Running the Sample  
-  
-#### To run the Transactional Adapter sample  
+## Run the sample  
   
 1.  Click **Start**, point to **All Programs**, point to **Microsoft SQL Server 2008 R2**, select **SQL Server Management Studio**.  
   
@@ -223,10 +221,12 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
   
 6.  Once the receive location is enabled, it will automatically poll the database at the designated intervals for data.  
   
-## Classes or Methods Used in This Sample  
- [IBTTransmitterBatch Interface (COM)](../core/ibttransmitterbatch-interface-com.md)  
+## Classes or Methods Used in the sample  
+* IBTTransmitterBatch Interface (COM)
   
- [IBTTransportProxy Interface (COM)](../core/ibttransportproxy-interface-com.md)  
+* IBTTransportProxy Interface (COM)
+
+These methods are described [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
   
 ## See Also  
  [Adapter Samples - Development](../core/adapter-samples-development.md)   

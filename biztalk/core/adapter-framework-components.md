@@ -17,10 +17,10 @@ manager: "anneta"
 # Adapter Framework Components
 This section explains how to use the BizTalk Adapter Framework run-time APIs to develop custom adapters. For more information about these APIs, see Microsoft.BizTalk.Message.Interop.  
   
-## In This Section  
-  
--   [IBaseMessage Interface](../core/ibasemessage-interface.md)  
-  
+## Next steps
+
+- [IBaseMessage Interface](ibasemessage-interface.md)  
+
 -   [Messaging Engine Interfaces](../core/messaging-engine-interfaces.md)  
   
 -   [Adapter Interfaces](../core/adapter-interfaces.md)  
