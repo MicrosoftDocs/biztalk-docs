@@ -38,7 +38,7 @@ Each message has a multi-part message type, a description of the message structu
 > [!NOTE]
 >  A message part can be defined by the .NET type **XmlDocument**, which can be used to contain an arbitrary XML document, by any .NET type that is XML-serializable, or by any .NET type supporting custom serialization.  
   
-### To add a multi-part message type  
+## Add a multi-part message type  
   
 1.  In the **Orchestration View** window, expand the **Types** node.  
   
@@ -52,7 +52,7 @@ Each message has a multi-part message type, a description of the message structu
   
 4.  Associate each message part with a type, such as a .NET class or schema.  
   
-### To remove a multi-part message type  
+## Remove a multi-part message type  
   
 -   In the **Orchestration View** window, right-click the multi-part message type you want to remove and then click **Delete**.  
   
@@ -62,14 +62,14 @@ Each message has a multi-part message type, a description of the message structu
     > [!NOTE]
     >  Items that appear as read-only are defined in another orchestration.  
   
-### To remove a part from a multi-part message type  
+## Remove a part from a multi-part message type  
   
 -   In the **Orchestration View** window, right-click the part you want to remove and click **Delete**.  
   
     > [!NOTE]
     >  You cannot delete a message type's message part if the **Message Body Part** property is set to true. You must first set the **Message Body Part** property to True for another of the message type's parts.  
   
-### To set the type modifier for a multi-part message type  
+## Set the type modifier for a multi-part message type  
   
 -   In the **Properties** window, set the following property:  
   
@@ -77,7 +77,7 @@ Each message has a multi-part message type, a description of the message structu
     |--------------|-----------------|  
     |**Type Modifier**|Determines the scope of the multi-part message type:<br /><br /> -   **Private—**Access to this multi-part message type is limited to the containing module.<br />-   **Public—**Access to this multi-part message type is not limited.<br />-   **Internal—**Access to this multi-part message type is limited to modules within the same project.|  
   
-### To add parts to an existing multi-part message  
+## Add parts to an existing multi-part message  
   
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides the ability to add parts to a multi part XLANG message and also to refer to a message part by an index greater than the originally declared number of parts if the part exists. This functionality may be useful for sending or receiving SMTP messages with a variable number of attachments. This functionality is implemented as follows:  
   

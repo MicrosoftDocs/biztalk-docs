@@ -8,33 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline interfaces, IComponent"
-  - "pipeline interfaces, IBaseComponent"
-  - "IBaseComponent interface"
-  - "pipeline interfaces"
-  - "pipeline interfaces, IPropertyBag"
-  - "IDisassemblerComponent interface"
-  - "IPropertyBag interface"
-  - "IDocumentSpec interface"
-  - "pipeline interfaces, INamedItemList"
-  - "pipeline interfaces, INamedItem"
-  - "INamedItemList interface"
-  - "IProbeMessage interface"
-  - "IComponentUI interface"
-  - "pipeline interfaces, IPersistPropertyBag"
-  - "INamedItem interface"
-  - "pipeline interfaces, IPipelineContext"
-  - "pipeline interfaces, IComponentUI"
-  - "pipeline interfaces, IDisassemblerComponent"
-  - "IPipelineContext interface"
-  - "pipeline interfaces, IBaseComponent interface"
-  - "IDocumentSpec"
-  - "IPersistPropertyBag interface"
-  - "IAssemblerComponent interface"
-  - "pipeline interfaces, IProbeMessage"
-  - "pipeline interfaces, IAssemblerComponent"
-  - "IComponenet interface"
 ms.assetid: 4bb88d0d-23ab-4fdb-bcd2-56050456cf69
 caps.latest.revision: 17
 author: "MandiOhlinger"
@@ -144,7 +117,7 @@ public IntPtr Icon
 }  
 ```  
   
- For more information about **IComponentUI**, see [IComponentUI Interface (COM)](../core/icomponentui-interface-com.md).  
+ For more information, see **IComponentUI Interface (COM)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
   
 ## See Also  
  [Developing Custom Pipeline Components](../core/developing-custom-pipeline-components.md)   
