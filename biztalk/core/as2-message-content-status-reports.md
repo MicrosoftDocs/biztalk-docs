@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # AS2 Message Content Status Reports
+
+## Overview
 These status reports display the context properties, headers and payload of an AS2 message or an MDN. There are three AS2 message content status reports:  
   
 -   Message Wire Format report  
@@ -27,7 +29,7 @@ These status reports display the context properties, headers and payload of an A
   
  Each of these reports is available only if you have selected the corresponding "Store messages in non-repudiation database" properties in the Party as AS2 Message Sender page or Party as AS2 Message Receiver page of the AS2 Properties dialog box for the related party. The commands store AS2 messages or MDNs in wire format or decoded format in the BizTalkDTADb database.  
   
- This report uses the [Message Details Properties Dialog Box](../core/message-details-properties-dialog-box.md) to display message data, with information separated into pages:  
+ This report uses the **Message Details Properties Dialog Box** (see the UI details [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]) to display message data, with information separated into pages:  
   
 |Page|Data Displayed|  
 |----------|--------------------|  

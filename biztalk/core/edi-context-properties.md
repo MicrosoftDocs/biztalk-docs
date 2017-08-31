@@ -15,11 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDI Context Properties
-The message context properties in the EDI global property schema are publicly exposed so you can use them in operations such as message routing. These context properties are defined in PropertySchema.xsd in the Microsoft.BizTalk.Edi.BaseArtifacts assembly. The namespace for the properties is `http://schemas.microsoft.com/ Edi/PropertySchema`. If they are promoted, these message context properties are available as Edi.\<*Property Name*> in the **Filters** page of the [Send Port Properties Dialog Box](../core/send-port-properties-dialog-box.md).  
-  
- The EDI context properties are also available in an orchestration, as long as a reference to the Microsoft.BizTalk.Edi.BaseArtifacts assembly has been added to the orchestration project  
-  
- e orchestration project.  
+The message context properties in the EDI global property schema are publicly exposed so you can use them in operations such as message routing. These context properties are defined in PropertySchema.xsd in the Microsoft.BizTalk.Edi.BaseArtifacts assembly. The namespace for the properties is `http://schemas.microsoft.com/ Edi/PropertySchema`. If they are promoted, these message context properties are available as Edi.\<*Property Name*> in the **Filters** page of the **Send Port Properties Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+
+
+## Context properties list  
+ The EDI context properties are also available in an orchestration, as long as a reference to the Microsoft.BizTalk.Edi.BaseArtifacts assembly has been added to the orchestration project.
   
 |Name|Type|Description|  
 |----------|----------|-----------------|  

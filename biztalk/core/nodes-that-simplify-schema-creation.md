@@ -19,8 +19,6 @@ The nodes that simplify schema creation is a miscellaneous category for two node
   
  The other simplification node plays a more significant role in this regard. The **Attribute Group** node corresponds directly to the **attributeGroup** element in XSD, and provides a mechanism for defining a group of related attributes, which always occur together, in a single location and then using that group definition in multiple locations throughout the schema. The remainder of this section provides additional information about these nodes.  
   
-## In This Section  
-  
--   [Schema Node](../core/schema-node.md)  
-  
+## Next
+- [Schema Node](schema-node.md)  
 -   [Attribute Group Nodes](../core/attribute-group-nodes.md)
