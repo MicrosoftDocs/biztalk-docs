@@ -24,15 +24,6 @@ This section provides instructions for the [!INCLUDE[btsBizTalkServerNoVersion](
   
 -   [Application Deployment UI](../core/application-deployment-ui-help.md)  
   
--   [Assembly Viewer UI](../core/assembly-viewer-ui-help.md)  
-  
--   [BizTalk Editor UI](../core/biztalk-editor-ui-help.md)  
-  
--   [BizTalk Mapper UI](../core/biztalk-mapper-ui-help.md)  
-  
--   [BPEL Import Wizard UI](../core/bpel-import-wizard-ui-help.md)  
-  
--   [Business Rule Composer UI](../core/business-rule-composer-ui-help.md)  
   
 -   [Configuration Wizard UI](../core/configuration-wizard-ui-help.md)  
   

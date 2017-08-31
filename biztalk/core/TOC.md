@@ -3886,62 +3886,9 @@
 ## [Terms and definitions](glossary5.md)
 
 
-
 ## [UI guidance ](technical-reference5.md)
 ### [User interface help](ui-reference.md)
 
-#### [Assembly Viewer UI](assembly-viewer-ui-help.md)
-##### [BTSAssembly Viewer Windows Explorer Extension, BizTalk Server Assemblies Screen](btsassembly-viewer-windows-explorer-extension-biztalk-server-assemblies-screen.md)
-#### [BizTalk Editor UI](biztalk-editor-ui-help.md)
-##### [Body XPath Dialog Box](body-xpath-dialog-box.md)
-##### [Cleanup Global DataTypes Dialog Box](cleanup-global-datatypes-dialog-box.md)
-##### [CodeList Dialog Box](codelist-dialog-box.md)
-##### [Edit Instance XPath Dialog Box](edit-instance-xpath-dialog-box.md)
-##### [Generate Schemas Dialog Box](generate-schemas-dialog-box.md)
-##### [Imports Dialog Box](imports-dialog-box.md)
-##### [Notes Dialog Box](notes-dialog-box.md)
-##### [Options Dialog Box, BizTalk Editor Section](options-dialog-box-biztalk-editor-section.md)
-##### [Promote Properties Dialog Box](promote-properties-dialog-box.md)
-##### [Schema Editor Extensions Dialog Box](schema-editor-extensions-dialog-box.md)
-#### [BizTalk Mapper UI](biztalk-mapper-ui-help.md)
-##### [BizTalk Mapper Grid](biztalk-mapper-grid.md)
-##### [Configure <Functoid> Functoid Dialog Box](configure-functoid-functoid-dialog-box.md)
-##### [Configure Functoid Script Dialog Box](configure-functoid-script-dialog-box.md)
-##### [Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab](choose-toolbox-items-dialog-box-biztalk-mapper-functoids-tab.md)
-##### [Grid Preview Dialog Box](grid-preview-dialog-box.md)
-##### [<Map File> Property Page Dialog Box, Test Map Tab](map-file-property-page-dialog-box-test-map-tab.md)
-##### [Options Dialog Box, BizTalk Mapper Section](options-dialog-box-biztalk-mapper-section.md)
-##### [Script Type Precedence Dialog Box](script-type-precedence-dialog-box.md)
-##### [Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab](configure-table-looping-functoid-dialog-box-table-looping-grid-tab.md)
-#### [BPEL Import Wizard UI](bpel-import-wizard-ui-help.md)
-##### [BPEL Import Wizard Pages](bpel-import-wizard-pages.md)
-#### [Business Rule Composer UI](business-rule-composer-ui-help.md)
-##### [Business Rule Composer](business-rule-composer.md)
-##### [Policy Explorer](policy-explorer.md)
-##### [Facts Explorer, Vocabularies Tab](facts-explorer-vocabularies-tab.md)
-##### [Facts Explorer, XML Schemas Tab](facts-explorer-xml-schemas-tab.md)
-##### [Facts Explorer, Databases Tab](facts-explorer-databases-tab.md)
-##### [Facts Explorer, .NET Classes Tab](facts-explorer-net-classes-tab.md)
-##### [Properties Window](properties-window.md)
-##### [Policy Instructions Page](policy-instructions-page.md)
-##### [Rule Editor](rule-editor.md)
-##### [Vocabulary Definition Wizard](vocabulary-definition-wizard.md)
-##### [Constant Value, Range of Values, or Set of Values Page](constant-value-range-of-values-or-set-of-values-page.md)
-##### [Define a Constant Value Page](define-a-constant-value-page.md)
-##### [Define a Range of Values Page](define-a-range-of-values-page.md)
-##### [Define a Set of Values Page](define-a-set-of-values-page.md)
-##### [.NET Class Definition Page](net-class-definition-page.md)
-##### [Database Definition Page](database-definition-page.md)
-##### [XML Definition Page](xml-definition-page.md)
-##### [Display Name Page](display-name-page.md)
-##### [Parameter Definition Window](parameter-definition-window.md)
-##### [Conditions Editor](conditions-editor.md)
-##### [Actions Editor](actions-editor.md)
-##### [Fact Creator List View](fact-creator-list-view.md)
-##### [Fact Retriever Dialog Box](fact-retriever-dialog-box.md)
-##### [Translator Dialog Box](translator-dialog-box.md)
-##### [Output Window](output-window.md)
-##### [Test Policy Window](test-policy-window.md)
 #### [Configuration Wizard UI](configuration-wizard-ui-help.md)
 ##### [Configuration Wizard, Overview Page](configuration-wizard-overview-page.md)
 ##### [Configuration Wizard, Group Page](configuration-wizard-group-page.md)
@@ -3962,15 +3909,19 @@
 ##### [Configuration Wizard, Microsoft Update Options Page](configuration-wizard-microsoft-update-options-page.md)
 ##### [Configuration Wizard, Service Accounts Page](configuration-wizard-service-accounts-page.md)
 ##### [Configuration Wizard, Database Accounts Page](configuration-wizard-database-accounts-page.md)
+
+
 #### [EDI and AS2 UI](edi-and-as2-ui-help.md)
 ##### [Batches Properties Page](batches-properties-page.md)
 ###### [Batch Filter Page](batch-filter-page.md)
 ###### [Batch Schedule Page](batch-schedule-page.md)
+
 ##### [EDI-AS2 Status Reports UI](edi-as2-status-reports-ui.md)
 ###### [EDI Interchange and Correlated ACK Status Page UI](edi-interchange-and-correlated-ack-status-page-ui.md)
 ####### [Interchange Status and ACK Details Page UI](interchange-status-and-ack-details-page-ui.md)
 ####### [Transaction Set Details Page UI](transaction-set-details-page-ui.md)
 ####### [Message Content Status Page UI](message-content-status-page-ui.md)
+
 ###### [Batch Status Page UI](batch-status-page-ui.md)
 ###### [Interchange Aggregation Report Page UI](interchange-aggregation-report-page-ui.md)
 ###### [Transaction Set Aggregation Report Page UI](transaction-set-aggregation-report-page-ui.md)
@@ -3981,6 +3932,8 @@
 ####### [Resend Status Details Page UI](resend-status-details-page-ui.md)
 ##### [EDI Design-Time XML Tools UI](edi-design-time-xml-tools-ui-help.md)
 ###### [EDI Instance Properties Dialog Box UI](edi-instance-properties-dialog-box-ui-help.md)
+
+
 #### [Administration UI](administration-ui-help.md)
 ##### [BizTalk Server Administration Console UI](biztalk-server-administration-console-ui-help.md)
 ###### [MMC 3.0 Console Tree Nodes](mmc-3-0-console-tree-nodes.md)
@@ -4085,6 +4038,9 @@
 ###### [Import Settings Wizard, Host Instance Mapping Page](import-settings-wizard-host-instance-mapping-page.md)
 ###### [Import Settings Wizard, Import Summary Page](import-settings-wizard-import-summary-page.md)
 ###### [Import Settings Wizard, Import Results Page](import-settings-wizard-import-results-page.md)
+
+
+
 #### [Orchestration Designer UI](orchestration-designer-ui-help1.md)
 ##### [Orchestration Designer](orchestration-designer.md)
 ##### [Call Orchestration Shape](call-orchestration-shape.md)
@@ -4124,6 +4080,9 @@
 ##### [Configure Correlation Properties Dialog Box](configure-correlation-properties-dialog-box.md)
 ##### [Description Property](description-property.md)
 ##### [Policy Configuration Dialog Box](policy-configuration-dialog-box.md)
+
+
+
 #### [Pipeline Designer UI](pipeline-designer-ui-help.md)
 ##### [Pipeline Design Surface](pipeline-design-surface.md)
 ##### [Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab](choose-toolbox-items-dialog-box-biztalk-pipeline-components-tab.md)
@@ -4137,9 +4096,15 @@
 ##### [MIME-SMIME Encoder Pipeline Component Properties](mime-smime-encoder-pipeline-component-properties.md)
 ##### [Party Resolution Pipeline Component Properties](party-resolution-pipeline-component-properties.md)
 ##### [XML Validator Pipeline Component Properties](xml-validator-pipeline-component-properties.md)
+
+
 #### [Project System UI](project-system-ui-help.md)
 ##### [Deployment Page](deployment-page.md)
+
+
 #### [Rule Engine Deployment Wizard UI](rule-engine-deployment-wizard-ui-help.md)
+
+
 #### [Tracking Profile Editor UI](tracking-profile-editor-ui-help.md)
 ##### [Import BAM Activity Definition Dialog Box](import-bam-activity-definition-dialog-box.md)
 ##### [Set Management Database Dialog Box](set-management-database-dialog-box.md)
@@ -4147,15 +4112,23 @@
 ##### [Select Orchestration Dialog Box](select-orchestration-dialog-box.md)
 ##### [Select Schema Dialog Box](select-schema-dialog-box.md)
 ##### [Select Ports Dialog Box](select-ports-dialog-box.md)
+
+
 #### [BizTalk Web Services Publishing Wizard](biztalk-web-services-publishing-wizard.md)
+
+
 #### [WCF Service UI](wcf-service-ui-help.md)
 ##### [BizTalk WCF Service Publishing Wizard](biztalk-wcf-service-publishing-wizard.md)
 ##### [BizTalk WCF Service Consuming Wizard](biztalk-wcf-service-consuming-wizard.md)
+
+
 #### [Setup & Upgrade Wizard UI](setup-upgrade-wizard-ui-help.md)
 ##### [Setup Wizard, Welcome Page](setup-wizard-welcome-page.md)
 ##### [Setup Wizard, Redistributable Prerequisites Page](setup-wizard-redistributable-prerequisites-page.md)
 ##### [Setup Wizard, Platform Prerequisites Page](setup-wizard-platform-prerequisites-page.md)
 ##### [Setup Wizard, Download Installation Guide](setup-wizard-download-installation-guide.md)
+
+
 #### [BizTalk Flat File Schema Wizard UI](biztalk-flat-file-schema-wizard-ui-help.md)
 ##### [BizTalk Flat File Schema Wizard, Overview Page](biztalk-flat-file-schema-wizard-overview-page.md)
 ##### [BizTalk Flat File Schema Wizard, Schema Information Page](biztalk-flat-file-schema-wizard-schema-information-page.md)
@@ -4166,6 +4139,8 @@
 ##### [BizTalk Flat File Schema Wizard, Child Elements Page](biztalk-flat-file-schema-wizard-child-elements-page.md)
 ##### [BizTalk Flat File Schema Wizard, Schema View Page](biztalk-flat-file-schema-wizard-schema-view-page.md)
 ##### [BizTalk Flat File Schema Wizard, Summary Page](biztalk-flat-file-schema-wizard-summary-page.md)
+
+
 #### [Business Activity Monitoring Portal UI](business-activity-monitoring-portal-ui-help.md)
 ##### [Activity Status Portal](activity-status-portal-help.md)
 ##### [Aggregation Viewer](aggregation-viewer.md)
@@ -4173,6 +4148,8 @@
 ##### [Search](search.md)
 ##### [Error](error.md)
 ##### [View](view.md)
+
+
 #### [BAM Add-In for Excel](bam-add-in-for-excel.md)
 ##### [Business Activity Monitoring Activity Wizard](business-activity-monitoring-activity-wizard.md)
 ##### [New Activity Dialog Box](new-activity-dialog-box.md)
@@ -4193,6 +4170,9 @@
 ##### [Business Activity Monitoring View Wizard, New-Edit BAM View: Summary Page](business-activity-monitoring-view-wizard-new-edit-bam-view-summary-page.md)
 ##### [Completing the Business Activity Monitoring View Wizard Page](completing-the-business-activity-monitoring-view-wizard-page.md)
 ###### [Select BAM Database Dialog Box](select-bam-database-dialog-box.md)
+
+
+
 #### [Enterprise Single Sign-On UI](enterprise-single-sign-on-ui-help.md)
 ##### [Create New Affiliate Application Wizard](create-new-affiliate-application-wizard.md)
 ###### [Create New Affiliate Application Wizard: Welcome](create-new-affiliate-application-wizard-welcome.md)
@@ -4259,6 +4239,9 @@
 ###### [Server Properties: SSO Service](server-properties-sso-service.md)
 ###### [Server Properties: Password Sync Properties](server-properties-password-sync-properties.md)
 ###### [Server Properties: Advanced](server-properties-advanced.md)
+
+
+
 ### [Application Deployment UI](application-deployment-ui-help.md)
 #### [Add Policies Page](add-policies-page.md)
 #### [Export Policies Page](export-policies-page.md)
