@@ -48,7 +48,7 @@ The following is a list of the **Database** functoids and how you can use them:
   
 -   **Value Extractor.** Use the **Value Extractor** functoid to extract data from the specified column in a recordset returned by the **Database Lookup** functoid. This functoid requires two input parameters: a link to the **Database Lookup** functoid and a column name.  
   
- Seven of the **Database** functoids— **Format Message, Get Application ID**, **Get Application Value**, **Get Common ID**, **Get Common Value**, **Remove Application ID**, and **Set Common ID**—are **CrossReferencing** functoids. These functoids translate IDs and values from an input message into the IDs and values needed in the output message. For more information, see [Database Functoids Reference](../core/database-functoids-reference.md).  
+ Seven of the **Database** functoids— **Format Message, Get Application ID**, **Get Application Value**, **Get Common ID**, **Get Common Value**, **Remove Application ID**, and **Set Common ID**—are **CrossReferencing** functoids. These functoids translate IDs and values from an input message into the IDs and values needed in the output message. For more information, see **Database Functoids Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
 
 ## Example  
  The following example uses some of the **Database** functoids. Consider a large retail manufacturer with stores spread over a large geographical area. To keep track of the stores, headquarters assigns each store a unique code called a **StoreID**. Additionally, headquarters associates the following information with each **StoreID**:  
