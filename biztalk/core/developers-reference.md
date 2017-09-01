@@ -26,4 +26,3 @@ This section contains the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
   
 -   [Map Property Reference](../core/map-property-reference.md)  
   
--   [Functoid Reference](../core/functoid-reference.md)  

@@ -20,13 +20,13 @@ This topic has questions and answers to help you resolve issues with the BizTalk
 ## How do I specify XSLT output settings?  
  You can use the BizTalk Mapper to include or omit XML declarations, and control the encoding used for output instance data.  
   
-#### To include or exclude an XML declaration  
+#### Include or exclude an XML declaration  
   
 1.  In the Grid view, click the mapper grid. The **Properties** window displays the grid properties.  
   
 2.  In the drop-down list for the **Omit XML Declaration** property, select **Yes** to omit an XML declaration, or select **No** not to omit an XML declaration.  
   
-#### To set encoding for output instance data  
+#### Set encoding for output instance data  
   
 1.  In the Grid view, click the mapper grid. The **Properties** window displays the grid properties.  
   
@@ -44,7 +44,7 @@ This topic has questions and answers to help you resolve issues with the BizTalk
   
  To avoid errors that are detected only at run time, make sure that the first parameter to the **Error Return** functoid is the output of a **Database Lookup** functoid and not the output of any other functoid in the Database category.  
   
- For more information about using the **Error Return** functoid (including a sample), see [Error Return Functoid](../core/error-return-functoid.md).  
+ For more information about using the **Error Return** functoid (including a sample), see the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Why is my map failing when calling my custom functoid?  
  Custom functoids must be installed into the global assembly cache (GAC) on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer before they can be invoked by a map. Verify that the assembly containing your custom functoid has been signed and placed into the GAC. Also, copy the assembly into the folder “%BTSINSTALLPATH%\Developer Tools\Mapper Extensions”.  

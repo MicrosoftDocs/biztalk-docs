@@ -21,7 +21,7 @@ Many functoids are very simple to use. These are referred to here as basic funct
   
  Using a basic functoid involves adding it to a grid page, creating input links to the functoid, coming from the left, and creating output link from the functoid, leaving to the right. This topic provides step-by-step instructions for these operations.  
   
-### To add a basic functoid to a map  
+## Add a basic functoid to a map  
   
 1.  With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the appropriate tab to select the category of the functoid you want to use.  
   
@@ -35,7 +35,7 @@ Many functoids are very simple to use. These are referred to here as basic funct
     > [!NOTE]
     >  If you are constructing a map using more than one functoid together, you need to consider their relative left to right placement. Functoids are executed from left to right. The output of a functoid can only be input to another functoid that is farther to the right.  
   
-### To create input links to a basic functoid  
+## Create input links to a basic functoid  
   
 1.  Drag a record or field node from the source schema to the basic functoid in the displayed grid page.  
   
@@ -60,12 +60,12 @@ Many functoids are very simple to use. These are referred to here as basic funct
     >  There are a few functoids that do not require any input links. For example, the **Date**, **Time**, and **Date and Time** functoids in the **Date and Time** functoid category provide the current date, time, or date and time, respectively, at which an instance message is being processed. Thus, they do not require any input parameters from the source schema.  
   
     > [!NOTE]
-    >  The order of input parameters to many functoids is significant, as indicated in the corresponding functoid reference topic (see [Functoid Reference](../core/functoid-reference.md)). The order in which you create links sets the order of input parameters to the functoid. For more information about functoid properties and specifying the order of functoid input parameters, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md). For information about how to configure the input parameters of a functoid, see [How to Configure Functoid Input Parameters](../core/how-to-configure-functoid-input-parameters.md).  
+    >  The order of input parameters to many functoids is significant, as indicated in the corresponding functoid reference topic (see **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]). The order in which you create links sets the order of input parameters to the functoid. For more information about functoid properties and specifying the order of functoid input parameters, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md). For information about how to configure the input parameters of a functoid, see [How to Configure Functoid Input Parameters](../core/how-to-configure-functoid-input-parameters.md).  
   
     > [!NOTE]
     >  Ensure the functoids or source schema node you want to link are visible in the displayed grid page or source schema window before you begin linking.  
   
-### To create the output link from a basic functoid  
+## Create the output link from a basic functoid  
   
 1.  Drag a record or field node from the destination schema to the basic functoid in the displayed grid page.  
   
@@ -91,11 +91,4 @@ Many functoids are very simple to use. These are referred to here as basic funct
     >  While dragging, the moving end point of the link, as opposed to the anchored endpoint of the link, changes to a crosshair icon to allow more accurate targeting of the second endpoint. If you hover the moving endpoint of the link over an object that is not an appropriate second endpoint for the link, such as might occur when there is a data type mismatch, the crosshair icon changes to an icon showing a circle with a diagonal slash through it.  
   
 ## See Also  
- [Conversion Functoids Reference](../core/conversion-functoids-reference.md)   
- [Cumulative Functoids Reference](../core/cumulative-functoids-reference.md)   
- [Database Functoids Reference](../core/database-functoids-reference.md)   
- [Date and Time Functoids Reference](../core/date-and-time-functoids-reference.md)   
- [Logical Functoids Reference](../core/logical-functoids-reference.md)   
- [Mathematical Functoids Reference](../core/mathematical-functoids-reference.md)   
- [Scientific Functoids Reference](../core/scientific-functoids-reference.md)   
- [String Functoids Reference](../core/string-functoids-reference.md)
+**Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

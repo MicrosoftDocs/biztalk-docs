@@ -15,7 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Nil Value Functoid
+
+## Description
 The **Nil Value** functoid sets a destination element to **Nil**. This functoid is useful when you want to include empty elements in the output message. It can be combined with other functoids to produce a **Nil** value based on specific conditions.  
   
 ## See Also  
- [Nil Value Functoid Reference](../core/nil-value-functoid-reference.md)
+ **Nil Value Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

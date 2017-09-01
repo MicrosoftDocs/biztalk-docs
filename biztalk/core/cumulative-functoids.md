@@ -8,20 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Max Occurs property"
-  - "Cumulative Average functoids"
-  - "Multiplication functoids"
-  - "Cumulative functoids, code sample"
-  - "Cumulative functoids"
-  - "functoids, parameters"
-  - "Cumulative String functoids"
-  - "Cumulative Concatenate functoids"
-  - "Cumulative Minimum functoids"
-  - "functoid types, Cumulative"
-  - "Mixed property"
-  - "Cumulative Maximum functoids"
-  - "Cumulative Sum functoids"
 ms.assetid: f0549867-e0e4-4cdb-aae0-cadc99088e03
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -29,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Cumulative Functoids
+
+## Overview
 **Cumulative** functoids reduce a series of values to a single value such as a sum, a concatenated string, or an average.  
   
  All **Cumulative** functoids accept two input parameters:  
@@ -48,7 +36,8 @@ manager: "anneta"
 |1 (one)|Accumulate the value of element or attribute values with the same parent element.|  
 |2|Accumulate the value of element or attribute values with the same grandparent element.|  
 |3 or greater|Accumulate the value of element or attribute values of progressively wider scope following the preceding pattern (great-grandparent, great-great-grandparent, etc.).|  
-  
+
+## Example  
  An example of using a **Cumulative** functoid might be summing costs across a purchase order. The following code is an example of a purchase order.  
   
 ```  
@@ -77,7 +66,7 @@ manager: "anneta"
  The following figure shows a map using a **Multiplication** functoid and a **Cumulative Sum** functoid to aggregate item records from an incoming purchase order and output the results in the **POTotal** field:  
   
  ![Map showing usage of the cumulative sum functoid.](../core/media/cumulativefunctoids.gif "cumulativefunctoids")  
-Cumulative Functoid Map  
+
   
  The map produces the following output with the preceding data and with the default scoping parameter value, 0 (zero):  
   
@@ -121,9 +110,19 @@ Cumulative Functoid Map
 >  Cumulative functoids (except for the **Cumulative String** functoid) ignore non-numeric input. For example, an input value of "three" is ignored.  
   
  The **Cumulative Average**, **Cumulative Minimum**, and **Cumulative Maximum** functoids behave similarly to the **Cumulative Sum** functoid. The **Cumulative String** concatenates strings rather than aggregating numeric values.  
+
+## Available functoids
   
- The **Cumulative** functoids are: [Cumulative Average](../core/cumulative-average-functoid.md), [Cumulative Concatenate](../core/cumulative-concatenate-functoid.md), [Cumulative Maximum](../core/cumulative-maximum-functoid.md), [Cumulative Minimum](../core/cumulative-minimum-functoid.md), and [Cumulative Sum](../core/cumulative-sum-functoid.md).  
+ The **Cumulative** functoids are: 
+
+* Cumulative Average
+* Cumulative Concatenate
+* Cumulative Maximum
+* Cumulative Minimum
+* Cumulative Sum
+
+More details on these functoids are [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## See Also  
- [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md)   
- [Cumulative Functoids Reference](../core/cumulative-functoids-reference.md)
+-  [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md)   
+-  **Cumulative Functoids Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
