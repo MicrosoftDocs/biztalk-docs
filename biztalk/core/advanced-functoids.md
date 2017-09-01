@@ -8,16 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, conditional mapping"
-  - "mapping, conditional"
-  - "maps, looping records"
-  - "mapping, loops"
-  - "Advanced functoids"
-  - "maps, scripts"
-  - "mapping, simple"
-  - "maps, simple mapping"
-  - "functoid types, Advanced"
 ms.assetid: 82bf2547-5e44-45f8-b577-97e5760a0339
 caps.latest.revision: 12
 author: "MandiOhlinger"
@@ -25,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Advanced Functoids
+
+## Overview
 Advanced functoids fall into five groups, according to their use:  
   
 -   **Managing looping records.** The **Index**, **Iteration**, **Looping**, **Nil Value**, **Record Count**, **Table Extractor**, and **Table Looping** functoids are used in various combinations when the input instance message contains sections with an unpredictable number of repeating elements, as represented by looping records in the source schema.  
@@ -37,11 +29,25 @@ Advanced functoids fall into five groups, according to their use:
   
 -   **Troubleshooting**. The **Assert** functoid can be used to test your assumptions about element values.  
   
- This section provides detailed descriptions and examples of how the **Advanced** functoids can be used in BizTalk maps.  
+## Available functoids
   
- The **Advanced** functoids are: [Assert Functoid](../core/assert-functoid.md), [Index Functoid Reference](../core/index-functoid-reference.md), [Iteration Functoid Reference](../core/iteration-functoid-reference.md), [Looping Functoid Reference](../core/looping-functoid-reference.md), [Mass Copy Functoid Reference](../core/mass-copy-functoid-reference.md), [Nil Value Functoid](../core/nil-value-functoid.md), [Record Count Functoid Reference](../core/record-count-functoid-reference.md), [Scripting Functoid Reference](../core/scripting-functoid-reference.md), [Table Looping and Table Extractor Functoids](../core/table-looping-and-table-extractor-functoids.md), [Value Mapping Functoid Reference](../core/value-mapping-functoid-reference.md), and [Value Mapping (Flattening) Functoid Reference](../core/value-mapping-flattening-functoid-reference.md).  
+ The **Advanced** functoids are: 
+
+* Assert Functoid
+* Index Functoid 
+* Iteration Functoid 
+* Looping Functoid 
+* Mass Copy Functoid 
+* Nil Value Functoid
+* Record Count Functoid 
+* Scripting Functoid 
+* Table Looping and Table Extractor Functoids
+* Value Mapping Functoid
+* Value Mapping (Flattening) Functoid
+
+More details on these functoids are in the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps
   
 -   [Assert Functoid](../core/assert-functoid.md)  
   

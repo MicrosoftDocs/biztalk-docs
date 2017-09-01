@@ -8,10 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Looping functoids, about Looping functoids"
-  - "String Concatenate functoids"
-  - "Looping functoids"
 ms.assetid: 19886ccb-4642-48a4-b93e-563640ea828b
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -19,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Looping Functoid
+
+## Overview & example
 The **Looping** functoid combines multiple records or fields in the source schema into a single record in the destination schema.  
   
  The following figure shows a **Looping**functoid used in a map to combine addresses collected from two different surveys into a single master address list.  
@@ -27,7 +25,6 @@ The **Looping** functoid combines multiple records or fields in the source schem
 >  The **Looping** and **Value Mapping (Flattening)** functoids should not be used together. If both are used together, it results in a compiled map that assumed there is no source looping dependency for the target nodes that are below the **Looping** functoid.  
   
  ![Map illustrating the use of the looping functoid.](../core/media/loopingfunctoid.gif "loopingfunctoid")  
-Looping Functoid Map  
   
  The **FoodSurvey** and **FlowerSurvey** looping records of the source schema are mapped to the looping **Address** record of the destination schema. If an input instance message has three **FoodSurvey** records and two **FlowerSurvey** records, the **Looping**functoid combines these to create five **Address** records in the output instance message.  
   
@@ -66,7 +63,9 @@ Looping Functoid Map
     <Address Name="Jim Kim" Street="567 2nd Ave" City="Seattle" State="WA" PostalCode="98103" Source="FlowerSurvey"/>  
 </ns0:MasterAddresses>  
 ```  
-  
+
+## Relationships with nodes
+
  Relationships among nodes affect the behavior of the **Looping** functoid. For example, linking both a child node and its parent in the source schema to the **Looping** functoid prevents the destination node from being created.  
   
  Functoids are also affected by the relationships among source nodes. Connecting a functoid to non-sibling child fields of source nodes of the **Looping** functoid may produce unexpected results. For example, using the **String Concatenate** functoid to combine the **FoodSurvey** Name field and **FlowerSurvey** Address field into the Address Name field in **MasterAddress** would produce the following output instance message:  
@@ -88,7 +87,7 @@ Looping Functoid Map
   
  The **Looping** functoid is a powerful construct that you can use to create conditional loops and to map schemas to catalogs. There are also some effects of overlapping **Looping** functoid paths you need to take into account.  
   
-## In This Section  
+## Next steps
   
 -   [Conditional Looping](../core/conditional-looping.md)  
   
@@ -97,4 +96,4 @@ Looping Functoid Map
 -   [Loop Paths](../core/loop-paths.md)  
   
 ## See Also  
- [Table Looping Functoid Reference](../core/table-looping-functoid-reference.md)
+ **Table Looping Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

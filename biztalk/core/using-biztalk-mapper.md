@@ -10,8 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.grid"
-helpviewer_keywords: 
-  - "bts10.mapper.main"
 ms.assetid: 07c69603-ee79-44b2-80b1-6ae4e4c8fb4e
 caps.latest.revision: 29
 author: "MandiOhlinger"
@@ -19,16 +17,18 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using BizTalk Mapper
+
+## Overview
 The BizTalk Mapper resides in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. Some of the functionality in the BizTalk Mapper relies on the user interface elements of the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. For example, you use the **File**, **Edit**, and **View** menus just as you would for other development in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Information about this common functionality is available from the **Help** menu.  
   
  The BizTalk Mapper becomes active when you add a new map to a BizTalk project, when you open an existing map (a .btm file), or when you reactivate a map by clicking its tab in the main [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] editing window.  
   
 > [!NOTE]
 >  The BizTalk Mapper saves map files using UTF-16 character encoding.  
-  
-> [!NOTE]
+>
 >  When you add an existing artifact to a BizTalk project, the build action is always set to **BtsCompile**. Even when you rename an existing artifact, its build action is set to the default value **BtsCompile**. Hence, while adding or renaming an existing artifact, you need to set the build action appropriately depending on whether you want to build that particular artifact or not.  
-  
+
+## Parts of the BizTalk Mapper  
  The following figure shows various parts of BizTalk Mapper within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
  ![BizTalk Mapper](../core/media/mapper-views.gif "Mapper_Views")  
@@ -61,13 +61,13 @@ The BizTalk Mapper resides in the [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 -   **Visual Studio Toolbox window.** You use this view to display the functoids available for use in BizTalk maps, and as the source of the drag-and-drop operations to place functoids in a grid page.  
   
-     The functoids shown in the Toolbox are organized according to their categories. For more information about the available functoids, see [Functoids in Maps](../core/functoids-in-maps.md). Also see [Functoid Reference](../core/functoid-reference.md).  
+     The functoids shown in the Toolbox are organized according to their categories. For more information about the available functoids, see [Functoids in Maps](../core/functoids-in-maps.md). Also see the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
   
 -   **Visual Studio Properties window.** You use this view, and its associated dialog boxes, to examine and set the properties of the links and functoids that you create to define your map.  
   
      When you select a link or functoid in a grid page in the Grid view, select a schema node in the source or destination schema tree views, or select a map in the **Solution Explorer** window; the corresponding properties of that link, functoid, schema node, or map appear in the **Properties** window using the standard Visual Studio conventions. For example, the properties are grouped into categories, and can be displayed according to these categories or alphabetically.  
   
-     For detailed information about the different sets of properties that are available for links, functoids, schema nodes, or the map itself, see [Map Property Reference](../core/map-property-reference.md). Also see [Schema Property Reference](../core/schema-property-reference.md).  
+     For detailed information about the different sets of properties that are available for links, functoids, schema nodes, or the map itself, see the **Map Property Reference** and the **Schema Property Reference**  [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 -   **Visual Studio Task List and Output windows.** You use these views to examine the results of validating, compiling, and testing your BizTalk maps in much the same way that these views are used when compiling source code and building other types of projects.  
   
@@ -75,7 +75,7 @@ The BizTalk Mapper resides in the [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
  You often use the Solution Explorer window in conjunction with BizTalk Mapper. For example, to create a new map, right-click the BizTalk project in the **Solution Explorer** window, click **Add**, click **Add New Item**, and then use the **Add New Item** dialog box to name and create a new map.  
   
-## In This Section  
+## Next steps
   
 -   [Using BizTalk Mapper Commands](../core/using-biztalk-mapper-commands.md)  
   

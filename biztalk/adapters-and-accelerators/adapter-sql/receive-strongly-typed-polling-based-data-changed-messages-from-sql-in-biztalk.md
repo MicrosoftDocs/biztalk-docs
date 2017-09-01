@@ -68,7 +68,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
  Finally, as part of the BizTalk project, a file conforming to the EmployeeDetails.xsd schema is dropped to a FILE send port.  
   
-## Configuring Typed Polling with the SQL Adapter Binding Properties  
+## Configure Typed Polling with the SQL Adapter Binding Properties  
  The following table summarizes the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] binding properties that you use to configure the adapter to receive data-change messages. Other than the **PollingStatement** binding property, all the other binding properties listed in this section are required while configuring the receive port in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must specify the **PollingStatement** binding property before generating schema for the **TypedPolling** operation.  
   
 > [!NOTE]
@@ -115,7 +115,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 ## Sample Based on This Topic  
  A sample, TypedPolling, based on this topic is provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SQL adapter](../../adapters-and-accelerators/adapter-sql/samples-for-the-sql-adapter.md).  
   
-## Generating Schema  
+## Generate Schema  
  You must generate the schema for the **TypedPolling** operation. See [Retrieving Metadata for SQL Server Operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md) for more information about how to generate the schema. Perform the following tasks when generating the schema.  
   
 1.  Specify the **InboundID** connection property while specifying the connection URI. For this topic, you can specify the **InboundID** as **Employee**. For more information about the connection URI, see [Create the SQL Server Connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).  
@@ -128,14 +128,14 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
 4.  Generate schema for the **TypedPolling** operation.  
   
-## Defining Messages and Message Types  
+## Define Messages and Message Types  
  The schema that you generated earlier describes the "types" required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. Once the schema is generated, you must link it to the messages from the Orchestration view of the BizTalk project.  
   
  For this topic, you must create one message to receive messages from the SQL Server database.  
   
  Perform the following steps to create messages and link them to schema.  
   
-#### To create messages and link to schema  
+#### Create messages and link to schema  
   
 1.  Add an orchestration to the BizTalk project. From the Solution Explorer, right-click the BizTalk project name, point to **Add**, and then click **New Item**. Type a name for the BizTalk orchestration and then click **Add**.  
   
@@ -152,7 +152,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
     |Identifier|Type **PollingMessage**.|  
     |Message Type|From the drop-down list, expand **Schemas**, and select *Typed_Polling.TypedPolling_Employee.TypedPolling*, where *Typed_Polling* is the name of your BizTalk project. *TypedPolling_Employee* is the schema generated for the **TypedPolling** operation.|  
   
-## Setting up the Orchestration  
+## Set up the Orchestration  
  You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for receiving polling-based data-change messages from the SQL Server database. In this orchestration, the adapter receives the polling message for the specified polling statement. The BizTalk Mapper then maps the polling message schema to the EmployeeDetails.xsd schema. The mapped message is then saved to a FILE location. A typical orchestration for receiving strongly-typed polling message from a SQL Server database would contain:  
   
 -   Receive and Send shapes to receive messages from SQL Server and send to a FILE port, respectively.  
@@ -170,7 +170,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
  ![Orchestration for strongly&#45;typed polling](../../adapters-and-accelerators/adapter-sql/media/1db03859-b7f8-470c-9158-2be4da0b45ae.gif "1db03859-b7f8-470c-9158-2be4da0b45ae")  
   
-### Adding Message Shapes  
+### Add Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
   
 |Shape|Shape Type|Properties|  
@@ -178,7 +178,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 |ReceiveMessage|Receive|- Set **Name** to *ReceiveMessage*<br /><br /> - Set **Activate** to *True*|  
 |SaveMessage|Send|- Set **Name** to *SaveMessage*|  
   
-### Adding Ports  
+### Add Ports  
  Make sure you specify the following properties for each of the logical ports. The names listed in the Port column are the names of the ports as displayed in the orchestration.  
   
 |Port|Properties|  
@@ -186,7 +186,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 |SQLReceivePort|- Set **Identifier** to *SQLReceivePort*<br /><br /> - Set **Type** to *SQLReceivePortType*<br /><br /> - Set **Communication Pattern** to *One-Way*<br /><br /> - Set **Communication Direction** to *Receive*|  
 |SaveMessagePort|- Set **Identifier** to *SaveMessagePort*<br /><br /> - Set **Type** to *SaveMessagePortType*<br /><br /> - Set **Communication Pattern** to *One-Way*<br /><br /> - Set **Communication Direction** to *Send*|  
   
-### Specify Messages for Action Shapes and Connect to Ports  
+### Enter Messages for Action Shapes and Connect to Ports  
  The following table specifies the properties and their values that you should set to specify messages for action shapes and to link the messages to the ports. The names listed in the Shape column are the names of the message shapes as displayed in the orchestration mentioned earlier.  
   
 |Shape|Properties|  
@@ -199,8 +199,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 ### Add a BizTalk Mapper  
  You must add a BizTalk Mapper to the orchestration to map the polling message schema to the EmployeeDetails.xsd schema. In the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you will use this Mapper to map the schema for the polling message to the EmployeeDetails.xsd schema.  
   
-##### To add a BizTalk Mapper  
-  
+
 1.  Add a BizTalk Mapper to the BizTalk project. Right-click the BizTalk project, point to **Add**, and click **New Item**.  
   
      In the **Add New Item** dialog box, from the left pane, select **Map Files**. From the right pane, select **Map**. Specify a name for the map, such as `MapSchema.btm`. Click **Add**.  
@@ -223,7 +222,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
     -   **Rating** and **Salary** in the source schema must map to **Employee_Performance** in the destination schema.  
   
-     To combine more than one node in source schema and map them to a single node in the destination schema, you must use the [String Concatenate functoid](../../core/string-concatenate-functoid.md).
+     To combine more than one node in source schema and map them to a single node in the destination schema, you must use the **String Concatenate functoid**. Details [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
 8.  To use the String Concatenate functoid:  
   
@@ -235,13 +234,13 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
     4.  Repeat these steps for all the elements that you want to map. A finished map will resemble the following:  
   
-         ![Map the strongly&#45;typed polling schema](../../adapters-and-accelerators/adapter-sql/media/0a4a2608-3b84-4bac-9a16-512cf42c7525.gif "0a4a2608-3b84-4bac-9a16-512cf42c7525")  
+         ![Map the strongly-typed polling schema](../../adapters-and-accelerators/adapter-sql/media/0a4a2608-3b84-4bac-9a16-512cf42c7525.gif "0a4a2608-3b84-4bac-9a16-512cf42c7525")  
   
     5.  Save the map.  
   
  The orchestration is complete after you create the Mapper. You must now build the BizTalk solution and deploy it to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).
   
-## Configuring the BizTalk Application  
+## Configure the BizTalk Application  
  After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the BizTalk Server Administration console. You must use the BizTalk Server Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md).
   
  Configuring an application involves:  
@@ -277,7 +276,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
              ![Configure outbound map on the FILE send port](../../adapters-and-accelerators/adapter-sql/media/831c9aee-fd97-466f-9270-3b04dbccd9fe.gif "831c9aee-fd97-466f-9270-3b04dbccd9fe")  
   
-## Starting the Application  
+## Start the Application  
  You must start the BizTalk application for receiving messages from the SQL Server database. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).
   
  At this stage, make sure:  
@@ -288,7 +287,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
 -   The BizTalk orchestration for the operation is running.  
   
-## Executing the Operation  
+## Execute the Operation  
  After you run the application, the following set of actions take place, in the same sequence:  
   
 -   The adapter executes the **PolledDataAvailableStatement** on the Employee table and determines that the table has records for polling.  

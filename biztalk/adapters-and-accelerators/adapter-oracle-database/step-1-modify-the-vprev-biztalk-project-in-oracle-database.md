@@ -31,7 +31,7 @@ manager: "anneta"
   
 -   You must have a vPrev BizTalk project to perform an Insert operation on the SCOTT.CUSTOMER table in the Oracle database.  
   
-### To modify the vPrev BizTalk project  
+## Modify the vPrev BizTalk project  
   
 1.  Generate metadata for the Insert operation on the SCOTT.CUSTOMER table using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. You can use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata.  
   
@@ -90,7 +90,7 @@ manager: "anneta"
          ![Map the response received from Oracle database](../../adapters-and-accelerators/adapter-oracle-database/media/7fe18f5b-100f-4fe2-ac92-c111629d7fe9.gif "7fe18f5b-100f-4fe2-ac92-c111629d7fe9")  
   
         > [!NOTE]
-        >  For more information about the String Left Trim functoid, see [String Left Trim Functoid](../../core/string-left-trim-functoid.md).  
+        >  For more information, see the **String Left Trim Functoid** [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
     9. Save the map.  
   

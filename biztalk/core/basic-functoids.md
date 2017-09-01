@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "functoid types, Basic"
-  - "Basic functoids"
 ms.assetid: cd4b6924-4ad1-4297-a12f-22de11328bab
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -22,9 +19,9 @@ Any functoid not in the **Advanced** category is considered a basic functoid. Ba
   
  For step-by-step instructions about how to add a basic functoid to a BizTalk map, see [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md).  
   
- For reference information about all functoids, including basic functoids, see [Functoid Reference](../core/functoid-reference.md).  
+ For reference information about all functoids, including basic functoids, see the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps
   
 -   [Conversion Functoids](../core/conversion-functoids.md)  
   

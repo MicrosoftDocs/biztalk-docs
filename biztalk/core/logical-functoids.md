@@ -8,24 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Logical Existence functoids"
-  - "Value Mapping functoids"
-  - "Not Equal functoids"
-  - "Logical Numeric functoids"
-  - "Greater Than or Equal To functoids"
-  - "Logical OR functoids"
-  - "Logical AND functoids"
-  - "Equal functoids"
-  - "Greater Than functoids"
-  - "Less Than or Equal To functoids"
-  - "Logical String functoids"
-  - "Logical functoids"
-  - "functoid types, Logical"
-  - "Less Than functoids"
-  - "Logical functoids, about Logical Numeric functoids"
-  - "Logical Date functoids"
-  - "Value Mapping (Flattening) functoids"
 ms.assetid: e37cdfc3-66de-4333-84eb-a8765afa8407
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -33,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Logical Functoids
+
+## Overview
 **Logical** functoids are used to perform the following types of operations:  
   
 -   Perform specific logical tests at run time. The **Logical OR**, **Logical NOT** and **Logical AND** functoids can be used to determine whether a record is created in a destination instance message, such as the following:  
@@ -56,9 +40,27 @@ manager: "anneta"
   
 > [!NOTE]
 >  Logical functoids are case-sensitive when comparing two strings. For example, "Abc" and "abc" are not equal. The exception to this rule is when **Logical** functoids compare strings that represent the Boolean values **True** and **False**. For example, "True" and "true" are equal.  
-  
- The **Logical** functoids are: [Equal](../core/equal-functoid.md), [Greater Than](../core/greater-than-functoid.md), [Greater Than or Equal To](../core/greater-than-or-equal-to-functoid.md), [IsNil](../core/isnil-functoid.md), [Less Than](../core/less-than-functoid.md), [Less Than or Equal To](../core/less-than-or-equal-to-functoid.md), [Logical AND](../core/logical-and-functoid.md), [Logical Date](../core/logical-date-functoid.md), [Logical Existence](../core/logical-existence-functoid.md), [Logical NOT](../core/logical-not-functoid.md), [Logical Numeric](../core/logical-numeric-functoid.md), [Logical OR](../core/logical-or-functoid.md), [Logical String](../core/logical-string-functoid.md), and [Not Equal](../core/not-equal-functoid.md).  
+
+## Available functoids  
+ The **Logical** functoids are: 
+
+* Equal
+* Greater Than
+* Greater Than or Equal To
+* IsNil
+* Less Than
+* Less Than or Equal To
+* Logical AND
+* Logical Date
+* Logical Existence
+* Logical NOT
+* Logical Numeric
+* Logical OR
+* Logical String
+* Not Equal
+
+More details on these functions are [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## See Also  
- [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md)   
- [Logical Functoids Reference](../core/logical-functoids-reference.md)
+-  [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md)   
+-  **Logical Functoids Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

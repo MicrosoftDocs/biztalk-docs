@@ -22,16 +22,15 @@ The **Assert** functoid enables you to test your assumptions about conditions in
   
  For conceptual information about the **Assert** functoid, see [Assert Functoid](../core/assert-functoid.md).  
   
-### To add the Assert functoid to a map and configure it  
+## Add the Assert functoid to a map and configure it  
   
 1.  With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the **Advanced Functoids** tab to select that category of functoids. The list of advanced functoids in the chosen category appears.  
   
 2.  Drag the **Assert** functoid (![Assert functoid](../core/media/advanced-assert-functoid.gif "advanced_assert_functoid")) from the Toolbox to the appropriate location on a grid page.  
   
     > [!NOTE]
-    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  
-  
-    > [!NOTE]
+    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first. 
+    >    
     >  If you are constructing a map that uses more than one functoid, you need to consider their relative left-to-right placement. Functoids are executed from left to right. The output of a functoid can only be input to another functoid that is farther to the right.  
   
 3.  The functoid must have exactly three input parameters and it generates one output parameter. To establish the first parameter for the **Assert** functoid, create an input link by dragging the output from some other **Logical** functoid or from a variable Boolean field in the input instance message.  
@@ -46,5 +45,5 @@ The **Assert** functoid enables you to test your assumptions about conditions in
     >  As with other functoids, the output of the **Assert** functoid can be used as input to another functoid.  
   
 ## See Also  
- [Assert Functoid Reference](../core/assert-functoid-reference.md)   
- [Adding Advanced Functoids to a Map](../core/adding-advanced-functoids-to-a-map.md)
+-  **Assert Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+-  [Adding Advanced Functoids to a Map](../core/adding-advanced-functoids-to-a-map.md)

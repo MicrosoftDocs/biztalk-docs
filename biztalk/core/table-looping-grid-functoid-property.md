@@ -33,6 +33,5 @@ Use the **Table Looping Grid** property to open the **Configure Table Looping Fu
  For more information about how this property is used with the **Table Looping** functoid, see [Table Looping and Table Extractor Functoids](../core/table-looping-and-table-extractor-functoids.md).  
   
 ## See Also  
- [General Functoid Properties](../core/general-functoid-properties.md)   
- [Table Looping Functoid Reference](../core/table-looping-functoid-reference.md)   
- [Table Extractor Functoid Reference](../core/table-extractor-functoid-reference.md)   
+-  [General Functoid Properties](../core/general-functoid-properties.md)   
+-  **Table Looping Functoid Reference** and **Table Extractor Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

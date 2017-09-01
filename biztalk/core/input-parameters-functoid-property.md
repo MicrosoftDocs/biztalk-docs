@@ -8,14 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Input Parameters [functoids]"
-  - "Input Parameters [functoids], about Input Parameters"
-  - "functoids, parameters"
-  - "constant input parameters [functoids]"
-  - "link input parameters [functoids]"
-  - "Input Parameters [functoids], constant input parameters"
-  - "Input Parameters [functoids], link input parameters"
 ms.assetid: e7af7273-1d80-4c6e-bb3e-0091700d35db
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -39,7 +31,7 @@ Use the **Input Parameters** property to open the **Configure \<Functoid> Functo
   
      . Clicking this button inserts a new constant input parameter and provides an in-place edit box in which you can type its value. Thereafter, it is shown in the input parameters list using this value.  
   
- The order of input parameters is important to proper functoid operation, and you must use the **Configure \<Functoid> Functoid** dialog box to examine and change this order when necessary. Link input parameters are initially ordered by the order in which they are created, and constant input parameters are initially added to the end of the input parameter list. Use the **Move Selected Input Parameter Up**![Move up in the list](../core/media/move-up-button.gif "Move_up_button") and the Move Selected Input Parameter Down ![Moving down in a list](../core/media/move-down-button.gif "Move_down_button") buttons to change the order of the input parameters. For information about the proper order of input parameters to the various functoids, see [Functoid Reference](../core/functoid-reference.md).  
+ The order of input parameters is important to proper functoid operation, and you must use the **Configure \<Functoid> Functoid** dialog box to examine and change this order when necessary. Link input parameters are initially ordered by the order in which they are created, and constant input parameters are initially added to the end of the input parameter list. Use the **Move Selected Input Parameter Up**![Move up in the list](../core/media/move-up-button.gif "Move_up_button") and the Move Selected Input Parameter Down ![Moving down in a list](../core/media/move-down-button.gif "Move_down_button") buttons to change the order of the input parameters. For information about the proper order of input parameters to the various functoids, see the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
 ## Remarks  
   
