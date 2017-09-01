@@ -8,34 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "eps_to_address_type property"
-  - "svc_commitmentRctRqt_sendBy property"
-  - "eps_from_address_type property"
-  - "messages, headers"
-  - "http://schemas.microsoft.com/BizTalk/2003/btf2-properties namespace"
-  - "commitmentRct_commitmentCode property"
-  - "pipeline components, BizTalk Framework Disassembler"
-  - "eps_from_address property"
-  - "commitmentRct_decidedAt property"
-  - "commitmentRct_identity property"
-  - "svc_deliveryRctRqt_sendTo_address property"
-  - "prop_identity property"
-  - "prop_sentAt property"
-  - "PassAckThrough property"
-  - "svc_deliveryRctRqt_sendBy property"
-  - "deliveryRct_identity property"
-  - "IsReliable property"
-  - "prop_topic property"
-  - "eps_to_address property"
-  - "svc_commitmentRctRqt_sendTo_address property"
-  - "svc_deliveryRctRqt_sendTo_address_type property"
-  - "deliveryRct_receivedAt property"
-  - "BizTalk Framework Disassembler [pipeline component]"
-  - "svc_commitmentRctRqt_sendTo_address_type property"
-  - "commitmentRct_decision property"
-  - "prc_instance property"
-  - "prc_type property"
 ms.assetid: 8986e4a7-0c0a-415f-8a74-4fca71d3f1b5
 caps.latest.revision: 6
 author: "MandiOhlinger"
@@ -44,7 +16,8 @@ manager: "anneta"
 ---
 # BizTalk Framework Schema and Properties
 The **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** namespace contains properties you can use to set message and part context properties for the BizTalk Framework Disassembler pipeline component. The BizTalk Framework Disassembler pipeline component uses these properties to generate the appropriate headers in the message that is created. The following table describes the BizTalk Framework properties.  
-  
+
+## Properties list  
 |Name|Type|Description|  
 |----------|----------|-----------------|  
 |**IsReliable**|xs:boolean|Indicates whether the BizTalk Framework message should be resent until an acknowledgment is received from a destination. This property is set internally by BizTalk Framework components and used by the engine. Do not change the value in this property from your code.|  
@@ -72,5 +45,5 @@ The **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** namespace cont
 |**commitmentRct_commitmentCode**|xs:QName|Specifies the qualified name (in XSD) that specifies a more specific status regarding the processing decision.|  
   
 ## See Also  
- [Message Context Properties](../core/message-context-properties1.md)   
- [Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md)
+-  **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+-  [Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md)

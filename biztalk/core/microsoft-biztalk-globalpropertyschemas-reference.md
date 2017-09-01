@@ -8,11 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Microsoft.BizTalk.GlobalPropertySchemase namespace, global property schemas"
-  - "property schemas, Microsoft.BizTalk.GlobalPropertySchemas"
-  - "Microsoft.BizTalk.GlobalPropertySchemas namespace"
-  - "namespaces, Microsoft.BizTalk.GlobalPropertySchemas namespace"
 ms.assetid: 2acf3083-a0a9-483f-88bf-8023d9933e1e
 caps.latest.revision: 12
 author: "MandiOhlinger"
@@ -28,7 +23,7 @@ The **Microsoft.BizTalk.GlobalPropertySchemas** namespace contains property sche
 |---------------------|----------------------------------|  
 |bts-btf2-properties.xsd|Property schema.|  
 |btf2-endpoints-header.xsd<br /><br /> btf2-envelope.xsd<br /><br /> btf2-manifest-header.xsd<br /><br /> btf2-process-header.xsd<br /><br /> btf2-properties-header.xsd<br /><br /> btf2-receipt-header.xsd<br /><br /> btf2-services-header.xsd|Schemas that define the BizTalk Framework constructs. These schemas are specific to BizTalk Framework Assembler and Disassembler pipeline components.|  
-|bts-system-properties.xsd|This is a system property schema. The BizTalk engine uses most properties in this schema. You can use some properties for message routing. For more information on the properties that you can use for message routing, see [Message Context Properties](../core/message-context-properties1.md).|  
+|bts-system-properties.xsd|This is a system property schema. The BizTalk engine uses most properties in this schema. You can use some properties for message routing. For more information on the properties that you can use for message routing, see **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|  
 |bts-endpoint-properties.xsd|This is an internal property schema.|  
 |bts-mime-properties.xsd<br /><br /> bts-xmlnorm-properties.xsd|These are property schemas for pipeline components: MIME, XML, Flat File, and BizTalk Framework Assembler and Disassembler pipeline components.|  
 |bts-legacy-properties.xsd|BizTalk uses this schema for upgrading [!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)] applications to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] applications.|  

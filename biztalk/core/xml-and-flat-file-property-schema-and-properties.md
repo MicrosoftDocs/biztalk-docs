@@ -56,4 +56,4 @@ The **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** namespace c
  [How to Configure the XML Assembler Pipeline Component](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
  [How to Configure the XML Disassembler Pipeline Component](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
  [Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md)   
- [Message Context Properties](../core/message-context-properties1.md)
+ **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

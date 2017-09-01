@@ -27,9 +27,3 @@ This section contains the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
 -   [Map Property Reference](../core/map-property-reference.md)  
   
 -   [Functoid Reference](../core/functoid-reference.md)  
-  
--   [WCF Adapters Service Contract Reference](../core/wcf-adapters-service-contract-reference.md)  
-  
--   [Message Context Properties](../core/message-context-properties1.md)  
-  
--   [Enterprise Single Sign-On Flags](../core/enterprise-single-sign-on-flags.md)
