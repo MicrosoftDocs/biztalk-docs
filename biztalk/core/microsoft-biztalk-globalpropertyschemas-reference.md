@@ -16,7 +16,9 @@ manager: "anneta"
 ---
 # Microsoft.BizTalk.GlobalPropertySchemas Reference
 The **Microsoft.BizTalk.GlobalPropertySchemas** namespace contains property schemas for the properties that various BizTalk Server components use. This namespace contains system properties that the BizTalk engine uses, transport specific properties that each transport uses for handling the configuration, and properties for configuring pipeline components.  
-  
+
+## Namespace schemas  
+
  The following table shows the global property schemas included in the **Microsoft.BizTalk.GlobalPropertySchemas** namespace.  
   
 |Property schema|Feature area and description|  

@@ -8,24 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Allow Unrecognized Messages property"
-  - "http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties namespace"
-  - "ProcessingInstructionOption property"
-  - "PromotePropertiesOnly property"
-  - "DocumentSpecName property"
-  - "pipeline components, Flat File Assembler"
-  - "Add XML declaration property"
-  - "SourceCharset property"
-  - "FlatFileHeaderDocument property"
-  - "Flat File Disassembler [pipeline component], properties"
-  - "TrailerSpecName property"
-  - "Flat File Assembler [pipeline component], properties"
-  - "ProcessingInstruction property"
-  - "pipeline components, Flat File Disassembler"
-  - "Target Charset property"
-  - "HeaderSpecName property"
-  - "Envelope Specification Names property"
 ms.assetid: 1d917b82-62c6-489f-99a9-97e429b6f7c0
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -34,6 +16,8 @@ manager: "anneta"
 ---
 # XML and Flat File Property Schema and Properties
 The **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** namespace contains properties you can use to configure Flat File Assembler and Flat File Disassembler pipeline components. The properties are described in the following table.  
+
+## Properties list
   
 |Property|Type|Description|  
 |--------------|----------|-----------------|  
@@ -51,9 +35,9 @@ The **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** namespace c
 |**PromotePropertiesOnly**|xs:boolean|When set to **True**, the XML Disassembler component does not remove a message envelope or disassemble it. Only property promotion is performed.|  
   
 ## See Also  
- [How to Configure the Flat File Assembler Pipeline Component](../core/how-to-configure-the-flat-file-assembler-pipeline-component.md)   
- [How to Configure the Flat File Disassembler Pipeline Component](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
- [How to Configure the XML Assembler Pipeline Component](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
- [How to Configure the XML Disassembler Pipeline Component](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
- [Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md)   
- **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  [Configure the Flat File Assembler Pipeline Component](../core/how-to-configure-the-flat-file-assembler-pipeline-component.md)   
+-  [Configure the Flat File Disassembler Pipeline Component](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
+-  [Configure the XML Assembler Pipeline Component](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
+-  [Configure the XML Disassembler Pipeline Component](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
+-  [Configure Native Pipeline Components](../core/configuring-native-pipeline-components.md)   
+-  **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
