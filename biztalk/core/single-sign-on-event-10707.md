@@ -37,8 +37,8 @@ manager: "anneta"
   
 -   Use the SSO Admin MMC Snap-In (System &#124; Properties &#124; Options) or command line tool  `ssomanage –enable winsync/extsync` to enable the global flags.  
   
- For more information, see the following resources:  
+## More info
   
--   [Enterprise Single Sign-On Flags](../core/enterprise-single-sign-on-flags.md)  
+-   **Enterprise Single Sign-On Flags** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
   
 -   [How to Administer Password Synchronization](../core/how-to-administer-password-synchronization.md)

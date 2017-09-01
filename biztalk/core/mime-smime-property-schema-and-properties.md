@@ -8,13 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, headers"
-  - "pipeline components, MIME/SMIME Encoder"
-  - "MIME/SMIME Encoder [pipeline component], properties"
-  - "http://schemas.microsoft.com/BizTalk/2003/mime-properties namespace"
-  - "messages, MIME/SMIME headers"
-  - "System namespace"
 ms.assetid: 26dd25b9-7eb8-4354-9929-dc1985dd1d77
 caps.latest.revision: 6
 author: "MandiOhlinger"
@@ -22,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # MIME-SMIME Property Schema and Properties
+
+## Namespace properties
 The **http://schemas.microsoft.com/BizTalk/2003/mime-properties** namespace contains properties you can use to set message and part context properties for the MIME/SMIME Encoder pipeline component. The MIME/SMIME Encoder uses these properties to generate the appropriate MIME/SMIME headers in the message that is created. The following table describes the MIME/SMIME properties.  
   
 |Property|Scope|Type|Description|  
@@ -45,4 +40,4 @@ The **http://schemas.microsoft.com/BizTalk/2003/mime-properties** namespace cont
  [How to Configure the MIME-SMIME Encoder Pipeline Component](../core/how-to-configure-the-mime-smime-encoder-pipeline-component.md)   
  [Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md)   
  [MIME (BizTalk Server Sample)](../core/mime-biztalk-server-sample.md)   
- [Message Context Properties](../core/message-context-properties1.md)
+ **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

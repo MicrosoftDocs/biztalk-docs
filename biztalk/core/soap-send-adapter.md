@@ -8,22 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP adapters, code samples"
-  - "NACK messages, subscribing"
-  - "SOAP adapters, authenticating"
-  - "SOAP adapters, certificates"
-  - "errors, SOAP adapters"
-  - "authenticating, SOAP adapters"
-  - "send adapters, SOAP adapters"
-  - "code samples, SOAP adapters"
-  - "SOAP adapters, NACK messages"
-  - "certificates, SOAP adapters"
-  - "NACK messages, SOAP adapters"
-  - "SOAP adapters, send adapters"
-  - "SOAP adapters, acknowledgements"
-  - "SOAP adapters, errors"
-  - "acknowledgements, SOAP adapters"
 ms.assetid: 4d65218d-516b-4e45-a824-272ef6ef298c
 caps.latest.revision: 12
 author: "MandiOhlinger"
@@ -90,7 +74,7 @@ You use the SOAP send adapter to call a Web service. The SOAP send adapter reads
   
  To subscribe to a NACK message, you can do one of the following:  
   
-1.  Create a send port with a filter for the appropriate message context property. See [Message Context Properties](../core/message-context-properties1.md) for a listing of system message context properties including those related to message acknowledgment.  
+1.  Create a send port with a filter for the appropriate message context property. See **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)] for a listing of system message context properties including those related to message acknowledgment.  
   
 2.  Send from an orchestration port marked with **Delivery Notification = Transmitted**. If an orchestration port is marked with **Delivery Notification = Transmitted**, the orchestration will wait until it receives either an ACK or a NACK for the message that was transmitted. If a NACK is generated then it will be routed to the orchestration and the orchestration will throw a DeliveryFailureException. The DeliveryFailureException is deserialized from the SOAP fault that is contained within the NACK message body. To retrieve the exception message string from the SOAP fault that is returned to the orchestration, cast the DeliveryFailureException to a SoapException and then access the InnerXml from the SOAP Detail section. The following code sample demonstrates how to do this:  
   

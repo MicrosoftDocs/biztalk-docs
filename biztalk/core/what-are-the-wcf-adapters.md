@@ -8,29 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WS-Addressing"
-  - "Web services, WCF adapters"
-  - "extensions, WCF adapters"
-  - "Remote Procedure Call (RPC)-style"
-  - "WCF adapters, WS* standards"
-  - "WS-AtomicTransaction"
-  - "WCF adapters, security"
-  - "WCF adapters, transactions"
-  - "WCF adapters, RPC-style Web services"
-  - "WS* standards"
-  - "WS-Security"
-  - "bindings, WCF adapters"
-  - "WCF adapters, about WCF adapters"
-  - "Web services, RPC-style"
-  - "WCF adapters, Single Sign-On"
-  - "service authentication types"
-  - "customizing, bindings [WCF adapters]"
-  - "security, security modes [WCF adapters]"
-  - "bindings, customizing"
-  - "Single Sign-On, WCF adapters"
-  - "transactions, WCF adapters"
-  - "WCF adapters, extensions"
 ms.assetid: 18ca8535-3386-4018-8b5b-d32bdb9ebf70
 caps.latest.revision: 12
 author: "MandiOhlinger"
@@ -155,5 +132,5 @@ There are two Windows Communication Foundation (WCF) adapters—a receive adapte
 -   [WCF Send Adapter](../core/wcf-send-adapter.md)  
   
 ## See Also  
- [WCF Adapters](../core/wcf-adapters.md)   
- [WCF Adapters Service Contract Reference](../core/wcf-adapters-service-contract-reference.md)
+-  [WCF Adapters](../core/wcf-adapters.md)   
+-  **WCF Adapters Service Contract Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

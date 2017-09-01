@@ -230,7 +230,7 @@ public static PendingTransactionsResponse GetPendingTransactionsResponse(XLANGMe
   
  The method begins by retrieving configuration information, including the URL, for the back-end system and the name of the backend (affiliate) application.  
   
- To redeem the ticket, the method must extract the ticket and original requesting user name from the message. The message contains the ticket as one of the message context properties, **BTS.SSOTicket**. For more information about message context properties, see [Message Context Properties](../core/message-context-properties1.md). The method also extracts the **OriginatorSID** from the message context properties. With the ticket and the originator's name in hand, the method calls the RedeemTicket method on the ticket to retrieve the credentials.  
+ To redeem the ticket, the method must extract the ticket and original requesting user name from the message. The message contains the ticket as one of the message context properties, **BTS.SSOTicket**. For more information, see **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. The method also extracts the **OriginatorSID** from the message context properties. With the ticket and the originator's name in hand, the method calls the RedeemTicket method on the ticket to retrieve the credentials.  
   
  The remainder of the code creates a .NET NetworkCredential cache for the credentials and calls the back-end Web service.  
   
