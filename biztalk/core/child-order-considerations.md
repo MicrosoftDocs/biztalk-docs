@@ -15,7 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Child Order Considerations
-There are two scenarios related to delimited flat files for which special considerations apply when setting the [Child Order](../core/child-order-node-property-of-flat-file-schemas.md) property. The first such scenario concerns situations in which the flat file document has a header, a body, and optionally, a trailer. In these scenarios, you must observe the following requirements:  
+
+## Requirements for header in a flat file
+There are two scenarios related to delimited flat files for which special considerations apply when setting the **Child Order** property. The first such scenario concerns situations in which the flat file document has a header, a body, and optionally, a trailer. In these scenarios, you must observe the following requirements:  
   
 -   You must set the **Child Order** property of the (delimited) root record of the header to **Postfix**.  
   
@@ -36,5 +38,5 @@ There are two scenarios related to delimited flat files for which special consid
  Consider a message containing a root node and only one group node. It is easy to see where the last delimiter in the input stream would belong to the root node. Therefore, the data/delimiter sequence in the conceptual loop would merely be one or more line item records. Only in the case where there are more than one line item records would there be a delimiter to separate them. In that case, the number of delimiters is one less than the sets of things being delimited, and the delimiters are located between the delimited items in a structure known as Infix.  
   
 ## See Also  
- [Delimited Record Considerations](../core/delimited-record-considerations.md)   
- [Child Order (Node Property of Flat File Schemas)](../core/child-order-node-property-of-flat-file-schemas.md)
+-  [Delimited Record Considerations](../core/delimited-record-considerations.md)   
+-  **Child Order (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

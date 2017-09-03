@@ -15,7 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Delimiter Preservation and Suppression
-There are two properties that apply to delimited records, [Preserve Delimiter For Empty Data](../core/preserve-delimiter-for-empty-data-node-property-of-flat-file-schemas.md) and [Suppress Trailing Delimiters](../core/suppress-trailing-delimiters-node-property-of-flat-file-schemas.md), that you can use to control how the flat file assembler handles delimiters associated with nonexistent data and trailing delimiters. When you set the **Preserve Delimiter For Empty Data** property to **Yes** (which is the default setting), delimiters are included in the translated flat file message for:  
+
+## Overview
+There are two properties that apply to delimited records: **Preserve Delimiter For Empty Data** and **[Suppress Trailing Delimiters**. Use these properties to control how the flat file assembler handles delimiters associated with nonexistent data and trailing delimiters. When you set the **Preserve Delimiter For Empty Data** property to **Yes** (which is the default setting), delimiters are included in the translated flat file message for:  
   
 -   Fields without data.  
   
@@ -24,7 +26,8 @@ There are two properties that apply to delimited records, [Preserve Delimiter Fo
  When you set the **Preserve Delimiter For Empty Data** property to **No**, delimiters are not included in the translated flat file for records and fields without data. Further, regardless of the setting of the **Preserve Delimiter For Empty Data** property, delimiters will not be included in the translated flat file message for immediately subordinate records without data for which a tag is defined.  
   
  When you set the **Suppress Trailing Delimiters** property to **No** (which is the default setting), one or more trailing delimiters may be included in the translated flat file message. When you set the **Suppress Trailing Delimiters** property to **Yes**, trailing delimiters are not included in the translated flat file message.  
-  
+
+## Special scenarios  
  There are some special cases where the behaviors caused by the settings of the **Preserve Delimiter For Empty Data** and **Suppress Trailing Delimiters** properties can conflict. In such cases, the behaviors associated with the latter property, **Suppress Trailing Delimiters**, will take precedence. Further, there are some special cases where you will be warned about potential conflicts between the settings you have chosen for these two properties.  
   
  For example, consider a **Record** node defined with the following property values:  
@@ -65,7 +68,7 @@ There are two properties that apply to delimited records, [Preserve Delimiter Fo
  The following table shows the output produced, and the associated additional property setting requirements for the relevant schema nodes, based on different settings for the **Preserve Delimiter For Empty Data** (PDFED) and **Suppress Trailing Delimiters** (STD) properties.  
   
 |PDFED setting|STD setting|Output|Additional node requirements|  
-|-------------------|-----------------|------------|----------------------------------|  
+|---|---|---|---|  
 |Yes|No|Rec,,,Val,,|None.|  
 |No|Yes|Rec,Val|All **Field Element** nodes must be configured as optional.|  
 |Yes|Yes|Rec,,,Val|Nodes named **FieldElem4** and **FieldElem5** must be configured as optional.|  
@@ -104,6 +107,5 @@ There are two properties that apply to delimited records, [Preserve Delimiter Fo
 ```  
   
 ## See Also  
- [Delimited Record Considerations](../core/delimited-record-considerations.md)   
- [Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)](../core/preserve-delimiter-for-empty-data-node-property-of-flat-file-schemas.md)   
- [Suppress Trailing Delimiters (Node Property of Flat File Schemas)](../core/suppress-trailing-delimiters-node-property-of-flat-file-schemas.md)
+-  [Delimited Record Considerations](../core/delimited-record-considerations.md)   
+-  **Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)** and **Suppress Trailing Delimiters (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

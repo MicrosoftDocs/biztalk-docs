@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "field element node properties [schemas]"
-  - "schema node types, field elements"
 ms.assetid: b844d4ca-99f5-4a37-a9c4-b50b6b3c397f
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -18,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Field Element Node Properties
+
+## Overview
 When you select a **Field Element** node in BizTalk Editor, you can examine and set its associated properties in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window. These properties are divided into the following categories:  
   
 -   **Advanced.** This category contains properties that correspond to XSD concepts that can be categorized as advanced, such as data type derivations.  
@@ -34,7 +33,8 @@ When you select a **Field Element** node in BizTalk Editor, you can examine and 
   
 > [!NOTE]
 >  Some **Field Element** node properties are automatically enabled or disabled, or shown or hidden, depending on the values of other node properties.  
-  
+
+## Field Element properties - all schemas  
  The following table shows the properties associated with **Field Element** nodes that are available in all schemas.  
   
 |Property name|Category|Description|  
@@ -69,7 +69,8 @@ When you select a **Field Element** node in BizTalk Editor, you can examine and 
 |[RootNode TypeName](../core/rootnode-typename-node-property-of-all-schemas.md)|Reference|Specifies the name that will be used when generating the .NET class name for the selected top-level **Field Element** root node.|  
   
  When you select a **Field Element** node in BizTalk Editor and you are editing a property schema, you can examine and set additional properties in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window. These properties are shown in the existing category **Reference**.  
-  
+
+## Field Element properties - flat file  
  The following table shows the supplemental properties that are available for **Field Element** nodes when editing a property schema.  
   
 |Property schema property name|Category|Description|  
@@ -83,16 +84,17 @@ When you select a **Field Element** node in BizTalk Editor, you can examine and 
   
 |Flat file property name|Category|Description|  
 |-----------------------------|--------------|-----------------|  
-|[Custom Date/Time Format](../core/custom-date-time-format-node-property-of-flat-file-schemas.md)|Flat File|Specifies the format for your custom date/time type when the selected **Field Element** node is set to one of the following XSD data types or a simple type derived from one of them: **Note:**  xs:date, xs:dateTime, xs:time, xs:gYearMonth, xs:gYear, xs:gMonthDay, xs:gDay, or xs:gMonth|  
-|[Justification](../core/justification-node-property-of-flat-file-schemas.md)|Flat File|Specifies the left or right justification of the contents of the field(s) that correspond to the selected **Field Element** node.|  
-|[Minimum Length with Pad Character](../core/minimum-length-with-pad-character-node-property-of-flat-file-schemas.md)|Flat File|Specifies how a serializer pads the data in instance messages that corresponds to the selected **Field Element** node.|  
-|[Pad Character](../core/pad-character-node-property-of-flat-file-schemas.md)|Flat File|Specifies the pad character to be used for data in instance messages that corresponds to the selected **Field Element** node.|  
-|[Pad Character Type](../core/pad-character-type-node-property-of-flat-file-schemas.md)|Flat File|Specifies how an alternative pad character will be expressed in the **Pad Character** property and in the underlying XSD representation.|  
-|[Positional Length](../core/positional-length-node-property-of-flat-file-schemas.md)|Reference|Specifies the length, from the previous sibling or delimiter, of the field in instance messages that corresponds to the selected **Field Element** node.|  
-|[Positional Offset](../core/positional-offset-node-property-of-flat-file-schemas.md)|Reference|Specifies the starting offset, relative to the previous sibling or delimiter, of the field in instance messages that corresponds to the selected **Field Element** node.|  
-|[Wrap Character](../core/wrap-character-node-property-of-flat-file-schemas.md)|Flat File|Specifies a character to be used as the wrap character for the field(s) in an instance message that corresponds to the selected **Field Element** node.<br /><br /> Wrap characters cause the characters that occur between them to be interpreted as simple data, and not have the special meaning otherwise associated with it.|  
-|[Wrap Character Type](../core/wrap-character-type-node-property-of-flat-file-schemas.md)|Flat File|Specifies how an alternative wrap character will be expressed in the **Wrap Character** property and in the underlying XSD representation.|  
+|Custom Date/Time Format|Flat File|Specifies the format for your custom date/time type when the selected **Field Element** node is set to one of the following XSD data types or a simple type derived from one of them: **Note:**  xs:date, xs:dateTime, xs:time, xs:gYearMonth, xs:gYear, xs:gMonthDay, xs:gDay, or xs:gMonth|  
+|Justification|Flat File|Specifies the left or right justification of the contents of the field(s) that correspond to the selected **Field Element** node.|  
+|Minimum Length with Pad Character|Flat File|Specifies how a serializer pads the data in instance messages that corresponds to the selected **Field Element** node.|  
+|Pad Character|Flat File|Specifies the pad character to be used for data in instance messages that corresponds to the selected **Field Element** node.|  
+|Pad Character Type|Flat File|Specifies how an alternative pad character will be expressed in the **Pad Character** property and in the underlying XSD representation.|  
+|Positional Length|Reference|Specifies the length, from the previous sibling or delimiter, of the field in instance messages that corresponds to the selected **Field Element** node.|  
+|Positional Offset|Reference|Specifies the starting offset, relative to the previous sibling or delimiter, of the field in instance messages that corresponds to the selected **Field Element** node.|  
+|Wrap Character|Flat File|Specifies a character to be used as the wrap character for the field(s) in an instance message that corresponds to the selected **Field Element** node.<br /><br /> Wrap characters cause the characters that occur between them to be interpreted as simple data, and not have the special meaning otherwise associated with it.|  
+|Wrap Character Type|Flat File|Specifies how an alternative wrap character will be expressed in the **Wrap Character** property and in the underlying XSD representation.|  
+
+More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## See Also  
- [Node Properties - By Node Type](../core/node-properties-by-node-type.md)   
- [Node Properties - Alphabetical Listings](../core/node-properties-alphabetical-listings.md)
+ **Node Properties - By Node Type** and **Node Properties - Alphabetical Listings** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

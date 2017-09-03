@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Additional Flat File Properties
+
+## Hidden properties
 The following table lists additional flat file node properties that do not appear in the Schema Editor. Using these properties requires hand editing the schema file in a text editor.  
   
 |Property|Values|Default Value|Description|  
@@ -31,5 +33,5 @@ The following table lists additional flat file node properties that do not appea
  When **parser_optimization** is set to **complexity**, you may have validation failures against a schema when there are many optional nodes in the same group or record. You may need to set **lookahead_depth** to zero (0) to avoid validation errors.  
   
 ## See Also  
- [Node Properties](../core/node-properties.md)   
- [Supplemental Node Properties for Flat File Schemas](../core/supplemental-node-properties-for-flat-file-schemas.md)
+-  [Node Properties](../core/node-properties.md)   
+-  **Supplemental Node Properties for Flat File Schemas** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

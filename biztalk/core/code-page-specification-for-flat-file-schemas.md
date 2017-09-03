@@ -15,10 +15,13 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Code Page Specification for Flat File Schemas
-The value in the [Code Page](../core/code-page-node-property-of-flat-file-schemas.md) property is used to create an encoding object that is used during the disassembly and assembly of flat file documents. This encoding object allows the flat file parser to convert the native encoding of an inbound flat file document into the normalized UTF-8 encoding that is used internally by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The encoding object also allows the flat file serializer to convert the internal UTF-8 encoding back into the native encoding of the flat file document.  
+
+## Overview
+The value in the **Code Page** property is used to create an encoding object that is used during the disassembly and assembly of flat file documents. This encoding object allows the flat file parser to convert the native encoding of an inbound flat file document into the normalized UTF-8 encoding that is used internally by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The encoding object also allows the flat file serializer to convert the internal UTF-8 encoding back into the native encoding of the flat file document.  
   
  The setting of the **Code Page** property plays an important, but not exclusive, role in determining the character encoding scheme used by your flat file business documents. You must consider how inbound flat file messages are interpreted by the flat file disassembler as well as how the flat file assembler will encode characters as outbound messages are translated into flat file format.  
-  
+
+## Character encoding  
  There are multiple factors that play a role in determining how character encoding for a given instance message is handled, as follows:  
   
 -   When disassembling a flat file instance message, the following algorithm is used to determine and preserve encoding information:  
@@ -44,5 +47,4 @@ The value in the [Code Page](../core/code-page-node-property-of-flat-file-schema
     2.  Otherwise, use UTF-8.  
   
 ## See Also  
- [Considerations When Creating Flat File Message Schemas](../core/considerations-when-creating-flat-file-message-schemas.md)   
- [Code Page (Node Property of Flat File Schemas)](../core/code-page-node-property-of-flat-file-schemas.md)
+ **Considerations When Creating Flat File Message Schemas** and **Code Page (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
