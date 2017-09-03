@@ -15,7 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Custom Date-Time Formats
-Due to their legacy origins, the flat file formats for which you create flat file schemas are bound to use date and time formats that do not conform to ISO 8601 formats. Therefore, when you are creating a flat file schema and you set the [Data Type](../core/data-type-node-property-of-all-schemas.md) property of a **Field Element** or **Field Attribute** node to one of the XML Schema definition (XSD) language primitive data types, **xs:dateTime**, **xs:time**, or **xs:date**, you can use the [Custom Date/Time Format](../core/custom-date-time-format-node-property-of-flat-file-schemas.md) property to specify an alternative format for date or time values.  
+
+## Overview
+Due to their legacy origins, the flat file formats for which you create flat file schemas are bound to use date and time formats that do not conform to ISO 8601 formats. Therefore, when you are creating a flat file schema and you set the [Data Type](../core/data-type-node-property-of-all-schemas.md) property of a **Field Element** or **Field Attribute** node to one of the XML Schema definition (XSD) language primitive data types, **xs:dateTime**, **xs:time**, or **xs:date**, you can use the **Custom Date/Time Format** property to specify an alternative format for date or time values.  
   
 > [!NOTE]
 >  Storage in the message box truncates time values in **xs:dateTime** and **xs:time** elements below the millisecond level. A similar loss of precision may occur when converting to .NET date/time data types.  
@@ -28,6 +30,6 @@ Due to their legacy origins, the flat file formats for which you create flat fil
  You can configure the **Custom Date/Time Format** property with almost any time and date format, except for Julian dates. The drop-down list provides various choices, but you can also type a different format of your choosing. The date and time formats use the Common Language Runtime (CLR) **DateTime** facilities. The exception is that a single character d, m, or M is automatically prepended with a percent sign (%) to yield the corresponding single element of the DateTime value. The allowable separators for custom date/time formats are dash (-), slash (/), and period (.). For more information about **DateTime** formats, search on "DateTimeFormatInfo" in the Visual Studio document collection.  
   
 ## See Also  
- [Field Considerations](../core/field-considerations.md)   
- [Data Type (Node Property of All Schemas)](../core/data-type-node-property-of-all-schemas.md)   
- [Custom Date-Time Format (Node Property of Flat File Schemas)](../core/custom-date-time-format-node-property-of-flat-file-schemas.md)
+-  [Field Considerations](../core/field-considerations.md)   
+-  [Data Type (Node Property of All Schemas)](../core/data-type-node-property-of-all-schemas.md)   
+-  **Custom Date-Time Format (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

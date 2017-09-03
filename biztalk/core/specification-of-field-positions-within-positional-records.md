@@ -17,10 +17,12 @@ manager: "anneta"
 # Specification of Field Positions within Positional Records
 To define a positional record, you must provide information about the positions and lengths of the fields within that record. If the record contains subrecords, the positions and lengths of the fields in the subrecord are rolled up to contribute to the information about the containing record.  
   
- The sum of the values you specify for the [Positional Offset](../core/positional-offset-node-property-of-flat-file-schemas.md) and [Positional Length](../core/positional-length-node-property-of-flat-file-schemas.md) properties for a particular **Field Element** or **Field Attribute** node determines the number of characters dedicated to the corresponding field. The series of these sums across all of the fields in the record and any of its subrecords determine the boundaries of the fields in the records.  
+ The sum of the values you specify for the **Positional Offset** and **Positional Length** properties for a particular **Field Element** or **Field Attribute** node determines the number of characters dedicated to the corresponding field. The series of these sums across all of the fields in the record and any of its subrecords determine the boundaries of the fields in the records.  
   
 > [!NOTE]
->  When the [Count Positions In Bytes](../core/count-positions-in-bytes-node-property-of-flat-file-schemas.md) property of the **Schema** node is set to **Yes**, the **Positional Length** and **Position Offset** properties specify bytes rather than characters.  
+>  When the **Count Positions In Bytes** property of the **Schema** node is set to **Yes**, the **Positional Length** and **Position Offset** properties specify bytes rather than characters.  
+
+See more details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Positional Offset property  
  When the flat file disassembler is converting a flat file instance message into an equivalent XML instance message, the value you specify for the **Positional Offset** property defines a number of characters (or bytes) that are ignored and skipped over at that position in the instance message. In other words, any information occurring at that starting position and length (the latter as specified by the **Positional Offset** property) in the flat file instance message will not be copied into the XML version of the message.  
@@ -30,7 +32,7 @@ To define a positional record, you must provide information about the positions 
  The **Positional Offset** property provides flexibility for interpreting the contents of positional records. Essentially, this property allows you to ignore any fixed length data that precedes the field for which it is set to a nonzero value. That fixed length data might be one or more entire fields of data or some type of constant data, such as a tag associated with the field, that does not need to be included in the XML equivalent of the flat file instance message. For more information, see the example that follows.  
   
 ## Positional Length property  
- When the flat file disassembler is converting a flat file instance message into an equivalent XML instance message, the value you specify for the **Positional Length** property defines the number of characters (or bytes) that are associated with the field at that position in the instance message. The information occurring at that starting position and length in the flat file instance message constitutes the data in the field, subject to the additional information provided by the associated [Justification](../core/justification-node-property-of-flat-file-schemas.md) and [Pad Character](../core/pad-character-node-property-of-flat-file-schemas.md) properties. For more conceptual information about justification and field padding, see [Field Justification](../core/field-justification.md) and [Field Padding](../core/field-padding.md).  
+ When the flat file disassembler is converting a flat file instance message into an equivalent XML instance message, the value you specify for the **Positional Length** property defines the number of characters (or bytes) that are associated with the field at that position in the instance message. The information occurring at that starting position and length in the flat file instance message constitutes the data in the field, subject to the additional information provided by the associated **Justification** and **Pad Character** properties. For more conceptual information about justification and field padding, see [Field Justification](../core/field-justification.md) and [Field Padding](../core/field-padding.md).  
   
  When the flat file assembler is converting an XML instance message into an equivalent flat file instance message, the value you specify for the **Positional Length** property defines a number of characters (or bytes) available for writing the data associated with that field. If there are fewer data characters than the specified length of the field, the relevant pad character is used to fill up the difference. If there are more data characters than the specified length of the field, the beginning or end of the data is truncated based on the setting of the **Justification** property and not included in the flat file instance message being constructed.  
   
@@ -83,11 +85,12 @@ abc   **12  5678**      here
 ```  
   
 ## See Also  
- [Field Considerations](../core/field-considerations.md)   
- [Count Positions In Bytes (Node Property of Flat File Schemas)](../core/count-positions-in-bytes-node-property-of-flat-file-schemas.md)   
- [Field Justification](../core/field-justification.md)   
- [Field Padding](../core/field-padding.md)   
- [Justification (Node Property of Flat File Schemas)](../core/justification-node-property-of-flat-file-schemas.md)   
- [Pad Character (Node Property of Flat File Schemas)](../core/pad-character-node-property-of-flat-file-schemas.md)   
- [Positional Offset (Node Property of Flat File Schemas)](../core/positional-offset-node-property-of-flat-file-schemas.md)   
- [Positional Length (Node Property of Flat File Schemas)](../core/positional-length-node-property-of-flat-file-schemas.md)
+-  [Field Considerations](../core/field-considerations.md)    
+-  [Field Justification](../core/field-justification.md)   
+-  [Field Padding](../core/field-padding.md)   
+- More info on the following properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]:  
+    - Count Positions In Bytes (Node Property of Flat File Schemas)  
+    - Justification (Node Property of Flat File Schemas)  
+    - Pad Character (Node Property of Flat File Schemas) 
+    - Positional Offset (Node Property of Flat File Schemas)
+    - Positional Length (Node Property of Flat File Schemas)

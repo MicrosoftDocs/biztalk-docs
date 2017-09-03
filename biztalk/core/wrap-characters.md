@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Wrap Characters
+
+## Overview
 A wrap character is a single character that is used to wrap the data characters in a field for the purpose of suppressing any special meaning that any of those data characters would otherwise have. For example, if you define a flat file record as having the following characteristics:  
   
 -   Name = Record1  
@@ -38,7 +40,7 @@ RECORD1#field1#,#field2#,#field3#
   
 ```  
   
- The data will be disassembled into the following fragment of XML.  
+ The data is disassembled into the following fragment of XML.  
   
 ```  
 <Record1>  
@@ -51,7 +53,7 @@ RECORD1#field1#,#field2#,#field3#
   
  Note that the wrap characters (#) surrounding the bolded data characters field1, field2, and field3 have been removed.  
   
- When the flat file assembler performs the reverse operation, converting the XML version of the record to its equivalent flat file record, the wrap characters will be inserted before and after the data characters of each of the fields, yielding the original sequence of flat file characters.  
+ When the flat file assembler performs the reverse operation, converting the XML version of the record to its equivalent flat file record, the wrap characters are inserted before and after the data characters of each of the fields, yielding the original sequence of flat file characters.  
   
  The defined escape character can be used in conjunction with the defined wrap character. For example, suppose the value of Field1 is changed as follows (shown in bold type).  
   
@@ -71,11 +73,12 @@ RECORD1#field1#,#field2#,#field3#
   
 ```  
   
- When creating a flat file schema using BizTalk Editor, you can define a default wrap character for the entire schema using the [Default Wrap Character](../core/default-wrap-character-node-property-of-flat-file-schemas.md) and [Default Wrap Character Type](../core/default-wrap-character-type-node-property-of-flat-file-schemas.md) properties of the **Schema** node. Then, you can configure each individual field in the schema to either use this default wrap character or a custom, field-specific wrap character using the [Wrap Character](../core/wrap-character-node-property-of-flat-file-schemas.md) and [Wrap Character Type](../core/wrap-character-type-node-property-of-flat-file-schemas.md) properties of the **Field Element** or **Field Attribute** nodes.  
+ When creating a flat file schema using BizTalk Editor, you can define a default wrap character for the entire schema using the **Default Wrap Character** and **Default Wrap Character Type** properties of the **Schema** node. Then, you can configure each individual field in the schema to either use this default wrap character or a custom, field-specific wrap character using the **Wrap Character** and **Wrap Character Type** properties of the **Field Element** or **Field Attribute** nodes in flat file schemas.
   
 ## See Also  
- [Ways to Interpret Special Characters as Part of a Field Value](../core/ways-to-interpret-special-characters-as-part-of-a-field-value.md)   
- [Default Wrap Character (Node Property of Flat File Schemas)](../core/default-wrap-character-node-property-of-flat-file-schemas.md)   
- [Default Wrap Character Type (Node Property of Flat File Schemas)](../core/default-wrap-character-type-node-property-of-flat-file-schemas.md)   
- [Wrap Character (Node Property of Flat File Schemas)](../core/wrap-character-node-property-of-flat-file-schemas.md)   
- [Wrap Character Type (Node Property of Flat File Schemas)](../core/wrap-character-type-node-property-of-flat-file-schemas.md)
+- [Ways to Interpret Special Characters as Part of a Field Value](../core/ways-to-interpret-special-characters-as-part-of-a-field-value.md)  
+- Wrap character properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]:  
+    -  Default Wrap Character (Node Property of Flat File Schemas
+    -  Default Wrap Character Type (Node Property of Flat File Schemas
+    -  Wrap Character (Node Property of Flat File Schemas  
+    -  Wrap Character Type (Node Property of Flat File Schemas

@@ -8,8 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "schemas, properties"
 ms.assetid: 54f5f1c6-c672-4278-8df5-1c534eb5006d
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -24,7 +22,3 @@ Inserting a schema node of any type into a particular position within a schema h
 ## In This Section  
   
 -   [Node Properties of All Schemas](../core/node-properties-of-all-schemas.md)  
-  
--   [Supplemental Node Properties for Property Schemas](../core/supplemental-node-properties-for-property-schemas.md)  
-  
--   [Supplemental Node Properties for Flat File Schemas](../core/supplemental-node-properties-for-flat-file-schemas.md)

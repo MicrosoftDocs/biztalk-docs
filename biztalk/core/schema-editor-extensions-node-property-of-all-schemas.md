@@ -8,8 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Schema Editor Extensions property [schemas]"
 ms.assetid: 2fd636b1-903b-44c5-8808-3ca5e6b0de1f
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -47,7 +45,7 @@ Use the **Schema Editor Extensions** property to select editor extensions to be 
   
  You can select schema editor extensions by clicking the ellipsis (**...**) button located to the right of the **Schema Editor Extensions** property value field to open the **Schema Editor Extensions** dialog box. In this dialog box, you can select the check boxes for the schema editor extensions that you want to enable.  
   
- To be able to develop schemas for flat files, you must use this property to include the **Flat File Extension**. This extension adds its own set of node properties, which are stored as annotations with the XSD representation of the schema. For more information, see [Supplemental Node Properties for Flat File Schemas](../core/supplemental-node-properties-for-flat-file-schemas.md).  
+ To be able to develop schemas for flat files, you must use this property to include the **Flat File Extension**. This extension adds its own set of node properties, which are stored as annotations with the XSD representation of the schema. For more information, see **Supplemental Node Properties for Flat File Schemas** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 > [!NOTE]
 >  More than one schema extension can be chosen at a time. The same schema can represent both a flat file as well as, for example, an EDI schema. In such cases, the [Standard](../core/standard-node-property-of-all-schemas.md) property of the **Schema** node, which is generally set to a value that indicates the extension in use, should be set to the most active extension. The **Standard** property is used by BizTalk Editor to drive the functions that validate schemas and instance messages, and generate instance messages.  

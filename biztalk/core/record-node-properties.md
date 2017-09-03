@@ -8,10 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "schema node types, records"
-  - "record node properties [schemas]"
-  - "Flat File Extension, properties"
 ms.assetid: 61d5b2f6-b600-437a-8031-f66d05f131d4
 caps.latest.revision: 13
 author: "MandiOhlinger"
@@ -19,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Record Node Properties
+
+## Overview
 When you select a **Record** node in BizTalk Editor, you can examine and set its associated properties in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window. These properties are divided into the following categories:  
   
 -   **Advanced.** This category contains properties that correspond to XSD concepts that can be categorized as advanced, such as data type derivations.  
@@ -31,11 +29,12 @@ When you select a **Record** node in BizTalk Editor, you can examine and set its
   
  When you insert a **Record** node, the name of the node as displayed in the schema tree, and which corresponds to its **Node Name** property, is immediately made available for editing within the schema tree. Your choice of a name for this node is particularly important because it defines the name of the corresponding XML element in the instance messages that this schema defines.  
   
- Many of the properties associated with **Record** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).  
+ Many of the properties associated with **Record** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs. For links to information about XSD concepts and specifications, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).  
   
 > [!NOTE]
 >  Some **Record** node properties are automatically enabled or disabled, or shown or hidden, depending on the values of other node properties.  
-  
+
+##  Record nodes properties - all schemas
  The following table shows the properties associated with **Record** nodes that are available in all schemas.  
   
 |Property name|Category|Description|  
@@ -62,24 +61,26 @@ When you select a **Record** node in BizTalk Editor, you can examine and set its
 |[RootNode TypeName](../core/rootnode-typename-node-property-of-all-schemas.md)|Reference|Specifies the name that will be used when generating the .NET class name for the selected top-level **Record** root node.|  
   
  When you select a **Record** node in BizTalk Editor and you have enabled the **Flat File Extension** using the [Schema Editor Extensions](../core/schema-editor-extensions-node-property-of-all-schemas.md) property, you can examine and set additional properties in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window. These properties belong to the **Flat File** category and contain those properties related to parsing flat files in equivalent XML files and serializing XML files back into flat files.  
-  
+
+##  Record nodes properties - flat file  
  The following table shows the supplemental properties that are available for **Record** nodes when the **Flat File Extension** is enabled.  
   
 |Flat file property name|Category|Description|  
 |-----------------------------|--------------|-----------------|  
-|[Child Delimiter](../core/child-delimiter-node-property-of-flat-file-schemas.md)|Flat File|Specifies the string used to delimit fields and subordinate records in the record(s) in an instance message that corresponds to the selected **Record** node.|  
-|[Child Delimiter Type](../core/child-delimiter-type-node-property-of-flat-file-schemas.md)|Flat File|Specifies how an alternative child delimiter string will be expressed in the **Child Delimiter** property and in the underlying XSD representation.|  
-|[Child Order](../core/child-order-node-property-of-flat-file-schemas.md)|Flat File|Specifies the relationship between delimiters and the data they delimit.|  
-|[Escape Character](../core/escape-character-node-property-of-flat-file-schemas.md)|Flat File|Specifies a character to be used as the escape character for the record(s) in an instance message that corresponds to the selected **Record** node.<br /><br /> An escape character causes the following character to be interpreted as simple data, and to not have the special meaning otherwise associated with it.|  
-|[Escape Character Type](../core/escape-character-type-node-property-of-flat-file-schemas.md)|Flat File|Specifies how an alternative escape character will be expressed in the **Escape Character** property and in the underlying XSD representation.|  
-|[Preserve Delimiter For Empty Data](../core/preserve-delimiter-for-empty-data-node-property-of-flat-file-schemas.md)|Flat File|Specifies whether the record(s) in an instance message that corresponds to the selected **Record** node will have delimiters for empty fields and subordinate records.|  
-|[Repeating Delimiter](../core/repeating-delimiter-node-property-of-flat-file-schemas.md)|Flat File|Specifies the string used to delimit repeating fields and subordinate records in the record(s) in an instance message that corresponds to the selected **Record** node.|  
-|[Repeating Delimiter Type](../core/repeating-delimiter-type-node-property-of-flat-file-schemas.md)|Flat File|Specifies how an alternative repeating delimiter string will be expressed in the **Repeating Delimiter** property and in the underlying XSD representation.|  
-|[Structure](../core/structure-node-property-of-flat-file-schemas.md)|Flat File|Specifies whether the record(s) in an instance message that corresponds to the selected **Record** node is positional or delimited.|  
-|[Suppress Trailing Delimiters](../core/suppress-trailing-delimiters-node-property-of-flat-file-schemas.md)|Flat File|Specifies whether trailing delimiters will be suppressed when output instance messages are serialized.|  
-|[Tag Identifier](../core/tag-identifier-node-property-of-flat-file-schemas.md)|Flat File|Specifies an identifying tag for the record(s) in an instance message that corresponds to the selected **Record** node.|  
-|[Tag Offset](../core/tag-offset-node-property-of-flat-file-schemas.md)|Flat File|Specifies the starting offset of the tag, relative to the previous sibling or delimiter, for the record(s) in an instance message that corresponds to the selected **Record** node.|  
+|Child Delimiter|Flat File|Specifies the string used to delimit fields and subordinate records in the record(s) in an instance message that corresponds to the selected **Record** node.|  
+|Child Delimiter Type|Flat File|Specifies how an alternative child delimiter string will be expressed in the **Child Delimiter** property and in the underlying XSD representation.|  
+|Child Order|Flat File|Specifies the relationship between delimiters and the data they delimit.|  
+|Escape Character|Flat File|Specifies a character to be used as the escape character for the record(s) in an instance message that corresponds to the selected **Record** node.<br /><br /> An escape character causes the following character to be interpreted as simple data, and to not have the special meaning otherwise associated with it.|  
+|Escape Character Type|Flat File|Specifies how an alternative escape character will be expressed in the **Escape Character** property and in the underlying XSD representation.|  
+|Preserve Delimiter For Empty Data|Flat File|Specifies whether the record(s) in an instance message that corresponds to the selected **Record** node will have delimiters for empty fields and subordinate records.|  
+|Repeating Delimiter|Flat File|Specifies the string used to delimit repeating fields and subordinate records in the record(s) in an instance message that corresponds to the selected **Record** node.|  
+|Repeating Delimiter Type|Flat File|Specifies how an alternative repeating delimiter string will be expressed in the **Repeating Delimiter** property and in the underlying XSD representation.|  
+|Structure)|Flat File|Specifies whether the record(s) in an instance message that corresponds to the selected **Record** node is positional or delimited.|  
+|Suppress Trailing Delimiters)|Flat File|Specifies whether trailing delimiters will be suppressed when output instance messages are serialized.|  
+|Tag Identifier|Flat File|Specifies an identifying tag for the record(s) in an instance message that corresponds to the selected **Record** node.|  
+|Tag Offset|Flat File|Specifies the starting offset of the tag, relative to the previous sibling or delimiter, for the record(s) in an instance message that corresponds to the selected **Record** node.|  
+
+For more details on these properties, find them [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## See Also  
- [Node Properties - By Node Type](../core/node-properties-by-node-type.md)   
- [Node Properties - Alphabetical Listings](../core/node-properties-alphabetical-listings.md)
+ **Node Properties - By Node Type** and **Node Properties - Alphabetical Listings** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
