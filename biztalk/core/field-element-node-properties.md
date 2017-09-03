@@ -75,8 +75,10 @@ When you select a **Field Element** node in BizTalk Editor, you can examine and 
   
 |Property schema property name|Category|Description|  
 |-----------------------------------|--------------|-----------------|  
-|[Property Schema Base](../core/property-schema-base-node-property-of-property-schemas.md)|Reference|Specifies the origin of the data associated with the selected **Field Element** node.|  
-|[Sensitive Information](../core/sensitive-information-node-property-of-property-schemas.md)|Reference|Specifies whether the corresponding global context property will be treated as sensitive, restricting its visibility within other BizTalk Server components.|  
+|Property Schema Base|Reference|Specifies the origin of the data associated with the selected **Field Element** node.|  
+|Sensitive Information|Reference|Specifies whether the corresponding global context property will be treated as sensitive, restricting its visibility within other BizTalk Server components.|  
+
+More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  When you select a **Field Element** node in BizTalk Editor and you have enabled the **Flat File Extension** using the [Schema Editor Extensions](../core/schema-editor-extensions-node-property-of-all-schemas.md) property, you can examine and set additional properties in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window. These properties are divided into the existing category **Reference** andthe new category **Flat File**, the latter of which contains those properties related to parsing flat files in equivalent XML files and serializing XML files back into flat files.  
   
