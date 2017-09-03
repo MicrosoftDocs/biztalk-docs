@@ -24,5 +24,5 @@ This section contains the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
   
 -   [Schema Property Reference](../core/schema-property-reference.md)  
   
--   [Map Property Reference](../core/map-property-reference.md)  
+
   

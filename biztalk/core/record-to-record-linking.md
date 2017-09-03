@@ -8,13 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "links [maps], structure links"
-  - "Source Links property"
-  - "links [maps], name-matching links"
-  - "maps, links"
-  - "maps, link types"
-  - "links [maps], record-to-record links"
 ms.assetid: 9a3fa4d7-5689-4f55-af1b-369defa37037
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -22,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Record-to-Record Linking
+
+## Overview
 In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can use BizTalk Mapper to create multiple links between similar portions of the source and destination schemas at the same time. In previous versions of BizTalk Server, you had to create such links individually, one at a time. There are two distinct types of record-to-record linking, each appropriate to different scenarios based on the degree of similarity of the structures of the source and destination schema records being linked, as follows:  
   
 -   **Structure linking.** Use structure linking when the structure of the records being linked in your source and destination schemas are the same or very similar.  
@@ -38,7 +33,7 @@ In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
  If the structure of particular records in your schemas is exactly the same, you need only add one link between those records in each schema. In the shortcut menu, select the desired mode of linking.  
   
- For information about how to configure record-to-record linking as using either structure linking or name-matching linking, see [How to Link Records Automatically](../core/how-to-link-records-automatically.md).  
+ For information about how to configure record-to-record linking as using either structure linking or name-matching linking, see [Link Records Automatically](../core/how-to-link-records-automatically.md).  
   
 > [!NOTE]
 >  Structure links are the default type of record-to-record linking.  
@@ -48,9 +43,8 @@ In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
  To create a name-matching link between portions of your source and destination schemas that have nearly matching structures, including the entire schemas where applicable, create a link originating from a sub-hierarchy parent node and ending on another sub-hierarchy parent node. In the shortcut menu, select the desired mode. After you link the nodes, links are automatically created for all of the subordinate records and fields in the source and destination schemas that are named the same and have the same substructure.  
   
- For information about how to configure record-to-record linking as using either structure linking or name-matching linking, see [How to Link Records Automatically](../core/how-to-link-records-automatically.md).  
+ For information about how to configure record-to-record linking as using either structure linking or name-matching linking, see [Link Records Automatically](../core/how-to-link-records-automatically.md).  
   
 ## See Also  
- [How to Link Records Automatically](../core/how-to-link-records-automatically.md)   
- [Link Properties](../core/link-properties.md)   
- [How to Edit Link Properties](../core/how-to-edit-link-properties.md)
+ [Link Records Automatically](../core/how-to-link-records-automatically.md)   
+ [Edit Link Properties](../core/how-to-edit-link-properties.md)

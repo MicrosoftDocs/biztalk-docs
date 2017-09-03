@@ -8,10 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Looping functoids, catalogs"
-  - "Looping functoids, schemas"
-  - "maps, conditional looping"
 ms.assetid: a0e37afa-2329-4691-9fa1-82b8c7bcd59a
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -19,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Flat Schema to Catalog
+
+## Overview
 You can use the **Looping** functoid to convert a flat schema to an hierarchical schema by mapping a single record to multiple records. This is a common operation in converting flat schemas to Microsoft Commerce Server catalogs.  
   
  The following code shows a portion of a catalog listing product variants with each variant as its own record.  
@@ -49,10 +47,11 @@ You can use the **Looping** functoid to convert a flat schema to an hierarchical
   
  ![Map showing the use of the looping functoid.](../core/media/loopingflattenfunctoid.gif "loopingflattenfunctoid")  
 Looping Functoid, Flat Schema Map  
-  
+
+## Set the schema  
  For this type of map to work correctly, you must do the following:  
   
--   For each link connecting to the **Name** field in the destination schema, set the source-schema link properties to copy the name. For more information, see [Configuring Links](../core/configuring-links.md). Also see [Link Properties](../core/link-properties.md).  
+-   For each link connecting to the **Name** field in the destination schema, set the source-schema link properties to copy the name. For more information, see [Configuring Links](../core/configuring-links.md). Also see **Link Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 -   For each link connecting to the **Value** field in the destination schema, set the source-schema link properties to copy the value (the default).  
   

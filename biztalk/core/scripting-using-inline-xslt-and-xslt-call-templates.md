@@ -8,9 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Scripting functoids, inline XSLT call templates"
-  - "Scripting functoids, inline XSLT script"
 ms.assetid: e3168417-3653-4c9e-a09c-184ffdc0ccb2
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -20,7 +17,7 @@ manager: "anneta"
 # Scripting Using Inline XSLT and XSLT Call Templates
 You can directly write Extensible Stylesheet Language Transformations (XSLT) stylesheets for use in the **Scripting** functoid. This enables you to perform transformations, that links and built-in functoids may not be able to represent. There are two kinds of XSLT scripts: inline XSLT and XSLT call templates. When you select either in the **Select script type** dropdown in the **Configure Scripting Functoid** dialog box, sample code appears that you may use.  
   
- Inline XSLT scripts and inline XSLT call templates may call functions in external assemblies. Making such calls requires setting the **Custom Extension XML** property of the grid. For more information, see [Custom Extension XML (Grid Property)](../core/custom-extension-xml-grid-property.md).  
+ Inline XSLT scripts and inline XSLT call templates may call functions in external assemblies. Making such calls requires setting the **Custom Extension XML** property of the grid. For more information, see **Custom Extension XML (Grid Property)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Inline XSLT  
  An inline XSLT script may only produce output. The **Scripting** functoid may not have any input links. The functoid must also directly link to a record or field in the destination schema.  

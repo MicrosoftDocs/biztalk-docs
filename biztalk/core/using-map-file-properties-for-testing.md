@@ -8,12 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, properties"
-  - "testing, BizTalk Mapper"
-  - "maps, testing"
-  - "testing, maps"
-  - "BizTalk Mapper, testing"
 ms.assetid: 47798d09-b31e-4131-b75c-f4c51fd1d464
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -21,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using Map File Properties for Testing
+
+## Overview
 The map properties, available by right-clicking on the map in the Solution Explorer, control many important behaviors during testing:  
   
 -   The validation of input and output instances against source and destination schemas  
@@ -29,7 +25,7 @@ The map properties, available by right-clicking on the map in the Solution Explo
   
 -   The format of input and output test instances  
   
- For information about the map properties, see [Map Property Reference](../core/map-property-reference.md).  
+ For information about the map properties, see the **Map Property Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## See Also  
  [Testing Maps](../core/testing-maps.md)
