@@ -17,9 +17,9 @@ manager: "anneta"
 # How to Create a Map without Maps
 If you have XSLT code you have been using to convert instance messages, you can use that code directly instead of creating a map.  
   
- Using your XSLT code involves creating an empty map and setting its **Custom XSLT Path** grid property. If your XSLT code uses external .NET assemblies, you will also need to create a custom extension XML file. For information about the structure of a custom extension XML file, see [Custom Extension XML (Grid Property)](../core/custom-extension-xml-grid-property.md).  
+ Using your XSLT code involves creating an empty map and setting its **Custom XSLT Path** grid property. If your XSLT code uses external .NET assemblies, you also need to create a custom extension XML file. For information about the structure of a custom extension XML file, see the **Custom Extension XML (Grid Property)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-### To use custom XSLT code in place of a map  
+## Use custom XSLT code in place of a map  
   
 1.  Create an empty BizTalk map in your project and set the source and destination schemas.  
   
@@ -42,5 +42,3 @@ If you have XSLT code you have been using to convert instance messages, you can 
  [About Maps](../core/about-maps.md)   
  [Scripting Using Inline XSLT and XSLT Call Templates](../core/scripting-using-inline-xslt-and-xslt-call-templates.md)   
  [Custom XSLT](../core/custom-xslt.md)   
- [Custom XSLT Path (Grid Property)](../core/custom-xslt-path-grid-property.md)   
- [Custom Extension XML (Grid Property)](../core/custom-extension-xml-grid-property.md)
