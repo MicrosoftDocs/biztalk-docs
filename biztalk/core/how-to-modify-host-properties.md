@@ -8,19 +8,15 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "modifying, hosts"
-  - "managing [hosts], modifying"
-  - "managing [hosts], properties"
-  - "hosts, modifying"
-  - "hosts, properties"
 ms.assetid: e5df9d7f-b6c2-4bb7-a845-284e6323e3d6
 caps.latest.revision: 28
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Modify Host Properties
+# Update Host Properties
+
+## Overview
 You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to modify the following host properties:  
   
 -   **Windows group:** Members of the Windows group have permissions to run the hosts instances of this host by default. When you select a Windows user group for a BizTalk Host, we recommend that you create a new group that is dedicated to that host. If you do use an existing group, ensure that the group does not have more privileges than are needed. For more information, see [Access Control and Data Security](../core/access-control-and-data-security.md).  
@@ -61,7 +57,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
     -   You must be a member of the sysadmin SQL Server role on all the computers where there are MessageBox databases, or a member of the db_owner or db_ddladmin SQL Server role for all the MessageBox databases.  
   
-### To modify host properties  
+## Steps  
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -96,9 +92,9 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
     |**Browse**|Click to display the **Select Certificate** dialog box, where you select the decryption certificate from the Local Machine or Other People certificate store that you want to use with the host.|  
   
 ## See Also  
- [Optimizing Resource Usage Through Host Throttling](../core/optimizing-resource-usage-through-host-throttling.md)   
- [Throttling Design Recommendations](../core/throttling-design-recommendations.md)   
- [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Create a New Host](../core/how-to-create-a-new-host.md)   
- [How to Delete a Host](../core/how-to-delete-a-host.md)   
- [MSBTS_Host (WMI)](../core/msbts-host-wmi.md)
+-  [Optimizing Resource Usage Through Host Throttling](../core/optimizing-resource-usage-through-host-throttling.md)   
+-  [Throttling Design Recommendations](../core/throttling-design-recommendations.md)   
+-  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
+-  [How to Create a New Host](../core/how-to-create-a-new-host.md)   
+-  [How to Delete a Host](../core/how-to-delete-a-host.md)   
+-  **MSBTS_Host (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

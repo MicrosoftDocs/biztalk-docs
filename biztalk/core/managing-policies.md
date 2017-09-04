@@ -1,5 +1,6 @@
 ---
-title: "Managing Policies | Microsoft Docs"
+title: "Manage Policies | Microsoft Docs"
+description: Quick links to import, publish, add, deploy, remove, or export a policy in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,19 +9,18 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [policies]"
-  - "policies, managing"
-  - "managing [policies], about managing policies"
 ms.assetid: f7b3bf92-8868-4c35-953f-61a7f2edff9c
 caps.latest.revision: 19
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Managing Policies
+# Manage policies
+
+## Overview
 The topics in this section provide instructions on using the BizTalk Server Administration console or the BTSTask command-line tool to manage policies. A policy is a logical grouping of business rules. For background information on policies, see [Policies](../core/policies.md).  
   
+## Import, publish, deploy, and remove policies
  Solution developers can create and view policies by using the Business Rule Composer, as described in [Creating Business Rules Using the Business Rule Composer](../core/creating-business-rules-using-the-business-rule-composer.md). Developers and IT administrators can then perform the following tasks, which are described in the topics in this section, to deploy and manage policies in a BizTalk group and application:  
   
 -   **Import the policy into a BizTalk group.** When you do this, the policy is added to the Rule Engine database for the group and displays in the BizTalk Server Administration console in the \<All Artifacts> node for the BizTalk group. This does not put the policy into effect for any particular application. You must first publish the policy, add it to an application, and then deploy it, as described in other topics in this section. The Rule Engine database is a database that contains all of the policies in a BizTalk group.  
@@ -42,20 +42,20 @@ The topics in this section provide instructions on using the BizTalk Server Admi
 -   **Export the policy.** You can then import it into a different BizTalk group to use there.  
   
 > [!NOTE]
->  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see [WMI Class Reference](../core/wmi-class-reference.md).  
+>  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps
   
--   [How to Import a Policy](../core/how-to-import-a-policy.md)  
+-   [Import a Policy](../core/how-to-import-a-policy.md)  
   
--   [How to Publish a Policy](../core/how-to-publish-a-policy.md)  
+-   [Publish a Policy](../core/how-to-publish-a-policy.md)  
   
--   [How to Add a Policy to an Application](../core/how-to-add-a-policy-to-an-application.md)  
+-   [Add a Policy to an Application](../core/how-to-add-a-policy-to-an-application.md)  
   
--   [How to Deploy or Undeploy a Policy](../core/how-to-deploy-or-undeploy-a-policy.md)  
+-   [Deploy or Undeploy a Policy](../core/how-to-deploy-or-undeploy-a-policy.md)  
   
--   [How to Configure Tracking for a Policy](../core/how-to-configure-tracking-for-a-policy.md)  
+-   [Configure Tracking for a Policy](../core/how-to-configure-tracking-for-a-policy.md)  
   
--   [How to Remove a Policy from an Application and the BizTalk Group](../core/how-to-remove-a-policy-from-an-application-and-the-biztalk-group.md)  
+-   [Remove a Policy from an Application and the BizTalk Group](../core/how-to-remove-a-policy-from-an-application-and-the-biztalk-group.md)  
   
--   [How to Export a Policy](../core/how-to-export-a-policy.md)
+-   [Export a Policy](../core/how-to-export-a-policy.md)

@@ -1,5 +1,6 @@
 ---
-title: "Managing Pipelines | Microsoft Docs"
+title: "Manage pipelines | Microsoft Docs"
+description: Quick links to enable tracking and pipeline properties on a send port or receive location in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,10 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [pipelines]"
-  - "pipelines, managing"
-  - "managing [pipelines], about managing pipelines"
 ms.assetid: d60b54e0-0a5a-4264-b0e5-96bb187d782b
 caps.latest.revision: 14
 author: "MandiOhlinger"
@@ -19,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Managing Pipelines
+
+## Overview
 This section provides instructions on using the BizTalk Server Administration console to manage the pipelines in a BizTalk group. You can configure tracking for events and messages as well as configure pipeline properties for a specific send port or receive location.  
   
  Pipelines perform actions on incoming and outgoing messages, such as transforming them from a native format into XML, encrypting or unencrypting data, performing property promotion, and so on.  
@@ -34,12 +33,12 @@ This section provides instructions on using the BizTalk Server Administration co
  For background information about pipelines, see [Pipelines](../core/pipelines.md). For information about developing pipelines, see [Creating Pipelines Using Pipeline Designer](../core/creating-pipelines-using-pipeline-designer.md).  
   
 > [!NOTE]
->  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see [WMI Class Reference](../core/wmi-class-reference.md).  
+>  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps
   
--   [How to Configure Tracking for a Pipeline](../core/how-to-configure-tracking-for-a-pipeline.md)  
+-   [Configure Tracking for a Pipeline](../core/how-to-configure-tracking-for-a-pipeline.md)  
   
--   [How to Configure Per-Instance Pipeline Properties for a Send Port](../core/how-to-configure-per-instance-pipeline-properties-for-a-send-port.md)  
+-   [Configure Per-Instance Pipeline Properties for a Send Port](../core/how-to-configure-per-instance-pipeline-properties-for-a-send-port.md)  
   
--   [How to Configure Per-instance Pipeline Properties for a Receive Location](../core/how-to-configure-per-instance-pipeline-properties-for-a-receive-location.md)
+-   [Configure Per-instance Pipeline Properties for a Receive Location](../core/how-to-configure-per-instance-pipeline-properties-for-a-receive-location.md)

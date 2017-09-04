@@ -1,5 +1,6 @@
 ---
-title: "Managing Maps | Microsoft Docs"
+title: "Manage maps | Microsoft Docs"
+description: Links to work with maps in BizTalk Server, including viewing and removing maps 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,19 +9,18 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, managing"
-  - "managing [maps], about managing maps"
-  - "managing [maps]"
 ms.assetid: 0e8e3057-5a9f-4b6b-b6ee-c71b7e6a51ac
 caps.latest.revision: 13
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Managing Maps
+# Manage Maps
+
+## Overview
 This section provides instructions on managing maps by using the BizTalk Server Administration console. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses maps to translate the records and fields in one schema to the records and fields in another schema. Maps may be used by orchestrations, send ports, and receive ports.  
-  
+
+## Add maps to an application  
  Maps are built in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and compiled into BizTalk assemblies. You cannot add a map to an application individually; a map is added to an application as follows:  
   
 -   When you add a BizTalk assembly containing a map to the application, as described in [How to Add a BizTalk Assembly to an Application](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
@@ -32,10 +32,10 @@ This section provides instructions on managing maps by using the BizTalk Server 
  For background information about maps, see [Maps](../core/maps.md). For information about creating maps, see [Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md).  
   
 > [!NOTE]
->  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see [WMI Class Reference](../core/wmi-class-reference.md).  
+>  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps 
   
--   [How to View the Maps for an Application](../core/how-to-view-the-maps-for-an-application.md)  
+-   [View the Maps for an Application](../core/how-to-view-the-maps-for-an-application.md)  
   
--   [How to Remove a Map from an Application](../core/how-to-remove-a-map-from-an-application.md)
+-   [Remove a Map from an Application](../core/how-to-remove-a-map-from-an-application.md)

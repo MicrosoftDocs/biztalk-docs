@@ -1,5 +1,5 @@
 ---
-title: "How to Add a Host Instance | Microsoft Docs"
+title: "Add a Host Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,18 +8,16 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [hosts], adding"
-  - "adding, hosts"
-  - "hosts, adding"
 ms.assetid: 98ba10a6-c5e7-4dec-98f1-4e6ba44c2851
 caps.latest.revision: 27
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Host Instance
-You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console or Windows Management Instrumentation (WMI) to add host instances. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] you can only add a host instance to one server at a time. For more information about host instances, see [Host Instances](../core/host-instances.md). For information about using WMI to add a host instance, see [MSBTS_HostInstance (WMI)](../core/msbts-hostinstance-wmi.md).  
+# Add a Host Instance
+
+## Overview
+You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console or Windows Management Instrumentation (WMI) to add host instances. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] you can only add a host instance to one server at a time. For more information about host instances, see [Host Instances](../core/host-instances.md). For information about using WMI to add a host instance, see **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  Adding a host instance maps the instance of a given host to an instance of BizTalk Server. If you have an existing host instance that you must repair, you can update the host instance properties. You must stop an existing host instance before you can add it again. For information about stopping a host instance, see [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md).  
   
@@ -47,7 +45,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
 > [!CAUTION]
 >  We recommend that you update account information for host instances by using the BizTalk Server Administration Console or a Windows Management Instrumentation (WMI) script. This ensures that BizTalk Server can update the account information in the BizTalk Server databases and keep the security configuration between the databases and host instance synchronized.  
   
-### To add a host instance  
+## Steps
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -103,7 +101,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
 ## See Also  
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Start a Host Instance](../core/how-to-start-a-host-instance.md)   
- [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md)   
- [How to Delete a Host Instance](../core/how-to-delete-a-host-instance.md)   
- [How to Modify Host Instance Properties](../core/how-to-modify-host-instance-properties.md)
+ [Start a Host Instance](../core/how-to-start-a-host-instance.md)   
+ [Stop a Host Instance](../core/how-to-stop-a-host-instance.md)   
+ [Delete a Host Instance](../core/how-to-delete-a-host-instance.md)   
+ [Modify Host Instance Properties](../core/how-to-modify-host-instance-properties.md)

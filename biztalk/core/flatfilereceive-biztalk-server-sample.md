@@ -8,11 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "flat files, processing"
-  - "examples, flat files"
-  - "flat files, examples"
-  - "flat files, receiving"
 ms.assetid: 90bd9e8d-6ed9-49c4-8437-c0c8b2a9a78d
 caps.latest.revision: 20
 author: "MandiOhlinger"
@@ -71,8 +66,6 @@ The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServ
   
 ## Building and Initializing This Sample  
   
-#### To build and initialize the FlatFileReceive sample  
-  
 1.  In a command window, navigate to the following folder:  
   
      *\<Samples Path>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
@@ -103,8 +96,6 @@ The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServ
   
 ## Running This Sample  
   
-#### To run the FlatFileReceive sample  
-  
 1.  Put a copy of the file FlatFileReceive_in.txt into the folder FFInput.  
   
 2.  Observe the .xml file created in the folder FFOutput. The name of the output file is based on the message ID GUID. This file contains XML equivalent of the flat file placed in the receive folder.  
@@ -125,10 +116,10 @@ The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServ
 -   **BTSTask RemoveApp** to remove the FlatFileReceiveApplication  
   
 ## See Also  
- [Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
- [Flat File Disassembler Pipeline Component](../core/flat-file-disassembler-pipeline-component.md)   
- [Flat File Schemas](../core/flat-file-schemas.md)   
- [Default Pipelines](../core/default-pipelines.md)   
- [WMI Script Samples](../core/wmi-script-samples.md)   
- [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md)   
- [FlatFileSend (BizTalk Server Sample)](../core/flatfilesend-biztalk-server-sample.md)
+-  [Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
+-  [Flat File Disassembler Pipeline Component](../core/flat-file-disassembler-pipeline-component.md)   
+-  [Flat File Schemas](../core/flat-file-schemas.md)   
+-  [Default Pipelines](../core/default-pipelines.md)   
+-  **WMI Script Samples** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+-  [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md)   
+-  [FlatFileSend (BizTalk Server Sample)](../core/flatfilesend-biztalk-server-sample.md)

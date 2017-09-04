@@ -1,5 +1,5 @@
 ---
-title: "How to Delete a Host Instance | Microsoft Docs"
+title: "Delete a Host Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,18 +8,16 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [hosts], deleting"
-  - "deleting, hosts"
-  - "hosts, deleting"
 ms.assetid: 35a06480-0962-4bdc-add2-56f979a2f1c9
 caps.latest.revision: 23
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Delete a Host Instance
-You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or Windows Management Instrumentation (WMI) to delete host instances. For more information about host instances, see [Host Instances](../core/host-instances.md). For information about using WMI to delete a host instance, see [MSBTS_HostInstance (WMI)](../core/msbts-hostinstance-wmi.md).  
+# Delete a Host Instance
+
+## Overview
+You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or Windows Management Instrumentation (WMI) to delete host instances. For more information about host instances, see [Host Instances](../core/host-instances.md). For information about using WMI to delete a host instance, see **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  When you delete a host instance, the instance of the BizTalk Server runtime is removed from the associated server and the BizTalk Management database is updated to remove that instance from the host.  
   
@@ -43,7 +41,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
 > [!CAUTION]
 >  We recommend that you update account information for host instances by using the BizTalk Server Administration Console or a Windows Management Instrumentation (WMI) script. This ensures that BizTalk Server can update the account information in the BizTalk Server databases and keep the security configuration between the databases and host instance synchronized.  
   
-### To delete a host instance  
+## Steps
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   

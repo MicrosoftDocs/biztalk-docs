@@ -8,12 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "covoy sets"
-  - "correlation sets, convoys"
-  - "orchestrations, messages"
-  - "messages, controlling"
-  - "messages, correlating to orchestrations"
 ms.assetid: 1028ab37-7ead-41a6-a186-53e5344d1a28
 caps.latest.revision: 19
 author: "MandiOhlinger"
@@ -49,9 +43,9 @@ A *convoy* exists any time that multiple single messages must be related to achi
   
  Scenarios other than convoys can also generate zombies. For example, suppose that an orchestration instance is expecting one response message from a business process, and for some reason, it receives two matching subscription response messages. In this case, the second response message becomes a zombie. Another example is when you have a **Listen** shape with a **Receive** shape at one branch and a **Delay** shape at the other branch. If a message arrives at the same time that the time-out occurs, the message becomes a zombie.  
   
- For more information about how to manage zombies, see [Removing Suspended Service Instances](../core/removing-suspended-service-instances.md).  
+ For more information about how to manage zombies, see **Removing Suspended Service Instances** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps
  [Sequential Convoys](../core/sequential-convoys.md)  
   
  [Parallel Convoys](../core/parallel-convoys.md)  

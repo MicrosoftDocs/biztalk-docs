@@ -1,5 +1,6 @@
 ---
-title: "How to Create MSMQ Receive Locations and Send Ports from Code | Microsoft Docs"
+title: "Create MSMQ Receive Locations and Send Ports from Code | Microsoft Docs"
+description: Programmatically create MSMQ receive locations and send ports in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,25 +9,16 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MSMQ adapters, examples"
-  - "send ports, code sample"
-  - "receive locations, code sample"
-  - "send ports, examples"
-  - "examples, send ports"
-  - "examples, MSMQ adapters"
-  - "receive locations, examples"
-  - "examples, receive locations"
 ms.assetid: 6ebb4119-deeb-4287-aa65-7597ff0cc435
 caps.latest.revision: 13
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Create MSMQ Receive Locations and Send Ports from Code
+# Create MSMQ Receive Locations and Send Ports programmatically
 This topic explains how to use WMI to create a port or location for the MSMQ adapter.  
   
- For more information, see [Creating a Receive Location with a Datetime Schedule Configuration Using WMI](../core/creating-a-receive-location-with-a-datetime-schedule-configuration-using-wmi.md).  
+ For more information, see **Creating a Receive Location with a Datetime Schedule Configuration Using WMI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Setting Property Values  
  The process of creating a port or location is always the same:  

@@ -9,8 +9,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "zombies"
 ms.assetid: 0c684891-e984-442f-b5fd-de5f7cf32b44
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -41,4 +39,4 @@ The occurrence of zombies typically falls into one of the following categories:
  You can use the [BizTalk Terminator](https://www.microsoft.com/download/details.aspx?id=2846) to help remove zombies.  
   
 ## See Also  
- [Removing Suspended Service Instances](../core/removing-suspended-service-instances.md)
+ **Removing Suspended Service Instances** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

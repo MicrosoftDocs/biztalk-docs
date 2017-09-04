@@ -1,5 +1,5 @@
 ---
-title: "How to Delete a Host | Microsoft Docs"
+title: "Delete a Host | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,17 +8,13 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [hosts], deleting"
-  - "deleting, hosts"
-  - "hosts, deleting"
 ms.assetid: e3df8719-27cb-4010-82e3-68226ab74b17
 caps.latest.revision: 20
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Delete a Host
+# Delete a Host
 You can delete a host only in the following circumstances:  
   
 -   It is not the default host.  
@@ -46,7 +42,7 @@ You can delete a host only in the following circumstances:
   
     -   You must be a member of the sysadmin SQL Server role on all the computers where there are MessageBox databases, or a member of the db_owner or db_ddladmin SQL Server role for all the MessageBox databases.  
   
-### To delete a host  
+## Steps 
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -57,7 +53,7 @@ You can delete a host only in the following circumstances:
 4.  In the **Confirm host delete** dialog box, click **Yes**.  
   
 ## See Also  
- [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Create a New Host](../core/how-to-create-a-new-host.md)   
- [How to Modify Host Properties](../core/how-to-modify-host-properties.md)   
- [MSBTS_Host (WMI)](../core/msbts-host-wmi.md)
+-  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
+-  [How to Create a New Host](../core/how-to-create-a-new-host.md)   
+-  [How to Modify Host Properties](../core/how-to-modify-host-properties.md)   
+-  **MSBTS_Host (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
