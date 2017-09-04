@@ -8,12 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF adapters, tutorials"
-  - "WCF-NetMsmq adapters, tutorials"
-  - "tutorials, publishing [WCF services]"
-  - "tutorials, WCF adapters"
-  - "publishing, tutorials [WCF services]"
 ms.assetid: e623b6dc-32e5-467c-bb7d-68b7a75723c1
 caps.latest.revision: 46
 author: "MandiOhlinger"
@@ -21,14 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter
-**Documentation Feedback**  
-  
- Microsoft values your feedback. To send feedback and comments about this topic to the documentation team, [click here](mailto:btsdf@microsoft.com?subject=Walkthrough:%20Publishing%20WCF%20Services%20with%20the%20WCF-NetMsmq%20Adapter). For assistance with support issues, refer to the technical support information included with the product.  
   
 > [!NOTE]
 >  For more information about adapters, see [Adapters in BizTalk Server](../core/adapters-in-biztalk-server.md).  
   
- **Introduction**  
+## Introduction
   
  In [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], an orchestration can be published as a [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] service. Through a BizTalk receive location, an orchestration can expose a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] endpoint, which allows it to be called by a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] client. The **BizTalk WCF Service Publishing Wizard** provides a simple way to expose an orchestration as a receive location.  
   
@@ -61,7 +52,7 @@ manager: "anneta"
   
 -   You must download the walkthrough code and extract it to your computer. This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at [http://go.microsoft.com/fwlink/?LinkId=194140](http://go.microsoft.com/fwlink/?LinkId=194140).  
   
-### To build and deploy the BizTalk solution, BizTalkApp  
+## Build and deploy the BizTalk solution, BizTalkApp  
   
 1.  Extract WCFNetMsmqAdapterPublishing.exe to **C:\WCFNetMsmqAdapterPublishing**.  
   
@@ -77,7 +68,7 @@ manager: "anneta"
   
 7.  In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**.  
   
-### To configure the application  
+## Configure the application  
   
 1.  Make sure that the Microsoft Message Queuing (MSMQ) component is installed on your computer as follows:  
   
@@ -149,7 +140,7 @@ manager: "anneta"
   
     4.  In the **Orchestration Properties** dialog box, click **OK** to save the configuration.  
   
-### To publish the metadata for the WCF-NetMsmq receive location  
+## Publish the metadata for the WCF-NetMsmq receive location  
   
 1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk WCF Service Publishing Wizard**.  
   
@@ -177,7 +168,7 @@ manager: "anneta"
   
 10. On the **Completing BizTalk WCF Service Publishing Wizard** page, click **Finish**.  
   
-### To configure the Web application hosting the published metadata service  
+## Configure the Web application hosting the published metadata service  
   
 1.  Open a command prompt, go to the **C:\inetpub\wwwroot\Microsoft.Samples.BizTalk.WCF.NetMsmqPublishing.BizTalkApp** folder where the **BizTalk WCF Service Publishing Wizard** created the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. Open the **Web.config** file using Notepad.  
   
@@ -208,7 +199,7 @@ manager: "anneta"
   
          **svcutil.exe http://localhost/Microsoft.Samples.BizTalk.WCF.NetMsmqPublishing.BizTalkApp/Microsoft_Samples_BizTalk_WCF_NetMsmqPublishing_BizTalkApp_OrderProcess_PurchaseOrderRequestPort.svc?wsdl**  
   
-### To build the client application  
+## Build the client application  
   
 1.  Open a [!INCLUDE[vs2010](../includes/vs2010-md.md)] command prompt as Administrator and go to the **C:\WCFNetMsmqAdapterPublishing\WCFClient** folder. This is where you will place the proxy class and application configuration file.  
   
@@ -226,7 +217,7 @@ manager: "anneta"
   
 8.  Right-click the **WCFClient** project and select **Build**. Keep [!INCLUDE[vs2010](../includes/vs2010-md.md)] open and go to the next section.  
   
-### To test the sample solution with the WCF-NetMsmq adapter  
+## Test the sample solution with the WCF-NetMsmq adapter  
   
 1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click the **WCFNetMsmqAdapterPublishing** application, and then click **Start**. In the **Start** dialog box, click **Start**.  
   
@@ -245,6 +236,6 @@ manager: "anneta"
 6.  Double-click the {GUID}.xml file to open it in Internet Explorer and view the **OrderID** value processed by the service.  
   
 ## See Also  
- [How to Configure a WCF-NetMsmq Receive Location](../core/how-to-configure-a-wcf-netmsmq-receive-location.md)   
+ [Configure a WCF-NetMsmq Receive Location](../core/how-to-configure-a-wcf-netmsmq-receive-location.md)   
  [WCF Adapter Walkthroughs](../core/wcf-adapter-walkthroughs.md)   
  [Publishing Service Metadata for the WCF Receive Adapters](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)

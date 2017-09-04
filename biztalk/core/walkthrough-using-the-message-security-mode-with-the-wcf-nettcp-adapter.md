@@ -8,13 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF adapters, tutorials"
-  - "WCF adapters, security"
-  - "security, messages [WCF adapters]"
-  - "security, WCF adapters"
-  - "messages, security [WCF adapters]"
-  - "tutorials, WCF adapters"
 ms.assetid: c7f6e892-34ce-4132-8867-54cc3bbfe507
 caps.latest.revision: 47
 author: "MandiOhlinger"
@@ -22,14 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter
-**Documentation Feedback**  
-  
- Microsoft values your feedback. To send feedback and comments about this topic to the documentation team, [click here](mailto:btsdf@microsoft.com?subject=Walkthrough:%20Using%20the%20Message%20Security%20Mode%20with%20the%20WCF-NetTcp%20Adapter). For assistance with support issues, refer to the technical support information included with the product.  
   
 > [!NOTE]
 >  For more information about adapters, see [Adapters in BizTalk Server](../core/adapters-in-biztalk-server.md).  
   
- **Introduction**  
+## Introduction
   
  This walkthrough shows how to configure the WCF-NetTcp adapter to use the [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] Message security mode, which uses the WS-Security specification to help secure messages that the adapter transmits. This specification describes enhancements to the SOAP messaging protocol to accomplish confidentiality, integrity, and authentication at the SOAP message level. Message security mode requires the service certificate to be specified for operations such as encryption/decryption and signing/verification purposes depending on the security mode combinations.  
   
@@ -62,7 +52,7 @@ manager: "anneta"
   
 -   You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at [http://go.microsoft.com/fwlink/?LinkId=194140](http://go.microsoft.com/fwlink/?LinkId=194140).  
   
-### To create the certificates for this walkthrough  
+## Create the certificates for this walkthrough  
   
 1.  In this section you will request service and client certificates, issue the certificates, and install them into the appropriate stores. Active Directory Certificate Services is used to create a certificate with a trusted certificate chain. If you did not install Active Directory Certificate Services as part of the Prerequisites, then install Active Directory Certificate Services on your computer. If it is already installed, go to step 2.  
   
@@ -146,7 +136,7 @@ manager: "anneta"
   
     7.  In the MMC, in the Console Root window, expand **Certificates - Current User**, expand **Personal**, expand **Certificates**, and then make sure that the certificates that you installed in the previous step are displayed.  
   
-### To create the BizTalk application for this walkthrough  
+## Create the BizTalk application for this walkthrough  
   
 1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -189,7 +179,7 @@ manager: "anneta"
   
     5.  In the **Send Port Properties** dialog box, on the **Filters** tab, select **BTS.ReceivePortName** for the **Property** field, enter `WcfMessageSecurity.OrderRequest.Receive` for the **Value** field, and then click **OK**. This filter expression routes the incoming [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] messages from the client into the **WcfMessageSecurity.OrderRequest.Receive** receive port to this send port.  
   
-### To test the WCF client against the BizTalk application  
+## Test the WCF client against the BizTalk application  
   
 1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **WcfMessageSecurity**, and then click **Start**. In the **Start** dialog box, click **Start**.  
   

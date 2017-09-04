@@ -2,7 +2,7 @@
 title: "Test Scenario Server Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-12-09"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

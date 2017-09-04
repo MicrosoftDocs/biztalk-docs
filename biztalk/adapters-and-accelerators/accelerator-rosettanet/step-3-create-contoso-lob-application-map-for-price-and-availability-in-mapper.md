@@ -2,7 +2,7 @@
 title: "Step 3: Creating the Contoso LOB Application Maps for the Price and Availability Project Using BizTalk Mapper | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

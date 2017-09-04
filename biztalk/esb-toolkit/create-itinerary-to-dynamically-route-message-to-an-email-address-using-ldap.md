@@ -2,7 +2,7 @@
 title: "How to: Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
