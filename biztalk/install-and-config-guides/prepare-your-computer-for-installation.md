@@ -2,7 +2,7 @@
 title: "Prepare Your Computer for Installation | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-03-15"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

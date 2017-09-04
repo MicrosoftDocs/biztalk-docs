@@ -2,7 +2,7 @@
 title: "Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query-Response Scenario using BizTalk Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

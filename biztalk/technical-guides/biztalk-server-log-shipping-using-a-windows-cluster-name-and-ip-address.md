@@ -2,7 +2,7 @@
 title: "BizTalk Server Log Shipping Using a Windows Cluster Name and IP Address | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server-2013"
+ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
