@@ -63,7 +63,7 @@ In BizTalk Editor, child nodes of the **Schema** node are known as **Root** node
 >  Root nodes may not have **Field** attributes. **Field** attributes attached to the **Root** node are not saved with the schema.  
   
 ## See Also  
- [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
- [Node Properties](../core/node-properties.md)   
- [Record Node Properties](../core/record-node-properties.md)   
- [How to Set Node Properties](../core/how-to-set-node-properties.md)
+-  [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
+-  [Node Properties](../core/node-properties.md)   
+-  **Record Node Properties**  [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  [How to Set Node Properties](../core/how-to-set-node-properties.md)

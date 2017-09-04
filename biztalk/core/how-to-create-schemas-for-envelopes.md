@@ -14,10 +14,13 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Create Schemas for Envelopes
-After creating an XML message schema as described in [Creating Schemas for XML Messages](../core/how-to-create-schemas-for-xml-messages.md), set the [Envelope](../core/envelope-node-property-of-all-schemas.md) property of the **Schema** node to **Yes**. Depending on certain characteristics of your envelope schema, such as whether there are multiple root nodes, you will need to set several other envelope-specific properties. For more information, see [Envelope Schemas](../core/envelope-schemas.md).  
+# Create Schemas for Envelopes
+
+## Overview
+After creating an XML message schema as described in [Creating Schemas for XML Messages](../core/how-to-create-schemas-for-xml-messages.md), set the **Envelope** property of the **Schema** node to **Yes**. Depending on certain characteristics of your envelope schema, such as whether there are multiple root nodes, you will need to set several other envelope-specific properties. For more information, see [Envelope Schemas](../core/envelope-schemas.md).  
   
  The body XPath property of the envelope points to the element that contains the document elements. The actual element where the XPath points to does not belong to the document.  
   
 ## See Also  
- [Managing Schemas Within Projects](../core/managing-schemas-within-projects.md)
+-  [Managing Schemas Within Projects](../core/managing-schemas-within-projects.md)
+-  **Envelope** property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

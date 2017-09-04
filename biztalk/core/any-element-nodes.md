@@ -21,7 +21,9 @@ In BizTalk Editor, you can use an **Any Element** node to indicate a location wi
 >  In BizTalk Editor, the **Any Element** node is represented with the string \<Any> in the schema tree view.  
   
 > [!NOTE]
->  You can control the degree to which the unknown portion of the message is validated as well-formed XML by using the [Process Contents](../core/process-contents-node-property-of-all-schemas.md) property. In many cases you may need to set the **Process Contents** property to **Skip** for the contents of an instance message at the location of the **Any Element** node to be processed. Retaining the default value of **Strict** for the **Process Contents** property will prevent instance message validation from passing.  
+>  You can control the degree to which the unknown portion of the message is validated as well-formed XML by using the **Process Contents** property. In many cases you may need to set the **Process Contents** property to **Skip** for the contents of an instance message at the location of the **Any Element** node to be processed. Retaining the default value of **Strict** for the **Process Contents** property will prevent instance message validation from passing.  
+> 
+> More details on this property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## XSD representation  
  When an **Any Element** node is added to a **Record** node, or to another node to which it can be added such as a **Sequence Group**, **Choice Group**, or **All Group** node, a single XML tag is added to the corresponding XML Schema definition (XSD) language representation of the schema. In the following example, a new **Any Element** node, whose XSD representation is shown in bold type, has been added to an existing **Record** node that already contains a **Field Element** node.  

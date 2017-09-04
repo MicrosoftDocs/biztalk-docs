@@ -15,12 +15,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Schema Node
+
+## Overview
 In BizTalk Editor, the top of the schema hierarchy is always the **Schema** node, which cannot be renamed. The **Schema** node corresponds to the **schema** element in the XML Schema definition (XSD) language representation of the schema.  
   
 > [!NOTE]
 >  In BizTalk Editor, the **Schema** node is represented with the string \<Schema> in the schema tree view.  
   
- In general, the properties of the **Schema** node correspond to the attributes of the **schema** element in the XSD representation of the schema. For general information about node properties, see [Node Properties](../core/node-properties.md). For reference information about the properties of the **Schema** node, see [Schema Node Properties](../core/schema-node-properties.md).  
+ In general, the properties of the **Schema** node correspond to the attributes of the **schema** element in the XSD representation of the schema. For general information about node properties, see [Node Properties](../core/node-properties.md). For reference information about the properties of the **Schema** node, see the **Schema Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  When you create a new XML schema in BizTalk Editor, the **Schema** node and one **Root** node are created automatically.  
   
@@ -42,5 +44,4 @@ In BizTalk Editor, the top of the schema hierarchy is always the **Schema** node
 ## See Also  
  [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
  [Node Properties](../core/node-properties.md)   
- [Schema Node Properties](../core/schema-node-properties.md)   
- [How to Set Node Properties](../core/how-to-set-node-properties.md)
+ [Set Node Properties](../core/how-to-set-node-properties.md)

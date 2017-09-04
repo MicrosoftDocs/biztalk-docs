@@ -17,7 +17,7 @@ manager: "anneta"
 # Custom Date-Time Formats
 
 ## Overview
-Due to their legacy origins, the flat file formats for which you create flat file schemas are bound to use date and time formats that do not conform to ISO 8601 formats. Therefore, when you are creating a flat file schema and you set the [Data Type](../core/data-type-node-property-of-all-schemas.md) property of a **Field Element** or **Field Attribute** node to one of the XML Schema definition (XSD) language primitive data types, **xs:dateTime**, **xs:time**, or **xs:date**, you can use the **Custom Date/Time Format** property to specify an alternative format for date or time values.  
+Due to their legacy origins, the flat file formats for which you create flat file schemas are bound to use date and time formats that do not conform to ISO 8601 formats. Therefore, when you are creating a flat file schema and you set the **Data Type** property of a **Field Element** or **Field Attribute** node to one of the XML Schema definition (XSD) language primitive data types, **xs:dateTime**, **xs:time**, or **xs:date**, you can use the **Custom Date/Time Format** property to specify an alternative format for date or time values.  
   
 > [!NOTE]
 >  Storage in the message box truncates time values in **xs:dateTime** and **xs:time** elements below the millisecond level. A similar loss of precision may occur when converting to .NET date/time data types.  
@@ -31,5 +31,4 @@ Due to their legacy origins, the flat file formats for which you create flat fil
   
 ## See Also  
 -  [Field Considerations](../core/field-considerations.md)   
--  [Data Type (Node Property of All Schemas)](../core/data-type-node-property-of-all-schemas.md)   
--  **Custom Date-Time Format (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  **Data Type (Node Property of All Schemas)** and **Custom Date-Time Format (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

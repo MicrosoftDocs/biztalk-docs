@@ -14,11 +14,14 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Using BizTalk Editor Commands
+# Use BizTalk Editor Commands
+
+## Overview
 When BizTalk Editor becomes active, it adds a menu called **BizTalk** to the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. This menu provides access to the BizTalk Editor commands and their functionality. When BizTalk Editor is active, the **BizTalk** menu provides the commands that are specific to editing BizTalk schemas.  
   
  In addition and where applicable, BizTalk Editor uses existing [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] menu items for commands that have obvious parallels to standard application functionality. For example, when BizTalk Editor is active, the **Save** command on the **File** menu saves changes to the schema that is currently being edited.  
   
+## Commands list
  The following table describes the commands within BizTalk Editor that can be used in the process of developing schemas.  
   
 |Command<br /><br /> (Menu Locations)|Description|  
@@ -54,7 +57,7 @@ When BizTalk Editor becomes active, it adds a menu called **BizTalk** to the [!I
 |**Cut, Copy, Paste**|Use these commands to perform the standard [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] behavior of cutting, copying, and pasting entire schemas within a BizTalk project.|  
 |**Delete**|Permanently deletes the currently selected schema, with a confirmation prompting.|  
 |**Rename**|Allows the currently selected schema to be renamed, in place.|  
-|**Properties**|Opens the Visual Studio **Properties**  window for the currently selected schema, in which some of the properties of the schema can be examined and set. **Note:**  Other properties of the schema are examined and set in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window when the schema is selected. Properties that are set in the **Properties** window are those properties for which different values may make sense for the same schema when it is used in more than one BizTalk project. <br /><br /> For more information about setting schema properties and the properties of schemas, see [Setting Schema File and Schema Item Properties](../core/how-to-set-schema-file-and-schema-item-properties.md) and [Schema File Properties](../core/schema-file-properties.md), respectively.|  
+|**Properties**|Opens the Visual Studio **Properties**  window for the currently selected schema, in which some of the properties of the schema can be examined and set. <br/><br/>**Note:**  Other properties of the schema are examined and set in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window when the schema is selected. Properties that are set in the **Properties** window are those properties for which different values may make sense for the same schema when it is used in more than one BizTalk project. <br /><br /> For more information about setting schema properties and the properties of schemas, see [Setting Schema File and Schema Item Properties](../core/how-to-set-schema-file-and-schema-item-properties.md) and **Schema File Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|  
   
 ## See Also  
  [Using BizTalk Editor](../core/using-biztalk-editor.md)

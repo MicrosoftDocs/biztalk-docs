@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Field Element Nodes
+
+## Overview
 In BizTalk Editor, you use **Field Element** nodes to describe items of information that are simple in nature, such as strings and numbers. Further, they are used when the information in question appears as the content of an XML element in an actual instance of a message, as opposed to appearing as the value of an attribute associated with an XML element. For additional information about information that is stored as attribute values, see [Field Attribute Nodes](../core/field-attribute-nodes.md).  
   
 > [!NOTE]
@@ -42,7 +44,7 @@ In BizTalk Editor, you use **Field Element** nodes to describe items of informat
 ```  
   
 ## See Also  
- [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
- [Node Properties](../core/node-properties.md)   
- [Field Element Node Properties](../core/field-element-node-properties.md)   
- [How to Set Node Properties](../core/how-to-set-node-properties.md)
+-  [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
+-  [Node Properties](../core/node-properties.md)   
+-  **Field Element Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  [How to Set Node Properties](../core/how-to-set-node-properties.md)

@@ -221,7 +221,7 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
   
 11. You have defined all the nodes for the purchase order schema. On the **Schema View** page, click **Finish**.  
   
-12. You can now view the final purchase order schema. You can also refine the schema by using the BizTalk Schema Editor. See Flat file property name table and the Property tables in [Schema Node Properties](../core/schema-node-properties.md).  
+12. You can now view the final purchase order schema. You can also refine the schema by using the BizTalk Schema Editor. See Flat file property name table and the Property tables in **Schema Node Properties**. More details on this property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Summary  
  In this walkthrough you have learned how to use the BizTalk Flat File Schema Wizard to create a flat file schema from a document instance.  

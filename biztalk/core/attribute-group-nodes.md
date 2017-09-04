@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Attribute Group Nodes
+
+## Overview
 In BizTalk Editor, you can add an **Attribute Group** node to a **Record** node or to another **Attribute Group** node to contain a group of attributes that you expect to use in more than one **Record** node. Adding an **Attribute Group** node to another **Attribute Group** node achieves attribute group nesting. This allows you to define a group of attributes in one place that can be used in multiple **Record** or **Attribute Group** nodes. Subsequent modifications to the attribute group will propagate to all of the nodes with which that attribute group is associated. This is true regardless of the node context in which the modifications are made.  
   
 > [!NOTE]
@@ -56,9 +58,9 @@ In BizTalk Editor, you can add an **Attribute Group** node to a **Record** node 
 >  Default attribute group names that are supplied automatically have the form attrGroup*N*, where *N* is a monotonically increasing numeral. You can rename an attribute group by providing a new, unique name in its **Group Reference** property. An attribute group cannot be renamed in place within the schema tree.  
   
 ## See Also  
- [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
- [Node Properties](../core/node-properties.md)   
- [Sequence Group Node Properties](../core/sequence-group-node-properties.md)   
- [How to Set Node Properties](../core/how-to-set-node-properties.md)   
- [Field Attribute Nodes](../core/field-attribute-nodes.md)   
- [Any Attribute Nodes](../core/any-attribute-nodes.md)
+-  [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
+-  [Node Properties](../core/node-properties.md)   
+-  **Sequence Group Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
+-  [How to Set Node Properties](../core/how-to-set-node-properties.md)   
+-  [Field Attribute Nodes](../core/field-attribute-nodes.md)   
+-  [Any Attribute Nodes](../core/any-attribute-nodes.md)

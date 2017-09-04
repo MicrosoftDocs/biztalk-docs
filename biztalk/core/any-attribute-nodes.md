@@ -21,7 +21,9 @@ In BizTalk Editor, you can use an **Any Attribute** node to indicate a (known) e
 >  In BizTalk Editor, the **Any Attribute** node is represented with the string \<AnyAttribute> in the schema tree view.  
   
 > [!NOTE]
->  You can control the degree to which the unknown portion of the message is validated as well-formed XML by using the [Process Contents](../core/process-contents-node-property-of-all-schemas.md) property. In many cases you may need to set the **Process Contents** property to **Skip** for the contents of an instance message at the location of the **Any Attribute** node to be processed. Retaining the default value of **Strict** for the **Process Contents** property will prevent instance message validation from passing.  
+>  You can control the degree to which the unknown portion of the message is validated as well-formed XML by using the **Process Contents** property. In many cases you may need to set the **Process Contents** property to **Skip** for the contents of an instance message at the location of the **Any Attribute** node to be processed. Retaining the default value of **Strict** for the **Process Contents** property will prevent instance message validation from passing.  
+>
+> More details on this property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## XSD representation  
  When an **Any Attribute** node is added to a **Record** node or to an **Attribute Group** node, a single XML tag is added to the corresponding XML Schema definition (XSD) language representation of the schema. In the following example, a new **Any Attribute** node, whose XSD representation is shown in bold, has been added to an existing **Record** node that already contains a **Field Element** node.  

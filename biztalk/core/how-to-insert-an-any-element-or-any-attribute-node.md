@@ -24,7 +24,7 @@ BizTalk Editor supports two types of any nodes: **Any Element** and **Any Attrib
 2.  On the **BizTalk** menu, point to **Insert Schema Node**, and then click **Any Element** or **Any Attribute**, as appropriate.  
   
 > [!IMPORTANT]
->  Setting the [Process Contents](../core/process-contents-node-property-of-all-schemas.md) property to **Lax** for **Any Element** or **Any Attribute** nodes may not work correctly. To pass validation on **Any Element** or **Any Attribute** nodes, set the property to **Skip**.  
+>  Setting the **Process Contents** property to **Lax** for **Any Element** or **Any Attribute** nodes may not work correctly. To pass validation on **Any Element** or **Any Attribute** nodes, set the property to **Skip**.  More details on this property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 >
 >  To create a map that contains **Any Element** or **Any Attribute** nodes, you must use either the [Mass Copy](mass-copy-functoid.md) functoid or the [Scripting](scripting-functoid.md) functoid (with Inline XSLT or Inline XSLT Call Template) to perform the mapping for such nodes, or simply not map those nodes.  
   

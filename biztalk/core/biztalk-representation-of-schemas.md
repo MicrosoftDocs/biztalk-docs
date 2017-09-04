@@ -15,8 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Representation of Schemas
+
+## Overview
 Although BizTalk schemas are ultimately represented and persisted in the XML Schema definition (XSD) language, they are represented as a graphical hierarchy of nodes when working in BizTalk Editor. The top of the hierarchy is always the **\<Schema>** node, and the remaining types of nodes are used to build the schema so that it represents a particular message that is exchanged by using BizTalk.  
-  
+
+## Insert schema node options  
  BizTalk Editor provides a way to construct XSD schemas without needing to learn all of the intricacies of XSD syntax. When using the **Insert Schema Node** command on the **BizTalk** menu or the shortcut menu, the following choices for nodes to be inserted are available on the cascading menu.  
   
 |Insert Schema Node menu choice|Description|  
@@ -38,11 +41,11 @@ Although BizTalk schemas are ultimately represented and persisted in the XML Sch
   
  Overall, BizTalk Editor combines a simplified approach to constructing XSD schemas using the generic concepts of Records and Fields with a more explicit control of particular XSD constructs, such as **sequence**, **choice**, **any**, and **anyattribute** elements.  
   
- Each type of node has a unique set of properties that can be configured in the Visual Studio Properties window. In general, these properties correspond to attributes on the XSD elements in the corresponding XSD representation of the schema. For more information about node properties, see [Node Properties](../core/node-properties.md) and [Schema Property Reference](../core/schema-property-reference.md).  
+ Each type of node has a unique set of properties that can be configured in the Visual Studio Properties window. In general, these properties correspond to attributes on the XSD elements in the corresponding XSD representation of the schema. For more information about node properties, see **Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  This section describes the types of nodes used within BizTalk Editor, briefly discusses their properties, and provides links to reference information about their properties.  
   
-## In This Section  
+## Next steps
   
 -   [Nodes That Correspond Directly to Message Instance Data and Structure](../core/nodes-that-correspond-directly-to-message-instance-data-and-structure.md)  
   

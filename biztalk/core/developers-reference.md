@@ -22,7 +22,6 @@ This section contains the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
   
 -   [WMI Class Reference](../core/wmi-class-reference.md)  
   
--   [Schema Property Reference](../core/schema-property-reference.md)  
   
 
   

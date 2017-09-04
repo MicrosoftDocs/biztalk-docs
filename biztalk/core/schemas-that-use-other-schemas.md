@@ -15,8 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Schemas That Use Other Schemas
+
+## Overview
 When your schemas become large and complex, or when the schemas that represent your different types of instance messages have some portions in common, it can be useful to combine smaller schemas into the schemas that ultimately define the structure of the instance messages you plan to exchange with trading partners. For example, you might have multiple message types that require a shipping address to be expressed within them. You can define the structure of a shipping address in a single schema, and then use that schema within other schemas that define, for example, Order, Invoice, and Shipping Notice message schemas.  
-  
+
+## Import, include, and redefine  
  XML Schema definition (XSD) language provides three related mechanisms for using multiple schemas together that BizTalk Editor supports. The following table summarizes the characteristics of these mechanisms, as defined by XSD.  
   
 |Multischema mechanism|Usage scenario|  
@@ -27,16 +30,17 @@ When your schemas become large and complex, or when the schemas that represent y
   
 > [!NOTE]
 >  For complete information about the differences and similarities between the import, include, and redefine mechanisms, see the references listed in [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).  
-  
+
+## Important details  
  To use a type defined in one schema (Schema1) within another schema (Schema2), you must provide a reference to Schema1 within Schema2. To do so, use the **Imports** property of the **Schema** node in Schema2. When you click the ellipsis (**...**) button in the **Imports** property field, the **Imports** dialog box opens. In the **Import New Schema as** drop-down list, select **XSD Import**, **XSD Include**, or **XSD Redefine**. Then click **Add** to open the **BizTalk Type Picker** dialog box and browse within your BizTalk project to select **Schema1**.  
   
  For detailed instructions about these steps, see [Creating Schemas That Use Other Schemas](../core/how-to-create-schemas-that-use-other-schemas.md).  
   
  When you use the **Imports** dialog box to import, include, or redefine another schema, one or more of the XSD elements **import**, **include**, and **redefine** is added to the XSD representation of your schema, including the appropriate attributes and attribute values. Further, in the case of the **import** element, a prefix declaration for the namespace of the other schema is added to the **schema** element.  
   
- All global types (such as **ComplexTypes**, **SimpleTypes**, element groups, attribute groups) in an imported/included/redefined schema are automatically available for use within the schema in which the former schema is imported, included, or redefined. For example, global **ComplexTypes** defined in an imported/included/redefined schema are added to the drop-down list of the [Data Structure Type](../core/data-structure-type-node-property-of-all-schemas.md) property for all of the **Record** nodes in the importing, including, or redefining schema.  
+ All global types (such as **ComplexTypes**, **SimpleTypes**, element groups, attribute groups) in an imported/included/redefined schema are automatically available for use within the schema in which the former schema is imported, included, or redefined. For example, global **ComplexTypes** defined in an imported/included/redefined schema are added to the drop-down list of the **Data Structure Type** property for all of the **Record** nodes in the importing, including, or redefining schema. More details on this property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## See Also  
  [About Schemas](../core/about-schemas.md)   
- [How to Create Schemas That Use Other Schemas](../core/how-to-create-schemas-that-use-other-schemas.md)   
- [How to Create References to Another Node or Type](../core/how-to-create-references-to-another-node-or-type.md)
+ [Create Schemas That Use Other Schemas](../core/how-to-create-schemas-that-use-other-schemas.md)   
+ [Create References to Another Node or Type](../core/how-to-create-references-to-another-node-or-type.md)
