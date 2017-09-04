@@ -39,10 +39,10 @@ This topic briefly describes the tools that you can use for deploying and managi
   
 |Task|Tool|  
 |----------|----------|  
-|Export an application .msi file|-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console – Export MSI File Wizard<br />-   BTSTask|  
-|Import an application .msi file|-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console – Import MSI Wizard<br />-   BTSTask|  
+|Export an application .msi file|-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console <br/>– Export MSI File Wizard<br />-   BTSTask|  
+|Import an application .msi file|-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console <br/>– Import MSI Wizard<br />-   BTSTask|  
 |Create or delete an application|-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console<br />-   BTSTask|  
-|Install an application|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console – Installation Wizard (or double-click the application .msi file)|  
+|Install an application|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console <br/>– Installation Wizard (or double-click the application .msi file)|  
 |Uninstall an application|BTSTask (or use Add or Remove Programs Control Panel)|  
 |Add artifacts to an application or remove artifacts from an application|-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console<br />-   BTSTask|  
 |Import and export bindings and binding files|-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console<br />-   BTSTask|  
