@@ -2,7 +2,7 @@
 title: "UI Guidance and Developers reference | Microsoft Docs"
 description: User interface (UI) help for adapters, BizTalk Mapper, Orchestration designer, Rule engine deployment wizard, Web Services Publishing Wizard, and more in BizTalk Server 
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "09/04/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.service: "biztalk-server"

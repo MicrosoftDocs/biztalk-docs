@@ -1,5 +1,6 @@
 ---
-title: "How to Create a New Host | Microsoft Docs"
+title: "Create a New Host | Microsoft Docs"
+descriptions: Use BizTalk Administration to create a new host in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,22 +9,16 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "hosts, 64-bit support"
-  - "hosts, creating"
-  - "creating, hosts"
-  - "64-bit support, hosts"
-  - "managing [hosts], creating"
 ms.assetid: 811e6e57-5c37-471a-aff4-5b2b68c367b1
 caps.latest.revision: 27
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Create a New Host
+# Create a New Host
 A BizTalk Host is a logical container for items such as adapter handlers, receive locations (including pipelines), and orchestrations. We recommend that you use separate hosts for processing, receiving, and sending messages, and that you use separate hosts for trusted and non-trusted items to facilitate implementing security measures and to improve manageability of the hosts. You can install only one instance of a host per BizTalk server. For more information about hosts, see [Hosts](../core/hosts.md).  
   
- For information about using Windows Management Instrumentation (WMI) to create a new host, see [MSBTS_Host (WMI)](../core/msbts-host-wmi.md).  
+ For information about using Windows Management Instrumentation (WMI) to create a new host, see **MSBTS_Host (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Prerequisites  
  You must have the following user rights to create hosts, modify host properties, and delete hosts:  
@@ -36,7 +31,7 @@ A BizTalk Host is a logical container for items such as adapter handlers, receiv
   
     -   You must be a member of the sysadmin SQL Server role on all the computers where there are MessageBox databases, or a member of the db_owner or db_ddladmin SQL Server role for all the MessageBox databases.  
   
-### To create a new host  
+## Steps
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -72,5 +67,5 @@ A BizTalk Host is a logical container for items such as adapter handlers, receiv
   
 ## See Also  
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Modify Host Properties](../core/how-to-modify-host-properties.md)   
- [How to Delete a Host](../core/how-to-delete-a-host.md)
+ [Modify Host Properties](../core/how-to-modify-host-properties.md)   
+ [Delete a Host](../core/how-to-delete-a-host.md)

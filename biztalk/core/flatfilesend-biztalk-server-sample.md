@@ -8,11 +8,6 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "flat files, sending"
-  - "flat files, processing"
-  - "examples, flat files"
-  - "flat files, examples"
 ms.assetid: 52dd0018-e272-40db-a26a-509d444d7106
 caps.latest.revision: 18
 author: "MandiOhlinger"
@@ -65,8 +60,6 @@ The FlatFileSend sample demonstrates how you can use [!INCLUDE[btsBizTalkServerN
   
 ## Building and Initializing This Sample  
   
-#### To build and initialize the FlatFileSend sample  
-  
 1.  In a command window, navigate to the following folder:  
   
      *\<Samples Path>*\Pipelines\AssemblerDisassembler\FlatFileSend  
@@ -97,8 +90,6 @@ The FlatFileSend sample demonstrates how you can use [!INCLUDE[btsBizTalkServerN
   
 ## Running This Sample  
   
-#### To run the FlatFileSend sample  
-  
 1.  Put a copy of the file FlatFileSend_in.xml into the folder FFInput.  
   
 2.  Observe the text file created in the folder FFOutput. The name of the text file is based on the message ID GUID. This file contains the flat file equivalent of the XML input file FlatFileSend_in.xml.  
@@ -119,9 +110,9 @@ The FlatFileSend sample demonstrates how you can use [!INCLUDE[btsBizTalkServerN
 -   **BTSTask RemoveApp** to remove the FlatFileSendApplication  
   
 ## See Also  
- [Flat File Schemas](../core/flat-file-schemas.md)   
- [Default Pipelines](../core/default-pipelines.md)   
- [Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
- [WMI Script Samples](../core/wmi-script-samples.md)   
- [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md)   
- [FlatFileReceive (BizTalk Server Sample)](../core/flatfilereceive-biztalk-server-sample.md)
+-  [Flat File Schemas](../core/flat-file-schemas.md)   
+-  [Default Pipelines](../core/default-pipelines.md)   
+-  [Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
+-  **WMI Script Samples** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md)   
+-  [FlatFileReceive (BizTalk Server Sample)](../core/flatfilereceive-biztalk-server-sample.md)

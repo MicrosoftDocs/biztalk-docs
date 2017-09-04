@@ -1,5 +1,5 @@
 ---
-title: "How to Stop a Host Instance | Microsoft Docs"
+title: "Stop a Host Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,20 +8,18 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [hosts], stopping"
-  - "hosts, stopping"
-  - "stopping, hosts"
 ms.assetid: c1f2e0c1-a387-4182-82ef-e25f49ac509b
 caps.latest.revision: 20
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Stop a Host Instance
+# Stop a Host Instance
+
+## Overview
 You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or Windows Management Instrumentation (WMI) to stop host instances. You must stop a host instance before you can delete it or remove BizTalk Server from a computer. You can stop a host instance that is installed and started. For more information about host instances, see [Host Instances](../core/host-instances.md).  
   
- For information about using WMI to stop a host instance, see [MSBTS_HostInstance (WMI)](../core/msbts-hostinstance-wmi.md).  
+ For information about using WMI to stop a host instance, see **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Prerequisites  
  To perform this procedure, you must be logged on as a member of the Administrators group and the BizTalk Server Administrators group.  
@@ -41,7 +39,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
 > [!CAUTION]
 >  We recommend that you update account information for host instances by using the BizTalk Server Administration Console or a Windows Management Instrumentation (WMI) script. This ensures that BizTalk Server can update the account information in the BizTalk Server databases and keep the security configuration between the databases and host instance synchronized.  
   
-### To stop a host instance  
+## Steps
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   

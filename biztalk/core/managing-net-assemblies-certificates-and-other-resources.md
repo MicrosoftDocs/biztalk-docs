@@ -1,5 +1,6 @@
 ---
-title: "Managing .NET Assemblies, Certificates, and Other Resources | Microsoft Docs"
+title: "Manage .NET Assemblies, Certificates, and Other Resources | Microsoft Docs"
+description: Links to add binding files, certificates, assemblies, virtual directories, files, and more in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,22 +9,15 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [certificates], about managing certificates"
-  - ".NET assemblies, managing"
-  - "managing [.NET assemblies]"
-  - "managing [resources], .NET assemblies"
-  - "managing [resources], certificates"
-  - "managing [certificates]"
-  - "managing [.NET assemblies], about managing .NET assemblies"
-  - "certificates, managing"
 ms.assetid: efe27a11-19d8-4eb3-9f8c-f4336e4c3d66
 caps.latest.revision: 13
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Managing .NET Assemblies, Certificates, and Other Resources
+# Manage .NET Assemblies, Certificates, and Other Resources
+
+## Overview
 This section provides instructions on using the BizTalk Server Administration console and the BTSTask command-line tool to manage the following types of resource artifacts for a BizTalk application. These resource artifacts cannot be automatically deployed into a BizTalk application from Visual Studio, so you must add them manually to the application. Once added to an application, however, you can import, export, and install them as a unit with the application and its other artifacts.  
   
 -   **Files.** You can include ad hoc files, such as a Readme file. When you install the application, files are copied to the installation folder.  
@@ -41,24 +35,24 @@ This section provides instructions on using the BizTalk Server Administration co
 -   **Virtual directories.** You can add virtual directories to your application so that they will be deployed with the application.  
   
 > [!NOTE]
->  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see [WMI Class Reference](../core/wmi-class-reference.md).  
+>  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps
   
--   [How to Add a File to an Application](../core/how-to-add-a-file-to-an-application.md)  
+-   [Add a File to an Application](../core/how-to-add-a-file-to-an-application.md)  
   
--   [How to Add a Certificate to an Application](../core/how-to-add-a-certificate-to-an-application.md)  
+-   [Add a Certificate to an Application](../core/how-to-add-a-certificate-to-an-application.md)  
   
--   [How to Add a COM Component to an Application](../core/how-to-add-a-com-component-to-an-application.md)  
+-   [Add a COM Component to an Application](../core/how-to-add-a-com-component-to-an-application.md)  
   
--   [How to Add a .NET Assembly to an Application](../core/how-to-add-a-net-assembly-to-an-application.md)  
+-   [Add a .NET Assembly to an Application](../core/how-to-add-a-net-assembly-to-an-application.md)  
   
--   [How to Add a BAM Artifact to an Application](../core/how-to-add-a-bam-artifact-to-an-application.md)  
+-   [Add a BAM Artifact to an Application](../core/how-to-add-a-bam-artifact-to-an-application.md)  
   
--   [How to Add a Binding File to an Application](../core/how-to-add-a-binding-file-to-an-application2.md)  
+-   [Add a Binding File to an Application](../core/how-to-add-a-binding-file-to-an-application2.md)  
   
--   [How to Add a Virtual Directory to an Application](../core/how-to-add-a-virtual-directory-to-an-application.md)  
+-   [Add a Virtual Directory to an Application](../core/how-to-add-a-virtual-directory-to-an-application.md)  
   
--   [How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact](../core/modify-deployment-options-of-net-assembly-com-component-file-bam-artifact.md)  
+-   [Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact](../core/modify-deployment-options-of-net-assembly-com-component-file-bam-artifact.md)  
   
--   [How to Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application](../core/remove-a-net-assembly-certificate-or-resource-artifact-from-an-application.md)
+-   [Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application](../core/remove-a-net-assembly-certificate-or-resource-artifact-from-an-application.md)

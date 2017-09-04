@@ -1,5 +1,6 @@
 ---
-title: "Managing Schemas | Microsoft Docs"
+title: "Manage schemas | Microsoft Docs"
+description: Use BizTalk Administration to work with schemas in BizTalk Server, including showing and hiding properties, view the XSD, enable tracking
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,17 +9,15 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "schemas, managing"
-  - "managing [schemas], about managing schemas"
-  - "managing [schemas]"
 ms.assetid: c5632e79-b182-41c9-9138-eb88b44e3172
 caps.latest.revision: 11
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Managing Schemas
+# Manage Schemas
+
+## Overiew
 This section provides instructions on using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to manage schemas. Schemas are used by pipelines and orchestrations to represent the message that will be processed.  
   
  Schemas are created in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and compiled into BizTalk assemblies. You cannot add a schema to an application individually; a schema is added to an application as follows:  
@@ -32,14 +31,14 @@ This section provides instructions on using the [!INCLUDE[btsBizTalkServerNoVers
  For background information about schemas, see [Schemas](../core/schemas.md). For information about developing schemas, see [Creating Schemas Using BizTalk Editor](../core/creating-schemas-using-biztalk-editor.md).  
   
 > [!NOTE]
->  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see [WMI Class Reference](../core/wmi-class-reference.md).  
+>  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-## In This Section  
+## Next steps 
   
--   [How to Show and Hide Property Schemas](../core/how-to-show-and-hide-property-schemas.md)  
+-   [Show and Hide Property Schemas](../core/how-to-show-and-hide-property-schemas.md)  
   
--   [How to View the Schema Definition (XSD) of a Schema](../core/how-to-view-the-schema-definition-xsd-of-a-schema.md)  
+-   [View the Schema Definition (XSD) of a Schema](../core/how-to-view-the-schema-definition-xsd-of-a-schema.md)  
   
--   [How to Configure Tracking for a Schema](../core/how-to-configure-tracking-for-a-schema.md)  
+-   [Configure Tracking for a Schema](../core/how-to-configure-tracking-for-a-schema.md)  
   
--   [How to Remove a Schema from an Application](../core/how-to-remove-a-schema-from-an-application.md)
+-   [Remove a Schema from an Application](../core/how-to-remove-a-schema-from-an-application.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to Modify Host Instance Properties | Microsoft Docs"
+title: "Change Host Instance Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,19 +8,15 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "modifying, hosts"
-  - "managing [hosts], modifying"
-  - "managing [hosts], properties"
-  - "hosts, modifying"
-  - "hosts, properties"
 ms.assetid: a35ca0c8-89b3-483a-b2fc-c8f43a8864d1
 caps.latest.revision: 22
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Modify Host Instance Properties
+# Update Host Instance Properties
+
+## Overview
 You can use the BizTalk Server Administration Console or Windows Management Instrumentation (WMI) to modify host instances. You can modify the service account running a host instance. You can also disable a host instance. For example, if you want to preserve the settings for a host instance and you do not want it to start, you can disable it. For more information about host instances, see [Host Instances](../core/host-instances.md).  
   
  Host instances of trusted hosts and host instances of non-trusted hosts cannot use the same service accounts. If you want to change the trust setting of a host instance and the host instance uses a service account that other host instances use, you can do one of the following:  
@@ -37,7 +33,7 @@ You can use the BizTalk Server Administration Console or Windows Management Inst
 > [!CAUTION]
 >  If you change the credentials of a host instance, you must also change the corresponding SQL Server credentials. If you do not update the SQL Server credentials, the host instance will not function properly.  
   
- For information about using WMI to modify a host instance, see [MSBTS_HostInstance (WMI)](../core/msbts-hostinstance-wmi.md).  
+ For information about using WMI to modify a host instance, see **MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Prerequisites  
  To perform this procedure, you must be logged on as a member of the Administrators group and the BizTalk Server Administrators group.  
@@ -57,7 +53,7 @@ You can use the BizTalk Server Administration Console or Windows Management Inst
 > [!CAUTION]
 >  We recommend that you update account information for host instances by using the BizTalk Server Administration Console or a Windows Management Instrumentation (WMI) script. This ensures that BizTalk Server can update the account information in the BizTalk Server databases and keep the security configuration between the databases and host instance synchronized.  
   
-### To modify host instance properties  
+## Steps
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -81,7 +77,7 @@ You can use the BizTalk Server Administration Console or Windows Management Inst
   
 ## See Also  
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Add a Host Instance](../core/how-to-add-a-host-instance.md)   
- [How to Start a Host Instance](../core/how-to-start-a-host-instance.md)   
- [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md)   
- [How to Delete a Host Instance](../core/how-to-delete-a-host-instance.md)
+ [Add a Host Instance](../core/how-to-add-a-host-instance.md)   
+ [Start a Host Instance](../core/how-to-start-a-host-instance.md)   
+ [Stop a Host Instance](../core/how-to-stop-a-host-instance.md)   
+ [Delete a Host Instance](../core/how-to-delete-a-host-instance.md)
