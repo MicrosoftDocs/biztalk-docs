@@ -15,16 +15,21 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Code List Management
+
+## Overview
 You use XSD to specify a specific set of values that are valid for an element or attribute. This functionality is available using the **enumeration** element. When you derive a data type for a **Field Element** or **Field Attribute** node by restriction, one of the properties that becomes available to you in the **Restriction** category is the **Enumeration** property. Using this property, you can open the **Enumeration Editor** dialog box in which you can enter the values that should be considered valid for the corresponding element or attribute in instance messages.  
   
  Microsoft BizTalk Server provides an alternative, richer way to manage enumerations in your schemas, known as code lists. Code lists use a Microsoft Access database to store the choices for your various enumerations, which allows you to manage them in a more centralized way. Further, if the enumeration values you need to use consist of non-intuitive numeric codes, which would need to be entered in that form using the **Enumeration** property, the tables you create in an Access database to use with the code list functionality include textual descriptions of these numeric values. The textual descriptions are used in the **CodeList** dialog box rather than their more obscure numeric equivalents.  
-  
+
+## Use the code list  
  You must perform several different steps to use the code list feature, including:  
   
 -   You must create an Access database with an appropriately named table, with the expected columns, and populate it with values.  
   
-    -   The name of the table is a combination of the [Standard](../core/standard-node-property-of-all-schemas.md) and [Standard Version](../core/standard-version-node-property-of-all-schemas.md) properties of the **Schema** node, separated by an underscore (_) character. For example, if you have set the **Standard** property of the **Schema** node to XML and the **Standard Version** property to MyVersion1, the Access database specified by the **CodeList Database** property must have a table named XML_MyVersion1.  
+    -   The name of the table is a combination of the **Standard** and **Standard Version** properties of the **Schema** node, separated by an underscore (_) character. For example, if you have set the **Standard** property of the **Schema** node to XML and the **Standard Version** property to MyVersion1, the Access database specified by the **CodeList Database** property must have a table named XML_MyVersion1.  
   
+        More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+
     -   This table must have three columns, typically named Code, Value, and Desc. The first column identifies rows that are related to one another, where each such row provides one of the enumeration choices that may potentially be allowed for the data that corresponds to the selected **Field Element** or **Field Attribute** node. All rows with the same value in the first column form a group. These values are typically integers, but can be any string that does not contain spaces.  
   
          The second and third columns of each row in the table must be configured to contain the corresponding value and textual representation of each possible enumeration value, respectively.  

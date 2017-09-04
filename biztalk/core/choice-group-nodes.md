@@ -65,7 +65,7 @@ In BizTalk Editor, you can insert a **Choice Group** node to contain other nodes
  In this example, two sibling **Record** nodes are used to describe the fact that an instance message will either have a record with United States address information in it, or a record with worldwide address information in it. Further, the **minOccurs** and **maxOccurs** properties of the **Choice Group** node have both been set to one (1) in the Visual Studio Properties window, resulting in the *minOccurs* and *maxOccurs* attributes of the **choice** element being set to one (1) in the XSD representation.  
   
 ## See Also  
- [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
- [Node Properties](../core/node-properties.md)   
- [Sequence Group Node Properties](../core/sequence-group-node-properties.md)   
- [How to Set Node Properties](../core/how-to-set-node-properties.md)
+-  [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
+-  [Node Properties](../core/node-properties.md)   
+-  **Sequence Group Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]     
+-  [How to Set Node Properties](../core/how-to-set-node-properties.md)

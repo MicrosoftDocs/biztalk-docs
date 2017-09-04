@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Create References to Another Node or Type
+# Create References to Another Node or Type
 You can use global nodes to create reusable data typesâ€”fragments of structureâ€”that you can use throughout the schema wherever that structure is appropriate. You can only use nodes that are direct children of the **Schema** node to create global types.  
   
  You can also create cyclical references using the data types of nodes that are not direct descendants of the **Schema** node. This is useful for representing recursive structures in schemas.  
@@ -25,13 +25,13 @@ You can use global nodes to create reusable data typesâ€”fragments of structureâ
   
  You can create global types using records, fields or attributes. Global types created from records may only be used in records, types created from fields only in fields, attribute types only in attributes. The following procedures describe how to define and use global declarations.  
   
-### To create a global declaration from a node  
+## Create a global declaration from a node  
   
 1.  Select the **Record** , **Field Attribute**,or **Field Element** node whose type you want to make globally available.  
   
 2.  In the **Properties** window, type a name in the **Data Structure Type** list that will be used as the global name for the complex type, and then press ENTER.  
   
-### To create a globally defined Sequence Group node, Choice Group node, or All Group node  
+## Create a globally defined Sequence Group node, Choice Group node, or All Group node  
   
 1.  Select the **Record** node into which you want to insert the globally defined group node.  
   
@@ -48,7 +48,7 @@ You can use global nodes to create reusable data typesâ€”fragments of structureâ
   
      By providing a name in the **Group Reference** property, you have globally defined group node, after which you can associate other group nodes with this globally defined type (structure).  
   
-### To create a globally defined Attribute Group node  
+## Create a globally defined Attribute Group node  
   
 1.  Select the **Record** node into which you want to insert the globally defined **Attribute Group** node.  
   
@@ -62,18 +62,18 @@ You can use global nodes to create reusable data typesâ€”fragments of structureâ
   
      Attribute groups are always global and referenced from their point of use.  
   
-### To use a type or group that has been globally defined  
+## Use a type or group that has been globally defined  
   
 1.  Select the node for which you want to use a globally defined type.  
   
-2.  In the Properties window, select the globally defined type from the drop-down list for the [Data Structure Type](../core/data-structure-type-node-property-of-all-schemas.md) property (**Record** nodes), [Data Type](../core/data-type-node-property-of-all-schemas.md) property (**Field Element** and **Field Attribute** nodes), or [Group Reference](../core/group-reference-node-property-of-all-schemas.md) property (**Sequence Group**, **Choice Group**, **All Group**, and **Attribute Group** nodes).  
+2.  In the Properties window, select the globally defined type from the drop-down list for the **Data Structure Type** property (**Record** nodes), **Data Type** property (**Field Element** and **Field Attribute** nodes), or **Group Reference** (**Sequence Group**, **Choice Group**, **All Group**, and **Attribute Group** nodes). More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
     > [!NOTE]
     >  Subsequent changes to the globally defined type or group can be made in any of the schema locations in which it appears. These changes will be applied in all such locations as you make them in the single, arbitrary location.  
   
  After you have created a global declaration, you cannot delete it in a single step. However, you can delete it by using the **Cleanup Global DataTypes** dialog box when the schema is saved, using the following procedure.  
   
-#### To delete a global declaration  
+## Delete a global declaration  
   
 1.  Delete all of the nodes where this global type or group is used, or specify a different type or group to be used in all of those nodes, or some combination thereof. For step-by-step instructions for deleting a node, see [Deleting Nodes](../core/how-to-delete-nodes.md).  
   
@@ -82,10 +82,10 @@ You can use global nodes to create reusable data typesâ€”fragments of structureâ
     > [!NOTE]
     >  The **Cleanup Global DataTypes** dialog box appears every time you save a schema with unused data types. If this dialog box does not appear, either all data types are used somewhere in the schema or the schema has not been modified since it was opened (in the latter case, it might still contain unused data types that were previously retained.  
   
-## Creating Cyclical References to Another Node  
+## Create Cyclical References to Another Node  
  You can create cyclical references to a node to represent recursive schema elements. You do this by creating a node whose type is defined by an enclosing record. For example, consider an instance message that is wrapped in an arbitrary number of envelopes having the same structure. Using cyclical references, you can create a schema that defines such instance messages.  
   
-#### To create a cyclical reference  
+### Create a cyclical reference  
   
 1.  Select a **Record** node for which you want to create a recursive reference. This is the node representing the top of the recursive structure.  
   
@@ -98,10 +98,9 @@ You can use global nodes to create reusable data typesâ€”fragments of structureâ
 4.  For the child **Record** node, in the Properties window, in the **Data Structure Type** list, select the data structure identified in step 2.  
   
 > [!IMPORTANT]
->  The **Min Occurs** property for the repeating node must be set to zero (**0**). Setting it to one (**1**) causes an infinite loop.  
-  
-> [!IMPORTANT]
->  If you import a schema that contains a recursive element, BizTalk Editor does not automatically check to ensure that the recursive element is valid.  
+>  - The **Min Occurs** property for the repeating node must be set to zero (**0**). Setting it to one (**1**) causes an infinite loop.  
+>
+>  - If you import a schema that contains a recursive element, BizTalk Editor does not automatically check to ensure that the recursive element is valid.  
   
 ## See Also  
  [Managing the Nodes Within a Schema](../core/managing-the-nodes-within-a-schema.md)

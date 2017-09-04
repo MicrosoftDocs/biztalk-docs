@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Field Attribute Nodes
+
+## Overview
 In BizTalk Editor, you use **Field Attribute** nodes to describe items of information that are simple in nature, such as strings and numbers. Further, they are used when the information in question appears as the value of an attribute in an actual instance of a message, as opposed to appearing as the content of an XML element. For additional information about information that is stored as element content, see [Field Element Nodes](../core/field-element-nodes.md).  
   
  Although the most straightforward use of **Field Attribute** nodes is as child nodes of **Record** nodes, they can also be used as child nodes of **Attribute Group** nodes. In the latter case, the **Field Attribute** nodes that are children of an **Attribute Group** node are available as attributes of any **Record** node that includes that **Attribute Group** node. For more information about **Attribute Group** nodes, see [Attribute Group Nodes](../core/attribute-group-nodes.md).  
@@ -47,8 +49,8 @@ In BizTalk Editor, you use **Field Attribute** nodes to describe items of inform
 ```  
   
 ## See Also  
- [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
- [Node Properties](../core/node-properties.md)   
- [Field Element Node Properties](../core/field-element-node-properties.md)   
- [How to Set Node Properties](../core/how-to-set-node-properties.md)   
- [Attribute Group Nodes](../core/attribute-group-nodes.md)
+-  [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
+-  [Node Properties](../core/node-properties.md)   
+-  **Field Element Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
+-  [How to Set Node Properties](../core/how-to-set-node-properties.md)   
+-  [Attribute Group Nodes](../core/attribute-group-nodes.md)

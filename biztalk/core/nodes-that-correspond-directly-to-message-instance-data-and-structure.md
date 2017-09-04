@@ -17,11 +17,11 @@ manager: "anneta"
 # Nodes That Correspond Directly to Message Instance Data and Structure
 Some of the node types that you use to create schemas in BizTalk Editor correspond directly to elements and attributes in XML representation of instance messages governed by the schema (for other instance message formats, such as flat file formats, this correspondence only exists after translation from the other format and before translation to the other format). These node types are **Record** nodes (including root **Record** nodes), **Field Element** nodes, and **Field Attribute** nodes.  
   
- The values you give to the [Node Name](../core/node-name-node-property-of-all-schemas.md) property of **Record** and **Field Element** nodes specify the name of the corresponding element in XML instance messages governed by the schema. Likewise, the values you give to the **Node Name** property of **Field Attribute** nodes specify the name of the corresponding attribute in XML instance messages governed by the schema.  
+ The values you give to the **Node Name** property of **Record** and **Field Element** nodes specify the name of the corresponding element in XML instance messages governed by the schema. Likewise, the values you give to the **Node Name** property of **Field Attribute** nodes specify the name of the corresponding attribute in XML instance messages governed by the schema. More details on this property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  The remainder of this section provides more information about this class of nodes, with root **Record** nodes receiving separate treatment due to their special role in schemas.  
   
-## In This Section  
+## Next steps 
   
 -   [Root Nodes](../core/root-nodes.md)  
   

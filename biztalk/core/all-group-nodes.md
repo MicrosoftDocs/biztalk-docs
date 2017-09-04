@@ -17,7 +17,7 @@ manager: "anneta"
 # All Group Nodes
 In BizTalk Editor, you can insert an **All Group** node to contain other nodes that will appear zero or one time, in any order. In XML Schema definition (XSD) language, the **All group** has more usage limitations than **Sequence** and **Choice** groups, which translates to few situations within BizTalk Editor where you will be able to create an **All Group** node.  
   
- To use an **All Group** node in BizTalk Editor, you need to follow some extra steps: The easiest way to create an **All Group** node is to change the value of the [Group Order Type](../core/group-order-type-node-property-of-all-schemas.md) property of the parent **Record** node to **All**. This ensures that all of the subordinate nodes of the **Record** node are contained within the **All Group** node.  
+ To use an **All Group** node in BizTalk Editor, you need to follow some extra steps: The easiest way to create an **All Group** node is to change the value of the **Group Order Type** property of the parent **Record** node to **All**. This ensures that all of the subordinate nodes of the **Record** node are contained within the **All Group** node.  See **Group Order Type** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  Another way to use an **All Group** node in BizTalk Editor begins with inserting a new **Record** node. After inserting the new **Record** node, change its **Content Type** property to **ComplexContent**. Then you can insert an **All Group** node as a child of the **Record** node. This is required because the **All Group** can only be inserted when inheritance is involved. By specifying that the containing **Record** node contains complex content, its data type becomes based on the data type **xs:anyType**, derived by extension.  
   
@@ -79,7 +79,7 @@ In BizTalk Editor, you can insert an **All Group** node to contain other nodes t
 ```  
   
 ## See Also  
- [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
- [Node Properties](../core/node-properties.md)   
- [Sequence Group Node Properties](../core/sequence-group-node-properties.md)   
- [How to Set Node Properties](../core/how-to-set-node-properties.md)
+-  [BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md)   
+-  [Node Properties](../core/node-properties.md)   
+-  **Sequence Group Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)] 
+-  [How to Set Node Properties](../core/how-to-set-node-properties.md)
