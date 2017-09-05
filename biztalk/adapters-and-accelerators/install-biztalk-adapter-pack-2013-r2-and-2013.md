@@ -1,5 +1,6 @@
 ---
 title: "Install BizTalk Adapter Pack 2013 R2 and 2013 | Microsoft Docs"
+description: Prerequisites and steps to install BAP 2013 R2 and BAP 2013 included with BizTalk Server
 ms.custom: ""
 ms.date: "2015-12-09"
 ms.prod: "biztalk-server"
@@ -572,7 +573,7 @@ Complete these steps *only* if the setup wizard fails to register the adapter bi
   
 <a name="BKMK_InstallCustomRFC"></a>   
 #### Install the custom RFCs  
- You only need to do this task if you want to use the [!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]. For instructions on installing custom RFCs, see [Install Custom RFCs](/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md) in the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] documentation. 
+ You only need to do this task if you want to use the [!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]. For instructions on installing custom RFCs, see [Install Custom RFCs](../adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md) in the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] documentation. 
   
 > [!IMPORTANT]
 >  If you are using an earlier version of the custom RFCs provided with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], then you must upgrade them to the RFCs provided with this release. Do this by removing the earlier RFCs, and then installing the RFCs shipped with this release.  
@@ -833,7 +834,7 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
   
 <a name="BKMK_Remove_SAP_Pro"></a>   
 #### Remove the custom RFCs  
-Complete this step to remove the custom RFCs that you installed in the SAP system. See [Install or remove custom RFCs](/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).  
+Complete this step to remove the custom RFCs that you installed in the SAP system. See [Install or remove custom RFCs](../adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).  
   
 ## Troubleshoot BizTalk Adapter Pack installation  
  Following are some issues that you might face when installing [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. For a comprehensive list of installation-related issues, refer to **Troublehsooting** topics for each adapter.  

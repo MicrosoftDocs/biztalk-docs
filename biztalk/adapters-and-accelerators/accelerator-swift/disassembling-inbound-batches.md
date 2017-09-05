@@ -1,5 +1,6 @@
 ---
-title: "Disassembling Inbound Batches | Microsoft Docs"
+title: "Disassemble Inbound Batches with SWIFT | Microsoft Docs"
+description: Debatch inbound message, and customize schemas for batching using the SWIFT Accelerator in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,16 +9,15 @@ ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "disassembler, inbound batches"
-  - "batches, disassembling"
 ms.assetid: 11cb5672-1155-4648-b1fd-c9a3bc30e351
 caps.latest.revision: 5
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Disassembling Inbound Batches
+# Disassemble Inbound Batches
+
+## Debatch inbound message
 The SWIFT disassembler is able to inbound debatching in which it processes or disassembles inbound batches (files or messages containing multiple SWIFT messages). You enable inbound debatching using the SWIFT disassembler configuration property of the same name. After you enable inbound debatching, the SWIFT disassembler expects all messages that it receives to be batches that include multiple SWIFT messages. A batch may or may not include a batch envelope (a batch header and a batch trailer), and each individual SWIFT message within a batch may or may not include a message envelope (a message header and a message trailer). You can configure these batch attributes (formats) using the following SWIFT disassembler configuration properties:  
   
 -   Batch Header Schema  
@@ -64,10 +64,11 @@ The SWIFT disassembler is able to inbound debatching in which it processes or di
   
  [**BH**] ([**MH**] **SI** [**MT**])**\*** [**BT**]  
   
- The brackets ([ ]) indicate that the part is optional. The asterisk (**\***)indicates that the block is repeatable. Whoever builds the message batch must use the message header (**MH**) and trailer(**MT**)consistently in each repetition of ([**MH**] **SI** [**MT**]).  
+ The brackets ([ ]) indicate that the part is optional. The asterisk (**\***)indicates that the block is repeatable. Whoever builds the message batch must use the message header (**MH**) and trailer (**MT**) consistently in each repetition of ([**MH**] **SI** [**MT**]).  
   
  The SWIFT disassembler is able to process any inbound batch that obeys the above structure, because each part in the structure conforms to a flat-file schema. However, if you do not use the optional batch header/trailer and message header/trailer, the message will not conform to those schemas. As a result, a batch containing only consecutive SWIFT messages will have the Batch Header Schema, Batch Trailer Schema, Message Header Schema, and Message Trailer Schema properties set to "None".  
-  
+
+## Customize schemas for batching  
  You can customize the schemas for the batch header/trailer and message header/trailer. An example is the following batch:  
   
 ```  
@@ -130,6 +131,6 @@ $
   
  For more information about each configuration property, as well as other usage and configuration information, see [SWIFT Disassembler Configuration Properties](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md). For more information about MessageBox database publishing and multi-part messages, see [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
   
- This section contains:  
+## Next step
   
--   [Batch-Related Promoted Properties](../../adapters-and-accelerators/accelerator-swift/batch-related-promoted-properties.md)
+[Batch-Related Promoted Properties](batch-related-promoted-properties.md)
