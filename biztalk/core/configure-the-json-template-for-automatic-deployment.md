@@ -5,6 +5,7 @@ ms.date: "06/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
+ms.prod: biztalk-server
 ms.topic: "article"
 ms.assetid: 0b7755a6-5a5a-4a6b-8f99-ac12a5fbf3d4
 caps.latest.revision: 4

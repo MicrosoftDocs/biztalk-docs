@@ -2,6 +2,7 @@
 title: "BizTalk Server 2013 and 2013 R2: What's New, Install, and Upgrade | Microsoft Docs"
 description: Introduction to what's new, and installing and upgrading to BizTalk Server 2013 R2 and 2013
 ms.custom: ""
+ms.prod: biztalk-server
 ms.date: "2017-08-10"
 ms.reviewer: ""
 ms.suite: ""
