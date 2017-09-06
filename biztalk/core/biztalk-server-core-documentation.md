@@ -4,14 +4,9 @@ ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-ms.service: "biztalk-server"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "bts10.default"
-helpviewer_keywords: 
-  - "BizTalk Server Help"
 ms.assetid: cadd3bdd-f13b-427d-8979-b2541aa5e21d
 caps.latest.revision: 48
 author: "MandiOhlinger"

@@ -1,6 +1,7 @@
 ---
 title: "Install BizTalk Server 2016 | Microsoft Docs"
 ms.custom: ""
+ms.prod: biztalk-server
 ms.date: "06/08/2017"
 ms.reviewer: ""
 ms.suite: ""

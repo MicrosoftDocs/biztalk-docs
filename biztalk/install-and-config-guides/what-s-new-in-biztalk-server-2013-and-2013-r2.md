@@ -4,7 +4,6 @@ description: Complete list of new features and changes in BizTalk Server 2013 R2
 caps.latest.revision: 67
 author: "MandiOhlinger"
 manager: "anneta"
-
 ms.custom: ""
 ms.date: "2017-08-10"
 ms.prod: "biztalk-server"

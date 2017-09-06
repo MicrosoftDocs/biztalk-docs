@@ -6,8 +6,7 @@ manager: anneta
 
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
-ms.service: "biztalk-server"
-ms.suite: ""
+ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 

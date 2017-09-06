@@ -1,6 +1,7 @@
 ---
 title: "BizTalk Technical Guides | Microsoft Docs"
 ms.custom: ""
+ms.prod: biztalk-server
 ms.date: "2016-03-17"
 ms.reviewer: ""
 ms.suite: ""
