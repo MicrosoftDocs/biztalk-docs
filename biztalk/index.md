@@ -7,16 +7,14 @@ caps.latest.revision: 31
 author: MandiOhlinger
 manager: anneta
 editor: ''
-
 ms.assetid: 
-ms.service: biztalk-server
+ms.prod: biztalk-server
 ms.workload: integration
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.date: 06/19/2017
 ms.author: mandia
-
 ---
 
 # Microsoft BizTalk Server Documentation

@@ -2,6 +2,7 @@
 title: "Connect to Azure API Management using BizTalk Server | Microsoft Docs"
 description: Use BizTalk Feature Pack 1 to connect to API management from your BizTalk Server
 ms.custom: ""
+ms.prod: biztalk-server
 ms.date: "06/08/2017"
 ms.reviewer: ""
 ms.suite: ""

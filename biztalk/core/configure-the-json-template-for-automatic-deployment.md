@@ -1,6 +1,7 @@
 ---
 title: "Configure the JSON template for automatic deployment | Microsoft Docs"
 ms.custom: ""
+ms.prod: biztalk-server
 ms.date: "06/08/2017"
 ms.reviewer: ""
 ms.suite: ""

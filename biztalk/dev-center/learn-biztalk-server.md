@@ -1,4 +1,6 @@
-
+---
+ms.prod: biztalk-server
+---
 
 ## Pluralsight training 
 [Learn about functoids, ESB, and more](http://app.pluralsight.com/search/?searchTerm=biztalk)

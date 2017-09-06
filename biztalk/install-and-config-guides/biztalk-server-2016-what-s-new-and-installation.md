@@ -2,6 +2,7 @@
 title: "BizTalk Server 2016: What's New, and Installation | Microsoft Docs"
 description: Introduction to what's new, and installing and upgrading to BizTalk Server 2016
 ms.custom: ""
+ms.prod: biztalk-server
 ms.date: "08/10/2017"
 ms.reviewer: ""
 ms.suite: ""
