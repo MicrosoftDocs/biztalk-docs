@@ -1,6 +1,6 @@
 ---
-title: "Step 2A: Add FILE Receive Locations | Microsoft Docs"
-description: Step 2A: Add FILE Receive Locations for the FileAct Store and Forward (Pull) Scenario in BizTalk Server
+title: "Step 2A- Add FILE Receive Locations | Microsoft Docs"
+description: Step 2A- Add FILE Receive Locations for the FileAct Store and Forward (Pull) Scenario in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
