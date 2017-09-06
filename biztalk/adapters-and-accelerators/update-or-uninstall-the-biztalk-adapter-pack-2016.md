@@ -1,5 +1,6 @@
 ---
 title: "Update or uninstall the BizTalk Adapter Pack 2016 | Microsoft Docs"
+description: Use the setup wizard or msiexec to change or uninstall BAP 2016 included with BizTalk Server; including remove the bindings and remove the custom RFCs
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -243,5 +244,5 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
 5.  Save and close the machine.config file.  
   
 ## Remove the custom RFCs  
-Complete this step to remove the custom RFCs that you installed in the SAP system. See [Install or remove custom RFCs](/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).  
+Complete this step to remove the custom RFCs that you installed in the SAP system. See [Install or remove custom RFCs](../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).  
   
