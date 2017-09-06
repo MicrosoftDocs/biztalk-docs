@@ -150,7 +150,7 @@ ms.author: mandia
                                 </a>
                             </li>
                             <li>
-                                <a href="/biztalk/core/trading-partner-management-using-biztalk">
+                                <a href="/biztalk/core/trading-partner-management-using-biztalk-server">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -389,7 +389,7 @@ ms.author: mandia
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/#msbts">
+                                        <a href="https://twitter.com/hashtag/msbts">
                                         <div class="cardSize">
                                             <div class="cardPadding">
                                                 <div class="card" style="min-height:100px;">
@@ -409,7 +409,7 @@ ms.author: mandia
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/@Biztalk_Gurus">
+                                        <a href="https://twitter.com/BizTalkGurus">
                                         <div class="cardSize">
                                             <div class="cardPadding">
                                                 <div class="card" style="min-height:100px;">
@@ -595,7 +595,7 @@ ms.author: mandia
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.codeplex.com/site/search?query=biztalk&ac=4">
+                                <a href="https://github.com/wmmihaa/BizTalk-Server---Developing-Integration-Solutions">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
