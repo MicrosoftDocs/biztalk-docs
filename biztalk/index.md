@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Microsoft BizTalk Server Documentation | Microsoft Docs
+title: Microsoft BizTalk Server Documentation
 description: 
 services: biztalk-service
 documentationcenter: ''
@@ -535,7 +535,7 @@ ms.author: mandia
                         <a href="#dev-all"></a>
                         <ul id="dev-all" class="cardsC">
                             <li>
-                                <a href="/biztalk/core/develop-your-biztalk-applications. ">
+                                <a href="/biztalk/core/develop-your-biztalk-applications">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -703,7 +703,7 @@ ms.author: mandia
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/biztalk/dev-center/his-update-center">
+                                <a href="/biztalk/dev-center/his-update-center">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -722,7 +722,7 @@ ms.author: mandia
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/biztalk/dev-center/his-downloads-blogs">
+                                <a href="/biztalk/dev-center/his-downloads-blogs">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
