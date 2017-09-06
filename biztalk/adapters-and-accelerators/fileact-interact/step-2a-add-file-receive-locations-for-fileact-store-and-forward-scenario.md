@@ -1,6 +1,6 @@
 ---
-title: "Step 2A: Add FILE Receive Locations for the FileAct Store and Forward (Pull) Scenario | Microsoft Docs"
-description: FileAct Store and Forward Pull scenario: Add the receive locations in BizTalk Server
+title: "Step 2A: Add FILE Receive Locations | Microsoft Docs"
+description: Step 2A: Add FILE Receive Locations for the FileAct Store and Forward (Pull) Scenario in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,6 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Step 2A: Add FILE Receive Locations for the FileAct Store and Forward (Pull) Scenario
 Before you begin this step, you must complete [Step 1: Configure the SWIFT Adapter for the FileAct Store and Forward (Pull) Scenario](step-1-configure-the-swift-adapter-for-fileact-store-and-forward-pull-scenario.md).  
   
@@ -65,5 +66,5 @@ Before you begin this step, you must complete [Step 1: Configure the SWIFT Adapt
 17. Click **OK**.  
   
 ## Next steps
- [Step 2B: Add FILE Send Ports to Capture the Sw:HandleFileRequest and Sw:HandleSnFRequest Messages for the FileAct Store and Forward (Pull) Scenario](step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md)   
- [Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario](step-2c-add-a-fileact-send-port-for-fileact-store-and-forward-pull-scenario.md)
+-  [Step 2B: Add FILE Send Ports to Capture the Sw:HandleFileRequest and Sw:HandleSnFRequest Messages for the FileAct Store and Forward (Pull) Scenario](step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md)   
+-  [Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario](step-2c-add-a-fileact-send-port-for-fileact-store-and-forward-pull-scenario.md)
