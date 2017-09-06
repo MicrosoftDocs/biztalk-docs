@@ -1,4 +1,6 @@
 ---
+layout: HubPage
+hide_bc: true
 title: Microsoft BizTalk Server Documentation | Microsoft Docs
 description: 
 services: biztalk-service
