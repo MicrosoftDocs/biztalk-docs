@@ -5,7 +5,7 @@ ms.custom: ""
 ms.date: "03/23/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-ms.service: "biztalk-server"
+
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"

@@ -4,7 +4,7 @@ description: Common terms and definitions to know and learn to use the BizTalk A
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
-ms.service: "biztalk-server"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
