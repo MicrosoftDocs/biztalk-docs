@@ -4,7 +4,7 @@ description: Steps to apply, import, export or unconfigure the components, and u
 ms.custom: ""
 ms.date: "08/14/2017"
 ms.prod: "biztalk-server"
-ms.service: biztalk-server
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

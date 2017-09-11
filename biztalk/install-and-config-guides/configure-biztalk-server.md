@@ -4,7 +4,7 @@ description: Steps to do a basic or custom configuration of BizTalk Server, and 
 ms.custom: ""
 ms.date: "08/14/2017"
 ms.prod: "biztalk-server"
-ms.service: "biztalk-server"
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
