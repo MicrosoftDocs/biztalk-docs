@@ -1,0 +1,1 @@
+Add Adapter Service Reference Plug-in

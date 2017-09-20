@@ -1,0 +1,65 @@
+---
+title: "Using Context Properties | Microsoft Docs"
+ms.custom: ""
+ms.date: "06/08/2017"
+ms.prod: "biztalk-server"
+ms.reviewer: ""
+
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, context properties"
+  - "messages, promoted properties"
+  - "promoted properties, context properties"
+  - "context properties, messages"
+ms.assetid: 306127a9-df03-4aaf-8dd8-76df51eb193d
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
+---
+# Using Context Properties
+The BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) Messaging Engine and its components use context properties internally. Changing the values set by the engine for some context properties is not recommended, because it may affect the execution logic of the engine. However, you can change a large number of properties not set by the engine. You can use the context properties for creation of filter expressions on send ports (for more information, see [Setting Filter Expressions on Send Ports](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md)). You can also use context properties in filter expressions for orchestrations. The properties are available for filter expressions as long as a project has a reference to the global properties schemas (which [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] creates when you use one of the common templates).  
+  
+ The following table contains a list of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] message context properties that the Messaging Engine uses. The engine uses many of these properties for routing. The serializer uses others for its processing. These properties have a prefix of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)].  
+  
+ For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] context properties (those identified in filter expressions by a BTS prefix), see "Message Context Properties" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help. **BTS.SchemaStrongName** and **BTS.MessageType** are two properties that the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] engine uses.  
+  
+ In the following table, the Is promoted and Is required columns have the following effects:  
+  
+-   When IsPromoted is "N", [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] writes the value to the context, instead of being promoted.  
+  
+-   When IsRequired is "N" for Boolean types, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] writes the value only if it is true.  
+  
+-   When IsRequired is "N" for string types, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] writes the value if it is not blank or if a default value exists.  
+  
+|Property Name|Is promoted|Is required|Notes|  
+|-------------------|-----------------|-----------------|-----------|  
+|BatchDateTime|Y|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]MessageType|Y|Y|The serializer uses this property to distinguish single and batched messages. The HL7 disassembler sets it only for batch messages. The property indicates whether the message is a single message, an inbound batch message, or an outbound batch message. If the serializer does not find it, it assumes that the message is a single message.|  
+|FHS10|Y|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|FHS3|Y|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|FHS4|Y|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|FHS5|Y|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|FHS6|Y|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|FileDateTime|Y|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|LastSegmentDelimiter Missing|N|N|[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] promotes this property when it processes a batch message.|  
+|MessageClass|Y|Y|Contains either **MessageClass2X** or **MessageClass2Xml** to distinguish between the two classes of messages.|  
+|MSA1|Y|Y|Applicable only for ACK messages.|  
+|MSH1|N|Y|The field containing the field separator. The serializer uses this property.|  
+|MSH2|N|Y|The serializer uses this property. The field containing the encoding characters (component separator, repetition separator, escape character, and subcomponent separator).|  
+|MSH3_1|Y|N|The first component of the sending application field.|  
+|MSH3_2|Y|N|The second component of the sending application field.|  
+|MSH3_3|Y|N|The third component of the sending application field.|  
+|MSH5_1|Y|N|The first component of the receiving application field.|  
+|MSH5_2|Y|N|The second component of the receiving application field.|  
+|MSH5_3|Y|N|The third component of the receiving application field.|  
+|ParseError|Y|Y|Indicates that an error occurred during parsing.|  
+|SegmentDelimiter2Char|N|N|The character that delimits segments.|  
+|ToBeBatched|Y|N|When set to false, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] does not buffer the message to be batched later; otherwise, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends the message as part of a batch.|  
+|ZPartPresent|Y|N|Indicates whether an undeclared Z segment is present.|  
+  
+## In This Section  
+  
+-   [Setting Filter Expressions on Send Ports](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md)

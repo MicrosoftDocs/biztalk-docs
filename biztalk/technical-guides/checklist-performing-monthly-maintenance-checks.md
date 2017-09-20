@@ -1,0 +1,46 @@
+---
+title: "Checklist: Performing Monthly Maintenance Checks | Microsoft Docs"
+ms.custom: ""
+ms.date: "06/08/2017"
+ms.prod: "biztalk-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 588b74fa-6bf5-43ad-aa15-3595adde76d1
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
+---
+# Checklist: Performing Monthly Maintenance Checks
+This topic describes the steps involved in performing monthly maintenance checks of the reliability, administration, security, and performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.  
+  
+|Steps|Reference|  
+|-----------|---------------|  
+|Ensure the master secret key is backed up and readily available on offline storage (reliability check).|[How to Back Up the Master Secret](http://go.microsoft.com/fwlink/?LinkId=151395) (http://go.microsoft.com/fwlink/?LinkId=151395).|  
+|Ensure that failover for all clustered services has been tested (reliability check).|[Reviewing and Testing SQL Server Cluster Configuration for Failover Scenarios](../technical-guides/reviewing-and-testing-sql-server-cluster-configuration-for-failover-scenarios.md)Testing Group Failover|  
+|Ensure that the Enterprise SSO service is clustered (reliability check).|[Clustering the Master Secret Server](../technical-guides/clustering-the-master-secret-server.md)|  
+|Ensure that the BizTalk Server databases are clustered under SQL Server services (reliability check).|[Clustering the BizTalk Server Databases2](../technical-guides/clustering-the-biztalk-server-databases2.md)|  
+|Ensure that at least two physical BizTalk servers are part of the BizTalk group (reliability check).|[Ensuring Multiple Servers Are Part of a BizTalk Group](../technical-guides/maintaining-reliability.md#BKMK_BTSGrp)|  
+|Determine whether any unstable code is being used, and if so, use separate hosts (reliability check).|[High Availability for BizTalk Hosts](../technical-guides/high-availability-for-biztalk-hosts.md)|  
+|Perform functional testing of all new BizTalk applications (reliability check).|-   [Testing an Application](../technical-guides/testing-an-application.md)<br />-   [Staging Tasks for BizTalk Application Deployment](http://go.microsoft.com/fwlink/?LinkId=154686) (http://go.microsoft.com/fwlink/?LinkId=154686).|  
+|Configure and schedule backup BizTalk Server jobs (reliability check).|-   [How to Configure the Backup BizTalk Server Job](http://go.microsoft.com/fwlink/?LinkID=153813) (http://go.microsoft.com/fwlink/?LinkID=153813)<br />-   [How to Schedule the Backup BizTalk Server Job](http://go.microsoft.com/fwlink/?LinkId=154674) (http://go.microsoft.com/fwlink/?LinkId=154674)|  
+|Ensure that the correct version of a set of assemblies is installed on each BizTalk machine (integrity check).|Use the **BizTalk Assembly Checker and Remote GAC** tool (BTSAssemblyChecker.exe) to check the versions of assemblies deployed to the BizTalk Management database and to verify that they are correctly registered in the GAC on all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers. You can use this tool to verify that all the assemblies containing the artifacts of a certain BizTalk application are installed on all BizTalk nodes. The tool is particularly useful in conjunction with a solid versioning strategy to verify that the correct version of a set of assemblies is installed on each BizTalk machine, especially when side-by-side deployment approach is used. The tool is available with the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installation media at Support\Tools\x86\BTSAssemblyChecker.exe.|  
+|Determine whether there are any unnecessary BizTalk applications, artifacts, and configurations (administration check).|-   Remove all unnecessary BizTalk applications, artifacts, and configurations.<br />-   For more information about removing a BizTalk application or artifact using the BTSTask command-line tool see [RemoveApp Command](http://go.microsoft.com/fwlink/?LinkId=154687) (http://go.microsoft.com/fwlink/?LinkId=154687).<br />-   For more information about removing an artifact from an application using either the BizTalk Server Administration console or the BTSTask command-line tool, see [How to Remove an Artifact from an Application](http://go.microsoft.com/fwlink/?LinkId=154688) (http://go.microsoft.com/fwlink/?LinkId=154688).|  
+|Check the BizTalk Server Administration console for any non-approved changes (administration check).|[Using the BizTalk Server Administration Console](http://go.microsoft.com/fwlink/?LinkId=154689) (http://go.microsoft.com/fwlink/?LinkId=154689).|  
+|Check BTSNTSvc.exe.config for any non-approved modifications (administration check).|[BTSNTSvc.exe.config File](http://go.microsoft.com/fwlink/?LinkId=154690) (http://go.microsoft.com/fwlink/?LinkId=154690).|  
+|Check the BizTalk Server-related registry keys for any non-approved modifications (administration check).|Microsoft Knowledge Base article 256986,[”Windows registry information for advanced users”](http://go.microsoft.com/fwlink/?LinkId=158859) (http://go.microsoft.com/fwlink/?LinkId=158859).|  
+|Run the Best Practices Analyzer for BizTalk Server (administration check).|[BizTalk Server Best Practices Analyzer](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317).|  
+|Ensure that the latest service packs and updates are installed (administration and security check).|[Microsoft Update](http://go.microsoft.com/fwlink/?LinkId=154691) (http://go.microsoft.com/fwlink/?LinkId=154691).|  
+|Ensure that the artifacts for different trading partners are not installed on the same host (security check).|[Configuring Hosts and Host Instances](../technical-guides/configuring-hosts-and-host-instances.md)|  
+|Ensure that BizTalk Server is using only domain-level users and groups (security check).|[Domain Groups](http://go.microsoft.com/fwlink/?LinkId=154692) (http://go.microsoft.com/fwlink/?LinkId=154692).|  
+|Ensure that the MSDTC Security Configuration is enabled (security check).|Follow guidelines in the “Set the appropriate MSDTC Security Configuration options on Windows Server 2003 SP1, Windows XP SP2, Windows Server 2008, and Windows Vista” section of [Troubleshooting Problems with MSDTC](http://go.microsoft.com/fwlink/?LinkId=154693) (http://go.microsoft.com/fwlink/?LinkId=154693).|  
+|Determine whether the BizTalk Server cache refresh interval needs to be increased (performance check).|[How to Adjust the Configuration Cache Refresh Interval](../technical-guides/how-to-adjust-the-configuration-cache-refresh-interval.md)|  
+|Determine whether the throttling options of each host need to be adjusted (performance check).|-   For information about inbound and outbound host throttling, see [What is Host Throttling?](http://go.microsoft.com/fwlink/?LinkId=154694) (http://go.microsoft.com/fwlink/?LinkId=154694).<br />-   For information about triggers, actions, and mitigation strategies for inbound and outbound throttling, see the “Throttling condition triggers, actions, and mitigation strategies” section of [How BizTalk Server Implements Host Throttling](http://go.microsoft.com/fwlink/?LinkId=154695) (http://go.microsoft.com/fwlink/?LinkId=154695).|  
+|Determine whether unnecessary tracking is enabled, such as orchestration, shape, and Business Rule Engine (BRE) event tracking (performance check).|-   [How to Disable Tracking](../technical-guides/how-to-disable-tracking.md)<br />-   [Planning for Tracking](../technical-guides/planning-for-tracking.md)<br />-   [Best Practices for Tracking](../technical-guides/planning-for-tracking.md#BKMK_TrackingBP)|  
+|Determine whether you are using a dedicated host for tracking maintenance (performance check).|[Configuring a Dedicated Tracking Host](../technical-guides/configuring-a-dedicated-tracking-host.md)|  
+|Check the BizTalk Server database sizes for an increasing trend (performance check).|-   For more information about sizing the tracking database, see [Tracking Database Sizing Guidelines](http://go.microsoft.com/fwlink/?LinkId=154677) (http://go.microsoft.com/fwlink/?LinkId=154677).<br />-   For more information about sizing the MessageBox, BizTalkDTADb, and BAMPrimaryImport databases, see [Identifying Bottlenecks in the Database Tier](http://go.microsoft.com/fwlink/?LinkId=154678) (http://go.microsoft.com/fwlink/?LinkId=154678).|  
+  
+## See Also  
+ [Routine Maintenance Checklists](../technical-guides/routine-maintenance-checklists.md)
