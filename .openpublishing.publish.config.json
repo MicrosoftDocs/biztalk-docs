@@ -1,6 +1,4 @@
 {
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "biztalk",
@@ -15,15 +13,13 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [
     "pacort@microsoft.com"
   ],
   "branches_to_filter": [],
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "dependent_repositories": [
     {
@@ -36,8 +32,7 @@
   "branch_target_mapping": {
     "live": [
       "Publish",
-      "Pdf",
-      "Intellisense"
+      "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true
