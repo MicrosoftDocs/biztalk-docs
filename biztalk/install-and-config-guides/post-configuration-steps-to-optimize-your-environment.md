@@ -173,4 +173,6 @@ There are many recommendations in this area. Here are a few to get you started:
 [Best Practices: Create and Configure BizTalk Server Host and Host](http://social.technet.microsoft.com/wiki/contents/articles/19701.biztalk-server-best-practices-create-and-configure-biztalk-server-host-and-host-instances.aspx)  
 [Running Orchestrations in Multiple Hosts on the Same Computer](http://social.technet.microsoft.com/wiki/contents/articles/31183.biztalk-server-running-orchestrations-in-multiple-hosts-on-the-same-computer.aspx)  
 
+[PowerShell to Create and Configure BizTalk Server Host, Host Instances and Handlers](https://gallery.technet.microsoft.com/PowerShell-to-Configure-43d77916)  
+
 [BizTalk Server Resources on the TechNet Wiki](http://social.technet.microsoft.com/wiki/contents/articles/2240.biztalk-server-resources-on-the-technet-wiki.aspx)
