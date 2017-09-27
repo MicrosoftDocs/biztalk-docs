@@ -1,18 +1,14 @@
 ---
-title: "How Exceptions Are Handled | Microsoft Docs"
+title: "How Exceptions Are Handled - BizTalk Server | Microsoft Docs"
+description: How the runtime handles exception, including in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "09/27/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "errors, handlers"
-  - "scopes, errors"
-  - "errors, scopes"
-  - "handlers [adapters], errors"
 ms.assetid: 30b88d8a-8737-4700-b856-1b49fdf6b6d0
 caps.latest.revision: 5
 author: "MandiOhlinger"
@@ -20,6 +16,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How Exceptions Are Handled
+
+## Overview
 When an exception occurs within a scope, each logical thread of execution in the scope is stopped. The runtime engine tries to find an exception handler for the appropriate exception.  
   
  If the exception handler is found that matches the specific type or one of its base types, control passes to that handler and its code runs.  
