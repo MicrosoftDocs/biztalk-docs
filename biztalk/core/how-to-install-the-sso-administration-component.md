@@ -26,7 +26,7 @@ It is possible to install the Enterprise Single Sign-On Administration component
   
  Installing the SSO administrative utility (ssomanage.exe) does not create shortcuts on the Start menu to access the command line utilities. To run the SSO administrative utilities after installation, you must open a command prompt and navigate to the SSO directory located at Program Files\Common Files\Enterprise Single Sign-On.  
   
- The Enterprise SSO Administration feature also includes an MMC Snap-in. The Snap-in is installed on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] and Windows Vista SP2. It is not supported on [!INCLUDE[btsWin2kSvr](../includes/btswin2ksvr-md.md)]. You must also have MMC 3.0 installed on your computer for the Snap-in to function.  
+ The Enterprise SSO Administration feature also includes an MMC Snap-in. The Snap-in is installed on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or higher and Windows Vista SP2 or higher (depending on the BizTalk Server version used). It is not supported on [!INCLUDE[btsWin2kSvr](../includes/btswin2ksvr-md.md)]. You must also have MMC 3.0 installed on your computer for the Snap-in to function.  
   
  To open the Enterprise SSO MMC Snap-in click the **Start** menu, then click **All Programs**, **Microsoft Enterprise Single Sign-On**, and **SSO Administration**.  
   
@@ -56,7 +56,7 @@ It is possible to install the Enterprise Single Sign-On Administration component
   
 3.  Specify the SSO Server by selecting one of the following options:  
   
-    1.  Type **ssomanage –server**to specify the SSO Server you want to connect to when performing administration operations.  
+    1.  Type **ssomanage –server** to specify the SSO Server you want to connect to when performing administration operations.  
   
          \- OR -  
   
