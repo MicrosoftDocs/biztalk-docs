@@ -23,7 +23,9 @@ manager: "anneta"
 This topic answers some frequently asked questions about 64-bit support for Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## Which versions of 64-bit Windows are supported?  
- All editions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] support 32-bit execution and native 64-bit execution on the supported operating systems. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes 32-bit and 64-bit configuration options.  
+ All editions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] support 32-bit execution and native 64-bit execution on the supported operating systems. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes 32-bit and 64-bit configuration options. 
+ 
+  [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)  
   
  [Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)  
   
