@@ -46,7 +46,7 @@ If you have suspended orchestration instances that are listed as "suspended resu
   
 6.  Click **Run Query**.  
   
-7.  In the query results list, right-click the orchestration instance you want to terminate, and then click **Resume Instance** or **Resume Instances**. This allows you to select which instances to resume.  
+7.  In the query results list, right-click the orchestration instance you want to resume, and then click **Resume Instance** or **Resume Instances**. This allows you to select which instances to resume.  
   
      [Service Instance States](../core/service-instance-states.md) provides more information on the on the suspended state.  
   
