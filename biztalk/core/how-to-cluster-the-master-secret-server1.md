@@ -202,7 +202,7 @@ We recommended that you follow the instructions in this section to cluster the E
   
      The master secret is stored in the registry at the following location:  
   
-     HKEY_LOCAL_MACHINESOFTWAREMicrosoftENTSSOSSOSS  
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ENTSSO\SSOSS  
   
 7.  Move the clustered service or application that contains the clustered Enterprise Single Sign-On service from this cluster node to other cluster node to ensure failover functionality. Then move the cluster group back to verify fail-back functionality.  
   
