@@ -59,7 +59,7 @@ If BizTalk and SQL Server are installed on separate computers, then enable Netwo
 
 For additional settings that may be needed, see [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
-## Configure the Application Event Log
+## Configure the Application Event Log (optional)
 
 BizTalk Server setup keeps a record of events in the Application Event Log. Depending on the BizTalk Server features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during the setup, the installation fails. Changing the Application Event Log settings prevents this failure.
 
@@ -77,7 +77,8 @@ BizTalk Server setup keeps a record of events in the Application Event Log. Depe
 
 4. Select **OK**.
 
-## Edge can’t be opened using the Built-in Administrator account
+## Edge can’t be opened using the Built-in Administrator account (optional)
+
 When using Edge, the following message displays:  
 `Microsoft Edge can't be opened using the Built-in Administrator account. Sign in with a different account and try again.`
 
