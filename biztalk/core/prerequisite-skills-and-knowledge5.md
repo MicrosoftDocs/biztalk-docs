@@ -41,6 +41,8 @@ Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.m
 -   Extensible Stylesheet Language Transformations (XSLT)  
   
 -   XML Schema Definition Language (XSD)  
+
+-   REST Services, JSON, Swagger
   
 -   Web Service use and development  
   
@@ -50,19 +52,17 @@ Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.m
 |System administrator task|Prerequisite knowledge|  
 |-------------------------------|----------------------------|  
 |Design the deployment infrastructure|An understanding of reliability, availability, security, performance, compatibility, networking, and hardware and software management concepts.|  
-|Deploy the infrastructure|Must know how to:<br /><br /> -   Deploy Windows Server 2008 SP2 or Windows Server 2008 R2<br />-   Manage user and group accounts in Windows domains<br />-   Configure networking and connectivity<br />-   Implement network and file security in a Windows network environment<br />-   Deploy Microsoft SQL Server<br />-   Deploy Windows SharePoint Services|  
+|Deploy the infrastructure|Must know how to:<br /><br /> -   Deploy Windows Server 2016 or Windows Server 2012 R2<br />-   Manage user and group accounts in Windows domains<br />-   Configure networking and connectivity<br />-   Implement network and file security in a Windows network environment<br />-   Deploy Microsoft SQL Server|  
 |Deploy a larger installation|Must know how to configure SQL Server clustering and understand load balancing technologies.|  
-|Deploy and manage a BizTalk application|Must know how to manage server applications in a Windows Server 2008 SP2 or Windows Server 2008 R2 environment and understand how to create and manage Web sites and virtual directories.|  
+|Deploy and manage a BizTalk application|Must know how to manage server applications in a Windows Server 2016 or Windows Server 2012 R2 environment and understand how to create and manage Web sites and virtual directories.|  
   
  An IT Pro responsible for the deployment of BizTalk solutions must be at least moderately experienced with the use of the following:  
   
 -   Microsoft Windows Installer (MSI)  
   
--   Windows Server 2008 SP2 or Windows Server 2008 R2  
+-   Windows Server 2016 or Windows Server 2012 R2  
   
 -   SQL Server  
-  
--   Windows SharePoint Services  
   
 -   Performance monitoring and optimization techniques  
   
@@ -71,11 +71,11 @@ Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.m
 -   Internet Information Services (IIS) if exposing orchestration as Web or WCF services.  
   
 ## Prerequisites for Business Analysts  
- Business Analysts responsible for encoding business rulesor monitoring business activity must be at least moderately experienced with the use of  
+ Business Analysts responsible for encoding business rulesor monitoring business activity must be at least moderately experienced with the use of: 
   
 -   Microsoft Excel  
-  
--   Microsoft Access  
+
+-   Power BI
   
 -   OLAP tools/programs for running reports  
   
@@ -88,5 +88,3 @@ Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.m
 -   Microsoft Word  
   
 -   Microsoft Outlook  
-  
--   Boolean logic
