@@ -1,8 +1,9 @@
 ---
 title: "Post-configuration steps to optimize your environment | Microsoft Docs"
+description: Tasks to complete after you install and configure BizTalk Server, including configure the SQL Agent jobs, install EDI schemas, create hosts and host instances, and more in BizTalk Server
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "06/08/2017"
+ms.date: "09/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -139,7 +140,7 @@ BizTalk Server does not include any job to delete backup files. As a result, how
 > [!NOTE]
 >  The EDI batching orchestrations should only be started if you receive and/or send EDI batches. Starting them when the system is not receiving or sending EDI batches could affect system performance.  
   
-#### Migrating EDI artifacts from a previous BizTalk version  
+#### Migrate EDI artifacts from a previous BizTalk version  
  The way trading partners are managed in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] was updated in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 and newer versions. In the previous [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versions, a party was created only for the trading partner, and not for the partner hosting [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 and newer, a party must be created for all the trading partners, including the partner hosting [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In previous [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versions, the encoding (X12 and EDIFACT) and transport (AS2) protocol properties are defined at the party level. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 and newer versions, these properties are defined through agreements.  
   
  To migrate party data from previous versions, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes a Party Migration Tool. Consider the following migration paths:  
@@ -172,5 +173,5 @@ There are many recommendations in this area. Here are a few to get you started:
 [Providing High Availability for BizTalk Hosts](../core/providing-high-availability-for-biztalk-hosts.md)  
 [Best Practices: Create and Configure BizTalk Server Host and Host](http://social.technet.microsoft.com/wiki/contents/articles/19701.biztalk-server-best-practices-create-and-configure-biztalk-server-host-and-host-instances.aspx)  
 [Running Orchestrations in Multiple Hosts on the Same Computer](http://social.technet.microsoft.com/wiki/contents/articles/31183.biztalk-server-running-orchestrations-in-multiple-hosts-on-the-same-computer.aspx)  
-
+[PowerShell to Create and Configure BizTalk Server Host, Host Instances and Handlers](https://gallery.technet.microsoft.com/PowerShell-to-Configure-43d77916)  
 [BizTalk Server Resources on the TechNet Wiki](http://social.technet.microsoft.com/wiki/contents/articles/2240.biztalk-server-resources-on-the-technet-wiki.aspx)
