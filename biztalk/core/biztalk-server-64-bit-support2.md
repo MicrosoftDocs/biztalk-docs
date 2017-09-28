@@ -1,18 +1,14 @@
 ---
-title: "BizTalk Server 64-Bit Support2 | Microsoft Docs"
+title: "64-bit support overview for BizTalk Server | Microsoft Docs"
+description: 64-bit support in adapters, processes, BizTalk Administration, BAM Tools, assemblies, orchestrations, and more in BizTalk Server
 ms.custom: ""
-ms.date: "2016-01-04"
+ms.date: "09/27/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "64-bit environments, Windows support"
-  - "performance, 64-bit support"
-  - "64-bit support, performance"
-  - "BizTalk Server, 64-bit support"
 ms.assetid: 52ae9037-a7af-48e4-b6a3-bff7600802de
 caps.latest.revision: 42
 author: "MandiOhlinger"
