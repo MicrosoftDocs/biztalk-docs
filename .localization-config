@@ -1,10 +1,11 @@
 {  
-   "locales":[ 
+   "locales":[  
       "de-de",
       "fr-fr",
       "it-it",
       "ko-kr",
       "es-es",
+      "ru-ru",
       "zh-cn",
       "zh-tw",
       "ja-jp"
