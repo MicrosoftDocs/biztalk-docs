@@ -74,7 +74,7 @@ Depending on which version of Microsoft Windows you are using, you will have to 
 13. In **Application Pools**, in the **Features View**, select the new application pool, and then click **Advanced Settings** in the Actions pane.  
 
 > [!NOTE]
->  When yoe have selected the 32bit **BtsHttpReceive.dll** on Windows Server 2012 R2, set **Enable 32-Bit Application** to **True**.
+>  When you have selected the 32bit **BtsHttpReceive.dll** on Windows Server 2012 R2, set **Enable 32-Bit Application** to **True** in the **Advanced Settings**.
   
 14. In the **Advanced Settings** dialog box, in the **Process Model** section, in the **Identity** field, click the ellipsis (**…**) button.  
   
