@@ -1,7 +1,8 @@
 ---
 title: "Receive Strongly-typed Polling-based Data-changed Messages from SQL Server Using WCF Service Model | Microsoft Docs"
+description: Use a .NET application to configure typed polling, or strongly-typed polling using WCF Service with the WCF-SQL adapter in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -64,7 +65,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
  For a more complete description of these properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). For a complete description of how to use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to poll SQL Server, read further.  
   
-## Configuring Strongly-typed Polling in the WCF Service Model  
+## Configure Strongly-typed Polling in the WCF Service Model  
  To receive the **Polling** operation when you use the WCF service model, you must:  
   
 1.  Generate a WCF service contract (interface) for the **TypedPolling** operation from the metadata exposed by the adapter. To do this, you could use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. While generating the WCF service contract for this example, make sure:  
@@ -144,10 +145,8 @@ namespace SqlAdapterBindingNamespace {
 }  
 ```  
   
-## Receiving Strongly-typed Inbound Messages for Polling Operation  
+## Receive Strongly-typed Inbound Messages for Polling Operation  
  This section provides instructions on how to write a .NET application to receive strongly-typed inbound polling messages using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
-  
-#### To receive polling messages from the SQL adapter  
   
 1.  Use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] to generate a WCF service contract (interface) and helper classes for the **TypedPolling** operation. Make sure you specify the following while generating the WCF service contract for this example:  
   
