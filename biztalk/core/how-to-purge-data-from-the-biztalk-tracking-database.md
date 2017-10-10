@@ -33,7 +33,7 @@ When you purge data from the BizTalk Tracking (BizTalkDTADb) database, the DTA P
   
 ### To purge data from the BizTalk Tracking database  
   
-1.  Click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 SP2**, and then click **SQL Server Management Studio**.  
+1.  Click **Start**, click **All Programs**, click **Microsoft SQL Server _version_**, and then click **SQL Server Management Studio**. 
   
 2.  In the **Connect to Server** dialog box, specify the name of the SQL Server where the BizTalk Tracking (BizTalkDTADb) database resides and the appropriate authentication type, and then click **Connect** to connect to the SQL Server.  
   
@@ -66,6 +66,26 @@ When you purge data from the BizTalk Tracking (BizTalkDTADb) database, the DTA P
     declare @dtLastBackup datetime set @dtLastBackup = GetUTCDate() exec dtasp_PurgeTrackingDatabase 1, 0, 1, @dtLastBackup  
     ```  
   
+       With the release of the following Cumulative updates: 
+    -   [Cumulative Update 1 for BizTalk Server 2016](https://support.microsoft.com/en-us/help/3208238/cumulative-update-1-for-microsoft-biztalk-server-2016)  
+  
+    -   [Cumulative Update 5 (CU5) for BizTalk Server 2013](https://support.microsoft.com/en-us/help/3194301/cumulative-update-5-for-biztalk-server-2013)
+  
+    -   [Cumulative Update 6 for BizTalk Server 2013 R2](https://support.microsoft.com/en-us/help/4020020/cumulative-update-package-6-for-biztalk-server-2013-r2)
+         
+       there is an additional parameter that you can use:
+  
+    -   @fHardDeleteRunningInstances int = 0: if this flag is set to 1 we will delete all the running service instances older than hard delete days. By default, this new parameter is set to 0.  
+    
+    Your edited script should look be similar to this:  
+  
+    ```  
+    declare @dtLastBackup datetime set @dtLastBackup = GetUTCDate() exec dtasp_PurgeTrackingDatabase 1, 0, 1, @dtLastBackup, 1  
+    ```  
+    
+> [!NOTE]
+>  After you install this update, you must manually update the DTA Purge and Archive job definition to pass the additional parameter **@fHardDeleteRunningInstances** if you want to clean up running service instances that are older than **@nHardDays**. By default, this new parameter is set to 0. This continues the current behavior. If you require the new behavior, set this parameter to 1.
+       
 9. On the **Job Properties - DTA Purge and Archive (BizTalkDTADb)** dialog box, under **Select a page**, click **General**, select the **Enabled** check box, and then click **OK**.  
   
 ## See Also  
