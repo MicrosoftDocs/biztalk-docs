@@ -1,8 +1,9 @@
 ---
 title: "Hardware and Software Requirements for BizTalk Server 2016 | Microsoft Docs"
+description: Software prerequisites and supported version lists to install BizTalk Server 2016
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "06/08/2017"
+ms.date: "10/09/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +29,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 > The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx). 
 
 
-## Software Requirements
+## Software requirements & supported versions
 
 | Software  | 	Versions | 	Required for | 
 | --- | --- | --- | 
@@ -44,6 +45,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 | SQL Server Database Mail	| The version that comes with SQL Server. [Configure SQL Server Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.130).aspx).| Optional. <br/><br/>Required to use BAM Alerts. | 
 | SQL XML | SQL XML 4.0 with Service Pack 1. [Download SqlXml 4.0 Service Pack 1 (SP1)](https://www.microsoft.com/en-us/download/details.aspx?id=30403). | Required for BizTalk Server Runtime, Administrative Tools, and BAM. <br/><br/> SQLXML enables XML support for your SQL Server Database. It allows developers to bridge the gap between XML and relational data. You can create XML view of your existing relational data, and work with the view as if it was an XML file. <br/><br/>**Note**: <br/>The redistributable CAB file automatically installs this for you. SQL XML may have its own software requirements (such as `.NET Framework 3.5` and `.NET Framework 2.0`), which are not included in the CAB file. If the BizTalk Server has internet access, the SQL XML software requirements may automatically install. If the BizTalk Server does not have internet access, then manually install the SQL XML software requirements.| 
 | WinSCP | WinSCP version 5.7.7. [Download WinSCP](http://winscp.net).| Required to use the SFTP adapter. |
+|LOB and enterprise systems | [Supported Line-of-Business (LOB) and Enterprise systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported versions. | Required when using the adapters in the BizTalk Adapter Pack. <br/><br/> [BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md) lists the available system adapters. |
 
 ## Service Pack and Cumulative Update Support
 
