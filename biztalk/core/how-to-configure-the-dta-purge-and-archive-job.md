@@ -62,6 +62,25 @@ Before you can archive or purge data from the BizTalk Tracking (BizTalkDTADb) da
     ```  
     exec dtasp_BackupAndPurgeTrackingDatabase 1, 0, 1, '\\MyBizTalkServer\backup', null, 0  
     ```  
+         With the release of the following Cumulative updates: 
+    -   [Cumulative Update 1 for BizTalk Server 2016](https://support.microsoft.com/en-us/help/3208238/cumulative-update-1-for-microsoft-biztalk-server-2016)  
+  
+    -   [Cumulative Update 5 (CU5) for BizTalk Server 2013](https://support.microsoft.com/en-us/help/3194301/cumulative-update-5-for-biztalk-server-2013)
+  
+    -   [Cumulative Update 6 for BizTalk Server 2013 R2](https://support.microsoft.com/en-us/help/4020020/cumulative-update-package-6-for-biztalk-server-2013-r2)
+         
+       there is an additional parameter that you can use:
+  
+    -   @fHardDeleteRunningInstances int = 0: if this flag is set to 1 we will delete all the running service instances older than hard delete days. By default, this new parameter is set to 0.  
+    
+    Your edited command should now look similar to this:  
+  
+    ```  
+    exec dtasp_BackupAndPurgeTrackingDatabase 1, 0, 1, '\\MyBizTalkServer\backup', null, 0, 1  
+    ```  
+    
+> [!NOTE]
+>  After you install this update, you must manually update the DTA Purge and Archive job definition to pass the additional parameter **@fHardDeleteRunningInstances** if you want to clean up running service instances that are older than **@nHardDeleteDays**. By default, this new parameter is set to 0. This continues the current behavior. If you require the new behavior, set this parameter to 1.
   
 8.  On the **Job Properties - DTA Purge and Archive (BizTalkDTADb)** dialog box, under **Select a page**, click **General**, select the **Enabled** check box, and then click **OK**.  
   
