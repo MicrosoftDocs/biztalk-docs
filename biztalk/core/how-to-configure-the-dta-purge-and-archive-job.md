@@ -54,8 +54,8 @@ Before you can archive or purge data from the BizTalk Tracking (BizTalkDTADb) da
   
     -   @fHardDeleteRunningInstances int - Default is 0. When set to 1, it deletes all running service instances older than the @nHardDeleteDays value. 
     
-    > [!NOTE]
-    > This property is available starting with [BizTalk Server 2016 Cumulative Update 1](https://support.microsoft.com/help/3208238/cumulative-update-1-for-microsoft-biztalk-server-2016), [BizTalk Server 2013 R2 Cumulative Update 6](https://support.microsoft.com/en-us/help/4020020/cumulative-update-package-6-for-biztalk-server-2013-r2), and [BizTalk Server 2013 Cumulative Update 5](https://support.microsoft.com/help/3194301/cumulative-update-5-for-biztalk-server-2013).  
+        > [!NOTE]
+        > The @fHardDeleteRunningInstances property is available starting with [BizTalk Server 2016 Cumulative Update 1](https://support.microsoft.com/help/3208238/cumulative-update-1-for-microsoft-biztalk-server-2016), [BizTalk Server 2013 R2 Cumulative Update 6](https://support.microsoft.com/en-us/help/4020020/cumulative-update-package-6-for-biztalk-server-2013-r2), and [BizTalk Server 2013 Cumulative Update 5](https://support.microsoft.com/help/3194301/cumulative-update-5-for-biztalk-server-2013).  
   
     Your edited command should look similar to the following. In the following example, there is a live window of 1 hour, a hard purge of 1 day, and deletes all running service instances older than 1 day:  
   
