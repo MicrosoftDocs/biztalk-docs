@@ -2,7 +2,7 @@
 title: "Configure IIS for an HTTP Receive Location | Microsoft Docs"
 description: Create the BTS HTTP Receive application in IIS, and test the application pool settings in BizTalk Server
 ms.custom: ""
-ms.date: "10/09/2017"
+ms.date: "10/10/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -16,24 +16,27 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure IIS for an HTTP Receive Location
-Depending on which version of Microsoft Windows you are using, you will have to configure Microsoft Internet Information Services (IIS) differently to work with the HTTP adapter receive location.  
+The HTTP receive location uses an application within Internet Information Services (IIS). This topic lists the steps to enable the HTTP receive location within IIS. 
+
+Depending on your operating system, the steps to configure the IIS application may vary. Use these steps as a guide, as the user interface may be different on your OS.
   
 ## 32-bit vs 64-bit
 
 An HTTP receive location uses the BTSHTTPReceive.dll. There is a 32-bit and a 64-bit version of the DLL. You choose which version you want to use. 64-bit processes have more available memory, so if you process larger messages, then the 64-bit version may be best. 
 
-The 32-bit version is installed in *Program Files (x86)\Microsoft BizTalk Server\HttpReceive*.
+**32-bit install location**: *Program Files (x86)\Microsoft BizTalk Server\HttpReceive*.
+**64-bit install location**: *Program Files (x86)\Microsoft BizTalk Server\HttpReceive64*
 
-The 64-bit version is installed in *Program Files (x86)\Microsoft BizTalk Server\HttpReceive64*. To run the 64-bit version of the HTTP receive adapter in 64-bit native mode, execute the following script from a command line:  
+To run the 64-bit version of the HTTP receive adapter in 64-bit native mode,  open a command prompt, and execute the following scripts:  
 
-`cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`  
+1. Type: `cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`  
 
-`C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`  
+2. Type: `C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`  
   
 > [!NOTE]
 >  Any IIS configuration that leads to SOAP and HTTP sharing the same process is not valid. You can have only one isolated receiver per process.  
   
-##  Configure the IIS worker process isolation mode to work with the HTTP adapter receive location  
+##  Configure the IIS application
   
 1.  Open **Internet Information Services** (open **Server Manager**, select **Tools**, and select **Internet Information Services Manager**). 
   
@@ -64,16 +67,18 @@ The 64-bit version is installed in *Program Files (x86)\Microsoft BizTalk Server
 7. Select your new application pool, and open the **Advanced Settings** (**Actions** pane). In this window:
 
     - **Enable 32-Bit Application**: Set to **True** if you chose the 32-bit **BtsHttpReceive.dll**
-    - **Process Model** section, **Identity**: Select the ellipsis (**…**), select **Custom account**, and then **Set** it to an account that has permissions to the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive path. Select **OK**. 
+    - **Process Model** section, **Identity**: Select the ellipsis (**…**), select **Custom account**, and then **Set** it to an account that is a member of the **BizTalk Isolated Host Users** and **IIS_WPG** groups. Select **OK**. 
   
 8. Add a new application to the web site (right-click the **Default Web Site**, select **Add Application**). In this window:
   
     1. **Alias** : Enter an alias that you associate with the application (such as `BTS HTTP Receive`, and then **Select**.  
     2. Select the new application pool you just created, and then select **OK**.  
     3. **Physical path**: Select the ellipsis (**…**), and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive.  
-    4. Select **Connect As**, enter the **User name** and **Password** for a user account that is a member of the Administrators group, and then select **OK**.  
-    5. **Test Settings** to verify there are no errors in the **Test Connection** dialog box. **Close**, and then select **OK**.  
+    4. **Test Settings** to verify there are no errors in the **Test Connection** dialog box. **Close**, and then select **OK**.  
   
+    > [!TIP]
+    > If Test Settings returns a warning, the identity of the application pool may be missing permissions to a folder, or access to a group. As a troubleshooting step, select **Connect As**, enter the **User name** and **Password** for a user account that is a member of the Administrators group. 
+
 9. The new application appears is listed under **Default Web Sites**.  
   
 ## See Also  
