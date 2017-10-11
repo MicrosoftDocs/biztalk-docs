@@ -526,6 +526,49 @@ ms.author: mandia
                             </li>
                         </ul>
                     </li>
+                    <li>
+                        <a href="#getstart">Partner training</a>
+                        <ul id="partnertraining" class="cardsC">
+                            <li>
+                                <a href="https://www.pluralsight.com/search?q=biztalk">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="/media/common/placeholder.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Pluralsight</h3>
+                                                    <p>Learn about functoids, ESB, and more at Pluralsight.com</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.quicklearn.com/biztalk-training.aspx">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="/media/common/placeholder.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>QuickLearn</h3>
+                                                    <p>Instructor-led training for BizTalk Server administrators and developers of all skill levels at QuickLearn.com.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li>
