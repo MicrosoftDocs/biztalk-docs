@@ -42,15 +42,22 @@ The feed includes the following data tables:
 * Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) on any computer that has network access to your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * Install IIS on the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. In most [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environments, IIS is already installed. See [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). 
+* Install and configure a [Power BI Gateway](https://powerbi.microsoft.com/en-us/gateway/) to connect your on-premise BizTalk Server environment. (optional)
 
 ## Enable operational data feed
 
 1. Run Windows PowerShell as Administrator (**Start** menu, type **PowerShell**, right click, and select **Run as administrator**). 
-2. Browse to the folder where [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] is installed **Program Files (x86)/Microsoft BizTalk Server 2016**
-3. Run the following command. Be sure to update your `website`, `domain\user`, `password`, and `domain\group` with your values: 
+2. Browse to the folder where [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] is installed, by default, **c:\Program Files (x86)\Microsoft BizTalk Server 2016**
+3. Run the following command. Be sure to update your `website`, `domain\user`, `password`, and `domain\group` with your values:
+* **Service**: The service to be configured: “Management” or “OperationalData”.
+* **WebSiteName**: The existing Web Site where the service will be configured. The default value is “Default Web Site”
+* **ApplicationPool**: The Application Pool to be used by the service. If exists, will not be created. The default value is “DefaultAppPool”
+* **ApplicationPoolUser**: Configures the application pool to run as this user identity. Must have BizTalk Server Operator or higher privileges.
+* **ApplicationPoolUserPassword**: Password for the ApplicationPoolUser
+* **AuthorizationAccount**: List of authorized Groups or Users to use this service
 
     ```Powershell
-    FeaturePack.ConfigureServices.ps1 -Service operationaldata -WebSiteName '<Default Web Site>' -ApplicationPool <operationalDataServiceAppPool> -ApplicationPoolUser <domain>\<user> -ApplicationPoolUserPassword <password> -AuthorizationRoles '<domain>\<group1>, <domain>\<group2>'
+    FeaturePack.ConfigureServices.ps1 -Service operationaldata -WebSiteName '<Default Web Site>' -ApplicationPool <operationalDataServiceAppPool> -ApplicationPoolUser <domain>\<user> -ApplicationPoolUserPassword <password> -AuthorizationRoles '<domain>\<group>, <domain>\<user>'
     ```
 4. After you run the script, browse the new IIS Application:  
     1. Open your web browser
@@ -60,9 +67,9 @@ The feed includes the following data tables:
 To access the Power BI Template file, and use the provided visualization from Microsoft, use the following steps:
 
 1. Download and install the [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-2. Browse to your BizTalk Server folder under **Program Files (x86)\Microsoft BizTalk Server 2016\OperationalDataService**.
+2. Browse to your BizTalk Server folder by default under **C:\Program Files (x86)\Microsoft BizTalk Server 2016\OperationalDataService**.
 3. Open the **BizTalkOperationalData.pbit** file.
-4. When prompted from Power BI, paste the **http://localhost/\<yourWebSite\>** URL that you created for your OData feed. For example, enter **http://localhost/OperationalDataService**. 
+4. When prompted from Power BI, paste the **http://localhost/\<yourWebSite\>** URL that you created for your OData feed. For example, enter **http://localhost/BizTalkOperationalDataService**. 
 
     Your URL looks similar to the following: 
 	
