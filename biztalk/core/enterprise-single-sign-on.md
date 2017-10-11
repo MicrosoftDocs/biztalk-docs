@@ -1,5 +1,5 @@
 ---
-title: "Enterprise Single Sign-On2 | Microsoft Docs"
+title: "Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
