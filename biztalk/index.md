@@ -318,6 +318,25 @@ ms.author: mandia
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="/biztalk/dev-center/his-biztalk-adapters">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="/media/hubs/biztalk/biztallk-get-started-adapters-host-system.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>BizTalk adapters for host system</h3>
+                                                    <p>Host Integration Server (HIS) includes adapters that connect to Host Applications, Host Files, DB2, and WebSphere MQ. These adapters are built-in, and can be used within your BizTalk applications.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -536,7 +555,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="/media/common/placeholder.svg" alt="" />
+                                                        <img src="/media/hubs/biztalk/biztalk-partner-training-pluralsight.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -555,7 +574,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="/media/common/placeholder.svg" alt="" />
+                                                        <img src="/media/hubs/biztalk/biztalk-partner-training-quick-learn.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
