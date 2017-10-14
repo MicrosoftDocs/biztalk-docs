@@ -913,7 +913,7 @@ BTAXXXTrace -transmitter -stop
 >  You use the tracerpt.exe command to format the .etl files.  
 
 ## Next steps
-* [JD Edwards EnterpriseOne adapter](../core/core/jd-edwards-enterpriseone-adapter.md)
+* [JD Edwards EnterpriseOne adapter](../core/jd-edwards-enterpriseone-adapter.md)
 * [JD Edwards OneWorld adapter](../core/jd-edwards-oneworld-adapter.md)
 * [PeopleSoft Enterprise adapter](../core/peoplesoft-enterprise-adapter.md)
 * [TIBCO Enterprise Message Service adapter](../core/tibco-enterprise-message-service-adapter.md)
