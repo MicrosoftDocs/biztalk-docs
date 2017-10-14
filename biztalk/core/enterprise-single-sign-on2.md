@@ -1,7 +1,8 @@
 ---
-title: "Enterprise Single Sign-On2 | Microsoft Docs"
+title: "Enterprise single sign-on overview | Microsoft Docs"
+description: Read about affilicate applications, using SSO tickets to process messages, and adminster SSO in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/11/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -14,12 +15,12 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Enterprise Single Sign-On
+# Enterprise Single Sign-On Overview
 A business process that relies on several different applications may have to cross several different security domains. Accessing an application on a Microsoft Windows system may require one set of security credentials, while accessing an application on an IBM mainframe may require different credentials, such as an RACF username and password. Dealing with this profusion of credentials is difficult for users, and it can be even harder for automated processes. To address this problem, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes Enterprise Single Sign-On.  
   
  Don’t be confused—this isn’t a mechanism that lets people have one login for all applications. Instead, Enterprise Single Sign-On provides a way to map a Windows user ID to non-Windows user credentials. It does not solve all of an organization’s enterprise sign-on problems, but this service can make things simpler for business processes that use applications on diverse systems.  
   
-## Creating Affiliate Application for Non-Windows Systems  
+## Create Affiliate Application for Non-Windows Systems  
  To use Enterprise Single Sign-On, an administrator defines affiliate applications, each of which represents a non-Windows system or application. For example, an affiliate application might be a CICS application running on an IBM mainframe, an SAP ERP system running on Unix, or any other kind of software. Each of these applications has its own mechanism for authentication, and so each requires its own unique credentials.  
   
  Enterprise Single Sign-On stores an encrypted mapping between a user’s Windows user ID and his credentials for one or more affiliate applications in an SSO database. When this user needs to access an affiliate application, the credentials for that application can be looked up in the SSO database by a Single Sign-On (SSO) Server. The diagram below shows how this works.  
