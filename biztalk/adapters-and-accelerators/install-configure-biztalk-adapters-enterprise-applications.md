@@ -836,7 +836,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 -   bin\BTATrace.cmd    
 -   config\btaTrace.mof  
   
-## Use Windows trace event  
+### Use Windows trace event  
  The adapters log error, warning, and information messages to the Windows Event Viewer. You can view additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is enabled, it creates an *.etl file to receive the messages. This file is in binary format and must be converted to be read. To do this, you must have a consumer application available to interpret the \*.etl file, for example, Windows tracerpt.exe or tracedmp.exe.  
   
 ### ETW components
@@ -911,4 +911,10 @@ BTAXXXTrace -transmitter -stop
   
 > [!NOTE]
 >  You use the tracerpt.exe command to format the .etl files.  
-  
+
+## Next steps
+* [JD Edwards EnterpriseOne adapter](../core/core/jd-edwards-enterpriseone-adapter.md)
+* [JD Edwards OneWorld adapter](../core/jd-edwards-oneworld-adapter.md)
+* [PeopleSoft Enterprise adapter](../core/peoplesoft-enterprise-adapter.md)
+* [TIBCO Enterprise Message Service adapter](../core/tibco-enterprise-message-service-adapter.md)
+* [TIBCO Rendezvous adapter](../core/tibco-rendezvous-adapter.md)
