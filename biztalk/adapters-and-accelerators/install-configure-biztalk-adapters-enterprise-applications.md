@@ -37,7 +37,7 @@ manager: "anneta"
 
 ||Requirements|  
 |---|---|
-|Operating System|The adapter supports the same OS as [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkServerNoVersion_md.md)]:<ul><li>[BizTalk Server 2016 requirements](hardware-and-software-requirements-for-biztalk-server-2016.md)</li><li>[BizTalk Server 2013 R2 / 2013 requirements](hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)</li></ul>|
+|Operating System|The adapter supports the same OS as BizTalk Server:<ul><li>[BizTalk Server 2016 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)</li><li>[BizTalk Server 2013 R2 / 2013 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)</li></ul>|
 |Supported enterprise system|[Supported Line-of-Business (LOB) and Enterprise systems](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported versions |
 |JD Edwards OneWorld XE | <ul><li>JD Edwards Enterprise server on Windows</li><li>JD Edwards Deployment server on Windows</li></ul>|
 |JD Edwards EnterpriseOne | The adapter calls the JD Edwards EnterpriseOne API that uses JDBC, which needs a driver for the database. If you install JD Edwards EnterpriseOne with a SQL database, you need MS-SQL drivers. Similarly if you installed JD Edwards EnterpriseOne with an Oracle database, you need Oracle drivers; or if you installed with a DB2 database, you need DB2 drivers. |
@@ -69,7 +69,7 @@ This sections includes key information on using the Microsoft BizTalk Adapter fo
  BizTalk Adapter for JD Edwards OneWorld provides the JDEJAccess JAR file for use with JD Edwards OneWorld. By default, the JDEJAccess.jar file is referenced from *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld(r)\classes\JDEJAccess.jar*. 
   
 > [!NOTE]
->  You must verify the registration of the jdeinterop.ini file before you can use BizTalk Adapter for JD Edwards OneWorld. Make sure that you include a path to this file in the **JDE Transport Property** page when you create the send port in [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkServerNoVersion_md.md)]. For a complete explanation, see "Customize the jdeinterop.ini File."  
+>  You must verify the registration of the jdeinterop.ini file before you can use BizTalk Adapter for JD Edwards OneWorld. Make sure that you include a path to this file in the **JDE Transport Property** page when you create the send port in BizTalk Server. For a complete explanation, see "Customize the jdeinterop.ini File."  
   
 #### Create the BTSLIBinterop.jar File  
 Create the file, and confirm it can be accessed by the adapter. Use the following sample as a guide:  
@@ -563,9 +563,9 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
 The **Component Interface Tester** window opens. There should be no keys listed. If your GET_CI_INFO contains keys, or if there is another option for selection, return to the Application Designer, and eliminate all keys from GET_CI_INFO.  
   
 ## Install the adapters
- Before you install, be sure [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkServerNoVersion_md.md)] and all the software prerequisites for the adapters are installed. It is recommended that you close all applications before running Setup.  
+ Before you install, be sure BizTalk Server and all the software prerequisites for the adapters are installed. It is recommended that you close all applications before running Setup.  
   
-1.  Run the [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkServerNoVersion_md.md)] **Setup.exe**, select **Install Microsoft BizTalk Adapters**, and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.  
+1.  Run the BizTalk Server **Setup.exe**, select **Install Microsoft BizTalk Adapters**, and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.  
   
     > [!NOTE]
     >  - You can also run a silent installation using the following command: msiexec /i <msi\> /qn /l* <logfile\> -- where <logfile\> is optional, but is useful in the event of a failed installation.  
@@ -598,9 +598,8 @@ The **Component Interface Tester** window opens. There should be no keys listed.
 >  2. Type: `net user "CREATOR OWNER" /add`. This creates a new user called CREATOR OWNER.
 >  3. Type: `net localgroup Users /add`. This creates a new group called Users.
   
-To add the adapters to [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkServerNoVersion_md.md)], see the section, [Adding the BizTalk Adapters for Enterprise Applications to BizTalk Server](../Topic/Installing%20and%20Configuring%20Microsoft%20BizTalk%20Adapters%20for%20Enterprise%20Application.md#BKMK_AddAdapters).  
+To add the adapters to BizTalk Server, see "Add the adapters BizTalk Admin console" in this topic.
 
-<a name="BKMK_AddAdapters"></a>   
 ## Add the adapters BizTalk Admin console
   
 > [!NOTE]
@@ -718,7 +717,7 @@ To add the adapters to [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkS
   
 -   The transmit side enables you to invoke a server system’s call from BizTalk Server.  
   
- See the adapter documentation for information about how to use Microsoft BizTalk Adapter for TIBCO Rendezvous and about the mapping between its model and the [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkServerNoVersion_md.md)] model.  
+ See the adapter documentation for information about how to use Microsoft BizTalk Adapter for TIBCO Rendezvous and about the mapping between its model and the BizTalk Server model.  
   
 ### Installed components  
 * The adapter installation installs and registers the following components in the global assembly cache (GAC). You can verify the registration by opening the assembly folder in your explorer (<%WINDIR%>\assembly), or use the `gacutil /l` from the Visual Studio command prompt: 
@@ -781,7 +780,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 
 -   The transmit side enables you to invoke a server system’s call from BizTalk Server.  
   
- See the adapter documentation for information about how to use BizTalk Adapter for TIBCO EMS and about the mapping between its model and the [!INCLUDE[btsBizTalkServerNoVersion](../Token/btsBizTalkServerNoVersion_md.md)] model.  
+ See the adapter documentation for information about how to use BizTalk Adapter for TIBCO EMS and about the mapping between its model and the BizTalk Server model.  
   
 ### Installed components  
 * The adapter installation installs and registers the `Microsoft.BizTalk.Adapters.TibcoEMS.dll` file in the global assembly cache (GAC). You can verify the registration by opening the assembly folder in your explorer (<%WINDIR%>\assembly), or use the `gacutil /l` from the Visual Studio command prompt.
@@ -830,14 +829,13 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 ## Adapter tracing
 
 ### Enable tracing
- The file name used with Windows tracing is up to the administrator. The application writes to the operating system, which ignores all logs until you want the logs for a particular back-end system. You do this by running a separate BizTalk Adapters for Enterprise Applications command file. One of the arguments for that command is the name of the file that is used to capture the trace information. For more information, see [Using Windows Trace Event](../Topic/Installing%20and%20Configuring%20Microsoft%20BizTalk%20Adapters%20for%20Enterprise%20Application.md#BKMK_TraceEvent).  
+ The file name used with Windows tracing is up to the administrator. The application writes to the operating system, which ignores all logs until you want the logs for a particular back-end system. You do this by running a separate BizTalk Adapters for Enterprise Applications command file. One of the arguments for that command is the name of the file that is used to capture the trace information. For more information, see "Use Windows trace event" (in this topic).
   
  Trace files install to *\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\*.  
   
 -   bin\BTATrace.cmd    
 -   config\btaTrace.mof  
   
-<a name="BKMK_TraceEvent"></a>   
 ## Use Windows trace event  
  The adapters log error, warning, and information messages to the Windows Event Viewer. You can view additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is enabled, it creates an *.etl file to receive the messages. This file is in binary format and must be converted to be read. To do this, you must have a consumer application available to interpret the \*.etl file, for example, Windows tracerpt.exe or tracedmp.exe.  
   
