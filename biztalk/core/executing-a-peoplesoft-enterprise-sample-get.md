@@ -25,7 +25,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 -   Microsoft BizTalk Adapters for Enterprise Applications  
   
--   Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   Microsoft Visual Studio  
   
 -   Sun Systems Java Development Kit (JDK) version 1.4 or higher  
   

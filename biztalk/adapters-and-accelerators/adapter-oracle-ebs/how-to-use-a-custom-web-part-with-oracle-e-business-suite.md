@@ -33,7 +33,7 @@ This section provides information about using a custom Web Part with Microsoft O
 ##  <a name="Create_a_Custom_Web_Part"></a> Step 1: Create a custom Web Part  
  To create a custom Web Part using Visual Studio, do the following:  
   
-1.  Start[!INCLUDE[vs2010](../../includes/vs2010-md.md)], and then create a project.  
+1.  StartVisual Studio, and then create a project.  
   
 2.  In the **New Project** dialog box, from the **Project types** pane, select **Visual C#**. From the **Templates** pane, select **Class Library**.  
   

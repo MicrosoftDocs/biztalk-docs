@@ -26,7 +26,7 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides Si
   
 -   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
   
--   [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   Visual Studio  
   
 -   Enterprise Single Sign-On  
   

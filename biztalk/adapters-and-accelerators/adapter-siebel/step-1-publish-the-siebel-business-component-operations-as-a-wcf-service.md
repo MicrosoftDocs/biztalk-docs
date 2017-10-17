@@ -41,7 +41,7 @@ manager: "anneta"
      Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**. From the **Templates** pane, select **WCF Adapter Service**.  
   
     > [!NOTE]
-    >  If you installed [!INCLUDE[vs2010](../../includes/vs2010-md.md)] with the Web Development component, the **WCF Adapter Service** template is also available from the **New Website** option.  
+    >  If you installed Visual Studio with the Web Development component, the **WCF Adapter Service** template is also available from the **New Website** option.  
   
 3.  Specify a name and location for the solution, and then click **OK**. The WCF Adapter Service Development Wizard starts.  
   

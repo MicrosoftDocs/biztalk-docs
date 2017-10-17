@@ -26,9 +26,9 @@ manager: "anneta"
   
 ### To compile and deploy the Web project  
   
-1.  In [!INCLUDE[vs2010](../../includes/vs2010-md.md)], load the EchoWeb project created previously.  
+1.  In Visual Studio, load the EchoWeb project created previously.  
   
-2.  Open a [!INCLUDE[vs2010](../../includes/vs2010-md.md)] command prompt.  
+2.  Open a Visual Studio command prompt.  
   
 3.  At the command prompt, from the C:\tutorials\echoweb folder, type the following command, and then press ENTER:  
   

@@ -254,7 +254,7 @@ The following steps describe how to prepare the computer for installing the inli
     -   MainFrameProgramVTCS2Descriptoin.txt contains COMMAREA which describes the input and output data information. COMMAREA is a block of contiguous memory used to pass data back and forth between called and calling programs.  
   
     > [!NOTE]
-    >  You can also use the copy book to generate the Transaction Integrator (TI) metadata file using [!INCLUDE[vs2010](../includes/vs2010-md.md)] with the TI Designer plug-in.  
+    >  You can also use the copy book to generate the Transaction Integrator (TI) metadata file using Visual Studio with the TI Designer plug-in.  
   
     > [!NOTE]
     >  Although the following steps are crucial to the successful deployment, they are not usually performed by the BizTalk Server developer. You must rely on the mainframe personnel to properly configure the mainframe environment. The software required for this walkthrough is usually installed in the most mainframe environments. For more information about the minimum mainframe operating system environment, see the Host Integration Server documentation.  

@@ -75,7 +75,7 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 1.  Start **Microsoft [!INCLUDE[vs2012](../../includes/vs2012-md.md)]**.  
   
-2.  In [!INCLUDE[vs2010](../../includes/vs2010-md.md)], on the **File** menu, select **New** and then click **Project**.  
+2.  In Visual Studio, on the **File** menu, select **New** and then click **Project**.  
   
 3.  In the **New Project** dialog box, expand **Other Languages** and click **Visual C#**. Find the **WCF Adapter Service** in the template list and click it to select it.  
   
@@ -119,7 +119,7 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
 ## Publishing the New Service to IIS  
  For this example you will publish the adapter host service to the local IIS web server.  
   
-1.  In Solution Explorer for [!INCLUDE[vs2010](../../includes/vs2010-md.md)], right click the **ScottEmp** project and click **Properties**. The Project Designer tabs are displayed.  
+1.  In Solution Explorer for Visual Studio, right click the **ScottEmp** project and click **Properties**. The Project Designer tabs are displayed.  
   
 2.  Click the **Web** tab, then click the **Use Local IIS Web server** option.  
   
@@ -176,4 +176,4 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 ## Troubleshooting  
   
--   On 64-bit machines you must make sure that 32-bit Oracle client components are also installed. This is because [!INCLUDE[vs2010](../../includes/vs2010-md.md)] and it’s wizards will be running as a 32-bit process requiring access to 32-bit components during development.
+-   On 64-bit machines you must make sure that 32-bit Oracle client components are also installed. This is because Visual Studio and it’s wizards will be running as a 32-bit process requiring access to 32-bit components during development.

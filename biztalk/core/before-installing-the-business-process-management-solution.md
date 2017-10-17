@@ -31,7 +31,7 @@ The following prerequisites must be installed to deploy the Business Process Man
   
 -   ASP.NET 4 enabled  
   
--   Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   Microsoft Visual Studio  
   
 -   Microsoft Excel  
   

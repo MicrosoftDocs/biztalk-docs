@@ -25,7 +25,7 @@ This section provides information about how to use Microsoft [!INCLUDE[btsVStudi
   
 -   The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] is installed on the computer.  
   
--   Microsoft [!INCLUDE[vs2010](../../includes/vs2010-md.md)] is installed on the computer.  
+-   Microsoft Visual Studio is installed on the computer.  
   
 ## Importing Data by Using Visual Studio  
  Perform the following steps to import data using [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  

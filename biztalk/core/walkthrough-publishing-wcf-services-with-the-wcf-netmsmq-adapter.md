@@ -201,7 +201,7 @@ manager: "anneta"
   
 ## Build the client application  
   
-1.  Open a [!INCLUDE[vs2010](../includes/vs2010-md.md)] command prompt as Administrator and go to the **C:\WCFNetMsmqAdapterPublishing\WCFClient** folder. This is where you will place the proxy class and application configuration file.  
+1.  Open a Visual Studio command prompt as Administrator and go to the **C:\WCFNetMsmqAdapterPublishing\WCFClient** folder. This is where you will place the proxy class and application configuration file.  
   
 2.  Paste the entire svcutil.exe command line containing the full WSDL address that you copied in the previous procedure, and then press ENTER. This creates the proxy class, **BizTalkServiceInstance.cs**, and application configuration file, **output.config**. Keep the command prompt window open for use during the final section.  
   
@@ -215,7 +215,7 @@ manager: "anneta"
   
 7.  Expand **References**, and then make sure that the **WCFClient** project has **System.ServiceModel.dll** referenced.  
   
-8.  Right-click the **WCFClient** project and select **Build**. Keep [!INCLUDE[vs2010](../includes/vs2010-md.md)] open and go to the next section.  
+8.  Right-click the **WCFClient** project and select **Build**. Keep Visual Studio open and go to the next section.  
   
 ## Test the sample solution with the WCF-NetMsmq adapter  
   
@@ -231,7 +231,7 @@ manager: "anneta"
   
 4.  Press any key to close the WCFClient application.  
   
-5.  In the [!INCLUDE[vs2010](../includes/vs2010-md.md)] Command Prompt, go to the **C:\WCFNetMsmqAdapterPublishing\Out** folder, and then make sure the response message that the WCFClient application sent back exists.  
+5.  In the Visual Studio Command Prompt, go to the **C:\WCFNetMsmqAdapterPublishing\Out** folder, and then make sure the response message that the WCFClient application sent back exists.  
   
 6.  Double-click the {GUID}.xml file to open it in Internet Explorer and view the **OrderID** value processed by the service.  
   

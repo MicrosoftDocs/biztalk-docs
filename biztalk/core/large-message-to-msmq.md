@@ -47,8 +47,8 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
 |--------------|---------------------|  
 |**MQRTLarge.dll**|Provides an add-on for native message queuing. Exposes the **MQSendLargeMessage** and **MQReceiveLargeMessage** APIs.<br /><br /> You must install [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] on a 64-bit version of Windows in order to access the 64-bit version of MQRTLarge.dll.<br /><br /> For an MSMQ solution without [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], the MQRTLarge.dll may still function correctly. However, this is not a recommended configuration that Microsoft supports, and unexpected results may occur if used outside of the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] environment.|  
 |||  
-|**LargeMessages.sln**|Provides a [!INCLUDE[vs2010](../includes/vs2010-md.md)] solution to create the SendLargeMessage executable used in the sample.|  
-|**XMLCreator.sln**|Provides a [!INCLUDE[vs2010](../includes/vs2010-md.md)] solution to create the XMLCreator executable to generate a test .xml file for the SDK sample.|  
+|**LargeMessages.sln**|Provides a Visual Studio solution to create the SendLargeMessage executable used in the sample.|  
+|**XMLCreator.sln**|Provides a Visual Studio solution to create the XMLCreator executable to generate a test .xml file for the SDK sample.|  
   
 ## Configuring BizTalk Server and Creating the MSMQ Queue  
  Ensure that you have [!INCLUDE[vs2010](../includes/vs2010-md.md)], Microsoft Message Queuing, and [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installed.  

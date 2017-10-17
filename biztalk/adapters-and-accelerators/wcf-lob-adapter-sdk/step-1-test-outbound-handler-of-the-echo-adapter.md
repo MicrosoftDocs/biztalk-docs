@@ -19,7 +19,7 @@ manager: "anneta"
   
  **Time to Complete:** 15 minutes  
   
- In this step, you will test the three outbound operations provided by the Echo Adapter. You will do this using [!INCLUDE[vs2010](../../includes/vs2010-md.md)], the Add Adapter Service Reference Visual Studio Plug-In and custom code.  
+ In this step, you will test the three outbound operations provided by the Echo Adapter. You will do this using Visual Studio, the Add Adapter Service Reference Visual Studio Plug-In and custom code.  
   
 ## Prerequisites  
  To complete this step, you must have completed [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md).  
@@ -184,7 +184,7 @@ manager: "anneta"
   
 7.  In the EchoCustomGreetingsFromFile test code, make sure the custom greeting uses the file you created in a previous procedure. Change the code to reflect the location of your file.  
   
-8.  In [!INCLUDE[vs2010](../../includes/vs2010-md.md)], on the **File** menu, click **Save All**.  
+8.  In Visual Studio, on the **File** menu, click **Save All**.  
   
 9. Run the application. You should see output similar to the following:  
   
