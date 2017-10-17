@@ -1,27 +1,26 @@
 ---
-title: "Getting Started with BizTalk Adapter for JD Edwards OneWorld | Microsoft Docs"
+title: "Get started with BizTalk Adapter for JD Edwards OneWorld | Microsoft Docs"
+description: Install and step through a tutorial for the BizTalk Adapter for JD Edwards OneWorld in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "getting started"
 ms.assetid: 79f2c176-bc61-4998-b21f-e5082fd977bb
 caps.latest.revision: 10
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Getting Started with BizTalk Adapter for JD Edwards OneWorld
+# Get started with BizTalk Adapter for JD Edwards OneWorld
+
+## Overview
 Microsoft BizTalk Adapter for JD Edwards OneWorld enables you to use JD Edwards OneWorld business functions within BizTalk Server. This section introduces the adapter, describes its key features, describes how to set it up to access JD Edwards OneWorld-specific information, and provide a short tutorial.  
   
-## In This Section  
-  
--   [Preparing JD Edwards OneWorld](../core/preparing-jd-edwards-oneworld.md)  
+## Next steps
   
 -   [Installing BizTalk Adapter for JD Edwards OneWorld](../core/installing-biztalk-adapter-for-jd-edwards-oneworld.md)  
   

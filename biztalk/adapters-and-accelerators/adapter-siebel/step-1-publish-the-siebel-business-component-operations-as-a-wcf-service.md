@@ -32,7 +32,7 @@ manager: "anneta"
   
  For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide. The installation guide is typically installed at \<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
-### To publish the Siebel Business Components as a WCF Service  
+## Publish the Siebel Business Components as a WCF Service  
   
 1.  Start [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], and then create a project.  
   
@@ -41,7 +41,7 @@ manager: "anneta"
      Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**. From the **Templates** pane, select **WCF Adapter Service**.  
   
     > [!NOTE]
-    >  If you installed [!INCLUDE[vs2010](../../includes/vs2010-md.md)] with the Web Development component, the **WCF Adapter Service** template is also available from the **New Website** option.  
+    >  If you installed Visual Studio with the Web Development component, the **WCF Adapter Service** template is also available from the **New Website** option.  
   
 3.  Specify a name and location for the solution, and then click **OK**. The WCF Adapter Service Development Wizard starts.  
   
@@ -94,7 +94,7 @@ manager: "anneta"
         |X509FindType|The type of X.509 search to be executed.<br /><br /> **Note:** Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
   
         > [!NOTE]
-        >  For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771).  
+        >  For more information about the certificates and the associated properties, see [X509ClientCertificateCredentialsElement Properties](https://msdn.microsoft.com/library/system.servicemodel.configuration.x509clientcertificatecredentialselement_properties.aspx).
   
     2.  In the **Endpoint Behavior Configuration** box, specify values for the following:  
   
@@ -117,7 +117,7 @@ manager: "anneta"
   
     |For the property|Specify the value|  
     |----------------------|-----------------------|  
-    |Binding Configuration|The wizard only supports basic HTTP binding. So, the binding configuration field is automatically populated to *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Click the ellipsis button **(…)** to change the properties for HTTP binding. To use a secure communication channel, you must always set the **Mode** property to **Transport**. The wizard sets the default value for the **Mode** property as **Transport**.<br /><br /> For more information about the other bindings exposed, see "BasicHttpBindingElement Members" at [http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773).|  
+    |Binding Configuration|The wizard only supports basic HTTP binding. So, the binding configuration field is automatically populated to *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Click the ellipsis button **(…)** to change the properties for HTTP binding. To use a secure communication channel, you must always set the **Mode** property to **Transport**. The wizard sets the default value for the **Mode** property as **Transport**.<br /><br /> For more information about the other bindings exposed, see [BasicHttpBindingElement Class](https://msdn.microsoft.com/library/system.servicemodel.configuration.basichttpbindingelement.aspx).|  
     |Endpoint Name|Specify an endpoint name for the contract.|  
   
      The other fields on this page are automatically populated based on the values you specified in the earlier pages.  
@@ -145,7 +145,7 @@ manager: "anneta"
   
 16. Publish the WCF service.  
   
-    1.  Make sure SSL is enabled for Internet Information Services (IIS). For instructions on how to enable SSL for IIS, see [http://go.microsoft.com/fwlink/?LinkId=197170](http://go.microsoft.com/fwlink/?LinkId=197170).  
+    1.  Make sure SSL is enabled for Internet Information Services (IIS). See [How to Set Up SSL](https://docs.microsoft.com/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
   
     2.  Right-click the project in Solution Explorer, and then click **Publish**.  
   

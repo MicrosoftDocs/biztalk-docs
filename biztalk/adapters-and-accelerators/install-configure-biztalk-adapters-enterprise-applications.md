@@ -562,7 +562,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 The **Component Interface Tester** window opens. There should be no keys listed. If your GET_CI_INFO contains keys, or if there is another option for selection, return to the Application Designer, and eliminate all keys from GET_CI_INFO.  
   
-## Install the adapters
+## Install steps
  Before you install, be sure BizTalk Server and all the software prerequisites for the adapters are installed. It is recommended that you close all applications before running Setup.  
   
 1.  Run the BizTalk Server **Setup.exe**, select **Install Microsoft BizTalk Adapters**, and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.  
@@ -598,9 +598,9 @@ The **Component Interface Tester** window opens. There should be no keys listed.
 >  2. Type: `net user "CREATOR OWNER" /add`. This creates a new user called CREATOR OWNER.
 >  3. Type: `net localgroup Users /add`. This creates a new group called Users.
   
-To add the adapters to BizTalk Server, see "Add the adapters BizTalk Admin console" in this topic.
+To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in this topic.
 
-## Add the adapters BizTalk Admin console
+## Add adapters to BizTalk Admin
   
 > [!NOTE]
 >  If you install BizTalk in a multicomputer environment (runtime-only installation on one computer, and an administration tools-only installation on another computer),  you should install the BizTalk Adapters for Enterprise Applications on both the computers.  
@@ -613,7 +613,7 @@ To add the adapters to BizTalk Server, see "Add the adapters BizTalk Admin conso
   
 4.  Select the name you entered from the **Adapter** list, and select **OK**.  
    
-## Post-install overview - JD Edwards OneWorld  
+## Post-install - JD Edwards OneWorld  
  Microsoft BizTalk Adapter for JD Edwards OneWorld consists of a transmit adapter that interfaces supported databases and server systems to Microsoft BizTalk Server. The transmit adapter enables you to invoke a server system's call from BizTalk Server. The transmit adapter (the BizTalk Server Administration Send Handler) configuration specifies the location of the SQL database.  
   
  See the adapter documentation for information about how to use BizTalk Adapter for JD Edwards OneWorld and about the mapping between its model and the BizTalk Server model.  
@@ -650,7 +650,7 @@ To add the adapters to BizTalk Server, see "Add the adapters BizTalk Admin conso
     -   Microsoft.BizTalk.Adapters.JDEProperties.dll    
     -   jdecba.dll  
   
-## Post-install overview - JD Edwards EnterpriseOne  
+## Post-install - JD Edwards EnterpriseOne  
  Microsoft BizTalk Adapter for JD Edwards EnterpriseOne contains a transmit adapter that interfaces with supported databases and server systems to BizTalk Server. The transmit adapter enables you to invoke a server system’s call from BizTalk Server.  
   
  BizTalk Adapter for JD Edwards EnterpriseOne provides support for Enterprise Single Sign-On (SSO). If you select to use SSO in the **Transport Properties** page, the credentials for the affiliate application in the SSO Credentials database are used. An affiliate application represents an application—a back-end that requires credentials.  
@@ -680,7 +680,7 @@ To add the adapters to BizTalk Server, see "Add the adapters BizTalk Admin conso
     -   Sdk  
   
  
-## Post-install overview - PeopleSoft Enterprise  
+## Post-install - PeopleSoft Enterprise  
  Microsoft BizTalk Adapter for PeopleSoft Enterprise contains a transmit adapter that interfaces supported databases and server systems to BizTalk Server. The transmit adapter enables you to invoke a server system’s call from BizTalk Server. The transmit adapter (the BizTalk Server Administration Send Handler) configuration specifies the location of the SQL database.  
   
  BizTalk Adapter for PeopleSoft Enterprise provides support for Enterprise Single Sign-On (SSO). If you select to use SSO in the **Transport Properties** page, the credentials for the affiliate application in the SSO Credentials database are used. An affiliate application represents an application—a back-end that requires credentials.  
@@ -773,7 +773,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
   
  The TIBCO.Rendezvous.dll now shows GAC list. To view the list, in Control Panel, open **Administrator Tools**, open **Microsoft .NET Framework Configuration**, and then open **Assembly Cache**.  
   
-## Post-install overview - TIBCO Enterprise Message Service  
+## Post-install - TIBCO Enterprise Message Service  
  Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) contains receive and transmit functionality that interface with supported databases and server systems to BizTalk Server.  
   
 -   The receive side listens for calls that are outbound from the server system.  

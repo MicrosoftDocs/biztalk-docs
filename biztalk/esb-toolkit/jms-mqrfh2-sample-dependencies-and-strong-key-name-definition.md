@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # JMS MQRFH2 Sample Dependencies and Strong Key Name Definition
-The [!INCLUDE[vs2010](../includes/vs2010-md.md)] project ESB.JMS.PipelineComponents depends on the following folder:  
+The Visual Studio project ESB.JMS.PipelineComponents depends on the following folder:  
   
 -   \<BizTalk Server Installation Directory>. This folder provides access to the following namespaces:  
   
