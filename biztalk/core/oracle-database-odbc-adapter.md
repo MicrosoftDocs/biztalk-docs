@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/adapters-and-accelerators/adapter-oracle-database/microsoft-biztalk-adapter-for-oracle-database-documentation.md
+redirect_url: /biztalk/adapters-and-accelerators/adapter-oracle-database/microsoft-biztalk-adapter-for-oracle-database-documentation
 redirect_document_id: TRUE
 --- 
 

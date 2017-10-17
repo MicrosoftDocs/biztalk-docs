@@ -1,5 +1,5 @@
 ---
-title: "Requirements for Single Sign-On2 | Microsoft Docs"
+title: "Requirements for Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,12 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "enabling SSO"
-  - "Single Sign-On, requirements"
-  - "SSO, enabling"
-  - "Single Sign-On, enabling"
-  - "SSO requirements"
 ms.assetid: ae4b5c1f-1718-4628-9159-2fb877498913
 caps.latest.revision: 11
 author: "MandiOhlinger"
@@ -23,7 +17,7 @@ manager: "anneta"
 # Requirements for Single Sign-On
 To use Single Sign-On (SSO), you need:  
   
--   [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   BizTalk Server
   
 -   Visual Studio  
   
@@ -33,7 +27,7 @@ To use Single Sign-On (SSO), you need:
   
  The isolated host should be configured as authentication trusted.  
   
-### To enable SSO  
+## Enable SSO  
   
 1.  In the **Transport Properties** window, select **Yes** for **Use SSO**.  
   

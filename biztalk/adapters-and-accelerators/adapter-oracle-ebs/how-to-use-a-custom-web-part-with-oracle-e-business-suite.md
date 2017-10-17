@@ -31,9 +31,8 @@ This section provides information about using a custom Web Part with Microsoft O
 -   Create an application definition file for the Oracle E-Business Suite artifacts using the Business Data Catalog in Microsoft Office SharePoint Server. For more information, see [Step 2: Create an application definition file for the Oracle E-Business Suite artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md) in [Tutorial: Present data from Oracle E-Business Suite on a SharePoint Site](Tutorial:%20Present%20data%20from%20Oracle%20E-Business%20Suite%20on%20a%20SharePoint%20Site.md).  
   
 ##  <a name="Create_a_Custom_Web_Part"></a> Step 1: Create a custom Web Part  
- To create a custom Web Part using Visual Studio, do the following:  
   
-1.  StartVisual Studio, and then create a project.  
+1.  Start Visual Studio, and then create a project.  
   
 2.  In the **New Project** dialog box, from the **Project types** pane, select **Visual C#**. From the **Templates** pane, select **Class Library**.  
   

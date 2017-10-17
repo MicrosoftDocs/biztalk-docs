@@ -8,9 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSIS"
-  - "Data Provider for Siebel, importing Siebel data by using Visual Studio"
 ms.assetid: 33701361-eca2-4795-a5e0-78162a98e9ba
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -27,11 +24,8 @@ This section provides information about how to use Microsoft [!INCLUDE[btsVStudi
   
 -   Microsoft Visual Studio is installed on the computer.  
   
-## Importing Data by Using Visual Studio  
- Perform the following steps to import data using [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
-  
-#### To import data by using Visual Studio  
-  
+## Import in Visual Studio  
+ 
 1.  Start [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and create an Integration Service project.  
   
 2.  From the **Project** menu, select **SSIS Import and Export Wizard**. This starts the SQL Server Import and Export Wizard.  
@@ -88,18 +82,16 @@ This section provides information about how to use Microsoft [!INCLUDE[btsVStudi
   
 16. The wizard adds an SSIS package to your Integration Service project. Save the Integration Service project.  
   
-## Running the SSIS Package  
+## Run the SSIS Package  
  Once the package is created within an Integration Service project, you can execute it to import data from a Siebel system into a SQL Server database. Perform the following steps to import Siebel data by executing the package.  
-  
-#### To run the package from Visual Studio  
   
 1.  Navigate to the SSIS package in Solution Explorer.  
   
 2.  Right-click the package name, and then select **Execute Package**.  
   
- For more information about running packages, see "Running Packages" at [http://go.microsoft.com/fwlink/?LinkId=94972](http://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see "Package How-to Topics (SSIS)" at [http://go.microsoft.com/fwlink/?LinkId=94973](http://go.microsoft.com/fwlink/?LinkId=94973).  
+[Run Integration Services (SSIS) Packages](https://docs.microsoft.com/sql/integration-services/packages/run-integration-services-ssis-packages) provides more info. 
   
-## Verifying the Results  
+## Verify the Results  
  After executing the package, you must verify the results by logging on to the SQL Server and navigating to the database to which the Siebel data is imported. Executing the package should have created a table in the destination database. This table should be populated with the values from the Siebel table.  
   
 ## See Also  

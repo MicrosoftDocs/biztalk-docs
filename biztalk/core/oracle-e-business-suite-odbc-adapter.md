@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/adapters-and-accelerators/adapter-oracle-ebs/microsoft-biztalk-adapter-for-oracle-e-business-suite-documentation.md
+redirect_url: /biztalk/adapters-and-accelerators/adapter-oracle-ebs/microsoft-biztalk-adapter-for-oracle-e-business-suite-documentation
 redirect_document_id: TRUE
 --- 
 

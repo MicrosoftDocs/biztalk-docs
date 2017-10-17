@@ -1,6 +1,6 @@
 
 ---
-redirect_url: /biztalk/core/installing-biztalk-adapter-for-jd-edwards-oneworld.md
+redirect_url: /biztalk/core/installing-biztalk-adapter-for-jd-edwards-oneworld
 redirect_document_id: TRUE
 
 ROBOTS: NOINDEX

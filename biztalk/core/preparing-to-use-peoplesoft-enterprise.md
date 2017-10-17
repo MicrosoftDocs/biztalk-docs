@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/core/installing-biztalk-adapter-for-peoplesoft-enterprise.md
+redirect_url: /biztalk/core/installing-biztalk-adapter-for-peoplesoft-enterprise
 redirect_document_id: TRUE
 
 ROBOTS: NOINDEX

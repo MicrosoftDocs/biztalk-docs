@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/adapters-and-accelerators/adapter-sap/microsoft-biztalk-adapter-for-mysap-business-suite-documentation.md
+redirect_url: /biztalk/adapters-and-accelerators/adapter-sap/microsoft-biztalk-adapter-for-mysap-business-suite-documentation
 redirect_document_id: TRUE
 --- 
 

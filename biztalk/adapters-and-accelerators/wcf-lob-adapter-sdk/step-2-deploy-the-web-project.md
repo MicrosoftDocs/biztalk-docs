@@ -24,7 +24,7 @@ manager: "anneta"
 ## Prerequisites  
  To complete this step, you should have completed [Step 1: Use the Adapter Service Development Wizard to Create the Web Project](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-1-use-the-adapter-service-development-wizard-to-create-the-web-project.md). Your Web server must also have an SSL certificate installed to enable HTTPS communication.  
   
-### To compile and deploy the Web project  
+## Compile and deploy the Web project  
   
 1.  In Visual Studio, load the EchoWeb project created previously.  
   
@@ -42,7 +42,7 @@ manager: "anneta"
   
 6.  In the **Publish Web Site** dialog box, for **Target location**, enter **http://machinename/EchoWeb**. Select **Allow this precompiled site to be updatable**, **Use fixed naming and single page assemblies**, and **Enable strong naming on precompiled assemblies**. In the **Key file location** field, click the ellipsis **(…)** button, select the EchoWebKey.snk file created previously, and then click **OK**.  
   
-7.  To verify that the Web site was correctly created, start Internet Explorer, enter  **HYPERLINK "http://localhost/EchoWeb/EchoOutboundContract.svc" http://localhost/EchoWeb/EchoOutboundContract.svc** in the address bar, and then press ENTER. A Web page that describes the EchoOutboundContractClient should appear.  
+7.  To verify that the Web site was correctly created, start Internet Explorer, enter  **"http://localhost/EchoWeb/EchoOutboundContract.svc"** in the address bar, and then press ENTER. A Web page that describes the EchoOutboundContractClient should appear.  
   
 ## What did I just do?  
  You have just published your Web project to IIS.  

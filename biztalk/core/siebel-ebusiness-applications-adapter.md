@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/adapters-and-accelerators/adapter-siebel/microsoft-biztalk-adapter-for-siebel-ebusiness-applications-documentation.md
+redirect_url: /biztalk/adapters-and-accelerators/adapter-siebel/microsoft-biztalk-adapter-for-siebel-ebusiness-applications-documentation
 redirect_document_id: TRUE
 --- 
 

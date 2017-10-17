@@ -49,10 +49,10 @@ The Operational Readiness checklists contain recommendations that you should con
   
 -   Non-Microsoft components to enable functionality for certain [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.  
   
- For more information about the dependency software that is required for specific features of the BizTalk application platform for various Windows operating system versions, see [What's New, Installation, Configuration, and Upgrade](../biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
+ For more information about the dependency software that is required for specific features of the BizTalk application platform for various Windows operating system versions, see [What's New, Installation, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
 - 
   
-## In This Section  
+## Next steps
   
 -   [Checklist: Getting Started with BizTalk Server](http://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)  
   

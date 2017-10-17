@@ -8,9 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MSMQ adapters, examples"
-  - "examples, MSMQ adapters"
 ms.assetid: 1fb87b46-5656-42c0-be99-8ab66e51bb4d
 caps.latest.revision: 35
 author: "MandiOhlinger"
@@ -25,7 +22,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 1.  A user uses SendLargeMessage.exe to send a large .xml file to a queue on a local computer.  
   
-2.  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] receives the large .xml file from the queue and copies it to a local directory.  
+2.  BizTalk Server receives the large .xml file from the queue and copies it to a local directory.  
   
  Many operations in Message Queuing are asynchronous. That is, many MSMQ API calls (for example, **MQSendLargeMessage**) return to the caller before the requested operation has fully completed.  
   
@@ -39,25 +36,25 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
  \<Samples Path>\AdaptersUsage\MSMQLarge  
   
 > [!NOTE]
->  If using a 64-bit version of Windows and [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], the sample will be installed in the **C:\Program Files (x86)\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge** folder.  Note this change for any other instructions in this document using the **C:\Program Files** folder.  
+>  If using a 64-bit version of Windows and BizTalk Server, the sample will be installed in the **C:\Program Files (x86)\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge** folder.  Note this change for any other instructions in this document using the **C:\Program Files** folder.  
   
  The following table shows the files in this sample and describes their purpose.  
   
 |**File**|**Description**|  
 |--------------|---------------------|  
-|**MQRTLarge.dll**|Provides an add-on for native message queuing. Exposes the **MQSendLargeMessage** and **MQReceiveLargeMessage** APIs.<br /><br /> You must install [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] on a 64-bit version of Windows in order to access the 64-bit version of MQRTLarge.dll.<br /><br /> For an MSMQ solution without [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], the MQRTLarge.dll may still function correctly. However, this is not a recommended configuration that Microsoft supports, and unexpected results may occur if used outside of the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] environment.|  
+|**MQRTLarge.dll**|Provides an add-on for native message queuing. Exposes the **MQSendLargeMessage** and **MQReceiveLargeMessage** APIs.<br /><br /> You must install BizTalk Server on a 64-bit version of Windows in order to access the 64-bit version of MQRTLarge.dll.<br /><br /> For an MSMQ solution without BizTalk Server, the MQRTLarge.dll may still function correctly. However, this is not a recommended configuration that Microsoft supports, and unexpected results may occur if used outside of the BizTalk Server environment.|  
 |||  
 |**LargeMessages.sln**|Provides a Visual Studio solution to create the SendLargeMessage executable used in the sample.|  
 |**XMLCreator.sln**|Provides a Visual Studio solution to create the XMLCreator executable to generate a test .xml file for the SDK sample.|  
   
-## Configuring BizTalk Server and Creating the MSMQ Queue  
- Ensure that you have [!INCLUDE[vs2010](../includes/vs2010-md.md)], Microsoft Message Queuing, and [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installed.  
+## Configure BizTalk and Create the MSMQ Queue  
+ Ensure that Visual Studio, Microsoft Message Queuing, and BizTalk Server installed.  
   
 #### To configure BizTalk Server  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open the **C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** solution file.  Build the sample.  
+1.  In Visual Studio, open the **C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** solution file.  Build the sample.  
   
-2.  Create a **C:\Demo** directory where [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] will place the messages from MSMQ.  
+2.  Create a **C:\Demo** directory where BizTalk Server will place the messages from MSMQ.  
   
 3.  Open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
@@ -115,7 +112,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
     3.  Right-click **MSMQReceiveLocation**, and then click **Enable**.  
   
-#### To create the MSMQ queue in Windows Server 2008 R2 or Windows Server 2008 SP2  
+#### To create the MSMQ queue in Windows Server
   
 1.  Click **Start**, right-click **Computer**, and then click **Manage**.  
   
@@ -129,7 +126,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 6.  Click **OK**.  
   
-#### To create the MSMQ queue in Windows 7 or Windows Vista SP2  
+#### To create the MSMQ queue in Windows 
   
 1.  Click **Start**, right-click **Computer**, and then click **Manage**.  
   
@@ -148,7 +145,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 #### To create a large test file  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open the solution **C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**.  
+1.  In Visual Studio, open the solution **C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**.  
   
 2.  Build and run the project.  
   
@@ -170,7 +167,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
     DIRECT=OS:localhost\private$\Test  "C:\Program Files\Microsoft BizTalk Server <version>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeFile.xml"  
     ```  
   
-3.  Verify that a file of the same size was created on the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] computer in the **C:\Demo** directory. This is the directory you identified in the MySendPort send port.  
+3.  Verify that a file of the same size was created on the BizTalk Server computer in the **C:\Demo** directory. This is the directory you identified in the MySendPort send port.  
   
 ## Comments  
  SendLargeMessage.exe references the **LargeMessages** API, which in turn references the BizTalk Message Queuing Large Message Extension (MQRTLarge.dll) API. The Message Queuing Large Message Extension API is an add-on for native message queuing that enables the processing of messages larger than the 4 MB limit of native message queuing.  

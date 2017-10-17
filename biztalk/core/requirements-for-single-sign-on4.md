@@ -1,5 +1,5 @@
 ---
-title: "Requirements for Single Sign-On4 | Microsoft Docs"
+title: "Requirements for Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Sign-On, requirements"
-  - "SSO, enabling"
-  - "Single Sign-On, enabling"
-  - "SSO requirements"
 ms.assetid: 645c7b3f-f860-4c20-b5ca-a8fb93736344
 caps.latest.revision: 11
 author: "MandiOhlinger"
@@ -24,7 +19,7 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides Si
   
  To use Single Sign-On, you must have:  
   
--   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   Microsoft BizTalk Server
   
 -   Visual Studio  
   
@@ -34,7 +29,7 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides Si
   
  The isolated host should be configured as authentication trusted  
   
-### To enable SSO  
+## Enable SSO  
   
 1.  In the **Transport Properties** window, select **Yes** for **Use SSO**.  
   

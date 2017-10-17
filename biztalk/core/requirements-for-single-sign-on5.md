@@ -1,5 +1,5 @@
 ---
-title: "Requirements for Single Sign-On5 | Microsoft Docs"
+title: "Requirements for Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Sign-On, requirements [JD Edwards OneWorld adapters]"
-  - "adapters [JD Edwards OneWorld adapters], Single Sign-On"
-  - "SSO, requirements [JD Edwards OneWorld adapters]"
-  - "Single Sign-On, enabling [JD Edwards OneWorld adapters]"
 ms.assetid: 318b9977-ce24-48d6-971b-49a059a1bdbc
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -22,7 +17,7 @@ manager: "anneta"
 # Requirements for Single Sign-On
 To use Single Sign-On (SSO), you must have:  
   
--   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   Microsoft BizTalk Server 
   
 -   Visual Studio  
   
@@ -32,7 +27,7 @@ To use Single Sign-On (SSO), you must have:
   
  The isolated host should be configured as authentication trusted.  
   
-### To enable SSO  
+## Enable SSO  
   
 1.  In the **Transport Properties** window, select **Yes** for **Use SSO**.  
   

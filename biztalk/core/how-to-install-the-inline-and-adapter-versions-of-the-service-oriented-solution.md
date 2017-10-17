@@ -1,5 +1,5 @@
 ---
-title: "How to Install the Inline and Adapter Versions of the Service Oriented Solution | Microsoft Docs"
+title: "Install the Inline and Adapter Versions of the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,32 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "certificate services"
-  - "service solution tutorial, affiliat applications [SSO]"
-  - "service solution tutorial, adapter version"
-  - "service solution tutorial, Web services"
-  - "service solution tutorial, definition files [BAM]"
-  - "service solution tutorial, COM+ applications"
-  - "service solution tutorial, virtual directories"
-  - "service solution tutorial, testing connectivity"
-  - "TI components"
-  - "MQSeries queues, creating"
-  - "service solution tutorial, deploying"
-  - "service solution tutorial, MQSeries adapters"
-  - "service solution tutorial, mainframe CICS applications"
-  - "service solution tutorial, certificate services"
-  - "service solution tutorial, back-end systems"
-  - "service solution tutorial, MQSeries queues"
-  - "service solution tutorial, remote environments"
-  - "certificates, creating requests"
-  - "service solution tutorial, starting service"
-  - "service solution tutorial, TI components"
-  - "service solution tutorial, inline version"
-  - "CICS application"
-  - "service solution tutorial, installing"
-  - "service solution tutorial, deleting stub version"
-  - "service solution tutorial, certificates"
 ms.assetid: 6050cfe9-4e94-4a55-8b24-fbcc74d9e8f4
 caps.latest.revision: 97
 author: "MandiOhlinger"
@@ -43,41 +17,11 @@ manager: "anneta"
 # How to Install the Inline and Adapter Versions of the Service Oriented Solution
 The following steps describe how to prepare the computer for installing the inline and adapter versions of the service oriented solution, and how to install the solution on this computer.  
   
--   [Prepare the computer for installing the adapter and inline versions of the Service Oriented Solution](#step1)  
-  
--   [Remove the stub version of the Service Oriented Solution](#step3)  
-  
--   [Prepare the back-end systems for the Service Oriented Solution to access](#step5)  
-  
--   [Configure the Web server for Secure Socket Layers (SSL)](#step7)  
-  
--   [Create the Web services for the back-end systems](#step9)  
-  
--   [Create the TI component for the Service Oriented Solution](#step11)  
-  
--   [Create the virtual directories for the orchestration Web services](#step13)  
-  
--   [Build the Service Oriented Solution](#step15)  
-  
--   [Create the SSO affiliate applications](#step17)  
-  
--   [Deploy the BAM definition file for the Service Oriented Solution](#step19)  
-  
--   [Deploy the Service Oriented Solution](#step21)  
-  
--   [Configure the stub Pending Transactions Web Services when a mainframe is not available](#step23)  
-  
--   [Start the Service Oriented Solution](#step25)  
-  
 > [!NOTE]
->  The service oriented solution is located in the folder \<*BizTalk Server Installation Folder*>\SDK\Scenarios\SO.  
-  
-> [!NOTE]
->  If you don’t have a mainframe for the solution, you can modify the port binding to use the stub Web service for Pending Transactions. The Web service generates transactions locally to emulate the mainframe transactions.  
+>  - The service oriented solution is located in the folder \<*BizTalk Server Installation Folder*>\SDK\Scenarios\SO.  
+>  - If you don’t have a mainframe for the solution, you can modify the port binding to use the stub Web service for Pending Transactions. The Web service generates transactions locally to emulate the mainframe transactions.  
   
 ##  <a name="step1"></a> Prepare the computer for installing the adapter and inline versions of the Service Oriented Solution  
-  
-#### To prepare the computer for installing the adapter and inline versions of the Service Oriented Solution  
   
 1.  If you installed Windows SharePoint Services, exclude the (root) of the Default Web Site from Windows SharePoint Services Managed Paths as follows: Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **SharePoint Central Administration**.  
   
@@ -106,8 +50,6 @@ The following steps describe how to prepare the computer for installing the inli
         >  For more information about the SETX command, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67831](http://go.microsoft.com/fwlink/?LinkId=67831).  
   
 ##  <a name="step3"></a> Remove the stub version of the Service Oriented Solution  
-  
-#### To remove the stub version of the Service Oriented Solution  
   
 1.  Open the **BizTalk Server Administration Console** as follows: Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -171,9 +113,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step5"></a> Prepare the back-end systems for the Service Oriented Solution to access  
   
-#### To install the required applications for the back-end systems for the Service Oriented Solution to access  
-  
-1.  Install IBM WebSphere MQ for Windows Version 5.3 Server on the local computer.  
+1.  Install IBM WebSphere MQ for Windows Server on the local computer.  
   
     1.  Keep all the default settings. Set up the **Default Configuration** at the end of the **Prepare WebSphere MQ Wizard**. The queue manager is named as QM_\<*your computer name*>.  
   
@@ -203,7 +143,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 5.  Install and configure Microsoft Host Integration Server 2004 if you have a mainframe to be accessed. Keep all the default settings.  
   
-#### To create the MQSeries queues  
+#### Create the MQSeries queues  
   
 1.  Open the WebSphere MQ Explorer, expand **Queue Managers**, and then expand the queue manager in which you want to create the queues. Typically, a queue manager is named as QM_\<*your computer name*>.  
   
@@ -231,7 +171,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     -   LastPaymentsOutputQueue  
   
-#### To complete configuration of the MQSeries adapter  
+#### Complete configuration of the MQSeries adapter  
   
 1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk MQSeries Agent Configuration Wizard**.  
   
@@ -245,7 +185,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 6.  On the **Creating the MQSAgent COM+ Application** page, click **Next**, and then click **Finish** on the **Completion** page.  
   
-#### To configure the mainframe CICS application  
+#### Configure the mainframe CICS application  
   
 1.  Using Notepad, open the bizcbl.txt and its "copy book" (MainFrameProgramVTCS2Description.txt) in the %BTSSolutionsPath%\SO\MFAccess\HISTIComponent folder, and then review the contents.  
   
@@ -317,7 +257,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step7"></a> Configure the Web server for Secure Socket Layers (SSL)  
   
-#### To install Certificate Services  
+#### Install Certificate Services  
   
 1.  Click **Start**, point to **Control Panel**, and then click **Add or Remove Programs**.  
   
@@ -325,7 +265,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 3.  In the **Windows Components Wizard**, select the **Certificate Services**, click **Next**, and then follow the on-screen instructions to complete the installation.  
   
-#### To create a certificate request  
+#### Create a certificate request  
   
 1.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, right-click the **Default Web Site**, click **Properties**, click the **Directory Security** tab, and then click **Server Certificate**.  
   
@@ -347,7 +287,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 10. On the **Request File Summary** page, click **Next**, and then click **Finish** on the **Completion** page.  
   
-#### To submit the certificate request to the Certification Authority  
+#### Submit the certificate request to the Certification Authority  
   
 1.  In Internet Explorer, in the Address box, type `http://localhost/certsrvt`, and then press ENTER.  
   
@@ -357,7 +297,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 4.  Copy all the text from the c:\certreq.txt that you created in the procedure "To create a certificate request", paste it to the **Saved Request** box on the **Submit a Certificate Request or Renewal Request** page, and then click **Submit**.  
   
-#### To issue a certificate using Certification Authority management tool  
+#### Issue a certificate using Certification Authority management tool  
   
 1.  Click **Start**, point to **Administrative Tools**, and then click **Certification Authority**.  
   
@@ -365,7 +305,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 3.  Close the **Certification Authority** console.  
   
-#### To download the certificate to the Web server  
+#### Download the certificate to the Web server  
   
 1.  In Internet Explorer, in the Address box, type `http://localhost/certsrvt`, and then press ENTER.  
   
@@ -377,7 +317,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 5.  On the **Security Warning** dialog box, click **Save**, and then save the certificate as c:\certnew.cer.  
   
-#### To install the certificate to the Web server  
+#### Install the certificate to the Web server  
   
 1.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, right-click the **Default Web Site** for which you created the certificate request, and then click **Properties**.  
   
@@ -396,8 +336,6 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step9"></a> Create the Web services for the back-end systems  
   
-#### To create a new IIS application pool for the Pending Transaction Web services  
-  
 1.  In the **Internet Information Services (IIS) Manager**, right-click **Application Pools**, select **New**, and then select **Application Pool**.  
   
     > [!NOTE]
@@ -409,7 +347,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 4.  On the **Properties** page, click the **Identity** tab, select **Configurable**, enter the **User name** and **Password**, and then click **OK**. For this walkthrough, use the same user account that the BizTalk service is using.  
   
-#### To create the PendingTransactions Web service for runtime  
+#### Create the PendingTransactions Web service for runtime  
   
 1.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, right-click the **Default Web Site**, point to **New**, and then click **Virtual Directory** to run **Virtual Directory Creation Wizard**.  
   
@@ -429,7 +367,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     3.  In the **Virtual Directory** tab, set the **Application Pool** to the application pool that you created in the procedure "To create a new IIS application pool for the Pending Transaction Web services".  
   
-#### To create the PendingTransactions Web service for development environment  
+#### Create the PendingTransactions Web service for development environment  
   
 1.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, right-click the **Default Web Site**, point to **New**, and then click **Virtual Directory** to run **Virtual Directory Creation Wizard**.  
   
@@ -450,7 +388,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     2.  In the **Virtual Directory** tab, set the **Application Pool** to the application pool that you created in the procedure "To create a new IIS application pool for the Pending Transaction Web services".  
   
-#### To create the Stub SAP Web service  
+#### Create the Stub SAP Web service  
   
 1.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, right-click the **Default Web Site**, point to **New**, and then click **Virtual Directory** to run **Virtual Directory Creation Wizard**.  
   
@@ -470,7 +408,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step11"></a> Create the TI component for the Service Oriented Solution  
   
-#### To create a COM+ application for the TI component  
+#### Create a COM+ application for the TI component  
   
 1.  At a command prompt, run %systemroot%\system32\com\comexp.msc.  
   
@@ -493,7 +431,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     7.  On the **Completion** page, click **Finish**.  
   
-#### To create a Remote Environment to access the mainframe  
+#### Create a Remote Environment to access the mainframe  
   
 1.  Click **Start**, point to **All Programs**, point to **Microsoft Host Integration Server 2004**, and then click **TI Manager**.  
   
@@ -509,7 +447,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     5.  On the **Completion** page, click **Finish**.  
   
-#### To create the TI Component for the Service Oriented Solution  
+#### Create the TI Component for the Service Oriented Solution  
   
 1.  Click **Start**, point to **All Programs**, point to **Microsoft Host Integration Server 2004**, and then click **TI Manager**.  
   
@@ -525,7 +463,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     5.  On the **Creation of WIP Objects** page, click **Next**, and then click **Finish** on the **Completion** page.  
   
-#### To test the connectivity to the mainframe  
+#### Test the connectivity to the mainframe  
   
 1.  In Windows Explorer, browse to the %BTSSolutionsPath%\SO\MFAccess\HISTISimpleTester folder, and then double-click the Interop.SOHISTIUsingCOM.dll.reg file. This adds registry values for the HISTISimpleTester application to call the TI component through the Runtime Callable Wrapper (RCW).  
   
@@ -536,8 +474,6 @@ The following steps describe how to prepare the computer for installing the inli
     -   In the HISTISimpleTester application, click **Call Mainframe Program - Using COM**. It returns five records from the COBOL application running on the mainframe.  
   
 ##  <a name="step13"></a> Create the virtual directories for the orchestration Web services  
-  
-#### To create the virtual directories for the orchestration Web services  
   
 1.  In the **Internet Information Services (IIS) Manager**, right-click **Application Pools**, select **New**, and then select **Application Pool**.  
   
@@ -584,8 +520,6 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step15"></a> Build the Service Oriented Solution  
   
-#### To build the Service Oriented solution  
-  
 -   At a command prompt, change the directory to the %BTSSolutionsPath%\SO\BTSSoln, type `SetupBTSSoln.bat`, and then press ENTER. The SetupBTSSoln.bat performs the following tasks:  
   
     -   Creates a unique strong name key (SNK) for signing the assemblies of the SO Solution.  
@@ -597,8 +531,6 @@ The following steps describe how to prepare the computer for installing the inli
     -   Builds the SSOApplicationConfig in the %BTSSolutionsPath%\Common folder.  
   
 ##  <a name="step17"></a> Create the SSO affiliate applications  
-  
-#### To create the SSO affiliate applications  
   
 1.  Open a command prompt, and then change the directory to the %BTSSolutionsPath%\SO\BTSSoln\Scripts folder.  
   
@@ -722,8 +654,6 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step19"></a> Deploy the BAM definition file for the Service Oriented Solution  
   
-#### To deploy the BAM definition file for the Service Oriented Solution  
-  
 1.  Open a command prompt, type the following command, and then press ENTER to set the path to find the BAM utilities:  
   
     -   SET PATH=%PATH%;[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking"  
@@ -734,7 +664,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step21"></a> Deploy the Service Oriented Solution  
   
-#### To edit the binding files for the Service Oriented Solution  
+#### Update the binding files for the Service Oriented Solution  
   
 1.  At a command prompt, change the directory to the %BTSSolutionsPath%\SO\BTSSoln\Scripts folder, open the Deployallbinding.xml using Notepad, and then make the following edits:  
   
@@ -767,7 +697,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     -   Replace all occurrences of __MQ_QMANAGER_NAME\_\_ with the MQSeries Queue Manager name.  
   
-#### To deploy the Service Oriented solution  
+#### Deploy the Service Oriented solution  
   
 -   At a command prompt, change the directory to the %BTSSolutionsPath%\SO\BTSSoln\Scripts folder, type the following command, and then press ENTER.  
   
@@ -778,7 +708,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 ##  <a name="step23"></a> Configure the stub Pending Transactions Web Services when a mainframe is not available  
   
-#### To configure the stub Pending Transactions Web service (for using the adapter version without a mainframe)  
+#### Configure the stub Pending Transactions Web service (for using the adapter version without a mainframe)  
   
 1.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, right-click the **Default Web Site**, point to **New**, and then click **Virtual Directory** to run **Virtual Directory Creation Wizard**.  
   
@@ -804,7 +734,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     2.  Close all of the dialog boxes.  
   
-#### To configure the stub Pending Transactions Web service (for using the inline version without a mainframe)  
+#### Configure the stub Pending Transactions Web service (for using the inline version without a mainframe)  
   
 1.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, right-click the **Default Web Site**, point to **New**, and then click **Virtual Directory** to run **Virtual Directory Creation Wizard**.  
   
@@ -831,8 +761,6 @@ The following steps describe how to prepare the computer for installing the inli
 5.  At the command prompt, type `SetConfigValuesInSSO.cmd`, and then press ENTER.  
   
 ##  <a name="step25"></a> Start the Service Oriented Solution  
-  
-#### To start the Service Oriented Solution  
   
 1.  Open a command prompt, change the directory to the %BTSSolutionsPath%\SO\BTSSoln\Scripts folder, type the following command, and then press ENTER to start all orchestrations for the inline and adapter versions.  
   

@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-enterprise-message-service.md
+redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-enterprise-message-service
 redirect_document_id: TRUE
 
 ROBOTS: NOINDEX

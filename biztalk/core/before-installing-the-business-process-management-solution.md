@@ -1,5 +1,5 @@
 ---
-title: "Before Installing the Business Process Management Solution | Microsoft Docs"
+title: "Requirements to installg the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process management solution tutorial, deployment prerequisites"
 ms.assetid: addb3178-c64c-43da-9f25-68b2adb6e305
 caps.latest.revision: 24
 author: "MandiOhlinger"
@@ -17,19 +15,21 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Before Installing the Business Process Management Solution
+
+## Requirements
 The following prerequisites must be installed to deploy the Business Process Management solution on a single computer:  
   
--   Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]  
+-   Microsoft Windows
   
 -   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Microsoft Message Queuing (MSMQ) 3.0 (MSMQ HTTP Support)  
+-   Microsoft Message Queuing (MSMQ) with MSMQ HTTP Support
   
--   Microsoft [!INCLUDE[SQLServer2008or2005](../includes/sqlserver2008or2005-md.md)]  
+-   Microsoft SQL Server
   
--   Microsoft Internet Information Services 7.0 or Internet Information Services 7.5 (WWW and FTP)  
+-   Microsoft Internet Information Services with WWW and FTP  
   
--   ASP.NET 4 enabled  
+-   ASP.NET enabled  
   
 -   Microsoft Visual Studio  
   

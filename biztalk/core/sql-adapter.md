@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/adapters-and-accelerators/adapter-sql/microsoft-biztalk-adapter-for-sql-server-documentation.md
+redirect_url: /biztalk/adapters-and-accelerators/adapter-sql/microsoft-biztalk-adapter-for-sql-server-documentation
 redirect_document_id: TRUE
 --- 
 
