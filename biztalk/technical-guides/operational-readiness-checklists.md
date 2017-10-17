@@ -23,47 +23,36 @@ The Operational Readiness checklists contain recommendations that you should con
   
 -   The Windows operating system  
   
--   [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] SP1 or [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]  
+-   SQL Server 
   
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   [!INCLUDE[vs2010](../includes/vs2010-md.md)] (for development purposes, not at run time)  
+-   Visual Studio (for development purposes, not at run time)  
   
 ## Additional Components  
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application platform may also require several of the following software components:  
   
 -   Internet Information Services (IIS)  
   
--   Windows SharePoint® Services 2010  
+-   SharePoint
   
--   SharePoint Foundation 2010  
-  
--   Microsoft Office SharePoint Server 2007 Service Pack 1 (SP1) (MOSS)  
-  
--   Windows SharePoint Services 3.0 with SP1 or SP2  
-  
--   Microsoft Office Excel 2010 or 2007  
+-   Microsoft Office Excel 
   
     > [!NOTE]  
-    >  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] supports only the 32-bit version of Microsoft Office 2010.  
+    >  BizTalk Server supports only the 32-bit version of Microsoft Office.  
   
--   SQL Server 2005 Notification Services  
+-   SQL Server
   
--   SQLXML 4.0 with Service Pack 1  
+-   SQLXML 
   
--   .NET Framework 1.0  
-  
--   .NET Framework 2.0  
-  
--   .NET Framework 3.0  
-  
--   Microsoft .NET Framework 4 and .Net Framework 3.5 with Service Pack 1 (SP1)  
+-   .NET Framework 
   
 -   Non-Microsoft components to enable functionality for certain [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.  
   
- For more information about the dependency software that is required for specific features of the BizTalk application platform for various Windows operating system versions, see the "Feature Dependency Matrix" section in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installation and upgrade guide for the specific Windows operating system version. The [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installation and upgrade guides are available at [http://go.microsoft.com/fwlink/?LinkID=152913](http://go.microsoft.com/fwlink/?LinkID=152913).  
+ For more information about the dependency software that is required for specific features of the BizTalk application platform for various Windows operating system versions, see [What's New, Installation, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
+- 
   
-## In This Section  
+## Next steps
   
 -   [Checklist: Getting Started with BizTalk Server](http://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)  
   

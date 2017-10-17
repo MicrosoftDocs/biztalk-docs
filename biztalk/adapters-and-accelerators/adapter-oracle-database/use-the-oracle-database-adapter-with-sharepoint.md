@@ -35,8 +35,8 @@ The WCF Adapter Service Development Wizard for [!INCLUDE[btsVStudioNoVersion_md]
  The following service contract was generated using for the Microsoft BizTalk Adapter for Oracle Database as an example. The adapter is configured to provide access to the EMP table  
   
 ```  
-[System.ServiceModel.ServiceContractAttribute()]  
-public interface ISCOTT_EMP {  
+    [System.ServiceModel.ServiceContractAttribute()]  
+    public interface ISCOTT_EMP {  
   
     [System.ServiceModel.OperationContractAttribute()]  
     SCOTT_EMP_Record[] ReadList(System.Nullable<int> Limit);  
@@ -58,7 +58,7 @@ public interface ISCOTT_EMP {
 }  
 ```  
   
-## Creating a New Web Site to Host the Microsoft BizTalk Adapter for Oracle Database in IIS  
+## Create a New Web Site to Host the Oracle Database in IIS  
  These steps provide an example using the WCF Adapter Service Development Wizard, to create a new WCF web service hosting the Microsoft BizTalk Adapter for Oracle Database. The service contract will include operations directly compatible with Sharepoint. So that it can be directly consumed as an external datasource. The adapter is configured to authenticate with the Oracle database using the **SCOTT** account. If the **SCOTT** account is locked, you can unlock the account by logging into SQL Plus as SYSDBA.  
   
 ```  
@@ -71,11 +71,11 @@ public interface ISCOTT_EMP {
 SQL> ALTER USER scott ACCOUNT UNLOCK;  
 ```  
   
-#### Creating the New Web Site Project  
+#### Create the New Web Site Project  
   
-1.  Start **Microsoft [!INCLUDE[vs2012](../../includes/vs2012-md.md)]**.  
+1.  Open Visual Studio.   
   
-2.  In [!INCLUDE[vs2010](../../includes/vs2010-md.md)], on the **File** menu, select **New** and then click **Project**.  
+2.  In Visual Studio, on the **File** menu, select **New** and then click **Project**.  
   
 3.  In the **New Project** dialog box, expand **Other Languages** and click **Visual C#**. Find the **WCF Adapter Service** in the template list and click it to select it.  
   
@@ -116,10 +116,10 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 20. Click the **Build** menu option and then click **Build Solution**. Verify the project build was successful with no errors.  
   
-## Publishing the New Service to IIS  
+## Publish the New Service to IIS  
  For this example you will publish the adapter host service to the local IIS web server.  
   
-1.  In Solution Explorer for [!INCLUDE[vs2010](../../includes/vs2010-md.md)], right click the **ScottEmp** project and click **Properties**. The Project Designer tabs are displayed.  
+1.  In Solution Explorer for Visual Studio, right click the **ScottEmp** project and click **Properties**. The Project Designer tabs are displayed.  
   
 2.  Click the **Web** tab, then click the **Use Local IIS Web server** option.  
   
@@ -127,10 +127,9 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 4.  Open a web browser to the service address **http://localhost/ScottEmp/ISCOTT_EMP.svc**. You should receive a message stating “You have created a service” indicating the adapter is hosted in IIS.  
   
-## Adding the External Data Source to a SharePoint Site using SharePoint Designer  
+## Add the External Data Source to a SharePoint Site using SharePoint Designer  
  This section describes how to add the WCF Service as an external data source to a new Web Site using SharePoint Designer.  
   
-#### Adding the External Data source  
   
 1.  Open SharePoint Designer and create a new Web Site.  
   
@@ -162,7 +161,7 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 15. Save the new external data source by typing **Ctrl+s**.  
   
-#### Testing the External Data Source Connection  
+#### Test the External Data Source Connection  
   
 1.  In the new web site, click the **Create Lists and Forms** button. The Create List and Form for OracleEMP dialog appears.  
   
@@ -174,6 +173,6 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 5.  Click the **Preview in Browser** button on the menu to test the ReadList operation of the adapter.  
   
-## Troubleshooting  
+## Troubleshoot
   
--   On 64-bit machines you must make sure that 32-bit Oracle client components are also installed. This is because [!INCLUDE[vs2010](../../includes/vs2010-md.md)] and it’s wizards will be running as a 32-bit process requiring access to 32-bit components during development.
+-   On 64-bit machines you must make sure that 32-bit Oracle client components are also installed. This is because Visual Studio and it’s wizards will be running as a 32-bit process requiring access to 32-bit components during development.

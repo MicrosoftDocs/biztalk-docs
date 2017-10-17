@@ -1,23 +1,25 @@
 ---
-title: "Installing BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
+title: "Install BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
+description: Quick link to install and configuration overview for BizTalk Adapter for JD Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "installation"
 ms.assetid: 4281c1fc-1473-44f9-9c52-876e34cd3907
 caps.latest.revision: 9
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Installing BizTalk Adapter for JD Edwards EnterpriseOne
-For information about installing Microsoft BizTalk Adapter for JD Edwards EnterpriseOne, see the Microsoft BizTalk Adapters for Enterprise Applications installation guide. To ensure that you are reading the most up-to-date information, download the latest version of the guide at [http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039).  
+# Install BizTalk Adapter for JD Edwards EnterpriseOne
+
+## Install and setup
+
+[Install and configure the adapters for enterprise applications](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md) includes the steps to install the enterprise adapters, and also includes key information to know before you install the adapter, and after you install the adapter. 
   
-## See Also  
- [Getting Started](../core/getting-started-with-biztalk-adapter-for-jd-edwards-enterpriseone.md)
+## Next step
+[Tutorial: Using the BizTalk Adapter for JD Edwards EnterpriseOne](../core/tutorial-using-the-biztalk-adapter-for-jd-edwards-enterpriseone.md)

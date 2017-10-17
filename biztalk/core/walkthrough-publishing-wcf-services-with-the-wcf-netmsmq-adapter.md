@@ -29,7 +29,7 @@ manager: "anneta"
   
  After completing this walkthrough, you will understand how to perform the following tasks:  
   
--   From within [!INCLUDE[vs2010](../includes/vs2010-md.md)], use the **Deploy** command to deploy BizTalk assemblies to a local instance of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This creates a BizTalk application that is populated with the assemblies. A BizTalk assembly contains resource information such as orchestrations, pipelines, schemas, and maps to be used in a BizTalk solution.  
+-   From within Visual Studio, use the **Deploy** command to deploy BizTalk assemblies to a local instance of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This creates a BizTalk application that is populated with the assemblies. A BizTalk assembly contains resource information such as orchestrations, pipelines, schemas, and maps to be used in a BizTalk solution.  
   
 -   From the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, configure a WCF-NetMsmq receive location to host the published [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service.  
   
@@ -38,9 +38,9 @@ manager: "anneta"
 ## Prerequisites  
  To perform the steps in this sample ensure that your environment installs the following prerequisites:  
   
--   Both the computer that builds the assemblies and runs the deployment process, and the computer that runs the sample, require Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)], and Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   Both the computer that builds the assemblies and runs the deployment process, and the computer that runs the sample, require Microsoft Windows Server, .NET Framework, and BizTalk Server.  
   
--   The computer used to build the assemblies and run the deployment process requires Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+-   The computer used to build the assemblies and run the deployment process requires Microsoft Visual Studio.  
   
 -   The computer that runs the sample requires the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapters and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Administration Tools. These are options to install during setup of Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
   
@@ -56,7 +56,7 @@ manager: "anneta"
   
 1.  Extract WCFNetMsmqAdapterPublishing.exe to **C:\WCFNetMsmqAdapterPublishing**.  
   
-2.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open the **WCFNetMsmqAdapterPublishing.sln** file.  
+2.  In Visual Studio, open the **WCFNetMsmqAdapterPublishing.sln** file.  
   
 3.  In Solution Explorer, expand **BizTalkApp**, and then open **OrderProcess.odx** to review. The sample orchestration receives order request messages, and simply returns the order response messages.  
   
@@ -193,7 +193,7 @@ manager: "anneta"
   
     5.  In IIS Manager, in the center pane, click **Content View** to display the files for the application.  
   
-    6.  Right-click the **Microsoft_Samples_BizTalk_WCF_NetMsmqPublishing_BizTalkApp_OrderProcess_PurchaseOrderRequestPort.svc** service file that the **BizTalk WCF Service Publishing Wizard** created, and then click **Browse**. This opens Internet Explorer to display the **BizTalkServerInstance Service** page indicating that an instance of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service is running. The page displays a full WSDL address that you can copy and use with the Service Metadata Tool (svcutil.exe), or from within [!INCLUDE[vs2010](../includes/vs2010-md.md)], to retrieve proxy code and a configuration file that can be used to create a client application for the service.  
+    6.  Right-click the **Microsoft_Samples_BizTalk_WCF_NetMsmqPublishing_BizTalkApp_OrderProcess_PurchaseOrderRequestPort.svc** service file that the **BizTalk WCF Service Publishing Wizard** created, and then click **Browse**. This opens Internet Explorer to display the **BizTalkServerInstance Service** page indicating that an instance of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service is running. The page displays a full WSDL address that you can copy and use with the Service Metadata Tool (svcutil.exe), or from within Visual Studio, to retrieve proxy code and a configuration file that can be used to create a client application for the service.  
   
     7.  Copy to the Clipboard the command line with the full WSDL address from **BizTalkServerInstance Service** page that Internet Explorer shows in the previous step.  
   
@@ -201,11 +201,11 @@ manager: "anneta"
   
 ## Build the client application  
   
-1.  Open a [!INCLUDE[vs2010](../includes/vs2010-md.md)] command prompt as Administrator and go to the **C:\WCFNetMsmqAdapterPublishing\WCFClient** folder. This is where you will place the proxy class and application configuration file.  
+1.  Open a Visual Studio command prompt as Administrator and go to the **C:\WCFNetMsmqAdapterPublishing\WCFClient** folder. This is where you will place the proxy class and application configuration file.  
   
 2.  Paste the entire svcutil.exe command line containing the full WSDL address that you copied in the previous procedure, and then press ENTER. This creates the proxy class, **BizTalkServiceInstance.cs**, and application configuration file, **output.config**. Keep the command prompt window open for use during the final section.  
   
-3.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, right-click **WCFClient**, point to **Add**, and then click **Existing Item**.  
+3.  In Visual Studio, in Solution Explorer, right-click **WCFClient**, point to **Add**, and then click **Existing Item**.  
   
 4.  In the **Add Existing Item** dialog box, browse to the **WCFClient** folder, select **All Files (\*.\*)** in the **Files of type** drop-down list, select the **BizTalkServiceInstance.cs** and **output.config** files, and then click **Add**.  
   
@@ -215,7 +215,7 @@ manager: "anneta"
   
 7.  Expand **References**, and then make sure that the **WCFClient** project has **System.ServiceModel.dll** referenced.  
   
-8.  Right-click the **WCFClient** project and select **Build**. Keep [!INCLUDE[vs2010](../includes/vs2010-md.md)] open and go to the next section.  
+8.  Right-click the **WCFClient** project and select **Build**. Keep Visual Studio open and go to the next section.  
   
 ## Test the sample solution with the WCF-NetMsmq adapter  
   
@@ -223,7 +223,7 @@ manager: "anneta"
   
 2.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Platform Settings**, expand **Host Instances**, right-click **BizTalkServerApplication** or another appropriate host instance, and then click **Restart**. While this step is not required, it is a good idea to ensure the sample works correctly up to this point.  
   
-3.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], on the **Debug** menu, click **Start Without Debugging** to run the WCFClient application. This sends a sample message to the WCF-NetMsmq receive location. You will see the output message below stating the message was sent.  
+3.  In Visual Studio, on the **Debug** menu, click **Start Without Debugging** to run the WCFClient application. This sends a sample message to the WCF-NetMsmq receive location. You will see the output message below stating the message was sent.  
   
      **Calling the Submit operation on the WCF-NetMsmq receive location**  
   
@@ -231,7 +231,7 @@ manager: "anneta"
   
 4.  Press any key to close the WCFClient application.  
   
-5.  In the [!INCLUDE[vs2010](../includes/vs2010-md.md)] Command Prompt, go to the **C:\WCFNetMsmqAdapterPublishing\Out** folder, and then make sure the response message that the WCFClient application sent back exists.  
+5.  In the Visual Studio Command Prompt, go to the **C:\WCFNetMsmqAdapterPublishing\Out** folder, and then make sure the response message that the WCFClient application sent back exists.  
   
 6.  Double-click the {GUID}.xml file to open it in Internet Explorer and view the **OrderID** value processed by the service.  
   

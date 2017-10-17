@@ -14,23 +14,23 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Executing a PeopleSoft Enterprise Sample Get
-The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the PeopleSoft adapter. This adapter is one of a group of eight line-of-business (LOB) adapters shipped by Microsoft for use with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+# Execute a PeopleSoft Enterprise Sample Get
+The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the PeopleSoft adapter. This adapter is included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
   
  This is the second part of the PeopleSoft lab work. In the first part (Lab 1), you manually accessed and modified data on the PeopleSoft system without the assistance of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] or other Microsoft technologies. In this part (Lab 2), you will create a BizTalk orchestration as part of a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project. You will configure ports on this orchestration to use the PeopleSoft adapter to get data from a PeopleSoft system.  
   
 ## Prerequisites  
   
--   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]
   
 -   Microsoft BizTalk Adapters for Enterprise Applications  
   
--   Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   Microsoft Visual Studio  
   
 -   Sun Systems Java Development Kit (JDK) version 1.4 or higher  
   
 > [!NOTE]
->  For information about installing and configuring Microsoft BizTalk Adapters for Enterprise Applications, see [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392). This document includes key configuration information for the JD Edwards, PeopleSoft, Oracle, Tibco, and Siebel LOB adapters.  
+>  See [Install and configure the adapters for enterprise applications](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md) for key configuration information for the JD Edwards, PeopleSoft, and TIBCO adapters.  
   
 ## Lab 2 - Executing a PeopleSoft Sample Get  
  In this lab, you will execute a **Get** operation against the PeopleSoft system. Specifically you will perform the following tasks:  
@@ -54,29 +54,23 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
  **C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config**  
   
- General instructions about installing the GET_CI_INFO component interface into PeopleSoft are provided in the Installation Guide that comes with the adapters, or at [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392). These instructions are for an experienced PeopleSoft administrator.  
+ General instructions about installing the GET_CI_INFO component interface into PeopleSoft are provided in [Install and configure the adapters for enterprise applications](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md). These instructions are for an experienced PeopleSoft administrator.  
   
-### Verifying the PeopleSoft Prerequisites  
+## Step 1: Confirm the PeopleSoft rerequisites  
  Before you start creating a BizTalk project for use with the PeopleSoft adapter, you need to be sure that everything is set up correctly to access PeopleSoft.  
   
-##### To verify the PeopleSoft prerequisites  
+1.  Confirm that the PSJOA.JAR file exists on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer in the C:\psjars\ver841 folder. (This file can exist at a different location on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In the configuration given below, it is assumed the file is at this location.)  
   
-1.  Ensure that the PSJOA.JAR file exists on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer in the C:\psjars\ver841 folder. (This file can exist at a different location on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In the configuration given below, it is assumed the file is at this location.)  
+2.  Confirm that the get_ci_info.pc file exists in the C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config folder.  
   
-2.  Ensure that the get_ci_info.pc file exists in the C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config folder.  
+3.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**. Ensure that the PeopleSoft adapter is installed and on the list.  
   
-3.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
+     If the PeopleSoft adapter is not installed, install the BizTalk Adapters for Enterprise Applications (see the earlier "Prerequisites" section). After the adapters are installed, right-click **Adapters** and then click **New - Adapter** to install the PeopleSoft adapter. Restart the host instance for this to take effect.  
   
-4.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**. Ensure that the PeopleSoft adapter is installed and on the list.  
-  
-     If the PeopleSoft adapter is not installed, install the BizTalk Adapters for Enterprise Applications (see the earlier "Prerequisites" section). After the adapters are installed, right-click **Adapters** and then click **New - Adapter** to install the PeopleSoft adapter. You will have to restart the host instance for this to take effect.  
-  
-### Creating a Send Port for PeopleSoft  
+## Step 2: Create a Send Port for PeopleSoft  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] needs to have a send port to use for communicating with the PeopleSoft system. This send port will eventually be bound to the orchestration's logical ports.  
   
-##### To create the PeopleSoft send port  
-  
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,expand **Console Root**, expand[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand **BizTalk.EnterpriseApplication.**  
+1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand **BizTalk.EnterpriseApplication.**  
   
 2.  Right-click **Send Ports**, click **New**, and then select **Static Solicit-Response Send Port**. In the **Send Port Properties** dialog box, enter the following values for the properties:  
   
@@ -110,10 +104,8 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 4.  Click **OK** twice to close the dialog boxes.  
   
-### Creating a BizTalk Orchestration Project  
+## Step 3: Create a BizTalk Orchestration Project  
  Now you will create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and configure an orchestration in the project to handle communication between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the PeopleSoft system. You will add send and receive ports, build the project, and then deploy the project.  
-  
-##### To create the BizTalk orchestration project in Visual Studio  
   
 1.  Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and create a new BizTalk project in the C:\LABS folder. On the **File** menu, click **New**. The **New Project** dialog box appears. In the **Templates** section, select **Empty BizTalk Server project.** Enter `PS_Test` as the unique project name, and then click **OK**.  
   
@@ -144,7 +136,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
  To complete the orchestration, you need to create and configure ports to receive and send the XML files. First, set up a new receive port to accept the initial XML input file that contains the **Get** method to start the orchestration.  
   
-##### To configure a receive port  
+#### Configure a receive port  
   
 1.  Within the BizTalk Orchestration.odx file that you opened in the previous step, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
   
@@ -168,7 +160,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
  Next, create a send port to accept the XML file containing the location results from the call to the PeopleSoft **Get** method. The orchestration uses the File adapter to write that XML file to disk through this send port.  
   
-##### To configure a send port  
+#### Configure a send port  
   
 1.  Within the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page click **Next**.  
   
@@ -192,7 +184,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
  Finally, create a send/receive port to send the initial XML input file containing the **Get** method to the PeopleSoft system. This port will also receive an XML file containing the location information that results from the **Get** method call on the PeopleSoft system.  
   
-##### To configure a send/receive port  
+#### Configure a send/receive port  
   
 1.  Within the BizTalk Orchestration.odx file, right-click the right port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
   
@@ -214,7 +206,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
  Now insert two **Send** shapes and two **Receive** shapes into the orchestration to link to the ports you just created.  
   
-##### To add Send and Receive shapes  
+#### Add Send and Receive shapes  
   
 1.  Drag a **Receive** component from the Toolbox and drop it immediately below the start of the orchestration (the green circle). Click the **Receive** shape, and in the Properties window, enter `FromDisk` for the **Name**, and set **Activate** to `true`. Doing so will activate the orchestration when an incoming document is received on this receive port.  
   
@@ -228,7 +220,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
  In this orchestration, you are only using the **Get-Request** and **Get-Response** messages. If the orchestration were updating the data, say by using the **UpdateEx** method, it would require different Request/Response messages.  
   
-##### To define and assign messages to ports  
+#### Define and assign messages to ports  
   
 1.  On the left port surface, click **Request** on the **FileIn** port. In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **PS_Test.Get**.  
   
@@ -256,12 +248,10 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
      ![](../core/media/d16e02bc-954c-4aa2-99d6-3fee1222c730.gif "d16e02bc-954c-4aa2-99d6-3fee1222c730")  
   
-### Building and Deploying the Project  
+## Step 4: Build and Deploy the Project  
  Now the BizTalk project is complete and you can build and deploy it in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-##### To build and deploy the project  
-  
-1.  Click **Start**, point to **All Programs**, point to **Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]**, point to **Visual Studio Tools**, and then click**[!INCLUDE[vs2010](../includes/vs2010-md.md)] Command Prompt**.  
+1.  In Visual Studio, point to **Visual Studio Tools**, and then select Visual Studio Command Prompt**.  
   
 2.  To build the project, you need a strong name key file.At the command prompt, enter the following to create a strong name key file:  
   
@@ -283,10 +273,10 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 10. After the build completes successfully, right-click the **PS_Test** project, and then click **Deploy**.  
   
-### Testing the Application and Viewing the XML Output  
+## Step 5: Test the Application and Viewing the XML Output  
  Now you will test the application that you have created and deployed. You will create the XML file that starts the orchestration process, and then you will configure folders to receive and send XML files within the application. After you have configured the application, you will run it and view the XML files that the orchestration returns.  
   
-##### To generate the XML file for the query  
+#### Generate the XML file for the query  
   
 1.  In Solution Explorer, double-click **LOCATIONService_LOCATION_x5d.xsd** to open the file.  
   
@@ -300,11 +290,11 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
      ![](../core/media/ef65a96c-2daa-44db-ab95-d18b1fda934e.gif "ef65a96c-2daa-44db-ab95-d18b1fda934e")  
   
-##### To configure and start the BizTalk application  
+#### Configure and start the BizTalk application  
   
 1.  Configure folders for receiving the incoming files and sending the outgoing files. Go to **C:\LABS\PS_TEST** and create two new subfolders named `FileIn` and `FileOut`.  
   
-2.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,expand **Console Root**, expand[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, right-click **PS_Test** and then click **Configure**.  
+2.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration**, expand **BizTalk Group**, expand **Applications**, right-click **PS_Test** and then click **Configure**.  
   
      ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
   
@@ -382,7 +372,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
-##### To test the orchestration  
+#### Test the orchestration  
   
 1.  In the **C:\Labs\PS_Test** directory, change the **Samplequery.xml** file to the following:  
   
