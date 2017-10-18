@@ -4,7 +4,7 @@ description: See all the available cumulative updates and service packs availabl
 author: "MandiOhlinger"
 manager: "anneta"
 
-ms.date: "08/10/2017"
+ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 
 ms.suite: ""
@@ -38,7 +38,8 @@ These adapters are updated by the cumulative updates for HIS.
 
 | Product Version | Latest Service Pack | Latest Cumulative Update |
 | --- | --- | --- |
-| HIS 2013 | n/a | CU 3 ([KB 3019572](https://support.microsoft.com/kb/3019572)) |
+| HIS 2016 | n/a | CU 1 ([KB 3216544](https://support.microsoft.com/kb/3216544)) |
+| HIS 2013 | n/a | CU 4 ([KB 3108547](https://support.microsoft.com/kb/3108547)) |
 |  HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
 |  HIS 2009 | n/a | CU 7 ([KB 2975320](http://support.microsoft.com/kb/2975320)) |
 |  HIS 2006 | SP1 ([KB 979238](http://support.microsoft.com/kb/979238))  | n/a |
