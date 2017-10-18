@@ -1,5 +1,6 @@
 ---
-title: "Implementing Design Patterns in Orchestrations | Microsoft Docs"
+title: "Implement Design Patterns in Orchestrations | Microsoft Docs"
+description: Aggregator, content-based routing, dynamic router, error handling, message broker, and more design patterns in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,34 +9,13 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Aggregator pattern, orchestrations"
-  - "Error Handling pattern [orchestrations]"
-  - "patterns, orchestrations"
-  - "designing, orchestrations"
-  - "orchestrations, designing"
-  - "Exception Handling and Compensation pattern [orchestrations]"
-  - "Parallel Convoy pattern [orchestrations]"
-  - "Dynamic Router pattern [orchestrations]"
-  - "orchestrations, patterns"
-  - "patterns"
-  - "Composed Message Processor pattern [orchestrations]"
-  - "Suspend with Retry pattern, orchestrations"
-  - "Calling Pipelines from Orchestration pattern [orchestrations]"
-  - "Message Filter pattern [orchestrations]"
-  - "Message Broker pattern [orchestrations]"
-  - "Content-Based Router pattern [orchestrations]"
-  - "Sequential Convoy pattern [orchestrations]"
-  - "Scatter and Gather pattern [orchestrations]"
-  - "Splitter pattern, orchestrations"
-  - "Message Translator pattern [orchestrations]"
 ms.assetid: f62ba955-018a-40e7-b303-497acc906019
 caps.latest.revision: 14
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Implementing Design Patterns in Orchestrations
+# Implement Design Patterns in Orchestrations
 This section discusses the common patterns of BizTalk Server programming as well as enterprise integration patterns. You can leverage a single pattern or combine multiple patterns to design your business process and then implement the design by using shapes in BizTalk Orchestration Designer.  
   
 ## Design Patterns  
@@ -79,13 +59,13 @@ throw(excp);
  The Message Translator pattern converts a message from one form to another form. You can implement this pattern by using a BizTalk map with a **Transform** shape in an orchestration. For an example of this pattern, see HelloOrchestration.odx in [HelloWorld (BizTalk Server Sample)](../core/helloworld-biztalk-server-sample.md).  
   
 ### Parallel Convoy  
- The Parallel Convoy pattern enables multiple single items to join together to achieve something that an individual item cannot accomplish by itself. The set of related items can arrive in any order, but BizTalk Server must receive all of them before starting the process. For an example of this pattern, see [http://go.microsoft.com/fwlink/?LinkId=56035](http://go.microsoft.com/fwlink/?LinkId=56035).  
+ The Parallel Convoy pattern enables multiple single items to join together to achieve something that an individual item cannot accomplish by itself. The set of related items can arrive in any order, but BizTalk Server must receive all of them before starting the process. 
   
 ### Scatter and Gather  
- The Scatter and Gather pattern enables messages to be sent to multiple recipients and messages to be received back from each recipient. You can implement this pattern by using the Splitter pattern and the Aggregator pattern. You use the Aggregator pattern to assemble the results from using the Splitter pattern and put them under a **Parallel Actions** shape. For an example of the Splitter pattern, see SDK sample named Implementing Scatter and Gather Pattern at [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).  
+ The Scatter and Gather pattern enables messages to be sent to multiple recipients and messages to be received back from each recipient. You can implement this pattern by using the Splitter pattern and the Aggregator pattern. You use the Aggregator pattern to assemble the results from using the Splitter pattern and put them under a **Parallel Actions** shape. 
   
 ### Sequential Convoy  
- The Sequential Convoy pattern enables multiple single items to join together to achieve something that an individual item cannot accomplish by itself. A sequential convoy is a set of related items that have a predefined order. Although the items do not have to be exactly the same, BizTalk Server must receive the items in a sequential order. For an example of this pattern, see [http://go.microsoft.com/fwlink/?LinkId=56035](http://go.microsoft.com/fwlink/?LinkId=56035).  
+ The Sequential Convoy pattern enables multiple single items to join together to achieve something that an individual item cannot accomplish by itself. A sequential convoy is a set of related items that have a predefined order. Although the items do not have to be exactly the same, BizTalk Server must receive the items in a sequential order. 
   
 ### Splitter  
  The Splitter pattern takes a single message and splits it into multiple messages.  

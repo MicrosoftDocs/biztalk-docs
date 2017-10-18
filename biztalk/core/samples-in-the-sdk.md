@@ -1,17 +1,14 @@
 ---
-title: "Samples in the SDK | Microsoft Docs"
+title: "SDK samples | Microsoft Docs"
+description: Adapter, application deployment, BAM, business rules, orchestration, pipeline, and more SDK samples available in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/17/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, SDK"
-  - "SDK examples"
-  - "examples"
 ms.assetid: 53bca653-e604-4452-8805-72632d3397c2
 caps.latest.revision: 23
 author: "MandiOhlinger"
@@ -19,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Samples in the SDK
+
 ## Folder paths
 This section describes more than 30 samples included in the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Software Development Kit (SDK). The section provides detailed information about each sample, including instructions for building the sample, how to run it, and what results to expect.  
   
@@ -36,8 +34,6 @@ This section describes more than 30 samples included in the Microsoft [!INCLUDE[
 >  All of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK items are provided in English and are supported only for English-language installations of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## Available samples 
-  
--   [Get More Samples](../core/get-more-samples.md)  
   
 -   [Adapter Samples - Development](../core/adapter-samples-development.md)  
   
