@@ -1,5 +1,6 @@
 ---
-title: "How to Enable the WCF Extensibility Points with the WCF Adapters | Microsoft Docs"
+title: "Enable the WCF Extensibility Points with the WCF Adapters | Microsoft Docs"
+description: Install assemblies, configure machine.config, add extension to BizTalk Admin, create receive location to enable WCF extensibility points for the WCF adapters in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +9,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, WCF adapters"
-  - "WCF adapters, extensibility ports"
 ms.assetid: 0c2af105-5272-4a6a-95d2-066312ab788e
 caps.latest.revision: 14
 author: "MandiOhlinger"
@@ -18,16 +16,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Enable the WCF Extensibility Points with the WCF Adapters
-This topic describes how to enable three WCF extensibility points—behavior extension, binding element extension, and binding extension—with the WCF-Custom and WCF-CustomIsolated adapters. To do so, you first install the assemblies implementing the WCF extensibility points in the global assembly cache (GAC), then modify the machine.config file on your computers, and then configure the WCF-Custom or the WCF-CustomIsolated adapter by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+Enable three WCF extensibility points—behavior extension, binding element extension, and binding extension—with the WCF-Custom and WCF-CustomIsolated adapters. To do so, you first install the assemblies implementing the WCF extensibility points in the global assembly cache (GAC), then modify the machine.config file on your computers, and then configure the WCF-Custom or the WCF-CustomIsolated adapter by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
- For more information about the WCF extensibility points, see "Extending WCF" at [http://go.microsoft.com/fwlink/?LinkId=86380](http://go.microsoft.com/fwlink/?LinkId=86380).  
+See [Extending WCF](https://docs.microsoft.com/dotnet/framework/wcf/extending/extending-wcf) for more info on WCF extensibility points.
   
- For more information about how to enable the WCF extensibility points, see "SDK Sample: Using Custom Binding Extensions with the WCF-Custom Adapters" at [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).  
-  
+ 
 ## Prerequisites  
- To perform the procedures in this topic, you must be logged on with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md) provides more info.  
   
-### To install assemblies implementing a WCF extensibility point in the GAC  
+## Install assemblies implementing a WCF extensibility point in the GAC  
   
 1.  Copy the assemblies implementing the WCF extensibility point to a folder on your local computer.  
   
@@ -48,7 +45,7 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     > [!NOTE]
     >  To enable WCF extensibility points for the WCF adapters, the BizTalk Host instance running the adapter must be able to load at run time the assemblies where the WCF extensibility points are implemented.  
   
-### To configure the machine.config file for a WCF binding extension  
+## Configure the machine.config file for a WCF binding extension  
   
 1.  At a command prompt, go to the %FrameworkDir%\v4.X.XXXXX\CONFIG folder, and then open the **machine.config** file by using Notepad.  
   
@@ -65,10 +62,8 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     ```  
   
     > [!NOTE]
-    >  You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-  
-    > [!NOTE]
-    >  For more information about the **<bindingExtensions>** element, see "<bindingExtensions>" at [http://go.microsoft.com/fwlink/?LinkID=86180](http://go.microsoft.com/fwlink/?LinkID=86180).  
+    >  - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
+    >  - See [<bindingExtensions>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingextensions) on this element.
   
 3.  In Notepad, save the machine.config file.  
   
@@ -77,9 +72,9 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     > [!NOTE]
     >  You have to repeat these steps on all the computers for the WCF infrastructure to process the WCF extensibility point for the BizTalk Host instance and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-### To configure a WCF binding extension by using the BizTalk Administration console  
+## Configure a WCF binding extension by using the BizTalk Administration console  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
+1.  Open **BizTalk Server Administration**.  
   
     > [!NOTE]
     >  If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console is already opened, restart the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -100,7 +95,7 @@ This topic describes how to enable three WCF extensibility points—behavior ext
   
 7.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, close all open dialog boxes by clicking the **OK** buttons, and then make sure that no error messages and erroneous event logs appear.  
   
-### To configure the machine.config file for a WCF binding element extension  
+## Configure the machine.config file for a WCF binding element extension  
   
 1.  At a command prompt, go to the %FrameworkDir%\v4.X.XXXXX\CONFIG folder, and then open the **machine.config** file by using Notepad.  
   
@@ -117,10 +112,8 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     ```  
   
     > [!NOTE]
-    >  You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-  
-    > [!NOTE]
-    >  For more information about the **<bindingElementExtensions>** element, see "<bindingElementExtensions>" at [http://go.microsoft.com/fwlink/?LinkId=86381](http://go.microsoft.com/fwlink/?LinkId=86381).  
+    > - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
+    > - See [<bindingElementExtensions>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingelementextensions) on this element.
   
 3.  In Notepad, save the machine.config file.  
   
@@ -129,9 +122,9 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     > [!NOTE]
     >  You have to repeat these steps on all the computers for the WCF infrastructure to process the WCF extensibility point for the BizTalk Host instance and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-### To configure a WCF binding element extension by using the BizTalk Administration console  
+## Configure a WCF binding element extension by using the BizTalk Administration console  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
+1.  Open **BizTalk Server Administration**.  
   
     > [!NOTE]
     >  If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console is already opened, restart the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -159,13 +152,13 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     -   In the **Binding** list, right-click a binding element extension, and then click **Move extension up** or **Move extension down**. The lowest binding element extension in the **Binding** list corresponds to the bottom component of the channel stack. The highest binding element in the **Binding** list corresponds to the top component of the communication stack.  
   
         > [!NOTE]
-        >  For more information about the specific order of the binding elements for the custom binding, see "Custom Bindings" at [http://go.microsoft.com/fwlink/?LinkId=86383](http://go.microsoft.com/fwlink/?LinkId=86383).  
+        >  See [Custom Bindings](https://docs.microsoft.com/dotnet/framework/wcf/extending/custom-bindings) for details about the specific order of the binding elements for the custom binding.
   
 10. In the transport properties dialog box, configure the rest of the settings for the transport.  
   
 11. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, close all open dialog boxes by clicking the **OK** buttons, and then make sure that no error messages and erroneous event logs appear.  
   
-### To configure the machine.config file for a WCF behavior extension  
+## Configure the machine.config file for a WCF behavior extension  
   
 1.  At a command prompt, go to the %FrameworkDir%\v4.X.XXXXX\CONFIG folder, and then open the **machine.config** file by using Notepad.  
   
@@ -182,10 +175,8 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     ```  
   
     > [!NOTE]
-    >  You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-  
-    > [!NOTE]
-    >  For more information about the **<behaviorExtensions>** element, see "<behaviorExtensions>" at  [http://go.microsoft.com/fwlink/?LinkId=86382](http://go.microsoft.com/fwlink/?LinkId=86382).  
+    >  - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
+    >  - See [<behaviorExtensions>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/behaviorextensions) on this element.
   
 3.  In Notepad, save the machine.config file.  
   
@@ -194,9 +185,9 @@ This topic describes how to enable three WCF extensibility points—behavior ext
     > [!NOTE]
     >  You have to repeat these steps on all the computers for the WCF infrastructure to process the WCF extensibility point for the BizTalk Host instance and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-### To configure a WCF behavior extension by using the BizTalk Administration console  
+## Configure a WCF behavior extension by using the BizTalk Administration console  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
+1.  Open **BizTalk Server Administration**.  
   
     > [!NOTE]
     >  If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console is already opened, restart the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -219,6 +210,6 @@ This topic describes how to enable three WCF extensibility points—behavior ext
   
 8.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, close all open dialog boxes by clicking the **OK** buttons, and then make sure that no error messages and erroneous event logs appear.  
   
-### To configure a WCF-Custom receive location with an SSL certificate  
+## Configure a WCF-Custom receive location with an SSL certificate  
   
--   If a WCF-Custom receive location happens to use the HTTP kernel-mode driver (HTTP.sys) such as the **httpsTransport** binding element, for Secure Sockets Layer (SSL) communications, the receive location must have a certificate registered for each socket (IP address/port combination). Use the HttpCfg.exe tool to bind an SSL certificate to a port on the computer. For more information, see "How To: Configure a Port with An SSL Certificate" at [http://go.microsoft.com/fwlink/?LinkId=86384](http://go.microsoft.com/fwlink/?LinkId=86384).
+-   If a WCF-Custom receive location happens to use the HTTP kernel-mode driver (HTTP.sys) such as the **httpsTransport** binding element, for Secure Sockets Layer (SSL) communications, the receive location must have a certificate registered for each socket (IP address/port combination). Use the HttpCfg.exe tool to bind an SSL certificate to a port on the computer. For more information, see [How To: Configure a Port with An SSL Certificate](https://docs.microsoft.com/dotnet/framework/wcf/feature-details/how-to-configure-a-port-with-an-ssl-certificate).

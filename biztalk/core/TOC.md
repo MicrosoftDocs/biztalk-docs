@@ -1533,7 +1533,6 @@
 #### [Replace Public Key Token Utility](replace-public-key-token-utility.md)
 #### [Extend the Schema Generator Wizard](how-to-extend-the-schema-generator-wizard.md)
 ### [Samples in the SDK](samples-in-the-sdk.md)
-#### [Get More Samples](get-more-samples.md)
 #### [Adapter Samples - Development](adapter-samples-development.md)
 ##### [File Adapter (BizTalk Server Sample)](file-adapter-biztalk-server-sample.md)
 ##### [HTTP Adapter (BizTalk Server Sample)](http-adapter-biztalk-server-sample.md)
