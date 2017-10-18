@@ -13,7 +13,7 @@
 ### [Siebel eBusiness Applications](adapter-siebel\TOC.md)
 ### [SQL Server](adapter-sql\TOC.md)
 ### [WCF LOB Adapter SDK](wcf-lob-adapter-sdk\TOC.md)
-## [BizTalk Adapters for Enterprise Application](biztalk-adapters-for-enterprise-applications.md)
+## [BizTalk Adapters for Enterprise Applications](biztalk-adapters-for-enterprise-applications.md)
 ### [Install the enterprise adapters](install-configure-biztalk-adapters-enterprise-applications.md)
 ## [FileAct](fileact-interact\TOC.md)
 ## [HL7](accelerator-hl7\TOC.md)
