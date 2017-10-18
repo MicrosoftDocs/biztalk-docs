@@ -63,7 +63,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     > [!NOTE]
     >  - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-    >  - See [<bindingExtensions>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingextensions) on this element.
+    >  - See [bindingExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingextensions) on this element.
   
 3.  In Notepad, save the machine.config file.  
   
@@ -113,7 +113,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     > [!NOTE]
     > - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-    > - See [<bindingElementExtensions>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingelementextensions) on this element.
+    > - See [bindingElementExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingelementextensions) on this element.
   
 3.  In Notepad, save the machine.config file.  
   
@@ -176,7 +176,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
     > [!NOTE]
     >  - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-    >  - See [<behaviorExtensions>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/behaviorextensions) on this element.
+    >  - See [behaviorExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/behaviorextensions) on this element.
   
 3.  In Notepad, save the machine.config file.  
   
