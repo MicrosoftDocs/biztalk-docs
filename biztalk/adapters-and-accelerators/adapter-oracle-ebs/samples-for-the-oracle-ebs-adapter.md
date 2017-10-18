@@ -1,7 +1,8 @@
 ---
-title: "Samples for the Oracle EBS adapter | Microsoft Docs"
+title: "Oracle EBS adapter samples | Microsoft Docs"
+description: Oracle Enterprise Business Suite WCF adapter samples that can be used with BizTalk Server, WCF service model, and WCF channel model 
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -25,11 +26,14 @@ Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
   
 -   Microsoft Office SharePoint Server samples  
   
- The samples are available at [http://go.microsoft.com/fwlink/p/?LinkID=196854](http://go.microsoft.com/fwlink/p/?LinkID=196854). The SQL scripts for creating the interface tables, concurrent programs, tables, and packages used in the samples are also available along with the samples for the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  
+ The samples are available at [BizTalk Adapter Pack 2010: Oracle E-Business Suite adapter samples](https://www.microsoft.com/download/details.aspx?id=6464). The SQL scripts for creating the interface tables, concurrent programs, tables, and packages used in the samples are included. 
   
- The following tables contain the names and descriptions of the samples for the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  
+> [!NOTE]
+> [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
   
-## BizTalk Server Samples  
+ The following list describes the samples. 
+  
+## BizTalk Server samples  
   
 |Sample Directory Name|Description|  
 |---------------------------|-----------------|  
@@ -42,7 +46,7 @@ Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
 |PollingUsingSelectStatement|Demonstrates how to configure a polling query using a SELECT statement and receive the results using the   [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
 |PollingUsingStoredProc|Demonstrates how to configure a polling query using a stored procedure and receive the results using the   [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
   
-## WCF Service Model Samples  
+## WCF Service model Sasamplesmples  
   
 |Sample Directory Name|Description|  
 |---------------------------|-----------------|  
@@ -54,14 +58,14 @@ Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
 |SelectPolling_ServiceModel|Demonstrates how to use a SELECT statement to poll an interface table in Oracle E-Business Suite using the adapter.|  
 |StoredProcPolling_ServiceModel|Demonstrates how to use a stored procedure to poll tables in Oracle E-Business Suite using the adapter.|  
   
-## WCF Channel Model Samples  
+## WCF Channel model samples  
   
 |Sample Directory Name|Description|  
 |---------------------------|-----------------|  
 |InsertOperation|Demonstrates how to perform an Insert operation on an interface table in Oracle E-Business Suite using the adapter.|  
 |SelectPolling_ChannelModel|Demonstrates how to use a SELECT statement to poll an interface table in Oracle E-Business Suite using the adapter.|  
   
-## Microsoft Office SharePoint Server Samples  
+## Microsoft Office SharePoint Server samples  
   
 |Sample Directory Name|Description|  
 |---------------------------|-----------------|  
