@@ -37,7 +37,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise enables you to use PeopleSof
 [Use BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling2.md) provides guidance on adding different shapes to your orchestration to handle exceptions.
 
 ## Troubleshooting
-[Troubleshooting PeopleSoft](../core/troubleshooting-peoplesoft.md)
+[Troubleshooting PeopleSoft](../core/troubleshooting-peoplesoft.md) describes some common errors and situations, and discusses Event Tracing for Windows.
 
 ## Component interfaces
 [Technical Reference for PeopleSoft Enterprise](../core/technical-reference-for-peoplesoft-enterprise.md) provides details on the methods, and generating XML to test your orchestrations.
