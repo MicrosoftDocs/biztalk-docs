@@ -1,25 +1,9 @@
 ---
-title: "How to Set Send Pipelines for JD Edwards EnterpriseOne | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "JD Edwards EnterpriseOne adapters, send pipelines"
-  - "send pipelines, configuring [JD Edwards EnterpriseOne adapters]"
-  - "adapters [JD Edwards EnterpriseOne adapters], configuring"
-  - "adapters [JD Edwards EnterpriseOne adapters], send pipelines"
-  - "JD Edwards EnterpriseOne adapters, configuring"
-ms.assetid: 4cfcecc1-febe-47c8-b75f-2b84defcdbbc
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # How to Set Send Pipelines for JD Edwards EnterpriseOne
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne requires that you select **XMLTransmit** and **XMLReceive** for the send and receive pipelines respectively.  
   
@@ -43,5 +27,3 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne requires that you select 
   
 4.  Click **OK**.  
   
-## See Also  
- [Creating JD Edwards EnterpriseOne Send Handlers](../core/creating-jd-edwards-enterpriseone-send-handlers.md)

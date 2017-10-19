@@ -27,4 +27,4 @@ Before you use the BizTalk Server to import a binding file, you must verify the 
 -   JD Edwards EnterpriseOne system passwords, if present in the configuration, are saved as ***** in the binding file. For more information see [Deployment Limitations](../core/deployment-limitations4.md).  
   
 ## See Also  
- [Deploying Ports and Assemblies](../core/deploying-ports-and-assemblies3.md)
+ [Import the JD Edwards EnterpriseOne app](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md)

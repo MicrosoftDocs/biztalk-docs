@@ -50,6 +50,6 @@ Use the JD Edwards EnterpriseOne Transport Properties dialog box to set the adap
 |Use SSO|Select **Yes** if you are using SSO; a password is not required in this case.|  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on1.md)   
+ [Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
  [Creating Affiliate Applications](../core/creating-affiliate-applications4.md)   
  [UI Reference for BizTalk Adapter for JD Edwards EnterpriseOne](../core/ui-reference-for-biztalk-adapter-for-jd-edwards-enterpriseone.md)

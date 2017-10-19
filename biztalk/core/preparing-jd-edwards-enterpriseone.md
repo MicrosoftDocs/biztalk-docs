@@ -12,5 +12,4 @@ For information about preparing JD Edwards EnterpriseOne system to use with Micr
   
 ## See Also  
  [Installing BizTalk Adapter for JD Edwards EnterpriseOne](../core/installing-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
- [Planning and Architecture](../core/planning-and-architecture8.md)   
  [Getting Started](../core/getting-started-with-biztalk-adapter-for-jd-edwards-enterpriseone.md)

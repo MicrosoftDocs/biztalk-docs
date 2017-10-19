@@ -1,5 +1,6 @@
 ---
 title: "Architecture of BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
+description: Describes the inbound services at design time and run time, and outbound events at design time and run time in the JD Edwards EnterpriseOne adapter in BizTalk
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +9,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture"
 ms.assetid: 0441c5d2-6a46-45b6-8ab5-0bdac3590f56
 caps.latest.revision: 11
 author: "MandiOhlinger"
@@ -71,5 +70,9 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides access to JD Edw
   
 -   The receive port submits the XML document in BizTalk Server.  
   
-## See Also  
- [Planning and Architecture](../core/planning-and-architecture8.md)
+## More good stuff
+[Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)  
+[Create the application artifacts](../core/developing-applications2.md)  
+[Import your JD Edwards EnterpriseOne app](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md)  
+[Use BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling3.md)  
+[Troubleshoot](../core/troubleshooting-jd-edwards-enterpriseone.md)  

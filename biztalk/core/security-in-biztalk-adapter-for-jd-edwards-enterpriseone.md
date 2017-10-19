@@ -1,26 +1,37 @@
 ---
-title: "Security in BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
+title: "Use SSO to secure the JD Edwards EnterpriseOne | Microsoft Docs"
+description: Security overview when using the Microsoft BizTalk Adapter JD Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security"
 ms.assetid: 24c9802e-485d-4632-bc27-3285f35d34e3
 caps.latest.revision: 7
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Security in BizTalk Adapter for JD Edwards EnterpriseOne
+# Security in JD Edwards EnterpriseOne
+
+## Overview
+
+Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides Single Sign-On (SSO) support. An affiliate application created by Enterprise Single Sign-On tools represents a server system such as JD Edwards EnterpriseOne. 
+
 This section provides guidelines for deploying Microsoft BizTalk Server Adapter for JD Edwards EnterpriseOne in a secure environment.  
   
 > [!CAUTION]
->  It is highly recommended that you restrict the use of BizTalk Adapter for JD Edwards EnterpriseOne to authorized users only, because the client files directly connect to the line-of-business applications.  
+>  We recommended that you restrict the use of BizTalk Adapter for JD Edwards EnterpriseOne to authorized users only, as the client files directly connect to the line-of-business applications.  
   
-## In This Section  
- [Using Single Sign-On](../core/using-single-sign-on1.md)
+## Next steps 
+  
+-   [Requirements for Single Sign-On](../core/requirements-for-single-sign-on1.md)  
+  
+-   [Single Sign-On and BizTalk Adapter for JD Edwards EnterpriseOne](../core/single-sign-on-and-biztalk-adapter-for-jd-edwards-enterpriseone.md)  
+  
+-   [Creating Affiliate Applications](../core/creating-affiliate-applications4.md)  
+  
+-   [How to Create a Send Port](../core/how-to-create-a-send-port1.md)

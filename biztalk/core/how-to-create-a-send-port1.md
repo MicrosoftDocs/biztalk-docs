@@ -50,4 +50,4 @@ Use the following procedure to create BizTalk Server send ports for JD Edwards E
   
 ## See Also  
  [Creating Affiliate Applications](../core/creating-affiliate-applications4.md)   
- [Using Single Sign-On](../core/using-single-sign-on1.md)
+ [Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)
