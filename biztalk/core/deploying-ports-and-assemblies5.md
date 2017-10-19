@@ -1,23 +1,10 @@
 ---
-title: "Deploying Ports and Assemblies5 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, deploying"
-  - "assemblies, deploying"
-  - "deployment, ports and assemblies"
-ms.assetid: 11d980c4-2502-4da2-b505-d7326aae619a
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Deploying Ports and Assemblies
 Using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can duplicate ports and assemblies on a target computer. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] exports the send ports/receive location configuration into an XML file.  
   

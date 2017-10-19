@@ -119,4 +119,4 @@ The following steps show how to start using affiliate applications and Single Si
 5.  The affiliate application appears in the BizTalk Adapter for PeopleSoft Enterprise Transport Properties dialog box.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

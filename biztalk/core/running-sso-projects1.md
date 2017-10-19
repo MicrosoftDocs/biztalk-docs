@@ -40,4 +40,4 @@ You can run the sample  from Internet Explorer.
      In this case you do not have to provide the credentials.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

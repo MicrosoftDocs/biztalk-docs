@@ -37,4 +37,4 @@ You can use the HTTP receive adapter to submit messages to [!INCLUDE[btsBizTalkS
 2.  Restart IIS to apply all changes.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

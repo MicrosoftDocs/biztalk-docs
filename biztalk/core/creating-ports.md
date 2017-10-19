@@ -101,4 +101,4 @@ Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../i
 7.  Click **OK**.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

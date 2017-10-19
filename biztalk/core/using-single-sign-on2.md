@@ -1,22 +1,9 @@
 ---
-title: "Using Single Sign-On2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-peoplesoft-enterprise/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Sign-On"
-  - "SSO"
-ms.assetid: 994746bf-0839-45b3-857d-70f80814b6b9
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # Using Single Sign-On
 Microsoft BizTalk Adapter for PeopleSoft Enterprise provides Single Sign-On (SSO) support. An affiliate application created by Enterprise Single Sign-On tools represents a server system such as PeopleSoft.  
   

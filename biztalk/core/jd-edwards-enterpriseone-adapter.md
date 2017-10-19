@@ -31,13 +31,13 @@ Microsoft BizTalk Adapter for J.D. Edwards EnterpriseOne enables you to use JD E
 [Create the application artifacts](../core/developing-applications2.md) shows you how to add the artifacts in BizTalk Administration, and in Visual Studio. It also shows how to use message context properties in an orchestration.
 
 ## Import your app
-[Deploying your JD Edwards EnterpriseOne application](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md) discusses how to import your application binding file into BizTalk Administration, and goes over the limitations. 
+[Deploying your application](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md) discusses how to import your application binding file into BizTalk Administration, and goes over any limitations. 
 
 ## Exception handling
 [BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling3.md) provides guidance on adding different shapes to your orchestration to handle exceptions.
 
 ## Troubleshooting
-[Troubleshooting JD Edwards EnterpriseOne](../core/troubleshooting-jd-edwards-enterpriseone.md) describes some common errors and situations, and discusses Event Tracing for Windows.
+[Troubleshoot the adapter](../core/troubleshooting-jd-edwards-enterpriseone.md) describes some common errors and situations, and discusses Event Tracing for Windows.
 
 ## Reference
 [Technical reference](../core/technical-reference6.md) includes sample files and sample data types used by this adapter.

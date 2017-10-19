@@ -1,22 +1,9 @@
 ---
-title: "How to Set Pipelines for PeopleSoft Enterprise | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "setting pipelines"
-  - "pipelines, setting"
-ms.assetid: 36914615-eac0-47b6-9e66-deeb40d21f10
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # How to Set Pipelines for PeopleSoft Enterprise
 Microsoft BizTalk Adapter for PeopleSoft Enterprise requires that you select an appropriate pipeline.  
   
