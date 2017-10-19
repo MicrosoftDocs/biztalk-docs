@@ -1,5 +1,5 @@
 ---
-title: "Receiving from PeopleSoft | Microsoft Docs"
+title: "Receive from PeopleSoft | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -21,7 +21,7 @@ The Microsoft Adapter for PeopleSoft Enterprise is a send adapter. The adapter s
   
 2.  Create a receive port accessible from PeopleSoft such as a port using the HTTP Adapter. Use the custom receive pipeline with the receive port.  
   
-## The Set Namespace Pipeline Component  
+## Set Namespace Pipeline Component  
  Messages received from PeopleSoft do not include namespaces. The Set Namespace pipeline component enables you to add a namespace to the incoming message.  
   
  The default location for the Set Namespace pipeline component is C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\Pipeline Component. You need to copy the component, Microsoft.BizTalk.Adapters.Pipeline.SetNSForMsg.dll, to the Pipeline Component directory used by BizTalk. You also need to add the component to the Visual Studio Toolbox in order to use it in the Pipeline Designer.  
@@ -30,7 +30,7 @@ The Microsoft Adapter for PeopleSoft Enterprise is a send adapter. The adapter s
   
  For information about adding the component to the Visual Studio Toolbox, see [How to Use the Toolbox](../core/how-to-use-the-toolbox.md).  
   
-## Configuring the Set Namespace Pipeline Component  
+## Configure the Set Namespace Pipeline Component  
  The Set Namespace pipeline component has two properties you can set:  
   
 |Use this|To do this|  

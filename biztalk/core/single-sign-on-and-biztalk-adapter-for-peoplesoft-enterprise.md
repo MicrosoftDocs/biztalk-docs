@@ -33,4 +33,4 @@ When you use Single Sign-On (SSO) with Microsoft BizTalk Adapter for PeopleSoft 
   
 ## See Also  
  [Creating Affiliate Applications](../core/creating-affiliate-applications2.md)   
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

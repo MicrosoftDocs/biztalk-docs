@@ -90,4 +90,4 @@ The following procedures describe how to build, deploy, bind, and start an orche
      To change the status to **Running** and click **Refresh**, or right-click the host instance and then click **Refresh**.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

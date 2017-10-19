@@ -1,25 +1,10 @@
 ---
-title: "Optimizing Configuration | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Max Concurrent Calls parameter"
-  - "optimizing, configuration"
-  - "configuring, optimizing"
-  - "messages, overload protection"
-ms.assetid: df0ae17b-fcfa-4e00-893c-63f4972d3822
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
-# Optimizing Configuration
+ROBOTS: NOINDEX
+--- 
+# Optimize configuration
 This section contains information about how to optimize your configuration of BizTalk Adapter for PeopleSoft Enterprise and includes parameter descriptions for setting up the adapter.  
   
 ## Message Overload Protection  
@@ -27,7 +12,7 @@ This section contains information about how to optimize your configuration of Bi
   
  When BizTalk Server submits messages to the transmit adapter, it first receives a batch from the adapter and invokes `TransmitMessage()` on the batch to transmit each message. When done, BizTalk Server invokes `Done()` on the batch, and the adapter starts transmitting the messages to the back-end. If BizTalk Server obtains multiple batches before `Done` is invoked, the `Done` command might never occur. By setting the maximum number of messages in a batch, you can control messages to the back-end. Changing this parameter takes effect in a minute. BizTalk Server must retrieve the changes to the adapter configuration that is saved in the SQL database.  
   
-#### To change the Max Concurrent Calls parameter  
+## Change the Max Concurrent Calls parameter  
   
 1.  In the **Send Port Transport Properties** dialog box, enter a **Connection** value.  
   
@@ -50,7 +35,7 @@ This section contains information about how to optimize your configuration of Bi
 4.  Select **Yes** for **Use SSO** to use Single Sign-On.  
   
     > [!NOTE]
-    >  For more information, see [Using Single Sign-On](../core/using-single-sign-on2.md).  
+    >  For more information, see [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md). 
   
 5.  Select an affiliate application in the list.  
   

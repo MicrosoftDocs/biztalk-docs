@@ -1,5 +1,5 @@
 ---
-title: "Importing Binding Files1 | Microsoft Docs"
+title: "Import PeopleSoft adapter binding files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,18 +8,15 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "binding files, importing"
-  - "CLASSPATH environment variable"
-  - "importing binding files"
-  - "cleaning target computer"
 ms.assetid: b2a9b19b-2d3d-45ea-bd92-a2501791b86a
 caps.latest.revision: 12
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Importing Binding Files
+# Import Binding Files
+
+## Overview
 Before you use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to import a binding file, verify the following:  
   
 -   The CLASSPATH is pointing to a specific location for the PeopleSoft-specific files. Verify that the location of these files is the same on the new computer—or edit the binding file.  
@@ -33,22 +30,18 @@ Before you use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserver
   
  For step-by-step directions about importing binding files, see the topic "How to Import Bindings into a BizTalk Group" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation.  
   
-## Cleaning the Target Computer  
- Follow these steps to clean the target computer for deploying the new application.  
+## Clean the Target Computer  
+To clean the target computer for deploying the new application, remove send ports and receive locations bound to the orchestration.  
   
-#### To clean the target computer  
+If you do not have Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] installed on the target computer, you may remove the ports by running these scripts:  
   
--   Remove send ports and receive locations bound to the orchestration.  
+**\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs**  
   
-     If you do not have Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] installed on the target computer, you may remove the ports by running these scripts:  
+**\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs**  
   
-     **\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs**  
+For example, at a command prompt, run:  
   
-     **\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs**  
-  
-     For example, at a command prompt, run:  
-  
-     **cscript RemoveSendPort.vbs \<Send port name>**  
+**cscript RemoveSendPort.vbs \<Send port name>**  
   
 ## See Also  
- [Deploying Ports and Assemblies](../core/deploying-ports-and-assemblies5.md)
+[Import bindings & limitations](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)

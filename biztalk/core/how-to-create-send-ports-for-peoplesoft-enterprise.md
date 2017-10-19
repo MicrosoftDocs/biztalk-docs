@@ -1,22 +1,9 @@
 ---
-title: "How to Create Send Ports for PeopleSoft Enterprise | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "creating send ports"
-  - "send ports, creating"
-ms.assetid: 374261ce-2cb5-4193-a0a2-658f989b2c60
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # How to Create Send Ports for PeopleSoft Enterprise
 Follow these steps to create a send port using BizTalk Server Administration Console.  
   

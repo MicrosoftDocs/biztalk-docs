@@ -1,27 +1,28 @@
 ---
-title: "Developing Applications4 | Microsoft Docs"
+title: "Create application artifacts for PeopleSoft Enterprise | Microsoft Docs"
+description: Create the artifacts in BizTalk Server administration, and in Visual Studio to use the BizTalk Adapter for PeopleSoft Enterprise in BizTalk Server
+description: 
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/19/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing, applications"
-  - "applications, developing"
 ms.assetid: 2265f06a-ce5b-4401-aa32-d99c625cc95d
 caps.latest.revision: 8
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Developing Applications
-This section contains information for developers who want to create BizTalk Server applications. When these applications are created, they are usually managed by an administrator who uses information found in the [Administering BizTalk Adapter for PeopleSoft Enterprise](../core/administering-biztalk-adapter-for-peoplesoft-enterprise.md) section.  
+
+# Create your application
+This section contains information for developers who want to create BizTalk Server applications and work with BizTalk Adapter for PeopleSoft Enterprise. Once these applications are created, then you can [add exception handling](../core/using-biztalk-server-exception-handling2.md) to your orchestration. 
+
+
+## Next steps
   
-## In This Section  
-  
--   [Creating PeopleSoft Send Handlers](../core/creating-peoplesoft-send-handlers.md)  
-  
+-   [Create the send artifacts](../core/creating-peoplesoft-send-handlers.md)  
+-   [Import Schemas into Visual Studio Projects](../core/importing-peoplesoft-schemas-into-biztalk-server-projects.md)  
 -   [Receiving from PeopleSoft](../core/receiving-from-peoplesoft.md)
