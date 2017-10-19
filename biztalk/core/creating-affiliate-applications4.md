@@ -114,4 +114,4 @@ The following steps describe how to get started with affiliate applications usin
      The affiliate application appears in the BizTalk Adapter for JD Edwards EnterpriseOne **Transport Properties** dialog box.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on1.md)
+ [Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

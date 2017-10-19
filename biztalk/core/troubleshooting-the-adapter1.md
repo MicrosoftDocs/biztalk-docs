@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting the Adapter1 | Microsoft Docs"
+title: "Troubleshoot the JD Edwards EnterpriseOne adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,10 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "JD Edwards EnterpriseOne adapters, wildcard characters"
-  - "adapters [JD Edwards EnterpriseOne adapters], wildcard characters"
-  - "wildcard characters, JD Edwards EnterpriseOne adapters"
 ms.assetid: f5a55e52-039a-4aea-8251-b697fd061ddc
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -68,5 +64,5 @@ This topic contains information to help you identify and resolve issues that you
     ```  
   
 ## See Also  
- [How to Create Send Ports for JD Edwards EnterpriseOne](../core/how-to-create-send-ports-for-jd-edwards-enterpriseone.md)   
+ [Add the adapter, and create the artifacts](../core/adding-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
  [Troubleshooting JD Edwards EnterpriseOne](../core/troubleshooting-jd-edwards-enterpriseone.md)

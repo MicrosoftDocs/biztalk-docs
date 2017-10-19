@@ -1,22 +1,9 @@
 ---
-title: "Using Single Sign-On1 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Sign-On"
-  - "SSO"
-ms.assetid: f235e1e9-ffd7-4e2f-af95-a94f16d0d8fa
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # Using Single Sign-On
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides Single Sign-On (SSO) support. An affiliate application created by Enterprise Single Sign-On tools represents a server system such as JD Edwards EnterpriseOne.  
   

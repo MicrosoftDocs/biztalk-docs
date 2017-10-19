@@ -1,5 +1,5 @@
 ---
-title: "Enterprise Application adapters | Microsoft Docs"
+title: "Enterprise Applications adapters | Microsoft Docs"
 description: Microsoft BizTalk Adapters for Enterprise Applications includes JD Edwards EnterpriseOne, JD Edwards OneWorld, PeopleSoft Enterprise, TIBCO Enterprise Message Service, and TIBCO Rendezvous to use in BizTalk Server 
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Enterprise adapters in BizTalk Server
+# Enterprise Applications adapters in BizTalk Server
 
 ## Overview
 

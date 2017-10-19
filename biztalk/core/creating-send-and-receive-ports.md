@@ -87,6 +87,6 @@ Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../i
 7.  For the **Receive Pipeline**, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**, and then click **OK**.  
   
 ## See Also  
- [Creating JD Edwards OneWorld Send Handlers](../core/creating-jd-edwards-oneworld-send-handlers.md)   
- [How to Set JD Edwards OneWorld Transport Properties](../core/how-to-set-jd-edwards-oneworld-transport-properties.md)   
- [Using Single Sign-On](../core/using-single-sign-on3.md)
+ [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

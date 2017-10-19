@@ -56,4 +56,4 @@ This topic shows the procedures for configuring the virtual directory and verify
 4.  Click **Identify** and change the identity under which this COM+ application runs to a user that is a member of a BizTalk Server group.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on3.md)
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

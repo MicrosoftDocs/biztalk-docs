@@ -1,25 +1,9 @@
 ---
-title: "How to Create Send Ports for JD Edwards EnterpriseOne | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "JD Edwards EnterpriseOne adapters, send ports"
-  - "send ports, creating [JD Edwards EnterpriseOne adapters]"
-  - "adapters [JD Edwards EnterpriseOne adapters], send ports"
-  - "send ports, JD Edwards EnterpriseOne adapters"
-  - "creating, send ports [JD Edwards EnterpriseOne adapters]"
-ms.assetid: 687f9207-ad3e-41ea-8640-5b9b6efbc14e
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # How to Create Send Ports for JD Edwards EnterpriseOne
 Using [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], create a send port.  
   
@@ -41,5 +25,3 @@ Using [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], cr
   
 5.  Click **OK**.  
   
-## See Also  
- [Creating JD Edwards EnterpriseOne Send Handlers](../core/creating-jd-edwards-enterpriseone-send-handlers.md)

@@ -1,5 +1,5 @@
 ---
-title: "Deployment Limitations2 | Microsoft Docs"
+title: "JD Edwards OneWorld adapter deployment limitations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deployment, limitations"
-  - "passwords, adapter limitations"
 ms.assetid: 9db2ca70-5db2-4b14-a898-13049737c188
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -51,5 +48,5 @@ The Transport Adapter password is stored as asterisks (\*\*\*\*\*\*) in the bind
 2.  Verify the Logical system and the Transmit and Receive services.  
   
 ## See Also  
- [How to Set JD Edwards OneWorld Transport Properties](../core/how-to-set-jd-edwards-oneworld-transport-properties.md)   
- [Deploying Ports and Assemblies](../core/deploying-ports-and-assemblies4.md)
+ [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [Import the JD Edwards OneWorld app](deploying-biztalk-adapter-for-jd-edwards-oneworld.md)

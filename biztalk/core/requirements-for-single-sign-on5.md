@@ -39,4 +39,4 @@ To use Single Sign-On (SSO), you must have:
     >  After performing work using SSO, remember to reset any **Web-Sharing** folder to **Do not share**. Applications using that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on3.md)
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

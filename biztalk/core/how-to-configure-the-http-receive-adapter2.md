@@ -35,4 +35,4 @@ You can use the HTTP receive adapter to submit messages to BizTalk Server. The H
 2.  Restart IIS to ensure that all changes are in effect.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on3.md)
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

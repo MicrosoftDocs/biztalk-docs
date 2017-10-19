@@ -37,4 +37,4 @@ The Transport Adapter password is stored as stars (******) in the binding file t
 2.  Verify the Logical system and the Transmit and Receive services.  
   
 ## See Also  
- [Deploying Ports and Assemblies](../core/deploying-ports-and-assemblies3.md)
+ [Import the JD Edwards EnterpriseOne app](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md)
