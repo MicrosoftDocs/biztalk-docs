@@ -1,5 +1,5 @@
 ---
-title: "Use SSO to secure the JD Edwards EnterpriseOne | Microsoft Docs"
+title: "Use SSO to secure JD Edwards EnterpriseOne | Microsoft Docs"
 description: Security overview when using the Microsoft BizTalk Adapter JD Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"

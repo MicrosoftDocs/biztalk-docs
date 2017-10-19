@@ -1,24 +1,10 @@
 ---
-title: "How to Set JD Edwards OneWorld Pipelines | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "receive pipelines"
-  - "send pipelines"
-  - "setting pipelines"
-  - "pipelines, setting"
-ms.assetid: 821d4081-a2d4-4957-abc0-d6370e719ba8
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Set JD Edwards OneWorld Pipelines
 Microsoft BizTalk Adapter for JD Edwards OneWorld requires that you select XMLTransmit and XMLReceive for the send and receive pipelines respectively.  
   
@@ -38,5 +24,3 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld requires that you select XMLTr
   
 5.  Click **OK**.  
   
-## See Also  
- [Creating JD Edwards OneWorld Send Handlers](../core/creating-jd-edwards-oneworld-send-handlers.md)

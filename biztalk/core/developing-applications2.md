@@ -2,7 +2,7 @@
 title: "Create application artifacts for JD Edwards EnterpriseOne | Microsoft Docs"
 description: Create the artifacts in BizTalk Server administration, and in Visual Studio to use the BizTalk Adapter for JD Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

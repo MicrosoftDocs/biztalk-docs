@@ -1,22 +1,9 @@
 ---
-title: "Using Single Sign-On3 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Sign-On"
-  - "SSO"
-ms.assetid: 84bb4254-e9bb-42c1-b8c1-7c38cba7f2ee
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # Using Single Sign-On
 Microsoft BizTalk Adapter for JD Edwards OneWorld provides Single Sign-On (SSO) support. An affiliate application created by Enterprise Single Sign-On tools represents a server system such as JD Edwards OneWorld.  
   

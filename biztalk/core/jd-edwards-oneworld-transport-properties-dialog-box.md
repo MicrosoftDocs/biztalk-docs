@@ -37,6 +37,6 @@ Use the JD Edwards OneWorld Transport Properties dialog box to set the adapter-r
 |Use SSO|Select **Yes** if you are using SSO; a password is not required in this case.|  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on3.md)   
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)   
  [Creating Affiliate Applications](../core/creating-affiliate-applications3.md)   
  [UI Reference for BizTalk Adapter for JDE OneWorld](../core/ui-reference-for-biztalk-adapter-for-jde-oneworld.md)

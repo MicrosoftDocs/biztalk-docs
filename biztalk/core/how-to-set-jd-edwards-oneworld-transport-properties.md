@@ -1,23 +1,12 @@
 ---
-title: "How to Set JD Edwards OneWorld Transport Properties | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "setting transport properties"
-  - "transport properties, setting"
-ms.assetid: 6d38088b-a496-414e-aae6-d28c5d6398b6
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # How to Set JD Edwards OneWorld Transport Properties
+
+## Overview
 The JD Edwards OneWorld Transport Property System Definition is used for design and run-time logon. You set these credentials to browse JD Edwards OneWorld business functions at design time and make calls at run time.  
   
  When a connection is made to JD Edwards OneWorld, parameters are passed to the connection object (User, Password, Environment). It returns an instance of the JD Edwards OneWorld aApplication business function. The credentials are further defined by the name of the enterprise/application server, and the defined TCP/IP port on which the service listens.  
@@ -27,12 +16,8 @@ The JD Edwards OneWorld Transport Property System Definition is used for design 
 > [!NOTE]
 >  All entries are case sensitive.  
   
-## Setting Properties  
+## Set the transport properties  
  In the **Transport Properties** dialog box, you set the connection and credential parameters that are specific to the server system and the objects you are trying to access.  
-  
- The steps in this process are as follows:  
-  
-#### To set transport properties  
   
 1.  Provide credentials.  
   
@@ -44,7 +29,7 @@ The JD Edwards OneWorld Transport Property System Definition is used for design 
   
 2.  To use Single Sign-On (SSO), select **Yes** in the **Use SSO**.  
   
-     For more information about how to set up SSO, see [Using Single Sign-On](../core/using-single-sign-on3.md).  
+     For more information about how to set up SSO, see [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)  
   
 3.  Select an affiliate application in the list.  
   
@@ -77,7 +62,7 @@ The JD Edwards OneWorld Transport Property System Definition is used for design 
   
      You must set connection parameters for BizTalk Adapter for JD Edwards OneWorld to access JD Edwards OneWorld.  
   
-### Adapter Required Properties  
+## Adapter required properties  
  If you did not set global environment variables in Control Panel, you can do so in this section.  
   
 |Parameter|Description|  
@@ -90,5 +75,3 @@ The JD Edwards OneWorld Transport Property System Definition is used for design 
 |Port|Type the port number that will exchange data (for example, `6009`).|  
 |User Name|Type a JD Edwards OneWorld user name that will be used to log on to the JD Edwards OneWorld system.|  
   
-## See Also  
- [Creating JD Edwards OneWorld Send Handlers](../core/creating-jd-edwards-oneworld-send-handlers.md)

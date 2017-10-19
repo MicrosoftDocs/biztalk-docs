@@ -87,4 +87,4 @@ This topic discusses browsing a JD Edwards OneWorld server and importing the sch
 >  --I for Inquiry  
   
 ## See Also  
- [Creating JD Edwards OneWorld Send Handlers](../core/creating-jd-edwards-oneworld-send-handlers.md)
+ [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)

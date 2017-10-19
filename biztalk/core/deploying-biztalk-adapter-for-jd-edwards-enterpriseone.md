@@ -2,7 +2,7 @@
 title: "Import BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
 description: Confirm the setup, import the application binding file, and review the limitations of the JD Edwards EnterpriseOne adapter in BizTalk 
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
