@@ -1,5 +1,5 @@
 ---
-title: "Creating Affiliate Applications2 | Microsoft Docs"
+title: "Create affiliate applications for PeopleSoft Enterprise | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,13 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Sign-On, creating tickets"
-  - "creating affiliate applications"
-  - "tickets, SSO"
-  - "affiliate applications, enabling XML"
-  - "affiliate applications, creating"
-  - "SSO tickets"
 ms.assetid: 95151163-5aaf-4683-afb7-02949ccda3e1
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -27,7 +20,7 @@ The following steps show how to start using affiliate applications and Single Si
 > [!NOTE]
 >  If you receive SSO errors, verify that you used a domain account when you were configuring BizTalk Server, as this affects the function of the Enterprise SSO service. SSO only functions under a domain account.  
   
-### To create an affiliate application  
+## Create an affiliate application  
   
 1.  In Control Panel, open **Services**, and verify that the Enterprise Single Sign-On service is running.  
   
@@ -70,9 +63,7 @@ The following steps show how to start using affiliate applications and Single Si
     </SSO>  
     ```  
   
-## Creating Single Sign-On Tickets  
-  
-#### To create SSO tickets  
+## Create Single Sign-On Tickets  
   
 1.  Type the following command to control SSO ticket behavior:  
   
@@ -86,9 +77,7 @@ The following steps show how to start using affiliate applications and Single Si
   
      **Using SSO server on this computer. The operation completed successfully.**  
   
-## Enabling the Affiliate Application XML  
-  
-#### To enable affiliate application XML  
+## Enable the Affiliate Application XML  
   
 1.  Type the following command:  
   

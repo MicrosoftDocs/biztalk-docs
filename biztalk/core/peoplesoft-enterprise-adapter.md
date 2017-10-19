@@ -31,7 +31,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise enables you to use PeopleSof
 [Create the application artifacts](../core/developing-applications4.md) shows you how to add the artifacts in BizTalk Administration, and add the schemas to Visual Studio.
 
 ## Import apps
-[Importing binding file](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)
+[Importing binding file](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md) discusses how to import your application binding file into BizTalk Administration, and goes over any limitations. 
 
 ## Exception handling
 [Use BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling2.md) provides guidance on adding different shapes to your orchestration to handle exceptions.
