@@ -30,8 +30,17 @@ manager: "anneta"
 ---
 # How to Configure the Backup BizTalk Server Job
 This topic lists the steps necessary to configure the Backup BizTalk Server job.  
-  
- You must configure the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job before you can back up [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. To configure the backup, you need to perform most or all of the following tasks:  
+
+**Backup BizTalk Server (BizTalkMgmtDb)** job consists of four steps:
+-   Step 1 – **Set Compression Option** – Enable or disable compression during backup.
+
+-   Step 2 – **BackupFull** – Performs full database backups of the BizTalk Server databases.
+
+-   Step 3 – **MarkAndBackUpLog** – Backs up the BizTalk Server database logs.
+
+-   Step 4 – **Clear Backup History** – Specifies for how long the backup history is kept.
+
+By default, the following BizTalk jobs aren’t configured and enabled upon installation. So, you must configure the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job before you can back up. To configure the backup, you need to perform most or all of the following tasks:  
   
 -   Edit the SQL Server Agent **Backup BizTalk Server (BizTalkMgmtDb)** job to identify the primary and destination SQL Servers and other backup options.  
   
@@ -64,7 +73,10 @@ This topic lists the steps necessary to configure the Backup BizTalk Server job.
   
 3.  Right-click **Backup BizTalk Server (BizTalkMgmtDb)** and select **Properties**. In the job properties, select **Steps**.  
   
-4.  Select the **Set Compression Option** step and select **Edit**. In the **Command** box, change the value to 1:  
+4.  Select the **Set Compression Option** step and select **Edit**:  
+
+    1.  This job step calls a stored procedure named sp_SetBackupCompression on the BizTalk management database (BizTalkMgmtDb by default) to set the value on the adm_BackupSettings table. The stored procedure has only one parameter: **@bCompression**, that by default is set to **0** (which makes backup compression off). Change the default value to **1** if you wnat to apply compression.
+  
   
     ```  
     exec [dbo].[sp_SetBackupCompression] @bCompression = 1 /*0 - Do not use Compression, 1 - Use Compression */  
@@ -79,6 +91,12 @@ This topic lists the steps necessary to configure the Backup BizTalk Server job.
     2.  **Name**: The default is **BTS**. The name is used as part of the backup file name.  
   
     3.  **Location of backup files**: Replace '*\<destination path>*' with the full path (the path must include the single quotes) to the computer and folder where you want to back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.  
+    
+    4.  There are also three optional parameters:
+
+      -  **Force full backup after partial backup failures** (@ForceFullBackupAfterPartialSetFailure): The default is **0** when not specified, which means that if a log backup fails, no full backups are done until the next full backup frequency interval is reached. Replace with **1** if you want a full backup to be made whenever a log backup failure occurs.
+      -  **Local time hour for the backup process to run**: The default is NULL when not specified, which means that backup job is not associated with the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer and therefore runs at midnight UTC time (0000). If you want to backup to run at a particular hour in the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, enter an integer value from 0 (midnight) to 23 (11 PM) as the local time hour for the **BackupHour** parameter. 
+      -  **Use local time** (@UseLocalTime): This is an extra parameter that you can also add that tells the procedure to use local time. The default value is 0. If set to 0, then it uses current UTC time – GETUTCDATE() – 2007-05-04 01:34:11.933. If set to 1, then it uses local time – GETDATE() – 2007-05-03 18:34:11.933
   
         > [!IMPORTANT]
         >  -   If you specify a local path, then you have to manually copy all the files to the same folder on the destination system whenever the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job creates new files.  
@@ -87,10 +105,6 @@ This topic lists the steps necessary to configure the Backup BizTalk Server job.
         >   
         >      Backing up data over a network is subject to any network issues. When using a remote location, verify the backup succeeded when the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job finishes.  
         > -   To avoid potential data loss, configure the backup disk to be a different disk than the database data and log disks. This is necessary so you can access the backups if the data or log disk fails.  
-  
-    4.  **Force full backup after partial backup failures**: The default is **0** when not specified, which means that if a log backup fails, no full backups are done until the next full backup frequency interval is reached. Replace with **1** if you want a full backup to be made whenever a log backup failure occurs.  
-  
-    5.  **Local time hour for the backup process to run**: The default is NULL when not specified, which means that backup job is not associated with the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer and therefore runs at midnight UTC time (0000). If you want to backup to run at a particular hour in the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, enter an integer value from 0 (midnight) to 23 (11 PM) as the local time hour for the **BackupHour** parameter.  
   
      In the following example, daily backups are created at 2am and stored in the m:\ drive:  
   
@@ -105,7 +119,11 @@ This topic lists the steps necessary to configure the Backup BizTalk Server job.
   
      Select **OK**.  
   
-6.  Select the **MarkAndBackupLog** step and select **Edit**. In the **Command** box, replace **'***\<destination path>***'** with the full path (including single quotes) to the computer and folder where you want to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs. The *\<destination path>* may be local or a UNC path to another server.  
+5.  Select the **MarkAndBackupLog** step and select **Edit**. In the **Command** box, edit the parameter values:  
+  
+    1.  **@MarkName**: Log mark name is part of the naming convention for backup files: <Server Name>_<Database Name>**_Log_**< Log Mark Name >_<Timestamp>  
+    
+    2.  **@BackupPath**: Full destination path (including single quotes) to the computer and folder where you want to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs. The *\<destination path>* may be local or a UNC path to another server.  
   
      The MarkAndBackupLog step marks the logs for backup, and then backs them up.  
   
@@ -114,15 +132,18 @@ This topic lists the steps necessary to configure the Backup BizTalk Server job.
   
      Select **OK**.  
   
-7.  Select the **Clear Backup History** step and select **Edit**. In the **Command** box, change **DaysToKeep=***\<number>* to the number of days you want to keep the backup history:  
+6.  Select the **Clear Backup History** step and select **Edit**. In the **Command** box, edit the parameter values:  
+  
+    1.  **@DaysToKeep**: specifies how long the backup history is kept in the **Adm_BackupHistory** table. Periodically clearing the backup history helps to maintain the Adm_BackupHistory table at an appropriate size. The default value for the **DaysToKeep** parameter is **14 days**.  
+    
+    2.  There is also one optional parameter: **@UseLocalTime**: This is an extra parameter that you can also add that tells the procedure to use local time. The default value is 0. If set to 0, then it uses current UTC time – GETUTCDATE() – 2007-05-04 01:34:11.933. If set to 1, then it uses local time – GETDATE() – 2007-05-03 18:34:11.933
   
     ```  
-    exec [dbo].[sp_DeleteBackupHistory] @DaysToKeep=14  
+    exec [dbo].[sp_DeleteBackupHistory] @DaysToKeep=14, @UseLocalTime =1 
     ```  
   
     > [!NOTE]
-    >  The **DaysToKeep** parameter specifies how long the backup history is kept in the Adm_BackupHistory table. Periodically clearing the backup history helps to maintain the Adm_BackupHistory table at an appropriate size. The default value for the **DaysToKeep** parameter is 14 days.  
-  
+    >  This job step **does not** provide functionality for deleting backup files from destination path that have accumulated over time.  
      Select **OK** and close all property windows.  
   
 8.  Optional. Change the backup schedule. See [How to Schedule the Backup BizTalk Server Job](../core/how-to-schedule-the-backup-biztalk-server-job.md).  
@@ -135,7 +156,7 @@ This topic lists the steps necessary to configure the Backup BizTalk Server job.
 ## sp_ForceFullBackup stored procedure  
   
 > [!NOTE]
->  The sp_ForceFullBackup stored procedure in the BizTalkMgmtDb database can be used to help perform an ad-hoc full backup of the data and log files. The stored procedure updates the adm_ForceFullBackup table with a value 1. The next time the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job is ran, a full database backup set is created.  
+>  The **sp_ForceFullBackup** stored procedure in the **BizTalkMgmtDb** database can be used to help perform an ad-hoc full backup of the data and log files. The stored procedure updates the adm_ForceFullBackup table with a value 1. The next time the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job is ran, a full database backup set is created.  
   
 ## Next Steps  
  [How to Configure the Destination System for Log Shipping](../core/how-to-configure-the-destination-system-for-log-shipping.md)  
