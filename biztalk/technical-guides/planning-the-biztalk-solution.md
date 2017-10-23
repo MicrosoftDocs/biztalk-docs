@@ -181,7 +181,7 @@ One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../inclu
 -   Configuration values for all software and operating system features used if they vary from default values  
   
 ## Building Out the Environment for the Solution  
- Detailed instructions for installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the required dependency software can be found in the BizTalk Server Installation Guides available for download at [BizTalk Server 2010 Documentation](http://go.microsoft.com/fwlink/?LinkId=183138) (http://go.microsoft.com/fwlink/?LinkId=183138).  
+ Detailed instructions for installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the required dependency software can be found in the BizTalk Server Installation Guides available for download at [BizTalk Server 2010 Documentation](http://go.microsoft.com/fwlink/?LinkId=183138).  
   
 ## See Also  
  [Planning the BizTalk Server Tier](../technical-guides/planning-the-biztalk-server-tier.md)
