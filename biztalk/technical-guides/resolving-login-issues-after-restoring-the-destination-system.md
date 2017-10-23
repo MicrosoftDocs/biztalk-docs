@@ -18,7 +18,7 @@ Depending on how the source system was configured during deployment, "orphaned" 
   
  The logins that are created should correspond to the Windows accounts and groups that were used when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] was configured on the source system and to any logins that were manually created and used in any [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]-created role. If these logins correspond to local Windows accounts or groups, the accounts and groups must first be created before the login can be added. If the computer name for the BizTalk server is not changed, then resolve the users associated with the logins for the local accounts and groups.  
   
- When configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping, follow the steps in Microsoft Knowledge Base Article 918992 [How to transfer the logins and the passwords between instances of SQL Server 2005 and SQL Server 2008](http://go.microsoft.com/fwlink/?LinkId=157143) (http://go.microsoft.com/fwlink/?LinkId=157143) to create a script that will add the necessary logins to the destination server.  
+ When configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping, follow the steps in Microsoft Knowledge Base Article 918992 [How to transfer the logins and the passwords between instances of SQL Server 2005 and SQL Server 2008](http://go.microsoft.com/fwlink/?LinkId=157143) to create a script that will add the necessary logins to the destination server.  
   
 ## See Also  
  [Troubleshooting Log Shipping](../technical-guides/troubleshooting-log-shipping.md)
