@@ -61,7 +61,7 @@ manager: "anneta"
   
 3.  From the drop-down list in the **Choose a strong name key file** box, select **\<Browse…>**.  
   
-4.  In the **Select File** dialog box, navigate to **C:\BTStutorials**, click **btsTutorials.snk**, and then click **Open**.  
+4.  In the **Select File** dialog box, navigate to **C:\BTStutorials**, click **btsTutorials.snk**, and then click **Open**.You can download the required tutorial files from this link https://www.microsoft.com/en-us/download/details.aspx?id=22793  
   
 5.  Click the **Deployment** tab, in the box to the right of **Application Name**, type `EAISolution`.  
   
