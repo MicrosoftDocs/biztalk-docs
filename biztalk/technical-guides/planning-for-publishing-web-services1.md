@@ -18,7 +18,7 @@ manager: "anneta"
   
  You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic, which allows you to update or replace the business logic as needed without touching the code used for the Web service logic. This functionality is referred to as implementing "modular code." In general it is considered a best practice to implement modular code where possible. Publishing Web services requires that you enable Web services and that you publish an orchestration or schema as a Web service using the BizTalk Web Services Publishing Wizard.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implements support for native adapters in Web services through the use of the SOAP adapter. Native adapter support provides scalability, fault tolerance, and tracking capabilities for Web services without writing a single line of code. For more information about the SOAP adapter, see [SOAP Adapter](http://go.microsoft.com/fwlink/?LinkId=155754) (http://go.microsoft.com/fwlink/?LinkId=155754).  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implements support for native adapters in Web services through the use of the SOAP adapter. Native adapter support provides scalability, fault tolerance, and tracking capabilities for Web services without writing a single line of code. For more information about the SOAP adapter, see [SOAP Adapter](http://go.microsoft.com/fwlink/?LinkId=155754).  
   
  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] provides support for publishing BizTalk Applications as WCF Services with Windows Azure AppFabric Service Bus endpoints. For more information see [Using AppFabric Connect for Services](../technical-guides/planning-for-publishing-web-services1.md#BKMK_AFCS).  
   
@@ -35,7 +35,7 @@ manager: "anneta"
 ### BizTalk Isolated Hosts  
  To enable Web services, you must create at least one isolated host in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Isolated hosts represent external processes, such as ISAPI extensions and ASP.NET processes that BizTalk Server does not create or control. These types of external processes must host certain adapters, such as HTTP/S and SOAP.  
   
- The BizTalk Server Configuration Manager creates the BizTalkServerIsolatedHost that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses as the default isolated host. The BizTalk Isolated Host Users group is the name of the Windows group associated with this host by default. For more information about hosts and host instances, see [Managing BizTalk Hosts and Host Instances](http://go.microsoft.com/fwlink/?LinkID=154191) (http://go.microsoft.com/fwlink/?LinkID=154191).  
+ The BizTalk Server Configuration Manager creates the BizTalkServerIsolatedHost that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses as the default isolated host. The BizTalk Isolated Host Users group is the name of the Windows group associated with this host by default. For more information about hosts and host instances, see [Managing BizTalk Hosts and Host Instances](http://go.microsoft.com/fwlink/?LinkID=154191).  
   
  An isolated host instance can run only one adapter. If you configure the receive handlers of HTTP and SOAP adapters with the one isolated host, you must create two application pools, one application pool for each adapter.  
   
@@ -68,9 +68,9 @@ manager: "anneta"
   
  Keep the following important points in mind as you create your application pools:  
   
--   You must add the user account for the application pools to the appropriate local or domain groups of the isolated hosts. For more information, see [Windows Group and User Accounts in BizTalk Server](http://go.microsoft.com/fwlink/?LinkId=155755) (http://go.microsoft.com/fwlink/?LinkId=155755).  
+-   You must add the user account for the application pools to the appropriate local or domain groups of the isolated hosts. For more information, see [Windows Group and User Accounts in BizTalk Server](http://go.microsoft.com/fwlink/?LinkId=155755).  
   
--   You need to match the user account between an isolated host instance and the corresponding application pool according to the previous tables. For more information about the relationship between user accounts of isolated host instance and application pools, see [How to Change Service Accounts and Passwords](http://go.microsoft.com/fwlink/?LinkId=155756) (http://go.microsoft.com/fwlink/?LinkId=155756).  
+-   You need to match the user account between an isolated host instance and the corresponding application pool according to the previous tables. For more information about the relationship between user accounts of isolated host instance and application pools, see [How to Change Service Accounts and Passwords](http://go.microsoft.com/fwlink/?LinkId=155756).  
   
 -   IIS 5.0 and IIS 5.1 in Windows 2000 Server or Windows XP do not have application pools. If you are using IIS 5.0 and 5.1, set the isolation level for the IIS virtual directories to **High**. This will create a separate COM+ application for each virtual directory. Each COM+ application will run in its own dllhost.exe.  
   
@@ -89,20 +89,20 @@ manager: "anneta"
  The virtual directory created by the BizTalk Web Services Publishing Wizard will inherit the access control lists (ACL) and authentication requirements from the parent virtual directory or Web site. If the parent virtual directory or Web site allows anonymous access, the BizTalk Web Services Publishing Wizard will remove that capability when creating the virtual directory.  
   
 ### Enabling ASP.NET 4.0 for Published Web Services  
- To enable ASP.NET 4.0 for published Web services, see [How to Enable ASP.NET 4.0 for Published Web Services](http://go.microsoft.com/fwlink/?LinkId=155758) (http://go.microsoft.com/fwlink/?LinkId=155758).  
+ To enable ASP.NET 4.0 for published Web services, see [How to Enable ASP.NET 4.0 for Published Web Services](http://go.microsoft.com/fwlink/?LinkId=155758).  
   
 ## Using the BizTalk Web Services Publishing Wizard  
- For more information about publishing an orchestration as a Web service, see [Publishing an Orchestration as a Web Service](http://go.microsoft.com/fwlink/?LinkId=155761) (http://go.microsoft.com/fwlink/?LinkId=155761).  
+ For more information about publishing an orchestration as a Web service, see [Publishing an Orchestration as a Web Service](http://go.microsoft.com/fwlink/?LinkId=155761).  
   
- For more information about publishing schemas as a Web service, see [Publishing Schemas as a Web Service](http://go.microsoft.com/fwlink/?LinkId=155762) (http://go.microsoft.com/fwlink/?LinkId=155762).  
+ For more information about publishing schemas as a Web service, see [Publishing Schemas as a Web Service](http://go.microsoft.com/fwlink/?LinkId=155762).  
   
 ##  <a name="BKMK_AFCS"></a> Using AppFabric Connect for Services  
- For more information about publishing BizTalk Applications as WCF Services with Windows Azure AppFabric Service Bus endpoints see [Exposing BizTalk Applications on the Cloud using AppFabric Connect for Services](http://go.microsoft.com/fwlink/?LinkID=204700) (http://go.microsoft.com/fwlink/?LinkID=204700).  
+ For more information about publishing BizTalk Applications as WCF Services with Windows Azure AppFabric Service Bus endpoints see [Exposing BizTalk Applications on the Cloud using AppFabric Connect for Services](http://go.microsoft.com/fwlink/?LinkID=204700).  
   
 ## Planning for Publishing WCF Services  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] introduces built-in support for Windows Communication Foundation (WCF). [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to reuse and aggregate all your existing WCF services within your orchestrations. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also implements support for native adapters in WCF services. Native adapter support provides scalability, fault tolerance, and tracking capabilities for WCF services without requiring you to write code. For information about the WCF adapters, see [WCF Adapters](http://go.microsoft.com/fwlink/?LinkId=155763) (http://go.microsoft.com/fwlink/?LinkId=155763).  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] introduces built-in support for Windows Communication Foundation (WCF). [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to reuse and aggregate all your existing WCF services within your orchestrations. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also implements support for native adapters in WCF services. Native adapter support provides scalability, fault tolerance, and tracking capabilities for WCF services without requiring you to write code. For information about the WCF adapters, see [WCF Adapters](http://go.microsoft.com/fwlink/?LinkId=155763).  
   
- For more information about planning for WCF Services in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see [Publishing WCF Services](http://go.microsoft.com/fwlink/?LinkId=155764) (http://go.microsoft.com/fwlink/?LinkId=155764).  
+ For more information about planning for WCF Services in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see [Publishing WCF Services](http://go.microsoft.com/fwlink/?LinkId=155764).  
   
 ## See Also  
  [Planning for Consuming Web Services](../technical-guides/planning-for-consuming-web-services.md)
