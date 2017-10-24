@@ -1,5 +1,5 @@
 ---
-redirect_url: /biztalk/core/deploying-biztalk-adapter-for-tibco-rendezvous.md/
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-tibco-rendezvous/
 redirect_document_id: TRUE
 
 ROBOTS: NOINDEX
