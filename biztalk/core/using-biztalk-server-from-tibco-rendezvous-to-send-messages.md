@@ -1,23 +1,10 @@
 ---
-title: "Using BizTalk Server from TIBCO Rendezvous to Send Messages | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/using-tibco-rendezvous-send-ports-from-biztalk-server/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, sending"
-  - "sending messages"
-  - "BizTalk Server, using from TIBCO Rendezvous"
-ms.assetid: 72057d42-32b5-4748-81e4-5ffb89630f5a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Using BizTalk Server from TIBCO Rendezvous to Send Messages
 Microsoft BizTalk Adapter for TIBCO Rendezvous uses the asynchronous API (Transport.Send). You can specify what kind of message the adapter sends using a message context property:  
   

@@ -1,29 +1,17 @@
 ---
-title: "Setting TIBCO Enterprise Message Service Transport Properties for the Send Port | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "send ports, setting transport properties"
-  - "transport properties, setting for send port"
-  - "setting transport properties, send port"
-ms.assetid: 156fa3d1-6c47-442b-9c5d-5bcd838115f8
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
-# Setting TIBCO Enterprise Message Service Transport Properties for the Send Port
+ROBOTS: NOINDEX
+--- 
+
+
+# Set send port Transport Properties for the Send Port for TIBCO Enterprise Message Service
 The TIBCO Enterprise Message Service transport properties are configured in design time and used in run time. In the **Transport Properties** dialog box, you set the connection and credential parameters specific to the server system and the objects you are trying to access.  
   
  ![](../core/media/tib-tibcoemssendtransportpropertiess.gif "TIB_TIBCOEMSSendTransportPropertiess")  
   
-### To specify transport properties  
+## Enter transport properties  
   
 1.  In the **Transport Properties** dialog box, expand **System Definition**, and enter all required information for connection to the TIBCO EMS server.  
   
@@ -71,5 +59,5 @@ The TIBCO Enterprise Message Service transport properties are configured in desi
 7.  Click **Apply**, and then click **OK**.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on4.md)   
- [Creating  TIBCO Enterprise Message Service Send Handlers](../core/creating-tibco-enterprise-message-service-send-handlers.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-tibco-ems.md)  
+ [Create the Send artifacts](../core/creating-tibco-enterprise-message-service-send-handlers.md)

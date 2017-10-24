@@ -1,22 +1,10 @@
 ---
-title: "How to Create Receive Ports in TIBCO Enterprise Message Service | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-receive-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "receive ports, creating"
-  - "creating receive ports"
-ms.assetid: ca623c81-3dd3-4824-a586-28055d01fe9f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Create Receive Ports in TIBCO Enterprise Message Service
 Follow these steps to create a receive port.  
   
@@ -56,5 +44,3 @@ Follow these steps to create a receive port.
   
 7.  Click **OK**.  
   
-## See Also  
- [Setting TIBCO Enterprise Message Service Transport Properties for the Receive Port](../core/set-tibco-enterprise-message-service-transport-properties-for-the-receive-port.md)

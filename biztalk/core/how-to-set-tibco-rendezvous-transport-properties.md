@@ -1,26 +1,14 @@
 ---
-title: "How to Set TIBCO Rendezvous Transport Properties | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "setting transport properties"
-  - "transport properties, setting"
-ms.assetid: db8e8a57-a942-44d7-a651-623aa614c6be
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Set TIBCO Rendezvous Transport Properties
 The TIBCO Rendezvous Transport property is used for run time. In the **Transport Properties** screen, you set the connection parameters that identify the TIBCO Rendezvous domain where you want to publish the generated messages.  
   
-### To specify TIBCO Rendezvous Transport properties  
+## Enter TIBCO Rendezvous Transport properties  
   
 1.  On the **TIBCO Rendezvous Transport Properties** screen, expand **Certified Sender Properties** and enter the following information.  
   
@@ -67,7 +55,7 @@ The TIBCO Rendezvous Transport property is used for run time. In the **Transport
     1.  Select **Yes** in the **Use SSO** to use Single Sign-On.  
   
         > [!NOTE]
-        >  See [Using Single Sign-On](../core/using-single-sign-on5.md) for information about how to set up SSO.  
+        >  See [Security](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md) for information about how to set up SSO.  
   
     2.  Select an affiliate application from the list.  
   

@@ -1,22 +1,10 @@
 ---
-title: "Administering BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/using-biztalk-server-exception-handling5/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "TIBCO Enterprise adapters, administering"
-  - "administering, TIBCO Enterprise adapters"
-ms.assetid: 4d6b21be-9cd6-436e-b9cc-82dd80d26423
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Administering BizTalk Adapter for TIBCO Enterprise Message Service
 This section provides information about administering BizTalk Adapter for TIBCO Enterprise Message Service.  
   

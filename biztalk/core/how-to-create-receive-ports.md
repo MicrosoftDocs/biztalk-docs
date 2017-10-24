@@ -1,23 +1,9 @@
 ---
-title: "How to Create Receive Ports | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, receive"
-  - "receive ports"
-  - "creating receive ports"
-ms.assetid: d390320e-12f1-4ead-b608-60bc1e273477
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # How to Create Receive Ports
 Follow these steps to create a receive port using Visual Studio.  
   

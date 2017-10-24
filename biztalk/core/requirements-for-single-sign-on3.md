@@ -1,5 +1,5 @@
 ---
-title: "Requirements for Single Sign-On | Microsoft Docs"
+title: "SSO Requirements for TIBCO Rendevous adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -15,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Requirements for Single Sign-On
+
+## Prerequisites
 To use Single Sign-On (SSO), you must have the following:  
   
 -   Microsoft BizTalk Server
@@ -39,4 +41,4 @@ To use Single Sign-On (SSO), you must have the following:
 >  After performing work using SSO, remember to reset any Web-Sharing folder to **Do not share**. Applications that use that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on5.md)
+[Security](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)

@@ -1,27 +1,26 @@
 ---
-title: "Using BizTalk Server Exception Handling4 | Microsoft Docs"
+title: "Add Exception Handling to TIBCO Rendezvous | Microsoft Docs"
+description: Overview of handling exceptions for your orchestrations that use the TIBCO Rendezvous adapter in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/24/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "exception handling, BizTalk Server"
-  - "BizTalk Server exception handling"
-  - "exceptions, exception handling"
 ms.assetid: 887b1653-33a5-4a22-a6ae-c5df67a868b4
 caps.latest.revision: 5
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Using BizTalk Server Exception Handling
-This section describes how to use BizTalk Server exception-handling objects to trap exceptions from the back-end servers.  
+# Use BizTalk Server Exception Handling
+
+## Overview
+Within your orchestration, add shapes to handle errors and exceptions from your back-end servers. 
   
-## In This Section  
+## Next steps
   
 -   [Basic Orchestration Design](../core/basic-orchestration-design4.md)  
   

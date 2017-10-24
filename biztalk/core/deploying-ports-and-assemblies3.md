@@ -21,10 +21,3 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
 > [!NOTE]
 >  The Microsoft BizTalk Adapter for JD Edwards EnterpriseOne only requires that you have Visual Studio on a source (development) computer. Visual Studio is not required on the production computer.  
   
-## In This Section  
-  
--   [Verifying the Deployment Setup](../core/verifying-the-deployment-setup1.md)  
-  
--   [Importing Binding Files](../core/importing-binding-files2.md)  
-  
--   [Deployment Limitations](../core/deployment-limitations4.md)

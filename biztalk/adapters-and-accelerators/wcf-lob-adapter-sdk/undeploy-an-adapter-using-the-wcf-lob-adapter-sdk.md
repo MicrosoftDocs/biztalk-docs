@@ -82,5 +82,4 @@ To undeploy an adapter from a computer, the user needs to perform the following 
 4.  Close the Service Configuration Editor.  
   
 ## See Also  
- [Deployment Limitations](../../core/deployment-limitations1.md)   
  [Deploy an adapter using the WCF LOB adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)

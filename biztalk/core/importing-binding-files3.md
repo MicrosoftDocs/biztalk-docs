@@ -1,19 +1,11 @@
 ---
-title: "Import JD Edwards OneWorld binding files | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 955bb3e1-3dbc-43ce-9126-205d838ae662
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
+
 # Importing Binding Files
 
 ## Overview
@@ -23,7 +15,7 @@ Before you use the BizTalk Server to import a binding file, verify the following
   
 -   The folders for the responses exist and are identical on the new computer, or edit the binding file.  
   
--   JD Edwards system passwords, if present in the configuration, are saved as ***** in the binding file. For more information, see [Deployment Limitations](../core/deployment-limitations2.md).  
+-   JD Edwards system passwords, if present in the configuration, are saved as ***** in the binding file. 
   
 > [!NOTE]
 >  Deployment overwrites Receive Location configuration. When deploying a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.  
