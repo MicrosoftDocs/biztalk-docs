@@ -1,6 +1,6 @@
 ---
 title: "TIBCO Enterprise Message Service Adapter | Microsoft Docs"
-Install, step through tutorials, learn the architecture, use SSO security, create your applications, import the binding file, and add exception handling when using the BizTalk Adapter for TIBCO EMS in BizTalk Server
+description: Install, step through tutorials, learn the architecture, use SSO security, create your applications, import the binding file, and add exception handling when using the BizTalk Adapter for TIBCO EMS in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
