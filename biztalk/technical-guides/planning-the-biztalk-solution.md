@@ -13,7 +13,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Planning the BizTalk Solution
+# Plan for your BizTalk Solution
 One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to provide maximum flexibility for accommodating as many processing scenarios as possible. Because of this great flexibility, one of the primary challenges facing developers of a BizTalk solution is to determine how to make best use of the features available in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to best meet their business needs. Planning the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be broken down into distinct phases which are summarized below.  
   
 ## Scoping the Solution  
@@ -181,7 +181,7 @@ One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../inclu
 -   Configuration values for all software and operating system features used if they vary from default values  
   
 ## Building Out the Environment for the Solution  
- Detailed instructions for installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the required dependency software can be found in the BizTalk Server Installation Guides available for download at [BizTalk Server 2010 Documentation](http://go.microsoft.com/fwlink/?LinkId=183138) (http://go.microsoft.com/fwlink/?LinkId=183138).  
+ Detailed instructions for installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the software requirements are in the [BizTalk Server Installation Guides](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
   
 ## See Also  
  [Planning the BizTalk Server Tier](../technical-guides/planning-the-biztalk-server-tier.md)
