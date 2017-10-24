@@ -18,8 +18,3 @@ Using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion
 > [!NOTE]
 >  The Microsoft BizTalk Adapter for JD Edwards OneWorld only requires that you have Visual Studio on a source (development) computer. Visual Studio is not required on the production computer.  
   
-## In This Section  
-  
--   [Importing Binding Files](../core/importing-binding-files3.md)  
-  
--   [Deployment Limitations](../core/deployment-limitations2.md)

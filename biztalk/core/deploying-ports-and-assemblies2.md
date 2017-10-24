@@ -1,24 +1,10 @@
 ---
-title: "Deploying Ports and Assemblies2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-tibco-enterprise-message-service/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, deploying"
-  - "deployment, ports"
-  - "deployment, assemblies"
-  - "assemblies, deploying"
-ms.assetid: abbc1391-2b90-42a5-a747-416bc517bb39
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Deploying Ports and Assemblies
 With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can duplicate ports and assemblies on a target computer. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] exports send ports/receive location configuration into an XML file.  
   
@@ -35,10 +21,3 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
 > [!NOTE]
 >  Microsoft BizTalk Adapter for TIBCO Enterprise Message Service only requires that you have Visual Studio on a source (development) computer. Visual Studio is not required on the production computer.  
   
-## In This Section  
-  
--   [Verifying the Deployment Setup](../core/verifying-the-deployment-setup2.md)  
-  
--   [How to Clean the Target Computer](../core/how-to-clean-the-target-computer2.md)  
-  
--   [Deployment Limitations](../core/deployment-limitations1.md)

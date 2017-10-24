@@ -1,22 +1,10 @@
 ---
-title: "Administering BizTalk Adapter for TIBCO Rendezvous | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/using-biztalk-server-exception-handling4/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "administering, TIBCO Rendezvous adapters"
-  - "TIBCO Rendezvous adapters, administering"
-ms.assetid: 8d379ba2-f18a-476d-b11a-60c6b929af18
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Administering BizTalk Adapter for TIBCO Rendezvous
 This section provides information about administering BizTalk Adapter for TIBCO Rendezvous.  
   

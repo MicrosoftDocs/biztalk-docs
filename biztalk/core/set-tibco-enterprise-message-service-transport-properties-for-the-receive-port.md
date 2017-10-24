@@ -1,23 +1,10 @@
 ---
-title: "Setting TIBCO Enterprise Message Service Transport Properties for the Receive Port | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-receive-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "receive ports, setting transport properties"
-  - "transport properties, setting for receive port"
-  - "setting transport properties, receive port"
-ms.assetid: bccddf84-d92e-469f-aa6f-4234c91a0be9
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Setting TIBCO Enterprise Message Service Transport Properties for the Receive Port
 For a TIBCO Enterprise Message System (EMS) receive location, the **URL** and **Target Namespace** to the TIBCO EMS System are the only configuration values required.  
   
@@ -63,5 +50,4 @@ For a TIBCO Enterprise Message System (EMS) receive location, the **URL** and **
 6.  Click **Apply**, and then click **OK**.  
   
 ## See Also  
- [Creating Send Ports](../core/creating-send-ports1.md)   
- [Creating TIBCO Enterprise Message Service Receive Handlers](../core/creating-tibco-enterprise-message-service-receive-handlers.md)
+  [Creating TIBCO Enterprise Message Service Receive Handlers](../core/creating-tibco-enterprise-message-service-receive-handlers.md)

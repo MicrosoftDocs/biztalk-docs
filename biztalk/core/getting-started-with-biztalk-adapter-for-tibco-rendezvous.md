@@ -2,7 +2,7 @@
 title: "Get started with BizTalk Adapter for TIBCO Rendezvous | Microsoft Docs"
 description: Messages, concepts, schema generation, limitations, installation, and tutorials for TIBCO Rendezvous adapter in BizTalk Server
 ms.custom: ""
-ms.date: "10/16/2017"
+ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -26,10 +26,6 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous enables you to use TIBCO Rendezvo
   
 -   [TIBCO Rendezvous Concepts](../core/tibco-rendezvous-concepts.md)  
   
--   [Installing BizTalk Adapter for TIBCO Rendezvous](../core/installing-biztalk-adapter-for-tibco-rendezvous.md)  
-  
--   [Schema Generation in the Adapter](../core/schema-generation-in-the-adapter.md)  
-  
--   [TIBCO Rendezvous Limitations](../core/tibco-rendezvous-limitations.md)  
+-   [Install, schemas, & limitations](../core/installing-biztalk-adapter-for-tibco-rendezvous.md)
   
 -   [Tutorials: Using the Microsoft BizTalk Adapter for TIBCO Rendezvous](../core/tutorials-using-the-microsoft-biztalk-adapter-for-tibco-rendezvous.md)

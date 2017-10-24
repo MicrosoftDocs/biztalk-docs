@@ -1,25 +1,23 @@
 ---
-title: "Architecture of BizTalk Adapter for TIBCO Rendezvous | Microsoft Docs"
+title: "TIBCO Rendezvous adapter architecture | Microsoft Docs"
+description: Learn about the BizTalk Adapter for TIBCO Rendezvous works, including passing messages, in BizTalk Server 
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "passing messages"
-  - "architecture"
-  - "message passing"
-  - "messages, passing"
 ms.assetid: 174d6ceb-8e1d-4c93-827d-8155cfe47836
 caps.latest.revision: 6
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Architecture of BizTalk Adapter for TIBCO Rendezvous
+# Architecture of the TIBCO Rendezvous adapter
+
+## Overview
 Microsoft BizTalk Adapter for TIBCO Rendezvous provides bi-directional connectivity between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and TIBCO Rendezvous. This adapter uses both the TIBCO Rendezvous API and the BizTalk Adapter Framework API to provide tight integration.  
   
  TIBCO Rendezvous is a software product that provides a message bus for enterprise application integration (EAI). TIBCO provides messaging APIs in C, C++, Java, Visual Basic and the Microsoft .NET Framework to receive data feeds on Microsoft Office Excel worksheets and other applications of choice.  
@@ -36,5 +34,4 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous provides bi-directional connectiv
  ![](../core/media/tibcorend-arch.gif "TibcoRend_Arch")  
   
 ## See Also  
- [Getting Started](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)   
- [Planning and Architecture](../core/planning-and-architecture15.md)
+ [Getting Started](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)  

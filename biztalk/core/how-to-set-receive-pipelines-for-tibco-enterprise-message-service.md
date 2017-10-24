@@ -1,23 +1,10 @@
 ---
-title: "How to Set Receive Pipelines for TIBCO Enterprise Message Service | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-receive-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "receive pipelines"
-  - "setting receive pipelines"
-  - "pipelines, receive"
-ms.assetid: 2ae11a26-04db-40c7-bada-84d06c892293
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Set Receive Pipelines for TIBCO Enterprise Message Service
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service requires that you set the receive handler and receive pipeline.  
   

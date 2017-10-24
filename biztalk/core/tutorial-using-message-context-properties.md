@@ -1,5 +1,6 @@
 ---
-title: "Tutorial: Using Message Context Properties | Microsoft Docs"
+title: "Tutorial: Use TIBCO EMS Message Context Properties | Microsoft Docs"
+description: step-by-step guide to use the TIBCO Enterprise Message Service message descriptor fields in your orchestration for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,23 +9,22 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, changing priority"
-  - "message context properties, tutorial"
 ms.assetid: 6e52593b-5001-4740-89fb-e003e12d8e69
 caps.latest.revision: 8
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Tutorial: Using Message Context Properties
+# Tutorial: Use TIBCO EMS message descriptors
+
+## Overview
 This tutorial demonstrates how to use BizTalk Server context properties to set TIBCO Enterprise Message Service (EMS) message descriptor fields in your orchestration. The tutorial assumes that you have an orchestration that receives a message from a receive port and sends the message to a send port bound to Microsoft BizTalk Adapter for TIBCO Enterprise Message Service.  
   
  The following procedure demonstrates how to change the priority of the TIBCO EMS message by changing the value of the TibcoEMS.Priority context property. In BizTalk Server, messages are immutable. Therefore, to change a property value, you must create and modify a new message. You create and modify the new message by inserting a message assignment shape between the Receive and Send shapes. First, however, you must reference the schema DLL to gain access to the TIBCO EMS properties.  
   
-### To reference the schema DLL  
+## Reference the schema DLL  
   
-1.  Open **Solution Explorer** in Visual Studio.  
+1.  In Visual Studio, open your BizTalk Server project, and open **Solution Explorer** .  
   
 2.  Right-click **References**, and select **Add Reference**.  
   
@@ -86,4 +86,4 @@ This tutorial demonstrates how to use BizTalk Server context properties to set T
 21. Select **Bind**, **Enlist**, and **Start** in the BizTalk Explorer to test your orchestration.  
   
 ## See Also  
- [Message Context Properties](../core/message-context-properties2.md)
+[TIBCO EMS message context properties](../core/message-context-properties-in-biztalk-server.md)

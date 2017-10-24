@@ -1,24 +1,10 @@
 ---
-title: "Deploying Ports and Assemblies1 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-tibco-rendezvous.md/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, deploying"
-  - "deployment, ports"
-  - "deployment, assemblies"
-  - "assemblies, deploying"
-ms.assetid: e259f7fe-c443-4015-a630-f08220e5437a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Deploying Ports and Assemblies
 Using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can duplicate ports and assemblies on a target computer. The wizard exports the send ports/receive location configuration into an XML file.  
   
@@ -35,8 +21,3 @@ Using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion
 > [!NOTE]
 >  Microsoft BizTalk Adapter for TIBCO Rendezvous only requires that you have Visual Studio on a source (development) computer. Visual Studio is not required on the production computer.  
   
-## In This Section  
-  
--   [Verifying the Deployment Setup](../core/verifying-the-deployment-setup3.md)  
-  
--   [How to Clean the Target Computer](../core/how-to-clean-the-target-computer1.md)

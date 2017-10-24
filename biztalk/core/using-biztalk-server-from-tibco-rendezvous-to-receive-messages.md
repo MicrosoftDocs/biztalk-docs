@@ -1,23 +1,10 @@
 ---
-title: "Using BizTalk Server from TIBCO Rendezvous to Receive Messages | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/using-tibco-rendezvous-receive-ports-from-biztalk-server/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, receiving"
-  - "receiving messages"
-  - "memory use"
-ms.assetid: 4eee9c3a-2966-4d5f-ba49-201bb488458c
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Using BizTalk Server from TIBCO Rendezvous to Receive Messages
 Microsoft BizTalk Adapter for TIBCO Rendezvous dispatches events from a queue on multiple threads. A BizTalk Server receive location is associated with one TIBCO Rendezvous event queue and its pool of dispatcher threads.  
   

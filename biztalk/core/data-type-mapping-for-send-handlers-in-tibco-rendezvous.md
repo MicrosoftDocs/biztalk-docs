@@ -8,13 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML schemas, mapping to Redevous types"
-  - "message mapping, examples"
-  - "XML schemas, schema types"
-  - "data type mapping, send handlers"
-  - "examples, message mapping"
-  - "send handlers, data type mapping"
 ms.assetid: fa1a9233-8781-45a8-9c55-a18ecaa0f456
 caps.latest.revision: 8
 author: "MandiOhlinger"

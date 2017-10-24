@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "message context properties, BizTalk Server"
-  - "reply subjects"
-  - "send handlers, BizTalk Server message context properties"
-  - "replies"
 ms.assetid: a065ba89-9fdb-47dc-9021-fb95cf347cdc
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -42,6 +37,11 @@ In addition to the message payload, the supplementary information that a message
     OutgoingMsg(Rendezvous.SendSubject) = IncomingMsg  
     (Rendezvous.ReplySubject);  
     ```  
+## Management assembly
+TIBCO Rendezvous does not provide metadata repositories, and Microsoft BizTalk Adapter for TIBCO Rendezvous management assembly does not provide browsing capabilities or schema generation. Therefore, you must provide a schema to BizTalk Server. For more information, see [Install, schemas, & limitations](../core/installing-biztalk-adapter-for-tibco-rendezvous.md).
+  
+ BizTalk Adapter for TIBCO Rendezvous includes a schema with predefined types. The adapter uses these types when generating messages for some specific data types (arrays).
+
   
 ## See Also  
  [Data Type Mapping for Send Handlers in TIBCO Rendezvous](../core/data-type-mapping-for-send-handlers-in-tibco-rendezvous.md)   

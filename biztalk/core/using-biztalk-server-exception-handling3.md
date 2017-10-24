@@ -8,17 +8,16 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "exception handling, BizTalk Server"
-  - "BizTalk Server exception handling"
 ms.assetid: 9441e884-1de9-45d6-982b-911fc06b9d5c
 caps.latest.revision: 5
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Using BizTalk Server Exception Handling
-This section describes how to use BizTalk Server exception-handling objects to trap exceptions from the back-end servers.  
+# Use BizTalk Server Exception Handling
+
+## Overview
+Within your orchestration, add shapes to handle errors and exceptions from your back-end servers.  
   
 ## In This Section  
   

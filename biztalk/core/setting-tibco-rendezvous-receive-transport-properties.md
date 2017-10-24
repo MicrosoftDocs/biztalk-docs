@@ -1,28 +1,17 @@
 ---
-title: "Setting TIBCO Rendezvous Receive Transport Properties | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "transport properties, setting for receive ports"
-  - "setting transport properties, receive"
-ms.assetid: 56e0a51a-6505-43bf-a48b-de35f4b114df
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
+
 # Setting TIBCO Rendezvous Receive Transport Properties
 When you configure Microsoft BizTalk Adapter for TIBCO Rendezvous to listen for messages, you specify the subject names to listen for. This is the only property that is required.  
   
  Use this procedure to specify the properties.  
   
-### To specify TIBCO Rendezvous Transport properties  
+## Enter TIBCO Rendezvous Transport properties  
   
 1.  On the TIBCO Rendezvous Transport Properties dialog, expand **Adapter Required Properties**, enter the **Rendezvous Subject Name**.  
   
@@ -94,7 +83,7 @@ When you configure Microsoft BizTalk Adapter for TIBCO Rendezvous to listen for 
     1.  Select **Yes** in the **Use SSO** to use Single Sign-On.  
   
         > [!NOTE]
-        >  See [Using Single Sign-On](../core/using-single-sign-on5.md) for information about how to set up SSO.  
+        >  See [Security](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md) for information about how to set up SSO.  
   
     2.  Select an affiliate application from the list.  
   

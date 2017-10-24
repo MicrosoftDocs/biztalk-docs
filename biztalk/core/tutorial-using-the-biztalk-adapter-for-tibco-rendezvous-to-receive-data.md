@@ -1,5 +1,6 @@
 ---
-title: "Tutorial: Using the BizTalk Adapter for TIBCO Rendezvous to Receive Data | Microsoft Docs"
+title: "Tutorial: Use the TIBCO Rendezvous adapter to receive | Microsoft Docs"
+description: Step-by-step guide to use BizTalk Adapter for TIBCO Rendezvous in BizTalk Server to receive data from the TIBCO system
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -19,38 +20,29 @@ You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBC
   
 ## Prerequisites  
   
--   Install [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that the adapter is running on in order to build and deploy the sample.  
+Install [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that the adapter is running on in order to build and deploy the sample.  
   
-## What This Sample Does  
- This sample uses the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBCO system. An orchestration processes the message and, using the file adapter, writes the data as an XML file in a specified folder.  
+## About the sample 
+- This sample uses the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBCO system. An orchestration processes the message and, using the file adapter, writes the data as an XML file in a specified folder.  
   
-## How This Sample is Designed and Why  
- This sample, designed in [!INCLUDE[vs2010](../includes/vs2010-md.md)], illustrates basic functionality using the BizTalk Adapter for TIBCO Enterprise Message Service with a BizTalk orchestration.  
+- This sample, designed in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], illustrates basic functionality using the BizTalk Adapter for TIBCO Enterprise Message Service with a BizTalk orchestration.  
   
-> [!NOTE]
->  The sample assumes that you know how to send a message from TIBCO for the application to process.  
+    > [!NOTE]
+    >  The sample assumes that you know how to send a message from TIBCO for the application to process.  
   
-## Where to Find This Sample  
- The default location for the sample is  
+- The default location for the sample is `C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Rendezvous(r)\Sdk\OneWayReceive`, and includes the following files: 
   
- C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Rendezvous(r)\Sdk\OneWayReceive  
+    |**Runtime Project Filename**|**Runtime Project File Description**|  
+    |---|---|  
+    |OneWayReceive.btproj,<br /><br /> OneWayReceive.sln|Project and solution files for the application.|  
+    |PureMessage.xsd,|Schema file for the application.|  
+    |TIBCORvOWR.odx|The orchestration used by the application.|  
+    |TIBCORv.snk|The strong naming key file.|  
   
- The following table shows the files in this sample and describes their purpose.  
   
-|**Runtime Project Filename**|**Runtime Project File Description**|  
-|----------------------------------|------------------------------------------|  
-|OneWayReceive.btproj,<br /><br /> OneWayReceive.sln|Project and solution files for the application.|  
-|PureMessage.xsd,|Schema file for the application.|  
-|TIBCORvOWR.odx|The orchestration used by the application.|  
-|TIBCORv.snk|The strong naming key file.|  
+## Step 1: Add the adapter to BizTalk Administration
   
-## How to Use This Sample  
-  
-#### Create a new instance of the BizTalk Adapter for TIBCO Rendezvous  
-  
-1.  Launch the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console. Click **Start**, **All Programs**, [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
-  
-2.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Platform Settings**, and then click **Adapters**.  
+1.  In **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then click **Adapters**.  
   
 3.  Right-click **Adapters** and point to **New**, **Adapter…** to display the **Adapter Properties** dialog.  
   
@@ -58,19 +50,19 @@ You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBC
   
 5.  Select **TIBCO(r) Rendezvous(r)** from the list of adapters available in the **Adapter** dropdown and click **OK**.  
   
-#### Create a BizTalk Receive Port  
+## Step 2: Create a Receive Port  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, and click **Receive Ports**.  
+1.  In  **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, and click **Receive Ports**.  
   
 2.  Right-click the Receive Ports folder and then click **New**, **One-Way Receive Port...** to display the **Receive Port Properties** dialog.  
   
 3.  Enter a value for the **Name** field, for example **TIBCORvOneWayRP**, and click **OK**.  
   
-#### Create a BizTalk Receive Location  
+## Step 3: Create a Receive Location  
   
 1.  Right-click the new receive port and then click **New**, **Receive Location…** to display the **Receive Location Properties** dialog.  
   
-2.  Enter a value for the **Name** field, for example **TIBCORvOneWayRL**.  
+2.  Enter a value for the **Name** field. For example, enter **TIBCORvOneWayRL**.  
   
 3.  Select the TIBCO Rendezvous adapter from the list of available adapters in the **Type** dropdown box and click the **Configure** button to display the adapter **Transport Properties** dialog box.  
   
@@ -101,7 +93,7 @@ You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBC
     |Network|Rendezvous Transport Network parameter.|  
     |Service|Rendezvous Transport Service parameter.|  
   
-     For more information about the properties, see [Setting TIBCO Rendezvous Receive Transport Properties](../core/setting-tibco-rendezvous-receive-transport-properties.md).  
+     For more information about the properties, see [Create Receive artifacts](../core/creating-tibco-rendezvous-receive-handlers.md).  
   
 8.  Click **OK**.  
   
@@ -109,7 +101,7 @@ You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBC
   
 10. Right-click the receive location and click **Enable**.  
   
-#### Create a one-way file send port  
+## Step 4: Create a one-way send port  
   
 1.  Create a target folder to be used by the send port, for example C:\FilesOut.  
   
@@ -127,7 +119,7 @@ You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBC
   
 8.  Right-click the send port and click **Start** to enlist and start the send port.  
   
-#### Build and deploy the project  
+## Step 5: Build and deploy the project  
   
 1.  Right-click the OneWayReceive project in Solution Explorer and click **Properties** to launch the Project Designer for the project.  
   
@@ -137,7 +129,7 @@ You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBC
   
 4.  Right-click the OneWayReceive project in Solution Explorer and click **Deploy** to build the project and deploy the assembly to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration database.  
   
-#### Bind and Enlist the orchestration  
+## Step 6: Bind, Enlist, and start the orchestration  
   
 1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, and click **Orchestrations**.  
   
@@ -157,13 +149,11 @@ You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBC
   
 6.  Click **OK**.  
   
-#### Start the orchestration  
+7. Right-click the orchestration, and click **Start** to enlist and start the orchestration.  
   
--   In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click the orchestration and click **Start** to enlist and start the orchestration.  
+## Step 7: Confirm the application receives a message  
   
-#### Verify that the application receives a message  
-  
--   Open the folder that the file send port is configured to send to and verify that an output document was generated.  
+-   Open the folder that the file send port is configured to send to, and verify that an output document was generated.  
   
  The following sequence of events occurs if the document instance is processed successfully:  
   

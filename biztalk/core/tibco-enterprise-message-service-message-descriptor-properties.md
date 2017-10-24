@@ -1,5 +1,5 @@
 ---
-title: "TIBCO Enterprise Message Service Message Descriptor Properties | Microsoft Docs"
+title: "TIBCO EMS Message Descriptor Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "message descriptor properties"
 ms.assetid: fc164c12-6dc3-4b74-9aa9-024e18faf80a
 caps.latest.revision: 6
 author: "MandiOhlinger"
@@ -17,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # TIBCO Enterprise Message Service Message Descriptor Properties
+
+## Descriptor properties, and values
 The following table shows the complete set of available Message Descriptor (TibcoEMSMD structure) properties and their corresponding types and values.  
   
 |Name|Type|Value|Notes|  
@@ -58,4 +58,4 @@ The following table shows the complete set of available Message Descriptor (Tibc
  Make sure that the target namespace is used; only properties that use this namespace are copied to the BizTalk Server message or to the EMS message. See the BizTalk Server documentation for more information about message context properties.  
   
 ## See Also  
- [Message Context Properties](../core/message-context-properties2.md)
+[TIBCO EMS message context properties](../core/message-context-properties-in-biztalk-server.md)

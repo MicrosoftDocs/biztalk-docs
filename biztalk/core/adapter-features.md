@@ -1,5 +1,5 @@
 ---
-title: "Adapter Features | Microsoft Docs"
+title: "TIBCO Enterprise Message Service adapter features | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "TIBCO Enterprise adapters, message delivery"
-  - "architecture, TIBCO Enterprise adapters"
-  - "TIBCO Enterprise adapters, architecture"
-  - "TIBCO Enterprise adapters, data validation"
 ms.assetid: ede748ce-3f28-4942-b2bd-e38e5f1b0f54
 caps.latest.revision: 11
 author: "MandiOhlinger"

@@ -1,23 +1,10 @@
 ---
-title: "How to Set Send Pipelines for TIBCO Enterprise Message Service | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "send pipelines"
-  - "setting send pipelines"
-  - "pipelines, send"
-ms.assetid: 6a84d874-4b4d-4b23-913f-f5c72af1e96e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Set Send Pipelines for TIBCO Enterprise Message Service
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service requires that you select XMLTransmit and XMLReceive for the Send and Receive pipelines respectively.  
   
@@ -41,5 +28,3 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service requires that you
   
 4.  Click **OK**.  
   
-## See Also  
- [How to Set Receive Pipelines for TIBCO Enterprise Message Service](../core/how-to-set-receive-pipelines-for-tibco-enterprise-message-service.md)

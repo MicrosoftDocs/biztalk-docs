@@ -1,23 +1,11 @@
 ---
-title: "How to Set Receive Pipelines for TIBCO Rendezvous | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "receive pipelines, setting"
-  - "setting receive pipelines"
-  - "pipelines, setting"
-ms.assetid: d40e0225-0313-4e9b-8d92-464870aabf71
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
+
 # How to Set Receive Pipelines for TIBCO Rendezvous
 Microsoft BizTalk Adapter for TIBCO Rendezvous requires that you set the receive handler and receive pipeline.  
   

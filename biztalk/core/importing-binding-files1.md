@@ -1,19 +1,10 @@
 ---
-title: "Import PeopleSoft adapter binding files | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: b2a9b19b-2d3d-45ea-bd92-a2501791b86a
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Import Binding Files
 
 ## Overview
@@ -23,7 +14,7 @@ Before you use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserver
   
 -   The folders for the responses must exist and be identical on the new computer—or edit the binding file.  
   
--   PeopleSoft Enterprise system passwords, if present in the configuration, are saved as ***** in the binding file. For more information, see [Deployment Limitations](../core/deployment-limitations3.md).  
+-   PeopleSoft Enterprise system passwords, if present in the configuration, are saved as ***** in the binding file. 
   
 > [!NOTE]
 >  Deployment overwrites receive location configuration. When you deploy a binding file and assembly on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.  
@@ -43,5 +34,3 @@ For example, at a command prompt, run:
   
 **cscript RemoveSendPort.vbs \<Send port name>**  
   
-## See Also  
-[Import bindings & limitations](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)

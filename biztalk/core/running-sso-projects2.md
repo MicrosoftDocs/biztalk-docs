@@ -1,5 +1,5 @@
 ---
-title: "Running SSO Projects2 | Microsoft Docs"
+title: "Run SSO Projects with TIBCO EMS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "running SSO projects"
-  - "Single Sign-On, samples"
-  - "SSO, samples"
-  - "sample applications, SSO project"
 ms.assetid: a44a96e8-c83d-42a7-ad25-e2fa48804712
 caps.latest.revision: 3
 author: "MandiOhlinger"
@@ -22,9 +17,7 @@ manager: "anneta"
 # Running SSO Projects
 You can run a sample Single Sign-On (SSO) project from Internet Explorer.  
   
-## Running a Sample from Internet Explorer  
-  
-#### To run the sample from the Internet Explorer  
+## Run a sample from a web browser
   
 1.  Open your browser.  
   

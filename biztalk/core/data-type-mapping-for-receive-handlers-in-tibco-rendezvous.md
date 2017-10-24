@@ -1,5 +1,5 @@
 ---
-title: "Data Type Mapping for Receive Handlers in TIBCO Rendezvous | Microsoft Docs"
+title: "Data Type Mapping to receive from TIBCO Rendezvous | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,10 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "data type mapping"
-  - "array types"
-  - "receive handlers, data type mapping"
 ms.assetid: 36908a94-3c0d-466e-aa49-f674ba4a26af
 caps.latest.revision: 7
 author: "MandiOhlinger"

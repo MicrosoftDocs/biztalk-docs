@@ -1,21 +1,11 @@
 ---
-title: "TIBCO Rendezvous Events and Receive Locations | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, life cycle"
-ms.assetid: 3576af82-4723-4efc-961e-40b1150cf13d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
+
 # TIBCO Rendezvous Events and Receive Locations
 Any TIBCO Rendezvous system can send messages to their subject name of choice. The concept of *event* is the generation of messages by other TIBCO Rendezvous programs.  
   
