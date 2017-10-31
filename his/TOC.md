@@ -1,1 +1,1 @@
-# [install-and-config-guides](install-and-config-guides\TOC.md)
+# [core](core\TOC.md)
