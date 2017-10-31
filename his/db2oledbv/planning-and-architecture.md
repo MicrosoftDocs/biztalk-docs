@@ -16,6 +16,6 @@ The following sections provide help for planning and architecting solutions usin
   
 ## In This Section  
   
-1.  [Planning](../DB2OLEDBV5/planning.md)  
+1.  [Planning](../db2oledbv/planning.md)  
   
-2.  [Architecture](../DB2OLEDBV5/architecture.md)
+2.  [Architecture](../db2oledbv/architecture.md)

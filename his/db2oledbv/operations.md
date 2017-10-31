@@ -16,6 +16,6 @@ This section details code page conversions, data type mapping, and performance o
   
 ## In This Section  
 
-* [Code Page Conversions](../DB2OLEDBV5/code-page-conversions.md)
-* [Data Type Mapping](../DB2OLEDBV5/data-type-mapping.md)
-* [Performance](../DB2OLEDBV5/performance.md)
+* [Code Page Conversions](../db2oledbv/code-page-conversions.md)
+* [Data Type Mapping](../db2oledbv/data-type-mapping.md)
+* [Performance](../db2oledbv/performance.md)

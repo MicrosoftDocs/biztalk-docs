@@ -17,4 +17,4 @@ In addition to the accessibility features and utilities in Windows, Microsoft OL
   
 ## In This Section  
   
-1.  [Keyboard Shortcuts](../DB2OLEDBV5/accessibility-features-of-ole-db-provider-for-db2.md)
+1.  [Keyboard Shortcuts](../db2oledbv/accessibility-features-of-ole-db-provider-for-db2.md)

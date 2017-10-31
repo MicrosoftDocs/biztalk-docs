@@ -16,10 +16,10 @@ The following sections provide help for learning about, installing and configuri
   
 ## In This Section  
   
-1.  [Overview of Data Provider](../DB2OLEDBV5/overview-of-data-provider.md)  
+1.  [Overview of Data Provider](../db2oledbv/overview-of-data-provider.md)  
   
-2.  [What's New in Version 6.0](../DB2OLEDBV5/what-s-new-in-version-6-0.md)  
+2.  [What's New in Version 6.0](../db2oledbv/what-s-new-in-version-6-0.md)  
 
-4.  [Installing Data Provider Version 6.0](../DB2OLEDBV5/installing-data-provider-version-6-0.md) 
+4.  [Installing Data Provider Version 6.0](../db2oledbv/installing-data-provider-version-6-0.md) 
   
-6.  [Accessibility for People with Disabilities](../DB2OLEDBV5/accessibility.md)
+6.  [Accessibility for People with Disabilities](../db2oledbv/accessibility.md)

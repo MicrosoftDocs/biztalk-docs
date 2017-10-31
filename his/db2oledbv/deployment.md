@@ -16,8 +16,8 @@ The following sections provide help in deploying Data Provider.
   
 ## In This Section  
   
--   [Data Access Tool](../DB2OLEDBV5/data-access-tool.md)  
+-   [Data Access Tool](../db2oledbv/data-access-tool.md)  
   
--   [Data Source Wizard](../DB2OLEDBV5/data-source-wizard.md)  
+-   [Data Source Wizard](../db2oledbv/data-source-wizard.md)  
   
--   [Data Link Tool](../DB2OLEDBV5/data-link-tool.md)
+-   [Data Link Tool](../db2oledbv/data-link-tool.md)

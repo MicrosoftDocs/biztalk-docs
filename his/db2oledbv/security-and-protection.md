@@ -16,6 +16,6 @@ The following sections provide help for securing and protecting deployments of D
   
 ## In This Section  
 
-- [Security](../DB2OLEDBV5/security.md) 
+- [Security](../db2oledbv/security.md) 
 
--   [Protection](../DB2OLEDBV5/protection.md)
+-   [Protection](../db2oledbv/protection.md)

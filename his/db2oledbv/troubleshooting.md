@@ -16,8 +16,8 @@ The following sections provide help for troubleshooting deployments of Data Prov
   
 ## In This Section  
   
--   [Data Consumer Issues](../DB2OLEDBV5/data-consumer-issues.md)  
+-   [Data Consumer Issues](../db2oledbv/data-consumer-issues.md)  
   
--   [Data Provider Error Codes](../DB2OLEDBV5/data-provider-error-codes.md)  
+-   [Data Provider Error Codes](../db2oledbv/data-provider-error-codes.md)  
   
--   [Tracing](../DB2OLEDBV5/tracing.md)
+-   [Tracing](../db2oledbv/tracing.md)

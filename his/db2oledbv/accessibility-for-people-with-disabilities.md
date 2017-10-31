@@ -17,4 +17,4 @@ Microsoft is committed to making its products and services easier for everyone t
   
 ## In This Section  
   
-1.  [Accessibility Features of OLE DB Provider for DB2](../DB2OLEDBV5/accessibility-features-of-ole-db-provider-for-db2.md)
+1.  [Accessibility Features of OLE DB Provider for DB2](../db2oledbv/accessibility-features-of-ole-db-provider-for-db2.md)

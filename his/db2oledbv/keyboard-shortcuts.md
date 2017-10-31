@@ -15,17 +15,17 @@ robots: noindex,nofollow
 # Keyboard Shortcuts
 This section lists the keyboard shortcuts for Microsoft OLE DB Provider for DB2.  
   
-1.  [Setup](../DB2OLEDBV5/keyboard-shortcuts.md#setup)  
+1.  [Setup](../db2oledbv/keyboard-shortcuts.md#setup)  
   
-2.  [Data Access Tool](../DB2OLEDBV5/keyboard-shortcuts.md#dat)  
+2.  [Data Access Tool](../db2oledbv/keyboard-shortcuts.md#dat)  
   
-3.  [Data Source Wizard](../DB2OLEDBV5/keyboard-shortcuts.md#dsw)  
+3.  [Data Source Wizard](../db2oledbv/keyboard-shortcuts.md#dsw)  
   
-4.  [DB2 Connect Import Wizard](../DB2OLEDBV5/keyboard-shortcuts.md#dciw)  
+4.  [DB2 Connect Import Wizard](../db2oledbv/keyboard-shortcuts.md#dciw)  
   
-5.  [Data Links Utility](../DB2OLEDBV5/keyboard-shortcuts.md#dlu)  
+5.  [Data Links Utility](../db2oledbv/keyboard-shortcuts.md#dlu)  
   
-6.  [Trace Utility](../DB2OLEDBV5/keyboard-shortcuts.md#tu)  
+6.  [Trace Utility](../db2oledbv/keyboard-shortcuts.md#tu)  
   
 ##  <a name="setup"></a> Setup  
  As in any standard Microsoft Windows application, you can use keyboard shortcuts in Setup to access commands that are otherwise available by using menus. The following table describes the available keyboard shortcuts.  
