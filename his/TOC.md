@@ -1,1 +1,1 @@
-# [Index](index.md)
+# [core](core\TOC.md)

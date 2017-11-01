@@ -1,26 +1,20 @@
-{  
-   "locales":[  
-      "de-de",
-      "fr-fr",
-      "it-it",
-      "ko-kr",
-      "es-es",
-      "ru-ru",
-      "zh-cn",
-      "zh-tw",
-      "ja-jp"
-   ],
-   "files":[
-      "BiztalkMovedtoCEO.md"
-   ],
-   "includeDependencies":true,
-   "autoPush":true,
-   "xliffVersion":"1.2",
-   "dontDeleteFiles":false,
-   "translationType":"HT",
-   "translationSysFileDestination": "HandbackRepo",
-   "autoHandbackNoChangeXliff": true,
-   "markdownTransformerOptions":{  
-      "preset": "CnE"
-   }
+{
+  "Filters": [
+    {
+      "Files": [
+        "**/*.md"
+      ],
+      "Priorities": [
+        {
+          "Priority": "ht",
+          "Locales": [],
+          "Type": "ht"
+        }
+      ]
+    }
+  ],
+  "IncludeDependencies": true,
+  "AutoPush": true,
+  "XliffVersion": "1.2",
+  "UseJavascriptMarkdownTransformer": true
 }
