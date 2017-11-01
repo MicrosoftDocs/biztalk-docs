@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a781803-b0ba-4dfe-b79e-d8d83811a3a5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOAdmin.CreateApplication Method
 The **CreateApplication** method creates an application in the Enterprise Single Sign-On (SSO) server database.  

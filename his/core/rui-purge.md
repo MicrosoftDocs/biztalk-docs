@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 601b69b7-1505-4557-897a-716e0e04504f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RUI_PURGE
 The **RUI_PURGE** verb cancels a previous [RUI_READ](../core/rui-read.md).  

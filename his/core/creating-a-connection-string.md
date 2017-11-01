@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 97f95be2-ec26-4c03-9db3-cda3d645a1ed
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating a Connection String
 The Data Access Tool can help you create one of two basic types of connection strings: an OLE DB connection string stored in a universal data link (.udl) file, and an ADO.NET connection string stored in a text connection string file (*.txt).  

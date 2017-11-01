@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 498cfa09-f034-410a-b004-408ffad86066
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_Event Class
 The **MsHisTrace_Event** class retrieves error information.  

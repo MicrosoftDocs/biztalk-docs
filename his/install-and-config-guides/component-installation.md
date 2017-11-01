@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 04dfd1c0-1770-4500-8f12-10a49bbe77ef
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Component Installation

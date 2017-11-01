@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6e3b3b3d-8301-40ab-831a-d1d24088d491
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAReleaseElement
 The **SNAReleaseElement** function is called by an application to release a buffer element from an existing buffer.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1c82a312-1bea-47e5-a80e-5e0c7c63e386
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_ServiceTN3270 Class
 The **MsSnaStatus_ServiceTN3270** class represents a TN3270 service status.  

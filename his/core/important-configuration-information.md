@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 79618ece-9e75-45e6-a192-73dfc1fbf179
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Important Configuration Information
 The topics in this section detail important configuration information.  

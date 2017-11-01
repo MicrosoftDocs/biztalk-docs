@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 595a64ad-f786-4b9c-92bd-56db67413ac6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Programming Considerations
 This topic summarizes information about developing transaction programs (TPs) using APPC on Windows operating systems:  

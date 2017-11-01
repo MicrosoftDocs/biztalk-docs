@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bce915ca-6352-407c-a91c-7da6af23491d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Save Performance Data
 When you capture performance data, you can save the data for future use.  

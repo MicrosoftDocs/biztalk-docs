@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b8fed9c5-c995-4fba-a1be-23ee15545bc1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows Event Viewer
 You can use information from Windows Event Logs as you test a configuration or diagnose problems.  

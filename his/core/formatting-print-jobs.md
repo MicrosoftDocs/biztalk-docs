@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9fd4234a-92f0-455f-9fe8-0e53a9e33288
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Formatting Print Jobs
 Host Print service can format print jobs by either using the Windows printer driver or by using a Printer Definition Table.  

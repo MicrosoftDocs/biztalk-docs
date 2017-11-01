@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c9aae56e-c028-4339-8d47-b7af500cb6ee
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration Information
 To obtain information about the Microsoft® Host Integration Server 3270 configuration, the application uses the calls listed in the following table.  

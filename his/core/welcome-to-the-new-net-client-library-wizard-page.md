@@ -11,6 +11,8 @@ f1_keywords:
   - "15401"
 ms.assetid: 72b20241-87a6-4e06-88c2-825621af7ee4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Welcome to the New .NET Client Library Wizard Page
 Use the **Welcome to the New .NET Client Library Wizard** page to view the definition of a .NET client library and to control whether the welcome page is displayed again the next time the wizard is used.  

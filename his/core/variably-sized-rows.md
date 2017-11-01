@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8db546c0-3768-4ddd-b984-ce2d018a7d36
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Variably Sized Rows
 When the last column in a record is a string, the row can be variably sized. Its size can vary between zero and the maximum size specified in the picture clause. When you have variably sized rows, your application must explicitly specify the size of each row before the row is sent.  

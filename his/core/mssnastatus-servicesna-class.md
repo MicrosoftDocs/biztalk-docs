@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2a036caf-1000-4beb-9566-f85a851447da
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_ServiceSna Class
 The **MsSnaStatus_ServiceSna** class is used to get information on the status of the SNA service.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Folder_User"
 ms.assetid: 9764829f-e785-4a08-ac9c-0ea7ded5570f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Add New Users
 Although [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] uses the User accounts of the Windows Active Directory directory service, users must be configured to use [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] resources such as LUs.  

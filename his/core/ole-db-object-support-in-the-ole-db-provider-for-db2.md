@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24752459-9a0a-4339-ba10-f6b24ade86f4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # OLE DB Object Support in the OLE DB Provider for DB2
 The following table summarizes the OLE DB version 2.0 objects that are supported by the current version of Microsoft® OLE DB Provider for DB2.  

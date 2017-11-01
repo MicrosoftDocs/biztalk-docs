@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 82511e4e-133d-448a-8bf8-0c0aaa1055aa
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RUI
 The **RUI** function provides event notification for all Request Unit Interface (RUI) verbs.  

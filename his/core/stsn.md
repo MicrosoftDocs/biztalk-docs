@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 27c398c0-c8f8-4e03-96c8-38808bdb135f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # STSN
 Set and test sequence numbers (STSN) are used on sessions with Transmission Service profile (TS profile) 4 for applications to maintain transaction processing sequence numbers between sessions. This enables both partners on the session to discover the amount of data lost after a **CLEAR** or **UNBIND–BIND** sequence.  

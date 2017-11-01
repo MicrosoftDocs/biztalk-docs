@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ce35a2d-838b-49c6-879f-e102adc9c0d8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Test_Request_To_Send_Received (CPI-C)
 The **Test_Request_To_Send_Received** call (function name **cmtrts**) determines whether a request-to-send notification has been received from the partner program.  

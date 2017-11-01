@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 84e5390f-efb9-472e-858c-2d40f24befd8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Cost of Remote Environment Selection
 The following figure shows the transaction throughput against the CPU load on the middle tier (the business-logic tier). Each data point represents the number of stress clients, and the total amount of time that it takes for the clients to finish their transactions. (For example, eight clients simultaneously perform transactions at a collective rate of approximately 200 TPS.) Both requests and responses consist of 481 bytes of mixed data (text and numeric).  

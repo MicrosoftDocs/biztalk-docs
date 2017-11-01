@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6d4f2dac-e8b8-4a58-8d46-9f0685dad2da
 caps.latest.revision: 14
+author: MandiOhlinger
+manager: anneta
 ---
 # Solutions to Common Problems
 You may encounter these common problems when using the DRDA Service.  

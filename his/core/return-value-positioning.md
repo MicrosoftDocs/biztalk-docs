@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e7d9b6f1-979f-4b09-9775-383ebdefb6b8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Return Value Positioning
 When an Automation method returns control to the calling application, it can return data as the method's value (as distinct from returning data as an output parameter). However, there is no analogous concept when you are dealing with a COBOL or Report Program Generator (RPG) data declaration.  

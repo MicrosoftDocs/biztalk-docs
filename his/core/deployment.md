@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dc224333-7482-4821-9a85-045d2757f8b4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Deployment
 This section provides instructions for configuring [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

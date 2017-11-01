@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 6542181d-ea8f-420e-8c24-0fd842db959f
 caps.latest.revision: 2
 ms.author: "paulettm"
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server 2013 .NET Class Reference
 Insert introduction here.  

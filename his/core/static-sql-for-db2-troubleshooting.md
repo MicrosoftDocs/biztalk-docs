@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1eedc7c0-e6f9-43c5-a985-518328183970
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ---
 # Static SQL for DB2 Troubleshooting
 This topic describes common errors and coding mistakes that can occur when you work with the static SQL for DB2 packages feature in Microsoft ADO.NET Provider for DB2 (Data Provider).  

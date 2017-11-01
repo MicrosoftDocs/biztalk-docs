@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3b933e45-5c43-4712-a839-d6a9b104f043
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Uninstall Complete

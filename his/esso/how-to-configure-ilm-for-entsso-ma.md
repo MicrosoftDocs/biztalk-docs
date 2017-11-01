@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 76b4dc46-0ea6-4145-92d3-63cc6f8e5f3d
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure ILM for ENTSSO MA
 When you install the Enterprise Single Sign-On (SSO) Administration feature (either the full version or the Admin-only version) on a computer running Microsoft Forefront Identity Manager, the ENTSSO Management Agent is automatically installed. This means that when you open FIM, nearly all of the configuration has already been done. The only part missing is the connection information.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ff44020-8644-464e-b557-a7bc68854eae
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sample Host Definitions
 This section presents some sample host definitions used for establishing a [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer connection to IBM S/370 (host) systems. The samples show configuration values for [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer connections of the following types:  

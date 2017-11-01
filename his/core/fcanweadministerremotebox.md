@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e1da613f-3908-495d-9b2f-a90afd06f72d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fCanWeAdministerRemoteBox
 The **fCanWeAdministerRemoteBox** function is used to determine if the caller has administrative privileges on the remote computer. This utility function is used to construct an integrated link service configuration DLL.  

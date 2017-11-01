@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6449c984-5f07-4958-9707-782d5340eb4c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Support for LUA Single Sign-On
 This section describes the logical unit application (LUA) support for Single Sign-On using 3270 display sessions that is available in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

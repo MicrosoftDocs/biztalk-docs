@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9702d460-3767-4933-9341-8e9541a9649c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # BIND Example
 The following example illustrates checking the incoming BIND image using these features of SLI_OPEN.  

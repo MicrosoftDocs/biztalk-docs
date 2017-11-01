@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9fc54faa-b720-4fb3-9846-1b2e869586f8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # REOverride
 Use the **REOverride** keyword to override the type library assignment of the method call to a remote environment (RE) and to assign the call to a newly specified RE. The COMTIContext context name is **REOverride**; the value must be a valid remote environment name.  

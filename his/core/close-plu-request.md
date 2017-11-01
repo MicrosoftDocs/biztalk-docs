@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 404e8ab3-7bd2-4791-83f0-357f0c1fd1ad
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Close(PLU) Request
 The **Close(PLU) Request** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

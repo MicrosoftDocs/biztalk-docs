@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 950ea58f-1eb9-4b9d-b5ff-72b824faa78d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Define HIP Export Characteristics Page

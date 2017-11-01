@@ -11,6 +11,8 @@ f1_keywords:
   - "15328"
 ms.assetid: d571ed2f-cc89-4371-a52e-6287ca8901c6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Application Tab (Listener Properties)

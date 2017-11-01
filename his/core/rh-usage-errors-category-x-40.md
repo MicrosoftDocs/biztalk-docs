@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c1445313-cd22-452d-9492-c4384f4416f7
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # RH Usage Errors (Category X&#39;40&#39;)
 These sense codes indicate that fields in the request/response header (RH) are contrary to SNA rules or previously selected BIND options and prevent the intended half-session from receiving the request.  

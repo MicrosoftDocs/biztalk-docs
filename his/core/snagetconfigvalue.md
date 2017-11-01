@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 900f149c-fc6a-4fdf-aeb6-04dec4602eea
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAGetConfigValue
 SNALink calls the **SNAGetConfigValue** function to obtain the value of a specific configuration parameter.  

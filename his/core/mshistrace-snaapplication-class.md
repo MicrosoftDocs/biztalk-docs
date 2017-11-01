@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 577820f7-a423-4210-a38e-9e09b40fe28e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNAApplication Class
 The **MsHisTrace_SNAApplication** class contains tracing properties for any application that runs on top of [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8ba628bf-dfb2-4242-92ff-743d8d48a431
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Session Information
 Information on session information is provided in the **sess_info_sect** structure as defined below.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15219"
 ms.assetid: 81c135ea-c13a-4e6e-b639-16f0b0d55320
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Security Tab for SNA (Remote Environment Properties)

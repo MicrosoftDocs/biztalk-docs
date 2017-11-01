@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3dbedfd6-4ed1-4481-a024-a429c3a01274
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Step 4 (A) Adding and Assigning Users
 This section describes adding users and assigning LUs to configured users.  

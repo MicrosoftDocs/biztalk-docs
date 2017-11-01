@@ -11,6 +11,8 @@ f1_keywords:
   - "15469"
 ms.assetid: 5c0a42a7-0e0a-4ad5-996a-2cc4d2c3e21c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Tables Node
 Use the **Data Tables** node to view a list of all the **Data Tables** in the assembly.  

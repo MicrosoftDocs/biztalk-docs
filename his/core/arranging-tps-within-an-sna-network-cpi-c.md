@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 132f77b0-dcb6-4338-b17e-192b03ad660c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Arranging TPs Within an SNA Network (CPI-C)
 If your Host Integration Server installation contains multiple systems (clients or SNA services), you can place a given invokable transaction program (TP) on more than one system. When an invoking request is received in such an installation, there can be a choice of systems on which to run the invokable TP. You can maintain specific control over this choice. Alternatively, by following the instructions in [TP Name Not Unique; Local LU Alias Unspecified](../core/tp-name-not-unique;-local-lu-alias-unspecified-cpi-c.md), you can enable SNA service to make the choice randomly to distribute the load.  

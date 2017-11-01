@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9a171534-f106-4271-aa0e-963daa91123a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Demo SDLC Link Service (Linkcfg )
 Linkcfg options for the Demo SDLC link service. You can install the 3270 Continuous Demo, the 3270 File Transfer Demo, the 3270 Logon Demo, the AS400 Demo, and the LU1 and LU3 Printing Demos. Each of these demos is a script file that is run to demonstrate access to mainframe and AS/400 computers.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2cb9045d-1fa6-4c20-876d-81462305493b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring the AS/400 for 5250 Access
 When setting [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] parameters for an AS/400 connection, you must match values set on the host. Check with the host administrator to obtain required information for AS/400 access.  

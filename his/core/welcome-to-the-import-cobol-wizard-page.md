@@ -11,6 +11,8 @@ f1_keywords:
   - "15405"
 ms.assetid: 5a729fe9-02d2-4e61-85b8-aaa664eec93f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Welcome to the Import COBOL Wizard Page
 Use the **Welcome to the Import COBOL Wizard** page to view the procedure for importing a COBOL copy book and to control whether the welcome page is displayed again the next time the wizard is used.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f91a82ba-d83b-40df-958d-910bddc0c24d
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Format for Alerts Used by Applications and NVAlert
 An application program or the NVAlert service can use the CSV **TRANSFER_MS_DATA** to issue alerts. The alerts are logged in a log file that can be viewed using the Windows Event Log service, and may also be sent on the NetView connection.  

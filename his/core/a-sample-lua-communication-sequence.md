@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7d7855cf-4550-435a-a418-f7a55c3e9e2b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # A Sample LUA Communication Sequence
 This section illustrates how Request Unit Interface (RUI) and Session Level Interface (SLI) verbs are used for a logical unit application (LUA) communication sequence. The two figures illustrate the LUA verbs used to start a session, to exchange data, and to end the session, as well as the SNA messages sent and received. The arrows indicate the direction in which SNA messages flow.  

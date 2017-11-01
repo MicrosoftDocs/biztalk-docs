@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0157ebd0-6151-4a9d-83ba-1d836e84847f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Concurrent Model
 In the Concurrent model, the Listener and Server portions of the TP run under the control of different tasks. The Listener's sole purpose is to accept the connection and spawn the Server task. The Server portion of the application sends and receives data and performs TP-dependent processing. This model allows a higher degree of concurrency because the listening socket is not held for an extended period of time.  

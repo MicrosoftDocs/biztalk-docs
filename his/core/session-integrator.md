@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1f638bdb-f7ba-4085-aa25-b42465a34aed
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Session Integrator
 An enterprise organization might run the bulk of their daily operations on an IBM host system, such as the zSeries IBM mainframe. Many host-based applications use session-based termination emulation and other client-server programs that use either Logical Unit type 0 (LU0) or Logical Unity type 2 (LU2). LU0 programs, common in retail banking, are based on the Logical Unit for Applications (LUA) programming model. In contrast, the LU2 programs, common in many vertical markets, are based on terminals and terminal emulation using a 3270 data stream.  

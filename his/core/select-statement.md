@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db425439-7158-413f-b4d5-767e63d7e13e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SELECT Statement
 The following describes the `SELECT` statement parsing used in the Managed Provider for Host Files and provides sample `SELECT` statements.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a4a0eaa-ff96-4a67-8e80-db57bbb31088
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SPasswordChangeComplete Members
 The following table shows the **SPasswordChangeComplete** members.  

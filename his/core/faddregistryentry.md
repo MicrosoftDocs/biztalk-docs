@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c70e4cd-51d3-49a9-8ea5-da4e9962efcb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fAddRegistryEntry
 The **fAddRegistryEntry** function is used to add a new registry value to the registry. This utility function is used to construct an integrated link service configuration DLL.  

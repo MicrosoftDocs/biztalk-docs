@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4d73c606-9acf-4193-b07f-c97de49b2c84
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNAServerManager Class
 The **MsHisTrace_SNAServerManager** class contains tracing properties for the SNA Manager.  

@@ -12,6 +12,8 @@ f1_keywords:
   - "his_data_dat_wizard_appc_network"
 ms.assetid: a84e688f-a3c2-4cc8-94cb-42bb43a27cc5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Modes Folder
 This folder contains the APPC Modes configured for this server.  

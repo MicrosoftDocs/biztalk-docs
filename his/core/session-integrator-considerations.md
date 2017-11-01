@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5876f7ab-c636-4d73-a33a-cf850c9ef20a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Session Integrator Considerations
 Session Integrator is designed to communicate between a Windows-based enterprise and an IBM network. Therefore, you should be familiar with the following concepts and technologies before attempting to use Session Integrator:  

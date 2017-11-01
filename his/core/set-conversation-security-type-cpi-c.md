@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc5c4d49-9b1c-4934-bb31-3d569947416b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Conversation_Security_Type (CPI-C)
 The **Set_Conversation_Security_Type** call (function name **cmscst**) is issued by the invoking program to specify the information the partner logical unit (LU) requires to validate access to the invoked program.  

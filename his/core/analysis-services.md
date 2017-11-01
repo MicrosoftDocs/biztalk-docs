@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 00319f00-781c-4d4f-9625-d8f334e4c8d2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Analysis Services
 SQL Server Analysis Services brings powerful new capabilities that allow analytical applications to scale to millions of records and thousands of users. You can use it to consolidate relational and multidimensional data that includes business entities, business logic, calculations, and metrics. It also provides an enhanced data mining engine and improved algorithms, and strengthens the powerful data mining framework represented by the extensible .NET programming model. Improved interoperability with Office 2010 enables business users to access multidimensional data directly from within Excel and SharePoint.  

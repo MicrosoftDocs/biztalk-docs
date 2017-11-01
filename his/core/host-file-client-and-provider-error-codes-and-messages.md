@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: cf84e451-41d5-4881-95fa-30a6349aafc9
 caps.latest.revision: 2
 ms.author: "paulettm"
+author: MandiOhlinger
+manager: anneta
 ---
 # Host File Client and Provider Error Codes and Messages
 The following table lists the Host File client and provider error codes, error message text, description and recommend action.  

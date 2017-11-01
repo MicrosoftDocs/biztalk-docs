@@ -11,6 +11,8 @@ f1_keywords:
   - "15422"
 ms.assetid: 31fa3784-b5ed-488c-b659-42283c3f811f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Select Item Wizard Page
 Use the **Select Item** wizard page to create a new method or rewrite an existing method in your interface. Enter the identifying information for the method.  

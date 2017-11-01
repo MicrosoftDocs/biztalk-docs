@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 82157c04-620d-4671-8f91-1bf82f6b80cf
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "plarsen"
 ---
 # Trace Viewer

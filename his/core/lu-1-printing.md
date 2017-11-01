@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ed618f4d-4f77-4a96-bb91-a63edae56e77
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LU 1 Printing
 LU 1 printing allows the host to specify formatting for a print job. This is accomplished through the use of SNA Character String (SCS) control codes. The SCS codes encompass the 3270 format orders (FF, CR, and NL), as well as providing additional control codes to format the print output. Through the SCS codes, the host application can set the margins, characters per line, and lines per inch. In addition to the format of the print job, SCS code allows the host application to send a transparent section. By using an SCS code, the host can mark a section of data as transparent. This will cause the print emulator (the Host Print service in this case) to not scan this section for SCS control codes but to pass it to the print output untouched. Transparent sections are most commonly used to embed printer control codes, such as the HP PCL, in the print job. Unlike LU 3 printing, there is no write command code or WCC. The first byte of the RU is either an SCS code or data.  

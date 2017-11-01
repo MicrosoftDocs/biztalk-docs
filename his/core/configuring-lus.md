@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6b94f422-512a-4e0a-a64f-22def10fc043
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring LUs
 When a user configures a 5250 emulator to access an AS/400, the emulator is configured with the local and remote APPC LU alias names. The LU alias names are mapped to LU names that are used for the conversation with the AS/400.  

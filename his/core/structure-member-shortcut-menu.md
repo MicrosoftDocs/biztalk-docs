@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 66407a58-2e98-4cf7-bb5e-d5d107b42bfb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Structure Member Shortcut Menu
 When you select a member from one of the structures in the **Structures** node in HIS Designer, the following shortcut menu commands are available:  

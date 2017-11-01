@@ -11,6 +11,8 @@ f1_keywords:
   - "15466"
 ms.assetid: 86d967fc-162c-47c1-b608-4ad8057b1464
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Interface Name Node (.NET)
 Use the ***interface name*** node to view the list of all the methods in a component.  

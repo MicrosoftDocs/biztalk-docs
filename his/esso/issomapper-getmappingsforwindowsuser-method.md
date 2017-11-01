@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5efe1743-195e-4d14-a7dd-b015307c39a0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapper.GetMappingsForWindowsUser Method
 The **GetMappingsForWindowsUser** method retrieves the mappings for a Microsoft Windows user.  

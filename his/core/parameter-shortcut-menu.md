@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c6942595-1835-494e-863e-a97e863e6b0c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Parameter Shortcut Menu
 When you select a parameter in the tree view in HIS Designer, the following shortcut menu commands are displayed.  

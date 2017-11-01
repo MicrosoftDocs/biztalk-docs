@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cd0a7838-08eb-4ab8-86eb-966f980c367d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Step 3 (LU) Creating and Configuring 3270 LUs
 This section details information regarding creating and configuring LUs.  

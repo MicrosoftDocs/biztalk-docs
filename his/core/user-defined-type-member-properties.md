@@ -11,6 +11,8 @@ f1_keywords:
   - "15435"
 ms.assetid: d7698e6c-ce36-4ce4-a7a7-507c2d6d97d1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # User-Defined Type Member Properties
 Use the **User-Defined Type Member** properties page to set array, COBOL, host, design, and recordset properties on user-defined type members.  

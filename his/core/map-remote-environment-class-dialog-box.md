@@ -11,6 +11,8 @@ f1_keywords:
   - "15449"
 ms.assetid: 963516b2-c79f-4524-9eb6-e86105449bc2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Map Remote Environment Class Dialog Box
 Use the **Map Remote Environment Class** dialog box to update the definition of a remote environment (RE) class that is no longer supported or does not conform to Transaction Integrator (TI) requirements.  

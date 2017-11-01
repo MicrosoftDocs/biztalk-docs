@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c0f07d7d-c197-42ca-b280-4390b4077fd8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ExtractNextParameter
 The **ExtractNextParameter** function is used to get the next parameter from a buffer. This utility function is used to construct an integrated link service configuration DLL.  

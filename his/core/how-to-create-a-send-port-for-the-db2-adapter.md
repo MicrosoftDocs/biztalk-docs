@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3cd360fc-2192-48ba-b965-bf5028bfa597
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a Send Port for the DB2 Adapter
 You create a send port for the BizTalk Adapter for DB2 by using the BizTalk Server Administration console. You must be logged on with an account that is a member of the BizTalk Server Administrators group. In addition, you must have appropriate permissions in the Single Sign-On (SSO) database.  

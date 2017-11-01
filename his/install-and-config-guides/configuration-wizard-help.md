@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 12150270-edfd-4a52-8d84-718e94ce4bbe
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration Wizard Help
 Use these topics to navigate through the Configuration Wizard.  

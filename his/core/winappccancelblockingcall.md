@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c2c60152-c42f-458e-a70a-a726e6bc72ce
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinAPPCCancelBlockingCall
 The **WinAPPCCancelBlockingCall** function cancels any outstanding blocking operation for its thread. Any outstanding blocked call canceled will cause an error code of WAPPCCANCEL to be generated.  

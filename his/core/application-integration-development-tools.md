@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9aa7c4ea-9593-4353-909d-94cf4e4df451
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Application Integration Development Tools
 This section contains the following topics:  

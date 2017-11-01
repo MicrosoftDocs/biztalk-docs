@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9d844930-7045-4ab8-812d-91d047d184ae
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RECEIVE_AND_WAIT
 The **RECEIVE_AND_WAIT** verb receives any data that is currently available from the partner transaction program (TP). If no data is currently available, the local TP waits for data to arrive.  

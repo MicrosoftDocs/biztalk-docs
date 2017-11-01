@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1ee1d8d1-61b6-4480-b7a1-93f20f6f4891
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure SSL for the MQSC Adapter: Transactional
 This topic lists the steps to configure the MQSeries Client (MQSC) adapter to execute transactional requests to the MQSeries server using SSL. These steps describe configuration for one-way (Server) authentication.  

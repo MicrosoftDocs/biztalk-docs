@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5193e3a9-8b9f-46f1-aead-37b04d9276d5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Basic and Mapped Conversations Compared (CPI-C)
 The following table offers some guidelines for choosing between basic and mapped conversations for your transaction programs (TPs). The default for conversation type is mapped. To change to a basic conversation, use [Set_Conversation_Type](../Topic/Set_Conversation_Type%20\(CPI-C\)2.md), and specify CM_BASIC_CONVERSATION for the *conversation_type*. For definitions of basic and mapped conversations, see [Fundamental Terms for TPs and LUs](../core/fundamental-terms-for-tps-and-lus-cpi-c.md).  

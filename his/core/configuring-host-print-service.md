@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2b109939-f252-4ede-8804-1f1ecfc8105c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Host Print Service
 Configuring Host Print service involves the following steps:  

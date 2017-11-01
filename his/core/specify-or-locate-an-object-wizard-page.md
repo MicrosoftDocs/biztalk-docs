@@ -11,6 +11,8 @@ f1_keywords:
   - "15382"
 ms.assetid: f4906439-c3b0-4420-bd35-f232f6dadd06
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Specify or Locate an Object Wizard Page

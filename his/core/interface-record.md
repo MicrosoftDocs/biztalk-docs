@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0f123abd-5af4-43a1-b136-826a7314f8b8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Interface Record
 Status information is transferred between the driver and the SNALink using a buffer known as the interface record.  

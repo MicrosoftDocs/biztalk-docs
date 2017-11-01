@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 6122beab-32af-4f48-b214-53cfdcda86fd
 caps.latest.revision: 2
 ms.author: "paulettm"
+author: MandiOhlinger
+manager: anneta
 ---
 # BizTalk Adapter for Host Files Troubleshooting
 **Send Port Updategram**  

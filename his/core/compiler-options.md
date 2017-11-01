@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20704965-e497-4296-82fb-007fea14409c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Compiler Options
 When compiling the SNALink DLL, the following compiler options are required:  

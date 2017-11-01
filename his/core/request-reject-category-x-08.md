@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c573ea9f-971b-4c30-9033-63307dbaa6b1
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Request Reject (Category X&#39;08&#39;)
 This category indicates that the request was delivered to the intended half session, and was understood and supported, but not executed. The following codes are in this category.  

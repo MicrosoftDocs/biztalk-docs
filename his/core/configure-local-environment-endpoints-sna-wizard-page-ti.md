@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9d12190c-73c8-48eb-b2f6-69549295b588
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure Local Environment Endpoints (SNA) Wizard Page(TI)

@@ -11,6 +11,8 @@ f1_keywords:
   - "15407"
 ms.assetid: 1533ad6a-2de6-430f-8752-3094a751fb4c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Item Options Wizard Page
 Use the **Item Options** wizard page to specify the type of component to create. Select and identify the type of component to be created.  

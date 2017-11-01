@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bf8a6b45-188f-404e-b6a2-d4b8f85ab727
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Deallocate (CPI-C)
 The **Deallocate** call (function name **cmdeal**) deallocates a conversation between two programs.  

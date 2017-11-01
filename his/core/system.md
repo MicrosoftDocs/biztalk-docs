@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 47b73f72-a055-4c52-9d88-6f516caedf95
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # System
 Use these menu commands to configure and run your Enterprise Single Sign-On system.  

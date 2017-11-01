@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a990a46f-86ea-4348-8151-286248c92de7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Retrieve Data
 Creating connection string information requires that you create an object that is derived from the `IConnectionString` class, such as `DB2OdbcConnectionString` or `DB2OleDbConnectionString`. After you create the string, you can save, modify, or retrieve information from it by using the associated properties.  

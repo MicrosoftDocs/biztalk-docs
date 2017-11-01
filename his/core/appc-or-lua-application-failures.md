@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 39498ae6-9e14-48b9-ba12-3ef3ecb98190
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC or LUA Application Failures
 These applications may be written internally, or may be commercial applications. If an error code is produced on an APPC application, it is documented in the "APPC Applications."  

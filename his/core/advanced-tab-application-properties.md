@@ -11,6 +11,8 @@ f1_keywords:
   - "15335"
 ms.assetid: c9cee60f-9309-4917-a5fa-050613cb38f2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Advanced Tab (Application Properties)

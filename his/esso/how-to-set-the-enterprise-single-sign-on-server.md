@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cf1db7d4-ced5-4fef-b438-7292364b88e3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Set the Enterprise Single Sign-On Server
 Every time that you use the command line management utility, ssomanage, you must first point the user to the Single Sign-On (SSO) server that you want to connect to.  

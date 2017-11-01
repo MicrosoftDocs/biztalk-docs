@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 297e2ce8-b730-445a-b86b-605cc211474b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Macros
 The 3270 Client provides macros for ease in using host function keys.  

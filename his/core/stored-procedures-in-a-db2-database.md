@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e183aea0-2d57-4018-ab65-4fbd7c6f7f28
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Stored Procedures in a DB2 Database
 Stored procedures offer many advantages in data-driven applications. By using stored procedures, you can encapsulate database operations in a single command, optimized for best performance, and enhanced with additional security. Although you can call a stored procedure by passing the stored procedure name followed by parameter arguments as an SQL statement, using the <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command.Parameters%2A> collection of <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command> object enables you to more explicitly define stored procedure parameters, and also to access output parameters and return values.  

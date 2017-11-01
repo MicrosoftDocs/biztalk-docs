@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 79cd8b96-cebb-4e27-aa7c-3b9ca25fffb1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host File Designer Menus
 Host File designer presents different menus for different contexts and operations. These menus are in addition to the basic menus that are already included in Visual Studio.  

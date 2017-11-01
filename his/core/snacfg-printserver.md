@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cb328695-71d1-4e2a-b139-ce953f5c6392
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Snacfg PrintServer
 ## Purpose  

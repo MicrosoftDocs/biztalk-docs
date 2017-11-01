@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 44fd75f4-2dbc-41cc-884e-f03310198030
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IMS_LTERM
 Use the **IMS_LTERM** to override the default LTERM that an Information Management Systems (IMS) connect call uses while processing the host transaction within IMS. The COMTIContext context name is **IMS_LTERM**, and its value must be from one through eight alphanumeric characters.  

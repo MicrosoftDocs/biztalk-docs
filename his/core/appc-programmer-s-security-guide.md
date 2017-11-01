@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9ff7d5f5-2198-440d-8e6b-8814f2ec5575
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Programmer&#39;s Security Guide
 The following topics discuss security as it applies to the APPC section of the Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] SDK.  

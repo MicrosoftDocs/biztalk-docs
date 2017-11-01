@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5e8a3bc2-0b52-4b82-b622-2facc47f95b4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Registry Settings Used for LUA Single Sign-On
 The logical unit application (LUA) Single Sign-On feature depends on [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] scanning 3270 logical units (LUs) used in the logon process for special keywords that are defined in the registry on the computer running [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)]. The values for these special keywords can be defined by the system administrator on the computer running [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

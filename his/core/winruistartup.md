@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 387c4df2-18b8-4c62-a6a4-ebed6c3b9181
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinRUIStartup
 The **WinRUIStartup** function enables an application using Request Unit Interface (RUI) verbs to specify the version of Windows logical unit application (LUA) required and to retrieve details of the specific Microsoft Windows LUA implementation. This function must be called by an application to register itself with a Windows LUA implementation before issuing any further Windows LUA calls.  

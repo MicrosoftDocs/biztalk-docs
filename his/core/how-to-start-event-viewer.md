@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c9d5a94f-e8f7-4e69-9cdb-54d725dd34e9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Start Event Viewer
 Event Logs can be viewed using the Windows Event Viewer.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: be4d1a64-6733-4740-b850-f9daa3e140bb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Initialization (I/O Request Packets)
 Device drivers under Windows should perform all initialization required at the start of day when they are loaded by Windows. Configuration information for device drivers is stored in the Configuration Registry under Windows. For more details, refer to the documentation supplied with the Windows Device Driver Kit.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b4fa3793-8ed8-4e6c-9d02-4aa130e133c2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sending a Message with Transaction Integrator for LU0
 After you initialize and connect to the logical unit (LU), you can send information over the LU0 connection. The primary tool that Session Integrator exposes for sending LU0 information is the `SessionLU0Data` object and the `SessionLU0.Send` method.  

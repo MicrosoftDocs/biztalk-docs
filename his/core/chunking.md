@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1f3371b6-4cfb-477c-a2ee-638f13a8771d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Chunking
 Chunking can be thought of as similar to segmentation. (For more information, see [Segment Delivery](../core/segment-delivery.md).) The distinction is that segmentation is determined by the communications link between the local node and the remote system, whereas chunking is determined by the communications link between the application and the local node.  

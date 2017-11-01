@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2aa4570e-9a87-4aea-b66b-7c9ea293bfb2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Method Calls per Second
 The counter reports the method call volume going through the Transaction Integrator (TI) server. There are actually three counters implemented:  

@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: f32c998e-06cc-48e3-9000-77d160739e82
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # dateTimeMask
 The dateTimeMask element contains a db2ToSql or sqlToDb2 to indicate the direction, and a sourceFormat and a targetFormat to specify the mapping.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f5dfef04-b504-49ee-9cb4-023a45055b13
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Convert_Incoming (CPI-C)
 The **Convert_Incoming** call (function name **cmcnvi**) converts a string of EBCDIC characters into ASCII. Note that the return conversion can be performed using **Convert_Outgoing**.  

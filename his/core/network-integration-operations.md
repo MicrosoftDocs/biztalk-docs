@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b53a4d17-a43c-4dd0-b2f0-586499accabf
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Integration (Operations)
 ## In This Section  

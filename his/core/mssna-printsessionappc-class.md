@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5123f2cd-ca65-421c-96c3-b5b1c22f407b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_PrintSessionAppc Class
 Extends a print session. Uses APPC LU 6.2 protocols to communicate with the host.  

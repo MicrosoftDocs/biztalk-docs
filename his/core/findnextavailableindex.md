@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e1aad8a5-2844-4644-bc39-777c0721211d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # FindNextAvailableIndex
 The **FindNextAvailableIndex** function is used to determine the index a new instance should receive. For example, if the current indexes in use are { 01, 02, 04 }, this function would return 03 as its return value.  

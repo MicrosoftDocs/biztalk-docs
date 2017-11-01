@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 68e0c19b-eeb8-4254-91aa-5be518b5fcf5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Set the Enterprise SSO Server Using the Client Utility
 Each time you use **ssoclient**, you must first point the user to the correct Single Sign-On (SSO) server that contains their configuration information.  

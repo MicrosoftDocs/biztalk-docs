@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 678a711b-1638-4d0b-83ac-66c61cbfbc46
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Clients (Data Integration)
 Insert introduction here.  

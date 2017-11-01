@@ -11,6 +11,8 @@ f1_keywords:
   - "15224"
 ms.assetid: c393667e-0baa-44e2-9650-c349c204beb4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # SSO tab (Security Policy Properties)

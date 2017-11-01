@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0af86d33-2a0f-4779-a947-47839f6b46d9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LPI Addresses (SNADIS)
 A locality, partner, index (LPI) address is used to identify each end of a connection. It has three components: locality (L), partner (P), and index (I).  

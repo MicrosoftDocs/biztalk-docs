@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eddbf6b6-765c-4c17-a628-df04abe0a720
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Macro Definition Section
 The macro definition section is bounded by **BEGIN_MACROS** and **END_MACROS** statements and consists of lines with the following syntax.  

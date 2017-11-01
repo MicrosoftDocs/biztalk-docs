@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 03a41655-4913-44cb-860e-5864d4fbc1ab
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUWID, Conversation Correlators, and Session Identifiers
 The logical unit-of-work identifier (LUWID), conversation correlators, and session identifiers are important for all Sync Point operations and accounting purposes. The following sections describe how Host Integration Server provides access to these components and, where appropriate, facilities to modify this information.  

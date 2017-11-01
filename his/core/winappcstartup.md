@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b7d0702d-fa4a-4a35-a4de-2edfabf8582b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinAPPCStartup
 The **WinAPPCStartup** function allows an application to specify the version of Windows APPC required and to retrieve details of the specific Windows APPC implementation. An application must call this function to register itself with a Windows APPC implementation before issuing any further Windows APPC calls.  

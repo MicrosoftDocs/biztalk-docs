@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7f91eaaa-5b2a-4818-a3a7-4c8a8b647d38
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LinkService_IpDlc.GetAllStaticIPs Method
 The **GetAllStaticIPs** method returns the list of all the static IP addresses on the local machine.  

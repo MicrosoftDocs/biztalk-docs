@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4a1c2ce4-2c67-4252-8a8e-9c3189ab7a4b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Integration Programmer&#39;s Reference
 This section of [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] Help describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server network technologies into your application.  

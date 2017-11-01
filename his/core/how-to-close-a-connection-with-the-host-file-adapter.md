@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 28f127af-5494-4915-80c3-62ddb39b7a13
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Close a Connection with the Host File Adapter
 If you create a HostFileDataAdapter object with a connection string, the object will automatically create a connection object. Once you are finished using a host file adapter, you need to dispose of the implicit connection you made. You can use the Dispose and Close commands to do so.  

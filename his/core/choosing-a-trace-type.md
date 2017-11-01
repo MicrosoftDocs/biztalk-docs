@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c10c309c-147e-4b15-ab1a-5eafbe014770
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Choosing a Trace Type
 After selecting one or more [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] components to be traced, decide the type of tracing to apply.  

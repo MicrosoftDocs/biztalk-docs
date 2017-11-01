@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 51a4c1f4-36de-40a1-bb96-eef9bfde3414
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Wait_For_Conversation (CPI-C)
 The **Wait_For_Conversation** call (function name **cmwait**) waits for an operation to complete that has been initiated when the *processing_mode* conversation characteristic was set to CM_NON_BLOCKING and CM_OPERATION_INCOMPLETE was returned in the *return_code* parameter.  

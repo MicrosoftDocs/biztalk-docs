@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c5110a66-ca8c-4866-a7c3-4ab4e8684561
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSONotification.ShutdownAdapter Method
 Indicates that the password sync adapter is shutting down.  

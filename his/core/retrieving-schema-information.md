@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8750c87b-939a-478c-b7f8-455e5bd3aa20
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Retrieving Schema Information
 While an <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> is open, you can retrieve schema information about the current result set by using `MsDb2DataReader.`<xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader.GetSchemaTable%2A>. <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader.GetSchemaTable%2A> returns a data table that is populated with rows and columns that contain the schema information for the current result set. The data table contains one row for each column of the result set. Each column of the schema table row maps to a property of the column returned in the result set, where the `ColumnName` is the name of the property and the value of the column is the value of the property.  

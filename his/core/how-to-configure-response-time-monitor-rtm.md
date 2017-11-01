@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 12d92dee-94c7-40e9-8f8a-95fc0f34cc6b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure Response Time Monitor (RTM)
 You can specify the times that RTM should send data and the trigger that causes it to register the host response. The configuration settings are on the **Response Time Monitor** tab of the **Properties** page for the selected SNA subdomain and are listed in the following table:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b4c2da8f-3d05-4466-baf7-031b4015d59d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOConfigOM.GetServerStatus
 The **GetServerStatus** method describes the status of the current server.  

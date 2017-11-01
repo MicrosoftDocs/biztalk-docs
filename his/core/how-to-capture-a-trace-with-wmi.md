@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b295b485-10de-4495-9ea2-45661f896258
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Capture a Trace with WMI
 Trace capturing refers to the process of viewing trace logs. For Host Integration Server, this typically refers to collating data stored in trace log objects into a single file and saving it to a specified location. You can capture SNA trace information in the same manner as you would retrieve any other information from Windows Management Instrumentation (WMI). You use **ExecQuery** to make a call to the relevant object, and then write the information to the location you want.  

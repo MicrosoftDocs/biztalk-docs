@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c02e13e-8ab7-42d5-81d6-0f935fb3a761
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Making Connections
 Before messages can flow across a connection, the connection must be established or opened. This is necessary because a partner (P1) does not initially know the locality partner index (LPI) address of the partner with which it wants to communicate. There may not even be a suitable partner with which to communicate.  

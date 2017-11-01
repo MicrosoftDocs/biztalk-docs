@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a787a2a9-950d-456e-99fc-56cc3948fc54
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Conversation Verbs
 This section describes the Advanced Program-to-Program Communications (APPC) conversation verbs. The description of each verb provides:  

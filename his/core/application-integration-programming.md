@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c41cfc4-20a8-4c1e-b085-fc789c2b4a5d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Application Integration Programming
 This section contains the following topics:  

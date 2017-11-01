@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b0d170ed-b35c-4e2c-bdf0-050c0067dffa
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Display the Enterprise SSO Server Using the Client Utility
 Use the **showserver** command to display the Single Sign-On (SSO) server to which the user is currently pointing.  

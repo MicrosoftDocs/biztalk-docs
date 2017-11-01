@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 74cd8b15-852d-414c-b30d-4592217edfcf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOAdmin2 Methods
 The following table shows the `IISOAdmin2` methods.  

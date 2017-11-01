@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 282b5c83-a583-46af-8cc0-80ad1a5e1c34
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Code Page Mappings
 You can specify service-level and application-level code page mapping overrides. Also, you can specify code point mapping overrides within a defined code page. For more information, see Deployment.  

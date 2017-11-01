@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 551404bf-3bb2-4d7d-8064-801df8177397
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Distributed Relational Database Architecture
 The DRDA Service supports DRDA Version 5.  

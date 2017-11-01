@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4a64f995-ff06-4382-ae0c-c502feec7843
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_RECEIVE_AND_WAIT
 The **MC_RECEIVE_AND_WAIT** verb receives any data that is currently available from the partner transaction program (TP). If no data is currently available, the local TP waits for data to arrive.  

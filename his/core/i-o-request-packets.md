@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b3676638-c7e8-495f-91a6-ee5a44f08d68
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # I/O Request Packets
 All I/O requests are passed to the driver by Microsoft Windows using the standard IRP structure. For more details about this, refer to the Windows Device Driver Kit.  

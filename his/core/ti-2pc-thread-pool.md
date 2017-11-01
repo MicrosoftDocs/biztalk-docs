@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c4080d93-8803-46e1-8ba9-ff39025f35bc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TI 2PC Thread Pool
 The Transaction Integrator (TI) two-phase commit (2PC) thread pool is different from the COM+ user thread pool. The TI 2PC thread pool is used only for 2PC transactions. The threads are precreated, and a single process interacts with Microsoft Distributed Transaction Coordinator (DTC) to handle `prepare` and `commit` transactions. This improves the performance by eliminating thread creation and destruction for every 2PC transaction.  

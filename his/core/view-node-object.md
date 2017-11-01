@@ -11,6 +11,8 @@ f1_keywords:
   - "15361"
 ms.assetid: 714683b1-9453-4d0b-ab24-051c18cf00bd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # View Node (object)

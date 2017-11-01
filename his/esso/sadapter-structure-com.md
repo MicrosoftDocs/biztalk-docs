@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b5fb600-5601-4b95-bb84-cd0784e00b66
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SAdapter Structure (COM)
 Describes an adapter.  

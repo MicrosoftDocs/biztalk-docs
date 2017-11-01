@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b867f673-9570-4f47-b9b5-fb09eca6ef83
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SAdapterInGroup Fields
 The fields of the **SAdapterInGroup** interface are listed in the following table. For a complete list of **SExternal** interface members, see [SAdapterInGroup Members](../esso/sadapteringroup-members.md).  

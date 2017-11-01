@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 68354946-9c9d-41a3-9f7c-24ff40e72538
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapping.Enable Method
 The **Enable** method enables the mapping.  

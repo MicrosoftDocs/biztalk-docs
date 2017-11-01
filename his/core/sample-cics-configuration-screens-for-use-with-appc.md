@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4936e582-d258-461b-8f79-e39961b532f1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sample CICS Configuration Screens for Use with APPC
 The following series of screens show how CICS could be configured for independent Advanced Program-to-Program Communications (APPC) through VTAM. In the first screen, the underlined values correspond to values specified in SNA Server Manager.  

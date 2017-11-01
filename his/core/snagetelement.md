@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 40961ec9-29f2-4083-b088-a220c950e686
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAGetElement
 The **SNAGetElement** function is called by an application to get a buffer element to append to an existing buffer.  

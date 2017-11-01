@@ -11,6 +11,8 @@ f1_keywords:
   - "15204"
 ms.assetid: 8e41c56e-b985-4707-b241-2d83e80b8d98
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure Endpoint TCP/IP Wizard Page

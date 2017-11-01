@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7ae88939-36b2-429d-aa3f-66a0f16c9226
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOTicket.RedeemTicket Method
 The **RedeemTicket** method redeems an Enterprise Single Sign-On (SSO) server ticket that was previously issued with the **IssueTicket** method.  

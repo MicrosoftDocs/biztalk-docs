@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9ed340af-e88d-47de-8ffd-65766d782f10
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Two-Phase Commit Performance Considerations
 When a Transaction Integrator (TI) component executes within a transaction, the TI run-time environment sends a message to Microsoft Distributed Transaction Coordinator (DTC) in the COM+ environment, enlisting itself on the transaction as a special type of LU 6.2 resource manager. After TI sends its data buffer to the host and receives the reply, it calls the `SetComplete` method and returns control to COM+. At this point, the client application, or other component driving TI, can perform other work also included in the same transaction. When all resource managers have made their updates and issued `SetComplete`, the transaction's creator (which can be COM+ itself for an Auto-Transaction) sends the `Commit` method to DTC. DTC sends the first-phase (`Prepare`) message to all the resource managers, including the TI run-time environment. TI generates the `Prepare PS Header` defined in the SNA Formats, and sends it to the host. It receives a `RequestCommit` in reply, which indicates that the host updates are valid and can be committed, and passes this information back to DTC. DTC collects the votes from all the resource managers, and if all prepared okay, it force-writes a Commit record to the log and sends the `Committed` message. Again, TI translates this into an `SNA PS Header`, receives the reply, and translates this back to DTC. If everything works as planned, DTC rolls back the transaction and the APPC/LU 6.2 conversation is deallocated.  

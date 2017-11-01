@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c33be37-ef9b-43d6-b327-3d2da7ff120e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Manager
 SNA Manager provides an interface for configuration and operation of [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] components. SNA Manager allows flexibility in viewing and managing SNA server subdomains, computers, link services, connections, logical units (LUs), sessions, and users. It integrates the administration of TN3720 service, TN5250 service and Host Print service.  

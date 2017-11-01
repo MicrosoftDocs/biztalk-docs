@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e0c91e16-4c57-4d9d-856d-00ce35298f5e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Logical Unit (LU)
 A logical unit (LU) is a configurable unit of software that contains the information needed to specify the type of communications session with the host computer or peer system. Thus, an LU is a point of access to the [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] network. There are several types of LUs:  

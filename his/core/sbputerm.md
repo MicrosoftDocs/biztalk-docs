@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 33e378a6-8010-416f-a470-2b55f3518159
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # sbputerm
 The **sbputerm** function must be called when the application terminates. It frees the DL-BASE and Dynamic Access Module (DMOD) resources used by the application.  

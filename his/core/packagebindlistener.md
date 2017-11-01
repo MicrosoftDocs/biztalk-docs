@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9c362b6-6597-4529-9460-cd36129896fa
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "dwrede"
 ---
 # packageBindListener

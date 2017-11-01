@@ -11,6 +11,8 @@ f1_keywords:
   - "15461"
 ms.assetid: 5ddac0f5-bbaf-4717-9b74-6b4296445766
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Completing the New .NET Server Library Wizard Page
 Use the **Completing the New .NET Server Library Wizard** page to review the choices and settings you made in the previous wizard pages. You can return to an earlier wizard page to change a setting by clicking **Back**.  

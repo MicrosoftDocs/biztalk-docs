@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc367394-9df1-4914-9ed2-e8ab9293cf65
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Additional Information About NetView and RTM
 For additional information about NetView and RTM see [Network Management](../core/network-management-with-netview.md) The following topics are discussed:  

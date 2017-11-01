@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ee83cb2-c173-41c6-8257-17dc7c55757c
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Planning Your Hardware
 The capacity planning for Host Integration Server, SNA Gateway needs to take into consideration several factors.  They can be divided into four areas; total number of sessions, server load, fault tolerance and deployment model.  

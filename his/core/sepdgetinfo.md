@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0385ce46-bf67-4819-9731-f3b4c974b37d
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # sepdgetinfo
 The **sepdgetinfo** function returns a structure containing the version number of [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)], the path of the current configuration file, and the network operating system over which Host Integration Server is running.  

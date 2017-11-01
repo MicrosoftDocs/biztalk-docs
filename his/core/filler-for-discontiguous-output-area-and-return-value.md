@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60d0f112-18cc-49b5-a85c-905b80fd2b30
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # FILLER for Discontiguous Output Area and Return Value
 If the return value is discontiguous from the output area, you must calculate and manually specify the filler between the return value and the output area.  

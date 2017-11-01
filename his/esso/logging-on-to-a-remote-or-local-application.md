@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a33b61ff-7105-43a8-a343-99b9a1fff786
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Logging on to a Remote or Local Application
 After you finish setting affiliate credentials for your user, you can use Enterprise Single Sign-On service (ENTSSO) to provide access to applications. If the user is local, you can use ENTSSO to retrieve credentials for a non-Windows application. In contrast, if the user is remote, you can use ENTSSO to retrieve credentials for a local application.  

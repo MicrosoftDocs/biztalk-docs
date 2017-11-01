@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_GIEQ"
 ms.assetid: 49110e4d-29e0-4d2f-b1dc-4dc4a8bc57bc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Define Implementation Characteristics for the .NET Object Wizard Page

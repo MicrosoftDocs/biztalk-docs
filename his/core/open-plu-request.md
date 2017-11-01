@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0d4f77a6-b173-48ca-8c68-605cb202201a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Open(PLU) Request
 The **Open(PLU) Request** message flows from the node to the application. It is used with a primary logical unit (PLU) connection.  

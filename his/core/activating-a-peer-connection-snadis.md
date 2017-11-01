@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e3374a4b-829e-4e61-966c-c150893970e5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Activating a Peer Connection (SNADIS)
 For a peer connection, there is an activation sequence that involves the two stations exchanging format 3 exchange identification (XID) frames. As part of this sequence, the two stations agree on their link roles. They also exchange information relating to the link level connection, such as the maximum frame size supported.  

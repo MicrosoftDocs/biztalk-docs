@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c30c1c24-6a3b-4be7-8680-d411bce924e4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CreateSNAService
 The **CreateSNAService** function creates the necessary entries for an instance in the **Services** registry tree. This function adds particular values that are necessary for the service as well as all the subkeys under the service key, including **Parameters** and **ExtraParameters**.  

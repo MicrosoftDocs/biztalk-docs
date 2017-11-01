@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 00f05d84-c6da-4945-9e04-4d5c26bb7cc1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Initialization
 The 3270 emulator should initialize the DL-BASE and then call the Dynamic Access Module (DMOD) to obtain the necessary configuration information. This also registers the user name with the DMOD. It can then obtain further system information such as the Host Integration Server version number, if required.  

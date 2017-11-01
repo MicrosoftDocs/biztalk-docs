@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 53f6c957-f2de-47b6-a370-216869dda0a6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Remove Enterprise Single Sign-On
 If you remove [!INCLUDE[hisHostIntServNoVersion](../esso/includes/hishostintservnoversion-md.md)], Enterprise Single Sign-On (SSO) is no longer configured, but it is not removed. You must remove SSO separately. You can also restore configuration information including the master secret to reuse existing data. For more information, see [How to Restore the Master Secret](../esso/how-to-restore-the-master-secret.md).  

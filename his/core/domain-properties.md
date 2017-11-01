@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Domain"
 ms.assetid: 21420c12-fa88-49c2-9b16-2abcef9823ac
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Domain Properties
 The following tabs are available for the SNA Subdomain Properties sheet:  

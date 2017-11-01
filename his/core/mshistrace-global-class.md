@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8405e56a-f83b-4fbc-b8f8-7aa901629197
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_Global Class
 The **MsHisTrace_Global** class contains the global settings for Microsoft® Host Integration Server tracing.  

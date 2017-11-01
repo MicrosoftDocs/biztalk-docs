@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c22bbf65-f1a1-4fe3-8331-0efad09ff934
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNALink Interface
 The SNALink interface specifies how an Independent Hardware Vendor (IHV) link DLL fits into the SNA link service architecture provided by the Base/DMOD interface. This section describes the SNALink interface, the entry points that an IHV link DLL can call, and those functions that a link service must provide to the Base/DMOD interface. These entry points allow messages to be sent to and received from the local 2.1 node.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16d523e1-0109-4e71-ae8f-5090b4dbaf58
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_DEALLOCATE
 The **MC_DEALLOCATE** verb deallocates a conversation between two transaction programs (TP).  

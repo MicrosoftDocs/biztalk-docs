@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b23f0bde-5b43-44cf-b661-b9957608dfc9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SPasswordChangeComplete Structure (COM)
 Describes when a change to a password has been completed.  

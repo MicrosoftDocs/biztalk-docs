@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bcaacbe0-5afe-4793-9fc3-a12c5ce0402b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Connection Initialization Overview
 Connection Initialization occurs in a sequential fashion. Each step builds upon the preceding step. After all steps have completed correctly, an Active connection is established between [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] and a remote host, either an AS/400 or a mainframe.  

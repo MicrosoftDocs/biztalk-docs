@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5785ef27-d559-4a45-b8c0-eac646d01842
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Defining Session Settings
 Before you can connect to a host, you must define the settings you will need for your session. These settings include the LU or Pool Name and the Host Code Page.  

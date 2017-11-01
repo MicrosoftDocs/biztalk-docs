@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dc0f900e-c7da-40f0-818f-89e285639f40
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Snacfg Connection
 ## Purpose  

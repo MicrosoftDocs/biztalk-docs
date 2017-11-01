@@ -11,6 +11,8 @@ f1_keywords:
   - "15448"
 ms.assetid: 21c84e0d-4bff-44e3-a699-d37ffbe7eb78
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Array Dimension Dialog Box
 Use the **Array Dimension** dialog box to define the number of dimensions in an array and the number of elements in each dimension.  

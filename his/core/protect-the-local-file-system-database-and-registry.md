@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b101b7c6-5daa-4019-8782-797a6d7ebeaf
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protect the Local File System, Database, and Registry
 To prevent an attacker from spoofing their identity, accessing restricted data, or tampering with the data, you should do the following:  

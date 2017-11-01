@@ -11,6 +11,8 @@ f1_keywords:
   - "srvi_license_agreement_screen"
 ms.assetid: 5923a06a-502f-4a29-97ea-ce59557e7ad9
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # License Agreement

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c4b4003-a3ba-4d50-9316-a48aa110ca75
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Find Events
 You can specify what type of event to find based on the following criteria:  

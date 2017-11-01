@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cbbc2460-0a51-438a-a5cb-56b8f3a25156
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Conversation_Type (CPI-C)
 The **Set_Conversation_Type** call (function name **cmsct**) is issued by the invoking program to define a conversation as being mapped or basic. This call overrides the default conversation type established by [Initialize_Conversation](../core/initialize-conversation-cpi-c.md). The default conversation type is CM_MAPPED_CONVERSATION. This call cannot be issued after [Allocate](../core/allocate-cpi-c.md) has been issued.  

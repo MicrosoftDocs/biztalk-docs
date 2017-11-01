@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 88c785d8-ba54-4505-836f-eabb1ddef30f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Use Password Filters
 The ENTSSO Password Synchronization feature synchronizes passwords between Microsoft Windows Active Directory and non-Windows systems. However, many external systems have password policy requirements which differ from those in Active Directory. (For example, an IBM system may require a password to be upper case and limited to 8 characters.) This forces ENTSSO to use the “lowest common denominator” between the two systems, limiting password security.  

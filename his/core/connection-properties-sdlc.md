@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_PU_SDLC"
 ms.assetid: 98b1d149-cf20-4ccb-8997-26fa2be4a6b2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Connection Properties: SDLC
 The following tabs are available on the SDLC Connection Properties sheet:  

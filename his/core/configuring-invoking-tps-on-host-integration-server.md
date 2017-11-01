@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3cf83d53-2937-408c-8ff6-278ee4de1b43
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Invoking TPs on Host Integration Server
 For a server running [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] to support the beginning of the invoking process (that is, to accept the [TP_STARTED](../Topic/TP_STARTED1.md) and [ALLOCATE](../Topic/ALLOCATE1.md) or [MC_ALLOCATE](../Topic/MC_ALLOCATE1.md) verbs issued by an invoking TP), the following parameters must be configured correctly:  

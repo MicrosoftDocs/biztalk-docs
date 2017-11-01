@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4c71c085-0cc7-46f1-8395-99e01376a43a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Online Transaction Processing
 Most mainframe and midrange mission-critical applications run as online transaction processing (OLTP) applications under the direction of a transaction-processing monitor, such as customer information control system (CICS) and information management system (IMS). CICS and IMS are widely used in mainframe environments to create distributed OLTP solutions, such as customer-tracking and order-entry solutions. TI integrates CICS and IMS by creating .NET interfaces to the CICS and IMS transactions and by calling for the services of, or invoking, those transactions on the host from a Windows-based application.  

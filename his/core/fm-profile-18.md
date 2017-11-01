@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 11a24127-a0ab-4164-93f7-403d89d1aacf
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # FM Profile 18
 Function management (FM) Profile 18 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU 0. This profile uses the following session rules:  

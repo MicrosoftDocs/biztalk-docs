@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c5f9fa06-027d-4e48-be65-2a5a92c34ad9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Buffer Header Format (SNADIS)
 This topic lists the common fields that always occur at the start of a buffer header. These are followed by further fields specific to the particular message. For details about individual message formats, see [SNADIS Message Formats](../Topic/SNADIS%20Message%20Formats1.md).  

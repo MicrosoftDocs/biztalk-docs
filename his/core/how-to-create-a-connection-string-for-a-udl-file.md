@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bd343068-288a-4b30-b7c1-410ed1a38cc5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a Connection String for a .udl File
 A universal data link (.udl) file is essentially a text file that contains the connection string for an OLE DB data source. You can create a .udl file by using the appropriate `DB2OleDbConnectionString` or `FileSysOleDbConnectionString` constructor, and then save the string to secondary storage with a call to `Save`. The Data Access Library automatically creates the appropriate .udl file to store the string in, and save the file to disk.  

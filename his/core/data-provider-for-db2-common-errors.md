@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 250f0322-758f-4d35-a3a6-c34bc6d3e75f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Provider for DB2 Common Errors
 The Data Providers for DB2 utilize the IBM SQLCAMESSAGE stored procedure with which to return detailed error messages. To use this feature, you should configure the data source to use an EBCDIC value for Host CCSID.  

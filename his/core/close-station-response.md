@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 15ca0be5-1e84-402b-9bd2-8f044a915b64
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Close(STATION) Response
 Flow : DLC ------> NODE  

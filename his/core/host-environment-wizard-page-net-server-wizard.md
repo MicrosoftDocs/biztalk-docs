@@ -11,6 +11,8 @@ f1_keywords:
   - "15460"
 ms.assetid: 9819b049-2298-4f3c-9713-a1b451dd76ab
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Environment Wizard Page (.NET Server Wizard)
 Use the **Host Environment** (HE) wizard page to select the HE that defines the network and hardware characteristics of the non-Windows software platform initiating requests to the Windows platform. The HE consists of the host environment name, host identification, network transport type, data conversion information, default method resolution criteria, and security credential mapping.  

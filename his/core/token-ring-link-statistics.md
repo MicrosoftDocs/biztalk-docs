@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 91961d49-ca06-4296-8e76-a8c94a945f42
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Token Ring Link Statistics
 Link statistics are generated when a link is closed or when one of the following counters is about to wrap. Whenever a link statistics message is built, all the counters are reset to 0.  

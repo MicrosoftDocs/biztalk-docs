@@ -11,6 +11,8 @@ f1_keywords:
   - "15420"
 ms.assetid: 7c92d0a0-d83f-4f28-8a56-deb0dcd35f26
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Welcome to the Import HIP Definitions Wizard Page

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e6c3e89b-7536-4405-ba70-ff264ef00252
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Paths and DMODs
 Dynamic Access Modules (DMODs) are responsible for the communication between localities. When the DMODs in two localities can successfully pass messages between them, a path exists between the two localities. A path must exist between two localities before a connection can exist between partners in those localities.  

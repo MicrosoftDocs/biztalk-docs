@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af37fec2-f49e-4c52-a2e9-0b00b4dd854b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Analyzer
 A network analyzer, is an important tool for checking the load and throughput on the network as well as verifying that there are no mismatched configurations in the test environment.  

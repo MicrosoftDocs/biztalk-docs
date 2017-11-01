@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b99f3f2d-00b0-4df3-b8f1-07cbbf14b021
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Request Errors (Category X&#39;10&#39;)
 Sense codes in this category represent an imbalance in half-session capabilities. They indicate that the RU (request/response unit) was delivered to the intended half-session but could not be processed. The following codes are in this category.  

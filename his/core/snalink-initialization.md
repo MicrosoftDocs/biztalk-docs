@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b24d1b4b-cca1-4be0-bc70-36c69e1a2832
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNALink Initialization
 When the SNALink is loaded into memory, the Base/DMOD performs all initialization required by the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] system, including announcing availability of the new SNALink to other Host Integration Server components.  

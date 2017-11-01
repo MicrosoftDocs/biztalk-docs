@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ad18aa7f-af25-4d14-8c68-69fed5f0b77b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Clear Event Logs
 In Windows, you can clear the event logs by selecting **Clear all Events** on the **Action** menu after selecting the appropriate log file. You have the option of saving the event log before you clear it.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b16cb478-a9e5-4b2e-b8fa-d9f5af5b3e7b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Starting Local Sync Point TPs
 Local TPs are created by issuing the [TP_STARTED](../Topic/TP_STARTED1.md) verb to Host Integration Server. The **TP_STARTED** verb has been modified by adding the new verb control block (VCB) member **syncpoint_rqd** to allow a TP to specify that it requires Sync Point services.  

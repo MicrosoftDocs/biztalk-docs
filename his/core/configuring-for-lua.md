@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d57d1bba-5deb-40b6-9255-937496a5d962
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring for LUA
 The [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] configuration file, which is set up and maintained by the system administrator, contains information that is required for logical unit application (LUA) applications to communicate. An LUA LU is configured by the link service to use a connection to the host, and is given an LU number that matches that of an LU on the host.  

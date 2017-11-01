@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c1a9736-7a3a-41fd-8fa1-e27420fa4497
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Executing Commands in a DB2 Database
 The <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command> object exposes several `Execute` methods that you can use to perform the intended action. When you are returning results as a stream of data, use <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command.ExecuteReader%2A> to return a `DataReader` object. Use <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command.ExecuteScalar%2A> to return a singleton value. Use <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command.ExecuteNonQuery%2A> to execute commands that do not return rows.  

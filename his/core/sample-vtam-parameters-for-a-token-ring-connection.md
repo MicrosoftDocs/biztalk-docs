@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5909ca74-6ab1-4b5e-8daf-f6721045653f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sample VTAM Parameters for a Token Ring Connection
 The following is a sample of VTAM parameters that might be used for a Token Ring connection to an IBM 9370 host. The underlined values correspond to values specified in [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] Manager.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4dcfe41e-264b-41c7-a03f-7b50dde0c631
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Channel
 Channel connections provide direct channel attachment to a mainframe. There are two types of channel connections: older Bus & Tagchannel connections, which can reach speeds of up to 4.5 megabytes per second (MBps), and newer ESCON connections, which can reach speeds approaching 17 MBps. Support for channel connections is limited to adapters supported natively through Host Integration Server.  

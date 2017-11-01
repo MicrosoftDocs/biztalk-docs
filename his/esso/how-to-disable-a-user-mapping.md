@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 51c745dd-4d39-46e5-88bf-b803ae2e0a1b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Disable a User Mapping
 You can disable a user mapping when you want to turn off all operations associated with a given mapping. You must disable a user mapping before you can remove it.  

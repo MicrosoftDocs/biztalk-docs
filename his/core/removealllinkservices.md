@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b69bec4b-1b98-4d94-a79f-41d04e175e2f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RemoveAllLinkServices
 The **RemoveAllLinkServices** function is used to remove all link services from a machine. This function must be exported from a link service configuration dynamic-link library (DLL)  supplied with each link service.  

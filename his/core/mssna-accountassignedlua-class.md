@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d4404b30-6a20-495d-aa71-0b104721327f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_AccountAssignedLua Class
 Used to query for LUA LUs assigned to a specific workstation or user.  

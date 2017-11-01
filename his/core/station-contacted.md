@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9ce29d77-74dc-4574-8a42-9963bfac7da5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Station-Contacted
 Flow : DLC ------> NODE (station connection)  

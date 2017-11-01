@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c6928ff-c199-4f7f-839b-c69d1015fe18
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # TS Profile 4
 Transmission service (TS) Profile 4 is supported on logical unit-logical unit (LU-LU) sessions using LU types 0 or 1. This profile specifies the following session rules:  

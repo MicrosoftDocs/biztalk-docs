@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5498731a-3ee4-4533-bd31-004425462b31
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IPC-DLC WMI Programmer&#39;s Reference
 The IPC-DLC WMI Programmer's Reference describes the classes you can use to monitor the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] link service.  

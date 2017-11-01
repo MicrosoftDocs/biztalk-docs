@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 698ebac6-1126-4cf7-b742-8b2cfc6cc66b
 caps.latest.revision: 11
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Trace Listeners
 The DRDA Service supports multiple concurrent trace listeners, including the default Text Encoder, default Console Encoder, and optional Custom Encoder. The **drdaServiceTraceListeners** element contains one or more **drdaServiceTraceListener** elements to instruct the DRDA Server to send trace output to optional custom text trace listeners.  

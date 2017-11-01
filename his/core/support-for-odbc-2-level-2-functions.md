@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b09a32b3-4af8-435b-888a-787c93b50c83
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Support for ODBC 2 Level 2 Functions
 The following table lists the ODBC 2.*x* level 2 functions that are supported by the Microsoft ODBC Driver for DB2.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1075d033-a6e7-4c85-9ba8-a22b47969017
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_CONFIRM
 The **MC_CONFIRM** verb sends the contents of the local logical unit's (LU) send buffer and a confirmation request to the partner transaction program (TP).  

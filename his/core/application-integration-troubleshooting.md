@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3f5a453a-87ef-4ead-8739-00fa30314895
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Application Integration (Troubleshooting)
 Use the information in this section to troubleshoot problems in your .NET Framework-based client application and Transaction Integrator (TI).  

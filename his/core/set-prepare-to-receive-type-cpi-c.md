@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c4b8a136-8871-49a3-a6bd-ef2daf0333f6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Prepare_To_Receive_Type (CPI-C)
 The **Set_Prepare_To_Receive_Type** call (function name **cmsptr**) specifies how the subsequent [Prepare_To_Receive](../core/prepare-to-receive-cpi-c.md) calls will be executed. It overrides the default prepare-to-receive processing established by [Initialize_Conversation](../core/initialize-conversation-cpi-c.md) or [Accept_Conversation](../core/accept-conversation-cpi-c.md). By default, the prepare-to-receive processing is based on the synchronization level of the conversation.  

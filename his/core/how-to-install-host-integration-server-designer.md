@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 64eed561-8acb-4614-b53d-ee024bc63085
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Install Host Integration Server Designer
 Transaction Integrator (TI) Designer is installed and configured by the Host Integration Server Installation Wizard. You can install and configure TI Designer at the time you first install Host Integration Server, or you can use the Host Integration Server Installation Wizard at a later time to add TI Designer. The Host Integration Server Installation Wizard installs everything you need, including program files, Help files, sample applications, and other tools. The TI Project template is automatically installed on your computer at \<drive>:/Program Files/Microsoft Host Integration Server/System/Projects/.  

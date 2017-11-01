@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6df71a37-0d2b-4fd7-9a03-eddf97ae0f01
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Define an SNA CICS or SNA IMS Remote Environment
 An SNA CICS or SNA IMS remote environment (RE) is an RE of the CICS Using LU 6.2, CICS LINK Using LU 6.2, or IMS Using LU 6.2 RE type.  

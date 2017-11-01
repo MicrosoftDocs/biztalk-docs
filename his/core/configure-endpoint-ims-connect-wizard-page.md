@@ -11,6 +11,8 @@ f1_keywords:
   - "15206"
 ms.assetid: b82212ff-fca8-4866-9664-f37e8898235a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure Endpoint IMS Connect Wizard Page

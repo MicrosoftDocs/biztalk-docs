@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 105890d8-6d21-49e0-8e08-430cea64a018
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOWrapper.ReceiveNotification Method
 Receives a notification to the adapter from the ENTSSO service.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0a4b0e15-e557-4573-9cc8-5d21ca042cf5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA Programmer&#39;s Security Guide
 The following topics discuss security as it applies to the LUA section of the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] SDK.  

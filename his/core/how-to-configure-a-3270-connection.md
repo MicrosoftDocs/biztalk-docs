@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8613e786-db3a-4310-b6aa-615fa678744b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure a 3270 Connection
 The following procedure details configuring a 3270 connection.  

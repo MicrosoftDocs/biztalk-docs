@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df8c16a8-4b38-4453-9558-1a00a6ec6695
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Maximizing Communications Performance
 Servers used primarily for communications need to provide fast network performance, but do not need to provide fast file access (such as a server used primarily as a file server). Faster network communication can be achieved if portions of memory are set aside for communications by configuring "nonpaged memory". Nonpaged memory is portions of memory that are never swapped to disk, but remain available for immediate use at all times.  

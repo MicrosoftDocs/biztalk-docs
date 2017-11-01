@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c055164-995f-4d79-92a7-e57b82772add
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_EventTN5250Session Class
 The **MsSnaStatus_EventTN5250** class describes a change to the **EventTN5250Session** class.  

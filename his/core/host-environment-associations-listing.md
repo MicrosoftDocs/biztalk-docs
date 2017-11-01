@@ -11,6 +11,8 @@ f1_keywords:
   - "15351"
 ms.assetid: d508eeec-d5da-4f3c-83c5-5a86deaceba5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Host Environment Associations Listing

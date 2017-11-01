@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3e42ae7c-7ddb-46bf-b523-8f99a7b5de63
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # 3270 Emulation Programmer&#39;s Reference
 This section contains reference material for the 3270 Emulator.  

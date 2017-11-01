@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 151eae35-7a8e-4666-a1f7-85ad7a104760
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # Static SQL Packages

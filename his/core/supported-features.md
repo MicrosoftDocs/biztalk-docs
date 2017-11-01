@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0a783f6c-10c4-4e57-b8ef-00622501dceb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Supported Features
 This topic lists the features that are supported over the IP-DLC link service.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f8c02ab9-b64d-4fa7-90c9-9d6e80d74b32
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sample VTAM Parameters Including CPNAME
 The following is a sample of VTAM parameters that might be used for a Token Ring connection to an IBM 9370 host, when identification of the computer running [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] is based on Control Point Name (CPNAME). For this configuration, Format XIDs must be exchanged.  

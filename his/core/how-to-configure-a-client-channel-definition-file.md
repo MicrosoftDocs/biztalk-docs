@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a077000a-c7f7-4759-9da6-0507ee211859
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure a Client Channel Definition File
 To specify a channel definition, you must provide a client channel definition file for WebSphere MQ Client components to use if the following are true:  

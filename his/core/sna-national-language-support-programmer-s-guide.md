@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8b7284ef-7fa7-42a4-b501-ce89d0f9e627
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA National Language Support Programmer&#39;s Guide
 The SNA National Language Support (SNANLS) API standardizes the way in which national languages and locales are supported. SNANLS handles string conversion necessary for supporting a wide range of host and code pages. Components such as the Host Print service, data providers and Transaction Integrator use SNANLS API to convert strings from EBCDIC to ANSI and from ANSI to EBCDIC.  

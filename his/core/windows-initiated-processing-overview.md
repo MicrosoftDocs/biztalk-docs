@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 71674e61-cc75-4721-80b2-ea0375cb6f6c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows-Initiated Processing Overview
 The following topics explain how to use Windows-initiated processing (WIP) over TCP/IP and over SNA.  

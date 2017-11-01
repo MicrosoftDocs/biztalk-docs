@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 11d4edd7-64a3-44a8-8b72-3ba6d0794f8e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Conversion Tab (Host Environment Properties)

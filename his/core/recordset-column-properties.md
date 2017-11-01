@@ -13,6 +13,8 @@ helpviewer_keywords:
   - "15433"
 ms.assetid: bbbe57e5-4781-4428-bfd9-4128d591051f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Recordset Column Properties
 Use the **Recordset Column** properties page to set COBOL and design properties on a recordset column.  

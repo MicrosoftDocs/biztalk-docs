@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db27e6f7-b41d-4575-87ea-eaa94a230bfe
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # FM Profile 2
 Function management (FM) Profile 2 is supported on primary logic unit-secondary logic unit (PLU-SLU) sessions using LU 0. This profile uses the following session rules:  

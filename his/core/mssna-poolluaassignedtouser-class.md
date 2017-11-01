@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 91c14ccb-34a6-42ac-a046-b69a09a76cd4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_PoolLuaAssignedToUser Class
 Associates a pool LUA with a user.  

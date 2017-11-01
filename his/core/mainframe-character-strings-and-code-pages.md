@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 068ddf61-61bd-4313-b1c9-ccea073fb876
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Mainframe Character Strings and Code Pages
 When Transaction Integrator (TI) sends data to a mainframe-based transaction program (TP), the TI run-time environment transforms Unicode strings received as parameters, fields, or columns into mainframe character strings. Likewise, when it receives data from a mainframe TP, the TI run-time environment converts the mainframe character strings into Unicode strings to be returned as output values to the calling client application.  

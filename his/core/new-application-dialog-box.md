@@ -11,6 +11,8 @@ f1_keywords:
   - "15322"
 ms.assetid: 8b5ae86c-1120-4479-bb87-9e51da1e6854
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # New Application Dialog Box

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b0fb5631-2c79-4cc2-bb2a-c87e18443fb3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GetCodePageDisplayStr
 The SNA National Language Support (SNANLS) **GetCodePageDisplayStr** function copies the SNANLS code page display name identified by a key to a character string passed as a parameter.  

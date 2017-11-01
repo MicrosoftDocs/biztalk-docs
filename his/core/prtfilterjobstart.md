@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 272bb0ba-da71-4bd3-9051-3109b69ba058
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PrtFilterJobStart
 The **PrtFilterJobStart** function is called to inform the print data filter DLL that a new job has just been started. This allows the DLL to provide custom processing and send special data to the print server at the beginning of a job.  

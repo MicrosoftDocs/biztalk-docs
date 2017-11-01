@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e2d0060c-2693-4f6d-a43a-28516858d170
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Transaction Integrator Components
 Transaction Integrator (TI) consists of three major components: two graphical user interfaces, TI Designer and TI Configuration Tool, and the TI run-time environment that automatically handles the actual transaction integration.  

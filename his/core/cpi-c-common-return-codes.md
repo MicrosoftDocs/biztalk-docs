@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 19d2152b-5026-41c7-a063-3f73e84fadc0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CPI-C Common Return Codes
 This section describes the return codes for Common Programming Interface for Communications (CPI-C) calls. The return codes are listed in integer order.  

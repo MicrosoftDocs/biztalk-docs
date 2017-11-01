@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 298f70e6-c117-4fb7-a592-4292574c400c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Completing the MQ Channel Library Wizard
 Use this page to review the choices and settings you made in the previous wizard pages. You can return to an earlier wizard page to change a setting by clicking **Back**.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 46ddd85a-8e3b-4f91-9f33-6154c48c7b42
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Error Codes for Open Messages
 The possible error codes for **Open(SSCP) Error Response** and **Open(PLU) Error Confirm** are shown in the following topics.  

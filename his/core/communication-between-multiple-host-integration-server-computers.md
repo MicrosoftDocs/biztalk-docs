@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: acdb3dc1-9c1e-4acd-a8dc-229c9e4f5d24
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Communication Between Multiple Host Integration Server Computers
 [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computers communicate with each other using mail slot or datagram broadcast messages. They use the SnaBase service to keep track of names of servers, client computers, and available transaction programs (TPs), which are the programs used for communication through Advanced Program-to-Program Communications (APPC) or Common Programming Interface for Communications (CPI-C).  

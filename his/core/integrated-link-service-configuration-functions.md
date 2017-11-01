@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 12a424c5-fa80-47ec-986d-7c66ed4205ed
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Integrated Link Service Configuration Functions
 This section provides a reference for exported dynamic-link library (DLL) entry points and utility functions used when building an integrated link service configuration dynamic-link library (DLL).  

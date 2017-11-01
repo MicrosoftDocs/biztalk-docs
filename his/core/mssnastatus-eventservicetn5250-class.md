@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bb37885a-ec64-4396-8eec-a100d7a1954f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_EventServiceTN5250 Class
 The **MsSnaStatus_EventServiceTN5250** class describes a change to the **EventServiceTN5250** class.  

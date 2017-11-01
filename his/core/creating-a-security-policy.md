@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0a3e6fae-8e09-4467-8607-1aaf929b26f9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating a Security Policy
 You can create and manage security policy definitions in the **Security Policies** node in the HIP (host-initiated processing) Console.  

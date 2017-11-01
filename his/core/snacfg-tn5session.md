@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c58dff3-3491-4fea-a8ec-c062c2845fa4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Snacfg TN5Session
 ## Purpose  

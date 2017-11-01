@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6f42f660-718a-4ced-84de-f073f3ef2917
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_EventTN3270Session Class
 The **MsSnaStatus_EventTN3270Session** class describes a change to the **EventTN3270Session** class.  

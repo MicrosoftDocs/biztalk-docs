@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 427736b0-dc9a-4c2c-a97b-9328cdaae4ba
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Session
 The **Status-Session** message provides the application with information about changes in the state of a session between the local node and the host. It flows from the node to the application and is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  

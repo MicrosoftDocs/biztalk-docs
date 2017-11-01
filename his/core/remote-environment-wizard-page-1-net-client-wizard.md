@@ -11,6 +11,8 @@ f1_keywords:
   - "15403"
 ms.assetid: 1a451775-d342-4c65-ab5e-35cdc3633a00
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Remote Environment Wizard Page 1 (.NET Client Wizard)
 Use the **Remote Environment** wizard page to define the remote environment (RE). An RE identifies an application execution environment running on a remote host system. The RE can have a data communication protocol and a programming model associated with it.  

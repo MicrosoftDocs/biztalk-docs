@@ -12,6 +12,8 @@ f1_keywords:
   - "SNA_Folder_Workstation"
 ms.assetid: 6110c90b-3642-4a29-a0fe-01c462d9c5cd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Workstation Properties: General
 **Workstation ID**  

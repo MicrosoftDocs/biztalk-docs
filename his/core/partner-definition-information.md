@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 647f197f-594a-4447-b661-1e6018b28105
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Partner Definition Information
 Partner definition information is defined or returned as described here.  

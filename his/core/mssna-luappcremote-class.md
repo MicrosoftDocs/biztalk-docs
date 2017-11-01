@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 14c11b0e-fdce-4dc1-97e1-7834db2814ac
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LuAppcRemote Class
 An APPC remote LU resource.  

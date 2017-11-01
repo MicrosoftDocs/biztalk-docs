@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3fa0bab1-854a-4fd4-bc2e-5e2e9c3dc7ec
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Performing Administrative Tasks
 The administrative tasks for the Data Access Library are the tasks you can perform using the `DataAccessControl` interface. In general, these tasks are those that require you go beyond creating universal data link (UDL) and start interacting with the actual data sources.  

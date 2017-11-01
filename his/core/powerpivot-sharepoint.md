@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 69d28c1a-cef9-4a8f-a010-84aba4d3f84e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PowerPivot (SharePoint)
 PowerPivot for SharePoint provides a new type of document library that allows rich previews of the reports in your PowerPivot workbooks, the ability to create Reporting Services reports from data in your published PowerPivot workbooks, and the capability of scheduling automatic refresh of your PowerPivot data from external data sources.  

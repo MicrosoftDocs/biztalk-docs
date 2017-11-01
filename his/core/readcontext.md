@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d81c496f-a6b5-427b-b5c0-9ce00573ad6a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ReadContext
 Use the **ReadContext** method to acquire the value of an entry in a TI Context array.  

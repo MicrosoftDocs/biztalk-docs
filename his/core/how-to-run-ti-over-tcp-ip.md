@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5c2d5f38-00ce-4992-9043-111d17d6da78
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Run TI Over TCP/IP
 You can install and run Transaction Integrator (TI) over TCP/IP without installing or using any of the SNA services of [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

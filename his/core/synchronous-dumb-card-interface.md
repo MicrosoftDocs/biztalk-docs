@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fe78b2b6-afd9-4a4b-b91f-c96079e2a3b3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Synchronous Dumb Card Interface
 This section describes the interface to the synchronous dumb card device driver used by the Synchronous Data Link Control (SDLC) and X.25 SNALinks that Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] supplies. The interface provides a simple but flexible mechanism for transferring frames of data through a dumb synchronous communications card (such as the IBM MPCA card).  

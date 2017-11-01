@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6c8b4d92-5539-478a-8d6a-7faaf485d7b2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Function 0x43: Set V24 Output Status
 This function allows the SNALink software to alter the modem output status on the adapter V.24 interface. There is no parameter or data packet on this request. The relevant V.24 settings are put into the driver interface record (see function 0x61) by the SNALink prior to calling the driver.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4e3b9a94-0b42-4792-b50b-38ebaee4505c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PASSWORD
 Use the **PASSWORD** keyword, combined with **USERID**, to provide explicit security without the need for a callback. The COMTIContext context name is **PASSWORD**; the value must be a string that contains a valid mainframe security password.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15470"
 ms.assetid: 29b6a0ec-f0e2-4615-a47c-669a68c8f6b8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Table Name Node
 Use the ***data table name*** node to view a list of the data table column names and their properties.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3d538414-8ed2-4feb-91c1-c0ac4e201324
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # Tracing

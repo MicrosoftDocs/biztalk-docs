@@ -11,6 +11,8 @@ f1_keywords:
   - "15242"
 ms.assetid: 583f1cab-b957-408d-b3af-c03af2088820
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Security Tab for TCP/IP (Remote Environment Properties)

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eaf984f0-6882-4823-84a7-68a751002441
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Session Integrator for LU2
 This section describes how to program an application for Session Integrator using an LU2 connection.  

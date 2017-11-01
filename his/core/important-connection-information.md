@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8381e8e7-ebac-4167-b906-1a8e94656f3d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Important Connection Information
 This section includes details about the information required to make a successful connection. Review the connection information section to verify your settings.  

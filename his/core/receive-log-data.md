@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 61bebfd0-a6a9-4c68-87c3-09665fc90448
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RECEIVE_LOG_DATA
 The **RECEIVE_LOG_DATA** verb allows the user to register to receive the log data associated with an inbound Function Management Header 7 (FMH7) error report. The verb passes a buffer to APPC, and any log data received is placed in that buffer. APPC continues to use this buffer as successive FMH7s arrive until it is provided with another one (that is, until the transaction program (TP) issues another **RECEIVE_LOG_DATA** specifying a different buffer or no buffer at all).  

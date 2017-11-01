@@ -11,6 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfiles.schema"
 ms.assetid: db69d272-ae3a-49d7-a318-50cc312fc5f0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Schema Shortcut Menu
 When you select a Schema from the **Schemas** node in the **Library** tree, the following shortcut menu commands are available:  

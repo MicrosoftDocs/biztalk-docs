@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2506af87-1c7a-471d-b6ab-48c6fbcbde88
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapping Methods
 The methods of the **ISSOMapping** interface are listed in the following table. For a complete list of **ISSOMapping** interface members, see [ISSOMapping Members](../esso/issomapping-members.md).  

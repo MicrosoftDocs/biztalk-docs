@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec8853af-95fb-44ac-8245-6bd67a71f225
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PrtFilterJobEnd
 The **PrtFilterJobEnd** function is called to inform the print data filter DLL that a print job is about to end. This allows the DLL to provide custom processing and send special data to the print server at the end of a print job.  

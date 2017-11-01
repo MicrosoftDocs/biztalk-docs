@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6369ef32-b6b6-4418-ba2e-29dc5961c16c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # New .NET Server Library Wizard
 The **New .NET Server Library Wizard** collects information about the type library information and about the host environment (HE). The wizard generates a Transaction Integrator metadata (TIM) file and adds it to the current TI Project displayed in the Solution Explorer.  

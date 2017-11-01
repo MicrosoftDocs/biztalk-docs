@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5cea1692-f0db-478d-b8a5-f9dcc98abeab
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ANSI/OEM Code Page Support (SNANLS)
 The following table shows the ANSI/OEM code pages and character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

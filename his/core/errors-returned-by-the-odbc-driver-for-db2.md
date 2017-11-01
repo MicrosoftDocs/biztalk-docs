@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c5def0d7-93c4-42c1-bf83-1b72c85cd391
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Errors Returned by the ODBC Driver for DB2
 The ODBC Driver for DB2 generates errors in the following areas:  

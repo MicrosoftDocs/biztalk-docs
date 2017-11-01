@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7b26c8b2-7b0e-4ee8-a9f5-3325ccaebd44
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Session Message
 [Status-Session](../Topic/Status-Session1.md) messages always flow from the local node to the application and provide information about changes in the state of the session. There are separate **Status-Session** flows for each connection between the application and the local node.  

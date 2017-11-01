@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1f756842-46e8-4437-b1d4-091dc8aa1f8f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # routproc
 The **routproc** function is a sample routing procedure. It must be supplied as part of the application. It is called by the Dynamic Access Module (DMOD) with a message that may or may not be for this application The DMOD calls routing procedures in turn until one accepts the message.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3fbf96a6-1702-468d-8d97-3d0398dda015
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managing IP-DLC Link Services
 This section gives procedures for creating, configuring, viewing, and deleting IP-DLC link services.  

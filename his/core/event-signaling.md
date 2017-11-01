@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9bdfa254-ee8d-4d6b-9127-8d55a9936fb2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Event Signaling
 The device driver notifies the SNALink whenever an event occurs (such as a frame being received from the line) by setting an event.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0657280-6395-4c07-b979-10441b5a24af
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Outages (SNADIS)
 If the SNALink detects a link or station failure, it reports the failure by sending an [Outage](../Topic/Outage1.md) message to the node on either the LINK or STATION LPI connection depending on whether it is a link or station outage. Generally, a station outage indicates a problem at the remote station, and a link outage indicates a local or line problem.  

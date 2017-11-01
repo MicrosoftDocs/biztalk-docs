@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 6a7b3d6a-8af1-4f0d-8eda-dad0ad7461c7
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # databaseAlias
 The databaseAlias element contains a sourceLocation, sourceCollection, targetDatabase, and targetSchema to define one or more optional object name mappings.  

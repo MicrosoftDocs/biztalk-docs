@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 643475a0-09ec-40f6-8220-c058937fb520
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNASendMessage
 The **SNASendMessage** function is called by an application to send messages to other localities (in the case of an SNALink, the local 2.1 node).  

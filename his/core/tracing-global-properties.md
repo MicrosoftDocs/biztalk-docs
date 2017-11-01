@@ -11,6 +11,8 @@ f1_keywords:
   - "trace_tracing_global_properties_tab"
 ms.assetid: 7ab136bb-1a8c-430e-b460-2563404cd8fb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Tracing Global Properties
 The **Tracing Global Properties** tab has several items that can be modified to adjust how Trace runs. These items include:  

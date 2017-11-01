@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fd266741-5036-44b8-b8d1-c98a48deeeb4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Context Properties
 These context properties are only meaningful from BizTalk Server concepts and are available to be used by BizTalk applications.  

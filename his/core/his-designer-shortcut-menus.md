@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f8c8ee9a-87fb-4d5e-bbd2-b33511003724
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # HIS Designer Shortcut Menus
 Host Integration Server Designer (HIS Designer) has two types of context-sensitive, or shortcut menus. The first type is context-sensitive to the HIS Designer files in Visual Studio Solution Explorer. The second type is context-sensitive in the HIS Designer itself.  

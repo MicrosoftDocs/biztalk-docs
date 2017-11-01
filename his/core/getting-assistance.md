@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dd79e727-9a38-4af1-a404-37bbed8f9553
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Getting Assistance
 There are three principal sources of information from Microsoft about [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)]:  

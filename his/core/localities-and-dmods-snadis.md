@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 69cd51f0-5281-4f26-b07e-55950c722d37
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Localities and DMODs (SNADIS)
 A Base and its components (that is, a [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] executable program) is called a **locality**. The Host Integration Server system therefore consists of one or more communicating localities (all the running [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] executable programs within the LAN Manager domain). For each Host Integration Server system, there is a central configuration file. In addition, each Host Integration Server computer maintains configuration information about the SNALinks it supports.  

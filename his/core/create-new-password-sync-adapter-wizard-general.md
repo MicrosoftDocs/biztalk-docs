@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6f4e6461-7cf8-463f-b20f-4a74afb4ed1b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Create New Password Sync Adapter Wizard: General
 Specify general properties for the new Password Sync Adapter.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7933fcf-e1c9-4fcc-b7db-388245ee36ff
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CPI-C Programmer&#39;s Guide
 This section of the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about developing applications with the Common Programming Interface for Communications (CPI-C).  

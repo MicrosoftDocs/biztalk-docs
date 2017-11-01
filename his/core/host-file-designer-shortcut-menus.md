@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d39db621-38e3-4602-9553-212215b271c3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host File Designer Shortcut Menus
 This section describes the Host File Designer Shortcut Menus for Visual Studio.  

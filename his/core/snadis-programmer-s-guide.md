@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dc707f56-483e-4de2-99e4-e90e0213738f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNADIS Programmer&#39;s Guide
 This section enables original equipment manufacturers (OEMs) and adapter vendors who are developing their own SNALink software to work with [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] SNA Services.  

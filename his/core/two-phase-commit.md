@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 96e63052-5248-4d71-9c17-6db1a1abaacf
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Two-Phase Commit
 A given business logic operation can involve multiple programs running on multiple computers. In this design, the transaction is not considered complete unless all of the programs involved complete their executions successfully. For these programs to verify that all other programs that are part of the transaction have completed their transactions, they must employ the two-phase commit (2PC) protocol.  

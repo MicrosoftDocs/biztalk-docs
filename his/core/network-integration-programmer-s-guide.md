@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4804c3e6-1e74-4728-bdde-fab5bc2a44ba
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Integration Programmer&#39;s Guide
 This section describes how to create applications in a Systems Network Architecture (SNA) environment.  

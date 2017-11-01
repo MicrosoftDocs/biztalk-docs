@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e06b3c9c-277c-481b-a118-57cbc029cf9f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_EventConnection Class
 The **MsSnaStatus_EventConnection** class describes a change to the **EventConnection** class.  

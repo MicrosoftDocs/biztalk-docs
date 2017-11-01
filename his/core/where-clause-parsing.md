@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cab40b65-760a-493c-bafc-deface4d0bc2
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # WHERE Clause Parsing
 The following describes the parsing rules for a `WHERE` clause for the Managed Provider for Host Files and provides sample parsing statements.  

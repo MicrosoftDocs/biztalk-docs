@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b1b50087-dde1-48bf-ad65-33a25af17311
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fDisconnectRegistry
 The **fDisconnectRegistry** function is used to disconnect from a remote computer's registry. This utility function is used to construct an integrated link service configuration DLL.  

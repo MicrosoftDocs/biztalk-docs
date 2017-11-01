@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3726c152-0a74-4484-8d01-6137779b88dd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Method Shortcut Menu
 When you select a method in the tree view in HIS Designer, the following context menu commands are available.  

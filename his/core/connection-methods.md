@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b44d42f8-aa76-4a64-828b-3b734458c6cc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Connection Methods
 [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] supports many different connection methods. However, not all may be available in your environment. When you choose a connection method, you should keep in mind:  

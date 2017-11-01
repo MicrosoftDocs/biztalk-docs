@@ -11,6 +11,8 @@ f1_keywords:
   - "his_srvconfig_KJAR"
 ms.assetid: 208e95de-012c-4103-8b90-9f1f7db9cc03
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA LU Properties: General
 After assigning or viewing an LUA LU, in the **LUA LU Properties** box, supply information according to the following list.  

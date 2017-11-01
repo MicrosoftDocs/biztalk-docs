@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cd1861c9-ba1c-457e-84e0-65071fde34d9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_ServiceTN3270.Stop Method
 Stops the service.  

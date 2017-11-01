@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e4ba782b-74bd-4f57-83ed-e35a8dd12745
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Invokable TPs and the Host Integration Server Configuration
 For Host Integration Server to receive requests from an invoking TP on another system, and then route those requests to an invokable TP, certain parameters must be configured correctly:  

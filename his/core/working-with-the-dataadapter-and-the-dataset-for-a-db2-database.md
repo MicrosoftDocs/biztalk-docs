@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ee74d63a-0bb0-4cc6-b3d2-284efd3560da
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Working with the DataAdapter and the DataSet for a DB2 Database
 The MsDb2DataAdapter is the main interface for retrieving and updating the `DataSet`.  

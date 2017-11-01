@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3267a756-3556-4a9c-af68-6cbe382059f9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Enterprise Single Sign-On User Groups
 To configure and manage the Enterprise Single Sign-On (SSO) system, you must create certain Windows groups and accounts for each of these roles. When configuring the access accounts in Enterprise SSO, you can specify more than one account for each of these roles. This section describes these roles.  

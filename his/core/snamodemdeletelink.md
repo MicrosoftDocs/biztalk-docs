@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 225b2398-93ff-4893-b391-227f75804174
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAModemDeleteLink
 The **SNAModemDeleteLink** function should be called when a link is terminating to delete the resources associated with the link. The parameters passed in must correspond to those returned by a call to **SNAModemAddLink**.  

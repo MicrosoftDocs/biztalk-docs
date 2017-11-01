@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 40adc313-75db-48c6-b61c-61688f4cae4f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Common Problems
 The Host Print Service runs under a Windows user context. The Host Print Service (SnaPrint) may not be running under a Windows user context that has authority to open a session to the destination printer. Confirm the user context of the Host Print Service, and/or try re-entering the password within the Services Control Panel for SnaPrint Startup, within "Log On As: This Account:". In addition, the user's rights can be confirmed by logging on to [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] as that user and attempting to print from Notepad.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15418"
 ms.assetid: 7134a3db-4e77-42bd-a814-2b1dcf43718a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # User Defined Type Members Wizard Page
 Use the **User-Defined Type Members** wizard page to select the COBOL structure that represents the user-defined type (UDT) members.  

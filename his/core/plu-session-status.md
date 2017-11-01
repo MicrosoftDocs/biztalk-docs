@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 829cebfb-deea-452a-af8f-ce9976e6f08c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PLU Session Status
 While the primary logical unit (PLU) connection is open, the local node reports any changes of state to the application through [Status-Session](../Topic/Status-Session1.md) messages. There is only one **Status-Session** status code that can occur on the PLU connection, which is listed in the following table.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e786a292-6e50-429d-beb4-6f37abd39405
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # FMI Message Formats
 This section describes the message formats for the function management interface (FMI). The message formats are presented in a language-independent notation. Details of the message format notation and key assumptions about the contents of the message formats are as follows:  

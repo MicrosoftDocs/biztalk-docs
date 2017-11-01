@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 88c4f4a7-21e4-4126-bc8e-894bae0e816a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows LUA Overview
 To provide one common application programming interface (API) to port applications from various operating environments to Windows operating systems, a Windows Systems Network Architecture (SNA) standard was created. As a direct result of this work, Windows logical unit application (LUA) was developed. The LUA verbs, routines, and information presented in this guide represent an evolving Windows LUA that is based on IBM Extended Services for OS/2 version 1.0 and includes a set of Windows extensions.  

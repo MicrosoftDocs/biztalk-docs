@@ -11,6 +11,8 @@ f1_keywords:
   - "15408"
 ms.assetid: ea81e804-ebe1-4b09-8571-c17ffa3bafec
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DFHCOMMAREA Wizard Page
 Use the **DFHCOMMAREA** wizard page to select the COBOL group that represents the DFHCOMMAREA parameters.  

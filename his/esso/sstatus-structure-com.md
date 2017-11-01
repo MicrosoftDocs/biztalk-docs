@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 11423eda-2dc8-4733-b667-aa867fa03bbc
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # SStatus Structure (COM)
 Describes the current status.  

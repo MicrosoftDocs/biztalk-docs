@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6a897791-d32f-46a4-8c5d-2b2161e92bd9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Clear the Application Cache
 Use the MMC Snap-In or the **purgecache** command to remove the contents of the credential cache (all the information that is associated with the affiliate application) for the specified application on all Single Sign-On (SSO) servers.  

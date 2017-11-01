@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 97cbd297-b0d7-4c57-8030-c92a42e56dca
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring and Controlling TPs (CPI-C)
 The following table shows how the characteristics of the transaction programs (TPs) and selection of the logical units (LUs) for a conversation are controlled.  

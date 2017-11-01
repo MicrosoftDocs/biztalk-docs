@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8dc8c495-7ff1-4ed0-921a-0828e69319b8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOConfigSS.BackupSecret Method
 The **BackupSecret** method backs up the secret server.  

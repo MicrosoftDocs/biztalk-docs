@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 210290d7-507e-4fb7-b6f1-0166b7f5a8c1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SAdapter Members
 The following table shows the **SAdapter** members.  

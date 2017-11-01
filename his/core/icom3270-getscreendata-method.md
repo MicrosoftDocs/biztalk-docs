@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: facb2786-0983-4956-b151-1ab8cecaca2a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.getScreenData Method
 The getScreenData method extracts the data contents of the 3270 screen.  

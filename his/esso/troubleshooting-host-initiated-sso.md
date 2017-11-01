@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8293a599-5969-4566-8a90-7b654357c595
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Troubleshooting Host Initiated SSO
 The primary method of troubleshooting host initiated Single Sign-On (SSO) is tracing.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 469438dd-9b8e-41e5-b953-14f62eaad2f0
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Affiliate Applications Properties: Fields
 Use this dialog box to view or change fields for the Affiliate Application.  

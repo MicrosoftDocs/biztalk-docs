@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 29e59583-2ff6-48a5-a289-30bad92fd319
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Optional Second Element (Only Used by X.25 SVC)
 **Element 2**  

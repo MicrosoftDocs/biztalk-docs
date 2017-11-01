@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: da936a52-4a19-4475-908d-fe7a2779d68a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CountContext
 Use the **CountContext** method to acquire a count of the entries in a TI Context array.  

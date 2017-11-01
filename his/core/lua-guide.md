@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: de007ae2-8ffe-4b9b-bcce-94f5c1366694
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA Guide
 This section provides information required to develop C-language applications that use the conventional logical unit application (LUA) programming interface to exchange data in a Systems Network Architecture (SNA) environment.  

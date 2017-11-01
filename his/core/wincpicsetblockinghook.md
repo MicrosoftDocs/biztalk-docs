@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7fe5561a-cfa7-463a-8e48-6e78a10278d0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinCPICSetBlockingHook
 The **WinCPICSetBlockingHook** function allows a Microsoft® Windows® Common Programming Interface for Communications (CPI-C) implementation to block CPI-C function calls by means of a new function. This legacy call was used by Microsoft® Windows® version 3.*x* applications to make blocking calls without blocking the rest of the system. By default in the Microsoft Windows operating system, blocking calls suspend the calling applications thread until the request is finished.  

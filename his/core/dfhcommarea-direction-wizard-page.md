@@ -11,6 +11,8 @@ f1_keywords:
   - "15409"
 ms.assetid: 44d55a6e-1dd4-4b2c-916a-0660270151b6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DFHCOMMAREA Direction Wizard Page
 Use the **DFHCOMMAREA Direction** wizard page to view the default direction for the DFHCOMMAREA and to change the direction of a group item. To change the direction, click the icon to the left of the item, and then select the appropriate direction.  

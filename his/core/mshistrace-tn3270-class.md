@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1ff05ae9-2463-4ab7-b6ad-b7c5bea478d9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_TN3270 Class
 The **MsHisTrace_TN3270** class contains tracing properties for the TN3270 service.  

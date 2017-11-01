@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 905f7f73-289a-47f8-aed2-16212ccfcb2a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOConfigDB.GetDBInfo Method
 The GetDBInfo method retrieves information about the specified database.  

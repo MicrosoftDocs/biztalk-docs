@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20fc6559-440f-4d0c-b532-983ebe00a502
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MQSeries Header Properties
 MQSC Adapter provides a set of context properties, specific to MQSeries, for use in your applications. You can use these properties in pipeline components, in your orchestrations and in filter expressions. For easy programmatic access, MQMD, MQXQH, MQCIH and MQIIH header structures can be directly accessed using these context properties.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 73cdad8a-e003-411c-8e38-35fd65861938
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SPasswordChangeComplete.guidTrackingId Field
 A GUID containing the tracking ID from the original PASSWORD_CHANGE.  

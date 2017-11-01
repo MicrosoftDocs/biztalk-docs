@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fa1fcb16-4eaa-47b0-a18a-7c1f5fbf6fe2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ms.author: "plarsen"
 ---
 # Accessibility for People with Disabilities

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 42e283a9-1ca8-4cbb-b6eb-2ebf73169f98
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Variable-length Tables and CICS LINK
 When an OCCURS clause describes a variable-length table in the CICS LINK environment, the storage that the table uses on the host varies depending on the value of the length specifier. COBOL handles this storage automatically on the host, but for Transaction Integrator (TI) to determine where in the buffer to place data sent to the host and where to unpack data from the host, you must give it the value of the length specifier variable on which the table size depends.  

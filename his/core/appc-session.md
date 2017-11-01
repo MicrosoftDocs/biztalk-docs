@@ -11,6 +11,8 @@ f1_keywords:
   - "SNAPRINT_Session_APPC"
 ms.assetid: a8df5bfa-ac55-4bbf-9f34-d5a92cb60e63
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Session
 The following tabs are available on the Print Session 3270 Properties sheet:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d1f141c8-7252-4301-b636-0c4a4eeda224
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CheckForExistingLinkService
 The **CheckForExistingLinkService** function is used to check to see if a link service of this type exists with this title. This utility function is used to construct an integrated link service configuration DLL.  

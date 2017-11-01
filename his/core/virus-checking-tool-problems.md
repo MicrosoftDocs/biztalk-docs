@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f5f42294-985c-41cf-a370-dbd2ae25c380
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Virus-Checking Tool Problems
 When you are running [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] with some independent software vendor virus checking tools, SNA link services might fail to start due to the following error:  

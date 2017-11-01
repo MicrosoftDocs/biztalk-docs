@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 971dddff-1ecc-4805-b449-81fd54a1c4da
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # User Management
 Although [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] uses the User accounts of the Microsoft Windows Active Directory directory service, users must be configured to use [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] resources such as LUs.  

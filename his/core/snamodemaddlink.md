@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e999f91-c53b-4be0-a2fc-c1e9353a72c8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAModemAddLink
 The **SNAModemAddLink** function should be called once per link initialization. For link services that support more than a single SNA link, this call can be made multiple times. For link services that support only a single link, this call can be made immediately after **SNAModemInitialize**; otherwise it is preferable to call **SNAModemAddLink** as each port is initialized.  

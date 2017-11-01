@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c6defa77-7efd-44e8-bab3-2ac5b2e5e461
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RECEIVE_ALLOCATE
 The **RECEIVE_ALLOCATE** verb is issued by the invoked transaction program (TP) to confirm that the invoked TP is ready to begin a conversation with the invoking TP that issued [ALLOCATE](../core/allocate.md) or [MC_ALLOCATE](../core/mc-allocate.md).  

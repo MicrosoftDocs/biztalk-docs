@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 40cf0e60-b52b-4082-bdfa-4f070c52aef6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fFindString
 The **fFindString** function is used to determine if a string exists within a string buffer. This utility function is used to construct an integrated link service configuration DLL.  

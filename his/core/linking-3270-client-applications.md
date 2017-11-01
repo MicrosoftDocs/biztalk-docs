@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ed0878f9-f74d-4894-a3db-92a8a43af7c2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Linking 3270 Client Applications
 This topic describes how to link 3270 client applications using different platforms.  

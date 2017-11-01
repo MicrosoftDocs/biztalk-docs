@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa453759-b105-4ffb-a1c1-9ee93ededb6d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GET_LU_STATUS
 The **GET_LU_STATUS** verb returns the status of a particular logical unit (LU). This conversation verb is only available when Sync Point conversations are supported.  

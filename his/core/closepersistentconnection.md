@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f4b46091-0d66-44cb-a714-c56f5572eb0c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ClosePersistentConnection
 Use the **ClosePersistentConnection** method to close the persistent connection by contacting the COM+ or .NET Framework application object without the need for a call to the server object.  

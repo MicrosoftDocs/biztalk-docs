@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 534401ca-04f6-4c3d-99be-777883464354
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a Metadata Assembly for the Host File Adapter
 After you install the adapter, you can create a metadata assembly that describes your remote system to BizTalk Server.  

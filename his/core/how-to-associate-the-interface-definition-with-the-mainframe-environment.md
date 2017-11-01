@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 92ac8403-4a60-4171-a9fc-99d9cc641aa2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Associate the Interface Definition with the Mainframe Environment
 After you create a BizTalk project for your application that uses the BizTalk Adapter for Host Applications, and then add the .xsd file to the project, you must identify your target mainframe, and then associate the interface definition with the mainframe environment.  

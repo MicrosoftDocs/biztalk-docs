@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 70ff800e-95b2-4acf-874c-4e04a1b76e65
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_RECEIVE_EX
 The **SLI_RECEIVE_EX** verb receives responses, SNA commands, and data into a Microsoft® Windows® logical unit application (LUA) applications buffer. **SLI_RECEIVE_EX** also provides the current status of the session to the Windows LUA application.  

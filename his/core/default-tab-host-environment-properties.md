@@ -11,6 +11,8 @@ f1_keywords:
   - "15334"
 ms.assetid: 306c305e-a55e-45d3-8380-abb2c054da39
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Default Tab (Host Environment Properties)

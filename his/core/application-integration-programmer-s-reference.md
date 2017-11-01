@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5492f68b-c42f-4b1b-9db4-d7dd6ff00d63
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Application Integration Programmer&#39;s Reference
 This section of the Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] Programmer 's Reference describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server technologies into your application.  

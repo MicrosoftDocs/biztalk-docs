@@ -11,6 +11,8 @@ f1_keywords:
   - "15231"
 ms.assetid: b8851342-40dc-4e4c-920d-b98150e7a661
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Completing the WIP Object Wizard Page

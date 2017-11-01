@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5beab066-e347-4fc6-b100-7124dd18d9c4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SharePoint
 SharePoint in Office 2010 provides self-service access to information by providing a powerful set of features that allow business users to create and share analysis and data from their desktops or a browser. It enables people to access and respond to information securely from virtually anywhere with confidence that content changes and fidelity are maintained across locations and devices.  

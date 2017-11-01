@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b4824a0d-6b5d-4ad5-a690-4ebd7f160fdb
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_ServiceTN3270 Class
 Enables clients to connect to a host via the TN3270 protocol.  

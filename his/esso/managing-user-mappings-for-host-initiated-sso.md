@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aadecc5b-8e66-4a39-a612-c1d2de8eab03
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managing User Mappings for Host Initiated SSO
 Use the following procedures to create mappings, set credentials (whenever the Validate Password feature is enabled for the affiliate application), and enable/disable mapping.  

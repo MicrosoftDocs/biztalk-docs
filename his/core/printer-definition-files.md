@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b89e01fc-ba4d-4f85-95ed-f5284055bb0c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Printer Definition Files
 Host Print service enables you to specify the capabilities of a printer to override the defaults provided by the Windows printer driver.  

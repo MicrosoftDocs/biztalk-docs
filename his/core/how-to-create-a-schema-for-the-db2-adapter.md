@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bb75b20e-6a3a-4d64-b116-b58386b1f85b
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a Schema for the DB2 Adapter
 To create the XSD schemas for the BizTalk Adapter for DB2, you use the DB2 Schema Generation Wizard.  

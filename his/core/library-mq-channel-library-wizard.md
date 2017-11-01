@@ -11,6 +11,8 @@ f1_keywords:
   - "15428"
 ms.assetid: 5dca8260-88a4-4222-839e-395ceef24dcb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Library (MQ Channel Library Wizard)
 Use this page to specify identifying information for the library you are creating.  

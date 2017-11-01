@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6f4d2322-b7d1-49b5-90f9-b0e2db4053f1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOAdmin2 Members
 The following table shows the **IISOAdmin2** members.  

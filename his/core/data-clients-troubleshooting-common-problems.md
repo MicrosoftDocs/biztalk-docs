@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 494ed9e3-ed1f-49ec-b136-55a718df72b0
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Clients Troubleshooting Common Problems
 For the most recent version of Microsoft Host Integration Server documentation, see [http://msdn.microsoft.com/library/gg241192.aspx](http://msdn.microsoft.com/library/gg241192.aspx).  

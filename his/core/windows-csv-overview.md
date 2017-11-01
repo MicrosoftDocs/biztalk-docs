@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eabeec74-ad30-4991-828e-57243df45743
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows CSV Overview
 Common service verbs (CSVs) are a set of programming functions provided by [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)]. The CSVs provide convert, log, trace, and transfer services to applications.  

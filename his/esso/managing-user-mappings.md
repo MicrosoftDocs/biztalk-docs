@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a210835-e9a5-451a-84d1-3d85fca2b3d7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managing User Mappings
 This section provides information about how to create and configure the Enterprise Single Sign-On (SSO) mappings.  

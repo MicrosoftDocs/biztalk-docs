@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 64db7ef6-dadc-4691-8cd7-6feb04a6b74c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Providing Hot Backup
 In the AS/400 environment, Host Integration Server uses a combination of LU names and LU aliases over one or more servers to achieve transparent connections with hot backup to an AS/400.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d956658-7076-4e53-b82f-cb8811692bbf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Mainframe Character Formats
 In Transaction Integrator (TI) Project, you can specify the mainframe character format that the TI run-time environment will create when sending data to the mainframe. There are two mainframe character formats supported by TI:  

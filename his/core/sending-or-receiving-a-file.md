@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 76ee1b4c-b967-41fa-a458-2732d61126f4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Sending or Receiving a File
 After you have defined the settings you need to transfer files, and selected the file to transfer, you can send a file to or receive a file from the host. To send or receive a file, you must supply certain configuration information. This information includes the host filename, host file type, host file mode, data set name, carriage return, whether you are appending to an existing file, EBCDIC conversion, and carriage return line feed.  

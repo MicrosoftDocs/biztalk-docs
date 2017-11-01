@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d8f22a25-846d-443c-9960-54cdf0ad10c4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Filter Properties: Advanced
 Set these properties according to any restrictions on your host system.  

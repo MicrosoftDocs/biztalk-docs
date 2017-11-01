@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 39e25cb7-de30-4e97-a29d-1136d3a089ab
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring a Server Broadcast
 You can configure a server broadcast to ensure that your servers use the appropriate protocols for your network configuration.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cc1ceb32-9fa4-468c-a4b5-b1bd530806d4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # bStopService
 The **bStopService** function is used to stop a service running on a computer for a link service. This utility function is used to construct an integrated link service configuration dynamic-link library (DLL).  

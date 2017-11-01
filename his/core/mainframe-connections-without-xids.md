@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 660d6ea4-2ce6-458a-9c09-289bf592e87a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Mainframe Connections without XIDs
 There are some situations in which the mainframe does not use Node ID in exchange identifications (XIDs), but instead uses Network Name and Control Point Name. These situations include mainframes communicating through LU 6.2 and mainframes that call up [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)]. (Host Integration Server accepts incoming calls on that mainframe connection.) In these situations, the following parameters must match.  

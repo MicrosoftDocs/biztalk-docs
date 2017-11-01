@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ffc48e83-cf39-47f6-9b6f-408a5fc85162
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Session Codes
 For the status codes used on [Status-Session](../Topic/Status-Session1.md) messages, the following table lists:  

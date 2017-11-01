@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ded1cb5d-8433-46dd-9ce0-d9ead39b75a9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Display the Contents of a Configuration File
 You can create a display of the entire contents of a configuration file by using the **/display** option with the following syntax:  

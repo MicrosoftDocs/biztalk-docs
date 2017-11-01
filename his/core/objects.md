@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6255e6bb-10ec-4b56-a494-058ff4cdb3c1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Objects
 The Objects folder contains the metadata definitions for the Client Proxy objects that were created through the Application Integrator Designer. These metadata definitions contain the following:  

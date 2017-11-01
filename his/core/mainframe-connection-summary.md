@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1fa45a9a-4e9f-4c98-a0d5-ffbac40a4e02
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Mainframe Connection Summary
 The hierarchical SNA network model provides access to a centralized processing resource from elements on the network. This model is most frequently associated with mainframe environments in which centralized applications are accessed from remote terminals across a network.  

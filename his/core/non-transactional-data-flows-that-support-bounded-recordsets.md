@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9c3ea011-7fe0-41f2-9e5e-bd9ac11e2a10
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Non-transactional Data Flows That Support Bounded Recordsets
 For each method invocation, TI converts and sends the input parameters to the transaction program (TP). The mainframe TP executes, processes the input data (for instance, accessing or updating the database), and sends its response back to TI. Then TI receives the output parameters from the TP and converts them to return to the invoker.  

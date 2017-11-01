@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 67822c29-10b5-4f53-8d45-ae92878f94a8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a 5250 Local APPC LU
 The following procedure details creating a 5250 local APPC LU manually.  

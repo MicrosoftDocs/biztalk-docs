@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.network.integration"
 ms.assetid: 96f04b21-b46d-4156-8680-e0065d5ff0a9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration of Network Integration
 Use this page to configure Network Integration.  

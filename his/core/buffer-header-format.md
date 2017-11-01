@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f35a2174-afbb-4ff0-9454-0b64f400f82a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Buffer Header Format
 The following table lists the common fields that always occur at the start of a buffer header. These are followed by further fields specific to the particular message. For details about individual message formats, see [FMI Message Formats](../Topic/FMI%20Message%20Formats1.md).  

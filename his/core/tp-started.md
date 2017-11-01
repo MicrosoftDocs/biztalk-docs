@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4d3155ad-68a0-467d-8141-9f88555e3671
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TP_STARTED
 The **TP_STARTED** verb is issued by the invoking transaction program (TP), and notifies APPC that the TP is starting.  

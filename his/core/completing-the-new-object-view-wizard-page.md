@@ -11,6 +11,8 @@ f1_keywords:
   - "15357"
 ms.assetid: bfad14c2-eb23-448c-a4db-8c975c9e24bb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Completing the New Object View Wizard Page

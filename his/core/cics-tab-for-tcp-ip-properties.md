@@ -11,6 +11,8 @@ f1_keywords:
   - "15221"
 ms.assetid: 99231fab-087e-40bd-9b52-1044462e6951
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # CICS Tab (for TCP/IP Properties)

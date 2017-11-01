@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fd2b95d3-9e83-4b8c-ba3a-a99923fbac1a
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "paulettm"
 ---
 # Trace Viewer

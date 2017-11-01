@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8fdae53c-ad33-4cf1-a20a-f34c44ffc18a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sending a Message with Session Integrator for LU2
 After you create a connection, you can send information over the LU2 connection to the remote display.  

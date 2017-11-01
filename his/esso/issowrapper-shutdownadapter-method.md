@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 23f0668f-9c57-4f3d-b032-924d5f53e3cb
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOWrapper.ShutdownAdapter Method
 Indicates to the ENTSSO service that the adapter is shutting down.  

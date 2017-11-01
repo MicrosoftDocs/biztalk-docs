@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 99b0c548-5a27-4762-b110-3065eaa82528
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Use the Servers Snap-In
 This version of Enterprise Single Sign-On (SSO) includes the ENTSSO Servers Snap-In, which allows you to view, monitor, and perform certain actions on your ENTSSO Server through the Windows interface.  

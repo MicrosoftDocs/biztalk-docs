@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 72371cdf-4391-43a5-85ba-dd207a50bd34
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TrnsDT API Functions
 The TrnsDT API consists of a single function.  

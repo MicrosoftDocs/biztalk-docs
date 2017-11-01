@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 43229644-8680-4930-a3bb-67593c5db41b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.getOIA Method
 The getOIA method returns a copy of the Operator Information Area (OIA) for the 3270 session.  

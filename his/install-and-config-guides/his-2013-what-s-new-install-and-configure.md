@@ -9,7 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af91a018-e5b3-41b1-9c21-375480ced52b
 caps.latest.revision: 11
-author: "MandiOhlinger"
+author: MandiOhlinger
+manager: anneta
 ms.author: "mandia"
 ---
 # HIS 2013 - What&#39;s New, Install, and Configure

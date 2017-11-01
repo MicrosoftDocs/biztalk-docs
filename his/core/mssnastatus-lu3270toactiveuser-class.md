@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16643023-926a-4564-b98b-7750138ee211
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_Lu3270ToActiveUser Class
 The **MsSnaStatus_Lu3270ToActiveUser** class represents an association between a User connection and a 3270 type LU.  

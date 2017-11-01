@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c7b4814-ee96-49a5-a925-5efbc7194f0d
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Application Integration (Planning)
 ## In This Section  

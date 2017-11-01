@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80cee6cd-0323-4be4-829f-641f139127cb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # 3270 User Record Format
 Two structures make up the 2370 user record:  

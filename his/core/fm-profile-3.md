@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cfecebd0-e3c3-4cea-b64a-16edc4255197
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # FM Profile 3
 Function management (FM) Profile 3 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU types 0, 1, 2, or 3. This profile specifies the following session rules:  

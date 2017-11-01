@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 69896b9f-c413-4879-9dfa-46eafd08fb44
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # XID Retries
 When the local node specifies that the SNALink is to send an exchange identification (XID), either by supplying it on the [Open(LINK) Request](../Topic/Open\(LINK\)%20Request2.md) or by sending it on a [Send-XID](../Topic/Send-XID2.md) message, it is the responsibility of the SNALink to perform any retries.  

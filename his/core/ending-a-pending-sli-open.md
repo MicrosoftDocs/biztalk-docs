@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f3c7a921-97ac-468a-b3bd-723e02d2bb76
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Ending a Pending SLI_OPEN
 To end a pending [SLI_OPEN](../core/sli-open.md), issue [SLI_CLOSE](../core/sli-close.md) with **lua_flag1.close_abend** set to ON.

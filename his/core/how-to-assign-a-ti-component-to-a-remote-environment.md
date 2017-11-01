@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 025b6170-0028-44c4-a23c-bc22856ed124
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Assign a TI Component to a Remote Environment
 Each TI component is associated with a remote environment (RE) type. As you add multiple REs of the same type, verify that each component is assigned to an RE of the type for which it is configured.  

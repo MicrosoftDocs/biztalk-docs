@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 9da679d9-1b62-41e1-928d-653e40df8445
 caps.latest.revision: 6
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Code Page Conversion Troubleshooting
 IBM host systems are designed to utilize Extended Binary Coded Decimal Interchange Code (EBCDIC) when handling character string data types. Windows computers are designed to utilize ANSI or UNICODE. The HIS SNANLS API handles conversion from EBCDIC to and from UNICODE, and UNICODE to and from ANSI. When using the HIS data providers, you may encounter code page conversion errors. This topic contains the following sections:  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15240"
 ms.assetid: 661f39ae-b273-458a-ae2a-3e7e591d2ed3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Remote Environment Node

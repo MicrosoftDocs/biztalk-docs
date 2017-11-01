@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f97d8724-adc3-404e-822f-699f3f627325
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Snacfg Pool
 ## Purpose  

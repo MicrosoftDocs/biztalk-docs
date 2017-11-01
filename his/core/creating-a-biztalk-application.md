@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f2044943-b2ef-4407-be1a-500fc581e76a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating a BizTalk Application
 After you have created a BizTalk project and added the Transaction Integrator (TI) schema, you can start to create your BizTalk application. For more information, see the BizTalk Server documentation.  

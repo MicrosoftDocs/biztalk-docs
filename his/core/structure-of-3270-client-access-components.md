@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80ec95f1-cfb2-4a5d-ac26-e0318feb6cac
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Structure of 3270 Client Access Components
 The components of [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] that apply to 3270 client access are:  

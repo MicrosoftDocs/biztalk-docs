@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a0d0a65-1bb7-4ebf-9c8f-952bc912138e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Support for 3270 Single Sign-On
 This section describes the support for Single Sign-On for 3270 display sessions that is available in Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

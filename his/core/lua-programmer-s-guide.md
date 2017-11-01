@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c6c4fcb1-2e4f-4a0c-a6fd-3d9cc2deb0ec
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA Programmer&#39;s Guide
 This section of the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] Developer's Guide provides the programmatic techniques and procedures for creating applications with the logical unit application (LUA) programming interface.  

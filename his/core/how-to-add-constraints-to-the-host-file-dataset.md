@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2d7cef34-abad-4bf8-b0cc-7349bd2389a2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Add Constraints to the Host File Dataset
 The `HostFileDataAdapter.Fill method` fills a `DataSet` object with table columns and rows from a data source; though constraints are commonly set by the data source, the `Fill` method does not add this schema information to the `DataSet` object by default. To populate a `DataSet` object with existing primary key constraint information from a data source, you can call `HostFileDataAdapter.FillSchema`.  

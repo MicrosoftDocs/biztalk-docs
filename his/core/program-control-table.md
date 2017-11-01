@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 089fb45f-7cfc-41b0-8246-4c6f94052867
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Program Control Table
 The Program Control Table (PCT) defines the local transaction programs (TPs) to CICS. Each TP is specified using a DFHPCT definition that includes the name by which the TP is invoked (the TRANSID field) and the corresponding load module name from the CICS library of TPs.  

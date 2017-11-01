@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 05cba61b-4a44-4ef1-a9b7-d8d45ea369a5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TN5250 Administration
 The local LU, remote LU, and mode must match the configuration information in [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

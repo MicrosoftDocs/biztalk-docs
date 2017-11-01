@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5320cc8b-f536-4d1f-be6f-aaca4599de00
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Create New Mappings Wizard: External User Name
 This page collects information to generate an external account name based on the Windows account name.  

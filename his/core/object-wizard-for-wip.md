@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_DGSJ"
 ms.assetid: 09fd0154-84d1-4325-afc8-e0c3c407402c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Object Wizard (for WIP)

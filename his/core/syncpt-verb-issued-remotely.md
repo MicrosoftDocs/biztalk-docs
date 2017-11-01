@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9f5cd9c1-8cf7-4e44-bc49-b9f2b0de4b58
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SYNCPT Verb Issued Remotely
 ![](../core/media/appc2da.gif "appc2da")  

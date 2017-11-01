@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c25b4b8-e062-41b9-a847-9449c7a9de45
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Enable a User Mapping
 You must enable a user mapping before it you can use the mapping in the Single Sign-On (SSO) system.  

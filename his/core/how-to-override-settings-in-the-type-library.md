@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 63b686be-8ec7-4ebb-b48d-20dc8ce04069
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How To Override Settings in the Type Library
 If you need to temporarily change certain data sent from the type library to the host, you can override the type library settings without changing the original file. Use the following keywords in combination with the COMTIContext parameter to override the type library setting:  

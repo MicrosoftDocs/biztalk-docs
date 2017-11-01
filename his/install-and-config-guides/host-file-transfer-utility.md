@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 57fb0753-051d-4022-a648-a6aa1491d1fe
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "plarsen"
 ---
 # Host File Transfer Utility

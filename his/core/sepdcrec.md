@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d8c2148-7e61-45f5-b167-7614a365a6b6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # sepdcrec
 The **sepdcrec** function gets configuration information. The application calls this function to obtain the 3270 configuration information for the name with which the user logged on to the network operating system. The call also registers this user name in the service table.  

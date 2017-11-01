@@ -11,6 +11,8 @@ f1_keywords:
   - "15451"
 ms.assetid: b149b898-9f07-4cf2-bbc3-88316aa93885
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Welcome to the New .NET Server Library Wizard Page
 Use the **Welcome to the New .NET Server Library Wizard** page to view the definition of a .NET server library and to control whether the welcome page is displayed again the next time the wizard is used.  

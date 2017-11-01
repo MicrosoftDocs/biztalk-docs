@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4b73243c-a457-4193-aafe-1dda6bbbeaba
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Integration Security Guides
 The network integration features of Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] fall into several areas. Each area has a Security guide.  

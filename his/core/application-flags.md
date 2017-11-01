@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 364d7c17-320e-4786-92f7-bbe346d482ed
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Application Flags
 Application flags are included on the following messages:  

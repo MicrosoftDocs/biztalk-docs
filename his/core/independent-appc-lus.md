@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ded2fc94-86c1-4e18-83d5-72cb3441bf20
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Independent APPC LUs
 In APPC, an independent LU can communicate directly with a peer system and does not need the support of a host computer*.*  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 33185e69-d6a7-46d6-8db1-826483b58926
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Extract_TP_Name (CPI-C)
 The **Extract_TP_Name** call (function name **cmetpn**) returns the *TP_name* characteristic.  

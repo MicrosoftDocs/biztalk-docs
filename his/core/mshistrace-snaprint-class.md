@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7b878d8c-3ccf-44fa-87af-5ac1c5066b7a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNAPrint Class
 The **MsHisTrace_SNAPrint** class contains tracing properties for the Host Print service.  

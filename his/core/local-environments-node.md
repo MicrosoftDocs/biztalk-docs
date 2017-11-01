@@ -11,6 +11,8 @@ f1_keywords:
   - "15345"
 ms.assetid: c90d3c9f-78bc-4f04-b41f-a58c806a253d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Local Environments Node

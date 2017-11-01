@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 064cc764-e739-4261-bb05-6da0fa5889c1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure SSO Using the Configuration Wizard
 Use the **Enterprise Single Sign-On (SSO)** page to configure your SSO settings.  

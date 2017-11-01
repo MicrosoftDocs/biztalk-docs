@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 54cbd428-4acd-4c0a-b751-6602cc4c5bb1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Transaction Object (OLE DB Provider for DB2)
 The **Transaction** object is created by a **Session** object. The **Transaction** object is used to manage transactions on one or more **Rowset** objects.  

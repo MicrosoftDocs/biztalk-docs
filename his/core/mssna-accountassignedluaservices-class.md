@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 946797b3-2a9a-444f-b04b-dfacdbb8ed33
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_AccountAssignedLuaServices Class
 Used to query for services on which a specific workstation or user has LUA LUs/pools.  

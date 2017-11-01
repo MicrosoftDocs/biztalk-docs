@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e7d6d2f5-532a-467f-b755-422411aab8d8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CloseNlsRegistry
 The SNA National Language Support (SNANLS) **CloseNlsRegistry** function closes an open registry key on a local or remote computer.  

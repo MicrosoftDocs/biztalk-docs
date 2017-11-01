@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3f1069d6-2bda-46c6-a52e-18a08fdd73ea
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_BID
 The **SLI_BID** verb notifies the Session Level Interface (SLI) application that a message is waiting to be read using [SLI_RECEIVE](../core/sli-receive.md). **SLI_BID** also provides the current status of the session to the Windows logical unit application (LUA) application.  

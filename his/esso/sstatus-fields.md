@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 45b1a547-5ab5-49de-a844-648181ee7d2a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SStatus Fields
 The fields of the **SStatus** interface are listed in the following table. For a complete list of **SExternal** interface members, see [SStatus Members](../esso/sstatus-members.md).  

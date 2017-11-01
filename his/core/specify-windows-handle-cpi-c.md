@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 614e5541-2276-4055-89f4-d13721bf2a7a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Specify_Windows_Handle (CPI-C)
 The **Specify_Windows_Handle** call (function name **xchwnd**) sets the Microsoft® Windows® handle to which a message is sent on completion of an operation in nonblocking mode.  

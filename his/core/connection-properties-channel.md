@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_PU_CHANNEL"
 ms.assetid: 5289c8d5-6718-48cb-88e4-d3174df83ae9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Connection Properties: Channel
 The following tabs are available on the Channel Connection Properties sheet:  

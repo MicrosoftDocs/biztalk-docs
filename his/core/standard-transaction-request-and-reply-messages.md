@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2eba7a60-55f6-4a57-9318-86b421592657
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Standard Transaction Request and Reply Messages
 To support the TCP transaction request message (TRM) Link programming model and the TCP TRM User Data programming model, Transaction Integrator (TI) supports two variations of the CICS Standard Listener TRM.  

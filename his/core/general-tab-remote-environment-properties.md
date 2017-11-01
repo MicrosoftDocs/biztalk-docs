@@ -11,6 +11,8 @@ f1_keywords:
   - "15212"
 ms.assetid: d6da4934-9f8d-45df-87ab-11ee2632c872
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # General Tab (Remote Environment Properties)

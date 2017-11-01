@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4267ebf3-f90f-4d7b-8189-15b68b054020
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Finding Further Information about APPC
 This section does not describe the products, architectures, or standards developed by other companies or organizations.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 253c5240-6d05-4f5d-ad2d-4095468af2cd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Getting Started with WMI
 There are two main types of programming tasks described in this section: basic tasks and advanced tasks. A basic task is one of the tasks common to most every Windows Management Instrumentation (WMI) application: logging on to WMI, getting and setting properties, and calling methods. The advanced tasks are those built on the basic tasks, and describe the tasks for which the developers incorporated WMI into Host Integration Server. Additionally, this section discusses common problems that you may experience when installing and programming WMI for Host Integration Server, and solutions to those problems.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f616e2a9-7ccf-4dc9-85c5-7ef0ab9baa88
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # External Data Sources (Excel)
 You can use Excel to connect to data from many different data sources and locations, including relational databases, multidimensional sources, cloud services, data feeds, Excel files, text files, and data from the Web. The main benefit of connecting to external data is that you can periodically analyze this data without repeatedly copying the data to your workbook, which is an operation that can be time consuming and prone to error. After connecting to external data, you can also automatically refresh (or update) your Excel workbooks from the original data source whenever the data source is updated with new information.  

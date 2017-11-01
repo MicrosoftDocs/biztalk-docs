@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cd834865-1c05-4c60-b8a0-eda4e206bcf8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Function 0x46: Abort Receiver
 The SNALink calls this function to clear down the driver's receiver.  

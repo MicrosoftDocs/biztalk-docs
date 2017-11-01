@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 06f24196-7c68-442e-a932-a28ab1f7dc3d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Processing_Mode (CPI-C)
 The **Set_Processing_Mode** call (function name **cmspm**) specifies for the conversation whether subsequent calls will be returned when the operation they have requested is complete (blocking) or immediately after the operation is initiated (nonblocking).  

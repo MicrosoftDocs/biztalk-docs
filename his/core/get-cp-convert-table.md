@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6a35420f-19d7-4763-a020-5166084f1bda
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GET_CP_CONVERT_TABLE
 The **GET_CP_CONVERT_TABLE** verb creates and returns a 256-byte conversion table to translate character strings from a source code page to a target code page.  

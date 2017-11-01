@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d6b4404-8bcd-40e0-b903-284b6d30f06c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Tracing for TN3270
 You can enable or disable tracing for TN3270 using the [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] Trace application. [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] Trace provides API, internal, and message tracing.  

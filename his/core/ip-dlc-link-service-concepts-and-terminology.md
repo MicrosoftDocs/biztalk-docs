@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 98f9dfd2-87d0-400d-af03-cade72ea3ce9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IP-DLC Link Service Concepts and Terminology
 The following is a brief introduction to the terminology and concepts that are referred to in this section, including APPN and HPR.  

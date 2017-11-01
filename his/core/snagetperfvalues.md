@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e0dcfba5-5bd1-4359-9ea4-b35ef3d8f305
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAGetPerfValues
 The **SNAGetPerfValues** function is used to provide pointers to the *ServiceNameIndex* and *FirstCounterIndex* variables so that the Perfmon application knows where to get the descriptions of the performance counters from the registry. These variables are returned as members in the **ADAPTERPERFDATA** structure returned by the **SNAGetLinkPerfArea** function.  

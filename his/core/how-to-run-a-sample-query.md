@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60a5bc43-baa3-4a56-ac02-0061cf97169c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Run a Sample Query
 One of the final checks you can perform on a created connection string is a simple query that fetches a list of available files and data sources in the target database. Once you create the connection string, you can run this query using DataAccessControl.<xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.SampleQuery%2A?displayProperty=fullName>.  

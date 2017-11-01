@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e4fcbe8c-2b38-49d2-a25b-044f82d43a50
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_REQUEST_TO_SEND
 The **MC_REQUEST_TO_SEND** verb notifies the partner transaction program (TP) that the local TP wants to send data.  

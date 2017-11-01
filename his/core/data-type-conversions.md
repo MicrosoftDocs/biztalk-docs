@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 58cdcdbb-f557-4f84-b703-aaf1e20c5183
 caps.latest.revision: 3
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Type Conversions
 ## CHAR and VARCHAR  

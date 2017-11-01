@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7115d8cc-32d9-40e7-ba79-f8836ce9c2b2
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_PrintSession Class
 The **MsSnaStatus_PrintSession** class represents an SNA Print session status.  

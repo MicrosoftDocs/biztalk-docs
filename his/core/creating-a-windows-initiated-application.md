@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bd663bf4-1c75-423c-bef8-dc2bbfd40eeb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating a Windows-Initiated Application
 ## In This Section  

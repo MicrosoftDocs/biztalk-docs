@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c0d07010-d56f-4fa5-a849-b66c210ea6c4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Client Application Does Not Start but No Error Given
 If you double-click the .exe file for your Visual Basic client application and nothing happens but no error message appears, the problem may be that you did not deploy the TI component that your client application is attempting to use.  

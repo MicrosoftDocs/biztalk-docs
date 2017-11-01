@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 8f681471-99c1-4ab2-a7c8-e8da4dd26bad
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # databaseAliases
 The databaseAliases element instructs the DRDA Service to map in-bound catalog and schema names to outbound catalog and schema names, for use when executing static SQL packages for DB2 commands mapped to SQL Server stored procedures.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60accad4-64f8-4707-838c-c5c874e06449
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNANetMn Class
 The **MsHisTrace_SNANetMn** class contains SNA Net Management trace content.  

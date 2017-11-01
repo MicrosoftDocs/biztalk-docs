@@ -11,6 +11,8 @@ f1_keywords:
   - "15473"
 ms.assetid: d882e52d-7012-4e6e-9bdd-3ce2a32fe3ce
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Structure Name Node
 Use the ***structure name*** node to view a list of structure member names and their properties.  

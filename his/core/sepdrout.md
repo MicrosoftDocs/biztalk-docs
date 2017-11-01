@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d496c00c-074b-48b6-9fbb-b0038c2e30ab
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # sepdrout
 The **sepdrout** function for Win32® allows an application to perform its own routing of received messages by setting up a procedure that is called by the Dynamic Access Module (DMOD) when a message is received.  

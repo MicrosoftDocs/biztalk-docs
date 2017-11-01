@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b57c0ecd-a629-4c2b-b550-e2abf72ea24b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Connection Status
 The [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] SNA Manager offers six different messages that indicate the status of a connection:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d48cf08e-aa49-4ca4-9450-4ff6ec1c5e39
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Writing LUA Applications
 The information contained in this section will help you write logical unit application (LUA) application programs for use with Microsoft® Host Integration Server.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aff8d231-c24a-41db-bff4-327bfe9c021b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_UserInfo Class
 Base class for a User or Group account configured in SNA.  

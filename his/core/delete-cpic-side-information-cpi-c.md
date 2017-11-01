@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9238d741-aa17-4187-8ff0-f7213cb428fb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Delete_CPIC_Side_Information (CPI-C)
 The **Delete_CPIC_Side_Information** call (function name **xcmdsi**) deletes an entry from the side information table in memory. The side information entry is identified through the symbolic destination name.  

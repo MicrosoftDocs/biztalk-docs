@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0259f166-fde1-42e2-841e-b3e170396369
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Making and Testing a Connection
 This section provides the procedures used to make successful connections. Several steps are required to connect your host system to [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

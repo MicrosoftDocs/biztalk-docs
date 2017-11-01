@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ccfb0005-f629-4749-8e54-d3e960448f23
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Installing Password Synchronization
 As with the other Single Sign-On (SSO) features, Password Synchronization is not installed in the default [!INCLUDE[hisHostIntServNoVersion](../esso/includes/hishostintservnoversion-md.md)] installation, and must be specifically selected during Setup.  

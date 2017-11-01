@@ -11,6 +11,8 @@ f1_keywords:
   - "15201"
 ms.assetid: eba42097-df63-40c7-8e41-e1a92aa09406
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Welcome to the New Remote Environment Wizard Page

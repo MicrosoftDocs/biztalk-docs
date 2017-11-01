@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7d3bd540-b5f2-4000-aae1-9dc30d3a2574
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating a New Application
 Host-initiated processing (HIP) applications represent the execution environment for Windows Server objects that are initiated or driven from host requests. The HIP application execution environment is hosted in and synonymous with a Windows service.  

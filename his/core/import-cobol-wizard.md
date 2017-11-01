@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 048899d6-3b73-4a8c-91ca-3a55be842cc3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Import COBOL Wizard
 The **Import COBOL Wizard** allows you to select a COBOL copy book and use it for designing the component in the designer. This wizard is rather complex, as there are multiple options and paths to follow.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d9ab10d2-f34e-4680-bad1-ea539359b053
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Diagnose Problems with Trace
 The following table shows examples of possible difficulties and the types of tracing that may be useful.  

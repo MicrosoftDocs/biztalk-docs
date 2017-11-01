@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4ffe30e8-4151-469c-87d2-d8c30d65b136
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Response Time
 The host response time indicates the response time observed by the Transaction Integrator (TI) transport component, measuring the time from the call to the server computer, or TCP/IP stack, until the reply from the host. This includes some networking overhead. In a typical well-tuned high bandwidth LAN environment, this response time should be very close to the actual host processing time.  

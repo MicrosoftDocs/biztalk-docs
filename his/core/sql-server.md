@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2e739a85-4bdc-42e2-a321-ab00c9e839f7
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SQL Server
 SQL Server 2012 provides new capabilities that enable organizations to scale database operations with confidence, improve IT and developer efficiency, and empower end users with self-service Business Intelligence features in Office 2010 SharePoint and Excel.  

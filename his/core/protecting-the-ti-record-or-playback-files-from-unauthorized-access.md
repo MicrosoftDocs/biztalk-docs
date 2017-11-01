@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aab5d30d-8bf9-4d26-b1a9-f8fc0e71f9a8
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protecting the TI Record or Playback Files from Unauthorized Access
 To prevent an attacker from either viewing the contents of the Transaction Integrator (TI) record or playback files or replacing those files with ones that could record user data sent to or from the host, you should:  

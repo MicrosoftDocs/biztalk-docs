@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eb1dc7ed-fbe9-44fe-972b-18b458110346
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Import RPG Source File Wizard Page
 Use the **Import RPG Source File** wizard page to identify the file that contains the Report Program Generator (RPG) source statements. After being identified, the RPG source statements are displayed in the edit control. Select the RPG file to import.  

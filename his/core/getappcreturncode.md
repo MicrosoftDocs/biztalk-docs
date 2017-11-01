@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a3abe7c1-14bc-4c02-88b2-382673187510
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GetAppcReturnCode
 The **GetAppcReturnCode** function converts the primary and secondary return codes in the verb control block to a printable string. This function provides a standard set of error strings for use by APPC applications such as 5250 emulators.  

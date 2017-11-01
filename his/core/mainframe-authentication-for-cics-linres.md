@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: de9de8d0-d058-4e1b-9b07-8e1673d50422
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Mainframe Authentication for CICS LINREs
 If you use a CICS LINK LU 6.2 remote environment (RE), you must use resource-level authentication.  

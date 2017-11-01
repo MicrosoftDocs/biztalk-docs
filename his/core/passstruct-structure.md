@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b5ea97f8-7558-4625-92f6-87906c5d9aba
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PASSSTRUCT structure
 The PASSSTRUCT structure is defined as follows:  

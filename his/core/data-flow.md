@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e973b342-3ea7-48bc-8006-25c8ff80fdfc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Flow
 The following topics describe data flows between the application and the local node.  

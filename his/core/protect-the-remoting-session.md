@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba6ec78f-4ca5-446e-a9e7-5a8210dc4980
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protect the Remoting Session
 To prevent an attacker from tampering with the remote session or denying service, you should do the following:  

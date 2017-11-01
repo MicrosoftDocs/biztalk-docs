@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 896317ed-fe3e-4c2b-85e2-27dae8cdaaf5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Processing Two-Phase Commit Transactions
 This topic discusses what happens with the two-phase commit (2PC) transaction while it is being processed by Microsoft Distributed Transaction Coordinator (DTC) in COM+, Transaction Integrator (TI), and CICS.  

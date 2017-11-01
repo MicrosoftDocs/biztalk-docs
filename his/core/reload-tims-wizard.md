@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_YFHY"
 ms.assetid: 151be2b3-6f2b-4b38-9efd-06d971ea3bba
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Reload TIMs Wizard

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f6f132fc-5594-4bb6-91e2-63f8d9daddee
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # FindSNARegEntry
 The **FindSNARegEntry** function is written as a parallel to [CreateSNARegEntry](../core/createsnaregentry.md). When called, it attempts to open all of the necessary registry keys and return open handles to them.  

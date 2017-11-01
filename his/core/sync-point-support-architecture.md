@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 19503eca-9c85-4ae3-b43e-f4079429139e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sync Point Support Architecture
 The Sync Point support provided by [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] assumes a particular implementation architecture by the vendor, as follows:  

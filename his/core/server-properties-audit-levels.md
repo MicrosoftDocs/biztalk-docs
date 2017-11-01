@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 46117774-5943-4254-9605-14ca60b8db42
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Server Properties: Audit Levels
 These properties reflect the server status as of the most recent refresh.  

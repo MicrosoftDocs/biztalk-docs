@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 31f28e3e-cf40-4036-b779-0b5c691a8571
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Integration User&#39;s Guide
 The topics in this section provide an overview of network communication in a [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] environment and describe the services you can use to manage it.  

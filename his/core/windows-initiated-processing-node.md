@@ -11,6 +11,8 @@ f1_keywords:
   - "15237"
 ms.assetid: 623de561-3b92-4917-a07d-5fc9837cc9db
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Windows-Initiated Processing Node

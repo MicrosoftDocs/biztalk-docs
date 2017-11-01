@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2562e864-c675-40df-9d3e-b85e37739941
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows APPC Overview
 The information provided in this guide is source code and executable code compatible with the following implementations of APPC:  

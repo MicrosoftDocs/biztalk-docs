@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d4aeaa79-48f6-46bf-a186-0fc2615e02c2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Important Network Options on a Client
 For [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] client software, several key options supply the information a client must have for locating Host Integration Server computers. These options specify which protocol the client uses to communicate with Host Integration Server computers if more than one protocol is available on the client, and which domain or server names the client will direct SNA requests to.  

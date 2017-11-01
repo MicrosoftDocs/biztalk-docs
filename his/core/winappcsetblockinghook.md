@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eb9660dc-1138-4aea-a7f2-487211e338a8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinAPPCSetBlockingHook
 The **WinAPPCSetBlockingHook** function allows a Windows APPC implementation to block APPC function calls by means of a new function. By default in Microsoft Windows, blocking calls suspend the calling application's thread until the request is finished.  

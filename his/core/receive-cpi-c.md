@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 651f4be0-f098-4294-ba9d-790ff0b76d6c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Receive (CPI-C)
 The **Receive** call (function name **cmrcv**) receives any data currently available from the partner program. For Microsoft Windows, run a background thread for all CPI-C communications and preserve the foreground thread for user interface only.  

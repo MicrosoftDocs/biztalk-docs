@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e3f00ed-2660-4642-8eae-be3d5a04aa4a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Settings to Check for All Connection Types
 When you are configuring a new [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] connection or troubleshooting an existing connection, regardless of the connection type, the identifiers must match between the [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer and the host. The type of identifier (ID or name) is as follows:  

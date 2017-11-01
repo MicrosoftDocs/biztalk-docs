@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1f1c7650-7bca-4efd-a110-b6b8492b6bf4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Transaction Programs that Run for a Long Time
 Several special considerations apply when a transaction program (TP) runs for a long time. The topics in this section address these considerations.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2fee9af0-9c33-40fc-b7cd-68b435626486
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PowerPivot (Excel)
 PowerPivot for Excel is an add-in that you can use to perform powerful data analysis in Excel 2010, bringing self-service business intelligence to your desktop. Excel-based in-memory analysis overcomes existing limitations for massive data analysis on the desktop by using  efficient compression algorithms to load even the biggest data sets into memory. PowerPivot provides the following features:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dab6e0ec-c9fa-4820-bb78-3ae0ced0c9e9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Help with the Command-Line Interface
 To see the syntax for a particular **snacfg** command, follow the command with the **/?** option.  

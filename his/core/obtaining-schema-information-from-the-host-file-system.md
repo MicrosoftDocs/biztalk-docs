@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0495cf8-369d-4431-ab53-3c66bc45657b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Obtaining Schema Information from the Host File System
 You can obtain schema information from a database by using *schema discovery*. Schema discovery enables applications to request that managed providers find and return information about the database schema, also known as *metadata*, of a given database. Different database schema elements such as tables, columns, and stored procedures are exposed through schema collections. Each schema collection contains a variety of schema information specific to the provider that is being used.  

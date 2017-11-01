@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1269a058-1f6e-41ea-a0eb-1febbd71592b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # FM Profile 4
 Function management (FM) Profile 4 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU types 0 or 1. This profile uses the following session rules:  

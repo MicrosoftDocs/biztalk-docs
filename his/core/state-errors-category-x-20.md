@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ca9e9da3-1560-45d4-acdb-79d3c6880ad8
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # State Errors (Category X&#39;20&#39;)
 Sense codes in this category indicate a sequence number error, or a request/response header (RH) or request/response unit (RU) that is not allowed in the receiver's current state. This condition prevents delivery of the request to the intended half-session. The following codes are in this category.  

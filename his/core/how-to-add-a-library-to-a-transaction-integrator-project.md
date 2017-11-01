@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2641289e-f90a-4af5-ac20-905e985ab3c5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Add a Library to a Transaction Integrator Project
 Once you have created the Transaction Integrator (TI) project, you need to add an assembly to the project. Once you have added the assembly, you can import a host file definition.  

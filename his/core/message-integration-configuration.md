@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3cc088aa-14ce-4a62-93f2-6ebfc580edef
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Message Integration (Configuration)
 This section contains the following topics:  

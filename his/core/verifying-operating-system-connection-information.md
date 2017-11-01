@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4f367cf9-95e1-4bfb-950e-ecbe5417e1a9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Verifying Operating System Connection Information
 Collect and review the required operating system information to ensure your operating environment is set up and configured correctly.  

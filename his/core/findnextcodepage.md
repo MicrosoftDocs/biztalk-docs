@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e0a5059d-80a0-406a-9e37-21612fccc6be
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # FindNextCodePage
 The SNA National Language Support (SNANLS) **FindNextCodePage** function finds the next instance of code page satisfying the condition specified in the initial call to the **FindFirstCodePage** function, and copies the code page information to a structure passed as a parameter.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8186c2b1-bf9c-4dd9-af8d-ec6fd7153f21
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # wmiHIS WMI Provider Classes
 Microsoft® Host Integration Server provider supplies information regarding the configuration of Host Integration Server. As an instance provider, the wmiHIS provider implements the standard **IWbemProviderInit** interface and the following **IWbemServices** methods:  

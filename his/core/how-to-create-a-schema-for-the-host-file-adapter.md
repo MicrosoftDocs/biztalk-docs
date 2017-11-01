@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 03f7d0c3-039c-454b-bd10-a569f5d2fc3f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a Schema for the Host File Adapter
 You can use the Host File Schema Generation Wizard to create the XSD schemas for the BizTalk Adapter for Host Files. After you create the schema, you are ready to continue configuration on the BizTalk Server side.  

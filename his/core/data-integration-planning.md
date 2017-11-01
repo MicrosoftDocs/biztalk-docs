@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: def90f27-a600-4ef8-ad11-905fe1ce85e8
 caps.latest.revision: 13
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Integration (Planning)
 Enterprise IT organizations need to deliver new solutions that extend investments in existing IBM systems and data stores. [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] offers both data client technologies and a data service to enable IT professionals, enterprise developers and knowledge workers to connect and integrate IBM DB2 and Informix relational database management systems and record-oriented host file systems with new solutions based on Microsoft Windows.  

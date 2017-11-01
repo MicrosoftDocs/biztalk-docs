@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ed0376bb-3336-4282-acae-d55e97160146
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Viewing and Interpreting Audited Events
 Events audited by Host Integration Server are recorded on the server in which they occur. They are not stored centrally, in contrast with other records generated through Host Integration Server.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d6cdea56-86e8-40ca-8cd1-2e4844ccc5a6
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Deployment Strategies
 In most cases, deployment strategies are effective for APPC LUs, regardless of the application that the LUs support. This section describes the factors that you should consider when deploying APPC connections with [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

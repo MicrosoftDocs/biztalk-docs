@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a03fcbc8-000c-4266-ae44-edcf82fa4bcb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MODEM_STATUS
 A **MODEM_STATUS** structure for each SNA link contains status information used by the SNA Modem Status interface.  

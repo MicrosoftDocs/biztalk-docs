@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Folder_Links"
 ms.assetid: 1b57eeed-a95c-4430-8f42-a4606f873df2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Link Services Folder
 This folder contains the link services that are configured on this Host Integration Server.  

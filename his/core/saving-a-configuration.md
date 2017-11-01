@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 06eca469-d185-49e1-a4c5-6d99c28ec2f8
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Saving a Configuration
 After you have configured a connection to the host, you can save it. While you are connected to the host application, you cannot open a new or existing configuration.  

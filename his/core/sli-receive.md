@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 354d964d-0134-45c4-b85b-953aa22c1858
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_RECEIVE
 The **SLI_RECEIVE** verb receives responses, SNA commands, and data into a Microsoft® Windows® logical unit application (LUA) applications buffer. **SLI_RECEIVE** also provides the current status of the session to the Windows LUA application.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ac4e5c7f-eed8-49d2-83a8-c3dbf83c41dc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Outbound Chaining
 The local node checks that outbound chains of requests conform to the correct SNA usage, to the chaining usage for the session, and to the current state of the session. The local node will accept valid outbound chains of data from the host if one of the following is true:  

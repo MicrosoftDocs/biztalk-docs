@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5f372c3b-1ee1-4440-8876-f9860a9fd471
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DataRelationCollection
 A `DataSet` object contains relationships in its `DataRelationCollection` object. A relationship, represented by the `DataRelation` object, associates rows in one `DataTable` with rows in another `DataTable`. It is analogous to a join path that might exist between primary and foreign key columns in a relational database. A `DataRelation` identifies matching columns in two tables of a `DataSet`.  

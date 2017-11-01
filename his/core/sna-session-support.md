@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5fd2a5d6-c7fc-4598-86bb-499e624e2e29
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Session Support
 This section lists and explains the types and numbers of SNA sessions supported by [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

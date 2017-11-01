@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d987e50a-9153-4807-aa90-d239d2b68add
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # Package XML Schema V85

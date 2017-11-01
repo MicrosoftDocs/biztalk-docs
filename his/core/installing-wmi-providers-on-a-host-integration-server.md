@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6f5c2285-d96c-40a4-9bf4-bfffa8b4074f
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Installing WMI Providers on a Host Integration Server
 Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] provides several Windows Management Instrumentation (WMI) providers. The managed object format (MOF) files used by Host Integration Server are installed in the System directory below where [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] is installed. The default location for these files is in the following subdirectory:  

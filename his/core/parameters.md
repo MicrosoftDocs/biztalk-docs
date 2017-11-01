@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8ea1161-c7db-4afa-a8b5-02da009b0171
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ms.author: "dwrede"
 ---
 # parameters

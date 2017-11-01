@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7cfbc093-08bc-433a-bb26-ea214bf1cd4c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating and Managing TI Components
 The topics in this section give you the information you need for creating and managing Transaction Integrator (TI) components.  

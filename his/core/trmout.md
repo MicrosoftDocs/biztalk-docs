@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7f7f9bde-ac0a-464e-a820-8c0ae012c15a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TRMOUT
 Use the **TRMOUT** keyword to override the default transaction request message (TRM) containing the transaction program ID, user ID, password, and other administrative data sent from the host. The COMTIContext context name is **TRMOUT**. The TRM must be defined as a user-defined type (UDT), and the name of that UDT must begin with the characters TRMOUT.  

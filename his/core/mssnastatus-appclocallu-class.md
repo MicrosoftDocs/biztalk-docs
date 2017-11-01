@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9fa1f154-639b-433f-87bd-5178672d3aa4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_AppcLocalLu Class
 The **MsSnaStatus_AppcLocalLu** class represents an APPC Local LU status.  

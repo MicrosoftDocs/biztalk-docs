@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 580f5ef8-fe51-4ea7-871c-d88e788d411b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinCPICCleanup
 The **WinCPICCleanup** function terminates and deregisters an application from a Microsoft® Windows® Common Programming Interface for Communications (CPI-C) implementation.  

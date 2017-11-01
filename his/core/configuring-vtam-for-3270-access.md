@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9a349060-e876-4be7-9db4-a78ea6a2d737
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring VTAM for 3270 Access
 When setting certain [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] parameters for a host connection, you must match values set on the host or on front-end processors for the host. Host values are configured in VTAM. Front-end processor values are configured in the Network Control Program (NCP).  

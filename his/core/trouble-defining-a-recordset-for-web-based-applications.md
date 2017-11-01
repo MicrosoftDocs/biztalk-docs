@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0d0d05a5-cc3a-4b61-bf76-b190c4e76ad4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Trouble Defining a Recordset for Web-Based Applications
 In TI, a *recordset* consists of tabular data defined in COBOL source code on the mainframe. Tabular data is defined by a group item containing an OCCURS clause in the COBOL data area. When you import a COBOL data area into TI Designer, the following COBOL-to-Automation conversions take place:  

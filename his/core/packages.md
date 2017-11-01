@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 273defee-481b-4586-b217-a73dfc858573
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ms.author: "dwrede"
 ---
 # packages

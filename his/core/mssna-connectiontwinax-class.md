@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc737ce0-d897-48f5-93ed-9075e8d257a1
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_ConnectionTwinax Class
 A type of SNA connection that uses a Twinax cable.  

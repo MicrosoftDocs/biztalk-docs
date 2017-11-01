@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 748c4886-afae-4fbd-88a2-060057bea2be
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # HIS Designer Options
 You can select the initial view to display when the Host Integration Server Designer (HIS Designer) starts. You can modify this option through the standard **Options** dialog box in Visual Studio, which is extended to support the functionality of the HIS Designer. You can open this dialog box by clicking **Options** on the **Tools** menu in Visual Studio.  

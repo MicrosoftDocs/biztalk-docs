@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 959e2155-e3fa-4137-a962-492729e2ef4c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Conversation_Security_Password (CPI-C)
 The **Set_Conversation_Security_Password** call (function name **cmscsp**) is issued by the invoking program to specify the password required to gain access to the invoked program.  

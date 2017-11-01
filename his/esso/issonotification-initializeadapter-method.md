@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 83a4ddaf-849d-4eda-becc-ae19335e4e2b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSONotification.InitializeAdapter Method
 Initializes the password sync adapter to the ENTSSO system.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b04ce26b-ee2e-49ee-9a22-94737763af57
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC
 Advanced Program-to-Program Communications (APPC), or LU 6.2, provides a transport vehicle for programs on peer systems to communicate with each other over the SNA network. APPC is software that enables high-speed communications between programs on different computers.  

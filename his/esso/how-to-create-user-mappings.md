@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eb91879c-73f4-4e9e-9e5b-534f48cd5584
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create User Mappings
 Use the **createmappings** command to create one or more user mappings, as specified in the XML file. The following is an example XML file.  

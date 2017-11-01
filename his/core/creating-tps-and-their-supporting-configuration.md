@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 761365be-10a0-4237-b3a4-b4a91425f1d9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating TPs and Their Supporting Configuration
 The following procedure describes how to create transaction programs (TPs) and set up a supporting configuration.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 86671769-de22-48bf-99bb-4c408b25efad
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Table of Parameters for AS/400 Communication
 The following table summarizes details about configuring [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] for the AS/400 environment. In addition, for an X.25 connection using permanent virtual circuit (PVC), specify the PVC Alias.  

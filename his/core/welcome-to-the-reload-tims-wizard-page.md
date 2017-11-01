@@ -11,6 +11,8 @@ f1_keywords:
   - "HIS_config_wizard_windows_NT_service_configurations"
 ms.assetid: b16c531d-4ca5-46c0-9360-42d93622e355
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Welcome to the Reload TIMs Wizard Page

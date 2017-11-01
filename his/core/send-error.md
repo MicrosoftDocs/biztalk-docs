@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 790ebf6e-02b6-406b-95af-5350542c210c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SEND_ERROR
 The **SEND_ERROR** verb notifies the partner transaction program (TP) that the local TP has encountered an application-level error.  

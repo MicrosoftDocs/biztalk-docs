@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 79248d92-1d71-4ec7-9734-63cdef75698c
 caps.latest.revision: 8
+author: MandiOhlinger
+manager: anneta
 ---
 # Security and Protection
 The information contained in the following sections details securing your [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] environment, including Enterprise Single Sign-On.  

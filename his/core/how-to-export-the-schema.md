@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c19925ac-e39e-4679-b3c5-46496101398d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Export the Schema
 After you associate the interface with the mainframe environment, you must deploy the schema. Deploying the schema exposes an artifact from Visual Studio to BizTalk Server.  

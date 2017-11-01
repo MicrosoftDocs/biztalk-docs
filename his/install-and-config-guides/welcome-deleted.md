@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d235b5e1-7e45-4650-a009-df0c75a0f912
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Welcome_deleted

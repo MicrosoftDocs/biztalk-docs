@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e780e5f3-1632-434d-91a0-4e517b50ebab
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Choosing a Connection Type
 A [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer can use any of the types of connections described in this section. To choose a connection type for your servers, you should first contact the host administrator and find out the type of connection available to the mainframe or AS/400. If more than one type is available, choose a type based on comparisons of cost and speed.  

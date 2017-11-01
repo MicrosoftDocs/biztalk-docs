@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a726e91a-5aee-401d-8fb2-a81854da1a71
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNABase Class
 The **MsHisTrace_SNABase** class contains tracing properties for the SNA Base service.  

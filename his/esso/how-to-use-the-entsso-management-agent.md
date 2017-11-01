@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 536cbfa2-741f-4d43-95b6-876a6b172c5b
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Use the ENTSSO Management Agent
 This version of Enterprise Single Sign-On (SSO) contains a Management Agent (MA) for Microsoft Forefront Identity Manager, which integrates Enterprise SSO with the account synchronization capabilities of FIM 2007. This enables an FIM administrator to manage SSO mappings in the SSO Credential Database.  

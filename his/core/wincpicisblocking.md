@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d881cef9-bf0d-4d7a-845b-ae91727ce5c3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinCPICIsBlocking
 The **WinCPICIsBlocking** function determines if a task is executing while waiting for a previous blocking call to finish.  

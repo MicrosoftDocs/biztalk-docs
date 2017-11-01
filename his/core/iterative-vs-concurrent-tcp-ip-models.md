@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2357589f-84e2-4d32-b01a-9100afe37971
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Iterative vs. Concurrent TCP/IP Models
 IBM defines two models for accessing server applications in CICS and IMS. In both models, there is a TCP/IP connection Listener and a Server aspect to the total application. The manner in which the Listener and Server portions of the application are implemented determines whether the model is Iterative or Concurrent.  

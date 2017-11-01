@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a9292d25-6a4e-49c9-a3ad-a194680b324f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Adapter Programming Configuration
 Every type of password sync adapter has different configuration requirements, depending on what non-Windows system you design the adapter for. Like affiliate applications, you can use the Enterprise Single Sign-On configuration store to store configuration properties centrally and more securely.  

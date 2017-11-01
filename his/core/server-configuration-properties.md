@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Server"
 ms.assetid: a6fced4d-bcc3-4553-83c9-7eddab2f536a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Server Configuration Properties
 **Name**  

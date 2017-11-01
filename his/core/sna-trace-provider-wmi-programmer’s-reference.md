@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: abfdd579-0232-4996-b13f-ef373dc01087
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Trace Provider WMI Programmer’s Reference
 The SNA Trace Provider WMI Programmer's Reference describes the Windows Management Instrumentation (WMI) classes you can use to capture trace messages from your [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] enterprise application.  

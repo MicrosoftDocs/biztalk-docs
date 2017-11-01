@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 12c4fe82-8aa1-498e-850a-0d2ac74f79d4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNALink Configuration and Management
 The configuration information for a [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] system is stored in two forms:  

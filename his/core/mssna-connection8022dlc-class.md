@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 40ed2db8-e83c-4537-ab5f-54723dc57df7
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_Connection8022Dlc Class
 Describes a type of SNA connection that uses DLC 802.2 protocol over a Token Ring or Ethernet.  

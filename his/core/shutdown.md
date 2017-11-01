@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 284ea4a8-d59d-45a0-bb47-cc2ac0d7d25b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Shutdown
 The shutdown protocol provides a means for the host application to stop the application from sending any further normal flow requests. This protocol is used when the host application wants to end the session in an orderly manner and is only available for sessions using function management (FM) profile 3 or 4.  

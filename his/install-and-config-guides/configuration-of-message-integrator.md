@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.MQChannel.Hosting.Service"
 ms.assetid: 174028e5-e2dd-4b51-8399-da627261268a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration of Message Integrator
 Select **Enable WAS Listener of WebSphere MQ** to make configuration changes on this page.  

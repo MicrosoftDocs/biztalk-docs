@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e68a82d-bafa-4c8a-ba3a-8c0bd7aa4a1d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Receiving Messages (SNADIS)
 The Base calls the SNALink dispatcher function [SNALinkDispatchProc](../Topic/SNALinkDispatchProc1.md) when a message is available for it.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 98a8d190-4bfe-4d19-8c59-aa395b307221
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating LUs
 After configuring the connection, you can create the 3270 LUs. The LUs can be display (terminal emulation) LUs, printer LUs, application LUs (LUAs), or downstream LUs.  

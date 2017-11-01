@@ -11,6 +11,8 @@ f1_keywords:
   - "15479"
 ms.assetid: 5d5b49a3-fda4-412a-9fcc-4e1cc796fec0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Remote Environment Wizard Page 2 (for LU 6.2 Link) (.NET Client Wizard)
 Use the **Remote Environment** wizard page to define the default values for the remote environment (RE).  

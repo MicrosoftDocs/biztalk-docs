@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6a59d6b2-9a0f-46fb-a3b8-9ee658fb368f
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # Rowset Object (OLE DB Provider for Informix)

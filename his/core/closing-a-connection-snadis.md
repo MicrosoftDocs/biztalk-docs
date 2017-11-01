@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d005f479-f7fd-4f77-b4f4-82e8941f6821
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Closing a Connection (SNADIS)
 The local node closes a connection to a remote station:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d7a11f53-e754-471e-98ea-f33bf47cc613
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAGetSystemInfo
 SNALink calls the **SNAGetSystemInfo** function to obtain information about the SNA server and the network operating system.  

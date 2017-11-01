@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0ef791b2-5447-496e-b7ae-be7729a391df
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Architecture Overview
 This section describes how information is transferred between the driver and the SNALink.  

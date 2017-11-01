@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e362915b-967e-49af-9168-72d9a61cae59
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # LUSTAT Sense Codes
 The following sense codes are sent by a 3270 emulator on LUSTAT requests.  

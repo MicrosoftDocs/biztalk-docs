@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 65e4bc53-a118-42f1-8172-3a2580b73799
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Planning 3270 Connectivity
 In the hierarchical SNA network model most frequently associated with a mainframe computer, you access centralized applications from remote terminals across a network.  

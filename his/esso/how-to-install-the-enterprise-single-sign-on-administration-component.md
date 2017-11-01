@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1e28ca64-08a1-4b79-9e90-5073ddf4e7ab
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Install the Enterprise Single Sign-On Administration Component
 You can install the Enterprise Single Sign-On (SSO) Administration component as a stand-alone feature. This is useful if you need to administer the SSO system remotely. The hardware and software requirements are the same as for a typical Enterprise SSO installation.  

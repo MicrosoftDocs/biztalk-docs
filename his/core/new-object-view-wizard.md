@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_CUFZ"
 ms.assetid: 3a3e872f-ca2d-4f48-adab-12c786235038
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # New Object View Wizard

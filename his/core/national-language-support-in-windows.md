@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80d7da1e-9965-4e67-be2c-b9123b175e82
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # National Language Support in Windows
 National Language Support (NLS) provides a standardized method of supporting multiple international locales, code pages, input methods, sort orders, and number/currency/time/date formats.  

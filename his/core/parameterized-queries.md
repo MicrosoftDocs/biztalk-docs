@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b6701870-d7b8-4369-b191-da0ddc7f7dda
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Parameterized Queries
 The host file provider supports parameterized queries. In this case, instead of using the values directly in the SQL statement, a placeholder can be used.  

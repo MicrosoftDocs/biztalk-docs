@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3e98352b-cdbb-4d72-b534-88d96dadf157
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapper Interface (COM)
 The **ISSOMapper** interface creates mappings between users and applications.  

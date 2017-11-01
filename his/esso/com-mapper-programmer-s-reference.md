@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a9b97664-412e-45b6-8b17-66c931d84d24
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # COM Mapper Programmer&#39;s Reference
 Component Object Model (COM) objects are used for accessing the Enterprise Single Sign-On (SSO) technology for Microsoft Host Integration Server.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Folder_Servers"
 ms.assetid: 28ecd6d1-e680-44fb-9d76-d22dd65ba64e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server 2013 Folder
 Expand the Servers folder to show the Host Integration Server assigned to this SNA Domain.  

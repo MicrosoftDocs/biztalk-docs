@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6bb743f8-327c-4bdc-82bc-c26057e91212
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_OPEN
 The **SLI_OPEN** verb transfers control of the specified logical unit (LU) to the Microsoft® Windows® logical unit application (LUA) application. **SLI_OPEN** establishes a session between the system services control point (SSCP) and the specified LU, as well as an LU-LU session.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2af33d5c-deb6-435a-b21a-0da71ddbce38
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNADIS Message Formats
 This section describes the SNA Device Interface Specification interface in terms of message formats. These are presented in a language-independent notation that is described below.  

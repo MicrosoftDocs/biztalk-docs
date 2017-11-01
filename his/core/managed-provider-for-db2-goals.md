@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c2c010c5-bfca-4a7b-9e5c-4521cc96654c
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Managed Provider for DB2 Goals
 The main goal of the Managed Provider for DB2 is to enable access to loosely coupled data sources using the technologies offered by ADO.NET and the .NET Framework. To implement this goal, the Managed Provider for DB2 was designed as an incremental improvement over the traditional COM-based OLE DB providers. In addition, the Managed Provider for DB2 is optimized for DB2 over the currently available OLE DB .NET Framework data provider.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d318009d-e9df-4753-85b2-28107ea532ab
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # sbpusend
 The **sbpusend** function sends a message from an application to a partner on an LPI connection.  

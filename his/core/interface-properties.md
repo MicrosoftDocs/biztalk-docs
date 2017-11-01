@@ -11,6 +11,8 @@ f1_keywords:
   - "15429"
 ms.assetid: 07c70adc-071c-4347-8f76-cf69c977f2fb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Interface Properties
 Use the **Interface** properties page to set design properties on the interface.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60ff9e2a-6d35-4829-aef1-9d71f922c116
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ConvertHexStringToDWORD
 The **ConvertHexStringToDWORD** function is used to convert a hexadecimal string to a DWORD value. This utility function is used to construct an integrated link service configuration DLL.  

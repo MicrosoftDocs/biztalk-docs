@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db080ce0-5a3f-469e-a45c-76b042b0baf6
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Affiliate Applications Properties: General
 Use this dialog box to view or change general properties for the affiliate application.  

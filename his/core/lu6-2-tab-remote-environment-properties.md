@@ -11,6 +11,8 @@ f1_keywords:
   - "15214"
 ms.assetid: d861c05f-d459-45dc-bf7d-17023413e65e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # LU6.2 Tab (Remote Environment Properties)

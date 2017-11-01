@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d9c8f6cf-b2fc-40f6-b221-7b77b894504f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Security Overview
 As corporate networks become increasingly integrated with the Internet and other external networks, the threat of unauthorized access to your corporate resources grows significantly. When you plan your networking environment, you must strike a balance between protecting your resources and allowing users unobstructed access to data.  

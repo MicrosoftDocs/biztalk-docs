@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Folder_RemoteAppcLu"
 ms.assetid: 69b45413-4995-4b3d-b3f2-2dbcf8580736
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Remote APPC LUs Folder
 This folder contains the Remote APPC LUs configured for this server.  

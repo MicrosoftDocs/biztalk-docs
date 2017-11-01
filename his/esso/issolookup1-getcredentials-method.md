@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0670e766-9722-4c9a-9f12-ea14d885c6c6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOLookup1.GetCredentials Method
 The **GetCredentials** method retrieves the user credentials for an application.  

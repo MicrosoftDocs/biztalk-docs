@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c9bcc9b8-e21c-49c8-bfff-cbd60d73098d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Synchronizing Passwords
 You synchronize a password by using a password sync adapter. This adapter should be able to communicate with a specific, remote, non-Windows system, and should also be able to instruct that system to update password information.  

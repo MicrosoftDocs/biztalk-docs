@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8965ab22-0221-4dc1-8bae-bf4ffa3a576c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Modify or Update an Instance
 After you have retrieved an instance, you can modify your local copy and update your changes to the server.  

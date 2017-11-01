@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 46064ad1-d4ae-4c43-b146-077e893726d3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sync Point Functional Overview
 The Sync Point support additions to Host Integration Server allow vendors to provide Sync Point services over LU 6.2 conversations provided by the LU 6.2 protocol stack in Host Integration Server. These additions do not implement the architected Sync Point components and TPs necessary for a complete Sync Point implementation. In particular, the following Sync Point components are not implemented, and must be provided by the vendor.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15377"
 ms.assetid: 67c1e7b0-9fe6-427c-a5dc-78c600b37053
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Host-Initiated Processing Node

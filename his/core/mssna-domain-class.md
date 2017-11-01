@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0f85fff2-c411-47eb-8a57-fccd740bdbef
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_Domain Class
 Contains global properties that affect all servers in the group.  

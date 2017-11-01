@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d782ebb5-ac01-4fee-8687-d8c2fd937e45
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNAMngAgent Class
 The **MsHisTrace_SNAMngAgent** class contains tracing properties for the SNA Manage Agent.  

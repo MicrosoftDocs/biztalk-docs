@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c1161444-59f1-4b01-bb99-e40995cd9ea5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOConfigOM.DiscoverServer Method
 The **DiscoverServers** method discovers the currently-available servers.  

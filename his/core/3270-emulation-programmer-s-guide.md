@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cad93bbc-f27b-4f8a-84d2-27787734f65a
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # 3270 Emulation Programmer&#39;s Guide
 This section provides information for independent software vendors who are developing their own 3270 Emulator client software to work with [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c712e15-20c1-452d-bfda-6accfa6d7a4b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.getProperty Method
 The getProperty method describes the properties of a session.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aaf8b40b-9ef3-4b94-9f2e-7898ae882e07
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # OEM PC Code Page Support (SNANLS)
 The following table shows the OEM PC code pages and character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 27688aae-e555-4682-b3b4-1f7d86c0b1c1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managing the Master Secret
 The master secret is the key that is used to encrypt all the information stored in the Credential database. If the master secret server crashes and you lose the secret, you cannot retrieve the information stored in the Credential database. Therefore, it is very important to back up the master secret as soon as you generate it.  

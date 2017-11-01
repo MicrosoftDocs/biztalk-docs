@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 873d35d4-d2e6-4efa-96eb-18114f050d2d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Inbound Data
 This section describes inbound data flows from the application to the local node. The overall structure of the protocols described applies to the system services control point (SSCP) and primary logical unit (PLU) connections, but more complex aspects (such as the use of delayed request mode) are only applicable to the PLU connection.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7143e164-f390-4f88-ae15-9bffc5018f2f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Designer (SharePoint)
 The SharePoint Designer provides a graphical user interface that you can use for designing SharePoint sites and end-user workflows. SharePoint Designer also allows you to manipulate data from SharePoint as well as external data sources without coding directly against the .NET Framework.  

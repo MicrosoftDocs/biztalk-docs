@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 058f0ad8-5399-4fa4-80b0-fa2f53450af8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Defining RTM Thresholds
 Response time monitor (RTM) data is collected by comparing host response times against a series of four boundary values. Each time a host transaction occurs, the response time is compared with the boundary values, and the appropriate counter is incremented. There is a counter for each of the four intervals defined by the boundary values, and an overflow counter for response times above the largest boundary value.  

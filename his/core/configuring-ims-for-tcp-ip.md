@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5773466d-144b-4c4e-be5d-5443773b5a6d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring IMS for TCP/IP
 This section describes the necessary steps in configuring IMS for TCP/IP. It may also be necessary to set up and configure the Host Web Service. See your IBM documentation for information on this.  

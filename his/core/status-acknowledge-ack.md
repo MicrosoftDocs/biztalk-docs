@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9b954fdf-ae1d-43c0-adb2-d5b39b2b1f10
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Acknowledge(Ack)
 The **Status-Acknowledge(Ack)** message flows from the node to the application and from the application to the node, and is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  

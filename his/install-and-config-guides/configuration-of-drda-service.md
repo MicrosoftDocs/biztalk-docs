@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.data.DRDAAS"
 ms.assetid: ed95a40e-f26c-4132-a19b-11a3f2912328
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration of DRDA Service
 Select **Enable Service for DRDA Feature** to make configuration changes on this page.  

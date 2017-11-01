@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec3db1a8-977e-4cd7-a19e-50c4dfff15f4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.setScreenData Method
 The `setScreenData` method copies data characters, character attributes, and extended attributers to all or part of the screen.  

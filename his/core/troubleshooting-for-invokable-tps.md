@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0b0a03d4-d16d-487a-9be2-89c64f99b5f2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Troubleshooting for Invokable TPs
 If there are difficulties with starting an invokable TP, there may be a mismatch between the information for the invokable TP, the invoking TP, and/or LUs in the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] configuration. That is, there may be a mismatch between the parameters for [RECEIVE_ALLOCATE](../Topic/RECEIVE_ALLOCATE2.md), [TP_STARTED](../Topic/TP_STARTED1.md), [ALLOCATE](../Topic/ALLOCATE1.md), or [MC_ALLOCATE](../Topic/MC_ALLOCATE1.md) and/or LU aliases specified in server configuration. LU aliases are configured using SNA Manager on [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

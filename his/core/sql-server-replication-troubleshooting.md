@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cd95c5eb-8b39-4b3e-bf1e-2f8ba7496c12
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SQL Server Replication (Troubleshooting)
 This topic contains the following sections relating to troubleshooting issues between the OLE DB Provider for DB2 and SQL Server (Data Provider) and SQL Server.  

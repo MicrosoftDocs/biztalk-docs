@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 03e71e55-1aa6-407e-8a7e-48141de4acc6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # COMTIContext Interface
 Use the **ICOMTIContext** interface to add, remove, and query information in the Transaction Integrator (TI Context). The following methods implement the **ICOMTIContext** interface.  

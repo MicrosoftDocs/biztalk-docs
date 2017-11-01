@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 04a42eb9-2e45-4cfd-9d89-c517a716d124
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host-Initiated Processing
 Host-initiated processing (HIP) enables a host application to call a method of a COM or .NET object, pass parameters to the method, and receive parameters back from the method. As data travels first from the host to the client and then from the client to the host, the data is transformed from a format understandable by the host to the format appropriate for the client  

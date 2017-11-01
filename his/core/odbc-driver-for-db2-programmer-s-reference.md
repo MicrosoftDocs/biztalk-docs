@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c5f21fcd-4374-42d6-9fbc-6932ded932ba
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # ODBC Driver for DB2 Programmer&#39;s Reference
 The Microsoft ODBC Driver for DB2 enables users to access IBM DB2 from within an ODBC-aware application. ODBC defines a standard set of interfaces that provide access to disparate databases. This section provides reference material needed to program for the ODBC Driver for DB2.  

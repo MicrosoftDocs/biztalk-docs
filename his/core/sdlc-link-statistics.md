@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e1c69e78-db55-4f0d-8172-a222223f2416
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SDLC Link Statistics
 Link statistics are generated when a link is closed or when one of the wrap counters listed later in this section is about to wrap. Whenever a link statistics message is built, all the wrap counters are reset to 0. The cumulative counters are not reset; they provide statistics from the point at which the particular link service was started.  

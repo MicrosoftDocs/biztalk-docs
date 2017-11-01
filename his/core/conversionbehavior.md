@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d1cadabe-e027-4b1b-a2fb-01d03b672ba4
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "dwrede"
 ---
 # conversionBehavior

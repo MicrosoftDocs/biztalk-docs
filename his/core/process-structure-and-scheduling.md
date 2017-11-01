@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 10265606-86aa-4a51-bdbb-0fca8fd8f2e9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Process Structure and Scheduling
 The primary thread of execution within a [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] SNALink is under the complete control of the Base. The Base schedules the SNALink by calling predefined entry points, which the IHV link support code must provide.  

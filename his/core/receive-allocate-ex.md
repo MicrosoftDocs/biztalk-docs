@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 704c7ad1-7e68-42af-b2ae-26e016cd6937
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RECEIVE_ALLOCATE_EX
 The RECEIVE_ALLOCATE_EX verb accepts a new VCB structure to allow registration of an attach manager.  

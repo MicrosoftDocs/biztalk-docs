@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 03411b99-b695-4b4e-bc31-9e9e765a3c16
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Link Alert Format and Common Subvectors
 The general format of link alerts is as follows:  

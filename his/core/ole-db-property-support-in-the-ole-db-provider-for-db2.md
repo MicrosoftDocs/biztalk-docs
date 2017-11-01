@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a66978c-97ac-4f06-a275-245fd16449bb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # OLE DB Property Support in the OLE DB Provider for DB2
 OLE DB Provider for DB2 included with [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] supports a different set of provider-specific properties than the earlier OLE DB Provider for DB2 supplied with SNA Server 4.0. The sections below provide information about provider-specific and standard OLE DB properties supported by the current and the previous version of OLE DB provider.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5dfe5f32-1459-4b8f-8ef0-f21b26f49249
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Sample Logon Script
 ```  

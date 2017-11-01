@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a38149c9-99a4-4c5d-8dcb-1d817089f007
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Examining the Core Interface for a Managed Provider
 A data provider in the .NET Framework serves as a bridge between an application and a data source. The data provider is used to retrieve data from a data source and to reconcile changes to that data back to the data source.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4fa02781-dc4a-4ec2-aa0b-0686d0e3ff18
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Modify Objects
 After an object has been created and assigned to an application within the host-initiated processing environment, you must be careful when making changes to the object or its Transaction Integrator metadata (TIM) file.  

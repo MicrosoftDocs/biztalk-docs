@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 38f615f8-c854-4c5a-9bde-133d4d865e00
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Solution Explorer (Host File Designer)
 Visual Studio Solution Explorer provides an organized view of projects and their files, in addition to access to available commands and toolbars. The following files are supported by the project:  

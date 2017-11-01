@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6bee0144-7ea3-4d8e-ab6c-6de83528b250
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_CPIC_Side_Information (CPI-C)
 The **Set_CPIC_Side_Information** call (function name **xcmssi**) adds or replaces a side information entry in memory. A CPI-C side information entry associates a set of conversation characteristics with a symbolic definition name. This call overrides entries having the same symbolic destination name.  

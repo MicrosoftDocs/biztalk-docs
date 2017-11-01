@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 82b4218d-d668-4e1c-b887-fa8f5dc9df47
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LU 3 Printing
 LU 3 printing is the simplest of the three types of host printing. The LU 3 data stream closely resembles that for 3270-display emulation. It consists of a write command code and a write control character (WCC) followed by the print job. These print jobs contain printable characters and only four simple formatting orders (new line, form feed, carriage return, and end of medium). No other control of the print output is available. This form of printing is similar to printing a text file from a personal computer. If more print formatting is required, an LU 1 print session should be used. For more information, see the section [LU 1 Printing](../core/lu-1-printing.md).  

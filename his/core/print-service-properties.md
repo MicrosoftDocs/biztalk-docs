@@ -11,6 +11,8 @@ f1_keywords:
   - "snaprint_server"
 ms.assetid: 7d42c85f-67f8-458d-8abb-cf60072cd471
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Print Service Properties
 Click **No Event Log for Skipping Transparent Section** to prevent an entry in the Event Log every time print services skips a transparent section found while printing a host print job. Skipping transparent sections can be enabled from the **Advanced** tab of a print session properties page.  

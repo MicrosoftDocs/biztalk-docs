@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1a257181-e527-4b2c-bf5d-c0007b34f474
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Secondary APPC Return Codes
 ## 00000000  

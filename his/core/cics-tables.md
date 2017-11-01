@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a363f595-175a-4e1d-ad93-5b856e88ddae
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CICS Tables
 CICS uses the following tables to define LU 6.2 information:  

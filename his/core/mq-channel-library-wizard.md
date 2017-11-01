@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 911f78ca-9056-4692-94f3-b86be21b90f3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MQ Channel Library Wizard
 The MQ Channel Library Wizard helps you to create Windows Communications Foundation (WCF) based messaging solutions for WebSphere MQ.  

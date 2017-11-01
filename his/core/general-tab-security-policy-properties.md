@@ -11,6 +11,8 @@ f1_keywords:
   - "15372"
 ms.assetid: d1848ce2-c720-4d65-bf78-a42585ef42c0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # General Tab (Security Policy Properties)

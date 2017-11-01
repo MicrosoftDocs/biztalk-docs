@@ -11,6 +11,8 @@ f1_keywords:
   - "15227"
 ms.assetid: 02ea1208-e1bc-40e0-8f3f-d79038bd1d94
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Specify or Locate an Object Wizard Page (for HIP)

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1fe73dc7-6d07-4854-9f49-5fa0a60ba7f5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Custom Host Code Page
 [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] allows a custom host code page to be used for a printer session. The host code page is used for the translation between ASCII and EBCDIC. By default, a printer session will use the standard language code page provided by Windows Server. As an alternative, a custom code page can be specified to allow a different translation. For example, using the default code page, the EBCDIC letter "A" ('0xC1') would be translated to an ASCII letter "A" ('0x41'). With a custom code page, it would be possible to have the EBCDIC "A" translated to any value. The custom code pages are text files that can be modified with a hex editor. The code page file contains 512 bytes. The first 256 bytes represent what the EBCDIC characters are translated to. The second 256 bytes are what the ASCII characters are translated to. Logically each section is a 16-column by 16-row block.  

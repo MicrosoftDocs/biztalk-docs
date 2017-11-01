@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e74f3836-df66-4ac7-9d75-8e78255ccd0e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DataTable Shortcut Menu
 When you select a **DataTable** node in the tree view, the following shortcut menu commands are displayed.  

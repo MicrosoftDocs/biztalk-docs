@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b60246d7-4fa9-444b-9ddf-b453c131dfd6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # BACKOUT Verb Issued Remotely
 ![](../core/media/appc2dc.gif "appc2dc")  

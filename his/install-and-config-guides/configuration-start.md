@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.defaultconfig"
 ms.assetid: 8bf06c5c-271a-4a8c-be37-af6301e293fa
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration Start
 Choose either **Basic** or **Custom** configuration.  

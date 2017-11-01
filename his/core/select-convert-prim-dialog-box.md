@@ -11,6 +11,8 @@ f1_keywords:
   - "15450"
 ms.assetid: 316ac873-619a-4412-98b6-cd63ae6fd282
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Select Convert Prim Dialog Box
 Use the **Select Convert Prim** dialog box to provide a Convert PrimEx class that is missing from your server library.  

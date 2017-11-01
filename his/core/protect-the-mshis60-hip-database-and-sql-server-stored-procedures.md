@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 75c6bf12-7259-4010-bf77-de637e30914f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protect the MSHIS60_HIP Database and SQL Server Stored Procedures
 To prevent an attacker from spoofing their identity or tampering with the data or stored procedures in the HIP database, you should do the following:  

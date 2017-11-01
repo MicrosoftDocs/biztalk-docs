@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 849bc4f3-e51d-49fc-b2da-104453553158
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinCSVCleanup
 The **WinCSVCleanup** function terminates and deregisters an application from a Windows® CSV implementation.  

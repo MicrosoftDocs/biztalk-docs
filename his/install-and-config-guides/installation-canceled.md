@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f53d9469-043d-4645-9983-b1f974e662b3
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Installation Canceled

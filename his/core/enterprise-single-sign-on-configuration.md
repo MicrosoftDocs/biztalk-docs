@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b8dd04ee-ddb1-441c-84e2-5d378d4f2695
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Enterprise Single Sign-On (Configuration)
 This section provides instructions for the Enterprise Single Sign-On (SSO) user interface (UI) for Host Integration Server. You access this information by using the F1 key or by clicking **Help** in the UI.  

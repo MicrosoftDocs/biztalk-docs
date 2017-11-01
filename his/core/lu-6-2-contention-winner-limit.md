@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80e679f3-b583-4c22-a272-19a015f07298
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LU 6.2 Contention Winner Limit
 Transaction Integrator (TI) can use either LU 6.2 contention winner sessions or contention loser sessions. In order to avoid the high overhead of negotiating for a contention loser session, TI will use a contention winner session, if there are any available.  

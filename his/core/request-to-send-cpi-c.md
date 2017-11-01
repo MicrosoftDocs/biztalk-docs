@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fcb31fcb-59be-4bc8-8909-7df877cc8923
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Request_To_Send (CPI-C)
 The **Request_To_Send** call (function name **cmrts**) notifies the partner program that the local program wants to send data.  

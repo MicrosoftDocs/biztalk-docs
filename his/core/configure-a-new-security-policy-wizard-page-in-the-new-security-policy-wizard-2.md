@@ -11,6 +11,8 @@ f1_keywords:
   - "15369"
 ms.assetid: e52c0ef7-7215-4726-ae80-cc1472029e6a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure a New Security Policy Wizard Page (in the New Security Policy Wizard) (2)

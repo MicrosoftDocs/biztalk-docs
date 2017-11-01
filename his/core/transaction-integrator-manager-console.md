@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c04d4748-22d2-41be-b5eb-95dd87f41b44
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Transaction Integrator Manager Console
 Transaction Integrator is administered through the Transaction Integrator (TI) Manager management console. Microsoft Management Console (MMC) is a framework for hosting administrative tools called *snap-ins*. In general, a console can contain tools, folders or other containers, Web pages, and other administrative items. These items are displayed in the left pane of the console, or the *console tree*. MMC provides a single user interface for integrating various Microsoft and third-party management tools. You can create custom consoles combining your choice of the various registered snap-ins; for example, you might put the SNA Manager and Transaction Integrator snap-ins together in a single console.  

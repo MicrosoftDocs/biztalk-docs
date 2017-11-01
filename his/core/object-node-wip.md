@@ -11,6 +11,8 @@ f1_keywords:
   - "15239"
 ms.assetid: f27bad6a-6ea6-4fc6-8c15-518a3d5fa91e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Object Node (WIP)

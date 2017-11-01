@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f161e0b6-080e-43f3-9f49-eaf014a31a89
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.sendKey Method
 The sendKey method sends one or more keystrokes to the Host session.  

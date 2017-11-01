@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4b2e2951-ed28-4149-90b0-359866c231fe
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Non-transactional Data Flows That Support Unbounded Recordsets
 This model supports one or more consecutive sends followed by one or more consecutive receives. Therefore, the last input parameter of the method invocation can be an unbounded recordset (that is, a recordset with no set number of rows).  

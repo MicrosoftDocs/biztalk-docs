@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6c2fd9ba-5bc4-4ca6-81ac-38877fed34fe
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LogInUserAndGroups Class
 Enumerates the configured user and groups for a logged-on user.  

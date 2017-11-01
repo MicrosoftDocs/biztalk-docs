@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 784dfb05-96ab-49b7-90cb-94c1795b0cf5
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SSO with Host-Initiated Processing
 When you use Single Sign-On (SSO) security with host-initiated processing (HIP), the impersonation of user credentials is handled differently depending upon whether you are calling a .NET object or a COM object. If HIP is calling a .NET object, there are no special considerations; the Transaction Integrator (TI) run-time environment impersonates the user account. If HIP is calling a COM object, however, there are special considerations.  

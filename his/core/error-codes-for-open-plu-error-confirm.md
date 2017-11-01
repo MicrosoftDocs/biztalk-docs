@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f348b44a-7cab-4676-9fe9-541efcb84daf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Error Codes for Open(PLU) Error Confirm
 The following table gives the values for error code 1 that can be returned on the [Open(PLU) Error Confirm](../Topic/Open\(PLU\)%20Error%20Confirm1.md) message. Error code 2 is zero, except when error code 1 is 0x0821. In this case it contains the byte offset in the **BIND** where the **BIND** failed to match the **BIND** check table.  

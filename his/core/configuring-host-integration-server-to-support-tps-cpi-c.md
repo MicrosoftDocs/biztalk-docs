@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a7fd25b-f6eb-4f19-b511-65703185b28f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Host Integration Server to Support TPs (CPI-C)
 The following topics describe how the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] configuration works with invoking and invokable transaction programs (TPs.)  

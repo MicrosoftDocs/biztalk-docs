@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: f8d3a7a1-997c-4b92-9ec4-c8ddd96e72b8
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server VSS Writer
 ## Purpose  

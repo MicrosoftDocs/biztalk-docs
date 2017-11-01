@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db5b394a-a86b-473f-a678-1fe8f155709f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Sense Codes
 If there is a communication problem during an SNA session, [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] can generate sense codes that notify the remote system of the type of problem. The sense codes fall into five distinct categories, corresponding to the type of problem that occurred.  

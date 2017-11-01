@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 85a696b2-ac03-4606-8916-e80b8a33b8f5
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # OLE DB Property Support in the OLE DB Provider for Informix

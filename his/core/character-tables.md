@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 73f87cfa-eb80-4d03-ad99-dc3718ef798f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Character Tables
 This section provides tables that show the ASCII, ANSI, and IBM extended character sets.  

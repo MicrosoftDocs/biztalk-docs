@@ -8,7 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af7d5928-5e99-4c03-afc0-16330e5f207c
 caps.latest.revision: 9
-author: "MandiOhlinger"
+author: MandiOhlinger
+manager: anneta
 ms.author: "mandia"
 ---
 # System Requirements

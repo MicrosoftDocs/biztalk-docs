@@ -11,6 +11,8 @@ f1_keywords:
   - "15457"
 ms.assetid: 61dc272d-d03b-4cb6-88e8-580f46680b90
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Completing the New .NET Client Library Wizard Page
 Use the **Completing the New .NET Client Library Wizard** page to review the choices and settings you made in the previous wizard pages. You can return to an earlier wizard page to change a setting by clicking **Back**.  

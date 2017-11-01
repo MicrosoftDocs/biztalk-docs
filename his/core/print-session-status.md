@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7633fbdc-9a70-4d7b-86da-4c6fd08982e5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Print Session Status
 There are several different messages that show the status of a [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] print session:  

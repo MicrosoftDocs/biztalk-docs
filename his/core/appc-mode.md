@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7a8e9c31-45bd-46dc-af05-3ffec77e6c57
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Mode
 A mode is associated with an LU-LU pair, and determines the session properties for that pair. One of the key mode properties is the Parallel Session Limit. This limit determines whether an LU-LU pair can perform only one interaction at a time or multiple concurrent interactions.  

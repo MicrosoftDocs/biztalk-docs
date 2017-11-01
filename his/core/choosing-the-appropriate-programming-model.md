@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 803bb2c1-38fe-4963-a2ca-70531f43725d
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Choosing the Appropriate Programming Model
 A TI programming model determines the method used to access and integrate host applications and TI configuration requirements depending on the specific TI programming model being used. Implementing TI may require modification to the existing mainframe TPs to be able to fit the programming models that it supports. Specifically, this may be necessary when:  

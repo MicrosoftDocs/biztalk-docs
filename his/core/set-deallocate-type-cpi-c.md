@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c89a7192-148c-4bbb-8124-493681e4852c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Deallocate_Type (CPI-C)
 The **Set_Deallocate_Type** call (function name **cmsdt**) specifies how the conversation is to be deallocated.  

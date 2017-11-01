@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 709655c3-0af7-48ba-a659-3e07af2bf912
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Administration and Management Programmer&#39;s Guide
 This section describes how to use Windows Management Instrumentation (WMI) to programmatically manage different tasks for Host Integration Server.  

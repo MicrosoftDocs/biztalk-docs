@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 086f92f8-f69a-4166-bb25-dbec2565ebba
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create an Independent Session
 After you have created the link service, you need to create an independent session to use.  

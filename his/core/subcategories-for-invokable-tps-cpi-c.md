@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f2edf7ee-e481-4d66-b513-29231aeade51
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Subcategories for Invokable TPs (CPI-C)
 The following table shows subcategories for invokable transaction programs (TPs).  

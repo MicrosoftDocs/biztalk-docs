@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 48cf0edc-1416-4810-a09a-ca0af7bd1a9c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Multiple Connections
 For 802.2 and X.25 links, multiple connections can use the same physical link supported by a single instance of the SNALink software.  

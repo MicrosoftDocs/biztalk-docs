@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ec1d382-8ef7-4064-a7b7-90203096a54b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Confirmed (CPI-C)
 The **Confirmed** call (function name **cmcfmd**) replies to a confirmation request from the partner program. It informs the partner program that the local program has not detected an error in the received data. Because the program issuing the confirmation request waits for a confirmation, **Confirmed** synchronizes the processing of the two programs.  

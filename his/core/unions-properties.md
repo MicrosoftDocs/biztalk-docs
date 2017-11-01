@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 417680aa-2b1e-4d6d-9a58-75026ad7c8ad
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Unions Properties
 Displays properties for the Unions folder.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e3e6c590-8c46-47c0-8bb5-17a871fdcb19
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Invoking and Working with Invokable TPs (CPI-C)
 There are two kinds of transaction programs (TPs): TPs that can invoke (that is, initiate a conversation with) other TPs, and TPs that can be invoked. A TP that can invoke another TP is called an invoking TP, and a TP that can be invoked is called an invokable TP.  

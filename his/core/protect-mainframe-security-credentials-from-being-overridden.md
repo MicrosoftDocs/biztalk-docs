@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 51fdedee-23e1-434b-87ae-24007cb3f322
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protect Mainframe Security Credentials from Being Overridden
 To prevent an attacker from gaining control over security credentials used to access a mainframe host, you should do the following:  

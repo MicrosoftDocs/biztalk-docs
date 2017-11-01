@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3bfb82d0-77d2-4e53-bd47-e8734e682041
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Password Synchronization
 The purpose of Password Synchronization is to simplify administration of the Single Sign-On (SSO) credential database, and to keep passwords in sync across user directories. You can accomplish these two tasks by using password synchronization adapters. The topics in this section describe the command-line utility for creating and managing those adapters.  

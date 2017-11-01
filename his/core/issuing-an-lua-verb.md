@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4d3417d9-8738-4a25-9d4b-f3a719515615
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Issuing an LUA Verb
 The following procedure is required to issue a logical unit application (LUA) verb. In this example, the verb issued is [RUI_INIT](../Topic/RUI_INIT2.md).  

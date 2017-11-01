@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ae52225c-73ea-452c-ac27-f36ebc62ca24
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.wait Method
 The wait method waits for the session to enter a state where input is allowed or the screen is modified.  

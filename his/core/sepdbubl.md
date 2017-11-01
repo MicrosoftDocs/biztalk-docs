@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2237f3ab-c2e2-41da-be3b-e36b1a7a6109
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # sepdbubl
 The application calls the **sepdbubl** function to get a buffer with a requested number of elements.  
