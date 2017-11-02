@@ -1,5 +1,5 @@
 ---
-title: "Upgrading and Versioning Strategies for Applications | Microsoft Docs"
+title: "Upgrade and Version Strategies for Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -19,7 +19,7 @@ BizTalk application versioning can become an issue when you need to run two vers
 ## When to Use Versioning  
  If you need to support long-running orchestrations, and/or you need to perform BizTalk application deployments with no BizTalk application downtime, then you need to implement and practice a solid, end-to-end [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versioning strategy for the different versioning scenarios. This includes .NET assembly versioning and versioning of all BizTalk artifacts, which includes schemas, maps, pipelines, pipeline components, orchestrations, custom adapters, custom classes called in orchestrations and maps, business rules, and BAM.  
   
- Schema versioning is unique in that the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipelines determine the message type of a message based on the target namespace plus root node name defined in the schema. For more information, see [Schema Resolution in Pipeline Components](http://go.microsoft.com/fwlink/?LinkId=154207). If you need to version your schemas, a version indicator must be part of the target namespace. Changing the schema version has a ripple effect throughout your solution, and therefore should be planned in advance. When creating orchestration messages, follow the recommendations in the MSDN Magazine article [BizTalk Server: 8 Tips And Tricks For Better BizTalk Programming](http://go.microsoft.com/fwlink/?LinkId=101594), tip #1: "Always Use Multi-Part Message Types" (http://go.microsoft.com/fwlink/?LinkId=101594). Use of this method provides greater flexibility when versioning schemas.  
+ Schema versioning is unique in that the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipelines determine the message type of a message based on the target namespace plus root node name defined in the schema. For more information, see [Schema Resolution in Pipeline Components](../core/schema-resolution-in-pipeline-components.md). If you need to version your schemas, a version indicator must be part of the target namespace. Changing the schema version has a ripple effect throughout your solution, and therefore should be planned in advance. When creating orchestration messages, search for **BizTalk Server: 8 Tips And Tricks For Better BizTalk Programming** (tip 1: Always Use Multi-Part Message Types). Use of this method provides greater flexibility when versioning schemas.  
   
 ## Using Factoring for Assembly Versioning  
  If you need to support long-running orchestrations, side-by-side deployments, or no-downtime upgrades, then you should implement an assembly versioning and packaging strategy. In order to perform assembly versioning of BizTalk artifacts, your BizTalk solution assemblies need to be factored (packaged) in such a way to allow for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versioning.  There are three types of factoring:  
@@ -37,24 +37,18 @@ BizTalk application versioning can become an issue when you need to run two vers
      Somewhere in-between “no factoring” and “full factoring” based on in-depth analysis of your BizTalk applications. In addition to versioning, this allows you to easily implement your BizTalk Host design. This is achieved by looking for relationships among BizTalk artifacts. Artifacts that are always versioned together can typically be put in the same assembly. If independent versioning of the artifacts is required, then they must be put in different assemblies. This is the level of factoring you want to achieve.  
   
 ## Additional Resources  
- For more information about implementation and tuning best practices see [MSDN Webcast: Implementation and Tuning Best Practices for BizTalk Server Solutions](http://go.microsoft.com/fwlink/?LinkId=101595) (http://go.microsoft.com/fwlink/?LinkId=101595).  
   
  Define and practice a solid versioning strategy to ensure it provides any side-by-side deployment strategies you might need. Resources for BizTalk Server application upgrade and versioning strategies include the following:  
   
 -   [Updating an Application](../technical-guides/updating-an-application.md)  
   
--   [Updating BizTalk Applications](http://go.microsoft.com/fwlink/?LinkId=154208) (http://go.microsoft.com/fwlink/?LinkId=154208) and subtopics.  
+-   [Updating BizTalk Applications](../core/updating-biztalk-applications.md)
   
--   [BizTalk Server Project Versioning](http://go.microsoft.com/fwlink/?LinkId=154209) (http://go.microsoft.com/fwlink/?LinkId=154209)  
+-   [BizTalk Server Project Versioning](../core/biztalk-server-project-versioning.md)  
   
--   [Understanding BizTalk Server Application Deployment](http://go.microsoft.com/fwlink/?LinkId=101599) (http://go.microsoft.com/fwlink/?LinkId=101599)  
-  
--   [BizTalk Server 2006 - Pipeline Component Side-By-Side deployment](http://go.microsoft.com/fwlink/?LinkId=101600) (http://go.microsoft.com/fwlink/?LinkId=101600)  
-  
--   [BizTalk Server 2006 Lifecycle short video demos with description](http://go.microsoft.com/fwlink/?LinkId=101601) (http://go.microsoft.com/fwlink/?LinkId=101601)  
-  
-> [!NOTE]  
->  Even though some of these articles were written specifically for [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)], their content also applies to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   [Understanding BizTalk Server Application Deployment](../core/understanding-biztalk-application-deployment-and-management.md)
+
+
   
 ## See Also  
  [Checklist: Configuring BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
