@@ -38,21 +38,21 @@ Sign in with an account that is a member of the SQL Server sysadmin fixed server
 7.  In the **Job Step Properties - BackupFull**, in the **Command** box, update the command by changing the frequency to run a full backup: **'h'** (hourly), **'d'** (daily), **'w'** (weekly), **'m'** (monthly), **'y'** (yearly). Select **OK**.  
   
     > [!NOTE]
-    >  The first time the Backup BizTalk Server job is run during a new period, a full backup is ran.  
+    >  The first time the Backup BizTalk Server job runs, it completes a full backup.  
     
 8.  Configure additional **@frequency** parameters:  
   
-    1.  **@ForceFullBackupAfterPartialSetFailure**: The default value is **false**. When **false**, if the full backup fails, the system waits for the next cycle until the full backup is made.  
+    - **@ForceFullBackupAfterPartialSetFailure**: The default value is **false**. When **false**, if the full backup fails, the system waits for the next cycle until the full backup is made.  
     
-    > [!NOTE]
-    >  If your **@frequency** setting is long (like weekly, monthly, yearly), then setting this parameter to **false** could be dangerous. In this scenario, it may be best to set this flag to **true**. When **true**, every time there is a failure, the system forces itself to create a full backup. There may be a small performance impact, but it’s safter to have a recoverable system.
+        > [!NOTE]
+        >  If your **@frequency** setting is long (like weekly, monthly, yearly), then setting this parameter to **false** could be dangerous. In this scenario, it may be best to set this flag to **true**. When **true**, every time there is a failure, the system forces itself to create a full backup. There may be a small performance impact, but it’s safter to have a recoverable system.
   
-    2.  **@BackupHour**: The default valueis NULL. This parameter is directly related to **@Frequency**. When you set the frequency to **h** (hourly), you set which hour of the day you want the full backup to happen. You can choose a value between 0 (midnight) to 23 (11 PM). If left blank, the fullback happens every hour.  
+    - **@BackupHour**: The default valueis NULL. This parameter is directly related to **@Frequency**. When you set the frequency to **h** (hourly), you set which hour of the day you want the full backup to run. You can choose a value between 0 (midnight) to 23 (11 PM). If left blank, the full backup runs every hour.  
     
-    > [!NOTE]
-    >  If you set this parameter with a number outside the 0 to 23 range (for example, 100 or -1), the system forces it to 0.
+       > [!NOTE]
+        >  If you set this parameter with a number outside the 0 to 23 range (for example, 100 or -1), the system forces it to 0.
   
-    3.  **@UseLocalTime**: An extra parameter that states to use local time. By default, the job works with UTC time. So if you live in Australia (which is UTC + 10 hours), your backup happens at 10am rather than midnight. As a best practice, it is recommended to set this to **1** (true).  
+    - **@UseLocalTime**: An extra parameter that states to use local time. By default, the job works with UTC time. So if you live in Australia (which is UTC + 10 hours), your backup runs at 10am rather than midnight. As a best practice, it is recommended to set this to **1** (true).  
   
 9.  In the **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, under **Select a page**, click **Schedules**.  
   
@@ -63,7 +63,7 @@ Sign in with an account that is a member of the SQL Server sysadmin fixed server
      By default, the job is scheduled to run every 15 minutes.  
      
     > [!NOTE]
-    >  You can change this value according to your requirement, but test in non-production environment before changing this value. Setting this value too low results in frequent backups, and adds to the background load in your SQL environment. Setting this value too high may increase the size of transaction logs, and impact performance. In some situations, it is recommended to leave the default value.    
+    >  You can change this value according to your requirements, but first test in non-production environment. Setting this value too low results in frequent backups, and adds to the background load in your SQL environment. Setting this value too high may increase the size of transaction logs, and impact performance. In some situations, it is recommended to leave the default value.    
   
 12. Update the schedule if desired, and then select **OK**.  
   
