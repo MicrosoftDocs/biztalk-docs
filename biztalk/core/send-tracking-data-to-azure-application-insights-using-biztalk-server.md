@@ -19,6 +19,9 @@ Send [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversi
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, you can process and send your tracking data to Azure Application Insights. Use the Application Insights features to track your instances from receive ports, send ports, and orchestrations.
 
+> [!IMPORTANT]
+> This feature currently does not work with SQL Named Instances.
+
 ## Prerequisites
 * Create a new instance of [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-create-new-resource)
 * Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
