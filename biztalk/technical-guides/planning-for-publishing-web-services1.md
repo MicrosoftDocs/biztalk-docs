@@ -15,14 +15,13 @@ manager: "anneta"
 ---
 # Planning for Publishing Web Services
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services. It enables you to reuse and aggregate your existing Web services within your orchestrations.  
-  
+
+## Overview
  You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic, which allows you to update or replace the business logic as needed without touching the code used for the Web service logic. This functionality is referred to as implementing "modular code." In general it is considered a best practice to implement modular code where possible. Publishing Web services requires that you enable Web services and that you publish an orchestration or schema as a Web service using the BizTalk Web Services Publishing Wizard.  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implements support for native adapters in Web services through the use of the SOAP adapter. Native adapter support provides scalability, fault tolerance, and tracking capabilities for Web services without writing a single line of code. For more information about the SOAP adapter, see [SOAP Adapter](../core/soap-adapter.md).  
   
- BizTalk Server provides support for publishing BizTalk Applications as WCF Services with Windows Azure AppFabric Service Bus endpoints. For more information see [Using AppFabric Connect for Services](../technical-guides/planning-for-publishing-web-services1.md#BKMK_AFCS).  
-  
- Planning for Web services can be divided into two categories, planning for publishing Web services and planning for consuming Web services. This topic describes the steps that you should follow for publishing Web services.  
+Planning for Web services can be divided into two categories, planning for publishing Web services and planning for consuming Web services. This topic describes the steps that you should follow for publishing Web services.  
   
 ## Enabling Web Services  
  To publish Web services, you must configure Internet Information Services (IIS), BizTalk Isolated Hosts, and Windows user and group accounts. This section provides an overview about enabling web services. For more information about enabling Web services, see the IIS documentation.  
