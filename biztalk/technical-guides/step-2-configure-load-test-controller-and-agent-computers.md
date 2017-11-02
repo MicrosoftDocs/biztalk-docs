@@ -14,7 +14,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 2: Configure Load Test Controller and Agent Computers
-Visual Studio 2010 Ultimate edition can generate load simulating up to 250 virtual users on a local load test run. To simulate more than 250 virtual users and/or to initiate testing from a remote computer requires Visual Studio Load Test Virtual User Pack 2010.  
+
+## Overview
+Visual Studio can generate load simulating up to 250 virtual users on a local load test run. To simulate more than 250 virtual users and/or to initiate testing from a remote computer requires Visual Studio Load Test Virtual User.  
   
  All load testing performed for this guide was initiated from two computers:  
   
@@ -22,13 +24,9 @@ Visual Studio 2010 Ultimate edition can generate load simulating up to 250 virtu
   
 -   Another computer running as a Load Test Agent only.  
   
- Test results were stored in a remote load test results repository in a SQL Server 2008 R2 database.  
+ Test results were stored in a remote load test results repository in a SQL Server database.  
   
- For more information about using test controllers and test agents to distribute load tests across multiple test machines, see [Distributing Load Tests Across Multiple Test Machines Using Test Controllers and Test Agents](http://go.microsoft.com/fwlink/?LinkId=208406) (http://go.microsoft.com/fwlink/?LinkId=208406).  
+ For more information about using test controllers and test agents to distribute load tests across multiple test machines, see [Distributing Load Tests Across Multiple Test Machines Using Test Controllers and Test Agents](https://msdn.microsoft.com/library/dd728093.aspx).  
   
 ## Install and Configure the Load Test Controller and Load Test Agents  
- To install and configure the load test controller and load test agents, see the following sections in the topic [Installing and Configuring Visual Studio Agents and Test and Build Controllers](http://go.microsoft.com/fwlink/?LinkId=208455) (http://go.microsoft.com/fwlink/?LinkId=208455):  
-  
--   To setup a test controller, follow the procedures in the [Install a Test Controller](http://go.microsoft.com/fwlink/?LinkId=208454) (http://go.microsoft.com/fwlink/?LinkId=208454) section.  
-  
--   To setup test agents, follow the procedures in the [Install a Test Agent](http://go.microsoft.com/fwlink/?LinkId=208456) (http://go.microsoft.com/fwlink/?LinkId=208456) section.
+ To install and configure the load test controller and load test agents, see [Install and configure test agents](https://docs.microsoft.com/visualstudio/test/lab-management/install-configure-test-agents).
