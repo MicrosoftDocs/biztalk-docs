@@ -51,8 +51,8 @@ Because of the critical role that SQL Server plays in any BizTalk Server environ
 > [!IMPORTANT]  
 >  Certain limitations apply when granting the SQL Server service account the Windows Lock Pages in Memory privilege. See the following: 
 >   
->  -   [Buffer Pool Extension](https://docs.microsoft.com/sql/database-engine/configure-windows/buffer-pool-extension)  
-> -   [Enable the Lock Pages in Memory Option ](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
+> - [Buffer Pool Extension](https://docs.microsoft.com/sql/database-engine/configure-windows/buffer-pool-extension)  
+> - [Enable the Lock Pages in Memory Option ](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
   
 ## Grant the SE_MANAGE_VOLUME_NAME right to the SQL Server Service Account  
  Ensure the account running the SQL Server service has the ‘Perform Volume Maintenance Tasks’ Windows privilege or ensure it belongs to a group that does. This will allow instant file Initialization ensuring optimum performance if a database has to Auto-grow.  
@@ -169,7 +169,7 @@ SET PROCESS AFFINITY CPU = 0 to 15
  Implementing Trace Flag –T1118 helps reduce contention across the SQL Server instances by removing almost all single page allocations. For more information, see [KB 328551: PRB: Concurrency enhancements for the tempdb database](https://support.microsoft.com/help/328551/concurrency-enhancements-for-the-tempdb-database).
   
 ## Do not change default SQL Server settings for max degree of parallelism, SQL Server statistics, or database index rebuilds and defragmentation  
- If a SQL Server instance will house BizTalk Server databases, then there are certain SQL Server settings that should not be changed. Specifically, the SQL Server max degree of parallelism, the SQL Server statistics on the MessageBox database, and the settings for the database index rebuilds and defragmentation should not be modified. See [SQL Server Settings That Should Not Be Changed](../technical-guides/sql-server-settings-that-should-not-be-changed.md)
+ If a SQL Server instance will house BizTalk Server databases, then there are certain SQL Server settings that should not be changed. Specifically, the SQL Server max degree of parallelism, the SQL Server statistics on the MessageBox database, and the settings for the database index rebuilds and defragmentation should not be modified. See [SQL Server Settings That Should Not Be Changed](../technical-guides/sql-server-settings-that-should-not-be-changed.md).
   
 ## See Also  
  [Optimizing Database Performance](../technical-guides/optimizing-database-performance.md)
