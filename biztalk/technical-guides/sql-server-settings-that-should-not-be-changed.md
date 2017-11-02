@@ -1,5 +1,6 @@
 ---
-title: "SQL Server Settings That Should Not Be Changed | Microsoft Docs"
+title: "SQL Server settings not to change | Microsoft Docs"
+description: Max Degree of Parallelism, Auto create statistics Auto Update statistics, and rebuilding indexes in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -23,7 +24,7 @@ When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversi
   
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stored procedures provide the correct joins and lock hints wherever possible in order to try to keep the query optimizer from doing much work and changing the plan. These stored procedures provide consistent query executions by constructing the queries such that the query optimizer is taken out of the picture as much as possible.  
   
- For more information, see Microsoft Knowledge Base article 899000, ["The Parallelism setting for the instance of SQL Server when you configure BizTalk Server"](http://go.microsoft.com/fwlink/?LinkId=153432) (http://go.microsoft.com/fwlink/?LinkId=153432).  
+ For more information, see [KB 899000: Parallelism setting for SQL Server instance used by BizTalk Server](https://support.microsoft.com/help/899000/the-parallelism-setting-for-the-instance-of-sql-server-when-you-config).  
   
 ## SQL Server Statistics on the MessageBox Database  
  The following options are turned off by default in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MessageBox database when it is created:  
@@ -38,26 +39,20 @@ When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversi
   
  For more information, see the following Microsoft Knowledge Base articles:  
   
--   **912262**—["The auto update statistics option, the auto create statistics option, and the Parallelism setting are turned off in the SQL Server database instance that hosts the BizTalk Server BizTalkMsgBoxDB database"](http://go.microsoft.com/fwlink/?LinkId=153430) (http://go.microsoft.com/fwlink/?LinkId=153430).  
+-   **912262**—["The auto update statistics option, the auto create statistics option, and the Parallelism setting are turned off in the SQL Server database instance that hosts the BizTalk Server BizTalkMsgBoxDB database"](https://support.microsoft.com/help/912262/the-auto-update-statistics-option-the-auto-create-statistics-option-an).  
   
--   **917845**—["You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](http://go.microsoft.com/fwlink/?LinkId=153429) (http://go.microsoft.com/fwlink/?LinkId=153429).  
+-   **917845**—["You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](https://support.microsoft.com/help/917845/you-experience-blocking--deadlock-conditions--or-other-sql-server-issu).  
   
 ## Changes to the MessageBox Database  
- The MessageBox database should be treated like non-Microsoft application source code. That is, you should not “tweak” the MessageBox database via changes to tables, indexes, stored procedures, and most SQL Server database settings. For more information, in the BizTalk Core Engine's WebLog, see the entry ["What you can and can't do with the MessageBox Database server"](http://go.microsoft.com/fwlink/?LinkId=101577) (http://go.microsoft.com/fwlink/?LinkId=101577).  
+ The MessageBox database should be treated like non-Microsoft application source code. That is, you should not “tweak” the MessageBox database via changes to tables, indexes, stored procedures, and most SQL Server database settings. For more information, in the BizTalk Core Engine's WebLog, see [What you can and can't do with the MessageBox Database server](http://go.microsoft.com/fwlink/p/?LinkId=101577).  
   
 ## Default Settings for the Database Index Rebuilds and Defragmentation  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not support defragmenting indexes. “DBCC INDEXDEFRAG” and “ALTER INDEX … REORGANIZE …” are not supported since they use page locking, which can cause blocking and deadlocks with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does support database index rebuilds (“DBCC DBREINDEX” and “ALTER INDEX … REBUILD …”), but they should only be done during maintenance windows when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not processing data. Index rebuilds while [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is processing data are not supported.  
   
- For more information, see Microsoft Knowledge Base article 917845 [" You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](http://go.microsoft.com/fwlink/?LinkId=153429).  
+ For more information, see [KB 917845: You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](https://support.microsoft.com/help/917845/you-experience-blocking--deadlock-conditions--or-other-sql-server-issu).  
   
  Index fragmentation is not as much of a performance issue for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] as it would be for a DSS system or an OLTP system that performs index scans. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does very selective queries and updates and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stored procedures should not cause table or index scans.  
   
- For more information about index fragmentation and workload types, see ["Microsoft SQL Server 2000 Index Defragmentation Best Practices"](http://go.microsoft.com/fwlink/?LinkId=101580) (http://go.microsoft.com/fwlink/?LinkId=101580). A quote from the article:  
-  
- “As shown in Figure 1, there is little difference between the performance of the stored procedures before and after defragmenting. Because the underlying queries issued by these stored procedures acted upon very selective portions of the data, workload performance was not adversely affected by fragmented indexes.”  
-  
-> [!NOTE]  
->  The contents of the article also apply to [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] and [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)].  
-  
+ 
 ## See Also  
  [Checklist: Configuring SQL Server](~/technical-guides/checklist-configuring-sql-server.md)
