@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d17f218b-f00b-4b3d-907b-f1e415bd108b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TCP Transaction Request Message User Data
 The TCP transaction request message (TRM) User Data programming model allows data and parameters to be exchanged directly between TI and the host TP. The TCP TRM User Data model is based on the CICS Concurrent Server model. The standard Listener uses two network exchanges to execute a single transaction program and requires the client to:  

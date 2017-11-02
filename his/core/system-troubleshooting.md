@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0dad7411-3777-4e6b-85cf-e761df2f3b8a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # System Troubleshooting
 When gathering information about system difficulties, it is best to start with information provided by the Windows Event Log and System Monitor, see [Windows Utilities](../core/windows-utilities.md) for additional information.  

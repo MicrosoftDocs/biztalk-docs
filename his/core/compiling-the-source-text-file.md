@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 07fd0dfb-6478-473c-bc41-3883f033688c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Compiling the Source Text File
 After you have created the source text file, the next step is to compile the file using the Pdfcomp (PDFCOMP.EXE) utility located in the \\*platform*\SYSTEM\PRINTSRV directory. To run Pdfcomp, type the following at the command prompt.  

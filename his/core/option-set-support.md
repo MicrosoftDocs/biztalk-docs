@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 41f8df23-bcbb-4917-9073-fac64b160aa7
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Option Set Support
 The following table lists the option sets supported by [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)]. The reference numbers are those specified in IBM documentation.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4cd3c73d-282c-4c04-8107-a570ed56beb1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Remote Environment Selection with the SelectionHint Property
 Developers can use the `SelectionHint` property to specify a remote environment (RE) programmatically.  

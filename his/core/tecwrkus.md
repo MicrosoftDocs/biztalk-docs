@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a4b76119-58fa-4ac4-80af-6948a6cff40e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # tecwrkus
 Tecwrkus is a 3270 user record, which includes a number of Tecwrksd LU/session information records.  

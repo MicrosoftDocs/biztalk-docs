@@ -8,7 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d6bf8d13-ca71-411f-97e4-ef3ef18dae34
 caps.latest.revision: 10
-author: "MandiOhlinger"
+author: MandiOhlinger
+manager: anneta
 ms.author: "mandia"
 ---
 # Release Notes

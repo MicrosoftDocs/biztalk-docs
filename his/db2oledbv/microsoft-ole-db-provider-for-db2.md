@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0be4e186-9e87-4400-bf2a-f8c7ecb41621
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-kagri"
 ---
 # Microsoft OLE DB Provider for DB2

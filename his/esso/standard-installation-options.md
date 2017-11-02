@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cb3d7d39-39b3-4f8c-a577-67ecde7fd015
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Standard Installation Options
 Host Integration Server takes advantage of the Enterprise Single Sign-On (SSO) capabilities for securely storing critical information.  

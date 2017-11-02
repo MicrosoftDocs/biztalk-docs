@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec1f07fe-b68e-4ae8-a294-d69265e51ee5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_BIND_ROUTINE
 The **SLI_BIND_ROUTINE** verb notifies the Microsoft® Windows® logical unit application (LUA) application that a BIND request has come from the host and allows the user-supplied routine to examine the request and formulate a response.  

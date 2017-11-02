@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 42525c3e-64a6-432b-8e93-b8d44c3f7c3b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WMISNA WMI Provider Classes
 The Microsoft Host Integration Server SNA configuration provider supplies information regarding the SNA service configuration. As an instance and method provider, the WMISNA provider implements the standard **IWbemProviderInit** interface and the following **IWbemServices** methods:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 50d4398d-1886-4330-8e4c-dedc494c5263
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows LUA Asynchronous Support
 Asynchronous verb completion returns immediately from issuing an initial verb (before results have been received) so the application can continue with other processes. A program that issues a verb and does not regain control until the operation completes cannot perform any other operations. This synchronous type of operation, called blocking, is not suited to a server application designed to handle multiple requests from many clients.  

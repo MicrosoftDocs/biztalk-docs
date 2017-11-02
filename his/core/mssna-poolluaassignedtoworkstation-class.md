@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d989fbb4-3d84-4a58-a909-109ff477d885
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_PoolLuaAssignedToWorkstation Class
 Associates an LUA pool with a workstation.  

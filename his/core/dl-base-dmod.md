@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a6bec6f-34a8-4afc-91f3-a1b218111364
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DL-BASE/DMOD
 The following topics describe an example in which a 3270 emulator is to be adapted to use [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)]. The emulator must communicate with the local 2.1 node.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bb58ee58-14bb-4413-a7cf-39885fa00cbe
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapping Properties
 The properties of the **ISSOMapping** interface are listed in the following table. For a complete list of **ISSOMapping** interface members, see [ISSOMapping Members](../esso/issomapping-members.md).  

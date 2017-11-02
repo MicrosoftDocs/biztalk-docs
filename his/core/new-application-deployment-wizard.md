@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_QJRS"
 ms.assetid: 59bdadae-a5c7-42f3-ac41-4b798ebbc6dc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # New Application Deployment Wizard

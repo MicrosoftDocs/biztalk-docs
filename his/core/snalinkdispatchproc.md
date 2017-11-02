@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 90e16c6d-3ff9-460c-a710-72912ce0c55b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNALinkDispatchProc
 The **SNALinkDispatchProc** function is the link dispatcher function. The Base calls this function whenever one of the following events occurs:  

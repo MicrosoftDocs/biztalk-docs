@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60194101-fcd5-4a6b-998b-d2bf675c8018
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Error Codes for Status-Error Messages
 The possible error codes delivered to the function management interface (FMI) application on [Status-Error](../Topic/Status-Error2.md) messages are tabulated in the following table. A **Status-Error** message is delivered to the application in one of several cases, as shown in the following list:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 387b2227-56e0-48ff-a822-529189839d29
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Tracing Link Services
 The following table details link service traces.  

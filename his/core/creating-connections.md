@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 55e4bab3-bcf7-425e-867c-13f006f17582
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating Connections
 With [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)], you can create connections with wizards or manually. Host Integration Server provides you with three wizards to aid you in installing and configuring connections to your host environment (HE).  

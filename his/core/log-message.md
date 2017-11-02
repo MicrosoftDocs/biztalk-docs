@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9011731a-8ec6-42b1-8f1a-e7dbd6985e50
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LOG_MESSAGE
 For OS/2 only, the **LOG_MESSAGE** verb records a message in the error log file and optionally displays the message on the users screen. This verb is included for compatibility with existing applications.  

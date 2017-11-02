@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dd2e2c14-e570-484f-aa4d-da68a212fdea
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Parameter Requirements
 Requirements for the In, In/Out, and Out parameters might affect how you define a Transaction Integrator (TI) component or mainframe transaction program (TP). The In and In/Out parameters are sent to the mainframe-based TP from the TI Automation server. The Out and In/Out parameters are sent from the mainframe-based TP to the TI Automation server.  

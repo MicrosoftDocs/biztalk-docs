@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1febe9bb-8872-4243-8d7a-382a4402812a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Enterprise Single Sign-On System
 Use these topics to view and change the Enterprise Single Sign-On system properties.  

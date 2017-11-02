@@ -11,6 +11,8 @@ f1_keywords:
   - "15471"
 ms.assetid: 95f2cbd5-d078-4339-8d1d-f8b6c68ad45b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Table Member Name Node
 Use the ***data table member name*** node to change the name of the data table member or view its properties.  

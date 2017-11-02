@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_LU_LUa"
 ms.assetid: 54eb9f43-1333-446f-8c37-e7cae04af188
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # 3270 LU Properties: LUA
 The following tabs are available on the 3270 LUA Properties Sheet:  

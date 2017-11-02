@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f39b5efd-2e6d-4d33-b025-a98d0d5c6ced
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Password Synchronization
 Use the SSOCONFIG command-line utility to configure your password synchronization settings. You can use this tool to specify directories for replay files and also change maximum password synchronization age.  

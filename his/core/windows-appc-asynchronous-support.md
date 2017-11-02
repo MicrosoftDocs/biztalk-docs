@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 857b8ed2-6377-46c4-a003-5225c38be911
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows APPC Asynchronous Support
 A program that issues a call and does not regain control until the call completes cannot perform any other operations. This type of operation, referred to as blocking, is not suited to a server application designed to handle multiple requests from many clients. Asynchronous call completion returns the initial call immediately so the application can continue with other processes.  

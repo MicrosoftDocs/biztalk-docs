@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6182dde5-5348-4d57-829d-7941012c023a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Making Connections (SNADIS)
 Before messages can flow across connections, the connections must be established, or opened. This is necessary because a service does not initially know the locality, partner, index (LPI) address of the service with which it wants to communicate. There may not even be a suitable service for it to communicate with.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af51cb71-f79e-42ad-85a0-ebed90c3e7c1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sync Point Attach Manager
 Instead of issuing separate [RECEIVE_ALLOCATE](../Topic/RECEIVE_ALLOCATE2.md) verbs for each possible transaction name, a Sync Point implementation may instead register as the Sync Point Attach Manager for [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)]. It does so by issuing a **RECEIVE_ALLOCATE** verb specifying a TP name consisting of all 0x00s.  

@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 7133786c-389f-46e3-8cdc-97a9ae78188f
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # connectionManager
 The connectionManager element contains the network, security and failover settings for managing in-bound DRDA client connections.  

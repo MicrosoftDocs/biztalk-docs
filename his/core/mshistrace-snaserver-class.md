@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9bcb6fa4-f10a-4c6d-a531-908001e00726
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNAServer Class
 The **MsHisTrace_SNAServer** class represents tracing properties for an SNA service.  

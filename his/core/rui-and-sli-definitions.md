@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 717db68b-2bf6-4b2e-b310-2d63fd48ce75
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RUI and SLI Definitions
 The definitions of the [RUI](../Topic/RUI1.md) and [SLI](../Topic/SLI1.md) functions are as follows:  

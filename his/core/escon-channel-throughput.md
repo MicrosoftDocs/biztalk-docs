@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 55ed1c18-b6fa-4fc2-9601-a93bf828302c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Escon Channel Throughput
 Although the 100baseT LAN can operate with 3–5 MBps throughput range on a heavily loaded system, the Escon channel specified at 17 MBps can reach very close to its maximum specified throughput. Tests done with [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] on a channel-attached quad PP200 were able to reach 12 MBps against a large mainframe using LU 6.2 doing straight memory-to-memory transfer. This rate is not typically reached except during system backup procedures or database distribution.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f57034bb-5b40-4b2c-81a0-fdef348a491b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Specifying SNA Attributes for Remote Environments
 To determine the attributes that are required by Transaction Integrator (TI) when you are creating a new remote environment, see your [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] configuration. To obtain the required attribute values, open Host Integration Server SNA Manager or contact your [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] system administrator.  

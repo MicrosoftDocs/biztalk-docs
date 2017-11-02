@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9a8e9616-7857-4c82-a462-e872cfc4ff60
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # QueryContextInfo
 Use the **QueryContextInfo** method to acquire a count of the entries in a TI Context array, the names of the context entries, and the data types of the context entries.  

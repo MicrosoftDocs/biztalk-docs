@@ -11,6 +11,8 @@ f1_keywords:
   - "15342"
 ms.assetid: 989a6380-3db2-4020-bec4-4d05761e47d0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Computer Node

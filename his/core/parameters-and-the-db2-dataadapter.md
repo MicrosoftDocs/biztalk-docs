@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: caf23cff-cea3-4307-8b8d-35eadbcabe90
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Parameters and the DB2 DataAdapter
 The `DataAdapter` class has four properties that are used to retrieve data from and update data to the data source: the `SelectCommand` property returns data from the data source; the `InsertCommand`, `UpdateCommand`, and `DeleteCommand` properties are used to manage changes at the data source. You must set the `SelectCommand` property before calling the `Fill` method of the `DataAdapter` object. The `InsertCommand`, `UpdateCommand`, or `DeleteCommand` properties must be set before the `Update` method of the `DataAdapter` is called, depending on what changes were made to the data in the `DataSet`. For example, if rows have been added, you must set the `InsertCommand` property before calling the `Update` method. When `Update` is processing an inserted, updated, or deleted row, the `DataAdapter` object uses the respective `Command` property to process the action. Current information about the modified row is passed to the `Command` object through the `Parameters` collection.  

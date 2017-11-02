@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 88b57df9-92c9-4935-b50e-9c025711f097
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Access Tool
 The Data Access Tool enables you to define and test connections to remote IBM DB2 relational database servers and IBM host file systems. You can view configured data sources in a scope (folder browser) and results (list item details) pane. You can use an intuitive Data Source Wizard that guides you through the process of defining, test-verifying, and storing connection information.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bce15017-57a4-4e9c-a495-c2a501d50893
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Import RPG Wizard
 The **Import RPG Wizard** allows you to import the definitions from Report Program Generator (RPG) source code written for use by distributed program call (DPC) applications running on AS/400 computers.  

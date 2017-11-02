@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e9a3ccd7-e1c3-4f7c-908b-3fd305a0193b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LuDisplayAssignedToUser Class
 Associates a display LU with a user.  

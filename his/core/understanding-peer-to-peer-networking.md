@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5edcf4d2-f971-43a0-ba34-61d31b232e62
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Understanding Peer-to-Peer Networking
 Devices in peer-oriented SNA networks participate in Advanced-Peer-to-Peer Networking (APPN). Each device, known as a type 2.1 physical unit (PU 2.1), handles all network routing functions, as well as normal computing activities and applications.  

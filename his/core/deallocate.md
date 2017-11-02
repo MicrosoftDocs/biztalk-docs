@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 519d0075-67c1-4e1e-9267-dd39cd81b835
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DEALLOCATE
 The **DEALLOCATE** verb deallocates a conversation between two transaction programs (TPs).  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 63f02fdc-cdd4-4d88-9a95-71c33bf56513
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # OpenNlsRegistry
 The SNA National Language Support (SNANLS) **OpenNlsRegistry** function opens a registry key on a local or remote computer pointing to the NLS Codepage registry entries.  

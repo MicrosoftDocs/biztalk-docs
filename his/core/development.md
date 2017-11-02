@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 32bb926c-6af6-40fe-b162-df8db9504036
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Development
 The SDK section of Microsoft [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] Help provides information for you to write applications for [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5329f15a-254e-44d2-a0b9-c8cc7aa60cda
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_RECEIVE_IMMEDIATE
 The **MC_RECEIVE_IMMEDIATE** verb receives any data currently available from the partner transaction program (TP). If no data is available, the local TP does not wait. To avoid blocking the conversation, issue [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait.md) in conjunction with [WinAsyncAPPC](../core/winasyncappc.md). The following structure describes the verb control block (VCB) used by the **MC_RECEIVE_IMMEDIATE** verb.  

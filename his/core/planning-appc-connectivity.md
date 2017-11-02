@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bb9e39a5-44cf-47d2-9c4e-80b7e2cebac6
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Planning APPC Connectivity
 A peer-oriented SNA network, using the Advanced Program-to-Program Communications (APPC) protocol, relies on each device in the network to communicate directly with the others. Each computer depends primarily on its own intelligence and does not require constant access to a centrally located host computer.  

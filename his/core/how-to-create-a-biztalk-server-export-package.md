@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f31fb1b4-92f4-47ba-bb38-71ee45937a99
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a BizTalk Server Export Package
 After you finish testing your BizTalk application in your development environment, you can put the associated dependencies into an export package. After you create the export package, you can then move your BizTalk application to a staging or live server.  

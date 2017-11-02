@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7ba81891-e699-4497-af4b-03c31e08108f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_ConnectionX25 Class
 Describes a type of SNA connection that uses X.25 protocol over dial-up or leased lines.  

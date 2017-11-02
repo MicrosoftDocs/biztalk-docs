@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c8adb4e-34d7-4a7e-a942-b256679a9cfc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # AddPerfmonCounters
 The **AddPerfmonCounters** function is used to add Perfmon counters to a link service. This utility function is used to construct an integrated link service configuration dynamic-link library (DLL).  

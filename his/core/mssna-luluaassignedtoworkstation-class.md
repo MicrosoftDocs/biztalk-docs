@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d6bfd353-d7dc-4d16-aecb-30bfae54de41
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LuLuaAssignedToWorkstation Class
 Associates an LUA LU with a workstation.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 93dd4157-a783-419c-8f36-404347c92de3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Mapping Wizard
 Use this wizard to create and configure mappings.  

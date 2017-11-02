@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 144b8f50-9d17-4dea-993e-ba027bfcbf35
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Verifying Host Integration Server Information
 ## See Also  

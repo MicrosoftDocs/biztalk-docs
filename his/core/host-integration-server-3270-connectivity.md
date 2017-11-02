@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 386ba531-c622-49dd-91c5-bbe67889e9b6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server 3270 Connectivity
 In the hierarchical SNA network model most frequently associated with a mainframe computer, you access centralized applications from remote terminals across a network. This network model uses the information display protocol for IBM mainframe computers known as 3270. This protocol facilitates conversations between the mainframe and devices such as terminals, printers, and controllers. Through the definition and assignment of 3270 logical units (LUs), Host Integration Server provides access to mainframe resources.  

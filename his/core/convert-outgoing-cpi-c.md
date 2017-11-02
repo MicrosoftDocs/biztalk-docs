@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d35eed5f-f28c-4057-996b-834bd41eef6e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Convert_Outgoing (CPI-C)
 The **Convert_Outgoing** call (function name **cmcnvo**) converts a string of ASCII characters into EBCDIC. Note that the return conversion can be performed using **Convert_Incoming**.  

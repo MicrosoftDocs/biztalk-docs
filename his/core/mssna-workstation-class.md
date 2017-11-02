@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f0c6dafd-70a7-47f0-ae8b-a4caac8a5fe0
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_Workstation Class
 Describes a workstation configured in SNA, specified by name or IP address.  

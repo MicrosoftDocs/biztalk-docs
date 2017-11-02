@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a5cca54e-330e-4b2c-94c7-57f789af7a63
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOConfigSS.RestoreSecret Method
 The **RestoreSecret** method restores master secrets from the password protected backup file.  

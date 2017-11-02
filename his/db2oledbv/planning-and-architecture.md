@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a55da34-cede-455f-9d42-aa66e26c9795
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # Planning and Architecture

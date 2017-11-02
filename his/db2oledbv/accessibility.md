@@ -8,6 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a48e696-0546-42d0-848a-035f3534bbbd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Accessibility
 Microsoft is committed to making its products and services easier for everyone to use. Microsoft OLE DB Provider for DB2 contains features that make them more accessible for people with disabilities. The topics in this section describe these features.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5c3dbe9b-ca16-45cc-bbca-c747a29d594f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GET_TYPE
 The **GET_TYPE** verb returns the conversation type (basic or mapped) of a particular conversation so the transaction program (TP) can decide whether to use basic or mapped conversation verbs.  

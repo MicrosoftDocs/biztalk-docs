@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d1b42bed-07d5-4075-9a3e-32c4c4621226
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Installation Summary

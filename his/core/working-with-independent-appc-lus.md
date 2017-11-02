@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c2e4314-4ab8-4067-8cb5-8984c2b7e945
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Working with Independent APPC LUs
 An independent LU can communicate directly with a peer system and does not need the support of a host computer. Independent APPC LUs, as used in AS/400 APPN networks, provide the ability to run multiple, concurrent, parallel sessions between a local and remote LU pair.  

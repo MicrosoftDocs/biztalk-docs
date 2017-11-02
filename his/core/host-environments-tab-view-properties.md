@@ -11,6 +11,8 @@ f1_keywords:
   - "15338"
 ms.assetid: df5c4800-7a45-425e-a93d-bf37ca24152b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Host Environments Tab (View Properties)

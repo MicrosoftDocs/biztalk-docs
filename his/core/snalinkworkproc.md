@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e6640357-8b34-422e-b8cf-415ccf641915
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNALinkWorkProc
 The **SNALinkWorkProc** function is the work manager function. The Base calls this function whenever the global Base event is triggered by the SNALink, or at least once every five seconds.  

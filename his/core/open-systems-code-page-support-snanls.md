@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6c0df885-1415-405e-8619-49e24e817535
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Open Systems Code Page Support (SNANLS)
 The following table shows the Open Systems NLS code pages and host character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

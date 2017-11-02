@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a2ca8850-6789-455b-be53-56f126605c06
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Assign an Application to an Adapter
 To process information between a local application and a remote server, an adapter must have one or more applications assigned to it.  

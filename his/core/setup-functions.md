@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f07b656f-eb43-4bc7-b21f-7614d107448c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Setup Functions
 This section provides a reference for the functions used with the integrated link service dynamic-link library (DLL) architecture as well as INF-based Setup.  

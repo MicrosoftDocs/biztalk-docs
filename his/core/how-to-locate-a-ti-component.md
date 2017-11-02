@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0517dc1a-81ee-4a6f-997c-6c631c84693c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Locate a TI Component
 The more remote environments (RE) that you have configured, the more difficult it can be to locate a specific Transaction Integrator (TI) component in TI Manager's console tree. You can, however, easily locate a specific component without expanding all the REs in the console tree.  

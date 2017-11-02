@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 06334fc0-b88b-4c44-9c11-4677a298c989
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sample Code for SNALinkDispatchProc
 This section contains outline source code for the link dispatcher function [SNALinkDispatchProc](../Topic/SNALinkDispatchProc1.md).  

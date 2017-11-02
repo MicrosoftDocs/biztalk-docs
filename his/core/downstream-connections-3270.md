@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 64e99e7c-4e17-44fd-bce7-90377b51cb7e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Downstream Connections (3270)
 A downstream connection enables a remote computer without a direct connection to the host computer to pass information back and forth using Host Integration Server as the gateway. To the downstream system, there appears to be a direct connection to the host. Host Integration Server accomplishes this by passing information back and forth between the downstream system and the host.  

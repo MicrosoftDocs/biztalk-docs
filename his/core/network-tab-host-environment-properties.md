@@ -11,6 +11,8 @@ f1_keywords:
   - "15332"
 ms.assetid: 60ae73aa-63a4-4dde-a67c-53ed9bf75192
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Network Tab (Host Environment Properties)

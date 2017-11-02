@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bf48089c-551c-4251-a8a9-411479b77a86
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Files Designer
 Host File Designer is a graphical user interface for creating Host File components, which are annotated type libraries or assemblies. As with Host Integration Server (HIS) Designer, you can use Host File Designer export or import the COBOL data declarations used in mainframe CICS and IMS programs. Host File Designer is a standalone program that does not need to have connectivity to the mainframe.  

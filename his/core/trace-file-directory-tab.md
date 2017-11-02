@@ -11,6 +11,8 @@ f1_keywords:
   - "trace_trace_file_directory_tab"
 ms.assetid: c158997c-0301-4766-8543-8ddf5272bb69
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Trace File Directory Tab
 The following information details the **Trace File Directory** tab.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 725fc34a-392c-4ec1-bc57-deb69b2dd104
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server Components and NLS Support
 The following table lists the conversion methods and types used by the various components in Microsoft Host Integration Server.  

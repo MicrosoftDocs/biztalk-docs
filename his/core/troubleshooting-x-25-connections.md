@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b19b805-ce10-40da-9b7c-d88470c87b98
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Troubleshooting X.25 Connections
 The following table outlines some ways to interpret symptoms of a nonfunctioning X.25 connection.  

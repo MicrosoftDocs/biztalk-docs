@@ -11,6 +11,8 @@ f1_keywords:
   - "15230"
 ms.assetid: 987146f7-69b3-42fa-afae-e1dc2905f333
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Define Remote Environment Wizard Page (WIP)

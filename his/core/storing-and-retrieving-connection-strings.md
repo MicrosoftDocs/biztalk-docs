@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c32375ba-b254-4c1a-8479-3f03eac58a8f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Storing and Retrieving Connection Strings
 We recommend that you not embed connection strings in your code. If the location of the server ever changes, your application must be recompiled. In addition, unencrypted connection strings that are compiled into an application's source code can be viewed using the MSIL Disassembler (ildasm.exe).  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15459"
 ms.assetid: b898ef4a-b9f5-4ab3-b2e4-c7e93f0a7eb8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Library Wizard Page (.NET Server Wizard)
 Use the **Library** wizard page to identify the .NET server library you are creating.  

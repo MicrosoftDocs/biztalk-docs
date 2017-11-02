@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 59a014ba-57ff-43a7-be92-72defe6d2754
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "plarsen"
 ---
 # Host Integration Designer

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b2e9e4c5-9c2c-466c-8f6c-6fbcbfee591d
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_TN5250Session Class
 The **MsSnaStatus_TN5250Session** class represents a TN5250 session status.  

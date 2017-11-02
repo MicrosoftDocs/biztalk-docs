@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a2cb4c72-b039-403f-b5ee-56d1fb178f0d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # AS/400 Connection Summary
 In the peer-oriented SNA network model, all computers on the network can communicate directly with each other. Advanced Peer-to-Peer Networking (APPN) is the architecture developed by IBM that enables distributed data processing. APPN defines how components communicate with each other, and the level of network-related services, like routing sessions, that are supplied by each computer in the network.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a01c1522-d065-475e-a3fe-0ed14fa9d9dc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Acknowledge(Nack-2)
 The **Status-Acknowledge(Nack-2)** message flows from the node to the application. It is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  

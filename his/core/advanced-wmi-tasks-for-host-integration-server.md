@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ef450811-76ef-4086-9501-f5b1e8174801
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Advanced WMI Tasks for Host Integration Server
 An advanced Windows Management Instrumentation (WMI) task is a task that uses the basic WMI programming tasks to perform an activity specific to Host Integration Server. Generally, an advanced task deals with setting up Host Integration Server on a server, controlling a service or connection, or monitoring an aspect of your enterprise.  

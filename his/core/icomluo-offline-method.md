@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b5136891-0bc4-4772-a37c-e24e01371282
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # IcomLUO.Offline Method
 Switches the LU0 session into an off-line state, which in turn causes the underlying SNA session to deactivate.  

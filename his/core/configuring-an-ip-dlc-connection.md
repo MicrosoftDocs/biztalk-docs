@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ip_dlc_managing_ip_dlc_link_service_connections_kmdz"
 ms.assetid: 4ccd47be-df34-4e22-a748-dc92edbff933
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring an IP-DLC Connection
 As with other connections, configuration requires setting parameters on the **Connection** properties dialog box. It is recommended that you read this section before beginning the configuration process, so that you can gather all the necessary information before you start.  

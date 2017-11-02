@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e00aa42b-3715-4e00-9bd9-cbfb8b899c28
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Resource Message
 [Status-Resource](../Topic/Status-Resource2.md) messages flow between an application and the local node to enable the local node to pace the primary logical unit (PLU) session of the application. They provide the local node with an indication of the buffer resources available at the application to receive outbound messages. With this information, the local node can determine when to send a pacing response. (For more information, see [Pacing and Chunking](../core/pacing-and-chunking.md).)  

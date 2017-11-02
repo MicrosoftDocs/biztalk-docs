@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b3cf7466-d961-4493-97a8-5aad77c9b5c2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Display Connection Status
 Retrieving the status of a connection is a common task that you might want to perform with WMI.  

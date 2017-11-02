@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dabd0fba-9206-4a19-b269-62de51bb4d97
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_SEND_CONVERSATION
 The **MC_SEND_CONVERSATION** verb allocates a session between the local logical unit (LU) and partner LU, sends data on the session, and then deallocates the session.  

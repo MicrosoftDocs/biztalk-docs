@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d717acd4-c15b-4421-a390-c43c7dcb7cd3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SPasswordChangeComplete Fields
 The fields of the **SPasswordChangeComplete** interface is listed in the following table. For a complete list of **SExternal** interface members, see [SPasswordChangeComplete Members](../esso/spasswordchangecomplete-members.md).  

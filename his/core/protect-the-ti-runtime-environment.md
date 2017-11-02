@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: de0c7dba-9754-485e-b989-5cd385e81a27
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protect the TI Runtime Environment
 To prevent an attacker from instantiating multiple Transaction Integrator (TI) components to launch a denial of service attack on the TI runtime environment, you should:  

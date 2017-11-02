@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 88257f1e-05bd-49fb-a82e-ac3ebe6ecb00
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Open(STATION)
 **Open(STATION)** is used by the node to open the STATION LPI connection.

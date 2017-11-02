@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b39ae8be-2f33-415e-864b-1f1fe4340177
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ms.author: "paulettm"
 ---
 # Server Load

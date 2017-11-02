@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eecb6e2c-a78d-47e3-aa9b-67ce176db18e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Structure of SNALink Components
 The components of SNALink are:  

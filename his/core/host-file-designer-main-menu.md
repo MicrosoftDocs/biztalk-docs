@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b2651eab-eefe-49d8-b702-5da02e3771f4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host File Designer Main Menu
 The main menu in Host File Designer presents the **Edit** tab, which contain the following commands:  

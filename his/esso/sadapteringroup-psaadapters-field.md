@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7dc36679-28ed-4d4e-af83-ba06caf55e79
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SAdapterInGroup.psaAdapters Field
 Pointer to a SafeArray of adapter names in the group.  

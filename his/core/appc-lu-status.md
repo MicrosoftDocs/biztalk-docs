@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d102ba27-2c69-4cfa-805d-cf69e7006ba1
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC LU Status
 The status of an Advanced Program-to-Program Communications (APPC) logical unit (LU) will either be Inactive or will show the number of active sessions.  

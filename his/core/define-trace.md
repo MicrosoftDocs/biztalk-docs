@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f23202bc-d2e7-4ca5-8f75-aefdf0bec3a0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DEFINE_TRACE
 The **DEFINE_TRACE** verb enables or disables tracing for specified APIs and controls the amount of tracing.  

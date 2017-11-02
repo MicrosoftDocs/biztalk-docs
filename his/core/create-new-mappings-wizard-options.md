@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b3ed498a-89df-402d-980b-5af8ba96a2fb
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Create New Mappings Wizard: Options
 ## UIElement List  

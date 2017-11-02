@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cc0f12e5-cccb-417a-880e-59e167158559
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ErrorObject Object (OLE DB Provider for DB2)
 The **ErrorObject** object is created by any interface on any DB2 OLE DB object. The **ErrorObject** object is used to retrieve additional information when an error occurs.  

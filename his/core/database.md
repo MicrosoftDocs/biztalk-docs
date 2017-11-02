@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 91a56382-7113-45c8-bbb7-3165a71c08a0
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # database
 The database element contains the network settings for managing out-bound SQL client connections.  

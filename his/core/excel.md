@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cf666c62-b34d-40f7-9824-f162bb92dafd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Excel
 Excel is a spreadsheet program in the Microsoft Office system. You can use Excel to create and format workbooks (a collection of spreadsheets) in order to analyze data and make more informed business decisions. You can use Excel to track data, build models for analyzing data, write formulas to perform calculations on that data, pivot the data in numerous ways, and present data in a variety of professional looking charts.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ad4570cc-9748-45aa-866e-7b54aacf67fe
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Service for DRDA Troubleshooting
 For the most recent version of Microsoft Host Integration Server documentation, see [http://msdn.microsoft.com/library/gg241192.aspx](http://msdn.microsoft.com/library/gg241192.aspx).  

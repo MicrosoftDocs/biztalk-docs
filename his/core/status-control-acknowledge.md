@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fc9e99f4-e690-4295-80d8-0e0a5d2365b9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Control(...) Acknowledge
 The **Status-Control(...) Acknowledge** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

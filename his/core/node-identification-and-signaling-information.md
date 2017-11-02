@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9ecbefb3-639c-4769-a2c2-d0974dc3e179
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Node Identification and Signaling Information
 For information about the role an SNALink plays in node identification, see [Incoming Call Support](../core/incoming-call-support-snadis.md).  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc785b73-64a5-470d-971c-c60bf82492a3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Message Descriptor Properties
 The following table shows the complete set of available Message Descriptor (MQMD structure) properties and their corresponding types and values. These are part of the MQSeries.dll assembly that is deployed with the server-based MQSeries Adapter. The same assembly is used by the MQSC Adapter.  

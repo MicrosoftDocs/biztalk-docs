@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a7c5b40d-4914-408a-946a-0befe9018d4a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Structure Shortcut Menu
 When you select a structure type in the tree view in HIS Designer, the following shortcut menu commands are displayed.  

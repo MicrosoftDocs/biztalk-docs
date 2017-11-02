@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c70902b3-1f07-44d9-af20-ee48fa24d28b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fConnectRegistry
 The **fConnectRegistry** function is used to connect to a remote computer's registry and return a handle to the remote registry. This utility function is used to construct an integrated link service configuration DLL.  

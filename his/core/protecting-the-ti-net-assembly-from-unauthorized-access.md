@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 37b0ad05-29d5-4a7f-8336-c9af6e89f033
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protecting the TI .NET Assembly from Unauthorized Access
 To prevent an attacker from viewing or modifying the contents of a Transaction Integrator (TI) .NET assembly and then using that information to either create a client application which spoofs the identity of an authorized user or modify the custom properties of the component, you should:  

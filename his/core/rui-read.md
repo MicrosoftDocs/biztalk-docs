@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa095980-a3a8-4c8c-8505-210aaaca17a3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RUI_READ
 The **RUI_READ** verb receives responses, SNA commands, and data into a Microsoft® Windows® logical unit application (LUA) applications buffer.  

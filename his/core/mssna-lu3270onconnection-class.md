@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6002e765-bf21-4a71-b0a4-83b90f480afc
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_Lu3270OnConnection Class
 Associates a 3270 LU with a connection.  

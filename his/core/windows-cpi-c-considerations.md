@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b34a661b-7f4f-4a0e-86ba-369434f76fd5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows CPI-C Considerations
 The following Common Programming Interface for Communications (CPI-C) calls and Windows extensions are of particular importance. You should review them before using [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

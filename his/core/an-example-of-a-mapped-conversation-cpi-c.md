@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e07e8123-9ca3-4cf3-ba27-853a5fd9a56a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # An Example of a Mapped Conversation (CPI-C)
 The following example of a mapped conversation shows the Common Programming Interface for Communications (CPI-C) calls used to start a conversation, exchange data, and end the conversation. Call parameters are in parentheses.  

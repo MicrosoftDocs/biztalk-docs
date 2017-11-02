@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a205b2d7-8922-4f7d-b8fd-f71098506ab7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # External Computer Response Time
 External computer response time is sometimes referred to as end-user response time or end-to-end response time. It is the actual response time that the client application that is running on the computer sees.  

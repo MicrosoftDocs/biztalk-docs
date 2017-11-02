@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d747d592-b572-4d17-a7df-b976ef90b8b0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sync Point Session Activation
 If [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] is to support Sync Point conversations, this must be specified at session activation time. The configuration of Host Integration Server is modified to allow the system administrator to specify which (if any) local LUs will be used for Sync Point conversations.  

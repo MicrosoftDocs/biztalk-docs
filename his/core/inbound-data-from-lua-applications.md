@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dc16dac8-6ddf-4343-9e19-93278064f548
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Inbound Data from LUA Applications
 The local node performs certain checks on data supplied by a client application before sending it to the host and rejects it with a [Status-Acknowledge(Nack-2)](../Topic/Status-Acknowledge\(Nack-2\)1.md) message if the checks fail. It does not return any acknowledgment to the application if the data passes the checks (although the host may do so later).  

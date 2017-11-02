@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 897e4b4a-5483-48f7-81f4-b6b1903c348f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Differences by Information Type
 Differences in the implementation of the **DISPLAY** verb between [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] and IBM ES for OS/2 are described in this section by information type. For each information type, there is a topic that describes:  

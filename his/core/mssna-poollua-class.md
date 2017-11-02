@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4862fc3e-bb36-4651-9868-faa979d7312f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_PoolLua Class
 The 3270 LU LUA pool.  

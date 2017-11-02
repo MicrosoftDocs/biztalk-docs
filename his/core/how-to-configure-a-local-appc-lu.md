@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cc3089bb-ec42-4b43-a10e-fd771237c758
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure a Local APPC LU
 The following procedure details how to configure a local APPC LU.  

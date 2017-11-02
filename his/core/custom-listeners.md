@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 6cd5fffa-e5d1-4506-a9cf-fcb1dccf0212
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Custom Listeners
 A number of the DRDA Service listeners are replaceable with custom listeners for trace output and package bind output.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0032b5c9-8d77-44a7-a2bb-e07f86038c92
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Applications
 Advanced Program-to-Program Communications (APPC) can be used to support a wide range of applications. This section describes how Host Integration Server is used to support the following services:  

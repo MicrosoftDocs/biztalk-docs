@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9be6e0e1-de26-40a9-90cf-ce3bcac0a1eb
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_ConnectionUsingAdapter Class
 Associates a connection with an adapter.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_UPYA"
 ms.assetid: 104386c8-da9f-4a29-b18e-5c00758f68e6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Object Wizard (for HIP)

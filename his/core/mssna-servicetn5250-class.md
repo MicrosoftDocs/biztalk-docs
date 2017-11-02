@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 92d5e098-05da-4d39-a8ab-6101db1f92b1
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_ServiceTN5250 Class
 Enables clients to connect via the TN5250 protocol to a host.  

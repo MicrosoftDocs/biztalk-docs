@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df8209a8-9864-4a18-b393-9051c05ce65c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Step 1 (L) Creating and Configuring Link Services
 This section details creating and configuring link services. The maximum number of 802.2 link services that one Host Integration Server computer can support is:  

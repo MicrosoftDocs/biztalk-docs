@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a13b8194-1b43-4125-9a41-dbb981e6e896
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOConfigSS.GetFilePasswordReminder Method
 The **GetFilePasswordReminder** method gets the password reminder from the backup file.  

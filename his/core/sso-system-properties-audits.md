@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 19dfb065-14d1-4fa1-a0b7-bc7c89fdd78b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SSO System Properties: Audits
 These properties define the sizes of the audit tables in the Enterprise Single Sign-On (SSO) database.  

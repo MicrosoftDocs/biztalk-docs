@@ -11,6 +11,8 @@ f1_keywords:
   - "15432"
 ms.assetid: 092cec85-16ec-475f-aadc-4853b178146f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Recordset Properties
 Use the **Recordset** properties page to set design and host definition properties on a recordset.  

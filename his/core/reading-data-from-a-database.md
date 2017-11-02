@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc3a5b72-9e9b-4656-bc01-7889c2c9892b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Reading Data from a Database
 You can use <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> to retrieve a read-only, forward-only stream of data from a database. Using <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> can increase application performance and reduce system overhead because only one row at a time is ever in memory.  

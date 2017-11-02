@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 78eda385-c210-440c-8017-d85b9917f8ff
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Securing the TN3270 and TN5250 Services
 You can help secure TN3270 and TN5250 services by specifying client workstation IP addresses that have permission to use the resources provided. With TN3270E clients, you can specify a workstation name in place of the client IP address.  

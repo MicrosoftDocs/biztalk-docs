@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 97a24ed4-229b-4ed1-952e-cff9dc6df2d8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Introduction to CPI-C
 Common Programming Interface for Communications (CPI-C) is an application programming interface (API) that enables peer-to-peer communications among programs in a Systems Network Architecture (SNA) environment.  

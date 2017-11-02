@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c82b86fe-b7a0-402b-a2e6-74b4827f017b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Matching Invoking and Invokable TPs (CPI-C)
 Each  SNA service maintains a list of available invokable transaction program (TP) names and any logical unit (LU) aliases to be associated with the TP names. This information is obtained as follows:  

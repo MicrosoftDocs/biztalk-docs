@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c88902c7-7d02-414a-9fcf-b334a17d7cb2
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOLookup2 Interface (COM)
 The **ISSOLookup2** interface provides a lookup for user credentials associated with an application.  

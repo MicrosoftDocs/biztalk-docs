@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 83177f25-1d10-45a8-8d1f-754a5b1f3ccc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Simplifying CPI-C Configuration (CPI-C)
 There are several features in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] that can simplify configuration for Common Programming Interface for Communications (CPI-C):  

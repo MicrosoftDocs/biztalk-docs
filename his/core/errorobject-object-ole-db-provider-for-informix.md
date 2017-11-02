@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 2e372167-698b-4340-b475-c282e41d1f37
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # ErrorObject Object (OLE DB Provider for Informix)
 The **ErrorObject** object is created by any interface on any Informix OLE DB object. The **ErrorObject** object is used to retrieve additional information when an error occurs.  

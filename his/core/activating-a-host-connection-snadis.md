@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d4a69bd-1cc1-4cf3-aea5-3f6eb2e12f72
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Activating a Host Connection (SNADIS)
 A host connection can be activated over a leased synchronous data link control (SDLC) line, X.25, 802.2, or a switched SDLC line. This section describes the activation procedures for each type of connection.  

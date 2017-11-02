@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c5715915-ae25-4fd2-b984-25e80033d3ee
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managed Provider for DB2 with Visual Studio
 You can create a project that uses the managed provider for DB2 with Visual Studio as you would any other project. The following topics describe any issues that are unique to this provider.  

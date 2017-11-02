@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 56eac5d8-b71d-4fd8-8461-62657070dbea
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Limitations
 The following describes the limitations on SQL statements for the Managed Provider for Host Files.  

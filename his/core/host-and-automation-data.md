@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea6fac7b-220c-47c7-ba65-ee6acf62225b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host and Automation Data
 The topics in this section cover issues around working with Windows-based Automation data and COBOL-based mainframe data.  

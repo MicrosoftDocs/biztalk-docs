@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7d5745b3-0448-47e5-bcaf-bcba472fc206
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOPSWrapper Members
 The following table shows the ISSOPSWraper members.  

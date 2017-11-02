@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8b793f4-c759-4724-8d75-307be942578e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.getCursorPosition Method
 The getCursorPosition method retrieves the current cursor position as an offset of the 3270 display buffer.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "mqb_mqi_channels_tab"
 ms.assetid: 53c055da-8059-4373-9aa3-cb6931c13ab8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MQ Channel (MQ Channel Library Wizard)
 Specify information for the MQ channel to connect to the host.  

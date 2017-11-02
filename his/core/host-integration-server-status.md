@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e37bb505-9bbb-48e3-93e0-560b444366fd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server Status
 The [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] SNA Manager provides valuable status information for Host Integration Server computers within a SNA subdomain. You can view the status of connections, LUs, and print sessions.  

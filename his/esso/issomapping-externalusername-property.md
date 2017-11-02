@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 39894280-560d-4416-ba71-30e82eef1ad5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapping.ExternalUserName Property
 The **ExternalUserName** property specifies the external (non-Microsoft Windows) user name.  

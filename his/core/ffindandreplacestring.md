@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0e556c38-8a32-458f-823d-4fb12e2a05a4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fFindAndReplaceString
 The **fFindAndReplaceString** function is used to find and replace a substring within a string. This utility function is used to construct an integrated link service configuration DLL.  

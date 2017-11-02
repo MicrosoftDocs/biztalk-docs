@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 54e89a40-a7dd-40cd-bb9a-63186063cb66
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CPI-C Functions Not Supported (CPI-C)
 The Microsoft® Windows® CPI-C implementation does not support the following CPI-C 1.2 functions.  

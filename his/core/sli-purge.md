@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa7e551c-572e-4c1e-852b-ca28a0ac27c0
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_PURGE
 The **SLI_PURGE** verb cancels [SLI_RECEIVE](../core/sli-receive.md) verbs issued with a wait condition.  

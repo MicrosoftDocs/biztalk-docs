@@ -11,6 +11,8 @@ f1_keywords:
   - "15390"
 ms.assetid: 06186e04-d82e-49a2-853c-4015e79ddd36
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Credentials for Service &lt;application name&gt; Dialog Box

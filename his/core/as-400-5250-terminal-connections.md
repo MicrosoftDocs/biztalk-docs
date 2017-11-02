@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d5d4c58b-8fb9-44c4-991e-41c4431864e6
 caps.latest.revision: 3
+author: MandiOhlinger
 ---
 # AS/400 5250 Terminal Connections
 Host Integration Server computers provide access to AS/400 computers by emulating 5250 display terminals. A 5250 user communicating with an AS/400 must use a pair of APPC LUs (LU 6.2). This pair contains a local LU and a remote LU (as viewed by the Host Integration Server computer). Together, these two LUs (along with the mode that they use) contain the configuration information needed for establishing a session with the AS/400 computer.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 508c561d-6ee7-4813-863e-4faaa16fd6e9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_Lu3270AssignedToPool Class
 Associates a 3270 LU with a pool.  

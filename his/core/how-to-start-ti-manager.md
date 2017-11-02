@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6e65d569-2312-4a0d-84af-8b2205bd51bf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Start TI Manager
 You can start TI (Transaction Integrator) Manager many different ways:  

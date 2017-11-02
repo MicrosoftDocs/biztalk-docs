@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 57869d64-7234-4fb4-a8ad-1c4c4e670ad8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Client Interface Files for 3270 Applications
 The files listed in the following table are required to build 3270 client applications for use with Microsoft® Host Integration Server.  

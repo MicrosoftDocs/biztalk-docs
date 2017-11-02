@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 87e993cf-6a4c-4535-b858-44e23a933806
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOAdmin.GetGlobalInfo Method
 The **GetGlobalInfo** method gets the global Enterprise Single Sign-On (SSO) configuration information from the Enterprise Single Sign-On server database.  

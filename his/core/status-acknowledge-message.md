@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a47d910e-644e-49f3-aaba-37844e595aca
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Acknowledge Message
 **Status-Acknowledge** messages are the basic mechanism used to enforce inbound and outbound data acknowledgment protocols on all connections. For details about the use of **Status-Acknowledge** messages, see [Outbound Data](../core/outbound-data.md) and [Inbound Data](../core/inbound-data.md).  

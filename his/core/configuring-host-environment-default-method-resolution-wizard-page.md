@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c4ad17f0-e8b8-41a2-b67c-a62c3a352143
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configuring Host Environment Default Method Resolution Wizard Page

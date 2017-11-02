@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 04cf13be-88fd-43a8-af93-5bfde264e9f3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows LUA Considerations
 The following Windows extensions are of particular importance and should be reviewed before using the logical unit application (LUA) application programming interface (API) and this version of [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)]:  

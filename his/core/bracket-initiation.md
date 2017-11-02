@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa6e6dc5-81aa-4af2-8d27-cf5d65dc11e4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Bracket Initiation
 While a session is in the between-bracket state, contention exists. Either the application or the host primary logical unit (PLU) can attempt to initiate a bracket, as follows:  

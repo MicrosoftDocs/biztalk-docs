@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ef50ff69-c0b9-4794-a5c1-0fcfd9849726
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Linkcfg Error Messages
 The LinkCfg command utility returns the following codes and their corresponding messages. If you use the Windows Command Prompt, you only see the message. If you use Microsoft's System Management Server (SMS) to distribute link services across clients, you see the message and return code.  

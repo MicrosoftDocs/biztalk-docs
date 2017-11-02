@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 736ec1f3-336b-4bb1-91ef-4d1add420332
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Invokable TPs on Host Integration Server
 For a computer running [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] to receive allocation requests from an invoking TP on another system and route those requests to an invokable TP, certain parameters must be configured correctly:  

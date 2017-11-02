@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: efe4f455-2a08-4d90-bffb-544285927376
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring an IP-DLC Link Service
 As with other link services, configuration requires setting parameters on the **Link Service Properties** dialog box. It is recommended that you read this section before beginning the configuration process, so that you can gather all the necessary information before you start.  

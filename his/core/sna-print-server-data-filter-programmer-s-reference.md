@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fe26ec67-8ecd-4f52-850b-574d241148d5
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Print Server Data Filter Programmer&#39;s Reference
 The Host Print Service feature of Host Integration Server 2013 provides server-based 3270 and 5250 printer emulation, enabling host applications to print to a Local Area Network (LAN) printer supported by Windows operating systems. This section introduces the SNA Print Server Data Filter API (sometimes referred to as the Print Exit API) that can be used to extend the capabilities of the Host Print Service in Host Integration Server.  

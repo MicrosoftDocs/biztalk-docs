@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80516be7-dd32-4918-8964-b8f658c86e24
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # TCPIP Network Client Errors
 The following table lists TCPIP Network Client error constants, values, SqlState, SqlCode and a description of the error.  

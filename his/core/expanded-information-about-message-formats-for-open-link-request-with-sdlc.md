@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ca0e0307-f3a0-472d-86e4-dbe37fae9c46
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Expanded Information About Message Formats for Open(LINK) Request with SDLC
 The following list supplements the information found in the table in [Open(LINK) Request](../core/open-link-request.md). The timers described in the lists are used by a synchronous data link control (SDLC) link service to determine when to retry communication and when to generate outages. Generally, after the time interval specified by the time-out (usually 1000 milliseconds), the communication is retried. The cycle of time-out and retry is repeated until the retry limit is reached. Then an [Outage](../core/outage.md) message is sent by the SDLC link service.  

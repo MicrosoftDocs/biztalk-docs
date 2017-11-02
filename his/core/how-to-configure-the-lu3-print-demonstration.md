@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 96450189-3f8d-4504-afb0-96fecf6e8609
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure the LU3 Print Demonstration
 Use the following procedure to configure the LU3 Print Demonstration link service.  

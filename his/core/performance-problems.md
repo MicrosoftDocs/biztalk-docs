@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 81bcc50f-bc11-494c-875e-fd59ed0b049a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Performance Problems
 The topics in this section will help you maximize performance when using Host Integration Server.  

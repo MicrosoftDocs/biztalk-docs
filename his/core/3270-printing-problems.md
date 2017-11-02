@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 81d9cf81-6c93-4af2-a821-81105612ff65
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # 3270 Printing Problems
 The 3270 datastream was not designed for proportional fonts. This can cause problems in some print jobs, resulting in characters that overlap. The advanced settings of the Print Server Properties page allows you to configure Host Print Service to use a different method of positioning characters.  

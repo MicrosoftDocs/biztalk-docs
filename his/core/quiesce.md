@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7073f50-a70f-42fc-b431-cf35973ea358
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Quiesce
 The quiesce protocol is only supported on sessions using function management (FM) profile 4. The quiesce protocol can be initiated by either half-session.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 04338b82-3c6d-45a9-88f4-ac3dc2c02a05
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fQueryRegistryValue
 The **fQueryRegistryValue** function is used to query a value from the registry. This utility function is used to construct an integrated link service configuration DLL.  

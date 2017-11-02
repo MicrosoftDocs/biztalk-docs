@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a876dbf6-6ba0-4192-9c9c-752b29438bc7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Enable Enterprise Single Sign-On
 The enabling command enables the entire Enterprise Single Sign-On (SSO) system. After you run the enabling command, there is a short delay before all Single Sign-On servers are enabled, because each server polls the Credential database for the latest global information.  

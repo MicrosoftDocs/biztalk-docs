@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 517ae082-6425-4ce1-84bb-54ac0731ac84
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Retrieve Connection Information
 Another common task you may want to perform with Windows Management Instrumentation (WMI) for Host Integration Server is retrieving information regarding a connection.  

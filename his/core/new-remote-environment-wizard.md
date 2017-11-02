@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_VRWP"
 ms.assetid: b6ded5a8-6d4f-43b3-b6f6-1e91bbb9c243
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # New Remote Environment Wizard

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d8bb02af-282b-4956-afe1-c0f92b6e32d1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration for CPI-C Programs
 In addition to maintaining the side information (specified by *sym_dest_name*), the system administrator must define the following entities during configuration:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a5e3f97d-c6f9-4d27-b77c-43e23206ffd3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Print a Component Description
 Use the **Print** command in Host Integration Server Designer (HIS Designer) to print a description of the current component. This printed description includes the following:  

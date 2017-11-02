@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8f830d7f-59c2-4325-8a2e-da22eacb0c10
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sessions and Connections
 An application using the function management interface (FMI) can communicate with the host on two SNA sessions as described in the following list:  

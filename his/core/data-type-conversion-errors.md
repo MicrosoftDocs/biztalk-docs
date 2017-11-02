@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d42742f-9c1a-407d-b8dd-3c1c65458e38
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Type Conversion Errors
 A message indicating that a data type conversion could not take place uses a numeric code to identify the data type. The following tables translate the numeric codes into their equivalent variant data types (for Visual C++) and Automation data types (for Visual Basic).  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7aa4f7e-b4bb-460a-acb1-ae070acd01b5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IcomLU0 Methods
 The methods of the IcomLU0 interfaces are listed in the following table. For a complete list of the IcomLU0 members, see [IcomLU0 Members](../core/icomlu0-members.md).  

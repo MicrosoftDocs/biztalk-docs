@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8ed41551-190b-4446-8645-4d7ba8463d5a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Constructing an Integrated Link Service DLL on Host Integration Server
 Microsoft Host Integration Server provides an enhanced method for installing integrated link services that enables remote setup and administration of new link services, as well as support for setup and configuration using a command-line tool. This feature is based on the link service provider supplying a setup and configuration DLL exporting a specific list of functions. A developer must follow certain standards for using this SNA link service configuration DLL (linkcfg) and set various keys and values as registry settings to be used by Host Integration Server for link service configuration.  

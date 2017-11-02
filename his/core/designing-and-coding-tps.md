@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4f769b43-8f1e-47ea-aa54-ea3620f01cb2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Designing and Coding TPs
 The following topics provide background information about designing and coding transaction programs (TPs).  

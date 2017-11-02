@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 41d4ba28-4ca0-4bd9-babb-8926124f45b5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Secure Deployment of the IP-DLC Link Service
 The IP-DLC link service takes advantage of the entire [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] secure deployment feature set, especially the following:  

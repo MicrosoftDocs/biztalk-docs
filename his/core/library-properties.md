@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 40410896-9305-441b-8009-11e816ade368
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Library Properties
 Use the **Library** properties page to set design and remote environment (RE) properties on the component library or .NET assembly.  

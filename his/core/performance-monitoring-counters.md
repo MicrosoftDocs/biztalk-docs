@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 56c5abf3-922c-4dfc-aed7-a27b0a3a415f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Performance Monitoring Counters
 Transaction Integrator (TI) has 24 basic performance monitoring counters that you can add to the Windows System Monitor to analyze performance and find out where the bottlenecks are in your system. You can select any of the counters, and then click **Explain** to get information about that counter.  

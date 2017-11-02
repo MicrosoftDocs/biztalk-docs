@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1a54053b-20d4-4682-9853-448892fb0e7a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Buffer Element Format
 The following table lists the common fields that always occur at the start of a buffer element. The **dataru** field contains information specific to the particular message. For details about individual message formats, see [FMI Message Formats](../Topic/FMI%20Message%20Formats1.md).  

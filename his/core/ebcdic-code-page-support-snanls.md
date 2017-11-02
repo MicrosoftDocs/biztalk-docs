@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cd02fb8e-68f8-4844-930f-518df5c99356
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # EBCDIC Code Page Support (SNANLS)
 The following table shows the EBCDIC code pages and character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

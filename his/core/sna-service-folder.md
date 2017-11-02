@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Node"
 ms.assetid: e2067e95-f029-48d2-8a65-f22bdf06f144
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Service Folder
 This folder contains the SNA service installed on this [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer. Each Host Integration Server computer can have a maximum of four SNA services installed and active at one time.  

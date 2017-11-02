@@ -13,6 +13,8 @@ helpviewer_keywords:
   - "15229"
 ms.assetid: 7fbe9e71-7ae3-461b-9989-1a68f9b4809d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Define Environment Characteristics for the .NET Object Wizard Page (WIP)

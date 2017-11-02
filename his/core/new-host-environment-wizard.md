@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_FHSW"
 ms.assetid: 99b54b04-9d4b-4d3b-b211-282ede6acb1c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # New Host Environment Wizard

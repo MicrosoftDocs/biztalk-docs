@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dfeebbb7-0ad0-4949-9b81-88000a45f7a1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Office
 Organizations face a broad set of business challenges that database technologies address, from running mission-critical applications to enabling the productivity of business users tracking personal and team-specific data. Information Technology (IT) groups often lack the staff and resources to solve all these problems. Microsoft Office productivity applications empower business users to solve their own problems without relying on IT assistance while enabling IT professionals to access and integrate data across their enterprise organization.  

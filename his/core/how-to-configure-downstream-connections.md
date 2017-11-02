@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9a9dd2ab-6205-46e9-950b-8eaf6bc135b7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure Downstream Connections
 You can configure [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] to enable downstream LUs to communicate with the host. Following are the general procedures:  

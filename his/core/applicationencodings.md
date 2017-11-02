@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 525fc42d-a621-48a0-8e1a-cbde7f841e99
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # applicationEncodings
 The applicationEncodings element contains applicationEncoding elements for specifying default application-level encoding schemes on a per-database basis.  

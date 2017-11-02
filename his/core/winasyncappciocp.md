@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a183065d-6709-481e-b7ab-04342721c2ae
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinAsyncAPPCIOCP
 The **WinAsyncAPPCIOCP** function provides an asynchronous entry point for all of the APPC verbs. Use this function instead of the blocking versions of the verbs to allow multiple sessions to be handled on the same thread using I/O completion ports. This verb is only supported on Microsoft Windows, and uses Win32 I/O completion ports.  

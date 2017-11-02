@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5955d0a0-92ee-4766-bac2-2950dc85b490
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Open(PLU) OResponse
 The **Open(PLU) OK Response** message flows from the application to the node. It is used with a primary logical unit (PLU) connection.  

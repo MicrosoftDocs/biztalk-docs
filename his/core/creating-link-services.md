@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 108cda4f-571b-4008-b88f-94ddf7febf44
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating Link Services
 By default, when [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] is installed, all the software files required by all standard link services are copied to the server, but the link services themselves are not installed or configured.  

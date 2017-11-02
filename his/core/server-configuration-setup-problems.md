@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7cd444a8-4c02-49ac-a7ca-feb16da478af
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Server Configuration Setup Problems
 If a server is set up incorrectly, SNA Manager allows the administrator to make changes. Right-click the server that you want to modify.  

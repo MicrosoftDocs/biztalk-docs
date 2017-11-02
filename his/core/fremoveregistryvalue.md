@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 506ec5df-28a5-4fe1-9354-7cc034751fa1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fRemoveRegistryValue
 The **fRemoveRegistryValue** function is used to remove a registry value from the registry. This utility function is used to construct an integrated link service configuration DLL.  

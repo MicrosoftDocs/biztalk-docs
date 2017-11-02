@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.serviceaccountsview"
 ms.assetid: ba47dc53-eceb-4475-8734-75df409a68c6
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # View Configuration of Services
 Use this page to view a list of features and the accounts used to run the services used in your configuration.  

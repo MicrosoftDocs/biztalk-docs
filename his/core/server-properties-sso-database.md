@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e9a9061d-20e6-40d4-b7cb-b0b8446041ad
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Server Properties: SSO Database
 This screen displays information about the SSO Database.  

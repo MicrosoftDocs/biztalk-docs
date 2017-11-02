@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 6ea5c0c8-3721-41c5-a303-721312fc2170
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # dateMasks
 The DRDA Service will process string literal date values within DB2 and SQL Server DATE, CHAR (10), and VARCHAR (10) data types, to convert from DB2 date format to SQL Server date format, and to convert from SQL Server date format to DB2 date format. The dateMasks contains one or more dateMask elements to define date mappings.  

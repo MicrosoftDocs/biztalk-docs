@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6bfcd539-a7b0-40e8-bc07-219e9fead4e8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # True User Response Time
 The true user response time is the time that the whole transaction takes to process. This is measured on the user-interface level. The difference in the true user response time and the external computer response time for Transaction Integrator (TI) transactions depends on how much of the processing is done on the client itself. For the FAT client approach, the opportunities to have "business logic" on the client side are greater than that of the thin client. The thin client processing typically involves just screen presentation processing delays.  

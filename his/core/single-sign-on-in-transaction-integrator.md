@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ef78e04-731a-409a-ba29-d9628d92f39f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Single Sign-On in Transaction Integrator
 Single Sign-On (SSO) is a mechanism that enables a user to enter a user name and password once to access multiple applications. It gives users simplified logon and maintenance of the many passwords needed to access Windows and back end systems and/or applications. It enables applications to integrate by automating the process of logging on to the host/backend system.  

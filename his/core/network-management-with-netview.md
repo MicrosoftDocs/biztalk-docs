@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ca88666d-cb53-43f6-b863-c4855cdcfda4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Management with NetView
 This section describes the support that [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] provides for centralized network management.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bac8a3c4-faf7-4223-b75a-b921f200ec53
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Run the 3270 Client Demonstration
 The following procedure details running the 3270 continuous demonstration.  

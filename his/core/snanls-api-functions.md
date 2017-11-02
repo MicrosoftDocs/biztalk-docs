@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 325bc1c3-e6e2-40a2-9e1e-18ac711550fe
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNANLS API Functions
 The SNA National Language Support (SNANLS) API is documented in the SNANLS.H file in the software development kit (SDK) provided with [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

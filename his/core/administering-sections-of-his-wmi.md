@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 62658af5-463c-4bde-8f8c-8ea830cf5bb8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Administering Sections of HIS (WMI)
 [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] is included with Windows Management Instrumentation (WMI) providers that grant administrative access to the following areas:  

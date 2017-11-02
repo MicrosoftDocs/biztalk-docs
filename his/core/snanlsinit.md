@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d563fcdc-5cb9-444a-aa79-78e2ef20eba4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SnaNlsInit
 The **SnaNlsInit** function is called to determine if the code page needed is supported by code page translations using SNA National Language Support (SNANLS). This enables an application to determine if the necessary NLS language files containing code page translation tables are installed on the local system.  

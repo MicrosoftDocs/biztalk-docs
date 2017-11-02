@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0e72e91f-04ed-4e7c-b9e3-e9d8d944b9af
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Solution Explorer Shortcut Menu
 When you select a Transaction Integrator-compatible file in Solution Explorer, the appropriate context-sensitive, or shortcut menu commands are displayed.  

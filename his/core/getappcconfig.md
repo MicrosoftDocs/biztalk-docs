@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d7b92ade-7ffb-4380-9720-bd1ee47b11aa
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GetAppcConfig
 The **GetAppcConfig** function provides an asynchronous entry point for retrieving the remote systems to which a particular local LU can connect.  

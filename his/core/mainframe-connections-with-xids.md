@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0b16406-3098-4e95-8b2f-d075dc579319
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Mainframe Connections with XIDs
 Node ID is the identifier used for exchange identifications (XIDs) with most mainframes. Check to make sure that the following items match; if they do not, [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] is not identifying itself in a way that the host can recognize.  

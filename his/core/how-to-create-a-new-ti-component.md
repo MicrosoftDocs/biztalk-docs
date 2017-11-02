@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0c0e6198-69b7-4ca3-9480-ca24eec46a4a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a New TI Component
 Use Host Integration Server Designer (HIS Designer) to create a new Transaction Integrator (TI) component and populate it with methods.  

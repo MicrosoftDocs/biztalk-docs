@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 62fe3791-7c79-4c90-97bb-0ea482b454c2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA RUI Verbs
 This section describes the Microsoft® Windows® logical unit application (LUA) Request Unit Interface (RUI) verbs. It provides the following information for each RUI verb:  

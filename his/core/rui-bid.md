@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 601af589-2cac-4594-990c-07ed54749c47
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RUI_BID
 The **RUI_BID** verb notifies the Request Unit Interface (RUI) application that a message is waiting to be read using [RUI_READ](../core/rui-read.md).  

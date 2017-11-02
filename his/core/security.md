@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 99a850c3-75d6-4427-a993-b4a15bbe603e
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Security
 The DRDA Service provides cross-platform database access and interoperability through distributed unit of work (DUW) transactions for on-line and batch processing. The DRDA Service connects IBM DB2 DRDA Application Requester client programs to Microsoft SQL Server databases. The DRDA Service functions as an application server supporting the Distributed Relational Database Architecture (DRDA) protocols and formats that are compatible with IBM products functioning as DB2 application requester clients.  

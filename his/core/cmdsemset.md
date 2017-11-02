@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ecb73d36-143f-45da-b139-d750b010f441
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CMDSemSet
 The **CMDSemSet** function sets a RAM semaphore.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 27d70a0a-5542-4a94-925a-0d6ffb5df438
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_TN3270Session Class
 The **MsSnaStatus_TN3270Session** class represents a TN3270 session status.  

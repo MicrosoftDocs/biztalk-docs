@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fba6d5b5-fa53-44f5-9cc8-1de5a4cb4dfe
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Modem API
 This section provides reference material for the SNA Modem API structure and functions.  

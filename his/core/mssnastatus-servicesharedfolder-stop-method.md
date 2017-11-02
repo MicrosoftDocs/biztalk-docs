@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 441bb1a9-5556-465c-a27b-686efaaca62a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_ServiceSharedFolder.Stop Method
 Stops the service.  

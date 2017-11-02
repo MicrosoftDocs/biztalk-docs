@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8d055e0-be94-4b55-bc55-d413a4796fb9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinRUIGetLastInitStatus
 The **WinRUIGetLastInitStatus** function enables an application to determine the status of an [RUI_INIT](../core/rui-init.md), so that the application can evaluate whether the **RUI_INIT** should be timed out. This extension can be used to initiate status reporting, terminate status reporting, or find the current status. For details, see the Remarks section.  

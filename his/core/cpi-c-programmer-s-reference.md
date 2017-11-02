@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fde0eda5-6ba0-4fb3-be41-6c4fb904ed07
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CPI-C Programmer&#39;s Reference
 This section of the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about the calls, extensions, and return codes that make up the CPI-C.  

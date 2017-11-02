@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bcc30a34-7488-4013-b6d0-c692a352f107
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # OLE DB Interface Support in the OLE DB Provider for Informix

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0d24a781-a455-4740-ba3a-92599517e514
 caps.latest.revision: 8
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Links (DB2)
 Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog to configure connections to IBM DB2 database servers. Data Links can save a data source definition as an OLE DB universal data link (UDL) file, which allows the user to share configurations between applications, users, and computers.  

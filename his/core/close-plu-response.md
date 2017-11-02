@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9842a61d-2312-4765-bff5-9fe8dc459908
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Close(PLU) Response
 The **Close(PLU) Response** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

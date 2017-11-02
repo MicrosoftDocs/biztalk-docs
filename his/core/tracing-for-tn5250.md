@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: de49e4a2-4146-4f76-83db-2fab7d78ed10
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Tracing for TN5250
 You can enable or disable tracing for TN5250 using the [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] Trace application. Host Integration Server Trace provides API, internal, and message tracing.  

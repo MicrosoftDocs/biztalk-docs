@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ca97bcb-38ff-44ff-b77a-30815dd17a92
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Non-APPC LU Status
 The status of a non-Advanced Program-to-Program Communications (APPC) logical unit (LU) can be:  

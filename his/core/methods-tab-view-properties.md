@@ -11,6 +11,8 @@ f1_keywords:
   - "15337"
 ms.assetid: 51c1c4ef-1276-4665-86b6-932e1d11df73
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Methods Tab (View Properties)

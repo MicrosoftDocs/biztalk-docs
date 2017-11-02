@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 602a14c9-84b6-4eae-88ed-db1200c18958
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TPs with Explicit SYNCPOINT Commands
 CICS LU 6.2 Link transaction programs (TPs) cannot use explicit EXEC SYNCPOINT commands to control the transaction semantics of COM+ transactions. However, if an existing CICS Link TP does issue explicit EXEC SYNCPOINT commands, you do not need to modify the TP to have it work successfully with TI. You need only meet the following two requirements for TI components that execute within the transaction.  

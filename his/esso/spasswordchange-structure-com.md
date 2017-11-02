@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9e4568ed-0a07-43fc-a7c0-076efe7a22ba
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SPasswordChange Structure (COM)
 Describes change to a password.  

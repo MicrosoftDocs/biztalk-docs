@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 067a6382-eb6e-4d34-880a-0602411032dd
 caps.latest.revision: 11
+author: MandiOhlinger
+manager: anneta
 ---
 # What&#39;s New in HIS 2013
 The following sections in this topic contain information about new features and enhancements in [!INCLUDE[hishostintegrationserver2009](../install-and-config-guides/includes/hishostintegrationserver2009-md.md)].  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 824bda63-9fe4-40d1-bbcb-0370f4392efb
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # tecwrksd
 Tecwrksd is a logical unit (LU)/session information record, which includes details of a 3270 LU.  

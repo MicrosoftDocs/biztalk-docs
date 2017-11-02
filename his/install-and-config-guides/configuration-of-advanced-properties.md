@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.common.settings.advanced"
 ms.assetid: 3bafd904-736f-4cd9-81b4-c965654c92c7
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration of Advanced Properties
 Configure the following settings as desired:  

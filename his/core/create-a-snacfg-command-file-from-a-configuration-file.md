@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 961e3c86-1a15-41ff-b176-5c9925928510
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Create a Snacfg Command File from a Configuration File
 To create lines for a **snacfg** command file, you can type them, or you can generate them by using the **/print** option. The **/print** option accesses an existing configuration file and generates the command-line(s) required to add an individual resource or (depending on syntax) the entire configuration file.  

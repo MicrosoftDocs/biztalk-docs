@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9f510dab-bc0c-452d-9899-16ae897b2203
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Union Member Properties
 Lists the properties of the Union Member. Depending on the Host Data Type, the list may include:  

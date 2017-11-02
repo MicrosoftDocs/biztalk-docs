@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 37cbd5b8-6cc7-4d91-8296-5a2a6a975b81
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Entity Framework
 The Entity Framework is a set of technologies in ADO.NET that facilitate the development of data-oriented applications. Architects and developers of data-oriented applications need to achieve two very different objectives. They must model the entities, relationships, and logic of the business problems, and they must also work with the underlying data storage engines. Data may also span multiple storage systems, each with its own protocols. For applications that work with a single storage system, the requirements of the storage system must be balanced against the requirements of writing efficient and maintainable application code.  

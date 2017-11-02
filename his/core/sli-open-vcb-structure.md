@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 48a259fa-cd88-41e3-acd7-a489f8872f7f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_OPEN VCB Structure
 The following structure shows the **SLI_OPEN** fields of the **LUA SPECIFIC** union member for the [SLI_OPEN](../core/sli-open.md) verb.  

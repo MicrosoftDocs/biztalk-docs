@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bed9080e-10ae-49c3-8adf-395b2fb812cb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ConfigureLinkServiceEx
 The **ConfigureLinkServiceEx** function is used to add or modify a link service. This function must be exported from a link service configuration dynamic-link library (DLL)  supplied with each link service.  

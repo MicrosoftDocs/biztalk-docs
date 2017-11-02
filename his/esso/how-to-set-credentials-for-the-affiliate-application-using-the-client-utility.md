@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e565fe22-6805-4ec8-9fc5-dd5ef88e752c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Set Credentials for the Affiliate Application Using the Client Utility
 Use the **setcredentials** command to set the credentials for a user so that the user can access a specific application.  

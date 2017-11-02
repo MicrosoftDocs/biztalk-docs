@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b618e084-062f-4550-af76-b2be99ce57db
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Starting the SNA Trace Utility
 The following topics explain how to start the SNA Trace Utility from the SNA Manager, from the Windows **Start** menu, or from a command prompt.  

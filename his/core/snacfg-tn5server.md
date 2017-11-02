@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 014bf3b3-2e18-4abd-a5db-a43307d5ce59
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Snacfg TN5Server
 ## Purpose  

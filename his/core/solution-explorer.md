@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b54aa562-d27c-45fb-b3e0-9a4470bcb687
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Solution Explorer
 Visual Studio Solution Explorer provides an organized view of projects and their files, in addition to access to available commands and toolbars. The following files are supported by the project:  

@@ -8,7 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ebd6725d-4d90-42d5-b33d-c2b008a0eedf
 caps.latest.revision: 6
-author: "MandiOhlinger"
+author: MandiOhlinger
+manager: anneta
 ms.author: "mandia"
 ---
 # HIS 2016 - What&#39;s New, Release Notes, System Requirements, and Installation

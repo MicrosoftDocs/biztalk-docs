@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 484c1529-5587-42a3-b588-02a91644e5c2
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Control(...) Request
 The **Status-Control(...) Request** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

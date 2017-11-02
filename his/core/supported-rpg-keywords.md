@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 92da4efc-cdd2-4625-bb05-2631569e90d5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Supported RPG Keywords
 Transaction Integrator (TI) supports the following Report Program Generator (RPG) keywords:  

@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.network.integration.advanced"
 ms.assetid: 6ccadbc7-0464-4733-8cf8-3ebb50b10813
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration of Advanced Network Properties
 ## UIElement List  

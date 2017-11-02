@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 65f28bb3-af82-447c-ba34-869ab9840a7d
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Integration (Operations)
 This section contains topics relating to operations and performance.  

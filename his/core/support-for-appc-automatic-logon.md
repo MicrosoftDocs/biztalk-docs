@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ebf9e8c-bee3-4ed2-8de1-0a5a069d015c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Support for APPC Automatic Logon
 This section describes the support for automatic logon for Advanced Program-to-Program Communications (APPC) applications available in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)]. This feature requires specific configuration by the network administrator.  

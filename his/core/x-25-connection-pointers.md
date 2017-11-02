@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 57e2f671-1ecb-4d47-a58c-7fd05ed071e8
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # X.25 Connection Pointers
 An X.25 connection uses a packet-switching network, and communicates through the Qualified Logical Link Control (QLLC) protocol. Connections are configured through SNA Manager. The steps for configuring an X.25 connection are described in detail in [Important Connection Information](../Topic/Important%20Connection%20Information1.md). The following pointers indicate items that require special attention:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6df5a7ab-e911-4a19-bd17-f5f9656b3ae6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Support for ODBC Connection Attributes
 The following table lists the ODBC connection attributes support using the Microsoft ODBC Driver for DB2. Note that the connection attributes in this list use the ODBC Version 3.0 attribute names, rather than the older ODBC 1.0 names.  

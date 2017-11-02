@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.databaseview"
 ms.assetid: 9d0745f3-3d1e-4f07-9b10-0b2bc223f30b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # View Configuration of Databases
 Use the **Consolidated Databases View**page to view a list of features, servers, databases, and data stores used in your configuration.  

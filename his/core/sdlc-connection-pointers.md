@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8b6ae3aa-bbaf-4135-8531-df6807192d36
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SDLC Connection Pointers
 Connections are configured through the SNA Manager. The steps for configuring an SDLC connection are described in detail in [Important Connection Information](../Topic/Important%20Connection%20Information1.md). The following pointers indicate items that require special attention:  

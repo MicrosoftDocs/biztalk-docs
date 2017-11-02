@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0841c52a-7b15-45f8-9900-f5c9e3abd90b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Back Up the Master Secret
 You can back up the master secret from the master secret server onto an NTFS file system or removable media, such as a floppy disk.  

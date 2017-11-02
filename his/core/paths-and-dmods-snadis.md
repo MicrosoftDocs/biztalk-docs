@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f4772aed-51c5-4a59-870a-14269b6facd3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Paths and DMODs (SNADIS)
 Dynamic Access Modules (DMODs) are responsible for the communication between localities. When the DMODs in two localities can successfully pass messages between them, a path is said to exist between the two localities. A path must exist between two localities before a connection can exist between partners in those localities.  

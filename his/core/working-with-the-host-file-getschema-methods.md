@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0c7bd95a-6d88-4f1b-bb64-c6b894527065
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Working with the Host File GetSchema Methods
 The Managed Provider for Host File `HostFileConnection` class implements a `GetSchema` method, which is used to retrieve schema information about the file system that is currently connected. The schema information that is returned from the `GetSchema` method comes in the form of a `DataTable` object. The `GetSchema` method is an overloaded method that provides optional parameters for specifying the schema collection to return, and restricting the amount of information that is returned.  

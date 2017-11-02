@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b7ad4e57-dc39-479e-8fb5-e6bd0aec9e38
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Replication
 SQL Server replication consists of a set of technologies that allow you to distribute and synchronize data to different locations and to remote or mobile users over local and wide area networks, dial-up connections, wireless connections, and the Internet.  

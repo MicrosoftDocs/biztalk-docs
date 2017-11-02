@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8be9c45f-27ef-4cd7-912b-92fd6fda7371
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Connection Problems
 ## In This Section  

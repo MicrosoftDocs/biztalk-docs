@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e573c41e-b75e-4d92-854b-11fa26f2a8e7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Link Control Interface
 The data link control (DLC) interface defines the interface between the local 2.1 node and an SNALink. The DLC interface is defined in terms of the messages that are sent across the interface. Note that this is logically distinct from the definition of the Base/Dynamic Access Module (DMOD) interface, which defines the API used to send messages between two components in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] (for example, between the local node and an SNALink).  

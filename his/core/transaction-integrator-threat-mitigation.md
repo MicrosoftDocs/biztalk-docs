@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 68854feb-caab-488f-83f0-2da7d2e4cb01
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Transaction Integrator Threat Mitigation
 Product security is a top priority across Microsoft. Beginning with the Windows Security Push in 2002, Microsoft has invested additional time and resources to developing more secure code and detailed instructions for deploying and securing your computing environment. The [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] product team conducted a complete threat modeling analysis to identify and mitigate potential areas of concern. A threat model is a security-based analysis that helps you determine the highest-level security risks posed to a product or application and how attacks can manifest themselves.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16da1be6-9957-461c-a8d5-146ca218673d
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_PrintSession3270 Class
 Extends a print session.  

@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 4e5f5039-adbd-4033-9ef6-d00420fecea9
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # hostIntegration.drdaAs.drdaService
 The hostIntegration.drdaAs.drdaService is the main portion of the MsDrdaService.exe.config file and contains a services element.  

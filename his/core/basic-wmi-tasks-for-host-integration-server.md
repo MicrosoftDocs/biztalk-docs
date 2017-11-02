@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0197dece-a9b9-4859-8eab-28852262e911
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Basic WMI Tasks for Host Integration Server
 Regardless of what you may want to do with Windows Management Instrumentation (WMI), most actions you will perform with it are one of the following: logging on to WMI, getting or setting WMI properties, or calling WMI methods.  

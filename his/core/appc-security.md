@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5b3cc852-bcd1-4254-bb68-64beff6e9d34
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Security
 Owners of APPC transaction programs may want to allow only a limited set of users to start the program. APPC provides a mechanism, called APPC conversation security, by which the client transaction program identifies its user to the server system.  

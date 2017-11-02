@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4ae99984-81a7-4351-b2b5-3f0bacc4ca7a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Single Sign-On Interface
 The following table describes the COM and .NET Framework interfaces that make up the Single Sign-On interface.  

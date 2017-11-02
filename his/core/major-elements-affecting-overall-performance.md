@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0cfacd3d-d95b-4865-ab75-dd05f8ba5804
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Major Elements Affecting Overall Performance
 Several factors contribute to the total user response time, often called the *response time budget*. To analyze the total system response time more easily, divide the response time into the parts of the system that play a major role in the total response time budget. The following figure shows the main divisions.  

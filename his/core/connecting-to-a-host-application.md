@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bb19d081-0cbb-4357-87d8-ce310b64cf90
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Connecting to a Host Application
 After defining session settings, you can automatically connect to the host every time you start the 3270 Client.  

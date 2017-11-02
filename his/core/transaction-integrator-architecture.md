@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dd490ba6-d982-45a7-937d-2fb7b6e56e25
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Transaction Integrator Architecture
 Transaction Integrator (TI) integrates the IBM Customer Information Control System (CICS), Information Management System (IMS) transaction programs (TP), and OS/400 applications with the .NET Framework by doing the following:  

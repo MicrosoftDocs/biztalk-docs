@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 438af0fa-b087-4856-b146-8275b57be481
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_PoolDisplay Class
 Contains the 3270 LU Display pool.  

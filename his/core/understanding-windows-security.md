@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3d41fe16-800d-4a87-b5d6-cdca0ec42d50
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Understanding Windows Security
 This section presents general security information.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aba95d20-af09-4a9b-b928-39e894d4ae9c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LinkService_IpDlc.GetAllNetworkAdapters Method
 The **GetAllNetworkAdapters** method returns the list of all network adapters with the IP protocols enabled.  

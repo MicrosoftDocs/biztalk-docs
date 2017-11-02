@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d3cb6d5a-2bce-47d8-a44f-5700d7586800
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data
 **Data** messages carry both inbound and outbound data between the application and the local node on all connections. For a detailed description of outbound and inbound data flows, see [Data Flow](../Topic/Data%20Flow2.md).  

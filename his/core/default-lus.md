@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 028bc723-82c5-4095-a899-2868272f7ae8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Default LUs
 Any LU can be configured to be in a pool of default local LUs available for use by invoking transaction programs (TPs).  

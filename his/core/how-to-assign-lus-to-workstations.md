@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c5666a4-ea06-447f-94ee-285dda6a2927
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Assign LUs to Workstations
 You can assign LUs to a workstation rather than a user, which makes it possible to lock LUs to a particular workstation. Assigning an LU to a workstation makes it easier for users to find and access different resources. For example, it makes it easier for a user at a workstation to use a printer located near the workstation, instead of one assigned to the user.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 049b6331-3854-49e6-9df0-572057d120f7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Function Management Interface
 The function management interface (FMI) provides applications with direct access to SNA data flows and information about SNA control flows by means of status messages. This section provides information about the SNA sessions and connections over which FMI messages can flow, and summarizes the messages. The FMI is particularly suited to the requirements of 3270 emulation applications.  

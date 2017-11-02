@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 67c60193-6042-44a7-8b7d-a449f52f9ef5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Segment Delivery
 If the maximum request/response unit (RU) size for a session (supplied in the **BIND** parameters) allows RUs that are larger than the maximum size of a data link control transmission unit, for example, a Synchronous Data Link Control (SDLC) frame, the local node's path control is responsible for assembling outbound segments into RUs and segmenting inbound RUs where required.  

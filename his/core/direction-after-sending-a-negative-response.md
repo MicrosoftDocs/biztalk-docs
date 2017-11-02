@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 02a78093-3219-40b2-8874-6315fc18fd60
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Direction after Sending a Negative Response
 When an application using half-duplex flip-flop protocol sends a negative response to an outbound chain (or sends a [Status-Acknowledge(Ack)](../Topic/Status-Acknowledge\(Ack\)1.md) to a **DATAFMI** message with **SDI** set) that does not refer to a race, the application must assume an error recovery pending state. The sense codes used for race conditions that do not require the transition to error recovery pending state are listed in the following table.  

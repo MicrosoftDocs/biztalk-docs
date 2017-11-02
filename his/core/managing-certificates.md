@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db8e44e6-90ea-454f-b5c8-fc81a3159d33
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managing Certificates
 The SChannel API uses certificates to provide its security features.  

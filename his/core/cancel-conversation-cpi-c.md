@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 962d1db2-1ff9-4f3a-967b-4f6e601f2743
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Cancel_Conversation (CPI-C)
 The **Cancel_Conversation** call (function name **cmcanc**) cancels any outstanding operation on a conversation (an operation returned with CM_OPERATION_INCOMPLETE) and the conversation itself.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0ee110a-95e2-4821-8f9a-efc3b8039c68
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Writing Portable LUA Applications
 Use the following guidelines for writing logical unit application (LUA) applications that are portable to other environments:  

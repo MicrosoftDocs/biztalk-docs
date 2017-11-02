@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8d0c453-d0b9-44fb-8d79-15dfcdc1856a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Opening a Connection
 Before a locality partner index (LPI) connection can be used to transfer data, it needs to be opened. This is performed by sending Open messages, starting with an Open request. The format of an Open message is defined by the interface being used. For example, the 3270 emulator uses the function management interface (FMI) to communicate with the local 2.1 node.  

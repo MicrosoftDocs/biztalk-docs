@@ -11,6 +11,8 @@ f1_keywords:
   - "15235"
 ms.assetid: 97f9c0eb-7a53-4e0a-ad47-220b869fc66a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Remote Environment Selection Page

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 97c2985d-8ebb-40f8-b388-0e6ee19ef571
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Problems with Other Features
 ## In This Section  

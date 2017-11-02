@@ -11,6 +11,8 @@ f1_keywords:
   - "15232"
 ms.assetid: 1eab70d0-0c46-43f9-aefd-a55d7ad74a9f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Port List Editing Dialog Box

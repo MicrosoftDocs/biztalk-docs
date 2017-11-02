@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0e056dc3-ace4-4e7c-800d-7d58384a3281
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CreateSNARegEntry
 The **CreateSNARegEntry** function creates the necessary entries for an instance in the **SOFTWARE\Microsoft** registry tree. If the product is not already in the registry, it creates an entry for the product. It then creates an entry for the particular instance of the product and for the **NetRules** key under that entry. This function leaves open handles to all the important subkeys for further use.  

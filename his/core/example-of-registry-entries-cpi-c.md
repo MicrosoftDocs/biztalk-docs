@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3dcf6fb5-f0fd-4124-8b91-96982883ca6f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Example of Registry Entries (CPI-C)
 For an autostarted invokable transaction program (TP) called **BounceTP** and running as a service, the following registry entries might be added to a client computer. The entries would be added to **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services**, under the subkeys shown in bold type.  

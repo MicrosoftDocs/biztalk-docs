@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 50deaf5e-0150-4fba-9a5e-38aa1fa13d9c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DLC Information Transfer
 When the local node has opened the LINK and STATION LPI connections and received a [Station-Contacted](../Topic/Station-Contacted2.md) message from the SNALink for a remote station, it can exchange data using the data link control (DLC) interface with the physical unit (PU) and associated logical units (LUs) at the remote station.  

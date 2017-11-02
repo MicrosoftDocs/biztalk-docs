@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 357b211d-d479-4404-932d-1e1789591fbe
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sync Point Knows Transaction Names
 A Sync Point implementation that knows the names of all the transactions that can be supported (for example, through configuration of the gateway) may accept incoming Sync Point conversations by issuing a [RECEIVE_ALLOCATE](../Topic/RECEIVE_ALLOCATE2.md) verb specifying the name of the transaction and indicating that it is willing to accept Sync Point conversations.  

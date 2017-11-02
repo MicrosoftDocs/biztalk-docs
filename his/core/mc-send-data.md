@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8dcab8be-cb3f-4b0c-b443-dc2fc695a1f6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_SEND_DATA
 The **MC_SEND_DATA** verb places data in the local logical unit's (LU) send buffer for transmission to the partner transaction program (TP).  

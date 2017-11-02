@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_LU_Down"
 ms.assetid: e067d050-a262-4fe2-8939-23be8d6cca1a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # 3270 LU Properties: Down Stream
 **Enter the LU Number for LUs on 802.2, SDLC, or X.25.**  

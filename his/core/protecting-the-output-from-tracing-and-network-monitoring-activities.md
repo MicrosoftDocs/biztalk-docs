@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 21048daf-1093-4c91-a08d-20811ae93312
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protecting the Output from Tracing and Network Monitoring Activities
 To prevent an attacker from viewing the user credential information that might be stored in trace files or network monitoring files, you should:  

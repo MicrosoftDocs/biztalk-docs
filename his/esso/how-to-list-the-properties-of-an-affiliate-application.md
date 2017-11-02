@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fac15775-39d0-470e-b9d2-21b2d02e1de7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to List the Properties of an Affiliate Application
 The **displayapp** command shows the following information about the affiliate application. For more information about the properties for an affiliate application, see [SSO Affiliate Applications](../esso/sso-affiliate-applications.md).  

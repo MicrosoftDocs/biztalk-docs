@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c5b025f6-f80b-451f-bef9-dfca7e698e4a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Product Entries
 All of the information relevant to the product as a whole resides in the registry under the key **SOFTWARE\Microsoft**. Each product or link support has an entry whose name consists of the product name and version separated by an underscore. This key contains most of the information about the product, such as the script name and option name that control it and the service name for that particular instance.  

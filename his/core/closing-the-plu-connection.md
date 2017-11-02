@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba0bf357-7632-4c38-9979-336de4c0c02a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Closing the PLU Connection
 Either the application or the local node can terminate the primary logical unit (PLU) connection. The criteria for closing are:  

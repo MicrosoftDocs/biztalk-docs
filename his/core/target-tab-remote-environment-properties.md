@@ -11,6 +11,8 @@ f1_keywords:
   - "15216"
 ms.assetid: 50d52097-fba1-4e38-ac3d-96a8c309ae42
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Target Tab (Remote Environment Properties)

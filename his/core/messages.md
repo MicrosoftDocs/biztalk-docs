@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 58db9398-ad90-4058-9bf2-d9052c1786f0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Messages
 Messages are used to pass data between partners in Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)]. This section provides information about message formats.  

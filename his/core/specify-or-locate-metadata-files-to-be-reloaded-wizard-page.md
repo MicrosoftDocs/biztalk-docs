@@ -11,6 +11,8 @@ f1_keywords:
   - "15387"
 ms.assetid: 475fda05-9453-45c7-9b7b-e873d19bd33c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Specify or Locate Metadata Files to be Reloaded Wizard Page

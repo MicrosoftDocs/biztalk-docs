@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba30a25a-9e34-4cb2-bba8-5c8856157815
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Outage
 Flow : DLC ------> NODE (link or station connection)  

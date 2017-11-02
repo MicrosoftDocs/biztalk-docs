@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 207e697b-4f33-443f-a2b8-333e4ebfaa3a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Providers for DB2
 This document provides information that will help you configure data sources for use with the Microsoft ADO.NET Data Provider for DB2, Entity Provider for DB2, BizTalk Adapter for DB2, and OLE DB Provider for DB2 (Data Provider) by using the tools described in the following sections.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b02b239d-04a2-4707-a8fa-d26222019d3d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Clients to Support TPs (CPI-C)
 On client computers, invokable transaction programs (TPs) are configured through the Windows registry.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d528846f-8191-4d60-a2a1-feb142279098
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Reference
 The following section describes the data types and context properties for the Client-Based BizTalk adapter for WebSphere MQ.  

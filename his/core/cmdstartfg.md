@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ada69bd-720b-4670-b0ab-84050e395b01
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CMDStartFG
 The **CMDStartFG** function requests that scheduling of the foreground thread be resumed.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6baae608-dd20-4087-aad0-60e2c79e90ab
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Deployment Overview
 The system in this example is deployed over three domains, and contains the following computers:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b6d25db8-ab1f-4fcd-8091-5898607d82aa
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # USERID
 Use the **USERID** keyword, combined with **PASSWORD**, to provide explicit security without the need for a callback. The COMTIContext context name is **USERID**; the value must be a string that contains a valid mainframe security user ID.  

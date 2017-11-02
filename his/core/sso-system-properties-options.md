@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8dd0e706-995e-424d-b1d3-f6e0d803cce3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SSO System Properties: Options
 This screen displays options for the overall Enterprise Single Sign-On (SSO) system.  

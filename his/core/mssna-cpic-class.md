@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c93129ac-b4ca-413e-a612-52a2cc4caaa0
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_Cpic Class
 A global CPI-C definition for APPC.  

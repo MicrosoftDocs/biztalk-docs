@@ -11,6 +11,8 @@ f1_keywords:
   - "15359"
 ms.assetid: 3329def9-5460-433f-b399-ecdbe777741c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Completing the New Application Deployment Wizard Page

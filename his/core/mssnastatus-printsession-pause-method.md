@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60b5516f-7c50-43c4-9cd8-b2921ee13899
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_PrintSession.Pause Method
 Pauses the print session.  

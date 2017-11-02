@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5b181b5f-5b1b-4a70-881f-4278fee35913
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Specify_Local_TP_Name (CPI-C)
 The **Specify_Local_TP_Name** call (function name **cmsltp**) is issued by the program to indicate that it is able to accept incoming conversations that are directed to the name given.  

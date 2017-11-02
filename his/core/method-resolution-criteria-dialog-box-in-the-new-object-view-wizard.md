@@ -11,6 +11,8 @@ f1_keywords:
   - "15309"
 ms.assetid: fb6a3571-8ae5-4d59-a828-e2484810cbd1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Method Resolution Criteria Dialog Box (in the New Object View Wizard)

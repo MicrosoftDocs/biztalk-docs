@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9b77de57-6973-446c-ab4f-82ababe1e0c5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GrepUniqueServiceInfo
 The **GrepUniqueServiceInfo** function is used to determine information about a particular instance when only one of the four elements (index, name, title, or description) is available. Because there is no way to determine the position of an element in a list, it is hard to figure out the respective name, title, or description of an instance given only the index. This function searches the list and returns the rest of the information about the instance.  

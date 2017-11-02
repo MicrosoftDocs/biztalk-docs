@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d5d9353-e147-47c3-8452-e156ad8f068e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Associate 3270 Printer LUs with 3270 Display LUs
 Users who have host applications with direct relationships between display LUs and printer LUs can associate printers with the LUs.  

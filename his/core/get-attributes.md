@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3583176c-2b6f-436f-ab53-231826b4eba3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GET_ATTRIBUTES
 The **GET_ATTRIBUTES** verb returns the attributes of the conversation.  

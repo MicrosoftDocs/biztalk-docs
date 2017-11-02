@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b28d466b-064d-4248-966f-433708c6011e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270 Methods
 The methods of the Icom3720 interfaces are listed in the following table. For a complete list of the IcomLU0 members, see [Icom3270 Members](../core/icom3270-members.md).  

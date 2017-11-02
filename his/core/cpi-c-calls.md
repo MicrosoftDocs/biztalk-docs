@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9b1371ec-6d65-406c-b044-7315c459afc9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CPI-C Calls
 This section describes the Common Programming Interface for Communications (CPI-C) calls. The following information is supplied for each call:  

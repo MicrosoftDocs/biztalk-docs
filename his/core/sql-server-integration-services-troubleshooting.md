@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5aebf5f8-f606-40ce-9c08-78af833ded4a
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # SQL Server Integration Services (Troubleshooting)
 You can customize the default data conversions by using the SQL Server Integration Services Import and Export Wizard to edit data type mapping files. The mapping files define data type mappings between the data source and the destination, and are defined in XML format. When you edit the XML files, you ensure compatibility between the source and destination.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d69c762c-84c3-44bf-afc0-f79e41ed23e4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Filler
 This section provides recommendations for handling COBOL-based filler data.  

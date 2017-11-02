@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 55e3cf84-1893-4023-82c5-5f8f313adf5f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Testing Connections
 The topics in this section detail testing, including running and configuring, the 3270 and 5250 Client applications.  

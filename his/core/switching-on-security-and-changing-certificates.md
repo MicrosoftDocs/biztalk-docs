@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b837431f-de12-487b-88aa-1411d238b6bf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Switching on Security and Changing Certificates
 To support security, the TN server needs to load a server authentication certificate. This is done when a TN server receives a configuration requiring security (for example, at least one port is configured to a security level other than Unsecure) for the first time. After a certificate has been loaded successfully, the certificate cannot be changed without restarting the TN server.  

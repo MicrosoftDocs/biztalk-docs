@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a4f35cf-8ad1-4965-b2b0-46e0e422bca9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Processing Servers for Enterprise Single Sign-On
 In a multicomputer environment, after the master secret server and Single Sign-On (SSO) database have been created, you can install Enterprise Single Sign-On on subsequent computers. These are typically the computers on which either BizTalk Server or Host Integration Server is installed as well.  

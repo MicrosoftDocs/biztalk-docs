@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ac05c5aa-5ecd-4138-baa2-6b07797fe3e0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Maximum Buffer Sizes for Remote Environments
 Both Transaction Integrator (TI) and mainframe applications must be designed not to exceed the following buffer size or transfer limitations:  

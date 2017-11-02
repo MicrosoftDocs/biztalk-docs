@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f9b54038-e44e-48ce-bebc-af4986409788
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA_SPECIFIC.SLI_OPEN
 The following structure shows the **SLI_OPEN** fields of the **LUA SPECIFIC** union member for the [SLI_OPEN](../core/sli-open.md) verb.  

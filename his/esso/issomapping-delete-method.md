@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9ab5decb-78c6-4de3-9643-9053646d593c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapping.Delete Method
 The **Delete** method deletes the mapping.  

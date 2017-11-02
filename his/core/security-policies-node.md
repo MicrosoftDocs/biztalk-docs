@@ -11,6 +11,8 @@ f1_keywords:
   - "15375"
 ms.assetid: 42697439-e897-4884-b3b9-4acaad46c681
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Security Policies Node

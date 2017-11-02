@@ -11,6 +11,8 @@ f1_keywords:
   - "15307"
 ms.assetid: 65d4969f-7fc1-49fc-a310-a6f7fe778545
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure a New Object View Wizard Page (Deployment)

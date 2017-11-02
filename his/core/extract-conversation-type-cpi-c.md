@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3eff9b34-24be-44b2-8d8b-f517f066e164
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Extract_Conversation_Type (CPI-C)
 The **Extract_Conversation_Type** call (function name **cmect**) returns the conversation type—mapped or basic—of the specified conversation.  

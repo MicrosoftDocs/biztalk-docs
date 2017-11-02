@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ca4035c-fe76-4ca4-8e99-2c341fe9e9e2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Conversation_Security_User_ID (CPI-C)
 The **Set_Conversation_Security_User_ID** call (function name **cmscsu**) is issued by the invoking program to specify the user identifier required to gain access to the invoked program.  

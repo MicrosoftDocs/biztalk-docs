@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0295908f-ad5a-4b12-8b02-7e9d6df56aaf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Update the Credential Database
 You use the commands described here to change the global information in the Credential database, such as the master secret server identification, the account names, auditing in the database, ticket time-out, credential cache time-out, and so on.  

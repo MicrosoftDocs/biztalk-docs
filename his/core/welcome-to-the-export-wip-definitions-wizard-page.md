@@ -11,6 +11,8 @@ f1_keywords:
   - "srvi_welcome_screen"
 ms.assetid: e2db4515-ceb8-4d58-a104-aeba530a3e8c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Welcome to the Export WIP Definitions Wizard Page

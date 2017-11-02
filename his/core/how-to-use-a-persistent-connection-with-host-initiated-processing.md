@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba6038f9-bf1f-4090-b4e4-f97bcb4490a0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Use a Persistent Connection with Host-Initiated Processing
 A persistent connection is a connection that stays open past the duration of a specific call. Because your application does not need to re-create the connection on each call, you can use a persistent connection to increase the efficiency of your Host-initiated application. An application that uses a persistent connection with Host-initiated Processing (HIP) operates in many ways the same way as a Windows-Initiated Processing (WIP). The difference, of course, is that the mainframe initiates and terminates the connection, while the windows application responds to the requests of the mainframe.  

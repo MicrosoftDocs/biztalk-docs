@@ -11,6 +11,8 @@ f1_keywords:
   - "config.wiz.databaseaccounts"
 ms.assetid: 1cb4f693-8e2b-4ecf-960c-45c2c280943f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # View Configuration of Database Accounts
 Use this page to edit the server name and database name for the selected feature.  

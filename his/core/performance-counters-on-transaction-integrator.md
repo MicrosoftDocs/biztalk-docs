@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: be96cf87-2a20-4279-8bee-f922ad4fd744
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Performance Counters on Transaction Integrator
 The following performance counters are available for Transaction Integrator.  

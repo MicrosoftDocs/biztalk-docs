@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 45e664aa-d07c-41f4-85b7-ab84d6a1e7b4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TRM Format for the TCP TRM User Data Programming Model
 This section describes the format and content of the transaction request message (TRM) used by the TCP TRM User Data programming model.  

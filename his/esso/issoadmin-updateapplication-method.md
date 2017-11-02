@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 36f95210-aac3-425d-ab27-cc7822921613
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOAdmin.UpdateApplication Method
 The **UpdateApplication** method updates the application information in the Enterprise Single Sign-On (SSO) server database.  

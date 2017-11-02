@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 038b39cc-de37-472a-b69c-dc5bd58d99c6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Basic and Mapped Conversations Compared
 The following table offers some guidelines for choosing between basic and mapped conversations for your TPs. For definitions of basic and mapped conversations, see [Fundamental Terms for TPs and LUs](../core/fundamental-terms-for-tps-and-lus.md).  

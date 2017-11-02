@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 389b9812-a4e2-4c22-bf08-d9d37ca09693
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOAdmin2.GetApplicationInfo2 Method
 The **GetApplicationInfo2** method gets the application information from the Enterprise Single Sign-On (SSO) server database.  

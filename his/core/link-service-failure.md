@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dfd4de53-4ef3-401b-b14c-f5fee76a9781
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Link Service Failure
 When the server running a link service fails, the local node is informed of this. It treats the problem as a link outage with outage code 0x0D. This is reported to any active 3270 emulation sessions as a communications check code (–+z_nnn). The local node will attempt periodically to reconnect to the link service.  

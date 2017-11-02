@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a9bbbaa5-a07a-491b-8539-3f6e5b257466
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # BizTalk Adapter for DB2 Configuration
 The Microsoft BizTalk Adapter for DB2 connects BizTalk Server 2013 to vital data stored in IBM mainframe DB2 for z/OS, IBM midrange DB2 for i5/OS, and IBM server DB2 running on Linux, UNIX and Windows operating systems. The adapter is based on the Microsoft ADO.NET Data Provider for DB2 and supports a broad range of functions, including send ports and receive ports with distributed transactions across SNA and TCP/IP network connections. Using SQL commands defined within port configuration wizards, IT professionals can easily create solutions that efficiently integrate DB2 databases without writing code.  

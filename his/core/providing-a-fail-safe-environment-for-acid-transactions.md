@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d4cbc41a-bdf8-406d-920c-423b9c1ab782
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Providing a Fail-Safe Environment for ACID Transactions
 ACID (atomic, consistent, isolated, and durable) transaction processing using two-phase commit (2PC) generally requires a fail-safe environment, which is an environment that ensures continuation in spite of hardware failures. This is often called 2PC failover or hot backup.  

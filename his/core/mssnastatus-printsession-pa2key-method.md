@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 114c8aa9-2802-4e79-9745-c5a0a796dfe7
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_PrintSession.PA2Key Method
 Simulates pressing the PA2 key.  

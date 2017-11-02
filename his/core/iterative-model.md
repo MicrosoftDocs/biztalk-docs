@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 98198cdc-7b8b-47ef-841f-45138f564d6a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Iterative Model
 In the Iterative model, the Listener and Server portions of the application coexist in the same CICS or IMS TP, so the TP holds the socket until all application processing has been completed. The Iterative model uses this sequence:  

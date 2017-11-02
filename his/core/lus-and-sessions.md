@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9ddf455-7722-42e5-8652-787698fb9dbd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUs and Sessions
 The following figure shows the SNA components required for logical unit application (LUA) communications.  

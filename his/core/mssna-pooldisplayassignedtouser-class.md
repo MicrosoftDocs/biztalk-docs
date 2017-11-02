@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 274ae97c-3b3f-40f9-90e9-b7954aa055b9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_PoolDisplayAssignedToUser Class
 Associates a display pool with a user.  

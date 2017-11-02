@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8c97b78-42bc-4a2a-94e9-e2006e5e085d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOLookup2 Members
 The following table shows the ISSOLookup1 members.  

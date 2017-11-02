@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0090d0a1-e168-4424-8adf-b6c1913f2de2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Session Integrator for LU0 Code Example
 The following code example shows how to use the primary techniques for creating an LU0 connection, logging on to the LU0 session, sending and receiving information, and terminating the connection.  

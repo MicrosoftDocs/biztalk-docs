@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0df6508b-01b4-4afb-b4c8-b6931002e0ce
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Programming Techniques for LUA Pools
 When working with a logical unit application (LUA) LU pool, specify the pool name at the beginning of the conversation and then use the **lua_sid** member (not the pool name) with subsequent calls. This is necessary because the **lua_sid** member is a unique identifier, but the pool name is not, because a pool is designed to supply LUs for multiple conversations.  

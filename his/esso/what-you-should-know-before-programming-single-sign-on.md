@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ef8f0417-055c-44e6-91bb-8d1f333b65e4
 caps.latest.revision: 7
+author: MandiOhlinger
+manager: anneta
 ---
 # What You Should Know Before Programming Single Sign-On
 To use this documentation effectively, you should be familiar with the following:  

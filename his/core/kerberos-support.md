@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bbc4c7ef-8186-499f-92ce-55fd81caeb84
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Kerberos Support
 In addition to NTLM, Kerberos support is now available. To use Kerberos support, it is necessary to set a Service Principal Name (SPN) for each server in the subdomain. You can do this through the command line as follows:  

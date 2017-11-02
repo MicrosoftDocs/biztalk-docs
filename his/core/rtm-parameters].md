@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a20e5877-4949-418f-8ee2-861185fdf7c3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RTM Parameters]
 The [Status-RTM](../Topic/Status-RTM2.md) message is sent to the application by the local node to indicate the Response Time Monitor (RTM) parameters being used by the host. The host can specify the following parameters:  

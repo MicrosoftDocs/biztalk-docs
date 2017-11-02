@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e5f73877-5ff9-4f46-9dcc-8d8b90f8f1aa
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Print Service Character Translation Table Format
 The character translation table that can be used by the custom code page option of Host Print service is a 512-byte file, split into two 256-byte regions. Bytes 0255 are the mapping bytes for data from the host; bytes 256511 map data to the host.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3f395ed4-8da6-4aa5-afc2-686de733accf
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_ServiceSharedFolder.Start Method
 Starts the service.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fea9230d-34e6-45bf-830b-60dc8df27ee7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IsInstalledCodePage
 The SNA National Language Support (SNANLS) **IsInstalledCodePage** function determines if a code page is installed on a local or remote computer.  

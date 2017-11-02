@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 18827107-e4ce-4464-9658-f34e6245c899
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Icom3270.getPrevField Method
 The getPrevField finds the starting position and length of the field before the specified screen offset.  

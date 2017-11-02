@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: da74aad4-2b4f-496f-90ef-ef2ddcc3ea29
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # System Main Menu
 Use the commands on this menu to manage the overall ESSO system.  

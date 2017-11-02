@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d9302c79-8eaa-4300-91fb-78df7635c6c1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GetCodePage
 The SNA National Language Support (SNANLS) **GetCodePage** function copies the code page information identified by a key to a structure passed as a parameter.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b7c398ad-cdb5-486d-a08c-fc163533aa80
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Pad Mainframe Character Strings with Spaces
 You can define the properties for a string such that the Transaction Integrator (TI) run-time environment adds space characters to pad the mainframe representation of the string instead of depending on a null termination character.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 710e1696-1f10-4d0c-865b-262bd38b0aaf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure Local Environment Endpoints (TCP/IP) Wizard Page

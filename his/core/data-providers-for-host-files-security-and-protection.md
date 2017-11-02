@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 906d22cc-9683-446a-a737-b66c34a187a5
 caps.latest.revision: 5
 ms.author: "paulettm"
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Providers for Host Files Security and Protection
 You can use the ADO.NET Provider for Host Files (Data Provider) to connect Windows data consumer applications to remote IBM host file system servers. The data provider functions as a distributed data management (DDM) client that supports the record-level input/output (RLIO) protocol that are compatible with IBM host file server products functioning as DDM servers.  

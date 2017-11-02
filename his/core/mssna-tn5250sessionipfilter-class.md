@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e3e6d553-43bb-4917-8ea3-2a25c0642678
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_TN5250SessionIPFilter Class
 Contains the IP address or name assigned to a TN5250 session.  

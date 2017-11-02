@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9df4aeb8-fa9c-4854-aa4a-e7bee325d74f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # .NET Assembly Path Tab (Application Properties)

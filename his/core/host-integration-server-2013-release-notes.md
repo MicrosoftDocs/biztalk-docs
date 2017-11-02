@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e8fde579-1ce5-45c0-b239-f980c7dc8fe3
 caps.latest.revision: 9
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server 2013 Release Notes
 Last updated: July 2013  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2d6a8230-3bd3-412e-8710-c8445c584196
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Session Integrator for LU2 Code Example
 The following code is from the 3270 application in the samples directory of the Host Integration Server SDK.  

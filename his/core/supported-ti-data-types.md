@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7ad5a28d-f6e8-4f2d-b0e6-dbf7d4b7a0e6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Supported TI Data Types
 Transaction Integrator (TI) supports the data types used by COM, .NET, COBOL, and Report Program Generator (RPG).  

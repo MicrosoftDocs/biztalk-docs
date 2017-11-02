@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 34a85aaa-a492-4c53-93c9-4461eda005f4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Extracting LUWIDs
 Both LUWIDs for a particular TP can be determined by issuing the [GET_TP_PROPERTIES](../Topic/GET_TP_PROPERTIES1.md) verb. The **GET_TP_PROPERTIES** verb returns the TP's unprotected LUWID in the **luw_id** field.  

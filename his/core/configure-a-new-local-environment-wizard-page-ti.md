@@ -11,6 +11,8 @@ f1_keywords:
   - "15312"
 ms.assetid: fba1c4fd-943f-4a5a-9c02-3ce9e8a7df1c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure a New Local Environment Wizard Page(TI)

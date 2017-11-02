@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dcc13cf1-1113-4f90-8b36-2a51bf48eb29
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Performance Monitor Interface
 This section describes the interface for performance monitoring (Perfmon) used by SNADIS links that Microsoft [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] supplies. This interface is provided to simplify the integration of SNADIS-compliant link services with the Microsoft Windows System Monitor applications. It provides a common look-and-feel to all link service performance counters exported by SNADIS links, independent of the vendor and link transport (channel, Twinax, SDLC, X.25, TR, E/Net, and so on).  

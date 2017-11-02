@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: adb900f9-fc48-49c4-a42e-e0d7bf8207ae
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # sepdburl
 The application calls the **sepdburl** function to release a buffer.  

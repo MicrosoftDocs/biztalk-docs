@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a208c01-6ed4-4355-8488-7945f3403e21
 caps.latest.revision: 7
+author: MandiOhlinger
+manager: anneta
 ms.author: "wspubsup"
 ---
 # Service for DRDA Programmer&#39;s Reference

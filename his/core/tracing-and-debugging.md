@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9803001-937d-4bc6-99b4-c329f81d99c7
 caps.latest.revision: 7
+author: MandiOhlinger
+manager: anneta
 ---
 # Tracing and Debugging
 Transaction Integrator (TI) provides detailed tracing of both Windows Initiated Processing (WIP) calls and Host Initiated Processing (HIP) calls. This tracing is done via enabling tracing in the app config file along with a Host Integration Trace Definition file (.hitd) that describes what should be traced. Tracing can be turned on and off through the hitd file. Tracing may also be turned on and off through the app config file, however, the TI process must be restarted for the new configuration to take affect because the app config file is only read when the TI process is started.

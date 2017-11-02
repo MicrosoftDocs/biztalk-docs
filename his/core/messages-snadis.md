@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e726a397-e119-4724-8fdc-1ea9f6e083b2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Messages (SNADIS)
 Messages are used to pass data between partners in the [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] system. This section provides information about message structure and formats.  

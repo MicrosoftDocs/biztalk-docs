@@ -11,6 +11,8 @@ f1_keywords:
   - "15478"
 ms.assetid: c44b3c5e-79e2-47f8-b333-80f60659cdfb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Remote Environment Wizard Page 2 (for OS400) (.NET Client Wizard)
 Use the **Remote Environment** wizard page to define the default values for the remote environment (RE).  

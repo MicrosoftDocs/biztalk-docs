@@ -8,6 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: de30ea16-1251-4bf9-aa5c-82d4e687f344
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ms.author: "valthom"
 ---
 # TI Configuration Tool

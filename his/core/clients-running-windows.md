@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df09f0b6-3621-473c-b3a1-8bae02c2c660
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Clients Running Windows
 On clients running Microsoft Windows, invokable TPs are configured through the Windows registry.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fc7e3d5e-8ca3-452d-8ec9-95ea39774d2f
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Password Synchronization
 Use these menu commands to configure and run Password Synchronization.  

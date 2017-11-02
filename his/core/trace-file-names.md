@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7c7bda50-aa14-461c-814b-43529140de38
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Trace File Names
 Each trace file has two names associated with it, \<*Filename*1>.atf and \<*Filename*2>.atf.  

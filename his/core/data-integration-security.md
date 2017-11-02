@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a7380ccc-2664-49b0-94aa-b5dbd5cf6cf4
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Integration (Security)
 The following topics describe security features pertaining to data integration.  

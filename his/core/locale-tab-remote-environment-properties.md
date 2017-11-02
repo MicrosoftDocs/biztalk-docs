@@ -11,6 +11,8 @@ f1_keywords:
   - "15218"
 ms.assetid: bb071ad4-92ab-4483-b9ba-5e3e92d446c6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Locale Tab (Remote Environment Properties)

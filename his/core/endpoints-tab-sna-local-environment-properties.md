@@ -11,6 +11,8 @@ f1_keywords:
   - "15317"
 ms.assetid: 9b67934c-803a-41f9-8084-8ce957494524
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Endpoints Tab (SNA Local Environment Properties)

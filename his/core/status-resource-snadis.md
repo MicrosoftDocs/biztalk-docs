@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e52cfb64-c144-403c-aef4-1c39e85e091f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Resource (SNADIS)
 Flow : DLC \<------> NODE (station connection)  

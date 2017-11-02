@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 90ea304f-d2b3-48e0-8a04-5cc9fc3c5531
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Retrieving Information from the Host File System
 The topics in this section describe how to retrieve information from the Host File System.  

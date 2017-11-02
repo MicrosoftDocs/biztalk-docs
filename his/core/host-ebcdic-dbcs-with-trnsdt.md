@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a139f512-5e5f-40df-814e-cff905ad7f89
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host EBCDIC DBCS with TrnsDT
 The following table shows the character code set identifiers (CCSIDs) for EBCDIC double byte character sets (DBCS) supported by TrnsDT in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

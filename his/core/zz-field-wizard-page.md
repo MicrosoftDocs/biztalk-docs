@@ -11,6 +11,8 @@ f1_keywords:
   - "15415"
 ms.assetid: 2681a1be-36eb-442c-882a-3bbf035a0a9e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ZZ Field Wizard Page
 Use the **ZZ Field** wizard page to select the ZZ fields to exclude from the transaction if the host environment (HE) is IMS.  

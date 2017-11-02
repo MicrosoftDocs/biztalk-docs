@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 384acfd0-1b78-4bd7-93ea-ebcb937c0f11
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Administration and Management Programmer&#39;s Reference
 [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] included the following Windows Management Interface (WMI) providers to enable scripted management.  

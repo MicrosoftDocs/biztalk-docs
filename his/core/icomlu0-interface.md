@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 252d9aef-60b7-4a44-9dc9-6d8fa8f12191
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IcomLU0 Interface
 The IcomLU0 interface allows access to an LU0 session.  

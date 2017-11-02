@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 78f3ac10-b3de-4f9a-8b77-24ddbfe9380c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # ISO Code Page Support (SNANLS)
 The following table shows the ISO NLS code pages and host character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)].  

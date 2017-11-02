@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e410e451-cf74-42aa-ba80-3d96bb9fe090
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Printing the Screen (3270)
 After you have established a connection to the host, you can print the information in the active window.  

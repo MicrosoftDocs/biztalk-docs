@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 83722e26-d3fb-43ab-bf1c-b777d9e92816
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Planning and Architecture
 This section summarizes the key points of how to plan a [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] deployment.  

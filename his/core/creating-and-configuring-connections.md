@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a7d5f688-e365-4295-998d-f342352cb1c2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating and Configuring Connections
 You can create connections between [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] and your host computer with wizards or manually. [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] provides three wizards to help you install and configure connections to your host environment (HE).  

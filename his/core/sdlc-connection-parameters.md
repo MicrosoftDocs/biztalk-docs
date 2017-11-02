@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 18b7de30-6617-46ce-9a87-fcd9142171f9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SDLC Connection Parameters
 The following table shows how [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] parameters for Synchronous Data Link Control (SDLC) connections correspond to VTAM or Network Control Program (NCP) parameters. Asterisks (*) indicate required parameters.  

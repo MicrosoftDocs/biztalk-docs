@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2fe211a5-adfd-41a9-8f0f-1e640fa4c1f7
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # .NET Framework Data Providers for Host Integration Server
 In concept, a .NET Framework data provider is similar to an OLE DB provider: the provider runs as an interface between your application and the data source. However, the .NET Framework data provider exposes only a single set of ADO.NET interfaces.  

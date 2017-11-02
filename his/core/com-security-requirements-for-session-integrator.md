@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff94595f-c07d-4da4-b05c-d5c8801d075d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # COM Security Requirements for Session Integrator
 When using Session Integrator in an environment where the Client application and the Service component are running under two different user accounts, special configuration of COM security should be performed.  

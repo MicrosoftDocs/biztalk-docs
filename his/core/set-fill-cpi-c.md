@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a87b0634-3469-437f-acf5-758d9abd192f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Fill (CPI-C)
 The **Set_Fill** call (function name **cmsf**) specifies whether programs will receive data in the form of logical records or as a specified length of data. This call is allowed only in basic conversations.  

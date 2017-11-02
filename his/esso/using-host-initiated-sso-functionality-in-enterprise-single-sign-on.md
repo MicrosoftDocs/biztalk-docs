@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 30fb1699-992b-4606-bad5-f4cf364313ee
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Using Host-Initiated SSO functionality in Enterprise Single Sign-On
 Host Initiated Single Sign-On (SSO) uses the protocol transition feature of Windows Server 2003 to perform Single Sign-On for the non-Windows user. This feature requires Windows Server 2003 and must be in a domain that has its **Domain Functional Level** set to **Windows Server 2003**.  

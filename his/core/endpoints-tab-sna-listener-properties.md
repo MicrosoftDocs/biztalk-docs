@@ -11,6 +11,8 @@ f1_keywords:
   - "15325"
 ms.assetid: aebec5e0-9560-419e-9798-6b1f9ef66f2c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Endpoints Tab (SNA Listener Properties)

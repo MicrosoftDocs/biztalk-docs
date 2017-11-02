@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: eb2bca9c-8b0d-46e1-a3a8-be002defcbcb
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # drdaServiceTraceListener
 The drdaServiceTraceListener element contains a set of attributes to define a custom trace listener.  

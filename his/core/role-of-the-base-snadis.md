@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 81a950dc-1af9-4940-937f-e6232ba00c74
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Role of the Base (SNADIS)
 TheBase is a part of each [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] component, such as the local 2.1 node or a link service that provides the operating environment for that component. It passes messages between components and provides functions common to all components, such as diagnostic tracing.  

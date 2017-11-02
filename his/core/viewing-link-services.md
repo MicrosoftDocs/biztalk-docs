@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c97ae193-9f0c-4735-84e4-e87c8d8d8723
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Viewing Link Services
 As with other link services, you can view IP-DLC link services in the list view of the **Link Services** folder.  

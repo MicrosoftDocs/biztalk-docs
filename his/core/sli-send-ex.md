@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ca2a9c85-af50-462f-a27d-b9ec489e6faa
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SLI_SEND_EX
 The **SLI_SEND_EX** verb sends responses, SNA commands, and data from a Microsoft® Windows® logical unit application (LUA) application to a host logical unit (LU).  

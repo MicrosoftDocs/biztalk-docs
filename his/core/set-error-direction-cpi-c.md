@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 688cce47-fb00-4e68-be9d-83f7fb047daf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Error_Direction (CPI-C)
 The **Set_Error_Direction** call (function name **cmsed**) specifies whether a program detected an error while receiving data or while preparing to send data.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15330"
 ms.assetid: 12d7b945-e1b2-481f-b6e7-0336f746b7bb
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Endpoints Tab (TCP/IP Local Environment Properties)

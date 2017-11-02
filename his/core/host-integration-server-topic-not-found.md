@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c2891793-805b-48a6-b314-c087671faee4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server Topic Not Found
 The Help topic you are looking for is not available.  

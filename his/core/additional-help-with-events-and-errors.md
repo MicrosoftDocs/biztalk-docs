@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db610680-724f-46ca-8f88-595d8da4c557
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Additional Help with Events and Errors
 We provide troubleshooting information about specific product event and error messages. For Windows operating systems, you can access event message documentation by using the link inside the property window of an event. 

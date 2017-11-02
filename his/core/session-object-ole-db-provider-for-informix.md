@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a155b1b1-1ab0-43bd-9040-9ff41a39bc3d
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # Session Object (OLE DB Provider for Informix)

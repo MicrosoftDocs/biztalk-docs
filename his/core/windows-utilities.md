@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d924a1ef-338a-415e-a228-6cda8a4e4c3b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Windows Utilities
 Microsoft Windows has several built-in utilities that can assist you in tracking system usage, problems, and performance. These utilities can provide the administrator with valuable information about any computer on the network.  

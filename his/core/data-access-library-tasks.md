@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3b0da85a-3e33-4e06-b9b8-27e610ff0895
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Access Library Tasks
 The main programming tasks for the Data Access Library (DAT) can be considered one of three tasks: creating a connection string, retrieving or modifying data in a connection string, or performing an administrative task.  

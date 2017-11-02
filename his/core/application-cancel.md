@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ef71ed9-dde0-422b-8060-9e7c29687452
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Application CANCEL
 One of the parameters on the [Open(PLU) OK Response](../Topic/Open\(PLU\)%20OResponse1.md), which the application sends to the local node, specifies whether the application generates **CANCEL** (or **EC**) to terminate an inbound chain that has received a negative response. If this option is not selected, the local node generates a **CANCEL** request when it receives a negative response from the host to an incomplete chain.  

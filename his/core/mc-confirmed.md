@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cb70416a-9f1c-400c-8756-37dafe114bec
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MC_CONFIRMED
 The **MC_CONFIRMED** verb responds to a confirmation request from the partner transaction program (TP). It informs the partner TP that the local TP has not detected an error in the received data. Because the TP issuing the confirmation request waits for a confirmation, **MC_CONFIRMED** synchronizes the processing of the two TPs.  

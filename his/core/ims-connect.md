@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d1ee8cfd-8ff8-42b8-bdf1-807e876f5480
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IMS Connect
 The IMS Connect programming model provides access to information management systems (IMS) transactions using TCP/IP. This model uses the IMS message queue for processing data.  

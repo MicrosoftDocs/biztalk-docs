@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0c7d87a6-90ac-4e17-9c46-c7fe548cd318
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # X.25 Definition
 The following table shows a sample IBM 9370 VTAM definition for X.25 circuits. The X25GROUP label shows the VTAM definitions for switched virtual circuits 001 through 006.  

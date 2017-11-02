@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b91acc02-9cf4-45ca-9ab5-9b5a438e495e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Open(PLU) Error Confirm
 The **Open(PLU) Error Confirm** message flows from the node to the application. It is used with a primary logical unit (PLU) connection.  

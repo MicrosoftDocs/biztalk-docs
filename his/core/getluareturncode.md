@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 064c5eea-043c-4188-a9d7-042542bb9efd
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GetLuaReturnCode
 The **GetLuaReturnCode** function converts the primary and secondary return codes in the verb control block (VCB) to a printable string. This function provides a standard set of error strings for use by logical unit application (LUA) applications.  

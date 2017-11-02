@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dd2c37c9-1e8c-445c-8737-ba8a5ed1b198
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # HIS Designer Views
 The Host Integration Server Designer (HIS Designer) development tool uses a two-pane user interface. The left pane displays a tree view, and the right pane displays a list view, or **Details** view. The tree view displays a hierarchical representation of the contents of the library. The list view displays a compact subset of the selected type library component’s properties that are displayed in the property browser. You might find it useful to customize the details view by using something other than a list. For example, a COBOL, RPG, or IDL view might be more useful.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e55441bb-5a65-429e-8e41-6cbd5a4cf791
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RemovePerfmonCounters
 The **RemovePerfmonCounters** function is used to remove counters from a link service. This utility function is used to construct an integrated link service configuration DLL.  

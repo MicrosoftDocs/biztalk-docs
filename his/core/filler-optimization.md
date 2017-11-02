@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8ea50285-0283-4c63-be03-bc0afb30a314
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # FILLER Optimization
 The Transaction Integrator (TI) run-time environment optimizes buffers sent to the host by not sending the bytes corresponding to FILLER that appear at the end of the input data declaration.  

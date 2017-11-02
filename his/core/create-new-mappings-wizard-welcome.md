@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d9688928-5e1c-4df2-af7a-9b71ec850f17
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Create New Mappings Wizard: Welcome
 Use this page to enter basic information about the Affiliate Application.  

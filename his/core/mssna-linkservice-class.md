@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 625a4203-5505-45d5-81d1-f35350bfc0dc
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LinkService Class
 The abstract **MsSna_LinkService** class represents an SNA link service.  

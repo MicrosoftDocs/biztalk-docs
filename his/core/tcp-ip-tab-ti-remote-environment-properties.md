@@ -11,6 +11,8 @@ f1_keywords:
   - "15213"
 ms.assetid: e470ee90-45d5-4d63-85f3-d7a8e766e1db
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # TCP/IP Tab (TI Remote Environment Properties)

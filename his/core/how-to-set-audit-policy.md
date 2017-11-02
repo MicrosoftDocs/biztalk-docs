@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0cb836ad-38ef-48c7-a353-e9a1fb2e29f9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Set Audit Policy
 The following procedure details how to set an audit policies with Windows.  

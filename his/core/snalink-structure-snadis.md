@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e2b45021-9d76-4e25-bb1b-3e8432d27a77
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNALink Structure (SNADIS)
 A [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] SNALink consists of the following:  

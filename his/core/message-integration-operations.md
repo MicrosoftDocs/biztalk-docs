@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 986a2a1d-3dde-45dd-95cf-fef81178e201
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Message Integration (Operations)
 ## In This Section

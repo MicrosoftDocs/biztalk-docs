@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b80ac0aa-f065-422b-a9ff-4dd93ad97aad
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LuDisplayAssignedToWorkstation Class
 Associates a display LU with a workstation.  

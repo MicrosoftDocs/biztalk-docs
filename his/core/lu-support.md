@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b1f1760e-9be8-420c-ab54-0796eaa522f4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # LU Support
 A [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] node can support as many as 15,000 sessions.  

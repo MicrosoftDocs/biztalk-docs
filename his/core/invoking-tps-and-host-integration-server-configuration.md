@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3f2236d4-39bf-4ed7-bd5f-ca241ac78e9f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Invoking TPs and Host Integration Server Configuration
 For Host Integration Server to support the beginning of the invoking process (to accept the TP_STARTED and ALLOCATE verbs issued by an invoking TP), the following parameters must be configured correctly:  

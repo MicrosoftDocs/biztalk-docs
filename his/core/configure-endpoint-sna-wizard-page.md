@@ -11,6 +11,8 @@ f1_keywords:
   - "15205"
 ms.assetid: 35065ddd-c1ac-4ce4-811d-767df9d8d958
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure Endpoint SNA Wizard Page

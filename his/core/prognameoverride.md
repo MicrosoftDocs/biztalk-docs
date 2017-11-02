@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3baba322-65ca-45fa-9222-1d63793a334d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ProgNameOverride
 Use the **ProgNameOverride** keyword to override the program name assigned within the type library and to specify a different program name to be sent to the host. The COMTIContext context name is **ProgNameOverride**; the value must be a string that contains a valid mainframe program name.  

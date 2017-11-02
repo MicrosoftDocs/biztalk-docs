@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 667870f5-3690-4ad7-9b9e-82f917670ef2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # User Control Data
 For mapped conversations, the [MC_SEND_DATA](../Topic/MC_SEND_DATA2.md) verb and the receive verbs ([MC_RECEIVE_AND_POST](../Topic/MC_RECEIVE_AND_POST1.md), [MC_RECEIVE_AND_WAIT](../Topic/MC_RECEIVE_AND_WAIT1.md), and [MC_RECEIVE_IMMEDIATE](../Topic/MC_RECEIVE_IMMEDIATE1.md)) are modified to allow applications to send and receive data in user control data general data stream (GDS) variables instead of the regular application data GDS variables. The **MC_SEND_DATA** verb is modified as follows:  

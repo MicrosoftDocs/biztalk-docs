@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0ac37c64-c95a-41f7-a47b-3579ad2ff869
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DISPLAY
 The **DISPLAY** verb returns configuration information and current operating values for the SNA node.  

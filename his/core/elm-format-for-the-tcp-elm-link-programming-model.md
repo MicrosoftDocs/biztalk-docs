@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6e5cf870-b90e-4f6d-ad2e-6a9a7644cbc6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ELM Format for the TCP ELM Link Programming Model
 This section describes the format and content of the enhanced listener message (ELM) used by the TCP ELM Link programming model.  

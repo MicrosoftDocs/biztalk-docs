@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ffaa5264-1dae-404b-a77c-c2b5f373d0b5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Base/DMOD and SNALink Entry Point Summary
 The following tables show entry points divided into the categories SNALink, buffer management, and Base/DMOD, and listed in alphabetic order within each category.  

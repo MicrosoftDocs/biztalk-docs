@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 943462e0-0e17-4771-865e-b79f1143bef4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # 5250 Access
 If your enterprise contains AS/400 systems, display sessions are provided through APPC using the 5250 data stream. Host Integration Server computers provide APPC access to an AS/400 using 5250 emulation clients. Clients can only communicate with AS/400s using APPC.  

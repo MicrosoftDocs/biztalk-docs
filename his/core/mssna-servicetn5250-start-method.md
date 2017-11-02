@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80a11a2f-f497-4892-9e19-c7f0029551dd
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_ServiceTN5250.Start Method
 Starts the service.  

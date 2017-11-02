@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 411053e8-207b-43b0-a9d4-cc8a0abee8fc
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # IcomLUO.Receive Method
 Receives outbound data on a LU0 session.  

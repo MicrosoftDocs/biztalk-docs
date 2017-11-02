@@ -11,6 +11,8 @@ f1_keywords:
   - "15203"
 ms.assetid: d3d3c192-96c8-431b-9c02-8b433a3ff7f8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure Host Environment and Programming Model Wizard Page

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba45e49c-c45b-4856-b81e-1019af172ce4
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # TrnsDT
 The **TrnsDT** function is called to translate a string from one code page to another.  

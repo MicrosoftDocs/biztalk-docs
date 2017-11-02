@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 288238e7-a022-469e-80b9-a28e863422e8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Run the 3270 Client
 The following procedure details running the 3270 Client application.  

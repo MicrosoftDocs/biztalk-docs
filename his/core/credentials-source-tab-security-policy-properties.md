@@ -11,6 +11,8 @@ f1_keywords:
   - "15373"
 ms.assetid: 0b899c32-2494-4bcf-b3d6-b2d16a5d4564
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Credentials Source Tab (Security Policy Properties)

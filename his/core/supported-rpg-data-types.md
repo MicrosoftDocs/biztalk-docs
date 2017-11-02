@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0c1c33cd-af36-48ac-83ca-e3194fc2a204
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Supported RPG Data Types
 Transaction Integrator (TI) supports the data types in Report Program Generator (RPG) IV. The letter in parentheses is the internal representation of the data type.  

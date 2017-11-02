@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c459fc34-ccac-4540-84e0-dcf5fb18e0e5
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Specifying a File
 After you have defined the settings for transferring files, you can send a file to the host or receive a file from the host. You can select a file to transfer in one of two ways: by typing the name of the specific file to send or receive, or by browsing through a list of available files.  

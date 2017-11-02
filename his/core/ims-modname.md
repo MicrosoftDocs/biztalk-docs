@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4ca04a9b-7f74-4410-bc66-78158f56cfdf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IMS_MODNAME
 When using the IMS Connect programming model, IMS_MODNAME contains the name of the returned MOD Name assigned by the executed IMS transaction.  

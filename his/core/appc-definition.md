@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 855405a1-6801-4ff3-9fd9-b8730147343a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Definition
 The prototype definitions of the **APPC** function are as follows:  

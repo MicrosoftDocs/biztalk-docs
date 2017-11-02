@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f5ef32ff-4001-45b2-8c98-f578cbc5e36e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_PrintSession.Restart Method
 Restarts the print session.  

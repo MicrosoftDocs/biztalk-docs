@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4eefd7e0-6406-4f81-a8f6-6e646e3cdf1c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Internationalization Programmer&#39;s Reference
 This section describes the features available in [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] for programming support for international languages and different national language character sets.  

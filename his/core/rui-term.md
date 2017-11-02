@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4a96b2fd-b70d-4b5c-8b95-9c477f002657
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RUI_TERM
 The **RUI_TERM** verb ends both the logical unit (LU) session and the system services control point (SSCP) session for a given LUA LU.  

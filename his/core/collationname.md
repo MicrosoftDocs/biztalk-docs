@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 7b5d3f07-9ee7-472b-b160-30e5d4cdea1a
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # collationName
 The collationName element must contain a from attribute and a to attribute to define a collation name mapping.  

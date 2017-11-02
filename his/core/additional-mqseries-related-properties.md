@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d74e1a48-ce67-49e8-9db7-f3ea6ab25406
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Additional MQSeries Related Properties
 There are additional MQSeries-related properties included in the property schema and available for use within your BizTalk Server application. These are applicable when dealing with CICS or IMS applications. The following table lists these properties.  

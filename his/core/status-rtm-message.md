@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc20b5aa-01bc-4524-b00a-d5b776d64928
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-RTM Message
 The [Status-RTM](../Topic/Status-RTM2.md) message is used by the local node to inform the application of the Response Time Monitor (RTM) parameters being used by the host. It flows from the local node to the application on the system services control point (SSCP) connection and is sent only for 3270 display logical units (LUs), or LUs in a pool of display LUs.  

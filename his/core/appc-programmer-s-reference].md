@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 92efac1c-9c64-4ca9-accf-cb66ac013857
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Programmer&#39;s Reference]
 This section of [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] Help provides information about the verbs, extensions, and return codes that make up the APPC programming interface.  

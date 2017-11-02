@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 66932def-9747-46c0-a0dc-ef72784a456a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create Multiple Views of a Single TI Manager Console
 Each instance of a TI (Transaction Integrator) Manager console shows the remote environments configured for a single computer. You cannot load more than one TI Manager console for a single computer. However, you can create multiple views of a single TI Manager console, and then display each view in a separate window. Typically, you can use this feature to display the different details for different selected items in the console tree. To save space on the screen, you can hide the console tree on each window.  

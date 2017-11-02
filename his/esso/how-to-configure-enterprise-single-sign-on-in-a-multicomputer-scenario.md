@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6eb9066c-a35f-4399-b066-903c3b07e614
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure Enterprise Single Sign-On in a Multicomputer Scenario
 This section contains instructions for configuring Enterprise Single Sign-On (SSO) in a three-computer scenario.  

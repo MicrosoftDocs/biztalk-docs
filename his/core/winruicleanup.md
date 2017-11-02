@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 966cc622-2c1e-4a43-a01b-118c5658118e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinRUICleanup
 The **WinRUICleanup** function terminates and deregisters an application using Request Unit Interface (RUI) verbs from a Microsoft® Windows® logical unit application (LUA) implementation.  

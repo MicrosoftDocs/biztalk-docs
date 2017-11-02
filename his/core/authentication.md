@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d6f7ba21-adf7-43ce-ad8a-6b4f5ecfaf2c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Authentication
 When Host Integration Server receives a request to access a host resource, such as an LU for a terminal session, the server must have some way to verify the request.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e33465b9-b45f-4ca7-8ef6-62e6442ee756
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status-Error
 The **Status-Error** message is used to report request reject and response header (RH) usage error conditions in outbound SNA request/response units (RUs) to the application. It flows from the node to the application and is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  

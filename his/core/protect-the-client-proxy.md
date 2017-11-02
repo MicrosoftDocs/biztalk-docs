@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a910c3fc-92b3-4e6a-8a30-c8c0acc39e44
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protect the Client Proxy
 To prevent an attacker from tampering with a properly formatted message (for example, a TRM, DPL, SNA, or IP) sent by the client computer to the TI runtime or to prevent an attacker from sending a malformed message to the TI runtime, you should do the following:  

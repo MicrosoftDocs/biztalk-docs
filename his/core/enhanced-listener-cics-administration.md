@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 70852e7a-8b0d-45d8-9aa9-d90852d3aaac
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Enhanced Listener CICS Administration
 The following code defines a CICS Enhanced Listener. There are several new keywords available for use with the Enhanced Listener. The parameter definitions describe how these new Listener configuration values are used for support the TI Enhanced Listener feature.  

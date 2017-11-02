@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 96260035-0bf0-44b5-ba01-27546b2104a6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # HIS Designer Menus
 Host Integration Server Designer (HIS Designer) presents different menus for different contexts and operations. These menus are in addition to the basic menus that are already included in Visual Studio.  

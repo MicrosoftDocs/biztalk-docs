@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df990679-c137-4e52-8dc9-c58d7de57917
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Database Alias Mappings
 IBM DB2 and Microsoft SQL Server databases utilize different terminology for naming objects, as can be seen in the following table defining the fully-qualified three-part object identifier for a table. The DRDA Service can map DB2 catalog and schema names to SQL Server catalog and schema names.  

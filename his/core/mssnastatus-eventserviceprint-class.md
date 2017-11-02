@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0ec31ef-1dfa-4908-b7a5-8111a80db4af
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_EventServicePrint Class
 The **MsSnaStatus_EventServicePrint** class describes a change to the **EventServicePrint** class.  

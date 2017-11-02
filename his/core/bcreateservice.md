@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4635c31e-7ac6-436a-b9c4-109fd2b2655f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # bCreateService
 The **bCreateService** function is used to create a service on a computer for a link service. This utility function is used to construct an integrated link service configuration dynamic-link library (DLL).  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15355"
 ms.assetid: e8555fce-d2b8-4e4e-afd6-b9a27891cc31
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Completing the New Host Environment Wizard Page

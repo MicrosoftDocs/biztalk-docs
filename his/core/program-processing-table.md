@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d6b595d-b2ad-4a4c-97e5-c6209ffa7200
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Program Processing Table
 The Program Processing Table (PPT) defines the load module characteristics to CICS.  

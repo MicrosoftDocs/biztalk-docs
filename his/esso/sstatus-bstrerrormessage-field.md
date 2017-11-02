@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 01e729a5-b4da-4eec-af74-acd98e108f89
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SStatus.bstrErrorMessage Field
 A string that contains an error message.  

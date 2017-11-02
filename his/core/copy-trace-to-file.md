@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ef9ce29d-7563-4421-ac8a-930b5201f362
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # COPY_TRACE_TO_FILE
 The **COPY_TRACE_TO_FILE** verb concatenates individual API/link service trace files to form a single file.  

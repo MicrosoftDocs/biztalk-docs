@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8fc88244-c762-4c3f-a638-cb9882f115bc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a DB2 Package
 A DB2 package is a collection of data used by a provider implemented as an IBM Distributed Relational Database Architecture (DRDA) application requester. The provider uses packages to issue SQL statements and call DB2 stored procedures. You can use <xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.CreatePackages%2A> to create these packages.  

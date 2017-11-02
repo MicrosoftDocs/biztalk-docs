@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0572d64d-9583-43d1-b6a0-b7a3858569ab
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # OPEN Call
 The **OPEN** call has no parameters. It grants access to the driver from a particular process. The driver ensures that only one **OPEN** is accepted by the link at any one time. When **OPEN** is processed, the driver attempts to reserve access to hardware resources such as interrupt vectors. The **OPEN** is rejected if this fails.  

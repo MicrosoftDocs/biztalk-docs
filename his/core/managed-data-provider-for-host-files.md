@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a59564b6-8218-4e5c-be05-c17a6b788c96
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managed Data Provider for Host Files
 This section contains a discussion about the background and general design principles surrounding the Managed Data Provider for Host Files.  

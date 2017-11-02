@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea7ec569-240b-4c7c-9926-40b26ca46621
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # FMI Message Summary
 This section lists each of the messages used at the function management interface (FMI) and gives a reference to a topic in the section where each message is described. The formats of the messages are given in [FMI Message Formats](../Topic/FMI%20Message%20Formats1.md).  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8e0ef68c-2e88-496c-a559-2c86bb0c0544
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # INSERT Statement
 The following describes the syntax of the `INSERT` statement for the Managed Provider for Host Files, and provides sample `INSERT` statements.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c0a6de6f-d53e-4dff-9cea-fbbd9fadade8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Open(SSCP) Request
 The **Open(SSCP) Request** message flows from the application to the node. It is used with a system services control point (SSCP) connection.  

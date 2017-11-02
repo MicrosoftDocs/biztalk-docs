@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 2112980c-2f84-415e-84e3-2908a8042549
 caps.latest.revision: 3
 ms.author: "wspubsup"
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Integration Programmer&#39;s Reference
 This document provides links to topics that enable you to integrate data into your Host Integration Server application.  

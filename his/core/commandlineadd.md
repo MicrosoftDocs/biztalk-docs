@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 71fa9f3e-1e76-4e5e-8d01-df324c09793e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CommandLineAdd
 The **CommandLineAdd** function is used to add a new link service using a command-line interface. This function must be exported from a link service configuration dynamic-link library (DLL)  supplied with each link service.  

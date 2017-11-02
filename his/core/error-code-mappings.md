@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 719997da-0185-4a2a-af42-c23d8f24cdbb
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Error Code Mappings
 The DRDA Service converts SQL Server error codes and messages to instances of a DRDA reply message or a DB2 SQLCA (Communications Area) based on a defined set of mappings stored in an MsDrdaErrorMappings.xml file in the %DRDAROOT%\system directory. The in-bound SQL Server error code is mapped to the out-bound DB2 error code. The XML document contains a set standard format, as documented in the associated HostIntegrationDrdaSqlErrorMappings.xsd schema file.  

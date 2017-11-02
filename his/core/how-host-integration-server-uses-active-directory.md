@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 14ac22b7-9636-4e25-a15c-5150b222460c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How Host Integration Server Uses Active Directory
 [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] uses Active Directory by registering services and resources with the Active Directory schema. The benefits of using Active Directory include:  

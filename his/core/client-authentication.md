@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 626af9d4-ef88-4acc-ac36-80802327dc9b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Client Authentication
 For client authentication, the client requires a valid certificate with the following properties:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4550f2ba-c5c6-4457-af6f-bdeedebf0a82
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # IcomLUO.SendResponse Method
 Sends a response or courtesy acknowledgement to the host.  

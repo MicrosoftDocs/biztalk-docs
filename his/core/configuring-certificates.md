@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b64e0083-bff1-431a-9828-3af6adcc6f59
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Certificates
 The **TN3270 Server properties** dialog box contains a **Port/Security** tab, which allows you to configure the ports to be available to the TN3270 server. The security parameters are then configured on a port-by-port basis.  

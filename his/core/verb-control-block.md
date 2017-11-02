@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2a8cd73e-c75c-49d2-b94f-5758944f2ce8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Verb Control Block
 The only parameter passed to the **APPC** function is the address of a verb control block (VCB). The VCB is a structure made up of variables that:  

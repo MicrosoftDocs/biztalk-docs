@@ -11,6 +11,8 @@ f1_keywords:
   - "15353"
 ms.assetid: cdd53582-7634-484e-a8b1-21ee2e2afcce
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Completing the New Local Environment Wizard (TI)

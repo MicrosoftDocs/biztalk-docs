@@ -11,6 +11,8 @@ f1_keywords:
   - "15416"
 ms.assetid: c5228372-892e-42de-b2a4-52e33c5da2ba
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TRANCODE Field Wizard Page
 Use the **TRANCODE Field** wizard page to select the TRANCODE fields to exclude from the transaction if the host environment (HE) is IMS.  

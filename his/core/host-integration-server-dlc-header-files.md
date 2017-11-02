@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8f2ae857-d09a-4430-8ab3-0651332651a8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server DLC Header Files
 The following files are required to build a [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] SNALink:  

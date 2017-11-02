@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aea51bf9-def1-4255-870c-55fcf605df63
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Function 0x45: Abort Transmitter
 The SNALink calls this function to clear down the driver's transmitter.  

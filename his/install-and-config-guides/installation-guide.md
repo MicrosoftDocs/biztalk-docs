@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aec44f21-9e7b-4619-a1d4-0f5ab5eba9be
 caps.latest.revision: 7
+author: MandiOhlinger
+manager: anneta
 ---
 # Installation Guide
 This document contains information about the basic installation process for [!INCLUDE[his2013](../install-and-config-guides/includes/his2013-md.md)].  

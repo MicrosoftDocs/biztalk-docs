@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 63dd0f9c-6a75-4a72-a443-aa2e3436241d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SExternalAccount Fields
 The fields of the **SExternalAccount** interface are listed in the following table. For a complete list of **SExternal** interface members, see [SExternalAccount Members](../esso/sexternalaccount-members.md).  

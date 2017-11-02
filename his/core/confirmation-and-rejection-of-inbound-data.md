@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ecae169c-276e-45fc-ae2d-efb4dfd86d95
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Confirmation and Rejection of Inbound Data
 For every SNA chain of data sent or received for which responses are outstanding, such as Request Exception (RQE) or Definite Response Required (RQD), the local node maintains a correlation table entry. If the table entries become depleted, the local node will terminate the session using the most table entries. A [Status-Error](../Topic/Status-Error2.md) message (code 0x46) and a [Close(PLU) Request](../Topic/Close\(PLU\)%20Request1.md) are sent to the application, and a **TERM-SELF** message is sent to the host. Table entry shortages (inbound) can be avoided by sending change direction (CD) (for half-duplex) data, or data **ACKRQD,** or any **Status-Control(CHASE)**, or **Status-Control(LUSTAT)** with **ACKRQD**. Outbound shortages can be avoided by sending courtesy acknowledge messages as described in [Opening the PLU Connection](../core/opening-the-plu-connection.md).  

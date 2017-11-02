@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e7dea3e7-d173-47fe-83cc-5f433d65a8ca
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "v-mlynd"
 ---
 # Transaction Object (OLE DB Provider for Informix)

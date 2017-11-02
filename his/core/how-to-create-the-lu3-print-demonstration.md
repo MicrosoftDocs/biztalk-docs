@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3e65b1b5-2bb0-4cf8-85ef-203d7050a45d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create the LU3 Print Demonstration
 The following procedure details creating the LU3 Print Demonstration.  

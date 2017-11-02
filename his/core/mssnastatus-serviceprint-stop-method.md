@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a51840d9-8572-4de9-9980-a6afd00e78d7
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_ServicePrint.Stop Method
 Stops the print service.  

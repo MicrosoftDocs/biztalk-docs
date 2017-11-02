@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec742011-8765-490a-871d-2fd1a35d888d
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LuPrint Class
 Describes a 3270 LU printer resource.  

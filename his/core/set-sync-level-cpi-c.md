@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f514e271-c54c-41ae-8b72-581bbebb66e3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Sync_Level (CPI-C)
 The **Set_Sync_Level** call (function name **cmssl**) is issued by the invoking program to specify the synchronization level of the conversation. The synchronization level determines whether the programs synchronize their processing through the [Confirm](../core/confirm-cpi-c.md) and [Confirmed](../core/confirmed-cpi-c.md) calls.  

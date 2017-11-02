@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df185496-bbd1-4d13-8392-a9b9b23ea6cc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure the LU1 Print Demonstration
 Use the following procedure to configure the LU1 Print Demonstration link service.  

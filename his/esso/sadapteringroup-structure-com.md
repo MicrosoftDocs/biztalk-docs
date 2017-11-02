@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b1f9e9e5-719d-4fa1-a574-b89ab116961e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SAdapterInGroup Structure (COM)
 Describes the names of one or more adapters in a group.  

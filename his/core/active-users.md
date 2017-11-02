@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Folder_ActiveUser"
 ms.assetid: e4a858d6-3c7a-4865-b3a4-57ea9eefcfd2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Active Users
 This folder displays the users that are currently actively using this server.  

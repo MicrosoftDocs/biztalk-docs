@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 205b704c-e0e9-49a2-b293-1eddf692d1bb
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA Verbs
 This implementation of logical unit application (LUA) is available to applications written in Microsoft® C++® version 6.0 or later. Applications access all LUA functions on Windows Server by issuing verbs using the external C functions [RUI](../Topic/RUI1.md),[SLI](../Topic/SLI1.md),[WinRUI](../Topic/WinRUI2.md), and [WinSLI](../Topic/WinSLI2.md).  

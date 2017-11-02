@@ -11,6 +11,8 @@ f1_keywords:
   - "15303"
 ms.assetid: 6484429e-e5db-4cb8-bb5b-2cdcc3b5f5b8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Configure a New Host Environment Wizard Page

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1e432dfa-dbdd-4115-a89c-1c27b410a59b
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LuDown Class
 A 3270 LU downstream resource.  

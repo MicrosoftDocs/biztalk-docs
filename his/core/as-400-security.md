@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f32417d1-53da-42f9-b966-eb559f7ef4e3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # AS/400 Security
 The support for AS/400 security is the same as for other Windows-initiated operations against the mainframe, with the following adjustments:  

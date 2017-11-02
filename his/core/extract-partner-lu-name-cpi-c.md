@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9dfd0e40-5fde-4937-9d88-0b41a6ada8fc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Extract_Partner_LU_Name (CPI-C)
 The **Extract_Partner_LU_Name** call (function name **cmepln**) returns the partner LU name and partner LU name length for a specified conversation. This can be an alias name of up to eight bytes or a fully qualified network name of up to 17 bytes.  

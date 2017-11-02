@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cc795382-8952-441b-be79-e350e2f41ad2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Terminate a Connection with Session Integrator for LU2
 After you have finished sending and receiving information on your LU2 connection, you must shut your connection down with a call to <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.Disconnect%2A>.  

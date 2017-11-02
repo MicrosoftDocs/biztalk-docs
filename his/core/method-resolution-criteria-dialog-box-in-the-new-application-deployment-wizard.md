@@ -11,6 +11,8 @@ f1_keywords:
   - "15321"
 ms.assetid: 27f6c5ba-96a1-4949-84b2-51f914223eb2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Method Resolution Criteria Dialog Box (in the New Application Deployment Wizard)

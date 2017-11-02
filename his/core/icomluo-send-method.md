@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8548d10c-6f69-49c0-8031-d1102adecb36
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # IcomLUO.Send Method
 Sends a complete inbound chain of data on an LU0 session.  

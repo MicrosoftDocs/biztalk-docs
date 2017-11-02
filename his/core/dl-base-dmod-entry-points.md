@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9516a9ab-06b3-491c-b754-efb44ccb8c0f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DL-BASE/DMOD Entry Points
 This section provides definitions for the entry points to the DL-BASE and the Dynamic Access Module (DMOD).  

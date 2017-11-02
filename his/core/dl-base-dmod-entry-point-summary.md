@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e0a24f70-1c01-44c6-af00-cd7303e7378c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DL-BASE/DMOD Entry Point Summary
 The following table shows entry points divided into the categories DL-BASE, Dynamic Access Module (DMOD), and buffer management, and listed in alphabetical order within each category.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4039f435-619e-4556-b48c-195e294a2fc4
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "paulettm"
 ---
 # Security Features in the Data Provider for Informix

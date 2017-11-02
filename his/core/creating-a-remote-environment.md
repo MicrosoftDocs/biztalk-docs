@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fbe4fb63-cced-4349-bb32-848c7cee243a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating a Remote Environment
 Remote environment (RE) definitions are created and managed from the Remote Environments folder. When the WIP (Windows-initiated processing) Console is first started, the remote environment folder is empty.  

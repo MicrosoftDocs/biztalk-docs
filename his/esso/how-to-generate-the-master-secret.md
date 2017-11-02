@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 539b4def-d35c-4888-9e94-9a86f4a5f375
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Generate the Master Secret
 You must have administrator rights on the master secret server in order to generate the master secret. In addition, you must perform this task from the master secret server.  

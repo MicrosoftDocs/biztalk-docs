@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_RHNA"
 ms.assetid: 29036c66-5dfe-4060-ac3d-9da53bb22bb4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # New Security Policy Wizard

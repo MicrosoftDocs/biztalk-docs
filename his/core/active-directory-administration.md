@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 26ce1089-4b42-484d-8fd3-2328bcbb8a8d
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Active Directory Administration
 You can administer [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] Active Directory participation using the Configuration Tool.  

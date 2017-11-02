@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 865c7f0f-5a4d-4466-aebc-6b814fdcdf85
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a BizTalk Application for the Host File Adapter
 After you create the schema, you can code your BizTalk application. Your application will use the metadata assembly that you created in Visual Studio, in addition to the schema and ports that you created in previous steps.  

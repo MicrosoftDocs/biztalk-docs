@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c170592a-7a36-4524-a838-2a4ecc55fdb3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # PortOverride
 When using a TCP/IP transport, PortOverride contains the TCP/IP port number that the Transaction Integrator runtime will use instead of the predefined port in the Remote Environment definition  

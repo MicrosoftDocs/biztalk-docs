@@ -11,6 +11,8 @@ f1_keywords:
   - "SNAPRINT_Session_3270"
 ms.assetid: fc55555e-8aa9-495e-b219-42098bc98518
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # 3270 Session
 The following tabs are available on the Print Session 3270 Properties sheet:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e508dcfa-829d-4712-a9e6-137f7c4c1897
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Inbound Chaining
 The division of application data into [Data](../Topic/Data2.md) messages and the control of inbound chaining are the responsibility of the application.  

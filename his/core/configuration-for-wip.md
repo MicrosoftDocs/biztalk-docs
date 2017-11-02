@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 1fc623fa-910a-4089-9c81-111402dad2fc
 caps.latest.revision: 3
 ms.author: "valthom"
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuration for WIP
 The TI Configuration Tool provides assistance in creating an app.config file for use with TI WIP applications. The app.config file can contain information about the TI WIP Objects and the Remote Environments to be used with the objects. The HIS 2016 SDK contains a WIP projected named ApplicationIntegrationStarterGuide with a readme file that steps through the process of creating an app.config file using the TI Configuration Tool.

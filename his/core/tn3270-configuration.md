@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 979a4322-a228-46f6-8eac-ba98cbab3d5f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TN3270 Configuration
 This section describes the management and configuration of certificates necessary for running TN3270 on [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

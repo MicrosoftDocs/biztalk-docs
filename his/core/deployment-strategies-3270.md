@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ede61d26-2849-42db-978d-a80657ed7249
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Deployment Strategies (3270)
 This section describes deployment strategies that can be applied if you are providing 3270 connectivity services including:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cf415108-327d-4304-ac9c-9edcb875b256
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Open(PLU) OConfirm
 The **Open(PLU) OK Confirm** message flows from the node to the application. It is used with a primary logical unit (PLU) connection.  

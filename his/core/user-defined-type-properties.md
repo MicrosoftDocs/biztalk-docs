@@ -11,6 +11,8 @@ f1_keywords:
   - "15434"
 ms.assetid: 75b7ffe0-1c86-4ae8-9f35-9a0544d3ec46
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # User-Defined Type Properties
 Use the **User-Defined Type** properties page to set design and host definition properties on user-defined types (UDTs).  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cbb682f6-41a6-49da-a89b-da6f6bca5989
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a Link Service
 Another task you may want to perform when setting up an IPDLC connection is to create the link service.  

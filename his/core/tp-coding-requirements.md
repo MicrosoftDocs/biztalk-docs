@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 87e49823-d66c-41f2-b51b-d530adf89029
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TP Coding Requirements
 To work with CICS, TPs must be coded to specify a SYSID parameter on the **ALLOCATE** request that matches the defined SYSIDNT parameter configured in the DFHTCT tables. This request must be in the following format:  

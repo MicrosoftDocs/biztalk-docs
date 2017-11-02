@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e62eb8a5-3485-4b71-b197-0dfaaf965c29
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOLookup2 Methods
 The methods of the **ISSOLookup2** interface are listed in the following table. For a complete list of **ISSOLookup2** interface members, see [ISSOLookup2 Members](../esso/issolookup2-members.md).  

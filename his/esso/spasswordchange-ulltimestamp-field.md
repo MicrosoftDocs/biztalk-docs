@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9bcd62ab-de38-402e-a983-25cfe4ec8073
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SPasswordChange.ullTimeStamp Field
 An integer containing a UTC timestamp in FILETIME format.  

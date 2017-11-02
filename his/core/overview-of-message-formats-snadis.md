@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f88155ff-c8b5-4287-b962-9e0061794d97
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Overview of Message Formats (SNADIS)
 A message always contains fixed-format header information such as a message type and addressing information. It can also contain other header information specific to a particular message type (such as the message subtype) and an indefinite amount of extra data.  

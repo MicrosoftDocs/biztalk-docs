@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1cb98516-1533-404a-86fe-a38ab8ae440f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Type
 Header properties in MQSeries messages are data structures contained in the message itself. The adapter automatically validates and converts certain values in MQSeries message headers when sending and receiving messages.  

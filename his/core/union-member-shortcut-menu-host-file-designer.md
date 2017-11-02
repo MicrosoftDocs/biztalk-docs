@@ -11,6 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfiles.unionmember"
 ms.assetid: 2e07cdaf-b24f-451d-addb-a80ad703d4c8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Union Member Shortcut Menu (Host File Designer)
 When you select a union member from the Library tree, the following shortcut menu commands appear:  

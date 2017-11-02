@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8b51a11a-2456-4778-8a5c-9b0e78bb0ecf
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Initialize_Conversation (CPI-C)
 The **Initialize_Conversation** call (function name **cminit**) is issued by the invoking program to obtain an 8-byte conversation identifier and to set the initial values for the conversations characteristics.  

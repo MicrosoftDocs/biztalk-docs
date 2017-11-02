@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fdceb863-92bd-49e6-a2c1-b639295812b5
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Message Integration (Planning)
 Content TBD.  

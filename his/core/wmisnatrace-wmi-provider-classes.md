@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a9bbd4b-04c2-4c59-a1b6-86e53463869d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WmiSnaTrace WMI Provider Classes
 You can access these provider classes in the \root\MicrosoftHIS namespace.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4ebdba9c-fca0-4605-8357-9f1c16a9f733
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Return_Control (CPI-C)
 The **Set_Return_Control** call (function name **cmsrc**) is issued by the invoking program to specify when the local logical unit (LU), acting on the session request from the local programs [Allocate](../core/allocate-cpi-c.md) call, should return control to the local program.  

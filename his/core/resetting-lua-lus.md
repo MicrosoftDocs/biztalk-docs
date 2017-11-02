@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fb7a1601-6424-41f7-ac2c-8f4c0bbb8d82
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Resetting LUA LUs
 Microsoft® Host Integration Server provides a facility for resetting logical unit application (LUA) LUs or forcing off LUA applications, which is useful if an application has become deadlocked or is looping.  

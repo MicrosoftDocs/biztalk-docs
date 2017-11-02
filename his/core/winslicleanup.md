@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1f1f4abe-da1d-47c7-a2e6-d5a21ca860de
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinSLICleanup
 The **WinSLICleanup** function terminates and deregisters an application using Session Level Interface (SLI) verbs from a Microsoft® Windows® logical unit application (LUA) implementation.  

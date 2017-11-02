@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9196e35f-bc2e-472a-b189-2e18bb743f3b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IOCTL Command Summary
 The parameters to the IOCTL request packet are stored in the following fields in the associated I/O request packet (IRP).  

@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: ab4306a6-9903-4f85-9b36-d3de9c58f37a
 caps.latest.revision: 4
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # hostIntegration.staticSql
 The Microsoft static SQL for DB2 custom package XML file contains multiple elements to inform the DRDA Client and DRDA Server how to execute the DRDA commands BGNBND (Begin Binding a Package to an RDB) with BNDOPT (Bind Options) and BNDSQLSTT (Bind SQL Statement to an RDB Package). The HostIntegrationStaticSql.xsd describes the XML elements, attributes and values that you can define to describe the static SQL package bind options, package name, package sections, statements, parameters, and result sets.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a741b036-cd1f-45eb-ac6d-705a90327a51
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Conversation States (CPI-C)
 The state of the conversation (as viewed by a particular transaction program (TP)) governs which Common Programming Interface for Communications (CPI-C) calls can be made by the TP at a particular time. For example, a TP cannot issue [Send_Data](../Topic/Send_Data%20\(CPI-C\)1.md) if the conversation is not in SEND or SEND_PENDING state for that TP.  

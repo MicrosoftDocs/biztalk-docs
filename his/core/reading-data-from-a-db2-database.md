@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e84d0379-6a53-43b4-9d95-3686923d0a73
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Reading Data from a DB2 Database
 In addition to executing commands on a remote database, you can also retrieve information from the database to view locally.  

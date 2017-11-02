@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a900649b-f312-4a9c-99a1-dc694cdfa5c8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Extract_Mode_Name (CPI-C)
 The **Extract_Mode_Name** call (function name **cmemn**) returns the mode name and mode name length for a specified conversation.  

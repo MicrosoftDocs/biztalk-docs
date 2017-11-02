@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 230cce2c-7926-4f42-a0e7-b2b5ead53850
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Guide
 This section provides information required to develop C-language applications that use Advanced Program-to-Program Communications (APPC) to exchange data in a Systems Network Architecture (SNA) environment.  

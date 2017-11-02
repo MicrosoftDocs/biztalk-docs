@@ -11,6 +11,8 @@ f1_keywords:
   - "15414"
 ms.assetid: 89078e7f-bc1b-4c9f-8678-be425496bf8d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LL Field Wizard Page
 Use the **LL Field** wizard page to select the LL fields to exclude from the transaction if the host environment (HE) is IMS.  

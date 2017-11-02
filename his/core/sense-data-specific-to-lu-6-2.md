@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 719d3c41-002b-4080-87d0-eadd0ad6e1a3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Sense Data Specific to LU 6.2
 The LU 6.2 sense codes are specified and interpreted by SNA components within [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)], and, in general, are presented as return codes and as parameters to specific verbs.  

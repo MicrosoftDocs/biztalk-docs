@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 77c8159f-cd3a-4347-b93f-1dddbe54cb93
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Sync Point Level 2 Support in Host Integration Server
 The following topics describe additions to [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] that enable Sync Point Level 2 support to the LU 6.2 protocol stack.  

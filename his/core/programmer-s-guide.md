@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9ac64dc6-a150-4203-86c8-a094b636e247
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Programmer&#39;s Guide
 Host Integration Server provides comprehensive bidirectional services for integrating Microsoft Windows with legacy systems.  

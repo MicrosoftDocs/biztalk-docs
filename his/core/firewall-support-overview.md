@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4f1f4d04-eaa1-4746-b324-6401b68f17f1
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Firewall Support Overview
 [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] client computers and servers can interoperate with screening routers, where the client computer knows the address of the Host Integration Server computer. Host Integration Server client computers and servers can also interoperate with full-blown Internet firewalls, where the end user is not allowed to know the IP address of the Host Integration Server computers.  

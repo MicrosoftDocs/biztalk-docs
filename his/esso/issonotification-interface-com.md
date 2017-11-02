@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 51a23d6d-fe8e-49dc-8571-44920f3f9a42
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSONotification Interface (COM)
 The **ISSONotification** interface handles password changes to and from the client and server.  

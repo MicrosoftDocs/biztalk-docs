@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b28b80fd-07f5-4ab5-8cd8-20ab20728af3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # .NET Server Library Wizard
 This wizard is a two-page wizard. The first page collects library information, and the second page collects host environment information. In addition, you can use a **Welcome** page, and a **Finish** page to display summary information.  

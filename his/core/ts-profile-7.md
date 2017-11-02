@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80b76345-e3ef-4615-9763-166acb617bb9
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # TS Profile 7
 Transmission service (TS) Profile 7 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU 6.2. This profile specifies the following session rules:  

@@ -11,6 +11,8 @@ f1_keywords:
   - "SNA_Folder_Pool"
 ms.assetid: 6440fd0c-40e2-43e7-b53b-dd7519dfd99e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # LU Pools
 Although you can create individual LUs and assign them to users and groups, using LU pools to manage and deploy a large number of LUs lets you administer these resources more efficiently. An LU pool is a grouping of LUs that allows you to maximize access to these LUs as shown in the following figure. A user, an application, or a downstream system can access the LUs as long as any LU assigned to the pool is free. If any one of the pooled LUs ceases to function, another available LU in the LU pool is automatically used.  

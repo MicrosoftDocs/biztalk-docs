@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: de2c2fc1-31fc-4c7e-a98b-4c47a1c5df09
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server Extensions
 The Host Integration Server **DISPLAY** verb is compatible with the IBM ES for OS/2 version 1.0 **DISPLAY** verb. However, since IBM ES for OS/2 version 1.0 is a single-server system and Host Integration Server supports multiple-server systems, the **DISPLAY** verb has been extended to allow the user to target a specific server running Host Integration Server by which the **DISPLAY** verb will be processed.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6383b568-6918-4e60-8379-873239056f44
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # GetFmiReturnCode
 The **GetFmiReturnCode** function converts link status and error codes to a printable string. This function provides a standard set of error strings for use by Function Management Interface (FMI) applications.  

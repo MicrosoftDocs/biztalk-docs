@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ceb7ef63-b25b-46a8-9c49-b905a828439f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # IBM DBCS Code Pages
 Transaction Integrator (TI) recognizes the following code pages as IBM double-byte character set (DBCS) code pages:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 319669d1-6eed-4eba-8859-67d865ab47a8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Code a Transaction Integrator Application
 Once you have deployed a Transaction Integrator (TI) component, you can write code against that component. Once you are finished writing your code, you can test your code, and if necessary modify the interface to the TI component.  

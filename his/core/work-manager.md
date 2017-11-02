@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2741065d-5ad8-411f-95ac-ee1535877c56
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Work Manager
 When no work is currently outstanding, the Base thread of execution sleeps, waiting for an event or for a maximum period of five seconds. SNALinks should signal the Base when an event occurs (such as data arriving on the link) by setting the Base global event. A handle to this event is passed on the [SNALinkInitialize](../Topic/SNALinkInitialize1.md) call.  

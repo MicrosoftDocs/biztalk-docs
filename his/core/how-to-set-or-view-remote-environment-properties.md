@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 426d6895-62d4-4b69-a9e3-8686843b3bff
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Set or View Remote Environment Properties
 Basic information about a remote environment (RE) is displayed on an item's property sheet. Property sheets are available for the following items:  

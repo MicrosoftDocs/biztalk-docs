@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f113b90c-649b-4e26-8ee7-6a0f7b5ffb04
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # RECEIVE_ALLOCATE_EX_END
 The RECEIVE_ALLOCATE_EX_END verb allows an application to deregister as the attach manager for a given Local APPC LU (lu_alias). This verb must be called for each lu_alias previously passed to the RECEIVE_ALLOCATE_EX request.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba981da4-cc00-4304-8eac-393e28849ed3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOConfigStore Methods
 The methods of the **ISSOConfigStore** interface are listed in the following table. For a complete list of **ISSOConfigStore** interface members, see [ISSOConfigStore Members](../esso/issoconfigstore-members.md).  

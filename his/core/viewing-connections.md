@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9accb0f1-a281-4f23-84e4-9a135b16152a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Viewing Connections
 As with other connections, you can view IP-DLC link service connections in the list view of the **Connections** folder.  

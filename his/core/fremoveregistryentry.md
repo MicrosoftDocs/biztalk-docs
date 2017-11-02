@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c592f9de-4f97-4001-9d25-59c547659213
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fRemoveRegistryEntry
 The **fRemoveRegistryEntry** function is used to remove a registry key from the registry. This utility function is used to construct an integrated link service configuration DLL.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e3beeb58-088a-46a0-9848-676da12da1de
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ---
 # Support for ODBC 3 Functions
 The following table lists the ODBC 3.0 functions that are supported by the Microsoft ODBC Driver for DB2.  

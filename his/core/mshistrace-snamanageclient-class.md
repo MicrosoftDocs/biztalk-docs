@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 26b4a50d-1282-41e6-8f21-e8df4f598db0
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsHisTrace_SNAManageClient Class
 The **MsHisTrace_SNAManageClient** contains tracing properties for the SNA Manage Client.  

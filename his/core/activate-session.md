@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7c8836ba-06cd-4f8e-a1df-dfb8f2adf927
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ACTIVATE_SESSION
 The **ACTIVATE_SESSION** verb requests Microsoft® Host Integration Server to activate a session between the local logical unit (LU) and a specified partner LU, using a specified mode. This verb completes either when the specified session has become active or when it has failed.  

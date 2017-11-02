@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 26ee6453-2e61-4a16-8576-96fc8c371e9e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Fixed Link Roles
 The following figure shows the sequence of messages for a peer connection where the local end is configured as the primary station and the remote end is configured as the secondary.  

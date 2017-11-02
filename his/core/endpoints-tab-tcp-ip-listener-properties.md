@@ -11,6 +11,8 @@ f1_keywords:
   - "15327"
 ms.assetid: ad55421a-862b-4e2a-a4a6-7be0f795f115
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Endpoints Tab (TCP/IP Listener Properties)

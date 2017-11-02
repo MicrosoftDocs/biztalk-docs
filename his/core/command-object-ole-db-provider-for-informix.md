@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 65def2bf-cb8a-4cb4-b598-032f3054f98e
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Command Object (OLE DB Provider for Informix)
 The **Command** object is created by an OLE DB consumer, or by a service provider on behalf of a consumer. A **Command** object is used to execute a distributed relational database architecture (DRDA)-specific command on a remote Informix database server operating as a DRDA application server. The **Command** object supports executing Structured Query Language (SQL) commands when connected to remove DRDA application servers.  

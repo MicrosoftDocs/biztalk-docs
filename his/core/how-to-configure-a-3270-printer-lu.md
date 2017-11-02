@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9f13740d-e2fe-4d83-bb94-c01316c062c9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure a 3270 Printer LU
 The following procedure details how to configure a printer LU.  

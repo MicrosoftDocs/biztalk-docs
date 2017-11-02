@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec9edab8-75d4-46b3-87c1-7d16a22d89d3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Network Integration (Planning)
 ## In This Section  

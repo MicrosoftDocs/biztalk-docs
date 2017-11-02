@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2b02b2ae-0488-47bd-8803-641107d31001
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TI in a Non-DPL Environment
 A non-linked environment (that is, a non-DPL environment) is one that does not use IBM Distributed Program Link (DPL). You can use Transaction Integrator (TI) to invoke a mainframe transaction program (TP) that uses the `EXEC CICS RECEIVE INTO` and `EXEC CICS SEND FROM` COBOL commands. These two COBOL commands are useful when you want a CICS TP to take on SNA (APPC/LU 6.2) conversation responsibilities and therefore bypass the Mirror TP. In other words, the `EXEC CICS RECEIVE INTO` and `EXEC CICS SEND FROM` COBOL commands are most often used in a non-linked environment to transfer data to and from a logical unit (LU) of type 6.2 (APPC).  

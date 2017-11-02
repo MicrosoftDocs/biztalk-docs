@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a9fa156f-8990-4f35-8a80-ff29e6f69b78
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Active Directory Services
 Microsoft Active Directory is the Windows directory service. A directory service is an object-oriented information database of network resources. It also provides the services that locate, use, and manage the database and the network resources. These network resources are known as objects and can include network servers, users, printers, computers, databases, and security policies.  

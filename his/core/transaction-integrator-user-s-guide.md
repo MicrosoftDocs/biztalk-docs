@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 69933b5c-2184-4654-b1e1-6f951462a703
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Transaction Integrator User&#39;s Guide
 This section contains information about using Transaction Integrator (TI). Transaction Integrator is the synchronous .NET Framework application integration solution in [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)]. TI enables you to integrate mainframe-based transaction programs (TP) and AS/400 transactions with component-based Windows Server System applications when the following conditions are true:  

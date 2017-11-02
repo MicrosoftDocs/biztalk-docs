@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 306ff837-74d0-4fe8-ac6a-a3419bf8640a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Monitor the Health of Host Integration Server with WMI
 Health monitoring refers to viewing the current status of different aspects of Host Integration Server through the **WmiSnaStatus** provider. You can access **WmiSnaStatus** provider in the same manner as you would any other instance and method provider. You use **ExecQuery** to query for the relevant information, and then display the information to screen or write the information to a log file. Some **WmiSnaStatus** classes also have methods that let you start and stop related services.  

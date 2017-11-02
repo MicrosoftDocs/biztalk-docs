@@ -11,6 +11,8 @@ f1_keywords:
   - "15339"
 ms.assetid: b8307bcc-a067-4de9-95d9-d7c88c69521a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Method Resolution Criteria Dialog Box (Object Properties)

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a19efa67-484c-4b89-a2ed-baa30e1a39d2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Understanding Connectivity
 After you have completed [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] installation, you are ready to configure your installation. This section provides the concepts and procedures for configuring [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)].  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2f6c9a3a-8571-4373-991f-fabe9c7795d0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapping.Create Method
 The **Create** method creates the mapping.  

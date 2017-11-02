@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5c09dd5f-8749-4e17-8e03-f9d3ced57ca3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Execute Commands in the Host File System
 After establishing a connection to a data source, you can execute commands and return results from the data source using `HostFileCommand`.  

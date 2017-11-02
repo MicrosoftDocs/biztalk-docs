@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c0f497db-ff13-432a-ae11-081914294c0a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA_ExtendedStatus Class
 Used to return error information if required  

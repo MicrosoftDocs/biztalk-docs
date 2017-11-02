@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 709d58f7-c8b8-4000-bdb3-305714bbf4e3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Direction after Receiving a Negative Response
 Within the local node, error recovery for a half-duplex application (as specified by byte 7 bit 2 of the **BIND**) is assumed to be the responsibility of the host. However, the application must be aware that an error recovery state has been entered to obey the direction protocol.  

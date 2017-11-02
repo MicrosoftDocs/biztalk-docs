@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 77b70fe4-521e-4e9c-b5a1-def8d1191834
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Meeting Specific Real-World Needs
 The topics in this section show you how to use Transaction Integrator (TI) together with COM+ to meet specific real-world application integration needs.  

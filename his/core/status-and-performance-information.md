@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c184edbf-8918-4800-83af-a12bbf448e28
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Status and Performance Information
 This section details the status and performance features of [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] and the Windows operating systems.  

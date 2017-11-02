@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 12e64359-c62f-4492-98b2-9766dfa44c74
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Integration Server Client and SNA Communications
 When an application on a client computer makes a call to one of our SNA APIs, the client computer must direct a resource location request to the [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer that is its sponsor server. 

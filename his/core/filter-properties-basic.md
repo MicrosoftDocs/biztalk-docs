@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea3cdf88-3656-419c-bf95-05dd011fa6b8
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Filter Properties: Basic
 Set these properties according to any restrictions on your host system.  

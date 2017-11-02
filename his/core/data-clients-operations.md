@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: adcdd3c8-43dc-46c0-b535-96bb3a812b4c
 caps.latest.revision: 2
 ms.author: "v-mlynd"
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Clients (Operations)
 For the most recent version of Microsoft Host Integration Server documentation, see [http://msdn.microsoft.com/library/gg241192.aspx](http://msdn.microsoft.com/library/gg241192.aspx).  

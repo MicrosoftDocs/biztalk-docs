@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9fcdf21-60e9-4be2-84a0-de21804e5e08
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # UPDATE Statement
 The following describes the `UPDATE` statement for the Managed Provider for Host Files and provides a sample `UPDATE` statement.  

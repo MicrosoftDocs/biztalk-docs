@@ -11,6 +11,8 @@ f1_keywords:
   - "15410"
 ms.assetid: c1972f59-acec-466c-b460-771a4bc3905c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Input Area Wizard Page
 Use the **Input Area** wizard page to select the input parameters for the new method in a non-link programming model.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e968af29-a458-431f-8005-71a2d102b1d0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Matching Invoking and Invokable TPs
 Each computer running [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] maintains a list of available invokable TP names and any LU aliases to be associated with the TP names. This information is obtained as follows:  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ddc839de-ad90-42f9-8660-5d9784dc0cda
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Bounded Final Fields
 When the last input or the last output parameter in a method is an array or recordset, that parameter can be bounded. Its size can vary from 0 to the maximum number of elements or rows specified. The array or recordset must be last to be bounded. Otherwise, there is no reliable way to determine the end of a bounded array or recordset and the beginning of the next field in the buffer. The host application must take care of sending the truncated table.  

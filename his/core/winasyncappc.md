@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ceb62f30-4b7b-471f-87c3-76b4e1a2dbde
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WinAsyncAPPC
 The **WinAsyncAPPC** function provides an asynchronous entry point for all of the APPC verbs. Use this function instead of the blocking versions of the verbs if you run your application and want to use message posting using Windows handles for asynchronous verb completion.  

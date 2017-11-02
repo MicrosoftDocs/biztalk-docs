@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dcde03ca-6c97-4105-b204-c9a07afd4d46
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_TP_Name (CPI-C)
 The **Set_TP_Name** call (function name **cmstpn**) is issued by the invoking program to specify the partner (invokable) program name. This call overrides the partner program name derived from the side information when the [Initialize_Conversation](../core/initialize-conversation-cpi-c.md) call was issued. This call cannot be issued after the [Allocate](../core/allocate-cpi-c.md) call has been issued. Issuing this call has no effect on the side information itself.  

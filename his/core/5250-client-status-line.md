@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 41ceb93b-3ade-4660-9f01-12eae2841ae3
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # 5250 Client Status Line
 The following list describes the information displayed in the status line of the 5250 Client.  

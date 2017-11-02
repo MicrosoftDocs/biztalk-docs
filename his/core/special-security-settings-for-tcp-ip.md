@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e1474e13-b786-4694-92bd-359d53cb4c6e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Special Security Settings for TCP/IP
 Two special security settings are available for the TCP/IP protocol for CICS and IMS:  

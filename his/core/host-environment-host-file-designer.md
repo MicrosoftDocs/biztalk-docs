@@ -11,6 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.wizard.hostfiles.hostenvironment"
 ms.assetid: b690931e-2823-4f72-beca-f8e55db91121
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Host Environment (Host File Designer)
 Use the **Host Environment** Wizard page to select the host environment for your host file application.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 87d5426b-cf63-4bd3-8bbc-7f14e5ab9d08
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DevIoctl Definitions to Support SNA Modem Status
 The **SNA DevIoctl** interface is modified to update the [MODEM_STATUS](../Topic/MODEM_STATUS2.md) structure for a link each time a modem status change is detected or caused by a **GetV24** or **SetV24** IOCTL call. Code is manually added to the link service to track the number of frames received and transmitted.  

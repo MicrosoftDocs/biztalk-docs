@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a22c1c6-5e59-4720-9e9e-4512608bc82b
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Installing HIS 2013
 The following sections provide help for installing and configuring [!INCLUDE[hishostintegrationserver2009](../install-and-config-guides/includes/hishostintegrationserver2009-md.md)].  

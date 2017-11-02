@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 483c3b84-87fc-4811-927a-3baf4ddcebdc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Adding a Remote Environment
 You can use the **Remote Environment Wizard** to define the characteristics of the environment that receives request from the Windows system.  

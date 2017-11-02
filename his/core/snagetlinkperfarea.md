@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0a0de082-65a9-43a3-a7fe-4b94d46065d9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # SNAGetLinkPerfArea
 The **SNAGetLinkPerfArea** function returns a pointer to the shared data area used by the Perfmon application to store the link statistics. The parameters are the returned values from **SNAInitLinkPerfmon**. The SNA link then maintains the **ADAPTERCOUNTER** members of the returned **ADAPTERPERFDATA** structure.  

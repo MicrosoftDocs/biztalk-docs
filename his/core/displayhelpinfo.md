@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 187cb25f-39f9-480a-96ed-43bddb76c8f6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DisplayHelpInfo
 The **DisplayHelpInfo** function is used to generate help information used by the command-line interface to a link service dynamic-link library (DLL). This function must be exported from a link service configuration DLL supplied with each link service.  

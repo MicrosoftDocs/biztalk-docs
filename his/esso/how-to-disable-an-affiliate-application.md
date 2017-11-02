@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a7df6e78-6d18-443d-82dc-4351c20a8c4e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Disable an Affiliate Application
 Use the MMC Snap-In or the **disableapp** command to disable the specified affiliate application.  

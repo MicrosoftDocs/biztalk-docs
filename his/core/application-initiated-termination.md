@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a57f2272-b3b8-4f3b-9074-0e92db7b4232
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Application-Initiated Termination
 An application on a session with function management (FM) profile 3 or 4 can request termination of the primary logical unit (PLU) session. It should only do so if it has previously ensured that it is in a state where the PLU session can be terminated, that is, between-chain and between-bracket. Terminating the PLU session does not affect the state of the system services control point (SSCP) session.  

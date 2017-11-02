@@ -11,6 +11,8 @@ f1_keywords:
   - "15233"
 ms.assetid: 1eefef00-fdaf-42b3-ac24-89ff399e3148
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # General Tab (Object Properties)

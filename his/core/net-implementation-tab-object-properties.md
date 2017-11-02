@@ -11,6 +11,8 @@ f1_keywords:
   - "15386"
 ms.assetid: e5ea873c-955f-43b2-a325-0e404311acda
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # .NET Implementation Tab (Object Properties)

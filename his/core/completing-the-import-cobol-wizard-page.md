@@ -11,6 +11,8 @@ f1_keywords:
   - "15419"
 ms.assetid: aa8575bb-392d-468a-a760-a75dee58e807
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Completing the Import COBOL Wizard Page
 Use the **Completing the Import COBOL Wizard** page to review the choices and settings you made in the previous wizard pages. You can return to an earlier wizard page to change a setting by clicking **Back**.  

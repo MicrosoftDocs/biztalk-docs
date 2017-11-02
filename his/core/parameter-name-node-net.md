@@ -11,6 +11,8 @@ f1_keywords:
   - "15468"
 ms.assetid: dcf44507-fcb0-41c5-ad77-9f40cf7105ac
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Parameter Name Node (.NET)
 Use the ***parameter name*** node to change the name of the parameter or view its properties.  

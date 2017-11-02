@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 84006215-ea1c-41b1-bc55-cb9947c23ff0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Confirm (CPI-C)
 The **Confirm** call (function name **cmcfm**) sends the contents of the send buffer of the local logical unit (LU) and a confirmation request to the partner program and waits for confirmation. For Microsoft Windows, run a background thread for all CPI-C communications and preserve the foreground thread for user interface only.  

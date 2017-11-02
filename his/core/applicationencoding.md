@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: a3758bdd-3209-45e2-ba8a-8f988072a9cb
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # applicationEncoding
 The applicationEncodings type is Microsoft.HostIntegration.ConfigurationSectionHandlers, which defines  application-level encoding schemes and conversions.  

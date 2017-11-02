@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a6230aab-6bcb-46cd-8c9d-0e35aeb6b166
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # bDeleteService
 The **bDeleteService** function is used to delete a service on a computer for a link service. This utility function is used to construct an integrated link service configuration dynamic-link library (DLL).  

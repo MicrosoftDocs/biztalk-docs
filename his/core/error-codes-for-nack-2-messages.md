@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 05aed1e0-70d2-439f-bed4-6960be87aa92
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Error Codes for Nack-2 Messages
 The possible error codes delivered to the function management interface (FMI) application on [Status-Acknowledge(Nack-2)](../Topic/Status-Acknowledge\(Nack-2\)1.md) and [Status-Control(...) Negative-Acknowledge-2](../Topic/Status-Control\(...\)%20Negative-Acknowledge-22.md) messages are tabulated in the following table. A **Nack-2** is delivered to the application in response to data that is sent in error (or a [Status-Control(...) Request](../Topic/Status-Control\(...\)%20Request1.md) that is in error). The data has not been sent to the host. The table indicates whether the error is critical, applying to the primary logical unit (PLU) connection only. If the error is critical, the critical failure indicator will be set in the message, and the application will receive a [Close(PLU) Request](../Topic/Close\(PLU\)%20Request1.md) as the next message.  

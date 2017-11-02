@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d2339060-4e32-4ea3-84a8-50e19e1f1b9f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure SNA Service Properties
 The **SNA Service configuration** dialog box can be used to change SNA service properties, including:  

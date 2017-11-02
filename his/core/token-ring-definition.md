@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a69fc542-6c4c-478e-8c9e-ad5d157dc9fb
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Token Ring Definition
 The following table shows a VTAM definition for a connection between a [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer and an IBM 9370 host computer across a Token Ring local area network (LAN).  

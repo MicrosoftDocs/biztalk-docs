@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cb8e9582-86b4-4367-8dbd-bd8856190a16
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # SNA Considerations with LUA
 This section explains SNA information you need to consider when writing logical unit application (LUA) applications.  

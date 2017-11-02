@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4133775c-9efd-4a7a-bfda-99a284c8c3c8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA SLI Verbs
 This section describes the Microsoft® Windows® logical unit application (LUA) Session Level Interface (SLI) verbs. It provides the following information for each SLI verb:  

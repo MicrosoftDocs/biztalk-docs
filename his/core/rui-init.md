@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df5c593f-e8cc-4b24-a499-24295171d546
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # RUI_INIT
 The **RUI_INIT** verb transfers control of the specified logical unit (LU) to the Microsoft® Windows® logical unit application (LUA) application. **RUI_INIT** establishes a session between the system services control point (SSCP) and the specified LU.  

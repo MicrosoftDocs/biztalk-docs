@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a2b62a8a-487d-4af4-af02-15d1677d179e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Building the 3270 Client Samples
 When you install Host Integration Server, all the 3270 client samples are built in a similar way, as described in this section. First, set the environment variables listed in the following table.  

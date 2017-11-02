@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0dc3c924-3155-46b6-b5ae-870935140349
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOAdmin.DeleteApplication Method
 The **DeleteApplication** method deletes an application from the Enterprise Single Sign-On (SSO) server database.  

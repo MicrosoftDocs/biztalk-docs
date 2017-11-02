@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 92bd94d3-a3a1-4129-aa5d-b23aa41530a7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Managing Affiliate Applications
 This section provides information on how to create and configure affiliate applications.  

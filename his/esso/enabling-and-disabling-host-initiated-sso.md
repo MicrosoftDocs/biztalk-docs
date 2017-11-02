@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c50c5f00-8e20-4e29-8432-1b33458df633
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Enabling and Disabling Host Initiated SSO
 By default, host initiated Single Sign-On (SSO) is not enabled in the Single Sign-On system, and must be enabled by the SSO Administrator.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c7ff5c44-3fbd-413f-93be-49308f2a1fcc
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Opening the SSCP Connection
 An application gains access to the system services control point (SSCP) session by opening an SSCP connection to the local node. To do this, an application sends an [Open(SSCP) Request](../Topic/Open\(SSCP\)%20Request1.md) message to the local node, which responds with an [Open(SSCP) Response](../Topic/Open\(SSCP\)%20Response2.md). The local node follows a positive **Open(SSCP) Response** with a [Status-Session](../Topic/Status-Session1.md) message reporting the current state of the SSCP session. (For more information, see [Using the SSCP Session](../core/sscp-session.md).)  

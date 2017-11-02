@@ -10,6 +10,8 @@ ms.topic: "article"
 ms.assetid: 8efd6862-c35c-4e74-9f00-a06cb3021342
 caps.latest.revision: 2
 ms.author: "dwrede"
+author: MandiOhlinger
+manager: anneta
 ---
 # drdaServiceTraceListeners
 The drdaServiceTraceListeners element contains one or more drdaServiceTraceListener elements to instruct the DRDA Server to send trace output to optional custom text trace listeners.  

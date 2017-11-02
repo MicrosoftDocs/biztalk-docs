@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 028c928a-b67a-4e9e-a60c-a6497882a110
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Items to Consider for a Successful Connection
 For a connection to be established successfully, a number of software settings and hardware characteristics must work together.  

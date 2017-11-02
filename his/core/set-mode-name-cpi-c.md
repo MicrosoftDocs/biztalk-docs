@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 33b257c7-511f-4dc4-89ad-598121f8eb36
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Set_Mode_Name (CPI-C)
 The **Set_Mode_Name** call (function name **cmsmn**) is issued by the invoking program to specify the mode name for a conversation. This call overrides the system-defined mode name derived from the side information when the [Initialize_Conversation](../core/initialize-conversation-cpi-c.md) call was issued. This call cannot be issued after [Allocate](../core/allocate-cpi-c.md)has been issued. Issuing this call has no effect on the side information itself.  

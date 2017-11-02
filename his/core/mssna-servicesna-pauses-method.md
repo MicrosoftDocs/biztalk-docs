@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3b272e53-fd4a-4b99-9fe6-8ea52c4712b6
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_ServiceSNA.Pauses Method
 Pauses the service.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6c0cb890-3466-4233-8540-8b3b9eb030f3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # BACKOUT Verb Issued Locally
 ![](../core/media/appc2db.gif "appc2db")  

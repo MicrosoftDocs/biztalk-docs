@@ -11,6 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfiles.unions"
 ms.assetid: 2ce4a6c3-ee64-47a9-9fb9-c8b048997759
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Unions Shortcut Menu (Host File Designer)
 When you select the **Unions** node in the tree view in HIS Designer, the following shortcut menu commands are displayed.  

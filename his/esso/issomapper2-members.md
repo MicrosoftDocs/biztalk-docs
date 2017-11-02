@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4ba62821-f591-4ca7-83c2-330a957ba742
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapper2 Members
 The following table shows the ISSOMapper2 methods.  

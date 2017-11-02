@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a45d0956-8a08-42a0-8bf3-640374e10df2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_Lu3270 Class
 The **MsSnaStatus_Lu3270** class represents a SNA Service display LU, printer LU, or LUA LU status.  

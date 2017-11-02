@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fcf397eb-2e1f-4c99-bc51-08068ef8df7f
 caps.latest.revision: 124
+author: MandiOhlinger
+manager: anneta
 ms.author: "wspubsup"
 ---
 # Planning and Architecting Solutions Using Microsoft Service for DRDA

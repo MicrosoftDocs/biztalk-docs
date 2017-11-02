@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6cc82915-fb84-442b-a9e0-049348458017
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Services Account Screen
 Setup installs a number of services that must be able to log on to the Windows domain. This requires Setup to create a domain user account and to assign the account the privileges that the services require to operate properly.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 44ac6268-2726-4426-8a45-0b445acf3a15
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Value Parsing
 The following describes the syntax for value parsing for the Managed Provider for Host Files and provides an example.  

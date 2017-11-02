@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4d5d1cf2-ed13-43f4-86b2-9e7c5d7b38f4
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Opening the STATION LPI Connection
 After receiving a [Request-Open-Station](../Topic/Request-Open-Station1.md) (RQOS) message, the local node sends an [Open(STATION)](../Topic/Open\(STATION\)2.md) message to the SNALink when:  

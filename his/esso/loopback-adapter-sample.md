@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0b9344e8-7759-432d-bff8-001f4393728d
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Loopback Adapter Sample
 The Loopback Adapter sample is a password sync adapter for Enterprise Single-Sign on (ENTSSO) implemented as a windows NT service written in C#. The sample demonstrates how to use the SSOPSHelper COM component and the ISSOPSWrapper interface to develop a password sync adapter in managed code.  

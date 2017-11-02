@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b5f67f37-4f7f-4d24-867d-f2f22280cb50
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # New .NET Client Library Wizard
 The **New .NET Client Library Wizard** collects information about the assembly information and about the remote environment (RE). The Wizard generates an annotated .NET assembly and adds the assembly to the current TI Project displayed in the Solution Explorer.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e7368163-7006-4884-9944-6cd4fee1e561
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DataTableCollection
 An ADO.NET `DataSet` contains a collection of zero or more tables represented by `DataTable` objects. The `DataTableCollection` contains all the `DataTable` objects in a `DataSet`.  

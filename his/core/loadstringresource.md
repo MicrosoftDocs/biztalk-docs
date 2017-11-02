@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a43db83-c2ca-452b-9371-ce6ff967efd7
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # LoadStringResource
 The **LoadStringResource** function is used to load a string from a string resource. This utility function is used to construct an integrated link service configuration DLL.  

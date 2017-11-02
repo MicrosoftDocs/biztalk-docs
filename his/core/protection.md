@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6dd1fc47-5e22-48f0-be56-b1da05e35257
 caps.latest.revision: 7
+author: MandiOhlinger
+manager: anneta
 ---
 # Protection
 ## DRDA Service Authentication Methods  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b33054a6-b908-49ce-b3cd-d007677fefc1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # fRegistryKeyExists
 The **fRegistryKeyExists** function is used to determine if a registry key already exists in the registry. This utility function is used to construct an integrated link service configuration DLL.  

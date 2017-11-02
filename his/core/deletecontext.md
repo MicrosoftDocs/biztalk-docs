@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0d1cc8a7-2f7d-45fa-a0b8-fd12b5719ce2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # DeleteContext
 Use the **DeleteContext** method to remove an entry in a TI Context array.  

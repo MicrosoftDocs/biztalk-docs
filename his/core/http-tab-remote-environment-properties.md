@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: acfc4807-c2dc-4c2a-a331-8bf81a9ad062
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # HTTP Tab (Remote Environment Properties)

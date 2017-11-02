@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ddee4f9-ddd7-43d4-b1a3-d4a5db245310
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Trace and Diagnostic File Location
 The following table lists the default location of files containing trace and diagnostic information:  

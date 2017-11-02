@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f6d39c28-a6d4-4e73-ab5f-4b840a3e1c7c
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSna_LinkService_IpDlc Class
 The **MsSna_LinkService_IpDlc** class represents the SNA IP-DLC link service.  

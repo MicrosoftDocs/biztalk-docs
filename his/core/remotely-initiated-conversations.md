@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d83968ce-0e52-45e1-8360-5771bcb5660d
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Remotely Initiated Conversations
 Applications that want to receive remotely initiated conversations (incoming Attaches) issue a [RECEIVE_ALLOCATE](../Topic/RECEIVE_ALLOCATE2.md) verb. To accommodate Sync Point support, the **RECEIVE_ALLOCATE** verb is modified in a number of ways as follows:  

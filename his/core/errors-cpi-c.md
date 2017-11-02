@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d3bdc7d0-bbff-4b5e-bb91-85f7f400f7c6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Errors (CPI-C)
 The following table summarizes state changes that occur when a data transmission error is encountered.  

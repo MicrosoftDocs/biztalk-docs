@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0ecca55d-b902-48b1-b3d9-d64fe6254996
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Service Connection Point
 During installation, a Service Connection Point in Active Directory is created by Host Integration Server 2009 that identifies this instance of the product. The Active Directory Schema defines a **serviceConnectionPoint** (SCP) object class to make it easy for a service to publish service-specific data in the directory. Users can search the Global Catalog for all instances of the product’s Service Connection Point. When the Host Integration Server 2009 is uninstalled, the Service Connection Point is removed from Active Directory.  

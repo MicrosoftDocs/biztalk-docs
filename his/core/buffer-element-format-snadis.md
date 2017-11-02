@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5368ec90-5429-4118-9c62-1d9d9ade2b0b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Buffer Element Format (SNADIS)
 This topic lists the common fields that always occur at the start of a buffer element. The **dataru** field contains information specific to the particular message. For details about individual message formats, see [SNADIS Message Formats](../Topic/SNADIS%20Message%20Formats1.md).  

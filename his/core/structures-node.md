@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f71cda01-af19-476c-ad9f-db0354cee247
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Structures Node
 Use the **Structures** node to view a list of all the **Structures** in an assembly.  

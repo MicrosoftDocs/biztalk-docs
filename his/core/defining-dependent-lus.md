@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a2e88ca6-ed70-4138-a7f0-9fce4c832f94
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Defining Dependent LUs
 You can configure dependent LUs (both 3270 and LUA) as you would with any other link service.  

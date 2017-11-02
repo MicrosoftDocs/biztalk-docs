@@ -11,6 +11,8 @@ f1_keywords:
   - "15349"
 ms.assetid: 19ba7513-c8f6-479f-ada9-f7641023b09f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Object Node (HIP)

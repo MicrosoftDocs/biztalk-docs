@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bbb459c8-7979-4a17-bead-979807db5f68
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Configuring Connections
 If you run a wizard to create your connections, most of the configuration information will be added with the criteria you entered when the wizard runs. The AS/400 Wizard, the Mainframe APPC/LU6.2 Wizard, and the 3270 Wizard step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  

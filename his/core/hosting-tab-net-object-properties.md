@@ -11,6 +11,8 @@ f1_keywords:
   - "15236"
 ms.assetid: bb4cd98e-2aea-4898-84f1-1e3d5737ef94
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Hosting Tab (.NET Object Properties)

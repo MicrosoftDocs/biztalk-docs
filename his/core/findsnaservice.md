@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 321ac6cd-2e25-4efa-b783-9c76c889dcd0
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # FindSNAService
 The **FindSNAService** function is written as a parallel to [CreateSNAService](../core/createsnaservice.md). It is written to provide an easy way to access the keys for a particular service.  

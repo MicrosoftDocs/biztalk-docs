@@ -11,6 +11,8 @@ f1_keywords:
   - "his_data_dat_wizard_welcome"
 ms.assetid: a5081b03-9dc1-4867-add8-536d3e5907d3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Welcome to the Export HIP Definitions Wizard Page

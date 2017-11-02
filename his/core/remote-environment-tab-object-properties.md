@@ -11,6 +11,8 @@ f1_keywords:
   - "15456"
 ms.assetid: e269319e-e829-4434-aee9-dd4257c26a86
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Remote Environment Tab (Object Properties)

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 215a9ec0-bdd4-4248-8082-ba5ed835964b
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # Enterprise Single Sign-on  Programmer&#39;s Reference
 This section provides information required to develop applications which use the Enterprise Single Sign-On features integrated into Host Integration Server.  

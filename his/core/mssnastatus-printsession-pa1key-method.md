@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e6150c73-524a-4194-b8ca-afa37f077c07
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # MsSnaStatus_PrintSession.PA1Key Method
 Simulates pressing the PA1 key.  

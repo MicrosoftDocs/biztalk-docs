@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cd2457b8-8461-4a6f-bedd-f5def73d3cd3
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ISSOMapper2.GetApplications2 Method
 The GetApplications2 method retrieves the available applications for a Microsoft Windows user.  

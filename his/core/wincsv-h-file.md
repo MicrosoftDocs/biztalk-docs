@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 52519262-62a2-4c72-a530-6190faaf43a8
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # WINCSV.H File
 Use the **#include** command to include the WINCSV.H file in any application that issues CSVs.  

@@ -11,6 +11,8 @@ f1_keywords:
   - "15220"
 ms.assetid: 680a647c-a843-4350-bb93-25c2a53c5dc1
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # CICS Tab (for LU6.2 Link Properties)

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 386fcbd8-1357-4793-b83f-44cab2f02835
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Saving a Configuration (5250)
 After you have configured a connection to the host, you can save it. While you are connected to the host application, you cannot open a new or existing configuration.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7d85dcc6-2b9e-49a6-9cb1-256c6ccba283
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Programmer&#39;s Reference
 This section of the Host Integration Server software development kit (SDK) provides reference information for the programmer.  

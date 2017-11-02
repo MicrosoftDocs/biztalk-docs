@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 573e60fd-7380-4326-9064-7a84636e53be
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # IcomLUO.Disconnect Method
 Disconnects from a previously-connected session.  

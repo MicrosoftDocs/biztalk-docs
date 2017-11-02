@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 614f9129-4f8f-4e3e-9f33-b23fe4e26122
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Confirmation (CPI-C)
 The following table summarizes state changes that occur under the following conditions:  

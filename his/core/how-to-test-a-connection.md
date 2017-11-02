@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2245a24e-2a0f-4b07-a3ac-ed979c20e2c5
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Test a Connection
 After you create the appropriate connection string and store it in a file, you can programmatically test the validity of your connection with a call to <xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A>.  

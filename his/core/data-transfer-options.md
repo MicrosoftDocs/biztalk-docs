@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 021bf407-099e-4bc3-b687-3f61ad4a5a98
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Data Transfer Options
 You can use various options to transfer data to and from the mainframe transaction program (TP). These options apply to arrays, recordsets, and strings (or variable-length tables and display data in COBOL terms). The topics in this section describe each of the possible data transfer options. Choose the option that optimizes the amount of data to be transferred.  

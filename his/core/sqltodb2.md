@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0a0deee0-85ef-4f38-b554-bd595e3b993a
 caps.latest.revision: 2
+author: MandiOhlinger
+manager: anneta
 ms.author: "dwrede"
 ---
 # sqlToDb2

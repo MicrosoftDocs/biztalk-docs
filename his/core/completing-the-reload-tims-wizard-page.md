@@ -11,6 +11,8 @@ f1_keywords:
   - "15389"
 ms.assetid: cf6bd7ce-edc6-42f7-bf6d-54072d114b2b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Completing the Reload TIMs Wizard Page

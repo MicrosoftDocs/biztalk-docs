@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c58f3a9d-865c-4011-be71-ef31481b94fe
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Use Optional Explicit-Level Override Authentication
 Clicking the **Allow application override** check box enables applications to supply credentials at run time through a callback mechanism supplied by Transaction Integrator (TI). Using application override does not require the installation and use of [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] Enterprise Single Sign-On (ESSO). Instead, the client application supplies TI with a pointer to a callback object that can be used to request credentials when they are needed at run time. A utility component is provided so that customers can add their callback pointer to the context, and create new COM+ objects that inherit from the modified context. The security callback component is automatically installed.  

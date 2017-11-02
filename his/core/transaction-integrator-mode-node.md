@@ -11,6 +11,8 @@ f1_keywords:
   - "15376"
 ms.assetid: 3e5388eb-a441-40ed-bee6-b655f8e4fe55
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Transaction Integrator (mode) Node

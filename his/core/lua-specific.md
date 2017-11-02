@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 91a15c99-350e-4e27-88d0-1eeac97bb5fd
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # LUA_SPECIFIC
 The following union shows the specific data structure that is included for functions that use the **LUA_SPECIFIC** part of a verb control block. The only logical unit application (LUA) verbs that use this union are [RUI_BID](../Topic/RUI_BID2.md),[SLI_BID](../Topic/SLI_BID1.md),[SLI_OPEN](../core/sli-open.md), and [SLI_SEND](../Topic/SLI_SEND1.md).  

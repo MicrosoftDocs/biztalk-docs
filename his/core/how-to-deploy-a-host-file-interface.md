@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e1fbadb9-e7bc-45ee-af94-bfa60816d712
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Deploy a Host File Interface
 Once you have finished importing and modifying the host file interface, you can deploy the interface. Deploying the interface allows you to write and test code against the interface.  

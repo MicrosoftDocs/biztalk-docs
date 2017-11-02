@@ -13,6 +13,8 @@ f1_keywords:
   - "SNA_Pool_Down"
 ms.assetid: f548db93-cad4-4bf0-b12b-eef7c5b46894
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create LU Pools
 Although you can create individual LUs and assign them to users and groups, using LU pools to manage and deploy a large number of LUs is a more efficient method of administering these resources.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d88a2163-1595-4120-b66e-a36de3eeac2f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Unions Shortcut Menu
 When you select the **Unions** node in the tree view in HIS Designer, the following shortcut menu commands are displayed.  

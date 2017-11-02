@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 62a6c529-df9c-429c-a5dc-2ff8a1aa89e2
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CMDSemRequest
 The **CMDSemRequest** function requests a RAM semaphore.  

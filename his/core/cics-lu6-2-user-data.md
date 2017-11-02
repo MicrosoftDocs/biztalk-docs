@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 779dfac4-c27c-40de-bdd4-8d7be613917f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # CICS LU6.2 User Data
 The CICS LU6.2 User Data programming model provides direct invocations and data exchanges between TI and the server TP. No other communication components are required with this model.  

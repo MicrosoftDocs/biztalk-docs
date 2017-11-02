@@ -11,6 +11,8 @@ f1_keywords:
   - "15383"
 ms.assetid: 2e2c692e-5693-4ab9-b905-34b8f1806469
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Define Implementation Characteristics for the .NET Object Wizard Page (for HIP)

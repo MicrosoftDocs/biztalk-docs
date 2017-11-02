@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a81d2c93-02b8-4239-bd97-e8178e213cba
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # APPC Verbs in C Programs
 This implementation of APPC is available for programs written in Microsoft® C version 5.1 or later. A C program calls APPC through the external function **APPC**. For compatibility with previous versions of Microsoft C, the external function **APPC_C** is also supported.  

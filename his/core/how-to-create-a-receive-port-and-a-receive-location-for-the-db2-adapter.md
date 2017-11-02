@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80be3883-43d2-485b-a5e9-472f75baec1c
 caps.latest.revision: 6
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Create a Receive Port and a Receive Location for the DB2 Adapter
 You create a receive port and receive location for the BizTalk Adapter for DB2 by using the BizTalk Server Administration console. You must be logged on with an account that is a member of the BizTalk Server Administrators group. In addition, you must have appropriate permissions in the Single Sign-On (SSO) database.  

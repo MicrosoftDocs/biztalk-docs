@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4717256a-2ce1-4870-ad86-62daa98e87d9
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Side Information for CPI-C Programs
 The information required for two Common Programming Interface for Communications (CPI-C) programs to communicate is stored as a table, called the side information table, in memory. The table is derived from the symbolic destination name (configured in Host Integration Server) and from the [Set_CPIC_Side_Information](../Topic/Set_CPIC_Side_Information%20\(CPI-C\)1.md), [Extract_CPIC_Side_Information](../Topic/Extract_CPIC_Side_Information%20\(CPI-C\)2.md), and [Delete_CPIC_Side_Information](../Topic/Delete_CPIC_Side_Information%20\(CPI-C\)1.md) calls.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20320207-d9f0-4f21-9c8f-0c4482b9e64a
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # How to Configure Server Properties
 The **Server Configuration** dialog box can be used to change [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] properties, including:  

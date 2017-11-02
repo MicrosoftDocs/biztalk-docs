@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 21c956b2-7fec-40c1-a6d8-f026a8c9897e
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # ADAPTERPERFDATA
 The **ADAPTERPERFDATA** structure groups all of the [ADAPTERCOUNTER](../core/adaptercounter.md) structures for an SNA link service together into a single block. It also has a few fields used internally by the SNA Perfmon code. The SNA link driver should not change the first three members of this structure.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 67c0c576-c271-4112-a5b0-ef62b0a6731f
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # X.25 Outage Codes
 The following table describes X.25 outage codes.  

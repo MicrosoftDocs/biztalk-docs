@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c681a94b-8f0d-4d26-a3d5-1f2a486ed450
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Creating a 3270 Connection with a Wizard
 The following procedure details using a wizard to create a 3270 connection. The 3270 Continuous link service will be used as an example.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eb88ce27-e97a-44b1-9848-b564c6a4e024
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Workstation Authentication
 When you receive a request from a source that is external to the corporate network containing the SNA subdomain, or if you are not using a domain-type network, domain authentication is usually difficult to implement.  

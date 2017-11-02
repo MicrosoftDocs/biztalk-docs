@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 77b662e5-4a55-4408-acd1-91485d64ae5c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Maximizing Communications Throughput
 Servers used primarily for communications need to provide fast throughput, but do not need to provide fast file access as a file server would. Faster throughput will result if portions of memory are set aside for communications programs such as [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] or Microsoft SQL Server.  

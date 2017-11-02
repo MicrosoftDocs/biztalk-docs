@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1cb2cd1b-dc67-4fe1-bf76-07a032064021
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Password Sync Adapter Properties: Properties
 Use this dialog box to view or change properties for the Password Sync Adapter.  

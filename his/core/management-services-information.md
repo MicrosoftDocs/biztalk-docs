@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 37aee1be-febb-484a-b4cd-1063015dd252
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Management Services Information
 Information on management services is provided in the **ms_info_sect** structure as defined below.  

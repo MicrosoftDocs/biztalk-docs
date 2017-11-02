@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 902cee90-5484-4f72-8aa7-35dc19736a80
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Active Link Information
 Active link information is provided in the **link_info_sect** structure as defined below.  

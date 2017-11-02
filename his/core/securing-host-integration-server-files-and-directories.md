@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 37f261e2-c09d-414e-9ce1-2da5233eff6e
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Securing Host Integration Server Files and Directories
 If you install Host Integration Server onto an NTFS volume, you can control which SNA subdomain users can modify the Host Integration Server configuration file. A Host Integration Server administrator can control access to the configuration using the Host Integration Server SNA Manager. By specifying access permissions for users, you can control who has the ability to administer, change, or view a configuration.  

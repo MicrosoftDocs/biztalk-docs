@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c38e3200-37f1-46f5-8008-43a2f0033ce5
 caps.latest.revision: 5
+author: MandiOhlinger
+manager: anneta
 ---
 # OLE DB Providers Programmer&#39;s Reference
 The OLE DB specification version 2.8 defines a number of objects and interfaces.  

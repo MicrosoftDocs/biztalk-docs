@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c42e5292-3efa-4314-8e73-244f41d40b98
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # TEST_RTS
 The **TEST_RTS** verb determines whether a request-to-send notification has been received from the partner transaction program (TP).  

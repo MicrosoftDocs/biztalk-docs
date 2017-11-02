@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7c49d2d4-1fe4-48fa-86f2-27492c26dc55
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Discriminant Value Table Dialog Box
 Use the **Discriminant Value Table** dialog box to create the logic for determining which union member returns information to the calling procedure. You can open the **Discriminant Value Table** dialog box by viewing the properties of an instanced union member, clicking **DVT**, and then clicking the ellipsis (**…**) button.  

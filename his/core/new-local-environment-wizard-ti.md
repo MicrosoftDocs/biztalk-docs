@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_IHDY"
 ms.assetid: 6d73662d-8f00-4743-8526-ae7c61732a56
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # New Local Environment Wizard (TI)

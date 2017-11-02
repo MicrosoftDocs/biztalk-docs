@@ -11,6 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfile.tables"
 ms.assetid: bd53f203-7e59-462e-9ee2-917a00beff51
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Tables Shortcut Menu
 When you select  the **Tables** node from the **Library** tree, the following shortcut menu commands appear:  

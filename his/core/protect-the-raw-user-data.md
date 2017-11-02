@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 69f0018a-0d34-4802-8964-17fa43c7ba8a
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Protect the Raw User Data
 To prevent an attacker from reading data packets on the network and either tampering with the data or disclosing the data, or to prevent an attacker from denying service, you should:  

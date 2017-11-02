@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 978c233f-2924-480b-b073-9500ec0f2988
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Variably Sized Strings
 When the last input parameter or the last output parameter in a method is a string, that string can be variably sized. Its size can vary from 0 to the maximum number of bytes specified for its length. When the return value is a string and it is positioned after all other output parameters, it can be the variably sized final output field.  

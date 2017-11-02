@@ -11,6 +11,8 @@ f1_keywords:
   - "15217"
 ms.assetid: 1c9e3d1e-efba-4c70-80ac-2cad061fa60c
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 robots: noindex,nofollow
 ---
 # Recording Tab (Remote Environment Properties)

@@ -11,6 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfiles.schemamember"
 ms.assetid: a3736604-feee-4b7e-aaf7-22f46d749b37
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Schema Member Shortcut Menu
 When you select a union member from the Library tree, the following shortcut menu commands appear:  

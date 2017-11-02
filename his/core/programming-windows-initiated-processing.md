@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e5060a68-b61b-4aaa-8253-34a0d8f7e48b
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Programming Windows-Initiated Processing
 This section discusses various issues you need to understand to program Windows-initiated processing components and applications.  

@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a4d6e82-5670-4b00-af5b-df70f40b94ea
 caps.latest.revision: 4
+author: MandiOhlinger
+manager: anneta
 ---
 # Password Sync Adapter Properties
 Use these property pages to configure Password Sync Adapters.  

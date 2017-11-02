@@ -11,6 +11,8 @@ f1_keywords:
   - "his_ui_help_CTEB"
 ms.assetid: eaa66e53-2db0-4536-b5d1-508fb8b7eaad
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Welcome to the Pipeline Conversion Library Wizard
 This wizard helps you create a new BizTalk pipeline conversion library.  

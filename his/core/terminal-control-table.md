@@ -9,6 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b3e7814d-54b8-4772-9c63-354883b25db6
 caps.latest.revision: 3
+author: MandiOhlinger
+manager: anneta
 ---
 # Terminal Control Table
 The sample Terminal Control Table (TCT) defines the remote systems to CICS. Each remote system is specified using a DFHTCT definition, which includes both the name by which CICS knows the system (the SYSIDNT field), and the name by which VTAM knows the system (the NETNAME field).  
