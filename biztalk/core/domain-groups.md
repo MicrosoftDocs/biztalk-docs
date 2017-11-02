@@ -8,17 +8,16 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "domain groups"
 ms.assetid: 9adc090e-e18c-46b6-b985-49b200d42966
 caps.latest.revision: 11
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Domain Groups
-BizTalk Server supports domain group and user accounts in both single and multiple computer configurations. For multiple computer configurations, you must observe the requirements provided in this section and in the Considerations for Multiserver Environments in the Installation Guide. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+# Domain Groups in BIzTalk
+BizTalk Server supports domain group and user accounts in both single and multiple computer configurations. For multiple computer configurations, you must observe the requirements provided in this section and in the Considerations for Multiserver Environments in the Installation Guide. For more information, see the [installation overview](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).  
   
+## Before you begin
 -   If you use domain groups for your BizTalk Server configuration, you must manually create the groups before you configure BizTalk Server. The Configuration Manager cannot create domain groups.  
   
 -   After creating domain groups and/or user accounts, add user accounts to the proper groups according to the group affiliations in [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
@@ -34,5 +33,5 @@ BizTalk Server supports domain group and user accounts in both single and multip
   
 ## See Also  
  [Local Groups](../core/local-groups.md)   
- [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
+ [Installation Overview](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)   
  [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md)
