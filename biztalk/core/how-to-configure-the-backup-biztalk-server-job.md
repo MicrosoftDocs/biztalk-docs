@@ -115,7 +115,7 @@ To configure this job, you'll need to:
      The MarkAndBackupLog step marks the logs for backup, and then backs them up.  
   
     > [!IMPORTANT]
-    >  To avoid potential data loss, the *\<destination path>* should be a computer to store the database logs that is different from the computer with the original database logs.  
+    >  To avoid **potential data loss** and for **performance improvement**, the *\<destination path>* should be set to a different computer, or hard drive, different from what is used to store the original database logs.  
   
      Select **OK**.  
   
