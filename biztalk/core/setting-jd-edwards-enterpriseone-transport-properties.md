@@ -1,25 +1,9 @@
 ---
-title: "Setting JD Edwards EnterpriseOne Transport Properties | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Max Concurrent Calls parameter"
-  - "JD Edwards EnterpriseOne adapters, transport properties"
-  - "transport properties, configuring [JD Edwards EnterpriseOne adapters]"
-  - "adapters [JD Edwards EnterpriseOne adapters], transport properties"
-  - "Bootstrap Data Source properties"
-ms.assetid: 7d258ee6-1cb3-4b88-ac41-49e639833574
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # Setting JD Edwards EnterpriseOne Transport Properties
 The JD Edwards EnterpriseOne Transport Properties are used for design and run time. In the **Transport Properties** dialog box, you set the connection and credential parameters specific to the server system and the objects you are trying to access.  
   
@@ -30,7 +14,7 @@ The JD Edwards EnterpriseOne Transport Properties are used for design and run ti
 > [!NOTE]
 >  The default values for the enterprise server name and port are configured in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. They are also read from a file called jdeinterop.ini. If you receive logon errors, carefully check the credentials and values.  
   
-### To specify transport properties  
+## Enter transport properties  
   
 1.  In the BizTalk Server Administration Console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the desired application.  
   
@@ -120,7 +104,7 @@ The JD Edwards EnterpriseOne Transport Properties are used for design and run ti
 ### Single Sign-On  
  There are two methods you can use to access the JD Edwards EnterpriseOne system. You can use Login Credentials (Transport Properties Login parameters) or Single Sign-On (SSO). Select **Yes** in the **Use SSO** field to use Single Sign-On.  
   
- For more information and basic instructions on setting up Single Sign-On, see [Using Single Sign-On](../core/using-single-sign-on1.md).  
+ For more information and basic instructions on setting up Single Sign-On, see [Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md).
   
  You must also select an affiliate application in the drop-down list. An affiliate application, created by Enterprise Single Sign-On tools, represents an application such as JD Edwards EnterpriseOne. BizTalk Adapter for JD Edwards EnterpriseOne uses the credentials of an application user.  
   
@@ -130,4 +114,3 @@ The JD Edwards EnterpriseOne Transport Properties are used for design and run ti
   
 ## See Also  
  [Single Sign-On and BizTalk Adapter for JD Edwards EnterpriseOne](../core/single-sign-on-and-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
- [Creating JD Edwards EnterpriseOne Send Handlers](../core/creating-jd-edwards-enterpriseone-send-handlers.md)

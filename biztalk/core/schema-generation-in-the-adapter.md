@@ -1,22 +1,10 @@
 ---
-title: "Schema Generation in the Adapter | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "schemas, generating"
-  - "writing, schemas"
-ms.assetid: 43b69383-bae0-401b-9620-d4302db799b2
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Schema Generation in the Adapter
 A TIBCO Rendezvous system does not include a message types repository. All the message construction and parsing is buried at the Rendezvous application level. Because of this limitation, Microsoft BizTalk Adapter for TIBCO Rendezvous cannot provide schema-generation capabilities.  
   

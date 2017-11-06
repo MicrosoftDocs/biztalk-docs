@@ -40,4 +40,4 @@ To use Single Sign-On (SSO), you need:
   
 ## See Also  
  [Running SSO Projects](../core/running-sso-projects1.md)   
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

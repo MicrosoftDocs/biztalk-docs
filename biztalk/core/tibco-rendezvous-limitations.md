@@ -1,21 +1,10 @@
 ---
-title: "TIBCO Rendezvous Limitations | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "TIBCO Rendezvous, limitations"
-ms.assetid: 8e210457-2887-43f9-a249-be1daa6ee4eb
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # TIBCO Rendezvous Limitations
 In TIBCO Rendezvous, field name uniqueness is not guaranteed. If a TIBCO Rendezvous message contains two field names that are the same, the resulting XML is not valid.  
   

@@ -1,5 +1,6 @@
 ---
 title: "Architecture of JD Edwards OneWorld | Microsoft Docs"
+description: Describes the inbound services at design time and run time, and outbound events at design time and run time in the JD Edwards OneWorld adapter in BizTalk
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,8 +9,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture"
 ms.assetid: 9200a090-a587-4b60-9447-d281580f2078
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -17,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Architecture of JD Edwards OneWorld
-Microsoft BizTalk Adapter for JD Edwards OneWorld provides access to JD Edwards OneWorld business functions. JD Edwards OneWorld communicates between client and server machines using a proprietary messaging architecture called JDENet. JDENet is implemented by the JD Edwards OneWorld connector classes found in the JAR files, Connector.jar and Kernel.jar. Communication is implemented using TCP/IP as a transport protocol, with a default port of 6009 or 6010. For a description of where this value is set, see [How to Set JD Edwards OneWorld Transport Properties](../core/how-to-set-jd-edwards-oneworld-transport-properties.md).  
+Microsoft BizTalk Adapter for JD Edwards OneWorld provides access to JD Edwards OneWorld business functions. JD Edwards OneWorld communicates between client and server machines using a proprietary messaging architecture called JDENet. JDENet is implemented by the JD Edwards OneWorld connector classes found in the JAR files, Connector.jar and Kernel.jar. Communication is implemented using TCP/IP as a transport protocol, with a default port of 6009 or 6010. For a description of where this value is set, see [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md).  
   
  **Architecture for BizTalk Adapter for JD Edwards OneWorld**  
   
@@ -80,5 +79,5 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld provides access to JD Edwards 
 -   The receive port submits the XML document to BizTalk Server.  
   
 ## See Also  
- [How to Set JD Edwards OneWorld Transport Properties](../core/how-to-set-jd-edwards-oneworld-transport-properties.md)   
+ [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
  [Planning and Architecture](../core/planning-and-architecture17.md)

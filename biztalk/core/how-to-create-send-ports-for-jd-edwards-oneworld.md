@@ -1,22 +1,9 @@
 ---
-title: "How to Create Send Ports for JD Edwards OneWorld | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "creating send ports"
-  - "send ports, creating"
-ms.assetid: 858425ef-bdb7-4d2d-90ca-b3655e389749
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # How to Create Send Ports for JD Edwards OneWorld
 Use the following procedure to create a send port.  
   
@@ -37,5 +24,3 @@ Use the following procedure to create a send port.
   
 6.  Click **OK**.  
   
-## See Also  
- [Creating JD Edwards OneWorld Send Handlers](../core/creating-jd-edwards-oneworld-send-handlers.md)

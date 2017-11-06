@@ -1,5 +1,5 @@
 ---
-title: "Importing Schemas into BizTalk Server Projects2 | Microsoft Docs"
+title: "Import JD Edwards EnterpriseOne schemas into Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "importing schemas"
-  - "schemas, importing into BizTalk Server projects"
 ms.assetid: 640d5884-953a-46b6-b9dc-b931392a3059
 caps.latest.revision: 8
 author: "MandiOhlinger"
@@ -28,7 +25,7 @@ This section discusses browsing a JD Edwards EnterpriseOne server and importing 
   
  After creating the JD Edwards EnterpriseOne port, you can browse JD Edwards EnterpriseOne by launching the Microsoft Adapter Wizard from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  
   
-### To import schemas into a BizTalk Server project  
+## Import schemas into Visual Studio
   
 1.  Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
@@ -66,7 +63,7 @@ This section discusses browsing a JD Edwards EnterpriseOne server and importing 
 > [!NOTE]
 >  If you change jdearglist.txt after generating your schema, you must regenerate the schema to refresh the data it contains. For more information on jdearglist.txt, see [Handling String Values](../core/handling-string-values2.md).  
   
-### To select the schemas  
+## Select the schemas  
   
 1.  In the **Select Services to Import** page, expand the top level node of the **Business Objects** node or the **Business Services** node.  
   
@@ -85,5 +82,5 @@ This section discusses browsing a JD Edwards EnterpriseOne server and importing 
   
 -   I for Inquiry  
   
-## See Also  
- [Creating JD Edwards EnterpriseOne Send Handlers](../core/creating-jd-edwards-enterpriseone-send-handlers.md)
+## Next step
+[Use Message Context Properties](../core/using-message-context-properties1.md)

@@ -1,5 +1,5 @@
 ---
-title: "Single Sign-On and BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
+title: "SSO and BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, processing requests"
-  - "Single Sign-On, using with adapter"
-  - "processing requests"
-  - "HTTP requests, processing"
 ms.assetid: 68e85ceb-bf4c-489a-a2c2-1558e718ceed
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -20,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Single Sign-On and BizTalk Adapter for TIBCO Enterprise Message Service
+
+## Overview
 When you use Single Sign-On (SSO) with Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS), the adapter obtains the credentials from the SSO Credentials database; therefore, you do not have to enter the logon credentials for the server system in the **Transport Properties** dialog box.  
   
  At design time, the adapter obtains the credentials for the system (for the specified affiliate application) under the context of the user who started BizTalk Server project. That user should be an Application User. At run time, use the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP Receive Adapter as a receive location in the pass-through scenarios when you use SSO.  
@@ -34,4 +31,4 @@ When you use Single Sign-On (SSO) with Microsoft BizTalk Adapter for TIBCO Enter
   
 ## See Also  
  [Creating Affiliate Applications](../core/creating-affiliate-applications5.md)   
- [Using Single Sign-On](../core/using-single-sign-on4.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-tibco-ems.md)

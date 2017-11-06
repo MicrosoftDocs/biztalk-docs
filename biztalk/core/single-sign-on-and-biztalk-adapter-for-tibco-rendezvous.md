@@ -8,10 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, using with the adapter"
-  - "Single Sign-On, using with the adapter"
-  - "HTTP requests, processing"
 ms.assetid: 52e698bb-38ba-4a12-b15a-d1581061d62f
 caps.latest.revision: 6
 author: "MandiOhlinger"
@@ -19,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Single Sign-On and BizTalk Adapter for TIBCO Rendezvous
+
+## Overview
 When you use Single Sign-On (SSO) with Microsoft BizTalk Adapter for TIBCO Rendezvous, the adapter obtains the credentials from the SSO Credentials database; therefore, you do not have to enter the logon credentials for the server system in the **Transport Properties** window.  
   
  At design time, the adapter obtains the credentials for the system (for the specified affiliate application) under the context of the user who started BizTalk Server project. That user should be an Application User. At run time, use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP Receive Adapter as a receive location in the pass-through scenarios when you use SSO.  
@@ -33,4 +31,4 @@ When you use Single Sign-On (SSO) with Microsoft BizTalk Adapter for TIBCO Rende
   
 ## See Also  
  [Creating Affiliate Applications](../core/creating-affiliate-applications1.md)   
- [Using Single Sign-On](../core/using-single-sign-on5.md)
+[Security](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)

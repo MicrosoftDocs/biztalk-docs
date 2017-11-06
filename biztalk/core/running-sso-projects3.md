@@ -35,4 +35,4 @@ You can run a sample Single Sign-On (SSO) project from Internet Explorer.
      In this case, you do not need to provide the credentials.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on3.md)
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

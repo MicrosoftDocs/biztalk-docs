@@ -1,29 +1,10 @@
 ---
-title: "Using Event Tracing for Windows1 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/troubleshooting-tibco-rendezvous/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "ETW"
-  - "provider"
-  - "Receiver Logging Provider"
-  - "Transmitter Logging Provider"
-  - "controller application"
-  - "Management Logging Provider"
-  - "consumer application"
-  - "Event Tracing for Windows"
-  - "BTATIBCORVTrace command"
-ms.assetid: 9e0418e2-7938-4202-83b7-555a90348904
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Using Event Tracing for Windows
 Microsoft BizTalk Adapter for TIBCO Rendezvous logs error, warning, and information messages to the Windows Event Viewer. You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is activated, it creates an *.etl file to receive the messages. This file is in binary format and must be converted to be read. To do this, you must have a consumer application available to interpret the \*.etl file, for example, tracerpt.exe or tracedmp.exe. For example, the tracerpt.exe application will convert the \*.etl file into two text files: summary.txt and dumpfile.csv.  
   

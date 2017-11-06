@@ -33,4 +33,4 @@ When you use Single Sign-On (SSO) with Microsoft   Adapter for JD Edwards Enterp
   
 ## See Also  
  [Creating Affiliate Applications](../core/creating-affiliate-applications4.md)   
- [Using Single Sign-On](../core/using-single-sign-on1.md)
+ [Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

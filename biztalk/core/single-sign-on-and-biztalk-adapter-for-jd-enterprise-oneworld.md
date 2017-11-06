@@ -32,4 +32,4 @@ Single Sign-On (SSO) credentials are obtained from the SSO credentials database;
   
 ## See Also  
  [Creating Affiliate Applications](../core/creating-affiliate-applications3.md)   
- [Using Single Sign-On](../core/using-single-sign-on3.md)
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

@@ -1,22 +1,9 @@
 ---
-title: "Administering BizTalk Adapter for PeopleSoft Enterprise | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/using-biztalk-server-exception-handling2/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "PeopleSoft Enterprise adapters, administering"
-  - "administering, PeopleSoft Enterprise adapters"
-ms.assetid: 66ab79b4-d1f8-4a55-bb2d-72e5c606a30a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # Administering BizTalk Adapter for PeopleSoft Enterprise
 This section provides information about administering BizTalk Adapter for PeopleSoft Enterprise.  
   

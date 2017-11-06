@@ -1,31 +1,31 @@
 ---
-title: "Developing Applications5 | Microsoft Docs"
+title: "Create application artifacts for TIBCO EMS | Microsoft Docs"
+description: Create the artifacts in BizTalk Server administration, and in Visual Studio to use the BizTalk Adapter for TIBCO Enterprise Message Service in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing, applications"
-  - "applications, developing"
 ms.assetid: 0c31dad4-bf5b-4c59-9cea-431122040d9d
 caps.latest.revision: 8
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Developing Applications
-This section contains information for developers who want to create BizTalk Server applications and work with adapters for BizTalk Server. After these applications are created, they are usually managed by an administrator who uses information found in the [Administering BizTalk Adapter for TIBCO Enterprise Message Service](../core/administering-biztalk-adapter-for-tibco-enterprise-message-service.md) section.  
+# Create your application
+
+## Overview
+This section contains information for developers who want to create BizTalk Server applications and work with adapters for TIBCO EMS. Once these applications are created, then you can [add exception handling](../core/using-biztalk-server-exception-handling5.md) to your orchestration. 
   
-## In This Section  
+## Next steps
   
--   [Creating and Using Schemas](../core/creating-and-using-schemas.md)  
+-   [Create and use schemas](../core/creating-and-using-schemas.md)  
   
--   [Creating  TIBCO Enterprise Message Service Send Handlers](../core/creating-tibco-enterprise-message-service-send-handlers.md)  
+-   [Create send artifacts](../core/creating-tibco-enterprise-message-service-send-handlers.md)  
   
--   [Creating TIBCO Enterprise Message Service Receive Handlers](../core/creating-tibco-enterprise-message-service-receive-handlers.md)  
+-   [Create receive artifacts](../core/creating-tibco-enterprise-message-service-receive-handlers.md)  
   
--   [Message Context Properties](../core/message-context-properties2.md)
+-   [TIBCO EMS message context properties](../core/message-context-properties-in-biztalk-server.md)

@@ -1,22 +1,9 @@
 ---
-title: "Using Single Sign-On4 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-tibco-ems/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "Single Sign-On"
-  - "SSO"
-ms.assetid: 78e430b5-e124-4476-a1f8-a0ec6603a204
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # Using Single Sign-On
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service provides Single Sign-On (SSO) support. An affiliate application created by Enterprise Single Sign-On tools represents a server system such as TIBCO Enterprise Message Service.  
   

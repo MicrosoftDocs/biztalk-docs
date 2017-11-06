@@ -158,5 +158,4 @@ To deploy an adapter, you must install the adapter assembly into the global asse
 12. Close the **Service Configuration Editor**.  
   
 ## See Also  
- [Deployment](../../core/deployment-limitations1.md)   
  [Deploy an adapter using the WCF LOB adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)

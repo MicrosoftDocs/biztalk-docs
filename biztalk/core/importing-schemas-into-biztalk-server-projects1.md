@@ -65,4 +65,4 @@ The following information describes how to import schemas into a BizTalk Server 
 -   **MessageOut:** SSOSchedule.myJ.D. Edwards OneWorld XE sso_transmitService_3.methodResponse  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on3.md)
+ [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

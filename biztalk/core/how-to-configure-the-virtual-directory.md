@@ -43,4 +43,4 @@ This topic describes the procedures for configuring the virtual directory and ve
 9. In the **Add Application** dialog box, click **OK**. The folder is converted to an application (you can see the change in the icon – from a folder icon to the Web site icon).  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on2.md)
+ [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

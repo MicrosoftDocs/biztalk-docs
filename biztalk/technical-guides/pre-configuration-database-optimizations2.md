@@ -17,23 +17,14 @@ manager: "anneta"
 Because of the critical role that SQL Server plays in any BizTalk Server environment, it is of paramount importance that SQL Server be configured/tuned for optimal performance. If SQL Server is not tuned to perform well, then the databases used by BizTalk Server will become a bottleneck and the overall performance of the BizTalk Server environment will suffer. This topic describes several SQL Server performance optimizations that should be followed before installing BizTalk Server and configuring the BizTalk Server databases.  
   
 ## Set NTFS File Allocation Unit  
- SQL Server stores its data in **Extents**, which are collections of eight physically contiguous 8K pages, or 64 KB. Therefore, to optimize disk performance, set the NTFS Allocation Unit size to 64KB as described in the “Disk Configuration Best Practices” section of the SQL Server best practices article [“Predeployment I/O Best Practices”](http://go.microsoft.com/fwlink/?LinkId=140818) (http://go.microsoft.com/fwlink/?LinkId=140818).  
+ SQL Server stores its data in **Extents**, which are collections of eight physically contiguous 8K pages, or 64 KB. Therefore, to optimize disk performance, set the NTFS Allocation Unit size to 64KB as described in the “Disk Configuration Best Practices” at  [Predeployment I/O Best Practices](https://msdn.microsoft.com/library/cc966412.aspx).  
   
 ## Considerations for the version and edition of SQL Server  
  Various versions and editions of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] provide different features that can affect the performance of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. For example, under high-load conditions, the number of database locks that are available for the 32-bit version of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] might be exceeded, which is detrimental to the performance of the BizTalk solution. Consider housing your MessageBox database on a 64-bit version of SQL Server if you are experiencing "out of lock" errors in your test environment. The number of available locks is significantly higher on the 64-bit version of SQL Server.  
   
- Consider the following table when deciding on the database engine features that you will need for your BizTalk environment. For large scale, enterprise-level solutions that require clustering support, BizTalk Server log shipping support, or Analysis Services support, then you will need [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] or [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Enterprise Edition to house the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] databases.  
-  
-|Version and Edition of SQL Server|64-bit support|Multi-Instance Support|Clustering support|Analysis Services|  
-|---------------------------------------|---------------------|-----------------------------|------------------------|-----------------------|  
-|[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] Enterprise Edition|Yes|Yes (50)|Yes|Yes|  
-|[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] Standard Edition|Yes|Yes (16)|Yes (2 node)|Yes|  
-|[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] Workgroup Edition|Yes|Yes (16)|No|No|  
-|[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Enterprise Edition|Yes|Yes|Yes|Yes|  
-|[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Standard Edition|Yes|Yes|Yes (2 node)|Yes|  
-|[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Workgroup Edition|No|Yes|No|No|  
-  
- For a complete list of the features supported by the editions of [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)], see [Features Supported by the Editions of SQL Server 2008 R2](http://go.microsoft.com/fwlink/?LinkId=140465) (http://go.microsoft.com/fwlink/?LinkId=140465) in the [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] documentation.  
+ Consider the following table when deciding on the database engine features that you will need for your BizTalk environment. For large scale, enterprise-level solutions that require clustering support, BizTalk Server log shipping support, or Analysis Services support, then you need SQL Server Enterprise Edition to host the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] databases.   
+
+ For a complete list of the features supported by the SQL Server editions, see [SQL Server Editions and supported features](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016).
   
 ## Database planning considerations  
  We recommend that you host your SQL Server databases on fast storage (for example, fast SAN disks or fast SCSI disks). We recommend RAID 10 (1+0) instead of RAID 5 since raid 5 is slower at writing. Newer SAN disks have very large memory caches, so in these cases the raid selection is not as important. To increase performance, databases and their log files can reside on different physical disks.  
@@ -41,7 +32,7 @@ Because of the critical role that SQL Server plays in any BizTalk Server environ
  Also consider tuning the host bus adapter (HBA) queue depth if using a storage area network (SAN). This can significantly impact I/O throughput and out-of-the box values can be insufficient for SQL Server. Testing is required to determine optimal value, although queue depth of 64 is generally accepted as a good starting point in the absence of any specific vendor recommendations  
   
 ## Install the latest service pack and cumulative updates for SQL Server  
- Install the latest service packs and the latest cumulative updates for [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] and [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] as well as the latest .NET Framework service packs.  
+ Install the latest service packs and the latest cumulative updates for SQL Server as well as the latest .NET Framework service packs.  
   
 ## Install SQL Service Packs and cumulative updates on both BizTalk Server and SQL Server  
  When installing service packs or cumulative updates for SQL Server, also install the service pack or cumulative update on the BizTalk Server computer. BizTalk Server uses SQL Client components that are updated by SQL Server service packs and cumulative updates.  
@@ -55,13 +46,13 @@ Because of the critical role that SQL Server plays in any BizTalk Server environ
 ## Grant the account which is used for SQL Server the Windows Lock Pages In Memory privilege  
  Grant the Windows Lock Pages in Memory privilege to the SQL Server service account. This should be done to prevent the Windows operating system from paging out the buffer pool memory of the SQL Server process by locking memory that is allocated for the buffer pool in physical memory.  
   
- In our lab environment, the Windows policy **Lock Pages in Memory** option was enabled by default. For more information about how to enable the **Lock Pages in Memory** option, see [How to: Enable the Lock Pages in Memory Option (Windows)](http://go.microsoft.com/fwlink/?LinkID=208267) (http://go.microsoft.com/fwlink/?LinkID=208267).  
+ In our lab environment, the Windows policy **Lock Pages in Memory** option was enabled by default. See [Enable the Lock Pages in Memory Option](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows).  
   
 > [!IMPORTANT]  
->  Certain limitations apply when granting the SQL Server service account the Windows Lock Pages in Memory privilege. See the following Microsoft Knowledge base articles for more information:  
+>  Certain limitations apply when granting the SQL Server service account the Windows Lock Pages in Memory privilege. See the following: 
 >   
->  -   [918483, “How to reduce paging of buffer pool memory in the 64-bit version of SQL Server 2005”](http://go.microsoft.com/fwlink/?LinkID=148948) (http://go.microsoft.com/fwlink/?LinkID=148948).  
-> -   [970070, “Support for Locked Pages on SQL Server 2005 Standard Edition 64-bit systems and on SQL Server 2008 Standard Edition 64-bit systems”](http://go.microsoft.com/fwlink/?LinkId=160474) (http://go.microsoft.com/fwlink/?LinkId=160474).  
+> - [Buffer Pool Extension](https://docs.microsoft.com/sql/database-engine/configure-windows/buffer-pool-extension)  
+> - [Enable the Lock Pages in Memory Option ](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
   
 ## Grant the SE_MANAGE_VOLUME_NAME right to the SQL Server Service Account  
  Ensure the account running the SQL Server service has the ‘Perform Volume Maintenance Tasks’ Windows privilege or ensure it belongs to a group that does. This will allow instant file Initialization ensuring optimum performance if a database has to Auto-grow.  
@@ -77,7 +68,7 @@ sp_configure ‘Min Server memory (MB)’,(min size in MB)
  Before you set the amount of memory for SQL Server, determine the appropriate memory setting by subtracting the memory required for Windows Server from the total physical memory. This is the maximum amount of memory you can assign to SQL Server.  
   
 > [!NOTE]  
->  If the computers running SQL Server that host the BizTalk Server databases also host the Enterprise Single Sign-On Master Secret Server, then you may need to adjust this value to ensure that there is sufficient memory available to run the Enterprise Single Sign-On Service. It is not an uncommon practice to run a clustered instance of the Enterprise Single Sign-On service on a SQL Server cluster to provide high availability for the Master Secret Server. For more information about clustering the Enterprise Single Sign-On Master Secret Server, see the topic [How to Cluster the Master Secret Server](http://go.microsoft.com/fwlink/?LinkId=158251) (http://go.microsoft.com/fwlink/?LinkId=158251) in the BizTalk Server documentation.  
+>  If the computers running SQL Server that host the BizTalk Server databases also host the Enterprise Single Sign-On Master Secret Server, then you may need to adjust this value to ensure that there is sufficient memory available to run the Enterprise Single Sign-On Service. It is not an uncommon practice to run a clustered instance of the Enterprise Single Sign-On service on a SQL Server cluster to provide high availability for the Master Secret Server. See [Clustering the Master Secret Server](../technical-guides/clustering-the-master-secret-server.md)  
   
 ## Split the tempdb database into multiple data files of equal size on each SQL Server instance used by BizTalk Server  
  Ensuring that the data files used for the tempdb are of equal size is critical because the proportional fill algorithm used by SQL Server is based on the size of the data files. If data files are created with unequal sizes, the proportional fill algorithm will use the largest file more for GAM allocations rather than spreading the allocations between all the files, thereby defeating the purpose of creating multiple data files. The optimal number of tempdb data files depends on the degree of latch contention seen in tempdb. As a general rule of thumb, the number of data files should be equal to number of processor cores/CPUs where number of CPUs is 8 or less. For servers with more than 8 CPUs, create data files for half the number of CPUs (again, only you have latch contention).  
@@ -143,7 +134,6 @@ GO
 --!!md I:\MSSQL10.<instance>\MSSQL  
 --!!md I:\MSSQL10.<instance>\MSSQL\DATA  
 GO  
-  
 -- 9. Recycle SQL service in SQL Server Services node of sqlservermanager10.msc  
     --note, if running script from a UNC share, SSMS will report an error,   
       --but SQL Server Configuration Manager will open if its location is in %path%  
@@ -170,16 +160,16 @@ ALTER SERVER CONFIGURATION
 SET PROCESS AFFINITY CPU = 0 to 15  
 ```  
   
- For more information, see [ALTER SERVER CONFIGURATION (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=208269) (http://go.microsoft.com/fwlink/?LinkID=208269).  
+ For more information, see [ALTER SERVER CONFIGURATION (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/statements/alter-server-configuration-transact-sql).
   
 ## Configure MSDTC  
  To facilitate transactions between SQL Server and BizTalk Server, you must enable Microsoft Distributed Transaction Coordinator (MS DTC). To configure MSDTC on SQL Server, see the topic [General Guidelines for Improving Operating System Performance](../technical-guides/general-guidelines-for-improving-operating-system-performance.md).  
   
 ## Enable Trace Flag T1118 as a startup parameter for all instances of SQL Server  
- Implementing Trace Flag –T1118 helps reduce contention across the SQL Server instances by removing almost all single page allocations. For more information, see Microsoft Knowledge Base article [328551, "PRB: Concurrency enhancements for the tempdb database"](http://go.microsoft.com/fwlink/?LinkID=153694) (http://go.microsoft.com/fwlink/?LinkID=153694).  
+ Implementing Trace Flag –T1118 helps reduce contention across the SQL Server instances by removing almost all single page allocations. For more information, see [KB 328551: PRB: Concurrency enhancements for the tempdb database](https://support.microsoft.com/help/328551/concurrency-enhancements-for-the-tempdb-database).
   
 ## Do not change default SQL Server settings for max degree of parallelism, SQL Server statistics, or database index rebuilds and defragmentation  
- If a SQL Server instance will house BizTalk Server databases, then there are certain SQL Server settings that should not be changed. Specifically, the SQL Server max degree of parallelism, the SQL Server statistics on the MessageBox database, and the settings for the database index rebuilds and defragmentation should not be modified. For more information, see the topic [SQL Server Settings That Should Not Be Changed](http://go.microsoft.com/fwlink/?LinkId=160068) (http://go.microsoft.com/fwlink/?LinkId=160068) in the BizTalk Server 2010 Operations Guide.  
+ If a SQL Server instance will house BizTalk Server databases, then there are certain SQL Server settings that should not be changed. Specifically, the SQL Server max degree of parallelism, the SQL Server statistics on the MessageBox database, and the settings for the database index rebuilds and defragmentation should not be modified. See [SQL Server Settings That Should Not Be Changed](../technical-guides/sql-server-settings-that-should-not-be-changed.md).
   
 ## See Also  
  [Optimizing Database Performance](../technical-guides/optimizing-database-performance.md)

@@ -1,21 +1,10 @@
 ---
-title: "How to Clean the Target Computer2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-tibco-enterprise-message-service/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "cleaning target computer"
-ms.assetid: 0d25930e-0bee-4658-80e7-4a1ab4a8131d
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Clean the Target Computer
 Deployment overwrites the receive location configuration. When you deploy a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.  
   
@@ -33,5 +22,3 @@ Deployment overwrites the receive location configuration. When you deploy a bind
   
      **cscript RemoveSendPort.vbs \<Send port name>**  
   
-## See Also  
- [Deploying Ports and Assemblies](../core/deploying-ports-and-assemblies2.md)

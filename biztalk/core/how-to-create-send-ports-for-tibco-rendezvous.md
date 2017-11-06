@@ -1,23 +1,10 @@
 ---
-title: "How to Create Send Ports for TIBCO Rendezvous | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "creating send ports"
-  - "ports, send"
-  - "send ports, creating"
-ms.assetid: 0c8d9fdc-b273-4876-9f93-b5a85539a3c1
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Create Send Ports for TIBCO Rendezvous
 Follow these steps to create a send port using [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
@@ -35,9 +22,7 @@ Follow these steps to create a send port using [!INCLUDE[btsVStudioNoVersion](..
   
     3.  From the **Send handler** drop-down list, select the URI.  
   
-    4.  From the Send Pipeline drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.  
-  
-    5.  From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.  
+    4.  From the **Send Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**. From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.  
   
     6.  Click **Configure** to configure the send port.  
   

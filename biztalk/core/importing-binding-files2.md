@@ -1,25 +1,10 @@
 ---
-title: "Importing Binding Files2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "binding files, importing"
-  - "assemblies, removing from database"
-  - "importing binding files"
-  - "target computers, cleaning"
-  - "BizTalk assemblies, removing from database"
-ms.assetid: 9e552a4b-06ec-4887-b17b-a625c137699f
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Importing Binding Files
 This topic provides some information concerning the import process when you deploy BizTalk Adapter for JD Edwards EnterpriseOne. When you redeploy a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are reimported.  
   
@@ -42,4 +27,4 @@ This topic provides some information concerning the import process when you depl
      **cscript RemoveSendPort.vbs \<Send port name>**  
   
 ## See Also  
- [Deploying Ports and Assemblies](../core/deploying-ports-and-assemblies3.md)
+ [Import the JD Edwards EnterpriseOne app](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md)

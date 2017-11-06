@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "transaction support"
-  - "character encoding"
-  - "encoding characters"
-  - "messages, character encoding"
 ms.assetid: 0a0c21c8-3318-4533-9734-89302527cb67
 caps.latest.revision: 8
 author: "MandiOhlinger"

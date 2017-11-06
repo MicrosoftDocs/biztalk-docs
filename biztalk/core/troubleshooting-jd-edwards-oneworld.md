@@ -8,9 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "JD Edwards OneWorld adapters, troubleshooting"
-  - "troubleshooting [JD Edwards OneWorld adapters]"
 ms.assetid: 15d73c2a-c6ee-46bf-8837-9c6ae3b098d2
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -18,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting JD Edwards OneWorld
+
+## Overview
 This section describes common issues and error messages that you might encounter in BizTalk Adapter for JD Edwards OneWorld, and provides possible corrections. In addition, it discusses the use of Event Tracing for Windows.  
   
  You can use the following debugging/tracing tools to troubleshoot the adapter:  
@@ -28,7 +27,7 @@ This section describes common issues and error messages that you might encounter
   
 -   The capture of transmitter, receiver, and management messages through BTAJDEOneWorldTrace.cmd and a tool that converts the .etl files, such as tracerpt.exe or tracedmp.exe.  
   
-## In This Section  
+## Next steps
   
 -   [Error Messages](../core/error-messages2.md)  
   

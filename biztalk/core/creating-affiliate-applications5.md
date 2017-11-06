@@ -1,5 +1,5 @@
 ---
-title: "Creating Affiliate Applications5 | Microsoft Docs"
+title: "Create affiliate applications for TIBCO EMS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,27 +8,19 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "applications, affiliate"
-  - "Single Sign-On, tickets"
-  - "affiliate applications"
-  - "creating affiliate applications"
-  - "tickets, SSO"
-  - "affiliate applications, enabling XML"
-  - "SSO tickets"
 ms.assetid: 191e5b56-dab9-4bf3-9f89-a900907d64e0
 caps.latest.revision: 11
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating Affiliate Applications
+# Create Affiliate Applications
 The following steps describe how to start using affiliate applications and Single Sign-On (SSO).  
   
 > [!NOTE]
 >  If you receive SSO errors, verify that you used a domain account when you configured BizTalk Server; this affects the function of the Enterprise SSO service. SSO only functions under a domain account  
   
-### To create an affiliate application  
+## Create an affiliate application  
   
 1.  In Control Panel, open **Services**, and verify that the Enterprise Single Sign-On service is running.  
   
@@ -71,7 +63,7 @@ The following steps describe how to start using affiliate applications and Singl
   
  By using the example XML, the affiliate application, TIBCO EMS App, contains the values as shown in the command prompt.  
   
-### To create Single Sign-On tickets  
+## Create Single Sign-On tickets  
   
 1.  Type the following command to control SSO ticket behavior:  
   
@@ -85,7 +77,7 @@ The following steps describe how to start using affiliate applications and Singl
   
      **Using SSO server on this computer. The operation completed successfully.**  
   
-### To enable affiliate application XML  
+## Enable affiliate application XML  
   
 1.  Type the following command:  
   
@@ -116,4 +108,4 @@ The following steps describe how to start using affiliate applications and Singl
      The affiliate application appears in the BizTalk Adapter for TIBCO EMS **Transport Properties** dialog box.  
   
 ## See Also  
- [Using Single Sign-On](../core/using-single-sign-on4.md)
+[Secure the adapter](../core/security-in-biztalk-adapter-for-tibco-ems.md)

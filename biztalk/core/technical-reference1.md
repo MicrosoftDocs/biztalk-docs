@@ -1,22 +1,9 @@
 ---
-title: "Technical Reference1 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/appendix-a-data-types/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "technical reference"
-  - "reference"
-ms.assetid: fc7c0bcb-c3c4-4b03-b84f-94a3da02cc6c
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
 # Technical Reference
 This section provides technical reference information about Microsoft BizTalk Adapter for JD Edwards OneWorld.  
   

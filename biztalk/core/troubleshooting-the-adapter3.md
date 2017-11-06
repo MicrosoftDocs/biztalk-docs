@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting the Adapter3 | Microsoft Docs"
+title: "Troubleshoot the JD Edwards OneWorld adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,12 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters [JD Edwards OneWorld adapters], connecting [Oracle databases]"
-  - "JD Edwards OneWorld adapters, troubleshooting"
-  - "troubleshooting [JD Edwards OneWorld adapters]"
-  - "adapters [JD Edwards OneWorld adapters], troubleshooting"
-  - "Oracle databases, connecting [JD Edwards OneWorld adapters]"
 ms.assetid: 2dd6a951-f113-4f43-b43f-057a239d05c4
 caps.latest.revision: 7
 author: "MandiOhlinger"
@@ -53,5 +47,5 @@ This topic contains information to help you identify and resolve issues that you
     ```  
   
 ## See Also  
- [How to Create Send Ports for JD Edwards OneWorld](../core/how-to-create-send-ports-for-jd-edwards-oneworld.md)   
- [Troubleshooting JD Edwards OneWorld](../core/troubleshooting-jd-edwards-oneworld.md)
+ [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)     
+ [Troubleshoot JD Edwards OneWorld](../core/troubleshooting-jd-edwards-oneworld.md)

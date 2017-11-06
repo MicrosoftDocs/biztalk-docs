@@ -1,5 +1,5 @@
 ---
-title: "Creating Affiliate Applications1 | Microsoft Docs"
+title: "Creating Affiliate Applications for TIBCO Rendezvous | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,13 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "applications, affiliate"
-  - "Single Sign-On, tickets"
-  - "affiliate applications"
-  - "tickets, SSO"
-  - "affiliate applications, enabling XML"
-  - "SSO tickets"
 ms.assetid: f3603fcb-3594-460b-b74a-618e22d9c4e0
 caps.latest.revision: 11
 author: "MandiOhlinger"
@@ -27,7 +20,7 @@ The following steps describe how to start working with affiliate applications an
 > [!NOTE]
 >  If you receive SSO errors, verify that you used a domain account when you configured BizTalk Server, as this affects the function of the Enterprise SSO service. SSO only functions under a domain account.  
   
-### To create an affiliate application  
+## Create an affiliate application  
   
 1.  In Control Panel, open **Services**, and verify that the Enterprise Single Sign-On service is running.  
   
@@ -68,7 +61,7 @@ The following steps describe how to start working with affiliate applications an
     </SSO>  
     ```  
   
-### To create Single Sign-On tickets  
+## Create Single Sign-On tickets  
   
 1.  Type the following command to control SSO ticket behavior:  
   
@@ -82,7 +75,7 @@ The following steps describe how to start working with affiliate applications an
   
      **Using SSO server on this computer. The operation completed successfully.**  
   
-### To enable affiliate application XML  
+## Enable affiliate application XML  
   
 1.  Type the following command:  
   
@@ -116,4 +109,3 @@ The following steps describe how to start working with affiliate applications an
   
 ## See Also  
  [Security in BizTalk Adapter for TIBCO Rendezvous](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)   
- [Using Single Sign-On](../core/using-single-sign-on5.md)

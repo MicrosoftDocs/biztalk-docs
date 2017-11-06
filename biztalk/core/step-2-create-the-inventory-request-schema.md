@@ -72,13 +72,15 @@ manager: "anneta"
   
 7.  Type `ReqID` as the new name for the element, and then press ENTER.  
   
-8.  Repeat step 6 and 7 to create a second child field element for the **Header** node, and name it `OrderDate`.  
+8.  Repeat step 6 and 7 to create a second child field element for the **Header** node, and name it `OrderDate`.
+
+9.  Repeat step 6 and 7 to create a third child field element for the **Header** node, and name it `GrandTotal`.
   
-9. In schema tree, right-click the **Items** node, point to **Insert Schemas Node**, and then click **Child Record**.  
+10. In schema tree, right-click the **Items** node, point to **Insert Schemas Node**, and then click **Child Record**.  
   
-10. Type `Item` as the new name for the child record, and then press ENTER.  
+11. Type `Item` as the new name for the child record, and then press ENTER.  
   
-11. In schema tree, right-click the **Item** node, and add the following child field elements:  
+12. In schema tree, right-click the **Item** node, and add the following child field elements:  
   
     -   `Description`  
   

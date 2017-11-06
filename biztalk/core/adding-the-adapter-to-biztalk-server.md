@@ -1,23 +1,10 @@
 ---
-title: "Adding the Adapter to BizTalk Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters [JD Edwards OneWorld adapters], installing"
-  - "installing, JD Edwards OneWorld adapters"
-  - "JD Edwards OneWorld adapters, installing"
-ms.assetid: e2018856-1943-48e9-b43f-7d527880e4bd
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # Adding the Adapter to BizTalk Server
 Microsoft BizTalk Adapter for JD Edwards OneWorld contains both the Receive Handler and Send Handler folders. The Send Handler folder contains BizTalkServerApplication. BizTalk Adapter for JD Edwards OneWorld is creatable; it runs in-process with BizTalk Server and does not run in an isolated host process.  
   

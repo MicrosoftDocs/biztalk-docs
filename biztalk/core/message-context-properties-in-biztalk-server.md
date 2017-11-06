@@ -1,5 +1,6 @@
 ---
-title: "Message Context Properties in BizTalk Server | Microsoft Docs"
+title: "Use TIBCO EMS message Context Properties | Microsoft Docs"
+description: Use the TIBCO Enterprise Message System message descriptor fields in a BizTalk Server orchestration
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,19 +9,18 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "message context properties, accessing"
-  - "message context properties, BizTalk Server"
 ms.assetid: 163ac2cf-0e2d-4780-b398-baa825f92b00
 caps.latest.revision: 6
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Message Context Properties in BizTalk Server
+# Message Context Properties in TIBCO EMS
+
+## TibcoEMSProperties.dll
 To access TIBCO Enterprise Message System message descriptor fields from a BizTalk Server orchestration, you must add a reference to **Microsoft.BizTalk.Adapters.TibcoEMSProperties.dll** to your project. This assembly is located in **\<TIBCO EMS_Adapter_installation_directory>\bin**. After you reference this TIBCO EMS property schema, additional context properties can be accessed by various BizTalk Server development tools (for example, the message assignment shape in the orchestration designer).  
   
-## Accessing Context Properties  
+## Access context Properties  
  To access a context property, you specify one of the available context properties in the TIBCO EMS namespace. To read the context property of a message received from a port bound to BizTalk Adapter for TIBCO EMS, use the following syntax in an expression:  
   
 ```  
@@ -37,5 +37,7 @@ Message(TibcoEMS.Property)
 Message(TibcoEMS.Property) = value;  
 ```  
   
-## See Also  
- [Message Context Properties](../core/message-context-properties2.md)
+## Next steps
+-   [TIBCO EMS Message Descriptor properties & values](../core/tibco-enterprise-message-service-message-descriptor-properties.md)  
+  
+-   [Tutorial: Use Message Context Properties](../core/tutorial-using-message-context-properties.md)

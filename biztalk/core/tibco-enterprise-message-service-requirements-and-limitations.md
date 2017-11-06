@@ -8,18 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "encryption"
-  - "messages, compression"
-  - "EMS limitations"
-  - "message compression"
-  - "API, adding to GAC"
-  - "global assembly cache, adding API"
-  - "GAC, adding TIBCO EMS API"
-  - "system requirements"
-  - "TIBCO.EMS.dll"
-  - "EMS requirements"
-  - "messages, encryption"
 ms.assetid: 6e4c022c-e6a8-4ac5-b998-b0465002a31e
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -27,13 +15,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # TIBCO Enterprise Message Service Requirements and Limitations
+
 ## System Requirements  
- Microsoft BizTalk Adapter for TIBCO Enterprise Message Service supports TIBCO Enterprise Message Service (EMS) version 4.2. Included with TIBCO EMS version 4.2 is a client SDK (using the TIBCO EMS C# API). BizTalk Adapter for TIBCO EMS uses this API to communicate with TIBCO EMS.  
+Included with TIBCO Enterprise Message Service includes a client SDK (using the TIBCO EMS C# API). BizTalk Adapter for TIBCO EMS uses this API to communicate with TIBCO EMS.  
   
-## Adding the API to the GAC  
+## Add the API to the GAC  
  BizTalk Adapter for TIBCO EMS requires the TIBCO EMS C# API, TIBCO.EMS.dll, to be added to the global assembly cache (GAC). The adapter triggers an exception and logs an appropriate message if this assembly is not installed.  
-  
-#### To add the TIBCO EMS C# API to the GAC  
   
 1.  Copy the TIBCO EMS C#API to your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer.  
   

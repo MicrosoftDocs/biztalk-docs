@@ -1,23 +1,10 @@
 ---
-title: "How to Create Send Ports for TIBCO Enterprise Message Service | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
+redirect_document_id: TRUE
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "creating send ports"
-  - "ports, send"
-  - "send ports, creating"
-ms.assetid: 6e569244-494e-4db4-8030-eda3b390d073
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
+ROBOTS: NOINDEX
+--- 
+
 # How to Create Send Ports for TIBCO Enterprise Message Service
 Follow these steps to create a send port.  
   
@@ -58,5 +45,4 @@ Follow these steps to create a send port.
 5.  Click **OK**.  
   
 ## See Also  
- [Setting TIBCO Enterprise Message Service Transport Properties for the Send Port](../core/setting-tibco-enterprise-message-service-transport-properties-for-the-send-port.md)   
- [Creating  TIBCO Enterprise Message Service Send Handlers](../core/creating-tibco-enterprise-message-service-send-handlers.md)
+  [Creating  TIBCO Enterprise Message Service Send Handlers](../core/creating-tibco-enterprise-message-service-send-handlers.md)
