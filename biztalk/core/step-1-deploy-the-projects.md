@@ -34,9 +34,9 @@ manager: "anneta"
 -   Run Visual Studio with Administrative privileges
 
 > [!TIP]
-> You can download the required tutorial files at ()[https://www.microsoft.com/download/details.aspx?id=22793].
+> You can download the required tutorial files at [Tutorial 1: Enterprise Application Integration](https://www.microsoft.com/download/details.aspx?id=22793).
 
-## Open the solution with administrative privileges  
+## Open the solution with administrative rights  
   
 1.  Sign in to Windows as a member of the BizTalk Server Administrators group.  
   
