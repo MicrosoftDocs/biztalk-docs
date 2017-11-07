@@ -1,8 +1,8 @@
 ---
 title: "Enable Power BI | Microsoft Docs"
-description: Install Power BI template in Feature Pack in BizTalk Server
+description: Install Power BI template in Feature Pack for BizTalk Server
 ms.custom: "fp1"
-ms.date: "11/06/2017"
+ms.date: "11/07/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,7 +15,7 @@ author: MandiOhlinger
 ms.author: mandia
 manager: "anneta"
 ---
-# Configure the operational data feed for Power BI with BizTalk Server
+# Configure the Power BI operational data feed in BizTalk Server
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, send tracking to Power BI using the Power BI template provided, or create your own. 
 
@@ -41,8 +41,8 @@ The feed includes the following data tables:
 ## Prerequisites
 * Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) on any computer that has network access to your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
-* Install and configure a [Power BI Gateway](https://powerbi.microsoft.com/en-us/gateway/) to connect your on-premise BizTalk Server environment with [PowerBI.com](http://powerbi.microsoft.com). (optional)
 * Install IIS on the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. In most [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environments, IIS is already installed. See [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). Confirm IIS is installed by opening **Internet Information Services Manager**. 
+* Optional. Install and configure a [Power BI Gateway](https://powerbi.microsoft.com/gateway/) to connect [PowerBI.com](http://powerbi.microsoft.com) with your on-premises BizTalk Server. If you're not using an on-premises BizTalk Server, then you don't need the gateway.
 
 ## Step 1: Enable operational data
 
@@ -54,12 +54,12 @@ The feed includes the following data tables:
     FeaturePack.ConfigureServices.ps1 -Service operationaldata -WebSiteName '<Default Web Site>' -ApplicationPool <operationalDataServiceAppPool> -ApplicationPoolUser <domain>\<user> -ApplicationPoolUserPassword <password> -AuthorizationRoles '<domain>\<group1>, <domain>\<group2>, <domain>\<user>, <domain>\<user2>'
     ```
 
-    * **Service**: The service to be configured: “Management” or “OperationalData”.
-    * **WebSiteName**: The existing Web Site where the service will be configured. The default value is “Default Web Site”
-    * **ApplicationPool**: The Application Pool to be used by the service. If exists, will not be created. The default value is “DefaultAppPool”
-    * **ApplicationPoolUser**: Configures the application pool to run as this user identity. Must have BizTalk Server Operator or higher privileges.
+    * **Service**: The service to be configured (**OperationalData** for Power BI)
+    * **WebSiteName**: The existing IIS web site that hosts the service. The default value is **Default Web Site**.
+    * **ApplicationPool**: The Application Pool used by the service. If it exists, a new one is not created. The default value is **DefaultAppPool**.
+    * **ApplicationPoolUser**: Configures the application pool to run as this user identity. Must have BizTalk Server Operator, or higher privileges.
     * **ApplicationPoolUserPassword**: Password for the ApplicationPoolUser
-    * **AuthorizationAccount**: List of authorized Groups or Users to use this service
+    * **AuthorizationAccount**: List of authorized Groups or Users that can use this service
 
     In the following example, we use the `Default Web Site`, create an application pool named `PowerBIAppPool`, run the appPool as the `bootcampbts2016\btsservice` account, use `BIZTALK-serviceacct` as the user account password, and give the `BizTalk Server Administrators` group permissions. Be sure to enter the following, including the single quotes surrounding values with spaces: 
 
@@ -92,10 +92,10 @@ The feed includes the following data tables:
 2. Open the `\Program Files (x86)\Microsoft BizTalk Server 2016\OperationalDataService` folder, and open the `BizTalkOperationalData.pbit` file:  
 ![Open pbit file](../core/media/operational-data-pbit.png)
 
-3. Power BI desktop opens, and you are prompted for a URL. Enter the `http://localhost/<yourWebSite>` URL that you created for your OData feed. For example, enter `http://localhost/OperationalDataService`. Your URL looks similar to the following:  
+3. Power BI desktop opens, and you are prompted for a URL. Enter the `http://localhost/<yourWebSite>` URL that you created for your OData feed. For example, enter `http://localhost/BizTalkOperationalDataService`. Your URL looks similar to the following:  
 ![Enter the URL](../core/media/operational-data-url.png)
 
-5. Select **Load**. The window loads and connects to the different oData sources in the BizTalkOperationalDataService.json file. When it completes, the dashboard shows details about your environment.
+4. Select **Load**. The window loads and connects to the different oData sources in the BizTalkOperationalDataService.json file. When it completes, the dashboard shows details about your environment.
 
 ## Couldn't authenticate
 If you get `couldn't authenticate with the credentials provided` message similar to the following, then it’s possible your application pool identity doesn’t have enough access to the BizTalk Server databases. You can change the appPool identity within IIS to an account with more privileges, maybe your signed-in user account (which has local admin privileges). 
@@ -103,7 +103,7 @@ If you get `couldn't authenticate with the credentials provided` message similar
 ![Couldn't authenticate with the credentials provided](../core/media/operational-data-authentication-error.png)
 
 ## Do more
-This is just the beginning. Power BI also has a gateway that can be installed on the BizTalk Server. Using the gateway, you can publish your dashboard, get real-time data, and create a schedule to refresh the dashboard. The following blog does a great job detailing these steps: 
+This is just the beginning. Power BI also has a gateway that can be installed on an on-premises BizTalk Server. Using the gateway, you can publish your dashboard, get real-time data, and create a schedule to refresh the dashboard. The following blog does a great job detailing these steps: 
 
 * [How to publish BizTalk operational data on Power BI – Step-by-step configuration](https://blog.sandro-pereira.com/2017/05/07/biztalk-server-2016-feature-pack-1-how-to-publish-biztalk-operational-data-power-bi-step-by-step-configuration-part-3/)
 
