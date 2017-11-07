@@ -42,7 +42,7 @@ manager: "anneta"
   
 3.  In the **Add Script Map** dialog box, enter `BtsHttpReceive.dll` in the **Request path** field.  
   
-4.  In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive. Select **BtsHttpReceive.dll**, and then click **OK**.  
+4.  In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive. Select **BtsHttpReceive.dll**, and then click **OK**.  
   
 5.  Enter `BizTalk HTTP Receive` in the `Name` field, and then click **Request Restrictions**.  
   
