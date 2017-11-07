@@ -29,6 +29,8 @@ When you install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserv
 |--------------|----------------|  
 |**Empty BizTalk Server Project**|To create a new empty BizTalk Server project.|  
 |**BizTalk Server BPEL Import Project**|To import Business Process Execution Language (BPEL), Web Services Description Language (WSDL), or XML Schema Definition Language (XSD) files into a BizTalk project.|  
+|**BizTalk Server Application Project (.btaproj)**|Basically, this is a BizTalk Continuous Integration to automatically deploy and update applications using Visual Studio Team Services (VSTS). The new project contains a file called BizTalkServerInventory.json which is used by VSTS during deployment. 
+**Note**: this template is only available with BizTalk Server 2016 with FP1 or above.|  
   
 ## See Also  
  [Working with BizTalk Projects](../core/working-with-biztalk-projects.md)
