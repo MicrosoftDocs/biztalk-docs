@@ -1,5 +1,5 @@
 ---
-title: Step 3: Create the build and release definitions | Microsoft Docs
+title: Step 3 - Create the build and release definitions | Microsoft Docs
 description: In VSTS, create a build definition to build the projects within your git or TFS repository, then create a release definition to deploy the BizTalk Server application
 ms.custom: ""
 ms.date: "11/08/2017"
