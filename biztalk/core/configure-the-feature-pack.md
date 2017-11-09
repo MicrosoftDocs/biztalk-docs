@@ -21,11 +21,12 @@ manager: "anneta"
 
 > [!NOTE]
 > [!INCLUDE[featurepack1](../includes/featurepack1.md)] is available with the Enterprise and Developer editions of [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] when: 
-> * Used with Software Assurance (SA)  
 > 
->     Or,
+> - Used with Software Assurance (SA)  
 > 
-> * Running [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] in Azure using an Enterprise Agreement
+>  OR
+> 
+> - Running [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] in Azure using an Enterprise Agreement
 > 
 > [!INCLUDE[featurepack1](../includes/featurepack1.md)] is not available for any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] edition, or any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] version. 
 

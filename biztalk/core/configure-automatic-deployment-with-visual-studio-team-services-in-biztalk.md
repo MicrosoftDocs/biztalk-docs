@@ -1,7 +1,8 @@
 ---
-title: "Configure automatic deployment with Visual Studio Team Services in BizTalk Server | Microsoft Docs"
+title: "Configure automatic deployment with Visual Studio Team Services | Microsoft Docs"
+description: Install BizTalk Feature Pack to use application lifecycle management with VSTS to deploy your applications to different BizTalk environments
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -11,15 +12,25 @@ ms.topic: "article"
 ms.assetid: 57f769bb-5105-43e2-9096-ed54cdf82b90
 caps.latest.revision: 8
 author: "tordgladnordahl"
-ms.author: "tonordah"
+ms.author: mandia
 manager: "anneta"
 ---
 # Configure automatic deployment with Visual Studio Team Services in BizTalk Server
-Automatically deploy [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] applications using Visual Studio Team Services. 
+
+## Overview
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] provides an improved automatic deployment and application lifecycle management (ALM) experience. 
 
-This section shows you how to setup VSTS with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], and add your first application to deploy.
+Using Visual Studio Team Services, you can automatically deploy [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] applications to different BizTalk environments. 
+
+Typically, there are two roles involved:
+
+- BizTalk developer creates the application, and builds it locally. Then, checks the application into Git or Team Foundation Version Control.
+- VSTS admin creates the build and release definitions, and deploys to the BizTalk application to different environments (Dev, UAT, Production).
+
+If you’ve never used VSTS, this walkthrough may be challenging. It does require some understanding of git, including cloning, and pushing changes. 
+
+We show you how to setup VSTS with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], and add your first application to deploy. We recommend you refer to the [VSTS guidance](https://docs.microsoft.com/vsts/user-guide/), as the VSTS UI changes. 
 
 ## Before you begin
 
@@ -27,11 +38,19 @@ This section shows you how to setup VSTS with [!INCLUDE[btsBizTalkServerNoVersio
 * If you already have a VSTS Agent installed on your BizTalk computer, then the existing agent is overwritten with the latest VSTS Agent. You may have to update your [VSTS service to align with the new agent](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
 * Automatic deployment with VSTS is done on one [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] in the group. Be sure the computer has Visual Studio and the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] Developer Tools and SDK installed. See the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] [hardware and software requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md).
 
-## Next steps
-[Configure VSTS for automatic deployment](../core/configure-visual-studio-team-services-to-deploy-biztalk-solutions-or-projects.md)
+## Prerequisites
 
-[Configure the JSON template](../core/configure-the-json-template-for-automatic-deployment.md)
+* Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* Some experience and knowledge with creating and working with definitions in VSTS. If you're brand new to VSTS, these may be good resources: 
 
-[Configure environmental tokens and variables](../core/configure-environmental-tokens-and-variables-for-automatic-deployment.md)
+  [Visual Studio Team Services overview](https://www.visualstudio.com/docs/overview)  
+  [CI/CD for newbies](https://www.visualstudio.com/docs/build/get-started/ci-cd-part-1)
 
-[Add a BizTalk application to VSTS](../core/add-a-biztalk-server-application-to-visual-studio-team-services.md)
+## Get started
+[Step 1: Add Application project & update .json template](feature-pack-add-application-project.md)  
+
+[Step 2: Create the VSTS token & install the build agent](feature-pack-create-vsts-token.md)
+
+[Step 3: Create the build and release definitions](feature-pack-add-build-release-definitions.md)
+
+[Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)
