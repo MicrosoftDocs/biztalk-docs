@@ -1,5 +1,5 @@
 ---
-title: Step 1: Add Application project & update json | Microsoft Docs
+title: Step 1: Add Application project and update json | Microsoft Docs
 description: Add the BizTalk Server Application project in Visual Studio, and update the BizTalkServerInventory.json file with the DLLs, binding files, and deployment sequence of your applications - Visual Studio Team Services
 ms.custom: ""
 ms.date: "11/08/2017"
@@ -104,26 +104,26 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 6. **Save** your changes. When finished, your .json file looks like the following: 
 
-```
-{
-  "$schema": "C:\\Program Files (x86)\\Microsoft BizTalk Server 2016\\Developer Tools\\BizTalkServerAppplicationSchema.json",
-  "BizTalkAssemblies": [
-    {
-      "Name": "HelloWorld",
-      "Path": "HelloWorld\\bin\\Release\\HelloWorld.dll"
-    }
-  ],
-  "BindingsFiles": [
-    {
-      "Name": "HelloWorldBinding",
-      "Path": "HelloWorld\\HelloWorldBinding.xml"
-    }
-  ],
-  "DeploymentSequence": [
-    "HelloWorld", "HelloWorldBinding"
-  ]
-}
-```
+	```
+	{
+	  "$schema": "C:\\Program Files (x86)\\Microsoft BizTalk Server 2016\\Developer Tools\\BizTalkServerAppplicationSchema.json",
+	  "BizTalkAssemblies": [
+	    {
+	      "Name": "HelloWorld",
+	      "Path": "HelloWorld\\bin\\Release\\HelloWorld.dll"
+	    }
+	  ],
+	  "BindingsFiles": [
+	    {
+	      "Name": "HelloWorldBinding",
+	      "Path": "HelloWorld\\HelloWorldBinding.xml"
+	    }
+	  ],
+	  "DeploymentSequence": [
+	    "HelloWorld", "HelloWorldBinding"
+	  ]
+	}
+	```
 
 7. **Optional**. Right-click your application project (e.g. appProjectHelloWorld), and select **Properties**. You can set the Debug or Release version to a new value. We don’t in these steps, but be aware you can do this.  
 

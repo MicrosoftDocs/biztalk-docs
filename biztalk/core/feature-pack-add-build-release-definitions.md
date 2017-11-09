@@ -1,5 +1,5 @@
 ---
-title: Step 3: Create the build & release definitions | Microsoft Docs
+title: Step 3: Create the build and release definitions | Microsoft Docs
 description: In VSTS, create a build definition to build the projects within your git or TFS repository, then create a release definition to deploy the BizTalk Server application
 ms.custom: ""
 ms.date: "11/08/2017"
@@ -104,4 +104,4 @@ When the build succeeds, the release definition deploys your application to your
 In VSTS, you created a build definition that builds your application within Git or Team Foundation Version Control (whatever you chose). When changes are made within the source control, the changes are automatically detected, and you can push them. After the build completes, you created a release definition that deploys the application to BizTalk Server, which you can see in BizTalk Server Administration. 
 
 ## Next step
-At this step, you're done. If you prefer, you can create environmental tokens within your BizTalk XML binding file, and creates variables within VSTS that match the environmental tokens. See [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md) for the details. 
+At this step, you're done. If you prefer, you can create environmental tokens within your BizTalk XML binding file, and create variables within VSTS that match the environmental tokens. See [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md) for the details. 

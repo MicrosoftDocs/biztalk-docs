@@ -21,6 +21,7 @@ manager: "anneta"
 
 > [!NOTE]
 > [!INCLUDE[featurepack1](../includes/featurepack1.md)] is available with the Enterprise and Developer editions of [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] when: 
+> 
 > - Used with Software Assurance (SA)  
 > 
 >  OR
