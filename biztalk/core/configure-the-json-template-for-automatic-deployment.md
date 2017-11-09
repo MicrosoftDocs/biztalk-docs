@@ -1,4 +1,9 @@
 ---
+redirect_url: /biztalk/core/feature-pack-add-application-project/
+redirect_document_id: TRUE
+
+ROBOTS: NOINDEX
+
 title: "Configure the JSON template for automatic deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
