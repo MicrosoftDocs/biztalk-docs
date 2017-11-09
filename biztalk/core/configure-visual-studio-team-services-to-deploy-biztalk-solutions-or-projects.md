@@ -1,4 +1,9 @@
 ---
+redirect_url: /biztalk/core/feature-pack-add-build-release-definitions/
+redirect_document_id: TRUE
+
+ROBOTS: NOINDEX
+
 title: "Configure Visual Studio Team Services to deploy BizTalk Server solutions or projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -126,6 +131,3 @@ Next, create the BizTalk Server Application Deployment definition.
 
 12. Name the new **Definition**, and set the correct path. 
 13. Once the definition is saved, select **Queue the new build**. Then, select the **Queue agent**, and add a comment to the commit.
-
-## Next step
-[Configure the JSON template for automatic deployment](../core/configure-the-json-template-for-automatic-deployment.md)

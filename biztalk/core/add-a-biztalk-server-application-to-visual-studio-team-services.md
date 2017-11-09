@@ -1,4 +1,9 @@
 ---
+redirect_url: /biztalk/core/feature-pack-add-application-project/
+redirect_document_id: TRUE
+
+ROBOTS: NOINDEX
+
 title: "Add a BizTalk Server application to Visual Studio Team Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,7 +28,7 @@ This topics provides an overview, and lists the key steps to deploy your solutio
 
 ## Prerequisites
 * Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
-* [Configure VSTS for automatic deployment](../core/configure-visual-studio-team-services-to-deploy-biztalk-solutions-or-projects.md)
+* [Step 3: Create the build and release definitions](../core/feature-pack-add-build-release-definitions.md)
 * Knowledge and experience working with Git and repositories in Visual Studio. If you're brand new to repositories and version control, these may be good resources: 
 
     [Learn Git](https://www.visualstudio.com/learn-git/)  

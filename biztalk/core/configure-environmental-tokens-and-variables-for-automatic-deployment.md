@@ -1,7 +1,8 @@
 ---
-title: "Configure environmental tokens and variables for automatic deployment | Microsoft Docs"
+title: Create environmental tokens & variables | Microsoft Docs"
+description: Update the binding file to use environment tokens, and create variables in VSTS to automate deployment of BizTalk Server applications
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -10,9 +11,10 @@ ms.topic: "article"
 ms.assetid: 28bb2d4a-f45c-466d-ba65-0ca8cad0bffd
 caps.latest.revision: 4
 author: "tordgladnordahl"
-ms.author: "tonordah"
+ms.author: mandia
 manager: "anneta"
 ---
+
 # Configure environmental tokens and variables for automatic deployment
 Use Visual Studio Team Services (VSTS) variables in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] binding files.
 
@@ -23,42 +25,38 @@ Within the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservern
 
 These variables are specific to your VSTS environment, and can be used to deploy the same application to multiple [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environments. 
 
-In this topic, we show you how add the VSTS variable in your binding file, and how to create the variable within VSTS. 
+We show you how to add the VSTS variable in your binding file, and how to create the variable within VSTS. 
 
-## Configure the variables in your BizTalk Binding file
-
-The following example is a part of a [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] binding file, and shows how to apply the tokens.
+## Add variables to the binding file
 
 1. Open the application binding file:
 
-	![BizTalk Feature Pack 1 Binding 1](../core/media/biztalk-feature-pack-1-binding-1.png)
+	![Open the binding file](../core/media/biztalk-feature-pack-1-binding-1.png)
 
 2. Find the element you want to change:
 
-    ![BizTalk Feature Pack 1 Binding 2](../core/media/biztalk-feature-pack-1-binding-2.png)
+    ![Select the element](../core/media/biztalk-feature-pack-1-binding-2.png)
 	
 3. Remove the populated value, and replace it with you variables: `$(YourValue)`. For example, enter `$(SendPort1)`: 
 
-	![BizTalk Feature Pack 1 Binding 3](../core/media/biztalk-feature-pack-1-binding-3.png)
+	![Binding file](../core/media/biztalk-feature-pack-1-binding-3.png)
 
+4. When done, save the binding file, and add it to your JSON build template (steps in [Step 1: Add Application project & update .json template](feature-pack-add-application-project.md)).
 
-4. When done, save the binding file, and apply it to your JSON build template.
-5. Sign in to your Visual Studio Team Service solution, and select **Build and release**.
-6. Go to **Release**. Select your **Release definition**, or create a new one.
-7. Under **Environments**, select **Add a new environment**, or change to an existing environment: 
+## Create the variables in VSTS
 
-	![Add a new environment](../core/media/add-a-new-environment.png)
+1. In your VSTS account, select **Build and release**, and select **Releases**.
 
-8. Click the ellipses, and select **configure variables**:
+2. Select your **Release definition**, and select **Variables**:  
 
-	![configure variables](../core/media/configure-variables.png)
+    ![Binding file](../core/media/vsts-release-variables.png)
 
-9. By adding the variables for each environment, using the token names created in the binding file, you can deploy your applications to multiple environments with different values:
+3. Select **Add**, and create the variable names and values:   
 
-	![environment specific variables](../core/media/environment-specific-variables.png)
-	
-10. Select **OK** to save the new variables.
-11. Once the build is initiated, the values are added from binding file.
+	![configure variables](../core/media/environment-specific-variables.png)
 
-## Next step
-[Add a BizTalk application to VSTS](../core/add-a-biztalk-server-application-to-visual-studio-team-services.md)
+4. **Save** your changes. When the deploy is initiated, the values are added from the binding file.
+
+## See also
+[Configure automatic deployment with Visual Studio Team Services](configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)  
+[Configure the feature pack](configure-the-feature-pack.md)
