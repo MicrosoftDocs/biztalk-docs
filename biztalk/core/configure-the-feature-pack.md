@@ -17,22 +17,45 @@ manager: "anneta"
 # Configure the feature pack
 ## Overview
 
-[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] uses the feature pack to provide improvements, features, and closer integration with Azure. [!INCLUDE[featurepack1](../includes/featurepack1.md)] extends functionality in key areas, such as deployment, analytics, and runtime. 
+[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] uses feature packs to provide improvements, features, and closer integration with Azure. These feature packs extend functionality in key areas, such as deployment, analytics, and runtime. 
 
 > [!NOTE]
-> [!INCLUDE[featurepack1](../includes/featurepack1.md)] is available with the Enterprise and Developer editions of [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] when: 
+> The feature packs are available with the Enterprise and Developer editions of [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] when: 
 > 
 > - Used with Software Assurance (SA)  
-> 
->  OR
-> 
 > - Running [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] in Azure using an Enterprise Agreement
 > 
-> [!INCLUDE[featurepack1](../includes/featurepack1.md)] is not available for any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] edition, or any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] version. 
+> The feature packs are not available for any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] edition, or any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] version. 
 
 ## Download and install
 
 Download the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100).
+
+#### Install
+
+1. Run setup as administrator.
+2. In **Welcome**, select **Next**. 
+3. Accept the license agreement, and select **Next**. 
+4. Continue with the installation. During the install, several command windows may open and close. When complete, you are prompted to **Finish**.
+
+A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\Updates\Uninstall4014788-FP2\setup.log`.
+
+## Feature Pack 2 updates
+
+#### API-M Integration
+#### Event Hub adapter for both send and receive
+#### BizTalk backup to Azure Blobs
+#### Multi machine deployment in ALM
+
+#### [Use Service Bus partition key](../core/sb-messaging-adapter.md)
+
+The Service Bus adapter supports Service Bus Premium, including sending messages to partitioned queues and topics. [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging) details more about Service Bus Premium. 
+
+#### TLS 1.2 
+#### HL7 runtime ready to support 2.7.1
+#### JSON encode/decode supporting latest Newton Soft 
+
+
 
 ## Feature Pack 1 updates
 
