@@ -2,14 +2,14 @@
 layout: HubPage
 hide_bc: true
 title: Microsoft BizTalk Server Documentation
-description: 
+description:
 services: biztalk-service
 documentationcenter: ''
 caps.latest.revision: 31
 author: MandiOhlinger
 manager: anneta
 editor: ''
-ms.assetid: 
+ms.assetid:
 ms.prod: biztalk-server
 ms.workload: integration
 ms.tgt_pltfrm: na
@@ -121,7 +121,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Get Started</h3>
-                                                    <p>Whether your brand new to BizTalk, architecting a solution, or a seasoned
+                                                    <p>Whether you're brand new to BizTalk, architecting a solution, or a seasoned
                                                         pro, let us help you get started.</p>
                                                 </div>
                                             </div>
