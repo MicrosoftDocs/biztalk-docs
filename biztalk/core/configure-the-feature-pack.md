@@ -17,12 +17,12 @@ manager: "anneta"
 # Configure the feature pack
 ## Overview
 
-[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] uses feature packs to provide improvements, features, and closer integration with Azure. These feature packs extend functionality in key areas, such as deployment, analytics, and runtime. 
+[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] uses feature packs to provide improvements, features, and closer integration with Azure. These feature packs extend functionality in key areas, such as deployment, security, analytics, runtime, and backup. 
 
 > [!NOTE]
 > The feature packs are available with the Enterprise and Developer editions of [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] when: 
 > 
-> - Used with Software Assurance (SA)  
+> - Used with Software Assurance (SA), OR
 > - Running [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] in Azure using an Enterprise Agreement
 > 
 > The feature packs are not available for any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] edition, or any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] version. 
@@ -44,7 +44,10 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 
 #### API-M Integration
 #### Event Hub adapter for both send and receive
-#### BizTalk backup to Azure Blobs
+
+#### [Backup to Azure blob account](../core/how-to-configure-the-backup-biztalk-server-job.md)
+The Backup BizTalk Server job backs up the BizTalk databases and log files. When you configure the SQL Agent job, you can enter an Azure blob service endpoint URL within the job properties.
+
 #### Multi machine deployment in ALM
 
 #### [Use Service Bus partition key](../core/sb-messaging-adapter.md)
