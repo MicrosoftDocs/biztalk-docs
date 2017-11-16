@@ -2,7 +2,7 @@
 title: "Send tracking data to Azure Application Insights | Microsoft Docs"
 description: Install feature pack to enable analytics of tracked data with Azure Application Insights in BizTalk Server
 ms.custom: "fp1"
-ms.date: "11/06/2017"
+ms.date: "11/15/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -19,8 +19,7 @@ manager: "anneta"
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, you can process and send your tracking data to Azure Application Insights. Use the Application Insights features to track your instances from receive ports, send ports, and orchestrations.
   		  
-> [!IMPORTANT]
-> This feature currently does not work with SQL Named Instances.
+**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, this feature supports SQL default instances, and SQL named instances.
 
 ## Prerequisites
 * Create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). In its properties, copy the **Instrumentation Key**. Paste it in another file so you have it ready. We use this key within BizTalk Server. 

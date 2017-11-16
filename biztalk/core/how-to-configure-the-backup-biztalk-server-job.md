@@ -1,7 +1,8 @@
 ---
 title: "Configure the Backup BizTalk Server Job | Microsoft Docs"
+description: 
 ms.custom: ""
-ms.date: "11/13/2017"
+ms.date: "11/15/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -56,7 +57,10 @@ To configure this job, you'll need to:
   
 * Configure the SQL Server Agent service to run under a domain account (recommended, although local accounts can be used), with a mapped user login on each instance of SQL Server.  
 
-* If your backup location is an Azure blob storage account, have your blob service endpoint URL ready. It's something like http://*yourstorageaccount*.blob.core.windows.net. See [Azure storage accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account) to create an account.
+* To use an Azure blob storage account, you need a [general purpose storage account](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account#create-a-storage-account), a container within your blob storage account, a [shared access signature](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) (SAS), and a [SQL credential using the SAS](https://docs.microsoft.comsql/relational-databases/backup-restore/sql-server-backup-to-url#credential). Once created, have your blob service endpoint URL ready, which is something like https://*yourstorageaccount*.blob.core.windows.net/*containername*. 
+
+    > [!TIP]
+    > If you don't have an existing blob storage account configured with a SAS, then the [SAS PowerShell script](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) can create it, and the container. [SQL Server Backup to URL](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url) provides an overview, and the specific steps.
   
 ## Configure the job  
   
@@ -91,7 +95,7 @@ To configure this job, you'll need to:
         >   
         >      Backing up data over a network is subject to any network issues. When using a remote location, verify the backup succeeded when the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job finishes.  
         > - To avoid potential data loss, configure the backup disk to be a different disk than the database data and log disks. This is necessary so you can access the backups if the data or log disk fails.  
-        > - When backing up to an Azure blob account, enter the **Blob service endpoint** URL (listed in your blob service properties in the [Azure portal](https://portal.azure.com)).
+        > - When backing up to an Azure blob account, enter the **Blob service endpoint** URL and the container name, which are listed in your blob service properties in the [Azure portal](https://portal.azure.com).
 
     4. Optional. **Force full backup after partial backup failures** (@ForceFullBackupAfterPartialSetFailure): The default is **0**. If a log backup fails, no full backups are ran until the next full backup frequency interval is reached. Replace with **1** if you want a full backup ran whenever a log backup failure occurs.
     
@@ -116,7 +120,7 @@ To configure this job, you'll need to:
     exec [dbo].[sp_BackupAllFull_Schedule]   
     'w' /* Frequency */,   
     'BTS' /* Name */,   
-    'http://yourstorageaccount.blob.core.windows.net' /* location of backup files */,   
+    'http://yourstorageaccount.blob.core.windows.net/yourcontainer/' /* location of backup files */,   
     '1' /* 0 (default) or 1 ForceFullBackupAfterPartialSetFailure */
     ```  
 
@@ -126,7 +130,7 @@ To configure this job, you'll need to:
   
     1.  **@MarkName**: This is part of the naming convention for backup files: <Server Name>_<Database Name>**_Log_**< Log Mark Name >_<Timestamp>  
     
-    2.  **@BackupPath**: Full destination path (including single quotes) to the computer and folder where you want to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs, or the blob service endpoint URL to an Azure blob storage account. The *\<destination path>* may be local or a UNC path to another server.  
+    2.  **@BackupPath**: Full destination path (including single quotes) to the computer and folder to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs, or the Azure blob storage account and container. The *\<destination path>* can also be local or a UNC path to another server.  
   
      The MarkAndBackupLog step marks the logs for backup, and then backs them up.  
   
@@ -163,4 +167,6 @@ The **sp_ForceFullBackup** stored procedure in the **BizTalkMgmtDb** database ca
   
 ## Next Steps  
  [Configure the Destination System for Log Shipping](../core/how-to-configure-the-destination-system-for-log-shipping.md)   
- [Schedule the Backup BizTalk Server Job](../core/how-to-schedule-the-backup-biztalk-server-job.md)
+ [Schedule the Backup BizTalk Server Job](../core/how-to-schedule-the-backup-biztalk-server-job.md)  
+ [Azure storage accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)  
+ [SQL Server Backup to URL](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url)

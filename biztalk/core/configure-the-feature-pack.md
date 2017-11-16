@@ -1,7 +1,8 @@
 ---
 title: "Configure the feature pack | Microsoft Docs"
+description: Install and configure feature pack 1, and feature pack 2. See the new features list, including API Management, team services deployment, new Azure adapters, backups, and more in BizTalk Server 2016 
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/15/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -40,13 +41,16 @@ Download the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 1](
 
 A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\Updates\Uninstall4014788-FP2\setup.log`.
 
+>[!TIP]
+> For comprehensive guidance on the installation, see the [Feature Pack step-by-step installation](https://blog.sandro-pereira.com/2017/04/27/microsoft-biztalk-server-2016-feature-pack-1-step-by-step-installation/) blog post.
+
 ## Feature Pack 2 updates
 
 #### API-M Integration
 #### Event Hub adapter for both send and receive
 
 #### [Backup to Azure blob account](../core/how-to-configure-the-backup-biztalk-server-job.md)
-The Backup BizTalk Server job backs up the BizTalk databases and log files. When you configure the SQL Agent job, you can enter an Azure blob service endpoint URL within the job properties.
+The Backup BizTalk Server job backs up the BizTalk databases and log files. When you configure this SQL Agent job, you can enter an Azure blob storage account within the job properties. This gives you another option to backup your data, instead of using a local physical disk. 
 
 #### Multi machine deployment in ALM
 
@@ -54,7 +58,24 @@ The Backup BizTalk Server job backs up the BizTalk databases and log files. When
 
 The Service Bus adapter supports Service Bus Premium, including sending messages to partitioned queues and topics. [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging) details more about Service Bus Premium. 
 
-#### TLS 1.2 
+#### [Use named instances with Application Insights](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
+When you enable Analytics, and enter the Application Insights key, you may get error: 
+
+```
+Group settings were not applied. (A database failure occurred due to database connectivity problems.)
+```
+
+This happens when you use SQL named instances. This is fixed in this feature pack; you can use SQL default instances, and SQL named instances. 
+
+#### TLS 1.2 support
+
+TLS 1.2 is fully supported in BizTalk Server, including all the adapters and all the accelerators. You can disable SSL, TLS 1.0, and TLS 1.1 on the BizTalk Server. 
+
+Key information: 
+
+* Any external systems communicating with BizTalk also need to support TLS 1.2
+* Any custom code, such as functoids, may need to be updated to support TLS 1.2
+
 #### HL7 runtime ready to support 2.7.1
 #### JSON encode/decode supporting latest Newton Soft 
 
