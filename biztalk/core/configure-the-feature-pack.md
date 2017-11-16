@@ -47,7 +47,10 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 ## Feature Pack 2 updates
 
 #### API-M Integration
-#### Event Hub adapter for both send and receive
+
+#### [Use the Event Hub adapter](event-hubs-adapter.md)
+
+Send messages from BizTalk to Azure Event Hubs, and receive messages from Azure Event Hubs to BizTalk Server. When you configure the transport properties, you can easily sign-in to your Azure account, and automatically select your Azure Event Hubs namespace, and Event Hub.
 
 #### [Backup to Azure blob account](../core/how-to-configure-the-backup-biztalk-server-job.md)
 The Backup BizTalk Server job backs up the BizTalk databases and log files. When you configure this SQL Agent job, you can enter an Azure blob storage account within the job properties. This gives you another option to backup your data, instead of using a local physical disk. 
@@ -93,7 +96,7 @@ Send tracking data to Power BI using oData. For example, get a visual representa
 
 #### [Connect to the management REST APIs in BizTalk](../core/install-and-configure-the-management-rest-apis-in-biztalk-server.md)
 
-Use REST APIs to remotely manage your BizTalk artifiacts, including agreements, suspended instances, unenlisted orchestrations, and more.
+Use REST APIs to remotely manage your BizTalk artifacts, including agreements, suspended instances, unenlisted orchestrations, and more.
 
 #### [Configure advanced scheduling](../core/configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server.md)
 
@@ -106,4 +109,3 @@ Use Visual Studio Team Services (VSTS) to automatically deploy your solutions, o
 #### [Connect to SQL Server Always Encrypted columns with BizTalk Server](../core/connect-to-sql-server-always-encrypted-columns-with-biztalk-server.md)  
 
 Use the WCF-SQL adapter to query encrypted columns from an Always Encrypted database in SQL Server.
-
