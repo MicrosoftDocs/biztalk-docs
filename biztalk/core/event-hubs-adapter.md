@@ -2,7 +2,7 @@
 title: "Use the Event Hubs adapter | Microsoft Docs"
 description: Send and receive messages using the Azure Event Hubs adapter in BizTalk Server
 ms.custom: ""
-ms.date: "11/15/2017"
+ms.date: "11/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -25,7 +25,7 @@ Azure Event Hubs is a highly scalable data streaming platform, and can receive a
 
 * Create an [Azure event hubs namespace and event hub](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create)
 * Create an [Azure blob storage account with a container](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)
-* Install [Feature Pack 2 - NEED DLC LINK]() on your BizTalk Server
+* Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your BizTalk Server
 
 Your event hub is now created, and you have the connection strings you need to send and receive events.
 
@@ -139,3 +139,9 @@ You can use a simple File send port to receive messages from your Azure Event Hu
 2. In your File send port properties, set the **Filters** to  `BTS.ReceivePortName == EHReceivePort`.
 3. Start the Event Hub receive location and the File send port.
 4. Look for messages in the destination folder (c:\temp\out).
+
+## Do more
+Event Hubs is considered the "front door" to a lot of other Azure services, including Azure Data Lake, HD Insight, and more. It's designed to process a lot of messages, and process them fast. Read more about Event Hubs, and its features: 
+
+[Event Hubs features overview](https://docs.microsoft.com/azure/event-hubs/event-hubs-features)  
+[What is Event Hubs?](https://docs.microsoft.com/azure/event-hubs/event-hubs-what-is-event-hubs)

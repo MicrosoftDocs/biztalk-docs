@@ -1,24 +1,21 @@
 ---
-title: "What&#39;s new in BizTalk Accelerator for HL7 | Microsoft Docs"
+title: "New in BizTalk Accelerator for HL7 | Microsoft Docs"
+description: Changes and updates with different versions of HL7 accelerator in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "what's new"
-  - "BizTalk Accelerator for HL7, what's new"
-  - "getting started, what's new"
 ms.assetid: e98595a1-2d1e-488e-8a97-7cd561948b3b
 caps.latest.revision: 15
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# What&#39;s new in BizTalk Accelerator for HL7
+# What's new in BizTalk Accelerator for HL7
 Changes and updates with the [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]. 
 
 ## BizTalk Server 2016
@@ -26,6 +23,7 @@ Changes and updates with the [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../inc
 |Feature|Description|  
 |---|---| 
 | **Initiates the connection to LOB** | Using the MLLP adapter, [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] can start or initiate the connection to a remote Line of Business server (LOB) system. The LOB waits for the connection, and then sends the messages to [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] using the MLLP adapter. There are some new properties in the MLLP receive location that configure this option. See: <br/><ul><li>[Step 4 in the end-to-end tutorial](../../adapters-and-accelerators/accelerator-hl7/step-4-create-receive-port-to-accept-adt^a03-messages-from-adt-using-mllp.md)</li><li>[Step 4 in the interrogative tutorial](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md)</li><li>[Step 5 in the interrogative tutorial](../../adapters-and-accelerators/accelerator-hl7/step-5-create-the-receive-port-for-accepting-his-messages.md)</li><li>[Step 4 in the batching tutorial](../../adapters-and-accelerators/accelerator-hl7/step-4-create-a-receive-port-for-accepting-the-batch-message.md)</li></ul>In [!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)] and older versions, the HL7 MLLP receive adapter waits for the remote LOB server to connect to the MLLP adapter, and then the LOB sends messages. <br/><br/>See [how BTAHL7 routes messages](../../adapters-and-accelerators/accelerator-hl7/how-btahl7-routes-messages.md) for more details.|
+| **2.7.1 support** | **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, the HL7 runtime supports HL7 version 2.7.1. <br/><br/>Install [Feature Pack 2](https://aka.ms/bts2016fp2). |
 
 ## BizTalk Server 2013 R2  
   

@@ -29,7 +29,7 @@ Use these Azure services to track your instances from receive ports, send ports,
 ## Prerequisites
 * Create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). BizTalk Server uses the **Instrumentation Key** to authenticate.
 * Create an [Azure Event Hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create). BizTalk Server uses the SAS (namespace-level) or event hub-level policy to authenticate.
-* Install [Feature Pack 2 - NEED DLC LINK]() on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 
 ## Enable analytics for your environment
 
@@ -69,7 +69,6 @@ Once enabled, [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkserv
 
 ## View your data
 
-
 #### Use Application Insights
 Once the data is sent to Application Insights, you can use the analytics tools within Azure to create advanced queries, and analyze your data.
 
@@ -83,6 +82,11 @@ Once the data is sent to Application Insights, you can use the analytics tools w
 
 > [!TIP]
 > Azure Application Insights is a powerful tool. There are resources to help you write queries in Application Insights at [Analytics in Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-analytics), and even to get started at [What is Application Insights?](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview).
+
+#### Use Event Hubs
+Once the data is sent to Event Hubs, there are a couple of ways to see the data. Many Event Hubs users are using Event Hubs Capture to load streaming data into Azure. The intent is for you to focus on data processing, rather than on data capture. [Event Hubs Capture](https://docs.microsoft.com/azure/event-hubs/event-hubs-capture-overview) explains how it works, and how to set it up.
+
+Another option is to create a receive port and receive location using the Event Hub Adapter. Then, you can output the data to a folder. This idea may be best if you want to test the scenario. [Event Hubs adapter](event-hubs-adapter.md) lists the steps to receive messages into BizTalk Server from Event Hubs.
 
 ## Where the data is stored
 
@@ -100,4 +104,4 @@ Some possible resolutions:
 Now, query the BizTalkMsgBoxDb TrackingData_2_x tables again. If the tables are empty, then the data was moved, and should start displaying in Application Insights.
     
 ## See also
- [Configure the Feature Pack](../core/configure-the-feature-pack.md)
+ [Install & configure the Feature Pack](../core/configure-the-feature-pack.md)
