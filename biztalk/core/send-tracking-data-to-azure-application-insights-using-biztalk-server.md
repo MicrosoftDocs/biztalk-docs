@@ -1,8 +1,8 @@
 ---
-title: "Send tracking data to Azure Application Insights | Microsoft Docs"
-description: Install feature pack to enable analytics of tracked data with Azure Application Insights in BizTalk Server
-ms.custom: "fp1"
-ms.date: "11/15/2017"
+title: "Track data to Application Insights or Event Hubs | Microsoft Docs"
+description: Install feature pack to enable analytics of tracked data with Azure Application Insights or Azure Event Hubs in BizTalk Server
+ms.custom: "fp1, fp2"
+ms.date: "11/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,45 +15,62 @@ author: "tordgladnordahl"
 ms.author: mandia
 manager: "anneta"
 ---
-# Send tracking data to Azure Application Insights using BizTalk Server
+# Send BizTalk tracking data to Azure Application Insights or Event Hubs
 
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, you can process and send your tracking data to Azure Application Insights. Use the Application Insights features to track your instances from receive ports, send ports, and orchestrations.
+**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, you can process and send your tracking data to Azure Application Insights. 
   		  
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, this feature supports SQL default instances, and SQL named instances.
+**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**:
+
+* Application Insights supports SQL default instances, and SQL named instances
+* You can process and send tracking data to Azure Event Hubs
+
+Use these Azure services to track your instances from receive ports, send ports, and orchestrations.
 
 ## Prerequisites
-* Create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). In its properties, copy the **Instrumentation Key**. Paste it in another file so you have it ready. We use this key within BizTalk Server. 
-* Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* Create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). BizTalk Server uses the **Instrumentation Key** to authenticate.
+* Create an [Azure Event Hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create). BizTalk Server uses the SAS (namespace-level) or event hub-level policy to authenticate.
+* Install [Feature Pack 2 - NEED DLC LINK]() on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 
 ## Enable analytics for your environment
 
 1. Open the **BizTalk Server Administration** console, right-click the **BizTalk Group**, and select **Settings**. 
 2. Check **Enable group-level analytics**.
-3. For the **Target type**, select **Application Insight** from the list.
-4. For the **Connection parameters**, enter your Application Insights **[instrumentation key](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-create-new-resource)** (available in the Azure portal). Your Group settings look similar to the following: 
-
+3. For the **Target type**, select **Application Insight** or **Event Hub** from the list.
     ![Enable analytics for your environment](../core/media/environmentsettingapplicationinishgt.PNG)
+
+4. For the **Connection parameters**, select the **...** button, and **Sign-in** to your Azure account.  
+
+    **For Application Insights**  
+    Select your **Subscription**, **Resource Group**, and your Application Insights instance.
+
+    ![Enable analytics for your environment](../core/media/analytics-group-application-insights.png)
+
+    **For Event Hub**  
+    Select your **Subscription**, **Resource Group**, Event Hub namespace, and event hub. For authentication, you can use an access signature (SAS) at the namespace-level, or entity signature at the event hub-level. Your available keys are auto-populated with the values previously configured within [Azure](https://portal.azure.com).
+
+    ![Enable analytics for your environment](../core/media/send-tracking-data-to-azure.png)
 
 5. Select **OK** to save your changes. 
 
-Once enabled, [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] is ready to transmit data to Application Insights. Next, enable analytics on your ports and orchestrations. 
+Once enabled, [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] is ready to transmit data to your Azure resource. Next, enable analytics on your ports and orchestrations. 
 
 ## Enable analytics on your artifacts
 
 1. In BizTalk Server Administration, right-click a **receive port**, **send port** or **orchestration**, and select **Tracking**.
-2. Under **Analytics**, check **Enable Analytics**, similar to the following. This setting starts tracking and transmitting data from the artifact to Application Insights.
+2. Under **Analytics**, check **Enable Analytics**, similar to the following. This setting starts tracking and transmitting data from the artifact to your Azure resource.
     
     ![Tracking data for Orchestration](../core/media/orchestrationsettingsapplicationinsight.PNG)
 
 3. Select **OK** to save your changes.
 4. Restart the tracking host Instance, and confirm the BizTalk Application is started.
 
-Next, run queries within Application Insights to see your data.  
-
 > [!TIP]
 > Connect your BizTalk Server Analytics with other systems to gain even more insight into your organizations data.
 
 ## View your data
+
+
+#### Use Application Insights
 Once the data is sent to Application Insights, you can use the analytics tools within Azure to create advanced queries, and analyze your data.
 
 1. Sign in to the [Azure Portal](https://portal.azure.com).
@@ -69,7 +86,7 @@ Once the data is sent to Application Insights, you can use the analytics tools w
 
 ## Where the data is stored
 
-Your tracking data should display fairly quickly (within a few minutes) within Application Insights. If it doesn't, then there may be an issue with the tracking host. In SQL Server, the Analytics data is stored in the BizTalkMsgBoxDb database, in the TrackingData_2_*x* tables. In SQL Server Management Studio, return the top 1000 rows on these four tables. If the data is there, then the tracking host is not moving the data to the BizTalkDTADb database. 
+Your tracking data should display fairly quickly (within a few minutes) within your Azure resources. If it doesn't, then there may be an issue with the tracking host. In SQL Server, the Analytics data is stored in the BizTalkMsgBoxDb database, in the TrackingData_2_*x* tables. In SQL Server Management Studio, return the top 1000 rows on these four tables. If the data is there, then the tracking host is not moving the data to the BizTalkDTADb database. 
 
 Some possible resolutions:
 
