@@ -14,6 +14,7 @@ author: "MandiOhlinger"
 ms.author: "valrobb"
 manager: "anneta"
 ---
+
 # Connect to Azure API Management using BizTalk Server
 
 Expose your BizTalk SOAP endpoints as services within Azure API Management. 
@@ -57,7 +58,8 @@ Expose your BizTalk SOAP endpoints as services within Azure API Management.
 
 ## Create using the BizTalk Administration
 
-> [!NOTE] This feature is supported with WCF-BasicHTTP receive locations. 
+> [!NOTE] 
+> This feature is supported with WCF-BasicHTTP receive locations. 
 
 1. In the BizTalk Administration Console, right-click your WCF-BasicHTTP receive location, and select **Publish to API Management**:  
 
