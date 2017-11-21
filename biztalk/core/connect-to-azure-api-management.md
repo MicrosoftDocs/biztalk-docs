@@ -1,4 +1,4 @@
-.---
+---
 title: "Connect to Azure API Management | Microsoft Docs"
 description: Use Feature Pack 1 and Feature Pack 2 to expose a BizTalk WCF-Basic HTTP receive location as a SOAP endpoint within API management. You can do this using BizTalk Administration console, or paste your endpoint directly within API Management in the Azure portal.
 ms.custom: ""
