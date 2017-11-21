@@ -2,7 +2,7 @@
 title: Step 1 - Add Application project and update json | Microsoft Docs
 description: Add the BizTalk Server Application project in Visual Studio, and update the BizTalkServerInventory.json file with the DLLs, binding files, and deployment sequence of your applications - Visual Studio Team Services
 ms.custom: ""
-ms.date: "11/08/2017"
+ms.date: "11/20/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -26,7 +26,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 * Have the path to the XML binding file to your BizTalk project ready. 
 * Know your VSTS account, your collection, and your team project details.
 * Be familiar with git concepts, including cloning and working with repositories. 
-* Be sure [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) is installed
+* Be sure [Feature Pack 2](https://aka.ms/bts2016fp2) is installed.
 
 ## Add the application project
 
@@ -49,6 +49,9 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
     ![Binding file properties](../core/media/xml-binding-file-properties.png)
 
+8. Optional. Right-click your newly-added application project, and select **Properties**. Customize the **Application Name** you want displayed in BizTalk Administration:  
+
+    ![Application name](../core/media/application-project-name.png)
 
 ## Configure the JSON template
 
@@ -156,7 +159,7 @@ Once completed, the Visual Studio Team Service deployment task honors the requir
 
 ## What you did
 
-In your BizTalk project, you added a BizTalk Application project (.btaproj). This project is used to automate deployments of your BizTalk Server projects using VSTS. After you created the application project, you added a reference to your BizTalk application project. Then, you updated a JSON file that tells the automated deployment what DLLs to deploy, which binding file to use, and the order to deploy the applications. 
+In your BizTalk project, you added a BizTalk Application project (.btaproj). This project is used to automate deployments of your BizTalk Server projects using VSTS. After you created the application project, you added a reference to your BizTalk project. Then, you updated a JSON file that tells the automated deployment what DLLs to deploy, which binding file to use, and the order to deploy the applications. 
 
 ## Next steps
 [Step 2: Create the VSTS token](feature-pack-create-vsts-token.md)  

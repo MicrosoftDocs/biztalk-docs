@@ -2,7 +2,7 @@
 title: Step 3 - Create the build and release definitions | Microsoft Docs
 description: In VSTS, create a build definition to build the projects within your git or TFS repository, then create a release definition to deploy the BizTalk Server application
 ms.custom: ""
-ms.date: "11/08/2017"
+ms.date: "11/20/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -17,6 +17,9 @@ manager: "anneta"
 # Step 3: Create the build and release definition
 
 The build and release definitions are Visual Studio Team Services tasks, and should probably be done by a VSTS admin. The build definition builds your project within your git repository, and the release definitions deploys it to your BizTalk Server environment. 
+
+## Before you begin
+Complete [Step 2 - Create VSTS token and install agent](feature-pack-create-vsts-token.md).
 
 ## Add the Build tasks
 1. In your project, select **Build and release**. The Builds tab opens. Create a **New** definition:
@@ -85,7 +88,12 @@ When the build succeeds, the release definition deploys your application to your
 
 7. Select the **Deploy** task, and enter the values: 
 
-    **Operation Name**: Select **Create new BizTalk Application**. This option deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application. If continuous integration is enabled, it automatically redeploys the application when it is updated in the repository. **Update an existing BizTalk Application** appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application.
+    **Operation Name**: Your options: 
+        * **Create new BizTalk Application**: Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application. If continuous integration is enabled, it automatically redeploys the application when it is updated in the repository. 
+        * **Update an existing BizTalk Application**: Appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application.
+        * **Install BizTalk Server Application**: [Install the applications](../core/how-to-install-a-biztalk-application.md), and you enter the BizTalk management computer name, and the deployment package path.
+
+        ![Deploy operations](../core/media/vsts-deploy-operations.png)
 
     **Application Name**: The text you enter will be the application name in BizTalk Administration. Do **not** enter BizTalk Application 1.
 

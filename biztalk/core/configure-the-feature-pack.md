@@ -1,8 +1,8 @@
----
+﻿---
 title: "Configure the feature pack | Microsoft Docs"
 description: Install and configure feature pack 1, and feature pack 2. See the new features list, including API Management, team services deployment, new Azure adapters, backups, and more in BizTalk Server 2016 
 ms.custom: ""
-ms.date: "11/16/2017"
+ms.date: "11/20/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure the feature pack
+
 ## Overview
 
 [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] uses feature packs to provide improvements, features, and closer integration with Azure. These feature packs extend functionality in key areas, such as deployment, security, analytics, runtime, and backup. 
@@ -50,16 +51,21 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 
 ## Feature Pack 2 updates
 
-#### API-M Integration
+#### [Integrate with API Management](../core/connect-to-azure-api-management.md)
+
+Expanding on the API management integration made with Feature Pack 1, you can now expose a WCF-BasicHTTP receive location as a SOAP endpoint using the BizTalk Server Administration console. 
 
 #### [Use the Event Hub adapter](event-hubs-adapter.md)
 
-Send messages from BizTalk to Azure Event Hubs, and receive messages from Azure Event Hubs to BizTalk Server. When you configure the transport properties, you can easily sign-in to your Azure account, and automatically select your Azure Event Hubs namespace, and Event Hub.
+Send messages from BizTalk to Azure Event Hubs, and receive messages from Azure Event Hubs to BizTalk Server. When you configure the transport properties, you can easily sign in to your Azure account, and automatically select your Azure Event Hubs namespace, and Event Hub.
 
 #### [Backup to Azure blob account](../core/how-to-configure-the-backup-biztalk-server-job.md)
 The Backup BizTalk Server job backs up the BizTalk databases and log files. When you configure this SQL Agent job, you can enter an Azure blob storage account within the job properties. This gives you another option to backup your data, instead of using a local physical disk. 
 
-#### Multi machine deployment in ALM
+#### [Multi-machine deployment using VSTS](../core/configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)
+Using deployment groups, you can deploy your applications to multiple BizTalk Servers. You can also set the application name within the application project, and install your application by entering your management server.
+
+[Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index) provides more details on how this is done in VSTS.  
 
 #### [Use Service Bus partition key](../core/sb-messaging-adapter.md)
 
@@ -118,3 +124,7 @@ Use Visual Studio Team Services (VSTS) to automatically deploy your solutions, o
 #### [Connect to SQL Server Always Encrypted columns with BizTalk Server](../core/connect-to-sql-server-always-encrypted-columns-with-biztalk-server.md)  
 
 Use the WCF-SQL adapter to query encrypted columns from an Always Encrypted database in SQL Server.
+
+#### [Integrate with API Management](../core/connect-to-azure-api-management.md)
+
+Within your Azure API management service, you can create and expose an API as WSDL, and use the URI to a BizTalk SOAP endpoint.  
