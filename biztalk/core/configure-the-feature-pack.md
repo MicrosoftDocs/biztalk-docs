@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Configure the feature pack | Microsoft Docs"
 description: Install and configure feature pack 1, and feature pack 2. See the new features list, including API Management, team services deployment, new Azure adapters, backups, and more in BizTalk Server 2016 
 ms.custom: ""
@@ -51,7 +51,7 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 
 ## Feature Pack 2 updates
 
-#### [Integrate with API Management](../core/connect-to-azure-api-management.md)
+#### [Expose SOAP endpoints with API Management](../core/connect-to-azure-api-management.md)
 
 Expanding on the API management integration made with Feature Pack 1, you can now expose a WCF-BasicHTTP receive location as a SOAP endpoint using the BizTalk Server Administration console. 
 
@@ -67,7 +67,7 @@ Using deployment groups, you can deploy your applications to multiple BizTalk Se
 
 [Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index) provides more details on how this is done in VSTS.  
 
-#### [Use Service Bus partition key](../core/sb-messaging-adapter.md)
+#### [Use Service Bus Premium](../core/sb-messaging-adapter.md)
 
 The Service Bus adapter supports Service Bus Premium, including sending messages to partitioned queues and topics. [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging) details more about Service Bus Premium. 
 

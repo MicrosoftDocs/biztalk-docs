@@ -2,7 +2,7 @@
 title: "Configure the Backup BizTalk Server Job | Microsoft Docs"
 description: 
 ms.custom: ""
-ms.date: "11/15/2017"
+ms.date: "11/21/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -160,7 +160,19 @@ To configure this job, you'll need to:
     >  The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job runs the first time you configure it. By default, on subsequent runs, the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job completes a full backup once a day, and completes log backups every 15 minutes.  
   
 9. Right-click the **Backup BizTalk Server** job, and select **Enable**. The status should change to **Success**.  
-  
+
+## Execute Backup_Setup_All_Procs.sql and LogShipping_Destination_Logic.sql
+
+**[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2 (FP2)** creates the Backup_Setup_All_Procs.sql and LogShipping_Destination_Logic.sql scripts in `\Program Files (x86)\Microsoft BizTalk Server *your version*\Schema`. If you are backing up to an Azure storage account, then read this section.
+
+1. On the SQL Server, execute the `Backup_Setup_All_Procs.sql` script against all custom databases that are being backed up by the Backup BizTalk Server job. By default, FP2 automatically updates BizTalk databases; it does not update any custom databases (those databases in the `adm_OtherBackupDatabases` table in BizTalkMgmtDb).
+
+    [Back Up Custom Databases](how-to-back-up-custom-databases.md) provides more details on custom databases. 
+
+2. **If you use [log shipping](log-shipping.md)**, execute the LogShipping_Destination_Logic.sql script on the destination system within SQL Server. If you don't use log shipping, then do not execute this script.
+
+    [Configure the Destination System for Log Shipping](how-to-configure-the-destination-system-for-log-shipping.md) provides more details on the destination system.
+
 ## sp_ForceFullBackup stored procedure  
   
 The **sp_ForceFullBackup** stored procedure in the **BizTalkMgmtDb** database can be used to run an ad-hoc full backup of the data and log files. The stored procedure updates the adm_ForceFullBackup table with a value 1. The next time the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job is ran, a full database backup set is created.  

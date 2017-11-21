@@ -2,7 +2,7 @@
 title: "Service Bus messaging adapter | Microsoft Docs"
 description: Send and receive messages using the Azure SB-Messaging adapter in BizTalk Server
 ms.custom: ""
-ms.date: "11/09/2017"
+ms.date: "11/21/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -19,7 +19,7 @@ manager: "anneta"
 # SB-Messaging Adapter
 The Service Bus (**SB-Messaging**) adapter is used to receive and send from Service Bus entities like Queues, Topics, and Relays. You can use the **SB-Messaging** adapter to connect your on-premises [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to Azure.
 
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, Service Bus Premium is supported. When configuring a send port using this adapter, you can enter a **PartitionKey** to send transactional messages to a queue or topic that is not session-aware.
+**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, Service Bus Premium is supported. When configuring a send port using this adapter, you can send messages to partitioned queues and topics. 
 
 ## Authenticating with Service Bus
 Service Bus provides two methods to authenticate: 
