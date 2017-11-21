@@ -1,7 +1,8 @@
 ---
-title: "SB-Messaging Adapter | Microsoft Docs"
+title: "Service Bus messaging adapter | Microsoft Docs"
+description: Send and receive messages using the Azure SB-Messaging adapter in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/21/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -14,11 +15,19 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# SB-Messaging Adapter
-The Service Bus (**SB-Messaging**) adapter is used to receive and send from Service Bus entities like Queues, Topics, and Relays. You can use the **SB-Messaging** adapters to bridge the connectivity between [!INCLUDE[winazure](../includes/winazure-md.md)] and on-premises [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], thereby enabling users to create a typical hybrid application. The topics in this section provide instructions on how to configure an **SB-Messaging** receive location and a send port to receive and send messages from the Service Bus entities.  
 
-## Before you get started
-Service Bus provides two methods to authenticate: Access Control Service (ACS) and the Shared Access Signature (SAS). Our recommendation is to use Shared Access Signature (SAS) when authenticating with Service Bus. The Shared Access Key value is listed in the [Azure portal](https://portal.azure.com).
+# SB-Messaging Adapter
+The Service Bus (**SB-Messaging**) adapter is used to receive and send from Service Bus entities like Queues, Topics, and Relays. You can use the **SB-Messaging** adapter to connect your on-premises [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to Azure.
+
+**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, Service Bus Premium is supported. When configuring a send port using this adapter, you can send messages to partitioned queues and topics. 
+
+## Authenticating with Service Bus
+Service Bus provides two methods to authenticate: 
+
+- Access Control Service (ACS) 
+- Shared Access Signature (SAS)
+
+We recommend using Shared Access Signature (SAS) to authenticate with Service Bus. The Shared Access Key value is listed in the [Azure portal](https://portal.azure.com).
 
 When you create a Service Bus namespace, the Access Control (ACS) namespace is not automatically created. To use Access Control, you need the Issuer Name and Issuer Key values of this namespace. These values are available when you create a new ACS namespace using Windows PowerShell. These values are not listed in the Azure portal.
 
@@ -46,25 +55,20 @@ To use ACS for authentication, and get the Issuer Name and Issuer Key values, th
     ConnectionString      : Endpoint=sb://biztalksbnamespace.servicebus.windows.net/;SharedSecretIssuer=owner;SharedSecretValue=abcdefghijklmnopqrstuvwxyz
     NamespaceType         : Messaging
     ```
-[New-AzureSBNamespace](https://msdn.microsoft.com/library/dn495165.aspx)
+
+See [New-AzureSBNamespace](https://docs.microsoft.com/powershell/module/Azure/New-AzureSBNamespace) for guidance.
 
 ## Receive messages from Service Bus
   
-This section provides information on how to configure an **SB-Messaging** Receive Location using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
-  
-> [!NOTE]
->  Before completing the following procedure, you must have already added a one-way receive port. See [How to create a receive port](../core/how-to-create-a-receive-port.md).  
+1. In the BizTalk Server Administration console, expand **BizTalk Group**, expand **Applications**, and then expand your application. 
 
- 
-1.  In the BizTalk Server Administration console, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Applications**, and then expand the application under you want to create a receive location.  
+2. Right-click **Receive Ports**, select **New**, and select **One-Way receive port**. 
+
+3. Give it a name, and select **Receive Locations**. 
+
+4. Select **New**, give it a **Name**. In the **Transport** section, select **SB-Messaging** from the **Type** drop-down list, and then select **Configure**.  
   
-2.  In the left pane, click the **Receive Ports** node and in the right pane, right-click the receive port with which you want to associate the new receive location, and then click **Properties**.  
-  
-3.  In the left pane of the **Receive Port Properties** dialog box, select **Receive Locations**, and in the right pane click **New** to create a new receive location.  
-  
-4.  In the **Receive Location Properties** dialog box, in the **Transport** section, select **SB-Messaging** from the **Type** drop-down list, and then click **Configure** to configure the transport properties for the receive location.  
-  
-5.  In the **SB-Messaging Transport Properties** dialog box, in the **General** tab, do the following:  
+5. Configure the **General** properties:  
   
     |Use this|To do this|  
     |--------------|----------------|  
@@ -75,27 +79,28 @@ This section provides information on how to configure an **SB-Messaging** Receiv
     |**Prefetch count**|Specifies the number of messages that are received simultaneously from the Service Bus Queue or a topic. Prefetching enables the queue or subscription client to load additional messages from the service when it performs a receive operation. The client stores these messages in a local cache. The size of the cache is determined by the value for the Prefetch Count property you specify here.<br /><br /> For more information, refer to the section “Prefetching” at [https://azure.microsoft.com/documentation/articles/service-bus-performance-improvements/](https://azure.microsoft.com/documentation/articles/service-bus-performance-improvements/)<br /><br /> **Default value:** -1|  
     |**Use Session**|Select this check box to use a Service Bus session to receive messages from a queue or a subscription.|  
   
-6.  In the **Authentication** tab, do the following:  
+6.  Configure the **Authentication** properties:  
   
     |Use this|To do this|  
     |--------------|----------------|  
     |**Access Control Service**|Select this to use ACS for authentication and provide the following values:<br /><br /> - Enter the Service Bus Access Control Service STS URI. Typically the URI is in the following format:<br /><br /> `https://<namespace>-sb.accesscontrol.windows.net/`<br /><br /> - Enter the issuer name for the Service Bus namespace.<br /><br /> - Enter the issuer key for the Service Bus namespace.|  
     |**Shared Access Signature** (new starting with [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)])|Select this to use Shared Access Signature (SAS) for authentication, and provide the SAS key name and key value.|  
   
-7.  In the **Properties** tab, in the **Namespace for Brokered Message Properties** field, specify the namespace that the adapter uses to write the brokered message properties as message context properties on the message received by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Additionally, if you want to promote the brokered message properties, select the **Promote Brokered Message Properties** check box.  
+7.  In the **Properties** tab, in the **Namespace for Brokered Message Properties**, enter the namespace that the adapter uses to write the brokered message properties as message context properties on the message received by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. If you want to promote the brokered message properties, select the **Promote Brokered Message Properties** check box.  
   
-8.  Click **OK**.  
+8.  Select **OK**.  
   
-9. Enter the appropriate values in the **Receive Location Properties** dialog box to complete the configuration of the receive location and click **OK** to save settings. For information about the **Receive Locations Properties** dialog box, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).  
+9. Select your **Receive handler**, and the **Receive pipeline**. Select **OK** to save your changes. [Create a Receive Location](../core/how-to-create-a-receive-location.md) provides some guidance.  
   
 ## Send messages to Service Bus
-This section provides information on how to configure an **SB-Messaging** send port using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
   
-1.  In the BizTalk Server Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **SB-Messaging** for the **Type** option in the **Transport** section of the **General** tab.  
+1.  In the BizTalk Server Administration console, right-click **Send Ports**, select **New**, and select **Static One-way send port**.
+
+    [Create a Send Port](../core/how-to-create-a-send-port2.md) provides some guidance.
+
+2. Enter a **Name**. In **Transport**, set the **Type** to **SB-Messaging**, and select **Configure**. 
   
-2.  On the **General** tab, in the **Transport** section, click the **Configure** button.  
-  
-3.  In the **SB-Messaging Transport Properties** dialog box, on the **General** tab, specify the following:  
+3.  Configure the **General** properties:  
   
     |Use this|To do this|  
     |--------------|----------------|  
@@ -105,18 +110,18 @@ This section provides information on how to configure an **SB-Messaging** send p
     |**Send Timeout**|Specifies a time span value that indicates the time for a send operation to complete.<br /><br /> **Default value:** 1 minute|  
     |**Close Timeout**|Specifies a time span value that indicates the time for a channel close operation to complete.<br /><br /> **Default value:** 1 minute|  
   
-4.  In the **Authentication** tab, do the following:  
+4.  Configure the **Authentication** properties: 
   
     |Use this|To do this|  
     |--------------|----------------|  
     |**Access Control Service**|Select this to use ACS for authentication and provide the following values:<br /><br /> - Enter the Service Bus Access Control Service STS URI. Typically the URI is in the following format:<br /><br /> `https://<namespace>-sb.accesscontrol.windows.net/`<br /><br /> - Enter the issuer name for the Service Bus namespace.<br /><br /> - Enter the issuer key for the Service Bus namespace.|  
     |**Shared Access Signature** (new starting with [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)])|Select this to use Shared Access Signature (SAS) for authentication, and provide the SAS key name and key value.|  
   
-5.  In the **Properties** tab, in the **Namespace for the user defined Brokered Message Properties** field, specify the namespace that contains the BizTalk message context properties that you want to write as user-defined Brokered Message properties on the outgoing message sent to the Service Bus Queue. All the properties that belong to the namespace are written to the message as user-defined Brokered Message properties. The adapter ignores the namespace while writing the properties as Brokered Message properties. It uses the namespace only to ascertain what properties to write.  
+5.  In the **Properties** tab, enter the **Namespace for the user defined Brokered Message Properties** that contains the BizTalk message context properties that you want to write on the outgoing message to Service Bus. All the namespace properties are written to the message as user-defined Brokered Message properties. The adapter ignores the namespace while writing the properties as Brokered Message properties. It uses the namespace only to ascertain what properties to write.  
   
-     You can also specify the values for the BrokeredMessage properties. For more information about the properties, see [BrokeredMessage Properties](https://msdn.microsoft.com/library/azure/microsoft.servicebus.messaging.brokeredmessage_properties.aspx).  
+     You can also enter the values for the BrokeredMessage properties. These properties are described at [BrokeredMessage Properties](https://docs.microsoft.com/dotnet/api/microsoft.servicebus.messaging.brokeredmessage), including the **Partition Key**.
   
-6.  Click **OK** and **OK** again to save settings.  
+6.  Select **OK** to save your changes.  
   
 ## See also
 [Using adapters](../core/using-adapters.md)
