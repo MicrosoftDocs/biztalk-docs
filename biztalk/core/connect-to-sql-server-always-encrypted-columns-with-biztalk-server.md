@@ -1,7 +1,7 @@
 ---
 title: "Connect to SQL Server Always Encrypted columns with BizTalk Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/20/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fcc20a2b-daf9-4b7f-ae61-cb408e4bd04c
 caps.latest.revision: 4
-author: "tordgladnordahl"
-ms.author: "tonordah"
+author: MandiOhlinger
+ms.author: mandia
 manager: "anneta"
 ---
 # Connect to SQL Server Always Encrypted columns with BizTalk Server
@@ -25,7 +25,7 @@ This topic shows you how to enable or disable this feature in [!INCLUDE[btsBizTa
 > [Always Encrypted (Database Engine)](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) is a great resource to understand and learn more about this [!INCLUDE[btsSQLServerNoVersion_md](../includes/btssqlservernoversion-md.md)] feature.
 
 ## Prerequisites
-Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
+Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
 
 ## Enable Always Encrypted
 

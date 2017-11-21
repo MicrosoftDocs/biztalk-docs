@@ -2,7 +2,7 @@
 title: Step 2 - Create VSTS token and install agent | Microsoft Docs
 description: Create the VSTS security access token, clone your VSTS project into Visual Studio, and install the build agent to automate deployment of your BizTalk Server projects
 ms.custom: ""
-ms.date: "11/08/2017"
+ms.date: "11/20/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -21,6 +21,9 @@ A personal access token (PAT) is created in Visual Studio Team Services. This to
 More info on PAT at [Authenticate access with personal access tokens for VSTS and TFS](https://docs.microsoft.com/vsts/accounts/use-personal-access-tokens-to-authenticate). 
 
 After you create the token, you install the build agent, and configure it to use this token. 
+
+## Before you begin
+Complete [Step 1 - Add Application project and update json](feature-pack-add-application-project.md).
 
 ## Sign into VSTS, and create the token
 1. Go to [https://app.vsaex.visualstudio.com/go/profile](https://app.vsaex.visualstudio.com/go/profile), and sign-in with your work or school account. After you sign in, your VSTS account is listed. In the following example, the account is **mandiaprojects.visualstudio.com**.  
@@ -58,7 +61,7 @@ After you create the token, you install the build agent, and configure it to use
 
 ## Install the Build Agent
 
-The build agent is installed on the BizTalk development computer. 
+The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 
 1. Open your VSTS account and project, which is something like *https://YourAccountName.visualstudio.com/MyFirstProject*. Select the settings icon, and select **Agent Queues**:  
 

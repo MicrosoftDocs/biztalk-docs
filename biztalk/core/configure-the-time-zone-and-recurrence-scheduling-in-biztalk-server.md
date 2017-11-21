@@ -1,7 +1,7 @@
 ---
 title: "Configure the time zone and recurrence scheduling in BizTalk Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/20/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d60ae7be-747e-4034-8b99-46bd7e25fe67
 caps.latest.revision: 5
-author: "tordgladnordahl"
-ms.author: "tonordah"
+author: MandiOhlinger
+ms.author: mandia
 manager: "anneta"
 ---
 # Configure the time zone and recurrence scheduling in BizTalk Server
@@ -22,7 +22,7 @@ Set the timezone and configure a recurrence schedule on your receive locations i
 This topic shows you how to configure these features.
 
 ## Prerequisites
-Install [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
+Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
 
 ## Time zone
 
