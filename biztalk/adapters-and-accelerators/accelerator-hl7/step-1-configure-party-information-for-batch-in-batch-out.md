@@ -19,7 +19,7 @@ In this step, you turn off fragmentation of batching for the party, enabling the
   
 ### To turn off fragmentation of batching for the party  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
+1.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version\> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
   
 2.  In BTAHL7 Configuration Explorer, on the **Parties** tab in the left-hand pane, click **Tutorial_BatchSource**.  
   

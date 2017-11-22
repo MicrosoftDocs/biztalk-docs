@@ -32,7 +32,7 @@ In this step, you create and configure a source party, and assign send ports to 
   
 5.  Click **OK**.  
   
-6.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
+6.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version\> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
   
 7.  In BTAHL7 Configuration Explorer, on the **Parties** tab, click **Tutorial_BatchSource**.  
   

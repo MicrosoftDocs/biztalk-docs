@@ -20,12 +20,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Update2XMLSchema Tool
-The Update2XMLSchema tool enables you to modify HL7 2.XML schemas to work with BizTalk Editor. This is necessary because certain HL7 2.XML schemas do not work correctly within [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] without modification. After modifying the schemas, the tool places them in the Schemas folder where [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] is installed, for instance, *\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\Templates\Schemas.  
+The Update2XMLSchema tool enables you to modify HL7 2.XML schemas to work with BizTalk Editor. This is necessary because certain HL7 2.XML schemas do not work correctly within [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] without modification. After modifying the schemas, the tool places them in the Schemas folder where [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] is installed, for instance, *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\Templates\Schemas.  
   
  You need to update manually some fields of the schemas that result from running the Update2XMLSchema tool. See [Required Manual Updates](../../adapters-and-accelerators/accelerator-hl7/required-manual-updates.md) for a list of those schemas.  
   
 ## Syntax  
- This tool is located in *\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\2XML Utilities. You run this tool at the command prompt with the following command:  
+ This tool is located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\2XML Utilities. You run this tool at the command prompt with the following command:  
   
 ```  
 Update2XMLSchema /s /v  

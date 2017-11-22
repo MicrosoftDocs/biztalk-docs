@@ -31,7 +31,7 @@ Change, repair or uninstall the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btab
 > [!NOTE]
 >  When you modify your installation of [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], the End-to-End Tutorial does not automatically run. 
 > 
-> To run the tutorial and verify that the modified installation executed correctly, run the tutorial manually from the ***\<drive>*** **\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial** folder.
+> To run the tutorial and verify that the modified installation executed correctly, run the tutorial manually from the ***\<drive\>*** **\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial** folder.
   
 1. Run the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] **setup.exe** as an administrator 
   

@@ -24,7 +24,7 @@ The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_Curr
 1.  Copy the PrivateResponder SDK sample to your Contoso solution folder.  
   
     > [!NOTE]
-    >  By default, the PrivateResponder SDK sample is located in the C:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\PrivateResponder folder.  
+    >  By default, the PrivateResponder SDK sample is located in the C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\PrivateResponder folder.  
   
 2.  In Visual Studio, click **File**, point to **Add**, and then click **Existing Project**.  
   

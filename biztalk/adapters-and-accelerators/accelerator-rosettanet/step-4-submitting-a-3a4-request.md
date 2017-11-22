@@ -35,7 +35,7 @@ In this step, you prepare and submit a request using the Partner Interface Proce
     |**Pip Instance ID**|Type **3A4_Test**. **Important:**  To avoid duplicate message ID errors, you must make sure that the **Pip Instance ID** is unique for each message that you submit. If you run the 3A4 test in the future, you will have to change this field.|  
     |**Message Category**|Type **Action**.|  
   
-3.  Using Notepad or another text editor, open the 3A4_Request.xml file in the \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances folder, and then copy and paste the contents into the **Service Content** field in LOBWebApplication.  
+3.  Using Notepad or another text editor, open the 3A4_Request.xml file in the \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances folder, and then copy and paste the contents into the **Service Content** field in LOBWebApplication.  
   
 4.  Click **Submit** to submit the 3A4 request to the Contoso computer.  
   
@@ -54,7 +54,7 @@ In this step, you prepare and submit a request using the Partner Interface Proce
   
 3.  In the Microsoft SQL Server Management Studio, click **New Query**.  
   
-4.  In the \<table> text dialog box, select **BTARNDATA** from the list.  
+4.  In the \<table\> text dialog box, select **BTARNDATA** from the list.  
   
 5.  In the SQL window, type the following SQL statement:  
   

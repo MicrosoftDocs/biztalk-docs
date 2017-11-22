@@ -29,7 +29,7 @@ In this step, you create a new project based on the BTAHL72XCommon Project templ
   
 4.  In the **Name** box, type **BTAHL7V2XCommon** as the project name.  
   
-5.  In the **Location** box, browse to **\<***drive***:>\Batching Tutorial**.  
+5.  In the **Location** box, browse to **\<***drive***:\>\Batching Tutorial**.  
   
 6.  Click **OK**.  
   
@@ -40,7 +40,7 @@ In this step, you create a new project based on the BTAHL72XCommon Project templ
   
 1.  Open **[!INCLUDE[vs2012](../../includes/vs2012-md.md)] Command Prompt**.  
   
-2.  On the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt, browse to the **\<***drive***>:\Batching Tutorial** folder.  
+2.  On the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt, browse to the **\<***drive***\>:\Batching Tutorial** folder.  
   
 3.  At the command prompt, type **sn –k key.snk**, and then press ENTER. Ensure that a success message appears in the output window.  
   
@@ -53,9 +53,9 @@ In this step, you create a new project based on the BTAHL72XCommon Project templ
   
 6.  Check **Sign the assembly** check box.  
   
-7.  In **Choose a Strong name** key file drop down list select **\<Browse…>**.  
+7.  In **Choose a Strong name** key file drop down list select **\<Browse…\>**.  
   
-8.  Browse to \<*drive*>:\Batching Tutorial, select **key.snk**, and then click **Open**.  
+8.  Browse to \<*drive*\>:\Batching Tutorial, select **key.snk**, and then click **Open**.  
   
 9. In the BTAHL7V2XCommon Project Property Pages window, click **OK** to save your changes.  
   

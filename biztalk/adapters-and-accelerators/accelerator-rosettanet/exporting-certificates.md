@@ -38,7 +38,7 @@ This topic describes how to export a certificate by using the Certificate Export
   
 ### To export the home organization certificate  
   
-1.  Click **Start**, click **Run**, type **runas /user:\<host service> mmc**, where \<*hostservice*> is the name of the service that you associated with the host service when you installed [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], and then click **OK** to run the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC) in the context of the host service.  
+1.  Click **Start**, click **Run**, type **runas /user:\<host service\> mmc**, where \<*hostservice*\> is the name of the service that you associated with the host service when you installed [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], and then click **OK** to run the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC) in the context of the host service.  
   
     > [!NOTE]
     >  You run the **runas** command to assume the identity of the host service, which is required to access the home-organization certificate.  

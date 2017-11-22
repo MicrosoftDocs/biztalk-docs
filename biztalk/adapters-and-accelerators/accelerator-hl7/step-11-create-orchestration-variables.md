@@ -63,7 +63,7 @@ In this step, you create the orchestration variables for the message instances s
     > [!NOTE]
     >  Once you have created and named the message parts, do not rename them. If necessary, delete the old body part, and create a new body part with a new name.  
   
-9. In the **Types** window, under **Multi-part Message Types**, expand **DoorbellFinalMessageType**, and then click **MessagePart_1**. In the **Properties** pane, enter **MSHSegment** for **Identifier**, and then press **Enter**. In the drop-down list for **Type**, expand **.NET Classes**, and then click \<**Select from referenced assemblies>**.  
+9. In the **Types** window, under **Multi-part Message Types**, expand **DoorbellFinalMessageType**, and then click **MessagePart_1**. In the **Properties** pane, enter **MSHSegment** for **Identifier**, and then press **Enter**. In the drop-down list for **Type**, expand **.NET Classes**, and then click \<**Select from referenced assemblies\>**.  
   
 10. In the **Select Artifact Type** dialog box, in the left pane, click **System.Xml**. In the right pane, click **XmlDocument**, and then click **OK**.  
   
@@ -86,7 +86,7 @@ In this step, you create the orchestration variables for the message instances s
   
 18. In the **Orchestration View** window, right-click **Variables**, and then click **New Variable**.  
   
-19. In the **Properties** pane, enter **HeaderInfo** for **Identifier**, then press **Enter**. In the drop-down list for **Type**, double-click \<**.NET Class>**.  
+19. In the **Properties** pane, enter **HeaderInfo** for **Identifier**, then press **Enter**. In the drop-down list for **Type**, double-click \<**.NET Class\>**.  
   
 20. In the **Select Artifact Type** window, in the left pane, click **System.Xml**. In the right pane, click **XmlDocument**, and then click **OK**.  
   

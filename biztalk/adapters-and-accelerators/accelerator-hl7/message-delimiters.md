@@ -34,7 +34,7 @@ Message events defined by HL7 standards take the following form:
   
 |Delimiter|Value|Usage|  
 |---------------|-----------|-----------|  
-|Segment terminator|\<cr>|A carriage return terminates a segment record. You cannot change this value.|  
+|Segment terminator|\<cr\>|A carriage return terminates a segment record. You cannot change this value.|  
 |Field separator|&#124;|A pipe character separates two adjacent data fields within a segment. This character also separates the segment ID from the first data field in each segment.|  
 |Component separator|^|A hat character separates adjacent components of data fields where allowed by the HL7 standard.|  
 |Subcomponent separator|&|An ampersand character separates adjacent subcomponents of data fields where allowed by the HL7 standard. If there are no subcomponents, then you can omit this character.|  

@@ -65,7 +65,7 @@ In this step, you create the schema for your trigger event message. For example,
   
 3.  In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (**…**) button.  
   
-4.  In the Assembly Key File dialog box, browse to \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial, click **key.snk**, and then click **Open**.  
+4.  In the Assembly Key File dialog box, browse to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial, click **key.snk**, and then click **Open**.  
   
 5.  In the Project Property Pages dialog box, click **OK** to save your changes.  
   

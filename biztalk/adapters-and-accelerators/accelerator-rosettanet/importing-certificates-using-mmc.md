@@ -49,12 +49,12 @@ This topic describes how to import a digital certificate that [!INCLUDE[btsCoNam
   
 1.  Copy private-key (.pfx) certificate files to a location on the hard disk of the server to which you are copying certificates.  
   
-2.  Click **Start**, click **Run**, type **run as /user:\<host service> mmc**, and then click **OK**.  
+2.  Click **Start**, click **Run**, type **run as /user:\<host service\> mmc**, and then click **OK**.  
   
     > [!NOTE]
-    >  For \<*host service*>, type the name of the service that was automatically selected for the host service when you installed [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+    >  For \<*host service*\>, type the name of the service that was automatically selected for the host service when you installed [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
-3.  Type the password for \<*host service*>, and then press **Enter**.  
+3.  Type the password for \<*host service*\>, and then press **Enter**.  
   
 4.  In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console, on the **File** menu, click **Add/Remove Snap-in**.  
   

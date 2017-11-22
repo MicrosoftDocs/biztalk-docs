@@ -54,7 +54,7 @@ RosettaNet Partner Interface Processes (PIPs) define business processes between 
 -   Service content for all signal messages of RNIF 1.1 and RNIF 2.01.  
   
 ## Sample Schemas  
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] setup installs a set of PIPs in \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\Schemas. These are for sample purposes only. Before using them in production, it is highly recommended that you compare these schemas against the latest published RosettaNet PIP specifications and message guidelines. BTARN supports implementation of all RosettaNet PIPs.  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] setup installs a set of PIPs in \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas. These are for sample purposes only. Before using them in production, it is highly recommended that you compare these schemas against the latest published RosettaNet PIP specifications and message guidelines. BTARN supports implementation of all RosettaNet PIPs.  
   
 ## Element-Level Constraints in BTARN  
  In BTARN, you implement the element-level constraints specified in the PIP message-guideline documents as process configuration settings. Runtime components use the process configuration to determine how to process a specific PIP.  

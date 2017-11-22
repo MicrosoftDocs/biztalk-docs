@@ -29,7 +29,7 @@ You use the [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentver
   
 ### To open BTAHL7 Configuration Explorer  
   
--   Click **Start**, point to **Programs**, point to **Microsoft BizTalk \<version> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
+-   Click **Start**, point to **Programs**, point to **Microsoft BizTalk \<version\> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
   
 ### To configure message acknowledgments  
   
