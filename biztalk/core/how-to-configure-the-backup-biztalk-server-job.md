@@ -2,7 +2,7 @@
 title: "Configure the Backup BizTalk Server Job | Microsoft Docs"
 description: 
 ms.custom: ""
-ms.date: "11/21/2017"
+ms.date: "11/22/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -163,7 +163,9 @@ To configure this job, you'll need to:
 
 ## Execute Backup_Setup_All_Procs.sql and LogShipping_Destination_Logic.sql
 
-**[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2 (FP2)** used the Backup_Setup_All_Procs.sql and LogShipping_Destination_Logic.sql scripts in `\Program Files (x86)\Microsoft BizTalk Server *your version*\Schema`. If you are backing up to an Azure storage account, then read this section.
+**[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2 (FP2)** used the Backup_Setup_All_Procs.sql and LogShipping_Destination_Logic.sql scripts in `\Program Files (x86)\Microsoft BizTalk Server *your version*\Schema`. 
+
+If your Backup BizTalk Server job is already configured, and you want to switch to using Azure blob (instead of a disk), then also do the following: 
 
 1. On the SQL Server, execute the `Backup_Setup_All_Procs.sql` script against all custom databases that are being backed up by the Backup BizTalk Server job. By default, FP2 automatically updates BizTalk databases; it does not update any custom databases (those databases in the `adm_OtherBackupDatabases` table in BizTalkMgmtDb).
 
