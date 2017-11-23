@@ -122,12 +122,12 @@ public partial class SCOTTProcedureClient : System.ServiceModel.ClientBase<SCOTT
        (  
         System.Nullable<decimal> INNUMBER,   
         string INVARCHAR,   
-        System.Nullable\<System.DateTime> INDATE,   
+        System.Nullable\<System.DateTime\> INDATE,   
         ref System.Nullable<decimal> INOUTNUMBER,   
         ref string INOUTVARCHAR,   
-        ref System.Nullable\<System.DateTime> INOUTDATE,   
+        ref System.Nullable\<System.DateTime\> INOUTDATE,   
         out string OUTVARCHAR,   
-        out System.Nullable\<System.DateTime> OUTDATE  
+        out System.Nullable\<System.DateTime\> OUTDATE  
         );  
 }  
 ```  

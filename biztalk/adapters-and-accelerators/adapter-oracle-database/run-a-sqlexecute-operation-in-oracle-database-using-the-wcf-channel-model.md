@@ -25,8 +25,8 @@ This section shows how to perform a SQLEXECUTE operation on an Oracle database o
  The following XML shows a SQLEXECUTE message that returns the next value of an Oracle SEQUENCE.  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>  
-\<!-- New Action: http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE -->  
+<?xml version="1.0" encoding="utf-8" ?>  
+<!-- New Action: http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE -->  
 <SQLEXECUTE xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE">  
     <SQLSTATEMENT>SELECT tid_seq.nextval id FROM dual</SQLSTATEMENT>  
 </SQLEXECUTE>  

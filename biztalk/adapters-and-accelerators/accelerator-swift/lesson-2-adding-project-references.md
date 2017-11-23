@@ -28,7 +28,7 @@ You add project references so your pipelines can access the default runtime sche
   
 2.  In the Add Reference dialog box, click the **Browse** tab.  
   
-3.  Browse to **\<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\Assemblies**.  
+3.  Browse to **\<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\Assemblies**.  
   
 4.  Select the **Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll** file.  
   

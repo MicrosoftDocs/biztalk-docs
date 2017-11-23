@@ -73,7 +73,7 @@ manager: "anneta"
   
 -   [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FRRFailedReason to the one of the following values, if the response was a NAK:  
   
-    -   *\<ErrorCode>* (from the 405 field of the MTS21_FIN_ACKNAK negative-acknowledgment message)  
+    -   *\<ErrorCode\>* (from the 405 field of the MTS21_FIN_ACKNAK negative-acknowledgment message)  
   
     -   TransportError (from an MQ Series PAN/NAN message)  
   

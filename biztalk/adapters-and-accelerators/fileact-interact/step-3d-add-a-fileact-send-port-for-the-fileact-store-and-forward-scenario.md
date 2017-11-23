@@ -37,11 +37,11 @@ Before you begin this step, you must complete [Step 3C: Add a FILE Send Port to 
     |**User name**|Set the user name as appropriate for SAG connectivity.|  
     |**Adapter Mode**|From the drop-down list, select **Store and Forward**.|  
     |**Non-Repudiation Indicator**|From the drop-down list, select **FALSE**.|  
-    |**Request Type**|Set to the appropriate \<RequestType> string, based on your provisioning with SWIFT.|  
+    |**Request Type**|Set to the appropriate \<RequestType\> string, based on your provisioning with SWIFT.|  
     |**ResponseCrypto**|From the drop-down list, select **FALSE**.|  
-    |**Requestor**|Set to the appropriate \<Requestor> string, based on your provisioning with SWIFT.|  
-    |**Responder**|Set to the appropriate \<Responder> string.|  
-    |**Service Name**|Set to the appropriate \<service name>.|  
+    |**Requestor**|Set to the appropriate \<Requestor\> string, based on your provisioning with SWIFT.|  
+    |**Responder**|Set to the appropriate \<Responder\> string.|  
+    |**Service Name**|Set to the appropriate \<service name\>.|  
     |**Acknowledgement Indicator**|From the drop-down list, select **FALSE**.|  
     |**FileCompression**|From the drop-down list, select **None**.|  
     |**Event end-point**|Type the appropriate SAG end-point.|  

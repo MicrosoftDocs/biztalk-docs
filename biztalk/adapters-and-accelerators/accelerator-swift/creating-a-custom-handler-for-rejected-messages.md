@@ -27,5 +27,5 @@ If you reject a message in the verification or approval stage, [!INCLUDE[btaA4SW
 |--------------|------------|  
 |BTS.Operation|A4SWIFT_MRSRFailed|  
 |A4SWIFT_MRSRFailedReason|Timeout<br /><br /> Rejected (means the message has been rejected from the first stage)<br /><br /> CantRepairInInfoPath|  
-|A4SWIFT_MRSRLastStage|\<name of last stage (role) that the message was in before failing>|  
-|A4SWIFT_MRSRDepartment|\<name of department>|
+|A4SWIFT_MRSRLastStage|\<name of last stage (role) that the message was in before failing\>|  
+|A4SWIFT_MRSRDepartment|\<name of department\>|

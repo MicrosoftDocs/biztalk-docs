@@ -38,13 +38,13 @@ The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssh
 3.  Create the Windows user as an external user in Oracle database. Note that the user name must be in upper case.  
   
     ```  
-    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME>” IDENTIFIED EXTERNALLY;  
+    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME\>” IDENTIFIED EXTERNALLY;  
     ```  
   
 4.  Grant privileges to the user.  
   
     ```  
-    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME>”;  
+    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME\>”;  
     ```  
   
 5.  The Oracle E-Business Suite artifacts are available under the APPS schema. To enable the newly created user, logging in using Windows Authentication, to access the Oracle E-Business Suite artifacts, the user’s schema must be changed to the APPS schema. You can add the following SQL command to the logon script that changes the user’s default schema to APPS when the user logs on.  

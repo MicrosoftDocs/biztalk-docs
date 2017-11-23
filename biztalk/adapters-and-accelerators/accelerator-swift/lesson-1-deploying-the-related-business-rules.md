@@ -24,7 +24,7 @@ manager: "anneta"
   
 ### To deploy the related business rules  
   
-1.  Click **Start**, point to **Programs**, point to **Microsoft BizTalk \<version> Accelerator for SWIFT**, and then click **BRE Deployment Utility**.  
+1.  Click **Start**, point to **Programs**, point to **Microsoft BizTalk \<version\> Accelerator for SWIFT**, and then click **BRE Deployment Utility**.  
   
 2.  In the BRE Deployment Utility dialog box, click **Browse**.  
   
@@ -41,7 +41,7 @@ manager: "anneta"
   
 5.  Close the SWIFT BRE Deployment Utility dialog box.  
   
-6.  In Windows Explorer, browse to \<*drive*>:\Documents and Settings\All Users\Application Data to confirm that the log file **BREDeploymentLog.txt** appears in the folder.  
+6.  In Windows Explorer, browse to \<*drive*\>:\Documents and Settings\All Users\Application Data to confirm that the log file **BREDeploymentLog.txt** appears in the folder.  
   
     > [!NOTE]
     >  You can open the log file using a text editor to confirm each of the deployment steps.  

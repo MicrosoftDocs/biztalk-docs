@@ -100,7 +100,7 @@ Executing a stored procedure that takes a single parameter is similar to executi
         ```  
         <ADD_LAST_EMP_XML_INFO xmlns="http://schemas.microsoft.com/Sql/2008/05/Procedures/dbo">  
         <xml_info>  
-        \<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/>  
+        <bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/>  
         </xml_info>  
         </ADD_LAST_EMP_XML_INFO>  
         ```  

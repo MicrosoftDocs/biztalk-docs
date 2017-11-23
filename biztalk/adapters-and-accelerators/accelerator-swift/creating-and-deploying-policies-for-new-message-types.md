@@ -53,6 +53,6 @@ To create and deploy policies for new message types:
   
      The master policy file also needs to be changed to reflect the new name in the following tags:  
   
-    -   \<ruleset name="swift.if.ia.setr.004.001.02_Master_Policy">  
+    -   \<ruleset name="swift.if.ia.setr.004.001.02_Master_Policy"\>  
   
     -   <rule name="swift.if.ia.setr.004.001.02_Policy_List"

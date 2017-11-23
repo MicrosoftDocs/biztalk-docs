@@ -37,7 +37,7 @@ To undeploy an adapter from a computer, the user needs to perform the following 
   
 2.  At the command prompt, type the following command:  
   
-     **gacutil /u** \<*fully qualified**assembly name*>  
+     **gacutil /u** \<*fully qualified**assembly name*\>  
   
      In this command, the assembly name is the name of the assembly to uninstall from the GAC.  
   
@@ -50,7 +50,7 @@ To undeploy an adapter from a computer, the user needs to perform the following 
   
 #### Manually edit the machine.config file  
   
-1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type **notepad \<Windows install path>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config**, and then click **OK**.  
+1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type **notepad \<Windows install path\>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config**, and then click **OK**.  
   
     > [!NOTE]
     >  Make a backup of the machine.config file before you make changes to guard against editing mistakes.  

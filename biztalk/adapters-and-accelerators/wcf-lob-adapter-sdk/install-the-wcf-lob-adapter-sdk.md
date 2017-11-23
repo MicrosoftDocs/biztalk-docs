@@ -99,7 +99,7 @@ Install following components on the system where you install the [!INCLUDE[afpro
   
 2.  Remove the references to the custom adapter binding from machine.config  
   
-    1.  Go to the machine.config file under \<*system drive*>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
+    1.  Go to the machine.config file under \<*system drive*\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
   
     2.  Open the file by using a text editor.  
   

@@ -23,13 +23,13 @@ manager: "anneta"
   
 3.  At a command prompt, access the folder of compiled executable (FormGenerator.exe). For example, if you have built the utility in debug mode, access the **..\bin\debug** folder.  
   
-4.  Type FormGenerator.exe [-b] [-\<No. of Template folder paths>]  
+4.  Type FormGenerator.exe [-b] [-\<No. of Template folder paths\>]  
   
      `<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`. Replace the parameters with the newly-created folder names.  
   
 5.  The above command will also generate the Envelope schema needed for MX message repair.  
   
-6.  Go to output folder \<DestinationFolderPath>. In \<DestinationFolderPath>, open the folder of the InfoPath form template for which you want to generate the form. For example, if you want to generate the MT103 InfoPath form, then open the MT103 folder at the DestinationFolderPath and open the TemplateDS.sln.  
+6.  Go to output folder \<DestinationFolderPath\>. In \<DestinationFolderPath\>, open the folder of the InfoPath form template for which you want to generate the form. For example, if you want to generate the MT103 InfoPath form, then open the MT103 folder at the DestinationFolderPath and open the TemplateDS.sln.  
   
 7.  In the Solution Explorer, double click the **manifest.xsf**. It will open the design file of the InfoPath form which will take some time to get opened.  
   
@@ -46,7 +46,7 @@ manager: "anneta"
   
 12. In the publishing wizard window, select **To a network location** and click **Next**.  
   
-13. In the Form template path and file name textbox, type **http://localhost/sites/BASSite/Templates/\<MessageType>.xsn** and type **\<MessageType>** in the Form Template name textbox and click **Next**.  
+13. In the Form template path and file name textbox, type **http://localhost/sites/BASSite/Templates/\<MessageType\>.xsn** and type **\<MessageType\>** in the Form Template name textbox and click **Next**.  
   
 14. Click **Next**.  
   
@@ -54,13 +54,13 @@ manager: "anneta"
   
 16. In the Internet Explorer, open your SharePoint site **http://localhost/sites/bassite/templates**.  
   
-17. Point to **\<MessageType>**, click the down arrow next to it, and then click **Edit Properties**.  
+17. Point to **\<MessageType\>**, click the down arrow next to it, and then click **Edit Properties**.  
   
-18. In the Templates:\< MessageType> window, in the Namespace box:  
+18. In the Templates:\< MessageType\> window, in the Namespace box:  
   
     -   If you are generating MT InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
   
-    -   If you are generating MX InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName>**  
+    -   If you are generating MX InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName\>**  
   
          This will help in identifying the message instance with the corresponding template.  
   

@@ -30,13 +30,13 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] enables adapte
 3.  Create the Windows user as an external user in the Oracle database. Note that the user name must be in upper case.  
   
     ```  
-    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME>” IDENTIFIED EXTERNALLY;  
+    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME\>” IDENTIFIED EXTERNALLY;  
     ```  
   
 4.  Grant privileges to the user.  
   
     ```  
-    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME>”;  
+    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME\>”;  
     ```  
   
 5.  To enable the newly created user, logging in using Windows Authentication, to access the Oracle database artifacts, you can change the user’s schema to the SCOTT schema. You can add the following SQL command to the logon script that changes the user’s default schema to SCOTT when the user logs on.  

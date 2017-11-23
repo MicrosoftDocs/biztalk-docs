@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SWIFT Send Adapter URI
-The URI for the send adapter is the constructed based responder name (SWIFT://\<Responder Name>). Responder name is a distinguished name defined by SWIFT. It indicates to whom the message needs to be sent. SWIFT uses this value to route the message to the recipient.  
+The URI for the send adapter is the constructed based responder name (SWIFT://\<Responder Name\>). Responder name is a distinguished name defined by SWIFT. It indicates to whom the message needs to be sent. SWIFT uses this value to route the message to the recipient.  
   
 ## See Also  
  [SWIFT Send Adapter Architecture](../../adapters-and-accelerators/fileact-interact/swift-send-adapter-architecture.md)   

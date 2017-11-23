@@ -244,7 +244,7 @@ Oracle RECORD types are used to represent hierarchical information in parameters
  The first request message invokes the GET_ACCOUNTINFO function that returns a nested record type. The response message for invoking the GET_ACCOUNTINFO function is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <GET_ACCOUNTINFOResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
   <GET_ACCOUNTINFOResult>  
     <ACCT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNTINFO">  
@@ -264,7 +264,7 @@ Oracle RECORD types are used to represent hierarchical information in parameters
  The second request message invokes the GET_ACCOUNTADDRESS function that returns a simple record type. The response message for invoking the GET_ACCOUNTADDRESS function is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <GET_ACCOUNTADDRESSResponse mlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
   <GET_ACCOUNTADDRESSResult>  
     <ID xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNTADDRESS">100004</ID>  

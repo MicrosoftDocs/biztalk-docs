@@ -41,7 +41,7 @@ In this step, you create and configure the ports you use to communicate with bus
   
 1.  In Orchestration View, expand **Types**, expand **Port Types**, expand **ContosoSQLReqResponsePortName**, expand **Operation_1**, and then select **Request**.  
   
-2.  In the Properties window, select the **Message Type** property, expand **Schemas** and then click **\<Select from referenced assembly>**.  
+2.  In the Properties window, select the **Message Type** property, expand **Schemas** and then click **\<Select from referenced assembly\>**.  
   
 3.  In the Select Artifact Type dialog box, click **ContosoPriceAndAvailability**.  
   
@@ -49,7 +49,7 @@ In this step, you create and configure the ports you use to communicate with bus
   
 5.  In Orchestration View, under **Operation_1**, select **Response** for the **ContosoSQLReqResponsePortName** port type.  
   
-6.  In the Properties window, select the **Message Type** property, expand **Schemas** and then click \<**Select from referenced assembly>**.  
+6.  In the Properties window, select the **Message Type** property, expand **Schemas** and then click \<**Select from referenced assembly\>**.  
   
 7.  In the **Select Artifact Type** dialog box, click **ContosoPriceAndAvailability**.  
   

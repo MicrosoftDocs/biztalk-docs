@@ -37,7 +37,7 @@ The Server message partners created in SAG must be specified in the SWIFTNet par
   
      subsystem_start:  
   
-     **spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for Interact RT > -AdapterMode Interact"**  
+     **spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for Interact RT \> -AdapterMode Interact"**  
   
      *END  
   

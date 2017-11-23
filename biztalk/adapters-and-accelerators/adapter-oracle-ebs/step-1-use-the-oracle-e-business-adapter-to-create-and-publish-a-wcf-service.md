@@ -28,7 +28,7 @@ manager: "anneta"
   
 -   [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] from the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
   
- For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide. The installation guide is typically installed at \<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+ For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide. The installation guide is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
 > [!NOTE]
 >  You must also run the create_apps_artifacts.sql script provided with the Microsoft Office SharePoint Server sample to create the **MS_SAMPLE_EMPLOYEE** interface table in the **Application Object Library** application. This interface table is used in this tutorial.  
@@ -182,7 +182,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
     ```  
   
     > [!NOTE]
-    >  You must publish the WCF service to a SSL-enabled location. In other words, the value in the **Target Location** box must start with “https://”. Because the user credentials are passed in the HTTP header, the wizard automatically configured the adapter’s binding behavior to use “Transport” as the security mode, which implies SSL encryption. You can of course go back, and edit the web.config file to change the value of the **\<security mode>** parameter, but using SSL is always a better option when you have sensitive information transported in clear text in the HTTP header.  
+    >  You must publish the WCF service to a SSL-enabled location. In other words, the value in the **Target Location** box must start with “https://”. Because the user credentials are passed in the HTTP header, the wizard automatically configured the adapter’s binding behavior to use “Transport” as the security mode, which implies SSL encryption. You can of course go back, and edit the web.config file to change the value of the **\<security mode\>** parameter, but using SSL is always a better option when you have sensitive information transported in clear text in the HTTP header.  
   
 3.  From the **Copy** box, click **All project files**.  
   
@@ -192,7 +192,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
   
     1.  Start the IIS Microsoft Management Console. Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-    2.  Navigate to the node where you published the service. For the **MS_SAMPLE_EMPLOYEE** service, navigate to **Internet Information Services** > **\<Computer Name>** > **Web Sites** > **Default Web Site** > **MS_SAMPLE_EMPLOYEE**.  
+    2.  Navigate to the node where you published the service. For the **MS_SAMPLE_EMPLOYEE** service, navigate to **Internet Information Services** > **\<Computer Name\>** > **Web Sites** > **Default Web Site** > **MS_SAMPLE_EMPLOYEE**.  
   
     3.  On the right pane, right-click the InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.svc file, and then click **Browse**.  
   

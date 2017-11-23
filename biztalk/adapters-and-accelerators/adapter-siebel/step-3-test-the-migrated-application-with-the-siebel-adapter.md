@@ -52,12 +52,12 @@ manager: "anneta"
 3.  The orchestration consumes the request message and sends it to the Siebel system. The response from the Siebel system is received in the schema that conforms with the schema of the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev Siebel adapter. The response from the Siebel system is saved to the other file location defined as part of the orchestration. The response for the preceding request message is:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8"?>  
-    \<ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]" xmlns:exposed="http://schemas.microsoft.com" xmlns:Business_Objects="http://schemas.microsoft.com/Business_Objects">  
-      \<ns0:RowIDList>  
-        \<exposed:String>1-8EWWZ\</exposed:String>  
-      \</ns0:RowIDList>  
-    \</ns0:InsertResponse>  
+    <?xml version="1.0" encoding="utf-8"?>  
+    <ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]" xmlns:exposed="http://schemas.microsoft.com" xmlns:Business_Objects="http://schemas.microsoft.com/Business_Objects">  
+      <ns0:RowIDList>  
+        <exposed:String>1-8EWWZ</exposed:String>  
+      </ns0:RowIDList>  
+    </ns0:InsertResponse>  
     ```  
   
 ## See Also  

@@ -50,18 +50,18 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
  As part of the same BizTalk project, you add another schema file, for example EmployeeDetails.xsd. The schema for EmployeeDetails.xsd resembles the following:  
   
 ```  
-\<?xml version="1.0" encoding="utf-16" ?>   
-\<xs:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns="http://Typed_Polling.EmployeeDetails" elementFormDefault="qualified" targetNamespace="http://Typed_Polling.EmployeeDetails" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
-  \<xs:element name="EmployeeDetails">  
-    \<xs:complexType>  
-      \<xs:sequence>  
-        \<xs:element name="Employee_Info" type="xs:string" />   
-        \<xs:element name="Employee_Profile" type="xs:string" />   
-        \<xs:element name="Employee_Performance" type="xs:string" />   
-      \</xs:sequence>  
-    \</xs:complexType>  
-  \</xs:element>  
-\</xs:schema>  
+<?xml version="1.0" encoding="utf-16" ?>   
+<xs:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns="http://Typed_Polling.EmployeeDetails" elementFormDefault="qualified" targetNamespace="http://Typed_Polling.EmployeeDetails" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+  <xs:element name="EmployeeDetails">  
+    <xs:complexType>  
+      <xs:sequence>  
+        <xs:element name="Employee_Info" type="xs:string" />   
+        <xs:element name="Employee_Profile" type="xs:string" />   
+        <xs:element name="Employee_Performance" type="xs:string" />   
+      </xs:sequence>  
+    </xs:complexType>  
+  </xs:element>  
+</xs:schema>  
 ```  
   
  You also add a BizTalk Mapper to the project to map the elements from the Employee table (received as polling message) to the elements in the EmployeeDetails.xsd schema. As part of the map, you combine one or more elements from the polling message and map it to a single element in the EmployeeDetails schema. You can do so by using the **String Concatenate** functoid.  
@@ -303,7 +303,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
      After the polling statement is executed and the message is received, the polling message gets send to the FILE send port. Here, the outbound map (**MapSchema**)configured on the send port maps the polling message to the EmployeeDetails schema and drops the message to a file location. The message resembles the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <EmployeeDetails xmlns="http://Typed_Polling.EmployeeDetails">  
       <Employee_Info>10751John</Employee_Info>   
       <Employee_Profile>TesterManagesTesting</Employee_Profile>   

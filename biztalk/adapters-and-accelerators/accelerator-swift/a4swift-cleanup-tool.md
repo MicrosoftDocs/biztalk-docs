@@ -64,7 +64,7 @@ The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnon
   
 1.  Prior to running the A4SWIFT cleanup tool, undeploy any project that refers to any of the A4SWIFT default assemblies.  
   
-2.  Open a command prompt and move to \<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools.  
+2.  Open a command prompt and move to \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools.  
   
 3.  Type **A4SWIFTCleanupTool.exe** and then press **ENTER**.  
   

@@ -29,7 +29,7 @@ The following steps explain how to configure the send handler for the Interact a
   
     |**Use this**|**To do this**|  
     |------------------|--------------------|  
-    |**Arguments**|Type the following argument: **SagMessagePartner**\<Interact Client Message Partner created in SAG> **Note:**  The client in the argument is the MessagePartner you configured in SAG.|  
+    |**Arguments**|Type the following argument: **SagMessagePartner**\<Interact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.|  
     |**Crypto Mode**|From the drop-down list, select **Advanced**.|  
     |**LogMessageBody**|From the drop-down list, select `FALSE`. **Note:**  If you set to `TRUE`, it preserves the message body in the tracking database. However, for security reasons, the message body can never be viewed in the BAM portal.|  
     |**LogMessages**|From the drop-down list, select `TRUE`. This enables the message events to be captured and tracked in the BAM portal.|  

@@ -24,7 +24,7 @@ Society for Worldwide Interbank Financial Telecommunication (SWIFT) is an indust
   
  You can access the SWIFT Web site at [http://go.microsoft.com/fwlink/?LinkId=27885](http://go.microsoft.com/fwlink/?LinkId=27885).  
   
- Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides schema and validation support for the SWIFT financial (FIN) messages listed in the [Supported Messages](../../adapters-and-accelerators/accelerator-swift/supported-messages.md) topic, based on the SWIFT Standards Release Guide \<version> (SRG\<version>).  
+ Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides schema and validation support for the SWIFT financial (FIN) messages listed in the [Supported Messages](../../adapters-and-accelerators/accelerator-swift/supported-messages.md) topic, based on the SWIFT Standards Release Guide \<version\> (SRG\<version\>).  
   
  **Message Copies**  
   

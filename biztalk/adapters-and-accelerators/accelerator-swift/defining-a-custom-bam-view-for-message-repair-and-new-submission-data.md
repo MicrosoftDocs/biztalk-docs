@@ -20,7 +20,7 @@ manager: "anneta"
 # Defining a Custom BAM View for Message Repair and New Submission Data
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Setup provides a BAM definition file that defines a business activity and a business view. You can deploy the BAM definition file to use that view, or you can create a custom view that you can add to the BAM definition file.  
   
- The BAM definition file is MrsrActivities.xml in *\<drive>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT\BAMTracking. It defines a Message activity and a RepairView view. For more information about deploying MrsrActivities.xml by using the bm deploy utility, see [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ The BAM definition file is MrsrActivities.xml in *\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT\BAMTracking. It defines a Message activity and a RepairView view. For more information about deploying MrsrActivities.xml by using the bm deploy utility, see [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
   
  Create the custom view in the Business Activity Monitoring View Wizard from the BAM workbook. For more information about creating a custom view, see "Creating a BAM View" in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Information Worker Help.  
   

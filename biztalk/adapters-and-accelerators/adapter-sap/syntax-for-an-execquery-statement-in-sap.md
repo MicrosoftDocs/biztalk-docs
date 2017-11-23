@@ -26,16 +26,16 @@ You can use the SAP GUI to create queries by graphically selecting the tables yo
   
 ```  
 EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='variant']   
-[, @P1='\<value 1>’] [, @P2='\<value 2>'] ... [, @Pn = '<value n>'] [, @P1!='\<value 3>'] [, @P1 > '\<value 4>'] [, @P1 <= '\<value 2>']   
-[, NOT @P1 = '\<value 2>'] [, NOT @P1 != '\<value 2>'] [, NOT @P1 > '\<value 2>']   
-[, @P1 BETWEEN '\<value 1>' AND '\<value 2>'] [, NOT @P1 BETWEEN '\<value 1>' AND '<value2>’]  
+[, @P1='<value 1>’] [, @P2='<value 2>'] ... [, @Pn = '<value n>'] [, @P1!='<value 3>'] [, @P1 > '<value 4>'] [, @P1 <= '<value 2>']   
+[, NOT @P1 = '<value 2>'] [, NOT @P1 != '<value 2>'] [, NOT @P1 > '<value 2>']   
+[, @P1 BETWEEN '<value 1>' AND '<value 2>'] [, NOT @P1 BETWEEN '<value 1>' AND '<value2>’]  
 [OPTION 'USEORIGINALCOLUMNNAMES']  
   
 ```  
   
  where:  
   
--   **\<QueryName>** is the name of the query defined in the SAP system.  
+-   **\<QueryName\>** is the name of the query defined in the SAP system.  
   
 -   **USERGROUP** refers to the user group in which the query is defined. This is a mandatory parameter.  
   
@@ -75,7 +75,7 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
     EXECQUERY xyz uSERgROUP=’mygrp’, NOT @P1= 'somevalue'  
     ```  
   
--   The operators supported by the EXECQUERY are >, \<, >=, <=, !=, NOT, and BETWEEN.  
+-   The operators supported by the EXECQUERY are >, <, >=, <=, !=, NOT, and BETWEEN.  
   
 -   Wildcard characters are not supported by the EXECQUERY operation. For example, the following statement gives the expected output:  
   

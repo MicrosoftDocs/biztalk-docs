@@ -40,11 +40,11 @@ To invoke RFCs, tRFCs, or BAPIs on an SAP system, or to send IDOCS to an SAP sys
   
  Like any WCF binding, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses a factory pattern to provide channels to application code. You use a **Microsoft.Adapters.SAPBinding** object to create instances of:  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
   
--   **System.ServiceModel.IChannelListener\<IReplyChannel>** to provide **IReplyChannel** channels you can use to receive request-response operations from the adapter.  
+-   **System.ServiceModel.IChannelListener\<IReplyChannel\>** to provide **IReplyChannel** channels you can use to receive request-response operations from the adapter.  
   
 ## Creating Messages for the SAP Adapter in the WCF Channel Model  
  In WCF the **System.ServiceModel.Channels.Message** class provides an in memory representation of a SOAP message. You create a **Message** instance by invoking the static **Message.Create** method.  
@@ -67,7 +67,7 @@ To invoke RFCs, tRFCs, or BAPIs on an SAP system, or to send IDOCS to an SAP sys
 //create an XML message to send to the SAP system  
 //We are invoking the SD_RFC_CUSTOMER_GET RFC.  
 //The XML below specifies that we want to search for customers with names starting with "AB"  
-string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+string inputXml = "<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
 //create an XML reader from the input XML  
 XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -92,7 +92,7 @@ Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Micro
 -   Consume an inbound message using an **XmlReader**. You get the reader by calling the **GetReaderAtBodyContents** method on the inbound **Message**.  
   
 ### Node-value Streaming  
- Because the SendIdoc and ReceiveIdoc operations contain the IDOC data in a string under a single XML node (\<idocData>), the adapter supports node-value streaming on these operations.  
+ Because the SendIdoc and ReceiveIdoc operations contain the IDOC data in a string under a single XML node (\<idocData\>), the adapter supports node-value streaming on these operations.  
   
  To perform node-value streaming for these operations, you can:  
   

@@ -37,7 +37,7 @@ The usage rules for Amount fields in message types MT102, MT103, and MT103PLUS a
   
 1.  Open a text editor, such as Notepad.  
   
-2.  In the editor, browse to the location of the message validation policy in which you want to set an offset percentage. For example, you can find the message validation policy for the MT103 message type, MT103_Validation_Policy.xml, in *\<drive>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Category 1\MT103. Open the validation policy.  
+2.  In the editor, browse to the location of the message validation policy in which you want to set an offset percentage. For example, you can find the message validation policy for the MT103 message type, MT103_Validation_Policy.xml, in *\<drive\>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Category 1\MT103. Open the validation policy.  
   
 3.  In the policy, search on IsValidSettlementAmount for MT102 and MT102PLUS messages or IsValidInterbankSettledAmount for MT103 messages.  
   

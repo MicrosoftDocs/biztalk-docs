@@ -58,7 +58,7 @@ Internally, the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] sends ID
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]  
 public partial class IdocClient : System.ServiceModel.ClientBase<Idoc>, Idoc {  
   
-    public void SendIdoc(string idocData, ref System.Nullable\<System.Guid> guid) {…}  
+    public void SendIdoc(string idocData, ref System.Nullable\<System.Guid\> guid) {…}  
 }  
 ```  
   
@@ -185,7 +185,7 @@ namespace SapIdocStringClientSM
             try  
             {  
                 // Variable for the GUID  
-                System.Nullable\<System.Guid> adapterTxGuid;  
+                System.Nullable<System.Guid> adapterTxGuid;  
                 // string to hold the Idoc data  
                 string idocData;  
                 // string to hold the SAP transaction ID (TID)  

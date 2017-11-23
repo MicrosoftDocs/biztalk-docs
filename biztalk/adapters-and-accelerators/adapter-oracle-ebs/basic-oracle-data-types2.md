@@ -53,7 +53,7 @@ This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../include
 |Binary Double**|xsd:double if prec <=15<br /><br /> xsd:string if prec > 15|Double<br /><br /> String|-|  
 |Binary Integer**|xsd:integer|Int32||  
 |Boolean|xsd:boolean|Nullable boolean||  
-|XMLTYPE|xsd:string|String|Supported for top level procedure parameters.<br /><br /> Reserved XML characters like ‘**\<**’, ‘**>**’ must be replaced with their entity representation **(&lt;, &gt;)** when developing applications in BizTalk, and when using WCF channel Model. This is not required in the case of WCF Service Model.|  
+|XMLTYPE|xsd:string|String|Supported for top level procedure parameters.<br /><br /> Reserved XML characters like ‘**\<**’, ‘**\>**’ must be replaced with their entity representation **(&lt;, &gt;)** when developing applications in BizTalk, and when using WCF channel Model. This is not required in the case of WCF Service Model.|  
   
  \*The way in which these Oracle data types are surfaced is affected by the **EnableSafeTyping** binding property.  
   

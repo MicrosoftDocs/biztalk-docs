@@ -27,11 +27,11 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
   
 -   **rfc_name** specifies the name of the function call to execute.  
   
--   **<argument_element>** ::= @param_name = [0,1] \<const> {[ INPUT &#124; OUTPUT ]}[0,1]  
+-   **<argument_element>** ::= @param_name = [0,1] \<const\> {[ INPUT &#124; OUTPUT ]}[0,1]  
   
     -   **param_name** specifies the parameter name defined in the function interface.  
   
-    -   **\<const>** ::= integer &#124; real &#124; string &#124; ? &#124; NULL &#124; xml_element  
+    -   **\<const\>** ::= integer &#124; real &#124; string &#124; ? &#124; NULL &#124; xml_element  
   
 -   **OPTION**  provides option on how you want to present the data. The available options are:  
   
@@ -56,7 +56,7 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
     <FIELDNAME_2 xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">value</FIELDNAME_2>  
     ...  
     ...  
-\</ PARAM_NAME>  
+</ PARAM_NAME>  
 ```  
   
  The xml_element for table resembles the following:  
@@ -71,7 +71,7 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
     <STRUCT_NAME/>  
     ...  
     ...  
-\</ PARAM_NAME>  
+</ PARAM_NAME>  
 ```  
   
  For example, the XML element for a structure type resembles the following:  

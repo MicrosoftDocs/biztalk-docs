@@ -54,7 +54,7 @@ This section contains useful information that may help you avoid errors with [!I
  When the message-repair orchestration routes to the MessageBox an unparsed message that has been fixed, it will set the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_MRSRDepartment property to an empty string and promote it. A send port will not be able to subscribe on this property.  
   
 #### Cannot save a department if the SSO service has been stopped  
- If you try to add a department when the SSO service is stopped, you will receive an error indicating that the Primary SSO server \<machinename> failed. Check that SSO is configured and that the SSO service is running on that server.  
+ If you try to add a department when the SSO service is stopped, you will receive an error indicating that the Primary SSO server \<machinename\> failed. Check that SSO is configured and that the SSO service is running on that server.  
   
 #### A department name must not contain the character "~"  
  A department name that contains the character "~" will cause issues with the A4SWIFT database.  

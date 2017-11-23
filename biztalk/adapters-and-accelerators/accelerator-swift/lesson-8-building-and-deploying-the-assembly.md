@@ -22,7 +22,7 @@ manager: "anneta"
 # Lesson 8: Building and Deploying the Assembly
 In this lesson, you build and deploy the pipeline project to generate an assembly that contains the pipelines you created in the previous steps. This lesson ensures there are no compilation errors in the work you have created so far.  
   
- You compile the project into an assembly (DLL) file and save it in the \<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\bin\Development folder.  
+ You compile the project into an assembly (DLL) file and save it in the \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\bin\Development folder.  
   
 ### To build and deploy the project  
   
@@ -31,7 +31,7 @@ In this lesson, you build and deploy the pipeline project to generate an assembl
     > [!NOTE]
     >  During the compilation process, you should not see any failures. If you do, check the source of the error, correct it and then re-build the project. You may, however, see a number of warnings related to the A4SWIFT pipeline components. You can correct the condition leading to these warnings by setting the **Copy Local** properties of the pipeline component references to **False**. For more information, see "Building a pipeline project may result in warnings" in [Miscellaneous Known Issues](http://msdn.microsoft.com/library/bc94c781-2a56-4f80-8ecb-e654de2f6ed6).  
   
-2.  To verify the creation of the SWIFTPipelines.dll file, using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to \<*drive*:>\labs\SWIFTProject\SWIFTPipelines\bin\Development, and ensure that the file exists in this folder.  
+2.  To verify the creation of the SWIFTPipelines.dll file, using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to \<*drive*:\>\labs\SWIFTProject\SWIFTPipelines\bin\Development, and ensure that the file exists in this folder.  
   
 3.  In Solution Explorer, right-click **SWIFTPipelines**, and then click **Deploy**.  
   

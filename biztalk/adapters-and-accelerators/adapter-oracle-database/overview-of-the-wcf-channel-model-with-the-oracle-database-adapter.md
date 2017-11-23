@@ -42,11 +42,11 @@ To invoke operations on the [!INCLUDE[adapteroracle](../../includes/adapteroracl
   
  Like any WCF binding, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses a factory pattern to provide channels to application code. You use a **Microsoft.Adapters.OracleDBBinding** object to create instances of:  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
   
--   **System.ServiceModel.IChannelListener\<IInputChannel>** to provide **IInputChannel** channels you can use to receive inbound messages (e.g. POLLINGSTMT operation) from the adapter.  
+-   **System.ServiceModel.IChannelListener\<IInputChannel\>** to provide **IInputChannel** channels you can use to receive inbound messages (e.g. POLLINGSTMT operation) from the adapter.  
   
 ### Creating Messages for the Oracle Database Adapter in the WCF Channel Model  
  In WCF the **System.ServiceModel.Channels.Message** class provides an in memory representation of a SOAP message. You create a **Message** instance by invoking the static **Message.Create** method.  
@@ -58,7 +58,7 @@ To invoke operations on the [!INCLUDE[adapteroracle](../../includes/adapteroracl
 -   The message body contains the parameter data for the operation. The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] for the requested operation. The following message body specifies a Select operation on the SCOTT.EMP table (SELECT * FROM EMP).  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Select xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP">  
         <COLUMN_NAMES>*</COLUMN_NAMES>  
     </Select>  

@@ -36,7 +36,7 @@ manager: "anneta"
   
 ### To customize the BIC Master Policy  
   
-1.  Open an XML editor (such as Notepad), and browse to **<*drive*Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies**.  
+1.  Open an XML editor (such as Notepad), and browse to **<*drive*Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies**.  
   
 2.  Open **BIC_Master_Policy.xml**. Replace the following existing strings with new values.  
   
@@ -62,7 +62,7 @@ manager: "anneta"
   
 7.  On the Policy Store page, in **SQL Server Name**, select the [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] that contains your BizTalk databases. In **Configuration Database on selected server**, select **BizTalkRuleEngineDb**, and then click **Next**.  
   
-8.  In the Import Rules Engine Policy/Vocabulary file page, browse to **<*drive*\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies**, click **BIC_Master_Policy.xml**, click **Open**, and then click **Next**.  
+8.  In the Import Rules Engine Policy/Vocabulary file page, browse to **<*drive*\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies**, click **BIC_Master_Policy.xml**, click **Open**, and then click **Next**.  
   
 9. On the Ready page, verify the data, and then click **Next**.  
   

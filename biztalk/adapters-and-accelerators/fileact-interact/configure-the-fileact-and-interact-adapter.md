@@ -88,7 +88,7 @@ Next, enter the server message partners in the SWIFTNet paramfile to enable the 
   
 ## Step 4: Configure the SWIFTNet param file
 
-To enable the FileAct and InterAct receive adapters to initialize with the values, the Server message partners created in SAG must be entered in the SWIFTNet paramfile. The paramfile is typically located in `c:\SWIFTAlliance\RA\<remote access instance name>\cfg\paramfile`. After you configure the paramfile, start **SnlReceiver.exe**.  
+To enable the FileAct and InterAct receive adapters to initialize with the values, the Server message partners created in SAG must be entered in the SWIFTNet paramfile. The paramfile is typically located in `c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`. After you configure the paramfile, start **SnlReceiver.exe**.  
   
 1. Open the **SWIFTNet paramfile**. In the location marked with "***" add the following. Note that the `AdapterType` value can be `Interact` or `Fileact`.  
   
