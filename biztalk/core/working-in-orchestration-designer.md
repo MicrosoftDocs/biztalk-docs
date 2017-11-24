@@ -59,7 +59,7 @@ After you have started a BizTalk project, you can create new orchestrations and 
   
 ### To save an orchestration  
   
--   On the **File** menu, click **Save \<orchestration name>**.  
+-   On the **File** menu, click **Save \<orchestration name\>**.  
   
     > [!NOTE]
     >  Orchestration files are saved as UTF-8.  Schemas, maps, and pipelines are saved as UTF-16.  

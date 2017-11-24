@@ -27,7 +27,7 @@ Administrators can modify certain elements of the BAM alert framework. This topi
 >  When creating alerts you should be aware that time data is stored in a Local Time format on the OLAP, Star Schema, and Notification Services databases. It is also assumed that all three databases are in the same time zone. On the Primary Import database, information is stored in the UTC time format and can be in the same or different time zone.  
   
 ## Changing the ADF configuration  
- When deploying a view the BAM Management utility uses the CommandTimeout value specified in the bm.exe.config file to populate Notification Services application definition file \<EventRule>\\<ActionTimeout\> element.  
+ When deploying a view the BAM Management utility uses the CommandTimeout value specified in the bm.exe.config file to populate Notification Services application definition file \<EventRule\>\\<ActionTimeout\> element.  
   
  Changing the value of CommandTimeout in bm.exe.config does not change the CommandTimeout value for views deployed prior to the change.  
   
@@ -39,15 +39,15 @@ Administrators can modify certain elements of the BAM alert framework. This topi
   
 1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to the tracking folder by typing at the command prompt **cd “C:\Program Files\Microsoft BizTalk Server \<version>\Tracking”** or **cd “C:\Program Files (x86)\Microsoft BizTalk Server \<version>\Tracking”** on a 64 bit computer. Press **ENTER**.  
+2.  Navigate to the tracking folder by typing at the command prompt **cd “C:\Program Files\Microsoft BizTalk Server \<version\>\Tracking”** or **cd “C:\Program Files (x86)\Microsoft BizTalk Server \<version\>\Tracking”** on a 64 bit computer. Press **ENTER**.  
   
-3.  Retrieve the ADF file. Type **cscript ProcessBamNSFiles.vbs -Get \<ConfigFilePath> \<ADFFilePath> \< PID Server> \< PID database >**. Replacing the ConfigFilePath, ADFFilePath, PID Server, and PID database with the appropriate values for your installation.  
+3.  Retrieve the ADF file. Type **cscript ProcessBamNSFiles.vbs -Get \<ConfigFilePath\> \<ADFFilePath\> \< PID Server\> \< PID database \>**. Replacing the ConfigFilePath, ADFFilePath, PID Server, and PID database with the appropriate values for your installation.  
   
 4.  Press **ENTER**.  
   
-5.  Open the ADF file in an editor and search for \<ActionTimeout>, update with desired value & please note that this value is an XML duration.  
+5.  Open the ADF file in an editor and search for \<ActionTimeout\>, update with desired value & please note that this value is an XML duration.  
   
-6.  Save the ADF file. Type **cscript ProcessBamNSFiles.vbs -Update \<ConfigFilePath> \<ADFFilePath> \< PID Server> \< PID database >**.  
+6.  Save the ADF file. Type **cscript ProcessBamNSFiles.vbs -Update \<ConfigFilePath\> \<ADFFilePath\> \< PID Server\> \< PID database \>**.  
   
 7.  Press **ENTER**.  
   
@@ -85,6 +85,6 @@ Administrators can modify certain elements of the BAM alert framework. This topi
   
  The file drop location is changed by modifying the following line of the BAM configuration file and using the BAM manangement utility update-config command.  
   
- \<Property Name="FileDropUNC">\\\\<computer name\>\alerts\</Property>  
+ \<Property Name="FileDropUNC"\>\\\\<computer name\>\alerts\</Property\>  
   
  For more information on the BAM Management utility, see [BAM Management Utility](../core/bam-management-utility.md).

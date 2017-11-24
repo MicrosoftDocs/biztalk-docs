@@ -97,11 +97,11 @@ manager: "anneta"
   
 10. From Facts Explorer, drag the **Set End Point Outbound Transport Location** definition to **Actions**.  
   
-11. Click **\<empty string>** and then type **C:\HowTos\Out\West%MessageID%.xml**.  
+11. Click **\<empty string\>** and then type **C:\HowTos\Out\West%MessageID%.xml**.  
   
 12. From Facts Explorer, drag the **Set End Point Outbound Transport Type** definition to **Actions**.  
   
-13. In Facts Explorer, expand **ESB.TransportTypes**, expand **Version 1.0**, and then drag the **Adaptor Providers** definition to **\<empty string>**.  
+13. In Facts Explorer, expand **ESB.TransportTypes**, expand **Version 1.0**, and then drag the **Adaptor Providers** definition to **\<empty string\>**.  
   
 14. In the **Actions** pane, expand the **Adaptor Providers** drop-down list, and then click **FILE**.  
   
@@ -121,7 +121,7 @@ manager: "anneta"
   
 7.  In the **Actions** section, right-click **C:\HowTos\Out\West%MessageID%.xml**, and then click **Reset argument**.  
   
-8.  Click **\<empty string>**, and then type **C:\HowTos\Out\East%MessageID%.xml**.  
+8.  Click **\<empty string\>**, and then type **C:\HowTos\Out\East%MessageID%.xml**.  
   
 #### To add a routing rule for unknown customers  
   
@@ -147,11 +147,11 @@ manager: "anneta"
   
 11. From Facts Explorer, drag the Set End Point Outbound Transport Location definition to Actions.  
   
-12. Click \<empty string>, and then type C:\HowTos\Out\CustomerUnknown%MessageID%.xml.  
+12. Click \<empty string\>, and then type C:\HowTos\Out\CustomerUnknown%MessageID%.xml.  
   
 13. From Facts Explorer, drag the Set End Point Outbound Transport Type definition to Actions.  
   
-14. In Facts Explorer, expand ESB.TransportTypes, expand Version 1.0, and then drag the Adaptor Providers definition to \<empty string>.  
+14. In Facts Explorer, expand ESB.TransportTypes, expand Version 1.0, and then drag the Adaptor Providers definition to \<empty string\>.  
   
 15. In the Actions pane, expand the Adaptor Providers drop-down list, and then click FILE.  
   

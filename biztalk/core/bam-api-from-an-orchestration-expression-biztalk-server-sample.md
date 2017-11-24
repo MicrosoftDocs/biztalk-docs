@@ -29,7 +29,7 @@ This sample demonstrates how to:
 -   Create a relationship between BAM data that is tracked by using a tracking profile, and BAM data tracked by using the BAM API.  
   
 ## Where to Find This Sample  
- You can find this sample at *\<Samples Path>*\BAM\BamFromExpression.  
+ You can find this sample at *\<Samples Path\>*\BAM\BamFromExpression.  
   
  The following table lists the files in this sample and describes their purpose.  
   
@@ -52,7 +52,7 @@ This sample demonstrates how to:
   
 #### To create the tracking profile  
   
-1.  Open a command prompt and run *\<Samples Path>*\BAM\BAMFromExpression\Setup.bat. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator. Setup.bat initializes the BAM infrastructure for this sample, and deploys the BAM activity.  
+1.  Open a command prompt and run *\<Samples Path\>*\BAM\BAMFromExpression\Setup.bat. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator. Setup.bat initializes the BAM infrastructure for this sample, and deploys the BAM activity.  
   
 2.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Tracking Profile Editor**. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], right-click **Tracking Profile Editor** and then click **Run as administrator**.  
   
@@ -68,7 +68,7 @@ This sample demonstrates how to:
   
 8.  Right-click the **Receive_1** shape, and then click **Message Payload Schema**.  
   
-9. Expand **\<Schema>**, expand **PurchaseOrder**, expand **From**, and then drag **PoID** in the right pane to **ActivityID** in the left pane.  
+9. Expand **\<Schema\>**, expand **PurchaseOrder**, expand **From**, and then drag **PoID** in the right pane to **ActivityID** in the left pane.  
   
 10. Drag the following elements from the right pane, and drop them onto the named nodes in the left pane:  
   
@@ -86,7 +86,7 @@ This sample demonstrates how to:
   
 13. Drag the **Send_1** shape in the right pane to **Send** in the left pane.  
   
-14. Save the tracking profile to *\<Samples Path>*\BAM\BamFromExpression\ BamFromExpression.btt.  
+14. Save the tracking profile to *\<Samples Path\>*\BAM\BamFromExpression\ BamFromExpression.btt.  
   
 15. On the **Tools** menu, click **Apply Tracking Profile**.  
   
@@ -96,9 +96,9 @@ This sample demonstrates how to:
   
 #### To run this sample  
   
--   Copy the file *\<Samples Path>*\BamFromExpression\InputMessage.xml to *\<Samples Path>*\BamFromExpression\Input.  
+-   Copy the file *\<Samples Path\>*\BamFromExpression\InputMessage.xml to *\<Samples Path\>*\BamFromExpression\Input.  
   
-     In about 10 seconds the output message will appear in *\<Samples Path>*\BamFromExpression\Output.  
+     In about 10 seconds the output message will appear in *\<Samples Path\>*\BamFromExpression\Output.  
   
 #### To view the BAM data  
   
@@ -120,9 +120,9 @@ This sample demonstrates how to:
   
 #### To re-run the sample  
   
-1.  Open a command prompt and run *\<Samples Path>*\BAM\BamFromExpression\Cleanup.bat to remove the tracking profile and other BAM infrastructure. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator.  
+1.  Open a command prompt and run *\<Samples Path\>*\BAM\BamFromExpression\Cleanup.bat to remove the tracking profile and other BAM infrastructure. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator.  
   
-2.  Run *\<Samples Path>*\BAM\BamFromExpression\Setup.bat to compile the sample and deploy it.  
+2.  Run *\<Samples Path\>*\BAM\BamFromExpression\Setup.bat to compile the sample and deploy it.  
   
 ## See Also  
  [Business Activity Monitoring (BizTalk Server Samples Folder)](../core/business-activity-monitoring-biztalk-server-samples-folder.md)   

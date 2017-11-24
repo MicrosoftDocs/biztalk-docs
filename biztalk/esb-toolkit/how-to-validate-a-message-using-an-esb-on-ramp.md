@@ -53,7 +53,7 @@ manager: "anneta"
   
 3.  In Notepad, open Invalid.xml.  
   
-4.  Change **\<ns0:requestType>10\</ns0:requestType> to \<ns0:requestType>TEN\</ns0:requestType>**.  
+4.  Change **\<ns0:requestType\>10\</ns0:requestType\> to \<ns0:requestType\>TEN\</ns0:requestType\>**.  
   
 5.  Save Invalid.xml as UTF-8, and then close Notepad.  
   

@@ -49,13 +49,13 @@ The sample Itinerary Test Client application builds a set of SOAP headers that c
 ```  
   
 > [!NOTE]
->  The actual content of each **\<Resolvers>** element does not contain the white space characters used to wrap the lines in the preceding listing.  
+>  The actual content of each **\<Resolvers\>** element does not contain the white space characters used to wrap the lines in the preceding listing.  
   
  The following are the three steps defined in the itinerary preceding configuration:  
   
 1.  Execute the Microsoft.Practices.ESB.Services.Transform orchestration to transform the message with the ResolverMap policy using BizTalk Business Rules Engine (BRE).  
   
-2.  Execute the Microsoft.Practices.ESB.Services.Routing orchestration to route the transformed message to multiple locations using the routing Microsoft.Practices.ESB.Services.Routing1. The **\<ResolverGroups>** section contains a **\<Resolvers>** element with this identifier, which defines the connection strings.  
+2.  Execute the Microsoft.Practices.ESB.Services.Routing orchestration to route the transformed message to multiple locations using the routing Microsoft.Practices.ESB.Services.Routing1. The **\<ResolverGroups\>** section contains a **\<Resolvers\>** element with this identifier, which defines the connection strings.  
   
 3.  Execute the ProcessAndRespond orchestration provided with this sample. The implementation of this orchestration sends as the response a copy of the request message back to the Itinerary Test Client.  
   

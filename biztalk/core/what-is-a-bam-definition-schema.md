@@ -39,7 +39,7 @@ The BAM definition schema defines the structure of the observation model created
   
  You can create an XML file containing the BAM definitions (instances of this schema) with any text editor or by using BAM Add-in for Excel to create a worksheet that can be exported into an XML file by using the BAM add-in export to XML feature .  
   
- Once you define the BAM activities and views, you do not have to manually export the XML file, since the BAM Management utility (bm.exe) can read this spreadsheet and get the XML from it to deploy your infrastructure automatically. The result is another copy of the spreadsheet named \<your workbook name>_Livedata.xls. You can use this new spreadsheet to connect to your live data source and view the aggregations in PivotTable reports.  
+ Once you define the BAM activities and views, you do not have to manually export the XML file, since the BAM Management utility (bm.exe) can read this spreadsheet and get the XML from it to deploy your infrastructure automatically. The result is another copy of the spreadsheet named \<your workbook name\>_Livedata.xls. You can use this new spreadsheet to connect to your live data source and view the aggregations in PivotTable reports.  
   
 > [!NOTE]
 >  If you manually export your XML file through the BAM menu item at the top of the spreadsheet and use the BAM Management utility to deploy the exported XML file and not the Microsoft Excel file, then you cannot view your live data using the Office tools.  

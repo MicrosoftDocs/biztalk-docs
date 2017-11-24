@@ -128,9 +128,9 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
     |Property|Value|Explanation|  
     |--------------|-----------|-----------------|  
-    |Application Name|\<Name>|Name of the BizTalk application to which to deploy the assemblies in this project. If the application already exists, the assemblies will be added to it when you deploy the project. If the application does not exist, the application will be created. If this field is blank, the assemblies will be deployed to the default BizTalk application in the current group, "BizTalk Application 1" by default. Names that include spaces must be enclosed by double quotation marks (").|  
-    |Configuration database|\<BizTalk Management database name>|Name of the BizTalk Management database for the group, BizTalkMgmtDb by default.|  
-    |Server|\<Server name>|Name of the SQL Server instance that hosts the BizTalk Management database on the local computer. In a single-computer installation, this is usually the name of the local computer. **Note:**  If you move this BizTalk project to a different computer, you will need to modify the Server property to reflect the new computer name before you will be able to deploy the assembly.|  
+    |Application Name|\<Name\>|Name of the BizTalk application to which to deploy the assemblies in this project. If the application already exists, the assemblies will be added to it when you deploy the project. If the application does not exist, the application will be created. If this field is blank, the assemblies will be deployed to the default BizTalk application in the current group, "BizTalk Application 1" by default. Names that include spaces must be enclosed by double quotation marks (").|  
+    |Configuration database|\<BizTalk Management database name\>|Name of the BizTalk Management database for the group, BizTalkMgmtDb by default.|  
+    |Server|\<Server name\>|Name of the SQL Server instance that hosts the BizTalk Management database on the local computer. In a single-computer installation, this is usually the name of the local computer. **Note:**  If you move this BizTalk project to a different computer, you will need to modify the Server property to reflect the new computer name before you will be able to deploy the assembly.|  
     |Redeploy|True or False|Setting this to True (the default) enables you to redeploy the BizTalk assemblies without changing the version number.|  
     |Install to Global Assembly Cache|True or False|Setting this to True (the default) installs the assemblies to the global assembly cache (GAC) on the local computer when you deploy the assembly.|  
     |Restart Host instances|True or False|Setting this to True automatically restarts all host instances running on the local computer when the assembly is redeployed. If set to False (the default), you must manually restart the host instances when you redeploy an assembly. **Note:**  If you are redeploying assemblies from the solution level, host instances will be restarted once for each project that has this option set to True. This may result in multiple restarts. If you plan to redeploy from the solution level, you may want to set this property to True on only one project in the solution to avoid multiple host instance restarts. This should be set on the last project that will be redeployed in the solution. In addition, if a host instance is stopped when you perform the redeploy, it will not be started.|  
@@ -150,7 +150,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      Example: **sn -k ErrorHandling.snk**  
   
-     A confirmation message, **Key pair written to \<***file_name***>.snk**`,` displays on the command line.  
+     A confirmation message, **Key pair written to \<***file_name***\>.snk**`,` displays on the command line.  
   
  Next you need to associate each project in the solution with the key file.  
   
@@ -162,7 +162,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 3.  In the right pane, check the **Sign the assembly** box.  
   
-4.  Click the drop-down box under **Choose a strong name key file**, click **\<Browse…>**, and then browse to the key file.  
+4.  Click the drop-down box under **Choose a strong name key file**, click **\<Browse…\>**, and then browse to the key file.  
   
 5.  Click the key file and click **Open**.  
   
@@ -320,7 +320,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      ![Add references to an application](../core/media/appreferences.gif "AppReferences")  
   
-6.  On the **Application Target Environment Settings** page, confirm that **\<Default>** is selected and click **Next**.  
+6.  On the **Application Target Environment Settings** page, confirm that **\<Default\>** is selected and click **Next**.  
   
 7.  On the **Import Summary** page, confirm that the summary information is correct, and then click **Import**.  
   

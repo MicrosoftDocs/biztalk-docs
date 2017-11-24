@@ -50,6 +50,6 @@ After a resolver executes, as described in the previous sections, the dynamic re
   
 1.  Create an assembly that derives from the **BaseAdapterProvider** base class and contains a **SetEndPoint** method that sets the endpoint context properties of the message.  
   
-2.  Register the adapter provider by adding it to Esb.config configuration files using an **\<adapterProvider>** element with a name for the adapter as the **name** attribute, the fully qualified name of the class as the **type** attribute, the moniker as the **moniker** attribute (multiple values should be separated by a comma), and optionally the assembly of the actual adapter as the **adapterAssembly** attribute.  
+2.  Register the adapter provider by adding it to Esb.config configuration files using an **\<adapterProvider\>** element with a name for the adapter as the **name** attribute, the fully qualified name of the class as the **type** attribute, the moniker as the **moniker** attribute (multiple values should be separated by a comma), and optionally the assembly of the actual adapter as the **adapterAssembly** attribute.  
   
 3.  Register the new assembly in the global assembly cache.

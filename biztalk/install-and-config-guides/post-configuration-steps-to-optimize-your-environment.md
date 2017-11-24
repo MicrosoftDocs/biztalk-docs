@@ -50,7 +50,7 @@ BizTalk Server does not include any job to delete backup files. As a result, how
 
     BEGIN
 	set nocount on
-	IF @DaysToKeep IS NULL OR @DaysToKeep \<= 1
+	IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
 	RETURN
 	/*
 	Only delete full sets

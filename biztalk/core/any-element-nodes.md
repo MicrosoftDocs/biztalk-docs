@@ -18,7 +18,7 @@ manager: "anneta"
 In BizTalk Editor, you can use an **Any Element** node to indicate a location within an instance message where unknown elements may appear. This accommodates situations in which you know that some element might appear at a particular location within an instance message, but you do not know the name of the element, or how complicated it might be. If you place an **Any Element** node at the appropriate location within the schema, BizTalk can process such unknown portions of a message. The only requirement is that the corresponding XML is well-formed.  
   
 > [!NOTE]
->  In BizTalk Editor, the **Any Element** node is represented with the string \<Any> in the schema tree view.  
+>  In BizTalk Editor, the **Any Element** node is represented with the string \<Any\> in the schema tree view.  
   
 > [!NOTE]
 >  You can control the degree to which the unknown portion of the message is validated as well-formed XML by using the **Process Contents** property. In many cases you may need to set the **Process Contents** property to **Skip** for the contents of an instance message at the location of the **Any Element** node to be processed. Retaining the default value of **Strict** for the **Process Contents** property will prevent instance message validation from passing.  

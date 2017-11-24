@@ -89,7 +89,7 @@ Load tests run multiple instances of one or more unit tests so that you can meas
   
 12. Click **Finish** to close the New Load Test Wizard.  
   
-13. Click the **File** menu and select **Save \<Load Test Name>.loadtest As**.  
+13. Click the **File** menu and select **Save \<Load Test Name\>.loadtest As**.  
   
     > [!NOTE]  
     >  In this example, <Load Test Name> will be the name assigned to the load test file by Visual Studio 2010, typically loadtestx.loadtest, unless the name of the file has already been manually changed.  
@@ -124,7 +124,7 @@ Load tests run multiple instances of one or more unit tests so that you can meas
     |Performance Category|Performance Counter|  
     |--------------------------|-------------------------|  
     |Processor|% Processor Time for the _Total counter instance.|  
-    |BizTalk:Message Box: General Counters|Spool Size for the *\<BizTalk MessageBox database name>*:*\<SQL Server instance name>* counter instance. **Note:**  *\<BizTalk MessageBox database name>* and *\<SQL Server instance name>* are just placeholders for the actual names of the BizTalk MessageBox database and the SQL Server instance that houses the BizTalk MessageBox database. These placeholders should be replaced with the actual names of the BizTalk MessageBox database and associated SQL Server instance.|  
+    |BizTalk:Message Box: General Counters|Spool Size for the *\<BizTalk MessageBox database name\>*:*\<SQL Server instance name\>* counter instance. **Note:**  *\<BizTalk MessageBox database name\>* and *\<SQL Server instance name\>* are just placeholders for the actual names of the BizTalk MessageBox database and the SQL Server instance that houses the BizTalk MessageBox database. These placeholders should be replaced with the actual names of the BizTalk MessageBox database and associated SQL Server instance.|  
     |BizTalk:Messaging|Documents received/Sec for the receive host counter instance.<br /><br /> Documents processed/Sec for the transmit host counter instance.|  
     |BizTalk:Message Agent|Message delivery incoming rate for the document receive host.|  
     |BizTalk:Message Agent|Message publishing outgoing rate for the document transmit host.|  

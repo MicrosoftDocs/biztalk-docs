@@ -124,7 +124,7 @@ Before generating schemas, you need to create a test file.
   
      When you are satisfied, click **Finish** to complete the wizard.  
   
-10. Click the **\<Schema>** node in the Header schema pane. In the Properties pane, change **Element FormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
+10. Click the **\<Schema\>** node in the Header schema pane. In the Properties pane, change **Element FormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
   
 ##### Use the Flat File Schema Wizard to create the trailer schema  
   
@@ -161,7 +161,7 @@ Before generating schemas, you need to create a test file.
   
      When you are satisfied, click **Finish** to complete the wizard.  
   
-10. Click the **\<Schema>** node in the Trailer schema pane. In the Properties pane, change **elementFormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
+10. Click the **\<Schema\>** node in the Trailer schema pane. In the Properties pane, change **elementFormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
   
 ##### Use the Flat File Schema Wizard to create the body schema  
   
@@ -212,9 +212,9 @@ Before generating schemas, you need to create a test file.
   
      If you have made any mistakes, click **Back** and make the necessary corrections. When you are satisfied, click **Finish** to complete the wizard.  
   
-15. Click the **\<Schema>** node in the Body schema pane. In the Properties pane, change **Element FormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
+15. Click the **\<Schema\>** node in the Body schema pane. In the Properties pane, change **Element FormDefault** to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
   
-16. Click the **\<Error>** node on the Body schema pane. In the Properties pane, change **Max Occurs** to **1**. This causes the Flat File Disassembler to split each error into its own message.  
+16. Click the **\<Error\>** node on the Body schema pane. In the Properties pane, change **Max Occurs** to **1**. This causes the Flat File Disassembler to split each error into its own message.  
   
 ##### Test the schemas using FFDasm  
   

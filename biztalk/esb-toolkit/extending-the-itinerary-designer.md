@@ -49,7 +49,7 @@ The Itinerary Designer is a visual domain-specific language (DSL) for Microsoft 
  The following is a reference instance of an adapter provider manifest file; custom manifest files should be structured likewise.  
   
 ```xml  
-\<?xml version="1.0" encoding="utf-8" ?>  
+<?xml version="1.0" encoding="utf-8" ?>  
 <adapterPropertyManifest adapterName="FTP">  
      <aliases>  
           <alias name="globalPropertySchemas" value="Microsoft.BizTalk.GlobalPropertySchemas, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />  
@@ -78,7 +78,7 @@ The Itinerary Designer is a visual domain-specific language (DSL) for Microsoft 
  The **ValidationEngine** class performs the model element validation using the Enterprise Library Validation Application Block and logs the validation errors to the Error List window in Microsoft Visual Studio IDE. The validation that should be performed for each type of element in a model is defined in the Enterprise Library configuration file. The file is named Ruleset.config and is located in the binary folder where all the Itinerary Designer binaries are located. The following example is a fragment of the configuration file and includes two validation rules (named validators) for the **UddiResolver** extender, one for the **ServerUrl** property and one for the **ServiceKey** property.  
   
 ```  
-\<!--   
+<!--   
 UddiResolver  
 -->  
 <type assemblyName="Microsoft.Practices.Services.Extenders.Resolvers.UDDI"  

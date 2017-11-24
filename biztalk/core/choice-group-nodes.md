@@ -18,7 +18,7 @@ manager: "anneta"
 In BizTalk Editor, you can insert a **Choice Group** node to contain other nodes (or entire subtrees of nodes), only one of which can appear in an instance message. A given instance message, if valid, will have only one of the choices present. The contained nodes must be nodes that correspond to XML elements, but cannot be nodes that correspond to XML attributes.  
   
 > [!NOTE]
->  In BizTalk Editor, the **Choice Group** node is represented with the string \<Choice> in the schema tree view. If you set a reference to a **Choice Group** node, such as x, it is represented as \<Group:x> in the schema tree view.  
+>  In BizTalk Editor, the **Choice Group** node is represented with the string \<Choice\> in the schema tree view. If you set a reference to a **Choice Group** node, such as x, it is represented as \<Group:x\> in the schema tree view.  
   
 ## XSD representation  
  When a **Choice Group** node is inserted into a **Record** node, it is inserted at the end of any other child nodes within the **sequence**, **choice**, or **all** element in the **Record** node. The following example shows, in bold type, how a new **Choice Group** node is represented in the XML Schema definition (XSD) language as a **choice** element inserted at the end of the **sequence** element in a **Record** node (with nodes named to clarify their identity).  

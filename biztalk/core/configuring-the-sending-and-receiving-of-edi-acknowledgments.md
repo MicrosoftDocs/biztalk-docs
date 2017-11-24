@@ -50,9 +50,9 @@ To configure the sending of an EDI acknowledgment in response to a received inte
   
     2.  In the **Acknowledgements** page, select properties defining the kind of acknowledgement that the sender party expects:  
   
-         For X12 acknowledgements, select **TA1 Expected** and/or **997 Expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
+         For X12 acknowledgements, select **TA1 Expected** and/or **997 Expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
   
-         For EDIFACT acknowledgements, select **Receipt of message (CONTRL) expected** and/or **Acknowledgement (CONTRL) expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
+         For EDIFACT acknowledgements, select **Receipt of message (CONTRL) expected** and/or **Acknowledgement (CONTRL) expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
   
     3.  In the **Local Host Settings** page under the **Interchange Settings** section, clear the **Route ACK to send pipeline on request-response receive port** to return the acknowledgment asynchronously over a one-way send port. Keep this property as selected to return the acknowledgment synchronously over a two-way receive port.  
   

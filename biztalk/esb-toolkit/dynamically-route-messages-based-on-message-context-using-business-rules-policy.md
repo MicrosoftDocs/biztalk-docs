@@ -50,11 +50,11 @@ manager: "anneta"
   
 5.  In Facts Explorer, expand the **ESB.EndPointInfo** vocabulary, expand **Version 1.0**, and then drag the **Set End Point Outbound Transport Location** definition to **Actions**.  
   
-6.  Click **\<empty string>**, and then type **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
+6.  Click **\<empty string\>**, and then type **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
   
 7.  From Facts Explorer, drag the **Set End Point Outbound Transport Type** definition to **Actions**.  
   
-8.  In Facts Explorer, expand the **ESB.TansportTypes** vocabulary, expand **Version 1.0**, and then drag the **Adaptor Providers** definition to **\<empty string>**.  
+8.  In Facts Explorer, expand the **ESB.TansportTypes** vocabulary, expand **Version 1.0**, and then drag the **Adaptor Providers** definition to **\<empty string\>**.  
   
 9. In the Actions pane, expand the **Adaptor Providers** drop-down list, and then click **FILE**.  
   

@@ -115,7 +115,7 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
   
 4.  In the TestResults directory examine the *.out file. This file should contain the new message processed by the pipeline.  It should be located in a directory similar to the following:  
   
-     C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
+     C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
   
      The processed message should look similar to the following:  
   

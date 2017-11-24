@@ -79,7 +79,7 @@ For complete information about the system architecture for BizTalk Server deploy
 |Installation|User|SSO Administrators (only for configuring the master secret server)<br /><br /> local Administrators<br /><br /> sysadmin SQL Server Role<br /><br /> OLAP Administrator|  
 |BAM Application pool|Service|IIS_WPG|  
 |BAM Management|Service|IIS_WPG|  
-|BAM Notification|Service|SQLServer2005NotificationServicesUser$\<**ComputerName**>|  
+|BAM Notification|Service|SQLServer2005NotificationServicesUser$\<**ComputerName**\>|  
   
  The following table lists the recommended accounts for the domain administrator to create in the domain controller of the corporate domain.  
   

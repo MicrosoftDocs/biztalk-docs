@@ -29,7 +29,7 @@ The BrowsingArtifacts sample demonstrates how to enumerate BizTalk artifacts and
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\BrowsingArtifacts  
+ \<*Samples Path*\>\Admin\ExplorerOM\BrowsingArtifacts  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -50,7 +50,7 @@ The BrowsingArtifacts sample demonstrates how to enumerate BizTalk artifacts and
   
 1.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\BrowsingArtifacts\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\BrowsingArtifacts\bin\Debug  
   
 2.  Run the file BrowsingArtifacts.exe.  
   

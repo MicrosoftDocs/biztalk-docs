@@ -40,7 +40,7 @@ The End-to-End sample demonstrates how to correlate events from multiple compone
 
 The sample works as follows:  
   
-1.  An input message is retrieved from the *\<Samples Path>*\BamEndToEnd\Input folder.  
+1.  An input message is retrieved from the *\<Samples Path\>*\BamEndToEnd\Input folder.  
   
 2.  The pipeline component assigns a unique DocumentID to the message, and uses the BAM API to begin a new BAM activity. The DocumentID is attached as a separate part of the input message to make it available to the orchestrations.  
   
@@ -50,12 +50,12 @@ The sample works as follows:
   
 5.  Orchestration2 modifies the input message and sends it to the MessageBox database, which activates Orchestration3.  
   
-6.  Orchestration3 modifies the message and writes it to the folder *\<Samples Path>*\BamEndToEnd\Output.  
+6.  Orchestration3 modifies the message and writes it to the folder *\<Samples Path\>*\BamEndToEnd\Output.  
   
 7.  Each orchestration updates activity items in the BAM activity.  
   
 ## Where to Find This Sample  
- You can find this sample at *\<Samples Path>*\BAM\BamEndToEnd.  
+ You can find this sample at *\<Samples Path\>*\BAM\BamEndToEnd.  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -97,11 +97,11 @@ Services\Schema3.xsd|Message schema.|
   
 ##  <a name="To_Build_Sample"></a>Build and initialize this sample  
   
-1.  Open a command prompt as Administrator, and run *\<Samples Path>*\BAM\BAMEndToEnd\Setup.bat. Setup.bat builds and initializes the BAM infrastructure for this sample. Keep the command prompt open.  
+1.  Open a command prompt as Administrator, and run *\<Samples Path\>*\BAM\BAMEndToEnd\Setup.bat. Setup.bat builds and initializes the BAM infrastructure for this sample. Keep the command prompt open.  
   
 2.  Create a tracking profile to map Orchestration1, Orchestration2, and Orchestration3 to the BAM activity. (Because creating the tracking profile is a complex process, the detailed instructions are in a separate procedure called **To create a tracking profile**. This procedure appears later in this document.)  
   
-3.  Deploy the tracking profile BamEndToEnd.btt that you created in the previous step.  In the command prompt change to the *\<Samples Path>*\BAM\BamEndToEnd directory. To deploy the tracking profile, type the following line, and then press **Enter**:  
+3.  Deploy the tracking profile BamEndToEnd.btt that you created in the previous step.  In the command prompt change to the *\<Samples Path\>*\BAM\BamEndToEnd directory. To deploy the tracking profile, type the following line, and then press **Enter**:  
   
     `“<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt`
   
@@ -112,7 +112,7 @@ Services\Schema3.xsd|Message schema.|
   
 ##  <a name="To_Run_Sample"></a>Run this sample  
   
-Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<Samples Path>*\BamEndToEnd\Input. After a few seconds, the message disappears from the Input folder, and an output message appears in the *\<Samples Path>*\BamEndToEnd\Output folder.  
+Copy the file *\<Samples Path\>*\BamEndToEnd\InputMessage.xml into the folder *\<Samples Path\>*\BamEndToEnd\Input. After a few seconds, the message disappears from the Input folder, and an output message appears in the *\<Samples Path\>*\BamEndToEnd\Output folder.  
   
 ##  <a name="To_View_Data"></a>View the BAM data  
   
@@ -126,14 +126,14 @@ Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<
   
 #### Rerun this sample  
   
-1.  Open a command prompt as Administrator, and change to the *\<Samples Path>*\BAM\BamEndToEnd directory. Type the following line:  
+1.  Open a command prompt as Administrator, and change to the *\<Samples Path\>*\BAM\BamEndToEnd directory. Type the following line:  
   
     `“C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove`  
   
     > [!NOTE]
     >  If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the C drive, replace "C" with the drive letter where you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-2.  Run *\<Samples Path>*\BAM\BAMEndToEnd\Cleanup.bat. Cleanup.bat removes the BAM infrastructure for this sample.  
+2.  Run *\<Samples Path\>*\BAM\BAMEndToEnd\Cleanup.bat. Cleanup.bat removes the BAM infrastructure for this sample.  
   
 3.  Perform the steps in **To build and initialize this sample** section in this topic.  
   
@@ -159,7 +159,7 @@ Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<
   
 10. Scroll to the end of the **Context Property Name** list, and then double-click **BAMEndToEnd.Services.PropertySchema.DocumentID**.  
   
-11. Expand **\<Schema>**, and then drag **DocumentID** in the right pane to **Orch1_** in the left pane.  
+11. Expand **\<Schema\>**, and then drag **DocumentID** in the right pane to **Orch1_** in the left pane.  
   
 12. Click the folder icon with the arrow (![button with folder and up arrow](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) twice to display the orchestration.  
   
@@ -179,7 +179,7 @@ Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<
   
 19. Scroll to the end of the **Context Property Name** list, and then double-click **BAMEndToEnd.Services.PropertySchema.DocumentID**.  
   
-20. Expand **\<Schema>**, and then drag **DocumentID** to the **Orch2_** continuation in the left pane.  
+20. Expand **\<Schema\>**, and then drag **DocumentID** to the **Orch2_** continuation in the left pane.  
   
     > [!NOTE]
     >  Do not confuse the Orch2_ continuation with the Orch2_ continuation ID. The icon that represents a continuation ID contains a key (![icon for a continuation ID](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea")), whereas the icon that represents a continuation does not contain a key (![icon for a continuation](../core/media/test.gif "test")).  
@@ -252,7 +252,7 @@ Copy the file *\<Samples Path>*\BamEndToEnd\InputMessage.xml into the folder *\<
   
 48. In the **Select Ports** section of the **Select Ports** dialog box, click **BamEndToEnd_ReceivePort**, click the greater-than sign (**>**), and then click **OK**.  
   
-49. Save the tracking profile to *\<Samples Path>*\BAM\BamEndToEnd\BamEndToEnd.btt.  
+49. Save the tracking profile to *\<Samples Path\>*\BAM\BamEndToEnd\BamEndToEnd.btt.  
   
 ## Important details  
  Tracking profiles are not supported for pipelines. However, the call to **BeginActivity** in the pipeline component is the same as using ActivityID in an orchestration. The call to **EnableContinuation** is the same as using a continuation in an orchestration.  

@@ -56,7 +56,7 @@ To assemble individual transaction-set batch elements into an EDI interchange, [
   
 8.  After the batching orchestration completes batching an interchange, it promotes the following properties on that interchange: EDI.DestinationPartyName = %PartyName%, EDI.BatchEncodingType = X12 or EDIFACT, and EDI.ToBeBatched = False.  
   
-9. A send port picks up the batched transaction sets based on EDI.DestinationPartyName = \<PartyName>, EDI.BatchEncodingType = EDIFACT or X12, and EDI.ToBeBatched = False.  
+9. A send port picks up the batched transaction sets based on EDI.DestinationPartyName = \<PartyName\>, EDI.BatchEncodingType = EDIFACT or X12, and EDI.ToBeBatched = False.  
   
 ## Batching Orchestration Control Messages  
  The batching orchestration is activated, terminated, or overridden by the following control messages:  
@@ -202,7 +202,7 @@ To assemble individual transaction-set batch elements into an EDI interchange, [
   
 -   `EDI.DestinationPartyId` exists  
   
- When the orchestration receives a message, it will try to find a matching batch configuration for the message by using the party name and encoding type.  The `EDI.DestinationPartyID` property is used to determine the party name, and then the orchestration looks for a batch name that matches \<PartyName>+\<EncodingType>+Default.  For example if the party name is Contoso, and the value of `EDI.EncodingType` is X12, then the orchestration will look for a batch named ContosoX12Default.  
+ When the orchestration receives a message, it will try to find a matching batch configuration for the message by using the party name and encoding type.  The `EDI.DestinationPartyID` property is used to determine the party name, and then the orchestration looks for a batch name that matches \<PartyName\>+\<EncodingType\>+Default.  For example if the party name is Contoso, and the value of `EDI.EncodingType` is X12, then the orchestration will look for a batch named ContosoX12Default.  
   
  If a matching batch configuration is found, the message is placed back in the message box with the following properties:  
   

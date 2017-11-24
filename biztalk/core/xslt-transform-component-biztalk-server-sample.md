@@ -30,7 +30,7 @@ The XSLT Transform Component sample demonstrates how to write a custom pipeline 
 2.  The pipeline transforms the XML document into the HTML body of an e-mail message using Transform.xsl.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Pipelines\XslTransformComponent\  
+ *\<Samples Path\>*\Pipelines\XslTransformComponent\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -56,7 +56,7 @@ The XSLT Transform Component sample demonstrates how to write a custom pipeline 
   
 1.  In a command window, change directory (**cd)** to the following folder:  
   
-     *\<Samples Path>*\Pipelines\XslTransformComponent  
+     *\<Samples Path\>*\Pipelines\XslTransformComponent  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -66,7 +66,7 @@ The XSLT Transform Component sample demonstrates how to write a custom pipeline 
   
     -   Builds and deploys the XSLT Transform Component pipeline.  
   
-    -   Copies the built pipeline component to the \<Installation Path>\Pipeline Components folder.  
+    -   Copies the built pipeline component to the \<Installation Path\>\Pipeline Components folder.  
   
     -   Creates the send and receive ports.  
   
