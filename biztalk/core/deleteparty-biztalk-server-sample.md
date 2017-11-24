@@ -48,7 +48,7 @@ The DeleteParty sample demonstrates how to delete a specified party.
 ## Where to Find This Sample  
  This sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\DeleteParty\  
+ \<*Samples Path*\>\Admin\ExplorerOM\DeleteParty\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -66,12 +66,12 @@ The DeleteParty sample demonstrates how to delete a specified party.
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
+     \<*Samples Path*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
   
 2.  Run the file DeleteParty.exe, passing one of the two following command-line arguments:  
   
-    -   **\<**   
-         ***PartyName* >.** The name of a party to be deleted. If the party name contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***PartyName* \>.** The name of a party to be deleted. If the party name contains spaces, enclose the name in quotes.  
   
     -   **/?.** Displays help.  
   

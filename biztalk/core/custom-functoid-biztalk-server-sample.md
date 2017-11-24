@@ -38,7 +38,7 @@ The Custom Functoid sample demonstrates how to write a custom functoid for BizTa
 >  If you reuse the Custom Functoid sample code to implement your own functoid(s), you must be sure to change the GUID attribute to one that is unique.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\XmlTools\CustomFunctoid  
+ *\<Samples Path\>*\XmlTools\CustomFunctoid  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -64,7 +64,7 @@ The Custom Functoid sample demonstrates how to write a custom functoid for BizTa
   
 1.  In a command window, change directory (**cd**) to the following folder:  
   
-     \<*Samples Path*>\XmlTools\CustomFunctoid  
+     \<*Samples Path*\>\XmlTools\CustomFunctoid  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -155,7 +155,7 @@ The Custom Functoid sample demonstrates how to write a custom functoid for BizTa
   
 2.  In a command window, change directory (**cd**) to the following folder:  
   
-     \<*Samples Path*>\XmlTools\CustomFunctoid  
+     \<*Samples Path*\>\XmlTools\CustomFunctoid  
   
 3.  Run the file Cleanup.bat, which performs the following actions:  
   

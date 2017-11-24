@@ -95,7 +95,7 @@ The EDI receive pipeline and EDI send pipeline perform EDI validation on transac
 |-|-|  
 |Unexpected Data|Action|  
 |Unexpected/undefined transaction set|The EDI receive or send pipeline will accept a transaction set even if a schema for it has not been deployed|  
-|Unexpected segment/record|The receive pipeline will generate a tag with the appropriate prefix: \<UnexpectedSegment_%SegmentID%>.<br /><br /> The send pipeline will use the first one to three characters of the XML Tag name as the segment name.|  
+|Unexpected segment/record|The receive pipeline will generate a tag with the appropriate prefix: \<UnexpectedSegment_%SegmentID%\>.<br /><br /> The send pipeline will use the first one to three characters of the XML Tag name as the segment name.|  
 |Unexpected simple data element|The receive pipeline will generate an XML tag with a prefix, segment identifier, and index representing the position of the data element in the segment: <UnexpectedDataElement_%FieldName%.|  
 |Unexpected composite data element|The receive pipeline will generate an XML tags with prefix, segment identifier, and index representing the position of the data element in the segment: <UnexpectedCompositeDataElement_%FieldName%.|  
 |Missing required data|The pipeline will treat the data as optional.|  

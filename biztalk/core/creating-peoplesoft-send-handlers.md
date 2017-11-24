@@ -64,7 +64,7 @@ The PeopleSoft transport properties are used for design and run time. In the **T
   
     |Parameter|Description|  
     |---------------|-----------------|  
-    |`Application Server Path`|A string representing the computer and port on which the PeopleSoft Application Server is running and listening. The syntax of the URL path to the PeopleSoft 8 Application is //<computer_name>:\<port>. Ask your PeopleSoft administrator for the \<port> value. The \<port> value is the JOLT protocol listener port, not the App Server port. The default JOLT port is 9000.|  
+    |`Application Server Path`|A string representing the computer and port on which the PeopleSoft Application Server is running and listening. The syntax of the URL path to the PeopleSoft 8 Application is //<computer_name>:\<port\>. Ask your PeopleSoft administrator for the \<port\> value. The \<port\> value is the JOLT protocol listener port, not the App Server port. The default JOLT port is 9000.|  
     |`JAVA_HOME`|Set the JAVA_HOME variable to point to your JDK installation, for example: **C:\j2sdk1.4.2_08**.|  
     |`Password`|If you did not select **Use SSO**, you must set credential parameters for the BizTalk Adapter for PeopleSoft Enterprise to access the server system.<br /><br /> A string representing the user's password for logon to a PeopleSoft system. The characters do not appear but are represented by asterisks (*).|  
     |`PeopleSoft 8.x Jar Files`|To use Ccmponent interfaces (PeopleSoft 8 only) you must update your CLASSPATH to include the PeopleSoft Component Interface jar file. For example: **<PeopleSoft_Home>\web\PSJOA\psjoa.jar**.|  

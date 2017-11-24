@@ -36,15 +36,15 @@ The BAM management utility deployment commands allow you to apply, modify, and r
 ## deploy-all Command  
  **Usage**  
   
- **bm.exe deploy-all -DefinitionFile:\<def file>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe deploy-all -DefinitionFile:\<def file\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<def file>|The path and name of the file containing the definitions to deploy.|  
-|Server:\<server>|Optional: The name of the server to which to deploy the definitions. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database to which to deploy the definitions. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|DefinitionFile:\<def file\>|The path and name of the file containing the definitions to deploy.|  
+|Server:\<server\>|Optional: The name of the server to which to deploy the definitions. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database to which to deploy the definitions. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Deploys all artifacts from the specified BAM definition XML file to the specified server and database. The file can be a text file containing the BAM definition XML or a BAM Excel workbook. The definition file must include only new artifacts. If the file contains artifacts that have already been deployed, the deployment will fail and report an error.  
   
@@ -94,15 +94,15 @@ bm.exe deploy-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## update-all Command  
  **Usage**  
   
- **bm.exe update-all -DefinitionFile:\<def file>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe update-all -DefinitionFile:\<def file\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<def file>|The path and name of the file containing the definitions from which to perform the update.|  
-|Server:\<server>|Optional: The name of the server to which to deploy the definition updates. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database to which to deploy the definition updates. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|DefinitionFile:\<def file\>|The path and name of the file containing the definitions from which to perform the update.|  
+|Server:\<server\>|Optional: The name of the server to which to deploy the definition updates. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database to which to deploy the definition updates. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Updates certain artifacts from the BAM definition XML. The file can be a text file containing the BAM definition XML or a BAM Excel workbook. The update does not delete artifacts that are not described in the current definition file. It can add new checkpoints to activities, but cannot drop checkpoints from deployed activities. The update can neither rename checkpoints nor change checkpoint properties.  
   
@@ -121,15 +121,15 @@ bm.exe update-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## remove-all Command  
  **Usage**  
   
- **bm.exe remove-all DefinitionFile:\<def file> [ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe remove-all DefinitionFile:\<def file\> [ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<def file>|The path and name of the file containing the definitions to remove.|  
-|Server:\<server>|Optional: The name of the server from which the definitions will be removed. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database from which the definitions will be removed. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|DefinitionFile:\<def file\>|The path and name of the file containing the definitions to remove.|  
+|Server:\<server\>|Optional: The name of the server from which the definitions will be removed. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database from which the definitions will be removed. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Removes all artifacts specified in the BAM definition XML file. The file can be a text file containing the BAM definition XML or a BAM Excel workbook. The definition for each artifact must exactly match the original definition that was used for deployment.  
   
@@ -143,15 +143,15 @@ bm.exe remove-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## update-livedataworkbook Command  
  **Usage**  
   
- **bm.exe update-livedataworkbook -Name:\<livedata workbook file name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe update-livedataworkbook -Name:\<livedata workbook file name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|Name:\<livedata workbook>|The name of the existing live workbook to update.|  
-|Server:\<server>|Optional: The name of the server on which the workbook resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the workbook resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|Name:\<livedata workbook\>|The name of the existing live workbook to update.|  
+|Server:\<server\>|Optional: The name of the server on which the workbook resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the workbook resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Updates the BAM Primary Import database connection information in the specified BAM live data workbook.  
   
@@ -168,15 +168,15 @@ bm.exe update-livedataworkbook -Name:SalesManager_Live.xls -Server:SalesSrv
 ## regenerate-livedataworkbook Command  
  **Usage**  
   
- **bm.exe regenerate-livedataworkbook -WorkbookName:\<livedata workbook file name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe regenerate-livedataworkbook -WorkbookName:\<livedata workbook file name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|WorkbookName:\<livedata workbook file name>|The name of the workbook to update.|  
-|Server:\<server>|Optional: The name of the server on which the workbook resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the workbook resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|WorkbookName:\<livedata workbook file name\>|The name of the workbook to update.|  
+|Server:\<server\>|Optional: The name of the server on which the workbook resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the workbook resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Generates a BAM live data workbook but does not deploy the workbook.  
   

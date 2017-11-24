@@ -78,9 +78,9 @@ There are a number of configurable options on the BAM portal. The following proc
   
 1.  Edit the BAM portal web.config file. To do this, click **Start**, click **Run**, type notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config, and then click **OK**.  
   
-2.  The main page quick-start contents are replaceable by modifying the following line: \<add key="MainPageContentUrl" value="~/MainPageContent.htm"/>. Change **MainPageContent.htm** in the value field to point to your own HTML file. The HTML file must be in the same directory as the web.config file.  
+2.  The main page quick-start contents are replaceable by modifying the following line: \<add key="MainPageContentUrl" value="~/MainPageContent.htm"/\>. Change **MainPageContent.htm** in the value field to point to your own HTML file. The HTML file must be in the same directory as the web.config file.  
   
-3.  Change the page identifying text by adding the following line to the web.config file: \<add key=”PortalTitle” value=”New Identifying text”/>. Change the value field to contain the text to identify the portal.  
+3.  Change the page identifying text by adding the following line to the web.config file: \<add key=”PortalTitle” value=”New Identifying text”/\>. Change the value field to contain the text to identify the portal.  
   
 4.  Edit the BAM portal styles.css file. Click **Start**, click **Run**, type notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\Styles.css, and then click **OK**.  
   
@@ -164,7 +164,7 @@ There are a number of configurable options on the BAM portal. The following proc
   
 1.  Open the web.config file using Notepad. Click **Start**, click **Run**, type notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config, and then click **OK**.  
   
-2.  Modify the value field in the \<add key="AlertNotificationOptions" value="" /> line of the web.config file with a comma-delimited list specifying valid notification options with one of the following values. An empty value displays all notification options available on the server in the order returned by the server. Any unrecognized value is equivalent to an empty value.  
+2.  Modify the value field in the \<add key="AlertNotificationOptions" value="" /\> line of the web.config file with a comma-delimited list specifying valid notification options with one of the following values. An empty value displays all notification options available on the server in the order returned by the server. Any unrecognized value is equivalent to an empty value.  
   
     |Value|Description|  
     |-----------|-----------------|  
@@ -182,7 +182,7 @@ There are a number of configurable options on the BAM portal. The following proc
   
 1.  Open a command prompt.  
   
-2.  Run **C:\Program Files\Microsoft SQL Server\90\Notification Services\9.0.242\Bin\nscontrol register -name bamalerts -server***\<server name>* Replace *\<server name>* with the name of the server.  
+2.  Run **C:\Program Files\Microsoft SQL Server\90\Notification Services\9.0.242\Bin\nscontrol register -name bamalerts -server***\<server name\>* Replace *\<server name\>* with the name of the server.  
   
 3.  Press F5 to refresh your browser.  
   
@@ -196,7 +196,7 @@ There are a number of configurable options on the BAM portal. The following proc
 ## Viewing Aggregate BAM Data in the BAM Portal in SQL Server 2008  Deployments  
  To view aggregate data in the BAM portal from a client computer connecting to the BAM portal when the deployment environment uses [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], you must install Microsoft SQL Server 2008 Analysis Services 10.0 OLE DB Provider on the client computer. If the analysis services are not installed users will receive the following error message:  
   
- The server *\<servername>* cannot be contacted or is too busy.  
+ The server *\<servername\>* cannot be contacted or is too busy.  
   
  To install the Feature Pack for Microsoft SQL Server 2008, see [http://go.microsoft.com/fwlink/?LinkId=70728](http://go.microsoft.com/fwlink/?LinkId=70728).  
   
