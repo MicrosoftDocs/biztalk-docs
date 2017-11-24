@@ -53,7 +53,7 @@ By default the SOAP, HTTP, and HTTP-based WCF adapters (and .NET in general) ope
   
 4.  If necessary, click **Apply** in the **Actions** pane.  
   
- Disable debugging for ASP.NET Applications and Web Services by specifying the \<compilation debug="false"/> section in the web.config file for the web application.  
+ Disable debugging for ASP.NET Applications and Web Services by specifying the \<compilation debug="false"\> section in the web.config file for the web application.  
   
 ## Tune the value of the ASP Threads Per Processor Limit property  
  The ASP **Threads Per Processor Limit** property specifies the maximum number of worker threads per processor that IIS creates. Increase the value for the Threads Per Processor Limit until the processor utilization meets at least 50 percent or above. This setting can dramatically influence the scalability of your Web applications and the performance of your server in general. Because this property defines the maximum number of ASP requests that can execute simultaneously, this setting should remain at the default value unless your ASP applications are making extended calls to external components. In this case, you may increase the value of Threads Per Processor Limit. Doing so allows the server to create more threads to handle more concurrent requests. The default value of Threads Per Processor Limit is 25. The maximum recommended value for this property is 100.  
@@ -66,7 +66,7 @@ By default the SOAP, HTTP, and HTTP-based WCF adapters (and .NET in general) ope
   
 3.  Click to expand **Limits Properties** under **Behavior**, click **Threads Per Processor Limit**, enter the desired value for **Threads Per Processor Limit** and click **Apply** in the **Actions** pane.  
   
- For more information about how to modify the properties in the \<limits> element of the IIS 7.0 \<asp> element, see [ASP Limits \<limits>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+ For more information about how to modify the properties in the \<limits\> element of the IIS 7.0 \<asp\> element, see [ASP Limits \<limits\>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.  
@@ -85,7 +85,7 @@ By default the SOAP, HTTP, and HTTP-based WCF adapters (and .NET in general) ope
   
 3.  Click to expand **Limits Properties** under **Behavior**, click **Queue Length**, enter the desired value for **Queue Length** and then click **Apply** in the **Actions** pane.  
   
- For more information about how to modify the properties in the \<limits> element of the IIS 7.0 \<asp> element, see [ASP Limits \<limits>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+ For more information about how to modify the properties in the \<limits\> element of the IIS 7.0 \<asp\> element, see [ASP Limits \<limits\>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.  

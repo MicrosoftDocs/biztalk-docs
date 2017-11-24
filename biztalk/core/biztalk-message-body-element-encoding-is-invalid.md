@@ -52,4 +52,4 @@ manager: "anneta"
 8.  In the **WCF [***transport type***] Transport Properties** dialog box, click the **Messages** tab.  
   
 9. In the **Outbound WCF message body** section, click the **Template – Content specified by template** radio button. In the **XML** text box, the format of the BizTalk body should be   
-    \<**bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="[xml&#124;base64&#124;hex&#124;string]"/**>  (valid values, which are case-sensitive, for encoding are xml&#124;base64&#124;hex&#124;string)
+    \<**bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="[xml&#124;base64&#124;hex&#124;string]"/**\>  (valid values, which are case-sensitive, for encoding are xml&#124;base64&#124;hex&#124;string)

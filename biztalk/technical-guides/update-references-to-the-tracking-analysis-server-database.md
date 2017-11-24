@@ -36,7 +36,7 @@ The Tracking Analysis Server database is an optional and contains the online ana
 5.  Modify the columns corresponding to the original database to reference the appropriate values for the new database.  
   
     > [!NOTE]  
-    >  *\<DBType>* DBServerName and *\<DBType>* DBName indicate the location of the database, where *\<DBType>* corresponds to the type of the database, for example, TrackingAnalysis.  
+    >  *\<DBType\>* DBServerName and *\<DBType\>* DBName indicate the location of the database, where *\<DBType\>* corresponds to the type of the database, for example, TrackingAnalysis.  
   
 6.  Close the table to save the new values.  
   

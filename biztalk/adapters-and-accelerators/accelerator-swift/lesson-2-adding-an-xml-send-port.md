@@ -32,7 +32,7 @@ You use a send port to define how you want the messages sent. In this lesson, yo
   
 5.  In the FILE Transport Properties dialog box, click **Browse**.  
   
-6.  In the Browse For Folder dialog box, move to the **\<drive>:\Labs\Outbound** folder, and then click **OK**.  
+6.  In the Browse For Folder dialog box, move to the **\<drive\>:\Labs\Outbound** folder, and then click **OK**.  
   
 7.  In the FILE Transport Properties dialog box, ensure that **%MessageID%.xml** is entered in the **File Name** box, and then click **OK**.  
   

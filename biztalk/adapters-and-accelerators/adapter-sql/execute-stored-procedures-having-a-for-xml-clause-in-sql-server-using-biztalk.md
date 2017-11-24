@@ -82,7 +82,7 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
   
          You do this because you have already added the sqltypes.xsd schema to your BizTalk project.  
   
-    4.  Provide a target namespace for the schema. Click the **\<Schema>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlStoredProcs/namespace`.  
+    4.  Provide a target namespace for the schema. Click the **\<Schema\>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlStoredProcs/namespace`.  
   
 ## Generating Schema for the Request Message to Invoke the Stored Procedure  
  To generate schema for the request message you can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] from a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For this topic, generate the schema for the GET_EMP_DETAILS_FOR_XML stored procedure. For more information about how to generate the schema using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], see [Retrieving Metadata for SQL Server Operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md).  
@@ -224,9 +224,9 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
  The orchestration consumes the message and sends it to SQL Server database. The response from SQL Server database is saved at the other FILE location defined as part of the orchestration. For example, the response from SQL Server database for the preceding request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Root xmlns="http://ForXmlStoredProcs/namespace">  
-  \<Adapt_Doc.dbo.Employee Employee_ID="10765" Name="John" Designation="asdfaf" Salary="3434.00" Last_Modified="AAAAAAAANso=" Status="0" xmlns="" />  
+  <Adapt_Doc.dbo.Employee Employee_ID="10765" Name="John" Designation="asdfaf" Salary="3434.00" Last_Modified="AAAAAAAANso=" Status="0" xmlns="" />  
 </Root>  
 ```  
   

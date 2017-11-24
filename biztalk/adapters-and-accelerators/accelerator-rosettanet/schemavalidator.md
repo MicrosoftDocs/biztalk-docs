@@ -24,7 +24,7 @@ You use the SchemaValidator utility to troubleshoot problems with a message inst
  You use this utility if you are using an assembly that includes a schema .dll file, and you do not have a schema .xsd file. The SchemaValidator utility lets you validate using the schema .dll file.  
   
 ## Location in SDK  
- \<*drive*>\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\SchemaValidator  
+ \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\SchemaValidator  
   
 ## Building and Running SchemaValidator  
   
@@ -32,7 +32,7 @@ You use the SchemaValidator utility to troubleshoot problems with a message inst
   
 1.  Open a command prompt.  
   
-2.  Move to \<*drive*>\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\SchemaValidator.  
+2.  Move to \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\SchemaValidator.  
   
 3.  At the command prompt, type **sn -k SchemaValidator.snk**, and then press ENTER.  
   
@@ -40,7 +40,7 @@ You use the SchemaValidator utility to troubleshoot problems with a message inst
   
 5.  On the **File** menu, point to **Open**, and then click **Open Solution**.  
   
-6.  Move to \<*drive*>\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\SchemaValidator, select **SchemaValidator.sln**, and then click **Open**.  
+6.  Move to \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\SchemaValidator, select **SchemaValidator.sln**, and then click **Open**.  
   
 7.  In Solution Explorer, right-click **SchemaValidator**, and then click **Properties**.  
   
@@ -62,12 +62,12 @@ You use the SchemaValidator utility to troubleshoot problems with a message inst
   
 12. Right-click **SchemaValidator**, and then click **Build**.  
   
-13. Modify the message instance to you want to test by removing the \<\!DOCTYPE …> tag specifying the DTD file from the header of the XML instance.  
+13. Modify the message instance to you want to test by removing the \<\!DOCTYPE …\> tag specifying the DTD file from the header of the XML instance.  
   
 14. In the root node of the message instance, add an XML namespace of the schema that you will validate against.  
   
     > [!NOTE]
-    >  For an example of a schema ready to be validated by the SchemaValidator utility, see Sample3A4.xml in \<*drive*>\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\SchemaValidator.  
+    >  For an example of a schema ready to be validated by the SchemaValidator utility, see Sample3A4.xml in \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\SchemaValidator.  
   
 15. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], click **SchemaValidator.cs**, and then press CTRL and F5 to run the utility.  
   

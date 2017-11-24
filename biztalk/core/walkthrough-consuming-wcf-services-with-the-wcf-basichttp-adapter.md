@@ -70,11 +70,11 @@ manager: "anneta"
   
 5.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, open **Web.config** to review. When hosted in IIS, a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service is configured using a Web.config file instead of an app.config file as when hosted in a console application.  
   
-    -   Make sure that the **httpGetEnabled** attribute of the \<**serviceMetaData**> element is set to `true` so that the **BizTalk WCF Service Consuming Wizard** can consume the metadata for the service.  
+    -   Make sure that the **httpGetEnabled** attribute of the \<**serviceMetaData**\> element is set to `true` so that the **BizTalk WCF Service Consuming Wizard** can consume the metadata for the service.  
   
-    -   Make sure that the **mode** attribute of the \<**security**> element is set to **None**. Because this walkthrough uses the **None** security mode, the Web application hosting this service must be configured to allow anonymous access.  
+    -   Make sure that the **mode** attribute of the \<**security**\> element is set to **None**. Because this walkthrough uses the **None** security mode, the Web application hosting this service must be configured to allow anonymous access.  
   
-6.  Because the **Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWcfServiceConsuming** assembly must be installed in the GAC, it will need a strong name key file to complete the deployment process. Right-click the **BasicHttpWcfServiceConsuming** project, and then click **Properties**. On the **Properties** page, click **Signing**, and select **Sign the assembly**. Click the down arrow in the **Choose a strong name key file** drop-down list, click **\<New>**, and enter `keyfile.snk` in the **key file name** textbox.  Uncheck **Protect my key file with a password**, and then click **OK**.  
+6.  Because the **Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWcfServiceConsuming** assembly must be installed in the GAC, it will need a strong name key file to complete the deployment process. Right-click the **BasicHttpWcfServiceConsuming** project, and then click **Properties**. On the **Properties** page, click **Signing**, and select **Sign the assembly**. Click the down arrow in the **Choose a strong name key file** drop-down list, click **\<New\>**, and enter `keyfile.snk` in the **key file name** textbox.  Uncheck **Protect my key file with a password**, and then click **OK**.  
   
 7.  In Solution Explorer, right-click **BasicHttpWcfServiceConsuming**, and then click **Rebuild**.  
   
@@ -243,7 +243,7 @@ manager: "anneta"
   
 7.  At the command prompt, **C:\WCFBasicHttpSendAdapter\TestData\WCFBasicSendAdapter.OrderRequest.Invalid.xml** to the **C:\WCFBasicHttpSendAdapter\OrderRequestIn** folder. This message contains an invalid namespace so that the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service returns a fault message.  
   
-8.  Check the **C:\WCFBasicHttpSendAdapter\WCFAdapterErrorOut** folder for an XML file containing the fault message from the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. Look at the \<**faultstring**> field showing the cause of the fault message to be an invalid message body.  
+8.  Check the **C:\WCFBasicHttpSendAdapter\WCFAdapterErrorOut** folder for an XML file containing the fault message from the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. Look at the \<**faultstring**\> field showing the cause of the fault message to be an invalid message body.  
   
 ## See Also  
  [Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter](../core/walkthrough-publishing-wcf-services-with-the-wcf-basichttp-adapter.md)   

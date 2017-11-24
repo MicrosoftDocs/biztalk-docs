@@ -24,10 +24,10 @@ This topic provides some considerations and best practices that you must keep in
   
 -   The notification message for an operation is not affected by the number of records affected by that operation. For example, irrespective of the number of records inserted in an Oracle database table, the adapter clients receive only one notification message.  
   
--   We recommend that the adapter client application contain the logic to interpret the kind of notification received from the Oracle database. The adapter client applications can do so by extracting the information in the **\<Info>** element of the received notification message. Here’s an example of a notification message received for an Insert operation.  
+-   We recommend that the adapter client application contain the logic to interpret the kind of notification received from the Oracle database. The adapter client applications can do so by extracting the information in the **\<Info\>** element of the received notification message. Here’s an example of a notification message received for an Insert operation.  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -45,7 +45,7 @@ This topic provides some considerations and best practices that you must keep in
     </Notification>  
     ```  
   
-     Notice the value within the **\<Info>** element. This value provides information on the operation for which the notification message was received. Your application should have the functionality to extract the value within the **\<Info>** element and then based on the value, perform subsequent tasks. The topic [Process Notification Messages to Complete Specific Tasks in Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/process-notification-messages-to-complete-specific-tasks-in-oracle-ebs.md) has instructions on how to extract the value within the **\<Info>** element.  
+     Notice the value within the **\<Info\>** element. This value provides information on the operation for which the notification message was received. Your application should have the functionality to extract the value within the **\<Info\>** element and then based on the value, perform subsequent tasks. The topic [Process Notification Messages to Complete Specific Tasks in Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/process-notification-messages-to-complete-specific-tasks-in-oracle-ebs.md) has instructions on how to extract the value within the **\<Info\>** element.  
   
 -   Ideally, after the client application receives a notification, it should update the record for which the notification is already received so that the subsequent notifications are not for the same record. For example, consider an **ACCOUNTACTIVITY** table that has a **Processed** column. For all new records inserted into the **ACCOUNTACTIVITY** table, the value in the **Processed** column is always ‘n’. For example, after an insert operation, the records in the **ACCOUNTACTIVITY** table will look like the following:  
   

@@ -17,7 +17,7 @@ manager: "anneta"
 # Read the installation and configuration known issues
   
 ## Installing over Terminal Server creates log files in a different folder  
- When you install A4SWIFT over a Terminal Server connection, the A4SWIFT Setup program creates the setup and configuration log files in the *\<drive>*:\Documents and Settings\\*\<user name>*\Local Settings folder. Normally, the Setup program creates these files in the *\<drive>*:\Documents and Settings\\*\<user name>*\Local Settings\temp folder. You can review these log files to ensure that your computers are set up and configured properly.  
+ When you install A4SWIFT over a Terminal Server connection, the A4SWIFT Setup program creates the setup and configuration log files in the *\<drive\>*:\Documents and Settings\\*\<user name\>*\Local Settings folder. Normally, the Setup program creates these files in the *\<drive\>*:\Documents and Settings\\*\<user name\>*\Local Settings\temp folder. You can review these log files to ensure that your computers are set up and configured properly.  
   
 ## Silent installation is not recommended  
  A silent installation is supported by the A4SWIFT Setup program, but is not recommended because of the complexity of the additional configuration steps that are required.  
@@ -37,7 +37,7 @@ manager: "anneta"
  An A4SWIFT database will be shown in the **Web Components for Message Repair and New Submission** pane of the A4SWIFT Configuration dialog box, even though that database does not exist. A warning will be displayed for the A4SWIFT database in the Data stores pane, but that warning will not prevent the configuration process from proceeding.  
   
 ## Upgrade process does not create a new root folder  
- The upgrade process updates A4SWIFT files in the existing *\<drive>*:\Program Files\Microsoft BizTalk Accelerator for A4SWIFT 2.3/3.0 folder. It does not create a new folder for the upgraded files, nor does it change the name of the existing folder to *\<drive>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT.  
+ The upgrade process updates A4SWIFT files in the existing *\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for A4SWIFT 2.3/3.0 folder. It does not create a new folder for the upgraded files, nor does it change the name of the existing folder to *\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT.  
   
 ## Canceling Setup during an upgrade for A4SWIFT may leave your system in an unknown state  
  In some scenarios, clicking the **Cancel** button during an upgrade may leave files, assemblies, BizTalk Server artifacts, and registry keys intact after Setup has finished its rollback.  
@@ -45,7 +45,7 @@ manager: "anneta"
  You can manually remove all items without any problems.  
   
 ## Download the A4SWIFT setup exe file from the Web into a temp folder  
- If you are going to install A4SWIFT from a self-extracting executable file that you download from the Web, be sure to download that file into a temp folder. Do not download the file into the BizTalk Server root folder (\Program Files\Microsoft BizTalk Server \<*your version*>).  
+ If you are going to install A4SWIFT from a self-extracting executable file that you download from the Web, be sure to download that file into a temp folder. Do not download the file into the BizTalk Server root folder (\Program Files\Microsoft BizTalk Server \<*your version*\>).  
   
  If you run the exe file from the BizTalk Server root folder, it runs the BizTalk Server setup wizard, not the A4SWIFT setup wizard.  
   

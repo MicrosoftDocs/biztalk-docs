@@ -23,7 +23,7 @@ In this step, you modify the private process orchestration to integrate with the
   
 1.  With the Contoso solution displayed in Solution Explorer, right-click the **PrivateResponder** project, and then click **Add Reference**.  
   
-2.  In the Add Reference dialog box, click **Browse**. Move to *\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\Bin folder, and then select the following assemblies**:**  
+2.  In the Add Reference dialog box, click **Browse**. Move to *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin folder, and then select the following assemblies**:**  
   
     -   Microsoft.Solutions.BTARN.CommonTypes.dll  
   
@@ -57,7 +57,7 @@ In this step, you modify the private process orchestration to integrate with the
   
 4.  In the Properties window, in the **Identifier** box, type **PIP3A2RequestMessage**.  
   
-5.  In the **Message Type** box, click the drop-down arrow, expand **Schemas**, and then select **\<Select from referenced assembly>**.  
+5.  In the **Message Type** box, click the drop-down arrow, expand **Schemas**, and then select **\<Select from referenced assembly\>**.  
   
 6.  In the Select Artifact Typedialog box, select **Microsoft.Solutions.BTARN.Schemas.RNPIPs** in the left pane, select **_3A2PriceAndAvailabilityQueryMessageGuideline_v1_3** in the right pane, and then click **OK**.  
   
@@ -77,7 +77,7 @@ In this step, you modify the private process orchestration to integrate with the
   
 2.  In the Properties window, in the **Identifier** box, type **contosoResponseXML**.  
   
-3.  In the **Type** box, select **\<.NET Class>** from the drop-down list.  
+3.  In the **Type** box, select **\<.NET Class\>** from the drop-down list.  
   
 4.  In the Select Artifact Type dialog box, in the left pane, under the **Current Project** and **References** nodes, select **System.Xml**, select **XmlDocument** from the list in the right pane, and then click **OK**.  
   
@@ -85,7 +85,7 @@ In this step, you modify the private process orchestration to integrate with the
   
 6.  In the Properties window, in the **Identifier** box, type **submitMessage**.  
   
-7.  In the **Type** box, select **\<.NET Class>** from the drop-down list.  
+7.  In the **Type** box, select **\<.NET Class\>** from the drop-down list.  
   
 8.  In the Select Artifact Type dialog box, in the left pane, expand **Current Project** and **References** nodes, select **Microsoft.Solutions.BTARN.Shared**, select **SubmitRNIF** from the list in the right pane, and then click **OK**.  
   

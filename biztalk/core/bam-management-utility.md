@@ -34,7 +34,7 @@ Administrators of Business Activity Monitoring (BAM) definitions use the BAM Man
 > [!NOTE]
 >  The locale setting of the computer running the BAM Management utility must be the same as the locale used to create the BAM definition being deployed in order for the BAM commands to work properly. For example, if you execute the **get-views** command on a computer configured with an English locale setting against a database on a computer with a French locale you will not be able to use the returned view name unless you reset your computer locale to French.  
   
- You can use the BAM Management utility to generate and deploy your tracking configuration on a server. The BAM Management utility is a command-line tool located at \<*installation path*>\Program Files\Microsoft BizTalk Server \<version>\Tracking\BM.exe.  
+ You can use the BAM Management utility to generate and deploy your tracking configuration on a server. The BAM Management utility is a command-line tool located at \<*installation path*\>\Program Files\Microsoft BizTalk Server \<version\>\Tracking\BM.exe.  
   
 > [!IMPORTANT]
 >  To run the BAM management utility, you must be member of the **db_owner** SQL Server Database role in the BAM Primary Import, BAM Star Schema, and BAM Archive databases. You must also have sysadmin permissions on the BAM Alerts databases if making any updates related to BAM Alerts.  
@@ -82,7 +82,7 @@ Administrators of Business Activity Monitoring (BAM) definitions use the BAM Man
   
 #### To display the Help file for the BAM Management utility  
   
-1.  From a command prompt, browse to the following directory: C:\Program Files\Microsoft BizTalk Server \<version>\Tracking\\.  
+1.  From a command prompt, browse to the following directory: C:\Program Files\Microsoft BizTalk Server \<version\>\Tracking\\.  
   
 2.  Type **bm** or **bm help**.  
   

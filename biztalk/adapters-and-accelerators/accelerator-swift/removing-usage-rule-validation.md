@@ -29,7 +29,7 @@ Usage rules are defined in SWIFT standards and enforced by [!INCLUDE[A4SWIFT_Cur
   
 ### To remove a rule from a policy  
   
-1.  In a text editor, such as Notepad, open the validation policy that you want to change, for example, MT103_Validation_Policy in *\<drive>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Category 1\MT103.  
+1.  In a text editor, such as Notepad, open the validation policy that you want to change, for example, MT103_Validation_Policy in *\<drive\>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Category 1\MT103.  
   
 2.  Remove the rule node that you do not want, and then save the policy.  
   

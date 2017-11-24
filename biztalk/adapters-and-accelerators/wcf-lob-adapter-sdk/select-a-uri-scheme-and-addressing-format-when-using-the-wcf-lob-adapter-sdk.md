@@ -40,11 +40,11 @@ A Uniform Resource Identifier (URI) uniquely identifies resources like a Web ser
 ## Connecting to the Target System  
  Connection strings have the following syntax:  
   
- **\<scheme>://[userinfo "@"]\<LOB Connection String>**  
+ **\<scheme\>://[userinfo "@"]\<LOB Connection String\>**  
   
  For example, you could connect to the contoso catalog ordering system (a sample line of business application) using the following:  
   
- **northwind.contoso.v1.0://\<servername>?Catalog=Contoso&Integrated Security=True**  
+ **northwind.contoso.v1.0://\<servername\>?Catalog=Contoso&Integrated Security=True**  
   
  You can also provide optional authority information in the URI including user name and password and other important credentials. However, this can present a security risk.  
   

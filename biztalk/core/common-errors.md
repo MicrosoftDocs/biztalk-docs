@@ -95,9 +95,9 @@ This topic lists out common error messages you may encounter while creating maps
 ### Problem  
  When you build a BizTalk project, the BizTalk Mapper generates an error similar to any of the following:  
   
--   “The File \<filename> has duplicate values for namespace and type name properties.”  
+-   “The File \<filename\> has duplicate values for namespace and type name properties.”  
   
--   “The namespace \<name> already contains a definition for ‘_’.”  
+-   “The namespace \<name\> already contains a definition for ‘_’.”  
   
 ### Cause  
  In the BizTalk project, check for the following:  

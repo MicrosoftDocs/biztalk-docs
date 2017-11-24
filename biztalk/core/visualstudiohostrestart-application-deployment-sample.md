@@ -25,7 +25,7 @@ This topic explains how to use the VisualStudioHostRestart sample script to rest
 2.  Starts all in-process host instances on the local computer.  
   
 ## Where to Find This Sample  
- The sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder, as follows: *\<Samples path>*\Application Deployment\VisualStudioHostRestart.  
+ The sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder, as follows: *\<Samples path\>*\Application Deployment\VisualStudioHostRestart.  
   
  The sample includes the following file:  
   

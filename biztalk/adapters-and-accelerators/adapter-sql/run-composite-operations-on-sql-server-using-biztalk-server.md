@@ -78,7 +78,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
   
      To add references:  
   
-    1.  Right-click the root **\<Schema>** node in the CompositeSchema.xsd, and click **Properties**.  
+    1.  Right-click the root **\<Schema\>** node in the CompositeSchema.xsd, and click **Properties**.  
   
     2.  In the **Property** box, click the ellipsis button **(…)** against the **Imports** property.  
   
@@ -97,9 +97,9 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
     > [!NOTE]
     >  By default, a **Root** node is also added to a new schema file. You can rename the **Root** node to **Request**. To rename a node, right-click the node name and click **Rename**.  
   
-     To add a node under the **\<Schema>** node:  
+     To add a node under the **\<Schema\>** node:  
   
-    1.  Right-click the **\<Schema>** node, point to **Insert Schema Node**, and click **Child Record**.  
+    1.  Right-click the **\<Schema\>** node, point to **Insert Schema Node**, and click **Child Record**.  
   
     2.  Rename the new node to **RequestResponse**.  
   
@@ -285,7 +285,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
  The orchestration consumes the message and sends it to the SQL Server database. The response from the SQL Server database is saved at the other FILE location defined as part of the orchestration. For example, the response from the SQL Server database for the preceding request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <RequestResponse xmlns="http://CompositeTest.CompositeSchema">  
   <InsertResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
     <InsertResult>  
@@ -295,30 +295,30 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
   <GET_LAST_EMP_DATAResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/Procedures/dbo">  
     <GET_LAST_EMP_DATAResult>  
       <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-        \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-          \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-            \<xs:complexType>  
-              \<xs:sequence>  
-                \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                  \<xs:complexType>  
-                    \<xs:sequence>  
-                      \<xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                      \<xs:element minOccurs="0" name="Name" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
-                      \<xs:element minOccurs="0" name="Designation" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
-                      \<xs:element minOccurs="0" name="Rating" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
-                      \<xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
-                    \</xs:sequence>  
-                  \</xs:complexType>  
-                \</xs:element>  
-              \</xs:sequence>  
-            \</xs:complexType>  
-          \</xs:element>  
-        \</xs:schema>  
-        \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+        <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+          <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+            <xs:complexType>  
+              <xs:sequence>  
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                  <xs:complexType>  
+                    <xs:sequence>  
+                      <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                      <xs:element minOccurs="0" name="Name" type="xs:string" />   
+                      <xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
+                      <xs:element minOccurs="0" name="Designation" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
+                      <xs:element minOccurs="0" name="Rating" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
+                      <xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
+                    </xs:sequence>  
+                  </xs:complexType>  
+                </xs:element>  
+              </xs:sequence>  
+            </xs:complexType>  
+          </xs:element>  
+        </xs:schema>  
+        <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
           <NewDataSet xmlns="">  
             <NewTable>  
               <Employee_ID>10080</Employee_ID>   
@@ -328,7 +328,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
               <Last_Modified>AAAAAAAAF40=</Last_Modified>   
             </NewTable>  
           </NewDataSet>  
-        \</diffgr:diffgram>  
+        </diffgr:diffgram>  
       </DataSet>  
     </GET_LAST_EMP_DATAResult>  
     <ReturnValue>0</ReturnValue>   

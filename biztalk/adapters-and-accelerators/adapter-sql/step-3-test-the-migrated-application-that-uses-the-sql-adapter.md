@@ -46,7 +46,7 @@ manager: "anneta"
 3.  The orchestration consumes the request message and sends it to the SQL Server database. The response from the SQL Server database is received in the schema that conforms to the schema of the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. The response from the SQL Server database is saved to the other file location defined as part of the orchestration. The response for the preceding request message is:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <InsertResponse xmlns="http://SQLInsert">  
       <Success>  
         <long xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">101</long>   

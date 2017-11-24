@@ -19,7 +19,7 @@ The CBR sample demonstrates using the **ExplorerOM** administrative objects to a
   
 ## Prerequisites  
   
--   This sample requires that the CBRSample be deployed by running setup.bat located in the \<*Samples Path*>\Messaging\CBRSample directory.  
+-   This sample requires that the CBRSample be deployed by running setup.bat located in the \<*Samples Path*\>\Messaging\CBRSample directory.  
   
 -   You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.  
   
@@ -43,7 +43,7 @@ The CBR sample demonstrates using the **ExplorerOM** administrative objects to a
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\CBR  
+ \<*Samples Path*\>\Admin\ExplorerOM\CBR  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -70,7 +70,7 @@ The CBR sample demonstrates using the **ExplorerOM** administrative objects to a
   
 3.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\CBR\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\CBR\bin\Debug  
   
 4.  Run the file CBR.exe.  
   

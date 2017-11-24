@@ -101,7 +101,7 @@ This example demonstrates basic XML envelope disassembly by implementing part of
   
 3.  Change the name of the root node from "Root" to "Envelope".  
   
-4.  Now mark the schema as an envelope schema. Click the **\<Schema>** node. In the Properties pane, set the schema reference property **Envelope** to `OK`.  
+4.  Now mark the schema as an envelope schema. Click the **\<Schema\>** node. In the Properties pane, set the schema reference property **Envelope** to `OK`.  
   
 5.  Set the **Body XPath** property. To do this, click the **Envelope** node. In the Properties window, click the ellipsis (**...**) button in the **Body XPath** property, select **Envelope**, and then click **OK**.  
   

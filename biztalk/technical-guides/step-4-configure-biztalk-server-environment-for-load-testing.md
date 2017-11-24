@@ -37,7 +37,7 @@ This topic provides information for creating the BizTalk Server Receive Location
 |Authentication Trusted|Ensure that this box is un-checked.|  
 |32-bit only|Ensure that this box is un-checked.|  
 |Make this the default host in the group|Ensure that this box is un-checked.|  
-|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name>* and *\<Domain Name>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|  
+|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name\>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name\>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name\>* and *\<Domain Name\>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|  
   
  Repeat the steps that you followed when creating the “Send” host to create a “Receive” host. Configure the “Receive” host with the following property values:  
   
@@ -49,7 +49,7 @@ This topic provides information for creating the BizTalk Server Receive Location
 |Authentication Trusted|Ensure that this box is un-checked.|  
 |32-bit only|Ensure that this box is un-checked.|  
 |Make this the default host in the group|Ensure that this box is un-checked.|  
-|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name>* and *\<Domain Name>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|  
+|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name\>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name\>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name\>* and *\<Domain Name\>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|  
   
 ### Create Instances of the BizTalk Server Send and Receive Hosts  
  Follow the steps in the BizTalk Server Documentation topic [How to Add a Host Instance](http://go.microsoft.com/fwlink/?LinkId=208596) (http://go.microsoft.com/fwlink/?LinkId=208596) to create and start instances of the BizTalk Server “Send” host. Configure an instance of the “Send” host to run on each BizTalk Server in the BizTalk Server group and configure each host instance with the following property values:  
@@ -134,7 +134,7 @@ This topic provides information for creating the BizTalk Server Receive Location
   
 |Property|Value|  
 |--------------|-----------|  
-|General\Address (URI)|net.tcp://*\<Computer Name>*:2001/TCP1 **Important:**  *\<Computer Name>* is a placeholder for the actual computer name used to host IndigoService.exe, which is designed to consume messages sent via WCF. Because IndigoService.exe requires very little resources, it is often perfectly acceptable to run IndigoService.exe on the SQL Server computer used for the BizTalk Server group databases. IndigoService.exe is part of the BizTalk Benchmark Wizard, which is available at [BizTalk Benchmark Wizard](http://go.microsoft.com/fwlink/?LinkID=186347) (http://go.microsoft.com/fwlink/?LinkID=186347).|  
+|General\Address (URI)|net.tcp://*\<Computer Name\>*:2001/TCP1 **Important:**  *\<Computer Name\>* is a placeholder for the actual computer name used to host IndigoService.exe, which is designed to consume messages sent via WCF. Because IndigoService.exe requires very little resources, it is often perfectly acceptable to run IndigoService.exe on the SQL Server computer used for the BizTalk Server group databases. IndigoService.exe is part of the BizTalk Benchmark Wizard, which is available at [BizTalk Benchmark Wizard](http://go.microsoft.com/fwlink/?LinkID=186347) (http://go.microsoft.com/fwlink/?LinkID=186347).|  
 |Binding\Binding Type|**customBinding**|  
   
  As with most of the WCF-Custom Binding Types, the **customBinding** Binding type exposes several properties, which should be set to the following values:  
@@ -178,7 +178,7 @@ This topic provides information for creating the BizTalk Server Receive Location
   
  \<endpoint address="net.tcp://localhost:2001/TCP1"             binding="netTcpBinding"             bindingConfiguration="Binding1"             name="endpoint1"             contract="IndigoService.IServiceTwoWaysVoidNonTransactional" />  
   
- This is why the Send Port Address is configured with an Address (URI) of net.tcp://*\<Computer Name>*:2001/TCP1  
+ This is why the Send Port Address is configured with an Address (URI) of net.tcp://*\<Computer Name\>*:2001/TCP1  
   
  Because IndigoService.exe requires very little resources, it is often perfectly acceptable to run IndigoService.exe on the SQL Server computer used for the BizTalk Server databases.  
   

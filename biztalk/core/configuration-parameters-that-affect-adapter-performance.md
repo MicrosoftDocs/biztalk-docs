@@ -27,13 +27,13 @@ This section describes configuration settings that can affect the performance of
   
 |**Parameter**|**Section of configuration file**|**Default value**|**Recommended value**|  
 |-------------------|---------------------------------------|-----------------------|---------------------------|  
-|**minFreeThreads**<br /><br /> The minimum number of free threads to allow execution of new requests. ASP.NET keeps this many threads free for requests that require additional threads to complete their processing.|\<httpRuntime>|8|88 * the number of processors on the server hosting the Web application.|  
-|**minFreeLocalRequestFreeThreads**<br /><br /> The minimum number of free threads that ASP.NET keeps available to allow execution of new local requests. This number of threads is kept reserved for requests coming from the local host, in case some requests issue child requests to the local host during their processing. This avoids a possible deadlock with recursive reentry into the Web server.|\<httpRuntime>|4|76 * the number of processors on the server hosting the Web application.|  
-|**executionTimeout**<br /><br /> Indicates the maximum number of seconds that a request is allowed to execute before being automatically shut down by ASP.NET.|\<httpRuntime>|90|90|  
-|**maxconnection**<br /><br /> Determines how many connections can be made to a specific IP address.|\<connectionManagement>|2<br /><br /> A value of 2 for this setting conforms to the IETF RFC for the HTTP 1.1 specification and is suitable for user scenarios but is not optimized for high throughput.|12 * the number of processors on the server hosting the Web application.|  
-|**maxWorkerThreads**<br /><br /> Configures the maximum amount of worker threads to be used for the process on a per-CPU basis.|\<processModel>|20|100 **Note:**  This value is implicitly multiplied by the number of processors on the server.|  
-|**minWorkerThreads**|\<processModel>|1|**maxWorkerThreads** / 2 **Note:**  The minWorkerThreads parameter is not in the configuration file by default. You must add it. **Note:**  This value is implicitly multiplied by the number of processors on the server.|  
-|**maxIoThreads**<br /><br /> Used by ASP.NET to limit the number completion threads used.|\<processModel>|20|100<br /><br /> This value is implicitly multiplied by the number of processors on the server.|  
+|**minFreeThreads**<br /><br /> The minimum number of free threads to allow execution of new requests. ASP.NET keeps this many threads free for requests that require additional threads to complete their processing.|\<httpRuntime\>|8|88 * the number of processors on the server hosting the Web application.|  
+|**minFreeLocalRequestFreeThreads**<br /><br /> The minimum number of free threads that ASP.NET keeps available to allow execution of new local requests. This number of threads is kept reserved for requests coming from the local host, in case some requests issue child requests to the local host during their processing. This avoids a possible deadlock with recursive reentry into the Web server.|\<httpRuntime\>|4|76 * the number of processors on the server hosting the Web application.|  
+|**executionTimeout**<br /><br /> Indicates the maximum number of seconds that a request is allowed to execute before being automatically shut down by ASP.NET.|\<httpRuntime\>|90|90|  
+|**maxconnection**<br /><br /> Determines how many connections can be made to a specific IP address.|\<connectionManagement\>|2<br /><br /> A value of 2 for this setting conforms to the IETF RFC for the HTTP 1.1 specification and is suitable for user scenarios but is not optimized for high throughput.|12 * the number of processors on the server hosting the Web application.|  
+|**maxWorkerThreads**<br /><br /> Configures the maximum amount of worker threads to be used for the process on a per-CPU basis.|\<processModel\>|20|100 **Note:**  This value is implicitly multiplied by the number of processors on the server.|  
+|**minWorkerThreads**|\<processModel\>|1|**maxWorkerThreads** / 2 **Note:**  The minWorkerThreads parameter is not in the configuration file by default. You must add it. **Note:**  This value is implicitly multiplied by the number of processors on the server.|  
+|**maxIoThreads**<br /><br /> Used by ASP.NET to limit the number completion threads used.|\<processModel\>|20|100<br /><br /> This value is implicitly multiplied by the number of processors on the server.|  
   
  If the computer hosting the Web services is running ASP.NET 2.0 or later, then you can set **autoConfig=true** in the processModel section of the Machine.config file to automatically configure the following settings to achieve optimal performance based on the machine configuration:  
   
@@ -45,7 +45,7 @@ This section describes configuration settings that can affect the performance of
   
 -   The **minLocalRequestFreeThreads** attribute of the httpRuntime element.  
   
--   The **maxConnection** attribute of the \<connectionManagement> Element (Network Settings) element.  
+-   The **maxConnection** attribute of the \<connectionManagement\> Element (Network Settings) element.  
   
 > [!NOTE]
 >  The **processModel** section can be set only within the Machine.config file and affects all ASP.NET applications that are running on the server.  

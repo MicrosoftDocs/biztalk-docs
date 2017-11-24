@@ -22,7 +22,7 @@ This topic provides a description of recommended values   that impact network pe
 ## Adjust the MaxUserPort and TcpTimedWaitDelay settings  
  The **MaxUserPort** value controls the maximum port number used when an application requests any available user port from the system. Normally, short-lived ports are allocated in the range from 1025 through 65535. The port range is now truly a range with a starting point and with an endpoint. The new default start port is 49152, and the default end port is 65535. This range is in addition to well-known ports that are used by services and by applications. The port range that is used by the servers can be modified on each server. You adjust this range by using the netsh command, as follows:  
   
- **netsh int \<ipv4&#124;ipv6> set dynamicport \<tcp&#124;udp> start=number num=range**  
+ **netsh int \<ipv4&#124;ipv6\> set dynamicport \<tcp&#124;udp\> start=number num=range**  
   
  This command sets the dynamic port range for TCP. The start port is **number**, and the total number of ports is **range**. The following are sample commands: You can view the dynamic port range by using the following netsh commands:  
   

@@ -174,7 +174,7 @@ SetProperty $path "NumTCPTablePartitions" 4 # NumTCPTablePartitions -> 2 per Pro
 SetProperty $path "SynAttackProtect" 0 # SynAttackProtect -> 0 (Only set this on systems with web exposure if other H/W or S/W is providing DOS attack protection)  
 #Dedicated Network (DATA)  
 #------------------------  
-#Interfaces\<adapter ID>\MTU -> 1450-1500, test for maximum value that will pass on each interface using PING -f -l <MTU Size> <Interface Gateway Address>, pick the value that works across all interfaces  
+#Interfaces\<adapter ID\>\MTU -> 1450-1500, test for maximum value that will pass on each interface using PING -f -l <MTU Size> <Interface Gateway Address>, pick the value that works across all interfaces  
 $RegistryEntries = Get-ItemProperty -path "HKLM:\system\currentcontrolset\services\tcpip\parameters\interfaces\*"  
 foreach ( $iface in $RegistryEntries ) {   
 $ip = $iface.DhcpIpAddress  

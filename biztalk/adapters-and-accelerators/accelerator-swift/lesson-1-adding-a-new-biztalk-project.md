@@ -32,10 +32,10 @@ In this lesson, you add a new BizTalk project to your solution. You create schem
   
 4.  In the **Name** box, type **SWIFTSchemas** as the project name.  
   
-5.  In the **Solution** box, select **Add to Solution**. In the **Location** box, ensure that **\<*drive*:>\labs\SWIFTProject** is selected.  
+5.  In the **Solution** box, select **Add to Solution**. In the **Location** box, ensure that **\<*drive*:\>\labs\SWIFTProject** is selected.  
   
 6.  Click **OK** to create the new project.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds a new project to Solution Explorer and creates the project folder and files in the \<*drive*:>\labs\SWIFTProject\SWIFTSchemas folder.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds a new project to Solution Explorer and creates the project folder and files in the \<*drive*:\>\labs\SWIFTProject\SWIFTSchemas folder.  
   
  Proceed to [Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project](../../adapters-and-accelerators/accelerator-swift/lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project.md).

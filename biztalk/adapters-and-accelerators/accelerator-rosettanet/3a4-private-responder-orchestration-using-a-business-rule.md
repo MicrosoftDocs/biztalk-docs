@@ -16,13 +16,13 @@ manager: "anneta"
 # 3A4 Private Responder Orchestration Using a Business Rule
 The PIP3A4PrivateResponder.odx sample is a private-process orchestration that demonstrates how to implement a Partner Interface Process (PIP)-specific responder private process incorporating a business rule. For more information about this process, see [Defining a Business Rule for a Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/defining-a-business-rule-for-a-private-process-orchestration.md).  
   
- By default, the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Setup program installs the sample in \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\PipAutomation\3A4.  
+ By default, the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Setup program installs the sample in \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\PipAutomation\3A4.  
   
 ## Procedures  
   
 #### To build and initialize this sample  
   
-1.  At a command prompt, locate the *\<drive>*:\Program Files\ Microsoft BizTalk Accelerator for RosettaNet \<version>\SDK\PIPAutomation\3A4 folder.  
+1.  At a command prompt, locate the *\<drive\>*:\Program Files\ Microsoft BizTalk Accelerator for RosettaNet \<version\>\SDK\PIPAutomation\3A4 folder.  
   
 2.  Run the file Setup.bat, which uses the Binding.xml binding file to perform the following actions:  
   
@@ -42,13 +42,13 @@ The PIP3A4PrivateResponder.odx sample is a private-process orchestration that de
     >  You must complete the port binding configuration of the PIP3A4PrivateResponderProcess orchestration using BizTalk Explorer.  
   
     > [!NOTE]
-    >  To undo changes made by setup.bat, manually unenlist the PIP3A4PrivateResponder.odx orchestration, undeploy the Helper and PIP3A4PrivateResponder assemblies, and undeploy and then delete the samplebtarnpolicy rules policy. You cannot use Cleanup.bat in the *\<drive>*:\Program Files\ Microsoft BizTalk Accelerator for RosettaNet \<version>\SDK\PIPAutomation\3A4 folder to undo changes made by setup.bat.  
+    >  To undo changes made by setup.bat, manually unenlist the PIP3A4PrivateResponder.odx orchestration, undeploy the Helper and PIP3A4PrivateResponder assemblies, and undeploy and then delete the samplebtarnpolicy rules policy. You cannot use Cleanup.bat in the *\<drive\>*:\Program Files\ Microsoft BizTalk Accelerator for RosettaNet \<version\>\SDK\PIPAutomation\3A4 folder to undo changes made by setup.bat.  
   
 ## Demonstrates  
  This sample subscribes 3A4 request action and signal messages. It works in both 3A4 synchronous and asynchronous processes. All other PIP messages still route through the generic [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] private process. This sample invokes the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Business Rule Engine, and passes to the Rule Engine the incoming 3A4 request message.  
   
 > [!NOTE]
->  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] provides a sample business-rule policy named samplebtarnpolicy.xml in \<*drive*>:\Program Files\ Microsoft BizTalk Accelerator for RosettaNet \<version>\SDK\PipAutomation\3A4. For more information, see [Sample BTARN Business Policy](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md).  
+>  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] provides a sample business-rule policy named samplebtarnpolicy.xml in \<*drive*\>:\Program Files\ Microsoft BizTalk Accelerator for RosettaNet \<version\>\SDK\PipAutomation\3A4. For more information, see [Sample BTARN Business Policy](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md).  
   
  To work with the sample, set up a business rule. If the message meets the business rule, then the process saves the incoming action message in the MessagesToLOB table, setting the Delivered Status to 2. The Delivered column value must be nonzero, so that the line-of-business application knows that it does not have to generate a confirmation for this request. The process then maps the 3A4 request message to a 3A4 confirmation message, and submits the response to the MessageStorageIn table using the `SubmitRNIF` method.  
   

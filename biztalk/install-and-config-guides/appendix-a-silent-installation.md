@@ -26,18 +26,18 @@ This topic lists the steps to create a silent installation of [!INCLUDE[btsBizTa
 |------------------|------------|-----------------|  
 |/HELP, or /?, or /H||Provides help and quick reference.|  
 |/QUIET||Suppresses UI during setup – all dialog boxes, errors, or prompts requiring user input. All messages are entered into the setup log file. **Note:**  The Quiet flag cannot be specified for an upgrade, because upgrade requires user confirmation of selected options.|  
-|/CABPATH|\<*CAB file location*>|Indicates the location of the redistributable CAB file.|  
-|/S|\<*Configuration XML file*>|Performs a silent installation of features found in the specified configuration file. **Note:**  To install all features, specify ALL for the `InstalledFeature` parameter of the configuration XML file.|  
+|/CABPATH|\<*CAB file location*\>|Indicates the location of the redistributable CAB file.|  
+|/S|\<*Configuration XML file*\>|Performs a silent installation of features found in the specified configuration file. **Note:**  To install all features, specify ALL for the `InstalledFeature` parameter of the configuration XML file.|  
 |/PASSIVE||Performs a passive installation. The setup program only displays the progress bar.|  
 |/NORESTART||Suppresses restart prompts and automatic restarts at the end of the installation.|  
 |/FORCERESTART||Always forces a restart after the installation is complete.|  
 |/PROMPTRESTART||Prompts the user before restarting.|  
 |/X or /UNINSTALL||Uninstalls [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].|  
-|/L|\<Logfile> [i][w][e][a][r][u][c][m][p][v][*]|Writes logging information to a log file to the specified path. Always uses verbose Windows Installer logging and it appends to an existing file.<br /><br /> The following flags indicate which information to log:<br /><br /> i - Status messages<br /><br /> w - Nonfatal warnings<br /><br /> e - All error messages<br /><br /> a - Startup of actions<br /><br /> r - Action-specific records<br /><br /> u - User requests<br /><br /> c - Initial user interface parameters<br /><br /> m - Out-of-memory<br /><br /> p - Terminal properties<br /><br /> v – Verbose output<br /><br /> * - All|  
+|/L|\<Logfile\> [i][w][e][a][r][u][c][m][p][v][*]|Writes logging information to a log file to the specified path. Always uses verbose Windows Installer logging and it appends to an existing file.<br /><br /> The following flags indicate which information to log:<br /><br /> i - Status messages<br /><br /> w - Nonfatal warnings<br /><br /> e - All error messages<br /><br /> a - Startup of actions<br /><br /> r - Action-specific records<br /><br /> u - User requests<br /><br /> c - Initial user interface parameters<br /><br /> m - Out-of-memory<br /><br /> p - Terminal properties<br /><br /> v – Verbose output<br /><br /> * - All|  
 |/IGNOREDEPENDENCIES||Bypasses the checks for downloadable prerequisites.|  
-|/INSTALLDIR \<*install path*>|\<*program files folder>*|Specifies the full path to product install location.|  
-|/COMPANYNAME|\<*company name*>|Sets the company or organization name.|  
-|/USERNAME|\<*user name*>|Sets the user name.|  
+|/INSTALLDIR \<*install path*\>|\<*program files folder\>*|Specifies the full path to product install location.|  
+|/COMPANYNAME|\<*company name*\>|Sets the company or organization name.|  
+|/USERNAME|\<*user name*\>|Sets the user name.|  
 |/ADDLOCAL ALL||Installs all features. For more information about ADDLOCAL command, see [Listing of Values for the ADDLOCAL Command](http://go.microsoft.com/fwlink/p/?LinkID=189319).|  
 |/REMOVE ALL||Removes all features.|  
 |/REPAIR ALL||Repairs all features.|  

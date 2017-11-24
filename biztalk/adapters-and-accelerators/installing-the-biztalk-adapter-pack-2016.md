@@ -232,7 +232,7 @@ For a comprehensive list of installation-related issues, refer to **Troubleshoot
   
 **Running setup on a 64-bit computer may throw an error while accessing schema file**  
   
-The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] setup throws an error while accessing the Microsoft.Adapters.*\<AdapterName>*_schema.xml file, but proceeds with the adapter installation.  
+The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] setup throws an error while accessing the Microsoft.Adapters.*\<AdapterName\>*_schema.xml file, but proceeds with the adapter installation.  
   
 **Cause**  
   
@@ -240,7 +240,7 @@ If both 32-bit and 64-bit versions of the [!INCLUDE[adapterpacknoversion](../inc
   
 **Resolution**  
   
-Manually copy the Microsoft.Adapters.*\<AdapterName>*_schema.xml file from *C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas* to *C:\Windows\System32\inetsrv\config\schema*. 
+Manually copy the Microsoft.Adapters.*\<AdapterName\>*_schema.xml file from *C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas* to *C:\Windows\System32\inetsrv\config\schema*. 
   
 ## Next step
 [Post installation steps](../adapters-and-accelerators/post-installation-steps-for-biztalk-adapter-pack-2016.md)

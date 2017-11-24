@@ -91,12 +91,12 @@ manager: "anneta"
   
 1.  Right-click the Service folder, click **Properties**, and then click the **Security** tab.  
   
-2.  In the Group or user names pane of the Service Properties dialog box, click **Add**, enter ***\<server name>*\A4SWIFT Administrators**, and then click **OK**.  
+2.  In the Group or user names pane of the Service Properties dialog box, click **Add**, enter ***\<server name\>*\A4SWIFT Administrators**, and then click **OK**.  
   
     > [!NOTE]
-    >  If the A4SWIFT Administrators group is a domain group, enter ***\<domain name>*\A4SWIFT Administrators**.  
+    >  If the A4SWIFT Administrators group is a domain group, enter ***\<domain name\>*\A4SWIFT Administrators**.  
   
-3.  Repeat step 2 for ***\<server name>*\A4SWIFT Users**, or **\<*domain name*>\A4SWIFT Users** if the A4SWIFT Users group is a domain group.  
+3.  Repeat step 2 for ***\<server name\>*\A4SWIFT Users**, or **\<*domain name*\>\A4SWIFT Users** if the A4SWIFT Users group is a domain group.  
   
 4.  In the Group or user names pane, select **A4SWIFT Administrators**. In the Permissions pane, select **Allow** for **Full Control**.  
   
@@ -203,7 +203,7 @@ manager: "anneta"
   
     -   Type: **In-Process**  
   
-    -   Windows group: **\<*domain*>\BizTalk Application Users** (or the account that you set up during BizTalk Server configuration for running BizTalk In-Process applications)  
+    -   Windows group: **\<*domain*\>\BizTalk Application Users** (or the account that you set up during BizTalk Server configuration for running BizTalk In-Process applications)  
   
     -   In the Options section, select both **Allow Host Tracking** and **Make this the default host in the group**.  
   
@@ -221,7 +221,7 @@ manager: "anneta"
  The BRE Deployment Utility does not work correctly when you run it on a 64-bit computer or in a non-default directory (other than C:\Program Files\Microsoft BizTalk Accelerator for SWIFT) on a 32-bit computer.  
   
 ### Possible Cause  
- The BRE Deployment Utility will not work correctly until you change the paths in the BREDeployment.exe.config file located in the \<drive>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools folder.  
+ The BRE Deployment Utility will not work correctly until you change the paths in the BREDeployment.exe.config file located in the \<drive\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools folder.  
   
 ### Solution  
  Update the utility's configuration by opening BREDeployment.exe.config in Notepad, and changing the folders for the base policies, schemas, and vocabulary directories.  

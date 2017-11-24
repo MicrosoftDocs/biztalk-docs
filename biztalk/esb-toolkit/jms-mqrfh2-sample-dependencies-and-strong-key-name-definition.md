@@ -16,7 +16,7 @@ manager: "anneta"
 # JMS MQRFH2 Sample Dependencies and Strong Key Name Definition
 The Visual Studio project ESB.JMS.PipelineComponents depends on the following folder:  
   
--   \<BizTalk Server Installation Directory>. This folder provides access to the following namespaces:  
+-   \<BizTalk Server Installation Directory\>. This folder provides access to the following namespaces:  
   
     -   **Microsoft::BizTalk::Message::Interop**  
   

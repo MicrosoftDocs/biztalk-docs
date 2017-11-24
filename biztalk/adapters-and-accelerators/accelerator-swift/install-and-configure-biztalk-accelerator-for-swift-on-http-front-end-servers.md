@@ -29,4 +29,4 @@ This section describes how to install and configure [!INCLUDE[A4SWIFT_CurrentVer
   
 2.  In the Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] Configuration console, configure **MCRR** and **WebService**.  
   
-3.  After completing the Configuration Wizard, on the Web servers, open the web.config file in the folder \<*Drive*>:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\Service\ in Notepad. Search for "Authorization". In the **Authorization** section, set the roles value to the name of the A4SWIFT users group.
+3.  After completing the Configuration Wizard, on the Web servers, open the web.config file in the folder \<*Drive*\>:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\Service\ in Notepad. Search for "Authorization". In the **Authorization** section, set the roles value to the name of the A4SWIFT users group.

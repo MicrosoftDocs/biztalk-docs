@@ -60,13 +60,13 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
   
 -   The WCF input message action = operation's node ID  
   
--   Incoming message body = The start element of the body is \<displayname>\<parameter name>{data}\</parameter name>\</displayname>  
+-   Incoming message body = The start element of the body is \<displayname\>\<parameter name\>{data}\</parameter name\>\</displayname\>  
   
  For the outgoing WCF response message:  
   
 -   The WCF output message action = operation's node ID + "/response"  
   
--   Outgoing message body = The start element of the body is \<displayname + "Response">, followed by \<displayname + "Result">, and followed by the \<datatype>data\</datatype>\</displayname+"Result>\</displayname + "Response">  
+-   Outgoing message body = The start element of the body is \<displayname + "Response"\>, followed by \<displayname + "Result"\>, and followed by the \<datatype\>data\</datatype\>\</displayname+"Result\>\</displayname + "Response"\>  
   
  For example, operation **string[] EchoStrings(string data)**, node ID = Echo/EchoStrings, and display name= EchoStrings:  
   
@@ -141,7 +141,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     return null;              
     ```  
   
-4.  Now add the **ExecuteEchoStrings** method to handle the string[] EchoStrings(string data) operation. This helper function reads the WCF request message, checks to see if the echoInUpperCase URI element is set to true; if so, it converts the input string to upper case as many times as the count variable indicates. Then, it generates the WCF response message in the format of: \<EchoStringsResponse>\<EchoStringResult>\<string>{data}\</string>\</EchoStringResult>\</EchoStringsResponse>.  
+4.  Now add the **ExecuteEchoStrings** method to handle the string[] EchoStrings(string data) operation. This helper function reads the WCF request message, checks to see if the echoInUpperCase URI element is set to true; if so, it converts the input string to upper case as many times as the count variable indicates. Then, it generates the WCF response message in the format of: \<EchoStringsResponse\>\<EchoStringResult\>\<string\>{data}\</string\>\</EchoStringResult\>\</EchoStringsResponse\>.  
   
     ```csharp  
     private Message ExecuteEchoStrings(ParameterizedOperationMetadata om, Message message, TimeSpan timeout)  
@@ -183,7 +183,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     }  
     ```  
   
-5.  Continue by adding the **ExecuteEchoGreetings** method to handle the EchoGreetings operation. This helper function reads the WCF request message, resolves operation and type by the `ResolveOperationMetadata` and `ResolveTypeMetadata` methods of the `Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler` interface, and then generates the WCF response message using the format of: \<EchoGreetingsResponse>\<EchoGreetingsResult>…message…\</EchoGreetingsResult>\</EchoGreetingsResponse>.  
+5.  Continue by adding the **ExecuteEchoGreetings** method to handle the EchoGreetings operation. This helper function reads the WCF request message, resolves operation and type by the `ResolveOperationMetadata` and `ResolveTypeMetadata` methods of the `Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler` interface, and then generates the WCF response message using the format of: \<EchoGreetingsResponse\>\<EchoGreetingsResult\>…message…\</EchoGreetingsResult\>\</EchoGreetingsResponse\>.  
   
     ```csharp  
     private Message ExecuteEchoGreetings(ParameterizedOperationMetadata om, Message message, TimeSpan timeout)  
@@ -228,7 +228,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     }  
     ```  
   
-6.  Now add the **ExecuteEchoCustomGreetingFromFile** method to handle the EchoCustomGreetingFromFile operation. This helper function reads the WCF request message, reads the message from the specified file, and then generates the  WCF response message using the format of: \<EchoGreetingsFromFileResponse>\<EchoGreetingsFromFileResult>…message…\</EchoGreetingsFromFileResult>\</EchoGreetingsFromFileResponse>.  
+6.  Now add the **ExecuteEchoCustomGreetingFromFile** method to handle the EchoCustomGreetingFromFile operation. This helper function reads the WCF request message, reads the message from the specified file, and then generates the  WCF response message using the format of: \<EchoGreetingsFromFileResponse\>\<EchoGreetingsFromFileResult\>…message…\</EchoGreetingsFromFileResult\>\</EchoGreetingsFromFileResponse\>.  
   
     ```csharp  
     private Message ExecuteEchoCustomGreetingFromFile(OperationMetadata om, Message message, TimeSpan timeout)  

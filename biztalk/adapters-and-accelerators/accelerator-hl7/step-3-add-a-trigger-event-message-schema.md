@@ -60,9 +60,9 @@ In this step, you create a new project based on the Empty [!INCLUDE[btaBTAHL71.3
   
 3.  Check **Sign the assembly** check box.  
   
-4.  In **Choose a strong name key file** drop down list select **\<Browse…>.**  
+4.  In **Choose a strong name key file** drop down list select **\<Browse…\>.**  
   
-5.  Browse to **\<*drive*>:\Batching Tutorial**, select **key.snk**, and then click **Open**.  
+5.  Browse to **\<*drive*\>:\Batching Tutorial**, select **key.snk**, and then click **Open**.  
   
 6.  In Solution Explorer, right-click **BTAHL7V231Body**, and then click **Deploy**. Ensure that a success message appears in the output window.  
   

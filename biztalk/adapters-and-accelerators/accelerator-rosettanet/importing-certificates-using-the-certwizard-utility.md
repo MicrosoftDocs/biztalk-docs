@@ -34,16 +34,16 @@ This topic describes how to import a certificate by using CertWizard utility, a 
   
 1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK** .  
+2.  At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** .  
   
     > [!NOTE]
     >  For help with the CertWizard utility, type **CertWizard /?** at the command prompt.  
   
-3.  At the command prompt, type **CertWizard /Privatekey \<filename>.pfx**, where \<*filename*>.pfx contains the private certificate. To provide the password for the file, append **/Filepassword \<filepassword>** to the command.  
+3.  At the command prompt, type **CertWizard /Privatekey \<filename\>.pfx**, where \<*filename*\>.pfx contains the private certificate. To provide the password for the file, append **/Filepassword \<filepassword\>** to the command.  
   
-4.  If you want to import the certificate into a specific account used by the BizTalk Host, append **/Useridentity \<useridentity> /Password \<password>** to the command.  
+4.  If you want to import the certificate into a specific account used by the BizTalk Host, append **/Useridentity \<useridentity\> /Password \<password\>** to the command.  
   
-5.  If you want to designate a specific thumbprint in case the .pfx file contains more than one certificate, append **/Thumbprint \<thumbprint>** to the command.  
+5.  If you want to designate a specific thumbprint in case the .pfx file contains more than one certificate, append **/Thumbprint \<thumbprint\>** to the command.  
   
 6.  If you want to configure the usage of the certificate, append **/Usage** to the command, and then append one of the following values:  
   
@@ -69,11 +69,11 @@ This topic describes how to import a certificate by using CertWizard utility, a 
   
 1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder by using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK**.  
+2.  At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder by using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK**.  
   
-3.  At the command prompt, type **CertWizard /Publickey \<filename>.cer**, where \<*filename*>.cer contains the public certificate.  
+3.  At the command prompt, type **CertWizard /Publickey \<filename\>.cer**, where \<*filename*\>.cer contains the public certificate.  
   
-4.  If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint>** to the command.  
+4.  If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint\>** to the command.  
   
      The tool imports the certificate into the Certificates (Local Computer)\Other People\Certificates store, and sets its configuration.  
   
@@ -81,11 +81,11 @@ This topic describes how to import a certificate by using CertWizard utility, a 
   
 1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder by using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK**.  
+2.  At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder by using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK**.  
   
-3.  At the command prompt, type **CertWizard /Rootkey \<filename>.cer**, where \<*filename*>.cer contains the root certificate.  
+3.  At the command prompt, type **CertWizard /Rootkey \<filename\>.cer**, where \<*filename*\>.cer contains the root certificate.  
   
-4.  If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint>** to the command.  
+4.  If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint\>** to the command.  
   
      The tool imports the certificate into the Certificates (Local Computer)\Trusted Root Certification Authority\Certificates store, and sets its configuration.  
   

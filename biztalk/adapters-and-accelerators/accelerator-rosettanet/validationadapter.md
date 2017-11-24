@@ -20,7 +20,7 @@ The ValidationAdapter sample demonstrates how to run special validation rules on
   
  Since the ValidationAdapter is used by the public process orchestration , it runs under the same credentials as the BizTalk host service hosting that orchestration.  
   
- The ValidationAdapter sample is located in \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version> Accelerator for RosettaNet\SDK\ValidationAdapter.  
+ The ValidationAdapter sample is located in \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\ValidationAdapter.  
   
 ## Demonstrates  
  The ValidationAdapter sample demonstrates validation of the e-mail address in the service content. The sample implements the `IValidateRNIFMessageParts` interface. It returns an `RNIFException` if the e-mail address is not in the correct format. The XML documents **preambleToValidate**, **serviceHeaderToValidate**, **deliveryHeaderToValidate**, and **serviceContentToValidate** define the validation.  

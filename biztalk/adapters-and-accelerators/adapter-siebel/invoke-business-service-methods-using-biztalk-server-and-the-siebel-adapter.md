@@ -161,7 +161,7 @@ A Siebel business service is a collection of business methods that can be direct
  The orchestration consumes the request message and passes it to the Siebel system. The response from the Siebel system is saved at the FILE send location. The response for the above request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <ExecuteResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/TimeStamp/Operation">  
   <ExecuteResult>  
     <Time xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/TimeStamp">2007-11-25T20:42:11.0000000</Time>  

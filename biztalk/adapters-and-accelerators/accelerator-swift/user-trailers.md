@@ -37,7 +37,7 @@ User trailers, except for the CHK trailer, are optional and when present, occur 
     where <authentication-result> = 8!h  
     ```  
   
--   **Proprietary Authentication Code (PAC) Trailer.** The PAC trailer is used within the FIN Copy service only when using the double authentication option. Block 5 of FIN user-to-user messages include the PAC trailer immediately after the MAC trailer, if present. This result is calculated on the extracted fields of Block 4 of the message, the value of field 115, if present, and the \<authentication-result> of the MAC trailer for Copy Services with double authentication.  
+-   **Proprietary Authentication Code (PAC) Trailer.** The PAC trailer is used within the FIN Copy service only when using the double authentication option. Block 5 of FIN user-to-user messages include the PAC trailer immediately after the MAC trailer, if present. This result is calculated on the extracted fields of Block 4 of the message, the value of field 115, if present, and the \<authentication-result\> of the MAC trailer for Copy Services with double authentication.  
   
      As a result, the end-of-block indicator (CrLf-) is included in the PAC calculation and the fields are defined as follows:  
   

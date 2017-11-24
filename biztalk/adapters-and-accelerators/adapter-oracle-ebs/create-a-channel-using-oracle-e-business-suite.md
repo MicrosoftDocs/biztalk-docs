@@ -90,9 +90,9 @@ channel.Open();
  The following code shows the configuration settings used for the preceding example. The contract for the client endpoint must be "System.ServiceModel.Channels.IRequestChannel" or "System.ServiceModel.Channels.IOutputChannel" depending on the kind of channel shape that you want to create.  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <oracleEBSBinding>  
                 <binding openTimeout="00:05:00" name="OracleEBSBinding" closeTimeout="00:01:00"  
@@ -118,7 +118,7 @@ channel.Open();
                 bindingConfiguration="OracleEBSBinding" contract="System.ServiceModel.Channels.IRequestChannel"  
                 name="MyRequestChannel" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -133,7 +133,7 @@ channel.Open();
   
 3.  Create a binding parameter collection using the **BindingParameterCollection** class and set the credentials.  
   
-4.  Create a channel listener by invoking **BuildChannelListener\<IInputChannel>** method on the **OracleEBSBinding**. You specify the Oracle connection URI as one of the parameters to this method.  
+4.  Create a channel listener by invoking **BuildChannelListener\<IInputChannel\>** method on the **OracleEBSBinding**. You specify the Oracle connection URI as one of the parameters to this method.  
   
 5.  Open the listener.  
   

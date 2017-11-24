@@ -98,7 +98,7 @@ Complete the [Walkthrough: Modifying the Policy](../core/walkthrough-modifying-t
   
 -   The policy tracking information is very similar to the tracking information you see in Business Rule Composer when you test a policy.  
   
--   Although the orchestration name is RuleTest.odx, you see the name of the orchestration as Orchestration_1, because the Type Name for the orchestration is set to Orchestration_1 even though the Name is changed. Tracking is showing you the orchestration name in the format \<Namespace>.\<Type Name>.  
+-   Although the orchestration name is RuleTest.odx, you see the name of the orchestration as Orchestration_1, because the Type Name for the orchestration is set to Orchestration_1 even though the Name is changed. Tracking is showing you the orchestration name in the format \<Namespace\>.\<Type Name\>.  
   
 -   If you delete a policy from a BizTalk application by using the BizTalk Server Administration console, the tool deletes the policy not only from the application, but also from the rule engine database. You will no longer see the policy in Business Rule Composer (press F5 to refresh). Therefore, you should be careful when deleting a policy from an application.  
   

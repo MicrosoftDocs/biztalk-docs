@@ -82,7 +82,7 @@ You can use this procedure to move the BAM Notification Services database to ano
   
     3.  At the command prompt, type:  
   
-         **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername> -database:\<database>**  
+         **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername\> -database:\<database\>**  
   
         > [!NOTE]  
         >  When running this command, substitute the actual name of the server from which to get the configuration information for <servername> and substitute the actual name of the database from which to get the configuration information for <database>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](http://go.microsoft.com/fwlink/?LinkId=156516) (http://go.microsoft.com/fwlink/?LinkId=156516) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  

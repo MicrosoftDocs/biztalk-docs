@@ -61,10 +61,10 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
   
 2.  The receive pipeline process the interchange without splitting the transaction sets, converting the two transaction sets as a unit into internal XML format.  
   
-3.  The receive pipeline promotes the same properties as if the interchange were not a batch, with the exception that it will applied a reserved tag to the XML that it generates. This tag is \<X12InterchangeXml> for an X12-encoded EDI interchange or \<EdifactInterchangeXml> for an EDIFACT-encoded EDI interchange. The EDI receive pipeline also applies the context property `ReuseEnvelope` to identify the interchange as preserved.  
+3.  The receive pipeline promotes the same properties as if the interchange were not a batch, with the exception that it will applied a reserved tag to the XML that it generates. This tag is \<X12InterchangeXml\> for an X12-encoded EDI interchange or \<EdifactInterchangeXml\> for an EDIFACT-encoded EDI interchange. The EDI receive pipeline also applies the context property `ReuseEnvelope` to identify the interchange as preserved.  
   
     > [!NOTE]
-    >  The EDI send pipeline uses the \<X12InterchangeXml> or \<EdifactInterchangeXml> tag to identify the message as a preserved batch. The `ReuseEnvelope` context property enables you to create a send port that subscribes to all batched interchanges that are preserved.  
+    >  The EDI send pipeline uses the \<X12InterchangeXml\> or \<EdifactInterchangeXml\> tag to identify the message as a preserved batch. The `ReuseEnvelope` context property enables you to create a send port that subscribes to all batched interchanges that are preserved.  
   
 4.  The receive pipeline drops the message XML file into the MessageBox.  
   
@@ -125,7 +125,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
     > [!NOTE]
     >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
-2.  Right-click your project, point to **Add**, and then click **Existing Item**. Move to **\<drive>:\Program Files\Microsoft BizTalk Server 2009\XSD_Schema\EDI\X12\00401**, and then double-click the schema corresponding to your test message.  
+2.  Right-click your project, point to **Add**, and then click **Existing Item**. Move to **\<drive\>:\Program Files\Microsoft BizTalk Server 2009\XSD_Schema\EDI\X12\00401**, and then double-click the schema corresponding to your test message.  
   
     > [!NOTE]
     >  If the EDI schemas have not been unzipped into the XSD_SchemaEDI folders, execute the **MicrosoftEdiXSDTemplates.exe** file in the XSD_SchemaEDI folder to unzip the schemas into the default folder.  

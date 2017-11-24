@@ -42,7 +42,7 @@ You use the header schema to validate the header (MSH segment) of the message in
   
 1.  Start **Visual Studio 2012 Command Prompt**.  
   
-2.  At the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt, change your directory to the \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial folder.  
+2.  At the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt, change your directory to the \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial folder.  
   
 3.  At the command prompt, type **sn –k key.snk**, and then press **Enter**. Ensure that a success message appears in the output window.  
   
@@ -55,7 +55,7 @@ You use the header schema to validate the header (MSH segment) of the message in
   
 6.  In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.  
   
-7.  In the Assembly Key File dialog box, browse to \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial, click **key.snk**, and then click **Open**.  
+7.  In the Assembly Key File dialog box, browse to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial, click **key.snk**, and then click **Open**.  
   
 8.  In the Interrogative_2XSchemas Property Pages dialog box, click **OK** to save your changes.  
   

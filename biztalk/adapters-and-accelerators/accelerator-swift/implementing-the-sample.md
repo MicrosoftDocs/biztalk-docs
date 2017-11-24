@@ -17,15 +17,15 @@ manager: "anneta"
 # Implementing the Sample
 To implement the sample, proceed as follows:  
   
-1.  Create a new folder for SWIFT schemas (\<DocumentSchemaLocation> in the utility syntax). All schemas for which you are going to create/modify the InfoPath forms must be located in this folder when you execute the utility.  
+1.  Create a new folder for SWIFT schemas (\<DocumentSchemaLocation\> in the utility syntax). All schemas for which you are going to create/modify the InfoPath forms must be located in this folder when you execute the utility.  
   
-2.  If you are generating InfoPath forms for MT messages then copy **SWIFT Base Types.xsd** and **SWIFT Common Data Types.xsd** from **\<drive :> \Program Files\Microsoft BizTalk Accelerator for SWIFT \<Message Pack Version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<Message Pack Version>\Base Schemas** into the folder that you created for SWIFT schemas.  
+2.  If you are generating InfoPath forms for MT messages then copy **SWIFT Base Types.xsd** and **SWIFT Common Data Types.xsd** from **\<drive :\> \Program Files\Microsoft BizTalk Accelerator for SWIFT \<Message Pack Version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<Message Pack Version\>\Base Schemas** into the folder that you created for SWIFT schemas.  
   
 3.  Copy all schemas for which you are going to create InfoPath forms into the folder that you created for SWIFT schemas in Step 1.  
   
-4.  Create or designate a folder to hold the created InfoPath form template solution files (\<DestinationFolderPath> in the utility syntax). If you do not create the output folder, the utility will create the same with path and name that you pass on the command line.  
+4.  Create or designate a folder to hold the created InfoPath form template solution files (\<DestinationFolderPath\> in the utility syntax). If you do not create the output folder, the utility will create the same with path and name that you pass on the command line.  
   
-5.  [Optional]-  Create a text file \<NameOfFileContainingSchemaList> that lists the message types for messages for which the InfoPath form is to be generated. For e.g. Message Type can be MT103, MT102 etc. The Message names can directly be passed through the command line instead of creating this text file.  
+5.  [Optional]-  Create a text file \<NameOfFileContainingSchemaList\> that lists the message types for messages for which the InfoPath form is to be generated. For e.g. Message Type can be MT103, MT102 etc. The Message names can directly be passed through the command line instead of creating this text file.  
   
 ## Syntax of Command usage for FormGenerator.exe  
   

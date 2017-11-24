@@ -38,7 +38,7 @@ In Store and Forward (SnF) mode, messages are delivered to a queue at send time,
 ## Sessions  
  When acquiring a queue, a session is started. The Sw:SnFSessionId is returned for every message that is delivered by SWIFTNet SnF. The Sw:SnFSessionId contains the queue name, the session mode: push, and a session number. The session number is incremented for every session. An example is:  
   
- **\<Sw:SnFSessionId>bankwxyz_applicq1:p:000458\</Sw:SnFSessionId>**  
+ **\<Sw:SnFSessionId\>bankwxyz_applicq1:p:000458\</Sw:SnFSessionId\>**  
   
  The “p” indicates a push session. A session can also be seen as a reservation of the queue by an Authorizer. The subsequent messages have to be acknowledged by the same Authorizer.  
   

@@ -44,7 +44,7 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
 |BizTalk &#124; Search Refresh<br /><br /> Refreshes the search results in the source schema, destination schema, or the grid page.|CTRL+M, CTRL+B|  
 |BizTalk &#124; Show Linked Nodes (source schema)<br /><br /> Shows all the linked nodes in the source schema.|CTRL+M, CTRL+H|  
 |BizTalk &#124; Show Linked Nodes (destination schema)<br /><br /> Shows all the linked nodes in the destination schema.|CTRL+M, CTRL+D|  
-|BizTalk &#124; Configure Functoid Inputs<br /><br /> Opens the **Configure \<Functoid> Functoid** dialog where you can configure the input parameters for the selected functoid.|CTRL+M, CTRL+I<br /><br /> Select the functoid + ENTER|  
+|BizTalk &#124; Configure Functoid Inputs<br /><br /> Opens the **Configure \<Functoid\> Functoid** dialog where you can configure the input parameters for the selected functoid.|CTRL+M, CTRL+I<br /><br /> Select the functoid + ENTER|  
 |BizTalk &#124; Search<br /><br /> Enables you to search for items in the source schema, the destination schema, and the grid surface.|CTRL+M, CTRL+F|  
 |BizTalk &#124; Search Options<br /><br /> Enables you to search for specific items.|CTRL+M, CTRL+O|  
 |BizTalk &#124; Search Previous<br /><br /> Looks for the search string in the previous instances of search.|CTRL+M, CTRL+J<br /><br /> UP ARROW|  

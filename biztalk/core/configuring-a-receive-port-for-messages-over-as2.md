@@ -33,7 +33,7 @@ To receive an AS2 message with an EDI or non-EDI payload, create an HTTP receive
 |**Receive Location Properties: General**|Receive handler|BizTalkServerIsolatedHost|  
 |**Receive Location Properties: General**|Receive pipeline|-   AS2EdiReceive (if the payload is EDI-encoded)<br />-   AS2Receive (if the payload is not EDI-encoded) **Note:**  When using the AS2EdiReceive pipeline, you must add the user account that the BizTalk Isolated Host Instance process is running under to the BizTalk Application Users group. The AS2EdiReceive pipeline executes in the BizTalk Isolated Host Instance process. The AS2EdiReceive pipeline accesses the SSO store, which requires that the user is in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Application Users group.|  
 |**Receive Location Properties: General**|Send pipeline|AS2Send|  
-|**HTTP Transport Properties**|Virtual directory plus ISAPI extension|/\<name of virtual directory>/BTSHTTPReceive.dll|  
+|**HTTP Transport Properties**|Virtual directory plus ISAPI extension|/\<name of virtual directory\>/BTSHTTPReceive.dll|  
 |**HTTP Transport Properties**|Request-Response Return content type|text/xml|  
   
 ## Functionality of the Receive Location in Synchronous and Asynchronous Modes  

@@ -57,7 +57,7 @@ manager: "anneta"
 2.  Because you are performing two operations using the same send port, you must use dynamic action mapping to specify the action for the operation. While configuring the port, in the **Action** box, specify the action mapping in the following manner:  
   
     ```  
-    \<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+    <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
       <Operation Name="UpdateEmp" Action="TypedProcedure/dbo/UPDATE_EMPLOYEE" />  
       <Operation Name="InsertPO" Action="TableOp/Insert/dbo/Purchase_Order" />  
     </BtsActionMapping>  

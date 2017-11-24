@@ -25,7 +25,7 @@ In this step, you create the send port to generate acknowledgments using the Fil
   
 ### To create the Tutorial_sendAck_ADT send port  
   
-1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, create the \<*drive*:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendAck_ADT folder.  
+1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, create the \<*drive*:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendAck_ADT folder.  
   
 2.  In the BizTalk Server Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
   
@@ -41,7 +41,7 @@ In this step, you create the send port to generate acknowledgments using the Fil
   
     |Use this|To do this|  
     |--------------|----------------|  
-    |**Destination folder**|Browse to **\<***drive***:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendAck_ADT**.|  
+    |**Destination folder**|Browse to **\<***drive***:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendAck_ADT**.|  
     |**File name**|Type **%MessageID%.txt** (replace the .xml extension with the .txt extension).|  
   
 5.  In the Send Port Properties dialog box, for **Send pipeline**, select **BTAHL72XPipelines.BTAHL72XSendPipeline**.  
@@ -68,7 +68,7 @@ In this step, you create the send port to generate acknowledgments using the Fil
     |**Value**|Type **Tutorial_ADTSystem**.|  
   
     > [!NOTE]
-    >  For the send port Tutorial_sendAck_ADT, BTAHL7 drops the acknowledgments at the file drop location \<*drive*>:Program FilesMicrosoft BizTalk <version> Accelerator for HL7SDKEnd-to-End TutorialTutorial_sendAck_ADT.  
+    >  For the send port Tutorial_sendAck_ADT, BTAHL7 drops the acknowledgments at the file drop location \<*drive*\>:Program FilesMicrosoft BizTalk <version> Accelerator for HL7SDKEnd-to-End TutorialTutorial_sendAck_ADT.  
   
 7.  Click **Apply**, and then click **OK.**  
   

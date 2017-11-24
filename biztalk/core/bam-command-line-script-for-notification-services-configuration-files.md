@@ -22,7 +22,7 @@ Administrators use the ProcessBamNSFiles.vbs script to customize the behavior of
 ## Get command  
  **Usage**  
   
- **cscript ProcessBamNSFiles -Get \<configuration file path> \<ADF file path>  \<primary import server> \<primary import database>**  
+ **cscript ProcessBamNSFiles -Get \<configuration file path\> \<ADF file path\>  \<primary import server\> \<primary import database\>**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -36,7 +36,7 @@ Administrators use the ProcessBamNSFiles.vbs script to customize the behavior of
 ## Update command  
  **Usage**  
   
- **cscript ProcessBamNSFiles -Update \<configfilepath> \<adffilepath>  \<primaryimport server> \<primary import db>**  
+ **cscript ProcessBamNSFiles -Update \<configfilepath\> \<adffilepath\>  \<primaryimport server\> \<primary import db\>**  
   
 |Parameter|Description|  
 |---------------|-----------------|  

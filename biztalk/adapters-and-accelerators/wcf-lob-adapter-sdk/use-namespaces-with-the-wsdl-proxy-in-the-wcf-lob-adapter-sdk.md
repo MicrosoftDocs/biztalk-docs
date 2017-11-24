@@ -17,7 +17,7 @@ manager: "anneta"
 # Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] generates WSDL and proxies for an adapter using values supplied by the developer using the [!INCLUDE[afdevwizardnamelong](../../includes/afdevwizardnamelong-md.md)] or specified in code through modification of the SERVICENAMESPACE private variable and/or the `Namespace` property of the adapter.  
   
- The schema types and elements defined within the \<wsdl:types>\<schema> use the {OperationNamespace} by default. If a particular type has an overridden TypeNamespace set in the **TypeMetadata** object, that namespace is used for the complex type and/or or element definition.  
+ The schema types and elements defined within the \<wsdl:types\>\<schema\> use the {OperationNamespace} by default. If a particular type has an overridden TypeNamespace set in the **TypeMetadata** object, that namespace is used for the complex type and/or or element definition.  
   
 ## Impact on WSDL  
  The following table shows how the different namespaces in a custom adapter affect the corresponding WSDL. In the table, ~{OperationNamespace} is the class namespace mapping of a URI; for example, if {OperationNamespace} is "myscheme://a.b/c", ~{OperationNamespace} will be myscheme.a.b.c.  
@@ -25,11 +25,11 @@ The [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] genera
 |WSDL Construct|Syntax|  
 |--------------------|------------|  
 |WSDL targetNamespace,<br /><br /> Xmlns:ts|{Custom}Adapter.Namespace|  
-|\<wsdl:portType>|{scheme}.~{OperationNamespace}|  
+|\<wsdl:portType\>|{scheme}.~{OperationNamespace}|  
 |WSDL Input Message Name|{scheme}.~{OperationNamespace}_{OperationName}_InputMessage|  
 |WSDL Output Message Name|{scheme}.~{OperationNamespace}_{OperationName}_OutputMessage|  
-|\<wsdl:types>\<schema> targetNamespace|{scheme}://{OperationNamespace}|  
-|\<element>\<complexType>|Use {TypeNamespace} if its value is not null or empty.|  
+|\<wsdl:types\>\<schema\> targetNamespace|{scheme}://{OperationNamespace}|  
+|\<element\>\<complexType\>|Use {TypeNamespace} if its value is not null or empty.|  
   
 ## Impact on Proxy  
  Three different attributes in the proxy are affected by namespaces:  

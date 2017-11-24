@@ -24,7 +24,7 @@ In this lesson, you build and deploy the project to generate an assembly that co
   
  Deploying an assembly places a copy of the assembly in the Configuration database and installs it in the global assembly cache (GAC). In the following procedure, you deploy directly from Solution Explorer.  
   
- When the project compiles into an assembly (DLL file), [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] saves the DLL in the \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for SWIFT\bin\Development folder within the project folder.  
+ When the project compiles into an assembly (DLL file), [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] saves the DLL in the \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for SWIFT\bin\Development folder within the project folder.  
   
 ### To build and deploy the project  
   
@@ -33,7 +33,7 @@ In this lesson, you build and deploy the project to generate an assembly that co
     > [!NOTE]
     >  Verify that **Build Succeeded** appears in the lower left-hand corner of the screen. During the compilation process, you may see some status messages. These messages are normal when dealing with the SWIFT schemas. If any errors appear, click Tools, and then click BizTalk Server Administration to open the BizTalk Server Administration Console. Use the Event Viewer and the Health and Activity Tracking (HAT) feature in the BizTalk Administration Console to correct your errors and rebuild.  
   
-2.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*>:\labs\SWIFTProject\SWIFTSchemas\bin\Development** folder, and verify that the **SWIFTSchemas.dll** file exists in this folder.  
+2.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*\>:\labs\SWIFTProject\SWIFTSchemas\bin\Development** folder, and verify that the **SWIFTSchemas.dll** file exists in this folder.  
   
 3.  In Solution Explorer, right-click **SWIFTSchemas**, and then click **Deploy**.  
   

@@ -98,7 +98,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
  -or-  
   
- Error in terminating BAM message activity with id *\<ID number>*.  
+ Error in terminating BAM message activity with id *\<ID number\>*.  
   
 ### Possible Cause  
  The Business Activity Monitoring (BAM) tracking tool is not installed.  
@@ -119,7 +119,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
  For example:  
   
- \<schemaInfo document_type="4A1" version="V02_00" xmlns="http://schemas.microsoft.com/BizTalk/2003" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" />  
+ \<schemaInfo document_type="4A1" version="V02_00" xmlns="http://schemas.microsoft.com/BizTalk/2003" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" \>  
   
 ## 404 Not found error when sending a HTTP request  
   
@@ -140,7 +140,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
 1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  Expand **\<computer name> (local computer)**, and then click **Web Service Extensions**.  
+2.  Expand **\<computer name\> (local computer)**, and then click **Web Service Extensions**.  
   
 3.  In the **Web Service Extension** pane, verify that the status for HwsMessages HttpReceive is Allowed. If not, right-click **HwsMessages HttpReceive**, and then click **Allow**.  
   
@@ -150,11 +150,11 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
 1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  Expand **\<computer name> (local computer)**, right-click **Web Service Extensions**, and then click **Add a new Web service extension**.  
+2.  Expand **\<computer name\> (local computer)**, right-click **Web Service Extensions**, and then click **Add a new Web service extension**.  
   
 3.  In the **New Web Service Extension** dialog box, in the **Extension Name** box, type **BizTalk ISAPI Extension**, and then click **Add**.  
   
-4.  In the **Add File** dialog box, in the **Path to file** box, type **\<drive>:\Program Files\Microsoft BizTalk Server \<version>\HttpReceive\BTSHttpReceive.dll**, and then click **OK**.  
+4.  In the **Add File** dialog box, in the **Path to file** box, type **\<drive\>:\Program Files\Microsoft BizTalk Server \<version\>\HttpReceive\BTSHttpReceive.dll**, and then click **OK**.  
   
 5.  In the **New Web Service Extension** dialog box, select **Set extension status to Allowed**, and then click **OK**.  
   
@@ -166,10 +166,10 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
  A BizTalk isolated host instance configured with the user account '\HostSvc' was either not running or does not exist on this computer. Use the BizTalk Administration Console to create a new isolated host or reconfigure an existing to run as '\hostsvc'.  
   
 ### Possible Cause  
- To run the Configuration Wizard, the user should be configured as '\<*machine name*>\hostsvc', not '\hostsvc'.  
+ To run the Configuration Wizard, the user should be configured as '\<*machine name*\>\hostsvc', not '\hostsvc'.  
   
 ### Solution  
- Open the BizTalk Administration Console, and change hosts that are running under the account '\hostsvc', so that they run under the account '\<*machine name*>\hostsvc'.  
+ Open the BizTalk Administration Console, and change hosts that are running under the account '\hostsvc', so that they run under the account '\<*machine name*\>\hostsvc'.  
   
 ## You receive an error when importing and compiling a RosettaNet Next Generation PIP schema  
   
@@ -277,7 +277,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
 1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  Expand **\<computer name> (local computer)**, right-click **Web Sites**, and then click **Properties**.  
+2.  Expand **\<computer name\> (local computer)**, right-click **Web Sites**, and then click **Properties**.  
   
 3.  Select **ISAPI Filters** tab.  
   
@@ -299,7 +299,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ## The HubScenario sample will not be installed correctly if the assembly key files are not entered for the projects  
   
 ### Symptom  
- When you run setup.bat in *\<drive>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version> Accelerator for RosettaNet\SDK\HubScenario to set up the HubScenario sample, the operation fails.  
+ When you run setup.bat in *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario to set up the HubScenario sample, the operation fails.  
   
 ### Possible Cause  
  The HubScenario and HubHelper assemblies were not deployed correctly because the assembly key files were not set in the projects.  

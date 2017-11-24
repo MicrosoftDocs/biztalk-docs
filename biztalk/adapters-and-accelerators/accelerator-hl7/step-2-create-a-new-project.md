@@ -33,7 +33,7 @@ In this step, you build a new solution by using the [!INCLUDE[btsCoName](../../i
   
 5.  In the **Name** field, type **BTAHL7V22Common** as the project name.  
   
-6.  In the **Location** field, type *\<drive>***:\Tutorial** as the path, and then click **OK** to open the new project.  
+6.  In the **Location** field, type *\<drive\>***:\Tutorial** as the path, and then click **OK** to open the new project.  
   
     > [!NOTE]
     >  BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) adds a new project to Solution Explorer with the three common schemas:  
@@ -44,7 +44,7 @@ In this step, you build a new solution by using the [!INCLUDE[btsCoName](../../i
   
     -   tablevalues_22.xsd  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates the project folder and files in the \<*drive*>:\Tutorial\BTAHL7V22Common folder.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates the project folder and files in the \<*drive*\>:\Tutorial\BTAHL7V22Common folder.  
   
 7.  On the **File** menu, point to **New**, and then click **Project**.  
   
@@ -54,7 +54,7 @@ In this step, you build a new solution by using the [!INCLUDE[btsCoName](../../i
   
 10. In the **Name** field, type **BTAHL7V2XCommon** as the project name.  
   
-11. In the **Location** field, type *\<drive>***:\Tutorial** as the path.  
+11. In the **Location** field, type *\<drive\>***:\Tutorial** as the path.  
   
 12. In the **Solution** field, select **Add to Solution**, and then click **OK**.  
   
@@ -67,7 +67,7 @@ In this step, you build a new solution by using the [!INCLUDE[btsCoName](../../i
   
     -   MSH_25_GLO_DEF.xsd  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates the project folder and files in the **\<drive>:\Tutorial\BTAHL7V22Common\BTAHL72XCommon** folder.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates the project folder and files in the **\<drive\>:\Tutorial\BTAHL7V22Common\BTAHL72XCommon** folder.  
   
  Proceed to [Step 3: Assign a Strong Name to the Assembly](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md).  
   

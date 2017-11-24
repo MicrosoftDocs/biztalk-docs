@@ -35,4 +35,4 @@ manager: "anneta"
   
 3.  Once the master policies have been modified, publish all polices using the Business Rule Engine Deployment Wizard. Use the following option: Import the policy/vocabulary file to database.  
   
-4.  Click Programs, click BizTalk Server \<version>, click Business Rule Composer, and then deploy the six published polices.
+4.  Click Programs, click BizTalk Server \<version\>, click Business Rule Composer, and then deploy the six published polices.

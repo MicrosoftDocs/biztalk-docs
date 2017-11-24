@@ -29,7 +29,7 @@ Complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact
   
     |**Use this**|**To do this**|  
     |------------------|--------------------|  
-    |**Arguments**|Type the following argument: -SagMessagePartner \<Fileact Client Message Partner created in SAG> **Note:**  The client in the argument is the MessagePartner you configured in SAG.|  
+    |**Arguments**|Type the following argument: -SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.|  
     |**Crypto Mode**|From the drop-down list, select **Advanced**.|  
     |**FACryptoMode**|From the drop-down list, select **Advanced**.|  
     |**LogMessages**|From the drop-down list, select **TRUE**. This enables the message events to be captured and tracked in the BAM portal.|  
@@ -54,7 +54,7 @@ Complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact
   
     |**Use this**|**To do this**|  
     |------------------|--------------------|  
-    |**Arguments**|Type the following argument: –SagMessagePartner \<Fileact Client Message Partner created in SAG> **Note:**  The client in the argument is the MessagePartner you configured in SAG.|  
+    |**Arguments**|Type the following argument: –SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.|  
     |**Crypto Mode**|From the drop-down list, select **Advanced**.|  
     |**LogMessageBody**|From the drop-down list, select **TRUE**. This enables the message events to be captured and tracked in the BAM portal. **Note:**  If you set to TRUE, it preserves the message body in the BizTalk Tracking database. However, for security reasons, the message body can never be viewed in the BAM portal.|  
     |**LogMessages**|From the drop-down list, select **TRUE**. This enables the message events to be captured and tracked in the BAM portal.|  

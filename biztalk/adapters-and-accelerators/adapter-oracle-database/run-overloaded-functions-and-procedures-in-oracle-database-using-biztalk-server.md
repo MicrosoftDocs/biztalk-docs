@@ -21,18 +21,18 @@ Stored procedures and functions can be overloaded in an Oracle database. The [!I
   
 ```  
 Stored Procedure Overload 1:  
-\<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload1">    
-  \<[PRM1_NAME]>value1\</[PRM1_NAME]>  
-  \<[PRM2_NAME]>value1\</[PRM2_NAME]>  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload1">    
+  <[PRM1_NAME]>value1</[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</[PRM2_NAME]>  
   …  
-\</[SP_NAME]>  
+</[SP_NAME]>  
   
 Stored Procedure Overload 2:  
-\<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload2">    
-  \<[PRM1_NAME]>value1\</I_[PRM1_NAME]>  
-  \<[PRM2_NAME]>value1\</I_[PRM2_NAME]>  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload2">    
+  <[PRM1_NAME]>value1</I_[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</I_[PRM2_NAME]>  
   …  
-\</[SP_NAME]>  
+</[SP_NAME]>  
 ```  
   
  The SOAP message structure and the SOAP action required to invoke an overloaded function or procedure is similar to invoking a function and procedure, as described under [Message Schemas for Functions and Procedures](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md).  
@@ -262,7 +262,7 @@ Stored Procedure Overload 2:
  The orchestration consumes the request messages and sends them to the Oracle database. The response from the Oracle database is saved at other FILE location defined as part of the orchestration. For example, the response for invoking the first overloaded procedure is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <GET_ACCOUNTResponse mlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT/overload1">  
  <ACCT>  
   <ACCTID>100001</ACCTID>  

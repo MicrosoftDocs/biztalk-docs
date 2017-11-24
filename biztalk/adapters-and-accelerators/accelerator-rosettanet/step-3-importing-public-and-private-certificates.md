@@ -29,9 +29,9 @@ In this step, you import the certificates you created in [Step 2: Creating Publi
   
 1.  On the Contoso computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to **\<***drive***>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK** and then press **Enter**.  
+2.  At the command prompt, move to **\<***drive***\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.  
   
-3.  At the command prompt, type **CertWizard /Privatekey "\<***drive***>:\Certs\Contoso Private Encryption.pfx"**, and then press **Enter**.  
+3.  At the command prompt, type **CertWizard /Privatekey "\<***drive***\>:\Certs\Contoso Private Encryption.pfx"**, and then press **Enter**.  
   
 4.  At the **Please enter the password for the certificate file** prompt, type **mysecret**, and then press **Enter**.  
   
@@ -50,21 +50,21 @@ In this step, you import the certificates you created in [Step 2: Creating Publi
   
 1.  On the Contoso computer, click **Start**, click **Run,** type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to *\<drive>***:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK** and then press **Enter**.  
+2.  At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.  
   
-3.  At the command prompt, type **CertWizard /Publickey "***\<drive>***:\Certs\Fabrikam Public Encryption.cer"**, and then press **Enter**.  
+3.  At the command prompt, type **CertWizard /Publickey "***\<drive\>***:\Certs\Fabrikam Public Encryption.cer"**, and then press **Enter**.  
   
 4.  Repeat step 3 for the Fabrikam Public Signature.cer certificate.  
   
 ### To import the Fabrikam private certificates on the Fabrikam computer  
   
-1.  Copy the following files from the Contoso computer to the \<drive>:\Certs folder on the Fabrikam computer: Contoso Public Encryption.cer, Contoso Public Signature.cer, Fabrikam Private Encryption.pfx, and Fabrikam Private Signature.pfx.  
+1.  Copy the following files from the Contoso computer to the \<drive\>:\Certs folder on the Fabrikam computer: Contoso Public Encryption.cer, Contoso Public Signature.cer, Fabrikam Private Encryption.pfx, and Fabrikam Private Signature.pfx.  
   
 2.  On the Fabrikum computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-3.  At the command prompt, move to *\<drive>***:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK** and then press **Enter**.  
+3.  At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.  
   
-4.  At the command prompt, type **CertWizard /Privatekey "***\<drive>***:\Certs\Fabrikam Private Encryption.pfx"**, and then press **Enter**.  
+4.  At the command prompt, type **CertWizard /Privatekey "***\<drive\>***:\Certs\Fabrikam Private Encryption.pfx"**, and then press **Enter**.  
   
 5.  At the **Please enter the password for the certificate file** prompt, type **mysecret**, and then press **Enter**.  
   
@@ -83,9 +83,9 @@ In this step, you import the certificates you created in [Step 2: Creating Publi
   
 1.  On the Fabrikum computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to *\<drive>***:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK** and then press **Enter**.  
+2.  At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.  
   
-3.  At the command prompt, type **CertWizard /Publickey "***\<drive>***:\Certs\Contoso Public Encryption.cer"**, and then press **Enter**.  
+3.  At the command prompt, type **CertWizard /Publickey "***\<drive\>***:\Certs\Contoso Public Encryption.cer"**, and then press **Enter**.  
   
 4.  Repeat step 3 for the Contoso Public Signature.cer certificate.  
   

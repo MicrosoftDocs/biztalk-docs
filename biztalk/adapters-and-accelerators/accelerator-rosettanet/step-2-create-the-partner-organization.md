@@ -22,7 +22,7 @@ In this step, you create the partner organization using the [!INCLUDE[btsCoName]
   
 ### To create the partner organization  
   
-1.  In the  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand **BizTalk \<version> Accelerator for RosettaNet**, right-click **Partners**, click **New**, and then click **Partner**.  
+1.  In the  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand **BizTalk \<version\> Accelerator for RosettaNet**, right-click **Partners**, click **New**, and then click **Partner**.  
   
 2.  In the **New Partner Properties** dialog box, do the following:  
   

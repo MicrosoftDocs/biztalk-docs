@@ -63,7 +63,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
 4.  In the event of a failure while updating the BTSCompensationSampleMailingList database, an exception is raised and a ten-second delay takes place before rewriting the original customer data back to the Northwind database.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Orchestrations\Compensation\  
+ \<*Samples Path*\>\Orchestrations\Compensation\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -99,7 +99,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
 1.  In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Orchestrations\Compensation\  
+     \<*Samples Path*\>\Orchestrations\Compensation\  
   
 2.  Run Setup.bat, which performs the following actions:  
   
@@ -111,7 +111,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
     2.  On the **Create Web Service** page, select **Publish BizTalk orchestration as web services**, and then click **Next**.  
   
-    3.  On the **BizTalk Assembly** page, browse and select \<*Samples Path*>\Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll, and then click **Next**.  
+    3.  On the **BizTalk Assembly** page, browse and select \<*Samples Path*\>\Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll, and then click **Next**.  
   
     4.  On the **Orchestrations and Ports** page, click **Next**.  
   
@@ -143,7 +143,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
 -   Give the BizTalk Application Users group db_owner permission to the **BTSCompensationSampleMailingList** and **Northwind** databases.  
   
--   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not installed in the default location (drive:\Program Files\Microsoft BizTalk Server \<version>\\), you must publish the Contact Info Update.xsn form before using it. To do so, do the following.  
+-   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not installed in the default location (drive:\Program Files\Microsoft BizTalk Server \<version\>\\), you must publish the Contact Info Update.xsn form before using it. To do so, do the following.  
   
     #### To publish the InfoPath form  
   
@@ -153,7 +153,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
     3.  In the **Miscellaneous** section, ensure that the **Access data sources across domains** setting is enabled, and then click **OK**. This setting is required for the InfoPath user interface solution scripting code to run.  
   
-    4.  In Windows Explorer, navigate to \<*Samples Path*>\Orchestrations\Compensation\InfoPath, right-click **Contact Info Update.xsn** and then click **Design**.  
+    4.  In Windows Explorer, navigate to \<*Samples Path*\>\Orchestrations\Compensation\InfoPath, right-click **Contact Info Update.xsn** and then click **Design**.  
   
     5.  The InfoPath Contact Info Update solution opens in design mode.  
   
@@ -161,7 +161,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
     7.  The Publish Wizard appears.  
   
-    8.  Select **To a shared folder on this computer or on a network** and publish the solution to the path \<*Samples Path*>\Orchestrations\Compensation\InfoPath\Contact Info Update.xsn.  
+    8.  Select **To a shared folder on this computer or on a network** and publish the solution to the path \<*Samples Path*\>\Orchestrations\Compensation\InfoPath\Contact Info Update.xsn.  
   
     9. Close the design mode InfoPath.  
   
@@ -175,7 +175,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
     3.  On the **File** menu, select **Submit**, and click **Submit**.  
   
-    4.  The response document should appear in the \<*Samples Path*>\Orchestrations\Compensation\Out folder, and both the Northwind and the BTSCompensationSampleMailingList databases should be updated with the new data from the InfoPath form.  
+    4.  The response document should appear in the \<*Samples Path*\>\Orchestrations\Compensation\Out folder, and both the Northwind and the BTSCompensationSampleMailingList databases should be updated with the new data from the InfoPath form.  
   
         > [!NOTE]
         >  You can detach the BTSCompensationSampleMailingList database or take it offline to test the compensation action that the orchestration performs. Observe that the record is updated in the Northwind database first. Then, when the orchestration tries to update the BTSCompensationSampleMailingList database, because that database is detached, the update fails. Therefore, an exception is raised and there is a ten-second delay before the compensation action takes place to write the original customer data back to the Northwind database.  
@@ -189,7 +189,7 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
 1.  In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Orchestrations\Compensation\  
+     \<*Samples Path*\>\Orchestrations\Compensation\  
   
 2.  Run Cleanup.bat.  
   

@@ -41,7 +41,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise logs error, warning, and inf
   
      For the consumer application to be able to read the event in the .etl file, Event Tracing for Windows must dump them into that file. Typically this is done when the controller deactivates the tracing.  
   
-     To use the consumer without deactivating the trace, the controller must activate the trace with the real time option, \<Real time> = -rt.  
+     To use the consumer without deactivating the trace, the controller must activate the trace with the real time option, \<Real time\> = -rt.  
   
 -   **Provider:** Provides the event.  
   
@@ -49,15 +49,15 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise logs error, warning, and inf
   
  BizTalk Adapter for PeopleSoft Enterprise has five providers, allowing you to log different kinds of messages:  
   
--   **Receiver Logging Provider**: The \<Trace element> switch is **-receiver**.  
+-   **Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.  
   
--   **Receiver CastDetails Provider**: The \<Trace element> switch is **-castDetailsReceive**.  
+-   **Receiver CastDetails Provider**: The \<Trace element\> switch is **-castDetailsReceive**.  
   
--   **Transmitter Logging Provider**: The \<Trace element> switch is **-transmitter**.  
+-   **Transmitter Logging Provider**: The \<Trace element\> switch is **-transmitter**.  
   
--   **Transmitter CastDetails Provider**: The \<Trace element> switch is **-castDetailsTransmit**.  
+-   **Transmitter CastDetails Provider**: The \<Trace element\> switch is **-castDetailsTransmit**.  
   
--   **Management Logging Provider**: The \<Trace element> switch is **-management**.  
+-   **Management Logging Provider**: The \<Trace element\> switch is **-management**.  
   
 ## BTAPeopleSoftTrace Command  
  To use ETW, run the adapter command, **BTAPeopleSoftTrace.cmd**. You use this command as follows:  
@@ -70,7 +70,7 @@ BTAPeopleSoftTrace <Trace element> -stop
   
  Where:  
   
--   \<Trace element> (required) is the kind of provider.  
+-   \<Trace element\> (required) is the kind of provider.  
   
      Options are as follows:  
   
@@ -86,9 +86,9 @@ BTAPeopleSoftTrace <Trace element> -stop
   
     -   **-start, -stop**: Activate or deactivate the provider.  
   
--   **-cir \<MB>**: Size and kind of file. -cir is a circular file. \<MB>: Size in megabytes.  
+-   **-cir \<MB\>**: Size and kind of file. -cir is a circular file. \<MB\>: Size in megabytes.  
   
--   **-seq \<MB>**: Size and kind of file. -seq is a sequential file. \<MB>: Size in megabytes.  
+-   **-seq \<MB\>**: Size and kind of file. -seq is a sequential file. \<MB\>: Size in megabytes.  
   
 -   **-rt**: Set the real time mode on.  
   

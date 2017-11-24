@@ -64,7 +64,7 @@ You need FILE send and receive ports for the Batch In/Batch Out tutorial. If you
   
     |Use this|To do this|  
     |--------------|----------------|  
-    |**Receive Folder**|Browse to **\<***drive***>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7PickUp**. **Note:**  This is the path to the location on the file system or public share from where [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will pick up the file.|  
+    |**Receive Folder**|Browse to **\<***drive***\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7PickUp**. **Note:**  This is the path to the location on the file system or public share from where [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will pick up the file.|  
     |**File mask**|Type **\*.txt**.|  
   
 12. Click **OK**.  
@@ -96,7 +96,7 @@ You need FILE send and receive ports for the Batch In/Batch Out tutorial. If you
   
     |Use this|To do this|  
     |--------------|----------------|  
-    |**Destination folder**|Browse to **\<***drive***:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7Drop**. **Note:**  This is the path to the location on the file system or public share to which [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will write the file.|  
+    |**Destination folder**|Browse to **\<***drive***:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7Drop**. **Note:**  This is the path to the location on the file system or public share to which [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will write the file.|  
     |**File name**|Type **%MessageID%.txt** (note that the extension is txt, not xml).|  
   
 4.  Click **OK**.  

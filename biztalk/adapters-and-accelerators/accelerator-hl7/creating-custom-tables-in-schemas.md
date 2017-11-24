@@ -19,11 +19,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Creating Custom Tables in Schemas
-You can create a custom table in the tablevalues_\<*version*>.xsd common schema. You can base a custom table on an existing data type, a base data type, or on an enumeration defined in a table.  
+You can create a custom table in the tablevalues_\<*version*\>.xsd common schema. You can base a custom table on an existing data type, a base data type, or on an enumeration defined in a table.  
   
 ### To create a Z table  
   
-1.  In Solution Explorer, open the common data-type schema file **tablevalues_\<*version*>.xsd**, and then click **Open**.  
+1.  In Solution Explorer, open the common data-type schema file **tablevalues_\<*version*\>.xsd**, and then click **Open**.  
   
 2.  In BizTalk Editor, right-click **HL7DefinedTables**, point to **Insert Schema Node**, and then click **Child Field Element**.  
   

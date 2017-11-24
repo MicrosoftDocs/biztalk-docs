@@ -135,7 +135,7 @@ The AS2 Over File sample demonstrates how to receive an AS2 message over a FILE 
   
 2.  Verify that an output XML message is dropped into the \AS2 Over File\Out output folder.  
   
-3.  Open the input message SampleMessage.txt in a text editor, and open the output message \<GUID>.xml in a text editor. Verify that the SampleMessage.txt input message has HTTP (and AS2) headers and that the output message does not have HTTP headers.  
+3.  Open the input message SampleMessage.txt in a text editor, and open the output message \<GUID\>.xml in a text editor. Verify that the SampleMessage.txt input message has HTTP (and AS2) headers and that the output message does not have HTTP headers.  
   
 ## Classes or Methods Used in This Sample  
  None  

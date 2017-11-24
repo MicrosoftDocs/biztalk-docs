@@ -27,7 +27,7 @@ In this step, you configure the party information for the HI System.
   
 4.  In the Send Ports pane, click the blank field in the **Name** column, select **Tutorial_MllpSend**, and then click **OK**.  
   
-5.  Click **Start**, point to **Programs**, point to **Microsoft BizTalk \<version> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
+5.  Click **Start**, point to **Programs**, point to **Microsoft BizTalk \<version\> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
   
 6.  In BTAHL7 Configuration Explorer, select the **MSH Map** tab, and then do the following:  
   

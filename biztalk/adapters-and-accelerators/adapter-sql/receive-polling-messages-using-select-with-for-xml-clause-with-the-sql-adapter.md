@@ -82,7 +82,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
   
          You do this because you have already added the sqltypes.xsd schema to your BizTalk project.  
   
-    4.  Provide a target namespace for the schema. Click the **\<Schema>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlPolling/namespace`.  
+    4.  Provide a target namespace for the schema. Click the **\<Schema\>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlPolling/namespace`.  
   
 ## Defining Messages and Message Types  
  The schema that you generated earlier describes the "types" required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. Once the schema is generated, you must link it to the messages from the Orchestration view of the BizTalk project.  
@@ -200,7 +200,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
 -   The adapter executes the polling statement and receives a polling message from the SQL Server database. Because the polling statement consists of a SELECT statement with a FOR XML clause, the polling message received by the adapter resembles the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Root xmlns="http://ForXmlPolling/namespace">  
       <Employee Employee_ID="10765" Name="John" Designation="Tester" xmlns="" />   
       <Employee Employee_ID="10766" Name="Sam" Designation="Manager" xmlns="" />   

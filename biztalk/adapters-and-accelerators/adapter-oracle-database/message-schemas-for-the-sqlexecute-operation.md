@@ -55,7 +55,7 @@ manager: "anneta"
   
  [PARAM_VAL_1] = The value of the first parameter.  
   
- Each \<PARAMETERDATA> section contains a complete set of \<PARAMETER> elements that match the schema in the \<PARAMETERSCHEMA> section. The \<PARAMETERSET> can contain multiple \<PARAMETERDATA> sections. If this is the case, the SQL statement is executed multiple times, once against each parameter set.  
+ Each \<PARAMETERDATA\> section contains a complete set of \<PARAMETER\> elements that match the schema in the \<PARAMETERSCHEMA\> section. The \<PARAMETERSET\> can contain multiple \<PARAMETERDATA\> sections. If this is the case, the SQL statement is executed multiple times, once against each parameter set.  
   
 ## See Also  
  [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

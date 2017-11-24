@@ -37,13 +37,13 @@ Before you begin this step, you must complete [Step 3A: Add a FILE Receive Locat
     |------------------|--------------------|  
     |**Password**|Type the password you use to connect to SAG. See SAG Help for more information.|  
     |**User name**|Type the user name you use to connect to SAG.|  
-    |**Application name**|Type the Server \<Application Interface Name> for the SAG box routing set.|  
+    |**Application name**|Type the Server \<Application Interface Name\> for the SAG box routing set.|  
     |**Crypto Mode**|From the drop-down list, select **Advanced**.|  
     |**FACrypto Mode**|From the drop-down list, select **Advanced**.|  
     |**LogMessages**|From the drop-down list, select **TRUE**. This enables the message events to be captured and tracked in the BAM portal.|  
     |**MemberRef**|From the drop-down list, select **ResponsePayload**.|  
     |**Non-Repudiation Indicator**|From the drop-down list, select **FALSE**.|  
-    |**Responder**|Type the appropriate \<Responder> string, based on your provisioning with SWIFT.|  
+    |**Responder**|Type the appropriate \<Responder\> string, based on your provisioning with SWIFT.|  
     |**ResponseCrypto**|From the drop-down list, select **FALSE**.|  
     |**Acknowledgement Indicator**|From the drop-down list, select **ResponsePayload**.|  
     |**FileCompression**|From the drop-down list, select None.|  

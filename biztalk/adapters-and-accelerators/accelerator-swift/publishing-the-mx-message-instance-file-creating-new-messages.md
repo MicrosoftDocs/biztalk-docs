@@ -25,8 +25,8 @@ manager: "anneta"
   
 4.  In the Upload Document window, click **Browse**.  
   
-5.  In the Choose file dialog box, move to the output folder of the InfoPath form generated in the previous step **..\\<MessageType\>\TemplateDS\InfoPath Form Template**. Select the \<MessageType>.xml file such as pacs.004.001.01.xml, and then click **Open**.  
+5.  In the Choose file dialog box, move to the output folder of the InfoPath form generated in the previous step **..\\<MessageType\>\TemplateDS\InfoPath Form Template**. Select the \<MessageType\>.xml file such as pacs.004.001.01.xml, and then click **Open**.  
   
 6.  In the Upload Document window, click **OK**.  
   
-7.  In the New SWIFT MX Messages: \<MessageType> window, in the Namespace box, type **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageType>**, and then click **OK**.
+7.  In the New SWIFT MX Messages: \<MessageType\> window, in the Namespace box, type **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageType\>**, and then click **OK**.

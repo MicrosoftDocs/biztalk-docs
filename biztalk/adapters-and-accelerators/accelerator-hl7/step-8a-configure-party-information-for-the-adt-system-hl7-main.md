@@ -27,7 +27,7 @@ In this step, you configure the party information for the ADT System.
   
 4.  In the **Send Port** pane, for **Name** in the first row, select **ADT_Send**, and then click **OK**.  
   
-5.  Click **Start**, point to **Programs**, point to **Microsoft  BizTalk \<version> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
+5.  Click **Start**, point to **Programs**, point to **Microsoft  BizTalk \<version\> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
   
 6.  In BTAHL7 Configuration Explorer, click the **Acknowledgment** tab. For **Acknowledgment Type**, select **EnhancedMode**.  
   
