@@ -435,7 +435,7 @@ Complete these steps *only* if the setup wizard fails to register the adapter bi
   
 ###### Register the adapter bindings or the .NET Framework data providers  
   
-1.  Go to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
+1.  Go to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
   
 2.  Open the file using a text editor.  
   
@@ -722,7 +722,7 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
   
 ###### Remove the adapter bindings or .NET Framework Data Provider registration  
   
-1.  Go to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
+1.  Go to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
   
 2.  Open the file using a text editor.  
   
@@ -841,7 +841,7 @@ Complete this step to remove the custom RFCs that you installed in the SAP syste
   
 -   **Running setup on a 64-bit computer might throw an error while accessing schema file**  
   
-     The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] setup throws an error while accessing the **Microsoft.Adapters.*\<AdapterName>*_schema.xml** file, but proceeds with the adapter installation.  
+     The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] setup throws an error while accessing the **Microsoft.Adapters.*\<AdapterName\>*_schema.xml** file, but proceeds with the adapter installation.  
   
      **Cause**  
   
@@ -849,4 +849,4 @@ Complete this step to remove the custom RFCs that you installed in the SAP syste
   
      **Resolution**  
   
-     Manually copy the **Microsoft.Adapters.*\<AdapterName>*_schema.xml** file from `C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`" to `C:\Windows\System32\inetsrv\config\schema`.  
+     Manually copy the **Microsoft.Adapters.*\<AdapterName\>*_schema.xml** file from `C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`" to `C:\Windows\System32\inetsrv\config\schema`.  
