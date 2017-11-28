@@ -40,11 +40,16 @@
   "need_preview_pull_request": true,
   "dependent_repositories": [
     {
-      "path_to_root": "_themes",
+      "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
     }
+    "Targets": {  
+      "Pdf": {  
+      "template_folder": "_themes.pdf"  
+      }  
+     },
   ],
   "branch_target_mapping": {
     "live": [
@@ -52,5 +57,10 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true
+  "need_generate_pdf_url_template": true,
+   "Targets": {  
+    "Pdf": {  
+    "template_folder": "_themes.pdf"  
+    }  
+   }
 }

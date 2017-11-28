@@ -2,7 +2,7 @@
 title: "Configure the feature pack | Microsoft Docs"
 description: Install and configure feature pack 1, and feature pack 2. See the new features list, including API Management, team services deployment, new Azure adapters, backups, and more in BizTalk Server 2016 
 ms.custom: ""
-ms.date: "11/20/2017"
+ms.date: "11/22/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -90,10 +90,6 @@ Key information:
 * Any custom code, such as functoids, may need to be updated to support TLS 1.2
 
 [Description of the TLS/SSL protocol](https://support.microsoft.com/kb/3155464) describes how to setup a TLS 1.2 environment. 
-
-#### [HL7 runtime supports 2.7.1](../adapters-and-accelerators/accelerator-hl7/what-s-new-in-biztalk-accelerator-for-hl7.md)
-
-Support for HL7 2.7.1 is included with this feature pack.
 
 #### Use latest Newtonsoft JSON 
 Newtonsoft is a JSON framework for .NET. In this feature pack, support for version 10.0.3 is included. [Download v. 10.0.3](https://www.nuget.org/packages/Newtonsoft.Json/10.0.3) directly from NuGet. 
