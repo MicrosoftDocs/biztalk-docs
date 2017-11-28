@@ -36,7 +36,7 @@ In this step, you create a send port to deliver the message batch that you creat
   
     |Use this|To do this|  
     |--------------|----------------|  
-    |**Destination folder**|Browse to **\<*drive*:>\Program Files\Microsoft  BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchMsgDrop**. This is the path to the location on the file system or public share to which [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will write the file containing the message batch.|  
+    |**Destination folder**|Browse to **\<*drive*:\>\Program Files\Microsoft  BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchMsgDrop**. This is the path to the location on the file system or public share to which [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will write the file containing the message batch.|  
     |**File name**|Type **%MessageID%.txt** (replace the .xml extension with the .txt extension).|  
     |**Copy mode**|Select **Create New**.|  
   

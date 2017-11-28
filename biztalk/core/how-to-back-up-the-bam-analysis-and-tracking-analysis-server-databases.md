@@ -36,7 +36,7 @@ The Business Activity Monitoring (BAM) Analysis database and the Tracking Analys
   
  After you back up these databases, you may want to purge the OLAP cubes. When you purge the OLAP cubes, you must also perform the following steps:  
   
-1.  Before you purge the OLAP cubes, in the BAMStarSchema database, truncate the fact table(s) for the cube you want to purge. The table naming convention is "bam_*\<CubeName>*_Facts".  
+1.  Before you purge the OLAP cubes, in the BAMStarSchema database, truncate the fact table(s) for the cube you want to purge. The table naming convention is "bam_*\<CubeName\>*_Facts".  
   
 2.  After you purge the OLAP cubes, you must fully process active, completed, and virtual cubes.  
   

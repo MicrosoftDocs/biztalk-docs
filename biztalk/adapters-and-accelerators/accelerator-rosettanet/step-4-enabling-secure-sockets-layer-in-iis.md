@@ -28,7 +28,7 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In the Internet Information Services left pane, expand **\<***computer_name***>** (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
+2.  In the Internet Information Services left pane, expand **\<***computer_name***\>** (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
   
 3.  In the Default Web Sites dialog box, on the **Directory Security** tab, click **Server Certificate** to start the **IIS Certificate Wizard**.  
   
@@ -54,10 +54,10 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 ### To generate a new server certificate  
   
-1.  In Internet Explorer, locate and open http://\<*contoso_machine*>/CertSrv.  
+1.  In Internet Explorer, locate and open http://\<*contoso_machine*\>/CertSrv.  
   
     > [!NOTE]
-    >  In step 1, open http://\<*contoso_machine*>/CertSrv on the Contoso or Fabrikam computer.  
+    >  In step 1, open http://\<*contoso_machine*\>/CertSrv on the Contoso or Fabrikam computer.  
   
 2.  On the **Microsoft Certificate Services Wizard Welcome** page, click **Request a certificate.**  
   
@@ -72,7 +72,7 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 6.  Click **Browse** to open the **Choose File** dialog box.  
   
-7.  In the **Choose File** dialog box, locate the *\<drive>*:\ folder, select the certreq.txt file, and then click **Open**.  
+7.  In the **Choose File** dialog box, locate the *\<drive\>*:\ folder, select the certreq.txt file, and then click **Open**.  
   
 8.  On the **Submit a Certificate Request or Renewal Request** page, click **Read**.  
   
@@ -82,7 +82,7 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 11. In the **File Download** dialog box, click **Save**.  
   
-12. In the **Save As** dialog box, save the certificate to \<drive>:\Certs\SSLCert.cer, and then click **Save**.  
+12. In the **Save As** dialog box, save the certificate to \<drive\>:\Certs\SSLCert.cer, and then click **Save**.  
   
 13. Click **Close** to close the **Download Complete** dialog box.  
   
@@ -117,7 +117,7 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 7.  In the File Download dialog box, click **Save**.  
   
-8.  In the Save As dialog box, save the certificate to \<drive>:\Certs\SSLCert.cer, and then click **Save**.  
+8.  In the Save As dialog box, save the certificate to \<drive\>:\Certs\SSLCert.cer, and then click **Save**.  
   
 ### To import the server certificate into IIS  
   
@@ -125,7 +125,7 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 2.  In the Internet Information Services left pane, click **(local computer)**, double click **Server Certificates** in the right pane. Select **Complete Certificate Request** from the Actions pane.  
   
-3.  In Specify Certificate Authority Response dialog box type **\<drive>:\Certs\SSLCert.cer** in **File name containing the certification authority’s response** text box. In Friendly name text box type **ContosoSSLCert**.  
+3.  In Specify Certificate Authority Response dialog box type **\<drive\>:\Certs\SSLCert.cer** in **File name containing the certification authority’s response** text box. In Friendly name text box type **ContosoSSLCert**.  
   
 ### To enable SSL bindings for IIS  
   
@@ -139,7 +139,7 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In the Internet Information Services left pane, expand **\<***computer_name*> (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
+2.  In the Internet Information Services left pane, expand **\<***computer_name*\> (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
   
 3.  In the Default Web Site Properties dialog box, on the **Directory Security** tab, click **Server Certificate** to start the **IIS Certificate Wizard**.  
   
@@ -147,7 +147,7 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 5.  On the **Pending Certificate Request** page, select **Process the pending request and install the certificate**, and then click **Next**.  
   
-6.  On the **Process a Pending Request** page, in the **Path and file name** box, type **\<drive>:\Certs\SSLCert.cer** (or browse to that file) and then click **Next**.  
+6.  On the **Process a Pending Request** page, in the **Path and file name** box, type **\<drive\>:\Certs\SSLCert.cer** (or browse to that file) and then click **Next**.  
   
 7.  On the **SSL Port page**, click **Next**.  
   

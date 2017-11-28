@@ -19,17 +19,17 @@ In this step, you test the Batch In/Batch Out tutorial by dropping a test instan
   
 ### To test the Batch In/Batch Out scenario  
   
-1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*>:\Batching Tutorial\Instances** folder.  
+1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*\>:\Batching Tutorial\Instances** folder.  
   
 2.  Right click **BatchInBatchOut.txt**, and then click **Copy**.  
   
-3.  Browse to the **\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7PickUp** folder.  
+3.  Browse to the **\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7PickUp** folder.  
   
 4.  Right-click the folder, and then click **Paste**.  
   
 ### To verify the results of the Batch In/Batch Out Tutorial  
   
--   Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7Drop** folder. After a short period, you should see the processed instance of the batch message, and an acknowledgment, appear in the folder. If they do not appear, check the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Event Viewer for an error message. Each file should have a different name in the form \<*Guid*>.txt.  
+-   Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7Drop** folder. After a short period, you should see the processed instance of the batch message, and an acknowledgment, appear in the folder. If they do not appear, check the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Event Viewer for an error message. Each file should have a different name in the form \<*Guid*\>.txt.  
   
      The first message should be the batch consisting of two messages. BizTalk Accelerator for HL7 (BTAHL7) has included these two messages sequentially in the .txt file. This batch does not contain FHS/FTS and BHS/BTS tags. A batch must contain either all FHS/FTS and BHS/BTS tags, or like this batch message, no FHS/FTS and no BHS/BTS tags.  
   

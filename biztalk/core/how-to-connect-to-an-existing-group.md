@@ -43,7 +43,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
     > [!NOTE]
     >  If the BizTalk Server Management database is housed on a SQL Server cluster and the cluster is in the process of failing over then you may receive an error similar to the following when you attempt to connect to the Management database:  
     >   
-    >  Failed to load Group [\<servername>:\<management database>] data providers.  
+    >  Failed to load Group [\<servername\>:\<management database\>] data providers.  
     >   
     >  And  
     >   

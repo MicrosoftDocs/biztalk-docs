@@ -65,7 +65,7 @@ Use a progress dimension to group BAM activities by milestones they have reached
   
 6.  In the **Progress Milestone** box of the **New Progress Milestone** dialog box, type the name of the progress milestone at the top level of the hierarchy that you designed. For the running example, you would type `Received`.  
   
-7.  Select the business milestone that corresponds to the progress milestone, and then click **OK**. For the running example, you would select **Received (\<activity name>)**.  
+7.  Select the business milestone that corresponds to the progress milestone, and then click **OK**. For the running example, you would select **Received (\<activity name\>)**.  
   
 8.  In the **New Dimension** dialog box, click **New Stage**.  
   
@@ -75,7 +75,7 @@ Use a progress dimension to group BAM activities by milestones they have reached
   
 11. In the **Progress milestone** box of the **New Progress Milestone** dialog box, type the name of one of the first-level milestones. For the example we are using, you would type `Approved`.  
   
-12. In the **Business milestone** drop-down box, select the business milestone that corresponds to the progress milestone, and then click **OK**. For the running example, you would select **Approved (\<activity name>)**.  
+12. In the **Business milestone** drop-down box, select the business milestone that corresponds to the progress milestone, and then click **OK**. For the running example, you would select **Approved (\<activity name\>)**.  
   
 13. Repeat the previous three steps to add any other milestones that are within the same progress stage.  
   

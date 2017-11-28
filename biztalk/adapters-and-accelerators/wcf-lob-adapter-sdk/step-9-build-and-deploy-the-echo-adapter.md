@@ -40,7 +40,7 @@ manager: "anneta"
   
 3.  Click the **Sign the assembly** tab.  
   
-4.  Choose **\<new…>** for the strong name file. When prompted for a file name, type **EchoAdapter.snk**,deselect the protect my key file with a password option, then click **OK**.  
+4.  Choose **\<new…\>** for the strong name file. When prompted for a file name, type **EchoAdapter.snk**,deselect the protect my key file with a password option, then click **OK**.  
   
 5.  Click the **Application** tab.  
   
@@ -56,13 +56,13 @@ manager: "anneta"
   
 3.  Type the following command:  
   
-     **gacutil.exe /if "\<** *path to assembly\Microsoft.Adapters.Samples.EchoV2.dll* **>"**  
+     **gacutil.exe /if "\<** *path to assembly\Microsoft.Adapters.Samples.EchoV2.dll* **\>"**  
   
      This installs the assembly to the GAC, overwriting any existing assembly that has the same assembly name.  
   
 ### To register the Echo Adapter with Windows Communication Foundation  
   
-1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type **notepad \<Windows install path>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config**, and then click **OK**.  
+1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type **notepad \<Windows install path\>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config**, and then click **OK**.  
   
 2.  Update the machine.config file. If your machine.config does not contain a system.serviceModel section, add the following section at the end of the configuration file but before the closing root tag.  
   

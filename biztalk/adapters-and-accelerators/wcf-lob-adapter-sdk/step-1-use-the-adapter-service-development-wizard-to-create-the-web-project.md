@@ -64,12 +64,12 @@ manager: "anneta"
     |**EchoInUpperCase**|False|  
   
     > [!NOTE]
-    >  The URI properties selected here will be used to create the \<**client**>\<**endpoint**> elements in the web.config file.  
+    >  The URI properties selected here will be used to create the \<**client**\>\<**endpoint**\> elements in the web.config file.  
   
 4.  Click the **Binding Properties** tab. Note the default values, and then click **OK**.  
   
     > [!NOTE]
-    >  The binding values will be used to generate the \<**bindings**>\<**echoAdapterBindingV2**> elements in the web.config file.  
+    >  The binding values will be used to generate the \<**bindings**\>\<**echoAdapterBindingV2**\> elements in the web.config file.  
   
 ### To select the contract and operations  
   
@@ -97,7 +97,7 @@ manager: "anneta"
     |**Name**|customServiceBehavior|  
     |**UseServiceCertificate**|False|  
   
-     These values are used to populate the \<**serviceBehaviors**>.  
+     These values are used to populate the \<**serviceBehaviors**\>.  
   
 2.  Enter the following values for **Endpoint Behavior Configuration**:  
   

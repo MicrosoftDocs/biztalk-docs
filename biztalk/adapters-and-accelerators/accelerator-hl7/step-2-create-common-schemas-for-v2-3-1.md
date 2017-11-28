@@ -43,9 +43,9 @@ The V2.3.1 schemas are commonly referenced schemas, which you use to validate th
   
 9. Select the **Sign the assembly** check box.  
   
-10. In **Choose a strong name key file**, select **\<Browse…>** .  
+10. In **Choose a strong name key file**, select **\<Browse…\>** .  
   
-11. Browse to \<drive>:\Batching Tutorial, select **key.snk**, and then click **Open**.  
+11. Browse to \<drive\>:\Batching Tutorial, select **key.snk**, and then click **Open**.  
   
 12. In Solution Explorer, right-click **BTAHL7V231Common Project**, and then click **Deploy**. Ensure a success message appears in the output window.  
   

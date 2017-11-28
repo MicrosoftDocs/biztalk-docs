@@ -27,7 +27,7 @@ Administrators use the **create-index** command to create an index on the specif
   
 1.  From a command prompt, browse to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-2.  Type **bm create-index -IndexName:\<index name> -Activity:\<activity name> -Checkpoint:\<checkpoint1>**.  
+2.  Type **bm create-index -IndexName:\<index name\> -Activity:\<activity name\> -Checkpoint:\<checkpoint1\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

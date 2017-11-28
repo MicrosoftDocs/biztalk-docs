@@ -32,15 +32,15 @@ The BAM Management utility alert user management commands allow you to get, add,
 ## get-accounts Command  
  **Usage**  
   
- **bm.exe get-accounts -View:\<view name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe get-accounts -View:\<view name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view for which to list accounts.|  
-|Server:\<server>|Optional: The name of the server from which to retrieve the accounts. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database from which to retrieve the accounts. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view for which to list accounts.|  
+|Server:\<server\>|Optional: The name of the server from which to retrieve the accounts. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database from which to retrieve the accounts. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Lists all users and groups that can access the specified view.  
   
@@ -53,16 +53,16 @@ The BAM Management utility alert user management commands allow you to get, add,
 ## add-account Command  
  **Usage**  
   
- **bm.exe add-account -AccountName:\<account name> -View:\<view name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe add-account -AccountName:\<account name\> -View:\<view name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
 |AccountName:<account name|The name of the account to which rights are granted.|  
-|View:\<view name>|The name of the view to which rights are granted.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view to which rights are granted.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Grants the specified user or group access rights to the specified view.  
   
@@ -79,16 +79,16 @@ bm.exe add-account -AccountName:Agents -View:PO -Server:Srv1 -Database:Db2
 ## remove-account Command  
  **Usage**  
   
- **bm.exe remove-account -AccountName:\<account name> -View:\<view name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe remove-account -AccountName:\<account name\> -View:\<view name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|AccountName:\<account name>|The name of the account from which to remove rights to the view.|  
-|View:\<view name>|The name of the view to which rights are removed.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|AccountName:\<account name\>|The name of the account from which to remove rights to the view.|  
+|View:\<view name\>|The name of the view to which rights are removed.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Removes access rights for a user or group from a specified view. Removing an account from a view removes that account and all of its members from alerts defined for the specified view. If that account is the sole owner of an alert, the current user (admin) becomes the new owner of the alert.  
   

@@ -37,7 +37,7 @@ The ExpenseReportSubmission sample demonstrates how to submit a document to a [!
 4.  In practice, beyond the scope of this sample, another application such as an Enterprise Resource Planning (ERP) system would then retrieve the spreadsheet file for further processing.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\AdaptersUsage\ExpenseReportSubmission\  
+ \<*Samples Path*\>\AdaptersUsage\ExpenseReportSubmission\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -56,7 +56,7 @@ The ExpenseReportSubmission sample demonstrates how to submit a document to a [!
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersUsage\ExpenseReportSubmission  
+     \<*Samples Path*\>\AdaptersUsage\ExpenseReportSubmission  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -122,7 +122,7 @@ The ExpenseReportSubmission sample demonstrates how to submit a document to a [!
   
     4.  Click **Add** to display the **Add file** dialog box.  
   
-    5.  Click **Browse** to display the **Open** dialog box and navigate to *\<BizTalk Server Installation folder>*\HttpReceive\BTSHTTPReceive.dll and click **Open**, then click **OK**.  
+    5.  Click **Browse** to display the **Open** dialog box and navigate to *\<BizTalk Server Installation folder\>*\HttpReceive\BTSHTTPReceive.dll and click **Open**, then click **OK**.  
   
     6.  Enable the option to **Set extension status to Allowed** and click **OK**.  
   

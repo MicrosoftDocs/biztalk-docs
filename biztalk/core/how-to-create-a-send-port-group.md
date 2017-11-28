@@ -36,7 +36,7 @@ This topic describes how to use the BizTalk Server Administration console to cre
   
 4.  In the **Name** box, type a name for the send port group.  
   
-5.  In **Send ports**, click the drop-down list under **Name**, and click the send port to add to the send port group. Repeat for each send port you want to add to the group. To create a new send port and add it, click **\<New send port…>** and then follow the instructions in [How to Create a Send Port](../core/how-to-create-a-send-port2.md).  
+5.  In **Send ports**, click the drop-down list under **Name**, and click the send port to add to the send port group. Repeat for each send port you want to add to the group. To create a new send port and add it, click **\<New send port…\>** and then follow the instructions in [How to Create a Send Port](../core/how-to-create-a-send-port2.md).  
   
 6.  When finished adding send ports to the send port group, click **OK**.  
   

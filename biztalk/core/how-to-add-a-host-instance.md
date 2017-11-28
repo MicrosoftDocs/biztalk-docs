@@ -74,7 +74,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
  If you attempt to create an instance of a BizTalk host on a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer that is unavailable, a dialog box with the following error message is displayed:  
   
- Installation of instace of host \<*host name*> on server \<*server name*> failed.  
+ Installation of instace of host \<*host name*\> on server \<*server name*\> failed.  
   
  Additional information:  
   
@@ -82,11 +82,11 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
  When you click OK to dismiss the dialog box, a dialog box with the following error message is displayed:  
   
- Cleaning up aborted installation of host \<*host name*> on server \<*server name*> failed.  
+ Cleaning up aborted installation of host \<*host name*\> on server \<*server name*\> failed.  
   
  Additional information:  
   
- A failure occurred when deleting the Windows NT service BTSSvc{*\<GUID>*}. (WinMgmt)  
+ A failure occurred when deleting the Windows NT service BTSSvc{*\<GUID\>*}. (WinMgmt)  
   
  When you click **OK** to dismiss this dialog box, the instance of the BizTalk host will be visible in the BizTalk Administration Console with a **Status** of **Uninstall failed**.  
   

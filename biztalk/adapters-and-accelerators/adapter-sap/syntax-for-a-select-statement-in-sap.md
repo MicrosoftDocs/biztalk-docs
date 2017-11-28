@@ -33,15 +33,15 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
 -   **<Join_Condition>** = `[Alias_name.|table_name.]column_name <expr> [Alias_name.|table_name.]column_name`  
   
--   **\<predicate>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
+-   **\<predicate\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
   
  The supported conditions and expressions are:  
   
--   **\<condition>** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
+-   **\<condition\>** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
   
--   **\<expr>** = `[ const | column_name [= | ! = | > | > = | ! > | < | < = | ! < ] const | column_name | - const  | const | column_name ]`  
+-   **\<expr\>** = `[ const | column_name [= | ! = | > | > = | ! > | < | < = | ! < ] const | column_name | - const  | const | column_name ]`  
   
- Where **\<const>** = `integer | real | string | ? | NULL | xml_element`.  
+ Where **\<const\>** = `integer | real | string | ? | NULL | xml_element`.  
   
  **Values for the OPTION Keyword**  
   
@@ -55,7 +55,7 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
     -   When the **no_conversion** option is not used, and if a field has a conversion exit defined then those fields in the table are exposed as .NET String.  
   
--   When set to **batchsize \<size>**, the execution of the SELECT statement causes multiple calls to be made to the SAP system, and in each call, only \<size> number of records are retrieved. For example, if you specify 'batchsize 100', the SELECT query retrieves 100 records only in each call to the SAP system. If **batchsize \<size>** is not specified, the default value of 10,000 is assumed for the batch size. Note that you should specify an optimum value for the batch size based on the physical memory of the computer and the number of rows in the SAP system. Failure in specifying an optimum value for batch size may result in out of memory exceptions.  
+-   When set to **batchsize \<size\>**, the execution of the SELECT statement causes multiple calls to be made to the SAP system, and in each call, only \<size\> number of records are retrieved. For example, if you specify 'batchsize 100', the SELECT query retrieves 100 records only in each call to the SAP system. If **batchsize \<size\>** is not specified, the default value of 10,000 is assumed for the batch size. Note that you should specify an optimum value for the batch size based on the physical memory of the computer and the number of rows in the SAP system. Failure in specifying an optimum value for batch size may result in out of memory exceptions.  
   
 -   When set to **disabledatavalidation**, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] does not validate the values present in the DATS, TIMS, and NUMC columns but instead exposes them as string.  
   

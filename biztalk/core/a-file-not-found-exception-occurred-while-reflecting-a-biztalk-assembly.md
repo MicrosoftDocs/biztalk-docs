@@ -37,4 +37,4 @@ manager: "anneta"
   
 2.  Open a command prompt.  
   
-3.  Browse to the location of the assembly, and enter **gacutil /I /\<***assembly name***>.dll**
+3.  Browse to the location of the assembly, and enter **gacutil /I /\<***assembly name***\>.dll**

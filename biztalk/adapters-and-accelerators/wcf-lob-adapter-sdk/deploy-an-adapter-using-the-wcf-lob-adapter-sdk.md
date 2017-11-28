@@ -35,7 +35,7 @@ To deploy an adapter, you must install the adapter assembly into the global asse
   
      Example: **sn /k EchoAdapter.snk**  
   
-     A confirmation message, **Key pair written to** \<*file_name*>**.snk**`,` displays on the command line.  
+     A confirmation message, **Key pair written to** \<*file_name*\>**.snk**`,` displays on the command line.  
   
 4.  In Visual Studio Solution Explorer, right-click the project, and then click **Properties**.  
   
@@ -72,18 +72,18 @@ To deploy an adapter, you must install the adapter assembly into the global asse
   
 3.  Type the following command:  
   
-     **gacutil.exe /if "\<** *path to the assembly .dll file* **>"**  
+     **gacutil.exe /if "\<** *path to the assembly .dll file* **\>"**  
   
 4.  This installs the assembly to the GAC, overwriting any existing assembly that has the same assembly name.  
   
 ## Register the Adapter in Machine.config  
- An adapter developed using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is surfaced as a WCF binding.  See Microsoft.ServiceModel.Channels.Common.AdapterBinding for more information.  The adapter binding is registered with WCF using \<bindingExtensions> section within \<system.ServiceModel> and the adapter transport binding element is registered with WCF using \<bindingElementExtensions> section within \<system.ServiceModel>.  
+ An adapter developed using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is surfaced as a WCF binding.  See Microsoft.ServiceModel.Channels.Common.AdapterBinding for more information.  The adapter binding is registered with WCF using \<bindingExtensions\> section within \<system.ServiceModel\> and the adapter transport binding element is registered with WCF using \<bindingElementExtensions\> section within \<system.ServiceModel\>.  
   
  You can manually edit the machine.config file using a text editor.  
   
 #### Manually edit the machine.config file  
   
-1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type notepad \<Windows install path>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config, and then click **OK**.  
+1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type notepad \<Windows install path\>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config, and then click **OK**.  
   
 2.  Update the machine.config file. If the file does not contain a system.serviceModel section, add the following section at the end of the configuration file but before the closing root tag.  
   
@@ -91,7 +91,7 @@ To deploy an adapter, you must install the adapter assembly into the global asse
     >  Replace "myAdapterBinding", version, culture and other assembly-specific information with your adapter's information.  
   
     ```  
-    \<system.serviceModel>  
+    <system.serviceModel>  
       <extensions>  
         <bindingExtensions>  
             <add name="myAdapterBinding" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingCollectionElement,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken= fafafafafafafafa" />  
@@ -99,7 +99,7 @@ To deploy an adapter, you must install the adapter assembly into the global asse
             <add name="echoAdapter" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingElementExtension,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=37f23b4adb996dcf" />  
           </bindingElementExtensions>  
       </extensions>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
     ```  
   
      - OR -  

@@ -27,7 +27,7 @@ Administrators use the **remove-alerts** command to remove all the alerts from a
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type **bm remove-alerts -View:\<view name>**.  
+3.  Type **bm remove-alerts -View:\<view name\>**.  
   
 4.  Press **ENTER**.  
   

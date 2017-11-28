@@ -21,7 +21,7 @@ manager: "anneta"
 # How to Use the Select Artifact Type Dialog Box
 An *item* is used to configure elements of an orchestration in Orchestration Designer. Examples of items are schemas, maps, pipelines, port types, and multi-part message types. When you develop an orchestration and its constituent parts such as port shapes, transform shapes, and messages, you may need to refer to items that do not reside in the current orchestration, but are in the current project or another project that has been compiled into a BizTalk Server assembly. You use the **Select Artifact Type** dialog box to locate and then specify items when configuring an element within an orchestration.  
   
- The **Select Artifact Type** dialog box is available from many locations in Orchestration Designer. You can select \<Select from referenced assembly> in a drop-down list that displays configuration options; clicking this text opens the **Select Artifact Type** dialog box.  
+ The **Select Artifact Type** dialog box is available from many locations in Orchestration Designer. You can select \<Select from referenced assembly\> in a drop-down list that displays configuration options; clicking this text opens the **Select Artifact Type** dialog box.  
   
  Before you can select an item, you must first select the element you want to configure.  
   

@@ -30,7 +30,7 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
 ## Where to Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\Sysprep\  
+ \<*Samples Path*\>\Admin\Sysprep\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -41,11 +41,11 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
 |----------|-----------------|  
 |Sysprep.xml|Answer file|  
 |SetupCompletecmd.txt|Answer file|  
-|ReplaceMachineName.vbs|Purpose: Opens a file and replaces all instances of a given string with the current computer name. Useful to prepare the other script and xml files, and to update bm.exe.config.<br /><br /> Usage: ReplaceMachineName.vbs \<file to open> \<string to replace>|  
-|UpdateRegistry.vbs|Purpose: Updates the computer name stored in the BizTalk registry settings.<br /><br /> Usage: UpdateRegistry.vbs \<UpdateInfo.xml>. Make sure to replace all instances of $(OLDCOMPUTERNAME) and $(NEWCOMPUTERNAME) in this xml file.|  
-|UpdateDatabase.vbs|Purpose: Updates the computer name stored in the BizTalk Management databases.<br /><br /> Usage: UpdateDatabase.vbs \<UpdateInfo.xml>|  
-|UpdateBAMDb.vbs|Purpose: Updates the computer name stored in the BAM databases.<br /><br /> Usage: UpdateBamDb.vbs \<UpdateInfo.xml>|  
-|UpdateSSO.cmd|Purpose: Reconfigures the Enterprise Single Sign-on (SSO) secret server.<br /><br /> Usage: sso.cmd \<UpdateInfo.xml>|  
+|ReplaceMachineName.vbs|Purpose: Opens a file and replaces all instances of a given string with the current computer name. Useful to prepare the other script and xml files, and to update bm.exe.config.<br /><br /> Usage: ReplaceMachineName.vbs \<file to open\> \<string to replace\>|  
+|UpdateRegistry.vbs|Purpose: Updates the computer name stored in the BizTalk registry settings.<br /><br /> Usage: UpdateRegistry.vbs \<UpdateInfo.xml\>. Make sure to replace all instances of $(OLDCOMPUTERNAME) and $(NEWCOMPUTERNAME) in this xml file.|  
+|UpdateDatabase.vbs|Purpose: Updates the computer name stored in the BizTalk Management databases.<br /><br /> Usage: UpdateDatabase.vbs \<UpdateInfo.xml\>|  
+|UpdateBAMDb.vbs|Purpose: Updates the computer name stored in the BAM databases.<br /><br /> Usage: UpdateBamDb.vbs \<UpdateInfo.xml\>|  
+|UpdateSSO.cmd|Purpose: Reconfigures the Enterprise Single Sign-on (SSO) secret server.<br /><br /> Usage: sso.cmd \<UpdateInfo.xml\>|  
 |UpdateSqlServerAndInstanceName.cmd|Purpose: Reconfigures SQL and SQL Express, restarts a series of dependent services, and reregisters BAMAlerts.<br /><br /> Usage: Edit the script and replace all instances of $(NEWCOMPUTERNAME), and update the serviceusername and servicepassword for BAM Alerts. Then run UpdateSqlServerAndInstanceName.cmd passing the old computer name as the first argument.|  
   
 ## Creating the Answer Files and Running Sysprep  
@@ -56,7 +56,7 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
   
 2.  Copy the contents of the included “scripts” folder to C:\Scripts on the virtual machine.  
   
-3.  Prepare a sysprep answer file by modifying the following lines in Sysprep.xml. (Note: These lines are marked with a “!” before them.) You can use these as a template, or make your own and copy over the \<FirstLogonCommands> section.  
+3.  Prepare a sysprep answer file by modifying the following lines in Sysprep.xml. (Note: These lines are marked with a “!” before them.) You can use these as a template, or make your own and copy over the \<FirstLogonCommands\> section.  
   
     -   $(OLDCOMPUTERNAME) Replace with the current computer name of the virtual machine.  
   
@@ -66,7 +66,7 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
   
     -   Any company details should also be updated in UpdateSqlServerAndInstance.cmd and your Sysprep.xml.  
   
-     Alternatively, you can create a Sysprep answer file from scratch using use the [Automated Installation Kit (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) on Windows Server 2008. Ensure that your \<FirstLogonCommands> section matches the samples so the BizTalk scripts will run on the first boot.  
+     Alternatively, you can create a Sysprep answer file from scratch using use the [Automated Installation Kit (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) on Windows Server 2008. Ensure that your \<FirstLogonCommands\> section matches the samples so the BizTalk scripts will run on the first boot.  
   
 #### To run Sysprep  
   

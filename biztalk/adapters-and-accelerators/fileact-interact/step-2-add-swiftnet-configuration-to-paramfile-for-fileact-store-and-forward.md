@@ -39,7 +39,7 @@ Complete [Step 1: Configure the SWIFT Adapter for the FileAct Store and Forward 
   
      subsystem_start:  
   
-     **spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for fileact SnF> -AdapterMode fileact"**  
+     **spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for fileact SnF\> -AdapterMode fileact"**  
   
      *END  
   

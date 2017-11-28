@@ -31,7 +31,7 @@ You must create an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4sw
 |Receive port|One-way port|  
 |Transport type|FILE|  
 |Address URI|Name of the folder that you want to receive the message|  
-|File mask|\*.*\<extension>*, where \<*extension*> is the extension of the incoming flat file message|  
+|File mask|\*.*\<extension\>*, where \<*extension*\> is the extension of the incoming flat file message|  
 |Receive handler|BizTalkServerApplication|  
 |Receive pipeline|The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] receive pipeline that you created|  
   
@@ -65,7 +65,7 @@ You must create an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4sw
     > [!NOTE]
     >  If this folder does not exist, you can create it using the **Make New Folder** command.  
   
-12. In the FILE Transport Properties dialog box, in the **File Mask** box, enter **\*.\<*extension*>**, where \<*extension*> is the extension of the incoming flat file message, such as **.txt**. Click **OK**.  
+12. In the FILE Transport Properties dialog box, in the **File Mask** box, enter **\*.\<*extension*\>**, where \<*extension*\> is the extension of the incoming flat file message, such as **.txt**. Click **OK**.  
   
 13. In the Receive Location Properties dialog box, ensure that **BizTalkServerApplication** is entered for the **Receive handler** box.  
   

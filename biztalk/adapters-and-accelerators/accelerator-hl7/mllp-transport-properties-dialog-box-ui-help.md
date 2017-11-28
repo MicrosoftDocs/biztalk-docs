@@ -25,13 +25,13 @@ You use the **MLLP Transport Properties** dialog box to configure parameters for
  In the **MLLP Transport Properties** dialog box, do the following:  
   
 #### Block Characters  
- Block character parameters are special characters that must enclose HL7 messages received or sent through MLLP adapters. These characters form a block in the following format: \<SB>*DDD*\<EB>\<CR>, where *DDD* stands for the message data, \<SB> is the start-block character, \<EB> is the end-block character, and \<CR> is the carriage return.  
+ Block character parameters are special characters that must enclose HL7 messages received or sent through MLLP adapters. These characters form a block in the following format: \<SB\>*DDD*\<EB\>\<CR\>, where *DDD* stands for the message data, \<SB\> is the start-block character, \<EB\> is the end-block character, and \<CR\> is the carriage return.  
   
 |Use this|To do this|  
 |--------------|----------------|  
-|**\<CR> Carriage Return**|Byte value (in hexadecimal format) that you use for the carriage return (the second byte wrapper after the end byte). Optional.|  
-|**\<EB> End-Block character**|Byte value that you use for the end byte (message trailer wrapper). ASCII \<FS>, for example, \<1c>.|  
-|**\<SB> Start-Block character**|Byte value that you use for the start byte (message header wrapper). ASCII \<VT>, for example, \<0b>.|  
+|**\<CR\> Carriage Return**|Byte value (in hexadecimal format) that you use for the carriage return (the second byte wrapper after the end byte). Optional.|  
+|**\<EB\> End-Block character**|Byte value that you use for the end byte (message trailer wrapper). ASCII \<FS\>, for example, \<1c\>.|  
+|**\<SB\> Start-Block character**|Byte value that you use for the start byte (message header wrapper). ASCII \<VT\>, for example, \<0b\>.|  
   
 #### DeliveryMode  
  You use the delivery mode parameter to control whether instance files are delivered in sequence, or out of sequence (in order, out of order). Each receive location has its own delivery sequence for instance files.  

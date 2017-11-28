@@ -57,7 +57,7 @@ You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)
 |Binding Property|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|Specifies the inbound operation that you want to perform. To receive notification messages, set this to **Notification**.|  
-|**NotificationStatement**|Specifies the SQL statement (SELECT or EXEC \<stored procedure>) used to register for query notifications. The adapter gets a notification message from SQL Server only when the result set for the specified SQL statement changes.|  
+|**NotificationStatement**|Specifies the SQL statement (SELECT or EXEC \<stored procedure\>) used to register for query notifications. The adapter gets a notification message from SQL Server only when the result set for the specified SQL statement changes.|  
 |**NotifyOnListenerStart**|Specifies whether adapter sends a notification to the adapter clients when the listener is started.|  
   
  For a more complete description of these properties, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). For a complete description of how to use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notifications from SQL Server, read further.  
@@ -162,7 +162,7 @@ You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)
   
      For this topic, name the variable as **NotificationType**.  
   
--   Create an xpath query to extract the value from the \<Info> tag. The xpath query will resemble the following:  
+-   Create an xpath query to extract the value from the \<Info\> tag. The xpath query will resemble the following:  
   
     ```  
     NotificationType = xpath(NotifyReceive,"string(/*[local-name()='Notification']/*[local-name()='Info']/text())");  
@@ -257,7 +257,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Because the **NotifyOnListenerStart** binding property is set to **True**, you receive the following message:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>ListenerStarted</Info>   
       <Source>SqlBinding</Source>   
@@ -270,7 +270,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Insert a record in the Employee table. You will receive a notification message resembling the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Insert</Info>   
       <Source>Data</Source>   
@@ -283,7 +283,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Update a record in the Employee table. You will receive a notification message resembling the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Update</Info>   
       <Source>Data</Source>   
@@ -296,7 +296,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Delete a record from the Employee table. You will receive a notification message resembling the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Delete</Info>   
       <Source>Data</Source>   

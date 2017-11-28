@@ -60,7 +60,7 @@ manager: "anneta"
   
 3.  In Solution Explorer, expand **BizTalkApp**, and then open **OrderProcess.odx** to review. The sample orchestration receives order request messages, and simply returns the order response messages.  
   
-4.  Because the **BizTalkApp** assembly must be installed in the GAC, it will need a strong name key file to complete the deployment process. Right-click the **BizTalkApp** project, and then click **Properties**. On the **Properties** page, click **Signing**, and select **Sign the assembly**. Click the down arrow in the **Choose a strong name key file** drop-down list, click **\<New>** and enter `keyfile.snk` in the **key file name** textbox. Uncheck **Protect my key file with a password**, and then click **OK**.  
+4.  Because the **BizTalkApp** assembly must be installed in the GAC, it will need a strong name key file to complete the deployment process. Right-click the **BizTalkApp** project, and then click **Properties**. On the **Properties** page, click **Signing**, and select **Sign the assembly**. Click the down arrow in the **Choose a strong name key file** drop-down list, click **\<New\>** and enter `keyfile.snk` in the **key file name** textbox. Uncheck **Protect my key file with a password**, and then click **OK**.  
   
 5.  Click the **Deployment** tab, and then change the **Server** property if you use a different database server for the BizTalk Management database besides **LOCALHOST**.  Ensure **BizTalk Application** value is set to **WCFNetMsmqAdapterPublishing**. Ensure **Install to Global Assembly Cache** is set to **True**.  
   
@@ -160,7 +160,7 @@ manager: "anneta"
   
 8.  On the **WCF Service Location** page, perform the following actions to specify the location of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] services to create, and then click **Next**:  
   
-    1.  In the **Location** text box, type the Web directory name where the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service runs or click **Browse** and select a Web directory. For this walkthrough, leave the default location (http://localhost/*\<BizTalk Assembly Name>*) in the **Location** text box.  
+    1.  In the **Location** text box, type the Web directory name where the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service runs or click **Browse** and select a Web directory. For this walkthrough, leave the default location (http://localhost/*\<BizTalk Assembly Name\>*) in the **Location** text box.  
   
     2.  Select the **Allow anonymous access to WCF service** option. This option adds anonymous access to the created virtual directory. This option needs to be selected to allow anonymous authentication for the Web application that this wizard will create.  
   
@@ -172,7 +172,7 @@ manager: "anneta"
   
 1.  Open a command prompt, go to the **C:\inetpub\wwwroot\Microsoft.Samples.BizTalk.WCF.NetMsmqPublishing.BizTalkApp** folder where the **BizTalk WCF Service Publishing Wizard** created the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. Open the **Web.config** file using Notepad.  
   
-2.  In Notepad, add the following line inside the **\<system.web>** element:  
+2.  In Notepad, add the following line inside the **\<system.web\>** element:  
   
     ```  
     <trust level="Full" originUrl="" />  

@@ -153,7 +153,7 @@ You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)
  The orchestration consumes the message and sends it to SQL Server database. The response from SQL Server database is saved at the other FILE location defined as part of the orchestration. For example, the response from SQL Server database for the preceding request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <GET_EMP_IDResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/ScalarFunctions/dbo">  
   <GET_EMP_IDResult>10072</GET_EMP_IDResult>  
 </GET_EMP_IDResponse>  

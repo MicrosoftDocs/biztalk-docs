@@ -24,7 +24,7 @@ This topic describes how to use the BizTalk Server Administration console to imp
   
  You can create a policy by using the Business Rule Composer, as described in [Creating Business Rules Using the Business Rule Composer](../core/creating-business-rules-using-the-business-rule-composer.md), and then import it directly, or you can export a policy from another BizTalk group, as described in [How to Export a Policy](../core/how-to-export-a-policy.md) and then import it.  
   
- Importing a policy registers it in the Rule Engine database for the BizTalk group. After you import the policy, you can view it in the BizTalk Server Administration console. If you use the BizTalk Server Administration console to import a policy, it will display in the \<All Artifacts> node for the BizTalk group. You can then publish it to make it available to add it to a BizTalk application, as described in [How to Publish a Policy](../core/how-to-publish-a-policy.md). If you use the BTSTask command-line tool to import a policy, the policy will be automatically published and will display in the Policies folder of the application into which you imported it.  
+ Importing a policy registers it in the Rule Engine database for the BizTalk group. After you import the policy, you can view it in the BizTalk Server Administration console. If you use the BizTalk Server Administration console to import a policy, it will display in the \<All Artifacts\> node for the BizTalk group. You can then publish it to make it available to add it to a BizTalk application, as described in [How to Publish a Policy](../core/how-to-publish-a-policy.md). If you use the BTSTask command-line tool to import a policy, the policy will be automatically published and will display in the Policies folder of the application into which you imported it.  
   
  When importing a policy, bear in mind the following important points:  
   
@@ -56,13 +56,13 @@ This topic describes how to use the BizTalk Server Administration console to imp
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group into which you want to import the policy, expand **Applications**, and then expand **\<All Artifacts>**.  
+2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group into which you want to import the policy, expand **Applications**, and then expand **\<All Artifacts\>**.  
   
 3.  Right-click **Policies**, and then click **Import**.  
   
 4.  Browse to the .xml file containing the policy and click **Open**.  
   
-     The policy is imported into the group and displays in the **Policies** folder of **\<All Artifacts>**.  
+     The policy is imported into the group and displays in the **Policies** folder of **\<All Artifacts\>**.  
   
 #### Using the command line  
   

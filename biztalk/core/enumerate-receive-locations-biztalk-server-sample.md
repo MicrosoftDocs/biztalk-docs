@@ -36,9 +36,9 @@ The Enumerate Receive Locations sample demonstrates how to retrieve details abou
 ## Where to Find This Sample  
  The samples are located in the following SDK locations:  
   
--   VBScript version: \<*Samples Path*>\Admin\WMI\Enumerate Receive Locations\VBScript\  
+-   VBScript version: \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\VBScript\  
   
--   Visual C# version: \<*Samples Path*>\Admin\WMI\Enumerate Receive Locations\CSharp\  
+-   Visual C# version: \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\CSharp\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -62,13 +62,13 @@ The Enumerate Receive Locations sample demonstrates how to retrieve details abou
   
 1.  In a command window, navigate to one of the following folders, depending on whether you are going to run the VBScript version or the Visual C# version of this sample, respectively:  
   
-     \<*Samples Path*>\Admin\WMI\Enumerate Receive Locations\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\VBScript\  
   
-     \<*Samples Path*>\Admin\WMI\Enumerate Receive Locations\CSharp\bin\Debug\  
+     \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\CSharp\bin\Debug\  
   
 2.  Either run the file EnumRecLocs.vbs using the cscript program, or run the file EnumRl.exe, depending on whether you are going to run the VBScript version or the Visual C# version of this sample, respectively. For the Visual C# version, pass one of the following two command-line arguments:  
   
-    -   **\<ReceiveLocationName>.** The name of the receive location for which details will be displayed. If the receive location name contains spaces, enclose the name in quotes.  
+    -   **\<ReceiveLocationName\>.** The name of the receive location for which details will be displayed. If the receive location name contains spaces, enclose the name in quotes.  
   
     -   **/?.** Displays help.  
   

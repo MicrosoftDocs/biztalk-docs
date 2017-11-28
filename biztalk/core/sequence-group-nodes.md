@@ -20,7 +20,7 @@ manager: "anneta"
 In BizTalk Editor, you can insert a **Sequence Group** node to contain other nodes that must appear in an instance message in the same order in which they appear within the **Sequence Group** node. The contained nodes must be nodes that correspond to XML elements, but cannot be nodes that correspond to XML attributes.  
   
 > [!NOTE]
->  In BizTalk Editor, the **Sequence Group** node is represented by default with the string \<Sequence> in the schema tree view. If you set a reference to a **Sequence Group** node, such as x, it is represented as \<Group:x> in the schema tree view.  
+>  In BizTalk Editor, the **Sequence Group** node is represented by default with the string \<Sequence\> in the schema tree view. If you set a reference to a **Sequence Group** node, such as x, it is represented as \<Group:x\> in the schema tree view.  
   
  You may want to add a **Sequence Group** to declare a global element group.  
   

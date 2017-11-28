@@ -37,9 +37,9 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
     ```  
     <configuration>  
-      \<system.serviceModel>  
+      <system.serviceModel>  
         <client>  
-          \<!-- the name should match the required scheme of the Metadata Exchange endpoint   
+          <!-- the name should match the required scheme of the Metadata Exchange endpoint   
           and the contract should be "IMetadataExchange" -->  
           <endpoint name="siebel"  
             binding="siebelBinding"  
@@ -52,7 +52,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
           </siebelBinding>  
         </bindings>  
   
-      \</system.serviceModel>  
+      </system.serviceModel>  
   
     </configuration>  
   

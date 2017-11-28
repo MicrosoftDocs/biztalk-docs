@@ -102,7 +102,7 @@ This walkthrough provides step-by-step procedures for using the Business Rule Co
 8.  In the properties window, change the value of the **Document Type** property from **PO** to **RuleTest.PO**.  
   
     > [!NOTE]
-    >  You will be creating a BizTalk project named **RuleTest** later in the [Walkthrough: Invoking the Policy from an Orchestration](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) walkthrough. In that walkthrough, you will add the **PO.xsd** file to the project, create an orchestration that invokes the **ProcessPurchaseOrder** policy, and then test the policy. To test the policy from the orchestration, you need to make sure that you change the **Document Type** property to **\<Project Name>.\<SchemaName>**, which is **RuleTest.PO** in this case.  
+    >  You will be creating a BizTalk project named **RuleTest** later in the [Walkthrough: Invoking the Policy from an Orchestration](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) walkthrough. In that walkthrough, you will add the **PO.xsd** file to the project, create an orchestration that invokes the **ProcessPurchaseOrder** policy, and then test the policy. To test the policy from the orchestration, you need to make sure that you change the **Document Type** property to **\<Project Name\>.\<SchemaName\>**, which is **RuleTest.PO** in this case.  
   
      ![BRE&#45;Walkthrough&#45;ChangeDocType](../core/media/e9a370fd-d9b2-48f0-ad0e-85a5428a9c21.gif "e9a370fd-d9b2-48f0-ad0e-85a5428a9c21")  
   
@@ -124,7 +124,7 @@ This walkthrough provides step-by-step procedures for using the Business Rule Co
   
      ![Business Rule Composer&#45;DragStatus](../core/media/3617251a-a192-4aec-9474-81f6290c0832.gif "3617251a-a192-4aec-9474-81f6290c0832")  
   
-14. In the THEN pane, click **\<Enter a value>** and then type **Approved**.  
+14. In the THEN pane, click **\<Enter a value\>** and then type **Approved**.  
   
 15. In the Policy Explorer window, right-click **Version 1.0 (not saved)**, and then click **Save**.  
   

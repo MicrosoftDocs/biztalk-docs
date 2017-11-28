@@ -50,7 +50,7 @@ The host group is the Windows group (named the BizTalk Application Users group b
   
     -   BAM Primary Import  
   
--   It must be a member of the BTS_\<in-process host name>_USERS SQL Server role for the MessageBox database  
+-   It must be a member of the BTS_\<in-process host name\>_USERS SQL Server role for the MessageBox database  
   
 -   It must be a member of the BAM_EVENT_WRITER SQL Server role in the BAM Primary Import database.  
   

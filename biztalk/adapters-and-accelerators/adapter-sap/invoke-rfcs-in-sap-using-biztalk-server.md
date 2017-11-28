@@ -161,7 +161,7 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces
  The orchestration consumes the message and sends it to the SAP system. The response from the SAP system is saved at other file location defined as part of the orchestration. For example, the response from the SAP system for the above request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <RFC_CUSTOMER_GETResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  
   <CUSTOMER_T>  
     <RFCCUST xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  

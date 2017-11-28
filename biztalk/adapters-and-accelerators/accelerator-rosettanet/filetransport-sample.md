@@ -23,7 +23,7 @@ The FileTransport sample demonstrates how to configure [!INCLUDE[btsCoName](../.
 >  This sample does not support message attachments.  
   
 ## FileTransport Binding Files  
- The FileTransport sample includes two binding files. You can use each of these binding files to set up File ports for use with a BTARN orchestration. These binding files are located in *\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet \SDK\FileTransport. Open each binding file in an editor like Notepad to see the settings for the orchestration, send port, receive port, and receive location, as listed below.  
+ The FileTransport sample includes two binding files. You can use each of these binding files to set up File ports for use with a BTARN orchestration. These binding files are located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet \SDK\FileTransport. Open each binding file in an editor like Notepad to see the settings for the orchestration, send port, receive port, and receive location, as listed below.  
   
 -   PrivateInitiatorusingFileDrops.xml  
   
@@ -61,7 +61,7 @@ The FileTransport sample demonstrates how to configure [!INCLUDE[btsCoName](../.
   
 5.  Unenlist Microsoft.Solutions.BTARN.PrivateInitiator.PrivateInitiatatorProcess.  
   
-6.  Create a \FileDrops folder under the BTARN folder of C:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet , and then create the following folder structure under \FileDrops:  
+6.  Create a \FileDrops folder under the BTARN folder of C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet , and then create the following folder structure under \FileDrops:  
   
     -   \PrivateInitiator  
   

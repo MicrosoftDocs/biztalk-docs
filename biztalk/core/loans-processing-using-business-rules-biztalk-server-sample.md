@@ -26,7 +26,7 @@ The Loans Processing Using Business Rules sample demonstrates how to use a set o
  Based on facts from several sources, including the message being processed, this sample sets the **IncomeStatus**, **CommitmentsStatus**, **EmploymentStatus**, and **ResidencyStatus** elements of the message being processed.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Business Rules\Loans Processing using Business Rules\  
+ \<*Samples Path*\>\Business Rules\Loans Processing using Business Rules\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -54,7 +54,7 @@ The Loans Processing Using Business Rules sample demonstrates how to use a set o
   
 2.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Business Rules\Loans Processing using Business Rules  
+     \<*Samples Path*\>\Business Rules\Loans Processing using Business Rules  
   
 3.  Run the file Setup.bat, which performs the following actions:  
   

@@ -93,9 +93,9 @@ The following recommendations can be used to increase BizTalk Server performance
   
  When setting the maxconnection property, HTTP, HTTPS, the web site IP address, and the port number can be specified. Other examples include:  
   
- **\<add address="https://www.contoso.com" maxconnection="24" />**   
-**\<add address="http://www.contoso.com:8080" maxconnection="24" />**   
-**\<add address="http://*IPAddress*" maxconnection="24" />**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200) in BizTalk Server 2010 Help.  
+ **\<add address="https://www.contoso.com" maxconnection="24" /\>**   
+**\<add address="http://www.contoso.com:8080" maxconnection="24" /\>**   
+**\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200) in BizTalk Server 2010 Help.  
   
 ## Manage ASP.NET thread usage or concurrently executing requests for Web applications that can host  isolated received locations, back-end Web services and WCF services  
  The number of worker and I/O threads (IIS 7.5 and IIS 7.0 in classic mode) or the number of concurrently executing requests (IIS 7.5 and 7.0 integrated mode) for an ASP.NET Web application that hosts isolated received locations, back-end Web services and WCF services should be modified under the following conditions:  
@@ -184,7 +184,7 @@ The following recommendations can be used to increase BizTalk Server performance
  For more information about configuring ASP.NET Thread Usage on IIS 7.0, see [Thomas Marquardt's Blog on ASP.NET Thread Usage on IIS 7.0](http://go.microsoft.com/fwlink/?LinkId=157518) (http://go.microsoft.com/fwlink/?LinkId=157518).  
   
 ### Manage the number of concurrently executing requests for ASP.NET 4Web applications that can host isolated received locations, back-end Web services and WCF services on IIS 7.5 and 7.0 running in Integrated mode  
- With .NET Framework 4, the default setting for maxConcurrentRequestsPerCPU is 5000, which is a very large number and therefore will allow plenty of asynchronous requests to execute concurrently. For more information, see [\<applicationPool> Element (Web Settings)](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339).  
+ With .NET Framework 4, the default setting for maxConcurrentRequestsPerCPU is 5000, which is a very large number and therefore will allow plenty of asynchronous requests to execute concurrently. For more information, see [\<applicationPool\> Element (Web Settings)](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339).  
   
  For IIS 7.5 and IIS 7.0 Integrated mode, a DWORD named MaxConcurrentRequestsPerCPU within HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0 determines the number of concurrent requests per CPU. By default, the registry key does not exist and the number of requests per CPU is limited to 5000.  
   

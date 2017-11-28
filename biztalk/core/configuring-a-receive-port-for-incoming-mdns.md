@@ -29,7 +29,7 @@ To receive an AS2 MDN, create a one-way HTTP receive port to receive the message
 |**Receive Location Properties: General**|Transport Type|HTTP<br /><br /> **Note** Only the HTTP adapter can be used for transporting MDNs, which are EDIINT/AS2-encoded messages. This transport will not work with an adapter other than the HTTP adapter.|  
 |**Receive Location Properties: General**|Receive handler|BizTalkServerIsolatedHost|  
 |**Receive Location Properties: General**|Receive pipeline|AS2Receive or AS2EdiReceive|  
-|**HTTP Transport Properties**|Virtual directory plus ISAPI extension|/\<name of virtual directory>/BTSHTTPReceive.dll|  
+|**HTTP Transport Properties**|Virtual directory plus ISAPI extension|/\<name of virtual directory\>/BTSHTTPReceive.dll|  
   
 ## See Also  
  [Configuring Ports for an AS2 Solution](../core/configuring-ports-for-an-as2-solution.md)

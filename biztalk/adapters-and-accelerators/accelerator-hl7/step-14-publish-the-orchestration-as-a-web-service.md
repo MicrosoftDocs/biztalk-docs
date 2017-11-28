@@ -40,7 +40,7 @@ In this step, you use the BizTalk Web Services Publishing Wizard to publish your
   
 3.  On the **Create Web Service** page, select **Publish BizTalk orchestrations as web services**, and then click **Next**.  
   
-4.  On the **BizTalk Assembly** page, in the **BizTalk assembly file (\*.dll)** field, browse to or type **\<*drive*>:\Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**, click **BTAHL7 Project.dll**, click **Open**, and then click **Next**.  
+4.  On the **BizTalk Assembly** page, in the **BizTalk assembly file (\*.dll)** field, browse to or type **\<*drive*\>:\Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**, click **BTAHL7 Project.dll**, click **Open**, and then click **Next**.  
   
 5.  On the **Orchestrations and Ports** page, ensure that all nodes are selected, and then click **Next**.  
   

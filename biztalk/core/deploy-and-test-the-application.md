@@ -77,7 +77,7 @@ manager: "anneta"
   
 1.  Navigate to the sample you downloaded, and from the **TestMessage** folder, copy **JsonPurchaseOrder.json**, and paste it in the folder you associated with the receive location. Wait till the file disappears.  
   
-2.  Navigate to the folder that you associated with the send port you created. Notice that a ***\<GUID>*.json** file is available in the folder. Open the file and verify that it’s the invoice message.  
+2.  Navigate to the folder that you associated with the send port you created. Notice that a ***\<GUID\>*.json** file is available in the folder. Open the file and verify that it’s the invoice message.  
   
 ## See Also  
  [Processing JSON messages using BizTalk Server](../core/processing-json-messages-using-biztalk-server.md)

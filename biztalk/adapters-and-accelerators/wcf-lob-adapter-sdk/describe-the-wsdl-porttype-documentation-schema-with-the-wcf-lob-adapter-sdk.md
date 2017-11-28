@@ -21,44 +21,44 @@ The WSDL that the  [!INCLUDE[afproductnameshort](../../includes/afproductnamesho
  The operation documentation is implemented using annotation of the portType to add a node that represents the adapter documentation for the operation. This node contains subnodes that further describe the operation and parameters. This schema is defined as follows.  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
-\<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
-  \<xs:element name="adapterOperationDocumentation">  
-    \<xs:complexType>  
-      \<xs:sequence>  
-        \<xs:element name="summary" type="xs:string" />  
-        \<xs:element maxOccurs="unbounded" name="param">  
-          \<xs:complexType>  
-            \<xs:simpleContent>  
-              \<xs:extension base="xs:string">  
-                \<xs:attribute name="name" type="xs:string" use="required" />  
-              \</xs:extension>  
-            \</xs:simpleContent>  
-          \</xs:complexType>  
-        \</xs:element>  
-        \<xs:element name="returns" type="xs:string" />  
-      \</xs:sequence>  
-    \</xs:complexType>  
-  \</xs:element>  
-\</xs:schema>  
+<?xml version="1.0" encoding="utf-8"?>  
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+  <xs:element name="adapterOperationDocumentation">  
+    <xs:complexType>  
+      <xs:sequence>  
+        <xs:element name="summary" type="xs:string" />  
+        <xs:element maxOccurs="unbounded" name="param">  
+          <xs:complexType>  
+            <xs:simpleContent>  
+              <xs:extension base="xs:string">  
+                <xs:attribute name="name" type="xs:string" use="required" />  
+              </xs:extension>  
+            </xs:simpleContent>  
+          </xs:complexType>  
+        </xs:element>  
+        <xs:element name="returns" type="xs:string" />  
+      </xs:sequence>  
+    </xs:complexType>  
+  </xs:element>  
+</xs:schema>  
 ```  
   
  When WSDL is generated for a given operation, the preceding schema is used to provide additional descriptive information in human readable format. For example, the following portType information is returned for the EchoString operation of the Echo Adapter.  
   
 ```  
-\<wsdl:portType name="EchoService">  
-  \<wsdl:operation name="EchoString">  
-    \<wsdl:documentation>  
-      \<doc:adapterOperationDocumentation>  
-        \<doc:summary>String EchoString( string aName)\</doc:summary>  
-        \<doc:param name="aName">This string will be echoed back to the user.\</doc:param>  
-        \<doc:returns>String value containing the value of aName \</doc:returns>  
-      \</doc:adapterOperationDocumentation>  
-    \</wsdl:documentation>  
-    \<wsdl:input wsaw:Action="Echo/EchoString" message="ns2:EchoService_EchoString_InputMessage" />  
-    \<wsdl:output wsaw:Action="Echo/EchoString/response" message="ns2:EchoService_EchoString_OutputMessage" />  
-  \</wsdl:operation>  
-\</wsdl:portType>  
+<wsdl:portType name="EchoService">  
+  <wsdl:operation name="EchoString">  
+    <wsdl:documentation>  
+      <doc:adapterOperationDocumentation>  
+        <doc:summary>String EchoString( string aName)\</doc:summary>  
+        <doc:param name="aName">This string will be echoed back to the user.\</doc:param>  
+        <doc:returns>String value containing the value of aName \</doc:returns>  
+      </doc:adapterOperationDocumentation>  
+    </wsdl:documentation>  
+    <wsdl:input wsaw:Action="Echo/EchoString" message="ns2:EchoService_EchoString_InputMessage" />  
+    <wsdl:output wsaw:Action="Echo/EchoString/response" message="ns2:EchoService_EchoString_OutputMessage" />  
+  </wsdl:operation>  
+</wsdl:portType>  
 ```  
   
  The values for the documentation elements are obtained from `Microsoft.ServiceModel.Channels.Common.ParameterizedOperationMetadata` for the operation. The preceding example was generated as a result of the following example.  

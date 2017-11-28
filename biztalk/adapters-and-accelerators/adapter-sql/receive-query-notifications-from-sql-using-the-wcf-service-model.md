@@ -26,7 +26,7 @@ This topic demonstrates how to configure the [!INCLUDE[adaptersqlshort](../../in
 |Binding Property|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|Specifies the inbound operation that you want to perform. To receive notification messages, set this to **Notification**.|  
-|**NotificationStatement**|Specifies the SQL statement (SELECT or EXEC \<*stored procedure*>) used to register for query notifications. The adapter gets a notification message from SQL Server only when the result set for the specified SQL statement changes.|  
+|**NotificationStatement**|Specifies the SQL statement (SELECT or EXEC \<*stored procedure*\>) used to register for query notifications. The adapter gets a notification message from SQL Server only when the result set for the specified SQL statement changes.|  
 |**NotifyOnListenerStart**|Specifies whether the adapter sends a notification to the adapter clients when the listener is started.|  
   
  For a more complete description of these properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). For a complete description of how to use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notifications from SQL Server, read further.  
@@ -170,7 +170,7 @@ namespace SqlAdapterBindingNamespace {
   
                 Console.WriteLine("The details of the newly added employee are:");  
                 Console.WriteLine("********************************************");  
-                for (int i = 0; i \< selectRecords.Length; i++)  
+                for (int i = 0; i < selectRecords.Length; i++)  
                 {  
                     Console.WriteLine("Employee Name      : " + selectRecords[i].Name);  
                     Console.WriteLine("Employee Designation: " + selectRecords[i].Designation);  

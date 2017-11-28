@@ -28,7 +28,7 @@ Administrators use the **update-all** command to update artifacts deployed in th
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type **bm update-all -DefinitionFile:\<def file>**.  
+3.  Type **bm update-all -DefinitionFile:\<def file\>**.  
   
 4.  Press **ENTER**.  
   

@@ -41,7 +41,7 @@ The Medical Claims Processing and Testing Policies sample demonstrates how to cr
 6.  Otherwise, approves the claim.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Business Rules\Medical Claims Processing and Testing Policies\  
+ \<*Samples Path*\>\Business Rules\Medical Claims Processing and Testing Policies\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -67,7 +67,7 @@ The Medical Claims Processing and Testing Policies sample demonstrates how to cr
   
 2.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Business Rules\Medical Claims Processing and Testing Policies\  
+     \<*Samples Path*\>\Business Rules\Medical Claims Processing and Testing Policies\  
   
 3.  Run the file Setup.bat, which performs the following actions:  
   
@@ -96,7 +96,7 @@ The Medical Claims Processing and Testing Policies sample demonstrates how to cr
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
+     \<*Samples Path*\>\Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
   
 2.  Run the file RulesForMedicalClaims.exe on the command line.  
   

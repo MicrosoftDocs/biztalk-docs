@@ -85,7 +85,7 @@ manager: "anneta"
   
     3.  In the **Signing** tab, select the **Sign the assembly** check box.  
   
-    4.  From the **Choose a strong-name key file** list, click **\<Browse>**.  
+    4.  From the **Choose a strong-name key file** list, click **\<Browse\>**.  
   
     5.  Navigate to the folder where you created the strong-name key file, and then click **Open**.  
   

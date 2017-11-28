@@ -24,11 +24,11 @@ The destination URL is a string that specifies the address of the HTTP server wh
   
 -   You must always specify the destination URL property in the following format:  
   
-     http[s]://\<host>[:\<port>][/\<path>[/\<file>[?\<query-string>]]]  
+     http[s]://\<host\>[:\<port\>][/\<path\>[/\<file\>[?\<query-string\>]]]  
   
 -   The whole string may or may not be URI encoded.  
   
--   The whole string, except the query string, cannot contain any of the following characters: \< > : \ &#124; " ? *.  
+-   The whole string, except the query string, cannot contain any of the following characters: \< \> : \ &#124; " ? *.  
   
 -   The property is not case-sensitive.  
   

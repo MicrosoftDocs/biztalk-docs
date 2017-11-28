@@ -63,7 +63,7 @@ We recommended that you follow the instructions in this section to cluster the E
   
     6.  Enter the domain SSO Affiliate Administrators group that you created earlier as the group associated with the SSO Affiliate Administrator(s) role.  
   
-8.  Select the **Enterprise SSO Secret Backup** option from the left pane and provide the appropriate parameters for backing up the Enterprise SSO secret. By default, the Enterprise SSO secret is backed up to *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On\\*SSOxxxx*.bak.  
+8.  Select the **Enterprise SSO Secret Backup** option from the left pane and provide the appropriate parameters for backing up the Enterprise SSO secret. By default, the Enterprise SSO secret is backed up to *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On\\*SSOxxxx*.bak.  
   
 9. Click the **Apply Configuration** and review the Summary.  
   
@@ -129,7 +129,7 @@ We recommended that you follow the instructions in this section to cluster the E
   
     2.  Save the file as an .xml file. For example, save the file as SSOCLUSTER.xml.  
   
-    3.  At a command prompt, change to the Enterprise SSO installation folder. By default, the installation folder is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+    3.  At a command prompt, change to the Enterprise SSO installation folder. By default, the installation folder is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
     4.  Type the following command at the command prompt to update the master secret server name in the database:  
   
@@ -187,7 +187,7 @@ We recommended that you follow the instructions in this section to cluster the E
     > [!NOTE]
     >  If this step is not completed the attempt to restore the master secret may not succeed.  
   
-4.  Copy the master secret backup file from the first node to the \Enterprise Single Sign-On installation folder on the second node. By default, the installation folder is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+4.  Copy the master secret backup file from the first node to the \Enterprise Single Sign-On installation folder on the second node. By default, the installation folder is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 5.  Log on to the second node and at a command prompt, change to the Enterprise SSO installation folder.  
   

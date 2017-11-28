@@ -20,7 +20,7 @@ In this step, you create a 3A2 Price and Availability request using the LOBWebAp
   
 ### To submit a 3A2 Price and Availability request to Contoso  
   
-1.  In Internet Explorer, move to http://\<*fabrikam_computername*>/LOBWebApplication/default.aspx.  
+1.  In Internet Explorer, move to http://\<*fabrikam_computername*\>/LOBWebApplication/default.aspx.  
   
 2.  On the **LOBWebApplication** page, do the following:  
   
@@ -32,7 +32,7 @@ In this step, you create a 3A2 Price and Availability request using the LOBWebAp
     |**PIP Version**|Type **R02.00.00A**.|  
     |**Message Category**|Type **Action**.|  
   
-3.  Using Notepad or another text editor, open the **3A2_Request.xml** file in the C:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstancesfolder and copy and paste the text into the **Service Content** field in the LOBWebApplication tool.  
+3.  Using Notepad or another text editor, open the **3A2_Request.xml** file in the C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstancesfolder and copy and paste the text into the **Service Content** field in the LOBWebApplication tool.  
   
 4.  Click **Submit** to submit the 3A2 request to Contoso.  
   
@@ -49,7 +49,7 @@ In this step, you create a 3A2 Price and Availability request using the LOBWebAp
   
 4.  In the Microsoft SQL Server Management Studio, click **New Query**.  
   
-5.  In the **\<table> text** dialog box, select **BTARNDATA** from the list.  
+5.  In the **\<table\> text** dialog box, select **BTARNDATA** from the list.  
   
 6.  In the **SQL** window, type the following SQL statement:  
   
@@ -72,7 +72,7 @@ In this step, you create a 3A2 Price and Availability request using the LOBWebAp
   
 3.  In the Microsoft SQL Server Management Studio, click **New Query**.  
   
-4.  In the **\<table> text** dialog box, select **BTARNDATA** from the list.  
+4.  In the **\<table\> text** dialog box, select **BTARNDATA** from the list.  
   
 5.  In the **SQL** window, type the following SQL statement:  
   

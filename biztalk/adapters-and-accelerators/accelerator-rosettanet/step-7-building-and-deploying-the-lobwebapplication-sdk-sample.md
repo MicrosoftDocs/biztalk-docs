@@ -31,7 +31,7 @@ In this step, you create the line-of-business (LOB) application that Fabrikam us
   
 5.  On the **Virtual Directory Alias** page, in the **Alias** box, type **LOBWebApplication**, and then click **Next**.  
   
-6.  On the **Web Site Content Directory** page, click **Browse**. In the Browse For Folder dialog box, move to ***\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\LOBWebApplication**, and then click **OK**. Click **Next**.  
+6.  On the **Web Site Content Directory** page, click **Browse**. In the Browse For Folder dialog box, move to ***\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication**, and then click **OK**. Click **Next**.  
   
 7.  On the **Virtual Directory Access Permissions** page, deselect **Read**, select **Run scripts (such as ASP)**, and then click **Next**.  
   
@@ -59,11 +59,11 @@ In this step, you create the line-of-business (LOB) application that Fabrikam us
   
 2.  On the **File** menu, point to **Open**, and then click **Project/Solution**.  
   
-3.  In the Open Project dialog box, move to ***\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\LOBWebApplication**, select the **LOBWebApplication.sln** solution file, and then click **Open**.  
+3.  In the Open Project dialog box, move to ***\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication**, select the **LOBWebApplication.sln** solution file, and then click **Open**.  
   
 4.  In Solution Explorer, right-click **http://localhost/LOBWebApplication**, and then click **Add Reference**.  
   
-5.  In the Add Reference dialog box, click **Browse**. In the Add Reference dialog box, move to ***\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\Bin** folder.  
+5.  In the Add Reference dialog box, click **Browse**. In the Add Reference dialog box, move to ***\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin** folder.  
   
 6.  From the Bin folder, select the **Microsoft.Solutions.BTARN.ConfigurationManager.dll** and **Microsoft.Solutions.BTARN.Shared.dll** assemblies, and then click **Open.**  
   

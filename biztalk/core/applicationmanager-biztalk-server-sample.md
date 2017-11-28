@@ -35,7 +35,7 @@ The ApplicationManager sample demonstrates how to start or stop a  BizTalk appli
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\ApplicationManager  
+ \<*Samples Path*\>\Admin\ExplorerOM\ApplicationManager  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -56,13 +56,13 @@ The ApplicationManager sample demonstrates how to start or stop a  BizTalk appli
   
 1.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\ApplicationManager\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\ApplicationManager\bin\Debug  
   
 2.  Run the file ApplicationManager.exe providing the following two ordered command-line arguments:  
   
-    -   **\<start&#124;stop>** First argument is the operation to be performed on the deployed application.  
+    -   **\<start&#124;stop\>** First argument is the operation to be performed on the deployed application.  
   
-    -   **\<ApplicationName>** Second argument is the name of the deployed application.  
+    -   **\<ApplicationName\>** Second argument is the name of the deployed application.  
   
      For example:  
   

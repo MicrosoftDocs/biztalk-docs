@@ -73,7 +73,7 @@ The support for undo/redo is yet another usability aid provided by the BizTalk M
     > [!NOTE]
     >  For more information, see [How to Create Links](../core/how-to-create-links.md).  
   
--   Performing multiple modifications in the **Configure \<Functoid> Functoid** dialog box, which is treated as a single operation.  
+-   Performing multiple modifications in the **Configure \<Functoid\> Functoid** dialog box, which is treated as a single operation.  
   
 -   Dragging functoid(s) and/or link(s) within the Mapper grid.  
   

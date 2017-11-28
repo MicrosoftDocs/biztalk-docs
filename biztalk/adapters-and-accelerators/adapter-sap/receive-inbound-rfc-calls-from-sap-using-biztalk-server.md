@@ -159,7 +159,7 @@ namespace RFCServerResponseCreator
         public static XmlDocument CreateRequest(int a, int b, string destination)  
         {  
             messageIn = new XmlDocument();  
-            messageIn.LoadXml(  "\<Z_RFC_ADD xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
+            messageIn.LoadXml(  "<Z_RFC_ADD xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
                                 "<DEST>" + destination + "</DEST>" +  
                                 "<X>" + a + "</X>" +  
                                 "<Y>" + b + "</Y>" +   
@@ -171,7 +171,7 @@ namespace RFCServerResponseCreator
         {  
             int c = a + b;  
             messageOut = new XmlDocument();  
-            messageOut.LoadXml( "\<Z_RFC_ADDResponse xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
+            messageOut.LoadXml( "<Z_RFC_ADDResponse xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
                                 "<RESULT>" + c + "</RESULT>" +   
                                 "</Z_RFC_ADDResponse>"  
                               );  

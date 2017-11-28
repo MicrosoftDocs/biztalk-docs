@@ -36,7 +36,7 @@ When you use a public-process orchestration with an HTTP adapter in a synchronou
   
 ### To set the time-out setting for the public-process orchestration  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version> Accelerator for RosettaNet**, and then click  **BizTalk Accelerator for RosettaNet Management Console**.  
+1.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version\> Accelerator for RosettaNet**, and then click  **BizTalk Accelerator for RosettaNet Management Console**.  
   
 2.  Expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click **Process Configuration Settings**.  
   

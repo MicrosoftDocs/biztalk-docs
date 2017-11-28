@@ -32,7 +32,7 @@ The OrderedSample sample demonstrates how to use an orchestration to receive and
  The orchestration can receive batches of messages and single messages.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
+ *\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
   
  The following table shows the files in this sample and describes their purpose.  
   

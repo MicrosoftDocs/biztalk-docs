@@ -72,7 +72,7 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en
   
      To add references:  
   
-    1.  Right-click the root **\<Schema>** node in the CompositeSchema.xsd, and click **Properties**.  
+    1.  Right-click the root **\<Schema\>** node in the CompositeSchema.xsd, and click **Properties**.  
   
     2.  In the **Property** box, click the ellipsis button **(…)** against the **Imports** property.  
   
@@ -91,9 +91,9 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en
     > [!NOTE]
     >  By default, a **Root** node is also added to a new schema file. You can rename the **Root** node to **Request**. To rename a node, right-click the node name and click **Rename**.  
   
-     To add a node under the **\<Schema>** node:  
+     To add a node under the **\<Schema\>** node:  
   
-    1.  Right-click the **\<Schema>** node, point to **Insert Schema Node**, and click **Child Record**.  
+    1.  Right-click the **\<Schema\>** node, point to **Insert Schema Node**, and click **Child Record**.  
   
     2.  Rename the new node to **RequestResponse**.  
   
@@ -278,34 +278,34 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en
  The orchestration consumes the message and sends it to Oracle database. The response from Oracle database is saved at the other FILE location defined as part of the orchestration. For example, the response from Oracle database for the preceding request message resembles the following:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <RequestResponse xmlns="http://Composite_Op.CompositeSchema">  
   <InsertResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOOT/Table/ACCOUNTACTIVITY">  
     <InsertResult>1</InsertResult>   
   </InsertResponse>  
   <GET_ALL_ACTIVITYResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
     <ALLRECS>  
-      \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-        \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-          \<xs:complexType>  
-            \<xs:sequence>  
-              \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                \<xs:complexType>  
-                  \<xs:sequence>  
-                    \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
-                    \<xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
-                    \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                  \</xs:sequence>  
-                \</xs:complexType>  
-              \</xs:element>  
-            \</xs:sequence>  
-          \</xs:complexType>  
-        \</xs:element>  
-      \</xs:schema>  
-      \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+      <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+        <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+          <xs:complexType>  
+            <xs:sequence>  
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                <xs:complexType>  
+                  <xs:sequence>  
+                    <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
+                    <xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
+                    <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                  </xs:sequence>  
+                </xs:complexType>  
+              </xs:element>  
+            </xs:sequence>  
+          </xs:complexType>  
+        </xs:element>  
+      </xs:schema>  
+      <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
         <NewDataSet xmlns="">  
           <NewTable>  
             ......   
@@ -321,7 +321,7 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en
             <PROCESSED>n</PROCESSED>   
           </NewTable>  
         </NewDataSet>  
-      \</diffgr:diffgram>  
+      </diffgr:diffgram>  
     </ALLRECS>  
   </GET_ALL_ACTIVITYResponse>  
   <DeleteResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY">  

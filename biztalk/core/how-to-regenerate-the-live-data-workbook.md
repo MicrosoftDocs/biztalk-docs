@@ -57,7 +57,7 @@ In cases where the BAM live data workbook has been lost or corrupted, you can re
   
 1.  Open the abc.xml file that you created when you retrieved the BAM definitions using Notepad by clicking **Start**, clicking **Run**, typing notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\abc.xml, and then clicking **OK**.  
   
-2.  Locate the \<Caption> tag under \<BAMDefinition>\\<Extension\>\\<OWC\>\\<PivotTableView\>\\<PivotTable\>\\<PivotView\>\\<Label\>. The content of this tag is the internal name for one of your PivotTable reports. You can find the internal name for the other PivotTable reports by locating the next \<Caption> tag. Open **mynewbook.xls** and use the names you located to rename your PivotTable reports.  
+2.  Locate the \<Caption\> tag under \<BAMDefinition\>\\<Extension\>\\<OWC\>\\<PivotTableView\>\\<PivotTable\>\\<PivotView\>\\<Label\>. The content of this tag is the internal name for one of your PivotTable reports. You can find the internal name for the other PivotTable reports by locating the next \<Caption\> tag. Open **mynewbook.xls** and use the names you located to rename your PivotTable reports.  
   
 3.  Save the updated workbook.  
   

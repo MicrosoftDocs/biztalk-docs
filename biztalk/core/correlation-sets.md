@@ -31,17 +31,17 @@ You can achieve this sort of correlation of messages with orchestration instance
   
 |Correlation Type Property|Possible XML Representation|  
 |-------------------------------|---------------------------------|  
-|Social Security number|\<SSN>\</SSN>|  
-|Date of Birth|\<DOB>\</DOB>|  
-|Gender|\<Gender>\</Gender>|  
+|Social Security number|\<SSN\>\</SSN\>|  
+|Date of Birth|\<DOB\>\</DOB\>|  
+|Gender|\<Gender\>\</Gender\>|  
   
  While a correlation set derived from this correlation type could consist of the following properties and values:  
   
 |Correlation Set Property/Value|Possible XML representation|  
 |-------------------------------------|---------------------------------|  
-|Social Security number = 222112222|\<SSN>222112222\</SSN>|  
-|Date of Birth = “1/1/1995”|\<DOB>”1/1/1995”\</DOB>|  
-|Gender = Male|\<Gender>M\</Gender>|  
+|Social Security number = 222112222|\<SSN\>222112222\</SSN\>|  
+|Date of Birth = “1/1/1995”|\<DOB\>”1/1/1995”\</DOB\>|  
+|Gender = Male|\<Gender\>M\</Gender\>|  
   
 > [!NOTE]
 >  Each correlation set supports a maximum of three parameters.  

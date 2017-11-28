@@ -26,7 +26,7 @@ This topic describes how to add custom functoids to and remove custom functoids 
   
     1.  Using Windows Explorer, find the assembly that implements your custom functoids.  
   
-    2.  Copy the assembly to the \<*BizTalk Server installation folder*>**\Developer Tools\Mapper Extensions** directory. This is where BizTalk Mapper looks for custom functoids.  
+    2.  Copy the assembly to the \<*BizTalk Server installation folder*\>**\Developer Tools\Mapper Extensions** directory. This is where BizTalk Mapper looks for custom functoids.  
   
     3.  From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, on the **Tools** menu, click **Choose Toolbox Items**.  
   

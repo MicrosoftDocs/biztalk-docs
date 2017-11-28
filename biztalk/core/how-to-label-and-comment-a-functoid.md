@@ -27,7 +27,7 @@ Labels and comments are helpful to document the purpose of a functoid or a link 
   
  You can label and comment a functoid in the following ways:  
   
--   By using the **Configure \<Functoid> Functoid** dialog box.  
+-   By using the **Configure \<Functoid\> Functoid** dialog box.  
   
 -   By using the **Properties** window.  
   
@@ -38,7 +38,7 @@ Labels and comments are helpful to document the purpose of a functoid or a link 
   
 1.  Right-click the functoid you want to label and comment, and then click **Configure Functoid Inputs**.  
   
-2.  In the **Configure \<Functoid> Functoid** dialog box, click the **Label and Comments** tab.  
+2.  In the **Configure \<Functoid\> Functoid** dialog box, click the **Label and Comments** tab.  
   
 3.  Enter the following information, and then click **OK**.  
   

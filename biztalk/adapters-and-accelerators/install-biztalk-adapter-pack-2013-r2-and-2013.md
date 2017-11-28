@@ -425,7 +425,7 @@ Complete the following steps to install the [!INCLUDE[adapterpacknoversion](../i
   
 <a name="BKMK_CreateSQLServer"></a>   
 #### Create SQL Server Database objects (only for the SAP adapter)  
- To invoke tRFCs in an SAP system, run the *SapAdapter-DbScript-Install.sql* SQL script. This script is installed with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation, and creates database objects in SQL Server. The script is typically installed at \<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. You can run this script against any SQL Server database, as long as you enter that database name while using the adapter to invoke tRFCs.  
+ To invoke tRFCs in an SAP system, run the *SapAdapter-DbScript-Install.sql* SQL script. This script is installed with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation, and creates database objects in SQL Server. The script is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. You can run this script against any SQL Server database, as long as you enter that database name while using the adapter to invoke tRFCs.  
   
 <a name="BKMK_Register_Bindings"></a>   
 #### Register the adapter bindings  
@@ -671,7 +671,7 @@ For the steps and guidance to install the different enterprise LOB systems, we r
 ## Removing the BizTalk Adapter Pack  
   
 > [!IMPORTANT]
->  If you created tables in the SQL Server database to work with the tRFC feature of the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], you must manually remove them before removing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation copies a SapAdapter-DbScript-Uninstall.sql file typically at \<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Run this file to remove the tables you created.  
+>  If you created tables in the SQL Server database to work with the tRFC feature of the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], you must manually remove them before removing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation copies a SapAdapter-DbScript-Uninstall.sql file typically at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Run this file to remove the tables you created.  
   
 Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] from your computer. Make sure you have the [!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)] installed before you run the setup wizard to remove the adapters.  
   

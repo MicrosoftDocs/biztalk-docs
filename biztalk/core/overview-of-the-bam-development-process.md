@@ -30,7 +30,7 @@ This topic describes the development process and the database and tables that st
   
     -   Use the BizTalk Server Configuration Manager to install the BAM tools. We recommend that you use the Configuration Manager because it places appropriate entries in the registry that facilitate upgrades. For more information about configuring BAM, see [Configuring BAM Tools Using the Configuration Manager](http://go.microsoft.com/fwlink/?LinkId=70561) (http://go.microsoft.com/fwlink/?LinkId=70561).  
   
-    -   Copy the DLL from a computer on which they have already been installed. The DLL resides in the Microsoft BizTalk Server \<version>\Tracking folder.  
+    -   Copy the DLL from a computer on which they have already been installed. The DLL resides in the Microsoft BizTalk Server \<version\>\Tracking folder.  
   
 ## BAM Development Process  
  The following figure describes the BAM development flow.  
@@ -52,11 +52,11 @@ This topic describes the development process and the database and tables that st
   
 4.  Run the application. When you do this, the code will:  
   
-    -   Add a placeholder record to the BAM_\<*activity name*>_Active table.  
+    -   Add a placeholder record to the BAM_\<*activity name*\>_Active table.  
   
     -   Update the data items in the record.  
   
-    -   End the activity and move the record to the BAM_\<*activity nam*e>_completed table.  
+    -   End the activity and move the record to the BAM_\<*activity name**\>_completed table.  
   
 ## Where BAM Data Is Stored  
  BAM provides the EventObservation namespace that contains the EventStream classes that are used to handle BAM events.  
@@ -65,11 +65,11 @@ This topic describes the development process and the database and tables that st
   
 |Name|Description|  
 |----------|-----------------|  
-|Active table|Named bam_\<*activity name*>_Active, this table holds the activities of this type that have not yet completed.|  
-|Active relationships table|Named bam_\<*activity name*>_ActiveRelationships, this table contains the related activities for the activity that have not yet completed.|  
-|Continuations table|Named bam_\<*activity name*>_continuations, this table lists the continuations activities for the activity.|  
-|Completed table|Named bam_\<*activity name*>_completed.|  
-|Completed Relationships table|Named bam_\<*activity name*>_CompletedRelationships, this table contains the completed related activities for the activity.|  
+|Active table|Named bam_\<*activity name*\>_Active, this table holds the activities of this type that have not yet completed.|  
+|Active relationships table|Named bam_\<*activity name*\>_ActiveRelationships, this table contains the related activities for the activity that have not yet completed.|  
+|Continuations table|Named bam_\<*activity name*\>_continuations, this table lists the continuations activities for the activity.|  
+|Completed table|Named bam_\<*activity name*\>_completed.|  
+|Completed Relationships table|Named bam_\<*activity name*\>_CompletedRelationships, this table contains the completed related activities for the activity.|  
   
  You capture four types of data in a BAM activity:  
   

@@ -47,7 +47,7 @@ The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServ
 -   XmlTransmit is used as the send pipeline. Use the PassThruTransmit pipeline when property demotion or other messaging processing is not required in the send port.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
+ *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -68,13 +68,13 @@ The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServ
   
 1.  In a command window, navigate to the following folder:  
   
-     *\<Samples Path>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+     *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input (FFInput) and output (FFOutput) folders for this sample in the folder:  
   
-         *\<Samples Path>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+         *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
   
     -   Compiles and deploys the Visual Studio project for this sample.  
   

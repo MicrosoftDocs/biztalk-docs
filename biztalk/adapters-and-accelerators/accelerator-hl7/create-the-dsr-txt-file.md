@@ -35,6 +35,6 @@ Use the following procedure to create the response DSR.txt message file. You wil
     DSP|||CO2 25 [20-30] MEQ/L STAT|LB  
     ```  
   
-2.  Save the file as **DSR.txt** in the \<*drive*:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial folder, and then close the editor.  
+2.  Save the file as **DSR.txt** in the \<*drive*:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial folder, and then close the editor.  
   
  Proceed to [Step 1: Create and Deploy Common Header and Acknowledgment Schemas](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-common-header-and-acknowledgment-schemas.md).

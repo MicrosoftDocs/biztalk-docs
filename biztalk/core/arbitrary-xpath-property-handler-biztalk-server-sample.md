@@ -25,7 +25,7 @@ The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../in
   
 1.  DocInstance.xml is retrieved by a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive port and processed by a custom pipeline component called Arbitrary XPath Property Handler.  
   
-2.  The arbitrary XPath property handler component promotes all \<Price> and \<Quantity> elements with an arbitrary XPath expression as defined in the PO schema. The XPath expression also contains the position construct for use with ambiguous child elements of the PO document root element.  
+2.  The arbitrary XPath property handler component promotes all \<Price\> and \<Quantity\> elements with an arbitrary XPath expression as defined in the PO schema. The XPath expression also contains the position construct for use with ambiguous child elements of the PO document root element.  
   
 3.  The arbitrary XPath property handler component determines the message type and promotes it into the message context.  
   
@@ -38,7 +38,7 @@ The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../in
 7.  The new PO document is written to a file in the \Output directory.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Pipelines\ArbitraryXPathPropertyHandler  
+ *\<Samples Path\>*\Pipelines\ArbitraryXPathPropertyHandler  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -64,7 +64,7 @@ The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../in
  This sample is designed to run in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment with [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] running on the same machine. If your environment does not match this configuration, you must modify the Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Sample) to point to the correct SQL Server computer.  
   
 > [!IMPORTANT]
->  Setup.bat assumes your Microsoft Windows installation directory is C:\Windows. If your Windows installation is in another directory, you must modify the ArbitraryXPathPropertyHandler.csproj file to reflect the location of the Microsoft.BizTalk.Component.Utilities assembly in the global assembly cache. In the Reference element, change \<SYSTEMROOT> to the location where Windows is installed (for example, C:\WINNT\\).  
+>  Setup.bat assumes your Microsoft Windows installation directory is C:\Windows. If your Windows installation is in another directory, you must modify the ArbitraryXPathPropertyHandler.csproj file to reflect the location of the Microsoft.BizTalk.Component.Utilities assembly in the global assembly cache. In the Reference element, change \<SYSTEMROOT\> to the location where Windows is installed (for example, C:\WINNT\\).  
   
 ```  
 <Reference  
@@ -80,13 +80,13 @@ The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../in
   
 1.  In a command window, change directories (**cd**) to the following folder:  
   
-     *\<Samples Path>*\Pipelines\ArbitraryXPathPropertyHandler  
+     *\<Samples Path\>*\Pipelines\ArbitraryXPathPropertyHandler  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Builds the Arbitrary XPath Property Handler pipeline component.  
   
-    -   Copies built pipeline component to the *\<Installation Path>*\Pipeline Components directory.  
+    -   Copies built pipeline component to the *\<Installation Path\>*\Pipeline Components directory.  
   
     -   Creates the send and receive ports.  
   
@@ -111,7 +111,7 @@ The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../in
   
 1.  Copy the purchase order (PO) file DocInstance.xml to the \Input directory. The PO file is picked up by a receive port, which sends the XML data to the Arbitrary XPath Property Handler pipeline component.  
   
-2.  View the contents in the \Output directory. Notice that a new file is created that contains all the information from the DocInstance.xml file that you copied to the \Input directory. The difference in the file is that now the \<TotalAmount> element has been populated with the total amount for the PO.  
+2.  View the contents in the \Output directory. Notice that a new file is created that contains all the information from the DocInstance.xml file that you copied to the \Input directory. The difference in the file is that now the \<TotalAmount\> element has been populated with the total amount for the PO.  
   
 ## Comments  
  Canonical XPath expressions are simple expressions such as "/*[local-name()='element-name' and namespaceURI()='http://MyUri.org']/\*[local-name()='element-name']/@\*[local-name='attribute-name']".  

@@ -26,13 +26,13 @@ In this step, you test your solution by using the WSClient application to send a
     > [!NOTE]
     >  Step 2 requires that you have installed the MLLP Test tool using the custom installation procedure. If the \MLLP Utilities directory containing MllpReceive.exe and MllpSend.exe does not exist on your computer, install them by performing a custom installation. For information, see [Performing a Custom Installation](http://msdn.microsoft.com/library/e55c86e1-af63-49ba-8510-d177e1b96692).  
   
-2.  At the command prompt, type **cd \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\MLLP Utilities** (where \<*drive*> is your installation drive letter), and then press **Enter**.  
+2.  At the command prompt, type **cd \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\MLLP Utilities** (where \<*drive*\> is your installation drive letter), and then press **Enter**.  
   
 3.  At the command prompt, type **mllpreceive /p 11000 /eb 11 /sb 28 /cr 13**, and then press **Enter**. This runs the MLLP listener application listening to port 11000 and specifying the default EB, SB, and CR characters of the MLLP message, and displays any messages received to the screen.  
   
 4.  Open a second command prompt.  
   
-5.  At the command prompt, type **cd \<*drive*>:\Tutorial\WSClient\bin\Debug**, and then press **Enter**.  
+5.  At the command prompt, type **cd \<*drive*\>:\Tutorial\WSClient\bin\Debug**, and then press **Enter**.  
   
 6.  At the command prompt, type **wsclient john henry smith 123456789**, and then press **Enter**. This sends a message to the Web service that contains a sample message with a patient name of John Henry Smith and a sample social security number of 123456789.  
   

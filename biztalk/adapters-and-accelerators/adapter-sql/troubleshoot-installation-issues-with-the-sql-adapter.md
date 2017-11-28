@@ -47,9 +47,9 @@ manager: "anneta"
   
 ##### To register the adapter binding  
   
-1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
+1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
   
-     In this path, \<version> is the version of the .NET Framework.  
+     In this path, \<version\> is the version of the .NET Framework.  
   
 2.  Open the file by using a text editor.  
   

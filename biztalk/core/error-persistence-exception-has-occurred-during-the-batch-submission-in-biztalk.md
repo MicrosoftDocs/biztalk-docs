@@ -31,4 +31,4 @@ manager: "anneta"
  This Error/Warning/Information event indicates that BizTalk Server could not send a batched interchange because no send port subscribed to the interchange.  
   
 ## User Action  
- To resolve this error, ensure that a send port subscribes to the batch by setting the following filter properties for the send port: EDI.DestinationPartyName = \<PartyName>, EDI.BatchEncodingType = EDIFACT or X12, and EDI.ToBeBatched = False.
+ To resolve this error, ensure that a send port subscribes to the batch by setting the following filter properties for the send port: EDI.DestinationPartyName = \<PartyName\>, EDI.BatchEncodingType = EDIFACT or X12, and EDI.ToBeBatched = False.

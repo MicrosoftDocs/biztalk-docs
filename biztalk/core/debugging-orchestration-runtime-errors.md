@@ -58,7 +58,7 @@ This section contains a set of questions and answers designed to help you resolv
 ## Multipart MIME message part cannot be found  
   
 ### Problem  
- Attempts to retrieve a MIME message part with an index value greater than 0 results in the BizTalk Server runtime throwing an error similar to "can't find multi-part message with index = \<value>".  
+ Attempts to retrieve a MIME message part with an index value greater than 0 results in the BizTalk Server runtime throwing an error similar to "can't find multi-part message with index = \<value\>".  
   
 ### Cause  
  The most common causes for this error are:  
@@ -73,7 +73,7 @@ This section contains a set of questions and answers designed to help you resolv
 ## You receive a "The FILE send adapter cannot open file for writing" error when sending using a dynamic send port  
   
 ### Problem  
- You receive a "The FILE send adapter cannot open file *\<filename>* for writing" error in the BizTalk Server event log when sending using a dynamic send port.  
+ You receive a "The FILE send adapter cannot open file *\<filename\>* for writing" error in the BizTalk Server event log when sending using a dynamic send port.  
   
  This problem occurs when the **BTS.OutBoundTransportLocation** property is defined in an orchestration expression and the file transport is specified, for example the following expressions will cause this error at runtime:  
   

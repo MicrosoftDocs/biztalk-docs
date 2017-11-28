@@ -116,7 +116,7 @@ The BizTalk tier can be divided into the following functional areas:
 ### Other system resource contention  
  Depending on the type of transport, it may be necessary to configure system resources like IIS for HTTP (for example, MaxIOThreads, MaxWorkerThreads).  
   
- With ASP.NET 2.0 and ASP.Net 4, the \<processModel autoConfig="true"/> setting in the machine.config file will automatically configure the following settings for optimal performance:  
+ With ASP.NET 2.0 and ASP.Net 4, the \<processModel autoConfig="true"\> setting in the machine.config file will automatically configure the following settings for optimal performance:  
   
 -   Maximum Worker Threads  
   
@@ -126,7 +126,7 @@ The BizTalk tier can be divided into the following functional areas:
   
 -   minLocalRequestFreeThreads attribute of the httpRuntime element  
   
--   maxConnection attribute of the \<connectionManagement> Element (Network Settings) element  
+-   maxConnection attribute of the \<connectionManagement\> Element (Network Settings) element  
   
  For more information about configuring parameters that affect adapter performance, see [ASP.NET Configuration Settings for the processModel Element](http://go.microsoft.com/fwlink/?LinkId=158080) (http://go.microsoft.com/fwlink/?LinkId=158080).  
   

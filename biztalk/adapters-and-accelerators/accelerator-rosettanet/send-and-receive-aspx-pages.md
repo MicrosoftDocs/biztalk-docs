@@ -48,7 +48,7 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
  The query string includes the following data that the send page needs to send the message to the partner, and the data that the partner must have to process the message:  
   
--   The trading-partner URL: http://www.\<*address*>.com/RNIFReceive.aspx  
+-   The trading-partner URL: http://www.\<*address*\>.com/RNIFReceive.aspx  
   
 -   The response type: sync or async  
   

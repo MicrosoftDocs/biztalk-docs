@@ -34,7 +34,7 @@ If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprov
   
 3.  In the **Server Explorer**, right-click **Data Connections**, and select **Add Connection**.  
   
-4.  In the **Change Data Source** dialog box, from the **Data source** box, select **\<other>**.  
+4.  In the **Change Data Source** dialog box, from the **Data source** box, select **\<other\>**.  
   
 5.  From the **Data provider** drop-down list, select **.NET Framework Data Provider for mySAP Business Suite** and click **OK**. The **Add Connection** dialog box opens.  
   

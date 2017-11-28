@@ -54,7 +54,7 @@ Before you import, remove Send ports and Receive locations bound to the orchestr
 For example, from a command prompt run:  
   
 ```
-cscript RemoveSendPort.vbs \<Send port name>
+cscript RemoveSendPort.vbs \<Send port name\>
 ```
 ## Limitations
 The Transport Adapter password is stored as stars (******) in the binding file that is exported by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and it passes to the management component in the same format. Edit the binding file before importing by replacing the stars with some junk value (that is, not the correct password).  

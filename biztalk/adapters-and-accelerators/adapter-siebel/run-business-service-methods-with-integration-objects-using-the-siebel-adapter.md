@@ -55,7 +55,7 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] en
 -   **Create an XML message that conforms to schema of the integration object**. A sample XML message generated for the 'Sample Account' integration object looks like:  
   
     ```  
-    \<?xml version="1.0" encoding="UTF-16"?>  
+    <?xml version="1.0" encoding="UTF-16"?>  
     <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
       <ListOfSampleAccount>  
         <Account>  
@@ -74,7 +74,7 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] en
       <InsertRequestRecord />   
       <InsertInOutRecord>  
         <SiebelMessage xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">  
-          <![CDATA[ \<?xml version="1.0" encoding="UTF-16"?>  
+          <![CDATA[ <?xml version="1.0" encoding="UTF-16"?>  
             <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
               <ListOfSampleAccount>  
                 <Account>  
@@ -93,7 +93,7 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] en
      The response from Siebel for the above request message resembles the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <InsertResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter/Operation">  
       <InsertResult>  
         <ErrorCode xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">0x0</ErrorCode>   
@@ -106,7 +106,7 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] en
       </InsertResult>  
       <InsertInOutRecord>  
         <SiebelMessage xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">  
-          <![CDATA[ \<?xml version="1.0" encoding="UTF-16"?>  
+          <![CDATA[ <?xml version="1.0" encoding="UTF-16"?>  
             <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
               <ListOfSampleAccount>  
                 <Account>  

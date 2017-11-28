@@ -187,11 +187,11 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] can run in
 #### Register the Bindings  
 Complete these steps *only* if the setup wizard fails to register the adapter bindings in the machine.config file.  
   
-1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
+1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
   
-    -   For Microsoft .NET Framework 3.5 SP1, \<*version*> is the version v2.0.50727 of the .NET Framework.  
+    -   For Microsoft .NET Framework 3.5 SP1, \<*version*\> is the version v2.0.50727 of the .NET Framework.  
   
-    -   For Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)], \<*version*> is the version v4.0.30319 of the .NET Framework.  
+    -   For Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)], \<*version*\> is the version v4.0.30319 of the .NET Framework.  
   
 2.  Open the file using a text editor.  
   
@@ -336,11 +336,11 @@ Complete the following steps to determine the public key and version for the [!I
 #### Manually remove the bindings  
  Perform these steps *only* if the setup wizard fails to remove the adapter bindings from the machine.config file.  
   
-1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
+1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
   
-    -   For Microsoft .NET Framework 3.5 SP1, \<*version*> is the version v2.0.50727 of the .NET Framework.  
+    -   For Microsoft .NET Framework 3.5 SP1, \<*version*\> is the version v2.0.50727 of the .NET Framework.  
   
-    -   For Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)], \<*version*> is the version v4.0.30319 of the .NET Framework.  
+    -   For Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)], \<*version*\> is the version v4.0.30319 of the .NET Framework.  
   
 2.  Open the file using a text editor.  
   

@@ -35,7 +35,7 @@ manager: "anneta"
   
 -   The required SAP client libraries.  
   
- For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide. The installation guide is typically installed at \<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+ For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide. The installation guide is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
 ### To publish the SAP artifacts as a WCF service  
   
@@ -180,7 +180,7 @@ manager: "anneta"
   
     1.  Start the IIS Microsoft Management Console. Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-    2.  Navigate to the node where you published the service. For the **Customer_Order** service, navigate to **Internet Information Services** > **\<Computer Name>** > **Web Sites** > **Default Web Site** > **Customer_Order**.  
+    2.  Navigate to the node where you published the service. For the **Customer_Order** service, navigate to **Internet Information Services** > **\<Computer Name\>** > **Web Sites** > **Default Web Site** > **Customer_Order**.  
   
     3.  On the right pane, right-click the Rfc.svc file, and then click **Browse**.  
   

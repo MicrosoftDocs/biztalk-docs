@@ -32,10 +32,10 @@ In this module, you create a blank BizTalk solution. In the first lesson, you cr
   
 4.  In the **Name** box, type **SWIFTProject** as the solution name.  
   
-5.  In the **Location** box, type **\<*drive*>:\labs**.  
+5.  In the **Location** box, type **\<*drive*\>:\labs**.  
   
 6.  Click **OK** to open the new project.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates an empty solution in Solution Explorer and a new blank solution in the \<*drive*:>\labs folder.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates an empty solution in Solution Explorer and a new blank solution in the \<*drive*:\>\labs folder.  
   
  Proceed to [Module 2: Adding a New Schemas Project](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md).

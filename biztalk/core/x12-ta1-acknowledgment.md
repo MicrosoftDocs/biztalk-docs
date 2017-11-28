@@ -17,7 +17,7 @@ manager: "anneta"
 # X12 TA1 Acknowledgment
 The X12 TA1 technical acknowledgment reports the status of the processing of an interchange header and trailer by the address receiver. When the ISA and IEA of the X12-encoded message are valid, a positive TA1 ACK is sent, whatever the status of the other content is. If not, TA1 ACK with an error code is sent.  
   
- The X12 TA1 acknowledgment conforms to the X12_\<version number>_TA1.xsd schema. The TA1 ACK is sent inside an ISA/IEA envelope. The ISA and IEA are no different than any other interchange.  
+ The X12 TA1 acknowledgment conforms to the X12_\<version number\>_TA1.xsd schema. The TA1 ACK is sent inside an ISA/IEA envelope. The ISA and IEA are no different than any other interchange.  
   
  The segments within the interchange of a TA1 ACK are shown in the following table.  
   

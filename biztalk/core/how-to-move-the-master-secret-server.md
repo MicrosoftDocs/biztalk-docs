@@ -27,7 +27,7 @@ This topic documents the steps you can follow to move the master secret from one
   
 2.  Configure Enterprise SSO on the new master secret server if it is not already configured. Follow these steps to configure Enterprise SSO:  
   
-    1.  Open the Configuration tool. By default, the configuration tool is located at \<drive>:\Program Files\Common Files\Enterprise Single Sign-On\Configuration.exe.  
+    1.  Open the Configuration tool. By default, the configuration tool is located at \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On\Configuration.exe.  
   
     2.  Click to select **Enterprise SSO** in the left pane.  
   
@@ -62,7 +62,7 @@ This topic documents the steps you can follow to move the master secret from one
   
     2.  Save the file as .xml file. For example, save the file as **NewMSSServer.xml**.  
   
-    3.  At a command prompt, change to the Enterprise SSO installation folder. By default, the installation folder is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+    3.  At a command prompt, change to the Enterprise SSO installation folder. By default, the installation folder is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
     4.  Type **ssomanage -updatedb** *XMLFile* to update the master secret server name in the database.  
   

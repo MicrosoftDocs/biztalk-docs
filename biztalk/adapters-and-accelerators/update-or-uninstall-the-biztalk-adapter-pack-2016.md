@@ -93,7 +93,7 @@ Before you run the setup wizard to modify the [!INCLUDE[adapterpacknoversion](..
 ## Uninstall or remove the BizTalk Adapter Pack  
   
 > [!IMPORTANT]
->  If you created tables in the SQL Server database to work with the tRFC feature of the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], you must manually remove them before uninstalling the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation copies a `SapAdapter-DbScript-Uninstall.sql` file typically at *\<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]*. Run this file to remove the tables you created.  
+>  If you created tables in the SQL Server database to work with the tRFC feature of the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], you must manually remove them before uninstalling the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation copies a `SapAdapter-DbScript-Uninstall.sql` file typically at *\<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]*. Run this file to remove the tables you created.  
   
 Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] from your computer. Make sure you have the [!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)] installed before you run the setup wizard.  
   
@@ -133,7 +133,7 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
 ## Remove the bindings  
  Complete these steps *only* if the setup wizard fails to remove the adapter bindings or .NET Framework Data Provider registration from the machine.config file.  
   
-1.  Go to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under *\<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG*.  
+1.  Go to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under *\<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG*.  
   
 2.  Open the file using a text editor.  
   

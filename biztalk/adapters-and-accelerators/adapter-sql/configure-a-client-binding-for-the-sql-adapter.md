@@ -51,9 +51,9 @@ client.Open();
  The following XML shows the configuration file created for the Customer table by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. This file contains the client endpoint configuration referenced in the preceding example.  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <sqlBinding>  
                 <binding name="SqlAdapterBinding" closeTimeout="00:01:00" openTimeout="00:01:00"  
@@ -72,7 +72,7 @@ client.Open();
                 bindingConfiguration="SqlAdapterBinding" contract="TableOp_dbo_Customer"  
                 name="SqlAdapterBinding_TableOp_dbo_Customer" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   

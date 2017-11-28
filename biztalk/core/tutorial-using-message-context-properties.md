@@ -34,7 +34,7 @@ This tutorial demonstrates how to use BizTalk Server context properties to set T
   
      The **Select Component** dialog box appears.  
   
-4.  Locate **\<TIBCO EMS_Adapter_installation_directory>\bin**, and then select **Microsoft.Adapters.TibcoEMSProperties.dll**.  
+4.  Locate **\<TIBCO EMS_Adapter_installation_directory\>\bin**, and then select **Microsoft.Adapters.TibcoEMSProperties.dll**.  
   
 5.  Click **Open**.  
   

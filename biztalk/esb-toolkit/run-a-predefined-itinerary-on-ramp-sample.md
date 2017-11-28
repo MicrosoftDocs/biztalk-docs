@@ -50,7 +50,7 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes 20 predefined 
     position="0" serviceInstanceId="" />  
 ```  
   
- The orchestration service in this **\<Service>** element specifies the direct-bound orchestration that has the filter properties shown in Figure 2. Notice that the orchestration subscribes only to messages that have the value **Microsoft.Practices.ESB.Services.Transform** for the **ServiceName** context property, the value **Pending** for the **ServiceState** context property, and the value Orchestration for the **ServiceType** context property.  
+ The orchestration service in this **\<Service\>** element specifies the direct-bound orchestration that has the filter properties shown in Figure 2. Notice that the orchestration subscribes only to messages that have the value **Microsoft.Practices.ESB.Services.Transform** for the **ServiceName** context property, the value **Pending** for the **ServiceState** context property, and the value Orchestration for the **ServiceType** context property.  
   
  ![Filter Expression](../esb-toolkit/media/ch6-filterexpression.gif "Ch6-FilterExpression")  
   

@@ -33,10 +33,10 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
  In the context of this sample, it is important that the code specify a transaction type in the call to **MQSendLargeMessage** that is consistent with the transaction support specified for the queue to which the message is sent. If this is not done and if no Admin Queue is specified (as is the case in this sample), then MSMQ discards the sent message with no indication that it has done so (that is, no error code returned to the application, no diagnostics written to the event log, and so on).  
   
 ## Where to Find This Sample  
- \<Samples Path>\AdaptersUsage\MSMQLarge  
+ \<Samples Path\>\AdaptersUsage\MSMQLarge  
   
 > [!NOTE]
->  If using a 64-bit version of Windows and BizTalk Server, the sample will be installed in the **C:\Program Files (x86)\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge** folder.  Note this change for any other instructions in this document using the **C:\Program Files** folder.  
+>  If using a 64-bit version of Windows and BizTalk Server, the sample will be installed in the **C:\Program Files (x86)\Microsoft BizTalk Server \<version\>\SDK\Samples\AdaptersUsage\MSMQLarge** folder.  Note this change for any other instructions in this document using the **C:\Program Files** folder.  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -52,7 +52,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 #### To configure BizTalk Server  
   
-1.  In Visual Studio, open the **C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** solution file.  Build the sample.  
+1.  In Visual Studio, open the **C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** solution file.  Build the sample.  
   
 2.  Create a **C:\Demo** directory where BizTalk Server will place the messages from MSMQ.  
   
@@ -145,7 +145,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 #### To create a large test file  
   
-1.  In Visual Studio, open the solution **C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**.  
+1.  In Visual Studio, open the solution **C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**.  
   
 2.  Build and run the project.  
   
@@ -159,7 +159,7 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 #### To run the sample  
   
-1.  Open a command prompt and change directory to **C:\Program Files\Microsoft BizTalk Server \<version>\SDK\Samples\AdaptersUsage\MSMQLarge\SendLargeMessage\bin\debug**.  
+1.  Open a command prompt and change directory to **C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\AdaptersUsage\MSMQLarge\SendLargeMessage\bin\debug**.  
   
 2.  At the command prompt, run **SendLargeMessage.exe**. The SendLargeMessage executable accepts two variables — the first is the location of the MSMQ queue, and the second is the location of the .xml file to send:  
   

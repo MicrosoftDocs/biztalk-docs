@@ -95,9 +95,9 @@ channel.Open();
  The following code shows the configuration settings used for the preceding example. The contract for the client endpoint must be "System.ServiceModel.Channels.IRequestChannel" or "System.ServiceModel.Channels.IRequestChannel" depending on the kind of channel shape that you want to create.  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <sapBinding>  
                 <binding name="SAPBinding" closeTimeout="00:01:00" openTimeout="00:01:00"  
@@ -115,7 +115,7 @@ channel.Open();
                 binding="sapBinding" bindingConfiguration="SAPBinding" contract="System.ServiceModel.Channels.IRequestChannel"  
                 name="MyRequestChannel" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -130,7 +130,7 @@ channel.Open();
   
 3.  Create a **BindingParameterCollection** and add an **InboundActionCollection** that contains the actions of the operations that you want to receive. The adapter will return an exception to the SAP system for all other operations. This step is optional. For more information, see [Receiving Inbound Operations from the SAP System by Using the WCF Channel Model](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
   
-4.  Create a channel listener by invoking **BuildChannelListener\<IReplyChannel>** method on the **SAPBinding**. You specify the SAP connection URI as one of the parameters to this method. The connection URI must contain parameters for an RFC Destination on the SAP system. For more information about the SAP connection URI, see The [Create the SAP System Connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). If you created a **BindingParameterCollection** in step 3, you also specify this when you create the channel listener.  
+4.  Create a channel listener by invoking **BuildChannelListener\<IReplyChannel\>** method on the **SAPBinding**. You specify the SAP connection URI as one of the parameters to this method. The connection URI must contain parameters for an RFC Destination on the SAP system. For more information about the SAP connection URI, see The [Create the SAP System Connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). If you created a **BindingParameterCollection** in step 3, you also specify this when you create the channel listener.  
   
 5.  Open the listener.  
   

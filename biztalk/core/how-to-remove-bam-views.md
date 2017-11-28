@@ -30,7 +30,7 @@ Administrators use the **remove-view** command to remove a view from the BAM Pri
   
 2.  Navigate to the tracking folder by typing **C:\Program Files\Microsoft BizTalk Server 2009\Tracking** at the command prompt. Press **ENTER**.  
   
-3.  Type **bm remove-view -Name:\<view name>**.  
+3.  Type **bm remove-view -Name:\<view name\>**.  
   
 4.  Press **ENTER**.  
   

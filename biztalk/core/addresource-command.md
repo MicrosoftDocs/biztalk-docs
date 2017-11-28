@@ -19,7 +19,7 @@ The topics in this section provide reference information about the parameters of
   
  To get help for adding a particular artifact type, type the following command:  
   
- **BTSTask AddResource /Type:**\<*type name*> **/?**  
+ **BTSTask AddResource /Type:**\<*type name*\> **/?**  
   
 > [!NOTE]
 >  If the artifact you are adding has a very long path name, including the file name, the operation to add the artifact to an application may fail. A path cannot exceed 260 characters.  

@@ -186,7 +186,7 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] su
  The orchestration consumes the request message and passes it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration. For example, the response from Siebel system for the above request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <InsertResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
   <InsertResult>  
     <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">1-8ANYV</string>  

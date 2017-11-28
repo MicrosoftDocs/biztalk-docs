@@ -31,7 +31,7 @@ The Related Documents area of the query results detail displays a list of docume
   
 -   Your integration developer programmatically populates the list by calling your custom application.  
   
- Defining the document reference using either of these methods adds a row in the \<activityname>_References table with the document location.  
+ Defining the document reference using either of these methods adds a row in the \<activityname\>_References table with the document location.  
   
  If neither of these tasks has been performed, the **Related Document** area is blank.  
   

@@ -41,7 +41,7 @@ This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkS
   
 1.  Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **POP3 Service**.  
   
-2.  Expand *\<servername>* and click the domain where you would like to create a mailbox.  
+2.  Expand *\<servername\>* and click the domain where you would like to create a mailbox.  
   
 3.  In the **POP3 Service** dialog box, in the right pane, click the **Add Mailbox** option.  
   
@@ -56,7 +56,7 @@ This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkS
 ## Create the receive location  
  Follow these steps to create the receive location:  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console double-click the default database **\<***machine_name***>.BizTalkMgmtDb.dbo**, where *machine_name* is the name of your computer. Click **Applications**, then click **BizTalk.Application.1**.  
+1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console double-click the default database **\<***machine_name***\>.BizTalkMgmtDb.dbo**, where *machine_name* is the name of your computer. Click **Applications**, then click **BizTalk.Application.1**.  
   
 2.  Right-click **Receive Ports**, click **New**, click **One-way receive port**.  
   

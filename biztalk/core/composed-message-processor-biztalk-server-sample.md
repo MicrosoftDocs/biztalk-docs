@@ -282,13 +282,13 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
   
 1.  In a command window, navigate to the following folder:  
   
-     \<Samples Path>\Pipelines\ComposedMessageProcessor  
+     \<Samples Path\>\Pipelines\ComposedMessageProcessor  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input (In) and output (Out) folders for this sample in the folder:  
   
-         \<Samples Path>\Pipelines\ComposedMessageProcessor  
+         \<Samples Path\>\Pipelines\ComposedMessageProcessor  
   
     -   Compiles the Visual Studio projects for this sample.  
   

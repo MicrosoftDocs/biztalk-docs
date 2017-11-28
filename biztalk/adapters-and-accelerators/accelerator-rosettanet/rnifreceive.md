@@ -22,7 +22,7 @@ This sample provides a working [!INCLUDE[btsCoName](../../includes/btsconame-md.
   
 -   Add validation to the page  
   
- This sample is located in *\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\WebApplication\RNIFReceiver.  
+ This sample is located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\WebApplication\RNIFReceiver.  
   
 ## Demonstrates  
  This sample demonstrates how to prepare incoming messages for the public process, including the following:  

@@ -44,9 +44,9 @@ The Resolver Service sample instantiates the Resolver service and passes the mes
 ```  
   
 > [!NOTE]
->  The actual content of the **\<Content>** element does not contain the white space characters used to wrap the lines in the preceding listing.  
+>  The actual content of the **\<Content\>** element does not contain the white space characters used to wrap the lines in the preceding listing.  
   
- The preceding listing shows that the request contains the resolver configuration connection string within a **\<Content>** element. The **\<body>** element contains the message body.  
+ The preceding listing shows that the request contains the resolver configuration connection string within a **\<Content\>** element. The **\<body\>** element contains the message body.  
   
  The Resolver service uses the **ResolverMgr** class to instantiate a concrete instance of the appropriate resolver, defined by the resolver type in the connection string. In the case of the XPATH request, this is the XPATH resolver.  
   

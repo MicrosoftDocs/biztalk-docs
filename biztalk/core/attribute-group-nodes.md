@@ -20,7 +20,7 @@ manager: "anneta"
 In BizTalk Editor, you can add an **Attribute Group** node to a **Record** node or to another **Attribute Group** node to contain a group of attributes that you expect to use in more than one **Record** node. Adding an **Attribute Group** node to another **Attribute Group** node achieves attribute group nesting. This allows you to define a group of attributes in one place that can be used in multiple **Record** or **Attribute Group** nodes. Subsequent modifications to the attribute group will propagate to all of the nodes with which that attribute group is associated. This is true regardless of the node context in which the modifications are made.  
   
 > [!NOTE]
->  In BizTalk Editor, the **AttributeGroup** node is represented by default with the string \<AttribGroup:attribGroup*N*> in the schema tree view, where *N* is a monotonically increasing numeral. You can change the attribGroup*N* portion of its name by typing a new unique name in its **Group Reference** property.  
+>  In BizTalk Editor, the **AttributeGroup** node is represented by default with the string \<AttribGroup:attribGroup*N*\> in the schema tree view, where *N* is a monotonically increasing numeral. You can change the attribGroup*N* portion of its name by typing a new unique name in its **Group Reference** property.  
   
  When initially creating an **Attribute Group** node, you simply insert it into one of the **Record** or **Attribute Group** nodes in which it will be used, and optionally change its name in its **Group Reference** property. There are two ways to use the same attribute group in another **Record** or **Attribute Group** node:  
   

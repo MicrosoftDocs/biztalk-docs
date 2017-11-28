@@ -21,17 +21,17 @@ Properly configuring the input parameters to the functoids in your map is one of
   
 -   Create visible input links by connecting schema nodes and respective functoids (drag-and-drop the mouse from schema node to the functoid).  
   
--   Directly edit the list of input parameters using the **Configure \<Functoid> Functoid** dialog box.  
+-   Directly edit the list of input parameters using the **Configure \<Functoid\> Functoid** dialog box.  
   
  This topic provides step-by-step instructions for configuring the input parameters for a functoid using these methods.  
   
- The dragging method of establishing functoid input parameters provides a convenient way to specify input parameters that involve XPath specifications into the source schema. For information on creating a schema node and functoid input parameters, see [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md). However, the **Configure \<Functoid> Functoid** dialog box is the definitive mechanism for viewing all the input parameters to a functoid, for creating and modifying any constant parameters, and for re-arranging the order of the input parameters when necessary.  
+ The dragging method of establishing functoid input parameters provides a convenient way to specify input parameters that involve XPath specifications into the source schema. For information on creating a schema node and functoid input parameters, see [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md). However, the **Configure \<Functoid\> Functoid** dialog box is the definitive mechanism for viewing all the input parameters to a functoid, for creating and modifying any constant parameters, and for re-arranging the order of the input parameters when necessary.  
   
  When you configure the input parameters for a functoid directly on the grid page (by drawing lines, using the mouse drag-and-drop, from the source schema node and linking it to the functoid), if the number of inputs reaches maximum, the cursor changes to a NO state. Also, the status bar displays the reason. The figure below shows a functoid which accepts only one input link.  
   
  ![NO state for configuring functoid input parameter](../core/media/configure-input-parameters-no-state.gif "Configure_input_parameters_NO_state")  
   
- You can configure the Scripting and Table Looping functoids using the **Configure \<Functoid> Functoid** dialog box. For information about how to configure the functoids, see [How to Configure the Scripting Functoid](../core/how-to-configure-the-scripting-functoid.md) and [How to Configure the Table Looping and Table Extractor Functoids](../core/how-to-configure-the-table-looping-and-table-extractor-functoids.md).  
+ You can configure the Scripting and Table Looping functoids using the **Configure \<Functoid\> Functoid** dialog box. For information about how to configure the functoids, see [How to Configure the Scripting Functoid](../core/how-to-configure-the-scripting-functoid.md) and [How to Configure the Table Looping and Table Extractor Functoids](../core/how-to-configure-the-table-looping-and-table-extractor-functoids.md).  
   
 ## Prerequisites  
  These instructions require that BizTalk Mapper is running.  
@@ -52,8 +52,8 @@ Properly configuring the input parameters to the functoids in your map is one of
   
  ![Displaying the input parameters to a functoid](../core/media/identifying-input-parameters.gif "Identifying_input_parameters")  
   
-## To open the Configure \<Functoid> Functoid dialog box  
- You can open the **Configure \<Functoid> Functoid** dialog box in one of the following ways:  
+## To open the Configure \<Functoid\> Functoid dialog box  
+ You can open the **Configure \<Functoid\> Functoid** dialog box in one of the following ways:  
   
 -   In the relevant grid page, right-click the functoid, and then click **Configure Functoid Inputs**.  
   
@@ -67,7 +67,7 @@ Properly configuring the input parameters to the functoids in your map is one of
   
 ### To insert constant input parameters  
   
-1.  In the **Configure \<Functoid> Functoid** dialog box, select the **Functoid Inputs** tab.  
+1.  In the **Configure \<Functoid\> Functoid** dialog box, select the **Functoid Inputs** tab.  
   
     > [!NOTE]
     >  The **Functoid Inputs** tab is selected by default.  
@@ -81,7 +81,7 @@ Properly configuring the input parameters to the functoids in your map is one of
   
 ### To edit existing constant input parameters  
   
-1.  In the **Configure \<Functoid> Functoid** dialog box, click the existing constant input parameter that you want to edit. The current value is selected.  
+1.  In the **Configure \<Functoid\> Functoid** dialog box, click the existing constant input parameter that you want to edit. The current value is selected.  
   
     > [!IMPORTANT]
     >  You can edit the parameters of constant inputs only. Input parameters of all other types cannot be edited. They can only be rearranged or deleted.  
@@ -104,7 +104,7 @@ Properly configuring the input parameters to the functoids in your map is one of
   
 ### To change the order of existing input parameters  
   
-1.  In the **Configure \<Functoid> Functoid** dialog box, click the existing input parameter that you want to move to a different position in the ordered list of input parameters.  
+1.  In the **Configure \<Functoid\> Functoid** dialog box, click the existing input parameter that you want to move to a different position in the ordered list of input parameters.  
   
 2.  Click the ![Move up in the list](../core/media/move-up-button.gif "Move_up_button") button to move the parameter up in the parameter list. Repeat as necessary until the selected input parameter is in the desired position. Alternatively, you can press the UP ARROW key from the keyboard. For a list of Mapper shortcut keys, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
   
@@ -113,7 +113,7 @@ Properly configuring the input parameters to the functoids in your map is one of
      Click the ![Moving down in a list](../core/media/move-down-button.gif "Move_down_button") button to move the parameter down in the parameter list. Repeat as necessary until the selected input parameter is in the desired position. Alternatively, you can press the DOWN ARROW key from the keyboard. For a list of Mapper shortcut keys, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
   
     > [!IMPORTANT]
-    >  You can rearrange the sequence of inputs only from the **Configure \<Functoid> Functoid** dialog box. If you select the top-most or bottom-most row, the ![Move up in the list](../core/media/move-up-button.gif "Move_up_button") or ![Moving down in a list](../core/media/move-down-button.gif "Move_down_button") buttons would be disabled, respectively.  
+    >  You can rearrange the sequence of inputs only from the **Configure \<Functoid\> Functoid** dialog box. If you select the top-most or bottom-most row, the ![Move up in the list](../core/media/move-up-button.gif "Move_up_button") or ![Moving down in a list](../core/media/move-down-button.gif "Move_down_button") buttons would be disabled, respectively.  
   
 ### To delete an input parameter by deleting the input link  
   
@@ -127,9 +127,9 @@ Properly configuring the input parameters to the functoids in your map is one of
     > [!IMPORTANT]
     >  The input link is deleted silently. You can always undo delete if you are not sure about it. For more information about undo/redo operations, see [How to Undo or Redo User Operations](../core/how-to-undo-or-redo-user-operations.md).  
   
-### To delete existing input parameters within the Configure \<Functoid> Functoid dialog box  
+### To delete existing input parameters within the Configure \<Functoid\> Functoid dialog box  
   
-1.  In the **Configure \<Functoid> Functoid** dialog box, click the existing input parameter that you want to delete.  
+1.  In the **Configure \<Functoid\> Functoid** dialog box, click the existing input parameter that you want to delete.  
   
     > [!NOTE]
     >  You can delete any input parameter using this technique, even those that correspond to an input link.  
@@ -145,9 +145,9 @@ Properly configuring the input parameters to the functoids in your map is one of
     >  The delete button is not enabled when there are no input parameters in the parameter list.  
   
 ## To set labels and comments for functoids  
- You can set labels and comments for functoids using the **Configure \<Functoid> Functoid** dialog box.  
+ You can set labels and comments for functoids using the **Configure \<Functoid\> Functoid** dialog box.  
   
-1.  In the **Configure \<Functoid> Functoid** dialog box, click the **Label and Comments** tab.  
+1.  In the **Configure \<Functoid\> Functoid** dialog box, click the **Label and Comments** tab.  
   
 2.  Type the **Label** and **Comments**, and then click **OK**.  
   

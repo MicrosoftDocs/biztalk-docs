@@ -29,9 +29,9 @@ The BizTalk Adapter Framework provides several extensions to improve the user ex
 ```  
   
 ## Importing the BizTalk Adapter Framework Extensions Schema XSD  
- By importing the Adapter Framework extensions schema XSD, you can use decorations such as \<baf:FileName> as an element's type, which shows the file name pop-up when editing the element.  
+ By importing the Adapter Framework extensions schema XSD, you can use decorations such as \<baf:FileName\> as an element's type, which shows the file name pop-up when editing the element.  
   
- Additional decorations control the display of the property in the interface. The \<baf:description> decoration, for example, adds help text to the element. The \<baf:description> decoration displays the text at the bottom of the property page. The \<baf:browsable> decoration hides an element from the interface. The following code shows how you can use these elements within a configuration schema:  
+ Additional decorations control the display of the property in the interface. The \<baf:description\> decoration, for example, adds help text to the element. The \<baf:description\> decoration displays the text at the bottom of the property page. The \<baf:browsable\> decoration hides an element from the interface. The following code shows how you can use these elements within a configuration schema:  
   
 ```  
 <?xml version="1.0" encoding="utf-8" ?><xs:schema   targetNamespace="http://tempuri.org/XMLSchema.xsd"   

@@ -93,7 +93,7 @@ The BAM API sample illustrates how to incorporate calls to the BAM API into an a
  In addition to the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] solution, the sample also contains a Microsoft [!INCLUDE[btsExcel](../includes/btsexcel-md.md)] file that defines the activities.  
   
 ## Where to Find This Sample  
- You can find this sample at *\<Samples Path>*\BAM\BamApiSample.  
+ You can find this sample at *\<Samples Path\>*\BAM\BamApiSample.  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -120,16 +120,16 @@ The BAM API sample illustrates how to incorporate calls to the BAM API into an a
   
 #### To run the BAM API sample  
   
-1.  Open a command prompt and run *\<Samples Path>*\BAM\ BamApiSample\setup.bat. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator.  
+1.  Open a command prompt and run *\<Samples Path\>*\BAM\ BamApiSample\setup.bat. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator.  
   
-2.  Start [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and open the *\<Samples Path>*\BAM\ BamApiSample\BamApiSample.sln solution. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], start [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] as administrator.  
+2.  Start [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and open the *\<Samples Path\>*\BAM\ BamApiSample\BamApiSample.sln solution. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], start [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] as administrator.  
   
     > [!IMPORTANT]
     >  The line `//#define Interceptor` in the BamApiSample.cs file must be commented out. Do not remove the “//” from this line. The BAM API sample uses only the code that is not inside an `#if Interceptor` preprocessor directive.  
   
 3.  Build the solution.  
   
-4.  Run *\<Samples Path>*\BAM\BamApiSample\bin\debug\BamApiSample.exe.  
+4.  Run *\<Samples Path\>*\BAM\BamApiSample\bin\debug\BamApiSample.exe.  
   
      The output will resemble the following:  
   

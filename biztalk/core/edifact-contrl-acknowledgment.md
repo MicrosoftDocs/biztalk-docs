@@ -19,7 +19,7 @@ The CONTRL acknowledgment (ACK) serves as both technical and functional acknowle
   
  The full CONTRL message serves as the functional ACK. Sections of the functional ACK are reused for the technical ACK. If you have selected both technical and functional ACKs in the party properties for a sending party or in global properties, BizTalk Server will generate two CONTRL messages: a technical CONTRL ACK and a functional CONTRL ACK.  
   
- The CONTRL ACK conforms to the EFACT_\<Version number>_CONTRL.xsd schema.  
+ The CONTRL ACK conforms to the EFACT_\<Version number\>_CONTRL.xsd schema.  
   
 ## Technical Acknowledgement  
  A technical ACK implies that the recipient of the interchange:  

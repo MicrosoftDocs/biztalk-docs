@@ -44,15 +44,15 @@ This section describes how to configure the domain controller in your [!INCLUDE[
 |BAMSvc|User|Required for BizTalk Server configuration of BAMPortal, BAMAlerts, and BAMTools||  
 |BRESvc|User|Account for running the Rule Engine Update Service service||  
 |Domain Admins|Domain Group|Global domain group account for domain administrators||  
-|BizTalk Isolated Host Users|Domain Group|Global domain group for accounts with access to the Isolated BizTalk hosts (host processes not running on BizTalk Server, such as HTTP and SOAP).|\<IsolatedSvc>, \<HostSvc>|  
-|BizTalk Server Administrators|Domain Group|Global domain group account that has the least privileges necessary to perform administrative tasks included in the Configuration Framework Wizard and to administer the BizTalk Server.|\<Admin>|  
-|BizTalk Application Users|Domain Group|Global domain group account for BizTalk application users.|\<HostSvc>|  
+|BizTalk Isolated Host Users|Domain Group|Global domain group for accounts with access to the Isolated BizTalk hosts (host processes not running on BizTalk Server, such as HTTP and SOAP).|\<IsolatedSvc\>, \<HostSvc\>|  
+|BizTalk Server Administrators|Domain Group|Global domain group account that has the least privileges necessary to perform administrative tasks included in the Configuration Framework Wizard and to administer the BizTalk Server.|\<Admin\>|  
+|BizTalk Application Users|Domain Group|Global domain group account for BizTalk application users.|\<HostSvc\>|  
 |BizTalk Server Operators|Domain Group|The group that has the least privileges necessary to perform tasks required for operating the BizTalk Server environment after installation.||  
-|SharePoint Enabled Hosts|Domain Group|The Windows group that has permissions to call the Windows SharePoint Services Adapter Web services.|\<HostSvc>|  
-|SSO Administrators|Domain Group|Global domain group account for SSO administrators.|\<Admin>, \<SSOSvc>|  
-|SSO Affiliate Administrators|Domain Group|Global domain group account for SSO affiliate administrators|\<Admin>|  
-|A4SWIFT Users|Domain Group|Global domain group account that has the fewest privileges necessary to perform basic tasks in A4SWIFT.|\<HostSvc>, Additional Network Users|  
-|A4SWIFT Administrators|Domain Group|Global domain group account that has the least privileges necessary to administer A4SWIFT.|\<Admin>|  
+|SharePoint Enabled Hosts|Domain Group|The Windows group that has permissions to call the Windows SharePoint Services Adapter Web services.|\<HostSvc\>|  
+|SSO Administrators|Domain Group|Global domain group account for SSO administrators.|\<Admin\>, \<SSOSvc\>|  
+|SSO Affiliate Administrators|Domain Group|Global domain group account for SSO affiliate administrators|\<Admin\>|  
+|A4SWIFT Users|Domain Group|Global domain group account that has the fewest privileges necessary to perform basic tasks in A4SWIFT.|\<HostSvc\>, Additional Network Users|  
+|A4SWIFT Administrators|Domain Group|Global domain group account that has the least privileges necessary to administer A4SWIFT.|\<Admin\>|  
   
 > [!NOTE]
 >  All group accounts should be global security accounts and not local domain accounts. If local domain group accounts (created using net localgroup) are used, the setup program for [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] cannot validate specific [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] domain users.  

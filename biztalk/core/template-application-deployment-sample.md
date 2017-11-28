@@ -60,7 +60,7 @@ This topic describes how to use the Template sample for application deployment.
 ## Where to Find This Sample  
  The sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder, as follows:  
   
- *\<Samples Path>*\Application Deployment\Template  
+ *\<Samples Path\>*\Application Deployment\Template  
   
  As previously mentioned, the sample includes the following two files:  
   
@@ -77,7 +77,7 @@ This topic describes how to use the Template sample for application deployment.
   
      Example:  
   
-     set LogFile="*\<Samples Path>*\ApplicationDeployment\Templates\SampleLogOut.txt"  
+     set LogFile="*\<Samples Path\>*\ApplicationDeployment\Templates\SampleLogOut.txt"  
   
 ### To create a new application  
   

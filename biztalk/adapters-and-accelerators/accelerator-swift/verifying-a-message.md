@@ -26,7 +26,7 @@ This section describes how to verify a message that has been repaired.
   
 2.  In the Home window, click **Documents**.  
   
-3.  In the Documents window, under **Document Libraries**, click **\<*Department name*>_Verifier**.  
+3.  In the Documents window, under **Document Libraries**, click **\<*Department name*\>_Verifier**.  
   
 4.  In the Verify window, click **Inbox**.  
   
@@ -78,4 +78,4 @@ This section describes how to verify a message that has been repaired.
   
 19. Close the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] window.  
   
-20. In MRSR site, click **Documents and Lists**. If you clicked **Accept** to accept the changes in step 13, verify that the \<Department name>_Approve document library contains the message that was just modified. If you already had the Documents and Lists window open, click **Refresh** on the **View** menu. If you clicked **Reject** to reject the changes in step 13, verify that the *\<computer name>*_Outbox document library contains the message that was just modified.
+20. In MRSR site, click **Documents and Lists**. If you clicked **Accept** to accept the changes in step 13, verify that the \<Department name\>_Approve document library contains the message that was just modified. If you already had the Documents and Lists window open, click **Refresh** on the **View** menu. If you clicked **Reject** to reject the changes in step 13, verify that the *\<computer name\>*_Outbox document library contains the message that was just modified.

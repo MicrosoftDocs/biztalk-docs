@@ -38,7 +38,7 @@ manager: "anneta"
   
 4.  In the console tree of the **Inbound_EDI Property Pages** dialog box, select  **Deployment** and in the **Server** field ensure that your computer name is entered.  
   
-5.  In the console tree, click **Signing** and then select **Sign the assembly**. For **Choose a strong key name file**, select \<**New…**> and enter  **keyfile.snk** as the **Key file name**. Clear **Protect my key file with a password** and then click **OK**.  
+5.  In the console tree, click **Signing** and then select **Sign the assembly**. For **Choose a strong key name file**, select \<**New…**\> and enter  **keyfile.snk** as the **Key file name**. Clear **Protect my key file with a password** and then click **OK**.  
   
 6.  Close the **Inbound_EDI Property Pages** dialog box.  
   
@@ -55,7 +55,7 @@ manager: "anneta"
   
 4.  In Solution Explorer, right-click the **Inbound_EDI** project and select **Deploy** to deploy the project.  
   
-5.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand **BizTalk Server Administration**, **BizTalk Group**, **Applications**, \<**All Artifacts**> and then select **Resources**. Verify that the **Inbound_EDI** assembly is listed.  
+5.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand **BizTalk Server Administration**, **BizTalk Group**, **Applications**, \<**All Artifacts**\> and then select **Resources**. Verify that the **Inbound_EDI** assembly is listed.  
   
 ## Next Steps  
  You configure a party and business profile for your organization (**OrderSystem**), as described in [Step 3: Configure a Party and Business Profile for Your Organization](../core/step-3-configure-a-party-and-business-profile-for-your-organization1.md)  

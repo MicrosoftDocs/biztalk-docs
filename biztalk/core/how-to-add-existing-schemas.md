@@ -23,7 +23,7 @@ Sometimes you will want to add an existing schema to an existing BizTalk project
   
 2.  On the **Project** menu, click **Add Existing Item**.  
   
-3.  In the **Add Existing Item - \<*BizTalk ProjectName*>** dialog box, browse to the location of the schema, select the schema, and then click **Open**.  
+3.  In the **Add Existing Item - \<*BizTalk ProjectName*\>** dialog box, browse to the location of the schema, select the schema, and then click **Open**.  
   
      The existing schema is added to the BizTalk project but is not automatically opened in BizTalk Editor.  
   

@@ -159,7 +159,7 @@ The BizTalk Adapter for PeopleSoft Enterprise can be used to execute a query aga
   
 1.  Double-click **LOCATIONService_1.xsd** in Solution Explorer to open the file in Schema Editor.  
   
-2.  Right-click the **\<Schema>** node in Schema Editor and click **Properties** to display properties for the node.  
+2.  Right-click the **\<Schema\>** node in Schema Editor and click **Properties** to display properties for the node.  
   
 3.  Select **Get** from the list of available nodes in the **Root Reference** dropdown box. This should be done so that when you generate a sample document instance it will be generated from the **Get** node of the schema.  
   
@@ -176,7 +176,7 @@ The BizTalk Adapter for PeopleSoft Enterprise can be used to execute a query aga
   
 8.  Right-click LOCATIONService_1.xsd in Solution Explorer and click **Generate Instance** to generate a document instance in the specified location.  
   
-9. Right-click the **\<Schema>** node in Schema Editor and click **Properties** to display the properties for the node.  
+9. Right-click the **\<Schema\>** node in Schema Editor and click **Properties** to display the properties for the node.  
   
 10. Select (**Default)** from the list of available nodes in the **Root Reference** dropdown box.  
   

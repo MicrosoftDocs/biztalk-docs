@@ -42,19 +42,19 @@ This section provides information about using a custom Web Part with Microsoft O
   
 5.  Add the required code based on your issue in the project. For the code sample that is relevant to a certain issue, see “Issues Involving Custom Web Parts” in [Considerations using the Oracle-Business Suite adapter with SharePoint](../../adapters-and-accelerators/adapter-oracle-ebs/considerations-using-the-oracle-business-suite-adapter-with-sharepoint.md).  
   
-6.  Build the project. On successful build of the project, a .dll file, CustomWebPart.dll, will be generated in the \<project folder>/bin/Debug folder.  
+6.  Build the project. On successful build of the project, a .dll file, CustomWebPart.dll, will be generated in the \<project folder\>/bin/Debug folder.  
   
 7.  **Only for 64-bit computer**: Sign the CustomWebPart.dll file with a strong name before performing the following steps. Otherwise, you will not be able to import, and hence use the CustomWebPart.dll in the SharePoint portal in “Step 3: Configure the SharePoint Portal to use the custom Web Part.” For information about how to sign an assembly with a strong name, see [How to: Sign an Assembly with a Strong Name](https://msdn.microsoft.com/library/xc31ft41.aspx).
   
 ## Step 2: Deploy the custom Web Part to a SharePoint Portal  
  You must do the following to make the CustomWebPart.dll file (custom Web Part) that is created in “Step 1: Create a custom Web Part” of this topic usable on the SharePoint portal:  
   
--   **Copy the CustomWebPart.dll file to the bin folder of the SharePoint Portal**: Microsoft Office SharePoint Server creates portals under the \<root drive>:\Inetpub\wwwroot\wss\VirtualDirectories folder. A folder is created for each portal, and can be identified with the port number. You must copy the CustomWebPart.dll file created in “Step 1: Create a custom Web Part” of this topic to the \<root drive>:\Inetpub\wwwroot\wss\VirtualDirectories\\<Port_Number>\bin folder. For example, if the port number of your SharePoint portal is 13614, you must copy the CustomWebPart.dll file to the \<root drive>:\Inetpub\wwwroot\wss\VirtualDirectories\13614\bin folder.  
+-   **Copy the CustomWebPart.dll file to the bin folder of the SharePoint Portal**: Microsoft Office SharePoint Server creates portals under the \<root drive\>:\Inetpub\wwwroot\wss\VirtualDirectories folder. A folder is created for each portal, and can be identified with the port number. You must copy the CustomWebPart.dll file created in “Step 1: Create a custom Web Part” of this topic to the \<root drive\>:\Inetpub\wwwroot\wss\VirtualDirectories\\<Port_Number\>\bin folder. For example, if the port number of your SharePoint portal is 13614, you must copy the CustomWebPart.dll file to the \<root drive\>:\Inetpub\wwwroot\wss\VirtualDirectories\13614\bin folder.  
   
     > [!TIP]
     >  Another way to find the folder location of your SharePoint portal is by using the **Internet Information Services (IIS) Manager** window (**Start** > **Run** > **inetmgr**). Locate your SharePoint portal in the **Internet Information Services (IIS) Manager** window ([computer_name] > Web Sites > [Portal-Name]), right-click, and then click **Properties** in the shortcut menu. In the properties dialog box of the SharePoint portal, click the **Home Directory** tab, and then select the **Local path** box.  
   
--   **Add the Safe Control Entry in the web.config File**: Because the CustomWebPart.dll file will be used on different computers and by multiple users, you must declare the file as “safe.” To do so, open the web.config file located in the SharePoint portal folder at \<root drive>:\Inetpub\wwwroot\wss\VirtualDirectories\\<Port_Number>. Under the `<SafeControls>` section of the web.config file, add the following safe control entry:  
+-   **Add the Safe Control Entry in the web.config File**: Because the CustomWebPart.dll file will be used on different computers and by multiple users, you must declare the file as “safe.” To do so, open the web.config file located in the SharePoint portal folder at \<root drive\>:\Inetpub\wwwroot\wss\VirtualDirectories\\<Port_Number\>. Under the `<SafeControls>` section of the web.config file, add the following safe control entry:  
   
     -   **On 32-bit computer:**  
   

@@ -27,11 +27,11 @@ Before you begin this step, you must complete [Step 4C: Create a Test Instance f
   
 4.  Check status event (c:\SWIFTAdapterTutorial\Fileact\StatusEvents) folder for three HandleFileEventRequest messages. These messages should contain the following Transfer status:  
   
-     HandleFileEventRequest message\<Sw-TransferStatus>Accepted\</Sw-TransferStatus>  
+     HandleFileEventRequest message\<Sw-TransferStatus\>Accepted\</Sw-TransferStatus\>  
   
-     HandleFileEventRequest message \<Sw-TransferStatus>Initiated\</Sw-TransferStatus>  
+     HandleFileEventRequest message \<Sw-TransferStatus\>Initiated\</Sw-TransferStatus\>  
   
-     HandleFileEventRequest message \<Sw-TransferStatus>Completed\</Sw-TransferStatus>  
+     HandleFileEventRequest message \<Sw-TransferStatus\>Completed\</Sw-TransferStatus\>  
   
 ## See Also  
  [Step 4: Test FileAct Real-Time End-to-End Scenario](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-real-time-end-to-end-scenario.md)   

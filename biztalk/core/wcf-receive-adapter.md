@@ -64,7 +64,7 @@ The WCF receive adapter enables you to receive WCF service requests.
 |Sequence/Identifier|SequenceId|Yes|  
 |Sequence/MessageNumber|SequenceNumber|Yes|  
 |Sequence/LastMessage|SequenceLastMessage|Yes|  
-|\<soap:Header>|InboundHeaders|No|  
+|\<soap:Header\>|InboundHeaders|No|  
   
 ## See Also  
  [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)   

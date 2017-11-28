@@ -38,7 +38,7 @@ The following procedures describe how to build, deploy, bind, and start an orche
   
      For example:  
   
-     **\<drive>:\Adapter_Install\biztalk\my_project**  
+     **\<drive\>:\Adapter_Install\biztalk\my_project**  
   
 3.  Type the following at the command prompt and press ENTER:  
   

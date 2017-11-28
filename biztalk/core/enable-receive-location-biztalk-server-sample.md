@@ -38,7 +38,7 @@ The Enable Receive Location sample demonstrates how to enable a receive location
 ## Where to Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\WMI\Enable Receive Location\  
+ \<*Samples Path*\>\Admin\WMI\Enable Receive Location\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -55,18 +55,18 @@ The Enable Receive Location sample demonstrates how to enable a receive location
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\WMI\Enable Receive Location\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Enable Receive Location\VBScript\  
   
 2.  Run the file EnableRecLoc.vbs using the cscript program, passing the following command-line arguments, of which the third one is optional:  
   
-    -   **\<**   
-         ***ReceivePortName* >.** The name of the receive port that contains the receive location to be enabled. If the receive port name contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***ReceivePortName* \>.** The name of the receive port that contains the receive location to be enabled. If the receive port name contains spaces, enclose the name in quotes.  
   
-    -   **\<**   
-         ***ReceiveLocationName* >.** The name of the receive location within the specified receive port to be enabled. If the receive location name contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***ReceiveLocationName* \>.** The name of the receive location within the specified receive port to be enabled. If the receive location name contains spaces, enclose the name in quotes.  
   
-    -   **\<**   
-         ***InboundTransportURI* >.** A receive adapter URI, relative to the product installation location, that you can change by specifying this argument. If the inbound adapter URI contains spaces, enclose the URI in quotes.  
+    -   **\<**
+         ***InboundTransportURI* \>.** A receive adapter URI, relative to the product installation location, that you can change by specifying this argument. If the inbound adapter URI contains spaces, enclose the URI in quotes.  
   
          For example:  
   

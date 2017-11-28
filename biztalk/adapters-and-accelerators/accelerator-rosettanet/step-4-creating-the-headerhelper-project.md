@@ -107,7 +107,7 @@ In this step, you create a [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]
   
 3.  In the right pane, click **Sign the Assembly**.  
   
-4.  Click the **Choose a strong name key file** text box, and then select **\<Browse>** from the drop-down list.  
+4.  Click the **Choose a strong name key file** text box, and then select **\<Browse\>** from the drop-down list.  
   
 5.  In the Select File dialog box, move to the location of your Contoso assembly, and double-click **FabConPriceAvail.snk**.  
   

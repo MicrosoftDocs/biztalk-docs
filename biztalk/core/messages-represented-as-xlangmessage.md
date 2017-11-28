@@ -54,7 +54,7 @@ public static void AssignStreamFactoryToPart(XLANGMessage msg)
  There may be times when you want to create a new message without transforming a source message. You can do this by using a variable of type **System.Xml.XmlDocument** and loading or otherwise constructing appropriate content. In the following example, XML is loaded from a string by using the **LoadXml** method of **XmlDocument**:  
   
 ```  
-XmlVariable.LoadXml("\<ns0:Root PONumber=\"047745351122111\" xmlns:ns0=\"http://BTSHTTPSend.SimpleSchema\">\<MyChildRecord SubAttr1=\"Simple Attribute \" />\</ns0:Root>");  
+XmlVariable.LoadXml("<ns0:Root PONumber="047745351122111" xmlns:ns0="http://BTSHTTPSend.SimpleSchema"><MyChildRecord SubAttr1="Simple Attribute " /></ns0:Root>");  
 XLANGMessage XmlMsg = XmlVariable;  
   
 ```  

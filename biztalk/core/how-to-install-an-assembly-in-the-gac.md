@@ -58,7 +58,7 @@ Uninstalling an assembly from the global assembly cache (GAC) is necessary to co
   
 2.  Type the following:  
   
-     `gacutil /u` \<*fully qualified assembly name*>  
+     `gacutil /u` \<*fully qualified assembly name*\>  
   
      For example, type:  
      `gacutil /u "hello,Version=1.0.0.0, Culture=neutral, PublicKeyToken=0123456789ABCDEF"`

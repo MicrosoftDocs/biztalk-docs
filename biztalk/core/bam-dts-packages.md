@@ -37,13 +37,13 @@ An administrator can update parameters for the following BAM DTS packages:
   
 -   **CubeUpdate** DTS package  
   
-     **bam_AN_\<**   
-     ***CubeName* >**, where CubeName is the name of the cube. The BAM workbook generates the cube name from the view name. If you modify the cube name in the BAM configuration XML document, the new cube name is used in the DTS package name.  
+     **bam_AN_\<**
+     ***CubeName* \>**, where CubeName is the name of the cube. The BAM workbook generates the cube name from the view name. If you modify the cube name in the BAM configuration XML document, the new cube name is used in the DTS package name.  
   
 -   **DataMaintenance** DTS package  
   
-     **bam_DM_\<**   
-     ***ActivityName* >**, where ActivityName is the name of the activity.  
+     **bam_DM_\<**
+     ***ActivityName* \>**, where ActivityName is the name of the activity.  
   
  You run the CubeUpdate DTS package to aggregate the scheduled aggregation. In the next section, you can specify the time window for real-time data aggregation.  
   

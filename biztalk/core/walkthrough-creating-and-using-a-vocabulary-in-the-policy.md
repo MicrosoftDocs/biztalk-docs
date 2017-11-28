@@ -115,7 +115,7 @@ This walkthrough provides step-by-step procedures for creating a vocabulary and 
   
 7.  Drag **Request Status** to the **THEN** pane.  
   
-8.  Click **\<empty string>** and then type **Approved**.  
+8.  Click **\<empty string\>** and then type **Approved**.  
   
 9. Right-click **Version 1.1(not saved)** in the Policy Explorer window, and then click **Save**.  
   

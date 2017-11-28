@@ -37,7 +37,7 @@ The validation policies of some message types perform validations on Amount fiel
   
 1.  Open a text editor, such as Notepad.  
   
-2.  In the editor, browse to the location of the message validation policy in which you want to enable or disable leading zeros. For example, you can find the message validation policy for the MT103 message type, MT103_Validation_Policy.xml, in *\<drive>*:/Program Files/Microsoft BizTalk Accelerator for SWIFT/SWIFT Messages/Category 1/MT103. Open the validation policy.  
+2.  In the editor, browse to the location of the message validation policy in which you want to enable or disable leading zeros. For example, you can find the message validation policy for the MT103 message type, MT103_Validation_Policy.xml, in *\<drive\>*:/Program Files/Microsoft BizTalk Accelerator for SWIFT/SWIFT Messages/Category 1/MT103. Open the validation policy.  
   
 3.  In the policy, search on the **CheckValidAmount** method.  
   

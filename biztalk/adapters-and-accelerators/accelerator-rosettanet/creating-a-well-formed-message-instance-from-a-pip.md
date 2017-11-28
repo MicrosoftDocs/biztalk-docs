@@ -25,7 +25,7 @@ This topic describes how to produce a well-formed message instance. You can gene
   
 2.  On the **File** menu, point to **Open**, and then click **Project**.  
   
-3.  Locate \<*drive*>\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNetSDK\Schemas, click **RNPIPs.btproj**, and then click **Open**.  
+3.  Locate \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNetSDK\Schemas, click **RNPIPs.btproj**, and then click **Open**.  
   
 4.  In Solution Explorer, expand **RNPIPs**, and then right-click the PIP for which you want to create an instance.  
   

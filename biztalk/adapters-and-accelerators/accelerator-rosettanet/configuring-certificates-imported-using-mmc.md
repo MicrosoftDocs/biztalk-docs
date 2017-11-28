@@ -39,12 +39,12 @@ After you have imported certificates using the Certificates snap-in for the [!IN
   
 ### To configure the signing certificate for a BizTalk Group or the decryption certificate for a BizTalk Host  
   
-1.  Click **Start**, click **Run**, type **runas /user:\<host service> mmc**, and then click **OK**.  
+1.  Click **Start**, click **Run**, type **runas /user:\<host service\> mmc**, and then click **OK**.  
   
     > [!NOTE]
-    >  For \<*host service*>, type the name of the service that you associated with the host service when you installed [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+    >  For \<*host service*\>, type the name of the service that you associated with the host service when you installed [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
-2.  Type the password for \<*host service*>, and then press ENTER.  
+2.  Type the password for \<*host service*\>, and then press ENTER.  
   
 3.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   

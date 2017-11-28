@@ -96,13 +96,13 @@ The majority of Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlser
   
 ## Permissions-Related Problems  
   
-#### BizTalk Server run-time or design-time operations fail and a "cannot open database requested in login \<database>" error is written to the Application log of the BizTalk Server or SQL Server computer  
+#### BizTalk Server run-time or design-time operations fail and a "cannot open database requested in login \<database\>" error is written to the Application log of the BizTalk Server or SQL Server computer  
   
 ##### Problem  
  A run-time or design-time operation fails and an error similar to the following is written to the application log of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] or [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer:  
   
- Cannot open database requested in login \<*database*>. Login fails.   
-Login failed for user \<*username*>.  
+ Cannot open database requested in login \<*database*\>. Login fails.   
+Login failed for user \<*username*\>.  
   
 ##### Cause  
  This error can occur if the specified account does not belong to the appropriate Windows group or [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] role.  

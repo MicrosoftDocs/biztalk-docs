@@ -61,7 +61,7 @@ This topic describes known issues with EDI status reporting in [!INCLUDE[btsBizT
   
  If you want to use status reporting after you upgrade to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], make sure that the BAM tools are configured before you perform the upgrade.  
   
- If status reporting does not work after you perform the upgrade, determine in the upgrade logs if the BAM tools were configured prior to upgrade. If not, you can configure the BAM tools and then deploy the BusinessMessageJournal BAM activity contained in the EdiStatusReportingActivityDefs.xml file in *\<drive>*:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+ If status reporting does not work after you perform the upgrade, determine in the upgrade logs if the BAM tools were configured prior to upgrade. If not, you can configure the BAM tools and then deploy the BusinessMessageJournal BAM activity contained in the EdiStatusReportingActivityDefs.xml file in *\<drive\>*:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
   
 ## Disabling transaction-set storage affects an activated batch, but enabling storage does not  
  If you disable the storage of transaction sets while an instance of the batching orchestration is activated, the change will take place immediately. BizTalk Server will store transaction sets for the batch while storage is enabled, but will not store transaction sets after storage has been disabled. You disable storage of transaction sets by clearing the "Store transaction set/payload for reporting" property in the General pane of the EDI Properties dialog box.  

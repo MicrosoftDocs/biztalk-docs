@@ -105,4 +105,4 @@ The following table lists the configuration properties that you can set for an F
 ```  
   
 > [!NOTE]
->  When specifying TransportTypeData configuration data for an adapter built using the Adapter Framework, all the name/value pairs that are used must be stored into the \<AdapterConfig> element. Since the \<AdapterConfig> element specifies the VT_BSTR (vt="8") data type then the \< > characters in the data must be escaped.
+>  When specifying TransportTypeData configuration data for an adapter built using the Adapter Framework, all the name/value pairs that are used must be stored into the \<AdapterConfig\> element. Since the \<AdapterConfig\> element specifies the VT_BSTR (vt="8") data type then the \< \> characters in the data must be escaped.

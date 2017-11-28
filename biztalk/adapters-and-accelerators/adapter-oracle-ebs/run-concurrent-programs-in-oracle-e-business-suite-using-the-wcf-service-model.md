@@ -37,7 +37,7 @@ Oracle E-Business Suite exposes concurrent programs that you can execute to perf
   
 |Operation|Method Signature|  
 |---------------|----------------------|  
-|Concurrent program|public \<return type> <Concurrent_program_name>(param 1, param 2, …)|  
+|Concurrent program|public \<return type\> <Concurrent_program_name>(param 1, param 2, …)|  
   
  As an example, the following code shows the method signatures for a WCF client class generated for the **MS_SAMPLE_COPY_EMP_DATA** and **Get_Status** concurrent programs.  
   

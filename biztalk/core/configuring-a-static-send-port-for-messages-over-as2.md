@@ -30,7 +30,7 @@ This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../in
 |**Send Port Properties: General**|Send pipeline|- AS2EdiSend (for EDI-encoded messages)<br /><br /> - AS2Send (for non-EDI messages)|  
 |**Send Port Properties: General**|Receive handler<br /><br /> (if Request MDN in **Acknowledgements (MDNs)** page in the one-way agreement tab is selected)|BizTalkServerApplication|  
 |**Send Port Properties: General**|Receive pipeline<br /><br /> (if Request MDN in **Acknowledgements (MDNs)** page in the one-way agreement tab is selected)|AS2Receive|  
-|**HTTP Transport Properties**|Destination URL|\<Destination URL string>|  
+|**HTTP Transport Properties**|Destination URL|\<Destination URL string\>|  
 |**HTTP Transport Properties**|Enable chunked encoding|Cleared|  
 |**Send Port Properties: Filters**|Property|BTS.MessageType<br /><br /> Note:<br /><br /> You can use a variety of filter expression, including using BTS.ReceivePortName.<br /><br /> Note:<br /><br /> For non-EDI messages, you will have to filter on a different property)|  
 |**Send Port Properties: Filters**|Operator|==|  

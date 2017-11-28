@@ -34,7 +34,7 @@ Administrators use the **add-account** command to associate users with BAM views
   
 2.  Navigate to the tracking folder by typing [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking at the command prompt. Press **ENTER**.  
   
-3.  Type **bm add-account -AccountName:\<account name> -View:\<view name>**.  
+3.  Type **bm add-account -AccountName:\<account name\> -View:\<view name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

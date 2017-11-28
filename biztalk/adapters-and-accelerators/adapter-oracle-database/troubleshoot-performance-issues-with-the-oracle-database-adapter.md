@@ -43,7 +43,7 @@ This section discusses using troubleshooting techniques to resolve performance i
   
  **Resolution**  
   
- Install .NET \<*version*> (x64) on the 64-bit computer.  
+ Install .NET \<*version*\> (x64) on the 64-bit computer.  
   
 ## See Also  
 [Troubleshoot the Oracle Database adapter.md](../../adapters-and-accelerators/adapter-oracle-database/troubleshoot-the-oracle-database-adapter.md)

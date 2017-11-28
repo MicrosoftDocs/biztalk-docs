@@ -38,11 +38,11 @@ Complete [Step 3D: Add a FILE Send Port to Capture the Sw:HandleResponse Message
     |**Adapter Mode**|From the drop-down list, select **RealTime**.|  
     |**Message format**|**InteractMessage**.|  
     |**Non-Repudiation Indicator**|**FALSE**.|  
-    |**Request Type**|Type the appropriate \<RequestType> string, based on your provisioning with SWIFT.|  
+    |**Request Type**|Type the appropriate \<RequestType\> string, based on your provisioning with SWIFT.|  
     |**ResponseCrypto**|**FALSE**.|  
-    |**Requestor**|Set it to the appropriate \<Requestor> string, based on your provisioning with SWIFT.|  
-    |**Responder**|Set it to the appropriate \<Responder> string, based on your provisioning with SWIFT.|  
-    |**Service Name**|Set it to the appropriate \<service name>, based on your provisioning with SWIFT.|  
+    |**Requestor**|Set it to the appropriate \<Requestor\> string, based on your provisioning with SWIFT.|  
+    |**Responder**|Set it to the appropriate \<Responder\> string, based on your provisioning with SWIFT.|  
+    |**Service Name**|Set it to the appropriate \<service name\>, based on your provisioning with SWIFT.|  
     |**Delivery Notification**|From the drop-down list, select  **FALSE**.|  
     |**Notify queue**|Type the appropriate queue name, based on your provisioning with SWIFT.|  
   

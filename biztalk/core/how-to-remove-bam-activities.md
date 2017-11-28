@@ -28,7 +28,7 @@ Administrators use the **remove-activity** command to remove the specified activ
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
   
-3.  Type **bm remove-activity -Name:\<activity name>**.  
+3.  Type **bm remove-activity -Name:\<activity name\>**.  
   
 4.  Press **ENTER**.  
   

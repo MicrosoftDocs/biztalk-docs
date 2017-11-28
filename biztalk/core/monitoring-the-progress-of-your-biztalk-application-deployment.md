@@ -22,7 +22,7 @@ manager: "anneta"
 # Monitoring the Progress of Your BizTalk Application Deployment
 You can monitor the progress of your BizTalk application deployment in two ways:  
   
--   **BizTalk installation log**: You can consult the installation log that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates. Installation logs are located in %SystemDrive%\Documents and Settings\\<*current user*>\Application Data\Microsoft\\[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]\Deployment.  
+-   **BizTalk installation log**: You can consult the installation log that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates. Installation logs are located in %SystemDrive%\Documents and Settings\\<*current user*\>\Application Data\Microsoft\\[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]\Deployment.  
   
 -   **Local event log**: You can track the progress of an installation in the local event log. Therefore, you can track custom installation actions on a per-server basis.  
   

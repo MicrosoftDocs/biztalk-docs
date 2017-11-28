@@ -63,10 +63,10 @@ To consume an adapter built using the [!INCLUDE[afproductnameshort](../../includ
     |Contract Type|Artifact|Description||  
     |-------------------|--------------|-----------------|-|  
     |Outbound|CLR WCF Proxy|Contains the contract and service implementation.||  
-    |Outbound||App.config|Contains the \<endpoint> and \<bindings> elements for \<system.ServiceModel>\<client>.|  
+    |Outbound||App.config|Contains the \<endpoint\> and \<bindings\> elements for \<system.ServiceModel\>\<client\>.|  
     |Inbound|CLR WCF service interface|Contains the contract.||  
     |Inbound||CLR WCF service implementation|Stub implementation that derives from the contract.|  
-    |Inbound||App.config|Contains the \<endpoint>, \<bindings> and \<behaviors> elements for \<system.ServiceModel>\<service>.|  
+    |Inbound||App.config|Contains the \<endpoint\>, \<bindings\> and \<behaviors\> elements for \<system.ServiceModel\>\<service\>.|  
   
 10. You can now use the proxy in your application.  
   
@@ -75,7 +75,7 @@ To consume an adapter built using the [!INCLUDE[afproductnameshort](../../includ
   
  To generate a proxy class from an adapter hosted in IIS  
   
-1.  At the command prompt, enter **svcutil.exe “http://localhost/adapter/AdapterService.svc?wsdl” /config:app.config**. Replace the HTTP path with the correct path for your hosted adapter. This creates a .cs file that contains the .NET CLR proxy and output.config which contains the \<bindings> and client \<endpoint> for \<system.serviceModel>.  
+1.  At the command prompt, enter **svcutil.exe “http://localhost/adapter/AdapterService.svc?wsdl” /config:app.config**. Replace the HTTP path with the correct path for your hosted adapter. This creates a .cs file that contains the .NET CLR proxy and output.config which contains the \<bindings\> and client \<endpoint\> for \<system.serviceModel\>.  
   
     > [!NOTE]
     >  If your adapter contains many operations, you can limit the operations returned by using a query string of ‘op=’ followed by the name of the operation in which you are interested. For example: `svcutil.exe “http://localhost/adapter/AdapterService.svc?wsdl&op=Echo/EchoString&op=Echo/EchoArray”` generates proxy code for only the EchoString and EchoArray operations.  

@@ -76,22 +76,22 @@ Use the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] to aut
   
         |Property|Description|  
         |--------------|-----------------|  
-        |**EnableMetadataExchange**|Setting this value to **True** enables service metadata publishing to client requests. This can also be set by modifying \<**serviceMetadata httpGetEnabled=””**> in web.config. Default is **False**|  
-        |**IncludeExceptionDetailsinFault**|Setting this value to **True** results in managed exception information returned to the client in SOAP faults. This can also be set by modifying \<**serviceDebug usingincludeExceptionDetailInFaults=””**> in web.config. Default is **False**.|  
+        |**EnableMetadataExchange**|Setting this value to **True** enables service metadata publishing to client requests. This can also be set by modifying \<**serviceMetadata httpGetEnabled=””**\> in web.config. Default is **False**|  
+        |**IncludeExceptionDetailsinFault**|Setting this value to **True** results in managed exception information returned to the client in SOAP faults. This can also be set by modifying \<**serviceDebug usingincludeExceptionDetailInFaults=””**\> in web.config. Default is **False**.|  
         |**Name**|Name for the service behavior configuration.|  
         |**UseServiceCertificate**|This value determines whether the service will use an X.509 certificate to authenticate itself to the client process. Default is **True**.|  
-        |**FindValue**|This value is used to search for a specific X.509 certificate in the certificate store. This can also be set by modifying \<**serviceCredentials findValue=””**> in web.config **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
-        |**StoreLocation**|This value specifies system store location to search for the specified certificate. This can also be set by modifying \<**serviceCredentials storeLocation=””**> in web.config. **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
-        |**StoreName**|This value specifies the specific system store to search for the specified certificate. This can also be set by modifying \<**serviceCredentials storeName=””**> in web.config **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
-        |**X509FindType**|The type of search to use with the FindValue specified earlier in order to find the specific certificate to use. This can also be set by modifying \<**serviceCredentials x509FindType=””**> in web.config **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
+        |**FindValue**|This value is used to search for a specific X.509 certificate in the certificate store. This can also be set by modifying \<**serviceCredentials findValue=””**\> in web.config **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
+        |**StoreLocation**|This value specifies system store location to search for the specified certificate. This can also be set by modifying \<**serviceCredentials storeLocation=””**\> in web.config. **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
+        |**StoreName**|This value specifies the specific system store to search for the specified certificate. This can also be set by modifying \<**serviceCredentials storeName=””**\> in web.config **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
+        |**X509FindType**|The type of search to use with the FindValue specified earlier in order to find the specific certificate to use. This can also be set by modifying \<**serviceCredentials x509FindType=””**\> in web.config **Note:**  Specify a value for this property only if **UseServiceCertificate** is set to **True**.|  
   
     2.  The **Endpoint Behavior Configuration** section controls the endpoint behavior.  
   
         |Property|Description|  
         |--------------|-----------------|  
         |**Name**|The name of the endpoint behavior|  
-        |**AuthenticationType**|This value instructs the adapter where to obtain the client credentials of the incoming document. To enable clients to specify a client certificate to authenticate to the service, set this to **ClientCredentialUsernamePassword**. To enable clients to specify the user name and password as part of the HTTP header, set this to **HTTPUsernamePassword**. To enable clients to specify credentials through the ClientCredential interface, set this to **Auto**. If this fails, clients can pass credentials as part of the HTTP header.<br /><br /> This value can also be set by modifying \<**endpointBehavior adapterSecurityBridgeType**> in web.config. Default is **Auto**.|  
-        |**UsernameHeader**|This specifies the name of the header that will be used to pass the user name to the service. For more information about HTTP headers, see “Support for Custom HTTP and SOAP headers” at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> This value can also be set by modifying \<**endpointBehavior usernameHttpHeader**> in web.config. **Note:**  You must specify a value for this property if the **AuthenticationType** is set to **HTTPUserNamePassword**.  If set to **Auto**, this property is optional.|  
+        |**AuthenticationType**|This value instructs the adapter where to obtain the client credentials of the incoming document. To enable clients to specify a client certificate to authenticate to the service, set this to **ClientCredentialUsernamePassword**. To enable clients to specify the user name and password as part of the HTTP header, set this to **HTTPUsernamePassword**. To enable clients to specify credentials through the ClientCredential interface, set this to **Auto**. If this fails, clients can pass credentials as part of the HTTP header.<br /><br /> This value can also be set by modifying \<**endpointBehavior adapterSecurityBridgeType**\> in web.config. Default is **Auto**.|  
+        |**UsernameHeader**|This specifies the name of the header that will be used to pass the user name to the service. For more information about HTTP headers, see “Support for Custom HTTP and SOAP headers” at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> This value can also be set by modifying \<**endpointBehavior usernameHttpHeader**\> in web.config. **Note:**  You must specify a value for this property if the **AuthenticationType** is set to **HTTPUserNamePassword**.  If set to **Auto**, this property is optional.|  
         |**PasswordHeader**|This specifies the name of the header that will be used to pass the user password to the service. For more information about HTTP headers, see “Support for Custom HTTP and SOAP Headers” at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> This value can also be set by modifying <**endpointBehavior passwordHttpHeader**< in web.config. **Note:**  You must specify a value for this property if the **AuthenticationType** is set to **HTTPUserNamePassword**. If set to **Auto**, this property is optional.|  
   
     3.  After setting the desired behavior, click **Next** to continue.  
@@ -114,7 +114,7 @@ Use the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] to aut
     |----------|-----------------|  
     |.svc|Service file that references to the WCF proxy.|  
     |.cs|Implements the WCF proxy.|  
-    |web.config|Contains \<**endpoint**>, \<**bindings**>, and \<**behaviors**> elements for \<**system.ServiceModel**>|  
+    |web.config|Contains \<**endpoint**\, \<**bindings**\>, and \<**behaviors**\> elements for \<**system.ServiceModel**\>|  
   
 12. Publish the WCF service project.  
   

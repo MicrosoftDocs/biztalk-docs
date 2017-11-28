@@ -46,7 +46,7 @@ You may find it useful to understand the following aspects of the Ops adapter wh
 |**InitializationData**|**InitializationData**|  
 |**TransportLocationUri**|Not applicable.|  
   
- All of the properties are string values. You construct the value of the TransportLocationUri property from the assembly name and the class name. The URI has the value OPS://\<DotNetAssemblyStrongName>/\<DotNetClassName> where the placeholders are replaced by the values of the corresponding custom property.  
+ All of the properties are string values. You construct the value of the TransportLocationUri property from the assembly name and the class name. The URI has the value OPS://\<DotNetAssemblyStrongName\>/\<DotNetClassName\> where the placeholders are replaced by the values of the corresponding custom property.  
   
  For information about creating ports from code, see [How to Create MSMQ Receive Locations and Send Ports from Code](../core/how-to-create-msmq-receive-locations-and-send-ports-from-code.md).  
   

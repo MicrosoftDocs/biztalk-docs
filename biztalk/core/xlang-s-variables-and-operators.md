@@ -45,7 +45,7 @@ This section discusses the variables and operators used in the XLANG/s language.
 |unchecked|Ignores arithmetic overflow|unchecked(x = y * 1000)|  
 |new|Creates an instance of a class|myObject = new MyClass;|  
 |typeof|Retrieves a type|myMapType = typeof(myMap)|  
-|succeeded|Tests for successful completion of transactional scope or orchestration|succeeded(\<transaction ID for child transaction of current scope or service>)|  
+|succeeded|Tests for successful completion of transactional scope or orchestration|succeeded(\<transaction ID for child transaction of current scope or service\>)|  
 |exists|Tests for the existence of a message context property|BTS.RetryCount exists Message_In|  
 |+|Unary plus|+(int x)|  
 |-|Unary minus|-(int x)|  
@@ -56,11 +56,11 @@ This section discusses the variables and operators used in the XLANG/s language.
 |/|Divided by|x / y|  
 |+|Plus|x + y|  
 |-|Minus|x - y|  
-|<<|Shift left|x <\< 2|  
+|<<|Shift left|x << 2|  
 |>>|Shift right|x >> 2|  
-|<|Less than|If (MyMsg.numOrders \< 10)...|  
+|<|Less than|If (MyMsg.numOrders < 10)...|  
 |>|Greater than|If (MyMsg.numOrders > 10)...|  
-|<=|Less than or equal to|If (MyMsg.numOrders \<= 10)...|  
+|<=|Less than or equal to|If (MyMsg.numOrders <= 10)...|  
 |>=|Greater than or equal to|If (MyMsg.numOrders >= 10)...|  
 |==|Equal to|If (MyMsg.numOrders == 10)...|  
 |!=|Not equal to|If (MyMsg.numOrders != 10)...|  

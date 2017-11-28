@@ -22,7 +22,7 @@ As with the other Single Sign-On features, Password Synchronization is not insta
   
 ### To install Password Synchronization  
   
-1.  On the BizTalk Server CD, browse to the **\<CDRoot>\Platforms\SSO** folder.  
+1.  On the BizTalk Server CD, browse to the **\<CDRoot\>\Platforms\SSO** folder.  
   
 2.  Run **setup.exe** and follow the instructions in the wizard.  
   

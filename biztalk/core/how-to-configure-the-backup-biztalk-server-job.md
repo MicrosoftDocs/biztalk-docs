@@ -86,12 +86,12 @@ To configure this job, you'll need to:
   
     2. **Name**: The default is **BTS**. The name is used as part of the backup file name.  
   
-    3. **Location of backup files**: Replace '*\<destination path>*' with the full path (the path must include the single quotes) to the computer and folder where you want to back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, or the blob service endpoint URL to an Azure blob storage account.  
+    3. **Location of backup files**: Replace '*\<destination path\>*' with the full path (the path must include the single quotes) to the computer and folder where you want to back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, or the blob service endpoint URL to an Azure blob storage account.  
 
         > [!IMPORTANT]
         > - If you enter a local path, then you have to manually copy all the files to the same folder on the destination system whenever the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job creates new files.  
         >   
-        >      To use a remote path, enter a UNC share such as \\\\*\<ServerName>*\\*\<SharedDrive>*\\, where *\<ServerName>* is the name of the server where you want the files, and *\<SharedDrive>* is name of the shared drive or folder.  
+        >      To use a remote path, enter a UNC share such as \\\\*\<ServerName\>*\\*\<SharedDrive\>*\\, where *\<ServerName\>* is the name of the server where you want the files, and *\<SharedDrive\>* is name of the shared drive or folder.  
         >   
         >      Backing up data over a network is subject to any network issues. When using a remote location, verify the backup succeeded when the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job finishes.  
         > - To avoid potential data loss, configure the backup disk to be a different disk than the database data and log disks. This is necessary so you can access the backups if the data or log disk fails.  
@@ -128,14 +128,14 @@ To configure this job, you'll need to:
   
 6.  Select the **MarkAndBackupLog** step, and select **Edit**. In the **Command** box, update the parameter values:  
   
-    1.  **@MarkName**: This is part of the naming convention for backup files: <Server Name>_<Database Name>**_Log_**< Log Mark Name >_<Timestamp>  
+    1.  **@MarkName**: This is part of the naming convention for backup files: \<Server Name\>\_\<Database Name\>**\_Log\_**\< Log Mark Name \>\_\<Timestamp\>  
     
-    2.  **@BackupPath**: Full destination path (including single quotes) to the computer and folder to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs, or the Azure blob storage account and container. The *\<destination path>* can also be local or a UNC path to another server.  
+    2.  **@BackupPath**: Full destination path (including single quotes) to the computer and folder to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs, or the Azure blob storage account and container. The *\<destination path\>* can also be local or a UNC path to another server.  
   
      The MarkAndBackupLog step marks the logs for backup, and then backs them up.  
   
     > [!IMPORTANT]
-    >  To avoid **potential data loss** and for **performance improvement**, the *\<destination path>* should be set to a different computer, or hard drive, different from what is used to store the original database logs.  
+    >  To avoid **potential data loss** and for **performance improvement**, the *\<destination path\>* should be set to a different computer, or hard drive, different from what is used to store the original database logs.  
   
      Select **OK**.  
   

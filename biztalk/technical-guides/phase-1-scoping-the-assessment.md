@@ -22,7 +22,7 @@ This topic describes the aspects of the scope phase of a BizTalk Server performa
  The following factors should be considered before any other work is done for a performance assessment. These factors will help decide the general direction of the scope phase and are a good starting point for a performance assessment.  
   
 ### Message load  
- It’s important to consider right from the outset how you are going to replicate the message load that will actually be going through the production system. For instance, if in production 20 percent of the messages will be <20KB in size, 50 percent will be \<100KB in size and the remaining 30 percent could be up to 1 MB in size, it is important that this be replicated in the lab.  
+ It’s important to consider right from the outset how you are going to replicate the message load that will actually be going through the production system. For instance, if in production 20 percent of the messages will be <20KB in size, 50 percent will be <100KB in size and the remaining 30 percent could be up to 1 MB in size, it is important that this be replicated in the lab.  
   
 ### Develop a brief detail of the scenarios to be tested  
  After you have identified the test cases that will be tested, it is important to identify the major components that are involved in them. This includes both BizTalk Server components (such as messaging and orchestrations) and other components, including third-party technologies such as MQSeries or SAP. It is very important that you be aware of all of these from the outset as it will help you gauge the complexity of the lab and will enable you to plan for the technical skills required during the engagement.  
@@ -276,7 +276,7 @@ This topic describes the aspects of the scope phase of a BizTalk Server performa
     |Scale out|140 messages/second|0.777 seconds|99.3%|2|6|270,000|609 bytes|30 minutes|  
     |Best|50 messages/second|1.12 seconds|99.12%|17|2|360,000|609 bytes|2 hours|  
     |Baseline|30 messages/second|1.52 seconds|92.9 %|4|2|36,000|609 bytes|20 minutes|  
-    |Goals|5 messages/second|\< 2 seconds|90%|-|2|-|-|-|  
+    |Goals|5 messages/second|< 2 seconds|90%|-|2|-|-|-|  
   
 ## Define all deliverables that are required at the onset of the performance assessment  
  It is important to agree upon deliverables that must be in place before embarking on a BizTalk Server performance assessment. The section below describes the deliverables that should be in place at the onset of the performance assessment.  

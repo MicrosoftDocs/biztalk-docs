@@ -49,7 +49,7 @@ objReceiveLocation["CustomCfg"] =
   
  The names of the tags in the CustomProps element are the internal names that the adapter uses for the properties.  
   
- The MSMQ adapter has a single tag, AdapterConfig, inside the CustomProps tag. The AdapterConfig tag contains a string of XML tags for the custom property values enclosed in a Config tag. However, the tags are encoded: "&lt;" replaces "\<" and "&gt;" replaces ">". For example, the XML for a subset of the adapter for MSMQ properties might appear as follows:  
+ The MSMQ adapter has a single tag, AdapterConfig, inside the CustomProps tag. The AdapterConfig tag contains a string of XML tags for the custom property values enclosed in a Config tag. However, the tags are encoded: "&lt;" replaces "\<" and "&gt;" replaces "\>". For example, the XML for a subset of the adapter for MSMQ properties might appear as follows:  
   
 ```  
 <Config>  

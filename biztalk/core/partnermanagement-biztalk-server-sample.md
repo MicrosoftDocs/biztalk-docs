@@ -37,7 +37,7 @@ The PartnerManagement sample demonstrates how to manage parties in the [!INCLUDE
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\PartnerManagement  
+ \<*Samples Path*\>\Admin\ExplorerOM\PartnerManagement  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -47,7 +47,7 @@ The PartnerManagement sample demonstrates how to manage parties in the [!INCLUDE
 |PartnerManagement.sln and PartnerManagement.csproj|Solution and project files for the sample.|  
   
 ## Building and Running This Sample  
- Before you build the sample, you need to make four code modifications to customize the sample for the BizTalk server. This is necessary because the sample uses arbitrary names for send ports associated with the party and an arbitrary role name for the enlistment. Therefore you need to provide valid names to the sample. To demonstrate this sample, this topic describes first building the PartyResolution sample from the following directory: \<*Samples Path*>\Orchestrations\PartyResolution. This approach is used to make sure a valid role name and send port names are present on the BizTalk server to demonstrate the sample procedures.  
+ Before you build the sample, you need to make four code modifications to customize the sample for the BizTalk server. This is necessary because the sample uses arbitrary names for send ports associated with the party and an arbitrary role name for the enlistment. Therefore you need to provide valid names to the sample. To demonstrate this sample, this topic describes first building the PartyResolution sample from the following directory: \<*Samples Path*\>\Orchestrations\PartyResolution. This approach is used to make sure a valid role name and send port names are present on the BizTalk server to demonstrate the sample procedures.  
   
 #### To build this sample  
   
@@ -128,7 +128,7 @@ The PartnerManagement sample demonstrates how to manage parties in the [!INCLUDE
   
 1.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\PartnerManagement\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\PartnerManagement\bin\Debug  
   
 2.  Run the file PartnerManagement.exe.  
   

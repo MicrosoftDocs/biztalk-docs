@@ -28,17 +28,17 @@ This section describes various utilities included as part of the [!INCLUDE[esbTo
   
  The various parameters it can accept are the following:  
   
- /?: \<Show the parameters help>  
+ /?: \<Show the parameters help\>  
   
- /f: \<Itinerary xml file path>  
+ /f: \<Itinerary xml file path\>  
   
- /c: \<published &#124; deployed>  
+ /c: \<published &#124; deployed\>  
   
- /n: \<Default Itinerary name>  
+ /n: \<Default Itinerary name\>  
   
- /v: \<Default Itinerary version (format 'major.minor')>  
+ /v: \<Default Itinerary version (format 'major.minor')\>  
   
- /o: \<Silent overwrite>  
+ /o: \<Silent overwrite\>  
   
  The following are examples of how to use this utility.  
   

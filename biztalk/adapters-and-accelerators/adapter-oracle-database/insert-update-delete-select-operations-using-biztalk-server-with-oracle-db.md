@@ -170,7 +170,7 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a set
  The orchestration consumes the message and sends it to the Oracle database. The response from the Oracle database is saved at the other FILE location defined as part of the orchestration. For example, the response from Oracle database for the above request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
   <SelectResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY">  
     <SelectResult>  
       <ACCOUNTACTIVITYRECORDSELECT>  

@@ -25,12 +25,12 @@ You can create a custom resolver using the [Unity Application Block](http://go.m
  The following code is an example of the logic contained in a fact provider. This code can also be found in the ItineraryStaticFactProvider.cs file of the ESB.Resolver.Itinerary.Facts project. It is a component in the ITINERARY-STATIC resolver that gathers the name and version of an itinerary from the resolver connection string.  
   
 ```csharp  
-public object RegisterFact(IBaseMessage message, IPipelineContext pipelineContext, Dictionary\<string, string> resolverContents)  
+public object RegisterFact(IBaseMessage message, IPipelineContext pipelineContext, Dictionary\<string, string\> resolverContents)  
 {  
     return GetItineraryFactFromResolver(resolverContents);  
 }  
   
-private static object GetItineraryFactFromResolver(Dictionary\<string, string> resolverContents)  
+private static object GetItineraryFactFromResolver(Dictionary\<string, string\> resolverContents)  
 {              
     if (resolverContents == null)  
         throw new ArgumentNullException("resolverContents");  
@@ -56,7 +56,7 @@ private static object GetItineraryFactFromResolver(Dictionary\<string, string> r
  The following code is an example of the logic contained in a fact translator. This code can also be found in the ItineraryStaticFactTranslator.cs file of the ESB.Resolver.Itinerary.Facts project. It is a component in the ITINERARY-STATIC resolver that performs a database query to gather the itinerary XML for an itinerary by name and, optionally, by version.  
   
 ```csharp  
-public void TranslateFact(object[] facts, Dictionary\<string, string> factDictionary)  
+public void TranslateFact(object[] facts, Dictionary\<string, string\> factDictionary)  
 {  
     #region Argument Check  
     if (null == facts) throw new ArgumentNullException("fact");  
@@ -146,7 +146,7 @@ public void Initialize(IUnityContainer container)
  The following code is an example of the logic contained in a Resolve container. This code can also be found in the StaticItineraryResolveContainer.cs file of the ESB.Resolver.Itinerary project.  
   
 ```csharp  
-public Dictionary\<string, string> Resolve(ResolverInfo resolverInfo,  
+public Dictionary\<string, string\> Resolve(ResolverInfo resolverInfo,  
     XLANGMessage message)  
 {  
     #region Argument Check  
@@ -164,14 +164,14 @@ public Dictionary\<string, string> Resolve(ResolverInfo resolverInfo,
      );  
 }          
   
-private Dictionary\<string, string> ResolveStatic(string config, string resolver,   
-    Func<IFactProvider, Dictionary\<string, string>, object> RegisterFact)  
+private Dictionary\<string, string\> ResolveStatic(string config, string resolver,   
+    Func<IFactProvider, Dictionary\<string, string\>, object> RegisterFact)  
 {  
     try  
     {  
         EventLogger.Write(string.Format("Received {0} value in ITINERARY STATIC resolver.", config));  
   
-        Dictionary\<string, string> queryParams =  
+        Dictionary\<string, string\> queryParams =  
                 ResolverMgr.GetFacts(config, resolver);  
   
         List<object> facts = new List<object>();  
@@ -181,7 +181,7 @@ private Dictionary\<string, string> ResolveStatic(string config, string resolver
             facts.Add(RegisterFact(factProvider, queryParams));  
         }  
   
-        Dictionary\<string, string> resolverDictionary = new Dictionary\<string, string>();  
+        Dictionary\<string, string\> resolverDictionary = new Dictionary\<string, string\>();  
   
         object[] convertedFacts = facts.ToArray();  
   
@@ -225,15 +225,15 @@ private Dictionary\<string, string> ResolveStatic(string config, string resolver
   
 ```xml  
 <typeAliases>  
-     \<!-- Lifetime manager types -->  
+     <!-- Lifetime manager types -->  
      <typeAlias alias="singleton" type="Microsoft.Practices.Unity.ContainerControlledLifetimeManager, Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />  
-     \<!-- std type providers -->  
+     <!-- std type providers -->  
      <typeAlias alias="string" type="System.String, mscorlib"/>  
      <typeAlias alias="int" type="System.Int32, mscorlib"/>  
-     \<!-- repository providers -->  
+     <!-- repository providers -->  
      <typeAlias alias="IRepositoryProvider" type="Microsoft.Practices.ESB.Resolver.Itinerary.Facts.Repository.IRepositoryProvider, Microsoft.Practices.ESB.Resolver.Itinerary.Facts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
      <typeAlias alias="SqlRepositoryProvider" type="Microsoft.Practices.ESB.Resolver.Itinerary.DataAccess.SqlRepositoryProvider, Microsoft.Practices.ESB.Resolver.Itinerary.DataAccess, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
-     \<!-- fact providers -->  
+     <!-- fact providers -->  
      <typeAlias alias="IFactProvider" type="Microsoft.Practices.ESB.Resolver.Facts.IFactProvider, Microsoft.Practices.ESB.Resolver.Facts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
      <typeAlias alias="IFactTranslator" type="Microsoft.Practices.ESB.Resolver.Facts.IFactTranslator, Microsoft.Practices.ESB.Resolver.Facts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
      <typeAlias alias="ItineraryFactProvider" type="Microsoft.Practices.ESB.Resolver.Itinerary.Facts.ItineraryFactProvider, Microsoft.Practices.ESB.Resolver.Itinerary.Facts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
@@ -242,7 +242,7 @@ private Dictionary\<string, string> ResolveStatic(string config, string resolver
      <typeAlias alias="ResolutionFactProvider" type="Microsoft.Practices.ESB.Resolver.Itinerary.Facts.ResolutionFactProvider, Microsoft.Practices.ESB.Resolver.Itinerary.Facts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
      <typeAlias alias="DefaultFactTranslator" type="Microsoft.Practices.ESB.Resolver.Facts.DefaultFactTranslator, Microsoft.Practices.ESB.Resolver.Facts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
      <typeAlias alias="ItineraryFactTranslator" type="Microsoft.Practices.ESB.Resolver.Itinerary.Facts.ItineraryFactTranslator, Microsoft.Practices.ESB.Resolver.Itinerary.Facts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
-     \<!-- resolve providers -->  
+     <!-- resolve providers -->  
      <typeAlias alias="IResolveProvider" type="Microsoft.Practices.ESB.Resolver.IResolveProvider, Microsoft.Practices.ESB.Resolver, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22"/>  
      <typeAlias alias="ItineraryResolveProvider" type="Microsoft.Practices.ESB.Resolver.Itinerary.BREItineraryResolverContainer,Microsoft.Practices.ESB.Resolver.Itinerary, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22 "/>  
      <typeAlias alias="StaticItineraryResolveProvider" type="Microsoft.Practices.ESB.Resolver.Itinerary.StaticItineraryResolveContainer,Microsoft.Practices.ESB.Resolver.Itinerary, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22 "/>  
@@ -300,7 +300,7 @@ private Dictionary\<string, string> ResolveStatic(string config, string resolver
   
 3.  Create an assembly with a class that implements the **IResolveContainer** and **IResolveProvider** interface and that contains a **Resolve** method that validates the resolver configuration, gathers all the facts from the fact providers, performs any specialized processing, translates them using the fact translators, and returns the translated facts as an instance of the **Dictionary** class.  
   
-4.  Register the resolver by adding it to the Esb.config configuration file using a **\<resolver>** element that contains the root moniker as the **name** attribute and the fully qualified assembly name as the **type** attribute.  
+4.  Register the resolver by adding it to the Esb.config configuration file using a **\<resolver\>** element that contains the root moniker as the **name** attribute and the fully qualified assembly name as the **type** attribute.  
   
 5.  Add the Unity-specific configuration to the Esb.config file for this resolver.  
   

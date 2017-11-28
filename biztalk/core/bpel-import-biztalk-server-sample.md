@@ -86,7 +86,7 @@ The BPEL Import sample demonstrates how to create an orchestration from a Busine
   
 6.  On the **Select BPEL, WSDL, and XSD Files** page, click **Browse**.  
   
-7.  Select all the files from the \<*Samples Path*>\Orchestrations\BPELImport\BPELSource folder, click **Open**, and then click **Next**.  
+7.  Select all the files from the \<*Samples Path*\>\Orchestrations\BPELImport\BPELSource folder, click **Open**, and then click **Next**.  
   
     > [!NOTE]
     >  In this step, you select the BPEL and WSDL files to describe the business process and the XSD files to represent the business document schemas.  
@@ -109,7 +109,7 @@ The BPEL Import sample demonstrates how to create an orchestration from a Busine
   
 15. In Solution Explorer, select **Add Reference**, and on the **Projects** tab, click **Browse**.  
   
-16. Select **ShippingSchemas.dll** from the location \<*Samples Path*>\Orchestrations\BPELImport\Solution\ShipperProcess\ShippingSchemas\bin\Development, and then click **OK**.  
+16. Select **ShippingSchemas.dll** from the location \<*Samples Path*\>\Orchestrations\BPELImport\Solution\ShipperProcess\ShippingSchemas\bin\Development, and then click **OK**.  
   
     > [!NOTE]
     >  The section "To build and initialize the ShipperProcess application" has instructions on how to build this.  
@@ -152,7 +152,7 @@ The BPEL Import sample demonstrates how to create an orchestration from a Busine
   
 27. In Solution Explorer, right-click the **BPELShipping** project, point to **Add**, and then click **Existing Item**.  
   
-28. Select all the .btm files from the location \<*Samples Path*>\Orchestrations\BPELImport\Solution\BPELShipping\BPELShipping.  
+28. Select all the .btm files from the location \<*Samples Path*\>\Orchestrations\BPELImport\Solution\BPELShipping\BPELShipping.  
   
 29. In the Orchestration View window, locate the **Message Assignment** shape named MessageAssignment_1 in ConstructMessage1 and delete it.  
   
@@ -225,10 +225,10 @@ The BPEL Import sample demonstrates how to create an orchestration from a Busine
   
 50. Deploy the solution.  
   
-51. Browse to the location \<*Samples Path*>\Orchestrations\BPELImport\Solution\BPELShipping and double-click **BindAndStartOnly.bat** to bind and start the orchestration.  
+51. Browse to the location \<*Samples Path*\>\Orchestrations\BPELImport\Solution\BPELShipping and double-click **BindAndStartOnly.bat** to bind and start the orchestration.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Orchestrations\BPELImport  
+ *\<Samples Path\>*\Orchestrations\BPELImport  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -273,7 +273,7 @@ olution\BPELShipping\BPELShipping\Invoice2Ack.btm|Invoice to invoice acknowledgm
   
 2.  From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to the following folder:  
   
-     *\<Samples Path>*\Orchestrations\BPELImport\Solution\ShipperProcess  
+     *\<Samples Path\>*\Orchestrations\BPELImport\Solution\ShipperProcess  
   
 3.  Run the file Setup.bat, which performs the following actions:  
   
@@ -308,7 +308,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
      From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to the following folder:  
   
-     *\<Samples Path>*\Orchestrations\BPELImport\Solution\BPELShipping  
+     *\<Samples Path\>*\Orchestrations\BPELImport\Solution\BPELShipping  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -326,19 +326,19 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
 #### To run the BPEL Import sample  
   
-1.  Copy the **Order.xml** file from the *\<Samples Path>*\Orchestrations\BPELImport\Solution folder to the \<*Samples Path>*\Orchestrations\BPELImport\Solution\Ports\ReceiveOrder folder.  
+1.  Copy the **Order.xml** file from the *\<Samples Path\>*\Orchestrations\BPELImport\Solution folder to the \<*Samples Path\>*\Orchestrations\BPELImport\Solution\Ports\ReceiveOrder folder.  
   
-2.  The BPELShipping orchestration picks up this file as an order from the customer order processing system, runs through the shipping process, and produces one file each in the \<*Samples Path*>\Orchestrations\BPELImport\Solution\Ports\SendOrder folder and the \<*Samples Path*>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation folder. The format of the name of these files is \<*MessageID*>.xml, where *\<MessageID>* is the GUID generated to uniquely identify the message.  
+2.  The BPELShipping orchestration picks up this file as an order from the customer order processing system, runs through the shipping process, and produces one file each in the \<*Samples Path*\>\Orchestrations\BPELImport\Solution\Ports\SendOrder folder and the \<*Samples Path*\>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation folder. The format of the name of these files is \<*MessageID*\>.xml, where *\<MessageID\>* is the GUID generated to uniquely identify the message.  
   
 ## Uninstalling This Sample  
   
 #### To uninstall the BPEL Import sample  
   
-1.  At a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to \<*Samples Path*>\Orchestrations\BPELImport\BPELShipping.  
+1.  At a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to \<*Samples Path*\>\Orchestrations\BPELImport\BPELShipping.  
   
 2.  Run Cleanup.bat.  
   
-3.  Browse to \<*Samples Path*>\Orchestrations\BPELImport\ShipperProcess.  
+3.  Browse to \<*Samples Path*\>\Orchestrations\BPELImport\ShipperProcess.  
   
 4.  Run Cleanup.bat.  
   

@@ -136,9 +136,9 @@ You can use this procedure to move the BAM Primary Import database to another se
   
     6.  Change the following lines to match your new server and database:  
   
-         PrimaryImportServer= "*\<ServerName>*"  
+         PrimaryImportServer= "*\<ServerName\>*"  
   
-         PrimaryImportDatabase = "*\<DatabaseName>*"  
+         PrimaryImportDatabase = "*\<DatabaseName\>*"  
   
 17. Start all BizTalk Server services. For more information, see [How to Start, Stop, Pause, Resume, or Restart BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
   

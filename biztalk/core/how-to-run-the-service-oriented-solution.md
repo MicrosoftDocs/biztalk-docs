@@ -32,7 +32,7 @@ The following steps describe how to run and validate the service oriented soluti
   
 #### To send requests by SOAP transport using the client application (stub version)  
   
-1.  Open a command prompt, change the directory to the \<*BizTalk Server install Directory*>\SDK\Scenarios\SO\BTSSoln\SimpleClient\bin\Release, and then run the BTSScnSOSimpleClient.exe.  
+1.  Open a command prompt, change the directory to the \<*BizTalk Server install Directory*\>\SDK\Scenarios\SO\BTSSoln\SimpleClient\bin\Release, and then run the BTSScnSOSimpleClient.exe.  
   
 2.  Type any characters in the **RequestType**, **RequestSource**, and **RequestID** text boxes.  
   
@@ -58,7 +58,7 @@ The following steps describe how to run and validate the service oriented soluti
   
 #### To send requests using the client application (adapter version)  
   
-1.  Open a command prompt, change the directory to \<*BizTalk Server install Directory*>\SDK\Scenarios\SO\BTSSoln\PaymentTracker\bin\Debug and, then run the following command to start the PaymentTracker simulator:  
+1.  Open a command prompt, change the directory to \<*BizTalk Server install Directory*\>\SDK\Scenarios\SO\BTSSoln\PaymentTracker\bin\Debug and, then run the following command to start the PaymentTracker simulator:  
   
      `BTSScnSOPaymentTracker.exe LastPaymentsInputQueue LastPaymentsOutputQueue <` *Queue Manager Name* `> 5 [<` *Channel Definition* `>]`  
   
@@ -67,7 +67,7 @@ The following steps describe how to run and validate the service oriented soluti
   
     -   Leave the Payment Tracker simulator running.  
   
-2.  Open a command prompt, change the directory to the \<*BizTalk Server install Directory*>\SDK\Scenarios\SO\BTSSoln\SimpleClient\bin\Release, and then run the BTSScnSOSimpleClient.exe.  
+2.  Open a command prompt, change the directory to the \<*BizTalk Server install Directory*\>\SDK\Scenarios\SO\BTSSoln\SimpleClient\bin\Release, and then run the BTSScnSOSimpleClient.exe.  
   
 3.  In the BTSScnSOSimpleClient.exe, send a request by SOAP transport using the as follows:  
   
@@ -99,13 +99,13 @@ The following steps describe how to run and validate the service oriented soluti
   
     3.  Select **MQSeries** in the **Select Transport and Parameters** group box.  
   
-    4.  Type \<*Queue Manager Name*> in the **Queue Manager** text box. QM_\<*Your Computer Name*> is the default value for \<*Queue Manager Name*>.  
+    4.  Type \<*Queue Manager Name*\> in the **Queue Manager** text box. QM_\<*Your Computer Name*\> is the default value for \<*Queue Manager Name*\>.  
   
     5.  Type `AdapterSOAInputQueue` in the **Input Queue** text box.  
   
     6.  Type `AdapterSOAOutputQueue` in the **Output Queue** text box.  
   
-    7.  Type \<*Channel Definition*> in the **Channel Definition** box. S_\<*Your Computer Name*>/TCP/\<*Your Computer Name*>(1414) is the default value for \<*Channel Definition*>.  
+    7.  Type \<*Channel Definition*\> in the **Channel Definition** box. S_\<*Your Computer Name*\>/TCP/\<*Your Computer Name*\>(1414) is the default value for \<*Channel Definition*\>.  
   
     8.  Type `ZipCode` in the **Name** text box under **Authentication Elements**, and then type any characters in the **Value** text box.  
   
@@ -121,7 +121,7 @@ The following steps describe how to run and validate the service oriented soluti
   
 #### To send requests using the client application (inline version)  
   
-1.  Open a command prompt, change the directory to \<*BizTalk Server install Directory*>\SDK\Scenarios\SO\BTSSoln\PaymentTracker\bin\Debug, and then run the following command to start the PaymentTracker simulator:  
+1.  Open a command prompt, change the directory to \<*BizTalk Server install Directory*\>\SDK\Scenarios\SO\BTSSoln\PaymentTracker\bin\Debug, and then run the following command to start the PaymentTracker simulator:  
   
      `BTSScnSOPaymentTracker.exe LastPaymentsInputQueue LastPaymentsOutputQueue <` *Queue Manager Name* `> 5 [<` *Channel Definition* `>]`  
   
@@ -138,7 +138,7 @@ The following steps describe how to run and validate the service oriented soluti
     > [!NOTE]
     >  The adapter version and inline version uses the same MQSeries queue, LastPaymentsOutputQueue. To avoid the race condition between two versions, disable the adapter version's receive location listening on the MQSeries queue.  
   
-3.  Open a command prompt, change the directory to the \<*BizTalk Server install Directory*>\SDK\Scenarios\SO\BTSSoln\SimpleClient\bin\Release, and then run the BTSScnSOSimpleClient.exe.  
+3.  Open a command prompt, change the directory to the \<*BizTalk Server install Directory*\>\SDK\Scenarios\SO\BTSSoln\SimpleClient\bin\Release, and then run the BTSScnSOSimpleClient.exe.  
   
 4.  In the BTSScnSOSimpleClient.exe, send a request by SOAP transport using the as follows:  
   
@@ -170,13 +170,13 @@ The following steps describe how to run and validate the service oriented soluti
   
     3.  Select **MQSeries** in the **Select Transport and Parameters** group box.  
   
-    4.  Type \<*Queue Manager Name*> in the **Queue Manager** text box. QM_\<*Your Computer Name*> is the default value for \<*Queue Manager Name*>.  
+    4.  Type \<*Queue Manager Name*\> in the **Queue Manager** text box. QM_\<*Your Computer Name*\> is the default value for \<*Queue Manager Name*\>.  
   
     5.  Type `InlineSOAInputQueue` in the **Input Queue** text box.  
   
     6.  Type `InlineSOAOutputQueue` in the **Output Queue** text box.  
   
-    7.  Type \<*Channel Definition*> in the **Channel Definition** box. S_\<*Your Computer Name*>/TCP/\<*Your Computer Name*>(1414) is the default value for \<*Channel Definition*>.  
+    7.  Type \<*Channel Definition*\> in the **Channel Definition** box. S_\<*Your Computer Name*\>/TCP/\<*Your Computer Name*\>(1414) is the default value for \<*Channel Definition*\>.  
   
     8.  Type `ZipCode` in the **Name** text box under **Authentication Elements**, and then type any characters in the **Value** text box.  
   

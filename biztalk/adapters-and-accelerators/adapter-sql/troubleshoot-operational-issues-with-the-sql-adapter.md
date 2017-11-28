@@ -121,24 +121,24 @@ ErrorCode:5
   
 -   **For [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
   
-    1.  Specify the timeout for the WCF adapter in the machine.config. Navigate to the machine.config file under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
+    1.  Specify the timeout for the WCF adapter in the machine.config. Navigate to the machine.config file under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
   
         ```  
         <configuration>  
-         \<system.transactions>  
+         <system.transactions>  
           <machineSettings maxTimeout="02:00:00" />  
-         \</system.transactions>  
+         </system.transactions>  
         </configuration>  
         ```  
   
          With this setting, the WCF adapter timeout is set to 2 hours.  
   
-    2.  Specify the timeout settings for MSDTC transactions in the machine.config. Navigate to the machine.config file under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
+    2.  Specify the timeout settings for MSDTC transactions in the machine.config. Navigate to the machine.config file under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
   
         ```  
-        \<system.transactions>   
+        <system.transactions>   
                 <defaultSettings distributedTransactionManagerName="<computer_name>" timeout="02:00:00"/>   
-            \</system.transactions>  
+            </system.transactions>  
   
         ```  
   

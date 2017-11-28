@@ -26,7 +26,7 @@ Use the following procedure to change the host with which the Windows SharePoint
   
 ### To change global variables for a Windows SharePoint Services send handler  
   
-1.  In the BizTalk Server Administration console, click to expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, and then click to expand **BizTalk Group [\<servername>:\<management database>]**, click to expand **Platform Settings**, and then click to expand **Adapters**. The list of adapters appears under the folder.  
+1.  In the BizTalk Server Administration console, click to expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, and then click to expand **BizTalk Group [\<servername\>:\<management database\>]**, click to expand **Platform Settings**, and then click to expand **Adapters**. The list of adapters appears under the folder.  
   
 2.  Click **Windows SharePoint Services**, and in the right pane, right-click the send handler that you want to configure, and then click **Properties**.  
   

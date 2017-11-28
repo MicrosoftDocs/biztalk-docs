@@ -46,7 +46,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  **Resolution**  
   
--   Make sure that the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For information about the supported client versions, see the installation guide available at \<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
+-   Make sure that the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For information about the supported client versions, see the installation guide available at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
   
 -   Make sure you do a custom installation of the adapters to install only the adapter you need.  
   

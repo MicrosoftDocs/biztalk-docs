@@ -42,9 +42,9 @@ Installation of the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/ada
   
 ### Register the adapter bindings or the data provider  
   
-1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
+1.  Navigate to the machine.config file on the computer. For example, on a 32-bit platform, the machine.config is available under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.  
   
-     In this path, \<version> is the version of the .NET Framework.  
+     In this path, \<version\> is the version of the .NET Framework.  
   
 2.  Open the file using a text editor.  
   

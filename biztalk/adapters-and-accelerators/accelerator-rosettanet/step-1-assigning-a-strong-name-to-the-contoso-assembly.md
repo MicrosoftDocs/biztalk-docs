@@ -26,7 +26,7 @@ In this step, you create and assign a strong name for your BizTalk assembly. A s
 2.  At the command prompt, move to the location of the Contoso solution.  
   
     > [!NOTE]
-    >  By default, the location of the Contoso solution is *\<drive>*:\Documents and Settings\\*\<user name>*\My Documents\Visual Studio \<version>\Projects.  
+    >  By default, the location of the Contoso solution is *\<drive\>*:\Documents and Settings\\*\<user name\>*\My Documents\Visual Studio \<version\>\Projects.  
   
 3.  At the command prompt, type **sn -k FabConPriceAvail.snk**, and then press **Enter**.  
   

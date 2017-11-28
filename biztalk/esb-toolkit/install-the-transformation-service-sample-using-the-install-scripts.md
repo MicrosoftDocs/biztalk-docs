@@ -22,7 +22,7 @@ This section describes how you can install the Transformation Service sample fro
   
 2.  In the **Run** dialog box, type **cmd**, and then press ENTER to open a command prompt.  
   
-3.  Execute the following command, replacing the *\<path>* parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\TransformServices\Install\Scripts\\):  
+3.  Execute the following command, replacing the *\<path\>* parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\TransformServices\Install\Scripts\\):  
   
     ```  
     <path>\TransformServices_Install.cmd  

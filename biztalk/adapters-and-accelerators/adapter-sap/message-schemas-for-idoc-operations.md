@@ -158,8 +158,8 @@ Intermediate documents (IDOCS) are standardized EDI-like documents supported by 
     </EDI_DC40>  
   <IDOC_DATA_REC_40>  
     <EDI_DD40 xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
-      \<[SEG_HEADER_FIELD1]>value1\</[SEG_HEADER_FIELD1]>  
-      \<[SEG_HEADER_FIELD2]>value2\</[SEG_HEADER_FIELD2]>  
+      <[SEG_HEADER_FIELD1]>value1</[SEG_HEADER_FIELD1]>  
+      <[SEG_HEADER_FIELD2]>value2</[SEG_HEADER_FIELD2]>  
       …  
       <SDATA>segment value</SDATA>  
     </EDI_DD40>  

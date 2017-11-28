@@ -26,7 +26,7 @@ manager: "anneta"
   
  The `<endpointId>` is derived as `<sql_server_name>, <instance_name>, <database_name>`.  
   
- The \<actionId> is derived in the following manner:  
+ The \<actionId\> is derived in the following manner:  
   
 -   For opening a connection, the action ID is “Open”.  
   

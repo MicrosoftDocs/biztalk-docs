@@ -42,9 +42,9 @@ The receive port always has an associated receive location that you must configu
   
 9. In the FILE Transport Properties dialog box, click **Browse**.  
   
-10. In the Browse For Folder dialog box, move to the **\<drive>:\Labs\Inbound** folder, and then click **Make New Folder**.  
+10. In the Browse For Folder dialog box, move to the **\<drive\>:\Labs\Inbound** folder, and then click **Make New Folder**.  
   
-11. Create a **FlatFile** folder in **\<drive>:\Labs\Inbound**, and then click **OK**.  
+11. Create a **FlatFile** folder in **\<drive\>:\Labs\Inbound**, and then click **OK**.  
   
 12. In the **File mask** box, type **\*.txt**, and then click **OK**.  
   

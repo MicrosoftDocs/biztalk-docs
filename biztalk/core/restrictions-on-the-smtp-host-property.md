@@ -24,7 +24,7 @@ The SMTP host property is a string that specifies the SMTP server that the SMTP 
   
 -   This property must be configured on the adapter handler level, on the endpoint level, or in both places.  
   
--   The SMTP server property cannot contain the following characters: ` ~ ! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< > /, ?;  
+-   The SMTP server property cannot contain the following characters: ` ~ ! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> /, ?;  
   
 -   The length of the SMTP server name must not exceed 256 characters.  
   

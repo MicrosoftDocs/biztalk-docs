@@ -93,7 +93,7 @@ Uninstall and unconfigure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
     -   TrackedMessages_Copy_BizTalkMsgBoxDb  
   
         > [!NOTE]
-        >  If you deployed BAM, you may also need to remove the bam_\<*Cube Name*>_\<*View Name*> job.  
+        >  If you deployed BAM, you may also need to remove the bam_\<*Cube Name*\>_\<*View Name*\> job.  
   
 #### Delete BizTalk Server databases  
   
@@ -125,7 +125,7 @@ Uninstall and unconfigure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
   
 3.  Delete the packages with the following prefixes (right-click the package, and select **Delete**):  
   
-    -   BAM_AN_\<*Cube Name*>  
+    -   BAM_AN_\<*Cube Name*\>  
   
-    -   BAM_DM_\<*View Name*>  
+    -   BAM_DM_\<*View Name*\>  
   

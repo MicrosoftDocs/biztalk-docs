@@ -34,15 +34,15 @@ The BAM Management (BM) utility configuration commands allow you get and update 
 ## get-config Command  
  **Usage**  
   
- **bm.exe get-config -FileName:\<output file> [ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe get-config -FileName:\<output file\> [ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|FileName:\<output file>|The path and name to which to save the configuration file.|  
-|Server:\<server>|Optional: The name of the server from which to get the configuration. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database from which to get the configuration. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|FileName:\<output file\>|The path and name to which to save the configuration file.|  
+|Server:\<server\>|Optional: The name of the server from which to get the configuration. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database from which to get the configuration. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Retrieves the BAM configuration XML and saves it in the specified file. The **get-config** command will not overwrite the existing file.  
   
@@ -56,13 +56,13 @@ bm.exe get-config -FileName:BAMConfiguration.xml -Server:OrdersServer
 ## update-config Command  
  **Usage**  
   
- **bm.exe update-config -FileName:\<config file>**  
+ **bm.exe update-config -FileName:\<config file\>**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|FileName:\<config file>|The path and name of the configuration file from which to update the BAM infrastructure.|  
+|FileName:\<config file\>|The path and name of the configuration file from which to update the BAM infrastructure.|  
   
  Updates the configuration on the local computer from a file containing BAM configuration XML. You can add server and database names that do not already exist in the current configuration. Changing server or database names that already have dynamic infrastructure deployed in will fail and bm.exe will report an error.  
   
@@ -70,7 +70,7 @@ bm.exe get-config -FileName:BAMConfiguration.xml -Server:OrdersServer
   
  The file drop location is changed by modifying the following line of the BAM configuration file.  
   
- \<Property Name="FileDropUNC">\\\\<computer name\>\alerts\</Property>  
+ \<Property Name="FileDropUNC"\>\\\\<computer name\>\alerts\</Property\>  
   
  For appropriate steps to update the references, see [Backing Up and Restoring BizTalk Server](../core/backing-up-and-restoring-biztalk-server.md).  
   
@@ -86,14 +86,14 @@ bm.exe update-config -FileName:MyConfig.xml
 ## get-changes Command  
  **Usage**  
   
- **bm.exe get-changes [ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe get-changes [ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|Server:\<server>|Optional: The name of the server on which the BAM Primary Import database resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|Server:\<server\>|Optional: The name of the server on which the BAM Primary Import database resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Gets a list of changes applied to the BAM Primary Import database. You can use this command to audit changes to the BAM Infrastructure. The command returns the following information:  
   
@@ -124,15 +124,15 @@ bm.exe get-changes
 ## get-defxml Command  
  **Usage**  
   
- **bm.exe get-defxml -FileName:\<output file>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe get-defxml -FileName:\<output file\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|FileName:\<output file>|The path and name of the file to which to save the definitions.|  
-|Server:\<server>|Optional: The name of the server from which to get the definitions. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database from which to get the definitions. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|FileName:\<output file\>|The path and name of the file to which to save the definitions.|  
+|Server:\<server\>|Optional: The name of the server from which to get the definitions. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database from which to get the definitions. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Retrieves all artifacts on from the BAM Primary Import database and saves them in a file as XML. The command will not overwrite existing files.  
   

@@ -27,9 +27,9 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
 ## Where to Find This Sample  
   
--   *\<SamplesPath>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
+-   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
   
--   *\<SamplesPath>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
+-   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -105,7 +105,7 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
     1.  Open a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command prompt.  
   
-    2.  Change directories to \<SamplesPath>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent.  
+    2.  Change directories to \<SamplesPath\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent.  
   
     3.  Type the following:  
   
@@ -121,7 +121,7 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
     3.  Click drop-down list for the **Choose a strong name key file** option, and click **Browse**.  
   
-    4.  Browse to \<SamplesPath>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk, click **Open**.  
+    4.  Browse to \<SamplesPath\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk, click **Open**.  
   
 4.  The pipeline component that you created earlier is already added to the **Pre-Assemble** stage of this pipeline project. If this component was not already added you would need to complete the following steps to add it:  
   
@@ -144,7 +144,7 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
     1.  Open the BizTalk Administration Console.  
   
-    2.  Click to expand **BizTalk Group [\<servername>:\<management database>]**, and then click to expand the **Assemblies** folder.  
+    2.  Click to expand **BizTalk Group [\<servername\>:\<management database\>]**, and then click to expand the **Assemblies** folder.  
   
          The deployed pipeline assembly should be visible under the **Assemblies** folder.  
   
@@ -182,7 +182,7 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
 1.  Click **Start**, point to **Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.  
   
-2.  Double-click **Queue Managers**, and then double-click the default queue manager. The default queue manager is typically named **QM_**\<*machine_name*> where *machine_name* is the name of your computer.  
+2.  Double-click **Queue Managers**, and then double-click the default queue manager. The default queue manager is typically named **QM_**\<*machine_name*\> where *machine_name* is the name of your computer.  
   
 3.  Right-click **Queues**, point to **New**, and then click **Local Queue**.  
   
