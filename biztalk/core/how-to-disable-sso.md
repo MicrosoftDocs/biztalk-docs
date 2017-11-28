@@ -35,7 +35,7 @@ You can disable the entire Single Sign-On system by using either the MMC Snap-In
   
 1.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Type **ssomanage –disablesso**.  
   

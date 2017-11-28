@@ -56,13 +56,13 @@ manager: "anneta"
   
 5.  In the **BizTalk Type Picker** dialog box, expand **EAISchemas**, expand **Schemas**, click **EAISchemas.Request**, and then click **OK**.  
   
-6.  In the **Source Schema** pane, right-click **\<Schema>**, and then click **Expand Tree Node**.  
+6.  In the **Source Schema** pane, right-click **\<Schema\>**, and then click **Expand Tree Node**.  
   
 7.  In the **Destination Schema** pane, click **Open Destination Schema**.  
   
 8.  In the **BizTalk Type Picker** dialog box, expand **EAISchemas**, expand **Schemas**, click **EAISchemas.RequestDecline**, and then click **OK**.  
   
-9. In the **Destination Schema** pane, right-click **\<Schema>**, and then click **Expand Tree Node**.  
+9. In the **Destination Schema** pane, right-click **\<Schema\>**, and then click **Expand Tree Node**.  
   
 10. In the **Source Schema** pane, drag the **ReqID** field to the **ReqID** in the **Destination Schema** pane. A line appears connecting the two elements.  
   

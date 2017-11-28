@@ -31,7 +31,7 @@ Pipeline components report errors in two ways:
   
  The Messaging Engine uses the **Message** and **Source** properties of the **Exception** object to report an error. The following message is written to the event log:  
   
- "There was a failure executing the [receive&#124;send] pipeline: \<pipeline name> Source: \<Source> [Receive Location&#124;Send Port:] \<location&#124;port name> Reason: \<Message>."  
+ "There was a failure executing the [receive&#124;send] pipeline: \<pipeline name\> Source: \<Source\> [Receive Location&#124;Send Port:] \<location&#124;port name\> Reason: \<Message\>."  
   
 ## Reporting errors from COM pipeline components  
  To report an error, COM-based pipeline components perform the following actions:  
@@ -42,7 +42,7 @@ Pipeline components report errors in two ways:
   
  The Messaging Engine uses the **GetSource** and **GetDescription** properties of the **IErrorInfo** object to report an error. If the source is not set, the name of the component is used. If the description is not set or the whole **ErrorInfo** object is not set, the returned HRESULT is reported instead of the description. The following message is written to the event log:  
   
- "There was a failure executing the [receive&#124;send] pipeline: \<pipeline name> Source: \<GetSource> [Receive Location&#124;Send Port:] \<location&#124;port name> Reason: \<GetDescription or HRESULT>."  
+ "There was a failure executing the [receive&#124;send] pipeline: \<pipeline name\> Source: \<GetSource\> [Receive Location&#124;Send Port:] \<location&#124;port name\> Reason: \<GetDescription or HRESULT\>."  
   
 ## See Also  
  [Developing Custom Pipeline Components](../core/developing-custom-pipeline-components.md)

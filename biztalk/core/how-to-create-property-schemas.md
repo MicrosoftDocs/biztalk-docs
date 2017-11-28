@@ -37,7 +37,7 @@ If you choose to promote fields as property fields, you will need to define a pr
   
 5.  Set the **Data Type** and other relevant properties, as appropriate, for the **Field Element** node in the Properties window.  
   
-6.  If you want to insert **Field Element** nodes for additional properties, right-click the \<Schema> node, click **Insert Schema Node**, and then click **Child Field Element**, and then repeat steps 4 and 5. Repeat as necessary to create the required set of **Field Element** nodes into which you intend to promote values from instance messages.  
+6.  If you want to insert **Field Element** nodes for additional properties, right-click the \<Schema\> node, click **Insert Schema Node**, and then click **Child Field Element**, and then repeat steps 4 and 5. Repeat as necessary to create the required set of **Field Element** nodes into which you intend to promote values from instance messages.  
   
 ## See Also  
  [Managing Schemas Within Projects](../core/managing-schemas-within-projects.md)

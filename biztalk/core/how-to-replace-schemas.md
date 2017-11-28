@@ -36,7 +36,7 @@ There may be times when you want to replace either the source or destination sch
       
      If only a single root exists in the replacement schema, or a root node has been established for the replacement schema using the **Root Reference** property of the **Schema** node, the replacement schema opens in the relevant pane, and you will not need to perform step 3.  
   
-3.  If multiple root nodes exist in the destination schema, and no root node has been established for the destination schema using the **Root Reference** property of the **Schema** node, in the **Root Node for \<*Source/Target*> Schema** dialog box, select the appropriate root node, and then select **OK**.  
+3.  If multiple root nodes exist in the destination schema, and no root node has been established for the destination schema using the **Root Reference** property of the **Schema** node, in the **Root Node for \<*Source/Target*\> Schema** dialog box, select the appropriate root node, and then select **OK**.  
   
      The replacement schema opens in the relevant pane.  
   

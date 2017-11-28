@@ -46,8 +46,8 @@ The **TransportTypeData** property of the **IReceiveLocation** interface does no
    <FileMask vt="8">*.xml</FileMask>  
    <FileNetFailRetryCount vt="19">5</FileNetFailRetryCount>  
    <FileNetFailRetryInterval vt="19">5</FileNetFailRetryInterval>  
-   \<Username vt=”8”>MyDomain\MyUsername</Username>  
-   \<Password vt=”8”>PASSWORD</Password>  
+   <Username vt=”8”>MyDomain\MyUsername</Username>  
+   <Password vt=”8”>PASSWORD</Password>  
 </CustomProps>  
   
 ```  

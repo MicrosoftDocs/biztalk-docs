@@ -28,7 +28,7 @@ Sometimes you may need to change the source or destination of a link, name or re
      As you drag an endpoint, the cursor becomes a crosshair. If you point to a schema node or functoid (or other object) which cannot accept the link, the cursor becomes a circle with a line through it.  
   
     > [!IMPORTANT]
-    >  If you have two or more input links connected to a functoid and you redirect one or more of those input links to other nodes in the source schema or to other functoids, the order of the input parameters to the original functoid may not be preserved. Use the **Configure \<Functoid> Functoid** dialog box to review the resulting order of the input parameters and to reorder them if necessary. For more information about reordering the input parameters of a functoid, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md).  
+    >  If you have two or more input links connected to a functoid and you redirect one or more of those input links to other nodes in the source schema or to other functoids, the order of the input parameters to the original functoid may not be preserved. Use the **Configure \<Functoid\> Functoid** dialog box to review the resulting order of the input parameters and to reorder them if necessary. For more information about reordering the input parameters of a functoid, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md).  
   
 ### To set/edit the label of a link  
   

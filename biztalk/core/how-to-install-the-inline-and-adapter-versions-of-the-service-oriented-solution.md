@@ -18,7 +18,7 @@ manager: "anneta"
 The following steps describe how to prepare the computer for installing the inline and adapter versions of the service oriented solution, and how to install the solution on this computer.  
   
 > [!NOTE]
->  - The service oriented solution is located in the folder \<*BizTalk Server Installation Folder*>\SDK\Scenarios\SO.  
+>  - The service oriented solution is located in the folder \<*BizTalk Server Installation Folder*\>\SDK\Scenarios\SO.  
 >  - If you don’t have a mainframe for the solution, you can modify the port binding to use the stub Web service for Pending Transactions. The Web service generates transactions locally to emulate the mainframe transactions.  
   
 ##  <a name="step1"></a> Prepare the computer for installing the adapter and inline versions of the Service Oriented Solution  
@@ -83,7 +83,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     -   `bm remove-all -DefinitionFile:ServiceLevelTracking.xml`  
   
-8.  At the command prompt, change the directory to \<*Enterprise Single Sign-On Install Directory*>, and then run the following command:  
+8.  At the command prompt, change the directory to \<*Enterprise Single Sign-On Install Directory*\>, and then run the following command:  
   
     -   `ssomanage -tickets no no`  
   
@@ -115,7 +115,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 1.  Install IBM WebSphere MQ for Windows Server on the local computer.  
   
-    1.  Keep all the default settings. Set up the **Default Configuration** at the end of the **Prepare WebSphere MQ Wizard**. The queue manager is named as QM_\<*your computer name*>.  
+    1.  Keep all the default settings. Set up the **Default Configuration** at the end of the **Prepare WebSphere MQ Wizard**. The queue manager is named as QM_\<*your computer name*\>.  
   
     2.  Install the Fix Pack 10 (CSD10). Keep all the default settings.  
   
@@ -132,7 +132,7 @@ The following steps describe how to prepare the computer for installing the inli
     > [!NOTE]
     >  The **MQSeries Agent** check box is activated only after the IBM WebSphere MQ for Windows is installed.  
   
-3.  Open a **Visual Studio Command Prompt**, change the directory to the \<*IBM MQSeries Installation Directory*>\bin folder, and then run the following command:  
+3.  Open a **Visual Studio Command Prompt**, change the directory to the \<*IBM MQSeries Installation Directory*\>\bin folder, and then run the following command:  
   
     -   `gacutil /i amqmdnet.dll`  
   
@@ -145,7 +145,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 #### Create the MQSeries queues  
   
-1.  Open the WebSphere MQ Explorer, expand **Queue Managers**, and then expand the queue manager in which you want to create the queues. Typically, a queue manager is named as QM_\<*your computer name*>.  
+1.  Open the WebSphere MQ Explorer, expand **Queue Managers**, and then expand the queue manager in which you want to create the queues. Typically, a queue manager is named as QM_\<*your computer name*\>.  
   
 2.  In the WebSphere MQ Explorer, right-click **Queues**, point to **New**, click **Local Queue**, and then create the following local queues for the adapter version of the solution:  
   
@@ -355,7 +355,7 @@ The following steps describe how to prepare the computer for installing the inli
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions  
   
-     PATH = \<*BizTalk Install Directory*>\SDK\Scenarios\SO\MFAccess\PendingTransactions  
+     PATH = \<*BizTalk Install Directory*\>\SDK\Scenarios\SO\MFAccess\PendingTransactions  
   
      Access Permissions = Read, Run scripts  
   
@@ -375,7 +375,7 @@ The following steps describe how to prepare the computer for installing the inli
   
      Alias = PendingTransactions  
   
-     PATH = \<*BizTalk Install Directory*>\SDK\Scenarios\SO\MFAccess\PendingTransactions  
+     PATH = \<*BizTalk Install Directory*\>\SDK\Scenarios\SO\MFAccess\PendingTransactions  
   
      Access Permissions = Read, Run scripts  
   
@@ -396,13 +396,13 @@ The following steps describe how to prepare the computer for installing the inli
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubSAP  
   
-     PATH = \<*BizTalk Install Directory*>\SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
+     PATH = \<*BizTalk Install Directory*\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
   
      Access Permissions = Read, Run scripts  
   
 2.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, expand the **Default Web Site**, right-click Microsoft.Samples.BizTalk.WoodgroveBank.StubSAP, click **Properties**, and then modify the settings as follows:  
   
-    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*> that you created in the procedure "To create a new IIS application pool for the Pending Transaction Web services".  
+    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*\> that you created in the procedure "To create a new IIS application pool for the Pending Transaction Web services".  
   
     2.  In the **Directory Security** tab, click **Edit** in the **Authentication and access control** group box, and then select **Enable anonymous access**. Click **OK** to exit.  
   
@@ -492,13 +492,13 @@ The following steps describe how to prepare the computer for installing the inli
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Adapter  
   
-     PATH = \<*BizTalk Install Directory*>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Adapter  
+     PATH = \<*BizTalk Install Directory*\>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Adapter  
   
      Access Permissions = Read, Run scripts  
   
 3.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites,** expand the **Default Web Site**, right-click Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Adapter, click **Properties**, and then modify the settings as follows:  
   
-    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*> that you created in the previous step.  
+    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*\> that you created in the previous step.  
   
     2.  In the **Directory Security** tab, click **Edit** in the **Authentication and access control** group box, select **Only Integrated Windows Authentication enabled**, and then clear other **Authentication access** checkboxes. Click **OK** to exit.  
   
@@ -508,13 +508,13 @@ The following steps describe how to prepare the computer for installing the inli
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Inline  
   
-     PATH = \<*BizTalk Install Directory*>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Inline  
+     PATH = \<*BizTalk Install Directory*\>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Inline  
   
      Access Permissions = Read, Run scripts  
   
 5.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, expand the **Default Web Site**, right-click Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Inline, click **Properties**, and then modify the settings as follows:  
   
-    1.  On the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*> you just created.  
+    1.  On the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*\> you just created.  
   
     2.  Click **Directory Security** tab, click **Edit** in the **Authentication and access control** group box, select **Only Integrated Windows Authentication enabled**, and then clear other **Authentication access** checkboxes. Click **OK** to exit.  
   
@@ -611,25 +611,25 @@ The following steps describe how to prepare the computer for installing the inli
     >  The SAPAdapterTimeout, PendingTransactionsAdapterTimeout, and PaymentTrackingAdapterTimeout values are used in the adapter version. The remaining values are used in the inline version.  
   
     > [!NOTE]
-    >  You can enter " " (two double quotes) for the default values marked \<User Specified> in the following table.  
+    >  You can enter " " (two double quotes) for the default values marked \<User Specified\> in the following table.  
   
     |Parameter|Default Value|Description|  
     |---------------|-------------------|-----------------|  
     |SAPAdapterTimeout|20000|Max timeout (millisecond) for a request to the SAP back-end|  
     |SAPInlineTimeout|20000|Max timeout (millisecond) for a request to the SAP back-end|  
-    |SAPInlineHostName|\<User Specified>|SAP back-end identifier|  
-    |SAPInlineClientNumber|\<User Specified>|SAP Client number|  
-    |SAPInlineSystemNumber|\<User Specified>|SAP System number|  
-    |SAPInlineUserName|\<User Specified>|The user name used to connect to the SAP back-end|  
-    |SAPInlinePassword|\<User Specified>|The password used to connect to the SAP back-end|  
+    |SAPInlineHostName|\<User Specified\>|SAP back-end identifier|  
+    |SAPInlineClientNumber|\<User Specified\>|SAP Client number|  
+    |SAPInlineSystemNumber|\<User Specified\>|SAP System number|  
+    |SAPInlineUserName|\<User Specified\>|The user name used to connect to the SAP back-end|  
+    |SAPInlinePassword|\<User Specified\>|The password used to connect to the SAP back-end|  
     |PendingTransactionsAdapterTimeout|20000|Max timeout (millisecond) for a request to the Pending Transactions server|  
     |PendingTransactionsInlineTimeout|20000|Max timeout (millisecond) for a request to the Pending Transactions server|  
-    |PendingTransactionsInlineURL|https://\<*your computer name*>/Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions/PendTransWS.asmx|URL of the Pending Transactions service. \<*Your computer name*> must match the **common name** in the procedure "To create a certificate request". You must not use "localhost" for \<*Your computer name*>.|  
+    |PendingTransactionsInlineURL|https://\<*your computer name*\>/Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions/PendTransWS.asmx|URL of the Pending Transactions service. \<*Your computer name*\> must match the **common name** in the procedure "To create a certificate request". You must not use "localhost" for \<*Your computer name*\>.|  
     |PendingTransactionsInlineSSOAffiliateApp|WoodgroveBank.PendingTransactions|Pending Transactions SSO application name|  
     |PaymentTrackingAdapterTimeout|20000|Max timeout (millisecond) for a request to the Payment Tracking system|  
     |PaymentTrackingInlineTimeout|20000|Max timeout (millisecond) for a request to the Payment Tracking system|  
-    |PaymentTrackingInlineQManager|\<User Specified> (Typically QM_\<*your computer name*>).|MQSeries Queue Manager name|  
-    |PaymentTrackingInlineMQChannelDefinition|" " (need to enter the two double quotes).|Empty string if local, or formatted channel name of the remote MQ server. If you keep all default settings in configuring IBM WebSphere MQ, the channel definition will be S__\<*your computer name*>/TCP/\<*your computer name*>(1414).|  
+    |PaymentTrackingInlineQManager|\<User Specified\> (Typically QM_\<*your computer name*\>).|MQSeries Queue Manager name|  
+    |PaymentTrackingInlineMQChannelDefinition|" " (need to enter the two double quotes).|Empty string if local, or formatted channel name of the remote MQ server. If you keep all default settings in configuring IBM WebSphere MQ, the channel definition will be S__\<*your computer name*\>/TCP/\<*your computer name*\>(1414).|  
     |PaymentTrackingInlineRequestQueue|LastPaymentsInputQueue|The MQ Queue name for payment tracking requests|  
     |PaymentTrackingInlineResponseQueue|LastPaymentsOutputQueue|The MQ Queue name for payment tracking responses|  
     |PaymentTrackingInlineSSOAffiliateApp|WoodgroveBank.PaymentTracker|Payment tracking SSO application name|  
@@ -641,11 +641,11 @@ The following steps describe how to prepare the computer for installing the inli
   
 9. At the command prompt, run the CreateInitialConfigInSSO.cmd. It creates the SSO Affiliate Applications, the SSO configuration store application, and the user mappings for the affiliate applications. Then, it executes the SetConfigValuesInSSO.cmd to store configuration values in the SSO configuration store application.  
   
-10. At the command prompt, run the following command to set the user credential for the Pending Transactions affiliate application. Use the \<**DomainName**> and \<**UserID**> defined in the PendTransUserMap.xml for the \<WindowsDomain>\\<WindowsUserId\>. This command asks you to enter the password of the external user, UserID, used in this walkthrough.  
+10. At the command prompt, run the following command to set the user credential for the Pending Transactions affiliate application. Use the \<**DomainName**\> and \<**UserID**\> defined in the PendTransUserMap.xml for the \<WindowsDomain\>\\<WindowsUserId\>. This command asks you to enter the password of the external user, UserID, used in this walkthrough.  
   
     -   `ssomanage -setcredentials <WindowsDomain>\<WindowsUserId> WoodgroveBank.PendingTransactions`  
   
-11. At the command prompt, run the following command to set the user credential for the Payment Tracker affiliate application. Use the \<**DomainName**> and \<**UserID**> defined in the PmntTrckUserMap.xml for the \<WindowsDomain>\\<WindowsUserId\>. This command asks you to enter the password of the external user, PTUserID, used in this walkthrough.  
+11. At the command prompt, run the following command to set the user credential for the Payment Tracker affiliate application. Use the \<**DomainName**\> and \<**UserID**\> defined in the PmntTrckUserMap.xml for the \<WindowsDomain\>\\<WindowsUserId\>. This command asks you to enter the password of the external user, PTUserID, used in this walkthrough.  
   
     > [!NOTE]
     >  The Payment Tracker simulator doesn't validate the external user credential. You can enter any password for the PTUserID.  
@@ -680,7 +680,7 @@ The following steps describe how to prepare the computer for installing the inli
   
     -   Replace all occurrences of __MQ_QMANAGER_NAME\_\_ with the MQSeries Queue Manager name.  
   
-    -   Replace all occurrences of __PT_WS_SERVER_NAME\_\_ in the string "\<Address>https://\__PT_WS_SERVER_NAME\_\_" with the server name where the Pending Transactions Web service is deployed. The server name must match the **common name** in the step, "To configure the Web server for SSL". You shouldn't use localhost.  
+    -   Replace all occurrences of __PT_WS_SERVER_NAME\_\_ in the string "\<Address\>https://\__PT_WS_SERVER_NAME\_\_" with the server name where the Pending Transactions Web service is deployed. The server name must match the **common name** in the step, "To configure the Web server for SSL". You shouldn't use localhost.  
   
     > [!NOTE]
     >  The binding file, AdapterSOAOrchBindings.xml, uses the stub Web service for:  
@@ -716,13 +716,13 @@ The following steps describe how to prepare the computer for installing the inli
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions  
   
-     PATH = \<*BizTalk Install Directory*>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
+     PATH = \<*BizTalk Install Directory*\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
   
      Access Permissions = Read, Run scripts  
   
 2.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, expand the **Default Web Site**, right-click Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions, click **Properties**, and then modify the settings as follows using the **Properties** dialog box.  
   
-    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*> you created in the step, "To create the virtual directories in IIS for the solution".  
+    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*\> you created in the step, "To create the virtual directories in IIS for the solution".  
   
     2.  In the **Directory Security** tab, click **Edit** in the **Authentication and access control** group box, and then select **Enable anonymous access**. Click **OK** to exit.  
   
@@ -742,13 +742,13 @@ The following steps describe how to prepare the computer for installing the inli
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions  
   
-     PATH = \<*BizTalk Install Directory*>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
+     PATH = \<*BizTalk Install Directory*\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
   
      Access Permissions = Read, Run scripts  
   
 2.  In the **Internet Information Services (IIS) Manager**, expand **Web Sites**, expand the **Default Web Site**, right-click Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions, click **Properties**, and then modify the settings as follows:  
   
-    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*> you created in the step, "To create the virtual directories in IIS for the solution".  
+    1.  In the **Virtual directory** tab, set the **Application Pool** to \<*YourAppPool*\> you created in the step, "To create the virtual directories in IIS for the solution".  
   
     2.  In the **Directory Security** tab, click **Edit** in the **Authentication and access control** group box, and then select **Enable anonymous access**. Click **OK** to exit.  
   

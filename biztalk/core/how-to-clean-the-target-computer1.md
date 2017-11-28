@@ -21,5 +21,5 @@ Deployment overwrites the receive location configuration. When you deploy a bind
   
          For example, at a command prompt, run:  
   
-         **cscript RemoveSendPort.vbs \<Send port name>**  
+         **cscript RemoveSendPort.vbs \<Send port name\>**  
   

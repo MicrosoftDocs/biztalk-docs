@@ -27,7 +27,7 @@ In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../inclu
   
     2.  Click the **Signing** tab, and select the **Sign the assembly** checkbox.  
   
-    3.  From the drop-down list in the **Choose a strong name key file** box, select **\<New…>**.  
+    3.  From the drop-down list in the **Choose a strong name key file** box, select **\<New…\>**.  
   
     4.  In the **Create Strong Name Key** dialog box, enter a name for the key file, for example `OrderProcessingDemo.snk`. Clear the checkbox for protecting the key file with a password, and then click **OK**.  
   

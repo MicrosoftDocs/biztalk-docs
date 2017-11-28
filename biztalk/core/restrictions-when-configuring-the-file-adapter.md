@@ -32,9 +32,9 @@ The file mask is a string that specifies the type of file that the File receive 
   
 -   The file mask and file name are not case-sensitive.  
   
--   The file name cannot contain any of the following characters: \< > : / &#124; " ? * ;  
+-   The file name cannot contain any of the following characters: \< \> : / &#124; " ? * ;  
   
--   The file mask cannot contain any of the following characters: \< > : / &#124; " ; 
+-   The file mask cannot contain any of the following characters: \< \> : / &#124; " ; 
   
 -   The following reserved device names cannot be used as the name of a file: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9. In addition, any combinations of these with extensions are not allowed.  
   
@@ -114,15 +114,15 @@ The file receive location is a string that contains a path to a folder on a file
   
 -   The file path must always be absolute.  
   
--   You can specify the file path by using Universal Naming Convention (UNC) format (for example, \\\\<*server*>\\<*share*>).  
+-   You can specify the file path by using Universal Naming Convention (UNC) format (for example, \\\\<*server*\>\\<*share*\>).  
   
--   If the file path is in UNC format, the server name must not contain the following characters: ` ~ ! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< > / ? ;  
+-   If the file path is in UNC format, the server name must not contain the following characters: ` ~ ! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ? ;  
   
 -   You cannot use parent (\\..\\) and current (\\.\\) folder symbols in any part of the file path.  
   
 -   The file path is not case-sensitive.  
   
--   The file path cannot contain any of the following characters: \< > : / &#124; " ? * ;  
+-   The file path cannot contain any of the following characters: \< \> : / &#124; " ? * ;  
   
 -   You cannot use the following reserved device names in the file path: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.  
   

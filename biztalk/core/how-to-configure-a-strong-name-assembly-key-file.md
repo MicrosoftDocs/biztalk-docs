@@ -30,7 +30,7 @@ In the process of deploying a BizTalk solution, [!INCLUDE[btsVStudioNoVersion](.
   
      Example: **sn /k ErrorHandling.snk**  
   
-     A confirmation message, **Key pair written to** \<*file_name*>**.snk**`,` displays on the command line.  
+     A confirmation message, **Key pair written to** \<*file_name*\>**.snk**`,` displays on the command line.  
   
 3.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click the project and then click **Properties**.  
   

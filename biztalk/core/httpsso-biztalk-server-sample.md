@@ -61,7 +61,7 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
  For a sample that shows how to use the command-line utility ssomanage.exe to configure SSO, such as creating affiliate applications and user mappings, see [Manage (BizTalk Server Sample)](../core/manage-biztalk-server-sample.md).  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\SSO\HTTPSSO\  
+ \<*Samples Path*\>\SSO\HTTPSSO\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -97,11 +97,11 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
   
     -   **Microsoft.BizTalk.ExplorerOM**. By default, the Microsoft.BizTalk.ExplorerOM.dll file is located in the folder [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Developer Tools\\.  
   
-    -   **Microsoft.BizTalk.SSOClient.Interop**. By default, the Microsoft.BizTalk.Interop.SSOClient.dll file is located in the folder \<*ProgramFiles*>\Common Files\Enterprise Single Sign-On\\.  
+    -   **Microsoft.BizTalk.SSOClient.Interop**. By default, the Microsoft.BizTalk.Interop.SSOClient.dll file is located in the folder \<*ProgramFiles*\>\Common Files\Enterprise Single Sign-On\\.  
   
      This produces the executable file SsoSample.exe in the following folder:  
   
-     \<*Samples Path*>\SSO\HTTPSSO\bin\Debug\  
+     \<*Samples Path*\>\SSO\HTTPSSO\bin\Debug\  
   
 ## Running This Sample  
   
@@ -112,7 +112,7 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
   
 1.  Run the executable file SsoSample.exe, found in the following folder:  
   
-     \<*Samples Path*>\SSO\HTTPSSO\bin\Debug\  
+     \<*Samples Path*\>\SSO\HTTPSSO\bin\Debug\  
   
      The wizard application for this sample opens.  
   
@@ -138,7 +138,7 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
   
 8.  Review the status messages corresponding to the IIS, SSO, and BizTalk configuration being performed. You can find the code that is run during this phase in the **IisConfigurator**, **SsoConfigurator**, and **BtsConfigurator** classes defined in the file SsoSample.cs. After configuration has completed, click **Next**.  
   
-9. On the final page of the wizard application, accept the default settings for **Start browser at** (a selected check box and a text box with the URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?\<message/>), and then click **Finish**.  
+9. On the final page of the wizard application, accept the default settings for **Start browser at** (a selected check box and a text box with the URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?<message/>), and then click **Finish**.  
   
      An instance of Internet Explorer will open, and soon display the sample employee data that you added to the Employee table of the Northwinds SQL database.  
   
@@ -155,11 +155,11 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
   
 -   The first virtual directory is configured with Windows integrated authentication and corresponds to the BizTalk HTTP Receive ISAPI extension. It must be associated with the .dll file BTSHTTPReceive.dll located in the following folder:  
   
-     \<*Install Path*>\HttpReceive  
+     \<*Install Path*\>\HttpReceive  
   
 -   The second virtual directory is configured with basic authentication and simulates a back-end system that accepts a user ID and password to authenticate the user. It must be associated with one or the other of the ASPX files, ValidateUser.aspx or EmployeeData.aspx, located in the following folder:  
   
-     \<*Samples Path*>\SSO\HTTPSSO\Scripts  
+     \<*Samples Path*\>\SSO\HTTPSSO\Scripts  
   
  You can use the SsoSample.exe wizard application to configure one or more affiliate applications. For each of these affiliate applications, you can create one or more user mappings. Each of these user mappings maps a Windows user account to an account that you use to access a specific back-end system. In this sample, that account is a local Windows account that you use to authenticate with the second IIS virtual directory that is simulating a genuine back-end system.  
   
@@ -167,7 +167,7 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
   
 -   Browse directly to the following URL in Internet Explorer:  
   
-     http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?\<message/>  
+     http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?<message/>  
   
 -   Run the wizard application again, but clear all of the configuration check boxes on the first page.  
   

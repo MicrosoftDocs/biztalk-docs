@@ -26,7 +26,7 @@ The primary method of troubleshooting is tracing.
 > [!NOTE]
 >  For the trace command to function, the file tracelog.exe must be in the following directory:  
 >   
->  \<*drive*>:\Program Files\Common Files\Enterprise Single Sign-On  
+>  \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On  
   
 > [!NOTE]
 >  You can download this file from the following location: [http://go.microsoft.com/fwlink/?LinkId=59534](http://go.microsoft.com/fwlink/?LinkId=59534)  
@@ -37,7 +37,7 @@ The primary method of troubleshooting is tracing.
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **Trace –start –high** to set the tracing level to high and begin the trace.  
   

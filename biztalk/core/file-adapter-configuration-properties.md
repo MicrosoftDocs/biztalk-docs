@@ -58,7 +58,7 @@ The following table lists the configuration properties that you can set for a Fi
   
 |Property name|Type|Description|Restrictions|Comments|  
 |-------------------|----------|-----------------|------------------|--------------|  
-|Username|VT_BSTR|Specify alternative credentials when the host instance for the File adapter does not have the necessary rights to a network share.|None|Specify the username in the format \<domain>\username.|  
+|Username|VT_BSTR|Specify alternative credentials when the host instance for the File adapter does not have the necessary rights to a network share.|None|Specify the username in the format \<domain\>\username.|  
 |UseTempFileOnWrite|VT_BOOL|Specifies to use a temporary file when writing to the target folder. Once file is finished writing it is renamed to the value specified for the Filename property.|This property can only be set to -1 (true) if the CopyMode property is set to a value of 2 (Create new).<br /><br /> Valid values are:<br /><br /> -   -1 (true)<br />-   0 (false)|The default value is 0 (false).|  
 |CopyMode|VT_UI4|Define the copy mode to use when writing a message to a file|Valid values are:<br /><br /> -   0 (Append)<br />-   1 (Overwrite)<br />-   2 (Create new)|The default value is 2 (Create new).|  
 |FileName|VT_BSTR|Specify the name of the file where the file send handler writes the message.|For information about restrictions on this property, see [Restrictions on the File Mask and File Name Properties](http://msdn.microsoft.com/library/d8f5afd0-a61f-4c9b-8a57-4792e3054769).|The default value is %MessageID%.xml.|  

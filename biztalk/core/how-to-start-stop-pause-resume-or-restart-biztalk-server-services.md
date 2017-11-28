@@ -21,7 +21,7 @@ The following table lists the BizTalk Server services that you can start, stop, 
   
 |Name|Description|Startup Type|Dependencies|  
 |----------|-----------------|------------------|------------------|  
-|BizTalk Service BizTalk Group: *\<BizTalkServerApplication>*|Provides the BizTalk Server application service.|Automatic|-   Enterprise Single Sign-On (SSO) Service<br />-   Event Log<br />-   Remote Procedure Call (RPC)|  
+|BizTalk Service BizTalk Group: *\<BizTalkServerApplication\>*|Provides the BizTalk Server application service.|Automatic|-   Enterprise Single Sign-On (SSO) Service<br />-   Event Log<br />-   Remote Procedure Call (RPC)|  
 |Enterprise Single Sign-On Service|Provides single sign-on services to enterprise applications.|Automatic|With SQL Server installed locally:<br /><br /> -   COM+ System Application<br />-   Remote Procedure Call (RPC)<br />-   SQL Server (MSSQLSERVER)<br /><br /> With SQL Server installed remotely:<br /><br /> -   COM+ System Application<br />-   Remote Procedure Call (RPC)None|  
 |Rule Engine Update Service|Notifies users about the deployment or undeployment of policies.|Automatic|None|  
   

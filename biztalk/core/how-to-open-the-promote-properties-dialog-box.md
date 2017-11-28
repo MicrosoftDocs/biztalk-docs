@@ -24,7 +24,7 @@ Property promotion is managed in the **Promote Properties** dialog box. This top
   
 ### To open the Promote Properties dialog box from the Schema node  
   
-1.  In the schema tree, select the **\<Schema>** node.  
+1.  In the schema tree, select the **\<Schema\>** node.  
   
 2.  In the Properties window, click the ellipsis (**...**) button in the value field of the **Promote Properties** property.  
   

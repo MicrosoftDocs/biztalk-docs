@@ -23,7 +23,7 @@ The Add Adapter Metadata Wizard enables you to add adapter metadata to a BizTalk
   
 1.  In your [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, in Solution Explorer, right-click your project, click **Add**, and then click **Add Generated Items**.  
   
-2.  In the **Add Generated Items - \<***Project name***>** dialog box, in the **Templates** section, select **Add Adapter**, and then click **Open**.  
+2.  In the **Add Generated Items - \<***Project name***\>** dialog box, in the **Templates** section, select **Add Adapter**, and then click **Open**.  
   
 3.  In the Add Adapter Metadata Wizard, on the **Select Adapter** page, do the following.  
   

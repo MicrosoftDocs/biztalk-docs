@@ -111,7 +111,7 @@ The BAM interceptor configuraton file uses filter expressions to identify an act
 ### Data Expressions  
  Data expressions are used to define a single string data value. A data expression is any expression that is not enclosed by a `Filter` element. Data expressions are used by the `OnEvent` elements `CorrelationID`, `ContinuationToken`, `Reference`, and `Update`.  
   
- It is a common requirement to update the BAM activity database with a labeled time stamp. For example, you might want to capture the time an event starts with a string formatted as "Start: \<EventTime>". To do this, you need to use an expression similar to the following (where + represents concatenation):  
+ It is a common requirement to update the BAM activity database with a labeled time stamp. For example, you might want to capture the time an event starts with a string formatted as "Start: \<EventTime\>". To do this, you need to use an expression similar to the following (where + represents concatenation):  
   
  `"Start: " + GetContextProperty(EventTime)`  
   

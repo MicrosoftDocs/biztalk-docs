@@ -28,7 +28,7 @@ Administrators use the **get-rtawindow** command to get the duration for the spe
   
 2.  Navigate to the folder [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type **bm get-rtawindow -View:\<view name> -Activity:\<activity name> -Rta:\<RTA name>**.  
+3.  Type **bm get-rtawindow -View:\<view name\> -Activity:\<activity name\> -Rta:\<RTA name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

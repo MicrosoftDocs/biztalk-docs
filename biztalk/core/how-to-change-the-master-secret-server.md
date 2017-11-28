@@ -39,11 +39,11 @@ After you set up the master secret server and configure the SSO database, you ca
   
 5.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-6.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+6.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 7.  Restart the new Master Secret Server.  
   
-8.  Type **ssoconfig –restoreSecret \<restore file>**, where **\<restore file>** is the path and name of the file where the master secret is stored.  
+8.  Type **ssoconfig –restoreSecret \<restore file\>**, where **\<restore file\>** is the path and name of the file where the master secret is stored.  
   
      The master secret is stored in the registry at the following location:  
   
@@ -69,16 +69,16 @@ After you set up the master secret server and configure the SSO database, you ca
   
 2.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-3.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage –updatedb** \<**update file**>, where \<**update file**> is the name of the XML file you create in step 1.  
+4.  Type **ssomanage –updatedb** \<**update file**\>, where \<**update file**\> is the name of the XML file you create in step 1.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
 5.  Restart the Master Secret Server.  
   
-6.  Type **ssoconfig –restoresecret \<restore file>**, where **\<restore file>** is the path and name of the file where the master secret is stored.  
+6.  Type **ssoconfig –restoresecret \<restore file\>**, where **\<restore file\>** is the path and name of the file where the master secret is stored.  
   
      The master secret is stored in the registry at the following location:  
   

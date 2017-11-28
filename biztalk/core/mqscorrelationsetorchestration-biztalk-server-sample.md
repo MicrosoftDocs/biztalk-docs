@@ -34,7 +34,7 @@ The MQSCorrelationSetOrchestration sample demonstrates how to use the MQSeries c
  This sample illustrates a scenario in which a document that is being processed by an orchestration can be sent to an MQSeries queue (presumably for additional processing) and returned back to the running orchestration.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
+ *\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -236,7 +236,7 @@ The MQSCorrelationSetOrchestration sample demonstrates how to use the MQSeries c
   
 4.  Specify a strong name key file to sign the assembly on the project properties **Signing** page and then build the project.  
   
-5.  Use the global assembly cache tool (gacutil.exe) to load the compiled assembly into the GAC (gacutil /i \<*name of compiled dll file*>).  
+5.  Use the global assembly cache tool (gacutil.exe) to load the compiled assembly into the GAC (gacutil /i \<*name of compiled dll file*\>).  
   
 6.  Add a reference to the GetId assembly in the BizTalk project for this sample.  
   

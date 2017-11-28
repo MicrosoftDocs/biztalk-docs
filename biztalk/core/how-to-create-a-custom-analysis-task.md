@@ -26,7 +26,7 @@ The easiest way to create a custom DTS task for processing BAM data is to start 
   
 1.  Create a BAM Definition that requires an OLAP cube. For example use the Excel wizards, and leave one PivotTable® report as non-RTA view.  
   
-2.  Open the DTS package for cube processing that BAM creates. BAM creates one such package for each view, known as BAM_AN_\<*View Name*>.  
+2.  Open the DTS package for cube processing that BAM creates. BAM creates one such package for each view, known as BAM_AN_\<*View Name*\>.  
   
 3.  Open the Package in the DTS Designer and remove all steps except the first two steps and the last step. You may also want to keep the connection to the Primary Import database.  
   

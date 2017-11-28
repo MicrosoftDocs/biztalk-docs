@@ -17,9 +17,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # File Inventory for the Business Process Management Solution
-This section lists subdirectories and source files for the Business Process Management solution. The default installation directory for the Business Process Management solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM. Descriptions before the following tables replace this path with \<Install Directory>.  
+This section lists subdirectories and source files for the Business Process Management solution. The default installation directory for the Business Process Management solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM. Descriptions before the following tables replace this path with \<Install Directory\>.  
   
- Files in \<Install Directory>  
+ Files in \<Install Directory\>  
   
 |File|Description|  
 |----------|-----------------|  
@@ -29,14 +29,14 @@ This section lists subdirectories and source files for the Business Process Mana
 |ReplacePKToken.wsf|Windows Script File for the ReplacePKToken VBScript.|  
 |SetupBPM.bat|Creates a public key, updates references to the public key, and compiles the solution. For information about deploying the solution, see [Deploying the Business Process Management Solution](../core/deploying-the-business-process-management-solution.md).|  
   
- Files in \<Install Directory>\BAM  
+ Files in \<Install Directory\>\BAM  
   
 |File|Description|  
 |----------|-----------------|  
 |BAMServiceOrder.xls|Excel spreadsheet for the BAM data.|  
 |BAMServiceOrder.xml|Schema defining the types of the BAM data items.|  
   
- Files in \<Install Directory>\Bindings  
+ Files in \<Install Directory\>\Bindings  
   
 |File|Description|  
 |----------|-----------------|  
@@ -47,7 +47,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |OrderBrokerAppBindings-test.xml|Binding file for the test version of the **OrderBrokerApp** application.|  
 |OrderBrokerAppBindings.xml|Binding file for the **OrderBrokerApp** application.|  
   
- Files in \<Install Directory>\CableProvisioningSystemClient  
+ Files in \<Install Directory\>\CableProvisioningSystemClient  
   
 |File|Description|  
 |----------|-----------------|  
@@ -56,7 +56,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |CPSClient.cs|Source for the client. Includes the **OrderHandlerWrapper** class code.|  
 |OrderException.cs|C# file for the class defining the **OrderException**.|  
   
- Files in \<Install Directory>\CableProvisioningSystemServer  
+ Files in \<Install Directory\>\CableProvisioningSystemServer  
   
 |File|Description|  
 |----------|-----------------|  
@@ -65,7 +65,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |CableProvisioningSystemServer.csproj.user|Visual Studio Project User Options file|  
 |CPSServer.cs|Source for the server.|  
   
- Files in \<Install Directory>\CSRWebApp  
+ Files in \<Install Directory\>\CSRWebApp  
   
 |File|Description|  
 |----------|-----------------|  
@@ -73,7 +73,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |CSRMainForm.aspx.cs|C# code behind form.|  
 |Web.Config|Configuration file for the form.|  
   
- Files in \<Install Directory>\CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker  
+ Files in \<Install Directory\>\CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker  
   
 |File|Description|  
 |----------|-----------------|  
@@ -81,7 +81,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |orderbrokerorch_orderport.discomap|Generated file.|  
 |orderbrokerorch_orderport.wsdl|WSDL file for the **OrderBroker** presented as a web service.|  
   
- Files in \<Install Directory>\FacilitiesSimulator  
+ Files in \<Install Directory\>\FacilitiesSimulator  
   
 |File|Description|  
 |----------|-----------------|  
@@ -90,14 +90,14 @@ This section lists subdirectories and source files for the Business Process Mana
 |FacilitiesSimulatorForm.cs|C# code for the facilities simulator.|  
 |FacilitiesSimulatorForm.resx|Resource file.|  
   
- Files in \<Install Directory>\HistoryDB  
+ Files in \<Install Directory\>\HistoryDB  
   
 |File|Description|  
 |----------|-----------------|  
 |CreateDatabase.cmd|File to drive the SQL file that creates the history database.|  
 |SouthridgeVideoHistory.sql|SQL commands to create the history database.|  
   
- Files in \<Install Directory>\IOperationsSystem  
+ Files in \<Install Directory\>\IOperationsSystem  
   
 |File|Description|  
 |----------|-----------------|  
@@ -105,7 +105,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |IOperationsSystem.csproj|C# project file.|  
 |IOperationsSystem.csproj.user|Visual Studio Project User Options file|  
   
- Files in \<Install Directory>\IOrderHandler  
+ Files in \<Install Directory\>\IOrderHandler  
   
 |File|Description|  
 |----------|-----------------|  
@@ -113,14 +113,14 @@ This section lists subdirectories and source files for the Business Process Mana
 |IOrderHandler.cs|Interface definition for the **OrderHandler**.|  
 |IOrderHandler.csproj|C# project file.|  
   
- Files in \<Install Directory>\Maps  
+ Files in \<Install Directory\>\Maps  
   
 |File|Description|  
 |----------|-----------------|  
 |Maps.btproj|BizTalk project file.|  
 |Order_To_SQLUpdateStatus.btm|Map to convert an order to message to update status.|  
   
- Files in \<Install Directory>\MessagingSchemas  
+ Files in \<Install Directory\>\MessagingSchemas  
   
 |File|Description|  
 |----------|-----------------|  
@@ -130,7 +130,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |OrderStatusEnvelope.xsd|Schema defining the envelope for an order status message.|  
 |SQLUpdateStatus.xsd|Schema defining the envelope for a SQL status update message.|  
   
- Files in \<Install Directory>\OperationsClient  
+ Files in \<Install Directory\>\OperationsClient  
   
 |File|Description|  
 |----------|-----------------|  
@@ -139,14 +139,14 @@ This section lists subdirectories and source files for the Business Process Mana
 |OpsClient.cs|C# code for the operations client.|  
 |OpsExceptions.cs|C# code defining the operations exception.|  
   
- Files in \<Install Directory>\OperationsHandler  
+ Files in \<Install Directory\>\OperationsHandler  
   
 |File|Description|  
 |----------|-----------------|  
 |OperationsHandler.csproj|C# project file for the operations handler.|  
 |OpsHandler.cs|C# code for the **OpsHandler**. Used by the **OpsClient** to make requests of the operations system.|  
   
- Files in \<Install Directory>\OperationsServer  
+ Files in \<Install Directory\>\OperationsServer  
   
 |File|Description|  
 |----------|-----------------|  
@@ -154,7 +154,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |OperationsServer.csproj|C# project file for the operations server.|  
 |OpsServer.cs|C# code for the operations server that provides instances of the **OpsHandler** object.|  
   
- Files in \<Install Directory>\OpsAdapter  
+ Files in \<Install Directory\>\OpsAdapter  
   
 |File|Description|  
 |----------|-----------------|  
@@ -162,14 +162,14 @@ This section lists subdirectories and source files for the Business Process Mana
 |Register_Ops_Adapter.vbs|VBScript to register the Ops adapter.|  
 |SetupOpsAdapter.bat|Batch file to setup the Ops adapter.|  
   
- Files in \<Install Directory>\OpsAdapter\IOpsAIC  
+ Files in \<Install Directory\>\OpsAdapter\IOpsAIC  
   
 |File|Description|  
 |----------|-----------------|  
 |IOpsAIC.cs|C# code file for the interface defining the **Initialize** and **Execute** methods called by the Ops adapter.|  
 |IOpsAIC.csproj|C# project file.|  
   
- Files in \<Install Directory>\OpsAdapter\OpsAdapterMgmt  
+ Files in \<Install Directory\>\OpsAdapter\OpsAdapterMgmt  
   
 |File|Description|  
 |----------|-----------------|  
@@ -179,7 +179,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |TransmitHandler.xsd|C# source file for the Ops adapter.|  
 |TransmitLocation.xsd|C# source file for the Ops adapter.|  
   
- Files in \<Install Directory>\OpsAdapter\OpsTxAdapter  
+ Files in \<Install Directory\>\OpsAdapter\OpsTxAdapter  
   
 |File|Description|  
 |----------|-----------------|  
@@ -190,7 +190,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |OpsTransmitter.cs|C# source file for the Ops adapter.|  
 |OpsTxAdapter.csproj|C# project file.|  
   
- Files in \<Install Directory>\Orchestrations\CableOrderActions  
+ Files in \<Install Directory\>\Orchestrations\CableOrderActions  
   
 |File|Description|  
 |----------|-----------------|  
@@ -202,28 +202,28 @@ This section lists subdirectories and source files for the Business Process Mana
 |Complete.odx|The **Complete** orchestration used by the order processing stages.|  
 |Validate.odx|The **Validate** orchestration used by the order processing stages.|  
   
- Files in \<Install Directory>\Orchestrations\CableOrderStage1  
+ Files in \<Install Directory\>\Orchestrations\CableOrderStage1  
   
 |File|Description|  
 |----------|-----------------|  
 |CableOrder1.odx|Orchestration for the first order processing stage.|  
 |CableOrderStage1.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\Orchestrations\CableOrderStage2  
+ Files in \<Install Directory\>\Orchestrations\CableOrderStage2  
   
 |File|Description|  
 |----------|-----------------|  
 |CableOrder2.odx|Orchestration for the second order processing stage.|  
 |CableOrderStage2.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\Orchestrations\OrderBroker  
+ Files in \<Install Directory\>\Orchestrations\OrderBroker  
   
 |File|Description|  
 |----------|-----------------|  
 |OrderBroker.btproj|BizTalk project file.|  
 |OrderBroker.odx|The **OrderBroker** orchestration.|  
   
- Files in \<Install Directory>\Orchestrations\OrderManager  
+ Files in \<Install Directory\>\Orchestrations\OrderManager  
   
 |File|Description|  
 |----------|-----------------|  
@@ -234,7 +234,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |OrderManager.btproj|BizTalk project file.|  
 |OrderManager.odx|The **OrderManager** orchestration.|  
   
- Files in \<Install Directory>\OrderBrokerMaps  
+ Files in \<Install Directory\>\OrderBrokerMaps  
   
 |File|Description|  
 |----------|-----------------|  
@@ -244,7 +244,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |OrderBrokerMaps.btproj|BizTalk project file.|  
 |Order_To_CSR_OrderRequest.btm|Map to convert an order message to a customer service order request.|  
   
- Files in \<Install Directory>\OrderBrokerSchemas  
+ Files in \<Install Directory\>\OrderBrokerSchemas  
   
 |File|Description|  
 |----------|-----------------|  
@@ -253,7 +253,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |Servicing_OrderRequest.xsd|Schema defining the message sent to the servicing system.|  
 |SQLHistoryInsert.xsd|Schema for the SQL history message.|  
   
- Files in \<Install Directory>\OrderBroker_Proxy  
+ Files in \<Install Directory\>\OrderBroker_Proxy  
   
 |File|Description|  
 |----------|-----------------|  
@@ -262,34 +262,34 @@ This section lists subdirectories and source files for the Business Process Mana
 |OrderBrokerOrch_OrderPort.asmx|Generated file.|  
 |Web.config|Generated file.|  
   
- Files in \<Install Directory>\OrderBroker_Proxy\App_Code  
+ Files in \<Install Directory\>\OrderBroker_Proxy\App_Code  
   
 |File|Description|  
 |----------|-----------------|  
 |DataTypes.cs|Generated file.|  
 |OrderBrokerOrch_OrderPort.asmx.cs|Generated file.|  
   
- Files in \<Install Directory>\OrderHandler  
+ Files in \<Install Directory\>\OrderHandler  
   
 |File|Description|  
 |----------|-----------------|  
 |OrderHandler.cs|C# code for the **OrderHandler** object.|  
 |OrderHandler.csproj|C# project file.|  
   
- Files in \<Install Directory>\Rules  
+ Files in \<Install Directory\>\Rules  
   
 |File|Description|  
 |----------|-----------------|  
 |DecodeAndValidateOrderRules.xml|Rules file for the Business Rules Engine.|  
   
- Files in \<Install Directory>\SampleMessages  
+ Files in \<Install Directory\>\SampleMessages  
   
 |File|Description|  
 |----------|-----------------|  
 |CSR_OrderRequest.xml|Sample customer service order request.|  
 |OrderEnvelope.xml|Sample order envelope.|  
   
- Files in \<Install Directory>\SchemaClasses  
+ Files in \<Install Directory\>\SchemaClasses  
   
 |File|Description|  
 |----------|-----------------|  
@@ -297,7 +297,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |InternalMessages.cs|C# code for classes defining messages used to communicate among components of the solution.|  
 |SchemaClasses.csproj|C# project file.|  
   
- Files in \<Install Directory>\Schemas  
+ Files in \<Install Directory\>\Schemas  
   
 |File|Description|  
 |----------|-----------------|  
@@ -305,7 +305,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |OrderPropertySchema.xsd|Promoted properties schema for the order message.|  
 |Schemas.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\Scripts  
+ Files in \<Install Directory\>\Scripts  
   
 |File|Description|  
 |----------|-----------------|  
@@ -318,7 +318,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |regac.bat|Batch file to register assemblies in the global assembly cache (GAC).|  
 |SouthridgeVideoSSOConfiguration.xml|File containing the initial SSO configuration values.|  
   
- Files in \<Install Directory>\ServiceLevelTracking  
+ Files in \<Install Directory\>\ServiceLevelTracking  
   
 |File|Description|  
 |----------|-----------------|  
@@ -328,7 +328,7 @@ This section lists subdirectories and source files for the Business Process Mana
 |ServiceLevelTracking.cs|C# code to define the abstract base class for activities.|  
 |ServiceLevelTracking.csproj|C# project file.|  
   
- Files in \<Install Directory>\Utilities  
+ Files in \<Install Directory\>\Utilities  
   
 |File|Description|  
 |----------|-----------------|  

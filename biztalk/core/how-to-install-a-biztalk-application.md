@@ -87,13 +87,13 @@ This topic describes how to install an application on the local computer by doub
   
      When the virtual directory is created on the target computer it will point to one of the following physical directories:  
   
-     \<*installation drive*>\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive  
+     \<*installation drive*\>\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive  
   
      \- **or** –  
   
-     \<*installation drive*>\Program Files (x86)\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive  
+     \<*installation drive*\>\Program Files (x86)\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive  
   
-     If the BizTalk HTTP receive ISAPI extension BTSHTTPReceive.dll is not located in the specified directory or if the target computer is running a 64 bit operating system then you must change the Local path: designation of the virtual directory to point to the physical directory that contains the BizTalk HTTP receive ISAPI extension file. For example, if the target machine is running the 64 bit version of Windows Vista, then the Local path: designation of the virtual directory should be changed to \<installation drive>\Program Files (x86)\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive64.  
+     If the BizTalk HTTP receive ISAPI extension BTSHTTPReceive.dll is not located in the specified directory or if the target computer is running a 64 bit operating system then you must change the Local path: designation of the virtual directory to point to the physical directory that contains the BizTalk HTTP receive ISAPI extension file. For example, if the target machine is running the 64 bit version of Windows Vista, then the Local path: designation of the virtual directory should be changed to \<installation drive\>\Program Files (x86)\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive64.  
   
 ## To install a BizTalk application  
   

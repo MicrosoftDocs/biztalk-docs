@@ -32,7 +32,7 @@ The HTTPRequestResponse sample demonstrates how to use the Microsoft [!INCLUDE[b
  The ASP.NET application receives the XML PO acknowledgement response and refreshes the Web form with status information extracted from the response.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\AdaptersUsage\HTTPRequestResponse\  
+ *\<Samples Path\>*\AdaptersUsage\HTTPRequestResponse\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -53,7 +53,7 @@ The HTTPRequestResponse sample demonstrates how to use the Microsoft [!INCLUDE[b
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersUsage\HTTPRequestResponse  
+     \<*Samples Path*\>\AdaptersUsage\HTTPRequestResponse  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -73,7 +73,7 @@ The HTTPRequestResponse sample demonstrates how to use the Microsoft [!INCLUDE[b
         > [!IMPORTANT]
         >  You must change the sample code that implements the Web application (Default.aspx.cs) to reflect your environment:  
         >   
-        >  http://\<*server name*>/\<*virtual dir*>/BTSHTTPReceive.dll where `<servername>` is the name of the Web server you are posting to, and `<`*virtual dir*`>` is the virtual directory where this file resides.  
+        >  http://\<*server name*\>/\<*virtual dir*\>/BTSHTTPReceive.dll where `<servername>` is the name of the Web server you are posting to, and `<`*virtual dir*`>` is the virtual directory where this file resides.  
   
         > [!NOTE]
         >  You should confirm that BizTalk did not report any errors during the build and initialization process before attempting to run this sample.  

@@ -32,7 +32,7 @@ The HTTPSolicitResponse sample demonstrates how to create a Microsoft [!INCLUDE[
 4.  The orchestration receives the result as XML in an HTTP response, and writes that result to an .xml file in a specific folder.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\AdaptersUsage\HTTPSolicitResponse  
+ \<*Samples Path*\>\AdaptersUsage\HTTPSolicitResponse  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -57,15 +57,15 @@ The HTTPSolicitResponse sample demonstrates how to create a Microsoft [!INCLUDE[
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersUsage\HTTPSolicitResponse  
+     \<*Samples Path*\>\AdaptersUsage\HTTPSolicitResponse  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input and output folders for this sample:  
   
-         \<*Samples Path*>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
+         \<*Samples Path*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
   
-         \<*Samples Path*>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
+         \<*Samples Path*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
   
     -   Compiles and configures the multiplier ASP.NET application used by this sample.  
   

@@ -17,7 +17,7 @@ manager: "anneta"
 # Node Name Property
 As you use BizTalk Editor to insert nodes into the schema tree, some nodes are meant to be renamed and others are not. Essentially, you can and should rename **Record** nodes, **Field Element** nodes, and **Field Attribute** nodes. The names that you give to these nodes will become the names of the XML elements and attributes in the message that the schema defines.  
   
- In the schema tree, the nodes that you cannot rename are shown in the form of XML tags; that is, with the less than (\<) and greater than (>) signs. For example, the **Schema** node, **Choice Group** nodes, **Any Element** nodes, and **Any Attribute** nodes are represented in the schema tree with the names \<Schema>, \<Choice>, \<Any>, and \<AnyAttribute>, respectively. The **Node Name** property for such nodes is read-only.  
+ In the schema tree, the nodes that you cannot rename are shown in the form of XML tags; that is, with the less than (\<) and greater than (\>) signs. For example, the **Schema** node, **Choice Group** nodes, **Any Element** nodes, and **Any Attribute** nodes are represented in the schema tree with the names \<Schema\>, \<Choice\>, \<Any\>, and \<AnyAttribute\>, respectively. The **Node Name** property for such nodes is read-only.  
   
  Within a given **Record** node, you cannot have two **Field Attribute** nodes with the same name. However, you can have more than one **Field Element** node or **Record** node with the same name as child nodes of the same **Record** node, as long as they all have the same data type (as specified by their **Data Type** property for **Field Element** nodes or their **Data Structure Type** for **Record** nodes).  
   

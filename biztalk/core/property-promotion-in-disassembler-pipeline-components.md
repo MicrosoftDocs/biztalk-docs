@@ -28,7 +28,7 @@ Property promotion is a process by which a property value is extracted from an X
   
  A custom pipeline component can promote multivalued (that is, arrayed) properties. Messages that contain multivalued properties are only supported in content-based routing (CBR) scenarios; they cannot be routed to orchestrations or be used for tracking purposes.  
   
- The XML Disassembler does not promote default or fixed values for an empty element if it has a closing tag. For example, \<field1> is not promoted in the following XML.  
+ The XML Disassembler does not promote default or fixed values for an empty element if it has a closing tag. For example, \<field1\> is not promoted in the following XML.  
   
 ```  
 <document>  

@@ -31,7 +31,7 @@ The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to
 >  Orchestrations using this technique may experience problems if the message from the MQSeries Server arrives before the correlation identifier. Make sure that you design your orchestrations to allow enough time for the MQSeries Server to return the correlation identifier. This example does not consider this possible race condition.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
+ *\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
   
  The following table shows the files in this sample and describes their purpose.  
   

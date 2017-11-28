@@ -36,7 +36,7 @@ The Set Send Handler Property sample demonstrates how to set the XML configurati
 ## Where to Find This Sample  
  The sample files are located in the following SDK location:  
   
- \<*Samples Path*>\Admin\WMI\Set Send Handler Property\  
+ \<*Samples Path*\>\Admin\WMI\Set Send Handler Property\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -53,15 +53,15 @@ The Set Send Handler Property sample demonstrates how to set the XML configurati
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\WMI\Set Send Handler Property\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Set Send Handler Property\VBScript\  
   
 2.  Run the file ConfigureSMTP.vbs using the cscript program, passing the following command-line argument:  
   
-    -   **\<**   
-         ***SMTPServerName* >.** The name of the SMTP server that will be used to send mail.  
+    -   **\<**
+         ***SMTPServerName* \>.** The name of the SMTP server that will be used to send mail.  
   
-    -   **\<**   
-         ***FromEmailAddress* >.** An e-mail address that will be used as the From address.  
+    -   **\<**
+         ***FromEmailAddress* \>.** An e-mail address that will be used as the From address.  
   
          For example:  
   

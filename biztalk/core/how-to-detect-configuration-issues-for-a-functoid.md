@@ -34,7 +34,7 @@ While working with maps, you might encounter issues with configuration of a func
   
          ![Error detection in functoid configuration](../core/media/errordetectionfunctoid.gif "ErrorDetectionFunctoid")  
   
-    -   Double-click the functoid. The **Configure \<Functoid> Functoid** dialog box displays warning icons against the input parameters. This indicates that the input parameters of the selected functoid are not configured.  
+    -   Double-click the functoid. The **Configure \<Functoid\> Functoid** dialog box displays warning icons against the input parameters. This indicates that the input parameters of the selected functoid are not configured.  
   
          The following figure displays error information about input parameters for the “Addition” functoid.  
   

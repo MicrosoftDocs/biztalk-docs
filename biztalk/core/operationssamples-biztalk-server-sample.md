@@ -72,7 +72,7 @@ foreach (BizTalkMessage msg in messages)
 ## Where to Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\OperationsOM\OperationsSamples\  
+ \<*Samples Path*\>\Admin\OperationsOM\OperationsSamples\  
   
  The following table shows the files in this sample and describes their purpose.  
   

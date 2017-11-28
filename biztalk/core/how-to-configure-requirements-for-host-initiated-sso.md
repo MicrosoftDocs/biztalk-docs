@@ -62,7 +62,7 @@ Although Enterprise SSO and host initiated SSO have certain aspects in common, c
   
 3.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-4.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+4.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 5.  Type **setpsn -a hipsvc\computername.domain.com domain\hissvc**  
   

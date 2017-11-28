@@ -46,7 +46,7 @@ You can modify an existing EDI schema that is shipped in [!INCLUDE[btsBizTalkSer
 |Add trigger fields to a HIPAA document|You can allow the EDI disassembler to create unique XML records for a segment of your HIPAA document, based on a qualifying element known as a trigger field. You must specify the attributes that describe the segment and the trigger value so a unique XML record is created for the segment. For more information, see [HIPAA Schema Trigger Field Annotations](../core/hipaa-schema-trigger-field-annotations.md).|  
 |Add a segment to an X12 transaction set|When you add a new segment to an X12 transaction set, the first three characters of the segment name are used as the segment identifier. Hence, we recommend that you name a segment such that the first three characters are unique.|  
 |Add a loop to a HIPAA transaction set|When you add a new loop to a HIPAA transaction set, we recommend naming the loop to include “Loop” within the name. An example format for a loop is “TS837_2010AB_Loop”. **Note:**  The first segment in a loop is mandatory (minOccurs of the segment must be equal to 1) in order to avoid ambiguity.|  
-|Add an ‘any order loop’ to a HIPAA transaction set|When a transaction set has equivalent segments with different semantics, you must define them in a SubLoop. A SubLoop with XML annotation of \<xs:all> allows equivalent segments to occur in any order.<br /><br /> We recommend that you name an ‘any order loop’ to include “SubLoop” in the loop name. An example format is “TS837Q1_2010A_SubLoop” **Note:**  The elements of an any order loop must only occur once within the loop. The siblings of a SubLoop must have a maxOccurs set to 1, in order to avoid ambiguity.|  
+|Add an ‘any order loop’ to a HIPAA transaction set|When a transaction set has equivalent segments with different semantics, you must define them in a SubLoop. A SubLoop with XML annotation of \<xs:all\> allows equivalent segments to occur in any order.<br /><br /> We recommend that you name an ‘any order loop’ to include “SubLoop” in the loop name. An example format is “TS837Q1_2010A_SubLoop” **Note:**  The elements of an any order loop must only occur once within the loop. The siblings of a SubLoop must have a maxOccurs set to 1, in order to avoid ambiguity.|  
   
 ### To modify an existing EDI schema in BizTalk Editor  
   
@@ -66,14 +66,14 @@ You can modify an existing EDI schema that is shipped in [!INCLUDE[btsBizTalkSer
   
 5.  To add a custom record to the schema, right-click a record node in the console tree of Schema Editor, point to **Insert Schema Node**, and then click **Child Record**. Name the record, and then drag the record to the appropriate position in the schema. Add at least one data element to the record. Set the properties for the custom record as required.  
   
-6.  After making the desired changes to the schema, you can change the target namespace that applies to the schema property by clicking the root node (\<Schema>) and then changing the **Target Namespace** property.  
+6.  After making the desired changes to the schema, you can change the target namespace that applies to the schema property by clicking the root node (\<Schema\>) and then changing the **Target Namespace** property.  
   
 7.  Save the schema.  
   
 8.  Validate the schema by right-clicking the schema in Solution Explorer and clicking **Validate Schema**.  
   
     > [!NOTE]
-    >  The **Validate Schema** command will validate the EDI schema because the **Schema Editor Extension** property of the root node (\<Schema>) is set to **EDI Schema Editor Extension**.  
+    >  The **Validate Schema** command will validate the EDI schema because the **Schema Editor Extension** property of the root node (\<Schema\>) is set to **EDI Schema Editor Extension**.  
   
 ### To modify annotation properties in an existing EDI schema  
   

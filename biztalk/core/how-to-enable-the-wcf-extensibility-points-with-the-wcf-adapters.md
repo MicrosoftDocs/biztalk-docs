@@ -34,7 +34,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 4.  Type the following command:  
   
-     **gacutil.exe /if "\<** *path to the assembly .dll file* **>"**  
+     **gacutil.exe /if "\<** *path to the assembly .dll file* **\>"**  
   
 5.  This installs the assembly to the GAC, overwriting any existing assembly that has the same assembly name.  
   
@@ -49,7 +49,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 1.  At a command prompt, go to the %FrameworkDir%\v4.X.XXXXX\CONFIG folder, and then open the **machine.config** file by using Notepad.  
   
-2.  In Notepad, if the machine.config file does not have the **\<system.serverModel>\\<extensions\>** elements, add those elements inside the **\<configuration>** element of the machine.config file, and then add the **\<bindingExtensions>** element for a WCF binding extension inside the **\<system.serverModel>\\<extensions\>** elements. For example, to enable a custom binding extension, netHttpBinding, add the following code inside the **\<configuration>** element of the machine.config file:  
+2.  In Notepad, if the machine.config file does not have the **\<system.serverModel\>\\<extensions\>** elements, add those elements inside the **\<configuration\>** element of the machine.config file, and then add the **\<bindingExtensions\>** element for a WCF binding extension inside the **\<system.serverModel\>\\<extensions\>** elements. For example, to enable a custom binding extension, netHttpBinding, add the following code inside the **\<configuration\>** element of the machine.config file:  
   
     ```  
     <system.serviceModel>  
@@ -83,11 +83,11 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 3.  If you use the WCF-CustomIsolated adapter, in the IIS Management console, restart the application pool associated with the WCF receive location.  
   
-4.  If you want to configure a receive location to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application>*, expand **Receive Locations**, and then in the right pane, double-click *\<Receive location>*.  
+4.  If you want to configure a receive location to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application\>*, expand **Receive Locations**, and then in the right pane, double-click *\<Receive location\>*.  
   
     -   In the **Receive Location Properties** dialog box, in the **Type** drop-down list, select **WCF-Custom** or **WCF-CustomIsolated** depending on the WCF adapter that you want to use, and then click **Configure**.  
   
-5.  If you want to configure a send port to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application>*, expand **Send Ports**, and then in the right pane, double-click *\<Send port>*.  
+5.  If you want to configure a send port to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application\>*, expand **Send Ports**, and then in the right pane, double-click *\<Send port\>*.  
   
     -   In the **Send Port Properties** dialog box, in the **Type** drop-down list, select **WCF-Custom**, and then click **Configure**.  
   
@@ -99,7 +99,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 1.  At a command prompt, go to the %FrameworkDir%\v4.X.XXXXX\CONFIG folder, and then open the **machine.config** file by using Notepad.  
   
-2.  In Notepad, if the machine.config file does not have the **\<system.serverModel>\\<extensions\>** elements, add those elements inside the **\<configuration>** element of the machine.config file, and then add the **\<bindingElementExtensions>** element for a WCF binding element extension inside the **\<system.serverModel>\\<extensions\>** elements. For example, to enable a custom binding element extension, droppingInterceptor, add the following code inside the **\<configuration>** element of the machine.config file:  
+2.  In Notepad, if the machine.config file does not have the **\<system.serverModel\>\\<extensions\>** elements, add those elements inside the **\<configuration\>** element of the machine.config file, and then add the **\<bindingElementExtensions\>** element for a WCF binding element extension inside the **\<system.serverModel\>\\<extensions\>** elements. For example, to enable a custom binding element extension, droppingInterceptor, add the following code inside the **\<configuration\>** element of the machine.config file:  
   
     ```  
     <system.serviceModel>  
@@ -133,11 +133,11 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 3.  If you use the WCF-CustomIsolated adapter, in the IIS Management console, restart the application pool associated with the WCF receive location.  
   
-4.  If you want to configure a receive location to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application>*, expand **Receive Locations**, and then in the right pane, double-click *\<Receive location>*.  
+4.  If you want to configure a receive location to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application\>*, expand **Receive Locations**, and then in the right pane, double-click *\<Receive location\>*.  
   
     -   In the **Receive Location Properties** dialog box, in the **Type** drop-down list, select **WCF-Custom** or **WCF-CustomIsolated** depending on the WCF adapter that you want to use, and then click **Configure**.  
   
-5.  If you want to configure a send port to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application>*, expand **Send Ports**, and then in the right pane, double-click *\<Send port>*.  
+5.  If you want to configure a send port to use a WCF extensibility point, in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Group**, expand *\<BizTalk application\>*, expand **Send Ports**, and then in the right pane, double-click *\<Send port\>*.  
   
     -   In the **Send Port Properties** dialog box, in the **Type** drop-down list, select **WCF-Custom**, and then click **Configure**.  
   
@@ -162,7 +162,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 1.  At a command prompt, go to the %FrameworkDir%\v4.X.XXXXX\CONFIG folder, and then open the **machine.config** file by using Notepad.  
   
-2.  In Notepad, if the machine.config file does not have the **\<system.serverModel>\\<extensions\>** elements, add those elements inside the **\<configuration>** element of the machine.config file, and then add the **\<behaviorExtensions>** element for a WCF behavior extension inside the **\<system.serverModel>\\<extensions\>** elements. For example, To enable a custom behavior extension, schemaValidator, add the following code inside the **\<configuration>** element of the machine.config file:  
+2.  In Notepad, if the machine.config file does not have the **\<system.serverModel\>\\<extensions\>** elements, add those elements inside the **\<configuration\>** element of the machine.config file, and then add the **\<behaviorExtensions\>** element for a WCF behavior extension inside the **\<system.serverModel\>\\<extensions\>** elements. For example, To enable a custom behavior extension, schemaValidator, add the following code inside the **\<configuration\>** element of the machine.config file:  
   
     ```  
     <system.serviceModel>  
@@ -196,11 +196,11 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 3.  If you use the WCF-CustomIsolated adapter, in the IIS Management console, restart the application pool associated with the WCF receive location.  
   
-4.  If you want to configure a receive location to use a WCF extensibility point, in the BizTalk Administration console, expand **BizTalk Group**, expand *\<BizTalk application>*, expand **Receive Locations**, and then in the right pane, double-click *\<Receive location>*.  
+4.  If you want to configure a receive location to use a WCF extensibility point, in the BizTalk Administration console, expand **BizTalk Group**, expand *\<BizTalk application\>*, expand **Receive Locations**, and then in the right pane, double-click *\<Receive location\>*.  
   
     -   In the **Receive Location Properties** dialog box, in the **Type** drop-down list, select **WCF-Custom** or **WCF-CustomIsolated** depending on the WCF adapter that you want to use, and then click **Configure**.  
   
-5.  If you want to configure a send port to use a WCF extensibility point, in the BizTalk Administration console, expand **BizTalk Group**, expand *\<BizTalk application>*, expand **Send Ports**, and then in the right pane, double-click *\<Send port>*.  
+5.  If you want to configure a send port to use a WCF extensibility point, in the BizTalk Administration console, expand **BizTalk Group**, expand *\<BizTalk application\>*, expand **Send Ports**, and then in the right pane, double-click *\<Send port\>*.  
   
     -   In the **Send Port Properties** dialog box, in the **Type** drop-down list, select **WCF-Custom**, and then click **Configure**.  
   

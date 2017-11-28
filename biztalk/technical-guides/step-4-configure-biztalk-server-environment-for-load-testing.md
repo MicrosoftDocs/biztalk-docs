@@ -19,7 +19,7 @@ This topic provides information for creating the BizTalk Server Receive Location
 ## Configure BizTalk Server Environment for Load Tests  
  As described in the topic [Step 3: Create a Load Test to Perform Multiple Unit Tests Simultaneously](~/technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md), the load test **BTS_Messaging_Step** is configured to execute the unit tests **BTSMessaging** and **BTSMessaging2**. In turn, these unit tests load a copy of the message C:\Projects\LoadTest\BTSLoad\TestMessages\TestXmlDocument.xml and send it to the endpoints **BTSMessagingEP** and **BTSMessagingEP2** as defined in the following section of the project’s application configuration (app.config) file:  
   
- \<\!-- BTSMessagingEP -->         \<endpoint address="net.tcp://*BizTalk Server Computer*:8123/btsloadtest" binding="netTcpBinding" bindingConfiguration="netTcpBinding" contract="System.ServiceModel.Channels.IRequestChannel" name="BTSMessagingEP" />         \<endpoint address="net.tcp://*BizTalk Server Computer*:8123/btsloadtest" binding="netTcpBinding" bindingConfiguration="netTcpBinding" contract="System.ServiceModel.Channels.IRequestChannel" name="BTSMessagingEP2" />  
+ \<\!-- BTSMessagingEP --\>         \<endpoint address="net.tcp://*BizTalk Server Computer*:8123/btsloadtest" binding="netTcpBinding" bindingConfiguration="netTcpBinding" contract="System.ServiceModel.Channels.IRequestChannel" name="BTSMessagingEP" /\>         \<endpoint address="net.tcp://*BizTalk Server Computer*:8123/btsloadtest" binding="netTcpBinding" bindingConfiguration="netTcpBinding" contract="System.ServiceModel.Channels.IRequestChannel" name="BTSMessagingEP2" /\>  
   
 > [!NOTE]
 >  As noted earlier, *BizTalk Server Computer* is a placeholder for the actual BizTalk Server computer names or, in the case that the BizTalk Server Computers are configured as members of a Network Load Balancing (NLB) cluster; *BizTalk Server Computer* is a placeholder for the name or address of the corresponding NLB virtual server.  
@@ -176,7 +176,7 @@ This topic provides information for creating the BizTalk Server Receive Location
   
  Then, start IndigoService.exe by double-clicking on StartIndigoService.bat. IndigoService.exe consumes messages sent to the endpoint specified in the IndigoService.exe.config file:  
   
- \<endpoint address="net.tcp://localhost:2001/TCP1"             binding="netTcpBinding"             bindingConfiguration="Binding1"             name="endpoint1"             contract="IndigoService.IServiceTwoWaysVoidNonTransactional" />  
+ \<endpoint address="net.tcp://localhost:2001/TCP1"             binding="netTcpBinding"             bindingConfiguration="Binding1"             name="endpoint1"             contract="IndigoService.IServiceTwoWaysVoidNonTransactional" /\>  
   
  This is why the Send Port Address is configured with an Address (URI) of net.tcp://*\<Computer Name\>*:2001/TCP1  
   

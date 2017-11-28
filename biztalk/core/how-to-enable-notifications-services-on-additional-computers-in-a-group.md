@@ -49,7 +49,7 @@ When running BAM in a multi-computer environment, you must enable Notification S
   
 1.  On the computer in the additional group, click **Start**, point to **All Programs**, click **Microsoft SQL Server 2005**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
   
-2.  At the command prompt, type: **nscontrol register -name \<NS Prefix name chosen at config> -server \<ns db sql server>**. This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service machine by nscontrol).  
+2.  At the command prompt, type: **nscontrol register -name \<NS Prefix name chosen at config\> -server \<ns db sql server\>**. This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service machine by nscontrol).  
   
 ## See Also  
  [Changing BAM Runtime Settings](../core/changing-bam-runtime-settings.md)   

@@ -22,13 +22,13 @@ The data about individual activity instances is available for queries in a dynam
   
  The name of this view is  
   
- **bam_\<** *ViewName* **>_\<** *ActivityName* **>_View**  
+ **bam_\<** *ViewName* **\>_\<** *ActivityName* **\>_View**  
   
  Where  
   
- **\<** *ViewName* **>** is the Name Attribute of the View element in the BAM Definition XML, which is the same as the View Name entered in the related Microsoft Excel wizards.  
+ **\<** *ViewName* **\>** is the Name Attribute of the View element in the BAM Definition XML, which is the same as the View Name entered in the related Microsoft Excel wizards.  
   
- **\<** *ActivityName* **>** is the Name Attribute of the Activity element in the BAM Definition XML, which is the same as the Activity Name entered in the Excel wizards.  
+ **\<** *ActivityName* **\>** is the Name Attribute of the Activity element in the BAM Definition XML, which is the same as the Activity Name entered in the Excel wizards.  
   
  It is important to note the following conditions when querying instance data:  
   

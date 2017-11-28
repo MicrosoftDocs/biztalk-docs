@@ -56,9 +56,9 @@ This section describes how to specify Microsoft Message Queuing (also known as M
   
  If the send or receive queue path is an HTTP or HTTPS URL, then the syntax is:  
   
- FormatName:DIRECT=http://\<client name>/msmq/\<queue name>  
+ FormatName:DIRECT=http://\<client name\>/msmq/\<queue name\>  
   
- FormatName:DIRECT=https://\<client name>/msmq/\<queue name>  
+ FormatName:DIRECT=https://\<client name\>/msmq/\<queue name\>  
   
 > [!NOTE]
 >  "msmq" is the virtual folder that Message Queuing creates in Internet Information Services (IIS).  

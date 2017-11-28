@@ -57,7 +57,7 @@ The SendPorts sample demonstrates how to enumerate and manage send ports by usin
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\SendPorts  
+ \<*Samples Path*\>\Admin\ExplorerOM\SendPorts  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -78,7 +78,7 @@ The SendPorts sample demonstrates how to enumerate and manage send ports by usin
   
 1.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\SendPorts\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\SendPorts\bin\Debug  
   
 2.  Run the file SendPorts.exe.  
   

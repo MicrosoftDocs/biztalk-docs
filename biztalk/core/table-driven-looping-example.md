@@ -88,7 +88,7 @@ TableLooping and Extractor Functoids
   
  Notice that the **Table Looping** functoid links to the record-level element in both the input and output schemas. The link ensures the creation of the enclosing structure and, thus, the creation of the elements within the record. Also notice that there is one **Table Extractor** functoid for each field in the output schema.  
   
- The link to the record in the input schema is the first parameter in the **Configure \<Functoid> Functoid**dialog box.  
+ The link to the record in the input schema is the first parameter in the **Configure \<Functoid\> Functoid**dialog box.  
   
  The second parameter is the number of columns in the grid table of the functoid: one column each for the address type, name, street, city, state, and postal code. Following the second parameter is a list of all of the values that may appear in the grid table. These include string constants for the address type ("ShipTo", "BillTo"), as well as links to the fields of the address. Notice that the links to the address fields have names. Naming the links in the map simplifies constructing the table. Otherwise, full paths appear in the **Configure Table Looping Functoid** dialog box.  
   

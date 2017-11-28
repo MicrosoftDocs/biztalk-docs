@@ -48,7 +48,7 @@ Each message has a multi-part message type, a description of the message structu
   
 3.  Name the multi-part message type and the provided message part.  
   
-     If your multi-part message type requires more than one message part, you can add additional parts by assigning a name to the \<New> message part.  
+     If your multi-part message type requires more than one message part, you can add additional parts by assigning a name to the \<New\> message part.  
   
 4.  Associate each message part with a type, such as a .NET class or schema.  
   

@@ -23,7 +23,7 @@ The topics in this section provide instructions on using the BizTalk Server Admi
 ## Import, publish, deploy, and remove policies
  Solution developers can create and view policies by using the Business Rule Composer, as described in [Creating Business Rules Using the Business Rule Composer](../core/creating-business-rules-using-the-business-rule-composer.md). Developers and IT administrators can then perform the following tasks, which are described in the topics in this section, to deploy and manage policies in a BizTalk group and application:  
   
--   **Import the policy into a BizTalk group.** When you do this, the policy is added to the Rule Engine database for the group and displays in the BizTalk Server Administration console in the \<All Artifacts> node for the BizTalk group. This does not put the policy into effect for any particular application. You must first publish the policy, add it to an application, and then deploy it, as described in other topics in this section. The Rule Engine database is a database that contains all of the policies in a BizTalk group.  
+-   **Import the policy into a BizTalk group.** When you do this, the policy is added to the Rule Engine database for the group and displays in the BizTalk Server Administration console in the \<All Artifacts\> node for the BizTalk group. This does not put the policy into effect for any particular application. You must first publish the policy, add it to an application, and then deploy it, as described in other topics in this section. The Rule Engine database is a database that contains all of the policies in a BizTalk group.  
   
 -   **Publish a policy.** This makes it available to use in a BizTalk application.  
   

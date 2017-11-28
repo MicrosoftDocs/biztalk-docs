@@ -31,7 +31,7 @@ By default, global tracking is enabled when you install [!INCLUDE[btsBizTalkServ
   
 2.  In the **Connect to Server** dialog box, verify the server name and authentication, and then click **Connect**.  
   
-3.  In Microsoft SQL Server Management Studio, in **Object Explorer**, expand \<*computer name*>, expand **Databases**, expand **BizTalkMgmtDb**, expand **Tables**, right-click **adm_Group**, and then click **Open Table**.  
+3.  In Microsoft SQL Server Management Studio, in **Object Explorer**, expand \<*computer name*\>, expand **Databases**, expand **BizTalkMgmtDb**, expand **Tables**, right-click **adm_Group**, and then click **Open Table**.  
   
 4.  In the table viewer, scroll horizontally until you find **GlobalTrackingOption**.  
   

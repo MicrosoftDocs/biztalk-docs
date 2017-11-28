@@ -82,7 +82,7 @@ This topic describes items that you should consider when planning your Business 
 ## Development planning  
  **Connection strings for PivotTables**. The BAM Manager utility does not always change the connection strings for real-time aggregation (RTA) PivotTable definitions during deployment. This occurs when the RTA PivotTable has preexisting OLAP connection strings that have been manually edited and the casing of the value key is incorrect. For example, in this line from the BAM definition XML file the key is RTARef rather than the expected RtaRef:  
   
- **\<PivotTableView CubeRef="POCube" RTARef="POAmountByLocation">**  
+ **\<PivotTableView CubeRef="POCube" RTARef="POAmountByLocation"\>**  
   
  This causes the PivotTable to be generated through the OLAP cube rather than through the RTA PivotTable.  
   

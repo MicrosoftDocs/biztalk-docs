@@ -27,7 +27,7 @@ Developers use the bttdeploy utility to apply tracking profiles to and remove th
 |Option|Description|  
 |------------|-----------------|  
 |/h or /?|Optional: Displays the syntax summary for bttdeploy.|  
-|/mgdb \<server name[,port]>\\<database name\>|Optional: Specifies the management server, port, and database name to which to apply the profile. **Note:**  When using this parameter, the port is optional.|  
+|/mgdb \<server name[,port]\>\\<database name\>|Optional: Specifies the management server, port, and database name to which to apply the profile. **Note:**  When using this parameter, the port is optional.|  
 |/remove|Optional: Specifies that the tracking profile is to be removed from the BAM database.|  
 |filename|The name of the tracking profile file to apply or remove.|  
   

@@ -38,7 +38,7 @@ Use the MMC Snap-in or the SSOMANAGE command line utility to enable or disable S
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **ssomanage -enable** and press Enter.  
   
@@ -48,7 +48,7 @@ Use the MMC Snap-in or the SSOMANAGE command line utility to enable or disable S
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **ssomanage -disable** and press Enter.  
   
@@ -58,7 +58,7 @@ Use the MMC Snap-in or the SSOMANAGE command line utility to enable or disable S
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **ssomanage -displaydb** and press Enter.  
   

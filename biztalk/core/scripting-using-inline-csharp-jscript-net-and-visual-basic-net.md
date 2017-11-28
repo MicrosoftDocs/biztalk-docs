@@ -36,7 +36,7 @@ Inline scripts are convenient for custom code that you are unlikely to use elsew
 |System.Xml.Xpath|The XPath classes.|  
 |Microsoft.VisualBasic|The Visual Basic script classes.|  
   
- For more information about namespaces and data types, search on "XSLT Stylesheet Scripting using \<msxsl:script>" and on "System.Xml.Xsl.XslCompiledTransform" in the .NET Framework collection.  
+ For more information about namespaces and data types, search on "XSLT Stylesheet Scripting using \<msxsl:script\>" and on "System.Xml.Xsl.XslCompiledTransform" in the .NET Framework collection.  
   
 > [!CAUTION]
 >  Avoid using the same method signature more than once. When several Scripting functoids have the same method signature, BizTalk selects the first implementation and disregards the others.  

@@ -105,7 +105,7 @@ The following steps describe how to prepare your computer before you install the
   
 3.  Add WebSphere MQ classes for the .NET assembly to the global assembly cache (GAC).  
   
-    1.  At the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, navigate to the directory \<IBM MQSeries Installation Directory>\bin.  
+    1.  At the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, navigate to the directory \<IBM MQSeries Installation Directory\>\bin.  
   
     2.  Run the following command (make sure gacutil.exe is in the path environment):  
   
@@ -142,7 +142,7 @@ The following steps describe how to prepare your computer before you install the
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Stub  
   
-         PATH = \<BizTalk Install Directory>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Stub  
+         PATH = \<BizTalk Install Directory\>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Stub  
   
          Access Permissions = Read, Run scripts  
   
@@ -150,7 +150,7 @@ The following steps describe how to prepare your computer before you install the
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubSAP  
   
-         PATH = \<BizTalk Install Directory>\SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
+         PATH = \<BizTalk Install Directory\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
   
          Access Permissions = Read, Run scripts  
   
@@ -158,7 +158,7 @@ The following steps describe how to prepare your computer before you install the
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions  
   
-         PATH = \<BizTalk Install Directory>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
+         PATH = \<BizTalk Install Directory\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
   
          Access Permissions = Read, Run scripts  
   
@@ -166,7 +166,7 @@ The following steps describe how to prepare your computer before you install the
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPaymentTracker  
   
-         PATH = \<BizTalk Install Directory>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PaymentTrack  
+         PATH = \<BizTalk Install Directory\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PaymentTrack  
   
          Access Permissions = Read, Run scripts  
   

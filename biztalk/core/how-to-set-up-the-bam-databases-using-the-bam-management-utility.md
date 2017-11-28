@@ -32,7 +32,7 @@ Administrators typically use the BizTalk Server configuration utility to set up 
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type the following at the command line prompt: **bm setup-databases -ConfigFile:\<configuration file>**, where \<*configuration file*> is replaced by the name of your BAM configuration file. Press **ENTER**.  
+3.  Type the following at the command line prompt: **bm setup-databases -ConfigFile:\<configuration file\>**, where \<*configuration file*\> is replaced by the name of your BAM configuration file. Press **ENTER**.  
   
 ## See Also  
  [BAM Management Utility](../core/bam-management-utility.md)

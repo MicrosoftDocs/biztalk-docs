@@ -31,10 +31,10 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
  You can use the sample file adapter as a template on which to create other custom adapters.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>**\AdaptersDevelopment\File Adapter**  
+ \<*Samples Path*\>**\AdaptersDevelopment\File Adapter**  
   
 > [!NOTE]
->  The default location for \<*Samples Path*> is *%ProgramFiles%*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples when [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed on a computer running a 32-bit version of Windows. The default location for \<*Samples Path*> is *%ProgramFiles(x86)%*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples when [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed on a computer running a 64-bit version of Windows. To determine the values associated with the *%ProgramFiles%* or *%ProgramFiles(x86)%* environment variables type **echo %ProgramFiles%** or **echo %ProgramFiles(x86)%** at a command prompt and press ENTER. If running this sample on a 64-bit operating system, you will need to change all references in any of the .reg files from **%ProgramFiles%** to **%ProgramFiles(x86)%** before running the .reg files.  
+>  The default location for \<*Samples Path*\> is *%ProgramFiles%*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples when [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed on a computer running a 32-bit version of Windows. The default location for \<*Samples Path*\> is *%ProgramFiles(x86)%*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples when [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed on a computer running a 64-bit version of Windows. To determine the values associated with the *%ProgramFiles%* or *%ProgramFiles(x86)%* environment variables type **echo %ProgramFiles%** or **echo %ProgramFiles(x86)%** at a command prompt and press ENTER. If running this sample on a 64-bit operating system, you will need to change all references in any of the .reg files from **%ProgramFiles%** to **%ProgramFiles(x86)%** before running the .reg files.  
   
  The following tables show the files in this sample and describe their purpose.  
   
@@ -88,11 +88,11 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
     > [!NOTE]
     >  Run the command prompt as an Administrator.  
   
-2.  Change the current directory to the \<*Samples Path*>**\AdaptersDevelopment\BaseAdapter\v1.0.2** directory.  
+2.  Change the current directory to the \<*Samples Path*\>**\AdaptersDevelopment\BaseAdapter\v1.0.2** directory.  
   
 3.  At the command prompt, type **sn –k BaseAdapter.snk** and then press ENTER. This .snk file may already exist as a result of other samples being run previously. If so, you can go right to step 4 and skip this step.  
   
-4.  Change the current directory to the \<*Samples Path*>\\**AdaptersDevelopment\File Adapter\Runtime** directory.  
+4.  Change the current directory to the \<*Samples Path*\>\\**AdaptersDevelopment\File Adapter\Runtime** directory.  
   
 5.  At the command prompt, type **sn –k DotNetFileAdapter.snk** and then press ENTER.  
   
@@ -102,7 +102,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
   
 1.  Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Windows Explorer**.  
   
-2.  Navigate to the \<*Samples Path*>**”\AdaptersDevelopment\File Adapter\Runtime”** directory, and then double-click **DotNetFile.sln**.  
+2.  Navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter\Runtime”** directory, and then double-click **DotNetFile.sln**.  
   
 3.  To rebuild the Adapter Receiver run-time project, in Solution Explorer, right-click **DotNetFile**, and then click **Rebuild**.  
   
@@ -110,7 +110,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
   
 #### To build the adapter design-time project  
   
-1.  In Windows Explorer, navigate to the \<*Samples Path*>**”\AdaptersDevelopment\File Adapter\Design Time\Adapter Management”** directory, and then double-click **AdapterManagement.sln**.  
+1.  In Windows Explorer, navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter\Design Time\Adapter Management”** directory, and then double-click **AdapterManagement.sln**.  
   
 2.  In Solution Explorer, right-click **AdapterManagement**, and then click **Rebuild**.  
   
@@ -118,7 +118,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
   
 #### To register the sample static adapter  
   
-1.  In Windows Explorer, navigate to the \<*Samples Path*>**”\AdaptersDevelopment\File Adapter”** directory.  
+1.  In Windows Explorer, navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter”** directory.  
   
 2.  To add the sample adapter to the registry, double-click **StaticAdapterManagement.reg**.  
   
@@ -168,11 +168,11 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
   
 2.  Create the following folders on the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installation drive:  
   
-    -   *\<drive>*:**\Temp**  
+    -   *\<drive\>*:**\Temp**  
   
-    -   *\<drive>*:**\Temp\Send**  
+    -   *\<drive\>*:**\Temp\Send**  
   
-    -   *\<drive>*:**\Temp\Receive**  
+    -   *\<drive\>*:**\Temp\Receive**  
   
 3.  To close Windows Explorer, on the **File** menu, click **Close**.  
   
@@ -201,7 +201,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
     |Use this|To do this|  
     |--------------|----------------|  
     |**Name**|Type **AdapterSend**.|  
-    |**Transport Type**|Select **Static** from the drop-down list and click **Configure**.<br /><br /> -   In the **Directory** box, type ***\<drive>*:\Temp\Send**.<br />-   In the **File Mode** box, select **CreateNew**.<br />-   In the **File Name** box, type **%MessageID%.xml**.<br />-   Click **OK**.<br />-   The **URI** field should show ***\<drive>*:\Temp\Send\\%MessageID%.xml**.|  
+    |**Transport Type**|Select **Static** from the drop-down list and click **Configure**.<br /><br /> -   In the **Directory** box, type ***\<drive\>*:\Temp\Send**.<br />-   In the **File Mode** box, select **CreateNew**.<br />-   In the **File Name** box, type **%MessageID%.xml**.<br />-   Click **OK**.<br />-   The **URI** field should show ***\<drive\>*:\Temp\Send\\%MessageID%.xml**.|  
     |**Send pipeline**|Select **PassThruTransmit (Microsoft.BizTalk.DefaultPipelines.PassThruTransmit)**, and then click **OK**.|  
   
 11. Under the **BizTalk Application 1** node click **Receive Ports**, and select **New / One-Way Receive Port**.  
@@ -220,7 +220,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
     |--------------|----------------|  
     |**Name**|Type **AdapterReceiveLocation**|  
     |**Transport Type**|Select **Static** from the drop-down list and hit **Configure** to access these remaining properties.|  
-    |**URI**|-   Click the ellipsis button (**…**).<br />-   In the **Number Of Files In Batch** box, type **20**.<br />-   In the **Directory** box, type ***\<drive>*:\Temp\Receive**.<br />-   Ensure the **File Mask** property is set to **\*.xml**.<br />-   In the **Polling Interval** box, type **5**, and click **OK**.<br />-   Ensure the **URI** label contains ***\<drive>*:\Temp\Receive\\\*.xml**.|  
+    |**URI**|-   Click the ellipsis button (**…**).<br />-   In the **Number Of Files In Batch** box, type **20**.<br />-   In the **Directory** box, type ***\<drive\>*:\Temp\Receive**.<br />-   Ensure the **File Mask** property is set to **\*.xml**.<br />-   In the **Polling Interval** box, type **5**, and click **OK**.<br />-   Ensure the **URI** label contains ***\<drive\>*:\Temp\Receive\\\*.xml**.|  
     |**Receive Handler**|Select **BizTalkServerApplication** from the drop-down list.|  
     |**Receive Pipeline**|Select **XMLReceive** from the drop-down list.|  
   
@@ -235,7 +235,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
   
 1.  Start **Visual Studio Command Prompt**.  
   
-2.  At the command prompt, change the current directory to the \<*Samples Path*>**\AdaptersDevelopment\File Adapter\BizTalk Project\Adapter Harness** directory.  
+2.  At the command prompt, change the current directory to the \<*Samples Path*\>**\AdaptersDevelopment\File Adapter\BizTalk Project\Adapter Harness** directory.  
   
 3.  At the command prompt, type **sn –k AdapterHarness.snk**, and then pressENTER.  
   
@@ -306,11 +306,11 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
   
 ##### To test the sample static adapter runtime  
   
-1.  In Windows Explorer, navigate to the \<*Samples Path*>**\AdaptersDevelopment\File Adapter** directory, and copy the InstanceXML.xml file to your clipboard.  
+1.  In Windows Explorer, navigate to the \<*Samples Path*\>**\AdaptersDevelopment\File Adapter** directory, and copy the InstanceXML.xml file to your clipboard.  
   
-2.  Navigate to *\<drive>*:**\Temp\Receive** and paste the Instance.xml file into the folder.  
+2.  Navigate to *\<drive\>*:**\Temp\Receive** and paste the Instance.xml file into the folder.  
   
-     If the transmit and receive adapters are working, the file should move from the *\<drive>*:**\Temp\Receive** folder to the *\<drive>*:**\Temp\Send** folder.  
+     If the transmit and receive adapters are working, the file should move from the *\<drive\>*:**\Temp\Receive** folder to the *\<drive\>*:**\Temp\Send** folder.  
   
 ##### To test the sample Add Adapter Wizard functionality for the sample static adapter  
   
