@@ -38,7 +38,7 @@ This section describes how you can install the Dynamic Resolution sample from th
   
 4.  In the **Run** dialog box, type **cmd**, and then press ENTER to open the command prompt.  
   
-5.  Run the following command, replacing the \<path> parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\DynamicResolution\Install\Scripts\\):  
+5.  Run the following command, replacing the \<path\> parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\DynamicResolution\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

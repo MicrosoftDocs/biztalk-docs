@@ -17,7 +17,7 @@ manager: "anneta"
 # Viewing the Reconciliation Status for Messages Sent
 To view the reconciliation status for messages sent:  
   
-1.  In Programs, click **Microsoft BizTalk Server \<version>**, and then click **BAM Portal Web Site**.  
+1.  In Programs, click **Microsoft BizTalk Server \<version\>**, and then click **BAM Portal Web Site**.  
   
 2.  In BAM Portal Web Site, under My View\XMLV2View\Activity Search, choose **Message Sent Activity**.  
   

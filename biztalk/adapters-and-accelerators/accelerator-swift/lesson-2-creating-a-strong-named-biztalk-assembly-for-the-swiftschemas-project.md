@@ -32,7 +32,7 @@ In this lesson, you create a strong name upon which the BizTalk assemblies are c
   
 1.  Start Visual Studio command prompt.  
   
-2.  At the Visual Studio command prompt, browse to the \<*drive*>:\labs folder.  
+2.  At the Visual Studio command prompt, browse to the \<*drive*\>:\labs folder.  
   
 3.  At the command prompt, type **sn –k swift.snk**, and then press ENTER. Ensure that a success message appears in the output window.  
   
@@ -45,7 +45,7 @@ In this lesson, you create a strong name upon which the BizTalk assemblies are c
   
 6.  Scroll down the assembly properties in the right pane, and in the **Strong name** section, click the box to the right of **Assembly Key File**. Click the ellipsis button.  
   
-7.  In the Assembly Key File dialog box, browse to **\<*drive*:>\labs**.  
+7.  In the Assembly Key File dialog box, browse to **\<*drive*:\>\labs**.  
   
 8.  Select the **swift.snk** file as the key file, and then click **Open**.  
   

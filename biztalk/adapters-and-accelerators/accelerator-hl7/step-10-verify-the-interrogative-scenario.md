@@ -23,15 +23,15 @@ In this step, you verify the end-to-end scenario for this tutorial.
   
 1.  Open a command prompt.  
   
-2.  In the command prompt, move to **\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\MLLP Utilities**.  
+2.  In the command prompt, move to **\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\MLLP Utilities**.  
   
 3.  In the command prompt, type **MllpReceive /P 24000**, and then press **Enter**. This runs the MLLP listener application listening to port 24000 and displays any messages received to the screen. This application is simulating the Hospital Information System.  
   
 4.  Open an additional command prompt.  
   
-5.  In the second Command Prompt window, move to **\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\MLLP Utilities**.  
+5.  In the second Command Prompt window, move to **\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\MLLP Utilities**.  
   
-6.  In the second command prompt, type **MllpSend /SB 11 /EB 28 /CR 13 /TWOWAY /P 22000 /F "\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial\QRY^Q01.txt**, and then press **Enter.**  
+6.  In the second command prompt, type **MllpSend /SB 11 /EB 28 /CR 13 /TWOWAY /P 22000 /F "\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial\QRY^Q01.txt**, and then press **Enter.**  
   
     > [!NOTE]
     >  This command sends the query message you created at the beginning of this tutorial to MLLP port 22000 and waits for a response (acknowledgment). The ADT receive port picks up this message and processes it.  
@@ -45,7 +45,7 @@ In this step, you verify the end-to-end scenario for this tutorial.
         QRD|200307231012|D|I|4387|||20^LI|12233|RES|ALL  
         ```  
   
-    -   In addition, the MllpSend utility creates an acknowledgment file in the \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial folder named QRY^Q01.txt.RESPONSE. This file contains the following information as the acknowledgment:  
+    -   In addition, the MllpSend utility creates an acknowledgment file in the \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial folder named QRY^Q01.txt.RESPONSE. This file contains the following information as the acknowledgment:  
   
         ```  
         MSH|^~\&|HIS||ADT||20040331154031.2222-0800||ACK^Q01^ACK|10000GSM|P|2.4  
@@ -62,7 +62,7 @@ In this step, you verify the end-to-end scenario for this tutorial.
     > [!NOTE]
     >  Step 2 runs the MLLP listener application listening to port 25000 and displays any messages received to the screen. This application is simulating the ADT system.  
   
-3.  In the second command prompt, type **MllpSend /SB 11 /EB 28 /CR 13 /P 23000 /F "\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial\DSR.txt"**, then press **Enter**.  
+3.  In the second command prompt, type **MllpSend /SB 11 /EB 28 /CR 13 /P 23000 /F "\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial\DSR.txt"**, then press **Enter**.  
   
     > [!NOTE]
     >  Step 3 sends the response message you created at the beginning of this tutorial to MLLP port 23000. The HIS receive port picks up this message and processes it.  

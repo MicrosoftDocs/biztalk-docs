@@ -27,7 +27,7 @@ When message processing fails in your custom pipeline, you can use source level 
   
 1.  Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Change the output path for your solution to *\<Installation Folder>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder>*\Pipeline Components directory.  
+2.  Change the output path for your solution to *\<Installation Folder\>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder\>*\Pipeline Components directory.  
   
 3.  From within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the solution by clicking **Build** &#124; **Deploy**.  
   
@@ -52,9 +52,9 @@ When message processing fails in your custom pipeline, you can use source level 
   
 1.  Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Change the output path for your solution to *\<Installation Folder>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder>*\Pipeline Components directory.  
+2.  Change the output path for your solution to *\<Installation Folder\>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder\>*\Pipeline Components directory.  
   
-3.  Change the start action for your solution. In Solution Explorer, right-click your project, click the Debug tab, click Start external program, then click **…** and navigate to *\<Installation Folder>*\SDK\Utilities\PipelineTools and choose Pipeline.exe. Under Start Options, enter the command line arguments appropriate for your component. For more information on Pipeline.exe, see [Pipeline Tools](../core/pipeline-tools.md). A typical configuration specifies the pipeline and a sample file:  
+3.  Change the start action for your solution. In Solution Explorer, right-click your project, click the Debug tab, click Start external program, then click **…** and navigate to *\<Installation Folder\>*\SDK\Utilities\PipelineTools and choose Pipeline.exe. Under Start Options, enter the command line arguments appropriate for your component. For more information on Pipeline.exe, see [Pipeline Tools](../core/pipeline-tools.md). A typical configuration specifies the pipeline and a sample file:  
   
     ```  
     <Path>\YourPipeline.btp -d <Path>\YourTestFile.txt -c  

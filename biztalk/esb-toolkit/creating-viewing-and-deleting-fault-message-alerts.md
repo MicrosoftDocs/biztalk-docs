@@ -24,7 +24,7 @@ The ESB Management Portal can generate alerts when fault messages arrive at the 
   
 3.  In the **Enter Alert Name** text box, type a name for the new alert.  
   
-4.  In the **Conditions** section of the Add Alert page, select a field (such as **Application**, **Error Type**, or **Fault Severity**) in the **Criteria** drop-down list; select a comparison type (such as +, =, !=, >=, \<=, or **like**) in the **Operator** drop-down list; and type or select a value from the third list or text box (named **Value**). As you select a **Criteria** value, the page changes to display either a text box or a drop-down list for the matching value. All conditions are combined using the **AND** operator.  
+4.  In the **Conditions** section of the Add Alert page, select a field (such as **Application**, **Error Type**, or **Fault Severity**) in the **Criteria** drop-down list; select a comparison type (such as +, =, !=, >=, <=, or **like**) in the **Operator** drop-down list; and type or select a value from the third list or text box (named **Value**). As you select a **Criteria** value, the page changes to display either a text box or a drop-down list for the matching value. All conditions are combined using the **AND** operator.  
   
 5.  Click the **Add** link to add this condition to the list, and then repeat the previous step to add more conditions if required.  
   

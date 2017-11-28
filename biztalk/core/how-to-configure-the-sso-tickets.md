@@ -53,9 +53,9 @@ You can use the MMC Snap-In or the command line to control ticket behavior for t
   
 1.  On the **Start** menu, click **run**, and then type **cmd**.  
   
-2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage –tickets \<allowed yes/no> *\<validate yes/no>***, where *\<allowed yes/no>* indicates whether tickets will be allowed or not, and *\<validate yes/no>* indicates whether tickets will need to be validated after they are redeemed.  
+3.  Type **ssomanage –tickets \<allowed yes/no\> *\<validate yes/no\>***, where *\<allowed yes/no\>* indicates whether tickets will be allowed or not, and *\<validate yes/no\>* indicates whether tickets will need to be validated after they are redeemed.  
   
     > [!NOTE]
     >  You can use yes, no, on, or off to indicate whether to allow and/or validate tickets. These words are case independent, and must be used regardless of your language settings.  

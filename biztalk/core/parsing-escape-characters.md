@@ -25,7 +25,7 @@ When the parser encounters an escape character that prefixes a regular character
   
  If the parser encounters three escape characters (for example, abc\\\\\d), the output is "abc\d" because the first two escape characters are parsed to "\\" and the third escape character is ignored.  
   
- The parser treats misplaced delimiters as regular characters. For example, if "Record, Field1, Field,2" is received, the output XML is \<Field1> \<Field,2>.  
+ The parser treats misplaced delimiters as regular characters. For example, if "Record, Field1, Field,2" is received, the output XML is \<Field1\> \<Field,2\>.  
   
 ## See Also  
  [Using the Flat File Parsing Engine](../core/using-the-flat-file-parsing-engine.md)

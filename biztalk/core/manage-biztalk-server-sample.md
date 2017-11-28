@@ -36,7 +36,7 @@ The Manage Single Sign-On (SSO) sample demonstrates how to construct .xml files 
  This sample includes pairs of XSD and sample .xml files for each of these types of operations. The values in the sample .xml files are not valid. You must make changes to the values that are appropriate to your specific requirements.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\SSO\Manage\  
+ *\<Samples Path\>*\SSO\Manage\  
   
  The following table shows the files in this sample and describes their purpose.  
   

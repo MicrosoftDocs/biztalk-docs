@@ -88,7 +88,7 @@ Receive shape
     |<|Is less than|  
     |\<=|Is less than or equal to|  
     |>|Is greater than|  
-    |>=|Is greater than or equal to|  
+    |\>=|Is greater than or equal to|  
     |Exists|Exists|  
   
 -   **Value.** Cells in the **Value** column can hold any constant that you type in: a string-literal, an integer-literal, or null.  

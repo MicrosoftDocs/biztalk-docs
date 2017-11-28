@@ -22,7 +22,7 @@ In this step, you create a trade agreement between the home and partner organiza
   
 ### To create a trade agreement  
   
-1.  In the **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand **BizTalk \<version> Accelerator for RosettaNet**, right-click **Agreements**, click **New**, and then click **Agreement**.  
+1.  In the **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand **BizTalk \<version\> Accelerator for RosettaNet**, right-click **Agreements**, click **New**, and then click **Agreement**.  
   
 2.  In the **New Agreement Properties** dialog box, on the **General** tab, do the following:  
   

@@ -26,7 +26,7 @@ As a part of recovering [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
   
 2.  At the command prompt, type:  
   
-     **nscontrol register -name BamAlerts -server**  *\<ServerName>*  **-service -serviceusername "** *\<ServiceUserName>* **" -servicepassword "** *\<ServicePassword>* **"**  
+     **nscontrol register -name BamAlerts -server**  *\<ServerName\>*  **-service -serviceusername "** *\<ServiceUserName\>* **" -servicepassword "** *\<ServicePassword\>* **"**  
   
      This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service computer by nscontrol).  
   

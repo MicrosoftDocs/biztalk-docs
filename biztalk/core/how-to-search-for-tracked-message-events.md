@@ -45,7 +45,7 @@ You can use the **New Query** tab in the [!INCLUDE[btsBizTalkServerNoVersion](..
     |**Schema Name**|Name of the schema used by the message.|  
     |**Service Instance ID**|The service instance ID used for the message.|  
     |**URI**|The URI used for the message.|  
-    |**\<Select a Schema Name for Tracked Properties>**|When you select a schema, any promoted properties in that schema are eligible to be used in the query.|  
+    |**\<Select a Schema Name for Tracked Properties\>**|When you select a schema, any promoted properties in that schema are eligible to be used in the query.|  
   
 6.  Complete the **Value** column as appropriate for the selection you made in the **Field Name** column.  
   

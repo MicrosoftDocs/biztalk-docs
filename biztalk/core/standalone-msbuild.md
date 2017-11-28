@@ -32,4 +32,4 @@ The **Project Build** component of [!INCLUDE[btsBizTalkServerNoVersion](../inclu
     ```  
   
     > [!TIP]
-    >  You may need set the PATH environment variable to point to the folder in which msbuild.exe resides (\<*windows installation directory*>\Microsoft.NET\Framework\v4).
+    >  You may need set the PATH environment variable to point to the folder in which msbuild.exe resides (\<*windows installation directory*\>\Microsoft.NET\Framework\v4).

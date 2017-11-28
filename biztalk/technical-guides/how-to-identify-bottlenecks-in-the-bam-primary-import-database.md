@@ -20,9 +20,9 @@ To identify bottlenecks in the Business Activity Monitoring (BAM) database, perf
   
 2.  Ensure that the SQL-Agent Service is running.  
   
-3.  If OLAP Analysis is configured, ensure that the BAM_AN_\<activityname> job is running at periodic intervals.  
+3.  If OLAP Analysis is configured, ensure that the BAM_AN_\<activityname\> job is running at periodic intervals.  
   
-4.  Ensure that BAM_DM_\<activityname> (Data Maintenance) job is scheduled to run at periodic intervals.  
+4.  Ensure that BAM_DM_\<activityname\> (Data Maintenance) job is scheduled to run at periodic intervals.  
   
     > [!NOTE]  
     >  In high usage scenarios BAM database activity can impact the performance of other BizTalk Server databases, which will affect overall BizTalk Server performance. In this case consider taking the following actions:  

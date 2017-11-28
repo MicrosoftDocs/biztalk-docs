@@ -65,17 +65,17 @@ manager: "anneta"
   
 -   Interchange Control ID = Update Data (required for correlation)  
   
--   Interchange ACK Status = \< Expected or Not Applicable>. If the technical ACK is configured or valued in the incoming interchange, status = Expected. Otherwise, status = Not Applicable.  
+-   Interchange ACK Status = \< Expected or Not Applicable\>. If the technical ACK is configured or valued in the incoming interchange, status = Expected. Otherwise, status = Not Applicable.  
   
--   Interchange ACK Control ID= \<not valued>  
+-   Interchange ACK Control ID= \<not valued\>  
   
--   Interchange ACK Date = \<not valued>  
+-   Interchange ACK Date = \<not valued\>  
   
--   Interchange ACK Time = \<not valued>  
+-   Interchange ACK Time = \<not valued\>  
   
--   ACK/Action Code = \<not valued>  
+-   ACK/Action Code = \<not valued\>  
   
--   ACK Note Code = \<not valued>  
+-   ACK Note Code = \<not valued\>  
   
 ## Data Updated by the Send Pipeline for Each Technical Acknowledgment Generated in Response to Inbound Interchanges  
  For each technical acknowledgment that the send pipeline sends, it updates the status report entry for the correlated received interchange. The source for the data will be the Interchange envelopes created by the Send Pipeline.  
@@ -124,7 +124,7 @@ manager: "anneta"
   
 -   Functional ACK Direction = Receive  
   
--   Functional ACK Status = \< Expected or Not Applicable>. If the functional acknowledgment tab in PAM is selected, status will set to Expected. Otherwise, status will be set to Not Applicable.  
+-   Functional ACK Status = \< Expected or Not Applicable\>. If the functional acknowledgment tab in PAM is selected, status will set to Expected. Otherwise, status will be set to Not Applicable.  
   
 -   Interchange Receiver = Update Data (required for correlation)  
   
@@ -140,27 +140,27 @@ manager: "anneta"
   
 -   Count of Transaction Sets = Data (in EDIFACT this is mapped to UNE.1 while UNG/UNE are present or UNZ.1 if no group segments are present)  
   
--   Functional ACK Interchange Control ID= \<not valued>  
+-   Functional ACK Interchange Control ID= \<not valued\>  
   
--   Functional ACK Interchange Date = \<not valued>  
+-   Functional ACK Interchange Date = \<not valued\>  
   
--   Functional ACK Interchange Time = \<not valued>  
+-   Functional ACK Interchange Time = \<not valued\>  
   
--   Count of Transaction Sets Delivered = \<not valued>  
+-   Count of Transaction Sets Delivered = \<not valued\>  
   
--   Count of Transaction Sets Accepted = \<not valued>  
+-   Count of Transaction Sets Accepted = \<not valued\>  
   
--   ACK/Action Code = \<not valued>  
+-   ACK/Action Code = \<not valued\>  
   
--   Error/Syntax Error Code  = \<not valued>  
+-   Error/Syntax Error Code  = \<not valued\>  
   
--   Additional X12 ACK Error Code 2 = \<not valued>  
+-   Additional X12 ACK Error Code 2 = \<not valued\>  
   
--   Additional X12 ACK Error Code 3 = \<not valued>  
+-   Additional X12 ACK Error Code 3 = \<not valued\>  
   
--   Additional X12 ACK Error Code 4 = \<not valued>  
+-   Additional X12 ACK Error Code 4 = \<not valued\>  
   
--   Additional X12 ACK Error Code 5 = \<not valued>  
+-   Additional X12 ACK Error Code 5 = \<not valued\>  
   
 ## Data Updated by the Send Pipeline for Each Functional Acknowledgment Generated in Response to Inbound Interchanges  
  For each functional acknowledgment that the send pipeline sends, it updates the status report entry for the correlated received interchange. The source for the data will be the Interchange envelopes created by the Send Pipeline.  

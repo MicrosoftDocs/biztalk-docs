@@ -28,7 +28,7 @@ manager: "anneta"
 |Message Text|Unexpected root element|  
   
 ## Explanation  
- Header property is not in \<headers>….\</headers> format. This situation normally applies to InboundHeaders and OutboundCustomHeaders.  
+ Header property is not in \<headers\>….\</headers\> format. This situation normally applies to InboundHeaders and OutboundCustomHeaders.  
   
 ## User Action  
- Ensure that header property is in the format of  \<headers>…\</headers>.
+ Ensure that header property is in the format of  \<headers\>…\</headers\>.

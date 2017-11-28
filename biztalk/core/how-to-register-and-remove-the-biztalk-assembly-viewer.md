@@ -23,7 +23,7 @@ The BizTalk Assembly Viewer is not registered automatically during BizTalk Serve
   
 2.  In the Run dialog box, type **cmd**.  
   
-3.  From the command line, navigate to \<*BizTalk Server Installation Folder*>\Developer Tools\ where BTSAsmExt.dll resides.  
+3.  From the command line, navigate to \<*BizTalk Server Installation Folder*\>\Developer Tools\ where BTSAsmExt.dll resides.  
   
 4.  At the command line, type:  
   
@@ -37,7 +37,7 @@ The BizTalk Assembly Viewer is not registered automatically during BizTalk Serve
   
 2.  In the **Run** dialog box, type **cmd**.  
   
-3.  From the command line, navigate to \<*BizTalk Server Installation Folder*>\Developer Tools\ where BTSAsmExt.dll resides.  
+3.  From the command line, navigate to \<*BizTalk Server Installation Folder*\>\Developer Tools\ where BTSAsmExt.dll resides.  
   
 4.  At the command line, type:  
   

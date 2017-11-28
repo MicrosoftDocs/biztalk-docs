@@ -56,7 +56,7 @@ manager: "anneta"
   
 2.  Click the **Signing** tab, select **Sign the assembly**.  
   
-3.  From the drop-down list in the **Choose a strong name key file** box, select **\<Browse…>**.  
+3.  From the drop-down list in the **Choose a strong name key file** box, select **\<Browse…\>**.  
   
 4.  In the **Select File** dialog box, navigate to **C:\BTStutorials**, click **btsTutorials.snk**, and then click **Open**. 
   

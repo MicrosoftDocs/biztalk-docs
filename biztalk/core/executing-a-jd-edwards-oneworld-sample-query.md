@@ -91,13 +91,13 @@ Next, verify that the JD Edwards OneWorld adapter is installed, and create the s
   
 4.  Click **Configure**, and then enter the following property values:  
   
-    1.  **Host:** \<enter your JDEOW host name>  
+    1.  **Host:** \<enter your JDEOW host name\>  
   
     2.  **JAVA_HOME:** `C:\j2sdk1.4.2_08`  
   
-    3.  **JDEdwards Environment:** \<enter your JDEOW environment>  
+    3.  **JDEdwards Environment:** \<enter your JDEOW environment\>  
   
-    4.  **JDEdwards JAR files:** \<enter full path of JAR files>  
+    4.  **JDEdwards JAR files:** \<enter full path of JAR files\>  
   
          `C:\JDEOWJars\BTSLIBInterop.jar; C:\JDEOWJars\Connector.jar; C:\JDEOWJars\Kernel.jar;C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld®\Classes\JDEJAccess.jar`  
   
@@ -105,7 +105,7 @@ Next, verify that the JD Edwards OneWorld adapter is installed, and create the s
   
     6.  **Port:**  `6009`  
   
-    7.  **User Name:** \<enter your JD Edwards User Name>  
+    7.  **User Name:** \<enter your JD Edwards User Name\>  
   
      ![](../core/media/jdeow-transportproperties-configurebutton.gif "JDEOW_TransportProperties_ConfigureButton")  
   
@@ -283,7 +283,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
      `C:\LABS\JDE_OW_TEST\SAMPLE.XML`  
   
-3.  Click **OK.** In the Properties window, select **\<Schema>** and set **Root Reference:** to `AddressBookMasterMBF`. This will cause the generated XML to include only the **Query** xml.  
+3.  Click **OK.** In the Properties window, select **\<Schema\>** and set **Root Reference:** to `AddressBookMasterMBF`. This will cause the generated XML to include only the **Query** xml.  
   
      ![](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")  
   
@@ -301,7 +301,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 4.  Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
   
-5.  Under **Receive Ports**, click **\<None>**. In the drop-down list, select **New Receive Port**.  
+5.  Under **Receive Ports**, click **\<None\>**. In the drop-down list, select **New Receive Port**.  
   
 6.  For **Name**, type `JDE_FileIn_Port`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
   
@@ -323,7 +323,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
      ![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
   
-9. Click **\<None>** for **JDE_OW_Port** in the drop-down list.  
+9. Click **\<None\>** for **JDE_OW_Port** in the drop-down list.  
   
 10. Select **New Send Port** and then select or type the following values for the properties:  
   
@@ -337,11 +337,11 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 11. Click **Configure**, and then enter the following property values:  
   
-     **Host:** \<enter your JDEOW host name>  
+     **Host:** \<enter your JDEOW host name\>  
   
      **JAVA_HOME:** `C:\j2sdk1.4.2_08`  
   
-     **JDEdwards Environment:** \<enter your JDEOW environment>  
+     **JDEdwards Environment:** \<enter your JDEOW environment\>  
   
      **JDEdwards JAR files:** <enter full path of JAR files>  
   
@@ -357,7 +357,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 12. Click **OK** twice to close the dialog boxes.  
   
-13. In the Configure Applicationwindow, click **\<None>** for **JDE_FileOut** in the drop-down list.  
+13. In the Configure Applicationwindow, click **\<None\>** for **JDE_FileOut** in the drop-down list.  
   
 14. Select **New Send Port** and type or select the following values for the properties:  
   

@@ -58,7 +58,7 @@ This topic describes how to map a request message received by the private respon
   
 9. In the BizTalk Type Picker window, expand **References**, expand **Microsoft.Solutions.BTARN.Schemas.RNPIPs**, expand **Schemas**, select the PIP schema for the response message to which you want to map, and then click **OK**.  
   
-10. Right-click the \<*Schema*> node of the source schema, and then click **Expand Tree Node**.  
+10. Right-click the \<*Schema*\> node of the source schema, and then click **Expand Tree Node**.  
   
 11. Repeat step 10 for the destination schema.  
   
@@ -78,7 +78,7 @@ This topic describes how to map a request message received by the private respon
 2.  In the Toolbox, click the **Transform** shape, and drag it to the point in the orchestration at which you have to transform the request message into the response message.  
   
     > [!NOTE]
-    >  For an example of the placement of the **Transform** shape, see the PIP3A4PrivateResponder.odx orchestration. It is located in \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR. This sample puts the **Transform** shape immediately under the **IsActivityDoubleAction** shape. For more information, see [3A4 Private Responder Orchestration Using a Business Rule](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
+    >  For an example of the placement of the **Transform** shape, see the PIP3A4PrivateResponder.odx orchestration. It is located in \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR. This sample puts the **Transform** shape immediately under the **IsActivityDoubleAction** shape. For more information, see [3A4 Private Responder Orchestration Using a Business Rule](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
   
     > [!NOTE]
     >  For an example of how you can incorporate multiple maps for multiple PIPs, see [Double Action PIPAutomation Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md).  

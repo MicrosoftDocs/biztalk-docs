@@ -20,14 +20,14 @@ manager: "anneta"
 In BizTalk Editor, the top of the schema hierarchy is always the **Schema** node, which cannot be renamed. The **Schema** node corresponds to the **schema** element in the XML Schema definition (XSD) language representation of the schema.  
   
 > [!NOTE]
->  In BizTalk Editor, the **Schema** node is represented with the string \<Schema> in the schema tree view.  
+>  In BizTalk Editor, the **Schema** node is represented with the string \<Schema\> in the schema tree view.  
   
  In general, the properties of the **Schema** node correspond to the attributes of the **schema** element in the XSD representation of the schema. For general information about node properties, see [Node Properties](../core/node-properties.md). For reference information about the properties of the **Schema** node, see the **Schema Node Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
  When you create a new XML schema in BizTalk Editor, the **Schema** node and one **Root** node are created automatically.  
   
 ## XSD representation  
- The following example shows, in bold type, the lines in the XSD representation of the schema that correspond to the **\<Schema>** node in the tree view of the schema.  
+ The following example shows, in bold type, the lines in the XSD representation of the schema that correspond to the **\<Schema\>** node in the tree view of the schema.  
   
 ```  
 <?xml version="1.0" encoding="utf-16" ?>  

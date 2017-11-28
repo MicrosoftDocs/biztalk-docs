@@ -359,7 +359,7 @@ namespace SapRfcServerCM
   
                         Console.WriteLine("RESULT =\t" + result_out.ToString());  
   
-                        string out_xml = "\<Z_RFC_MKD_DIVResponse xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"><RESULT>" + result_out + "</RESULT></Z_RFC_MKD_DIVResponse>";  
+                        string out_xml = "<Z_RFC_MKD_DIVResponse xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"><RESULT>" + result_out + "</RESULT></Z_RFC_MKD_DIVResponse>";  
                         StringReader sr = new StringReader(out_xml);  
                         reader = XmlReader.Create(sr);  
   

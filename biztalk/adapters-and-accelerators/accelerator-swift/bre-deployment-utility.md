@@ -32,13 +32,13 @@ You can use the BRE Deployment Utility to publish and deploy the Business Rule E
   
 -   Publishes and deploys the master policy and validation policy associated with each message schema.  
   
--   Generates a log file that indicates all the steps that it takes. This file is BREDeploymentLog.txt in the \<*drive*>:\Documents and Settings\All Users\Application Data folder.  
+-   Generates a log file that indicates all the steps that it takes. This file is BREDeploymentLog.txt in the \<*drive*\>:\Documents and Settings\All Users\Application Data folder.  
   
     > [!NOTE]
     >  The BRE Deployment Utility does not deploy the BIC Master Policy and BIC Validation Policy. You must deploy these using the Rule Engine Deployment wizard.  
   
     > [!NOTE]
-    >  If you have installed [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] in a non-default directory (other than C:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]), or you are working on a 64-bit computer, the BRE Deployment Utility will not work correctly until you change the paths in the BREDeployment.exe.config file. This configuration file is located in the \<*drive*>:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools folder. To update the utility's configuration, open BREDeployment.exe.config in Notepad, and change the folders for the base policies, schemas, and vocabulary directories.  
+    >  If you have installed [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] in a non-default directory (other than C:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]), or you are working on a 64-bit computer, the BRE Deployment Utility will not work correctly until you change the paths in the BREDeployment.exe.config file. This configuration file is located in the \<*drive*\>:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools folder. To update the utility's configuration, open BREDeployment.exe.config in Notepad, and change the folders for the base policies, schemas, and vocabulary directories.  
   
  You can also use the deployment utility to reverse this process, undeploying and unpublishing the policies and vocabularies. The utility has both deploy and undeploy functionality.  
   
@@ -58,7 +58,7 @@ You can use the BRE Deployment Utility to publish and deploy the Business Rule E
     > [!NOTE]
     >  To undeploy the policies and vocabularies, click **Undeploy**. The undeploy process does not undeploy the A4SWIFT_CodeLists.xml and A4SWIFT_Functions.xml vocabularies, which might be used by other deployed policies.  
   
-5.  Locate \<*drive*>:\Documents and Settings\All Users\Application Data to confirm that the utility created the log file BREDeploymentLog.txt.  
+5.  Locate \<*drive*\>:\Documents and Settings\All Users\Application Data to confirm that the utility created the log file BREDeploymentLog.txt.  
   
     > [!NOTE]
     >  You can open the log file by using a text editor to confirm each deployment step.  

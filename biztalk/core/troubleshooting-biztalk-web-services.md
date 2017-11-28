@@ -20,7 +20,7 @@ This section offers advice on how to identify and resolve common Web service iss
 ## General Troubleshooting  
   
 ### Enabling Web Services Publishing Wizard tracing  
- You can enable tracing to debug the BizTalk Web Services Publishing Wizard by uncommenting the \<add> node in the BTSWebSvcWiz.exe.config file. For more information about obtaining trace information from the Web Services Publishing Wizard, see [How to Modify BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md).  
+ You can enable tracing to debug the BizTalk Web Services Publishing Wizard by uncommenting the \<add\> node in the BTSWebSvcWiz.exe.config file. For more information about obtaining trace information from the Web Services Publishing Wizard, see [How to Modify BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md).  
   
 ### Enabling SOAP message tracing  
  You can enable SOAP message tracing to help you debug the Web services publishing application by using a SOAP extension. For more information about SOAP extensions, see [How to: Implement a SOAP Extension](http://go.microsoft.com/fwlink/?LinkId=62314).  
@@ -30,7 +30,7 @@ This section offers advice on how to identify and resolve common Web service iss
   
  To debug your published Web service, you can add a switch to the web.config file to control the level of the exception details returned from the published Web service. The switch is **ThrowDetailedError**, and when it is set to **True** the server proxy returns inner exception information to the Web client, enabling you to debug the published Web service.  
   
- The following XML code shows the **ThrowDetailedError** switch that appears in the web.config file under the \<appSettings> node:  
+ The following XML code shows the **ThrowDetailedError** switch that appears in the web.config file under the \<appSettings\> node:  
   
 ```  
 <appSettings>  
@@ -156,7 +156,7 @@ This section offers advice on how to identify and resolve common Web service iss
   
  For more information about these and related considerations, see [Considerations When Consuming Web Services](../core/considerations-when-consuming-web-services.md).  
   
-### Why am I getting errors publishing my schema that uses the \<include> element?  
+### Why am I getting errors publishing my schema that uses the \<include\> element?  
  Schemas cannot be published if they include circular references (the included schema has an **include** element to the including schema) or have an unresolved **schemaLocation** attribute.  
   
  For more information about the limitation of the **include** element, see [Include Element Binding Support](http://go.microsoft.com/fwlink/?LinkId=62312). The Web Services Publishing Wizard has the same limitations as XSD.exe in .NET Framework 2.0; for more information, see [Import Element Binding Support](http://go.microsoft.com/fwlink/?LinkId=119606).  
@@ -166,7 +166,7 @@ This section offers advice on how to identify and resolve common Web service iss
   
 ##### To modify the generated Web project for envelope schemas  
   
-1.  Open the *\<myWebService>*.asmx.cs file.  
+1.  Open the *\<myWebService\>*.asmx.cs file.  
   
 2.  Edit the file and change `bodyTypeAssemblyQualifiedName = <dll.name.version>` to `bodyTypeAssemblyQualifiedName = null`  
   

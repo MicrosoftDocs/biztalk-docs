@@ -36,7 +36,7 @@ When you run the BAM data maintenance package (BAM_DM_`<activity name>`) BAM cop
   
 3.  On the **Query** menu, point to **Results To** and then click **Results to Text**.  
   
-4.  Copy the following SQL script into the query pane. Replace \<activity name> with your activity name, and replace `<view type>` with either **Instances** for instance view or **Relationships** for relationship view.  
+4.  Copy the following SQL script into the query pane. Replace \<activity name\> with your activity name, and replace `<view type>` with either **Instances** for instance view or **Relationships** for relationship view.  
   
     ```  
     set nocount on  

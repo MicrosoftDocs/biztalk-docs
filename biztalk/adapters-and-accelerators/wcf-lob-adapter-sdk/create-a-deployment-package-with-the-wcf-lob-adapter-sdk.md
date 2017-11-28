@@ -43,7 +43,7 @@ namespace Microsoft.Adapters.Samples.EchoV2
 {  
     //Custom action to register the adapter with WCF configuration in machine.config   
   
-    //\<system.serviceModel>  
+    //<system.serviceModel>  
     //  <extensions>  
     //    <bindingElementExtensions>  
     //      <add name="{BINDINGELEM_NAME}" type="{BINDINGELEM_TYPE}, {Assembly Information}" />  
@@ -55,7 +55,7 @@ namespace Microsoft.Adapters.Samples.EchoV2
     //  <client>  
     //    <endpoint binding="{BINDING_NAME}" contract="IMetadataExchange" name="{BINDING_SCHEME}" />  
     //  </client>  
-    //\</system.serviceModel>  
+    //</system.serviceModel>  
   
     [RunInstaller(true)]  
     public partial class WCFLOBAdapterInstaller : Installer  

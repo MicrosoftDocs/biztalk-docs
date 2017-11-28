@@ -35,7 +35,7 @@ These CAB files are used by the BizTalk Server setup.
 
 - SQL XML may have its own software requirements (such as `.NET Framework 3.5` and `.NET Framework 2.0`), which are not included in the CAB file. If the BizTalk Server has internet access, the SQL XML software requirements may automatically install. If the BizTalk Server does not have internet access, then manually install the SQL XML software requirements.
 
-- The CAB file install paths are also listed in the **Setup.xml** file in the install folder ([!INCLUDE[btsBizTalkServerPathx64_md](../includes/btsbiztalkserverpathx64-md.md)]\<your version>).
+- The CAB file install paths are also listed in the **Setup.xml** file in the install folder ([!INCLUDE[btsBizTalkServerPathx64_md](../includes/btsbiztalkserverpathx64-md.md)]\<your version\>).
   
 -   Some software required by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on your computer when you run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup.  
   

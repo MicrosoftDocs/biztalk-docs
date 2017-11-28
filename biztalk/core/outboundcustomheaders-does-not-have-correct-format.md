@@ -28,10 +28,10 @@ manager: "anneta"
 |Message Text|OutboundCustomHeaders does not have a correct format|  
   
 ## Explanation  
- The value of WCF.InboundHeaders or WCF.OutboundCustomHeaders  is not in the following format: \<headers>….\</headers>.  
+ The value of WCF.InboundHeaders or WCF.OutboundCustomHeaders  is not in the following format: \<headers\>….\</headers\>.  
   
 ## User Action  
- Wrap the property values with \<headers> element.  
+ Wrap the property values with \<headers\> element.  
   
  For further information, see the following resource in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
   

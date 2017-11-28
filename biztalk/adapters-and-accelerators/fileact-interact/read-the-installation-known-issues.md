@@ -32,7 +32,7 @@ manager: "anneta"
  When you are using InterAct or FileAct Store and Forward (SnF) mode, if the session with the queue is open and messages are not being pushed, then you must restart SNLreceiver.exe. This avoids an issue with SWIFT that can occur occasionally.  
   
 ## You Must Use CDATA when Passing Characters like "<" and "&" in message  
- The term CDATA is used about text data that should not be parsed by the XML parser.  Characters like "<" and "&" are illegal in XML elements. "<" will generate an error because the parser interprets it as the start of a new element. "&" will generate an error because the parser interprets it as the start of a character entity. Everything inside a CDATA section is ignored by the parser. A CDATA section starts with "\<![CDATA[" and ends with "]]>"  
+ The term CDATA is used about text data that should not be parsed by the XML parser.  Characters like "<" and "&" are illegal in XML elements. "<" will generate an error because the parser interprets it as the start of a new element. "&" will generate an error because the parser interprets it as the start of a character entity. Everything inside a CDATA section is ignored by the parser. A CDATA section starts with "\<![CDATA[" and ends with "]]\>"  
   
 ## You Must Use Passthrough Pipelines with Payload-Only Mode  
  If you are using payload-only mode for the InterAct adapter, you must use pass-through pipelines on both the send and receive ports if you are not using custom pipelines.  

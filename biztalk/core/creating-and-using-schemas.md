@@ -40,7 +40,7 @@ Next, set the target namespace.
   
 ## Set the target namespace  
   
-1.  In BizTalk Editor, open your schema file, right-click **\<schema>**, and then select **Properties**.  
+1.  In BizTalk Editor, open your schema file, right-click **\<schema\>**, and then select **Properties**.  
   
 2.  In the **Properties** pane, locate the **Namespace** field and type a name, for example, `testNameSpace`.  
   

@@ -37,7 +37,7 @@ The BizTalk process BTSNTSvc.exe is defined as **crashing** when the process is 
   
 8.  In the **Rule Completed** dialog click **Finish** to accept the default value of **Activate the rule now**.  
   
-9. By default, a memory dump of the process will be saved to the \Program Files\IIS Resources\DebugDiag\Logs\\<*name of crash rule*> directory of the local computer the next time that an unhandled exception occurs in the process.  
+9. By default, a memory dump of the process will be saved to the \Program Files\IIS Resources\DebugDiag\Logs\\<*name of crash rule*\> directory of the local computer the next time that an unhandled exception occurs in the process.  
   
 ## See Also  
  [How to Use Debug Diagnostics to Analyze a Memory Dump](../core/how-to-use-debug-diagnostics-to-analyze-a-memory-dump.md)

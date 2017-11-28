@@ -147,7 +147,7 @@ echo %TEMP%
   
  Cannot connect to the repository.  
   
- Analysis server: \<machine name>  
+ Analysis server: \<machine name\>  
   
  Error:  
   
@@ -171,7 +171,7 @@ echo %TEMP%
   
 4.  In the **Edit Repository Connection String** dialog box, verify the server name in this string and update it to the new computer name if it is incorrect.  
   
-5.  Navigate to the following location: \<*installation directory*>\Program Files\Microsoft Analysis Services\Bin.  
+5.  Navigate to the following location: \<*installation directory*\>\Program Files\Microsoft Analysis Services\Bin.  
   
 6.  Right-click the **Bin** folder, and then click **Sharing and Security**. The **Bin Properties** dialog box appears.  
   

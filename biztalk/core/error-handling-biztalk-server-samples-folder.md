@@ -165,7 +165,7 @@ The purpose of this sample is to build an error-handling functionality for the c
   
      Copy and paste this file into the **ExpenseReportIn** folder.  
   
-3.  You should see a new file called **ErrorReport_\<***date*_*time***>.xml** dropped into the **ExpenseReportOut** folder.  
+3.  You should see a new file called **ErrorReport_\<***date*_*time***\>.xml** dropped into the **ExpenseReportOut** folder.  
   
      Open this file and observe that this is the expense report submitted in the previous step but with the error information added at the beginning.  
   

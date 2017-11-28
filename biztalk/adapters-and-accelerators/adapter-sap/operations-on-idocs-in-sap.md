@@ -105,7 +105,7 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
     > [!NOTE]
     >  Using the **Receive** operation, you can also receive multiple IDOCs.  
   
--   **ReceiveIdoc**. Use this operation to receive an IDOC from the SAP system using a weakly-typed schema. The schema for this operation exposes IDOCs as a single string field consisting of the control record and data record. This operation receives IDOCs as a string in an XML message under the \<idocData> tag.  
+-   **ReceiveIdoc**. Use this operation to receive an IDOC from the SAP system using a weakly-typed schema. The schema for this operation exposes IDOCs as a single string field consisting of the control record and data record. This operation receives IDOCs as a string in an XML message under the \<idocData\> tag.  
   
      This is a single operation surfaced for all IDOCs exposed by the SAP system and is available under the root **IDOC** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
@@ -113,7 +113,7 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
   
 -   If set to "Typed", the XML schema is strongly typed to the specific IDOC being received. (The schema for this message can be seen from the Receive operations. Note that the schema is different for different IDOCs). This yields an XML IDOC.  
   
--   If set to "String", the incoming IDOC data is returned as a String value. (The schema for this message can be seen from the ReceiveIdoc operation). This yields an XML message with the \<idocData> tag.  
+-   If set to "String", the incoming IDOC data is returned as a String value. (The schema for this message can be seen from the ReceiveIdoc operation). This yields an XML message with the \<idocData\> tag.  
   
 -   If set to "Rfc", the message schema matches the RFC (or tRFC) schema for the RFC operations IDOC_INBOUND_ASYNCHRONOUS or INBOUND_IDOC_PROCESS, depending on the incoming IDOC version. If you specify this binding property you should use the IDOC_INBOUND_ASYNCHRONOUS or INBOUND_IDOC_PROCESS RFC to receive the IDOC. In the first two options, the adapter internally uses this RFC. In this option, you explicitly use this RFC to receive an IDOC.  
   

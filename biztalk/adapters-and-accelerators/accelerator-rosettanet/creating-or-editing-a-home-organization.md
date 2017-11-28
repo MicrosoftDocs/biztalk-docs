@@ -63,7 +63,7 @@ This topic describes how to create or edit a home organization. The home organiz
   
 4.  Right-click the home organization you want to edit, and then click **Properties**.  
   
-5.  In the *\<home organization>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed. For information about these settings, see the preceding table.  
+5.  In the *\<home organization\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed. For information about these settings, see the preceding table.  
   
 6.  Click **OK**.  
   

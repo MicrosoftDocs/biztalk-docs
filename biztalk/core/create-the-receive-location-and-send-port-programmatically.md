@@ -31,11 +31,11 @@ string server = System.Environment.MachineName;
 string database = "BizTalkMgmtDb";  
 string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
 string transportConfigData = @"<CustomProps>  
-  \<InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>  
-  \<UseSSO vt=""11"">0</UseSSO>  
-  \<Identity vt=""8"">  
+  <InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>  
+  <UseSSO vt=""11"">0</UseSSO>  
+  <Identity vt=""8"">  
     <identity>  
-    \<userPrincipalName value=""username@contoso.com"" />  
+    <userPrincipalName value=""username@contoso.com"" />  
     </identity>  
   </Identity>  
 </CustomProps>";  
@@ -80,7 +80,7 @@ You can use the following format to set the properties in `<CustomProps>`:
   <MessageClientCredentialType vt="8">UserName</MessageClientCredentialType>  
   <InboundBodyPathExpression vt="8" />  
   <SendTimeout vt="8">00:01:00</SendTimeout>  
-  <OutboundXmlTemplate vt="8">\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
   <OpenTimeout vt="8">00:01:00</OpenTimeout>  
   <Identity vt="8">  
     <identity>  
@@ -139,10 +139,10 @@ string server = System.Environment.MachineName;
 string database = "BizTalkMgmtDb";  
 string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
 string transportConfigData = @"<CustomProps>  
-                                 \<StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>  
-                                 \<MessageEncoding vt=""8"">Text</MessageEncoding>  
-                                 \<TextEncoding vt=""8"">utf-8</TextEncoding>  
-                                 \<OpenTimeout vt=""8"">00:01:00</OpenTimeout>  
+                                 <StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>  
+                                 <MessageEncoding vt=""8"">Text</MessageEncoding>  
+                                 <TextEncoding vt=""8"">utf-8</TextEncoding>  
+                                 <OpenTimeout vt=""8"">00:01:00</OpenTimeout>  
                                </CustomProps>";  
 //requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
 BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
@@ -174,7 +174,7 @@ You can use the following format to set the properties in `<CustomProps>`:
   <MessageClientCredentialType vt="8">UserName</MessageClientCredentialType>  
   <InboundBodyPathExpression vt="8" />  
   <SendTimeout vt="8">00:01:00</SendTimeout>  
-  <OutboundXmlTemplate vt="8">\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
   <OpenTimeout vt="8">00:01:00</OpenTimeout>  
   <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>  
   <SecurityMode vt="8">None</SecurityMode>  
@@ -217,7 +217,7 @@ The following table lists the configuration properties that you can set for the 
 |**InboundBodyPathExpression**|String<br /><br /> For more information about how to use the **InboundBodyPathExpression** property, see [WCF Adapters Property Schema and Properties](../core/wcf-adapters-property-schema-and-properties.md).|Specify the body path expression to identify a specific part of an incoming message used to create the BizTalk message body part. This body path expression is evaluated against the immediate child element of the SOAP **Body** node of an incoming message. If this body path expression returns more than one node, only the first node is chosen for the BizTalk message body part. This property is required if the **InboundBodyLocation** property is set to **UseBodyPath**. This property is valid only for solicit-response ports.<br /><br /> The default is an empty string.|  
 |**OutboundXMLTemplate**|String<br /><br /> For more information about how to use the **OutboundXMLTemplate** property, see [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Specify the XML-formatted template for the content of the SOAP **Body** element of an outgoing message. This property is required if the **OutboundBodyLocation** property is set to **UseTemplate**.<br /><br /> The default is an empty string.|  
 |**InboundNodeEncoding**|Enum<br /><br /> -   **Base64** - Base64 encoding.<br />-   **Hex** - Hexadecimal encoding.<br />-   **String** - Text encoding - UTF-8<br />-   **XML** - The WCF adapters create the BizTalk message body with the outer XML of the node selected by the body path expression in **InboundBodyPathExpression**.|Specify the type of encoding that the WCF-BasicHttp send adapter uses to decode the node identified by the body path expression specified in **InboundBodyPathExpression**. This property is required if the **InboundBodyLocation** property is set to **UseBodyPath**. This property is valid only for solicit-response ports.<br /><br /> Default value: **XML**|  
-|**StaticAction**|String|Specify the **SOAPAction** HTTP header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format—for example, http://contoso.com/Svc/Op1—the **SOAPAction** header for outgoing messages is always set to the value specified in this property.<br /><br /> If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to Op1, the WCF send adapter uses http://contoso.com/Svc/Op1 for the outgoing **SOAPAction** header.<br /><br /> \<BtsActionMapping><br /><br /> \<Operation Name="Op1" Action="http://contoso.com/Svc/Op1" /><br /><br /> \<Operation Name="Op2" Action="http://contoso.com/Svc/Op2" /><br /><br /> \</BtsActionMapping><br /><br /> If outgoing messages come from an orchestration port, orchestration instances dynamically set the **BTS.Operation** property with the operation name of the port. If outgoing messages are routed with content-based routing, you can set the **BTS.Operation** property in pipeline components.<br /><br /> The default is an empty string.|  
+|**StaticAction**|String|Specify the **SOAPAction** HTTP header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format—for example, http://contoso.com/Svc/Op1—the **SOAPAction** header for outgoing messages is always set to the value specified in this property.<br /><br /> If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to Op1, the WCF send adapter uses http://contoso.com/Svc/Op1 for the outgoing **SOAPAction** header.<br /><br /> \<BtsActionMapping\><br /><br /> \<Operation Name="Op1" Action="http://contoso.com/Svc/Op1" /\><br /><br /> \<Operation Name="Op2" Action="http://contoso.com/Svc/Op2" /\><br /><br /> \</BtsActionMapping\><br /><br /> If outgoing messages come from an orchestration port, orchestration instances dynamically set the **BTS.Operation** property with the operation name of the port. If outgoing messages are routed with content-based routing, you can set the **BTS.Operation** property in pipeline components.<br /><br /> The default is an empty string.|  
 |**MaxReceivedMessageSize**|Integer|Specify the maximum size, in bytes, for a message (including headers) that can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br /><br /> The WCF-BasicHttp adapter leverages the [BasicHttpBinding](http://go.microsoft.com/fwlink/?LinkId=81086) class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [BasicHttpBinding.MaxBufferSize](http://go.microsoft.com/fwlink/?LinkId=80659) property is always equal to the value of this property.<br /><br /> Default value: 65,536|  
 |**MessageEncoding**|Enum<br /><br /> -   **Text** - Use a text message encoder.<br />-   **Mtom** - Use a Message Transmission Organization Mechanism 1.0 (MTOM) encoder.|Specify the encoder used to encode the SOAP message.<br /><br /> Default value: **Text**|  
 |**TextEncoding**|Enum<br /><br /> -   **unicodeFFF** - Unicode BigEndian encoding.<br />-   **utf-16** - 16-bit encoding.<br />-   **utf-8** - 8-bit encoding|Specify the character set encoding to be used for emitting messages on the binding when the **MessageEncoding** property is set to **Text**.<br /><br /> Default value: **utf-8**|  

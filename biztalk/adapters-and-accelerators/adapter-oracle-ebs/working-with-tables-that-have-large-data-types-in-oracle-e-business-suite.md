@@ -17,16 +17,16 @@ manager: "anneta"
 # Working with tables that have large data types in Oracle E-Business Suite
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform operations on interface tables and views with large data types such as BLOB, CLOB, NCLOB, and BFILE.  
   
--   For columns of type BLOB, CLOB, and NCLOB the adapter enables clients to read as well as update data. The adapter exposes Read_\<LOBColName> and Update_\<LOBColName> operations to read and update data respectively, where \<LOBColName> is the name of column with large data type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read and update operations for that interface table.  
+-   For columns of type BLOB, CLOB, and NCLOB the adapter enables clients to read as well as update data. The adapter exposes Read_\<LOBColName\> and Update_\<LOBColName\> operations to read and update data respectively, where \<LOBColName\> is the name of column with large data type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read and update operations for that interface table.  
   
--   For columns of type BFILE, adapter clients can only read data. The adapter exposes Read_\<LOBColName> operation to read data from columns of BFILE type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read operations for the interface table.  
+-   For columns of type BFILE, adapter clients can only read data. The adapter exposes Read_\<LOBColName\> operation to read data from columns of BFILE type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read operations for the interface table.  
   
  For more information about these operations, see [Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md). For information about message schemas for performing these operations, see [Message Schemas for Special LOB Operations](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-special-lob-operations1.md).  
   
 ## How to Perform Operations on Columns with Large Data Types  
  Performing an operation on Oracle E-Business Suite by using [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create Oracle E-Business Suite applications](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md). To perform operations on interface tables and interface views in Oracle E-Business Suite that contain large data types, these tasks are:  
   
-1.  Create a BizTalk project, and generate schema for the operation (Read_\<LOBColName> or Update_\<LOBColName>) you want to invoke on a table or view.  
+1.  Create a BizTalk project, and generate schema for the operation (Read_\<LOBColName\> or Update_\<LOBColName\>) you want to invoke on a table or view.  
   
 2.  Create messages in the BizTalk project for sending and receiving messages from the Oracle E-Business Suite.  
   
@@ -218,7 +218,7 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
         -   Because the WCF-Custom or WCF-OracleEBS send port sends and receives messages conforming to more than one schema and performs two operations, you must set dynamic action for both the operations. For more information about actions, see [Configure the SOAP Action for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-soap-action-for-oracle-e-business-suite.md). For this orchestration, the action should be set as follows:  
   
             ```  
-            \<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+            <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
               <Operation Name="Update_LOB" Action="Tables/UpdateBlob/SCOTT/CUSTOMER/PHOTO" />  
               <Operation Name="Read_LOB" Action="Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO" />  
             </BtsActionMapping>  
@@ -275,14 +275,14 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
  The orchestration consumes the message and sends it to Oracle database. The response from Oracle database is saved at the other FILE location defined as part of the orchestration. For example, the response from Oracle database for the preceding request message resembles the following:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Update_PHOTOResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/CUSTOMER" />  
 ```  
   
  The orchestration now constructs a request message for the **Read_PHOTO** operation by using the request message available at C:\TestLocation\MessageIn. The request message is sent to Oracle database and the response is saved at the same FILE location. The response for the read operation on PHOTO column resembles the following:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Read_PHOTOResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/CUSTOMER">  
   <Read_PHOTOResult>U2FtcGxlIERhdGE=</Read_PHOTOResult>  
 </Read_PHOTOResponse>  

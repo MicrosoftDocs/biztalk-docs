@@ -40,14 +40,14 @@ The BAM Management utility database commands allow you to work with the BAM data
 ## setup-databases Command  
  **Usage**  
   
- **bm.exe setup-databases-ConfigFile:\<configuration file>[ -NSUser:\<notifications service user name> ][ -NSUserPassword:\<notifications service user password> ]**  
+ **bm.exe setup-databases-ConfigFile:\<configuration file\>[ -NSUser:\<notifications service user name\> ][ -NSUserPassword:\<notifications service user password\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|ConfigFile:\<configuration file>|The BAM configuration file from which to create the database.|  
-|NSUser:\<notifications service user name>|Optional: The user ID of a notifications services user with permissions to create databases.|  
+|ConfigFile:\<configuration file\>|The BAM configuration file from which to create the database.|  
+|NSUser:\<notifications service user name\>|Optional: The user ID of a notifications services user with permissions to create databases.|  
 |NSUserPassword|Optional: The password for the specified notifications services user.|  
   
  Creates the databases described in the configuration file (BAM Primary Import, BAM Star Schema, BAM Archive, BAM Analysis, and alerts) if they do not already exist. Once the databases are created, the command creates the associated BAM metadata tables and stored procedures.  
@@ -78,11 +78,11 @@ bm.exe setup-databases -ConfigFile:cfg.xml -NSUser:domain\user1
 ## migrate-sql Command  
  **Usage**  
   
- **bm.exe migrate-sql -From:sql2000 -To:sql2008 [ -NSUser:\<notifications service user name> ][ -NSUserPassword:\<notifications service user password> ][ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe migrate-sql -From:sql2000 -To:sql2008 [ -NSUser:\<notifications service user name\> ][ -NSUserPassword:\<notifications service user password\> ][ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  \- Or -  
   
- **bm.exe migrate-sql -From:sql2005 -To:sql2008 [ -NSUser:\<notifications service user name> ][ -NSUserPassword:\<notifications service user password> ][ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe migrate-sql -From:sql2005 -To:sql2008 [ -NSUser:\<notifications service user name\> ][ -NSUserPassword:\<notifications service user password\> ][ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
@@ -92,10 +92,10 @@ bm.exe setup-databases -ConfigFile:cfg.xml -NSUser:domain\user1
 |To:sql2008|Specifies that you are converting to a Microsoft SQL Server 2008 database.|  
 |From: sql2005|Specifies that you are converting from a Microsoft SQL Server 2005 database.|  
 |To:sql2008|Specifies that you are converting to a Microsoft SQL Server 2008 database.|  
-|NSUser:\<notifications service user name>|Optional: The user ID of a Notifications Services user with permissions to create databases.|  
+|NSUser:\<notifications service user name\>|Optional: The user ID of a Notifications Services user with permissions to create databases.|  
 |NSUserPassword|Optional: The password for the specified Notifications Services user.|  
-|Server:\<server>|Optional: The name of the server on which the converted database will reside. The server must be in the same domain as the computer hosting the Microsoft SQL Server 2008 database. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: Then name of the converted database. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|Server:\<server\>|Optional: The name of the server on which the converted database will reside. The server must be in the same domain as the computer hosting the Microsoft SQL Server 2008 database. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: Then name of the converted database. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Migrates the BAM infrastructure from Microsoft SQL Server 2000 or Microsoft SQL Server 2005 to Microsoft SQL Server 2008. Use this command after you upgrade your database server and Analysis server from Microsoft SQL Server 2000 or Microsoft SQL Server 2005 to Microsoft SQL Server 2008.  
   
@@ -104,7 +104,7 @@ bm.exe setup-databases -ConfigFile:cfg.xml -NSUser:domain\user1
  To migrate the SQL Server Notification Services databases, you must have administrator permissions and be a member of the local administrators group, as well as be a member of any other additional administrative groups that have been configured, such as the BTS Admins group.  
   
 > [!NOTE]
->  If you receive the error message "ERROR: Cannot start service NS$BAMAlerts on computer '\<computer name>'. The service did not respond to the start or control request in a timely fashion.", try restarting the service manually. If the SQL Server is extremely busy during a migration, the service may not restart.  
+>  If you receive the error message "ERROR: Cannot start service NS$BAMAlerts on computer '\<computer name\>'. The service did not respond to the start or control request in a timely fashion.", try restarting the service manually. If the SQL Server is extremely busy during a migration, the service may not restart.  
   
 > [!NOTE]
 >  To run the migrate-sql command on the computer where Notification Services is installed, you must belong to the Local Administrators group on that computer.  
@@ -124,16 +124,16 @@ bm.exe migrate-sql -From:sql2005 -To:sql2008 -Server:MyServer -Database:db1
 ## enable-reference Command  
  **Usage**  
   
- **bm.exe enable-reference -TargetServer:\<target server> -TargetDatabase:\<target database>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe enable-reference -TargetServer:\<target server\> -TargetDatabase:\<target database\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|TargetServer:\<target server>|The name of the server to which the reference is enabled. The server must be in the same domain as the computer from which you are running bm.exe.|  
-|TargetDatabase:\<target database>|The name of the database to which the reference is enabled.|  
-|Server:\<server>|Optional: The name of the server which will have a reference enabled to the target server and database. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database which will have a reference enabled to the target server and database. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|TargetServer:\<target server\>|The name of the server to which the reference is enabled. The server must be in the same domain as the computer from which you are running bm.exe.|  
+|TargetDatabase:\<target database\>|The name of the database to which the reference is enabled.|  
+|Server:\<server\>|Optional: The name of the server which will have a reference enabled to the target server and database. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database which will have a reference enabled to the target server and database. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Enables a reference to another distributed BAM Primary Import database. This allows subscriptions from the current database to the view and activity metadata on the target BAM Primary Import database. You use this to enable navigation of the distributed activities.  
   
@@ -149,14 +149,14 @@ bm.exe enable-reference -TargetServer:s2 -TargetDatabase:db1 -Server:s1
 ## get-references Command  
  **Usage**  
   
- **bm.exe get-references [ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe get-references [ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|Server:\<server>|Optional: The name of the server on which to get a list of references. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which to get a list of references. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|Server:\<server\>|Optional: The name of the server on which to get a list of references. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which to get a list of references. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Lists the references enabled on the computer on which the command is executed.  
   
@@ -170,16 +170,16 @@ bm.exe get-references -Server:MyServer -Database:MyPrimaryImport
 ## disable-reference Command  
  **Usage**  
   
- **bm.exe disable-reference -TargetServer:\<target server> -TargetDatabase:\<target database>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe disable-reference -TargetServer:\<target server\> -TargetDatabase:\<target database\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|TargetServer:\<target server>|The name of the server on which to disable the references. The server must be in the same domain as the computer from which you are running bm.exe.|  
-|TargetDatabase:\<target database>|The name of the database on which to disable the references.|  
-|Server:\<server>|Optional: The name of the server on which references to the target server and database are to be disabled. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which references to the target server and database are to be disabled. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|TargetServer:\<target server\>|The name of the server on which to disable the references. The server must be in the same domain as the computer from which you are running bm.exe.|  
+|TargetDatabase:\<target database\>|The name of the database on which to disable the references.|  
+|Server:\<server\>|Optional: The name of the server on which references to the target server and database are to be disabled. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which references to the target server and database are to be disabled. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Disables a reference to another distributed BAM Primary Import database on the target server.  
   

@@ -39,7 +39,7 @@ The V2.4 schemas are commonly referenced schemas, which you use to validate the 
   
 8.  In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.  
   
-9. In the **Assembly Key File** dialog box, browse to \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial, click **key.snk**, and then click **Open**.  
+9. In the **Assembly Key File** dialog box, browse to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial, click **key.snk**, and then click **Open**.  
   
 10. In the Interrogative_24Schemas Property Pages dialog box, click **OK** to save your changes.  
   

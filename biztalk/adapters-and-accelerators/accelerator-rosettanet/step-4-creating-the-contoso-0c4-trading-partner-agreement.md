@@ -22,7 +22,7 @@ In this step, you create a trading partner agreement between Contoso and Fabrika
   
 ### To start the BTARN Management Console  
   
--   Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version> Accelerator for RosettaNet**, and then click [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] Management Console.  
+-   Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version\> Accelerator for RosettaNet**, and then click [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] Management Console.  
   
 ### To create the 0C4 trading partner agreement  
   

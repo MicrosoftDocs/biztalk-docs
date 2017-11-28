@@ -59,7 +59,7 @@ The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md
     > [!IMPORTANT]
     >  If you are using the SAP SNC library to connect to an SAP system, set the **SncLibrary** and **SncPartnerName** to appropriate values.  
     >   
-    >  The **SncLibrary** binding property takes the path and the filename of the DLLs required for using SNC to connect to an SAP system. These DLLs must be present on the computer with the SAP client and [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] installed. For more information see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide available at \<installation guide>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+    >  The **SncLibrary** binding property takes the path and the filename of the DLLs required for using SNC to connect to an SAP system. These DLLs must be present on the computer with the SAP client and [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] installed. For more information see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide available at \<installation guide\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
     >   
     >  The **SncPartnerName** binding property takes the SNC name of the communication partner.  
   

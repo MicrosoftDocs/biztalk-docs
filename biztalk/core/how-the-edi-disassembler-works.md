@@ -33,7 +33,7 @@ manager: "anneta"
   
 -   Converts the entire interchange to XML if the **Inbound batch processing option** property is set to one of the two **Preserve Interchange** values. This property can is set from the **Local Host Settings** page under **Interchange Settings** of the bi-directional agreement tab of the **Agreement Properties** dialog box. The receive pipeline promotes the property ReuseEnvelope to identify the interchange as preserved.  
   
--   Generates a Technical and/or Functional acknowledgment (if configured). This can include batching the acknowledgments (if configured). Promotes the context property of BTS.MessageType, setting it equal to the control schema in the http://schemas.microsoft.com/EDI/\<X12 or EDIFACT> namespace (for example, X12_997_Root for a 997 acknowledgment). Also promotes the EDI.DestinationPartyName context property, which ensures that the acknowledgment will be picked up for sending. For more information, see [Sending an EDI Acknowledgment](../core/sending-an-edi-acknowledgment.md).  
+-   Generates a Technical and/or Functional acknowledgment (if configured). This can include batching the acknowledgments (if configured). Promotes the context property of BTS.MessageType, setting it equal to the control schema in the http://schemas.microsoft.com/EDI/\<X12 or EDIFACT\> namespace (for example, X12_997_Root for a 997 acknowledgment). Also promotes the EDI.DestinationPartyName context property, which ensures that the acknowledgment will be picked up for sending. For more information, see [Sending an EDI Acknowledgment](../core/sending-an-edi-acknowledgment.md).  
   
 -   Performs HIPAA 276/277 (version 5010 only) 834, 835 (version 4010 only) and 837 document splitting, if applicable.  
   

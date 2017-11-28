@@ -21,7 +21,7 @@ If you are migrating schemas from a previous version of BizTalk Server, you will
   
 1.  In **Solution Explorer**, right-click the relevant BizTalk project, point to **Add**, and then click **Add Generated Items**.  
   
-2.  In the **Add Generated Item - \<*BizTalk ProjectName*>** dialog box, in the **Templates** section, click **Generate Schemas**, and then click **Add**.  
+2.  In the **Add Generated Item - \<*BizTalk ProjectName*\>** dialog box, in the **Templates** section, click **Generate Schemas**, and then click **Add**.  
   
 3.  In the **Generate Schemas** dialog box, in the **Document type** list, select **XDR Schema**.  
   

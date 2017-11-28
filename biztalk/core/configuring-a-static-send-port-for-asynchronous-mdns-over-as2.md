@@ -28,7 +28,7 @@ This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../in
 |**Send Port Properties: General**|Transport Type|HTTP **Note:**  Only the HTTP adapter can be used for transporting EDIINT/AS2-encoded messages. This transport will not work with an adapter other than the HTTP adapter.|  
 |**Send Port Properties: General**|Send handler|BizTalkServerApplication|  
 |**Send Port Properties: General**|Send pipeline|AS2Send|  
-|**HTTP Transport Properties**|Destination URL|\<Destination URL string>|  
+|**HTTP Transport Properties**|Destination URL|\<Destination URL string\>|  
 |**HTTP Transport Properties**|Enable chunked encoding|Cleared|  
 |**Send Port Properties: Filters**|Property|EdiIntAS.IsAS2AsynchronousMdn **Note:**  You should also specify additional filter expressions to ensure that only MDN messages destined to the address specified in this send port are picked up by this subscription filter.|  
 |**Send Port Properties: Filters**|Operator|==|  

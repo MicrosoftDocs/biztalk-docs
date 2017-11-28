@@ -234,7 +234,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
 |BizTalk Server Administrators|Global or Universal|-   BTUserAdmin<br />-   BTUserInstall<br />-   BizTalk Development Users<br />-   BizTalk Deployment Users|  
 |BizTalk Support Users|Global or Universal|BTUserSupport (local domain accounts of support users)|  
 |SSO Administrators|Global or Universal|-   SSOService<br />-   BTUserInstall<br />-   Local Administrator|  
-|SSO Affiliate Administrators|Global or Universal|-   BizTalk Development Users<br />-   BizTalk Deployment Users<br />-   BTServiceHostIso<br />-   \<console user>|  
+|SSO Affiliate Administrators|Global or Universal|-   BizTalk Development Users<br />-   BizTalk Deployment Users<br />-   BTServiceHostIso<br />-   \<console user\>|  
 |Windows SharePoint Services Administrators|Global or Universal|-   SPAdmin<br />-   BTUserInstall<br />-   BTUserDeploy<br />-   BizTalk Development Users<br />-   BizTalk Deployment users|  
   
  Recommendations and notes on domain groups:  
@@ -243,7 +243,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
 -   Domain groups can be Global or Universal groups.  
   
--   Use *\<DomainName>\\<UserName\>* when specifying domain account information in the Configuration Wizard.  
+-   Use *\<DomainName\>\\<UserName\>* when specifying domain account information in the Configuration Wizard.  
   
 -   Groups and user/service accounts must belong to the domain in which the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer belongs (the Configuration Wizard checks this and will not display accounts or groups containing accounts from other domains).  
   
@@ -333,7 +333,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
 >  These recommendations are for development and shared environments only and do not recommend or discourage the use of corporate password policies. See your network administrator for password requirements.  
   
 > [!NOTE]
->  If corporate password policy includes generated passwords, be advised that some symbols and symbol combinations are special-use characters to XML. Inappropriate use of these characters will prevent configuration XML files from being opened during the configuration process. These symbols include "&", "\<", ">", single- and double-quote, and may include others. Test the configuration XML file prior to executing file-based configuration. You can test this reliably for proper XML formatting by opening the document in Internet Explorer (or an XML editor) with the generated passwords embedded therein.  
+>  If corporate password policy includes generated passwords, be advised that some symbols and symbol combinations are special-use characters to XML. Inappropriate use of these characters will prevent configuration XML files from being opened during the configuration process. These symbols include "&", "\<", "\>", single- and double-quote, and may include others. Test the configuration XML file prior to executing file-based configuration. You can test this reliably for proper XML formatting by opening the document in Internet Explorer (or an XML editor) with the generated passwords embedded therein.  
   
  For more information about deployment of secure passwords in up-line environments (including the method to test a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration file), see [Configuration Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
   

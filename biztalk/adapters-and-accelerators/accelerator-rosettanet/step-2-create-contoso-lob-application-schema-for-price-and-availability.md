@@ -66,7 +66,7 @@ In this step, you generate the schema to use to query the Contoso ERP system for
   
 10. On the **Statement type information** page, select **Stored Procedure**, and then click **Next**.  
   
-11. On the **Statement Information** page, for **\<Select a stored procedure>**, select **SP_GetInventoryForProductID** from the drop-down list. Click **Generate**, and then click **Next**.  
+11. On the **Statement Information** page, for **\<Select a stored procedure\>**, select **SP_GetInventoryForProductID** from the drop-down list. Click **Generate**, and then click **Next**.  
   
 12. On the **Completing the SQL Transport Schema Generation Wizard** page, click **Finish** to import the schema into the ContosoPriceAndAvailability BizTalk project.  
   

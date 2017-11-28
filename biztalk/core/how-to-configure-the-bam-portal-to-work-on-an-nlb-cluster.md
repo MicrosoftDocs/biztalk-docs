@@ -141,7 +141,7 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
     > [!NOTE]
     >  The purpose of this command is to grant the BAM Application Pool user read access to the SOFTWAREMicrosoftBizTalk Server3.0BAMWebServicesidentity registry key. The example uses Network Service since it is the default used by IIS for Application Pool. If you do not use the default IIS settings, you should substitute the application pool user that your deployment uses.  
   
-16. Type the following at the command prompt: subinacl.exe /keyreg "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0" "/grant=\<BAM WebService Account>”  
+16. Type the following at the command prompt: subinacl.exe /keyreg "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0" "/grant=\<BAM WebService Account\>”  
   
     > [!NOTE]
     >  The purpose of this command is to grant the BAM Management Web Service User account read access to the SOFTWARE\Microsoft\BizTalk Server\3.0\BAM\WebServices\Identity registry key.  
@@ -150,7 +150,7 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
   
 18. Use the Computer Management administrator tool to add the BAM Management Web service user and the BAM application pool user account to the IIS Worker Process Group (IIS_WPG) and SharePoint services group (STS_WPG).  
   
-19. Set the permissions on the temporary ASP.NET folders for the applications pool and Web service users: c:\windows\system32\cacls "%windir%\Microsoft.NET\Framework\ v2.0.\<min version number>\Temporary ASP.NET Files" /T /E /G \<BAM WebService Account>:F  
+19. Set the permissions on the temporary ASP.NET folders for the applications pool and Web service users: c:\windows\system32\cacls "%windir%\Microsoft.NET\Framework\ v2.0.\<min version number\>\Temporary ASP.NET Files" /T /E /G \<BAM WebService Account\>:F  
   
     > [!NOTE]
     >  You grant access to both the BAM Management Web Service User account and the BAM App Pool User account.  

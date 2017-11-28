@@ -19,7 +19,7 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
   
 ## Prerequisites  
   
--   This sample requires that the HelloWorld sample be deployed by running setup.bat located in the \<*Samples Path*>\Orchestrations\HelloWorld directory.  
+-   This sample requires that the HelloWorld sample be deployed by running setup.bat located in the \<*Samples Path*\>\Orchestrations\HelloWorld directory.  
   
 -   You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.  
   
@@ -39,7 +39,7 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\OrchestrationBinding  
+ \<*Samples Path*\>\Admin\ExplorerOM\OrchestrationBinding  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -62,7 +62,7 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
   
 1.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\OrchestrationBinding\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\OrchestrationBinding\bin\Debug  
   
 2.  Run the file OrchestrationBinding.exe and follow the directions provided by the sample.  
   

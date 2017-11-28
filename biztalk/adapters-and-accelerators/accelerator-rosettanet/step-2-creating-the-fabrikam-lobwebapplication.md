@@ -37,7 +37,7 @@ In this step, you create the LOB application that Fabrikam uses to submit a 3A2 
   
 5.  On the **Virtual Directory Alias** page, in the **Alias** box, type **LOBWebApplication**, and then click **Next**.  
   
-6.  On the **Web Site Content Directory** page, click **Browse**, select the **\<drive>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\LOBWebApplication** folder, and then click **OK**. Click **Next**.  
+6.  On the **Web Site Content Directory** page, click **Browse**, select the **\<drive\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication** folder, and then click **OK**. Click **Next**.  
   
 7.  On the **Virtual Directory Access Permissions** page, click **Next**.  
   
@@ -66,11 +66,11 @@ In this step, you create the LOB application that Fabrikam uses to submit a 3A2 
   
 2.  From the **File** menu, point to **Open**, and then click **Project\Solution**.  
   
-3.  In the Open Project dialog box, in **Look In**, move to **\<drive>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\ SDK\LOBWebApplication**, select the **LOBWebApplication.sln** solution, and then click **Open**.  
+3.  In the Open Project dialog box, in **Look In**, move to **\<drive\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\ SDK\LOBWebApplication**, select the **LOBWebApplication.sln** solution, and then click **Open**.  
   
 4.  In Solution Explorer, right-click the top node (http://localhost/LOBWebApplication), and then click **Add Reference**.  
   
-5.  In the Add Reference dialog box, click **Browse** and move to **\<drive>:\Program Files\Microsoft  BizTalk \<version> Accelerator for RosettaNet\bin**.  
+5.  In the Add Reference dialog box, click **Browse** and move to **\<drive\>:\Program Files\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\bin**.  
   
 6.  **Select the Microsoft.Solutions.BTARN.ConfigurationManager.dll and Microsoft.Solutions.BTARN.Shared.dll** assemblies **and then click OK.**  
   

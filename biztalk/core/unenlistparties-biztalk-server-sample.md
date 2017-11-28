@@ -46,7 +46,7 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
 ## Where to Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\UnenlistParties\  
+ \<*Samples Path*\>\Admin\ExplorerOM\UnenlistParties\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -64,12 +64,12 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
+     \<*Samples Path*\>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
   
 2.  Run the file UnenlistParties.exe, passing one of the two following command-line arguments:  
   
-    -   **\<**   
-         ***AssemblyName* >**. The name of an assembly from which all associated parties are to be unenlisted. If the assembly name contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***AssemblyName* \>**. The name of an assembly from which all associated parties are to be unenlisted. If the assembly name contains spaces, enclose the name in quotes.  
   
     -   **/?.** Displays help.  
   
@@ -179,7 +179,7 @@ else
   
 ```  
   
- The following script output was generated from unenlisting parties from the Supplier assembly which is part of the PartyResolution sample. The PartyResolution sample is located in the \<*Samples Path*>\Admin\Orchestrations\PartyResolution directory.  
+ The following script output was generated from unenlisting parties from the Supplier assembly which is part of the PartyResolution sample. The PartyResolution sample is located in the \<*Samples Path*\>\Admin\Orchestrations\PartyResolution directory.  
   
 ```  
 PS C:\> .\UnenlistParties.ps1 Supplier  

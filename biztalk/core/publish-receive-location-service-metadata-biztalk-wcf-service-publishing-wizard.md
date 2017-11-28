@@ -68,7 +68,7 @@ You use the BizTalk WCF Service Publishing Wizard to create a WCF service to pub
   
      ![WCF Service Properties page](../core/media/07518c78-bcae-4274-bb14-aeef107ee4c6.gif "07518c78-bcae-4274-bb14-aeef107ee4c6")  
   
-9. On the **WCF Service Location** page, in the **Location** text box, type the Web directory name where the WCF services are generated. You can accept the default location (http://localhost/\<*BizTalk Assembly Name*>), type a location for the WCF services in the **Location** text box, or click **Browse** and select a Web directory. Select any of the following options:  
+9. On the **WCF Service Location** page, in the **Location** text box, type the Web directory name where the WCF services are generated. You can accept the default location (http://localhost/<*BizTalk Assembly Name*>), type a location for the WCF services in the **Location** text box, or click **Browse** and select a Web directory. Select any of the following options:  
   
     -   **Overwrite existing project.** This option is available only if the Web directory already exists. You will be able to publish to the same location only if you select this option. Otherwise, you must enter a different project location.  
   
@@ -79,10 +79,10 @@ You use the BizTalk WCF Service Publishing Wizard to create a WCF service to pub
      ![WCF Service location page](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
   
     > [!NOTE]
-    >  The project location can exist on a different server. To publish the WCF services to a different server, type the project name as http://\<*servername*>/\<*WCF service location*>.  
+    >  The project location can exist on a different server. To publish the WCF services to a different server, type the project name as http://<*servername*>/<*WCF service location*>.  
   
     > [!NOTE]
-    >  The project location can exist on a non-default Web site. When publishing to a non-default Web site, include the port number of the Web site in the URL. For example, http://\<*servername*>:8080/\<*WCF service location*>.  
+    >  The project location can exist on a non-default Web site. When publishing to a non-default Web site, include the port number of the Web site in the URL. For example, http://<*servername*>:8080/<*WCF service location*>.  
   
     > [!NOTE]
     >  The BindingInfo.xml file that the wizard creates in the App_DataTemp folder of the Web application uses the default values for the pipelines. The default value for the receive pipeline is the **Microsoft.BizTalk.DefaultPipelines.XMLReceive** pipeline, and the default value for the send pipeline is the **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit** pipeline.  
@@ -102,7 +102,7 @@ You use the BizTalk WCF Service Publishing Wizard to create a WCF service to pub
   
 2.  Open a command prompt, go to the folder where the BizTalk WCF Service Publishing Wizard created the WCF services in %SystemDrive%\InetPub\\, and then open the Web.config file using Notepad.  
   
-3.  In Notepad, add the following line inside the **\<system.web>** element:  
+3.  In Notepad, add the following line inside the **\<system.web\>** element:  
   
     ```  
     <trust level="Full" originUrl="" />  
@@ -123,7 +123,7 @@ You use the BizTalk WCF Service Publishing Wizard to create a WCF service to pub
   
     1.  In Notepad, open Web.config in the folder where the BizTalk WCF Service Publishing Wizard created the WCF service in %SystemDrive%\InetPub\\.  
   
-    2.  In Notepad, set the  the **httpGetEnabled** attribute in the  **\<serviceMetadata>** element to false as in the following line:  
+    2.  In Notepad, set the  the **httpGetEnabled** attribute in the  **\<serviceMetadata\>** element to false as in the following line:  
   
         ```  
         <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  

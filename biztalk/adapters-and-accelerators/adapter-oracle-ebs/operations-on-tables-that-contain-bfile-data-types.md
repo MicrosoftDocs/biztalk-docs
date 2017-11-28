@@ -29,7 +29,7 @@ The following table summarizes the BFILE data type exposed by the adapter based 
 |STORED PROC|OUT PARAM|String|Represents the logical Oracle directory path to the file to be inserted into the BFILE column<br /><br /> E.g. MYDIR/screen.jpg where MYDIR is a logical directory in Oracle|  
 |STORED PROC|INOUT PARAM|Not Supported|-|  
   
- The special operation `Read_<LOBColName>` is also supported on tables with BFILE data type, where \<LOBColName> is the LOB column name in the table. The `Update_<LOBColName>` operation is not supported for BFILE data type. Adapter clients can alternately use the Update operation.  
+ The special operation `Read_<LOBColName>` is also supported on tables with BFILE data type, where \<LOBColName\> is the LOB column name in the table. The `Update_<LOBColName>` operation is not supported for BFILE data type. Adapter clients can alternately use the Update operation.  
   
 ## More good info  
   

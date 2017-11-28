@@ -31,7 +31,7 @@ The purpose of this sample is to build a message aggregation functionality using
 3.  Produces an XML interchange message every minute or as soon as it has enough messages to aggregate.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Pipelines\Aggregator  
+ *\<Samples Path\>*\Pipelines\Aggregator  
   
  The following table lists the files for this sample.  
   
@@ -58,13 +58,13 @@ The purpose of this sample is to build a message aggregation functionality using
   
 1.  In a command window, navigate to the following folder:  
   
-     \<Samples Path>\Pipelines\Aggregator  
+     \<Samples Path\>\Pipelines\Aggregator  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input (In) and output (Out) folders for this sample in the folder:  
   
-         \<Samples Path>\Pipelines\Aggregator  
+         \<Samples Path\>\Pipelines\Aggregator  
   
     -   Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
   

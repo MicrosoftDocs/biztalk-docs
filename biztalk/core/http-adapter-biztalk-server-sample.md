@@ -21,7 +21,7 @@ manager: "anneta"
 The HTTP Adapter sample demonstrates how to implement the request/response and solicit/response communication paradigms used in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\AdaptersDevelopment\HttpAdapter\  
+ *\<Samples Path\>*\AdaptersDevelopment\HttpAdapter\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -45,7 +45,7 @@ The HTTP Adapter sample demonstrates how to implement the request/response and s
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersDevelopment\HttpAdapter  
+     \<*Samples Path*\>\AdaptersDevelopment\HttpAdapter  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -59,7 +59,7 @@ The HTTP Adapter sample demonstrates how to implement the request/response and s
   
 -   IIS_WPG group.  
   
--   On IIS 7.0, you must migrate the application to work with the Integrated .NET mode. You can migrate the application configuration, including the contents of the \<httpHandlers> configuration section, by using the following from a command line window (the window must be running as Administrator):  
+-   On IIS 7.0, you must migrate the application to work with the Integrated .NET mode. You can migrate the application configuration, including the contents of the \<httpHandlers\> configuration section, by using the following from a command line window (the window must be running as Administrator):  
   
     ```  
     %systemroot%\system32\inetsrv\APPCMD.EXE migrate config "Default Web Site/HttpReceive"  
@@ -80,7 +80,7 @@ The HTTP Adapter sample demonstrates how to implement the request/response and s
   
 #### To register the HTTP Adapter sample  
   
-1.  In Windows Explorer, navigate to the installation drive for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and then navigate to \<Samples Path>\AdaptersDevelopment\HTTPAdapter.  
+1.  In Windows Explorer, navigate to the installation drive for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and then navigate to \<Samples Path\>\AdaptersDevelopment\HTTPAdapter.  
   
 2.  To add the sample adapter to the registry, double-click **HTTP.NET.reg**.  
   
@@ -133,7 +133,7 @@ The HTTP Adapter sample demonstrates how to implement the request/response and s
  The HTTP.NET adapter is now ready to be used by your application. When configuring the adapter, the format for the **Virtual Directory** transport property is of the form: /httpreceive/httpreceive.aspx?optionalQueryString.  
   
 ## Comments  
- The HTTP.NET adapter makes use of the BaseAdapter classes provided in *\<Samples Path>*\AdaptersDevelopment\BaseAdapter\v1.0..2\\. The classes provided in the BaseAdapter project are intended to accelerate adapter development. Refer to the BaseAdapter code comments for details about the classes provided.  
+ The HTTP.NET adapter makes use of the BaseAdapter classes provided in *\<Samples Path\>*\AdaptersDevelopment\BaseAdapter\v1.0..2\\. The classes provided in the BaseAdapter project are intended to accelerate adapter development. Refer to the BaseAdapter code comments for details about the classes provided.  
   
 ## See Also  
  [Registering an Adapter](../core/registering-an-adapter.md)   

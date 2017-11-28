@@ -94,9 +94,9 @@ In this topic, you install the Certificate Services [!INCLUDE[btsWinNoVersion](.
   
 1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to **\<drive>:\Program Files\MicrosoftBizTalk \<version> Accelerator for RosettaNet\SDK**, and then press **Enter**.  
+2.  At the command prompt, move to **\<drive\>:\Program Files\MicrosoftBizTalk \<version\> Accelerator for RosettaNet\SDK**, and then press **Enter**.  
   
-3.  At the command prompt, type **CertWizard /Rootkey "\<drive>:\Certs\Contoso-FabrikamCA.cer"**, and then press **Enter**.  
+3.  At the command prompt, type **CertWizard /Rootkey "\<drive\>:\Certs\Contoso-FabrikamCA.cer"**, and then press **Enter**.  
   
     > [!IMPORTANT]
     >  Perform this procedure on both the Contoso and Fabrikam computers.  

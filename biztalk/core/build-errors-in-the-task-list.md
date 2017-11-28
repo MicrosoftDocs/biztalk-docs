@@ -85,7 +85,7 @@ POAckMsg = XMLDOM;
 ## You receive a "use of unconstructed message" error when building your project  
   
 ### Problem  
- When you compile your BizTalk project, you receive the error "use of unconstructed message '\<message>'".  
+ When you compile your BizTalk project, you receive the error "use of unconstructed message '\<message\>'".  
   
 ### Cause  
  This error occurs when an unconstructed message is used in a **Send** shape.  
@@ -117,10 +117,10 @@ POAckMsg = XMLDOM;
 ### Resolution  
  If your orchestration is not called by another orchestration, you must configure one of the **Receive** shapes to be an activated receive. For more information about configuring the **Receive** shape, including links to correlation, see [How to Configure the Receive Shape](../core/how-to-configure-the-receive-shape.md).  
   
-## You receive the error "Assembly generation failed -- Referenced assembly '\<assembly>' does not have a strong name" when building your solution  
+## You receive the error "Assembly generation failed -- Referenced assembly '\<assembly\>' does not have a strong name" when building your solution  
   
 ### Problem  
- You receive the error "Assembly generation failed -- Referenced assembly '\<assembly>' does not have a strong name" when building your solution that has an orchestration.  
+ You receive the error "Assembly generation failed -- Referenced assembly '\<assembly\>' does not have a strong name" when building your solution that has an orchestration.  
   
 ### Cause  
  This problem occurs when a type from an unsigned referenced assembly is used within an orchestration.  

@@ -89,28 +89,28 @@ You can enable tracing in BAM to help troubleshoot problems within the following
   
 1.  Edit the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BTSNTSvc.exe.config file.  
   
-2.  Locate the \<system.diagnostics> and \</system.diagnostics> tag. If they are not present in the file, copy the code listed above and paste it into the configuration file.  
+2.  Locate the \<system.diagnostics\> and \</system.diagnostics\> tag. If they are not present in the file, copy the code listed above and paste it into the configuration file.  
   
-3.  Uncomment the Uncomment the system diagnostics section by moving the end comment delimiter ('-->') from after the \</system.diagnostics> tag to before the \<system.diagnostics> tag.  
+3.  Uncomment the Uncomment the system diagnostics section by moving the end comment delimiter ('-->') from after the \</system.diagnostics\> tag to before the \<system.diagnostics\> tag.  
   
 4.  Save the file.  
   
 ## Enabling Tracing for the BAM Portal  
  Enabling tracing for the BAM portal allows you to troubleshoot connectivity issues.  
   
- The BAM portal is an ASP.NET application, and follows the standard protocol for tracing. Within the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config file, there is a section called \<trace> which you can enable.  
+ The BAM portal is an ASP.NET application, and follows the standard protocol for tracing. Within the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config file, there is a section called \<trace\> which you can enable.  
   
 #### To enable tracing for the BAM portal  
   
 1.  Edit the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config file.  
   
-2.  Locate the \<system.diagnostics> and \</system.diagnostics> tags.  
+2.  Locate the \<system.diagnostics\> and \</system.diagnostics\> tags.  
   
-3.  Uncomment the system diagnostics section by moving end comment delimiter ('-->') from after the \</system.diagnostics> tag to before the \<system.diagnostics> tag.  
+3.  Uncomment the system diagnostics section by moving end comment delimiter ('-->') from after the \</system.diagnostics\> tag to before the \<system.diagnostics\> tag.  
   
 4.  Modify the initializeData attribute to specify the location to write the tracing log.  
   
-5.  Locate \<system.web> tag.  
+5.  Locate \<system.web\> tag.  
   
 6.  In the system.web section locate the trace tag and uncomment the trace command by moving the delimiter ('-->') from after the trace tag to before it.  
   

@@ -22,13 +22,13 @@ The real-time aggregation (RTA) data is available for queries in a dynamically c
   
  The name of this view is  
   
- **bam_\<** *ViewName* **>_\<** *RTAName* **>_RTAView**  
+ **bam_\<** *ViewName* **\>_\<** *RTAName* **\>_RTAView**  
   
  Where  
   
- **\<** *ViewName* **>** is the Name attribute of the View element in the BAM definition XML, which is the same as the View Name entered in the related Microsoft Excel wizards.  
+ **\<** *ViewName* **\>** is the Name attribute of the View element in the BAM definition XML, which is the same as the View Name entered in the related Microsoft Excel wizards.  
   
- **\<** *RTAName* **>** is the Name attribute of the RealTimeAggregation element in the BAM Definition XML, which BAM generates to be unique based on the view name.  
+ **\<** *RTAName* **\>** is the Name attribute of the RealTimeAggregation element in the BAM Definition XML, which BAM generates to be unique based on the view name.  
   
  It is important to note the following conditions when querying real-time aggregated data:  
   

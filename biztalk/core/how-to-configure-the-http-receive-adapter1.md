@@ -22,7 +22,7 @@ You can use the HTTP receive adapter to submit messages to [!INCLUDE[btsBizTalkS
   
 ### To configure the HTTP receive adapter  
   
-1.  Copy the HTTP receive adapter (BTSHTTPReceive.dll) from **\<BizTalk>\HttpReceive>** to the folder that contains your Single Sign-On (SSO) project, for example:  
+1.  Copy the HTTP receive adapter (BTSHTTPReceive.dll) from **\<BizTalk\>\HttpReceive\>** to the folder that contains your Single Sign-On (SSO) project, for example:  
   
      **<Adapter_install>\biztalk\SSO\mySSODemo**  
   

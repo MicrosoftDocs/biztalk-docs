@@ -139,7 +139,7 @@ The BizTalk Adapter for PeopleSoft Enterprise can be used to write data to a Peo
   
 1.  Double-click **LOCATIONService_1.xsd** in the Solution Explorer to open the file in the Schema Editor.  
   
-2.  Right-click the **\<Schema>** node in the Schema Editor, and click **Properties** to display the properties for the node.  
+2.  Right-click the **\<Schema\>** node in the Schema Editor, and click **Properties** to display the properties for the node.  
   
 3.  Select **CreateEx** from the list of available nodes in the **Root Reference** dropdown box. This should be done so that when you generate a sample document instance it will be generated from the **CreateEx** node of the schema.  
   
@@ -156,7 +156,7 @@ The BizTalk Adapter for PeopleSoft Enterprise can be used to write data to a Peo
   
 8.  Right-click LOCATIONService_1.xsd in Solution Explorer and click **Generate Instance** to generate a document instance in the specified location.  
   
-9. Right-click the **\<Schema>** node in the Schema Editor, and click **Properties** to display the properties for the node.  
+9. Right-click the **\<Schema\>** node in the Schema Editor, and click **Properties** to display the properties for the node.  
   
 10. Select (**Default)** from the list of available nodes in the **Root Reference** dropdown box.  
   

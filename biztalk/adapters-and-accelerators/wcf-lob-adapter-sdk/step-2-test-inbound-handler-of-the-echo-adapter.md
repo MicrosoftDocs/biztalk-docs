@@ -119,7 +119,7 @@ manager: "anneta"
   
      **The service is ready.**  
   
-     **Press \<ENTER> to terminate service.**  
+     **Press \<ENTER\> to terminate service.**  
   
      **path = file:///C:/Tutorial/InboundTest/InboundTest.txt, len = 229179**  
   

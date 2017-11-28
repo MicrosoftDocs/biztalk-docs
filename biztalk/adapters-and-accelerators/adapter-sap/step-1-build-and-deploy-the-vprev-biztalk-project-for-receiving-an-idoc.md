@@ -39,7 +39,7 @@ manager: "anneta"
   
     2.  At the command prompt navigate to the folder where you want to create the key file. For example, type **cd C:\Sample**, and then press ENTER.  
   
-    3.  At the command prompt, type **sn -k \<key file name>.snk**, and then press ENTER.  
+    3.  At the command prompt, type **sn -k \<key file name\>.snk**, and then press ENTER.  
   
 2.  Right-click the BizTalk solution name in Solution Explorer, and then click **Properties**. In the **Property Pages** dialog box, do the following:  
   

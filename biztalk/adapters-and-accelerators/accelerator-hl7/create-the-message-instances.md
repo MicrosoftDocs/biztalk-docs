@@ -43,7 +43,7 @@ Use the following procedures to create the ADT^A03.txt message file, and to crea
     FTS|1|File,BatchCount,TrailerComment  
     ```  
   
-3.  Save the file as **FragmentedInboundBatch.txt** in the \<*drive*:>\Batching Tutorial\Instances folder, and then close Notepad.  
+3.  Save the file as **FragmentedInboundBatch.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.  
   
 ### To create the batch in/batch out message instance text file  
   
@@ -64,7 +64,7 @@ Use the following procedures to create the ADT^A03.txt message file, and to crea
     PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
     ```  
   
-3.  Save the file as **BatchInBatchOut.txt** in the \<*drive*:>\Batching Tutorial\Instances folder, and then close Notepad.  
+3.  Save the file as **BatchInBatchOut.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.  
   
 ### To create the create batch message instance text files  
   
@@ -80,7 +80,7 @@ Use the following procedures to create the ADT^A03.txt message file, and to crea
     PV1|1|I|2000^2012^01^hey&test&DNS^test^test^test^test^test||||004777^MILLER^CONNIE^A.|||SUR||||2|A0  
     ```  
   
-3.  Save the file as **CreateBatchMessage1.txt** in the \<*drive*:>\Batching Tutorial\Instances folder, and then close Notepad.  
+3.  Save the file as **CreateBatchMessage1.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.  
   
 4.  Copy the following text into a new instance of Notepad:  
   
@@ -92,6 +92,6 @@ Use the following procedures to create the ADT^A03.txt message file, and to crea
     PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
     ```  
   
-5.  Save the file as **CreateBatchMessage2.txt** in the \<*drive*:>\Batching Tutorial\Instances folder, and then close Notepad.  
+5.  Save the file as **CreateBatchMessage2.txt** in the \<*drive*:\>\Batching Tutorial\Instances folder, and then close Notepad.  
   
  Proceed to [Part 1: Fragmented Inbound Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md).

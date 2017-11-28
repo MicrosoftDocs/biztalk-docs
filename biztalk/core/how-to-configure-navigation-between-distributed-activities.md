@@ -31,9 +31,9 @@ Distributed navigation allows users to view activities that exist in remote BAM 
   
 ### How to set up distributed navigation for remote activities  
   
-1.  The administrator of computer 1 grants the business user access to the myBusinessView view on computer 1. You use the bm.exe command, as follows: **add-account -AccountName:\<account name> -View:** myBusinessView  
+1.  The administrator of computer 1 grants the business user access to the myBusinessView view on computer 1. You use the bm.exe command, as follows: **add-account -AccountName:\<account name\> -View:** myBusinessView  
   
-2.  The administrator on computer 1 enables distributed navigation by running the enable reference command, as follows: **bm.exe enable-reference -TargetServer:** computer2 **-TargetDatabase:\<target database>**  
+2.  The administrator on computer 1 enables distributed navigation by running the enable reference command, as follows: **bm.exe enable-reference -TargetServer:** computer2 **-TargetDatabase:\<target database\>**  
   
     > [!NOTE]
     >  Typically the account used between departments for BAM Web services access will be different on different computers. Therefore, in this scenario the administrator of computer 1 must add the Web services Impersonation account of computer 1 to the BAM_ManagementWS role of the BAM Primary Import database for computer 2. For more information, see "Viewing and Modifying Role Memberships" at [http://go.microsoft.com/fwlink/?LinkId=66990](http://go.microsoft.com/fwlink/?LinkId=66990).  

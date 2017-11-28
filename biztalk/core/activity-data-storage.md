@@ -33,14 +33,14 @@ This topic describes activity data storage, the performance problems caused by t
 |124|8:30am|Seattle|234|8:45am|1:20pm|  
 |125|8:35am|Redmond|87|9:05am|2:30pm|  
 |126|8:45am|Seattle|450|9:20am|3:10pm|  
-|127|8:55am|Redmond|200|9:30am|\<NULL>|  
+|127|8:55am|Redmond|200|9:30am|\<NULL\>|  
 |128|8:57am|Seattle|340|9:20am|3:05pm|  
-|129|9:12am|Seattle|120|9:45am|\<NULL>|  
-|130|9:30am|Redmond|25|10:15am|\<NULL>|  
-|131|9:45|Seattle|250|10:35am|\<NULL>|  
-|132|10:00am|Redmond|100|\<NULL>|\<NULL>|  
-|133|10:15am|Seattle|230|\<NULL>|\<NULL>|  
-|134|10:25am|Redmond|45|\<NULL>|\<NULL>|  
+|129|9:12am|Seattle|120|9:45am|\<NULL\>|  
+|130|9:30am|Redmond|25|10:15am|\<NULL\>|  
+|131|9:45|Seattle|250|10:35am|\<NULL\>|  
+|132|10:00am|Redmond|100|\<NULL\>|\<NULL\>|  
+|133|10:15am|Seattle|230|\<NULL\>|\<NULL\>|  
+|134|10:25am|Redmond|45|\<NULL\>|\<NULL\>|  
   
  In this table, when BAM receives a new purchase order, it inserts a new row and some sets some of the columns to non-null values (RecvTime, City, Quantity, and so on). Later, when you approve and ship this purchase order, BAM sets ShipTime to a non-null value. Finally, when you receive and confirm the shipment, BAM sets DeliveryTime to a non-null value.  
   
@@ -84,11 +84,11 @@ UNION ALL
   
  Note the following about BAM partitioning:  
   
--   The name of the partitioned view is **bam_\<ActivityName>_AllInstances**. This view is not meant for direct queries, but may be useful when troubleshooting the BAM instrumentation. You should query the data from the specific views for each category of business users that you create on top of this view. For more information, see [Querying Instance Data](../core/querying-instance-data.md).  
+-   The name of the partitioned view is **bam_\<ActivityName\>_AllInstances**. This view is not meant for direct queries, but may be useful when troubleshooting the BAM instrumentation. You should query the data from the specific views for each category of business users that you create on top of this view. For more information, see [Querying Instance Data](../core/querying-instance-data.md).  
   
 -   You set the online window by modifying the values for **OnlineWindowTimeUnit** and **OnlineWindowLength** in the record for the current activity in the table **bam_Metadata_Activities** in the Primary Import database.  
   
--   The DTS package, **BAM_DM_\<ActivityName>**, performs the partitioning and archiving/purging. Each time this package runs, it truncates another partition and archives/drops all partitions that are outside the online window.  
+-   The DTS package, **BAM_DM_\<ActivityName\>**, performs the partitioning and archiving/purging. Each time this package runs, it truncates another partition and archives/drops all partitions that are outside the online window.  
   
 -   If you do not have Archiving Database configured, then BAM drops the aged activity data without archiving.  
   

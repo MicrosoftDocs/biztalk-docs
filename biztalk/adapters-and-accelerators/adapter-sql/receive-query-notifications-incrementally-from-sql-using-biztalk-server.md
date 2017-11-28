@@ -35,7 +35,7 @@ manager: "anneta"
 |Binding Property|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|Specifies the inbound operation that you want to perform. To receive notification messages, set this to **Notification**.|  
-|**NotificationStatement**|Specifies the SQL statement (SELECT or EXEC \<stored procedure>) used to register for query notifications. The adapter gets a notification message from SQL Server only when the result set for the specified SQL statement changes.|  
+|**NotificationStatement**|Specifies the SQL statement (SELECT or EXEC \<stored procedure\>) used to register for query notifications. The adapter gets a notification message from SQL Server only when the result set for the specified SQL statement changes.|  
 |**NotifyOnListenerStart**|Specifies whether the adapter sends a notification to the adapter clients when the listener is started.|  
   
  For a more complete description of these properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). For a complete description of how to use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notifications from SQL Server, read further.  
@@ -313,7 +313,7 @@ Salary = 100000
 -   The adapter receives a notification message that resembles the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Insert</Info>   
       <Source>Data</Source>   
@@ -326,7 +326,7 @@ Salary = 100000
 -   The adapter executes the Select operation. Because the Select operation XML also includes an Update statement, the Update statement is also executed. The next response from SQL Server is for the Select statement.  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <SelectResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
       <SelectResult>  
         <Employee xmlns="http://schemas.microsoft.com/Sql/2008/05/Types/Tables/dbo">  
@@ -343,7 +343,7 @@ Salary = 100000
 -   As part of the Select statement, the Update statement is also executed and the Status column for the new record is changed to 1. This again triggers another notification from SQL Server and the adapter receives a corresponding notification message, that resembles the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Update</Info>   
       <Source>Data</Source>   
@@ -356,7 +356,7 @@ Salary = 100000
 -   After the second notification, the adapter executes the Select statement. However, because there are no records now that have Status as 0, the adapter gets an empty response resembling the following.  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <SelectResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
       <SelectResult />   
     </SelectResponse>  

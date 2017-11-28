@@ -67,13 +67,13 @@ This section provides a centralized location for information about common proble
 >  This problem occurs in a multiple messagebox environment.  
   
 ##### Cause  
- This problem can occur in a multiple messagebox environment if the SQL agent job 'Operations_OperateOnInstances_OnMaster_\<*dbName*>' is not running on the secondary messagebox databases. This job must be running in order to propagate information from the secondary messagebox databases to the primary messagebox database. This job will fail to run if it is not enabled or if a logon failure occurs.  
+ This problem can occur in a multiple messagebox environment if the SQL agent job 'Operations_OperateOnInstances_OnMaster_\<*dbName*\>' is not running on the secondary messagebox databases. This job must be running in order to propagate information from the secondary messagebox databases to the primary messagebox database. This job will fail to run if it is not enabled or if a logon failure occurs.  
   
 ##### Solution  
- If you are using the BizTalk Administration console to perform operations on multiple service instances simultaneously and your BizTalk Server environment is configured with multiple messagebox databases, verify that the SQL Server Agent job named 'Operations_OperateOnInstances_OnMaster_\<*dbName*>' is enabled on all secondary (non-master) messagebox databases. Additionally, the SQL Server Agent service on the SQL Server computer that hosts the secondary messagebox databases must run as an account that is included in the BTS_SQLAGENT_USER database role of the secondary messagebox database.  
+ If you are using the BizTalk Administration console to perform operations on multiple service instances simultaneously and your BizTalk Server environment is configured with multiple messagebox databases, verify that the SQL Server Agent job named 'Operations_OperateOnInstances_OnMaster_\<*dbName*\>' is enabled on all secondary (non-master) messagebox databases. Additionally, the SQL Server Agent service on the SQL Server computer that hosts the secondary messagebox databases must run as an account that is included in the BTS_SQLAGENT_USER database role of the secondary messagebox database.  
   
 > [!NOTE]
->  \<*dbname*> is a placeholder for the actual name of the BizTalk messagebox database.  
+>  \<*dbname*\> is a placeholder for the actual name of the BizTalk messagebox database.  
   
  Follow these steps to add the SQL Server Agent service account to the BTS_SQLAGENT_USER database role of the secondary messagebox database  
   

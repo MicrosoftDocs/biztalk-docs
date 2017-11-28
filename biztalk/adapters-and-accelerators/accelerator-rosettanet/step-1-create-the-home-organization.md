@@ -26,7 +26,7 @@ In this step, you create your home organization using the [!INCLUDE[btsCoName](.
   
 ### To create the home organization  
   
-1.  In the **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand **BizTalk \<version> Accelerator for RosettaNet**, right-click **Home Organizations**, click **New**, and then click **Home Organization**.  
+1.  In the **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand **BizTalk \<version\> Accelerator for RosettaNet**, right-click **Home Organizations**, click **New**, and then click **Home Organization**.  
   
 2.  In the New Home Organization Properties dialog box in the **General** tab, do the following:  
   

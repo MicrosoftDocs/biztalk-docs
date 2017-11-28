@@ -34,15 +34,15 @@ The BAM management utility alert management commands allow you to work with depl
 ## get-alerts Command  
  **Usage**  
   
- **bm.exe get-alerts [ -View:\<view name> ][ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe get-alerts [ -View:\<view name\> ][ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view from which to get the list of alerts.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view from which to get the list of alerts.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Lists the alerts defined on the computer on which the command is executed.  
   
@@ -56,15 +56,15 @@ bm.exe get-alerts -Server:MyServer -Database:MyPrimaryImport
 ## remove-alerts Command  
  **Usage**  
   
- **bm.exe remove-alerts -View:\<view name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe remove-alerts -View:\<view name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view from which to remove alerts.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view from which to remove alerts.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Removes all alerts on the specified view.  
   
@@ -78,15 +78,15 @@ bm.exe remove-alerts -View:Shipments -Server:Ship1
 ## enable-alerts Command  
  **Usage**  
   
- **bm.exe enable-alerts -View:\<view name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe enable-alerts -View:\<view name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view on which to enable alerts.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view on which to enable alerts.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Enables alerts on the specified view.  
   
@@ -100,15 +100,15 @@ bm.exe enable-alerts -View:SalesManagerView -Server:s1 -Database:db2
 ## disable-alerts Command  
  **Usage**  
   
- **bm.exe disable-alerts -View:\<view name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe disable-alerts -View:\<view name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view on which to disable alerts.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view on which to disable alerts.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Disables alerts on the specified view.  
   

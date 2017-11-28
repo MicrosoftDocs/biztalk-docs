@@ -29,7 +29,7 @@ The following procedures describe how to build, deploy, bind, and start an orche
   
 1.  Start a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command Prompt.  
   
-2.  Change directories to an existing project, for example, \<drive>:\Adapter_Install\biztalk2010\my_project.  
+2.  Change directories to an existing project, for example, \<drive\>:\Adapter_Install\biztalk2010\my_project.  
   
 3.  Type the following in the command prompt and press ENTER:  
   

@@ -35,9 +35,9 @@ Pushes the name of the current interception endpoint onto the stack.
   
  For client applications, the endpoint name retrieved by the GetEndPointName operation is the binding name followed by an underscore and the contract name.  
   
- For example, if the Name property on ServiceEndpoint is not set but the binding is set, the name will be set to \<*binding*>_\<*contract*>.  
+ For example, if the Name property on ServiceEndpoint is not set but the binding is set, the name will be set to \<*binding*\>_\<*contract*\>.  
   
- If the name and binding are not set, the Name property will be set to \<*contract*>.  
+ If the name and binding are not set, the Name property will be set to \<*contract*\>.  
   
  For the service, the name retrieved is the endpoint name specified in the App.config file.  
   

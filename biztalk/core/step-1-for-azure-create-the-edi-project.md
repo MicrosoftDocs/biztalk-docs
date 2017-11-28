@@ -38,42 +38,42 @@ In this section, Contoso creates an EDI project using the [!INCLUDE[appfabricint
 3.  Edit and build the schema to resemble the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-16"?>  
-    \<xs:schema xmlns="http://ECommerceSalesOrder.Inbound" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" targetNamespace="http://ECommerceSalesOrder.Inbound" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
-      \<xs:element name="SalesOrder">  
-        \<xs:complexType>  
-          \<xs:sequence>  
-            \<xs:element name="CompanyCode" type="xs:string" />  
-            \<xs:element name="PartID" type="xs:int" />  
-            \<xs:element name="Quantity" type="xs:int" />  
-            \<xs:element name="AskPrice" type="xs:decimal" />  
-            \<xs:element name="RequestShipmentDate" type="xs:date" />  
-            \<xs:element name="Address">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element name="Line1" type="xs:string" />  
-                  \<xs:element name="Line2" type="xs:string" />  
-                  \<xs:element name="City" type="xs:string" />  
-                  \<xs:element name="State" type="xs:string" />  
-                  \<xs:element name="Country" type="xs:string" />  
-                  \<xs:element name="Zipcode" type="xs:int" />  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-            \<xs:element name="Contact">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element name="Firstname" type="xs:string" />  
-                  \<xs:element name="Lastname" type="xs:string" />  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-            \<xs:element name="Comments" type="xs:string" />  
-            \<xs:element name="DateNow" type="xs:date" />  
-          \</xs:sequence>  
-        \</xs:complexType>  
-      \</xs:element>  
-    \</xs:schema>  
+    <?xml version="1.0" encoding="utf-16"?>  
+    <xs:schema xmlns="http://ECommerceSalesOrder.Inbound" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" targetNamespace="http://ECommerceSalesOrder.Inbound" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+      <xs:element name="SalesOrder">  
+        <xs:complexType>  
+          <xs:sequence>  
+            <xs:element name="CompanyCode" type="xs:string" />  
+            <xs:element name="PartID" type="xs:int" />  
+            <xs:element name="Quantity" type="xs:int" />  
+            <xs:element name="AskPrice" type="xs:decimal" />  
+            <xs:element name="RequestShipmentDate" type="xs:date" />  
+            <xs:element name="Address">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element name="Line1" type="xs:string" />  
+                  <xs:element name="Line2" type="xs:string" />  
+                  <xs:element name="City" type="xs:string" />  
+                  <xs:element name="State" type="xs:string" />  
+                  <xs:element name="Country" type="xs:string" />  
+                  <xs:element name="Zipcode" type="xs:int" />  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+            <xs:element name="Contact">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element name="Firstname" type="xs:string" />  
+                  <xs:element name="Lastname" type="xs:string" />  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+            <xs:element name="Comments" type="xs:string" />  
+            <xs:element name="DateNow" type="xs:date" />  
+          </xs:sequence>  
+        </xs:complexType>  
+      </xs:element>  
+    </xs:schema>  
     ```  
   
      You can use the Schema Editor to build this schema. For more information, see [Using BizTalk Editor](../core/using-biztalk-editor.md).  

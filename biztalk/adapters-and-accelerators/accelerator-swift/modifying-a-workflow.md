@@ -19,4 +19,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Modifying a Workflow
-Please refer to \<Drive:>\Program Files\Microsoft BizTalk Accelerator For SWIFT\SDK\Samples\ CustomMrsrModel\ ProfileWebClientUserManual.doc for more information.
+Please refer to \<Drive:\>\Program Files\Microsoft BizTalk Accelerator For SWIFT\SDK\Samples\ CustomMrsrModel\ ProfileWebClientUserManual.doc for more information.

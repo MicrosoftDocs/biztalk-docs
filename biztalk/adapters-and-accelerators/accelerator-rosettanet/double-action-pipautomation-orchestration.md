@@ -22,7 +22,7 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
 > [!NOTE]
 >  You should extend this sample project to support double-action PIPs only, not single-action PIPs. This orchestration will return an error if you extend it to process a single-action PIP. To ensure that this orchestration will not process single-action PIPs, see the Filtering Out Single-Action Messages section below.  
   
- By default, the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Setup program installs this sample in \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft 2013 BizTalk Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction.  
+ By default, the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Setup program installs this sample in \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft 2013 BizTalk Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction.  
   
  This sample project includes:  
   
@@ -34,7 +34,7 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
   
 -   A binding file (DoubleActionBinding.xml) that the file Setup.bat uses to create the MessagesToLOB_Receive_Port for use with the DoubleAction orchestration.  
   
--   A setup file to build and initialize the sample. If your [!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)] installation is running on a 32-bit computer, run the file setup.bat in the \<drive>:\Program Files\Microsoft Microsoft 2013 BizTalk Accelerator for RosettaNet \SDK\PIPAutomation\DoubleAction folder. If your [!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)] installation is running on a 64-bit computer, run setupx64.bat in the same folder.  
+-   A setup file to build and initialize the sample. If your [!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)] installation is running on a 32-bit computer, run the file setup.bat in the \<drive\>:\Program Files\Microsoft Microsoft 2013 BizTalk Accelerator for RosettaNet \SDK\PIPAutomation\DoubleAction folder. If your [!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)] installation is running on a 64-bit computer, run setupx64.bat in the same folder.  
   
  The orchestration receives messages using the PipAutomationGetAction stored procedure in the BTARNData database (the source file is DoubleAction.sql in the DoubleAction directory). This stored procedure retrieves the messages from the MessagesToLOB table.  
   
@@ -42,12 +42,12 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
   
 ### To build and initialize this sample  
   
-1.  At a command prompt, locate the *\<drive>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction folder.  
+1.  At a command prompt, locate the *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction folder.  
   
     > [!NOTE]
     >  Before running the Setup program, open the file DoubleAction.sql (in the above folder) in Notepad. On the **File** menu, click **Save As**. In the **Encoding** list, select **ANSI**, and then click **Save**. Click **Yes** to overwrite the existing file.  
   
-2.  If your [!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)] installation is running on a 32-bit computer, run the file setup.bat in the \<drive>:\Program Files\Microsoft BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction folder. If your BizTalk Server 2013 installation is running on a 64-bit computer, run setupx64.bat in the same folder. The batch file will perform the following actions:  
+2.  If your [!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)] installation is running on a 32-bit computer, run the file setup.bat in the \<drive\>:\Program Files\Microsoft BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction folder. If your BizTalk Server 2013 installation is running on a 64-bit computer, run setupx64.bat in the same folder. The batch file will perform the following actions:  
   
     -   Creates a SQL stored procedure (`PipAutomationGetAction`) in the BTARNDATA database to retrieve the action message from the MessagesToLOB table. This also ensures that the retrieved records will not be read again.  
   
@@ -65,7 +65,7 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
         >  The sample displays some warnings while compiling. You can ignore these warnings.  
   
         > [!NOTE]
-        >  The sample uses the default host name **BizTalkServerApplication** when deploying the project. If you would like to run the sample under a different host, you will need to edit the default host names found in DoubleActionBinding.xml under \<SDK>\PIPAutomation\DoubleAction folder.  
+        >  The sample uses the default host name **BizTalkServerApplication** when deploying the project. If you would like to run the sample under a different host, you will need to edit the default host names found in DoubleActionBinding.xml under \<SDK\>\PIPAutomation\DoubleAction folder.  
   
 ### To run the Double-Action PIPAutomation sample  
   
@@ -73,7 +73,7 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
   
 2.  Using the Loopback agreement-mirroring utility, create a mirror for the 3A4 PIP created in step 1.  
   
-3.  Using the LOBApplication.exe SDK utility, submit a 3A4 PIP Request message. The [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK includes an input sample in the folder \<*Installation Directory*>\SDK\LOBApplication\SampleInstances\3A4_Request.xml.  
+3.  Using the LOBApplication.exe SDK utility, submit a 3A4 PIP Request message. The [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK includes an input sample in the folder \<*Installation Directory*\>\SDK\LOBApplication\SampleInstances\3A4_Request.xml.  
   
 4.  IN SQL Query Analyzer, run the following query on the BTARNDATA database:  
   

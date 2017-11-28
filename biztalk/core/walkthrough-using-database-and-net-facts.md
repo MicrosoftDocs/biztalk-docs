@@ -173,7 +173,7 @@ This walkthrough provides step-by-step procedures for using the Business Rule Co
   
 20. Drag the **Status** node from the Facts Explorer window to the THEN pane at the bottom right of the Business Rule Composer.  
   
-21. In the THEN pane, click **\<Enter a value>** and then type **Approved**.  
+21. In the THEN pane, click **\<Enter a value\>** and then type **Approved**.  
   
 22. In the Facts Explorer window, right-click **Version 1.0** in **ProcessPurchaseOrderDbNet**, and then click **AddNewRule**.  
   
@@ -193,7 +193,7 @@ This walkthrough provides step-by-step procedures for using the Business Rule Co
   
 30. Drag the **Status** node from the Facts Explorer window to the THEN pane at the bottom right of the Business Rule Composer.  
   
-31. In the THEN pane, click **\<Enter a value>** and then type **Denied**.  
+31. In the THEN pane, click **\<Enter a value\>** and then type **Denied**.  
   
 32. In the Policy Explorer window, right-click **Version 1.0 (not saved)**, and then click **Save**.  
   

@@ -31,7 +31,7 @@ manager: "anneta"
   
 |Operation|Method Signature|  
 |---------------|----------------------|  
-|Request Set|public \<return type> \<request set name>(param 1, param 2, …)|  
+|Request Set|public \<return type\> \<request set name\>(param 1, param 2, …)|  
   
  As an example, the following code shows the method signatures for a WCF client class generated for the **reqset_singlestage** request set.  
   

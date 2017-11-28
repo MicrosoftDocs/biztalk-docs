@@ -52,7 +52,7 @@ Performance counters allow you to monitor specific aspects of work performed on 
   
 3.  In the **Add Counters** dialog box, from the **Available Counters** list, select either **BizTalk:Message Box:General Counters** or  **BizTalk:Message box:Host Counters**. Expand the selected performance counter object and select the counters to be monitored  
   
-4.  In the **Instances of Selected object** list, select the specific instances to be monitored for the selected counters and then click **Add**.  To select all available counter instances, select \<**All instances**>.  
+4.  In the **Instances of Selected object** list, select the specific instances to be monitored for the selected counters and then click **Add**.  To select all available counter instances, select \<**All instances**\>.  
   
 5.  After adding the counters, click **OK**.  
   

@@ -44,7 +44,7 @@ manager: "anneta"
 ## Project Conversion requires the project and solution file  
  If you attempt to convert a [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] project and do not have the solution file you will receive the following error:  
   
- **Error converting project file. Child element \<BIZTALK> of element \<VisualStudioProject> is not valid.**  
+ **Error converting project file. Child element \<BIZTALK\> of element \<VisualStudioProject\> is not valid.**  
   
  Project conversion requires the solution file (.sln) from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project. If the solution file is not available, you must create one with [!INCLUDE[btsVStudioNet2005](../includes/btsvstudionet2005-md.md)] and add the [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] project to the solution. Then run the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] conversion wizard.  
   

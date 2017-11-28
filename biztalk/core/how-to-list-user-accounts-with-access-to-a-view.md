@@ -29,7 +29,7 @@ Administrators use the **get-accounts** BAM Management utility command to get a 
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
   
-3.  Type **bm get-accounts -View:\<view name>**.  
+3.  Type **bm get-accounts -View:\<view name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

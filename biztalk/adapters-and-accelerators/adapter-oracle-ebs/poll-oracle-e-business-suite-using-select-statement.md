@@ -166,7 +166,7 @@ You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapt
 -   The adapter executes the SELECT statement for the **PollingInput** binding property and returns all the rows in the MS_SAMPLE_EMPLOYEE interface table. The response from Oracle E-Business Suite resembles the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Poll xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/InterfaceTables/FND/APPS/MS_SAMPLE_EMPLOYEE">   
       <DATA>   
         <SelectRecord xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/TableViewRecord/APPS/MS_SAMPLE_EMPLOYEE">   

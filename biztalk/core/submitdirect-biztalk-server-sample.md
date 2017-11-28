@@ -42,7 +42,7 @@ The SubmitDirect sample demonstrates how to programmatically submit one-way and 
 -   **Submission of request/response message.** The console application SubmitRequest.exe takes the .xml file specified on its command line and submits it to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The schema of this .xml file defines elements that contain two integer fields. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] picks up the .xml file and processes it with an orchestration (with one request/response port). It uses a map to produce an XML response message that returns an integer that is the product of the two integers in the request. When the console application receives the response, it displays the result.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\AdaptersDevelopment\SubmitDirect\  
+ \<*Samples Path*\>\AdaptersDevelopment\SubmitDirect\  
   
  The following table lists the files in this sample and describes their purpose.  
   
@@ -65,13 +65,13 @@ The SubmitDirect sample demonstrates how to programmatically submit one-way and 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersDevelopment\SubmitDirect  
+     \<*Samples Path*\>\AdaptersDevelopment\SubmitDirect  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the following output folder for the batch submission portion of this sample.  
   
-         \<*Samples Path*>\AdaptersDevelopment\SubmitDirect\Out  
+         \<*Samples Path*\>\AdaptersDevelopment\SubmitDirect\Out  
   
     -   Compiles the various [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
   
@@ -106,7 +106,7 @@ The SubmitDirect sample demonstrates how to programmatically submit one-way and 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersDevelopment\SubmitDirect\SubmitMessages\bin\Debug  
+     \<*Samples Path*\>\AdaptersDevelopment\SubmitDirect\SubmitMessages\bin\Debug  
   
 2.  Run the file SubmitMessages.exe, passing multiple strings on the command line.  
   
@@ -118,7 +118,7 @@ The SubmitDirect sample demonstrates how to programmatically submit one-way and 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersDevelopment\SubmitDirect\SubmitRequest\bin\Debug  
+     \<*Samples Path*\>\AdaptersDevelopment\SubmitDirect\SubmitRequest\bin\Debug  
   
 2.  Run the file SubmitRequest.exe, passing an appropriate .xml file name on the command line.  
   

@@ -33,11 +33,11 @@ This topic describes how to use the BizTalk Server Administration console to rem
   
 3.  Click **Orchestrations**, right-click the orchestration, click **Properties**, and then click **Bindings** in the left pane.  
   
-4.  To remove the host bindings, from the **Hosts** list, select **\<None>**.  
+4.  To remove the host bindings, from the **Hosts** list, select **\<None\>**.  
   
-5.  To remove receive port bindings, from the drop-down list under **Receive Ports**, click **\<None>**.  
+5.  To remove receive port bindings, from the drop-down list under **Receive Ports**, click **\<None\>**.  
   
-6.  To remove send port bindings, from the drop-down list under **Send Ports/Send Port Groups**, click **\<None>**.  
+6.  To remove send port bindings, from the drop-down list under **Send Ports/Send Port Groups**, click **\<None\>**.  
   
 7.  When finished removing bindings, click **OK**.  
   

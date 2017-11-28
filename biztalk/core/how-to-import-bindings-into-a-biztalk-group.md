@@ -39,7 +39,7 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 4.  Click the binding file and click **Open**.  
   
-     The artifacts in the binding file are written to the group. They display in appropriate folders of the \<All Artifacts> node.  
+     The artifacts in the binding file are written to the group. They display in appropriate folders of the \<All Artifacts\> node.  
   
 #### Using the command line  
   

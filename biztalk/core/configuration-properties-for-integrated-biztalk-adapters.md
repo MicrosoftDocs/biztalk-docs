@@ -24,18 +24,18 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configuration Properties for Integrated BizTalk Adapters
-The BizTalk Explorer object model exposes the **IReceiveLocation.CustomData** and **ISendPort.CustomData** properties that contain the adapter configuration property bag in the form of a name/value pair XML string. This name/value pair XML string is stored in a \<CustomProps> element within a \<TransportTypeData> element in a binding file. Most of the information in the \<CustomProps> element corresponds to information that can be set for an adapter in the BizTalk Server user interface (such as the BizTalk Administration Console or BizTalk Explorer). If these values are present in a binding file then they are applied to the adapter configuration for the specified receive locations and send ports when the binding file is imported. Configuration information for all adapters is stored in the Single Sign-On database.  
+The BizTalk Explorer object model exposes the **IReceiveLocation.CustomData** and **ISendPort.CustomData** properties that contain the adapter configuration property bag in the form of a name/value pair XML string. This name/value pair XML string is stored in a \<CustomProps\> element within a \<TransportTypeData\> element in a binding file. Most of the information in the \<CustomProps\> element corresponds to information that can be set for an adapter in the BizTalk Server user interface (such as the BizTalk Administration Console or BizTalk Explorer). If these values are present in a binding file then they are applied to the adapter configuration for the specified receive locations and send ports when the binding file is imported. Configuration information for all adapters is stored in the Single Sign-On database.  
   
  This section describes the configuration properties that can be set for each integrated BizTalk adapter.  
   
 > [!NOTE]
->  Password information that is stored in the \<TransportTypeData> element of a binding file is masked so that sensitive data is not saved in clear text. Depending on the transport, password information is either replaced with NULL or is replaced with asterisks. You must manually enter this information in the binding file to update the adapter configuration before importing the binding file into the target BizTalk Server configuration.  
+>  Password information that is stored in the \<TransportTypeData\> element of a binding file is masked so that sensitive data is not saved in clear text. Depending on the transport, password information is either replaced with NULL or is replaced with asterisks. You must manually enter this information in the binding file to update the adapter configuration before importing the binding file into the target BizTalk Server configuration.  
   
- The configuration data for adapters built using the Adapter Framework is stored in an \<AdapterConfig> element. Since the \<AdapterConfig> element specifies the VT_BSTR (vt="8") data type, the **\< >** characters contained in this element must be escaped or an error will occur when you attempt to import the binding file. This causes the text for the configuration data to be less human readable than if these characters were not escaped. The following example illustrates the effect of escaping these characters from sample configuration data for a send port bound to the POP3 adapter.  
+ The configuration data for adapters built using the Adapter Framework is stored in an \<AdapterConfig\> element. Since the \<AdapterConfig\> element specifies the VT_BSTR (vt="8") data type, the **\< \>** characters contained in this element must be escaped or an error will occur when you attempt to import the binding file. This causes the text for the configuration data to be less human readable than if these characters were not escaped. The following example illustrates the effect of escaping these characters from sample configuration data for a send port bound to the POP3 adapter.  
   
- **TransportTypeData configuration data that does not escape the <> characters used in the \<AdapterConfig> element**  
+ **TransportTypeData configuration data that does not escape the <> characters used in the \<AdapterConfig\> element**  
   
- This configuration data is invalid because the \<AdapterConfig> element specifies the VT_BSTR (vt="8") data type and the \< > characters contained in the \<AdapterConfig> element are not escaped:  
+ This configuration data is invalid because the \<AdapterConfig\> element specifies the VT_BSTR (vt="8") data type and the \< \> characters contained in the \<AdapterConfig\> element are not escaped:  
   
 ```  
 <TransportTypeData>  
@@ -61,9 +61,9 @@ The BizTalk Explorer object model exposes the **IReceiveLocation.CustomData** an
 </TransportTypeData>  
 ```  
   
- **TransportTypeData configuration data that does escape the <> characters used in the \<AdapterConfig> element**  
+ **TransportTypeData configuration data that does escape the <> characters used in the \<AdapterConfig\> element**  
   
- Since the \<AdapterConfig> element specifies the VT_BSTR (vt="8") data type, the \< > characters must be escaped from the \<AdapterConfig> element as seen below:  
+ Since the \<AdapterConfig\> element specifies the VT_BSTR (vt="8") data type, the \< \> characters must be escaped from the \<AdapterConfig\> element as seen below:  
   
 ```  
 <TransportTypeData>  

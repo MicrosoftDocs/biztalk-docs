@@ -28,7 +28,7 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
 ## Where to Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Samples\AdaptersDevelopment\TransactionalAdapter. The administrative configuration project is located in the \Admin folder, while the runtime project exists in the \Runtime folder.  
+ \<*Samples Path*\>\Samples\AdaptersDevelopment\TransactionalAdapter. The administrative configuration project is located in the \Admin folder, while the runtime project exists in the \Runtime folder.  
   
  The following table shows the files in this sample and describes their purpose.  
   

@@ -215,7 +215,7 @@ public static XmlDocument FromMsg(XLANGMessage old)
 }  
 ```  
   
- Another method would be to create a .NET class based on the schema. This takes less memory than loading the document into an **XmlDocument** object, as well as providing easy access to the schema elements for .NET developers. To generate a class based on a BizTalk schema, you can use the xsd.exe tool provided with Visual Studio. For example, running **xsd.exe \<schema.xsd> /classes** against a simple schema containing fields named ItemA, ItemB, ItemC, will produce the following class.  
+ Another method would be to create a .NET class based on the schema. This takes less memory than loading the document into an **XmlDocument** object, as well as providing easy access to the schema elements for .NET developers. To generate a class based on a BizTalk schema, you can use the xsd.exe tool provided with Visual Studio. For example, running **xsd.exe \<schema.xsd\> /classes** against a simple schema containing fields named ItemA, ItemB, ItemC, will produce the following class.  
   
 ```csharp  
 //------------------------------------------------------------------------------  

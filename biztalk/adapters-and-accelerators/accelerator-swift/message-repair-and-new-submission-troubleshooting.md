@@ -29,7 +29,7 @@ manager: "anneta"
  The envelope schema is not deployed. This is true for any MT*xxx* message or any message that has failed parsing.  
   
 ### Solution  
- Deploy an envelope schema for each message schema that you are using (\<drive>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack \SWIFT Messages\ A4SWIFT-SRG\<version>\Category n\MTxxx.xsd) and for unparsed envelope schema (\<drive>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack \SWIFT Messages\ A4SWIFT-SRG\<version>\ Unparsed Message\EnvelopeUnparsedMessage.xsd). For more information, see [Deploying A4SWIFT Schemas](../../adapters-and-accelerators/accelerator-swift/deploying-a4swift-schemas.md).  
+ Deploy an envelope schema for each message schema that you are using (\<drive\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack \SWIFT Messages\ A4SWIFT-SRG\<version\>\Category n\MTxxx.xsd) and for unparsed envelope schema (\<drive\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack \SWIFT Messages\ A4SWIFT-SRG\<version\>\ Unparsed Message\EnvelopeUnparsedMessage.xsd). For more information, see [Deploying A4SWIFT Schemas](../../adapters-and-accelerators/accelerator-swift/deploying-a4swift-schemas.md).  
   
 ## You cannot submit a fixed unparsed message from a MRSR site library named other than "Unparsed"  
   
@@ -72,7 +72,7 @@ manager: "anneta"
   
 1.  Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In IIS Manager, expand the ***\<server name>* (local computer)** node, the **Application Pools** node and the **Web Sites** node. Under the Web Sites node, expand the **Default Web Site** node.  
+2.  In IIS Manager, expand the ***\<server name\>* (local computer)** node, the **Application Pools** node and the **Web Sites** node. Under the Web Sites node, expand the **Default Web Site** node.  
   
 3.  Under the Default Web Site node, right-click **A4SWIFT_MRSR**, and then click **Properties**.  
   
@@ -80,7 +80,7 @@ manager: "anneta"
   
 5.  In the IIS Manager dialog box, under the Application Pools node, right-click the application pool for A4SWIFT_MRSR, and then click **Properties**.  
   
-6.  In the \<application pool name> Properties dialog box, click the **Identity** note. If **Predefined** is clicked and **Network Service** is selected, click **Configurable**, enter your local or domain account, and then enter your password. Click **OK**.  
+6.  In the \<application pool name\> Properties dialog box, click the **Identity** note. If **Predefined** is clicked and **Network Service** is selected, click **Configurable**, enter your local or domain account, and then enter your password. Click **OK**.  
   
 ## A message created in MRSR site on a localized computer is not processed  
   
@@ -124,7 +124,7 @@ manager: "anneta"
  "An error occurred while executing the BicMasterPolicy. Check the policy for valid values."  
   
 ### Possible Cause  
- The SQL Server name, BIC database name, and integrated security value in the BIC_Master_Policy.xml file in *\<drive>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies are contained in double quotes. To enable BIC validation, you enter these strings in the default BIC_Master_Policy.xml file as described in [Enabling Validation of Bank Identifier Codes](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md).  
+ The SQL Server name, BIC database name, and integrated security value in the BIC_Master_Policy.xml file in *\<drive\>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies are contained in double quotes. To enable BIC validation, you enter these strings in the default BIC_Master_Policy.xml file as described in [Enabling Validation of Bank Identifier Codes](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md).  
   
 ### Solution  
  To repair the BIC master policy, proceed as follows:  
@@ -134,7 +134,7 @@ manager: "anneta"
   
 1.  In Business Rule Composer, undeploy Version 1.0 of the BIC_Master_Policy, and then delete the BIC_Master_Policy.  
   
-2.  In a text editor, such as Notepad, open BIC_Master_Policy.xml in *\<drive>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies. Remove the double quotes around the SQL Server name, BIC database name, and integrated security value.  
+2.  In a text editor, such as Notepad, open BIC_Master_Policy.xml in *\<drive\>*:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies. Remove the double quotes around the SQL Server name, BIC database name, and integrated security value.  
   
 3.  In the Business Rules Engine Deployment Wizard, import BIC_Master_Policy.xml, and then deploy BIC_Master_Policy.xml.  
   

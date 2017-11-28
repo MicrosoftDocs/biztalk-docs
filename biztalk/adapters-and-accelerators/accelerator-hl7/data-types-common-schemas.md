@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Data Types Common Schemas
-The **datatypes_*\<version>*.xsd** schema file (where *\<version>* is the HL7 version number) contains the definition of all the HL7 elementary and composite data types for the corresponding HL7 version. The segments_*\<version>*.xsd file uses this file to match the corresponding HL7 version. The DataStructures Access database table generates the DataTypes_*\<version>*.xsd schema file. The following example is an entry for the HL7 elementary data type **ST**:  
+The **datatypes_*\<version\>*.xsd** schema file (where *\<version\>* is the HL7 version number) contains the definition of all the HL7 elementary and composite data types for the corresponding HL7 version. The segments_*\<version\>*.xsd file uses this file to match the corresponding HL7 version. The DataStructures Access database table generates the DataTypes_*\<version\>*.xsd schema file. The following example is an entry for the HL7 elementary data type **ST**:  
   
 ```  
 <xsd:simpleType name="ST">  

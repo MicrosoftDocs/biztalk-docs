@@ -64,12 +64,12 @@ manager: "anneta"
   
 1.  Right-click the Service folder, click **Properties**, and then click the **Security** tab.  
   
-2.  In the Group or user names pane of the Service Properties dialog box, click **Add**, enter ***\<server name>*\A4SWIFT Administrators**, and then click **OK**.  
+2.  In the Group or user names pane of the Service Properties dialog box, click **Add**, enter ***\<server name\>*\A4SWIFT Administrators**, and then click **OK**.  
   
     > [!NOTE]
-    >  If the A4SWIFT Administrators group is a domain group, enter ***\<domain name>*\A4SWIFT Administrators**.  
+    >  If the A4SWIFT Administrators group is a domain group, enter ***\<domain name\>*\A4SWIFT Administrators**.  
   
-3.  Repeat step 2 for ***\<server name>*\A4SWIFT Users**, or **\<*domain name*>\A4SWIFT Users** if the A4SWIFT Users group is a domain group.  
+3.  Repeat step 2 for ***\<server name\>*\A4SWIFT Users**, or **\<*domain name*\>\A4SWIFT Users** if the A4SWIFT Users group is a domain group.  
   
 4.  In the Group or user names pane, select **A4SWIFT Administrators**. In the Permissions pane, select **Allow** for **Full Control**.  
   

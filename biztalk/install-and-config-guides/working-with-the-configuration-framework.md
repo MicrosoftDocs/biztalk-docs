@@ -16,7 +16,7 @@ manager: "anneta"
 # Working with the Configuration Framework
 The Configuration Framework enables you to quickly and easily change Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration at setup. In conjunction with the Microsoft Windows Installer (MSI), the Configuration Framework reads and reports the state of your computer and the configuration tasks requiring action.  
   
- When you configure BizTalk Server for the first time using the Configuration Wizard, the Configuration Framework generates an XML file (a configuration snapshot) that you can then modify (that is, change user names, passwords, and so on) and export to other computers. You save your configuration snapshot on the Configuration Summary page, part of the Configuration Wizard. You can use this snapshot to replicate your configuration as part of a scripted installation. This file is located at \<*BizTalk Installation Path*>\ConfigMain.xml.  
+ When you configure BizTalk Server for the first time using the Configuration Wizard, the Configuration Framework generates an XML file (a configuration snapshot) that you can then modify (that is, change user names, passwords, and so on) and export to other computers. You save your configuration snapshot on the Configuration Summary page, part of the Configuration Wizard. You can use this snapshot to replicate your configuration as part of a scripted installation. This file is located at \<*BizTalk Installation Path*\>\ConfigMain.xml.  
   
 > [!NOTE]
 >  Passwords are not stored in the XML file. You must enter any passwords before you use this file.  

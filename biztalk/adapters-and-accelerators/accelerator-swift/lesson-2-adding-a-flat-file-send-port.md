@@ -34,9 +34,9 @@ In this lesson, you configure the send port and the send location. You use the s
   
 5.  In the FILE Transport Properties dialog box, click **Browse**.  
   
-6.  In the Browse For Folder dialog box, move to the **\<drive>:\Labs** folder, and then click **Make New Folder**.  
+6.  In the Browse For Folder dialog box, move to the **\<drive\>:\Labs** folder, and then click **Make New Folder**.  
   
-7.  Create an **Outbound** folder in **\<drive>:\Labs**, and then click **OK**.  
+7.  Create an **Outbound** folder in **\<drive\>:\Labs**, and then click **OK**.  
   
 8.  In the **File name** box, type **%MessageID%.txt**, and then click **OK**.  
   

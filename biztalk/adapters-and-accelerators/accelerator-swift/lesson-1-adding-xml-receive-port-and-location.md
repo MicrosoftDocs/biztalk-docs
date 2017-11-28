@@ -47,9 +47,9 @@ A receive port is a logical grouping of similar receive locations. A receive loc
   
 10. Click the **Configure** button to the right of the Type drop-down list.  
   
-11. In the FILE Transport Properties dialog box, click **Browse**. Move to the **\<drive>:\Labs** folder, and then click **Make New Folder**.  
+11. In the FILE Transport Properties dialog box, click **Browse**. Move to the **\<drive\>:\Labs** folder, and then click **Make New Folder**.  
   
-12. In the Browse For Folder dialog box, create an **Inbound** folder in **\<drive>:\Labs**, and then create an **XMLFile** folder in **\<drive>:\Labs\Inbound**. Click **OK**.  
+12. In the Browse For Folder dialog box, create an **Inbound** folder in **\<drive\>:\Labs**, and then create an **XMLFile** folder in **\<drive\>:\Labs\Inbound**. Click **OK**.  
   
 13. In the FILE Transport Properties dialog box, ensure that **\*.xml** is entered in the **File Mask** box, and then click **OK**.  
   

@@ -37,7 +37,7 @@ In this step, you create the send port for the Pharmacy System (RX) using the Fi
   
     |Use this|To do this|  
     |--------------|----------------|  
-    |**Destination folder**|Browse to **\<***drive***:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendMsg_RX**.|  
+    |**Destination folder**|Browse to **\<***drive***:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendMsg_RX**.|  
     |**File name**|Type **%MessageID%.txt** (replace the .xml extension with the .txt extension).|  
   
 4.  In the **Send Port Properties** dialog box, for **Send Pipeline**, select **BTAHL72XPipelines.BTAHL72XSendPipeline**.  
@@ -62,7 +62,7 @@ In this step, you create the send port for the Pharmacy System (RX) using the Fi
     >  The first filter means that the Hospital Information System (HIS) is subscribing to a message, not an acknowledgment. The second filter means that HIS is subscribing to messages whose source is the Admissions Discharge and Transfer (ADT) System.  
   
     > [!NOTE]
-    >  BTAHL7 drops the message at the file drop location \<*drive*>:Program FilesMicrosoft BizTalk <version> Accelerator for HL7SDKEnd-to-End TutorialTutorial_sendMsg_RX.  
+    >  BTAHL7 drops the message at the file drop location \<*drive*\>:Program FilesMicrosoft BizTalk <version> Accelerator for HL7SDKEnd-to-End TutorialTutorial_sendMsg_RX.  
   
 6.  Click **Apply**, and then click **OK.**  
   

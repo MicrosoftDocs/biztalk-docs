@@ -63,11 +63,11 @@ manager: "anneta"
 ## Importing SQL views from the A4SWIFT database into a Custom Database  
  The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] setup program installs two SQL views in the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database. One view is for eight-character BICs and the other is for 11-character BICs.  
   
- If you use a custom database instead of the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database, you must importing these SQL views into the custom database. You do so by executing the CreateBICViews.sql script in the Query Analyzer. This script is in \<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT/Scripts.  
+ If you use a custom database instead of the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database, you must importing these SQL views into the custom database. You do so by executing the CreateBICViews.sql script in the Query Analyzer. This script is in \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT/Scripts.  
   
 #### To import SQL views from the A4SWIFT database into a custom database  
   
-1.  In Windows Explorer, move to \<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\Scripts. Double-click **CreateBICViews.sql**.  
+1.  In Windows Explorer, move to \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\Scripts. Double-click **CreateBICViews.sql**.  
   
 2.  In the Connect to Server dialog box, click **Connect**.  
   

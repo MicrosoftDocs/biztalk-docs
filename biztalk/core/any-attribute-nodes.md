@@ -18,7 +18,7 @@ manager: "anneta"
 In BizTalk Editor, you can use an **Any Attribute** node to indicate a (known) element within an instance message for which zero or more unknown attributes may appear. This accommodates situations in which you know that a particular element will be present at a particular location within an instance message, but you are not sure exactly what attributes that element might include. If you place an **Any Attribute** node within the **Record** node associated with the relevant element, BizTalk can process that element, with the only requirement being that any associated attributes are syntactically correct (attributeName="attributeValue").  
   
 > [!NOTE]
->  In BizTalk Editor, the **Any Attribute** node is represented with the string \<AnyAttribute> in the schema tree view.  
+>  In BizTalk Editor, the **Any Attribute** node is represented with the string \<AnyAttribute\> in the schema tree view.  
   
 > [!NOTE]
 >  You can control the degree to which the unknown portion of the message is validated as well-formed XML by using the **Process Contents** property. In many cases you may need to set the **Process Contents** property to **Skip** for the contents of an instance message at the location of the **Any Attribute** node to be processed. Retaining the default value of **Strict** for the **Process Contents** property will prevent instance message validation from passing.  

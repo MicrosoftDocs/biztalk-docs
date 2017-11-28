@@ -42,6 +42,6 @@ This section provides an example of iterating through members of an **ArrayList*
 ## Rule C  
  IF MyClass.MyProperty==2  
   
- THEN \<Do Something...>  
+ THEN \<Do Something...\>  
   
  This rule executes action(s) when the property value of the object is matched in the condition.

@@ -172,7 +172,7 @@ A REF CURSOR is a PL/SQL data type that represents a pointer to a server-side re
  The response for the above request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <GET_ACTIVITYResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
   <STATUS>5</STATUS>   
   <INOUTRECS>  

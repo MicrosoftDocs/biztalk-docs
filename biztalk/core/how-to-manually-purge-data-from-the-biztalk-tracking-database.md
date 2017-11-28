@@ -99,9 +99,9 @@ The DTA Archive and Purge SQL Server Agent job reduces the need to manually purg
   
 21. At the command prompt, restart each of the IIS services that you stopped in step 4. Type:  
   
-     **net start** *\<IISserviceName>*  
+     **net start** *\<IISserviceName\>*  
   
-     Where *\<IISserviceName>* is the name of the IIS service you want to restart. You must repeat this command for each of the IIS services.  
+     Where *\<IISserviceName\>* is the name of the IIS service you want to restart. You must repeat this command for each of the IIS services.  
   
 ## See Also  
  [Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md)   

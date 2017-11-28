@@ -25,7 +25,7 @@ The SendMSMQMessage sample demonstrates how to send a message to an MSMQ port fr
  In the context of this sample, it is important that the code specify a transaction type in the call to **System.Messaging.MessageQueue.Send** that is consistent with the transaction support specified for the queue to which the message is sent. If this is not done and if no Admin Queue is specified (as is the case in this sample), then MSMQ discards the sent message with no indication that it has done so (that is, no error code returned to the application, no diagnostics written to the event log, and so on).  
   
 ## Where to Find This Sample  
- \<Samples Path>\AdaptersUsage\SendMSMQMessage\  
+ \<Samples Path\>\AdaptersUsage\SendMSMQMessage\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -124,7 +124,7 @@ The SendMSMQMessage sample demonstrates how to send a message to an MSMQ port fr
   
 1.  In a command window, navigate to the following folder:  
   
-     \<Samples Path>\AdaptersUsage\SendMSMQMessage\bin\Debug  
+     \<Samples Path\>\AdaptersUsage\SendMSMQMessage\bin\Debug  
   
 2.  Run the file SendMSMQMessage.exe, which starts the graphical application that provides the user interface for this sample.  
   

@@ -30,11 +30,11 @@ In this lesson, you add a new BizTalk project for SWIFT pipelines to the solutio
   
 4.  In the **Name** box, type **SWIFTPipelines** as the project name.  
   
-5.  In the **Solution** box, select **Add to Solution**. In the **Location** box, browse to select **\<*drive*:>\labs\SWIFTProject** is selected.  
+5.  In the **Solution** box, select **Add to Solution**. In the **Location** box, browse to select **\<*drive*:\>\labs\SWIFTProject** is selected.  
   
 6.  Click **OK** to open the new project.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds a new project to Solution Explorer, and creates the project folder and files in the \<*drive*>:\Labs\SWIFTProject folder.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds a new project to Solution Explorer, and creates the project folder and files in the \<*drive*\>:\Labs\SWIFTProject folder.  
   
 7.  Apply the assembly key file that you created in lesson 2 of module 2 to the SWIFTPipelines project. For more information, see [Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project](../../adapters-and-accelerators/accelerator-swift/lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project.md).  
   

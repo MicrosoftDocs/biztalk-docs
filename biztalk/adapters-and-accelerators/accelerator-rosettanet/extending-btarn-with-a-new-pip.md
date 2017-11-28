@@ -26,7 +26,7 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
   
 1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Utilities\Schema Generator.  
+2.  At the command prompt, move to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Utilities\Schema Generator.  
   
 3.  At the command prompt, type **CScript InstallDTD.vbs**, and then press **Enter**.  
   
@@ -45,7 +45,7 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
   
 9. Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)] command prompt.  
   
-10. At the command prompt, move to the location entered in step 7, type **sn -k \<project name.snk>**, and then press **Enter**.  
+10. At the command prompt, move to the location entered in step 7, type **sn -k \<project name.snk\>**, and then press **Enter**.  
   
 11. In Solutions Explorer, right-click the project name, and then click **Properties**.  
   
@@ -57,13 +57,13 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
   
 15. In Solution Explorer, right-click the project name, point to **Add**, and then click **Existing Item**.  
   
-16. In the **Add Existing Item** dialog box, move to \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Schemas, select **xml.xsd**, then click **Add**.  
+16. In the **Add Existing Item** dialog box, move to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Schemas, select **xml.xsd**, then click **Add**.  
   
 17. Download the PIP that you are going to extend RNPIPs with RosettaNet.org. For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).  
   
 18. In Solution Explorer, expand the project name, right-click **Reference**, and then click **Add Reference**.  
   
-19. In the **Add Reference** dialog box, click **Browse**, and move to \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\Bin, and then select **Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll**. Click **Open**, and then click **OK**.  
+19. In the **Add Reference** dialog box, click **Browse**, and move to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\Bin, and then select **Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll**. Click **Open**, and then click **OK**.  
   
 20. In Solution Explorer, right-click the project name, point to **Add**, and then click **Add Generated Items**.  
   
@@ -80,13 +80,13 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
   
 24. In Solution Explorer, double-click the .xsd file that you just imported.  
   
-25. In BizTalk Editor, select the \<*Schema*> node.  
+25. In BizTalk Editor, select the \<*Schema*\> node.  
   
-26. In the Properties window, scroll down to **Document Type**. In the **Document Type** box, **PIP**\<*three-digit code*>, for example, **PIP3A2**. In the **Document Version** box, type **v**\<*xx.xx*> or **R**\<*xx.xx*>, for example, **R01.02**. This version should be as documented in the RosettaNet PIP specification.  
+26. In the Properties window, scroll down to **Document Type**. In the **Document Type** box, **PIP**\<*three-digit code*\>, for example, **PIP3A2**. In the **Document Version** box, type **v**\<*xx.xx*\> or **R**\<*xx.xx*\>, for example, **R01.02**. This version should be as documented in the RosettaNet PIP specification.  
   
 27. In the Properties window, scroll down to **Root Reference**. Click **Root Reference**, and from the drop-down list, select the root node of the schema, for example, select **Pip3C5BillingStatementNotification**.  
   
-28. In the Properties window, scroll up to **Target Namespace**. For **Target Namespace**, type **http://schemas.microsoft.com/biztalk/btarn/2004/\<DTD file name>.dtd**, where the DTD file name is, for example, **3C5_MS_R01_00_BillingStatementNotification.dtd**.  
+28. In the Properties window, scroll up to **Target Namespace**. For **Target Namespace**, type **http://schemas.microsoft.com/biztalk/btarn/2004/\<DTD file name\>.dtd**, where the DTD file name is, for example, **3C5_MS_R01_00_BillingStatementNotification.dtd**.  
   
     > [!NOTE]
     >  This naming convention for the target namespace is required for BTARN. If you use another namespace convention, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] will not process PIP documents for schema validation.  
@@ -96,7 +96,7 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
   
 29. In the Properties window, scroll up to **Imports**. Click the ellipsis button (...) next to **Imports**, and then click **Add**.  
   
-30. In the **BizTalk Type Picker** dialog box, expand \<*Project Name*>, expand **References**, expand **Microsoft.Solutions.BTARN.Schemas.RNPIPs**, expand **Schemas**, select **Microsoft.Solutions.BTARN.Schemas.RNPIPs.BaseDataTypes**, click **OK**, and then click **OK** again.  
+30. In the **BizTalk Type Picker** dialog box, expand \<*Project Name*\>, expand **References**, expand **Microsoft.Solutions.BTARN.Schemas.RNPIPs**, expand **Schemas**, select **Microsoft.Solutions.BTARN.Schemas.RNPIPs.BaseDataTypes**, click **OK**, and then click **OK** again.  
   
 31. Right-click the project name, and then click **Deploy**.  
   

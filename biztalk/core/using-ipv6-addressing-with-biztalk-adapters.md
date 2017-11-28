@@ -27,10 +27,10 @@ manager: "anneta"
  For example, the nomenclature for a URI that points to a file share on a computer with the IPv6 address 2001:DB8:2a:1005:230:48ff:fe73:989d would be:  
   
 ```  
-\\2001-DB8-2a-1005-230-48ff-fe73-989d.ipv6-literal.net\<sharename>  
+\\2001-DB8-2a-1005-230-48ff-fe73-989d.ipv6-literal.net\<sharename\>  
 ```  
   
- Where \<*sharename*> is the name of the file share on the target computer.  
+ Where \<*sharename*\> is the name of the file share on the target computer.  
   
 > [!NOTE]
 >  Ensure that the user accounts for the host instances that the File send and receive handlers are running in have appropriate permissions to the file share. For more information about the folder permissions required to receive files with the File adapter see [How to Configure a File Receive Handler](http://msdn.microsoft.com/library/68333bb6-d79b-4a82-9742-230f62d535c4). For more information about the folder permissions required when sending files with the File adapter see [Known Issues with the File Adapter](../core/known-issues-with-the-file-adapter.md). For information about the file systems that are supported for use with the File adapter, see [http://support.microsoft.com/kb/815070](http://support.microsoft.com/kb/815070).  

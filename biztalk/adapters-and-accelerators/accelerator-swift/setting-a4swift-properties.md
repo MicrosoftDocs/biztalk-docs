@@ -17,4 +17,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Setting A4SWIFT Properties
-To set A4SWIFT Properties, refer to the Profile Web Client Documentation located in \<drive>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Samples\CustomMRSRModel.
+To set A4SWIFT Properties, refer to the Profile Web Client Documentation located in \<drive\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Samples\CustomMRSRModel.

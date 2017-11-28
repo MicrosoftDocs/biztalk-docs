@@ -24,7 +24,7 @@ In this step, you create two maps that define the transformation required to suc
   
 2.  In the Add Reference dialog box, click **Browse**.  
   
-3.  Move to the folder *\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\Bin, and then select the **Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll** assembly.  
+3.  Move to the folder *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin, and then select the **Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll** assembly.  
   
 4.  Click **Add**, and then click **OK**.  
   
@@ -54,9 +54,9 @@ In this step, you create two maps that define the transformation required to suc
   
 ### To link schema fields in the PIP3A2RequestToContosoPriceRequest map  
   
-1.  In the Destination Schema pane, right-click the **\<Schema>** node, and then click **Expand Tree Node**.  
+1.  In the Destination Schema pane, right-click the **\<Schema\>** node, and then click **Expand Tree Node**.  
   
-2.  In the Source Schema pane, right-click the **\<Schema>** node, and then click **Expand Tree Node**.  
+2.  In the Source Schema pane, right-click the **\<Schema\>** node, and then click **Expand Tree Node**.  
   
 3.  Drag the **GlobalProductIdentifier** field to the **ProductID** field in the Destination Schema pane.  
   

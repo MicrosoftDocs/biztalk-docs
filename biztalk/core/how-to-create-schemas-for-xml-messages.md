@@ -23,7 +23,7 @@ There are several methods for creating BizTalk message schemas. This topic provi
   
 2.  On the **Project** menu, click **Add New Item**.  
   
-3.  In the **Add New Item - \<*BizTalk ProjectName*>** dialog box, in the **Templates** section, click **Schema**.  
+3.  In the **Add New Item - \<*BizTalk ProjectName*\>** dialog box, in the **Templates** section, click **Schema**.  
   
 4.  In the **Name** box, type a name for the schema, and then click **Add**.  
   
@@ -41,7 +41,7 @@ There are several methods for creating BizTalk message schemas. This topic provi
   
 1.  In **Solution Explorer**, right-click a BizTalk project, point to **Add**, and then click **Add Generated Items**.  
   
-2.  In the **Add Generated Items - \<*BizTalk ProjectName*>** dialog box, in the **Templates** section, click **Generate Schemas**, and then click **Add**.  
+2.  In the **Add Generated Items - \<*BizTalk ProjectName*\>** dialog box, in the **Templates** section, click **Generate Schemas**, and then click **Add**.  
   
 3.  In the **Generate Schemas** dialog box, in the **Document type** drop-down list, select **XDR Schema**, **DTD Schema**, or **Well-Formed XML**.  
   

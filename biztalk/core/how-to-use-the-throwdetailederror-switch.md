@@ -24,7 +24,7 @@ If an error occurs, the Web client receives a generic **SoapException**.
   
  The Web.config file contains an application setting switch, **ThrowDetailedError**. **False** is the default setting for **ThrowDetailedError**. If you change the setting to **True**, the server proxy returns inner exception information to the Web client enabling you to debug the published Web service.  
   
- The following XML code shows the **ThrowDetailedError** switch that appears in the Web.config file under the \<appSettings> node:  
+ The following XML code shows the **ThrowDetailedError** switch that appears in the Web.config file under the \<appSettings\> node:  
   
 ```  
 <appSettings>  

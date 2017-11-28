@@ -67,7 +67,7 @@ You can invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/a
   
 #### How to invoke an operation by using an instance of IRequestChannel  
   
-1.  Build a channel factory (**ChannelFactory\<IRequestChannel>**). To do this, you must specify a binding (**OracleDBBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).  
+1.  Build a channel factory (**ChannelFactory\<IRequestChannel\>**). To do this, you must specify a binding (**OracleDBBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).  
   
     ```  
     // Create a binding  
@@ -143,7 +143,7 @@ You can invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/a
   
  You follow the same steps to send a message using the **IOutputChannel** shape except:  
   
--   You create a **ChannelFactory\<IOutputChannel>** in step 1.  
+-   You create a **ChannelFactory\<IOutputChannel\>** in step 1.  
   
 -   You call the **Send** method on the channel in step 6. `channel.Send(messageIn);`.  
   
@@ -173,7 +173,7 @@ namespace RequestChanneSample
         {  
             // The Select operation request message  
             const string selectRequestString =  
-                "\<Select xmlns=\"http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY\">" +  
+                "\<Select xmlns=\"http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY\"\>" +  
                     "<COLUMN_NAMES>*</COLUMN_NAMES>" +  
                     "<FILTER>ACCOUNT = 100002</FILTER>" +  
                 "</Select>";  

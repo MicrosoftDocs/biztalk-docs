@@ -34,12 +34,12 @@ A business manager asks a solutions developer to create a new tracking profile o
   
 ### To deploy the tracking profile from the command-line utility  
   
-1.  From a command prompt, move to the directory \<installation path>\Program Files\Microsoft BizTalk Server \<version>\Tracking\\.  
+1.  From a command prompt, move to the directory \<installation path\>\Program Files\Microsoft BizTalk Server \<version\>\Tracking\\.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-2.  Type **bttdeploy.exe \<profile name>.btt**.  
+2.  Type **bttdeploy.exe \<profile name\>.btt**.  
   
 3.  Press ENTER.  
   

@@ -30,7 +30,7 @@ The Related Activities area contains a list of activities that are related to th
   
 -   You define two activities. Your developer makes a correlation connection in your custom application by calling AddRelationship() and defining the key, field, and value relationships between the activities.  
   
- Defining the activity relationships in either of these ways adds a row in the \<activityname>_Relationships table.  
+ Defining the activity relationships in either of these ways adds a row in the \<activityname\>_Relationships table.  
   
 > [!NOTE]
 >  Only the first method of defining relationships results in the related activities having live links to each other. The second method does not define a spanning view and therefore the portal cannot know about the relationship between the two activities.  

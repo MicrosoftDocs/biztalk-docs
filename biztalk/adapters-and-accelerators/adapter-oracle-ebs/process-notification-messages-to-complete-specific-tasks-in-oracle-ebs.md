@@ -152,7 +152,7 @@ You can use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapterorac
  The purpose of including an Expression shape in the orchestration is to have an xpath query to extract the kind of notification message received. Before creating an xpath query, let us look at the format of a notification message. A typical notification message resembles the following:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
   <Details>  
     <NotificationDetails>  
@@ -176,7 +176,7 @@ You can use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapterorac
   
      For this topic, name the variable as **NotificationType**.  
   
--   Create an xpath query to extract the value from the \<Info> tag. The xpath query will resemble the following:  
+-   Create an xpath query to extract the value from the \<Info\> tag. The xpath query will resemble the following:  
   
     ```  
     NotificationType = xpath(NotifyReceive,"string(/*[local-name()='Notification']/*[local-name()='Info']/text())");  
@@ -275,7 +275,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Because the **NotifyOnListenerStart** binding property is set to **True**, you receive the following message:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Info>ListenerStarted</Info>   
       <Source>OracleEBSBinding</Source>   
@@ -288,7 +288,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Insert a record in the ACCOUNTACTIVITY table. You will receive a notification message resembling the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -311,7 +311,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Update a record in the ACCOUNTACTIVITY table. You will receive a notification message resembling the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -334,7 +334,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Delete a record from the ACCOUNTACTIVITY table. You will receive a notification message resembling the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  

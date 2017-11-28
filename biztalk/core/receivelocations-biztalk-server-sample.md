@@ -35,7 +35,7 @@ The ReceiveLocations sample demonstrates how to create receive locations in the 
 ## Where To Find This Sample  
  This sample is located in the following SDK location:  
   
- \<*Samples Path*> \Admin\ExplorerOM\ReceiveLocations  
+ \<*Samples Path*\> \Admin\ExplorerOM\ReceiveLocations  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -56,7 +56,7 @@ The ReceiveLocations sample demonstrates how to create receive locations in the 
   
 1.  Open a command prompt with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges.  
   
-2.  Change to the \<*Samples*>\Admin\ExplorerOM\ReceiveLocations\bin\debug directory.  
+2.  Change to the \<*Samples*\>\Admin\ExplorerOM\ReceiveLocations\bin\debug directory.  
   
 3.  Run ReceiveLocations.exe.  
   

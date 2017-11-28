@@ -146,7 +146,7 @@ manager: "anneta"
   
 5.  In the Properties window, on the **Signing** tab, select the **Sign the assembly** check box.  
   
-6.  In the **Choose a strong name key file** drop-down list, click **\<New...>**.  
+6.  In the **Choose a strong name key file** drop-down list, click **\<New...\>**.  
   
 7.  In the **Create Strong Name Key** dialog box, configure the following properties:  
   
@@ -207,7 +207,7 @@ manager: "anneta"
   
 9. In Facts Explorer, click the **Vocabularies** tab. Expand the **ESB.Itinerary** vocabulary, expand **Version 1.1**, and then drag the **Set Itinerary Name** definition to **Actions**.  
   
-10. Click **\<empty string>** and then type **GlobalBankWestItinerary**.  
+10. Click **\<empty string\>** and then type **GlobalBankWestItinerary**.  
   
     > [!NOTE]
     >  Later in this How-to topic, you will create this itinerary to process messages from GlobalBank West.  
@@ -228,7 +228,7 @@ manager: "anneta"
   
 7.  In the **Actions** section, right-click **GlobalBankWestItinerary**, and then click **Reset argument**.  
   
-8.  Click **\<empty string>** and then type **GlobalBankEastItinerary.**  
+8.  Click **\<empty string\>** and then type **GlobalBankEastItinerary.**  
   
     > [!NOTE]
     >  Later in this How-to topic, you will create this itinerary to process messages from GlobalBank East.  

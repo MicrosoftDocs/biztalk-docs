@@ -27,7 +27,7 @@ Administrators use the **enable-alerts** command to enable all of the alerts on 
   
 2.  Navigate to the tracking folder by typing [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking at the command prompt. Press **ENTER**.  
   
-3.  Type **bm enable-alerts -View:\<view name>**.  
+3.  Type **bm enable-alerts -View:\<view name\>**.  
   
     > [!NOTE]
     >  If you have exported a BAM configuration as XML, do not modify the XML related to alerts. If you change XML related to alerts and deploy the changes, bm.exe will detect the change and enable BAM alerts.  

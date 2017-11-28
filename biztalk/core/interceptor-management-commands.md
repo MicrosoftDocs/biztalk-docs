@@ -36,16 +36,16 @@ To support the new BAM interceptor functionality, four new commands have been ad
 ## deploy-interceptor Command  
  **Usage**  
   
- **bm.exe deploy-interceptor -FileName:\<Configuration XML Filename> [-Force:True ] [-Server:\<server>] [-Database:\<database>]**  
+ **bm.exe deploy-interceptor -FileName:\<Configuration XML Filename\> [-Force:True ] [-Server:\<server\>] [-Database:\<database\>]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|FileName:\<Configuration XML Filename>|The name of the XML file containing the interceptor configuration.|  
+|FileName:\<Configuration XML Filename\>|The name of the XML file containing the interceptor configuration.|  
 |Force:True|Optional: Forces deployment of the interceptor configuration when event source name collisions are detected.|  
-|Server:\<server>|Optional: The name of the server on which to deploy the interceptor. The server must be in the same domain as the computer from which you are running bm.exe.|  
-|Database:\<database>|Optional: The name of the BAM Primary Import database on which to configure the interceptor.|  
+|Server:\<server\>|Optional: The name of the server on which to deploy the interceptor. The server must be in the same domain as the computer from which you are running bm.exe.|  
+|Database:\<database\>|Optional: The name of the BAM Primary Import database on which to configure the interceptor.|  
   
  This command deploys the interceptor configuration to the specified server and database. During deployment, the BAM Management utility performs the following validations:  
   
@@ -68,14 +68,14 @@ bm.exe deploy-interceptor  -FileName:myInceptor.xml -Force:True
 ## get-interceptorlist Command  
  **Usage**  
   
- **bm.exe get-interceptorlist [-Server:\<server>] [-Database:\<database>]**  
+ **bm.exe get-interceptorlist [-Server:\<server\>] [-Database:\<database\>]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|Server:\<server>|Optional: The name of the server from which to return a list of deployed interceptors. The server must be in the same domain as the computer from which you are running bm.exe.|  
-|Database:\<database>|Optional: The name of the BAM Primary Import database from which to retrieve the deployed interceptors.|  
+|Server:\<server\>|Optional: The name of the server from which to return a list of deployed interceptors. The server must be in the same domain as the computer from which you are running bm.exe.|  
+|Database:\<database\>|Optional: The name of the BAM Primary Import database from which to retrieve the deployed interceptors.|  
   
  This command returns a list of the activities, and their associated event sources, for which interception is enabled.  
   
@@ -88,17 +88,17 @@ bm.exe get-interceptorlist
 ## get-interceptor Command  
  **Usage**  
   
- **bm.exe get-interceptor [-Server:\<server>] [-Database:\<database>] -FileName: \<Configuration XML Filename> [ -Activity: \<Activity Name>] [-EventSource: \<Event Source Name>]**  
+ **bm.exe get-interceptor [-Server:\<server\>] [-Database:\<database\>] -FileName: \<Configuration XML Filename\> [ -Activity: \<Activity Name\>] [-EventSource: \<Event Source Name\>]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|Server:\<server>|Optional: The name of the server from which to retrieve the deployed interceptor. The server must be in the same domain as the computer from which you are running bm.exe.|  
-|Database:\<database>|Optional: The name of the BAM Primary Import database from which to retrieve deployed interceptor.|  
-|FileName:\<Configuration XML Filename>|The name of the XML file to which to write the interceptor configuration.|  
-|Activity:\<Activity Name>|Optional: Specifies the activity for which to return the configured interceptor. Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.|  
-|EventSource:\<Event Source Name>|Optional: Specifies the event source for which to return the configured interceptor. Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.|  
+|Server:\<server\>|Optional: The name of the server from which to retrieve the deployed interceptor. The server must be in the same domain as the computer from which you are running bm.exe.|  
+|Database:\<database\>|Optional: The name of the BAM Primary Import database from which to retrieve deployed interceptor.|  
+|FileName:\<Configuration XML Filename\>|The name of the XML file to which to write the interceptor configuration.|  
+|Activity:\<Activity Name\>|Optional: Specifies the activity for which to return the configured interceptor. Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.|  
+|EventSource:\<Event Source Name\>|Optional: Specifies the event source for which to return the configured interceptor. Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.|  
   
  If no activity name or event source name is provided, the command returns a valid configuration file containing the interceptor configurations for all event sources and activities.  
   
@@ -118,16 +118,16 @@ bm.exe get-interceptor  -Activity:ShippingPO
 ## remove-interceptor Command  
  **Usage**  
   
- **bm.exe remove-interceptor [-Server:\<server>] [-Database:\<database>] [ -Activity: \<Activity Name>][-EventSource: \<Event Source Name>]**  
+ **bm.exe remove-interceptor [-Server:\<server\>] [-Database:\<database\>] [ -Activity: \<Activity Name\>][-EventSource: \<Event Source Name\>]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|Server:\<server>|Optional: The name of the server on which the interceptor is configured. The server must be in the same domain as the computer from which you are running bm.exe.|  
-|Database:\<database>|Optional: The name of the database on which the interceptor is configured.|  
-|Activity: \<Activity Name>|Optional: Specifies the activity for which to remove the specified interceptor. Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.|  
-|EventSource: \<Event Source Name>|Optional: Specifies the event source for which to remove the specified interceptor. Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.|  
+|Server:\<server\>|Optional: The name of the server on which the interceptor is configured. The server must be in the same domain as the computer from which you are running bm.exe.|  
+|Database:\<database\>|Optional: The name of the database on which the interceptor is configured.|  
+|Activity: \<Activity Name\>|Optional: Specifies the activity for which to remove the specified interceptor. Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.|  
+|EventSource: \<Event Source Name\>|Optional: Specifies the event source for which to remove the specified interceptor. Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.|  
   
  If only an activity name is provided, the command removes the interceptor for all event sources for that activity.  
   

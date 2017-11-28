@@ -40,9 +40,9 @@ You must have administrator rights on the master secret server in order to perfo
   
 1.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssoconfig –generateSecret \<*backup file*>**, where \<*backup file*> is the name of the file that contains the master secret.  
+3.  Type **ssoconfig –generateSecret \<*backup file*\>**, where \<*backup file*\> is the name of the file that contains the master secret.  
   
      You will be prompted to enter a password to protect the file you just created.  
   

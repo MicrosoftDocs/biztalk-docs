@@ -48,7 +48,7 @@ The pipeline tools supplied with the Microsoft [!INCLUDE[btsBizTalkServerNoVersi
 -   Make fine-grained performance measurements of the pipeline alone (rather than the entire messaging subsystem).  
   
 ## Location in SDK  
- \<*Installation Path*>\SDK\Utilities\PipelineTools  
+ \<*Installation Path*\>\SDK\Utilities\PipelineTools  
   
  You use pipeline tools for executing, debugging, and profiling pipelines, and pipeline components (that is, flat file and XML assembler/disassembler components).  
   

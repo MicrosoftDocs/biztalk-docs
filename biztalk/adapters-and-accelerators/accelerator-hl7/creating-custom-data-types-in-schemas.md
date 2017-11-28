@@ -19,11 +19,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Creating Custom Data Types in Schemas
-You can create a custom data type in the datatypes_\<*version*>.xsd common schema. You can base a custom data type on an existing data type, a base data type, or on an enumeration defined in a table.  
+You can create a custom data type in the datatypes_\<*version*\>.xsd common schema. You can base a custom data type on an existing data type, a base data type, or on an enumeration defined in a table.  
   
 ### To create a Z data type  
   
-1.  In Solution Explorer of Visual Studio, open the common data-type schema file (**datatypes_\<*version*>.xsd**), and then click **Open**.  
+1.  In Solution Explorer of Visual Studio, open the common data-type schema file (**datatypes_\<*version*\>.xsd**), and then click **Open**.  
   
 2.  In BizTalk Editor, right-click **HL7DefinedDataTypes**, point to **Insert Schema Node**, and then click **Child Record** to create a component data type, or click **Child Element** to create a simple data type.  
   

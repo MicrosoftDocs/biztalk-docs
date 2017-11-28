@@ -25,9 +25,9 @@ This section describes how to repair a message that has failed validation.
   
 2.  In the Home window, click **Documents**.  
   
-3.  In the Documents window, under **Document Libraries**, click **\<*Department name*>**_**Repairer**.  
+3.  In the Documents window, under **Document Libraries**, click **\<*Department name*\>**_**Repairer**.  
   
-4.  In the \<*Department name*>_Repair window, click **Inbox**.  
+4.  In the \<*Department name*\>_Repair window, click **Inbox**.  
   
 5.  In the Inbox window, point to the title of the message, click the arrow to the right of the message title, and then click **Edit in Microsoft Office InfoPath**.  
   
@@ -71,4 +71,4 @@ This section describes how to repair a message that has failed validation.
   
 16. Close the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] window.  
   
-17. In MRSR site, click **Documents**. If you clicked **Accept** to accept the changes in step 11, verify that the *\<Department name>*_ReKeyVerify document library contains the message that you just repaired. If you clicked **Reject** to reject the changes in step 11, verify that the A4SWIFT_Outbox document library contains the message that was just modified.
+17. In MRSR site, click **Documents**. If you clicked **Accept** to accept the changes in step 11, verify that the *\<Department name\>*_ReKeyVerify document library contains the message that you just repaired. If you clicked **Reject** to reject the changes in step 11, verify that the A4SWIFT_Outbox document library contains the message that was just modified.

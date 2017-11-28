@@ -58,7 +58,7 @@ Value Mapping Functoid Map
  To suppress empty tags, use the Value Mapping functoid to control if a tag gets created or not. If the value is evaluated to true, the destination field will be created; otherwise the destination field will not be created. In a looping scenario, use a logical functoid and connect it to the destination record or field. If the condition is evaluated to false, the tag will not be created. For an example, see [Conditional Looping](../core/conditional-looping.md).  
   
 ## Forcing the Creation of Empty Tags  
- To force empty tags to be created, you can add a value in the Value property of the destination field or link a **Concatenate** functoid to the destination field.  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], it is possible to force the generation of empty tags by selecting the "\<empty>" value in the Value property of the destination field. In this case the field will be created with the empty value.  
+ To force empty tags to be created, you can add a value in the Value property of the destination field or link a **Concatenate** functoid to the destination field.  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], it is possible to force the generation of empty tags by selecting the "\<empty\>" value in the Value property of the destination field. In this case the field will be created with the empty value.  
   
 ## See Also  
  [Value Mapping (Flattening) Functoid](../core/value-mapping-flattening-functoid.md)   

@@ -29,6 +29,6 @@ manager: "anneta"
   
 5.  Close the SWIFT BRE Deployment Utility dialog box.  
   
-6.  In Windows Explorer, browse to *\<drive>*:\Documents and Settings\All Users\Application Data to confirm that the log file BREDeploymentLog.txt appears in the folder.  
+6.  In Windows Explorer, browse to *\<drive\>*:\Documents and Settings\All Users\Application Data to confirm that the log file BREDeploymentLog.txt appears in the folder.  
   
 7.  Click **Start**, click **Run**, type **services.msc**, and then click **OK**. In the Services (Local) window, right-click **Rule Engine Update Service**, and then click **Restart**.

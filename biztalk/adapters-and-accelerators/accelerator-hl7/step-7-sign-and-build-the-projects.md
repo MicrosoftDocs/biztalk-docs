@@ -29,13 +29,13 @@ In this step, you assign a strong name and build the project to generate an asse
   
 3.  In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.  
   
-4.  In the Assembly Key File dialog box, browse to **\<*drive*>:\Tutorial\BTAHL7V22Common\key.snk** (as created in [Step 3: Assign a Strong Name to the Assembly](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md)), and then click **Open**.  
+4.  In the Assembly Key File dialog box, browse to **\<*drive*\>:\Tutorial\BTAHL7V22Common\key.snk** (as created in [Step 3: Assign a Strong Name to the Assembly](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md)), and then click **Open**.  
   
 5.  Click **OK** to save changes.  
   
 ### To build the BTAHL7 Project  
   
--   In Solution Explorer, right-click **BTAHL7 Project**, and then click **Deploy**. [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] compiles the assembly into a DLL file and saves it in the \<*drive*>:\Tutorial\BTAHL7V22Common\Bin\Development folder.  
+-   In Solution Explorer, right-click **BTAHL7 Project**, and then click **Deploy**. [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] compiles the assembly into a DLL file and saves it in the \<*drive*\>:\Tutorial\BTAHL7V22Common\Bin\Development folder.  
   
  Proceed to [Step 8: Create a Map with BizTalk Mapper](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md).  
   

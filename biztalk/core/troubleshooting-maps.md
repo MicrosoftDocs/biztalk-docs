@@ -52,7 +52,7 @@ This topic provides troubleshooting strategies and problem detail and resolution
   
  If you decide to customize your map by hand, you can modify the version produced by the map compiler. Changes will not be reflected by the Mapper and will be lost the next time you build your solution.  
   
-### Tune your map for specific scenarios using \<mapsource>  
+### Tune your map for specific scenarios using \<mapsource\>  
  You can modify some default behaviors of the Mapper by modifying attributes of the **mapsource** element directly in a map source (.btm) file. There are currently three behaviors that you can modify:  
   
 -   **Optimize Value Mapping functoid code generation**. You can modify the behavior that controls when a variable is used with `if` statements.  
@@ -61,7 +61,7 @@ This topic provides troubleshooting strategies and problem detail and resolution
   
 -   **Manage for-each usage with Looping, Conditional, and Value Mapping functoids**. You can control where the `xsl:for-each` statement is used within the destination schema.  
   
- For more information about modifying **mapsource**, see [Managing Default Mapper Behavior Using \<mapsource>](../core/managing-default-mapper-behavior-using-mapsource.md).  
+ For more information about modifying **mapsource**, see [Managing Default Mapper Behavior Using \<mapsource\>](../core/managing-default-mapper-behavior-using-mapsource.md).  
   
 ## See Also  
  [General Troubleshooting Questions and Answers](../core/general-troubleshooting-questions-and-answers.md)   

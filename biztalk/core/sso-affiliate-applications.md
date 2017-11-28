@@ -97,7 +97,7 @@ The Enterprise Single Sign-On (SSO) Affiliate applications are logical entities 
   
 |Application Fields|Description|Description|  
 |------------------------|-----------------|-----------------|  
-|Field [0]|\<*credential*>: Masked/Unmasked|Determines the type of credential (user ID, password, smartcard) that end users must provide to connect to the affiliate application, and whether this credential is masked (that is, whether the characters that the user types are displayed on the screen) or not.<br /><br /> You can enter as many fields as there are credentials for the affiliate application, but the first field must be the user ID.<br /><br /> You cannot change this property after you create the application.|  
+|Field [0]|\<*credential*\>: Masked/Unmasked|Determines the type of credential (user ID, password, smartcard) that end users must provide to connect to the affiliate application, and whether this credential is masked (that is, whether the characters that the user types are displayed on the screen) or not.<br /><br /> You can enter as many fields as there are credentials for the affiliate application, but the first field must be the user ID.<br /><br /> You cannot change this property after you create the application.|  
   
 ## See Also  
  [Managing Affiliate Applications](../core/managing-affiliate-applications.md)   

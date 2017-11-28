@@ -27,4 +27,4 @@ manager: "anneta"
   
  **User Action**  
   
- Create a link between the indicated **Table Extractor** functoid and the appropriate **Table Looping** functoid by dragging one of them to the other. The former functoid must be located to the right of the latter functoid in a map grid page. Also, using the **Configure \<Functoid> Functoid** dialog box, ensure that the newly created link is the first input parameter to the indicated **Table Extractor** functoid.
+ Create a link between the indicated **Table Extractor** functoid and the appropriate **Table Looping** functoid by dragging one of them to the other. The former functoid must be located to the right of the latter functoid in a map grid page. Also, using the **Configure \<Functoid\> Functoid** dialog box, ensure that the newly created link is the first input parameter to the indicated **Table Extractor** functoid.

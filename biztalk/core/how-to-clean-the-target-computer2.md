@@ -14,11 +14,11 @@ Deployment overwrites the receive location configuration. When you deploy a bind
   
      If you do not have Microsoft Visual Studio installed on the target computer, you can remove the ports by running these scripts:  
   
-     \<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
+     \<Microsoft BizTalk Server\>\SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
   
-     \<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs  
+     \<Microsoft BizTalk Server\>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs  
   
      For example, at a command prompt, run:  
   
-     **cscript RemoveSendPort.vbs \<Send port name>**  
+     **cscript RemoveSendPort.vbs \<Send port name\>**  
   

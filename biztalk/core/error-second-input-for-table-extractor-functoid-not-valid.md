@@ -27,7 +27,7 @@ manager: "anneta"
   
  **User Action**  
   
- Ensure that the input parameters to the relevant **Table Extractor** functoid, as accessed through its **Input Parameters** property and the **Configure \<Functoid> Functoid** dialog box, are as shown in the following table.  
+ Ensure that the input parameters to the relevant **Table Extractor** functoid, as accessed through its **Input Parameters** property and the **Configure \<Functoid\> Functoid** dialog box, are as shown in the following table.  
   
 |Table Extractor functoid input parameter number|Description|  
 |-----------------------------------------------------|-----------------|  

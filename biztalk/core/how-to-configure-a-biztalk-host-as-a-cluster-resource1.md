@@ -88,7 +88,7 @@ This topic discusses the steps that you must follow to configure a BizTalk host 
   
 #### To configure a BizTalk host as a cluster resource  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername>:\<management database>]**, click to expand **Platform Settings**, and then click to expand **Hosts**. The list of hosts appears under the folder.  
+1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername\>:\<management database\>]**, click to expand **Platform Settings**, and then click to expand **Hosts**. The list of hosts appears under the folder.  
   
 2.  Right-click the host that you would like to cluster, and then select **Cluster**.  
   
@@ -102,7 +102,7 @@ This topic discusses the steps that you must follow to configure a BizTalk host 
   
 #### To uncluster a clustered BizTalk host  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername>:\<management database>]**, click to expand **Platform Settings**, and then click to expand **Hosts**. The list of hosts appears under the folder.  
+1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername\>:\<management database\>]**, click to expand **Platform Settings**, and then click to expand **Hosts**. The list of hosts appears under the folder.  
   
 2.  Right-click the clustered host that you would like to uncluster, and then select **Uncluster**.  
   

@@ -22,7 +22,7 @@ BizTalk Server supports domain group and user accounts in both single and multip
   
 -   After creating domain groups and/or user accounts, add user accounts to the proper groups according to the group affiliations in [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
   
--   Use **\<DomainName>\\<UserName\>** when specifying domain account information in the Configuration Manager.  
+-   Use **\<DomainName\>\\<UserName\>** when specifying domain account information in the Configuration Manager.  
   
 -   BizTalk Server requires domain accounts for all clustering scenarios. You cannot use local accounts with clustered SQL Server or clustered SSO Server (master secret server).  
   

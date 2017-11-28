@@ -20,7 +20,7 @@ The following notes and restrictions apply to the resubmission process:
   
 -   The default URL for the WCF on-ramp is http://localhost/ESB.ItineraryServices.WCF/ProcessItinerary.svc.  
   
--   The portal Web.config file defines the endpoint details for the WCF on-ramp in the **\<Client>** node of the **\<System.ServiceModel>** section. The following is the default value.  
+-   The portal Web.config file defines the endpoint details for the WCF on-ramp in the **\<Client\>** node of the **\<System.ServiceModel\>** section. The following is the default value.  
   
     ```  
     <endpoint  
@@ -36,7 +36,7 @@ The following notes and restrictions apply to the resubmission process:
   
 -   The default URL for the SOAP (ASMX) on-ramp is http://localhost/ESB.ItineraryServices/ProcessItinerary.asmx.  
   
--   The portal Web.config file defines the configuration for the SOAP (ASMX) on-ramp in the **\<applicationSettings>** section. The following is the default value.  
+-   The portal Web.config file defines the configuration for the SOAP (ASMX) on-ramp in the **\<applicationSettings\>** section. The following is the default value.  
   
     ```  
     <setting   

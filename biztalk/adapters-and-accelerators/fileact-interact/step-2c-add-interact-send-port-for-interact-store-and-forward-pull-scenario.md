@@ -37,11 +37,11 @@ Before you begin this step, you must complete [Step 2B: Add FILE Send Ports to C
     |**User name**|Set the user name as appropriate for SAG connectivity.|  
     |**Message format**|**InteractMessage**|  
     |**Non-Repudiation Indicator**|**FALSE**|  
-    |**Request Type**|Type the appropriate \<RequestType> string, based on your provisioning with SWIFT.|  
+    |**Request Type**|Type the appropriate \<RequestType\> string, based on your provisioning with SWIFT.|  
     |**ResponseCrypto**|**FALSE**|  
-    |**Requestor**|Type the appropriate \<RequestorDN> string, based on your provisioning with SWIFT.|  
-    |**Responder**|Type the appropriate \<ResponderDN> string, based on your provisioning with SWIFT.|  
-    |**Service Name**|Type the appropriate \<service name>, based on your provisioning with SWIFT.|  
+    |**Requestor**|Type the appropriate \<RequestorDN\> string, based on your provisioning with SWIFT.|  
+    |**Responder**|Type the appropriate \<ResponderDN\> string, based on your provisioning with SWIFT.|  
+    |**Service Name**|Type the appropriate \<service name\>, based on your provisioning with SWIFT.|  
     |**Delivery Notification**|From the drop-down list, select **FALSE**.|  
     |**Notify queue**|Type the appropriate queue name, based on your provisioning with SWIFT.|  
   

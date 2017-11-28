@@ -20,7 +20,7 @@ This section contains information that may help you avoid errors.
 ## Known Issues  
   
 #### WSS Adapter Fails to Start a Workflow attached to a Doc Library/Sharepoint List  
- When using the WSS Adapter from BizTalk to submit either a document or list item to a Doc Library/Sharepoint List, it fails to start the workflow attached to that List. The workaround is to copy the XML code below into the \Program Files\Microsoft BizTalk Server 20xx\Business Activity Services\BTSharePointV3AdapterWS\web.config file.  The below XML code must be inserted inside of the \<configuration> element.  
+ When using the WSS Adapter from BizTalk to submit either a document or list item to a Doc Library/Sharepoint List, it fails to start the workflow attached to that List. The workaround is to copy the XML code below into the \Program Files\Microsoft BizTalk Server 20xx\Business Activity Services\BTSharePointV3AdapterWS\web.config file.  The below XML code must be inserted inside of the \<configuration\> element.  
   
 ```  
 <configSections>  

@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # About the SAPDiscoveredObjects.xml File in SAP
-If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) along with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation, the setup program copies the SAPDiscoveredObjects.xml file typically at \<installation drive>:\Program Files\Common Files\Microsoft Shared\Adapters\SAP. The contents of the file, after a fresh installation of the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], resemble the following.  
+If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) along with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation, the setup program copies the SAPDiscoveredObjects.xml file typically at \<installation drive\>:\Program Files\Common Files\Microsoft Shared\Adapters\SAP. The contents of the file, after a fresh installation of the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], resemble the following.  
   
 ```  
 <DiscoveredObjects>  
@@ -52,7 +52,7 @@ If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprov
   
  The `name` property of the <Server\> element contains the name of the server that you connect to using the DDEX plug-in. The `user` and `client` properties of the <Server\> element contain the user name and client numbers, respectively. The `type` property contains the type of connection string (A, B, or D) used to connect to an SAP system. For more information about the types of connection strings, see [Read about Data Provider types for the SAP Connection String](../../adapters-and-accelerators/adapter-sap/read-about-data-provider-types-for-the-sap-connection-string.md).  
   
- The \<Tables> element contains the name of the tables that you add using the plug-in. Similarly, the \<RFCs> element contains the RFCs that you add using the plug-in. If you connect to more than one SAP server, another \<Server> element is added to the XML file, and the corresponding tables and RFCs are listed under the \<Table> and \<RFCs> element.  
+ The \<Tables\> element contains the name of the tables that you add using the plug-in. Similarly, the \<RFCs\> element contains the RFCs that you add using the plug-in. If you connect to more than one SAP server, another \<Server\> element is added to the XML file, and the corresponding tables and RFCs are listed under the \<Table\> and \<RFCs\> element.  
   
 > [!NOTE]
 >  For instructions on using the Visual Studio DDEX plug-in, see [Use the Data Provider for SAP with the DDEX Plug-in](../../adapters-and-accelerators/adapter-sap/use-the-data-provider-for-sap-with-the-ddex-plug-in.md).  

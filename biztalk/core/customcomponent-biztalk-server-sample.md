@@ -34,7 +34,7 @@ The CustomComponent sample demonstrates how to create and use a custom pipeline 
 4.  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] writes the resulting text message to a file in a specific folder.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Pipelines\CustomComponent\  
+ \<*Samples Path*\>\Pipelines\CustomComponent\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -58,13 +58,13 @@ The CustomComponent sample demonstrates how to create and use a custom pipeline 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Pipelines\CustomComponent  
+     \<*Samples Path*\>\Pipelines\CustomComponent  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input (In) and output (Out) folders for this sample in the folder:  
   
-         \<*Samples Path*>\Pipelines\CustomComponent  
+         \<*Samples Path*\>\Pipelines\CustomComponent  
   
     -   Compiles and deploys the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
   
@@ -96,7 +96,7 @@ The CustomComponent sample demonstrates how to create and use a custom pipeline 
   
 1.  Paste a copy of the text file Input.txt into the folder In.  
   
-2.  Observe the text file created in the folder Out. This file contains the contents of the file Input.txt with additional text inserted at the beginning (by the receive pipeline) and at the end (by the send pipeline). The format of the name of this file is \<*MessageID*>.xml, where *\<MessageID>* is the GUID generated to uniquely identify the message.  
+2.  Observe the text file created in the folder Out. This file contains the contents of the file Input.txt with additional text inserted at the beginning (by the receive pipeline) and at the end (by the send pipeline). The format of the name of this file is \<*MessageID*\>.xml, where *\<MessageID\>* is the GUID generated to uniquely identify the message.  
   
 ## Comments  
  You can view the preconfigured pipelines in Pipeline Designer by following these steps:  

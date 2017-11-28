@@ -94,11 +94,11 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
          This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    3.  **Password**: \<enter your PeopleSoft password>  
+    3.  **Password**: \<enter your PeopleSoft password\>  
   
     4.  **PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**  
   
-    5.  **User name:** \<enter your PeopleSoft UserID>  
+    5.  **User name:** \<enter your PeopleSoft UserID\>  
   
      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
@@ -284,7 +284,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
      `C:\LABS\PS_TEST\SAMPLEQUERY.XML`  
   
-3.  Click **OK.** In the Properties window, select **\<Schema>** and set **Root Reference: Get**.  
+3.  Click **OK.** In the Properties window, select **\<Schema\>** and set **Root Reference: Get**.  
   
 4.  Right-click **LOCATIONService_LOCATION_x5d.xsd** and then click **Generate Instance**. This generates the **SampleQuery.xml** file. This file will be dropped in the receive location as input to the adapter to start the orchestration process.  
   
@@ -300,7 +300,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 3.  Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
   
-4.  Under **Receive Ports**, click **\<None>**. In the drop-down list, select **New Receive Port**.  
+4.  Under **Receive Ports**, click **\<None\>**. In the drop-down list, select **New Receive Port**.  
   
 5.  For **Name**, type `FileInPort`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
   
@@ -322,7 +322,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
      ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
   
-8.  Click **\<None>** for **PeopleSoft_Port** in the drop-down list.  
+8.  Click **\<None\>** for **PeopleSoft_Port** in the drop-down list.  
   
 9. Select **New Send Port** and then select or type the following values for the properties.  
   
@@ -344,15 +344,15 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
          This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    3.  **Password**: \<enter your PeopleSoft password>  
+    3.  **Password**: \<enter your PeopleSoft password\>  
   
     4.  **PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**  
   
-     **User name:** \<enter your PeopleSoft UserID>  
+     **User name:** \<enter your PeopleSoft UserID\>  
   
 11. Click **OK** twice to close the dialog boxes.  
   
-12. In the Configure Applicationwindow, click **\<None>** for **FileOut** in the drop-down list.  
+12. In the Configure Applicationwindow, click **\<None\>** for **FileOut** in the drop-down list.  
   
 13. Select **New Send Port** and type or select the following values for the properties:  
   
@@ -393,7 +393,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
      ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")  
   
-     This returned record data should match what was returned by the query against the PeopleSoft system in PeopleSoft Lab 1. By comparing the values you obtained in Lab 1, specifically the **Address1** and **Address2** lines, to what is shown here in the **\<LOCATION:ADDRESS1>** and **\<LOCATION:ADDRESS2>** fields, you can verify that the **Get** method worked properly.  
+     This returned record data should match what was returned by the query against the PeopleSoft system in PeopleSoft Lab 1. By comparing the values you obtained in Lab 1, specifically the **Address1** and **Address2** lines, to what is shown here in the **\<LOCATION:ADDRESS1\>** and **\<LOCATION:ADDRESS2\>** fields, you can verify that the **Get** method worked properly.  
   
 ## Summary  
  In this lab, you first verified that the prerequisites were set up correctly to access the PeopleSoft system. Then you used [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project containing an orchestration. You configured the BizTalk orchestration to use the PeopleSoft adapter to get data from the PeopleSoft system. To configure the orchestration, you created send, receive, and send/receive ports. You bound these ports to the PeopleSoft adapter, and assigned messages to the appropriate ports.  

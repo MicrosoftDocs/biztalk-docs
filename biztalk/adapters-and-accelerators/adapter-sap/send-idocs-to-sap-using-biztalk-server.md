@@ -33,7 +33,7 @@ All IDOC calls to SAP are internally treated as tRFC calls where the adapter act
 |Input to BizTalk|BizTalk Processing|Output to Adapter|  
 |----------------------|------------------------|-----------------------|  
 |Flat-file IDOC|**Metadata Design Time**<br /><br /> 1.  Set the binding property GenerateFlatFileCompatibleIdocSchema to **True**.<br />2.  Generate the schema for the **Send** operation for a specific IDOC using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Orchestration Design Time**<br /><br /> 1.  Receive flat-file IDOC<br />2.  Use flat-file disassembler to convert flat-file IDOC to XML IDOC using the schema just generated.<br />3.  Set the Action to **Send** operation.|Send message|  
-|Flat-file IDOC|**Metadata Design Time**<br /><br /> 1.  Set the binding property GenerateFlatFileCompatibleIdocSchema to **True**.<br />2.  Generate the schema for the **SendIdoc** operation from the IDOC node using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Orchestration Design Time**<br /><br /> 1.  Receive flat-file IDOC<br />2.  Use flat-file disassembler to convert flat-file IDOC to XML (in this case, the XML message contains an \<idocData> node that contains the entire flat-file Idoc message) using the schema just generated.<br />3.  Set the Action to **SendIdoc** operation.|SendIdoc message|  
+|Flat-file IDOC|**Metadata Design Time**<br /><br /> 1.  Set the binding property GenerateFlatFileCompatibleIdocSchema to **True**.<br />2.  Generate the schema for the **SendIdoc** operation from the IDOC node using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Orchestration Design Time**<br /><br /> 1.  Receive flat-file IDOC<br />2.  Use flat-file disassembler to convert flat-file IDOC to XML (in this case, the XML message contains an \<idocData\> node that contains the entire flat-file Idoc message) using the schema just generated.<br />3.  Set the Action to **SendIdoc** operation.|SendIdoc message|  
 |XML IDOC|**Metadata Design Time**<br /><br /> -   Generate the schema for the **Send** operation for a specific IDOC using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Orchestration Design Time**<br /><br /> 1.  Receive XML IDOC.<br />2.  Set the Action to **Send** operation.|Send message|  
 |Flat-file IDOC in XML message|**Metadata Design Time**<br /><br /> -   Generate the schema for the **SendIdoc** operation from the IDOC node using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Orchestration Design Time**<br /><br /> 1.  Receive XML message.<br />2.  Set the Action to **SendIdoc** operation.|SendIdoc message|  
   
@@ -207,7 +207,7 @@ All IDOC calls to SAP are internally treated as tRFC calls where the adapter act
  In both the cases, the response message from the SAP system contains a GUID. For example, a response message for the Send operation on the ORDERS05 IDOC is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <SendResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send">  
   <guid>a5afe162-d5cc-47b0-bf6f-3b0bfe06a97e</guid>  
 </SendResponse>  

@@ -28,7 +28,7 @@ manager: "anneta"
 <process id>:<app domain id>:<endpoint id>:<action id>  
 ```  
   
- In case of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], the endpoint id is the name of the Siebel server, as specified in the connection URI. The action id could be any action performed by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] such as Login, Logoff, Metadata, \<business component name>.\<operation>, \<business service name>.\<business service method>. If the preceding naming convention results in a name that exceeds 127 characters only the action ID is displayed in the following format:  
+ In case of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], the endpoint id is the name of the Siebel server, as specified in the connection URI. The action id could be any action performed by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] such as Login, Logoff, Metadata, \<business component name\>.\<operation\>, \<business service name\>.\<business service method\>. If the preceding naming convention results in a name that exceeds 127 characters only the action ID is displayed in the following format:  
   
 ```  
 :::<action id>  

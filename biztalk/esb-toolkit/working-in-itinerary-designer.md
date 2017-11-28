@@ -47,7 +47,7 @@ After you create a Microsoft Visual C# project, you can create new itinerary mod
   
 #### Save an itinerary  
   
-On the **File** menu, click **Save \<itinerary name>**.  
+On the **File** menu, click **Save \<itinerary name\>**.  
   
 > [!NOTE]
 >  Itinerary files are saved as DSL models in corresponding XML format.  

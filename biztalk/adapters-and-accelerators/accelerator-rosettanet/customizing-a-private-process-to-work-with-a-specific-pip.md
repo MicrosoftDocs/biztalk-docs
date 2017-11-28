@@ -22,7 +22,7 @@ manager: "anneta"
 # Customizing a Private Process to Work with a Specific PIP
 You can create a filter expression that will cause a responder private-process orchestration to process or not process instances of a specific Partner Interface Process (PIP). This gives you the flexibility of creating a custom private process to receive and process some PIP instances, and using the default private process to process all other PIP instances.  
   
- To create a custom private process to work with a specific PIP or multiple specific PIPs, you create a filter expression for the receive shape of the private-process orchestration. An example is the PIP3A4PrivateResponder.odx orchestration in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. It is located at \<*drive*>:\Program Files\BizTalk \<version> Accelerator for RosettaNet\SDK\PIP3A4Process Using Business Rules\PIP3A4PrivateResponder.  
+ To create a custom private process to work with a specific PIP or multiple specific PIPs, you create a filter expression for the receive shape of the private-process orchestration. An example is the PIP3A4PrivateResponder.odx orchestration in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. It is located at \<*drive*\>:\Program Files\BizTalk \<version\> Accelerator for RosettaNet\SDK\PIP3A4Process Using Business Rules\PIP3A4PrivateResponder.  
   
  Besides creating a private process that process only instances of a specific PIP, you must customize the default BTARN private process so that it will not process instances for that PIP.  
   
@@ -31,7 +31,7 @@ You can create a filter expression that will cause a responder private-process o
 1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], create a custom responder private-process orchestration for working with a specific PIP. You can base the orchestration on the default BTARN responder private-process orchestration.  
   
     > [!NOTE]
-    >  You can find the default responder private-process orchestration, named PrivateResponder.odx, in the BTARN SDK. It is located at *\<drive>*:\Program Files\BizTalk \<version> Accelerator for RosettaNet\SDK\PrivateResponder.  
+    >  You can find the default responder private-process orchestration, named PrivateResponder.odx, in the BTARN SDK. It is located at *\<drive\>*:\Program Files\BizTalk \<version\> Accelerator for RosettaNet\SDK\PrivateResponder.  
   
 2.  Add the custom orchestration to your BizTalk project. Make sure that your project has a reference to the Microsoft.Solutions.BTARN.GlobalSchemas.dll file.  
   
@@ -62,7 +62,7 @@ You can create a filter expression that will cause a responder private-process o
   
 14. On the **File** menu, point to **Open**, and then click **Project**.  
   
-15. Move to \<*drive*>:\Program Files\BizTalk \<version> Accelerator for RosettaNet\SDK\PrivateResponder, select **PrivateResponder.odx**, and then click **OK**.  
+15. Move to \<*drive*\>:\Program Files\BizTalk \<version\> Accelerator for RosettaNet\SDK\PrivateResponder, select **PrivateResponder.odx**, and then click **OK**.  
   
 16. In Solution Explorer, right-click the project, and then click **Build**.  
   

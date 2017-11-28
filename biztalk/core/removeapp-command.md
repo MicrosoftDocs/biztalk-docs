@@ -19,7 +19,7 @@ Removes (deletes) from the BizTalk Management database a BizTalk application as 
   
  The remove operation will fail in the following cases:  
   
--   **The application is not stopped.** For instructions on stopping an application, see [How to Start and Stop a BizTalk Application](../core/how-to-start-and-stop-a-biztalk-application.md). The **ApplicationManager** SDK sample which is installed in the *\<Samples Path>\\*Admin\ExplorerOM\ directory illustrates how to programmatically start or stop a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application.  
+-   **The application is not stopped.** For instructions on stopping an application, see [How to Start and Stop a BizTalk Application](../core/how-to-start-and-stop-a-biztalk-application.md). The **ApplicationManager** SDK sample which is installed in the *\<Samples Path\>\\*Admin\ExplorerOM\ directory illustrates how to programmatically start or stop a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application.  
   
 -   **Other applications contain references to the application.** If other applications contain references to the application you want to remove, you must first remove the references from the other applications. For instructions, see [How to Remove a Reference to Another Application](../core/how-to-remove-a-reference-to-another-application.md).  
   
@@ -32,7 +32,7 @@ Removes (deletes) from the BizTalk Management database a BizTalk application as 
 -   **An orchestration in the application is enlisted, started, or has a suspended instance.** For more information about orchestrations, see [Managing Orchestrations](../core/managing-orchestrations.md).  
   
 > [!NOTE]
->  If the application contains a policy that is in a deployed state, the policy is not removed from the Rule Engine database and continues to display in the Policies folder under the \<All Artifacts> application node of the BizTalk Administration console. If you add the policy to another application, the policy remains in a deployed state.  
+>  If the application contains a policy that is in a deployed state, the policy is not removed from the Rule Engine database and continues to display in the Policies folder under the \<All Artifacts\> application node of the BizTalk Administration console. If you add the policy to another application, the policy remains in a deployed state.  
   
 ## Usage  
  **BTSTask RemoveApp /ApplicationName:** *value* [**/Server:***value*] [**/Database:***value*]  

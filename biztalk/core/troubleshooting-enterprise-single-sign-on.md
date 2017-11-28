@@ -28,8 +28,8 @@ This topic describes information about common problems you may encounter while u
 |What is the SSO Administrator account?|Use the command line **ssomanage –displaydb**. For more information about this command, see [How to Display the SSO Database Information](../core/how-to-display-the-sso-database-information.md).|  
 |Is everything correctly enabled?|Use the command line **ssomanage –displaydb**. For more information about this command, see [How to Display the SSO Database Information](../core/how-to-display-the-sso-database-information.md).|  
 |Do the affiliate applications exist?|Use the command line **ssomanage –listapps all**. For more information about this command, see [How to List Affiliate Applications](../core/how-to-list-affiliate-applications.md).|  
-|Does the specific affiliate application look correct?<br /><br /> What accounts are using this affiliate application?|Use the command line **ssomanage –displayapp***\<application name>*. For more information about this command, see [How to List the Properties of an Affiliate Application](../core/how-to-list-the-properties-of-an-affiliate-application.md).|  
-|Are there any mappings for this affiliate application?|Use the command line **ssomanage –listmappings***\<application name>*. For more information about this command, see [How to List User Mappings](../core/how-to-list-user-mappings.md).|  
+|Does the specific affiliate application look correct?<br /><br /> What accounts are using this affiliate application?|Use the command line **ssomanage –displayapp***\<application name\>*. For more information about this command, see [How to List the Properties of an Affiliate Application](../core/how-to-list-the-properties-of-an-affiliate-application.md).|  
+|Are there any mappings for this affiliate application?|Use the command line **ssomanage –listmappings***\<application name\>*. For more information about this command, see [How to List User Mappings](../core/how-to-list-user-mappings.md).|  
 |What accounts are members of the SSO groups?|Verify the group membership for all SSO groups and accounts.|  
 |Is the COM+ application for the SSO server running as expected?|Verify the COM+ application SSO server. **Note:**  You can also check the event log for detailed information, such as event and warning messages.|  
   
@@ -71,7 +71,7 @@ This topic describes information about common problems you may encounter while u
 #### RPC Error Occurs When Connecting to a Client Computer  
   
 ##### Problem  
- When a user runs a command such as **ssomanage -displayapp***\<applicationname>*, where the computer attempt to connect to a remote SSO Server to retrieve the information, they receive the following error: ERROR: 0x800706BA: The RPC server is unavailable.  
+ When a user runs a command such as **ssomanage -displayapp***\<applicationname\>*, where the computer attempt to connect to a remote SSO Server to retrieve the information, they receive the following error: ERROR: 0x800706BA: The RPC server is unavailable.  
   
 ##### Cause  
  This error occurs when the user specifies the wrong server information, or when the SSO Service is not available on the remote server.  

@@ -22,7 +22,7 @@ This section describes how you can install the Exception Management samples from
   
 2.  In the **Run** dialog box, type **cmd**, and then press ENTER to open a command prompt.  
   
-3.  Run the following command, replacing the *\<path>* parameter with the full path to the .cmd file you want to install (the default path and name in this release is \Source\Samples\Exception Handling\Install\Scripts\\):  
+3.  Run the following command, replacing the *\<path\>* parameter with the full path to the .cmd file you want to install (the default path and name in this release is \Source\Samples\Exception Handling\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

@@ -30,12 +30,12 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
 ## Operations for tables and views  
  The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] surfaces the following operations for interface tables, interface views, tables and views that contain LOB columns:  
   
--   **Read_\<LOBColName>**: The `Read_<LOBColName>` operation is surfaced for interface tables, interface views, tables and views that contain BLOB, CLOB, NCLOB, and BFILE columns, where \<LOBColName> is the name of the column of type BLOB, CLOB, NCLOB or BFILE. By using the Read_\<LOBColName> operation, adapter clients can read values in an LOB column as a data stream. This operation takes a filter string as parameter.  
+-   **Read_\<LOBColName\>**: The `Read_<LOBColName>` operation is surfaced for interface tables, interface views, tables and views that contain BLOB, CLOB, NCLOB, and BFILE columns, where \<LOBColName\> is the name of the column of type BLOB, CLOB, NCLOB or BFILE. By using the Read_\<LOBColName\> operation, adapter clients can read values in an LOB column as a data stream. This operation takes a filter string as parameter.  
   
     > [!NOTE]
     >  The `Read_<LOBColName>` operation is designed to support input streaming of LOB data in the WCF service model. You should use a table Select operation to read LOB data from a WCF channel model or [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solution.  
   
--   **Update_\<LOBColName>**: The `Update_<LOBColName>` operation is surfaced for interface tables and tables only that contain BLOB, CLOB, and NCLOB columns, where \<LOBColName> is the name of the column of type BLOB, CLOB, and NCLOB. By using the Update_\<LOBColName> operation, adapter clients can update values in an LOB column. For the BLOB data type, this operation takes base64binary encoded data as the parameter, whereas for the CLOB and NCLOB data types, this operation takes a string filter as the parameter.  
+-   **Update_\<LOBColName\>**: The `Update_<LOBColName>` operation is surfaced for interface tables and tables only that contain BLOB, CLOB, and NCLOB columns, where \<LOBColName\> is the name of the column of type BLOB, CLOB, and NCLOB. By using the Update_\<LOBColName\> operation, adapter clients can update values in an LOB column. For the BLOB data type, this operation takes base64binary encoded data as the parameter, whereas for the CLOB and NCLOB data types, this operation takes a string filter as the parameter.  
   
     > [!NOTE]
     >  The `Update_<LOBColName>` operation:  

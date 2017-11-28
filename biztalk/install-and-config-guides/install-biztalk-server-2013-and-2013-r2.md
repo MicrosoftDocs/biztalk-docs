@@ -18,7 +18,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
   
 ## Before you get started
 
--   **Account names** – Use the default account names whenever possible. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup automatically enters the default accounts. If there are multiple [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] groups within the Domain, change the account names to avoid conflicts. If you change the names, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports only \<*NetBIOS domain name*>\\<*user*> for service accounts and Windows groups.  
+-   **Account names** – Use the default account names whenever possible. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup automatically enters the default accounts. If there are multiple [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] groups within the Domain, change the account names to avoid conflicts. If you change the names, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports only \<*NetBIOS domain name*\>\\<*user*\> for service accounts and Windows groups.  
   
 -   **Account names with BAM Management Web Service** – [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not support built-in accounts or accounts without passwords for the BAM Management Web Service User. The web service accesses the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database and these accounts may suggest a security threat.  
   

@@ -61,7 +61,7 @@ If you do not have Microsoft Visual Studio installed on the target computer, you
 For example, at a command prompt, run:  
   
 ```
-cscript RemoveSendPort.vbs \<Send port name>
+cscript RemoveSendPort.vbs \<Send port name\>
 ```
   
 ## Limitations

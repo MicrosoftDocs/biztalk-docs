@@ -27,13 +27,13 @@ This section provides configuration parameters for send and receive Minimal Lowe
  You can set the network connection parameters in the MLLP Transport Properties for either a send port or receive location using the MLLP transport type. To do so, open the BizTalk Server Administration Console, navigate either to the Send Ports or Receive Locations folder, as applicable, right-click the specific send port or receive location, click **Properties**, and then click **Configure**.  
   
 ## Block Characters  
- These parameters are special characters that must enclose HL7 messages received or sent through MLLP adapters. These characters form a block in the following format: \<SB>*DDD*\<EB>\<CR>, where *DDD* stands for the message data, \<SB> is the start-block character, \<EB> is the end-block character, and \<CR> is the carriage return.  
+ These parameters are special characters that must enclose HL7 messages received or sent through MLLP adapters. These characters form a block in the following format: \<SB\>*DDD*\<EB\>\<CR\>, where *DDD* stands for the message data, \<SB\> is the start-block character, \<EB\> is the end-block character, and \<CR\> is the carriage return.  
   
 |Parameter|Use|  
 |---------------|---------|  
-|**\<CR> Carriage Return**|Byte value (in hexadecimal format) that you use for the carriage return (the second byte wrapper after the end byte). Optional.|  
-|**\<EB> End-Block character**|Byte value that you use for the end byte (message trailer wrapper). ASCII \<FS>, for example, \<1c>.|  
-|**\<SB> Start-Block character**|Byte value that you use for the start byte (message header wrapper). ASCII \<VT>, for example, \<0b>.|  
+|**\<CR\> Carriage Return**|Byte value (in hexadecimal format) that you use for the carriage return (the second byte wrapper after the end byte). Optional.|  
+|**\<EB\> End-Block character**|Byte value that you use for the end byte (message trailer wrapper). ASCII \<FS\>, for example, \<1c\>.|  
+|**\<SB\> Start-Block character**|Byte value that you use for the start byte (message header wrapper). ASCII \<VT\>, for example, \<0b\>.|  
   
 ## DeliveryMode  
  You use the delivery mode parameter to control whether instance files are delivered in sequence, or out of sequence (in order, out of order). Each receive location has its own delivery sequence for instance files.  

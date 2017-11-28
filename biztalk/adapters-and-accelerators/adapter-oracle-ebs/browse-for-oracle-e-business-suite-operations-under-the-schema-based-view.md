@@ -63,16 +63,16 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
      ![Browse for tables in Oracle database](../../adapters-and-accelerators/adapter-oracle-ebs/media/94dd4642-1178-4d88-986b-f0ad409c414c.gif "94dd4642-1178-4d88-986b-f0ad409c414c")  
   
     > [!NOTE]
-    >  If a table contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes a **Read_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, NCLOB, and BFILE the adapter will expose as many number of Read_\<LOBColName> operations.  
+    >  If a table contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName\>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes a **Read_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, NCLOB, and BFILE the adapter will expose as many number of Read_\<LOBColName\> operations.  
     >   
-    >  Similarly, if a table contains columns of type BLOB, CLOB, or NCLOB the adapter also exposes a specific operation to update data into such columns. The name of such operations are Update_\<LOBColName>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes an **Update_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, and NCLOB the adapter will expose as many number of Update_\<LOBColName> operations. Note that the update operation is not supported on columns of type BFILE.  
+    >  Similarly, if a table contains columns of type BLOB, CLOB, or NCLOB the adapter also exposes a specific operation to update data into such columns. The name of such operations are Update_\<LOBColName\>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes an **Update_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, and NCLOB the adapter will expose as many number of Update_\<LOBColName\> operations. Note that the update operation is not supported on columns of type BFILE.  
   
 9. Expand the **Views** node to see the list of views for a particular schema. Click a view name to see the operations supported on the view in the **Available categories and operations** box.  
   
      ![Browse for views in Oracle database](../../adapters-and-accelerators/adapter-oracle-ebs/media/e1893e48-065c-4642-b076-192758d103db.gif "e1893e48-065c-4642-b076-192758d103db")  
   
     > [!NOTE]
-    >  If a view contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName>. For example, if the view has a column, RULE, of type BLOB, the adapter exposes a **Read_RULE** operation. If a view has more than one column of type BLOB, CLOB, NCLOB, or BFILE the adapter will expose as many number of Read_\<LOBColName> operations. Note that Update_\<LOBColName> operations are not supported on views.  
+    >  If a view contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName\>. For example, if the view has a column, RULE, of type BLOB, the adapter exposes a **Read_RULE** operation. If a view has more than one column of type BLOB, CLOB, NCLOB, or BFILE the adapter will expose as many number of Read_\<LOBColName\> operations. Note that Update_\<LOBColName\> operations are not supported on views.  
   
 ## Browsing for Inbound Operations  
  Perform the following steps to browse the inbound operations under the schema-based view.  

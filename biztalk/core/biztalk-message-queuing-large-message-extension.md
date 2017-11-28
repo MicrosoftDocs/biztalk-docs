@@ -24,7 +24,7 @@ Native message queuing cannot process a message with a body larger than 4megabyt
   
  **Location in SDK**  
   
- \<*Installation Path*>\SDK\ Mqrtlarge.dll  
+ \<*Installation Path*\>\SDK\ Mqrtlarge.dll  
   
  **File Inventory**  
   
@@ -32,7 +32,7 @@ Native message queuing cannot process a message with a body larger than 4megabyt
   
 |File(s)|Description|  
 |---------------|-----------------|  
-|Mqrtlarge.dll|A Win32 dynamic-link library that exposes **MQSendLargeMessage** and **MQReceiveLargeMessage**.<br /><br /> The header files are located in the *\<Installation Path>*\SDK\Include directory. **Note:**  You must install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] onto a 64 bit version of Windows in order to access the 64 bit version of Mqrtlarge.dll.|  
+|Mqrtlarge.dll|A Win32 dynamic-link library that exposes **MQSendLargeMessage** and **MQReceiveLargeMessage**.<br /><br /> The header files are located in the *\<Installation Path\>*\SDK\Include directory. **Note:**  You must install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] onto a 64 bit version of Windows in order to access the 64 bit version of Mqrtlarge.dll.|  
   
  **Using This Utility**  
   

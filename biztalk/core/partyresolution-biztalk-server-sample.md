@@ -121,7 +121,7 @@ The PartyResolution sample demonstrates how to use BizTalk orchestrations with p
 -   Shipper1Process.odx and Shipper2Process.odx are built to receive the shipping order and the shipping advice from SupplierProcess.odx and to send the response back to SupplierProcess.odx. In both of the shipper orchestrations, correlation is used, and the correlation type is based on the promoted property PONo.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Orchestrations\PartyResolution\  
+ *\<Samples Path\>*\Orchestrations\PartyResolution\  
   
  The following table shows the files in this sample and describes their purpose.  
   

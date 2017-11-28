@@ -21,7 +21,7 @@ manager: "anneta"
 You use the Adapter Registry Wizard to create the registry files needed to configure and register a custom adapter.  
   
 ## Location in SDK  
- *\<Installation Path>*\SDK\Utilities\AdapterRegistryWizard\  
+ *\<Installation Path\>*\SDK\Utilities\AdapterRegistryWizard\  
   
 ## To Run This Utility  
  Start the wizard by running the AdapterRegistryWizard.exe executable. The pages that follow prompt you for information about your adapter and the properties that it supports. The individual Adapter Registry Wizard pages are described in the sections that follow.  

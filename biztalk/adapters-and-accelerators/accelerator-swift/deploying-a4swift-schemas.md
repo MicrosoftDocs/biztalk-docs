@@ -49,7 +49,7 @@ You must deploy schemas for the SWIFT messages that you want to exchange.
   
 7.  Start Visual Studio command prompt.  
   
-8.  At the Visual Studio command prompt, browse to **\<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT**.  
+8.  At the Visual Studio command prompt, browse to **\<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT**.  
   
 9. At the command prompt, type **sn –k key.snk**, and then press ENTER. Ensure that a message is displayed in the command-prompt window indicating that a key pair was written to key.snk.  
   
@@ -59,7 +59,7 @@ You must deploy schemas for the SWIFT messages that you want to exchange.
   
 12. In the right pane of the **Property Pages** dialog box, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis () button.  
   
-13. In the **Assembly Key File** dialog box, browse to **\<*drive*>:\Program Files\Microsoft**[!INCLUDE[btaA4SWIFTNoVersionui](../../includes/btaa4swiftnoversionui-md.md)], click **key.snk**, and then click **Open**.  
+13. In the **Assembly Key File** dialog box, browse to **\<*drive*\>:\Program Files\Microsoft**[!INCLUDE[btaA4SWIFTNoVersionui](../../includes/btaa4swiftnoversionui-md.md)], click **key.snk**, and then click **Open**.  
   
 14. In the **Property Pages** dialog box, click **OK** to save your changes.  
   
@@ -69,11 +69,11 @@ You must deploy schemas for the SWIFT messages that you want to exchange.
   
 2.  Right-click your project, point to **Add**, and then click **Existing Item**.  
   
-3.  In the **Add Existing Item** dialog box, in the :\\**Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Schemas**. Select the **SWIFT Base Types.xsd** and **SWIFT Common Data Types.xsd** schemas, and then click **Add**.  
+3.  In the **Add Existing Item** dialog box, in the :\\**Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Schemas**. Select the **SWIFT Base Types.xsd** and **SWIFT Common Data Types.xsd** schemas, and then click **Add**.  
   
 4.  Right-click your project, point to **Add**, and then click **Add Existing Item**.  
   
-5.  In the **Add Existing Item** dialog box, in the **Look in** drop-down box, move to **\<drive>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Category n\MTxxx**. Select a schema for a message type, for instance **MT103.xsd**, and then click **Add**.  
+5.  In the **Add Existing Item** dialog box, in the **Look in** drop-down box, move to **\<drive\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Category n\MTxxx**. Select a schema for a message type, for instance **MT103.xsd**, and then click **Add**.  
   
     > [!NOTE]
     >  A4SWIFT adds the schema for your project, as shown in Solution Explorer.  

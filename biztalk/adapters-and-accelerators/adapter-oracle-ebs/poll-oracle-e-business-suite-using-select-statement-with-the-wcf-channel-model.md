@@ -180,7 +180,7 @@ You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapt
 ### Example  
  The following example shows a polling application that polls the MS_SAMPLE_EMPLOYEE interface table. The **PollingInput** property contains the select statement that reads all the data from the MS_SAMPLE_EMPLOYEE table and the post poll statement deletes all the data from the same table. The polling message is written to `C:\PollingOutput.xml`.  
   
- Subsequent polling messages will not contain any records until more data is added to the MS_SAMPLE_EMPLOYEE interface table. You can do so by running the insert_apps_data.sql script provided with the samples. After you run this script, the next polling operation will fetch the new records inserted into the table. The adapter will continue to poll until you close the service host by pressing \<RETURN>.  
+ Subsequent polling messages will not contain any records until more data is added to the MS_SAMPLE_EMPLOYEE interface table. You can do so by running the insert_apps_data.sql script provided with the samples. After you run this script, the next polling operation will fetch the new records inserted into the table. The adapter will continue to poll until you close the service host by pressing \<RETURN\>.  
   
 ```  
 using System;  

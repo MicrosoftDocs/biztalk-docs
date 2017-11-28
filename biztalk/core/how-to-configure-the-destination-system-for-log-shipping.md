@@ -79,9 +79,9 @@ Log shipping provides standby server capabilities to reduce downtime in the even
   
     1.  On the destination system, enable **[Ad Hoc Distributed Queries](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)**.  
   
-    2.  In the query window, replace *\<MyLogShippingSolution>* with a meaningful description, surrounded by single quotes.  
+    2.  In the query window, replace *\<MyLogShippingSolution\>* with a meaningful description, surrounded by single quotes.  
   
-    3.  In the query window, replace *\<BizTalkServerManagementDatabaseName>* and *\<BizTalkServerManagementDatabaseServer>* with the name and location of your source BizTalk Management database, surrounded by single quotes.  
+    3.  In the query window, replace *\<BizTalkServerManagementDatabaseName\>* and *\<BizTalkServerManagementDatabaseServer\>* with the name and location of your source BizTalk Management database, surrounded by single quotes.  
   
     > [!NOTE]
     >  If you have more than one source server, you can restore each source server to its own destination server. On each destination server, in the **@SourceServerName = null** parameter, replace *null* with the name of the appropriate source server, surrounded by single quotes (for example, **@SourceServerName = 'MySourceServer',**).  
@@ -115,9 +115,9 @@ Log shipping provides standby server capabilities to reduce downtime in the even
   
 10. On the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], go to the following folder:  
   
-     32-bit computer: %SystemDrive%\Program Files\Microsoft BizTalk Server \<version>\Schema\Restore  
+     32-bit computer: %SystemDrive%\Program Files\Microsoft BizTalk Server \<version\>\Schema\Restore  
   
-     64-bit computer: %SystemDrive%\Program Files (x86)\Microsoft BizTalk Server \<version>\Bins32\Schema\Restore  
+     64-bit computer: %SystemDrive%\Program Files (x86)\Microsoft BizTalk Server \<version\>\Bins32\Schema\Restore  
   
 11. Right-click **SampleUpdateInfo.xml**, and select **Edit**. Do the following:  
   
@@ -142,7 +142,7 @@ Log shipping provides standby server capabilities to reduce downtime in the even
   
 13. If you are using BAM or the Rules Engine, uncomment these lines as appropriate.  
   
-14. If you have any custom databases, add them under the **\<OtherDatabases>** section. See [How to Back Up Custom Databases](../core/how-to-back-up-custom-databases.md).  
+14. If you have any custom databases, add them under the **\<OtherDatabases\>** section. See [How to Back Up Custom Databases](../core/how-to-back-up-custom-databases.md).  
   
 15. When you are finished editing the file, save it, and exit.  
   

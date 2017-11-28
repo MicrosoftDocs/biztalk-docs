@@ -65,7 +65,7 @@ manager: "anneta"
   
 -   Interchange Control ID = Update Data (required for correlation)  
   
--   Interchange ACK Status = Generated or Not Applicable \<Refer Note 0> - Update Data  
+-   Interchange ACK Status = Generated or Not Applicable \<Refer Note 0\> - Update Data  
   
 -   Interchange ACK Control ID= Not valued – will be applied by send side  
   
@@ -73,9 +73,9 @@ manager: "anneta"
   
 -   Interchange ACK Time = Not valued – will be applied by send side  
   
--   ACK/Action Code = Update Data  \<refer note 1> (from X12-TA104 or EDIFACT-UCI4)*  
+-   ACK/Action Code = Update Data  \<refer note 1\> (from X12-TA104 or EDIFACT-UCI4)*  
   
--   ACK Note Code = Update Data \<Refer Note 2> (from X12-TA105, not applicable for EDIFACT)*  
+-   ACK Note Code = Update Data \<Refer Note 2\> (from X12-TA105, not applicable for EDIFACT)*  
   
  The following ACK/Action Codes are used:  
   
@@ -159,9 +159,9 @@ manager: "anneta"
   
 -   Interchange ACK Time = Update Data  
   
--   ACK/Action Code = Update Data (from X12-TA104 or EDIFACT-UCI4)* \<Refer Note 1>  
+-   ACK/Action Code = Update Data (from X12-TA104 or EDIFACT-UCI4)* \<Refer Note 1\>  
   
--   ACK Note Code 2 = Update Data (from X12-TA105 and not valued for EDIFACT)* \<Refer Note 2>  
+-   ACK Note Code 2 = Update Data (from X12-TA105 and not valued for EDIFACT)* \<Refer Note 2\>  
   
  The data from the ACK X12:TA1-104 or EDIFACT UCI4 is to be mapped as follows:  
   
@@ -218,7 +218,7 @@ manager: "anneta"
   
 -   Functional ACK Direction = Send  
   
--   Functional ACK Status = \<Generated or Not Applicable, refer note 1>  
+-   Functional ACK Status = \<Generated or Not Applicable, refer note 1\>  
   
 -   Interchange Receiver = Update Data (required for correlation)  
   
@@ -244,7 +244,7 @@ manager: "anneta"
   
 -   Count of Transaction Sets Accepted = Update Data (X12-AK904 and computed by Engine for EDIFACT engine)  
   
--   ACK/Action Code = Update Data  \<refer note 2> (from X12-AK901 or EDIFACT-UCI4)*  
+-   ACK/Action Code = Update Data  \<refer note 2\> (from X12-AK901 or EDIFACT-UCI4)*  
   
 -   Error/Syntax Error Code  = Update Data (X12-AK905, EDIFACT UCI5) Note 3  
   
