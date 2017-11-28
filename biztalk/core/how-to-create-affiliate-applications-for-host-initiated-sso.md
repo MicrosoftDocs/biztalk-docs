@@ -41,9 +41,9 @@ You can define two types of applications:
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage –createapps \<AffApp.xml>**, where AffApp.xml is the name of the xml file.  
+4.  Type **ssomanage –createapps \<AffApp.xml\>**, where AffApp.xml is the name of the xml file.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -72,9 +72,9 @@ You can define two types of applications:
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage –createapps \<AffApp.xml>**, where AffApp.xml is the name of the xml file.  
+4.  Type **ssomanage –createapps \<AffApp.xml\>**, where AffApp.xml is the name of the xml file.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -103,9 +103,9 @@ You can define two types of applications:
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage –createapps \<AffApp.xml>**, where AffApp.xml is the name of the xml file.  
+4.  Type **ssomanage –createapps \<AffApp.xml\>**, where AffApp.xml is the name of the xml file.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

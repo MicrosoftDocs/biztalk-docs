@@ -30,7 +30,7 @@ You create a Web message part from a schema type by using a **Transform** shape.
 2.  In BizTalk Mapper, click **Open Destination Schema** in the **Destination Schema** pane of the map and in the **BizTalk Type Picker** dialog box, expand the **Schemas** node, select the schema for the added Web reference, and then click **OK**.  
   
     > [!NOTE]
-    >  The format of the Web reference schema is **\<project default namespace>.\<Web reference name>.Reference**.  
+    >  The format of the Web reference schema is **\<project default namespace\>.\<Web reference name\>.Reference**.  
   
 3.  In the **Root Node for Target Schema** dialog box, select a root node for the destination schema, and then click **OK**. For more information about how to determine a root node for a Web message part type, see [How to Determine a Web Message Part Type](../core/how-to-determine-a-web-message-part-type.md).  
   

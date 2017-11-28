@@ -22,7 +22,7 @@ This section describes how you can install the Namespace Component sample from t
   
 2.  In the **Run** dialog box, type **cmd**, and then press ENTER to open a command prompt.  
   
-3.  Run the following command, replacing the *\<path>* parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\Namepace\Install\Scripts\\):  
+3.  Run the following command, replacing the *\<path\>* parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\Namepace\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

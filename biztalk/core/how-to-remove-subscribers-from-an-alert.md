@@ -27,7 +27,7 @@ Administrators use the **remove-subscription** command to remove the specified u
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type **bm remove-subscription -View:\<view name> -Alert:\<alert name> -AccountName:\<account name>**.  
+3.  Type **bm remove-subscription -View:\<view name\> -Alert:\<alert name\> -AccountName:\<account name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

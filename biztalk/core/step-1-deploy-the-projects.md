@@ -24,24 +24,21 @@ manager: "anneta"
  **Purpose:** When you deploy a project or solution in Visual Studio, the assemblies are automatically built and deployed into the specified application. As part of this process, the assembly along with the orchestrations, schemas, and maps that it contains (called "artifacts") are imported into the local BizTalk Management database and associated in the database with the specified application.  
   
 ## Prerequisites  
- Note the following requirements before you begin this step:  
   
--   Before you begin this step you must complete the following lessons:  
+-   [Lesson 1: Define Schemas and a Map](../core/lesson-1-define-schemas-and-a-map.md)  
   
-    -   [Lesson 1: Define Schemas and a Map](../core/lesson-1-define-schemas-and-a-map.md)  
+-   [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md)  
   
-    -   [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md)  
+-   Sign in as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group
+
+-   Run Visual Studio with Administrative privileges
+
+> [!TIP]
+> You can download the required tutorial files at [Tutorial 1: Enterprise Application Integration](https://www.microsoft.com/download/details.aspx?id=22793).
+
+## Open the solution with administrative rights  
   
--   You must log on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
-  
--   On a system that supports User Account Control (UAC), you must run Visual Studio with Administrative privileges.  
-  
-## Procedures  
- To deploy the application using Visual Studio, you must log on Windows as a member of the BizTalk Server Administrators group and run Visual Studio as administrator.  Otherwise you will get the “Access is denied” error.  
-  
-#### To open the solution with administrative privileges  
-  
-1.  Log on Windows as a member of the BizTalk Server Administrators group.  
+1.  Sign in to Windows as a member of the BizTalk Server Administrators group.  
   
 2.  Start **Microsoft Visual Studio** as an administrator.  
   
@@ -49,19 +46,19 @@ manager: "anneta"
   
 4.  In the **Open Project** dialog box, browse to the **EAISolution.sln** project solution file, and then click **Open**.  
   
- The deployment process requires that assembly is strongly signed.  You must sign your assemblies by associating the project with a strong name assembly key file.  This file is provided by the tutorial files.  
+ The deployment process requires that assembly is strongly signed.  You must sign your assemblies by associating the project with a strong name assembly key file.  This file is included in the tutorial files.  
   
- The BizTalk application is a feature of BizTalk Server that makes it quicker and easier to deploy, manage, and troubleshoot BizTalk Server business solutions. A BizTalk application is a logical grouping of the items, called "artifacts," used in a BizTalk Server business solution. We can specify an application name for a project.  The deployment process will automatically create a new application having the specified name if it doesn’t exist.  
+ The BizTalk application is a feature of BizTalk Server that makes it quicker and easier to deploy, manage, and troubleshoot BizTalk Server business solutions. A BizTalk application is a logical grouping of the items, called "artifacts," used in a BizTalk Server business solution. We can specify an application name for a project.  The deployment process automatically creates a new application having the specified name if it doesn’t exist.  
   
-#### To configure and deploy the projects  
+## Configure and deploy the projects  
   
 1.  In Solution Explorer, right-click the **EAISchemas** project, and then click **Properties**.  
   
 2.  Click the **Signing** tab, select **Sign the assembly**.  
   
-3.  From the drop-down list in the **Choose a strong name key file** box, select **\<Browse…>**.  
+3.  From the drop-down list in the **Choose a strong name key file** box, select **\<Browse…\>**.  
   
-4.  In the **Select File** dialog box, navigate to **C:\BTStutorials**, click **btsTutorials.snk**, and then click **Open**.  
+4.  In the **Select File** dialog box, navigate to **C:\BTStutorials**, click **btsTutorials.snk**, and then click **Open**. 
   
 5.  Click the **Deployment** tab, in the box to the right of **Application Name**, type `EAISolution`.  
   
@@ -75,7 +72,7 @@ manager: "anneta"
   
     ```  
   
-8.  Repeat step 1 through 7 to deploy the EAIOrchestration project.  
+8.  Repeat steps 1 through 7 to deploy the EAIOrchestration project.  
   
 ## What did I just do?  
  In this step, you deployed the EAISchemas and EAIOrchestration projects.  
@@ -83,6 +80,5 @@ manager: "anneta"
 ## Next Steps  
  You create the physical ports, and bind them to the logical ports of the orchestration.  
   
-## See Also  
  [Step 2: Configure and Start the Application](../core/step-2-configure-and-start-the-application1.md)   
  [Step 3: Test the Solution](../core/step-3-test-the-solution2.md)

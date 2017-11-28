@@ -28,7 +28,7 @@ The EDI receive pipeline and EDI send pipeline can perform cross field/segment v
  Optionality in X12 consists of Mandatory (M), Optional (O), and Relational (R) (cross field validation). When the optionality is Mandatory, at least one component data element in composite types must be valued.  
   
 ## X12 Optionality  
- In X12, cross field/segment validation for Relational optionality includes a series of checks listed in rules in the schema. Each rule is identified by the following element in an \<xs:annotation> element:  
+ In X12, cross field/segment validation for Relational optionality includes a series of checks listed in rules in the schema. Each rule is identified by the following element in an \<xs:annotation\> element:  
   
 ```  
 <b:Rule subjects="X12ConditionDesignatorX_<relational_condition>"…>  

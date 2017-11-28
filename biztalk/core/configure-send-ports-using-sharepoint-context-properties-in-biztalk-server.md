@@ -47,8 +47,8 @@ This topic describes how to configure Windows SharePoint Services send ports at 
     |Templates Fallback Document Library|WSS.ConfigCustomTemplatesDocLib|String|None|  
     |Templates Fallback Namespace Column|WSS.ConfigCustomTemplatesNamespaceCol|String|None|  
     |Templates Namespace Column|WSS.ConfigTemplatesNamespaceCol|String|None|  
-    |Column `n`|WSS.ConfigPropertiesXml<br /><br /> Column name is set in \<PropertyName*x*>*columnname*\</ PropertyName*x*> field.|String|None|  
-    |Column `n` Value|WSS.ConfigPropertiesXml<br /><br /> Column value is set in \<PropertySource*x*>*columnvalue*\</ PropertySource*x*> field.|String|Supports the use of all filename macros that can be used in the transport properties except for the **%Filename%** and **%Extension%** macros.|  
+    |Column `n`|WSS.ConfigPropertiesXml<br /><br /> Column name is set in \<PropertyName*x*\>*columnname*\</ PropertyName*x*\> field.|String|None|  
+    |Column `n` Value|WSS.ConfigPropertiesXml<br /><br /> Column value is set in \<PropertySource*x*\>*columnvalue*\</ PropertySource*x*\> field.|String|Supports the use of all filename macros that can be used in the transport properties except for the **%Filename%** and **%Extension%** macros.|  
   
     > [!NOTE]
     >  The values supplied for context properties are case sensitive. When setting configuration values for a dynamic port with context properties ensure that you use the proper case or an error will occur when BizTalk attempts to route the document to the designated send port.  

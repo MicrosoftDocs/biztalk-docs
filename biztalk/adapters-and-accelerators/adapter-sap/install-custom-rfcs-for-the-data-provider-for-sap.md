@@ -27,7 +27,7 @@ The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] re
   
 -   Run the EXECQUERY operation, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires Z_EXECUTE_SAP_QUERY RFC.  
   
-To perform these operations on the SAP system, you must install these custom RFCs on the SAP system. If you chose to install the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] along with the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], the Setup program copies the RFC transport for the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] as a compressed file (customRFC.zip) on the system where you install the adapter. The zip file is typically installed at *\<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft .NET Framework Data Provider for mySAP Business Suite*. 
+To perform these operations on the SAP system, you must install these custom RFCs on the SAP system. If you chose to install the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] along with the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], the Setup program copies the RFC transport for the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] as a compressed file (customRFC.zip) on the system where you install the adapter. The zip file is typically installed at *\<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft .NET Framework Data Provider for mySAP Business Suite*. 
   
  After extracting the zip file, you will find four data files, two following the naming pattern K9*.BI1 (for example, similar to K900534.BI1), and the other two following the pattern R9\*.BI1 (for example, similar to R900534.BI1).  
   
@@ -213,11 +213,11 @@ Verifying Custom RFC Installation
   
     |||  
     |-|-|  
-    |OUT_TABLEHEADER|\<T000 general metadata>|  
-    |OUT_TECHNICALSETTINGS|\<T000 technical database level metadata>|  
-    |OUT_RECORDLENGTH|\<depends on SAP version>|  
-    |OUT_RECORDCOUNT|\<confirm the number of clients in your system with SE16 on T000>|  
-    |OUT_ZDATATABLE|\<confirm this result with the source data using SE 16 on T000>|  
+    |OUT_TABLEHEADER|\<T000 general metadata\>|  
+    |OUT_TECHNICALSETTINGS|\<T000 technical database level metadata\>|  
+    |OUT_RECORDLENGTH|\<depends on SAP version\>|  
+    |OUT_RECORDCOUNT|\<confirm the number of clients in your system with SE16 on T000\>|  
+    |OUT_ZDATATABLE|\<confirm this result with the source data using SE 16 on T000\>|  
     |OUT_RETURN_TAB|S 001 Success|  
   
 ## Remove the RFC for the Data Provider for SAP  

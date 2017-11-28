@@ -40,7 +40,7 @@ By default, host initiated Single Sign-On is not enabled in the Single Sign-On s
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **ssomanage -enable hisso**.  
   
@@ -67,7 +67,7 @@ By default, host initiated Single Sign-On is not enabled in the Single Sign-On s
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **ssomanage -disable hisso** as appropriate.  
   

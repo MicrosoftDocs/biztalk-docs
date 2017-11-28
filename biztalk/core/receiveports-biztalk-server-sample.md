@@ -37,7 +37,7 @@ The ReceivePorts sample demonstrates how to create a new receive port by using t
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\ReceivePorts  
+ \<*Samples Path*\>\Admin\ExplorerOM\ReceivePorts  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -58,7 +58,7 @@ The ReceivePorts sample demonstrates how to create a new receive port by using t
   
 1.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\ReceivePorts\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\ReceivePorts\bin\Debug  
   
 2.  Run the file ReceivePorts.exe. The new receive port should be created and shown in the port enumeration. After the enumeration the receive port is immediately removed.  
   

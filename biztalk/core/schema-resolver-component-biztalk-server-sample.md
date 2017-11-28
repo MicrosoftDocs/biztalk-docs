@@ -28,7 +28,7 @@ The Schema Resolver Component sample demonstrates how to extend the functionalit
  The Schema Resolver component demonstrates an alternative method of selecting the schema for a flat file disassembler. In this sample, four schemas are defined and the first two characters of a message for each schema are unique. A mapping is defined between the unique first two characters and the corresponding schema. When the input message is given to the Schema Resolver component, it reads the first two characters, determines which schema to use for the corresponding document, saves the schema information on the message context, and then calls into the standard flat file disassembler component. The standard flat file disassembler component reads the schema information from the message context and uses that schema to parse the document.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Pipelines\SchemaResolverComponent\  
+ *\<Samples Path\>*\Pipelines\SchemaResolverComponent\  
   
  The following table shows the files used in this sample and describes their purpose.  
   
@@ -52,7 +52,7 @@ The Schema Resolver Component sample demonstrates how to extend the functionalit
   
 1.  In a command window, change directory (cd) to the following folder:  
   
-     *\<Samples Path>*\Pipelines\SchemaResolverComponent  
+     *\<Samples Path\>*\Pipelines\SchemaResolverComponent  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -72,9 +72,9 @@ The Schema Resolver Component sample demonstrates how to extend the functionalit
   
 #### To run this sample  
   
-1.  Drop the POInstance.txt, PRInstance.txt, SOInstance.txt, and SRInstance.txt files into the receive location \<*Installation Path*>\SDK\Samples\Pipelines\SchemaResolverComponent\In  
+1.  Drop the POInstance.txt, PRInstance.txt, SOInstance.txt, and SRInstance.txt files into the receive location \<*Installation Path*\>\SDK\Samples\Pipelines\SchemaResolverComponent\In  
   
-2.  Observe the four .xml files written to the \<Installdir>\SDK\Samples\Pipelines\SchemaResolverComponent\Out folder.  
+2.  Observe the four .xml files written to the \<Installdir\>\SDK\Samples\Pipelines\SchemaResolverComponent\Out folder.  
   
 ## See Also  
  [Pipelines (BizTalk Server Samples Folder)](../core/pipelines-biztalk-server-samples-folder.md)

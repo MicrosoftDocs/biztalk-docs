@@ -39,7 +39,7 @@ The Start Send Port sample demonstrates how to start a send port and optionally 
 ## Where to Find This Sample  
  The sample files are located in the following SDK location:  
   
- \<*Samples Path*>\Admin\WMI\Start Send Port\  
+ \<*Samples Path*\>\Admin\WMI\Start Send Port\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -56,15 +56,15 @@ The Start Send Port sample demonstrates how to start a send port and optionally 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\WMI\Start Send Port\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Start Send Port\VBScript\  
   
 2.  Run the file StartSendPort.vbs using the cscript program, passing the following command-line arguments, the second of which is optional:  
   
-    -   **\<**   
-         ***SendPortName* >.** The name of the send port to start. If the send port name contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***SendPortName* \>.** The name of the send port to start. If the send port name contains spaces, enclose the name in quotes.  
   
-    -   **\<**   
-         ***PrimaryTransportAddress* >.** The Primary Transport Address, relative to the product installation location, that you can change by specifying this argument. If the primary adapter address contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***PrimaryTransportAddress* \>.** The Primary Transport Address, relative to the product installation location, that you can change by specifying this argument. If the primary adapter address contains spaces, enclose the name in quotes.  
   
          For example:  
   

@@ -39,7 +39,7 @@ When the EDI send pipeline processes an outbound preserved batch interchange, it
 >  You can send a preserved batch with an XML send pipeline. However, to do so requires that you change the namespace for the batch schema. For more information, see [Sending a Preserved Batch with an XML Send Pipeline](../core/sending-a-preserved-batch-with-an-xml-send-pipeline.md).  
   
 ## Error Processing  
- The EDI send pipeline recognizes a batched EDI interchange as a preserved batch because of a reserved tag in the XML. This tag, either \<X12InterchangeXml> or \<EdifactInterchangeXml>, is applied to the XML by the EDI receive pipeline.  
+ The EDI send pipeline recognizes a batched EDI interchange as a preserved batch because of a reserved tag in the XML. This tag, either \<X12InterchangeXml\> or \<EdifactInterchangeXml\>, is applied to the XML by the EDI receive pipeline.  
   
  The following special cases apply to suspending transaction sets on error:  
   

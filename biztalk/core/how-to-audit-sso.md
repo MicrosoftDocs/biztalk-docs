@@ -63,9 +63,9 @@ You can use the MMC Snap-In or the command line to set both the positive and neg
   
 1.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive>**:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssoconfig –auditlevel \<positive>\<negative>**, where **\<positive>** is the level of auditing when actions succeed, and **\<negative>** is the level of auditing when actions fail.  
+3.  Type **ssoconfig –auditlevel \<positive\>\<negative\>**, where **\<positive\>** is the level of auditing when actions succeed, and **\<negative\>** is the level of auditing when actions fail.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -74,9 +74,9 @@ You can use the MMC Snap-In or the command line to set both the positive and neg
   
 1.  Click **Start**, click **Run**, and then type **cmd**.  
   
-2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive>**:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage –updatedb \<update file>**, where **\<update file>**is the path and name of the file.  
+3.  Type **ssomanage –updatedb \<update file\>**, where **\<update file\>**is the path and name of the file.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

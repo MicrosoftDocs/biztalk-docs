@@ -51,7 +51,7 @@ public class EchoAdapterUtilities
  You can enable tracing provided in the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] by adding the following section in the app.config file of the application using the adapter.  
   
 ```  
-\<system.diagnostics>  
+<system.diagnostics>  
   <sources>  
     <source name="Microsoft.Adapters.Samples.Echo.EchoAdapter" switchValue="Verbose">  
       <listeners>  
@@ -70,7 +70,7 @@ public class EchoAdapterUtilities
     </add>  
   </sharedListeners>  
   <trace autoflush="true" />  
-\</system.diagnostics>  
+</system.diagnostics>  
 ```  
   
  You can use the add element to specify the name and type of the trace listener you want to use. In our example configuration, we named the Listener "xmlTrace" and added the standard .NET Framework trace listener (System.Diagnostics.XmlWriterTraceListener) as the type we want to use. You can add any number of trace listeners for each source. For example, in the following examples, we also added another listener named "textTrace" that uses the .NET Framework trace listener System.Diagnostics.TextWriterTraceListener. If the trace listener emits the trace to a file, you must specify the output file location and name in the configuration file. This is done by setting initializeData to the name of the file for that listener.  
@@ -79,7 +79,7 @@ public class EchoAdapterUtilities
  You can enable tracing for this plug-in by adding the following section in the devenv.exe.config file located in `\Program Files (x86)\Microsoft Visual Studio\Common7\IDE`.
   
 ```  
-\<system.diagnostics>  
+<system.diagnostics>  
    <sources>  
     <source name="Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse" switchValue="Verbose, ActivityTracing">  
       <listeners>  
@@ -96,14 +96,14 @@ public class EchoAdapterUtilities
     </add>  
   </sharedListeners>  
   <trace autoflush="true" indentsize="4" />  
-\</system.diagnostics>  
+</system.diagnostics>  
 ```  
   
 ## Enable Tracing for the Consume Adapter Service Add-in  
  You can enable tracing for this add-in by adding the following section in the BTSNTSVC.exe.config file located in `\Program Files (x86)\Microsoft BizTalk Server`.  
   
 ```  
-\<system.diagnostics>  
+<system.diagnostics>  
    <sources>  
     <source name="Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse" switchValue="Verbose, ActivityTracing">  
       <listeners>  
@@ -120,7 +120,7 @@ public class EchoAdapterUtilities
     </add>  
   </sharedListeners>  
   <trace autoflush="true" indentsize="4" />  
-\</system.diagnostics>  
+</system.diagnostics>  
 ```  
   
 ## See Also  

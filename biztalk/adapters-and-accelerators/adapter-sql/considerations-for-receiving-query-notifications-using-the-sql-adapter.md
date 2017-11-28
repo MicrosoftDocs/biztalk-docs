@@ -24,7 +24,7 @@ This topic provides some considerations and best practices to keep in mind while
   
 -   The notification message for an operation is not affected by the number of records affected by that operation. For example, regardless of the number of records inserted, updated, or deleted in a SQL Server database table, the adapter client receives only one notification message.  
   
--   We recommend that the adapter client application contain the logic to interpret the type of notification received from SQL Server. The notification type can be determined by extracting the information from, the **\<Info>** element of the received notification message. Here’s an example of a notification message received for an Insert operation:  
+-   We recommend that the adapter client application contain the logic to interpret the type of notification received from SQL Server. The notification type can be determined by extracting the information from, the **\<Info\>** element of the received notification message. Here’s an example of a notification message received for an Insert operation:  
   
     ```  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
@@ -34,7 +34,7 @@ This topic provides some considerations and best practices to keep in mind while
     </Notification>  
     ```  
   
-     Notice the value within the **\<Info>** element. This value provides information on the operation for which the notification message was received. Your application should have the functionality to extract the value within the **\<Info>** element and then based on the value, perform subsequent tasks. The topic [Process Notification Messages to complete Specific Tasks in SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md) has instructions on how to extract the value within the **\<Info>** element. A detailed tutorial that performs similar tasks is also available at [Tutorial 2: Employee - Purchase Order Process using the SQL adapter](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md).  
+     Notice the value within the **\<Info\>** element. This value provides information on the operation for which the notification message was received. Your application should have the functionality to extract the value within the **\<Info\>** element and then based on the value, perform subsequent tasks. The topic [Process Notification Messages to complete Specific Tasks in SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md) has instructions on how to extract the value within the **\<Info\>** element. A detailed tutorial that performs similar tasks is also available at [Tutorial 2: Employee - Purchase Order Process using the SQL adapter](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md).  
   
 -   Ideally, after the client application receives a notification for a specific record, that record should be updated so that additional notifications are not received. For example, consider an **Employee** table that has a **Status** column. For all new records inserted into the **Employee** table, the value in the **Status** column is always “0” so the table will look like the following:  
   

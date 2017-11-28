@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Handle Typed Fault Contracts in Orchestrations
-This topic describes how to handle typed fault contracts when consuming WCF services from within orchestrations. To handle typed fault exceptions in orchestrations, the WCF services that you are consuming must have the **FaultContractAttribute** applied to the service operations; therefore, the faults can be thrown by using **FaultException**\<T> where T can be any valid data contract or serializable type from the WCF services.  
+This topic describes how to handle typed fault contracts when consuming WCF services from within orchestrations. To handle typed fault exceptions in orchestrations, the WCF services that you are consuming must have the **FaultContractAttribute** applied to the service operations; therefore, the faults can be thrown by using **FaultException**\<T\> where T can be any valid data contract or serializable type from the WCF services.  
   
 ## Procedures  
   
@@ -28,7 +28,7 @@ This topic describes how to handle typed fault contracts when consuming WCF serv
   
 1.  In your Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, in Solution Explorer, right-click your project, click **Add**, and then click **Add Generated Items**.  
   
-2.  In the **Add Generated Items - \<***Project name***>** dialog box, in the **Templates** section, select **Consume WCF Service**, and then click **Add**.  
+2.  In the **Add Generated Items - \<***Project name***\>** dialog box, in the **Templates** section, select **Consume WCF Service**, and then click **Add**.  
   
 3.  On the **Welcome to the BizTalk WCF Service Consuming Wizard** page, click **Next**.  
   

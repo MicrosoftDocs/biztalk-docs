@@ -48,7 +48,7 @@ To establish connectivity to an SAP system, ADO.NET clients must specify the SAP
 |System Number (SYSNR)|A|The SAP system number|  
 |Application Server Group Name (GROUP)|B|Name of the SAP server group. This is an optional group of application servers in a load balancing connection.|  
 |Message Server Host (MSHOST)|B|Name of the SAP message server host|  
-|Message Server Service (MSSERV)|B|Name of the SAP message server service as specified in the \<system drive>:\WINDOWS\system32\drivers\etc\services file. If you do not specify a value, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] assumes this to be "sapms\<R/3 system name>". For example, if the R/3 system name is DV1, the adapter assumes the message server service name to be "sapmsDV1".<br /><br /> However, if the entry in the services file is different, you must specify that value.|  
+|Message Server Service (MSSERV)|B|Name of the SAP message server service as specified in the \<system drive\>:\WINDOWS\system32\drivers\etc\services file. If you do not specify a value, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] assumes this to be "sapms\<R/3 system name\>". For example, if the R/3 system name is DV1, the adapter assumes the message server service name to be "sapmsDV1".<br /><br /> However, if the entry in the services file is different, you must specify that value.|  
 |R/3 System Name (R3NAME)|B|The SAP R/3 name.|  
 |Destination (DEST)|D|Picks the connection parameters from the saprfc.ini file.|  
 |Client (CLIENT)|A,B,D|The SAP client number|  

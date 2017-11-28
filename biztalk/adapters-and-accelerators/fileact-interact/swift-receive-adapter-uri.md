@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SWIFT Receive Adapter URI
-The URI for the receive adapter is constructed based on the Tuxedo end point information (SWIFT://\<SwTuxSrv>) for the SWIFTNet Link (SNL), and the message partner (SWIFT://\<SagMessagePartner>) information for the SWIFTAlliance Gateway receive adapter (SAG-RA) deployment.  
+The URI for the receive adapter is constructed based on the Tuxedo end point information (SWIFT://\<SwTuxSrv\>) for the SWIFTNet Link (SNL), and the message partner (SWIFT://\<SagMessagePartner\>) information for the SWIFTAlliance Gateway receive adapter (SAG-RA) deployment.  
   
  This is represented as the **Application name** property on the receive adapter property page.  
   

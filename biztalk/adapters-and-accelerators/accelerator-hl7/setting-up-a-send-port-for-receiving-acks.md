@@ -54,7 +54,7 @@ manager: "anneta"
     >  When you leave **Submit Receive Location** blank, BTAHL7 enters the URI for the default **TwoWayAckReceiveLocation**. You can verify that after clicking **OK** in step 6, by clicking **Configuration** again. The URI for **TwoWayAckReceiveLocation** (127.0.0.1:65535) will be entered in **Submit Receive Location (URI) for ACK**.  
   
     > [!NOTE]
-    >  You must create a send port to subscribe to the ACK received, or the ACK will be seen in a suspended state, because no subscriptions were found. To subscribe to the ACK received by the send port, use filters, for example, **BTS.MessageType == \<*MessageType*>** and **BTS.ReceivePortName == \<*ReceivePort*>**. For static ACKs, the message type is **StaticAck**.  
+    >  You must create a send port to subscribe to the ACK received, or the ACK will be seen in a suspended state, because no subscriptions were found. To subscribe to the ACK received by the send port, use filters, for example, **BTS.MessageType == \<*MessageType*\>** and **BTS.ReceivePortName == \<*ReceivePort*\>**. For static ACKs, the message type is **StaticAck**.  
   
 7.  Click **OK**.  
   

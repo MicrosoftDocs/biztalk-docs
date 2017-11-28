@@ -61,7 +61,7 @@ An activity search allows you to perform searches against BAM data to find activ
 |**At**|Specifies an exact match. Equivalent to a Boolean Equals (=) operation. **Note:**  If you select the **At** operator and specify a date with no time part the portal uses midnight as the default value. If this is not your intent, use the **At or before** or the **At or after** operators to obtain the desired results.|  
 |**On or before**|Specifies that only transactions on or before the specified date are matched. Equivalent to a Boolean less than or equals (≤) operation.|  
 |**On or after**|Specifies that only transactions on or after the specified date are matched. Equivalent to a Boolean greater than or equals (≥) operation.|  
-|**Before**|Specifies that only transactions before the specified date are matched. Equivalent to a Boolean less than (\<) operation.|  
+|**Before**|Specifies that only transactions before the specified date are matched. Equivalent to a Boolean less than (<) operation.|  
 |**After**|Specifies that only transactions after the specified date are matched. Equivalent to a Boolean greater than (>) operation.|  
 |**In the last**|Specifies that only transactions that occurred in the previous specified time period are matched. The time period can be specified in seconds, minutes, hours, or days.|  
 |**Before the last**|Specifies that only transactions that occurred prior to the specified time period are matched. The time period can be specified in seconds, minutes, hours, or days.|  

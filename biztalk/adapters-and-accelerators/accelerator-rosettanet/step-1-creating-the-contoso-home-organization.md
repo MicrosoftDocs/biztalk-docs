@@ -22,7 +22,7 @@ In this step, you use the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Â
   
 ### To start the BTARN Management Console  
   
--   On the Contoso computer, click **Start**, point to **All Programs**, point to **Microsoft  BizTalk \<version> Accelerator for RosettaNet** and then click **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console.  
+-   On the Contoso computer, click **Start**, point to **All Programs**, point to **Microsoft  BizTalk \<version\> Accelerator for RosettaNet** and then click **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console.  
   
 ### To create the home organization  
   

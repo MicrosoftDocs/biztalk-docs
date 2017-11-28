@@ -94,7 +94,7 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables 
 >  You must ensure that all the required schemas are added to the BizTalk project.  
   
 > [!IMPORTANT]
->  You must add a reference to the BizTalk property schema for [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to your BizTalk project. The schema file, *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*, is installed by the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup, typically at \<installation drive>:\Program Files\Microsoft BizTalk Adapter Pack\bin.  
+>  You must add a reference to the BizTalk property schema for [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to your BizTalk project. The schema file, *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*, is installed by the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup, typically at \<installation drive\>:\Program Files\Microsoft BizTalk Adapter Pack\bin.  
   
 ## Defining Messages and Message Types  
  The schema that you generated earlier describes the "types" required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. You must link the schema you generated in the first step to the messages from the Orchestration View window of the BizTalk project.  
@@ -320,7 +320,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  For more information about how to handle exceptions, in general, using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Using Transactions and Handling Exceptions](../../core/using-transactions-and-handling-exceptions.md).
   
 ## Add the BizTalk Property Schema to BizTalk  
- In your BizTalk project, you added an assembly reference to the BizTalk property schema for [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You must add the same assembly as a resource in the BizTalk application, that is, the application where the BizTalk project will be deployed. The schema file, *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*, is installed by the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup typically under \<installation drive>:\Program Files\Microsoft BizTalk Adapter Pack\bin. Without this resource, you will not be able to deploy your project.  
+ In your BizTalk project, you added an assembly reference to the BizTalk property schema for [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You must add the same assembly as a resource in the BizTalk application, that is, the application where the BizTalk project will be deployed. The schema file, *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*, is installed by the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup typically under \<installation drive\>:\Program Files\Microsoft BizTalk Adapter Pack\bin. Without this resource, you will not be able to deploy your project.  
   
 #### To add an assembly as a resource in BizTalk  
   
@@ -380,7 +380,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  After you run the application, you must drop a request message for the orchestration at a predefined location. The request message must conform to a specific schema, for instance, MultipleOrders.xsd schema. For example, a request message to create sales orders in an SAP system and then to commit the operation is:  
   
 ```  
-\<ns0:Orders xmlns:ns0="http://BAPISend.MultipleOrders">  
+<ns0:Orders xmlns:ns0="http://BAPISend.MultipleOrders">  
   <Order>  
       <ORDER_HEADER_IN>  
         <DOC_TYPE>TA</DOC_TYPE>  
@@ -407,7 +407,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
   <isCommit>true</isCommit>  
   <BAPI_TRANSACTION_COMMIT>  
   </BAPI_TRANSACTION_COMMIT>  
-\</ns0:Orders>  
+</ns0:Orders>  
 ```  
   
  The orchestration consumes the message and sends it to the SAP system. The response from the SAP system is saved at other file location defined as part of the orchestration. For the above request message, you get two response messages—one for invoking the BAPI_SALESORDER_CREATEFROMDAT2 RFC and the other for the commit operation using BAPI_TRANSACTION_COMMIT.  
@@ -415,7 +415,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  The response for BAPI_SALESORDER_CREATEFROMDAT2 is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <BAPI_SALESORDER_CREATEFROMDAT2Response xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  
   <SALESDOCUMENT />   
   <ORDER_ITEMS_IN>  
@@ -440,7 +440,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  The response for BAPI_TRANSACTION_COMMIT is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <BAPI_TRANSACTION_COMMITResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  
   <RETURN>  
     <TYPE xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/" />   

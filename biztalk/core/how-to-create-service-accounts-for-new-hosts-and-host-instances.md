@@ -45,10 +45,10 @@ The Configuration Manager configures the necessary Windows groups and user accou
 4.  Use the Windows group and service account when creating the host and host instances.  
   
     > [!NOTE]
-    >  Do not specify \<*computer name*>\ as the prefix in a single computer setup with local groups.  
+    >  Do not specify \<*computer name*\>\ as the prefix in a single computer setup with local groups.  
   
     > [!NOTE]
-    >  If you are using a Domain group, you must specify \<*Domain NetBIOS Name*>\ as the prefix for the host Windows Group name. For example, CONTOSO\btssvc.  
+    >  If you are using a Domain group, you must specify \<*Domain NetBIOS Name*\>\ as the prefix for the host Windows Group name. For example, CONTOSO\btssvc.  
   
 ## See Also  
  [Managing Hosts and Service Accounts](../core/managing-hosts-and-service-accounts.md)   

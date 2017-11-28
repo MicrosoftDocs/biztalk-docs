@@ -36,9 +36,9 @@ The Enlist Orchestration sample demonstrates how to enlist a BizTalk Server orch
 ## Where to Find This Sample  
  The samples are located in the following SDK locations:  
   
--   VBScript version: \<*Samples Path*>\Admin\WMI\Enlist Orchestration\VBScript\  
+-   VBScript version: \<*Samples Path*\>\Admin\WMI\Enlist Orchestration\VBScript\  
   
--   Visusal C# version: \<*Samples Path*>\Admin\WMI\Enlist Orchestration\CSharp\  
+-   Visusal C# version: \<*Samples Path*\>\Admin\WMI\Enlist Orchestration\CSharp\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -60,17 +60,17 @@ The Enlist Orchestration sample demonstrates how to enlist a BizTalk Server orch
   
 1.  In a command window, navigate to one of the following folders, depending on whether you are planning to run the VBScript version or the Visual C# version of this sample, respectively:  
   
-     \<*Samples Path*>\Admin\WMI\Enlist Orchestration\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Enlist Orchestration\VBScript\  
   
-     \<*Samples Path*>AdminWMIEnlist OrchestrationCSharpbinDebug  
+     \<*Samples Path*\>AdminWMIEnlist OrchestrationCSharpbinDebug  
   
 2.  Either run the file EnlistOrch.vbs using the cscript program, or run the file EnlistOrc.exe, depending on whether you are planning to run the VBScript version or the Visual C# version of this sample, respectively. In any event, pass the following command-line arguments:  
   
-    -   **\<**   
-         ***OrchestrationName* >.** The name of the orchestration to be enlisted.  
+    -   **\<**
+         ***OrchestrationName* \>.** The name of the orchestration to be enlisted.  
   
-    -   **\<**   
-         ***AssemblyName* >.** The name of the assembly in which the orchestration was deployed. If the assembly name contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***AssemblyName* \>.** The name of the assembly in which the orchestration was deployed. If the assembly name contains spaces, enclose the name in quotes.  
   
          For example: (VBScript):  
   

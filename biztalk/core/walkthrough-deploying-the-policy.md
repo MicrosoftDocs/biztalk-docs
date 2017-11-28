@@ -264,7 +264,7 @@ This walkthrough provides step-by-step instructions for deploying the **ProcessP
   
 3.  Browse, and double-click the XML file (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**) that you created in the first procedure.  
   
-4.  Expand **\<All Artifacts>** under **Applications**.  
+4.  Expand **\<All Artifacts\>** under **Applications**.  
   
 5.  Click **Policies**, and you should see version 1.3 of the **ProcessPurchaseOrder** policy in the list.  
   
@@ -409,7 +409,7 @@ This walkthrough provides step-by-step instructions for deploying the **ProcessP
   
     2.  Copy the entire XML content from the first BRL file containing the vocabulary.  
   
-    3.  Copy the ruleset block (starts with the \<ruleset> tag and ends with the \</ruleset> tag) from the second BRL file.  
+    3.  Copy the ruleset block (starts with the \<ruleset\> tag and ends with the \</ruleset\> tag) from the second BRL file.  
   
     4.  Save the new file. You can import this single XML file to create the **POVocabulary** vocabulary and the **ProcessPurchaseOrder** policy.  
   

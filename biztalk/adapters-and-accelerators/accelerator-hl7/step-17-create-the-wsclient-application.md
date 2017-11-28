@@ -31,7 +31,7 @@ wsclient john henry smith 123456789
   
 2.  In the **Add New Project** dialog box, in the **Project Types** pane, click **Visual C#** and in the **Templates** pane, click **Console Application**.  
   
-3.  In the **Name** field, type **WSClient**. In the **Location** field, browse to **\<*drive*>:\Tutorial**, and then click **OK**. Solution Explorer adds WSClient to the tree, and the Program.cs file appears.  
+3.  In the **Name** field, type **WSClient**. In the **Location** field, browse to **\<*drive*\>:\Tutorial**, and then click **OK**. Solution Explorer adds WSClient to the tree, and the Program.cs file appears.  
   
 4.  In Solution Explorer, right-click **WSClient**, and then click **Add Web Reference**.  
   
@@ -72,7 +72,7 @@ wsclient john henry smith 123456789
     }  
     ```  
   
-9. In Solution Explorer, right-click **WSClient**, and then click **Build**. Ensure that a success message appears in the output window. If no success message appears, troubleshoot **WSClient**. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] places a copy of the executable, WSClient.exe, into the \<*drive*>:\Tutorial\WSClient\bin\Debug folder.  
+9. In Solution Explorer, right-click **WSClient**, and then click **Build**. Ensure that a success message appears in the output window. If no success message appears, troubleshoot **WSClient**. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] places a copy of the executable, WSClient.exe, into the \<*drive*\>:\Tutorial\WSClient\bin\Debug folder.  
   
  Proceed to [Step 18: Test Your New Message Enrichment Solution](../../adapters-and-accelerators/accelerator-hl7/step-18-test-your-new-message-enrichment-solution.md).  
   

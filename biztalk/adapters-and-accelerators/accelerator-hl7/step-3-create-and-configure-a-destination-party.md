@@ -23,7 +23,7 @@ In this step, you create and configure a destination party for the Create-Batch 
   
 2.  In the Party Properties dialog box, in the **Name** box, type **Tutorial_BatchDest**, and then click **OK**.  
   
-3.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
+3.  Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version\> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
   
 4.  In BTAHL7 Configuration Explorer, on the **Parties** tab in the console tree, click **Tutorial_BatchDest**.  
   

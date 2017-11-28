@@ -50,7 +50,7 @@ You can invoke a policy (child) from another policy (parent) by using one of the
   
 8.  Select the schema for the XML document you want to pass as a fact, and then click **Open**.  
   
-9. Drag *\<Schema name>*.xsd to the first argument of the **Policy.Execute** method to pass the XML document that is passed to the parent policy as a fact to the child policy.  
+9. Drag *\<Schema name\>*.xsd to the first argument of the **Policy.Execute** method to pass the XML document that is passed to the parent policy as a fact to the child policy.  
   
 10. If you use the **Execute** method that does not take the **IRuleSetTrackingInterceptor** as the second argument, skip the following steps.  
   

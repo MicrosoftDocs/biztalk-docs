@@ -18,9 +18,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Extending Enumerations
-You can add values to the enumerations that establish accepted values for many fields, segments, and data types in HL7 message body, acknowledgment, and message body schemas. This involves changing the set of values in a specific table in the common table values schema file for the HL7 version in which you are working (the **Tablevalues_\<***version***>.xsd** schema file).  
+You can add values to the enumerations that establish accepted values for many fields, segments, and data types in HL7 message body, acknowledgment, and message body schemas. This involves changing the set of values in a specific table in the common table values schema file for the HL7 version in which you are working (the **Tablevalues_\<***version***\>.xsd** schema file).  
   
- You add to the enumeration in a different way for the message header schema than you do in other schemas, such as the message body schema. For the message header schema, you must change the table within the MSH_25_GLO_DEF.xsd file. For other schemas, you change the table in the table values schema file (tablevalues_\<version>.xsd).  
+ You add to the enumeration in a different way for the message header schema than you do in other schemas, such as the message body schema. For the message header schema, you must change the table within the MSH_25_GLO_DEF.xsd file. For other schemas, you change the table in the table values schema file (tablevalues_\<version\>.xsd).  
   
 ### To add an enumeration value to the table values common schema file  
   
@@ -34,7 +34,7 @@ You can add values to the enumerations that establish accepted values for many f
     > [!NOTE]
     >  If there is no table listed in **Base Data Type** field, and the **Derived By** property is not set to **Restricted**, then the field does not have an enumeration associated with it.  
   
-3.  In Solution Explorer, open the **Tablevalues_\<***version***>.xsd**, and then click **Open**.  
+3.  In Solution Explorer, open the **Tablevalues_\<***version***\>.xsd**, and then click **Open**.  
   
     > [!NOTE]
     >  You must perform this procedure separately for each version of the HL7 schema that you want to change.  

@@ -43,13 +43,13 @@ You must include envelope schemas in schema projects whenever you set up Message
   
 3.  In the Add Reference dialog box, click the **Browse** tag.  
   
-4.  In the Select Component dialog box, open the **Look in** drop-down list. Move to ***\<drive>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\Assemblies**. Select **Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll** from the list of assemblies, and then click **Add**.  
+4.  In the Select Component dialog box, open the **Look in** drop-down list. Move to ***\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\Assemblies**. Select **Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll** from the list of assemblies, and then click **Add**.  
   
 5.  In the **Add Reference** dialog box, click **OK**.  
   
 6.  Right-click your project, point to **Add**, and then click **Add Existing Item**.  
   
-7.  In the Add Existing Item dialog box, in the **Look in** drop-down box, move to **\<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Categoryn\MTxxx**. Select the envelope schema, for example, **EnvelopeMT103.xsd**, and then click **Add**.  
+7.  In the Add Existing Item dialog box, in the **Look in** drop-down box, move to **\<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Categoryn\MTxxx**. Select the envelope schema, for example, **EnvelopeMT103.xsd**, and then click **Add**.  
   
      In the Add Existing Item dialog box, in the **Look in** drop-down box, move to. Select the envelope schema, for example, EnvelopeMT103.xsd, and then click Add.  
   
@@ -58,7 +58,7 @@ You must include envelope schemas in schema projects whenever you set up Message
   
 8.  In Solution Explorer, right-click your project, point to **Add**, and then click **Add Existing Item**.  
   
-9. If using the Message Repair and New Submission feature, in the Add Existing Item dialog box, in the **Look in** drop-down box, move to **\<*drive*>:\Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Unparsed Message**. Select **EnvelopeUnparsedMessage.xsd**, and then click **Add**.  
+9. If using the Message Repair and New Submission feature, in the Add Existing Item dialog box, in the **Look in** drop-down box, move to **\<*drive*\>:\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Unparsed Message**. Select **EnvelopeUnparsedMessage.xsd**, and then click **Add**.  
   
 10. In Solution Explorer, right-click the project name, and then click **Build**.  
   

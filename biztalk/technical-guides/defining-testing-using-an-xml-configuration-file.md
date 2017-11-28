@@ -55,7 +55,7 @@ Sample BizTalk Messaging application
 </TestSetup>  
 ```  
   
- We then enter what is the most critical section of the test, the test execution stage. This stage can contain multiple test steps. In this example we use the FileCreateStep to copy a document (InDoc1.xml which can be seen in the \<SourcePath> tag) to a file drop which is used by our receive location. It’s important to note that BizUnit supports using unique identifiers for filenames in this step; this can be seen with the %Guid% reference in the CreationPath tag.  
+ We then enter what is the most critical section of the test, the test execution stage. This stage can contain multiple test steps. In this example we use the FileCreateStep to copy a document (InDoc1.xml which can be seen in the \<SourcePath\> tag) to a file drop which is used by our receive location. It’s important to note that BizUnit supports using unique identifiers for filenames in this step; this can be seen with the %Guid% reference in the CreationPath tag.  
   
  After this has been completed, we need to use the **FileValidateStep** to validate the outbound message has been created. You will notice this step allows you to specify a timeout value (this is in milliseconds), the directory and the search pattern. In addition to this, the **DeleteFile** tag enables you to specify whether you want the file to be removed after it has been validated. Finally, you should also note the validation includes an XPath query, which validates the PONumber node within the XML message (it checks that the value is PONumber_0.) Examination and validation of the payload of any outbound messages is another example of a guiding principle that you should follow when using BizUnit.  
   

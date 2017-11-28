@@ -81,7 +81,7 @@ The following components in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)
   
 -   That there are three characters in segments  
   
--   That the segment delimiter is \<CR> or \<CR>\<LF> (optional for the last segment)  
+-   That the segment delimiter is \<CR\> or \<CR\>\<LF\> (optional for the last segment)  
   
 -   That field delimiters are appropriate  
   

@@ -37,7 +37,7 @@ Each BizTalk Host instance runs under a user-created service account. You must p
   
  To ensure that the service accounts have the minimum user rights they need to do their jobs, the SQL Server Database roles that BizTalk Server creates for the service accounts are not identical on all the BizTalk Server databases. For the Management and Tracking databases, all of the host instance service accounts need access to the same SQL Server objects, so BizTalk Server created a single SQL Server Database role named BTS_Host_User. BizTalk adds all the Windows groups created for BizTalk hosts to this SQL Server Database role.  
   
- For the MessageBox database, each host has some resources dedicated to that host. BizTalk Server creates a SQL Server Database role per host, named BTS_\<*hostname*>_User, and adds the Windows group for each host to its respective SQL Server Database role in order to block access of one host resources by another host.  
+ For the MessageBox database, each host has some resources dedicated to that host. BizTalk Server creates a SQL Server Database role per host, named BTS_\<*hostname*\>_User, and adds the Windows group for each host to its respective SQL Server Database role in order to block access of one host resources by another host.  
   
 ## Accounts not supported by BizTalk Server  
  BizTalk Server does not support using any of the following built-in Windows accounts:  

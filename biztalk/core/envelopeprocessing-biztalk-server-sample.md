@@ -93,13 +93,13 @@ The EnvelopeProcessing sample demonstrates how to process messages and message e
   
 1.  In a command window, navigate to the following folder:  
   
-     *\<Samples Path>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
+     *\<Samples Path\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input (EnvInput) and output (EnvOutput) folders for this sample in the folder:  
   
-         *\<Samples Path>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
+         *\<Samples Path\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
   
     -   Compiles and deploys the Visual Studio project for this sample.  
   

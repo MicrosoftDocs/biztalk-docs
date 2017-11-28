@@ -109,7 +109,7 @@ To perform FIN Response Reconciliation, you need to create a series of send port
     |**Group**|**And**|  
     |**Property**|Select **Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_FRRFailedReason**.|  
     |**Operator**|Select **==**.|  
-    |**Value**|Type *\<NAKErrorCode>*, such as "Y01".|  
+    |**Value**|Type *\<NAKErrorCode\>*, such as "Y01".|  
     |**Group**|**Or**|  
     |**Property**|Select **Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_FRRFailedReason**.|  
     |**Operator**|Select **==**.|  

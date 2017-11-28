@@ -64,9 +64,9 @@ This topic describes typical tasks that BAM administrators undertake in managing
     > [!NOTE]
     >  Notification Services is not included in [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], install [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Services when you install [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] by selecting the **BAM Alert Provider for SQL Notification Services** option under **Additional Software** on the **Component Installation** page of the installation wizard.  
   
-2.  To create the BAM notification service on each computer in the distributed environment run C:\Program Files\Microsoft SQL Server\90\NotificationServices\9.0.242\bin\nscontrol register -name bamalerts -server \<server name> -service -serviceusername \<alertsuseraccount> -servicepassword \<passwd> from a command prompt.  
+2.  To create the BAM notification service on each computer in the distributed environment run C:\Program Files\Microsoft SQL Server\90\NotificationServices\9.0.242\bin\nscontrol register -name bamalerts -server \<server name\> -service -serviceusername \<alertsuseraccount\> -servicepassword \<passwd\> from a command prompt.  
   
-3.  Edit the BAM infrastructure configuration file on each computer being configured for distributed Notifications Serviced. To get the configuration file, use the **bm.exe get-config -FileName:\<output file>** command.  
+3.  Edit the BAM infrastructure configuration file on each computer being configured for distributed Notifications Serviced. To get the configuration file, use the **bm.exe get-config -FileName:\<output file\>** command.  
   
 4.  Edit the configuration file to reference the servers in the distributed Notification services environment:  
   
@@ -76,7 +76,7 @@ This topic describes typical tasks that BAM administrators undertake in managing
     <Property Name="DistributorServerName">PFIDWYUK</Property>  
     ```  
   
-5.  Use the bm.exe update-config -FileName:\<config file> to update the BAM configuration.  
+5.  Use the bm.exe update-config -FileName:\<config file\> to update the BAM configuration.  
   
 6.  Restart the Notification Services on all the computers in the distributed environment.  
   
@@ -123,10 +123,10 @@ This topic describes typical tasks that BAM administrators undertake in managing
   
 -   Run the following BAM Manager command from the new server:  
   
-     **bm.exe update-livedataworkbook -Name:\<livedata workbook to update.xls>**  
+     **bm.exe update-livedataworkbook -Name:\<livedata workbook to update.xls\>**  
   
     > [!NOTE]
-    >  You can also specify the new server name and/or BAM Primary Import database name: **bm.exe update-livedataworkbook -Name:\<livedata workbook to update.xls> [-Server:\<server>] [-Database:\<database>]**  
+    >  You can also specify the new server name and/or BAM Primary Import database name: **bm.exe update-livedataworkbook -Name:\<livedata workbook to update.xls\> [-Server:\<server\>] [-Database:\<database\>]**  
   
 -   Alternatively, you can update the Excel workbook from within Excel:  
   
@@ -146,9 +146,9 @@ This topic describes typical tasks that BAM administrators undertake in managing
 ### Cleaning up the Alerts Chronicle table  
  If BAM alerts are configured, a SQL job is created for each activity view that is created. The job will be named using the following template:  
   
- bam_\<View Name>_\<Activity View>_DelAlertHistJob  
+ bam_\<View Name\>_\<Activity View\>_DelAlertHistJob  
   
- This job cleans up auditing data for the instance alerts for the specified \<Activity View> in the Bam_Metadata_AlertChronicle table. If you have defined instance alerts on the particular activity view, a new row will be added to this table every time the alert is fired.  
+ This job cleans up auditing data for the instance alerts for the specified \<Activity View\> in the Bam_Metadata_AlertChronicle table. If you have defined instance alerts on the particular activity view, a new row will be added to this table every time the alert is fired.  
   
  You can run this job manually to clean up the table or schedule it to run according to the need of your application or environment.  
   

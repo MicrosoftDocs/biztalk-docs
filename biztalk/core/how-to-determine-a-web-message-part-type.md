@@ -29,7 +29,7 @@ You can determine if a Web message part type is a primitive .NET type or a schem
   
 3.  Select a message part.  
   
-     A Web message part signature that begins as **\<*project default namespace*>.\<*Web reference name*>.Reference.\<*schema root*>** is a schema type. The **\<*schema root*>** part of the type is the root element of the Web reference schema that constructs the Web message part. Otherwise, the message part signature is a primitive .NET type such as **System.String** or **System.Int32**.  
+     A Web message part signature that begins as **\<*project default namespace*\>.\<*Web reference name*\>.Reference.\<*schema root*\>** is a schema type. The **\<*schema root*\>** part of the type is the root element of the Web reference schema that constructs the Web message part. Otherwise, the message part signature is a primitive .NET type such as **System.String** or **System.Int32**.  
   
 ## See Also  
  [Constructing Web Messages](../core/constructing-web-messages.md)

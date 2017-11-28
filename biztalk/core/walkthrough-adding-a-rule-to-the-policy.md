@@ -54,7 +54,7 @@ This walkthrough provides step-by-step procedures for adding a rule named **Deni
   
 10. Drag **Request Status** to the THEN pane.  
   
-11. Click **\<empty string>** and then type **Denied**.  
+11. Click **\<empty string\>** and then type **Denied**.  
   
 12. Right-click **Version 1.2 (not saved)**, and then click **Save**.  
   

@@ -34,7 +34,7 @@ This section describes how you can install the JMS MQRFH2 sample using the insta
   
 4.  In the **Run** dialog box, type **cmd**, and then press ENTER.  
   
-5.  Run the following command, replacing the *\<path>* parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\JMS\Install\Scripts\\):  
+5.  Run the following command, replacing the *\<path\>* parameter with the full path to the .cmd file you want to install (the default path in this release is \Source\Samples\JMS\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

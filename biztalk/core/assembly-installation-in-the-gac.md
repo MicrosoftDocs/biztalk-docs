@@ -33,7 +33,7 @@ Each computer contains a global assembly cache (GAC) that contains the assemblie
   
      In addition, you can configure deployment options at any time after an assembly has been deployed into or added to an application, as described in [How to Modify the Deployment Options of a BizTalk Assembly](../core/how-to-modify-the-deployment-options-of-a-biztalk-assembly.md). When assemblies are deployed into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] for the first time, the deployment options in the Administration console are set as follows: GAC on installation is enabled and GAC on import is disabled. If you make changes to these settings, your changes will still be in effect if the assembly is redeployed from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
--   **Drag and drop.** Using Windows Explorer, you can drag and drop the assembly file into the \<*Windows folder*>\assembly.  
+-   **Drag and drop.** Using Windows Explorer, you can drag and drop the assembly file into the \<*Windows folder*\>\assembly.  
   
 -   **Other methods.** There are other tools and methods, including using Windows installer or tools created by third-party vendors, to install an assembly in the GAC.  
   

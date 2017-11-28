@@ -39,9 +39,9 @@ You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)
 |---------------|----------------------|  
 |Scalar function name|public *<return_type>**<scalar_function_name>*(param1, param2, …)|  
   
- \<*retrun_type*> = Return type defined in the function definition  
+ \<*retrun_type*\> = Return type defined in the function definition  
   
- \<*scalar_function_name*> = Name of the scalar function.  
+ \<*scalar_function_name*\> = Name of the scalar function.  
   
  As an example, the following code shows the method signatures for a WCF client class generated for the **GET_EMP_ID** scalar functions, in the dbo schema, which takes the employee designation as a parameter and returns an employee ID (integer).  
   

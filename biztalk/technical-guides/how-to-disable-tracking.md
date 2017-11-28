@@ -133,7 +133,7 @@ This topic describes how to disable tracking using the [!INCLUDE[btsBizTalkServe
   
 3.  Do one of the following:  
   
-    -   To disable tracking for one of the default BizTalk pipelines, expand \<All Artifacts>.  
+    -   To disable tracking for one of the default BizTalk pipelines, expand \<All Artifacts\>.  
   
     -   To disable tracking for a custom pipeline that has been deployed into a BizTalk application, expand the application containing the pipeline.  
   

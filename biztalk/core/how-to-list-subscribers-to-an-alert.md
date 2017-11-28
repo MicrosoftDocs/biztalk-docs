@@ -27,7 +27,7 @@ Administrators use the **get-subscriptions** command to list all of the subscrib
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type **bm get-subscriptions -View:\<view name> -Alert:\<alert name>**.  
+3.  Type **bm get-subscriptions -View:\<view name\> -Alert:\<alert name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

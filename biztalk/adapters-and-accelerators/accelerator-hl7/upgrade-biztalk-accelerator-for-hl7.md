@@ -30,7 +30,7 @@ Overview of the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md
   
 -   When you upgrade, the registry keys and databases are automatically backed up.  
   
--   The files in the *\<drive>*:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7 folder are updated.  
+-   The files in the *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7 folder are updated.  
   
 > [!IMPORTANT]
 >  The upgrade does not create a new folder for the upgraded files, nor does it change the name of the existing folder.  
@@ -51,7 +51,7 @@ Overview of the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md
   
 2.  Back up the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] databases and your HL7 message schemas.  
   
-3.  Back up any files under the ***\<drive>*:\Program Files\Microsoft BizTalk Accelerator for HL7** folder that you have changed. For example, back up files in the SDK.  
+3.  Back up any files under the ***\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for HL7** folder that you have changed. For example, back up files in the SDK.  
   
 4.  Install the appropriate update for your version of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]:  
   
@@ -66,7 +66,7 @@ Overview of the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md
   
 7.  Redeploy all other assemblies.  
   
-8.  Rebuild any projects or assemblies that have a reference to one or more of the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] assemblies. Using **BTSTask.exe** in \<*drive*>:\Program Files\Microsoft BizTalk Server \<version>, manually redeploy these projects.  
+8.  Rebuild any projects or assemblies that have a reference to one or more of the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] assemblies. Using **BTSTask.exe** in \<*drive*\>:\Program Files\Microsoft BizTalk Server \<version\>, manually redeploy these projects.  
   
 9. Restart the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] service.  
   

@@ -38,7 +38,7 @@ The Stop Orchestration sample demonstrates how to stop a BizTalk Server orchestr
 ## Where to Find This Sample  
  The sample files are located in the following SDK location:  
   
- \<*Samples Path*>\Admin\WMI\Stop Orchestration\  
+ \<*Samples Path*\>\Admin\WMI\Stop Orchestration\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -55,15 +55,15 @@ The Stop Orchestration sample demonstrates how to stop a BizTalk Server orchestr
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\WMI\Stop Orchestration\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Stop Orchestration\VBScript\  
   
 2.  Run the file StopOrch.vbs using the cscript program, passing the following command-line arguments, of which the third one is optional:  
   
-    -   **\<**   
-         ***OrchestrationName* >.** The name of the BizTalk Server orchestration to be stopped and, optionally, unenlisted.  
+    -   **\<**
+         ***OrchestrationName* \>.** The name of the BizTalk Server orchestration to be stopped and, optionally, unenlisted.  
   
-    -   **\<**   
-         ***AssemblyName* >.** The name of the BizTalk assembly in which the specified orchestration was deployed. If the assembly name contains spaces, enclose the name in quotes.  
+    -   **\<**
+         ***AssemblyName* \>.** The name of the BizTalk assembly in which the specified orchestration was deployed. If the assembly name contains spaces, enclose the name in quotes.  
   
     -   **Unenlist.** An optional, literal string used to indicate that the specified orchestration should be unenlisted in addition to being stopped.  
   

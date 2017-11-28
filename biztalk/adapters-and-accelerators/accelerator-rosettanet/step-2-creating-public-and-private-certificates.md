@@ -118,7 +118,7 @@ In this step, you use the Certification Authority created in [Step 1: Creating a
   
 15. On the **File To Export** page, click **Browse**.  
   
-16. In the **Save As** dialog box, save the certificate using the file path *\<drive>*:\Certs\Fabrikam Private Encryption.pfx.  
+16. In the **Save As** dialog box, save the certificate using the file path *\<drive\>*:\Certs\Fabrikam Private Encryption.pfx.  
   
 17. On the **File to Export** page, click **Next**.  
   
@@ -144,7 +144,7 @@ In this step, you use the Certification Authority created in [Step 1: Creating a
   
 6.  On the **File To Export** page, click **Browse**.  
   
-7.  In the Save As dialog box, enter **\<drive>:\Certs** for **Save in**, **Fabrikam Public Encryption.cer** as **File name**, and **\*.cer** for **Save as type**, and then click **Save**.  
+7.  In the Save As dialog box, enter **\<drive\>:\Certs** for **Save in**, **Fabrikam Public Encryption.cer** as **File name**, and **\*.cer** for **Save as type**, and then click **Save**.  
   
 8.  On the **File to Export** page, click **Next**.  
   

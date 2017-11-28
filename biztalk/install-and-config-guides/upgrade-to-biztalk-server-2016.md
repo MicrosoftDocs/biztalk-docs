@@ -147,9 +147,9 @@ SQL Server Database Mail is required to use BAM Alerts. If SQL Server is being u
 - **maxTimeout value**: If you have a large BAM database, update the `maxTimeout` value for distributed transactions in your machine.config file to:  
 
 	```
-	\<system.transactions>
+	<system.transactions>
 	   <machineSettings maxTimeout="23:59:59" />
-	\</system.transactions>
+	</system.transactions>
 	```
 
 - **BAM tracking enabled with Tracking Profile Editor (TPE)**: After you upgrade, tracking profiles that were previously deployed are upgraded; however, their corresponding interceptor configurations are not upgraded. Any new intercepted BAM messages may still have the BizTalk Server 2013 R2/2013 references. To upgrade the corresponding interceptor configurations, use the Tracking Profile Editor to retrieve the profile for the activity, and then reapply the profile.
@@ -277,7 +277,7 @@ You cannot roll back to [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/20
 - **Custom EXE and BRE**: If you have a custom managed executable file that references Business Rule Engine assembly in BizTalk Server 2010, add the following to the application configuration file to run the process in the .NET Framework 2.0.
 
 	```
-	\<?xml version="1.0" encoding="Windows-1252"?>
+	<?xml version="1.0" encoding="Windows-1252"?>
 	<configuration> 
 	 <startup>
 	  <supportedRuntime version="v2.0.50727" />

@@ -28,9 +28,9 @@ You must rejoin the BizTalk Server to an existing BizTalk group as part of the s
   
 2.  At the command prompt, type:  
   
-     **RestoreConfig.vbe**  *\<SavedConfigXML>*  
+     **RestoreConfig.vbe**  *\<SavedConfigXML\>*  
   
-     Where *\<SavedConfigXML>* is the full path and filename of the saved configuration file.  
+     Where *\<SavedConfigXML\>* is the full path and filename of the saved configuration file.  
   
      The above should exit without displaying any errors.  
   

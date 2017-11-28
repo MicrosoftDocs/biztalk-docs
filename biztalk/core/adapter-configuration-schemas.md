@@ -31,7 +31,7 @@ Different types of schemas are used in design-time configuration of an adapter. 
  ![](../core/media/ebiz-prog-custad-sh.gif "ebiz_prog_custad_sh")  
 Send handler property page created by the TransmitHandler.xsd file  
   
- Note the use of the \<baf:designer>, \<baf:displayname>, and \<baf:description> tags in the TransmitHandler.xsd code that is shown below. These are custom decorations provided by the Adapter Framework to make the generation of these property pages faster.  
+ Note the use of the \<baf:designer\>, \<baf:displayname\>, and \<baf:description\> tags in the TransmitHandler.xsd code that is shown below. These are custom decorations provided by the Adapter Framework to make the generation of these property pages faster.  
   
  For a list of all of the decorations available for use within the Adapter Framework, see [Adapter Framework Configuration Schema Decoration Tags](../core/adapter-framework-configuration-schema-decoration-tags.md).  
   
@@ -102,7 +102,7 @@ number of threads per CPU to execute in the thread pool</baf:description>
  ![](../core/media/ebiz-prog-custad-sp.gif "ebiz_prog_custad_sp")  
 Illustrates the send port property page for the sample file adapter  
   
- Note in the TransmitLocation.xsd file below that the send port configuration contains the \<baf:designer>, \<baf:displayname>, and \<baf:description> tags, just like the send handler, and it also uses the \<baf:category> tag. The category tag enables you to group properties together. If you have more than one category, the category is expandable and collapsible and appears in gray as a header above the properties in that category. For more information, see [Adapter Framework Configuration Schema Extensions](../core/adapter-framework-configuration-schema-extensions.md).  
+ Note in the TransmitLocation.xsd file below that the send port configuration contains the \<baf:designer\>, \<baf:displayname\>, and \<baf:description\> tags, just like the send handler, and it also uses the \<baf:category\> tag. The category tag enables you to group properties together. If you have more than one category, the category is expandable and collapsible and appears in gray as a header above the properties in that category. For more information, see [Adapter Framework Configuration Schema Extensions](../core/adapter-framework-configuration-schema-extensions.md).  
   
  This schema also contains a URI field. This is populated on the page that appears after you enter all of the field information on the send port property page during the validation processing by the adapter.  
   

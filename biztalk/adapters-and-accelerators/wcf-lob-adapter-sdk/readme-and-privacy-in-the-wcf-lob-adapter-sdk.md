@@ -18,15 +18,15 @@ manager: "anneta"
 The Windows Communication Foundation (WCF) Line of Business (LOB) Adapter Software Development Kit (SDK)  
   
 ## Inside the SDK  
- The following table shows the content of the various components of the WCF LOB Adapter SDK in the \<Installation Folder> after setup.  
+ The following table shows the content of the various components of the WCF LOB Adapter SDK in the \<Installation Folder\> after setup.  
   
 |Type|Location|Description|  
 |----------|--------------|-----------------|  
-|Run time|\<Installation Folder> \Bin\Microsoft.ServiceModel.Channels.dll<br /><br /> \<Installation Folder> \Bin\Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse.dll|These assemblies contain the base run time including the main form component used within the tools.|  
-|Tools|\<Installation Folder> \Tools\Microsoft.ServiceModel.Channels.Tools.PlugInPackage.dll<br /><br /> \<Installation Folder> \Tools\Microsoft.ServiceModel.Channels.Tools.BizTalkExtension.dll<br /><br /> \<Installation Folder> \Tools\Microsoft.ServiceModel.Channels.Wizards.dll|**Add Adapter Service Reference Visual Studio Plug-In**<br /><br /> (.NET Project [right-click], Add Adapter Service Reference)<br /><br /> **Consume Adapter Service BizTalk Project Add-In**<br /><br /> (BizTalk Project [right-click], Add, Add Generated Items, Consume Adapter Service)<br /><br /> **WCF LOB Adapter Development Wizard**<br /><br /> (File, New, Project, Visual C#, WCF LOB Adapter)|  
-|Documentation|\<Installation Folder> \Documents\WCFLOBAdapterSDK.chm|This file contains conceptual content and the managed reference content for this release.|  
-|Product Identifier File|\<Installation Folder>\Documents\pid.txt|This file contains the product identifier of the WCF LOB Adapter SDK. Use this product identifier as a reference when contacting Microsoft Customer Service and Support (CSS).|  
-|Samples|\<Installation Folder> \Documents\Samples\ContosoAdapterSample.zip<br /><br /> \<Installation Folder> \Documents\Samples\EchoAdapterSample.zip|The samples folder contains two sample adapters: Contoso adapter and Echo adapter.|  
+|Run time|\<Installation Folder\> \Bin\Microsoft.ServiceModel.Channels.dll<br /><br /> \<Installation Folder\> \Bin\Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse.dll|These assemblies contain the base run time including the main form component used within the tools.|  
+|Tools|\<Installation Folder\> \Tools\Microsoft.ServiceModel.Channels.Tools.PlugInPackage.dll<br /><br /> \<Installation Folder\> \Tools\Microsoft.ServiceModel.Channels.Tools.BizTalkExtension.dll<br /><br /> \<Installation Folder\> \Tools\Microsoft.ServiceModel.Channels.Wizards.dll|**Add Adapter Service Reference Visual Studio Plug-In**<br /><br /> (.NET Project [right-click], Add Adapter Service Reference)<br /><br /> **Consume Adapter Service BizTalk Project Add-In**<br /><br /> (BizTalk Project [right-click], Add, Add Generated Items, Consume Adapter Service)<br /><br /> **WCF LOB Adapter Development Wizard**<br /><br /> (File, New, Project, Visual C#, WCF LOB Adapter)|  
+|Documentation|\<Installation Folder\> \Documents\WCFLOBAdapterSDK.chm|This file contains conceptual content and the managed reference content for this release.|  
+|Product Identifier File|\<Installation Folder\>\Documents\pid.txt|This file contains the product identifier of the WCF LOB Adapter SDK. Use this product identifier as a reference when contacting Microsoft Customer Service and Support (CSS).|  
+|Samples|\<Installation Folder\> \Documents\Samples\ContosoAdapterSample.zip<br /><br /> \<Installation Folder\> \Documents\Samples\EchoAdapterSample.zip|The samples folder contains two sample adapters: Contoso adapter and Echo adapter.|  
 
 ## Privacy
 Microsoft is committed to protecting end-users' privacy. When you build an adapter using [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], it may impact your end-users' privacy. For example, your adapter may explicitly collect and send user credentials, or it may send and receive sensitive information from a line-of-business system. The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] does not send any information to Microsoft from your application unless you or the user chooses to send it to us.  

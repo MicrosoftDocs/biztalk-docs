@@ -66,7 +66,7 @@ This topic gives you a high-level overview of changes to the BizTalk Project Sys
 >  The Visual Studio Conversion Wizard takes care of automatically migrates the preceding mentioned settings to new environment.  
   
 ## User Access Control  
- Visual Studio does not let you deploy a BizTalk project on a computer with the User Access Control (UAC) feature turned on unless you run Visual Studio with administrative privileges. To run Visual Studio with administrative privileges, click **Start**, point to **All Programs**, point to **Microsoft Visual Studio**, right-click **Microsoft Visual Studio \<version>**, and then click **Run as administrator**.  
+ Visual Studio does not let you deploy a BizTalk project on a computer with the User Access Control (UAC) feature turned on unless you run Visual Studio with administrative privileges. To run Visual Studio with administrative privileges, click **Start**, point to **All Programs**, point to **Microsoft Visual Studio**, right-click **Microsoft Visual Studio \<version\>**, and then click **Run as administrator**.  
   
 ## C# files in a BizTalk project  
  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] allows you to combine helper classes with BizTalk artifacts for flexible packaging needs only.  However, you cannot add a new C# file directly by using the **Add New Item** or **Add New Class** menu options.  

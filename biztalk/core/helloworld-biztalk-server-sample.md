@@ -36,7 +36,7 @@ The HelloWorld sample demonstrates how to use BizTalk orchestrations to convert 
  For more information about the **Transform** shape, see [How to Configure the Transform Shape](../core/how-to-configure-the-transform-shape.md). For more information about building a map, see [Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md).  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Orchestrations\HelloWorld\  
+ \<*Samples Path*\>\Orchestrations\HelloWorld\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -57,13 +57,13 @@ The HelloWorld sample demonstrates how to use BizTalk orchestrations to convert 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Orchestrations\HelloWorld  
+     \<*Samples Path*\>\Orchestrations\HelloWorld  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input (In) and output (Out) folders for this sample in the following folder:  
   
-         \<*Samples Path*>\Orchestrations\HelloWorld  
+         \<*Samples Path*\>\Orchestrations\HelloWorld  
   
     -   Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for this sample.  
   
@@ -80,7 +80,7 @@ The HelloWorld sample demonstrates how to use BizTalk orchestrations to convert 
   
 1.  Paste a copy of the file SamplePOInput.xml into the **In** folder.  
   
-2.  Observe the .xml file created in the **Out** folder. This file contains the XML invoice constructed from the input file SamplePOInput.xml. The format of the name of this file is \<*MessageID*>.xml, where *\<MessageID>* is the GUID generated to uniquely identify the message.  
+2.  Observe the .xml file created in the **Out** folder. This file contains the XML invoice constructed from the input file SamplePOInput.xml. The format of the name of this file is \<*MessageID*\>.xml, where *\<MessageID\>* is the GUID generated to uniquely identify the message.  
   
 ## Uninstalling This Sample  
   
@@ -88,7 +88,7 @@ The HelloWorld sample demonstrates how to use BizTalk orchestrations to convert 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Orchestrations\HelloWorld\  
+     \<*Samples Path*\>\Orchestrations\HelloWorld\  
   
 2.  Run Cleanup.bat.  
   

@@ -53,7 +53,7 @@ manager: "anneta"
   
  The Basic character set includes the following uppercase letters, digits, space, and special characters: A through Z, 0 through 9, ! “ & ’ ( ) * + , - . / : ; ? = (space).  
   
- The Extended character set includes the characters in the Basic character set, and lowercase letters, select language characters, and other special characters: a through z, % @ [ ] _ { } \ &#124; \< > ~ # $.  
+ The Extended character set includes the characters in the Basic character set, and lowercase letters, select language characters, and other special characters: a through z, % @ [ ] _ { } \ &#124; \< \> ~ # $.  
   
 ## See Also  
  [EDI Messaging](../core/edi-messaging.md)   

@@ -20,7 +20,7 @@ This section provides a centralized location for information related to troubles
 
 ## ReadMe
   
- Supplemental information related to issues discovered after this A4SWIFT documentation release is included in the Readme file located in the \<*drive:*>\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for SWIFT\Documentation folder.  
+ Supplemental information related to issues discovered after this A4SWIFT documentation release is included in the Readme file located in the \<*drive:*\>\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for SWIFT\Documentation folder.  
 
 ## Next steps  
  This section contains:  

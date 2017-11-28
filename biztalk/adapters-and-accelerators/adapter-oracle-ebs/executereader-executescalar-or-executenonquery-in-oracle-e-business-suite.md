@@ -169,30 +169,30 @@ The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssh
  The orchestration consumes the message and sends it to the Oracle database. The response from the Oracle database is saved at the other FILE location defined as part of the orchestration. The response for the **ExecuteReader** operation contains a result set as a DataSet. For example, the response from the Oracle database for the preceding request message is:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <ExecuteReaderResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/GenericOperation/">  
   <ExecuteReaderResult>  
-    \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-      \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-        \<xs:complexType>  
-          \<xs:sequence>  
-            \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
-                  \<xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
-                  \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-          \</xs:sequence>  
-        \</xs:complexType>  
-      \</xs:element>  
-    \</xs:schema>  
-    \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+    <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+      <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+        <xs:complexType>  
+          <xs:sequence>  
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
+                  <xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
+                  <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+          </xs:sequence>  
+        </xs:complexType>  
+      </xs:element>  
+    </xs:schema>  
+    <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
       <NewDataSet xmlns="">  
         <NewTable>  
           <TID>1</TID>   
@@ -209,7 +209,7 @@ The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssh
         ......  
         ......  
       </NewDataSet>  
-    \</diffgr:diffgram>  
+    </diffgr:diffgram>  
   </ExecuteReaderResult>  
 </ExecuteReaderResponse>  
 ```  

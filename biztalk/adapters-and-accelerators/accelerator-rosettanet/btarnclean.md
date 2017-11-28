@@ -32,7 +32,7 @@ You use the BtarnClean utility to clean [!INCLUDE[btsCoName](../../includes/btsc
 -   Undeploying all the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.BTARN.* assemblies  
   
 ## Location in SDK  
- \<*drive*>\Program Files\ Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK  
+ \<*drive*\>\Program Files\ Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK  
   
 ## Running BtarnClean  
   
@@ -40,7 +40,7 @@ You use the BtarnClean utility to clean [!INCLUDE[btsCoName](../../includes/btsc
   
 1.  Open a command prompt.  
   
-2.  Move to \<*drive*>\ Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\\.  
+2.  Move to \<*drive*\>\ Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
   
 3.  At the command prompt, type **BtarnClean**, and then press ENTER.  
   

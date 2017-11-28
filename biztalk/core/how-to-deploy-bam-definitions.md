@@ -32,7 +32,7 @@ Administrators use the **deploy-all** BAM Management utility command to deploy a
 >  We recommend that you verify the security of BAM Excel workbooks (.xls) before you deploy them. You use Excel on the administration computer to verify the security of BAM Excel workbooks. Before you deploy a workbook, open it and ensure the macro security is set to high, and that there are no warnings.  
   
 > [!IMPORTANT]
->  In BAM databases, the “BAM_\<...>” naming convention is reserved for all SQL entities (tables, indexes, stored procedures, roles, etc...). *Do not* use this naming convention to create any SQL entities; such a usage might result in an undefined behavior.  
+>  In BAM databases, the “BAM_\<...\>” naming convention is reserved for all SQL entities (tables, indexes, stored procedures, roles, etc...). *Do not* use this naming convention to create any SQL entities; such a usage might result in an undefined behavior.  
   
  Before you can deploy a BAM definition XML file, you must ensure that the locale used to create this file matches the locale of the computer on which you are deploying it. For example, if you create the file on a computer running a Japanese version of Microsoft Windows, the computer you deploy the file on must be set to the Japanese locale. If the file and the computer settings do not match, you must switch the computer you use to run the BAM Management utility to the correct locale and you must restart it before running the utility.  
   
@@ -45,9 +45,9 @@ Administrators use the **deploy-all** BAM Management utility command to deploy a
   
 1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to the tracking folder by typing **C:\Program Files\Microsoft BizTalk Server \<version>\Tracking** at the command prompt. Press **ENTER**.  
+2.  Navigate to the tracking folder by typing **C:\Program Files\Microsoft BizTalk Server \<version\>\Tracking** at the command prompt. Press **ENTER**.  
   
-3.  Type **bm deploy-all -DefinitionFile:\<BAM definition file>**.  
+3.  Type **bm deploy-all -DefinitionFile:\<BAM definition file\>**.  
   
 4.  Press **ENTER**.  
   

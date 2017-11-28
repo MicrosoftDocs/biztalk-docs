@@ -20,7 +20,7 @@ manager: "anneta"
 # Installation Error Message
 After you install Microsoft BizTalk Adapter for TIBCO Enterprise Message Service, defining a send or receive location for it might result in the following error:  
   
- The Messaging Engine failed to add a receive URL "\< send/receive location URL>" to the adapter "TIBCO EMS". Reason: "File or assembly name TIBCO.EMS, or one of its dependencies, was not found."  
+ The Messaging Engine failed to add a receive URL "\< send/receive location URL\>" to the adapter "TIBCO EMS". Reason: "File or assembly name TIBCO.EMS, or one of its dependencies, was not found."  
   
 ## Possible Causes  
  This error usually has one of the following causes.  
@@ -49,7 +49,7 @@ After you install Microsoft BizTalk Adapter for TIBCO Enterprise Message Service
   
      The file is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] directory (the default installation location is: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]).  
   
-2.  Add the following entry to the BTSNTSVC.exe.config file, as a child of the \<assemblyBinding> element:  
+2.  Add the following entry to the BTSNTSVC.exe.config file, as a child of the \<assemblyBinding\> element:  
   
 ```  
 <dependentAssembly>  
@@ -60,7 +60,7 @@ After you install Microsoft BizTalk Adapter for TIBCO Enterprise Message Service
 </dependentAssembly>  
 ```  
   
- If the BTSNTSVC.exe.config file has not been previously modified, the \<assemblyBinding> element would not look like this:  
+ If the BTSNTSVC.exe.config file has not been previously modified, the \<assemblyBinding\> element would not look like this:  
   
 ```  
 <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">  

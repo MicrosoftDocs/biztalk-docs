@@ -33,7 +33,7 @@ The SendMail sample demonstrates how you can use the Simple Mail Transfer Protoc
 4.  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration sends the constructed e-mail message through the SMTP adapter.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\AdaptersUsage\SendMail\  
+ \<*Samples Path*\>\AdaptersUsage\SendMail\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -50,13 +50,13 @@ The SendMail sample demonstrates how you can use the Simple Mail Transfer Protoc
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\AdaptersUsage\SendMail  
+     \<*Samples Path*\>\AdaptersUsage\SendMail  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the following input folder for this sample:  
   
-         \<*Samples Path*>\AdaptersUsage\SendMail\In  
+         \<*Samples Path*\>\AdaptersUsage\SendMail\In  
   
     -   Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for this sample.  
   

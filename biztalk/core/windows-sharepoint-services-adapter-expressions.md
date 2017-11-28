@@ -46,13 +46,13 @@ This topic describes the format and the meaning of the strings that can be speci
 |%MessageID%|The BizTalk message ID which is a unique GUID.|  
 |%SendingOrchestrationID%|The BizTalk ID of the orchestration instance where the message originated.|  
 |%SendingOrchestrationType%|The type name of the orchestration where the message originated.|  
-|%XPATH=\<xpath>%|Allows specifying an XPATH to be used for extracting the value from the message. “\<xpath>” must be replaced with a valid XPATH expression. **Note:**  The namespace alias must be defined outside the expression in the 'Namespace Aliases' or WSS.ConfigNamespaceAliases field.|  
+|%XPATH=\<xpath\>%|Allows specifying an XPATH to be used for extracting the value from the message. “\<xpath\>” must be replaced with a valid XPATH expression. **Note:**  The namespace alias must be defined outside the expression in the 'Namespace Aliases' or WSS.ConfigNamespaceAliases field.|  
 |%Filename%|Replaced with the filename value extracted from the message context property WSS.Filename. Messages received from SharePoint have the WSS.Filename context property value set to the name of the SharePoint file. The returned value is preprocessed using Path.GetFilenameWithoutExtension. **Note:**  This macro cannot be used in WSS.Config* context properties (from orchestration).|  
 |%Extension%|Replaced with the file extension value extracted from the message context property WSS.Filename. Messages received from SharePoint have the WSS.Filename context property value set to the name of the SharePoint file. The returned value is preprocessed using Path.GetExtension. The returned value will not contain ".". **Note:**  This macro cannot be used in WSS.Config* context properties (from orchestration).|  
   
  Any valid expression supported by property promotion is a valid design time file name. The design time file name will be expanded at runtime into Windows SharePoint Services file names. This Windows SharePoint Services file name has some additional limitations, which are described as follows:  
   
--   Valid Windows file names can contain any Unicode characters with the exception of the following: /  \  :  *  ?  \<  >  &#124;  "  #  {  }  %  &  ~ or tab characters and multiple periods.  
+-   Valid Windows file names can contain any Unicode characters with the exception of the following: /  \  :  *  ?  <  >  &#124;  "  #  {  }  %  &  ~ or tab characters and multiple periods.  
   
 -   The file name cannot be longer than 256 characters and the entire URL must be less than or equal to 256 characters.  
   

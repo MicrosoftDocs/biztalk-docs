@@ -42,7 +42,7 @@ You can enable the entire Enterprise Single Sign-On (SSO) system by using either
   
 1.  Click **Start**, click **Run**, and then type **cmd**.  
   
-2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive>**:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Type **ssomanage –enablesso**.  
   
@@ -55,7 +55,7 @@ You can enable the entire Enterprise Single Sign-On (SSO) system by using either
   
 2.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-3.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **ssomanage -enablesso** to enable the Enterprise Single Sign-On service.  
   
@@ -64,7 +64,7 @@ You can enable the entire Enterprise Single Sign-On (SSO) system by using either
   
 5.  Log on as an SSO affiliate administrator.  
   
-6.  Type **ssomanage -createapps *\<application file>*** to create an affiliate application, where \<application file> is the XML file that contains definitions for the affiliate applications.  
+6.  Type **ssomanage -createapps *\<application file\>*** to create an affiliate application, where \<application file\> is the XML file that contains definitions for the affiliate applications.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

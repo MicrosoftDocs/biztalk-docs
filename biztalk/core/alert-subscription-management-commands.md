@@ -32,16 +32,16 @@ The BAM management utility subscription management commands allow you to work wi
 ## get-subscription Command  
  **Usage**  
   
- **bm.exe get-subscriptions -View:\<view name> -Alert:\<alert name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe get-subscriptions -View:\<view name\> -Alert:\<alert name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view on which the alert is to be specified.|  
-|Alert:\<alert name>|The name of the alert from which to get the subscription.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view on which the alert is to be specified.|  
+|Alert:\<alert name\>|The name of the alert from which to get the subscription.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Lists all the subscribers to the specified alert.  
   
@@ -55,19 +55,19 @@ bm.exe get-subscriptions -View:Shipments -Alert:SlowShipment -Server:Ship1
 ## add-subscription Command  
  **Usage**  
   
- **bm.exe add-subscription -View:\<view name> -Alert:\<alert name> -AccountName:\<account name> -Type: [ File &#124; Email ][ -Email:\<e-mail address> ][ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe add-subscription -View:\<view name\> -Alert:\<alert name\> -AccountName:\<account name\> -Type: [ File &#124; Email ][ -Email:\<e-mail address\> ][ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view on which the alert is specified.|  
-|Alert:\<alert name>|The name of the alert to which to subscribe.|  
-|AccountName:\<account name>|The account, in domain\user format, to subscribe to the alert.|  
+|View:\<view name\>|The name of the view on which the alert is specified.|  
+|Alert:\<alert name\>|The name of the alert to which to subscribe.|  
+|AccountName:\<account name\>|The account, in domain\user format, to subscribe to the alert.|  
 |Type: [ File &#124; Email ]|The delivery type of the alert. If you specify a delivery type of e-mail, you must include the e-mail parameter on the command line.|  
-|Email:\<e-mail address>|Optional: The email address to which the alert notification will be delivered.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|Email:\<e-mail address\>|Optional: The email address to which the alert notification will be delivered.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Adds a subscription for the specified account to the specified alert.  
   
@@ -81,17 +81,17 @@ bm.exe add-subscription -View:v1 -Alert:a2 -AccountName:domain\user -Type:Email 
 ## remove-subscription Command  
  **Usage**  
   
- **bm.exe remove-subscription -View:\<view name> -Alert:\<alert name> -AccountName:\<account name>[ -Server:\<server> ][ -Database:\<database> ]**  
+ **bm.exe remove-subscription -View:\<view name\> -Alert:\<alert name\> -AccountName:\<account name\>[ -Server:\<server\> ][ -Database:\<database\> ]**  
   
  **Parameters**  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|View:\<view name>|The name of the view on which the alert is specified.|  
-|Alert:\<alert name>|The name of the alert.|  
-|AccountName:\<account name>|The account, in domain\user format, to remove from the alert.|  
-|Server:\<server>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
-|Database:\<database>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
+|View:\<view name\>|The name of the view on which the alert is specified.|  
+|Alert:\<alert name\>|The name of the alert.|  
+|AccountName:\<account name\>|The account, in domain\user format, to remove from the alert.|  
+|Server:\<server\>|Optional: The name of the server on which the view resides. The server must be in the same domain as the computer from which you are running bm.exe. If the server name is not specified, bm.exe uses the default name of localhost.|  
+|Database:\<database\>|Optional: The name of the database on which the view resides. If the name is not specified, bm.exe uses the default name BamPrimaryImport.|  
   
  Removes the subscription of the specified account from the specified alert. All subscriptions for the specified account are removed.  
   

@@ -40,7 +40,7 @@ This topic explains how to use the SelectiveBindingImport sample. You can use th
  This sample illustrates how to selectively import binding files from a network share by using a post-processing script contained in a BizTalk application .msi file.  
   
 ## Where to Find This Sample  
- You can find the following sample folders and files under *\<Samples Path>*\Application Deployment\SelectiveBindingImport:  
+ You can find the following sample folders and files under *\<Samples Path\>*\Application Deployment\SelectiveBindingImport:  
   
 -   Develop (Folder)  
   
@@ -65,7 +65,7 @@ This topic explains how to use the SelectiveBindingImport sample. You can use th
   
 ### To run the sample  
   
-1.  Run **Build.Bat from the *\<Samples Path>*\Application Deployment\CreateApp** directory. This creates the following files in the *\<Samples Path>*\Application Deployment\CreateApp\Dlls folder: Schemas.dll, Maps.dll, and Orchestrations.dll.  
+1.  Run **Build.Bat from the *\<Samples Path\>*\Application Deployment\CreateApp** directory. This creates the following files in the *\<Samples Path\>*\Application Deployment\CreateApp\Dlls folder: Schemas.dll, Maps.dll, and Orchestrations.dll.  
   
 2.  **Create the application.** In the BizTalk Server Administration console, create an application, as described in [How to Create an Application](../core/how-to-create-an-application.md).  
   

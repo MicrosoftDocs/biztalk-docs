@@ -27,7 +27,7 @@ You must install the BAM interceptor software and configure your application to 
   
 -   An interceptor configuration file must be created and deployed by using the BAM Manager command line-tool (bm.exe).  
   
--   The user running the host application must be a member of the appropriate BAM activity event writer (bam_\<activity>_EventWriter) SQL Server roles to enable the application to read the interceptor configuration information and write to the BAM activities.  
+-   The user running the host application must be a member of the appropriate BAM activity event writer (bam_\<activity\>_EventWriter) SQL Server roles to enable the application to read the interceptor configuration information and write to the BAM activities.  
   
 -   The App.config file or the application itself must be modified to load the BAM tracking service and then restart the application.  
   
@@ -46,9 +46,9 @@ You must install the BAM interceptor software and configure your application to 
   
 4.  Deploy the observation model by using bm.exe:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe deploy-all -definitionfile:\<*definitionfile.xml*>  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe deploy-all -definitionfile:\<*definitionfile.xml*\>  
   
-     Make sure you replace \<*definitionfile.xml*> with the name of the observation file you want to deploy. For more options see [Interceptor Management Commands](../core/interceptor-management-commands.md).  
+     Make sure you replace \<*definitionfile.xml*\> with the name of the observation file you want to deploy. For more options see [Interceptor Management Commands](../core/interceptor-management-commands.md).  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -68,9 +68,9 @@ You must install the BAM interceptor software and configure your application to 
   
 4.  Deploy the interceptor configuration file by using bm.exe:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe deploy-interceptor -filename:\<*icfile.xml*>  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe deploy-interceptor -filename:\<*icfile.xml*\>  
   
-     Make sure you replace \<*icfile.xml*> with the name of the interceptor configuration file you want to deploy.  
+     Make sure you replace \<*icfile.xml*\> with the name of the interceptor configuration file you want to deploy.  
   
     > [!NOTE]
     >  You can use the **-Force:True** flag to override existing event sources with the same name(s) as those in your interceptor configuration file. If you do so, make sure you back up the existing configuration by using the **get-interceptor** command. Using the -Force:True flag could delete any interceptor configurations that reference the event sources being overwritten.  

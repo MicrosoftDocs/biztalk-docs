@@ -227,7 +227,7 @@ We must authenticate with Salesforce while sending messages using the REST inter
   
     -   Create a class that derives from the `BehaviorExtensionElement`  
   
-    -   Register your BehavaiorExtensionElement in the \<extensions>\\<behaviorExtensions\> element in the machine.config using an element name.  
+    -   Register your BehavaiorExtensionElement in the \<extensions\>\\<behaviorExtensions\> element in the machine.config using an element name.  
   
      We’ll also add configuration properties to this class so that they are available from the WCF-WebHttp adapter configuration UI.  
   

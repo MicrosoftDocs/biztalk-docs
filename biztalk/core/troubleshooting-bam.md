@@ -20,7 +20,7 @@ This topic provides information to help you troubleshoot problems you might enco
 ## BAM deployment failed  
  If you attempt to deploy a BAM definition that includes a real-time aggregation (RTA) when SQL Server Analysis Services is not available, the Bm.exe command will display the following message:  
   
- ERROR: BAM deployment failed. A connection cannot be made. Ensure that the server is running. No connection could be made because the target machine actively refused it *\<IP address>*.  
+ ERROR: BAM deployment failed. A connection cannot be made. Ensure that the server is running. No connection could be made because the target machine actively refused it *\<IP address\>*.  
   
  This occurs because SQL Server Analysis Services must have been installed and configured, and must be running in order to deploy a BAM definition that includes an RTA.  
   
@@ -63,7 +63,7 @@ This topic provides information to help you troubleshoot problems you might enco
   
 2.  In the **User Account Control** dialog box, click **Continue**.  
   
-3.  In the Internet Explorer address bar, type `http://<server>/BAM`, where *\<server>* is the name of the computer that is running the BAM portal.  
+3.  In the Internet Explorer address bar, type `http://<server>/BAM`, where *\<server\>* is the name of the computer that is running the BAM portal.  
   
 ## BAM portal does not work if invalid users are granted permissions  
  If an AD user who has the BAM view permissions is removed from the AD, then the BAM portal does not load properly for any user (except DBO).  

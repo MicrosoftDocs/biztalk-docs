@@ -33,7 +33,7 @@ In this step, you prepare and submit a request using the Partner Interface Proce
     |**Pip Instance ID**|Type **3A2_Test**.|  
     |**Message Category**|Type **Action**.|  
   
-3.  Using Notepad or another text editor, open the file 3A2_Request.xml in the *\<drive>*:\ Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances folder, and then copy and paste the contents into the **Service Content** field in LOBWebApplication.  
+3.  Using Notepad or another text editor, open the file 3A2_Request.xml in the *\<drive\>*:\ Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances folder, and then copy and paste the contents into the **Service Content** field in LOBWebApplication.  
   
 4.  Click **Submit** to submit the 3A2 request to the Contoso computer.  
   
@@ -52,7 +52,7 @@ In this step, you prepare and submit a request using the Partner Interface Proce
   
 3.  In the Microsoft SQL Server Management Studio, click **New Query**.  
   
-4.  In the \<table> text box, select **BTARNDATA** from the list.  
+4.  In the \<table\> text box, select **BTARNDATA** from the list.  
   
 5.  In the SQL window, type the following SQL statement:  
   

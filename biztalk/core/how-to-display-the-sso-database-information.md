@@ -35,7 +35,7 @@ You can view SSO database information by using the MMC Snap-In or the command li
   
 1.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive>**:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Type **ssomanage –displaydb**.  
   
@@ -46,7 +46,7 @@ You can view SSO database information by using the MMC Snap-In or the command li
   
 1.  On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive>**:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Type **ssomanage –showdb**.  
   
@@ -57,9 +57,9 @@ You can view SSO database information by using the MMC Snap-In or the command li
   
 |Property|Value|  
 |--------------|-----------|  
-|SQL Server|**\<SQL Server name>**|  
-|Single Sign-On database|**\<SQL Server database name>**|  
-|Single Sign-On Secret Server name|**\<Single Sign-On Server name>**|  
+|SQL Server|**\<SQL Server name\>**|  
+|Single Sign-On database|**\<SQL Server database name\>**|  
+|Single Sign-On Secret Server name|**\<Single Sign-On Server name\>**|  
 |Single Sign-On Administrators account|Domain\account name|  
 |Single Sign-On Affiliate Administrators account|Domain\account name|  
 |Size of audit table for deleted applications (number of audit entries)|1,000 (default)|  

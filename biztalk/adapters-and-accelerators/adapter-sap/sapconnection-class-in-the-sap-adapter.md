@@ -39,7 +39,7 @@ The following section lists the methods and properties for the **SAPConnection**
 |**ChangeDatabase(string)**|Not supported.|  
 |**Close()**|Closes the connection to the SAP system.|  
 |**CreateCommand()**|Returns a new SAPCommand associated with this connection.|  
-|**GetSchema()**|Gets the list of discovered SAP tables. All discovered tables are available in an XML file SAPDiscoveredObjects.xml. The file is located at \<installation drive>:\Program Files\Common Files\Microsoft Shared\Adapters\SAP.|  
+|**GetSchema()**|Gets the list of discovered SAP tables. All discovered tables are available in an XML file SAPDiscoveredObjects.xml. The file is located at \<installation drive\>:\Program Files\Common Files\Microsoft Shared\Adapters\SAP.|  
 |**GetSchema(string)**|Gets schema based on collection name. Supports the collection name “Tables”.|  
   
 |Name|Description|  

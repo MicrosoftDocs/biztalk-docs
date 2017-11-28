@@ -32,13 +32,13 @@ In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
 1.  In Solution Explorer, select the map you want to save.  
   
-2.  On the **File** menu, click **Save *\<Name of Map>***.  
+2.  On the **File** menu, click **Save *\<Name of Map\>***.  
   
 ### To save a map to a new location  
   
 1.  In Solution Explorer, select the map you want to save to a new location.  
   
-2.  On the **File** menu, click **Save *\<Name of Map>* As**.  
+2.  On the **File** menu, click **Save *\<Name of Map\>* As**.  
   
 3.  In the **Save File As** dialog box, browse to the folder location where you want to save the map.  
   

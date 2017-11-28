@@ -1,8 +1,9 @@
 ---
-title: "What&#39;s New in BizTalk Server 2016 | Microsoft Docs"
+title: "What's New in BizTalk Server 2016 | Microsoft Docs"
+description: Changes and improvements, including feature packs, adapters, security, tracking, performance, and more in BizTalk Server 2016
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "06/08/2017"
+ms.date: "11/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,16 +14,17 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# What&#39;s New in BizTalk Server 2016
+# What's New in BizTalk Server 2016
 Read about what's new in [!INCLUDE[bts2016](../includes/bts2016-md.md)]. 
   
-## What's New in BizTalk Server 2016  
+## New in BizTalk Server 2016  
   
 |Feature|Description|  
 |-------------|-----------------|  
 |Support for newer platforms|[!INCLUDE[bts2016](../includes/bts2016-md.md)] adds support for the following Microsoft platforms:<br /><br /> -   Visual Studio 2015<br />-   Windows Server 2016<br />-   [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]<br />-   Office 2016<br/><br/>[Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)|  
+| Feature Pack 2 | Improvements include closer integration with API Management, an Azure Event Hubs adapter, backup to Azure blob storage account, support for Service Bus partitions, and more. <br/><br/>[Install the feature pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[See what's included, and configure its features](../core/configure-the-feature-pack.md) |
 | Feature Pack 1 | Includes support for automatic deployment using VSTS, send tracking data to Azure Application Insights and Power BI, advanced scheduling options on receive locations, and more.<br/><br/>[Install the feature pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[See what's included, and configure its features](../core/configure-the-feature-pack.md) |
-|[!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)] AlwaysOn Availability Groups|Support includes:<br /><br /> -   Using on-premises and in [!INCLUDE[winazure](../includes/winazure-md.md)] IaaS virtual machines<br />-   Using for  production workloads<br />-   Provides a high available (HA) solution in [!INCLUDE[winazure](../includes/winazure-md.md)] <br/><br/>[High Availability using SQL Server AlwaysOn](../core/high-availability-using-sql-server-always-on-availability-groups.md)<br/><br/> See [distributed transactions for Always On AG](https://msdn.microsoft.com/library/ms366279.aspx) (in the SQL Server documentation) for any SQL-specific requirements and features.|  
+|[!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)] AlwaysOn Availability Groups|Support includes:<br /><br /> -   Using on-premises and in [!INCLUDE[winazure](../includes/winazure-md.md)] IaaS virtual machines<br />-   Using for  production workloads<br />-   Provides a high available (HA) solution in [!INCLUDE[winazure](../includes/winazure-md.md)] <br/><br/>[High Availability using SQL Server AlwaysOn](../core/high-availability-using-sql-server-always-on-availability-groups.md)<br/><br/> See [distributed transactions for Always On AG](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring) for any SQL-specific requirements and features.|  
 |[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Azure VMs in production|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Azure virtual machines are now fully supported for production environments. Using [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)] AlwaysOn, a highly available solution is now possible.<br/><br/>[High Availability using SQL Server AlwaysOn](../core/high-availability-using-sql-server-always-on-availability-groups.md)|  
 |Logic App adapter|Connect to your Logic Apps hosted in Azure, and get access to all the connectors including Salesforce, SharePoint, CRM Online, and more. For example, you can receive an order in BizTalk Server, connect to your Logic App, and update Salesforce.<br/><br/>[Logic App adapter](../core/logic-app-adapter.md)|  
 | File adapter | Connect to an Azure storage file share. You can receive files from the Azure file share, and send messages to an Azure file share. <br/><br/>[Configure the File adapter](../core/configure-the-file-adapter.md)|
@@ -39,7 +41,7 @@ Read about what's new in [!INCLUDE[bts2016](../includes/bts2016-md.md)].
 |BizTalk Administration|In addition to a more modern look and feel, some additional changes include:<br /><br /> -   Configure the settings for multiple hosts/host instances simultaneously. For example, you can set the .NET CLR settings for multiple host instances simultaneously.<br />-   Use the new Search feature to filter and find artifacts in your application, such as schemas, resources, and more.<br />-   When troubleshooting suspended messages, you can save multiple suspended messages simultaneously to a file.<br /><br />[Using the BizTalk Server Administration console](../core/using-the-biztalk-server-administration-console.md)|  
 |Additional updates|<ul><li>The [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../includes/hl7-currentversion-firstref-md.md)] starts the connection to a Line of Business server (LOB), and pushes messages over the connection. The LOB waits for the connection, and then sends the messages. <br/><br/>In previous [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versions, the HL7 MLLP receive adapter waits for the LOB server to connect to HL7, and then send messages. The LOB connects to HL7, and then sends messages. </li><br/><li>Office web components (OWC) is now optional in the installation, and listed separately in Programs</li><br/><li>The orchestration instance ID is added to the XLANG FireEvent trace output</li></ul>|   
   
-### Deprecated & Removed List  
+## Deprecated & Removed List  
   
 |Program|Status|Replacement|  
 |-------------|------------|-----------------|  
@@ -53,5 +55,10 @@ Read about what's new in [!INCLUDE[bts2016](../includes/bts2016-md.md)].
 > [!IMPORTANT]
 >  Some of these deprecated features may be found in newer versions of BizTalk. In these scenarios, consider the following:  
 >   
->  -   The feature may be used internally within BizTalk and is not meant to be used by customer solutions. It is not supported in customer solutions.  
-> -   The interfaces may have been modified by Microsoft and may not be publicly available.
+> -   The feature may be used internally within BizTalk, and is not meant to be used by customer solutions. It is not supported in customer solutions.  
+> -   The interfaces may have been modified by Microsoft, and may not be publicly available.
+
+## Next steps
+[Hardware & software requirements](hardware-and-software-requirements-for-biztalk-server-2016.md)  
+[Setup & install prerequisites](set-up-and-install-prerequisites-for-biztalk-server-2016.md)  
+[Install BizTalk](install-biztalk-server-2016.md)

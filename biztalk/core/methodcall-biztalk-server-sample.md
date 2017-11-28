@@ -59,7 +59,7 @@ The MethodCall sample demonstrates how to call a .NET-based method from a BizTal
     ```  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Orchestrations\MethodCall\  
+ \<*Samples Path*\>\Orchestrations\MethodCall\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -80,7 +80,7 @@ The MethodCall sample demonstrates how to call a .NET-based method from a BizTal
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Orchestrations\MethodCall  
+     \<*Samples Path*\>\Orchestrations\MethodCall  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -101,7 +101,7 @@ The MethodCall sample demonstrates how to call a .NET-based method from a BizTal
   
 1.  Paste a copy of the file Input.xml into the In folder.  
   
-2.  Observe the .xml file created in the Out folder. This file contains the result of the requested addition or subtraction calculation. The format of the name of this file is \<*MessageID*>.xml, where *\<MessageID>* is the GUID generated to uniquely identify the message.  
+2.  Observe the .xml file created in the Out folder. This file contains the result of the requested addition or subtraction calculation. The format of the name of this file is \<*MessageID*\>.xml, where *\<MessageID\>* is the GUID generated to uniquely identify the message.  
   
 3.  You can modify the input file to request different addition or subtraction calculations.  
   
@@ -109,7 +109,7 @@ The MethodCall sample demonstrates how to call a .NET-based method from a BizTal
   
 #### To uninstall the MethodCall sample  
   
-1.  At a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to \<*Samples Path*>\Orchestrations\MethodCall\\.  
+1.  At a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to \<*Samples Path*\>\Orchestrations\MethodCall\\.  
   
 2.  Run Cleanup.bat.  
   

@@ -24,15 +24,15 @@ You must deploy the BRE rules used by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../
   
  Publish the following vocabularies:  
   
--   A4SWIFT_CodeLists.xml and A4SWIFT_Functions.xml vocabularies. These are located in *\<drive>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies\Vocabulary. Publish and deploy these using the BRE Deployment Utility.  
+-   A4SWIFT_CodeLists.xml and A4SWIFT_Functions.xml vocabularies. These are located in *\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies\Vocabulary. Publish and deploy these using the BRE Deployment Utility.  
   
  Publish and deploy the following policies:  
   
--   SWIFT base policies for message schema, including SWIFT_Reference_Policy.xml, SWIFT_PartyIdentifier_Policy.xml, and network rule policies (SWIFT_NetworkRulexxx_Policy.xml) for deployed schemas. These are located in \<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies. Publish and deploy these using the BRE Deployment Utility.  
+-   SWIFT base policies for message schema, including SWIFT_Reference_Policy.xml, SWIFT_PartyIdentifier_Policy.xml, and network rule policies (SWIFT_NetworkRulexxx_Policy.xml) for deployed schemas. These are located in \<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies. Publish and deploy these using the BRE Deployment Utility.  
   
--   Master and validation policies associated with deployed message schemas (MTxxx_Master_Policy.xml and MTxxx_Validation_Policy.xml). These are located in \<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Category 1\MTxxx. Publish and deploy these using the BRE Deployment Utility.  
+-   Master and validation policies associated with deployed message schemas (MTxxx_Master_Policy.xml and MTxxx_Validation_Policy.xml). These are located in \<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Category 1\MTxxx. Publish and deploy these using the BRE Deployment Utility.  
   
--   Master and validation policies associated with BIC validation (BIC_Master_Policy.xml and BIC_Validation_Policy.xml), if BIC validation is required. These are located in \<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies. Before publishing and deploying these policies, you must customize BIC_Master_Policy.xml with the names of the SQL Server, the BIC database name, and integrated security value. For more information, see [Enabling Validation of Bank Identifier Codes](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md). Publish and deploy these using the Rules Engine Deployment Wizard.  
+-   Master and validation policies associated with BIC validation (BIC_Master_Policy.xml and BIC_Validation_Policy.xml), if BIC validation is required. These are located in \<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies. Before publishing and deploying these policies, you must customize BIC_Master_Policy.xml with the names of the SQL Server, the BIC database name, and integrated security value. For more information, see [Enabling Validation of Bank Identifier Codes](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md). Publish and deploy these using the Rules Engine Deployment Wizard.  
   
 ### To deploy BRE rules  
   
@@ -46,7 +46,7 @@ You must deploy the BRE rules used by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../
   
 2.  Customize BIC_Master_Policy.xml with the names of the SQL server, the BIC database name, and integrated security value. For more information, see [Enabling Validation of Bank Identifier Codes](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md).  
   
-3.  Run the Rules Engine Deployment Wizard to publish and deploy BIC_Master_Policy.xml and   BIC_Validation_Policy.xml (in \<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies). For more information, see "Deploying BRE Rules One at a Time" below.  
+3.  Run the Rules Engine Deployment Wizard to publish and deploy BIC_Master_Policy.xml and   BIC_Validation_Policy.xml (in \<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies). For more information, see "Deploying BRE Rules One at a Time" below.  
   
 ## Tools for Deploying the Policies  
  The easiest way to publish the vocabularies and deploy the policies is by using the Business Rule Engine (BRE) Deployment Utility in the A4SWIFT Software Development Kit (SDK). You can also do so by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Rule Engine Deployment Wizard, which performs the same task one vocabulary or policy at a time.  
@@ -75,7 +75,7 @@ You must deploy the BRE rules used by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../
   
 5.  Close the BRE Deployment Utility dialog box.  
   
-6.  Open [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer. Browse to \<*drive*>:\Documents and Settings\All Users\Application Data, and confirm that the log file BREDeploymentLog.txt appears in that drive.  
+6.  Open [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer. Browse to \<*drive*\>:\Documents and Settings\All Users\Application Data, and confirm that the log file BREDeploymentLog.txt appears in that drive.  
   
 7.  Restart the Rule Engine Update Service. Do so by clicking **Start**, clicking **Run**, entering **services.msc**, and clicking **OK**. In the **Services (Local)** window, right-click **Rule Engine Update Service**, and then click **Restart**.  
   
@@ -96,11 +96,11 @@ You must deploy the BRE rules used by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../
   
 6.  On the Import Policy from file page, in the **Look in** drop-down list, move to one of the following folders, depending upon the vocabulary or policy:  
   
-    -   \<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies\Vocabulary for A4SWIFT_CodeLists.xml and A4SWIFT_Functions.xml  
+    -   \<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies\Vocabulary for A4SWIFT_CodeLists.xml and A4SWIFT_Functions.xml  
   
-    -   \<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Policies for SWIFT_Reference_Policy.xml, SWIFT_PartyIdentifier_Policy.xml, network rule policies, BIC_Master_Policy.xml, and BIC_Validation_Policy.xml  
+    -   \<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Policies for SWIFT_Reference_Policy.xml, SWIFT_PartyIdentifier_Policy.xml, network rule policies, BIC_Master_Policy.xml, and BIC_Validation_Policy.xml  
   
-    -   \<drive>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version>\Category 1\MTxxx for the master and validation policies associated with deployed message schemas  
+    -   \<drive\>:\Program Files\ Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\SWIFT Messages\A4SWIFT-SRG\<version\>\Category 1\MTxxx for the master and validation policies associated with deployed message schemas  
   
 7.  Select the policy that you want to deploy, and then click **Open**.  
   

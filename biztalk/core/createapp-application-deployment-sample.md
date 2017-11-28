@@ -72,7 +72,7 @@ This topic explains how to use the CreateApp sample, which demonstrates using th
          C:\ScriptLog.txt  
   
 ## Where to Find This Sample  
- You can find the sample files in the following folders under *\<Samples Path>*\Application Deployment\\:  
+ You can find the sample files in the following folders under *\<Samples Path\>*\Application Deployment\\:  
   
 -   CreateApp (Folder)  
   

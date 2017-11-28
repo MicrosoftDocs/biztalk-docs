@@ -34,7 +34,7 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld logs error, warning, and infor
   
      For the consumer application to be able to read the event in the .etl file, Event Tracing for Windows must dump them into that file. Normally this is done when the controller deactivates the tracing.  
   
-     To use the consumer application without deactivating the trace, the controller must activate the trace with the real-time option, **\<Real time> = -rt**.  
+     To use the consumer application without deactivating the trace, the controller must activate the trace with the real-time option, **\<Real time\> = -rt**.  
   
 -   **Provider.** Provides the event.  
   
@@ -42,15 +42,15 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld logs error, warning, and infor
   
  BizTalk Adapter for JD Edwards OneWorld has five providers, allowing you to log different kinds of messages:  
   
--   **Receiver Logging Provider.** The \<Trace element> switch is **-receiver**.  
+-   **Receiver Logging Provider.** The \<Trace element\> switch is **-receiver**.  
   
--   **Receiver CastDetails Provider.** The \<Trace element> switch is **-castDetailsReceive**.  
+-   **Receiver CastDetails Provider.** The \<Trace element\> switch is **-castDetailsReceive**.  
   
--   **Transmitter Logging Provider.** The \<Trace element> switch is **-transmitter**.  
+-   **Transmitter Logging Provider.** The \<Trace element\> switch is **-transmitter**.  
   
--   **Transmitter CastDetails Provider.** The \<Trace element> switch is **-castDetailsTransmit**.  
+-   **Transmitter CastDetails Provider.** The \<Trace element\> switch is **-castDetailsTransmit**.  
   
--   **Management Logging Provider.** The \<Trace element> switch is **-management**.  
+-   **Management Logging Provider.** The \<Trace element\> switch is **-management**.  
   
  BTAJDEOneWorldTrace Command  
   
@@ -64,7 +64,7 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
  Where:  
   
--   **\<Trace element>** (required) is the kind of provider.  
+-   **\<Trace element\>** (required) is the kind of provider.  
   
 -   Its options are:  
   
@@ -80,9 +80,9 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
     -   **-start, -stop**: Activate or deactivate the provider.  
   
-    -   **-cir \<MB>**: Size and kind of file. -cir is a circular file. \<MB>: Size in meg.  
+    -   **-cir \<MB\>**: Size and kind of file. -cir is a circular file. \<MB\>: Size in meg.  
   
-    -   **-seq \<MB>**: Size and kind of file. -seq is a sequential file. \<MB>: Size in meg.  
+    -   **-seq \<MB\>**: Size and kind of file. -seq is a sequential file. \<MB\>: Size in meg.  
   
     -   **-rt**: Set the real time mode on.  
   

@@ -112,7 +112,7 @@ You can use this procedure to move the BAM Primary Import database to another se
   
 ###  <a name="BKMK_Config"></a> To update the Web.config file for the BAM portal  
   
-1.  On a computer running [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], update the Web.config files under **\<drive>:\Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMManagementService\Web.Config**. Update the server and database names in the following section in the Web.config:  
+1.  On a computer running [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], update the Web.config files under **\<drive\>:\Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMManagementService\Web.Config**. Update the server and database names in the following section in the Web.config:  
   
     ```  
     <appSettings>  
@@ -121,7 +121,7 @@ You can use this procedure to move the BAM Primary Import database to another se
     </appSettings>  
     ```  
   
-2.  On a computer running [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], update the Web.config files under **\<drive>:\Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMQueryService\Web.Config**. Update the server and database names in the following section in the Web.config:  
+2.  On a computer running [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], update the Web.config files under **\<drive\>:\Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMQueryService\Web.Config**. Update the server and database names in the following section in the Web.config:  
   
     ```  
     <appSettings>  

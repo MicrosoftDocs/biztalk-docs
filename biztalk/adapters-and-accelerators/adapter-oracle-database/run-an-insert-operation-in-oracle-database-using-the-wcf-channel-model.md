@@ -27,9 +27,9 @@ This section shows how to insert a record into an Oracle database by using a cha
  The following XML shows a message body for an Insert operation on the HR.EMPLOYEES table. The record set consists of a single employee record. For more information about the schema of an Insert message, see [Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md). This is the contents of the Employee_Insert.xml file used in the example.  
   
 ```  
-\<!-- New namespace: http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES -->  
+<!-- New namespace: http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES -->  
 <Insert xmlns="http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES">  
-    \<RECORDSET xmlns:i="http://www.w3.org/2001/XMLSchema-instance">  
+    <RECORDSET xmlns:i="http://www.w3.org/2001/XMLSchema-instance">  
         <EMPLOYEESRECORDINSERT>  
             <EMPLOYEE_ID>0</EMPLOYEE_ID>  
             <FIRST_NAME>Anton</FIRST_NAME>  

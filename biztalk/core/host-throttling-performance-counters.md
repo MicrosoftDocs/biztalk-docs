@@ -71,7 +71,7 @@ This section describes the performance monitor counters that measure system para
   
 3.  In the **Add Counters** dialog box, from the **Available Counters** list, expand the **BizTalk:Message Agent** performance counter object and select the counters to be monitored.  
   
-4.  In the **Instances of Selected object** list, select the specific instances to be monitored for the selected counters and then click **Add**.  To select all available counter instances, select \<**All instances**>.  
+4.  In the **Instances of Selected object** list, select the specific instances to be monitored for the selected counters and then click **Add**.  To select all available counter instances, select \<**All instances**\>.  
   
 5.  After adding the counters, click **OK**.  
   

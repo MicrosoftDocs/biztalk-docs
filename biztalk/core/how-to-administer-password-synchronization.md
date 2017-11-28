@@ -79,7 +79,7 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Type **ssops -list** and press Enter.  
   
@@ -91,9 +91,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -display \<adapter name>** and press Enter.  
+4.  Type **ssops -display \<adapter name\>** and press Enter.  
   
      The screen output will display information for the specified adapter.  
   
@@ -126,9 +126,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -create \<adapter file>** and press Enter.  
+4.  Type **ssops -create \<adapter file\>** and press Enter.  
   
      The screen output will display information for the newly created adapter.  
   
@@ -138,9 +138,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -setprops \<adapter name>** and press Enter.  
+4.  Type **ssops -setprops \<adapter name\>** and press Enter.  
   
      The screen output will display the properties for the specified adapter. You can edit them if necessary, but new values are not validated.  
   
@@ -150,9 +150,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -update \<adapter file>** and press Enter.  
+4.  Type **ssops -update \<adapter file\>** and press Enter.  
   
      Use this command to update the settings and flags for a specified adapter. Do not use this command to set properties; use instead the -setprops command.  
   
@@ -162,9 +162,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -delete \<adapter name>** and press Enter.  
+4.  Type **ssops -delete \<adapter name\>** and press Enter.  
   
      The specified adapter will be deleted.  
   
@@ -174,9 +174,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -enable \<adapter name>** and press Enter.  
+4.  Type **ssops -enable \<adapter name\>** and press Enter.  
   
      The specified adapter will be enabled.  
   
@@ -186,9 +186,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -disable \<adapter name>** and press Enter.  
+4.  Type **ssops -disable \<adapter name\>** and press Enter.  
   
      The specified adapter will be disabled.  
   
@@ -198,9 +198,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -addapp \<adapter name> \<application name>** and press Enter.  
+4.  Type **ssops -addapp \<adapter name\> \<application name\>** and press Enter.  
   
      The specified SSO application will be assigned to the specified adapter. This means that the passwords for the mappings in that application will now be synchronized using this adapter.  
   
@@ -212,9 +212,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -deleteapp \<application name>** and press Enter.  
+4.  Type **ssops -deleteapp \<application name\>** and press Enter.  
   
      The specified SSO application will be removed from an adapter. (Since an application can only be assigned to one adapter, it is not necessary to specify the adapter name.)  
   
@@ -224,9 +224,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -reset \<adapter name &#124; all &#124; damping>** and press Enter.  
+4.  Type **ssops -reset \<adapter name &#124; all &#124; damping\>** and press Enter.  
   
      This command clears the damping table and/or notification queues for a single adapter or all adapters, as specified. The damping table stores a 10-minute history of password changes. Before the Enterprise SSO system accepts or sends a password change, it checks the damping table to see if it has performed the same change recently. If it has, the new change is discarded.  
   
@@ -236,9 +236,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -addtogroup \<adapter name> \<adapter group>** and press Enter.  
+4.  Type **ssops -addtogroup \<adapter name\> \<adapter group\>** and press Enter.  
   
      This command adds the specified adapter to the specified adapter group. While an adapter can belong to only one adapter group, an adapter group can contain multiple adapters.  
   
@@ -248,9 +248,9 @@ You can administer Password Synchronization through either the MMC Snap-In or th
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssops -deletefromgroup \<adapter name> \<adapter group>** and press Enter.  
+4.  Type **ssops -deletefromgroup \<adapter name\> \<adapter group\>** and press Enter.  
   
      This command deletes the specified adapter from the specified adapter group.  
   

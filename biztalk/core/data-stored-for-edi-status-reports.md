@@ -61,8 +61,8 @@ Two levels of reporting are available in EDI status reporting: the first if the 
 |||  
 |-|-|  
 |Information|Field or Value|  
-|ApplicationSender|(GS02 or \<UNG2.1(UNG2.2)>|  
-|ApplicationReceiver|GS03 or \<UNG3.1(UNG3.2)>|  
+|ApplicationSender|(GS02 or \<UNG2.1(UNG2.2)\>|  
+|ApplicationReceiver|GS03 or \<UNG3.1(UNG3.2)\>|  
 |GroupDate|GS04 or UNG2.4|  
 |GroupTime|GS05 or UNG2.5|  
 |TransactionSetId|ST01 or  UNH2.1 (AN string)|  

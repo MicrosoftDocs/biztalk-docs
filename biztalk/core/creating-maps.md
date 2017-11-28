@@ -53,4 +53,4 @@ The primary user interface for BizTalk Mapper is displayed on a tab within the [
   
 -   [How to Create a Map without Maps](../core/how-to-create-a-map-without-maps.md)  
   
--   [Managing Default Mapper Behavior Using \<mapsource>](../core/managing-default-mapper-behavior-using-mapsource.md)
+-   [Managing Default Mapper Behavior Using \<mapsource\>](../core/managing-default-mapper-behavior-using-mapsource.md)

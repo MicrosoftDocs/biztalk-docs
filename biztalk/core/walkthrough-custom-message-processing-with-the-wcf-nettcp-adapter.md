@@ -69,7 +69,7 @@ In this walkthrough a [!INCLUDE[firstref_btsWinCommFoundation](../includes/first
   
     4.  On the **Security** tab, set the **Security mode** to **None.**  
   
-    5.  On the **Message** tab, select the **Path** option for the **Inbound BizTalk message body**, and enter `/*[local-name()="SendPicture" and namespace-uri()='http://tempuri.org/']/*[local-name()="stream"]` for the body path expression. Select **Base64** as the **Node Encoding**. The **Path** option is set to value because the body of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives is in the following format: **\<SendPicture xmlns="http://tempuri.org/">\<stream>*actual base 64 encoded binary image data*\</stream>\</SendPicture>**  
+    5.  On the **Message** tab, select the **Path** option for the **Inbound BizTalk message body**, and enter `/*[local-name()="SendPicture" and namespace-uri()='http://tempuri.org/']/*[local-name()="stream"]` for the body path expression. Select **Base64** as the **Node Encoding**. The **Path** option is set to value because the body of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives is in the following format: **\<SendPicture xmlns="http://tempuri.org/"\>\<stream\>*actual base 64 encoded binary image data*\</stream\>\</SendPicture\>**  
   
     6.  In the **Receive Location Properties** dialog box, click **OK**.  
   

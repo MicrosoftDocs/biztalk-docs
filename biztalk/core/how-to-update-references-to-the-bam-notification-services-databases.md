@@ -55,7 +55,7 @@ After you perform the steps necessary to restore the Business Activity Monitorin
   
 4.  Open the xml file created in step 2 to obtain the list of the computers on which you must re-register Notification Services.  
   
-     The computer names are listed in the **\<Property Name\=>** parameters in the **\<DeploymentUnit Name="Alert">** section of the xml file:  
+     The computer names are listed in the **\<Property Name\=\>** parameters in the **\<DeploymentUnit Name="Alert"\>** section of the xml file:  
   
     ```  
     -<DeploymentUnit Name="Alert">  
@@ -81,7 +81,7 @@ After you perform the steps necessary to restore the Business Activity Monitorin
   
     1.  Click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
   
-    2.  At the command prompt, type: **nscontrol register -name BamAlerts -server** *\<ServerName>***-service -serviceusername "***\<ServiceUserName>***" -servicepassword "***\<ServicePassword>***"**  
+    2.  At the command prompt, type: **nscontrol register -name BamAlerts -server** *\<ServerName\>***-service -serviceusername "***\<ServiceUserName\>***" -servicepassword "***\<ServicePassword\>***"**  
   
          This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service machine by nscontrol).  
   
@@ -100,7 +100,7 @@ After you perform the steps necessary to restore the Business Activity Monitorin
   
 10. At the command prompt, type:  
   
-     **nscontrol register  -name**  *\<BamAlerts>*  **-server** *\<NotificationServicesDatabaseServer>*  
+     **nscontrol register  -name**  *\<BamAlerts\>*  **-server** *\<NotificationServicesDatabaseServer\>*  
   
 11. At the command prompt, type: **net start NS$BamAlerts**.  
   

@@ -32,7 +32,7 @@ The Orchestration View window enables you to manage an orchestration's propertie
 3.  Associate the variable with a type, such as a .NET class.  
   
     > [!NOTE]
-    >  The **Types** drop-down list contains the following predefined variable types: **boolean**, **byte**, **datetime**, **decimal**, **double**, **int16**, **int32**, **int64**, **sbyte**, **single**, **string**, **timespan**, **uint16**, **uint32**, and **uint64**. You can also access .NET data types and classes by selecting **\<.NET Class...>**, which brings up the **Select Artifact Type** dialog box.  
+    >  The **Types** drop-down list contains the following predefined variable types: **boolean**, **byte**, **datetime**, **decimal**, **double**, **int16**, **int32**, **int64**, **sbyte**, **single**, **string**, **timespan**, **uint16**, **uint32**, and **uint64**. You can also access .NET data types and classes by selecting **\<.NET Class...\>**, which brings up the **Select Artifact Type** dialog box.  
   
 4.  If you select a predefined variable type, you have the option of specifying an initial value for the variable. In the Properties window, set the **Initial Value** property.  
   

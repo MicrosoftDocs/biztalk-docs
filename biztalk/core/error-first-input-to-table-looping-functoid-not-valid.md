@@ -27,7 +27,7 @@ manager: "anneta"
   
  **User Action**  
   
- Ensure that the input parameters to the **Table Looping** functoid, as accessed through the **Input Parameters** property and the **Configure \<Functoid> Functoid** dialog box, are as shown in the following table.  
+ Ensure that the input parameters to the **Table Looping** functoid, as accessed through the **Input Parameters** property and the **Configure \<Functoid\> Functoid** dialog box, are as shown in the following table.  
   
 |Table Looping functoid input parameter number|Description|  
 |---------------------------------------------------|-----------------|  

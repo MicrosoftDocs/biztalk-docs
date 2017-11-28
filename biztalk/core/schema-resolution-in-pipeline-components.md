@@ -31,7 +31,7 @@ Pipeline disassembler and assembler components use XSD schemas to process messag
 </ns0:MyDocument>  
 ```  
   
- If a schema does not have a namespace defined for it, the message type is "\<**rootNode**>". For example, if the preceding example XML had no namespace, the message type would be "MyDocument".  
+ If a schema does not have a namespace defined for it, the message type is "\<**rootNode**\>". For example, if the preceding example XML had no namespace, the message type would be "MyDocument".  
   
  Standard pipeline components use the message type to retrieve the appropriate schema from the database. Default XML receive and send pipelines always determine which schema to load by using the message type dynamically discovered at runtime from the message XML content (unless the pipeline component is set to allow unrecognized messages). The XML Disassembler can remove the message envelope by using this mechanism; however, the XML Assembler cannot create an envelope for an outgoing message without knowing what envelope schema to use.  
   

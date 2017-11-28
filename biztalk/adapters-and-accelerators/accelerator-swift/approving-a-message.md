@@ -26,9 +26,9 @@ This section describes how to approve a message that has been repaired and verif
   
 2.  In the Home window, click **Documents**.  
   
-3.  In the Documents window, under **Document Libraries**, click **\<*Department name*>_Approver**.  
+3.  In the Documents window, under **Document Libraries**, click **\<*Department name*\>_Approver**.  
   
-4.  In the \<Department name>_Approver window, click **Inbox**.  
+4.  In the \<Department name\>_Approver window, click **Inbox**.  
   
 5.  In the Inbox window, point to the title of the message, click the arrow to the right of the message title, and then click **Edit in Microsoft Office InfoPath**.  
   

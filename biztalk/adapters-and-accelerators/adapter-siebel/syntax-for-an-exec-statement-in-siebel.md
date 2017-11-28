@@ -23,13 +23,13 @@ Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshor
 ```  
 EXEC  
 <Business Service name>.<Business Service method>  
-\<value 1..n>,  
+<value 1..n>,  
 @parameter 1..n [OUTPUT],  
 @parameter 1..n = <value>  
   
 ```  
   
- In the preceding syntax, `\<value 1..n>` represents a set of unnamed parameters. These are hard-coded values. They usually represent IN parameters.  They can also represent INOUT parameters. However, if a hard-coded value is used for an INOUT parameter, the output value associated with that parameter cannot be retrieved after the EXEC statement is executed.  
+ In the preceding syntax, `\<value 1..n\>` represents a set of unnamed parameters. These are hard-coded values. They usually represent IN parameters.  They can also represent INOUT parameters. However, if a hard-coded value is used for an INOUT parameter, the output value associated with that parameter cannot be retrieved after the EXEC statement is executed.  
   
  The `@parameter 1..n` syntax represents a set of named parameters, which can be IN, INOUT, or OUT parameters. The output parameters must be followed by the **OUTPUT** keyword.  
   

@@ -56,9 +56,9 @@ Before you can recover BizTalk Server, you must first recover Enterprise Single 
   
 10. At the command prompt, type:  
   
-     **ssoconfig -restoreSecret**  *\<backupfile>*  
+     **ssoconfig -restoreSecret**  *\<backupfile\>*  
   
-     where *\<backupfile>* is the name of the master secret file that you backed up.  
+     where *\<backupfile\>* is the name of the master secret file that you backed up.  
   
      When **ssoconfig** prompts you for the backup file password, enter the password that was specified during SSO configuration. If the password is correct, **ssoconfig** displays the following message:  
   

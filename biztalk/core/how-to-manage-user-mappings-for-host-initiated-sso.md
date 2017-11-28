@@ -36,9 +36,9 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage –createmappings \<mapping file>**, where **mapping file>** is the name of the xml file.  
+4.  Type **ssomanage –createmappings \<mapping file\>**, where **mapping file>** is the name of the xml file.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -65,9 +65,9 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -setcredentials \<Windows account name> \<application name>**.  
+4.  Type **ssomanage -setcredentials \<Windows account name\> \<application name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -78,9 +78,9 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -setcredentials \<external account name> \<application name>**.  
+4.  Type **ssomanage -setcredentials \<external account name\> \<application name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -91,9 +91,9 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -enablemapping \<Windows account name> \<application name>**.  
+4.  Type **ssomanage -enablemapping \<Windows account name\> \<application name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -104,9 +104,9 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -disablemapping \<Windows account name> \<application name>**.  
+4.  Type **ssomanage -disablemapping \<Windows account name\> \<application name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -117,9 +117,9 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -enablemapping \<external account name> \<application name>**.  
+4.  Type **ssomanage -enablemapping \<external account name\> \<application name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -130,9 +130,9 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -disablemapping \<external account name> \<application name>**.  
+4.  Type **ssomanage -disablemapping \<external account name\> \<application name\>**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

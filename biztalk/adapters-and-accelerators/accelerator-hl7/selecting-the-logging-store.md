@@ -28,7 +28,7 @@ manager: "anneta"
   
 ### To open BTAHL7 Configuration Explorer  
   
--   Click **Start**, click **Programs**, click **Microsoft BizTalk \<version> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
+-   Click **Start**, click **Programs**, click **Microsoft BizTalk \<version\> Accelerator for HL7**, and then click **BTAHL7 Configuration Explorer**.  
   
 ### To select the  logging store  
   

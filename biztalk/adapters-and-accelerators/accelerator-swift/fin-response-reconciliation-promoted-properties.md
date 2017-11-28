@@ -23,7 +23,7 @@ The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnon
 |Promoted name|Description|Data type|Value range|Usage example|  
 |-------------------|-----------------|---------------|-----------------|-------------------|  
 |**A4SWIFT_FRRFailed**|This property is promoted in a negative scenario when sending out the main message.|Boolean|True<br /><br /> False|Used in the filter expression of an FRR send port to send a failed message to a custom handler.|  
-|**A4SWIFT_FrrFailedReason**|Indicates that the original message was not successfully processed by SAA/SWIFT.|String|-   \<NAKErrorCode><br />-   TimedOut<br />-   TransportError<br />-   Delayed_NAK<br />-   AbortReceived|Used in the filter expression of an FRR send port to send a failed message to a custom handler.|  
+|**A4SWIFT_FrrFailedReason**|Indicates that the original message was not successfully processed by SAA/SWIFT.|String|-   \<NAKErrorCode\><br />-   TimedOut<br />-   TransportError<br />-   Delayed_NAK<br />-   AbortReceived|Used in the filter expression of an FRR send port to send a failed message to a custom handler.|  
 |**A4SWIFT_FRRCorrelationToken**|Indicates the unique correlation token of the outbound MT*xxx* message.|String|-|FRR compares this property to the **MQMD_CorrelID** context property of the FIN response.|  
 |**A4SWIFT_SendingServiceType**|Indicates the FRR service that sends the message.|String|A4SWIFT_FrrService|Promoted when **A4SWIFT_FRRFailed** is set to True.|  
   

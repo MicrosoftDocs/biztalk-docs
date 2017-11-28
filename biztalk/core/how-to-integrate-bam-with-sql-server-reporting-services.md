@@ -28,18 +28,18 @@ Creating a report based on data in the BAM infrastructure use the typical tasks 
   
     |Data Source|Description|  
     |-----------------|-----------------|  
-    |BAM Primary Import database|Contains views on activity instances and real-time aggregations. Select Type=”Microsoft SQL Server” and Connection String=”Data Source=\<*server name*>; Initial Catalog=\<*database name*>”, where \<*server name*> and \<*database name*> are the server and database names of your Bam Primary Import database.|  
-    |BAM Analysis database|Contains data that is used to query the analysis cube. Select Type=”Microsoft SQL Server Analysis Server” and Connection String=”Data Source=\<*server name*>; Initial Catalog=\<*database name*>”, where \<*server name*> and \<*database name*> are the server and database names of your BAM Analysis database.|  
+    |BAM Primary Import database|Contains views on activity instances and real-time aggregations. Select Type=”Microsoft SQL Server” and Connection String=”Data Source=\<*server name*\>; Initial Catalog=\<*database name*\>”, where \<*server name*\> and \<*database name*\> are the server and database names of your Bam Primary Import database.|  
+    |BAM Analysis database|Contains data that is used to query the analysis cube. Select Type=”Microsoft SQL Server Analysis Server” and Connection String=”Data Source=\<*server name*\>; Initial Catalog=\<*database name*\>”, where \<*server name*\> and \<*database name*\> are the server and database names of your BAM Analysis database.|  
   
 2.  Design the query. For the BAM Primary Import database, there are two types of views:  
   
     |View Name|Description|  
     |---------------|-----------------|  
-    |dbo.bam_\<*view name*>_\<*activity name*>View_View.|This view contains instance data.|  
-    |dbo.bam_\<*view name*>_\<*real time aggregation pivot table name*>_RTAView|This view contains data used in real-time aggregations.|  
+    |dbo.bam_\<*view name*\>_\<*activity name*\>View_View.|This view contains instance data.|  
+    |dbo.bam_\<*view name*\>_\<*real time aggregation pivot table name*\>_RTAView|This view contains data used in real-time aggregations.|  
   
     > [!NOTE]
-    >  You can type **select \* from view** to return the desired result set. For the BAM Analysis database, click the query builder and drag the dimensions and measures of the cube named \<*view name*> to return the desired result set.  
+    >  You can type **select \* from view** to return the desired result set. For the BAM Analysis database, click the query builder and drag the dimensions and measures of the cube named \<*view name*\> to return the desired result set.  
   
 ## Next Steps  
  Complete the steps in the Report Wizard to specify which data you are going to present and how the data is to be presented.  

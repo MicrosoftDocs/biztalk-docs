@@ -56,7 +56,7 @@ Users create BAM views based on data stored in an online analytical processing (
   
 7.  In the console tree, expand **Integration Services**, expand **Stored Packages**, and then click **MSDB**.  
   
-8.  Right-click the **BAM_AN_\<View name>** package, and then click **Run Package**.  
+8.  Right-click the **BAM_AN_\<View name\>** package, and then click **Run Package**.  
   
 ### To run the Maintaining BAM Data Integration Services package  
   
@@ -74,7 +74,7 @@ Users create BAM views based on data stored in an online analytical processing (
   
 7.  In the console tree, expand **Integration Services**, expand **Stored Packages**, and then click **MSDB**.  
   
-8.  Right-click the **BAM_DM_\<Activity name>** package, and then click **Run Package**.  
+8.  Right-click the **BAM_DM_\<Activity name\>** package, and then click **Run Package**.  
   
 ### To schedule the packages to run regularly  
   
@@ -106,7 +106,7 @@ Users create BAM views based on data stored in an online analytical processing (
   
 14. In the **Server** drop-down list, select the server on which you are running the job.  
   
-15. Click the file selector button for the **Package** text box, select the package you are scheduling (either the **BAM_DM_\<Activity name>** or **BAM_AN_\<View name>** package), and then click **OK**.  
+15. Click the file selector button for the **Package** text box, select the package you are scheduling (either the **BAM_DM_\<Activity name\>** or **BAM_AN_\<View name\>** package), and then click **OK**.  
   
 16. In the **Select a page** window, click **Schedules**, and then click **New**. This opens the **New Job Schedule** dialog box.  
   

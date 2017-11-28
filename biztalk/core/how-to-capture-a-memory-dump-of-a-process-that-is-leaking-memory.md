@@ -46,7 +46,7 @@ The BizTalk process BTSNTSvc.exe is defined as having a memory leak when it fail
   
 7.  In the **Rule Completed** dialog click **Finish** to accept the default value of **Activate the rule now**.  
   
-8.  By default, a memory dump of the process will be saved to the \Program Files\IIS Resources\DebugDiag\Logs\\<*name of crash rule*> directory of the local computer after the time intervals specified in the **Configure Tracking Duration** dialog has elapsed.  
+8.  By default, a memory dump of the process will be saved to the \Program Files\IIS Resources\DebugDiag\Logs\\<*name of crash rule*\> directory of the local computer after the time intervals specified in the **Configure Tracking Duration** dialog has elapsed.  
   
 ### To manually capture a memory dump of a process that is leaking memory  
   

@@ -23,8 +23,8 @@ Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshor
   
 ```  
 SELECT  
-\<column name 1> AS \<column alias 1>,  
-\<column name 2> AS \<column alias 2>,  
+<column name 1> AS <column alias 1>,  
+<column name 2> AS <column alias 2>,  
 …  
 FROM  
 <Business object name>.<Business component name> AS <table alias>  
@@ -50,7 +50,7 @@ OPTION
   
  The rules for the search specification are:  
   
--   Standard comparison operators must be used to compare a field to a constant, or one field to another field. These include =, !=, >, \<, >=, and <=.  
+-   Standard comparison operators must be used to compare a field to a constant, or one field to another field. These include =, !=, >, <, >=, and <=.  
   
     ```  
     Example: [Revenue] > 5000  

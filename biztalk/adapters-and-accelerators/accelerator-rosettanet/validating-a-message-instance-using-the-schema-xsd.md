@@ -27,7 +27,7 @@ This topic describes how to validate a message instance using one of the schema 
   
 2.  On the **File**, point to **Open**, and then click **Project**.  
   
-3.  Locate *\<drive>*\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\Schemas, click **RNPIPs.btproj**, and then click **Open**.  
+3.  Locate *\<drive\>*\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas, click **RNPIPs.btproj**, and then click **Open**.  
   
 4.  In Solution Explorer, expand **RNPIPs**, right-click the schema XSD that you want to use to validate a message instance, and then click **Properties**.  
   

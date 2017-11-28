@@ -23,7 +23,7 @@ An XML schema describes a business document that is represented in XML. Because 
   
 -   **Creating a new schema, in conjunction with other schemas**. For complex schemas in the real world, you are more likely to build the schemas for your messages by using types provided in other existing schemas. By using the XML Schema definition (XSD) language concepts of importing, including, and redefining schemas, you can take advantage of types already defined in other schemas. For more information about using multiple schemas together, see [Schemas That Use Other Schemas](../core/schemas-that-use-other-schemas.md).  
   
--   **Generating a schema from an instance message**. You can generate an XML schema that corresponds to a particular instance message as long as that instance message consists of well-formed XML. Use the **Add Generated Items - *\<BizTalk Project Name>*** dialog box, accessed by clicking **Add Generated Items** on the **Project** menu, to perform this type of schema generation operation.  
+-   **Generating a schema from an instance message**. You can generate an XML schema that corresponds to a particular instance message as long as that instance message consists of well-formed XML. Use the **Add Generated Items - *\<BizTalk Project Name\>*** dialog box, accessed by clicking **Add Generated Items** on the **Project** menu, to perform this type of schema generation operation.  
   
     > [!NOTE]
     >  This type of generation operation can only be used to generate XML schemas, not property schemas or flat file schemas.  
@@ -32,7 +32,7 @@ An XML schema describes a business document that is represented in XML. Because 
   
      You can also generate an XML schema based on XSD from a document schema expressed by using the Document Type Definition (DTD) syntax.  
   
-     Use the **Add Generated Items - *\<BizTalk Project Name>*** dialog box, accessed by clicking **Add Generated Items** on the **Project** menu, to perform this type of schema generation operation.  
+     Use the **Add Generated Items - *\<BizTalk Project Name\>*** dialog box, accessed by clicking **Add Generated Items** on the **Project** menu, to perform this type of schema generation operation.  
   
     > [!NOTE]
     >  These types of generation operations can only be used to generate XML schemas, not property schemas or flat file schemas.  

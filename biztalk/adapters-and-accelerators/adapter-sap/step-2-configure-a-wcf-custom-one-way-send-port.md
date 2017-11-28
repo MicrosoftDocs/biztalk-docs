@@ -65,7 +65,7 @@ manager: "anneta"
   
         ```  
         <SendIdoc xmlns="http://Microsoft.LobServices.Sap/2007/03/Idoc/">  
-        <idocData>\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/></idocData>  
+        <idocData><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/></idocData>  
         </SendIdoc>  
         ```  
   

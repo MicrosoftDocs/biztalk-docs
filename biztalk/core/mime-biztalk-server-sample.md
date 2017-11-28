@@ -35,7 +35,7 @@ The MIME sample demonstrates how to perform MIME encoding within a send pipeline
 4.  In the send pipeline, perform MIME encoding and place the file into the send adapter folder MIMEOut.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Pipelines\MIME\  
+ \<*Samples Path*\>\Pipelines\MIME\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -55,13 +55,13 @@ The MIME sample demonstrates how to perform MIME encoding within a send pipeline
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Pipelines\MIME  
+     \<*Samples Path*\>\Pipelines\MIME  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
     -   Creates the input (MIMEIn) and output (MIMEOut) folders for this sample in the folder:  
   
-         \<*Samples Path*>\Pipelines\MIME  
+         \<*Samples Path*\>\Pipelines\MIME  
   
     -   Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for this sample.  
   

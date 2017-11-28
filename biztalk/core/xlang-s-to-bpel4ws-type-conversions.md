@@ -57,7 +57,7 @@ The following tables detail the conversions between various XLANG/s constructs a
 |Unary -|XPath unary -|  
 |Unary !|XPath not() function|  
 |Binary &&, &#124;&#124;|XPath 'and', 'or' operators|  
-|Binary ==, !=, <=, \<, >=, >|XPath '=', '! =', '<=', '\<', '>=', '>' operators|  
+|Binary ==, !=, <=, <, >=, >|XPath '=', '! =', '<=', '<', '>=', '>' operators|  
 |Binary +, -, *, % with both integral operands|XPath '+', '-', '*', 'mod' operators|  
   
 ## XLANG/s constructs that are disallowed in BPEL4WS  
@@ -80,11 +80,11 @@ The following tables detail the conversions between various XLANG/s constructs a
   
 -   Binary +, -, *, %, / with non-integral operands  
   
--   Binary <=, \<, >=, > with non-string operands  
+-   Binary <=, <, >=, > with non-string operands  
   
 -   Bitwise operators &, ^, &#124;  
   
--   Shift operators <\<, >>  
+-   Shift operators <<, >>  
   
 -   Checked expression  
   

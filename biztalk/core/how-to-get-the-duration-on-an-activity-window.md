@@ -27,7 +27,7 @@ Administrators use the **get-activitywindow** command to get the duration for th
   
 2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type  bm get-activitywindow -Activity:\<activity name>.  
+3.  Type  bm get-activitywindow -Activity:\<activity name\>.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

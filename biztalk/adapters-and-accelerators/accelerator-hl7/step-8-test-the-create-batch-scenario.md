@@ -19,17 +19,17 @@ In this step, you test the Create-Batch scenario by dropping test instances of t
   
 ### To test the Create-Batch scenario  
   
-1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*>:\Batching Tutorial\Instances** folder.  
+1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*\>:\Batching Tutorial\Instances** folder.  
   
 2.  Select **CreateBatchMessage1.txt**, and **CreateBatchMessage2.txt**, right-click them, and then click **Copy**.  
   
-3.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7Pickup** folder.  
+3.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7Pickup** folder.  
   
 4.  Right-click the folder, and then click **Paste**.  
   
 ### To verify the results of the Create-Batch scenario  
   
-1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchACKDrop** folder. After a short period, you should see the processed instance of the acknowledgment batch appear in the folder. If it does not appear, check the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Event Viewer for error messages. The file should have the name \<*Guid*>.txt. This batch should contain the two acknowledgments generated upon receiving the two messages that were originally sent. This batch should have the following fields:  
+1.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchACKDrop** folder. After a short period, you should see the processed instance of the acknowledgment batch appear in the folder. If it does not appear, check the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Event Viewer for error messages. The file should have the name \<*Guid*\>.txt. This batch should contain the two acknowledgments generated upon receiving the two messages that were originally sent. This batch should have the following fields:  
   
     |FHS.5|BHS.5|BTS.1|FTS.1|  
     |-----------|-----------|-----------|-----------|  
@@ -42,7 +42,7 @@ In this step, you test the Create-Batch scenario by dropping test instances of t
     |ACK^A03^ACK|Msg01|AA|Tutorial_BatchDest|Tutorial_BatchSource|  
     |ACK^A03^ACK|Msg02|AA|Tutorial_BatchDest|Tutorial_BatchSource|  
   
-2.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchMsgDrop** folder. After an hour, you should see the processed instance of the message batch appear in the folder. If it does not appear, check the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Event Viewer for error messages. The file should have the name \<*Guid*>.txt. This batch should contain the two messages that were originally sent. This batch should have the following fields:  
+2.  Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, browse to the **\<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchMsgDrop** folder. After an hour, you should see the processed instance of the message batch appear in the folder. If it does not appear, check the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Event Viewer for error messages. The file should have the name \<*Guid*\>.txt. This batch should contain the two messages that were originally sent. This batch should have the following fields:  
   
     |FHS.5|BHS.5|BTS.1|FTS.1|  
     |-----------|-----------|-----------|-----------|  

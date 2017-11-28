@@ -23,7 +23,7 @@ The simple way to use a new pipeline added by side-by-side versioning is to sele
   
 1.  In Visual Studio, create a new version of the pipeline component, and sign the assembly.  
   
-2.  Add the pipeline component in the **Pipeline Components** folder (\<*installation folder*>\Pipeline Components).  
+2.  Add the pipeline component in the **Pipeline Components** folder (\<*installation folder*\>\Pipeline Components).  
   
 3.  Add the pipeline component to your pipeline.  
   

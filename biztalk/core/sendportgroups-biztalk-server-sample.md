@@ -47,7 +47,7 @@ The SendPortGroups sample demonstrates how to enumerate and manage send port gro
 ## Where To Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\ExplorerOM\SendPortGroups  
+ \<*Samples Path*\>\Admin\ExplorerOM\SendPortGroups  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -84,7 +84,7 @@ The SendPortGroups sample demonstrates how to enumerate and manage send port gro
   
 1.  Open a command window and navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\ExplorerOM\SendPortGroups\bin\Debug  
+     \<*Samples Path*\>\Admin\ExplorerOM\SendPortGroups\bin\Debug  
   
 2.  Run the file SendPortGroups.exe.  
   

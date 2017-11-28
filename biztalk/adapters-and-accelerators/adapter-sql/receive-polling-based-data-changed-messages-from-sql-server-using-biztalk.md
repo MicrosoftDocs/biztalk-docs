@@ -220,34 +220,34 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
      So, the message received from SQL Server will contain multiple result sets (for SELECT statement and for ADD_EMP_DETAILS stored procedure), and will resemble the following:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Polling xmlns="http://schemas.microsoft.com/Sql/2008/05/Polling/">  
       <PolledData>  
         <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-          \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-            \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                    \<xs:complexType>  
-                      \<xs:sequence>  
-                        \<xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                        \<xs:element minOccurs="0" name="Name" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
-                        \<xs:element minOccurs="0" name="Designation" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
-                        \<xs:element minOccurs="0" name="Rating" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
-                        \<xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
-                      \</xs:sequence>  
-                    \</xs:complexType>  
-                  \</xs:element>  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-          \</xs:schema>  
-          \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+          <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+            <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                    <xs:complexType>  
+                      <xs:sequence>  
+                        <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                        <xs:element minOccurs="0" name="Name" type="xs:string" />   
+                        <xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
+                        <xs:element minOccurs="0" name="Designation" type="xs:string" />   
+                        <xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
+                        <xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
+                        <xs:element minOccurs="0" name="Rating" type="xs:string" />   
+                        <xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
+                        <xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
+                      </xs:sequence>  
+                    </xs:complexType>  
+                  </xs:element>  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+          </xs:schema>  
+          <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
             <NewDataSet xmlns="">  
               <NewTable>  
                 <Employee_ID>10001</Employee_ID>   
@@ -266,31 +266,31 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
                 <Last_Modified>AAAAAAAAF4E=</Last_Modified>   
               </NewTable>  
             </NewDataSet>  
-          \</diffgr:diffgram>  
+          </diffgr:diffgram>  
         </DataSet>  
         <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-          \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-            \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                    \<xs:complexType>  
-                      \<xs:sequence>  
-                        \<xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                      \</xs:sequence>  
-                    \</xs:complexType>  
-                  \</xs:element>  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-          \</xs:schema>  
-          \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+          <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+            <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                    <xs:complexType>  
+                      <xs:sequence>  
+                        <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                      </xs:sequence>  
+                    </xs:complexType>  
+                  </xs:element>  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+          </xs:schema>  
+          <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
             <NewDataSet xmlns="">  
               <NewTable>  
                 <Employee_ID>10006</Employee_ID>  
               </NewTable>  
             </NewDataSet>  
-          \</diffgr:diffgram>  
+          </diffgr:diffgram>  
         </DataSet>  
       </PolledData>  
     </Polling>  

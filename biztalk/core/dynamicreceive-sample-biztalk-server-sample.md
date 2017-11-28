@@ -42,7 +42,7 @@ The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServer
  Using the dynamic receive functionality gives you additional flexibility because a fixed receive location is not required. In some cases, you may not know the URI until run time. Dynamic receive functionality allows you to dynamically determine from where to obtain messages. It also means you do not need to implement a queuing contract within an orchestration.  You can wait to obtain messages by using a dynamically specified URI from the MQSeries queue based on the specified match criteria.  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Samples\AdaptersUsage\MQSeriesAdapter\DynamicReceive  
+ \<*Samples Path*\>\Samples\AdaptersUsage\MQSeriesAdapter\DynamicReceive  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -80,7 +80,7 @@ The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServer
   
 7.  You can build and deploy the project in either of the following ways:  
   
-    -   Open the solution, right click the project in Solution explorer and click **Properties** to view project properties. On the Signing tab click **\<New...>** in the **Choose a strong name key file** drop down box. Then provide a key file name and deploy.  
+    -   Open the solution, right click the project in Solution explorer and click **Properties** to view project properties. On the Signing tab click **\<New...\>** in the **Choose a strong name key file** drop down box. Then provide a key file name and deploy.  
   
     -   Alternatively, run the setup.bat file which creates the key file, builds the project and deploys it.  
   

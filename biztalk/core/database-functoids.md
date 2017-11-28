@@ -71,7 +71,7 @@ The following is a list of the **Database** functoids and how you can use them:
   
  In the figure, the source schema represents an incoming purchase order; the destination schema represents an advanced ship notice. The **Database Lookup** functoid finds the appropriate record from the appropriate database table. The **Value Extractor** functoids extract the appropriate column from the lookup record. The **Error Return** functoid outputs a string containing error information if there are errors (such as connection failures) at run time.  
   
- In the previous example, the first input parameter is taken from the **StoreID** field of the incoming purchase order, and the remaining three input parameters are constants configured in the **Configure \<Functoid> Functoid** dialog box for the **Database Lookup** functoid. It is possible to create links from the source schema to supply values for all four input parameters.  
+ In the previous example, the first input parameter is taken from the **StoreID** field of the incoming purchase order, and the remaining three input parameters are constants configured in the **Configure \<Functoid\> Functoid** dialog box for the **Database Lookup** functoid. It is possible to create links from the source schema to supply values for all four input parameters.  
   
 > [!NOTE]
 >  * You cannot use some Microsoft SQL Server data types, such as **text**, **ntext**, and **image**, as lookup values for the **Database Lookup** functoid. The functoid requires data types that can be represented as a text string.  

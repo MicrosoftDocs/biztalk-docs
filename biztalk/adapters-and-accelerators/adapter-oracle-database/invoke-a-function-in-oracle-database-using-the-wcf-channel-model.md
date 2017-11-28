@@ -26,13 +26,13 @@ This section demonstrates how to execute a function in an Oracle database using 
  You can execute a function on an Oracle database by passing an XML message to [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]. The input XML resembles the following:  
   
 ```  
-\<CREATE_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG" xmlns:ns0="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT">  
+<CREATE_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG" xmlns:ns0="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT">  
   <REC xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
-    \<ns0:ID>1\</ns0:ID>  
-    \<ns0:NAME>Scott\</ns0:NAME>  
-    \<ns0:BANKNAME>CitiBank\</ns0:BANKNAME>  
-    \<ns0:BRANCH>NY\</ns0:BRANCH>  
-    \<ns0:ENABLED>Y\</ns0:ENABLED>  
+    <ns0:ID>1</ns0:ID>  
+    <ns0:NAME>Scott</ns0:NAME>  
+    <ns0:BANKNAME>CitiBank</ns0:BANKNAME>  
+    <ns0:BRANCH>NY</ns0:BRANCH>  
+    <ns0:ENABLED>Y</ns0:ENABLED>  
   </REC>  
 </CREATE_ACCOUNT>  
 ```  

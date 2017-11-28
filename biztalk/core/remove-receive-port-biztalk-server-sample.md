@@ -40,7 +40,7 @@ The Remove Receive Port sample demonstrates how to remove one or more receive po
 ## Where to Find This Sample  
  The samples are located in the following SDK location:  
   
- \<*Samples Path*>\Admin\WMI\Remove Receive Port\  
+ \<*Samples Path*\>\Admin\WMI\Remove Receive Port\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -57,12 +57,12 @@ The Remove Receive Port sample demonstrates how to remove one or more receive po
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\WMI\Remove Receive Port\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Remove Receive Port\VBScript\  
   
 2.  Run the file RemoveReceivePort.vbs using the cscript program, passing the following command-line argument:  
   
-     **\<**   
-     ***ReceivePortName* >**. The name of the receive port(s) to remove. If the receive port name contains spaces, enclose the name in quotes.  
+     **\<**
+     ***ReceivePortName* \>**. The name of the receive port(s) to remove. If the receive port name contains spaces, enclose the name in quotes.  
   
      For example:  
   

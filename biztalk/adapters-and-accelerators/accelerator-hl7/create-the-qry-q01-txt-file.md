@@ -26,6 +26,6 @@ Use the following procedure to create the patient query QRY^Q01.txt message file
     QRD|200307231012|D|I|4387|||20^LI|12233|RES|ALL  
     ```  
   
-2.  Save the file as **QRY^Q01.txt** in the \<*drive*:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial folder, and then close the editor.  
+2.  Save the file as **QRY^Q01.txt** in the \<*drive*:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial folder, and then close the editor.  
   
  Proceed to [Create the DSR.txt File](../../adapters-and-accelerators/accelerator-hl7/create-the-dsr-txt-file.md).

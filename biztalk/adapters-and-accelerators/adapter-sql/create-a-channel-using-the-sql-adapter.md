@@ -124,7 +124,7 @@ channel.Open();
   
 2.  Set the binding properties required for inbound operation. For example, for a **Polling** operation, at a minimum you must set the **InboundOperationType**, **PolledDataAvailableStatement**, and **PollingStatement** binding properties to configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to poll the SQL Server database.  
   
-3.  Create a channel listener by invoking **BuildChannelListener\<IInputChannel>** method on the **SQLBinding**. You specify the SQL Server connection URI as one of the parameters to this method.  
+3.  Create a channel listener by invoking **BuildChannelListener\<IInputChannel\>** method on the **SQLBinding**. You specify the SQL Server connection URI as one of the parameters to this method.  
   
 4.  Open the listener.  
   

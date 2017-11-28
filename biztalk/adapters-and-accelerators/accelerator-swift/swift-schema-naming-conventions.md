@@ -21,7 +21,7 @@ manager: "anneta"
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes schemas for Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages that were created using BizTalk Editor. These schemas conform to the following conventions throughout:  
   
 > [!NOTE]
->  All schemas are versioned. To see the version, open [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], and right-click the schema in Solution Explorer. With the \<Schema> node selected in BizTalk Editor, in the Properties pane scroll down to the Standard Version property.  
+>  All schemas are versioned. To see the version, open [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], and right-click the schema in Solution Explorer. With the \<Schema\> node selected in BizTalk Editor, in the Properties pane scroll down to the Standard Version property.  
   
 -   The name of each interchange schema file is **MT*xxx*.xsd**, where *xxx* is the FIN message type.  
   
@@ -41,7 +41,7 @@ manager: "anneta"
   
 -   The labels of numbered SWIFT fields include a descriptive title followed by the sequence (if present), followed by the number code and optional letter format (for example, **Reference_A_20C**).  
   
--   Where there is a choice of multiple formats for a field, the label of the node is **\<*Choice*>**, and then each option is a numbered field (for example, **Date_A_98A** and **DateTime_A_98C**).  
+-   Where there is a choice of multiple formats for a field, the label of the node is **\<*Choice*\>**, and then each option is a numbered field (for example, **Date_A_98A** and **DateTime_A_98C**).  
   
 -   The name of the lowest level element definition of a sub-field consists of the name of the sub-field followed by **Type** (for example, **accountType** for Account).  
   

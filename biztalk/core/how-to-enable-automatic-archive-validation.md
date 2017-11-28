@@ -85,7 +85,7 @@ Archive validation enables you to validate the archives as they are created. Bef
   
 13. On the **General** page, in the **Command** box, in the command, **exec dtasp_ValidateArchive null, null**, replace null, null with the name of the server hosting the BizTalk Tracking database, surrounded by single quotes, followed by the name of the BizTalk Tracking database, surrounded by quotes, and then click **OK**. For example:  
   
-     **exec dtasp_ValidateArchive '** *\<TrackingServerName>* **', '** *\<TrackingDatabaseName>* **'**  
+     **exec dtasp_ValidateArchive '** *\<TrackingServerName\>* **', '** *\<TrackingDatabaseName\>* **'**  
   
 > [!NOTE]
 >  The ValidateArchive job does not have a schedule and you should not configure a schedule for it. Instead, the DTA Purge and Archive (BizTalkDTADb) job starts this job automatically when an archive is created.  

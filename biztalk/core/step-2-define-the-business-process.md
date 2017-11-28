@@ -63,7 +63,7 @@ manager: "anneta"
     |Use this|To do this|  
     |--------------|----------------|  
     |**Identifier**|Type **RequestMessage**.|  
-    |**Message Type**|Click **Schemas**, and then click **\<Select from referenced assembly …>**. From the Select Artifact Type window, click **EAISchemas**, and then click **Request**. Click **OK**|  
+    |**Message Type**|Click **Schemas**, and then click **\<Select from referenced assembly …\>**. From the Select Artifact Type window, click **EAISchemas**, and then click **Request**. Click **OK**|  
   
 4.  From Orchestration View, right-click **Messages**, and then click **New Message**.  
   
@@ -72,7 +72,7 @@ manager: "anneta"
     |Use this|To do this|  
     |--------------|----------------|  
     |**Identifier**|Type **RequestDeclineMessage**.|  
-    |**Message Type**|Click **Schemas**, and then click **\<Select from referenced assembly …>**. From the Select Artifact Type window, click **EAISchemas**, and then click **RequestDecline**. Click **OK**|  
+    |**Message Type**|Click **Schemas**, and then click **\<Select from referenced assembly …\>**. From the Select Artifact Type window, click **EAISchemas**, and then click **RequestDecline**. Click **OK**|  
   
 #### To configure the properties of the shapes  
   
@@ -125,7 +125,7 @@ manager: "anneta"
     |Use this|To do this|  
     |--------------|----------------|  
     |**Name**|Type **TransformRequestToRequestDeclineMessage**.|  
-    |**Map Name**|Click **…**. From Transform Configuration, do the following:<br /><br /> Enter the configuration information:<br /><br /> - Click **Existing Map**.<br /><br /> Fully Qualified Map Name:<br /><br /> - Select **\<Select from referenced assembly>**.  From the left pane, select **EAISchemas**.  From the right pane, select EAISchemas.MapToReqDecline.  Click **OK**.<br /><br /> Source<br /><br /> - RequestMessage<br /><br /> Destination<br /><br /> - RequestDeclineMessage|  
+    |**Map Name**|Click **…**. From Transform Configuration, do the following:<br /><br /> Enter the configuration information:<br /><br /> - Click **Existing Map**.<br /><br /> Fully Qualified Map Name:<br /><br /> - Select **\<Select from referenced assembly\>**.  From the left pane, select **EAISchemas**.  From the right pane, select EAISchemas.MapToReqDecline.  Click **OK**.<br /><br /> Source<br /><br /> - RequestMessage<br /><br /> Destination<br /><br /> - RequestDeclineMessage|  
   
 11. On the design surface, click the **Send_1** shape.  
   

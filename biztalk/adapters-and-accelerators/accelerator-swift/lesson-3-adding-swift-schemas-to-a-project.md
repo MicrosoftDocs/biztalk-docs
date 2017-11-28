@@ -24,7 +24,7 @@ Now that you have a solution and a new project, you can add items to the project
   
 1.  In Solution Explorer, right-click the **SWIFTSchemas** project, point to **Add**, and then click **Existing Item**.  
   
-2.  In the Add Existing Item-SWIFTSchemas dialog box, browse to **\<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> MessagePack\SWIFT Messages\A4SWIFT-SRG\<version>\Base Schemas**.  
+2.  In the Add Existing Item-SWIFTSchemas dialog box, browse to **\<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> MessagePack\SWIFT Messages\A4SWIFT-SRG\<version\>\Base Schemas**.  
   
 3.  Select the **SWIFT Base Types.xsd** and the **SWIFT Common Data Types.xsd** schemas, and then click **Add**.  
   
@@ -33,7 +33,7 @@ Now that you have a solution and a new project, you can add items to the project
   
 4.  In Solution Explorer, right-click the **SWIFTSchemas** project, point to **Add**, and then click **Existing Item**.  
   
-5.  In the Add Existing Item-SWIFTSchemas dialog box, browse to the **\<*drive*>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version> MessagePack\SWIFT Messages\A4SWIFT-SRG\<version>\Category 1\MT103** folder.  
+5.  In the Add Existing Item-SWIFTSchemas dialog box, browse to the **\<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> MessagePack\SWIFT Messages\A4SWIFT-SRG\<version\>\Category 1\MT103** folder.  
   
 6.  Select the **MT103.xsd** schema, and then click **Add**.  
   

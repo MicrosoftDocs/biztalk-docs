@@ -24,7 +24,7 @@ This topic provides some information concerning the import process when you depl
   
      For example, from a command prompt run:  
   
-     **cscript RemoveSendPort.vbs \<Send port name>**  
+     **cscript RemoveSendPort.vbs \<Send port name\>**  
   
 ## See Also  
  [Import the JD Edwards EnterpriseOne app](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md)

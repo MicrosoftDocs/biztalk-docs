@@ -56,7 +56,7 @@ End If
 >  The difference between using the **Call Orchestration** shape and the **Start Orchestration** shape is that when calling an orchestration, the caller waits for the nested orchestration to return before continuing. When starting an orchestration from an orchestration, after the caller initiates the action, the caller moves forward to the next step in the process flow. The orchestration that was invoked by the caller runs independently until it finishes the process flow. For more information, see [How to Configure the Call Orchestration Shape](../core/how-to-configure-the-call-orchestration-shape.md). Also see [How to Configure the Start Orchestration Shape](../core/how-to-configure-the-start-orchestration-shape.md).  
   
 ## Where to Find This Sample  
- \<*Samples Path*>\Orchestrations\CallOrchestration\  
+ \<*Samples Path*\>\Orchestrations\CallOrchestration\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -78,7 +78,7 @@ End If
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Orchestrations\CallOrchestration\  
+     \<*Samples Path*\>\Orchestrations\CallOrchestration\  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -99,7 +99,7 @@ End If
   
 1.  Put a copy of the file InputPO.xml into the In folder.  
   
-2.  Observe the updated XML PO file created in the Out folder. It contains the original PO message, modified to include a shipping cost calculated as explained earlier. The format of the name of this file is \<*MessageID*>.xml, where *\<MessageID>* is the GUID generated to uniquely identify the message.  
+2.  Observe the updated XML PO file created in the Out folder. It contains the original PO message, modified to include a shipping cost calculated as explained earlier. The format of the name of this file is \<*MessageID*\>.xml, where *\<MessageID\>* is the GUID generated to uniquely identify the message.  
   
 ## Uninstalling This Sample  
   
@@ -107,7 +107,7 @@ End If
   
 1.  In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Orchestrations\CallOrchestration\  
+     \<*Samples Path*\>\Orchestrations\CallOrchestration\  
   
 2.  Run Cleanup.bat.  
   

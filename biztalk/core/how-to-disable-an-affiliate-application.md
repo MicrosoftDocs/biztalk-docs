@@ -33,9 +33,9 @@ You can use the MMC Snap-In or the command line to disable the specified affilia
   
 1.  Click **Start**, click **run**, and then type **cmd**.  
   
-2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*>:\Program Files\Common Files\Enterprise Single Sign-On.  
+2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage –disableapp *\<application name>***, where \<*application name*> is the name of the affiliate application you want to disable.  
+3.  Type **ssomanage –disableapp *\<application name\>***, where \<*application name*\> is the name of the affiliate application you want to disable.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

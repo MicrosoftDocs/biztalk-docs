@@ -49,14 +49,14 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
 5.  Expand the **Interface Tables** node to see all the Oracle E-Business Suite applications. Expand an Oracle E-Business suite application to list all the interface tables belonging to that application. Click an interface table name to see operations available for the table in the **Available categories and operations** box.  
   
     > [!NOTE]
-    >  If an interface table contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName>. For example, if the interface table has a column, FILE_DATA, of type BLOB, the adapter exposes a **Read_FILE_DATA** operation. If an interface table has more than one column of type BLOB, CLOB, NCLOB, and BFILE the adapter will expose as many number of Read_\<LOBColName> operations.  
+    >  If an interface table contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName\>. For example, if the interface table has a column, FILE_DATA, of type BLOB, the adapter exposes a **Read_FILE_DATA** operation. If an interface table has more than one column of type BLOB, CLOB, NCLOB, and BFILE the adapter will expose as many number of Read_\<LOBColName\> operations.  
     >   
-    >  Similarly, if an interface table contains columns of type BLOB, CLOB, or NCLOB the adapter also exposes a specific operation to update data into such columns. The name of such operations are Update_\<LOBColName>. For example, if the interface table has a column, FILE_DATA, of type BLOB, the adapter exposes an **Update_FILE_DATA** operation. If an interface table has more than one column of type BLOB, CLOB, and NCLOB the adapter will expose as many number of Update_\<LOBColName> operations. Note that the update operation is not supported on columns of type BFILE.  
+    >  Similarly, if an interface table contains columns of type BLOB, CLOB, or NCLOB the adapter also exposes a specific operation to update data into such columns. The name of such operations are Update_\<LOBColName\>. For example, if the interface table has a column, FILE_DATA, of type BLOB, the adapter exposes an **Update_FILE_DATA** operation. If an interface table has more than one column of type BLOB, CLOB, and NCLOB the adapter will expose as many number of Update_\<LOBColName\> operations. Note that the update operation is not supported on columns of type BFILE.  
   
 6.  Expand the **Interface Views** node to see all the Oracle E-Business Suite applications. Expand an Oracle E-Business suite application to list all the interface views belonging to that application. Click an interface view name to see operations available for the view in the **Available categories and operations** box.  
   
     > [!NOTE]
-    >  If an interface view contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The names of such operations are Read_\<LOBColName>. For example, if the interface view has a column, FILE_CONTENT, of type BLOB, the adapter exposes a **Read_FILE_CONTENT** operation. If an interface view has more than one column of type BLOB, CLOB, NCLOB, or BFILE the adapter will expose as many number of Read_\<LOBColName> operations. Note that Update_\<LOBColName> operations are not supported on views.  
+    >  If an interface view contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The names of such operations are Read_\<LOBColName\>. For example, if the interface view has a column, FILE_CONTENT, of type BLOB, the adapter exposes a **Read_FILE_CONTENT** operation. If an interface view has more than one column of type BLOB, CLOB, NCLOB, or BFILE the adapter will expose as many number of Read_\<LOBColName\> operations. Note that Update_\<LOBColName\> operations are not supported on views.  
   
 7.  Expand the **Concurrent Programs** node to see all the Oracle E-Business Suite applications. Click an Oracle E-Business suite application to list all the concurrent programs belonging to that application in the **Available categories and operations** box.  
   
@@ -68,7 +68,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
     > [!IMPORTANT]
     >  The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] (or the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]) displays friendly names of request sets. However, the metadata for the request set has the actual name of the request set. For example, the Applications DBA application contains a “DownloadPatches” request set. However, the metadata has the request set name as FNDRSSUB1623, which is the actual name of the request set.  
   
-9. Expand the **PL-SQL APIs** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name>)** node to see all packages defined for that schema. Click a package name to see the functions and procedures within the package in the **Available categories and operations** box.  
+9. Expand the **PL-SQL APIs** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name\>)** node to see all packages defined for that schema. Click a package name to see the functions and procedures within the package in the **Available categories and operations** box.  
   
      ![Browse packages in the Oracle database](../../adapters-and-accelerators/adapter-oracle-ebs/media/7a9dc061-db0b-4a8e-bfc6-3a003ad687d8.gif "7a9dc061-db0b-4a8e-bfc6-3a003ad687d8")  
   
@@ -76,7 +76,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Browse packages in Oracle database for all schemas](../../adapters-and-accelerators/adapter-oracle-ebs/media/09a4841b-b88f-490d-a49a-94e392b5493c.gif "09a4841b-b88f-490d-a49a-94e392b5493c")  
   
-10. Expand the **Procedures** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name>)** node to see all the procedures defined for that schema in the **Available categories and operations** box.  
+10. Expand the **Procedures** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name\>)** node to see all the procedures defined for that schema in the **Available categories and operations** box.  
   
      ![Browse procedures in Oracle database for a schema](../../adapters-and-accelerators/adapter-oracle-ebs/media/6d78563a-53f7-45cc-8652-f40d4703bdf4.gif "6d78563a-53f7-45cc-8652-f40d4703bdf4")  
   
@@ -84,7 +84,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Browse procedures in Oracle database for schemas](../../adapters-and-accelerators/adapter-oracle-ebs/media/a514d199-d6c1-44a0-bf6b-28ddf702081a.gif "a514d199-d6c1-44a0-bf6b-28ddf702081a")  
   
-11. Expand the **Functions** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name>)** node to see all the functions defined for that schema in the **Available categories and operations** box.  
+11. Expand the **Functions** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name\>)** node to see all the functions defined for that schema in the **Available categories and operations** box.  
   
      ![Browse functions in Oracle database for a schema](../../adapters-and-accelerators/adapter-oracle-ebs/media/22c1cabf-9754-4ecd-be37-dbeeb7a6a8fd.gif "22c1cabf-9754-4ecd-be37-dbeeb7a6a8fd")  
   
@@ -92,7 +92,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Browse functions in Oracle database for all schema](../../adapters-and-accelerators/adapter-oracle-ebs/media/b4d29036-3d37-4a50-82c2-3532adbe2875.gif "b4d29036-3d37-4a50-82c2-3532adbe2875")  
   
-12. Expand the **Tables** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name>)** node to see all the tables defined for that schema. Click a table name to see the operations supported on that table in the **Available categories and operations** box.  
+12. Expand the **Tables** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name\>)** node to see all the tables defined for that schema. Click a table name to see the operations supported on that table in the **Available categories and operations** box.  
   
      ![Browse tables in Oracle database for a schema](../../adapters-and-accelerators/adapter-oracle-ebs/media/6ba7420f-9893-4b3e-91cb-10f29d725ad3.gif "6ba7420f-9893-4b3e-91cb-10f29d725ad3")  
   
@@ -101,11 +101,11 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
      ![Browse Oracle database tables for all schemas](../../adapters-and-accelerators/adapter-oracle-ebs/media/d7c52ab4-ba27-404a-9db6-32b2a635ad2f.gif "d7c52ab4-ba27-404a-9db6-32b2a635ad2f")  
   
     > [!NOTE]
-    >  If a table contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes a **Read_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, NCLOB, and BFILE the adapter will expose as many number of Read_\<LOBColName> operations.  
+    >  If a table contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName\>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes a **Read_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, NCLOB, and BFILE the adapter will expose as many number of Read_\<LOBColName\> operations.  
     >   
-    >  Similarly, if a table contains columns of type BLOB, CLOB, or NCLOB the adapter also exposes a specific operation to update data into such columns. The name of such operations are Update_\<LOBColName>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes an **Update_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, and NCLOB the adapter will expose as many number of Update_\<LOBColName> operations. Note that the update operation is not supported on columns of type BFILE.  
+    >  Similarly, if a table contains columns of type BLOB, CLOB, or NCLOB the adapter also exposes a specific operation to update data into such columns. The name of such operations are Update_\<LOBColName\>. For example, if the table has a column, PHOTO, of type BLOB, the adapter exposes an **Update_PHOTO** operation. If a table has more than one column of type BLOB, CLOB, and NCLOB the adapter will expose as many number of Update_\<LOBColName\> operations. Note that the update operation is not supported on columns of type BFILE.  
   
-13. Expand the **Views** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name>)** node to see all the views defined for that. Click a view name to see the operations supported on that view in the **Available categories and operations** box.  
+13. Expand the **Views** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name\>)** node to see all the views defined for that. Click a view name to see the operations supported on that view in the **Available categories and operations** box.  
   
      ![Browse views in Oracle database for current schema](../../adapters-and-accelerators/adapter-oracle-ebs/media/2a38cfed-007d-431a-af60-c9c8be5369ab.gif "2a38cfed-007d-431a-af60-c9c8be5369ab")  
   
@@ -114,7 +114,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
      ![Browse views in Oracle database for all schemas](../../adapters-and-accelerators/adapter-oracle-ebs/media/67ca336c-62ac-4374-87da-07cf331ea4ad.gif "67ca336c-62ac-4374-87da-07cf331ea4ad")  
   
     > [!NOTE]
-    >  If a view contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName>. For example, if the view has a column, RULE, of type BLOB, the adapter exposes a **Read_RULE** operation. If a view has more than one column of type BLOB, CLOB, NCLOB, or BFILE the adapter will expose as many number of Read_\<LOBColName> operations. Note that Update_\<LOBColName> operations are not supported on views.  
+    >  If a view contains columns of type BLOB, CLOB, NCLOB, or BFILE the adapter also exposes a specific operation to read data from such columns. The name of such operations are Read_\<LOBColName\>. For example, if the view has a column, RULE, of type BLOB, the adapter exposes a **Read_RULE** operation. If a view has more than one column of type BLOB, CLOB, NCLOB, or BFILE the adapter will expose as many number of Read_\<LOBColName\> operations. Note that Update_\<LOBColName\> operations are not supported on views.  
   
 ## Browsing for Inbound Operations  
  Perform the following steps to browse the inbound operations under the artifact-based view.  
@@ -147,7 +147,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Inbound operations on interface views](../../adapters-and-accelerators/adapter-oracle-ebs/media/937f46f2-d142-413f-8744-2180c7116fd4.gif "937f46f2-d142-413f-8744-2180c7116fd4")  
   
-6.  Expand the **PL-SQL APIs** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name>)** node to see all packages defined for that schema. Click a package name to see the functions and procedures within the package in the **Available categories and operations** box. Each of the listed functions and procedures can be used to poll the Oracle database.  
+6.  Expand the **PL-SQL APIs** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name\>)** node to see all packages defined for that schema. Click a package name to see the functions and procedures within the package in the **Available categories and operations** box. Each of the listed functions and procedures can be used to poll the Oracle database.  
   
      ![Browse PL&#45;SQL APIs in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/4b31ea85-9c5a-42b4-82b2-2cb6d3ead35a.gif "4b31ea85-9c5a-42b4-82b2-2cb6d3ead35a")  
   
@@ -155,7 +155,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Browse PL&#45;SQL APIs for all schemas for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/e28a803e-fcfb-4021-9225-924d54a484c0.gif "e28a803e-fcfb-4021-9225-924d54a484c0")  
   
-7.  Expand the **Procedures** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name>)** node to see all the procedures defined for that schema in the **Available categories and operations** box. Each of the listed procedures can be used to poll the Oracle database.  
+7.  Expand the **Procedures** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name\>)** node to see all the procedures defined for that schema in the **Available categories and operations** box. Each of the listed procedures can be used to poll the Oracle database.  
   
      ![Browse procedures for all schemas for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/5e78da80-d99a-44d3-8eac-f636828f8ceb.gif "5e78da80-d99a-44d3-8eac-f636828f8ceb")  
   
@@ -163,7 +163,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Browse procedures in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/22d8e866-ed19-49f4-a6eb-683343b16cf5.gif "22d8e866-ed19-49f4-a6eb-683343b16cf5")  
   
-8.  Expand the **Functions** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name>)** node to see all the functions defined for that schema in the **Available categories and operations** box. Each of the listed functions can be used to poll the Oracle database.  
+8.  Expand the **Functions** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name\>)** node to see all the functions defined for that schema in the **Available categories and operations** box. Each of the listed functions can be used to poll the Oracle database.  
   
      ![Browse functions in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf.gif "64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf")  
   
@@ -171,7 +171,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Browse functions in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/1d22c3c8-8c24-4905-8144-bdb4840244f1.gif "1d22c3c8-8c24-4905-8144-bdb4840244f1")  
   
-9. Expand the **Tables** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name>)** node to see all the tables defined for that schema. Click a table name to see the **Poll** inbound operation supported on that table in the **Available categories and operations** box.  
+9. Expand the **Tables** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name\>)** node to see all the tables defined for that schema. Click a table name to see the **Poll** inbound operation supported on that table in the **Available categories and operations** box.  
   
      ![Browse tables in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/7c60dfbf-3836-4e72-abe8-5f32a0936807.gif "7c60dfbf-3836-4e72-abe8-5f32a0936807")  
   
@@ -179,7 +179,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      ![Browse tables in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/c5fbaf59-2e79-4141-8a85-1e1b8eedcea7.gif "c5fbaf59-2e79-4141-8a85-1e1b8eedcea7")  
   
-10. Expand the **Views** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name>)** node to see all the views defined for that. Click a view name to see the **Poll** inbound operation supported on that view in the **Available categories and operations** box.  
+10. Expand the **Views** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name\>)** node to see all the views defined for that. Click a view name to see the **Poll** inbound operation supported on that view in the **Available categories and operations** box.  
   
      ![Browse views in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/2299de79-9f50-433d-9e71-164f6d02bd78.gif "2299de79-9f50-433d-9e71-164f6d02bd78")  
   

@@ -57,31 +57,31 @@ If you backed up your BAMPrimaryImport database in the event of a system or data
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamManagementService\Web.Config.  
   
-         Replace the *\<ServerName>* string with the new server name and *\<DatabaseName>* with the new database name. Update the following connection strings:  
+         Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
   
-         \<appSettings>  
+         \<appSettings\>  
   
-         <add key="BamServer" value="*\<ServerName>*" /\>  
+         <add key="BamServer" value="*\<ServerName\>*" /\>  
   
-         <add key="BamDatabase" value="*\<DatabaseName>*" /\>  
+         <add key="BamDatabase" value="*\<DatabaseName\>*" /\>  
   
-         \<add key="MaxResultRows" value="2000" />  
+         \<add key="MaxResultRows" value="2000" /\>  
   
-         \</appSettings>  
+         \</appSettings\>  
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamQueryService\Web.Config.  
   
-         Replace the *\<ServerName>* string with the new server name and *\<DatabaseName>* with the new database name. Update the following connection strings:  
+         Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
   
-         \<appSettings>  
+         \<appSettings\>  
   
-         <add key="BamServer" value="*\<ServerName>*" /\>  
+         \<add key="BamServer" value="*\<ServerName\>*" /\>  
   
-         <add key="BamDatabase" value="*<DatabaseName>*" />  
+         \<add key="BamDatabase" value="*\<DatabaseName\>*" /\>  
   
-         <add key="MaxResultRows" value="2000" />  
+         \<add key="MaxResultRows" value="2000" /\>  
   
-         </appSettings>  
+         \</appSettings\>  
   
 5.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   

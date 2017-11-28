@@ -17,9 +17,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # File Inventory for the Service Oriented Solution
-This section lists subdirectories and source files for the Service Oriented solution. The default installation directory for the Service Oriented solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO. Descriptions before the following tables replace this path with \<Install Directory>.  
+This section lists subdirectories and source files for the Service Oriented solution. The default installation directory for the Service Oriented solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO. Descriptions before the following tables replace this path with \<Install Directory\>.  
   
- Files in \<Install Directory>\BTSSoln  
+ Files in \<Install Directory\>\BTSSoln  
   
 |File|Description|  
 |----------|-----------------|  
@@ -28,14 +28,14 @@ This section lists subdirectories and source files for the Service Oriented solu
 |ReplacePKToken.wsf|Windows Script File for the ReplacePKToken VBScript.|  
 |SetupBTSSoln.bat|Creates a public key, updates references to the public key, and compiles the solution. For information about deploying the solution, see [Deploying the Service Oriented Solution](../core/deploying-the-service-oriented-solution.md).|  
   
- Files in \<Install Directory>\BTSSoln\BAM  
+ Files in \<Install Directory\>\BTSSoln\BAM  
   
 |File|Description|  
 |----------|-----------------|  
 |ServiceLevelTracking.xls|Excel spreadsheet for the BAM data.|  
 |ServiceLevelTracking.xml|Schema defining the types of the BAM data items.|  
   
- Files in \<Install Directory>\BTSSoln\Bindings  
+ Files in \<Install Directory\>\BTSSoln\Bindings  
   
 |File|Description|  
 |----------|-----------------|  
@@ -43,7 +43,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |InlineSOAOrchBindings.xml|Binding files for the inline version of the solution.|  
 |StubSOAOrchBindings.xml|Binding files for the stub version of the solution.|  
   
- Files in \<Install Directory>\BTSSoln\ConfigHelper  
+ Files in \<Install Directory\>\BTSSoln\ConfigHelper  
   
 |File|Description|  
 |----------|-----------------|  
@@ -52,21 +52,21 @@ This section lists subdirectories and source files for the Service Oriented solu
 |ConfigParameters.cs|C# code file for the SSO configuration helper methods.|  
 |ConfigPropertyBag.cs|C# code file for the property bag used by the SSO configuration helper methods.|  
   
- Files in \<Install Directory>\BTSSoln\ErrorHelper  
+ Files in \<Install Directory\>\BTSSoln\ErrorHelper  
   
 |File|Description|  
 |----------|-----------------|  
 |CustomerServiceErrors.cs|C# code file for the customer service errors.|  
 |ErrorHelper.csproj|C# project file.|  
   
- Files in \<Install Directory>\BTSSoln\InPipeline  
+ Files in \<Install Directory\>\BTSSoln\InPipeline  
   
 |File|Description|  
 |----------|-----------------|  
 |InPipeline.btp|Receive pipeline that adds an SSO ticket to the message.|  
 |InPipeline.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\BTSSoln\InPipelineComp  
+ Files in \<Install Directory\>\BTSSoln\InPipelineComp  
   
 |File|Description|  
 |----------|-----------------|  
@@ -76,7 +76,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |SSOTicketIssuer.resx|Resource file.|  
 |SSOTicketIssuerIcon.bmp|Icon file for pipeline component.|  
   
- Files in \<Install Directory>\BTSSoln\Maps  
+ Files in \<Install Directory\>\BTSSoln\Maps  
   
 |File|Description|  
 |----------|-----------------|  
@@ -91,7 +91,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |CustomerServiceRequest_To_PendingTransactionsRequest.btm|Map to convert customer service request to a message to request the pending transaction information.|  
 |Maps.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Adapter  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Adapter  
   
 |File|Description|  
 |----------|-----------------|  
@@ -100,7 +100,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |CustomerServiceReceiveSend.odx|Adapter version of orchestration serving as front-end to the **CustomerService** orchestration.|  
 |Orchestrations.Adapter.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Adapter\Web References\PendTransWS  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Adapter\Web References\PendTransWS  
   
 |File|Description|  
 |----------|-----------------|  
@@ -112,7 +112,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |Reference.xsd|Generated file.|  
 |Reference1.xsd|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS  
   
 |File|Description|  
 |----------|-----------------|  
@@ -123,7 +123,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubSAPWS.disco|Generated file.|  
 |StubSAPWS.wsdl|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Inline  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Inline  
   
 |File|Description|  
 |----------|-----------------|  
@@ -132,7 +132,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |CustomerServiceReceiveSend.odx|Inline version of orchestration serving as front-end to the **CustomerService** orchestration.|  
 |Orchestrations.Inline.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Stub  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Stub  
   
 |File|Description|  
 |----------|-----------------|  
@@ -140,7 +140,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |CustomerServiceNativeRequestResponse.odx|Stub version of orchestration serving as front-end to the **CustomerService** orchestration.|  
 |Orchestrations.Stub.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS  
   
 |File|Description|  
 |----------|-----------------|  
@@ -152,7 +152,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubPendTransWS.disco|Generated file.|  
 |StubPendTransWS.wsdl|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS  
   
 |File|Description|  
 |----------|-----------------|  
@@ -164,7 +164,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubPmntTrckWS.disco|Generated file.|  
 |StubPmntTrckWS.wsdl|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\Orchestrations\Stub\Web References\StubSAPWS  
+ Files in \<Install Directory\>\BTSSoln\Orchestrations\Stub\Web References\StubSAPWS  
   
 |File|Description|  
 |----------|-----------------|  
@@ -175,7 +175,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubSAPWS.disco|Generated file.|  
 |StubSAPWS.wsdl|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\OrchProxy\Adapter  
+ Files in \<Install Directory\>\BTSSoln\OrchProxy\Adapter  
   
 |File|Description|  
 |----------|-----------------|  
@@ -187,7 +187,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |Web.config|Generated file.|  
 |WsdlExtension.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\OrchProxy\Adapter\app_code  
+ Files in \<Install Directory\>\BTSSoln\OrchProxy\Adapter\app_code  
   
 |File|Description|  
 |----------|-----------------|  
@@ -196,7 +196,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |datatypes.cs|Generated file.|  
 |global.asax.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\OrchProxy\Inline  
+ Files in \<Install Directory\>\BTSSoln\OrchProxy\Inline  
   
 |File|Description|  
 |----------|-----------------|  
@@ -208,7 +208,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |Web.config|Generated file.|  
 |WsdlExtension.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\OrchProxy\Inline\app_code  
+ Files in \<Install Directory\>\BTSSoln\OrchProxy\Inline\app_code  
   
 |File|Description|  
 |----------|-----------------|  
@@ -217,7 +217,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |datatypes.cs|Generated file.|  
 |global.asax.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\OrchProxy\Stub  
+ Files in \<Install Directory\>\BTSSoln\OrchProxy\Stub  
   
 |File|Description|  
 |----------|-----------------|  
@@ -229,7 +229,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |Web.config|Generated file.|  
 |WsdlExtension.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\OrchProxy\Stub\app_code  
+ Files in \<Install Directory\>\BTSSoln\OrchProxy\Stub\app_code  
   
 |File|Description|  
 |----------|-----------------|  
@@ -238,7 +238,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |datatypes.cs|Generated file.|  
 |global.asax.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\PaymentTracker  
+ Files in \<Install Directory\>\BTSSoln\PaymentTracker  
   
 |File|Description|  
 |----------|-----------------|  
@@ -250,7 +250,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |PaymentTrackerSimulator.cs|C# code for the server for the payment tracker simulator.|  
 |runit.cmd|Command file to start the payment tracker simulator.|  
   
- Files in \<Install Directory>\BTSSoln\PaymentTrackerCall  
+ Files in \<Install Directory\>\BTSSoln\PaymentTrackerCall  
   
 |File|Description|  
 |----------|-----------------|  
@@ -259,7 +259,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |PaymentTrackerCall.csproj|C# project file.|  
 |PaymentTrackerCaller.cs|C# code to call the payment tracking system inline from orchestrations.|  
   
- Files in \<Install Directory>\BTSSoln\PendTransCall  
+ Files in \<Install Directory\>\BTSSoln\PendTransCall  
   
 |File|Description|  
 |----------|-----------------|  
@@ -271,7 +271,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |PendTransCall.csproj|C# project file.|  
 |WebServiceReference.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\PmTrkPipeline  
+ Files in \<Install Directory\>\BTSSoln\PmTrkPipeline  
   
 |File|Description|  
 |----------|-----------------|  
@@ -279,7 +279,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |PaymentTrackerSendPipeline.btp|Send pipeline for the payment tracking system.|  
 |PmTrkPipeline.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\BTSSoln\PmTrkPipelineComp  
+ Files in \<Install Directory\>\BTSSoln\PmTrkPipelineComp  
   
 |File|Description|  
 |----------|-----------------|  
@@ -288,7 +288,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |MQSeriesHeaderSetter.resx|Resource file.|  
 |PmTrkPipelineComp.csproj|C# project file.|  
   
- Files in \<Install Directory>\BTSSoln\SchemaClasses  
+ Files in \<Install Directory\>\BTSSoln\SchemaClasses  
   
 |File|Description|  
 |----------|-----------------|  
@@ -302,7 +302,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |PendingTransactionsResponse.cs|Generated from the corresponding schema (.xsd) file.|  
 |SchemaClasses.csproj|C# project file.|  
   
- Files in \<Install Directory>\BTSSoln\Schemas  
+ Files in \<Install Directory\>\BTSSoln\Schemas  
   
 |File|Description|  
 |----------|-----------------|  
@@ -316,7 +316,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |PendingTransactionsResponse.xsd|Schema for the pending transaction response message.|  
 |Schemas.btproj|BizTalk project file.|  
   
- Files in \<Install Directory>\BTSSoln\Scripts  
+ Files in \<Install Directory\>\BTSSoln\Scripts  
   
 |File|Description|  
 |----------|-----------------|  
@@ -338,7 +338,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |UnEnlistAll.vbs|Command file to unenlist all orcehstrations.|  
 |UnEnlistStub.vbs|Command file to unenlist stub versions of orcehstrations.|  
   
- Files in \<Install Directory>\BTSSoln\ServiceLevelTracking  
+ Files in \<Install Directory\>\BTSSoln\ServiceLevelTracking  
   
 |File|Description|  
 |----------|-----------------|  
@@ -346,7 +346,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |ServiceLevelTracking.cs|C# helper functions for service level BAM tracking.|  
 |ServiceLevelTracking.csproj|C# project file.|  
   
- Files in \<Install Directory>\BTSSoln\SimpleClient  
+ Files in \<Install Directory\>\BTSSoln\SimpleClient  
   
 |File|Description|  
 |----------|-----------------|  
@@ -361,7 +361,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |SimpleClient.resx|Resource file.|  
 |WebServiceReferences.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\StubWebServices\PaymentTrack  
+ Files in \<Install Directory\>\BTSSoln\StubWebServices\PaymentTrack  
   
 |File|Description|  
 |----------|-----------------|  
@@ -372,7 +372,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubPmntTrckWS.asmx.resx|Generated file.|  
 |Web.config|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\StubWebServices\PaymentTrack\app_code  
+ Files in \<Install Directory\>\BTSSoln\StubWebServices\PaymentTrack\app_code  
   
 |File|Description|  
 |----------|-----------------|  
@@ -380,7 +380,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |global.asax.cs|Generated file.|  
 |StubPmntTrckWS.asmx.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\StubWebServices\PendingTrans  
+ Files in \<Install Directory\>\BTSSoln\StubWebServices\PendingTrans  
   
 |File|Description|  
 |----------|-----------------|  
@@ -391,7 +391,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubPendTransWS.csproj.webinfo|Generated file.|  
 |Web.config|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\StubWebServices\PendingTrans\app_code  
+ Files in \<Install Directory\>\BTSSoln\StubWebServices\PendingTrans\app_code  
   
 |File|Description|  
 |----------|-----------------|  
@@ -399,7 +399,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |global.asax.cs|Generated file.|  
 |StubPendTransWS.asmx.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\StubWebServices\SAP  
+ Files in \<Install Directory\>\BTSSoln\StubWebServices\SAP  
   
 |File|Description|  
 |----------|-----------------|  
@@ -410,7 +410,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubSAPWS.asmx.resx|Generated file.|  
 |Web.config|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\StubWebServices\SAP\app_code  
+ Files in \<Install Directory\>\BTSSoln\StubWebServices\SAP\app_code  
   
 |File|Description|  
 |----------|-----------------|  
@@ -418,7 +418,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |global.asax.cs|Generated file.|  
 |stubsapws.asmx.cs|Generated file.|  
   
- Files in \<Install Directory>\BTSSoln\StubWebServices\StubSAPCall  
+ Files in \<Install Directory\>\BTSSoln\StubWebServices\StubSAPCall  
   
 |File|Description|  
 |----------|-----------------|  
@@ -428,7 +428,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |StubSAPCallHelper.cs|C# code for a helper assembly to call the stub SAP web service.|  
 |StubSAPWSProxy.cs|C# code for a helper assembly to call the stub SAP web service.|  
   
- Files in \<Install Directory>\BTSSoln\Utilities  
+ Files in \<Install Directory\>\BTSSoln\Utilities  
   
 |File|Description|  
 |----------|-----------------|  
@@ -437,14 +437,14 @@ This section lists subdirectories and source files for the Service Oriented solu
 |ReceivePipelineHelper.cs|C# code for helper assembly for calling pipelines from orchestratoins.|  
 |Utilities.csproj|C# project file.|  
   
- Files in \<Install Directory>\MFAccess  
+ Files in \<Install Directory\>\MFAccess  
   
 |File|Description|  
 |----------|-----------------|  
 |Microsoft.Samples.BizTalk.WoodgroveBank.MainframeAccess.sln|Visual Studio solution file.|  
 |SetupMFAccess.bat|Batch file to build the mainframe access components of the solution.|  
   
- Files in \<Install Directory>\MFAccess\HISTIComponent  
+ Files in \<Install Directory\>\MFAccess\HISTIComponent  
   
 |File|Description|  
 |----------|-----------------|  
@@ -453,7 +453,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |MainFrameProgramVTCS2Description.txt|Transaction Integrator export file.|  
 |SOHISTIUsingCOM.TLB|Type library.|  
   
- Files in \<Install Directory>\MFAccess\HISTISimpleTester  
+ Files in \<Install Directory\>\MFAccess\HISTISimpleTester  
   
 |File|Description|  
 |----------|-----------------|  
@@ -464,7 +464,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |HISTISimpleTester.csproj|C# project file.|  
 |Interop.SOHISTIUsingCOM.dll.reg|DLL registration file.|  
   
- Files in \<Install Directory>\MFAccess\PendingTransactions  
+ Files in \<Install Directory\>\MFAccess\PendingTransactions  
   
 |File|Description|  
 |----------|-----------------|  
@@ -479,7 +479,7 @@ This section lists subdirectories and source files for the Service Oriented solu
 |PendTransWS.asmx.resx|Generated file.|  
 |Web.config|Generated file.|  
   
- Files in \<Install Directory>\MFAccess\SchemaClasses  
+ Files in \<Install Directory\>\MFAccess\SchemaClasses  
   
 |File|Description|  
 |----------|-----------------|  

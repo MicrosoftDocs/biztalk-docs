@@ -41,7 +41,7 @@ It is strongly recommended that you review the following known issues when you d
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports many different encodings for XML and flat file documents, for example UTF-16, UTF-8, Simplified Chinese GBK, Simplified Chinese GB18030, and so on.  
   
- For inbound documents, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can recognize the encoding declaration in XML documents, such as "\<?xml version="1.0" encoding="GB2312" ?>". The flat file schema has a **Code Page** property to indicate the encoding of the inbound flat file documents.  
+ For inbound documents, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can recognize the encoding declaration in XML documents, such as "\<?xml version="1.0" encoding="GB2312" ?\>". The flat file schema has a **Code Page** property to indicate the encoding of the inbound flat file documents.  
   
  For outbound documents, XML and flat file assemblers use the **Target charset** property. If this property is specified, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] converts the outbound documents to the specified character set regardless of the original one. If no **Target charset** property is set, XML uses the UTF-8 protocol and flat files use the code page specified in the flat file schema.  
   

@@ -17,7 +17,7 @@ manager: "anneta"
 This topic provides an overview of the test application; a description of the testing methodology used, and lists the key performance indicators (KPIs) captured during load testing.  
   
 ## Test Application  
- A synchronous request-response application was used to compare performance of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on Hyper-V to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on physical hardware. This application was used to illustrate performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution that has been tuned for low latency. Low latency messaging is critical for certain scenarios such as online banking where a client sends a request and expects a response message within a very short interval (for example \< 3 seconds).  
+ A synchronous request-response application was used to compare performance of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on Hyper-V to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on physical hardware. This application was used to illustrate performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution that has been tuned for low latency. Low latency messaging is critical for certain scenarios such as online banking where a client sends a request and expects a response message within a very short interval (for example < 3 seconds).  
   
  The figure below illustrates the high-level architecture used. Visual Studio Team System (VSTS) 2008 Test Load Agent invoked a custom test class, which used the WCF transport to generate load against [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application in this scenario was exposed via a WCF-BasicHttp request-response receive location. VSTS 2008 Test Load Agent was used as the test client because of the great flexibility that it provides, including the capability to configure the number of messages sent in total, number of simultaneous threads, and the sleep interval between requests sent.  
   
@@ -125,7 +125,7 @@ Test Application Orchestration
   
 -   **Orchestrations Completed per Second –** As reported by the **XLANG/s Orchestrations(BizTalkServerApplication)\Orchestrations completed/sec** Performance Monitor counter. This counter provides a good measure of the throughput of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution.  
   
--   **% of Messages Processed \< 3 seconds –** To record the total number of messages processed within 3 seconds during the test.  
+-   **% of Messages Processed < 3 seconds –** To record the total number of messages processed within 3 seconds during the test.  
   
  VSTS 2008 Load Test was used to generate a consistent load throughout all the tests. The following test run settings and load pattern were modified during testing to adjust the load profile of each test:  
   

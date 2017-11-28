@@ -51,7 +51,7 @@ The Business Rules Hello World2 sample extends the Business Rules Hello World1 s
 >  For important information about all samples in this SDK, see [Samples](../core/samples-in-the-sdk.md).  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\Business Rules\Business Rules Hello World2\  
+ *\<Samples Path\>*\Business Rules\Business Rules Hello World2\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -70,7 +70,7 @@ The Business Rules Hello World2 sample extends the Business Rules Hello World1 s
   
 1.  In a command window, navigate to the following folder:  
   
-     *\<Samples Path>*\Business Rules\Business Rules Hello World2\  
+     *\<Samples Path\>*\Business Rules\Business Rules Hello World2\  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -89,7 +89,7 @@ The Business Rules Hello World2 sample extends the Business Rules Hello World1 s
   
 1.  In a command window, navigate to the following folder:  
   
-     *\<Samples Path>*\Business Rules\Business Rules Hello World2\bin\Debug\  
+     *\<Samples Path\>*\Business Rules\Business Rules Hello World2\bin\Debug\  
   
 2.  In the command window, type the name of the file for this sample (**BusinessRulesHelloWorld2.exe**), and then press ENTER.  
   

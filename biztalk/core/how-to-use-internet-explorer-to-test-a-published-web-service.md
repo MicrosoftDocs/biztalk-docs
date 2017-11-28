@@ -59,7 +59,7 @@ You can test your published Web service without writing a Web client application
     > [!NOTE]
     >  You can find the Web.config file in the directory that you configured for the IIS virtual root that contains the Web service.  
   
-2.  Find the \<protocols> section:  
+2.  Find the \<protocols\> section:  
   
     ```  
     <webServices>  
@@ -72,7 +72,7 @@ You can test your published Web service without writing a Web client application
     </webServices>  
     ```  
   
-3.  For testing HTTP-GET, HTTP-POST, or HTTP-POST from the local computer, remove the corresponding line from the \<protocols> section.  
+3.  For testing HTTP-GET, HTTP-POST, or HTTP-POST from the local computer, remove the corresponding line from the \<protocols\> section.  
   
  For more information about the configuration options, see "Configuration Options for XML Web Services Created Using ASP.NET" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [http://go.microsoft.com/fwlink/?LinkId=62264](http://go.microsoft.com/fwlink/?LinkId=62264).  
   

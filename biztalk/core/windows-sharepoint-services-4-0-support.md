@@ -37,7 +37,7 @@ The Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](..
 |Property|Value|  
 |--------------|-----------|  
 |Destination Folder URL|Destination folder URL of the Posts list, relative to the SharePoint site, for example "Lists/Posts".|  
-|SharePoint Site URL|URL of the Windows SharePoint Services 4.0 blog site, for example http://*\<servername>*/sites/blog/ where *\<servername>* is a placeholder for the actual name of the Web server.|  
+|SharePoint Site URL|URL of the Windows SharePoint Services 4.0 blog site, for example http://*\<servername\>*/sites/blog/ where *\<servername\>* is a placeholder for the actual name of the Web server.|  
   
  Then set the values for the **Category**, **Published**, **Title**, and **Body** properties for the blog posting by setting corresponding values in the WSS.ConfigPropertiesXml context property of the message. This can be done with a custom pipeline or in an orchestration. For example, the following expression in an orchestration would set values in the WSS.ConfigPropertiesXml context property of the Message_Out message.  
   
@@ -82,7 +82,7 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
 |Property|Value|  
 |--------------|-----------|  
 |Destination Folder URL|URL of the Wiki site home page, relative to the SharePoint site, for example "wikiSP".|  
-|SharePoint Site URL|URL of the Windows SharePoint Services 4.0 Wiki site, for example http://*\<servername>*/sites/wiki/ where *\<servername>* is a placeholder for the actual name of the web server.|  
+|SharePoint Site URL|URL of the Windows SharePoint Services 4.0 Wiki site, for example http://*\<servername\>*/sites/wiki/ where *\<servername\>* is a placeholder for the actual name of the web server.|  
   
  Then set the value for the **Wiki Content** property for the Wiki page by setting the corresponding value in the WSS.ConfigPropertiesXml context property of the message. This can be done with a custom pipeline or in an orchestration. For example, the following expression in an orchestration would set values in the WSS.ConfigPropertiesXml context property of the Message_Out message:  
   

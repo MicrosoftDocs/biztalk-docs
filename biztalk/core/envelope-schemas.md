@@ -19,7 +19,7 @@ manager: "anneta"
 ## Overview
 You can create an envelope schema in all of the same ways that you can create an XML schema for a business document. You can create a schema from a well-formed XML envelope instance message, or from Document Type Definition (DTD) or XML-Data reduced (XDR) representations of the envelope schema. Or, you can create a new schema, either in conjunction with other schemas or not. Because envelope schemas are generally much smaller and less complicated than most business document schemas, creating new envelope schemas is usually a viable alternative.  
   
- To define a schema as an envelope schema, you need to set the **Envelope** property of the **Schema** node to the value **Yes**. When you define an envelope schema, you should point the envelope's **Body XPath** to the parent node that contains only the \<any> child element. In order for the XML assembler to use the envelope, the parent node must not contain any other elements.  
+ To define a schema as an envelope schema, you need to set the **Envelope** property of the **Schema** node to the value **Yes**. When you define an envelope schema, you should point the envelope's **Body XPath** to the parent node that contains only the \<any\> child element. In order for the XML assembler to use the envelope, the parent node must not contain any other elements.  
   
  When you set **Envelope** property to **Yes**, it means that the actual message content of the XML instance message (called the body of the message) is present somewhere inside the root **Record** node of this schema, as specified by the **Body XPath** property of that node. Therefore, you must also set additional properties based on a variety of conditions:  
   

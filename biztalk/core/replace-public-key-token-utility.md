@@ -60,13 +60,13 @@ This utility can be used to replace either a public key token or variable in a f
   
 3.  From a command prompt, run the following command:  
   
-4.  **ReplacePKT \<** *.snk file* **> \<** *old public key token* **> \<** *file to replace* **>**  
+4.  **ReplacePKT \<** *.snk file* **\> \<** *old public key token* **\> \<** *file to replace* **\>**  
   
     |Option|Description|  
     |------------|-----------------|  
-    |**\<** *.snk file* **>**|Full path of the .snk file containing the public key token that you want substitute for the existing public key token or placeholder.|  
-    |**\<** *old public key token* **>**|Public key token or placeholder that you want to replace.|  
-    |**\<** *file to replace* **>**|Full path of the file in which you want to replace the public key token or placeholder.|  
+    |**\<** *.snk file* **\>**|Full path of the .snk file containing the public key token that you want substitute for the existing public key token or placeholder.|  
+    |**\<** *old public key token* **\>**|Public key token or placeholder that you want to replace.|  
+    |**\<** *file to replace* **\>**|Full path of the file in which you want to replace the public key token or placeholder.|  
   
      Example:  
   
@@ -82,7 +82,7 @@ This utility can be used to replace either a public key token or variable in a f
     ReplacePKT <filename>.snk  
     ```  
   
-     Where \<*filename*> is the name of the .snk file from which to derive the public key token.  
+     Where \<*filename*\> is the name of the .snk file from which to derive the public key token.  
   
     ```  
     Example: ReplacePKT.bat MyToken.snk  

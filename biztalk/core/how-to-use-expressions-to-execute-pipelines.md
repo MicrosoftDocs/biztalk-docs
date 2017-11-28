@@ -148,9 +148,9 @@ manager: "anneta"
   
  The **Message** property of the **XLANGPipelineManagerException** class contains details of the pipeline's execution error. This detail is in the following format:  
   
--   There was a failure executing pipeline \<pipeline type>.  Error details \<formatted error message>.  
+-   There was a failure executing pipeline \<pipeline type\>.  Error details \<formatted error message\>.  
   
- In this message, \<pipeline type> is the name of the pipeline class and \<formatted error message> is a description of the specific failure that occurred during pipeline execution.  
+ In this message, \<pipeline type\> is the name of the pipeline class and \<formatted error message\> is a description of the specific failure that occurred during pipeline execution.  
   
  For example, if an orchestration calls a receive pipeline and that pipeline's execution fails because none of the pipeline's components recognizes the message, the values of the **XLANGPipelineManagerException**'s properties would be:  
   
@@ -163,5 +163,5 @@ manager: "anneta"
   
 |XLANGPipelineManagerException property|Value|  
 |--------------------------------------------|-----------|  
-|Message|There was a failure executing the send pipeline "MyPipelines.SendPipeline".  Error details:  "Failed to validate the document: "The \<element name> element is invalid - The value \<element value> is invalid according to its datatype 'String' - The Pattern constraint failed.""|  
+|Message|There was a failure executing the send pipeline "MyPipelines.SendPipeline".  Error details:  "Failed to validate the document: "The \<element name\> element is invalid - The value \<element value\> is invalid according to its datatype 'String' - The Pattern constraint failed.""|  
 |Component|“Microsoft.BizTalk.Component.XmlValidator”|

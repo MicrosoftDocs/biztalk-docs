@@ -27,7 +27,7 @@ The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper. T
  The Extending Mapper sample uses content-based routing (CBR) and does not use an orchestration. By specifying a filter on the sample send port, it is connected directly to the sample receive port. A map is specified on the send port to be applied to the processed document.  
   
 ## Where to Find This Sample  
- *\<Samples Path>*\XmlTools\ExtendingMapper  
+ *\<Samples Path\>*\XmlTools\ExtendingMapper  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -59,7 +59,7 @@ The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper. T
   
 1.  In a command window, change directory (**cd**) to the following folder:  
   
-     *\<Samples Path>*\XmlTools\ExtendingMapper  
+     *\<Samples Path\>*\XmlTools\ExtendingMapper  
   
 2.  Run the file Setup.bat, which performs the following actions:  
   
@@ -93,13 +93,13 @@ The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper. T
     > [!IMPORTANT]
     >  If you want to use Scriptor_InlineXsltCallingExternalAssembly.btm, you must edit the ExternalAssembly.xml file. ExternalAssembly.xml is used by BizTalk to map a mapper extension object registered namespace to a .NET assembly. Because the dependent assembly is referenced by its fully qualified name (including its public key token, which is automatically generated), you must update this value. If you do not want to use Scriptor_InlineXsltCallingExternalAssembly.btm, you do not need to complete steps a through e.  
   
-4.  In Windows Explorer, navigate to \<Windows folder>\assembly\\.  
+4.  In Windows Explorer, navigate to \<Windows folder\>\assembly\\.  
   
     1.  Right-click **Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary** and select **Properties**.  
   
     2.  Copy the public key token value.  
   
-    3.  In a text editor, open *\<Samples Path>*\XML Tools\ExtendingMapper\ExternalAssembly.xml.  
+    3.  In a text editor, open *\<Samples Path\>*\XML Tools\ExtendingMapper\ExternalAssembly.xml.  
   
     4.  Select the **AssemblyName="Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=68496d20c737d84b"**attribute, and replace the **PublicKeyToken** value with the public key token value you copied in step c.  
   
@@ -112,7 +112,7 @@ The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper. T
   
 1.  Click **Start**, select **All Programs**, select **Microsoft BizTalk Server**, and then select **BizTalk Server Administration**.  
   
-2.  In the BizTalk Server Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername>:\<management database>]**, and click to expand **Applications**.  
+2.  In the BizTalk Server Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername\>:\<management database\>]**, and click to expand **Applications**.  
   
 3.  Click to expand **ExtendingMapperApplication**, and then click **Send Ports**.  
   
@@ -137,9 +137,9 @@ The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper. T
   
 #### To run this sample  
   
-1.  Copy the input file ExtendingMapper.xml into the input folder at *\<Samples Path>*\XmlTools\ExtendingMapper\In.  
+1.  Copy the input file ExtendingMapper.xml into the input folder at *\<Samples Path\>*\XmlTools\ExtendingMapper\In.  
   
-2.  Notice how the file is transformed and routed to the *\<Samples Path>*\XmlTools\ExtendingMapper\Out folder. The transformation that occurs is based on the map you applied.  
+2.  Notice how the file is transformed and routed to the *\<Samples Path\>*\XmlTools\ExtendingMapper\Out folder. The transformation that occurs is based on the map you applied.  
   
 ## See Also  
  [XML Tools (BizTalk Server Samples Folder)](../core/xml-tools-biztalk-server-samples-folder.md)

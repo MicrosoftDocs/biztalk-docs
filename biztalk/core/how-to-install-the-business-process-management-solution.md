@@ -258,8 +258,8 @@ The following steps describe how to prepare the computer for installing the Busi
         |Property Name|Value|  
         |-------------------|-----------|  
         |**Server**|`localhost`|  
-        |**User Name**|\<*BizTalk service account name*>|  
-        |**Password**|\<*BizTalk service account password*>|  
+        |**User Name**|\<*BizTalk service account name*\>|  
+        |**Password**|\<*BizTalk service account password*\>|  
   
 6.  Run the BPM Solution. For more information about running the solution, see [How to Run the Business Process Management Solution](../core/how-to-run-the-business-process-management-solution.md).  
   

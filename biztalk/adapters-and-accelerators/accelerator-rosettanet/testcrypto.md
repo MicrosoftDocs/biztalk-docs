@@ -25,7 +25,7 @@ You use the TestCrypto utility to troubleshoot failures in decrypting messages. 
  For more information about retrieving a message from `MessageStorageIn`, see [GetMessages Sample](../../adapters-and-accelerators/accelerator-rosettanet/getmessages-sample.md).  
   
 ## Location in SDK  
- \<*drive*>\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK  
+ \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK  
   
 ## Running TestCrypto  
   
@@ -33,9 +33,9 @@ You use the TestCrypto utility to troubleshoot failures in decrypting messages. 
   
 1.  Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Command Prompt**.  
   
-2.  Move to \<*drive*>\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK.  
+2.  Move to \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK.  
   
-3.  At the command prompt, type **TestCrypto.exe \<filename>**, and then press ENTER.  
+3.  At the command prompt, type **TestCrypto.exe \<filename\>**, and then press ENTER.  
   
 ## Remarks  
  Decryption fails if the certificate that the utility finds is not the required and valid certificate, or if the utility cannot find the certificate.  

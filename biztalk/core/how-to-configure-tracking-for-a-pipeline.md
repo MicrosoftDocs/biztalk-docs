@@ -47,7 +47,7 @@ This topic describes how to use the BizTalk Server Administration to configure t
   
 3.  Do one of the following:  
   
-    -   To configure tracking for one of the default BizTalk pipelines, expand \<All Artifacts>.  
+    -   To configure tracking for one of the default BizTalk pipelines, expand \<All Artifacts\>.  
   
     -   To configure tracking for a custom pipeline that has been deployed into a BizTalk application, expand the application containing the pipeline.  
   

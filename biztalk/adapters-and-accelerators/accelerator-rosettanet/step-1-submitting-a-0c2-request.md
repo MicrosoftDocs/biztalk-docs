@@ -33,7 +33,7 @@ In this step, you prepare and submit a request using the Partner Interface Proce
     |**Pip Instance ID**|Type **0C2_Test**. **Important:**  You must make sure that the **PIP** is unique for each message that you submit to avoid duplicate message ID errors. If you run the 0C2 test in the future, you will have to change this field.|  
     |**Message Category**|Type **Action**.|  
   
-3.  Using Notepad or another text editor, open the 0C2_Request.xml file in the \<*drive*>:\Program Files\Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances folder, and then copy and paste the contents into the **Service Content** field in LOBWebApplication.  
+3.  Using Notepad or another text editor, open the 0C2_Request.xml file in the \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances folder, and then copy and paste the contents into the **Service Content** field in LOBWebApplication.  
   
     > [!NOTE]
     >  To delete the existing text in the Service Content field of the Submit Message form, place the cursor at the beginning of the text, press and hold the **Shift** and **Ctrl** buttons, click **End**, and then click **Delete**.  
@@ -58,7 +58,7 @@ In this step, you prepare and submit a request using the Partner Interface Proce
   
 3.  In the Microsoft SQL Server Management Studio, click **New Query**.  
   
-4.  In the \<table> text dialog box, select **BTARNDATA** from the list, and then click **OK**.  
+4.  In the \<table\> text dialog box, select **BTARNDATA** from the list, and then click **OK**.  
   
 5.  In the SQL window, type the following SQL statement:  
   

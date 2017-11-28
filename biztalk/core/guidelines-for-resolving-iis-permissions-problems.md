@@ -37,7 +37,7 @@ manager: "anneta"
   
 1.  Click **Start**, then **All Programs**, and click **Internet Information Services (IIS) 7 Manager**.  
   
-2.  In Internet Information Services (IIS) Manager, expand *\<computer name>***(User account)** and click **Application Pools**.  
+2.  In Internet Information Services (IIS) Manager, expand *\<computer name\>***(User account)** and click **Application Pools**.  
   
 3.  Right-click an application pool and click **View Applications** to see the applications associated with the application pool.  
   
@@ -64,7 +64,7 @@ manager: "anneta"
   
 #### To set user access rights for a virtual directory in IIS 7.0  
   
-1.  In the Internet Information Services (IIS) Manager, expand *\<computer name>*, **Sites**, and **Default Web Site** in the **Connections** pane.  
+1.  In the Internet Information Services (IIS) Manager, expand *\<computer name\>*, **Sites**, and **Default Web Site** in the **Connections** pane.  
   
 2.  Click to select the virtual directory and click the **Features View** at the bottom of the Workspace pane to list the configurable features for the virtual directory.  
   

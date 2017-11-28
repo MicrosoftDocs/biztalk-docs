@@ -28,7 +28,7 @@ This topic describes the procedures for configuring the virtual directory and ve
   
 2.  Click **Start**, point to **Programs**, click **Administrative Tools**, and click **Internet Information Services (IIS) Manager**.  
   
-3.  Expand **\<server name>** and then expand **Sites**.  
+3.  Expand **\<server name\>** and then expand **Sites**.  
   
 4.  Right-click **Default Web Site** and click **Add Virtual Directory**.  
   

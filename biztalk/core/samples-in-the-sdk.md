@@ -20,7 +20,7 @@ manager: "anneta"
 ## Folder paths
 This section describes more than 30 samples included in the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Software Development Kit (SDK). The section provides detailed information about each sample, including instructions for building the sample, how to run it, and what results to expect.  
   
- The samples documentation uses the path abbreviation \<*Samples Path*> to denote the path to the samples in your installation. The default for the path can vary based on decisions made during installation. The following table provides the default path for common installation scenarios.  
+ The samples documentation uses the path abbreviation \<*Samples Path*\> to denote the path to the samples in your installation. The default for the path can vary based on decisions made during installation. The following table provides the default path for common installation scenarios.  
   
 |Description|Path|  
 |-----------------|----------|  

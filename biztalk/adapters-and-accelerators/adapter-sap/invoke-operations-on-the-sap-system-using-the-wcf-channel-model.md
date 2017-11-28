@@ -41,7 +41,7 @@ You invoke operations on the [!INCLUDE[adaptersap_short](../../includes/adapters
   
 #### How to invoke an operation by using an instance of IRequestChannel  
   
-1.  Build a channel factory (**ChannelFactory\<IRequestChannel>**). To do this, you must specify a binding (**SAPBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. You should set any binding properties required for the operations that you will send before you open the factory. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
+1.  Build a channel factory (**ChannelFactory\<IRequestChannel\>**). To do this, you must specify a binding (**SAPBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. You should set any binding properties required for the operations that you will send before you open the factory. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
   
     ```  
     // Create a binding  
@@ -75,7 +75,7 @@ You invoke operations on the [!INCLUDE[adaptersap_short](../../includes/adapters
 5.  Create a **Message** instance for the target operation. Be sure that the message action for the target operation is specified. In this example, the message body is passed by creating an **XmlReader** over a string. The target operation invokes the SD_RFC_CUSTOMER_GET RFC on an SAP system.  
   
     ```  
-    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
     //create an XML reader from the input XML  
     XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -121,7 +121,7 @@ You invoke operations on the [!INCLUDE[adaptersap_short](../../includes/adapters
   
  You follow the same steps to send a message using the **IOutputChannel** shape except:  
   
--   You create a **ChannelFactory\<IOutputChannel>** in step 1.  
+-   You create a **ChannelFactory\<IOutputChannel\>** in step 1.  
   
 -   You call the **Send** method on the channel in step 6. `channel.Send(messageIn);`.  
   
@@ -174,7 +174,7 @@ namespace SapRfcClientCM
             //create an XML message to send to the SAP system  
             //We are invoking the SD_RFC_CUSTOMER_GET RFC.  
             //The XML below specifies that we want to search for customers with names starting with "AB"  
-            string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+            string inputXml = "<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
             //create an XML reader from the input XML  
             XmlReader readerOut = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  

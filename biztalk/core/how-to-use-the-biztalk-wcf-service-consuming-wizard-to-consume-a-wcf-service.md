@@ -26,7 +26,7 @@ The BizTalk Adapter Framework provides a way to add adapter schemas and BizTalk 
   
 1.  In your Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, in Solution Explorer, right-click your project, click **Add**, and then click **Add Generated Items**.  
   
-2.  In the **Add Generated Items - \<***Project name***>** dialog box, in the **Templates** section, select **Consume WCF Service**, and then click **Add**.  
+2.  In the **Add Generated Items - \<***Project name***\>** dialog box, in the **Templates** section, select **Consume WCF Service**, and then click **Add**.  
   
 3.  On the **Welcome to the BizTalk WCF Service Consuming Wizard** page, click **Next**.  
   

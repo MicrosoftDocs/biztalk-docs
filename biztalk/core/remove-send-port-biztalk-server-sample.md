@@ -42,7 +42,7 @@ The Remove Send Port sample demonstrates how to unenlist and remove one or more 
 ## Where to Find This Sample  
  The sample is located in the following SDK location:  
   
- \<*Samples Path*>\Admin\WMI\Remove Send Port\  
+ \<*Samples Path*\>\Admin\WMI\Remove Send Port\  
   
  The following table shows the files in this sample and describes their purpose.  
   
@@ -59,12 +59,12 @@ The Remove Send Port sample demonstrates how to unenlist and remove one or more 
   
 1.  In a command window, navigate to the following folder:  
   
-     \<*Samples Path*>\Admin\WMI\Remove Receive Port\VBScript\  
+     \<*Samples Path*\>\Admin\WMI\Remove Receive Port\VBScript\  
   
 2.  Run the file RemoveSendPort.vbs using the cscript program, passing the following command-line argument:  
   
-     **\<**   
-     ***SendPortName* >.** The name of the send port(s) to remove. If the send port name contains spaces, enclose the name in quotes.  
+     **\<**
+     ***SendPortName* \>.** The name of the send port(s) to remove. If the send port name contains spaces, enclose the name in quotes.  
   
      For example:  
   
