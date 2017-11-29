@@ -26,13 +26,13 @@ This component lets you edit automatically any part of a multipart message withi
   
 #### To add the Message Editor Pipeline Component to an existing pipeline  
   
-1.  Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)].  
+1.  Start Visual Studio.  
   
 2.  On the **File** menu, point to **Open**, and then click **Project**.  
   
 3.  Move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, select **MessageEditor.csproj**, and then click **Open**.  
   
-4.  Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)] command prompt.  
+4.  Start Visual Studio command prompt.  
   
 5.  At the command prompt, move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
   

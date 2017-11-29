@@ -33,7 +33,7 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
     > [!NOTE]
     >  You will only have to perform steps 1 through 3 once after you install [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
   
-4.  Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)].  
+4.  Start Visual Studio.  
   
 5.  On the **File** menu, point to **New**, and then click **Project**.  
   
@@ -43,7 +43,7 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
   
 8.  In the **Name** box, type a project name, such as **MyCustomPIP**, and then click **OK**.  
   
-9. Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)] command prompt.  
+9. Start Visual Studio command prompt.  
   
 10. At the command prompt, move to the location entered in step 7, type **sn -k \<project name.snk\>**, and then press **Enter**.  
   

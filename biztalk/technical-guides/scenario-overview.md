@@ -32,7 +32,7 @@ This topic provides an overview of load testing completed by the BizTalk Server 
     2.  Quantify the impact of adding additional BizTalk MessageBox databases to a BizTalk Server group. For this testing, the performance of a BizTalk Server solution was measured when the group was configured to use either a single MessageBox database or four MessageBox databases.  
   
         > [!NOTE]  
-        >  Testing with two MessageBox databases was not done because there is little, if any, performance advantage when scaling from one to two MessageBox databases. In fact, scaling from one to two MessageBox databases can adversely affect performance. For more information about scaling out the MessageBox, see [Scaling Out the SQL Server Tier](../../core/scaling-up-the-sql-server-tier.md).
+        >  Testing with two MessageBox databases was not done because there is little, if any, performance advantage when scaling from one to two MessageBox databases. In fact, scaling from one to two MessageBox databases can adversely affect performance. For more information about scaling out the MessageBox, see [Scaling Out the SQL Server Tier](../core/scaling-up-the-sql-server-tier.md).
   
 2.  Provide sizing and scaling guidance for the following scenarios:  
   

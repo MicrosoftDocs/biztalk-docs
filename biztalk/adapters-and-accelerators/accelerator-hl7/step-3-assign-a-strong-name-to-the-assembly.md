@@ -23,7 +23,7 @@ In this step, you create and assign a strong name for the [!INCLUDE[btsBizTalkSe
   
 ### To assign a strong name to the assembly  
   
-1.  Start **[!INCLUDE[vs2012](../../includes/vs2012-md.md)] Command Prompt**.  
+1.  Start **Visual Studio Command Prompt**.  
   
     > [!NOTE]
     >  If you have already created a strong name key, you can reuse it.  

@@ -31,13 +31,13 @@ This pipeline component lets you examine all the parts of a multi-part message, 
   
 #### To deploy the Message Inspector Pipeline Component  
   
-1.  Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)].  
+1.  Start Visual Studio.  
   
 2.  On the **File** menu, point to **Open**, and then click **Project**.  
   
 3.  Move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component, select **MessageInspector.csproj**, and then click **Open**.  
   
-4.  Open the [!INCLUDE[vs2012](../../includes/vs2012-md.md)] command prompt.  
+4.  Open the Visual Studio command prompt.  
   
 5.  At the command prompt, move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug.  
   

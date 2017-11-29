@@ -24,7 +24,7 @@ You can add values to the enumerations that establish accepted values for many f
   
 ### To add an enumeration value to the table values common schema file  
   
-1.  You first need to determine the table that contains the enumeration that you want to add to. In Solution Explorer of [!INCLUDE[vs2012](../../includes/vs2012-md.md)], open the schema file that contains the element that you want to change. In BizTalk Explorer, click the field element that you want to add a value for.  
+1.  You first need to determine the table that contains the enumeration that you want to add to. In Solution Explorer of Visual Studio, open the schema file that contains the element that you want to change. In BizTalk Explorer, click the field element that you want to add a value for.  
   
     > [!NOTE]
     >  When you change an enumeration in the table values common schema file, all objects that reference that enumeration are affected.  
