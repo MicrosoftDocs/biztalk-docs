@@ -13,19 +13,22 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Character Tables
+
+## Character sets
 This section provides tables that show the ASCII, ANSI, and IBM extended character sets.  
-  
- ![](../core/media/ref03.gif "ref03")  
-ASCII Character Set  
-  
- ![](../core/media/ref04.gif "ref04")  
-ASCII Character Set (continued)  
-  
- ![](../core/media/ref02.gif "ref02")  
-ANSI Character Set  
-  
- ![](../core/media/ref05.gif "ref05")  
-IBM Extended Character Set  
+
+ASCII Character Set:    
+ ![](../core/media/ref03.gif)  
+
+ASCII Character Set (continued): 
+ ![](../core/media/ref04.gif)  
+
+ANSI Character Set:   
+ ![](../core/media/ref02.gif)  
+
+IBM Extended Character Set: 
+ ![](../core/media/ref05.gif)  
+ 
   
 ## See Also  
  [Host Print Service Character Translation Table Format](../Topic/Host%20Print%20Service%20Character%20Translation%20Table%20Format2.md)   

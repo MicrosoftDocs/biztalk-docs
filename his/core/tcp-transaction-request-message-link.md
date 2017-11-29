@@ -27,8 +27,8 @@ The TCP transaction request message (TRM) Link model allows data and parameters 
   
  The following figure summarizes the workflow occurring between the client, the standard CICS Listener, the Concurrent Server, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
- ![](../core/media/his-ti05.gif "his_ti05")  
-Process by which the client starts the default Listener, which passes the call to the concurrent server, which then sends and receives data from the client, which the server then passes to the CICS DPL program for processing by the business logic  
+ ![](../core/media/his-ti05.gif)  
+
   
 ## Summary Workflow for the TCP TRM Link Programming Model  
  The TCP TRM Link programming model works as follows:  
@@ -81,7 +81,8 @@ Process by which the client starts the default Listener, which passes the call t
     >  Invalid or disabled TRANID for the concurrent server  
     >   
     >  Invalid, disabled or unavailable Concurrent Server program associated with the transaction ID  
-  
+
+
     > [!NOTE]
     >  The error message from the CICS listener is character based and always begins with the letters EZY. The length of the error message is variable, and the end of the message is determined by the socket closed by the CICS Listener.  The standard Listener calls the socket application protocol interface (API) in the host environment. The standard Listener cannot send the TRM Reply. The TRM Reply represents a synchronization process that allows time for the transaction program to be started prior to the application request data being sent by the client. This synchronization process is necessary due to internal CICS architectural consideration (there is no guarantee as to when a transaction program is started after the request is made).  
   

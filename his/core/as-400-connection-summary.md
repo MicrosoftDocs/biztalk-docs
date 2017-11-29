@@ -13,12 +13,15 @@ author: MandiOhlinger
 manager: anneta
 ---
 # AS/400 Connection Summary
+
+## Overview
 In the peer-oriented SNA network model, all computers on the network can communicate directly with each other. Advanced Peer-to-Peer Networking (APPN) is the architecture developed by IBM that enables distributed data processing. APPN defines how components communicate with each other, and the level of network-related services, like routing sessions, that are supplied by each computer in the network.  
+
+The following images shows Host Integration Server connecting to an AS/400 with several connection methods: 
   
- ![](../core/media/dep07.gif "dep07")  
-Diagram showing Host Integration Server connecting to an AS/400 with several connection methods  
+ ![](../core/media/dep07.gif)  
   
- In an APPN network, Host Integration Server emulates a type 2.1 physical unit device (PU 2.1). Host Integration Server computers can connect to an AS/400 computer using several connection methods:  
+In an APPN network, Host Integration Server emulates a type 2.1 physical unit device (PU 2.1). Host Integration Server computers can connect to an AS/400 computer using several connection methods:  
   
 -   Token Ring  
   

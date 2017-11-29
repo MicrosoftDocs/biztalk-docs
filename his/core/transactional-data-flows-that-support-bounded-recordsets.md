@@ -17,8 +17,7 @@ This data flow model does not support unbounded recordsets. (An unbounded record
   
  The following figure shows what happens when a TI component participates in a COM+ transaction (a DTC-coordinated two-phase commit [2PC] exchange). TI uses LU 6.2 Sync Level 2 to manage the transaction. This capability applies to CICS and to IMS version 6.0 with Resource Recovery Services (RRS).  
   
- ![](../core/media/his-ti04.gif "his_ti04")  
-Transaction Integrator sending and receiving a two-phase commit exchange from a mainframe via LU 6.2  
+ ![](../core/media/his-ti04.gif)  
   
 ## TI sending and receiving a two-phase commit  
  This transactional model does not support unbounded recordsets. (An unbounded recordset has no set maximum number of rows.) The transactional model is supported only by the LU 6.2 protocol, not the TCP/IP protocol. Therefore this model supports the following server models only:  

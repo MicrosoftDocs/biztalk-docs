@@ -13,10 +13,11 @@ author: MandiOhlinger
 manager: anneta
 ---
 # BACKOUT Verb Issued Remotely
-![](../core/media/appc2dc.gif "appc2dc")  
-BACKOUT verb issued remotely.  
-  
-1.  The transaction program issues a [SEND_DATA](../Topic/SEND_DATA2.md) or [MC_SEND_DATA](../Topic/MC_SEND_DATA2.md)verb depending on whether a basic or mapped conversation is being used.  
+
+![](../core/media/appc2dc.gif)  
+
+## What happens  
+1.  The transaction program issues a [SEND_DATA](../Topic/SEND_DATA2.md) or [MC_SEND_DATA](../Topic/MC_SEND_DATA2.md) verb depending on whether a basic or mapped conversation is being used.  
   
 2.  The **SEND_DATA** or **MC_SEND_DATA** VCB is passed transparently through the vendor API to Host Integration Server. When the verb completes the return code from Host Integration Server is returned to the transaction program.  
   

@@ -15,7 +15,7 @@ manager: anneta
 # TI TCP/IP Load Balancing
 Transaction Integrator (TI) can load balance TCP/IP ports when you have configured TI for CICS and IMS TCP/IP remote environments. To enable load balancing, supply multiple TCP port numbers when you create the remote environment; this enables connections to redundant CICS or IMS regions on a single host system. The following figure shows the TI TCP port load balancing solution.  
   
- ![](../core/media/his-ti29.gif "his_ti29")  
+ ![](../core/media/his-ti29.gif)  
 Transaction Integrator receiving a TCP/IP address and sending it to CICS ports 3000 and 3001  
   
  The first TCP port is used by the first transaction and will take turns going through all the configured ports for each transaction that is invoked.  

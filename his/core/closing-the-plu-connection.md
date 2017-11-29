@@ -13,6 +13,8 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Closing the PLU Connection
+
+## Critera to close
 Either the application or the local node can terminate the primary logical unit (PLU) connection. The criteria for closing are:  
   
 -   The local node closes the PLU connection if it receives an **UNBIND** request from the host PLU, which terminates the PLU session. If the **UNBIND** type is **BIND forthcoming** (0x02), the local node sets the **BIND**-forthcoming indicator in the [Close(PLU) Request](../Topic/Close\(PLU\)%20Request1.md), so that the application can reserve any necessary resources.  
@@ -36,19 +38,19 @@ Either the application or the local node can terminate the primary logical unit 
  The message sequence for an application-initiated **Close** is shown in the following figure. The local node sends a **TERM-SELF** request to the host to elicit an **UNBIND**.  
   
  If the host generates an **UNBIND** automatically on receipt of a **TERM-SELF**, the application can view **Close(PLU)** as equivalent to the termination of the PLU-SLU session.  
+
+Message sequence for an application-initiated Close:  
+ ![](../core/media/his-32703h.gif)  
+
   
- ![](../core/media/his-32703h.gif "his_32703h")  
-Message sequence for an application-initiated Close  
+The message flow for a local node-initiated **Close** after receiving an **UNBIND** request from the host is shown in the following image: 
+
+ ![](../core/media/his-32703ha.gif)  
+
   
- The message flow for a local node-initiated **Close** after receiving an **UNBIND** request from the host is shown in the following figure.  
-  
- ![](../core/media/his-32703ha.gif "his_32703ha")  
-Message flow for a local node-initiated Close after receiving an UNBIND request  
-  
- When an application is using the logical unit application (LUA) variant of the FMI, issuing a [Close(PLU) Request](../Topic/Close\(PLU\)%20Request1.md) causes the node to immediately unbind the PLU session by sending an **UNBIND** request to the PLU. The **Close(PLU) Response** is returned to the application on receipt of the **UNBIND** response, as shown in the following figure.  
-  
- ![](../core/media/his-32703hb.gif "his_32703hb")  
-Message flow for the Close(PLU) Response  
+ When an application is using the logical unit application (LUA) variant of the FMI, issuing a [Close(PLU) Request](../Topic/Close\(PLU\)%20Request1.md) causes the node to immediately unbind the PLU session by sending an **UNBIND** request to the PLU. The **Close(PLU) Response** is returned to the application on receipt of the **UNBIND** response, as shown in the following image:   
+
+ ![](../core/media/his-32703hb.gif)
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection.md)   

@@ -15,6 +15,7 @@ manager: anneta
 # Outbound Data
 This section describes the outbound data flows from the local node to the application. The overall structure of the protocols described applies to the system services control point (SSCP) and primary logical unit (PLU) connections, but certain features (such as the use of delayed request mode) are only applicable to the PLU connection.  
   
+## Local node
  The local node presents data originating at the host to the application on different connections, depending on the SNA session on which the data flows, as follows:  
   
 -   Function management data network services (FMD NS) (session services) data and function management data (FMD) originating at the host SSCP and directed to the Host Integration Server logical unit (LU) is sent to the application on the SSCP connection.  
@@ -87,33 +88,27 @@ This section describes the outbound data flows from the local node to the applic
   
  In the following figure, the application accepts a **Data** message corresponding to a definite-response RU.  
   
- ![](../core/media/32703w.gif "32703w")  
-Application sends a Data message corresponding to a definite-response RU  
+ ![](../core/media/32703w.gif)  
   
  In the following figure, the application accepts a **Data** message corresponding to a multi-RU definite-response chain.  
   
- ![](../core/media/32703wa.gif "32703wa")  
-Application accepts a Data message corresponding to a multi-RU definite-response chain  
+ ![](../core/media/32703wa.gif)  
   
  In the following figure, the application rejects a **Data** message corresponding to a definite-response chain.  
   
- ![](../core/media/32703wb.gif "32703wb")  
-Application rejects a Data message corresponding to a definite-response chain  
+ ![](../core/media/32703wb.gif)  
   
  In the following figure, the application rejects a **Data** message corresponding to a multi-RU definite-response chain.  
   
- ![](../core/media/32703wc.gif "32703wc")  
-Application rejects a Data message corresponding to a multi-RU definite-response chain  
+ ![](../core/media/32703wc.gif)  
   
  In the following figure, the local node enforces immediate response mode. Responses must be sent in sequence. The application rejects the second exception-response chain and accepts the definite-response chain, which implies acceptance of the third exception-response chain.  
   
- ![](../core/media/32703wd.gif "32703wd")  
-Local node enforces immediate response mode  
+ ![](../core/media/32703wd.gif)  
   
  In the following figure, the local node detects a chaining error (RQD but not EC) in data destined for the application. (This example requires the receive check 0x4007 to be in force. For more information, see [Opening the SSCP Connection](../core/opening-the-sscp-connection.md).)  
   
- ![](../core/media/32703we.gif "32703we")  
-Local node detects a chaining error in data destined for the application  
+ ![](../core/media/32703we.gif)  
   
 ## See Also  
  [Inbound Data](../core/inbound-data.md)   

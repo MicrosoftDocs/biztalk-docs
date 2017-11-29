@@ -25,12 +25,12 @@ The local node supports bracket termination rule one (conditional) and bracket t
   
  In the following figure, the application successfully terminates a bracket by sending an EBI data chain when the application's state is in-bracket, which the host accepts. The local node sends a **Status-Session(BETB)** to indicate that the application's state is now between-bracket.  
   
- ![](../core/media/his-32703l.gif "his_32703l")  
+ ![](../core/media/his-32703l.gif)  
 Application successfully terminates a bracket by sending an EBI data chain  
   
  In the following figure, the host successfully terminates a bracket by sending an EBI data chain when the application's state is in-bracket, which the application accepts. The local node sends a **Status-Session(BETB)** to indicate that the application's state is now between-bracket.  
   
- ![](../core/media/his-32703la.gif "his_32703la")  
+ ![](../core/media/his-32703la.gif)  
 Application successfully terminates a bracket by sending an EBI data chain  
   
 ## See Also  

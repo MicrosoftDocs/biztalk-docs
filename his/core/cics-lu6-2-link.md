@@ -17,7 +17,7 @@ The CICS LU6.2 Link programming model is one of the simplest models that you can
   
  The following figure summarizes the workflow occurring between the client, the default CICS Mirror Transaction, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
- ![](../core/media/his-ti13.gif "his_ti13")  
+ ![](../core/media/his-ti13.gif)  
 Transaction Integrator sending and receiving parameters with DPL information from a CICS Mirror Transaction  
   
 ## Summary workflow diagram for the CICS LU6.2 Link programming model  

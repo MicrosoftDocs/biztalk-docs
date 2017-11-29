@@ -15,7 +15,7 @@ manager: anneta
 # LUs and Sessions
 The following figure shows the SNA components required for logical unit application (LUA) communications.  
   
- ![](../core/media/lua1a.gif "lua1a")  
+ ![](../core/media/lua1a.gif)  
 SNA components required for LUA communications  
   
  An LUA application uses a local LU, which uses [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationserver2009-md.md)] to communicate with the host system. There are three progressive sessions when Host Integration Server connects to the host node:  

@@ -13,22 +13,26 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Mainframe Connection Summary
+
+## Overview
 The hierarchical SNA network model provides access to a centralized processing resource from elements on the network. This model is most frequently associated with mainframe environments in which centralized applications are accessed from remote terminals across a network.  
   
- Devices in a hierarchical SNA network, such as terminals or cluster controllers, are called physical units (PUs). A number designates each class of device. For example, the mainframe is known as a PU 5 device.  
-  
- ![](../core/media/dep06.gif "dep06")  
-Diagram of network model showing Host Integration Server connecting to a mainframe and to a front-end processor. Also shows supported protocols.  
-  
- Host Integration Server can directly connect to the mainframe if a high-performance connection is required. These physical connection methods are available:  
+Devices in a hierarchical SNA network, such as terminals or cluster controllers, are called physical units (PUs). A number designates each class of device. For example, the mainframe is known as a PU 5 device.  
+
+Diagram of network model showing Host Integration Server connecting to a mainframe and to a front-end processor. Also shows supported protocols:   
+ ![](../core/media/dep06.gif)  
+
+
+Host Integration Server can directly connect to the mainframe if a high-performance connection is required. These physical connection methods are available:  
   
 -   Open Systems Adapter, supporting Token Ring, Ethernet, and Fiber Distributed Data Interconnect (FDDI) connections  
   
 -   Bus & Tag channel connection  
   
 -   Enterprise System Connection (ESCON) channel connection  
-  
- Connections to a front-end processor (FEP), which is a PU 4 device, are also supported. These types of connections may be easier to implement depending on your existing infrastructure and the physical proximity of the Host Integration Server to the mainframe. For an FEP, you can use one of the following connection methods:  
+
+## Front end processor
+Connections to a front-end processor (FEP), which is a PU 4 device, are also supported. These types of connections may be easier to implement depending on your existing infrastructure and the physical proximity of the Host Integration Server to the mainframe. For an FEP, you can use one of the following connection methods:  
   
 -   Token Ring  
   

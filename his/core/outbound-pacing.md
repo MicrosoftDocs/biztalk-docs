@@ -13,6 +13,8 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Outbound Pacing
+
+## How it works
 If the application has enough resources to handle outbound data as fast as the network can provide it (for example, a screen), or if a higher level protocol (for example, immediate request mode) constrains the data flow, the application need not be involved in pacing, and it is possible for the local node to handle outbound pacing transparently.  
   
  However, certain types of applications may require involvement in outbound pacing. If the application has limited resources (for example, a printer), the application should specify the application pacing option in the connection information control block (CICB) on the [Open(PLU) OK Response](../Topic/Open\(PLU\)%20OResponse1.md). (For more information, see [Opening the PLU Connection](../core/opening-the-plu-connection.md).) The application should also provide the local node with information about the state of these resources initially on the **Open(PLU) OK Response** and periodically using **Status-Resource** messages.  
@@ -43,13 +45,11 @@ If the application has enough resources to handle outbound data as fast as the n
   
  The following figure shows the local node handling outbound pacing when the application is not involved (APPLPAC = 0x00). The pacing window is assumed to be two.  
   
- ![](../core/media/his-32703o.gif "his_32703o")  
-Local node handling outbound pacing  
+ ![](../core/media/his-32703o.gif)  
   
  The following figure shows the local node and the application handling outbound pacing with the outbound pacing window assumed to be two and the initial credit from the local node to the application assumed to be four. Note that the local node can send an isolated pacing response (IPR) to the host to get another window full of data as soon as the application has sufficient credit for the rest of the present window and the next window.  
   
- ![](../core/media/his-32703oa.gif "his_32703oa")  
-Local node and application handling outbound pacing  
+ ![](../core/media/his-32703oa.gif)  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection.md)   

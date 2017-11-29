@@ -13,6 +13,7 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Leased SDLC Line (No XIDs Exchanged), Channel Adapter
+
 For a connection to a host computer using a leased synchronous data link control (SDLC) line, the SNALink receives a set normal response mode (SNRM) when the end-to-end connection is established. The SNALink responds with an unnumbered acknowledgement (UA) and informs the local node that the connection is ready for data transfer. This is done with the [Request-Open-Station](../Topic/Request-Open-Station1.md) message with the Rcv-Set-Mode flag set.  
   
  The node then opens the STATION Locality Partner Index (LPI) connection with the [Open(STATION)](../Topic/Open\(STATION\)2.md) message. If the SNALink has an available control block, it responds with an **Open(STATION) OK Response**. This is followed by a [Station-Contacted](../Topic/Station-Contacted2.md) message.  
@@ -21,7 +22,5 @@ For a connection to a host computer using a leased synchronous data link control
   
  Note that the Request-Open-Station message flows on the LINK LPI connection, whereas the Station-Contacted message flows on the STATION LPI connection.  
   
- The message flow for a leased line is shown in the following figure.  
-  
- ![](../core/media/dev3b.gif "dev3b")  
-Message flow for a leased line
+ The message flow for a leased line is shown in the following figure:   
+ ![](../core/media/dev3b.gif

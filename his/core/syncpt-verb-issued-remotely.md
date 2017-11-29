@@ -13,8 +13,7 @@ author: MandiOhlinger
 manager: anneta
 ---
 # SYNCPT Verb Issued Remotely
-![](../core/media/appc2da.gif "appc2da")  
-SYNCPT verb issued remotely.  
+![](../core/media/appc2da.gif)  
   
 1.  The local TP issues a [RECEIVE_AND_WAIT](../Topic/RECEIVE_AND_WAIT1.md) or [MC_RECEIVE_AND_WAIT](../Topic/MC_RECEIVE_AND_WAIT1.md)verb (depending on whether a basic or mapped conversation is being used) to receive data from the remote transaction program. The vendor API passes the verb transparently to Host Integration Server.  
   

@@ -15,8 +15,7 @@ manager: anneta
 # SYNCPT Verb Issued Locally
 This section provides an example verb sequence with a verb issued locally.  
   
- ![](../core/media/appc2d.gif "appc2d")  
-SYNCPT verb issued locally.  
+ ![](../core/media/appc2d.gif)  
   
 1.  The transaction program issues a [SEND_DATA](../Topic/SEND_DATA2.md) or [MC_SEND_DATA](../Topic/MC_SEND_DATA2.md)verb depending on whether a basic or mapped conversation is being used.  
   

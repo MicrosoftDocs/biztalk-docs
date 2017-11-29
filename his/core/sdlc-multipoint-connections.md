@@ -14,9 +14,10 @@ manager: anneta
 ---
 # SDLC Multipoint Connections
 The node can support primary multipoint (also known as multi-dropped) links, at both the primary and secondary end. Multipoint is a special configuration for a synchronous data link control (SDLC) leased link where a single SDLC line at the primary station can be used to communicate with up to 16 secondary stations. Special hardware is required to fan out the primary line so that there is a physical connection to each secondary station. The following figure shows an example with three secondary stations.  
-  
- ![](../core/media/dev3t.gif "dev3t")  
-Primary station with three secondary stations  
+
+Primary station with three secondary stations:   
+ ![](../core/media/dev3t.gif)  
+
   
  The SDLC address of the secondary station is used to route frames to and from the individual secondary stations. Hence, the SNALink at the secondary station needs to check the SDLC address as the primary sends all frames to all secondary stations. The SNALink at the secondary station should only accept frames with its SDLC address—the other frames should be ignored.  
   
@@ -44,10 +45,10 @@ Primary station with three secondary stations
   
  Whenever the node receives a **Close(STATION) Response**, it checks to see if any stations are still active on the multipoint link. If not, a **Close(LINK) Request** is sent. The SNALink responds with a **Close(LINK) Response**. The following figure shows the message flows for outage processing. It shows a multipoint connection with two secondary stations (the full XID exchange is not shown).  
   
- ![](../core/media/dev3u.gif "dev3u")  
+ ![](../core/media/dev3u.gif)  
 Message flow for outage processing  
   
- ![](../core/media/dev3y.gif "dev3y")  
+ ![](../core/media/dev3y.gif)  
 Processing for a multipoint configuration with two secondary stations  
   
  Note that the station messages are labeled in the figure with station addresses. In fact, the node and SNALink use the LPI addresses to identify the two stations.

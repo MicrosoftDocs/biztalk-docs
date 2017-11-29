@@ -13,6 +13,8 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Outbound Chaining
+
+## Valid outbound data chains
 The local node checks that outbound chains of requests conform to the correct SNA usage, to the chaining usage for the session, and to the current state of the session. The local node will accept valid outbound chains of data from the host if one of the following is true:  
   
 -   Data traffic is active on a full-duplex session.  
@@ -24,7 +26,8 @@ The local node checks that outbound chains of requests conform to the correct SN
 -   The session is waiting for the host to initiate a recovery procedure. For example, the local node has sent a negative response to an outbound chain. (For more information, see [Recovery](../core/recovery.md).)  
   
  The local node sends a [Data](../Topic/Data2.md) message to the application for each outbound request, but note the effects of the application specifying the segment delivery option in the connection information control block. (For more information, see [Segment Delivery](../core/segment-delivery.md).) If the application does not specify segment delivery, the begin chain indicator (BCI) and end chain indicator (ECI) application flags in the message header reflect the chaining indicators in the request header of the request.  
-  
+
+## Terminate outbound chain  
  An outbound chain can terminate in several ways:  
   
 -   The chain is received complete and without error. All the requests in the chain have been passed to the application as **Data** messages and have been acknowledged where applicable.  
@@ -47,23 +50,19 @@ The local node checks that outbound chains of requests conform to the correct SN
   
  In the first figure, a complete outbound chain is received without error and accepted by the application. Note that after sending **Status-Acknowledge(Ack)**, the application has direction.  
   
- ![](../core/media/his-32703i.gif "his_32703i")  
-Outbound chain received without error and accepted by the application  
+ ![](../core/media/his-32703i.gif)  
   
  In the following figure, a complete outbound chain is received without error, but is rejected by the application. Note that even though the chain carried CD, the application does not have direction.  
   
- ![](../core/media/his-32703ia.gif "his_32703ia")  
-Outbound chain received without error, but is rejected by the application  
+ ![](../core/media/his-32703ia.gif)  
   
  In the following figure, the local node detects the invalid use of RQD without EC and converts the request to a **Data** message with the SDI application flag set, plus ACKRQD and appropriate sense codes. The application's **Status-Acknowledge(Ack)** drives the negative response to the host. This example assumes that the receive check 4007 has been specified in the CICB on the **Open (SSCP)**.  
   
- ![](../core/media/his-32703ib.gif "his_32703ib")  
-Local node detects invalid use and converts request  
+ ![](../core/media/his-32703ib.gif)  
   
  In the following figure, the host cancels the outbound chain.  
   
- ![](../core/media/his-32703ic.gif "his_32703ic")  
-Host canceling the outbound chain  
+ ![](../core/media/his-32703ic.gif)  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection.md)   

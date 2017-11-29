@@ -13,7 +13,7 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Named Pipes Clients
-![](../core/media/ref11.gif "ref11")  
+![](../core/media/ref11.gif)  
 Diagram showing how a Microsoft Networking client can connect to the mainframe  
   
  A Microsoft Networking (Named Pipes) client uses the following procedure for connecting to the mainframe:  
@@ -34,7 +34,7 @@ Diagram showing how a Microsoft Networking client can connect to the mainframe
   
 3.  Finally, the client attempts to connect to each Host Integration Server computer in the list until a server is found that can handle the 3270 or APPC request.  
   
-## In This Section  
+## Next 
  [Microsoft Networking (Named Pipes) Errors](../core/microsoft-networking-named-pipes-errors.md)  
   
 ## See Also  

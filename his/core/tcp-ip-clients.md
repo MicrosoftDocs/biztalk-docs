@@ -13,9 +13,10 @@ author: MandiOhlinger
 manager: anneta
 ---
 # TCP/IP Clients
-The following figure shows how a TCP/IP client computer can connect to the mainframe.  
   
- ![](../core/media/ref09.gif "ref09")  
+ ![](../core/media/ref09.gif)  
+
+## Overview
   
  A TCP/IP client computer uses the following procedure to connect to the mainframe:  
   
@@ -34,7 +35,7 @@ The following figure shows how a TCP/IP client computer can connect to the mainf
 > [!NOTE]
 >  Ensure that the logged-on user has sufficient user rights to access the Host Integration Server computer across the network. As with any other LAN connection, this is validated through the Windows Domain model.  
   
-## In This Section  
+## Next
  [TCP/IP Errors](../core/tcp-ip-errors.md)  
   
 ## See Also  

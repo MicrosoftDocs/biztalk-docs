@@ -13,6 +13,8 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Sessions and Connections
+
+## Communicate with SNA sessions
 An application using the function management interface (FMI) can communicate with the host on two SNA sessions as described in the following list:  
   
 -   The system services control point (SSCP) session, between an SNA server logical unit (LU) and the host SSCP, provides information about the activation of the LU and supports communication with the SSCP for commands such as character-coded and field-formatted logon and logoff commands. There is one SSCP session for each SNA server LU.  
@@ -25,8 +27,7 @@ An application using the function management interface (FMI) can communicate wit
   
  The following figure shows the three sessions.  
   
- ![](../core/media/his-32703b.gif "his_32703b")  
-Three sessions  
+ ![](../core/media/his-32703b.gif)  
   
  The application can communicate with the local node by means of two locality, partner, index (LPI) sessions. Rather than specifying the session on which a message is to flow, the application sends the message to the local node on one of these connections. The local node then routes it to the appropriate SNA session.  
   
@@ -36,10 +37,10 @@ Three sessions
   
 -   The PLU session is used for the transfer of application data, and for status and flow control messages between the application and the local node. For more information about this connection, see [PLU Connection](../core/plu-connection.md).  
   
- The following figure shows these sessions.  
+ The following figure shows Connections between an Application and a local node: 
   
- ![](../core/media/his-32703ba.gif "his_32703ba")  
-Connections between an Application and a local node  
+ ![](../core/media/his-32703ba.gif)  
+
   
  These sessions are specific to the local node and the application. Data and status messages passed across a connection result in SNA data and SNA control requests being sent on the appropriate SNA session. Similarly, SNA data and SNA control responses received on an SNA session result in data and control messages being passed to the application on the appropriate connection.  
   

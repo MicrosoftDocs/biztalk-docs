@@ -25,5 +25,4 @@ A message always contains fixed-format header information such as a message type
   
  The following figure shows a typical message with two elements.  
   
- ![](../core/media/his-dev1d.gif "his_dev1d")  
-Typical message with two elements
+ ![](../core/media/his-dev1d.gif)  

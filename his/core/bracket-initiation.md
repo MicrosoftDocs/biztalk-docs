@@ -43,32 +43,32 @@ While a session is in the between-bracket state, contention exists. Either the a
   
  In the first figure, the application initiates a bracket by sending an inbound chain with the BBI application flag set when its state is between-bracket. The application's state is in-bracket until it receives a **Status-Session(BETB)**. (If the application can send RQE chains, a bracket can be opened by sending an RQE chain.)  
   
- ![](../core/media/his-32703k.gif "his_32703k")  
+ ![](../core/media/his-32703k.gif)  
 Application initiates a bracket by sending an inbound chain  
   
  In the following figure, the application initiates a bracket by sending a **Status-Control(LUSTAT)** with the begin bracket indicator (BBI) application flag set when its state is between-bracket. The application's state is in-bracket until it receives a **Status-Session(BETB)**. The **LUSTAT** can be sent **NOACKRQD** (RQE) if required.  
   
- ![](../core/media/his-32703ka.gif "his_32703ka")  
+ ![](../core/media/his-32703ka.gif)  
 Application initiates a bracket by sending a Status-Control(LUSTAT)  
   
  In the following figure, the host initiates a bracket by sending **BID**, which the application accepts. The application's state is in-bracket and the host can send.  
   
- ![](../core/media/his-32703kb.gif "his_32703kb")  
+ ![](../core/media/his-32703kb.gif)  
 Host initiates a bracket by sending BID  
   
  In the following figure, the host PLU initiates a bracket by sending a request with begin bracket (BB), which the application accepts. The application's state is in-bracket, and the host can send.  
   
- ![](../core/media/his-32703kc.gif "his_32703kc")  
+ ![](../core/media/his-32703kc.gif)  
 Host PLU initiates a bracket by sending a request with BB  
   
  In the following figure, the host initiates a bracket by sending an **LUSTAT** with BB, which the application accepts. The application's state is in-bracket, and the host can send.  
   
- ![](../core/media/his-32703kd.gif "his_32703kd")  
+ ![](../core/media/his-32703kd.gif)  
 Host initiates a bracket by sending an LUSTAT with BB  
   
  In the following figure, the host and application both attempt to initiate a bracket in between-bracket state. The application rejects the host bids with sense code 0x0813, and the local node delivers the application's data. After sending the data, the application's state is in-bracket, and the application can send.  
   
- ![](../core/media/his-32703ke.gif "his_32703ke")  
+ ![](../core/media/his-32703ke.gif)  
 Host and application both attempt to initiate a bracket in between-bracket state  
   
 ## See Also  

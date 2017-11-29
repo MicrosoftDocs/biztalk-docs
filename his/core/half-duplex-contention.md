@@ -13,6 +13,8 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Half-Duplex Contention
+
+## Contention
 For half-duplex contention, the initial direction state is contention. Half-duplex protocol operates during a chain (only one partner can send), but the direction state normally returns to contention at the end of each chain. The change direction indicator (CDI) in the response header (RH) is thus not required. However, if the CDI is used, direction is reserved for the receiving half-session. Therefore, if the application receives change direction (CD), it should assume send state and not expect to receive data. Conversely, if the application sends CD, it cannot send again until it has received a chain from the host.  
   
  In the event of an error being discovered by either half-session, the application must assume receive state, because the host is responsible for recovery.  
@@ -21,15 +23,13 @@ For half-duplex contention, the initial direction state is contention. Half-dupl
   
  The following two figures illustrate the direction protocol for applications using half-duplex contention mode. The three figures in the previous topic would also be valid although CD does not need to be specified.  
   
- In the following figure, the application issues and receives data using half-duplex contention protocol without error.  
+ In the following figure, the application issues and receives data using half-duplex contention protocol without error:   
+ ![](../core/media/his-32703n.gif)  
+
   
- ![](../core/media/his-32703n.gif "his_32703n")  
-Application issues and receives data using half-duplex contention protocol without error  
-  
- In the following figure, the half-duplex contention race is resolved in favor of the application.  
-  
- ![](../core/media/his-32703na.gif "his_32703na")  
-Resolving half-duplex contention race in favor of the application  
+ In the following figure, the half-duplex contention race is resolved in favor of the application:   
+ ![](../core/media/his-32703na.gif)  
+
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection.md)   

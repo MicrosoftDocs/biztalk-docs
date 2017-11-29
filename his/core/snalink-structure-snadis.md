@@ -25,5 +25,4 @@ A [!INCLUDE[hishostintegrationserver2009](../core/includes/hishostintegrationser
   
  The following figure shows the executable structure of a SNALink.  
   
- ![](../core/media/dev1c.gif "dev1c")  
-Executable structure of an SNALink
+ ![](../core/media/dev1c.gif)  

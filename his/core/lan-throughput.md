@@ -26,7 +26,7 @@ The **100baseT** alternative to connect the Transaction Integrator (TI)/Host Int
   
  The frame format for 802.2 over Ethernet is at maximum 1487 bytes, or 1484 depending on the Ethernet standard used IEEE, or DIX. The following figure shows the maximum RU and BTU sizes over an Ethernet.  
   
- ![](../core/media/his-ti27.gif "his_ti27")  
+ ![](../core/media/his-ti27.gif)  
 Data flow control showing maximum sizes over an Ethernet: 1487/1484 bytes for RU, 1490/1487 bytes for BIU, 1496/1493 for BTU, and 1500 bytes for Ethernet data  
   
  The format for TCP/IP over Ethernet is 14-byte Ethernet layer+20 IP+20 TCP+12 (TCP-timestamp)+1448 data. For each packet, the header overhead is 54/66 bytes. Of course, there are the ACK packets, one every two packets in TCP/IP. Therefore, the header overhead is three headers for two data packets, which is around 7-8%.  

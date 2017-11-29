@@ -16,8 +16,7 @@ ms.author: "mandia"
 # What is HIS
 Microsoft Host Integration Server (HIS) technologies and tools enable enterprise organizations to integrate existing IBM host systems, programs, messages and data with new Microsoft server applications. HIS allows IT administrators to securely and efficiently connect new systems to existing systems using industry-standard High Performance Routing (HPR) and Transmission Control Protocol (TCP) over Internet Protocol (IP). This reduces operating expenses and total cost of ownership while supporting existing and new computing workloads.  
   
- ![Overview of Host Integration Server](../install-and-config-guides/media/his-overview-01.gif "HIS_Overview_01")  
-Host Integration Server  
+ ![Overview of Host Integration Server](../install-and-config-guides/media/his-overview-01.gif)  
   
  Host Integration Server empowers enterprise developers to deliver new applications more quickly and with less custom coding. Developers who use Visual Studio  and the .NET Framework  can be more productive than those who use IBM host development tools and technologies because they do not require knowledge of host systems and infrastructure. HIS empowers knowledge workers and decision-makers to analyze and report vital information faster. They can access data in host data sources from business intelligence tools within Microsoft Office SharePoint and SQL Server . This eliminates the need to schedule host developers to write programs to extract and convert host structures.  
   
@@ -35,9 +34,10 @@ Host Integration Server
   
 ##  <a name="Network"></a> Network Integration  
  Network integration services connect Windows application infrastructure to existing IBM mainframe and midrange Systems Network Architecture (SNA). SNA Services operate as a gateway function, supporting logical unit types (LU0, LU1, LU2, LU3, and LU6.2), connecting across an SNA Advanced Peer to Peer Network (APPN), as a Low Entry Network (LEN) node using traditional Data Link Control (DLC) connectivity, or as a Branch Network node using High Performance Routing over Internet Protocol (HPR/IP). Administrators can deploy SNA applications on Windows computers using the HIS client that connects to the HIS server via TCP/IP, supporting required SNA device types.  
-  
- ![Network Integration with SNA Services](../install-and-config-guides/media/his-overview-sna-02.gif "HIS_Overview_SNA_02")  
-Network Integration Services  
+
+Network Integration Services:   
+ ![Network Integration with SNA Services](../install-and-config-guides/media/his-overview-sna-02.gif)  
+
   
  HIS Network Integration services connect desktops, devices and servers to existing host systems, while reducing network infrastructure complexity and costs.  
   
@@ -49,9 +49,10 @@ Network Integration Services
  Host Integration Server data integration components offer enterprise IT professionals and developers direct access to vital information stored in IBM DB2 database management systems and record-oriented host file systems. HIS includes multiple data clients and one data service. The data clients connect to remote IBM DB2 databases, IBM Informix databases, and IBM host file systems. The data server connects remote IBM clients to Microsoft SQL Server. The data clients support a set of data providers (ADO.NET, OLE DB, and ODBC), data adapters (BizTalk), and tools (HIS Data Access Tool and VS Data Designers).  
   
  The HIS Data Access Tool with Data Source Wizard guides the knowledge worker, IT professional or enterprise developer to define and manage connections to DB2, Informix and host file systems. Visual Studio  tools, such as Server Explorer and DataSet Designer, assist the enterprise developer to generate code for Windows Form, XML Web Service and Web Form applications. The Entity Data Model Wizard generates objects and code over DB2 databases, as part of Web Form and WCF Data Services projects.  
-  
- ![](../install-and-config-guides/media/hismain-dataintegration-01.gif "HISMain_DataIntegration_01")  
-Data Integration  
+
+Data Integration:   
+ ![](../install-and-config-guides/media/hismain-dataintegration-01.gif)  
+ 
   
  HIS Data Integration solutions and technologies enable direct data access to DB2, Informix and host file systems, plus remote DB2 client access to Microsoft SQL Server.  
   
@@ -63,9 +64,10 @@ Data Integration
   
 ##  <a name="application"></a> Application Integration  
  Transaction Integrator (TI) allows enterprise developers to call business rules in host mainframe (Customer Information Control System and Information Management System) and midrange (i5/OS) programs using Visual Studio and the .NET Framework. TI is comprised of a Visual Studio plug-in designer, administration tool (TI Configuration Tool) and runtime components that integrate host applications with the .NET Framework. Enterprise developers can define .NET clients using an intuitive COBOL or RPG source code import wizard within the TI designer. IT professionals can deploy TI .NET clients as XML Web or WCF services without writing any custom ASP.NET code.  
-  
- ![Application Integration with Transaction Integrato](../install-and-config-guides/media/his-overview-ti-03.gif "HIS_Overview_TI_03")  
-Transaction Integrator  
+
+Transaction Integrator:   
+ ![Application Integration with Transaction Integrato](../install-and-config-guides/media/his-overview-ti-03.gif)  
+
   
  HIS Transaction Integrator allows enterprise developers to integrate and extend host transaction programs.  
   
@@ -73,9 +75,10 @@ Transaction Integrator
   
 ##  <a name="message"></a> Message Integration  
  Message integration technologies allow enterprise IT professionals and developers to integrate IBM WebSphere MQ with Microsoft server infrastructure. WCF Channel for WebSphere MQ allows enterprise developers to send/receive MQ messages between WCF and heterogeneous programs, such as mainframe CICS and IMS, or homogenous applications, such as a peer WCF channel stack. Built on technology from TI, Message Integrator offers a Visual Studio plug-in designer to define metadata for converting the MQ message payload and a .NET interface for wrapping instances of the WCF Channel across WebSphere MQ infrastructure.  
-  
- ![Message Integration with Message Integrator](../install-and-config-guides/media/his-overview-message-04.gif "HIS_Overview_Message_04")  
-Message Integrator  
+
+Message Integrator: 
+ ![Message Integration with Message Integrator](../install-and-config-guides/media/his-overview-message-04.gif)  
+
   
  HIS Message Integrator enables IT professionals and enterprise developers to integrate BizTalk Server and Windows Communications Foundation applications with existing programs, messages and data through IBM WebSphere MQ infrastructure.  
   
@@ -85,9 +88,10 @@ Message Integrator
  Enterprise Single Sign-On (ESSO) allows enterprises to integrate Windows Active Directory (AD) accounts to IBM host system credentials. Enterprise IT administrators map host credentials to AD accounts, storing these in an encrypted SQL Server database. Enterprise IT professionals and developers can retrieve these mappings at runtime from within HIS features and using the ESSO SDK.  
   
  IT administrators define one or more ESSO “affiliate applications”, which are logical names to a group of mapping. Each affiliate application has multiple user mappings, for example, users in Active Directory are mapped to their corresponding RACF credentials. Enterprise developers and administrators refer to these ESSO affiliate applications, when defining connections using HIS technologies, making it easy to configure and use single sign-on.  
-  
- ![Security Integration with Enterprise Single Sign&#45;O](../install-and-config-guides/media/his-overview-esso-05.gif "HIS_Overview_ESSO_05")  
-Enterprise Single Sign-On  
+
+Enterprise Single Sign-On:   
+ ![Security Integration with Enterprise Single Sign&#45;O](../install-and-config-guides/media/his-overview-esso-05.gif)  
+
   
  IT administrators can configure multiple levels of auditing, to track access to the mapping database, as well as to provide an extra layer of accounting information on end user and application access to the backend host system and applications. For more information, see [Enterprise Single Sign-On](../Topic/Enterprise%20Single%20Sign-On1.md).  
   

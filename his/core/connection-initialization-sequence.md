@@ -13,14 +13,15 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Connection Initialization Sequence
+
+## Overview
 When troubleshooting pending DLC Connections, it is helpful to review the connection initialization sequence that occurs between the [!INCLUDE[hisHostIntServNoVersion](../core/includes/hishostintservnoversion-md.md)] computer and the host platform.  
   
  The following diagram applies to both AS/400 and mainframe connections:  
   
- ![](../core/media/trb-handshake.gif "trb_handshake")  
-Connection initialization sequence  
-  
- In this section are the following topics:  
+ ![](../core/media/trb-handshake.gif)  
+
+## Next
   
  [Connection Initialization Overview](../core/connection-initialization-overview.md)  
   

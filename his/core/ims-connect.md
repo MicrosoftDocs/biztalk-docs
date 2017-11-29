@@ -15,10 +15,11 @@ manager: anneta
 # IMS Connect
 The IMS Connect programming model provides access to information management systems (IMS) transactions using TCP/IP. This model uses the IMS message queue for processing data.  
   
- The following figure summarizes the workflow occurring between the client, the default IMS Listener, the Concurrent Server, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
-  
- ![](../core/media/his-ti09.gif "his_ti09")  
-Process by which the client passes input data to the ITOC listener and the HWSIMSO0 provides access to the IMS program, which delivers the response data to the client  
+The following figure summarizes the workflow occurring between the client, the default IMS Listener, the Concurrent Server, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
+
+Process by which the client passes input data to the ITOC listener and the HWSIMSO0 provides access to the IMS program, which delivers the response data to the client:  
+ ![](../core/media/his-ti09.gif)  
+
   
 ## Summary Workflow Diagram for the IMS Connect Programming Model  
  The IMS Connect programming model works as follows:  

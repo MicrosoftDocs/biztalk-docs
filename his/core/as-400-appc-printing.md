@@ -14,16 +14,18 @@ manager: anneta
 ---
 # AS/400 (APPC) Printing
 APPC printing, like LU 1 printing, uses SCS control codes in the data stream. The set of SCS control codes available for use in APPC printing is more extensive, and allows more formatting options than the set described for LU 1 printing. The IBM AS/400 also provides an additional method for formatting print jobs called Host Print Transform (HPT). With HPT enabled, the AS/400 takes responsibility for rendering the print job into data the printer can understand.  
+
+The following image shows an APPC connection between AS/400 and Host Integration Server to send print job to local printer: 
   
- ![](../core/media/prn04.gif "prn04")  
-APPC connection between AS/400 and Host Integration Server to send print job to local printer  
+ ![](../core/media/prn04.gif)  
+
   
 ## Host Print Transform (HPT)  
  When SCS control codes are used by the host to format the print output, a print emulator is responsible for translating the SCS codes and characters into data that the printer can understand, through the Windows printer driver and Windows Print system. With HPT enabled, the AS/400 converts the data to printer control codes before sending the data to Host Integration Server. This output from the host requires no further processing after it leaves the AS/400. The print emulator's only responsibility is submitting the data to the printer.  
   
  HPT is enabled on the AS/400 in the Device description for the print session. When HPT is enabled, pre-rendered print jobs are sent to the Host Integration Server in marked ASCII Transparent (ATRN) sections using the SCS control code '0x03.' The ATRN control code provides the same function as the Transparent (TRN) control code detailed in the LU 1 printing section. In addition to indicating that the block of data that should be dealt with as transparent, ATRN also indicates that the data is ASCII; therefore it is not converted from EBCDIC to ASCII.  
   
-#### To enable the host transform feature using the default 5224 print device  
+#### Enable the host transform feature using the default 5224 print device  
   
 1.  Stop the print writer associated with the print device.  
   

@@ -29,18 +29,15 @@ The data flow control (DFC) logical unit status **LUSTAT** message is used withi
   
  In the first figure, the application issues **Status-Control(LUSTAT)** when it has direction.  
   
- ![](../core/media/32703v.gif "32703v")  
-Application issues Status-Control(LUSTAT) when it has direction  
+ ![](../core/media/32703v.gif)  
   
  In the following figure, the application sends **Status-Control(LUSTAT)** request when receiving data between chain. Next, outbound data is delivered with **SDI** set, which gets converted to negative **RSP**.  
   
- ![](../core/media/32703va.gif "32703va")  
-Application issues Status-Control(LUSTAT) request when receiving data between chain  
+ ![](../core/media/32703va.gif)  
   
  In the following figure, the application sends several **Status-Control(LUSTAT)** requests when receiving data in chain. Next, outbound data is delivered with **SDI** set which gets converted to negative response. Subsequent **LUSTATs** are sent to host.  
   
- ![](../core/media/32703vb.gif "32703vb")  
-Application sends several Status-Control(LUSTAT) requests when receiving data in chain  
+ ![](../core/media/32703vb.gif)  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection.md)   

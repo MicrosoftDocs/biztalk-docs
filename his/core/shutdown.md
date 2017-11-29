@@ -13,6 +13,8 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Shutdown
+
+## When it's used
 The shutdown protocol provides a means for the host application to stop the application from sending any further normal flow requests. This protocol is used when the host application wants to end the session in an orderly manner and is only available for sessions using function management (FM) profile 3 or 4.  
   
  If the local node receives a **SHUTD** request from the host, it issues a **Status-Control(SHUTD) Request** (without **ACKRQD**) to request the application to enter a quiesced state at a convenient time. The application determines what is convenient. For example, it could be after a **Status-Session(BETB)** has been received.  
@@ -29,12 +31,12 @@ The shutdown protocol provides a means for the host application to stop the appl
   
  In the following figure, the host sends **SHUTD** while the application is sending in the in-bracket state. The application completes the bracket, sends **Status-Control(SHUTC) Request**, and the host terminates the PLU session by sending **UNBIND**. The local node closes the PLU connection.  
   
- ![](../core/media/32703r.gif "32703r")  
+ ![](../core/media/32703r.gif)  
 Host sends SHUTD while the application is sending in the in-bracket state  
   
  In the following figure, the host sends **SHUTD** while the application is sending in the in-bracket state. The application completes the bracket, sends **Status-Control(SHUTC) Request**, and then the host releases the application from the quiesced state by sending **RELQ**. The local node sends a **Status-Control(RELQ) Request** to the application, which initiates a new bracket.  
   
- ![](../core/media/32703ra.gif "32703ra")  
+ ![](../core/media/32703ra.gif)  
 Host sends SHUTD while the application is sending in the in-bracket state  
   
 ## See Also  

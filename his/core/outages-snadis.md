@@ -13,6 +13,8 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Outages (SNADIS)
+
+## Overview
 If the SNALink detects a link or station failure, it reports the failure by sending an [Outage](../Topic/Outage1.md) message to the node on either the LINK or STATION LPI connection depending on whether it is a link or station outage. Generally, a station outage indicates a problem at the remote station, and a link outage indicates a local or line problem.  
   
  When the local node receives an Outage message, it:  
@@ -24,15 +26,16 @@ If the SNALink detects a link or station failure, it reports the failure by send
 -   Sends a [Close(LINK) Request](../Topic/Close\(LINK\)%20Request2.md) to the SNALink.  
   
  On receipt of the **Close(LINK) Request**, the SNALink should clear up its internal resources for the connection and send back a [Close(LINK) Response](../Topic/Close\(LINK\)%20Response1.md).  
+
+Local node receiving an Outage message and sending a Close(LINK) Request and a Close(LINK) response:   
+ ![](../core/media/dev3p.gif)  
+
   
- ![](../core/media/dev3p.gif "dev3p")  
-Local node receiving an Outage message and sending a Close(LINK) Request and a Close(LINK) response  
+There is a special case when the node loses contact with the SNALink software. In this case, the node is notified of this event (a lost locality) and performs outage processing apart from sending messages to the SNALink.  
   
- There is a special case when the node loses contact with the SNALink software. In this case, the node is notified of this event (a lost locality) and performs outage processing apart from sending messages to the SNALink.  
+The outage codes are not distinguished by the node, but they are logged. For the sake of consistency across SNALink implementations, the values listed in the following topics should be used.  
   
- The outage codes are not distinguished by the node, but they are logged. For the sake of consistency across SNALink implementations, the values listed in the following topics should be used.  
-  
-## In This Section  
+## Next 
   
 -   [SDLC Outage Codes](../core/sdlc-outage-codes.md)  
   

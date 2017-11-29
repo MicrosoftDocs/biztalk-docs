@@ -13,18 +13,18 @@ author: MandiOhlinger
 manager: anneta
 ---
 # Independent APPC LUs
+
+## Communicate with peer
 In APPC, an independent LU can communicate directly with a peer system and does not need the support of a host computer*.*  
   
- Independent APPC LUs provide the ability to run multiple, concurrent, parallel sessions between a single pair of LUs. Programs that use independent APPC LUs are referred to as transaction programs (TPs) and may provide any type of service: terminal emulation, data transfer, database query or update, and so on.  
+Independent APPC LUs provide the ability to run multiple, concurrent, parallel sessions between a single pair of LUs. Programs that use independent APPC LUs are referred to as transaction programs (TPs) and may provide any type of service: terminal emulation, data transfer, database query or update, and so on.  
   
- The following figure illustrates how an independent local APPC LU can communicate directly with a peer system.  
+The following figure illustrates how an independent local APPC LU can communicate directly with a peer system:   
+ ![](../core/media/srvc06.gif)  
   
- ![](../core/media/srvc06.gif "srvc06")  
-Independent APPC LU communications with a peer system  
+Modes determine the interactions between TPs on an APPC-APPC connection. Modes can be assigned to an LU or supplied when the session is first established. For more information about modes, see [APPC Mode Definition](../core/appc-mode-definition.md) later in this section.  
   
- Modes determine the interactions between TPs on an APPC-APPC connection. Modes can be assigned to an LU or supplied when the session is first established. For more information about modes, see [APPC Mode Definition](../core/appc-mode-definition.md) later in this section.  
-  
- When configuring independent APPC LUs, note the following:  
+When configuring independent APPC LUs, note the following:  
   
 -   If the independent local APPC LU communicates with a TP on a mainframe, the host system must be using VTAM version 3, release 2 or later with either NCP version 5, release 2 or later (3745 systems), or NCP version 4, release 3 or later (3725 systems).  
   
