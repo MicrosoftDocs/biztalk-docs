@@ -39,7 +39,7 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration, expand the BizTalk group, expand Applications, and then expand the application to which you want to add a COM component.  
+2.  In the console tree, expand BizTalk Server Administration, expand the BizTalk group, expand Applications, and then expand the application to which you want to add a COM component.  
   
 3.  Right-click the **Resources** folder, point to **Add**, and then click **Resources**.  
   

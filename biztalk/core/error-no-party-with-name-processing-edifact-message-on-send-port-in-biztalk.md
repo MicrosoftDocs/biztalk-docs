@@ -22,7 +22,7 @@ manager: "anneta"
 |Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] EDI|  
+|Event Source|BizTalk Server EDI|  
 |Component|EDI Engine|  
 |Symbolic Name|-|  
 |Message Text|A failure occurred in processing Edifact message on send port {0}. No Party exists with name {1}.|  

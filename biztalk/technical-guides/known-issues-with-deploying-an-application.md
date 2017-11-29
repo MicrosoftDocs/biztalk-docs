@@ -34,7 +34,7 @@ manager: "anneta"
 ## Exporting a BizTalk Application  
  **An incorrect error can be displayed when installing an .msi file on Windows Vista**  
   
- When installing an .msi package exported using [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] on [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on Windows Vista®, you may receive the following incorrect error, "The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is 2869." To correct this error, first import the package using [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] and then re-export and install the package.  
+ When installing an .msi package exported using [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] on BizTalk Server running on Windows Vista®, you may receive the following incorrect error, "The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is 2869." To correct this error, first import the package using BizTalk Server and then re-export and install the package.  
   
 ## Importing a BizTalk Application  
  **Passwords are not removed from binding files added to an application**  

@@ -51,7 +51,7 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
 >  This topic also describes how to create multiple files and filegroups for the BizTalk MessageBox database. For an exhaustive list of recommended files and filegroups for all of the BizTalk Server databases, see “Appendix B” of the [BizTalk Server Database Optimization](http://go.microsoft.com/fwlink/?LinkID=101578) white paper (http://go.microsoft.com/fwlink/?LinkID=101578).  
   
 > [!NOTE]  
->  Even though the [BizTalk Server Database Optimization](http://go.microsoft.com/fwlink/?LinkID=101578) white paper (http://go.microsoft.com/fwlink/?LinkID=101578) was written with [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] in mind, the same principles apply to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+>  Even though the [BizTalk Server Database Optimization](http://go.microsoft.com/fwlink/?LinkID=101578) white paper (http://go.microsoft.com/fwlink/?LinkID=101578) was written with [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] in mind, the same principles apply to BizTalk Server.  
   
 ## Databases created with a default BizTalk Server configuration  
  Depending on which features are enabled when configuring BizTalk Server, up to 13 different databases may be created in SQL Server and all of these databases are created in the default filegroup. The default filegroup for SQL Server is the PRIMARY filegroup unless the default filegroup is changed by using the ALTER DATABASE command. The following table lists the databases that are created in SQL Server if all features are enabled when configuring BizTalk Server.  

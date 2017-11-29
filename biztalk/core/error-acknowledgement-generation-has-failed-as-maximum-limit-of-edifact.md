@@ -22,7 +22,7 @@ manager: "anneta"
 |Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] EDI|  
+|Event Source|BizTalk Server EDI|  
 |Component|EDI Engine|  
 |Symbolic Name|-|  
 |Message Text|Acknowledgement generation has failed as max limit of acceptable Edifact transaction set control number has reached for Guest settings. Reset counter by navigating to Global configuration sender role screen, field UNH 1 in Partner Agreement manager.|  
@@ -33,4 +33,4 @@ manager: "anneta"
  The maximum value of the transaction set reference number depends upon the number of digits used for the reference number. The maximum number of characters is 14 for the reference number, 13 for the prefix and suffix, and 14 for all three fields combined.  
   
 ## User Action  
- To resolve this error, reset the reference number field (UNH1.2) of the Transaction set reference number (UNH1) in the UNG and UNH Segment Definition Page to a value that is lower than the maximum limit. Set this property in the EDI Global Properties dialog box in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration Console.
+ To resolve this error, reset the reference number field (UNH1.2) of the Transaction set reference number (UNH1) in the UNG and UNH Segment Definition Page to a value that is lower than the maximum limit. Set this property in the EDI Global Properties dialog box in the BizTalk Server Administration Console.

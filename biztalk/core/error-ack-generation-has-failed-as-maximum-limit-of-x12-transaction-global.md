@@ -22,7 +22,7 @@ manager: "anneta"
 |Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] EDI|  
+|Event Source|BizTalk Server EDI|  
 |Component|EDI Engine|  
 |Symbolic Name|-|  
 |Message Text|Acknowledgement generation has failed as max limit of acceptable X12 transaction set control number has reached for Guest settings. Reset counter by navigating to Global configuration sender role screen, field ST 2 in Partner Agreement manager|  
@@ -33,4 +33,4 @@ manager: "anneta"
  The maximum value of the transaction set control number depends upon the number of digits used for the control number. The maximum length of all three fields is 9; the maximum length of the prefix and suffix fields is 8.  
   
 ## User Action  
- To resolve this error, reset the control number field (ST2.2) of the Transaction set control number (ST2) in the GS and ST Segment Definition Page to a value that is lower than the maximum limit. Set this property in the EDI Global Properties dialog box in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration Console.
+ To resolve this error, reset the control number field (ST2.2) of the Transaction set control number (ST2) in the GS and ST Segment Definition Page to a value that is lower than the maximum limit. Set this property in the EDI Global Properties dialog box in the BizTalk Server Administration Console.

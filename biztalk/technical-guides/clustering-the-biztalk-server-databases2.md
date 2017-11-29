@@ -47,7 +47,7 @@ If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversio
   
 #### To run the BizTalk Server Configuration Wizard  
   
-1.  Install [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] on a runtime server.  
+1.  Install BizTalk Server on a runtime server.  
   
 2.  Launch the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration program. Click **Start**, point to **Programs**, point to **Microsoft [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**, and then click **BizTalk Server Configuration**.  
   

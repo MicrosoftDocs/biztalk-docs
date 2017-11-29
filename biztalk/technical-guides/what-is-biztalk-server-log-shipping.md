@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # What Is BizTalk Server Log Shipping?
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] disaster recovery procedures are built around BizTalk log shipping. BizTalk log shipping simplifies database restoration in the event of a disaster by continuously applying transaction log updates to the disaster recovery site databases.  
+BizTalk Server disaster recovery procedures are built around BizTalk log shipping. BizTalk log shipping simplifies database restoration in the event of a disaster by continuously applying transaction log updates to the disaster recovery site databases.  
   
  While BizTalk log shipping is based on similar principles as [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] log shipping, [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] log shipping is not supported for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases backed up as part of the Backup BizTalk Server SQL Agent Job.  
   

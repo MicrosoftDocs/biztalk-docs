@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Managing BizTalk Server
-This section provides guidance for managing a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] system in a production environment. The procedures that follow generally assume you are working with a BizTalk application after deployment. These procedures describe best practices and concepts for routine operations including the following:  
+This section provides guidance for managing a BizTalk Server system in a production environment. The procedures that follow generally assume you are working with a BizTalk application after deployment. These procedures describe best practices and concepts for routine operations including the following:  
   
 -   Checklists and procedures for deploying a BizTalk application into a production environment.  
   

@@ -41,7 +41,7 @@ Native message queuing cannot process a message with a body larger than 4megabyt
 ### To use the Mqrtlarge.dll file  
   
 1.  > [!NOTE]
-    >  For an MSMQ solution without [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], the MQRTLarge.dll may still function correctly. However, this is not a recommended configuration that Microsoft supports, and unexpected results may occur if used outside of the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] environment.  
+    >  For an MSMQ solution without BizTalk Server, the MQRTLarge.dll may still function correctly. However, this is not a recommended configuration that Microsoft supports, and unexpected results may occur if used outside of the BizTalk Server environment.  
   
      Add the file Mqrtlarge.dll to the computer that does not contain an installation of BizTalk Server. Message Queuing uses Mqrtlarge.dll to send or receive messages to or from BizTalk Server.  
   

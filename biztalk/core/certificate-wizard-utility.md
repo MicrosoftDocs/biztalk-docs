@@ -17,7 +17,7 @@ manager: "anneta"
 # Certificate Wizard Utility
 You use the CertWizard utility to import a certificate from a .pfx or .cer file into a private or public store for use with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
- The source code for the Certificate Wizard can be found in the **C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Utilities\Certificate Wizard** folder. With a 64-bit operating system and version of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], it will be in the **C:\Program Files (x86)\Microsoft BizTalk Server \<version\>\SDK\Utilities\Certificate Wizard** folder. To use the Certificate Wizard you will first have to build it using Visual Studio.  
+ The source code for the Certificate Wizard can be found in the **C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Utilities\Certificate Wizard** folder. With a 64-bit operating system and version of BizTalk Server, it will be in the **C:\Program Files (x86)\Microsoft BizTalk Server \<version\>\SDK\Utilities\Certificate Wizard** folder. To use the Certificate Wizard you will first have to build it using Visual Studio.  
   
  CertWizard imports a private key from a .pfx file into the personal store, and imports a public key from a .cer file into a public store. When importing a private key, the certificate can be a decryption certificate for incoming messages or a signing certificate for outgoing messages.  
   

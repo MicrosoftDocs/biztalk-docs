@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Business Activity Monitoring (BizTalk Server Samples Folder)
-Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] includes several Business Activity Monitoring (BAM) samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each BAM sample, instructions for building and running the sample, and the results you can expect.  
+Microsoft BizTalk Server includes several Business Activity Monitoring (BAM) samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each BAM sample, instructions for building and running the sample, and the results you can expect.  
   
 ## In This Section  
   

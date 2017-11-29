@@ -76,7 +76,7 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 |TIBCO Enterprise Message Service|Enables exchange of XML and binary data format messages between BizTalk Server and a TIBCO EMS server providing a tightly integrated and reliable application infrastructure.|4.2|  
 |WebSphere MQ|Enables exchange of messages between BizTalk Server and IBM WebSphere MQ.|5.3 with Fix Pack 10 or later and 6.0 with Fix Pack 1.1 or later|  
   
- For more information about the LOB adapters available with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], see [Adapters included with BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkId=152664) (http://go.microsoft.com/fwlink/?LinkId=152664).  
+ For more information about the LOB adapters available with BizTalk Server, see [Adapters included with BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkId=152664) (http://go.microsoft.com/fwlink/?LinkId=152664).  
   
 ## BizTalk Adapter Pack  
  Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] contains WCF-based adapters to provide connectivity to LOB applications such as Oracle Database, Oracle E-Business Suite, SAP, Siebel, and SQL Server. For a list of adapters available with [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see [BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=152665) (http://go.microsoft.com/fwlink/?LinkId=152665).  

@@ -49,7 +49,7 @@ Use the following procedure to configure the properties for an HTTP receive hand
   
 6.  Click **OK**.  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is designed to process batches of messages effectively and not to process a single message very quickly. So if this receive handler is going to be used for two way/request-response receive locations then you can minimize latency by following these steps:  
+ BizTalk Server is designed to process batches of messages effectively and not to process a single message very quickly. So if this receive handler is going to be used for two way/request-response receive locations then you can minimize latency by following these steps:  
   
 -   Set the **Batch size** property to a value of 1.  
   

@@ -31,7 +31,7 @@ In Orchestration Designer, you can use the **Call Rules** shape to call a busine
      Right-click the connecting line or the shape placeholder where you want to add the shape, point to **Insert Shape** on the context menu, and then click **Call Rules**.  
   
     > [!NOTE]
-    >  In [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], you do not need to have an atomic scope to insert a **Call Rules** shape. You can drag a **Call Rules** shape into the Orchestration Design Surface from the Toolbox. However, in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], the **Call Rules** menu item is disabled in the context menu if you try to insert a **Call Rules** shape inside an orchestration that does not have an atomic scope. This is a limitation with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] product.  
+    >  In BizTalk Server, you do not need to have an atomic scope to insert a **Call Rules** shape. You can drag a **Call Rules** shape into the Orchestration Design Surface from the Toolbox. However, in BizTalk Server, the **Call Rules** menu item is disabled in the context menu if you try to insert a **Call Rules** shape inside an orchestration that does not have an atomic scope. This is a limitation with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] product.  
   
 2.  In Orchestration Designer, select the **Call Rules** shape.  
   

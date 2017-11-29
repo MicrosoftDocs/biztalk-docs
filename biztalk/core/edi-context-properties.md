@@ -91,7 +91,7 @@ The message context properties in the EDI global property schema are publicly ex
   
  If you need an individual field of one of the segments (ISA, GS, UNB, UNG, or UNA) to be written to the message context, but this individual field is not written to the message context by default, you will need to write a custom component to write it to the message context. This custom component needs to parse the segment fields and write an individual field to the message context.  
   
- The Message Enrichment sample shows how to use a parser to extract individual fields from the segments and write them to the context. This sample is included in the \<drive\>:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\EDI\MessageEnrichment. For more information, see [Message Enrichment Sample (BizTalk Server Sample)](../core/message-enrichment-sample-biztalk-server-sample.md).  
+ The Message Enrichment sample shows how to use a parser to extract individual fields from the segments and write them to the context. This sample is included in the \<drive\>:\Program Files\Microsoft BizTalk Server\SDK\Samples\EDI\MessageEnrichment. For more information, see [Message Enrichment Sample (BizTalk Server Sample)](../core/message-enrichment-sample-biztalk-server-sample.md).  
   
 ## See Also  
  [Developing and Configuring BizTalk Server EDI Solutions](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

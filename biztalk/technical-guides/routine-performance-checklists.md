@@ -19,7 +19,7 @@ This section lists the performance checks that should be performed on a [!INCLUD
  The topics in this section provide links to performance related topics, both inside and outside this document, for the performance checks.  
   
 > [!NOTE]  
->  For a detailed discussion on performance related to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] and related products, see the [BizTalk Server Performance Optimization Guide](http://go.microsoft.com/fwlink/?LinkID=150492) (http://go.microsoft.com/fwlink/?LinkID=150492).  
+>  For a detailed discussion on performance related to BizTalk Server and related products, see the [BizTalk Server Performance Optimization Guide](http://go.microsoft.com/fwlink/?LinkID=150492) (http://go.microsoft.com/fwlink/?LinkID=150492).  
   
 ## In This Section  
   

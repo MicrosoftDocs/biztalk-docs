@@ -18,10 +18,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # File Adapter (BizTalk Server Sample)
-The File Adapter sample is written in Microsoft Visual C# .NET to work with Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. It provides code to build either a dynamic or a static adapter.  However, the following procedure only outlines the static adapter. A static adapter is an adapter with a static set of schemas and no custom user interface. A dynamic adapter has a custom user interface and potentially a dynamic set of schemas. Both static and dynamic adapters use the Add Adapter Wizard to add their schemas to a BizTalk project.  
+The File Adapter sample is written in Microsoft Visual C# .NET to work with Microsoft BizTalk Server. It provides code to build either a dynamic or a static adapter.  However, the following procedure only outlines the static adapter. A static adapter is an adapter with a static set of schemas and no custom user interface. A dynamic adapter has a custom user interface and potentially a dynamic set of schemas. Both static and dynamic adapters use the Add Adapter Wizard to add their schemas to a BizTalk project.  
   
 > [!NOTE]
->  The File adapter sample is not the same as the native FILE adapter that ships with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Thus when selecting the transport type in using this sample select "static" instead of FILE.  
+>  The File adapter sample is not the same as the native FILE adapter that ships with BizTalk Server. Thus when selecting the transport type in using this sample select "static" instead of FILE.  
   
  The dynamic adapter with a custom user interface and potentially dynamic set of schemas will require additional code in the adapter management side. To better understand use of the dynamic set of schemas, see [Dynamic Design-Time Adapter Configuration](../core/dynamic-design-time-adapter-configuration.md).  
   
@@ -34,7 +34,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
  \<*Samples Path*\>**\AdaptersDevelopment\File Adapter**  
   
 > [!NOTE]
->  The default location for \<*Samples Path*\> is *%ProgramFiles%*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples when [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed on a computer running a 32-bit version of Windows. The default location for \<*Samples Path*\> is *%ProgramFiles(x86)%*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples when [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed on a computer running a 64-bit version of Windows. To determine the values associated with the *%ProgramFiles%* or *%ProgramFiles(x86)%* environment variables type **echo %ProgramFiles%** or **echo %ProgramFiles(x86)%** at a command prompt and press ENTER. If running this sample on a 64-bit operating system, you will need to change all references in any of the .reg files from **%ProgramFiles%** to **%ProgramFiles(x86)%** before running the .reg files.  
+>  The default location for \<*Samples Path*\> is *%ProgramFiles%*\Microsoft BizTalk Server\SDK\Samples when BizTalk Server is installed on a computer running a 32-bit version of Windows. The default location for \<*Samples Path*\> is *%ProgramFiles(x86)%*\Microsoft BizTalk Server\SDK\Samples when BizTalk Server is installed on a computer running a 64-bit version of Windows. To determine the values associated with the *%ProgramFiles%* or *%ProgramFiles(x86)%* environment variables type **echo %ProgramFiles%** or **echo %ProgramFiles(x86)%** at a command prompt and press ENTER. If running this sample on a 64-bit operating system, you will need to change all references in any of the .reg files from **%ProgramFiles%** to **%ProgramFiles(x86)%** before running the .reg files.  
   
  The following tables show the files in this sample and describe their purpose.  
   
@@ -123,7 +123,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
 2.  To add the sample adapter to the registry, double-click **StaticAdapterManagement.reg**.  
   
     > [!NOTE]
-    >  StaticAdapterManagement.reg includes hard-coded paths to C:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\\. If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the %ProgramFiles%\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\ directory, if you upgraded your [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installation from BizTalk Server 2009 or BizTalk Server 2006 R2, or if you installed [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] on a computer that is running a 64-bit version of Windows, you must modify the file StaticAdapterManagement.reg with the appropriate paths. By default, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed into the %ProgramFiles(x86)%\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\ directory on computers that are running a 64-bit version of Windows. Update the paths associated with the "InboundAssemblyPath", "OutboundAssemblyPath" and "AdapterMgmtAssemblyPath" values to point to the correct location of the specified files.  
+    >  StaticAdapterManagement.reg includes hard-coded paths to C:\Program Files\Microsoft BizTalk Server\\. If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the %ProgramFiles%\Microsoft BizTalk Server\ directory, if you upgraded your BizTalk Server installation from BizTalk Server 2009 or BizTalk Server 2006 R2, or if you installed BizTalk Server on a computer that is running a 64-bit version of Windows, you must modify the file StaticAdapterManagement.reg with the appropriate paths. By default, BizTalk Server is installed into the %ProgramFiles(x86)%\Microsoft BizTalk Server\ directory on computers that are running a 64-bit version of Windows. Update the paths associated with the "InboundAssemblyPath", "OutboundAssemblyPath" and "AdapterMgmtAssemblyPath" values to point to the correct location of the specified files.  
   
     > [!IMPORTANT]
     >  If you install BizTalk on a 64 bit machine, change all instances of the HKEY_CLASSES_ROOT\CLSID\ registry entry to HKEY_CLASSES_ROOT\Wow6432Node\CLSID\ in the **StaticAdapterManagement.reg** registry file.  
@@ -166,7 +166,7 @@ The File Adapter sample is written in Microsoft Visual C# .NET to work with Micr
   
 1.  Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Windows Explorer**.  
   
-2.  Create the following folders on the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installation drive:  
+2.  Create the following folders on the BizTalk Server installation drive:  
   
     -   *\<drive\>*:**\Temp**  
   

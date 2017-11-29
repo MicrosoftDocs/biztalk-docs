@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Known Issues for the WCF Adapters
-This topic describes the known issues for the WCF adapters included with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+This topic describes the known issues for the WCF adapters included with BizTalk Server.  
   
 ## A message that fails in the inbound SOAP marshaling processing is not suspended in WCF receive adapters  
  When a message arrives at a WCF receive adapter, the WCF adapter creates a BizTalk message from the incoming SOAP message, and then passes the BizTalk message to the transport proxy, which is managed by the Endpoint Manager. If the adapter fails to read the SOAP envelope and body while creating the BizTalk message, the message is not suspended because the adapter uses the fast, non-cached, and forward-only reader to access the SOAP message.  

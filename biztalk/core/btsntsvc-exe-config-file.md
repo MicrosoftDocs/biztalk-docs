@@ -21,7 +21,7 @@ Dehydration properties and their default values are configurable in [!INCLUDE[bt
   
  To change the default values, you must explicitly add them to your configuration file. For information about how to change the default dehydration behavior, see [How to Modify Orchestration Throttling Settings](../core/how-to-modify-orchestration-throttling-settings.md). For information about orchestration memory throttling, see [How to Modify Orchestration Memory Throttling Settings](../core/how-to-modify-orchestration-memory-throttling-settings.md).  
   
- Following is the contents of the BTSNTSvc.exe.config file. This file is always located in the same directory as the BTSNTSvc.exe file, which is usually C:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+ Following is the contents of the BTSNTSvc.exe.config file. This file is always located in the same directory as the BTSNTSvc.exe file, which is usually C:\Program Files\Microsoft BizTalk Server.  
   
 ```  
 <?xml version="1.0" ?>  

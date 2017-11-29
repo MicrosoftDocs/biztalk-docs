@@ -87,7 +87,7 @@ This topic describes the menu options of the Tracking Profile Editor (TPE). The 
  You can work against multiple assemblies at the same time. You do not work with the assemblies concurrently, but multiple assemblies can be accessed in a single editing session relative to any single BAM activity definition.  In other words, if you import a BAM activity definition and then select three assemblies from which to draw tracked items, the profile that TPE creates is applied to multiple profiles that are associated with the orchestrations and ports that are used in the tracking profile. The tracking profile always contains information about all assemblies associated with any given BAM activity definition.  
   
 > [!CAUTION]
->  In [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], each BAM activity can only have one tracking profile deployed against it. In other words, if you deploy a profile that has an activity mapped to an orchestration and later deploy a different profile that has the same activity mapped to a different orchestration, the first profile deployed is over written.  
+>  In BizTalk Server, each BAM activity can only have one tracking profile deployed against it. In other words, if you deploy a profile that has an activity mapped to an orchestration and later deploy a different profile that has the same activity mapped to a different orchestration, the first profile deployed is over written.  
   
 ### Remove Tracking Profile  
  The **Remove Tracking Profile** menu option removes the tracking profile for the loaded activity definition and its corresponding orchestrations and ports. You are prompted for confirmation before this action is completed.  

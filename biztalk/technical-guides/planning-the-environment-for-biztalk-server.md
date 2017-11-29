@@ -38,7 +38,7 @@ The planning section of the operations guide describes roles and responsibilitie
 |Data extraction, transform, and load (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> For more information about [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Integration Services, see [SQL Server 2008 R2 Integration Services](http://go.microsoft.com/fwlink/?LinkId=152044) (http://go.microsoft.com/fwlink/?LinkId=152044).|  
   
 ## Deciding Which Edition of BizTalk Server Is Right for the Job  
- There are four different editions of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], each of which is targeted at specific scenarios. The four editions of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] include:  
+ There are four different editions of BizTalk Server, each of which is targeted at specific scenarios. The four editions of BizTalk Server include:  
   
 -   **Enterprise** - Designed for customers with enterprise-level requirements for high volume, reliability, and availability.  
   
@@ -46,11 +46,11 @@ The planning section of the operations guide describes roles and responsibilitie
   
 -   **Branch** - Specialty version of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] designed for hub and spoke deployment scenarios including RFID.  
   
--   **Developer** - Provides all of the functionality of the Enterprise Edition for development and testing purposes and is available as the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Evaluation Edition at no cost for evaluation purposes. When installed as the Evaluation Edition, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] will function for 120 days.  
+-   **Developer** - Provides all of the functionality of the Enterprise Edition for development and testing purposes and is available as the BizTalk Server Evaluation Edition at no cost for evaluation purposes. When installed as the Evaluation Edition, BizTalk Server will function for 120 days.  
   
 -   **RFID Enterprise** - Designed to provide a scalable, extensible platform for development, deployment, and management of rich RFID and sensor solutions, includes BizTalk RFID Server and BizTalk RFID Mobile.  
   
- For more information about the different editions of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], see [Microsoft BizTalk Server Editions](http://go.microsoft.com/fwlink/?LinkId=108051) (http://go.microsoft.com/fwlink/?LinkId=108051).  
+ For more information about the different editions of BizTalk Server, see [Microsoft BizTalk Server Editions](http://go.microsoft.com/fwlink/?LinkId=108051) (http://go.microsoft.com/fwlink/?LinkId=108051).  
   
 ## Planning for Message Load  
  Once you have determined that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] meets your business integration needs, the next thing that you should determine is the message load that the BizTalk solution will be expected to process. This is an important decision because different editions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] have different scale-up and scale-out capabilities.  

@@ -21,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BAM Infrastructure Limitations
-The BAM infrastructure has the following design limitations for this release of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+The BAM infrastructure has the following design limitations for this release of BizTalk Server:  
   
 -   Real-time aggregations (RTAs) do not support the MIN or MAX function.  
   

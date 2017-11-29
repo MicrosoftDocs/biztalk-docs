@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Server 64-Bit Support
-For frequently asked questions related to 64-bit support for Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], see [BizTalk Server 64-bit Support](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).
+For frequently asked questions related to 64-bit support for Microsoft BizTalk Server, see [BizTalk Server 64-bit Support](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).

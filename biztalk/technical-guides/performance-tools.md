@@ -45,7 +45,7 @@ This topic provides information on tools you can use to evaluate the performance
  Log parser is a powerful, versatile tool that provides universal query access to text-based data such as log files, XML files and CSV files, as well as key data sources on the Windows® operating system such as the Event Log, the Registry, the file system, and Active Directory®. Log Parser is available for download at [Log Parser 2.2](http://go.microsoft.com/fwlink/?LinkID=100882) (http://go.microsoft.com/fwlink/?LinkID=100882).  
   
 ## Microsoft BizTalk LoadGen 2007  
- BizTalk LoadGen 2007 is a load generation tool used to run performance and stress tests against [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+ BizTalk LoadGen 2007 is a load generation tool used to run performance and stress tests against BizTalk Server.  
   
  For more information about the Microsoft BizTalk LoadGen 2007 tool, see [Microsoft BizTalk LoadGen 2007 Tools](http://go.microsoft.com/fwlink/?LinkId=59841) (http://go.microsoft.com/fwlink/?LinkId=59841).  
   

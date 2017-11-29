@@ -41,7 +41,7 @@ The topics in this section describe how to import bindings into a BizTalk group 
   
 -   **The Name attribute for an adapter may be incorrect.** If the binding file includes settings for an adapter, verify that the Name attribute of the TransportType element in the binding file is the same as that configured for the adapter in the BizTalk Server Administration console (under Platform Settings > Adapters).  
   
-     In particular, you should verify that this is the case when importing bindings from [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Some transports for which this may be an issue are as follows:  
+     In particular, you should verify that this is the case when importing bindings from [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] to BizTalk Server. Some transports for which this may be an issue are as follows:  
   
     -   MQS  
   

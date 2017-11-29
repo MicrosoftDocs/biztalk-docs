@@ -31,7 +31,7 @@ The simple way to use a new pipeline added by side-by-side versioning is to sele
   
 5.  Add the pipeline component to the global assembly cache (GAC).  
   
- After you have completed these steps, the compiled pipeline assembly will refer to the correct version of the pipeline component, and the AppDomain used by [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] will find the new version of the pipeline component in the GAC, rather than finding the previous version of the pipeline component in the Pipeline Components folder.  
+ After you have completed these steps, the compiled pipeline assembly will refer to the correct version of the pipeline component, and the AppDomain used by BizTalk Server will find the new version of the pipeline component in the GAC, rather than finding the previous version of the pipeline component in the Pipeline Components folder.  
   
 ## See Also  
  [Updating Using Side-by-Side Versioning](../technical-guides/updating-using-side-by-side-versioning.md)

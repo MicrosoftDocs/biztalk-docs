@@ -51,7 +51,7 @@ You use the trace tools to analyze messaging failures when you run your applicat
 ## Enable the Trace Utility  
  To enable the BizTalk Adapter Trace Utility in BizTalk Server, follow these steps:  
   
-1.  Move to the directory that contains trace.cmd. The default location is the Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] directory.  
+1.  Move to the directory that contains trace.cmd. The default location is the Microsoft BizTalk Server directory.  
   
 2.  Type the following command, substituting the directory that contains the tracelog.exe file on your computer for the directory in quotes, and then press ENTER:  
   

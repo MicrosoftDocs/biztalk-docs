@@ -44,7 +44,7 @@ This topic describes how to use the BizTalk Server Administration console to del
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration, expand the BizTalk group, expand Applications, and then expand the application containing the send port that you want to delete  
+2.  In the console tree, expand BizTalk Server Administration, expand the BizTalk group, expand Applications, and then expand the application containing the send port that you want to delete  
   
 3.  Click **Send Ports**, right-click the send port, and then click **Delete**.  
   

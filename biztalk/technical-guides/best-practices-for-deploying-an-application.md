@@ -28,10 +28,7 @@ This topic lists best practices that you should follow in deploying BizTalk appl
 ## Creating a BizTalk Application  
  **Script the creation of BizTalk application and .msi files**  
   
--   BtsTask.exe can be used to script the creation of BizTalk applications. If the creation of the applications is scripted, then the packages can be automatically built using an automated process on a build server. For more information about scripting the creation of applications, see [Deploying and Managing BizTalk Applications](http://go.microsoft.com/fwlink/?LinkID=154210) (http://go.microsoft.com/fwlink/?LinkID=154210) and the [BizTalk Server 2006: Understanding BizTalk Server Application Deployment](http://go.microsoft.com/fwlink/?LinkID=101599) (http://go.microsoft.com/fwlink/?LinkID=101599) white paper.  
-  
-    > [!NOTE]  
-    >  The white paper also applies to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   BtsTask.exe can be used to script the creation of BizTalk applications. If the creation of the applications is scripted, then the packages can be automatically built using an automated process on a build server. For more information about scripting the creation of applications, see [Deploying and Managing BizTalk Applications](../core/deploying-and-managing-biztalk-applications.md).
   
 ## Deploying a BizTalk Assembly  
  **Never deploy an assembly from Visual Studio on a production computer**  
@@ -49,7 +46,7 @@ This topic lists best practices that you should follow in deploying BizTalk appl
   
 -   If artifacts are going to be shared by two or more applications, deploy the shared artifacts into a separate application. For example, if two applications share a schema, place the schema in a separate application. We recommend this because only one artifact in a BizTalk group can have a single locally unique identifier (LUID). A LUID consists of the artifact name and optionally other attributes. If you include an artifact in one application, and then create a reference to it from another application, the referring application may not function correctly when you stop the application containing the artifact.  
   
-     This best practice applies to all artifact types except for files, such as Readme files and scripts, which are added to the application as a File type of artifact. This is because more than one file artifact with the same name can be deployed in a BizTalk group. Therefore, you can use a file having the same name in two or more applications. In this case, stopping one application will not impact the other application. For more information about adding file artifacts, see [How to Add a File to an Application](http://go.microsoft.com/fwlink/?LinkId=154997) (http://go.microsoft.com/fwlink/?LinkId=154997).  
+     This best practice applies to all artifact types except for files, such as Readme files and scripts, which are added to the application as a File type of artifact. This is because more than one file artifact with the same name can be deployed in a BizTalk group. Therefore, you can use a file having the same name in two or more applications. In this case, stopping one application will not impact the other application. For more information about adding file artifacts, see [How to Add a File to an Application](../core/how-to-add-a-file-to-an-application.md).  
   
  **Deploy a shared Web site in a separate application**  
   
@@ -70,7 +67,7 @@ This topic lists best practices that you should follow in deploying BizTalk appl
   
 -   Deploy several smaller .msi files instead of one large .msi file.  
   
-    -   Increase the default transaction timeout of 3,000 seconds associated with the Microsoft.BizTalk.ApplicationDeployment.Group and the Microsoft.BizTalk.Deployment.DeployerComponent components in the Component Services management interface. These components belong to the Microsoft.BizTalk.ApplicationDeployment.Engine and Microsoft.Biztalk.Deployment COM+ applications, respectively. For more information, see Microsoft Knowledge Base article 287499, [How to Change the Transaction Time-Out Value for MTS or COM+](http://go.microsoft.com/fwlink/?LinkId=109589) (http://go.microsoft.com/fwlink/?LinkId=109589).  
+    -   Increase the default transaction timeout of 3,000 seconds associated with the Microsoft.BizTalk.ApplicationDeployment.Group and the Microsoft.BizTalk.Deployment.DeployerComponent components in the Component Services management interface. These components belong to the Microsoft.BizTalk.ApplicationDeployment.Engine and Microsoft.Biztalk.Deployment COM+ applications, respectively. For more information, see Microsoft Knowledge Base article 287499, [How to Change the Transaction Time-Out Value for MTS or COM+](https://support.microsoft.com/help/287499/how-to-change-the-transaction-time-out-value-for-mts-or-com).  
   
  **Prevent bindings from being overwritten**  
   
@@ -78,7 +75,7 @@ This topic lists best practices that you should follow in deploying BizTalk appl
   
  **Ensure that the .msi file is secure**  
   
--   An .msi file may contain sensitive data. Be sure to take steps to help ensure that the file is secure. For more information about .msi file security, see [Security and Windows Installer](http://go.microsoft.com/fwlink/?LinkId=154998) (http://go.microsoft.com/fwlink/?LinkId=154998).  
+-   An .msi file may contain sensitive data. Be sure to take steps to help ensure that the file is secure. For more information about .msi file security, see [Security and Windows Installer](../core/security-and-windows-installer.md).  
   
  **Ensure that the binding file is secure**  
   
@@ -91,12 +88,12 @@ This topic lists best practices that you should follow in deploying BizTalk appl
 ## Importing a BizTalk Application  
  **Script the importing of .msi files**  
   
--   BtsTask.exe can be used to script the importing of existing BizTalk .msi files. For more information about scripting .msi file importing, see [Deploying and Managing BizTalk Applications](http://go.microsoft.com/fwlink/?LinkID=154210) (http://go.microsoft.com/fwlink/?LinkID=154210) and the [BizTalk Server 2006: Understanding BizTalk Server Application Deployment](http://go.microsoft.com/fwlink/?LinkID=101599) (http://go.microsoft.com/fwlink/?LinkID=101599) white paper.  
+-   BtsTask.exe can be used to script the importing of existing BizTalk .msi files. For more information about scripting .msi file importing, see [Deploying and Managing BizTalk Applications](../core/deploying-and-managing-biztalk-applications.md). 
   
     > [!NOTE]  
-    >  The white paper also applies to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  The white paper also applies to BizTalk Server.  
   
--   You can add scripts to run as pre-processing or post-processing scripts. However, you will have to include logic in your scripts to check environment variables to determine which context the script is executing in (an import, installation, or uninstallation) and process accordingly. For more information about using pre- and post-processing scripts, see [Using Pre- and Post-processing Scripts to Customize Application Deployment](http://go.microsoft.com/fwlink/?LinkId=154995) (http://go.microsoft.com/fwlink/?LinkId=154995).  
+-   You can add scripts to run as pre-processing or post-processing scripts. However, you will have to include logic in your scripts to check environment variables to determine which context the script is executing in (an import, installation, or uninstallation) and process accordingly. For more information about using pre- and post-processing scripts, see [Using Pre- and Post-processing Scripts to Customize Application Deployment](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md). 
   
  **Verify the existence of referenced artifacts**  
   
@@ -112,4 +109,4 @@ This topic lists best practices that you should follow in deploying BizTalk appl
   
  **If an import operation times out, split the application into additional .msi files**  
   
--   An import operation will time out if it exceeds 3,600 seconds in duration. If you are attempting to import an .msi file and the operation times out, you should divide the contents of the application into more than one .msi file by re-exporting the application and selecting a subset of artifacts to export. For more information about exporting an application into an .msi file, see [How to Export a BizTalk Application](http://go.microsoft.com/fwlink/?LinkID=154848) (http://go.microsoft.com/fwlink/?LinkID=154848).
+-   An import operation will time out if it exceeds 3,600 seconds in duration. If you are attempting to import an .msi file and the operation times out, you should divide the contents of the application into more than one .msi file by re-exporting the application and selecting a subset of artifacts to export. For more information about exporting an application into an .msi file, see [Export a BizTalk Application](../core/how-to-export-a-biztalk-application.md).

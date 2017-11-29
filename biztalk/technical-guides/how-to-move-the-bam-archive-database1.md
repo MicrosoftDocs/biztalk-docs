@@ -61,7 +61,7 @@ You can use this procedure to move the BAM Archive database to another server.  
   
     1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  On a computer running [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], browse to the following folder:  
+    2.  On a computer running BizTalk Server, browse to the following folder:  
   
         -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
   
@@ -84,7 +84,7 @@ You can use this procedure to move the BAM Archive database to another server.  
   
 4.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-5.  On a computer running [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], browse to the following folder:  
+5.  On a computer running BizTalk Server, browse to the following folder:  
   
     -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
   

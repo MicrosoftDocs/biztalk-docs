@@ -56,7 +56,7 @@ This topic describes how to install the Trace Log tool and how to enable BizTalk
   
 #### To enable BizTalk adapter tracing  
   
-1.  At a command prompt, change the current directory to the directory where [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed. By default, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)] directory.  If using a 64-bit version of Windows and [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], the installation path is [!INCLUDE[btsBizTalkServerPathx64](../includes/btsbiztalkserverpathx64-md.md)].  
+1.  At a command prompt, change the current directory to the directory where BizTalk Server is installed. By default, BizTalk Server is installed in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)] directory.  If using a 64-bit version of Windows and BizTalk Server, the installation path is [!INCLUDE[btsBizTalkServerPathx64](../includes/btsbiztalkserverpathx64-md.md)].  
   
 2.  Type the following command, and then press ENTER:  
   
@@ -81,7 +81,7 @@ This topic describes how to install the Trace Log tool and how to enable BizTalk
   
 #### To capture trace output  
   
-1.  At a command prompt, change the current directory to the directory where [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is installed.  
+1.  At a command prompt, change the current directory to the directory where BizTalk Server is installed.  
   
 2.  At a command prompt, type the following command, and then press ENTER:  
   

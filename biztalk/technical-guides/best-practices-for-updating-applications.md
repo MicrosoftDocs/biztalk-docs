@@ -29,7 +29,7 @@ This topic describes best practices that you should consider using when updating
   
 -   The **BizTalk Assembly Checker and Remote GAC tool** (BTSAssemblyChecker.exe) checks the versions of assemblies deployed to the BizTalk Management database and verifies that they are correctly registered in the GAC on all BizTalk Server computers. You can use this tool to verify that all the assemblies containing the artifacts of a certain BizTalk application are installed on all BizTalk nodes. The tool is particularly useful in conjunction with a solid versioning strategy to verify that the correct version of a set of assemblies is installed on each BizTalk machine, especially when side-by-side deployment approach is used.  
   
--   The tool is available with the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installation media at Support\Tools\x86\BTSAssemblyChecker.exe.  
+-   The tool is available with the BizTalk Server installation media at Support\Tools\x86\BTSAssemblyChecker.exe.  
   
  **Use a Versioning Product**  
   

@@ -17,7 +17,7 @@ manager: "anneta"
 This topic describes several tools that can be used to monitor and evaluate the performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.  
   
 ## Performance Analysis of Logs (PAL) tool  
- The PAL tool is used to generate an HTML-based report that graphically charts important performance monitor counters and generates alerts when thresholds for these counters are exceeded. PAL is an excellent tool for identifying bottlenecks in a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] solution to facilitate the appropriate allocation of resources when optimizing the performance of the solution. For more information about the Performance Analysis of Logs (PAL) tool, see [http://go.microsoft.com/fwlink/?LinkID=98098](http://go.microsoft.com/fwlink/?LinkID=98098).  
+ The PAL tool is used to generate an HTML-based report that graphically charts important performance monitor counters and generates alerts when thresholds for these counters are exceeded. PAL is an excellent tool for identifying bottlenecks in a BizTalk Server solution to facilitate the appropriate allocation of resources when optimizing the performance of the solution. For more information about the Performance Analysis of Logs (PAL) tool, see [http://go.microsoft.com/fwlink/?LinkID=98098](http://go.microsoft.com/fwlink/?LinkID=98098).  
   
 > [!NOTE]  
 >  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk.  
@@ -32,13 +32,13 @@ This topic describes several tools that can be used to monitor and evaluate the 
  The Relog utility is used to extract performance counters from logs created by Performance Monitor and convert the data into other formats, such as tab-delimited text files (text-TSV), comma-delimited text files (text-CSV), binary files, and SQL databases. This data can then be analyzed and queried using other tools, such as Log Parser, to generate statistics for key performance indicators (KPIs). The Relog utility is provided with [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] and subsequent versions.  
   
 ## LoadGen  
- BizTalk LoadGen 2007 is a load generation tool used to run performance and stress tests against [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. The Microsoft BizTalk LoadGen 2007 tool is available for download at [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841).  
+ BizTalk LoadGen 2007 is a load generation tool used to run performance and stress tests against BizTalk Server. The Microsoft BizTalk LoadGen 2007 tool is available for download at [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841).  
   
 ## Visual Studio Team System 2008 Load Testing  
  The Visual Studio Team System (VSTS) 2008 provides a tool for creating and running load tests. For more information about working with load tests see [http://go.microsoft.com/fwlink/?LinkId=141486](http://go.microsoft.com/fwlink/?LinkId=141486).  
   
 ## BizUnit  
- BizUnit is a framework designed for automated testing of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solutions. BizUnit is an excellent tool for testing end-to-end [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] scenarios. For more information about BizUnit 3.0, see [http://go.microsoft.com/fwlink/?LinkID=85168](http://go.microsoft.com/fwlink/?LinkID=85168).  
+ BizUnit is a framework designed for automated testing of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solutions. BizUnit is an excellent tool for testing end-to-end BizTalk Server scenarios. For more information about BizUnit 3.0, see [http://go.microsoft.com/fwlink/?LinkID=85168](http://go.microsoft.com/fwlink/?LinkID=85168).  
   
 > [!NOTE]  
 >  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk.  

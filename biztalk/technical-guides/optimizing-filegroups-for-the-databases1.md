@@ -37,7 +37,7 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
   
  Additionally, files and filegroups enable data placement, because tables can be created in specific filegroups. This improves performance, because all file I/O for a given table can be directed at a specific disk. For example, a heavily used table can be placed on a file in a filegroup, located on one disk, and the other less heavily accessed tables in the database can be located on different files in another filegroup, located on a second disk.  
   
- File IO bottlenecks are discussed in considerable detail in the topic “Identifying Bottlenecks in the Database Tier” in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] documentation at [http://go.microsoft.com/fwlink/?LinkId=147626](http://go.microsoft.com/fwlink/?LinkId=147626). The most common indicator that File I/O (Disk I/O) is a bottleneck is the value of the “Physical Disk:Average Disk Queue Length” counter. When the value of the “Physical Disk:Average Disk Queue Length” counter is greater than about 3 for any given disk on any of the SQL Servers, then file I/O is likely a bottleneck.  
+ File IO bottlenecks are discussed in considerable detail in the topic “Identifying Bottlenecks in the Database Tier” in the BizTalk Server documentation at [http://go.microsoft.com/fwlink/?LinkId=147626](http://go.microsoft.com/fwlink/?LinkId=147626). The most common indicator that File I/O (Disk I/O) is a bottleneck is the value of the “Physical Disk:Average Disk Queue Length” counter. When the value of the “Physical Disk:Average Disk Queue Length” counter is greater than about 3 for any given disk on any of the SQL Servers, then file I/O is likely a bottleneck.  
   
  If applying file or filegroup optimization doesn't resolve a file I/O bottleneck problem, then it may be necessary to increase the throughput of the disk subsystem by adding additional physical or SAN drives.  
   
@@ -78,7 +78,7 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
  This section describes the steps that can be followed to manually add files to the MessageBox database. In this example three filegroups are added and then a file is added to each filegroup to distribute the files for the MessageBox across multiple disks. In this example, the steps are performed on both SQL Server 2005 and SQL Server 2008.  
   
 > [!NOTE]  
->  For purposes of the performance testing done for this guide, filegroups were optimized through the use of a script which will be published as part of the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Performance Optimizations Guide. The steps below are provided for reference purposes only.  
+>  For purposes of the performance testing done for this guide, filegroups were optimized through the use of a script which will be published as part of the BizTalk Server Performance Optimizations Guide. The steps below are provided for reference purposes only.  
   
 ### Manually adding files to the MessageBox database on SQL Server 2005 or SQL Server 2008  
  **Follow these steps to manually add files to the MessageBox database on [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)] or [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]:**  

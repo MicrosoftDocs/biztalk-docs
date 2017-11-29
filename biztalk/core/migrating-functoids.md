@@ -23,11 +23,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Migrating Functoids
-When you migrate a map from previous versions of BizTalk Server to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], any functoids included in the map are also migrated. If the functoids you migrate do not include **Scripting** functoids, no additional migration tasks are required. However if your map includes **Scripting** functoids or custom functoids, you may have additional steps to perform.  
+When you migrate a map from previous versions of BizTalk Server to BizTalk Server, any functoids included in the map are also migrated. If the functoids you migrate do not include **Scripting** functoids, no additional migration tasks are required. However if your map includes **Scripting** functoids or custom functoids, you may have additional steps to perform.  
   
  In previous versions of BizTalk Server, all custom script included with a **Scripting** functoid was written inline. That is, when you created the functoid, all the script the functoid called during run time was stored with the functoid. If you wanted to use the same script with a different functoid, you either copied and pasted it from one **Scripting** functoid to another, or you rewrote the script from scratch.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] copies existing inline scripts with the functoids when you migrate a map. However, not all of the scripts may function correctly. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] uses Visual Basic .NET and JScript .NET rather than the VBScript and JScript used in previous versions. The .NET versions of the languages include some changes in syntax.  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] copies existing inline scripts with the functoids when you migrate a map. However, not all of the scripts may function correctly. BizTalk Server uses Visual Basic .NET and JScript .NET rather than the VBScript and JScript used in previous versions. The .NET versions of the languages include some changes in syntax.  
   
 > [!NOTE]
 >  Be sure to test your **Scripting** functoids after migration.  

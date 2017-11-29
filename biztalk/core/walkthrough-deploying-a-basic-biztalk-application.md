@@ -100,7 +100,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 #### 2. Deploy the BizTalk assemblies  
  From within Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] on the development computer, use the procedures in this step to deploy BizTalk assemblies into a BizTalk application.  
   
- Before you begin, you must have a BizTalk solution available in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. You can either create your own solution or project, or you can set up the ErrorHandling sample included with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. You can set up the ErrorHandling sample solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] as follows:  
+ Before you begin, you must have a BizTalk solution available in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. You can either create your own solution or project, or you can set up the ErrorHandling sample included with BizTalk Server. You can set up the ErrorHandling sample solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] as follows:  
   
 ###### To set up the ErrorHandling solution  
   
