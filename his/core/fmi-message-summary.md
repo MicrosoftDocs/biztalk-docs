@@ -32,8 +32,8 @@ This section lists each of the messages used at the function management interfac
 |**Close(PLU) Request**|IN/OUT|PLU|[Closing the PLU Connection](../core/closing-the-plu-connection.md)|  
 |**Close(PLU) OK Response**|IN/OUT|PLU|[Closing the PLU Connection](../core/closing-the-plu-connection.md)|  
 |**Data-FMI**|IN/OUT|SSCP/PLU|[Data Flow](../core/data-flow.md)|  
-|**Status-Acknowledge(Ack)**|IN/OUT|SSCP/PLU|[Data Flow](../core/data-flow.md), [Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data].md)|  
-|**Status-Acknowledge(Nack-1)**|IN/OUT|SSCP/PLU|[Data Flow](../core/data-flow.md), [Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data].md)|  
+|**Status-Acknowledge(Ack)**|IN/OUT|SSCP/PLU|[Data Flow](../core/data-flow.md), [Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data.md)|  
+|**Status-Acknowledge(Nack-1)**|IN/OUT|SSCP/PLU|[Data Flow](../core/data-flow.md), [Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data.md)|  
 |**Status-Acknowledge(Nack-2)**|OUT|SSCP/PLU|[Inbound Data](../core/inbound-data.md)|  
 |**Status-Control(CLEAR) Request**|OUT|PLU|[Recovery](../core/recovery.md)|  
 |**Status-Control(CLEAR) Ack**|IN|PLU|[Recovery](../core/recovery.md)|  
@@ -50,10 +50,10 @@ This section lists each of the messages used at the function management interfac
 |**Status-Control(CANCEL) Ack**|IN/OUT|PLU|[Outbound Chaining](../core/outbound-chaining.md), [Inbound Chaining](../core/inbound-chaining.md)|  
 |**Status-Control(CANCEL) Nack-1**|IN/OUT|PLU|[Outbound Chaining](../core/outbound-chaining.md), [Inbound Chaining](../core/inbound-chaining.md)|  
 |**Status-Control(CANCEL) Nack-2**|OUT|PLU|[Inbound Chaining](../core/inbound-chaining.md)|  
-|**Status-Control(LUSTAT) Request**|IN/OUT|PLU|[LUSTATs](../core/lustats].md)|  
-|**Status-Control(LUSTAT) Ack**|IN/OUT|PLU|[LUSTATs](../core/lustats].md)|  
-|**Status-Control(LUSTAT) Nack-1**|IN/OUT|PLU|[LUSTATs](../core/lustats].md)|  
-|**Status-Control(LUSTAT) Nack-2**|OUT|PLU|[LUSTATs](../core/lustats].md)|  
+|**Status-Control(LUSTAT) Request**|IN/OUT|PLU|[LUSTATs](../core/lustats.md)|  
+|**Status-Control(LUSTAT) Ack**|IN/OUT|PLU|[LUSTATs](../core/lustats.md)|  
+|**Status-Control(LUSTAT) Nack-1**|IN/OUT|PLU|[LUSTATs](../core/lustats.md)|  
+|**Status-Control(LUSTAT) Nack-2**|OUT|PLU|[LUSTATs](../core/lustats.md)|  
 |**Status-Control(SIGNAL) Request**|IN/OUT|PLU|[Direction](../core/direction.md)|  
 |**Status-Control(SIGNAL) Ack**|OUT|PLU|[Direction](../core/direction.md)|  
 |**Status-Control(SIGNAL) Nack-1**|OUT|PLU|[Direction](../core/direction.md)|  
@@ -65,10 +65,10 @@ This section lists each of the messages used at the function management interfac
 |**Status-Control(BID) Request**|OUT|PLU|[Brackets](../core/brackets.md)|  
 |**Status-Control(BID) Ack**|IN|PLU|[Brackets](../core/brackets.md)|  
 |**Status-Control(BID) Nack-1**|IN|PLU|[Brackets](../core/brackets.md)|  
-|**Status-Control(CHASE) Request**|IN/OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data].md)|  
-|**Status-Control(CHASE) Ack**|IN/OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data].md)|  
-|**Status-Control(CHASE) Nack-1**|IN/OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data].md)|  
-|**Status-Control(CHASE) Nack-2**|OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data].md)|  
+|**Status-Control(CHASE) Request**|IN/OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data.md)|  
+|**Status-Control(CHASE) Ack**|IN/OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data.md)|  
+|**Status-Control(CHASE) Nack-1**|IN/OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data.md)|  
+|**Status-Control(CHASE) Nack-2**|OUT|PLU|[Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data.md)|  
 |**Status-Control(SHUTC) Request**|IN|PLU|[Shutdown and Quiesce](../core/shutdown-and-quiesce.md)|  
 |**Status-Control(SHUTC) Ack**|OUT|PLU|[Shutdown and Quiesce](../core/shutdown-and-quiesce.md)|  
 |**Status-Control(SHUTC) Nack-1**|OUT|PLU|[Shutdown and Quiesce](../core/shutdown-and-quiesce.md)|  
@@ -93,7 +93,7 @@ This section lists each of the messages used at the function management interfac
 |**Status-Error**|OUT|SSCP/PLU|[Status-Error Message](../core/status-error-message.md)|  
 |**Status-Resource**|IN|PLU|[Pacing and Chunking](../core/pacing-and-chunking.md)|  
 |**Status-Session**|OUT|SSCP/PLU|[Status-Session Message](../core/status-session-message.md), [Status-Session Codes](../core/status-session-codes.md)|  
-|**Status-RTM**|OUT|SSCP|[RTM Parameters](../core/rtm-parameters].md)|  
+|**Status-RTM**|OUT|SSCP|[RTM Parameters](../core/rtm-parameters.md)|  
   
  The following table lists the messages that are used for LUA only.  
   

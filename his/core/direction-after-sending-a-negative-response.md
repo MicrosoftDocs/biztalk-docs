@@ -24,7 +24,7 @@ When an application using half-duplex flip-flop protocol sends a negative respon
   
  The application must therefore examine the sense code on an **SDI** message to detect such races.  
   
- Error recovery pending state differs from receive state only in one respect: The application can convey sense information to the host using **Status-Control(LUSTAT).** (For more information, see [LUSTATs](../core/lustats].md).) The **LUSTAT** must not have the change direction (CD) or end bracket (EB) flags set. (The host already has direction, and the bracket must not be terminated prematurely by the application.) Host Integration Server also enables the function management interface (FMI) application to send **Status-Control(LUSTAT)** in receive state.  
+ Error recovery pending state differs from receive state only in one respect: The application can convey sense information to the host using **Status-Control(LUSTAT).** (For more information, see [LUSTATs](../core/lustats.md).) The **LUSTAT** must not have the change direction (CD) or end bracket (EB) flags set. (The host already has direction, and the bracket must not be terminated prematurely by the application.) Host Integration Server also enables the function management interface (FMI) application to send **Status-Control(LUSTAT)** in receive state.  
   
  An application using the half-duplex contention protocol does not have an error recovery pending state, and must enter contention state whenever it sends a negative response.  
   

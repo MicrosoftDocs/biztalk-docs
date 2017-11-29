@@ -69,10 +69,10 @@ typedef struct tediagns {
   
  The host gives the application direction so that the user can send further data.  
   
- Note that the host can override these definitions; for more information, see [RTM Parameters](../core/rtm-parameters].md).  
+ Note that the host can override these definitions; for more information, see [RTM Parameters](../core/rtm-parameters.md).  
   
  *dirtmth1*  
- The thresholds that define the bands into which response times are to be classified. Note that the host can override these definitions; for more information, see [RTM Parameters](../core/rtm-parameters].md).  
+ The thresholds that define the bands into which response times are to be classified. Note that the host can override these definitions; for more information, see [RTM Parameters](../core/rtm-parameters.md).  
   
  *dirtmth2*  
  RTM threshold #2.  

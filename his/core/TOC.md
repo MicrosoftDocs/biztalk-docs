@@ -2316,7 +2316,7 @@
 ####### [Supported RPG Data Types](supported-rpg-data-types.md)
 ####### [Supported RPG Keywords](supported-rpg-keywords.md)
 ###### [Data Type Conversion](data-type-conversion.md)
-####### [Converting Data Types from Automation to OS/390 COBOL]](converting-data-types-from-automation-to-os-390-cobol].md)
+####### [Converting Data Types from Automation to OS/390 COBOL]](converting-data-types-from-automation-to-os-390-cobol.md)
 ####### [Converting Data Types from OS/390 COBOL to Automation](converting-data-types-from-os-390-cobol-to-automation.md)
 ####### [Converting Data Types from Automation to RPG](converting-data-types-from-automation-to-rpg.md)
 ####### [Converting Data Types from RPG to Automation](converting-data-types-from-rpg-to-automation.md)

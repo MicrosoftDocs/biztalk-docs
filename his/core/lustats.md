@@ -49,7 +49,7 @@ The data flow control (DFC) logical unit status **LUSTAT** message is used withi
  [Brackets](../core/brackets.md)   
  [Direction](../core/direction.md)   
  [Pacing and Chunking](../core/pacing-and-chunking.md)   
- [Confirmation and Rejection of Data\]](../core/confirmation-and-rejection-of-data].md)   
+ [Confirmation and Rejection of Data\]](../core/confirmation-and-rejection-of-data.md)   
  [Shutdown and Quiesce](../core/shutdown-and-quiesce.md)   
  [Recovery](../core/recovery.md)   
  [Application-Initiated Termination](../core/application-initiated-termination.md)   

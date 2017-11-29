@@ -30,4 +30,4 @@ The Host Integration Server 3270 emulation program can send 3270 user alerts to 
  [Opening the SSCP Connection](../core/opening-the-sscp-connection.md)   
  [Closing the SSCP Connection](../core/closing-the-sscp-connection.md)   
  [SSCP Session](../core/sscp-session.md)   
- [RTM Parameters\]](../core/rtm-parameters].md)
+ [RTM Parameters\]](../core/rtm-parameters.md)

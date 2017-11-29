@@ -25,6 +25,6 @@ The system services control point (SSCP) connection of the application to the lo
   
 -   [Using the SSCP Session](../core/sscp-session.md)  
   
--   [RTM Parameters](../core/rtm-parameters].md)  
+-   [RTM Parameters](../core/rtm-parameters.md)  
   
 -   [3270 User Alerts](../core/3270-user-alerts.md)

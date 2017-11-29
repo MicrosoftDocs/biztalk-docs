@@ -26,5 +26,5 @@ To close the system services control point (SSCP) connection, an application sen
 ## See Also  
  [Opening the SSCP Connection](../core/opening-the-sscp-connection.md)   
  [SSCP Session](../core/sscp-session.md)   
- [RTM Parameters\]](../core/rtm-parameters].md)   
+ [RTM Parameters\]](../core/rtm-parameters.md)   
  [3270 User Alerts](../core/3270-user-alerts.md)

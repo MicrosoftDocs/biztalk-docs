@@ -23,7 +23,7 @@ The [Status-RTM](../Topic/Status-RTM2.md) message is used by the local node to i
   
 -   When any of the RTM parameters are changed by the host.  
   
- For more information about the use of the **Status-RTM** message, see [RTM Parameters](../core/rtm-parameters].md). For more information about how the application supplies RTM data to the local node, see [Response Time Monitor Data](../core/response-time-monitor-data.md).  
+ For more information about the use of the **Status-RTM** message, see [RTM Parameters](../core/rtm-parameters.md). For more information about how the application supplies RTM data to the local node, see [Response Time Monitor Data](../core/response-time-monitor-data.md).  
   
 ## See Also  
  [Status-Acknowledge Message](../core/status-acknowledge-message.md)   

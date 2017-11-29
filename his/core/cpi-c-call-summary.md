@@ -29,4 +29,4 @@ This section briefly describes each Common Programming Interface for Communicati
   
 -   [Ending a Conversation](../core/ending-a-conversation.md)  
   
--   [Administering Side Information](../core/administering-side-information].md)
+-   [Administering Side Information](../core/administering-side-information.md)

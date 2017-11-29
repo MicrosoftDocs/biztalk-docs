@@ -37,7 +37,7 @@ The Transaction Integrator (TI) run-time environment automatically converts data
   
 ## In This Section  
   
--   [Converting Data Types from Automation to OS/390 COBOL](../core/converting-data-types-from-automation-to-os-390-cobol].md)  
+-   [Converting Data Types from Automation to OS/390 COBOL](../core/converting-data-types-from-automation-to-os-390-cobol.md)  
   
 -   [Converting Data Types from OS/390 COBOL to Automation](../core/converting-data-types-from-os-390-cobol-to-automation.md)  
   

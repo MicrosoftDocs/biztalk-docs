@@ -17,7 +17,7 @@ The logical unit-of-work identifier (LUWID), conversation correlators, and sessi
   
  This section contains:  
   
--   [Generating and Setting LUWIDs](../core/generating-and-setting-luwids].md)  
+-   [Generating and Setting LUWIDs](../core/generating-and-setting-luwids.md)  
   
 -   [Extracting LUWIDs](../core/extracting-luwids.md)  
   

@@ -39,7 +39,7 @@ The primary logical unit (PLU) connection of the application to the local node p
   
 -   [Pacing and Chunking](../core/pacing-and-chunking.md)  
   
--   [Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data].md)  
+-   [Confirmation and Rejection of Data](../core/confirmation-and-rejection-of-data.md)  
   
 -   [Shutdown and Quiesce](../core/shutdown-and-quiesce.md)  
   
@@ -47,6 +47,6 @@ The primary logical unit (PLU) connection of the application to the local node p
   
 -   [Application-Initiated Termination](../core/application-initiated-termination.md)  
   
--   [LUSTATs](../core/lustats].md)  
+-   [LUSTATs](../core/lustats.md)  
   
 -   [Response Time Monitor Data](../core/response-time-monitor-data.md)

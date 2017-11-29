@@ -127,5 +127,5 @@ PIC S9(?)V9(?) COMP (32-bit)|Currency|p,r|None|
   
 ## See Also  
  [Supported TI Data Types](../core/supported-ti-data-types.md)   
- [Converting Data Types from Automation to OS/390 COBOL\]](../core/converting-data-types-from-automation-to-os-390-cobol].md)   
+ [Converting Data Types from Automation to OS/390 COBOL\]](../core/converting-data-types-from-automation-to-os-390-cobol.md)   
  [Data Type Conversion](../core/data-type-conversion.md)

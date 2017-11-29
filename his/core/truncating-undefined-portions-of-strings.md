@@ -22,5 +22,5 @@ You can define the properties for a string such that the Transaction Integrator 
  If blank padding and truncation are specified for a string, the TI run-time environment might need to add an EBCDIC space character after a terminating SI character is added.  
   
 ## See Also  
- [Converting Data Types from Automation to OS/390 COBOL\]](../core/converting-data-types-from-automation-to-os-390-cobol].md)   
+ [Converting Data Types from Automation to OS/390 COBOL\]](../core/converting-data-types-from-automation-to-os-390-cobol.md)   
  [Converting Data Types from OS/390 COBOL to Automation](../core/converting-data-types-from-os-390-cobol-to-automation.md)

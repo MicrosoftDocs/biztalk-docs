@@ -30,9 +30,9 @@ typedef struct tedalert {
 ## Remarks  
  The following "Members" list explains the meaning of each field in the structures that is relevant to the application and indicates how the application should use each field. Fields that are not included in the list are used by other Microsoft® Host Integration Server components and need not concern the application; in particular, the network management connection name and the times at which RTM data is sent to the host are handled by the local node on behalf of the application.  
   
- Note that the application should determine whether the user is permitted to send NetView user alerts and/or view RTM data (see [3270 User Record Format](../core/3270-user-record-format.md)). It should not display the appropriate information, as described below, if the user does not have permission to use that information. The host can also override whether the application is permitted to send and/or to display RTM data (for more information, see [RTM Parameters](../core/rtm-parameters].md)).  
+ Note that the application should determine whether the user is permitted to send NetView user alerts and/or view RTM data (see [3270 User Record Format](../core/3270-user-record-format.md)). It should not display the appropriate information, as described below, if the user does not have permission to use that information. The host can also override whether the application is permitted to send and/or to display RTM data (for more information, see [RTM Parameters](../core/rtm-parameters.md)).  
   
- For more information about how the application uses the RTM parameters, see [RTM Parameters](../core/rtm-parameters].md), [Response Time Monitor Data](../core/response-time-monitor-data.md), and [Status-RTM](../Topic/Status-RTM2.md).  
+ For more information about how the application uses the RTM parameters, see [RTM Parameters](../core/rtm-parameters.md), [Response Time Monitor Data](../core/response-time-monitor-data.md), and [Status-RTM](../Topic/Status-RTM2.md).  
   
 ## Members  
  *dalrtnam[53]*  

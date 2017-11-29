@@ -41,11 +41,11 @@ Common service verbs (CSVs) are a set of programming functions provided by [!INC
   
  This section contains:  
   
--   [Host Integration Server Asynchronous Support](../core/host-integration-server-asynchronous-support].md)  
+-   [Host Integration Server Asynchronous Support](../core/host-integration-server-asynchronous-support.md)  
   
--   [Before Using Windows CSV](../core/windows-csv-considerations].md)  
+-   [Before Using Windows CSV](../core/windows-csv-considerations.md)  
   
--   [Using CSVs in C Programs](../core/csvs-in-c-programs].md)  
+-   [Using CSVs in C Programs](../core/csvs-in-c-programs.md)  
   
 -   [Sample Programs](../core/sample-programs.md)  
   
