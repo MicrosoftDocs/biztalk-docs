@@ -41,7 +41,7 @@ manager: "anneta"
   
 #### To deploy the DataFormatTransformation itinerary  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation\DataFormatTransformation.sln.  
+1.  In Visual Studio, open C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation\DataFormatTransformation.sln.  
   
 2.  In Solution Explorer, in the **Itinerary.Library** project, double-click **DataFormatTransformation.itinerary** to open it in the Itinerary Designer.  
   

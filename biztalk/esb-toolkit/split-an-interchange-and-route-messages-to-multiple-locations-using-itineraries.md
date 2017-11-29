@@ -132,7 +132,7 @@ manager: "anneta"
   
 #### To add a schemas project to the Patterns solution  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open C:\HowTos\Patterns\Patterns.sln.  
+1.  In Visual Studio, open C:\HowTos\Patterns\Patterns.sln.  
   
 2.  In Solution Explorer, right-click **Solution 'Patterns'**, point to **Add**, and then click **New Project**.  
   
@@ -241,7 +241,7 @@ manager: "anneta"
   
 #### To create an ESB itinerary DSL model for GlobalBank West messages  
   
-1.  In **[!INCLUDE[vs2010](../includes/vs2010-md.md)]**, open C:\HowTos\Patterns\Patterns.sln.  
+1.  In **Visual Studio**, open C:\HowTos\Patterns\Patterns.sln.  
   
 2.  In Solution Explorer, right-click the **ItineraryLibrary** project, point to **Add**, and then click **New Itinerary**.  
   
@@ -319,7 +319,7 @@ manager: "anneta"
   
 #### To create an ESB itinerary DSL model for GlobalBank East message  
   
-1.  In **[!INCLUDE[vs2010](../includes/vs2010-md.md)]**, open C:\HowTos\Patterns.sln.  
+1.  In **Visual Studio**, open C:\HowTos\Patterns.sln.  
   
 2.  In Solution Explorer, right-click the **ItineraryLibrary** project, point to **Add**, and then click **New Itinerary**.  
   

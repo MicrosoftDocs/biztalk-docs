@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Server Integration
-AmberPoint packages its Microsoft BizTalk Server integration product as a custom BizTalk pipeline component. You can add this component to your existing custom pipelines using [!INCLUDE[vs2010](../includes/vs2010-md.md)], as shown in Figure 1.  
+AmberPoint packages its Microsoft BizTalk Server integration product as a custom BizTalk pipeline component. You can add this component to your existing custom pipelines using Visual Studio, as shown in Figure 1.  
   
  ![VisualStudio Pipeline](../esb-toolkit/media/ch9-visualstudiopipeline.jpg "Ch9-VisualStudioPipeline")  
   

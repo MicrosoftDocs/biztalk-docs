@@ -25,7 +25,7 @@ In this section, Contoso creates an EDI project using the [!INCLUDE[appfabricint
   
 ### To create EDI project  
   
-1.  Open [!INCLUDE[vs2010](../includes/vs2010-md.md)], from the **File** menu point to **New**, and then click **Project**.  
+1.  Open Visual Studio, from the **File** menu point to **New**, and then click **Project**.  
   
 2.  In the **New Project** dialog box, from the **Installed Templates**, select **Service Bus**. Specify a project name and a location for the project, and then click **OK**.  
   

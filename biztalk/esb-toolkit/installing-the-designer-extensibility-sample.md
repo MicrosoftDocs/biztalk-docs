@@ -20,13 +20,13 @@ This section describes the process for installing the Designer Extensibility sam
   
 1.  In Windows Explorer, open the folder \Source\Samples\Designer Extensibility Samples\Extenders.Itinerary.OrchestrationSample, where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples, and then open the Microsoft Visual Studio solution file named Extenders.Itinerary.OrchestrationSample.sln.  
   
-2.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], click **Build Solution** on the **Build** menu.  
+2.  In Visual Studio, click **Build Solution** on the **Build** menu.  
   
 3.  Close Visual Studio.  
   
 4.  In Windows Explorer, open the folder \Source\Samples\Designer Extensibility Samples\Extenders.Resolvers.ResolverSample, where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples, and then open the Visual Studio solution file named Extenders.Resolvers.ResolverSample.sln.  
   
-5.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], click **Build Solution** on the **Build** menu.  
+5.  In Visual Studio, click **Build Solution** on the **Build** menu.  
   
 6.  Close Visual Studio.  
   

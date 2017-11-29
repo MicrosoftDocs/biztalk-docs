@@ -33,7 +33,7 @@ In this walkthrough a [!INCLUDE[firstref_btsWinCommFoundation](../includes/first
   
 -   Both the computer that builds the assemblies and runs the deployment process, and the computer that runs the sample, require Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)], and Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
   
--   The computer used to build the assemblies and run the deployment process requires Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+-   The computer used to build the assemblies and run the deployment process requires Microsoft Visual Studio.  
   
 -   The computer that runs the sample requires the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapters and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Administration Tools. These are options to install during setup of Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
   

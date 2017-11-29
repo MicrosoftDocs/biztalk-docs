@@ -46,7 +46,7 @@ This section describes how to prepare your environment to complete the steps in 
   
 ## Create the Visual Studio solution  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], on the File menu, point to **New**, and then click **Project**.  
+1.  In Visual Studio, on the File menu, point to **New**, and then click **Project**.  
   
 2.  In the **New Project** dialog box, in the Project types pane, click **Visual C#**, and then click **Class Library** in the Templates pane.  
   

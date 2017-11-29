@@ -20,6 +20,6 @@ The Microsoft BizTalk Operations sample requires the ESB BizTalk Operations serv
   
  **To install the BizTalk Operations sample**  
   
-1.  Open the solution named ESB.BizTalkOperations.Test.Client.csproj from the \Source\Samples\BizTalkOperations folder where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples into [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+1.  Open the solution named ESB.BizTalkOperations.Test.Client.csproj from the \Source\Samples\BizTalkOperations folder where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples into Visual Studio.  
   
 2.  Use the commands on the **Build** menu to compile the solution.
