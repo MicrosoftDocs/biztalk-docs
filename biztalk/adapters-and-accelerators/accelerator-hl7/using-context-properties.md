@@ -24,7 +24,7 @@ The BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../inc
   
  The following table contains a list of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] message context properties that the Messaging Engine uses. The engine uses many of these properties for routing. The serializer uses others for its processing. These properties have a prefix of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)].  
   
- For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] context properties (those identified in filter expressions by a BTS prefix), see "Message Context Properties" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help. **BTS.SchemaStrongName** and **BTS.MessageType** are two properties that the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] engine uses.  
+ For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] context properties (those identified in filter expressions by a BTS prefix), see "Message Context Properties" in BizTalk Server Help. **BTS.SchemaStrongName** and **BTS.MessageType** are two properties that the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] engine uses.  
   
  In the following table, the Is promoted and Is required columns have the following effects:  
   

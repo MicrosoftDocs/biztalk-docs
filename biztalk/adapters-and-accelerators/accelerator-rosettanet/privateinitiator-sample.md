@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # PrivateInitiator Sample
-The PrivateInitiator.odx sample contains the code for the initiator private process installed by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]. This is a generic private process that sends and receives RNIF service-content messages from the default SQL adapter-based send and receive ports.  
+The PrivateInitiator.odx sample contains the code for the initiator private process installed by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server. This is a generic private process that sends and receives RNIF service-content messages from the default SQL adapter-based send and receive ports.  
   
  By default, the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Setup program installs the sample in \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\PrivateInitiator.  
   

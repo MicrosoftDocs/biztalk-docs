@@ -29,7 +29,7 @@ When you deploy a BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonum
   
 3.  Open BizTalk Explorer, right-click the assembly that you want to undeploy, and then click **Undeploy**.  
   
- For more information about undeploying an assembly, see "Undeploying an Assembly Using BizTalk Explorer" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about undeploying an assembly, see "Undeploying an Assembly Using BizTalk Explorer" in BizTalk Server Help.  
   
 ## See Also  
  [Preparing to Use the Batching Tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)

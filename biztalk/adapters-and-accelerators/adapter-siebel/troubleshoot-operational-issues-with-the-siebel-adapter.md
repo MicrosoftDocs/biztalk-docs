@@ -157,7 +157,7 @@ Error saving properties.
   
  The adapter gives the following error when performing any operation on the Siebel system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **For [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **For BizTalk Server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  

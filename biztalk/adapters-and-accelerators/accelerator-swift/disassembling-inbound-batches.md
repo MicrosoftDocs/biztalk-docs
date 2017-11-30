@@ -129,7 +129,7 @@ $
     > [!NOTE]
     >  These configuration properties are valid only when fragmentation is enabled (**Fragmentation** set to **True**). When fragmentation is disabled, the disassembler publishes an exact copy of the entire batch, in native form, to the MessageBox database, so preservation settings are irrelevant (*everything* is preserved).  
   
- For more information about each configuration property, as well as other usage and configuration information, see [SWIFT Disassembler Configuration Properties](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md). For more information about MessageBox database publishing and multi-part messages, see [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about each configuration property, as well as other usage and configuration information, see [SWIFT Disassembler Configuration Properties](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md). For more information about MessageBox database publishing and multi-part messages, see BizTalk Server Help.  
   
 ## Next step
   

@@ -82,7 +82,7 @@ You need FILE send and receive ports for the Batch In/Batch Out tutorial. If you
   
 ### To create the Tutorial_BTAHL7Drop send port  
   
-1.  In the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
+1.  In the BizTalk Server Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
   
 2.  In the Send Port Properties dialog box, do the following:  
   

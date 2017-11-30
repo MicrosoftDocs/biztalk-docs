@@ -22,7 +22,7 @@ In this step, you create a send port to deliver the message batch that you creat
   
 ### To create the send port for the message batch  
   
-1.  In the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
+1.  In the BizTalk Server Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
   
 2.  In the Send Port Properties dialog box, do the following:  
   
@@ -62,7 +62,7 @@ In this step, you create a send port to deliver the message batch that you creat
   
 ### To associate the send port with the destination party  
   
-1.  In the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Administration Console, expand **Parties**, click **Tutorial_BatchDest**, and then right-click **Properties**.  
+1.  In the BizTalk Server Administration Console, expand **Parties**, click **Tutorial_BatchDest**, and then right-click **Properties**.  
   
 2.  In the Party Properties dialog box, click  **Send Ports** in the console tree.  Select **Tutorial_BatchDest** from the drop-down list, and then click **OK**.  
   

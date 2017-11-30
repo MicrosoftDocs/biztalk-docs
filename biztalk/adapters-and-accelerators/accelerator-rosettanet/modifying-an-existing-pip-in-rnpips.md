@@ -30,7 +30,7 @@ This topic describes how to change and re-deploy one of the Partner Interface Pr
 3.  At the command prompt, type **CScript InstallDTD.vbs**, and then press ENTER.  
   
     > [!NOTE]
-    >  You only have to do steps 1 and 2 one time after you install [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+    >  You only have to do steps 1 and 2 one time after you install BizTalk Server.  
   
 4.  Start **Microsoft Visual Studio 2012**.  
   

@@ -23,7 +23,7 @@ manager: "anneta"
 # Step 13: Create and Configure Ports
 In this step, you use the Port Configuration Wizard to create and configure ports in Orchestration Designer. Ports specify how your orchestration sends and receives messages to and from business processes. Each port has a type, a direction, and a binding. The properties together determine the direction of communication, the pattern of communication, the location to or from which [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] sends or receives the message, and how the communication takes place. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] uses the Minimum Lower Layer Protocol (MLLP) adapter as a send port. The MLLP adapter uses TCP sockets communication to interface with other applications, such as laboratory applications, insurance applications, and legacy line-of-business applications. The MLLP Send Adapter represents a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adapter that is:  
   
--   Customized. The adapter only ships with [!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)], as opposed to shipping with [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+-   Customized. The adapter only ships with [!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)], as opposed to shipping with BizTalk Server.  
   
 -   Protocol/Transport. The adapter is not an application or data adapter.  
   

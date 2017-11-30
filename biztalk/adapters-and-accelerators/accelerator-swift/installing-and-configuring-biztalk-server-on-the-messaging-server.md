@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Installing and Configuring BizTalk Server on the Messaging Server
-This section describes how to install and configure [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] to be used as the messaging server for connecting to the SWIFT network.  
+This section describes how to install and configure BizTalk Server to be used as the messaging server for connecting to the SWIFT network.  
   
 ### To install and configure BizTalk Server on the Messaging Server  
   

@@ -18,9 +18,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How BizTalk Server Solves the Business Need
-In order to solve your health care system integration needs, BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) enhances the functionality of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] for health care systems.  
+In order to solve your health care system integration needs, BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) enhances the functionality of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server for health care systems.  
   
- Since [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] setup installs the accelerator on top of [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], this section describes the technology by providing an overview of the functionality of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], a description of the functionality that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] adds, and a discussion of how you can deploy the two technologies.  
+ Since [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] setup installs the accelerator on top of BizTalk Server, this section describes the technology by providing an overview of the functionality of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], a description of the functionality that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] adds, and a discussion of how you can deploy the two technologies.  
   
 ## In This Section  
   

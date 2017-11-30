@@ -27,7 +27,7 @@ This pipeline component lets you examine all the parts of a multi-part message, 
  You build this component into a custom pipeline and attach it to a send port. You create a filter in the send port to subscribe to the messages that you want to monitor. This troubleshooting occurs in addition to the standard processing that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] already performs.  
   
 ## Building a Custom Pipeline Using the Message Inspector Pipeline Component  
- To use the Message Inspector Pipeline Component, you have to build and deploy a custom pipeline that includes the component. For more information, see "Creating Pipelines with Pipeline Designer" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ To use the Message Inspector Pipeline Component, you have to build and deploy a custom pipeline that includes the component. For more information, see "Creating Pipelines with Pipeline Designer" in BizTalk Server Help.  
   
 #### To deploy the Message Inspector Pipeline Component  
   

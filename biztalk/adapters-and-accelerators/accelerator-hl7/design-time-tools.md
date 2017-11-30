@@ -25,7 +25,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Design Time Tools
-Developers working on [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) have the use of a set of design time tools built into [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]. These tools are integrated into [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+Developers working on [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) have the use of a set of design time tools built into BizTalk Server. These tools are integrated into [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.  
   
 ## BizTalk Editor  
  You use BizTalk Editor to manage HL7 XSD schemas. You can use the following supported schema templates (as XSD files) for your solution development:  

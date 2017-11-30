@@ -45,7 +45,7 @@ The FileTransport sample demonstrates how to configure [!INCLUDE[btsCoName](../.
   
     -   Receive location: File_To_PrivateResponder  
   
- The following procedure describes how to import the bindings from the binding files using the BTSTask command. For more information, see the "ImportBindings Command" topic in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ The following procedure describes how to import the bindings from the binding files using the BTSTask command. For more information, see the "ImportBindings Command" topic in BizTalk Server Help.  
   
 ## Procedure  
   

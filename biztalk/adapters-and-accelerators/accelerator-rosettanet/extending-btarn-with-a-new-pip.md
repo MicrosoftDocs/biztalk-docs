@@ -31,7 +31,7 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
 3.  At the command prompt, type **CScript InstallDTD.vbs**, and then press **Enter**.  
   
     > [!NOTE]
-    >  You will only have to perform steps 1 through 3 once after you install [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+    >  You will only have to perform steps 1 through 3 once after you install BizTalk Server.  
   
 4.  Start Visual Studio.  
   

@@ -22,7 +22,7 @@ manager: "anneta"
 # Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline
 In this lesson, you add the custom SWIFT disassembler (DASM) to your pipeline. A DASM pipeline component is a pipeline component that divides messages in a batch into individual documents.  
   
- The DASM pipeline components provided in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] are:  
+ The DASM pipeline components provided in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server are:  
   
 -   Flat file disassembler  
   

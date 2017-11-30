@@ -66,7 +66,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ## Installing BTARN on a computer without BizTalk Server causes missing files  
   
 ### Symptom  
- Running the ConfigFramework.exe file yields no results on a computer that does not have [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] or [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] installed. You can only use this [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration as an HTTP client.  
+ Running the ConfigFramework.exe file yields no results on a computer that does not have [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server or [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] installed. You can only use this [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration as an HTTP client.  
   
 ### Possible Cause  
  Two DLL files are missing from the installation.  
@@ -313,7 +313,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
  When you run setup.bat to build and initialize the Double Action PIPAutomation Orchestration sample, the PipAutomationGetAction stored procedure in the BTARNData database is not created.  
   
 ### Possible Cause  
- You ran setup.bat on a 64-bit computer or on a [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] installation that is running on SQL Server 2008 R2/2008 SP1. Both of these instances require you to run setupx64.bat.  
+ You ran setup.bat on a 64-bit computer or on a BizTalk Server installation that is running on SQL Server 2008 R2/2008 SP1. Both of these instances require you to run setupx64.bat.  
   
 ### Solution  
  Run setupx64.bat to create the stored procedure. For more information, see [Double Action PIPAutomation Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md).  
