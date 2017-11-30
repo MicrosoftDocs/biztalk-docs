@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Filegroups for the Databases2 | Microsoft Docs"
+title: "Optimize database filegroups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -19,13 +19,13 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
 ## Overview  
  Every BizTalk Server solution will eventually encounter file I/O contention as throughput is increased. The I/O subsystem, or storage engine, is a key component of any relational database. A successful database implementation typically requires careful planning at the early stages of a project. This planning should include consideration of the following issues:  
   
--   What type of disk hardware to use, such as RAID (redundant array of independent disks) devices. For more information about using a RAID hardware solution, see [About Hardware-based solutions](http://go.microsoft.com/fwlink/?LinkID=113944) (http://go.microsoft.com/fwlink/?LinkID=113944) in the SQL Server Books Online.  
+-   What type of disk hardware to use, such as RAID (redundant array of independent disks) devices. 
   
--   How to apportion data on the disks using files and filegroups. For more information about using files and filegroups in SQL Server 2008 R2, see [Using Files and Filegroups](http://go.microsoft.com/fwlink/?LinkID=69369) (http://go.microsoft.com/fwlink/?LinkID=69369) and [Understanding Files and Filegroups](http://go.microsoft.com/fwlink/?LinkID=96447) (http://go.microsoft.com/fwlink/?LinkID=96447) in the SQL Server Books Online.  
+-   How to apportion data on the disks using files and filegroups. For more information about using files and filegroups in SQL Server, see [Database Files and Filegroups](https://docs.microsoft.com/sql/relational-databases/databases/database-files-and-filegroups).
   
--   Implementing the optimal index design for improving performance when accessing data. For more information about designing indexes, see [Designing Indexes](http://go.microsoft.com/fwlink/?LinkID=96457) (http://go.microsoft.com/fwlink/?LinkID=96457) in the SQL Server Books Online.  
+-   Implementing the optimal index design for improving performance when accessing data. For more information about designing indexes, see [Designing Indexes](https://docs.microsoft.com/sql/relational-databases/sql-server-index-design-guide).
   
--   How to set SQL Server configuration parameters for optimal performance. For more information about setting optimal configuration parameters for SQL Server, see [Optimizing Server Performance](http://go.microsoft.com/fwlink/?LinkID=71418) (http://go.microsoft.com/fwlink/?LinkID=71418) in the SQL Server Books Online.  
+-   How to set SQL Server configuration parameters for optimal performance. For more information about setting optimal configuration parameters for SQL Server, see [Server Configuration Options](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server).
   
  One of the primary design goals of BizTalk Server is to ensure that a message is **never** lost. In order to mitigate the possibility of message loss, messages are frequently written to the MessageBox database as the message is processed. When messages are processed by an orchestration, the message is written to the MessageBox database at every persistence point in the orchestration. These persistence points cause the MessageBox to write the message and related state to physical disk. At higher throughputs, this persistence can result in considerable disk contention and can potentially become a bottleneck.  
   
@@ -85,14 +85,13 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
  The main source of contention in most BizTalk Server solutions, either because of disk I/O contention or database contention, is the BizTalk Server MessageBox database. This is true in both single and multi-MessageBox scenarios. It is reasonable to assume that as much as 80% of the value of distributing BizTalk databases will be derived from optimizing the MessageBox data files and log file. The sample scenario detailed below is focused on optimizing the data files for a MessageBox database. These steps can then be followed for other databases as needed. For example, if the solution requires extensive tracking, the Tracking database can also be optimized.  
   
 ## Manually adding files to the MessageBox database, step-by-step  
- This section of the topic describes the steps that can be followed to manually add files to the MessageBox database. In this example three filegroups are added and then a file is added to each filegroup to distribute the files for the MessageBox across multiple disks. In this example, the steps are performed on [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)].  
+ This section of the topic describes the steps that can be followed to manually add files to the MessageBox database. In this example three filegroups are added and then a file is added to each filegroup to distribute the files for the MessageBox across multiple disks.
   
-### Manually adding files to the MessageBox database on SQL Server 2008 R2  
- **Follow these steps to manually add files to the MessageBox database on SQL Server 2008 R2:**  
+### Manually adding files to the MessageBox database on SQL Server
+   
+1.  Open **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
   
-1.  Click **Start**, point to **Programs**, point to **[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]**, and then click **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
-  
-     ![SQL Server 2008 R2 &#45; Login screen](../technical-guides/media/sqlserver2008r2-loginscreen.gif "SQLServer2008R2-Loginscreen")  
+     ![SQL Server Login screen](../technical-guides/media/sqlserver2008r2-loginscreen.gif "SQLServer2008R2-Loginscreen")  
   
 2.  In the **Server name** edit box of the **Connect to Server** dialog box, enter the name of the SQL Server instance that houses the BizTalk Server MessageBox databases and click **Connect** to display SQL Server Management Studio. In the **Object Explorer** pane of SQL Server Management Studio, expand **Databases** to view the databases for this instance of SQL Server.  
   
@@ -122,7 +121,7 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
   
  To run this script, follow these steps:  
   
-1.  Click **Start**, point to **Programs**, point to **[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]**, and then click **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
+1.  Open **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
   
 2.  In the **Server name** edit box of the **Connect to Server** dialog box, enter the name of the SQL Server instance that houses the BizTalk Server MessageBox databases and click **Connect** to display the SQL Server Management Studio dialog box.  
   
