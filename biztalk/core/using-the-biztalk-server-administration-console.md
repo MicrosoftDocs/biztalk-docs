@@ -26,7 +26,7 @@ The BizTalk Server Administration Console is a Microsoft Management Console (MMC
   
  When you select a node in the console tree, the details pane on the right side of the Administration Console displays information about the items.  
   
- Selecting the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration node in the console tree displays the start page, which contains actions you can perform, such as connecting to an existing BizTalk Server group. In addition, the start page includes links to the BizTalk Server documentation and online community Web sites.  
+ Selecting the BizTalk Server Administration node in the console tree displays the start page, which contains actions you can perform, such as connecting to an existing BizTalk Server group. In addition, the start page includes links to the BizTalk Server documentation and online community Web sites.  
   
  For information about using the keyboard shortcuts for the Administration console, see [Administration Console Keyboard Shortcuts](../core/administration-console-keyboard-shortcuts.md).  
   

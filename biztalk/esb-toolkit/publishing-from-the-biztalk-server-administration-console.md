@@ -14,13 +14,13 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Publishing from the BizTalk Server Administration Console
-If you want to manage endpoint publishing through the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console instead of the ESB Management Portal, you can do so by entering a Universal Description, Discovery, and Integration (UDDI) moniker in the description field of the endpoints to publish to UDDI. The following is an example moniker.  
+If you want to manage endpoint publishing through the BizTalk Server Administration Console instead of the ESB Management Portal, you can do so by entering a Universal Description, Discovery, and Integration (UDDI) moniker in the description field of the endpoints to publish to UDDI. The following is an example moniker.  
   
 ```  
 uddi://TransportType=other;Status=Published.  
 ```  
   
- You can set the following UDDI properties using the **Description** field in the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console:  
+ You can set the following UDDI properties using the **Description** field in the BizTalk Server Administration Console:  
   
 -   **ModifiedBy**. This optional property contains the account name of the user that modified the endpoint; for example, MyDomainName\MyUserName.  
   

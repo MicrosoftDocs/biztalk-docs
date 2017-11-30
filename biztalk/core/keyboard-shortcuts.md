@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Keyboard Shortcuts
-This section lists the keyboard shortcuts for Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+This section lists the keyboard shortcuts for Microsoft BizTalk Server.  
   
 ## In This Section  
   

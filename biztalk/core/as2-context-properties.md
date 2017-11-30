@@ -15,11 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # AS2 Context Properties
-Five types of context properties apply to AS2 messages in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+Five types of context properties apply to AS2 messages in BizTalk Server:  
   
 -   Context properties in the EdiIntProperties.xsd schema  
   
--   Context properties internal to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   Context properties internal to BizTalk Server  
   
 -   Context properties internal to BizTalk MIME  
   

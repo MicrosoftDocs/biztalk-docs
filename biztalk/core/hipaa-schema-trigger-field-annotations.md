@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # HIPAA Schema Trigger Field Annotations
-EDI segments often contain qualifier values that modify the meaning of the segment. For example, an N1 segment can contain a qualifying element of “BT” to signify a “bill-to name,” or it may contain a qualifying element of “ST” to indicate a “ship-to name.” Normally it is left to business logic to determine how to interpret these fields and the disassembler resolves all instances of the N1 segment to the same XML record name; however, the HIPAA schemas shipped with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] contain annotations that allow the EDI disassembler to create unique XML records based on the presence of a qualifying element.  
+EDI segments often contain qualifier values that modify the meaning of the segment. For example, an N1 segment can contain a qualifying element of “BT” to signify a “bill-to name,” or it may contain a qualifying element of “ST” to indicate a “ship-to name.” Normally it is left to business logic to determine how to interpret these fields and the disassembler resolves all instances of the N1 segment to the same XML record name; however, the HIPAA schemas shipped with BizTalk Server contain annotations that allow the EDI disassembler to create unique XML records based on the presence of a qualifying element.  
   
  **Trigger Field Implementation**  
   
@@ -55,7 +55,7 @@ N4*N401__PayeeCityName*N4*N403__PayeePost**N4*N406~
   
  **Default Segments and Trigger Fields**  
   
- The following table contains information on the default segments and trigger fields used in HIPAA documents supplied as part of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+ The following table contains information on the default segments and trigger fields used in HIPAA documents supplied as part of BizTalk Server:  
   
 > [!NOTE]
 >  The individual trigger values used with the trigger fields may vary between schemas.  

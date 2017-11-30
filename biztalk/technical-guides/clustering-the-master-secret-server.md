@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Clustering the Master Secret Server
-The [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] application service maintains a hard-coded dependency upon the Enterprise Single Sign-On (SSO) service that is installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The SSO service must be able to communicate with the master secret server to start. We recommend that you cluster the SSO service on the master secret server to provide fault tolerance for the master secret server. For more information, see [High-Availability SSO Installation Options](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help.  
+The BizTalk Server application service maintains a hard-coded dependency upon the Enterprise Single Sign-On (SSO) service that is installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The SSO service must be able to communicate with the master secret server to start. We recommend that you cluster the SSO service on the master secret server to provide fault tolerance for the master secret server. For more information, see [High-Availability SSO Installation Options](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) in BizTalk Server Help.  
   
 ## Preparing for Clustering the Master Secret Server  
   

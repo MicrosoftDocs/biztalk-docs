@@ -16,9 +16,9 @@ manager: "anneta"
 ---
 # Processing JSON messages using BizTalk Server
 > [!NOTE]
->  This tutorial applies to [!INCLUDE[prague](../includes/prague-md.md)] only.  
+>  This tutorial applies to BizTalk Server only.  
   
- This tutorial demonstrates how to process JSON messages using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The tutorial uses custom pipeline components, now available with [!INCLUDE[prague](../includes/prague-md.md)]. These pipeline components convert the JSON message to XML (while receiving the message into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration, and converts the message from XML to JSON while sending the message out.  
+ This tutorial demonstrates how to process JSON messages using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The tutorial uses custom pipeline components, now available with BizTalk Server. These pipeline components convert the JSON message to XML (while receiving the message into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration, and converts the message from XML to JSON while sending the message out.  
   
 ## What does this tutorial do?  
  To demonstrate JSON processing, we create a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that does the following, in the given order:  

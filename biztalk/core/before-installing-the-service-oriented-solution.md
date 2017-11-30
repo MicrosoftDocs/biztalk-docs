@@ -43,7 +43,7 @@ The following prerequisites must be available to install the stub version of the
 -   MQSeries Server on the local computer or access to the computer running the MQSeries Server. For the inline version, MQSeries client APIs must be available on the BizTalk server running the solution’s orchestrations.  
   
     > [!NOTE]
-    >  The version of MQSeries Server must match the version required by the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] MQSeries Adapter. This can include IBM WebSphere MQ for Windows Version 5.3 with Fix Pack 10 (CSD10) or later.  
+    >  The version of MQSeries Server must match the version required by the BizTalk Server MQSeries Adapter. This can include IBM WebSphere MQ for Windows Version 5.3 with Fix Pack 10 (CSD10) or later.  
   
     > [!NOTE]
     >  When using features such as MQSeries which make Distributed Component Object Model (DCOM) calls to the server, make sure you do not have a Network Address Translation (NAT)-based firewall enabled. The client must be able to access the server by its actual IP address, and NAT-based firewalls translate this address to something the client will not recognize.  
@@ -55,7 +55,7 @@ The following prerequisites must be available to install the stub version of the
 -   Host Integration Server is required to connect to the mainframe.  
   
     > [!NOTE]
-    >  Host Integration Server is included as part of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  Host Integration Server is included as part of BizTalk Server.  
   
 -   Web server configured with a certificate for HTTPS connections.  
   

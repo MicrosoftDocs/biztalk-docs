@@ -26,7 +26,7 @@ manager: "anneta"
   
  **.NET policy files are not supported**  
   
- The use of .NET policy files is not supported in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. This is because a policy file may not work as expected. Policy files redirect .NET to a specified assembly version in the GAC, but [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] often accesses assemblies and artifact data from a cache or the BizTalk Management database. Depending on the artifact type, caching situation, and whether host instances are restarted, the policy file may not do what is desired.  
+ The use of .NET policy files is not supported in BizTalk Server. This is because a policy file may not work as expected. Policy files redirect .NET to a specified assembly version in the GAC, but [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] often accesses assemblies and artifact data from a cache or the BizTalk Management database. Depending on the artifact type, caching situation, and whether host instances are restarted, the policy file may not do what is desired.  
   
 ## Updating an Assembly  
  **Changes to an assembly may not take effect if the host is not stopped**  

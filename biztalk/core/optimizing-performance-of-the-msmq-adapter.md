@@ -38,7 +38,7 @@ Optimization of the MSMQ adapter differs between the send and receive sides. You
  On the send side, you can achieve the equivalent single-message processing by using the sample orchestration. The sample sends a single message and then waits to send the next message until it receives an acknowledgment. For more information, see [How to Create MSMQ Receive Locations and Send Ports from Code](../core/how-to-create-msmq-receive-locations-and-send-ports-from-code.md).  
   
 ## Remote Transactional Read Operations  
- With [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] the MSMQ adapter is capable of making remote read operations from transactional MSMQ queues.  This is because MSMQ 4.0 and later versions support remote transactional read operations.  However, transactional read operations are typically slow operations. To optimize performance they should be used only when there is no other option.  
+ With BizTalk Server the MSMQ adapter is capable of making remote read operations from transactional MSMQ queues.  This is because MSMQ 4.0 and later versions support remote transactional read operations.  However, transactional read operations are typically slow operations. To optimize performance they should be used only when there is no other option.  
   
 ## See Also  
  [How to Configure an MSMQ Receive Location](../core/how-to-configure-an-msmq-receive-location.md)   

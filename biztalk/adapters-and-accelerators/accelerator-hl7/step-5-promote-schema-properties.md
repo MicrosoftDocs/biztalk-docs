@@ -46,7 +46,7 @@ In this step, you promote schema properties so that a [!INCLUDE[btsBizTalkServer
     > [!IMPORTANT]
     >  It is important to note that promoting a patient ID (PID) such as a social security number (SSN) causes [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] to track that property for every inbound message through the system. The side effect of this situation is that the message-tracking database keeps a copy of patient SSNs. This can create a significant security issue. You must either protect this data store with extreme care or avoid the promotion of PID data completely.  
   
-     For more information about tracking documents based on the schema elements that you promoted, see [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help for information on Health and Activity Tracking.  
+     For more information about tracking documents based on the schema elements that you promoted, see BizTalk Server Help for information on Health and Activity Tracking.  
   
  Proceed to [Step 6: Validate the Schemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md).  
   

@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Important Security Notes for the Business Rule Engine
-This topic summarizes known security issues in Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] and the steps you must take to mitigate the security risks.  
+This topic summarizes known security issues in Microsoft BizTalk Server and the steps you must take to mitigate the security risks.  
   
 ## Malicious schema input causing Denial of Service attack  
  While asserting facts, each rule is verified against every object that matches the supported types within a policy. Suppose there is a rule in a policy that uses one of the elements in a schema passed by using a selector. Now if the instance if this element/attribute that matches the selector is repeated thousands of times, every such instance is asserted, causing performance degradation and subsequent possible Denial of Service (DoS).  

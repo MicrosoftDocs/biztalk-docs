@@ -16,7 +16,7 @@ manager: "anneta"
 ---
 # Deploy and test the application
 > [!NOTE]
->  This tutorial applies to [!INCLUDE[prague](../includes/prague-md.md)] only.  
+>  This tutorial applies to BizTalk Server only.  
   
  In this topic, we build, deploy, configure, and test the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application.  
   

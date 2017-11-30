@@ -55,7 +55,7 @@ You can define a business rule for use in an acknowledgement private process. Th
   
  PIP3A4PrivateResponder.odx orchestration is a sample private-process orchestration that demonstrates how to implement a Partner Interface Process (PIP)-specific responder private process incorporating a business rule. For more information about this sample, see [3A4 Private Responder Orchestration Using a Business Rule](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
   
- For more information about vocabularies and policies, see the "Developing with Business Rules" topic in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+ For more information about vocabularies and policies, see the "Developing with Business Rules" topic in BizTalk Server.  
   
 ### To add a new vocabulary  
   

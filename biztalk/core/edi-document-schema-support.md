@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDI Document Schema Support
-This section lists the specific EDI transaction set schemas that are provided with [!INCLUDE[prague](../includes/prague-md.md)].  
+This section lists the specific EDI transaction set schemas that are provided with BizTalk Server.  
   
 ## In This Section  
   

@@ -22,7 +22,7 @@ manager: "anneta"
 |Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] EDI|  
+|Event Source|BizTalk Server EDI|  
 |Component|Batching Engine|  
 |Symbolic Name|ExceptionOccuredDuringUpgrade|  
 |Message Text|An exception has occurred during the execution of the upgrade batch Orchestration. ErrorMessage = {0}|  

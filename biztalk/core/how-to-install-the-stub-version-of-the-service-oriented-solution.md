@@ -251,7 +251,7 @@ The following steps describe how to prepare your computer before you install the
   
 1.  At a command prompt, type the following command, and then press ENTER. This sets the path to find the BAM utility:  
   
-    -   SET PATH=%PATH%;%programfiles%\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\Tracking  
+    -   SET PATH=%PATH%;%programfiles%\Microsoft BizTalk Server\Tracking  
   
 2.  At the command prompt, change the directory to the %BTSSolutionsPath%\SO\BTSSoln\BAM folder, and type the following command, and then press ENTER:  
   

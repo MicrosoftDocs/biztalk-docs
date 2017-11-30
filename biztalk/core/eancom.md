@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EANCOM
-This topic lists the EANCOM documents and versions that are supported by [!INCLUDE[prague](../includes/prague-md.md)].  
+This topic lists the EANCOM documents and versions that are supported by BizTalk Server.  
   
 ## EANCOM  
   

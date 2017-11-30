@@ -52,7 +52,7 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration and the BizTalk group containing the application to which you want to add a binding file.  
+2.  In the console tree, expand BizTalk Server Administration and the BizTalk group containing the application to which you want to add a binding file.  
   
 3.  Expand Applications, and right-click the application to which you want to add a binding file.  
   

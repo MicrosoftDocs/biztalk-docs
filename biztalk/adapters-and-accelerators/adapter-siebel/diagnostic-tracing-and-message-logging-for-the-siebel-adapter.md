@@ -39,7 +39,7 @@ Adapter clients can enable diagnostic tracing to effectively diagnose problems e
   
 -   **Tracing at run-time**. For run-time tracing, you must add the excerpt depending on the application you are using.  
   
-    -   For a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications, you must add the excerpt to the BizTalk configuration file, typically BTSNTSvc.exe.config. For [!INCLUDE[prague](../../includes/prague-md.md)], this file is available typically under \<installation drive\>:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+    -   For a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications, you must add the excerpt to the BizTalk configuration file, typically BTSNTSvc.exe.config. For BizTalk Server, this file is available typically under \<installation drive\>:\Program Files\Microsoft BizTalk Server.  
   
     -   For a WCF service model .NET application, you must add the excerpt to the app.config file of your project.  
   
@@ -95,7 +95,7 @@ Adapter clients can enable diagnostic tracing to effectively diagnose problems e
   
 -   **Tracing at run-time**. For run-time tracing, you must add the excerpt depending on the application you are using.  
   
-    -   For a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications, you must add the excerpt to the BizTalk configuration file, typically BTSNTSvc.exe.config. For [!INCLUDE[prague](../../includes/prague-md.md)], this file is available typically under \<installation drive\>:\Program Files\Microsoft [!INCLUDE[prague](../../includes/prague-md.md)].  
+    -   For a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications, you must add the excerpt to the BizTalk configuration file, typically BTSNTSvc.exe.config. For BizTalk Server, this file is available typically under \<installation drive\>:\Program Files\Microsoft BizTalk Server.  
   
     -   For a WCF service model .NET application, you must add the excerpt to the app.config file of your project.  
   

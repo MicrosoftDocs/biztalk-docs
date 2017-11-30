@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Operational and administrative tasks in your BizTalk environment
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] includes new features that make administering BizTalk Server quicker and easier than in previous releases of BizTalk Server. This section provides information about administering BizTalk Server.  
+BizTalk Server includes new features that make administering BizTalk Server quicker and easier than in previous releases of BizTalk Server. This section provides information about administering BizTalk Server.  
   
 ## In This Section  
   

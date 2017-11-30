@@ -38,7 +38,7 @@ This topic discusses the environments used in the release management process for
 >  For recommendations on using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a virtual environment, see [BizTalk Server 2009 Hyper-V Guide](http://go.microsoft.com/fwlink/?LinkId=151834) (http://go.microsoft.com/fwlink/?LinkId=151834).  
   
 > [!NOTE]  
->  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is fully supported on a supported operating system that is running on any of the virtualization software listed in the Microsoft Knowledge Base Article 842301 [Microsoft BizTalk Server supportability on a virtual machine](https://support.microsoft.com/kb/842301). However, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] may not perform as expected if installed on a supported operating system that is running in a virtualization software other than the ones mentioned in the KB article.  
+>  BizTalk Server is fully supported on a supported operating system that is running on any of the virtualization software listed in the Microsoft Knowledge Base Article 842301 [Microsoft BizTalk Server supportability on a virtual machine](https://support.microsoft.com/kb/842301). However, BizTalk Server may not perform as expected if installed on a supported operating system that is running in a virtualization software other than the ones mentioned in the KB article.  
   
 ## Development Environment  
  The BizTalk projects that are used for the BizTalk solution are created in the development environment. You should install the following software on the computers used in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] development environment:  

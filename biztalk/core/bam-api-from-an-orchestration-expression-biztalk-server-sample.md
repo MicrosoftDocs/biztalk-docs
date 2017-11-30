@@ -106,15 +106,15 @@ This sample demonstrates how to:
   
 2.  In SQL Server Management Studio, expand the server, expand **Databases**, expand **BAMPrimaryImport**, and then expand **Tables**.  
   
-3.  Right-click **dbo.bam_FromExpressionPo_Completed**, and then click **Open Table**. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], click **Select top 1000 rows**.  
+3.  Right-click **dbo.bam_FromExpressionPo_Completed**, and then click **Open Table**. If you are using SQL Server, click **Select top 1000 rows**.  
   
      The contents of the bam_FromExpressionPo_Completed table are displayed in the right pane. The one row, which has an activity ID of 123, represents the purchase order for $345 that was contained in the input message.  
   
-4.  Right-click **dbo.bam_FromExpressionPoItem_Completed**, and then click **Open Table**. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], click **Select top 1000 rows**.  
+4.  Right-click **dbo.bam_FromExpressionPoItem_Completed**, and then click **Open Table**. If you are using SQL Server, click **Select top 1000 rows**.  
   
      The contents of the bam_FromExpressionPoItem_Completed table are displayed in the right pane. The two rows, which have activity IDs 123_0 and 123_1, represent the items in the purchase order: Flash MC and Infrared Decoder.  
   
-5.  Right-click **dbo.bam_FromExpressionPoItem_CompletedRelationships**, and then click **Open Table**. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], click **Select top 1000 rows**.  
+5.  Right-click **dbo.bam_FromExpressionPoItem_CompletedRelationships**, and then click **Open Table**. If you are using SQL Server, click **Select top 1000 rows**.  
   
      The contents of the bam_FromExpressionPoItem_CompletedRelationships table are displayed in the right pane. Each row in the table represents a relationship between a FromExpressionPoItem activity and a FromExpressionPo activity. The value in the **ActivityID** column refers to the activity ID of the FromExpressionPoItem activity. The value in the **ReferenceData** column refers to the activity ID of the FromExpressionPo activity. In this case, the two records indicate that the Flash MC and Infrared Decoder items are associated with the purchase order for $345.  
   

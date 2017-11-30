@@ -19,13 +19,13 @@ Welcome to the Microsoft® BizTalk® Server 2010 Operations Guide. We created th
  To download a copy of this guide in chm, pdf, or docx form, go to [Microsoft BizTalk Server 2010 Operations Guide](http://go.microsoft.com/fwlink/?LinkId=212652) (http://go.microsoft.com/fwlink/?LinkId=212652).  
   
 ## Which Versions of BizTalk Server Does the Guide Cover?  
- This guide caters to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] and provides operational readiness information to help you jumpstart with your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup.  
+ This guide caters to BizTalk Server and provides operational readiness information to help you jumpstart with your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup.  
   
 > [!NOTE]
 >  To see the Operations Guide for [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] or [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)], see [http://go.microsoft.com/fwlink/?LinkID=130458](http://go.microsoft.com/fwlink/?LinkID=130458).  
   
 ## Where Do I Start?  
- We organized the guide according to the functional aspects of planning, deploying, and managing a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. You can therefore read it according to these functional aspects. However, realizing that the checklists would be the most sought after information in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Operations Guide, we have categorized all the checklists in the document in the following table for ease of accessibility.  
+ We organized the guide according to the functional aspects of planning, deploying, and managing a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. You can therefore read it according to these functional aspects. However, realizing that the checklists would be the most sought after information in the BizTalk Server Operations Guide, we have categorized all the checklists in the document in the following table for ease of accessibility.  
   
 |||  
 |-|-|  

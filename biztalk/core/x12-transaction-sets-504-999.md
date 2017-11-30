@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # X12 Transaction Sets 504-999
-This topic lists the X12 documents and versions that are supported by [!INCLUDE[prague](../includes/prague-md.md)].  
+This topic lists the X12 documents and versions that are supported by BizTalk Server.  
 
 ##  <a name="trns504"></a> Transaction Sets 504-568  
   

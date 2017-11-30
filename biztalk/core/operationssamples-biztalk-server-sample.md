@@ -144,7 +144,7 @@ foreach (BizTalkMessage msg in messages)
   
      `<Samples Path>\Admin\OperationsOM\OperationSamples`  
   
-5.  Double-click the **OperationsOM.sln** project file to load it into [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+5.  Double-click the **OperationsOM.sln** project file to load it into Visual Studio.  
   
 6.  Press F5 to run the sample.  
   

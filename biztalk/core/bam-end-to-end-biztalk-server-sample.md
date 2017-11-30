@@ -120,7 +120,7 @@ Copy the file *\<Samples Path\>*\BamEndToEnd\InputMessage.xml into the folder *\
   
 2.  In SQL Server Management Studio, expand the server, expand **Databases**, expand **BAMPrimaryImport**, and then expand **Tables**.  
   
-3.  Right-click **dbo.bam_EndToEndActivity_Completed**, and then click **Open Table**. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], click **Select top 1000 rows**.  
+3.  Right-click **dbo.bam_EndToEndActivity_Completed**, and then click **Open Table**. If you are using SQL Server, click **Select top 1000 rows**.  
   
      The contents of the bam_EndToEndActivity_Completed table are displayed in the right pane. Each row in the table represents an EndToEndActivity activity that has been completed.  
   

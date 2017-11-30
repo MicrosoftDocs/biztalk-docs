@@ -15,7 +15,7 @@ manager: "anneta"
 ---
 # How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip
 ## Goal  
- This section demonstrates how to use the Designer domain-specific language (DSL) to create an itinerary that routes a message to three distinct recipients using a static resolver and the [!INCLUDE[prague](../includes/prague-md.md)] FILE adapter.  
+ This section demonstrates how to use the Designer domain-specific language (DSL) to create an itinerary that routes a message to three distinct recipients using a static resolver and the BizTalk Server FILE adapter.  
   
  In this How-to topic, you will complete the following steps:  
   
@@ -30,7 +30,7 @@ manager: "anneta"
   
 #### To create an ESB itinerary DSL model  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open C:\HowTos\Patterns\Patterns.sln.  
+1.  In Visual Studio, open C:\HowTos\Patterns\Patterns.sln.  
   
 2.  In Solution Explorer, right-click **ItineraryLibrary**, point to **Add**, and then click **New Itinerary**.  
   

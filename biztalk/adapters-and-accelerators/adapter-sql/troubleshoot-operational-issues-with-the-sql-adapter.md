@@ -62,7 +62,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  The adapter gives the following error when performing any operation on a SQL Server database using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **For [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **For BizTalk Server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  
@@ -119,7 +119,7 @@ ErrorCode:5
   
  **Resolution**  
   
--   **For [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **For BizTalk Server**  
   
     1.  Specify the timeout for the WCF adapter in the machine.config. Navigate to the machine.config file under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
   

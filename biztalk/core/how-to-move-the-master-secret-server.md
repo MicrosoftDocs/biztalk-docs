@@ -23,7 +23,7 @@ This topic documents the steps you can follow to move the master secret from one
   
 ### To move the master secret from one server to another server  
   
-1.  Install Microsoft Enterprise Single Sign-On (SSO) Server on the new master secret server if it is not already installed. Launch Microsoft Enterprise Single Sign-On Server setup from \Platform\SSO\setup.exe on the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] CD.  
+1.  Install Microsoft Enterprise Single Sign-On (SSO) Server on the new master secret server if it is not already installed. Launch Microsoft Enterprise Single Sign-On Server setup from \Platform\SSO\setup.exe on the BizTalk Server CD.  
   
 2.  Configure Enterprise SSO on the new master secret server if it is not already configured. Follow these steps to configure Enterprise SSO:  
   

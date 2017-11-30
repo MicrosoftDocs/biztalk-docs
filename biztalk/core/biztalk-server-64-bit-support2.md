@@ -128,7 +128,7 @@ This topic answers some frequently asked questions about 64-bit support for Micr
  No. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] persists runtime components using formats that are independent of 32-bit or 64-bit runtimes. This includes orchestrations, messages, and ports. This persistence model enables an administrator to switch the host configuration between 32-bit and 64-bit without creating incompatibilities in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] data.  
   
 ## When I upgrade to BizTalk Server, will my BizTalk hosts run as 64-bit by default?  
- No. By default, upgrades to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] mark all BizTalk host instances as 32-bit only. An administrator must create new host instances on Windows x64 computers and configure applications to use them.  
+ No. By default, upgrades to BizTalk Server mark all BizTalk host instances as 32-bit only. An administrator must create new host instances on Windows x64 computers and configure applications to use them.  
   
 ## Can I have a “mixed” BizTalk Server group that includes both 32-bit and 64-bit BizTalk runtimes?  
  Yes.  

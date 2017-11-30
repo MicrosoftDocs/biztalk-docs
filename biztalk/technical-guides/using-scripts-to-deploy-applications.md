@@ -26,7 +26,7 @@ You should use scripts to deploy BizTalk applications where possible. Scripting 
 -   [Understanding BizTalk Server Application Deployment](http://go.microsoft.com/fwlink/?LinkId=101599) (http://go.microsoft.com/fwlink/?LinkId=101599)  
   
     > [!NOTE]  
-    >  This latter article also applies to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  This latter article also applies to BizTalk Server.  
   
 ## See Also  
  [Checklist: Configuring BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

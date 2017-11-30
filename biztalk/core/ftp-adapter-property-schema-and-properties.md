@@ -48,7 +48,7 @@ The following table contains the properties in the FTP adapter property schema.
 |**ReceivedFileName**|xs:string|Specifies the full name of the file from which the FTP adapter reads the message.|  
 |**MaxConnections**|xs:unsignedInt|Specifies the maximum number of concurrent FTP connections that can be opened to the server. A value of 0 means no limit.|  
 |**CommandLogFileName**|xs:string|Specifies the location to save a copy of a log file that can be used to diagnose error conditions when sending or receiving files through FTP.|  
-|**AllocateStorage**|xs:boolean|This option is deprecated in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] and use of this property is discouraged.|  
+|**AllocateStorage**|xs:boolean|This option is deprecated in BizTalk Server and use of this property is discouraged.|  
 |**PassiveMode**|xs:boolean|Specifies the mode in which the adapter connects to the FTP server.<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server.<br /><br /> If **PassiveMode** is false then the adapter connects to the FTP server using Active mode. The default value for this property is false.|  
 |**SpoolingFolder**|xs:string|Specifies the location for a temporary folder on the FTP server. You use this to ensure recovery from a transfer failure.|  
 |**UseSsl**|xs:boolean|Specifies whether the FTP adapter must use SSL to communicate with the FTPS server.|  

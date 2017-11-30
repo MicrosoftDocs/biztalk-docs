@@ -27,9 +27,9 @@ manager: "anneta"
   
  After completing this walkthrough, you will understand how to perform the following tasks:  
   
--   From within [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[vs2010](../includes/vs2010-md.md)], use the **Deploy** command to deploy the assemblies containing the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to a local instance of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This creates a BizTalk application that is populated with the assemblies.  
+-   From within [!INCLUDE[btsCoName](../includes/btsconame-md.md)]Visual Studio, use the **Deploy** command to deploy the assemblies containing the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to a local instance of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This creates a BizTalk application that is populated with the assemblies.  
   
--   From within [!INCLUDE[vs2010](../includes/vs2010-md.md)], use the **BizTalk WCF Service Consuming Wizard** to generate the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] schemas and types necessary to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. An empty orchestration is generated as well that you can use and bind to a logical port. This orchestration is complied and deployed along with schemas and types. But the orchestration workflow processing is empty here and not used in this sample as this is merely a pure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messaging scenario.  
+-   From within Visual Studio, use the **BizTalk WCF Service Consuming Wizard** to generate the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] schemas and types necessary to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. An empty orchestration is generated as well that you can use and bind to a logical port. This orchestration is complied and deployed along with schemas and types. But the orchestration workflow processing is empty here and not used in this sample as this is merely a pure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messaging scenario.  
   
 -   From the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, configure content-based routing by using the WCF-BasicHttp send port. You will configure the **SOAPAction** header that the target [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service expects to receive.  
   
@@ -40,11 +40,11 @@ manager: "anneta"
 ## Prerequisites  
  To perform the steps in this sample ensure that your environment installs the following prerequisites:  
   
--   Both the computer that builds the assemblies and runs the deployment process, and the computer that runs the sample, require Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)], and Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   Both the computer that builds the assemblies and runs the deployment process, and the computer that runs the sample, require Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)], and Microsoft BizTalk Server.  
   
--   The computer used to build the assemblies and run the deployment process requires Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+-   The computer used to build the assemblies and run the deployment process requires Microsoft Visual Studio.  
   
--   The computer that runs the sample requires the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapters and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Administration Tools. These are options to install during setup of Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   The computer that runs the sample requires the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapters and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Administration Tools. These are options to install during setup of Microsoft BizTalk Server.  
   
 -   On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.  
   
@@ -58,7 +58,7 @@ manager: "anneta"
   
 1.  Run the self-extracting **WCFBasicHttpSendAdapter.exe** file and extract the files into the **C:\WCFBasicHttpSendAdapter** folder.  
   
-2.  Open the **C:\WCFBasicHttpSendAdapter\WCFBasicHttpSendAdapter.sln** in [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+2.  Open the **C:\WCFBasicHttpSendAdapter\WCFBasicHttpSendAdapter.sln** in Visual Studio.  
   
 3.  In Solution Explorer, expand the **BasicHttpWCFServiceConsuming** project. This project is the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service that will be called by the send port. It will be hosted in a managed host environment using Internet Information Services (IIS). Hosting in IIS uses message-based activation to manage the activation and lifetime of the service. Expand **App_Code**, and then open **OrderProcess.cs** to review. This [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service receives order request messages through the **OrderRequest** method. The OrderProcess.cs file contains the interface defition and implementation of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. It simply returns order response messages through the **OrderResponse** method.  
   
@@ -68,7 +68,7 @@ manager: "anneta"
     <%@ServiceHost language=c# Debug="true" Service="Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWcfServiceConsuming.OrderProcessServiceType" %>  
     ```  
   
-5.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, open **Web.config** to review. When hosted in IIS, a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service is configured using a Web.config file instead of an app.config file as when hosted in a console application.  
+5.  In Visual Studio, in Solution Explorer, open **Web.config** to review. When hosted in IIS, a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service is configured using a Web.config file instead of an app.config file as when hosted in a console application.  
   
     -   Make sure that the **httpGetEnabled** attribute of the \<**serviceMetaData**\> element is set to `true` so that the **BizTalk WCF Service Consuming Wizard** can consume the metadata for the service.  
   
@@ -104,7 +104,7 @@ manager: "anneta"
   
 ## Add the schemas and types for the WCF-BasicHttp adapter to the sample BizTalk application  
   
-1.  Since the adapter will call the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service it needs information from schemas and types about how to make that call to that service using the metadata. **BizTalkApp** provides the artifacts to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, right-click **BizTalkApp**, click **Add**, and then click **Add Generated Items**.  
+1.  Since the adapter will call the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service it needs information from schemas and types about how to make that call to that service using the metadata. **BizTalkApp** provides the artifacts to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. In Visual Studio, in Solution Explorer, right-click **BizTalkApp**, click **Add**, and then click **Add Generated Items**.  
   
 2.  In the **Add Generated Items** dialog box, in the **Templates** section, select **Consume WCF Service**, and then click **Add**.  
   
@@ -118,7 +118,7 @@ manager: "anneta"
   
 7.  On the **Completing the BizTalk WCF Service Consuming Wizard** page, click **Finish**.  
   
-8.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, the **BizTalk WCF Service Consuming Wizard** generates the following files:  
+8.  In Visual Studio, in Solution Explorer, the **BizTalk WCF Service Consuming Wizard** generates the following files:  
   
     -   An orchestration file **OrderProcessServiceType.odx**. There are no workflow stages in this orchestration. However, you could add to it and bind it to logical ports to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. It does contain the important BizTalk types such as port types and multipart message types, which are used in this sample. To view this information, double-click the **OrderProcessServiceType.odx** orchestration. Click **View**, click **Other Windows**, and click **Orchestration View**. Expand **Types**, expand **Port Types**, and then expand **IOrderProcess**. You will see the **Submit** method. Expand that method and you will see the **OrderRequest** and **OrderResponse** port types. Click each port type and view their **Description** fields in the property browser and see the different WSDL input and output messages. Click **Multi-Part Message Types** and view the **OrderRequest** and **OrderResponse** multi-part message types. Click their **Description** fields and view the WDSL message names for each message type.  
   
@@ -138,13 +138,13 @@ manager: "anneta"
   
 1.  Deploy the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application as follows:  
   
-    1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, right-click **BizTalkApp**, and then click **Properties** .  
+    1.  In Visual Studio, in Solution Explorer, right-click **BizTalkApp**, and then click **Properties** .  
   
     2.  In the **Project Designer** window, click **Deployment** tab, and then change the **Server** property if you use a different database server for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management database. Ensure the application name is **WCFBasicHttpSendAdapter**.  
   
-    3.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, right-click **BizTalkApp**, and then click **Rebuild**.  
+    3.  In Visual Studio, in Solution Explorer, right-click **BizTalkApp**, and then click **Rebuild**.  
   
-    4.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], in Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**.  This deploys the Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp assembly to the GAC, and the artifacts to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application named **WCFBasicHttpSendAdapter**.  
+    4.  In Visual Studio, in Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**.  This deploys the Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp assembly to the GAC, and the artifacts to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application named **WCFBasicHttpSendAdapter**.  
   
 2.  Configure a WCF-BasicHttp send port in the BizTalk application as follows:  
   

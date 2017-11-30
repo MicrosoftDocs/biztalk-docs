@@ -36,11 +36,11 @@ manager: "anneta"
 ## Prerequisites  
  To perform the steps in this sample ensure that your environment installs the following prerequisites;  
   
--   Both the computer that builds the assemblies and runs the deployment process, and the computer that runs the sample, require Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)], and Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   Both the computer that builds the assemblies and runs the deployment process, and the computer that runs the sample, require Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)], and Microsoft BizTalk Server.  
   
--   The computer used to build the assemblies and run the deployment process requires Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+-   The computer used to build the assemblies and run the deployment process requires Microsoft Visual Studio.  
   
--   The computer that runs the sample requires the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapters and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Administration Tools. These are options to install during setup of Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   The computer that runs the sample requires the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapters and the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Administration Tools. These are options to install during setup of Microsoft BizTalk Server.  
   
 -   On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.  
   
@@ -88,7 +88,7 @@ manager: "anneta"
     3.  On the **Advanced Certificate Request** page, type `contoso` in the **Name** text box, select **Client Authentication Certificate** from the **Type of Certificate Needed** drop-down list, and then click **Submit**.  
   
     > [!NOTE]
-    >  The client authentication certificate is used if you are running [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] on machine other than the Domain Controller. This will be configured in the adapter’s property dialog.  
+    >  The client authentication certificate is used if you are running BizTalk Server on machine other than the Domain Controller. This will be configured in the adapter’s property dialog.  
   
 4.  Issue the certificates by using the Certification Authority management console as follows:  
   

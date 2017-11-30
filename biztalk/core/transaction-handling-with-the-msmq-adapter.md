@@ -26,7 +26,7 @@ This section discusses how transactions work in receiving and sending.
  You can use transactions on both send and receive with the MSMQ adapter. On transacted sends, the adapter accumulates messages until it has a complete batch. The adapter then submits the batch to the local Message Queuing service as a single transaction. If the submission fails, the adapter tries to resubmit the batch. If the resubmission fails, the adapter moves to the secondary transport.  
   
 > [!NOTE]
->  The adapter supports transactional reads of remote queues with Message Queuing 4.0 or later only. In this scenario both the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] and the remote Message Queuing server must be running Message Queuing 4.0 or later.  
+>  The adapter supports transactional reads of remote queues with Message Queuing 4.0 or later only. In this scenario both the BizTalk Server and the remote Message Queuing server must be running Message Queuing 4.0 or later.  
   
  On transacted receives, the adapter suspends failed messages so that it does not lose any one of the messages. During a transacted receive the adapter adds messages to a batch until the batch is complete. It then submits the batch:  
   

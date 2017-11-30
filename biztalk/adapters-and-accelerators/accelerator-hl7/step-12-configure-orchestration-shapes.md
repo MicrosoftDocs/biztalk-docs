@@ -25,7 +25,7 @@ In this step, you complete the configuration of the orchestration shapes in orde
   
 ### To configure orchestration shapes  
   
-1.  On the orchestration Design view surface of [!INCLUDE[vs2012](../../includes/vs2012-md.md)], click the **ConstructMessage_1** shape.  
+1.  On the orchestration Design view surface of Visual Studio, click the **ConstructMessage_1** shape.  
   
 2.  In the **Properties** window, click the **Messages Constructed** property, select **DoorbellOutputMessage** from the drop-down list, and then press **Enter**.  
   

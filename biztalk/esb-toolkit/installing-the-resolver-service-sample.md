@@ -37,4 +37,4 @@ This section describes the process for installing the Resolver Service sample. T
 |||ResolveMap|  
 |BizTalk application GlobalBank.ESB|Maps|(none)|  
 |Global assembly cache|Assemblies|(none)|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components|(none)|
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components|(none)|

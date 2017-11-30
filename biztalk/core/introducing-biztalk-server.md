@@ -1,7 +1,7 @@
 ---
 title: "Introducing BizTalk Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -17,9 +17,9 @@ manager: "anneta"
 # Introducing BizTalk Server
 No application is an island. Whether we like it or not, tying systems together has become the norm. Yet connecting software is about more than just exchanging bytes. As organizations move toward a service-oriented world, the real goal—creating effective business processes that unite separate systems into a coherent whole—comes within reach.  
   
- Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] supports this goal. Like its predecessors, this latest release allows connecting diverse software, then graphically creating and modifying process logic that uses that software. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also enables information workers to monitor running processes, interact with trading partners, and perform other business-oriented tasks.  
+ Microsoft BizTalk Server allows connecting diverse software, then graphically creating and modifying process logic that uses that software. BizTalk Server also enables information workers to monitor running processes, interact with trading partners, and perform other business-oriented tasks.  
   
- Key new features in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] are:  
+ Key new features in BizTalk Server are:  
   
 -   Better support for deploying, monitoring, and managing applications  
   
@@ -27,7 +27,7 @@ No application is an island. Whether we like it or not, tying systems together h
   
 -   Improved capabilities for Business Activity Monitoring (BAM)  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also uses the latest releases of other Microsoft technologies. It’s built on version 3.5 of the .NET Framework, for example, and the developer tools are hosted in Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]. For storage, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can use [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)], the latest version of Microsoft’s flagship database product. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] can also run on 64-bit Windows Servers, taking advantage of the larger memory and other benefits that this new generation of hardware offers.  
+BizTalk Server also uses the latest releases of other Microsoft technologies. It’s built on the .NET Framework, and the developer tools are hosted in Microsoft Visual Studio. For storage, BizTalk Server uses SQL Server BizTalk Server can runs on 64-bit Windows Servers, taking advantage of the larger memory and other benefits that the hardware offers.  
   
 ## What is BizTalk Server?  
  Combining different systems into effective business processes is a challenging problem. Accordingly, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes a range of technologies. The figure below illustrates the product’s major components.  
@@ -63,7 +63,7 @@ No application is an island. Whether we like it or not, tying systems together h
   
  Connecting applications within an organization is important, but connecting applications that span organizations can have at least as much value. The figure below shows a simple example of this kind of business-to-business integration. In this case, the purchasing organization at the top of the figure runs a BizTalk Server orchestration that interacts with two supplier organizations. Supplier A also uses BizTalk Server, providing indirect access to its Supply application. Supplier B uses an integration platform from another vendor, connecting to the purchasing organization’s BizTalk Server orchestration using, say, Web services.  
   
- ![Business&#45;to&#45;business integration diagram](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
+ ![Business-to-business integration diagram](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
   
 ## See Also  
  [Understanding BizTalk Server](../core/understanding-biztalk-server.md)

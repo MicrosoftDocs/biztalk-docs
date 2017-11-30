@@ -15,9 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Information Worker Technologies
-The Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] engine provides support for automated business processes that span multiple applications. But once those processes have been created, the information workers that use them—business people, not developers—have other requirements. They might need to monitor various business-related aspects of the process, for example, or work with trading partners in various ways.  
+The Microsoft BizTalk Server engine provides support for automated business processes that span multiple applications. But once those processes have been created, the information workers that use them—business people, not developers—have other requirements. They might need to monitor various business-related aspects of the process, for example, or work with trading partners in various ways.  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] provides several components that address these problems. Those components are grouped into Business Activity Monitoring, which is described in this section.  
+ BizTalk Server provides several components that address these problems. Those components are grouped into Business Activity Monitoring, which is described in this section.  
   
 ## In This Section  
   

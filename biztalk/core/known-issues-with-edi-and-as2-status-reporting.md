@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Known Issues with EDI and AS2 Status Reporting
-This topic describes known issues with EDI status reporting in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+This topic describes known issues with EDI status reporting in BizTalk Server.  
   
 ## Batch status reporting data may not be updated if the batch orchestration is stopped outside of the Partner Agreement Manager  
  A batch orchestration instance can be deactivated through the Batches page of the EDI Properties dialog box for a party. If you deactivate a batch orchestration instance that way, BizTalk Server will update the status reporting data for that batch. However, if you stop the batch orchestration in another way, for example, by stopping the orchestration from one of the query pages on the Group Overview page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, the status reporting data may not be updated, and you may end up with a batch status report that is out of date. For example, the status report could indicate that the batch is still active, even though the batch orchestration instance has been deactivated.  
@@ -59,9 +59,9 @@ This topic describes known issues with EDI status reporting in [!INCLUDE[btsBizT
 ## Status reporting will not work after an upgrade if the BAM tools are not configured  
  For EDI and AS2 status reporting to work, the BAM tools must be configured. If you upgrade an installation of [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] to a subsequent version, and do not configure the BAM tools in the upgrade process, EDI/AS2 status reporting functionality on the upgraded installation will not work correctly.  
   
- If you want to use status reporting after you upgrade to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], make sure that the BAM tools are configured before you perform the upgrade.  
+ If you want to use status reporting after you upgrade to BizTalk Server, make sure that the BAM tools are configured before you perform the upgrade.  
   
- If status reporting does not work after you perform the upgrade, determine in the upgrade logs if the BAM tools were configured prior to upgrade. If not, you can configure the BAM tools and then deploy the BusinessMessageJournal BAM activity contained in the EdiStatusReportingActivityDefs.xml file in *\<drive\>*:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+ If status reporting does not work after you perform the upgrade, determine in the upgrade logs if the BAM tools were configured prior to upgrade. If not, you can configure the BAM tools and then deploy the BusinessMessageJournal BAM activity contained in the EdiStatusReportingActivityDefs.xml file in *\<drive\>*:\Program Files\Microsoft BizTalk Server.  
   
 ## Disabling transaction-set storage affects an activated batch, but enabling storage does not  
  If you disable the storage of transaction sets while an instance of the batching orchestration is activated, the change will take place immediately. BizTalk Server will store transaction sets for the batch while storage is enabled, but will not store transaction sets after storage has been disabled. You disable storage of transaction sets by clearing the "Store transaction set/payload for reporting" property in the General pane of the EDI Properties dialog box.  
@@ -85,12 +85,12 @@ This topic describes known issues with EDI status reporting in [!INCLUDE[btsBizT
  The workaround for this issue is to clear the "Store outbound encoded AS2 messages in non-repudiation database" property or the "Request message after port processing" property. We recommend that you disable "Request message after port processing" so that AS2 tracking can capture the body information along with other pieces of information for AS2 status reporting.  
   
 ## EDI and AS2 message context properties are not available after upgrading to BizTalk 2009  
- After upgrading to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], no context properties are displayed in status reporting for any EDI or AS2 messages received before the upgrade occurred.  Messages received after the upgrade will correctly display the context properties.  
+ After upgrading to BizTalk Server, no context properties are displayed in status reporting for any EDI or AS2 messages received before the upgrade occurred.  Messages received after the upgrade will correctly display the context properties.  
   
- The EDI and AS2 context property collections were not stored as part of the message in previous versions of BizTalk Server and are unavailable after an upgrade. After upgrading to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], AS2 context properties are stored as part of the message, however EDI context properties are not.  
+ The EDI and AS2 context property collections were not stored as part of the message in previous versions of BizTalk Server and are unavailable after an upgrade. After upgrading to BizTalk Server, AS2 context properties are stored as part of the message, however EDI context properties are not.  
   
 ## Interchange date for received documents may display the wrong year in status reports  
- If a received document specified the date in YYMMDD format, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] uses the following logic to determine the year value:  
+ If a received document specified the date in YYMMDD format, BizTalk Server uses the following logic to determine the year value:  
   
 -   If YY is greater than or equal to 75, the year will be displayed as 19YY.  
   

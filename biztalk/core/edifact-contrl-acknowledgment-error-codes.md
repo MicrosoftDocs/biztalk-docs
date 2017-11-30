@@ -21,7 +21,7 @@ This topic lists the error codes used within the segments of an EDIFACT CONTRL a
   
  **Standard EDIFACT Error Codes**  
   
- The following table lists the error codes used in the UCI5 field of the EDIFACT CONTRL ACK. This table indicates which error codes specified by the EDIFACT specification are supported in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] EDI and AS2 and which are unsupported.  
+ The following table lists the error codes used in the UCI5 field of the EDIFACT CONTRL ACK. This table indicates which error codes specified by the EDIFACT specification are supported in BizTalk Server EDI and AS2 and which are unsupported.  
   
 |Error Code|Condition|Cause|Supported?|  
 |----------------|---------------|-----------|----------------|  

@@ -47,7 +47,7 @@ This topic describes how to import a certificate by using CertWizard utility, a 
   
 6.  If you want to configure the usage of the certificate, append **/Usage** to the command, and then append one of the following values:  
   
-    -   Append **sign** to add the certificate's thumbprint as the signing certificate for the BizTalk Group. as set on the dialog box for Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] (Local) in the BizTalk Administration Console.  
+    -   Append **sign** to add the certificate's thumbprint as the signing certificate for the BizTalk Group. as set on the dialog box for Microsoft BizTalk Server (Local) in the BizTalk Administration Console.  
   
     -   Append **decrypt** to add the certificate's thumbprint as the decryption certificate for the BizTalk Hosts, as set on the certificate tab of the property pages for each host in the BizTalk Administration Console.  
   

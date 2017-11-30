@@ -22,7 +22,7 @@ manager: "anneta"
 |Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] EDI|  
+|Event Source|BizTalk Server EDI|  
 |Component|EDI Engine|  
 |Symbolic Name|-|  
 |Message Text|Acknowledgement generation has failed as max limit of acceptable X12 transaction set control number has reached for party {0}. Reset counter by navigating to Party in sender role screen, field ST 2 in Partner Agreement manager.|  

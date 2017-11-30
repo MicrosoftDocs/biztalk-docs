@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Checklist: Measuring Performance on Hyper-V
-While most of the principles of analyzing performance of a guest operating system installed on a Hyper-V virtual machine performance are the same as analyzing the performance of an operating system installed on a physical machine, many of the collection methods are different. The sections below should be used as a quick reference when evaluating performance of your [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] solution running on a guest operating system installed on a Hyper-V virtual machine.  
+While most of the principles of analyzing performance of a guest operating system installed on a Hyper-V virtual machine performance are the same as analyzing the performance of an operating system installed on a physical machine, many of the collection methods are different. The sections below should be used as a quick reference when evaluating performance of your BizTalk Server solution running on a guest operating system installed on a Hyper-V virtual machine.  
   
 ## Measuring Disk I/O Performance  
  Use the following performance monitor counters to measure disk I/O performance on a guest operating system installed on a Hyper-V virtual machine:  

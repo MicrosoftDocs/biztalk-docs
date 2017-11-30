@@ -66,7 +66,7 @@ This topic describes how to map a request message received by the private respon
   
 13. Repeat step 12 for all fields that you have to map between the two schemas.  
   
-14. Validate and test the map. For more information, see the "Compiling and Testing Maps" topic in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+14. Validate and test the map. For more information, see the "Compiling and Testing Maps" topic in BizTalk Server Help.  
   
 ### To add the map to the orchestration  
   

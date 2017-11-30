@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDI Character Set Support
-This topic indicates which character sets are supported in the EDI features of [!INCLUDE[prague](../includes/prague-md.md)].  
+This topic indicates which character sets are supported in the EDI features of BizTalk Server.  
   
 |EDI Encoding|Supported Character Sets|  
 |------------------|------------------------------|  

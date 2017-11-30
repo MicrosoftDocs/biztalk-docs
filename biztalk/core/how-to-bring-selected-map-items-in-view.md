@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Bring Selected Map Items in View
-With earlier versions of BizTalk Mapper, if a map comprised big schemas, you had to manually scroll the source schema pane, the grid page, and the target schema pane to bring all the relevant map items into a single view. The BizTalk Mapper with [!INCLUDE[prague](../includes/prague-md.md)] allows you to bring all the relevant map items of the selected functoid/link into a single view by automatically scrolling the grid page. This topic provides information about how to perform the operation.  
+With earlier versions of BizTalk Mapper, if a map comprised big schemas, you had to manually scroll the source schema pane, the grid page, and the target schema pane to bring all the relevant map items into a single view. The BizTalk Mapper with BizTalk Server allows you to bring all the relevant map items of the selected functoid/link into a single view by automatically scrolling the grid page. This topic provides information about how to perform the operation.  
   
  Depending on your selection (a source schema node, an element in the relationship view, or a target schema node), the BizTalk Mapper auto-scrolls the schema views and relationship view in a synchronized fashion, and displays the overall relationship view of the selected item.  
   

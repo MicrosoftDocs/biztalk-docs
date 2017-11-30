@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Additional Resources
-In addition to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help, there are additional resources that discuss programming on this platform. For more information about these resources, go to the following Web sites:  
+In addition to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help, there are additional resources that discuss programming on this platform. For more information about these resources, go to the following Web sites:  
   
 -   MSDN at [http://go.microsoft.com/fwlink/?LinkId=25353](http://go.microsoft.com/fwlink/?LinkId=25353)  
   

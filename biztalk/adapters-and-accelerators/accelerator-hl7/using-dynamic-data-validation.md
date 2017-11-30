@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using Dynamic Data Validation
-An important part of dynamic data validation is validating message content against dynamic data, which includes validating the message format and the message content. A document schema, which [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] implements in an XSD file, defines and validates message formats. Business rules define message content, which [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] validates through Business Rule Engine policies. Content validation can include confirmation that data in the message instance matches data that may change with relative frequency. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] implements this type of validation in a dynamic manner, so that you can update this data in a production environment, without having to recompile code or shut down services.  
+An important part of dynamic data validation is validating message content against dynamic data, which includes validating the message format and the message content. A document schema, which [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server implements in an XSD file, defines and validates message formats. Business rules define message content, which [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] validates through Business Rule Engine policies. Content validation can include confirmation that data in the message instance matches data that may change with relative frequency. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] implements this type of validation in a dynamic manner, so that you can update this data in a production environment, without having to recompile code or shut down services.  
   
 ## Validate and Expose Data  
  There are two steps in performing Dynamic Data Validation (DDV):  
@@ -43,7 +43,7 @@ An important part of dynamic data validation is validating message content again
   
 -   You can compose rules at design time in the Business Rule Composer user interface or directly in Business Rules Language (BRL) XML in a text editor.  
   
- For more information about business rules and the Business Rule Engine, see "Developing with Business Rules" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about business rules and the Business Rule Engine, see "Developing with Business Rules" in BizTalk Server Help.  
   
 ## Extending DDV  
  If you change HL7-based cross-field validation or data type validation, you must note two things:  

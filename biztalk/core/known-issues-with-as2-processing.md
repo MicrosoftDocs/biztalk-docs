@@ -15,10 +15,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Known Issues with AS2 Processing
-This section contains topics that describe known issues with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] AS2 solutions.  
+This section contains topics that describe known issues with BizTalk Server AS2 solutions.  
   
 ## AS2 Processing Not Supported on 64-Bit Computers  
- The [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] AS2 solution is not supported on 64-bit computers. AS2 processing only works on 32-bit computers or when running under the WOW64 emulator on 64-bit computers.  
+ The BizTalk Server AS2 solution is not supported on 64-bit computers. AS2 processing only works on 32-bit computers or when running under the WOW64 emulator on 64-bit computers.  
   
 ## The AS2 Receive Pipelines Require the Account that the BizTalk Isolated Host Instance Process is Running Under to Be Part of the BizTalk Application Users Group  
  If you are using the AS2EdiReceive or AS2Receive pipeline, you must add the user account that the BizTalk Isolated Host Instance process is running under to the BizTalk Application Users group. The AS2EdiReceive and AS2Receive pipelines execute in the BizTalk Isolated Host Instance process.  
@@ -31,7 +31,7 @@ This section contains topics that describe known issues with [!INCLUDE[btsBizTal
 ## Use of Unfolded and Folded HTTP Line Headers  
  For maximum interoperability, you should use unfolded HTTP line headers for AS2 messages. Information Services (IIS) 7.0 supports only unfolded HTTP headers. IIS 6.0 supports folded and unfolded headers. However, not all systems can support headers with more than 80 characters per line, so for such systems folded lines should be used.  
   
- The default for AS2 in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is unfolded HTTP line headers.  
+ The default for AS2 in BizTalk Server is unfolded HTTP line headers.  
   
 ## Party Resolution Can Be Affected by a Localized Name  
  When BizTalk Server performs party resolution on an outbound AS2 message, the party resolution can be affected by a localized value in the message headers. If the AS2-To party property in the Party as AS2 Message Receiver page of the AS2 Properties dialog box is set by default to an English party name, and the value in the AS2-To header of the AS2 message is set to a non-English name, then the match will not be found.  

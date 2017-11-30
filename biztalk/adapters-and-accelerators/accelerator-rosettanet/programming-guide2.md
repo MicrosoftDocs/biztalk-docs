@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Programming Guide
-The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Programming Guide explains concepts and procedures for developers writing code with [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]. Use this guide in conjunction with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Programming Guide explains concepts and procedures for developers writing code with [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]. Use this guide in conjunction with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.  
   
 > [!NOTE]
 >  Before reading this guide, you should be familiar with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]® development, BizTalk Server, and the [RosettaNet accelerator](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md).

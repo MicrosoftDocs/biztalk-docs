@@ -23,9 +23,9 @@ The Build lab phase of a performance assessment is used to install the hardware 
  There may be third-party systems that need to be built out and configured before the lab can begin. If subject matter experts (SMEs) are required for these systems, be sure they are scheduled during the build-out and lab execution stages. Ensure that they thoroughly document their build-out procedures.  
   
 ## Install and configure the BizTalk Server environment  
- Detailed instructions for installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the required dependency software can be found in the [BizTalk Server 2010 Installation and Upgrade Guides](http://go.microsoft.com/fwlink/?LinkID=191321) (http://go.microsoft.com/fwlink/?LinkID=191321). After successfully installing and configuring the BizTalk Server environment, complete the following tasks:  
+ Detailed instructions for installing BizTalk Server and the required dependency software are in the [Installation and Upgrade Guides](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md). After successfully installing and configuring the BizTalk Server environment, complete the following tasks:  
   
--   Follow the recommendations listed in the [Operational Readiness Checklists](http://go.microsoft.com/fwlink/?LinkId=160134)(http://go.microsoft.com/fwlink/?LinkId=160134).  
+-   Follow the recommendations listed in the [Operational Readiness Checklists](operational-readiness-checklists.md)
   
 -   Follow the recommendations in [Optimizing Performance](../technical-guides/optimizing-performance.md).  
   
@@ -35,7 +35,7 @@ The Build lab phase of a performance assessment is used to install the hardware 
   
 -   Ensure any custom tracing/logging is disabled unless absolutely needed.  
   
--   Install the Visual Studio 2010 Ultimate edition for load testing.  For more information about how to perform automated testing using Visual Studio, see [Using Visual Studio to Facilitate Automated Testing](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md).  
+-   Install the Visual Studio Ultimate edition for load testing.  For more information about how to perform automated testing using Visual Studio, see [Using Visual Studio to Facilitate Automated Testing](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md).  
   
 -   Setup Performance Monitor counters and logs, as needed.  
   
@@ -82,7 +82,7 @@ The Build lab phase of a performance assessment is used to install the hardware 
  Implementation of an automated build and load testing process is arguably the cornerstone of a BizTalk Server performance assessment. An automated build process should be implemented if code changes are within the scope of the performance assessment. Automated load testing should be implemented for all load testing scenarios. The initial time investment required to implement automated build and load testing is quickly recouped, automation accommodates rapid and precise repetition of mundane build/testing tasks that are subject to human error. For more information about implementing an automated build and testing process, see [Implementing Automated Testing](../technical-guides/implementing-automated-testing.md) in this guide.  
   
 ## Configure performance monitoring  
- Accurate performance monitoring is critical to the success of the performance assessment. Determine which performance metrics should be evaluated based on the throughput and latency goals that were defined in the Scope phase. Performance monitoring should be performed on each computer in the BizTalk Server environment. For more information about the performance counters available for BizTalk Server 2010, see [Performance Counters](http://go.microsoft.com/fwlink/?LinkID=157269) (http://go.microsoft.com/fwlink/?LinkID=157269) in the BizTalk Server 2010 Help. Use the Performance Analysis of Logs tool (PAL) to generate HTML reports that graphically chart important performance counters and generate alerts when thresholds for these counters are exceeded. For more information about the [Performance Analysis of Logs (PAL) tool](http://go.microsoft.com/fwlink/?LinkID=98098), see [Performance Analysis of Logs (PAL) tool](http://go.microsoft.com/fwlink/?LinkID=98098) (http://go.microsoft.com/fwlink/?LinkID=98098).  
+ Accurate performance monitoring is critical to the success of the performance assessment. Determine which performance metrics should be evaluated based on the throughput and latency goals that were defined in the Scope phase. Performance monitoring should be performed on each computer in the BizTalk Server environment. See [Performance Counters](../core/performance-counters.md). Use the Performance Analysis of Logs tool (PAL) to generate HTML reports that graphically chart important performance counters and generate alerts when thresholds for these counters are exceeded. S [Performance Analysis of Logs (PAL) tool](https://github.com/clinthuffman/PAL).  
   
 ## Establish and document the solution’s baseline performance  
  Baseline performance should be calculated so that the effect of performance optimizations applied during the performance assessment can be measured.  

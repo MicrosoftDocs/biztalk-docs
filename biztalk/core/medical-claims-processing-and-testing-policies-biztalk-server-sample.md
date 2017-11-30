@@ -63,7 +63,7 @@ The Medical Claims Processing and Testing Policies sample demonstrates how to cr
 1.  Make sure that you have the Northwind database on your machine.  
   
     > [!IMPORTANT]
-    >  In order to run this sample, you must have a database named Northwind. [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] and [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] do not ship with the Northwind sample database. To create the Northwind database, download the install file from [http://go.microsoft.com/fwlink/?LinkId=196020](http://go.microsoft.com/fwlink/?LinkId=196020), and follow the instructions.  
+    >  To run this sample, you must have the Northwind SQL Server sample database. [Download](https://www.microsoft.com/download/details.aspx?id=23654), and install. 
   
 2.  In a command window, navigate to the following folder:  
   

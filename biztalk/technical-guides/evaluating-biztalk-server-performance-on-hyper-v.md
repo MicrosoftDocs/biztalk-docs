@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Evaluating BizTalk Server Performance on Hyper-V
-This section provides checklists for evaluating and optimizing performance of a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] application running on a guest operating system installed on a Hyper-V virtual machine and a summary of the system resource costs associated with running Hyper-V.  
+This section provides checklists for evaluating and optimizing performance of a BizTalk Server application running on a guest operating system installed on a Hyper-V virtual machine and a summary of the system resource costs associated with running Hyper-V.  
   
 ## In This Section  
   

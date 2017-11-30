@@ -15,10 +15,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Changes in Dehydration Policy from BizTalk Server 2004
-BizTalk Server dehydration policy has changed from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. The explanation for the difference between [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] and [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] can be summarized by the following Boolean that determines dehydration in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] (true = dehydrate)  
+BizTalk Server dehydration policy has changed from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to BizTalk Server. The explanation for the difference between [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] and BizTalk Server can be summarized by the following Boolean that determines dehydration in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] (true = dehydrate)  
   
 ```  
 Dehydrate = (WaitingHistory == -1 OR WaitingHistory > TestThreshold)  
 ```  
   
- Dehydration policy for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] has changed in this minor way. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] always dehydrates at a receive/delay/listen if there is a wait longer than 2***MaxThreshold**.
+ Dehydration policy for BizTalk Server has changed in this minor way. BizTalk Server always dehydrates at a receive/delay/listen if there is a wait longer than 2***MaxThreshold**.

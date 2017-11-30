@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Unit Testing with BizTalk Server Projects
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] introduced a unit testing feature that can be enabled on the **Deployment** property page of a BizTalk project. The following screenshot shows this project setting accessed from Project Designer when you right-click a project and click the **Properties**.  
+BizTalk Server introduced a unit testing feature that can be enabled on the **Deployment** property page of a BizTalk project. The following screenshot shows this project setting accessed from Project Designer when you right-click a project and click the **Properties**.  
   
  ![](../core/media/projectdesignerenableunittesting.gif "ProjectDesignerEnableUnitTesting")  
   

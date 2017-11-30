@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Installing and Configuring BizTalk Server on the HTTP Front-End Servers
-This section describes how to install and configure [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] to be used as the HTTP front-end server for hosting the MRSR site and the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] template forms.  
+This section describes how to install and configure BizTalk Server to be used as the HTTP front-end server for hosting the MRSR site and the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] template forms.  
   
 ### To install and configure BizTalk Server on the BizTalk HTTP front-end servers  
   

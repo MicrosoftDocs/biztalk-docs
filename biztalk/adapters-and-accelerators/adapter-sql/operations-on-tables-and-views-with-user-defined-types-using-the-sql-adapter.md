@@ -42,7 +42,7 @@ You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)
     |UDT Type|Location of Assemblies|  
     |--------------|----------------------------|  
     |UDTs shipped with SQL Server, for example, Geography|-   Make sure Microsoft.SqlServer.Types.dll is added to the GAC.<br />-   Make sure SqlServerSpatial.dll is available in the System32 folder.<br /><br /> You can install these DLLs on the computer by running the SQL Server setup and selecting **Management Tools – Basic** and **Management Tools – Complete** in the **Feature Selection** page of the wizard.|  
-    |UDTs not shipped with SQL Server but defined by users|Make sure the respective assemblies for the UDTs are available under the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] installation location. For [!INCLUDE[prague](../../includes/prague-md.md)], typically this is \<installation drive\>:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].|  
+    |UDTs not shipped with SQL Server but defined by users|Make sure the respective assemblies for the UDTs are available under the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] installation location. For BizTalk Server, typically this is \<installation drive\>:\Program Files\Microsoft BizTalk Server.|  
   
 -   **While performing the operation using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]**  
   

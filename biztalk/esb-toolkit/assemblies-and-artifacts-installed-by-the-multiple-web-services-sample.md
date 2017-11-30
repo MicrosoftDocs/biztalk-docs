@@ -31,4 +31,4 @@ The following table lists the assemblies and other artifacts installed for the M
 |||MessageEnrichment.Transforms.OrderDocAndGetOrderDetailsToInventoryOrder Version 1.0.0.0|  
 |Global assembly cache|Assemblies|ESB.MultipleWebServices.Maps Version 2.0.0.0|  
 |||ESB.MultipleWebServices.Orchestrations Version 2.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components||
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components||

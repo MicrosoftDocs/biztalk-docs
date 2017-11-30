@@ -84,7 +84,7 @@ You can modify an existing EDI schema that is shipped in [!INCLUDE[btsBizTalkSer
     1.  In the appinfo annotation at the top of the schema, set the cross-field validation flag (either **X12ConditionDesignator_Check** for X12 or HIPAA schemas or **EdifactDependencyRule_Check** for EDIFACT schemas) to **Yes**.  
   
         > [!NOTE]
-        >  The cross-field validation flag is **Yes** by default for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] HIPAA schemas.  
+        >  The cross-field validation flag is **Yes** by default for BizTalk Server HIPAA schemas.  
   
     2.  In the annotation for a specific element, specify the relational conditions (X12 or HIPAA) or dependency rules (EDIFACT) for the element. For more information about these settings, see [Cross Field-Segment Validation](../core/cross-field-segment-validation.md).  
   
