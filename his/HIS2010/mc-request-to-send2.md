@@ -1,0 +1,174 @@
+---
+title: "MC_REQUEST_TO_SEND2 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/30/2017"
+ms.prod: "host-integration-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 315b4ed8-5a9d-4f89-ba03-3e193a232d03
+caps.latest.revision: 3
+---
+# MC_REQUEST_TO_SEND
+The **MC_REQUEST_TO_SEND** verb notifies the partner transaction program (TP) that the local TP wants to send data.  
+  
+ The following structure describes the verb control block (VCB) used by the **MC_REQUEST_TO_SEND** verb.  
+  
+## Syntax  
+  
+```  
+  
+struct mc_request_to_send {  
+    unsigned short      opcode;  
+    unsigned char       opext;  
+    unsigned char       reserv2;  
+    unsigned short      primary_rc;  
+    unsigned long       secondary_rc;  
+    unsigned char       tp_id[8];  
+    unsigned long       conv_id;  
+};   
+```  
+  
+## Members  
+ *opcode*  
+ Supplied parameter. Specifies the verb operation code, AP_M_REQUEST_TO_SEND.  
+  
+ *opext*  
+ Supplied parameter. Specifies the verb operation extension, AP_MAPPED_CONVERSATION.  
+  
+ *reserv2*  
+ A reserved field.  
+  
+ *primary_rc*  
+ Returned parameter. Specifies the primary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
+  
+ *secondary_rc*  
+ Returned parameter. Specifies the secondary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
+  
+ *tp_id*  
+ Supplied parameter. Identifies the local TP.  
+  
+ The value of this parameter is returned by [TP_STARTED](../HIS2010/tp-started1.md) in the invoking TP or by [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md) in the invoked TP.  
+  
+ *conv_id*  
+ Supplied parameter. Provides the conversation identifier.  
+  
+ The value of this parameter is returned by [MC_ALLOCATE](../HIS2010/mc-allocate1.md) in the invoking TP or by **RECEIVE_ALLOCATE** in the invoked TP.  
+  
+## Return Codes  
+ AP_OK  
+ Primary return code; the verb executed successfully.  
+  
+ AP_PARAMETER_CHECK  
+ Primary return code; the verb did not execute because of a parameter error.  
+  
+ AP_BAD_CONV_ID  
+  
+ Secondary return code; the value of **conv_id** did not match a conversation identifier assigned by APPC.  
+  
+ AP_BAD_TP_ID  
+  
+ Secondary return code; the value of **tp_id** did not match a TP identifier assigned by APPC.  
+  
+ AP_STATE_CHECK  
+ Primary return code; the verb did not execute because it was issued in an invalid state.  
+  
+ AP_R_T_S_BAD_STATE  
+  
+ Secondary return code; the conversation is not in an allowed state when the TP issued this verb.  
+  
+ AP_COMM_SUBSYSTEM_ABENDED  
+ Primary return code; indicates one of the following conditions:  
+  
+-   The node used by this conversation encountered an ABEND.  
+  
+-   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+  
+-   The SnaBase at the TP's computer encountered an ABEND.  
+  
+ The system administrator should examine the error log to determine the reason for the ABEND.  
+  
+ AP_COMM_SUBSYSTEM_NOT_LOADED  
+ Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  
+ When this return code is used with [MC_ALLOCATE](../HIS2010/mc-allocate1.md), it may indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../HIS2010/tp-started1.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **MC_ALLOCATE** request.  
+  
+ When **MC_ALLOCATE** produces this return code for a Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Client system configured with multiple nodes, there are two secondary return codes as follows:  
+  
+ 0xF0000001  
+  
+ Secondary return code; no nodes have been started.  
+  
+ 0xF0000002  
+  
+ Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
+  
+-   The node with the local LU is not started.  
+  
+-   The local LU is not configured.  
+  
+ AP_CONVERSATION_TYPE_MIXED  
+ Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  
+ AP_INVALID_VERB_SEGMENT  
+ Primary return code; the VCB extended beyond the end of the data segment.  
+  
+ AP_STACK_TOO_SMALL  
+ Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  
+ AP_CONV_BUSY  
+ Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  
+ AP_THREAD_BLOCKING  
+ Primary return code; the calling thread is already in a blocking call.  
+  
+ AP_UNEXPECTED_DOS_ERROR  
+ Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  
+## Remarks  
+ The conversation can be in any of the following states when the TP issues this verb:  
+  
+ CONFIRM  
+  
+ PENDING_POST (OS/2)  
+  
+ RECEIVE  
+  
+ There is no state change.  
+  
+ The request-to-send notification is received by the partner program through the **rts_rcvd** parameter of the following verbs:  
+  
+-   [MC_CONFIRM](../HIS2010/mc-confirm1.md)  
+  
+-   [MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md)  
+  
+-   [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md)  
+  
+-   [MC_RECEIVE_IMMEDIATE](../HIS2010/mc-receive-immediate1.md)  
+  
+-   [MC_SEND_DATA](../HIS2010/mc-send-data2.md)  
+  
+-   [MC_SEND_ERROR](../HIS2010/mc-send-error1.md)  
+  
+ It is also indicated by a **primary_rc** of AP_OK on [MC_TEST_RTS](../HIS2010/mc-test-rts1.md).  
+  
+ Request-to-send notification is sent to the partner TP immediately; APPC does not wait until the send buffer fills up or is flushed. Consequently, the request-to-send notification may arrive out of sequence. For example, if the local TP is in SEND state and issues [MC_PREPARE_TO_RECEIVE](../HIS2010/mc-prepare-to-receive2.md) followed by **MC_REQUEST_TO_SEND**, the partner TP, in RECEIVE state, may receive the request-to-send notification before it receives the send notification. For this reason, request-to-send can be reported to a TP through a receive verb.  
+  
+ In response to this request, the partner TP can change the conversation to:  
+  
+-   RECEIVE state by issuing **MC_PREPARE_TO_RECEIVE** or [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md).  
+  
+-   PENDING_POST state by issuing [MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md).  
+  
+ The partner TP can also ignore the request-to-send.  
+  
+ The conversation state changes to SEND for the local TP when the local TP receives one of the following values through the **what_rcvd** parameter of a subsequent receive verb:  
+  
+-   AP_CONFIRM_SEND and replies with [MC_CONFIRMED](../HIS2010/mc-confirmed2.md)  
+  
+-   AP_DATA_COMPLETE_CONFIRM_SEND and replies with **MC_CONFIRMED**  
+  
+-   AP_SEND  
+  
+ The receive verbs are [MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md), [MC_RECEIVE_IMMEDIATE](../HIS2010/mc-receive-immediate1.md), and [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md).

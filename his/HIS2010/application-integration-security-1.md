@@ -1,0 +1,40 @@
+---
+title: "Application Integration (Security)1 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/30/2017"
+ms.prod: "host-integration-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 5c0d2573-8311-4461-9f5d-5e7becc01c8b
+caps.latest.revision: 5
+---
+# Application Integration (Security)
+Security affects Transaction Integrator (TI) in two ways. First, TI components can be assigned security attributes in the same way as other COM+ components. This requires no TI development. Second, the TI run-time environment needs to deal with the security mechanisms of the remote environment (RE). TI provides two security options with an optional override for each:  
+  
+-   Package-level (also known as application-level)  
+  
+-   4User-level  
+  
+-   Optional explicit-level override  
+  
+ When configured for user-level credentials, TI makes use of the APPC Privileged Proxy feature for single sign on. This requires that the user context that the APPC application (TI, in this case) is running under be a member of the **HSDomain_Proxy** group. (The **HSDomain_Proxy** group is one of the two groups created when the host security domain is created.) By default, the **HSDomain_Proxy** group contains the **Domain Admins** group. If TI is not running under the context of a user in the **Domain Admins** group, you will need to add the user to the **HSDomain_Proxy** group.  
+  
+ When deploying a TI component, the administrator must choose either package-level security or user-level security as the default. The optional explicit-level security override is a separate option that the administrator can enable or disable; the override applies regardless of which security option (package-level or user-level) is in place. If the explicit-level override is disabled, base applications will not be permitted to use the callback to provide user credentials. The administrator can also turn on the optional Already Verified settings.  
+  
+## In This Section  
+ [Single Sign-On in Transaction Integrator](../HIS2010/single-sign-on-in-transaction-integrator1.md)  
+  
+ [Special Security Settings for TCP/IP](../HIS2010/special-security-settings-for-tcp-ip2.md)  
+  
+ [Mainframe Authentication for CICS LINK](../HIS2010/mainframe-authentication-for-cics-link2.md)  
+  
+ [AS/400 Security](../HIS2010/as-400-security2.md)  
+  
+ [Limitations of User Access Level Sign On](../HIS2010/limitations-of-user-access-level-sign-on2.md)  
+  
+ [Transaction Integrator Threat Mitigation](../HIS2010/transaction-integrator-threat-mitigation1.md)  
+  
+## See Also  
+ [Security and Protection](../HIS2010/security-and-protection3.md)
