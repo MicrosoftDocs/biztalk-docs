@@ -15,7 +15,7 @@ manager: "anneta"
 ---
 # How to: Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query
 ## Goal  
- This section demonstrates how to create an itinerary that queries an e-mail address through LDAP (Lightweight Directory Access Protocol) and then sends an e-mail message to the resolved endpoint using the [!INCLUDE[prague](../includes/prague-md.md)] SMTP adapter.  
+ This section demonstrates how to create an itinerary that queries an e-mail address through LDAP (Lightweight Directory Access Protocol) and then sends an e-mail message to the resolved endpoint using the BizTalk Server SMTP adapter.  
   
  In this How-to topic, you will complete the following steps:  
   

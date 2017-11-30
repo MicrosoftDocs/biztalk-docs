@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Processing Instructions in Detail
-This topic describes the format and structure of the System-Properties.xsd property schema, which defines several context properties required for itinerary processing. These properties are promoted when a message is received and processed through [!INCLUDE[prague](../includes/prague-md.md)] pipelines; because they are promoted properties, they are accessible to BizTalk Server components. The following properties are defined in the System-Properties.xsd property schema:  
+This topic describes the format and structure of the System-Properties.xsd property schema, which defines several context properties required for itinerary processing. These properties are promoted when a message is received and processed through BizTalk Server pipelines; because they are promoted properties, they are accessible to BizTalk Server components. The following properties are defined in the System-Properties.xsd property schema:  
   
 -   **ItineraryHeader.** This property contains all the itinerary information and a list of itinerary services to be invoked through a sequence of itinerary steps. The Itinerary API uses this property internally.  
   

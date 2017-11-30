@@ -140,9 +140,9 @@ manager: "anneta"
   
 #### To create and configure an ESB on-ramp  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **[!INCLUDE[prague](../includes/prague-md.md)]**, and then click **BizTalk Server Administration**.  
+1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **BizTalk Server Administration**.  
   
-2.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, expand **BizTalk Group**, expand **Applications**, and then expand **Microsoft.Practices.ESB**.  
+2.  In the BizTalk Server Administration Console, expand **BizTalk Group**, expand **Applications**, and then expand **Microsoft.Practices.ESB**.  
   
 3.  Right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.  
   
@@ -183,7 +183,7 @@ manager: "anneta"
   
 2.  Click **OK** to close the **Receive Location Properties** dialog box.  
   
-3.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, right-click the **OnRamp.Itinerary.HowTo** receive location, and then click **Enable**.  
+3.  In the BizTalk Server Administration Console, right-click the **OnRamp.Itinerary.HowTo** receive location, and then click **Enable**.  
   
 #### To test the message validation and itinerary selection  
   
@@ -211,12 +211,12 @@ manager: "anneta"
   
 9. In Event Viewer, expand **Windows Logs**, and then click **Application**.  
   
-10. Locate a recent event where the **Source** is **[!INCLUDE[prague](../includes/prague-md.md)]**, and the **Event ID** is **5719**.  
+10. Locate a recent event where the **Source** is **BizTalk Server**, and the **Event ID** is **5719**.  
   
     > [!NOTE]
     >  The submission and failure of the invalid message resulted in an exception entry to the application event log.  
   
-11. In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, right-click the **OnRamp.Itinerary.HowTo** receive location, and then click **Disable**.  
+11. In the BizTalk Server Administration Console, right-click the **OnRamp.Itinerary.HowTo** receive location, and then click **Disable**.  
   
 12. After the **OnRamp.Itinerary.HowTo** receive location is disabled, right-click it, and then click **Delete**. In the **Confirm delete receive location** dialog box, click **Yes**.  
   

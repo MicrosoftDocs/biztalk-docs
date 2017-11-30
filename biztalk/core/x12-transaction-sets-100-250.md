@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # X12 Transaction Sets 100-250
-This topic lists the X12 transaction sets and versions that are supported by [!INCLUDE[prague](../includes/prague-md.md)].  
+This topic lists the X12 transaction sets and versions that are supported by BizTalk Server.  
   
  The following transaction sets are contained in this topic:  
   

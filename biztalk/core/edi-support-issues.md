@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDI Support Issues
-This section describes how [!INCLUDE[prague](../includes/prague-md.md)] supports EDI and AS2 processing.  
+This section describes how BizTalk Server supports EDI and AS2 processing.  
   
 ## In This Section  
   

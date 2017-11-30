@@ -16,7 +16,7 @@ manager: "anneta"
 ---
 # Create a BizTalk Server orchestration
 > [!NOTE]
->  This tutorial applies to [!INCLUDE[prague](../includes/prague-md.md)] only.  
+>  This tutorial applies to BizTalk Server only.  
   
  Create a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration that, when deployed, receives a JSON purchase order message, transforms it to an XML invoice, and then sends out a JSON invoice.  
   

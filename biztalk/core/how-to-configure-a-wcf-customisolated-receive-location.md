@@ -58,7 +58,7 @@ You can configure a WCF-CustomIsolated receive location either programmatically 
   
 1.  If you plan to use the WCF extensibility points such as the custom binding elements, custom behavior element, and custom channel components when configuring the WCF-CustomIsolated adapter, you must add the assemblies that implement the extensibility points and all of the dependent assemblies to the global assembly cache on both the BizTalk processing computer (runtime computer) and the administration computer. In addition, you must register the extension components to the machine.config file. For more information about how to use the WCF extensibility points with the WCF CustomIsolated adapter, see [How to Enable the WCF Extensibility Points with the WCF Adapters](../core/how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters.md).  
   
-2.  In the BizTalk Administration console, expand **[!INCLUDE[prague](../includes/prague-md.md)] Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application in which you want to create a receive location.  
+2.  In the BizTalk Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application in which you want to create a receive location.  
   
 3.  In the BizTalk Administration console, in the left pane, click the **Receive Port** node. Then in the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.  
   

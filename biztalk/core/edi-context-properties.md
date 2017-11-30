@@ -38,8 +38,8 @@ The message context properties in the EDI global property schema are publicly ex
 |BatchName|String|The name of the batch configuration to use when processing this document.|  
 |CodePage|string|The code page to be used to validate the interchange.|  
 |CONTRL_UCI4|string|The Action Code field of a CONTRL acknowledgment, indicating whether the interchange was accepted (a value of "8") or rejected because of an error in the UNA or UNB segment (a value of "4") (EDIFACT CONTRL ACK only).|  
-|DestinationPartyID (deprecated in [!INCLUDE[prague](../includes/prague-md.md)])|int|The ID of the destination party that the message should be sent to.|  
-|DestinationPartyName (deprecated in [!INCLUDE[prague](../includes/prague-md.md)])|string|The name of the destination party that the message should be sent to.|  
+|DestinationPartyID (deprecated in BizTalk Server)|int|The ID of the destination party that the message should be sent to.|  
+|DestinationPartyName (deprecated in BizTalk Server)|string|The name of the destination party that the message should be sent to.|  
 |DestinationPartyReceiver<br />Identifier|string|The identifier of the destination party that the message should be sent to. This property can be promoted in a custom component to enable party resolution in the send pipeline.|  
 |DestinationPartyReceiver<br />Qualifier|string|The qualifier of the destination party that the message should be sent to. This property can be promoted in a custom component to enable party resolution in the send pipeline.|  
 |DestinationPartySender<br />Identifier|string|The identifier of the party sending the message to the destination party. This property can be promoted in a custom component to enable party resolution in the send pipeline.|  

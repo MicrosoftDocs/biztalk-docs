@@ -16,7 +16,7 @@ manager: "anneta"
 ---
 # Create custom pipelines to process JSON messages
 > [!NOTE]
->  This tutorial applies to [!INCLUDE[prague](../includes/prague-md.md)] only.  
+>  This tutorial applies to BizTalk Server only.  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides pipeline components that can be used to process JSON messages within a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application. In this step, we use those pipeline components to create custom pipelines that can be used when configuring a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application.  
   

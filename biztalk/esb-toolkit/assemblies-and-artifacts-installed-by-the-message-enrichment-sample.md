@@ -35,4 +35,4 @@ The following table lists the assemblies and other artifacts installed for the M
 |Global assembly cache|Assemblies|MessageEnrichment.Transforms Version 1.0.0.0|  
 |||MessageEnrichment.Orchestrations Version 1.0.0.0|  
 |||MessageEnrichment.Schema Version 1.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components||
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components||

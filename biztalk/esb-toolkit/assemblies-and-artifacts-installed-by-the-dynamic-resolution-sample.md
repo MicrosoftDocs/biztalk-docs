@@ -49,4 +49,4 @@ The following table lists the assemblies and artifacts installed by the [!INCLUD
 |Global assembly cache|Assemblies|GlobalBank.ESB.DynamicResolution.Pipelines Version 2.0.0.0|  
 |||GlobalBank.ESB.DynamicResolution.Schemas Version 2.0.0.0|  
 |||GlobalBank.ESB.DynamicResolution.Transforms Version 2.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components|(none)|
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components|(none)|

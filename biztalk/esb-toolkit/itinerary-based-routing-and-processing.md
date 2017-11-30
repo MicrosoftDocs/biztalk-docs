@@ -14,6 +14,6 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Itinerary-Based Routing and Processing
-The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] implements a routing slip pattern through the use of custom pipeline components. Message metadata and other factors are used to determine the appropriate routing slip, also known as an itinerary, to be used for each message. This routing slip can perform message transformation, invoke orchestration services, and define message routing steps that [!INCLUDE[prague](../includes/prague-md.md)] will execute, effectively decoupling message processing instructions from the core BizTalk Server engine.  
+The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] implements a routing slip pattern through the use of custom pipeline components. Message metadata and other factors are used to determine the appropriate routing slip, also known as an itinerary, to be used for each message. This routing slip can perform message transformation, invoke orchestration services, and define message routing steps that BizTalk Server will execute, effectively decoupling message processing instructions from the core BizTalk Server engine.  
   
  For more information on how itineraries are processed, see [Key Scenarios and Development Tasks](../esb-toolkit/key-scenarios-and-development-tasks.md).

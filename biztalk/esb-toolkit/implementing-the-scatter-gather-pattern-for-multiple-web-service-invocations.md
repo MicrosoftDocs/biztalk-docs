@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Implementing the Scatter-Gather Pattern for Multiple Web Service Invocations
-In this use case, a message contains an itinerary service step that specifies more than one external service that [!INCLUDE[prague](../includes/prague-md.md)] should access. It uses dynamic resolution to determine service locations and endpoints and any optional BizTalk Service maps for transforming the returned data. The orchestration implementing this service performs the transformation and invocations, and all service invocations occur asynchronously. After all service invocations complete, the itinerary service aggregates the responses into a single response message and sends the message to the client through a dynamically assigned endpoint. Figure 1 illustrates this use case.  
+In this use case, a message contains an itinerary service step that specifies more than one external service that BizTalk Server should access. It uses dynamic resolution to determine service locations and endpoints and any optional BizTalk Service maps for transforming the returned data. The orchestration implementing this service performs the transformation and invocations, and all service invocations occur asynchronously. After all service invocations complete, the itinerary service aggregates the responses into a single response message and sends the message to the client through a dynamically assigned endpoint. Figure 1 illustrates this use case.  
   
  ![Implementing Scatter Gather Pattern](../esb-toolkit/media/ch3-implementingscatter.gif "Ch3-ImplementingScatter")  
   

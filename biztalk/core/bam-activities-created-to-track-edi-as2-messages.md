@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BAM Activities Created to Track EDI-AS2 Messages
-[!INCLUDE[prague](../includes/prague-md.md)] includes BAM activities that have been created for EDI and AS2 status reporting. These activities determine the data that is displayed in the status reports. This topic describes the BAM activities and the fields that are defined in them, and describes the enumeration values that are defined for certain fields in the BAM activities.  
+BizTalk Server includes BAM activities that have been created for EDI and AS2 status reporting. These activities determine the data that is displayed in the status reports. This topic describes the BAM activities and the fields that are defined in them, and describes the enumeration values that are defined for certain fields in the BAM activities.  
   
  You can create a custom status report by creating a custom BAM activity. The custom activity can be based upon one of the standard activities. You can also display the contents of the message from the custom status report by querying the EdiMessageContent table in the BizTalkDTADb database. For more information, see the "Querying the EdiMessageContent Table" section below.  
   

@@ -43,4 +43,4 @@ The following table lists the assemblies and other artifacts installed for the E
 |||GlobalBank.ESB.ExceptionHandling.Processes Version 2.0.0.0|  
 |||GlobalBank.ESB.ExceptionHandling.Schemas Version 2.0.0.0|  
 |||GlobalBank.ESB.ExceptionHandling.Pipelines Version 2.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components||
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components||

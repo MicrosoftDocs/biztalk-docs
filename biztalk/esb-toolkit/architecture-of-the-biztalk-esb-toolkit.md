@@ -16,7 +16,7 @@ manager: "anneta"
 # Architecture of the BizTalk ESB Toolkit
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consists of a series of interoperating components that support and implement a loosely coupled messaging environment that makes it easier to build message-based enterprise applications. The services and components fall naturally into the following seven categories:  
   
--   **Web services.** These expose internal services such as itinerary processing, exception management, resolution of endpoints and maps, [!INCLUDE[prague](../includes/prague-md.md)] operations, Universal Description, Discovery, and Integration (UDDI) interoperation, and transformation of message content.  
+-   **Web services.** These expose internal services such as itinerary processing, exception management, resolution of endpoints and maps, BizTalk Server operations, Universal Description, Discovery, and Integration (UDDI) interoperation, and transformation of message content.  
   
 -   **Itinerary services.** These include orchestration-based and messaging-based services for performing transformations and message routing. You can create custom services that participate in Itinerary processing. These include orchestration-based and messaging-based services for performing transformations and message routing. You can create custom services that participate in Itinerary processing.  
   
@@ -30,7 +30,7 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consists of a series of
   
 -   **ESB Management Portal.** This sample application provides registry provisioning, exception mediation, alert notification, and analytics.  
   
- Many of these components and services rely on features implemented by [!INCLUDE[prague](../includes/prague-md.md)], such as the Orchestration, Transformation, and Business Rules engines and the Message Box database. Figure 1 shows a schematic view of the categories, the components and services typically occurring within each category, and the core BizTalk Server system components used by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  
+ Many of these components and services rely on features implemented by BizTalk Server, such as the Orchestration, Transformation, and Business Rules engines and the Message Box database. Figure 1 shows a schematic view of the categories, the components and services typically occurring within each category, and the core BizTalk Server system components used by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  
   
  ![ESB Architecture](../esb-toolkit/media/esbarchitecture.gif "ESBArchitecture")  
   

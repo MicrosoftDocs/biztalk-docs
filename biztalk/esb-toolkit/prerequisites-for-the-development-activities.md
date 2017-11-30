@@ -32,7 +32,7 @@ This section describes how to prepare your environment to complete the steps in 
   
     -   C:\HowTos\Out  
   
-4.  Ensure that your [!INCLUDE[prague](../includes/prague-md.md)] service account has **Full Control** permissions to the C:\HowTos directory structure.  
+4.  Ensure that your BizTalk Server service account has **Full Control** permissions to the C:\HowTos directory structure.  
   
 5.  Ensure that your Microsoft BizTalk Server service account has **Write** permissions to C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Test\Filedrop\Out.  
   

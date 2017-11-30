@@ -40,7 +40,7 @@ In the partner agreement, you must specify the sender and receiver parties. Thes
 5.  Under the **Additional Agreement Resolvers** section, for the **AS2To** property, enter an additional alias for the partner that receives the message.  
   
     > [!NOTE]
-    >  This property is optional. This property is available for backward compatibility. When a party definition is migrated from BizTalk Server 2006 R2 or BizTalk Server 2009 to [!INCLUDE[prague](../includes/prague-md.md)], the name of the party in the previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is included as a value for this property. This ensures that the agreement resolution happens and the existing applications and partner definitions can be used with [!INCLUDE[prague](../includes/prague-md.md)].  
+    >  This property is optional. This property is available for backward compatibility. When a party definition is migrated from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server, the name of the party in the previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is included as a value for this property. This ensures that the agreement resolution happens and the existing applications and partner definitions can be used with BizTalk Server.  
   
 6.  Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate the changes and then close the dialog box.  
   

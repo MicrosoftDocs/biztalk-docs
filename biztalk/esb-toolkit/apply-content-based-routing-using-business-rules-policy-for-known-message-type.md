@@ -62,7 +62,7 @@ manager: "anneta"
 #### To create a BRE policy to route using custom message properties  
  This rule will use the customer's name to dynamically set the endpoint used to route the message.  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **[!INCLUDE[prague](../includes/prague-md.md)]**, and then click **Business Rule Composer**.  
+1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **Business Rule Composer**.  
   
 2.  In Policy Explorer, right-click **Policies**, and then click **Add New Policy**. Name the policy **RouteBasedOnCustomerKnownType**.  
   

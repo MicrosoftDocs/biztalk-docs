@@ -30,4 +30,4 @@ The following table lists the assemblies and other artifacts installed for the S
 |BizTalk application GlobalBank.ESB|Policies||  
 |BizTalk application GlobalBank.ESB|Maps|ESB.SqlAdapter.BTSArtifacts.ProductToInsertProductMap 1.0.0.0|  
 |Global assembly cache|Assemblies|ESB.SqlAdapter.BTSArtifacts Version 1.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components||
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components||

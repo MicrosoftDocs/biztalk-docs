@@ -177,7 +177,7 @@ manager: "anneta"
   
 #### To create a Business Rules Engine (BRE) policy to select an itinerary using custom message properties  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **[!INCLUDE[prague](../includes/prague-md.md)]**, and then click **Business Rule Composer**.  
+1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **Business Rule Composer**.  
   
 2.  In Policy Explorer, right-click **Policies**, and then click **Add New Policy**. Name the policy **ResolveItineraryBasedOnCustomer**.  
   
@@ -399,9 +399,9 @@ manager: "anneta"
   
 #### To create and configure an ESB on-ramp  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **[!INCLUDE[prague](../includes/prague-md.md)]**, and then click **BizTalk Server Administration**.  
+1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **BizTalk Server Administration**.  
   
-2.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, expand **BizTalk Group**, expand **Applications**, and then expand **Microsoft.Practices.ESB**.  
+2.  In the BizTalk Server Administration Console, expand **BizTalk Group**, expand **Applications**, and then expand **Microsoft.Practices.ESB**.  
   
 3.  Right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.  
   
@@ -430,7 +430,7 @@ manager: "anneta"
   
 3.  Click **OK** to close the **Receive Location Properties** dialog box.  
   
-4.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, right-click the **OnRamp.Itinerary.HowTo** receive location, and then click **Enable**.  
+4.  In the BizTalk Server Administration Console, right-click the **OnRamp.Itinerary.HowTo** receive location, and then click **Enable**.  
   
 #### To test the Itinerary Selector and business rules  
   
@@ -443,7 +443,7 @@ manager: "anneta"
     > [!NOTE]
     >  Although the messages are identical except for the value of the customer element, they were processed using different itineraries, based on the resolution of the Itinerary Selector pipeline component.  
   
-4.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, right-click the OnRamp.Itinerary.HowTo receive location, and then click Disable.  
+4.  In the BizTalk Server Administration Console, right-click the OnRamp.Itinerary.HowTo receive location, and then click Disable.  
   
 5.  After the **OnRamp.Itinerary.HowTo** receive location is disabled, right-click it, and then click **Delete**. In the **Confirm delete receive location** dialog box, click **Yes**.  
   

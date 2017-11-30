@@ -116,9 +116,9 @@ manager: "anneta"
   
 #### To create and configure an ESB on-ramp  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **[!INCLUDE[prague](../includes/prague-md.md)]**, and then click **BizTalk Server Administration**.  
+1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **BizTalk Server Administration**.  
   
-2.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, expand **BizTalk Group**, expand **Applications**, and then click **Microsoft.Practices.ESB**.  
+2.  In the BizTalk Server Administration Console, expand **BizTalk Group**, expand **Applications**, and then click **Microsoft.Practices.ESB**.  
   
 3.  Right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.  
   
@@ -144,7 +144,7 @@ manager: "anneta"
   
 3.  Click **OK** to close the **Receive Location Properties** dialog box.  
   
-4.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, right-click the **OnRamp.Itinerary.FlatFile.FILE** receive location, and then click **Enable**.  
+4.  In the BizTalk Server Administration Console, right-click the **OnRamp.Itinerary.FlatFile.FILE** receive location, and then click **Enable**.  
   
 #### To test itinerary-based routing of a flat file message  
   
@@ -154,7 +154,7 @@ manager: "anneta"
   
 3.  Browse to C:\HowTos\Out. Verify that the DFT%MessageID%.xml message has been written to the directory.  
   
-4.  In the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, right-click the **OnRamp.Itinerary.FlatFile.FILE** receive location, and then click **Disable**.  
+4.  In the BizTalk Server Administration Console, right-click the **OnRamp.Itinerary.FlatFile.FILE** receive location, and then click **Disable**.  
   
 5.  After the **OnRamp.Itinerary.FlatFile.FILE** receive location is disabled, right-click it, and then click **Delete**. In the **Confirm delete receive location** dialog box, click **Yes**.  
   

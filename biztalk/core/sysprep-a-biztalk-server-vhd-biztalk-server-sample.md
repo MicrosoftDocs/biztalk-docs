@@ -52,7 +52,7 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
   
 #### To create the answer files  
   
-1.  Install and configure [!INCLUDE[prague](../includes/prague-md.md)] on a virtual machine. Be sure to use default installation and configuration options, since Sysprep does not support customized installation.  
+1.  Install and configure BizTalk Server on a virtual machine. Be sure to use default installation and configuration options, since Sysprep does not support customized installation.  
   
 2.  Copy the contents of the included “scripts” folder to C:\Scripts on the virtual machine.  
   

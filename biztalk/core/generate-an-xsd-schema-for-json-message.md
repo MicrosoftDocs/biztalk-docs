@@ -16,7 +16,7 @@ manager: "anneta"
 ---
 # Generate an XSD schema for JSON message
 > [!NOTE]
->  This tutorial applies to [!INCLUDE[prague](../includes/prague-md.md)] only.  
+>  This tutorial applies to BizTalk Server only.  
   
  In this solution, a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application receives a JSON message. Before the application can process the message, it must be converted to an XSD schema. To do so, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides a JSON Schema Wizard that creates an XSD schema from a JSON message.  
   

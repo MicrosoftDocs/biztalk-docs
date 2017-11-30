@@ -15,10 +15,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # HIPAA Document Schema Version 5010
-The U.S. Department of Health and Human Services (HHS) announced a final rule on January 16, 2009, that replaces the current HIPAA version 4010A1 with version 5010. Version 5010 of the HIPAA standards includes improvements in structural, front matter, technical, and data content. These improvements will reduce and eliminate ambiguities in data while also addressing a few previously unmet business needs. [!INCLUDE[prague](../includes/prague-md.md)] provides support for HIPAA version 5010.  
+The U.S. Department of Health and Human Services (HHS) announced a final rule on January 16, 2009, that replaces the current HIPAA version 4010A1 with version 5010. Version 5010 of the HIPAA standards includes improvements in structural, front matter, technical, and data content. These improvements will reduce and eliminate ambiguities in data while also addressing a few previously unmet business needs. BizTalk Server provides support for HIPAA version 5010.  
   
 > [!NOTE]
->  [!INCLUDE[prague](../includes/prague-md.md)] continues to support HIPAA version 4010A1.  
+>  BizTalk Server continues to support HIPAA version 4010A1.  
   
 ## HIPAA 5010 Version Support  
  The following changes have been introduced as part of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]’s support for HIPAA 5010:  
@@ -45,9 +45,9 @@ The U.S. Department of Health and Human Services (HHS) announced a final rule on
   
 -   **Support for ICD-10**: Electronic transaction code sets are used for the transmission of healthcare data. Version 5010 accommodates the use of the International Classification of Diseases (ICD-10) code sets, which are not supported by earlier version 4010A1. ICD-10 is used for identifying various diagnoses and procedures in claim billing, related transactions and clinical reporting. The benefits of using ICD-10 include more accurate data on patient services, diagnosis, treatment information and more comprehensive reporting of quality data.  
   
--   **New fields in 5010 997**: The 997 functional acknowledgement schema provided out-of-the-box by [!INCLUDE[prague](../includes/prague-md.md)] introduces three new optional fields namely AK103, AK203 and AK41.3. The EDI engine is capable of processing an incoming 5010 997 message which contains these fields but will not generate an outgoing 997 acknowledgement based on the new schema.  
+-   **New fields in 5010 997**: The 997 functional acknowledgement schema provided out-of-the-box by BizTalk Server introduces three new optional fields namely AK103, AK203 and AK41.3. The EDI engine is capable of processing an incoming 5010 997 message which contains these fields but will not generate an outgoing 997 acknowledgement based on the new schema.  
   
- There was a known issue with the HIPAA 4010A1 schemas in which elements of the X12_R data type were not checked against their minimum and maximum lengths. In [!INCLUDE[prague](../includes/prague-md.md)] this issue has been fixed and the HIPAA 5010 schemas validate elements of the X12_R data type for the minimum and maximum lengths.  
+ There was a known issue with the HIPAA 4010A1 schemas in which elements of the X12_R data type were not checked against their minimum and maximum lengths. In BizTalk Server this issue has been fixed and the HIPAA 5010 schemas validate elements of the X12_R data type for the minimum and maximum lengths.  
   
 ## See Also  
  [HIPAA Support in BizTalk Server](../core/hipaa-support-in-biztalk-server.md)   

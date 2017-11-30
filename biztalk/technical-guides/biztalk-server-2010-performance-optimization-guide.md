@@ -23,7 +23,7 @@ Welcome to the Microsoft® BizTalk® Server 2010 Performance Optimization Guide.
 ## What's in it?  
  Generally, the performance of a server is determined by the component that has the lowest performance—the bottleneck in the system. The key to improving performance is being able to identify bottlenecks, determine their cause, and apply the appropriate corrective action.  
   
- As you plan your [!INCLUDE[prague](../includes/prague-md.md)] deployment, use this guide to help design and optimize your environment. The concept of performance is closely related to the concept of scalability. When you have a solid understanding of the factors influencing the performance of system components, you can deploy components in a way that scales to support periods of high demand.  
+ As you plan your BizTalk Server deployment, use this guide to help design and optimize your environment. The concept of performance is closely related to the concept of scalability. When you have a solid understanding of the factors influencing the performance of system components, you can deploy components in a way that scales to support periods of high demand.  
   
  This guide provides guidance for optimizing performance, based upon hands-on experience of IT professionals who have worked extensively with BizTalk Server. Specifically, this guide includes four main sections:  
   
@@ -45,7 +45,7 @@ Welcome to the Microsoft® BizTalk® Server 2010 Performance Optimization Guide.
  [Using Visual Studio to Facilitate Automated Testing](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md) – Describes the use of Visual Studio Load testing to evaluate the performance of a BizTalk Server application.  
   
 ## Acknowledgments  
- We in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] User Education team gratefully acknowledge the outstanding contributions of the following individuals for providing both technical feedback as well as a good deal of content for the [!INCLUDE[prague](../includes/prague-md.md)] Performance Optimization Guide:  
+ We in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] User Education team gratefully acknowledge the outstanding contributions of the following individuals for providing both technical feedback as well as a good deal of content for the BizTalk Server Performance Optimization Guide:  
   
  **Authors**  
   

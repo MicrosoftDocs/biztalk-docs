@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDI Support in BizTalk Server
-This topic provides a brief general overview of EDI and how [!INCLUDE[prague](../includes/prague-md.md)] supports EDI.  
+This topic provides a brief general overview of EDI and how BizTalk Server supports EDI.  
   
 ## Introduction to EDI  
  Electronic Data Interchange (EDI) is the single most commonly used means by which business trading partners exchange data electronically. EDI is largely messaging-oriented. Documents are implemented as flat files that can include batched transaction sets. Batched interchanges can contain multiple groups, each of which can contain multiple transaction sets or messages.  
@@ -38,7 +38,7 @@ This topic provides a brief general overview of EDI and how [!INCLUDE[prague](..
 >  EDI messages are distinguished from their transport. The EDI standards do not prescribe message transport, and EDI messages can be sent by a variety of different means.  
   
 ## How EDI Is Implemented in BizTalk Server  
- [!INCLUDE[prague](../includes/prague-md.md)] includes native functionality that provides support for EDI. EDI is built into the product; it is not an add-in, such as an adapter or an accelerator .  
+ BizTalk Server includes native functionality that provides support for EDI. EDI is built into the product; it is not an add-in, such as an adapter or an accelerator .  
   
  **Interchange Processing**  
   
@@ -69,7 +69,7 @@ This topic provides a brief general overview of EDI and how [!INCLUDE[prague](..
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides EDI-specific status reporting. These status reports provide a comprehensive status of an EDI document exchange transaction, including acknowledgments correlated to the interchange.  
   
 ## EDI Components in BizTalk Server  
- Microsoft [!INCLUDE[prague](../includes/prague-md.md)] components used for EDI processing include the following:  
+ Microsoft BizTalk Server components used for EDI processing include the following:  
   
 -   The BizTalk EDI Application contains artifacts (including pipelines, orchestrations, and schemas) that are needed to process EDI documents.  
   
@@ -90,7 +90,7 @@ This topic provides a brief general overview of EDI and how [!INCLUDE[prague](..
   
 -   A schema repository includes X12, EDIFACT, HIPAA X12N 4010A XSD, EANCOM, and control schemas. For more information, see [EDI Document Schema Support](../core/edi-document-schema-support.md).  
   
--   A migration tool (Party Migration Tool) enables you to migrate EDI party data from BizTalk Server 2006 R2 or BizTalk Server 2009 to [!INCLUDE[prague](../includes/prague-md.md)]. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+-   A migration tool (Party Migration Tool) enables you to migrate EDI party data from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
   
 ## See Also  
  [EDI Processing in BizTalk Server](../core/edi-processing-in-biztalk-server.md)   
