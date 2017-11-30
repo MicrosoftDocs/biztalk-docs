@@ -28,7 +28,7 @@ manager: "anneta"
 This topic describes items that you should consider when planning your Business Activity Monitoring (BAM) portal deployment.  
   
 ## Prerequisites  
- **System requirements**. In addition to the system requirements for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], you must install the following software in order to install the BAM portal:  
+ **System requirements**. In addition to the system requirements for BizTalk Server, you must install the following software in order to install the BAM portal:  
   
 -   Internet Information Services (IIS)  
   

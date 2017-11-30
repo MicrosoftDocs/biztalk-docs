@@ -62,7 +62,7 @@ manager: "anneta"
 #### To create a BRE policy to route using custom message properties  
  This rule will use the customer's name to dynamically set the endpoint used to route the message.  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **[!INCLUDE[prague](../includes/prague-md.md)]**, and then click **Business Rule Composer**.  
+1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **Business Rule Composer**.  
   
 2.  In Policy Explorer, right-click **Policies**, and then click **Add New Policy**. Name the policy **RouteBasedOnCustomerKnownType**.  
   
@@ -163,7 +163,7 @@ manager: "anneta"
   
 #### To create an ESB itinerary DSL model  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open C:\HowTos\Patterns\Patterns.sln.  
+1.  In Visual Studio, open C:\HowTos\Patterns\Patterns.sln.  
   
 2.  In Solution Explorer, right-click the **ItineraryLibrary** project, point to **Add**, and then click **New Itinerary**.  
   

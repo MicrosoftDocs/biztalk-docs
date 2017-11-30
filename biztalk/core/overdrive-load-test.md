@@ -8,9 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "overdrive load test"
-  - "LoadGen tool, overdrive load test"
 ms.assetid: 0d16d0a8-4255-4f5a-86a2-26cc11bb9a70
 caps.latest.revision: 6
 author: "MandiOhlinger"
@@ -23,7 +20,7 @@ The information in this topic refers to the tests explained in [Test Scenarios f
  The Load Generation tool, LoadGen 2007, enables you to simulate heavy loads on a BizTalk Server system.  
   
 > [!NOTE]
->  The LoadGen 2007 tool is available for download at [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841). The previous version of this tool, the BizTalk Server 2004 Load Generation Tool is available for download at [http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999).  
+>  Download [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925). The previous version of this tool, the BizTalk Server 2004 Load Generation Tool is available for download at [http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999).  
   
  To simulate a continuously overdriven system, LoadGen 2007 was configured to send about 410 msgs/sec, 120 msgs/sec more than the measured maximum sustainable throughput.  
   

@@ -18,7 +18,7 @@ The Designer Extensibility sample uses two sample extenders to demonstrate how y
   
  **To run the Designer Extensibility sample**  
   
-1.  Start [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+1.  Start Visual Studio.  
   
 2.  In Visual Studio, point to **New** on the **File** menu, and then click **Project**.  
   

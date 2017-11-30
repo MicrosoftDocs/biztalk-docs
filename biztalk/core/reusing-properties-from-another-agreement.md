@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Reusing Properties from Another Agreement
-You can reuse properties between agreements. This can save a significant amount of time when either most or all of the properties of a new agreement are the same as those of an existing agreement. The [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] user interface in [!INCLUDE[prague](../includes/prague-md.md)] enables you to export an agreement into an XML template file. You can then import the XML template to reuse the same agreement properties.  
+You can reuse properties between agreements. This can save a significant amount of time when either most or all of the properties of a new agreement are the same as those of an existing agreement. The [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] user interface in BizTalk Server enables you to export an agreement into an XML template file. You can then import the XML template to reuse the same agreement properties.  
   
  Exporting the agreement to an XML template captures most, but not all, properties from the agreement. The following properties will *not* be exported to the XML template file:  
   

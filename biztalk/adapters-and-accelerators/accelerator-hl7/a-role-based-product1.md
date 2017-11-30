@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # A Role-based Product
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provide features and tools in the environment appropriate for the role of the user, as described in the following:  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provide features and tools in the environment appropriate for the role of the user, as described in the following:  
   
 -   Tools for the developer are integrated into [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]. Developers can manage their solutions and projects in Solution Explorer, and have immediate access to the BizTalk design time tools.  
   

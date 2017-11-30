@@ -17,7 +17,7 @@ manager: "anneta"
 # Handle transactions with the Oracle E-Business Suite adapter
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] does not initiate a transaction while performing an operation in Oracle E-Business Suite. Instead, the adapter performs the operations using the transaction context provided by the adapter clients. In order to perform operations in a transaction using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must:  
   
--   Enable transactions in the adapter clients. For example, to enable transactions in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], you must select the **Use Transaction** check box in the **Transactions** area of the **Messages** tab for a WCF-Custom or WCF-OracleEBS port.  
+-   Enable transactions in the adapter clients. For example, to enable transactions in BizTalk Server, you must select the **Use Transaction** check box in the **Transactions** area of the **Messages** tab for a WCF-Custom or WCF-OracleEBS port.  
   
 -   Set the value of the **UseAmbientTransaction** binding property to **True** in the adapter. For more information about the binding property, see [Read about the BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
   

@@ -22,17 +22,17 @@ manager: "anneta"
 This component lets you edit automatically any part of a multipart message within a send or receive pipeline. You add this component to an existing pipeline to set up the replacement as part of typical processing.  
   
 ## Building the Message Editor Pipeline Component into an Existing Pipeline  
- To use the Message Editor Pipeline Component, you have to add the component to an existing pipeline. For more information, see "Creating Pipelines with Pipeline Designer" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ To use the Message Editor Pipeline Component, you have to add the component to an existing pipeline. For more information, see "Creating Pipelines with Pipeline Designer" in BizTalk Server Help.  
   
 #### To add the Message Editor Pipeline Component to an existing pipeline  
   
-1.  Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)].  
+1.  Start Visual Studio.  
   
 2.  On the **File** menu, point to **Open**, and then click **Project**.  
   
 3.  Move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, select **MessageEditor.csproj**, and then click **Open**.  
   
-4.  Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)] command prompt.  
+4.  Start Visual Studio command prompt.  
   
 5.  At the command prompt, move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
   

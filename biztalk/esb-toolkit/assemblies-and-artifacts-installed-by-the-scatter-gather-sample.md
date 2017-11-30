@@ -34,4 +34,4 @@ The following table lists the assemblies and other artifacts installed for the E
 |BizTalk application GlobalBank.ESB|Maps||  
 |Global assembly cache|Assemblies|GlobalBank.ESB.ScatterGather.Processes Version 2.0.0.0|  
 |||GlobalBank.ESB.ScatterGather.Schemas Version 2.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components||
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components||

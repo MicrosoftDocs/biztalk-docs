@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Best Practices for Monitoring
-This topic provides best practices for monitoring your Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment and applications.  
+This topic provides best practices for monitoring your Microsoft BizTalk Server environment and applications.  
   
  **Create and then implement a monitoring plan for your BizTalk applications and infrastructure**  
   
@@ -30,11 +30,11 @@ This topic provides best practices for monitoring your Microsoft [!INCLUDE[btsBi
   
     -   Are all custom services, custom event logs, and custom databases monitored?  
   
-    -   Are the SQL Server computers and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SQL agent jobs monitored?  
+    -   Are the SQL Server computers and the BizTalk Server SQL agent jobs monitored?  
   
  **If possible, install a monitoring application such as [!INCLUDE[opsmgr_short](../includes/opsmgr-short-md.md)] in order to automate the monitoring of your BizTalk Server applications and infrastructure**  
   
--   Using Microsoft System Center Operations Manager is the preferred approach for automated monitoring because the BizTalk Server management packs provide hundreds of built-in rules for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+-   Using Microsoft System Center Operations Manager is the preferred approach for automated monitoring because the BizTalk Server management packs provide hundreds of built-in rules for BizTalk Server.  
   
      For more information, see the following resources:  
   
@@ -46,13 +46,13 @@ This topic provides best practices for monitoring your Microsoft [!INCLUDE[btsBi
   
  **Run the BizTalk Server Best Practices Analyzer**  
   
--   The BizTalk Server Best Practices Analyzer examines a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment and generates a list of issues pertaining to best practices standards. The tool performs configuration-level verification by gathering data from different information sources, such as Windows Management Instrumentation (WMI) classes, SQL Server databases, and registry entries. The data is then used to evaluate the deployment configuration. The tool reads and reports only and does not modify any system settings, and is not a self-tuning tool.  
+-   The BizTalk Server Best Practices Analyzer examines a BizTalk Server deployment and generates a list of issues pertaining to best practices standards. The tool performs configuration-level verification by gathering data from different information sources, such as Windows Management Instrumentation (WMI) classes, SQL Server databases, and registry entries. The data is then used to evaluate the deployment configuration. The tool reads and reports only and does not modify any system settings, and is not a self-tuning tool.  
   
      You can download the BizTalk Server Best Practices Analyzer at [http://go.microsoft.com/fwlink/?LinkId=83317](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317).  
   
  **Run the Performance Analysis of Logs tool (PAL)**  
   
--   PAL is available as a free download at [http://go.microsoft.com/fwlink/LinkID=98098](http://go.microsoft.com/fwlink/?LinkID=98098). For important installation information, see [Using the Performance Analysis of Logs (PAL) Tool](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).  
+-   PAL is available as a free download at [https://github.com/clinthuffman/PAL](https://github.com/clinthuffman/PAL). For important installation information, see [Using the Performance Analysis of Logs (PAL) Tool](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).  
   
  **Run Log Parser**  
   
@@ -69,6 +69,6 @@ This topic provides best practices for monitoring your Microsoft [!INCLUDE[btsBi
   
  **Make monitoring a priority**  
   
--   Consistent monitoring of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications and infrastructure is essential to maintaining a healthy environment.  
+-   Consistent monitoring of BizTalk Server applications and infrastructure is essential to maintaining a healthy environment.  
   
--   Regularly evaluate and adjust your monitoring tools over time and as your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications and infrastructure change.
+-   Regularly evaluate and adjust your monitoring tools over time and as your BizTalk Server applications and infrastructure change.

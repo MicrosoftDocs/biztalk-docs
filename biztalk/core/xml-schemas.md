@@ -15,9 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # XML Schemas
-An XML schema describes a business document that is represented in XML. Because Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] uses XML as its canonical representation for business documents, inbound and outbound documents do not require any translation. XML schemas can be created in BizTalk Editor using only the basic set of properties that are available within all schemas, and do not require any schema editor extensions to be enabled.  
+An XML schema describes a business document that is represented in XML. Because Microsoft BizTalk Server uses XML as its canonical representation for business documents, inbound and outbound documents do not require any translation. XML schemas can be created in BizTalk Editor using only the basic set of properties that are available within all schemas, and do not require any schema editor extensions to be enabled.  
   
- There are several ways in which you can create XML schemas in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. These include:  
+ There are several ways in which you can create XML schemas in BizTalk Server. These include:  
   
 -   **Creating a new schema**. This method of schema creation involves adding a new schema to a BizTalk project. In **Solution Explorer**, right-click the BizTalk project, click **Add**, click **New Item**, and then click **Schema**. Build up the structure of the schema by adding various nodes in the schema tree view.  
   
@@ -28,7 +28,7 @@ An XML schema describes a business document that is represented in XML. Because 
     > [!NOTE]
     >  This type of generation operation can only be used to generate XML schemas, not property schemas or flat file schemas.  
   
--   **Migrating a schema from an older schema specification language to XSD**. You can generate an XML schema for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] from a schema that was developed by using a previous version of BizTalk Server, which stored schemas in XML-Data Reduced (XDR) format. For more information about how to migrate older XDR schemas to the XSD format used by [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], see [Schema Migration from Previous Versions of BizTalk Server](../core/schema-migration-from-previous-versions-of-biztalk-server.md).  
+-   **Migrating a schema from an older schema specification language to XSD**. You can generate an XML schema for BizTalk Server from a schema that was developed by using a previous version of BizTalk Server, which stored schemas in XML-Data Reduced (XDR) format. For more information about how to migrate older XDR schemas to the XSD format used by BizTalk Server, see [Schema Migration from Previous Versions of BizTalk Server](../core/schema-migration-from-previous-versions-of-biztalk-server.md).  
   
      You can also generate an XML schema based on XSD from a document schema expressed by using the Document Type Definition (DTD) syntax.  
   

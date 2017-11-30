@@ -20,7 +20,7 @@ The Exception Handling Service sample demonstrates how to consume the Exception 
   
 1.  In Windows Explorer, open the folder \Source\Samples\ExceptionHandlingService, where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples, and then open the Visual Studio solution file named ExceptionHandlingService.sln.  
   
-2.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], click **Start Debugging** on the Toolbar.  
+2.  In Visual Studio, click **Start Debugging** on the Toolbar.  
   
 3.  On the form that loads, click the **Generate Exception** button.  
   

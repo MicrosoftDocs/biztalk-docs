@@ -23,7 +23,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Solution Build Configurations
-As with other projects that you build in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], you can use Configuration Manager to specify solution build configurations. Solution build configurations enable you to determine which projects to include in builds of a solution and if they will be deployed. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] supports both **Debug** and **Release** build configurations.  
+As with other projects that you build in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], you can use Configuration Manager to specify solution build configurations. Solution build configurations enable you to determine which projects to include in builds of a solution and if they will be deployed. BizTalk Server supports both **Debug** and **Release** build configurations.  
   
  A solution build configuration with a check mark in the **Build** column enables you to build a solution and to generate an assembly when you are finished. If a check mark is also present in the **Deploy** column, then the application will be deployed based on deployment settings in the Project Designer.  
   

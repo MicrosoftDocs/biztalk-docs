@@ -27,4 +27,4 @@ After you have installed the base platform and configured the servers with the p
   
  On the messaging servers, assuming there are two servers, configure load balancing on the **Private** network adapters.  
   
- For more information, see the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Deployment Guide.
+ For more information, see the BizTalk Server Deployment Guide.

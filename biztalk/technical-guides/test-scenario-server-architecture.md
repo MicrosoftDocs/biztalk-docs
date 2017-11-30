@@ -60,9 +60,9 @@ Message Flow Overview
 5.  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the response and persists the response message to the MessageBox database. Then the response message from the Calculator web service is retrieved from the MessageBox database by the BizTalk request-response port, and a response message is delivered back to the Load Test Agent computers.  
   
 ## Baseline Server Architecture  
- For the Baseline Server architecture, the Hyper-V role was not installed and Both [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] were installed on to the host operating system. This was done to establish “baseline” performance metrics of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution on a physical hardware environment.  
+ For the Baseline Server architecture, the Hyper-V role was not installed and Both [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and SQL Server were installed on to the host operating system. This was done to establish “baseline” performance metrics of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution on a physical hardware environment.  
   
- The following figure depicts the physical [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] tiers for the Baseline Server Architecture.  
+ The following figure depicts the physical [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and SQL Server tiers for the Baseline Server Architecture.  
   
  ![Physical BizTalk &#47; Physical SQL](../technical-guides/media/archphysicalbts-physicalsql.gif "ArchPhysicalBTS_PhysicalSQL")  
 Physical BizTalk Server / Physical SQL Server (Baseline)  
@@ -75,7 +75,7 @@ Physical BizTalk Server / Physical SQL Server (Baseline)
   
     -   Total of 6 + 3 = **9** GB RAM available and 8 + 4 = **12** processor cores available for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   **SQL Server** - 1 [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] computer configured as follows:  
+-   **SQL Server** - 1 SQL Server computer configured as follows:  
   
     -   **8** GB RAM available.  
   
@@ -87,7 +87,7 @@ Physical BizTalk Server / Physical SQL Server (Baseline)
  ![Virtual BizTalk &#47; Physical SQL](../technical-guides/media/archvirtualbts-physicalsql.gif "ArchVirtualBTS_PhysicalSQL")  
 Virtual BizTalk Server / Physical SQL Server  
   
- For this scenario, the load test was performed against [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] running on Hyper-V virtual machines and [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] running on physical hardware.  
+ For this scenario, the load test was performed against [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] running on Hyper-V virtual machines and SQL Server running on physical hardware.  
   
 > [!NOTE]  
 >  The allocation of RAM and processor cores described below was identical for each non-baseline scenarios, the only difference being whether certain computers are running on a Hyper-V virtual machine or on physical hardware.  
@@ -98,14 +98,14 @@ Virtual BizTalk Server / Physical SQL Server
   
     -   4 processor cores allocated to each [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer with a total of 3 x 4 = **12** processor cores available for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   **SQL Server** - 1 [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] computer configured as follows:  
+-   **SQL Server** - 1 SQL Server computer configured as follows:  
   
     -   **8** GB RAM available.  
   
     -   **4** processor cores available.  
   
 ## Virtual BizTalk Server / Virtual SQL Server  
- The following figure depicts a virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer and a virtual [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] computer on separate Hyper-V host computers.  
+ The following figure depicts a virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer and a virtual SQL Server computer on separate Hyper-V host computers.  
   
  ![Virtual BizTalk &#47; Virtual SQL](../technical-guides/media/archvirtualbts-virtualsql.gif "ArchVirtualBTS_VirtualSQL")  
 Virtual BizTalk Server / Virtual SQL Server  
@@ -116,7 +116,7 @@ Virtual BizTalk Server / Virtual SQL Server
 >  The allocation of RAM and processor cores for this scenario is identical to the allocation of RAM and processor cores for the **Virtual BizTalk Server / Physical SQL Server** scenario, the only difference being that [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] was configured to run on a Hyper-V virtual machine rather than physical hardware.  
   
 ## Consolidated Environment  
- The following figure depicts virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers and a virtual [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] computer consolidated on one Hyper-V host computer.  
+ The following figure depicts virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers and a virtual SQL Server computer consolidated on one Hyper-V host computer.  
   
  ![Virtual BizTalk &#47; Virtual SQL &#47; Consolidated](../technical-guides/media/archvirtualbts-virtualsql-consolidated.gif "ArchVirtualBTS_VirtualSQL_Consolidated")  
 Consolidated Environment  

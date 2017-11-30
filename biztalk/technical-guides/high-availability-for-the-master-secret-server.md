@@ -14,14 +14,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # High Availability for the Master Secret Server
-Even if you do not use the Enterprise Single Sign-On (SSO) functionality for mapping credentials and single sign-on, SSO is a critical part of the overall Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] infrastructure, because [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses SSO to help secure information for port configuration. The port configuration data is encrypted and stored in the SSO database. Each BizTalk server has an SSO service (ENTSSO.exe) that is used for encrypting and decrypting the port configuration data.  
+Even if you do not use the Enterprise Single Sign-On (SSO) functionality for mapping credentials and single sign-on, SSO is a critical part of the overall Microsoft BizTalk Server infrastructure, because [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses SSO to help secure information for port configuration. The port configuration data is encrypted and stored in the SSO database. Each BizTalk server has an SSO service (ENTSSO.exe) that is used for encrypting and decrypting the port configuration data.  
   
  When an SSO service starts up, it retrieves the encryption key from the master secret server. This encryption key is called the master secret. The master secret server is another SSO service that has an additional subservice that maintains and distributes the master secret. After a master secret is retrieved, the SSO service caches it. Every 60 seconds, the SSO service synchronizes the master secret with the master secret server.  
   
  If the master secret server fails, and the SSO service detects the failure in one of its refresh intervals, the SSO service and all run-time operations that were running before the server failed, including decryption of credentials, continue successfully. However, you cannot encrypt new credentials or port configuration data. Therefore, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment has a dependency on the availability of the master secret server.  
   
 ## Making the Master Secret Server Available  
- For availability of the SSO system, and therefore of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, it is critical that you back up the master secret as soon as it is generated. If you lose it, you lose the data that the SSO system encrypted by using that master secret. For more information about backing up the master secret, see [How to Back Up the Master Secret](http://go.microsoft.com/fwlink/?LinkID=151934) (http://go.microsoft.com/fwlink/?LinkID=151934) in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For availability of the SSO system, and therefore of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, it is critical that you back up the master secret as soon as it is generated. If you lose it, you lose the data that the SSO system encrypted by using that master secret. For more information about backing up the master secret, see [How to Back Up the Master Secret](http://go.microsoft.com/fwlink/?LinkID=151934) (http://go.microsoft.com/fwlink/?LinkID=151934) in BizTalk Server Help.  
   
  You can make the master secret server available in two ways:  
   
@@ -33,7 +33,7 @@ Even if you do not use the Enterprise Single Sign-On (SSO) functionality for map
   
      ![Highly Available Master Secret Server](../core/media/tdi-highava-msscluster.gif "TDI_HighAva_MSSCluster")  
   
-     While this configuration is highly available, it requires additional hardware resources. For more information about high-availability installation options for SSO, see [High-Availability SSO Installation Options](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help.  
+     While this configuration is highly available, it requires additional hardware resources. For more information about high-availability installation options for SSO, see [High-Availability SSO Installation Options](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) in BizTalk Server Help.  
   
      This section includes detailed information about configuring the SSO master secret server as a highly available cluster resource on a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster.  
   

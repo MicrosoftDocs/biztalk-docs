@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Admin-OperationsOM (BizTalk Server Samples Folder)
-Microsoft [!INCLUDE[prague](../includes/prague-md.md)] includes samples in the Admin\OperationsOM folder in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each BizTalk Operations object model administration sample, instructions for building and running the sample, and the results you can expect.  
+Microsoft BizTalk Server includes samples in the Admin\OperationsOM folder in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each BizTalk Operations object model administration sample, instructions for building and running the sample, and the results you can expect.  
   
 > [!WARNING]
 >  Deployment scripts should be removed after deployment if not needed. Administration scripts and other scripts that must remain should be secured by ACL’s and closely monitored.  

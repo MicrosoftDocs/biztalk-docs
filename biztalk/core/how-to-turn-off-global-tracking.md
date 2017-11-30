@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Turn Off Global Tracking
-By default, global tracking is enabled when you install [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. The BizTalk Tracking (BizTalkDTADb) database grows in size as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes data on your system. If the size of the BizTalk Tracking database causes poor disk performance, you can purge the data from the Tracking database. If you are having performance issues that are momentarily addressed by purging the BizTalk tracking database, and you want to configure BizTalk to no longer collect tracking information, you may want to consider turning off global tracking.  
+By default, global tracking is enabled when you install BizTalk Server. The BizTalk Tracking (BizTalkDTADb) database grows in size as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes data on your system. If the size of the BizTalk Tracking database causes poor disk performance, you can purge the data from the Tracking database. If you are having performance issues that are momentarily addressed by purging the BizTalk tracking database, and you want to configure BizTalk to no longer collect tracking information, you may want to consider turning off global tracking.  
   
  It is important to understand that turning off global tracking disables the tracking interceptors for the entire [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group. This means that BizTalk will not track events in its tracking tables. Alternatively, you can turn off tracking for individual events.  
   

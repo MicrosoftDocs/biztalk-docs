@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BAM Command-Line Tools
-This section provides reference information for the BAM command-line tools included with Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+This section provides reference information for the BAM command-line tools included with Microsoft BizTalk Server.  
   
 ## Available tools 
   

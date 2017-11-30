@@ -171,7 +171,7 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
 |--------------------|-----------------|  
 |Documents|StringCollection containing messages to be processed by the pipeline.|  
 |Parts|StringCollection containing the parts for the messages.|  
-|Schemas|Dictionary mapping used to map each message type to its corresponding \*.xsd schema file. The key must be in the format **Namespace.Type**. The namespace and type used should be noted from the properties window for the \*.xsd file in [!INCLUDE[vs2010](../includes/vs2010-md.md)]. See the screenshot below.<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **Namespace and type exposed from the properties window of an XSD file.**|  
+|Schemas|Dictionary mapping used to map each message type to its corresponding \*.xsd schema file. The key must be in the format **Namespace.Type**. The namespace and type used should be noted from the properties window for the \*.xsd file in Visual Studio. See the screenshot below.<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **Namespace and type exposed from the properties window of an XSD file.**|  
   
 ## See Also  
  [Using the Unit Testing Feature with Schemas and Maps](../core/using-the-unit-testing-feature-with-schemas-and-maps.md)   

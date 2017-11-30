@@ -22,7 +22,7 @@ Business Activity Monitoring (BAM) features use a dynamically generated SQL and 
   
  The BAM dynamic infrastructure consists of the BAM workbook views, BAM deployments, the BAM Data Transformation Services (DTS) packages, and the BAM databases. For more information about the BAM dynamic infrastructure, see [BAM Dynamic Infrastructure](../core/bam-dynamic-infrastructure.md).  
   
- BizTalk Server creates the following BAM databases when you configure [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+ BizTalk Server creates the following BAM databases when you configure BizTalk Server:  
   
 -   BAM Primary Import (BAMPrimaryImport) database  
   

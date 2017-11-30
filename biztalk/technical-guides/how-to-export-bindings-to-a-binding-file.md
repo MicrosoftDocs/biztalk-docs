@@ -46,7 +46,7 @@ You can export the bindings of a BizTalk application into another existing BizTa
 -   You can edit binding files after you generate them to change their binding information.  
   
 ## How to Export to a Binding File  
- You export the bindings of an application to a binding file by executing the Export Bindings command for the application in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration console, or by using the BTSTask ExportBindings command on the command line.  
+ You export the bindings of an application to a binding file by executing the Export Bindings command for the application in the BizTalk Server Administration console, or by using the BTSTask ExportBindings command on the command line.  
   
  For security reasons, when you export a binding file, BizTalk Server removes the passwords for the bindings from the file. After importing the bindings, you must reconfigure passwords for send ports and receive locations before they will function. You configure passwords in the Transport Properties dialog box of the BizTalk Server Administration console for the send port or receive location.  
   

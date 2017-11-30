@@ -24,7 +24,7 @@ This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../in
 1.  Create a pipeline to receive encrypted messages, as follows:  
   
     > [!NOTE]
-    >  This step is not necessary when configuring AS2 transport for receiving encrypted messages because the AS2Receive and AS2EdiReceive pipelines that are included in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] serve this function.  
+    >  This step is not necessary when configuring AS2 transport for receiving encrypted messages because the AS2Receive and AS2EdiReceive pipelines that are included in BizTalk Server serve this function.  
   
     > [!NOTE]
     >  The MIME/SMIME Decoder pipeline component performs both decryption and digital signature validation (when configured to perform both functions). Therefore, if you are configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to receive encrypted and signed messages, you can use the same receive pipeline. In other words, you do not have to create separate pipelines for decryption and digital signature validation.  

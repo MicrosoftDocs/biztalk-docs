@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # MSBUILD Integration
-Visual Studio uses the MSBUILD project file format to store build information about managed projects including [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] projects, and you can build BizTalk projects on a computer with or without [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. This section gives you details over this new feature.  
+Visual Studio uses the MSBUILD project file format to store build information about managed projects including BizTalk Server projects, and you can build BizTalk projects on a computer with or without [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. This section gives you details over this new feature.  
   
 ## In This Section  
   

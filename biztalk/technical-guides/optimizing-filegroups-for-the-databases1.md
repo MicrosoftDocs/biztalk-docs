@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Filegroups for the Databases1 | Microsoft Docs"
+title: "Optimize Database Filegroups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -21,13 +21,13 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
 ## Overview  
  Every BizTalk Server solution will eventually encounter file I/O contention as throughput is increased. The I/O subsystem, or storage engine, is a key component of any relational database. A successful database implementation typically requires careful planning at the early stages of a project. This planning should include consideration of the following issues:  
   
--   What type of disk hardware to use, such as RAID (redundant array of independent disks) devices. For more information about using a RAID hardware solution, see “About Hardware-based solutions” in the SQL Server Books online at [http://go.microsoft.com/fwlink/?LinkID=113944](http://go.microsoft.com/fwlink/?LinkID=113944).  
+-   What type of disk hardware to use, such as RAID (redundant array of independent disks) devices. 
   
--   How to apportion data on the disks using files and filegroups. For more information about using files and filegroups in SQL Server 2008, see “Using Files and Filegroups” in the SQL Server Books online at [http://go.microsoft.com/fwlink/?LinkID=69369](http://go.microsoft.com/fwlink/?LinkID=69369) and “Understanding Files and Filegroups” in the SQL Server Books online at [http://go.microsoft.com/fwlink/?LinkID=96447](http://go.microsoft.com/fwlink/?LinkID=96447).  
+-   How to apportion data on the disks using files and filegroups. For more information about using files and filegroups in SQL Server, see [Database Files and Filegroups](https://docs.microsoft.com/sql/relational-databases/databases/database-files-and-filegroups).
   
--   Implementing the optimal index design for improving performance when accessing data. For more information about designing indexes, see “Designing Indexes” in the SQL Server books online at [http://go.microsoft.com/fwlink/?LinkID=96457](http://go.microsoft.com/fwlink/?LinkID=96457).  
+-   Implementing the optimal index design for improving performance when accessing data. For more information about designing indexes, see [Designing Indexes](https://docs.microsoft.com/sql/relational-databases/sql-server-index-design-guide).
   
--   How to set SQL Server configuration parameters for optimal performance. For more information about setting optimal configuration parameters for SQL Server, see “Optimizing Server Performance” in the SQL Server Books online at [http://go.microsoft.com/fwlink/?LinkID=71418](http://go.microsoft.com/fwlink/?LinkID=71418).  
+-   How to set SQL Server configuration parameters for optimal performance. For more information about setting optimal configuration parameters for SQL Server, see [Server Configuration Options](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server). 
   
  One of the primary design goals of BizTalk Server is to ensure that a message is **never** lost. In order to mitigate the possibility of message loss, messages are frequently written to the MessageBox database as the message is processed. When messages are processed by an Orchestration, the message is written to the MessageBox database at every persistence point in the orchestration. These persistence points cause the MessageBox to write the message and related state to physical disk. At higher throughputs, this persistence can result in considerable disk contention and can potentially become a bottleneck.  
   
@@ -37,15 +37,13 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
   
  Additionally, files and filegroups enable data placement, because tables can be created in specific filegroups. This improves performance, because all file I/O for a given table can be directed at a specific disk. For example, a heavily used table can be placed on a file in a filegroup, located on one disk, and the other less heavily accessed tables in the database can be located on different files in another filegroup, located on a second disk.  
   
- File IO bottlenecks are discussed in considerable detail in the topic “Identifying Bottlenecks in the Database Tier” in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] documentation at [http://go.microsoft.com/fwlink/?LinkId=147626](http://go.microsoft.com/fwlink/?LinkId=147626). The most common indicator that File I/O (Disk I/O) is a bottleneck is the value of the “Physical Disk:Average Disk Queue Length” counter. When the value of the “Physical Disk:Average Disk Queue Length” counter is greater than about 3 for any given disk on any of the SQL Servers, then file I/O is likely a bottleneck.  
+ File IO bottlenecks are discussed in considerable detail in [Bottlenecks in the Database Tier](../technical-guides/bottlenecks-in-the-database-tier.md). The most common indicator that File I/O (Disk I/O) is a bottleneck is the value of the “Physical Disk:Average Disk Queue Length” counter. When the value of the “Physical Disk:Average Disk Queue Length” counter is greater than about 3 for any given disk on any of the SQL Servers, then file I/O is likely a bottleneck.  
   
  If applying file or filegroup optimization doesn't resolve a file I/O bottleneck problem, then it may be necessary to increase the throughput of the disk subsystem by adding additional physical or SAN drives.  
   
  This topic describes how to manually apply file and filegroup optimizations but these optimizations can also be scripted. A sample SQL script is provided at the end of this topic. It is important to note that this script would need to be modified to accommodate the file, filegroup, and disk configuration used by the SQL Server database(s) for any given BizTalk Server solution.  
   
-> [!NOTE]  
->  This topic describes how to create multiple files and filegroups for the BizTalk MessageBox database. For an exhaustive list of recommended files and filegroups for all of the BizTalk Server databases, see **Appendix B** of the excellent "BizTalk Server Database Optimization" whitepaper available at [http://go.microsoft.com/fwlink/?LinkID=101578](http://go.microsoft.com/fwlink/?LinkID=101578).  
-  
+ 
 ## Databases created with a default BizTalk Server configuration  
  Depending on which features are enabled when configuring BizTalk Server, up to 13 different databases may be created in SQL Server and all of these databases are created in the default file group. The default filegroup for SQL Server is the PRIMARY filegroup unless the default filegroup is changed by using the ALTER DATABASE command. The table below lists the databases that are created in SQL Server if all features are enabled when configuring BizTalk Server.  
   
@@ -75,34 +73,30 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
  The main source of contention in most BizTalk Server solutions, either because of disk I/O contention or database contention, is the BizTalk Server MessageBox database. This is true in both single and multi-MessageBox scenarios. It is reasonable to assume that as much as 80% of the value of distributing BizTalk databases will be derived from optimizing the MessageBox data files and log file. The sample scenario detailed below is focused on optimizing the data files for a MessageBox database. These steps can then be followed for other databases as needed, for example, if the solution requires extensive tracking, then the Tracking database can also be optimized.  
   
 ## Manually adding files to the MessageBox database, step-by-step  
- This section describes the steps that can be followed to manually add files to the MessageBox database. In this example three filegroups are added and then a file is added to each filegroup to distribute the files for the MessageBox across multiple disks. In this example, the steps are performed on both SQL Server 2005 and SQL Server 2008.  
+ This section describes the steps that can be followed to manually add files to the MessageBox database. In this example three filegroups are added and then a file is added to each filegroup to distribute the files for the MessageBox across multiple disks.   
   
 > [!NOTE]  
->  For purposes of the performance testing done for this guide, filegroups were optimized through the use of a script which will be published as part of the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Performance Optimizations Guide. The steps below are provided for reference purposes only.  
+>  For purposes of the performance testing done for this guide, filegroups were optimized through the use of a script which will be published as part of the BizTalk Server Performance Optimizations Guide. The steps below are provided for reference purposes only.  
   
-### Manually adding files to the MessageBox database on SQL Server 2005 or SQL Server 2008  
- **Follow these steps to manually add files to the MessageBox database on [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)] or [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]:**  
+### Manually adding files to the MessageBox database on SQL Server
   
-> [!NOTE]  
->  While there are subtle differences in the user interface between [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)] and [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], the steps listed below apply to both versions of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
+1. Open **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft SQL Server 2005** or **Microsoft SQL Server 2008**, and then click **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
-  
-     ![SQL Server 2005 Administration login screen](../technical-guides/media/641a03f4-362c-4dde-8c9d-ac313d8881e3.gif "641a03f4-362c-4dde-8c9d-ac313d8881e3")  
+     ![SQL Server Administration login screen](../technical-guides/media/641a03f4-362c-4dde-8c9d-ac313d8881e3.gif "641a03f4-362c-4dde-8c9d-ac313d8881e3")  
   
 2.  In the **Server name** field of the **Connect to Server** dialog box, enter the name of the SQL Server instance that houses the BizTalk Server MessageBox databases, and then click the **Connect** button to display the **Microsoft SQL Server Management Studio** dialog box.  
   
-     In the **Object Explorer** pane of SQL Server Management Studio, expand **Databases** to view the databases for this instance of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
+     In the **Object Explorer** pane of SQL Server Management Studio, expand **Databases** to view the databases for this instance of SQL Server.  
   
-     ![SQL Server 2005 Management Studio, Object Explorer](../technical-guides/media/81f13912-fedc-48c3-9669-c18863e637b1.gif "81f13912-fedc-48c3-9669-c18863e637b1")  
+     ![SQL Server Management Studio, Object Explorer](../technical-guides/media/81f13912-fedc-48c3-9669-c18863e637b1.gif "81f13912-fedc-48c3-9669-c18863e637b1")  
   
 3.  Right-click the database for which to add the files, and then click **Properties** to display the **Database Properties** dialog box for the database.  
   
-     ![SQL Server 2005 Database Properties dialog box](../technical-guides/media/82ae7c11-5b3a-4312-876c-70876abdd65c.gif "82ae7c11-5b3a-4312-876c-70876abdd65c")  
+     ![SQL Server Database Properties dialog box](../technical-guides/media/82ae7c11-5b3a-4312-876c-70876abdd65c.gif "82ae7c11-5b3a-4312-876c-70876abdd65c")  
   
 4.  In the **Database Properties** dialog box, select the **Filegroups** page. Click the **Add** button to create additional filegroups for the BizTalkMsgBoxDb databases. In the example below, three additional filegroups are added.  
   
-     ![SQL Server 2005, adding filegroups to a database](../technical-guides/media/6be47c0e-06c3-45d9-bce2-a42453da7d19.gif "6be47c0e-06c3-45d9-bce2-a42453da7d19")  
+     ![SQL Server, adding filegroups to a database](../technical-guides/media/6be47c0e-06c3-45d9-bce2-a42453da7d19.gif "6be47c0e-06c3-45d9-bce2-a42453da7d19")  
   
 5.  In the **Database Properties** dialog box, select the **Files** page.  
   
@@ -110,7 +104,7 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
   
      In the example below, a file is created for each of the filegroups that were created earlier and each file is placed on a separate disk.  
   
-     ![SQL Server 2005, adding files to a filegroup](../technical-guides/media/d5d5c5df-d483-4f01-8128-f98228de51b9.gif "d5d5c5df-d483-4f01-8128-f98228de51b9")  
+     ![SQL Server, adding files to a filegroup](../technical-guides/media/d5d5c5df-d483-4f01-8128-f98228de51b9.gif "d5d5c5df-d483-4f01-8128-f98228de51b9")  
   
 ## Sample SQL script for adding filegroups and files to the BizTalk MessageBox database  
  The sample SQL script below performs the same tasks that were completed manually in the previous section.  

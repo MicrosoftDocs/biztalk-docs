@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # HIPAA Transaction Sets
-This topic describes the HIPAA transaction sets and versions that are supported by [!INCLUDE[prague](../includes/prague-md.md)].  
+This topic describes the HIPAA transaction sets and versions that are supported by BizTalk Server.  
   
 ## HIPAA Transaction Sets and Versions  
   

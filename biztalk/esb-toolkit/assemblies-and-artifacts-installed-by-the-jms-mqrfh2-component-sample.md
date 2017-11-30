@@ -33,4 +33,4 @@ The following table lists the assemblies and artifacts installed by the [!INCLUD
 |BizTalk application GlobalBank.ESB|Maps||  
 |Global assembly cache|Assemblies|GlobalBank.ESB.JMS.Pipelines Version 1.0.0.0|  
 |||GlobalBank.ESB.JMS.Processes Version 1.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components||
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components||

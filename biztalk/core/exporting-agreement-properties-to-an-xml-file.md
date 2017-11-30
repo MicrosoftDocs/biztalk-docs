@@ -22,7 +22,7 @@ This section provides instructions on how to export agreement properties to an X
   
 ### To export agreement properties to an XML file  
   
-1.  In the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration Console, click the **Parties** node under the **BizTalk Server Administration** and **BizTalk Group** nodes. In the **Parties and Business Profiles** page, click a party and then the business profile that has the agreement you want to export the settings from.  
+1.  In the BizTalk Server Administration Console, click the **Parties** node under the **BizTalk Server Administration** and **BizTalk Group** nodes. In the **Parties and Business Profiles** page, click a party and then the business profile that has the agreement you want to export the settings from.  
   
 2.  On the **Parties and Business Profiles** page, in the **Agreements** section, right-click the agreement you want to export properties from and click **Properties**.  
   

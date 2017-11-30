@@ -17,7 +17,7 @@ manager: "anneta"
 This topic provides an overview of the test application; a description of the testing methodology used, and lists the key performance indicators (KPIs) captured during load testing.  
   
 ## Test Application  
- A synchronous request-response application was used to compare performance of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on Hyper-V to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on physical hardware. This application was used to illustrate performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution that has been tuned for low latency. Low latency messaging is critical for certain scenarios such as online banking where a client sends a request and expects a response message within a very short interval (for example < 3 seconds).  
+ A synchronous request-response application was used to compare performance of BizTalk Server running on Hyper-V to BizTalk Server running on physical hardware. This application was used to illustrate performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution that has been tuned for low latency. Low latency messaging is critical for certain scenarios such as online banking where a client sends a request and expects a response message within a very short interval (for example < 3 seconds).  
   
  The figure below illustrates the high-level architecture used. Visual Studio Team System (VSTS) 2008 Test Load Agent invoked a custom test class, which used the WCF transport to generate load against [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application in this scenario was exposed via a WCF-BasicHttp request-response receive location. VSTS 2008 Test Load Agent was used as the test client because of the great flexibility that it provides, including the capability to configure the number of messages sent in total, number of simultaneous threads, and the sleep interval between requests sent.  
   
@@ -210,7 +210,7 @@ Test Pattern Settings
   
  **For SQL Server:**  
   
--   [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] was installed as per the installation guide available at [http://go.microsoft.com/fwlink/?LinkId=141021](http://go.microsoft.com/fwlink/?LinkId=141021).  
+-   SQL Server was installed as per the installation guide available at [http://go.microsoft.com/fwlink/?LinkId=141021](http://go.microsoft.com/fwlink/?LinkId=141021).  
   
 -   [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] used had the SAN LUNs configured as per the table below. The database and log files were separated to across the LUNs as follows to reduce possible disk I/O contention:  
   
@@ -240,7 +240,7 @@ Test Pattern Settings
     |Logs_BizTalkDatabases|Other BizTalk database log files|20|20|64KB|  
     |N/A|MSDTC log file|5|5|N/A|  
   
--   [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] was installed as per the installation guides available at [http://go.microsoft.com/fwlink/?LinkId=128383](http://go.microsoft.com/fwlink/?LinkId=128383).  
+-   BizTalk Server was installed as per the installation guides available at [http://go.microsoft.com/fwlink/?LinkId=128383](http://go.microsoft.com/fwlink/?LinkId=128383).  
   
 -   The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) tool was used to perform platform validation once the system had been configured. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BPA is available at [http://go.microsoft.com/fwlink/?LinkId=67150](http://go.microsoft.com/fwlink/?LinkId=67150).  
   
@@ -254,7 +254,7 @@ Test Pattern Settings
  This base VHD was then copied and used as the basis for all Hyper-V virtual machines that were deployed across the environment. Sysprep was run on the base VHD image to reset system security identifiers before any [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] binaries were deployed to the system.  
   
 > [!NOTE]  
->  Running Sysprep after [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] has been installed and configured on the server can be accomplished through the use of a Sysprep answer file and scripts provided with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. These sample scripts are designed for use with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] installed on 32-bit and 64-bit versions of [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] only. For more information see the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] online documentation.  
+>  Running Sysprep after BizTalk Server has been installed and configured on the server can be accomplished through the use of a Sysprep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with BizTalk Server installed on 32-bit and 64-bit versions of [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] only. For more information see the BizTalk Server online documentation.  
   
  The Unattended Windows Setup Reference is available at [http://go.microsoft.com/fwlink/?LinkId=142364](http://go.microsoft.com/fwlink/?LinkId=142364).  
   

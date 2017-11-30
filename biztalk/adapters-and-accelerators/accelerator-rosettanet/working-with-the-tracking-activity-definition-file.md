@@ -22,7 +22,7 @@ manager: "anneta"
 # Working with the Tracking Activity Definition File
 The activity definition file contains information about the tracking process and message activities in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] uses this file to manage data tracking in BizTalk Business Activity Monitoring (BAM). The definition file is an XML file (Tracking.xml) that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] setup installs in the \<*drive*\>:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet \BAMTracking folder. The activities defined in Tracking.xml may be sufficient for your purposes.  
   
- For more information about the tracking activities, views, and tables, see [Enhanced Tracking](../../adapters-and-accelerators/accelerator-rosettanet/enhanced-tracking.md). For more information about BAM, see "Business Activity Monitoring (BAM)" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about the tracking activities, views, and tables, see [Enhanced Tracking](../../adapters-and-accelerators/accelerator-rosettanet/enhanced-tracking.md). For more information about BAM, see "Business Activity Monitoring (BAM)" in BizTalk Server Help.  
   
 ## Managing Tracking Views  
  You do not use the BizTalk Tracking Profile Editor with [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] tracking. The tracking points are not customizable; do not change activity definitions. However, you can manage BAM views and deployment. To do so, you modify an [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] spreadsheet (Tracking.xls) that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] setup installs in the \<*drive*\>:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\BAMTracking folder. For more information, see "Managing Tracking Views" below.  
@@ -40,7 +40,7 @@ The activity definition file contains information about the tracking process and
   
 2.  In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to *\<drive\>*:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet \BAM Tracking. Double-click Tracking.xls.  
   
-3.  Create a new view in Business Activity Monitoring. For information about how to do so, see "Managing Business Activity Monitoring" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+3.  Create a new view in Business Activity Monitoring. For information about how to do so, see "Managing Business Activity Monitoring" in BizTalk Server Help.  
   
 4.  Click **BAM**, and then click **Export XML**. Move to the desired location, enter a file name (other than Tracking.xml), and then click **Save**.  
   
@@ -56,7 +56,7 @@ The activity definition file contains information about the tracking process and
   
  The information tracked in BAM does not include the message content, because that is stored in a [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] database.  
   
- You can manage deployment of BAM tracking by using the Business Activity Monitoring Management Utility. For more information about this utility, see "Using the Business Activity Monitoring Management Utility" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ You can manage deployment of BAM tracking by using the Business Activity Monitoring Management Utility. For more information about this utility, see "Using the Business Activity Monitoring Management Utility" in BizTalk Server Help.  
   
 ## Activity Fields  
  The fields of the message activity in the activity definition file are the following:  

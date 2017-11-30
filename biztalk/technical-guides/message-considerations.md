@@ -27,7 +27,7 @@ manager: "anneta"
     > [!NOTE]  
     >  See [Optimizing Orchestration Performance](../technical-guides/optimizing-orchestration-performance.md) for guidance about best practices to follow when using orchestrations in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. See the topic [Creating Orchestrations Using Orchestration Designer](http://go.microsoft.com/fwlink/?LinkId=158997) (http://go.microsoft.com/fwlink/?LinkId=158997) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation for in-depth information about using Orchestration Designer.  
   
- The remainder of this topic describes performance considerations related to the size, complexity, and distribution profile of messages that are processed in a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] environment.  
+ The remainder of this topic describes performance considerations related to the size, complexity, and distribution profile of messages that are processed in a BizTalk Server environment.  
   
 ## Message size considerations  
  While BizTalk Server imposes no restriction on message size, practical limits and dependencies might require you to minimize the size of your messages because large messages require more processing resources. As message size increases, overall throughput (messages processed per second) decreases. When designing your scenario and planning for capacity, consider the average message size, message type, and number of messages BizTalk Server processes. Do not use unnecessarily long attribute and tag names; if possible, keep the length under 50 characters. For example, do not use a 200-character tag name for a message size of only 1 byte.  

@@ -39,4 +39,4 @@ The SOA Service Manager provides a mechanism that allows you to create and edit 
  **The SOA Service Manager showing details of an individual message**  
   
 > [!NOTE]
->  SOA Service Manager and Workbench products are products from SOA Software, Inc. that integrate with [!INCLUDE[prague](../includes/prague-md.md)]. For more information about SOA Software and their products, and to download the latest installation and operational instructions, see the [SOA Software](http://go.microsoft.com/fwlink/?LinkId=188559) Web site.
+>  SOA Service Manager and Workbench products are products from SOA Software, Inc. that integrate with BizTalk Server. For more information about SOA Software and their products, and to download the latest installation and operational instructions, see the [SOA Software](http://go.microsoft.com/fwlink/?LinkId=188559) Web site.

@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Server Integration
-AmberPoint packages its Microsoft BizTalk Server integration product as a custom BizTalk pipeline component. You can add this component to your existing custom pipelines using [!INCLUDE[vs2010](../includes/vs2010-md.md)], as shown in Figure 1.  
+AmberPoint packages its Microsoft BizTalk Server integration product as a custom BizTalk pipeline component. You can add this component to your existing custom pipelines using Visual Studio, as shown in Figure 1.  
   
  ![VisualStudio Pipeline](../esb-toolkit/media/ch9-visualstudiopipeline.jpg "Ch9-VisualStudioPipeline")  
   
@@ -31,4 +31,4 @@ AmberPoint packages its Microsoft BizTalk Server integration product as a custom
  **Binding an AmberPoint receive pipeline to an adapter**  
   
 > [!NOTE]
->  The AmberPoint SOA Management System (SMS) product is a product from AmberPoint, Inc. that integrates with [!INCLUDE[prague](../includes/prague-md.md)]. For more information about AmberPoint and their SOA governance products, see the [AmberPoint](http://go.microsoft.com/fwlink/?LinkId=188561) Web site.
+>  The AmberPoint SOA Management System (SMS) product is a product from AmberPoint, Inc. that integrates with BizTalk Server. For more information about AmberPoint and their SOA governance products, see the [AmberPoint](http://go.microsoft.com/fwlink/?LinkId=188561) Web site.

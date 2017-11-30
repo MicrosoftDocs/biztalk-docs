@@ -71,7 +71,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  **In BizTalk Server**  
   
--   Manually add the Oracle UDT assembly created in step 4 in “Design Time” to the Global Assembly Cache (GAC) on your computer. Alternatively, you can manually copy the Oracle UDT assembly under the BizTalk Server installation location. For [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], typically this is \<installation drive\>:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+-   Manually add the Oracle UDT assembly created in step 4 in “Design Time” to the Global Assembly Cache (GAC) on your computer. Alternatively, you can manually copy the Oracle UDT assembly under the BizTalk Server installation location. For BizTalk Server, typically this is \<installation drive\>:\Program Files\Microsoft BizTalk Server.  
   
 -   While configuring the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] WCF-Custom or WCF-OracleEBS port, in the **Binding** tab, specify the location of the Oracle UDT assembly for the **UserAssembliesLoadPath** binding property. For information about this binding property, see [Read about BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
   

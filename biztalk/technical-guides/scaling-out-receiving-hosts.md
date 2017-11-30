@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Scaling Out Receiving Hosts
-To make receiving hosts highly available, you must have two or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers that are running instances of each receiving host. By scaling out the receiving hosts you can increase the availability for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] deployments that are messaging-intensive. While these deployments might perform minimal processing for orchestrations, they can route many messages of varying types with great speed and reliability.  
+To make receiving hosts highly available, you must have two or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers that are running instances of each receiving host. By scaling out the receiving hosts you can increase the availability for BizTalk Server deployments that are messaging-intensive. While these deployments might perform minimal processing for orchestrations, they can route many messages of varying types with great speed and reliability.  
   
  You can enhance security and scalability in your environment by separating the receiving host from the hosts that process orchestrations and send messages because you can secure and scale each host independently of other hosts. For example, you can add two computers (host instances) to the receiving host without adding any computers to the processing or sending hosts.  
   
@@ -34,7 +34,7 @@ To make receiving hosts highly available, you must have two or more [!INCLUDE[bt
  In the receive port configuration, you optionally specify maps. In the receive location configuration, you must specify a pipeline used for document preprocessing. The designated [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process handles everything from receiving a document, to preprocessing the document, to mapping the document. This is the same for both in-process host instances and isolated host instances.  
   
 ## Scaling Out In-Process Receiving Hosts  
- The following figure shows a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] deployment that provides high availability for the receiving host by having two host instances each on a different computer. Note that in this figure the processing and sending host is not highly available, because there is only one host instance processing the BizTalk items assigned to the host.  
+ The following figure shows a BizTalk Server deployment that provides high availability for the receiving host by having two host instances each on a different computer. Note that in this figure the processing and sending host is not highly available, because there is only one host instance processing the BizTalk items assigned to the host.  
   
  ![Multiple Host for Receiving Messages](../core/media/tdi-ha-scalereceive.gif "TDI_HA_ScaleReceive")  
   
@@ -47,13 +47,13 @@ To make receiving hosts highly available, you must have two or more [!INCLUDE[bt
  To provide high availability in this configuration, each computer runs three host instances: one instance for each of the three companies. The host instances for each company contain the receive locations and pipelines to communicate with that company. During typical operations, as long as you have done the necessary work for scale-out in front of the receive adapters, the messaging load is distributed among the three host instances for each host. If a host instance on one computer fails, the host instances running on the other two computers provide redundancy and maintain service availability.  
   
 ## Scaling Out Isolated Receiving Hosts  
- Besides host instances, the process of scaling and providing high availability for the receiving hosts also depends on the specific adapters that you implement in your deployment. Each adapter has protocol-specific characteristics that make planning and deployment different in each case. However, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] lets you apply the same high-availability solution for all adapters, primarily through additional computers and host instances.  
+ Besides host instances, the process of scaling and providing high availability for the receiving hosts also depends on the specific adapters that you implement in your deployment. Each adapter has protocol-specific characteristics that make planning and deployment different in each case. However, BizTalk Server lets you apply the same high-availability solution for all adapters, primarily through additional computers and host instances.  
   
- Depending on the specific protocol being used, some receive adapters require an additional mechanism for distributing incoming messages among multiple host computers to provide high availability. For example, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] solutions that use the HTTP or SOAP adapter (otherwise known as the Web services adapter) require a load balancer such as Network Load Balancing (NLB) to distribute the receiving workload, as shown in the following figure.  
+ Depending on the specific protocol being used, some receive adapters require an additional mechanism for distributing incoming messages among multiple host computers to provide high availability. For example, BizTalk Server solutions that use the HTTP or SOAP adapter (otherwise known as the Web services adapter) require a load balancer such as Network Load Balancing (NLB) to distribute the receiving workload, as shown in the following figure.  
   
  ![Scaling out isolated receive host](../technical-guides/media/cb38ec25-bfb0-4a55-8464-b7918b6fc746.gif "cb38ec25-bfb0-4a55-8464-b7918b6fc746")  
   
- For more information about the high-availability guidelines for the most common adapters in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see "Scaling the BizTalk Server Receive Adapters" section in [Scaled-Out Receiving Hosts](http://go.microsoft.com/fwlink/?LinkId=151283) (http://go.microsoft.com/fwlink/?LinkId=151283) in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about the high-availability guidelines for the most common adapters in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see "Scaling the BizTalk Server Receive Adapters" section in [Scaled-Out Receiving Hosts](http://go.microsoft.com/fwlink/?LinkId=151283) (http://go.microsoft.com/fwlink/?LinkId=151283) in BizTalk Server Help.  
   
 ## See Also  
  [Clustering Receiving Hosts](../technical-guides/clustering-receiving-hosts.md)   

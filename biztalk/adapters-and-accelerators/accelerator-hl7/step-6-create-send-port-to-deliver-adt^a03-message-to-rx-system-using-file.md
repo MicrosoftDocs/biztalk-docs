@@ -23,7 +23,7 @@ In this step, you create the send port for the Pharmacy System (RX) using the Fi
   
 ### To create the Tutorial_sendMsg_RX send port  
   
-1.  In the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
+1.  In the BizTalk Server Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
   
 2.  In the **Send Port Properties** dialog box, do the following actions and then click **OK**.  
   

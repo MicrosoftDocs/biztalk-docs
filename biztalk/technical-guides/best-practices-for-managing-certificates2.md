@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Best Practices for Managing Certificates
-This section provides best practices for managing certificates in your Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] environment.  
+This section provides best practices for managing certificates in your Microsoft BizTalk Server environment.  
   
 ## Assess and Plan Your Use of Certificates  
  **Do a Threat Model Analysis of your environment**  

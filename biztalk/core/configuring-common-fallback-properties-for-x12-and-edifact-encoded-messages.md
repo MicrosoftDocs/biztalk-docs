@@ -31,7 +31,7 @@ Fallback properties apply to both X12 (including HIPAA) - and EDIFACT-encoded in
         > [!IMPORTANT]
         >  If this option is not checked, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will not use the properties set in the fallback agreement.  
   
-    2.  Click **Activate EDI Reporting** to activate reporting for all EDI messages. This ensures messages are displayed in the status reporting screens displayed by clicking the links at the bottom of the **Group Hub** pane of the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration Console.  
+    2.  Click **Activate EDI Reporting** to activate reporting for all EDI messages. This ensures messages are displayed in the status reporting screens displayed by clicking the links at the bottom of the **Group Hub** pane of the BizTalk Server Administration Console.  
   
     3.  If you clicked **Activate EDI Reporting**, click **Store transaction set/payload for reporting** to store transaction sets in the EDI tables of the tracking (BizTalkDTADb) database.  
   

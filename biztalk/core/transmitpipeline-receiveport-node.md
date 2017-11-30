@@ -20,7 +20,7 @@ manager: "anneta"
 The TransmitPipeline node of the ReceivePort node of a binding file provides specific information about the send pipeline bound to a two way receive port exported with the binding file.  
   
 > [!NOTE]
->  Since send pipelines for two-way receives are bound at the receive location level in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], this node is provided for backwards compatibility with BizTalk Server 2004. Send pipelines for two-way receives are bound at the receive port level in BizTalk Server 2004. Properties that are set for this node of a binding file that was exported from BizTalk Server 2004 will be applied to the SendPipeline node of each two-way receive location referenced by the receive port when importing the binding file into [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+>  Since send pipelines for two-way receives are bound at the receive location level in BizTalk Server, this node is provided for backwards compatibility with BizTalk Server 2004. Send pipelines for two-way receives are bound at the receive port level in BizTalk Server 2004. Properties that are set for this node of a binding file that was exported from BizTalk Server 2004 will be applied to the SendPipeline node of each two-way receive location referenced by the receive port when importing the binding file into BizTalk Server.  
   
 ## Nodes in the TransmitPipeline node  
  The following table lists the properties that can be set for this node of a binding file:  

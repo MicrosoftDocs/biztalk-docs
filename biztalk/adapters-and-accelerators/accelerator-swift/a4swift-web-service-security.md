@@ -42,7 +42,7 @@ The [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentve
   
  Internet Protocol security (IPSec) can also be implemented to secure communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].  
   
- For more information about implementing IPSec for secure communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)], see "Securing Your Deployment of BizTalk Server" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about implementing IPSec for secure communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)], see "Securing Your Deployment of BizTalk Server" in BizTalk Server Help.  
   
   
 ## Message-Level Security  

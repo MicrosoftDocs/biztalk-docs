@@ -41,7 +41,7 @@ This section contains information that may help you avoid errors.
 #### FTP Adapter does not support revocation checks on the server certificates  
   
 ##### Problem  
- The FTP adapter in [!INCLUDE[prague](../includes/prague-md.md)] is enhanced to support secure file transfer to and from an FTPS server using SSL/TLS. The Certificate Revocation List (CRL) contains a list of certificates that have been revoked and are no longer valid. The FTP adapter does not consult the CRL for authenticating the server certificate.  
+ The FTP adapter in BizTalk Server is enhanced to support secure file transfer to and from an FTPS server using SSL/TLS. The Certificate Revocation List (CRL) contains a list of certificates that have been revoked and are no longer valid. The FTP adapter does not consult the CRL for authenticating the server certificate.  
   
 ##### Cause  
  By design, the FTP adapter does not consult the CRL before accepting a server certificate.  

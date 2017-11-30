@@ -27,7 +27,7 @@ The XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
   
 -   **Validating a map**. This operation generates a file containing the underlying XSLT of the map and a file containing extension objects. For more information, see [Validating a Map (EDI)](../core/validating-a-map-edi.md).  
   
- In [!INCLUDE[prague](../includes/prague-md.md)], these extensions work on EDI schemas, maps, and message instances. These extensions enable you to work more effectively with complex EDI schemas, maps, and interchanges.  
+ In BizTalk Server, these extensions work on EDI schemas, maps, and message instances. These extensions enable you to work more effectively with complex EDI schemas, maps, and interchanges.  
   
  XML Tool extensions are enabled by default by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup program. If you double-click a schema in Solution Explorer of Visual Studio, the **Schema Editor Extensions** property of the schema is set to **EDI Schema Editor Extension**. This is required for the XML Tool extensions to function. You can select other schema editor extension while leaving the EDI extensions selected.  
   

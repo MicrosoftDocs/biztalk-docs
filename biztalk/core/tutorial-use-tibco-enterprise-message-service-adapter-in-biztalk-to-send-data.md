@@ -27,7 +27,7 @@ You can use the BizTalk Adapter for TIBCO Enterprise Message Service (EMS) to se
  This sample picks up an XML file from a file folder, sends the file to an orchestration, and then uses the BizTalk Adapter for TIBCO Enterprise Message Service to create a record in the TIBCO system.  
   
 ## How This Sample is Designed and Why  
- This sample, designed in [!INCLUDE[vs2010](../includes/vs2010-md.md)], illustrates basic functionality using the BizTalk Adapter for TIBCO Enterprise Message Service with a BizTalk orchestration.  
+ This sample, designed in Visual Studio, illustrates basic functionality using the BizTalk Adapter for TIBCO Enterprise Message Service with a BizTalk orchestration.  
   
 ## Where to Find This Sample  
  The default location for the sample is  

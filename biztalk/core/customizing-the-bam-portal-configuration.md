@@ -8,32 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM portal, alerts"
-  - "BAM portal, timeout setting"
-  - "queries [BAM], timeout setting"
-  - "BAM portal, retry interval"
-  - "alerts, configuration options"
-  - "BAM portal, configuring"
-  - "BAM portal, portal banner"
-  - "clustering, NLB [BAM portal]"
-  - "BAM portal, Web.config file"
-  - "Kerberos protocol, BAM portal"
-  - "BAM portal, culture setting"
-  - "BAM portal, IIS"
-  - "IIS, BAM portal"
-  - "BAM portal, NLB cluster"
-  - "Web.config file"
-  - "BAM portal, 64-bit environments"
-  - "BAM portal, Kerberos protocol"
-  - "BAM portal, clustering"
-  - "64-bit environments, BAM portal"
-  - "IIS, 64-bit support"
-  - "NLB system, BAM portal"
-  - "BAM portal, customizing"
-  - "configuring, BAM portal banner"
-  - "64-bit support, IIS"
-  - "BAM portal, distributed environment"
 ms.assetid: 507bd5f0-b2a0-4d52-85f8-9d984138ca79
 caps.latest.revision: 47
 author: "MandiOhlinger"
@@ -48,10 +22,10 @@ There are a number of configurable options on the BAM portal. The following proc
 >   
 >  You configure the Web service or BAM portal with a non-administrator impersonated user. You then set permissions on the portal such that the Everyone group does not have access to the portal. You then create a local group called PortalUsersGroup and assign that group as the Portal Users group. This means that only users in that group have access to the portal. After you have configured the BAM portal, add the current user to the Portal Users group. When you open the BAM portal, you will be asked for your credentials. If you log off and log back on, however, you are able to open the BAM portal without being asked for your credentials.  
 >   
->  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports local group and user accounts only in single computer configurations. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports domain group and user accounts in both single and multiple computer configurations.  
+>  BizTalk Server supports local group and user accounts only in single computer configurations. BizTalk Server supports domain group and user accounts in both single and multiple computer configurations.  
   
 ## Running the BAM Portal in a 64-bit Environment  
- If you are using Internet Information Services (IIS) 6 in a 64-bit environment, you must set IIS to 32-bit mode to run the BAM portal. For additional information about setting the mode, see "How to switch between the 32-bit versions of ASP.NET 1.1 and the 64-bit version of ASP.NET 2.0 on a 64-bit version of Windows" at [http://go.microsoft.com/fwlink/?LinkId=61991](http://go.microsoft.com/fwlink/?LinkId=61991).  
+ If you are using Internet Information Services (IIS) in a 64-bit environment, you must set IIS to 32-bit mode to run the BAM portal. 
   
 > [!IMPORTANT]
 >  You do not have to set IIS7 to 32-bit mode.  
@@ -194,11 +168,11 @@ There are a number of configurable options on the BAM portal. The following proc
  For additional information about modifying the IIS security settings, see the Knowledge Base article at [http://go.microsoft.com/fwlink/?LinkId=57922](http://go.microsoft.com/fwlink/?LinkId=57922).  
   
 ## Viewing Aggregate BAM Data in the BAM Portal in SQL Server 2008  Deployments  
- To view aggregate data in the BAM portal from a client computer connecting to the BAM portal when the deployment environment uses [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], you must install Microsoft SQL Server 2008 Analysis Services 10.0 OLE DB Provider on the client computer. If the analysis services are not installed users will receive the following error message:  
+ To view aggregate data in the BAM portal from a client computer connecting to the BAM portal when the deployment environment uses SQL Server 2008, you must install Microsoft SQL Server 2008 Analysis Services 10.0 OLE DB Provider on the client computer. If the analysis services are not installed users will receive the following error message:  
   
  The server *\<servername\>* cannot be contacted or is too busy.  
   
- To install the Feature Pack for Microsoft SQL Server 2008, see [http://go.microsoft.com/fwlink/?LinkId=70728](http://go.microsoft.com/fwlink/?LinkId=70728).  
+
   
 ## See Also  
  [Planning for the BAM Portal](../core/planning-for-the-bam-portal.md)

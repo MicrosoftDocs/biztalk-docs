@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDIFACT Transaction Sets APERAK-IFTRIN
-This topic lists the EDIFACT transaction sets that are supported by [!INCLUDE[prague](../includes/prague-md.md)].  
+This topic lists the EDIFACT transaction sets that are supported by BizTalk Server.  
   
  The following transaction sets are contained in this topic:  
   

@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Server 2010 Hyper-V Guide
-The purpose of this guide is to provide practical guidance for using Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] with Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. The emphasis is on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], but the performance evaluation methods and performance testing scenarios are useful for analyzing the performance of virtualized server applications in general. This guidance will be of interest to both the IT Pro and Developer communities.  
+The purpose of this guide is to provide practical guidance for using Microsoft BizTalk Server with Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. The emphasis is on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], but the performance evaluation methods and performance testing scenarios are useful for analyzing the performance of virtualized server applications in general. This guidance will be of interest to both the IT Pro and Developer communities.  
   
  To download a copy of this guide, go to [http://go.microsoft.com/fwlink/?LinkId=149267](http://go.microsoft.com/fwlink/?LinkId=149267).  
   
@@ -61,7 +61,7 @@ The purpose of this guide is to provide practical guidance for using Microsoft [
 -   Developers interested in performance optimization and identifying performance bottlenecks  
   
 ### Goals of this Guide  
- The primary goal of this guide is to provide guidance about how to determine if [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] running on Hyper-V is likely to meet performance expectations. This guidance will also be of value as an aid to optimization of a deployed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application.  
+ The primary goal of this guide is to provide guidance about how to determine if BizTalk Server running on Hyper-V is likely to meet performance expectations. This guidance will also be of value as an aid to optimization of a deployed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application.  
   
  This project was conducted with the following goals:  
   

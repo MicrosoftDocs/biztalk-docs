@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Changes to BizTalk Project System in BizTalk Server 2013
-This topic gives you a high-level overview of changes to the BizTalk Project System in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+This topic gives you a high-level overview of changes to the BizTalk Project System in BizTalk Server.  
   
 ## Project properties are displayed in project designer window  
  Properties for a BizTalk Server project are now displayed in the Project Designer of Visual Studio instead of in a Properties dialog. The Project Designer provides a centralized location for managing project properties, settings, and resources. The Project Designer appears as a single window in the Visual Studio IDE, much the same as other designers such as the Form or Class designers and contains a number of pages that are accessed through tabs on the left-hand side. For more information, see [http://go.microsoft.com/fwlink/?LinkId=190417](http://go.microsoft.com/fwlink/?LinkId=190417).  
@@ -54,7 +54,7 @@ This topic gives you a high-level overview of changes to the BizTalk Project Sys
  **Debug Map feature**. You can debug a map (XSLT) by using the inline XSLT debugger with in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. For more information, see [How to Debug Maps](../core/how-to-debug-maps.md).  
   
 ## Migrating BizTalk Server projects  
- Visual Studio projects developed for earlier version of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be migrated to the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] environment by using the Visual Studio conversion wizard. For more information, see [Migrating a BizTalk Server Project](../core/migrating-a-biztalk-server-project.md).  
+ Visual Studio projects developed for earlier version of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be migrated to the BizTalk Server environment by using the Visual Studio conversion wizard. For more information, see [Migrating a BizTalk Server Project](../core/migrating-a-biztalk-server-project.md).  
   
 ## Release and Debug build types  
  BizTalk projects now have two build types: **Release** and **Debug**, which replaces **Development** and **Deployment** of earlier versions. However, you will continue to see the **Development** and **Deployment** configurations for the projects that are migrated from [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)].  
@@ -69,7 +69,7 @@ This topic gives you a high-level overview of changes to the BizTalk Project Sys
  Visual Studio does not let you deploy a BizTalk project on a computer with the User Access Control (UAC) feature turned on unless you run Visual Studio with administrative privileges. To run Visual Studio with administrative privileges, click **Start**, point to **All Programs**, point to **Microsoft Visual Studio**, right-click **Microsoft Visual Studio \<version\>**, and then click **Run as administrator**.  
   
 ## C# files in a BizTalk project  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] allows you to combine helper classes with BizTalk artifacts for flexible packaging needs only.  However, you cannot add a new C# file directly by using the **Add New Item** or **Add New Class** menu options.  
+ BizTalk Server allows you to combine helper classes with BizTalk artifacts for flexible packaging needs only.  However, you cannot add a new C# file directly by using the **Add New Item** or **Add New Class** menu options.  
   
 ## GenerateCSFiles registry key is obsolete  
  The **GenerateCSFiles** registry key is obsolete now. All generated .cs files are displayed in the Solution Explorer window. You may need to click **Show All Files** toolbar item in the Solution Explorer window to see .cs files associated with some of the BizTalk items.

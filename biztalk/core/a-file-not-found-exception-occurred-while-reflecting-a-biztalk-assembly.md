@@ -33,7 +33,7 @@ manager: "anneta"
 ## User Action  
  In addition to the actions specified in the error message, move the reference assembly to the Global Assembly Cache or copy it to the same location as the BizTalk assembly  
   
-1.  Click **Start**, point to **All Programs**, point to **[!INCLUDE[vs2010](../includes/vs2010-md.md)]**, and then click **[!INCLUDE[vs2010](../includes/vs2010-md.md)]**.  
+1.  Click **Start**, point to **All Programs**, point to **Visual Studio**, and then click **Visual Studio**.  
   
 2.  Open a command prompt.  
   

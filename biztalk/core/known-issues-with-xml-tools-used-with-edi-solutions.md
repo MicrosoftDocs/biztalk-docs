@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Known Issues with XML Tools Used with EDI Solutions
-This topic describes known issues with XML Tools in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+This topic describes known issues with XML Tools in BizTalk Server.  
   
 ## Validation of Test Map Input and Output File Still Occurs When the Validate Property Is Set to False  
  If you test a map with the TestMap Input property set to **Native** and the Validate TestMap Input and Validate TestMap Output properties set to **False**, validation will still be performed. This occurs because the native-formatted input file will be converted into XML format, and BizTalk Server will validate the XML against the schema. If there are validation issues in the input file, this validation mechanism will post errors, even though the Validate TestMap Input and Validate TestMap Output properties are set to **False**.  

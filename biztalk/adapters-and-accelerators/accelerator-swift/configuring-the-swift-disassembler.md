@@ -47,7 +47,7 @@ The SWIFT disassembler (DASM) performs the following tasks when you invoke it in
 > [!NOTE]
 >  After you configure, compile, and deploy a custom pipeline, changes in the configuration require recompiling and redeployment of the custom pipeline.  
   
- For information about creating, building, and deploying custom pipelines, see [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For information about creating, building, and deploying custom pipelines, see BizTalk Server Help.  
   
  This section contains:  
   

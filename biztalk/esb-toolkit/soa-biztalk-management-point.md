@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SOA BizTalk Management Point
-The BizTalk Management Point for [!INCLUDE[prague](../includes/prague-md.md)] is a conceptual extension to SOA Software's Web Services Management Point, applied specifically to the [!INCLUDE[prague](../includes/prague-md.md)] environment and providing run-time governance for Web service applications.  
+The BizTalk Management Point for BizTalk Server is a conceptual extension to SOA Software's Web Services Management Point, applied specifically to the BizTalk Server environment and providing run-time governance for Web service applications.  
   
  This section contains the following topics:  
   

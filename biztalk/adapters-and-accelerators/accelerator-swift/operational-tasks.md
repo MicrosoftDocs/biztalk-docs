@@ -22,7 +22,7 @@ manager: "anneta"
 # Operational tasks
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] encompasses one or more servers and a series of tools for enterprise application integration (EAI), automating financial business processes, and facilitating message exchange using the SWIFT FIN standard.  
   
- Operations include the administration and management of [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] applications. A4SWIFT uses the following tools and consoles to perform these operations:  
+ Operations include the administration and management of BizTalk Server applications. A4SWIFT uses the following tools and consoles to perform these operations:  
   
 -   **BizTalk Server Administration Console.** Use this tool to manage the BizTalk group, including all BizTalk databases, to track the performance of business processes.  
   
@@ -30,7 +30,7 @@ manager: "anneta"
   
  The SWIFT disassembler enhances (decorates) messages that it processes with A4SWIFT promoted properties. As such, HAT and BAM query expressions optionally include these properties for filtering. For a list of A4SWIFT promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).  
   
- For information about [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] operations, see the Operations section in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For information about [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server operations, see the Operations section in BizTalk Server Help.  
   
  This section contains:  
   

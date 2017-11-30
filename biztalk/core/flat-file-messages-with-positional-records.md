@@ -61,7 +61,7 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
   
 -   Positional records with field lengths specified as a specific number of bytes rather than a specific number of characters. For more information, see [Position Counting in Bytes](../core/position-counting-in-bytes.md).  
   
- To help you better understand how to work with positional flat files, see the samples in the FlatFileReceive and FlatFileSend folders located at \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
+ To help you better understand how to work with positional flat files, see the samples in the FlatFileReceive and FlatFileSend folders located at \Program Files\Microsoft BizTalk Server\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
   
 > [!NOTE]
 >  If your flat file contains both delimited and positional records, you must set the **Structure** property of the root node to **Delimited** and the **Structure** property of subordinate record nodes to either **Delimited** or **Positional** as appropriate.  

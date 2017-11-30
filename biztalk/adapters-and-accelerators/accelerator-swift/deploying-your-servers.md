@@ -22,7 +22,7 @@ This section provides instructions for configuring each of the servers in your [
   
  Before starting server deployment, make sure that you read and perform the deployment preparation steps described in [Preparing for Deployment](../../adapters-and-accelerators/accelerator-swift/preparing-for-deployment.md). Failing to adhere to the prescriptive guidance in the previous section might result in an unknown and unsupported configuration of the deployment (and subsequent steps might fail).  
   
- For more information, see the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Deployment Guide.  
+ For more information, see the BizTalk Server Deployment Guide.  
   
  This section contains:  
   

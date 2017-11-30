@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Changing BAM Runtime Settings
-In general, you configure the BAM Runtime components when you install Microsoft® [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. You may want to change the BAM Runtime settings, for example to scale up your system or if you have password expiration policy.  
+In general, you configure the BAM Runtime components when you install Microsoft® BizTalk Server. You may want to change the BAM Runtime settings, for example to scale up your system or if you have password expiration policy.  
   
 ## In This Section  
   

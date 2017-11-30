@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDI Standards Support
-[!INCLUDE[prague](../includes/prague-md.md)] provides for design- and run-time support for four encoding standards. The following table lists the encoding standards with links to more information.  
+BizTalk Server provides for design- and run-time support for four encoding standards. The following table lists the encoding standards with links to more information.  
   
 |Encoding Standard|Industry Segment|References|  
 |-----------------------|----------------------|----------------|  
@@ -49,14 +49,14 @@ manager: "anneta"
   
 -   X12 recommends ASCII encoding, while EDIFACT recommends UTF8 encoding.  
   
- [!INCLUDE[prague](../includes/prague-md.md)] supports the KEDIFACT (Korea EDIFACT) standard. KEDIFACT follows the Message Implementation Guide of UN/EDIFACT, so is closely based on EDIFACT. However, there are differences between KEDIFACT and X12/EDIFACT. KEDIFACT uses several KEDIFACT-specific EDI schemas and uses the KECA code page.  
+ BizTalk Server supports the KEDIFACT (Korea EDIFACT) standard. KEDIFACT follows the Message Implementation Guide of UN/EDIFACT, so is closely based on EDIFACT. However, there are differences between KEDIFACT and X12/EDIFACT. KEDIFACT uses several KEDIFACT-specific EDI schemas and uses the KECA code page.  
   
 ## HIPAA  
- [!INCLUDE[prague](../includes/prague-md.md)] supports X12 processing, and since HIPAA processing is a derivative of X12 processing, [!INCLUDE[prague](../includes/prague-md.md)] supports HIPAA processing. Where you see references to X12 support in this document, it also applies to HIPAA processing.  
+ BizTalk Server supports X12 processing, and since HIPAA processing is a derivative of X12 processing, BizTalk Server supports HIPAA processing. Where you see references to X12 support in this document, it also applies to HIPAA processing.  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides the additional HIPAA-specific support:  
   
--   A set of version 4010A1 HIPAA document schemas. For more information on EDI and HIPAA document schemas in [!INCLUDE[prague](../includes/prague-md.md)], see [EDI Document Schemas](../core/edi-document-schemas.md).  
+-   A set of version 4010A1 HIPAA document schemas. For more information on EDI and HIPAA document schemas in BizTalk Server, see [EDI Document Schemas](../core/edi-document-schemas.md).  
   
 -   A set of version 5010 HIPAA document schemas. For more information, see [HIPAA Document Schema Version 5010](../core/hipaa-document-schema-version-5010.md).  
   
@@ -64,14 +64,14 @@ manager: "anneta"
   
 -   Support for the first two levels of WEDI SNIP testing: X12 syntax integrity and requirements of the [HIPAA Implementation Guide](http://go.microsoft.com/fwlink/?LinkId=77541).  
   
- [!INCLUDE[prague](../includes/prague-md.md)] provides HIPAA support as part of the native BizTalk Server EDI functionality. For more information, see [EDI Support in BizTalk Server](../core/edi-support-in-biztalk-server2.md).  
+ BizTalk Server provides HIPAA support as part of the native BizTalk Server EDI functionality. For more information, see [EDI Support in BizTalk Server](../core/edi-support-in-biztalk-server2.md).  
   
 ## EANCOM  
- [!INCLUDE[prague](../includes/prague-md.md)] supports EDIFACT processing, and since EANCOM processing is a derivative of EDIFACT processing, [!INCLUDE[prague](../includes/prague-md.md)] supports EANCOM processing. Where you see references to EDIFACT support in this document, this support also applies to EANCOM processing.  
+ BizTalk Server supports EDIFACT processing, and since EANCOM processing is a derivative of EDIFACT processing, BizTalk Server supports EANCOM processing. Where you see references to EDIFACT support in this document, this support also applies to EANCOM processing.  
   
- [!INCLUDE[prague](../includes/prague-md.md)] provides the additional EANCOM-specific support:  
+ BizTalk Server provides the additional EANCOM-specific support:  
   
--   A set of version EAN94, EAN97, and EAN02 EANCOM document schemas. For more information on EDI and EANCOM document schemas in [!INCLUDE[prague](../includes/prague-md.md)], see [EDI Document Schemas](../core/edi-document-schemas.md).  
+-   A set of version EAN94, EAN97, and EAN02 EANCOM document schemas. For more information on EDI and EANCOM document schemas in BizTalk Server, see [EDI Document Schemas](../core/edi-document-schemas.md).  
   
 ## See Also  
  [EDI Message Structure](../core/edi-message-structure.md)   

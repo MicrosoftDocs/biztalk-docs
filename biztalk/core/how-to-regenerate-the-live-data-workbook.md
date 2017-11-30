@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Regenerate the Live Data Workbook
-In cases where the BAM live data workbook has been lost or corrupted, you can regenerate the workbook using the BAM Management utiprolity. This process is also useful when you are upgrading from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], since live data workbooks for [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] are not compatible with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+In cases where the BAM live data workbook has been lost or corrupted, you can regenerate the workbook using the BAM Management utiprolity. This process is also useful when you are upgrading from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to BizTalk Server, since live data workbooks for [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] are not compatible with BizTalk Server.  
   
  The general steps are as follows:  
   
@@ -23,7 +23,7 @@ In cases where the BAM live data workbook has been lost or corrupted, you can re
   
 -   Re-create the PivotTable reports. Since the XML retrieval by the get-defxml command contains only the activities and views, you must re-create the PivotTable reports using the BAM Add-in for Excel.  
   
--   Rename the PivotTable reports. This step is necessary if you are upgrading from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. This is necessary since in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)], BAM stores two sets of names for BAM workbooks: a display name and an internal name. When you retrieve the BAM definition, the XML contains the internal name for the workbook. You must rename the PivotTable reports to ensure that the live data workbook has the correct connection to the database.  
+-   Rename the PivotTable reports. This step is necessary if you are upgrading from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to BizTalk Server. This is necessary since in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)], BAM stores two sets of names for BAM workbooks: a display name and an internal name. When you retrieve the BAM definition, the XML contains the internal name for the workbook. You must rename the PivotTable reports to ensure that the live data workbook has the correct connection to the database.  
   
 -   Regenerate the live data workbook using the BAM Management utility.  
   
@@ -62,7 +62,7 @@ In cases where the BAM live data workbook has been lost or corrupted, you can re
 3.  Save the updated workbook.  
   
     > [!NOTE]
-    >  You must follow this procedure only if you are upgrading from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  You must follow this procedure only if you are upgrading from [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] to BizTalk Server.  
   
 ### To regenerate the BAM live data workbook  
   

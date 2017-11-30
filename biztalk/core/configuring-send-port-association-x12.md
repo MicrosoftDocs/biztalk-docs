@@ -21,7 +21,7 @@ manager: "anneta"
 >  If the same send port is associated with multiple agreements, BizTalk Server will generate an error.  
   
 > [!IMPORTANT]
->  In [!INCLUDE[prague](../includes/prague-md.md)], the send port association is done only at the agreement level. However, in BizTalk Server 2009, the send ports were associated at the party level. For backward compatibility, a **Send Ports** page is also available as part of the party properties (see [Configuring General Party Properties](../core/configuring-general-party-properties.md)). Whenever you associate a send port with an agreement, the send port setting is also propagated to the party setting and you can see the send port association in this page as well. However, the reverse is not true. You cannot associate a send port with a party and then have that send port be automatically available as part of the agreement settings.  
+>  In BizTalk Server, the send port association is done only at the agreement level. However, in BizTalk Server 2009, the send ports were associated at the party level. For backward compatibility, a **Send Ports** page is also available as part of the party properties (see [Configuring General Party Properties](../core/configuring-general-party-properties.md)). Whenever you associate a send port with an agreement, the send port setting is also propagated to the party setting and you can see the send port association in this page as well. However, the reverse is not true. You cannot associate a send port with a party and then have that send port be automatically available as part of the agreement settings.  
   
 > [!NOTE]
 >  The settings described here also apply to HIPAA interchanges.  

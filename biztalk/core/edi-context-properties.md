@@ -38,8 +38,8 @@ The message context properties in the EDI global property schema are publicly ex
 |BatchName|String|The name of the batch configuration to use when processing this document.|  
 |CodePage|string|The code page to be used to validate the interchange.|  
 |CONTRL_UCI4|string|The Action Code field of a CONTRL acknowledgment, indicating whether the interchange was accepted (a value of "8") or rejected because of an error in the UNA or UNB segment (a value of "4") (EDIFACT CONTRL ACK only).|  
-|DestinationPartyID (deprecated in [!INCLUDE[prague](../includes/prague-md.md)])|int|The ID of the destination party that the message should be sent to.|  
-|DestinationPartyName (deprecated in [!INCLUDE[prague](../includes/prague-md.md)])|string|The name of the destination party that the message should be sent to.|  
+|DestinationPartyID (deprecated in BizTalk Server)|int|The ID of the destination party that the message should be sent to.|  
+|DestinationPartyName (deprecated in BizTalk Server)|string|The name of the destination party that the message should be sent to.|  
 |DestinationPartyReceiver<br />Identifier|string|The identifier of the destination party that the message should be sent to. This property can be promoted in a custom component to enable party resolution in the send pipeline.|  
 |DestinationPartyReceiver<br />Qualifier|string|The qualifier of the destination party that the message should be sent to. This property can be promoted in a custom component to enable party resolution in the send pipeline.|  
 |DestinationPartySender<br />Identifier|string|The identifier of the party sending the message to the destination party. This property can be promoted in a custom component to enable party resolution in the send pipeline.|  
@@ -91,7 +91,7 @@ The message context properties in the EDI global property schema are publicly ex
   
  If you need an individual field of one of the segments (ISA, GS, UNB, UNG, or UNA) to be written to the message context, but this individual field is not written to the message context by default, you will need to write a custom component to write it to the message context. This custom component needs to parse the segment fields and write an individual field to the message context.  
   
- The Message Enrichment sample shows how to use a parser to extract individual fields from the segments and write them to the context. This sample is included in the \<drive\>:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\EDI\MessageEnrichment. For more information, see [Message Enrichment Sample (BizTalk Server Sample)](../core/message-enrichment-sample-biztalk-server-sample.md).  
+ The Message Enrichment sample shows how to use a parser to extract individual fields from the segments and write them to the context. This sample is included in the \<drive\>:\Program Files\Microsoft BizTalk Server\SDK\Samples\EDI\MessageEnrichment. For more information, see [Message Enrichment Sample (BizTalk Server Sample)](../core/message-enrichment-sample-biztalk-server-sample.md).  
   
 ## See Also  
  [Developing and Configuring BizTalk Server EDI Solutions](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

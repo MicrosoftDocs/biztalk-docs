@@ -33,4 +33,4 @@ The following table lists the assemblies and artifacts installed by the [!INCLUD
 |||GlobalBank.ESB.TransformServices.Maps.RetailOrder_To_CanonicalOrder Version 2.0.0.0|  
 |Global assembly cache|Assemblies|GlobalBank.ESB.TransformServices.Maps Version 2.0.0.0|  
 |||GlobalBank.ESB.TransformServices.Schemas Version 2.0.0.0|  
-|%Program Files%\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline Components|Pipeline components|(none)|
+|%Program Files%\\BizTalk Server\Pipeline Components|Pipeline components|(none)|

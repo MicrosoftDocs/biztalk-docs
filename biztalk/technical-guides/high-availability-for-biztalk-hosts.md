@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # High Availability for BizTalk Hosts
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] provides great flexibility in addressing high availability because you can strategically dedicate logical hosts to run specific areas of functionality, such as receiving and sending messages or processing orchestrations, that can be physically deployed to multiple servers.  
+BizTalk Server provides great flexibility in addressing high availability because you can strategically dedicate logical hosts to run specific areas of functionality, such as receiving and sending messages or processing orchestrations, that can be physically deployed to multiple servers.  
   
  A BizTalk Host is a logical container within a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group that can house [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] items such as adapter send handlers (including pipelines), receive locations, and orchestrations. You typically group items that have similar scale properties into a particular host.  
   
@@ -39,7 +39,7 @@ manager: "anneta"
 |In-process|-   Orchestrations<br />-   Adapter send handlers<br />-   In-process adapter receive handlers|  
 |Isolated|-   HTTP, SOAP receive handlers<br />-   Any other isolated adapter receive handlers|  
   
- For more information about managing BizTalk Hosts and host instances, see [Managing BizTalk Hosts and Host Instances](http://go.microsoft.com/fwlink/?LinkID=154191) (http://go.microsoft.com/fwlink/?LinkID=154191) in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about managing BizTalk Hosts and host instances, see [Managing BizTalk Hosts and Host Instances](http://go.microsoft.com/fwlink/?LinkID=154191) (http://go.microsoft.com/fwlink/?LinkID=154191) in BizTalk Server Help.  
   
  To provide high availability for BizTalk Hosts, you must have two or more host instances for each host (on two or more computers) in your environment. By having more than one host instance for each host you make sure that if one host instance becomes unavailable, the host instances on other computers that are running instances of the same host can resume the functions of the problematic or failed host instance, and that the overall system can continue performing with minimal disruption.  
   

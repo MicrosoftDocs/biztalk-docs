@@ -57,7 +57,7 @@ You use the LOBWebApplication utility to submit an action or response message fr
   
 #### To build LOBWebApplication  
   
-1.  Start [!INCLUDE[vs2012](../../includes/vs2012-md.md)].  
+1.  Start Visual Studio.  
   
 2.  On the **File**, point to **Open**, and then click **Open Solution**.  
   

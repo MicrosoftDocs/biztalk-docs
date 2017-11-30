@@ -24,7 +24,7 @@ In this module, you create a blank BizTalk solution. In the first lesson, you cr
   
 ### To create a blank BizTalk solution  
   
-1.  Start **[!INCLUDE[vs2012](../../includes/vs2012-md.md)]**.  
+1.  Start **Visual Studio**.  
   
 2.  On the **File** menu, point to **New**, and then click **Project**.  
   

@@ -35,12 +35,12 @@ manager: "anneta"
  The XML preprocessor adds a DOCTYPE header to the message. The header identifies the document type definition (DTD) schema associated with the message. The RNIF specification requires the presence of a DOCTYPE header for RNIF transmission.  
   
 ## XML Assembler  
- The XML assembler is based on the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] XML assembler. It transfers properties from the message context back into envelopes and documents. It assembles the message from its XML parts and attachments. It does not perform message validation.  
+ The XML assembler is based on the BizTalk Server XML assembler. It transfers properties from the message context back into envelopes and documents. It assembles the message from its XML parts and attachments. It does not perform message validation.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] XML assembler, see "XML Assembler Pipeline Component" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] XML assembler, see "XML Assembler Pipeline Component" in BizTalk Server Help.  
   
 ## MIME/SMIME Encoder  
- The MIME/SMIME encoder is based on the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] MIME/SMIME Encoder. Depending on the protocol settings in the trading partner agreement, and the settings of the [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] MIME/SMIME Encoder, the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] encoder performs the following:  
+ The MIME/SMIME encoder is based on the BizTalk Server MIME/SMIME Encoder. Depending on the protocol settings in the trading partner agreement, and the settings of the BizTalk Server MIME/SMIME Encoder, the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] encoder performs the following:  
   
 -   Adds an 8-byte binary header to the message, as required for RNIF 1.1 messages.  
   
@@ -48,7 +48,7 @@ manager: "anneta"
   
 -   Encrypts the payload (service content plus attachments), or the payload container (service content plus service header plus attachments). If you have set the **Encode all ports** setting on the **Protocol** tab of the trading partner agreement to `False`, the encoder will encrypt only the payload. If you have set the **Encode all ports** setting to `True`, the encoder will encrypt the payload container.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] MIME/SMIME Encoder, see "MIME/SMIME Encoder Pipeline Component" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] MIME/SMIME Encoder, see "MIME/SMIME Encoder Pipeline Component" in BizTalk Server Help.  
   
 ## Message Flow  
  The message flow through the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] send pipeline is as follows:  

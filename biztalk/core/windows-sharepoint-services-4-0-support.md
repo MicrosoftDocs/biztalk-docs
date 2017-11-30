@@ -15,19 +15,19 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Windows SharePoint Services 4.0 Support
-The Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] provides feature/functionality parity with the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]. The Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] also supports the following functionality available with Windows SharePoint Services 4.0:  
+The Windows SharePoint Services adapter for BizTalk Server provides feature/functionality parity with the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]. The Windows SharePoint Services adapter for BizTalk Server also supports the following functionality available with Windows SharePoint Services 4.0:  
   
 -   Sending messages to a Windows SharePoint Services 4.0 blog site.  
   
 -   Sending messages to and receiving message from a Windows SharePoint Services 4.0 Wiki site.  
   
- The Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] does not provide support for the following features that are available in Windows SharePoint Services 4.0:  
+ The Windows SharePoint Services adapter for BizTalk Server does not provide support for the following features that are available in Windows SharePoint Services 4.0:  
   
--   **Recycle Bin**: The Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] adapter does not support receiving, or explicitly sending messages from/to the Recycle Bin.  
+-   **Recycle Bin**: The Windows SharePoint Services adapter for BizTalk Server adapter does not support receiving, or explicitly sending messages from/to the Recycle Bin.  
   
--   **Lists folders**: The Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] can send messages to lists but it cannot receive messages from lists. Windows SharePoint Services 4.0 supports folders in lists but the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] does not support this feature. Therefore, the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] cannot create list items in a list folder other than the root folder.  
+-   **Lists folders**: The Windows SharePoint Services adapter for BizTalk Server can send messages to lists but it cannot receive messages from lists. Windows SharePoint Services 4.0 supports folders in lists but the Windows SharePoint Services adapter for BizTalk Server does not support this feature. Therefore, the Windows SharePoint Services adapter for BizTalk Server cannot create list items in a list folder other than the root folder.  
   
--   The following sections describe in greater detail how to use the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] to send messages to a Windows SharePoint Services 4.0 blog site and how to send messages to and receive messages from a Windows SharePoint Services 4.0 Wiki site.  
+-   The following sections describe in greater detail how to use the Windows SharePoint Services adapter for BizTalk Server to send messages to a Windows SharePoint Services 4.0 blog site and how to send messages to and receive messages from a Windows SharePoint Services 4.0 Wiki site.  
   
 ## Sending to a Windows SharePoint Services 4.0 Blog Site  
  In a Windows SharePoint Services 4.0 blog site, posts are stored in the **Posts** list and post categories are defined in the **Categories** list.  
@@ -97,7 +97,7 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
  The str_Wiki variable in this expression would use the **System.String** data type.  
   
 > [!IMPORTANT]
->  The Windows SharePoint Services 4.0 Wiki document library supports versioning, however, the Windows SharePoint Services adapter for BizTalk Server 2010does not support versioning. Therefore, Wiki pages that are updated by the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] will lose their previous versions. Because of this limitation, a Wiki page that is received by the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] and archived in a different Wiki document library will preserve only its last version, with all other versions being deleted.  
+>  The Windows SharePoint Services 4.0 Wiki document library supports versioning, however, the Windows SharePoint Services adapter for BizTalk Server 2010does not support versioning. Therefore, Wiki pages that are updated by the Windows SharePoint Services adapter for BizTalk Server will lose their previous versions. Because of this limitation, a Wiki page that is received by the Windows SharePoint Services adapter for BizTalk Server and archived in a different Wiki document library will preserve only its last version, with all other versions being deleted.  
   
 ### Receiving from a Windows SharePoint Services 4.0 Wiki Document Library  
  When receiving messages from a Windows SharePoint Services 4.0 Wiki site, the contents of the Wiki page are stored within the Windows SharePoint Services adapter context property named **WSS.InPropertiesXml**.  

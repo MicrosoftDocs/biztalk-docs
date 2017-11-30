@@ -18,14 +18,14 @@ The destination system [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizta
   
 ### To update the BizTalk Server runtime computers  
   
-1.  Copy the edited SampleUpdateInfo.xml file to the \Program Files\Microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Schema\Restore directory on every 32 bit BizTalk server or to the \Program Files (x86)\Microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Bins32\Schema\Restore directory on every 64 bit BizTalk server in the destination system.  
+1.  Copy the edited SampleUpdateInfo.xml file to the \Program Files\Microsoft BizTalk Server\Schema\Restore directory on every 32 bit BizTalk server or to the \Program Files (x86)\Microsoft BizTalk Server\Bins32\Schema\Restore directory on every 64 bit BizTalk server in the destination system.  
   
 2.  On each BizTalk server, open a command prompt. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
     > [!NOTE]  
     >  On 64-bit computers, you must open a 64-bit command prompt.  
   
-3.  At the command-prompt, navigate to \Program Files\Microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Schema\Restore (on 32 bit computers) or to \Program Files (x86)\Microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Bins32\Schema\Restore (on 64 bit computers) and type this command:  
+3.  At the command-prompt, navigate to \Program Files\Microsoft BizTalk Server\Schema\Restore (on 32 bit computers) or to \Program Files (x86)\Microsoft BizTalk Server\Bins32\Schema\Restore (on 64 bit computers) and type this command:  
   
     ```  
     cscript UpdateRegistry.vbs SampleUpdateInfo.xml  

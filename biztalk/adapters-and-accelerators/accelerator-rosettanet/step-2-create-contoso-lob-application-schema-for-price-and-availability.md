@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 2: Creating the Contoso LOB Application Schemas for the Price and Availability Project Using BizTalk Editor
-In this step, you generate the schema to use to query the Contoso ERP system for the price and availability of a particular product. You generate this schema by using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® SQL Adapter for [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+In this step, you generate the schema to use to query the Contoso ERP system for the price and availability of a particular product. You generate this schema by using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® SQL Adapter for BizTalk Server.  
   
 ### To update the SQL stored procedure for schema generation  
   

@@ -17,7 +17,7 @@ manager: "anneta"
 # Handle Transactions with the Oracle Database adapter
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] does not initiate a transaction while performing an operation on the Oracle database. Instead, the adapter performs the operations using the transaction context provided by the adapter clients. In order to perform operations in a transaction using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], you must:  
   
--   Enable transactions in the adapter clients. For example, to enable transactions in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], you must select the **Use Transaction** check box in the **Transactions** area of the **Messages** tab for a WCF-Custom or WCF-OracleDB port.  
+-   Enable transactions in the adapter clients. For example, to enable transactions in BizTalk Server, you must select the **Use Transaction** check box in the **Transactions** area of the **Messages** tab for a WCF-Custom or WCF-OracleDB port.  
   
 -   Set the value of the **UseAmbientTransaction** binding property to **True** in the adapter. For more information about the binding property, see [Configure the binding properties for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).  
   

@@ -17,7 +17,7 @@ manager: "anneta"
 This topic describes monitoring BizTalk host instances using Microsoft System Center Operations Manager.  
   
 ## Using Threshold Rules to Monitor Health  
- The [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Management Pack incorporates performance threshold rules that provide a comprehensive view of the health of the BizTalk hosts. Two different types of threshold rules are provided:  
+ The BizTalk Server Management Pack incorporates performance threshold rules that provide a comprehensive view of the health of the BizTalk hosts. Two different types of threshold rules are provided:  
   
 -   Rules that apply generically (for example, to all BizTalk hosts and to all MessageBox databases).  
   
@@ -34,7 +34,7 @@ This topic describes monitoring BizTalk host instances using Microsoft System Ce
 -   You should create BizTalk host-specific rules based on the template rules and appropriate thresholds.  
   
 ## Monitoring BizTalk Host Instances  
- Rules that target specific BizTalk hosts are more flexible from a monitoring perspective. All threshold monitoring rules for the BizTalkServerApplication host provided in the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Management pack are template rules. In order to use these rules, you should use the Operations Manager Administrator console to:  
+ Rules that target specific BizTalk hosts are more flexible from a monitoring perspective. All threshold monitoring rules for the BizTalkServerApplication host provided in the BizTalk Server Management pack are template rules. In order to use these rules, you should use the Operations Manager Administrator console to:  
   
 -   Create a copy of the template rule in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] rule group and rename it.  
   

@@ -34,7 +34,7 @@ manager: "anneta"
   
  A tracking host instance moves tracking data for specific MessageBox databases, but there will never be more than one tracking host instance moving data for a specific MessageBox database. For example, if you have three MessageBox databases, and only two tracking host instances, then one of the host instances needs to move data for two of the MessageBox databases. Adding a third tracking host instance distributes the tracking host work to another computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In this scenario, adding a fourth tracking host instance would not distribute any more tracking host work, but would provide an extra tracking host instance for fault tolerance.  
   
- For more information about the BAM Event Bus service, see the following topics in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help:  
+ For more information about the BAM Event Bus service, see the following topics in BizTalk Server Help:  
   
 -   [Managing the BAM Event Bus Service](http://go.microsoft.com/fwlink/?LinkId=154194) (http://go.microsoft.com/fwlink/?LinkId=154194)  
   

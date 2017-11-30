@@ -23,7 +23,7 @@ In this step, you build a new solution by using the [!INCLUDE[btsCoName](../../i
   
 ### To create a new project  
   
-1.  Start **[!INCLUDE[vs2012](../../includes/vs2012-md.md)]**.  
+1.  Start **Visual Studio**.  
   
 2.  On the **File** menu, point to **New**, and then click **Project**.  
   

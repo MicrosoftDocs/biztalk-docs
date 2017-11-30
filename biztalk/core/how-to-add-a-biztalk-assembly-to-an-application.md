@@ -46,7 +46,7 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Administration and the BizTalk Group containing the application to which you want to add the BizTalk assembly.  
+2.  In the console tree, expand BizTalk Server Administration and the BizTalk Group containing the application to which you want to add the BizTalk assembly.  
   
 3.  Expand Applications and the application to which you want to add a BizTalk assembly.  
   

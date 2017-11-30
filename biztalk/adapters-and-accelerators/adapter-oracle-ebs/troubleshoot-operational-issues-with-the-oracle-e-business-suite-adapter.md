@@ -68,7 +68,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  The adapter gives the following error when performing any operation on the Oracle E-Business Suite using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **For [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **For BizTalk Server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  

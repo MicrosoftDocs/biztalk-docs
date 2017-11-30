@@ -27,7 +27,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 -   Set the batch activation criteria.  
   
- Microsoft [!INCLUDE[prague](../includes/prague-md.md)] EDI and AS2 enables the following processing of EDI interchanges:  
+ Microsoft BizTalk Server EDI and AS2 enables the following processing of EDI interchanges:  
   
 -   EDI interchanges can include transaction sets and/or acknowledgments.  
   

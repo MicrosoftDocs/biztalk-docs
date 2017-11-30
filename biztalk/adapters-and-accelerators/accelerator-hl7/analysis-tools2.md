@@ -22,7 +22,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Analysis Tools
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] provides a set of analysis tools for business analysts and information workers. For more information about these tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server provides a set of analysis tools for business analysts and information workers. For more information about these tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.  
   
 ## Business Activity Monitoring  
  BizTalk Business Activity Monitoring (BAM) provides business users with a real-time view of their heterogeneous business processes. It gives you the data you need to make business decisions.  

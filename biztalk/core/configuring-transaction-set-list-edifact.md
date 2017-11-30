@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configuring Transaction Set List (EDIFACT)
-[!INCLUDE[prague](../includes/prague-md.md)] enables you to define a list of transaction sets that must always be included or excluded while processing an EDI interchange. This section provides instructions on how to create the transaction set list.  
+BizTalk Server enables you to define a list of transaction sets that must always be included or excluded while processing an EDI interchange. This section provides instructions on how to create the transaction set list.  
   
 > [!IMPORTANT]
 >  No properties are disabled on this page even if you cleared the **Local BizTalk processes messages received by the party or supports sending messages from this party** check box while creating the party for which you are creating the agreement.  

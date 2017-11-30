@@ -38,7 +38,7 @@ In this step, you create a new project based on the BTAHL72XCommon Project templ
   
 ### To assign a strong key to the assembly and deploy  
   
-1.  Open **[!INCLUDE[vs2012](../../includes/vs2012-md.md)] Command Prompt**.  
+1.  Open **Visual Studio Command Prompt**.  
   
 2.  On the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt, browse to the **\<***drive***\>:\Batching Tutorial** folder.  
   

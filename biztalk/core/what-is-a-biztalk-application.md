@@ -28,7 +28,7 @@ manager: "anneta"
 # What Is a BizTalk Application?
 The BizTalk application is a feature of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that makes it quicker and easier to deploy, manage, and troubleshoot [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solutions. A BizTalk application is a logical grouping of the items, called "artifacts," used in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solution. Artifacts are described in more detail later in this topic.  
   
- The newly designed administration and monitoring tools of [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] take advantage of this new concept, so that you can manage and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solutions at the application level, and not just at the individual artifact level. By creating an application and adding artifacts to it, you can view, package, deploy, and manage a group of artifacts in a solution as a single entity. Therefore, as the number of complex applications increases you can still manage them individually in a simple and intuitive manner.  
+ The newly designed administration and monitoring tools of BizTalk Server take advantage of this new concept, so that you can manage and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solutions at the application level, and not just at the individual artifact level. By creating an application and adding artifacts to it, you can view, package, deploy, and manage a group of artifacts in a solution as a single entity. Therefore, as the number of complex applications increases you can still manage them individually in a simple and intuitive manner.  
   
  There are several tools you can use to create and manage applications, which are described in [Application Deployment and Management Tools](../core/application-deployment-and-management-tools.md).  
   
@@ -54,7 +54,7 @@ The BizTalk application is a feature of [!INCLUDE[btsBizTalkServerNoVersion](../
  An application can contain all of the artifacts used in a business solution or only some of them. Depending on how you want to deploy the artifacts, you may want to place them into a single application or into two or more applications. For more information about deciding how to group artifacts, see [Best Practices for Deploying a BizTalk Application](../core/best-practices-for-deploying-a-biztalk-application.md).  
   
 ## The default application  
- When [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is configured following installation, a default application named BizTalk Application 1 is automatically created. For information about best practices for grouping artifacts into different applications, see [Best Practices for Deploying a BizTalk Application](../core/best-practices-for-deploying-a-biztalk-application.md). You can also change the default application or rename the default application.  
+ When BizTalk Server is configured following installation, a default application named BizTalk Application 1 is automatically created. For information about best practices for grouping artifacts into different applications, see [Best Practices for Deploying a BizTalk Application](../core/best-practices-for-deploying-a-biztalk-application.md). You can also change the default application or rename the default application.  
   
  In the following scenarios, artifacts are automatically added to the default application:  
   
@@ -65,7 +65,7 @@ The BizTalk application is a feature of [!INCLUDE[btsBizTalkServerNoVersion](../
 -   When you use BTSTask to import an application .msi file without specifying an application name. For more information, see [ImportApp Command](../core/importapp-command.md).  
   
 ## The BizTalk.System application  
- When [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] is configured following installation, an application named BizTalk.System is automatically created and populated with common artifacts that are used by all BizTalk applications, such as the default schemas and pipelines. BizTalk.System and its artifacts are read-only. You cannot delete or rename BizTalk.System, nor can you delete, rename, or move any of the artifacts that it contains.  
+ When BizTalk Server is configured following installation, an application named BizTalk.System is automatically created and populated with common artifacts that are used by all BizTalk applications, such as the default schemas and pipelines. BizTalk.System and its artifacts are read-only. You cannot delete or rename BizTalk.System, nor can you delete, rename, or move any of the artifacts that it contains.  
   
 > [!IMPORTANT]
 >  Every application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] automatically contains a reference to the BizTalk.System application. This is because the artifacts in BizTalk.System are used by every BizTalk application. You should never remove a reference to the BizTalk.System application. If you do, your application may not function correctly.  

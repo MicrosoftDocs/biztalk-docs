@@ -77,7 +77,7 @@ This section contains useful information that may help you avoid errors with [!I
   
  Even though the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Setup program sets CacheEntries from 32 to 512, uninstalling [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] does not reset CacheEntries from 512 to 32.  
   
- For more information, see the "Rule Engine Configuration and Tuning Parameters" topic in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information, see the "Rule Engine Configuration and Tuning Parameters" topic in BizTalk Server Help.  
   
 #### Building a pipeline project may result in a large number of warnings  
  When you add the SWIFT assembler to a send pipeline, or the SWIFT disassembler to a receive pipeline, and then build the pipeline project containing those pipelines, you may receive a series of warnings related to the pipeline components. These warnings indicate that Visual Studio could not find dependencies. You can correct the condition leading to these warnings by changing the Copy Local property of the SWIFTAsm or SWIFTDasm assembly in the reference folder, as follows:  

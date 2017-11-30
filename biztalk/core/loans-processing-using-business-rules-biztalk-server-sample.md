@@ -21,7 +21,7 @@ manager: "anneta"
 The Loans Processing Using Business Rules sample demonstrates how to use a set of rules managed within an orchestration, and how to use a combination of inputs known as facts, to calculate settings for some fields within a document being processed. Facts can be the result of calling a .NET-based assembly, the values retrieved from the XML of the message, or the data retrieved from a database. The sample also demonstrates how you can change the rules at any time, affecting subsequent calculations without the need to redeploy.  
   
 ## What This Sample Does  
- This sample demonstrates these capabilities within the context of a simplified loan processing scenario. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration picks up and processes a loan application, also known as a loan case, in XML message format. This orchestration uses the Business Rule Engine to evaluate incoming messages according to the rules, modifying the message with the result of the application of the rules, and then writing the message as a file to an output folder.  
+ This sample demonstrates these capabilities within the context of a simplified loan processing scenario. BizTalk Server orchestration picks up and processes a loan application, also known as a loan case, in XML message format. This orchestration uses the Business Rule Engine to evaluate incoming messages according to the rules, modifying the message with the result of the application of the rules, and then writing the message as a file to an output folder.  
   
  Based on facts from several sources, including the message being processed, this sample sets the **IncomeStatus**, **CommitmentsStatus**, **EmploymentStatus**, and **ResidencyStatus** elements of the message being processed.  
   
@@ -50,7 +50,7 @@ The Loans Processing Using Business Rules sample demonstrates how to use a set o
 1.  Make sure that you have the Northwind database on your machine.  
   
     > [!IMPORTANT]
-    >  In order to run this sample, you must have a database named Northwind. [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] and [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] do not ship with the Northwind sample database. To create the Northwind database, download the install file from [http://go.microsoft.com/fwlink/?LinkId=196020](http://go.microsoft.com/fwlink/?LinkId=196020), and follow the instructions.  
+    >  To run this sample, you must have the Northwind SQL Server sample database. [Download](https://www.microsoft.com/download/details.aspx?id=23654), and install. 
   
 2.  In a command window, navigate to the following folder:  
   

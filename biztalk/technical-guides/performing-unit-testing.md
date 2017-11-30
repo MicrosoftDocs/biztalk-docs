@@ -19,10 +19,10 @@ Unit testing is focused at the component level and is basically a pass/fail test
 ## Using Visual Studio  
  Unit testing functionality is available with Visual Studio 2008 and later. For more information about the testing functionality that is available with Visual Studio, see [Testing the Application](http://go.microsoft.com/fwlink/?LinkId=159595) (http://go.microsoft.com/fwlink/?LinkId=159595).  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] also provides a unit testing feature to enable users to create unit tests for schemas, maps, and pipelines. For more information about this feature, see [Unit Testing with BizTalk Server Projects](http://go.microsoft.com/fwlink/?LinkId=158270) (http://go.microsoft.com/fwlink/?LinkId=158270).  
+ BizTalk Server also provides a unit testing feature to enable users to create unit tests for schemas, maps, and pipelines. For more information about this feature, see [Unit Testing with BizTalk Server Projects](http://go.microsoft.com/fwlink/?LinkId=158270) (http://go.microsoft.com/fwlink/?LinkId=158270).  
   
 > [!NOTE]  
->  Visual Studio is very useful for unit testing BizTalk artifacts such as orchestrations, schemas, pipelines, and pipeline components. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] provides test classes that you can use with Visual Studio Team System to test BizTalk artifacts.  
+>  Visual Studio is very useful for unit testing BizTalk artifacts such as orchestrations, schemas, pipelines, and pipeline components. BizTalk Server provides test classes that you can use with Visual Studio Team System to test BizTalk artifacts.  
   
 ## Using Non-Microsoft Tools  
  Two other commonly used tools for unit testing BizTalk solutions are **BizUnit** and **NUnit**. **BizUnit** works seamlessly with Visual Studio Team System Test Edition. Similarly, **NUnit** tests can be easily modified so that they can run as-is in Visual Studio Team System Test Edition. For more information about these tools, see [Tools for Testing](~/technical-guides/tools-for-testing.md).  

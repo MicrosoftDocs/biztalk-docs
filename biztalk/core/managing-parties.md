@@ -47,7 +47,7 @@ You can create and configure a party using the [!INCLUDE[btsBizTalkServerNoVersi
 3.  On the **Send Ports** page, do the following.  
   
     > [!NOTE]
-    >  In [!INCLUDE[prague](../includes/prague-md.md)], the send port association is done at the agreement level. The **Send Ports** page available as part of the party properties is purely for backward compatibility. Whenever you associate a send port with an agreement, the send port setting is also propagated to the party setting and you can see the send port association in this page as well. However, the reverse is not true. You cannot associate a send port with a party and then have that send port be automatically available as part of the agreement settings.  
+    >  In BizTalk Server, the send port association is done at the agreement level. The **Send Ports** page available as part of the party properties is purely for backward compatibility. Whenever you associate a send port with an agreement, the send port setting is also propagated to the party setting and you can see the send port association in this page as well. However, the reverse is not true. You cannot associate a send port with a party and then have that send port be automatically available as part of the agreement settings.  
   
     |Use this|To do this|  
     |--------------|----------------|  

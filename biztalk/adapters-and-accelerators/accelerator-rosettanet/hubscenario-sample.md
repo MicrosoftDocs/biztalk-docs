@@ -22,7 +22,7 @@ The HubScenario sample demonstrates how to manage message transmission in a hub 
   
  The HubScenario sample includes HubHelper.cs and HubScenario.odx projects.  
   
- The HubScenario sample also includes a binding file that you can use to import bindings for a receive port (MessagesToLOB_Receive_Port) and receive location (MessagesToLOB_Receive_Location) for use with the HubScenario.odx orchestration. This binding file (HubScenarioBinding.xml) is located in *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<version\> Accelerator for RosettaNet \SDK\HubScenario. Use the BTSTask command to import the bindings. For more information, see the "ImportBindings Command" topic in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ The HubScenario sample also includes a binding file that you can use to import bindings for a receive port (MessagesToLOB_Receive_Port) and receive location (MessagesToLOB_Receive_Location) for use with the HubScenario.odx orchestration. This binding file (HubScenarioBinding.xml) is located in *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<version\> Accelerator for RosettaNet \SDK\HubScenario. Use the BTSTask command to import the bindings. For more information, see the "ImportBindings Command" topic in BizTalk Server Help.  
   
 ### To build and initialize this sample  
   

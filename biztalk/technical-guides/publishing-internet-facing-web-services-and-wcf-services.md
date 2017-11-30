@@ -20,12 +20,12 @@ You can use multiple approaches for publishing [!INCLUDE[btsBizTalkServerNoVersi
   
 -   Put the computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that publish the Web services or WCF services into the perimeter network domain.  
   
--   Use [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] cloud enabler functionality to publish the Web services or WCF services as an Azure AppFabric Service Bus relay endpoint.  
+-   Use BizTalk Server cloud enabler functionality to publish the Web services or WCF services as an Azure AppFabric Service Bus relay endpoint.  
   
 ## Using a Reverse Proxy  
  This has been the traditional approach for publishing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services. Using reverse proxy rules in the perimeter network obviates the need to have BizTalk servers located in the perimeter network. The reverse proxy rules simply forward the HTTP and SOAP requests from the perimeter network to the computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the intranet domain.  
   
- For more information about using a reverse proxy, see the following topics in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help:  
+ For more information about using a reverse proxy, see the following topics in BizTalk Server Help:  
   
 -   ["Sample Architecture: HTTP and SOAP Adapters"](http://go.microsoft.com/fwlink/?LinkId=153339) (http://go.microsoft.com/fwlink/?LinkId=153339).  
   

@@ -34,7 +34,7 @@ RosettaNet Partner Interface Processes (PIPs) define business processes between 
  For more information, see [RosettaNet PIPs](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-pips.md).  
   
 ## Schemas in BTARN  
- RosettaNet specifies all PIP message schemas in the form of Document Type Definitions (DTDs). Trading partners who participate in the business-document exchange must comply with these DTDs. However, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] implements these DTDs as XML Schema Definition files (XSDs), because Microsoft  [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] represents documents by using XSDs, not DTDs. XSDs supersede DTDs in terms of functionality, and can represent most of the information provided in the message guidelines natively.  
+ RosettaNet specifies all PIP message schemas in the form of Document Type Definitions (DTDs). Trading partners who participate in the business-document exchange must comply with these DTDs. However, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] implements these DTDs as XML Schema Definition files (XSDs), because Microsoft  BizTalk Server represents documents by using XSDs, not DTDs. XSDs supersede DTDs in terms of functionality, and can represent most of the information provided in the message guidelines natively.  
   
 > [!NOTE]
 >  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] also supports next-generation PIPs, recently published by the RosettaNet organization, that use XSD specifications.  

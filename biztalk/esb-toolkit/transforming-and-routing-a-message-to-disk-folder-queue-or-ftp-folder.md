@@ -22,7 +22,7 @@ In this use case, the ESB transforms a message submitted through the Itinerary W
   
  **Transforming and routing a message to a disk folder**  
   
- The Dynamic Resolution sample included with [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] demonstrates this use case. It shows how to use the components to dynamically resolve endpoint location, set routing properties, and resolve and execute [!INCLUDE[prague](../includes/prague-md.md)] maps at the messaging level, without using an orchestration. It also demonstrates both one-way and two-way messaging patterns.  
+ The Dynamic Resolution sample included with [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] demonstrates this use case. It shows how to use the components to dynamically resolve endpoint location, set routing properties, and resolve and execute BizTalk Server maps at the messaging level, without using an orchestration. It also demonstrates both one-way and two-way messaging patterns.  
   
  An extension of this use case is a simple routing solution that routes an incoming message to a file, FTP, or queue location without the additional step of transformation.  
   

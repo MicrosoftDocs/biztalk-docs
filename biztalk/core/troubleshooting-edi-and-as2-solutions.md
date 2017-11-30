@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting EDI and AS2 Solutions
-The topics in this section describe known issues with the EDI and AS2 solutions in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], and describe common troubleshooting steps that can be used to identify and resolve problems that may be occurring in EDI and AS2 solutions.  
+The topics in this section describe known issues with the EDI and AS2 solutions in BizTalk Server, and describe common troubleshooting steps that can be used to identify and resolve problems that may be occurring in EDI and AS2 solutions.  
   
 ## In This Section  
   

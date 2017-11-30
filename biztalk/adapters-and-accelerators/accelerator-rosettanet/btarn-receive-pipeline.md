@@ -40,16 +40,16 @@ manager: "anneta"
  This component stores the received message in the MessageStorageIn table. This component performs the non-repudiation processing required by the RNIF standards.  
   
 ## RNMimeDecoder  
- This component is based on the native [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] MIME Preprocessor/Decoder. RNMimeDecoder adds the following functionality for RNIF processing:  
+ This component is based on the native BizTalk Server MIME Preprocessor/Decoder. RNMimeDecoder adds the following functionality for RNIF processing:  
   
 -   For RNIF 2.01, decrypts the service content and attachments, if they are present.  
   
 -   For RNIF 1.1, handles the 8-byte header and the detached signature header at the end of the payload.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] preprocessor/decoder, see "MIME/SMIME Decoder Pipeline Component" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] preprocessor/decoder, see "MIME/SMIME Decoder Pipeline Component" in BizTalk Server Help.  
   
 ## RNDAsm  
- This component is based on the native [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] XML Disassembler. RNDAsm adds the following functionality for RNIF processing:  
+ This component is based on the native BizTalk Server XML Disassembler. RNDAsm adds the following functionality for RNIF processing:  
   
 -   If an incoming document has a DOCTYPE header, this component generates a namespace from it and moves all nodes in the incoming document to that namespace.  
   
@@ -59,16 +59,16 @@ manager: "anneta"
   
 -   Promotes message properties.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Disassembler, see "XML Disassembler Pipeline Component" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Disassembler, see "XML Disassembler Pipeline Component" in BizTalk Server Help.  
   
 ## RNPartyRes  
- This component is based on the native [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Party Resolution component. RNPartyRes adds the following functionality for RNIF processing:  
+ This component is based on the native BizTalk Server Party Resolution component. RNPartyRes adds the following functionality for RNIF processing:  
   
 -   Maps the sender certificate if the incoming message is signed to a BizTalk party. If the incoming message is not signed, and the trading partner agreement allows for it, this component retrieves the sender party from the Delivery header for RNIF 2.01 or the Service header for RNIF 1.1.  
   
 -   Validates that the sender exists and that the sender has a trading partner agreement with the home organization.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] party resolution component, see "Party Resolution Pipeline Component" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] party resolution component, see "Party Resolution Pipeline Component" in BizTalk Server Help.  
   
 ## MessageUpdater  
  This component adds the following functionality for RNIF processing:  

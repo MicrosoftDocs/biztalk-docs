@@ -121,7 +121,7 @@ The following steps describe how to prepare the computer for installing the inli
   
 2.  Install the MQSeries Agent.  
   
-    1.  Rerun the [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] setup program.  
+    1.  Rerun the BizTalk Server setup program.  
   
     2.  On the **Program Maintenance** page, select **Modify**, and then click **Next**.  
   

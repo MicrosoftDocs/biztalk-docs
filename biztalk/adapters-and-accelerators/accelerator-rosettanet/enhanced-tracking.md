@@ -94,7 +94,7 @@ manager: "anneta"
 ### Activity Definition File  
  The activity definition file defines the fields that you track in BAM, and how you view them. For more information about this file, see [Working with the Tracking Activity Definition File](../../adapters-and-accelerators/accelerator-rosettanet/working-with-the-tracking-activity-definition-file.md).  
   
- For more information about BAM, see "Business Activity Monitoring (BAM)" in [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Help.  
+ For more information about BAM, see "Business Activity Monitoring (BAM)" in BizTalk Server Help.  
   
 ## See Also  
  [Working with the Tracking Activity Definition File](../../adapters-and-accelerators/accelerator-rosettanet/working-with-the-tracking-activity-definition-file.md)   

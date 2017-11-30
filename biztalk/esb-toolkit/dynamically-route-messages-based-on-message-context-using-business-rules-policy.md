@@ -15,7 +15,7 @@ manager: "anneta"
 ---
 # How to: Dynamically Route a Message Based on Message Context Using a Business Rules Policy
 ## Goal  
- This section demonstrates how to create an itinerary that determines message endpoints, based on message context properties, using a [!INCLUDE[prague](../includes/prague-md.md)] Business Rules Engine (BRE) policy, and then routes the message using the [!INCLUDE[prague](../includes/prague-md.md)] FILE adapter.  
+ This section demonstrates how to create an itinerary that determines message endpoints, based on message context properties, using a BizTalk Server Business Rules Engine (BRE) policy, and then routes the message using the BizTalk Server FILE adapter.  
   
  In this How-to topic, you will complete the following steps:  
   
@@ -31,7 +31,7 @@ manager: "anneta"
 ## Steps  
  **To create a BRE policy to route a message using message context properties**  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **[!INCLUDE[prague](../includes/prague-md.md)]**, and then click **Business Rule Composer**.  
+1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **Business Rule Composer**.  
   
 2.  In Policy Explorer, right-click **Policies**, and then click **Add New Policy**. Name the policy **RouteBasedOnMessageType**.  
   
@@ -66,7 +66,7 @@ manager: "anneta"
   
  **To create an ESB itinerary domain-specific language (DSL) model**  
   
-1.  In [!INCLUDE[vs2010](../includes/vs2010-md.md)], open C:\HowTos\Patterns\Patterns.sln.  
+1.  In Visual Studio, open C:\HowTos\Patterns\Patterns.sln.  
   
 2.  In Solution Explorer, right-click the **ItineraryLibrary** project, point to **Add**, and then click **New Itinerary**.  
   
