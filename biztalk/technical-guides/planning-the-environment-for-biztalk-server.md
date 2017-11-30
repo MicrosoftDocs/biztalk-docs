@@ -34,8 +34,8 @@ The planning section of the operations guide describes roles and responsibilitie
 |**Scenario**|**Product to use**|  
 |------------------|------------------------|  
 |User provisioning|**Microsoft Identity Lifecycle Manager 2010**<br /><br /> For more information about Microsoft Identity Lifecycle Manager 2010, see [Microsoft Identity Lifecycle Manager 2010 FP1](http://go.microsoft.com/fwlink/?LinkId=204577) (http://go.microsoft.com/fwlink/?LinkId=204577).|  
-|Data replication between systems|**SQL Server Replication**<br /><br /> For more information about [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] replication, see [SQL Server 2008 R2 Replication](http://go.microsoft.com/fwlink/?LinkID=69978) (http://go.microsoft.com/fwlink/?LinkID=69978).|  
-|Data extraction, transform, and load (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> For more information about [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Integration Services, see [SQL Server 2008 R2 Integration Services](http://go.microsoft.com/fwlink/?LinkId=152044) (http://go.microsoft.com/fwlink/?LinkId=152044).|  
+|Data replication between systems|**SQL Server Replication**<br /><br /> For more information about SQL Server replication, see [SQL Server 2008 R2 Replication](http://go.microsoft.com/fwlink/?LinkID=69978) (http://go.microsoft.com/fwlink/?LinkID=69978).|  
+|Data extraction, transform, and load (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> For more information about SQL Server Integration Services, see [SQL Server 2008 R2 Integration Services](http://go.microsoft.com/fwlink/?LinkId=152044) (http://go.microsoft.com/fwlink/?LinkId=152044).|  
   
 ## Deciding Which Edition of BizTalk Server Is Right for the Job  
  There are four different editions of BizTalk Server, each of which is targeted at specific scenarios. The four editions of BizTalk Server include:  

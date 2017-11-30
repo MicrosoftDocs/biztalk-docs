@@ -38,7 +38,7 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
   
  Additionally, files and filegroups enable data placement, because tables can be created in specific filegroups. This improves performance, because all file I/O for a given table can be directed at a specific disk. For example, a heavily used table can be placed on a file in a filegroup, located on one disk, and the other less heavily accessed tables in the database can be located on different files in another filegroup, located on a second disk.  
   
- File I/O bottlenecks are discussed in considerable detail in the topic [Bottlenecks in the Database Tier](../technical-guides/bottlenecks-in-the-database-tier.md). The most common indicator that file I/O (disk I/O) is a bottleneck is the value of the “Physical Disk:Average Disk Queue Length” counter. When the value of the “Physical Disk:Average Disk Queue Length” counter is greater than about 3 for any given disk on any of the computers running SQL Server, then file I/O is likely a bottleneck.  
+ File I/O bottlenecks are discussed in considerable detail in [Bottlenecks in the Database Tier](../technical-guides/bottlenecks-in-the-database-tier.md). The most common indicator that file I/O (disk I/O) is a bottleneck is the value of the “Physical Disk:Average Disk Queue Length” counter. When the value of the “Physical Disk:Average Disk Queue Length” counter is greater than about 3 for any given disk on any of the computers running SQL Server, then file I/O is likely a bottleneck.  
   
  If applying file or filegroup optimization doesn't resolve a file I/O bottleneck problem, it may be necessary to increase the throughput of the disk subsystem by adding additional physical or SAN drives.  
   

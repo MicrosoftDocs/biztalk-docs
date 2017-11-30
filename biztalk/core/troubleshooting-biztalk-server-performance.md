@@ -80,7 +80,7 @@ This section contains general guidelines for diagnosing and resolving performanc
   
 -   SQL Server Profiler can be used to capture Transact-SQL statements that are sent to SQL Server and the SQL Server result sets from these statements. Since BizTalk Server is tightly integrated with SQL Server, the analysis of a SQL Server Profile trace can be a useful tool for analyzing problems that may occur in BizTalk Server when reading from and writing to SQL Server databases. For information about how to use SQL Server Profiler see the SQL Server documentation.  
   
--   The [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Query Editor can be used to execute SQL statements directly against SQL Server databases. This functionality may be useful for querying the BizTalk Server databases or for updating the BizTalk Server databases in certain scenarios. For more information about Query Editor see the [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] documentation.  
+-   The SQL Server Query Editor can be used to execute SQL statements directly against SQL Server databases. This functionality may be useful for querying the BizTalk Server databases or for updating the BizTalk Server databases in certain scenarios. For more information about Query Editor see the SQL Server documentation.  
   
 -   Review [Troubleshooting SQL Server](../core/troubleshooting-sql-server.md) for additional information.  
   

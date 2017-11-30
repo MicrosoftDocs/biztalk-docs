@@ -18,7 +18,7 @@ manager: "anneta"
 This topic describes typical tasks that BAM administrators undertake in managing the BAM infrastructure.  
   
 ## Configuring BAM  
- The initial configuration of BAM is done using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration Wizard. Using the configuration wizard administrators can:  
+ The initial configuration of BAM is done using the BizTalk Server Configuration Wizard. Using the configuration wizard administrators can:  
   
 -   Enable Business Activity Monitoring tools  
   
@@ -48,21 +48,24 @@ This topic describes typical tasks that BAM administrators undertake in managing
   
  For more information about using the configuration wizard see the following topics:  
   
--   [Configuring BAM Alerts Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/04d79f8c-9e7f-4ba8-83ce-f79c33fb8e60)  
+-   [Configure BAM Alerts](../install-and-config-guides/configure-biztalk-server.md)  
   
--   [Configuring BAM Tools Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/075a1627-5bc2-488c-a88c-42c86cc8c3bb)  
+-   [Configure BAM Tools](../install-and-config-guides/configure-biztalk-server.md)  
   
--   [Configuring the BAM Portal Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/8af7cccb-823e-48bd-9743-dfbba4bafa11)  
+-   [Configure the BAM Portal](../install-and-config-guides/configure-biztalk-server.md)  
   
-### Distributed Notification Services  
- Configuring BAM to run in a distributed environment affords performance benefits when processing alerts and notifications. When you do this, the Provider, Generator, and Distributor roles of Notification Services are on different computers and you must install Notification Services in the multiple computer environment.  
+### Distributed Notification Services - SQL Server 2008 R2 only
+Configuring BAM to run in a distributed environment affords performance benefits when processing alerts and notifications. When you do this, the Provider, Generator, and Distributor roles of Notification Services are on different computers and you must install Notification Services in the multiple computer environment.  
+
+> [!NOTE]
+> Starting with SQL Server 2012, BizTalk Server uses SQL Database Mail. So if you're using SQL Server 2012 or newer, this does not apply to you. See [BAM Alerts](../install-and-config-guides/prepare-your-computer-for-installation.md#BKMK_BAMAlerts) for guidance.
   
 ##### To configure distributed Notification Services  
   
-1.  Install the [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)] Notification Services. For more information about Distributed Notification Services, see the [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)] Notification Services documentation at [http://go.microsoft.com/fwlink/?LinkId=68095](http://go.microsoft.com/fwlink/?LinkId=68095).  
+1.  Install SQL Server Notification Services. 
   
     > [!NOTE]
-    >  Notification Services is not included in [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], install [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Services when you install BizTalk Server by selecting the **BAM Alert Provider for SQL Notification Services** option under **Additional Software** on the **Component Installation** page of the installation wizard.  
+    >  Notification Services is not included in SQL Server. Install SQL Server Notification Services when you install BizTalk Server by selecting the **BAM Alert Provider for SQL Notification Services** option under **Additional Software** on the **Component Installation** page of the installation wizard.  
   
 2.  To create the BAM notification service on each computer in the distributed environment run C:\Program Files\Microsoft SQL Server\90\NotificationServices\9.0.242\bin\nscontrol register -name bamalerts -server \<server name\> -service -serviceusername \<alertsuseraccount\> -servicepassword \<passwd\> from a command prompt.  
   
@@ -80,7 +83,7 @@ This topic describes typical tasks that BAM administrators undertake in managing
   
 6.  Restart the Notification Services on all the computers in the distributed environment.  
   
- For more information on installing BAM in a multicomputer environment, see [Installation Guides Related to BizTalk Server 2013](http://go.microsoft.com/fwlink/p/?LinkID=269582) and [Install and Configure BAM (Business Activity Monitoring) in a Multi-Computer Environment](http://go.microsoft.com/fwlink/p/?LinkID=208597).  
+ For more information on installing BAM in a multicomputer environment, see [Install and Configure BAM (Business Activity Monitoring) in a Multi-Computer Environment](http://go.microsoft.com/fwlink/p/?LinkID=208597).  
   
 ### Moving the BAM Primary Import Database  
  At some point it may become necessary to move the BAM Primary Import database, such as when you are upgrading hardware or scaling up operations. To move the database you perform a backup and restore operation. For more information about this process, see [Backing Up and Restoring BAM](../core/backing-up-and-restoring-bam.md).  
@@ -101,9 +104,9 @@ This topic describes typical tasks that BAM administrators undertake in managing
  For a description of all the commands available through the BAM Management utility, see [BAM Management Utility](../core/bam-management-utility.md). For examples of using the BAM Management utility to work with BAM definitions, see [Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md).  
   
 ## Configuring Multiple BizTalk Groups to Reference a Single BAM Database  
- When configuring BAM to use either a new or an existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group, you can configure the group to use the same BAM databases that are already in use by another [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group.  To configure BAM in this manner, you must perform the following tasks:  
+ When configuring BAM to use either a new or an existing BizTalk Server group, you can configure the group to use the same BAM databases that are already in use by another BizTalk Server group.  To configure BAM in this manner, you must perform the following tasks:  
   
--   Get the configuration information from the existing BAM Primary Import database using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration Wizard. This includes the server and database names. Note the state of the check boxes. Be sure to get the configuration information for both the BAM Tools and BAM Alerts pages.  
+-   Get the configuration information from the existing BAM Primary Import database using the BizTalk Server Configuration Wizard. This includes the server and database names. Note the state of the check boxes. Be sure to get the configuration information for both the BAM Tools and BAM Alerts pages.  
   
 -   Configure BAM for the new group, and enter the exact information as configured already for the target PIT. When entering the configuration information for the new group you will use all the information collected from the existing group to configure the new group, except the BAM Alerts user, which you must leave blank.  
   

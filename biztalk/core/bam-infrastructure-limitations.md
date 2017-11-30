@@ -8,12 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, limitations"
-  - "infrastructure, BAM"
-  - "BAM, objects"
-  - "BAM, infrastructure"
-  - "BAM, naming conventions"
 ms.assetid: e33d2f6c-8d26-4a76-810e-85d810cfdbee
 caps.latest.revision: 21
 author: "MandiOhlinger"
@@ -46,7 +40,7 @@ The BAM infrastructure has the following design limitations for this release of 
 |Dimension levels in OLAP|64|OLAP limitation with an additional limit of 256 levels per cube.|  
 |Dimension levels in RTA view|14 dimension levels|BAM creates an index on all dimension levels, a SQL Server index can be created on up to 16 columns, and BAM reserves two for system columns.|  
 |Measures, hidden measures (default count, hidden SUM measures for AVG), and dimension levels in RTA view|1,024|Maximum of 1,024 columns in SQL table/view.|  
-|ActivityViews|63|When you configure an alert, you are limited to 63 ActivityViews under [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)].|  
+|ActivityViews|63|When you configure an alert, you are limited to 63 ActivityViews under SQL Server.|  
   
 ## BAM object names  
  The following table lists the limitations of object names in the BAM definition schema and Microsoft Excel spreadsheet.  

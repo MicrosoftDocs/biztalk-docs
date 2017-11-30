@@ -16,15 +16,7 @@ manager: "anneta"
 ---
 # Performance Tools
 This topic provides information on tools you can use to evaluate the performance of a BizTalk Server solution. The tools described in this topic have different purposes; some are designed to evaluate end-to-end performance while others focus on evaluating performance of a particular aspect of a BizTalk Server solution.  
-  
-## BizTalk Server Orchestration Profiler  
- The BizTalk Server Orchestration Profiler is used to view orchestration tracking data for a specified period of time and is useful for determining where performance bottlenecks exist in orchestrations.  
-  
- For more information about the BizTalk Server Orchestration Profiler, see [BizTalk Server 2006 Orchestration Profiler](http://go.microsoft.com/fwlink/?LinkId=102209) (http://go.microsoft.com/fwlink/?LinkId=102209).  
-  
-> [!NOTE]  
->  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk. Also note that this utility was designed to work with BizTalk Server 2006 and therefore may not work as expected on BizTalk Server 2010.  
-  
+ 
 ## BizUnit and BizUnit Designer  
  BizUnit is a framework designed for automated testing of BizTalk solutions. BizUnit is an excellent tool for testing end-to-end BizTalk Server scenarios. Performing automated testing of BizTalk solutions with BizUnit is the primary focus of the [Implementing Automated Testing](../technical-guides/implementing-automated-testing.md) section of this guide. See [BizUnit](https://github.com/BizUnit/BizUnit).
   
@@ -74,7 +66,7 @@ Windows Performance Tools are designed for analysis of a wide range of performan
 See [Windows Performance Analysis](https://docs.microsoft.com/windows-hardware/test/weg/performance-tools).
   
 ## SQL Server Tools for Performance Monitoring and Tuning  
- SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. These tools are described in the SQL Server Books Online topic [Tools for Performance Monitoring and Tuning](http://go.microsoft.com/fwlink/?LinkId=146357) (http://go.microsoft.com/fwlink/?LinkId=146357). Information about specific tools used for SQL Server performance monitoring and tuning is provided below:  
+ SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. See [Performance Monitoring and Tuning Tools](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools). 
   
 ### SQL Profiler  
  Microsoft SQL Server Profiler can be used to capture Transact-SQL statements that are sent to SQL Server and the SQL Server result sets from these statements. Because SQL Server is tightly integrated with SQL Server, the analysis of a SQL Server Profile trace can be a useful tool for analyzing problems that may occur in BizTalk Server when reading from and writing to SQL Server databases. See [Using SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler-templates-and-permissions).

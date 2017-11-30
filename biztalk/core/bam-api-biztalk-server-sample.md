@@ -159,10 +159,10 @@ The BAM API sample illustrates how to incorporate calls to the BAM API into an a
   
 2.  In SQL Server Management Studio, expand the server, expand **Databases**, expand **BAMPrimaryImport**, and then expand **Tables**.  
   
-3.  Right-click **dbo.bam_BAMApiInvoice_Active** and then click **Open Table**. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], click **Select top 1000 rows**.  
+3.  Right-click **dbo.bam_BAMApiInvoice_Active** and then click **Open Table**. If you are using SQL Server, click **Select top 1000 rows**.  
   
      The contents of the bam_BAMApiInvoice_Active table are displayed in the right pane. Each row in the table represents a BAMApiInvoice activity that has been started, but  has not been completed.  
   
-4.  Right-click **dbo.bam_BAMApiPo_Completed** and then click **Open Table**. If you are using [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], click **Select top 1000 rows**.  
+4.  Right-click **dbo.bam_BAMApiPo_Completed** and then click **Open Table**. If you are using SQL Server, click **Select top 1000 rows**.  
   
      The contents of the bam_BAMApiPo_Completed table are displayed in the right pane. Each row in the table represents a BAMApiPo activity that has been completed.
