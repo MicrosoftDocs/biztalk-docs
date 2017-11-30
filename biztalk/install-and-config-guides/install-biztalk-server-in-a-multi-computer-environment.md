@@ -15,9 +15,6 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Install BizTalk Server in a Multi-Computer Environment
-The following document provides detailed guidelines and instructions for installing and configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in multiple-computer environment:  
-  
- [Installing and Configuring BizTalk Server in Multiple-Computer Environments](http://go.microsoft.com/fwlink/?LinkId=393979)  
 
 ## Overview
 
@@ -31,20 +28,20 @@ The single server installation guide contains important procedures and more back
 - Software and hardware requirements
 - CAB file redistributable component list
 
-## High Availability
+## High availability
 BizTalk Server provides a high availability solution that uses network load balancing (NLB) clustering and failover clustering, and SQL Server Always On using Availability Groups (AG). A high availability solution helps minimize the downtime if there is a hardware or software failure. 
 
 **NLB and failover clusters** complement each other in complex architectures. NLB clustering is used for to load balance requests between front-end web servers. Failover clustering provides high availability for the BizTalk Server in-process hosts, the Enterprise Single Sign-On Master Secret Server and BizTalk Server databases. This is typically used for on-premises environments. The following are good resources: 
 
-[BizTalk Server: High Availability Survival Guide](http://social.technet.microsoft.com/wiki/contents/articles/6532.biztalk-server-high-availability-survival-guide.aspx)
+* [BizTalk Server: High Availability Survival Guide](http://social.technet.microsoft.com/wiki/contents/articles/6532.biztalk-server-high-availability-survival-guide.aspx)
 
-[Improving Fault Tolerance in BizTalk Server by Using a Windows Server failover cluster or Windows Server cluster](http://go.microsoft.com/fwlink/p/?LinkId=154499)
+* [Improving Fault Tolerance in BizTalk Server by Using a Windows Server failover cluster or Windows Server cluster](http://go.microsoft.com/fwlink/p/?LinkId=154499)
 
 **SQL Server Always On AG** can be used with on-premises environments, and with Azure virtual machines. AG support starts with BizTalk Server 2016, and is supported in any newer versions of BizTalk Server. AG includes primary database replicas, and secondary database replicas. BizTalk Server connects to the primary database replicas, while the secondary database replicas provide redundancy and fail over. [Always On Availability Groups (SQL Server)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server) provides details on AG works. 
 
 [BizTalk HA using SQL Server Always On AG](../core/high-availability-using-sql-server-always-on-availability-groups.md) provides more details from a BizTalk-perspective.
 
-## Separate Runtime and Administration
+## Separate runtime and administration
 BizTalk Server supports various installation scenarios in the production environment. For example, you can install, configure, and deploy a runtime-only installation on one computer and an administration tools-only installation on a second computer.
 
 During an Administration tools-only installation, the following components are installed: BizTalk Administration console, BM.exe, and BTSDeploy.exe. Consider the following when creating an Administration Tools-only BizTalk Server installation:
@@ -60,7 +57,7 @@ During an Administration tools-only installation, the following components are i
 To install only Administration tools for BizTalk Server, select only **Administration Tools** during Setup. After the installation is complete, open the custom configuration manager and join an existing Enterprise Single Sign-On (SSO) system and BizTalk group.
 Top of page
 
-## Enable Distributed Transaction Coordinator
+## Enable MSDTC
 Before installing and configuring BizTalk Server in a multicomputer environment, enable network DTC access and network COM+ access on all BizTalk servers and any remote SQL Server instances used by BizTalk Server. See [Post-configuration steps to optimize your environment](post-configuration-steps-to-optimize-your-environment.md).
 
 Additional:
@@ -71,10 +68,10 @@ Additional:
 
 - To ensure that the DTC settings are correct, use the DTC Tester and DTC Ping tools. These tools and more DTC troubleshooting are described at [BizTalk Server - Troubleshooting Problems with MSDTC](https://social.technet.microsoft.com/wiki/contents/articles/2031.biztalk-server-troubleshooting-problems-with-msdtc.aspx).
 
-## SQL Server Considerations
+## Remote SQL Server
 When SQL Server is installed on a remote computer:
 
-- SQL Server Management Tools (newer SQL versions) or SQL Server Client Tools Connectivity (older SQL versions) must be installed on the local BizTalk Server computer when SQL Server is remote. The SQL Server Tools installs the client libraries required to communicate with the remote instance of SQL Server. The version of the SQL Server tools on the local BizTalk Server computer must be the same version that is installed on the remote SQL Server.
+- [SQL Server Management Tools](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) (newer SQL versions) or SQL Server Client Tools Connectivity (older SQL versions) must be installed on the local BizTalk Server computer when SQL Server is remote. The SQL Server Tools installs the client libraries required to communicate with the remote instance of SQL Server. The version of the SQL Server tools on the local BizTalk Server computer must be the same version that is installed on the remote SQL Server.
 
 - SQL Server OLAP client must be installed on the local computer if you plan to use Analysis Services remotely. The OLAP client may be included with [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=52676).
 
@@ -86,7 +83,7 @@ When SQL Server is installed on a remote computer:
 
 - Named instances of SQL Server Analysis Services are not supported.
 
-### Supported SQL Server Topologies
+### SQL Server Topologies
 SQL Server can be installed locally on the BizTalk Server, or on another server dedicated to SQL Server. Most production scenarios include BizTalk Server and SQL Server installed on separate computers. 
 
 For a list of the supported SQL Server versions, see: 
@@ -97,7 +94,7 @@ For a list of the supported SQL Server versions, see:
 > ![IMPORTANT]
 > Any additional service packs and Windows Updates are supported and should be installed.
 
-### Maintain and troubleshoot BizTalk Server databases
+### Maintain and troubleshoot databases
 
 See [How to maintain and troubleshoot BizTalk Server databases](http://support.microsoft.com/kb/952555).
 
@@ -153,7 +150,7 @@ In addition to Database Services that required by the BizTalk Server core functi
 
 - SQL Server Database Mail or SQL Server Notification Services (SSNS)
 
-##### Configure SQL Server Integration Services (SSIS)
+##### Configure SSIS
 If your SQL Server is installed on a computer other than the BizTalk Server, then configure SSIS. In this task, you configure the SSIS to use the msdb database on a remote SQL Server.
 
 1. Open a Command Prompt.
@@ -173,7 +170,7 @@ If your SQL Server is installed on a computer other than the BizTalk Server, the
 
     The `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDTS\ServiceConfigFile` registry key specifies the location and name for the configuration file that Integration Services service uses. The default value of the registry key is C:\Program Files\Microsoft SQL Server\100\DTS\Binn\ MsDtsSrvr.ini.xml. You can update the value of the registry key to use a different name and location for the configuration file.
 
-#### Configure BAM Primary Import, BAM Archive, BAM Star Schema, BAM Analysis, and BAM Notification Services Application databases
+#### Configure BAM databases
 You can configure BAM Primary Import, BAM Archive, BAM Star Schema, BAM Analysis, and BAM Notification Services Application databases on different computers. The following are the software requirements when SQL Server is installed on a computer other than the BizTalk Server:
 
 | BAM feature | Feature configuration | BizTalk Server | SQL Server | 
@@ -238,10 +235,10 @@ If you are upgrading your existing BAM scale-out alerts topology to BizTalk Serv
 ### BAM Portal
 The Portal Components are a set of services used by business people to communicate, collaborate, and make decisions that enable them to interact, configure, and monitor business processes and workflows. To use this feature, install Internet Information Services (IIS). The IIS requirements are in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
 
-### Enable BAM Add-in from Excel
+### BAM Add-in from Excel
 [Add or remove add-ins](https://support.office.com/article/add-or-remove-add-ins-0af570c4-5cf3-4fa9-9b88-403625a0b460) lists the steps for Excel. The BAM add-in name is **Business Activity Monitoring**.
 
-### Configure Multiple BizTalk Groups to Reference a Single BAM Database
+### Configure Multiple BizTalk Groups to use a Single BAM Database
 Share the BAM databases across multiple BizTalk groups:
 
 1. Configure the first BizTalk group with the BAM features. These features include BAM tools, the BAM Analysis database, BAM alerts, and the BAM portal.
@@ -276,7 +273,7 @@ Share the BAM databases across multiple BizTalk groups:
 - For the Excel client, you need Microsoft Excel and the BAM Excel Add-in provided with BizTalk Server.
 
 
-## Windows Groups and Service Accounts
+## Groups and Service Accounts
 Manually create all of the domain groups and accounts before you configure BizTalk Server in a multicomputer installation. The following information is useful in creating these groups and accounts.
 
 In a multicomputer environment, BizTalk Server supports only domain groups and domain service accounts. 
@@ -293,7 +290,7 @@ In a multicomputer environment, BizTalk Server supports only domain groups and d
 
 - Whenever possible, use the default account names created during setup. The BizTalk Server setup program automatically configures installed components to use the default accounts. Using the default names simplifies setup and configuration, but it is not always possible. For example, there can be multiple BizTalk Server groups within an Active Domain forest. In this situation, the account names must be modified to avoid conflicts. Or, your organization might use naming standards for service and user accounts so you change the default accounts to conform to the standard.
 
-### Windows Groups Used In BizTalk Server
+### Windows Groups
 The following table lists the Windows groups and their membership used by BizTalk Server. It also identifies the SQL Server Roles or Database Roles for the group.
 
 | Group | Group Description | Membership | SQL Server Roles or Database Roles | 
@@ -309,7 +306,7 @@ The following table lists the Windows groups and their membership used by BizTal
 | BizTalk SharePoint Adapter Enabled Hosts | Has access to Windows SharePoint Services Adapter Web Service. | Contains service accounts for the BizTalk host instance to use the SharePoint Adapter. |  | 
 | BizTalk B2B Operators Group | A BizTalk role that reduces the onus on the Administrators to perform all Party management operation. This role allows windows users associated with the role to perform all party management operations. | Contains users/groups that must be able to configure and administer BizTalk Server TPM data and monitor solutions. | **BTS_OPERATORS** SQL Server Database Role in the following databases: <br/>BizTalkDTADb<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BAMPrimaryImport |
 
-### User and Service Accounts Used In BizTalk Server
+### User and Service Accounts
 The following table lists the Windows user or service accounts and group affiliations used by BizTalk Server. It also identifies the SQL Server Roles or Database Roles for the accounts.
 
 | User| User Description| Group Affiliation | SQL Server Roles or Database Roles| 
@@ -325,7 +322,7 @@ The following table lists the Windows user or service accounts and group affilia
 > ![IMPORTANT]
 > For more information about Windows groups and service accounts used in BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).
 
-## Databases Used by BizTalk Server
+## Databases list
 The following is the list of SQL Server databases used in BizTalk Server:
 
 | Data store name | Default database name | Volume | Growth | Description | 
@@ -348,14 +345,13 @@ The following is the list of SQL Server databases used in BizTalk Server:
 | Windows SharePoint Services configuration database | User-defined | Low | Low | This database contains all of the global settings for the server. | 
 | Windows SharePoint Services content database | User-defined | Medium | Medium | This database contains all of the site content, such as list items and documents. | 
 
-## Install BizTalk Server in a Multiple Server environment
+## Install BizTalk a multi-server environment
 
 1. **Install Active Directory Domain Services** - The first step required to install BizTalk Server into a multiple server environment is to install Active Directory domain services for the various BizTalk Server groups and accounts. To create the Active Directory domain, refer to the following:
 
     * Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
-
     * Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
-    
+
 
     > ![IMPORTANT]
     > The BizTalk Server groups described in the **User and Service Accounts Used In BizTalk Server** table (in this topic) must be created before installing BizTalk Server into a multiple server environment.
@@ -371,15 +367,14 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 4. **Install Cumulative Updates** - Cumulative updates are listed in Windows Update. [KB article 2555976](http://support.microsoft.com/kb/2555976) lists available service packs and cumulative updates.
 
-## Considerations for clustering BizTalk Server in a Multiple Server environment
+## Cluster considerations
 
 - **Clustering MSDTC** – The Microsoft Distributed Transaction Coordinator (MSDTC) is a central component of any BizTalk Server environment. If other components of the BizTalk Server environment are clustered, it is recommended to also cluster MSDTC. 
 
 - **Install SQL Server Failover Clustering** – To provide high availability/fault tolerance for the BizTalk Server databases, it is recommended that the BizTalk Server databases are installed on a SQL Server failover cluster. For information on installing SQL Server failover cluster, see: 
 
-    SQL Server 2016: [Always On Failover Cluster Instances (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server)
-
-    SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](https://msdn.microsoft.com/library/ms189134(v=sql.120).aspx)
+    * SQL Server 2016: [Always On Failover Cluster Instances (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server)
+    * SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](https://msdn.microsoft.com/library/ms189134(v=sql.120).aspx)
 
     Once SQL Server is configured for high availability/fault tolerance, then the SQL Server clustered instance can be referenced just as any other SQL Server instance by the BizTalk Server configuration.
 
@@ -389,9 +384,9 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 - **Cluster Message Queuing** – See [install and cluster MSMQ](https://blogs.msdn.microsoft.com/biztalknotes/2013/03/20/how-to-install-and-cluster-msmq-on-windows-server-2012/).
 
-- **Cluster the File System** – For information about how to cluster the File System, see How to Cluster the File System (http://go.microsoft.com/fwlink/p/?LinkId=189517).
+- **Cluster the File System** – See [How to Cluster the File System](http://go.microsoft.com/fwlink/p/?LinkId=189517).
 
-## Use SCOM to Monitor BizTalk Server
+## Use SCOM
 The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see http://www.microsoft.com/download/details.aspx?id=39617.
   
 ## Next  
