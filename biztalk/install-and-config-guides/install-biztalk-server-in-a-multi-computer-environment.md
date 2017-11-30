@@ -102,7 +102,7 @@ See [How to maintain and troubleshoot BizTalk Server databases](http://support.m
 BizTalk Server provides several tools for information workers, among them BAM. A basic understanding of the component architecture helps you plan the BizTalk Server installation to utilize the server resources available to you.
 Business Activity Monitoring (BAM) is a collection of tools used to manage aggregations, alerts, and profiles to monitor relevant business metrics, known as key performance indicators or KPIs.
 
-BAM is a module that gives you end-to-end visibility into your business processes to provides information about the status and results of various operational processes and transactions. You can use the BAM output to address problem areas and resolve issues within your business. For more information about BAM life cycle, see Business Activity Monitoring (BAM) poster at http://go.microsoft.com/fwlink/p/?LinkId=120003.
+BAM is a module that gives you end-to-end visibility into your business processes to provides information about the status and results of various operational processes and transactions. You can use the BAM output to address problem areas and resolve issues within your business. For more information about BAM life cycle, see Business Activity Monitoring (BAM) poster at [BizTalk Server BAP posters](https://www.microsoft.com/download/details.aspx?id=56123).
 
 BAM consists of the following layers:
 
@@ -215,8 +215,6 @@ If you are upgrading your existing BAM scale-out alerts topology to BizTalk Serv
         Unregistering an instance removes the registry entries, removes the NS$instance_name service (if present), and deletes the performance counters for the service.
 
 2. Upgrade your servers that have Notification Services instances to a higher edition of SQL Server 2005 Notification Services.
-
-    Click or navigate to the Feature Pack for Microsoft SQL Server 2005 - December 2008 (http://go.microsoft.com/fwlink/?LinkID=154501).
 
 3. To migrate your BAM databases based on the SQL Server version you are upgrading from, run the migration database command bm.exe program located in the BizTalk Server Tracking folder. For example, if SQL Server 2005 is upgraded to SQL Server 2008 R2, run the following in the command prompt with administrative credentials: `bm.exe migrate-sql –From:sql2005 –To:sql2008 –NSUser:<username>`.
 
@@ -349,8 +347,8 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 1. **Install Active Directory Domain Services** - The first step required to install BizTalk Server into a multiple server environment is to install Active Directory domain services for the various BizTalk Server groups and accounts. To create the Active Directory domain, refer to the following:
 
-    * Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
-    * Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
+- Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
+- Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
 
 
     > ![IMPORTANT]
@@ -390,4 +388,4 @@ The following is the list of SQL Server databases used in BizTalk Server:
 The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see http://www.microsoft.com/download/details.aspx?id=39617.
   
 ## Next  
-[Configure](configure-biztalk-server.md)
+[Configure BizTalk](configure-biztalk-server.md)
