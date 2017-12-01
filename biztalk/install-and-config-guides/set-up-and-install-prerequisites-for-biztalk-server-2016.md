@@ -7,7 +7,7 @@ manager: "anneta"
 ms.prod: "biztalk-server"
 
 ms.custom: ""
-ms.date: "08/15/2017"
+ms.date: "11/30/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +20,7 @@ ms.author: "mandia"
 # Set up and install prerequisites for BizTalk Server 2016
 Set up the server, and install and configure the software prerequisites.
 
-## Join the Local Administrators Group
+## Join the Administrators Group
 To install and configure BizTalk Server, sign in to the server using an administrator account on the local computer. Add any user accounts that are administering the BizTalk Server to the local Administrators group:
 
 1.	In the Start menu, open **Computer Management**.
@@ -31,8 +31,8 @@ To install and configure BizTalk Server, sign in to the server using an administ
 2.	Expand **Local Users and Groups**, and select **Groups**.
 3.	Right-click the **Administrators** group, and select **Add to Group**. **Add** your accounts, and select **OK** to save your changes. 
 
-## Change the computer name to less than 15 characters (optional)
-If your computer name is longer than 15 characters, then BizTalk Server configuration fails. To change the computer name:
+## Change the computer name (optional)
+If your computer name is longer than 15 characters, then BizTalk Server configuration fails. To change the computer name to less than 15 characters:
 
 1.	In **Server Manager** > **Dashboard**, select **Local Server**. 
 2.	In **Properties**, select the Computer name property to change it.
@@ -59,7 +59,7 @@ If BizTalk and SQL Server are installed on separate computers, then enable Netwo
 
 For additional settings that may be needed, see [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
-## Configure the Application Event Log (optional)
+## Configure Application Event Log (optional)
 
 BizTalk Server setup keeps a record of events in the Application Event Log. Depending on the BizTalk Server features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during the setup, the installation fails. Changing the Application Event Log settings prevents this failure.
 
@@ -77,7 +77,7 @@ BizTalk Server setup keeps a record of events in the Application Event Log. Depe
 
 4. Select **OK**.
 
-## Edge can’t be opened using the Built-in Administrator account (optional)
+## Edge can’t be opened (optional)
 
 When using Edge, the following message displays:  
 `Microsoft Edge can't be opened using the Built-in Administrator account. Sign in with a different account and try again.`
@@ -96,7 +96,7 @@ Be sure to install the latest critical Windows updates.
 1. On the Start menu, open **Windows Updates**, and check for updates. You can also open **Settings**, and select **Update and security**.
 2. After installing updates, you may need to restart the computer.
 
-## Enable Internet Information Services (IIS)
+## Enable IIS
 BizTalk Server requires IIS for the following features:
 
 - HTTP adapter
@@ -138,7 +138,7 @@ IIS is included with the operating system as a **Role** or a **Feature**, depend
 **SEE ALSO** : Install IIS on [Windows 8 or Windows Server 2012](http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012).
 
 
-## Running the BAM Portal in a 64-bit environment (optional)
+## Run 64-bit BAM portal (optional)
 If you don't use the BAM portal, then you can skip this section. 
 
 The BAM Portal runs in 32-bit mode. If you are using Internet Information Services (IIS) in a 64-bit environment, then set the application pool to run in 32-bit mode. 
@@ -165,7 +165,7 @@ Windows Identity Foundation is included with the operating system as a **Feature
 2. Select **Windows Identity Foundation 3.5**, and continue with the installation. 
 3. Restart the computer if prompted.
 
-## Install and configure SMTP Server (optional)
+## Install & configure SMTP Server (optional)
 If you use BAM Alerts, BizTalk Server requires SMTP Server. If you don't use BAM Alerts, you can skip this section.
 
 SQL Server Database Mail uses an SMTP Server to send BAM Alerts. SMTP Server can be installed locally on the BizTalk Server or on another server with IIS installed. SMTP Server is not available on client operating systems, such as Windows 8.1 or Windows 10. 
@@ -176,7 +176,7 @@ SMTP Server is included with server operating systems as a **Feature**.
 2. Select **SMTP Server**, and continue with the installation. 
 3. Restart the computer if prompted.
 
-## Install Microsoft Office Excel 2016 or Excel 2013 (optional)
+## Install Excel 2016 or 2013 (optional)
 If you use Business Activity Monitoring (BAM), BizTalk Server requires Excel. If you don't use BAM, you can skip this section.
 
 The BAM Office Excel Workbook defines the business processes you want to monitor. You also use the BAM Excel Workbook to define the way business users see the data collected by BAM.
@@ -316,7 +316,7 @@ Required for BizTalk Server Runtime, Administrative Tools, and BAM.
 
 Download and install [SqlXml 4.0](https://www.microsoft.com/download/details.aspx?id=30403).
 
-## Configure SQL Server Database Mail (optional)
+## Configure SQL Database Mail (optional)
 If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you don't use BAM Alerts, then skip this section. 
 
 **SEE ALSO** : More on [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).

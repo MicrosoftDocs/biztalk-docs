@@ -91,7 +91,7 @@ For a list of the supported SQL Server versions, see:
 * [BizTalk Server 2016 software requirements](hardware-and-software-requirements-for-biztalk-server-2016.md) 
 * [BizTalk Server 2013R2 and 2013 software requirements](hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Any additional service packs and Windows Updates are supported and should be installed.
 
 ### Maintain and troubleshoot databases
@@ -179,12 +179,12 @@ You can configure BAM Primary Import, BAM Archive, BAM Star Schema, BAM Analysis
 | BAM Tools| Enable Analysis Services for BAM aggregations| SQL Server Integration Services| SQL Server Analysis Services| 
 | BAM Notification Services Application Database| BAM Alerts| BAM Alerts <br/>Requirements listed in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).| If using SQL Server 2012 or SQL Server 2014, configure SQL Server Database Mail. If using SQL Server 2008 R2, install SQL Server 2005 Notification Services Engine Components.<br/><br/>The BAM Alerts requirements are documented at Preparing Your Computer for Installation.
 
-> ![NOTE] 
+> [!NOTE] 
 > The service account used for the OLAP service should have db_datareader permissions on the BAM Star Schema database.
 
 ##### Notification Services – BizTalk 2013 / SQL Server 2008 R2 Only
 
-> ![IMPORTANT
+> [!IMPORTANT
 > This section only applies if SQL Server 2008 R2 is used.
 
 You can install SQL Server Notification Services in a multicomputer environment where the Provider, Generator, and Distributor roles of Notification Services are on different computers. The following describes the dependencies in that scenario:
@@ -225,7 +225,7 @@ If you are upgrading your existing BAM scale-out alerts topology to BizTalk Serv
 
     This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service computer by nscontrol).
 
-    > ![IMPORTANT] 
+    > [!IMPORTANT] 
     > Remember to use the new Notification Services database server in the -server option when re-registering the service. In addition, use the same user name for the new Notification Services service as the old one.
 
 5. Validate the BAM alerts: Open the **Notification Services Command Prompt** and type: `nscontrol.exe status –name BAMAlerts –server <NS DB Server>`.
@@ -258,7 +258,7 @@ Share the BAM databases across multiple BizTalk groups:
 
 3. Select **BAM Portal**, and then select the **Enable BAM Portal** check box.
 
-    > ![NOTE]
+    > [!NOTE]
     > All the fields on this screen are read-only because there is a one-to-one relationship between the BAM Primary Import database and the BAM portal. Multiple BizTalk groups share the BAM portal when configured against the same BAM databases.
 
 4. Select **Apply Configuration**.
@@ -317,7 +317,7 @@ The following table lists the Windows user or service accounts and group affilia
 | BAM Management Web Service User | User account for BAM Management Web service (BAMManagementService) to access various BAM resources. BAM Portal calls BAMManagementService with the user credentials logged on the BAM Portal to manage alerts, get BAM definition XML and BAM views. | IIS_WPG | **NSSubscriberAdmin** SQL Server Database Role in the following databases:<br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>**BAM_ManagementWS** SQL Server role for the BAMPrimaryImport. | 
 | BAM Application Pool Account| Application pool account for BAMAppPool, which hosts the BAM Portal website. | IIS_WPG | | 
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > For more information about Windows groups and service accounts used in BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).
 
 ## Databases list
@@ -351,7 +351,7 @@ The following is the list of SQL Server databases used in BizTalk Server:
 - Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
 
 
-    > ![IMPORTANT]
+    > [!IMPORTANT]
     > The BizTalk Server groups described in the **User and Service Accounts Used In BizTalk Server** table (in this topic) must be created before installing BizTalk Server into a multiple server environment.
 
 2. **Install Multiple Instances of SQL Server as needed** – If your load requirements dictate that you need multiple MessageBox databases or that you need to spread the BizTalk Server I/O load over multiple SQL Server instances, then install more SQL Server instances as required. 
