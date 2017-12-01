@@ -1,17 +1,13 @@
 ---
 title: "BizTalk Server core documentation | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "11/30/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "bts10.default"
-helpviewer_keywords: 
-  - "BizTalk Server Help"
 ms.assetid: cadd3bdd-f13b-427d-8979-b2541aa5e21d
 caps.latest.revision: 48
 author: "MandiOhlinger"
@@ -29,13 +25,13 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
   
 [Common Tasks and walkthroughs](http://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) and [Tutorials](http://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) are also a great way to get started.
 
-## Get new features in the Feature Pack 
+## Feature Pack 
 **[Configure the feature pack](../core/configure-the-feature-pack.md)** lists the different updates available in the feature pack, including using Application Insights and Power BI for tracking data, automatic deployment with Visual Studio Team Services, and more good stuff. 
   
 ## Plan and architect your applications
 **[Planning and architecture](../core/plan-and-architect-your-biztalk-server-solution.md)** covers architecture, performance and capacity, high availability, and security. Also read about designing, building, and running two complete model [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solutions: a service-oriented solution, and a business process management solution.
 
-## Learn and implement business-to-business messaging
+## Business-to-business messaging
 **[B2B messaging](../core/trading-partner-management-using-biztalk-server.md)** describes the building blocks for a B2B solution, how EDI and AS2 are implemented, and includes walkthroughs and tutorials to do it yourself. You can also go more in-depth using acknowledgments, batching, monitoring your solutions. 
 
 ## Secure and protect your data
