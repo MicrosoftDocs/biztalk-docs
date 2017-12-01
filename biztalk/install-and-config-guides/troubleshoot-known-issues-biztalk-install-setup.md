@@ -26,8 +26,8 @@ Review the two checklists below, which you can also find in the BizTalk Server I
   
 1. Install prerequisite software and programs:
 
-* [BizTalk Server 2016](set-up-and-install-prerequisites-for-biztalk-server-2016.md)
-* [BizTalk Server 2013 R2 & 2013](prepare-your-computer-for-installation.md)
+    * [BizTalk Server 2016](set-up-and-install-prerequisites-for-biztalk-server-2016.md)
+    * [BizTalk Server 2013 R2 & 2013](prepare-your-computer-for-installation.md)
 
 2. Install and configure BizTalk Server:  
 
@@ -37,7 +37,7 @@ Review the two checklists below, which you can also find in the BizTalk Server I
   
 ## Some EDI/AS2 artifacts are still active after unconfiguring  
   
-#### Problem  
+**Problem**  
  After you unconfigure the BizTalk EDI/AS2 feature of BizTalk Server, some BizTalk Server artifacts related to EDI and AS2 processing will still be active in the context of the BizTalk group configuration. These artifacts will include EDI and AS2 pipelines and the batching orchestration. As a result, you will still be able to perform basic EDI and AS2 processing even after unconfiguring the BizTalk EDI/AS2 feature.  
   
 **Cause**   
@@ -48,7 +48,7 @@ Review the two checklists below, which you can also find in the BizTalk Server I
   
 ## After renaming BizTalk or SQL Server computer, the Configuration Wizard fails  
   
-#### Problem  
+**Problem**  
  This problem may manifest itself in several ways:  
   
 -   The configuration manager will load the Overview page correctly, but when attempting to configure a feature, the feature options do not display on the screen.  
@@ -65,13 +65,13 @@ Review the two checklists below, which you can also find in the BizTalk Server I
   
 ## Business Rules Configuration Wizard fails  
   
-#### Problem  
+**Problem**  
   
 -   The Business Rules Configuration Wizard fails with the error “Configuration failed for some components and no settings were applied for those components.”  
   
 -   On BizTalk Server computers for which the Business Rules Engine has already been successfully configured, the Rules Engine Update service fails to start and cannot be started manually.  
   
- When this problem occurs, an error similar to the following may be generated in the BizTalk Server computer Application log:  
+When this problem occurs, an error similar to the following may be generated in the BizTalk Server computer Application log:  
   
 ```  
 Service could not be started. : System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it ::1:3132  
@@ -105,7 +105,7 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
   
 ### Configuration fails when BizTalk and SQL are installed on separate computers  
   
-#### Problem  
+**Problem**  
  Configuration fails with errors similar to the following when attempting to configure the Enterprise Single Sign-On (SSO) component:  
   
 ```
@@ -125,7 +125,7 @@ Use [Troubleshooting Problems with MSDTC](https://support.microsoft.com/help/306
   
 ### Antivirus software interferes with configuration and causes configuration failures  
   
-#### Problem   
+**Problem**   
  BizTalk Server configuration fails when antivirus software incorrectly determines that the configuration program is a virus.  
   
 **Cause**  
@@ -136,7 +136,7 @@ Use [Troubleshooting Problems with MSDTC](https://support.microsoft.com/help/306
   
 ### Configuration fails with a "File or assembly name FileName.dll, or one of its dependencies, was not found" error  
   
-#### Problem  
+**Problem**  
  An error similar to the following is displayed during the configuration process:  
   
  Failed to deploy BizTalk system assembly "C:\Program Files\Microsoft\BizTalk Server 20xx\Microsoft.BizTalk.DefaultPipelines.dll. Unspecified exception: File or assembly name FileName .dll, or one of its dependencies, was not found."  
@@ -156,11 +156,13 @@ echo %TEMP%
 #### Problem  
  Configuration fails with an error similar to the following:  
   
- Failed to set up BAM database(s)  
+```
+Failed to set up BAM database(s)  
   
- Cannot open database requested in login 'BAMPrimaryImport'  
+Cannot open database requested in login 'BAMPrimaryImport'  
   
- Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'  
+Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'  
+```
   
 **Cause**  
  This error can occur if an .mdf file or an .ldf file already exists in the \MSSQL\data folder of the computer running SQL Server that has the same name as the .mdf file or the .ldf file that the BizTalk Server configuration program is trying to create. The names of the .mdf file and the .ldf file that are created for the databases are derived from the name of the database that is specified in the BizTalk Server configuration program with an .mdf and an .ldf extension appended.  
@@ -174,7 +176,7 @@ echo %TEMP%
   
 ### Configuration fails on a domain controller when specifying local accounts  
   
-#### Problem  
+**Problem**  
  When running the BizTalk Server configuration program on a domain controller, configuration fails if you specified a local group (for example, BizTalk Host Users Group) for either the BizTalkServerApplication host or the BizTalkIsolatedHost host.  
   
 **Cause**  
@@ -185,7 +187,7 @@ echo %TEMP%
   
 ### Configuration fails to create SQL Server Analysis database if the SQL server has been renamed  
   
-#### Problem  
+**Problem**  
  If you have renamed the computer on which you installed SQL Server Analysis Server, the configuration program fails when it tries to create the new SQL Server Analysis database and an error similar to the following is generated:  
 
 ```  
@@ -224,7 +226,7 @@ echo %TEMP%
   
 ### Artifacts disappear from Configuration Database on redeployment of assemblies from Visual Studio  
   
-#### Problem  
+**Problem**  
  When a BizTalk Server project is redeployed at the project level within Visual Studio, all artifacts contained within the project that reference the project being redeployed will appear to vanish when the BizTalk Server MMC is refreshed.  
   
 **Cause**  
@@ -273,7 +275,7 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 ### Unable to view Group information after removing stale logons  
   
-#### Problem
+**Problem**  
  If, during configuration, you encounter and delete stale logons, you may not be able to view Group information.  
   
 **Cause**  
@@ -284,7 +286,7 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 ### Cannot change computer name after BizTalk Server is installed  
   
-#### Problem  
+**Problem**  
  When you change the computer name on a computer running BizTalk Server, and you restart (reboot) the computer, error messages may occur.  
   
 **Cause**  
@@ -298,7 +300,7 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 ##### ENTSSO Service fails to start  
   
-###### Problem  
+**Problem**  
  The ENTSSO service fails to start.  
   
 **Cause**  
@@ -309,7 +311,7 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 ##### BizTalk Services dependent on the Enterprise Single Sign-On Service (ENTSSO) fail to start after a reboot  
   
-###### Problem  
+**Problem**  
  BTSSvc$BizTalkServerApplication has a dependency on the Enterprise Single Sign-On Service (ENTSSO) and may timeout during start up after a reboot.  
   
 **Cause**  
@@ -320,7 +322,7 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 ##### Cannot access an affiliate application  
   
-###### Problem  
+**Problem**  
  The Enterprise Single Sign-On service disables an affiliate application if the application administrator account associated with it is not valid.  
   
 **Cause**  
@@ -331,7 +333,7 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 ##### RPC error occurs when connecting to a client computer  
   
-###### Problem  
+**Problem**  
  When you run a command such as **ssomanage -displayapp** *<applicationname\>*, where the computer attempt to connect to a remote SSO Server to retrieve the information, you receive the following error: ERROR: 0x800706BA: The RPC server is unavailable.  
   
 **Cause**  
@@ -345,26 +347,20 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 ##### Master Secret is missing or corrupt  
   
-###### Problem  
+**Problem**  
  The master secret is missing or corrupt. It normally generates during configuration. If the secret is missing, one of the following messages will display in the event log as the Enterprise Single Sign-On service starts.  
   
- MessageId=10520  
-  
- Severity=Warning  
-  
- SSO_WARN_NO_SECRETS  
-  
- MessageId=10565  
-  
- Severity=Error  
-  
- SSO_ERROR_SECRET_VALIDATE_FAILED  
-  
- MessageId=10521  
-  
- Severity=Error  
-  
- SSO_ERROR_SECRETS_NOT_LOADED  
+```
+MessageId=10520  
+Severity=Warning  
+SSO_WARN_NO_SECRETS  
+MessageId=10565  
+Severity=Error  
+SSO_ERROR_SECRET_VALIDATE_FAILED  
+MessageId=10521  
+Severity=Error  
+SSO_ERROR_SECRETS_NOT_LOADED  
+```
 
 **Cause**  
  This problem can occur if a secret is generated while the Enterprise Single Sign-On service (SSO) was running under one service account, and then the service account was changed. The secret is stored in the registry in encrypted form, and is encrypted using a key based on the identity of the service account (which ENTSSO runs under).  
@@ -467,15 +463,15 @@ If the user redeploys the Maps project using the default Visual Studio project s
   
 |Folder path|File name|User privileges|  
 |-----------------|---------------|---------------------|  
-|C:\Program Files (x86)\C ommon Files\Microsoft shared\Help 9\Microsoft Document Explorer 2008|Install.exe|Highest available privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx|BTSHatApp.exe|Highest available privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx|BTSMMCLauncher.exe|Highest available privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx|BtsWcfServicePublishingWizard.exe|Highest available privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx|BTSWebSvcWiz.exe|Highest available privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx|Configuration.exe|Highest available privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx|REDeployWiz.exe|Highest available privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx|Setup.exe|Administrative privilege|  
-|C:\Program Files (x86)\Microsoft BizTalk Server 20xx \XSD Schema\EDI|MicrosoftEdiXSDTemplates.exe|Self-extracting .exe file.|  
-|C:\Program Files (x86)\Microsoft UDDI Services\config|Configuration .exe|Administrative privilege|  
-|C:\Program Files\ Microsoft BizTalk RFID\bin|BTSMMCLauncher.exe|Highest available privilege|  
-|C:\Program Files\Microsoft BizTalk RFID\BREConfi guration|Configuration .exe|Administrative privilege|  
+|\Program Files (x86)\Common Files\Microsoft shared\Help 9\Microsoft Document Explorer 2008|Install.exe|Highest available privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*|BTSHatApp.exe|Highest available privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*|BTSMMCLauncher.exe|Highest available privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*|BtsWcfServicePublishingWizard.exe|Highest available privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*|BTSWebSvcWiz.exe|Highest available privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*|Configuration.exe|Highest available privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*|REDeployWiz.exe|Highest available privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*|Setup.exe|Administrative privilege|  
+|\Program Files (x86)\Microsoft BizTalk Server *your version*\XSD Schema\EDI|MicrosoftEdiXSDTemplates.exe|Self-extracting .exe file.|  
+|\Program Files (x86)\Microsoft UDDI Services\config|Configuration .exe|Administrative privilege|  
+|\Program Files\ Microsoft BizTalk RFID\bin|BTSMMCLauncher.exe|Highest available privilege|  
+|\Program Files\Microsoft BizTalk RFID\BREConfi guration|Configuration .exe|Administrative privilege|  
