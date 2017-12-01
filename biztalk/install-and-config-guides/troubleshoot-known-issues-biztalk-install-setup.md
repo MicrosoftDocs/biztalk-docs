@@ -238,11 +238,11 @@ echo %TEMP%
   
 -   Pipelines references Schemas.  
   
- ![bcd_ExistingBizTalkServerSolutionc](../Image/bcd_ExistingBizTalkServerSolutionc.gif "bcd_ExistingBizTalkServerSolutionc")  
+ ![bcd_ExistingBizTalkServerSolutionc](../media/bcd_ExistingBizTalkServerSolutionc.gif)  
   
  If the user redeploys the Maps project using the default Visual Studio project settings, the Orch1, Orch2, and Pipeline artifacts vanish, as shown in the following figure.  
   
- ![bcd_BizTalkSolutionWLostArtifactsc](../Image/bcd_BizTalkSolutionWLostArtifactsc.gif "bcd_BizTalkSolutionWLostArtifactsc")  
+ ![bcd_BizTalkSolutionWLostArtifactsc](../media/bcd_BizTalkSolutionWLostArtifactsc.gif)  
   
  Redeploying Maps is a two-step process of undeploying the currently deployed Maps.dll assembly, and then deploying the new Maps.dll file. Visual Studio performs these steps automatically as part of the redeployment process.  
   

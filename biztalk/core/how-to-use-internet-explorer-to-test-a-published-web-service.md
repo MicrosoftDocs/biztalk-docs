@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Use Internet Explorer to Test a Published Web Service
+# Test a BizTalk Web Service
 
 ## Overview
 You can test your published Web service without writing a Web client application. You can use a Web browser, such as Internet Explorer, to test your published Web service. Although you can access any published Web service using a Web browser, you can only test Web services with Web methods that contain simple type parameters. To test your Web method in a Web browser, your message parts for the request and response messages that are used in the receive port can only be a simple type, such as **System.String** or **System.Int32**. If any message part uses a schema as a message type, you cannot test the Web method with a browser.  

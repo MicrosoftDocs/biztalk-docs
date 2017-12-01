@@ -184,7 +184,7 @@ You can configure BAM Primary Import, BAM Archive, BAM Star Schema, BAM Analysis
 
 ##### Notification Services – BizTalk 2013 / SQL Server 2008 R2 Only
 
-> [!IMPORTANT
+> [!IMPORTANT]
 > This section only applies if SQL Server 2008 R2 is used.
 
 You can install SQL Server Notification Services in a multicomputer environment where the Provider, Generator, and Distributor roles of Notification Services are on different computers. The following describes the dependencies in that scenario:
@@ -349,7 +349,6 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 - Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
 - Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
-
 
     > [!IMPORTANT]
     > The BizTalk Server groups described in the **User and Service Accounts Used In BizTalk Server** table (in this topic) must be created before installing BizTalk Server into a multiple server environment.
