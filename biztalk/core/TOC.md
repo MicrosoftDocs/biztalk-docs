@@ -1314,7 +1314,7 @@
 ####### [Use the ThrowDetailedError Switch](how-to-use-the-throwdetailederror-switch.md)
 ###### [Testing Published Web Services](testing-published-web-services.md)
 ####### [Creating a .NET Application to Test a Published Web Service](creating-a-net-application-to-test-a-published-web-service.md)
-####### [Use Internet Explorer to Test a Published Web Service](how-to-use-internet-explorer-to-test-a-published-web-service.md)
+####### [Test a Web Service](how-to-use-internet-explorer-to-test-a-published-web-service.md)
 ###### [Deploying Published Web Services on a Non-Visual Studio Computer](deploying-published-web-services-on-a-non-visual-studio-computer.md)
 ####### [Create a Web Setup for Your Published Web Service](how-to-create-a-web-setup-for-your-published-web-service.md)
 ####### [Distribute the Web Setup Package](how-to-distribute-the-web-setup-package.md)
