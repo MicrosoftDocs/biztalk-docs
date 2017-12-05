@@ -1,0 +1,83 @@
+---
+title: "Confirmation and Rejection of Inbound Data2 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/30/2017"
+ms.prod: "host-integration-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: defe7599-ff8a-4372-aa05-b5ab50104d57
+caps.latest.revision: 3
+---
+# Confirmation and Rejection of Inbound Data
+For every SNA chain of data sent or received for which responses are outstanding, such as Request Exception (RQE) or Definite Response Required (RQD), the local node maintains a correlation table entry. If the table entries become depleted, the local node will terminate the session using the most table entries. A [Status-Error](../HIS2010/status-error2.md) message (code 0x46) and a [Close(PLU) Request](../HIS2010/close-plu-request1.md) are sent to the application, and a **TERM-SELF** message is sent to the host. Table entry shortages (inbound) can be avoided by sending change direction (CD) (for half-duplex) data, or data **ACKRQD,** or any **Status-Control(CHASE)**, or **Status-Control(LUSTAT)** with **ACKRQD**. Outbound shortages can be avoided by sending courtesy acknowledge messages as described in [Opening the PLU Connection](../HIS2010/opening-the-plu-connection2.md).  
+  
+ The local node sends chains of data to the host with their chain response mode specified as follows:  
+  
+1.  Definite  
+  
+     If the application sends a **Data** message to the local node with the **ACKRQD** field set, and the **BIND** parameters specified that the secondary uses definite or definite/exception response mode.  
+  
+2.  Exception  
+  
+     If the application sends a **Data** message to the local node without the **ACKRQD** field set, and the **BIND** parameters specified that the secondary uses exception or definite/exception response mode.  
+  
+3.  No-Response  
+  
+     If the application sends a **Data** message to the local node without the **ACKRQD** field set, and the **BIND** parameters specified that the secondary uses no-response mode.  
+  
+ If the setting of **ACKRQD** on a [Data](../HIS2010/data2.md) message from the application does not reflect the chain response mode specified in the **BIND** parameters, the local node returns a [Status-Acknowledge(Nack-2)](../HIS2010/status-acknowledge-nack-2-1.md) indicating a noncritical error code. For example, if the application specifies **ACKRQD** but the **BIND** parameters do not permit the local node to send definite response chains.  
+  
+ In case 1, the application receives an acknowledgment to all function management data (FMD) chains it sends to the local node:  
+  
+-   Positive responses from the host are returned to the application as [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) messages.  
+  
+-   Negative responses from the host are returned as [Status-Acknowledge(Nack-1)](../HIS2010/status-acknowledge-nack-1-2.md) messages carrying the SNA sense codes.  
+  
+-   Errors detected by the local node when attempting to send the message are returned as [Status-Acknowledge(Nack-2)](../HIS2010/status-acknowledge-nack-2-1.md) messages carrying the equivalent error code.  
+  
+ In case 2, the application only receives an acknowledgment of an FMD chain it sends to the local node for:  
+  
+-   Negative responses from the host, which are returned as **Status-Acknowledge(Nack-1)** messages carrying the SNA sense codes.  
+  
+-   Errors detected by the local node when attempting to send the message, which are returned as **Status-Acknowledge(Nack-2)** messages carrying the equivalent error code.  
+  
+ In case 3, the application only receives an acknowledgment of an FMD chain it sends to the local node when the node detects an error in the message and sends the application a **Status-Acknowledge(Nack-2)**. The only dissent that the host can make is to send a subsequent LUSTAT 0x400A (no response not supported) with the sequence number of the request in the sense qualifier field. This is presented to the application as a **Status-Control(LUSTAT)** as usual.  
+  
+ Whenever an application receives a **Status-Acknowledge(Ack)** or **Status-Acknowledge(Nack-1)**, it implicitly confirms receipt by the partner half-session in the host of all previously sent chains.  
+  
+ In case 2, the application does not usually receive such responses from the host to chains it has sent, and in case 3, the application never receives such responses. Therefore, to get the host to confirm receipt of all previously sent chains, the application should issue a **Status-Control(CHASE) Request** with ACKRQD set. This causes the local node to generate an SNA **CHASE** request to the host. The receipt of the response to this CHASE confirms that the host has received this **CHASE** request and all previous chains sent by the application. The local node issues a **Status-Control(CHASE) Acknowledge** to notify the application that this is so.  
+  
+ The following three figures illustrate the inbound data confirmation and rejection protocols between the local node and the application, and how those protocols relate to the underlying SNA protocols.  
+  
+ In the first figure, an application sets the **ACKRQD** field in an inbound data chain to get the host to confirm receipt of the chain and all previously sent chains.  
+  
+ ![](../core/media/his-32703p.gif "his_32703p")  
+Application sets ACKRQD field  
+  
+ In the following figure, the **Status-Acknowledge(Nack-1)** rejects the last chain, but confirms receipt by the host of all previously sent data chains.  
+  
+ ![](../core/media/32703pa.gif "32703pa")  
+Status-Acknowledge(Nack-1) rejects the last chain, but confirms receipt  
+  
+ In the following figure, the application uses a **Status-Control(CHASE)** to get the host to confirm receipt of the corresponding **CHASE** request and all previously sent chains.  
+  
+ ![](../core/media/32703pb.gif "32703pb")  
+Using a Status-Control(CHASE) to get the host to confirm receipt of the corresponding CHASE request  
+  
+## See Also  
+ [Opening the PLU Connection](../HIS2010/opening-the-plu-connection2.md)   
+ [PLU Session](../HIS2010/plu-session1.md)   
+ [Outbound Chaining](../HIS2010/outbound-chaining1.md)   
+ [Inbound Chaining](../HIS2010/inbound-chaining2.md)   
+ [Segment Delivery](../HIS2010/segment-delivery2.md)   
+ [Brackets](../HIS2010/brackets2.md)   
+ [Direction](../HIS2010/direction2.md)   
+ [Pacing and Chunking](../HIS2010/pacing-and-chunking2.md)   
+ [Confirmation and Rejection of Data\]](../HIS2010/confirmation-and-rejection-of-data]2.md)   
+ [Shutdown and Quiesce](../HIS2010/shutdown-and-quiesce2.md)   
+ [Recovery](../HIS2010/recovery2.md)   
+ [Application-Initiated Termination](../HIS2010/application-initiated-termination2.md)   
+ [LUSTATs\]](../HIS2010/lustats]2.md)   
+ [Response Time Monitor Data](../HIS2010/response-time-monitor-data2.md)
