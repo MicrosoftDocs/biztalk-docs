@@ -17,7 +17,7 @@ manager: "anneta"
 # Delimiter Preservation and Suppression
 
 ## Overview
-There are two properties that apply to delimited records: **Preserve Delimiter For Empty Data** and **[Suppress Trailing Delimiters**. Use these properties to control how the flat file assembler handles delimiters associated with nonexistent data and trailing delimiters. When you set the **Preserve Delimiter For Empty Data** property to **Yes** (which is the default setting), delimiters are included in the translated flat file message for:  
+There are two properties that apply to delimited records: **Preserve Delimiter For Empty Data** and **Suppress Trailing Delimiters**. Use these properties to control how the flat file assembler handles delimiters associated with nonexistent data and trailing delimiters. When you set the **Preserve Delimiter For Empty Data** property to **Yes** (which is the default setting), delimiters are included in the translated flat file message for:  
   
 -   Fields without data.  
   
