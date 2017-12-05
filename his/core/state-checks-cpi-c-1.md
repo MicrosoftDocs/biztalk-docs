@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # State Checks (CPI-C)
-A state check occurs when a transaction program (TP) issues a Common Programming Interface for Communications (CPI-C) call and the conversation is not in the appropriate state. For example, a state check occurs if a TP issues [Send_Data](../HIS2010/send-data-cpi-c-1.md) while the conversation is in RECEIVE state. When a state check occurs, CPI-C does not execute the call. It returns state check information through the *return_code* parameter.
+A state check occurs when a transaction program (TP) issues a Common Programming Interface for Communications (CPI-C) call and the conversation is not in the appropriate state. For example, a state check occurs if a TP issues [Send_Data](../core/send-data-cpi-c-1.md) while the conversation is in RECEIVE state. When a state check occurs, CPI-C does not execute the call. It returns state check information through the *return_code* parameter.

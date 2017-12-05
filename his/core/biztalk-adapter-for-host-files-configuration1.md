@@ -40,4 +40,4 @@ The BizTalk Adapter for Host Files is a send and receive adapter that enables Bi
   
 ## See Also  
  [Data Access Library &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/da533736-8ecc-4466-a13d-b635696d94c8)   
- [Managed Data Provider for Host Files](../HIS2010/managed-data-provider-for-host-files1.md)
+ [Managed Data Provider for Host Files](../core/managed-data-provider-for-host-files1.md)

@@ -69,4 +69,4 @@ f0| 8c 49 cd ce cb cf cc e1 70 dd de db dc 8d ae df
  Currently, only the first table (bytes 0255) is used by Host Print service. However, the file must be exactly 512 bytes in length, so the final 256 bytes must be present, even if they are set to zero.  
   
 ## See Also  
- [Character Tables](../HIS2010/character-tables1.md)
+ [Character Tables](../core/character-tables1.md)

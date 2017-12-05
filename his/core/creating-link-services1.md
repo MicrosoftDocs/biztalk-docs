@@ -16,7 +16,7 @@ manager: "anneta"
 # Creating Link Services
 By default, when [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] is installed, all the software files required by all standard link services are copied to the server, but the link services themselves are not installed or configured.  
   
- For information about the IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
+ For information about the IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
   
  The following sections contain procedures detailing how to create link services using SNA Manager.  
   

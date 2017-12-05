@@ -1,4 +1,4 @@
----
+﻿---
 title: "LUA Verbs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # LUA Verbs
-This implementation of logical unit application (LUA) is available to applications written in Microsoft® C++® version 6.0 or later. Applications access all LUA functions on Windows Server by issuing verbs using the external C functions [RUI](../HIS2010/rui1.md),[SLI](../HIS2010/sli1.md),[WinRUI](../HIS2010/winrui2.md), and [WinSLI](../HIS2010/winsli2.md).  
+This implementation of logical unit application (LUA) is available to applications written in Microsoft® C++® version 6.0 or later. Applications access all LUA functions on Windows Server by issuing verbs using the external C functions [RUI](../core/rui1.md),[SLI](../core/sli1.md),[WinRUI](../core/winrui2.md), and [WinSLI](../core/winsli2.md).  
   
  Symbolic constants are defined in the WINLUA.H header file for many parameter values. Refer to the WINLUA.H file (contained in the Microsoft Host Integration Server SDK) for a list of LUA constants.  
   

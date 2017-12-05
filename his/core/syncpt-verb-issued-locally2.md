@@ -19,7 +19,7 @@ This section provides an example verb sequence with a verb issued locally.
  ![](../core/media/appc2d.gif "appc2d")  
 SYNCPT verb issued locally.  
   
-1.  The transaction program issues a [SEND_DATA](../HIS2010/send-data2.md) or [MC_SEND_DATA](../HIS2010/mc-send-data2.md)verb depending on whether a basic or mapped conversation is being used.  
+1.  The transaction program issues a [SEND_DATA](../core/send-data2.md) or [MC_SEND_DATA](../core/mc-send-data2.md)verb depending on whether a basic or mapped conversation is being used.  
   
 2.  The **SEND_DATA** or **MC_SEND_DATA** VCB is passed transparently through the vendor API to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. When the verb completes, the return code from Host Integration Server is returned to the transaction program.  
   
@@ -27,13 +27,13 @@ SYNCPT verb issued locally.
   
 4.  The vendor API creates a PREPARE PS header and transmits it by issuing a **SEND_DATA** or **MC_SEND_DATA** verb. For a mapped conversation, the data_type field of the **MC_SEND_DATA** VCB must be set to AP_PS_HEADER.  
   
-5.  On completion of the **SEND_DATA** or **MC_SEND_DATA** verb, the vendor API issues a [RECEIVE_AND_WAIT](../HIS2010/receive-and-wait1.md) or [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md) verb.  
+5.  On completion of the **SEND_DATA** or **MC_SEND_DATA** verb, the vendor API issues a [RECEIVE_AND_WAIT](../core/receive-and-wait1.md) or [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md) verb.  
   
 6.  The **RECEIVE_AND_WAIT** or **MC_RECEIVE_AND_WAIT** verb completes with the **what_rcvd** field of the VCB with a value of AP_PS_HEADER. The data buffer is filled with the received REQUEST_COMMIT PS header.  
   
-7.  Another **RECEIVE_AND_WAIT** or **MC_RECEIVE_AND_WAIT** verb is issued to get send direction. Note that the vendor API can combine these two verbs into a single request by setting the **rtn_status** field of the VCB to AP_YES in order to receive status with data on the first [RECEIVE_AND_WAIT](../HIS2010/receive-and-wait1.md) or [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md).  
+7.  Another **RECEIVE_AND_WAIT** or **MC_RECEIVE_AND_WAIT** verb is issued to get send direction. Note that the vendor API can combine these two verbs into a single request by setting the **rtn_status** field of the VCB to AP_YES in order to receive status with data on the first [RECEIVE_AND_WAIT](../core/receive-and-wait1.md) or [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md).  
   
-8.  A COMMITTED PS header is then transmitted using a [SEND_DATA](../HIS2010/send-data2.md) or [MC_SEND_DATA](../HIS2010/mc-send-data2.md) verb.  
+8.  A COMMITTED PS header is then transmitted using a [SEND_DATA](../core/send-data2.md) or [MC_SEND_DATA](../core/mc-send-data2.md) verb.  
   
 9. The Vendor API issues a **RECEIVE_AND_WAIT** or **MC_RECEIVE_AND_WAIT** verb to receive the FORGET PS header from the remote TP.  
   

@@ -16,7 +16,7 @@ manager: "anneta"
 # Shutdown and Quiesce
 Both shutdown and quiesce protocols involve a half-session entering a quiesced state, in which it cannot send any more normal flow requests, but must continue to receive and respond to requests from its session partner. The essential differences are that shutdown can only be initiated by the host and only requires that the secondary quiesce as soon as is convenient (usually at the end of a bracket). Quiesce can be initiated by both the host and the application and requires that the recipient quiesce at the end of the chain.  
   
- If the application has been quiesced but still attempts to send inbound [Data](../HIS2010/data2.md) messages, they will be rejected with [Status-Acknowledge(Nack-2)](../HIS2010/status-acknowledge-nack-2-1.md) messages. The application can, however, continue to generate status messages.  
+ If the application has been quiesced but still attempts to send inbound [Data](../core/data2.md) messages, they will be rejected with [Status-Acknowledge(Nack-2)](../core/status-acknowledge-nack-2-1.md) messages. The application can, however, continue to generate status messages.  
   
 ## In This Section  
   

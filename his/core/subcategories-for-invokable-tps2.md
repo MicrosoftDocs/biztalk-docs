@@ -1,4 +1,4 @@
----
+﻿---
 title: "Subcategories for Invokable TPs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -23,4 +23,4 @@ The following figure shows subcategories for invokable TPs.
   
  The concept of a TP "running as a service" or "running as an application" is distinct from a service TP or an application TP. Service TP and application TP are SNA terms that describe how a TP is used: either as a supportive service program for other APPC programs, or directly by a user, as an application. For detailed information about services and applications on Windows, see the Microsoft Developer Network (MSDN®) Platform Software Development Kit.  
   
- To write an autostarted TP so it will run under Windows as a service and also run in a nonqueued way, write a multithreaded program with a [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md) always outstanding. See [Invokable TPs](../core/invokable-tps2.md).
+ To write an autostarted TP so it will run under Windows as a service and also run in a nonqueued way, write a multithreaded program with a [RECEIVE_ALLOCATE](../core/receive-allocate2.md) always outstanding. See [Invokable TPs](../core/invokable-tps2.md).

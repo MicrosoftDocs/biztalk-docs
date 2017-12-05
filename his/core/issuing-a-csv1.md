@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Issuing a CSV
-The procedure for issuing a CSV is shown in the following sample code that uses [CONVERT](../HIS2010/convert1.md).  
+The procedure for issuing a CSV is shown in the following sample code that uses [CONVERT](../core/convert1.md).  
   
 ### To issue a CSV  
   

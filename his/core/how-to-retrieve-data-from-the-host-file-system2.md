@@ -36,4 +36,4 @@ Just as you can do with other managed data providers, you can access host data w
   
 ## See Also  
  [Retrieving Information from the Host File System](../core/retrieving-information-from-the-host-file-system2.md)   
- [BizTalk Adapter for Host Files Configuration](../HIS2010/biztalk-adapter-for-host-files-configuration2.md)
+ [BizTalk Adapter for Host Files Configuration](../core/biztalk-adapter-for-host-files-configuration2.md)

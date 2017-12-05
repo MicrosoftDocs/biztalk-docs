@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Presentation Header Support in Data Transfers
-For basic conversations, Sync Point commands are sent by means of presentation headers (PS) across LU 6.2 conversations using the [SEND_DATA](../HIS2010/send-data2.md) or [MC_SEND_DATA](../HIS2010/mc-send-data2.md) verb. All presentation headers contain length fields that specify a length of 1, which is usually illegal. To support Sync Point conversations, the following modifications are made to the Host Integration Server presentation services component:  
+For basic conversations, Sync Point commands are sent by means of presentation headers (PS) across LU 6.2 conversations using the [SEND_DATA](../core/send-data2.md) or [MC_SEND_DATA](../core/mc-send-data2.md) verb. All presentation headers contain length fields that specify a length of 1, which is usually illegal. To support Sync Point conversations, the following modifications are made to the Host Integration Server presentation services component:  
   
 -   On basic conversations with a **synclevel** of AP_SYNCPT, data transferred specifying a general data stream (GDS) variable length of 1 will not be rejected. If the **synclevel** is not AP_SYNCPT, they will be rejected as before.  
   
@@ -22,7 +22,7 @@ For basic conversations, Sync Point commands are sent by means of presentation h
   
 -   On mapped conversations, it is the responsibility of the application to provide the complete PS header including the length field. Similarly, the length field will be included in PS header data returned by receive verbs.  
   
- To achieve the latter the [MC_SEND_DATA](../HIS2010/mc-send-data2.md) verb and the receive verbs ([MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md), [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md), and [MC_RECEIVE_IMMEDIATE](../HIS2010/mc-receive-immediate1.md)) require modifications as follows:  
+ To achieve the latter the [MC_SEND_DATA](../core/mc-send-data2.md) verb and the receive verbs ([MC_RECEIVE_AND_POST](../core/mc-receive-and-post1.md), [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md), and [MC_RECEIVE_IMMEDIATE](../core/mc-receive-immediate1.md)) require modifications as follows:  
   
 -   A new parameter, **data_type**, is added to the **MC_SEND_DATA** verb. When this is set to AP_APPLICATION (the default, 0x00), the data is sent as application data (GDS identifier 0x12FF) as usual. When it is set to AP_PS_HEADER, the data is sent as described above.  
   

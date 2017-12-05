@@ -20,8 +20,8 @@ This section describes the support for automatic logon for Common Programming In
   
  Use the following function calls to use CPI-C:  
   
--   Call the [Set_Conversation_Security_Type](../HIS2010/set-conversation-security-type-cpi-c-2.md) function with the *conversation_security_type* parameter set to CM_SECURITY_PROGRAM.  
+-   Call the [Set_Conversation_Security_Type](../core/set-conversation-security-type-cpi-c-2.md) function with the *conversation_security_type* parameter set to CM_SECURITY_PROGRAM.  
   
--   Call the [Set_Conversation_Security_User_ID](../HIS2010/set-conversation-security-user-id-cpi-c-2.md) function with the *security_user_ID* parameter set to the MS$SAME string and the *security_user_ID_length* parameter set to 7.  
+-   Call the [Set_Conversation_Security_User_ID](../core/set-conversation-security-user-id-cpi-c-2.md) function with the *security_user_ID* parameter set to the MS$SAME string and the *security_user_ID_length* parameter set to 7.  
   
--   Call the [Set_Conversation_Security_Password](../HIS2010/set-conversation-security-password-cpi-c-2.md) function with the *security_password* parameter set to the MS$SAME string and the *security_password_length* parameter set to 7.
+-   Call the [Set_Conversation_Security_Password](../core/set-conversation-security-password-cpi-c-2.md) function with the *security_password* parameter set to the MS$SAME string and the *security_password_length* parameter set to 7.

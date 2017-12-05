@@ -16,9 +16,9 @@ manager: "anneta"
 # APPC Programmer&#39;s Reference]
 This section of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Help provides information about the verbs, extensions, and return codes that make up the APPC programming interface.  
   
- For general information about programming for APPC, see the [APPC Programmer's Guide](../HIS2010/appc-programmer-s-guide1.md) section of the SDK.  
+ For general information about programming for APPC, see the [APPC Programmer's Guide](../core/appc-programmer-s-guide1.md) section of the SDK.  
   
- For sample code using APPC, see [APPC Samples](../HIS2010/appc-samples.md).  
+ For sample code using APPC, see [APPC Samples](../core/appc-samples.md).  
   
 ## In This Section  
  [APPC Management Verbs](../core/appc-management-verbs1.md)  

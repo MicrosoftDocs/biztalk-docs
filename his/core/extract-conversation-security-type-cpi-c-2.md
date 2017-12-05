@@ -1,4 +1,4 @@
----
+﻿---
 title: "Extract_Conversation_Security_Type (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -41,7 +41,7 @@ CM_ENTRY Extract_Conversation_Security_Type( 
  The invoked program uses conversation security and thus requires a user identifier and password.  
   
  CM_SECURITY_SAME  
- The invoked program, invoked with a valid user identifier and password, in turn invokes another program (as illustrated in [Communication Between TPs](../HIS2010/communication-between-tps-cpi-c-1.md)). For example, assume that program A invokes program B with a valid user identifier and password, and program B in turn invokes program C. If program B specifies the value CM_SECURITY_SAME, CPI-C sends the LU for program C, the user identifier from program A, and an already-verified indicator. This indicator tells program C not to require the password (if program C is configured to accept an already-verified indicator).  
+ The invoked program, invoked with a valid user identifier and password, in turn invokes another program (as illustrated in [Communication Between TPs](../core/communication-between-tps-cpi-c-1.md)). For example, assume that program A invokes program B with a valid user identifier and password, and program B in turn invokes program C. If program B specifies the value CM_SECURITY_SAME, CPI-C sends the LU for program C, the user identifier from program A, and an already-verified indicator. This indicator tells program C not to require the password (if program C is configured to accept an already-verified indicator).  
   
  *return_code*  
  The code returned from this call. The valid return codes are listed later in this topic.  

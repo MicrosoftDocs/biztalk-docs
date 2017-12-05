@@ -19,26 +19,26 @@ The following calls retrieve information about the characteristics of a specifie
 > [!NOTE]
 >  The names of the calls are pseudonyms. The actual C function names appear in parentheses after the pseudonyms. For example, **Accept_Conversation** is the pseudonym for a call. The actual function name is **cmaccp**.  
   
- [Extract_Conversation_Security_Type](../HIS2010/extract-conversation-security-type-cpi-c-1.md)( **xcecst**)  
+ [Extract_Conversation_Security_Type](../core/extract-conversation-security-type-cpi-c-1.md)( **xcecst**)  
  Retrieves security type.  
   
- [Extract_Conversation_Security_User_ID](../HIS2010/extract-conversation-security-user-id-cpi-c-2.md)( **cmecsu**)  
+ [Extract_Conversation_Security_User_ID](../core/extract-conversation-security-user-id-cpi-c-2.md)( **cmecsu**)  
  Retrieves security user identifier.  
   
- [Extract_Conversation_State](../HIS2010/extract-conversation-state-cpi-c-1.md)( **cmecs**)  
+ [Extract_Conversation_State](../core/extract-conversation-state-cpi-c-1.md)( **cmecs**)  
  Retrieves conversation state.  
   
- [Extract_Conversation_Type](../HIS2010/extract-conversation-type-cpi-c-1.md)( **cmect**)  
+ [Extract_Conversation_Type](../core/extract-conversation-type-cpi-c-1.md)( **cmect**)  
  Retrieves conversation type.  
   
- [Extract_Mode_Name](../HIS2010/extract-mode-name-cpi-c-2.md)( **cmemn**)  
+ [Extract_Mode_Name](../core/extract-mode-name-cpi-c-2.md)( **cmemn**)  
  Retrieves mode name.  
   
- [Extract_Partner_LU_Name](../HIS2010/extract-partner-lu-name-cpi-c-2.md)( **cmepln**)  
+ [Extract_Partner_LU_Name](../core/extract-partner-lu-name-cpi-c-2.md)( **cmepln**)  
  Retrieves partner LU name.  
   
- [Extract_Sync_Level](../HIS2010/extract-sync-level-cpi-c-2.md)( **cmesl**)  
+ [Extract_Sync_Level](../core/extract-sync-level-cpi-c-2.md)( **cmesl**)  
  Retrieves synchronization level.  
   
- [Test_Request_To_Send_Received](../HIS2010/test-request-to-send-received-cpi-c-2.md)( **cmtrts**)  
+ [Test_Request_To_Send_Received](../core/test-request-to-send-received-cpi-c-2.md)( **cmtrts**)  
  Determines whether a request-to-send notification has been received from the partner program.

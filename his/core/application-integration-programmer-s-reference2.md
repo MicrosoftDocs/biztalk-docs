@@ -1,4 +1,4 @@
----
+﻿---
 title: "Application Integration Programmer&#39;s Reference2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -34,7 +34,7 @@ This section of the Microsoft [!INCLUDE[hishostintegrationserver2009](../include
  [Microsoft Concurrent Server](../core/microsoft-concurrent-server2.md)  
   
 ## Reference  
- [Application Integration Samples](../HIS2010/application-integration-samples.md)  
+ [Application Integration Samples](../core/application-integration-samples.md)  
   
 ## Related Sections  
- [Application Integration Programmer’s Guide](../HIS2010/application-integration-programmer’s-guide1.md)
+ [Application Integration Programmer’s Guide](../core/application-integration-programmer’s-guide1.md)

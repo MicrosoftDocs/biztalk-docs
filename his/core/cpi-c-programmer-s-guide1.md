@@ -16,9 +16,9 @@ manager: "anneta"
 # CPI-C Programmer&#39;s Guide
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about developing applications with the Common Programming Interface for Communications (CPI-C).  
   
- For API references and other technical information for CPI-C, see the [CPI-C Programmer's Reference](../HIS2010/cpi-c-programmer-s-reference2.md) section of the SDK.  
+ For API references and other technical information for CPI-C, see the [CPI-C Programmer's Reference](../core/cpi-c-programmer-s-reference2.md) section of the SDK.  
   
- For sample code using CPI-C, see [CPI-C Samples](../HIS2010/cpi-c-samples.md) section of the SDK.  
+ For sample code using CPI-C, see [CPI-C Samples](../core/cpi-c-samples.md) section of the SDK.  
   
 ## In This Section  
  [Introduction to CPI-C](../core/introduction-to-cpi-c2.md)  

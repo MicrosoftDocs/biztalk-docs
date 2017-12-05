@@ -1,4 +1,4 @@
----
+﻿---
 title: "DL-BASE-DMOD Entry Point Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -20,29 +20,29 @@ The following table shows entry points divided into the categories DL-BASE, Dyna
   
 |DL-BASE entry points|Description|  
 |---------------------------|-----------------|  
-|[sbpuinit](../HIS2010/sbpuinit2.md)|Initializes the DL-BASE.|  
-|[sbpurcvx](../HIS2010/sbpurcvx2.md)|Processes Open from routing procedure.|  
-|[sbpusend](../HIS2010/sbpusend2.md)|Sends message.|  
-|[sbputerm](../HIS2010/sbputerm2.md)|Terminates.|  
+|[sbpuinit](../core/sbpuinit2.md)|Initializes the DL-BASE.|  
+|[sbpurcvx](../core/sbpurcvx2.md)|Processes Open from routing procedure.|  
+|[sbpusend](../core/sbpusend2.md)|Sends message.|  
+|[sbputerm](../core/sbputerm2.md)|Terminates.|  
   
 ### DMOD entry points  
   
 |DMOD entry points|Description|  
 |-----------------------|-----------------|  
-|[routproc](../HIS2010/routproc1.md)|Sample routing procedure.|  
-|[sepdchnk](../HIS2010/sepdchnk1.md)|Gets the function management interface (FMI) chunk size.|  
-|[sepdcrec](../HIS2010/sepdcrec2.md)|Gets user and diagnostics records from configuration file.|  
-|[sepdgetinfo](../HIS2010/sepdgetinfo1.md)|Gets SNA server system information.|  
-|[sepdrout](../HIS2010/sepdrout1.md)|Sets up the routing procedure (Microsoft® Windows® Server only).|  
+|[routproc](../core/routproc1.md)|Sample routing procedure.|  
+|[sepdchnk](../core/sepdchnk1.md)|Gets the function management interface (FMI) chunk size.|  
+|[sepdcrec](../core/sepdcrec2.md)|Gets user and diagnostics records from configuration file.|  
+|[sepdgetinfo](../core/sepdgetinfo1.md)|Gets SNA server system information.|  
+|[sepdrout](../core/sepdrout1.md)|Sets up the routing procedure (Microsoft® Windows® Server only).|  
   
 ### Buffer management entry points  
   
 |Buffer management entry points|Description|  
 |------------------------------------|-----------------|  
-|[sbpibegt](../HIS2010/sbpibegt1.md)|Gets the buffer element.|  
-|[sbpiberl](../HIS2010/sbpiberl1.md)|Releases the buffer element.|  
-|[sepdbubl](../HIS2010/sepdbubl2.md)|Gets the buffer.|  
-|[sepdburl](../HIS2010/sepdburl1.md)|Releases the buffer.|  
+|[sbpibegt](../core/sbpibegt1.md)|Gets the buffer element.|  
+|[sbpiberl](../core/sbpiberl1.md)|Releases the buffer element.|  
+|[sepdbubl](../core/sepdbubl2.md)|Gets the buffer.|  
+|[sepdburl](../core/sepdburl1.md)|Releases the buffer.|  
   
 > [!NOTE]
 >  The standard-call convention (CDECL) is used on Windows Server.  

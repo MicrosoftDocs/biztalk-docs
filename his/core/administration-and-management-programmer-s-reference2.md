@@ -1,4 +1,4 @@
----
+﻿---
 title: "Administration and Management Programmer&#39;s Reference2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -16,9 +16,9 @@ manager: "anneta"
 # Administration and Management Programmer&#39;s Reference
 [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] included the following Windows Management Interface (WMI) providers to enable scripted management.  
   
- For general information about programming for WMI providers, see [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md) section of the SDK.  
+ For general information about programming for WMI providers, see [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md) section of the SDK.  
   
- For sample code illustrating WMI providers, see [Administration and Management Samples](../HIS2010/administration-and-management-samples.md).  
+ For sample code illustrating WMI providers, see [Administration and Management Samples](../core/administration-and-management-samples.md).  
   
 ## In This Section  
  [Configuration Provider WMI Programmer's Reference](../core/configuration-provider-wmi-programmer-s-reference1.md)  

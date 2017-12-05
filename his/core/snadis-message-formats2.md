@@ -1,4 +1,4 @@
----
+﻿---
 title: "SNADIS Message Formats2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -43,7 +43,7 @@ This section describes the SNA Device Interface Specification interface in terms
   
 -   Fields that occupy two bytes — the **srci** field in all messages, and fields such as **opresid** in [Open(LINK) Request](../core/open-link-request1.md) — are represented with the arithmetically most significant byte in the lowest byte address, irrespective of the normal byte order used by the processor on which the software executes. That is, the 2-byte value 0x1234 has the byte 0x12 in the lowest byte address. The exception to this is the **startd** and **endd** fields in all elements, which are always stored in the processor's normal byte order.  
   
--   Messages are composed of buffers, consisting of a buffer header and zero or more buffer elements. For more information on buffer formats, see [Messages](../HIS2010/messages-snadis-2.md).  
+-   Messages are composed of buffers, consisting of a buffer header and zero or more buffer elements. For more information on buffer formats, see [Messages](../core/messages-snadis-2.md).  
   
 -   The **startd** field in each element gives the offset of the first byte of data in the element after the **trpad** field. Its value will either be 1 (data starts in the byte after the **trpad** field), 10 (nine bytes of padding are included between the **trpad** field and the start of the data), or 13 (12 bytes of padding are included between the **trpad** field and the start of the data). Any extra bytes are used by the local node for additional header information. This avoids having to copy data into a new buffer when adding this information.  
   

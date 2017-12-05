@@ -33,4 +33,4 @@ You can create a new Transaction Integrator (TI) Designer project in the Visual 
 6.  After **Location**, type or browse to the location to store the project.  
   
 ## See Also  
- [Host Integration Server Designer UI](../HIS2010/host-integration-server-designer-ui2.md)
+ [Host Integration Server Designer UI](../core/host-integration-server-designer-ui2.md)

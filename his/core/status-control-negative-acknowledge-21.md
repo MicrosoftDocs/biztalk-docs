@@ -107,6 +107,6 @@ struct Status-Control(...) Negative-Acknowledge-2 {
   
 -   The message key field matches the message key in the corresponding **Status-Control** request.  
   
--   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../HIS2010/status-control-message2.md).  
+-   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../core/status-control-message2.md).  
   
--   For a list of error codes, see [Error and Sense Codes](../HIS2010/error-and-sense-codes1.md).
+-   For a list of error codes, see [Error and Sense Codes](../core/error-and-sense-codes1.md).

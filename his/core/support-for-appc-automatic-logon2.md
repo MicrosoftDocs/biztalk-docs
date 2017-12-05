@@ -20,4 +20,4 @@ This section describes the support for automatic logon for Advanced Program-to-P
   
  The client application is coded to use "program" level security, with a special hard-coded APPC user name (MS$SAME) and password (MS$SAME). When this session allocation flows from client to Host Integration Server, the server looks up the host account and password corresponding to the Windows account under which the client is logged on, and substitutes the host account information into the APPC attach message it sends to the host.  
   
- To use this feature for an APPC application, the **user_id** and **pwd** fields in the [ALLOCATE](../HIS2010/allocate1.md) or [MC_ALLOCATE](../HIS2010/mc-allocate1.md) verbs must be hard-coded to use the string mentioned above, and **security** must be set to AP_PGM.
+ To use this feature for an APPC application, the **user_id** and **pwd** fields in the [ALLOCATE](../core/allocate1.md) or [MC_ALLOCATE](../core/mc-allocate1.md) verbs must be hard-coded to use the string mentioned above, and **security** must be set to AP_PGM.

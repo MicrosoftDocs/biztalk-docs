@@ -26,11 +26,11 @@ This section explains how [!INCLUDE[hisHostIntServNoVersion](../includes/hishost
   
  For specific information about an application programming interface (API) supported by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], see the programmer's guide for that API:  
   
--   [APPC Programmer's Guide](../HIS2010/appc-programmer-s-guide1.md)  
+-   [APPC Programmer's Guide](../core/appc-programmer-s-guide1.md)  
   
--   [CPI-C Programmer's Guide](../HIS2010/cpi-c-programmer-s-guide2.md)  
+-   [CPI-C Programmer's Guide](../core/cpi-c-programmer-s-guide2.md)  
   
--   [LUA Programmer's Guide](../HIS2010/lua-programmer-s-guide2.md)  
+-   [LUA Programmer's Guide](../core/lua-programmer-s-guide2.md)  
   
 ## In This Section  
  [SNA Session Support](../core/sna-session-support2.md)  

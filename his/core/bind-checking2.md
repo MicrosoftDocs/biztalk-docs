@@ -1,4 +1,4 @@
----
+﻿---
 title: "BIND Checking2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BIND Checking
-The [Open(PLU) OK Response](../HIS2010/open-plu-oresponse1.md) contains the connection information control block (CICB), which enables the application to customize certain characteristics of the connection and contains information used in **BIND** verification. Note that the local node verifies the **BIND** parameters carried on the **Open(PLU) OK Response**. It does not maintain a copy of the original **BIND** request/response unit (RU) from the host. If the **BIND** is negotiable, the application is permitted to modify the parameters in the **BIND** RU, but if it is nonnegotiable the application should return the **BIND** RU unmodified. A negotiable **BIND** flag is provided in the [Open(PLU) Request](../HIS2010/open-plu-request1.md).  
+The [Open(PLU) OK Response](../core/open-plu-oresponse1.md) contains the connection information control block (CICB), which enables the application to customize certain characteristics of the connection and contains information used in **BIND** verification. Note that the local node verifies the **BIND** parameters carried on the **Open(PLU) OK Response**. It does not maintain a copy of the original **BIND** request/response unit (RU) from the host. If the **BIND** is negotiable, the application is permitted to modify the parameters in the **BIND** RU, but if it is nonnegotiable the application should return the **BIND** RU unmodified. A negotiable **BIND** flag is provided in the [Open(PLU) Request](../core/open-plu-request1.md).  
   
  Although many characteristics of the PLU session are determined by the **BIND** parameters, the application can select certain characteristics by specifying fields in the CICB. For more information, see the following table. More detailed information about CICB usage and the effect on the PLU session of selecting various CICB options is given in context in the topics of this section that deal with PLU session characteristics such as chaining and pacing.  
   
@@ -25,12 +25,12 @@ The [Open(PLU) OK Response](../HIS2010/open-plu-oresponse1.md) contains the conn
 |Field|Explanation|  
 |-----------|-----------------|  
 |Segment delivery option|A value of 0x00 indicates that the local node should perform outbound segment assembly and only deliver complete RUs. A value of 0x01 indicates that the application wants the local node to deliver RU segments. For more information, see [Segment Delivery](../core/segment-delivery1.md).|  
-|Application pacing option|A value of 0x00 indicates that the application requires the local node to handle pacing. A value of 0x01 indicates that the application needs to be involved with outbound pacing through [Status-Resource](../HIS2010/status-resource2.md) messages. For more information, see [Pacing and Chunking](../core/pacing-and-chunking1.md).|  
+|Application pacing option|A value of 0x00 indicates that the application requires the local node to handle pacing. A value of 0x01 indicates that the application needs to be involved with outbound pacing through [Status-Resource](../core/status-resource2.md) messages. For more information, see [Pacing and Chunking](../core/pacing-and-chunking1.md).|  
 |Application cancel option|A value of 0x00 indicates that the local node should automatically generate CANCEL. A value of 0x01 indicates that the application will generate CANCEL. For more information, see [Inbound Chaining](../core/inbound-chaining1.md).|  
 |Application transaction numbers option|A value of 0x00 indicates that the application does not support transaction numbers. A value of 0x01 indicates that the application does support transaction numbers. For more information, see [Recovery](../core/recovery1.md).|  
 |**BIND** check index|Gives the index of the **BIND** check table entry against which the BIND parameters should be verified. One of the following values should be used:<br /><br /> -   0x01 —3270 printer session<br />-   0x02 —3270 display session<br />-   0x10 —LUA (LU type 0) application|  
   
- The **Open(PLU) Confirm** from the local node to the application indicates whether the **BIND** verification was successful, and if so, supplies the bind information control block (BICB). The BICB summarizes the session **BIND** parameters in a format suitable for high-level languages and effectively defines the characteristics of the PLU session. The application not negotiating the **BIND** should usually not require to examine the **BIND** on the [Open(PLU) Request](../HIS2010/open-plu-request1.md) and should use the BICB on the [Open(PLU) OK Confirm](../HIS2010/open-plu-oconfirm2.md).  
+ The **Open(PLU) Confirm** from the local node to the application indicates whether the **BIND** verification was successful, and if so, supplies the bind information control block (BICB). The BICB summarizes the session **BIND** parameters in a format suitable for high-level languages and effectively defines the characteristics of the PLU session. The application not negotiating the **BIND** should usually not require to examine the **BIND** on the [Open(PLU) Request](../core/open-plu-request1.md) and should use the BICB on the [Open(PLU) OK Confirm](../core/open-plu-oconfirm2.md).  
   
  The following table summarizes the fields in the BICB and their correspondence to the parameters in the **BIND** RU. For more detailed information, see the IBM manual *Systems Network Architecture: Formats,* (GA27-3136).  
   
@@ -86,14 +86,14 @@ ataru[42]**|[16,   2]|Peripheral Device Information Record (PDIR) allowed indica
 > [!NOTE]
 >  These values are of type INTEGER (all others are of type CHAR).  
   
- The opening PLU sequence can fail if the application rejects the [Open(PLU) Request](../HIS2010/open-plu-request1.md) (for example, if the **BIND** parameters are unacceptable on a nonnegotiable **BIND**) by sending [Open(PLU) Error Response](../HIS2010/open-plu-error-response1.md) and appropriate sense codes. The local node sends to the host a negative response to the **BIND** request containing the supplied sense codes. The PLU connection is considered to be closed after an **Open(PLU) Error Response**, and the local node does not generate an **Open(PLU) Confirm**. The following figure shows a failure to open the PLU connection (for a nonnegotiable **BIND**), due to the application rejecting the **Open(PLU) Request**.  
+ The opening PLU sequence can fail if the application rejects the [Open(PLU) Request](../core/open-plu-request1.md) (for example, if the **BIND** parameters are unacceptable on a nonnegotiable **BIND**) by sending [Open(PLU) Error Response](../core/open-plu-error-response1.md) and appropriate sense codes. The local node sends to the host a negative response to the **BIND** request containing the supplied sense codes. The PLU connection is considered to be closed after an **Open(PLU) Error Response**, and the local node does not generate an **Open(PLU) Confirm**. The following figure shows a failure to open the PLU connection (for a nonnegotiable **BIND**), due to the application rejecting the **Open(PLU) Request**.  
   
  ![](../core/media/his-32703g.gif "his_32703g")  
 Failure to open the PLU connection  
   
 -   The opening PLU sequence can also fail if the **BIND** verification against the **BIND** check table entry specified by the application fails. In this case, the local node does the following: Sends to the host a negative response to the **BIND** request with appropriate sense codes.  
   
--   Sends to the application an [Open(PLU) Error Confirm](../HIS2010/open-plu-error-confirm1.md) with the first word of the sense codes as the first error code and the index of the **BIND** parameter in error as the second error code.  
+-   Sends to the application an [Open(PLU) Error Confirm](../core/open-plu-error-confirm1.md) with the first word of the sense codes as the first error code and the index of the **BIND** parameter in error as the second error code.  
   
  The PLU connection is considered to be closed after the **Open(PLU) Error Confirm**. The following figure shows failure to open the PLU connection due to **BIND** verification failure. Note that error code 2 gives the index in the RU of the **BIND** parameter in error.  
   

@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SDLC Connection Pointers
-Connections are configured through the SNA Manager. The steps for configuring an SDLC connection are described in detail in [Important Connection Information](../HIS2010/important-connection-information1.md). The following pointers indicate items that require special attention:  
+Connections are configured through the SNA Manager. The steps for configuring an SDLC connection are described in detail in [Important Connection Information](../core/important-connection-information1.md). The following pointers indicate items that require special attention:  
   
  As with all connections, the settings must be configured correctly. For details, see [Settings to Check for All Connection Types](../core/settings-to-check-for-all-connection-types2.md).  
   

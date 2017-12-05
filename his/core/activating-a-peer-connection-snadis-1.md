@@ -16,7 +16,7 @@ manager: "anneta"
 # Activating a Peer Connection (SNADIS)
 For a peer connection, there is an activation sequence that involves the two stations exchanging format 3 exchange identification (XID) frames. As part of this sequence, the two stations agree on their link roles. They also exchange information relating to the link level connection, such as the maximum frame size supported.  
   
- The node passes XIDs to the SNALink over the LINK LPI connection using the [Send-XID](../HIS2010/send-xid2.md) message. The SNALink returns received XIDs to the local node over the LINK LPI connection using the [Request-Open-Station](../HIS2010/request-open-station1.md) message.  
+ The node passes XIDs to the SNALink over the LINK LPI connection using the [Send-XID](../core/send-xid2.md) message. The SNALink returns received XIDs to the local node over the LINK LPI connection using the [Request-Open-Station](../core/request-open-station1.md) message.  
   
  [Fixed Link Roles](../core/fixed-link-roles2.md) and [Negotiable Link Roles](../core/negotiable-link-roles1.md) show examples of XID exchange for the two cases:  
   
@@ -26,7 +26,7 @@ For a peer connection, there is an activation sequence that involves the two sta
   
  Points to note are:  
   
--   The [Open(LINK) Request](../HIS2010/open-link-request2.md) is supplied with a NULL XID that is sent when the end-to-end connection is established.  
+-   The [Open(LINK) Request](../core/open-link-request2.md) is supplied with a NULL XID that is sent when the end-to-end connection is established.  
   
 -   After the first NULL XID, all XIDs are format 3.  
   

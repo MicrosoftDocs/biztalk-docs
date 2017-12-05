@@ -1,4 +1,4 @@
----
+﻿---
 title: "Status-Acknowledge(Nack-1)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -137,6 +137,6 @@ struct Status-Acknowledge(Nack-1) {
   
 -   For inbound **Status-Acknowledge(Nack-1)** messages from the application to the local node, the SNA sequence number reflects the sequence number of the outbound data message to which this is a negative acknowledgment.  
   
--   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH) and (if appropriate) response header (RH) are included in the data, and the **startd** field points to the TH. The **akmsgkey**, **akflags1**, and **akflags2** fields are undefined and should not be used. The corresponding data from the element should be used instead. The **akseqno** field is similarly undefined on messages from the local node to the application. It must be set on messages from the application to the local node. (For more information about FMI, see [FMI Concepts](../HIS2010/fmi-concepts2.md).)  
+-   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH) and (if appropriate) response header (RH) are included in the data, and the **startd** field points to the TH. The **akmsgkey**, **akflags1**, and **akflags2** fields are undefined and should not be used. The corresponding data from the element should be used instead. The **akseqno** field is similarly undefined on messages from the local node to the application. It must be set on messages from the application to the local node. (For more information about FMI, see [FMI Concepts](../core/fmi-concepts2.md).)  
   
 -   If the application is not using the LUA variant of the FMI, the message consists of a buffer header only. There is no buffer element.

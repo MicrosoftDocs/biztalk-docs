@@ -27,7 +27,7 @@ Although [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-
 4.  Select the user, and click **OK**.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [How to Add New Users](../core/how-to-add-new-users1.md)   
  [How to Assign LUs to Configured Users](../core/how-to-assign-lus-to-configured-users2.md)   
  [Step 4 (A) Adding and Assigning Users](../core/step-4-a-adding-and-assigning-users1.md)

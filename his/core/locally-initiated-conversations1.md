@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Locally Initiated Conversations
-Conversations are initiated locally by issuing an [ALLOCATE](../HIS2010/allocate1.md) or [MC_ALLOCATE](../HIS2010/mc-allocate1.md) verb. The **ALLOCATE** and **MC_ALLOCATE** verbs are modified to support additional parameters required by Sync Point support. The supplied **synclevel** parameter of the **ALLOCATE** and **MC_ALLOCATE** verbs can take on a value of AP_SYNCPT, which specifies that the conversation requested is a Sync Point conversation.
+Conversations are initiated locally by issuing an [ALLOCATE](../core/allocate1.md) or [MC_ALLOCATE](../core/mc-allocate1.md) verb. The **ALLOCATE** and **MC_ALLOCATE** verbs are modified to support additional parameters required by Sync Point support. The supplied **synclevel** parameter of the **ALLOCATE** and **MC_ALLOCATE** verbs can take on a value of AP_SYNCPT, which specifies that the conversation requested is a Sync Point conversation.

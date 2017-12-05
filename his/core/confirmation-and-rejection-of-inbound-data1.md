@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Confirmation and Rejection of Inbound Data
-For every SNA chain of data sent or received for which responses are outstanding, such as Request Exception (RQE) or Definite Response Required (RQD), the local node maintains a correlation table entry. If the table entries become depleted, the local node will terminate the session using the most table entries. A [Status-Error](../HIS2010/status-error2.md) message (code 0x46) and a [Close(PLU) Request](../HIS2010/close-plu-request1.md) are sent to the application, and a **TERM-SELF** message is sent to the host. Table entry shortages (inbound) can be avoided by sending change direction (CD) (for half-duplex) data, or data **ACKRQD,** or any **Status-Control(CHASE)**, or **Status-Control(LUSTAT)** with **ACKRQD**. Outbound shortages can be avoided by sending courtesy acknowledge messages as described in [Opening the PLU Connection](../core/opening-the-plu-connection1.md).  
+For every SNA chain of data sent or received for which responses are outstanding, such as Request Exception (RQE) or Definite Response Required (RQD), the local node maintains a correlation table entry. If the table entries become depleted, the local node will terminate the session using the most table entries. A [Status-Error](../core/status-error2.md) message (code 0x46) and a [Close(PLU) Request](../core/close-plu-request1.md) are sent to the application, and a **TERM-SELF** message is sent to the host. Table entry shortages (inbound) can be avoided by sending change direction (CD) (for half-duplex) data, or data **ACKRQD,** or any **Status-Control(CHASE)**, or **Status-Control(LUSTAT)** with **ACKRQD**. Outbound shortages can be avoided by sending courtesy acknowledge messages as described in [Opening the PLU Connection](../core/opening-the-plu-connection1.md).  
   
  The local node sends chains of data to the host with their chain response mode specified as follows:  
   
@@ -30,15 +30,15 @@ For every SNA chain of data sent or received for which responses are outstanding
   
      If the application sends a **Data** message to the local node without the **ACKRQD** field set, and the **BIND** parameters specified that the secondary uses no-response mode.  
   
- If the setting of **ACKRQD** on a [Data](../HIS2010/data2.md) message from the application does not reflect the chain response mode specified in the **BIND** parameters, the local node returns a [Status-Acknowledge(Nack-2)](../HIS2010/status-acknowledge-nack-2-1.md) indicating a noncritical error code. For example, if the application specifies **ACKRQD** but the **BIND** parameters do not permit the local node to send definite response chains.  
+ If the setting of **ACKRQD** on a [Data](../core/data2.md) message from the application does not reflect the chain response mode specified in the **BIND** parameters, the local node returns a [Status-Acknowledge(Nack-2)](../core/status-acknowledge-nack-2-1.md) indicating a noncritical error code. For example, if the application specifies **ACKRQD** but the **BIND** parameters do not permit the local node to send definite response chains.  
   
  In case 1, the application receives an acknowledgment to all function management data (FMD) chains it sends to the local node:  
   
--   Positive responses from the host are returned to the application as [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) messages.  
+-   Positive responses from the host are returned to the application as [Status-Acknowledge(Ack)](../core/status-acknowledge-ack-1.md) messages.  
   
--   Negative responses from the host are returned as [Status-Acknowledge(Nack-1)](../HIS2010/status-acknowledge-nack-1-2.md) messages carrying the SNA sense codes.  
+-   Negative responses from the host are returned as [Status-Acknowledge(Nack-1)](../core/status-acknowledge-nack-1-2.md) messages carrying the SNA sense codes.  
   
--   Errors detected by the local node when attempting to send the message are returned as [Status-Acknowledge(Nack-2)](../HIS2010/status-acknowledge-nack-2-1.md) messages carrying the equivalent error code.  
+-   Errors detected by the local node when attempting to send the message are returned as [Status-Acknowledge(Nack-2)](../core/status-acknowledge-nack-2-1.md) messages carrying the equivalent error code.  
   
  In case 2, the application only receives an acknowledgment of an FMD chain it sends to the local node for:  
   

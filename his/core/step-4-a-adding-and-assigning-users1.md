@@ -16,7 +16,7 @@ manager: "anneta"
 # Step 4 (A) Adding and Assigning Users
 This section describes adding users and assigning LUs to configured users.  
   
- For information about the IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
+ For information about the IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
   
 ## In This Section  
  [How to Add New Users](../core/how-to-add-new-users1.md)  

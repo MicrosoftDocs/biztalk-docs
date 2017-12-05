@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dispatcher (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Dispatcher (SNADIS)
-Whenever a Base event occurs, the Base calls the link support code dispatcher function [SNALinkDispatchProc](../HIS2010/snalinkdispatchproc1.md) to handle the event. The term Base event in this context means:  
+Whenever a Base event occurs, the Base calls the link support code dispatcher function [SNALinkDispatchProc](../core/snalinkdispatchproc1.md) to handle the event. The term Base event in this context means:  
   
 -   A message arriving from a local 2.1 node.  
   

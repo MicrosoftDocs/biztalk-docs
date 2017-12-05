@@ -27,7 +27,7 @@ SNA components required for LUA communications
   
 -   The LU-LU session, between the LUA LU at the computer and the host LU. This is used for data transfer between the computer and the host application.  
   
- LUA allows applications to send and receive data on the SSCP-LU session and on the LU-LU session. An LUA application can send data on this session using the common service verb [TRANSFER_MS_DATA](../HIS2010/transfer-ms-data1.md). LUA does not provide access to the PU-SSCP session.  
+ LUA allows applications to send and receive data on the SSCP-LU session and on the LU-LU session. An LUA application can send data on this session using the common service verb [TRANSFER_MS_DATA](../core/transfer-ms-data1.md). LUA does not provide access to the PU-SSCP session.  
   
  The SSCP and LU sessions each provide two priorities of messages, normal and expedited. Expedited messages take precedence over other messages waiting to be transmitted on the same session. There are four different flows on which a message can be sent or received:  
   

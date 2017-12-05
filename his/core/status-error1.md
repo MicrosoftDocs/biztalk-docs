@@ -16,7 +16,7 @@ manager: "anneta"
 # Status-Error
 The **Status-Error** message is used to report request reject and response header (RH) usage error conditions in outbound SNA request/response units (RUs) to the application. It flows from the node to the application and is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  
   
- For more information, see [Status-Error Message](../HIS2010/status-error-message2.md).  
+ For more information, see [Status-Error Message](../core/status-error-message2.md).  
   
 ## Syntax  
   
@@ -95,4 +95,4 @@ struct Status-Error {
   
 -   The **Status-Error** message consists of a buffer header only. There is no buffer element.  
   
--   The error codes are listed in [Error and Sense Codes](../HIS2010/error-and-sense-codes1.md).
+-   The error codes are listed in [Error and Sense Codes](../core/error-and-sense-codes1.md).

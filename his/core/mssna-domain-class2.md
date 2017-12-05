@@ -284,4 +284,4 @@ class MsSna_Domain : MsSna_Config
  **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  
   
 ## See Also  
- [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)

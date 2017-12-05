@@ -55,7 +55,7 @@ This topic summarizes information about developing transaction programs (TPs) us
  **Multiple threads**  
  A TP can have multiple threads that issue verbs. Windows APPC makes provisions for multithreaded Windows-based processes. A process contains one or more threads of execution. All references to threads refer to actual threads in the multithreaded Windows environments.  
   
- With the exception of [RECEIVE_AND_POST](../HIS2010/receive-and-post2.md), [MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md), [RECEIVE_AND_WAIT](../HIS2010/receive-and-wait1.md), and [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md), only one conversation verb can be outstanding at a time on any conversation; however, other verbs can be issued for other conversations. This guideline also applies to TP verbs and TPs. Although multiple TP verbs can be issued, only one TP verb can be outstanding at a time on a TP. This applies to both multithreaded applications and single-threaded applications that use asynchronous calls.  
+ With the exception of [RECEIVE_AND_POST](../core/receive-and-post2.md), [MC_RECEIVE_AND_POST](../core/mc-receive-and-post1.md), [RECEIVE_AND_WAIT](../core/receive-and-wait1.md), and [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md), only one conversation verb can be outstanding at a time on any conversation; however, other verbs can be issued for other conversations. This guideline also applies to TP verbs and TPs. Although multiple TP verbs can be issued, only one TP verb can be outstanding at a time on a TP. This applies to both multithreaded applications and single-threaded applications that use asynchronous calls.  
   
  **Packing**  
  For performance considerations, the VCBs are not packed. VCB structure member elements after the first element are aligned on either the size of the member type or DWORD (4-byte) boundaries, whichever is smaller. As a result, DWORDs are aligned on DWORD boundaries, WORDs are aligned on WORD boundaries, and BYTEs are aligned on BYTE boundaries. This means, for example, that there is a 2-byte gap between the primary and secondary return codes. Therefore, the elements in a VCB should only be accessed using the structures provided.  
@@ -63,9 +63,9 @@ This topic summarizes information about developing transaction programs (TPs) us
  This option for structure and union member alignment is the default behavior for Microsoft C/C++ compilers. For compatibility with the supplied logical unit application (LUA) libraries, make sure to use an equivalent structure and union member packing option when using other C/C++ compilers or when explicitly specifying a structure alignment option when using Microsoft compilers.  
   
  **Registering and deregistering applications**  
- All Windows APPC applications must call [WinAPPCStartup](../HIS2010/winappcstartup2.md) at the beginning of the session to register the application and [WinAPPCCleanup](../HIS2010/winappccleanup2.md) at the end of the session to deregister the application.  
+ All Windows APPC applications must call [WinAPPCStartup](../core/winappcstartup2.md) at the beginning of the session to register the application and [WinAPPCCleanup](../core/winappccleanup2.md) at the end of the session to deregister the application.  
   
- All Windows CSV applications must call the Windows SNA extension [WinCSVStartup](../HIS2010/wincsvstartup2.md) at the beginning of the session to register the application and [WinCSVCleanup](../HIS2010/wincsvcleanup2.md) to deregister the application when the session is finished.  
+ All Windows CSV applications must call the Windows SNA extension [WinCSVStartup](../core/wincsvstartup2.md) at the beginning of the session to register the application and [WinCSVCleanup](../core/wincsvcleanup2.md) to deregister the application when the session is finished.  
   
  **Run-time linking**  
  For a TP to be dynamically linked to APPC at run time, the TP must issue the following calls:  

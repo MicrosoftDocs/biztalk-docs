@@ -1,4 +1,4 @@
----
+﻿---
 title: "Creating an Application for the BizTalk Adapter for Host Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -36,7 +36,7 @@ The following list describes the steps that you must follow to create an applica
   
  After you create the export package, you can move the solution to a staging or production server and import the package.  
   
- For more information, see [Application Integration Programmer’s Guide](../HIS2010/application-integration-programmer’s-guide1.md).  
+ For more information, see [Application Integration Programmer’s Guide](../core/application-integration-programmer’s-guide1.md).  
   
 ## In This Section  
  [Mainframe Setup](../core/mainframe-setup2.md)  

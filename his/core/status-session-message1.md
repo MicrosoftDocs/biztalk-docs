@@ -1,4 +1,4 @@
----
+﻿---
 title: "Status-Session Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Status-Session Message
-[Status-Session](../HIS2010/status-session1.md) messages always flow from the local node to the application and provide information about changes in the state of the session. There are separate **Status-Session** flows for each connection between the application and the local node.  
+[Status-Session](../core/status-session1.md) messages always flow from the local node to the application and provide information about changes in the state of the session. There are separate **Status-Session** flows for each connection between the application and the local node.  
   
  The local node uses only one **Status-Session** message on the primary logical unit (PLU) connection. This is the **Status-Session(BETB)** message, used to report when the PLU session returns to the between-bracket state after the application or the PLU initiated a bracket. (For more information, see [Brackets](../core/brackets1.md).)  
   

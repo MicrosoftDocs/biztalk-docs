@@ -52,5 +52,5 @@ For Host Integration Server, the client context is a set of values that allow ov
 ```  
   
 ## See Also  
- [COMTIContext Keywords](../HIS2010/comticontext-keywords2.md)   
+ [COMTIContext Keywords](../core/comticontext-keywords2.md)   
  [Creating an Application for the BizTalk Adapter for Host Applications](../core/creating-an-application-for-the-biztalk-adapter-for-host-applications2.md)

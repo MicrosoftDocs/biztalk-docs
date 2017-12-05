@@ -1,4 +1,4 @@
----
+﻿---
 title: "sepdcrec1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -91,7 +91,7 @@ TEDIAGNS *pDiagRecord 
   
  The two records should be accessed using the supplied pointers.  
   
- See [Configuration Information](../HIS2010/configuration-information2.md) for details of the format of these records and of how the application uses the configuration file information.  
+ See [Configuration Information](../core/configuration-information2.md) for details of the format of these records and of how the application uses the configuration file information.  
   
  If there is no 3270 user record for this user in the configuration file, or if no diagnostics record is found in the configuration file (an internal error), the application should terminate and not allow the user to use 3270 emulation. The Host Integration Server error log messages COM0438 and COM0437 can be used to report these failures.  
   

@@ -44,5 +44,5 @@ The following performance counters are available for Transaction Integrator.
  This counter indicates the total number of method calls that have returned a non-zero HRESULT indication to the client application. This counter is not specific to any Transaction Integrator programming model. This number is represented in terms of errors per second.  
   
 ## See Also  
- [Transaction Integrator Performance Guide](../HIS2010/transaction-integrator-performance-guide2.md)   
+ [Transaction Integrator Performance Guide](../core/transaction-integrator-performance-guide2.md)   
  [System Monitor](../core/system-monitor1.md)

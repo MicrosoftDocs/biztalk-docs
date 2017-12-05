@@ -1,4 +1,4 @@
----
+﻿---
 title: "SNALinkDispatchProc2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -49,4 +49,4 @@ INTEGER locality 
   
 -   SBTICK—Base timer has expired; occurs every five seconds.  
   
- For suggested usage of this function, see [Sample Code for SNALinkDispatchProc](../HIS2010/sample-code-for-snalinkdispatchproc1.md).
+ For suggested usage of this function, see [Sample Code for SNALinkDispatchProc](../core/sample-code-for-snalinkdispatchproc1.md).

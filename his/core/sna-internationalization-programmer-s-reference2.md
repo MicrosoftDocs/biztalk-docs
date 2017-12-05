@@ -18,7 +18,7 @@ This section describes the features available in [!INCLUDE[hishostintegrationser
   
  The SNANLS API uses the language support features provided with Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, and Windows Server 2012. SNANLS supports European languages that use single-byte encoding, as well as East Asian languages that use double-byte or Unicode encoding.  
   
- For general information about programming for SNA internationalization, see [SNA Internationalization Programmer's Guide](../HIS2010/sna-internationalization-programmer-s-guide2.md).  
+ For general information about programming for SNA internationalization, see [SNA Internationalization Programmer's Guide](../core/sna-internationalization-programmer-s-guide2.md).  
   
 ## In This Section  
   

@@ -74,4 +74,4 @@ public void HFDAdapterCommandConstructor(ETCMLogging.Logging logging, string hos
   
 ## See Also  
  [Working with the Host File Adapter and Dataset](../core/working-with-the-host-file-adapter-and-dataset2.md)   
- [BizTalk Adapter for Host Files Configuration](../HIS2010/biztalk-adapter-for-host-files-configuration2.md)
+ [BizTalk Adapter for Host Files Configuration](../core/biztalk-adapter-for-host-files-configuration2.md)

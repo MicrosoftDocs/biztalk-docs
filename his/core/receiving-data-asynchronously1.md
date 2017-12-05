@@ -1,4 +1,4 @@
----
+﻿---
 title: "Receiving Data Asynchronously1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -24,16 +24,16 @@ When using Windows, a TP can receive data asynchronously, without regard to othe
   
  The following list gives details about these methods of receiving data asynchronously. For complete information, see the verb descriptions.  
   
- [RECEIVE_AND_WAIT](../HIS2010/receive-and-wait1.md)or [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md)with [WinAsyncAPPC](../HIS2010/winasyncappc2.md)  
+ [RECEIVE_AND_WAIT](../core/receive-and-wait1.md)or [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md)with [WinAsyncAPPC](../core/winasyncappc2.md)  
  This method enables an application to issue a verb and be notified through a **PostMessage** when the action is complete. To retrieve the message number that will be posted to the window, call **RegisterWindowMessage** with "WinAsyncAPPC" as the input string. Then issue **RECEIVE_AND_WAIT** or **MC_RECEIVE_AND_WAIT** using the **WinAsyncAPPC** entry point.  
   
- **RECEIVE_AND_WAIT**or **MC_RECEIVE_AND_WAIT**with [WinAsyncAPPCEx](../HIS2010/winasyncappcex2.md)  
+ **RECEIVE_AND_WAIT**or **MC_RECEIVE_AND_WAIT**with [WinAsyncAPPCEx](../core/winasyncappcex2.md)  
  This method enables an application to be notified through a Win32 event. This is particularly useful when writing applications that need to service multiple conversations simultaneously. The event must be in the nonsignaled state when passed to APPC, and the handle must have EVENT_MODIFY_STATE access to the event.  
   
- [RECEIVE_AND_POST](../HIS2010/receive-and-post2.md)or [MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md)  
+ [RECEIVE_AND_POST](../core/receive-and-post2.md)or [MC_RECEIVE_AND_POST](../core/mc-receive-and-post1.md)  
  When using **RECEIVE_AND_POST** or **MC_RECEIVE_AND_POST**, the application is notified through a Win32 event. The event must be in the nonsignaled state when passed to APPC, and the handle must have EVENT_MODIFY_STATE access to the event.  
   
- While receiving data asynchronously, the TP performs tasks not related to this conversation; the TP cannot issue most APPC verbs until notification is received. For information about the verbs that can be issued, see the descriptions of [WinAsyncAPPC](../HIS2010/winasyncappc2.md) or [WinAsyncAPPCEx](../HIS2010/winasyncappcex2.md).  
+ While receiving data asynchronously, the TP performs tasks not related to this conversation; the TP cannot issue most APPC verbs until notification is received. For information about the verbs that can be issued, see the descriptions of [WinAsyncAPPC](../core/winasyncappc2.md) or [WinAsyncAPPCEx](../core/winasyncappcex2.md).  
   
  After a verb has completed asynchronously, check the primary_rc to find out whether the data was received without error.  
   

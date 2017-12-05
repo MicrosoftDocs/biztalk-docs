@@ -14,6 +14,6 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Receiving Messages (SNADIS)
-The Base calls the SNALink dispatcher function [SNALinkDispatchProc](../HIS2010/snalinkdispatchproc1.md) when a message is available for it.  
+The Base calls the SNALink dispatcher function [SNALinkDispatchProc](../core/snalinkdispatchproc1.md) when a message is available for it.  
   
- Note that after the application receives a message, it is responsible for the buffer in which the message was received. It must either reuse the buffer to send a message (using [SNASendMessage](../HIS2010/snasendmessage2.md)) or release it (using [SNAReleaseBuffer](../HIS2010/snareleasebuffer2.md)). If the buffer to be reused does not contain the correct number of elements for the message to be sent, the application can obtain additional elements (using [SNAGetElement](../HIS2010/snagetelement2.md)) or release existing ones (using [SNAReleaseElement](../HIS2010/snareleaseelement2.md)).
+ Note that after the application receives a message, it is responsible for the buffer in which the message was received. It must either reuse the buffer to send a message (using [SNASendMessage](../core/snasendmessage2.md)) or release it (using [SNAReleaseBuffer](../core/snareleasebuffer2.md)). If the buffer to be reused does not contain the correct number of elements for the message to be sent, the application can obtain additional elements (using [SNAGetElement](../core/snagetelement2.md)) or release existing ones (using [SNAReleaseElement](../core/snareleaseelement2.md)).

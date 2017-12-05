@@ -32,13 +32,13 @@ For SNA type 2.1 nodes, the system services control point (SSCP) session uses fu
   
  This implies that the SSCP connection has the following characteristics:  
   
--   All [Data](../HIS2010/data2.md) messages have the acknowledgment required (ACKRQD) field set.  
+-   All [Data](../core/data2.md) messages have the acknowledgment required (ACKRQD) field set.  
   
 -   All Data messages have the begin chain indicator (BCI) and end chain indicator (ECI) application flags set.  
   
--   [Status-Control](../HIS2010/status-control2.md) messages do not flow on the connection.  
+-   [Status-Control](../core/status-control2.md) messages do not flow on the connection.  
   
--   [Status-Session](../HIS2010/status-session1.md) messages from the local node to the application only report changes in the activation state of the session.  
+-   [Status-Session](../core/status-session1.md) messages from the local node to the application only report changes in the activation state of the session.  
   
 -   The chaining, bracket, confirmation, and recovery protocols (described in [PLU Connection](../core/plu-connection2.md)) do not apply.  
   
@@ -54,7 +54,7 @@ For SNA type 2.1 nodes, the system services control point (SSCP) session uses fu
   
  The local node sends a **NOTIFY** request to the SSCP on behalf of the LU whenever the application's SSCP connection state changes while the LU is active. A **NOTIFY** (vector key 0x0C with byte 5 set to 0x03), which can act as secondary LU, is sent in the following cases:  
   
--   When an [Open(SSCP) Request](../HIS2010/open-sscp-request1.md) is received when the LU is already active.  
+-   When an [Open(SSCP) Request](../core/open-sscp-request1.md) is received when the LU is already active.  
   
 -   When an ACTLU request is accepted when the SSCP connection is already opened.  
   
@@ -62,7 +62,7 @@ For SNA type 2.1 nodes, the system services control point (SSCP) session uses fu
   
 -   When an ACTLU is received when the SSCP connection is not open.  
   
--   When a [Close(SSCP) Request](../HIS2010/close-sscp-request1.md) is received when the PLU session is not bound.  
+-   When a [Close(SSCP) Request](../core/close-sscp-request1.md) is received when the PLU session is not bound.  
   
 -   When an **UNBIND** request is received when the SSCP connection is not open.  
   

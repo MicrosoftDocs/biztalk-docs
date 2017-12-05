@@ -16,11 +16,11 @@ manager: "anneta"
 # Network Integration Programmer&#39;s Guide
 This section describes how to create applications in a Systems Network Architecture (SNA) environment.  
   
- For API references and other technical information about network integration, see the [Network Integration Programmer's Reference](../HIS2010/network-integration-programmer-s-reference1.md) section of the SDK.  
+ For API references and other technical information about network integration, see the [Network Integration Programmer's Reference](../core/network-integration-programmer-s-reference1.md) section of the SDK.  
   
- For sample code that illustrates network integration, see the [Network Integration Samples](../HIS2010/network-integration-samples.md) section of the SDK.  
+ For sample code that illustrates network integration, see the [Network Integration Samples](../core/network-integration-samples.md) section of the SDK.  
   
- For additional information about network integration, see the [Network Integration User's Guide](../HIS2010/network-integration-user-s-guide1.md) section of the Operations guide.  
+ For additional information about network integration, see the [Network Integration User's Guide](../core/network-integration-user-s-guide1.md) section of the Operations guide.  
   
 ## In This Section  
   

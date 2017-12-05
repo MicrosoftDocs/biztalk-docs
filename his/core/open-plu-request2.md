@@ -1,4 +1,4 @@
----
+﻿---
 title: "Open(PLU) Request2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -194,7 +194,7 @@ struct Open(PLU) Request {
   
 -   The **BIND** RU can be up to 256 bytes in length.  
   
--   If the application is using the logical unit application (LUA) variant of the function management interface (FMI), the **BIND** RU is preceded by its transmission header (TH) and response header (RH). The **startd** field of the second element points to the TH. (For more information about FMI, see [FMI Concepts](../HIS2010/fmi-concepts2.md).)  
+-   If the application is using the logical unit application (LUA) variant of the function management interface (FMI), the **BIND** RU is preceded by its transmission header (TH) and response header (RH). The **startd** field of the second element points to the TH. (For more information about FMI, see [FMI Concepts](../core/fmi-concepts2.md).)  
   
 -   The LU number matches that allocated to the named application on the [Open(SSCP) Response](../core/open-sscp-response1.md).  
   

@@ -16,7 +16,7 @@ manager: "anneta"
 # Step 3 (LU) Creating and Configuring 3270 LUs
 This section details information regarding creating and configuring LUs.  
   
- For information about the IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
+ For information about the IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
   
 ## In This Section  
  [Creating LUs](../core/creating-lus2.md)  

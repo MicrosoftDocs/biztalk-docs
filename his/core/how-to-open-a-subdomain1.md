@@ -33,7 +33,7 @@ Before you can configure [!INCLUDE[hisHostIntServNoVersion](../includes/hishosti
 3.  Select the appropriate settings for your subdomain, and click **Finish**.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [SNA Manager](../core/sna-manager1.md)   
  [How to Configure Server Properties](../core/how-to-configure-server-properties2.md)   
  [How to Configure SNA Service Properties](../core/how-to-configure-sna-service-properties1.md)   

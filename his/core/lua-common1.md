@@ -1,4 +1,4 @@
----
+﻿---
 title: "LUA_COMMON1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -58,7 +58,7 @@ struct LUA_COMMON {
  Secondary return code set by LUA at the completion of the verb. The valid return codes vary depending on the LUA verb issued.  
   
  *lua_opcode*  
- Supplied parameter. Contains the LUA command code (verb operation code) for the verb to be issued, for example, LUA_OPCODE_RUI_BID for the [RUI_BID](../HIS2010/rui-bid2.md) verb.  
+ Supplied parameter. Contains the LUA command code (verb operation code) for the verb to be issued, for example, LUA_OPCODE_RUI_BID for the [RUI_BID](../core/rui-bid2.md) verb.  
   
  *lua_correlator*  
  Supplied parameter. Contains a user-supplied value that links the verb with other user-supplied information. LUA does not use or change this information. This parameter is optional.  
@@ -66,7 +66,7 @@ struct LUA_COMMON {
  *lua_luname*  
  Supplied parameter. Specifies the ASCII name of the local LU used by the Windows LUA session.  
   
- [SLI_OPEN](../core/sli-open2.md) and [RUI_INIT](../HIS2010/rui-init2.md) require this parameter. Other Windows LUA verbs only require this parameter if **lua_sid** is zero.  
+ [SLI_OPEN](../core/sli-open2.md) and [RUI_INIT](../core/rui-init2.md) require this parameter. Other Windows LUA verbs only require this parameter if **lua_sid** is zero.  
   
  This parameter is eight bytes long, padded on the right with spaces (0x20) if the name is shorter than eight characters.  
   
@@ -77,16 +77,16 @@ struct LUA_COMMON {
  Offset of the COBOL extension. Not used by LUA in Host Integration Server and should be zero.  
   
  *lua_sid*  
- Supplied and returned parameter. Specifies the session identifier and is returned by [SLI_OPEN](../core/sli-open2.md) and [RUI_INIT](../HIS2010/rui-init2.md). Other verbs use this parameter to identify the session used for the command. If other verbs use the **lua_luname** parameter to identify sessions, set the **lua_sid** parameter to zero.  
+ Supplied and returned parameter. Specifies the session identifier and is returned by [SLI_OPEN](../core/sli-open2.md) and [RUI_INIT](../core/rui-init2.md). Other verbs use this parameter to identify the session used for the command. If other verbs use the **lua_luname** parameter to identify sessions, set the **lua_sid** parameter to zero.  
   
  *lua_max_length*  
- Specifies the length of received buffer for [RUI_READ](../HIS2010/rui-read1.md)and [SLI_RECEIVE](../HIS2010/sli-receive1.md). For other RUI and SLI verbs, it is not used and should be set to zero.  
+ Specifies the length of received buffer for [RUI_READ](../core/rui-read1.md)and [SLI_RECEIVE](../core/sli-receive1.md). For other RUI and SLI verbs, it is not used and should be set to zero.  
   
  *lua_data_length*  
- Returned parameter. Specifies the length of data returned in **lua_peek_data** for the [RUI_BID](../HIS2010/rui-bid2.md) verb.  
+ Returned parameter. Specifies the length of data returned in **lua_peek_data** for the [RUI_BID](../core/rui-bid2.md) verb.  
   
  *lua_data_ptr*  
- Pointer to the application-supplied buffer that contains the data to be sent for [SLI_SEND](../HIS2010/sli-send1.md) and [RUI_WRITE](../HIS2010/rui-write1.md) or that will receive data for **SLI_RECEIVE** and **RUI_READ**. For other RUI and SLI verbs, this parameter is not used and should be set to zero.  
+ Pointer to the application-supplied buffer that contains the data to be sent for [SLI_SEND](../core/sli-send1.md) and [RUI_WRITE](../core/rui-write1.md) or that will receive data for **SLI_RECEIVE** and **RUI_READ**. For other RUI and SLI verbs, this parameter is not used and should be set to zero.  
   
  *lua_post_handle*  
  Supplied parameter. Used under Windows if asynchronous notification is to be accomplished by events. This variable contains the handle of the event to be signaled or a window handle.  
@@ -194,7 +194,7 @@ struct LUA_COMMON {
  Padded data indicator, one bit.  
   
  *lua_flag1*  
- Supplied parameter. Contains a data structure containing flags for messages supplied by the application. This parameter is used by [RUI_BID](../HIS2010/rui-bid2.md), [RUI_READ](../HIS2010/rui-read1.md), [RUI_WRITE](../HIS2010/rui-write1.md), [SLI_BID](../HIS2010/sli-bid1.md), [SLI_RECEIVE](../HIS2010/sli-receive1.md), and [SLI_SEND](../HIS2010/sli-send1.md). For other LUA verbs, this parameter is not used and should be set to zero.  
+ Supplied parameter. Contains a data structure containing flags for messages supplied by the application. This parameter is used by [RUI_BID](../core/rui-bid2.md), [RUI_READ](../core/rui-read1.md), [RUI_WRITE](../core/rui-write1.md), [SLI_BID](../core/sli-bid1.md), [SLI_RECEIVE](../core/sli-receive1.md), and [SLI_SEND](../core/sli-send1.md). For other LUA verbs, this parameter is not used and should be set to zero.  
   
  lua_flag1.bid_enable  
   
@@ -225,7 +225,7 @@ struct LUA_COMMON {
  LU normal flow, one bit.  
   
  *lua_message_type*  
- Specifies the type of the inbound or outbound SNA commands and data. This is a returned parameter for [RUI_INIT](../HIS2010/rui-init2.md) and [SLI_OPEN](../core/sli-open2.md) and a supplied parameter for [SLI_SEND](../HIS2010/sli-send1.md). For other LUA verbs, this variable is not used and should be set to zero.  
+ Specifies the type of the inbound or outbound SNA commands and data. This is a returned parameter for [RUI_INIT](../core/rui-init2.md) and [SLI_OPEN](../core/sli-open2.md) and a supplied parameter for [SLI_SEND](../core/sli-send1.md). For other LUA verbs, this variable is not used and should be set to zero.  
   
  Possible values are:  
   
@@ -278,7 +278,7 @@ struct LUA_COMMON {
  LU_DATA, LUSTAT_LU, LUSTAT_SSCP, and SSCP_DATA are not SNA commands.  
   
  *lua_flag2*  
- Returned parameter. Contains flags for messages returned by LUA. This parameter is returned by [RUI_BID](../HIS2010/rui-bid2.md), [RUI_READ](../HIS2010/rui-read1.md), [RUI_WRITE](../HIS2010/rui-write1.md), [SLI_BID](../HIS2010/sli-bid1.md), [SLI_RECEIVE](../HIS2010/sli-receive1.md), and [SLI_SEND](../HIS2010/sli-send1.md). For other LUA verbs this parameter is not used and should be set to zero.  
+ Returned parameter. Contains flags for messages returned by LUA. This parameter is returned by [RUI_BID](../core/rui-bid2.md), [RUI_READ](../core/rui-read1.md), [RUI_WRITE](../core/rui-write1.md), [SLI_BID](../core/sli-bid1.md), [SLI_RECEIVE](../core/sli-receive1.md), and [SLI_SEND](../core/sli-send1.md). For other LUA verbs this parameter is not used and should be set to zero.  
   
  lua_flag2.bid_enable  
   
@@ -305,7 +305,7 @@ struct LUA_COMMON {
  Indicates LU normal flow if set to 1.  
   
  *lua_resv56*  
- Supplied parameter. Reserved field used by [SLI_OPEN](../core/sli-open2.md) and [RUI_INIT](../HIS2010/rui-init2.md). For all other LUA verbs, this parameter is reserved and should be set to zero.  
+ Supplied parameter. Reserved field used by [SLI_OPEN](../core/sli-open2.md) and [RUI_INIT](../core/rui-init2.md). For all other LUA verbs, this parameter is reserved and should be set to zero.  
   
  *lua_encr_decr_option*  
  Field for cryptography options. On **RUI_INIT**, only the following are supported:  

@@ -1,4 +1,4 @@
----
+﻿---
 title: "How to Create a Receive Port and a Receive Location for the Host File Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -46,7 +46,7 @@ You create a receive port and receive location for the BizTalk Adapter for Host 
   
     |Use this|To do this|  
     |--------------|----------------|  
-    |**Connection String**|Enter the name of a connection string that will be used to connect to the host database.<br /><br /> To configure a new or existing connection string, click the ellipsis (**…**). This starts the Data Source Wizard. To access Help, click **Help** on the wizard screens, or open the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Help and look in [Data Source Wizard (Host Files)](../core/data-source-wizard-host-files-2.md).<br /><br /> When configuring a receive location or send port based on the BizTalk Adapter for Host Files, the metadata definition should be created as a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records. For instructions on how to create a HIDX file, see [Creating an Application with the Managed Data Provider for Host Files](../HIS2010/creating-an-application-with-the-managed-data-provider-for-host-files1.md).|  
+    |**Connection String**|Enter the name of a connection string that will be used to connect to the host database.<br /><br /> To configure a new or existing connection string, click the ellipsis (**…**). This starts the Data Source Wizard. To access Help, click **Help** on the wizard screens, or open the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Help and look in [Data Source Wizard (Host Files)](../core/data-source-wizard-host-files-2.md).<br /><br /> When configuring a receive location or send port based on the BizTalk Adapter for Host Files, the metadata definition should be created as a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records. For instructions on how to create a HIDX file, see [Creating an Application with the Managed Data Provider for Host Files](../core/creating-an-application-with-the-managed-data-provider-for-host-files1.md).|  
     |**Document Root Element Name**|The root element name that is used in the XML documents that are received from the host.|  
     |**Document Target Namespace**|The target namespace that is used in the XML documents that are received from the host.|  
     |**SQL Command**|The Select command that is executed one time for each polling interval.|  
@@ -74,5 +74,5 @@ You create a receive port and receive location for the BizTalk Adapter for Host 
 ## See Also  
  [BizTalk Adapter for Host Files Configuration](../core/biztalk-adapter-for-host-files-configuration1.md)   
  [Data Access Library &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/da533736-8ecc-4466-a13d-b635696d94c8)   
- [Managed Data Provider for Host Files](../HIS2010/managed-data-provider-for-host-files1.md)   
+ [Managed Data Provider for Host Files](../core/managed-data-provider-for-host-files1.md)   
  [How to Create a Send Port for the Host File Adapter](../core/how-to-create-a-send-port-for-the-host-file-adapter1.md)

@@ -51,7 +51,7 @@ The following procedure details using a wizard to create a 3270 connection. The 
 16. Stop and then start SNA service.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [Creating Connections](../core/creating-connections1.md)   
  [How to Create a 3270 Connection Manually](../core/how-to-create-a-3270-connection-manually1.md)   
  [Creating a 5250 Connection with a Wizard](../core/creating-a-5250-connection-with-a-wizard2.md)   

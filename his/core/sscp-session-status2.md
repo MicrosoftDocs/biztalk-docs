@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SSCP Session Status
-While the system services control point (SSCP) connection is open, the local node reports the initial state and any subsequent changes of state of the SSCP session to the application using [Status-Session](../HIS2010/status-session1.md) messages. There are four distinct **Status-Session** status codes that can occur for the SSCP connection:  
+While the system services control point (SSCP) connection is open, the local node reports the initial state and any subsequent changes of state of the SSCP session to the application using [Status-Session](../core/status-session1.md) messages. There are four distinct **Status-Session** status codes that can occur for the SSCP connection:  
   
 -   **No-Session.** The SSCP session between the SNA server logical unit (LU) and the host SSCP is not active because the SNA server physical unit (PU) or LU is not activated. The **Status-Session** carries a qualifying status code to indicate why the SSCP session is inactive. The application cannot use the SSCP connection to send data to the host SSCP. The qualifiers are:  
   

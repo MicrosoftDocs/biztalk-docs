@@ -67,5 +67,5 @@ The following tabs are available on the X.25 Connection Properties sheet:
  Select the length of time for Host Integration Server to wait between attempts to establish the connection. The range is from 5 seconds through 255 seconds; the default is **10** seconds.  
   
 ## See Also  
- [X.25 Connection Parameters](../HIS2010/x-25-connection-parameters1.md)   
+ [X.25 Connection Parameters](../core/x-25-connection-parameters1.md)   
  [SNA Manager Help](../core/sna-manager-help1.md)

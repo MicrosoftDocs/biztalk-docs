@@ -1,0 +1,14 @@
+---
+title: "Locally Initiated Conversations2 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/30/2017"
+ms.prod: "host-integration-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 3efeaf33-e5f9-48d6-9901-e46b06ee20d1
+caps.latest.revision: 3
+---
+# Locally Initiated Conversations
+Conversations are initiated locally by issuing an [ALLOCATE](../core/allocate1.md) or [MC_ALLOCATE](../core/mc-allocate1.md) verb. The **ALLOCATE** and **MC_ALLOCATE** verbs are modified to support additional parameters required by Sync Point support. The supplied **synclevel** parameter of the **ALLOCATE** and **MC_ALLOCATE** verbs can take on a value of AP_SYNCPT, which specifies that the conversation requested is a Sync Point conversation.

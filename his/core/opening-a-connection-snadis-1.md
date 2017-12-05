@@ -1,4 +1,4 @@
----
+﻿---
 title: "Opening a Connection (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -26,15 +26,15 @@ The 2.1 node is capable of supporting multiple connections through one or more S
   
 |Message|Description|  
 |-------------|-----------------|  
-|[Open(LINK) Request](../HIS2010/open-link-request2.md)|-   Flows from node to DLC over LINK connection.<br />-   Opens the LINK LPI connection between the node and the SNALink.<br />-   Provides configuration data for the SNALink.<br />-   Provides link connection data such as Token Ring address for the remote station.|  
-|[Open(LINK) Response](../HIS2010/open-link-response1.md)|-   Flows from DLC to node over LINK connection.<br />-   Reports whether the SNALink has accepted the **Open(LINK) Request**.<br />-   Returns certain link-specific configuration parameters to the local node.<br />-   Can be an OK Response or an Error Response.|  
-|[Request-Open-Station](../HIS2010/request-open-station1.md)|-   Flows from DLC to node over LINK connection.<br />-   Passes an XID received from the SNALink up to the node.<br />-   Indicates that the SNALink has received a mode setting command, such as SNRM over SDLC, or SABME over 802.2.|  
-|[Send-XID](../HIS2010/send-xid2.md)|-   Flows from node to DLC over LINK connection.<br />-   Passes an XID from the node to the SNALink to be sent out over the link to the remote station.|  
-|[Open(STATION) Request](../HIS2010/open-station-request1.md)|-   Flows from node to DLC over STATION connection.<br />-   Opens the STATION LPI connection between the node and the SNALink.<br />-   Specifies certain station-specific configuration information.|  
-|[Open(STATION) OK Response](../HIS2010/open-station-oresponse2.md)<br /><br /> –or–<br /><br /> [Open(STATION) Error Response](../HIS2010/open-station-error-response2.md)|-   Flows from DLC to node over STATION connection.<br />-   Acknowledges **Open(STATION) Request**.|  
-|[Station-Contacted](../HIS2010/station-contacted2.md)|-   Flows from DLC to node over STATION connection.<br />-   Informs the local node that the link is now ready for data transfer.|  
+|[Open(LINK) Request](../core/open-link-request2.md)|-   Flows from node to DLC over LINK connection.<br />-   Opens the LINK LPI connection between the node and the SNALink.<br />-   Provides configuration data for the SNALink.<br />-   Provides link connection data such as Token Ring address for the remote station.|  
+|[Open(LINK) Response](../core/open-link-response1.md)|-   Flows from DLC to node over LINK connection.<br />-   Reports whether the SNALink has accepted the **Open(LINK) Request**.<br />-   Returns certain link-specific configuration parameters to the local node.<br />-   Can be an OK Response or an Error Response.|  
+|[Request-Open-Station](../core/request-open-station1.md)|-   Flows from DLC to node over LINK connection.<br />-   Passes an XID received from the SNALink up to the node.<br />-   Indicates that the SNALink has received a mode setting command, such as SNRM over SDLC, or SABME over 802.2.|  
+|[Send-XID](../core/send-xid2.md)|-   Flows from node to DLC over LINK connection.<br />-   Passes an XID from the node to the SNALink to be sent out over the link to the remote station.|  
+|[Open(STATION) Request](../core/open-station-request1.md)|-   Flows from node to DLC over STATION connection.<br />-   Opens the STATION LPI connection between the node and the SNALink.<br />-   Specifies certain station-specific configuration information.|  
+|[Open(STATION) OK Response](../core/open-station-oresponse2.md)<br /><br /> –or–<br /><br /> [Open(STATION) Error Response](../core/open-station-error-response2.md)|-   Flows from DLC to node over STATION connection.<br />-   Acknowledges **Open(STATION) Request**.|  
+|[Station-Contacted](../core/station-contacted2.md)|-   Flows from DLC to node over STATION connection.<br />-   Informs the local node that the link is now ready for data transfer.|  
   
- The use of these messages in activating various types of connections is described throughout the rest of this section. For information about the format of the messages, see [SNADIS Message Formats](../HIS2010/snadis-message-formats1.md).  
+ The use of these messages in activating various types of connections is described throughout the rest of this section. For information about the format of the messages, see [SNADIS Message Formats](../core/snadis-message-formats1.md).  
   
  The name of the Request-Open-Station message is historical. In earlier versions of the DLC interface, the higher-level software (such as the local node) always sent an **Open(STATION) Request** in response to this message—hence the name Request-Open-Station. However, now that multiple XIDs can be exchanged before the link is activated, the **Open(STATION) Request** is only sent at the end of the XID exchange.  
   

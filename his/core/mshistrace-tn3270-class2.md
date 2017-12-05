@@ -104,4 +104,4 @@ class MsHisTrace_TN3270 : MsHisTrace_Config
   
 ## See Also  
  [WmiSnaTrace WMI Provider Classes](../core/wmisnatrace-wmi-provider-classes2.md)   
- [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)

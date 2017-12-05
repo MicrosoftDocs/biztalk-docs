@@ -16,7 +16,7 @@ manager: "anneta"
 # Status-Resource
 The **Status-Resource** message is used to provide a simple flow control mechanism between the local node and the application to prevent the application from exhausting its resources. It flows from the application to the node, and is used with a primary logical unit (PLU) connection.  
   
- It is only used on the PLU connection where the application specifies in the PLU connection information control block (CICB) that pacing requires application participation. For further details, see [Pacing and Chunking](../HIS2010/pacing-and-chunking2.md).  
+ It is only used on the PLU connection where the application specifies in the PLU connection information control block (CICB) that pacing requires application participation. For further details, see [Pacing and Chunking](../core/pacing-and-chunking2.md).  
   
 ## Syntax  
   

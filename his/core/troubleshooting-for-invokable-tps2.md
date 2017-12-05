@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting for Invokable TPs
-If there are difficulties with starting an invokable TP, there may be a mismatch between the information for the invokable TP, the invoking TP, and/or LUs in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] configuration. That is, there may be a mismatch between the parameters for [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md), [TP_STARTED](../HIS2010/tp-started1.md), [ALLOCATE](../HIS2010/allocate1.md), or [MC_ALLOCATE](../HIS2010/mc-allocate1.md) and/or LU aliases specified in server configuration. LU aliases are configured using SNA Manager on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+If there are difficulties with starting an invokable TP, there may be a mismatch between the information for the invokable TP, the invoking TP, and/or LUs in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] configuration. That is, there may be a mismatch between the parameters for [RECEIVE_ALLOCATE](../core/receive-allocate2.md), [TP_STARTED](../core/tp-started1.md), [ALLOCATE](../core/allocate1.md), or [MC_ALLOCATE](../core/mc-allocate1.md) and/or LU aliases specified in server configuration. LU aliases are configured using SNA Manager on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
   
 ## Simplifying APPC Configuration  
  There are several features in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] that can simplify configuration for APPC:  

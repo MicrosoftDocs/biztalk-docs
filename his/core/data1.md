@@ -1,4 +1,4 @@
----
+﻿---
 title: "Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Data
-**Data** messages carry both inbound and outbound data between the application and the local node on all connections. For a detailed description of outbound and inbound data flows, see [Data Flow](../HIS2010/data-flow2.md).  
+**Data** messages carry both inbound and outbound data between the application and the local node on all connections. For a detailed description of outbound and inbound data flows, see [Data Flow](../core/data-flow2.md).  
   
  The **Data** message flows from the node to the application and from the application to the node. It is used with both the system services control point (SSCP) and the primary logical unit (PLU) connections.  
   
@@ -128,10 +128,10 @@ struct Data {
   
 ## Remarks  
   
--   The use of the acknowledgment required indicator in both inbound and outbound data acknowledgment protocols is described in [Data Flow](../HIS2010/data-flow2.md).  
+-   The use of the acknowledgment required indicator in both inbound and outbound data acknowledgment protocols is described in [Data Flow](../core/data-flow2.md).  
   
--   The use of the application flag fields is described in [Application Flags](../HIS2010/application-flags2.md) (For more information, see the note that follows for LUA.)  
+-   The use of the application flag fields is described in [Application Flags](../core/application-flags2.md) (For more information, see the note that follows for LUA.)  
   
 -   The sequence number is undefined for inbound data but contains the corresponding SNA sequence number for outbound data.  
   
--   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH) and (if appropriate) response header (RH) are included in the data, and the **startd** field points to the TH. The **fhmsgkey**, **fhflags1**, **fhflags2**, and **fhseqno** fields are undefined and should not be used. The corresponding data from the element should be used instead. (For more information about FMI, see [FMI Concepts](../HIS2010/fmi-concepts2.md).)
+-   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH) and (if appropriate) response header (RH) are included in the data, and the **startd** field points to the TH. The **fhmsgkey**, **fhflags1**, **fhflags2**, and **fhseqno** fields are undefined and should not be used. The corresponding data from the element should be used instead. (For more information about FMI, see [FMI Concepts](../core/fmi-concepts2.md).)

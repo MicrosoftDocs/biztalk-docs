@@ -32,5 +32,5 @@ manager: "anneta"
  [Channel](../core/channel2.md)  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [Connecting Servers](../core/connecting-servers2.md)

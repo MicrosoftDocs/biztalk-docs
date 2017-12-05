@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Integration Services
-SQL Server Integration Services (SSIS) provides a scalable enterprise data integration platform with exceptional Extract, Transform, Load (ETL) and integration capabilities that enable you to more easily manage data from a wide array of data sources. You can use it to create script tasks, perform scalable data transfers using the Import and Export Wizard, and take advantage of new SSIS connectors for external data sources. For more information, see [Data Integration (Planning)](../HIS2010/data-integration-planning-2.md), [Performance for DB2](../HIS2010/performance-for-db2.md), and [SQL Server Integration Services (Troubleshooting)](../HIS2010/sql-server-integration-services-troubleshooting-2.md).  
+SQL Server Integration Services (SSIS) provides a scalable enterprise data integration platform with exceptional Extract, Transform, Load (ETL) and integration capabilities that enable you to more easily manage data from a wide array of data sources. You can use it to create script tasks, perform scalable data transfers using the Import and Export Wizard, and take advantage of new SSIS connectors for external data sources. For more information, see [Data Integration (Planning)](../core/data-integration-planning-2.md), [Performance for DB2](../core/performance-for-db2.md), and [SQL Server Integration Services (Troubleshooting)](../core/sql-server-integration-services-troubleshooting-2.md).  
   
  **SQL Server SSIS Resources**  
   

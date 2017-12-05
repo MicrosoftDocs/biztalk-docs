@@ -24,4 +24,4 @@ Setup installs a number of services that must be able to log on to the Windows d
 3.  Click **Next**.  
   
 ## See Also  
- [Installation Help](../HIS2010/installation-help1.md)
+ [Installation Help](../core/installation-help1.md)

@@ -20,4 +20,4 @@ In the Visual Studio environment, Transaction Integrator (TI) component properti
 >  The properties of the TI components are not intended to be set or changed programmatically. Setting or changing the properties programmatically may cause the component to function incorrectly.  
   
 ## See Also  
- [Properties (TI Project)](../HIS2010/properties-ti-project-1.md)
+ [Properties (TI Project)](../core/properties-ti-project-1.md)

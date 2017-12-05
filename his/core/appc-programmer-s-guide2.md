@@ -16,9 +16,9 @@ manager: "anneta"
 # APPC Programmer&#39;s Guide
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about using the Advanced Program-to-Program Communications (APPC) in a distributed processing environment.  
   
- For API references and other technical information about APPC, see [APPC Programmer's Reference](../HIS2010/appc-programmer-s-reference]2.md).  
+ For API references and other technical information about APPC, see [APPC Programmer's Reference](../core/appc-programmer-s-reference]2.md).  
   
- For sample code using APPC, see [APPC Samples](../HIS2010/appc-samples.md).  
+ For sample code using APPC, see [APPC Samples](../core/appc-samples.md).  
   
  This section contains:  
   

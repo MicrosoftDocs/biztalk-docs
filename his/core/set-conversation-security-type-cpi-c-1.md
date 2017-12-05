@@ -1,4 +1,4 @@
----
+﻿---
 title: "Set_Conversation_Security_Type (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -41,7 +41,7 @@ CM_ENTRY Set_Conversation_Security_Type( 
  To indicate that the invoked program uses conversation security and thus requires a user identifier and password.  
   
  CM_SECURITY_SAME  
- To indicate that the user ID is sent on the allocate request to node services in the partner LU. This setting is also used to specify that the invoked program, invoked with a valid user identifier and password, in turn invokes another program (as illustrated in [Communication Between TPs](../HIS2010/communication-between-tps-cpi-c-1.md)). For example, assume that program A invokes program B with a valid user identifier and password, and program B in turn invokes program C. If program B specifies the value CM_SECURITY_SAME, CPI-C will send the LU for program C, the user identifier from program A, and an already-verified indicator. This indicator tells program C not to require the password (if program C is configured to accept an already-verified indicator).  
+ To indicate that the user ID is sent on the allocate request to node services in the partner LU. This setting is also used to specify that the invoked program, invoked with a valid user identifier and password, in turn invokes another program (as illustrated in [Communication Between TPs](../core/communication-between-tps-cpi-c-1.md)). For example, assume that program A invokes program B with a valid user identifier and password, and program B in turn invokes program C. If program B specifies the value CM_SECURITY_SAME, CPI-C will send the LU for program C, the user identifier from program A, and an already-verified indicator. This indicator tells program C not to require the password (if program C is configured to accept an already-verified indicator).  
   
  When CM_SECURITY_SAME is used, your application must always call [Set_Conversation_Security_User_ID](../core/set-conversation-security-user-id-cpi-c-1.md) and [Set_Conversation_Security_Password](../core/set-conversation-security-password-cpi-c-1.md) to provide values for the *security_user_ID* and *security_password* parameters. Depending on the properties negotiated between SNA Server and the peer LU, the **Allocate** function will send one of 3 kinds of Attach (FMH-5) messages, in this order of precedence:  
   

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Introduction to APPC2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -26,11 +26,11 @@ This section introduces the fundamental concepts of Advanced Program-to-Program 
   
  Detailed descriptions of APPC verbs are provided in:  
   
--   [APPC Management Verbs](../HIS2010/appc-management-verbs2.md)  
+-   [APPC Management Verbs](../core/appc-management-verbs2.md)  
   
--   [APPC TP Verbs](../HIS2010/appc-tp-verbs1.md)  
+-   [APPC TP Verbs](../core/appc-tp-verbs1.md)  
   
--   [APPC Conversation Verbs](../HIS2010/appc-conversation-verbs2.md)  
+-   [APPC Conversation Verbs](../core/appc-conversation-verbs2.md)  
   
  APPC is an application programming interface (API) that enables peer-to-peer communications in a Systems Network Architecture (SNA) environment. Through APPC, programs distributed across a network can work together, communicating with each other and exchanging data, to accomplish a single processing task such as querying a remote database, copying a remote file, or sending and receiving electronic mail.  
   

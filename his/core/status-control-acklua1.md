@@ -109,4 +109,4 @@ struct Status-Control(...) ACKLUA {
   
 -   The message key field gives the sequence number from the transmission header of the inbound data message to which this is an acknowledgment.  
   
--   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../HIS2010/status-control-message2.md).
+-   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../core/status-control-message2.md).

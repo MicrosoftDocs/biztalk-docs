@@ -1,4 +1,4 @@
----
+﻿---
 title: "MsSna_PrintSession3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -107,4 +107,4 @@ class MsSna_PrintSession3270 : MsSna_PrintSession
   
 ## See Also  
  [WMISNA WMI Provider Classes](../core/wmisna-wmi-provider-classes2.md)   
- [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)

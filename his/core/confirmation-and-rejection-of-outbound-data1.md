@@ -30,7 +30,7 @@ The local node sends chains of data from the host to the application with their 
   
  In case 1, the application should always send an acknowledgment as follows:  
   
--   If the application accepts the data, it should return a [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) message.  
+-   If the application accepts the data, it should return a [Status-Acknowledge(Ack)](../core/status-acknowledge-ack-1.md) message.  
   
 -   If the application wants to reject the data, it should return a **Status-Acknowledge(Nack-1)** message carrying the appropriate SNA sense codes.  
   
@@ -42,13 +42,13 @@ The local node sends chains of data from the host to the application with their 
   
  In case 3, the application should not send acknowledgments. However, the sending of a **Status-Acknowledge(Ack)** or **Status-Acknowledge(Nack-1)** by the application has no effect. It is discarded.  
   
- Whenever an application sends a **Status-Acknowledge(Ack)** or **Status-Acknowledge(Nack-1)** to a received [Data](../HIS2010/data2.md) message, it implicitly confirms receipt of this and all previously received Data messages.  
+ Whenever an application sends a **Status-Acknowledge(Ack)** or **Status-Acknowledge(Nack-1)** to a received [Data](../core/data2.md) message, it implicitly confirms receipt of this and all previously received Data messages.  
   
  In case 2, the host can issue a **CHASE** request. The local node sends a **Status-Control(CHASE) Request** with **ACKRQD** set to the application. When the application is in a position to confirm receipt of all outstanding data, it should issue a **Status-Control(CHASE) Acknowledge** message, which the local node converts into a positive response to **CHASE** for the host.  
   
- In cases 1 and 2, if the local node detects an error in a received request, it converts the request into a special [Data](../HIS2010/data2.md) message, which it passes to the application. Regardless of the chain response mode specified for the secondary in the **BIND** parameters, this **Data** message has the following characteristics:  
+ In cases 1 and 2, if the local node detects an error in a received request, it converts the request into a special [Data](../core/data2.md) message, which it passes to the application. Regardless of the chain response mode specified for the secondary in the **BIND** parameters, this **Data** message has the following characteristics:  
   
--   **ACKRQD** is set. The application must confirm receipt using a [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) message.  
+-   **ACKRQD** is set. The application must confirm receipt using a [Status-Acknowledge(Ack)](../core/status-acknowledge-ack-1.md) message.  
   
 -   The Sense Data Indicator (SDI) application flag is set to indicate that this is a special Data message used to inform the application of an error detected by the local node.  
   

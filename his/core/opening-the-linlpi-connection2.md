@@ -22,7 +22,7 @@ The local node attempts to activate a connection:
   
 -   If a 3270 or logical unit (LU) 6.2 session is requested when there is no active connection to support the LU, and the connection is configured to be activated on demand.  
   
- For each connection to be activated, the local node opens a LINK Locality Partner Index (LPI) connection by sending an [Open(LINK) Request](../HIS2010/open-link-request2.md) to the SNALink. This message contains configuration data such as:  
+ For each connection to be activated, the local node opens a LINK Locality Partner Index (LPI) connection by sending an [Open(LINK) Request](../core/open-link-request2.md) to the SNALink. This message contains configuration data such as:  
   
 -   Synchronous Data Link Control (SDLC) line type: leased, switched.  
   
@@ -50,7 +50,7 @@ The local node attempts to activate a connection:
   
 -   The X.25 remote data terminal equipment (DTE) address.  
   
- Finally, the **Open(LINK)** contains various time-out values that should be used by the SNALink when setting up protocol timers. For more information, see [Open(LINK) Request](../HIS2010/open-link-request2.md) and [Open(LINK) Response](../HIS2010/open-link-response1.md).  
+ Finally, the **Open(LINK)** contains various time-out values that should be used by the SNALink when setting up protocol timers. For more information, see [Open(LINK) Request](../core/open-link-request2.md) and [Open(LINK) Response](../core/open-link-response1.md).  
   
  The SNALink should return an **Open(LINK) OK Response** if:  
   
@@ -68,9 +68,9 @@ The local node attempts to activate a connection:
   
  If an XID is supplied on the **Open(LINK) Request**, this should be sent when the end-to-end connection is established for a primary or negotiable link. Note that the supplied XID can be a NULL XID, which has a zero length. Hence, it is important that the XID field is examined rather than checking for a zero XID length. An XID will be supplied for all connections except primary leased connections (which could be multipoint).  
   
- When an SNALink receives an XID frame from the remote station, it is passed to the local node in a [Request-Open-Station](../HIS2010/request-open-station1.md) message on the LINK LPI connection.  
+ When an SNALink receives an XID frame from the remote station, it is passed to the local node in a [Request-Open-Station](../core/request-open-station1.md) message on the LINK LPI connection.  
   
- If the SNALink fails to receive any frames from the remote station, it generates an [Outage](../HIS2010/outage1.md) message as described in [Closing a Connection](../core/closing-a-connection-snadis-1.md).  
+ If the SNALink fails to receive any frames from the remote station, it generates an [Outage](../core/outage1.md) message as described in [Closing a Connection](../core/closing-a-connection-snadis-1.md).  
   
  The following figure shows the **Open(LINK) Request** and **Open(LINK) Response**, followed by an exchange of XIDs.  
   

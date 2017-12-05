@@ -1,4 +1,4 @@
----
+﻿---
 title: "tecwrksd1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -46,7 +46,7 @@ typedef struct tecwrksd {
   
 ## Members  
  *cwshost*  
- The name (up to eight characters) of the LU or LU pool that this session is configured to use. The application specifies this name on the [Open(SSCP) Request](../HIS2010/open-sscp-request1.md).  
+ The name (up to eight characters) of the LU or LU pool that this session is configured to use. The application specifies this name on the [Open(SSCP) Request](../core/open-sscp-request1.md).  
   
  *cwsestyp*  
  The LU type (display or printer) of the LU used by this session and (if it is a display LU or a pool of display LUs) the screen model. The possible values are:  

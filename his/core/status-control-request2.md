@@ -1,4 +1,4 @@
----
+﻿---
 title: "Status-Control(...) Request2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -98,7 +98,7 @@ struct Status-Control(...) Request {
  Application flag 1.  
   
  *sfhdr.stctlhdr.ctlflag2*  
- Application flag 2. (For more information, see [STSN](../HIS2010/stsn1.md).)  
+ Application flag 2. (For more information, see [STSN](../core/stsn1.md).)  
   
  *sfhdr.stctlhdr.ctlnumb1*  
  Code 1.  
@@ -131,12 +131,12 @@ struct Status-Control(...) Request {
   
 ## Remarks  
   
--   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH), response header (RH), and RU are included in the data element, and the **startd** field points to the TH. The **ctlflag1** and **ctlflag2** bytes are not defined and should not be used. The appropriate values from the data should be used instead. (For more information about FMI, see [FMI Concepts](../HIS2010/fmi-concepts2.md).)  
+-   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH), response header (RH), and RU are included in the data element, and the **startd** field points to the TH. The **ctlflag1** and **ctlflag2** bytes are not defined and should not be used. The appropriate values from the data should be used instead. (For more information about FMI, see [FMI Concepts](../core/fmi-concepts2.md).)  
   
 -   If the application is not using the LUA variant of the function management interface (FMI), the message consists of a buffer header only. There is no buffer element.  
   
--   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../HIS2010/status-control-message2.md)  
+-   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../core/status-control-message2.md)  
   
 -   The code 1 and code 2 fields apply only for **Status-Control** LUSTAT, SIGNAL, and STSN messages.  
   
--   The application flag byte 2 is used for the **Status-Control** STSN control byte. (For more information, see [Recovery](../HIS2010/recovery2.md).)
+-   The application flag byte 2 is used for the **Status-Control** STSN control byte. (For more information, see [Recovery](../core/recovery2.md).)

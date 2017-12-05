@@ -1,4 +1,4 @@
----
+﻿---
 title: "Open(PLU) OConfirm1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -296,4 +296,4 @@ struct Open(PLU) OK Confirm {
   
 -   The message does not carry source and destination names. Both LPIs are valid.  
   
--   The contents of **dataru** are referred to in the text as the PLU bind information control block (BICB). The BICB is only valid for an open-qualifier of CONFOK. For further information about the contents of the BICB, see [Opening the PLU Connection](../HIS2010/opening-the-plu-connection2.md).
+-   The contents of **dataru** are referred to in the text as the PLU bind information control block (BICB). The BICB is only valid for an open-qualifier of CONFOK. For further information about the contents of the BICB, see [Opening the PLU Connection](../core/opening-the-plu-connection2.md).

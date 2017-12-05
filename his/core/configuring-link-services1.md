@@ -18,7 +18,7 @@ By default, when [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservno
   
  The following sections contain procedures detailing how to configure link services.  
   
- For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
+ For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
   
 ## In This Section  
  [How to Configure the 3270 Demonstration](../core/how-to-configure-the-3270-demonstration2.md)  

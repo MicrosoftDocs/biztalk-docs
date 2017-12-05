@@ -47,7 +47,7 @@ The following procedure details how to create a local APPC LU.
 5.  Click **OK**.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [How to Create a 3270 Display LU](../core/how-to-create-a-3270-display-lu1.md)   
  [How to Create a 3270 Printer LU](../core/how-to-create-a-3270-printer-lu1.md)   
  [How to Create a 3270 Application LU (LUA)](../core/how-to-create-a-3270-application-lu-lua-2.md)   

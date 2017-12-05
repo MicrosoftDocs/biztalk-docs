@@ -27,7 +27,7 @@ The following procedure details running the 3270 continuous demonstration.
 4.  Return to SNA Manager. The status of the DM3270 connection should show **Active**.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [Testing Connections with the 3270 Client](../core/testing-connections-with-the-3270-client2.md)   
  [How to Run the 3270 Client](../core/how-to-run-the-3270-client2.md)   
  [How to Configure the 3270 Client](../core/how-to-configure-the-3270-client1.md)

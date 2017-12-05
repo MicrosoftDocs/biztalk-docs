@@ -29,7 +29,7 @@ Use the following procedure to configure the LU1 Print Demonstration link servic
 5.  Click **OK** to close the **Properties** dialog box.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [Configuring Link Services](../core/configuring-link-services1.md)   
  [How to Configure the 3270 Demonstration](../core/how-to-configure-the-3270-demonstration2.md)   
  [How to Configure the 5250 Demonstration](../core/how-to-configure-the-5250-demonstration1.md)   

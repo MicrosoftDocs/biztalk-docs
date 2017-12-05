@@ -99,4 +99,4 @@ struct Open(PLU) Error Confirm {
   
 -   The **Open(PLU) Error Confirm** message consists of a buffer header only.  
   
--   The error codes are valid. (For more information, see [Error and Sense Codes](../HIS2010/error-and-sense-codes1.md).) An **Open(PLU) Error Confirm** closes the connection.
+-   The error codes are valid. (For more information, see [Error and Sense Codes](../core/error-and-sense-codes1.md).) An **Open(PLU) Error Confirm** closes the connection.

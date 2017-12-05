@@ -18,7 +18,7 @@ If the maximum request/response unit (RU) size for a session (supplied in the **
   
  However, certain IBM products (for example, SNA models of the 3270 controllers) do not perform outbound segment assembly, to improve perceived response times at display terminals by displaying each segment as soon as it is received. This feature is referred to as window shading.  
   
- The local node allows an application to specify a segment delivery option in the connection information control block (CICB) on the [Open(PLU) OK Response](../HIS2010/open-plu-oresponse1.md). If an application specifies this option, the local node's path control does not assemble outbound segments into complete RUs, and the local node delivers the segments to the application in [Data](../HIS2010/data2.md) messages. This enables an application emulating a 3270 device to reproduce the perceived response characteristics of the IBM device. In cases where throughput is high, such as 3270 file transfer, segment delivery can give improved performance compared to RU delivery.  
+ The local node allows an application to specify a segment delivery option in the connection information control block (CICB) on the [Open(PLU) OK Response](../core/open-plu-oresponse1.md). If an application specifies this option, the local node's path control does not assemble outbound segments into complete RUs, and the local node delivers the segments to the application in [Data](../core/data2.md) messages. This enables an application emulating a 3270 device to reproduce the perceived response characteristics of the IBM device. In cases where throughput is high, such as 3270 file transfer, segment delivery can give improved performance compared to RU delivery.  
   
  Note that there is no comparable feature for inbound data. The application must present **Data** messages containing complete RUs to the local node. Also, there is no support for segment delivery on the system services control point (SSCP) session and connection (where the maximum RU size is limited to 256 bytes).  
   
@@ -27,7 +27,7 @@ If the maximum request/response unit (RU) size for a session (supplied in the **
  All **Data** messages delivered to the application contain application flags, whereas only the first segment in an RU contains a response header (RH). The local node delays the end chain (EC) and change direction (CD) indicators if they occur in the RH of the RU's first segment, and sets the corresponding ECI and CDI application flags in the **Data** message corresponding to the last segment of the RU. Therefore, the **Data** messages corresponding to RU segments have application flags set as if they corresponded to whole RUs. This considerably simplifies the handling of chaining, bracket, and half-duplex protocols for an application using the segment delivery option.  
   
 > [!NOTE]
->  EB is not delayed until end basic information unit (EBIU), because the application should use the [Status-Session](../HIS2010/status-session1.md) between-brackets message to determine when to enter the between-brackets state.  
+>  EB is not delayed until end basic information unit (EBIU), because the application should use the [Status-Session](../core/status-session1.md) between-brackets message to determine when to enter the between-brackets state.  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection1.md)   

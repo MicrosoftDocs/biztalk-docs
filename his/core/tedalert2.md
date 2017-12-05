@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tedalert2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -33,7 +33,7 @@ typedef struct tedalert {
   
  Note that the application should determine whether the user is permitted to send NetView user alerts and/or view RTM data (see [3270 User Record Format](../core/3270-user-record-format2.md)). It should not display the appropriate information, as described below, if the user does not have permission to use that information. The host can also override whether the application is permitted to send and/or to display RTM data (for more information, see [RTM Parameters](../core/rtm-parameters]2.md)).  
   
- For more information about how the application uses the RTM parameters, see [RTM Parameters](../core/rtm-parameters]2.md), [Response Time Monitor Data](../core/response-time-monitor-data1.md), and [Status-RTM](../HIS2010/status-rtm2.md).  
+ For more information about how the application uses the RTM parameters, see [RTM Parameters](../core/rtm-parameters]2.md), [Response Time Monitor Data](../core/response-time-monitor-data1.md), and [Status-RTM](../core/status-rtm2.md).  
   
 ## Members  
  *dalrtnam[53]*  

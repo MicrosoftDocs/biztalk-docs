@@ -27,7 +27,7 @@ Although [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-
  The list of LUs that a particular user can access depends on how the user connects to Host Integration Server. If Active Directory is used, a user can access any LUs assigned directly to the user account and can also access any LUs assigned to any of the groups the user is a member of. If not using Active Directory, a user can only access LUs assigned directly to the user, or if no LUs are assigned to the user account, then the user can access LUs assigned to exactly one group. The groups are checked in the following order: global groups, local groups, well known groups. There is no ordering within a group.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
  [How to Add New Users](../core/how-to-add-new-users1.md)   
  [How to Assign Remote APPC LUs to Configured Users](../core/how-to-assign-remote-appc-lus-to-configured-users1.md)   
  [Step 4 (A) Adding and Assigning Users](../core/step-4-a-adding-and-assigning-users1.md)

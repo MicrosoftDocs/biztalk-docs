@@ -1,4 +1,4 @@
----
+﻿---
 title: "FMI Message Formats2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -26,7 +26,7 @@ This section describes the message formats for the function management interface
   
     -   The **startd** and **endd** fields in elements are always stored in low-byte, high-byte orientation (the normal orientation of an Intel processor).  
   
--   Messages are composed of buffers consisting of a buffer header and zero or more buffer elements. For more information about buffer formats, see [Messages](../HIS2010/messages1.md).  
+-   Messages are composed of buffers consisting of a buffer header and zero or more buffer elements. For more information about buffer formats, see [Messages](../core/messages1.md).  
   
 -   Applications must assign unique index (I) values for every active LPI connection within the node. In particular, the [Open(SSCP) Request](../core/open-sscp-request2.md) must be different from the source index it sends in response to the [Open(PLU)](../core/open-plu-1.md). Additionally, zero should not be used as an I value. An I value of zero means that the sender of the message is inviting the recipient of the message to assign an I value.  
   

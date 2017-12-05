@@ -21,7 +21,7 @@ This section describes the logical unit application (LUA) support for Single Sig
 > [!NOTE]
 >  Single Sign-On is not supported over LUA logical units (LUs).  
   
- To open 3270 LUs from an LUA application using Request Unit Interface (RUI), the **lua_resv56[1]** field must be set to a nonzero value when this verb control block (VCB) is passed to [RUI_INIT](../HIS2010/rui-init2.md). To open 3270 LUs from an LUA application using a Session Level Interface (SLI), the **lua_resv56[2]** field must be set to a nonzero value when this VCB is passed to [SLI_OPEN](../core/sli-open2.md). For details, see the reference sections in [RUI_INIT](../HIS2010/rui-init2.md) and [SLI_OPEN](../core/sli-open2.md).  
+ To open 3270 LUs from an LUA application using Request Unit Interface (RUI), the **lua_resv56[1]** field must be set to a nonzero value when this verb control block (VCB) is passed to [RUI_INIT](../core/rui-init2.md). To open 3270 LUs from an LUA application using a Session Level Interface (SLI), the **lua_resv56[2]** field must be set to a nonzero value when this VCB is passed to [SLI_OPEN](../core/sli-open2.md). For details, see the reference sections in [RUI_INIT](../core/rui-init2.md) and [SLI_OPEN](../core/sli-open2.md).  
   
  This section contains:  
   

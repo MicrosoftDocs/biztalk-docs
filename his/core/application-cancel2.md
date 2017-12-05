@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Application CANCEL
-One of the parameters on the [Open(PLU) OK Response](../HIS2010/open-plu-oresponse1.md), which the application sends to the local node, specifies whether the application generates **CANCEL** (or **EC**) to terminate an inbound chain that has received a negative response. If this option is not selected, the local node generates a **CANCEL** request when it receives a negative response from the host to an incomplete chain.  
+One of the parameters on the [Open(PLU) OK Response](../core/open-plu-oresponse1.md), which the application sends to the local node, specifies whether the application generates **CANCEL** (or **EC**) to terminate an inbound chain that has received a negative response. If this option is not selected, the local node generates a **CANCEL** request when it receives a negative response from the host to an incomplete chain.  
   
 ## See Also  
  [Direction after Receiving a Negative Response](../core/direction-after-receiving-a-negative-response1.md)   

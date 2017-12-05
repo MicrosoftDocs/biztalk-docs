@@ -52,4 +52,4 @@ HRESULT WriteContext (
  [QueryContextInfo](../core/querycontextinfo1.md)   
  [ReadContext](../core/readcontext1.md)   
  [UpdateContextInfo](../core/updatecontextinfo1.md)   
- [Persistent Connections](../HIS2010/persistent-connections1.md)
+ [Persistent Connections](../core/persistent-connections1.md)

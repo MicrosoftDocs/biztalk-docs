@@ -16,7 +16,7 @@ manager: "anneta"
 # SNALink Initialization
 When the SNALink is loaded into memory, the Base/DMOD performs all initialization required by the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] system, including announcing availability of the new SNALink to other Host Integration Server components.  
   
- When this has been completed, the Base/DMOD calls the [SNALinkInitialize](../HIS2010/snalinkinitialize1.md) function, which must be provided by the IHV link support code.  
+ When this has been completed, the Base/DMOD calls the [SNALinkInitialize](../core/snalinkinitialize1.md) function, which must be provided by the IHV link support code.  
   
  **SNALinkInitialize** is called with a parameter that is a handle to the global Base event. This handle should be saved by the SNALink and used to signal the Base when an event occurs (for example, when data is received from the link).  
   

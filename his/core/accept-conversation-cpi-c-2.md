@@ -1,4 +1,4 @@
----
+﻿---
 title: "Accept_Conversation (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Accept_Conversation (CPI-C)
-The **Accept_Conversation** call (function name **cmaccp**) is issued by the invoked program to accept the incoming conversation and set certain conversation characteristics. For a list of initial conversation characteristics, see [Initial Conversation Characteristics](../HIS2010/initial-conversation-characteristics2.md).  
+The **Accept_Conversation** call (function name **cmaccp**) is issued by the invoked program to accept the incoming conversation and set certain conversation characteristics. For a list of initial conversation characteristics, see [Initial Conversation Characteristics](../core/initial-conversation-characteristics2.md).  
   
 ## Syntax  
   

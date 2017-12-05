@@ -28,4 +28,4 @@ This section includes details about the information required to make a successfu
  [Verifying Host Integration Server Information](../core/verifying-host-integration-server-information2.md)  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)
+ [IP-DLC Link Service](../core/ip-dlc-link-service1.md)
