@@ -1,0 +1,58 @@
+---
+title: "MsSna_PoolDisplay Class1 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/30/2017"
+ms.prod: "host-integration-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 7fca837b-da81-4ab7-b496-82ea5bfc7aa5
+caps.latest.revision: 4
+---
+# MsSna_PoolDisplay Class
+Contains the 3270 LU Display pool.  
+  
+ The following syntax is simplified from MOF code.  
+  
+## Syntax  
+  
+```  
+  
+class MsSna_PoolDisplay : MsSna_Pool  
+{  
+   sint16 Model;  
+   boolean ModelOverride;  
+   boolean AssocPrint;  
+};  
+```  
+  
+## Properties  
+ **Model**  
+ Data Type: **sint16** Access Type: Read/Write  
+  
+ The default display model for terminal emulation. The following table describes the possible values for **Model**.  
+  
+|Value|Description|  
+|-----------|-----------------|  
+|0|Model2|  
+|1|Model3|  
+|2|Model4|  
+|3|Model5|  
+  
+ **ModelOverride**  
+ Data Type: **Boolean** Access Type: Read/Write  
+  
+ **true** to indicate that the default model can be overridden; otherwise, **false**. Some emulators can only emulate certain display models.  
+  
+ **AssocPrint**  
+ Data Type: **Boolean** Qualifiers: **Something** Access Type: Read/Write  
+  
+ **true** to associate a printer LU with this display LU pool; otherwise, **false**.  
+  
+## Requirements  
+ **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2008 R2  
+  
+## See Also  
+ [WMISNA WMI Provider Classes](../HIS2010/wmisna-wmi-provider-classes1.md)   
+ [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)

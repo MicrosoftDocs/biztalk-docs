@@ -19,13 +19,13 @@ The following calls let CPI-C applications add, replace, retrieve, or delete sid
 > [!NOTE]
 >  The names of the calls are pseudonyms. The actual C function names appear in parentheses after the pseudonyms. For example, **Accept_Conversation** is the pseudonym for a call. The actual function name is **cmaccp**.  
   
- [Delete_CPIC_Side_Information](../core/delete-cpic-side-information-cpi-c-1.md)  **(xcmdsi)**  
+ [Delete_CPIC_Side_Information](../HIS2010/delete-cpic-side-information-cpi-c-1.md)  **(xcmdsi)**  
  Deletes side information entry.  
   
- [Extract_CPIC_Side_Information](../core/extract-cpic-side-information-cpi-c-2.md)  **(xcmesi)**  
+ [Extract_CPIC_Side_Information](../HIS2010/extract-cpic-side-information-cpi-c-2.md)  **(xcmesi)**  
  Retrieves side information.  
   
- [Set_CPIC_Side_Information](../core/set-cpic-side-information-cpi-c-1.md)  **(xcmssi)**  
+ [Set_CPIC_Side_Information](../HIS2010/set-cpic-side-information-cpi-c-1.md)  **(xcmssi)**  
  Adds or replaces side information entry.  
   
 ## See Also  

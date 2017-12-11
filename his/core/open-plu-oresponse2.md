@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Open(PLU) OResponse2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -209,7 +209,7 @@ struct Open(PLU) OK Response {
   
 -   The application should reflect the source and destination Locality Partner Index (LPIs) and the source and destination names from the [Open(PLU) Request](../core/open-plu-request2.md) and must supply the I part of the source LPI.  
   
--   The fields from segment delivery option to bind table index (in the first element) are referred to in the text as the PLU CICB. For more information about the contents of the CICB, see [Opening the PLU Connection](../core/opening-the-plu-connection2.md).  
+-   The fields from segment delivery option to bind table index (in the first element) are referred to in the text as the PLU CICB. For more information about the contents of the CICB, see [Opening the PLU Connection](../HIS2010/opening-the-plu-connection2.md).  
   
 -   The **BIND** RU can be up to 256 bytes in length.  
   

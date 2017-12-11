@@ -16,9 +16,9 @@ manager: "anneta"
 # Data Integration Programmer&#39;s Reference
 This document provides links to topics that enable you to integrate data into your Host Integration Server application.  
   
- For general information about programming for data integration, see [Data Integration Programmer's Guide](../core/data-integration-programmer-s-guide.md).  
+ For general information about programming for data integration, see [Data Integration Programmer's Guide](../HIS2010/data-integration-programmer-s-guide.md).  
   
- For sample code using data integration, see [Data Integration Samples](../core/data-integration-samples.md) section of the SDK.  
+ For sample code using data integration, see [Data Integration Samples](../HIS2010/data-integration-samples.md) section of the SDK.  
   
 ## In This Section  
  [OLE DB Providers Programmer's Reference](../core/ole-db-providers-programmer-s-reference2.md)  

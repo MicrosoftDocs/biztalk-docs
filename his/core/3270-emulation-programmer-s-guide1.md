@@ -34,7 +34,7 @@ This section provides information for independent software vendors who are devel
   
 -   TCP/IP  
   
- For API references and other technical information about the 3270 Emulator, see the [3270 Emulator Programmer's Reference](../core/3270-emulation-programmer-s-reference1.md) section of the SDK.  
+ For API references and other technical information about the 3270 Emulator, see the [3270 Emulator Programmer's Reference](../HIS2010/3270-emulation-programmer-s-reference1.md) section of the SDK.  
   
 ## In This Section  
   

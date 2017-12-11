@@ -1,0 +1,25 @@
+---
+title: "Configuring Dependent LUs1 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/30/2017"
+ms.prod: "host-integration-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: d1355fe9-ac91-4a2c-ae6b-99634eaa68cd
+caps.latest.revision: 3
+---
+# Configuring Dependent LUs
+When you configure a dependent LU, make sure you do the following:  
+  
+-   Set up a single session for each dependent LU. (Only one session is allowed for each dependent LU.)  
+  
+-   Specify the remote end, using **Host**.  
+  
+-   Use VTAM 3.2 or later for host-to-APPC LU communication.  
+  
+ Set the host VTAM to a value of 1 or greater in the *LOCADDR*= parameter of the LU definition.  
+  
+## SeeAlso  
+ [Dependent APPC LUs](../HIS2010/dependent-appc-lus2.md)

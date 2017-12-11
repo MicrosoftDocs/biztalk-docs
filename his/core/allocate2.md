@@ -95,7 +95,7 @@ struct allocate {
  A reserved field.  
   
  *rtn_ctl*  
- Supplied parameter. Specifies when the local LU, acting on a session request from the local TP, should return control to the local TP. For information about sessions, see [About Transaction Programs](../core/transaction-programs-overview2.md).  
+ Supplied parameter. Specifies when the local LU, acting on a session request from the local TP, should return control to the local TP. For information about sessions, see [About Transaction Programs](../HIS2010/transaction-programs-overview2.md).  
   
 -   AP_IMMEDIATE specifies that the LU allocates a contention-winner session, if one is immediately available, and returns control to the TP.  
   

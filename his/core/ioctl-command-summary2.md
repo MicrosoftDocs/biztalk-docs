@@ -1,4 +1,4 @@
-﻿---
+---
 title: "IOCTL Command Summary2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -44,17 +44,17 @@ The parameters to the IOCTL request packet are stored in the following fields in
   
 |Function|Function code|Windows IOCTL code|  
 |--------------|-------------------|------------------------|  
-|[Function 0x41: Set Event/Semaphore Handle](../core/function-0x41-set-event-semaphore-handle1.md)|0x41|0x410|  
-|[Function 0x42: Set Link Characteristics](../core/function-0x42-set-link-characteristics2.md)|0x42|0x420|  
-|[Function 0x43: Set V24 Output Status](../core/function-0x43-set-v24-output-status1.md)|0x43|0x430|  
-|[Function 0x44: Transmit Frame](../core/function-0x44-transmit-frame2.md)|0x44|0x441|  
-|[Function 0x45: Abort Transmitter](../core/function-0x45-abort-transmitter2.md)|0x45|0x450|  
-|[Function 0x46: Abort Receiver](../core/function-0x46-abort-receiver2.md)|0x46|0x460|  
-|[Function 0x47: Off-Board Load](../core/function-0x47-off-board-load2.md)|0x47|0x470|  
-|[Function 0x61: Get/Set Interface Record](../core/function-0x61-get-set-interface-record1.md)|0x61|0x613|  
-|[Function 0x62: Get V24 Status](../core/function-0x62-get-v24-status2.md)|0x62|0x622|  
-|[Function 0x63: Receive Frame](../core/function-0x63-receive-frame1.md)|0x63|0x632|  
-|[Function 0x64: Read Interface Record](../core/function-0x64-read-interface-record1.md)|0x64|0x642|  
+|[Function 0x41: Set Event/Semaphore Handle](../HIS2010/function-0x41-set-event-semaphore-handle1.md)|0x41|0x410|  
+|[Function 0x42: Set Link Characteristics](../HIS2010/function-0x42-set-link-characteristics2.md)|0x42|0x420|  
+|[Function 0x43: Set V24 Output Status](../HIS2010/function-0x43-set-v24-output-status1.md)|0x43|0x430|  
+|[Function 0x44: Transmit Frame](../HIS2010/function-0x44-transmit-frame2.md)|0x44|0x441|  
+|[Function 0x45: Abort Transmitter](../HIS2010/function-0x45-abort-transmitter2.md)|0x45|0x450|  
+|[Function 0x46: Abort Receiver](../HIS2010/function-0x46-abort-receiver2.md)|0x46|0x460|  
+|[Function 0x47: Off-Board Load](../HIS2010/function-0x47-off-board-load2.md)|0x47|0x470|  
+|[Function 0x61: Get/Set Interface Record](../HIS2010/function-0x61-get-set-interface-record1.md)|0x61|0x613|  
+|[Function 0x62: Get V24 Status](../HIS2010/function-0x62-get-v24-status2.md)|0x62|0x622|  
+|[Function 0x63: Receive Frame](../HIS2010/function-0x63-receive-frame1.md)|0x63|0x632|  
+|[Function 0x64: Read Interface Record](../HIS2010/function-0x64-read-interface-record1.md)|0x64|0x642|  
   
  In the function descriptions in the following topics, the bit-numbering convention is: The bits in a byte are numbered 0 through 7, where bit 0 is the least significant and bit 7 is the most significant.  
   

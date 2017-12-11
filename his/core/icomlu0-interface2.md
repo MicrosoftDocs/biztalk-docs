@@ -26,4 +26,4 @@ The IcomLU0 interface allows access to an LU0 session.
   
 ## See Also  
  [IcomLU0 Members](../core/icomlu0-members2.md)   
- [Session Integrator Programmer's Guide](../core/session-integrator-programmer-s-guide1.md)
+ [Session Integrator Programmer's Guide](../HIS2010/session-integrator-programmer-s-guide1.md)

@@ -25,4 +25,4 @@ You can obtain schema information from a database by using *schema discovery*. S
   
 ## See Also  
  [Working with the Managed Data Provider For Host Files](../core/working-with-the-managed-data-provider-for-host-files1.md)   
- [BizTalk Adapter for Host Files Configuration](../core/biztalk-adapter-for-host-files-configuration2.md)
+ [BizTalk Adapter for Host Files Configuration](../HIS2010/biztalk-adapter-for-host-files-configuration2.md)

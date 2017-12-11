@@ -16,7 +16,7 @@ manager: "anneta"
 # Accepting Incoming Attaches
 The Sync Point support in Host Integration Server is intended for use only by gateway applications that implement the architected SNA Sync Point components, including Conversation-Protected Resource Manager (C-PRM). In a Sync Point implementation, it is necessary for C-PRM to be aware of all protected conversations, both locally initiated and remotely initiated. This can be achieved in Host Integration Server by C-PRM intercepting the conversation allocation and deallocation verbs and issuing them on behalf of the transaction program (TP). Note that since Host Integration Server does not allow TP or conversation identifiers to be shared across processes, this also means that the process containing C-PRM must also intercept all APPC verbs issued by the client TPs.  
   
- For locally initiated TPs, this is straightforward. However for incoming Attaches, the situation is made more complex by the requirement that the [RECEIVE_ALLOCATE](../core/receive-allocate2.md) verb specify the name of the TP to be matched with the Attach.  
+ For locally initiated TPs, this is straightforward. However for incoming Attaches, the situation is made more complex by the requirement that the [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md) verb specify the name of the TP to be matched with the Attach.  
   
  In some implementations, this will not be an issue, as the gateway will be aware of the names of all the transactions passing through it. To support this situation, the **RECEIVE_ALLOCATE** verb has been enhanced as described in the following topic to permit the gateway to indicate that it can accept Sync Point conversations.  
   

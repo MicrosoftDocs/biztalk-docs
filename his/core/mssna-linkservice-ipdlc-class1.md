@@ -149,4 +149,4 @@ Class MsSna_LinkService_IpDlc : MsSNA_LinkService
   
 ## See Also  
  [WmiSnaLinkServiceMS WMI Provider Classes](../core/wmisnalinkservicems-wmi-provider-classes1.md)   
- [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)

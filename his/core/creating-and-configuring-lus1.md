@@ -20,7 +20,7 @@ After you configure the connection, you can create the 3270 LUs. The LUs can be 
   
  You can create LUs one at a time or in a consecutively numbered range. When you create a range of LUs, all the LUs are given the same properties. You can modify individual LUs after creating them.  
   
- For information about the new IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
+ For information about the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
   
  For procedures about creating LUs, see the following:  
   

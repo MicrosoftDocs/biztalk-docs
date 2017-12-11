@@ -93,4 +93,4 @@ decimal GetAccountBalance(object[] contextArray)
   
 ## See Also  
  [Persistent Connections](../core/persistent-connections2.md)   
- [CICS Sample](../core/cics-sample.md)
+ [CICS Sample](../HIS2010/cics-sample.md)

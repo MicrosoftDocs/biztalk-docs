@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # RUI and SLI Definitions
-The definitions of the [RUI](../core/rui1.md) and [SLI](../core/sli1.md) functions are as follows:  
+The definitions of the [RUI](../HIS2010/rui1.md) and [SLI](../HIS2010/sli1.md) functions are as follows:  
   
 ```  
 void WINAPI RUI(struct LUA_VERB_RECORD FAR * verb);  
@@ -33,6 +33,6 @@ int WINAPI WinSLI(HWND handle, struct LUA_VERB_RECORD FAR * verb);
   
 -   Contain information returned by the verb when execution is complete.  
   
- The parameters passed to the [WinRUI](../core/winrui2.md)or [WinSLI](../core/winsli2.md) function are a window handle and the address of a VCB. The window handle is used for message notification when the issued verb has completed.  
+ The parameters passed to the [WinRUI](../HIS2010/winrui2.md)or [WinSLI](../HIS2010/winsli2.md) function are a window handle and the address of a VCB. The window handle is used for message notification when the issued verb has completed.  
   
  The VCB structure is declared in the WINLUA.H header file. For general VCB information, see [LUA VCB Format](../core/lua-vcb-format1.md). For verb-specific VCB information, see the reference documentation for each verb.

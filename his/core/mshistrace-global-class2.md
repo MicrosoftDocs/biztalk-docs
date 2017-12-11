@@ -1,4 +1,4 @@
-﻿---
+---
 title: "MsHisTrace_Global Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -63,4 +63,4 @@ class MsHisTrace_Global : MsHisTrace_Config
   
 ## See Also  
  [WmiSnaTrace WMI Provider Classes](../core/wmisnatrace-wmi-provider-classes2.md)   
- [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)

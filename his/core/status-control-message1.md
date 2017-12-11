@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Status-Control Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -18,7 +18,7 @@ manager: "anneta"
   
  All **Status-Control** messages that correspond to SNA requests on the normal flow with the exception of LUSTAT-sent Request Exception (RQE), and **Status-Control** messages corresponding to **CLEAR** and **STSN** request on the expedited flow, have the **ACKRQD** (acknowledgment required) field set. **Status-Control** messages that correspond to SNA requests on the expedited flow (with the exception of **CLEAR** and **STSN**) do not have the **ACKRQD** field set by the local node. However, the application can set **ACKRQD** when sending these **Status-Control** messages. The last figure in this topic summarizes which **Status-Control** requests always have **ACKRQD** set.  
   
- If a **Status-Control** request has **ACKRQD** set in the message header, the recipient must supply a **Status-Control** response (**Acknowledge, Negative-Acknowledge-1** or **Negative-Acknowledge-2**) before the sender sends further [Data](../core/data2.md) messages or further **Status-Control** requests on the flow. The sender can still send **Status-Control** responses, **Status-Acknowledge**, **Status-Error**, and **Status-Resource** messages on the flow. This applies to both normal and expedited flows and all request modes (including delayed-request mode). The message key received on the request must be returned on the response. (This is to allow multiple **RQE LUSTAT** messages to be outstanding.) The local node increments the message key on **Status-Control** requests and **DATAFMI** messages that it sends to the application on the PLU connection.  
+ If a **Status-Control** request has **ACKRQD** set in the message header, the recipient must supply a **Status-Control** response (**Acknowledge, Negative-Acknowledge-1** or **Negative-Acknowledge-2**) before the sender sends further [Data](../HIS2010/data2.md) messages or further **Status-Control** requests on the flow. The sender can still send **Status-Control** responses, **Status-Acknowledge**, **Status-Error**, and **Status-Resource** messages on the flow. This applies to both normal and expedited flows and all request modes (including delayed-request mode). The message key received on the request must be returned on the response. (This is to allow multiple **RQE LUSTAT** messages to be outstanding.) The local node increments the message key on **Status-Control** requests and **DATAFMI** messages that it sends to the application on the PLU connection.  
   
  For the logical unit application (LUA) variant of the function management interface (FMI), the message key field is used in a different way, as follows:  
   
@@ -84,7 +84,7 @@ Application sends Status-Control(LUSTAT) NOACKRQD
   
 -   Whether it requires **ACKRQD**. Note that the application can set ACKRQD on a Status-Control request that does not require it.  
   
--   The hexadecimal code used in the control-type field of the Status-Control message. (For more information, see [FMI Message Formats](../core/fmi-message-formats1.md).)  
+-   The hexadecimal code used in the control-type field of the Status-Control message. (For more information, see [FMI Message Formats](../HIS2010/fmi-message-formats1.md).)  
   
 |Status-Control|SNA RQ flow|TS profile|FM profile|Direction node–appl|ACKRQD|Code|  
 |---------------------|-----------------|----------------|----------------|-------------------------|------------|----------|  
@@ -115,7 +115,7 @@ RELQ|DFC,Exp|–|4|\<–>|–|CRELQ (0x22)|
   
  The use of particular **Status-Control** messages is described in following topics of this section, in the context of PLU session protocols such as chaining, brackets, recovery, and so on.  
   
- For the formats of **Status-Control** messages, see [Status-Control](../core/status-control2.md).  
+ For the formats of **Status-Control** messages, see [Status-Control](../HIS2010/status-control2.md).  
   
 ## In This Section  
   

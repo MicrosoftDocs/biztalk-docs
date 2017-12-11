@@ -28,4 +28,4 @@ To prevent an attacker from reading data packets on the network and either tampe
   
 ## See Also  
  [Transaction Integrator Threat Mitigation](../core/transaction-integrator-threat-mitigation2.md)   
- [Configuring an IP-DLC Link Service](../core/configuring-an-ip-dlc-link-service2.md)
+ [Configuring an IP-DLC Link Service](../HIS2010/configuring-an-ip-dlc-link-service2.md)

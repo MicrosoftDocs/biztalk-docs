@@ -24,30 +24,30 @@ When a remote transaction program (TP) issues a **BACKOUT** verb, the back out i
   
  The verbs on which this new return code can be returned are:  
   
- [CONFIRM](../core/confirm1.md)  
+ [CONFIRM](../HIS2010/confirm1.md)  
   
- [MC_CONFIRM](../core/mc-confirm1.md)  
+ [MC_CONFIRM](../HIS2010/mc-confirm1.md)  
   
- [MC_PREPARE_TO_RECEIVE](../core/mc-prepare-to-receive2.md)  
+ [MC_PREPARE_TO_RECEIVE](../HIS2010/mc-prepare-to-receive2.md)  
   
- [MC_RECEIVE_AND_POST](../core/mc-receive-and-post1.md)  
+ [MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md)  
   
- [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md)  
+ [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md)  
   
- [MC_RECEIVE_IMMEDIATE](../core/mc-receive-immediate1.md)  
+ [MC_RECEIVE_IMMEDIATE](../HIS2010/mc-receive-immediate1.md)  
   
- [MC_SEND_DATA](../core/mc-send-data2.md)  
+ [MC_SEND_DATA](../HIS2010/mc-send-data2.md)  
   
- [MC_SEND_ERROR](../core/mc-send-error1.md)  
+ [MC_SEND_ERROR](../HIS2010/mc-send-error1.md)  
   
- [PREPARE_TO_RECEIVE](../core/prepare-to-receive1.md)  
+ [PREPARE_TO_RECEIVE](../HIS2010/prepare-to-receive1.md)  
   
- [RECEIVE_AND_POST](../core/receive-and-post2.md)  
+ [RECEIVE_AND_POST](../HIS2010/receive-and-post2.md)  
   
- [RECEIVE_AND_WAIT](../core/receive-and-wait1.md)  
+ [RECEIVE_AND_WAIT](../HIS2010/receive-and-wait1.md)  
   
- [RECEIVE_IMMEDIATE](../core/receive-immediate2.md)  
+ [RECEIVE_IMMEDIATE](../HIS2010/receive-immediate2.md)  
   
- [SEND_DATA](../core/send-data2.md)  
+ [SEND_DATA](../HIS2010/send-data2.md)  
   
- [SEND_ERROR](../core/send-error1.md)
+ [SEND_ERROR](../HIS2010/send-error1.md)

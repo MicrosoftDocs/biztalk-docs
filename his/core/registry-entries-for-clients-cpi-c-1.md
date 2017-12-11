@@ -34,10 +34,10 @@ The following list gives details about registry entries for client computers. Fo
  Lists parameters to be used by the TP. Separate parameters with spaces.  
   
  **Timeout:**REG_DWORD: *number*  
- Specifies the time, in milliseconds, that an [Accept_Conversation](../core/accept-conversation-cpi-c-1.md) will wait before timing out. Specify *number* in decimal. The registry editor converts this to hexadecimal before displaying it. The default is infinity (no limit).  
+ Specifies the time, in milliseconds, that an [Accept_Conversation](../HIS2010/accept-conversation-cpi-c-1.md) will wait before timing out. Specify *number* in decimal. The registry editor converts this to hexadecimal before displaying it. The default is infinity (no limit).  
   
  **AcceptNames:**REG_SZ: *TPNameList*  
- Lists additional names under which the invokable TP can be invoked. Separate TP names with spaces. The default is none. If an invokable TP does not issue a [Specify_Local_TP_Name](../core/specify-local-tp-name-cpi-c-1.md) for each name configured under AcceptNames in the registry, that TP will fail.  
+ Lists additional names under which the invokable TP can be invoked. Separate TP names with spaces. The default is none. If an invokable TP does not issue a [Specify_Local_TP_Name](../HIS2010/specify-local-tp-name-cpi-c-1.md) for each name configured under AcceptNames in the registry, that TP will fail.  
   
  **ConversationSecurity:**REG_SZ:{ YES &#124; NO }  
  Indicates whether this TP supports conversation security. The default is NO.  

@@ -41,7 +41,7 @@ The **Server Configuration** dialog box can be used to change [!INCLUDE[hisHostI
 6.  You must save your configuration to keep the properties you set. Right-click the server, and click **Save Configuration**.  
   
 ## See Also  
- [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
  [SNA Manager](../core/sna-manager1.md)   
  [How to Open a Subdomain](../core/how-to-open-a-subdomain1.md)   
  [How to Configure SNA Service Properties](../core/how-to-configure-sna-service-properties1.md)   

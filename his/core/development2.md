@@ -49,8 +49,8 @@ The SDK section of Microsoft [!INCLUDE[hisHostIntServNoVersion](../includes/hish
  If you are viewing Host Integration Server Help in Visual Studio or in Visual Studio Help, the link in the left column goes to the exact member page. If you are viewing Host Integration Server Help outside of Visual Studio, use the link in the right column to go to the System namespace page in MSDN Library. Note that the link will not go to the specific member page.  
   
 ## In This Section  
- [Programmer's Guide](../core/programmer-s-guide1.md)  
+ [Programmer's Guide](../HIS2010/programmer-s-guide1.md)  
   
- [Programmer's Reference](../core/programmer-s-reference1.md)  
+ [Programmer's Reference](../HIS2010/programmer-s-reference1.md)  
   
  [Samples](http://msdn.microsoft.com/en-us/c4acc106-9758-48f3-a871-af4d7c9e0e72)

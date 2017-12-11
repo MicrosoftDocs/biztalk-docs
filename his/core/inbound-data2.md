@@ -22,7 +22,7 @@ This section describes inbound data flows from the application to the local node
   
 -   FMD data intended for the host PLU should be sent to the local node on the PLU connection.  
   
- The application cannot use [Data](../core/data2.md) messages to send data flow control (DFC) or session control request messages to the host. Instead it must use **Status-Control** messages. (For details, see [Status-Control Message](../core/status-control-message1.md).)  
+ The application cannot use [Data](../HIS2010/data2.md) messages to send data flow control (DFC) or session control request messages to the host. Instead it must use **Status-Control** messages. (For details, see [Status-Control Message](../core/status-control-message1.md).)  
   
  For all connections, the application must fill in certain key fields in the **Data** message's header. In particular it must:  
   
@@ -38,7 +38,7 @@ This section describes inbound data flows from the application to the local node
   
  If the application does not have access to these routines (for example, when the operating environment does not support intertask procedure calls and shared memory), all the fields in the header must be set by the application.  
   
- The transmission header (TH) and response header (RH) indicators are not available to the application on inbound [Data](../core/data2.md) messages. The application should set the appropriate application flags in the message header to control chaining, direction, and so on. For a description of the available application flags for inbound data and later topics in this section for a description of how the flags are used to control inbound data flows, see [Application Flags](../core/application-flags1.md).  
+ The transmission header (TH) and response header (RH) indicators are not available to the application on inbound [Data](../HIS2010/data2.md) messages. The application should set the appropriate application flags in the message header to control chaining, direction, and so on. For a description of the available application flags for inbound data and later topics in this section for a description of how the flags are used to control inbound data flows, see [Application Flags](../core/application-flags1.md).  
   
  For inbound data, the first byte is RU[0] for standard function management interface (FMI).  
   
@@ -46,7 +46,7 @@ This section describes inbound data flows from the application to the local node
   
  The inbound data acknowledgment protocol reflects the secondary chain response protocol and request mode in use on the session, as follows:  
   
--   Inbound [Data](../core/data2.md) messages with **ACKRQD** set in the header generate **RQD** requests.  
+-   Inbound [Data](../HIS2010/data2.md) messages with **ACKRQD** set in the header generate **RQD** requests.  
   
 -   Inbound **Data** messages without **ACKRQD** set in the header generate **RQE** or **RQN** requests depending on the chain response protocol.  
   
@@ -56,19 +56,19 @@ This section describes inbound data flows from the application to the local node
   
 -   If the session specifies that the secondary uses delayed request mode, after sending a **Data** message with **ACKRQD** set, the application can continue to send **Data** messages.  
   
- If the application sets the **ACKRQD** field in the message header of a [Data](../core/data2.md) message, it indicates that it requires an acknowledgment to this **Data** message. The local node acknowledges an inbound **Data** message by sending a **Status-Acknowledge** message to the application on the same connection and using the same message key as the **Data** message. (For an illustration, see the first figure at the end of this topic.)  
+ If the application sets the **ACKRQD** field in the message header of a [Data](../HIS2010/data2.md) message, it indicates that it requires an acknowledgment to this **Data** message. The local node acknowledges an inbound **Data** message by sending a **Status-Acknowledge** message to the application on the same connection and using the same message key as the **Data** message. (For an illustration, see the first figure at the end of this topic.)  
   
  The local node processes inbound **Data** messages from the application through its internal state computers, assigns the correct SNA sequence number or an identifier for this flow, and sends the data in a request to the host. The chain-response type of the request depends on whether **ACKRQD** was set in the **Data** message and the session parameters.  
   
- The local node maps a positive response from the host to a [Status-Acknowledge(Ack)](../core/status-acknowledge-ack-1.md) to the application. The application can use the message key in the **Status-Acknowledge** to correlate the acknowledgment with the original **Data** message. Therefore, receipt of a **Status-Acknowledge(Ack)** for a particular **Data** message implies that the local node has received a positive SNA response from the host to the inbound SNA request. (For an illustration, see the second figure at the end of this topic.)  
+ The local node maps a positive response from the host to a [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) to the application. The application can use the message key in the **Status-Acknowledge** to correlate the acknowledgment with the original **Data** message. Therefore, receipt of a **Status-Acknowledge(Ack)** for a particular **Data** message implies that the local node has received a positive SNA response from the host to the inbound SNA request. (For an illustration, see the second figure at the end of this topic.)  
   
  Note that responses are absorbed on the SSCP-PU session.  
   
- Note that outbound [Status-Acknowledge(Ack)](../core/status-acknowledge-ack-1.md) messages contain application flags and a sequence number. The application flags reflect the RH indicators in the response. The sequence number is the SNA sequence number from the response, and provides a mechanism for applications using Transmission Service profile (TS profile) 4 to track the SNA secondary sequence number corresponding to a unit of work.  
+ Note that outbound [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) messages contain application flags and a sequence number. The application flags reflect the RH indicators in the response. The sequence number is the SNA sequence number from the response, and provides a mechanism for applications using Transmission Service profile (TS profile) 4 to track the SNA secondary sequence number corresponding to a unit of work.  
   
- The local node maps a negative response from the host to a [Status-Acknowledge(Nack-1)](../core/status-acknowledge-nack-1-2.md) message to the application. The application can use the message key in the **Status-Acknowledge** to correlate the negative acknowledgment with the original **Data** message. The outbound **Status-Acknowledge(Nack-1)** message contains the SNA sense codes and sequence number from the negative response. (For an illustration, see the third and fourth figures at the end of this topic.)  
+ The local node maps a negative response from the host to a [Status-Acknowledge(Nack-1)](../HIS2010/status-acknowledge-nack-1-2.md) message to the application. The application can use the message key in the **Status-Acknowledge** to correlate the negative acknowledgment with the original **Data** message. The outbound **Status-Acknowledge(Nack-1)** message contains the SNA sense codes and sequence number from the negative response. (For an illustration, see the third and fourth figures at the end of this topic.)  
   
- If the local node detects an error in the format of an inbound **Data** message, or the **Data** message is not appropriate to the current state of the session, it sends a [Status-Acknowledge(Nack-2)](../core/status-acknowledge-nack-2-1.md) to the application containing an error code. (For a list of error codes, see [Error and Sense Codes](../core/error-and-sense-codes2.md).) The local node does not send a request to the host corresponding to the **Data** message in error and does not advance the SNA sequence number for the session. The application can use any message key in its next inbound **Data** message (assuming the error does not cause a critical failure).  
+ If the local node detects an error in the format of an inbound **Data** message, or the **Data** message is not appropriate to the current state of the session, it sends a [Status-Acknowledge(Nack-2)](../HIS2010/status-acknowledge-nack-2-1.md) to the application containing an error code. (For a list of error codes, see [Error and Sense Codes](../core/error-and-sense-codes2.md).) The local node does not send a request to the host corresponding to the **Data** message in error and does not advance the SNA sequence number for the session. The application can use any message key in its next inbound **Data** message (assuming the error does not cause a critical failure).  
   
  An example of a serious chaining error, where the application sends a **Data** message with **ACKRQD** but without ECI in the application flags, is shown in the last figure at the end of this topic. Note that after detecting this particular error, the local node marks the application's connection as critically failed, closes the connection, and sends a **TERM-SELF** request to the SSCP to elicit an **UNBIND**. (For more information, see [Recovery](../core/recovery1.md).)  
   
@@ -78,7 +78,7 @@ This section describes inbound data flows from the application to the local node
   
  The figures show:  
   
--   The **ACKRQD** field on [Data](../core/data2.md) messages.  
+-   The **ACKRQD** field on [Data](../HIS2010/data2.md) messages.  
   
 -   The message key on **Data** messages.  
   

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Status-Control(...) Negative-Acknowledge-11 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -129,10 +129,10 @@ struct Status-Control(...) Negative-Acknowledge-1 {
   
 ## Remarks  
   
--   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH), response header (RH), and RU are included in the data element, and the **startd** field points to the TH. The **ctlflag1** and **ctlflag2** bytes are not defined and should not be used. The appropriate values from the data should be used instead. (For more information about FMI, see [FMI Concepts](../core/fmi-concepts2.md).)  
+-   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH), response header (RH), and RU are included in the data element, and the **startd** field points to the TH. The **ctlflag1** and **ctlflag2** bytes are not defined and should not be used. The appropriate values from the data should be used instead. (For more information about FMI, see [FMI Concepts](../HIS2010/fmi-concepts2.md).)  
   
 -   If the application is not using the LUA variant of the FMI, the message consists of a buffer header only. There is no buffer element.  
   
 -   For messages from the application to the local node, the message key field must match the message key in the corresponding **Status-Control** request.  
   
--   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../core/status-control-message2.md).
+-   For a summary of **Status-Control** control type codes, see the table in [Status-Control Message](../HIS2010/status-control-message2.md).

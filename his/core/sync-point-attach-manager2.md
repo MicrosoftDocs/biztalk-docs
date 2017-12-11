@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Sync Point Attach Manager
-Instead of issuing separate [RECEIVE_ALLOCATE](../core/receive-allocate2.md) verbs for each possible transaction name, a Sync Point implementation may instead register as the Sync Point Attach Manager for [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. It does so by issuing a **RECEIVE_ALLOCATE** verb specifying a TP name consisting of all 0x00s.  
+Instead of issuing separate [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md) verbs for each possible transaction name, a Sync Point implementation may instead register as the Sync Point Attach Manager for [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. It does so by issuing a **RECEIVE_ALLOCATE** verb specifying a TP name consisting of all 0x00s.  
   
  When a Sync Point Attach Manager is registered, the following changes are effected in server's incoming Attach support on Host Integration Server:  
   
@@ -34,4 +34,4 @@ Instead of issuing separate [RECEIVE_ALLOCATE](../core/receive-allocate2.md) ver
   
  Sync Point Attach Manager applications must reside on a [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] server. They may not be distributed across Host Integration Server clients. This restriction is imposed to ensure that only a single instance of Sync Point Services (SPS) and Conversation-Protected Resource Manager (C-PRM) exists for each LU on the Host Integration Server (which might not be the case if Sync Point Attach Managers were visible from multiple servers in the Host Integration Server domain).  
   
- The structure of the [RECEIVE_ALLOCATE](../core/receive-allocate2.md) verb control block does not require modification to support this function.
+ The structure of the [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md) verb control block does not require modification to support this function.

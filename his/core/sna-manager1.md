@@ -33,7 +33,7 @@ SNA Manager provides an interface for configuration and operation of [!INCLUDE[h
  SNA Manager also simplifies administrative tasks by providing wizards to step you through many of the more complicated tasks, such as configuring AS/400 connectivity, configuring 3270 display LUs, and creating a range of LUs.  
   
 ## See Also  
- [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
  [How to Open a Subdomain](../core/how-to-open-a-subdomain1.md)   
  [How to Configure Server Properties](../core/how-to-configure-server-properties2.md)   
  [How to Configure SNA Service Properties](../core/how-to-configure-sna-service-properties1.md)   

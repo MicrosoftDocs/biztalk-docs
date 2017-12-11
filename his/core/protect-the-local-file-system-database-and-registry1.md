@@ -39,4 +39,4 @@ To prevent an attacker from spoofing their identity, accessing restricted data, 
 ## See Also  
  [Transaction Integrator Threat Mitigation](../core/transaction-integrator-threat-mitigation2.md)   
  [Single Sign-On in Transaction Integrator](../core/single-sign-on-in-transaction-integrator2.md)   
- [New Security Policy Wizard](../core/new-security-policy-wizard1.md)
+ [New Security Policy Wizard](../HIS2010/new-security-policy-wizard1.md)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "SNA Provider WMI Programmer&#39;s Reference2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -16,7 +16,7 @@ manager: "anneta"
 # SNA Provider WMI Programmer&#39;s Reference
 The SNA Provider WMI Programmer's Reference describes the Windows® Management Instrumentation (WMI) classes you can use to monitor and control SNA services.  
   
- For more information, see [Controlling Services and Connections with WMI](../core/controlling-services-and-connections-with-wmi2.md).  
+ For more information, see [Controlling Services and Connections with WMI](../HIS2010/controlling-services-and-connections-with-wmi2.md).  
   
 ## In This Section  
   

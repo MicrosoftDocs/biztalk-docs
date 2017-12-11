@@ -16,7 +16,7 @@ manager: "anneta"
 # Logical Records Used in Basic Conversations
 Logical records are sent and received in basic conversations only.  
   
- A TP can send or receive multiple logical records with a single [SEND_DATA](../core/send-data2.md) or receive verb. The receive verbs are [RECEIVE_AND_POST](../core/receive-and-post2.md), [RECEIVE_IMMEDIATE](../core/receive-immediate2.md), and [RECEIVE_AND_WAIT](../core/receive-and-wait1.md). A TP can also send or receive a logical record in successive portions: beginning, middle, and end.  
+ A TP can send or receive multiple logical records with a single [SEND_DATA](../HIS2010/send-data2.md) or receive verb. The receive verbs are [RECEIVE_AND_POST](../HIS2010/receive-and-post2.md), [RECEIVE_IMMEDIATE](../HIS2010/receive-immediate2.md), and [RECEIVE_AND_WAIT](../HIS2010/receive-and-wait1.md). A TP can also send or receive a logical record in successive portions: beginning, middle, and end.  
   
  A logical record is made up of:  
   

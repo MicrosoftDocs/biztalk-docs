@@ -26,7 +26,7 @@ Self-Hosting is a technology that allows you the option of running a Transaction
   
      You may also set the hosting model in the Properties toolbox in Visual Studio.  
   
-     For more information, see [Creating an Object](../core/creating-an-object1.md).  
+     For more information, see [Creating an Object](../HIS2010/creating-an-object1.md).  
   
 3.  In Visual Studio, use Solution Explorer to add a reference to your TI assembly.  
   

@@ -84,5 +84,5 @@ End Sub
   
 ## See Also  
  [Persistent Connections](../core/persistent-connections2.md)   
- [COMTIContext Interface](../core/comticontext-interface1.md)   
- [COMTIContext Keywords](../core/comticontext-keywords2.md)
+ [COMTIContext Interface](../HIS2010/comticontext-interface1.md)   
+ [COMTIContext Keywords](../HIS2010/comticontext-keywords2.md)

@@ -38,4 +38,4 @@ Flow : DLC ------> NODE (link or station connection)
   
 -   This message contains a buffer header only.  
   
--   Outage qualifier codes are given in [Outages](../core/outages-snadis-1.md).
+-   Outage qualifier codes are given in [Outages](../HIS2010/outages-snadis-1.md).

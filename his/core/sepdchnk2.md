@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # sepdchnk
-The **sepdchnk** function gets the function management interface (FMI) chunk size. The application calls this function to obtain the chunk size that should be used on the FMI. For more information on FMI chunking, see [Pacing and Chunking](../core/pacing-and-chunking2.md).  
+The **sepdchnk** function gets the function management interface (FMI) chunk size. The application calls this function to obtain the chunk size that should be used on the FMI. For more information on FMI chunking, see [Pacing and Chunking](../HIS2010/pacing-and-chunking2.md).  
   
 ## Syntax  
   

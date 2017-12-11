@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Open(SSCP) Request2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -262,17 +262,17 @@ struct Open(SSCP) Request {
   
 -   An LUA application uses the source P value LUAPROD (0x1D). This is independent of the value of the LUA supported indicator, which selects the LUA variant of the FMI.  
   
--   The SNS4003 to SNS4014 fields, together with the high priority indicator, are referred to in the text as the SSCP connection information control block (CICB). (For more information, see [Opening the SSCP Connection](../core/opening-the-sscp-connection2.md).) A value of 0x00 indicates that the data flow control (DFC) receive check corresponding to the sense code is not supported for this LU. A value of 0x01 indicates that it is supported. Note that the corresponding send checks are always performed regardless of these values.  
+-   The SNS4003 to SNS4014 fields, together with the high priority indicator, are referred to in the text as the SSCP connection information control block (CICB). (For more information, see [Opening the SSCP Connection](../HIS2010/opening-the-sscp-connection2.md).) A value of 0x00 indicates that the data flow control (DFC) receive check corresponding to the sense code is not supported for this LU. A value of 0x01 indicates that it is supported. Note that the corresponding send checks are always performed regardless of these values.  
   
 -   The LU number is only used internally in the local node on the **Open(SSCP) Request**. It is generated from the destination name in the first element.  
   
--   The open force type field is used when locating resources across more than one server and for automatic activation of connections when the application wishes to use an LU for which the connection is inactive. The application does not need to set this flag. It is used by the DL-BASE. For details, see [Opening the SSCP Connection](../core/opening-the-sscp-connection2.md).  
+-   The open force type field is used when locating resources across more than one server and for automatic activation of connections when the application wishes to use an LU for which the connection is inactive. The application does not need to set this flag. It is used by the DL-BASE. For details, see [Opening the SSCP Connection](../HIS2010/opening-the-sscp-connection2.md).  
   
--   The application program interface type field defines whether RU chunking is used from the local node to the application. This may be necessary if large RUs are being used. For more information about FMI chunking, see [Pacing and Chunking](../core/pacing-and-chunking2.md).  
+-   The application program interface type field defines whether RU chunking is used from the local node to the application. This may be necessary if large RUs are being used. For more information about FMI chunking, see [Pacing and Chunking](../HIS2010/pacing-and-chunking2.md).  
   
 -   The chunk size field (at **dataru[35]**) is an integer value.  
   
--   The segment delivery option specifies whether the local node should deliver segments of RUs to the application as soon as they are received or should assemble whole RUs before delivering them to the application. Segment delivery allows the application to update the user's screen as soon as data is received, known as window shading, which can result in a faster perceived response. For more information, see [Segment Delivery](../core/segment-delivery2.md). This option is required only when chunking is being used. It is included on this message so that the local node can calculate the initial chunk credit values on the corresponding primary logical unit (PLU) connection. The option must still be set on the **Open(PLU) Response**. The setting specified on that message will override the one specified here if there is a conflict. If this happens, the initial credit values may not be suitable.  
+-   The segment delivery option specifies whether the local node should deliver segments of RUs to the application as soon as they are received or should assemble whole RUs before delivering them to the application. Segment delivery allows the application to update the user's screen as soon as data is received, known as window shading, which can result in a faster perceived response. For more information, see [Segment Delivery](../HIS2010/segment-delivery2.md). This option is required only when chunking is being used. It is included on this message so that the local node can calculate the initial chunk credit values on the corresponding primary logical unit (PLU) connection. The option must still be set on the **Open(PLU) Response**. The setting specified on that message will override the one specified here if there is a conflict. If this happens, the initial credit values may not be suitable.  
   
 -   The LUA supported indicator specifies whether the application uses the LUA variant of the FMI.  
   

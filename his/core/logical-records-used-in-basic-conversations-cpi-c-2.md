@@ -16,7 +16,7 @@ manager: "anneta"
 # Logical Records Used in Basic Conversations (CPI-C)
 Logical records are sent and received in basic conversations only.  
   
- A transaction program (TP) can send or receive multiple logical records with a single [Send_Data](../core/send-data-cpi-c-1.md) or [Receive](../core/receive-cpi-c-1.md) call. A TP can also send or receive a logical record in successive portions: beginning, middle, and end.  
+ A transaction program (TP) can send or receive multiple logical records with a single [Send_Data](../HIS2010/send-data-cpi-c-1.md) or [Receive](../HIS2010/receive-cpi-c-1.md) call. A TP can also send or receive a logical record in successive portions: beginning, middle, and end.  
   
  A logical record is made up of:  
   

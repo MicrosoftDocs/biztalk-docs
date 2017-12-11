@@ -99,11 +99,11 @@ AS/400 model flow
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   
- [Configure Host Environment and Programming Model Wizard Page](../core/configure-host-environment-and-programming-model-wizard-page1.md)   
- [Converting Data Types from RPG to Automation](../core/converting-data-types-from-rpg-to-automation2.md)   
- [Converting Data Types from Automation to RPG](../core/converting-data-types-from-automation-to-rpg2.md)   
- [AS/400 Security](../core/as-400-security2.md)   
- [COMTIContext Interface](../core/comticontext-interface1.md)   
+ [Configure Host Environment and Programming Model Wizard Page](../HIS2010/configure-host-environment-and-programming-model-wizard-page1.md)   
+ [Converting Data Types from RPG to Automation](../HIS2010/converting-data-types-from-rpg-to-automation2.md)   
+ [Converting Data Types from Automation to RPG](../HIS2010/converting-data-types-from-automation-to-rpg2.md)   
+ [AS/400 Security](../HIS2010/as-400-security2.md)   
+ [COMTIContext Interface](../HIS2010/comticontext-interface1.md)   
  [TI Runtime](../core/ti-runtime2.md)   
  [Choosing the Appropriate Programming Model](../core/choosing-the-appropriate-programming-model1.md)   
  [Programming Models](../core/programming-models2.md)

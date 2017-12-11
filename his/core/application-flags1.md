@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Application Flags1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -16,13 +16,13 @@ manager: "anneta"
 # Application Flags
 Application flags are included on the following messages:  
   
--   All [Data](../core/data2.md) messages (both inbound and outbound)  
+-   All [Data](../HIS2010/data2.md) messages (both inbound and outbound)  
   
--   [Status-Acknowledge(Ack)](../core/status-acknowledge-ack-1.md) (outbound only)  
+-   [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) (outbound only)  
   
--   [Status-Acknowledge(Nack-1)](../core/status-acknowledge-nack-1-2.md) (outbound only)  
+-   [Status-Acknowledge(Nack-1)](../HIS2010/status-acknowledge-nack-1-2.md) (outbound only)  
   
--   All [Status-Control](../core/status-control2.md) messages (both inbound and outbound)  
+-   All [Status-Control](../HIS2010/status-control2.md) messages (both inbound and outbound)  
   
  These flags represent key indicators of the state of the session to which the message relates and are closely related (but not always equivalent) to the request header or response header (RH) indicators in the SNA request or response. Note that for inbound messages, applications need to set the flags on **Data** messages and **Status-Control** messages only.  
   
@@ -32,13 +32,13 @@ Application flags are included on the following messages:
   
 -   Applications using Transmission Service profile 4 (TS profile 4) on the PLU session can receive the definite response 2 (DR2) RH indicator in combination with definite response 1 (DR1) or exception response (ER) to give RQD2, RQD3, RQE2, and RQE3 requests. The local node interprets the RH indicators and sets the **COMMIT** application flag accordingly.  
   
- For inbound [Data](../core/data2.md) and [Status-Control](../core/status-control2.md) messages, you should set the application flags to control session characteristics such as chaining, direction control, and brackets. For **Status-Acknowledge** messages, the local node generates an SNA response and sets the RH indicators using information saved from the corresponding request. The application does not need to set the flags on this message.  
+ For inbound [Data](../HIS2010/data2.md) and [Status-Control](../HIS2010/status-control2.md) messages, you should set the application flags to control session characteristics such as chaining, direction control, and brackets. For **Status-Acknowledge** messages, the local node generates an SNA response and sets the RH indicators using information saved from the corresponding request. The application does not need to set the flags on this message.  
   
  For information about application flag usage when you are using function management interface (FMI) chunking, see [Chunking](../core/chunking2.md).  
   
- In most cases, the application does not need to use the application flags on [Status-Acknowledge(Ack)](../core/status-acknowledge-ack-1.md) messages, which derive from the response header indicators on the corresponding response. However, certain applications do require access to the response header flags on responses. For example, transaction-processing applications using TS profile 4 can receive the DR2 flag on responses, which appear as the **COMMIT** flag in the application flags.  
+ In most cases, the application does not need to use the application flags on [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md) messages, which derive from the response header indicators on the corresponding response. However, certain applications do require access to the response header flags on responses. For example, transaction-processing applications using TS profile 4 can receive the DR2 flag on responses, which appear as the **COMMIT** flag in the application flags.  
   
- Application flag usage on [Status-Control](../core/status-control2.md) (SC) messages is derived from the response header indicators in the corresponding data flow control or session control request unit. Applications may need to be aware of the response header flags for Status-Control messages. For example, LUSTAT request type 6 is a no-op used solely to enable response header flags to be sent when no other request is allowed. The local node delivers the request to the application as a Status-Control(LUSTAT) Request with the relevant application flags set. For summaries of valid request header usage for data flow control request units and of valid response header indicators for SC requests, see *SNA Format and Protocol Reference Manual: Architectural Logic* (IBM publication SC30-3112).  
+ Application flag usage on [Status-Control](../HIS2010/status-control2.md) (SC) messages is derived from the response header indicators in the corresponding data flow control or session control request unit. Applications may need to be aware of the response header flags for Status-Control messages. For example, LUSTAT request type 6 is a no-op used solely to enable response header flags to be sent when no other request is allowed. The local node delivers the request to the application as a Status-Control(LUSTAT) Request with the relevant application flags set. For summaries of valid request header usage for data flow control request units and of valid response header indicators for SC requests, see *SNA Format and Protocol Reference Manual: Architectural Logic* (IBM publication SC30-3112).  
   
  In the summary of the application flags in the table that follows, bits are numbered with bit 0 as the most significant bit in a byte and bit 7 as the least significant. An application flag is set if the relevant bit for the flag is 1 and not set if the bit is 0.  
   
@@ -48,7 +48,7 @@ Application flags are included on the following messages:
   
 |Bits in flag 1|Meaning|  
 |--------------------|-------------|  
-|FMHI [bit 0, flag 1] Value: AF_FMH (0x80)|Function management header indicator. Set if a function management header is present in the message, or if the message is a function management data network services (FMD NS) request. Only valid on [Data](../core/data2.md) messages. This flag is always set for 3270 user alerts, which are sent on the system services control point (SSCP) connection. For more information, see [3270 User Alerts](../core/3270-user-alerts2.md).|  
+|FMHI [bit 0, flag 1] Value: AF_FMH (0x80)|Function management header indicator. Set if a function management header is present in the message, or if the message is a function management data network services (FMD NS) request. Only valid on [Data](../HIS2010/data2.md) messages. This flag is always set for 3270 user alerts, which are sent on the system services control point (SSCP) connection. For more information, see [3270 User Alerts](../core/3270-user-alerts2.md).|  
 |BCI [bit 1, flag 1] Value: AF_BC (0x40)|Begin chain indicator. Set if this message starts a chain. For more information, see [Outbound Chaining](../core/outbound-chaining2.md) and [Inbound Chaining](../core/inbound-chaining1.md).|  
 |ECI [bit 2, flag 1] Value: AF_EC (0x20)|End chain indicator. Set if this message ends a chain. For more information, see **Outbound Chaining** and [Inbound Chaining](../core/inbound-chaining1.md).|  
 |COMMIT [bit 3, flag 1] Value: AF_COMM (0x10)|Commit indicator. Set if chain carries DR2.|  
@@ -63,7 +63,7 @@ Application flags are included on the following messages:
   
 |Bits in flag 2|Meaning|  
 |--------------------|-------------|  
-|CODE [bit 0, flag 2] Value: AF_CODE (0x80)|Alternate code indicator. Set if the alternate code set (usually ASCII) is used for this [Data](../core/data2.md) message. Note that function management headers are unaffected by the code selection indicator.|  
+|CODE [bit 0, flag 2] Value: AF_CODE (0x80)|Alternate code indicator. Set if the alternate code set (usually ASCII) is used for this [Data](../HIS2010/data2.md) message. Note that function management headers are unaffected by the code selection indicator.|  
 |ENCRYP [bit 1, flag 2] Value: AF_ENCR (0x40)|Enciphered data indicator. Set to indicate that the information in the **Data** message is enciphered under session level cryptography protocols. You must provide the necessary support for data encryption. The Host Integration Server local node does not support cryptography.|  
 |ENPAD [bit 2, flag 2] Value: AF_ENPD (0x20)|Padded data indicator. Set in conjunction with the **ENCRYP** flag to indicate that the data was padded at the end to the next integral multiple of eight bytes before enciphering.|  
 |QRI [bit 3, flag 2] Value: AF_QRI (0x10)|Queued response indicator. Set if the response to this request is to be queued in the transmission control and data flow control layers. This flag is only significant for inbound messages.|  

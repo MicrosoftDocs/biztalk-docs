@@ -25,9 +25,9 @@ The following topics contain the COM reference material for the Session Integrat
  <xref:Microsoft.HostIntegration.SNA.Session>  
   
 ## Related Sections  
- [Session Integrator Programmer's Guide](../core/session-integrator-programmer-s-guide1.md)  
+ [Session Integrator Programmer's Guide](../HIS2010/session-integrator-programmer-s-guide1.md)  
   
- [LUA Programmer's Guide](../core/lua-programmer-s-guide2.md)  
+ [LUA Programmer's Guide](../HIS2010/lua-programmer-s-guide2.md)  
   
 ## See Also  
  [Session Integrator Programmer's Reference](../core/session-integrator-programmer-s-reference2.md)

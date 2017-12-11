@@ -96,4 +96,4 @@ class MsSna_ConnectionX25 : MsSna_Connection
   
 ## See Also  
  [WMISNA WMI Provider Classes](../core/wmisna-wmi-provider-classes2.md)   
- [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)

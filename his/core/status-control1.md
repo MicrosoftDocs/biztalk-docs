@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Status-Control
-For details about **Status-Control** message usage and for a summary of control type codes, see [Status-Control Message](../core/status-control-message2.md).
+For details about **Status-Control** message usage and for a summary of control type codes, see [Status-Control Message](../HIS2010/status-control-message2.md).

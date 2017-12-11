@@ -30,7 +30,7 @@ This section describes how to create an application by using Session Integrator 
 ## Reference  
  <xref:Microsoft.HostIntegration.SNA.Session>  
   
- [IcomLU0 Interface](../core/icomlu0-interface1.md)  
+ [IcomLU0 Interface](../HIS2010/icomlu0-interface1.md)  
   
 ## Related Sections  
  [Working with Session Integrator](../core/working-with-session-integrator1.md)  

@@ -16,9 +16,9 @@ manager: "anneta"
 # LUA Programmer&#39;s Guide
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides the programmatic techniques and procedures for creating applications with the logical unit application (LUA) programming interface.  
   
- For API references and other technical information about LUA, see [LUA Programmer's Reference](../core/lua-programmer-s-reference1.md).  
+ For API references and other technical information about LUA, see [LUA Programmer's Reference](../HIS2010/lua-programmer-s-reference1.md).  
   
- For sample code using LUA, see [LUA Samples](../core/lua-samples.md).  
+ For sample code using LUA, see [LUA Samples](../HIS2010/lua-samples.md).  
   
  This section contains:  
   

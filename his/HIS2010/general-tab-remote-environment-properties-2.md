@@ -1,0 +1,33 @@
+---
+title: "General Tab (Remote Environment Properties)2 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/30/2017"
+ms.prod: "host-integration-server"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "15212"
+ms.assetid: 23783842-9b15-4e36-bb88-2568554e502b
+caps.latest.revision: 4
+---
+# General Tab (Remote Environment Properties)
+Use the **General** tab to set the basic characteristics of the remote environment.  
+  
+|Use this|To do this|  
+|--------------|----------------|  
+|**Type**|View the type of remote environment, which describes the region on the mainframe with which your application is designed to work|  
+|**Status**|View the current state of the remote environment:<br /><br /> -   **Active**. The TI run-time environment accepts requests and attempts to communicate with the associated mainframe region.<br />-   **Inactive**. The TI run-time environment will not accept requests from client applications and returns an Inactive remote environment error message without attempting to communicate with the associated mainframe region.<br />-   **Disabled**.|  
+|**Identifier**|View the GUID for the remote environment. This identifier is useful when reviewing TI messages in the Windows Event Log.|  
+|**Creator name**|View the user ID of the user who created the remote environment.|  
+|**Date created**|View the date the remote environment was created.|  
+|**Comment**|Type or view a comment or description to help identify the new remote environment when its properties are displayed elsewhere in the product. You can enter up to 259 Unicode characters in this field. Useful information includes the name and location of the mainframe, and the name and telephone number of the system administrator.|  
+  
+> [!CAUTION]
+>  The properties of a remote environment are not intended to be set or changed programmatically. Setting or changing the properties programmatically might cause the remote environment to function incorrectly.  
+  
+## See Also  
+ [Remote Environments Node](../HIS2010/remote-environments-node1.md)   
+ [Remote Environment Node](../HIS2010/remote-environment-node2.md)   
+ [TI Manager Properties](../HIS2010/ti-manager-properties1.md)

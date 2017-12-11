@@ -16,7 +16,7 @@ manager: "anneta"
 # Step 2 (C) Creating and Configuring Connections
 This section details creating and configuring connections.  
   
- For information about the IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
+ For information about the IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
   
 ## In This Section  
  [Creating Connections](../core/creating-connections1.md)  

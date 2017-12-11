@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Termination
-The 3270 emulator must call [sbputerm](../core/sbputerm2.md) to free DL-BASE/Dynamic Access Module (DMOD) resources before it terminates.
+The 3270 emulator must call [sbputerm](../HIS2010/sbputerm2.md) to free DL-BASE/Dynamic Access Module (DMOD) resources before it terminates.

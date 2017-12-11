@@ -18,7 +18,7 @@ If you run a wizard to create your connections, most of the configuration inform
   
  If you need to configure a connection manually, you may need to verify the host connection information before you can proceed. For more information, see [Verifying Host Connection Information](../core/verifying-host-connection-information2.md).  
   
- For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
+ For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
   
 ## In This Section  
  **Mainframe (3270) environments**  

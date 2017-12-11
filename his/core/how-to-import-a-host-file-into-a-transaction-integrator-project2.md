@@ -20,8 +20,8 @@ Once you have created a library in your Transaction Integrator (TI) project, you
   
 1.  If you have a Host Definition file (.cbl or .rpg) file available, you can use the Import COBOL Wizard or the Import RPG Wizard to define your interfaces.  
   
-     For more information, see [How to Import COBOL into a TI Component](../core/how-to-import-cobol-into-a-ti-component1.md) or [Importing RPG](../core/importing-rpg2.md).  
+     For more information, see [How to Import COBOL into a TI Component](../HIS2010/how-to-import-cobol-into-a-ti-component1.md) or [Importing RPG](../HIS2010/importing-rpg2.md).  
   
 2.  If you have a previous .NET client library that you want to base your new object on, you can use the Import Library tool to import the library into your project.  
   
-     For more information, see [How to Import a TI Component](../core/how-to-import-a-ti-component1.md).
+     For more information, see [How to Import a TI Component](../HIS2010/how-to-import-a-ti-component1.md).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Local Node Failure2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Local Node Failure
-If the local node fails, applications are informed of this by the path error return code from the Dynamic Access Module (DMOD) on the [sbpurcvx](../core/sbpurcvx2.md) call, or from the routing procedure. All connections that use the destination locality value for which the path error is reported are closed. The application must do the following:  
+If the local node fails, applications are informed of this by the path error return code from the Dynamic Access Module (DMOD) on the [sbpurcvx](../HIS2010/sbpurcvx2.md) call, or from the routing procedure. All connections that use the destination locality value for which the path error is reported are closed. The application must do the following:  
   
 -   Clean up resources related to the closed connections, including resetting presentation spaces and displaying a communications check code  
   

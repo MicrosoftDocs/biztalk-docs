@@ -54,7 +54,7 @@ The following procedure is required to issue a blocking APPC verb. In the sample
     APPC ( ( long ) (void FAR * ) &mcsend );  
     ```  
   
-     Use [WinAsyncAPPC](../core/winasyncappc2.md) if you are running the application under Windows version 3.*x*.  
+     Use [WinAsyncAPPC](../HIS2010/winasyncappc2.md) if you are running the application under Windows version 3.*x*.  
   
      To call **WinAsyncAPPC**:  
   

@@ -52,7 +52,7 @@ The sequence of events for confirmation processing is as follows:
 |TP_ENDED|TP_ENDED|  
   
 ## Establishing the Synchronization Level  
- The **synclevel** parameter of [MC_ALLOCATE](../core/mc-allocate1.md) determines the synchronization level of the conversation. There are three possible synchronization levels:  
+ The **synclevel** parameter of [MC_ALLOCATE](../HIS2010/mc-allocate1.md) determines the synchronization level of the conversation. There are three possible synchronization levels:  
   
 -   AP_NONE, under which confirmation processing does not occur.  
   
@@ -61,7 +61,7 @@ The sequence of events for confirmation processing is as follows:
 -   AP_SYNCPT, under which the TPs operate under Sync Point Level 2 support for confirmation of receipt of data.  
   
 ## Sending a Confirmation Request  
- [MC_SEND_DATA](../core/mc-send-data2.md) with type AP_SEND_DATA_CONFIRM has two effects:  
+ [MC_SEND_DATA](../HIS2010/mc-send-data2.md) with type AP_SEND_DATA_CONFIRM has two effects:  
   
 -   It flushes the local LU's send buffer and sends any data contained in the buffer to the partner TP.  
   
@@ -70,7 +70,7 @@ The sequence of events for confirmation processing is as follows:
  After issuing **MC_SEND_DATA**, the local TP waits for confirmation from the partner TP.  
   
 ## Receiving Data and Confirmation Request  
- The **what_rcvd** parameter of [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md) indicates:  
+ The **what_rcvd** parameter of [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md) indicates:  
   
 -   Status of the data received: complete or incomplete.  
   
@@ -79,13 +79,13 @@ The sequence of events for confirmation processing is as follows:
  In the example, **what_rcvd** is AP_DATA_COMPLETE_CONFIRM, indicating that the status is complete and a confirmation is requested.  
   
 ## Responding to a Confirmation Request  
- The partner TP issues [MC_CONFIRMED](../core/mc-confirmed2.md) to confirm receipt of data. This frees the local TP to resume processing.  
+ The partner TP issues [MC_CONFIRMED](../HIS2010/mc-confirmed2.md) to confirm receipt of data. This frees the local TP to resume processing.  
   
 ## Deallocating the Conversation  
- [MC_SEND_DATA](../core/mc-send-data2.md) sends a confirmation request with the data when all of the following conditions are true:  
+ [MC_SEND_DATA](../HIS2010/mc-send-data2.md) sends a confirmation request with the data when all of the following conditions are true:  
   
--   The conversation's synchronization level (established by the **synclevel** parameter of [MC_ALLOCATE](../core/mc-allocate1.md)) is AP_CONFIRM_SYNC_LEVEL.  
+-   The conversation's synchronization level (established by the **synclevel** parameter of [MC_ALLOCATE](../HIS2010/mc-allocate1.md)) is AP_CONFIRM_SYNC_LEVEL.  
   
 -   The type parameter of **MC_SEND_DATA** is set to AP_SEND_DATA_DEALLOC_SYNC_LEVEL.  
   
--   The **what_rcvd** parameter of the final [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md) is AP_DATA_COMPLETE_CONFIRM_DEALLOCATE, indicating that a confirmation of receipt of data is required before APPC will deallocate the conversation. The local TP waits for this confirmation until the partner TP issues [MC_CONFIRMED](../core/mc-confirmed2.md).
+-   The **what_rcvd** parameter of the final [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md) is AP_DATA_COMPLETE_CONFIRM_DEALLOCATE, indicating that a confirmation of receipt of data is required before APPC will deallocate the conversation. The local TP waits for this confirmation until the partner TP issues [MC_CONFIRMED](../HIS2010/mc-confirmed2.md).

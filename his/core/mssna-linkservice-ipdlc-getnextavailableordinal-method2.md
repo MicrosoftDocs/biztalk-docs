@@ -35,4 +35,4 @@ uint32 GetNextAvailableOrdinal()
 ## See Also  
  [WmiSnaLinkServiceMS WMI Provider Classes](../core/wmisnalinkservicems-wmi-provider-classes1.md)   
  [MsSna_LinkService_IpDlc Class](../core/mssna-linkservice-ipdlc-class1.md)   
- [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)

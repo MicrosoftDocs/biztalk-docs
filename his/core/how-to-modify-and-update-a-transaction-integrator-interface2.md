@@ -20,7 +20,7 @@ Once you have imported a host definition file, you can modify and update the int
   
 ### To create, modify, or update a TI interface  
   
-1.  Use HIS Designer to create, modify, or update the TI interface. For more information, see [Host Integration Server Designer UI](../core/host-integration-server-designer-ui2.md).  
+1.  Use HIS Designer to create, modify, or update the TI interface. For more information, see [Host Integration Server Designer UI](../HIS2010/host-integration-server-designer-ui2.md).  
   
 ## See Also  
  [Creating an Application with Host Integration Server Designer](../core/creating-an-application-with-host-integration-server-designer1.md)

@@ -28,7 +28,7 @@ An enterprise organization might run the bulk of their daily operations on an IB
  [COM Security Requirements for Session Integrator](../core/com-security-requirements-for-session-integrator1.md)  
   
 ## Reference  
- [Session Integrator COM Reference](../core/session-integrator-com-reference2.md)  
+ [Session Integrator COM Reference](../HIS2010/session-integrator-com-reference2.md)  
   
  <xref:Microsoft.HostIntegration.SNA.Session>  
   
@@ -36,5 +36,5 @@ An enterprise organization might run the bulk of their daily operations on an IB
  [Working with Session Integrator](../core/working-with-session-integrator1.md)  
   
 ## See Also  
- [3270 Emulation Programmer's Reference](../core/3270-emulation-programmer-s-reference1.md)   
+ [3270 Emulation Programmer's Reference](../HIS2010/3270-emulation-programmer-s-reference1.md)   
  [3270 Emulation Programmer's Guide](../core/3270-emulation-programmer-s-guide1.md)

@@ -27,7 +27,7 @@ The following procedure details how to configure a display LU.
 4.  Make appropriate configuration changes, and then click **OK**.  
   
 ## See Also  
- [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
  [How to Configure a 3270 Printer LU](../core/how-to-configure-a-3270-printer-lu2.md)   
  [How to Configure a 3270 Application LU (LUA)](../core/how-to-configure-a-3270-application-lu-lua-1.md)   
  [How to Configure a 3270 Downstream LU](../core/how-to-configure-a-3270-downstream-lu2.md)   

@@ -18,7 +18,7 @@ With [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.m
   
  These tools step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  
   
- For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
+ For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
   
 ## In This Section  
  **Mainframe (3270) environments:**  

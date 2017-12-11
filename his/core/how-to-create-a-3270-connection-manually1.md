@@ -43,7 +43,7 @@ The following procedure details creating a 3270 connection manually.
  To display this dialog box after the connection has been created, double-click the connection in the tree view, or select the connection, and click **Properties** in the **View** menu.  
   
 ## See Also  
- [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
  [Creating Connections](../core/creating-connections1.md)   
  [Creating a 3270 Connection with a Wizard](../core/creating-a-3270-connection-with-a-wizard1.md)   
  [Creating a 5250 Connection with a Wizard](../core/creating-a-5250-connection-with-a-wizard2.md)   

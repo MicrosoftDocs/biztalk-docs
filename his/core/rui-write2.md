@@ -1,4 +1,4 @@
-﻿---
+---
 title: "RUI_WRITE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -361,7 +361,7 @@ struct LUA_COMMON {
   
  LUA_INVALID_SESSION_PARAMETERS  
   
- Secondary return code; the application used **RUI_WRITE** to send a positive response to a BIND message received from the host. However, Host Integration Server cannot accept the BIND parameters as specified, and has sent a negative response to the host. For more information about the BIND profiles accepted by Host Integration Server, see [SNA Considerations Using LUA](../core/sna-considerations-with-lua2.md).  
+ Secondary return code; the application used **RUI_WRITE** to send a positive response to a BIND message received from the host. However, Host Integration Server cannot accept the BIND parameters as specified, and has sent a negative response to the host. For more information about the BIND profiles accepted by Host Integration Server, see [SNA Considerations Using LUA](../HIS2010/sna-considerations-with-lua2.md).  
   
  LUA_RSP_CORRELATION_ERROR  
   
@@ -372,7 +372,7 @@ struct LUA_COMMON {
  Secondary return code; the **lua_data_length** parameter contained an invalid value. When sending data on the LU normal flow, the maximum length is as specified in the BIND received from the host; for all other flows the maximum length is 256 bytes.  
   
 > [!NOTE]
->  Any other secondary return code is an SNA sense code indicating that the supplied SNA data was invalid or could not be sent. For information about interpreting the SNA sense codes that can be returned, see [SNA Considerations Using LUA](../core/sna-considerations-with-lua2.md).  
+>  Any other secondary return code is an SNA sense code indicating that the supplied SNA data was invalid or could not be sent. For information about interpreting the SNA sense codes that can be returned, see [SNA Considerations Using LUA](../HIS2010/sna-considerations-with-lua2.md).  
   
  LUA_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  

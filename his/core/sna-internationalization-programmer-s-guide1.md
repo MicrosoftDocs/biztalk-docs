@@ -18,7 +18,7 @@ This section describes the features available in [!INCLUDE[hishostintegrationser
   
  The SNANLS API uses the language support features provided with Windows. SNANLS supports European languages that use single-byte encoding, as well as East Asian languages that use double-byte or Unicode encoding.  
   
- For API references and other technical information about SNA Internationalization, see [SNA Internationalization Programmer's Reference](../core/sna-internationalization-programmer-s-reference1.md).  
+ For API references and other technical information about SNA Internationalization, see [SNA Internationalization Programmer's Reference](../HIS2010/sna-internationalization-programmer-s-reference1.md).  
   
 ## In This Section  
   

@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Starting Local Sync Point TPs
-Local TPs are created by issuing the [TP_STARTED](../core/tp-started1.md) verb to Host Integration Server. The **TP_STARTED** verb has been modified by adding the new verb control block (VCB) member **syncpoint_rqd** to allow a TP to specify that it requires Sync Point services.  
+Local TPs are created by issuing the [TP_STARTED](../HIS2010/tp-started1.md) verb to Host Integration Server. The **TP_STARTED** verb has been modified by adding the new verb control block (VCB) member **syncpoint_rqd** to allow a TP to specify that it requires Sync Point services.  
   
  By setting **syncpoint_rqd** to AP_YES, a TP indicates that it requires Sync Point services from Host Integration Server. A value of AP_NO (the default) indicates that Sync Point services are not required.  
   

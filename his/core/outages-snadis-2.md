@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Outages (SNADIS)
-If the SNALink detects a link or station failure, it reports the failure by sending an [Outage](../core/outage1.md) message to the node on either the LINK or STATION LPI connection depending on whether it is a link or station outage. Generally, a station outage indicates a problem at the remote station, and a link outage indicates a local or line problem.  
+If the SNALink detects a link or station failure, it reports the failure by sending an [Outage](../HIS2010/outage1.md) message to the node on either the LINK or STATION LPI connection depending on whether it is a link or station outage. Generally, a station outage indicates a problem at the remote station, and a link outage indicates a local or line problem.  
   
  When the local node receives an Outage message, it:  
   
@@ -22,9 +22,9 @@ If the SNALink detects a link or station failure, it reports the failure by send
   
 -   Cleans up each session using the connection and informs applications of the failure (for instance, with a Comm Check code on a 3270 emulator).  
   
--   Sends a [Close(LINK) Request](../core/close-link-request2.md) to the SNALink.  
+-   Sends a [Close(LINK) Request](../HIS2010/close-link-request2.md) to the SNALink.  
   
- On receipt of the **Close(LINK) Request**, the SNALink should clear up its internal resources for the connection and send back a [Close(LINK) Response](../core/close-link-response1.md).  
+ On receipt of the **Close(LINK) Request**, the SNALink should clear up its internal resources for the connection and send back a [Close(LINK) Response](../HIS2010/close-link-response1.md).  
   
  ![](../core/media/dev3p.gif "dev3p")  
 Local node receiving an Outage message and sending a Close(LINK) Request and a Close(LINK) response  

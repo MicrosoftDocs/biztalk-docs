@@ -52,4 +52,4 @@ Using the tools for Host Integration Server (HIS) Designer in Visual Studio, you
  [How to Test and Modify a Transaction Integrator Application](../core/how-to-test-and-modify-a-transaction-integrator-application2.md)  
   
 ## See Also  
- [Host Integration Server Designer UI](../core/host-integration-server-designer-ui2.md)
+ [Host Integration Server Designer UI](../HIS2010/host-integration-server-designer-ui2.md)

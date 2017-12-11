@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Conversation Security
-You can use conversation security to require that the invoking TP provide a user identifier and password before APPC will allocate a conversation with the invokable TP. If security is activated, the invoking TP must supply a combination of the user identifier and password as parameters of [ALLOCATE](../core/allocate1.md) or [MC_ALLOCATE](../core/mc-allocate1.md). Conversation security is activated and configured through registry or environment variables on the computer where the invokable TP is located.  
+You can use conversation security to require that the invoking TP provide a user identifier and password before APPC will allocate a conversation with the invokable TP. If security is activated, the invoking TP must supply a combination of the user identifier and password as parameters of [ALLOCATE](../HIS2010/allocate1.md) or [MC_ALLOCATE](../HIS2010/mc-allocate1.md). Conversation security is activated and configured through registry or environment variables on the computer where the invokable TP is located.  
   
  With communication involving more than two TPs, the verification of a user identifier and password can be passed from one TP to another. Suppose that TP A invokes TP B, which requires security information, and TP B in turn invokes TP C, which also requires security information. Through **ALLOCATE** or **MC_ALLOCATE**, TP B can inform TP C that conversation security has already been verified.  
   

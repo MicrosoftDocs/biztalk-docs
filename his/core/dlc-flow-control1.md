@@ -1,4 +1,4 @@
-﻿---
+---
 title: "DLC Flow Control1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -16,11 +16,11 @@ manager: "anneta"
 # DLC Flow Control
 The flow of data messages at the data link control (DLC) interface for each link station is flow controlled. For each direction of flow, there is an initial credit of messages that can be transmitted.  
   
- Flow control is maintained by initial specification on the [Open(STATION) Request](../core/open-station-request1.md) and [Open(STATION) OK Response](../core/open-station-oresponse2.md) messages, and by the sending of DLC [Status-Resource](../core/status-resource-snadis-2.md) messages to give more credit periodically.  
+ Flow control is maintained by initial specification on the [Open(STATION) Request](../HIS2010/open-station-request1.md) and [Open(STATION) OK Response](../HIS2010/open-station-oresponse2.md) messages, and by the sending of DLC [Status-Resource](../HIS2010/status-resource-snadis-2.md) messages to give more credit periodically.  
   
- The sender maintains a count of credit, starting at the initial value set on the **Open(STATION)**, which is decremented for each [DLC-Data](../core/dlc-data2.md) message sent. When the credit count reaches zero, no more DLC-Data messages can be sent until more credit is received.  
+ The sender maintains a count of credit, starting at the initial value set on the **Open(STATION)**, which is decremented for each [DLC-Data](../HIS2010/dlc-data2.md) message sent. When the credit count reaches zero, no more DLC-Data messages can be sent until more credit is received.  
   
- For flow in a given direction, the amount of credit is specified by the recipient of the data, because the recipient has to do any queuing. The initial credit values are passed on the [Open(STATION)](../core/open-station-2.md) message (on the request for flow from the SNALink to the local node and on the response for flow from the local node to the SNALink).  
+ For flow in a given direction, the amount of credit is specified by the recipient of the data, because the recipient has to do any queuing. The initial credit values are passed on the [Open(STATION)](../HIS2010/open-station-2.md) message (on the request for flow from the SNALink to the local node and on the response for flow from the local node to the SNALink).  
   
  The initial credit for the flow from the SNALink to the local node is determined by the node. The initial credit for the flow from the local node to the SNALink is set by the SNALink software—a suggested value is 16.  
   

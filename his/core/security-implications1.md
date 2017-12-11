@@ -35,7 +35,7 @@ Transaction Integrator (TI) can provide user ID and password credentials for aut
  To select the explicit security override, select the **Allow application override** check box. This option is the least recommended of the three. If **Allow application override** is selected but not implemented by the application, the security mechanism reverts to whichever of the other two security options you selected.  
   
 > [!NOTE]
->  Explicit security override is not the preferred method of specifying credentials for a client. If possible, you should use the Client Context USERID and PASSWORD override keywords. For more information, see the [COMTIContext Keywords](../core/comticontext-keywords2.md).  
+>  Explicit security override is not the preferred method of specifying credentials for a client. If possible, you should use the Client Context USERID and PASSWORD override keywords. For more information, see the [COMTIContext Keywords](../HIS2010/comticontext-keywords2.md).  
   
 ## In This Section  
  [How to Use Optional Explicit-Level Override Authentication](../core/how-to-use-optional-explicit-level-override-authentication1.md)  

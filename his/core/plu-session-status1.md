@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # PLU Session Status
-While the primary logical unit (PLU) connection is open, the local node reports any changes of state to the application through [Status-Session](../core/status-session1.md) messages. There is only one **Status-Session** status code that can occur on the PLU connection, which is listed in the following table.  
+While the primary logical unit (PLU) connection is open, the local node reports any changes of state to the application through [Status-Session](../HIS2010/status-session1.md) messages. There is only one **Status-Session** status code that can occur on the PLU connection, which is listed in the following table.  
   
 |Status code|Description|  
 |-----------------|-----------------|  

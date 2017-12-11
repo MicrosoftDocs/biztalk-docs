@@ -52,4 +52,4 @@ HRESULT GetConnectionInfo (
  [ReadContext](../core/readcontext1.md)   
  [UpdateContextInfo](../core/updatecontextinfo1.md)   
  [WriteContext](../core/writecontext1.md)   
- [Persistent Connections](../core/persistent-connections1.md)
+ [Persistent Connections](../HIS2010/persistent-connections1.md)

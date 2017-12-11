@@ -18,7 +18,7 @@ For a connection to be established successfully, a number of software settings a
   
  The following table outlines items to consider when configuring a connection with [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
- For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
+ For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
   
 |Element|Considerations|  
 |-------------|--------------------|  

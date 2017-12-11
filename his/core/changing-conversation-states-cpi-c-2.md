@@ -76,16 +76,16 @@ A change in the conversation state can result from:
  In the example, after the conversation is allocated, the initial state is SEND for the invoking TP and RECEIVE for the invokable TP.  
   
 ## Changing to RECEIVE State  
- The [Prepare_To_Receive](../core/prepare-to-receive-cpi-c-2.md) call allows a TP to change the conversation from SEND to RECEIVE state. This call:  
+ The [Prepare_To_Receive](../HIS2010/prepare-to-receive-cpi-c-2.md) call allows a TP to change the conversation from SEND to RECEIVE state. This call:  
   
 -   Flushes the local LU's send buffer.  
   
--   Sends a CM_CONFIRM_SEND indicator to the partner TP through the *status_received* parameter of a [Receive](../core/receive-cpi-c-1.md) call, because the synchronization level is set to CM_CONFIRM. This indicator tells the partner TP that a [Confirmed](../core/confirmed-cpi-c-1.md) response is expected before the partner TP can begin to send data.  
+-   Sends a CM_CONFIRM_SEND indicator to the partner TP through the *status_received* parameter of a [Receive](../HIS2010/receive-cpi-c-1.md) call, because the synchronization level is set to CM_CONFIRM. This indicator tells the partner TP that a [Confirmed](../HIS2010/confirmed-cpi-c-1.md) response is expected before the partner TP can begin to send data.  
   
 ## Changing to SEND State  
- The [Request_To_Send](../core/request-to-send-cpi-c-2.md) call informs the partner TP (for which the conversation is in SEND state) that the local TP (for which the conversation is in RECEIVE state) wants to send data. This request is communicated to the partner TP through the *request_to_send_received* parameter of the [Confirm](../core/confirm-cpi-c-1.md) call. (The *request_to_send_received* parameter is also returned to [Send_Data](../core/send-data-cpi-c-1.md) and other calls.)  
+ The [Request_To_Send](../HIS2010/request-to-send-cpi-c-2.md) call informs the partner TP (for which the conversation is in SEND state) that the local TP (for which the conversation is in RECEIVE state) wants to send data. This request is communicated to the partner TP through the *request_to_send_received* parameter of the [Confirm](../HIS2010/confirm-cpi-c-1.md) call. (The *request_to_send_received* parameter is also returned to [Send_Data](../HIS2010/send-data-cpi-c-1.md) and other calls.)  
   
- When the partner TP issues the [Prepare_To_Receive](../core/prepare-to-receive-cpi-c-2.md) call, the conversation state changes to RECEIVE for the partner TP, making it possible for the local TP to send data.  
+ When the partner TP issues the [Prepare_To_Receive](../HIS2010/prepare-to-receive-cpi-c-2.md) call, the conversation state changes to RECEIVE for the partner TP, making it possible for the local TP to send data.  
   
 > [!IMPORTANT]
->  Issuing [Request_To_Send](../core/request-to-send-cpi-c-2.md) does not change the state of the conversation. Upon receiving a request to send, the partner TP is not required to change the conversation state. It can ignore the request.
+>  Issuing [Request_To_Send](../HIS2010/request-to-send-cpi-c-2.md) does not change the state of the conversation. Upon receiving a request to send, the partner TP is not required to change the conversation state. It can ignore the request.

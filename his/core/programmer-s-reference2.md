@@ -24,4 +24,4 @@ This section of the Host Integration Server software development kit (SDK) provi
  [Application Integration Programmer's Reference](../core/application-integration-programmer-s-reference2.md)  
   
 ## See Also  
- [Development](../core/development1.md)
+ [Development](../HIS2010/development1.md)

@@ -18,12 +18,12 @@ The following table lists the calls the SNALink uses to obtain its configuration
   
 |**Call**|Description|  
 |--------------|-----------------|  
-|[SNAGetConfigValue](../core/snagetconfigvalue1.md)|Returns the value of a named configuration parameter.|  
-|[SNAGetSystemInfo](../core/snagetsysteminfo2.md)|Returns general information on the version of SNA server currently running, such as the release level, and the network operating system.|  
+|[SNAGetConfigValue](../HIS2010/snagetconfigvalue1.md)|Returns the value of a named configuration parameter.|  
+|[SNAGetSystemInfo](../HIS2010/snagetsysteminfo2.md)|Returns general information on the version of SNA server currently running, such as the release level, and the network operating system.|  
   
  If the return code from **SNAGetConfigValue** indicates that the specified configuration parameter is not available, or if the information returned is invalid, it is the SNALink's responsibility to decide what action to take. If appropriate, an error message could be logged.  
   
- It is strongly recommended that the SNALink read all required configuration parameters at initialization time (when [SNALinkInitialize](../core/snalinkinitialize1.md) is called by the Base). This safeguards against the configuration information changing while the link service is running.  
+ It is strongly recommended that the SNALink read all required configuration parameters at initialization time (when [SNALinkInitialize](../HIS2010/snalinkinitialize1.md) is called by the Base). This safeguards against the configuration information changing while the link service is running.  
   
 > [!NOTE]
 >  Standard calling conventions (WINAPI) are used for all entry points, including those provided by the IHV SNALink.

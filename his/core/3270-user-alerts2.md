@@ -16,7 +16,7 @@ manager: "anneta"
 # 3270 User Alerts
 The Host Integration Server 3270 emulation program can send 3270 user alerts to the local node on the system services control point (SSCP) connection. This enables the local node to route each alert to the appropriate host for the 3270 session on which it was sent.  
   
- To send a 3270 user alert, the application should send it as a [Data](../core/data2.md) message on the SSCP connection. The local node will recognize it as a 3270 user alert if both of the following are true:  
+ To send a 3270 user alert, the application should send it as a [Data](../HIS2010/data2.md) message on the SSCP connection. The local node will recognize it as a 3270 user alert if both of the following are true:  
   
 -   The function management header indicator (FMHI) bit in the application flag is set.  
   

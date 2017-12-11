@@ -30,4 +30,4 @@ class MsSnaStatus_ExtendedStatus : __ExtendedStatus
   
 ## See Also  
  [WmiSnaStatus WMI Provider Classes](../core/wmisnastatus-wmi-provider-classes1.md)   
- [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)

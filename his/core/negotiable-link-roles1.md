@@ -26,19 +26,19 @@ Sequence of messages for a peer connection where both ends are configured as neg
   
  The following summaries the rules that the SNALink must follow when supporting exchange identification (XID) exchange, and in particular XID role negotiation:  
   
--   If an XID is supplied in the [Open(LINK) Request](../core/open-link-request2.md), it must be transmitted as soon as the end-to-end connection is established for primary or negotiable links.  
+-   If an XID is supplied in the [Open(LINK) Request](../HIS2010/open-link-request2.md), it must be transmitted as soon as the end-to-end connection is established for primary or negotiable links.  
   
--   All XIDs received from the remote station must be passed to the local node in a [Request-Open-Station](../core/request-open-station1.md) message.  
+-   All XIDs received from the remote station must be passed to the local node in a [Request-Open-Station](../HIS2010/request-open-station1.md) message.  
   
--   An XID received from the local node in a [Send-XID](../core/send-xid2.md) message must be transmitted immediately.  
+-   An XID received from the local node in a [Send-XID](../HIS2010/send-xid2.md) message must be transmitted immediately.  
   
 -   XID transmissions must be retried until an XID is received from the remote station. For half-duplex links, the retry time-out should be randomized to prevent repeated XID clashes.  
   
 -   When a mode-setting command, such as set normal response mode (SNRM), QSM, or set asynchronous balanced mode extended (SABME), is received before the station has been opened, a Request-Open-Station must be sent to the local node with the Rcv-Set-Mode flag on.  
   
--   When the local node sends an [Open(STATION)](../core/open-station-2.md) message, the link should examine it to determine its link role (that is, primary or secondary).  
+-   When the local node sends an [Open(STATION)](../HIS2010/open-station-2.md) message, the link should examine it to determine its link role (that is, primary or secondary).  
   
--   A secondary station should send a [Station-Contacted](../core/station-contacted2.md) message after receiving and responding to the **Open(STATION)** message.  
+-   A secondary station should send a [Station-Contacted](../HIS2010/station-contacted2.md) message after receiving and responding to the **Open(STATION)** message.  
   
 -   For a primary station, the mode-setting command should be sent when the **Open(STATION)** message is received. The Station-Contacted message should be sent to the local node when this command has been acknowledged by the secondary station (for instance, an unnumbered acknowledgement (UA) received on an Synchronous Data Link Control (SDLC) link).  
   

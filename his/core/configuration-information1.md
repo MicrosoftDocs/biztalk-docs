@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Configuration Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -18,8 +18,8 @@ To obtain information about the Microsoft® Host Integration Server 3270 configu
   
 |Function|Description|  
 |--------------|-----------------|  
-|[sepdcrec](../core/sepdcrec2.md)|Returns a data structure that contains the 3270 user record for this user and the diagnostics record from the running configuration file.|  
-|[sepdgetinfo](../core/sepdgetinfo1.md)|Returns general information about the version of Host Integration Server currently running, such as the release level, the network operating system, and the directory of the running configuration file.|  
+|[sepdcrec](../HIS2010/sepdcrec2.md)|Returns a data structure that contains the 3270 user record for this user and the diagnostics record from the running configuration file.|  
+|[sepdgetinfo](../HIS2010/sepdgetinfo1.md)|Returns general information about the version of Host Integration Server currently running, such as the release level, the network operating system, and the directory of the running configuration file.|  
   
  If the return code from **sepdcrec** indicates that no 3270 user record was found for this user, the emulation program should terminate and not allow the user to use 3270 emulation. The Host Integration Server error message COM0438 is provided to log this error.  
   

@@ -53,6 +53,6 @@ int WINAPI GetFmiReturnCode (
   
 |Codes to be translated|Value for *errcode1*|Value for *errcode2*|  
 |----------------------------|--------------------------|--------------------------|  
-|The *errcode1* and *errcode2* values specified in [Error and Sense Codes](../core/error-and-sense-codes1.md) includes messages for**Open(SSCP) Response**, **Open(PLU) Confirm**, **Status-Acknowledge(Nack-2)**, **Status-Control(...) Nack2**, **Status-Error**, and **Appl-Data** messages with the system detected error indicator (SDI) set|Unchanged from message|Unchanged from message|  
+|The *errcode1* and *errcode2* values specified in [Error and Sense Codes](../HIS2010/error-and-sense-codes1.md) includes messages for**Open(SSCP) Response**, **Open(PLU) Confirm**, **Status-Acknowledge(Nack-2)**, **Status-Control(...) Nack2**, **Status-Error**, and **Appl-Data** messages with the system detected error indicator (SDI) set|Unchanged from message|Unchanged from message|  
 |The status and qualifier codes returned from a [Status-Session](../core/status-session2.md) message|*status*\*256 + *qualifier*|0xFFFF|  
 |The return code from **WinLUAGetLastInitStatus**|The return code|0xFFFF|

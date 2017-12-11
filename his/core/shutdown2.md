@@ -20,7 +20,7 @@ The shutdown protocol provides a means for the host application to stop the appl
   
  When the application decides it is ready to quiesce, it should issue a **Status-Control(SHUTC) Request** (again without **ACKRQD**) to indicate this transition. The local node will notify the host of this change by sending a **SHUTC** request. The host can continue sending normal flow outbound requests and can subsequently take one of the following actions:  
   
--   The host terminates the primary logical unit (PLU) session by sending an **UNBIND** request. The local node closes the PLU connection by sending a [Close(PLU) Request](../core/close-plu-request1.md) to the application. The system services control point (SSCP) session remains active.  
+-   The host terminates the primary logical unit (PLU) session by sending an **UNBIND** request. The local node closes the PLU connection by sending a [Close(PLU) Request](../HIS2010/close-plu-request1.md) to the application. The system services control point (SSCP) session remains active.  
   
 -   The host abandons the shutdown procedure by sending an **RELQ** request. The local node sends a **Status-Control(RELQ) Request** (with **ACKRQD**) to the application to indicate that it can now resume sending on the PLU session. **RELQ** is only supported on sessions using FM profile 4.  
   

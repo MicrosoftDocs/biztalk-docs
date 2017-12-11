@@ -16,4 +16,4 @@ manager: "anneta"
 # Sample TPs Illustrating Fundamental Concepts
 The source code for TPSETUP (INSTALL.C) can be compiled to work in the Microsoft Windows environment.  
   
- For information about TPSETUP and about the sample TPs, see [APPC Samples](../core/appc-samples.md).
+ For information about TPSETUP and about the sample TPs, see [APPC Samples](../HIS2010/appc-samples.md).

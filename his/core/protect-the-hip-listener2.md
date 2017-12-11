@@ -32,4 +32,4 @@ To prevent an attacker from spoofing their identity, tampering with the data, or
   
 ## See Also  
  [Transaction Integrator Threat Mitigation](../core/transaction-integrator-threat-mitigation2.md)   
- [Services Account Screen](../core/services-account-screen2.md)
+ [Services Account Screen](../HIS2010/services-account-screen2.md)

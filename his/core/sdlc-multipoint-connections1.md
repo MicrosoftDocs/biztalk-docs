@@ -1,4 +1,4 @@
-﻿---
+---
 title: "SDLC Multipoint Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -31,17 +31,17 @@ Primary station with three secondary stations
   
 -   A STATION LPI connection for each active secondary station.  
   
- Because the exchange identification (XID) exchange is carried out using the single LINK LPI connection, the [Request-Open-Station](../core/request-open-station1.md) and [Send-XID](../core/send-xid2.md) messages always specify the station address of the secondary station that the XID has arrived from or is going to. Note that no XID is supplied on the [Open(LINK) Request](../core/open-link-request2.md).  
+ Because the exchange identification (XID) exchange is carried out using the single LINK LPI connection, the [Request-Open-Station](../HIS2010/request-open-station1.md) and [Send-XID](../HIS2010/send-xid2.md) messages always specify the station address of the secondary station that the XID has arrived from or is going to. Note that no XID is supplied on the [Open(LINK) Request](../HIS2010/open-link-request2.md).  
   
  Each STATION LPI connection has different values of I, the index. After the station has been activated, data messages flow on the STATION LPI connection rather than the LINK LPI connection.  
   
- If the XID exchange fails because the secondary is failing to reply to the XID, the SNALink generates a special variant of link [Outage](../core/outage1.md) message. Ideally, the SNALink would give a station Outage message, but this is not possible because the STATION LPI connection is not yet open. Instead, the SNALink generates a link Outage message with code 0xA0 and a subqualifier that is the SDLC address of the station.  
+ If the XID exchange fails because the secondary is failing to reply to the XID, the SNALink generates a special variant of link [Outage](../HIS2010/outage1.md) message. Ideally, the SNALink would give a station Outage message, but this is not possible because the STATION LPI connection is not yet open. Instead, the SNALink generates a link Outage message with code 0xA0 and a subqualifier that is the SDLC address of the station.  
   
- When the stations are activated on a multipoint link, the majority of messages flow across the STATION LPI connections. If a connection to a particular secondary station is to be closed (because the operator deactivates it, for instance), the node issues a [Close(STATION) Request](../core/close-station-request1.md). The SNALink replies with a [Close(STATION) Response](../core/close-station-response2.md) to the node and sends a Discontact (DISC) frame to the secondary station.  
+ When the stations are activated on a multipoint link, the majority of messages flow across the STATION LPI connections. If a connection to a particular secondary station is to be closed (because the operator deactivates it, for instance), the node issues a [Close(STATION) Request](../HIS2010/close-station-request1.md). The SNALink replies with a [Close(STATION) Response](../HIS2010/close-station-response2.md) to the node and sends a Discontact (DISC) frame to the secondary station.  
   
  The SNALink can generate both station and link Outage messages. If the problem only affects a particular station, such as not responding to polls, the link generates a station Outage message and the node closes the station with a **Close(STATION) Request**. The SNALink responds with a **Close(STATION) Response**.  
   
- If the problem affects the link as a whole, such as the line being disconnected from the primary SDLC adapter, the SNALink generates a link Outage message and the node sends a [Close(LINK) Request](../core/close-link-request2.md). The SNALink responds with a [Close(LINK) Response](../core/close-link-response1.md).  
+ If the problem affects the link as a whole, such as the line being disconnected from the primary SDLC adapter, the SNALink generates a link Outage message and the node sends a [Close(LINK) Request](../HIS2010/close-link-request2.md). The SNALink responds with a [Close(LINK) Response](../HIS2010/close-link-response1.md).  
   
  Whenever the node receives a **Close(STATION) Response**, it checks to see if any stations are still active on the multipoint link. If not, a **Close(LINK) Request** is sent. The SNALink responds with a **Close(LINK) Response**. The following figure shows the message flows for outage processing. It shows a multipoint connection with two secondary stations (the full XID exchange is not shown).  
   

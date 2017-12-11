@@ -16,7 +16,7 @@ manager: "anneta"
 # Configuring Your Enterprise
 [Making and Testing a Connection](../core/making-and-testing-a-connection2.md) provides the basic steps to configure a link service, make a connection, create logical units (LU), and log on to a host computer; this section follows a similar format and provides the concepts and procedures for configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] in your enterprise.  
   
- For information about the IP-DLC Link Service, see [IP-DLC Link Service](../core/ip-dlc-link-service1.md).  
+ For information about the IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
   
 ## In This Section  
  [Creating and Configuring Link Services](../core/creating-and-configuring-link-services2.md)  

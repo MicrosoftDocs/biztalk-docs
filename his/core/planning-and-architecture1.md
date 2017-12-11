@@ -28,4 +28,4 @@ This section summarizes the key points of how to plan a [!INCLUDE[hisHostIntServ
  [Glossary](../core/glossary2.md)  
   
 ## See Also  
- [Microsoft Host Integration Server](../core/microsoft-host-integration-server2.md)
+ [Microsoft Host Integration Server](../HIS2010/microsoft-host-integration-server2.md)

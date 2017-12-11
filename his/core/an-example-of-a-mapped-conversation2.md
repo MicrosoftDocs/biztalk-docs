@@ -38,33 +38,33 @@ For background information about mapped conversations, see [Basic and Mapped Con
 ## Verbs for Starting a Mapped Conversation  
  To start a mapped conversation, the invoking TP issues the following verbs:  
   
--   [TP_STARTED](../core/tp-started1.md), which notifies APPC that the local TP is beginning a conversation.  
+-   [TP_STARTED](../HIS2010/tp-started1.md), which notifies APPC that the local TP is beginning a conversation.  
   
--   [MC_ALLOCATE](../core/mc-allocate1.md), which requests that APPC establish a conversation between the local TP and the partner TP.  
+-   [MC_ALLOCATE](../HIS2010/mc-allocate1.md), which requests that APPC establish a conversation between the local TP and the partner TP.  
   
- The invokable TP issues [RECEIVE_ALLOCATE](../core/receive-allocate2.md), which informs APPC that it is ready to begin a conversation with the invoking TP.  
+ The invokable TP issues [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md), which informs APPC that it is ready to begin a conversation with the invoking TP.  
   
 ## Verbs for Sending Data in a Mapped Conversation  
- [MC_SEND_DATA](../core/mc-send-data2.md) puts one data record (a record containing application data to be transmitted) in the send buffer of the local LU. Data transmission to the partner TP does not happen until one of the following events occurs:  
+ [MC_SEND_DATA](../HIS2010/mc-send-data2.md) puts one data record (a record containing application data to be transmitted) in the send buffer of the local LU. Data transmission to the partner TP does not happen until one of the following events occurs:  
   
 -   The send buffer fills up.  
   
 -   The sending TP issues a verb that forces APPC to flush the buffer and send data to the partner TP.  
   
- In the preceding example, the send buffer contains both the data record and the [MC_ALLOCATE](../core/mc-allocate1.md) request (which precedes the data record). Therefore, in the example, [MC_DEALLOCATE](../core/mc-deallocate1.md) flushes the buffer, sending the **MC_ALLOCATE** request and data record to the partner TP. Other verbs that flush the buffer are [MC_CONFIRM](../core/mc-confirm1.md) and [MC_FLUSH](../core/mc-flush2.md).  
+ In the preceding example, the send buffer contains both the data record and the [MC_ALLOCATE](../HIS2010/mc-allocate1.md) request (which precedes the data record). Therefore, in the example, [MC_DEALLOCATE](../HIS2010/mc-deallocate1.md) flushes the buffer, sending the **MC_ALLOCATE** request and data record to the partner TP. Other verbs that flush the buffer are [MC_CONFIRM](../HIS2010/mc-confirm1.md) and [MC_FLUSH](../HIS2010/mc-flush2.md).  
   
 ## Verbs for Receiving Data in a Mapped Conversation  
- The [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait1.md) verb allows a TP to receive a data record or status information. If no data is currently available, the TP waits for data to arrive. For Windows systems, issue **MC_RECEIVE_AND_WAIT** in conjunction with [WinAsyncAPPC](../core/winasyncappc2.md) rather than the blocking version of this call.  
+ The [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md) verb allows a TP to receive a data record or status information. If no data is currently available, the TP waits for data to arrive. For Windows systems, issue **MC_RECEIVE_AND_WAIT** in conjunction with [WinAsyncAPPC](../HIS2010/winasyncappc2.md) rather than the blocking version of this call.  
   
  In the example, the receiving TP issues **MC_RECEIVE_AND_WAIT** twice. The first time, it issues the verb to receive data. When it finishes receiving the complete data record (**what_rcvd** is AP_DATA_COMPLETE), it issues **MC_RECEIVE_AND_WAIT** again to receive a return code. The return code AP_DEALLOC_NORMAL indicates that the conversation has been deallocated.  
   
 > [!NOTE]
->  [MC_RECEIVE_IMMEDIATE](../core/mc-receive-immediate1.md) performs the same function as **MC_RECEIVE_AND_WAIT**, except that it does not wait if data is not currently available from the partner TP. Instead, it returns a no-data-available response to the calling TP.  
+>  [MC_RECEIVE_IMMEDIATE](../HIS2010/mc-receive-immediate1.md) performs the same function as **MC_RECEIVE_AND_WAIT**, except that it does not wait if data is not currently available from the partner TP. Instead, it returns a no-data-available response to the calling TP.  
   
 ## Verbs for Ending a Mapped Conversation  
- To end a mapped conversation, one of the TPs issues [MC_DEALLOCATE](../core/mc-deallocate1.md), which causes APPC to deallocate the conversation between the two TPs.  
+ To end a mapped conversation, one of the TPs issues [MC_DEALLOCATE](../HIS2010/mc-deallocate1.md), which causes APPC to deallocate the conversation between the two TPs.  
   
- After the conversation has been deallocated, both TPs issue [TP_ENDED](../core/tp-ended2.md).  
+ After the conversation has been deallocated, both TPs issue [TP_ENDED](../HIS2010/tp-ended2.md).  
   
 > [!NOTE]
 >  A TP can participate in multiple conversations simultaneously. In this case, the TP issues **TP_ENDED** after all conversations have been deallocated.

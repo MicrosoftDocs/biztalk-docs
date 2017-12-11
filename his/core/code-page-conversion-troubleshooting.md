@@ -18,11 +18,11 @@ IBM host systems are designed to utilize Extended Binary Coded Decimal Interchan
   
  [OLE DB Provider for DB2](../core/code-page-conversion-troubleshooting.md#oledb)  
   
- For more information on SNANLS, see [SNA Internationalization Programmer's Reference](../core/sna-internationalization-programmer-s-reference1.md) in the [Network Integration Programmer's Reference](../core/network-integration-programmer-s-reference1.md).  
+ For more information on SNANLS, see [SNA Internationalization Programmer's Reference](../HIS2010/sna-internationalization-programmer-s-reference1.md) in the [Network Integration Programmer's Reference](../HIS2010/network-integration-programmer-s-reference1.md).  
   
- For more information on configuring code page conversion when using the data providers for DB2, see [Data Source Wizard (DB2)](../core/data-source-wizard-db2-1.md) and [Data Links (DB2)](../core/data-links-db2-1.md) in [Data Integration (Configuration)](../core/data-integration-configuration-1.md).  
+ For more information on configuring code page conversion when using the data providers for DB2, see [Data Source Wizard (DB2)](../HIS2010/data-source-wizard-db2-1.md) and [Data Links (DB2)](../HIS2010/data-links-db2-1.md) in [Data Integration (Configuration)](../HIS2010/data-integration-configuration-1.md).  
   
- For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](../core/data-source-wizard-host-files-1.md) and [Data Links (Host Files)](../core/data-links-host-files.md) in [Data Integration (Configuration)](../core/data-integration-configuration-1.md).  
+ For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](../HIS2010/data-source-wizard-host-files-1.md) and [Data Links (Host Files)](../HIS2010/data-links-host-files.md) in [Data Integration (Configuration)](../HIS2010/data-integration-configuration-1.md).  
   
 ##  <a name="oledb"></a> OLE DB Provider for DB2  
   

@@ -27,7 +27,7 @@ Although [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-
 3.  Select a user (or group) from the list, and click **OK**.  
   
 ## See Also  
- [IP-DLC Link Service](../core/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
  [How to Assign LUs to Configured Users](../core/how-to-assign-lus-to-configured-users2.md)   
  [How to Assign Remote APPC LUs to Configured Users](../core/how-to-assign-remote-appc-lus-to-configured-users1.md)   
  [Step 4 (A) Adding and Assigning Users](../core/step-4-a-adding-and-assigning-users1.md)

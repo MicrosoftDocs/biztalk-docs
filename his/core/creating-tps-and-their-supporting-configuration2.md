@@ -32,7 +32,7 @@ The following procedure describes how to create transaction programs (TPs) and s
   
      For autostarted invokable TPs, it is recommended that you use the sample TP configuration program, TPSETUP, for this step. When you write an installation program for autostarted invokable TPs, it is recommended that you include code similar to TPSETUP.  
   
-     For information about registry or environment variables, see [Configuring Invokable TPs](../core/configuring-invokable-tps1.md). For information about TPSETUP, see [APPC Samples](../core/appc-samples.md).  
+     For information about registry or environment variables, see [Configuring Invokable TPs](../core/configuring-invokable-tps1.md). For information about TPSETUP, see [APPC Samples](../HIS2010/appc-samples.md).  
   
 5.  If the invokable TP is operator-started, start it, or arrange for it to be started when the computer is restarted and then restart the computer.  
   

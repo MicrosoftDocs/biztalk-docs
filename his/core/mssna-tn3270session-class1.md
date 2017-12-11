@@ -1,4 +1,4 @@
-﻿---
+---
 title: "MsSna_TN3270Session Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -146,4 +146,4 @@ class MsSna_TN3270Session : MsSna_Config
   
 ## See Also  
  [WMISNA WMI Provider Classes](../core/wmisna-wmi-provider-classes2.md)   
- [Administration and Management Programmer's Guide](../core/administration-and-management-programmer-s-guide1.md)
+ [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md)

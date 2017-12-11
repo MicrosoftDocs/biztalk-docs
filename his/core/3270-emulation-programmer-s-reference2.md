@@ -16,7 +16,7 @@ manager: "anneta"
 # 3270 Emulation Programmer&#39;s Reference
 This section contains reference material for the 3270 Emulator.  
   
- For general information about programming for the 3270 Emulator, see the [3270 Emulation Programmer's Guide](../core/3270-emulation-programmer-s-guide2.md) section of the SDK.  
+ For general information about programming for the 3270 Emulator, see the [3270 Emulation Programmer's Guide](../HIS2010/3270-emulation-programmer-s-guide2.md) section of the SDK.  
   
 ## In This Section  
  [DL-BASE/DMOD Entry Points](../core/dl-base-dmod-entry-points1.md)  

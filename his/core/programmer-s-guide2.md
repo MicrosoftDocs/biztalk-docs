@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Programmer&#39;s Guide2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -26,4 +26,4 @@ Host Integration Server provides comprehensive bidirectional services for integr
  [Application Integration Programmer’s Guide](../core/application-integration-programmer’s-guide2.md)  
   
 ## See Also  
- [Development](../core/development1.md)
+ [Development](../HIS2010/development1.md)

@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Sync Point Session Deactivation
-A Sync Point implementation needs to determine whether it has lost connectivity to a partner when establishing Sync Point conversations so that it can know whether or not to resynchronize. To obtain this information, Host Integration Server provides a new APPC verb, [GET_LU_STATUS](../core/get-lu-status1.md) that reports the status of a particular remote LU. The information returned by this verb is as follows:  
+A Sync Point implementation needs to determine whether it has lost connectivity to a partner when establishing Sync Point conversations so that it can know whether or not to resynchronize. To obtain this information, Host Integration Server provides a new APPC verb, [GET_LU_STATUS](../HIS2010/get-lu-status1.md) that reports the status of a particular remote LU. The information returned by this verb is as follows:  
   
 -   Current number of active LU 6.2 sessions between the remote LU and the TP's local LU.  
   

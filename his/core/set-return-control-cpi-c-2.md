@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Set_Return_Control (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -64,6 +64,6 @@ CM_ENTRY Set_Return_Control( 
 ## Remarks  
  This call overrides the default return control established by [Initialize_Conversation](../core/initialize-conversation-cpi-c-1.md). By default, control is returned when the session is allocated. This call cannot be issued after the [Allocate](../core/allocate-cpi-c-2.md) call has been issued.  
   
- For further information about sessions, see [Writing CPI-C Applications](../core/writing-cpi-c-applications2.md).  
+ For further information about sessions, see [Writing CPI-C Applications](../HIS2010/writing-cpi-c-applications2.md).  
   
  If the LU is unable to allocate a session, the notification is returned on the **Allocate** call.
