@@ -50,12 +50,13 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
     |--------------|----------------|  
     |**Track Message Bodies - Request message before port processing**|Select this check box to enable you to save and track message content before the message is received. **Note:**  You must enable message body pipeline tracking to successfully track the response message before port processing.|  
     |**Track Message Bodies - Request message after port processing**|Select this check box to enable you to save and track message content after the message is received.|  
-    |||  
-    |||  
-    |**Track Message Properties - Request message before port processing**|Select this check box to track the promoted properties of an inbound message.|  
+    |**Track Message Bodies – Response message before port processing**|Select this check box to enable you to save and track message content before the message is sent. This check box is available only for solicit-response send ports.|    
+    |**Track Message Bodies – Response message after port processing**|Select this check box to enable you to save and track message content after the message is sent. This check box is available only for solicit-response send ports.|  
+    |||
+    |**Track Message Bodies – Response message after port processing**|Select this check box to track the promoted properties of an inbound message.|  
     |**Track Message Properties - Request message after port processing**|Select this check box if you want to track the promoted properties of an outbound message.|  
-    |||  
-    |||  
+    |**Track Message Properties – Response message before port processing**|Select this check box to save and track message properties before the message is sent. This check box is available only for solicit-response send ports.|   
+    |**Track Message Properties – Response message after port processing**|Select this check box to save and track properties after the message is sent. This check box is available only for solicit-response send ports.|   
   
 ## See Also  
  [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)
