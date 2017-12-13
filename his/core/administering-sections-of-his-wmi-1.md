@@ -18,7 +18,7 @@ manager: "anneta"
   
 -   Rolling out, configuring, and restoring services  
   
-     The [SNA Provider WMI Programmer's Reference](../HIS2010/sna-provider-wmi-programmer-s-reference1.md) and [SNA Trace Provider WMI Programmer's Reference](../HIS2010/sna-trace-provider-wmi-programmer’s-reference2.md) providers expose information regarding the Setup and rollout procedures for [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. You can use instances of classes such as **MsSna_LinkService** to set up and administer link services, and the classes derived from **MsSna_Config** to configure your system. For more information, see [Configuring Host Integration Server with WMI](../core/configuring-host-integration-server-with-wmi2.md).  
+     The [SNA Provider WMI Programmer's Reference](sna-provider-wmi-programmer-s-reference2.md) and [SNA Trace Provider WMI Programmer's Reference](sna-trace-provider-wmi-programmer’s-reference1.md) providers expose information regarding the Setup and rollout procedures for [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. You can use instances of classes such as **MsSna_LinkService** to set up and administer link services, and the classes derived from **MsSna_Config** to configure your system. For more information, see [Configuring Host Integration Server with WMI](../core/configuring-host-integration-server-with-wmi2.md).  
   
 -   Starting and stopping services and connections  
   

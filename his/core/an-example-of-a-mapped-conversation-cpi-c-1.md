@@ -1,5 +1,5 @@
 ---
-title: "An Example of a Mapped Conversation (CPI-C)1 | Microsoft Docs"
+title: "Mapped Conversation (CPI-C) Example | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -33,14 +33,14 @@ The following example of a mapped conversation shows the Common Programming Inte
 ## Calls for Starting a Mapped Conversation  
  To start a conversation, the invoking transaction program (TP) issues the following calls:  
   
--   [Initialize_Conversation](../HIS2010/initialize-conversation-cpi-c-2.md), which requests CPI-C to set the values defining the characteristics of the conversation. The **Initialize_Conversation** call specifies a symbolic destination name that is associated with an entry in a side information table in memory. The side information specifies partner TP, partner LU, mode, security, and so on.  
+-   [Initialize_Conversation](initialize-conversation-cpi-c-1.md), which requests CPI-C to set the values defining the characteristics of the conversation. The **Initialize_Conversation** call specifies a symbolic destination name that is associated with an entry in a side information table in memory. The side information specifies partner TP, partner LU, mode, security, and so on.  
   
--   [Allocate](../HIS2010/allocate-cpi-c-1.md), which requests that CPI-C establish a conversation between the invoking TP and the invokable TP.  
+-   [Allocate](allocate-cpi-c-2.md), which requests that CPI-C establish a conversation between the invoking TP and the invokable TP.  
   
- The invokable TP issues the [Accept_Conversation](../HIS2010/accept-conversation-cpi-c-1.md) call, which informs CPI-C that it is ready to begin a conversation with the invoking TP.  
+ The invokable TP issues the [Accept_Conversation](accept-conversation-cpi-c-2.md) call, which informs CPI-C that it is ready to begin a conversation with the invoking TP.  
   
 ## Calls for Sending Data in a Mapped Conversation  
- The [Send_Data](../HIS2010/send-data-cpi-c-1.md) call puts one data record (a record containing application data to be transmitted) in the send buffer of the local logical unit (LU). Data transmission to the partner TP does not happen until one of the following events occurs:  
+ The [Send_Data](send-data-cpi-c-2.md) call puts one data record (a record containing application data to be transmitted) in the send buffer of the local logical unit (LU). Data transmission to the partner TP does not happen until one of the following events occurs:  
   
 -   The send buffer fills up.  
   
@@ -48,12 +48,12 @@ The following example of a mapped conversation shows the Common Programming Inte
   
  In addition to the data record, the send buffer also contains the allocation request (which precedes the data record).  
   
- In the preceding example, [Deallocate](../HIS2010/deallocate-cpi-c-2.md) flushes the send buffer, sending the allocation request and data to the partner TP. Other calls that flush the buffer are [Confirm](../HIS2010/confirm-cpi-c-1.md) and [Flush](../HIS2010/flush-cpi-c-1.md).  
+ In the preceding example, [Deallocate](deallocate-cpi-c-1.md) flushes the send buffer, sending the allocation request and data to the partner TP. Other calls that flush the buffer are [Confirm](confirm-cpi-c-2.md) and [Flush](flush-cpi-c-2.md).  
   
 ## Calls for Receiving Data in a Mapped Conversation  
  The **Receive** call receives the data record and status information from the partner TP. If no data or status information is currently available, the local TP, by default, waits for data to arrive.  
   
- The *data_received* parameter of [Receive](../HIS2010/receive-cpi-c-1.md) tells the program whether it received data and if so, whether or not the data is complete.  
+ The *data_received* parameter of [Receive](receive-cpi-c-2.md) tells the program whether it received data and if so, whether or not the data is complete.  
   
 ## Calls for Ending a Mapped Conversation  
- To end a conversation, one of the TPs issues [Deallocate](../HIS2010/deallocate-cpi-c-2.md), which causes CPI-C to deallocate the conversation between the two TPs.
+ To end a conversation, one of the TPs issues [Deallocate](deallocate-cpi-c-1.md), which causes CPI-C to deallocate the conversation between the two TPs.

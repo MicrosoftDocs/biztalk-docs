@@ -2559,7 +2559,7 @@
 # [Remote Environments Node](remote-environments-node2.md)
 # [Basic and Mapped Conversations Compared](basic-and-mapped-conversations-compared2.md)
 # [sepdgetinfo](sepdgetinfo2.md)
-# [Administering Side Information]](administering-side-information]2.md)
+# [Administering Side Information](administering-side-information2.md)
 # [Link Alert Format and Common Subvectors](link-alert-format-and-common-subvectors2.md)
 # [Viewing Connection Properties](viewing-connection-properties2.md)
 # [Configuring CICS for TCP/IP](configuring-cics-for-tcp-ip2.md)

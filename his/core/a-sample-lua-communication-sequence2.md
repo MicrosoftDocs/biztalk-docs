@@ -1,5 +1,5 @@
 ---
-title: "A Sample LUA Communication Sequence2 | Microsoft Docs"
+title: "Sample LUA Communication Sequence | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -22,7 +22,7 @@ SNA components required for LUA communications
   
  In this example, the application performs the following tasks:  
   
--   Issues an [RUI_INIT](../HIS2010/rui-init2.md) verb to establish the system services control point (SSCP) session. (**RUI_INIT** does not complete until the LUA application has received an ACTLU message from the host and sent a positive response. However, these messages are handled by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] and are not exposed to the LUA application.)  
+-   Issues an [RUI_INIT](rui-init1.md) verb to establish the system services control point (SSCP) session. (**RUI_INIT** does not complete until the LUA application has received an ACTLU message from the host and sent a positive response. However, these messages are handled by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] and are not exposed to the LUA application.)  
   
 -   Sends an INITSELF message to the SSCP to request a BIND and reads the response.  
   
@@ -36,7 +36,7 @@ SNA components required for LUA communications
   
 -   Reads an UNBIND message from the host and writes the response. This terminates the LU session.  
   
--   Issues [RUI_TERM](../HIS2010/rui-term1.md) to terminate the SSCP session. (Host Integration Server sends a NOTIFY message to the host and waits for a positive response. However, these messages are handled by Host Integration Server and are not exposed to the LUA application.)  
+-   Issues [RUI_TERM](rui-term2.md) to terminate the SSCP session. (Host Integration Server sends a NOTIFY message to the host and waits for a positive response. However, these messages are handled by Host Integration Server and are not exposed to the LUA application.)  
   
 ## Communication Sequence Using SLI Verbs  
  ![](../core/media/lua1c.gif "lua1c")  
@@ -55,6 +55,6 @@ Communication sequence using SLI verbs
     > [!NOTE]
     >  INITSELF, BIND, and SDT messages are handled by Host Integration Server if the application is using SLI. The **SLI_OPEN** does not return until Host Integration Server has sent an SDT and response.  
   
--   Issues [SLI_SEND](../HIS2010/sli-send1.md) and [SLI_RECEIVE](../HIS2010/sli-receive1.md) to transfer data, SNA commands, or SNA responses between the host and the application.  
+-   Issues [SLI_SEND](sli-send2.md) and [SLI_RECEIVE](sli-receive2.md) to transfer data, SNA commands, or SNA responses between the host and the application.  
   
--   Issues [SLI_CLOSE](../HIS2010/sli-close2.md) to terminate the SSCP session. (Host Integration Server sends a NOTIFY message to the host and waits for a positive response. However, these messages are handled by Host Integration Server and are not exposed to the LUA application.)
+-   Issues [SLI_CLOSE](sli-close1.md) to terminate the SSCP session. (Host Integration Server sends a NOTIFY message to the host and waits for a positive response. However, these messages are handled by Host Integration Server and are not exposed to the LUA application.)

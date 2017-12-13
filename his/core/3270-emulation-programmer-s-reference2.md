@@ -1,5 +1,5 @@
 ---
-title: "3270 Emulation Programmer&#39;s Reference2 | Microsoft Docs"
+title: "3270 Emulation Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,12 +13,14 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# 3270 Emulation Programmer&#39;s Reference
+# 3270 Emulation Programmer's Reference
+
+## Overview
 This section contains reference material for the 3270 Emulator.  
   
- For general information about programming for the 3270 Emulator, see the [3270 Emulation Programmer's Guide](../HIS2010/3270-emulation-programmer-s-guide2.md) section of the SDK.  
+ For general information about programming for the 3270 Emulator, see the [3270 Emulation Programmer's Guide](3270-emulation-programmer-s-guide.md) section of the SDK.  
   
-## In This Section  
+## Next steps
  [DL-BASE/DMOD Entry Points](../core/dl-base-dmod-entry-points1.md)  
   
  [FMI Message Formats](../core/fmi-message-formats2.md)  

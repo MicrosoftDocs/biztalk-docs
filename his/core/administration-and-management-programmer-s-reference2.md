@@ -1,5 +1,5 @@
 ---
-title: "Administration and Management Programmer&#39;s Reference2 | Microsoft Docs"
+title: "Administration and Management Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,14 +13,12 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Administration and Management Programmer&#39;s Reference
+# Administration and Management Programmer's Reference
 [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] included the following Windows Management Interface (WMI) providers to enable scripted management.  
   
- For general information about programming for WMI providers, see [Administration and Management Programmer's Guide](../HIS2010/administration-and-management-programmer-s-guide1.md) section of the SDK.  
-  
- For sample code illustrating WMI providers, see [Administration and Management Samples](../HIS2010/administration-and-management-samples.md).  
-  
-## In This Section  
+ For general information about programming for WMI providers, see [Administration and Management Programmer's Guide](administration-and-management-programmer-s-guide2.md) section of the SDK.  
+    
+## Next steps
  [Configuration Provider WMI Programmer's Reference](../core/configuration-provider-wmi-programmer-s-reference1.md)  
   
  [IPC-DLC WMI Programmer's Reference](../core/ipc-dlc-wmi-programmer-s-reference1.md)  
