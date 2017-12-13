@@ -11,8 +11,7 @@
                 "README.md",
                 "LICENSE",
                 "LICENSE-CODE",
-                 "**/_themes/**",
-                "**/_themes.pdf/**",
+                 "**/_themes/**",                
                 "ThirdPartyNotices"
             ]
         }],
@@ -24,6 +23,7 @@
             ],
             "exclude": [
                 "**/obj/**",
+                 "**/_themes/**",
                 "**/includes/**"
             ]
         }],
