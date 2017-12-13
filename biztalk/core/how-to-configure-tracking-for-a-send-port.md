@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Configure Tracking for a Send Port
+# Configure send port tracking in BizTalk Server
 Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure tracking for a send port, such as options to view message bodies and promoted properties. This helps you monitor the health of your BizTalk implementation and identify any bottlenecks. The tracking settings that you configure apply to all of the instances of the send port.  
   
  For more information about the message event and service instance tracking features of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see [Viewing Tracked Message and Instance Data](../core/viewing-tracked-message-and-instance-data.md)  
@@ -40,7 +40,6 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
     |**Track Message Bodies - Request message after port processing**|Saves and tracks message content after the message is received.|  
     |**Track Message Bodies – Response message before port processing**|Saves and tracks message content before the message is sent. Only available for solicit-response send ports.|    
     |**Track Message Bodies – Response message after port processing**|Saves and tracks message content after the message is sent. Only available for solicit-response send ports.|  
-    |||
     |**Track Message Bodies – Response message after port processing**|Tracks the promoted properties of an inbound message.|  
     |**Track Message Properties - Request message after port processing**|Tracks the promoted properties of an outbound message.|  
     |**Track Message Properties – Response message before port processing**|Saves and tracks message properties before the message is sent. Only available for solicit-response send ports.|   
