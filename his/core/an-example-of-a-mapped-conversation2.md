@@ -1,5 +1,5 @@
 ---
-title: "An Example of a Mapped Conversation2 | Microsoft Docs"
+title: "Mapped Conversation Example | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -38,14 +38,14 @@ For background information about mapped conversations, see [Basic and Mapped Con
 ## Verbs for Starting a Mapped Conversation  
  To start a mapped conversation, the invoking TP issues the following verbs:  
   
--   [TP_STARTED](../HIS2010/tp-started1.md), which notifies APPC that the local TP is beginning a conversation.  
+-   [TP_STARTED](tp-started2.md), which notifies APPC that the local TP is beginning a conversation.  
   
--   [MC_ALLOCATE](../HIS2010/mc-allocate1.md), which requests that APPC establish a conversation between the local TP and the partner TP.  
+-   [MC_ALLOCATE](mc-allocate2.md), which requests that APPC establish a conversation between the local TP and the partner TP.  
   
- The invokable TP issues [RECEIVE_ALLOCATE](../HIS2010/receive-allocate2.md), which informs APPC that it is ready to begin a conversation with the invoking TP.  
+ The invokable TP issues [RECEIVE_ALLOCATE](receive-allocate1.md), which informs APPC that it is ready to begin a conversation with the invoking TP.  
   
 ## Verbs for Sending Data in a Mapped Conversation  
- [MC_SEND_DATA](../HIS2010/mc-send-data2.md) puts one data record (a record containing application data to be transmitted) in the send buffer of the local LU. Data transmission to the partner TP does not happen until one of the following events occurs:  
+ [MC_SEND_DATA](mc-send-data1.md) puts one data record (a record containing application data to be transmitted) in the send buffer of the local LU. Data transmission to the partner TP does not happen until one of the following events occurs:  
   
 -   The send buffer fills up.  
   

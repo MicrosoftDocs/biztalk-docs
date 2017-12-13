@@ -1,5 +1,5 @@
 ---
-title: "3270 Emulation Programmer&#39;s Guide1 | Microsoft Docs"
+title: "3270 Emulation Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,7 +13,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# 3270 Emulation Programmer&#39;s Guide
+# 3270 Emulation Programmer's Guide
+
+## Overview
 This section provides information for independent software vendors who are developing their own 3270 Emulator client software to work with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
   
  To use this section of the guide effectively, you should be familiar with:  
@@ -34,9 +36,9 @@ This section provides information for independent software vendors who are devel
   
 -   TCP/IP  
   
- For API references and other technical information about the 3270 Emulator, see the [3270 Emulator Programmer's Reference](../HIS2010/3270-emulation-programmer-s-reference1.md) section of the SDK.  
+ For API references and other technical information about the 3270 Emulator, see the [3270 Emulator Programmer's Reference](3270-emulation-programmer-s-reference2.md) section of the SDK.  
   
-## In This Section  
+## Next steps
   
 -   [Host Integration Server Concepts for 3270 Client Access](../core/host-integration-server-concepts-for-3270-client-access2.md)  
   

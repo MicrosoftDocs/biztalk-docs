@@ -1,5 +1,5 @@
 ---
-title: "Additional Sync Point Return Codes2 | Microsoft Docs"
+title: "Sync Point Return Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -24,30 +24,30 @@ When a remote transaction program (TP) issues a **BACKOUT** verb, the back out i
   
  The verbs on which this new return code can be returned are:  
   
- [CONFIRM](../HIS2010/confirm1.md)  
+ [CONFIRM](confirm2.md)  
   
- [MC_CONFIRM](../HIS2010/mc-confirm1.md)  
+ [MC_CONFIRM](mc-confirm2.md)  
   
- [MC_PREPARE_TO_RECEIVE](../HIS2010/mc-prepare-to-receive2.md)  
+ [MC_PREPARE_TO_RECEIVE](mc-prepare-to-receive1.md)  
   
- [MC_RECEIVE_AND_POST](../HIS2010/mc-receive-and-post1.md)  
+ [MC_RECEIVE_AND_POST](mc-receive-and-post2.md)  
   
- [MC_RECEIVE_AND_WAIT](../HIS2010/mc-receive-and-wait1.md)  
+ [MC_RECEIVE_AND_WAIT](mc-receive-and-wait2.md)  
   
- [MC_RECEIVE_IMMEDIATE](../HIS2010/mc-receive-immediate1.md)  
+ [MC_RECEIVE_IMMEDIATE](mc-receive-immediate2.md)  
   
- [MC_SEND_DATA](../HIS2010/mc-send-data2.md)  
+ [MC_SEND_DATA](mc-send-data1.md)  
   
- [MC_SEND_ERROR](../HIS2010/mc-send-error1.md)  
+ [MC_SEND_ERROR](mc-send-error2.md)  
   
- [PREPARE_TO_RECEIVE](../HIS2010/prepare-to-receive1.md)  
+ [PREPARE_TO_RECEIVE](prepare-to-receive2.md)  
   
- [RECEIVE_AND_POST](../HIS2010/receive-and-post2.md)  
+ [RECEIVE_AND_POST](receive-and-post1.md)  
   
- [RECEIVE_AND_WAIT](../HIS2010/receive-and-wait1.md)  
+ [RECEIVE_AND_WAIT](receive-and-wait2.md)  
   
- [RECEIVE_IMMEDIATE](../HIS2010/receive-immediate2.md)  
+ [RECEIVE_IMMEDIATE](receive-immediate1.md)  
   
- [SEND_DATA](../HIS2010/send-data2.md)  
+ [SEND_DATA](send-data1.md)  
   
- [SEND_ERROR](../HIS2010/send-error1.md)
+ [SEND_ERROR](send-error2.md)

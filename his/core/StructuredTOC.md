@@ -1191,7 +1191,7 @@
 ####### [Confirming Receipt of Data and Reporting Errors](confirming-receipt-of-data-and-reporting-errors1.md)
 ####### [Getting Information](getting-information2.md)
 ####### [Ending a Conversation](ending-a-conversation1.md)
-####### [Administering Side Information]](administering-side-information]2.md)
+####### [Administering Side Information](administering-side-information2.md)
 ###### [Writing CPI-C Applications](writing-cpi-c-applications1.md)
 ####### [Communication Between TPs (CPI-C)](communication-between-tps-cpi-c-2.md)
 ######## [Fundamental Terms for TPs and LUs (CPI-C)](fundamental-terms-for-tps-and-lus-cpi-c-2.md)

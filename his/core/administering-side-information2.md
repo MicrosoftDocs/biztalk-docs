@@ -1,5 +1,5 @@
 ---
-title: "Administering Side Information]2 | Microsoft Docs"
+title: "Administer Side Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,19 +13,21 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Administering Side Information]
+# Administering Side Information
+
+## Overview
 The following calls let CPI-C applications add, replace, retrieve, or delete side information entries from memory:  
   
 > [!NOTE]
 >  The names of the calls are pseudonyms. The actual C function names appear in parentheses after the pseudonyms. For example, **Accept_Conversation** is the pseudonym for a call. The actual function name is **cmaccp**.  
   
- [Delete_CPIC_Side_Information](../HIS2010/delete-cpic-side-information-cpi-c-1.md)  **(xcmdsi)**  
+ [Delete_CPIC_Side_Information](delete-cpic-side-information-cpi-c-2.md)  **(xcmdsi)**  
  Deletes side information entry.  
   
- [Extract_CPIC_Side_Information](../HIS2010/extract-cpic-side-information-cpi-c-2.md)  **(xcmesi)**  
+ [Extract_CPIC_Side_Information](extract-cpic-side-information-cpi-c-1.md)  **(xcmesi)**  
  Retrieves side information.  
   
- [Set_CPIC_Side_Information](../HIS2010/set-cpic-side-information-cpi-c-1.md)  **(xcmssi)**  
+ [Set_CPIC_Side_Information](set-cpic-side-information-cpi-c-2.md)  **(xcmssi)**  
  Adds or replaces side information entry.  
   
 ## See Also  
