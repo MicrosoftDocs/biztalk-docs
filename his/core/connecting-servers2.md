@@ -34,5 +34,5 @@ After you have determined a suitable deployment model and subdomain configuratio
  [Installing Host Integration Server Clients](../core/installing-host-integration-server-clients2.md)  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)   
  [Deploying Host Integration Server](../core/deploying-host-integration-server2.md)

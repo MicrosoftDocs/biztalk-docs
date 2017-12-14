@@ -22,7 +22,7 @@ This section describes the outbound data flows from the local node to the applic
   
 -   FMD data originating at the host PLU and directed to an SNA server LU is sent to the application on the PLU connection.  
   
- For all connections, only FMD requests are presented to the application as [Data](../HIS2010/data2.md) messages (with message-type = DATAFMI). DFC and session control requests are used to generate **Status-Control** messages. (For more information, see [Status-Control Message](../core/status-control-message1.md).)  
+ For all connections, only FMD requests are presented to the application as [Data](./data1.md) messages (with message-type = DATAFMI). DFC and session control requests are used to generate **Status-Control** messages. (For more information, see [Status-Control Message](../core/status-control-message1.md).)  
   
  The local node performs the data flow control state changes required by the response header (RH) indicators in the request, before sending a **Data** message to the application.  
   
@@ -30,11 +30,11 @@ This section describes the outbound data flows from the local node to the applic
   
  For outbound data, the first byte is RU[0] for standard function management interface (FMI), and TH[0] for the logical unit application (LUA) variant of FMI.  
   
- All [Data](../HIS2010/data2.md) messages from the local node to an application contain a message key. The local node maintains a unique message key sequence for each outbound data flow to an application. When the local node sends a **Data** message to an application on a particular connection, it places the next message key in the outbound sequence into the message header, sets the application flags, and sends the message to the application. This means that the message key uniquely identifies a **Data** message on a particular connection between the local node and the application. Note that the local node also places message keys on outbound **Status-Control Request** messages.  
+ All [Data](./data1.md) messages from the local node to an application contain a message key. The local node maintains a unique message key sequence for each outbound data flow to an application. When the local node sends a **Data** message to an application on a particular connection, it places the next message key in the outbound sequence into the message header, sets the application flags, and sends the message to the application. This means that the message key uniquely identifies a **Data** message on a particular connection between the local node and the application. Note that the local node also places message keys on outbound **Status-Control Request** messages.  
   
  The acknowledgment protocol enforced by Host Integration Server reflects the chain response protocol and request mode in use on the SNA session, as follows:  
   
--   Outbound **RQD** requests generate [Data](../HIS2010/data2.md) messages with **ACKRQD** set in the message header.  
+-   Outbound **RQD** requests generate [Data](./data1.md) messages with **ACKRQD** set in the message header.  
   
 -   Outbound **RQE** requests generate **Data** messages without **ACKRQD** set.  
   
@@ -46,15 +46,15 @@ This section describes the outbound data flows from the local node to the applic
   
  Note that Host Integration Server enforces the equivalent of immediate response mode for the outbound data acknowledgment protocol for all connections. The application must send acknowledgments in order.  
   
- If the local node sets the **ACKRQD** field in the message header of a [Data](../HIS2010/data2.md) message to the application, it indicates that an acknowledgment to this **Data** message is required. The application acknowledges an outbound **Data** message by sending a **Status-Acknowledge** message to the local node on the same connection, which contains the same message key and sequence number fields as the **Data** message.  
+ If the local node sets the **ACKRQD** field in the message header of a [Data](./data1.md) message to the application, it indicates that an acknowledgment to this **Data** message is required. The application acknowledges an outbound **Data** message by sending a **Status-Acknowledge** message to the local node on the same connection, which contains the same message key and sequence number fields as the **Data** message.  
   
- On receipt of a [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md), the local node correlates the message key with outstanding outbound messages and generates an SNA positive response to the appropriate SNA request.  
+ On receipt of a [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md), the local node correlates the message key with outstanding outbound messages and generates an SNA positive response to the appropriate SNA request.  
   
- The application should use the [Status-Acknowledge(Nack-1)](../HIS2010/status-acknowledge-nack-1-2.md) message as a negative acknowledgment. On receipt of a **Status-Acknowledge(Nack-1)**, the local node correlates the message with outstanding outbound messages and generates an SNA negative response plus sense data to the appropriate SNA request. The application supplies the sense data that should accompany the negative response as part of the **Status-Acknowledge(Nack-1)** message and must include the same message key, application flags, and sequence number fields as the **Data** message to which this is a negative acknowledgment.  
+ The application should use the [Status-Acknowledge(Nack-1)](./status-acknowledge-nack-1-1.md) message as a negative acknowledgment. On receipt of a **Status-Acknowledge(Nack-1)**, the local node correlates the message with outstanding outbound messages and generates an SNA negative response plus sense data to the appropriate SNA request. The application supplies the sense data that should accompany the negative response as part of the **Status-Acknowledge(Nack-1)** message and must include the same message key, application flags, and sequence number fields as the **Data** message to which this is a negative acknowledgment.  
   
  **Status-Control** messages caused by expedited-flow requests can be sent at any time and do not affect the sending of positive or negative acknowledgment to normal flow outbound **Data** messages. The fact that they can occur between an outbound **Data** message and the matching **Status-Acknowledge** message is purely coincidental. For details about which **Status-Control** messages correspond to SNA requests, see [Status-Control Message](../core/status-control-message1.md).  
   
- If errors are detected in the format of a normal flow request from the host or the request is inappropriate for the state of the session, the local node generates an error [Data](../HIS2010/data2.md) message for the application with the following characteristics:  
+ If errors are detected in the format of a normal flow request from the host or the request is inappropriate for the state of the session, the local node generates an error [Data](./data1.md) message for the application with the following characteristics:  
   
 -   The SDI and ECI application flags are set.  
   
@@ -62,7 +62,7 @@ This section describes the outbound data flows from the local node to the applic
   
 -   **ACKRQD** is set.  
   
- The application should return a [Status-Acknowledge(Ack)](../HIS2010/status-acknowledge-ack-1.md), and the local node generates a negative response carrying the sense code appropriate to the detected error. This mechanism does the following:  
+ The application should return a [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md), and the local node generates a negative response carrying the sense code appropriate to the detected error. This mechanism does the following:  
   
 -   Informs the application of the detected error.  
   
@@ -80,7 +80,7 @@ This section describes the outbound data flows from the local node to the applic
   
 -   Any sense data (shown as "SENSE=...") on SNA requests/responses and **Status-Acknowledge** messages.  
   
--   The **ACKRQD** field in [Data](../HIS2010/data2.md) messages.  
+-   The **ACKRQD** field in [Data](./data1.md) messages.  
   
 -   The message key field in **Data** messages.  
   

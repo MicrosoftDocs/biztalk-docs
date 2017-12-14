@@ -22,7 +22,7 @@ The local node closes a connection to a remote station:
   
 -   If an outage has been reported by the SNALink.  
   
- The local node closes a connection by sending a [Close(LINK)](../HIS2010/close-link-2.md) message. The SNALink then takes some action, such as lowering Data Terminal Ready (DTR) on an Synchronous Data Link Control (SDLC) link or issuing a DLC_CLOSE_STATION on a 802.2 connection. It then replies with a **Close(LINK) OK Response** as shown in the following figure.  
+ The local node closes a connection by sending a [Close(LINK)](./close-link-1.md) message. The SNALink then takes some action, such as lowering Data Terminal Ready (DTR) on an Synchronous Data Link Control (SDLC) link or issuing a DLC_CLOSE_STATION on a 802.2 connection. It then replies with a **Close(LINK) OK Response** as shown in the following figure.  
   
  The case of multipoint connections is slightly different and is considered in [SDLC Multipoint Connections](../core/sdlc-multipoint-connections1.md). The following topics discuss point-to-point connections.  
   

@@ -122,7 +122,7 @@ struct send_data {
   
  AP_BAD_LL  
   
- Secondary return code; the logical record length field of a logical record contained an invalid value—0x0000, 0x0001, 0x8000, or 0x8001. See [About Transaction Programs](../HIS2010/transaction-programs-overview2.md) for information on logical records.  
+ Secondary return code; the logical record length field of a logical record contained an invalid value—0x0000, 0x0001, 0x8000, or 0x8001. See [About Transaction Programs](./transaction-programs-overview1.md) for information on logical records.  
   
  AP_BAD_TP_ID  
   

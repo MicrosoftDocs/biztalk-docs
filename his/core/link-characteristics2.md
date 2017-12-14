@@ -22,4 +22,4 @@ Before the driver can transfer any data, it needs information about the link. Th
   
 -   Details of hardware selectable options, such as SDLC/HDLC, Internal/External clocking, and so on.  
   
- For more details of these options, refer to the topic [Function 0x42: Set Link Characteristics](../HIS2010/function-0x42-set-link-characteristics2.md).
+ For more details of these options, refer to the topic [Function 0x42: Set Link Characteristics](./function-0x42-set-link-characteristics1.md).

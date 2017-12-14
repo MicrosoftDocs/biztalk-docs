@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Sample Code for SNALinkDispatchProc
-This section contains outline source code for the link dispatcher function [SNALinkDispatchProc](../HIS2010/snalinkdispatchproc1.md).  
+This section contains outline source code for the link dispatcher function [SNALinkDispatchProc](./snalinkdispatchproc2.md).  
   
 ```  
 /**********************************************************************/  

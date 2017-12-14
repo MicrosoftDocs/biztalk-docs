@@ -27,4 +27,4 @@ The following topics discuss security as it applies to the CPI-C section of the 
 ### Conversation Security in CPI-C  
  Conversation security in CPI-C controls who can connect to a remote LU. You can find more information in the topic [Conversation Security (CPI-C)](../core/conversation-security-cpi-c-2.md).  
   
- A programmer controls conversation security using the [Set_Conversation_Security_Type (CPI-C)](../HIS2010/set-conversation-security-type-cpi-c-2.md) call and sets user credentials using the [Set_Conversation_Security_User_ID (CPI-C)](../HIS2010/set-conversation-security-user-id-cpi-c-2.md) and [Set_Conversation_Security_Password (CPI-C)](../HIS2010/set-conversation-security-password-cpi-c-2.md) call from the CPI-C SDK.
+ A programmer controls conversation security using the [Set_Conversation_Security_Type (CPI-C)](./set-conversation-security-type-cpi-c-1.md) call and sets user credentials using the [Set_Conversation_Security_User_ID (CPI-C)](./set-conversation-security-user-id-cpi-c-1.md) and [Set_Conversation_Security_Password (CPI-C)](./set-conversation-security-password-cpi-c-1.md) call from the CPI-C SDK.

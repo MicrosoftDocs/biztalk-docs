@@ -29,7 +29,7 @@ Use the following procedure to configure the 5250 (AS/400) Demonstration link se
 5.  Click **OK** to close the **Properties** dialog box.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)   
  [Configuring Link Services](../core/configuring-link-services1.md)   
  [How to Configure the 3270 Demonstration](../core/how-to-configure-the-3270-demonstration2.md)   
  [How to Configure the LU1 Print Demonstration](../core/how-to-configure-the-lu1-print-demonstration1.md)   

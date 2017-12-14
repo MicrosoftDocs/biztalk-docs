@@ -38,7 +38,7 @@ This section of [!INCLUDE[hishostintegrationserver2009](../includes/hishostinteg
  [Administration and Management Programmer's Reference](../core/administration-and-management-programmer-s-reference2.md)  
   
 ## Related Sections  
- [Network Integration Programmer's Guide](../HIS2010/network-integration-programmer-s-guide1.md)  
+ [Network Integration Programmer's Guide](./network-integration-programmer-s-guide2.md)  
   
  [Network Integration Samples](../HIS2010/network-integration-samples.md)  
   

@@ -376,7 +376,7 @@ union LUA_SPECIFIC {
   
  LUA informs the application on a subsequent **RUI_READ** or **RUI_BID** that a negative response was sent.  
   
- The secondary return code contains the sense code sent to the host on the negative response. For information about interpreting the sense code values that can be returned, see [SNA Considerations Using LUA](../HIS2010/sna-considerations-with-lua2.md).  
+ The secondary return code contains the sense code sent to the host on the negative response. For information about interpreting the sense code values that can be returned, see [SNA Considerations Using LUA](./sna-considerations-with-lua1.md).  
   
  A zero secondary return code indicates that, following a previous [RUI_WRITE](../core/rui-write2.md) of a negative response to a message in the middle of a chain, LUA has now received and discarded all messages from this chain.  
   

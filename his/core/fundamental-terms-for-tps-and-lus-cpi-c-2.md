@@ -17,7 +17,7 @@ manager: "anneta"
 The following terms describe some fundamental characteristics of transaction programs (TPs) communicating through logical units (LUs):  
   
  *basic conversation*  
- A type of conversation more complex than a mapped conversation and generally used by service TPs (SNA-based programs that provide services to other programs). For a basic conversation, use [Set_Conversation_Type](../HIS2010/set-conversation-type-cpi-c-2.md) and specify CM_BASIC_CONVERSATION for the *conversation_type*. For more information, see [Basic and Mapped Conversations Compared](../core/basic-and-mapped-conversations-compared-cpi-c-2.md).  
+ A type of conversation more complex than a mapped conversation and generally used by service TPs (SNA-based programs that provide services to other programs). For a basic conversation, use [Set_Conversation_Type](./set-conversation-type-cpi-c-1.md) and specify CM_BASIC_CONVERSATION for the *conversation_type*. For more information, see [Basic and Mapped Conversations Compared](../core/basic-and-mapped-conversations-compared-cpi-c-2.md).  
   
  *conversation*  
  The interaction between TPs carrying out a specific task. Each conversation requires an LU-LU session. A TP can be involved in several conversations simultaneously, as shown with TP B in [Communication Between TPs](../core/communication-between-tps-cpi-c-2.md).  
@@ -62,7 +62,7 @@ The following terms describe some fundamental characteristics of transaction pro
  LUs are configured through SNA Manager on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. This administration tool is also used to configure LU-LU pairs and modes. The LU and mode configurations control how many sessions a particular LU-LU pair supports.  
   
  *mapped conversation*  
- A type of conversation simpler than a basic conversation and generally used by application TPs (programs that accomplish tasks for end users). The default for conversation type is mapped. The conversation type can be changed with the [Set_Conversation_Type](../HIS2010/set-conversation-type-cpi-c-2.md) call. For more information, see [Basic and Mapped Conversations Compared](../core/basic-and-mapped-conversations-compared-cpi-c-2.md).  
+ A type of conversation simpler than a basic conversation and generally used by application TPs (programs that accomplish tasks for end users). The default for conversation type is mapped. The conversation type can be changed with the [Set_Conversation_Type](./set-conversation-type-cpi-c-1.md) call. For more information, see [Basic and Mapped Conversations Compared](../core/basic-and-mapped-conversations-compared-cpi-c-2.md).  
   
  *partner LU and partner TP, or remote LU and remote TP*  
  An LU and TP working together, when viewed as being at the far end of a particular conversation.

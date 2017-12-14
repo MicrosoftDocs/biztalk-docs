@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Conversation States (CPI-C)
-The state of the conversation (as viewed by a particular transaction program (TP)) governs which Common Programming Interface for Communications (CPI-C) calls can be made by the TP at a particular time. For example, a TP cannot issue [Send_Data](../HIS2010/send-data-cpi-c-1.md) if the conversation is not in SEND or SEND_PENDING state for that TP.  
+The state of the conversation (as viewed by a particular transaction program (TP)) governs which Common Programming Interface for Communications (CPI-C) calls can be made by the TP at a particular time. For example, a TP cannot issue [Send_Data](./send-data-cpi-c-2.md) if the conversation is not in SEND or SEND_PENDING state for that TP.  
   
  The state of a conversation depends on the TP from which it is viewed. A local TP can view a conversation as being in SEND state while the partner TP views the conversation as being in RECEIVE state. A particular TP can be in several conversations, each of which is in a different state.  
   
@@ -42,7 +42,7 @@ The state of the conversation (as viewed by a particular transaction program (TP
  The TP can send data to the partner TP and request confirmation. When the conversation is in SEND state, the TP can also begin to receive data, which can cause the state to change to RECEIVE.  
   
  SEND_PENDING  
- The TP issued a [Receive](../HIS2010/receive-cpi-c-1.md) call and received data as well as a send indicator (*status_received* = CM_SEND_RECEIVED), indicating that the TP can begin to send data. This state differs from the SEND state, which occurs when the TP receives data on one **Receive** call and the send indicator on a subsequent **Receive** call.  
+ The TP issued a [Receive](./receive-cpi-c-2.md) call and received data as well as a send indicator (*status_received* = CM_SEND_RECEIVED), indicating that the TP can begin to send data. This state differs from the SEND state, which occurs when the TP receives data on one **Receive** call and the send indicator on a subsequent **Receive** call.  
   
  This section contains:  
   

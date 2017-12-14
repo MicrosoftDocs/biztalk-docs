@@ -35,7 +35,7 @@ The **SNA Service configuration** dialog box can be used to change SNA service p
 5.  You must save your configuration to keep the properties you set. Right-click the server, and click **Save Configuration**.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)   
  [SNA Manager](../core/sna-manager1.md)   
  [How to Open a Subdomain](../core/how-to-open-a-subdomain1.md)   
  [How to Configure Server Properties](../core/how-to-configure-server-properties2.md)   

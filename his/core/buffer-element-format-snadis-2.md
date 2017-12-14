@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Buffer Element Format (SNADIS)
-This topic lists the common fields that always occur at the start of a buffer element. The **dataru** field contains information specific to the particular message. For details about individual message formats, see [SNADIS Message Formats](../HIS2010/snadis-message-formats1.md).  
+This topic lists the common fields that always occur at the start of a buffer element. The **dataru** field contains information specific to the particular message. For details about individual message formats, see [SNADIS Message Formats](./snadis-message-formats2.md).  
   
 |Field|Type|Description|  
 |-----------|----------|-----------------|  

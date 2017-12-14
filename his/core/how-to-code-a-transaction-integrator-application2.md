@@ -24,7 +24,7 @@ Once you have deployed a Transaction Integrator (TI) component, you can write co
   
 2.  Set up your data variables.  
   
-     As with many applications that use Host Integration Server, it is important that you use a data type that can successfully translate to and from your remote server. For more information on data types and how they map between systems, see [Data Types](../HIS2010/data-types1.md) and [Host and Automation Data](../HIS2010/host-and-automation-data2.md).  
+     As with many applications that use Host Integration Server, it is important that you use a data type that can successfully translate to and from your remote server. For more information on data types and how they map between systems, see [Data Types](./data-types2.md) and [Host and Automation Data](./host-and-automation-data1.md).  
   
 3.  Make calls against any relevant parameters in the TI object.  
   

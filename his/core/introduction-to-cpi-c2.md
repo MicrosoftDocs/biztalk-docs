@@ -50,7 +50,7 @@ Common Programming Interface for Communications (CPI-C) is an application progra
   
 -   Some data conversion functions.  
   
- For a complete list of unsupported functions, see [CPI-C Functions Not Supported](../HIS2010/cpi-c-functions-not-supported-cpi-c-2.md).  
+ For a complete list of unsupported functions, see [CPI-C Functions Not Supported](./cpi-c-functions-not-supported-cpi-c-1.md).  
   
  The use of the CPI-C interface on Windows operating systems causes additional threads to be created within the calling process. These other threads perform interprocess communication with the SNA service over the local area network (LAN) interface that the client is configured to use (TCP/IP or named pipes, for example).  
   

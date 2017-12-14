@@ -26,4 +26,4 @@ The topics in this section detail important configuration information.
  [How to Configure SNA Service Properties](../core/how-to-configure-sna-service-properties1.md)  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)

@@ -17,7 +17,7 @@ manager: "anneta"
 Clicking the **Allow application override** check box enables applications to supply credentials at run time through a callback mechanism supplied by Transaction Integrator (TI). Using application override does not require the installation and use of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Enterprise Single Sign-On (ESSO). Instead, the client application supplies TI with a pointer to a callback object that can be used to request credentials when they are needed at run time. A utility component is provided so that customers can add their callback pointer to the context, and create new COM+ objects that inherit from the modified context. The security callback component is automatically installed.  
   
 > [!NOTE]
->  Explicit-Level Override Authentication is not the preferred method of specifying credentials for a client. If possible, you should use the Client Context USERID and PASSWORD override keywords. For more information, see the [COMTIContext Keywords](../HIS2010/comticontext-keywords2.md).  
+>  Explicit-Level Override Authentication is not the preferred method of specifying credentials for a client. If possible, you should use the Client Context USERID and PASSWORD override keywords. For more information, see the [COMTIContext Keywords](./comticontext-keywords1.md).  
   
  To use explicit security, the client application must follow these steps:  
   

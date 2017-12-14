@@ -40,9 +40,7 @@ This section of the Microsoft Host Integration Server Software Development Kit (
   
  For API references and other technical information for the Transaction Integrator, see the Programmer's Reference section of the SDK.  
   
- For sample code using the Transaction Integrator, see [Application Integration Samples](../HIS2010/application-integration-samples.md) in the [Samples](../HIS2010/samples.md) section of the SDK.  
-  
- For information about how to tune your system to get the best possible performance from Transaction Integration, see the [Transaction Integrator Performance Guide](../HIS2010/transaction-integrator-performance-guide2.md) in the Operations section.  
+ For information about how to tune your system to get the best possible performance from Transaction Integration, see the [Transaction Integrator Performance Guide](./transaction-integrator-performance-guide1.md) in the Operations section.  
   
 ## In This Section  
  This section contains the following topics  

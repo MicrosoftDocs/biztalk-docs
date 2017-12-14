@@ -18,7 +18,7 @@ For an SNA service to support the beginning of the invoking process, the followi
   
 -   If the invoking transaction program (TP) specifies the logical unit (LU) alias that it uses (in a registry or environment variable), that LU alias must match a local Advanced Program-to-Program Communications (APPC) LU alias on the supporting SNA service. If the invoking TP does not specify a local LU alias, one of two methods for designating a default LU must be carried out on the supporting SNA service:  
   
-    -   Assign a default local APPC LU to the user or group that starts the invoking TP (that is, the user or group logged on at the system from which [Initialize_Conversation](../HIS2010/initialize-conversation-cpi-c-2.md) is issued).  
+    -   Assign a default local APPC LU to the user or group that starts the invoking TP (that is, the user or group logged on at the system from which [Initialize_Conversation](./initialize-conversation-cpi-c-1.md) is issued).  
   
          —or—  
   

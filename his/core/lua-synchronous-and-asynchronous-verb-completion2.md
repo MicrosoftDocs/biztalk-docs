@@ -22,7 +22,7 @@ Logical unit application (LUA) verbs can complete execution either synchronously
  The value of the **lua_flag2.async** bit should be tested, not the primary return code being not equal to LUA_IN_PROGRESS. (For information about these returned parameters, see individual verb descriptions.)  
   
 ## Asynchronous Verb Completion  
- Some LUA verbs (for example, [RUI_PURGE](../HIS2010/rui-purge1.md)) complete quickly after local processing. However, most verbs take some time to complete because they require messages to be sent to and received from the local node or the host application.  
+ Some LUA verbs (for example, [RUI_PURGE](./rui-purge2.md)) complete quickly after local processing. However, most verbs take some time to complete because they require messages to be sent to and received from the local node or the host application.  
   
  When LUA must wait for information from the remote LU or from the local node before it can complete a verb, the verb completes asynchronously.  
   
@@ -40,4 +40,4 @@ Logical unit application (LUA) verbs can complete execution either synchronously
   
      The event method using **WaitForSingleObject** or **WaitForMultipleObject** is the preferred way to receive asynchronous notification on Windows.  
   
--   In the Windows environment, it notifies the completion of an asynchronous request by posting the "WinRUI/WinSLI" notification message to the window handle of the **WinRUI**/**WinSLI** message. A window handle has been added as the first parameter passed to the [WinRUI](../HIS2010/winrui2.md) and [WinSLI](../HIS2010/winsli2.md) entry points.
+-   In the Windows environment, it notifies the completion of an asynchronous request by posting the "WinRUI/WinSLI" notification message to the window handle of the **WinRUI**/**WinSLI** message. A window handle has been added as the first parameter passed to the [WinRUI](./winrui1.md) and [WinSLI](./winsli1.md) entry points.

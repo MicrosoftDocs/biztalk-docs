@@ -18,11 +18,11 @@ IBM host systems are designed to utilize Extended Binary Coded Decimal Interchan
   
  [OLE DB Provider for DB2](../core/code-page-conversion-troubleshooting.md#oledb)  
   
- For more information on SNANLS, see [SNA Internationalization Programmer's Reference](../HIS2010/sna-internationalization-programmer-s-reference1.md) in the [Network Integration Programmer's Reference](../HIS2010/network-integration-programmer-s-reference1.md).  
+ For more information on SNANLS, see [SNA Internationalization Programmer's Reference](./sna-internationalization-programmer-s-reference2.md) in the [Network Integration Programmer's Reference](./network-integration-programmer-s-reference2.md).  
   
- For more information on configuring code page conversion when using the data providers for DB2, see [Data Source Wizard (DB2)](../HIS2010/data-source-wizard-db2-1.md) and [Data Links (DB2)](../HIS2010/data-links-db2-1.md) in [Data Integration (Configuration)](../HIS2010/data-integration-configuration-1.md).  
+ For more information on configuring code page conversion when using the data providers for DB2, see [Data Source Wizard (DB2)](./data-source-wizard-db2-2.md) and [Data Links (DB2)](./data-links-db2-2.md) in [Data Integration (Configuration)](./data-integration-configuration-2.md).  
   
- For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](../HIS2010/data-source-wizard-host-files-1.md) and [Data Links (Host Files)](../HIS2010/data-links-host-files.md) in [Data Integration (Configuration)](../HIS2010/data-integration-configuration-1.md).  
+ For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](./data-source-wizard-host-files-2.md) and [Data Links (Host Files)](./data-links-host-files.md) in [Data Integration (Configuration)](./data-integration-configuration-2.md).  
   
 ##  <a name="oledb"></a> OLE DB Provider for DB2  
   

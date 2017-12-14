@@ -40,4 +40,4 @@ This section describes the Host File Designer Shortcut Menus for Visual Studio.
  [Union Member Shortcut Menu (Host File Designer)](../core/union-member-shortcut-menu-host-file-designer-2.md)  
   
 ## See Also  
- [Host File Designer Shortcut Menus](../HIS2010/host-file-designer-shortcut-menus2.md)
+ [Host File Designer Shortcut Menus](./host-file-designer-shortcut-menus1.md)

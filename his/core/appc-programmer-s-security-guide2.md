@@ -27,13 +27,13 @@ The following topics discuss security as it applies to the APPC section of the M
   
  Conversational security is documented in the topic [Conversation Security](../core/conversation-security2.md), and in the reference pages for the following APPC verbs:  
   
--   [ALLOCATE](../HIS2010/allocate1.md)  
+-   [ALLOCATE](./allocate2.md)  
   
--   [MC_ALLOCATE](../HIS2010/mc-allocate1.md)  
+-   [MC_ALLOCATE](./mc-allocate2.md)  
   
--   [SEND_CONVERSATION](../HIS2010/send-conversation1.md)  
+-   [SEND_CONVERSATION](./send-conversation2.md)  
   
--   [MC_SEND_CONVERSATION](../HIS2010/mc-send-conversation2.md)  
+-   [MC_SEND_CONVERSATION](./mc-send-conversation1.md)  
   
 ### Session Security configuration using SNACFG  
  You can use the utility SNACFG to set session security for a remote LU. Possible values are none, use a plaintext key, and use a scrambled key.  
@@ -42,4 +42,4 @@ The following topics discuss security as it applies to the APPC section of the M
  The configuration of Host Integration Server to support automatic login is discussed in the topic [Support for CPI-C Automatic Logon](../core/support-for-cpi-c-automatic-logon1.md).  
   
 ### Setting the service key with CNOS  
- You can specify a master or service key using the **key** parameter when changing the number of sessions with the [CNOS](../HIS2010/cnos1.md) verb. This is a plaintext parameter, and is valid if the keylock feature has been secured.
+ You can specify a master or service key using the **key** parameter when changing the number of sessions with the [CNOS](./cnos2.md) verb. This is a plaintext parameter, and is valid if the keylock feature has been secured.

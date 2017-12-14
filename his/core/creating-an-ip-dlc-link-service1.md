@@ -28,7 +28,7 @@ You create and configure an IP-DLC link service as you would create any other li
   
 5.  Click **Add** to load the **IP-DLC Link Service** properties dialog box.  
   
-6.  To configure the new link service, follow the steps for [Configuring an IP-DLC Link Service](../HIS2010/configuring-an-ip-dlc-link-service2.md).  
+6.  To configure the new link service, follow the steps for [Configuring an IP-DLC Link Service](./configuring-an-ip-dlc-link-service1.md).  
   
 ## See Also  
  [Managing IP-DLC Link Services](../core/managing-ip-dlc-link-services2.md)

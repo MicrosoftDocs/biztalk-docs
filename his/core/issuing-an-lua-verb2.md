@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Issuing an LUA Verb
-The following procedure is required to issue a logical unit application (LUA) verb. In this example, the verb issued is [RUI_INIT](../HIS2010/rui-init2.md).  
+The following procedure is required to issue a logical unit application (LUA) verb. In this example, the verb issued is [RUI_INIT](./rui-init1.md).  
   
 ### To issue an LUA verb  
   

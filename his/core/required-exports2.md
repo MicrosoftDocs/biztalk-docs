@@ -16,10 +16,10 @@ manager: "anneta"
 # Required Exports
 The IHV link support DLL must export the following entry points:  
   
--   [SNALinkInitialize](../HIS2010/snalinkinitialize1.md)  
+-   [SNALinkInitialize](./snalinkinitialize2.md)  
   
--   [SNALinkWorkProc](../HIS2010/snalinkworkproc2.md)  
+-   [SNALinkWorkProc](./snalinkworkproc1.md)  
   
--   [SNALinkDispatchProc](../HIS2010/snalinkdispatchproc1.md)  
+-   [SNALinkDispatchProc](./snalinkdispatchproc2.md)  
   
  These are called by the Base scheduler when the SNALink is invoked.

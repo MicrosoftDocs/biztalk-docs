@@ -16,7 +16,7 @@ manager: "anneta"
 # Application-Initiated Termination
 An application on a session with function management (FM) profile 3 or 4 can request termination of the primary logical unit (PLU) session. It should only do so if it has previously ensured that it is in a state where the PLU session can be terminated, that is, between-chain and between-bracket. Terminating the PLU session does not affect the state of the system services control point (SSCP) session.  
   
- Note that an application can issue a character coded or field formatted **LOGOFF** command on the SSCP session or send a [Close(PLU) Request](../HIS2010/close-plu-request1.md) to get the local node to send **TERM-SELF** on the application's behalf. All of these will elicit an **UNBIND**, either immediately or after session clean-up in the host.  
+ Note that an application can issue a character coded or field formatted **LOGOFF** command on the SSCP session or send a [Close(PLU) Request](./close-plu-request2.md) to get the local node to send **TERM-SELF** on the application's behalf. All of these will elicit an **UNBIND**, either immediately or after session clean-up in the host.  
   
  The application requests termination of the PLU session by sending a **Status-Control(RSHUTD) Request** to the local node, which generates an SNA **RSHUTD** request to the host.  
   

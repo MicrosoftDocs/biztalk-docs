@@ -49,4 +49,4 @@ INTEGER locality 
   
 -   SBTICK—Base timer has expired; occurs every five seconds.  
   
- For suggested usage of this function, see [Sample Code for SNALinkDispatchProc](../HIS2010/sample-code-for-snalinkdispatchproc1.md).
+ For suggested usage of this function, see [Sample Code for SNALinkDispatchProc](./sample-code-for-snalinkdispatchproc2.md).

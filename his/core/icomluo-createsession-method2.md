@@ -69,4 +69,4 @@ void CreateSession(
   
 ## See Also  
  [IcomLU0 Methods](../core/icomlu0-methods1.md)   
- [Session Integrator for LU0](../HIS2010/session-integrator-for-lu01.md)
+ [Session Integrator for LU0](./session-integrator-for-lu02.md)

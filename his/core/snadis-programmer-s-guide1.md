@@ -30,7 +30,7 @@ This section enables original equipment manufacturers (OEMs) and adapter vendors
   
  The network operating systems currently supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] include Microsoft LAN Manager (as implemented in Microsoft Windows) and TCP/IP. Future versions of Host Integration Server may support other network operating systems. Because of this, it is recommended that you develop link support that is independent of the network operating system.  
   
- For API references and other technical materials for programming SNALink applications, see the [SNADIS Drivers Programmer's Reference](../HIS2010/snadis-drivers-programmer-s-reference1.md) section of the SDK.  
+ For API references and other technical materials for programming SNALink applications, see the [SNADIS Drivers Programmer's Reference](./snadis-drivers-programmer-s-reference2.md) section of the SDK.  
   
  This section contains:  
   

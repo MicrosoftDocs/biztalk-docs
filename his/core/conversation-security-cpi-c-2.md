@@ -18,11 +18,11 @@ You can use conversation security to require that the invoking transaction progr
   
  For the invoking TP, conversation security is activated and configured (with user identifier and password) through the symbolic destination name in SNA Manager or by the following calls, which override the symbolic destination name:  
   
--   [Set_Conversation_Security_Type](../HIS2010/set-conversation-security-type-cpi-c-2.md)  
+-   [Set_Conversation_Security_Type](./set-conversation-security-type-cpi-c-1.md)  
   
--   [Set_Conversation_Security_User_ID](../HIS2010/set-conversation-security-user-id-cpi-c-2.md)  
+-   [Set_Conversation_Security_User_ID](./set-conversation-security-user-id-cpi-c-1.md)  
   
--   [Set_Conversation_Security_Password](../HIS2010/set-conversation-security-password-cpi-c-2.md)  
+-   [Set_Conversation_Security_Password](./set-conversation-security-password-cpi-c-1.md)  
   
  For the invokable TP, conversation security is activated and configured through registry or environment variables on the computer where the invokable TP is located.  
   

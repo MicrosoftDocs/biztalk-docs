@@ -26,7 +26,7 @@ You create and configure an IP-DLC link service connection as you would create a
   
 4.  On the context menu, click **New**, and then click **IP-DLC**.  
   
-5.  To configure the new link service connection, follow the steps for [Configuring an IP-DLC Connection](../HIS2010/configuring-an-ip-dlc-connection1.md).  
+5.  To configure the new link service connection, follow the steps for [Configuring an IP-DLC Connection](./configuring-an-ip-dlc-connection2.md).  
   
 ## See Also  
  [Viewing Connections](../core/viewing-connections1.md)   

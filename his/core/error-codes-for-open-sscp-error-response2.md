@@ -34,4 +34,4 @@ The following table gives the values for error code 1 and error code 2 that can 
 |0x0A0E|LU/LU group not found in configuration.|||  
   
 > [!NOTE]
->  The error code 1 values 0x1001 to 0x1011 are returned when the [Open(SSCP) Request](../HIS2010/open-sscp-request1.md) specifies a nonforced Open. They do not indicate errors, but indicate that the LU-SSCP session is not active. The application can retry the **Open(SSCP) Request** specifying a forced Open, in which case the local node will attempt to activate the connection if possible.
+>  The error code 1 values 0x1001 to 0x1011 are returned when the [Open(SSCP) Request](./open-sscp-request2.md) specifies a nonforced Open. They do not indicate errors, but indicate that the LU-SSCP session is not active. The application can retry the **Open(SSCP) Request** specifying a forced Open, in which case the local node will attempt to activate the connection if possible.

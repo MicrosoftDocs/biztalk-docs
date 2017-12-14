@@ -29,5 +29,5 @@ ANSI Character Set
 IBM Extended Character Set  
   
 ## See Also  
- [Host Print Service Character Translation Table Format](../HIS2010/host-print-service-character-translation-table-format2.md)   
+ [Host Print Service Character Translation Table Format](./host-print-service-character-translation-table-format1.md)   
  [3270 Session](../core/3270-session1.md)

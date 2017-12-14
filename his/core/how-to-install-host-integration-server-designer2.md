@@ -30,4 +30,4 @@ Transaction Integrator (TI) Designer is installed and configured by the Host Int
 4.  Click **Next**, and then follow the on-screen directions.  
   
 ## See Also  
- [TI Designer](../HIS2010/ti-designer1.md)
+ [TI Designer](./ti-designer2.md)

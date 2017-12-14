@@ -18,7 +18,7 @@ One of the primary features of Transaction Integrator (TI) is converting and for
   
 ## See Also  
  [Transaction Integrator Basic Functions](../core/transaction-integrator-basic-functions1.md)   
- [Converting Data Types from Automation to OS/390 COBOL\]](../HIS2010/converting-data-types-from-automation-to-os-390-cobol]1.md)   
- [Converting Data Types from OS/390 COBOL to Automation](../HIS2010/converting-data-types-from-os-390-cobol-to-automation1.md)   
- [Converting Data Types from RPG to Automation](../HIS2010/converting-data-types-from-rpg-to-automation2.md)   
- [Converting Data Types from Automation to RPG](../HIS2010/converting-data-types-from-automation-to-rpg2.md)
+ [Converting Data Types from Automation to OS/390 COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
+ [Converting Data Types from OS/390 COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
+ [Converting Data Types from RPG to Automation](./converting-data-types-from-rpg-to-automation1.md)   
+ [Converting Data Types from Automation to RPG](./converting-data-types-from-automation-to-rpg1.md)

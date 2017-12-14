@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Status-Error Message
-[Status-Error](../HIS2010/status-error2.md) messages flow from the local node to the application to report request reject and response header (RH) usage error conditions for:  
+[Status-Error](./status-error1.md) messages flow from the local node to the application to report request reject and response header (RH) usage error conditions for:  
   
 -   Errors in outbound expedited data flow control (DFC) requests.  
   

@@ -38,5 +38,5 @@ SQL Server 2012 provides new capabilities that enable organizations to scale dat
  [Query Processor](../core/query-processor2.md)  
   
 ## See Also  
- [Data Integration (Operations)](../HIS2010/data-integration-operations-1.md)   
+ [Data Integration (Operations)](./data-integration-operations-2.md)   
  [Office](../core/office2.md)

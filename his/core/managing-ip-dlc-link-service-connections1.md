@@ -17,7 +17,7 @@ manager: "anneta"
 This section gives procedures for creating, configuring, viewing, and deleting IP-DLC link service connections.  
   
 ## In This Section  
- [Managing IP-DLC Link Service Connections](../HIS2010/managing-ip-dlc-link-service-connections2.md)  
+ [Managing IP-DLC Link Service Connections](./managing-ip-dlc-link-service-connections1.md)  
   
  [Viewing Connections](../core/viewing-connections1.md)  
   

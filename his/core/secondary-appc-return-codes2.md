@@ -185,7 +185,7 @@ manager: "anneta"
   
 ## 000000F1  
  AP_BAD_LL (for a basic conversation)  
- The logical record length field of a logical record contained an invalid value — 0x0000, 0x0001, 0x8000, or 0x8001. See [About Transaction Programs](../HIS2010/transaction-programs-overview2.md) for information on logical records.  
+ The logical record length field of a logical record contained an invalid value — 0x0000, 0x0001, 0x8000, or 0x8001. See [About Transaction Programs](./transaction-programs-overview1.md) for information on logical records.  
   
 ## 000000F2  
  AP_SEND_DATA_NOT_SEND_STATE  

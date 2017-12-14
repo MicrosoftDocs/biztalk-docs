@@ -16,7 +16,7 @@ manager: "anneta"
 # Replication
 SQL Server replication consists of a set of technologies that allow you to distribute and synchronize data to different locations and to remote or mobile users over local and wide area networks, dial-up connections, wireless connections, and the Internet.  
   
- IBM DB2 subscribers can subscribe to snapshot and transactional publications using the Host Integration Server (HIS) OLE DB provider. For more information, see [Data Integration (Planning)](../HIS2010/data-integration-planning-2.md) and [SQL Server Replication (Troubleshooting)](../HIS2010/sql-server-replication-troubleshooting-2.md).  
+ IBM DB2 subscribers can subscribe to snapshot and transactional publications using the Host Integration Server (HIS) OLE DB provider. For more information, see [Data Integration (Planning)](./data-integration-planning-1.md) and [SQL Server Replication (Troubleshooting)](./sql-server-replication-troubleshooting-1.md).  
   
  **SQL Server Replication Resources**  
   
