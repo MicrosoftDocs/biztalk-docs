@@ -409,7 +409,7 @@ struct LUA_COMMON {
   
  LUA_SEC_RC  
   
- Secondary return code; this parameter is a nonzero secondary return code containing the sense code sent to the host on the negative response. This indicates that LUA detected an error in the host data and sent a negative response to the host. For information about interpreting the sense code values that may be returned, see [SNA Considerations Using LUA](../HIS2010/sna-considerations-with-lua2.md).  
+ Secondary return code; this parameter is a nonzero secondary return code containing the sense code sent to the host on the negative response. This indicates that LUA detected an error in the host data and sent a negative response to the host. For information about interpreting the sense code values that may be returned, see [SNA Considerations Using LUA](./sna-considerations-with-lua1.md).  
   
  A secondary return code of zero indicates that, following a previous [RUI_WRITE](../core/rui-write2.md) of a negative response to a message in the middle of a chain, LUA has now received and discarded all messages from this chain.  
   

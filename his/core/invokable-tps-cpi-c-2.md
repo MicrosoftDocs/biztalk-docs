@@ -19,7 +19,7 @@ An invokable transaction program (TP) is a TP that can be invoked by another TP.
  There are two types of invokable TPs:  
   
  **Operator-started invokable TPs**  
- An operator-started invokable TP must be started by an operator before the TP can be invoked. When the operator-started invokable TP is started, it notifies the SNA service of its availability by issuing an [Accept_Conversation](../HIS2010/accept-conversation-cpi-c-1.md) call. The **Accept_Conversation** call causes the name of the invokable TP to be communicated to all the SNA services in the domain, along with the alias of an associated LU if one has been configured through a registry or environment variable.  
+ An operator-started invokable TP must be started by an operator before the TP can be invoked. When the operator-started invokable TP is started, it notifies the SNA service of its availability by issuing an [Accept_Conversation](./accept-conversation-cpi-c-2.md) call. The **Accept_Conversation** call causes the name of the invokable TP to be communicated to all the SNA services in the domain, along with the alias of an associated LU if one has been configured through a registry or environment variable.  
   
  **Autostarted invokable TPs**  
  An autostarted invokable TP can be started by the SNA service when needed. The TP must be registered through registry entries or environment variables on its local system, so that it can be identified to the SnaBase component of the SNA service. The registered information defines the TP as autostarted and must specify the TP name. The registered information can also specify the local LU alias that the invokable TP will use.  
@@ -28,7 +28,7 @@ An invokable transaction program (TP) is a TP that can be invoked by another TP.
   
  If no local LU alias is registered with autostarted TPs, the resulting SNA service configuration can be more flexible in responding to invoking requests. For more information about such flexible configurations, see [TP Name Not Unique; Local LU Alias Unspecified](../core/tp-name-not-unique;-local-lu-alias-unspecified-cpi-c-2.md).  
   
- After an autostarted invokable TP is started by SNA service, the TP issues [Accept_Conversation](../HIS2010/accept-conversation-cpi-c-1.md) just as an operator-started TP does. Accept_Conversation must provide the TP name that was registered for the TP.  
+ After an autostarted invokable TP is started by SNA service, the TP issues [Accept_Conversation](./accept-conversation-cpi-c-2.md) just as an operator-started TP does. Accept_Conversation must provide the TP name that was registered for the TP.  
   
  Autostarted TPs must be configured through registry or environment variables to be either queued or nonqueued. All operator-started TPs act as queued TPs.  
   
@@ -39,4 +39,4 @@ An invokable transaction program (TP) is a TP that can be invoked by another TP.
 >  For the Microsoft Windows operating system, only one copy of a service can be running at any given time. This means that all autostarted TPs that run as services under Windows must be queued. To write an autostarted TP so it runs under Windows as a service and also runs in a nonqueued way, write a multithreaded program with an **Accept_Conversation** always outstanding.  
   
  **Nonqueued TPs**  
- If an autostarted TP is configured as nonqueued, a new copy will be started every time an [Allocate](../HIS2010/allocate-cpi-c-1.md) is received for the TP. Nonqueued TPs should process the conversation they have been allocated, and then exit, because they will not receive any additional **Allocate** requests.
+ If an autostarted TP is configured as nonqueued, a new copy will be started every time an [Allocate](./allocate-cpi-c-2.md) is received for the TP. Nonqueued TPs should process the conversation they have been allocated, and then exit, because they will not receive any additional **Allocate** requests.

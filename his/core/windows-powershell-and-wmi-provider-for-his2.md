@@ -65,6 +65,6 @@ Windows PowerShell is a task-based command-line shell and scripting language tha
   
  **Other Resources**  
   
- For more information about Windows Management Interface in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], see [WMI and Host Integration Server](../HIS2010/wmi-and-host-integration-server2.md) in [Programmer's Guide](../HIS2010/programmer-s-guide1.md).  
+ For more information about Windows Management Interface in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], see [WMI and Host Integration Server](./wmi-and-host-integration-server1.md) in [Programmer's Guide](./programmer-s-guide2.md).  
   
  For more information about Windows PowerShell 2.0, see the Windows PowerShell Getting Started Guide at http://msdn.microsoft.com/library/aa973757(VS.85).aspx.

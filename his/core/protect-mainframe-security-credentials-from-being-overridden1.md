@@ -22,5 +22,5 @@ To prevent an attacker from gaining control over security credentials used to ac
   
 ## See Also  
  [Transaction Integrator Threat Mitigation](../core/transaction-integrator-threat-mitigation2.md)   
- [Remote Environment Selection with the SelectionHint Property](../HIS2010/remote-environment-selection-with-the-selectionhint-property1.md)   
- [Specifying a Remote Environment Programmatically](../HIS2010/specifying-a-remote-environment-programmatically2.md)
+ [Remote Environment Selection with the SelectionHint Property](./remote-environment-selection-with-the-selectionhint-property2.md)   
+ [Specifying a Remote Environment Programmatically](./specifying-a-remote-environment-programmatically1.md)

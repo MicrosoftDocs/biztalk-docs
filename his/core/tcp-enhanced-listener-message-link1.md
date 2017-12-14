@@ -123,10 +123,10 @@ The TCP enhanced listener message (ELM) Link model allows data and parameters to
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   
- [Configure Host Environment and Programming Model Wizard Page](../HIS2010/configure-host-environment-and-programming-model-wizard-page1.md)   
- [Transaction Request Messages](../HIS2010/transaction-request-messages1.md)   
- [Converting Data Types from Automation to OS/390 COBOL\]](../HIS2010/converting-data-types-from-automation-to-os-390-cobol]1.md)   
- [Converting Data Types from OS/390 COBOL to Automation](../HIS2010/converting-data-types-from-os-390-cobol-to-automation1.md)   
+ [Configure Host Environment and Programming Model Wizard Page](./configure-host-environment-and-programming-model-wizard-page2.md)   
+ [Transaction Request Messages](./transaction-request-messages2.md)   
+ [Converting Data Types from Automation to OS/390 COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
+ [Converting Data Types from OS/390 COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
  [CICS Components](../core/cics-components1.md)   
  [TI Runtime](../core/ti-runtime2.md)   
  [Choosing the Appropriate Programming Model](../core/choosing-the-appropriate-programming-model1.md)   

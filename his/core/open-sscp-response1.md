@@ -159,9 +159,9 @@ struct Open(SSCP) Response {
   
 -   The **Open(SSCP) Response** message consists of a buffer header and a single buffer element.  
   
--   If the open qualifier is RSPERR, the error code is valid and the Locality Partner Index (LPIs) and names are undefined. (For more information, see [Error and Sense Codes](../HIS2010/error-and-sense-codes1.md).)  
+-   If the open qualifier is RSPERR, the error code is valid and the Locality Partner Index (LPIs) and names are undefined. (For more information, see [Error and Sense Codes](./error-and-sense-codes2.md).)  
   
--   The LU number indicates the LU selected by the local node from the configuration data. (For more information, see [Opening the SSCP Connection](../HIS2010/opening-the-sscp-connection2.md).)  
+-   The LU number indicates the LU selected by the local node from the configuration data. (For more information, see [Opening the SSCP Connection](./opening-the-sscp-connection1.md).)  
   
 -   When the **Open(SSCP)** is for an LU group, the source name contains the name of the selected LU.  
   

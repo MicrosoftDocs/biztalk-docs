@@ -16,7 +16,7 @@ manager: "anneta"
 # Testing Connections
 The topics in this section detail testing, including running and configuring, the 3270 and 5250 Client applications.  
   
- For information about the IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
+ For information about the IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).  
   
 ## In This Section  
  [Testing Connections with the 3270 Client](../core/testing-connections-with-the-3270-client2.md)  

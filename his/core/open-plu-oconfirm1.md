@@ -296,4 +296,4 @@ struct Open(PLU) OK Confirm {
   
 -   The message does not carry source and destination names. Both LPIs are valid.  
   
--   The contents of **dataru** are referred to in the text as the PLU bind information control block (BICB). The BICB is only valid for an open-qualifier of CONFOK. For further information about the contents of the BICB, see [Opening the PLU Connection](../HIS2010/opening-the-plu-connection2.md).
+-   The contents of **dataru** are referred to in the text as the PLU bind information control block (BICB). The BICB is only valid for an open-qualifier of CONFOK. For further information about the contents of the BICB, see [Opening the PLU Connection](./opening-the-plu-connection1.md).

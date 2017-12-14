@@ -30,7 +30,7 @@ You can install and run Transaction Integrator (TI) over TCP/IP without installi
   
     -   [Configure Host Environment and Programming Model Wizard Page](../core/configure-host-environment-and-programming-model-wizard-page2.md) in the [New Remote Environment Wizard](../core/new-remote-environment-wizard1.md)  
   
-    -   [Enhanced Listener CICS Administration](../HIS2010/enhanced-listener-cics-administration1.md)  
+    -   [Enhanced Listener CICS Administration](./enhanced-listener-cics-administration2.md)  
   
 2.  Install the COBOL programs within the CICS or IMS region that receives TI-initiated calls.  
   

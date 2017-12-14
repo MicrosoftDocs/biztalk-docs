@@ -101,4 +101,4 @@ struct Status-Acknowledge(Nack-2) {
   
 -   The message key refers to the message key in the inbound data message to which this is a negative acknowledgment.  
   
--   For more information about error codes, see [Error and Sense Codes](../HIS2010/error-and-sense-codes1.md).
+-   For more information about error codes, see [Error and Sense Codes](./error-and-sense-codes2.md).

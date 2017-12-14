@@ -17,4 +17,4 @@ manager: "anneta"
 The standard error-reporting mechanism in Visual Studio is through the **Output** window. This window has been extended to allow for error reporting. For example, if an operation could not be completed, an error message is logged in the **Output** window; the user can then double-click the error message to see its source in the Host Integration Server Designer.  
   
 ## See Also  
- [TI Designer](../HIS2010/ti-designer1.md)
+ [TI Designer](./ti-designer2.md)

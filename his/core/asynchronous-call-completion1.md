@@ -14,17 +14,17 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Asynchronous Call Completion
-With one exception, Microsoft® Host Integration Server permits one outstanding Windows® SNA asynchronous call per connection and one blocking verb per thread. The exception to this is that when issuing an asynchronous [Receive](../HIS2010/receive-cpi-c-1.md) call, the following calls can be issued while the **Receive** is outstanding:  
+With one exception, Microsoft® Host Integration Server permits one outstanding Windows® SNA asynchronous call per connection and one blocking verb per thread. The exception to this is that when issuing an asynchronous [Receive](./receive-cpi-c-2.md) call, the following calls can be issued while the **Receive** is outstanding:  
   
--   [Cancel_Conversation](../HIS2010/cancel-conversation-cpi-c-1.md)  
+-   [Cancel_Conversation](./cancel-conversation-cpi-c-2.md)  
   
--   [Deallocate](../HIS2010/deallocate-cpi-c-2.md)  
+-   [Deallocate](./deallocate-cpi-c-1.md)  
   
--   [Request_To_Send](../HIS2010/request-to-send-cpi-c-2.md)  
+-   [Request_To_Send](./request-to-send-cpi-c-1.md)  
   
--   [Send_Error](../HIS2010/send-error-cpi-c-1.md)  
+-   [Send_Error](./send-error-cpi-c-2.md)  
   
--   [Test_Request_To_Send_Received](../HIS2010/test-request-to-send-received-cpi-c-2.md)  
+-   [Test_Request_To_Send_Received](./test-request-to-send-received-cpi-c-1.md)  
   
  This enables an application, in particular a 5250 emulator, to use an asynchronous **Receive** to receive data. Use of this feature is strongly recommended.  
   
@@ -81,4 +81,4 @@ WinMain  ( . . . )
 }  
 ```  
   
- For more information about CPI-C calls and Windows extensions, see [CPI-C Calls](../HIS2010/cpi-c-calls1.md) and [Extensions for the Windows Environment](../HIS2010/extensions-for-the-windows-environment2.md). For additional information about using CPI-C, see the *IBM Systems Application Architecture Common Programming Interface Communications Reference*, part number SC26-4399-04.
+ For more information about CPI-C calls and Windows extensions, see [CPI-C Calls](./cpi-c-calls1.md) and [Extensions for the Windows Environment](./extensions-for-the-windows-environment2.md). For additional information about using CPI-C, see the *IBM Systems Application Architecture Common Programming Interface Communications Reference*, part number SC26-4399-04.

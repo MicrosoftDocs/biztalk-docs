@@ -36,7 +36,7 @@ The following procedure details creating the 5250 Demonstration.
     >  When the link services have been inserted, SNA Manager displays them in the **Link Services** folder.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)   
  [Creating Link Services](../core/creating-link-services1.md)   
  [How to Create the 3270 Demonstration](../core/how-to-create-the-3270-demonstration1.md)   
  [How to Create the LU1 Print Demonstration](../core/how-to-create-the-lu1-print-demonstration2.md)   

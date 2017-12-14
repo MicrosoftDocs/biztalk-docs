@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # FMI Message Summary
-This section lists each of the messages used at the function management interface (FMI) and gives a reference to a topic in the section where each message is described. The formats of the messages are given in [FMI Message Formats](../HIS2010/fmi-message-formats1.md).  
+This section lists each of the messages used at the function management interface (FMI) and gives a reference to a topic in the section where each message is described. The formats of the messages are given in [FMI Message Formats](./fmi-message-formats2.md).  
   
  For each message the direction of flow is indicated. IN means from the application to the local node, and OUT means from the local node to the application. The connection on which the message flows is also given.  
   

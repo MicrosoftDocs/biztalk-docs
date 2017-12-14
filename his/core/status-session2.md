@@ -87,4 +87,4 @@ struct Status-Session {
   
 -   The **Status-Session** message consists of a buffer header only. There is no buffer element.  
   
--   The session codes are listed in [Status-Session Codes](../HIS2010/status-session-codes2.md).
+-   The session codes are listed in [Status-Session Codes](./status-session-codes1.md).

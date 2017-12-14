@@ -35,7 +35,7 @@ The following procedure details how to create a display LU.
 6.  Click **OK**.  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)   
  [How to Create a 3270 Printer LU](../core/how-to-create-a-3270-printer-lu1.md)   
  [How to Create a 3270 Application LU (LUA)](../core/how-to-create-a-3270-application-lu-lua-2.md)   
  [How to Create a 3270 Downstream LU](../core/how-to-create-a-3270-downstream-lu2.md)   

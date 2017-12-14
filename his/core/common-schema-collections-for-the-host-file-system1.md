@@ -148,4 +148,4 @@ The common schema collection is the schema collection that is implemented by the
   
 ## See Also  
  [Obtaining Schema Information from the Host File System](../core/obtaining-schema-information-from-the-host-file-system1.md)   
- [BizTalk Adapter for Host Files Configuration](../HIS2010/biztalk-adapter-for-host-files-configuration2.md)
+ [BizTalk Adapter for Host Files Configuration](./biztalk-adapter-for-host-files-configuration1.md)

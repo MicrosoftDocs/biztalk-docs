@@ -22,9 +22,9 @@ After you install the adapter, you can create a metadata assembly that describes
   
      Part of the process of creating a Host File application in Visual Studio is describing the layout of the host file system. This process creates both a metadata assembly and a schema. The metadata assembly is a programmatic representation of the remote host file system, whereas the schema is an XML representation of the host file system. You will use the metadata assembly to describe the host file system to BizTalk Server.  
   
-     For more information about how to create a Host File application in Visual Studio, see [Creating an Application with the Managed Data Provider for Host Files](../HIS2010/creating-an-application-with-the-managed-data-provider-for-host-files1.md).  
+     For more information about how to create a Host File application in Visual Studio, see [Creating an Application with the Managed Data Provider for Host Files](./creating-an-application-with-the-managed-data-provider-for-host-files2.md).  
   
 ## See Also  
  [BizTalk Adapter for Host Files Configuration](../core/biztalk-adapter-for-host-files-configuration1.md)   
- [Managed Data Provider for Host Files](../HIS2010/managed-data-provider-for-host-files1.md)   
+ [Managed Data Provider for Host Files](./managed-data-provider-for-host-files2.md)   
  [Data Access Library &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/da533736-8ecc-4466-a13d-b635696d94c8)

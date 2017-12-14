@@ -73,4 +73,4 @@ public void CNGetSchema(ETCMLogging.Logging logging, string host, string ccsid, 
   
 ## See Also  
  [Retrieving Information from the Host File System](../core/retrieving-information-from-the-host-file-system2.md)   
- [BizTalk Adapter for Host Files Configuration](../HIS2010/biztalk-adapter-for-host-files-configuration2.md)
+ [BizTalk Adapter for Host Files Configuration](./biztalk-adapter-for-host-files-configuration1.md)

@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Sending Backout on Sync Point Conversations
-To send a Backout, an FMH-7 containing a sense code of 0x08240000 or 0x08240001 is sent on the session. This is done using the [SEND_ERROR](../HIS2010/send-error1.md) or [MC_SEND_ERROR](../HIS2010/mc-send-error1.md) verb. To enable [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to send the appropriate sense data, the **SEND_ERROR** and **MC_SEND_ERROR** verbs are modified as follows:  
+To send a Backout, an FMH-7 containing a sense code of 0x08240000 or 0x08240001 is sent on the session. This is done using the [SEND_ERROR](./send-error2.md) or [MC_SEND_ERROR](./mc-send-error2.md) verb. To enable [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to send the appropriate sense data, the **SEND_ERROR** and **MC_SEND_ERROR** verbs are modified as follows:  
   
 -   A new field, **err_type**, is added to allow the TP to specify the type of error. The default is AP_PROG (0x00), which means existing TPs will continue to work unmodified.  
   

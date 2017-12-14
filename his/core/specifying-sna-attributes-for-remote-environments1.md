@@ -17,7 +17,7 @@ manager: "anneta"
 To determine the attributes that are required by Transaction Integrator (TI) when you are creating a new remote environment, see your [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] configuration. To obtain the required attribute values, open Host Integration Server SNA Manager or contact your [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] system administrator.  
   
 > [!NOTE]
->  To use two-phase commit, each local and remote logical unit (LU) must have SyncPoint support enabled in the SNA server node in which it is defined and should point to the computer that is running Resync services. For more information, see [Providing a Fail-Safe Environment for ACID Transactions](../HIS2010/providing-a-fail-safe-environment-for-acid-transactions2.md).  
+>  To use two-phase commit, each local and remote logical unit (LU) must have SyncPoint support enabled in the SNA server node in which it is defined and should point to the computer that is running Resync services. For more information, see [Providing a Fail-Safe Environment for ACID Transactions](./providing-a-fail-safe-environment-for-acid-transactions1.md).  
   
  **Local LU Alias**  
   

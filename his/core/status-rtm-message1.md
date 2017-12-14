@@ -14,11 +14,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Status-RTM Message
-The [Status-RTM](../HIS2010/status-rtm2.md) message is used by the local node to inform the application of the Response Time Monitor (RTM) parameters being used by the host. It flows from the local node to the application on the system services control point (SSCP) connection and is sent only for 3270 display logical units (LUs), or LUs in a pool of display LUs.  
+The [Status-RTM](./status-rtm1.md) message is used by the local node to inform the application of the Response Time Monitor (RTM) parameters being used by the host. It flows from the local node to the application on the system services control point (SSCP) connection and is sent only for 3270 display logical units (LUs), or LUs in a pool of display LUs.  
   
  The **Status-RTM** message is sent at the following times:  
   
--   After the OK response to the [Open(SSCP) Request](../HIS2010/open-sscp-request1.md) message, to inform the application of the initial RTM parameters.  
+-   After the OK response to the [Open(SSCP) Request](./open-sscp-request2.md) message, to inform the application of the initial RTM parameters.  
   
 -   When the RTM counters are reset, either due to a request from the host or when the local node sends unsolicited RTM data to the host.  
   

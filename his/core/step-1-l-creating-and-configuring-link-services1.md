@@ -22,7 +22,7 @@ This section details creating and configuring link services. The maximum number 
   
  However, SNA Manager allows only 64 link services per Host Integration Server computer, no matter how many adapters are installed on the server. To configure the number higher than this, use the utility Linkcfg.exe.  
   
- For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
+ For information on the new IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).  
   
 ## In This Section  
  [Creating Link Services](../core/creating-link-services1.md)  

@@ -20,4 +20,4 @@ Microsoft® Host Integration Server provides a facility for resetting logical un
   
  When an LUA LU is reset through Host Integration Server or by using the **deactivate-oldlu** command, Host Integration Server sends an UNBIND message to the application (as though the host had issued it).  
   
- The UNBIND message sent to the application is 0x32 0x0E, indicating a recoverable LU failure, and is returned to the application on a subsequent [RUI_READ](../HIS2010/rui-read1.md). The LU session is terminated, but the system services control point (SSCP) session remains active. (The LU is returned to the same state as if [RUI_INIT](../HIS2010/rui-init2.md) has just completed.)
+ The UNBIND message sent to the application is 0x32 0x0E, indicating a recoverable LU failure, and is returned to the application on a subsequent [RUI_READ](./rui-read1.md). The LU session is terminated, but the system services control point (SSCP) session remains active. (The LU is returned to the same state as if [RUI_INIT](./rui-init2.md) has just completed.)

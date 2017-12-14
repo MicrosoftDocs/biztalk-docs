@@ -18,7 +18,7 @@ This section provides the procedures used to make successful connections. Severa
   
  One way to remember the four steps required to make a successful connection is with the acronym **LCLUA** that stands for **L**-Link Service, **C**-Connection, **LU**-LUs and **A**-Adding and Assigning Users.  
   
- For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).  
+ For information on the new IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).  
   
  For information about configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] for your enterprise environment, see [Configuring Your Enterprise](../core/configuring-your-enterprise1.md).  
   
@@ -38,5 +38,5 @@ This section provides the procedures used to make successful connections. Severa
  [Testing Connections](../core/testing-connections2.md)  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)   
  [Network Integration (Configuration)](../core/network-integration-configuration-1.md)

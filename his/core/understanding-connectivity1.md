@@ -40,5 +40,5 @@ After you have completed [!INCLUDE[hisHostIntServNoVersion](../includes/hishosti
  [Notes Section](../core/notes-section1.md)  
   
 ## See Also  
- [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md)   
+ [IP-DLC Link Service](./ip-dlc-link-service2.md)   
  [Deploying Host Integration Server](../core/deploying-host-integration-server2.md)

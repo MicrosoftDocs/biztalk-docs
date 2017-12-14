@@ -20,7 +20,7 @@ This topic summarizes information you should keep in mind when you develop progr
  When an asynchronous operation is complete, the applications window *hwndNotify* receives the message returned by **RegisterWindowMessage** with "WinAsyncCPIC" as the input string. The *wParam* value contains the *conversation_return_code* from the operation that is completing. Its values depend on which operation was originally issued. The *IParam* argument contains the CM_PTR to the *conversation_ID* specified in the original function call.  
   
  *Asynchronous completion notification using Win32*®  *events*  
- When a verb is issued on a nonblocking conversation, it returns CM_OPERATION_INCOMPLETE if it is going to complete asynchronously. If an event has been registered with the conversation, the application can call **WaitForSingleObject** or **WaitForMultipleObjects** to be notified of the completion of the verb. [WinCPICExtractEvent](../HIS2010/wincpicextractevent1.md) allows a Common Programming Interface for Communications (CPI-C) applicationto determine this event handle. After the verb has completed, the application must call [Wait_For_Conversation](../HIS2010/wait-for-conversation-cpi-c-2.md)to determine the return code for the asynchronous verb. The [Cancel_Conversation](../HIS2010/cancel-conversation-cpi-c-1.md)function can be called to cancel an operation and the conversation itself.  
+ When a verb is issued on a nonblocking conversation, it returns CM_OPERATION_INCOMPLETE if it is going to complete asynchronously. If an event has been registered with the conversation, the application can call **WaitForSingleObject** or **WaitForMultipleObjects** to be notified of the completion of the verb. [WinCPICExtractEvent](./wincpicextractevent1.md) allows a Common Programming Interface for Communications (CPI-C) applicationto determine this event handle. After the verb has completed, the application must call [Wait_For_Conversation](./wait-for-conversation-cpi-c-2.md)to determine the return code for the asynchronous verb. The [Cancel_Conversation](./cancel-conversation-cpi-c-2.md)function can be called to cancel an operation and the conversation itself.  
   
  It is the responsibility of the application to reset the event, as it is with other APIs.  
   
@@ -54,10 +54,10 @@ This topic summarizes information you should keep in mind when you develop progr
  A program can simultaneously participate in as many as 64 conversations per process.  
   
  *Terminating applications*  
- In Windows operating systems, CPI-C cannot tell when an application terminates. Therefore, if an application must close (for example, it receives a WM_CLOSE message as a result of an ALT+F4 from a user), the application should call [WinCPICCleanup](../HIS2010/wincpiccleanup1.md).  
+ In Windows operating systems, CPI-C cannot tell when an application terminates. Therefore, if an application must close (for example, it receives a WM_CLOSE message as a result of an ALT+F4 from a user), the application should call [WinCPICCleanup](./wincpiccleanup2.md).  
   
  *Yielding to other components*  
- When processing CPI-C and Common Service Verbs (CSV), it may be necessary for the library code to yield to enable another component, such as the SnaBase, to receive messages and pass them to the application. This can be accomplished by using the Windows extensions [WinCPICSetBlockingHook](../HIS2010/wincpicsetblockinghook1.md) and [WinCPICUnhookBlockingHook](../HIS2010/wincpicunhookblockinghook1.md).  
+ When processing CPI-C and Common Service Verbs (CSV), it may be necessary for the library code to yield to enable another component, such as the SnaBase, to receive messages and pass them to the application. This can be accomplished by using the Windows extensions [WinCPICSetBlockingHook](./wincpicsetblockinghook2.md) and [WinCPICUnhookBlockingHook](./wincpicunhookblockinghook2.md).  
   
  **WinCPICSetBlockingHook** enables a Windows CPI-C implementation to block CPI-C function calls by means of a new function. To call **WinCPICSetBlockingHook**:  
   

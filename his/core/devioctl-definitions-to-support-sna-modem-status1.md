@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # DevIoctl Definitions to Support SNA Modem Status
-The **SNA DevIoctl** interface is modified to update the [MODEM_STATUS](../HIS2010/modem-status2.md) structure for a link each time a modem status change is detected or caused by a **GetV24** or **SetV24** IOCTL call. Code is manually added to the link service to track the number of frames received and transmitted.  
+The **SNA DevIoctl** interface is modified to update the [MODEM_STATUS](./modem-status1.md) structure for a link each time a modem status change is detected or caused by a **GetV24** or **SetV24** IOCTL call. Code is manually added to the link service to track the number of frames received and transmitted.  
   
  The **DevIoctl** changes are highlighted as follows.  
   
@@ -44,6 +44,6 @@ The **SNA DevIoctl** interface is modified to update the [MODEM_STATUS](../HIS20
          }   
 ```  
   
- *pSharedMem* is a pointer to the [MODEM_STATUS](../HIS2010/modem-status2.md) structure for this link service.  
+ *pSharedMem* is a pointer to the [MODEM_STATUS](./modem-status1.md) structure for this link service.  
   
  *V24In* and *V24Out* are of type char and are used to notify the display application when status changes, not each time it is read or set.

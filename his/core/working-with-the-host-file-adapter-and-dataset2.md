@@ -27,4 +27,4 @@ A `HostFileDataAdapter` is used to retrieve data from a data source and populate
   
 ## See Also  
  [Working with the Managed Data Provider For Host Files](../core/working-with-the-managed-data-provider-for-host-files1.md)   
- [BizTalk Adapter for Host Files Configuration](../HIS2010/biztalk-adapter-for-host-files-configuration2.md)
+ [BizTalk Adapter for Host Files Configuration](./biztalk-adapter-for-host-files-configuration1.md)

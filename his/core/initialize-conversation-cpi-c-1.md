@@ -67,7 +67,7 @@ CM_ENTRY Initialize_Conversation( 
  If the *return_code* is CM_OK, the conversation changes to INITIALIZE state. For other return codes, the conversation state remains unchanged.  
   
 ## Remarks  
- The initial values are CPI-C defaults or are derived from side information associated with the symbolic destination name. For more information about initial values and side information, see [Initial Conversation Characteristics](../HIS2010/initial-conversation-characteristics2.md) and [Side Information for CPI-C Programs](../HIS2010/side-information-for-cpi-c-programs2.md).  
+ The initial values are CPI-C defaults or are derived from side information associated with the symbolic destination name. For more information about initial values and side information, see [Initial Conversation Characteristics](./initial-conversation-characteristics1.md) and [Side Information for CPI-C Programs](./side-information-for-cpi-c-programs1.md).  
   
  Initial values can be changed by the **Set_** calls.  
   

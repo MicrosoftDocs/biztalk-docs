@@ -16,7 +16,7 @@ manager: "anneta"
 # Making a Connection
 Complete the following steps to give users and groups access to the mainframe environment, install connections, and verify the installation.  
   
- (For information on the new IP-DLC Link Service, see [IP-DLC Link Service](../HIS2010/ip-dlc-link-service1.md).)  
+ (For information on the new IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).)  
   
 ## Install Host Integration Server  
   
