@@ -43,7 +43,7 @@ Sample message flow for two local nodes
   
 -   An indicator that specifies a nonforced or forced Open. This determines whether the local node will attempt to activate the SSCP session if it is not currently active.  
   
- The [Open(SSCP) Request](./open-sscp-request1.md) can fail for one of several reasons, which can be determined from the error codes on the [Open(SSCP) Response](./open-sscp-response2.md) sent to the application, as detailed in the following list:  
+ The [Open(SSCP) Request](./open-sscp-request2.md) can fail for one of several reasons, which can be determined from the error codes on the [Open(SSCP) Response](./open-sscp-response1.md) sent to the application, as detailed in the following list:  
   
 -   The local node may still be initializing (retrieving information from the configuration file). In this case, the application can retry immediately.  
   

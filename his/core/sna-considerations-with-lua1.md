@@ -67,7 +67,7 @@ This section explains SNA information you need to consider when writing logical 
     |Request/response indicator, response type indicator, and sense data included indicator|All set to 1, indicating a negative response that includes sense data.|  
     |Data returned|The SNA sense code.|  
   
--   When Host Integration Server receives invalid data from the host, it generally sends a negative response to the host and does not pass the invalid data to the LUA application. This is reported to the application on a subsequent [RUI_READ](./rui-read1.md),[SLI_RECEIVE](./sli-receive2.md), [RUI_BID](./rui-bid2.md),or[SLI_BID](./sli-bid2.md) with the following information:  
+-   When Host Integration Server receives invalid data from the host, it generally sends a negative response to the host and does not pass the invalid data to the LUA application. This is reported to the application on a subsequent [RUI_READ](./rui-read2.md),[SLI_RECEIVE](./sli-receive2.md), [RUI_BID](./rui-bid1.md),or[SLI_BID](./sli-bid2.md) with the following information:  
   
     |Sense code|Description|  
     |----------------|-----------------|  
@@ -103,7 +103,7 @@ This section explains SNA information you need to consider when writing logical 
 ## Purging data to end of chain  
  When the host sends a chain of request units to an LUA application, the application can wait until the last RU in the chain is received before sending a response, or it can send a negative response to an RU that is not the last in the chain. If a negative response is sent mid-chain, LUA purges all subsequent RUs from this chain and does not send them to the application.  
   
- When LUA receives the last RU in the chain, it indicates this to the application by setting the primary return code of [RUI_READ](./rui-read1.md) or [RUI_BID](./rui-bid2.md) to LUA_NEGATIVE_RESPONSE with a zero secondary return code.  
+ When LUA receives the last RU in the chain, it indicates this to the application by setting the primary return code of [RUI_READ](./rui-read2.md) or [RUI_BID](./rui-bid1.md) to LUA_NEGATIVE_RESPONSE with a zero secondary return code.  
   
  The host can terminate the chain by sending a message such as CANCEL while in mid-chain. In this case, the CANCEL message is returned to the application on RUI_READ. The LUA_NEGATIVE_RESPONSE return code is not used.  
   

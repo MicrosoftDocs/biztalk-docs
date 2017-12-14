@@ -37,6 +37,6 @@ SYNCPT verb issued remotely.
   
 10. A FORGET PS header is prepared and sent to the remote transaction program.  
   
-11. The FORGET is flushed and direction given to the remote transaction program by issuing a [PREPARE_TO_RECEIVE](./prepare-to-receive1.md) or [MC_PREPARE_TO_RECEIVE](./mc-prepare-to-receive2.md) with the **ptr_type** field of the VCB set to AP_FLUSH.  
+11. The FORGET is flushed and direction given to the remote transaction program by issuing a [PREPARE_TO_RECEIVE](./prepare-to-receive2.md) or [MC_PREPARE_TO_RECEIVE](./mc-prepare-to-receive1.md) with the **ptr_type** field of the VCB set to AP_FLUSH.  
   
 12. When the **PREPARE_TO_RECEIVE** or **MC_PREPARE_TO_RECEIVE** verb completes, the vendor API returns the **SYNCPT** verb to the local transaction program.

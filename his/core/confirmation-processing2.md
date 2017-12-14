@@ -88,4 +88,4 @@ The sequence of events for confirmation processing is as follows:
   
 -   The type parameter of **MC_SEND_DATA** is set to AP_SEND_DATA_DEALLOC_SYNC_LEVEL.  
   
--   The **what_rcvd** parameter of the final [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait1.md) is AP_DATA_COMPLETE_CONFIRM_DEALLOCATE, indicating that a confirmation of receipt of data is required before APPC will deallocate the conversation. The local TP waits for this confirmation until the partner TP issues [MC_CONFIRMED](./mc-confirmed2.md).
+-   The **what_rcvd** parameter of the final [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md) is AP_DATA_COMPLETE_CONFIRM_DEALLOCATE, indicating that a confirmation of receipt of data is required before APPC will deallocate the conversation. The local TP waits for this confirmation until the partner TP issues [MC_CONFIRMED](./mc-confirmed1.md).

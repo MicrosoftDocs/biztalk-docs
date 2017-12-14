@@ -31,4 +31,4 @@ BACKOUT verb issued locally.
   
 7.  The vendor API then issues a [CONFIRM](./confirm2.md) or [MC_CONFIRM](./mc-confirm2.md) verb to flush the **SEND_ERROR** or **MC_SEND_ERROR** verb and request a response from the remote transaction program.  
   
-8.  The [CONFIRM](./confirm1.md) or [MC_CONFIRM](./mc-confirm2.md) verb completes when the remote transaction program issues a [CONFIRMED](./confirmed2.md) or [MC_CONFIRMED](./mc-confirmed1.md) verb. The vendor API then returns the **BACKOUT** verb to the local transaction program.
+8.  The [CONFIRM](./confirm2.md) or [MC_CONFIRM](./mc-confirm2.md) verb completes when the remote transaction program issues a [CONFIRMED](./confirmed1.md) or [MC_CONFIRMED](./mc-confirmed1.md) verb. The vendor API then returns the **BACKOUT** verb to the local transaction program.

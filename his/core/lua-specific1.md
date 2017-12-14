@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # LUA_SPECIFIC
-The following union shows the specific data structure that is included for functions that use the **LUA_SPECIFIC** part of a verb control block. The only logical unit application (LUA) verbs that use this union are [RUI_BID](./rui-bid1.md),[SLI_BID](./sli-bid1.md),[SLI_OPEN](../core/sli-open1.md), and [SLI_SEND](./sli-send2.md).  
+The following union shows the specific data structure that is included for functions that use the **LUA_SPECIFIC** part of a verb control block. The only logical unit application (LUA) verbs that use this union are [RUI_BID](./rui-bid1.md),[SLI_BID](./sli-bid2.md),[SLI_OPEN](../core/sli-open2.md), and [SLI_SEND](./sli-send2.md).  
   
 ```  
 union LUA_SPECIFIC {  
@@ -38,6 +38,6 @@ union LUA_SPECIFIC {
   
  This section contains the following topics:  
   
- [LUA_SPECIFIC.SLI_OPEN](../core/lua-specific-sli-open1.md)  
+ [LUA_SPECIFIC.SLI_OPEN](../core/lua-specific-sli-open2.md)  
   
  [LUA_EXT_ENTRY](../core/lua-ext-entry2.md)

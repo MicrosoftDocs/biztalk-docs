@@ -24,7 +24,7 @@ When using Windows, a TP can receive data asynchronously, without regard to othe
   
  The following list gives details about these methods of receiving data asynchronously. For complete information, see the verb descriptions.  
   
- [RECEIVE_AND_WAIT](./receive-and-wait1.md)or [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md)with [WinAsyncAPPC](./winasyncappc2.md)  
+ [RECEIVE_AND_WAIT](./receive-and-wait2.md)or [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md)with [WinAsyncAPPC](./winasyncappc1.md)  
  This method enables an application to issue a verb and be notified through a **PostMessage** when the action is complete. To retrieve the message number that will be posted to the window, call **RegisterWindowMessage** with "WinAsyncAPPC" as the input string. Then issue **RECEIVE_AND_WAIT** or **MC_RECEIVE_AND_WAIT** using the **WinAsyncAPPC** entry point.  
   
  **RECEIVE_AND_WAIT**or **MC_RECEIVE_AND_WAIT**with [WinAsyncAPPCEx](./winasyncappcex1.md)  

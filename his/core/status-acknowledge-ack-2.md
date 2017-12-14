@@ -144,7 +144,7 @@ struct Status-Acknowledge(Ack) {
   
 -   For inbound **Status-Acknowledge(Ack)** messages from the application to the local node, the SNA sequence number reflects the sequence number of the outbound data message to which this is an acknowledgment.  
   
--   If the host specified that response time statistics are to be maintained, the application is responsible for measuring and reporting response times to the local node, using the **akmsgtim** field of this message. (For details, see [RTM Parameters](./rtm-parameters]1.md) and [Response Time Monitor Data](./response-time-monitor-data2.md).)  
+-   If the host specified that response time statistics are to be maintained, the application is responsible for measuring and reporting response times to the local node, using the **akmsgtim** field of this message. (For details, see [RTM Parameters](./rtm-parameters]2.md) and [Response Time Monitor Data](./response-time-monitor-data1.md).)  
   
 -   If the application is using the LUA variant of the function management interface (FMI), the transmission header (TH) and (if appropriate) response header (RH) are included in the data, and the **startd** field points to the TH. The **akmsgkey**, **akflags1**, and **akflags2** fields are undefined and should not be used. The corresponding data from the element should be used instead. The **akseqno** field is similarly undefined on messages from the local node to the application. It must be set on messages from the application to the local node. The **akseqno** field is used to hold the sequence number of the request being acknowledged. (For more information about FMI, see [FMI Concepts](./fmi-concepts1.md).)  
   

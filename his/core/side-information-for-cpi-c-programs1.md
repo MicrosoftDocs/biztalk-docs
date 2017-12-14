@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Side Information for CPI-C Programs
-The information required for two Common Programming Interface for Communications (CPI-C) programs to communicate is stored as a table, called the side information table, in memory. The table is derived from the symbolic destination name (configured in Host Integration Server) and from the [Set_CPIC_Side_Information](./set-cpic-side-information-cpi-c-1.md), [Extract_CPIC_Side_Information](./extract-cpic-side-information-cpi-c-2.md), and [Delete_CPIC_Side_Information](./delete-cpic-side-information-cpi-c-2.md) calls.  
+The information required for two Common Programming Interface for Communications (CPI-C) programs to communicate is stored as a table, called the side information table, in memory. The table is derived from the symbolic destination name (configured in Host Integration Server) and from the [Set_CPIC_Side_Information](./set-cpic-side-information-cpi-c-2.md), [Extract_CPIC_Side_Information](./extract-cpic-side-information-cpi-c-1.md), and [Delete_CPIC_Side_Information](./delete-cpic-side-information-cpi-c-2.md) calls.  
   
  The side information is maintained by the system administrator.  
   

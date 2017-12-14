@@ -16,7 +16,7 @@ manager: "anneta"
 # DLC Flow Control
 The flow of data messages at the data link control (DLC) interface for each link station is flow controlled. For each direction of flow, there is an initial credit of messages that can be transmitted.  
   
- Flow control is maintained by initial specification on the [Open(STATION) Request](./open-station-request1.md) and [Open(STATION) OK Response](./open-station-oresponse2.md) messages, and by the sending of DLC [Status-Resource](./status-resource-snadis-1.md) messages to give more credit periodically.  
+ Flow control is maintained by initial specification on the [Open(STATION) Request](./open-station-request2.md) and [Open(STATION) OK Response](./open-station-oresponse1.md) messages, and by the sending of DLC [Status-Resource](./status-resource-snadis-1.md) messages to give more credit periodically.  
   
  The sender maintains a count of credit, starting at the initial value set on the **Open(STATION)**, which is decremented for each [DLC-Data](./dlc-data1.md) message sent. When the credit count reaches zero, no more DLC-Data messages can be sent until more credit is received.  
   

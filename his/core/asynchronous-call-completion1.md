@@ -81,4 +81,4 @@ WinMain  ( . . . )
 }  
 ```  
   
- For more information about CPI-C calls and Windows extensions, see [CPI-C Calls](./cpi-c-calls1.md) and [Extensions for the Windows Environment](./extensions-for-the-windows-environment2.md). For additional information about using CPI-C, see the *IBM Systems Application Architecture Common Programming Interface Communications Reference*, part number SC26-4399-04.
+ For more information about CPI-C calls and Windows extensions, see [CPI-C Calls](./cpi-c-calls2.md) and [Extensions for the Windows Environment](./extensions-for-the-windows-environment1.md). For additional information about using CPI-C, see the *IBM Systems Application Architecture Common Programming Interface Communications Reference*, part number SC26-4399-04.

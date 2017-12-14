@@ -112,7 +112,7 @@ A change in the conversation state can result from:
 >  Issuing [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md) while the conversation is in SEND state flushes the LU's send buffer and changes the conversation state to RECEIVE. Changing the conversation state in this manner does not support confirmation processing.  
   
 ## Changing to SEND State  
- [MC_REQUEST_TO_SEND](./mc-request-to-send1.md) informs the partner TP (for which the conversation is in SEND state) that the local TP (for which the conversation is in RECEIVE state) wants to send data. This request is communicated to the partner TP through the **rts_rcvd** parameter of [MC_CONFIRM](./mc-confirm1.md). (The **rts_rcvd** parameter is also returned to [MC_SEND_DATA](./mc-send-data2.md) and other verbs.)  
+ [MC_REQUEST_TO_SEND](./mc-request-to-send1.md) informs the partner TP (for which the conversation is in SEND state) that the local TP (for which the conversation is in RECEIVE state) wants to send data. This request is communicated to the partner TP through the **rts_rcvd** parameter of [MC_CONFIRM](./mc-confirm2.md). (The **rts_rcvd** parameter is also returned to [MC_SEND_DATA](./mc-send-data1.md) and other verbs.)  
   
  When the partner TP issues [MC_PREPARE_TO_RECEIVE](./mc-prepare-to-receive1.md), the conversation state changes to RECEIVE for the partner TP, making it possible for the local TP to send data.  
   
