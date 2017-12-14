@@ -22,7 +22,7 @@ IBM host systems are designed to utilize Extended Binary Coded Decimal Interchan
   
  For more information on configuring code page conversion when using the data providers for DB2, see [Data Source Wizard (DB2)](./data-source-wizard-db2-2.md) and [Data Links (DB2)](./data-links-db2-2.md) in [Data Integration (Configuration)](./data-integration-configuration-2.md).  
   
- For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](./data-source-wizard-host-files-2.md) and [Data Links (Host Files)](./data-links-host-files.md) in [Data Integration (Configuration)](../HIS2010/data-integration-configuration-2.md).  
+ For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](./data-source-wizard-host-files-2.md) and [Data Links (Host Files)](./data-links-host-files.md) in [Data Integration (Configuration)](./data-integration-configuration-2.md).  
   
 ##  <a name="oledb"></a> OLE DB Provider for DB2  
   

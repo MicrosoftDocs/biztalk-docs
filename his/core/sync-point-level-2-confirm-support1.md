@@ -18,9 +18,9 @@ The current APPC implementation in Host Integration Server supports conversation
   
 |Allocated synclevel|Type specified|Action performed|  
 |-------------------------|--------------------|----------------------|  
-|AP_NONE|AP_FLUSH|Action of [FLUSH](./flush2.md) or [MC_FLUSH](./mc-flush2.md) verb before deallocation or change of direction.|  
+|AP_NONE|AP_FLUSH|Action of [FLUSH](./flush2.md) or [MC_FLUSH](./mc-flush1.md) verb before deallocation or change of direction.|  
 |AP_NONE|AP_SYNCLEVEL|Action of **FLUSH** or **MC_FLUSH** verb before deallocation or change of direction.|  
-|AP_SYNCPT|AP_FLUSH|Action of [FLUSH](./flush2.md) or [MC_FLUSH](./mc-flush2.md) verb before deallocation or change of direction.|  
+|AP_SYNCPT|AP_FLUSH|Action of [FLUSH](./flush2.md) or [MC_FLUSH](./mc-flush1.md) verb before deallocation or change of direction.|  
 |AP_SYNCPT or  AP_CONFIRM_SYNC_LEVEL|AP_CONFIRM_TYPE|Action of [CONFIRM](./confirm2.md) or [MC_CONFIRM](./mc-confirm2.md) verb before deallocation or change of direction.|  
 |AP_SYNCPT|AP_SYNCLEVEL|It is assumed that a Sync Point implementation built using the APPC API in Host Integration Server implements the defer states appropriately. See the note below.|  
   
@@ -41,7 +41,7 @@ The current APPC implementation in Host Integration Server supports conversation
   
 |Allocated synclevel|Type specified|Action performed|  
 |-------------------------|--------------------|----------------------|  
-|AP_NONE|AP_FLUSH|Action of [FLUSH](./flush2.md) or [MC_FLUSH](./mc-flush2.md) verb before deallocation or change of direction.|  
+|AP_NONE|AP_FLUSH|Action of [FLUSH](./flush2.md) or [MC_FLUSH](./mc-flush1.md) verb before deallocation or change of direction.|  
 |AP_NONE|AP_SYNCLEVEL|Action of **FLUSH** or **MC_FLUSH** verb before deallocation or change of direction.|  
 |AP_CONFIRM_SYNC_LEVEL|AP_FLUSH|Action of **FLUSH** or **MC_FLUSH** verb before deallocation or change of direction.|  
 |AP_CONFIRM_SYNC_LEVEL|AP_SYNCLEVEL|Action of [CONFIRM](./confirm2.md) or [MC_CONFIRM](./mc-confirm2.md) verb before deallocation or change of direction.|

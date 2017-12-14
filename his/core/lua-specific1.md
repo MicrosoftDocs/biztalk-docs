@@ -38,6 +38,6 @@ union LUA_SPECIFIC {
   
  This section contains the following topics:  
   
- [LUA_SPECIFIC.SLI_OPEN](../core/lua-specific-sli-open2.md)  
+ [LUA_SPECIFIC.SLI_OPEN](../core/lua-specific-sli-open1.md)  
   
  [LUA_EXT_ENTRY](../core/lua-ext-entry2.md)
