@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Buffer Element Format
-The following table lists the common fields that always occur at the start of a buffer element. The **dataru** field contains information specific to the particular message. For details about individual message formats, see [FMI Message Formats](../HIS2010/fmi-message-formats1.md).  
+The following table lists the common fields that always occur at the start of a buffer element. The **dataru** field contains information specific to the particular message. For details about individual message formats, see [FMI Message Formats](./fmi-message-formats2.md).  
   
 |Field|Type|Description|  
 |-----------|----------|-----------------|  
@@ -26,7 +26,7 @@ The following table lists the common fields that always occur at the start of a 
   
  Use the following information to help you interpret the message formats:  
   
--   Certain messages are shown as having two elements in the message formats. For example, the [Open(PLU) Request](../HIS2010/open-plu-request1.md) has the **CICB** field in the first element and the **BIND RU** in the second element. This indicates that the message consists of two distinct linked element chains. The **elteptr** field in the first element points to the second element.  
+-   Certain messages are shown as having two elements in the message formats. For example, the [Open(PLU) Request](./open-plu-request2.md) has the **CICB** field in the first element and the **BIND RU** in the second element. This indicates that the message consists of two distinct linked element chains. The **elteptr** field in the first element points to the second element.  
   
 -   Fields that occupy two bytes are represented with the arithmetically most significant byte in the lowest byte address, irrespective of the normal orientation used by the processor on which the software executes. That is, the 2-byte value 0x1234 has the byte 0x12 in the lowest byte address. The exceptions to this are the **startd** and **endd** fields in elements, which are always stored in low-byte, high-byte orientation (the normal orientation of an Intel processor).  
   

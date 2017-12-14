@@ -63,4 +63,4 @@ USHORT retstat 
   
  If a path error is returned, *msgptr* will not point to a valid message, and no more function management interface (FMI) messages will be returned for the locality value indicated. The application is responsible for ending all sessions using this locality. The routing procedure must return **FALSE**. This ensures that the lost locality is reported to all other routing procedures.  
   
- If the message is for this application, the routing procedure can either process the message immediately or put the message on an application queue, and then post the application using a semaphore. For more information, see [Receiving Messages](../HIS2010/receiving-messages2.md).
+ If the message is for this application, the routing procedure can either process the message immediately or put the message on an application queue, and then post the application using a semaphore. For more information, see [Receiving Messages](./receiving-messages1.md).
