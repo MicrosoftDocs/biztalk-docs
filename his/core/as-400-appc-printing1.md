@@ -140,7 +140,6 @@ APPC connection between AS/400 and Host Integration Server to send print job to 
 |34C004|AHPP sets print position to column 4|  
 |E6E7E8E9|EBCDIC hex values for WXYZ|  
   
- ![](../Image/prn05.gif "prn05")  
 Print output from data in preceding table. ABCD on top print line and WXYZ indented on lower line.  
   
 ## See Also  

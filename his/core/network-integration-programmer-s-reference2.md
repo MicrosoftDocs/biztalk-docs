@@ -19,7 +19,7 @@ manager: "anneta"
 This section of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server network technologies into your application.  
   
 ## Next steps
- [APPC Programmer's Reference\]](../core/appc-programmer-s-reference]1.md)  
+ [APPC Programmer's Reference](../core/appc-programmer-s-reference1.md)  
   
  [CPI-C Programmer's Reference](../core/cpi-c-programmer-s-reference1.md)  
   
