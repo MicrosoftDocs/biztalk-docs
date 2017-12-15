@@ -18,7 +18,7 @@ After you create and initialize your connection, you can receive information fro
   
  After sending and receiving messages, you must disconnect from your Session Integrator session.  
   
-### To receive information using Session Integrator for LU0  
+## Receive information using Session Integrator for LU0  
   
 1.  Use SessionLU0.Receive and `SessionLU0data` to wait for data from the LU.  
   
@@ -57,7 +57,6 @@ catch (Exception ex)
  For more information about the code sample, see [Session Integrator for LU0 Code Example](../core/session-integrator-for-lu0-code-example2.md).  
   
 ## See Also  
- <xref:Microsoft.HostIntegration.SNA.Session>   
  [How to Terminate a Connection with Session Integrator for LU0](../core/how-to-terminate-a-connection-with-session-integrator-for-lu02.md)   
  [Session Integrator for LU0](../core/session-integrator-for-lu02.md)   
  [Session Integrator for LU0 Code Example](../core/session-integrator-for-lu0-code-example2.md)   

@@ -17,7 +17,7 @@ manager: "anneta"
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] core documentation provides in-depth information about Microsoft Host Integration Server.  
   
 > [!NOTE]
->  The core documentation applies to [!INCLUDE[his2016](../includes/his2016-md.md)] and [!INCLUDE[his2013](../includes/his2013-md.md)], but many topics still apply to previous HIS versions. For these previous HIS versions, it may be best to use that documentation set. Use the links at [Microsoft Host Integration Server](../Topic/Microsoft%20Host%20Integration%20Server1.md) for previous versions.  
+>  The core documentation applies to [!INCLUDE[his2016](../includes/his2016-md.md)] and [!INCLUDE[his2013](../includes/his2013-md.md)], but many topics still apply to previous HIS versions. 
 >   
 >  To install and configure HIS, and read about what's new, go to [Host Integration Server Installation and Configuration](../install-and-config-guides/host-integration-server-installation-and-configuration.md).  
   

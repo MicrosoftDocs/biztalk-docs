@@ -1,5 +1,5 @@
 ---
-title: "Protecting the TI .NET Assembly from Unauthorized Access2 | Microsoft Docs"
+title: "Protect the TI .NET Assembly from Unauthorized Access | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,6 +14,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Protecting the TI .NET Assembly from Unauthorized Access
+
+## Overview
 To prevent an attacker from viewing or modifying the contents of a Transaction Integrator (TI) .NET assembly and then using that information to either create a client application which spoofs the identity of an authorized user or modify the custom properties of the component, you should:  
   
 -   Place the computer that is running Visual Studio and TI Designer in a secure location.  
@@ -29,4 +31,3 @@ To prevent an attacker from viewing or modifying the contents of a Transaction I
 ## See Also  
  [Protecting the Output from Tracing and Network Monitoring Activities](../core/protecting-the-output-from-tracing-and-network-monitoring-activities2.md)   
  [Protecting the TI Record or Playback Files from Unauthorized Access](../core/protecting-the-ti-record-or-playback-files-from-unauthorized-access1.md)   
- [Threat Mitigation within Visual Studio &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/16f1392e-f1e6-44f7-9db7-213625c38897)

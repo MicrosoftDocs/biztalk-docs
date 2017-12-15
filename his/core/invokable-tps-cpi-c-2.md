@@ -1,5 +1,5 @@
 ---
-title: "Invokable TPs (CPI-C)2 | Microsoft Docs"
+title: "Invokable TPs (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -24,7 +24,7 @@ An invokable transaction program (TP) is a TP that can be invoked by another TP.
  **Autostarted invokable TPs**  
  An autostarted invokable TP can be started by the SNA service when needed. The TP must be registered through registry entries or environment variables on its local system, so that it can be identified to the SnaBase component of the SNA service. The registered information defines the TP as autostarted and must specify the TP name. The registered information can also specify the local LU alias that the invokable TP will use.  
   
- The recommended method for setting registry or environment variables for autostarted invokable TPs is to use the sample TP configuration program, TPSETUP, or similar code written into your own installation program. For more information about registry or environment variables for invokable TPs, see [Configuring Invokable TPs](../core/configuring-invokable-tps-cpi-c-1.md). For information about TPSETUP, see [CPI-C Samples](../HIS2010/cpi-c-samples.md).  
+ The recommended method for setting registry or environment variables for autostarted invokable TPs is to use the sample TP configuration program, TPSETUP, or similar code written into your own installation program. For more information about registry or environment variables for invokable TPs, see [Configuring Invokable TPs](../core/configuring-invokable-tps-cpi-c-1.md).  
   
  If no local LU alias is registered with autostarted TPs, the resulting SNA service configuration can be more flexible in responding to invoking requests. For more information about such flexible configurations, see [TP Name Not Unique; Local LU Alias Unspecified](../core/tp-name-not-unique;-local-lu-alias-unspecified-cpi-c-2.md).  
   

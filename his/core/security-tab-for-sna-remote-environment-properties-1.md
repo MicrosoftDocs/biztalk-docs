@@ -1,5 +1,5 @@
 ---
-title: "Security Tab for SNA (Remote Environment Properties)1 | Microsoft Docs"
+title: "Security Tab for SNA (Remote Environment Properties) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -7,13 +7,13 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "15219"
 ms.assetid: 81c135ea-c13a-4e6e-b639-16f0b0d55320
 caps.latest.revision: 3
 robots: noindex,nofollow
 ---
 # Security Tab for SNA (Remote Environment Properties)
+
+## Overview
 Use the **Security** tab to set the security properties of the remote environment for SNA.  
   
 |Use this|To do this|  
@@ -31,7 +31,6 @@ Use the **Security** tab to set the security properties of the remote environmen
 >  The properties of a remote environment are not intended to be set or changed programmatically. Setting or changing the properties programmatically might cause the remote environment to function incorrectly.  
   
 ## See Also  
- [How To Impersonate Client Application Security Credentials &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/23535123-2e13-4e15-82c6-662eec3bd893)   
  [Remote Environments Node](../core/remote-environments-node2.md)   
  [Remote Environment Node](../core/remote-environment-node1.md)   
  [TI Manager Properties](../core/ti-manager-properties2.md)

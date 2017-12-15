@@ -14,6 +14,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Code Page Conversion Troubleshooting
+
+## Overview
 IBM host systems are designed to utilize Extended Binary Coded Decimal Interchange Code (EBCDIC) when handling character string data types. Windows computers are designed to utilize ANSI or UNICODE. The HIS SNANLS API handles conversion from EBCDIC to and from UNICODE, and UNICODE to and from ANSI. When using the HIS data providers, you may encounter code page conversion errors. This topic contains the following sections:  
   
  [OLE DB Provider for DB2](../core/code-page-conversion-troubleshooting.md#oledb)  
@@ -22,9 +24,8 @@ IBM host systems are designed to utilize Extended Binary Coded Decimal Interchan
   
  For more information on configuring code page conversion when using the data providers for DB2, see [Data Source Wizard (DB2)](./data-source-wizard-db2-2.md) and [Data Links (DB2)](./data-links-db2-2.md) in [Data Integration (Configuration)](./data-integration-configuration-2.md).  
   
- For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](./data-source-wizard-host-files-2.md) and [Data Links (Host Files)](./data-links-host-files.md) in [Data Integration (Configuration)](./data-integration-configuration-2.md).  
+ For more information on configuring code page conversion when using the data providers for host files, see [Data Source Wizard (Host Files)](./data-source-wizard-host-files-2.md).  
   
-##  <a name="oledb"></a> OLE DB Provider for DB2  
-  
+
 ## See Also  
  [Data Integration (Troubleshooting)](../core/data-integration-troubleshooting-2.md)

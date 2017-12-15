@@ -1,5 +1,5 @@
 ---
-title: "How to Test a Connection2 | Microsoft Docs"
+title: "Test a Connection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,18 +14,17 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Test a Connection
-After you create the appropriate connection string and store it in a file, you can programmatically test the validity of your connection with a call to <xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A>.  
+After you create the appropriate connection string and store it in a file, you can programmatically test the validity of your connection with a call to  `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A`.  
   
-### To test a connection  
+## Test a connection  
   
 1.  Create or retrieve the connection string on which you run the sample query.  
   
      For more information about creating and retrieving connection strings, see [Creating a Connection String](../core/creating-a-connection-string1.md) and [How to Retrieve Data](../core/how-to-retrieve-data2.md).  
   
-2.  Test the connection with a call to <xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A>.  
+2.  Test the connection with a call to `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A`.  
   
-     If successful, <xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A> returns the class and version number of the server. Otherwise, the method returns null. Note that you may be required to enter the user name and password. In this case, the **Password** dialog box appears.  
+     If successful, `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A` returns the class and version number of the server. Otherwise, the method returns null. Note that you may be required to enter the user name and password. In this case, the **Password** dialog box appears.  
   
 ## See Also  
- [How to Test a Connection &#91;bpi&#93; &#91;HIS09_R2&#93;](http://msdn.microsoft.com/en-us/24e38852-f235-4cfe-ae18-9b6faf8fce51)   
  [Performing Administrative Tasks](../core/performing-administrative-tasks1.md)

@@ -1,5 +1,5 @@
 ---
-title: "LUA Programmer&#39;s Guide1 | Microsoft Docs"
+title: "LUA Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,14 +13,15 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# LUA Programmer&#39;s Guide
+# LUA Programmer's Guide
+
+## Overview
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides the programmatic techniques and procedures for creating applications with the logical unit application (LUA) programming interface.  
   
  For API references and other technical information about LUA, see [LUA Programmer's Reference](./lua-programmer-s-reference2.md).  
+
   
- For sample code using LUA, see [LUA Samples](../HIS2010/lua-samples.md).  
-  
- This section contains:  
+## Next steps
   
 -   [LUA Guide](../core/lua-guide1.md)  
   

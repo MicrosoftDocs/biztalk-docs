@@ -201,8 +201,8 @@ LU 1 printing allows the host to specify formatting for a print job. This is acc
 |404040|EBCDIC hex values for three spaces|  
 |E6E7E8E9|EBCDIC hex values for WXYZ|  
   
- ![](../Image/prn03.gif "prn03")  
+
 Print output from data in the preceding table. ABCD on the top print line and WXYZ indented on the lower line.  
   
 ## See Also  
- [Host Print Service (Operations)](../Topic/Host%20Print%20Service%20\(Operations\)2.md)
+ [Host Print Service (Operations)](host-print-service-operations-2.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to Use a Persistent Connection with Host-Initiated Processing1 | Microsoft Docs"
+title: "Use a Persistent Connection with Host-Initiated Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -19,7 +19,7 @@ A persistent connection is a connection that stays open past the duration of a s
 > [!NOTE]
 >  Host Integration Server supports many of the same programming environments for HIP as for WIP. The exceptions are IMS Connect, Distributed Program Call (DPC), and SNALink, which are not supported for HIP persistent connections.  
   
-### To use a persistent connection with HIP  
+## Use a persistent connection with HIP  
   
 1.  Receive a call with your Windows application from the mainframe, indicating that a connection has been created.  
   
@@ -93,4 +93,3 @@ decimal GetAccountBalance(object[] contextArray)
   
 ## See Also  
  [Persistent Connections](../core/persistent-connections2.md)   
- [CICS Sample](../HIS2010/cics-sample.md)

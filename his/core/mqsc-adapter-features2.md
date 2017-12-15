@@ -1,5 +1,5 @@
 ---
-title: "MQSC Adapter Features2 | Microsoft Docs"
+title: "MQSC Adapter Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,6 +14,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # MQSC Adapter Features
+
+## Overview
 The Client-Based BizTalk Adapter for WebSphere MQ (MQSC Adapter) is designed for BizTalk Server and works with all the BizTalk Server components and tools. With the adapter, you can do the following:  
   
 -   Communicate with remote Queue Managers that are running on Windows or other operating systems directly from BizTalk Server.  
@@ -46,4 +48,3 @@ The Client-Based BizTalk Adapter for WebSphere MQ (MQSC Adapter) is designed for
   
 ## See Also  
  [BizTalk Adapter for WebSphere MQ](../core/biztalk-adapter-for-websphere-mq2.md)   
- [How to Install the MQSC Adapter &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/a148aefc-1224-401e-9f68-0606b32b7877)

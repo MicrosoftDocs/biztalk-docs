@@ -1,5 +1,5 @@
 ---
-title: "How to Connect to a DB2 Connection Pool1 | Microsoft Docs"
+title: "Connect to a DB2 Connection Pool | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,14 +13,16 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Connect to a DB2 Connection Pool
+# Connect to a DB2 Connection Pool
+
+## Overview
 Another way to connect to a DB2 database is through a *connection pool*. Although implemented differently on the server, a connection pool is identical to a traditional connection from the perspective of a client application.  
   
  A connection pool is a set of one or more connections that the server keeps open to service requests from one or more clients. When the client is finished with a connection, the server does not terminate the connection. Instead, the connection is released back into the pool, and can then service another client. Connection pooling is frequently used in situations where clients connect, query, and terminate a connection to the server multiple times over the course of a session, such as a database server that is accessed through the Internet.  
   
-### To connect and disconnect to a DB2 connection pool Using Host Integration Server  
+## Connect and disconnect to a DB2 connection pool Using Host Integration Server  
   
-1.  Connect to the DB2 server with MsDb2Connection, with the <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Connection.ConnectionPooling%2A?displayProperty=fullName> set to `true`.  
+1.  Connect to the DB2 server with MsDb2Connection, with the `Microsoft.HostIntegration.MsDb2Client.MsDb2Connection.ConnectionPooling%2A?displayProperty=fullName` set to `true`.  
   
 2.  Perform your queries as you would with a traditional DB2 connection.  
   

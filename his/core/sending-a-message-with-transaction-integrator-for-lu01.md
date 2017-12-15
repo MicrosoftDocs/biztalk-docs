@@ -18,7 +18,7 @@ After you initialize and connect to the logical unit (LU), you can send informat
   
  In addition to sending information, you probably will want to receive information too.  
   
-### To send a message using Transaction Integrator for LU0  
+## Send a message using Transaction Integrator for LU0  
   
 1.  Collect your data into the format your LU uses.  
   
@@ -76,7 +76,6 @@ private void InsertUserId_Click(object sender, EventArgs e)
  Most of this code example is about formatting the data so that the LU can correctly interpret the information; the call to `SessionLU0.Send` is relatively simple. For more information about the code sample, see [Session Integrator for LU0 Code Example](../core/session-integrator-for-lu0-code-example2.md).  
   
 ## See Also  
- <xref:Microsoft.HostIntegration.SNA.Session>   
  [Receiving Messages with Transaction Integrator for LU0](../core/receiving-messages-with-transaction-integrator-for-lu01.md)   
  [Session Integrator for LU0](../core/session-integrator-for-lu02.md)   
  [Session Integrator for LU0 Code Example](../core/session-integrator-for-lu0-code-example2.md)   

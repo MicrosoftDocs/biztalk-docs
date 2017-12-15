@@ -1,5 +1,5 @@
 ---
-title: "CPI-C Programmer&#39;s Guide1 | Microsoft Docs"
+title: "CPI-C Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,14 +13,13 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# CPI-C Programmer&#39;s Guide
+# CPI-C Programmer's Guide
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about developing applications with the Common Programming Interface for Communications (CPI-C).  
   
  For API references and other technical information for CPI-C, see the [CPI-C Programmer's Reference](./cpi-c-programmer-s-reference1.md) section of the SDK.  
   
- For sample code using CPI-C, see [CPI-C Samples](../HIS2010/cpi-c-samples.md) section of the SDK.  
   
-## In This Section  
+## Next steps
  [Introduction to CPI-C](../core/introduction-to-cpi-c2.md)  
   
  [CPI-C Call Summary](../core/cpi-c-call-summary2.md)  

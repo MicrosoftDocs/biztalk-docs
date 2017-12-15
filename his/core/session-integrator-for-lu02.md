@@ -1,5 +1,5 @@
 ---
-title: "Session Integrator for LU02 | Microsoft Docs"
+title: "Session Integrator for LU0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,7 +16,7 @@ manager: "anneta"
 # Session Integrator for LU0
 This section describes how to create an application by using Session Integrator over an LU0 connection.  
   
-## In This Section  
+## Next steps 
  [How to Initialize a Session Integrator Session for LU0](../core/how-to-initialize-a-session-integrator-session-for-lu01.md)  
   
  [Sending a Message with Transaction Integrator for LU0](../core/sending-a-message-with-transaction-integrator-for-lu01.md)  
@@ -28,7 +28,7 @@ This section describes how to create an application by using Session Integrator 
  [Session Integrator for LU0 Code Example](../core/session-integrator-for-lu0-code-example2.md)  
   
 ## Reference  
- <xref:Microsoft.HostIntegration.SNA.Session>  
+ `Microsoft.HostIntegration.SNA.Session`
   
  [IcomLU0 Interface](./icomlu0-interface2.md)  
   

@@ -1,5 +1,5 @@
 ---
-title: "Session Integrator for LU21 | Microsoft Docs"
+title: "Session Integrator for LU2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,7 +16,7 @@ manager: "anneta"
 # Session Integrator for LU2
 This section describes how to program an application for Session Integrator using an LU2 connection.  
   
-## In This Section  
+## Next steps
  [How to Initialize a Session Integrator Session for LU2](../core/how-to-initialize-a-session-integrator-session-for-lu21.md)  
   
  [Sending a Message with Session Integrator for LU2](../core/sending-a-message-with-session-integrator-for-lu21.md)  
@@ -30,7 +30,7 @@ This section describes how to program an application for Session Integrator usin
  [Session Integrator for LU2 Code Example](../core/session-integrator-for-lu2-code-example2.md)  
   
 ## Reference  
- <xref:Microsoft.HostIntegration.SNA.Session>  
+ `Microsoft.HostIntegration.SNA.Session`
   
 ## See Also  
  [Working with Session Integrator](../core/working-with-session-integrator1.md)

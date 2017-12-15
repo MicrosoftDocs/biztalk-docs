@@ -24,7 +24,7 @@ The following topics contain the COM reference material for the Session Integrat
   
  [Session Integrator Programmer's Guide](./session-integrator-programmer-s-guide2.md)  
   
- <xref:Microsoft.HostIntegration.SNA.Session>  
+ `Microsoft.HostIntegration.SNA.Session`
   
 ## See Also  
  [Network Integration Programmer's Reference](../core/network-integration-programmer-s-reference2.md)

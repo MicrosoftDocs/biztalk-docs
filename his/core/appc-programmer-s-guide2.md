@@ -1,5 +1,5 @@
 ---
-title: "APPC Programmer&#39;s Guide2 | Microsoft Docs"
+title: "APPC Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,12 +13,11 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# APPC Programmer&#39;s Guide
+# APPC Programmer's Guide
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about using the Advanced Program-to-Program Communications (APPC) in a distributed processing environment.  
   
- For API references and other technical information about APPC, see [APPC Programmer's Reference](./appc-programmer-s-reference]1.md).  
-  
- For sample code using APPC, see [APPC Samples](../HIS2010/appc-samples.md).  
+ For API references and other technical information about APPC, see [APPC Programmer's Reference](./appc-programmer-s-reference1.md).  
+
   
  This section contains:  
   

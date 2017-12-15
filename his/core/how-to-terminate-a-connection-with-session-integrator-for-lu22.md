@@ -1,5 +1,5 @@
 ---
-title: "How to Terminate a Connection with Session Integrator for LU22 | Microsoft Docs"
+title: "Terminate a Connection with Session Integrator for LU22 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,9 +14,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Terminate a Connection with Session Integrator for LU2
-After you have finished sending and receiving information on your LU2 connection, you must shut your connection down with a call to <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.Disconnect%2A>.  
+After you have finished sending and receiving information on your LU2 connection, you must shut your connection down with a call to `Microsoft.HostIntegration.SNA.Session.SessionDisplay.Disconnect%2A`.  
   
-### To shut an LU2 connection down  
+## Shut an LU2 connection down  
   
 1.  When you are finished with your connection, call `SessionDisplay.Disconnect` to disconnect.  
   
@@ -37,5 +37,4 @@ private void Disconnect_Click(object sender, EventArgs e)
 ```  
   
 ## See Also  
- <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay>   
  [Session Integrator for LU2](../core/session-integrator-for-lu21.md)
