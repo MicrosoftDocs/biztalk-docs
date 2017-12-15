@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Send Port for the Host File Adapter1 | Microsoft Docs"
+title: "Create a Send Port for the Host File Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,7 +16,7 @@ manager: "anneta"
 # How to Create a Send Port for the Host File Adapter
 You create a send port for the BizTalk Adapter for Host Files by using the BizTalk Server Administration console. You must be logged on with an account that is a member of the BizTalk Server Administrators group. In addition, you must have appropriate permissions on the Enterprise Single Sign-On (SSO) database.  
   
-### To configure a send port  
+## Configure a send port  
   
 1.  Click **Start**, point to **Programs**, point to **Microsoft BizTalk Server 2006**, and then click **BizTalk Server Administration**.  
   
@@ -63,6 +63,5 @@ You create a send port for the BizTalk Adapter for Host Files by using the BizTa
   
 ## See Also  
  [BizTalk Adapter for Host Files Configuration](../core/biztalk-adapter-for-host-files-configuration1.md)   
- [Data Access Library &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/da533736-8ecc-4466-a13d-b635696d94c8)   
  [Managed Data Provider for Host Files](./managed-data-provider-for-host-files2.md)   
  [How to Create a Receive Port and a Receive Location for the Host File Adapter](../core/how-to-create-a-receive-port-and-a-receive-location-for-the-host-file-adapter2.md)

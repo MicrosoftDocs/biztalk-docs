@@ -1,5 +1,5 @@
 ---
-title: "Creating TPs and Their Supporting Configuration (CPI-C)2 | Microsoft Docs"
+title: "Create TPs and Supporting Configuration (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,10 +13,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating TPs and Their Supporting Configuration (CPI-C)
-The following procedure describes how to create transaction programs (TPs) and set up a supporting configuration.  
-  
-#### To create TPs and set up a supporting configuration  
+# Create TPs and Their Supporting Configuration (CPI-C)
   
 1.  Write, compile, and link each TP.  
   
@@ -34,7 +31,7 @@ The following procedure describes how to create transaction programs (TPs) and s
   
      For autostarted invokable TPs, it is recommended that you use the sample TP configuration program, TPSETUP, for this step. When you write an installation program for autostarted invokable TPs, it is recommended that you include code similar to TPSETUP.  
   
-     For information about registry or environment variables, see [Configuring Invokable TPs](../core/configuring-invokable-tps-cpi-c-1.md) and [Invoking TPs](../core/invoking-tps-cpi-c-2.md). For information about TPSETUP, see [CPI-C Samples](../HIS2010/cpi-c-samples.md).  
+     For information about registry or environment variables, see [Configuring Invokable TPs](../core/configuring-invokable-tps-cpi-c-1.md) and [Invoking TPs](../core/invoking-tps-cpi-c-2.md). 
   
 5.  If the invokable TP is operator-started, start it, or arrange for it to be started when the computer is restarted, and then restart the computer.  
   

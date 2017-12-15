@@ -1,5 +1,5 @@
 ---
-title: "How to Create a DB2 Package2 | Microsoft Docs"
+title: "Create a DB2 Package | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,16 +13,18 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Create a DB2 Package
-A DB2 package is a collection of data used by a provider implemented as an IBM Distributed Relational Database Architecture (DRDA) application requester. The provider uses packages to issue SQL statements and call DB2 stored procedures. You can use <xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.CreatePackages%2A> to create these packages.  
+# Create a DB2 Package
+
+## Overview
+A DB2 package is a collection of data used by a provider implemented as an IBM Distributed Relational Database Architecture (DRDA) application requester. The provider uses packages to issue SQL statements and call DB2 stored procedures. You can use `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.CreatePackages%2A` to create these packages.  
   
  The create package command creates a Host Integration Server package on a DB2 system.  
   
-### To create a DB2 package  
+## Create a DB2 package  
   
-1.  Create a connection string to the targeted database with a call to <xref:Microsoft.HostIntegration.DataAccessLibrary.DB2OleDbConnectionString.ReadUDL%2A>.  
+1.  Create a connection string to the targeted database with a call to `Microsoft.HostIntegration.DataAccessLibrary.DB2OleDbConnectionString.ReadUDL%2A`.  
   
-2.  Create the package with <xref:Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.CreatePackages%2A>.  
+2.  Create the package with `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.CreatePackages%2A`.  
   
  The following example describes how to create a package.  
   

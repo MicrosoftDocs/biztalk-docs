@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Schema for the Host File Adapter2 | Microsoft Docs"
+title: "Create a Schema for the Host File Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,7 +16,7 @@ manager: "anneta"
 # How to Create a Schema for the Host File Adapter
 You can use the Host File Schema Generation Wizard to create the XSD schemas for the BizTalk Adapter for Host Files. After you create the schema, you are ready to continue configuration on the BizTalk Server side.  
   
-### To generate the Host File schema  
+## Generate the Host File schema  
   
 1.  Open your BizTalk Server Visual Studio project.  
   
@@ -66,5 +66,4 @@ You can use the Host File Schema Generation Wizard to create the XSD schemas for
   
 ## See Also  
  [BizTalk Adapter for Host Files Configuration](../core/biztalk-adapter-for-host-files-configuration1.md)   
- [Data Access Library &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/da533736-8ecc-4466-a13d-b635696d94c8)   
  [Managed Data Provider for Host Files](./managed-data-provider-for-host-files2.md)

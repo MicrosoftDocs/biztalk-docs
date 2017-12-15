@@ -1562,7 +1562,7 @@
 ####### [How to Use a Persistent Connection with Host-Initiated Processing](how-to-use-a-persistent-connection-with-host-initiated-processing1.md)
 ### [Programmer's Reference](programmer-s-reference2.md)
 #### [Network Integration Programmer's Reference](network-integration-programmer-s-reference2.md)
-##### [APPC Programmer's Reference]](appc-programmer-s-reference]1.md)
+##### [APPC Programmer's Reference](appc-programmer-s-reference1.md)
 ###### [APPC Management Verbs](appc-management-verbs1.md)
 ####### [ACTIVATE_SESSION](activate-session2.md)
 ####### [CNOS](cnos2.md)

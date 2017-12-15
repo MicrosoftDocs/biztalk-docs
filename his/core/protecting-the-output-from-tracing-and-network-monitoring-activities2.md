@@ -1,5 +1,5 @@
 ---
-title: "Protecting the Output from Tracing and Network Monitoring Activities2 | Microsoft Docs"
+title: "Protect the Tracing and Network Monitoring output | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,6 +14,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Protecting the Output from Tracing and Network Monitoring Activities
+
+## Overview
 To prevent an attacker from viewing the user credential information that might be stored in trace files or network monitoring files, you should:  
   
 -   Confirm that only authorized users are allowed to run the SNA TRACE or Microsoft Network Monitoring programs on the computer that is running Transaction Integrator.  
@@ -29,4 +31,3 @@ To prevent an attacker from viewing the user credential information that might b
 ## See Also  
  [Protecting the TI .NET Assembly from Unauthorized Access](../core/protecting-the-ti-net-assembly-from-unauthorized-access2.md)   
  [Protecting the TI Record or Playback Files from Unauthorized Access](../core/protecting-the-ti-record-or-playback-files-from-unauthorized-access1.md)   
- [Threat Mitigation within Visual Studio &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/16f1392e-f1e6-44f7-9db7-213625c38897)

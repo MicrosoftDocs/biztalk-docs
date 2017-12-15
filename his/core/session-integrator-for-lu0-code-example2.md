@@ -1,5 +1,5 @@
 ---
-title: "Session Integrator for LU0 Code Example2 | Microsoft Docs"
+title: "Session Integrator for LU0 Code Example | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -272,5 +272,4 @@ namespace CSClient
 ```  
   
 ## See Also  
- <xref:Microsoft.HostIntegration.SNA.Session>   
  [Session Integrator for LU0](../core/session-integrator-for-lu02.md)

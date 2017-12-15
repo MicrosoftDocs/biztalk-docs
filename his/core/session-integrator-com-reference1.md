@@ -1,5 +1,5 @@
 ---
-title: "Session Integrator COM Reference1 | Microsoft Docs"
+title: "Session Integrator COM Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,13 +16,13 @@ manager: "anneta"
 # Session Integrator COM Reference
 The following topics contain the COM reference material for the Session Integrator feature for Host Integration Server.  
   
-## In This Section  
+## Next steps
  [IcomLU0 Interface](../core/icomlu0-interface2.md)  
   
  [Icom3270 Interface](../core/icom3270-interface1.md)  
   
 ## Reference  
- <xref:Microsoft.HostIntegration.SNA.Session>  
+ `Microsoft.HostIntegration.SNA.Session` 
   
 ## Related Sections  
  [Session Integrator Programmer's Guide](./session-integrator-programmer-s-guide2.md)  

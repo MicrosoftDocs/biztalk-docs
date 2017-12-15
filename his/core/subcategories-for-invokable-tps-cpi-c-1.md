@@ -1,5 +1,5 @@
 ---
-title: "Subcategories for Invokable TPs (CPI-C)1 | Microsoft Docs"
+title: "Subcategories for Invokable TPs (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -25,4 +25,4 @@ The following table shows subcategories for invokable transaction programs (TPs)
   
  To write an autostarted TP so it runs under Windows as a service and also runs in a nonqueued way, write a multithreaded program with an [Accept_Conversation](./accept-conversation-cpi-c-2.md) always outstanding. For more information, see [Invokable TPs](../core/invokable-tps-cpi-c-2.md).  
   
- To run an autostarted TP as an application under Windows make sure the TPSTART program is always started before the TP. For more information, see [CPI-C Samples](../HIS2010/cpi-c-samples.md).
+ To run an autostarted TP as an application under Windows make sure the TPSTART program is always started before the TP. 

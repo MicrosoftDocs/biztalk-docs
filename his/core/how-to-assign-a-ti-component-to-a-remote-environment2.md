@@ -1,5 +1,5 @@
 ---
-title: "How to Assign a TI Component to a Remote Environment2 | Microsoft Docs"
+title: "Assign a TI Component to a Remote Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,6 +14,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Assign a TI Component to a Remote Environment
+
+## Overview
 Each TI component is associated with a remote environment (RE) type. As you add multiple REs of the same type, verify that each component is assigned to an RE of the type for which it is configured.  
   
  To assign a component to a specific RE of the appropriate type, you can use one of the following methods:  
@@ -22,7 +24,7 @@ Each TI component is associated with a remote environment (RE) type. As you add 
   
 -   Manually move components from one specific instance of an RE type to another specific instance of the same type. This action applies to TI components that you have already deployed in a COM+ application. You can use TI Manager to move components from one RE to another.  
   
--   Deploy the TI component by using HIS Designer. In HIS Designer, you are asked to associate the TI component with a specific RE. For more information about this option, see [How to Deploy a TI Component &#91;HIS2010&#93;](http://msdn.microsoft.com/en-us/76d17904-c65d-4427-94ad-7f57e9268cd6).  
+-   Deploy the TI component by using HIS Designer. In HIS Designer, you are asked to associate the TI component with a specific RE. 
   
 ## See Also  
  [Creating and Managing Remote Environments with TI Manager](../core/creating-and-managing-remote-environments-with-ti-manager1.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Session Integrator Programmer&#39;s Guide2 | Microsoft Docs"
+title: "Session Integrator Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,10 +16,10 @@ manager: "anneta"
 # Session Integrator Programmer&#39;s Guide
 This section describes how to create applications that interact with a remote server using LU0 and LU2 protocols.  
   
-## In This Section  
+## Next steps
  [Session Integrator](../core/session-integrator2.md)  
   
  [Working with Session Integrator](../core/working-with-session-integrator1.md)  
   
 ## Reference  
- <xref:Microsoft.HostIntegration.SNA.Session>
+ `Microsoft.HostIntegration.SNA.Session`

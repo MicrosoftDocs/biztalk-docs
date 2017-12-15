@@ -1,5 +1,5 @@
 ---
-title: "AS-400 (APPC) Printing1 | Microsoft Docs"
+title: "AS-400 (APPC) Printing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -24,7 +24,7 @@ APPC connection between AS/400 and Host Integration Server to send print job to 
   
  HPT is enabled on the AS/400 in the Device description for the print session. When HPT is enabled, pre-rendered print jobs are sent to the Host Integration Server in marked ASCII Transparent (ATRN) sections using the SCS control code '0x03.' The ATRN control code provides the same function as the Transparent (TRN) control code detailed in the LU 1 printing section. In addition to indicating that the block of data that should be dealt with as transparent, ATRN also indicates that the data is ASCII; therefore it is not converted from EBCDIC to ASCII.  
   
-#### To enable the host transform feature using the default 5224 print device  
+#### Enable the host transform feature using the default 5224 print device  
   
 1.  Stop the print writer associated with the print device.  
   
@@ -144,4 +144,4 @@ APPC connection between AS/400 and Host Integration Server to send print job to 
 Print output from data in preceding table. ABCD on top print line and WXYZ indented on lower line.  
   
 ## See Also  
- [Host Print Service (Operations)](../Topic/Host%20Print%20Service%20\(Operations\)2.md)
+ [Host Print Service (Operations)](host-print-service-operations-2.md)

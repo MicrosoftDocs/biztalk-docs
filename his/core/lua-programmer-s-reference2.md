@@ -1,5 +1,5 @@
 ---
-title: "LUA Programmer&#39;s Reference2 | Microsoft Docs"
+title: "LUA Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,14 +13,12 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# LUA Programmer&#39;s Reference
+# LUA Programmer's Reference
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide lists the verbs, extensions, control blocks, and return codes that describe the logical unit application (LUA) programming interface.  
   
  For general information about programming for LUA, see [LUA Programmer's Guide](./lua-programmer-s-guide1.md).  
   
- For sample code that uses LUA, see [LUA Samples](../HIS2010/lua-samples.md).  
-  
-## In This Section  
+## Next steps
  [LUA RUI Verbs](../core/lua-rui-verbs2.md)  
   
  [LUA SLI Verbs](../core/lua-sli-verbs2.md)  

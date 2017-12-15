@@ -1,5 +1,5 @@
 ---
-title: "CPI-C Programmer&#39;s Reference1 | Microsoft Docs"
+title: "CPI-C Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,14 +13,14 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# CPI-C Programmer&#39;s Reference
+# CPI-C Programmer's Reference
+
+## Overview
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about the calls, extensions, and return codes that make up the CPI-C.  
   
  For general information about programming for CPI-C, see the [CPI-C Programmer's Guide](./cpi-c-programmer-s-guide1.md) section of the SDK.  
   
- For sample code that uses CPI-C, see [CPI-C Samples](../HIS2010/cpi-c-samples.md).  
-  
-## In This Section  
+## Next steps
  [CPI-C Calls](../core/cpi-c-calls2.md)  
   
  [Extensions for the Windows Environment](../core/extensions-for-the-windows-environment1.md)  

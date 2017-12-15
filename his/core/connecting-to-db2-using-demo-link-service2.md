@@ -1,5 +1,5 @@
 ---
-title: "Connecting to DB2 using Demo Link Service2 | Microsoft Docs"
+title: "Connect to DB2 using Demo Link Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -147,4 +147,3 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 ## See Also  
  [Data Integration (Configuration)](../core/data-integration-configuration-2.md)   
- [Data Integration Samples](../HIS2010/data-integration-samples.md)

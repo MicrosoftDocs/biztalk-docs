@@ -1,5 +1,5 @@
 ---
-title: "How to Initialize a Session Integrator Session for LU21 | Microsoft Docs"
+title: "Initialize a Session Integrator Session for LU21 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,26 +13,26 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Initialize a Session Integrator Session for LU2
-The first action that you must perform when you are connecting to an LU2 session for Transaction Integrator is to create and initialize the <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay> object. As the name implies, <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay> represents the 3270 display to your application, and is the primary interface that you will use to access the SNA network.  
+# Initialize a Session Integrator Session for LU2
+The first action that you must perform when you are connecting to an LU2 session for Transaction Integrator is to create and initialize the `Microsoft.HostIntegration.SNA.Session.SessionDisplay` object. As the name implies, `Microsoft.HostIntegration.SNA.Session.SessionDisplay` represents the 3270 display to your application, and is the primary interface that you will use to access the SNA network.  
   
  After you initialize your connection, you can begin to send and receive information over your LU2 session.  
   
-### Procedure Title  
+## Procedure Title  
   
-1.  If necessary, create a new session connection with <xref:Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay>.  
+1.  If necessary, create a new session connection with `Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay`.  
   
-     You can create the <xref:Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay> directly if you have all the relevant information. However, you do not need to perform this step. More likely, you will simply pass in the LU connection string in step 2.  
+     You can create the `Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay` directly if you have all the relevant information. However, you do not need to perform this step. More likely, you will simply pass in the LU connection string in step 2.  
   
-2.  Create a new session with <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay>.  
+2.  Create a new session with `Microsoft.HostIntegration.SNA.Session.SessionDisplay`.  
   
-3.  Pass the connection information to <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connect%2A>.  
+3.  Pass the connection information to `Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connect%2A`.  
   
-     <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connect%2A> contains several overloads: you can choose to connect with an already-created <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay> object, a <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay> object and additional initialization information, or with a connection string and initialization information.  
+     `Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connect%2A` contains several overloads: you can choose to connect with an already-created `Microsoft.HostIntegration.SNA.Session.SessionDisplay` object, a `Microsoft.HostIntegration.SNA.Session.SessionDisplay` object and additional initialization information, or with a connection string and initialization information.  
   
-     If you choose to call <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connect%2A> with a connection string, Transaction Integrator will create a new <xref:Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay> for you. You can directly access the <xref:Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay> object through <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connection%2A>.  
+     If you choose to call `Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connect%2A` with a connection string, Transaction Integrator will create a new `Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay` for you. You can directly access the `Microsoft.HostIntegration.SNA.Session.SessionConnectionDisplay` object through `Microsoft.HostIntegration.SNA.Session.SessionDisplay.Connection%2A`.  
   
-4.  If necessary, confirm that you connected using <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.IsConnected%2A>.  
+4.  If necessary, confirm that you connected using `Microsoft.HostIntegration.SNA.Session.SessionDisplay.IsConnected%2A`.  
   
 ## Example  
  The following code is from the COM3270 application in the SDK sample directory.  
@@ -73,6 +73,5 @@ private void CreateSession_Click(object sender, EventArgs e)
 ```  
   
 ## See Also  
- <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay>   
  [Session Integrator for LU2 Code Example](../core/session-integrator-for-lu2-code-example2.md)   
  [Session Integrator for LU2](../core/session-integrator-for-lu21.md)

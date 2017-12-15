@@ -1,5 +1,5 @@
 ---
-title: "Query Processor2 | Microsoft Docs"
+title: "Query Processor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -113,7 +113,7 @@ EXEC sp_addlinkedserver
   
 @server = 'DB2EXAMPLE',   
   
-@srvproduct = 'x''HIS2010',   
+@srvproduct = 'x''HIS',   
   
 @provider = 'DB2OLEDB',   
   
@@ -319,7 +319,7 @@ GO
   
 1.  In the Object Explorer, expand **Server Objects**, click the **Linked Servers** folder, and then right click on **New Linked Server**.  
   
-2.  In the **New Linked Server** dialog box, enter a Linked server name such as **DB2EXAMPLE**, and select **Microsoft OLE DB Provider for DB2** from the **Provider** list. Enter **HIS2010** in the **Product name** field. Paste a valid connection string that you defined using the Data Access Tool and Data Source Wizard into the **Provider string** field. Enter the DB2 catalog into the **Location** field.  
+2.  In the **New Linked Server** dialog box, enter a Linked server name such as **DB2EXAMPLE**, and select **Microsoft OLE DB Provider for DB2** from the **Provider** list. Enter **HIS** in the **Product name** field. Paste a valid connection string that you defined using the Data Access Tool and Data Source Wizard into the **Provider string** field. Enter the DB2 catalog into the **Location** field.  
   
 3.  In the Select a page pane, click **Security** and select **Be made using this security context**. Enter a valid DB2 user name in **Remote login** and a password in **With password**.  
   
