@@ -1,5 +1,5 @@
 ---
-title: "Reading Data from a Database1 | Microsoft Docs"
+title: "Read Data from a Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,16 +13,18 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Reading Data from a Database
-You can use <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> to retrieve a read-only, forward-only stream of data from a database. Using <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> can increase application performance and reduce system overhead because only one row at a time is ever in memory.  
+# Read Data from a Database
+
+## Overview
+You can use `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` to retrieve a read-only, forward-only stream of data from a database. Using `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` can increase application performance and reduce system overhead because only one row at a time is ever in memory.  
   
- After you create an instance of the <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command> object, you can create an <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> by calling <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command.ExecuteReader%2A> to retrieve rows from a data source.  
+ After you create an instance of the `Microsoft.HostIntegration.MsDb2Client.MsDb2Command` object, you can create an `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` by calling `Microsoft.HostIntegration.MsDb2Client.MsDb2Command.ExecuteReader%2A` to retrieve rows from a data source.  
   
- You can use <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader.Read%2A?displayProperty=fullName> to obtain a row from the results of the query. You access each column of the returned row by passing the name or ordinal reference of the column to <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader>. However, for best performance, <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> provides a series of methods that enable you to access column values in their native data types. Using the typed accessor methods when the underlying data type is known reduces the amount of type conversion required when retrieving the column value.  
+ You can use `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader.Read%2A?displayProperty=fullName` to obtain a row from the results of the query. You access each column of the returned row by passing the name or ordinal reference of the column to `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader`. However, for best performance, `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` provides a series of methods that enable you to access column values in their native data types. Using the typed accessor methods when the underlying data type is known reduces the amount of type conversion required when retrieving the column value.  
   
- <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> also provides a nonbuffered stream of data that enables procedural logic to efficiently process results from a data source sequentially. <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> is a good choice when you are retrieving large amounts of data because the data is not cached in memory.  
+ `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` also provides a nonbuffered stream of data that enables procedural logic to efficiently process results from a data source sequentially. `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` is a good choice when you are retrieving large amounts of data because the data is not cached in memory.  
   
- After you are finished with <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader>, be sure to call the `Close` method. In addition, output parameters and return values from an <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2Command> are not available until <xref:Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader> is closed.  
+ After you are finished with `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader`, be sure to call the `Close` method. In addition, output parameters and return values from an `Microsoft.HostIntegration.MsDb2Client.MsDb2Command` are not available until `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` is closed.  
   
 > [!NOTE]
 >  The Distributed Relational Data Architecture (DRDA) uses a "." as a decimal point and a "," to separate numerical values. If you are working in a language, such as German, that uses a "," as a decimal point, you might receive an error when you are retrieving data from your database. To avoid this error, use `System.Globalization.CultureInfo.InvariantCulture` when you call the `ToString` and `Parse` methods.  

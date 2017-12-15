@@ -1,5 +1,5 @@
 ---
-title: "Receiving Messages with Session Integrator for LU22 | Microsoft Docs"
+title: "Receive Messages with Session Integrator for LU2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,19 +14,19 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Receiving Messages with Session Integrator for LU2
-After you create an LU2 session, you can retrieve information and messages from the 3270 console through the <xref:Microsoft.HostIntegration.SNA.Session.ScreenData> and <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay> objects.  
+After you create an LU2 session, you can retrieve information and messages from the 3270 console through the `Microsoft.HostIntegration.SNA.Session.ScreenData` and `Microsoft.HostIntegration.SNA.Session.SessionDisplay` objects.  
   
-### To receive information over an LU2 connection  
+## Receive information over an LU2 connection  
   
-1.  If necessary, retrieve the entire screen as a screen dump using <xref:Microsoft.HostIntegration.SNA.Session.ScreenData>.  
+1.  If necessary, retrieve the entire screen as a screen dump using `Microsoft.HostIntegration.SNA.Session.ScreenData`.  
   
-     For most circumstances, retrieving all the information on the screen is not necessary. Instead, you can use the <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay> object for most applications.  
+     For most circumstances, retrieving all the information on the screen is not necessary. Instead, you can use the `Microsoft.HostIntegration.SNA.Session.SessionDisplay` object for most applications.  
   
-2.  Get the location of the cursor with a call to <xref:Microsoft.HostIntegration.SNA.Session.ScreenCursor>.  
+2.  Get the location of the cursor with a call to `Microsoft.HostIntegration.SNA.Session.ScreenCursor`.  
   
-3.  Optionally, you can get the location and information contained within different fields on the screen with a call to one of the <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetField%2A> or <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetFields%2A> methods, or the <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.CurrentField%2A> property.  
+3.  Optionally, you can get the location and information contained within different fields on the screen with a call to one of the `Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetField%2A` or `Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetFields%2A` methods, or the `Microsoft.HostIntegration.SNA.Session.SessionDisplay.CurrentField%2A` property.  
   
-     <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetField%2A> and <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetFields%2A> both contain multiple overloads, allowing you to retrieve field information from the screen, depending on what information you provide. In contrast, <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.CurrentField%2A> represents only the field the cursor is currently in.  
+     `Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetField%2A` and `Microsoft.HostIntegration.SNA.Session.SessionDisplay.GetFields%2A` both contain multiple overloads, allowing you to retrieve field information from the screen, depending on what information you provide. In contrast, `Microsoft.HostIntegration.SNA.Session.SessionDisplay.CurrentField%2A` represents only the field the cursor is currently in.  
   
 4.  Finally, you can receive field update information with a call to the various `SessionDisplay.Wait` methods.  
   
@@ -88,7 +88,5 @@ private void PerformTX_Click(object sender, EventArgs e)
 ```  
   
 ## See Also  
- <xref:Microsoft.HostIntegration.SNA.Session.ScreenData>   
- <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay>   
  [Session Integrator for LU2](../core/session-integrator-for-lu21.md)   
  [Session Integrator for LU0](../core/session-integrator-for-lu02.md)

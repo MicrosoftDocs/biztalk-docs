@@ -1,5 +1,5 @@
 ---
-title: "Planning and Architecture1 | Microsoft Docs"
+title: "Planning and Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,7 +16,7 @@ manager: "anneta"
 # Planning and Architecture
 This section summarizes the key points of how to plan a [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] deployment.  
   
-## In This Section  
+## Next steps 
  [Network Integration (Planning)](../core/network-integration-planning-1.md)  
   
  [Data Integration (Planning)](../core/data-integration-planning-1.md)  
@@ -27,5 +27,3 @@ This section summarizes the key points of how to plan a [!INCLUDE[hisHostIntServ
   
  [Glossary](../core/glossary2.md)  
   
-## See Also  
- [Microsoft Host Integration Server](./microsoft-host-integration-server2.md)

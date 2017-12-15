@@ -1,5 +1,5 @@
 ---
-title: "Sending a Message with Session Integrator for LU21 | Microsoft Docs"
+title: "Sending a Message with Session Integrator for LU2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,11 +16,11 @@ manager: "anneta"
 # Sending a Message with Session Integrator for LU2
 After you create a connection, you can send information over the LU2 connection to the remote display.  
   
-### To send a message using Transaction Integrator for LU2  
+## Send a message using Transaction Integrator for LU2  
   
 1.  If necessary, move the cursor to the position that you want to write to on the screen by calling one of the `SessionDisplay.Move` methods.  
   
-     <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay> contains a variety of <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.MoveCursor%2A>, <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.MoveNextField%2A>, <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.MovePreviousField%2A>, and <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay.MoveToField%2A> overloads. These overloads enable you to move the cursor to different parts of the screen, depending on what information you provide.  
+     `Microsoft.HostIntegration.SNA.Session.SessionDisplay` contains a variety of `Microsoft.HostIntegration.SNA.Session.SessionDisplay.MoveCursor%2A`, `Microsoft.HostIntegration.SNA.Session.SessionDisplay.MoveNextField%2A`, `Microsoft.HostIntegration.SNA.Session.SessionDisplay.MovePreviousField%2A`, and `Microsoft.HostIntegration.SNA.Session.SessionDisplay.MoveToField%2A` overloads. These overloads enable you to move the cursor to different parts of the screen, depending on what information you provide.  
   
      The `SessionDisplay.Move` methods are mirrored by a similar set of `SessionDisplay.Get` methods, which enable you to retrieve the location of the cursor, as well as the information contained in different fields on the screen.  
   
@@ -61,6 +61,5 @@ private void ConnectCICS_Click(object sender, EventArgs e)
 ```  
   
 ## See Also  
- <xref:Microsoft.HostIntegration.SNA.Session.SessionDisplay>   
  [Session Integrator for LU2](../core/session-integrator-for-lu21.md)   
  [Session Integrator for LU0](../core/session-integrator-for-lu02.md)

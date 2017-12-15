@@ -1,7 +1,7 @@
 ---
-title: "HIS 2013 - What&#39;s New, Install, and Configure | Microsoft Docs"
+title: "HIS 2013 - What's New, Install, and Configure | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: "10/24/2016"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,10 +13,10 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# HIS 2013 - What&#39;s New, Install, and Configure
-These topics apply to [!INCLUDE[his2013](../includes/his2013-md.md)]. Use these topics to see what's new , and to install and configure HIS.  
+# HIS 2013 - What's New, Install, and Configure
+Use these topics to see what's new , and to install and configure HIS.  
   
-## In This Section  
+## Next steps
  [What's New in HIS 2013](../install-and-config-guides/what-s-new-in-his-2013.md)  
   
  [Installing HIS 2013](../install-and-config-guides/installing-his-2013.md)  
@@ -25,4 +25,3 @@ These topics apply to [!INCLUDE[his2013](../includes/his2013-md.md)]. Use these 
   
 ## See Also  
  [Host Integration Server Core Documentation](../core/host-integration-server-core-documentation.md)   
- [Microsoft Host Integration Server MSDN home page](../Topic/Microsoft%20Host%20Integration%20Server1.md)
