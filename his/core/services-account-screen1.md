@@ -1,5 +1,5 @@
 ---
-title: "Services Account Screen1 | Microsoft Docs"
+title: "Services Account Screen | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -11,11 +11,13 @@ ms.assetid: 6cc82915-fb84-442b-a9e0-049348458017
 caps.latest.revision: 3
 ---
 # Services Account Screen
+
+## Overview
 Setup installs a number of services that must be able to log on to the Windows domain. This requires Setup to create a domain user account and to assign the account the privileges that the services require to operate properly.  
   
  You must provide a domain and user name (domain/user) along with the password for the account. If the account does not exist, Setup will create it.  
   
-#### Services Account Configuration screen  
+## Services Account Configuration screen  
   
 1.  Type the domain and user name (domain/user).  
   
@@ -24,4 +26,4 @@ Setup installs a number of services that must be able to log on to the Windows d
 3.  Click **Next**.  
   
 ## See Also  
- [Installation Help](./installation-help1.md)
+ [Installation Help](../install-and-config-guides/installation-help2.md)

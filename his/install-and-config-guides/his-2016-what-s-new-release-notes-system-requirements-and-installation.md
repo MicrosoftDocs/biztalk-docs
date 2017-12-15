@@ -1,7 +1,7 @@
 ---
-title: "HIS 2016 - What&#39;s New, Release Notes, System Requirements, and Installation | Microsoft Docs"
+title: "HIS 2016 - What's New, Release Notes, System Requirements, and Installation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: "10/24/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,10 +12,12 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# HIS 2016 - What&#39;s New, Release Notes, System Requirements, and Installation
+# HIS 2016 - What's New, Release Notes, System Requirements, and Installation
+
+## Overview
 Read about what's new in [!INCLUDE[his2016](../includes/his2016-md.md)]. You can also read the release notes, view the system requirements, and install HIS.  
   
-## In this section  
+## Next steps
  [What's New in HIS 2016](../install-and-config-guides/what-s-new-in-his-2016.md)  
   
  [Release Notes](../install-and-config-guides/release-notes.md)  
@@ -28,4 +30,3 @@ Read about what's new in [!INCLUDE[his2016](../includes/his2016-md.md)]. You can
   
 ## See Also  
  [Host Integration Server Core Documentation](../core/host-integration-server-core-documentation.md)   
- [Microsoft Host Integration Server MSDN home page](../Topic/Microsoft%20Host%20Integration%20Server1.md)

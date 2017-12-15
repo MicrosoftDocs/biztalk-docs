@@ -1,5 +1,5 @@
 ---
-title: "Integration Services1 | Microsoft Docs"
+title: "Integration Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,13 +14,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Integration Services
-SQL Server Integration Services (SSIS) provides a scalable enterprise data integration platform with exceptional Extract, Transform, Load (ETL) and integration capabilities that enable you to more easily manage data from a wide array of data sources. You can use it to create script tasks, perform scalable data transfers using the Import and Export Wizard, and take advantage of new SSIS connectors for external data sources. For more information, see [Data Integration (Planning)](./data-integration-planning-1.md), [Performance for DB2](./performance-for-db2.md), and [SQL Server Integration Services (Troubleshooting)](./sql-server-integration-services-troubleshooting-1.md).  
+
+## Overview
+SQL Server Integration Services (SSIS) provides a scalable enterprise data integration platform with exceptional Extract, Transform, Load (ETL) and integration capabilities that enable you to more easily manage data from a wide array of data sources. You can use it to create script tasks, perform scalable data transfers using the Import and Export Wizard, and take advantage of new SSIS connectors for external data sources. For more information, see [Data Integration (Planning)](./data-integration-planning-1.md), and [SQL Server Integration Services (Troubleshooting)](./sql-server-integration-services-troubleshooting-1.md).  
   
  **SQL Server SSIS Resources**  
   
--   [Integration Services Overview](http://go.microsoft.com/fwlink/?LinkId=198255) (http://go.microsoft.com/fwlink/?LinkId=198255)  
+-   [Integration Services (https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)  
   
--   [What's New Integration Services](http://go.microsoft.com/fwlink/?LinkId=198256) (http://go.microsoft.com/fwlink/?LinkId=198256)  
+-   [What's New Integration Services](http://go.microsoft.com/fwlink/?LinkId=198256)  
   
 ## See Also  
  [SQL Server](../core/sql-server2.md)

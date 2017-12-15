@@ -13,6 +13,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Same Server Migration
+
 ## Overview
 The HIS Migration tool allows you to migrate from an earlier edition of Host Integration Server to Host Integration Server 2016 on the same server. The migration tool harvests the configuration information prior to uninstalling the older version of Host Integration Server. That configuration information can be applied to the new install of Host Integration Server 2016.
 
@@ -23,7 +24,9 @@ The HIS Migration tool allows you to migrate from an earlier edition of Host Int
 
     C:\Files>**HisMigration.exe C:\Files\HIS_Migrate /Save**   
     
-    > [!NOTE]  C:\Files\HIS_Migrate must exist and have no files in it  
+    > [!NOTE]  
+    > C:\Files\HIS_Migrate must exist and have no files in it  
+
 - Uninstall the older version of HIS using Control Panel - Programs and Features
 - Install Host Integration Server 2016, but do not run the Configuration Wizard.
 - Edit the C:\Files\HIS_Migrate\savedConfig.config file to insert the correct password(s) for the account that the services will run as. For security purposes the password(s) are replaced with "PasswordReplacedByThis", the correct password(s) must be entered or the services will not start.  Note there may be multiple instances of the password element.
@@ -31,6 +34,7 @@ The HIS Migration tool allows you to migrate from an earlier edition of Host Int
 - Apply the saved configuration by opening an Administrative Windows Command Prompt and issuing the following command: 
 
    C:\Files>**HisMigration.exe C:\Files\HIS_Migrate /Apply**
+
 ## Additional Considerations
 - When migrating a multi-server subdomain the primary server needs to be the last server migrated.  Start the migration with the secondary server first, once all of these servers have been migrated, the primary can be migrated.  
 - The migration of servers configured to use a remote SNA Gateway is not currently supported.  Support for this scenario is planned for the next cumulative update.   
@@ -41,5 +45,5 @@ The HIS Migration tool allows you to migrate from an earlier edition of Host Int
 - For both WIP and HIP, all configuration must be done in the .config files – there is no configuration information that will be read from the registry.
 
 ## See Also
-### [HIS Migration Tool](../install-and-config-guides/his-migration-tool.md)
-### [Server to Server Migration](../install-and-config-guides/server-to-server-migration.md)
+[HIS Migration Tool](../install-and-config-guides/his-migration-tool.md)  
+[Server to Server Migration](../install-and-config-guides/server-to-server-migration.md)

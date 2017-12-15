@@ -14,10 +14,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Single Sign-On Samples
+
+## Overview
 This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide describes the sample applications that implement Single Sign-On programming technology.  
   
-## In This Section  
+## Next
  [Loopback Adapter Sample](../esso/loopback-adapter-sample.md)  
   
 ## Reference  
- <xref:Microsoft.EnterpriseSingleSignOn.Interop>
+`Microsoft.EnterpriseSingleSignOn.Interop`
