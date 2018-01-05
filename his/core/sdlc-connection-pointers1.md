@@ -1,5 +1,5 @@
 ---
-title: "SDLC Connection Pointers1 | Microsoft Docs"
+title: "SDLC Connection Pointers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SDLC Connection Pointers
-Connections are configured through the SNA Manager. The steps for configuring an SDLC connection are described in detail in [Important Connection Information](./important-connection-information2.md). The following pointers indicate items that require special attention:  
+Connections are configured through the SNA Manager. See [Make a connection](making-a-connection2.md) for guidance to configure an SDLC connection. The following pointers indicate items that require special attention:  
   
  As with all connections, the settings must be configured correctly. For details, see [Settings to Check for All Connection Types](../core/settings-to-check-for-all-connection-types2.md).  
   

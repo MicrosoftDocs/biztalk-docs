@@ -1,5 +1,5 @@
 ---
-title: "Security and Protection1 | Microsoft Docs"
+title: "Security tips | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,12 +13,12 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Security and Protection
+# Security tips and guidance - HIS
 The information contained in the following sections details securing your [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] environment, including Enterprise Single Sign-On.  
   
  For information about Single Sign-On, see [Enterprise Single Sign-On Basics](../esso/enterprise-single-sign-on-basics.md).  
   
- **SQL Server**  
+## SQL Server
   
  When you are accessing a SQL Server database:  
   
@@ -26,9 +26,9 @@ The information contained in the following sections details securing your [!INCL
   
 -   Use only [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] security groups which were created with the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Configuration Wizard.  
   
- **General Considerations**  
+## General Considerations
   
- In addition to the general guidelines elsewhere in this section, the following specific recommendations can help you increase the security of your [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] deployment. Since all of these actions are performed during deployment or configuration, procedures are located in the appropriate sections of this documentation. Whereas these recommendations apply across the entire product, the [Transaction Integrator Threat Mitigation](../core/transaction-integrator-threat-mitigation2.md) section also offers information specifically for TI users.  
+ In addition to the general guidelines elsewhere in this section, the following specific recommendations can help you increase the security of your Host Integration Server deployment. Since all of these actions are performed during deployment or configuration, procedures are located in the appropriate sections of this documentation. Whereas these recommendations apply across the entire product, the [Transaction Integrator Threat Mitigation](../core/transaction-integrator-threat-mitigation2.md) section also offers information specifically for TI users.  
   
  When you are connecting via SNA Protocol:  
   
@@ -62,7 +62,7 @@ The information contained in the following sections details securing your [!INCL
   
 -   Stop and restart the TN3270 Server whenever a new CRL is downloaded. Otherwise, you will be using an out of date CRL, which could permit unwanted access to the host.  
   
- **Server-to-Host Security**  
+## Server-to-Host Security
   
  The following actions will increase server-to-host security, especially on an APPN Network or UDP sockets for HPR/IP Protocol Traffic:  
   
@@ -96,7 +96,7 @@ The information contained in the following sections details securing your [!INCL
   
 -   Always use IPsec when using the TN3270 or TN5250 Servers. Although data might be safe between the client and server without IPsec, that same data may become vulnerable between the server and the host. Using IPsec reduces the attack surface, ensures data encryption, and makes access available only to authorized users.  
   
-## In This Section  
+## More good stuff
  [Network Integration (Security)](../core/network-integration-security-2.md)  
   
  [Data Integration (Security)](../core/data-integration-security-2.md)  

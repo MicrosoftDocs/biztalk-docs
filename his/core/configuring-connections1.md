@@ -16,7 +16,7 @@ manager: "anneta"
 # Configuring Connections
 If you run a wizard to create your connections, most of the configuration information will be added with the criteria you entered when the wizard runs. The AS/400 Wizard, the Mainframe APPC/LU6.2 Wizard, and the 3270 Wizard step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  
   
- If you need to configure a connection manually, you may need to verify the host connection information before you can proceed. For more information, see [Verifying Host Connection Information](../core/verifying-host-connection-information2.md).  
+ If you need to configure a connection manually, you may need to verify the host connection information before you can proceed. 
   
  For information on the new IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).  
   

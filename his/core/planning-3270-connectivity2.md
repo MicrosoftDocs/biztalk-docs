@@ -20,12 +20,10 @@ In the hierarchical SNA network model most frequently associated with a mainfram
   
  Once you establish the physical connection from the Host Integration Server computer to the mainframe, you need to determine the type of 3270 connectivity your users need. The topics in this section detail the networking services [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] can provide to your users and offers information on ways to set up these services.  
   
-## In This Section  
+## Next steps
  [3270 Access](../core/3270-access2.md)  
   
  [TN3270 Access](../core/tn3270-access2.md)  
   
  [Downstream Connections](../core/downstream-connections2.md)  
   
-## See Also  
- [Network Integration (Planning)](../core/network-integration-planning-1.md)

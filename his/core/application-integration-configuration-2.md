@@ -1,5 +1,5 @@
 ---
-title: "Application Integration (Configuration)2 | Microsoft Docs"
+title: "Application Integration (Configuration) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,10 +14,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Application Integration (Configuration)
+
 ## Overview
-Starting with Host Integration Server 2013 TI components for both Windows Initiated Processing (WIP) and Host Initiated Processing (HIP) are saved as .hidx files and compiled by the TI Designer to .dll files.  Also starting with Host Integration Server 2013 configuration for connecting with external host systems is done through a .config file. There is no TI Manager MMC Console, the new TI Configuration Tool is provided to assist with creating and maintaining the .config files.  
+Starting with Host Integration Server TI components for both Windows Initiated Processing (WIP) and Host Initiated Processing (HIP) are saved as .hidx files and compiled by the TI Designer to .dll files.  Also starting with Host Integration Server configuration for connecting with external host systems is done through a .config file. There is no TI Manager MMC Console, the new TI Configuration Tool is provided to assist with creating and maintaining the .config files.  
   
-## In This Section  
+## Next steps
  [Working with TI Designer](../core/working-with-ti-designer1.md)  
   
  [TI Configuration Tool](../core/ti-configuration-tool.md)
@@ -28,7 +29,3 @@ Starting with Host Integration Server 2013 TI components for both Windows Initia
   
  [Transaction Integrator Conversion Tool](../core/transaction-integrator-conversion-tool1.md)  
   
-## Related Sections  
-  
-## See Also  
- [Deployment](../core/deployment2.md)

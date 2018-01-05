@@ -1,7 +1,7 @@
 ---
 title: "Host Integration Server Core Documentation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-06-28"
+ms.date: 01/04/2018
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,27 +17,28 @@ manager: "anneta"
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] core documentation provides in-depth information about Microsoft Host Integration Server.  
   
 > [!NOTE]
->  The core documentation applies to [!INCLUDE[his2016](../includes/his2016-md.md)] and [!INCLUDE[his2013](../includes/his2013-md.md)], but many topics still apply to previous HIS versions. 
->   
 >  To install and configure HIS, and read about what's new, go to [Host Integration Server Installation and Configuration](../install-and-config-guides/host-integration-server-installation-and-configuration.md).  
   
 ## Contents  
- [Planning and Architecture](../core/planning-and-architecture1.md)  
+
+[Network Integration](network-integration.md)
+
+[Data Integration](data-integration.md)
+
+[Application Integration](application-integration-planning-2.md)
+
+[Message integration](message-integration-configuration-2.md)
   
- [Deployment](../core/deployment2.md)  
-  
- [Operations](../core/operations1.md)  
-  
- [Security and Protection](../core/security-and-protection1.md)  
-  
- [Troubleshooting](../core/troubleshooting3.md)  
-  
- [Development](../core/development2.md)  
-  
- [Enterprise Single Sign-On](../esso/enterprise-single-sign-on1.md)  
-  
- [Application configuration settings](../core/application-configuration-settings.md)
-  
+[Configure Enterprise Single Sign-On](enterprise-single-sign-on-configuration-1.md)
+
+[Security tips](security-and-protection1.md)
+
+[Host Integration Server VSS Writer](host-integration-server-vss-writer.md)
+
+[staticSql, drda.sqlErrorMappings, and drdaAs.drdaService configuration settings](application-configuration-settings.md)
+
+[Glossary](glossary2.md)
+
 ## Additional Resources  
  Plug into the Host Integration Server community to connect with other developers and get answers to your questions, read the latest from bloggers, see webcasts, find out about events, and participate in the TechNet Wiki.  
   

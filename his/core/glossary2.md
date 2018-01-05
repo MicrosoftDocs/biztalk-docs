@@ -1,5 +1,5 @@
 ---
-title: "Glossary2 | Microsoft Docs"
+title: "Glossary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"

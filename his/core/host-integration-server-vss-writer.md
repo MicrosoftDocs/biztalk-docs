@@ -1,5 +1,5 @@
 ---
-title: "Host Integration Server VSS Writer | Microsoft Docs"
+title: "VSS Writer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,7 +13,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Host Integration Server VSS Writer
+# HIS VSS Writer
 ## Purpose  
  The Host Integration Server VSS Writer Service provides added functionality for backup and restore of Host Integration Server through the Volume Shadow Copy Service framework.  The Host Integration Server Writer Service is installed automatically.  
   
