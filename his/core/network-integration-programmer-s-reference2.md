@@ -41,6 +41,3 @@ This section of [!INCLUDE[hishostintegrationserver2009](../includes/hishostinteg
   
 ## Related Sections  
  [Network Integration Programmer's Guide](./network-integration-programmer-s-guide2.md)  
-  
-## See Also  
- [Programmer's Reference](../core/programmer-s-reference2.md)

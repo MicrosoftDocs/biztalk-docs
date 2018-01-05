@@ -984,7 +984,7 @@
 ####### [Duplicate LU Pools with Host Integration Server and WMI](duplicate-lu-pools-with-host-integration-server-and-wmi1.md)
 
 ### [Programmer reference](network-integration-programmer-s-reference2.md)
-#### [APPC Programmer's Reference]](appc-programmer-s-reference]1.md)
+#### [APPC Programmer's Reference]](appc-programmer-s-reference1.md)
 ##### [APPC Management Verbs](appc-management-verbs1.md)
 ###### [ACTIVATE_SESSION](activate-session2.md)
 ###### [CNOS](cnos2.md)
