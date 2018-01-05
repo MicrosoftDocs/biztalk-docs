@@ -15,15 +15,8 @@ manager: "anneta"
 ---
 # Data Integration (Troubleshooting)
 The information in the following sections will help you troubleshoot issues with the Data Clients (DB2, Informix and Host Files) and Service for DRDA.  
+
+- [Data Clients](../core/data-clients.md)  
   
-## In This Section  
- [Data Clients](../core/data-clients.md)  
+- [Service for DRDA Troubleshooting](../core/service-for-drda-troubleshooting.md)  
   
- [Service for DRDA Troubleshooting](../core/service-for-drda-troubleshooting.md)  
-  
-## Reference  
-  
-## Related Sections  
-  
-## See Also  
- [Troubleshooting](../core/troubleshooting3.md)

@@ -1,5 +1,6 @@
 ---
-title: "Query Processor | Microsoft Docs"
+title: "Distributed and ad hoc queries | Microsoft Docs"
+description: Process distributed queries or ad hoc name queries, and create a link server for Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,12 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Query Processor
-This topic contains the following section:  
-  
--   [SQL Server Distributed Queries for DB2](../core/query-processor2.md#dist)  
   
 ##  <a name="dist"></a> SQL Server Distributed Queries for DB2  
- Distributed Queries in SQL Server 2012 provide distributed concurrent access to multiple data sources. The Distributed Query Processor (DQP) allows you to create heterogeneous queries that join tables in SQL Server with tables in DB2, Host File systems, Oracle, or any other data source accessible by an OLE DB provider. You can use DQP to create SQL Server views over DB2 tables so that developers can write directly to SQL Server and integrate both Windows-based and host-based data in their applications.  
+ Distributed Queries in SQL Server provide distributed concurrent access to multiple data sources. The Distributed Query Processor (DQP) allows you to create heterogeneous queries that join tables in SQL Server with tables in DB2, Host File systems, Oracle, or any other data source accessible by an OLE DB provider. You can use DQP to create SQL Server views over DB2 tables so that developers can write directly to SQL Server and integrate both Windows-based and host-based data in their applications.  
   
  The following diagram shows DQP architecture for accessing data with Host Integration Server (HIS).  
   
@@ -43,7 +41,7 @@ This topic contains the following section:
   
 3.  Pass-Through Queries  
   
- **Ad Hoc Name Queries**  
+## Ad Hoc Name Queries
   
  An ad hoc name is used for infrequent queries against OLE DB data sources that are not defined as linked servers. In SQL Server, the **OPENROWSET** and **OPENDATASOURCE** functions provide connection information for accessing data from OLE DB data sources. By default, ad hoc names are not supported. The **DisallowAdhocAccess** provider option must be set to 0 and the **Ad Hoc Distributed Queries** advanced configuration option must be enabled.  
   
@@ -92,10 +90,11 @@ FROM OPENDATASOURCE(
   
  OPENROWSET and OPENDATASOURCE should be used only to reference OLE DB data sources that are accessed infrequently. For any data sources that will be accessed more than several times, define a linked server. Neither OPENDATASOURCE nor OPENROWSET provide all the functionality of linked server definitions. For example, OPENROWSET and OPENDATASOURCE are macros and do not support supplying Transact-SQL variables as arguments. Ad hoc name queries do not include security management or the ability to query catalog information. Each time that these functions are called, all connection information, including passwords, must be provided.  
   
- **Defining a Linked Server**  
+## Define a Linked Server
   
  You can create a linked server name that defines a connection to DB2 by using Transact-SQL statements, or through the SQL Server Management Studio user interface.  
-  
+
+#### Transact-SQL  
  The following code fragment demonstrates the Transact-SQL syntax for dropping, creating, and specifying authentication credentials for a linked server name definition.  
   
 ```  
@@ -312,7 +311,8 @@ EXEC ( 'CALL NWIND.CUSTORD(?)', @CUSTID)  AT DB2EXAMPLE;
 GO  
   
 ```  
-  
+
+#### SQL Server Management Studio
  You can also use SQL Server Management Studio to define SELECT, INSERT, UPDATE and DELETE statements that use four-part named linked server queries. These queries provide a common Transact-SQL syntax that can be used over heterogeneous data sources.  
   
  Follow these steps to define a linked server from the SQL Server Management Studio:  

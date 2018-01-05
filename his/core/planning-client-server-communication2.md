@@ -14,9 +14,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Planning Client/Server Communication
-This section explains how clients using different local area network (LAN) protocols can communicate with [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers. The section includes an overview of how network protocols are used on clients, and how client logons work. Also included are procedures for checking the setup options for Host Integration Server specified on a client or server. These setup options must be specified correctly in order for the client to communicate with a Host Integration Server computer. You will also find descriptions and illustrations of how clients using each of the possible protocols locate a Host Integration Server computer in the network.  
+
+## Overview
+Clients use different local area network (LAN) protocols can communicate with [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers. The section includes an overview of how network protocols are used on clients, and how client logons work. Also included are procedures for checking the setup options for Host Integration Server specified on a client or server. These setup options must be specified correctly in order for the client to communicate with a Host Integration Server computer. You will also find descriptions and illustrations of how clients using each of the possible protocols locate a Host Integration Server computer in the network.  
   
-## In This Section  
+## Next steps
   
 -   [Overview of Network Protocols for Clients](../core/overview-of-network-protocols-for-clients2.md)  
   
@@ -24,5 +26,3 @@ This section explains how clients using different local area network (LAN) proto
   
 -   [Details about How Clients Use Protocols](../core/details-about-how-clients-use-protocols1.md)  
   
-## See Also  
- [Network Integration (Planning)](../core/network-integration-planning-1.md)

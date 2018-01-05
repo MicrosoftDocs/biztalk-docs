@@ -1,5 +1,5 @@
 ---
-title: "Data Integration (Planning)1 | Microsoft Docs"
+title: "Architect Data Integration solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,9 +13,11 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Data Integration (Planning)
-Enterprise IT organizations need to deliver new solutions that extend investments in existing IBM systems and data stores. [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] offers both data client technologies and a data service to enable IT professionals, enterprise developers and knowledge workers to connect and integrate IBM DB2 and Informix relational database management systems and record-oriented host file systems with new solutions based on Microsoft Windows.  
+# Create Data Integration solutions
+
+## Overview
+Enterprise IT organizations need to deliver new solutions that extend investments in existing IBM systems and data stores. Host Integration Server offers data client technologies and a data service. These features enable IT professionals, enterprise developers, and knowledge workers to connect and integrate IBM DB2 and Informix relational database management systems and record-oriented host file systems with new solutions based on Microsoft Windows.  
   
-## See Also  
- [Planning and Architecting Solutions Using Data Clients](../core/planning-and-architecting-solutions-using-data-clients.md)   
- [Planning and Architecting Solutions Using Microsoft Service for DRDA](../core/planning-and-architecting-solutions-using-microsoft-service-for-drda.md)
+## Next steps
+ [Plan and Architect Solutions Using Data Clients](../core/planning-and-architecting-solutions-using-data-clients.md)   
+ [Plan and Architect Solutions Using Microsoft Service for DRDA](../core/planning-and-architecting-solutions-using-microsoft-service-for-drda.md)

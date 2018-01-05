@@ -22,17 +22,7 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
 >  To install and configure HIS, and read about what's new, go to [Host Integration Server Installation and Configuration](../install-and-config-guides/host-integration-server-installation-and-configuration.md).  
   
 ## Contents  
- [Planning and Architecture](../core/planning-and-architecture1.md)  
-  
- [Deployment](../core/deployment2.md)  
-  
- [Operations](../core/operations1.md)  
-  
- [Security and Protection](../core/security-and-protection1.md)  
-  
- [Troubleshooting](../core/troubleshooting3.md)  
-  
- [Development](../core/development2.md)  
+
   
  [Enterprise Single Sign-On](../esso/enterprise-single-sign-on1.md)  
   

@@ -43,7 +43,7 @@ You can create connections between [!INCLUDE[hisHostIntServNoVersion](../include
   
  If you use a wizard to create your connections, most of the configuration information is added along with the criteria you entered when the wizard runs.  
   
- If you need to configure a connection manually, you may need to verify some of your connection information. For more information, see [Important Connection Information](../core/important-connection-information2.md).  
+ If you need to configure a connection manually, you may need to verify some of your connection information. See [Make a connection](making-a-connection2.md).
   
 ## See Also  
  [Configuring an IP-DLC Connection](../core/configuring-an-ip-dlc-connection2.md)

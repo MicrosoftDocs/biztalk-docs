@@ -1,7 +1,8 @@
 ---
-title: "Message Integration (Configuration)2 | Microsoft Docs"
+title: "Message Integration | Microsoft Docs"
+description: Configure BizTalk artifacts using the WebSphere MQ adapter, create a custom pipeline to do built-in transformation, and create WCF solutions for WebSphere MQ - Host Integration Server (HIS)
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "01/04/2018"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,15 +14,13 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Message Integration (Configuration)
-This section contains the following topics:  
+# Get started with message integration - HIS
   
-## In This Section  
- [BizTalk Adapter for WebSphere MQ &#91;bpi&#93;](http://msdn.microsoft.com/en-us/dd7c7007-d20f-4c55-b64d-9782982ade06)  
-  
- [BizTalk Pipeline Conversion Library Wizard](../core/biztalk-pipeline-conversion-library-wizard1.md)  
-  
- [MQ Channel Library Wizard](../core/mq-channel-library-wizard1.md)  
-  
-## See Also  
- [Deployment](../core/deployment2.md)
+## [BizTalk Adapter for WebSphere MQ](biztalk-adapter-for-websphere-mq2.md)  
+The WebSphere MQ adapter for BizTalk provides a client and server adapter that is used to send and receive messages between MQ and BizTalk Server. See how to use the adapter within receive locations and send ports, and use SSL for transactional and non-transactional messages. 
+
+## [BizTalk Pipeline Conversion Library Wizard](../core/biztalk-pipeline-conversion-library-wizard1.md)  
+This Visual Studio wizard creates a pipeline that can add or convert messages to do built-in transformation or formatting.
+
+## [MQ Channel Library Wizard](../core/mq-channel-library-wizard1.md)  
+Use this wizard to create WCF solutions with WebSphere MQ.

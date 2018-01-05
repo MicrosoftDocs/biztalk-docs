@@ -1,5 +1,5 @@
 ---
-title: "Data Integration (Operations)2 | Microsoft Docs"
+title: "Data Integration (Operations) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,10 +16,7 @@ manager: "anneta"
 # Data Integration (Operations)
 This section contains topics relating to operations and performance.  
   
-## In This Section  
+## Next steps
  [Data Clients](../core/data-clients-operations.md)  
   
  [Managing the DRDA Service](../core/service-for-drda-operations.md)  
-  
-## See Also  
- [Operations](../core/operations1.md)

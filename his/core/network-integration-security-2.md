@@ -1,5 +1,5 @@
 ---
-title: "Network Integration (Security)2 | Microsoft Docs"
+title: "Network Integration Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,8 +13,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Network Integration (Security)
-## In This Section  
+# Secure your network integration
+
+## Next steps
  [Understanding Windows Security](../core/understanding-windows-security1.md)  
   
  [Resource Security](../core/resource-security1.md)

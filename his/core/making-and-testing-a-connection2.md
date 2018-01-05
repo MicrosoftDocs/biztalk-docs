@@ -1,5 +1,5 @@
 ---
-title: "Making and Testing a Connection2 | Microsoft Docs"
+title: "Make and Test a Connection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,18 +14,18 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Making and Testing a Connection
-This section provides the procedures used to make successful connections. Several steps are required to connect your host system to [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
+Procedures used to make successful connections. Several steps are required to connect your host system to [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
  One way to remember the four steps required to make a successful connection is with the acronym **LCLUA** that stands for **L**-Link Service, **C**-Connection, **LU**-LUs and **A**-Adding and Assigning Users.  
   
- For information on the new IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).  
+ For information on the IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).  
   
  For information about configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] for your enterprise environment, see [Configuring Your Enterprise](../core/configuring-your-enterprise1.md).  
   
-## In This Section  
- [Important Connection Information](../core/important-connection-information2.md)  
+## Next steps
+ [Make a connection](making-a-connection2.md)  
   
- [Important Configuration Information](../core/important-configuration-information2.md)  
+ [SNA Manager](sna-manager1.md)  
   
  [Step 1 (L) Creating and Configuring Link Services](../core/step-1-l-creating-and-configuring-link-services1.md)  
   
