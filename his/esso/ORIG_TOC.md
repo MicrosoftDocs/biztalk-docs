@@ -182,7 +182,6 @@
 # [SAdapter.bstrAdapterName Field](sadapter-bstradaptername-field.md)
 # [How to Configure the Enterprise Single Sign-On Tickets](how-to-configure-the-enterprise-single-sign-on-tickets.md)
 # [SStatus Fields](sstatus-fields.md)
-# [Single Sign-On Samples](single-sign-on-samples.md)
 # [ISSOMapping.WindowsUserName Property](issomapping-windowsusername-property.md)
 # [Creating Affiliate Applications for Host Initiated SSO](creating-affiliate-applications-for-host-initiated-sso.md)
 # [How to Set Credentials for a User Mapping](how-to-set-credentials-for-a-user-mapping.md)
