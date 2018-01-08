@@ -35,4 +35,4 @@ Enterprise Single Sign-On (SSO) provides services to enable single sign-on for e
   
  [Enterprise Single Sign-on  Programmer's Reference](../esso/enterprise-single-sign-on-programmer-s-reference.md)  
   
- [Single Sign-On Samples](../esso/single-sign-on-samples.md)
+ [Loopback Adapter Sample](loopback-adapter-sample.md)

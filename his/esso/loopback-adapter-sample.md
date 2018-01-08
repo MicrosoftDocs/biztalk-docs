@@ -35,5 +35,4 @@ The Loopback Adapter sample is a password sync adapter for Enterprise Single-Sig
 |README.txt|Shows the steps to build and run the application.|  
   
 ## See Also  
- [Single Sign-On Samples](../esso/single-sign-on-samples.md)   
  [Creating a Single Sign-On Application](../esso/creating-a-single-sign-on-application.md)

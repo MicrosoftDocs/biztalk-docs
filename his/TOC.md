@@ -1,4 +1,4 @@
-# [core](core\TOC.md)
-# [db2oledbv](db2oledbv\TOC.md)
-# [esso](esso\TOC.md)
-# [install-and-config-guides](install-and-config-guides\TOC.md)
+# [Install and configure HIS](install-and-config-guides\TOC.md)
+# [Core](core\TOC.md)
+# [Enterprise single sign-on](esso\TOC.md)
+# [DB2OLEDBV](db2oledbv\TOC.md)
