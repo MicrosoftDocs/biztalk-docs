@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: eb1dc7ed-fbe9-44fe-972b-18b458110346
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Import RPG Source File Wizard Page

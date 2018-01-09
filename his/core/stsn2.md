@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 27c398c0-c8f8-4e03-96c8-38808bdb135f
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # STSN

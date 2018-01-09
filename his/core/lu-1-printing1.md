@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ed618f4d-4f77-4a96-bb91-a63edae56e77
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # LU 1 Printing

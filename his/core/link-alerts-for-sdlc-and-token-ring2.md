@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0f49395d-690f-4bdf-8e92-49276b258c3a
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Link Alerts for SDLC and Token Ring

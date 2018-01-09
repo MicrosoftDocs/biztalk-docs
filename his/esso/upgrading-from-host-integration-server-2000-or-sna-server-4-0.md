@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7bd636a9-cdad-4773-b3b8-d7904eab85f4
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Upgrading from Host Integration Server 2000 or SNA Server 4.0

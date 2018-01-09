@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5bcfe083-1a6a-4736-87cb-ef813f4bd275
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # MsSnaStatus_Lu3270.Stop Method

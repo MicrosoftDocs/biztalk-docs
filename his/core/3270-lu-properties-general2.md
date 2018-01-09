@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_LU_3270"
 ms.assetid: 0e62f7b8-e92f-41ae-b76f-341758bf7917
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # 3270 LU Properties: General

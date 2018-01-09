@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b5a9f8fc-2194-4dc9-a17f-d44c86f2abc4
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # MsSnaStatus_ClientConnections Class

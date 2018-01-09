@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b5cc624d-24b8-46cd-b940-2e02a8c33e5c
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # ISSOLookup1 Interface (COM)

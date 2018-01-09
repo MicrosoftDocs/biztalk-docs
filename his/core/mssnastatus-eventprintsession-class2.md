@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 05c7207f-e31a-4859-ab36-0ecec70d1cdf
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # MsSnaStatus_EventPrintSession Class

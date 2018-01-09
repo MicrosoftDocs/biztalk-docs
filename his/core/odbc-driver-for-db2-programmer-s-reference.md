@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c5f21fcd-4374-42d6-9fbc-6932ded932ba
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # ODBC Driver for DB2 Programmer&#39;s Reference

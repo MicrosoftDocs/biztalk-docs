@@ -11,8 +11,8 @@ f1_keywords:
   - "15449"
 ms.assetid: 963516b2-c79f-4524-9eb6-e86105449bc2
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Map Remote Environment Class Dialog Box

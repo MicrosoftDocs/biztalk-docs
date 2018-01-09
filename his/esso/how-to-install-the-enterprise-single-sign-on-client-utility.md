@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b517ce65-85c8-419d-851b-cf025d3b0e4e
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # How to Install the Enterprise Single Sign-On Client Utility

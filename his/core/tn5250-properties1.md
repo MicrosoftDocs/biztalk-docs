@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_TN5250Service"
 ms.assetid: bbf4f548-eaf2-4107-99b3-e5cfbd5d88ef
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # TN5250 Properties

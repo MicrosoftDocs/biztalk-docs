@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Folder_User"
 ms.assetid: 9764829f-e785-4a08-ac9c-0ea7ded5570f
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # How to Add New Users

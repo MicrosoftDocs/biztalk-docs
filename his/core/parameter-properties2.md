@@ -11,8 +11,8 @@ f1_keywords:
   - "15431"
 ms.assetid: 254daacf-fd18-42fc-aa67-1b4e9b62ceea
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Parameter Properties

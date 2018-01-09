@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_User"
 ms.assetid: 74cf4954-e154-41e5-8f0d-79cbd1e506b5
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # User Properties

@@ -11,8 +11,8 @@ f1_keywords:
   - "15419"
 ms.assetid: aa8575bb-392d-468a-a760-a75dee58e807
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Completing the Import COBOL Wizard Page

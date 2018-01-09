@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "15433"
 ms.assetid: bbbe57e5-4781-4428-bfd9-4128d591051f
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Recordset Column Properties

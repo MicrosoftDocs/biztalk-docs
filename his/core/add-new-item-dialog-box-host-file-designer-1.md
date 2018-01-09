@@ -11,8 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.wizard.hostfiles"
 ms.assetid: eeb46b1f-4ea8-416b-9b71-1ebd33a9d7ed
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Add New Item Dialog Box (Host File Designer)

@@ -11,8 +11,8 @@ f1_keywords:
   - "15460"
 ms.assetid: 9819b049-2298-4f3c-9713-a1b451dd76ab
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Host Environment Wizard Page (.NET Server Wizard)

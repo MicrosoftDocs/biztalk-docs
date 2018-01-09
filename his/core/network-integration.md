@@ -5,8 +5,8 @@ ms.custom: ""
 ms.date: 01/03/2018
 ms.prod: "host-integration-server"
 ms.topic: "article"
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 

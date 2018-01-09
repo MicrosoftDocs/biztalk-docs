@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_PU_8022"
 ms.assetid: 5f2555f5-3e47-420b-994b-d3843348fba8
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Host Configuration

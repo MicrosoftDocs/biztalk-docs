@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Node"
 ms.assetid: e2067e95-f029-48d2-8a65-f22bdf06f144
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Service Folder

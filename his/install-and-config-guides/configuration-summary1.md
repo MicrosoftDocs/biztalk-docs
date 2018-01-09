@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.summary"
 ms.assetid: 464eb2dc-7b7f-4e25-961d-8d2e7d80daa3
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration Summary

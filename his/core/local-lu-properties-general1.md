@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_LU_AppcLocal"
 ms.assetid: 7b4087aa-b3d8-4531-86a4-03c257457151
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Local LU Properties: General

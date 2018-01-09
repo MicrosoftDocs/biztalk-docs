@@ -11,8 +11,8 @@ f1_keywords:
   - "15469"
 ms.assetid: 5c0a42a7-0e0a-4ad5-996a-2cc4d2c3e21c
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Data Tables Node

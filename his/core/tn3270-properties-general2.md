@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_TN3270Service"
 ms.assetid: 2d4ba716-2681-451a-b859-4e95d3fa2640
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # TN3270 Properties: General

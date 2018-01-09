@@ -11,8 +11,8 @@ f1_keywords:
   - "15410"
 ms.assetid: c1972f59-acec-466c-b460-771a4bc3905c
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Input Area Wizard Page

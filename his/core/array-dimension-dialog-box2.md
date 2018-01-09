@@ -11,8 +11,8 @@ f1_keywords:
   - "15448"
 ms.assetid: 21c84e0d-4bff-44e3-a699-d37ffbe7eb78
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Array Dimension Dialog Box

@@ -11,8 +11,8 @@ f1_keywords:
   - "15428"
 ms.assetid: 5dca8260-88a4-4222-839e-395ceef24dcb
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Library (MQ Channel Library Wizard)

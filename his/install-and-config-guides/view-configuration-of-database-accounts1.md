@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.databaseaccounts"
 ms.assetid: 1cb4f693-8e2b-4ecf-960c-45c2c280943f
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # View Configuration of Database Accounts

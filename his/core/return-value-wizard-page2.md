@@ -11,8 +11,8 @@ f1_keywords:
   - "15412"
 ms.assetid: 029390da-640a-4066-90bf-9d1ccb013162
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Return Value Wizard Page

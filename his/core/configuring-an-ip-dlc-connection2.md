@@ -11,8 +11,8 @@ f1_keywords:
   - "his_ip_dlc_managing_ip_dlc_link_service_connections_kmdz"
 ms.assetid: 4ccd47be-df34-4e22-a748-dc92edbff933
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuring an IP-DLC Connection

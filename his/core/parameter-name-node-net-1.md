@@ -11,8 +11,8 @@ f1_keywords:
   - "15468"
 ms.assetid: dcf44507-fcb0-41c5-ad77-9f40cf7105ac
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Parameter Name Node (.NET)

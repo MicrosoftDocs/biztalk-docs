@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.serviceaccounts"
 ms.assetid: 1b4b746c-0ae1-4964-84fc-e60c7b29b098
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # View Configuration of Service Accounts

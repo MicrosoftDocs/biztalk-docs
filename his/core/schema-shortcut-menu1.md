@@ -11,8 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfiles.schema"
 ms.assetid: db69d272-ae3a-49d7-a318-50cc312fc5f0
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Schema Shortcut Menu

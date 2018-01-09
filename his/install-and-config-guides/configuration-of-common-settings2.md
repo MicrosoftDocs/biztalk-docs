@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.common.settings"
 ms.assetid: 8031d42f-1641-4ec5-aa7d-460ccb409102
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration of Common Settings

@@ -11,8 +11,8 @@ f1_keywords:
   - "15432"
 ms.assetid: 092cec85-16ec-475f-aadc-4853b178146f
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Recordset Properties

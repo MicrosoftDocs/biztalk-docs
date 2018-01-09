@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Folder_ActiveUser"
 ms.assetid: e4a858d6-3c7a-4865-b3a4-57ea9eefcfd2
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Active Users

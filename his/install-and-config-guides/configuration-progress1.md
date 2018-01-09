@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.progress"
 ms.assetid: afad6d2f-d380-48d0-b142-37ae44736085
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration Progress

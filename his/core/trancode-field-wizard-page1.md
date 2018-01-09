@@ -11,8 +11,8 @@ f1_keywords:
   - "15416"
 ms.assetid: c5228372-892e-42de-b2a4-52e33c5da2ba
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # TRANCODE Field Wizard Page

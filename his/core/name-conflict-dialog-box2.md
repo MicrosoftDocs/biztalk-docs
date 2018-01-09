@@ -11,8 +11,8 @@ f1_keywords:
   - "15447"
 ms.assetid: 26f9c350-eaa7-455f-9f78-2fc1072318e0
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Name Conflict Dialog Box

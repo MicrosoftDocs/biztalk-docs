@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Domain"
 ms.assetid: 21420c12-fa88-49c2-9b16-2abcef9823ac
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Domain Properties
