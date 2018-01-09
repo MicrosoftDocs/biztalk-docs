@@ -11,8 +11,8 @@ f1_keywords:
   - "15451"
 ms.assetid: b149b898-9f07-4cf2-bbc3-88316aa93885
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Welcome to the New .NET Server Library Wizard Page

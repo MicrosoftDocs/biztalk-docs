@@ -11,8 +11,8 @@ f1_keywords:
   - "15413"
 ms.assetid: 4854936c-6a17-49f1-b076-516d40ffc8a5
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Recordsets (COBOL) &amp; UDT Wizard Page

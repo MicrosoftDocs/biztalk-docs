@@ -11,8 +11,8 @@ f1_keywords:
   - "15434"
 ms.assetid: 75b7ffe0-1c86-4ae8-9f35-9a0544d3ec46
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # User-Defined Type Properties

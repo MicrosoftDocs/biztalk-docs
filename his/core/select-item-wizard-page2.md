@@ -11,8 +11,8 @@ f1_keywords:
   - "15422"
 ms.assetid: 31fa3784-b5ed-488c-b659-42283c3f811f
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Select Item Wizard Page

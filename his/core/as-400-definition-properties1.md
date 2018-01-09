@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_AS400TN"
 ms.assetid: ccb6fc38-ca11-4089-b085-a7eef713585c
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # AS/400 Definition Properties

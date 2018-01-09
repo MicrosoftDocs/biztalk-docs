@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f6fb423f-0401-4346-b1fa-c55a32533583
 caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Distributed Relational Database Architecture (DRDA) Protocol Errors

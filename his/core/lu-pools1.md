@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Folder_Pool"
 ms.assetid: 6440fd0c-40e2-43e7-b53b-dd7519dfd99e
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # LU Pools

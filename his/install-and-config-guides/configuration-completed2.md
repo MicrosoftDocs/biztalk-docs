@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.result"
 ms.assetid: 642822f4-2ad7-4e78-907d-9e78ff2a4d7f
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration Completed

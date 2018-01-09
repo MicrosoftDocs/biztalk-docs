@@ -11,8 +11,8 @@ f1_keywords:
   - "his_srvconfig_KJAR"
 ms.assetid: 208e95de-012c-4103-8b90-9f1f7db9cc03
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # LUA LU Properties: General

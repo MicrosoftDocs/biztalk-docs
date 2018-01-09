@@ -11,8 +11,8 @@ f1_keywords:
   - "15429"
 ms.assetid: 07c70adc-071c-4347-8f76-cf69c977f2fb
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Interface Properties

@@ -11,8 +11,8 @@ f1_keywords:
   - "snaprint_server"
 ms.assetid: 7d42c85f-67f8-458d-8abb-cf60072cd471
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Print Service Properties

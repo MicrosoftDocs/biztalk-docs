@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "ebiz.his.2006.tidesigner.node.BTSpipeline.libraryname"
 ms.assetid: 99373c45-afaa-4f4b-abc2-abf140bd5158
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Library (Pipeline Conversion Library Wizard)

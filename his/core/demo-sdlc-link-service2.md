@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Link_SDLC"
 ms.assetid: 103f227e-9eed-491c-871f-1628959f3aa5
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Demo SDLC Link Service

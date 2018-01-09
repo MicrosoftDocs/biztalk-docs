@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.session.integrator"
 ms.assetid: 1f9588f3-df01-48d6-9bd0-b47e8d7f309d
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration of Session Integrator

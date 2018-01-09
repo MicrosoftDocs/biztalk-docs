@@ -11,8 +11,8 @@ f1_keywords:
   - "15418"
 ms.assetid: 7134a3db-4e77-42bd-a814-2b1dcf43718a
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # User Defined Type Members Wizard Page

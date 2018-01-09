@@ -11,8 +11,8 @@ f1_keywords:
   - "15401"
 ms.assetid: 72b20241-87a6-4e06-88c2-825621af7ee4
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Welcome to the New .NET Client Library Wizard Page

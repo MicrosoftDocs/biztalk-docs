@@ -11,8 +11,8 @@ f1_keywords:
   - "15474"
 ms.assetid: 453e7bd0-c5ab-4443-af41-0663d5ee40a8
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Structure Member Name Node

@@ -11,8 +11,8 @@ f1_keywords:
   - "mqb_mqi_channels_tab"
 ms.assetid: 53c055da-8059-4373-9aa3-cb6931c13ab8
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # MQ Channel (MQ Channel Library Wizard)

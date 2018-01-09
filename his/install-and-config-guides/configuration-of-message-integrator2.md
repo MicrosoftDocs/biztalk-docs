@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.MQChannel.Hosting.Service"
 ms.assetid: 174028e5-e2dd-4b51-8399-da627261268a
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration of Message Integrator

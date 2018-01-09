@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.databaseview"
 ms.assetid: 9d0745f3-3d1e-4f07-9b10-0b2bc223f30b
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # View Configuration of Databases

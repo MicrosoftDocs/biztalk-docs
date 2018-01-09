@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba4b6249-c13b-4975-833d-e3c01e2a5027
 caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Windows PowerShell and WMI Provider for HIS

@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Folder_RemoteAppcLu"
 ms.assetid: 69b45413-4995-4b3d-b3f2-2dbcf8580736
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Remote APPC LUs Folder

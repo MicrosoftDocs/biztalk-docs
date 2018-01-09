@@ -11,8 +11,8 @@ f1_keywords:
   - "cpic_security_settings"
 ms.assetid: a4c1b872-36e3-427e-b2c9-7065076dceec
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # CPI-C Symbolic Name: Security Settings

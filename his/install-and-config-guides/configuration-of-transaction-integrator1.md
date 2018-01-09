@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.transaction.integrator"
 ms.assetid: d2212cb5-7000-418e-be99-39ecb2c9f7c4
 caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration of Transaction Integrator

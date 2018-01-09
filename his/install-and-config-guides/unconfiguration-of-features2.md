@@ -11,8 +11,8 @@ f1_keywords:
   - "config.wiz.unconfigure"
 ms.assetid: 57eb8810-81ea-4b7a-91a3-0e4a05d4882a
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Unconfiguration of Features

@@ -11,8 +11,8 @@ f1_keywords:
   - "SNA_Folder_LocalAppcLu"
 ms.assetid: cf41b98c-def8-477a-8c5f-cafddb2c022e
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Local APPC LUs Folder

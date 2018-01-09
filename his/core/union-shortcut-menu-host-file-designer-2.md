@@ -11,8 +11,8 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfiles.union"
 ms.assetid: 0442b9d2-1e7b-4580-8782-17eb86470313
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Union Shortcut Menu (Host File Designer)

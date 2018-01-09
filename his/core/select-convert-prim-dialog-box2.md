@@ -11,8 +11,8 @@ f1_keywords:
   - "15450"
 ms.assetid: 316ac873-619a-4412-98b6-cd63ae6fd282
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
+author: "gplarsen"
+ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Select Convert Prim Dialog Box
