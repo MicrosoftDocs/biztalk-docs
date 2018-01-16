@@ -42,7 +42,9 @@ BAM stores data for incomplete activity instances in a special *active instance*
 2.  If data from external systems indicates that the activity instance is in fact completed, run the following query to manually complete the instance:  
   
     ```  
+    begin transaction
     exec bam_<ActivityName>_PrimaryImport @ActivityID=N'<ActivityID>', @IsStartNew=0, @IsComplete=1  
+    commit transaction
     ```  
   
 > [!NOTE]
