@@ -231,6 +231,9 @@ AS
     COMMIT TRAN      
 GO  
 ```  
-  
+
+## Another method of resolving incomplete instances
+You can also resolve incomplete activity instances from the BAMPrimaryImport database by using a SQL query. See [Resolve incomplete activity instances](how-to-resolve-incomplete-activity-instances.md).
+
 ## See Also  
  [Managing BAM Databases](../core/managing-bam-databases.md)
