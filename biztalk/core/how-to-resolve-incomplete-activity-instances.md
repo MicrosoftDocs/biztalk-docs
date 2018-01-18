@@ -25,7 +25,7 @@ BAM stores data for incomplete activity instances in a special *active instance*
 ## Prerequisites  
 Sign in as a member of the BizTalk Server Administrators group.  
   
-## Generate a list of incomplete ActivityIDs for an activity  
+## Create a list of incomplete ActivityIDs 
   
 1.  Run the following query against the BAMPrimaryImport database:  
   
@@ -45,6 +45,9 @@ Sign in as a member of the BizTalk Server Administrators group.
 >  You can follow the same process to complete a continuation activity by replacing `ActivityID` with `ContinuationID`.  
 > 
 >  If the main trace has any active continuation traces, it remains active until the continuation traces are completed.  
-  
+
+## Remove incomplete instances
+You can also remove incomplete activity instances from the BAMPrimaryImport database using a custom SQL script. See [Remove incomplete activity instances](how-to-remove-incomplete-activity-instances.md) for a sample.
+
 ## See Also  
  [Backing Up and Restoring BAM](../core/backing-up-and-restoring-bam.md)
