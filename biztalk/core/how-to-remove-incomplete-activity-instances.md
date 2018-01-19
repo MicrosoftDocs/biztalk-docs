@@ -1,7 +1,8 @@
 ---
-title: "How to Remove Incomplete Activity Instances | Microsoft Docs"
+title: "Remove Incomplete Activity Instances | Microsoft Docs"
+description: Execute the custom RemoveDanglingInstances SQL script to remove incomplete instances from the BAM Primary Import database in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "01/18/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -14,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Remove Incomplete Activity Instances
+# Remove Incomplete Activity Instances
 When a BAM definition file is deployed, five tables are created in the BAM Primary Import database for each activity defined in the definition file. These tables are:  
   
 -   bam_`ActivityName`_Active  
@@ -35,33 +36,29 @@ When a BAM definition file is deployed, five tables are created in the BAM Prima
   
  To create the stored procedure, copy the script and execute it against the BAM Primary Import database by using SQL Server Management. The script will generate a stored procedure named **RemoveDanglingInstances** in the database.  
   
-### To create the RemoveDanglingInstances stored procedure  
+## Create the RemoveDanglingInstances stored procedure  
   
-1.  Click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 SP1** or **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.  
+1.  Open **SQL Server Management Studio**, and connect to the SQL server.
   
-2.  In the **Connect to Server** dialog box, select the SQL server and the appropriate authentication method, and then click **Connect**.  
+2.  Expand the server name, expand **Databases**, and then select the BAM Primary Import database.  
   
-3.  Expand the server name, expand **Databases**, and then select the BAM Primary Import database.  
+3.  Click **New Query**.  
   
-4.  Click **New Query**.  
+4.  Copy the stored procedure creation script, and paste it into the query pane.  
   
-5.  Copy the stored procedure creation script and paste it into the right pane.  
+5.  **Execute** the script. The resulting stored procedure can be viewed in the list of stored procedures as dbo.RemoveDanglingInstances.  
   
-6.  Click **Execute** to run the script. The resulting stored procedure can be viewed in the list of stored procedures as dbo.RemoveDanglingInstances.  
+## Remove incomplete activity instances  
   
-### To remove incomplete activity instances  
+1.  Open **SQL Server Management Studio**, and connect to the SQL server.
   
-1.  Click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 SP1** or **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.  
+2.  Expand the server name, expand **Databases**, and then select the BAM Primary Import database.  
   
-2.  In the **Connect to Server** dialog box, select the SQL server and the appropriate authentication method, and then click **Connect**.  
+3.  Click **New Query**.  
   
-3.  Expand the server name, expand **Databases**, and then select the BAM Primary Import database.  
+4.  In the query pane, type `exec RemoveDanglingInstances` and the appropriate parameters for the remove operation you are performing. For example, to remove all incomplete instances of the Purchase Order activity, type `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`.  
   
-4.  Click **New Query**.  
-  
-5.  In the right pane, type `exec RemoveDanglingInstances` and the appropriate parameters for the remove operation you are performing. For example, to remove all incomplete instances of the Purchase Order activity, type `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`.  
-  
-6.  Click **Execute** to run the script.  
+5.  **Execute** the script.  
   
 ## RemoveDanglingInstances Usage Examples  
  The stored procedure can receive four parameters:  
@@ -231,6 +228,9 @@ AS
     COMMIT TRAN      
 GO  
 ```  
-  
+
+## Another method of resolving incomplete instances
+You can also resolve incomplete activity instances from the BAMPrimaryImport database by using a SQL query. See [Resolve incomplete activity instances](how-to-resolve-incomplete-activity-instances.md).
+
 ## See Also  
  [Managing BAM Databases](../core/managing-bam-databases.md)
