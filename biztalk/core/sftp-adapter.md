@@ -1,7 +1,7 @@
 ---
 title: "SFTP Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "01/23/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -139,6 +139,23 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
   
 4.  Click **OK** and **OK** again to save settings.  
   
+## Using a newer version of WinSCP
+
+If you want to use a newer version of WinSCP together with BizTalk Server you will need to add an assembly redirection so BizTalk knows which assembly to load. The redirection is configured in the BizTalk Server configuration files, BTSNTSVC.exe.config for 32-bit host instances and BTSNTSVC64.exe.config for 64-bit host instances.
+
+`<configuration>
+    <runtime>
+        <assemblyBinding>
+            <dependentAssembly>
+                <assemblyIdentity name="WinSCPnet" publicKeyToken="2271ec4a3c56d0bf" culture="neutral" />
+                  <bindingRedirect oldVersion="1.2.10.6257" newVersion="%NEWVERSION%"/>
+            </dependentAssembly>
+        </assemblyBinding>
+    </runtime>
+ </configuration>`
+
+![Assembly redirect in the configuration file.](media/AssemblyRedirect.png)
+
 ## Frequently asked questions  
   
 |Question|Answer|  
