@@ -143,16 +143,16 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
 
 If you want to use a newer version of WinSCP together with BizTalk Server you will need to add an assembly redirection so BizTalk knows which assembly to load. The redirection is configured in the BizTalk Server configuration files, BTSNTSVC.exe.config for 32-bit host instances and BTSNTSVC64.exe.config for 64-bit host instances.
 
-`<configuration>
-    <runtime>
-        <assemblyBinding>
-            <dependentAssembly>
-                <assemblyIdentity name="WinSCPnet" publicKeyToken="2271ec4a3c56d0bf" culture="neutral" />
-                  <bindingRedirect oldVersion="1.2.10.6257" newVersion="%NEWVERSION%"/>
-            </dependentAssembly>
-        </assemblyBinding>
-    </runtime>
- </configuration>`
+`<configuration>`<br>
+&nbsp;&nbsp;&nbsp;`<runtime>`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<assemblyBinding>`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<dependentAssembly>`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<assemblyIdentity name="WinSCPnet" publicKeyToken="2271ec4a3c56d0bf" culture="neutral" />`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<bindingRedirect oldVersion="1.2.10.6257" newVersion="%NEWVERSION%"/>`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`</dependentAssembly>`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`</assemblyBinding>`<br>
+&nbsp;&nbsp;&nbsp;`</runtime>`<br>
+ `</configuration>`
 
 ![Assembly redirect in the configuration file.](media/AssemblyRedirect.png)
 
