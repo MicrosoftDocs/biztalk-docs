@@ -1,5 +1,4 @@
 # [HIS - Install & Config](host-integration-server-installation-and-configuration.md)
-## [What is HIS](what-is-his.md)
 ## [HIS 2016 - What's New, Release Notes, System Requirements, and Installation](his-2016-what-s-new-release-notes-system-requirements-and-installation.md)
 ### [What's New in HIS 2016](what-s-new-in-his-2016.md)
 ### [Release Notes](release-notes.md)

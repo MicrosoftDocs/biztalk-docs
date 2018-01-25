@@ -1,0 +1,20 @@
+- name: Host Integration Server
+  tocHref: /his/
+  topicHref: /his/index
+  items:
+  - name: What is HIS
+    tocHref: /his/
+    topicHref: /his/install-and-config-guides/what-is-his
+  - name: Install and configure
+    tocHref: /his/install-and-config-guides/
+    topicHref: /his/install-and-config-guides/host-integration-server-installation-and-configuration
+  - name: HIS Core Documentation
+    tocHref: /his/core/
+    topicHref: /his/core/host-integration-server-core-documentation
+  - name: Enterprise single sign-on
+    tocHref: /his/esso/
+    topicHref: /his/esso/enterprise-single-sign-on1
+  - name: DB2 OLEDB
+    tocHref: /his/db2oledbv/
+    topicHref: /his/db2oledbv/microsoft-ole-db-provider-for-db2
+
