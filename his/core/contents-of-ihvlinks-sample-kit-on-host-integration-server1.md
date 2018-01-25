@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Contents of IHVLinks Sample Kit on Host Integration Server
-You can view the sample source code for a generic Synchronous Data Link Control (SDLC) integrated link configuration Windows Installer (MSI) package that illustrates an integrated independent hardware vendor (IHV) link service installation. These files are copied to your hard drive during Host Integration Server software or Host Integration Client software installation when the Host Integration Server Software Development Kit (SDK) option is selected. These samples are installed in the SDK\Samples\IHVLinks subdirectory below where the Host Integration Server SDK software is installed (C:\Program Files\\[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]\SDK, by default).  
+You can view the sample source code for a generic Synchronous Data Link Control (SDLC) integrated link configuration Windows Installer (MSI) package that illustrates an integrated independent hardware vendor (IHV) link service installation. These files are copied to your hard drive during Host Integration Server software or Host Integration Client software installation when the Host Integration Server Software Development Kit (SDK) option is selected. These samples are installed in the SDK\Samples\IHVLinks subdirectory below where the Host Integration Server SDK software is installed (C:\Program Files\\Host Integration Server\SDK, by default).  
   
  These sample files include the following directories.  
   

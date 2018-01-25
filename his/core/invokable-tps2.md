@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Invokable TPs
-An invokable TP is a TP that can be invoked by another TP. Invokable TPs are written or configured through registry or environment variables to supply their names to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] as a notification that they are available for incoming requests. Invokable TPs can be run on any Host Integration Server client or server running Windows.  
+An invokable TP is a TP that can be invoked by another TP. Invokable TPs are written or configured through registry or environment variables to supply their names to Host Integration Server as a notification that they are available for incoming requests. Invokable TPs can be run on any Host Integration Server client or server running Windows.  
   
  There are two types of invokable TPs:  
   

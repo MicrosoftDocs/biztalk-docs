@@ -1,7 +1,7 @@
 ---
-title: "Accessibility Features of Host Integration Server Help | Microsoft Docs"
+title: "Accessibility Features of Help | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,12 +13,10 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Accessibility Features of Host Integration Server Help
+# Accessibility Features of HIS help
 Host Integration Server Help can be made more accessible for people with disabilities. For example, you can customize the font size and color of dialog boxes and browser settings. The following procedure explains how to find this accessibility information in Microsoft Document Explorer, the user interface in which Host Integration Server Help is displayed.  
   
-## Finding information about accessibility options for Help  
-  
-### To find information about accessibility options for BizTalk Server Help  
+## Find information about accessibility options for Help  
   
 1.  On the **Help** menu, click Help on Help. The **Help on Help** page for Microsoft Document Explorer is displayed.  
   

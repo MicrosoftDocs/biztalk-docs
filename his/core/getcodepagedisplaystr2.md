@@ -45,4 +45,4 @@ Int IDisplayStr
  The **GetCodePageDisplayStr** function returns a value of **TRUE** on success. On failure, the returned value is **FALSE**.  
   
 ## Remarks  
- This function is supported by SNANLS on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].
+ This function is supported by SNANLS on Host Integration Server.

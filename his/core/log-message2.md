@@ -130,6 +130,6 @@ struct log_message {
   
 -   If you use your own message file, the system assumes the file is in the same directory as your programs executable file.  
   
--   If you use the default message file, COM.MSG, the system finds the file automatically, provided the SnaBase for Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] is loaded.  
+-   If you use the default message file, COM.MSG, the system finds the file automatically, provided the SnaBase for Microsoft Host Integration Server is loaded.  
   
 -   If you use the default message file without loading the previously-mentioned software, the system expects DPATH to indicate the path to the message file. This applies only to the Windows version 3.*x* and OS/2 operating systems.

@@ -14,9 +14,9 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNANLS API Functions
-The SNA National Language Support (SNANLS) API is documented in the SNANLS.H file in the software development kit (SDK) provided with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The SNA National Language Support (SNANLS) API is documented in the SNANLS.H file in the software development kit (SDK) provided with Host Integration Server.  
   
- SNANLS on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] supports the following functions.  
+ SNANLS on Host Integration Server supports the following functions.  
   
 ## In This Section  
   

@@ -91,7 +91,7 @@ typedef struct link_overlay {
   IBMTRNET  
   IBMPCNET  
   SDLC  
-  TWINAX (Not supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)])  
+  TWINAX (Not supported by Host Integration Server)  
   X25DLC  
   adapter_num  
  Adapter number used by this link to connect to the adjacent node.  

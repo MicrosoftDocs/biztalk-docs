@@ -18,7 +18,7 @@ This topic lists the common fields that always occur at the start of a buffer he
   
 |Field|Type|Description|  
 |-----------|----------|-----------------|  
-|PTRBFHDR|nxtqptr|When the buffer is in a queue, this field points to the header of the next buffer in the queue (NULL if it is the last buffer in the queue). When the buffer is not in a queue, this field points to itself. The [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] buffer management routines use this to check for buffer corruption.|  
+|PTRBFHDR|nxtqptr|When the buffer is in a queue, this field points to the header of the next buffer in the queue (NULL if it is the last buffer in the queue). When the buffer is not in a queue, this field points to itself. The Host Integration Server buffer management routines use this to check for buffer corruption.|  
 |PTRBFELT|hdreptr|Pointer to the first buffer element in the associated chain of buffer elements; NULL if the message consists only of a buffer header.|  
 |CHAR|numelts|Number of buffer elements chained from the header. Zero if the message consists only of a buffer header.|  
 |CHAR|msgtype|Message type. For more information, see individual message descriptions in [SNADIS Message Formats](./snadis-message-formats2.md).|  

@@ -2,6 +2,7 @@
 title: "HIS 2016 - What's New, Release Notes, System Requirements, and Installation | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/24/2016"
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

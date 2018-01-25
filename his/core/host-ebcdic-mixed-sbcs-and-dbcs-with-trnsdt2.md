@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Host EBCDIC Mixed SBCS and DBCS with TrnsDT
-The following table shows the character code set identifiers (CCSIDs) for EBCDIC mixed single byte character sets (SBCS) and double byte character sets (DBCS) supported by TrnsDT in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The following table shows the character code set identifiers (CCSIDs) for EBCDIC mixed single byte character sets (SBCS) and double byte character sets (DBCS) supported by TrnsDT in Host Integration Server.  
   
 |Code page<br /><br /> display name|Type|CCSID|Comments|  
 |--------------------------------|----------|-----------|--------------|  

@@ -222,7 +222,7 @@ struct send_data {
   
  When this return code is used with **ALLOCATE**, it may indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with **TP_STARTED** is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **ALLOCATE** request.  
   
- When **ALLOCATE** produces this return code for a [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Client system configured with multiple nodes, there are two secondary return codes as follows:  
+ When **ALLOCATE** produces this return code for a Host Integration Server Client system configured with multiple nodes, there are two secondary return codes as follows:  
   
  0xF0000001  
   

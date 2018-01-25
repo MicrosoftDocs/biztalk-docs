@@ -14,9 +14,9 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Support for LUA Single Sign-On
-This section describes the logical unit application (LUA) support for Single Sign-On using 3270 display sessions that is available in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+This section describes the logical unit application (LUA) support for Single Sign-On using 3270 display sessions that is available in Host Integration Server.  
   
- Over 3270 LUs, a Single Sign-On feature for LUA applications is supported to automate the overall logon process. When configured for this feature, [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] automatically replaces special keywords in the data stream with the actual host user name and password at appropriate points in the session.  
+ Over 3270 LUs, a Single Sign-On feature for LUA applications is supported to automate the overall logon process. When configured for this feature, Host Integration Server automatically replaces special keywords in the data stream with the actual host user name and password at appropriate points in the session.  
   
 > [!NOTE]
 >  Single Sign-On is not supported over LUA logical units (LUs).  

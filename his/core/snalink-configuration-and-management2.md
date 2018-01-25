@@ -14,11 +14,11 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNALink Configuration and Management
-The configuration information for a [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] system is stored in two forms:  
+The configuration information for a Host Integration Server system is stored in two forms:  
   
 -   A centralized configuration file containing details of logical units (LUs), physical units (PUs), and connections.  
   
--   Entries in the Microsoft Windows registry containing configuration information for the SNALinks supported on that computer. This information contains parameters required by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], and any other parameters that independent hardware vendor (IHV) code may require.  
+-   Entries in the Microsoft Windows registry containing configuration information for the SNALinks supported on that computer. This information contains parameters required by Host Integration Server, and any other parameters that independent hardware vendor (IHV) code may require.  
   
  A Host Integration Server SNALink is defined when a Host Integration Server system is installed. A SNALink can support only one physical connection from the server. If a single adapter is capable of supporting multiple physical connections, Host Integration Server requires multiple SNALinks to be configured.  
   

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Internationalization Programmer&#39;s Reference
-This section describes the features available in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] for programming support for international languages and different national language character sets.  
+This section describes the features available in Host Integration Server for programming support for international languages and different national language character sets.  
   
  The SNANLS API uses the language support features provided with Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, and Windows Server 2012. SNANLS supports European languages that use single-byte encoding, as well as East Asian languages that use double-byte or Unicode encoding.  
   

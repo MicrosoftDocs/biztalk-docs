@@ -23,4 +23,4 @@ To compile a SNALink, the header files SNA_DLC.H, SNA_CNST.H and TRACE.H are req
 ```  
   
 > [!NOTE]
->  The TRACE.H include file is required to enable SNA tracing and use of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Trace viewer utility.
+>  The TRACE.H include file is required to enable SNA tracing and use of the Host Integration Server Trace viewer utility.

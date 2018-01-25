@@ -16,7 +16,7 @@ manager: "anneta"
 # Generating and Setting LUWIDs]
 The unit-of-work identifier (LUWID) is used to identify conversations that are part of a single Sync Point transaction. All conversations with the same LUWID are committed (or backed out) at the same time.  
   
- Host Integration Server assigns two LUWIDs to a transaction program when the TP is started. For locally started TPs, this is when the [TP_STARTED](./tp-started2.md) verb is issued. The first LUWID is the TP's protected LUWID. It is used by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] as the LUWID for all **synclevel** AP_SYNCPT conversations allocated by the TP. When the TP issues an [ALLOCATE](./allocate2.md) or [MC_ALLOCATE](./mc-allocate2.md) verb with a **synclevel** of AP_SYNCPT, Host Integration Server generates an Attach containing the TP's current protected LUWID.  
+ Host Integration Server assigns two LUWIDs to a transaction program when the TP is started. For locally started TPs, this is when the [TP_STARTED](./tp-started2.md) verb is issued. The first LUWID is the TP's protected LUWID. It is used by Host Integration Server as the LUWID for all **synclevel** AP_SYNCPT conversations allocated by the TP. When the TP issues an [ALLOCATE](./allocate2.md) or [MC_ALLOCATE](./mc-allocate2.md) verb with a **synclevel** of AP_SYNCPT, Host Integration Server generates an Attach containing the TP's current protected LUWID.  
   
  The second LUWID is the TP's unprotected LUWID. It is used on all conversations allocated by the TP with a **synclevel** other than AP_SYNCPT.  
   

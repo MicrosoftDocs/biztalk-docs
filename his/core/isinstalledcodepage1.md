@@ -37,6 +37,6 @@ HKEYKeyHandle
  The **IsInstalledCodePage** function returns non-zero if a code page is installed, otherwise a zero value is returned on failure.  
   
 ## Remarks  
- This function is primarily used by the Print Service in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to determine if what code pages are supported on a remote computer providing the print services function.  
+ This function is primarily used by the Print Service in Host Integration Server to determine if what code pages are supported on a remote computer providing the print services function.  
   
- This function is supported by SNANLS on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].
+ This function is supported by SNANLS on Host Integration Server.

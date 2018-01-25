@@ -40,9 +40,9 @@ The Data Access Tool enables you to define and test connections to remote IBM DB
   
 #### To Start the Data Access Tool  
   
-1.  Click the Data Access Tool shortcut in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] program folder.  
+1.  Click the Data Access Tool shortcut in the Host Integration Server program folder.  
   
-2.  Or click **Start**, **Programs**, **[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]**, and then click **Data Access Tool**.  
+2.  Or click **Start**, **Programs**, **Host Integration Server**, and then click **Data Access Tool**.  
   
  **Data Source Browser, Data Source Folder and Data Source Item**  
   

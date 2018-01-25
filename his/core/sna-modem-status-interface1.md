@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Modem Status Interface
-This section describes the interface to the modem status used by Synchronous Data Link Control (SDLC) and X.25 SNALinks that [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] supplies. This interface provides a set of simulated modem lights to show modem status. The modem status interface is intended primarily for the Microgate cards with internal modems, but can be used with any SDLC or X.25 link service to show the modem status.  
+This section describes the interface to the modem status used by Synchronous Data Link Control (SDLC) and X.25 SNALinks that Host Integration Server supplies. This interface provides a set of simulated modem lights to show modem status. The modem status interface is intended primarily for the Microgate cards with internal modems, but can be used with any SDLC or X.25 link service to show the modem status.  
   
  This interface is intended primarily for independent hardware vendors (IHV) who want to provide drivers for their own dumb cards that are directly compatible with SDLC and X.25 SNALinks that Host Integration Server provides. It can also be used by IHVs who intend to write their own SNALinks but who want to ensure that their drivers conform to the standard Host Integration Server model.  
   

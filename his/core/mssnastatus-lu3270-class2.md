@@ -95,7 +95,7 @@ class MsSnaStatus_Lu3270 : MsSnaStatus_Config
 |**ExecMethod**|Executes the specified method.|  
 |[Stop](../core/mssnastatus-lu3270-stop-method1.md)|Stops the LU.|  
   
- For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see "IWbemServices interface" in the MSDN Library at http://msdn.microsoft.com/library.  
+ For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](https://msdn.microsoft.com/library/gg196568(v=vs.85).aspx).  
   
 ## See Also  
  [WmiSnaStatus WMI Provider Classes](../core/wmisnastatus-wmi-provider-classes1.md)   

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # CPI-C Programmer&#39;s Security Guide
-The following topics discuss security as it applies to the CPI-C section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SDK.  
+The following topics discuss security as it applies to the CPI-C section of the Host Integration Server SDK.  
   
 ## About CPI-C Security for Developers  
  The Common Programming Interface for Communications (CPI-C) is a platform-independent API designed to simplify the use APPC verbs, and has many of the same issues and features as APPC.  

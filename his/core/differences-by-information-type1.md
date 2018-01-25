@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Differences by Information Type
-Differences in the implementation of the **DISPLAY** verb between [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] and IBM ES for OS/2 are described in this section by information type. For each information type, there is a topic that describes:  
+Differences in the implementation of the **DISPLAY** verb between Host Integration Server and IBM ES for OS/2 are described in this section by information type. For each information type, there is a topic that describes:  
   
 -   The information defined by IBM ES for OS/2 version 1.0.  
   

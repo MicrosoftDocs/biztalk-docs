@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuration Provider WMI Programmer&#39;s Reference
-The Configuration Provider WMI Programmer's Reference describes the classes you can use to monitor the configuration of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The Configuration Provider WMI Programmer's Reference describes the classes you can use to monitor the configuration of Host Integration Server.  
   
 ## In This Section  
   

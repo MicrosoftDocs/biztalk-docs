@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Application Integration Programmer&#39;s Reference
-This section of the Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Programmer 's Reference describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server technologies into your application.  
+This section of the Microsoft Host Integration Server Programmer 's Reference describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server technologies into your application.  
   
 ## In This Section  
  [Data Types](../core/data-types2.md)  

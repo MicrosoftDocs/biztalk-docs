@@ -26,4 +26,4 @@ There are three interfaces from which modem status can be gathered:
   
  Simulate the receive and transmit lights with counters and track the number of frames received and transmitted for each link service. The display application uses this information to control the flashing of the receive and transmit lights.  
   
- The other topics in this section describe the changes that must be made to the link service for supporting the modem status interface and the interface provided to the display application. Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] comes with an application that displays the modem status.
+ The other topics in this section describe the changes that must be made to the link service for supporting the modem status interface and the interface provided to the display application. Microsoft Host Integration Server comes with an application that displays the modem status.

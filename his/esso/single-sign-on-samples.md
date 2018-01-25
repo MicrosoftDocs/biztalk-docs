@@ -16,7 +16,7 @@ manager: "anneta"
 # Single Sign-On Samples
 
 ## Overview
-This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide describes the sample applications that implement Single Sign-On programming technology.  
+This section of the Host Integration Server Developer's Guide describes the sample applications that implement Single Sign-On programming technology.  
   
 ## Next
  [Loopback Adapter Sample](../esso/loopback-adapter-sample.md)  

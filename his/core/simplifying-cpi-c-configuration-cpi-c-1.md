@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Simplifying CPI-C Configuration (CPI-C)
-There are several features in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] that can simplify configuration for Common Programming Interface for Communications (CPI-C):  
+There are several features in Host Integration Server that can simplify configuration for Common Programming Interface for Communications (CPI-C):  
   
 -   The implicit, incoming remote logical unit (LU) and the implicit, incoming mode which allow SNA service to accept requests that arrive by unrecognized remote LUs and modes.  
   

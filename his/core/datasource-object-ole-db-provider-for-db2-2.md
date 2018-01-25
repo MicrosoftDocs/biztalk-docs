@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # DataSource Object (OLE DB Provider for DB2)
-The **DataSource** object is created by an OLE DB consumer. The **DataSource** object contains the knowledge and ability to connect to DB2 over Advanced Program-to-Program Communications (APPC) and LU 6.2 (through [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]) or over TCP/IP. The **DataSource** object is used to create one or more **Session** objects.  
+The **DataSource** object is created by an OLE DB consumer. The **DataSource** object contains the knowledge and ability to connect to DB2 over Advanced Program-to-Program Communications (APPC) and LU 6.2 (through Host Integration Server) or over TCP/IP. The **DataSource** object is used to create one or more **Session** objects.  
   
  The following interfaces of the **DataSource** object are supported by the current version of Microsoft OLE DB Provider for DB2:  
   

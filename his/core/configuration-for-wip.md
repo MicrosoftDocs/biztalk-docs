@@ -1,7 +1,8 @@
 ---
-title: "Configuration for WIP | Microsoft Docs"
+title: "WIP Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -1,14 +1,12 @@
 ---
-title: "Configuration of DRDA Service | Microsoft Docs"
+title: "Configure DRDA Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "config.wiz.data.DRDAAS"
 ms.assetid: ed95a40e-f26c-4132-a19b-11a3f2912328
 caps.latest.revision: 5
 author: "gplarsen"

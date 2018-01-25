@@ -87,8 +87,6 @@ Transaction Integrator (TI) supports the following Report Program Generator (RPG
 -   VALUE  
   
 ## See Also  
- [Supported Automation Data Types &#91;bpi&#93;](http://msdn.microsoft.com/en-us/0f337c2b-cdbb-4115-bfd3-17d8d2ea531f)   
- [Supported COM Aggregate Data Types &#91;bpi&#93;](http://msdn.microsoft.com/en-us/fee5e93b-f9a9-4710-ad91-0117ac2b3c50)   
  [Supported .NET Aggregate Data Types](../core/supported-net-aggregate-data-types1.md)   
  [Supported COBOL Data Types](../core/supported-cobol-data-types2.md)   
  [Supported RPG Data Types](../core/supported-rpg-data-types2.md)   

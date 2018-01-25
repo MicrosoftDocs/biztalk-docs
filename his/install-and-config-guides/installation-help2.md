@@ -1,7 +1,7 @@
 ---
-title: "Installation Help2 | Microsoft Docs"
+title: "Installation help | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,8 +14,8 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 robots: noindex,nofollow
 ---
-# Installation Help
-Use this topic to navigate through the Installation Help user interface.  
+# Installation guidance
+Use this topic to navigate through the Installation user interface.  
   
 ## Autorun  
  **Planning**  

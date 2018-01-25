@@ -14,7 +14,7 @@ robots: noindex,nofollow
 # Autorun_deleted
 **Planning**  
   
- We recommend that you read the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Installation Guide, which covers the following topics:  
+ We recommend that you read the Host Integration Server Installation Guide, which covers the following topics:  
   
 -   System requirements  
   
@@ -34,7 +34,7 @@ robots: noindex,nofollow
   
  **Exit**  
   
- Click **Exit** to close the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Autorun program.  
+ Click **Exit** to close the Host Integration Server Autorun program.  
   
 ## See Also  
  [Installation Help](../install-and-config-guides/installation-help2.md)   

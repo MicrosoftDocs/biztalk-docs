@@ -22,7 +22,7 @@ SNA components required for LUA communications
   
  In this example, the application performs the following tasks:  
   
--   Issues an [RUI_INIT](rui-init1.md) verb to establish the system services control point (SSCP) session. (**RUI_INIT** does not complete until the LUA application has received an ACTLU message from the host and sent a positive response. However, these messages are handled by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] and are not exposed to the LUA application.)  
+-   Issues an [RUI_INIT](rui-init1.md) verb to establish the system services control point (SSCP) session. (**RUI_INIT** does not complete until the LUA application has received an ACTLU message from the host and sent a positive response. However, these messages are handled by Host Integration Server and are not exposed to the LUA application.)  
   
 -   Sends an INITSELF message to the SSCP to request a BIND and reads the response.  
   

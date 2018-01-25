@@ -1,5 +1,5 @@
 ---
-title: "SQL Parsing in the Managed Data Provider for Host Files2 | Microsoft Docs"
+title: "SQL Parsing in the Managed Data Provider for Host Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,9 +14,11 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SQL Parsing in the Managed Data Provider for Host Files
+
+## Overview
 The following topics describe the parsing rules for the Managed Data Provider for Host Files.  
   
-## In This Section  
+## Next steps
  [SELECT Statement](../core/select-statement1.md)  
   
  [INSERT Statement](../core/insert-statement2.md)  
@@ -34,6 +36,3 @@ The following topics describe the parsing rules for the Managed Data Provider fo
  [Parameterized Queries](../core/parameterized-queries1.md)  
   
  [Limitations](../core/limitations2.md)  
-  
-## See Also  
- [Managed Data Provider for Host Files Programmer's Reference](http://msdn.microsoft.com/en-us/8faefa6d-d4e0-460e-b5d9-419e210db343)

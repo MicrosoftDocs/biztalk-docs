@@ -39,7 +39,7 @@ Chunking can be thought of as similar to segmentation. (For more information, se
  Chunks are identified using the segmentation flags BBIUI and EBIUI, and therefore the application cannot distinguish between chunks and segments if both segmentation and chunking are being used outbound. However, there is generally no need for the distinction. The application can perform window shading by displaying each unit of data as it is received, whether the unit of data is a segment or a chunk. (For more information, see [Segment Delivery](../core/segment-delivery1.md).)  
   
 > [!NOTE]
->  Previous versions of this document indicated this as a future feature. The support is enabled in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. Applications can test the product version returned on a call to [sepdgetinfo](./sepdgetinfo2.md) for version 1.2 or later before using the chunking system.  
+>  Previous versions of this document indicated this as a future feature. The support is enabled in Host Integration Server. Applications can test the product version returned on a call to [sepdgetinfo](./sepdgetinfo2.md) for version 1.2 or later before using the chunking system.  
   
  In some cases, the RU size used by the local node may be too large for the length of the path between the local node and an FMI application, for example, when using a 16 megabyte (MB) token-ring link, which can support 16 kilobyte (KB) frames. The local node allows an FMI application to specify that data transfer should be in smaller units, called chunks.  
   

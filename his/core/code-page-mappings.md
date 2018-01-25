@@ -39,9 +39,9 @@ You can specify service-level and application-level code page mapping overrides.
 #### Start Event Trace Session  
  The Windows administrator must start a DRDA Service ETW event trace session using Performance Monitor or the logman command line utility.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio 2010**, point to **Visual Studio Tools**, right **click Visual Studio x64 Win64 Command Prompt (2010)**, and click **Run as administrator**. The **User Account Control** dialog may appear. Click **Yes** to continue.  
+1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right **click Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control** dialog may appear. Click **Yes** to continue.  
   
-2.  In the **Visual Studio x64 Win64 Command Prompt (2010)** window, locate the installation folder in which you downloaded the installation program, **logman start MsDrdaService -p {3B4388CE-50E0-404C-A62B-E9C87D4F3BC4} -o c:\temp\MsDrdaServiceETW.etl -ets**, and then click **Enter**.  
+2.  In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **logman start MsDrdaService -p {3B4388CE-50E0-404C-A62B-E9C87D4F3BC4} -o c:\temp\MsDrdaServiceETW.etl -ets**, and then click **Enter**.  
   
     ```  
     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>logman start MsDrdaService -p {3B4388CE-50E0-404C-A62B-E9C87D4F3BC4} -o c:\temp\MsDrdaServiceETW.etl -ets  
@@ -53,9 +53,9 @@ You can specify service-level and application-level code page mapping overrides.
 #### Stop Event Trace Session  
  The Windows administrator can stop a DRDA Service ETW event trace session using Performance Monitor or the logman command line utility.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio 2010**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt (2010)**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
+1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
   
-2.  In the **Visual Studio x64 Win64 Command Prompt (2010)** window, locate the installation folder in which you downloaded the installation program, **logman stop MsDrdaService -ets**, and then click **Enter**.  
+2.  In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **logman stop MsDrdaService -ets**, and then click **Enter**.  
   
     ```  
     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>logman stop MsDrdaService -ets  
@@ -65,11 +65,11 @@ You can specify service-level and application-level code page mapping overrides.
      ***Example 2.** Stop ETW event trace session command line argument with example property values.*  
   
 #### Format Event Trace Session Data  
- The Windows administrator can format DRDA Service ETW event trace session data using Service Trace Viewer Tool (SvcTraceViewer.exe) (http://msdn.microsoft.com/library/ms732023.aspx) or the tracerpt command line utility.  
+ The Windows administrator can format DRDA Service ETW event trace session data using [Service Trace Viewer Tool (SvcTraceViewer.exe)](https://docs.microsoft.com/en-us/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe) or the tracerpt command line utility.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio 2010**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt (2010)**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
+1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
   
-2.  In the **Visual Studio x64 Win64 Command Prompt (2010)** window, locate the installation folder in which you downloaded the installation program, **tracerpt c:\temp\MsDrdaServiceETW.etl**, and then click **Enter**.  
+2.  In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **tracerpt c:\temp\MsDrdaServiceETW.etl**, and then click **Enter**.  
   
     ```  
     C:\temp>tracerpt c:\temp\MsDrdaServiceETW.etl  

@@ -1,7 +1,8 @@
 ---
-title: "What&#39;s New in HIS 2016 | Microsoft Docs"
+title: "What's New in HIS 2016 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +13,7 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# What&#39;s New in HIS 2016
+# What's New in HIS 2016
 Read about what's new in [!INCLUDE[his2016](../includes/his2016-md.md)].  
   
 |Feature|Description|  

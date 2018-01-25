@@ -18,7 +18,7 @@ The following list supplements the information found in the table in [Open(LINK)
   
  With some timers, there are no communication retries. Such timers simply cycle through the time-out as many times as allowed in the retry limit (without actually retrying), then generate an **Outage** message.  
   
- Each description indicates whether you can configure the field through a Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] interface (such as the SNA Manager program). If the field is not configurable, the built-in setting for the field is shown.  
+ Each description indicates whether you can configure the field through a Microsoft Host Integration Server interface (such as the SNA Manager program). If the field is not configurable, the built-in setting for the field is shown.  
   
 ## SDLC Link Data  
   

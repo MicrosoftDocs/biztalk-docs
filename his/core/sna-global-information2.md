@@ -147,6 +147,6 @@ typedef struct sna_global_info_sect {
  Host Integration Server patch number.  
   
 ## Remarks  
- Host Integration Server returns **version** and **release** as the major and minor operating system version numbers from **GetVersion**. Because [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] has no information on the computer type, serial number, and manufacturer, **product_set_id** is set to EBCDIC zeros.  
+ Host Integration Server returns **version** and **release** as the major and minor operating system version numbers from **GetVersion**. Because Host Integration Server has no information on the computer type, serial number, and manufacturer, **product_set_id** is set to EBCDIC zeros.  
   
  Host Integration Server does not support APPN node types, so the node type is returned as 1 (an AP_LEN node), and not 2 or 3 (AP_NN or AP_EN nodes), as defined by IBM ES for OS/2 version 1.0.

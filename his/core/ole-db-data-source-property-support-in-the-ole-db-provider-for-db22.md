@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # OLE DB Data Source Property Support in the OLE DB Provider for DB2
-The following table summarizes the standard OLE DB version 2.0 data source properties from the DBPROP_DATASOURCE property set that are supported by the version of Microsoft OLE DB Provider for DB2 included with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The following table summarizes the standard OLE DB version 2.0 data source properties from the DBPROP_DATASOURCE property set that are supported by the version of Microsoft OLE DB Provider for DB2 included with Host Integration Server.  
   
 |OLE DB Property ID|Comments|  
 |------------------------|--------------|  

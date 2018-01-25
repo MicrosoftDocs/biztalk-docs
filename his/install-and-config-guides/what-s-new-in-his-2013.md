@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in HIS 2013 | Microsoft Docs"
+title: "What's New in HIS 2013 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,8 +13,8 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# What&#39;s New in HIS 2013
-The following sections in this topic contain information about new features and enhancements in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+# What's New in HIS 2013
+The following sections in this topic contain information about new features and enhancements in Host Integration Server.  
   
 -   [Network Integration](../install-and-config-guides/what-s-new-in-his-2013.md#NetworkInteg)  
   
@@ -26,7 +26,7 @@ The following sections in this topic contain information about new features and 
   
 -   [Removed Features](../install-and-config-guides/what-s-new-in-his-2013.md#Removed)  
   
- For more information about all of the features and functionality in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], see [What is HIS](../install-and-config-guides/what-is-his.md).  
+ For more information about all of the features and functionality in Host Integration Server, see [What is HIS](../install-and-config-guides/what-is-his.md).  
   
 ## Platforms  
   

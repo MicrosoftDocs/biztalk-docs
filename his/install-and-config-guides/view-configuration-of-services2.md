@@ -1,14 +1,12 @@
 ---
-title: "View Configuration of Services2 | Microsoft Docs"
+title: "View Services Configuration | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "config.wiz.serviceaccountsview"
 ms.assetid: ba47dc53-eceb-4475-8734-75df409a68c6
 caps.latest.revision: 4
 author: "gplarsen"

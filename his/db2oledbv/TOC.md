@@ -1,4 +1,4 @@
-# [Microsoft OLE DB Provider for DB2](microsoft-ole-db-provider-for-db2.md)
+# [OLE DB Provider for DB2](microsoft-ole-db-provider-for-db2.md)
 ## [Get started](getting-started.md)
 ### [Overview](overview-of-data-provider.md)
 ### [What's New v6.0](what-s-new-in-version-6-0.md)

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Open Systems Code Page Support (SNANLS)
-The following table shows the Open Systems NLS code pages and host character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The following table shows the Open Systems NLS code pages and host character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in Host Integration Server.  
   
 |SNANLS display name|NLS code page|Host CCSID|euro|Supported by SNANLS|  
 |-------------------------|-------------------|----------------|----------|-------------------------|  

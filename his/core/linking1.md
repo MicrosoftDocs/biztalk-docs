@@ -17,4 +17,4 @@ manager: "anneta"
 The IHVLINK.LIB library must be linked with the application. It contains the Base, DMOD imports, and diagnostics routines. The DMOD and the Base are implemented as DLLs.  
   
 > [!NOTE]
->  The [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] library only contains the external references for the corresponding DLLs, which are part of the main Host Integration Server product.
+>  The Host Integration Server library only contains the external references for the corresponding DLLs, which are part of the main Host Integration Server product.

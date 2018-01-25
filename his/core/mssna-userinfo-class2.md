@@ -79,7 +79,7 @@ class MsSna_UserInfo : MsSna_Config
  **Encryption**  
  Data Type: **Boolean**Access Type: Read/Write  
   
- **true** to enable encryption between the client system and [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]; otherwise, **false**.  
+ **true** to enable encryption between the client system and Host Integration Server; otherwise, **false**.  
   
 ## Requirements  
  **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  

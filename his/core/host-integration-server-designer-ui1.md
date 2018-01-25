@@ -18,7 +18,7 @@ Host Integration Server Designer (HIS Designer) is a graphical user interface th
   
  HIS Designer is hosted within the Visual Studio environment. You can use it to generate both Windows-initiated processing (WIP) and host-initiated processing (HIP) objects. The HIS Designer creates Microsoft .NET Framework assemblies.  
   
- [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] no longer supports typelibs. Typelibs created from previous releases of HIS Designer must either be imported into Designer 2010 (using the Designer import wizard)  or processed through the TIConversionTool.exe found within the system directory.  
+ Host Integration Server no longer supports typelibs. Typelibs created from previous releases of HIS Designer must either be imported into Designer 2010 (using the Designer import wizard)  or processed through the TIConversionTool.exe found within the system directory.  
   
 ## In This Section  
  [Solution Explorer](../core/solution-explorer1.md)  

@@ -1,14 +1,12 @@
 ---
-title: "Configuration of Enterprise Single Sign-On Backup Secret1 | Microsoft Docs"
+title: "Configure Single Sign-On Backup Secret | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "config.wiz.sso.secret.backup"
 ms.assetid: 7f79d0de-841e-45cd-b464-5b61657bc628
 caps.latest.revision: 4
 author: "gplarsen"

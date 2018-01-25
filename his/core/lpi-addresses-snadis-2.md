@@ -16,7 +16,7 @@ manager: "anneta"
 # LPI Addresses (SNADIS)
 A locality, partner, index (LPI) address is used to identify each end of a connection. It has three components: locality (L), partner (P), and index (I).  
   
--   **Locality** is a 1-byte identifier that uniquely identifies a locality within a system. This locality corresponds to a [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] component (local node, SNALink, 3270 emulator, and so on).  
+-   **Locality** is a 1-byte identifier that uniquely identifies a locality within a system. This locality corresponds to a Host Integration Server component (local node, SNALink, 3270 emulator, and so on).  
   
 -   **Partner** is a 1-byte identifier for the type of service. Each type of service has a unique value. A Host Integration Server local type 2.1 node has a defined value of 0x11. A Host Integration Server emulator has a defined product identifier of 0x12. A Host Integration Server link service (X.25. SDLC, Token Ring, Ethernet, or Channel, for example) has a defined value of 0x16.  
   

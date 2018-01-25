@@ -14,11 +14,11 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNANLS Dependencies
-The only file required to support the SNA National Language Support (SNANLS) API on Windows operating systems is SNANLS.DLL. To link to this .dll, use the SNANLS.H header (located under the \SDK\INCLUDE subdirectory) and the SNANLS.LIB library file (located under the \SDK\LIB subdirectory) supplied with the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SDK. Note that individual Win32 NLS resource files must be installed in order to support the various languages and code pages on Windows.  
+The only file required to support the SNA National Language Support (SNANLS) API on Windows operating systems is SNANLS.DLL. To link to this .dll, use the SNANLS.H header (located under the \SDK\INCLUDE subdirectory) and the SNANLS.LIB library file (located under the \SDK\LIB subdirectory) supplied with the Host Integration Server SDK. Note that individual Win32 NLS resource files must be installed in order to support the various languages and code pages on Windows.  
   
  The Win32 NLS files needed to support various languages are normally installed when the operating system is installed during Setup for Windows. If these files are not present on Windows, they may be installed using Regional and Language Options.  Click **Start**, then click **Control Panel**. Click **Regional and Language Options**, then click the **Advanced** tab. Select the appropriate settings from this dialog box.  
   
- The registry settings required to use specific NLS files are enabled on Windows when the operating system is installed. When you install the end-user client or Administrator clients from [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], the registry settings required to use specific NLS files are automatically created.  
+ The registry settings required to use specific NLS files are enabled on Windows when the operating system is installed. When you install the end-user client or Administrator clients from Host Integration Server, the registry settings required to use specific NLS files are automatically created.  
   
  The registry settings required for common EBCDIC code pages are listed in the following table.  
   

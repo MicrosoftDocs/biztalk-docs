@@ -156,7 +156,7 @@ This section describes the return codes for Common Programming Interface for Com
   
 ## 36  
  CM_SYSTEM_EVENT  
- This error code is not used by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+ This error code is not used by Host Integration Server.  
   
 ## 37  
  CM_OPERATION_NOT_ACCEPTED  

@@ -24,4 +24,4 @@ The only parameter passed to the **APPC** function is the address of a verb cont
   
  Each APPC verb has its own VCB structure, which is declared in the WINAPPC.H header file. For compatibility with earlier versions, the APPC_C.H header file is also supported.  
   
- The WINAPPC.H file is supplied as part of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Software Development Kit (SDK).
+ The WINAPPC.H file is supplied as part of the Host Integration Server Software Development Kit (SDK).

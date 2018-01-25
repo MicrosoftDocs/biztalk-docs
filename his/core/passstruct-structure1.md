@@ -109,7 +109,7 @@ typedef struct tagPassParm {
   
  In case of double-byte characters, always use the conversion table created by the SYSCTBL utility.  
   
- The SYSCTBL.EXE file is a utility program included with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] that provides a tool that can be used to create custom conversion tables for use with the **TrnsDT** function.  
+ The SYSCTBL.EXE file is a utility program included with Host Integration Server that provides a tool that can be used to create custom conversion tables for use with the **TrnsDT** function.  
   
  Bit 1  
   

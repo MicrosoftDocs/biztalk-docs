@@ -1,7 +1,8 @@
 ---
-title: "What&#39;s New in Version 6.0 | Microsoft Docs"
+title: "What's New in Version 6.0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +13,7 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# What&#39;s New in Version 6.0
+# What's New in Version 6.0
 The Microsoft OLE DB Provider for DB2 version 6.0 offers the following improvements:  
   
 -   Compatibility with SQL Server 2016  

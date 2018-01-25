@@ -1,21 +1,19 @@
 ---
-title: "Configuration of Advanced Properties2 | Microsoft Docs"
+title: "Configure Advanced Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "config.wiz.common.settings.advanced"
 ms.assetid: 3bafd904-736f-4cd9-81b4-c965654c92c7
 caps.latest.revision: 5
 author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Configuration of Advanced Properties
+# Configure Advanced Properties
 Configure the following settings as desired:  
   
 -   Run SNABASE as an application  

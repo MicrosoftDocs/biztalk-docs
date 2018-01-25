@@ -83,6 +83,6 @@ CM_ENTRY Set_Conversation_Security_Type( 
   
  A conversation security type of CM_SECURITY_SAME is intended for use between nodes which have the same set of user IDs and which accept user validation performed on one node as validating the user for all nodes. A password is not used in this case except for the initial validation of the user ID.  
   
- Automatic logon for CPI-C applications is supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. This feature requires specific configuration by the network administrator. The CPI-C application must be invoked on the LAN side from a client of SNA Server. The client must be logged into a Microsoft Windows domain, but can be any platform that supports SNA Server CPI-C APIs.  
+ Automatic logon for CPI-C applications is supported by Host Integration Server. This feature requires specific configuration by the network administrator. The CPI-C application must be invoked on the LAN side from a client of SNA Server. The client must be logged into a Microsoft Windows domain, but can be any platform that supports SNA Server CPI-C APIs.  
   
  The client application is coded to use program level security, with a special hard-coded CPI-C user name MS$SAME and password MS$SAME. When this session allocation flows from client to SNA Server, the SNA Server looks up the host account and password corresponding to the Windows account under which the client is logged on, and substitutes the host account information into the APPC attach message it sends to the host.

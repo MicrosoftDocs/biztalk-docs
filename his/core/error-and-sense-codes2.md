@@ -26,7 +26,7 @@ This section describes the error and sense codes that are reported to the applic
   
 -   [Sense Codes for SDI Messages](../core/sense-codes-for-sdi-messages1.md)  
   
- Where the reported codes are SNA sense codes, a more complete description is given in Chapter 8 of the IBM document *Systems Network Architecture: Reference Summary* (GA27-3136). These SNA sense codes are also documented in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Help.  
+ Where the reported codes are SNA sense codes, a more complete description is given in Chapter 8 of the IBM document *Systems Network Architecture: Reference Summary* (GA27-3136). These SNA sense codes are also documented in Host Integration Server Help.  
   
  In addition, the local node delivers negative responses from the host as **Status-Acknowledge(Nack-1)** and **Status-Control(...) Negative-Acknowledge-1**, which can have any SNA sense code.  
   

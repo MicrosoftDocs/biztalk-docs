@@ -47,7 +47,7 @@ The following tables show entry points divided into the categories SNALink, buff
 |Entry point|Description|  
 |-----------------|-----------------|  
 |[SNAGetConfigValue](./snagetconfigvalue2.md)|Get a named item of configuration information.|  
-|[SNAGetSystemInfo](./snagetsysteminfo1.md)|Get [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] system information.|  
+|[SNAGetSystemInfo](./snagetsysteminfo1.md)|Get Host Integration Server system information.|  
   
 > [!NOTE]
 >  Standard calling conventions [WINAPI] are used for all entry points including those provided by the IHV SNALink.  

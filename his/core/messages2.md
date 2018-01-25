@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Messages
-Messages are used to pass data between partners in Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. This section provides information about message formats.  
+Messages are used to pass data between partners in Microsoft Host Integration Server. This section provides information about message formats.  
   
  This section contains:  
   

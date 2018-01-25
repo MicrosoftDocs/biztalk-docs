@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # LUA Programmer's Reference
-This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide lists the verbs, extensions, control blocks, and return codes that describe the logical unit application (LUA) programming interface.  
+This section of the Host Integration Server Developer's Guide lists the verbs, extensions, control blocks, and return codes that describe the logical unit application (LUA) programming interface.  
   
  For general information about programming for LUA, see [LUA Programmer's Guide](./lua-programmer-s-guide1.md).  
   

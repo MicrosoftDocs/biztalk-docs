@@ -23,6 +23,5 @@ Use the **Specify or Locate an Object** wizard page to specify or initiate a bro
 |**Remove**|Removes the selected objects from the list.|  
   
 ## See Also  
- [Define Environment Characteristics for the COM Object Wizard Page &#91;bpi&#93;](http://msdn.microsoft.com/en-us/cc01af6e-5f57-4f7e-8c48-002934d945fa)   
  [Define Environment Characteristics for the .NET Object Wizard Page (WIP)](../core/define-environment-characteristics-for-the-net-object-wizard-page-wip-2.md)   
  [Object Wizard (for WIP)](../core/object-wizard-for-wip-2.md)

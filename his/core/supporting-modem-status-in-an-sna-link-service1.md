@@ -20,6 +20,6 @@ The implementation of a link service that supports the modem status requires the
   
 -   Modification of the SNA Modem structures as the status changes, as reported by the **DevIoctl** calls.  
   
- Independent hardware vendors (IHVs) who use the Microsoft[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SDLC link service and who fully implement the SNADIS interface do not need to make any changes to use the modem status feature. However, IHVs should check that the status returned by **DevIoctl** calls from their device driver conforms to the requirements described later.  
+ Independent hardware vendors (IHVs) who use the MicrosoftHost Integration Server SDLC link service and who fully implement the SNADIS interface do not need to make any changes to use the modem status feature. However, IHVs should check that the status returned by **DevIoctl** calls from their device driver conforms to the requirements described later.  
   
  IHVs who provide both the device driver and link service need to implement the code in their link service that initializes the SNA Modem API and updates the modem status information.

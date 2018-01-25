@@ -28,7 +28,7 @@ class MsSna_ConnectionTwinax : MsSna_Connection
 ```  
   
 ## Remarks  
- Twinax is not supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+ Twinax is not supported by Host Integration Server.  
   
 ## Requirements  
  **Operating Systems**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  

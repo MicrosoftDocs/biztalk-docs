@@ -1,5 +1,5 @@
 ---
-title: "How to Retrieve Data2 | Microsoft Docs"
+title: "Retrieve Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,7 +16,7 @@ manager: "anneta"
 # How to Retrieve Data
 Creating connection string information requires that you create an object that is derived from the `IConnectionString` class, such as `DB2OdbcConnectionString` or `DB2OleDbConnectionString`. After you create the string, you can save, modify, or retrieve information from it by using the associated properties.  
   
-### To retrieve and modify connection string information  
+## Retrieve and modify connection string information  
   
 1.  Create a new connection string by calling the specific type of connection string constructor, using the file path of the .udl file that contains the specified connection string.  
   
@@ -57,4 +57,3 @@ static System.Exception ChangeCommentInUDL(string connString, string newComment)
   
 ## See Also  
  [Creating a Connection String](../core/creating-a-connection-string1.md)   
- [How to Display an Initialization String &#91;bpi&#93; &#91;HIS09_R2&#93;](http://msdn.microsoft.com/en-us/c9a1181a-15d5-4498-8c3b-cd58b2a189d9)

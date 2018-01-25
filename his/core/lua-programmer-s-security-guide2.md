@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # LUA Programmer&#39;s Security Guide
-The following topics discuss security as it applies to the LUA section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SDK.  
+The following topics discuss security as it applies to the LUA section of the Host Integration Server SDK.  
   
 ## About LUA security for developers  
  LUA presents a simple API that enables programmatic control over the SNA messages. LUA has a simple structure, but exposes a complex data stream, that associated with SNA messages.  

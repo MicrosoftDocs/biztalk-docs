@@ -35,7 +35,7 @@ USHORT *numbytes
  Size of the supplied buffer.  
   
  *numbytes*  
- Used by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to return the number of bytes of information returned in the buffer.  
+ Used by Host Integration Server to return the number of bytes of information returned in the buffer.  
   
 ## Return Value  
  NO_ERROR (0)  

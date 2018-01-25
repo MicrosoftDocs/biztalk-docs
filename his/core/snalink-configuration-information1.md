@@ -16,7 +16,7 @@ manager: "anneta"
 # SNALink Configuration Information
 The configuration information for all SNALinks on a computer is stored hierarchically, referenced by the SNALink name.  
   
- The entry for each SNALink must include certain fields that are required by the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] system. These are listed in the following table.  
+ The entry for each SNALink must include certain fields that are required by the Host Integration Server system. These are listed in the following table.  
   
 |Required field|Description|  
 |--------------------|-----------------|  

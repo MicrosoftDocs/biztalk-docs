@@ -43,7 +43,3 @@ catch (System.Exception Caught)
    }  
 }  
 ```  
-  
-## See Also  
- [Creating Packages for Use with the OLE DB Provider for DB2 &#91;bpi&#93; &#91;HIS09_R2&#93;](http://msdn.microsoft.com/en-us/4e1b89b7-b1ca-452f-95fa-ad5bf0fd8253)   
- [How to Create Packages &#91;bpi&#93; &#91;HIS09_R2&#93;](http://msdn.microsoft.com/en-us/1a5db4a8-a917-467c-a5ea-2fca87a5bdd5)

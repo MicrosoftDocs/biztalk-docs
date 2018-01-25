@@ -108,7 +108,7 @@ struct allocate {
 -   AP_WHEN_CONV_GROUP_ALLOCATED specifies that the LU does not return control to the TP until it allocates the session specified by **conv_group_id**or encounters one of the errors documented in Return Codes in this topic. If a session is not available, the TP waits for it to become free.  
   
 > [!NOTE]
->  AP_IMMEDIATE is the only value for **rtn_ctl** that never causes a new session to start. For values other than AP_IMMEDIATE, if an appropriate session is not immediately available, [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] tries to start one. This causes the on-demand connection to be activated.  
+>  AP_IMMEDIATE is the only value for **rtn_ctl** that never causes a new session to start. For values other than AP_IMMEDIATE, if an appropriate session is not immediately available, Host Integration Server tries to start one. This causes the on-demand connection to be activated.  
   
  *reserv4*  
  A reserved field.  
@@ -140,7 +140,7 @@ struct allocate {
   
  If you want to specify the partner LU with the **fqplu_name** parameter, fill this parameter with binary zeros.  
   
- For a user or group using TPs, 5250 emulators, and/or APPC applications, the system administrator can assign default local and remote LUs. In this case, the field is left blank or null and the default LUs are accessed when the user or group member starts an APPC program. For more information on default LUs, see Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Help.  
+ For a user or group using TPs, 5250 emulators, and/or APPC applications, the system administrator can assign default local and remote LUs. In this case, the field is left blank or null and the default LUs are accessed when the user or group member starts an APPC program. For more information on default LUs, see Microsoft Host Integration Server Help.  
   
  *mode_name*  
  Supplied parameter. Specifies the name of a set of networking characteristics defined during configuration.  
@@ -411,20 +411,20 @@ struct allocate {
   
  Host Integration Server supports a feature called password substitution. This is a security feature supported by the latest version of the OS/400 operating system (V3R1) which encrypts any password that flows between two nodes on an Attach message. A password flows on an Attach whenever someone invokes an APPC transaction program specifying a user identifier and password. For example, this happens whenever anyone logs on to an AS/400.  
   
- Support for password substitution is indicated by setting bit 5 in byte 23 of the BIND request to 1 (which indicates that password substitution is supported). If the remote system sets this bit in the BIND response, the SNA server automatically encrypts the LU 6.2 conversation security password included in the FMH-5 Attach message. APPC applications using [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] automatically take advantage of this feature by setting the security field of the VCB to AP_PGM or AP_STRONG in the **ALLOCATE** request.  
+ Support for password substitution is indicated by setting bit 5 in byte 23 of the BIND request to 1 (which indicates that password substitution is supported). If the remote system sets this bit in the BIND response, the SNA server automatically encrypts the LU 6.2 conversation security password included in the FMH-5 Attach message. APPC applications using Host Integration Server automatically take advantage of this feature by setting the security field of the VCB to AP_PGM or AP_STRONG in the **ALLOCATE** request.  
   
  If an APPC application wants to force an encrypted password to flow, the application can specify AP_STRONG for the security field in the VCB in the **ALLOCATE** request. This option is implemented as defined in OS/400 V3R1, and is documented in the OS/400 CPI-C programmer reference as CM_SECURITY_PROGRAM_STRONG, where the LU 6.2 **pwd** (password) field is encrypted before it flows over the physical network.  
   
  The password substitution features is currently only supported by OS/400 V3R1 or later. If the remote system does not support this feature, the SNA server will UNBIND the session with the sense code of 10060006. The two nodes negotiate whether or not they support this feature in the BIND exchange. Host Integration Server sets a bit in the BIND, and also adds some random data on the BIND for encryption. If the remote node supports password substitution, it sets the same bit in the BIND response, and adds some (different) random data for decryption.  
   
- [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] supports automatic logon for APPC applications. This feature requires specific configuration by the network administrator: The APPC application must be invoked on the LAN side from a client of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. The client must be logged into a Windows domain, but the client can be running on any operating system supported by the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] APPC APIs.  
+ Host Integration Server supports automatic logon for APPC applications. This feature requires specific configuration by the network administrator: The APPC application must be invoked on the LAN side from a client of Host Integration Server. The client must be logged into a Windows domain, but the client can be running on any operating system supported by the Host Integration Server APPC APIs.  
   
  The client application is coded to use "program" level security, with a special hard-coded APPC user name MS$SAME and password MS$SAME. When this session allocation flows from client to SNA server, the server looks up the host account and password corresponding to the Windows account under which the client is logged in, and substitutes the host account information into the APPC attach message it sends to the host.  
   
 > [!NOTE]
 >  It is illegal for the remote node to set the bit specifying password substitution and not add the random data.  
   
- According to IBM, there are implementations of LU 6.2 password substitution that do not support password substitution but do echo the password substitution bit back to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], without specifying any random data. When they do this, the SNA server will UNBIND the session with the sense code 10060006.This sense code is interpreted as:  
+ According to IBM, there are implementations of LU 6.2 password substitution that do not support password substitution but do echo the password substitution bit back to Host Integration Server, without specifying any random data. When they do this, the SNA server will UNBIND the session with the sense code 10060006.This sense code is interpreted as:  
   
 -   1006 = Required field or parameter missing.  
   
@@ -440,11 +440,11 @@ struct allocate {
   
  Several updates have been made to Host Integration Server to allow a privileged APPC application to open an APPC conversation using the Single Sign-On feature on behalf of any defined Windows user. This is referred to as the privileged proxy feature. An extension has been added to the APPC **ALLOCATE** verb to invoke this feature.  
   
- An APPC application becomes privileged by being started in a Windows user account that is a member of a special Windows group. When a Host Security Domain is configured, SNA Manager will define a second Windows group for use with the host security features of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. If the user account under which the actual client is running is a member of this second Windows group, the client is privileged to initiate an APPC conversation on behalf of any user account defined in the Host Account Cache.  
+ An APPC application becomes privileged by being started in a Windows user account that is a member of a special Windows group. When a Host Security Domain is configured, SNA Manager will define a second Windows group for use with the host security features of Host Integration Server. If the user account under which the actual client is running is a member of this second Windows group, the client is privileged to initiate an APPC conversation on behalf of any user account defined in the Host Account Cache.  
   
  The following illustrates how the privileged proxy feature works:  
   
- The [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] administrator creates a Host Security Domain called APP. SNA Manager now creates two Windows groups. The first group is called APP and the second is called APP_PROXY for this example. Users that are assigned to the APP group are enabled for Single Sign-On. Users assigned to the APP_PROXY group are privileged proxies. The administrator adds the Windows user AppcUser to the APP_PROXY group using the Users button on the Host Security Domain property dialog box in SNA Manager.  
+ The Host Integration Server administrator creates a Host Security Domain called APP. SNA Manager now creates two Windows groups. The first group is called APP and the second is called APP_PROXY for this example. Users that are assigned to the APP group are enabled for Single Sign-On. Users assigned to the APP_PROXY group are privileged proxies. The administrator adds the Windows user AppcUser to the APP_PROXY group using the Users button on the Host Security Domain property dialog box in SNA Manager.  
   
  The administrator then sets up an APPC application on the Host Integration Server to run as a Windows service called APPCAPP and that service has been set up to operate under the AppcUser user account. When APPCAPP runs, it opens an APPC session via an **ALLOCATE** verb using the extended VCB format and specifies the Windows user name of the desired user, UserA (for example).  
   
@@ -467,4 +467,4 @@ struct allocate {
 > [!NOTE]
 >  The application does not need to set up the **user_id** and **pwd** fields in the **ALLOCATE** VCB.  
   
- When the APPC application performs the above steps and issues the **ALLOCATE** verb, the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] server will perform a lookup in the host security domain for the specified Windows user and set the user ID and password fields in the FMH-5 Attach message sent to the remote system.
+ When the APPC application performs the above steps and issues the **ALLOCATE** verb, the Host Integration Server server will perform a lookup in the host security domain for the specified Windows user and set the user ID and password fields in the FMH-5 Attach message sent to the remote system.

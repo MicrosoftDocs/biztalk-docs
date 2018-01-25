@@ -1,7 +1,7 @@
 ---
-title: "Accessibility for People with Disabilities1 | Microsoft Docs"
+title: "Accessibility for People with Disabilities | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,10 +14,12 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Accessibility for People with Disabilities
+
+## Overview
 Microsoft is committed to making its products and services easier for everyone to use. Microsoft Host Integration Server and Microsoft Integration Server Help contain features that make them more accessible for people with disabilities. The topics in this section describe these features.  
   
- **In This Section**  
+## Next steps
   
-1.  [Keyboard Shortcuts for Accessibility of Host Integration Server](../install-and-config-guides/keyboard-shortcuts-for-accessibility-of-host-integration-server.md)  
+[Keyboard Shortcuts for Accessibility of Host Integration Server](../install-and-config-guides/keyboard-shortcuts-for-accessibility-of-host-integration-server.md)  
   
-2.  [Accessibility Features of Host Integration Server Help](../install-and-config-guides/accessibility-features-of-host-integration-server-help.md)
+[Accessibility Features of Host Integration Server Help](../install-and-config-guides/accessibility-features-of-host-integration-server-help.md)

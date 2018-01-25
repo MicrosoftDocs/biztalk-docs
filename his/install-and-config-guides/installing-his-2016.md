@@ -1,7 +1,8 @@
 ---
-title: "Installing HIS 2016 | Microsoft Docs"
+title: "Install HIS 2016 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +13,7 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Installing HIS 2016
+# Install HIS 2016
 This installation guide provides basic instructions for using the [!INCLUDE[his2016](../includes/his2016-md.md)] setup installation and configuration.  
   
 ## Before you begin  

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Print Server Data Filter Programmer&#39;s Guide
-The Host Print service of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] provides server-based 3270 and 5250 printer emulation, enabling host applications to print to Local Area Network (LAN) printers supported by Microsoft Windows operating systems. This section introduces the SNA Print Server Data Filter API (sometimes referred to as the Print Exit API).  This API can be used to extend the capabilities of the Host Print service in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The Host Print service of Host Integration Server provides server-based 3270 and 5250 printer emulation, enabling host applications to print to Local Area Network (LAN) printers supported by Microsoft Windows operating systems. This section introduces the SNA Print Server Data Filter API (sometimes referred to as the Print Exit API).  This API can be used to extend the capabilities of the Host Print service in Host Integration Server.  
   
  The user can provide a print data filter DLL that will be called by Host Print service when a print job is initiated, when data is sent to the printer, and when the print job is completed. This print data filter DLL can:  
   

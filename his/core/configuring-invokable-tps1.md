@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuring Invokable TPs
-The following topics discuss how to configure invokable transaction programs (TPs) for Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] clients.  
+The following topics discuss how to configure invokable transaction programs (TPs) for Microsoft Host Integration Server clients.  
   
  This section contains:  
   

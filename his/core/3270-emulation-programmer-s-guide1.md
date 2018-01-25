@@ -16,11 +16,11 @@ manager: "anneta"
 # 3270 Emulation Programmer's Guide
 
 ## Overview
-This section provides information for independent software vendors who are developing their own 3270 Emulator client software to work with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+This section provides information for independent software vendors who are developing their own 3270 Emulator client software to work with Host Integration Server.  
   
  To use this section of the guide effectively, you should be familiar with:  
   
--   [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]  
+-   Host Integration Server  
   
 -   Windows operating system  
   
@@ -28,11 +28,11 @@ This section provides information for independent software vendors who are devel
   
  **Operating systems support for 3270 development**  
   
- [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] supports the development of 3270 client applications for Windows operating systems.  
+ Host Integration Server supports the development of 3270 client applications for Windows operating systems.  
   
  **Network operating systems support for 3270 development**  
   
- [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] supports the following network operating systems:  
+ Host Integration Server supports the following network operating systems:  
   
 -   TCP/IP  
   

@@ -30,7 +30,7 @@ UCHAR *uname 
   
 #### Parameters  
  *sema4ptr*  
- Semaphore, created by Dynamic Access Module (DMOD), cleared by DMOD when a message is available. This address is for internal use by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. The application should not subsequently attempt to reference the address.  
+ Semaphore, created by Dynamic Access Module (DMOD), cleared by DMOD when a message is available. This address is for internal use by Host Integration Server. The application should not subsequently attempt to reference the address.  
   
  *proctype*  
  Type of process: CLIENT–2.  

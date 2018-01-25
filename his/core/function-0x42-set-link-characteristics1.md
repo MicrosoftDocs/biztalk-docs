@@ -43,7 +43,7 @@ This function sets the link protocol parameters required by the driver.
  A value of zero in both fields indicates that all error-free received frames are to be passed to the SNALink, regardless of the contents of their first address byte.  
   
  *Link Options*(packet format BYTE)  
- *Link Options* is a bitmap. The default is all values set to zero. The bits are used as shown in the following table. Note that not all of these options are supported by the standard Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] synchronous card drivers.  
+ *Link Options* is a bitmap. The default is all values set to zero. The bits are used as shown in the following table. Note that not all of these options are supported by the standard Microsoft Host Integration Server synchronous card drivers.  
   
 |Bit|Value|  
 |---------|-----------|  

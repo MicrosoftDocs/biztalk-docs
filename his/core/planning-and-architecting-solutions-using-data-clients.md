@@ -19,7 +19,7 @@ manager: "anneta"
   
  ![DI&#95;DataClients](../core/media/di-dataclients.jpg "DI_DataClients")  
   
- [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] data clients connect new solutions based on Microsoft Windows operating systems with existing information stored in IBM DB2 and Informix database, IBM mainframe and midrange host file systems.  
+ Host Integration Server data clients connect new solutions based on Microsoft Windows operating systems with existing information stored in IBM DB2 and Informix database, IBM mainframe and midrange host file systems.  
   
 ## Data Sources  
  The following table describes the supported platforms and versions.  
@@ -31,7 +31,7 @@ manager: "anneta"
 |Informix|IBM Informix IDS V11|  
 |Host Files|IBM DFSMS DFM z/OS V1.11, V1.12 and V1.13<br /><br /> IBM i5/OS V5R4, V6R1 and V7R1|  
   
- The [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] data client integration technologies and tools use IBM and industry-standard protocols and formats to help you connect to the back end data sources. The common IBM architecture is Distributed Data Management (DDM), which IBM has built into DB2 and Informix servers, mainframe z/OS and midrange i5/OS file systems.  
+ The Host Integration Server data client integration technologies and tools use IBM and industry-standard protocols and formats to help you connect to the back end data sources. The common IBM architecture is Distributed Data Management (DDM), which IBM has built into DB2 and Informix servers, mainframe z/OS and midrange i5/OS file systems.  
   
 ## Clients  
  When accessing remote IBM DB2 and Informix database servers, Microsoft technologies operate as industry-standard Distributed Relational Database Architecture (DRDA) Application Requester (AR) clients. To connect to IBM file systems (Host Files), Microsoft technologies operate as IBM-standard Distributed Data Management (DDM) Record-Level Input/Output (RLIO) clients.  
@@ -43,7 +43,7 @@ manager: "anneta"
 |Host Files|Microsoft DDM Client (included in MsHostFileClient provider)|  
   
 ## Providers  
- On top of these network clients, [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] offers a set of data provider features for you to use. The following table describes providers, architecture and consumers.  
+ On top of these network clients, Host Integration Server offers a set of data provider features for you to use. The following table describes providers, architecture and consumers.  
   
 |Provider|Architecture|Consumers|  
 |--------------|------------------|---------------|  
@@ -86,7 +86,7 @@ manager: "anneta"
 -   Changing Passwords for DB2.  
   
 ## Data Access Tool  
- Additionally, the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Data Access Tool and Data Source Wizard utilize the Data Access Library as underlying technology, to connect these tools to the Microsoft network clients and data providers at runtime. For example, when using the Data Source Wizard to test a connection, the Data Source Wizard connects via the Data Access Library to the Microsoft network client for DB2.  
+ Additionally, the Host Integration Server Data Access Tool and Data Source Wizard utilize the Data Access Library as underlying technology, to connect these tools to the Microsoft network clients and data providers at runtime. For example, when using the Data Source Wizard to test a connection, the Data Source Wizard connects via the Data Access Library to the Microsoft network client for DB2.  
   
  For more information, see Using the Data Access Library in Data Integration (Configuration) and the Microsoft.HostIntegration.DataAccessLibrary Namespace documentation.  
   
@@ -140,7 +140,7 @@ manager: "anneta"
  HIS data client for host files can access midrange files and submit a remote command.  
   
 ## Command Syntax  
- [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] data providers support a set of access methods and command syntax, depending on the data source and provider architecture. The following table describes the supported providers, command types and command syntax.  
+ Host Integration Server data providers support a set of access methods and command syntax, depending on the data source and provider architecture. The following table describes the supported providers, command types and command syntax.  
   
 |Provider|Command Types|Command Syntax|  
 |--------------|-------------------|--------------------|  

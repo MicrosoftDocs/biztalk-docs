@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Network Integration Security Guides
-The network integration features of Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] fall into several areas. Each area has a Security guide.  
+The network integration features of Microsoft Host Integration Server fall into several areas. Each area has a Security guide.  
   
  This section contains:  
   

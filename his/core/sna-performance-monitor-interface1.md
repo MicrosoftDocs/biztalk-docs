@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Performance Monitor Interface
-This section describes the interface for performance monitoring (Perfmon) used by SNADIS links that Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] supplies. This interface is provided to simplify the integration of SNADIS-compliant link services with the Microsoft Windows System Monitor applications. It provides a common look-and-feel to all link service performance counters exported by SNADIS links, independent of the vendor and link transport (channel, Twinax, SDLC, X.25, TR, E/Net, and so on).  
+This section describes the interface for performance monitoring (Perfmon) used by SNADIS links that Microsoft Host Integration Server supplies. This interface is provided to simplify the integration of SNADIS-compliant link services with the Microsoft Windows System Monitor applications. It provides a common look-and-feel to all link service performance counters exported by SNADIS links, independent of the vendor and link transport (channel, Twinax, SDLC, X.25, TR, E/Net, and so on).  
   
  The performance monitoring statistics maintained for an SNA link service are stored in a series of [ADAPTERCOUNTER](./adaptercounter2.md) structures that are members of an [ADAPTERPERFDATA](./adapterperfdata2.md) structure. These structures are defined in the SEMFPERF.H header file.  
   

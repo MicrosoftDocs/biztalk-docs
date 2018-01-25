@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # DL-BASE/DMOD
-The following topics describe an example in which a 3270 emulator is to be adapted to use [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. The emulator must communicate with the local 2.1 node.  
+The following topics describe an example in which a 3270 emulator is to be adapted to use Host Integration Server. The emulator must communicate with the local 2.1 node.  
   
 ## In This Section  
  [Initialization](../core/initialization2.md)  

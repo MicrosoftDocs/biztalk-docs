@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # IPC-DLC WMI Programmer&#39;s Reference
-The IPC-DLC WMI Programmer's Reference describes the classes you can use to monitor the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] link service.  
+The IPC-DLC WMI Programmer's Reference describes the classes you can use to monitor the Host Integration Server link service.  
   
 ## In This Section  
  [WmiSnaLinkServiceMS WMI Provider Classes](../core/wmisnalinkservicems-wmi-provider-classes1.md)

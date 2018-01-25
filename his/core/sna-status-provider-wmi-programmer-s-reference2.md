@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Status Provider WMI Programmer&#39;s Reference
-The SNA Status Provider WMI Programmer's Reference describes the Windows Management Instrumentation (WMI) classes you can use to monitor the health of your SNA servers for [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The SNA Status Provider WMI Programmer's Reference describes the Windows Management Instrumentation (WMI) classes you can use to monitor the health of your SNA servers for Host Integration Server.  
   
  For more information, see [How to Monitor the Health of Host Integration Server with WMI](./how-to-monitor-the-health-of-host-integration-server-with-wmi1.md).  
   

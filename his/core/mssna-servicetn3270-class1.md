@@ -61,7 +61,7 @@ class MsSna_ServiceTN3270 : MsSna_Service
  **LogSna**  
  Data Type: **Boolean**Access Type: Read/Write  
   
- **true** to log all TN3270 service event messages to the Event Log being used by the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] system, instead of to the Event Log on the local computer; otherwise, **false**.  
+ **true** to log all TN3270 service event messages to the Event Log being used by the Host Integration Server system, instead of to the Event Log on the local computer; otherwise, **false**.  
   
  **UseNameResolution**  
  Data Type: **Boolean**Access Type: Read/Write  

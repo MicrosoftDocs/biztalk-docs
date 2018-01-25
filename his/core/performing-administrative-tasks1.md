@@ -1,5 +1,5 @@
 ---
-title: "Performing Administrative Tasks1 | Microsoft Docs"
+title: "Performing Administrative Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -14,13 +14,14 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Performing Administrative Tasks
+
+## Overview
 The administrative tasks for the Data Access Library are the tasks you can perform using the `DataAccessControl` interface. In general, these tasks are those that require you go beyond creating universal data link (UDL) and start interacting with the actual data sources.  
   
-## In This Section  
- [How to Convert Data Source Information &#91;bpi&#93; &#91;HIS09_R2&#93;](http://msdn.microsoft.com/en-us/e84b2cf9-f64c-474d-9e8a-db2f354535ec)  
+## Next steps
   
- [How to Create a DB2 Package](../core/how-to-create-a-db2-package2.md)  
+ [Create a DB2 Package](../core/how-to-create-a-db2-package2.md)  
   
- [How to Test a Connection](../core/how-to-test-a-connection2.md)  
+ [Test a Connection](../core/how-to-test-a-connection2.md)  
   
- [How to Run a Sample Query](../core/how-to-run-a-sample-query1.md)
+ [Run a Sample Query](../core/how-to-run-a-sample-query1.md)

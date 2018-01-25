@@ -224,7 +224,7 @@ struct confirm {
   
  Normally, the value of the **ALLOCATE** verb's **mode_name** parameter must match the name of a mode configured for the invoked TP's node and associated during configuration with the partner LU.  
   
- If one of the modes associated with the partner LU on the invoked TP's node is an implicit mode, the session established between the two LUs will be of the implicit mode when no mode name associated with the partner LU matches the value of **mode_name**. For more information, see [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Help.  
+ If one of the modes associated with the partner LU on the invoked TP's node is an implicit mode, the session established between the two LUs will be of the implicit mode when no mode name associated with the partner LU matches the value of **mode_name**. For more information, see Host Integration Server Help.  
   
  Several parameters of **ALLOCATE** are EBCDIC or ASCII strings. A TP can use the common service verb (CSV) [CONVERT](../core/convert2.md) to translate a string from one character set to the other.  
   

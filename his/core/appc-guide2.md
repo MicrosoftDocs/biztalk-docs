@@ -20,7 +20,7 @@ This section provides information required to develop C-language applications th
   
  To use this section effectively, you should be familiar with:  
   
--   Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]  
+-   Microsoft Host Integration Server  
   
 -   Windows operating systems  
   

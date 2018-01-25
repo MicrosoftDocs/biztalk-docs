@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Sync Point Level 2 Support in Host Integration Server
-The following topics describe additions to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] that enable Sync Point Level 2 support to the LU 6.2 protocol stack.  
+The following topics describe additions to Host Integration Server that enable Sync Point Level 2 support to the LU 6.2 protocol stack.  
   
  This section assumes familiarity with the existing Host Integration Server APPC basic and mapped conversation interfaces. It does not attempt to explain the SNA formats and protocols for implementing Sync Point protocols, which are described in *SNA LU6.2 Reference: Peer Protocols* published by IBM (Document SC31-6808-1).  
   

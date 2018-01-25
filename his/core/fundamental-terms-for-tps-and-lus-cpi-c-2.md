@@ -59,7 +59,7 @@ The following terms describe some fundamental characteristics of transaction pro
   
  An LU 6.2 can have multiple sessions (two or more concurrent sessions with different partner LUs) and parallel sessions (two or more concurrent sessions with the same partner LU).  
   
- LUs are configured through SNA Manager on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. This administration tool is also used to configure LU-LU pairs and modes. The LU and mode configurations control how many sessions a particular LU-LU pair supports.  
+ LUs are configured through SNA Manager on Host Integration Server. This administration tool is also used to configure LU-LU pairs and modes. The LU and mode configurations control how many sessions a particular LU-LU pair supports.  
   
  *mapped conversation*  
  A type of conversation simpler than a basic conversation and generally used by application TPs (programs that accomplish tasks for end users). The default for conversation type is mapped. The conversation type can be changed with the [Set_Conversation_Type](./set-conversation-type-cpi-c-1.md) call. For more information, see [Basic and Mapped Conversations Compared](../core/basic-and-mapped-conversations-compared-cpi-c-2.md).  

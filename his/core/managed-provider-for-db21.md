@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Managed Provider for DB2
-[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] includes a Managed Provider to access data from a loosely coupled data source: in this case, a DB2 database. The Managed Provider for DB2 uses two central .NET Framework components to implement this capability: the ADO.NET `DataSet` object and the Managed Provider for DB2 itself.  
+Host Integration Server includes a Managed Provider to access data from a loosely coupled data source: in this case, a DB2 database. The Managed Provider for DB2 uses two central .NET Framework components to implement this capability: the ADO.NET `DataSet` object and the Managed Provider for DB2 itself.  
   
  A `DataSet` object is designed for data access independent of any data source. As a result, it can be used with multiple and different data sources, with XML data, or to manage data local to the application. A `DataSet` contains a collection of one or more `DataTable` objects consisting of rows and columns of data, and also primary key, foreign key, constraint, and relation information about the data in the `DataTable` objects.  
   

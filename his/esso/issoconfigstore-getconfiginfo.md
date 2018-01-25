@@ -83,7 +83,7 @@ ppbConfigInfo As IPropertyBag
   
  If the *bstrSSOServer* parameter is NULL, the SSO server location is obtained from the registry. (This applies to admin mode only. Run-time mode always uses the local computer.) If the server location is not available in the registry, the local computer is used.  
   
- To get the config info, this method is provided with an empty property bag that is populated with the properties. This allows the [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] implementation of the property bag to be used, which can handle the type conversion from BSTRs to the actual variant types based on a format convention specific to [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]. The property values will be XML tags for Host Integration Server.  
+ To get the config info, this method is provided with an empty property bag that is populated with the properties. This allows the BizTalk Server implementation of the property bag to be used, which can handle the type conversion from BSTRs to the actual variant types based on a format convention specific to BizTalk Server. The property values will be XML tags for Host Integration Server.  
   
 ## Example Code  
   

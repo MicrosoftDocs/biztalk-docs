@@ -46,7 +46,7 @@ A program that issues a call and does not regain control until the call complete
   
  With the exception of an asynchronous [Receive](./receive-cpi-c-2.md) call that can issue certain other calls while pending, a conversation can have only one incomplete operation at any time. For more information about using an asynchronous **Receive** call, see [Using Asynchronous Call Completion](../core/asynchronous-call-completion1.md). In the case of an incomplete operation, the program can issue [Wait_For_Conversation](./wait-for-conversation-cpi-c-1.md) to test for its completion or [Cancel_Conversation](./cancel-conversation-cpi-c-2.md) to end the conversation and the incomplete operation.  
   
- A second method using Win32 events for notification is supported in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+ A second method using Win32 events for notification is supported in Host Integration Server.  
   
  If an event has been registered with the conversation using **WinCPICSetEvent**, an application can call the Win32 **WaitForSingleObject** or **WaitForMultipleObjects** function to wait to be notified of the completion of the verb.  
   

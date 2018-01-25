@@ -14,10 +14,10 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Troubleshooting for Invokable TPs
-If there are difficulties with starting an invokable TP, there may be a mismatch between the information for the invokable TP, the invoking TP, and/or LUs in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] configuration. That is, there may be a mismatch between the parameters for [RECEIVE_ALLOCATE](./receive-allocate1.md), [TP_STARTED](./tp-started2.md), [ALLOCATE](./allocate2.md), or [MC_ALLOCATE](./mc-allocate2.md) and/or LU aliases specified in server configuration. LU aliases are configured using SNA Manager on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+If there are difficulties with starting an invokable TP, there may be a mismatch between the information for the invokable TP, the invoking TP, and/or LUs in the Host Integration Server configuration. That is, there may be a mismatch between the parameters for [RECEIVE_ALLOCATE](./receive-allocate1.md), [TP_STARTED](./tp-started2.md), [ALLOCATE](./allocate2.md), or [MC_ALLOCATE](./mc-allocate2.md) and/or LU aliases specified in server configuration. LU aliases are configured using SNA Manager on Host Integration Server.  
   
 ## Simplifying APPC Configuration  
- There are several features in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] that can simplify configuration for APPC:  
+ There are several features in Host Integration Server that can simplify configuration for APPC:  
   
 -   The implicit incoming remote LU and the implicit incoming mode, which allow Host Integration Server to accept requests that arrive by unrecognized remote LUs and modes.  
   
