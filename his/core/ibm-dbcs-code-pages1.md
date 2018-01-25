@@ -25,7 +25,7 @@ Transaction Integrator (TI) recognizes the following code pages as IBM double-by
 |937|IBM English single-byte and IBM traditional Chinese|  
 |939|IBM English Extend lower case and IBM Japanese (for Japan)|  
   
- All other code pages delivered with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] are handled as Extended Binary Coded Decimal Interchange Code (EBCDIC) code pages, which use a single byte to represent a character.  
+ All other code pages delivered with Host Integration Server are handled as Extended Binary Coded Decimal Interchange Code (EBCDIC) code pages, which use a single byte to represent a character.  
   
  When the TI run-time environment converts UNICODE characters to DBCS characters, it uses standard Microsoft Windows NLS code pages.  
   

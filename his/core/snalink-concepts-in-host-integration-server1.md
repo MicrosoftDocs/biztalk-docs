@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNALink Concepts in Host Integration Server
-This section describes key concepts used in the SNALink feature of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. Because the purpose of this section is to enable original equipment manufacturers (OEMs) and adapter vendors to develop link support software to integrate their hardware adapters into a [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] system, only the relevant parts of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] architecture are described.  
+This section describes key concepts used in the SNALink feature of Host Integration Server. Because the purpose of this section is to enable original equipment manufacturers (OEMs) and adapter vendors to develop link support software to integrate their hardware adapters into a Host Integration Server system, only the relevant parts of the Host Integration Server architecture are described.  
   
 ## In This Section  
   

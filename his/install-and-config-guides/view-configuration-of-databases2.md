@@ -1,14 +1,12 @@
 ---
-title: "View Configuration of Databases2 | Microsoft Docs"
+title: "View Databases Configuration | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "config.wiz.databaseview"
 ms.assetid: 9d0745f3-3d1e-4f07-9b10-0b2bc223f30b
 caps.latest.revision: 4
 author: "gplarsen"

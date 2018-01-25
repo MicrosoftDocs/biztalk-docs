@@ -14,6 +14,6 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Role of the Base (SNADIS)
-TheBase is a part of each [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] component, such as the local 2.1 node or a link service that provides the operating environment for that component. It passes messages between components and provides functions common to all components, such as diagnostic tracing.  
+TheBase is a part of each Host Integration Server component, such as the local 2.1 node or a link service that provides the operating environment for that component. It passes messages between components and provides functions common to all components, such as diagnostic tracing.  
   
  The Link Base is the type of Base used by Host Integration Server SNALink. The Base has entry points for initialization, sending messages, receiving messages, and termination.

@@ -22,4 +22,4 @@ Use the **Welcome to the New Object View Wizard** page to view the definition of
   
 ## See Also  
  [Configure a New Object View Wizard Page](../core/configure-a-new-object-view-wizard-page2.md)   
- [New Object View Wizard &#91;bpi&#93;](http://msdn.microsoft.com/en-us/71839563-aac2-4101-9b1f-a58deaff154e)
+ [New Object View Wizard](new-object-view-wizard2.md)

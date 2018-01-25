@@ -1,5 +1,5 @@
 ---
-title: "Data Conversion Using the ODBC Driver for DB2 | Microsoft Docs"
+title: "Data Conversion using DB2 ODBC Driver | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -53,8 +53,6 @@ The design of ODBC APIs is similar to other ISAM APIs. The APIs are handle-based
  The maximum length of the DB2 character and graphic string data types is dependent on the DB2 platform and version. For example, a CHAR type on DB2 for OS/390 V5R1 has a maximum length of 254 bytes, whereas a CHAR type on DB2/400 V4R4 has a maximum length of 32,766 bytes.  
   
  Data conversions from a large numeric type to a small numeric type are supported (from DOUBLE to SINGLE and from INT to SMALLINT, for example), however truncation and conversion errors can occur that will not be reported by the ODBC Driver for DB2.  
-  
- For more information on support for the DB2 character data types of subtype MIXED using the ODBC Driver for DB2, see [Code Page Support Using the ODBC Driver for DB2](http://msdn.microsoft.com/en-us/44295c89-550b-4812-a99b-b3b5d3ab7878).  
   
  Using the ODBC Driver for DB2, certain conversions of strings from EBCDIC to ASCII and then back to EBCDIC are asymmetric, and can result in strings that are different from the original. The EBCDIC specification contains ordinals for which there is no defined character. The ODBC Driver for DB2 translates all such undefined characters to the question mark character ("?"). So when ASCII strings containing these characters are converted back to EBCDIC, these undefined characters are replaced with question marks. To protect EBCDIC strings containing undefined characters, these fields should be tagged as binary strings and mapped by the application.  
   

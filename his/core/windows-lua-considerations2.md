@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Windows LUA Considerations
-The following Windows extensions are of particular importance and should be reviewed before using the logical unit application (LUA) application programming interface (API) and this version of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]:  
+The following Windows extensions are of particular importance and should be reviewed before using the logical unit application (LUA) application programming interface (API) and this version of Host Integration Server:  
   
 -   [RUI](./rui2.md)  
   

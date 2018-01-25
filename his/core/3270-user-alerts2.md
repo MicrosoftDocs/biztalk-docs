@@ -22,7 +22,7 @@ The Host Integration Server 3270 emulation program can send 3270 user alerts to 
   
 -   The first three bytes of the data are 0x41038D, indicating a Network Management Vector Transport (NMVT).  
   
- The local node sends the alert to the appropriate host for the 3270 session on which it was received. If a relative time subvector is present (0x42) with increment type 0xEF (sequence), the local node sets the sequence number in each message (starting at one from power-up and incrementing by one for each message sent). [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] allows sequence number values up to 2^16. Apart from this, the local node does not alter the contents of the alert.  
+ The local node sends the alert to the appropriate host for the 3270 session on which it was received. If a relative time subvector is present (0x42) with increment type 0xEF (sequence), the local node sets the sequence number in each message (starting at one from power-up and incrementing by one for each message sent). Host Integration Server allows sequence number values up to 2^16. Apart from this, the local node does not alter the contents of the alert.  
   
 > [!NOTE]
 >  There can be some delay before the application receives a response to the alert. The response is sent on the SSCP connection in the same way as other data on this connection. The application must not send further data on the SSCP connection (including further alerts) until it has received a response to this alert.  

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # LPI Connections (SNADIS)
-Partners communicate by passing messages to each other. If two partners want to communicate with each other, a locality, partner, index (LPI) connection is set up between the two partners. Messages then flow between the partners over this connection. The term *LPI connection* is explained in [LPI Addresses](../core/lpi-addresses-snadis-2.md). Note that this is not related to the Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] concept of a connection between the local node and a remote system.  
+Partners communicate by passing messages to each other. If two partners want to communicate with each other, a locality, partner, index (LPI) connection is set up between the two partners. Messages then flow between the partners over this connection. The term *LPI connection* is explained in [LPI Addresses](../core/lpi-addresses-snadis-2.md). Note that this is not related to the Microsoft Host Integration Server concept of a connection between the local node and a remote system.  
   
 ## In This Section  
   

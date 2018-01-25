@@ -35,4 +35,4 @@ BOOL WINAPI FindCloseCodePage( 
 ## Remarks  
  The *hInfo* parameter passed to this function is the handle returned from a previous call to the **FindFirstCodePage** function.  
   
- SNANLS supports this function on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].
+ SNANLS supports this function on Host Integration Server.

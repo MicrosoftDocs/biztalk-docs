@@ -1,5 +1,5 @@
 ---
-title: "COM Mapper Programmer&#39;s Reference | Microsoft Docs"
+title: "COM Mapper Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,10 +13,10 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# COM Mapper Programmer&#39;s Reference
+# COM Mapper Programmer's Reference
 Component Object Model (COM) objects are used for accessing the Enterprise Single Sign-On (SSO) technology for Microsoft Host Integration Server.  
   
-## In This Section  
+## Available COM objects
   
 -   [IPropertyBag Interface2](../esso/ipropertybag-interface2.md)  
   
@@ -60,5 +60,3 @@ Component Object Model (COM) objects are used for accessing the Enterprise Singl
   
 -   [SStatus Structure (COM)](../esso/sstatus-structure-com.md)  
   
-## See Also  
- [Single Sign-on Programmer's Reference &#91;HIS06&#93; &#91;HIS09_R2&#93;](http://msdn.microsoft.com/en-us/e8695aa6-f73a-4a48-b741-9680dc9d07f8)

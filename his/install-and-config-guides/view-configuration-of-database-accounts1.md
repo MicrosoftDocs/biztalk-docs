@@ -1,14 +1,12 @@
 ---
-title: "View Configuration of Database Accounts1 | Microsoft Docs"
+title: "View Configuration of Database Accounts | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "config.wiz.databaseaccounts"
 ms.assetid: 1cb4f693-8e2b-4ecf-960c-45c2c280943f
 caps.latest.revision: 4
 author: "gplarsen"

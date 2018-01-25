@@ -1,5 +1,5 @@
 ---
-title: "APPC Verb Summary1 | Microsoft Docs"
+title: "APPC Verb Summary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -51,7 +51,7 @@ This section briefly describes each APPC verb, grouped by function.
 -   The local TP issues **FLUSH**, **MC_FLUSH**, **CONFIRM**, **MC_CONFIRM**, **DEALLOCATE**, **MC_DEALLOCATE**, or another verb that flushes the local LU's send buffer.  
   
 ## Verbs for Receiving Data  
- [POST_ON_RECEIPT](http://msdn.microsoft.com/en-us/bcac5eab-07f4-474f-a822-d70bbc44448b)or [MC_POST_ON_RECEIPT](./mc-post-on-receipt1.md)  
+ POST_ON_RECEIPT or [MC_POST_ON_RECEIPT](./mc-post-on-receipt1.md)  
  Issuing this verb allows the application to register to receive a notification when data or status arrives at the local LU without actually receiving it at the same time. This verb can only be issued while in RECEIVE state and it never causes a change in conversation state.  
   
  When the TP issues this verb, APPC returns control to the TP immediately. When the specified conditions are satisfied, the Win32® event specified as a parameter is signaled and the verb completes. Then the TP looks at the return code in the verb control block to determine whether or not any data or status notification has arrived at the local LU and issues a **RECEIVE_IMMEDIATE** or **RECEIVE_AND_WAIT** verb to actually receive the data or status notification.  

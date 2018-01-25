@@ -22,4 +22,4 @@ For sample code using data integration, see the SDK.
 ## Next steps
  [OLE DB Providers Programmer's Reference](../core/ole-db-providers-programmer-s-reference2.md)  
   
- [Managed Data Provider for Host Files Programmer's Reference](http://msdn.microsoft.com/en-us/8faefa6d-d4e0-460e-b5d9-419e210db343)
+ [Managed Data Provider for Host Files Programmer's Reference](managed-data-provider-for-host-files-programmer-s-guide2.md)

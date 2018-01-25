@@ -14,7 +14,7 @@ robots: noindex,nofollow
 # Microsoft Update
 **Check for Updates**  
   
- Click the **Check for Updates** button to launch the Windows Update, and then install available updates to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+ Click the **Check for Updates** button to launch the Windows Update, and then install available updates to Host Integration Server.  
   
  **Launch Host Integration Server Configuration**  
   

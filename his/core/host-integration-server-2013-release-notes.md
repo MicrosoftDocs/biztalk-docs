@@ -13,10 +13,10 @@ caps.latest.revision: 9
 # Host Integration Server 2013 Release Notes
 Last updated: July 2013  
   
- This Readme file contains up-to-date information about Microsoft® [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Release.  
+ This Readme file contains up-to-date information about Microsoft® Host Integration Server Release.  
   
 ## What's New in this Release  
- The following is an overview of the new features and enhancements in this release of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+ The following is an overview of the new features and enhancements in this release of Host Integration Server.  
   
 ### Platforms  
   
@@ -220,7 +220,7 @@ Last updated: July 2013
      New session and command source identifiers when connecting to DB2, to enable accounting and improve tracing the Client for DB2. Improved error objects, includes reason code and extended error message.  
   
 ### Removed Features  
- The following features have been removed in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] release:  
+ The following features have been removed in the Host Integration Server release:  
   
 -   **Microsoft OLE DB Provider for AS/400 and VSAM**  
   
@@ -241,7 +241,7 @@ Last updated: July 2013
 |Host Integration Server Home|[http://go.microsoft.com/fwlink/?LinkId=187949](http://go.microsoft.com/fwlink/?LinkId=187949)|  
   
 ### Finding the Product Documentation  
- To access the product documentation after you install Host Integration Server, click **Start**, point to **All Programs**, point to **Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]**, and then click **Documentation**.  
+ To access the product documentation after you install Host Integration Server, click **Start**, point to **All Programs**, point to **Microsoft Host Integration Server**, and then click **Documentation**.  
   
 ## Contacting Microsoft About Documentation Issues  
  The Host Integration Server documentation team solicits your feedback about the documentation. Are you finding the information you need quickly? Are there any gaps in content coverage? Please send your comments and suggestions to us by using the feedback link in the online Help or by contacting us through the Host Integration Server on Microsoft Connect link listed above.  

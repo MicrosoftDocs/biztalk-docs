@@ -21,7 +21,7 @@ SYNCPT verb issued locally.
   
 1.  The transaction program issues a [SEND_DATA](./send-data1.md) or [MC_SEND_DATA](./mc-send-data1.md)verb depending on whether a basic or mapped conversation is being used.  
   
-2.  The **SEND_DATA** or **MC_SEND_DATA** VCB is passed transparently through the vendor API to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. When the verb completes, the return code from Host Integration Server is returned to the transaction program.  
+2.  The **SEND_DATA** or **MC_SEND_DATA** VCB is passed transparently through the vendor API to Host Integration Server. When the verb completes, the return code from Host Integration Server is returned to the transaction program.  
   
 3.  The transaction program issues a **SYNCPT** verb to the vendor API.  
   

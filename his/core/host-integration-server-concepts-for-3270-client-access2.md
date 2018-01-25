@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Host Integration Server Concepts for 3270 Client Access
-This section describes some key concepts used in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] when providing 3270 client access. The purpose of this section is to provide information that enables independent software vendors to integrate their 3270 emulators with Host Integration Server. Only the relevant parts of the Host Integration Server architecture are described.  
+This section describes some key concepts used in Host Integration Server when providing 3270 client access. The purpose of this section is to provide information that enables independent software vendors to integrate their 3270 emulators with Host Integration Server. Only the relevant parts of the Host Integration Server architecture are described.  
   
 ## In This Section  
  [Structure of 3270 Client Access Components](../core/structure-of-3270-client-access-components2.md)  

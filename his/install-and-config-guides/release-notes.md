@@ -1,7 +1,8 @@
 ---
 title: "Release Notes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

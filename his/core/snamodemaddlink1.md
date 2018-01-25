@@ -37,10 +37,10 @@ MODEM_STATUS **ppModemStatus);
 >  The **LSName** is initially the name of the link service, but may need to be altered for multiport link services.The IHV can replace the link service name returned in the **MODEM_STATUS** structure to differentiate between possible multiple connections through a single link service.  
   
 > [!NOTE]
->  The IHV should maintain the various input and output signal lines and the data flow frame counts in the returned **MODEM_STATUS** structure. The Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Modem Monitor application will periodically read and display the data stored in this **MODEM_STATUS** structure.  
+>  The IHV should maintain the various input and output signal lines and the data flow frame counts in the returned **MODEM_STATUS** structure. The Microsoft Host Integration Server Modem Monitor application will periodically read and display the data stored in this **MODEM_STATUS** structure.  
   
 > [!NOTE]
->  Internally **SNAModemAddLink** increments the usage count of the shared memory, and signals the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Modem Monitor application that a new link has been added.  
+>  Internally **SNAModemAddLink** increments the usage count of the shared memory, and signals the Host Integration Server Modem Monitor application that a new link has been added.  
   
 ## See Also  
  [MODEM_STATUS](../core/modem-status1.md)   

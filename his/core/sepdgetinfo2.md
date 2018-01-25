@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # sepdgetinfo
-The **sepdgetinfo** function returns a structure containing the version number of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], the path of the current configuration file, and the network operating system over which Host Integration Server is running.  
+The **sepdgetinfo** function returns a structure containing the version number of Host Integration Server, the path of the current configuration file, and the network operating system over which Host Integration Server is running.  
   
 ## Syntax  
   
@@ -77,6 +77,6 @@ struct cs_info {
 ## Remarks  
  The application must set the **length** member to the length of the **cs_info** structure (86 bytes in the current version). Any other value will be rejected. This parameter is used to ensure compatibility with future versions; an application supplying this length will always obtain the information shown here, but in future versions it may be possible to specify larger values and obtain further information.  
   
- On successful return, the data structure **cs_info** contains the version number of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], the path of the current configuration file, and the network operating system over which Host Integration Server is running.  
+ On successful return, the data structure **cs_info** contains the version number of Host Integration Server, the path of the current configuration file, and the network operating system over which Host Integration Server is running.  
   
  If there is no configuration file server available, only the version number fields are valid; the other fields should not be checked.

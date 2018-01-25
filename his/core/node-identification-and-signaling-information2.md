@@ -24,7 +24,7 @@ For information about the role an SNALink plays in node identification, see [Inc
   
  The presence of signaling information depends on the type of the SNALink. For instance, there is no signaling information over a Synchronous Data Link Control (SDLC) link, but there is signaling information over X.25 and 802.2. The SNALink passes signaling information to the local node on the [Request-Open-Station](./request-open-station2.md) message by appending it after the XID.  
   
- If signaling information is present, the local node checks it against the configured value in the dial-digits record of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] configuration file. For incoming call support, this allows the local node to determine the connection that is to be activated. For a fuller description of incoming calls, see [Incoming Call Support](../core/incoming-call-support-snadis-2.md).  
+ If signaling information is present, the local node checks it against the configured value in the dial-digits record of the Host Integration Server configuration file. For incoming call support, this allows the local node to determine the connection that is to be activated. For a fuller description of incoming calls, see [Incoming Call Support](../core/incoming-call-support-snadis-2.md).  
   
  If there is no signaling information, the local node compares the control point (CP) name on the received XID with the remote control point name in the configuration.  
   

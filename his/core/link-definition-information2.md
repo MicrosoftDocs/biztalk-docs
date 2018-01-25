@@ -87,7 +87,7 @@ typedef struct link_def_overlay {
   IBMTRNET  
   IBMPCNET  
   SDLC  
-  TWINAX (Not supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)])  
+  TWINAX (Not supported by Host Integration Server)  
   X25DLC  
   adj_fq_cp_name  
  Fully qualified **cp_name** in adjacent node.  

@@ -1,7 +1,8 @@
 ---
-title: "WIPObjects | Microsoft Docs"
+title: "WIPObjects node | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,6 +15,7 @@ manager: "anneta"
 ---
 # Objects
 
+## Overview
 The **Objects** node is used to identify the TI Meta Data Assembly for the WIP call.  This assembly is created in the TI Designer and specifies the various input and output data definitions for methods that can be called by WIP Client programs.
 
 Right-click the Objects node and select New... to bring up a window where you can click on button labeled ... to browse to the Meta Data Assembly that was created using the TI Designer with the data definitions.

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Print Server Data Filter Programmer&#39;s Security Guide
-The following topics discuss security as it applies to the APPC section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SDK.  
+The following topics discuss security as it applies to the APPC section of the Host Integration Server SDK.  
   
 ## Threats and mitigations for SNA Print Server Data Filter  
  Programmers who use the SNA Print Server Data Filter should be aware of the following security issue.  

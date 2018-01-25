@@ -20,7 +20,7 @@ Visual Studio Solution Explorer provides an organized view of projects and their
   
 -   Host-Initiated libraries, which are annotated Microsoft .NET Framework assemblies (.dll).  
   
- With [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] HIP, Designer no longer generates both a .tim and .dll. The HIP configuration requires only a .dll.  
+ With Host Integration Server HIP, Designer no longer generates both a .tim and .dll. The HIP configuration requires only a .dll.  
   
  **To open Solution Explorer**  
   

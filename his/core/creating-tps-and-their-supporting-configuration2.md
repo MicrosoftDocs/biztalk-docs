@@ -34,6 +34,6 @@ The following procedure describes how to create transaction programs (TPs) and s
   
 5.  If the invokable TP is operator-started, start it, or arrange for it to be started when the computer is restarted and then restart the computer.  
   
-     If the invokable TP is autostarted, [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] will start it when needed.  
+     If the invokable TP is autostarted, Host Integration Server will start it when needed.  
   
 6.  Start the invoking TP.

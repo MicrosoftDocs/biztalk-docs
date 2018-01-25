@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Matching Invoking and Invokable TPs
-Each computer running [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] maintains a list of available invokable TP names and any LU aliases to be associated with the TP names. This information is obtained as follows:  
+Each computer running Host Integration Server maintains a list of available invokable TP names and any LU aliases to be associated with the TP names. This information is obtained as follows:  
   
 -   For autostarted invokable TPs, registry or environment variables identify a TP name containing a maximum of eight characters, and can specify an associated LU. This information is sent from the client to the server that sponsors the client. A client learns about the domain through a sponsor connection to a server; clients must establish the sponsor connection before proceeding with any other tasks.  
   
@@ -33,17 +33,17 @@ Each computer running [!INCLUDE[hishostintegrationserver2009](../includes/hishos
   
 -   The comparison of requested and available TP names is carried out in a specific order:  
   
-    1.  Host Integration Server first checks for operator-started invokable TPs on the local system (the local computer running [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]).  
+    1.  Host Integration Server first checks for operator-started invokable TPs on the local system (the local computer running Host Integration Server).  
   
-    2.  If no match is found, Host Integration Server checks for autostarted invokable TPs on the local system (the local computer running [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]).  
+    2.  If no match is found, Host Integration Server checks for autostarted invokable TPs on the local system (the local computer running Host Integration Server).  
   
-    3.  If no match is found, Host Integration Server checks for operator-started invokable TPs on other [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] clients or servers.  
+    3.  If no match is found, Host Integration Server checks for operator-started invokable TPs on other Host Integration Server clients or servers.  
   
     4.  If no match is found, Host Integration Server checks for autostarted invokable TPs on other Host Integration Server clients or servers.  
   
  This comparison can be modified somewhat by registry entries for the SnaServer service. The entries are called **DloadMatchTPOnly** and **DloadMatchLocalFirst**, and are described in the *Microsoft Host Integration Server Reference online book*.  
   
- If a match is found, Host Integration Server signals the system containing the requested TP to connect to that server running [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. If no match is found, Host Integration Server rejects the incoming request.  
+ If a match is found, Host Integration Server signals the system containing the requested TP to connect to that server running Host Integration Server. If no match is found, Host Integration Server rejects the incoming request.  
   
  For suggestions about specific ways to handle TP names and LU aliases, see [Arranging TPs Within an SNA Network](../core/arranging-tps-within-an-sna-network2.md).  
   

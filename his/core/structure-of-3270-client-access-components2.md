@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Structure of 3270 Client Access Components
-The components of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] that apply to 3270 client access are:  
+The components of Host Integration Server that apply to 3270 client access are:  
   
 -   Local nodes  
   

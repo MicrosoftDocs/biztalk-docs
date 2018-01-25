@@ -1,5 +1,5 @@
 ---
-title: "Configuring Collation Mappings | Microsoft Docs"
+title: "Configure Collation Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,7 +13,7 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Configuring Collation Mappings
+# Configure Collation Mappings
 SQL Server may collate query results in a different order than what is expected by the DRDA client program. For example, an IT professional may configure a SQL Server database to use an ANSI collation and a DB2 for z/OS database to use EBCDIC collation.  
   
 ## Automatic Collation  
@@ -62,4 +62,4 @@ SELECT * FROM [CONTOSO].[DSN8910].[DEPT] ORDER BY DEPTNAME COLLATE SQL_EBCDIC037
 ## Mapping to Collation Name  
  The **to** attribute instructs the DRDA Service SQL Transformer to convert to the specified collation_name string within a SQL Server SELECT ORDER BY COLLATE clause. This **required** attribute accepts a **string** value. There is no default value.  
   
- For more information on SQL Server COLLATE, see [http://msdn.microsoft.com/library/ms184391.aspx](http://msdn.microsoft.com/library/ms184391.aspx).
+ For more information, see [SQL Server COLLATE](https://docs.microsoft.com/sql/t-sql/statements/collations).

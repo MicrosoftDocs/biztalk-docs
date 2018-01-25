@@ -1,7 +1,7 @@
 ---
-title: "Trace Viewer2 | Microsoft Docs"
+title: "Trace Viewer shortcuts | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""

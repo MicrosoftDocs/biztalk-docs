@@ -16,7 +16,7 @@ manager: "anneta"
 # Windows APPC Overview
 The information provided in this guide is source code and executable code compatible with the following implementations of APPC:  
   
--   APPC applications based on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] residing on the server or on a client. These applications run on Microsoft operating systems.  
+-   APPC applications based on Host Integration Server residing on the server or on a client. These applications run on Microsoft operating systems.  
   
  Programs written to use this implementation of APPC can exchange data with programs written to use other implementations of APPC that adhere to the SNA LU 6.2 architecture.  
   

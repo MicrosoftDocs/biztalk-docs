@@ -20,7 +20,7 @@ You can access these provider classes in the \root\MicrosoftHIS namespace.
 |-----------|-----------------|  
 |[MsHisTrace_Global](../core/mshistrace-global-class2.md)|Contains the global settings for Host Integration Server tracing.|  
 |[MsHisTrace_COMTI](../core/mshistrace-comti-class1.md)|Describes tracing properties for Transaction Integrator (TI).|  
-|[MsHisTrace_SNAApplication](../core/mshistrace-snaapplication-class2.md)|Contains tracing properties for any application that runs on top of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].|  
+|[MsHisTrace_SNAApplication](../core/mshistrace-snaapplication-class2.md)|Contains tracing properties for any application that runs on top of Host Integration Server.|  
 |[MsHisTrace_SNAManageClient](../core/mshistrace-snamanageclient-class2.md)|Contains tracing properties for the SNA Manage Client.|  
 |[MsHisTrace_SNAMngAgent](../core/mshistrace-snamngagent-class1.md)|Contains tracing properties for the SNA Manage Agent.|  
 |[MsHisTrace_SNAServerManager](../core/mshistrace-snaservermanager-class1.md)|Contains tracing properties for the SNA Manager.|  

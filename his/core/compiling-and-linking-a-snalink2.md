@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Compiling and Linking a SNALink
-This section provides information about compiling and linking a SNALink for use with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. This section also lists and explains the header files and libraries need to build a SNALink.  
+This section provides information about compiling and linking a SNALink for use with Host Integration Server. This section also lists and explains the header files and libraries need to build a SNALink.  
   
 ## In This Section  
  [Host Integration Server DLC Header Files](../core/host-integration-server-dlc-header-files1.md)  

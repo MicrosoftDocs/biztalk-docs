@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Sync Point Session Support
-This section discusses support for Sync Point session activation and deactivation in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+This section discusses support for Sync Point session activation and deactivation in Host Integration Server.  
   
 ## In This Section  
  [Sync Point Session Activation](../core/sync-point-session-activation2.md)  

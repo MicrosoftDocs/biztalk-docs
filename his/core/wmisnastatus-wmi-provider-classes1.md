@@ -28,7 +28,7 @@ The Microsoft® Host Integration Server SNA Status provider supplies information
   
  **PutInstanceAsync**  
   
- For more information on **IWbemProviderInit** and **IWbemServices**, see "COM API for WMI" in the MSDN Library at http://msdn.microsoft.com/library.  
+ For more information on **IWbemProviderInit** and **IWbemServices**, see [COM API for WMI](https://msdn.microsoft.com/library/aa389276(v=vs.85).aspx).  
   
  The WmiSnaStatus.mof and WmiSnaStatus_XP file contains the WMISNA provider, and association and registration classes. You can access these provider classes in the \root\MicrosoftHIS namespace.  
   

@@ -2,6 +2,7 @@
 title: "WIPRemoteEnvs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,6 +17,7 @@ manager: "anneta"
 
 There are 14 different Remote Environment types that can be configured. A remote environment defines the characteristics of the non-Windows host environment that receives requests from Windows-initiated processing (WIP) components. The Remote Environment that is defined must match the Remote Environment type the for the TI Meta data object.
 
+## Environments list
 Right-click the Remote Environments node and select New to bring up the list of the Remote Environments to choose from.  See the Related Sections below to explore which is the appropriate programming model for various environments.
 
 1. **Distributed Program Call** - TCP/IP call to an iSeries system via DPC

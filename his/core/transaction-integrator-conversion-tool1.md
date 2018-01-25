@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Transaction Integrator Conversion Tool
-The TIConversionTool command-line utility makes it quick and easy to migrate to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] from HIS 2010, HIS 2009, HIS 2008, HIS 2006 and HIS 2004. You can use it to convert Window Initiated (WIP) or Host Initiated (HIP) TLBs and .NET assemblies created in earlier versions of HIS to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] .NET assemblies. You can use it to convert a single TLB or assembly, or multiple TLBs or assemblies.  
+The TIConversionTool command-line utility makes it quick and easy to migrate to Host Integration Server from HIS 2010, HIS 2009, HIS 2008, HIS 2006 and HIS 2004. You can use it to convert Window Initiated (WIP) or Host Initiated (HIP) TLBs and .NET assemblies created in earlier versions of HIS to Host Integration Server .NET assemblies. You can use it to convert a single TLB or assembly, or multiple TLBs or assemblies.  
   
  The TIConversionTool.exe is located in the following folders:  
   
@@ -41,11 +41,11 @@ The TIConversionTool command-line utility makes it quick and easy to migrate to 
   
  **TIConversionTool Considerations**  
   
--   The TIConversionTool.exe migrates the context interface to the new context interface introduced in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+-   The TIConversionTool.exe migrates the context interface to the new context interface introduced in Host Integration Server.  
   
 -   TheTIConversionTool.exe will update the RE class only when the current RE class is no longer supported.  
   
--   The utility updates old type libraries and .NET assemblies to work with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. Once converted, we recommend the conversions be associated with new RE configuration.  You can associate HIS 2009 and HIS 2010 conversions with existing HIS REs, or with new matching [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] REs.  
+-   The utility updates old type libraries and .NET assemblies to work with Host Integration Server. Once converted, we recommend the conversions be associated with new RE configuration.  You can associate HIS 2009 and HIS 2010 conversions with existing HIS REs, or with new matching Host Integration Server REs.  
   
 -   When converting an old type library to a .NET assembly, TI converts Visual Basic version 6.0 Automation data types to Visual Basic .NET types as described in the following table.  
   

@@ -45,7 +45,7 @@ This topic summarizes information about developing transaction programs (TPs) us
 |WINAPPC.DLL|WAPPC32.DLL|  
 |WINCSV.DLL|WINCSV32.DLL|  
   
- The new DLL names should be used for Win32-based applications that are intended to run only on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+ The new DLL names should be used for Win32-based applications that are intended to run only on Host Integration Server.  
   
  **Limits**  
  For Windows operating systems, the number of simultaneous common service verbs (CSVs) allowed per process is 64. Only one of these verbs per thread can be synchronous (blocking).  

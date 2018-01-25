@@ -16,7 +16,7 @@ manager: "anneta"
 # Network Integration Programmer's Reference
 
 ## Overview
-This section of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server network technologies into your application.  
+This section of Host Integration Server describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server network technologies into your application.  
   
 ## Next steps
  [APPC Programmer's Reference](../core/appc-programmer-s-reference1.md)  

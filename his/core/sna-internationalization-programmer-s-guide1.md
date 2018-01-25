@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNA Internationalization Programmer&#39;s Guide
-This section describes the features available in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] for supporting international languages and different national language character sets.  
+This section describes the features available in Host Integration Server for supporting international languages and different national language character sets.  
   
  The SNANLS API uses the language support features provided with Windows. SNANLS supports European languages that use single-byte encoding, as well as East Asian languages that use double-byte or Unicode encoding.  
   

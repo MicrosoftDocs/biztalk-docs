@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuring Invokable TPs on Host Integration Server
-For a computer running [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to receive allocation requests from an invoking TP on another system and route those requests to an invokable TP, certain parameters must be configured correctly:  
+For a computer running Host Integration Server to receive allocation requests from an invoking TP on another system and route those requests to an invokable TP, certain parameters must be configured correctly:  
   
 -   The Host Integration Server must have a connection to the system from which the invoking TP's request is sent.  
   
@@ -22,6 +22,6 @@ For a computer running [!INCLUDE[hishostintegrationserver2009](../includes/hisho
   
      When configured explicitly, there is an explicit match between a remote LU alias on the Host Integration Server and the alias of the LU that conveys the invoking TP's request.  
   
-     When configured implicitly, an implicit incoming remote LU (with its implicit incoming mode) is used. This means that several items must work together. First, the LU alias specified in the incoming request (the LU alias requested for the invokable TP) must match a local LU alias on the Host Integration Server receiving the request. Second, the local LU on the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] server must have an implicit incoming remote LU assigned to it. The properties of the implicit incoming remote LU will be used for that LU-LU session. For more details about how an implicit incoming remote LU works, see Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Help.  
+     When configured implicitly, an implicit incoming remote LU (with its implicit incoming mode) is used. This means that several items must work together. First, the LU alias specified in the incoming request (the LU alias requested for the invokable TP) must match a local LU alias on the Host Integration Server receiving the request. Second, the local LU on the Host Integration Server server must have an implicit incoming remote LU assigned to it. The properties of the implicit incoming remote LU will be used for that LU-LU session. For more details about how an implicit incoming remote LU works, see Microsoft Host Integration Server Help.  
   
 -   Appropriate local LUs must be defined in the Host Integration Server configuration. For descriptions of several ways to set up these local LUs, see [Arranging TPs Within an SNA Network](../core/arranging-tps-within-an-sna-network2.md).

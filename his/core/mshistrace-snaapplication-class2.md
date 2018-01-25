@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # MsHisTrace_SNAApplication Class
-The **MsHisTrace_SNAApplication** class contains tracing properties for any application that runs on top of [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The **MsHisTrace_SNAApplication** class contains tracing properties for any application that runs on top of Host Integration Server.  
   
  The following syntax is simplified from MOF code.  
   

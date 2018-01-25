@@ -1,5 +1,5 @@
 ---
-title: "Configuring SQL Syntax Transformations | Microsoft Docs"
+title: "Configure SQL Syntax Transformations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,7 +13,7 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Configuring SQL Syntax Transformations
+# Configure SQL Syntax Transformations
 The DRDA Service will utilize a set of SQL command syntax transformers. The primary SQL transformer is within the MsDrdaService.exe and is referred to as the SQL parser, providing core transformations for most commonly required syntax. The secondary SQL transformer is within the SQL Server database .NET CLR (Common Language Runtime), where the MsDrdaService setup program will install optional DB2 to SQL Server mapped functions. The DRDA Service supports **STRIP**, **TRANSLATE**, **HEX**, and **CHAR** mapped CLR functions.  
   
 ## SQL Transformer  
@@ -35,7 +35,7 @@ GO
   
  *SQL Server stored procedure to enable CLR integration.*  
   
- For more information, see [http://msdn.microsoft.com/library/ms131048.aspx](http://msdn.microsoft.com/library/ms131048.aspx).  
+ For more information, see [CLR Integration - Enabling](https://docs.microsoft.com/sql/relational-databases/clr-integration/clr-integration-enabling).  
   
 ## SQL Transformer Unicode Output  
  The SQL Transformer will output NCHAR and NVARCHAR for all string values. The `sqlTransformsUnicodeOutput` attribute instructs the DRDA Service to encode output from the CLR-based SQL transformer in Unicode or ANSI. This `optional` attribute accepts a `Boolean` value. The default value is `false`, which instructs the DRDA Service to output `ANSI CHAR` and `VARCHAR` strings.

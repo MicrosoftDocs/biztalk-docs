@@ -54,5 +54,4 @@ Use the ***object*** node to manage an object.
   
 ## See Also  
  [General Tab (TI Object Properties)](../core/general-tab-ti-object-properties-2.md)   
- [Hosting Tab (COM Object Properties) &#91;bpi&#93;](http://msdn.microsoft.com/en-us/ebcb71b4-37fc-4847-9b9c-6ddbe440f5b4)   
  [TI Manager Nodes](../core/ti-manager-nodes2.md)

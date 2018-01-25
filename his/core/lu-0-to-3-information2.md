@@ -86,7 +86,7 @@ typedef struct lu_0_3_overlay {
   IBMTRNET  
   IBMPCNET  
   SDLC  
-  TWINAX (Not supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)])  
+  TWINAX (Not supported by Host Integration Server)  
   X25DLC  
   adapter_num  
  The DLC adapter number for host link.  
@@ -147,7 +147,7 @@ typedef struct lu_0_3_overlay {
   
  IBMTRNET  
   SDLC  
-  TWINAX (Not supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)])  
+  TWINAX (Not supported by Host Integration Server)  
   X25DLC  
   adapter_num  
  The DLC adapter number for host link. Always set to zero.  

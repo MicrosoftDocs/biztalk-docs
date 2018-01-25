@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Support for CPI-C Automatic Logon
-This section describes the support for automatic logon for Common Programming Interface for Communications (CPI-C) applications that is available in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. This feature requires specific configuration by the network administrator. The CPI-C application must be invoked on the local area network (LAN) side from a client of Host Integration Server. The client must be logged into a Windows domain, and the client application must be running on a supported version of Windows.  
+This section describes the support for automatic logon for Common Programming Interface for Communications (CPI-C) applications that is available in Host Integration Server. This feature requires specific configuration by the network administrator. The CPI-C application must be invoked on the local area network (LAN) side from a client of Host Integration Server. The client must be logged into a Windows domain, and the client application must be running on a supported version of Windows.  
   
  To use this feature, the CPI-C client application is coded to use program level security, with a special hard-coded user name of MS$SAME and password of MS$SAME. When this session allocation flows from client to SNA services, Host Integration Server looks up the host account and password corresponding to the Windows account under which the client is logged on, and substitutes the host account information into the APPC attach message it sends to the host.  
   

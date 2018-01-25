@@ -26,7 +26,7 @@ A processing task accomplished by programs using Advanced Program-to-Program Com
   
 -   Configuring registry and environment variables for invokable TPs  
   
--   Configuring [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to work with your TPs  
+-   Configuring Host Integration Server to work with your TPs  
   
 -   Sync Point Level 2 support  
   

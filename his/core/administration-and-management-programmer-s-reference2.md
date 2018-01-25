@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Administration and Management Programmer's Reference
-[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] included the following Windows Management Interface (WMI) providers to enable scripted management.  
+Host Integration Server included the following Windows Management Interface (WMI) providers to enable scripted management.  
   
  For general information about programming for WMI providers, see [Administration and Management Programmer's Guide](administration-and-management-programmer-s-guide2.md) section of the SDK.  
     

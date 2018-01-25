@@ -1,7 +1,7 @@
 ---
-title: "Installing HIS 2013 | Microsoft Docs"
+title: "Install HIS 2013 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,10 +13,10 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Installing HIS 2013
-The following sections provide help for installing and configuring [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+# Install HIS 2013
+The following sections provide help for installing and configuring Host Integration Server.  
   
-## In This Section  
+## Next steps
  [Installation Guide](../install-and-config-guides/installation-guide1.md)  
   
  [Installation Help](../install-and-config-guides/installation-help2.md)  

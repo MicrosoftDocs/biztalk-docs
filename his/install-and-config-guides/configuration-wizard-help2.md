@@ -1,7 +1,7 @@
 ---
-title: "Configuration Wizard Help2 | Microsoft Docs"
+title: "Configuration Wizard overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,10 +13,10 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Configuration Wizard Help
+# Configuration Wizard
 Use these topics to navigate through the Configuration Wizard.  
   
- **This section contains:**  
+## Steps
   
  [Configuration of Common Settings](../install-and-config-guides/configuration-of-common-settings2.md)  
   

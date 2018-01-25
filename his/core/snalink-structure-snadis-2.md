@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNALink Structure (SNADIS)
-A [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SNALink consists of the following:  
+A Host Integration Server SNALink consists of the following:  
   
 -   The link-specific protocol code provided by the independent hardware vendor (IHV)  
   

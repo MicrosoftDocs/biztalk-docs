@@ -1,21 +1,19 @@
 ---
-title: "Configuration of Network Integration2 | Microsoft Docs"
+title: "Configure Network Integration | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-24"
+ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "config.wiz.network.integration"
 ms.assetid: 96f04b21-b46d-4156-8680-e0065d5ff0a9
 caps.latest.revision: 4
 author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# Configuration of Network Integration
+# Configure Network Integration
 Use this page to configure Network Integration.  
   
 ## UIElement List  

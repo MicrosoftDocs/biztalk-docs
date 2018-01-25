@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # staticSql, drda.sqlErrorMappings, and drdaAs.drdaService configuration settings
-The topics in this section describe the installation steps, and the XML schema elements that are used by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]  
+The topics in this section describe the installation steps, and the XML schema elements that are used by Host Integration Server  
   
 -   [hostIntegration.staticSql](../core/hostintegration-staticsql.md)  
   

@@ -62,7 +62,7 @@ class MsSnaStatus_ServiceTN3270 : MsSnaStatus_Config
 |[Start](../core/mssnastatus-servicetn3270-start-method2.md)|Starts the service.|  
 |[Stop](../core/mssnastatus-servicetn3270-stop-method1.md)|Stops the service.|  
   
- For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see "IWbemServices interface" in the MSDN Library at http://msdn.microsoft.com/library.  
+ For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](https://msdn.microsoft.com/library/gg196568(v=vs.85).aspx). 
   
 ## Requirements  
  **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  

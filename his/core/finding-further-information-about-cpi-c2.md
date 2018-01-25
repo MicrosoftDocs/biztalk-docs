@@ -16,7 +16,7 @@ manager: "anneta"
 # Finding Further Information about CPI-C
 For information about SNA architecture, refer to your system network documentation.  
   
- The following topics provide additional information about [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] application programming interfaces (APIs) based on SNA architecture:  
+ The following topics provide additional information about Host Integration Server application programming interfaces (APIs) based on SNA architecture:  
   
 -   [APPC Guide](../core/appc-guide2.md)  
   

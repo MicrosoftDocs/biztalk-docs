@@ -16,7 +16,7 @@ manager: "anneta"
 # CPI-C Programmer's Reference
 
 ## Overview
-This section of the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Developer's Guide provides information about the calls, extensions, and return codes that make up the CPI-C.  
+This section of the Host Integration Server Developer's Guide provides information about the calls, extensions, and return codes that make up the CPI-C.  
   
  For general information about programming for CPI-C, see the [CPI-C Programmer's Guide](./cpi-c-programmer-s-guide1.md) section of the SDK.  
   

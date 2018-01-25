@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Support for APPC Automatic Logon
-This section describes the support for automatic logon for Advanced Program-to-Program Communications (APPC) applications available in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]. This feature requires specific configuration by the network administrator.  
+This section describes the support for automatic logon for Advanced Program-to-Program Communications (APPC) applications available in Host Integration Server. This feature requires specific configuration by the network administrator.  
   
  The APPC application must be invoked on the local area network (LAN) side from a client of Host Integration Server. The client must be logged on to a Windows domain.  
   

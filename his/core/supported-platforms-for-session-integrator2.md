@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Supported Platforms for Session Integrator
-Session Integrator is designed to be used with [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)], and is therefore supported on all platforms that support [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+Session Integrator is designed to be used with Host Integration Server, and is therefore supported on all platforms that support Host Integration Server.  
   
 ## See Also  
  [Session Integrator](../core/session-integrator2.md)   

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # SNANLS Code Page Support
-The SNA National Language Support (SNANLS) API provides functions for converting single-byte character stream (SBCS) EBCDIC-to-Unicode-to-ANSI and SBCS ANSI-to-Unicode-to-EBCDIC by leveraging the Win32 National Language Support (NLS) API. The Win32 NLS API uses resource files containing NLS conversion tables that are installed on the target computer when Windows is installed or installed by the Setup program for [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] (the Setup program also adds the required registry entries). The SNANLS DLL is supplied with Host Integration Server.  
+The SNA National Language Support (SNANLS) API provides functions for converting single-byte character stream (SBCS) EBCDIC-to-Unicode-to-ANSI and SBCS ANSI-to-Unicode-to-EBCDIC by leveraging the Win32 National Language Support (NLS) API. The Win32 NLS API uses resource files containing NLS conversion tables that are installed on the target computer when Windows is installed or installed by the Setup program for Host Integration Server (the Setup program also adds the required registry entries). The SNANLS DLL is supplied with Host Integration Server.  
   
  SNANLS supports conversions for the following groups of code pages:  
   

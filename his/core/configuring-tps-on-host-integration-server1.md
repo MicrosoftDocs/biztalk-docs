@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Configuring TPs on Host Integration Server
-The following topics describe how configuration of invoking and invokable transaction programs (TPs) works on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The following topics describe how configuration of invoking and invokable transaction programs (TPs) works on Host Integration Server.  
   
  This section contains:  
   

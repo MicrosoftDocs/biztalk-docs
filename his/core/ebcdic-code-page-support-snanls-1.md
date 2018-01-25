@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # EBCDIC Code Page Support (SNANLS)
-The following table shows the EBCDIC code pages and character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The following table shows the EBCDIC code pages and character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in Host Integration Server.  
   
 |SNANLS Display Name|NLS Code Page|Host CCSID|euro|Supported by SNANLS|  
 |-------------------------|-------------------|----------------|----------|-------------------------|  

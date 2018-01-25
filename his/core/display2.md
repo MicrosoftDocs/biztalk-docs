@@ -19,10 +19,10 @@ The **DISPLAY** verb returns configuration information and current operating val
  It is recommended that you use the [GetAppcConfig](../core/getappcconfig1.md) Windows extension function to obtain system configuration information relating to APPC LUs. Users of 5250 emulators, in particular, should use the **GetAPPCConfig** Windows extension.  
   
 > [!NOTE]
->  Because of the nature of client/server architecture, the implementation of the **DISPLAY** verb on [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] contains important differences from the IBM Extended Services for OS/2 version 1.0 (IBM ES for OS/2 version 1.0) on which it was based.  
+>  Because of the nature of client/server architecture, the implementation of the **DISPLAY** verb on Host Integration Server contains important differences from the IBM Extended Services for OS/2 version 1.0 (IBM ES for OS/2 version 1.0) on which it was based.  
   
 > [!NOTE]
->  For applications that use the APPC **DISPLAY** verb in IBM ES for OS/2 version 1.0 compatibility mode and that do not use the Host Integration Server extensions for enumerating all active servers and connections, Host Integration Server will randomly choose a default **DISPLAY** connection, unless a specific default **DISPLAY** connection has been configured in SNA Manager. This connection is used as the basis for all **DISPLAY** requests. For information about specifying the default **DISPLAY** connection, see [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] Help.  
+>  For applications that use the APPC **DISPLAY** verb in IBM ES for OS/2 version 1.0 compatibility mode and that do not use the Host Integration Server extensions for enumerating all active servers and connections, Host Integration Server will randomly choose a default **DISPLAY** connection, unless a specific default **DISPLAY** connection has been configured in SNA Manager. This connection is used as the basis for all **DISPLAY** requests. For information about specifying the default **DISPLAY** connection, see Host Integration Server Help.  
   
  The following structure describes the verb control block used by the **DISPLAY** verb.  
   

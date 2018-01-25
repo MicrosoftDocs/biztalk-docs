@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Windows CPI-C Considerations
-The following Common Programming Interface for Communications (CPI-C) calls and Windows extensions are of particular importance. You should review them before using [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+The following Common Programming Interface for Communications (CPI-C) calls and Windows extensions are of particular importance. You should review them before using Host Integration Server.  
   
 > [!NOTE]
 >  The names of the calls are pseudonyms. The actual C function names appear in parentheses after the pseudonym. For example, **Set_Processing_Mode** is the pseudonym for a call. The actual function name is **cmspm**.  

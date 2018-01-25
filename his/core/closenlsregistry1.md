@@ -33,6 +33,6 @@ HKEY KeyHandle
  The **CloseNlsRegistry** function returns zero on success, otherwise a non-zero value is returned on failure.  
   
 ## Remarks  
- The *KeyHandle* parameter passed to this function is the handle returned from a previous call to the **OpenNlsRegistry** function. This function is primarily used by the Print service in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to determine what code pages are supported on a remote computer providing the print services function.  
+ The *KeyHandle* parameter passed to this function is the handle returned from a previous call to the **OpenNlsRegistry** function. This function is primarily used by the Print service in Host Integration Server to determine what code pages are supported on a remote computer providing the print services function.  
   
- SNANLS supports this function on Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].
+ SNANLS supports this function on Microsoft Host Integration Server.

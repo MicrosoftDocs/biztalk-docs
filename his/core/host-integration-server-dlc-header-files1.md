@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Host Integration Server DLC Header Files
-The following files are required to build a [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SNALink:  
+The following files are required to build a Host Integration Server SNALink:  
   
 |File|Description|  
 |----------|-----------------|  

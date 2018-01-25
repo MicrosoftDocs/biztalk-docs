@@ -22,7 +22,7 @@ This section of the Microsoft Host Integration Server Software Development Kit (
   
  To use this guide effectively, you should be familiar with the following:  
   
--   [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]  
+-   Host Integration Server  
   
 -   Microsoft Windows operating systems  
   

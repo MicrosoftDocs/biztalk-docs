@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # APPC Programmer&#39;s Security Guide
-The following topics discuss security as it applies to the APPC section of the Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] SDK.  
+The following topics discuss security as it applies to the APPC section of the Microsoft Host Integration Server SDK.  
   
 ## About APPC security for developers  
  This section discusses security practices and issues that apply to C-language applications that you write to use Advanced Program-to-Program Communications (APPC) to exchange data in a Systems Network Architecture (SNA) environment.  

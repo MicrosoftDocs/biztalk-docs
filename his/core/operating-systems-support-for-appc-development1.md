@@ -14,4 +14,4 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Operating Systems Support for APPC Development
-Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] supports the development of Advanced Program-to-Program Communications (APPC) applications for the Windows operating system.
+Microsoft Host Integration Server supports the development of Advanced Program-to-Program Communications (APPC) applications for the Windows operating system.

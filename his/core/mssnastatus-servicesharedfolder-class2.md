@@ -62,7 +62,7 @@ class MsSnaStatus_ServiceSharedFolder : MsSnaStatus_Config
 |[Start](../core/mssnastatus-servicesharedfolder-start-method2.md)|Starts the service.|  
 |[Stop](../core/mssnastatus-servicesharedfolder-stop-method2.md)|Stops the service.|  
   
- For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see "IWbemServices interface" in the MSDN Library at http://msdn.microsoft.com/library.  
+ For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](https://msdn.microsoft.com/library/gg196568(v=vs.85).aspx). 
   
 ## See Also  
  [WmiSnaStatus WMI Provider Classes](../core/wmisnastatus-wmi-provider-classes1.md)   

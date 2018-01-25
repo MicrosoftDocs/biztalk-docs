@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Messages (SNADIS)
-Messages are used to pass data between partners in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] system. This section provides information about message structure and formats.  
+Messages are used to pass data between partners in the Host Integration Server system. This section provides information about message structure and formats.  
   
 ## In This Section  
   

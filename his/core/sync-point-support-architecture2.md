@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Sync Point Support Architecture
-The Sync Point support provided by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] assumes a particular implementation architecture by the vendor, as follows:  
+The Sync Point support provided by Host Integration Server assumes a particular implementation architecture by the vendor, as follows:  
   
 -   The vendor provides a communication interface to its own clients requiring Sync Point Services (SPS).  
   
@@ -30,6 +30,6 @@ The Sync Point support provided by [!INCLUDE[hishostintegrationserver2009](../in
   
     -   Implementing the architected SPS component of the LU.  
   
-     The Transaction Monitor must reside on the same computer as the Host Integration Server containing the LUs for which it is providing Sync Point services. Both incoming and outgoing Sync Point conversations for this Transaction Monitor will be routed through this [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] server only.  
+     The Transaction Monitor must reside on the same computer as the Host Integration Server containing the LUs for which it is providing Sync Point services. Both incoming and outgoing Sync Point conversations for this Transaction Monitor will be routed through this Host Integration Server server only.  
   
  Detailed descriptions of the three architected Sync Point components can be found in *SNA LU6.2 Reference: Peer Protocols* published by IBM.

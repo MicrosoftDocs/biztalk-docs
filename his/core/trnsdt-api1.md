@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # TrnsDT API
-The SNA National Language Support (SNANLS) API also enables applications to convert double-byte character stream (DBCS) EBCDIC-to-ANSI and DBCS ANSI-to-EBCDIC by leveraging another [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] API called TrnsDT. The TrnsDT API has its own mechanism to translate East Asia code pages using conversion table resource files (*.tbl files) that the Setup program for [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] installs on the target computer.  
+The SNA National Language Support (SNANLS) API also enables applications to convert double-byte character stream (DBCS) EBCDIC-to-ANSI and DBCS ANSI-to-EBCDIC by leveraging another Host Integration Server API called TrnsDT. The TrnsDT API has its own mechanism to translate East Asia code pages using conversion table resource files (*.tbl files) that the Setup program for Host Integration Server installs on the target computer.  
   
 ## In This Section  
   

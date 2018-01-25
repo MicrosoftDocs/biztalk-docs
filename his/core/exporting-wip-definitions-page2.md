@@ -1,5 +1,5 @@
 ---
-title: "Exporting WIP Definitions Page2 | Microsoft Docs"
+title: "Exporting WIP Definitions Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,4 +16,4 @@ You can view any relevant information in the **Messages** box.
   
 ## See Also  
  [Export WIP Definitions Wizard Finish Page](../core/export-wip-definitions-wizard-finish-page2.md)   
- [Export WIP Definitions Wizard &#91;bpi&#93;](http://msdn.microsoft.com/en-us/79ca2db4-390b-4a04-9681-988d85456475)
+ [Export WIP Definitions Wizard](export-wip-definitions-wizard2.md)

@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # APPC Verbs and Windows Extensions
-This topic describes the APPC verbs and Windows extensions that are supported by [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]:  
+This topic describes the APPC verbs and Windows extensions that are supported by Host Integration Server:  
   
 ## APPC Verbs  
  The following APPC verb descriptions contain important features and should be read before using this version of Windows APPC.  
@@ -69,7 +69,7 @@ This topic describes the APPC verbs and Windows extensions that are supported by
  Issued by the invoking TP, this verb notifies APPC that the TP is starting. For a user or group using TPs, 5250 emulators, or APPC applications, you can assign default local and remote APPC LUs. These default LUs are accessed when the user or group member starts an APPC program (a TP, 5250 emulator, or APPC application) and the program does not specify LU aliases. For more information about using default LUs, see Network Integration Help.  
   
 ## Limits  
- [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] permits one outstanding Windows APPC asynchronous call per connection and one blocking verb per thread. For example:  
+ Host Integration Server permits one outstanding Windows APPC asynchronous call per connection and one blocking verb per thread. For example:  
   
 ```  
 void ProcessVerbCompletion (WPARAM wParam, LPARAM lParam)  

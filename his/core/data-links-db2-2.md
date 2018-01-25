@@ -1,5 +1,5 @@
 ---
-title: "Data Links (DB2)2 | Microsoft Docs"
+title: "Data Links (DB2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,9 +16,9 @@ manager: "anneta"
 # Data Links (DB2)
 Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog to configure connections to IBM DB2 database servers. Data Links can save a data source definition as an OLE DB universal data link (UDL) file, which allows the user to share configurations between applications, users, and computers.  
   
- You can create a data link by clicking the Data Access Tool shortcut in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] program folder. You can then modify the UDL using the Data Links tool by opening the file from Windows Explorer, which loads the standard OLE DB Data Links user interface.  
+ You can create a data link by clicking the Data Access Tool shortcut in the Host Integration Server program folder. You can then modify the UDL using the Data Links tool by opening the file from Windows Explorer, which loads the standard OLE DB Data Links user interface.  
   
- To start the Data Access tool, click the Data Access Tool shortcut in the [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] program folder or click **Start**, **Programs**, **Microsoft OLE DB Provider for DB2** and then **Data Access Tool**.  
+ To start the Data Access tool, click the Data Access Tool shortcut in the Host Integration Server program folder or click **Start**, **Programs**, **Microsoft OLE DB Provider for DB2** and then **Data Access Tool**.  
   
  This topic contains the following sections:  
   
@@ -240,7 +240,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  **Affiliate Application**  
   
- The Data Provider requires a string value for Affiliate Application, when supporting the optional Enterprise Single Sign-On (SSO) security mechanism. Affiliate applications are logical entities that represent a system or sub-system such as a host, back-end system, or IBM DB2 database server. Contact your SSO administrator for the SSO Affiliate Application name. For more information, see Understanding Enterprise Single Sign-On (http://msdn.microsoft.com/library/aa754070(v=BTS.10).aspx).  
+ The Data Provider requires a string value for Affiliate Application, when supporting the optional Enterprise Single Sign-On (SSO) security mechanism. Affiliate applications are logical entities that represent a system or sub-system such as a host, back-end system, or IBM DB2 database server. Contact your SSO administrator for the SSO Affiliate Application name. For more information, see [Understanding SSO](https://docs.microsoft.com/biztalk/core/understanding-sso).  
   
  **Alternate TP Name**  
   

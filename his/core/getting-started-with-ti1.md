@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with TI1 | Microsoft Docs"
+title: "Getting Started with TI | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -17,6 +17,6 @@ manager: "anneta"
 This section explains some of the basics of using Transaction Integrator.  
   
 ## In This Section  
- [Remotely Administering Transaction Integrator &#91;bpi&#93;](http://msdn.microsoft.com/en-us/b7fbab29-3308-49a0-98f3-eb39827bd0f1)  
+ [Remotely Administering Transaction Integrator](remotely-administering-transaction-integrator1.md)  
   
  [Windows-Initiated Processing Overview](../core/windows-initiated-processing-overview2.md)

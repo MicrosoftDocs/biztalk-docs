@@ -43,6 +43,6 @@ LPSTR Path
  The **OpenNlsRegistry** function returns a handle to the opened registry key on success, otherwise a NULL value is returned on failure.  
   
 ## Remarks  
- This function is primarily used by the Print Service in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] to determine if what code pages are supported on a remote computer providing the print services function.  
+ This function is primarily used by the Print Service in Host Integration Server to determine if what code pages are supported on a remote computer providing the print services function.  
   
- This function is supported by SNANLS in [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].
+ This function is supported by SNANLS in Host Integration Server.

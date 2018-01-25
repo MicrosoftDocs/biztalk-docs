@@ -93,7 +93,7 @@ class MsSna_ConnectionSdlc : MsSna_Connection
  **SdlcContactLimit**  
  Data Type: **String** Qualifiers: **MINVALUE(1), MAXVALUE(20)** Access Type: Read/Write  
   
- The maximum number of times the link service resends an XID or SNRM before declaring an outage to [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+ The maximum number of times the link service resends an XID or SNRM before declaring an outage to Host Integration Server.  
   
  **SdlcContactTO**  
  Data Type: **String** Qualifiers: **MINVALUE(5), MAXVALUE(300)** Access Type: Read/Write  

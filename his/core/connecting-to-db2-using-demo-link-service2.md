@@ -24,7 +24,7 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 ##  <a name="sna"></a> Configuring a Demo SNA Connection for DB2  
   
-1.  Click **Start**, **Programs**, **[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]**, and then click **SNA Manager**.   
+1.  Click **Start**, **Programs**, **Host Integration Server**, and then click **SNA Manager**.   
      The SNA Manager appears.   
      The SNA Manager window is divided into two parts:  
   
@@ -115,7 +115,7 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 ##  <a name="ds"></a> Configuring a Demo Data Source for DB2  
   
-1.  Click **Start**, **Programs**, **[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]**, and then click **Data Access Tool**. The Data Access Tool appears.  
+1.  Click **Start**, **Programs**, **Host Integration Server**, and then click **Data Access Tool**. The Data Access Tool appears.  
   
 2.  Click **File**, and then click **New Data Source**.  The Data Source Wizard appears.  
   
@@ -143,7 +143,7 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 14. Click **Finish**.  The Data Access Tool displays the DRDADEMO connection in the DB2 OLE DB UDLs folder.  
   
- The Data Integration Samples in the SDK include a pre-configured UDL file for use with the DRDADEMO demo link service and connection. See C:\Program Files\\[!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)]\SDK\Samples\DataIntegration\DRDADEMO.UDL.  
+ The Data Integration Samples in the SDK include a pre-configured UDL file for use with the DRDADEMO demo link service and connection. See C:\Program Files\\Host Integration Server\SDK\Samples\DataIntegration\DRDADEMO.UDL.  
   
 ## See Also  
  [Data Integration (Configuration)](../core/data-integration-configuration-2.md)   

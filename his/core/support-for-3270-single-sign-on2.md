@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Support for 3270 Single Sign-On
-This section describes the support for Single Sign-On for 3270 display sessions that is available in Microsoft [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)].  
+This section describes the support for Single Sign-On for 3270 display sessions that is available in Microsoft Host Integration Server.  
   
  Over 3270 LUs, a Single Sign-On feature is supported to automate the overall logon process. When configured for this feature, Host Integration Server automatically replaces special keywords in the data stream with the actual host user name and password at appropriate points in the session.  
   

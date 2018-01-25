@@ -68,7 +68,7 @@ typedef struct adapterperfdata
  The number of times since startup that a connection has encountered an error condition.  
   
  **TotalBytesThroughput**  
- The total number of bytes flowing through [!INCLUDE[hishostintegrationserver2009](../includes/hishostintegrationserver2009-md.md)] per second. This includes both incoming and outgoing bytes, and is a good indicator of how heavily your Host Integration Server is loaded.  
+ The total number of bytes flowing through Host Integration Server per second. This includes both incoming and outgoing bytes, and is a good indicator of how heavily your Host Integration Server is loaded.  
   
  **TotalFramesThroughput**  
  The total number of data frames flowing through Host Integration Server per second. This includes both incoming and outgoing frames, and is a good indicator of how heavily your Host Integration Server is loaded.  

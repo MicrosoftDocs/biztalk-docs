@@ -58,4 +58,3 @@ Public void ReadMyData(string myConnString)
 ## See Also  
  [Working with the Managed Provider for DB2](../core/working-with-the-managed-provider-for-db21.md)   
  [Managed Provider for DB2 Programmer's Guide](../core/managed-provider-for-db2-programmer-s-guide2.md)   
- [Managed Provider for DB2 Programmer's Reference &#91;bpi&#93; &#91;HIS09_R2&#93;](http://msdn.microsoft.com/en-us/a50e991f-d651-40cb-a45c-d64fa132d251)

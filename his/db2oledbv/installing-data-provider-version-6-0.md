@@ -2,6 +2,7 @@
 title: "Installing Data Provider Version 6.0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
+ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
