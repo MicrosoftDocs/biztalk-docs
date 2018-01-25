@@ -3,7 +3,7 @@
   topicHref: /his/index
   items:
   - name: What is HIS
-    tocHref: /his/
+    tocHref: /his/install-and-config-guides/
     topicHref: /his/install-and-config-guides/what-is-his
   - name: Install and configure
     tocHref: /his/install-and-config-guides/
