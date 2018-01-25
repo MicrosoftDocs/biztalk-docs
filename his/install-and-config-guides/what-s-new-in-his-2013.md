@@ -26,7 +26,7 @@ The following sections in this topic contain information about new features and 
   
 -   [Removed Features](../install-and-config-guides/what-s-new-in-his-2013.md#Removed)  
   
- For more information about all of the features and functionality in Host Integration Server, see [What is HIS](../install-and-config-guides/what-is-his.md).  
+ For more information about all of the features and functionality in Host Integration Server, see [What is HIS](../what-is-his.md).  
   
 ## Platforms  
   
@@ -251,5 +251,5 @@ The following sections in this topic contain information about new features and 
  The Host Integration Server documentation team solicits your feedback about the documentation. Are you finding the information that you need quickly? Are there any gaps in content coverage? Please send your comments and suggestions to us by using the feedback link in the online Help or by contacting us through the Host Integration Server on Microsoft Connect link.  
   
 ## See Also  
- [What is HIS](../install-and-config-guides/what-is-his.md)   
+ [What is HIS](../what-is-his.md)   
  [HIS 2013 - What's New, Install, and Configure](../install-and-config-guides/his-2013-what-s-new-install-and-configure.md)

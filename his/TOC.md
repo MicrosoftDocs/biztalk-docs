@@ -1,4 +1,4 @@
-# [What is HIS](install-and-config-guides\what-is-his.md)
+# [What is HIS](what-is-his.md)
 # [Install and configure](install-and-config-guides\TOC.md)
 # [Core](core\TOC.md)
 # [Enterprise single sign-on](esso\TOC.md)

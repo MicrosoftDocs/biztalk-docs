@@ -22,15 +22,15 @@ Host Integration Server empowers enterprise developers to deliver new applicatio
   
  The following sections provide an overview of the five HIS technology areas.  
   
--   [Network Integration](../install-and-config-guides/what-is-his.md#Network)  
+-   [Network Integration](../what-is-his.md#Network)  
   
--   [Data Integration](../install-and-config-guides/what-is-his.md#Data)  
+-   [Data Integration](../what-is-his.md#Data)  
   
--   [Application Integration](../install-and-config-guides/what-is-his.md#application)  
+-   [Application Integration](../what-is-his.md#application)  
   
--   [Message Integration](../install-and-config-guides/what-is-his.md#message)  
+-   [Message Integration](../what-is-his.md#message)  
   
--   [Security Integration](../install-and-config-guides/what-is-his.md#Security)  
+-   [Security Integration](../what-is-his.md#Security)  
   
 ##  <a name="Network"></a> Network Integration  
  Network integration services connect Windows application infrastructure to existing IBM mainframe and midrange Systems Network Architecture (SNA). SNA Services operate as a gateway function, supporting logical unit types (LU0, LU1, LU2, LU3, and LU6.2), connecting across an SNA Advanced Peer to Peer Network (APPN), as a Low Entry Network (LEN) node using traditional Data Link Control (DLC) connectivity, or as a Branch Network node using High Performance Routing over Internet Protocol (HPR/IP). Administrators can deploy SNA applications on Windows computers using the HIS client that connects to the HIS server via TCP/IP, supporting required SNA device types.  

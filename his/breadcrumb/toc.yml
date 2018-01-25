@@ -3,8 +3,8 @@
   topicHref: /his/index
   items:
   - name: What is HIS
-    tocHref: /his/install-and-config-guides/
-    topicHref: /his/install-and-config-guides/what-is-his
+    tocHref: /his/
+    topicHref: /his/what-is-his
   - name: Install and configure
     tocHref: /his/install-and-config-guides/
     topicHref: /his/install-and-config-guides/host-integration-server-installation-and-configuration
