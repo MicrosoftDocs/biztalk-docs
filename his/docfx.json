@@ -34,7 +34,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/his/breadcrumb/toc.json",
       "layout": "Conceptual",
-      "titleSuffix": "Host Integration Server"
+      "titleSuffix": "Host Integration Server",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},
