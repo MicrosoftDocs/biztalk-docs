@@ -1,4 +1,5 @@
-# [Install and configure](install-and-config-guides\TOC.md)
+# [What is HIS](what-is-his.md)
+# [What's new, install & configure](install-and-config-guides\TOC.md)
 # [Core](core\TOC.md)
 # [Enterprise single sign-on](esso\TOC.md)
 # [DB2 OLEDB](db2oledbv\TOC.md)

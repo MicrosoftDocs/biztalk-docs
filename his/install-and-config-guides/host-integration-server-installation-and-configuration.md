@@ -28,7 +28,7 @@ Read about [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversio
  If you're looking for help developing HIS applications, monitoring your environments, learning more about HIS, and other core tasks, go to the [Host Integration Server Core Documentation](../core/host-integration-server-core-documentation.md). If you want to install and configure HIS, then choose your HIS version to get started.  
   
 ## Next steps
- [What is HIS](../install-and-config-guides/what-is-his.md)  
+ [What is HIS](../what-is-his.md)  
   
  [HIS 2016 - What's New, Release Notes, System Requirements, and Installation](../install-and-config-guides/his-2016-what-s-new-release-notes-system-requirements-and-installation.md)  
   
