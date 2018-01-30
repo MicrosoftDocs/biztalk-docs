@@ -27,7 +27,7 @@ No application is an island. Whether we like it or not, tying systems together h
   
 -   Improved capabilities for Business Activity Monitoring (BAM)  
   
-BizTalk Server also uses the latest releases of other Microsoft technologies. It’s built on the .NET Framework, and the developer tools are hosted in Microsoft Visual Studio. For storage, BizTalk Server uses SQL Server BizTalk Server can runs on 64-bit Windows Servers, taking advantage of the larger memory and other benefits that the hardware offers.  
+BizTalk Server also uses the latest releases of other Microsoft technologies. It’s built on the .NET Framework, and the developer tools are hosted in Microsoft Visual Studio. For storage, BizTalk Server uses SQL Server. BizTalk Server can run on 64-bit Windows Servers, taking advantage of the larger memory and other benefits that the hardware offers.  
   
 ## What is BizTalk Server?  
  Combining different systems into effective business processes is a challenging problem. Accordingly, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes a range of technologies. The figure below illustrates the product’s major components.  
