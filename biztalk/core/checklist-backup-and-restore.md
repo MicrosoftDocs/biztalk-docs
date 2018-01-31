@@ -1,7 +1,7 @@
 ---
 title: "Checklist: Backup and Restore | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "01/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -17,7 +17,7 @@ manager: "anneta"
 # Checklist: Backup and Restore
 Perform the following steps before you have a hardware failure to ensure that you can restore your BizTalk Server system.  
   
-## Backing Up BizTalk Server  
+## Back Up BizTalk Server  
   
 |Step|Reference|  
 |----------|---------------|  
@@ -33,7 +33,7 @@ Perform the following steps before you have a hardware failure to ensure that yo
 |Back up the BAM portal application pools and virtual directories configuration information. If you are not using BAM, you do not need to perform this step.|[How to Back Up the BAM Portal](../core/how-to-back-up-the-bam-portal.md)|  
 |Back up your BizTalk applications.|[Backing Up BizTalk Server Applications](../core/backing-up-biztalk-server-applications.md)|  
   
-## Restoring BizTalk Server  
+## Restore BizTalk Server  
   
 |Step|Reference|  
 |----------|---------------|  
@@ -43,7 +43,7 @@ Perform the following steps before you have a hardware failure to ensure that yo
 |If the computer running BizTalk Server has failed, install BizTalk Server on the replacement computer.|[Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)|  
 |Restore the certificate store.<br /><br /> This step is required for Standard Edition. It is not required for other editions, such as Enterprise Edition, because the configuration process does this automatically.|[How to Restore the Certificate Store](../core/how-to-restore-the-certificate-store.md)|  
 |Restore Enterprise Single Sign-On|[How to Recover Enterprise Single Sign-On](../core/how-to-recover-enterprise-single-sign-on.md)|  
-|Restore the BizTalk group|[How to Recover the BizTalk Group](../core/how-to-recover-the-biztalk-group.md)<br /><br /> If you are restoring  Standard Edition, you must download a script that facilitates recovery of the server. Download [RestoreConfig.vbe](http://go.microsoft.com/fwlink/?LinkId=195799).|  
+|Restore the BizTalk group|[How to Recover the BizTalk Group](../core/how-to-recover-the-biztalk-group.md)<br /><br /> If you are restoring  Standard Edition, you must download a script that facilitates recovery of the server. Download [RestoreConfig.vbe](https://www.microsoft.com/download/details.aspx?id=7462).|  
 |Restore the BizTalk Server configuration|[How to Recover the BizTalk Server Configuration](../core/how-to-recover-the-biztalk-server-configuration.md)|  
 |If you are using BAM, you should restore the BAM alerts.<br /><br /> If you are not using BAM, you do not need to perform this step.|[How to Recover BAM Alerts](../core/how-to-recover-bam-alerts.md)|  
 |If you are using BAM, you should restore the BAM portal.<br /><br /> If you are not using BAM, you do not need to perform this step.|[How to Recover the BAM Portal](../core/how-to-recover-the-bam-portal.md)|  
