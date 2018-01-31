@@ -1,7 +1,7 @@
 ---
 title: "Checklist: Backup and Restore | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "01/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -17,7 +17,7 @@ manager: "anneta"
 # Checklist: Backup and Restore
 Perform the following steps before you have a hardware failure to ensure that you can restore your BizTalk Server system.  
   
-## Backing Up BizTalk Server  
+## Back Up BizTalk Server  
   
 |Step|Reference|  
 |----------|---------------|  
@@ -33,7 +33,7 @@ Perform the following steps before you have a hardware failure to ensure that yo
 |Back up the BAM portal application pools and virtual directories configuration information. If you are not using BAM, you do not need to perform this step.|[How to Back Up the BAM Portal](../core/how-to-back-up-the-bam-portal.md)|  
 |Back up your BizTalk applications.|[Backing Up BizTalk Server Applications](../core/backing-up-biztalk-server-applications.md)|  
   
-## Restoring BizTalk Server  
+## Restore BizTalk Server  
   
 |Step|Reference|  
 |----------|---------------|  
