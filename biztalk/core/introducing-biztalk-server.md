@@ -1,7 +1,7 @@
 ---
 title: "Introducing BizTalk Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/29/2017"
+ms.date: "01/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Introducing BizTalk Server
-No application is an island. Whether we like it or not, tying systems together has become the norm. Yet connecting software is about more than just exchanging bytes. As organizations move toward a service-oriented world, the real goal—creating effective business processes that unite separate systems into a coherent whole—comes within reach.  
+Tying systems together is expected, and has become the norm. As organizations move toward a service-oriented world, the real goal—creating effective business processes that unite separate systems into a coherent whole—comes within reach.  
   
  Microsoft BizTalk Server allows connecting diverse software, then graphically creating and modifying process logic that uses that software. BizTalk Server also enables information workers to monitor running processes, interact with trading partners, and perform other business-oriented tasks.  
   
@@ -50,7 +50,7 @@ BizTalk Server also uses the latest releases of other Microsoft technologies. It
   
  On top of this foundation, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes Business Activity Monitoring, which information workers use to monitor a running business process. The information is displayed in business rather than technical terms, and business users determine what information is displayed.  
   
-## BizTalk Server and the Challenge of Connecting Diverse Systems  
+## Connecting Diverse Systems  
  The great majority of modern business processes depend at least in part on software. While some of these processes are supported by a single application, many others rely on diverse software systems. In many cases, this software has been created at different times, on different platforms, and using different technologies. Automating those business processes requires connecting diverse systems.  
   
  Addressing this challenge goes by various names: business process automation (BPA), business process management (BPM), and others. Regardless of the name, two scenarios are most important for application integration. One is connecting applications within a single organization, commonly referred to as enterprise application integration (EAI). The other, called business-to-business (B2B) integration, connects applications in different organizations.  
