@@ -42,15 +42,15 @@ You must rejoin the BizTalk Server to an existing BizTalk group as part of the s
   
 ## Recover the BizTalk group (Developer Edition or Enterprise Edition)  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
+1.  Open **BizTalk Server Configuration** (Start menu).
   
-2.  In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], in the console tree, click **Group**.  
+2.  In BizTalk Server Administration, select **Group**.  
   
-3.  In the details pane, select **Join an existing BizTalk Group**, and then specify the appropriate remote BizTalk Management (BizTalkMgmtDb) database.  
+3.  In the details pane, select **Join an existing BizTalk Group**, and then enter the remote BizTalk Management (BizTalkMgmtDb) database.  
   
-4.  Click **Apply Configuration**.  
+4.  Select **Apply Configuration**.  
   
-5.  Click **File**, and then click **Exit**.  
+5.  Select **File**, and then select **Exit**.  
   
 ## See Also  
  [Recovering a Computer Running BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)
