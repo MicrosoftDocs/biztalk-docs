@@ -1,7 +1,7 @@
 ---
-title: "How to Recover the BizTalk Group | Microsoft Docs"
+title: "Recover the BizTalk Group | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "01/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -20,11 +20,11 @@ You must rejoin the BizTalk Server to an existing BizTalk group as part of the s
 ## Prerequisites  
  You must be logged on as a member of the Administrators group to perform this procedure.  
   
- If you are recovering [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Standard Edition, you must download a script that facilitates recovery of the server. Download [RestoreConfig.vbe](http://go.microsoft.com/fwlink/?LinkID=195799).  
+ If you are recovering [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Standard Edition, you must download a script that facilitates recovery of the server. Download [RestoreConfig.vbe](https://www.microsoft.com/download/details.aspx?id=7462).  
   
-### To recover the BizTalk group (Standard Edition)  
+## Recover the BizTalk group (Standard Edition)  
   
-1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1.  Click **Start**, type **cmd**, and then select **Command Prompt**.  
   
 2.  At the command prompt, type:  
   
@@ -40,17 +40,17 @@ You must rejoin the BizTalk Server to an existing BizTalk group as part of the s
     > [!NOTE]
     >  The name of the computer that failed is contained in the saved configuration file. The name of the computer that you are restoring onto must have that same name. You must run the script above on a computer with that name. You can, however, change the name of the computer that failed in the saved configuration file. If you do so, you can run the script above onto a computer with a different name.  
   
-### To recover the BizTalk group (Developer Edition or Enterprise Edition)  
+## Recover the BizTalk group (Developer Edition or Enterprise Edition)  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
+1.  Open **BizTalk Server Configuration** (Start menu).
   
-2.  In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], in the console tree, click **Group**.  
+2.  In BizTalk Server Administration, select **Group**.  
   
-3.  In the details pane, select **Join an existing BizTalk Group**, and then specify the appropriate remote BizTalk Management (BizTalkMgmtDb) database.  
+3.  In the details pane, select **Join an existing BizTalk Group**, and then enter the remote BizTalk Management (BizTalkMgmtDb) database.  
   
-4.  Click **Apply Configuration**.  
+4.  Select **Apply Configuration**.  
   
-5.  Click **File**, and then click **Exit**.  
+5.  Select **File**, and then select **Exit**.  
   
 ## See Also  
  [Recovering a Computer Running BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)
