@@ -1,24 +1,13 @@
 ---
 title: "How to Update References to the BAM Primary Import Database Name and Connection String | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "02/01/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "restoring [BAM], connection strings"
-  - "Primary Import database [BAM], updating references"
-  - "connection strings, restoring"
-  - "connection strings, BAM"
-  - "restoring, BAM"
-  - "restoring [BAM], Primary Import database"
-  - "restoring [BAM], updating references"
-  - "Primary Import database [BAM], restoring"
-  - "BAM, restoring"
-  - "restoring, connection strings"
 ms.assetid: e3c58db0-f14f-429a-813c-bae29f6950d3
 caps.latest.revision: 25
 author: "MandiOhlinger"
@@ -91,7 +80,7 @@ If you backed up your BAMPrimaryImport database in the event of a system or data
   
     1.  Comment out all of the database sections except for the BizTalkMgmtDb, OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert.  
   
-    2.  For the BizTalkMgmtDb, OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert sections, set the **"SourceServer"** and **"Destination Server"** to the name of the existing server where those databases reside.  
+    2.  For the BizTalkMgmtDb, OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert sections, set the **SourceServer** and **Destination Server** to the name of the existing server where those databases reside.  
   
     3.  For PrimaryImportDatabase, set the **"SourceServer"** to the name of the server where you have moved the BAM Primary Import database.  
   
