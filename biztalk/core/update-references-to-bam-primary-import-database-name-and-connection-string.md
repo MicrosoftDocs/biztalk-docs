@@ -1,5 +1,5 @@
 ---
-title: "How to Update References to the BAM Primary Import Database Name and Connection String | Microsoft Docs"
+title: "Update BAM Primary Import Database name and connection string | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/01/2018"
 ms.prod: "biztalk-server"
@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Update References to the BAM Primary Import Database Name and Connection String
+# Update References to the BAM Primary Import Database Name and Connection String
 If you backed up your BAMPrimaryImport database in the event of a system or data failure, you can restore that backup to a different computer and rename the backup.  
   
  The BAM Event Bus service moves event data from the MessageBox database to the BAMPrimaryImport database. The BAM Event Bus service includes fault tolerance logic that enables it to recover and restart from an unexpected failure without losing any data. For more information about the BAM Event Bus service, see [Managing the BAM Event Bus Service](../core/managing-the-bam-event-bus-service.md).  
@@ -28,25 +28,25 @@ If you backed up your BAMPrimaryImport database in the event of a system or data
 -   Update the reference to BAMPrimaryImport database in all BAM Livedata Microsoft Excel files.  
   
 ## Prerequisites  
- You must be logged on as a member of the BizTalk Server Administrators group to perform this procedure.  
+Sign in as a member of the BizTalk Server Administrators group.  
   
-### To update references to the BAMPrimaryImport database name and connection string  
+## Update the references  
   
 1.  Stop any BAM cube update and data maintenance Data Transformation Services (DTS) packages, or prevent them from running until you have restored the BAMPrimaryImport database.  
   
 2.  Stop the BizTalk Application service (which includes the BAM Event Bus service) so it does not try to import more data into the database.  
   
-    1.  Click **Start**, click **Run**, and then type **services.msc**.  
+    1.  From the **Start** menu, type **services.msc**, and open **Services**.  
   
-    2.  Right-click the **BizTalk Service BizTalk Group: BizTalkServerApplication** service and then click **Stop**.  
+    2.  Right-click the **BizTalk Service BizTalk Group: BizTalkServerApplication** service, and then **Stop**.  
   
-3.  Restore the BAMPrimaryImport database, performing the steps in [How to Restore Your Databases](../core/how-to-restore-your-databases.md).  
+3.  Restore the BAMPrimaryImport database (steps in [How to Restore Your Databases](../core/how-to-restore-your-databases.md)).  
   
 4.  Update the following Web.Config files:  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamManagementService\Web.Config.  
+    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\BAMPortal\BamManagementService\Web.Config.  
   
-         Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
+         Replace the *\<ServerName\>* string with the new server name, and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
   
          \<appSettings\>  
   
@@ -58,7 +58,7 @@ If you backed up your BAMPrimaryImport database in the event of a system or data
   
          \</appSettings\>  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamQueryService\Web.Config.  
+    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\BAMPortal\BamQueryService\Web.Config.  
   
          Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
   
@@ -72,12 +72,9 @@ If you backed up your BAMPrimaryImport database in the event of a system or data
   
          \</appSettings\>  
   
-5.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+5.  Open a command prompt (Start menu > Command Prompt), and navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Schema\Restore.  
   
-6.  Navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\Restore.  
-  
-7.  Right-click **SampleUpdateInfo.xml**, and then click **Edit**.  
-
+6.  Right-click **SampleUpdateInfo.xml**, and **Edit**.  
   
     1.  Comment out all of the database sections except for the  OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert. 
     2.  For the OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert sections, set the **SourceServer** and **Destination Server** to the name of the existing server where those databases reside.  
@@ -88,27 +85,26 @@ If you backed up your BAMPrimaryImport database in the event of a system or data
         >  Include the quotation marks around the name of the source and destination systems.  
   
         > [!NOTE]
-        >  If you renamed any of the BizTalk Server databases, you must also update the database names as appropriate.  
+        >  If you renamed any of the BizTalk Server databases, be sure to also update the database names.  
   
-    4.  When you are finished editing the file, save it and exit.  
+    4.  When you are finished editing the file, save it, and exit.  
   
-8.  At the command prompt, type:  
+7.  At the command prompt, type:  
   
      **cscript UpdateDatabase.vbs SampleUpdateInfo.xml**  
   
     > [!NOTE]
-    >  You only need to run UpdateDatabase.vbs once.  
+    >  Only run UpdateDatabase.vbs once.  
+    > 
+    >  On 64-bit computers, run UpdateDatabase.vbs from a 64-bit command prompt.  
   
-    > [!NOTE]
-    >  On 64-bit computers, you must run UpdateDatabase.vbs from a 64-bit command prompt.  
+8. At the command prompt, navigate to the following directory:  
   
-9. At the command prompt, navigate to the following directory:  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
+9. At the command prompt, edit bm.exe.config, change the value of key="DefaultServer" to the new server name, and then save the file.  
   
-10. At the command prompt, edit bm.exe.config, change the value of key="DefaultServer" to the new server name, and then save the file.  
-  
-11. Update the reference to BAMPrimaryImport database in all BAM Livedata Microsoft Excel files. For each file:  
+10. Update the reference to BAMPrimaryImport database in all BAM Livedata Microsoft Excel files. For each file:  
   
     1.  Open the Excel live data file. The file name ends with _LiveData.xls.  
   
@@ -120,15 +116,15 @@ If you backed up your BAMPrimaryImport database in the event of a system or data
   
     5.  On the **File** menu, click **Save**.  
   
-12. Restart the BizTalk Application service.  
+11. Restart the BizTalk Application service.  
   
-    1.  Click **Start**, click **Run**, and then type **services.msc**.  
+    1.  Open **services.msc**.  
   
-    2.  Right-click the **BizTalk Service BizTalk Group: BizTalkServerApplication** service and then click **Start**.  
+    2.  Right-click the **BizTalk Service BizTalk Group: BizTalkServerApplication** service, and then **Start**.  
   
-13. Enable any BAM cube update and data maintenance DTS packages.  
+12. Enable any BAM cube update and data maintenance DTS packages.  
   
-14. To resolve any incomplete trace instances, see [How to Resolve Incomplete Activity Instances](../core/how-to-resolve-incomplete-activity-instances.md).  
+13. To resolve any incomplete trace instances, see [Resolve Incomplete Activity Instances](../core/how-to-resolve-incomplete-activity-instances.md).  
   
 ## See Also  
  [Backing Up and Restoring BAM](../core/backing-up-and-restoring-bam.md)
