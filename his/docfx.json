@@ -35,6 +35,7 @@
       "breadcrumb_path": "/his/breadcrumb/toc.json",
       "layout": "Conceptual",
       "titleSuffix": "Host Integration Server",
+      "uhfHeaderId": "MSDocsHisHeader"
       "extendBreadcrumb": true
     },
     "fileMetadata": {},
