@@ -21,7 +21,7 @@ description: HIS documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-whats-new.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/his/his-what-is-his.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -97,7 +97,7 @@ description: HIS documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/officeitpro/hub_office365-pro-plus-deployment.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/his/his-security.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
