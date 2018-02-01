@@ -1,8 +1,15 @@
 --- 
 layout: HubPage
 hide_bc: true
-title: HIS documentation
+title: Host Integration Server documentation
 description: HIS documentation
+author: MandiOhlinger
+manager: anneta
+ms.workload: integration
+ms.topic: article
+ms.prod: host-integration-server
+ms.date: 02/01/2018
+ms.author: mandia
 ---
 <div id="main" class="v2">
     <div class="container">
