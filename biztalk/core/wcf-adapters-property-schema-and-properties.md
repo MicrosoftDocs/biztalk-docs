@@ -21,7 +21,7 @@ Read about the promoted properties in the WCF adapter property schema. The WCF a
 **Namespace:** http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties  
 
 #### Action
-Specify the **SOAPAction** header field for outgoing messages. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format—for example, http://contoso.com/Svc/Op1—the **SOAPAction** header for outgoing messages is always set to the value specified in this property.
+Specify the **SOAPAction** header field for outgoing messages. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format—for example, http://contoso.com/Svc/Op1 — the **SOAPAction** header for outgoing messages is always set to the value specified in this property.
 
 If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to Op1, the WCF send adapter uses `http://contoso.com/Svc/Op1` for the outgoing **SOAPAction** header.
 
@@ -66,7 +66,9 @@ Specify an XML string with the **\<binding\>** element to configure different ty
 Example:
 
 ```
-<binding name="wsHttpBinding" transactionFlow="true"><security><message clientCredentialType="UserName"></security></binding>
+<binding name="wsHttpBinding" transactionFlow="true">
+<security><message clientCredentialType="UserName"></security>
+</binding>
 ```
 
 Type: String  
@@ -197,11 +199,13 @@ Applies to: All WCF adapters
 Specify the data selection for the SOAP **Body** element of incoming WCF messages. For more information about how to use the **InboundBodyLocation** property, see [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md).
 
 Type: String  
-Default value: **UseBodyElement**  
+Default value: UseBodyElement  
+
     Applicable values are:  
         - UseBodyElement: Use the content of the SOAP **Body** element of an incoming message to create the BizTalk message body part. If the **Body** element has more than one child element, only the first element becomes the BizTalk message body part.
         - UseEnvelope: Create the BizTalk message body part from the entire SOAP **Envelope** of an incoming message.
-        - UseBodyPath: Use the body path expression in the **InboundBodyPathExpression** property to create the BizTalk message body part. The body path expression is evaluated against the immediate child element of the SOAP **Body** element of an incoming message. This property is valid only for solicit-response ports.
+        - UseBodyPath: Use the body path expression in the **InboundBodyPathExpression** property to create the BizTalk message body part. The body path expression is evaluated against the immediate child element of the SOAP **Body** element of an incoming message. This property is valid only for solicit-response ports.  
+
 Applies to: All WCF adapters *except* WCF-NetMsmq send  
 
 #### InboundBodyPathExpression
@@ -222,11 +226,13 @@ Specify the type of encoding that the WCF receive adapter uses to decode the nod
 
 Type: String  
 Default value: XML  
+
     Applicable values are:  
         - Base64: Base64 encoding
         - Hex: Hexadecimal encoding
         - String: Text encoding - UTF-8
-        - XML: The WCF adapters create the BizTalk message body with the outer XML of the node selected by the body path expression in **InboundBodyPathExpression**.
+        - XML: The WCF adapters create the BizTalk message body with the outer XML of the node selected by the body path expression in **InboundBodyPathExpression**.  
+
 Applies to: All WCF adapters *except* the WCF-NetMsmq send adapter
 
 #### IsFault
@@ -299,9 +305,11 @@ Specify the encoder used to encode the SOAP message.
 
 Type: String  
 Default value: Text  
+
     Applicable values: 
         - Text: Use a text message encoder
-        - Mtom: Use a Message Transmission Organization Mechanism 1.0 (MTOM) encoder
+        - Mtom: Use a Message Transmission Organization Mechanism 1.0 (MTOM) encoder  
+
 Applies to: WCF-BasicHttp adapter, WCF-WSHttp adapter
 
 
@@ -318,18 +326,22 @@ Specify the algorithm to be used for message encryption on the wire when transfe
 
 Type: String  
 Default value: **RC4Stream**  
+
     Applicable values are: RC4Stream, AES
+
 Applies to: WCF-NetMsmq adapter  
 
 #### MsmqProtectionLevel
 Specify the way messages are secured at the level of the MSMQ transport.
 
 Type: String  
-Default value: **Sign**
+Default value: **Sign**  
+
     Applicable values are:
         - None: No protection
         - Sign: Messages are signed
         - EncryptAndSign: Messages are encrypted and signed. To use this protection level, you must enable **Active Directory Integration** for **MSMQ**  
+
 Applies to: WCF-NetMsmq adapter  
 
 #### MsmqSecureHashAlgorithm
@@ -337,7 +349,9 @@ Specify the hash algorithm to be used for computing the message digest. This pro
 
 Type: String  
 Default value: **SHA1**  
+
     Applicable values are: MD5, SHA1, SHA25, SHA512  
+
 Applies to: WCF-NetMsmq adapter  
 
 #### NegotiateServiceCredential
@@ -350,7 +364,7 @@ If the **MessageClientCredentialType** property is set to **Windows**, setting t
 When this property is **True**, it causes a .NET SOAP negotiation that tunnels SPNego exchange over SOAP messages.
 
 Type: Boolean  
-Default value: **True**  
+Default value: True  
 Applies to: WCF-WSHttp adapter  
 
 #### OpenTimeout
@@ -383,10 +397,12 @@ Applies to:
 Specify the data selection for the SOAP **Body** element of outgoing WCF messages. For more information about how to use the **OutboundBodyLocation** property, see [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md).
 
 Type: String  
-Default value: **UseBodyElement**  
+Default value: UseBodyElement  
+
     Applicable values are:
         - UseBodyElement: Use the BizTalk message body part to create the content of the SOAP **Body** element for an outgoing message
         - **UseTem****plate**: Use the template supplied in the OutboundXMLTemplate property to create the content of the SOAP **Body** element for an outgoing message
+
 Applies to: All WCF adapters *except* the WCF-NetMsmq receive adapter
 
 #### OutboundCustomHeaders
@@ -417,9 +433,11 @@ This property cannot be tracked in the BAM Primary Import database with tracking
 
 Type: Boolean  
 Default value: **True**  
+
     Applicable values are:  
         - True: Route the message that fails outbound processing to a subscribing application (such as another receive port or orchestration schedule)
         - False: Suspend failed messages and generate a negative acknowledgment (NACK)
+
 Applies to: All WCF send adapters *except* the WCF-NetMsmq adapter
   
 #### ProxyAddress
@@ -441,6 +459,7 @@ Specify which proxy server to use for outgoing HTTP traffic.
 
 Type: String  
 Default value: **None**  
+
     Applicable values are:  
         - None: Do not use a proxy server for this send port
         - Default: Use the proxy settings in the send handler hosting this send port
@@ -526,10 +545,12 @@ This property cannot be tracked in the BAM Primary Import database with tracking
 
 Type: String  
 Default value: utf-8  
+
     Applicable values are:  
         - unicodeFFF: Unicode BigEndian encoding
         - utf-16: 16-bit encoding
         - utf-8: 8-bit encoding
+
 Applies to: WCF-BasicHttp adapter, WCF-WSHttp adapter
   
 #### TimeToLive
@@ -551,7 +572,9 @@ Specify the transaction protocol to be used with this binding. This property is 
 
 Type: String  
 Default value: OleTransaction  
+
     Applicable values are: OleTransaction, WS-AtomicTransaction
+
 Applies to: WCF-NetNamedPipe adapter,  WCF-NetTcp adapter  
 
 #### TransportClientCredentialType
@@ -565,10 +588,12 @@ Specify security at the level of the TCP transport. Signing messages mitigates t
 
 Type: String  
 Default value: **EncryptAndSign**  
+
     Applicable values are:  
         - None: No protection
         - Sign: Messages are signed
         - EncryptAndSign: Messages are encrypted and signed
+
 Applies to: WCF-NetTcp adapter, WCF-NetNamedPipe adapter  
 
 #### UserName
