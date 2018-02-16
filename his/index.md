@@ -52,7 +52,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>What’s New</h3>
-                                                    <p>See what’s new in your latest HIS version, included supported systems and product improvements</p>
+                                                    <p>See what’s new in your latest HIS version, including supported systems and product improvements</p>
                                                 </div>
                                             </div>
                                         </div>
