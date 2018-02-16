@@ -8,7 +8,7 @@ manager: anneta
 ms.workload: integration
 ms.topic: article
 ms.prod: host-integration-server
-ms.date: 02/01/2018
+ms.date: 02/15/2018
 ms.author: mandia
 ---
 <div id="main" class="v2">
@@ -33,7 +33,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>What is HIS</h3>
-                                                    <p>HIS extends how you work with IBM host systems, and gives you the ability to create applications with less custom coding.</p>
+                                                    <p>HIS extends how you work with IBM host systems, and gives you the ability to create applications with less custom coding</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,7 +52,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>What’s New</h3>
-                                                    <p>See what’s new in your latest HIS version.</p>
+                                                    <p>See what’s new in your latest HIS version, included supported systems and product improvements</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -71,7 +71,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Install and configure</h3>
-                                                    <p>Install HIS 2016.</p>
+                                                    <p>Install HIS, and configure the security groups and features</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -90,7 +90,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Core integration</h3>
-                                                    <p>Learn about network, data, application &amp; message integration, and more.</p>
+                                                    <p>Learn about network, data, application &amp; message integration, and more</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -109,7 +109,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Enterprise single sign-on security</h3>
-                                                    <p>Learn about SSO, and how it secures your applications.</p>
+                                                    <p>Read about SSO, and how it secures your applications</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -127,8 +127,8 @@ ms.author: mandia
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>OLEDB provider for DB2</h3>
-                                                    <p>Read all about installation and configuration, tooling, data type mapping, security, and more.</p>
+                                                    <h3>OLE DB provider for DB2</h3>
+                                                    <p>Read all about installation and configuration, tooling, data type mapping, security, and more</p>
                                                 </div>
                                             </div>
                                         </div>
