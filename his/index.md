@@ -28,7 +28,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/his/his-what-is-his.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/host-integration-server/his-what-is-his.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -104,7 +104,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/his/his-security.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/host-integration-server/his-security.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
