@@ -3,8 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/**.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -20,6 +20,7 @@
       {
         "files": [
           "**/*.png",
+          "**/*.gif",
           "**/*.jpg"
         ],
         "exclude": [
@@ -32,6 +33,9 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/his/breadcrumb/toc.json",
+      "layout": "Conceptual",
+      "titleSuffix": "Host Integration Server",
+      "uhfHeaderId": "MSDocsHeader-His",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},
