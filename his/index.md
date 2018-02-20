@@ -127,7 +127,7 @@ ms.author: mandia
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>OLE DB provider for DB2</h3>
+                                                    <h3>OLE DB Provider for DB2</h3>
                                                     <p>Read all about installation and configuration, tooling, data type mapping, security, and more</p>
                                                 </div>
                                             </div>
