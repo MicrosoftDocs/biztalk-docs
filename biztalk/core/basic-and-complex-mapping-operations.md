@@ -8,38 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Max Occurs property"
-  - "maps, operation types"
-  - "source schemas, code sample"
-  - "BizTalk Mapper, mapping"
-  - "complex maps"
-  - "Table Looping functoids"
-  - "source schemas, maps"
-  - "maps, complex maps"
-  - "output instances"
-  - "destination schemas, code sample"
-  - "BizTalk Mapper, complex mapping"
-  - "destination schemas, maps"
-  - "maps, source schemas"
-  - "SrcLoopingRecord node"
-  - "functoid types, Looping"
-  - "DstLoopingRecord node"
-  - "Table Extractor functoids"
-  - "maps, basic maps"
-  - "BizTalk Mapper, basic mapping"
-  - "functoid types, Table Extractor"
-  - "messages, examples"
-  - "functoid types, Table Looping"
-  - "code samples, destination schemas"
-  - "Looping functoids"
-  - "input instances, code sample"
-  - "code samples, output instances"
-  - "basic maps"
-  - "code samples, input instances"
-  - "maps, map types"
-  - "code samples, source schemas"
-  - "maps, destination schemas"
 ms.assetid: da864b48-6255-4847-9a6f-13e489e8658d
 caps.latest.revision: 10
 author: "MandiOhlinger"
@@ -133,7 +101,7 @@ BizTalk Mapper provides solutions for a variety of mapping scenarios ranging fro
   
  A type of mapping not supported by BizTalk Mapper is the use of multiple loop paths. This type of mapping involves fields from two or more looping records in the source schema being mapped to fields within a single looping record in the destination schema. This presents a problem—there is no effective way to determine the number of elements to produce in the output instance message. Multiple loop paths result in a map compilation warning indicating that the destination node has multiple source loop paths. However, this is only a warning, and the number of iterations in the first source loop path is used to determine the number of elements produced in the output instance message. You can take explicit control of looping behavior by using the **Looping** functoid.  
   
- Microsoft [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] introduced a new kind of looping called table-driven looping. Table-driven looping is useful when your output instance message needs to be based on data from the input instance message, combined with one or more constants, links from the source schema, or functoids. In such cases, the output instance message can have multiple records based on data from a single record in the input instance message that is combined with different constants, or based on data coming from multiple records in the input instance message. For more information about table-driven looping using the **Table Looping** and **Table Extractor** functoids, see [Table Looping and Table Extractor Functoids](../core/table-looping-and-table-extractor-functoids.md).  
+ Microsoft BizTalk Server introduced a new kind of looping called table-driven looping. Table-driven looping is useful when your output instance message needs to be based on data from the input instance message, combined with one or more constants, links from the source schema, or functoids. In such cases, the output instance message can have multiple records based on data from a single record in the input instance message that is combined with different constants, or based on data coming from multiple records in the input instance message. For more information about table-driven looping using the **Table Looping** and **Table Extractor** functoids, see [Table Looping and Table Extractor Functoids](../core/table-looping-and-table-extractor-functoids.md).  
   
 ## See Also  
  [Maps](../core/maps.md)   

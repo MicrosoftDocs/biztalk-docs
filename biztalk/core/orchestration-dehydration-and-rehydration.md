@@ -37,9 +37,7 @@ When many long-running business processes are running at the same time, memory a
   
  An orchestration can be configured to run on more than one server. After an orchestration instance has been dehydrated, it can be rehydrated on any of these servers. If one server goes down, the engine continues to run the orchestration on a different server, continuing from its previous state. The engine also takes advantage of this feature to implement load balancing across servers.  
   
-## In This Section  
-  
--   [Changes in Dehydration Policy from BizTalk Server 2004](../core/changes-in-dehydration-policy-from-biztalk-server-2004.md)  
+## Next steps
   
 -   [Dehydration Default Properties](../core/dehydration-default-properties.md)  
   
