@@ -1,34 +1,20 @@
 ---
-title: "Migrating from the MSMQT Adapter to the MSMQ Adapter | Microsoft Docs"
+title: "Migrate from the MSMQT Adapter to MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "2015-12-07"
+ms.date: "12/07/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "performance, MSMQT adapters"
-  - "scaling, MSMQT adapters"
-  - "reliability, MSMQT adapters"
-  - "MSMQT adapters, transactional consistency"
-  - "migrating, MSMQT adapters"
-  - "MSMQT adapters, ordered delivery"
-  - "MSMQT adapters, migrating to MSMQ adapters"
-  - "MSMQT adapters, scaling"
-  - "MSMQT adapters, reliability"
-  - "MSMQ adapters, migrating MSMQT adapters"
-  - "high availability, MSMQT adapters"
-  - "MSMQT adapters, performance"
-  - "MSMQT adapters, availability"
 ms.assetid: 97126f70-0be5-4a2f-bcba-173fd932b6de
 caps.latest.revision: 30
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Migrating from the MSMQT Adapter to the MSMQ Adapter
+# Migrate from the MSMQT Adapter to the MSMQ Adapter
 This topic discusses points to consider regarding end-to-end ordered delivery, transactional consistency, high availability, and scalability before migrating solutions from the BizTalk Message Queuing (MSMQT) adapter to the Message Queuing (MSMQ) adapter. For purposes of this topic ordered delivery, transactional consistency, high availability, and scalability are defined as follows:  
   
 -   **Ordered delivery.** Guarantee that messages are sent out of BizTalk Server in the same order that they are received.  
@@ -54,15 +40,15 @@ This topic discusses points to consider regarding end-to-end ordered delivery, t
   
 5.  The MessageBox routes the messages and ensures that if they are routed to the same instance of an orchestration or a send port, that they are delivered to this instance in the same order: 1, 2, 3.  
   
- In [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)], MSMQT is the only adapter capable of guaranteeing end-to end ordered delivery. All of the other integrated BizTalk adapters can potentially change the order of the messages in steps 3 through 5 listed above. Most of the other integrated adapters complete step 3 by the use of a component known as the End Point Manager, which is inherently multithreaded and therefore does not preserve order. The MSMQ adapter for [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] can use a "Serial Processing" feature that preserves order for step 3, but it does not then ask the MessageAgent to preserve order going forward, so the messages may be routed to an orchestration or send port out of order.  
+ In BizTalk Server 2004, MSMQT was the only adapter capable of guaranteeing end-to end ordered delivery. All of the other integrated BizTalk adapters can potentially change the order of the messages in steps 3 through 5 listed above. Most of the other integrated adapters complete step 3 by the use of a component known as the End Point Manager, which is inherently multithreaded and therefore does not preserve order. The BizTalk Server 2004 MSMQ adapter used a "Serial Processing" feature that preserves order for step 3, but it does not then ask the MessageAgent to preserve order going forward, so the messages may be routed to an orchestration or send port out of order.  
   
  **End-to-end ordered delivery with the MSMQ adapter**  
   
  To achieve end-to-end ordered delivery with the MSMQ adapter, follow these steps:  
   
-1.  Enable the **Ordered Delivery** property on the receive port for the subscribing orchestration or send port. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive ports in orchestrations and send ports have an **Ordered Delivery** configuration option. If this option is enabled, then the orchestration receive port or the send port asks the MessageBox to deliver messages to it in the same order they were submitted into the MessageBox.  
+1.  Enable the **Ordered Delivery** property on the receive port for the subscribing orchestration or send port. In BizTalk Server, receive ports in orchestrations and send ports have an **Ordered Delivery** configuration option. If this option is enabled, then the orchestration receive port or the send port asks the MessageBox to deliver messages to it in the same order they were submitted into the MessageBox.  
   
-2.  Set the **Ordered Processing** property for the receive location that is bound to the MSMQ adapter to `True`. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], receive locations that use the MSMQ transport can be configured to use Ordered Processing which, if enabled, ensures that messages are sent to the MessageBox in the same order that they were received.  
+2.  Set the **Ordered Processing** property for the receive location that is bound to the MSMQ adapter to `True`. In BizTalk Server, receive locations that use the MSMQ transport can be configured to use Ordered Processing which, if enabled, ensures that messages are sent to the MessageBox in the same order that they were received.  
   
 3.  Set the **Transactional** property for the receive location that is bound to the MSMQ adapter to `True`.  
   
@@ -94,7 +80,7 @@ This topic discusses points to consider regarding end-to-end ordered delivery, t
  To implement ordered delivery with this architecture, follow the steps presented earlier under "End-to-end ordered delivery with the MSMQ adapter."  
   
 ## High Availability (Nontransactional, Not in Order)  
- If you need high availability but do not need transactional processing, you can achieve this with the MSMQ adapter by implementing NLB and running instances of a host configured with the MSMQ send and receive handlers on multiple BizTalk servers behind NLB. When implementing NLB with MSMQ you should follow best practices as documented in Microsoft Knowledge Base article 899611, "How Message Queuing can function over Network Load Balancing (NLB)" available at [http://go.microsoft.com/fwlink/?LinkId=57510](http://go.microsoft.com/fwlink/?LinkId=57510). In this scenario, if one of the BizTalk servers fails, the messages that are running in the host instance on that BizTalk server will be unavailable until the BizTalk server is recovered. This configuration provides high availability because if one of the BizTalk servers is not available, NLB routes requests to the other BizTalk server.  
+ If you need high availability but do not need transactional processing, you can achieve this with the MSMQ adapter by implementing NLB and running instances of a host configured with the MSMQ send and receive handlers on multiple BizTalk servers behind NLB. When implementing NLB with MSMQ you should follow best practices as documented in Microsoft Knowledge Base article [899611 : How Message Queuing can function over Network Load Balancing (NLB)](https://support.microsoft.com/help/899611/how-message-queuing-can-function-over-network-load-balancing-nlb). In this scenario, if one of the BizTalk servers fails, the messages that are running in the host instance on that BizTalk server will be unavailable until the BizTalk server is recovered. This configuration provides high availability because if one of the BizTalk servers is not available, NLB routes requests to the other BizTalk server.  
   
 ## Scalability (Nontransactional, Not in Order)  
  You can achieve scalability by following the guidelines for high availability (nontransactional) and adding additional host instances. This architecture provides fast delivery as well as scalability, but does not provide ordered delivery.  

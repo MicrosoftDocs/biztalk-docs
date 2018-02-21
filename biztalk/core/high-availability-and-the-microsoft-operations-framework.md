@@ -1,5 +1,5 @@
 ---
-title: "High Availability and the Microsoft Operations Framework | Microsoft Docs"
+title: "High Availability and Microsoft Operations Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,15 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "high availability, managing"
-  - "service management functions (SMFs)"
-  - "service continuity management"
-  - "jobs, scheduling"
-  - "MOF, high availability"
-  - "change management"
-  - "MOF, process model"
-  - "high availability, MOF"
 ms.assetid: 54d8bae3-b241-4371-b8fc-a9cbdca6b495
 caps.latest.revision: 16
 author: "MandiOhlinger"
@@ -24,12 +15,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # High Availability and the Microsoft Operations Framework
-Applying the Microsoft Operations Framework (MOF) process model to the planning and implementation of a highly available Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution can help you make sure that you have appropriate processes at the different stages of the release life cycle. By looking ahead at all the life cycle stages where high availability surfaces, you can make the installation, maintenance, and troubleshooting of availability issues in your environment easier.  
+Applying the Microsoft Operations Framework (MOF) process model to the planning and implementation of a highly available Microsoft BizTalk Server solution can help you make sure that you have appropriate processes at the different stages of the release life cycle. By looking ahead at all the life cycle stages where high availability surfaces, you can make the installation, maintenance, and troubleshooting of availability issues in your environment easier.  
   
  This section contains information about the MOF processes where you have to consider high-availability tasks.  
   
 ## Microsoft Operations Framework Process Model  
- The Microsoft Operations Framework (MOF) provides guidance that enables organizations to achieve mission-critical system reliability, availability, supportability, and manageability of Microsoft products and technologies. MOF provides operational guidance in the form of white papers, operations guides, assessment tools, best practices, case studies, templates, support tools, and services. This guidance addresses the people, process, technology, and management issues pertaining to complex, distributed, and heterogeneous IT environments. For more information about the Microsoft Operations Framework, see [http://go.microsoft.com/fwlink/?LinkId=31988](http://go.microsoft.com/fwlink/?LinkId=31988).  
+ The [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx) provides guidance that enables organizations to achieve mission-critical system reliability, availability, supportability, and manageability of Microsoft products and technologies. MOF provides operational guidance in the form of white papers, operations guides, assessment tools, best practices, case studies, templates, support tools, and services. This guidance addresses the people, process, technology, and management issues pertaining to complex, distributed, and heterogeneous IT environments. 
   
  The MOF process model enables companies to:  
   
@@ -55,8 +46,6 @@ Applying the Microsoft Operations Framework (MOF) process model to the planning 
   
 -   Determine whether the service level agreement with your partners or customers requires a certain level of availability, uptime, and load-processing capabilities.  
   
--   If you are upgrading from [!INCLUDE[btsBizTalkServer2000](../includes/btsbiztalkserver2000-md.md)] or [!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)] to BizTalk Server, you must determine whether your existing hardware will satisfy the minimum hardware requirements for BizTalk Server and the requirements from the service level agreement.  
-  
 -   Determine the best cluster configuration for the BizTalk Server databases for your business needs. The run-time processes write to the BizTalk Management database, MessageBox databases, Tracking Analysis Services database, BAM Analysis database, BAM Star Schema database, BAM Primary Import database, and BAM Archive database. Therefore, these databases are especially important if a disaster occurs, and must have greater priority when determining what databases to cluster. Only users or tools write to the other databases. For the MessageBox databases, you can consider an active/active/active/passive four-server cluster to minimize the hardware needed.  
   
 -   Determine whether to cluster the master secret server, or if manually restoring the master secret on another Enterprise Single Sign-On server is satisfactory for your scenario. This solution is available, but not highly available.  
@@ -68,7 +57,7 @@ Applying the Microsoft Operations Framework (MOF) process model to the planning 
 ### Configuration Management  
  Configuration management is responsible for identifying, controlling, and tracking all versions of software, hardware, documentation, processes, procedures, and all other components of the IT environment under the control of change management.  
   
- During the configuration management process, you must create a detailed plan for how you are going to implement your highly available solution for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You must also document the steps that you took to create your solution. At a high level, the steps are:  
+ During the configuration management process, you must create a detailed plan for how you are going to implement your highly available solution for BizTalk Server. You must also document the steps that you took to create your solution. At a high level, the steps are:  
   
 -   The domain controller creates the domain groups and accounts that you will use in your BizTalk Server environment.  
   
@@ -78,7 +67,7 @@ Applying the Microsoft Operations Framework (MOF) process model to the planning 
   
 -   The BizTalk Server administrator configures the master secret server cluster.  
   
--   The BizTalk Server administrator installs and configures [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on the processing, receiving, and sending servers.  
+-   The BizTalk Server administrator installs and configures BizTalk Server on the processing, receiving, and sending servers.  
   
 -   The BizTalk Server administrator creates the hosts and installs the host instances on the appropriate servers to provide high availability or to increase capacity, or both.  
   

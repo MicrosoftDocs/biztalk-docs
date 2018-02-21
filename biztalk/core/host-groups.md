@@ -8,12 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "host groups, privileges"
-  - "Windows groups, host groups"
-  - "host groups, Windows groups"
-  - "host groups, about host groups"
-  - "host groups"
 ms.assetid: 0d92478b-b3a2-4c5a-925e-5495ee481e82
 caps.latest.revision: 15
 author: "MandiOhlinger"
@@ -21,6 +15,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Host Groups
+
+## Overview
 The host group is the Windows group (named the BizTalk Application Users group by default) that you use for accounts with access to the in-process BizTalk hosts (host processes in BizTalk Server). It is recommended that you use one host group for each in-process host in your environment.  
   
  You can only associate a host with one Windows group (called a *host group*). The host group must have a SQL Server login and privileges in all relevant BizTalk Server databases. When you associate a host with the host group, you grant the host the privileges of the host group.  
@@ -35,12 +31,13 @@ The host group is the Windows group (named the BizTalk Application Users group b
   
 > [!NOTE]
 >  If you want to create a local host group, you can create a local Windows group and assign a domain user as a member of the group. If you specify a local Windows group for the Host, the Windows group member, whether it is a domain or local user, can be used as the host instance log-on user.  
-  
+
+## Required permissions  
  The host group requires the following privileges:  
   
 -   It must be a member of the BTS_HOST_USERS SQL Server role in the following databases:  
   
-    -   BizTalk Management (known as the Configuration database in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)])  
+    -   BizTalk Management 
   
     -   MessageBox  
   
@@ -55,7 +52,7 @@ The host group is the Windows group (named the BizTalk Application Users group b
 -   It must be a member of the BAM_EVENT_WRITER SQL Server role in the BAM Primary Import database.  
   
 > [!NOTE]
->  If you designate a host as a tracking host, BizTalk Server Administration automatically removes the BizTalk Host group from the SQL Server roles for the Tracking database. You must manually remove the BizTalk Host group from the SQL Server roles for the BizTalk Management database and the MessageBox database. For information about designating a host as a tracking host, see [How to Modify Host Properties](../core/how-to-modify-host-properties.md).  
+>  If you designate a host as a tracking host, BizTalk Server Administration automatically removes the BizTalk Host group from the SQL Server roles for the Tracking database. You must manually remove the BizTalk Host group from the SQL Server roles for the BizTalk Management database and the MessageBox database. For information about designating a host as a tracking host, see [Modify Host Properties](../core/how-to-modify-host-properties.md).  
   
 ## See Also  
  [Entities](../core/entities.md)
