@@ -1,5 +1,5 @@
 ---
-title: "Known Issues in the BAM Portal | Microsoft Docs"
+title: "Known Issues with BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -17,10 +17,10 @@ manager: "anneta"
 # Known Issues in the BAM Portal
 This topic contains information to help you identify and resolve issues that can occur while you are using the BAM portal.  
   
-## Errors Are Generated When the BAM Portal and Internet Explorer 7 or Internet Explorer 8 Are on the Same Computer and the Security Settings Are Set to Low  
+## Errors occur when the BAM Portal and IE are on the same computer, and Security Settings are Low  
  **Problem**  
   
- When using Internet Explorer 7 or Internet Explorer 7 or Internet Explorer 8 with [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)], [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] you may encounter the error message **Server Error in '/BAM' Application** under the following circumstances:  
+ When using Internet Explorer, you may encounter the error message **Server Error in '/BAM' Application** under the following circumstances:  
   
 -   While clicking a related activity that points to a non-existing activity instance.  
   
@@ -36,7 +36,7 @@ This topic contains information to help you identify and resolve issues that can
   
  **Cause**  
   
- When running [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] and Internet Explorer 7 or Internet Explorer 8 with the security level set to low, Web requests are executed with low privileges. To fulfill the Windows integrated security challenge, Internet Explorer passes a user token with low privileges.  
+ When running Internet Explorer with the security level set to low, Web requests are executed with low privileges. To fulfill the Windows integrated security challenge, Internet Explorer passes a user token with low privileges.  
   
  If you are using Internet Explorer on the same computer as the one on which the BAM portal is installed, and you set the security level in Internet Explorer to low, the portal impersonates the user with the low privileges token. This token does not have the permissions to write to the event log. If the portal encounters an error, it attempts to log it to the event log and will fail since the reduced privileges of the user token are not sufficient to access the event log.  
   
@@ -44,7 +44,7 @@ This topic contains information to help you identify and resolve issues that can
   
  If you need to browse from the local computer, you should add http://localhost to the list of trusted sites.  
   
-#### To add localhost to the list of trusted sites  
+#### Add localhost to the list of trusted sites  
   
 1.  In Internet Explorer, click **Tools**, and then click **Internet Options**.  
   
@@ -58,20 +58,20 @@ This topic contains information to help you identify and resolve issues that can
   
 6.  Click the **Close** button, and then click **OK**.  
   
-## Bam Portal Aggregations Do Not Populate Existing Data When Using an IP Address as a URL in Internet Explorer 7  
+## Bam Portal Aggregations Do Not Populate Existing Data When Using an IP Address as a URL in Internet Explorer
  **Problem**  
   
- When using an IP address as a URL with Internet Explorer 7 or Internet Explorer 8 and [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)], [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] to view the BAM portal, aggregations display the following message: "No detail. The query could not be processed."  
+ When using an IP address as a URL with Internet Explorer to view the BAM portal, aggregations display the following message: "No detail. The query could not be processed."  
   
  **Cause**  
   
- The default security settings in Internet Explorer 7 or Internet Explorer 8 prevents access to sites using IPv4 and IPv6 addresses as URLs.  
+ The default security settings in Internet Explorer may prevent access to sites using IPv4 and IPv6 addresses as URLs.  
   
  **Resolution**  
   
  Add the site address to the trusted sites list and enable access to data sources across domains.  
   
-#### To add the IP address to the trusted sites list  
+#### Add the IP address to the trusted sites list  
   
 1.  In Internet Explorer, click **Tools**, and then click **Internet Options**.  
   
@@ -83,7 +83,7 @@ This topic contains information to help you identify and resolve issues that can
   
 5.  Click **Close**, and then click **OK**.  
   
-#### To enable access to data sources across domains  
+#### Enable access to data sources across domains  
   
 1.  In Internet Explorer, click **Tools**, and then click **Internet Options**.  
   

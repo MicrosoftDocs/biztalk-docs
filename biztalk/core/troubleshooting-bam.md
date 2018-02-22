@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting BAM | Microsoft Docs"
+title: "Troubleshoot BAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -31,7 +31,7 @@ This topic provides information to help you troubleshoot problems you might enco
   
  This occurs because the BAM add-in has not been added to Excel.  
   
-#### To add the BAM add-in to Excel  
+#### Add the BAM add-in to Excel  
   
 1.  Click **Start**, point to **All Programs**, point to **Microsoft Office**, and then click **Microsoft Office Excel**.  
   
@@ -55,9 +55,9 @@ This topic provides information to help you troubleshoot problems you might enco
 -   C:\Documents and Settings\\<username\>\AppData\Local\Temp\VBE  
   
 ## BAM portal cannot connect  
- In [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)], you must run the BAM portal as an administrator.  
+Run the BAM portal as an administrator.  
   
-#### To run the BAM portal on Windows Server 2008 R2 or Windows 7  
+#### Run the BAM portal
   
 1.  Click **Start**, point to **All Programs**, right-click **Internet Explorer**, and then click **Run as administrator**.  
   
@@ -78,9 +78,9 @@ This topic provides information to help you troubleshoot problems you might enco
  Exporting a BAM definition to localhost is not supported. Similarly, importing a BAM definition from localhost is not supported.  
   
 ## Alerts do not work after upgrading SQL Server editions  
- If you have upgraded from one edition of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] to another edition (for example, from Standard Edition to Enterprise Edition), BAM alerts will not restart. To fix this problem, either delete the BAM alerts and re-create them, or upgrade the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Service.  
+ If you have upgraded from one edition of SQL Server to another edition (for example, from Standard Edition to Enterprise Edition), BAM alerts will not restart. To fix this problem, either delete the BAM alerts and re-create them, or upgrade the SQL Server Notification Service.  
   
-#### To upgrade the SQL Server Notification Service  
+#### Upgrade the SQL Server Notification Service  
   
 1.  Click **Start**, click **All Programs**, click **Microsoft SQL Server 2005**, and then click **Notification Service Command Prompt**.  
   
@@ -89,8 +89,9 @@ This topic provides information to help you troubleshoot problems you might enco
      `nscontrol.exe upgrade -name <instanceName>`  
   
 ## ObjectDisposedException Exception  
- If your application is using BAM WF 3.5 interceptor, you may receive the following error message: **System.ObjectDisposedException: Cannot access a disposed object**. For more information about this error message, see [ObjectDisposedException Exception](http://go.microsoft.com/fwlink/?LinkID=195338) (http://go.microsoft.com/fwlink/?LinkID=195338).   
-To resolve this issue, install the hotfix 960754 available at [http://go.microsoft.com/fwlink/?LinkID=195339](http://go.microsoft.com/fwlink/?LinkID=195339).  
+ If your application is using BAM WF 3.5 interceptor, you may receive the following error message: **System.ObjectDisposedException: Cannot access a disposed object**. For more information about this error message, see [ObjectDisposedException Exception](https://support.microsoft.com/help/960754). 
+
+To resolve this issue, install the [hotfix 960754](https://support.microsoft.com/help/960754). 
   
 ## Workbook has lost its VBA project, ActiveX controls and other programmability-related features  
  When attempting to use BAM.xla in Microsoft Excel, you may get the following error:  

@@ -1,7 +1,7 @@
 ---
 title: "Prepare Your Computer for Installation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-03-15"
+ms.date: "03/15/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,12 +28,12 @@ This topic lists the steps to prepare your computer by installing and configurin
   
 -   **Windows 7**: Click Start. In the **Search** text box, type **Windows Update**.  
   
--   **Windows 8.1, [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)], and [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)] R2**: Click the Windows button on the keyboard and type **Windows Update**. From the search results, click **Windows Update**.  
+-   **Windows 8.1, Windows Server 2012, and Windows Server 2012 R2**: Click the Windows button on the keyboard and type **Windows Update**. From the search results, click **Windows Update**.  
   
  After installing updates, you may need to restart the computer.  
   
 ##  <a name="BKMK_IIS"></a> Enable Internet Information Services  
- Microsoft Internet Information Services (IIS) provides a Web application infrastructure for many [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features, including:  
+ Microsoft Internet Information Services (IIS) provides a Web application infrastructure for many BizTalk Server features, including:  
   
 -   HTTP adapter  
   
@@ -45,118 +45,44 @@ This topic lists the steps to prepare your computer by installing and configurin
   
 -   BAM Portal  
   
-#### Install IIS 7.5 on Windows 7 SP1  
+#### Install IIS
+
+For the specific install steps, see: 
+
+[Install IIS (Windows 8 and Windows Server 2012)](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012)
+
+[Install IIS (Windows 7 and Windows Vista)](https://docs.microsoft.com/iis/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7)
+
+
+When you install IIS, in addition to the default checked options, also check the following:  
   
-1.  Select **Start**. In the **Search** text box, type **Programs and Features**, and open it.  
+- **Web Management Tools**: Also check:  
   
-2.  Select**Turn Windows features on or off**.  
+    - IIS 6 Management Compatibility:  
   
-3.  Select**Internet Information Services** and expand **Internet Information Services**. In addition to the default checked options, also check the following:  
+        - IIS 6 Management Console  
   
-    -   **Web Management Tools**: Also check:  
+        - IIS Metabase and IIS 6 configuration compatibility  
   
-        -   IIS 6 Management Compatibility:  
+    - IIS Management Console  
   
-            -   IIS 6 Management Console  
+- **World Wide Web Services**: Expand **Security** and also select:  
   
-            -   IIS Metabase and IIS 6 configuration compatibility  
+    - Basic Authentication  
   
-        -   IIS Management Console  
+    - Windows Authentication  
+
+Also consider the following:  
   
-    -   **World Wide Web Services**: Expand **Security** and also select:  
+- **.Net Framework 3.5 Features**: .NET Framework 4.5 and .NET Framework 3.5 can be used to develop .Net applications involving the BizTalk Adapter Pack. Typically, **.NET Framework 4.5 Features** is already installed. If you will use .NET Framework 3.5 to create applications on this computer, then **.Net Framework 3.5 Features** can also be installed.  
   
-        -   Basic Authentication  
+- **Message Queuing**: If you are using the MSMQ adapter, you can create a local MSMQ store by checking **Message Queuing**.  
   
-        -   Windows Authentication  
+- **SMTP Server**: If you are using the SMTP adapter, you can create a local SMTP Server by checking **SMTP Server**.  
   
-4.  Select **OK**. When complete, click **Close**.  
+- **Windows Identity Foundation 3.5**: Windows Identity Foundation (WIF) is required by the SharePoint adapter when using the CSOM installation option. [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) describes the CSOM installation option for the SharePoint adapter.    
   
- [http://go.microsoft.com/fwlink/p/?LinkId=257033](http://go.microsoft.com/fwlink/p/?LinkId=257033) also lists the steps to enable IIS on Windows 7.  
-  
-#### Install IIS 8.0 on Windows 8  
-  
-1.  Select the Windows button on your keyboard. Type **Programs and Features** and select**Settings**. In the Results window, select **Programs and Features**.  
-  
-2.  Select **Turn Windows features on or off**.  
-  
-3.  Select **Internet Information Services** and expand **Internet Information Services**. In addition to the default checked options, also select the following:  
-  
-    -   **Web Management Tools**: Also check:  
-  
-        -   IIS 6 Management Compatibility:  
-  
-            -   IIS 6 Management Console  
-  
-            -   IIS Metabase and IIS 6 configuration compatibility  
-  
-        -   IIS Management Console  
-  
-    -   **World Wide Web Services**: Expand **Security** and also check:  
-  
-        -   Basic Authentication  
-  
-        -   Windows Authentication  
-  
-4.  Click **OK**. When complete, click **Close**.  
-  
- [http://go.microsoft.com/fwlink/p/?LinkID=291297](http://go.microsoft.com/fwlink/p/?LinkID=291297) also lists the steps to enable IIS on Windows 8.  
-  
-#### Install IIS 8.0 on Windows Server 2012  
-  
-1.  Open **Server Manager** and click **Dashboard** in the left pane.  
-  
-2.  Click **Add roles and features**. **Add Roles and Features** can also be opened from the **Manage** menu in the top right-hand corner.  
-  
-3.  On the **Before You Begin** window, click **Next**.  
-  
-4.  On the **Installation Type** window, click **Role-based or feature-based installation**, and click **Next**.  
-  
-5.  On the **Server Selection** window, click **Select a server from the server pool**, click the desired server, and click **Next**.  
-  
-     The **Server Selection** window lists the servers that have been added using **Add Server** in **Server Manager**. By default, it selects the local server. [Add Servers to Server Manager](http://go.microsoft.com/fwlink/p/?LinkID=241353) lists the steps to use **Add Server** on [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)].  
-  
-6.  On the **Server Roles** window, click **Web Server (IIS)**. If prompted, click **Add Features**, and then click **Next**.  
-  
-7.  On the **Features** window, keep the default options enabled and also consider the following:  
-  
-     **.Net Framework 3.5 Features**: [!INCLUDE[dotnet45](../includes/dotnet45-md.md)] and [!INCLUDE[btsDotNetFramework3.5](../includes/btsdotnetframework3-5-md.md)] can be used to develop .Net applications involving the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Typically, **[!INCLUDE[dotnet45](../includes/dotnet45-md.md)] Features** is already installed. If you will use [!INCLUDE[btsDotNetFramework3.5](../includes/btsdotnetframework3-5-md.md)] to create applications on this computer, then **.Net Framework 3.5 Features** can also be installed.  
-  
-     **Message Queuing**: If you are using the MSMQ adapter, you can create a local MSMQ store by checking **Message Queuing**.  
-  
-     **SMTP Server**: If you are using the SMTP adapter, you can create a local SMTP Server by checking **SMTP Server**.  
-  
-     **Windows Identity Foundation 3.5**: Windows Identity Foundation (WIF) is required by the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter when using the CSOM installation option. [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) describes the CSOM installation option for the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter.  
-  
-     Click **Next**.  
-  
-8.  On the **Web Server Role (IIS)** window, click **Next**.  
-  
-9. On the **Role Services** window (under **Web Server Role (IIS)**), click the following options:  
-  
-     **Security**: In addition to the default options, also click:  
-  
-    -   Basic Authentication  
-  
-    -   Windows Authentication  
-  
-     **Application Development**: The default options are sufficient for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. If you host other IIS-based applications on this computer, check the needed roles.  
-  
-     **Management Tools**: In addition to the default options, also click:  
-  
-    -   IIS Management Console  
-  
-    -   IIS 6 Management Compatibility:  
-  
-        -   IIS 6 Metabase Compatibility  
-  
-        -   IIS 6 Management Console  
-  
-     Click **Next**.  
-  
-10. On the **Confirmation** window, click **Install**. When complete, click **Close**.  
-  
- [http://go.microsoft.com/fwlink/p/?LinkID=291297](http://go.microsoft.com/fwlink/p/?LinkID=291297) also lists the steps to enable IIS on [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)].  
-  
+ 
 ##  <a name="BKMK_XLS"></a> Install Microsoft Office Excel  
   
 1.  Run the Microsoft Office setup.  
@@ -171,9 +97,9 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports only 32-bit version of Microsoft Office.  
+-   BizTalk Server supports only 32-bit version of Microsoft Office.  
   
--   Microsoft Office Excel is required by Business Activity Monitoring (BAM) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The BAM Office Excel Workbook defines the business processes you want to monitor. You also use the BAM Excel Workbook to define the way business users see the data collected by BAM.  
+-   Microsoft Office Excel is required by Business Activity Monitoring (BAM) in BizTalk Server. The BAM Office Excel Workbook defines the business processes you want to monitor. You also use the BAM Excel Workbook to define the way business users see the data collected by BAM.  
   
 -   To successfully load BAM.xla into Excel, install **Visual Basic for Applications** under **Office Shared Features**. Otherwise, you may get error “This workbook has lost its VBA project, ActiveX controls and any other programmability-related features.”  
   
@@ -183,21 +109,21 @@ This topic lists the steps to prepare your computer by installing and configurin
   
 2.  Accept the license agreement and click **Next**.  
   
-3.  In **Optional features to install**, select the options you need and then select **Install**. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not require any of the optional features.  
+3.  In **Optional features to install**, select the options you need and then select **Install**. BizTalk Server does not require any of the optional features.  
   
 4.  On the **Finish** page, close the window or click **Launch** to open Visual Studio.  
   
  **Additional**  
   
--   If you install Visual Studio before installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and then upgrade to Visual Studio Team Explorer, you may need to repair your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation from the **Control Panel** / **Programs** option.  
+-   If you install Visual Studio before installing BizTalk Server, and then upgrade to Visual Studio Team Explorer, you may need to repair your BizTalk Server installation from the **Control Panel** / **Programs** option.  
   
--   Visual Studio automatically installs Microsoft SQL Server Express; which is not used by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. As a best practice, uninstall Microsoft SQL Server Express.  
+-   Visual Studio automatically installs Microsoft SQL Server Express; which is not used by BizTalk Server. As a best practice, uninstall Microsoft SQL Server Express.  
   
--   The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] development tools are based on Visual Studio. At a minimum, you must install the Microsoft Visual C#® .NET component of Visual Studio before you install the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**Developer Tools and SDK**.  
+-   The BizTalk Server development tools are based on Visual Studio. At a minimum, you must install the Microsoft Visual C#® .NET component of Visual Studio before you install the BizTalk Server**Developer Tools and SDK**.  
   
--   Visual Studio is *not* required if you are installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a production computer (runtime only), on which no application development or debugging is required.  
+-   Visual Studio is *not* required if you are installing BizTalk Server on a production computer (runtime only), on which no application development or debugging is required.  
   
--   The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime requires [!INCLUDE[dotnet45](../includes/dotnet45-md.md)]. The .NET Framework 3.0 is required if the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed.  
+-   The BizTalk Server runtime requires .NET Framework 4.5. The .NET Framework 3.0 is required if the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed.  
   
 ##  <a name="BKMK_SQL"></a> Install SQL Server  
  Install [SQL Server 2008 R2](http://msdn.microsoft.com/library/bb500395\(v=sql.105\).aspx)  
@@ -206,7 +132,7 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  Install [SQL Server 2014](http://msdn.microsoft.com/library/bb500469\(v=sql.120\).aspx)  
   
- When you install [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], select the following features:  
+ When you install SQL Server, select the following features:  
   
 -   Database Engine Services  
   
@@ -234,13 +160,13 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.  
+-   BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.  
   
 -   For optimal performance, Microsoft recommends using the Enterprise Edition of SQL Server. See [SQL Server 2008 R2 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.105\).aspx), [SQL Server 2012 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.110\).aspx), or [SQL Server 2014 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.120\).aspx).  
   
 -   Service packs and Windows Updates are supported and should be installed.  
   
--   When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] are on separate computers, Distributed Transaction Coordinator (MS DTC) handles the transactions between the computers. The [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] AlwaysOn feature does not support MSDTC transactions. The [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] AlwaysOn feature is not supported.  
+-   When BizTalk Server and SQL Server are on separate computers, Distributed Transaction Coordinator (MS DTC) handles the transactions between the computers. The SQL Server AlwaysOn feature does not support MSDTC transactions. The SQL Server AlwaysOn feature is not supported.  
   
 ##  <a name="BKMK_MQSeries"></a> Install MQSeries Prerequisites  
  **MQSeries adapter**: Automatically installed with the BizTalk Server installation.  
@@ -268,7 +194,7 @@ This topic lists the steps to prepare your computer by installing and configurin
      MQ version 8 support is included with [Host Integration Server CU3](https://support.microsoft.com/kb/3019572).  
   
 > [!NOTE]
->  If a specific WebSphere MQ version is not listed, like MQ 5.x, then it is not supported with this [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] version.  
+>  If a specific WebSphere MQ version is not listed, like MQ 5.x, then it is not supported with this BizTalk Server version.  
   
  **Additional**  
   
@@ -276,7 +202,7 @@ This topic lists the steps to prepare your computer by installing and configurin
   
 -   If IBM WebSphere MQ is installed on a non-Windows computer, install the **MQSAgent COM+ application** (MQSConfigWiz.exe) and **MQSeries Server for Windows** on the same computer. If IBM WebSphere MQ is installed on a Windows computer, then the **MQSAgent COM+ application** and **MQSeries Server for Windows** program are not used or needed.  
   
-     **MQSConfigWiz.exe** is included in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation files.  
+     **MQSConfigWiz.exe** is included in the BizTalk Server installation files.  
   
      **MQSeries Server for Windows** is not a Microsoft program and must be obtained with your IBM WebSphere MQ program.  
   
@@ -285,7 +211,7 @@ This topic lists the steps to prepare your computer by installing and configurin
 -   IBM WebSphere is not a Microsoft product and is not supported by Microsoft. Microsoft makes no guarantees about the suitability of this program. For more information about IBM WebSphere MQ, including download instructions, see www.ibm.com.  
   
 ##  <a name="BKMK_BAMAlerts"></a> BAM Alerts  
- BAM Alerts with [!INCLUDE[sqlserver2014](../includes/sqlserver2014-md.md)] or [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] uses Database Mail in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. BAM Alerts with [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] uses SQL Notification Services. Before installing or configuring BAM Alerts, you must configure the Notification Services or Database Mail in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
+ BAM Alerts with SQL Server 2012 and newer versions use Database Mail in SQL Server. BAM Alerts with SQL Server 2008 R2 and older versions use SQL Notification Services. Before installing or configuring BAM Alerts, you must configure the Notification Services or Database Mail in SQL Server.  
   
 ###  <a name="BKMK_DBMail"></a> BAM Alerts using SQL Server 2012/2014  
  Configure [SQL Server 2012 Database Mail](http://msdn.microsoft.com/library/hh245116\(v=sql.110\).aspx).  
@@ -294,7 +220,7 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   Database Mail uses an SMTP server to send the BAM Alerts. SMTP Server can be installed locally on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] or on another IIS server. [Appendix D: Create the SMTP Server](../install-and-config-guides/appendix-d-create-the-smtp-server.md) lists the steps to install and configure a SMTP Server.  
+-   Database Mail uses an SMTP server to send the BAM Alerts. SMTP Server can be installed locally on the BizTalk Server or on another IIS server. [Appendix D: Create the SMTP Server](../install-and-config-guides/appendix-d-create-the-smtp-server.md) lists the steps to install and configure a SMTP Server.  
   
 ###  <a name="BKMK_SSNS"></a> BAM Alerts using SQL Server 2008 R2 – Install SQL Server 2005 Notification Services  
   
@@ -322,27 +248,27 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   SQL Notification Services does not need to be configured; only installed on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+-   SQL Notification Services does not need to be configured; only installed on the BizTalk Server.  
   
 ##  <a name="BKMK_WIF"></a> Windows Identity Foundation  
   
 |||  
 |-|-|  
-|[!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] 8.1, [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)], and [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)] R2|Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.|  
-|[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] SP1|Download available at [Windows Identity Foundation](http://www.microsoft.com/download/details.aspx?id=17331) HYPERLINK "http://www.microsoft.com/download/details.aspx?id=17331" .|  
+|Windows 8.1, Windows Server 2012, and Windows Server 2012 R2|Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.|  
+|Windows Vista SP1|Download available at [Windows Identity Foundation](http://www.microsoft.com/download/details.aspx?id=17331) HYPERLINK "http://www.microsoft.com/download/details.aspx?id=17331" .|  
   
  **Additional**  
   
--   Windows Identity Foundation (WIF) is required for the [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] adapter or SharePoint Online when used with [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] Client Side Object Model (CSOM). Specifically:  
+-   Windows Identity Foundation (WIF) is required for the SharePoint adapter or SharePoint Online when used with SharePoint Client Side Object Model (CSOM). Specifically:  
   
     |Installation Option|WIF Required|  
     |-------------------------|------------------|  
-    |[!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] Adapter with CSOM|Yes|  
+    |SharePoint Adapter with CSOM|Yes|  
     |SharePoint Online with CSOM|Yes|  
-    |[!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] Adapter Web Service (deprecated)|No|  
+    |SharePoint Adapter Web Service (deprecated)|No|  
     |No SharePoint|No|  
   
--   [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) provides specific information on the [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] installation options.  
+-   [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) provides specific information on the SharePoint installation options.  
   
 ##  <a name="BKMK_WSS"></a> Install and Configure Microsoft SharePoint  
  Install [SharePoint 2013](http://technet.microsoft.com/library/cc303424.aspx)  
@@ -355,7 +281,7 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   If you are installing SharePoint, you must do so before continuing with the remaining [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] prerequisites.  
+-   If you are installing SharePoint, you must do so before continuing with the remaining BizTalk Server prerequisites.  
   
 -   Installing and configuring SharePoint consists of the following procedures:  
   
@@ -383,12 +309,12 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   Under certain stress conditions (such as clients accessing SQL Server from the same computer), the SQL Server Shared Memory protocol may lower [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance. You can resolve this behavior by disabling the Shared Memory network protocol in SQL Server Network Configuration.  
+-   Under certain stress conditions (such as clients accessing SQL Server from the same computer), the SQL Server Shared Memory protocol may lower BizTalk Server performance. You can resolve this behavior by disabling the Shared Memory network protocol in SQL Server Network Configuration.  
   
 -   ReplaceThisText  
   
 ##  <a name="BKMK_LocalAdmin"></a> Join the Local Administrators Group  
- **[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]** : [Windows Server 2012: How to Add an Account to a Local Administrator Group](http://social.technet.microsoft.com/wiki/contents/articles/13436.windows-server-2012-how-to-add-an-account-to-a-local-administrator-group.aspx)  
+ **Windows Server 2012** : [Windows Server 2012: How to Add an Account to a Local Administrator Group](http://social.technet.microsoft.com/wiki/contents/articles/13436.windows-server-2012-how-to-add-an-account-to-a-local-administrator-group.aspx)  
   
  **Windows 8.1**: To open Local Users and Groups on Windows 8, click the Windows button on the keyboard and type **groups**. In the Search window, click **Settings**. In the Results window, click **Edit local users and groups**. Click **Groups** and then double-click Administrators to add an account.  
   
@@ -396,13 +322,13 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   You must be a member of the local Administrators group to install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+-   You must be a member of the local Administrators group to install and configure BizTalk Server.  
   
 ##  <a name="BKMK_AppLog"></a> Configure the Application Event Log  
   
 1.  Open **Event Viewer**:  
   
-     **[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]** : Click the Windows button on the keyboard and type **Event Viewer**. In the Results window, click **Event Viewer**.  
+     **Windows Server 2012** : Click the Windows button on the keyboard and type **Event Viewer**. In the Results window, click **Event Viewer**.  
   
      **Windows 8.1**: Click the Windows button on the keyboard and type **Event Viewer**. In the Search window, click **Settings**. In the Results window, click **View event logs**.  
   
@@ -422,7 +348,7 @@ This topic lists the steps to prepare your computer by installing and configurin
   
  **Additional**  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup keeps a record of events in the Application Event Log. Depending on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup, the installation fails. Changing the Application Event Log settings prevents this failure.  
+-   BizTalk Server setup keeps a record of events in the Application Event Log. Depending on the BizTalk Server features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during BizTalk Server setup, the installation fails. Changing the Application Event Log settings prevents this failure.  
   
 ## Next  
  [Choose BizTalk Server Features and Components](http://msdn.microsoft.com/library/b8c43fcf-9e5c-48ba-830b-13a5177e30f0)  
