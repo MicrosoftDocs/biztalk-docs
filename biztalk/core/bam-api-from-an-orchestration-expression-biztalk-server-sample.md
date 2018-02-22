@@ -1,5 +1,5 @@
 ---
-title: "BAM API from an Orchestration Expression (BizTalk Server Sample) | Microsoft Docs"
+title: "BAM API from Orchestration Expression sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, examples"
-  - "examples, BAM"
-  - "examples, orchestrations"
-  - "BAM, examples"
 ms.assetid: 341bc333-9bfc-484c-b431-9a71f9188792
 caps.latest.revision: 23
 author: "MandiOhlinger"
@@ -22,7 +17,7 @@ manager: "anneta"
 # BAM API from an Orchestration Expression (BizTalk Server Sample)
 This sample demonstrates how to:  
   
--   Use the BAM API from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration expression.  
+-   Use the BAM API from a BizTalk Server orchestration expression.  
   
 -   Track repeating items inside a message as separate activity instances.  
   
@@ -37,8 +32,8 @@ This sample demonstrates how to:
 |----------|-----------------|  
 |BamDefinition.xls|BAM definition stylesheet.|  
 |BamDefinition.xml|BAM definition.|  
-|BamFromExpression.btproj|[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] tracking file project.|  
-|BamFromExpression.sln|[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] solution.|  
+|BamFromExpression.btproj|Visual Studio tracking file project.|  
+|BamFromExpression.sln|Visual Studio solution.|  
 |Cleanup.bat|Batch file to undeploy the sample.|  
 |InputMessage.xml|Input message.|  
 |Orchestration1.odx|Orchestration.|  
@@ -47,14 +42,11 @@ This sample demonstrates how to:
 |Setup.bat|Batch file to compile and deploy the sample.|  
 |QueryBam.sql|SQL script.|  
   
-## How to Use This Sample  
- Use the following procedures to create the tracking profile, run the sample, and view the results.  
+## Create the tracking profile  
   
-#### To create the tracking profile  
+1.  Open a command prompt as Administrator, and run *\<Samples Path\>*\BAM\BAMFromExpression\Setup.bat. Setup.bat initializes the BAM infrastructure for this sample, and deploys the BAM activity.  
   
-1.  Open a command prompt and run *\<Samples Path\>*\BAM\BAMFromExpression\Setup.bat. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator. Setup.bat initializes the BAM infrastructure for this sample, and deploys the BAM activity.  
-  
-2.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Tracking Profile Editor**. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], right-click **Tracking Profile Editor** and then click **Run as administrator**.  
+2.  From your **Programs** > **Microsoft BizTalk Server**, right-click **Tracking Profile Editor**, and **Run as administrator**.
   
 3.  In the left pane of the **Tracking Profile Editor** window, click **Click here to import a BAM Activity Definition**.  
   
@@ -90,17 +82,17 @@ This sample demonstrates how to:
   
 15. On the **Tools** menu, click **Apply Tracking Profile**.  
   
-#### To build and initialize this sample  
+## Build and initialize this sample  
   
--   Deploy the BamFromExpression.btt tracking profile. For more information, see [How to Deploy Tracking Profiles with the Tracking Profiles Management Utility](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md).  
+Deploy the BamFromExpression.btt tracking profile. See [How to Deploy Tracking Profiles with the Tracking Profiles Management Utility](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md).  
   
-#### To run this sample  
+## Run this sample  
   
--   Copy the file *\<Samples Path\>*\BamFromExpression\InputMessage.xml to *\<Samples Path\>*\BamFromExpression\Input.  
+Copy the file *\<Samples Path\>*\BamFromExpression\InputMessage.xml to *\<Samples Path\>*\BamFromExpression\Input.  
   
-     In about 10 seconds the output message will appear in *\<Samples Path\>*\BamFromExpression\Output.  
+In about 10 seconds the output message will appear in *\<Samples Path\>*\BamFromExpression\Output.  
   
-#### To view the BAM data  
+## View the BAM data  
   
 1.  Open SQL Server Management Studio.  
   
@@ -118,9 +110,9 @@ This sample demonstrates how to:
   
      The contents of the bam_FromExpressionPoItem_CompletedRelationships table are displayed in the right pane. Each row in the table represents a relationship between a FromExpressionPoItem activity and a FromExpressionPo activity. The value in the **ActivityID** column refers to the activity ID of the FromExpressionPoItem activity. The value in the **ReferenceData** column refers to the activity ID of the FromExpressionPo activity. In this case, the two records indicate that the Flash MC and Infrared Decoder items are associated with the purchase order for $345.  
   
-#### To re-run the sample  
+## Re-run the sample  
   
-1.  Open a command prompt and run *\<Samples Path\>*\BAM\BamFromExpression\Cleanup.bat to remove the tracking profile and other BAM infrastructure. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator.  
+1.  Open a command prompt as Administrator, and run *\<Samples Path\>*\BAM\BamFromExpression\Cleanup.bat to remove the tracking profile and other BAM infrastructure. 
   
 2.  Run *\<Samples Path\>*\BAM\BamFromExpression\Setup.bat to compile the sample and deploy it.  
   

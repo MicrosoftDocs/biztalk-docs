@@ -1,5 +1,5 @@
 ---
-title: "BAM API (BizTalk Server Sample) | Microsoft Docs"
+title: "BAM API sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, APIs"
-  - "examples, BAM"
-  - "BAM, examples"
-  - "APIs, BAM"
 ms.assetid: 32a925f2-c7f4-4111-9c59-8865f15c6a89
 caps.latest.revision: 20
 author: "MandiOhlinger"
@@ -90,7 +85,7 @@ The BAM API sample illustrates how to incorporate calls to the BAM API into an a
   
  The **Global** class defines constants that are used by the sample application, such as the number of threads to create and the percentage of purchase orders to reject.  
   
- In addition to the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] solution, the sample also contains a Microsoft [!INCLUDE[btsExcel](../includes/btsexcel-md.md)] file that defines the activities.  
+ In addition to the Visual Studio solution, the sample also contains a Microsoft Excel file that defines the activities.  
   
 ## Where to Find This Sample  
  You can find this sample at *\<Samples Path\>*\BAM\BamApiSample.  
@@ -115,14 +110,11 @@ The BAM API sample illustrates how to incorporate calls to the BAM API into an a
 |Shipment_config.xml|Shipment interceptor configuration.|  
 |Shipment_interceptor.bin|Serialized shipment interceptor.|  
   
-## How to Use This Sample  
- Use the following procedure to run the BAM API sample and view the results.  
+## Run the BAM API sample  
   
-#### To run the BAM API sample  
+1.  Open a command prompt as Administrator, and run *\<Samples Path\>*\BAM\ BamApiSample\setup.bat.  
   
-1.  Open a command prompt and run *\<Samples Path\>*\BAM\ BamApiSample\setup.bat. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], open the command prompt as administrator.  
-  
-2.  Start [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and open the *\<Samples Path\>*\BAM\ BamApiSample\BamApiSample.sln solution. If you are using [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], start [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] as administrator.  
+2.  Start Visual Studio as Administrator, and open the *\<Samples Path\>*\BAM\ BamApiSample\BamApiSample.sln solution. 
   
     > [!IMPORTANT]
     >  The line `//#define Interceptor` in the BamApiSample.cs file must be commented out. Do not remove the “//” from this line. The BAM API sample uses only the code that is not inside an `#if Interceptor` preprocessor directive.  
@@ -153,7 +145,7 @@ The BAM API sample illustrates how to incorporate calls to the BAM API into an a
   
 5.  After a minute or so, press CTRL+C or close the Command Prompt window to stop the BamApiSample program.  
   
-#### To view the results of running the BAM API sample  
+## View the results
   
 1.  Open SQL Server Management Studio.  
   
