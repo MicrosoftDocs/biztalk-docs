@@ -121,6 +121,6 @@ Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], you can save mu
   
 -   [How to Open the BizTalk Server Administration Console](../core/how-to-open-the-biztalk-server-administration-console.md)  
   
--   [Configuring Tracking Using the BizTalk Server Administration Console](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)  
+-   [Configuring Tracking Using the BizTalk Server Administration Console](http://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef)  
   
 -   [Using the Group Hub Page](../core/using-the-group-hub-page.md)
