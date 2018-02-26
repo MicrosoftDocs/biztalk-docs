@@ -1,7 +1,8 @@
 ---
 title: "SFTP Adapter | Microsoft Docs"
+description: Create or configure a receive location and send port using the SFTP adapter in BizTalk Server, including FAQs using the SFTP adapter
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "02/26/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -18,17 +19,17 @@ manager: "anneta"
 BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol. This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server. It also includes common questions and answers.
 
 ## Prerequisites
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime. Be sure to check the supported WinSCP versions in [Hardware and Software Requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)
+**Starting with BizTalk Server 2016**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the BizTalk Server runtime. Be sure to check the supported WinSCP versions in [Hardware and Software Requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)
 
-[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and previous versions do not support WinSCP.
+BizTalk Server 2013 R2 and previous versions do not support WinSCP.
   
 ## Configure the receive location
   
 > [!NOTE]
->  Before creating the receive location, you must have already added a one-way receive port. See [How to Create a Receive Port](../core/how-to-create-a-receive-port.md) for the specific steps.  
+>  Before creating the receive location, you must have already added a one-way receive port. See [Create a Receive Port](../core/how-to-create-a-receive-port.md) for the specific steps.  
   
  
-1.  In the BizTalk Server Administration console, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Applications**, and then expand the application under you want to create a receive location.  
+1.  In the BizTalk Server Administration console, expand BizTalk Server, expand **BizTalk Group**, expand **Applications**, and then expand the application under you want to create a receive location.  
   
 2.  In the left pane, click the **Receive Ports** node and in the right pane, right-click the receive port with which you want to associate the new receive location, and then click **Properties**.  
   
@@ -43,7 +44,7 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
     |Use this|To do this|  
     |--------------|----------------|  
     |Connection Limit|Specify the maximum number of concurrent connections that can be opened to the server.<br /><br /> This setting is per server and per receive location. Consider the following scenarios:<br /><br /> - There are two receive locations that have the same configuration property values, including the ConnectionLimit property set to the same value. For example, the property is set to 6. In this situation, there is one connection pool (with 6 available connections) that is used by both receive locations.<br /><br /> - There are two receive locations configured with same configuration values, and have the ConnectionLimit property set to different values. For example, ReceiveLocation1 property is set to 6 and ReceiveLocation2 property is set to 5. In this situation, each receive location has its own connection pool with its own available connections. ReceiveLocation1 connection pool has 6 available connections. ReceiveLocation2 connection pool has 5 available connections.|  
-    |Log | New starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
+    |Log | Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
   
      **Polling**  
   
@@ -52,7 +53,7 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
     |Polling Interval|Specify the intervals at which the adapter polls the server. To poll continuously, set this value to zero.<br /><br /> **Default value:** 5|  
     |Unit|Specifies the unit in which the polling interval is specified, for example, Seconds, Minutes, Hours, or Days.<br /><br /> **Default value:** Seconds|  
   
-     **Proxy** (New starting with [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)])  
+     **Proxy** (Available starting with BizTalk Server 2013 R2)  
   
     |Use this|To do this|  
     |--------------|----------------|  
@@ -68,7 +69,7 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
     |--------------|----------------|  
     |Accept Any SSH Server Host Key|When **True**, the receive location accepts any SSH public host key from the server. When **False**, the receive location uses the fingerprint of the server for authentication. You enter the fingerprint in the **SSHServerHostKeyFingerPrint** property.<br /><br /> **Default value:** False|  
     |Client Authentication Mode|Select the authentication method that the receive location uses for authenticating the client to the SSH Server. If set to **Password**, you must enter the value in the **Password** property. If set to **PublicKeyAuthentication**, you must enter the private key of the user in the **PrivateKey** property. If set to **MultiFactorAuthentication** you must enter **Username** with its **Password** and **PrivateKey**. Additionally, if the private key is protected by a password, enter the password as well for the **PrivateKeyPassword** property.<br /><br /> **Default value:** Password|  
-    |Encryption Cipher |New starting with [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]. <br/><br/>Enter the kind of encryption cipher.<br/><br/>[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] options: Auto, AES, and TripleDES<br/><br/>[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] options: Auto, AES, Arcfour, Blowfish, TripleDES, and DES|  
+    |Encryption Cipher |Available starting with BizTalk Server 2013 R2. <br/><br/>Enter the kind of encryption cipher.<br/><br/>BizTalk Server 2013 R2 options: Auto, AES, and TripleDES<br/><br/>BizTalk Server 2016 options: Auto, AES, Arcfour, Blowfish, TripleDES, and DES|  
     |Password|Specify the SFTP user password if you set the **ClientAuthenticationMode** to **Password**.|  
     |Private Key|Specify the private key for the SFTP user if you set the **ClientAuthenticationMode** to **PublicKeyAuthentication**.<br /><br /> **Note:** The private key file must be the specified .ppk file.|  
     |Private Key Password|Specify a private key password, if required for the key specified in the **PrivateKey** property.|  
@@ -86,11 +87,11 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
   
 6.  Click **OK**.  
   
-7.  Enter the appropriate values in the **Receive Location Properties** dialog box to complete the configuration of the receive location and click **OK** to save settings. For information about the **Receive Locations Properties** dialog box, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).
+7.  Enter the appropriate values in the **Receive Location Properties** dialog box to complete the configuration of the receive location and click **OK** to save settings. For information about the **Receive Locations Properties** dialog box, see [Create a Receive Location](../core/how-to-create-a-receive-location.md).
  
 ## Configure the send port  
   
-1.  In the BizTalk Server Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **SFTP** for the **Type** option in the **Transport** section of the **General** tab.  
+1.  In the BizTalk Server Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **SFTP** for the **Type** option in the **Transport** section of the **General** tab.  
   
 2.  On the **General** tab, in the **Transport** section, click the **Configure** button.  
   
@@ -101,10 +102,10 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
     |Use this|To do this|  
     |--------------|----------------|  
     |Connection Limit|Specify the maximum number of concurrent connections that can be opened to the server.|  
-    |Log | New starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
-    |Temporary Folder | New starting with [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]. <br/><br/>A temporary folder on the SFTP server to upload large files to, before they can be atomically moved to the required location on the same server.|  
+    |Log | Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
+    |Temporary Folder | Available starting with BizTalk Server 2013 R2. <br/><br/>A temporary folder on the SFTP server to upload large files to, before they can be atomically moved to the required location on the same server.|  
     
-    **Proxy** (new starting with [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)])
+    **Proxy** (available starting with BizTalk Server 2013 R2)
     
     |Use this|To do this|  
     |--------------|----------------|  
@@ -120,7 +121,7 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
     |--------------|----------------|  
     |Access Any SSH Server Host Key|When **True**, the send port accepts any SSH public host key from the server. When **False**, the port matches the host key with the key specified in the **SSHServerHostKey** property.<br /><br /> **Default value:** False|  
     |Client Authentication Mode|Specifies the authentication method that the send port uses for authenticating the client to the SSH Server. If set to **Password**, you must enter the value in the **Password** property. If set to **PublicKeyAuthentication**, you must enter the private key of the user in the **PrivateKey** property. If set to **MultiFactorAuthentication** you must provide **Username** with its **Password** and **PrivateKey**. Additionally, if the private key is protected by a password, enter the password as well for the **PrivateKeyPassword** property.<br /><br /> **Default value:** Password|  
-    |Encryption Cipher | New starting with [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)].<br/><br/>Enter the kind of encryption cipher.<br/><br/>[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] options: Auto, AES, and TripleDES<br/><br/>[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] options: Auto, AES, Arcfour, Blowfish, TripleDES, and DES|  
+    |Encryption Cipher | Available starting with BizTalk Server 2013 R2.<br/><br/>Enter the kind of encryption cipher.<br/><br/>BizTalk Server 2013 R2 options: Auto, AES, and TripleDES<br/><br/>BizTalk Server 2016 options: Auto, AES, Arcfour, Blowfish, TripleDES, and DES|  
     |Password|Specify the SFTP user password if you set the **ClientAuthenticationMode** to **Password**.|  
     |Private Key|Specify the private key for the SFTP user if you set the **ClientAuthenticationMode** to **PublicKeyAuthentication**.|  
     |Private Key Password|Specify a private key password, if required for the key specified in the **PrivateKey** property.|  
@@ -139,11 +140,34 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
   
 4.  Click **OK** and **OK** again to save settings.  
   
+## Use a newer WinSCP version
+
+To use a newer version of WinSCP with BizTalk Server, add an assembly redirection so BizTalk knows which assembly to load. The redirection is configured in the BizTalk Server configuration files: BTSNTSVC.exe.config (32-bit host instances) and BTSNTSVC64.exe.config (64-bit host instances).
+
+The following includes sample configuration syntax. Be sure to replace `%NEWVERSION%` with your version:
+
+```
+<configuration>
+ <runtime>
+  <assemblyBinding>
+   <dependentAssembly>
+    <assemblyIdentity name="WinSCPnet" publicKeyToken="2271ec4a3c56d0bf" culture="neutral" />
+    <bindingRedirect oldVersion="1.2.10.6257" newVersion="%NEWVERSION%"/>
+   </dependentAssembly>
+  </assemblyBinding>
+ </runtime>
+</configuration>
+```
+
+When finished, your configuration looks similar to the following:  
+
+![Assembly redirect in the configuration file.](media/AssemblyRedirect.png)
+
 ## Frequently asked questions  
   
 |Question|Answer|  
 |--------------|------------|  
-|What SFTP servers are supported?|See [Supported SFTP Servers](http://social.technet.microsoft.com/wiki/contents/articles/29940.biztalk-serverbiztalk-services-supported-sftp-servers.aspx). Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], the SFTP adapter uses WinSCP to connect to SFTP. As a result, SFTP servers that support WinSCP should work.|  
+|What SFTP servers are supported?|See [Supported SFTP Servers](http://social.technet.microsoft.com/wiki/contents/articles/29940.biztalk-serverbiztalk-services-supported-sftp-servers.aspx). Starting with BizTalk Server 2016, the SFTP adapter uses WinSCP to connect to SFTP. As a result, SFTP servers that support WinSCP should work.|  
 |Can the SFTP Adapter be used with the mutual authentication method (public key and password)?|- Starting with **BizTalk Server 2013 R2**, yes. If set to **MultiFactorAuthentication** you must provide **Username** with its **Password** and **PrivateKey**. Additionally, if the private key is protected by a password, specify the password as well for the **PrivateKeyPassword** property.<br /><br /> - For **BizTalk Server 2013**, either **Password** or **PublicKeyAuthentication** can be used. **MultiFactorAuthentication** is not supported in the SFTP adapter shipped with BizTalk Server 2013.|  
 |What private key formats are supported? Can the OpenSSH private key format be used?|The SFTP adapter supports only the PuTTY private key file format. PuTTYgen can be used to convert from OpenSSH to the .ppk format.|  
 |For SSHServerHostKeyFingerPrint, which fingerprint algorithm and format should be used?|You should use the MD5 fingerprint of the server’s key in the format: `ssh-rsa 2048 90:e4:9b:67:d9:22:a7:5f:6f:33:db:6a:b1:23:96:12`.|  
