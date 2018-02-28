@@ -31,9 +31,3 @@ Transaction Integrator is administered through the Transaction Integrator (TI) M
 -   **Host-Initiated Processing**. You can use this node to view the major elements that are used in a host-initiated processing (HIP) environment.  
   
 -   **Windows-Initiated Processing**. You can use this node to view the major elements that are used in a Windows-initiated processing (WIP) environment.  
-  
-## See Also  
- [TI Admin](../core/ti-admin1.md)   
- [Transaction Integrator (mode) Node](../core/transaction-integrator-mode-node2.md)   
- [Host-Initiated Processing Node](../core/host-initiated-processing-node2.md)   
- [Windows-Initiated Processing Node](../core/windows-initiated-processing-node2.md)
