@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using IPv6 Addressing with BizTalk Adapters
-[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters support the use of IPv6 addressing when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on the [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] operating systems. This topic describes the nomenclature that should be used to specify an IPv6 address for a UNC path, the nomenclature for specifying a literal IPv6 address, and the use of IPv6 scope identifiers with the HTTP and SOAP adapters.  
+BizTalk Server adapters support the use of IPv6 addressing. This topic describes the nomenclature that should be used to specify an IPv6 address for a UNC path, the nomenclature for specifying a literal IPv6 address, and the use of IPv6 scope identifiers with the HTTP and SOAP adapters.  
   
 ## IPv6 Address Nomenclature Used for a UNC Path  
  Follow these steps when specifying a literal IPv6 address in a UNC path:  
@@ -33,7 +33,7 @@ manager: "anneta"
  Where \<*sharename*\> is the name of the file share on the target computer.  
   
 > [!NOTE]
->  Ensure that the user accounts for the host instances that the File send and receive handlers are running in have appropriate permissions to the file share. For more information about the folder permissions required to receive files with the File adapter see [How to Configure a File Receive Handler](http://msdn.microsoft.com/library/68333bb6-d79b-4a82-9742-230f62d535c4). For more information about the folder permissions required when sending files with the File adapter see [Known Issues with the File Adapter](../core/known-issues-with-the-file-adapter.md). For information about the file systems that are supported for use with the File adapter, see [http://support.microsoft.com/kb/815070](http://support.microsoft.com/kb/815070).  
+>  Ensure that the user accounts for the host instances that the File send and receive handlers are running in have appropriate permissions to the file share. For more information about the folder permissions required to receive files with the File adapter see [Configure a File Receive Handler](../core/configure-the-file-adapter.md). For more information about the folder permissions required when sending files with the File adapter see [Known Issues with the File Adapter](../core/known-issues-with-the-file-adapter.md). For information about the file systems that are supported for use with the File adapter, see [http://support.microsoft.com/kb/815070](http://support.microsoft.com/kb/815070).  
   
 ## Using IPv6 Scope Identifiers with the HTTP Adapter and the SOAP Send Adapter  
  The HTTP send and receive adapter and the SOAP send adapter require that if a scope identifier is used in an IPv6 address, the scope identifier must be escaped with the escape code **%25**. For example, **fe80::550c:489f:e65e:aef3%8** is a valid IPv6 address containing a scope identifier (%8). To use this IPv6 address with the HTTP send and receive adapters or the SOAP send adapter, the scope identifier must be escaped as follows:  
@@ -59,7 +59,7 @@ fe80::550c:489f:e65e:aef3%258
  The table below summarizes when the use of a literal IPv6 address requires that the IP address is enclosed in square brackets "[", "]" and when a scope identifier that is used in an IPv6 address must be escaped:  
   
 |Adapter|Requires that literal IPv6 address is enclosed in square brackets?|Requires that scope identifier is escaped?|  
-|-------------|------------------------------------------------------------------------|------------------------------------------------|  
+|---|---|---|  
 |POP3 receive|No|No|  
 |SMTP send|No|No|  
 |SQL send and receive|No|No|  

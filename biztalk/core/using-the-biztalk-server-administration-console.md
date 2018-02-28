@@ -8,11 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Administration Console [BizTalk Server], how to"
-  - "Administration Console [BizTalk Server], about Administration Console"
-  - "artifacts, list"
-  - "groups, Hub"
 ms.assetid: af00d9de-0f94-407b-b6f4-4da63a0867a0
 caps.latest.revision: 42
 author: "MandiOhlinger"
@@ -117,10 +112,8 @@ Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], you can save mu
 3. Select **Run Query**. In the query results, use the CTRL or SHIFT keys to select multiple suspended instances simultaneously. Right-click, and select **Safe to File**. 
 4. Choose your folder to save the files. When saved, an XML file is created for every message.
 
-## In This Section  
+## Next steps
   
--   [How to Open the BizTalk Server Administration Console](../core/how-to-open-the-biztalk-server-administration-console.md)  
-  
--   [Configuring Tracking Using the BizTalk Server Administration Console](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)  
+-   [Open the BizTalk Server Administration Console](../core/how-to-open-the-biztalk-server-administration-console.md)  
   
 -   [Using the Group Hub Page](../core/using-the-group-hub-page.md)

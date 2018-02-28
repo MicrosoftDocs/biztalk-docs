@@ -1,5 +1,6 @@
 ---
-title: "How to Add a Binding File to an Application2 | Microsoft Docs"
+title: "Add a Binding File to an Application | Microsoft Docs"
+description: Add a binding file using BizTalk Server Administration or use the command prompt in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,28 +9,26 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [applications], binding files"
-  - "applications, binding files"
-  - "binding files, applications"
 ms.assetid: 1543ee5f-9ae4-4683-b6fe-ee84028c381d
 caps.latest.revision: 22
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Binding File to an Application
-This topic describes how to use the BizTalk Server Administration console or the command line to add a binding file to a BizTalk application. You might want to do this to make application or assembly deployment easier, as described in [Binding Files and Application Deployment](../core/binding-files-and-application-deployment.md).  
+# Add a Binding File to an Application
+
+## Overview
+Use the BizTalk Server Administration console or the command line to add a binding file to a BizTalk application. You might want to do this to make application or assembly deployment easier, as described in [Binding Files and Application Deployment](../core/binding-files-and-application-deployment.md).  
   
  You can export bindings into an .xml file from a BizTalk application for an assembly, application, or group, as described in [Exporting Bindings](../core/exporting-bindings6.md), and then use one of the procedures in this topic to add the binding file to an application.  
   
  When you do this, the binding file is added to the BizTalk Management database and displays in the BizTalk Server Administration console, in the Resources folder of the application. Unlike importing a binding file, adding a binding file does not immediately apply its bindings. Instead, the bindings are applied when the application is imported into another BizTalk group.  
   
 > [!IMPORTANT]
->  For security reasons, when you export bindings, BizTalk Server removes the passwords for the bindings from the file. After importing the bindings, you must reconfigure passwords for send ports and receive locations before they will function. You configure passwords in the Transport Properties dialog box of the BizTalk Server Administration console for the send port or receive location. For instructions, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). See also [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).  
+>  For security reasons, when you export bindings, BizTalk Server removes the passwords for the bindings from the file. After importing the bindings, you must reconfigure passwords for send ports and receive locations before they will function. You configure passwords in the Transport Properties dialog box of the BizTalk Server Administration console for the send port or receive location. See [Create a Send Port](../core/how-to-create-a-send-port2.md) or [Create a Receive Location](../core/how-to-create-a-receive-location.md).  
   
 > [!NOTE]
->  When you use a binding file that was generated in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)], be aware that the trust level of the host is not stored in the binding file. When the bindings are applied during binding import or application import, artifacts are bound to hosts based on the host name only. You should verify that the artifacts have been bound to the correct host and that the trust level is appropriate.  
+>  When you use a binding file, you should verify that the artifacts have been bound to the correct host, and that the trust level is appropriate.  
   
  When you add a binding file to an application, you can specify a value for the target deployment environment with a string that represents the environment, such as Test or Production. You can use any string for this value. Then, when you import the application, you can select which binding file to apply by providing the value that was specified for its target environment. When you do this, the bindings are applied from the binding file. Any existing bindings in the application that have the same name as bindings in the file are automatically overwritten.  
   
@@ -41,39 +40,35 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 3.  Bindings that have been explicitly added, and that have an associated target deployment environment that matches the deployment environment selected for application import. Bindings in this set are applied in no specific order.  
   
- For more information about importing applications and applying bindings, see [How to Import a BizTalk Application](../core/how-to-import-a-biztalk-application.md).  
+ For more information about importing applications and applying bindings, see [Import a BizTalk Application](../core/how-to-import-a-biztalk-application.md).  
   
 ## Prerequisites  
- To perform the procedures in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+Sign in with an account that is a member of the BizTalk Server Administrators group. [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md) provides more details.
   
-## To add a binding file to an application  
+## Add a binding file using BizTalk Administration  
   
-#### Using the BizTalk Server Administration console  
+1.  Open **BizTalk Server Administration** (in the Start menu).
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+2.  Expand BizTalk Server Administration, expand the BizTalk group, expand Applications, and right-click the application to which you want to add a binding file.  
   
-2.  In the console tree, expand BizTalk Server Administration and the BizTalk group containing the application to which you want to add a binding file.  
+3.  Point to **Add**, and then click **Resources**.  
   
-3.  Expand Applications, and right-click the application to which you want to add a binding file.  
+4.  Click **Add**, select the file to add, and then click **Open**.  
   
-4.  Point to **Add**, and then click **Resources**.  
+5.  To overwrite an existing binding file in this application that has the same file name, select the **Overwrite all** check box. If another file exists with the same name, and you do not select this check box, the add operation will fail.  
   
-5.  Click **Add**, select the file to add, and then click **Open**.  
+6.  In the **File type** drop-down list, select **System.BizTalk:BizTalkBinding**.  
   
-6.  To overwrite an existing binding file in this application that has the same file name, select the **Overwrite all** check box. If another file exists with the same name, and you do not select this check box, the add operation will fail.  
-  
-7.  In the **File type** drop-down list, select **System.BizTalk:BizTalkBinding**.  
-  
-8.  In **Target Environment**, type a string to represent the target deployment environment where you want the bindings in this file to be applied, such as Test, and click **OK**.  
+7.  In **Target Environment**, type a string to represent the target deployment environment where you want the bindings in this file to be applied, such as Test, and click **OK**.  
   
     > [!IMPORTANT]
     >  If you leave this field blank, the bindings in this file will always be applied upon application import.  
   
      The binding file is added, and it displays in the Resources folder of the application.  
   
-#### Using the command line  
+## Add a binding file using the command line  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1.  Open a command prompt (**Start** menu > enter `cmd` > select **Command Prompt**).  
   
 2.  Type the following command, substituting the appropriate values, as described in the following table:  
   

@@ -92,7 +92,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
      The SSOApplication editor is ported from a previous release with minor changes. You can specify an affiliated application directly in the property grid, or use the editor to pick one created already.  
   
 ##  <a name="connStr"></a> Connection String Settings and Mappings  
- The following tables display the supported properties that define the host environment and programming model. Asterisks indicate required properties. For more detailed information about the properties, see [TI Manager Properties](../core/ti-manager-properties2.md).  
+ The following tables display the supported properties that define the host environment and programming model. Asterisks indicate required properties. 
   
  The default values are set by the RE objects themselves, and limited validation is performed.  
   

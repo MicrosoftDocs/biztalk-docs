@@ -81,7 +81,7 @@ Once the data is sent to Application Insights, you can use the analytics tools w
 4. Go back to your Application Insights resource, and select **Analytics**. In **Usage**, select **Run**. A sample query is executed, and the results are displayed in a chart.  
 
 > [!TIP]
-> Azure Application Insights is a powerful tool. There are resources to help you write queries in Application Insights at [Analytics in Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-analytics), and even to get started at [What is Application Insights?](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview).
+> Azure Application Insights is a powerful tool. There are resources to help you write queries in Application Insights at [Analytics in Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-analytics), and even to get started at [What is Application Insights?](https://docs.microsoft.com/azure/application-insights/app-insights-overview).
 
 #### Use Event Hubs
 Once the data is sent to Event Hubs, there are a couple of ways to see the data. Many Event Hubs users are using Event Hubs Capture to load streaming data into Azure. The intent is for you to focus on data processing, rather than on data capture. [Event Hubs Capture](https://docs.microsoft.com/azure/event-hubs/event-hubs-capture-overview) explains how it works, and how to set it up.

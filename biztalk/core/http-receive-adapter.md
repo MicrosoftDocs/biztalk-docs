@@ -8,24 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "certificates, HTTP adapters"
-  - "HTTP adapters, client certificates"
-  - "HTTP adapters, POST requests"
-  - "HTTP adapters, GET requests"
-  - "HTTP adapters, batching"
-  - "HTTP adapters, suspending failed requests"
-  - "HTTP adapters, chunked encoding"
-  - "messages, batching"
-  - "HTTP GET requests, about HTTP GET requests"
-  - "HTTP GET requests, process flow"
-  - "batching, messages"
-  - "HTTP adapters, process flow"
-  - "HTTP POST requests"
-  - "HTTP adapters, status codes"
-  - "chuncked encoding, receive adapters"
-  - "HTTP GET requests"
-  - "batching, HTTP adapters"
 ms.assetid: 9008833c-5a02-4fb4-a43e-09ca28a21eff
 caps.latest.revision: 21
 author: "MandiOhlinger"
@@ -106,9 +88,9 @@ The receive location for the HTTP receive adapter is a distinct URL configured t
  The HTTP receive adapter submits messages to the server in batches. The size of the batch used to submit messages to the server can be configured on the HTTP adapter receive handler.  
   
 ## HTTP Receive Adapter Support for Suspending Failed Requests  
- The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP receive adapter has a configuration setting, **Suspend Failed Requests**, to control what happens with an HTTP request if it fails inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure. The setting has two possible values:  
+ The BizTalk Server HTTP receive adapter has a configuration setting, **Suspend Failed Requests**, to control what happens with an HTTP request if it fails inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure. The setting has two possible values:  
   
--   **False.** This is the default setting. The HTTP receive adapter discards messages that fail inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure. Additionally, an error status code 401 or 500 is sent to the client. This is the same behavior as the HTTP receive adapter in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)].  
+-   **False.** This is the default setting. The HTTP receive adapter discards messages that fail inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure. Additionally, an error status code 401 or 500 is sent to the client. 
   
 -   **True.** The HTTP receive adapter suspends messages that fail inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure. For one-way receive ports an **Accepted** status code 202 is sent to the client. For two-way receive ports an **Error** status code 500 is sent to the client.  
   

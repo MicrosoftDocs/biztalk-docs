@@ -1,5 +1,5 @@
 ---
-title: "Publishing Service Metadata for the WCF Receive Adapters | Microsoft Docs"
+title: "Publish Service Metadata for WCF Receive Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -8,9 +8,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "publishing, WCF services"
-  - "WCF services, publishing"
 ms.assetid: 4df09e8f-e0c9-41c5-bd71-13bb0e96cd97
 caps.latest.revision: 15
 author: "MandiOhlinger"
@@ -18,18 +15,18 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Publishing Service Metadata for the WCF Receive Adapters
-You can use the BizTalk WCF Service Publishing Wizard to create WCF services for publishing service metadata for existing WCF receive locations. To generate client service model code from the published metadata documents you can use the Service Model Metadata Utility tool (SvcUtil.exe) included in the [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] Software Development Kit (SDK) for [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] and [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Runtime Components.  
+You can use the BizTalk WCF Service Publishing Wizard to create WCF services for publishing service metadata for existing WCF receive locations. To generate client service model code from the published metadata documents you can use the Service Model Metadata Utility tool (SvcUtil.exe) included in the Windows Software Development Kit (SDK) and .NET Framework Runtime Components.  
   
 > [!NOTE]
->  Before you publish service metadata for the WCF adapters, you must create the WCF receive locations by using the BizTalk Administration console or the BTSTask command-line tool included with [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about how to create a WCF receive location, see the appropriate topic for each WCF adapter in [WCF Adapters](../core/wcf-adapters.md).  
+>  Before you publish service metadata for the WCF adapters, you must create the WCF receive locations by using the BizTalk Administration console or the BTSTask command-line tool included with BizTalk Server. For more information about how to create a WCF receive location, see the appropriate topic for each WCF adapter in [WCF Adapters](../core/wcf-adapters.md).  
   
- **Versions of IIS**  
+## IIS versions
   
- The WCF service that publishes service metadata can be running on the following versions of Internet Information Services (IIS) on the following operating systems:  
+ The WCF service that publishes service metadata can be running on the the IIS version included with the operating system.
   
--   **IIS 7.0/7.5 on Windows Vista, Windows Server 2008 SP2, and Windows Server 2008 R2.** IIS 7.0/7.5 provide the same advanced process model as IIS 6.0. The published BizTalk WCF services must run in ASP.NET Compatibility Mode of IIS 7.0/7.5. The service metadata published by Web applications in IIS 7.0/7.5 for the WCF receive adapters can be accessed over the HTTP transport.  
+-   **IIS** provides the advanced process model. The published BizTalk WCF services must run in ASP.NET Compatibility Mode. The service metadata published by Web applications in IIS for the WCF receive adapters can be accessed over the HTTP transport.  
   
- **Publishing service metadata for the WCF receive locations**  
+## Publish service metadata for the WCF receive locations
   
  To publish service metadata for the WCF receive locations, you must use the BizTalk WCF Service Publishing Wizard to create a Web application to host WCF services that provide the service metadata. This allows a receive location to be called as if it were a WCF service.  The BizTalk WCF Service Publishing Wizard generates the following files in the root folder of the created Web application:  
   
@@ -40,15 +37,15 @@ You can use the BizTalk WCF Service Publishing Wizard to create WCF services for
 |ServiceDescription.xml|\|XML file that describes the published WCF service contracts including the message types.|  
 |BizTalk schemas (.xsd files)|\App_Data|XML schemas defining the structure of XML instance messages, which are used in the WCF receive location.|  
 |SchemaIndex.xml|\App_Data|XML file that indicates the XML schema files used in the WCF receive location.|  
-|Serialization.xsd|\App_Data|XML schema exported by [DataContractSerializer](http://go.microsoft.com/fwlink/?LinkId=81722) for the types, elements, and attributes from the namespace, http://schemas.microsoft.com/2003/10/Serialization/.|  
+|Serialization.xsd|\App_Data|XML schema exported by [DataContractSerializer](https://msdn.microsoft.com/library/system.runtime.serialization.datacontractserializer.aspx) for the types, elements, and attributes from the namespace, http://schemas.microsoft.com/2003/10/Serialization/.|  
 |BindingInfo.xml|\App_Data\Temp|BizTalk binding file that can be imported by the development command-line tool or wizard to configure the receive locations. The published WCF services do not use this file and the Temp folder at run time.|  
 |WcfServiceDescription.xml|\App_Data\Temp|XML file that summarizes the settings that you used with the BizTalk WCF Service Publishing Wizard to create this Web application. The published WCF services do not use this file and the Temp folder at run time.|  
   
-## In This Section  
+## Next steps
   
--   [How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location for Content-Based Routing](../core/publish-service-metadata-for-a-wcf-receive-location-for-content-based-routing.md)  
+-   [Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location for Content-Based Routing](../core/publish-service-metadata-for-a-wcf-receive-location-for-content-based-routing.md)  
   
--   [How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location Bound to an Orchestration Port](../core/publish-receive-location-service-metadata-biztalk-wcf-service-publishing-wizard.md)  
+-   [Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location Bound to an Orchestration Port](../core/publish-receive-location-service-metadata-biztalk-wcf-service-publishing-wizard.md)  
   
 ## See Also  
  [Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter](../core/walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter.md)
