@@ -99,7 +99,6 @@ AS/400 model flow
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   
- [Configure Host Environment and Programming Model Wizard Page](./configure-host-environment-and-programming-model-wizard-page2.md)   
  [Converting Data Types from RPG to Automation](./converting-data-types-from-rpg-to-automation1.md)   
  [Converting Data Types from Automation to RPG](./converting-data-types-from-automation-to-rpg1.md)   
  [AS/400 Security](./as-400-security1.md)   

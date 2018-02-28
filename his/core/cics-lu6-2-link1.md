@@ -90,7 +90,6 @@ Transaction Integrator sending and receiving parameters with DPL information fro
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   
- [Configure Host Environment and Programming Model Wizard Page](./configure-host-environment-and-programming-model-wizard-page2.md)   
  [Converting Data Types from Automation to OS/390 COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
  [Converting Data Types from OS/390 COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
  [CICS Components](../core/cics-components1.md)   

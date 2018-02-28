@@ -1,5 +1,5 @@
 ---
-title: "How to Run TI Over TCP-IP2 | Microsoft Docs"
+title: "Run TI Over TCP-IP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -13,12 +13,14 @@ author: "gplarsen"
 ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
-# How to Run TI Over TCP/IP
+# Run TI Over TCP/IP
+
+## Overview
 You can install and run Transaction Integrator (TI) over TCP/IP without installing or using any of the SNA services of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
  Use the following procedure to run a TI application over TCP/IP.  
   
-### To run a TI application over TCP/IP  
+## Run a TI application over TCP/IP  
   
 1.  Configure the mainframe (CICS or IMS) for TCP/IP, and establish a connection with your Windows-based [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Server computer.  
   
@@ -27,8 +29,6 @@ You can install and run Transaction Integrator (TI) over TCP/IP without installi
     -   [Configuring CICS for TCP/IP](../core/configuring-cics-for-tcp-ip2.md)  
   
     -   [Configuring IMS for TCP/IP](../core/configuring-ims-for-tcp-ip2.md).  
-  
-    -   [Configure Host Environment and Programming Model Wizard Page](../core/configure-host-environment-and-programming-model-wizard-page2.md) in the [New Remote Environment Wizard](../core/new-remote-environment-wizard1.md)  
   
     -   [Enhanced Listener CICS Administration](./enhanced-listener-cics-administration2.md)  
   
