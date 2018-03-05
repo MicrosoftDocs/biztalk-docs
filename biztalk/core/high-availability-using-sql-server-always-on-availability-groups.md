@@ -99,7 +99,9 @@ The following SQL Server Agent jobs are associated with BizTalk Server. The jobs
 	- Monitor BizTalk Server (BizTalkMgmtDb) 
 - BizTalkMsgBoxDb jobs: 
 	- MessageBox_DeadProcesses_Cleanup_BizTalkMsgBoxDb 
-	- MessageBox_Message_Cleanup_BizTalkMsgBoxDb MessageBox_Message_ManageRefCountLog_BizTalkMsgBoxDb MessageBox_Parts_Cleanup_BizTalkMsgBoxDb 
+	- MessageBox_Message_Cleanup_BizTalkMsgBoxDb
+	- MessageBox_Message_ManageRefCountLog_BizTalkMsgBoxDb
+	- MessageBox_Parts_Cleanup_BizTalkMsgBoxDb 
 	- MessageBox_UpdateStats_BizTalkMsgBoxDb 
 	- Operations_OperateOnInstances_OnMaster_BizTalkMsgBoxDb 
 	- PurgeSubscriptionsJob_BizTalkMsgBoxDb 
