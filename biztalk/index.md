@@ -14,7 +14,7 @@ ms.prod: biztalk-server
 ms.workload: integration
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.topic: article
+ms.topic: hub-page
 ms.date: 06/19/2017
 ms.author: mandia
 ---
