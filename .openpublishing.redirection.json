@@ -1,0 +1,53 @@
+{
+    "redirections": [{
+            "source_path": "his/core/copyright1.md",
+            "redirect_url": "/host-integration-server/what-is-his",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/core/getting-assistance1.md",
+            "redirect_url": "/host-integration-server/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/core/host-integration-server-2013-release-notes.md",
+            "redirect_url": "/host-integration-server/install-and-config-guides/release-notes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/core/host-integration-server-index2.md",
+            "redirect_url": "/host-integration-server/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/core/host-integration-server-topic-not-found1.md",
+            "redirect_url": "/host-integration-server/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/core/services-account-screen1.md",
+            "redirect_url": "/host-integration-server/install-and-config-guides/installing-his-2016",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/esso/single-sign-on-samples.md",
+            "redirect_url": "/host-integration-server/esso/loopback-adapter-sample",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/db2oledbv/keyboard-shortcuts.md",
+            "redirect_url": "/host-integration-server/db2oledbv/accessibility",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/db2oledbv/accessibility-features-of-ole-db-provider-for-db2.md",
+            "redirect_url": "/host-integration-server/db2oledbv/accessibility",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "his/db2oledbv/accessibility-for-people-with-disabilities2.md",
+            "redirect_url": "/host-integration-server/db2oledbv/accessibility",
+            "redirect_document_id": false
+        }
+    ]
+}
