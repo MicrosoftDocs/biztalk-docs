@@ -255,7 +255,6 @@ These limitations are for BizTalk Server, SQL Server AlwaysOn Availability Group
 * Logins, SQL Agent Jobs, the SQL DB Mail profile, and accounts are not managed within Availability Groups. This requires manual modification in Jobs to make sure they run against the primary replica. 
 * SQL Server Analysis Services and SQL Server Integration Services do not participate in Availability Groups. Without this support from SQL Server, there is no HA solution for these in Azure Virtual Machines. BizTalk Server’s BAM capabilities are dependent on these services. 
 * Availability Groups does not support MSDTC between databases on the same SQL instance. Therefore, a minimum 8 SQL instances are required to configure BizTalk. 
-* To address MSDTC limitations with Availability Groups, BizTalk databases can be configured using a minimum of two servers hosting four SQL instances each. However, in Azure Virtual Machines, ILB does not support multiple IP addresses. This forces us to create each instance of SQL on a separate server. 
 * BizTalk Server cannot use Read-Only Routing. 
 * BizTalk Server does not set the `MultiSubnetFailover` connection property. 
 * BizTalk Backup Jobs using Log Shipping will always target the primary replica irrespective of the backup preference set on the Availability Group. 
