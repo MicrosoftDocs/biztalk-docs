@@ -65,7 +65,7 @@ We recommend that the BizTalk Server databases are grouped into the following fo
 |1 |Authentication |SSODB|
 |2 |Management |BizTalkMgmtDb| 
 |3 |Runtime |BizTalkMsgBoxDb<br/> BizTalkRulesEngineDb<br/> BAMPrimaryImport<br/>BAMStarSchema <br/>BAMAlertsApplication |
-|4 |Tracking |BizTalkDTADb| 
+|4 |Tracking |BizTalkDTADb<br/>EsbItineraryDb<br/>EsbExceptionDb | 
  
 In a scaled-out MessageBox scenario (a configuration with more than one MessageBox), there is more than one MessageBox database, and each MessageBox database must be on its own SQL Server instance. 
 
@@ -99,7 +99,9 @@ The following SQL Server Agent jobs are associated with BizTalk Server. The jobs
 	- Monitor BizTalk Server (BizTalkMgmtDb) 
 - BizTalkMsgBoxDb jobs: 
 	- MessageBox_DeadProcesses_Cleanup_BizTalkMsgBoxDb 
-	- MessageBox_Message_Cleanup_BizTalkMsgBoxDb MessageBox_Message_ManageRefCountLog_BizTalkMsgBoxDb MessageBox_Parts_Cleanup_BizTalkMsgBoxDb 
+	- MessageBox_Message_Cleanup_BizTalkMsgBoxDb
+	- MessageBox_Message_ManageRefCountLog_BizTalkMsgBoxDb
+	- MessageBox_Parts_Cleanup_BizTalkMsgBoxDb 
 	- MessageBox_UpdateStats_BizTalkMsgBoxDb 
 	- Operations_OperateOnInstances_OnMaster_BizTalkMsgBoxDb 
 	- PurgeSubscriptionsJob_BizTalkMsgBoxDb 
