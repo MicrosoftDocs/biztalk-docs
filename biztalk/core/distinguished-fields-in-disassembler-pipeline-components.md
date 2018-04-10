@@ -63,7 +63,7 @@ Distinguished fields defined in a schema are written to the message context by t
   
  the XML Disassembler writes a distinguished field on a message context as follows:  
   
- Name of the property on the context: "/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"  
+ Name of the property on the context: `"/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"`  
   
  Namespace of the property: http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
   
