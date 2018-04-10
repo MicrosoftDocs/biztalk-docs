@@ -58,7 +58,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
      serviceProvider=Microsoft Practices ESB  
   
 -   **XPATH**  
-  
+  ```
      \\\TransportType=;  
   
      TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
@@ -74,7 +74,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
      TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
   
      TransformType=;  
-  
+  ```
 -   **BRE**  
   
      BRE:\\\policy=GetCanadaEndPoint;  
