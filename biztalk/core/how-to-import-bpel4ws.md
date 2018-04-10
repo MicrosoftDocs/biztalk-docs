@@ -65,7 +65,7 @@ You can import from existing BPEL4WS to create an orchestration.
     </element>  
     ```  
   
-     XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']  
+     `XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']` 
   
     |Canonical XPath|Non-Canonical XPath|  
     |---------------------|--------------------------|  
