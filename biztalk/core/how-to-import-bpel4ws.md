@@ -8,18 +8,13 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BPEL4WS, restrictions"
-  - "BPEL4WS, importing"
-  - "BPEL4WS, orchestrations"
-  - "orchestrations, BPEL4WS"
 ms.assetid: 3626fcb9-8e7d-4812-a0c9-bde6e7954ec8
 caps.latest.revision: 8
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Import BPEL4WS
+# Import BPEL4WS in BizTalk Server
 You can import from existing BPEL4WS to create an orchestration.  
   
 > [!IMPORTANT]
@@ -27,7 +22,7 @@ You can import from existing BPEL4WS to create an orchestration.
   
  For an example of how to import BPEL4WS, see [BPEL Import (BizTalk Server Sample)](../core/bpel-import-biztalk-server-sample.md).  
   
-### To import BPEL4WS into an orchestration  
+## Import BPEL4WS into an orchestration  
   
 1.  Create a new project.  
   
@@ -65,7 +60,7 @@ You can import from existing BPEL4WS to create an orchestration.
     </element>  
     ```  
   
-     XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']  
+     `XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']` 
   
     |Canonical XPath|Non-Canonical XPath|  
     |---------------------|--------------------------|  
