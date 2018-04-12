@@ -33,7 +33,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **STATIC**  
   
-     STATIC:\\\TransportType=;  
+     STATIC:\\TransportType=;  
   
      TransportLocation=http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
   
@@ -51,15 +51,15 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **UDDI**  
   
-     UDDI:\\\serverUrl=http://localhost:9901/rmengine;  
+     UDDI:\\serverUrl=http://localhost:9901/rmengine;  
   
      serviceName=OrderPurchaseWebService;  
   
      serviceProvider=Microsoft Practices ESB  
   
 -   **XPATH**  
-  ```
-     \\\TransportType=;  
+  
+     \\TransportType=;  
   
      TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
   
@@ -71,13 +71,13 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
      MessageExchangePattern=;  
   
-     TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     TargetNamespace=/[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
   
      TransformType=;  
-  ```
+
 -   **BRE**  
   
-     BRE:\\\policy=GetCanadaEndPoint;  
+     BRE:\\policy=GetCanadaEndPoint;  
   
      version=;  
   
@@ -85,7 +85,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **BRI**  
   
-     BRI:\\\policy=ResolveItinerary;  
+     BRI:\\policy=ResolveItinerary;  
   
      version=;  
   
@@ -93,19 +93,19 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **ITINERARY**  
   
-     ITINERARY:\\\name=TwoWayTestItinerary;  
+     ITINERARY:\\name=TwoWayTestItinerary;  
   
      version=;  
   
 -   **ITINERARY-STATIC**  
   
-     ITINERARY-STATIC:\\\name=TwoWayTestItinerary;  
+     ITINERARY-STATIC:\\name=TwoWayTestItinerary;  
   
      version=;  
   
 -   **LDAP**  
   
-     LDAP:\\\TransportType=SMTP;  
+     LDAP:\\TransportType=SMTP;  
   
      TransportLocation={mail}  
   
