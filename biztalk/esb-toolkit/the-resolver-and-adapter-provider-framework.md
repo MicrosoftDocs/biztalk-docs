@@ -1,5 +1,5 @@
 ---
-title: "The Resolver and Adapter Provider Framework | Microsoft Docs"
+title: "ESB Resolver and Adapter Provider Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -33,7 +33,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **STATIC**  
   
-     STATIC:\\TransportType=;  
+     STATIC:\\\TransportType=;  
   
      TransportLocation=http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
   
@@ -51,7 +51,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **UDDI**  
   
-     UDDI:\\serverUrl=http://localhost:9901/rmengine;  
+     UDDI:\\\serverUrl=http://localhost:9901/rmengine;  
   
      serviceName=OrderPurchaseWebService;  
   
@@ -59,9 +59,9 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **XPATH**  
   
-     \\TransportType=;  
+     XPATH:\\\TransportType=;  
   
-     TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     TransportLocation=/[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
   
      Action=;  
   
@@ -77,7 +77,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
 
 -   **BRE**  
   
-     BRE:\\policy=GetCanadaEndPoint;  
+     BRE:\\\policy=GetCanadaEndPoint;  
   
      version=;  
   
@@ -85,7 +85,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **BRI**  
   
-     BRI:\\policy=ResolveItinerary;  
+     BRI:\\\policy=ResolveItinerary;  
   
      version=;  
   
@@ -93,39 +93,39 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **ITINERARY**  
   
-     ITINERARY:\\name=TwoWayTestItinerary;  
+     ITINERARY:\\\name=TwoWayTestItinerary;  
   
      version=;  
   
 -   **ITINERARY-STATIC**  
   
-     ITINERARY-STATIC:\\name=TwoWayTestItinerary;  
+     ITINERARY-STATIC:\\\name=TwoWayTestItinerary;  
   
      version=;  
   
 -   **LDAP**  
   
-     LDAP:\\TransportType=SMTP;  
+     LDAP:\\\TransportType=SMTP;  
   
      TransportLocation={mail}  
   
-     Filter=(&amp;(objectClass=User)(&#124;(userPrincipalName=yourname@domain.com)));  
+     Filter=(&(objectClass=User)(|(userPrincipalName=yourname@domain.com)));  
   
      SearchRoot=;  
   
      SearchScope=Subtree;  
   
-     EndpointConfig=Subject=Itinerary Test Message to {mail}&amp;  
+     EndpointConfig=Subject=Itinerary Test Message to {mail}& 
   
-     SMTPAuthenticate=0&amp;  
+     SMTPAuthenticate=0&
   
-     SMTPHost=127.0.0.1&amp;  
+     SMTPHost=127.0.0.1&
   
-     From=test@globalbank.com&amp;  
+     From=test@globalbank.com&
   
-     DeliveryReceipt=false&amp;  
+     DeliveryReceipt=false&
   
-     MessagePartsAttachments=0&amp;  
+     MessagePartsAttachments=0&
   
      ReadReceipt=false;  
   
