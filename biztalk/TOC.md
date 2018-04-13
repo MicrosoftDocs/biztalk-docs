@@ -484,7 +484,7 @@
 #### [Create environmental tokens & variables](core/configure-environmental-tokens-and-variables-for-automatic-deployment.md)
 ### [Query Always Encrypted database in SQL Server](core/connect-to-sql-server-always-encrypted-columns-with-biztalk-server.md)
 ### [Connect to Azure API Management](core/connect-to-azure-api-management.md)
-## [ESB Toolkit](core/../esb-toolkit/toc.md)
+## [ESB Toolkit](esb-toolkit/toc.md)
 ## [Plan and architect your solutions](core/plan-and-architect-your-biztalk-server-solution.md)
 ### [BizTalk Server Architecture](core/biztalk-server-architecture.md)
 #### [Runtime Architecture](core/runtime-architecture.md)
