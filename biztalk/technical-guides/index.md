@@ -15,7 +15,7 @@ manager: "anneta"
 ---
 # BizTalk Technical Guides
 
-There are many products and services in the BizTalk family, including [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on [!INCLUDE[winazure](../includes/winazure-md.md)][!INCLUDE[vm](../includes/vm-md.md)]s, [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] (MABS), and [!INCLUDE[winazure](../includes/winazure-md.md)] App Service. This library includes guides and white papers that cover all areas, including performance, operations, ESB, and Microsoft IT (MSIT) scenarios.
+There are many products and services in the BizTalk family, including [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on [!INCLUDE[winazure](../includes/winazure-md.md)] [!INCLUDE[vm](../includes/vm-md.md)]s, [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] (MABS), and [!INCLUDE[winazure](../includes/winazure-md.md)] App Service. This library includes guides and white papers that cover all areas, including performance, operations, ESB, and Microsoft IT (MSIT) scenarios.
 
 ## Microsoft IT white papers
 
