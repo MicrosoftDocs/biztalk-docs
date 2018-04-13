@@ -364,3 +364,6 @@
 ## [Installing AppFabric Connect for Services](installing-appfabric-connect-for-services.md)
 ## [Extending BizTalk ESB Toolkit Capabilities with Sentinet](extending-biztalk-esb-toolkit-capabilities-with-sentinet.md)
 ## [Extending BizTalk ESB Toolkit Capabilities with SOA Governance](extending-biztalk-esb-toolkit-capabilities-with-soa-governance.md)
+# [What's new, install, config & upgrade](install-and-config-guides\TOC.md)
+# [Core docs](core\TOC.md)
+# [Adapters & accelerators](adapters-and-accelerators\TOC.md)
