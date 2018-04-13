@@ -61,7 +61,7 @@ ms.author: mandia
                 </a>
             </li>
             <li>
-                <a href="/biztalk/technical-guides/biztalk-technical-guides">
+                <a href="/biztalk/technical-guides/">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -585,7 +585,7 @@ ms.author: mandia
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
+                            </li>
                         </ul>
                     </li>
                 </ul>

@@ -1,4 +1,4 @@
-# [BizTalk Technical Guides](biztalk-technical-guides.md)
+# [Technical Guides](index.md)
 ## [BizTalk Server 2013 Performance Optimization Guide](biztalk-server-2013-performance-optimization-guide.md)
 ## [BizTalk Server 2013 Monitoring Management Pack Guide](biztalk-server-2013-monitoring-management-pack-guide.md)
 ### [Introduction to the BizTalk Server 2013 Monitoring Management Pack](introduction-to-the-biztalk-server-2013-monitoring-management-pack.md)
