@@ -17,15 +17,13 @@ manager: "anneta"
 
 There are many products and services in the BizTalk family, including [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on [!INCLUDE[winazure](../includes/winazure-md.md)][!INCLUDE[vm](../includes/vm-md.md)]s, [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] (MABS), and [!INCLUDE[winazure](../includes/winazure-md.md)] App Service. This library includes guides and white papers that cover all areas, including performance, operations, ESB, and Microsoft IT (MSIT) scenarios.
 
-## In this Library
-
-### Microsoft IT white papers
+## Microsoft IT white papers
 
 - [MSCIT: Supply Chain migration from BizTalk Server 2009 hub to BizTalk Server 2013 R2 virtualized hub](mscit-supply-chain-migration-from-biztalk-2009-to-biztalk-2013-r2-virtualized.md)
 - [MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders](mscit-using-microsoft-azure-biztalk-services-for-supply-chain-orders.md)
 - [MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010](msit-real-world-migration-story-from-gentran-5-1-to-biztalk-2010.md)
 
-### Performance and Optimization guides
+## Performance and Optimization guides
 
 - [BizTalk Server 2013 Performance Optimization Guide](biztalk-server-2013-performance-optimization-guide.md)
 - [Proactivity in BizTalk Server](proactivity-in-biztalk-server.md)
@@ -33,7 +31,7 @@ There are many products and services in the BizTalk family, including [!INCLUDE[
 - [BizTalk Server 2010 Performance Optimization Guide](biztalk-server-2010-performance-optimization-guide.md)
 - [Instrumentation Best Practices for High Performance BizTalk Solutions](instrumentation-best-practices-for-high-performance-biztalk-solutions.md)
 
-### Installation and Management guides
+## Installation and Management guides
 
 - [BizTalk Server 2013 Monitoring Management Pack Guide](biztalk-server-2013-monitoring-management-pack-guide.md)
 - [BizTalk Server 2010 Technical Overview](biztalk-server-2010-technical-overview.md)
@@ -41,7 +39,7 @@ There are many products and services in the BizTalk family, including [!INCLUDE[
 - [Installing BizTalk Server 2010 Accelerator for SWIFT](installing-biztalk-server-2010-accelerator-for-swift.md)
 - [Installing AppFabric Connect for Services](installing-appfabric-connect-for-services.md)
 
-### Enterprise Service Bus (ESB) guides
+## Enterprise Service Bus (ESB) guides
 
 - [Extending BizTalk ESB Toolkit Capabilities with Sentinet](extending-biztalk-esb-toolkit-capabilities-with-sentinet.md)
 - [Extending BizTalk ESB Toolkit Capabilities with SOA Governance](extending-biztalk-esb-toolkit-capabilities-with-soa-governance.md)
