@@ -93,7 +93,7 @@ When the build succeeds, the release definition deploys your application to your
         * **Update an existing BizTalk Application**: Appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application.
         * **Install BizTalk Server Application**: [Install the applications](../core/how-to-install-a-biztalk-application.md), and you enter the BizTalk management computer name, and the deployment package path.
 
-        ![Deploy operations](../core/media/vsts-deploy-operations.png)
+     ![Deploy operations](../core/media/vsts-deploy-operations.png)
 
     **Application Name**: The text you enter will be the application name in BizTalk Administration. Do **not** enter BizTalk Application 1.
 

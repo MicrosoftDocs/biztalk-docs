@@ -1,5 +1,5 @@
 ---
-title: "The Resolver and Adapter Provider Framework | Microsoft Docs"
+title: "ESB Resolver and Adapter Provider Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -59,9 +59,9 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 -   **XPATH**  
   
-     \\\TransportType=;  
+     XPATH:\\\TransportType=;  
   
-     TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     `TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
      Action=;  
   
@@ -71,10 +71,10 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
      MessageExchangePattern=;  
   
-     TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     `TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
      TransformType=;  
-  
+
 -   **BRE**  
   
      BRE:\\\policy=GetCanadaEndPoint;  
@@ -109,23 +109,23 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
      TransportLocation={mail}  
   
-     Filter=(&amp;(objectClass=User)(&#124;(userPrincipalName=yourname@domain.com)));  
+     Filter=(&(objectClass=User)(|(userPrincipalName=yourname@domain.com)));  
   
      SearchRoot=;  
   
      SearchScope=Subtree;  
   
-     EndpointConfig=Subject=Itinerary Test Message to {mail}&amp;  
+     EndpointConfig=Subject=Itinerary Test Message to {mail}& 
   
-     SMTPAuthenticate=0&amp;  
+     SMTPAuthenticate=0&
   
-     SMTPHost=127.0.0.1&amp;  
+     SMTPHost=127.0.0.1&
   
-     From=test@globalbank.com&amp;  
+     From=test@globalbank.com&
   
-     DeliveryReceipt=false&amp;  
+     DeliveryReceipt=false&
   
-     MessagePartsAttachments=0&amp;  
+     MessagePartsAttachments=0&
   
      ReadReceipt=false;  
   
