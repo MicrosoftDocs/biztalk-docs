@@ -181,8 +181,7 @@ This walkthrough provides step-by-step procedures for testing the policy you cre
 |Field name|XPath Selector|XPath Field|XPath Selector (simplified form)|XPath Field<br /><br /> (simplified form)|  
 |----------------|--------------------|-----------------|----------------------------------------|-----------------------------------------|  
 |Quantity|/*[local-name()='PurchaseOrder' and namespace-uri()='http://EAISolution.PurchaseOrder']/\*[local-name()='Item' and namespace-uri()='']|*[local-name()='Quantity' and namespace-uri()='']|/PurchaseOrder/Item|Quantity|  
-|Status|/*[local-name()='PurchaseOrder' and namespace-uri()='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|Status|
-<!---Loc Comment: Please, verify strucutre in line 183 and 184--->
+|Status|/*[local-name()='PurchaseOrder' and namespace-uri()='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|Status|  
   
 #### To view the Xpath Selector and Xpath Field bindings for the Quantity and Status fields  
   
