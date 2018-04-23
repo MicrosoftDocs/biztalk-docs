@@ -4,7 +4,7 @@
   items:
   - name: Technical Guides
     tocHref: /biztalk/technical-guides/
-    topicHref: /biztalk/technical-guides/biztalk-technical-guides
+    topicHref: /biztalk/technical-guides/
   - name: "BizTalk Server What's New, Installation, Configuration, and Upgrade"
     tocHref: /biztalk/install-and-config-guides/
     topicHref: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
@@ -14,7 +14,7 @@
   - name: 'Adapters & Accelerators'
     tocHref: /biztalk/adapters-and-accelerators/
     topicHref: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
-    items: 
+    items:
     - name: HL7
       tocHref: /biztalk/adapters-and-accelerators/accelerator-hl7/
       topicHref: /biztalk/adapters-and-accelerators/accelerator-hl7/microsoft-biztalk-accelerator-for-hl7-documentation
