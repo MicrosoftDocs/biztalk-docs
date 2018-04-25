@@ -7,7 +7,7 @@ manager: "anneta"
 ms.prod: "biztalk-server"
 
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "04/25/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -293,7 +293,7 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
         - Integration Services
 
     > [!NOTE]
-    > **SQL Server Data Tools** is not included in the default installation of SQL Server. It is not required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. 
+    > **SQL Server Data Tools** is not included in the default installation of SQL Server. It isn't required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. However, to connect to remote SSIS when using BAM, you need to install the same version of SSMS as the destination SSIS server. For example, [install SSMS 16.*x*](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) to install the related drivers to connect to SQL 2016 SSIS. SSMS 17.*x* cannot connect to SQL 2016 SSIS. You can have multiple versions of SSMS installed. 
 
 3. Continue with the installation, and restart the computer if prompted.
 
