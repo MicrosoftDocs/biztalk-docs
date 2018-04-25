@@ -77,7 +77,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 	```
 	"BizTalkAssemblies": [
 		{
-			"Name": "AssemblyName"
+			"Name": "AssemblyName",
 			"Path": "PathToAssembly
 		}
 	]
@@ -88,7 +88,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 	```
 	"BindingsFiles": [
 		{
-			"Name": "Binding File Name"
+			"Name": "Binding File Name",
 			"Path": "PathToBindingFile
 		}
 	]
