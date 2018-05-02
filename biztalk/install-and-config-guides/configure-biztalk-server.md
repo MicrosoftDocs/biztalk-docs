@@ -24,7 +24,7 @@ Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 * If your configuration uses custom group names instead of the default group names, do a Custom Configuration.
 * If your configuration uses custom database names instead of the default database names, do a Custom Configuration.
 * If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and SQL Server are on separate computers, domain groups are required. As a result, do a Custom Configuration.
-* You cannot configure BAM Analysis on a SQL Server named instance using Basic Donfiguration. If you are using named instances and want to configure BAM Analysis, do a Custom Configuration.
+* You cannot configure BAM Analysis on a SQL Server named instance using Basic Configuration. If you are using named instances and want to configure BAM Analysis, do a Custom Configuration.
 * Basic Configuration is recommended for users setting up a complete installation of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and SQL Server running on a single server.
 * Basic Configuration is faster because it automatically creates the local groups and databases using the default names.
 
