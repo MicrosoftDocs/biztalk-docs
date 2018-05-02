@@ -46,9 +46,9 @@ MyMessage(Invoice.PropertySchema.InvoiceID)
 ```  
   
 > [!NOTE]
->  When you use a reserved keyword as the name of a field in a schema, and you promote the field by selecting Quick Promotion, the property name of the field is changed to __\<Reserved Keyword\>. (The double underscore is added before the property name.) However, if you use this property name in an orchestration expression, you will receive a compiler error when building the orchestration.  To work around this error, you need to manually add @ before the double underscore. For example,  
+>  When you use a reserved keyword as the name of a field in a schema, and you promote the field by selecting Quick Promotion, the property name of the field is changed to __\<Reserved Keyword\>. (The double underscore is added before the property name.) However, if you use this property name in an orchestration expression, you will receive a compiler error when building the orchestration.  To work around this error, you need to manually add \@ before the double underscore. For example,  
 >   
->  `MyMessage(Invoice.PropertySchema.@__Name) = "Product Name";`  
+>  `MyMessage(Invoice.PropertySchema.\@__Name) = "Product Name";`  
   
 ## Property Sets  
  You can also assign all of the context properties of one message (a property set) to the context properties of another message. To assign a property set, you simply place an asterisk in parentheses after both message names, in the same way you would put a property in parentheses:  
