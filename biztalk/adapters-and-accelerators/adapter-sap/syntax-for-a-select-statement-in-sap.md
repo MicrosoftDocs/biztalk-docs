@@ -204,9 +204,9 @@ Table | '['Table']'
   
 -   A SELECT statement using [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports parameter names for argument values in a SELECT query. However, make sure you follow these rules with respect to parameter names:  
   
-    -   In the SELECT query, an "@" symbol must precede the parameter name.  
+    -   In the SELECT query, an "\@" symbol must precede the parameter name.  
   
-    -   The "@" symbol must be followed by an alphabetic character (A-Z or a-z).  
+    -   The "\@" symbol must be followed by an alphabetic character (A-Z or a-z).  
   
     -   The parameter name can contain alphanumeric characters (A-Z, a-z, or 0-9) and special characters. The only special characters that can be included in the parameter name are underscore "_" and hash "#".  
   
