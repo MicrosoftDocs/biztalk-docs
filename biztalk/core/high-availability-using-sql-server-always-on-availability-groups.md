@@ -2,7 +2,7 @@
 title: High Availability using SQL Server Always On Availability Groups | Microsoft Docs
 description: Group the BizTalk Server database on different nodes to get a highly available (HA) solution using SQL Server Always On Available Groups (AG), including the system requirements and limitations. Always On AG requires Windows Server Failover Clustering (WSFC).
 ms.custom: ""
-ms.date: "04/25/2018"
+ms.date: "05/14/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -51,7 +51,7 @@ Clients can connect to the primary replica of a given availability group using a
 
 SQL Server does not support MSDTC with AlwaysOn AG for any versions prior to 2016.  
 
-MSDTC between databases on same SQL Server instance is not supported with SQL Server AlwaysOn Availability Groups in SQL Server 2016 RTM or SP1. This means that no two BizTalk databases in a distributed transaction can be hosted on the same SQL server instance. For transactional consistency, BizTalk databases participating in distributed transaction should be hosted on different SQL server instances. Note that it does not matter whether SQL instances are on the same computer, or different computers. 
+MSDTC between databases on same SQL Server instance is not supported with SQL Server AlwaysOn Availability Groups. This means that no two BizTalk databases in a distributed transaction can be hosted on the same SQL server instance. For transactional consistency, BizTalk databases participating in distributed transaction should be hosted on different SQL server instances. Note that it does not matter whether SQL instances are on the same computer, or different computers. 
 
 
 ## Providing high availability for BizTalk databases using AlwaysOn Availability Groups 
@@ -199,7 +199,7 @@ This configuration can also be done using the SQL Instances hosting the primary 
 
 ## Requirements 
 * BizTalk Server 2016 Enterprise
-* SQL Server 2016 Enterprise or SQL Server 2016 Standard (see below limitation)
+* SQL Server 2016 Enterprise or SQL Server 2016 Standard (see **Known limitations** in this topic)
 * Windows Server 2012 R2 or Windows Server 2016 
 
 ### Availability Group Listener configured with non-default port (1433) 
@@ -259,6 +259,5 @@ These limitations are for BizTalk Server, SQL Server AlwaysOn Availability Group
 * BizTalk Server cannot use Read-Only Routing. 
 * BizTalk Server does not set the `MultiSubnetFailover` connection property. 
 * BizTalk Backup Jobs using Log Shipping will always target the primary replica irrespective of the backup preference set on the Availability Group. 
-* SQL Server 2016 Standard supports only one single database in each SQL AlwaysOn AG. Since BizTalk is using many databases Enterprise edition of SQL is recommended. 
-* SQL Server 2016 SP2 (backport from SQL Server 2017) added support for distributed transactions between multiple databases within the same AlwaysOn AG. This change was introduced after initial release of BizTalk Server 2016 and has not been fully verified yet. With SQL Server 2016 SP2 or later version, it should be possible to use only a single SQL AlwaysOn Availability Group. 
-* If using Azure VM, it is recommended to use dedicated fixed port for MSDTC to avoid reducing the RPC port range and to avoid too many firewall and load balancer rules. It is recommended to use higher fixed port (e g >20000) to avoid conflicts with known lower ports. See more here about ServerTcpPort registry key (https://msdn.microsoft.com/en-us/library/windows/desktop/dd573191(v=vs.85).aspx) . Besides the fixed port for MSDTC, the main RPC port 135 is also used. 
+* SQL Server 2016 Standard supports only one single database in each SQL AlwaysOn AG. Since BizTalk uses many databases, SQL Server Enterprise edition is typically recommended.
+* If using Azure VMs, it's recommended to use a dedicated fixed TCP/IP port for MSDTC. When using a fixed TCP/IP port, you aren't limited to a specific port range typically used with older operating systems; and it helps limit your firewall and load balancer rules. To avoid conflicts with known lower ports, consider using a higher fixed port (such as >20000). [Configuring DTC Single Port Support](https://msdn.microsoft.com/library/windows/desktop/dd573191(v=vs.85).aspx) describes the `ServerTcpPort` registry key. In addition to the fixed port for MSDTC, the main RPC port 135 is also used. 
