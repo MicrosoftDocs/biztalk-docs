@@ -54,7 +54,7 @@ In this step, you use SQL Query Analyzer to view line-of-business (LOB) messages
   
 ### To view messages in the BTARN databases  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.  
+1.  Click **Start**, point to **All Programs**, point to **Microsoft SQL Server \<version\>**, and then click **SQL Server Management Studio**.  
   
 2.  In the Connect to Server dialog box, click **Connect**.  
   
