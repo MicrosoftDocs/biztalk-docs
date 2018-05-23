@@ -30,11 +30,11 @@ This component lets you edit automatically any part of a multipart message withi
   
 2.  On the **File** menu, point to **Open**, and then click **Project**.  
   
-3.  Move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, select **MessageEditor.csproj**, and then click **Open**.  
+3.  Move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, select **MessageEditor.csproj**, and then click **Open**.  
   
 4.  Start Visual Studio command prompt.  
   
-5.  At the command prompt, move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
+5.  At the command prompt, move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
   
 6.  At the command prompt, type **sn -k MessageEditor.snk** to create a key, and then press ENTER.  
   
@@ -42,7 +42,7 @@ This component lets you edit automatically any part of a multipart message withi
   
 8.  In the **MessageEditor Property** page, click **Signing** tab, and then click **Sign the assembly** checkbox.  
   
-9. In **Choose a strong name key file** drop-down, browse to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\ SDK\Message Editor Pipeline Component\obj\debug and select **MessageEditor.snk** and then click **Open**.  
+9. In **Choose a strong name key file** drop-down, browse to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\ SDK\Message Editor Pipeline Component\obj\debug and select **MessageEditor.snk** and then click **Open**.  
   
 10. In Solution Explorer, right-click **MessageEditor**, and then click **Build**. Verify in the Output pane that the build succeeded.  
   
