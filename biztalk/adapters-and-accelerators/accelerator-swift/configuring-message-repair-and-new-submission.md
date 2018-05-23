@@ -37,4 +37,4 @@ You must perform the steps in the following sections to configure the Message Re
   
 -   [Deploying A4SWIFT Envelope Schemas](../../adapters-and-accelerators/accelerator-swift/deploying-a4swift-envelope-schemas.md)  
   
--   [Publishing InfoPath Form Templates](http://msdn.microsoft.com/en-us/2947e1ad-8c44-4cdb-bbde-7683e186b41b)
+-   [Publishing InfoPath Form Templates](http://msdn.microsoft.com/2947e1ad-8c44-4cdb-bbde-7683e186b41b)

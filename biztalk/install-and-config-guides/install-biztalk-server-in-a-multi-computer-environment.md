@@ -347,7 +347,7 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 1. **Install Active Directory Domain Services** - The first step required to install BizTalk Server into a multiple server environment is to install Active Directory domain services for the various BizTalk Server groups and accounts. To create the Active Directory domain, refer to the following:
 
-    - Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
+    - Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
     - Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
 
     > [!IMPORTANT]

@@ -36,4 +36,4 @@ In this lesson, you submit a valid MT103 message in XML format to the file recei
   
 6.  Verify that the two files in Notepad contain the same content.  
   
- Proceed to [Module 8: Repairing an Invalid Message](http://msdn.microsoft.com/en-us/fb531b22-ac7a-4620-b395-87aebf56077d).
+ Proceed to [Module 8: Repairing an Invalid Message](http://msdn.microsoft.com/fb531b22-ac7a-4620-b395-87aebf56077d).

@@ -34,4 +34,4 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] provides itinerary-base
   
 -   [Executing an Itinerary Service](../esb-toolkit/executing-an-itinerary-service.md)  
   
--   HYPERLINK "http://msdn.microsoft.com/en-us/library/ee236752(BTS.10).aspx" [Itinerary-Based Routing Artifacts](../esb-toolkit/itinerary-based-routing-artifacts.md)
+-   HYPERLINK "http://msdn.microsoft.com/library/ee236752(BTS.10).aspx" [Itinerary-Based Routing Artifacts](../esb-toolkit/itinerary-based-routing-artifacts.md)

@@ -54,7 +54,7 @@ This topic describes several tools that can be used to monitor and evaluate the 
  Pathping provides information about possible data loss at one or more router hops on the way to a target host. To do so, pathping sends Internet Control Message Protocol (ICMP) packets to each router in the path. 
   
 ## SQL Server Tools for Performance Monitoring and Tuning  
-SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. See [Performance Monitoring and Tuning Tools](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools). 
+SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. See [Performance Monitoring and Tuning Tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools). 
   
 ### SQL Profiler  
  Microsoft SQL Server Profiler can be used to capture Transact-SQL statements that are sent to SQL Server and the SQL Server result sets from these statements. Because SQL Server is tightly integrated with SQL Server, the analysis of a SQL Server Profile trace can be a useful tool for analyzing problems that may occur in BizTalk Server when reading from and writing to SQL Server databases. See [Using SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler-templates-and-permissions).
