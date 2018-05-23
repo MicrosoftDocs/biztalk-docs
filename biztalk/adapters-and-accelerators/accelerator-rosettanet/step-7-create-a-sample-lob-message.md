@@ -23,7 +23,7 @@ In this step, you use the LOB Application utility to create a sample line-of-bus
   
 ### To create a sample message using the LOB Application utility  
   
-1.  In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK folder, and then double-click **LOBApplication.exe**.  
+1.  In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK folder, and then double-click **LOBApplication.exe**.  
   
 2.  In the **LOB Application** dialog box, do the following:  
   
