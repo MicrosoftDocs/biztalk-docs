@@ -33,7 +33,7 @@ In this step, you use the LOB Application utility to create a sample line-of-bus
     |**Trading Partner Name**|Type **PARTNER**.|  
     |**PIP Name**|Type **0C1**.|  
     |**PIP Version**|Type **R01.02**.|  
-    |**File Name**|Click the ellipsis button (**...**), and move to \<*drive*:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances. Select **0C1_Request.xml** from the list of files, and then click **Open**.|  
+    |**File Name**|Click the ellipsis button (**...**), and move to \<*drive*:\>\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances. Select **0C1_Request.xml** from the list of files, and then click **Open**.|  
     |**Message Category**|Select **Action** from the drop-down list.|  
   
 3.  In the **LOB Application** dialog box, click **Submit Message**.  
