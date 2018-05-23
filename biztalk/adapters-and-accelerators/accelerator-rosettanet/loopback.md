@@ -34,7 +34,7 @@ You use the Loopback utility to automatically generate a loopback agreement that
  You can also use the utility to enlist or unenlist a home organization for a sender role. When you use the utility to enable a home organization, it creates two send ports, \<Home\>.Async and \<Home\>.Sync, that the organization uses to communicate with their partner.  
   
 ## Location in SDK  
- \<*drive*\>\ Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\  
+ \<*drive*\>\ Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\  
   
 ## Running Loopback  
   
@@ -42,7 +42,7 @@ You use the Loopback utility to automatically generate a loopback agreement that
   
 1.  Open a command prompt.  
   
-2.  Move to \<*drive*\>\ Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
+2.  Move to \<*drive*\>\ Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
   
 3.  At the command prompt, type **Loopback**, type the required and appropriate switches, and then press ENTER.  
   
