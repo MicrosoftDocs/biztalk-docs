@@ -1,16 +1,14 @@
 ---
 title: "Using Distinguished Fields and Property Fields | Microsoft Docs"
+description: Read about the differences between Distinguished fields, property fields, and property sets. Distinguished fields use the path in the message field, property fields uses the the messaage name and the schema namespace, and property sets assign the context properties of a message (a property set) to the context properties of another message in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "05/02/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, distinquished fields"
-  - "messages, properties"
 ms.assetid: 264ee15e-be9a-4ba2-9c61-a1570b20378e
 caps.latest.revision: 9
 author: "MandiOhlinger"
@@ -46,7 +44,7 @@ MyMessage(Invoice.PropertySchema.InvoiceID)
 ```  
   
 > [!NOTE]
->  When you use a reserved keyword as the name of a field in a schema, and you promote the field by selecting Quick Promotion, the property name of the field is changed to __\<Reserved Keyword\>. (The double underscore is added before the property name.) However, if you use this property name in an orchestration expression, you will receive a compiler error when building the orchestration.  To work around this error, you need to manually add @ before the double underscore. For example,  
+>  When you use a reserved keyword as the name of a field in a schema, and you promote the field by selecting Quick Promotion, the property name of the field is changed to __\<Reserved Keyword\>. (The double underscore is added before the property name.) However, if you use this property name in an orchestration expression, you will receive a compiler error when building the orchestration.  To work around this error, you need to manually add \@ before the double underscore. For example,  
 >   
 >  `MyMessage(Invoice.PropertySchema.@__Name) = "Product Name";`  
   

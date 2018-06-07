@@ -24,10 +24,10 @@ Expose your BizTalk SOAP endpoints as services within Azure API Management.
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, you can expose a WCF-BasicHTTP receive location as an endpoint within Azure API Management using BizTalk Administration. 
 
 > [!TIP]
-> [What is API Management?](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) is a great resource to understand and learn more about this Azure service.
+> [What is API Management?](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) is a great resource to understand and learn more about this Azure service.
 
 ## Prerequisites
-* Configure and set up [Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started)
+* Configure and set up [Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-get-started)
 * Create a [virtual network](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet) between your BizTalk computer and the API Management instance
 * Install [Feature Pack 2](https://aka.ms/bts2016fp2) on the BizTalk Server
 
@@ -88,7 +88,7 @@ Expose your BizTalk SOAP endpoints as services within Azure API Management.
 3. Select **Publish**. When successful, the receive location is displayed as a service in API Management in the [Azure portal](https://portal.azure.com). 
 
 ## Do more
-Azure API Management is a powerful service that is used by a lot of Azure services, including Logic Apps. API Management includes many features, including rate limits and quotas, who has access to your APIs, caching, and more. See [What is API Management?](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) to get started.
+Azure API Management is a powerful service that is used by a lot of Azure services, including Logic Apps. API Management includes many features, including rate limits and quotas, who has access to your APIs, caching, and more. See [What is API Management?](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) to get started.
 
 ## See also
 [Configure the feature pack](configure-the-feature-pack.md)

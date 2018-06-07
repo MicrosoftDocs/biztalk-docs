@@ -23,7 +23,7 @@ Azure Event Hubs is a highly scalable data streaming platform, and can receive a
 
 ## Prerequisites
 
-* Create an [Azure event hubs namespace and event hub](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create)
+* Create an [Azure event hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)
 * Create an [Azure blob storage account with a container](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)
 * Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your BizTalk Server
 
