@@ -35,11 +35,11 @@ This pipeline component lets you examine all the parts of a multi-part message, 
   
 2.  On the **File** menu, point to **Open**, and then click **Project**.  
   
-3.  Move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component, select **MessageInspector.csproj**, and then click **Open**.  
+3.  Move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component, select **MessageInspector.csproj**, and then click **Open**.  
   
 4.  Open the Visual Studio command prompt.  
   
-5.  At the command prompt, move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug.  
+5.  At the command prompt, move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug.  
   
 6.  At the command prompt, type **"sn -k MessageInspector.snk"** to create a key, and then press ENTER.  
   
@@ -47,15 +47,15 @@ This pipeline component lets you examine all the parts of a multi-part message, 
   
 8.  In the **MessageInspector Property**  page, click **Signing** tab, and then click **Sign the assembly** checkbox.  
   
-9. In **Choose a strong name key file** drop-down, browse to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug and select **MessageInspector.snk** and then click **Open**.  
+9. In **Choose a strong name key file** drop-down, browse to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug and select **MessageInspector.snk** and then click **Open**.  
   
 10. In Solutions Explorer, right-click **MessageInspector**, and then click **Build**. Verify in the Output pane that the build succeeded.  
   
 11. Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Windows Explorer**.  
   
-12. In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug, right-click **Microsoft.Solutions.BTARN.SDK.MessageInspector.dll**, and then click **Copy**.  
+12. In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug, right-click **Microsoft.Solutions.BTARN.SDK.MessageInspector.dll**, and then click **Copy**.  
   
-13. Move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\Pipeline Components, right-click **Pipeline Components**, and then click **Paste**.  
+13. Move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Pipeline Components, right-click **Pipeline Components**, and then click **Paste**.  
   
 14. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
   
@@ -78,7 +78,7 @@ This pipeline component lets you examine all the parts of a multi-part message, 
   
 22. In the **Property Pages** dialog box, click **Common Properties**, and then click **Assembly**.  
   
-23. In the right pane, in the text box associated with **Assembly Key File**, click the ellipses, move to C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug, select **MessageInspector.snk**, and then click **OK**.  
+23. In the right pane, in the text box associated with **Assembly Key File**, click the ellipses, move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug, select **MessageInspector.snk**, and then click **OK**.  
   
 24. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Pipeline Designer, select the **BTARN Message Inspector Component** shape.  
   
