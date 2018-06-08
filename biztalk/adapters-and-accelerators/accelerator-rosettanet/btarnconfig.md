@@ -22,7 +22,7 @@ manager: "anneta"
 You use the BtarnConfig utility to import configuration data into, or export configuration data from, a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] environment. This configuration data is the data that you set by using the BTARN Management Console, including process configuration settings, home organizations, partners, and agreements.  
   
 ## Location in SDK  
- \<*drive*\>\ Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK  
+ \<*drive*\>\ Program Files (x86)\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK  
   
 ## Running BtarnConfig  
   
@@ -30,7 +30,7 @@ You use the BtarnConfig utility to import configuration data into, or export con
   
 1.  Open a command prompt.  
   
-2.  Move to \<*drive*\>\ Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
+2.  Move to \<*drive*\>\ Program Files (x86)\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
   
 3.  At the command prompt, type **BtarnConfig**, type the appropriate switches, and then press ENTER.  
   
@@ -57,7 +57,7 @@ BTARNCONFIG /EXPORT <filename>.xml [/H] [/P] [/R] [/A]
   
 |Syntax|Description|  
 |------------|-----------------|  
-|\<*filename*.xml\>|Full path of the file to import into or export from. If you do not provide a path, BTARN assumes that the path is \<*drive*\>\ Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK.|  
+|\<*filename*.xml\>|Full path of the file to import into or export from. If you do not provide a path, BTARN assumes that the path is \<*drive*\>\ Program Files (x86)\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK.|  
 |**/IMPORT**|Imports the XML data from \<*filename*.xml\> into the BTARN configuration.|  
 |**/EXPORT**|Exports the BTARN configuration as XML data into \<*filename*.xml\>.|  
 |**/H**|Imports or exports home-organization configuration data.|  
