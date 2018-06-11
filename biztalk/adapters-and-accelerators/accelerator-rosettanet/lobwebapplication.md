@@ -27,7 +27,7 @@ You use the LOBWebApplication utility to submit an action or response message fr
  After you have set up the ASPX page, you start the page, and enter the parameters for a message: the home and partner organizations; the PIP code, version, and instance ID; and the message category. You can then modify the service content, and submit the message.  
   
 ## Location in SDK  
- \<*drive*\>\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\LOBWebApplication  
+ \<*drive*\>\Program Files (86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication  
   
 ## Adding a Virtual Server for LOBWebApplication  
   
@@ -41,7 +41,7 @@ You use the LOBWebApplication utility to submit an action or response message fr
   
 4.  On the **Virtual Directory Creation Wizard** page, click **Next**, and then type an alias for the site, such as **LOBWebApplication**.  
   
-5.  On the **Web Site Content Directory** page, click **Browse**, move to \<*drive*\>\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\LOBWebApplication, click **OK**, and then click **Next**.  
+5.  On the **Web Site Content Directory** page, click **Browse**, move to \<*drive*\>\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication, click **OK**, and then click **Next**.  
   
 6.  On the **Virtual Directory Access Permissions** page, select **Read** and **Run scripts**, and then click **Next**. Click **Finish**.  
   
@@ -61,14 +61,14 @@ You use the LOBWebApplication utility to submit an action or response message fr
   
 2.  On the **File**, point to **Open**, and then click **Open Solution**.  
   
-3.  Move to \<*drive*\>\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\LOBWebApplication, select **LOBWebApplication.sln**, and then click **Open**.  
+3.  Move to \<*drive*\>\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication, select **LOBWebApplication.sln**, and then click **Open**.  
   
     > [!NOTE]
     >  If you have not added a virtual server for LOBWebApplication, the solution will not open correctly in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
 4.  Right-click **References**, and then click **Add Reference**.  
   
-5.  In the **Add Reference** dialog box, click **Browse**, move to \<*drive*\>:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\Bin, select the Microsoft.Solutions.BTARN.ConfigurationManager.dll and Microsoft.Solutions.BTARN.Shared.dll files, and then click **Open**.  
+5.  In the **Add Reference** dialog box, click **Browse**, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin, select the Microsoft.Solutions.BTARN.ConfigurationManager.dll and Microsoft.Solutions.BTARN.Shared.dll files, and then click **Open**.  
   
 6.  Right-click **LOBWebApplication**, and then click **Build**.  
   

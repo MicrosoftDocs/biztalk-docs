@@ -24,7 +24,7 @@ In this step, you use the Loopback utility to create a mirror agreement simulati
   
 1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK. Type the following command and then press **Enter**:  
+2.  At the command prompt, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK. Type the following command and then press **Enter**:  
   
     ```  
     Loopback /enable HOME  

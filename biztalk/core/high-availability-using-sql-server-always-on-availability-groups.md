@@ -2,7 +2,7 @@
 title: High Availability using SQL Server Always On Availability Groups | Microsoft Docs
 description: Group the BizTalk Server database on different nodes to get a highly available (HA) solution using SQL Server Always On Available Groups (AG), including the system requirements and limitations. Always On AG requires Windows Server Failover Clustering (WSFC).
 ms.custom: ""
-ms.date: "04/10/2018"
+ms.date: "05/14/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -51,7 +51,7 @@ Clients can connect to the primary replica of a given availability group using a
 
 SQL Server does not support MSDTC with AlwaysOn AG for any versions prior to 2016.  
 
-MSDTC between databases on same SQL Server instance is not supported with SQL Server AlwaysOn Availability Groups. This means that no two BizTalk databases in a distributed transaction can be hosted on the same SQL server instance. For transactional consistency, BizTalk databases participating in distributed transaction should be hosted on different SQL server instances. Note that it does not matter whether SQL instances are on the same computer, or different computers.  
+MSDTC between databases on same SQL Server instance is not supported with SQL Server AlwaysOn Availability Groups. This means that no two BizTalk databases in a distributed transaction can be hosted on the same SQL server instance. For transactional consistency, BizTalk databases participating in distributed transaction should be hosted on different SQL server instances. Note that it does not matter whether SQL instances are on the same computer, or different computers. 
 
 
 ## Providing high availability for BizTalk databases using AlwaysOn Availability Groups 
@@ -199,9 +199,8 @@ This configuration can also be done using the SQL Instances hosting the primary 
 
 ## Requirements 
 * BizTalk Server 2016 Enterprise
-* SQL Server 2016 Enterprise
-* Windows Server 2012 R2
-* Windows Server 2016 
+* SQL Server 2016 Enterprise or SQL Server 2016 Standard (see **Known limitations** in this topic)
+* Windows Server 2012 R2 or Windows Server 2016 
 
 ### Availability Group Listener configured with non-default port (1433) 
 Use SQL alias on BizTalk Server machines. 
@@ -260,4 +259,5 @@ These limitations are for BizTalk Server, SQL Server AlwaysOn Availability Group
 * BizTalk Server cannot use Read-Only Routing. 
 * BizTalk Server does not set the `MultiSubnetFailover` connection property. 
 * BizTalk Backup Jobs using Log Shipping will always target the primary replica irrespective of the backup preference set on the Availability Group. 
- 
+* SQL Server 2016 Standard supports only one single database in each SQL AlwaysOn AG. Since BizTalk uses many databases, SQL Server Enterprise edition is typically recommended.
+* If using Azure VMs, it's recommended to use a dedicated fixed TCP/IP port for MSDTC. When using a fixed TCP/IP port, you aren't limiting your RPC port range typically used with older operating systems; and it helps simplify your firewall and load balancer rules. To avoid conflicts with known lower ports, consider using a higher fixed port (such as >20000). [Configuring DTC Single Port Support](https://msdn.microsoft.com/library/windows/desktop/dd573191(v=vs.85).aspx) describes the `ServerTcpPort` registry key. In addition to the fixed port for MSDTC, the main RPC port 135 is also used. 
