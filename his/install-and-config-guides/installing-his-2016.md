@@ -98,4 +98,20 @@ ConfigurationWizard.exe /u
 msiexec /i HIS2016_Server_EN.msi /quiet CONFIGURATIONFILE= HIS2016.configurationfile.config  
 ```  
 
+## Disabling Telemetry
+**Opt-out through UI**
+
+On the Common setting panel of the Configuration tool uncheck "Turn on Telemetry to help improve the quality, reliability and performance"
+
+**Opt-out through PowerShell**
+
+You can use the following PowerShell script to enable or disable telemetry
+ 
+Import-Module Microsoft.HostIntegration.PowerShell
+```Output
+$c = Import-HisConfiguration
+$cs = $c | Get-HisFeature -CommonSettings
+$cs.EnableTelemetry = $false
+$c.Apply()
+```
  
