@@ -40,7 +40,7 @@ A Uniform Resource Identifier (URI) uniquely identifies resources like a Web ser
 ## Connecting to the Target System  
  Connection strings have the following syntax:  
   
- **\<scheme\>://[userinfo "@"]\<LOB Connection String\>**  
+ **\<scheme\>://[userinfo "\@"]\<LOB Connection String\>**  
   
  For example, you could connect to the contoso catalog ordering system (a sample line of business application) using the following:  
   
