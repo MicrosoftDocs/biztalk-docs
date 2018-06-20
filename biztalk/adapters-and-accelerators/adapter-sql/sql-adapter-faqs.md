@@ -40,9 +40,9 @@ The following are some frequently asked questions (FAQs) related to [!INCLUDE[ad
   
  For more information about:  
   
--   Data security in the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Secure your SQL applications](../../adapters-and-accelerators/adapter-sql/secure-your-sql-applications.md).  
+- Data security in the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Secure your SQL applications](../../adapters-and-accelerators/adapter-sql/secure-your-sql-applications.md).  
   
--   Best practices to ensure data security in the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Best practices to secure the SQL adapter](../../adapters-and-accelerators/adapter-sql/best-practices-to-secure-the-sql-adapter.md).  
+- Best practices to ensure data security in the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Best practices to secure the SQL adapter](../../adapters-and-accelerators/adapter-sql/best-practices-to-secure-the-sql-adapter.md).  
   
 ## Is there a GUI provided by the SQL adapter to view and perform operations on the artifacts in my underlying SQL Server database?  
  The Consume Adapter Service BizTalk Project Add-in and the Add Adapter Service Reference Visual Studio Plug-in provide a dialog box where you can view and perform operations on the artifacts in the underlying SQL Server database. For more information about the GUI provided by the SQL adapter, see [Browse, search, and get metadata for SQL operations using the SQL adapter](../../adapters-and-accelerators/adapter-sql/browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter.md).  

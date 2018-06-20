@@ -24,21 +24,21 @@ The receive port always has an associated receive location that you must configu
   
 ### To add a receive port  
   
-1.  In the BizTalk Server Administration Console, right-click **Receive Ports**, point to **New**, and then click **One-way Receive Port**.  
+1. In the BizTalk Server Administration Console, right-click **Receive Ports**, point to **New**, and then click **One-way Receive Port**.  
   
-2.  In the Receive Port Properties dialog box, in the **Name** box, type **MT103_FlatFile_ReceivePort**.  
+2. In the Receive Port Properties dialog box, in the **Name** box, type **MT103_FlatFile_ReceivePort**.  
   
-3.  Click **Apply** to bind the port, and then click **OK**.  
+3. Click **Apply** to bind the port, and then click **OK**.  
   
-4.  In the BizTalk Server Administration Console, right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.  
+4. In the BizTalk Server Administration Console, right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.  
   
-5.  In the Select a Receive Port dialog box, click **MT103_FlatFile_ReceivePort**, and then click **OK**.  
+5. In the Select a Receive Port dialog box, click **MT103_FlatFile_ReceivePort**, and then click **OK**.  
   
-6.  In the Receive Location Properties dialog box, in the **Name** box, type **MT103_FlatFile_ReceiveLocation**.  
+6. In the Receive Location Properties dialog box, in the **Name** box, type **MT103_FlatFile_ReceiveLocation**.  
   
-7.  In the **Transport** section, for the **Type** text box, click the drop-down list, and then select **FILE**.  
+7. In the **Transport** section, for the **Type** text box, click the drop-down list, and then select **FILE**.  
   
-8.  Click the **Configure** button to the right of the Type drop-down list.  
+8. Click the **Configure** button to the right of the Type drop-down list.  
   
 9. In the FILE Transport Properties dialog box, click **Browse**.  
   
@@ -56,4 +56,4 @@ The receive port always has an associated receive location that you must configu
   
 16. In the BizTalk Server Administration Console, click **Receive Locations**, right-click **MT103_FlatFile_ReceiveLocation**, and then click **Enable**.  
   
- Proceed to [Lesson 2: Adding an XML Send Port](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-an-xml-send-port.md).
+    Proceed to [Lesson 2: Adding an XML Send Port](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-an-xml-send-port.md).

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11063
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11063|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_PS_MIIS_CALLBACK_ACCESS_DENIED|  
-|Message Text|Password sync server (for MIIS) access denied.%r|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           11063                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |          SSO_ERROR_PS_MIIS_CALLBACK_ACCESS_DENIED          |
+|  Message Text   |      Password sync server (for MIIS) access denied.%r      |
   
 ## Explanation  
  MIIS Callback access has been denied. The most likely cause of this error is failure to use the Kerberos authentication between the ENTSSO system and MIIS.  

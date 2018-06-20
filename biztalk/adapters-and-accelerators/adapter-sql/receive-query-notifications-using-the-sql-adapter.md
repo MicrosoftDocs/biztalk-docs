@@ -22,18 +22,18 @@ The adapter clients can subscribe to receive query notifications about the data 
   
  A typical query notification involves the following:  
   
--   The adapter clients must specify `Notification` as the inbound operation in the **InboundOperationType** binding property. The default value for this binding property is `Polling`.  
+- The adapter clients must specify `Notification` as the inbound operation in the **InboundOperationType** binding property. The default value for this binding property is `Polling`.  
   
--   The adapter clients must specify a SQL statement to register for query notifications in the **NotificationStatement** binding property. The adapter client gets a notification from SQL Server as soon as the result set for the specified SQL statement changes.  
+- The adapter clients must specify a SQL statement to register for query notifications in the **NotificationStatement** binding property. The adapter client gets a notification from SQL Server as soon as the result set for the specified SQL statement changes.  
   
-    > [!IMPORTANT]
-    >  To receive notifications, the SQL statement for the notification subscription *must* meet certain criteria. For information about SQL statements that can be used for query notifications, see [http://go.microsoft.com/fwlink/?LinkId=122160](http://go.microsoft.com/fwlink/?LinkId=122160).  
+  > [!IMPORTANT]
+  >  To receive notifications, the SQL statement for the notification subscription *must* meet certain criteria. For information about SQL statements that can be used for query notifications, see [http://go.microsoft.com/fwlink/?LinkId=122160](http://go.microsoft.com/fwlink/?LinkId=122160).  
   
--   The adapter clients must specify whether the adapter sends a notification to the adapter clients as soon as the listener is started in the **NotifyOnListenerStart** binding property.  
+- The adapter clients must specify whether the adapter sends a notification to the adapter clients as soon as the listener is started in the **NotifyOnListenerStart** binding property.  
   
--   The notification is sent to the adapter clients as and when the result set of the SQL statement specified in the **NotificationStatement** binding property is changed.  
+- The notification is sent to the adapter clients as and when the result set of the SQL statement specified in the **NotificationStatement** binding property is changed.  
   
- For more information about these binding properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
+  For more information about these binding properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
   
 > [!NOTE]
 >  The notification subscription is always committed, regardless of whether the transaction in which the statement ran was committed or rolled back. Therefore, the notification operation might not guarantee that the result of the query subscribed for notification has changed. For example, suppose data is inserted in a table row (subscribed for notification) in a transaction, and immediately a notification is sent to the adapter informing about the change (insert). Due to some reason, the transaction rolls back, and effectively no data is inserted into the table row. However, the SQL Server does not send a notification to the adapter about the transaction roll back. For information about query notifications in SQL Server, see [http://go.microsoft.com/fwlink/?LinkId=145367](http://go.microsoft.com/fwlink/?LinkId=145367).  

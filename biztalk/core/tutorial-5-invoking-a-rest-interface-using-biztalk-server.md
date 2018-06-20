@@ -43,13 +43,13 @@ https://api.datamarket.azure.com/oakleaf/US_Air_Carrier_Flight_Delays_Incr/On_Ti
   
 #### To subscribe to the data feed  
   
-1.  Log in to the [!INCLUDE[winazure](../includes/winazure-md.md)] Marketplace using your Microsoft account.  
+1. Log in to the [!INCLUDE[winazure](../includes/winazure-md.md)] Marketplace using your Microsoft account.  
   
-2.  In the **Data** tab, locate and click the **US Air Carrier Flight Delays** service.  
+2. In the **Data** tab, locate and click the **US Air Carrier Flight Delays** service.  
   
-3.  On the data service page, click **Sign Up**. On the Sign Up page, accept the terms of agreement and then click **Sign up** again.  
+3. On the data service page, click **Sign Up**. On the Sign Up page, accept the terms of agreement and then click **Sign up** again.  
   
-4.  In the **My Account** tab, retrieve the credentials to access the data service. The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels. You will need these credentials while configuring the **WCF-WebHttp** send port.  
+4. In the **My Account** tab, retrieve the credentials to access the data service. The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels. You will need these credentials while configuring the **WCF-WebHttp** send port.  
   
 ## Set up Your Computer  
  To configure the scenario used in this tutorial you must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installed and configured on your computer. If you want to provision a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer on a Windows Azure VM, follow the instructions at [Configuring BizTalk Server on an Azure VM](http://msdn.microsoft.com/library/azure/jj248689.aspx).  

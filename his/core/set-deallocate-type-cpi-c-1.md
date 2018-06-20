@@ -64,14 +64,14 @@ CM_ENTRY Set_Deallocate_Type( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The value specified by *conversation_ID* or *deallocate_type* is invalid.  
+- The value specified by *conversation_ID* or *deallocate_type* is invalid.  
   
--   The *deallocate_type* parameter specifies CM_DEALLOCATE_CONFIRM, but the conversations synchronization level is set to CM_NONE.  
+- The *deallocate_type* parameter specifies CM_DEALLOCATE_CONFIRM, but the conversations synchronization level is set to CM_NONE.  
   
--   The address of a variable is invalid.  
+- The address of a variable is invalid.  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
 ## State Changes  
  The conversation can be in any state except RESET.  

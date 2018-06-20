@@ -25,24 +25,24 @@ You create a Web message part from a schema type by using a **Transform** shape.
   
 ### To construct a Web message part from a schema type  
   
-1.  Add a new map. For information about creating maps, see [How to Create New Maps](../core/how-to-create-new-maps.md).  
+1. Add a new map. For information about creating maps, see [How to Create New Maps](../core/how-to-create-new-maps.md).  
   
-2.  In BizTalk Mapper, click **Open Destination Schema** in the **Destination Schema** pane of the map and in the **BizTalk Type Picker** dialog box, expand the **Schemas** node, select the schema for the added Web reference, and then click **OK**.  
+2. In BizTalk Mapper, click **Open Destination Schema** in the **Destination Schema** pane of the map and in the **BizTalk Type Picker** dialog box, expand the **Schemas** node, select the schema for the added Web reference, and then click **OK**.  
   
-    > [!NOTE]
-    >  The format of the Web reference schema is **\<project default namespace\>.\<Web reference name\>.Reference**.  
+   > [!NOTE]
+   >  The format of the Web reference schema is **\<project default namespace\>.\<Web reference name\>.Reference**.  
   
-3.  In the **Root Node for Target Schema** dialog box, select a root node for the destination schema, and then click **OK**. For more information about how to determine a root node for a Web message part type, see [How to Determine a Web Message Part Type](../core/how-to-determine-a-web-message-part-type.md).  
+3. In the **Root Node for Target Schema** dialog box, select a root node for the destination schema, and then click **OK**. For more information about how to determine a root node for a Web message part type, see [How to Determine a Web Message Part Type](../core/how-to-determine-a-web-message-part-type.md).  
   
-4.  Click **Open Source Schema** in the **Source Schema** pane of the map and in the **BizTalk Type Picker** dialog box, expand the **Schemas** node, select the source schema to map data from, and then click **OK**.  
+4. Click **Open Source Schema** in the **Source Schema** pane of the map and in the **BizTalk Type Picker** dialog box, expand the **Schemas** node, select the source schema to map data from, and then click **OK**.  
   
-5.  In the BizTalk Mapper, create links between the source schema and target schema.  
+5. In the BizTalk Mapper, create links between the source schema and target schema.  
   
-6.  Open an existing orchestration (or create a new orchestration), open the **Toolbox**, and click the **BizTalk Orchestrations** tab.  
+6. Open an existing orchestration (or create a new orchestration), open the **Toolbox**, and click the **BizTalk Orchestrations** tab.  
   
-7.  Drag a **Construct Message** shape to the orchestration.  
+7. Drag a **Construct Message** shape to the orchestration.  
   
-8.  Edit the **Message Constructed** property to include the message instance that yo created for the Web message type.  
+8. Edit the **Message Constructed** property to include the message instance that yo created for the Web message type.  
   
 9. Drag a **Transform** shape onto the **Construct Message** shape and double-click to open the **Transform Configuration** dialog box.  
   
@@ -52,9 +52,9 @@ You create a Web message part from a schema type by using a **Transform** shape.
   
 12. In the **Transform** pane, select **Destination**. In the **Destination Transform** pane, select the Web message instance from the list box, and then click **OK**.  
   
- For more information about using the **Transform Configuration** dialog box, see [How to Configure the Transform Shape](../core/how-to-configure-the-transform-shape.md).  
+    For more information about using the **Transform Configuration** dialog box, see [How to Configure the Transform Shape](../core/how-to-configure-the-transform-shape.md).  
   
- You can also use this procedure to map the Web method response message instance to another Web message instance.  
+    You can also use this procedure to map the Web method response message instance to another Web message instance.  
   
 ## See Also  
  [Constructing Web Messages](../core/constructing-web-messages.md)

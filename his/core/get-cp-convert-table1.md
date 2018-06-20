@@ -61,29 +61,29 @@ struct get_cp_convert_table {
  *source_cp*  
  Supplied parameter. Specifies the source code page from which characters are converted. The allowed code pages (decimal values) are as follows:  
   
--   ASCII 437, 850, 860, 863, 865  
+- ASCII 437, 850, 860, 863, 865  
   
--   EBCDIC 037, 273, 277, 278, 280, 284, 285, 297, 500  
+- EBCDIC 037, 273, 277, 278, 280, 284, 285, 297, 500  
   
- User-defined code pages in the range from 65280 through 65535 are also allowed.  
+  User-defined code pages in the range from 65280 through 65535 are also allowed.  
   
- ASCII code pages are sometimes referred to as PC code pages; EBCDIC code pages are sometimes referred to as host code pages.  
+  ASCII code pages are sometimes referred to as PC code pages; EBCDIC code pages are sometimes referred to as host code pages.  
   
- *target_cp*  
- Supplied parameter. Specifies the target code page to which characters are converted. For allowed code pages, see the preceding definition for **source_cp**.  
+  *target_cp*  
+  Supplied parameter. Specifies the target code page to which characters are converted. For allowed code pages, see the preceding definition for **source_cp**.  
   
- *conv_tbl_addr*  
- Supplied parameter. Specifies the address of the buffer to contain the 256-byte conversion table. The buffer must be in a writable segment and long enough to contain the table.  
+  *conv_tbl_addr*  
+  Supplied parameter. Specifies the address of the buffer to contain the 256-byte conversion table. The buffer must be in a writable segment and long enough to contain the table.  
   
- *char_not_fnd*  
- Supplied parameter. Specifies the action to take if a character in the source code page does not exist in the target code page:  
+  *char_not_fnd*  
+  Supplied parameter. Specifies the action to take if a character in the source code page does not exist in the target code page:  
   
--   Use SV_ROUND_TRIP to store a unique value in the conversion table for each source code page character.  
+- Use SV_ROUND_TRIP to store a unique value in the conversion table for each source code page character.  
   
--   Use SV_SUBSTITUTE to store a substitute character (specified by **substitute_char**) in the conversion table.  
+- Use SV_SUBSTITUTE to store a substitute character (specified by **substitute_char**) in the conversion table.  
   
- *substitute_char*  
- Supplied parameter. Specifies the character to store in the conversion table when a character from the source code page has no equivalent in the target code page.  
+  *substitute_char*  
+  Supplied parameter. Specifies the character to store in the conversion table when a character from the source code page has no equivalent in the target code page.  
   
 ## Return Codes  
  SV_OK  
@@ -129,42 +129,42 @@ struct get_cp_convert_table {
 ## Remarks  
  The type A character set consists of:  
   
--   Uppercase letters.  
+- Uppercase letters.  
   
--   Numerals 0 through 9.  
+- Numerals 0 through 9.  
   
--   Special characters $, #, @, and space.  
+- Special characters $, #, @, and space.  
   
- This character set is supported by a system-supplied type A conversion table.  
+  This character set is supported by a system-supplied type A conversion table.  
   
- The first character of the source string must be an uppercase letter or the special character $, #, or @. Spaces are allowed only in trailing positions. Lowercase ASCII letters are translated to uppercase EBCDIC letters when the direction is ASCII to EBCDIC.  
+  The first character of the source string must be an uppercase letter or the special character $, #, or @. Spaces are allowed only in trailing positions. Lowercase ASCII letters are translated to uppercase EBCDIC letters when the direction is ASCII to EBCDIC.  
   
- The type AE character set consists of:  
+  The type AE character set consists of:  
   
--   Uppercase letters.  
+- Uppercase letters.  
   
--   Lowercase letters.  
+- Lowercase letters.  
   
--   Numerals 0 through 9.  
+- Numerals 0 through 9.  
   
--   Special characters $, #, @, period, and space.  
+- Special characters $, #, @, period, and space.  
   
- This character set is supported by a system-supplied type AE conversion table.  
+  This character set is supported by a system-supplied type AE conversion table.  
   
- The first character of the source string can be any character in the character set except the space.  
+  The first character of the source string can be any character in the character set except the space.  
   
- During conversion, embedded blanks (including blanks in the first position) are converted to 0x00. Although such a conversion will complete, CONVERSION_ERROR is returned as the secondary return code, indicating that the CSV library has completed an irreversible conversion on the supplied data.  
+  During conversion, embedded blanks (including blanks in the first position) are converted to 0x00. Although such a conversion will complete, CONVERSION_ERROR is returned as the secondary return code, indicating that the CSV library has completed an irreversible conversion on the supplied data.  
   
- For Windows, a description of COMTBLG should point to the Windows registry under **\SnaBase\Parameters\Client**. For the OS/2 operating system, the directory and file containing the table must be specified by the environment variable COMTBLG. (If the file is not found, the system returns the SV_TABLE_ERROR parameter check.).  
+  For Windows, a description of COMTBLG should point to the Windows registry under **\SnaBase\Parameters\Client**. For the OS/2 operating system, the directory and file containing the table must be specified by the environment variable COMTBLG. (If the file is not found, the system returns the SV_TABLE_ERROR parameter check.).  
   
- The SV_ROUND_TRIP value for **char_not_fnd** is useful only if you build a second conversion table to convert between the same two code pages in the reverse direction. If you specify the SV_ROUND_TRIP value in building both conversion tables, any character translated from one code page to the other and then back will be unchanged.  
+  The SV_ROUND_TRIP value for **char_not_fnd** is useful only if you build a second conversion table to convert between the same two code pages in the reverse direction. If you specify the SV_ROUND_TRIP value in building both conversion tables, any character translated from one code page to the other and then back will be unchanged.  
   
- When using the SV_SUBSTITUTE value for **char_not_fnd**, converting the translated character string back to the original code page will not necessarily re-create the original character string.  
+  When using the SV_SUBSTITUTE value for **char_not_fnd**, converting the translated character string back to the original code page will not necessarily re-create the original character string.  
   
- Use **substitute_char** only if **char_not_fnd** is set to SV_SUBSTITUTE.  
+  Use **substitute_char** only if **char_not_fnd** is set to SV_SUBSTITUTE.  
   
- The value stored in the conversion table is the ASCII value associated with the character. If the table is used for conversion from ASCII to EBCDIC, the character that appears in the converted string is the character associated with the numeric EBCDIC value rather than ASCII.  
+  The value stored in the conversion table is the ASCII value associated with the character. If the table is used for conversion from ASCII to EBCDIC, the character that appears in the converted string is the character associated with the numeric EBCDIC value rather than ASCII.  
   
- For example, if you supply the underscore (_) character (ASCII value F6) while creating an ASCII to EBCDIC conversion table, the character that appears in the converted strings will be 6, the character associated with the value F6 in EBCDIC. To use the \_ character as the substitute character in an ASCII to EBCDIC conversion table, you should supply the value E1 (the value associated with the \_ character in EBCDIC) rather than the actual character.  
+  For example, if you supply the underscore (*) character (ASCII value F6) while creating an ASCII to EBCDIC conversion table, the character that appears in the converted strings will be 6, the character associated with the value F6 in EBCDIC. To use the \\* character as the substitute character in an ASCII to EBCDIC conversion table, you should supply the value E1 (the value associated with the \_ character in EBCDIC) rather than the actual character.  
   
- A code page is a table that associates specific ASCII or EBCDIC values with specific characters. If a character from the source code page does not exist in the target code page, the translated (target) string differs from the original (source) string.
+  A code page is a table that associates specific ASCII or EBCDIC values with specific characters. If a character from the source code page does not exist in the target code page, the translated (target) string differs from the original (source) string.

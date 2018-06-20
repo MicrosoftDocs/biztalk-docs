@@ -26,25 +26,25 @@ For each BizTalk group, you add one Master MessageBox database. All the subseque
 ## How to Add a Secondary MessageBox Database  
  There are two ways to add secondary MessageBox databases:  
   
--   Add the secondary MessageBox database on the same physical server.  
+- Add the secondary MessageBox database on the same physical server.  
   
-     Do this if the existing MessageBox physical server has enough CPU and I/O resources and is only bottlenecked by lock contention. Create the secondary MessageBox database on separate IO drives.  
+   Do this if the existing MessageBox physical server has enough CPU and I/O resources and is only bottlenecked by lock contention. Create the secondary MessageBox database on separate IO drives.  
   
-     Advantages:  
+   Advantages:  
   
-    -   The extra CPU headroom can be utilized by another message-box  
+  -   The extra CPU headroom can be utilized by another message-box  
   
-    -   Fewer SQL server licenses are required  
+  -   Fewer SQL server licenses are required  
   
-    -   Network hop is eliminated  
+  -   Network hop is eliminated  
   
--   Add the secondary MessageBox database on a different physical server  
+- Add the secondary MessageBox database on a different physical server  
   
-     In this case, use a dedicated physical server with its own IO as the extra MessageBox database.  
+   In this case, use a dedicated physical server with its own IO as the extra MessageBox database.  
   
- The following figure shows a scenario where SQL tier is scaled-out from one MessageBox database to three MessageBoxes databases.  
+  The following figure shows a scenario where SQL tier is scaled-out from one MessageBox database to three MessageBoxes databases.  
   
- ![Scale out MSGBOX](../core/media/scaleoutmsgbox.gif "ScaleOutMSGBOX")  
+  ![Scale out MSGBOX](../core/media/scaleoutmsgbox.gif "ScaleOutMSGBOX")  
   
 ## When to Scale-out the MessageBox database  
   

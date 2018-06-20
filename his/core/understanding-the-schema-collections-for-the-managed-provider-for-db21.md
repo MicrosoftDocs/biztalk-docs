@@ -18,35 +18,35 @@ The following tables describe the schema collections that are implemented by the
   
  **Common Schema Collections**  
   
--   MetaDataCollections  
+- MetaDataCollections  
   
--   DataSourceInformation  
+- DataSourceInformation  
   
--   DataTypes  
+- DataTypes  
   
--   Restrictions  
+- Restrictions  
   
--   ReservedWords  
+- ReservedWords  
   
- **Provider-Specific Collections**  
+  **Provider-Specific Collections**  
   
--   Tables  
+- Tables  
   
--   Columns  
+- Columns  
   
--   Procedures  
+- Procedures  
   
--   ProcedureParameters  
+- ProcedureParameters  
   
--   Incexes  
+- Incexes  
   
--   PrimaryKeys  
+- PrimaryKeys  
   
--   ForeignKeys  
+- ForeignKeys  
   
--   TablePrivileges  
+- TablePrivileges  
   
--   Statistics  
+- Statistics  
   
 ## Example  
   

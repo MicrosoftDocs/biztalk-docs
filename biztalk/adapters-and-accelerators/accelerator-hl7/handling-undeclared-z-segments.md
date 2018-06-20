@@ -28,7 +28,7 @@ There are two types of Z segments: declared Z segments and undeclared Z segments
   
 > [!NOTE]
 >  The Zpart must always contain data. Specifying null for the stream results in an error condition. If no data is included in the Zpart, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] inserts the word "Empty" in the Zpart. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] uses the context property **ZPartPresent** to determine whether to serialize the Z part.  
-  
+> 
 > [!CAUTION]
 >  [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] has tested Zsegments with ANSI character sets, with the result that Zsegment behavior with ANSI characters is predictable. However, using other character sets in Zsegments may result in unpredictable behavior.  
   

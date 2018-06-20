@@ -27,24 +27,24 @@ In this step, you import the certificates you created in [Step 2: Creating Publi
   
 ### To import the Contoso private certificates on the Contoso computer  
   
-1.  On the Contoso computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. On the Contoso computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to **\<***drive***\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.  
+2. At the command prompt, move to **\<**<em>drive</em>**\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.  
   
-3.  At the command prompt, type **CertWizard /Privatekey "\<***drive***\>:\Certs\Contoso Private Encryption.pfx"**, and then press **Enter**.  
+3. At the command prompt, type **CertWizard /Privatekey "\<**<em>drive</em>**\>:\Certs\Contoso Private Encryption.pfx"**, and then press **Enter**.  
   
-4.  At the **Please enter the password for the certificate file** prompt, type **mysecret**, and then press **Enter**.  
+4. At the **Please enter the password for the certificate file** prompt, type **mysecret**, and then press **Enter**.  
   
-5.  At the **Enter password for identity <contoso_machine>\HostSvc** prompt, type the HostSvc account password, and then press **Enter**.  
+5. At the **Enter password for identity <contoso_machine>\HostSvc** prompt, type the HostSvc account password, and then press **Enter**.  
   
-    > [!NOTE]
-    >  If your BizTalkServerApplication runs under an account name other than HostSvc, the prompt must be different.  
+   > [!NOTE]
+   >  If your BizTalkServerApplication runs under an account name other than HostSvc, the prompt must be different.  
   
-6.  At the **This home certificate will be used for** prompt, type **D**, and then press **Enter**.  
+6. At the **This home certificate will be used for** prompt, type **D**, and then press **Enter**.  
   
-     The CertWizard imports the certificate into the \Personal\Certificates store for the user accounts that BizTalkServerApplication and BizTalkServerIsolatedHost hosts run under.  
+    The CertWizard imports the certificate into the \Personal\Certificates store for the user accounts that BizTalkServerApplication and BizTalkServerIsolatedHost hosts run under.  
   
-7.  Repeat steps 3-6 for the Contoso Private Signature.pfx certificate specifying that it is a signature certificate by typing **S** at the **This home certificate will be used for** prompt noted in step 6.  
+7. Repeat steps 3-6 for the Contoso Private Signature.pfx certificate specifying that it is a signature certificate by typing **S** at the **This home certificate will be used for** prompt noted in step 6.  
   
 ### To import the Fabrikam public certificates on the Contoso computer  
   

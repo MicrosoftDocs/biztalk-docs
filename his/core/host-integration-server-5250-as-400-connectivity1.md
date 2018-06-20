@@ -23,17 +23,17 @@ Communications in a peer-oriented network
   
  In an APPN network, Host Integration Server computers emulate PU 2.1 devices and can connect to an AS/400 using several connection methods:  
   
--   Token Ring  
+- Token Ring  
   
--   Ethernet  
+- Ethernet  
   
--   Fast Ethernet  
+- Fast Ethernet  
   
--   FDDI  
+- FDDI  
   
--   SDLC  
+- SDLC  
   
- Frame relay or bridging solutions can also be implemented to transport SNA traffic over wide area network (WAN) connections in branch-based deployment models.  
+  Frame relay or bridging solutions can also be implemented to transport SNA traffic over wide area network (WAN) connections in branch-based deployment models.  
   
 ## See Also  
  [APPC](../core/appc1.md)   

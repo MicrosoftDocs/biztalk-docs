@@ -21,29 +21,29 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several sample
   
 ## Install the sample applications  
   
-1.  Create a folder named Projects in the root of your C: drive, and create a subfolder named Microsoft.Practices.ESB within this folder.  
+1. Create a folder named Projects in the root of your C: drive, and create a subfolder named Microsoft.Practices.ESB within this folder.  
   
-    > [!NOTE]
-    >  In the current release, the supported installation is for the files to reside in the folder C:\Projects\Microsoft.Practices.ESB. The BizTalk binding files that ship with the samples depend on this path.  
+   > [!NOTE]
+   >  In the current release, the supported installation is for the files to reside in the folder C:\Projects\Microsoft.Practices.ESB. The BizTalk binding files that ship with the samples depend on this path.  
   
-2.  When you install the [ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md), it includes a .zip file called ESBSource.zip in the installation location you specified (by default, C:\Program Files\\[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]). Uncompress the ESBSource.zip file into the C:\Projects\Microsoft.Practices.ESB folder. This creates folders named **Keys** and **Source** that contain the sample key and the samples with source code. The Source folder contains the source code for the sample application, and the Keys folder contains the public keys used to sign the assemblies in the sample applications.  
+2. When you install the [ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md), it includes a .zip file called ESBSource.zip in the installation location you specified (by default, C:\Program Files\\[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]). Uncompress the ESBSource.zip file into the C:\Projects\Microsoft.Practices.ESB folder. This creates folders named **Keys** and **Source** that contain the sample key and the samples with source code. The Source folder contains the source code for the sample application, and the Keys folder contains the public keys used to sign the assemblies in the sample applications.  
   
-3.  Before you run the samples, remove the read-only attribute on the C:\Projects\Microsoft.Practices.ESB\ folder so that the samples install correctly.  
+3. Before you run the samples, remove the read-only attribute on the C:\Projects\Microsoft.Practices.ESB\ folder so that the samples install correctly.  
   
-4.  If you have not used PowerShell scripts before, you must open PowerShell as an Administrator and run the following command:  
+4. If you have not used PowerShell scripts before, you must open PowerShell as an Administrator and run the following command:  
   
-    ```  
-    set-executionpolicy unrestricted  
-    ```  
+   ```  
+   set-executionpolicy unrestricted  
+   ```  
   
-    > [!NOTE]
-    >  For more information about PowerShell, see the [Windows PowerShell Blog](http://go.microsoft.com/fwlink/?LinkId=187593) ([http://go.microsoft.com/fwlink/?LinkId=187593](http://go.microsoft.com/fwlink/?LinkId=187593)) and [Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=187594) ([http://go.microsoft.com/fwlink/?LinkId=187594](http://go.microsoft.com/fwlink/?LinkId=187594)) on MSDN.  
+   > [!NOTE]
+   >  For more information about PowerShell, see the [Windows PowerShell Blog](http://go.microsoft.com/fwlink/?LinkId=187593) ([http://go.microsoft.com/fwlink/?LinkId=187593](http://go.microsoft.com/fwlink/?LinkId=187593)) and [Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=187594) ([http://go.microsoft.com/fwlink/?LinkId=187594](http://go.microsoft.com/fwlink/?LinkId=187594)) on MSDN.  
   
-5.  Open a command prompt as an administrator and run the following command to ensure WCF script maps are registered:  
+5. Open a command prompt as an administrator and run the following command to ensure WCF script maps are registered:  
   
-    ```  
-    C:\Windows\Microsoft.NET\Framework\v3.0\Windows Communication Foundation>ServiceModelReg.exe -r -y  
-    ```  
+   ```  
+   C:\Windows\Microsoft.NET\Framework\v3.0\Windows Communication Foundation>ServiceModelReg.exe -r -y  
+   ```  
   
 > [!NOTE]
 >  You need to open the ESBSource.zip file in order to get an access to the Samples code.  

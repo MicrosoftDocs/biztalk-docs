@@ -16,17 +16,17 @@ manager: "anneta"
 # Confirmation Processing
 The sequence of events for confirmation processing is as follows:  
   
-1.  Establish the synchronization level.  
+1. Establish the synchronization level.  
   
-2.  Send a confirmation request.  
+2. Send a confirmation request.  
   
-3.  Receive data and confirmation request.  
+3. Receive data and confirmation request.  
   
-4.  Respond to the confirmation request.  
+4. Respond to the confirmation request.  
   
-5.  Deallocate the conversation.  
+5. Deallocate the conversation.  
   
- Using confirmation processing, a TP sends a confirmation request with the data; the partner TP confirms receipt of the data or indicates that an error occurred. Each time the two TPs exchange a confirmation request and response, they are synchronized.  
+   Using confirmation processing, a TP sends a confirmation request with the data; the partner TP confirms receipt of the data or indicates that an error occurred. Each time the two TPs exchange a confirmation request and response, they are synchronized.  
   
 > [!NOTE]
 >  Although the example in this section does not show this, any TP can send or receive data, regardless of whether the TP is the invoking TP or the invokable TP.  
@@ -63,20 +63,20 @@ The sequence of events for confirmation processing is as follows:
 ## Sending a Confirmation Request  
  [MC_SEND_DATA](./mc-send-data1.md) with type AP_SEND_DATA_CONFIRM has two effects:  
   
--   It flushes the local LU's send buffer and sends any data contained in the buffer to the partner TP.  
+- It flushes the local LU's send buffer and sends any data contained in the buffer to the partner TP.  
   
--   It sends a confirmation request that the partner TP receives through the **what_rcvd** parameter of a receive verb.  
+- It sends a confirmation request that the partner TP receives through the **what_rcvd** parameter of a receive verb.  
   
- After issuing **MC_SEND_DATA**, the local TP waits for confirmation from the partner TP.  
+  After issuing **MC_SEND_DATA**, the local TP waits for confirmation from the partner TP.  
   
 ## Receiving Data and Confirmation Request  
  The **what_rcvd** parameter of [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md) indicates:  
   
--   Status of the data received: complete or incomplete.  
+- Status of the data received: complete or incomplete.  
   
--   Future processing expected of the local TP.  
+- Future processing expected of the local TP.  
   
- In the example, **what_rcvd** is AP_DATA_COMPLETE_CONFIRM, indicating that the status is complete and a confirmation is requested.  
+  In the example, **what_rcvd** is AP_DATA_COMPLETE_CONFIRM, indicating that the status is complete and a confirmation is requested.  
   
 ## Responding to a Confirmation Request  
  The partner TP issues [MC_CONFIRMED](./mc-confirmed1.md) to confirm receipt of data. This frees the local TP to resume processing.  

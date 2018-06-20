@@ -32,14 +32,14 @@ This topic describes how to unenlist an orchestration by using the BizTalk Serve
   
 ### To unenlist an orchestration  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to unenlist.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to unenlist.  
   
-3.  Click **Orchestrations**, right-click the orchestration to unenlist, and then click **Unenlist**.  
+3. Click **Orchestrations**, right-click the orchestration to unenlist, and then click **Unenlist**.  
   
-    > [!NOTE]
-    >  To unenlist multiple orchestrations at once, hold down the shift key and select each orchestration to unenlist, right-click an orchestration, and then click **Unenlist**.  
+   > [!NOTE]
+   >  To unenlist multiple orchestrations at once, hold down the shift key and select each orchestration to unenlist, right-click an orchestration, and then click **Unenlist**.  
   
 ## See Also  
  [Managing Orchestrations](../core/managing-orchestrations.md)   

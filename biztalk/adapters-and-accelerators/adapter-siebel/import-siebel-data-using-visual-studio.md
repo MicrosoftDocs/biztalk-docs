@@ -20,39 +20,39 @@ This section provides information about how to use Microsoft [!INCLUDE[btsVStudi
 ## Prerequisites  
  Before performing the procedures provided in this topic, make sure:  
   
--   The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] is installed on the computer.  
+- The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] is installed on the computer.  
   
--   Microsoft Visual Studio is installed on the computer.  
+- Microsoft Visual Studio is installed on the computer.  
   
 ## Import in Visual Studio  
  
-1.  Start [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and create an Integration Service project.  
+1. Start [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and create an Integration Service project.  
   
-2.  From the **Project** menu, select **SSIS Import and Export Wizard**. This starts the SQL Server Import and Export Wizard.  
+2. From the **Project** menu, select **SSIS Import and Export Wizard**. This starts the SQL Server Import and Export Wizard.  
   
-3.  Read the information on the Welcome screen, and then click **Next**.  
+3. Read the information on the Welcome screen, and then click **Next**.  
   
-4.  In the **Choose a Data Source** dialog box, from the **Data Source** drop-down list **.NET Framework Data Provider for Siebel eBusiness Applications**. Specify values for the different connection properties for the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] connection string. For more information about the connection string properties, see [Data provider properties for the Siebel connection string](../../adapters-and-accelerators/adapter-siebel/data-provider-properties-for-the-siebel-connection-string.md).  
+4. In the **Choose a Data Source** dialog box, from the **Data Source** drop-down list **.NET Framework Data Provider for Siebel eBusiness Applications**. Specify values for the different connection properties for the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] connection string. For more information about the connection string properties, see [Data provider properties for the Siebel connection string](../../adapters-and-accelerators/adapter-siebel/data-provider-properties-for-the-siebel-connection-string.md).  
   
-     Click **Next**.  
+    Click **Next**.  
   
-5.  In the **Choose a Destination** dialog box:  
+5. In the **Choose a Destination** dialog box:  
   
-    1.  From the **Destination** drop-down list, select **SQL Native Client**.  
+   1.  From the **Destination** drop-down list, select **SQL Native Client**.  
   
-    2.  From the **Server name** drop-down list, select a SQL Server name.  
+   2.  From the **Server name** drop-down list, select a SQL Server name.  
   
-    3.  Select an authentication mode.  
+   3.  Select an authentication mode.  
   
-    4.  From the **Database** drop-down list, select the database to which you want to import the Siebel table.  
+   4.  From the **Database** drop-down list, select the database to which you want to import the Siebel table.  
   
-    5.  Click **Next**.  
+   5.  Click **Next**.  
   
-6.  In the **Specify Table Copy or Query** dialog box, choose the **Write a query to specify the data to transfer** option.  
+6. In the **Specify Table Copy or Query** dialog box, choose the **Write a query to specify the data to transfer** option.  
   
-7.  In the **Provide a Source Query** dialog box, specify a SELECT query to filter the data to be imported into the SQL Server. For more information about the grammar for a SELECT query for the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], see [Syntax for a SELECT Statement in Siebel](../../adapters-and-accelerators/adapter-siebel/syntax-for-a-select-statement-in-siebel.md).  
+7. In the **Provide a Source Query** dialog box, specify a SELECT query to filter the data to be imported into the SQL Server. For more information about the grammar for a SELECT query for the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], see [Syntax for a SELECT Statement in Siebel](../../adapters-and-accelerators/adapter-siebel/syntax-for-a-select-statement-in-siebel.md).  
   
-8.  To validate the query, click the **Parse** button, click **OK** in the pop-up dialog box, and then click **Next**.  
+8. To validate the query, click the **Parse** button, click **OK** in the pop-up dialog box, and then click **Next**.  
   
 9. In the **Select Source Tables and Views** dialog box, select the check box against the source and destination tables. The source is the query you specified to retrieve data from Siebel. The destination will be the table that will be created in the SQL Server database.  
   
@@ -60,17 +60,17 @@ This section provides information about how to use Microsoft [!INCLUDE[btsVStudi
   
 11. In the **Column Mappings** dialog box, you can:  
   
-    -   Change the names of columns in the destination table.  
+    - Change the names of columns in the destination table.  
   
-    -   Ignore certain columns in the destination table.  
+    - Ignore certain columns in the destination table.  
   
-    -   Change the data type for fields in destination table.  
+    - Change the data type for fields in destination table.  
   
-    -   Change other field attributes such as nullable, size, precision, and scale.  
+    - Change other field attributes such as nullable, size, precision, and scale.  
   
-    -   Click **OK**.  
+    - Click **OK**.  
   
-     ![Column mappings between Siebel and SQL table](../../adapters-and-accelerators/adapter-siebel/media/a3047801-3fa6-496b-91d8-3888dfbb0169.gif "a3047801-3fa6-496b-91d8-3888dfbb0169")  
+      ![Column mappings between Siebel and SQL table](../../adapters-and-accelerators/adapter-siebel/media/a3047801-3fa6-496b-91d8-3888dfbb0169.gif "a3047801-3fa6-496b-91d8-3888dfbb0169")  
   
 12. In the **Select Source Tables and Views** dialog box, click **Next**.  
   

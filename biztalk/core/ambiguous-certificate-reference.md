@@ -17,15 +17,15 @@ manager: "anneta"
 # Ambiguous certificate reference
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Ambiguous certificate reference; more than one valid certificate found|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                         0                                          |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                                         0                                          |
+|  Message Text   |       Ambiguous certificate reference; more than one valid certificate found       |
   
 ## Explanation  
  More than one valid certificate was found.  
@@ -35,21 +35,21 @@ manager: "anneta"
   
 ## Verify certificate 
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and click **BizTalk Server Administration**.  
   
-2.  In the Console Root, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and expand **Applications**.  
+2. In the Console Root, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and expand **Applications**.  
   
-3.  Locate your application and then locate your transport.  
+3. Locate your application and then locate your transport.  
   
-4.  Right-click the transport name.  
+4. Right-click the transport name.  
   
-5.  Click **Properties**.  
+5. Click **Properties**.  
   
-6.  In the port **Type** list, select the correct port.  
+6. In the port **Type** list, select the correct port.  
   
-7.  Click **Configure**.  
+7. Click **Configure**.  
   
-8.  In the **WCF [***transport type***] Transport Properties** dialog box, click the **General** tab.  
+8. In the **WCF [**<em>transport type</em>**] Transport Properties** dialog box, click the **General** tab.  
   
 9. Click **Edit**.  
   
@@ -57,21 +57,21 @@ manager: "anneta"
   
 ## Verify a certificate for the WCF-Custom and the WCF-CustomIsolated adapters  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
   
-2.  In the Console Root, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and expand **Applications**.  
+2. In the Console Root, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and expand **Applications**.  
   
-3.  Locate your application and then locate your transport.  
+3. Locate your application and then locate your transport.  
   
-4.  Right-click the transport name.  
+4. Right-click the transport name.  
   
-5.  Click **Properties**.  
+5. Click **Properties**.  
   
-6.  In the port **Type** list, select the correct port.  
+6. In the port **Type** list, select the correct port.  
   
-7.  Click **Configure**.  
+7. Click **Configure**.  
   
-8.  In the **WCF [***transport type***] Transport Properties** dialog box, click the **Behavior** tab.  
+8. In the **WCF [**<em>transport type</em>**] Transport Properties** dialog box, click the **Behavior** tab.  
   
 9. Ensure the search criteria in the **Certificate Reference** section is configured properly to indicate only one certificate in the certificate **Store name**.  
   

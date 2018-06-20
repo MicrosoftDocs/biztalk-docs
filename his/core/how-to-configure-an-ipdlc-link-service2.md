@@ -16,15 +16,15 @@ manager: "anneta"
 # How to Configure an IPDLC Link Service
 ### To configure an IPDLC link service  
   
-1.  Retrieve the command prompt instructions.  
+1. Retrieve the command prompt instructions.  
   
-2.  If necessary, retrieve the adapter name.  
+2. If necessary, retrieve the adapter name.  
   
-3.  Create the link service.  
+3. Create the link service.  
   
-4.  Create the independent session.  
+4. Create the independent session.  
   
- The following code sample describes how to configure an IPDLC link service. The following table describes the relevant command prompt switches:  
+   The following code sample describes how to configure an IPDLC link service. The following table describes the relevant command prompt switches:  
   
 |Command line switch|Description|  
 |-------------------------|-----------------|  

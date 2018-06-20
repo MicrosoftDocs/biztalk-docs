@@ -29,59 +29,59 @@ The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnon
   
  The following must be true for the cleanup tool to run:  
   
--   You must be a member the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators groups.  
+- You must be a member the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators groups.  
   
--   [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] must be installed on the server on which you run the tool.  
+- [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] must be installed on the server on which you run the tool.  
   
--   MrsrConfiguration.dll, Shared.dll, and RuleEngineExtension.dll must be deployed on the server on which you run the tool.  
+- MrsrConfiguration.dll, Shared.dll, and RuleEngineExtension.dll must be deployed on the server on which you run the tool.  
   
 ## What the cleanup tool does  
  The A4SWIFT cleanup tool performs the following operations:  
   
--   Runs **BM Undeploy** against ForActivities.xml and MRSRBAM.xml  
+- Runs **BM Undeploy** against ForActivities.xml and MRSRBAM.xml  
   
--   Removes the FrrActivities_ConnectionStrings.xml and MRSRActivities_ConnectionStrings.xml files, if they exist  
+- Removes the FrrActivities_ConnectionStrings.xml and MRSRActivities_ConnectionStrings.xml files, if they exist  
   
--   Removes A4SWIFT 2.1 if it exists (if you have upgraded the server to [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)], but Setup has left A4SWIFT 2.1 installed) and deletes the A4SWIFT 2.1 folder  
+- Removes A4SWIFT 2.1 if it exists (if you have upgraded the server to [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)], but Setup has left A4SWIFT 2.1 installed) and deletes the A4SWIFT 2.1 folder  
   
--   Undeploys all A4SWIFT assemblies  
+- Undeploys all A4SWIFT assemblies  
   
--   Deletes the A4SWIFT Administrator group and the A4SWIFT Users group  
+- Deletes the A4SWIFT Administrator group and the A4SWIFT Users group  
   
--   Deletes the A4SWIFT database  
+- Deletes the A4SWIFT database  
   
--   Deletes the A4SWIFT virtual directory  
+- Deletes the A4SWIFT virtual directory  
   
--   Runs a complete silent uninstall of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] and deletes the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] folder (if selected)  
+- Runs a complete silent uninstall of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] and deletes the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] folder (if selected)  
   
- As it removes artifacts and undeploys assemblies, the cleanup tool also does the following:  
+  As it removes artifacts and undeploys assemblies, the cleanup tool also does the following:  
   
--   Starts Internet Information Services (IIS) Admin Service in order to run  
+- Starts Internet Information Services (IIS) Admin Service in order to run  
   
--   Stops and then restarts the MSSQLSERVER, SQLSERVERAGENT, BizTalk, and Enterprise Single Sign-On services  
+- Stops and then restarts the MSSQLSERVER, SQLSERVERAGENT, BizTalk, and Enterprise Single Sign-On services  
   
 #### To run the A4SWIFT cleanup tool  
   
-1.  Prior to running the A4SWIFT cleanup tool, undeploy any project that refers to any of the A4SWIFT default assemblies.  
+1. Prior to running the A4SWIFT cleanup tool, undeploy any project that refers to any of the A4SWIFT default assemblies.  
   
-2.  Open a command prompt and move to \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools.  
+2. Open a command prompt and move to \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools.  
   
-3.  Type **A4SWIFTCleanupTool.exe** and then press **ENTER**.  
+3. Type **A4SWIFTCleanupTool.exe** and then press **ENTER**.  
   
-    > [!NOTE]
-    >  When you initially run A4SWIFTCleanupTool.exe, the tool displays a help screen, and prompts you to enter a parameter. The tool will not run until you enter the parameter.  
+   > [!NOTE]
+   >  When you initially run A4SWIFTCleanupTool.exe, the tool displays a help screen, and prompts you to enter a parameter. The tool will not run until you enter the parameter.  
   
-4.  Depending upon the actions that you want the tool to take, press one of the following keys, and then press **ENTER**:  
+4. Depending upon the actions that you want the tool to take, press one of the following keys, and then press **ENTER**:  
   
-    -   **0** for no actions taken (the default)  
+   - **0** for no actions taken (the default)  
   
-    -   **1** to remove all the local A4SWIFT resources on the computer, including the virtual directory and registry settings  
+   - **1** to remove all the local A4SWIFT resources on the computer, including the virtual directory and registry settings  
   
-    -   **2** to remove all the shared A4SWIFT resources on the BizTalk Server group, including Sharepoint Web folders, FIN message templates, BRE policies and vocabularies, BizTalk artifacts, and the A4SWIFT database  
+   - **2** to remove all the shared A4SWIFT resources on the BizTalk Server group, including Sharepoint Web folders, FIN message templates, BRE policies and vocabularies, BizTalk artifacts, and the A4SWIFT database  
   
-    -   **3** to remove all the local and shared resources  
+   - **3** to remove all the local and shared resources  
   
-    -   **4** to remove all the local and shared resources and uninstall the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] product.  
+   - **4** to remove all the local and shared resources and uninstall the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] product.  
   
 ## See Also  
  [Tools](../../adapters-and-accelerators/accelerator-swift/tools.md)

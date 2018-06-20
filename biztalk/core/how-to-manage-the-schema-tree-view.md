@@ -19,48 +19,48 @@ Management tasks with respect to the schema tree view can be divided into four c
   
 ### To make the schema tree view taller or shorter  
   
-1.  Move the mouse pointer to the bottom edge of the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which displays the schema tree view side-by-side with the XSD view, until the cursor changes to the standard window vertical resizing icon.  
+1. Move the mouse pointer to the bottom edge of the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which displays the schema tree view side-by-side with the XSD view, until the cursor changes to the standard window vertical resizing icon.  
   
-2.  Click and hold the left mouse button and drag the window edge either up or down.  
+2. Click and hold the left mouse button and drag the window edge either up or down.  
   
-     You have vertically resized the schema tree view by vertically resizing the entire main editing window.  
+    You have vertically resized the schema tree view by vertically resizing the entire main editing window.  
   
 ### To make the schema tree view wider or more narrow  
   
-1.  Move the mouse pointer to the pane divider in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which divides the schema tree view from the XSD view, until the cursor changes to the standard window horizontal resizing icon.  
+1. Move the mouse pointer to the pane divider in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which divides the schema tree view from the XSD view, until the cursor changes to the standard window horizontal resizing icon.  
   
-2.  Click and hold the left mouse button and drag the pane edge either left (narrower) or right (wider).  
+2. Click and hold the left mouse button and drag the pane edge either left (narrower) or right (wider).  
   
-     You have horizontally resized the schema tree view by changing the amount of the main editing window dedicated to the schema tree view, relative to the XSD view.  
+    You have horizontally resized the schema tree view by changing the amount of the main editing window dedicated to the schema tree view, relative to the XSD view.  
   
-     You can also make the schema tree view wider or narrower by horizontally resizing the entire main editing window.  
+    You can also make the schema tree view wider or narrower by horizontally resizing the entire main editing window.  
   
 ### To change the background color and/or font used by the schema tree view  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, click the BizTalk Editor folder, and if necessary, expand the **Schema Display** category by clicking the plus (+) icon.  
+2. In the **Options** dialog box, click the BizTalk Editor folder, and if necessary, expand the **Schema Display** category by clicking the plus (+) icon.  
   
-3.  Change the background color and/or font by using the drop-down color picker and/or **Font** dialog box associated with the **Schema Tree Background Color** and **Schema Tree Font** properties, respectively.  
+3. Change the background color and/or font by using the drop-down color picker and/or **Font** dialog box associated with the **Schema Tree Background Color** and **Schema Tree Font** properties, respectively.  
   
-     Access the **Font** dialog box by using the ellipsis (**…**) button located at the right end of the **Schema Tree Font** property value box.  
+    Access the **Font** dialog box by using the ellipsis (**…**) button located at the right end of the **Schema Tree Font** property value box.  
   
 ### To change the warning dialogs used when working in the schema tree view  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, click the **BizTalk Editor** folder, and if necessary, expand the **Editing Options** section by clicking the plus (+) icon.  
+2. In the **Options** dialog box, click the **BizTalk Editor** folder, and if necessary, expand the **Editing Options** section by clicking the plus (+) icon.  
   
-3.  Set any of the following properties to **True** or **False** by using the drop-down list accessed at the right edge of the respective property value box.  
+3. Set any of the following properties to **True** or **False** by using the drop-down list accessed at the right edge of the respective property value box.  
   
-    > [!NOTE]
-    >  The value **True** is the default value for all three warning dialog box options.  
+   > [!NOTE]
+   >  The value **True** is the default value for all three warning dialog box options.  
   
-    |Property|Description|  
-    |--------------|-----------------|  
-    |**Show Destroy Structure Warning Dialog**|When set to **True**, displays a warning dialog box before the schema structure is destroyed, and allows you to cancel the destructive operation.|  
-    |**Show Encode Warning Dialog**|When set to **True**, displays a dialog box when the node name you have typed will not be valid in XML unless encoded, allowing you to cancel the naming operation, or proceed with encoding the name.|  
-    |**Show Invalid Insert Dialog**|When set to **True**, displays a warning dialog box for certain node insertion errors, and offers options about how to proceed. The possible node insertion errors include:<br /><br /> -   You have created duplicate **Field Attribute** nodes with the same name and the same parent node.<br />-   You have created duplicate **Record** nodes with the same name and the same parent node, but with different underlying types.|  
+   |Property|Description|  
+   |--------------|-----------------|  
+   |**Show Destroy Structure Warning Dialog**|When set to **True**, displays a warning dialog box before the schema structure is destroyed, and allows you to cancel the destructive operation.|  
+   |**Show Encode Warning Dialog**|When set to **True**, displays a dialog box when the node name you have typed will not be valid in XML unless encoded, allowing you to cancel the naming operation, or proceed with encoding the name.|  
+   |**Show Invalid Insert Dialog**|When set to **True**, displays a warning dialog box for certain node insertion errors, and offers options about how to proceed. The possible node insertion errors include:<br /><br /> -   You have created duplicate **Field Attribute** nodes with the same name and the same parent node.<br />-   You have created duplicate **Record** nodes with the same name and the same parent node, but with different underlying types.|  
   
 ### To completely expand all or part of the schema tree  
   

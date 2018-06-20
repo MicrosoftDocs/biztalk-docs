@@ -22,38 +22,38 @@ This report shows the details for transaction sets in a specific EDI interchange
 ## Fields in the Status Report  
  The Transaction Set Details Status Report displays the following information for transaction sets in received or sent interchanges:  
   
--   Transaction Set ID  
+- Transaction Set ID  
   
--   Document type  
+- Document type  
   
--   Sender party alias  
+- Sender party alias  
   
--   Application Sender  
+- Application Sender  
   
--   Receiver party alias  
+- Receiver party alias  
   
--   Application Receiver  
+- Application Receiver  
   
--   Direction  
+- Direction  
   
--   Interchange Control Number  
+- Interchange Control Number  
   
--   Group Control Number  
+- Group Control Number  
   
--   Transaction Set Control Number  
+- Transaction Set Control Number  
   
--   Transaction Set Status  
+- Transaction Set Status  
   
--   Interchange Date Time (not displayed by default)  
+- Interchange Date Time (not displayed by default)  
   
-    > [!NOTE]
-    >  For received documents, if the date specified in the interchange is YYMMDD format and YY is greater than or equal to 75, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the year as 19YY. If the date is less than 75, it will be displayed as 20YY.  
-    >   
-    >  For example, if you receive an interchange that contains the value 991113 in ISA09, the Interchange Date Time will be listed in the report as 11/13/1999.  
+  > [!NOTE]
+  >  For received documents, if the date specified in the interchange is YYMMDD format and YY is greater than or equal to 75, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the year as 19YY. If the date is less than 75, it will be displayed as 20YY.  
+  > 
+  >  For example, if you receive an interchange that contains the value 991113 in ISA09, the Interchange Date Time will be listed in the report as 11/13/1999.  
   
--   Processing Date/Time (not displayed by default)  
+- Processing Date/Time (not displayed by default)  
   
--   Group Date/Time (not displayed by default)  
+- Group Date/Time (not displayed by default)  
   
 ## Fields in the Query Expression for the Status Report  
  You can customize the EDI Interchange and Correlated ACK Status Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  

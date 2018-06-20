@@ -29,37 +29,37 @@ Developers working on [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INC
 ## BizTalk Editor  
  You use BizTalk Editor to manage [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] XSD schemas that are based on RosettaNet Partner Interface Processes (PIPs). [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] installs the following schemas for your solution development:  
   
--   0A1_FailureNotificationPropertySchema.xsd  
+- 0A1_FailureNotificationPropertySchema.xsd  
   
--   0A1_MS_V02_00_FailureNotification.xsd  
+- 0A1_MS_V02_00_FailureNotification.xsd  
   
--   0A1_V1_FailureNotificationMessageGuideline.xsd  
+- 0A1_V1_FailureNotificationMessageGuideline.xsd  
   
--   0C1_MS_R01_02_AsynchronousTestNotification.xsd  
+- 0C1_MS_R01_02_AsynchronousTestNotification.xsd  
   
--   0C2_MS_R01_02_AsynchronousTestConfirmation.xsd  
+- 0C2_MS_R01_02_AsynchronousTestConfirmation.xsd  
   
--   0C2_MS_R01_02_AsynchronousTestRequest.xsd  
+- 0C2_MS_R01_02_AsynchronousTestRequest.xsd  
   
--   0C3_MS_R01_02_SynchronousTestNotification.xsd  
+- 0C3_MS_R01_02_SynchronousTestNotification.xsd  
   
--   0C4_MS_R01_02_SynchronousTestQuery.xsd  
+- 0C4_MS_R01_02_SynchronousTestQuery.xsd  
   
--   0C4_MS_R01_02_SynchronousTestResponse.xsd  
+- 0C4_MS_R01_02_SynchronousTestResponse.xsd  
   
--   2A12_MS_V01_03_ProductMasterNotification.xsd  
+- 2A12_MS_V01_03_ProductMasterNotification.xsd  
   
--   3A2PriceAndAvailabilityQueryMessageGuideline_v1_3.xsd  
+- 3A2PriceAndAvailabilityQueryMessageGuideline_v1_3.xsd  
   
--   3A2PriceAndAvailabilityResponseMessageGuideline_v1_3.xsd  
+- 3A2PriceAndAvailabilityResponseMessageGuideline_v1_3.xsd  
   
--   3A4_MS_V02_02_PurchaseOrderConfirmation.xsd  
+- 3A4_MS_V02_02_PurchaseOrderConfirmation.xsd  
   
--   3A4_MS_V02_02_PurchaseOrderRequest.xsd  
+- 3A4_MS_V02_02_PurchaseOrderRequest.xsd  
   
- These schemas are available at \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas.  
+  These schemas are available at \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas.  
   
- You can add more schemas by downloading PIPs from the RosettaNet Web site at [http://go.microsoft.com/fwlink/?linkid=33859](http://go.microsoft.com/fwlink/?linkid=33859). For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).  
+  You can add more schemas by downloading PIPs from the RosettaNet Web site at [http://go.microsoft.com/fwlink/?linkid=33859](http://go.microsoft.com/fwlink/?linkid=33859). For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).  
   
 ## BizTalk Mapper  
  You use BizTalk Mapper to create and customize maps that define data transformations. You use BizTalk Mapper to map transformations for both inbound and outbound RosettaNet message types.  

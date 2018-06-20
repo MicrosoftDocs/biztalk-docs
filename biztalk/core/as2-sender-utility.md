@@ -25,13 +25,13 @@ The AS2 Sender utility shipped with [!INCLUDE[btsBizTalkServerNoVersion](../incl
 ## What This Utility Does  
  The AS2 Sender utility builds an AS2 message with an EDI payload, and sends that message to a Web site that uses the BTSHTTPReceive ISAPI filter. By default the tutorial does the following:  
   
--   Sends an AS2 message named X12_00401_864.edi with an 864 X12-encoded payload. This message is located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial folder.  
+- Sends an AS2 message named X12_00401_864.edi with an 864 X12-encoded payload. This message is located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial folder.  
   
--   Prompts an asynchronous MDN in response to the AS2 message. This is determined by the message sent, and can be changed.  
+- Prompts an asynchronous MDN in response to the AS2 message. This is determined by the message sent, and can be changed.  
   
--   Sends the AS2 message to a receive location through the Contoso virtual directory.  
+- Sends the AS2 message to a receive location through the Contoso virtual directory.  
   
- The utility can be modified to change this specific behavior. See the [How to Customize the AS2 Sender Utility](../core/as2-sender-utility.md#BKMK_Custom) section below.  
+  The utility can be modified to change this specific behavior. See the [How to Customize the AS2 Sender Utility](../core/as2-sender-utility.md#BKMK_Custom) section below.  
   
 ## How to Set Up a Solution Using the AS2 Sender Utility  
  To set up a solution to use the AS2 Sender utility, you need to do the following.  
@@ -74,23 +74,23 @@ HttpSender TestSender = new HttpSender("http://localhost/Contoso/BTSHttpReceive.
   
 ### To build the AS2 Sender sample  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the Sender.csproj project in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender folder.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the Sender.csproj project in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender folder.  
   
-2.  Open HttpSender.cs in the Sender project, and customize the Sender code with the appropriate receiving Web page and the appropriate EDI filename and path.  
+2. Open HttpSender.cs in the Sender project, and customize the Sender code with the appropriate receiving Web page and the appropriate EDI filename and path.  
   
-3.  Right-click the Sender project, and then click **Properties**.  
+3. Right-click the Sender project, and then click **Properties**.  
   
-4.  Click **Signing** in the left-hand console. Ensure that **Sign the assembly** is selected, and the strong name key file is set to **Sender.snk**. Make sure that **Delay sign only** is cleared.  
+4. Click **Signing** in the left-hand console. Ensure that **Sign the assembly** is selected, and the strong name key file is set to **Sender.snk**. Make sure that **Delay sign only** is cleared.  
   
-5.  Build the project.  
+5. Build the project.  
   
 ### To run the AS2 Sender sample  
   
-1.  Open a command prompt. Move to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender\bin\debug.  
+1. Open a command prompt. Move to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender\bin\debug.  
   
-2.  Enter **Sender.exe**, and then press **Enter**.  
+2. Enter **Sender.exe**, and then press **Enter**.  
   
-3.  Verify that you see a message indicating that an AS2 message was successfully sent, and then close the command prompt.  
+3. Verify that you see a message indicating that an AS2 message was successfully sent, and then close the command prompt.  
   
 ## See Also  
  [Tutorial 3: AS2 Tutorial](../core/tutorial-3-as2-tutorial.md)   

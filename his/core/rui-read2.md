@@ -403,62 +403,62 @@ struct LUA_COMMON {
  LUA_NEGATIVE_RSP  
  Primary return code; indicates one of the following two cases, which can be distinguished by the secondary return code:  
   
--   LUA detected an error in the data received from the host. Instead of passing the received message to the application on **RUI_READ**, LUA discards the message (and the rest of the chain if it is in a chain), and sends a negative response to the host. LUA informs the application on a subsequent **RUI_READ** or [RUI_BID](../core/rui-bid1.md) that a negative response was sent.  
+- LUA detected an error in the data received from the host. Instead of passing the received message to the application on **RUI_READ**, LUA discards the message (and the rest of the chain if it is in a chain), and sends a negative response to the host. LUA informs the application on a subsequent **RUI_READ** or [RUI_BID](../core/rui-bid1.md) that a negative response was sent.  
   
--   The LUA application previously sent a negative response to a message in the middle of a chain. LUA has purged subsequent messages in this chain, and is now reporting to the application that all messages from the chain have been received and purged.  
+- The LUA application previously sent a negative response to a message in the middle of a chain. LUA has purged subsequent messages in this chain, and is now reporting to the application that all messages from the chain have been received and purged.  
   
- LUA_SEC_RC  
+  LUA_SEC_RC  
   
- Secondary return code; this parameter is a nonzero secondary return code containing the sense code sent to the host on the negative response. This indicates that LUA detected an error in the host data and sent a negative response to the host. For information about interpreting the sense code values that may be returned, see [SNA Considerations Using LUA](./sna-considerations-with-lua1.md).  
+  Secondary return code; this parameter is a nonzero secondary return code containing the sense code sent to the host on the negative response. This indicates that LUA detected an error in the host data and sent a negative response to the host. For information about interpreting the sense code values that may be returned, see [SNA Considerations Using LUA](./sna-considerations-with-lua1.md).  
   
- A secondary return code of zero indicates that, following a previous [RUI_WRITE](../core/rui-write2.md) of a negative response to a message in the middle of a chain, LUA has now received and discarded all messages from this chain.  
+  A secondary return code of zero indicates that, following a previous [RUI_WRITE](../core/rui-write2.md) of a negative response to a message in the middle of a chain, LUA has now received and discarded all messages from this chain.  
   
- LUA_UNSUCCESSFUL  
- Primary return code; the verb record supplied was valid, but the verb did not complete successfully.  
+  LUA_UNSUCCESSFUL  
+  Primary return code; the verb record supplied was valid, but the verb did not complete successfully.  
   
- LUA_DATA_TRUNCATED  
+  LUA_DATA_TRUNCATED  
   
- Secondary return code; the **lua_data_length** parameter was smaller than the actual length of data received on the message. Only **lua_data_length** bytes of data were returned to the verb; the remaining data was discarded. Additional parameters are also returned if this secondary return code is obtained.  
+  Secondary return code; the **lua_data_length** parameter was smaller than the actual length of data received on the message. Only **lua_data_length** bytes of data were returned to the verb; the remaining data was discarded. Additional parameters are also returned if this secondary return code is obtained.  
   
- LUA_NO_DATA  
+  LUA_NO_DATA  
   
- Secondary return code; **lua_flag1.nowait** was set to indicate immediate return without waiting for data, and no data was currently available on the specified session flow or flows.  
+  Secondary return code; **lua_flag1.nowait** was set to indicate immediate return without waiting for data, and no data was currently available on the specified session flow or flows.  
   
- LUA_INVALID_PROCESS  
+  LUA_INVALID_PROCESS  
   
- Secondary return code; the OS/2 process that issued this verb was not the same process that issued [RUI_INIT](../core/rui-init1.md) for this session. Only the process that started a session can issue verbs on that session.  
+  Secondary return code; the OS/2 process that issued this verb was not the same process that issued [RUI_INIT](../core/rui-init1.md) for this session. Only the process that started a session can issue verbs on that session.  
   
- LUA_COMM_SUBSYSTEM_ABENDED  
- Primary return code; indicates one of the following conditions:  
+  LUA_COMM_SUBSYSTEM_ABENDED  
+  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node was broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node was broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_SESSION_FAILURE  
- Primary return code; a required Host Integration Server component has terminated.  
+  LUA_SESSION_FAILURE  
+  Primary return code; a required Host Integration Server component has terminated.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; indicates that the LUA session failed because of a problem with the link service or with the host LU.  
+  Secondary return code; indicates that the LUA session failed because of a problem with the link service or with the host LU.  
   
- LUA_RUI_LOGIC_ERROR  
+  LUA_RUI_LOGIC_ERROR  
   
- Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
+  Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
- *LUA_STACK_TOO_SMALL*  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  *LUA_STACK_TOO_SMALL*  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- *LUA_COMM_SUBSYSTEM_NOT_LOADED*  
- Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  *LUA_COMM_SUBSYSTEM_NOT_LOADED*  
+  Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
 ## Remarks  
  [RUI_INIT](../core/rui-init1.md) must have completed successfully before **RUI_READ** is issued.  
@@ -469,39 +469,39 @@ struct LUA_COMMON {
   
  Data is received by the application on one of four session flows. The four session flows, from highest to lowest priority are:  
   
--   SSCP expedited  
+- SSCP expedited  
   
--   LU expedited  
+- LU expedited  
   
--   SSCP normal  
+- SSCP normal  
   
--   LU normal  
+- LU normal  
   
- The data flow type that **RUI_READ** is to process is specified in the **lua_flag1** parameter. The application can also specify whether it wants to look at more than one type of data flow. When multiple flow bits are set, the highest priority is received first. When **RUI_READ** completes processing, **lua_flag2** indicates the specific type of flow for which data has been received by the Windows LUA application.  
+  The data flow type that **RUI_READ** is to process is specified in the **lua_flag1** parameter. The application can also specify whether it wants to look at more than one type of data flow. When multiple flow bits are set, the highest priority is received first. When **RUI_READ** completes processing, **lua_flag2** indicates the specific type of flow for which data has been received by the Windows LUA application.  
   
- If [RUI_BID](../core/rui-bid1.md) successfully completes before an **RUI_READ** is issued, the Windows LUA interface can be instructed to reuse the last **RUI_BID** verbs VCB. To do this, issue the **RUI_READ** with **lua_flag1.bid_enable** set.  
+  If [RUI_BID](../core/rui-bid1.md) successfully completes before an **RUI_READ** is issued, the Windows LUA interface can be instructed to reuse the last **RUI_BID** verbs VCB. To do this, issue the **RUI_READ** with **lua_flag1.bid_enable** set.  
   
- The **lua_flag1.bid_enable** parameter can be used only if the following are true:  
+  The **lua_flag1.bid_enable** parameter can be used only if the following are true:  
   
--   **RUI_BID** has already been issued successfully and has completed.  
+- **RUI_BID** has already been issued successfully and has completed.  
   
--   The storage allocated for **RUI_BID** has not been freed or modified.  
+- The storage allocated for **RUI_BID** has not been freed or modified.  
   
--   No other **RUI_BID** is pending.  
+- No other **RUI_BID** is pending.  
   
- When using **lua_flag1.bid_enable**, the **RUI_BID** storage must not be freed because the last **RUI_BID** verbs VCB is used. Also, when using **lua_flag1.bid_enable**, the successful completion of **RUI_BID** will be posted.  
+  When using **lua_flag1.bid_enable**, the **RUI_BID** storage must not be freed because the last **RUI_BID** verbs VCB is used. Also, when using **lua_flag1.bid_enable**, the successful completion of **RUI_BID** will be posted.  
   
- If **RUI_READ** is issued with **lua_flag1.nowait** when no data is available to receive, LUA_NO_DATA will be the secondary return code set by the Windows LUA interface.  
+  If **RUI_READ** is issued with **lua_flag1.nowait** when no data is available to receive, LUA_NO_DATA will be the secondary return code set by the Windows LUA interface.  
   
- If the data received is longer than **lua_max_length**, it is truncated. Only **lua_max_length** bytes of data are returned. The primary return code LUA_UNSUCCESSFUL and the secondary return code LUA_DATA_TRUNCATED are also returned. The RUI library returns as much data as possible to the application's data buffer, but the remaining data in the RUI is discarded and cannot be extracted on subsequent **RUI_READ** requests. This forces the RUI application to allocate an **RUI_READ** data buffer large enough to handle the full RU size.  
+  If the data received is longer than **lua_max_length**, it is truncated. Only **lua_max_length** bytes of data are returned. The primary return code LUA_UNSUCCESSFUL and the secondary return code LUA_DATA_TRUNCATED are also returned. The RUI library returns as much data as possible to the application's data buffer, but the remaining data in the RUI is discarded and cannot be extracted on subsequent **RUI_READ** requests. This forces the RUI application to allocate an **RUI_READ** data buffer large enough to handle the full RU size.  
   
- This default behavior can be changed by setting the value of **lua_resv56[3]** to a nonzero value in the verb control block when calling [RUI_INIT](../core/rui-init1.md) during session establishment. In this case, if the data received is longer than **lua_max_length**, an **RUI_READ** request will return a primary return code of LUA_OK and a secondary return code of LUA_DATA_INCOMPLETE. An RUI application can then issue new **RUI_READ** calls and receive the remainder of the data.  
+  This default behavior can be changed by setting the value of **lua_resv56[3]** to a nonzero value in the verb control block when calling [RUI_INIT](../core/rui-init1.md) during session establishment. In this case, if the data received is longer than **lua_max_length**, an **RUI_READ** request will return a primary return code of LUA_OK and a secondary return code of LUA_DATA_INCOMPLETE. An RUI application can then issue new **RUI_READ** calls and receive the remainder of the data.  
   
- This enhancement has not been adopted as part of the Microsoft Windows Open Services Architecture (WOSA) LUA API standard and differs from the implementation of RUI by IBM.  
+  This enhancement has not been adopted as part of the Microsoft Windows Open Services Architecture (WOSA) LUA API standard and differs from the implementation of RUI by IBM.  
   
- After a message has been read using **RUI_READ,** it is removed from the incoming message queue and cannot be accessed again. ([RUI_BID](../core/rui-bid1.md) can be used as a nondestructive read. The application can use it to check the type of data available, but the data remains on the incoming queue and does not need to be used immediately.)  
+  After a message has been read using **RUI_READ,** it is removed from the incoming message queue and cannot be accessed again. ([RUI_BID](../core/rui-bid1.md) can be used as a nondestructive read. The application can use it to check the type of data available, but the data remains on the incoming queue and does not need to be used immediately.)  
   
- Pacing can be used on the primary-to-secondary half-session (specified in the host configuration), to protect the LUA application from being flooded with messages. If the LUA application is slow to read messages, Host Integration Server delays the sending of pacing responses to the host to slow it down.  
+  Pacing can be used on the primary-to-secondary half-session (specified in the host configuration), to protect the LUA application from being flooded with messages. If the LUA application is slow to read messages, Host Integration Server delays the sending of pacing responses to the host to slow it down.  
   
 ## See Also  
  [RUI_BID](../core/rui-bid1.md)   

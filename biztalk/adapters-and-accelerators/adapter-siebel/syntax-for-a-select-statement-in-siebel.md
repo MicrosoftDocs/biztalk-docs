@@ -38,10 +38,10 @@ OPTION
   
 > [!NOTE]
 >  If the field names in the WHERE clause contain special characters or empty spaces, make sure you always enclose the field names within square brackets.  
-  
+> 
 > [!NOTE]
 >  In SELECT queries containing alias names with special characters, make sure you include the alias names within square brackets.  
-  
+> 
 > [!NOTE]
 >  The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] supports alias names for tables in the SELECT clause but not in the WHERE clause.  
   
@@ -50,47 +50,47 @@ OPTION
   
  The rules for the search specification are:  
   
--   Standard comparison operators must be used to compare a field to a constant, or one field to another field. These include =, !=, >, <, >=, and <=.  
+- Standard comparison operators must be used to compare a field to a constant, or one field to another field. These include =, !=, >, <, >=, and <=.  
   
-    ```  
-    Example: [Revenue] > 5000  
-    ```  
+  ```  
+  Example: [Revenue] > 5000  
+  ```  
   
--   String constants must be enclosed in double quotation marks, and the string values must be case-sensitive.  
+- String constants must be enclosed in double quotation marks, and the string values must be case-sensitive.  
   
-    ```  
-    Example: [Type] != "COST LIST"  
-    ```  
+  ```  
+  Example: [Type] != "COST LIST"  
+  ```  
   
--   The logical operators AND, OR, and NOT must be used to negate or combine expressions. Case sensitivity is ignored in these operators; for example, “and” is the same as “AND”.  
+- The logical operators AND, OR, and NOT must be used to negate or combine expressions. Case sensitivity is ignored in these operators; for example, “and” is the same as “AND”.  
   
-    ```  
-    Example: [Competitor] IS NOT NULL and [Competitor] != "N"  
-    ```  
+  ```  
+  Example: [Competitor] IS NOT NULL and [Competitor] != "N"  
+  ```  
   
--   A field name in a search specification must be enclosed in square brackets.  
+- A field name in a search specification must be enclosed in square brackets.  
   
-    ```  
-    Example: [Conflict Id] = 0  
-    ```  
+  ```  
+  Example: [Conflict Id] = 0  
+  ```  
   
--   The LIKE operator may be used to create text string comparison expressions in which a field is compared to a constant, or a field to another field and a match on only the first several characters is required. The wildcard characters “*” and “?” must be used to indicate any number of characters, and a single character, respectively.  
+- The LIKE operator may be used to create text string comparison expressions in which a field is compared to a constant, or a field to another field and a match on only the first several characters is required. The wildcard characters “*” and “?” must be used to indicate any number of characters, and a single character, respectively.  
   
--   ADO.NET clients can specify original Siebel business objects, business components, and business component field names. These names must be enclosed in square brackets if they contain any special characters or white space. Examples of queries that are supported are:  
+- ADO.NET clients can specify original Siebel business objects, business components, and business component field names. These names must be enclosed in square brackets if they contain any special characters or white space. Examples of queries that are supported are:  
   
-    ```  
-    SELECT [Name], [Postal Code] FROM Account.Account where [Postal Code] != '11065'  
-    SELECT [Name], [Postal Code], Id From Account.Account where [Postal Code] != '60626' Order BY Id ASC, Name DESC  
-    SELECT * FROM [Admin Price List].[Price Book Items]  
-    ```  
+  ```  
+  SELECT [Name], [Postal Code] FROM Account.Account where [Postal Code] != '11065'  
+  SELECT [Name], [Postal Code], Id From Account.Account where [Postal Code] != '60626' Order BY Id ASC, Name DESC  
+  SELECT * FROM [Admin Price List].[Price Book Items]  
+  ```  
   
- The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] supports sort specifications in SQL statements based on the sort specification supported by Siebel. The rules for the sort specification are:  
+  The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] supports sort specifications in SQL statements based on the sort specification supported by Siebel. The rules for the sort specification are:  
   
--   Use commas to separate field names in a sort specification; for instance, Name, Location  
+- Use commas to separate field names in a sort specification; for instance, Name, Location  
   
--   To indicate that a field in the list sorts in descending order, include (DESC) after the field name, as in “Start Date (DESC).” If no sort order is specified, ascending order is used. To explicitly specify ascending order, use the keyword (ASC).  
+- To indicate that a field in the list sorts in descending order, include (DESC) after the field name, as in “Start Date (DESC).” If no sort order is specified, ascending order is used. To explicitly specify ascending order, use the keyword (ASC).  
   
--   The sort specification expression must be 255 characters or less.  
+- The sort specification expression must be 255 characters or less.  
   
 ## See Also  
  [Use the .NET Framework Data Provider for Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)

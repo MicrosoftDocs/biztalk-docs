@@ -25,11 +25,11 @@ A group that you previously connected to your BizTalk server may sometimes appea
   
 ### To reconnect to a group  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, double-click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
+2. In the console tree, double-click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
   
-3.  Right-click the **(Unavailable)** group, and then click **Refresh**.  
+3. Right-click the **(Unavailable)** group, and then click **Refresh**.  
   
 ## See Also  
  [Managing Groups](../core/managing-groups.md)   

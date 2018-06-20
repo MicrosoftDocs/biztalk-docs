@@ -32,13 +32,13 @@ The X12 997 functional acknowledgment reports the status of a received interchan
 |070|AK9|Functional Group Response Trailer|M|1|-|  
 |080|SE|Transaction Set Trailer (for the acknowledgment)|M|1|-|  
   
--   Req. Des. = Requirement Designation  
+- Req. Des. = Requirement Designation  
   
--   M = Mandatory  
+- M = Mandatory  
   
--   O = Optional  
+- O = Optional  
   
- The AK segments are described below. The segments in the AK2 to AK5 loop provide information about an error with a transaction set.  
+  The AK segments are described below. The segments in the AK2 to AK5 loop provide information about an error with a transaction set.  
   
 ## AK1  
  The mandatory AK1 segment identifies the functional group being acknowledged with the following data elements:  
@@ -52,15 +52,15 @@ The X12 997 functional acknowledgment reports the status of a received interchan
 ## AK2  
  The optional AK2 segment contains an acknowledgment for a transaction set within the received functional group. If there are multiple AK2 segments, they will be sent as a series of loops. Each AK2 loop identifies a transaction set in the order that it was received. The AK2 segment identifies the transaction set with two data elements:  
   
--   AK201 is the transaction set ID (ST01) of the transaction set being acknowledged.  
+- AK201 is the transaction set ID (ST01) of the transaction set being acknowledged.  
   
--   AK202 is the transaction set control number (ST02 and SE02) of the transaction set being acknowledged.  
+- AK202 is the transaction set control number (ST02 and SE02) of the transaction set being acknowledged.  
   
--   AK203 is optional and is the EDI implementation version sent in the ST03 of the original transaction. AK203 supports inbound 5010 compliant 997.  
+- AK203 is optional and is the EDI implementation version sent in the ST03 of the original transaction. AK203 supports inbound 5010 compliant 997.  
   
- An AK2 loop will contain AK3, AK4, and AK5 segments if a transaction set is in error. For more information, see the descriptions for these segments below.  
+  An AK2 loop will contain AK3, AK4, and AK5 segments if a transaction set is in error. For more information, see the descriptions for these segments below.  
   
- You can specify that AK2 segments are generated for all transaction sets, whether accepted or rejected, or only for rejected transaction sets. BizTalk Server will generate AK2 segments for accepted transaction sets (where AK501 == A) if you select the **Include AK2 Loop for accepted transaction sets** check box in the **Acknowledgements** page of the Agreement Properties dialog box for an agreement between two business profiles (or the **Acknowledgements** page of the X12 Settings tab for a business profile). Otherwise, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will generate AK2 loops only for rejected transaction sets. If an agreement is not resolved for the interchange being responded to, the 997 generation settings default to the fallback agreement settings, and AK2 segments are not generated for accepted transaction sets.  
+  You can specify that AK2 segments are generated for all transaction sets, whether accepted or rejected, or only for rejected transaction sets. BizTalk Server will generate AK2 segments for accepted transaction sets (where AK501 == A) if you select the **Include AK2 Loop for accepted transaction sets** check box in the **Acknowledgements** page of the Agreement Properties dialog box for an agreement between two business profiles (or the **Acknowledgements** page of the X12 Settings tab for a business profile). Otherwise, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will generate AK2 loops only for rejected transaction sets. If an agreement is not resolved for the interchange being responded to, the 997 generation settings default to the fallback agreement settings, and AK2 segments are not generated for accepted transaction sets.  
   
 ## AK3  
  The optional AK3 segment reports errors in a data segment and identifies the location of the data segment. An AK3 segment is created for each segment in a transaction set that has one or more errors. If there are multiple AK3 segments, they will be sent as a series of loops (one segment per loop). The AK3 segment has four data elements that specify the location of each segment in error and reports the type of syntactical error found at that location:  

@@ -24,13 +24,13 @@ Host Print service can format print jobs by either using the Windows printer dri
   
  The PDT is created in two steps.  
   
-1.  A source text file is created and called the Printer Definition File (PDF) that defines the codes that can be used to control the printer.  
+1. A source text file is created and called the Printer Definition File (PDF) that defines the codes that can be used to control the printer.  
   
-2.  A program is used to compile the information in the PDF into a binary file, the PDT that is used by Host Print service.  
+2. A program is used to compile the information in the PDF into a binary file, the PDT that is used by Host Print service.  
   
- For example, if the host sends a byte indicating a new line ('0x15'), the PDT could be used to convert this to a carriage return, line feed ('0x0D0A').  
+   For example, if the host sends a byte indicating a new line ('0x15'), the PDT could be used to convert this to a carriage return, line feed ('0x0D0A').  
   
- For more information about creating a PDT, see [Printer Definition Files](../core/printer-definition-files2.md).  
+   For more information about creating a PDT, see [Printer Definition Files](../core/printer-definition-files2.md).  
   
 ### To enable GDI  
   

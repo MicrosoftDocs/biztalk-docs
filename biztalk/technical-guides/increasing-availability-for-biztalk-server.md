@@ -19,30 +19,30 @@ This section describes ways you can increase the availability of your [!INCLUDE[
 ## Strategies for Increasing Availability  
  Strategies for increasing availability include the following:  
   
--   **Providing high availability using Windows Server 2003 server clustering or Windows Server 2008 failover clustering**. A server/failover cluster is a group of independent computer systems, known as nodes, working together as a single system to ensure that critical applications and resources remain available to clients. If one of the nodes becomes unavailable as a result of failure or maintenance downtime requirements, another node immediately begins providing service (a process known as failover).  
+- **Providing high availability using Windows Server 2003 server clustering or Windows Server 2008 failover clustering**. A server/failover cluster is a group of independent computer systems, known as nodes, working together as a single system to ensure that critical applications and resources remain available to clients. If one of the nodes becomes unavailable as a result of failure or maintenance downtime requirements, another node immediately begins providing service (a process known as failover).  
   
-    -   A server/failover cluster is typically recommended for the computers running SQL Server that house the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.  
+  - A server/failover cluster is typically recommended for the computers running SQL Server that house the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.  
   
-    -   A server cluster may be required to provide high availability for certain BizTalk adapters.  
+  - A server cluster may be required to provide high availability for certain BizTalk adapters.  
   
-    -   A server cluster is typically recommended for the Enterprise Single Sign-On master secret server.  
+  - A server cluster is typically recommended for the Enterprise Single Sign-On master secret server.  
   
--   **Providing high availability using a form of load balancing**.  
+- **Providing high availability using a form of load balancing**.  
   
-    -   Network load balancing (NLB). NLB delivers high availability by redirecting incoming network traffic to working NLB cluster hosts if a host fails or is offline. Unlike server clusters, NLB does not require special hardware.  
+  - Network load balancing (NLB). NLB delivers high availability by redirecting incoming network traffic to working NLB cluster hosts if a host fails or is offline. Unlike server clusters, NLB does not require special hardware.  
   
-    -   BizTalk host load balancing. BizTalk host load balancing is provided for BizTalk Hosts by adding multiple servers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group and then configuring multiple instances of an in-process host to run on these servers. This distributes the execution of services and artifacts configured in that host across multiple instances of the host, which enhances its availability and scalability.  
+  - BizTalk host load balancing. BizTalk host load balancing is provided for BizTalk Hosts by adding multiple servers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group and then configuring multiple instances of an in-process host to run on these servers. This distributes the execution of services and artifacts configured in that host across multiple instances of the host, which enhances its availability and scalability.  
   
-        > [!NOTE]  
-        >  Host load balancing functionality is available for in-process hosts only.  
+    > [!NOTE]  
+    >  Host load balancing functionality is available for in-process hosts only.  
   
-    -   Load balancing is provided for SQL Server disks through the use of a SAN or by adding multiple MessageBox databases.  
+  - Load balancing is provided for SQL Server disks through the use of a SAN or by adding multiple MessageBox databases.  
   
--   Strategies for providing **increased availability**. These strategies provide increased availability but usually also require that an administrator perform one or more actions at runtime. Therefore these strategies are typically thought of as providing increased availability as opposed to high availability:  
+- Strategies for providing **increased availability**. These strategies provide increased availability but usually also require that an administrator perform one or more actions at runtime. Therefore these strategies are typically thought of as providing increased availability as opposed to high availability:  
   
-    -   Increasing availability using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping and disaster recovery.  
+  - Increasing availability using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping and disaster recovery.  
   
-    -   Increasing availability through implementation of the appropriate monitoring and maintenance strategies.  
+  - Increasing availability through implementation of the appropriate monitoring and maintenance strategies.  
   
 ## Difference Between Clustering and Disaster Recovery  
  While clusters and disaster recovery both increase availability, a key difference between them is that clusters typically provide much faster recovery time than disaster recovery does. Therefore a solution built on server/failover clusters or load balancing is commonly thought of as providing high availability as opposed to merely providing availability.  

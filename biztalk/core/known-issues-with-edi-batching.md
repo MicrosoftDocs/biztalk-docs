@@ -24,15 +24,15 @@ This topic describes known issues with batching in [!INCLUDE[btsBizTalkServerNoV
   
  **Possible Cause**  
   
--   The Inbound batch processing option for the sending party was set to "Preserve Interchange." A HIPAA document will not be split into subdocuments if this is the case, even though the subdocument_creation_break annotation within the HIPAA schema is set to "Yes."  
+- The Inbound batch processing option for the sending party was set to "Preserve Interchange." A HIPAA document will not be split into subdocuments if this is the case, even though the subdocument_creation_break annotation within the HIPAA schema is set to "Yes."  
   
--   The subdocument_break annotation was set to “Yes”, but the subdocument_creation_break annotation was not set to “Yes”.  
+- The subdocument_break annotation was set to “Yes”, but the subdocument_creation_break annotation was not set to “Yes”.  
   
- **Resolution**  
+  **Resolution**  
   
--   In the **Validation and ACK Generation Settings** page of the **EDI Properties** dialog box for the sending party, set the **Inbound batch processing** option property to either **Split Interchange as Transaction Sets – suspend Transaction Sets on Error** or **Split Interchange as Transaction Sets – suspend Interchange on Error**.  
+- In the **Validation and ACK Generation Settings** page of the **EDI Properties** dialog box for the sending party, set the **Inbound batch processing** option property to either **Split Interchange as Transaction Sets – suspend Transaction Sets on Error** or **Split Interchange as Transaction Sets – suspend Interchange on Error**.  
   
--   A HIPAA document will not be split into subdocuments unless the subdocument_creation_break annotation is set to “Yes.”  
+- A HIPAA document will not be split into subdocuments unless the subdocument_creation_break annotation is set to “Yes.”  
   
 ## Validation of a Batch May Fail if Batch Configuration Settings Are Changed While the Batch Orchestration Is Activated  
  If you change batch configuration settings while the batching orchestration is processing a batch, the new configuration settings will not be picked up for that batch. This can result in validation errors in the send pipeline.  

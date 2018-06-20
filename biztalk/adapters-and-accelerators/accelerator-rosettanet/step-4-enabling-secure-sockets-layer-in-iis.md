@@ -26,21 +26,21 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 ### To prepare a new server certificate  
   
-1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In the Internet Information Services left pane, expand **\<***computer_name***\>** (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
+2. In the Internet Information Services left pane, expand **\<**<em>computer_name</em>**\>** (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
   
-3.  In the Default Web Sites dialog box, on the **Directory Security** tab, click **Server Certificate** to start the **IIS Certificate Wizard**.  
+3. In the Default Web Sites dialog box, on the **Directory Security** tab, click **Server Certificate** to start the **IIS Certificate Wizard**.  
   
-4.  On the **Welcome to the Web Server Certificate Wizard** page, click **Next**.  
+4. On the **Welcome to the Web Server Certificate Wizard** page, click **Next**.  
   
-5.  On the **Server Certificate** page, select **Create a new certificate**, and then click **Next**.  
+5. On the **Server Certificate** page, select **Create a new certificate**, and then click **Next**.  
   
-6.  On the **Delayed or immediate request** page, click **Next**.  
+6. On the **Delayed or immediate request** page, click **Next**.  
   
-7.  On the **Name and Security Settings** page, click **Next**, keeping the defaults.  
+7. On the **Name and Security Settings** page, click **Next**, keeping the defaults.  
   
-8.  On the **Organization Information** page, in the **Organization** box, type **Contoso** if on the Contoso computer or **Fabrikam** if on the Fabrikam computer, in the **Organizational unit** box, type **Test**, and then click **Next**.  
+8. On the **Organization Information** page, in the **Organization** box, type **Contoso** if on the Contoso computer or **Fabrikam** if on the Fabrikam computer, in the **Organizational unit** box, type **Test**, and then click **Next**.  
   
 9. On the **Your Site's Common Name** page, in the **Common name** box, type the name of your computer, and then click **Next**.  
   
@@ -137,21 +137,21 @@ Secure Sockets Layer (SSL) is a protocol designed to secure the communication ch
   
 ### To import the server certificate into IIS  
   
-1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In the Internet Information Services left pane, expand **\<***computer_name*\> (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
+2. In the Internet Information Services left pane, expand **\<**<em>computer_name</em>\> (*local computer*), expand **Web Sites**, right-click **Default Web Site**, and then click **Properties**.  
   
-3.  In the Default Web Site Properties dialog box, on the **Directory Security** tab, click **Server Certificate** to start the **IIS Certificate Wizard**.  
+3. In the Default Web Site Properties dialog box, on the **Directory Security** tab, click **Server Certificate** to start the **IIS Certificate Wizard**.  
   
-4.  On the **Welcome to the Web Server Certificate Wizard** page, click **Next**.  
+4. On the **Welcome to the Web Server Certificate Wizard** page, click **Next**.  
   
-5.  On the **Pending Certificate Request** page, select **Process the pending request and install the certificate**, and then click **Next**.  
+5. On the **Pending Certificate Request** page, select **Process the pending request and install the certificate**, and then click **Next**.  
   
-6.  On the **Process a Pending Request** page, in the **Path and file name** box, type **\<drive\>:\Certs\SSLCert.cer** (or browse to that file) and then click **Next**.  
+6. On the **Process a Pending Request** page, in the **Path and file name** box, type **\<drive\>:\Certs\SSLCert.cer** (or browse to that file) and then click **Next**.  
   
-7.  On the **SSL Port page**, click **Next**.  
+7. On the **SSL Port page**, click **Next**.  
   
-8.  On the **Certificate Summary** page, click **Next**.  
+8. On the **Certificate Summary** page, click **Next**.  
   
 9. On the **Completing the Web Server Certificate Wizard** page, click **Finish**.  
   

@@ -23,218 +23,218 @@ A number of the DRDA Service listeners are replaceable with custom listeners for
   
  To use the trace listener sample, follow these steps.  
   
-1.  Using Microsoft Visual Studio 2010, build the sample. You may need to change the reference to the strong name key in the project properties, and the output directory path in the program code.  
+1. Using Microsoft Visual Studio 2010, build the sample. You may need to change the reference to the strong name key in the project properties, and the output directory path in the program code.  
   
-    ```  
-    using System;  
-    using System.IO;  
-    using Microsoft.HostIntegration.Drda.Common;  
+   ```  
+   using System;  
+   using System.IO;  
+   using Microsoft.HostIntegration.Drda.Common;  
   
-    namespace CustomListeners  
-    {  
-        public class MyTraceListener : BaseDrdaTraceListener  
-        {  
-            StreamWriter sw = null;  
+   namespace CustomListeners  
+   {  
+       public class MyTraceListener : BaseDrdaTraceListener  
+       {  
+           StreamWriter sw = null;  
   
-            public bool EnsureWriter()  
-            {  
-                if (sw == null)  
-                {  
-                    try  
-                    {  
-                        System.IO.DirectoryInfo dirInfo = new System.IO.DirectoryInfo(@"c:\temp");  
-                        if (!dirInfo.Exists)  
-                        {  
-                            dirInfo.Create();  
-                        }  
-                        string fileName = @"c:\temp\MsDrdaService" + DateTime.Now.ToFileTime() + ".log";  
-                        sw = new StreamWriter(fileName);  
-                        sw.AutoFlush = true;  
-                        sw.WriteLine("MsDrdaService custom log. Created on: " + DateTime.Now);  
+           public bool EnsureWriter()  
+           {  
+               if (sw == null)  
+               {  
+                   try  
+                   {  
+                       System.IO.DirectoryInfo dirInfo = new System.IO.DirectoryInfo(@"c:\temp");  
+                       if (!dirInfo.Exists)  
+                       {  
+                           dirInfo.Create();  
+                       }  
+                       string fileName = @"c:\temp\MsDrdaService" + DateTime.Now.ToFileTime() + ".log";  
+                       sw = new StreamWriter(fileName);  
+                       sw.AutoFlush = true;  
+                       sw.WriteLine("MsDrdaService custom log. Created on: " + DateTime.Now);  
   
-                        return true;  
-                    }  
-                    catch (Exception ex)  
-                    {  
-                        System.Console.WriteLine("Failed to create log file. Message:" + ex.Message);  
-                        return false;  
-                    }  
-                }  
-                else  
-                    return true;  
-            }  
+                       return true;  
+                   }  
+                   catch (Exception ex)  
+                   {  
+                       System.Console.WriteLine("Failed to create log file. Message:" + ex.Message);  
+                       return false;  
+                   }  
+               }  
+               else  
+                   return true;  
+           }  
   
-            #region override IDrdaTraceListener Members  
+           #region override IDrdaTraceListener Members  
   
-            public override void TraceEvent(System.Diagnostics.TraceEventType type, int id, string msg)  
-            {  
-                if (EnsureWriter())  
-                {  
-                    sw.WriteLine(string.Format("[" + type + "][" + id + "]" + msg));  
-                }  
-            }  
+           public override void TraceEvent(System.Diagnostics.TraceEventType type, int id, string msg)  
+           {  
+               if (EnsureWriter())  
+               {  
+                   sw.WriteLine(string.Format("[" + type + "][" + id + "]" + msg));  
+               }  
+           }  
   
-            #endregion  
-        }  
-    }  
+           #endregion  
+       }  
+   }  
   
-    ```  
+   ```  
   
-     Sample code for a custom trace listener.  
+    Sample code for a custom trace listener.  
   
-2.  Using Microsoft Global Assembly Cache tool, install an assembly into the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /i “\<path>\\<component_name>.dll”**, and then press **Enter**. Using Microsoft Visual Studio 2010, edit the DRDA Service application configuration file. Update the configuration for the custom trace listener.  
+2. Using Microsoft Global Assembly Cache tool, install an assembly into the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /i “\<path>\\<component_name>.dll”**, and then press **Enter**. Using Microsoft Visual Studio 2010, edit the DRDA Service application configuration file. Update the configuration for the custom trace listener.  
   
-    ```  
-    C:\Windows\system32>gacutil /i <path>\CustomListeners\bin\Debug\CustomListeners.dll  
-    Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
-    Copyright (c) Microsoft Corporation.  All rights reserved.  
-    Assembly successfully added to the cache  
-    ```  
+   ```  
+   C:\Windows\system32>gacutil /i <path>\CustomListeners\bin\Debug\CustomListeners.dll  
+   Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
+   Copyright (c) Microsoft Corporation.  All rights reserved.  
+   Assembly successfully added to the cache  
+   ```  
   
-     ***Figure 1.** Example command to add custom listener component to GAC.*  
+    <em>**Figure 1.</em>* Example command to add custom listener component to GAC.*  
   
-3.  Using Microsoft Global Assembly Cache tool, read the assembly information from the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /l “\<path>\\<component_name>.dll”**, and then press **Enter**.  
+3. Using Microsoft Global Assembly Cache tool, read the assembly information from the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /l “\<path>\\<component_name>.dll”**, and then press **Enter**.  
   
-    ```  
-    C:\TechReady\DRDA_AS\CustomListeners\bin\Debug>gacutil -l CustomListeners  
-    Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
-    Copyright (c) Microsoft Corporation.  All rights reserved.  
-    The Global Assembly Cache contains the following assemblies:  
-      CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL  
-    Number of items = 2  
-    ```  
+   ```  
+   C:\TechReady\DRDA_AS\CustomListeners\bin\Debug>gacutil -l CustomListeners  
+   Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
+   Copyright (c) Microsoft Corporation.  All rights reserved.  
+   The Global Assembly Cache contains the following assemblies:  
+     CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL  
+   Number of items = 2  
+   ```  
   
-     ***Figure 2.** Example command to read custom listener component info from GAC.*  
+    <em>**Figure 2.</em>* Example command to read custom listener component info from GAC.*  
   
-4.  Using Microsoft Visual Studio 2010, edit the DRDA Service application configuration file. Update the configuration for the custom trace listener.  
+4. Using Microsoft Visual Studio 2010, edit the DRDA Service application configuration file. Update the configuration for the custom trace listener.  
   
-    ```  
-    <drdaServiceTraceListeners>  
-    <drdaServiceTraceListener type="CustomListeners.MyTraceListener, CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL" traceLevel="3"/>  
-    </drdaServiceTraceListeners>  
-    ```  
+   ```  
+   <drdaServiceTraceListeners>  
+   <drdaServiceTraceListener type="CustomListeners.MyTraceListener, CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL" traceLevel="3"/>  
+   </drdaServiceTraceListeners>  
+   ```  
   
-     ***Figure 3.** Sample values for custom trace listener in the MsDrdaService.exe.config.*  
+    <em>**Figure 3.</em>* Sample values for custom trace listener in the MsDrdaService.exe.config.*  
   
 ## Custom Package Bind Listener  
  To use the custom package bind listener sample, follow these steps.  
   
--   Using Microsoft Visual Studio 2010, build the sample. You may need to change the reference to the strong name key in the project properties, and the output directory path in the program code.  
+- Using Microsoft Visual Studio 2010, build the sample. You may need to change the reference to the strong name key in the project properties, and the output directory path in the program code.  
   
-    ```  
-    using System;  
-    using System.Collections.Generic;  
-    using System.Xml;  
-    using System.Text;  
-    using Microsoft.HostIntegration.Drda.Common;  
+  ```  
+  using System;  
+  using System.Collections.Generic;  
+  using System.Xml;  
+  using System.Text;  
+  using Microsoft.HostIntegration.Drda.Common;  
   
-    namespace CustomListeners  
-    {  
-        public class MyPackageBindListener: IPackageBindListener  
-        {  
-            #region IPackageBindListener Members  
+  namespace CustomListeners  
+  {  
+      public class MyPackageBindListener: IPackageBindListener  
+      {  
+          #region IPackageBindListener Members  
   
-            /// <summary>  
-            /// Notify after package is bound with string representation of the xml.  
-            /// </summary>  
-            /// <param name="packageXMLString">package XML String</param>  
-            public void OnPackageBound(string packageXMLString, string rdbNam, string collid)  
-            {  
-            }  
+          /// <summary>  
+          /// Notify after package is bound with string representation of the xml.  
+          /// </summary>  
+          /// <param name="packageXMLString">package XML String</param>  
+          public void OnPackageBound(string packageXMLString, string rdbNam, string collid)  
+          {  
+          }  
   
-            /// <summary>  
-            /// Notify after package is bound with xml document.  
-            /// </summary>  
-            /// <param name="xmldoc"></param>  
-            public void OnPackageBound(XmlDocument xmldoc, string rdbNam, string collid)  
-            {  
-                try  
-                {  
-                    System.IO.DirectoryInfo dirInfo = new System.IO.DirectoryInfo(@"c:\temp");  
-                    if (!dirInfo.Exists)  
-                    {  
-                        dirInfo.Create();  
-                    }  
-                    string fileName = @"c:\temp\PackageXMLFile" + DateTime.Now.ToFileTime() + ".xml";  
-                    xmldoc.Save(fileName);  
+          /// <summary>  
+          /// Notify after package is bound with xml document.  
+          /// </summary>  
+          /// <param name="xmldoc"></param>  
+          public void OnPackageBound(XmlDocument xmldoc, string rdbNam, string collid)  
+          {  
+              try  
+              {  
+                  System.IO.DirectoryInfo dirInfo = new System.IO.DirectoryInfo(@"c:\temp");  
+                  if (!dirInfo.Exists)  
+                  {  
+                      dirInfo.Create();  
+                  }  
+                  string fileName = @"c:\temp\PackageXMLFile" + DateTime.Now.ToFileTime() + ".xml";  
+                  xmldoc.Save(fileName);  
   
-                    //callback.ReloadPackageProcedureTable(null);  
-                }  
-                catch (Exception ex)  
-                {  
-                    System.Console.WriteLine("Failed to save xml file. Message:" + ex.Message);  
-                }  
-            }  
-            /// <summary>  
-            /// Notify after package is bound with string representation of the xml.  
-            /// </summary>  
-            public void OnPackageBound(string packageXMLString, string rdbNam, string collid, out List<string> sqlScripts)  
-            {  
-                sqlScripts = new List<string>();  
-            }  
+                  //callback.ReloadPackageProcedureTable(null);  
+              }  
+              catch (Exception ex)  
+              {  
+                  System.Console.WriteLine("Failed to save xml file. Message:" + ex.Message);  
+              }  
+          }  
+          /// <summary>  
+          /// Notify after package is bound with string representation of the xml.  
+          /// </summary>  
+          public void OnPackageBound(string packageXMLString, string rdbNam, string collid, out List<string> sqlScripts)  
+          {  
+              sqlScripts = new List<string>();  
+          }  
   
-            /// <summary>  
-            /// Notify after package is bound with xml document.  
-            /// </summary>  
-            public void OnPackageBound(XmlDocument xmldoc, string rdbNam, string collid, out List<string> sqlScripts)  
-            {  
-                sqlScripts = new List<string>();  
-                string[] sqlScript1 = {  
-                                        "/****** Object:  StoredProcedure [dbo].[DBOAREAS_43484152544F4B31_1]    Script Date: 01/06/2012 13:36:23 ******/",  
-                                        "SET ANSI_NULLS ON",  
-                                        "GO",  
-                                        "SET QUOTED_IDENTIFIER ON",  
-                                        "GO",  
-                                        "CREATE PROCEDURE [dbo].[DBOAREAS_43484152544F4B31_1]  AS  DECLARE C1 CURSOR GLOBAL FOR SELECT * FROM DBO.AREAS",  
-                                        "GO",  
-                                      };  
-                string[] sqlScript2 = {  
-                                        "CREATE PROCEDURE [dbo].[DBOAREAS_43484152544F4B31_2]  AS  SELECT * FROM DBO.AREAS"  
-                                      };  
+          /// <summary>  
+          /// Notify after package is bound with xml document.  
+          /// </summary>  
+          public void OnPackageBound(XmlDocument xmldoc, string rdbNam, string collid, out List<string> sqlScripts)  
+          {  
+              sqlScripts = new List<string>();  
+              string[] sqlScript1 = {  
+                                      "/****** Object:  StoredProcedure [dbo].[DBOAREAS_43484152544F4B31_1]    Script Date: 01/06/2012 13:36:23 ******/",  
+                                      "SET ANSI_NULLS ON",  
+                                      "GO",  
+                                      "SET QUOTED_IDENTIFIER ON",  
+                                      "GO",  
+                                      "CREATE PROCEDURE [dbo].[DBOAREAS_43484152544F4B31_1]  AS  DECLARE C1 CURSOR GLOBAL FOR SELECT * FROM DBO.AREAS",  
+                                      "GO",  
+                                    };  
+              string[] sqlScript2 = {  
+                                      "CREATE PROCEDURE [dbo].[DBOAREAS_43484152544F4B31_2]  AS  SELECT * FROM DBO.AREAS"  
+                                    };  
   
-                sqlScripts.AddRange(sqlScript1);  
-                sqlScripts.AddRange(sqlScript2);  
-            }  
+              sqlScripts.AddRange(sqlScript1);  
+              sqlScripts.AddRange(sqlScript2);  
+          }  
   
-            #endregion  
+          #endregion  
   
-        }  
-    }  
+      }  
+  }  
   
-    ```  
+  ```  
   
-     *Sample code for a custom package bind listener.*  
+   *Sample code for a custom package bind listener.*  
   
--   Using Microsoft Global Assembly Cache tool, install an assembly into the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /i “\<path>\\<component_name>.dll”**, and then press **Enter**.  
+- Using Microsoft Global Assembly Cache tool, install an assembly into the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /i “\<path>\\<component_name>.dll”**, and then press **Enter**.  
   
-    ```  
-    C:\Windows\system32>gacutil /i <path>\CustomListeners\bin\Debug\CustomListeners.dll  
-    Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
-    Copyright (c) Microsoft Corporation.  All rights reserved.  
-    Assembly successfully added to the cache  
-    ```  
+  ```  
+  C:\Windows\system32>gacutil /i <path>\CustomListeners\bin\Debug\CustomListeners.dll  
+  Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
+  Copyright (c) Microsoft Corporation.  All rights reserved.  
+  Assembly successfully added to the cache  
+  ```  
   
-     ***Figure 4.** Example command to add custom listener component to GAC.*  
+   <em>**Figure 4.</em>* Example command to add custom listener component to GAC.*  
   
--   Using Microsoft Global Assembly Cache tool, read the assembly information from the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /l “\<path>\\<component_name>.dll”**, and then press **Enter**.  
+- Using Microsoft Global Assembly Cache tool, read the assembly information from the global assembly cache. In the **Visual Studio x64 Win64 Command Prompt (2010)** window, navigate to the **bin\Debug** or **bin\Retail** folder for your custom package bind listener component, type **gacutil /l “\<path>\\<component_name>.dll”**, and then press **Enter**.  
   
-    ```  
-    C:\TechReady\DRDA_AS\CustomListeners\bin\Debug>gacutil -l CustomListeners  
-    Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
-    Copyright (c) Microsoft Corporation.  All rights reserved.  
-    The Global Assembly Cache contains the following assemblies:  
-      CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL  
-    Number of items = 2  
-    ```  
+  ```  
+  C:\TechReady\DRDA_AS\CustomListeners\bin\Debug>gacutil -l CustomListeners  
+  Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1  
+  Copyright (c) Microsoft Corporation.  All rights reserved.  
+  The Global Assembly Cache contains the following assemblies:  
+    CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL  
+  Number of items = 2  
+  ```  
   
-     ***Figure 5.** Example command to read custom listener component info from GAC.*  
+   <em>**Figure 5.</em>* Example command to read custom listener component info from GAC.*  
   
--   Using Microsoft Visual Studio 2010, edit the DRDA Service application configuration file. Replace the default package bind listener with the custom package bind listener. The DRDA Service will return a BGNBNDRM (Begin Bind Error Reply Message) to the DRDA AR, if it does not receive a valid response to the callback interface, when the errorWhenNoCallback= value is “true”.  
+- Using Microsoft Visual Studio 2010, edit the DRDA Service application configuration file. Replace the default package bind listener with the custom package bind listener. The DRDA Service will return a BGNBNDRM (Begin Bind Error Reply Message) to the DRDA AR, if it does not receive a valid response to the callback interface, when the errorWhenNoCallback= value is “true”.  
   
-    ```  
-    <packageBindListeners>  
-    <packageBindListener type="CustomListeners.MyPackageBindListener, CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL" errorWhenNoCallback="true"/>  
-    </packageBindListeners>  
-    ```  
+  ```  
+  <packageBindListeners>  
+  <packageBindListener type="CustomListeners.MyPackageBindListener, CustomListeners, Version=1.0.0.0, Culture=neutral, PublicKeyToken=34013cf74da51d17, processorArchitecture=MSIL" errorWhenNoCallback="true"/>  
+  </packageBindListeners>  
+  ```  
   
-     ***Figure 6.** Example values for custom package bind listener in the DRDA Service application configuration file.*
+   <em>**Figure 6.</em>* Example values for custom package bind listener in the DRDA Service application configuration file.*

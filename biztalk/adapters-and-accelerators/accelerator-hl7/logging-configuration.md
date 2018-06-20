@@ -24,11 +24,11 @@ Together, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server an
   
  The HL7 messages that pass through the accelerator system can be very critical. For example, the data could be a patient's medical record or a financial transaction. To ensure compliance with HL7 security and privacy regulations, system administrators must be able to do the following:  
   
--   Debug suspended messages  
+- Debug suspended messages  
   
--   Monitor system and file access on an ongoing basis to detect potential intruders and reduce the risk of security breaches  
+- Monitor system and file access on an ongoing basis to detect potential intruders and reduce the risk of security breaches  
   
- This section provides conceptual and procedural information to enable you to configure auditing and logging, examine and interpret audit data and event logs, and run queries against the logged data.  
+  This section provides conceptual and procedural information to enable you to configure auditing and logging, examine and interpret audit data and event logs, and run queries against the logged data.  
   
 ## In This Section  
   

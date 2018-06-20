@@ -23,7 +23,7 @@ manager: "anneta"
 ### Symptom  
  When you attempt to submit a message that you have repaired, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] posts the following message:  
   
- "The adapter failed to transmit message going to send port "http://mrsrtest:80/StsWebReceive/default.aspx?PartnerId=Unparsed&FolderType=MessagesInbox". It will be retransmitted after the retry interval specified for this Send Port. Details:"80131600". For more information, see Help and Support Center at [http://go.microsoft.com/fwlink/?LinkId=142493](http://go.microsoft.com/fwlink/?LinkId=142493).  
+ "The adapter failed to transmit message going to send port "<http://mrsrtest:80/StsWebReceive/default.aspx?PartnerId=Unparsed&FolderType=MessagesInbox>". It will be retransmitted after the retry interval specified for this Send Port. Details:"80131600". For more information, see Help and Support Center at [http://go.microsoft.com/fwlink/?LinkId=142493](http://go.microsoft.com/fwlink/?LinkId=142493).  
   
 ### Possible Cause  
  The envelope schema is not deployed. This is true for any MT*xxx* message or any message that has failed parsing.  

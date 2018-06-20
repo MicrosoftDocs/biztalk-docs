@@ -17,15 +17,15 @@ manager: "anneta"
 # The batch settings for party have expired and the batching orchestration is being terminated
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|BatchSettingsExpired|  
-|Message Text|The batch settings for party {0} have expired and the batching orchestration is being terminated. Further batches will not be generated till the batching is activated for this party|  
+|                 |                                                                                                                                                                                       |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                   |
+| Product Version |                                                              [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                               |
+|    Event ID     |                                                                                           -                                                                                           |
+|  Event Source   |                                                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                 |
+|    Component    |                                                                                    Batching Engine                                                                                    |
+|  Symbolic Name  |                                                                                 BatchSettingsExpired                                                                                  |
+|  Message Text   | The batch settings for party {0} have expired and the batching orchestration is being terminated. Further batches will not be generated till the batching is activated for this party |
   
 ## Explanation  
  This Warning indicates that the batching orchestration instance has been deactivated because the end of the activation range has been reached.  

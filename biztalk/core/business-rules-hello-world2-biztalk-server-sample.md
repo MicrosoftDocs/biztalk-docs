@@ -68,22 +68,22 @@ The Business Rules Hello World2 sample extends the Business Rules Hello World1 s
   
 ### To build and initialize the Business Rules Hello World2 sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     *\<Samples Path\>*\Business Rules\Business Rules Hello World2\  
+    *\<Samples Path\>*\Business Rules\Business Rules Hello World2\  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    -   Compiles and deploys the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
+   - Compiles and deploys the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
   
-    > [!NOTE]
-    >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
-  
-    > [!NOTE]
-    >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
-  
-    > [!NOTE]
-    >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
+   > [!NOTE]
+   >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
+   > 
+   > [!NOTE]
+   >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
+   > 
+   > [!NOTE]
+   >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
   
 ### To run the Business Rules Hello World2 sample  
   
@@ -118,24 +118,24 @@ Press the ENTER to continue after updating the policy...
   
 #### To use the Business Rules Composer to change the business rules  
   
-1.  To open the Business Rules Composer, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Business Rules Composer**.  
+1. To open the Business Rules Composer, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Business Rules Composer**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
   
-2.  If a SQL Server dialog box appears on the computer running SQL Server, click **OK** to connect to the rule store.  
+2. If a SQL Server dialog box appears on the computer running SQL Server, click **OK** to connect to the rule store.  
   
-3.  In **Policy Explorer**, below the **SampleRuleSet** node, right-click the node **Version 1.0 – Deployed**, and then click **Copy**.  
+3. In **Policy Explorer**, below the **SampleRuleSet** node, right-click the node **Version 1.0 – Deployed**, and then click **Copy**.  
   
-4.  Right-click **SampleRuleSet**, and then click **Paste (Policy Version)**.  
+4. Right-click **SampleRuleSet**, and then click **Paste (Policy Version)**.  
   
-5.  You can change the rule condition and action to meet your needs. For this procedure, click **rule1** in **Version 1.1 (not saved)**. In the right pane, right-click **Conditions**, and then click **Add Logical NOT**. Adding a **Logical NOT** operation to **Not Equal** to predicate is equivalent to using an **Equal** predicate.  
+5. You can change the rule condition and action to meet your needs. For this procedure, click **rule1** in **Version 1.1 (not saved)**. In the right pane, right-click **Conditions**, and then click **Add Logical NOT**. Adding a **Logical NOT** operation to **Not Equal** to predicate is equivalent to using an **Equal** predicate.  
   
-6.  Right-click the node **Version 1.1(not saved)**, and then click **Save**. Right-click again, and then click **Publish**. Right-click a third time and click **Deploy**.  
+6. Right-click the node **Version 1.1(not saved)**, and then click **Save**. Right-click again, and then click **Publish**. Right-click a third time and click **Deploy**.  
   
-7.  In the paused command window asking you to press any key to continue after updating the policy, press any key.  
+7. In the paused command window asking you to press any key to continue after updating the policy, press any key.  
   
- Output (assuming you changed the rule by adding a logical Not) from the executable file BusinessRulesHelloWorld2.exe continues as follows:  
+   Output (assuming you changed the rule by adding a logical Not) from the executable file BusinessRulesHelloWorld2.exe continues as follows:  
   
 ```  
 Sleeping for 60 seconds (so that the deployed ruleset becomes effective) ...         

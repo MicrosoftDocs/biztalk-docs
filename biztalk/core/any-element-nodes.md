@@ -19,7 +19,7 @@ In BizTalk Editor, you can use an **Any Element** node to indicate a location wi
   
 > [!NOTE]
 >  In BizTalk Editor, the **Any Element** node is represented with the string \<Any\> in the schema tree view.  
-  
+> 
 > [!NOTE]
 >  You can control the degree to which the unknown portion of the message is validated as well-formed XML by using the **Process Contents** property. In many cases you may need to set the **Process Contents** property to **Skip** for the contents of an instance message at the location of the **Any Element** node to be processed. Retaining the default value of **Strict** for the **Process Contents** property will prevent instance message validation from passing.  
 > 

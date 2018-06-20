@@ -43,29 +43,29 @@ To indicate the data you need to collect for reports, you must define a BAM acti
   
 #### To create a new item  
   
-1.  Click **New Item**.  
+1. Click **New Item**.  
   
-2.  In the **New Activity Item** dialog box, in the **New Activity Item** box, type a descriptive name for the activity item.  
+2. In the **New Activity Item** dialog box, in the **New Activity Item** box, type a descriptive name for the activity item.  
   
-3.  From the **Item type** drop-down menu, select a type for this item. Possible values include:  
+3. From the **Item type** drop-down menu, select a type for this item. Possible values include:  
   
-    |Item type|Description|  
-    |---------------|-----------------|  
-    |Business Milestone|A date/time value. For example, an approval date for a purchase order.|  
-    |Business Data – Text|A string containing any alphanumeric characters. For example, Ship to: City, State/Province and Zip/Postal code.|  
-    |Business Data – Integer|A whole number value. For example, the total number of purchases.|  
-    |Business Data – Decimal|A decimal value. For example the total dollar amount of the PO.|  
+   |Item type|Description|  
+   |---------------|-----------------|  
+   |Business Milestone|A date/time value. For example, an approval date for a purchase order.|  
+   |Business Data – Text|A string containing any alphanumeric characters. For example, Ship to: City, State/Province and Zip/Postal code.|  
+   |Business Data – Integer|A whole number value. For example, the total number of purchases.|  
+   |Business Data – Decimal|A decimal value. For example the total dollar amount of the PO.|  
   
-     If you select the item type "Business Data – Text", you must enter the maximum number of characters for the string in the **Maximum length** box.  
+    If you select the item type "Business Data – Text", you must enter the maximum number of characters for the string in the **Maximum length** box.  
   
-    > [!NOTE]
-    >  For more information about creating these items, see "Partner Management and Business Activity Monitoring" in the Microsoft BizTalk Server tutorial.  
+   > [!NOTE]
+   >  For more information about creating these items, see "Partner Management and Business Activity Monitoring" in the Microsoft BizTalk Server tutorial.  
   
-4.  Repeat steps 1 through 3 to add as many items as needed to this activity.  
+4. Repeat steps 1 through 3 to add as many items as needed to this activity.  
   
-5.  After you complete the Business Activity Monitoring Activity Wizard, the Business Activity Monitoring View Wizard starts automatically.  
+5. After you complete the Business Activity Monitoring Activity Wizard, the Business Activity Monitoring View Wizard starts automatically.  
   
- For more information about using this wizard, see [Defining a BAM View](../core/defining-a-bam-view.md).  
+   For more information about using this wizard, see [Defining a BAM View](../core/defining-a-bam-view.md).  
   
 ## See Also  
  [Defining a BAM View](../core/defining-a-bam-view.md)   

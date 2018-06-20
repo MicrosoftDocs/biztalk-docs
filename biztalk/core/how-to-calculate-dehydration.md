@@ -19,43 +19,43 @@ To calculate dehydration, you use the configured properties and certain run-time
   
 ### To calculate dehydration  
   
-1.  Let alpha represent a factor between 0 and 1 that measures memory stress.  In practice, alpha has a component for each of the three memory throttling criteria (dehydration properties); in this example we denote them as alpha(virtual), alpha(private) and alpha(physical). Define the following:  
+1. Let alpha represent a factor between 0 and 1 that measures memory stress.  In practice, alpha has a component for each of the three memory throttling criteria (dehydration properties); in this example we denote them as alpha(virtual), alpha(private) and alpha(physical). Define the following:  
   
-    ```  
-    IF ActualPrivateBytes < OptimalUsage  
-       alpha(private) = 1  
-    ELSE IF ActualPrivateBytes > MaximalUsage  
-       alpha(private) = 0  
-    ELSE  
-       alpha(private) = (MaximalUsage - ActualPrivateBytes) / (MaximalUsage - OptimalUsage)  
-    ```  
+   ```  
+   IF ActualPrivateBytes < OptimalUsage  
+      alpha(private) = 1  
+   ELSE IF ActualPrivateBytes > MaximalUsage  
+      alpha(private) = 0  
+   ELSE  
+      alpha(private) = (MaximalUsage - ActualPrivateBytes) / (MaximalUsage - OptimalUsage)  
+   ```  
   
-    > [!NOTE]
-    >  OptimalUsage and MaximalUsage have default values for each dehydration property. These values can be changed in the BTSNTSvc.exe.config file. For more information, see [Dehydration Default Properties](../core/dehydration-default-properties.md).  
+   > [!NOTE]
+   >  OptimalUsage and MaximalUsage have default values for each dehydration property. These values can be changed in the BTSNTSvc.exe.config file. For more information, see [Dehydration Default Properties](../core/dehydration-default-properties.md).  
   
-2.  Define the other alpha components analogously. Define the following:  
+2. Define the other alpha components analogously. Define the following:  
   
-    ```  
-    alpha = Minimum { alpha(virtual), alpha(private), alpha(physical) }  
-    where alpha(…) = 1 whenever IsActive=false for that given memory unit  
-    ```  
+   ```  
+   alpha = Minimum { alpha(virtual), alpha(private), alpha(physical) }  
+   where alpha(…) = 1 whenever IsActive=false for that given memory unit  
+   ```  
   
-3.  Then define TestThreshold (TestThreshold, MinThreshold, and MaxThreshold are defined in seconds):  
+3. Then define TestThreshold (TestThreshold, MinThreshold, and MaxThreshold are defined in seconds):  
   
-    ```  
-    TestThreshold = MinThreshold + (alpha * (MaxThreshold – MinThreshold))  
-    ```  
+   ```  
+   TestThreshold = MinThreshold + (alpha * (MaxThreshold – MinThreshold))  
+   ```  
   
-    > [!NOTE]
-    >  MinThreshold default value = 1. MaxThreshold default value = 1800. These values can be changed in the BTSNTSvc.exe.config file. For more information, see [Dehydration Default Properties](../core/dehydration-default-properties.md).  
+   > [!NOTE]
+   >  MinThreshold default value = 1. MaxThreshold default value = 1800. These values can be changed in the BTSNTSvc.exe.config file. For more information, see [Dehydration Default Properties](../core/dehydration-default-properties.md).  
   
-4.  Then define TimeBlocked and EstimatedTime:  
+4. Then define TimeBlocked and EstimatedTime:  
   
-    -   TimeBlocked = actual time we have been waiting for this subscription to be satisfied  
+   -   TimeBlocked = actual time we have been waiting for this subscription to be satisfied  
   
-    -   EstimatedTime = estimated time that this orchestration will remain idle (e.g. remaining timeout on the listen)  
+   -   EstimatedTime = estimated time that this orchestration will remain idle (e.g. remaining timeout on the listen)  
   
- The decision whether to dehydrate is the result of the following Boolean condition (true = dehydrate):  
+   The decision whether to dehydrate is the result of the following Boolean condition (true = dehydrate):  
   
 -   Dehydrate = (EstimatedTime > TestThreshold OR TimeBlocked > (2* TestThreshold))  
   

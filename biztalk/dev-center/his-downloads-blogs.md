@@ -33,13 +33,13 @@ ms.author: "mandia"
 
 #### SDKs
 
--   [HIS 2016 SDK](https://aka.ms/his2016sdk)
--   [HIS 2013 Software Development Kit (SDK)](https://www.microsoft.com/download/details.aspx?id=41557)
--   
-#### Management packs
+- [HIS 2016 SDK](https://aka.ms/his2016sdk)
+- [HIS 2013 Software Development Kit (SDK)](https://www.microsoft.com/download/details.aspx?id=41557)
+- 
+  #### Management packs
 
--   [HIS 2013 Management Pack](https://www.microsoft.com/download/details.aspx?id=39978)
--   [HIS 2010 Monitoring Management Pack](https://www.microsoft.com/download/details.aspx?id=23657)
+- [HIS 2013 Management Pack](https://www.microsoft.com/download/details.aspx?id=39978)
+- [HIS 2010 Monitoring Management Pack](https://www.microsoft.com/download/details.aspx?id=23657)
 
 #### Best practices analyzer
 

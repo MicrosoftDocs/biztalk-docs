@@ -29,98 +29,98 @@ You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.m
 ## Consuming the POLLINGSTMT request message  
  The adapter invokes the POLLINGSTMT operation on your code to poll the Oracle database. That is, the adapter sends a POLLINGSTMT request message that you receive over an **IInputChannel** channel shape. The POLLINGSTMT request message contains the result set of the query specified by the **PollingStatement** binding property. You can consume the POLLINGSTMT message in one of two ways:  
   
--   To consume the message using node-value streaming you must call the **WriteBodyContents** method on the response message and pass it an **XmlDictionaryWriter** that implements node-value streaming.  
+- To consume the message using node-value streaming you must call the **WriteBodyContents** method on the response message and pass it an **XmlDictionaryWriter** that implements node-value streaming.  
   
--   To consume the message using node streaming you can call **GetReaderAtBodyContents** on the response message to get an **XmlReader**.  
+- To consume the message using node streaming you can call **GetReaderAtBodyContents** on the response message to get an **XmlReader**.  
   
- You typically use node-value streaming to consume result sets that contain Oracle LOB data columns.  
+  You typically use node-value streaming to consume result sets that contain Oracle LOB data columns.  
   
- For more information about the message structure of the POLLINGSTMT operation, see [Message Schemas for the Polling Operations](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-polling-operations2.md).  
+  For more information about the message structure of the POLLINGSTMT operation, see [Message Schemas for the Polling Operations](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-polling-operations2.md).  
   
- For more information about how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports streaming on LOB data, see [Streaming large object data types in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/streaming-large-object-data-types-in-oracle-database-adapter.md).  
+  For more information about how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports streaming on LOB data, see [Streaming large object data types in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/streaming-large-object-data-types-in-oracle-database-adapter.md).  
   
- For more information about implementing node-value streaming in your code to support end-to-end streaming of LOB data, see [Streaming Oracle Database LOB Data Types Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/streaming-oracle-database-lob-data-types-using-the-wcf-channel-model.md).  
+  For more information about implementing node-value streaming in your code to support end-to-end streaming of LOB data, see [Streaming Oracle Database LOB Data Types Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/streaming-oracle-database-lob-data-types-using-the-wcf-channel-model.md).  
   
 ## About the Examples Used in this Topic  
  The example in this topic uses the SCOTT.ACCOUNTACTIVITY table and the SCOTT.ACCOUNT_PKG.PROCESS_ACTIVITY function. A script to generate these artifacts is supplied with the samples. The example performs the following operations:  
   
--   As part of the polling statement, selects all the records from the ACCOUNTACTIVITY table and displays on the console.  
+- As part of the polling statement, selects all the records from the ACCOUNTACTIVITY table and displays on the console.  
   
--   As part of the post poll statement, the example invokes the PROCESS_ACTIVITY function that moves all the records from ACCOUNTACTIVITY table to ACTIVITYHISTORY table.  
+- As part of the post poll statement, the example invokes the PROCESS_ACTIVITY function that moves all the records from ACCOUNTACTIVITY table to ACTIVITYHISTORY table.  
   
--   Subsequent polls on the ACCOUNTACTIVITY table do not return any records. However, if you want the example to return more records as part of the polling operation, you must insert some records in the ACCOUNTACTIVITY table. You can do so by running the more_activity_data.sql script provided with the samples.  
+- Subsequent polls on the ACCOUNTACTIVITY table do not return any records. However, if you want the example to return more records as part of the polling operation, you must insert some records in the ACCOUNTACTIVITY table. You can do so by running the more_activity_data.sql script provided with the samples.  
   
- For more information about the samples, see [Adapter Samples](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md).  
+  For more information about the samples, see [Adapter Samples](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md).  
   
 ## How Do I Poll an Oracle Database Using an IInputChannel?  
  To poll an Oracle database table or view to receive data-change messages using the WCF channel model, perform the following steps.  
   
 #### To receive data-changed messages using an IInputChannel  
   
-1.  Create a Visual C# project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For this topic, create a console application.  
+1. Create a Visual C# project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For this topic, create a console application.  
   
-2.  In the Solution Explorer, add reference to `Microsoft.Adapters.OracleDB`, `Microsoft.ServiceModel.Channels`, `System.ServiceModel`, and `System.Runtime.Serialization`.  
+2. In the Solution Explorer, add reference to `Microsoft.Adapters.OracleDB`, `Microsoft.ServiceModel.Channels`, `System.ServiceModel`, and `System.Runtime.Serialization`.  
   
-3.  Open the Program.cs file and add the following namespaces:  
+3. Open the Program.cs file and add the following namespaces:  
   
-    -   `Microsoft.Adapters.OracleDB`  
+   -   `Microsoft.Adapters.OracleDB`  
   
-    -   `Microsoft.ServiceModel.Channels`  
+   -   `Microsoft.ServiceModel.Channels`  
   
-    -   `System.ServiceModel`  
+   -   `System.ServiceModel`  
   
-    -   `System.ServiceModel.Description`  
+   -   `System.ServiceModel.Description`  
   
-    -   `System.ServiceModel.Channels`  
+   -   `System.ServiceModel.Channels`  
   
-    -   `System.Xml`  
+   -   `System.Xml`  
   
-    -   `System.Runtime.Serialization`  
+   -   `System.Runtime.Serialization`  
   
-    -   `System.IO`  
+   -   `System.IO`  
   
-    -   `Microsoft.ServiceModel.Channels.Common`  
+   -   `Microsoft.ServiceModel.Channels.Common`  
   
-4.  Create an instance of **OracleDBBinding** and set the binding properties required to configure polling. At a minimum you must set the **InboundOperationType**, **PollingStatement**, and **PollingInterval** binding properties. For this example, you also set the **PostPollStatement** binding property. For more information about binding properties used to configure polling, see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).  
+4. Create an instance of **OracleDBBinding** and set the binding properties required to configure polling. At a minimum you must set the **InboundOperationType**, **PollingStatement**, and **PollingInterval** binding properties. For this example, you also set the **PostPollStatement** binding property. For more information about binding properties used to configure polling, see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).  
   
-    ```  
-    OracleDBBinding binding = new OracleDBBinding();  
-    binding.InboundOperationType = InboundOperation.Polling;  
-    binding.PollingInterval = 30;  
-    binding.PollingStatement = "SELECT * FROM ACCOUNTACTIVITY FOR UPDATE";  
-    binding.PostPollStatement = "BEGIN ACCOUNT_PKG.PROCESS_ACTIVITY(); END;"  
-    ```  
+   ```  
+   OracleDBBinding binding = new OracleDBBinding();  
+   binding.InboundOperationType = InboundOperation.Polling;  
+   binding.PollingInterval = 30;  
+   binding.PollingStatement = "SELECT * FROM ACCOUNTACTIVITY FOR UPDATE";  
+   binding.PostPollStatement = "BEGIN ACCOUNT_PKG.PROCESS_ACTIVITY(); END;"  
+   ```  
   
-5.  Create a binding parameter collection and set the credentials.  
+5. Create a binding parameter collection and set the credentials.  
   
-    ```  
-    ClientCredentials credentials = new ClientCredentials();  
-    credentials.UserName.UserName = "SCOTT";  
-    credentials.UserName.Password = "TIGER";  
+   ```  
+   ClientCredentials credentials = new ClientCredentials();  
+   credentials.UserName.UserName = "SCOTT";  
+   credentials.UserName.Password = "TIGER";  
   
-    BindingParameterCollection bindingParams = new BindingParameterCollection();  
-    bindingParams.Add(credentials);  
-    ```  
+   BindingParameterCollection bindingParams = new BindingParameterCollection();  
+   bindingParams.Add(credentials);  
+   ```  
   
-6.  Create a channel listener and open it. You create the listener by invoking **BuildChannelListener<IInputChannel\>** method on the **OracleDBBinding**. You can modify the target namespace for the POLLINGSTMT operation by setting the PollingId property in the connection URI. For more information about the adapter connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
+6. Create a channel listener and open it. You create the listener by invoking **BuildChannelListener<IInputChannel\>** method on the **OracleDBBinding**. You can modify the target namespace for the POLLINGSTMT operation by setting the PollingId property in the connection URI. For more information about the adapter connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
   
-    ```  
-    IChannelListener<IInputChannel> listener = binding.BuildChannelListener<IInputChannel>(connectionUri, bindingParams);  
-    listener.Open();  
-    ```  
+   ```  
+   IChannelListener<IInputChannel> listener = binding.BuildChannelListener<IInputChannel>(connectionUri, bindingParams);  
+   listener.Open();  
+   ```  
   
-7.  Get an **IInputChannel** channel by invoking the **AcceptChannel** method on the listener and open it.  
+7. Get an **IInputChannel** channel by invoking the **AcceptChannel** method on the listener and open it.  
   
-    ```  
-    IInputChannel channel = listener.AcceptChannel();  
-    channel.Open();  
-    ```  
+   ```  
+   IInputChannel channel = listener.AcceptChannel();  
+   channel.Open();  
+   ```  
   
-8.  Invoke **Receive** on the channel to get the next POLLINGSTMT message from the adapter.  
+8. Invoke **Receive** on the channel to get the next POLLINGSTMT message from the adapter.  
   
-    ```  
-    Message message = channel.Receive();  
-    ```  
+   ```  
+   Message message = channel.Receive();  
+   ```  
   
 9. Consume the result set returned by the POLLINGSTMT operation. You can consume the message using either an **XmlReader** or an **XmlDictionaryWriter**.  
   

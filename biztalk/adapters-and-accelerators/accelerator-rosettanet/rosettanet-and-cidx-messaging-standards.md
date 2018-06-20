@@ -22,21 +22,21 @@ The primary purpose of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [
   
  The RosettaNet standards are an emerging, widely accepted set of standards for implementing automated message exchange in high-technology scenarios. The purpose of the RosettaNet organization is to create, implement, and promote eBusiness process standards. These standards are widely used in high-technology manufacturing and supply-chain applications. The six different industry councils that govern the RosettaNet organization demonstrate the breadth of the application:  
   
--   Electronic components  
+- Electronic components  
   
--   Semiconductor manufacturers  
+- Semiconductor manufacturers  
   
--   Information technology  
+- Information technology  
   
--   Telecommunications  
+- Telecommunications  
   
--   Logistics  
+- Logistics  
   
--   Solution providers  
+- Solution providers  
   
- The CIDX Chem eStandards are a widely accepted set of standards for implementing automated message exchange in chemical-industry scenarios.  
+  The CIDX Chem eStandards are a widely accepted set of standards for implementing automated message exchange in chemical-industry scenarios.  
   
- For more information about standards, see the RosettaNet Web site at [http://go.microsoft.com/FWLink/?LinkID=33859](http://go.microsoft.com/FWLink/?LinkID=33859) and the CIDX Web site at [http://go.microsoft.com/FWLink/?LinkID=34540](http://go.microsoft.com/FWLink/?LinkID=34540).  
+  For more information about standards, see the RosettaNet Web site at [http://go.microsoft.com/FWLink/?LinkID=33859](http://go.microsoft.com/FWLink/?LinkID=33859) and the CIDX Web site at [http://go.microsoft.com/FWLink/?LinkID=34540](http://go.microsoft.com/FWLink/?LinkID=34540).  
   
 ## In This Section  
   

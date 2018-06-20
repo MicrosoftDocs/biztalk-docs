@@ -31,19 +31,19 @@ A sequential convoy enables multiple single messages to join together to achieve
   
  For receives that require convoy processing, the following restrictions apply:  
   
--   The correlation sets that constitute a sequential convoy set for a particular receive must be initialized by one preceding receive.  
+- The correlation sets that constitute a sequential convoy set for a particular receive must be initialized by one preceding receive.  
   
--   The port for a receive that requires sequential convoy processing must be the same as the port for the receive initializing the convoy set. Cross-port convoys are not supported.  
+- The port for a receive that requires sequential convoy processing must be the same as the port for the receive initializing the convoy set. Cross-port convoys are not supported.  
   
--   Message types for a receive that requires convoy processing must match the message type for the receive initializing the convoy set, unless the receive statement is operating on an ordered delivery port.  
+- Message types for a receive that requires convoy processing must match the message type for the receive initializing the convoy set, unless the receive statement is operating on an ordered delivery port.  
   
--   All receives participating in a sequential convoy must follow all the correlation sets that are initialized (or followed) by the initializing receive, unless operating on an ordered delivery port.  
+- All receives participating in a sequential convoy must follow all the correlation sets that are initialized (or followed) by the initializing receive, unless operating on an ordered delivery port.  
   
--   If a sequential convoy is initialized by an activate receive statement, then the activate receive cannot have a filter expression unless operating on an ordered delivery port.  
+- If a sequential convoy is initialized by an activate receive statement, then the activate receive cannot have a filter expression unless operating on an ordered delivery port.  
   
--   If a sequential convoy is initialized by an activate receive, the following receives cannot be inside a nested orchestration.  
+- If a sequential convoy is initialized by an activate receive, the following receives cannot be inside a nested orchestration.  
   
- For an example of sequential convoy implementation, see [Aggregator (BizTalk Server Sample)](../core/aggregator-biztalk-server-sample.md).  
+  For an example of sequential convoy implementation, see [Aggregator (BizTalk Server Sample)](../core/aggregator-biztalk-server-sample.md).  
   
 ## See Also  
  [Working with Convoy Scenarios](../core/working-with-convoy-scenarios.md)   

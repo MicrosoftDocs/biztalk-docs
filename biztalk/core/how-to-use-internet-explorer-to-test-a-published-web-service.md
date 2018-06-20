@@ -44,39 +44,39 @@ You can test your published Web service without writing a Web client application
   
 ## Update the Web.config
   
-1.  Open the Web.config file for the published Web service.  
+1. Open the Web.config file for the published Web service.  
   
-    > [!NOTE]
-    >  You can find the Web.config file in the directory that you configured for the IIS virtual root that contains the Web service.  
+   > [!NOTE]
+   >  You can find the Web.config file in the directory that you configured for the IIS virtual root that contains the Web service.  
   
-2.  Find the \<protocols\> section:  
+2. Find the \<protocols\> section:  
   
-    ```  
-    <webServices>  
-       <protocols>  
-         <remove name="HttpPost" />  
-         <remove name="HttpGet" />  
-         <remove name="HttpPostLocalhost" />  
-       </protocols>  
+   ```  
+   <webServices>  
+      <protocols>  
+        <remove name="HttpPost" />  
+        <remove name="HttpGet" />  
+        <remove name="HttpPostLocalhost" />  
+      </protocols>  
   
-    </webServices>  
-    ```  
+   </webServices>  
+   ```  
   
-3.  For testing HTTP-GET, HTTP-POST, or HTTP-POST from the local computer, remove the corresponding line from the \<protocols\> section.  
+3. For testing HTTP-GET, HTTP-POST, or HTTP-POST from the local computer, remove the corresponding line from the \<protocols\> section.  
   
- For more information about the configuration options, see [Configuration Options for XML Web Services Created Using ASP.NET](https://msdn.microsoft.com/library/b2c0ew36.aspx). 
+   For more information about the configuration options, see [Configuration Options for XML Web Services Created Using ASP.NET](https://msdn.microsoft.com/library/b2c0ew36.aspx). 
   
 #### Access a Web service with Internet Explorer  
   
--   In Internet Explorer, in the **Address** box, type the URL for the Web service using the format **http://*servername*/*apppath*/*webservicename*.asmx**.  
+- In Internet Explorer, in the **Address** box, type the URL for the Web service using the format **http://<em>servername</em>/*apppath*/*webservicename*.asmx**.  
   
-    |Parameter|Value|  
-    |---------------|-----------|  
-    |***servername***|The name of the server that you have deployed your XML Web service.|  
-    |***Apppath***|The name of your virtual directory and the Web application path.|  
-    |***webservicename.asmx***|The name of the XML Web service .asmx file.|  
+  |Parameter|Value|  
+  |---------------|-----------|  
+  |***servername***|The name of the server that you have deployed your XML Web service.|  
+  |***Apppath***|The name of your virtual directory and the Web application path.|  
+  |***webservicename.asmx***|The name of the XML Web service .asmx file.|  
   
- The description for the Web service shows you all the Web service methods that the particular Web service supports. The Web service description page contains links for each available Web method and the service description of the Web service.  
+  The description for the Web service shows you all the Web service methods that the particular Web service supports. The Web service description page contains links for each available Web method and the service description of the Web service.  
   
 #### Test a Web service with Internet Explorer using HTTP-GET  
   

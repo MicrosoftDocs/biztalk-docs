@@ -16,17 +16,17 @@ manager: "anneta"
 # LUA SLI Verbs
 This section describes the Microsoft® Windows® logical unit application (LUA) Session Level Interface (SLI) verbs. It provides the following information for each SLI verb:  
   
--   Details of the LUA verb control block (VCB) structure.  
+- Details of the LUA verb control block (VCB) structure.  
   
--   A description of the verb and its purpose.  
+- A description of the verb and its purpose.  
   
--   Parameters (VCB structure members) supplied to and returned by LUA. The description of each parameter includes information about the valid values for that parameter.  
+- Parameters (VCB structure members) supplied to and returned by LUA. The description of each parameter includes information about the valid values for that parameter.  
   
--   Interaction with other verbs.  
+- Interaction with other verbs.  
   
- Cryptography is not defined as part of the Windows LUA standard.  
+  Cryptography is not defined as part of the Windows LUA standard.  
   
- The verb descriptions in this section include parameter values specific to each verb. For a complete description of the VCB structure for both Request Unit Interface (RUI) and SLI verbs, see [LUA Verb Control Blocks](../core/lua-verb-control-blocks2.md).  
+  The verb descriptions in this section include parameter values specific to each verb. For a complete description of the VCB structure for both Request Unit Interface (RUI) and SLI verbs, see [LUA Verb Control Blocks](../core/lua-verb-control-blocks2.md).  
   
 ## In This Section  
   

@@ -28,21 +28,21 @@ By default, the rule engine requires you to assert an instance of a .NET class t
   
  **To add the StaticSupport registry key**  
   
-1.  Click **Start**, click **Run**, type **RegEdit**, and then click **OK**.  
+1. Click **Start**, click **Run**, type **RegEdit**, and then click **OK**.  
   
-2.  Expand **HKEY_LOCAL_MACHINE**, expand **Software**, expand **Microsoft**, expand **BusinessRules**, and then select **3.0**.  
+2. Expand **HKEY_LOCAL_MACHINE**, expand **Software**, expand **Microsoft**, expand **BusinessRules**, and then select **3.0**.  
   
-3.  In the right pane, right-click, point to **New**, and then click **DWORD value**.  
+3. In the right pane, right-click, point to **New**, and then click **DWORD value**.  
   
-4.  For **Name**, type **StaticSupport**.  
+4. For **Name**, type **StaticSupport**.  
   
- If the **StaticSupport** registry key already exists, and you need to change its value, perform the following steps.  
+   If the **StaticSupport** registry key already exists, and you need to change its value, perform the following steps.  
   
 > [!IMPORTANT]
 >  If BizTalk is installed on a 64-bit machine, then you can add **StaticSupport** registry key using either of the following options:  
->   
->  -   You need to look under HKLM\Software\Wow6432Node\Microsoft\BusinessRules\3.0. If this key exists, then you can add **StaticSupport** here.  
-> -   Another option is to put **StaticSupport** in the **BTNTsvc[64].exe.config** file, as any settings here override what's in the Registry.  Further, one can also make the argument that this option is preferred since it isolates the change in default behavior to BizTalk only, whereas Registry settings are global to the Operating System.  
+> 
+> - You need to look under HKLM\Software\Wow6432Node\Microsoft\BusinessRules\3.0. If this key exists, then you can add **StaticSupport** here.  
+>   -   Another option is to put **StaticSupport** in the **BTNTsvc[64].exe.config** file, as any settings here override what's in the Registry.  Further, one can also make the argument that this option is preferred since it isolates the change in default behavior to BizTalk only, whereas Registry settings are global to the Operating System.  
   
  **To change the value of the StaticSupport registry key**  
   

@@ -19,63 +19,63 @@ manager: "anneta"
 # Receive Inbound RFC Calls from SAP using BizTalk Server
 In an RFC server scenario, there are three entities:  
   
--   An SAP client that sends a request to SAP to invoke an RFC. This could be invoked either by using the SAP GUI or by making an RFC client call through the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- An SAP client that sends a request to SAP to invoke an RFC. This could be invoked either by using the SAP GUI or by making an RFC client call through the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   The SAP system that contains an RFC function definition that the SAP client invokes. The SAP system passes on the request to the RFC server (the adapter). This is used by the adapter to get the metadata of the RFC call that the SAP server makes into the adapter.  
+- The SAP system that contains an RFC function definition that the SAP client invokes. The SAP system passes on the request to the RFC server (the adapter). This is used by the adapter to get the metadata of the RFC call that the SAP server makes into the adapter.  
   
--   The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] that acts as the RFC server and hosts the actual RFC.  
+- The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] that acts as the RFC server and hosts the actual RFC.  
   
- The first entity, the SAP client, is not discussed in this topic. If you are using the SAP GUI to invoke an RFC, refer to SAP documentation. If you are using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to invoke an RFC, see [Invoke RFCs in SAP by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md).  
+  The first entity, the SAP client, is not discussed in this topic. If you are using the SAP GUI to invoke an RFC, refer to SAP documentation. If you are using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to invoke an RFC, see [Invoke RFCs in SAP by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md).  
   
- This section provides instructions on how to use the adapter to receive an RFC server call, once the RFC is invoked by an SAP client. For more information on how the adapter supports receiving RFC server calls using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], see [Operations on RFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).  
+  This section provides instructions on how to use the adapter to receive an RFC server call, once the RFC is invoked by an SAP client. For more information on how the adapter supports receiving RFC server calls using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], see [Operations on RFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).  
   
 ## How to Receive an Inbound RFC Call from the SAP System?  
  Performing an operation on an SAP system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create SAP applications](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md). To receive an RFC call from the SAP system, these tasks are:  
   
-1.  Configure your SAP system to send RFC to an external application, in this case the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+1. Configure your SAP system to send RFC to an external application, in this case the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
-2.  Create a BizTalk project and generate schema for the RFC that the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] will be receiving from the SAP system.  
+2. Create a BizTalk project and generate schema for the RFC that the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] will be receiving from the SAP system.  
   
-3.  Create messages in the BizTalk project for receiving messages from the SAP system and sending responses.  
+3. Create messages in the BizTalk project for receiving messages from the SAP system and sending responses.  
   
-4.  Create an orchestration to receive an RFC from the SAP system, process it, and send the response to the SAP system.  
+4. Create an orchestration to receive an RFC from the SAP system, process it, and send the response to the SAP system.  
   
-5.  Build and deploy the BizTalk project.  
+5. Build and deploy the BizTalk project.  
   
-6.  Configure the BizTalk application by creating physical send and receive ports.  
+6. Configure the BizTalk application by creating physical send and receive ports.  
   
-7.  Start the BizTalk application.  
+7. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Activities on the SAP System  
  Before using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to receive inbound RFC calls from the SAP system, make sure you complete the following tasks on the SAP system.  
   
--   An RFC destination for the SAP adapter must exist. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] receives RFCs from the SAP system through an RFC destination defined on the SAP system. The RFC destination contains the SAP Gateway Host, the SAP Gateway Service, and the SAP Program ID that you must specify in the connection URI in your code. For information about how to setup an RFC destination on SAP, see [Create an RFC, RFC destination, and send an RFC from SAP system](creating-an-rfc-in-an-sap-system.md).  
+- An RFC destination for the SAP adapter must exist. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] receives RFCs from the SAP system through an RFC destination defined on the SAP system. The RFC destination contains the SAP Gateway Host, the SAP Gateway Service, and the SAP Program ID that you must specify in the connection URI in your code. For information about how to setup an RFC destination on SAP, see [Create an RFC, RFC destination, and send an RFC from SAP system](creating-an-rfc-in-an-sap-system.md).  
   
--   You must create a function module that defines the RFC on the SAP system. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the RFC definition on the SAP system to retrieve metadata about the RFC (both at design-time and at runtime). For more information see [Creating an RFC in an SAP System](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md).  
+- You must create a function module that defines the RFC on the SAP system. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the RFC definition on the SAP system to retrieve metadata about the RFC (both at design-time and at runtime). For more information see [Creating an RFC in an SAP System](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md).  
   
-     The following is an example of the source code on the SAP system for an RFC that adds two integers and returns their result. The code merely calls the RFC through a specified destination. The implementation of the function is done by the SAP adapter client code.  
+   The following is an example of the source code on the SAP system for an RFC that adds two integers and returns their result. The code merely calls the RFC through a specified destination. The implementation of the function is done by the SAP adapter client code.  
   
-    ```  
-    FUNCTION Z_RFC_ADD.  
-    *"------------------------------------------------------------------  
-    *"  
-    *"Local interface:  
-    *"  IMPORTING  
-    *"     VALUE(X) TYPE  INT4  
-    *"     VALUE(Y) TYPE  INT4  
-    *"     VALUE(DEST) TYPE  CHAR20 DEFAULT 'SAPADAPTER'  
-    *"  EXPORTING  
-    *"     VALUE(RESULT) TYPE  INT4  
-    *"------------------------------------------------------------------  
-    CALL FUNCTION 'Z_RFC_ADD' DESTINATION DEST  
-      EXPORTING X = X  
-                Y = Y  
-      IMPORTING RESULT = RESULT.  
+  ```  
+  FUNCTION Z_RFC_ADD.  
+  *"------------------------------------------------------------------  
+  *"  
+  *"Local interface:  
+  *"  IMPORTING  
+  *"     VALUE(X) TYPE  INT4  
+  *"     VALUE(Y) TYPE  INT4  
+  *"     VALUE(DEST) TYPE  CHAR20 DEFAULT 'SAPADAPTER'  
+  *"  EXPORTING  
+  *"     VALUE(RESULT) TYPE  INT4  
+  *"------------------------------------------------------------------  
+  CALL FUNCTION 'Z_RFC_ADD' DESTINATION DEST  
+    EXPORTING X = X  
+              Y = Y  
+    IMPORTING RESULT = RESULT.  
   
-    ENDFUNCTION.  
-    ```  
+  ENDFUNCTION.  
+  ```  
   
 ## Sample Based On This Topic  
  A sample, RFCServer, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SAP adapter](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
@@ -124,15 +124,15 @@ In an RFC server scenario, there are three entities:
   
  To achieve this as part of an orchestration, the orchestration must contain:  
   
--   A two-way receive port to receive the RFC server request from the SAP system and send the response.  
+- A two-way receive port to receive the RFC server request from the SAP system and send the response.  
   
--   Send and Receive shapes.  
+- Send and Receive shapes.  
   
--   Construct Message shape, and within that a Message Assignment shape, to process the RFC server request coming from the SAP system.  
+- Construct Message shape, and within that a Message Assignment shape, to process the RFC server request coming from the SAP system.  
   
- A sample orchestration for an RFC server call resembles the following.  
+  A sample orchestration for an RFC server call resembles the following.  
   
- ![Orchestration to make RFC server call](../../adapters-and-accelerators/adapter-sap/media/f5da2947-56d6-41f0-b411-c8e6eacf68cd.gif "f5da2947-56d6-41f0-b411-c8e6eacf68cd")  
+  ![Orchestration to make RFC server call](../../adapters-and-accelerators/adapter-sap/media/f5da2947-56d6-41f0-b411-c8e6eacf68cd.gif "f5da2947-56d6-41f0-b411-c8e6eacf68cd")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the *Shape* column are the names of the message shapes as displayed in the preceding orchestration.  
@@ -218,16 +218,16 @@ Response(WCF.Action) = "http://Microsoft.LobServices.Sap/2007/03/Rfc/Z_RFC_ADD/r
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
   
-    -   Define a WCF-Custom or WCF-SAP receive port. This port will receive inbound RFC calls from the SAP system and will send the response back to the SAP system. For information about how to create ports, see [Manually configure a physical port binding to the SAP adapter](../../adapters-and-accelerators/adapter-sap/manually-configure-a-physical-port-binding-to-the-sap-adapter.md).  
+  - Define a WCF-Custom or WCF-SAP receive port. This port will receive inbound RFC calls from the SAP system and will send the response back to the SAP system. For information about how to create ports, see [Manually configure a physical port binding to the SAP adapter](../../adapters-and-accelerators/adapter-sap/manually-configure-a-physical-port-binding-to-the-sap-adapter.md).  
   
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
   
- You must also add the assembly for the RFCServerResponseCreator project to your BizTalk application. You created this project to process the RFC call received from the SAP system. To do so:  
+  You must also add the assembly for the RFCServerResponseCreator project to your BizTalk application. You created this project to process the RFC call received from the SAP system. To do so:  
   
 1.  In the console tree on the left side of the BizTalk Server Administration console, under the BizTalk application where you imported the bindings, right-click **Resources**, point to **Add**, and then click **BizTalk Assemblies**.  
   

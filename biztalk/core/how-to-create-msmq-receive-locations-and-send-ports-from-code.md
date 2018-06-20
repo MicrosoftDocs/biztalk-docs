@@ -23,13 +23,13 @@ This topic explains how to use WMI to create a port or location for the MSMQ ada
 ## Setting Property Values  
  The process of creating a port or location is always the same:  
   
-1.  Create an object of the right type.  
+1. Create an object of the right type.  
   
-2.  Set the value of properties on the object.  
+2. Set the value of properties on the object.  
   
-3.  Commit the object values to the database.  
+3. Commit the object values to the database.  
   
- All adapters have certain properties, such as **HostName**, in common. You set these common properties by directly assigning them to the object. The following C# code shows a typical case:  
+   All adapters have certain properties, such as **HostName**, in common. You set these common properties by directly assigning them to the object. The following C# code shows a typical case:  
   
 ```  
 objReceiveLocation["HostName"] = "BizTalkServerApplication";  

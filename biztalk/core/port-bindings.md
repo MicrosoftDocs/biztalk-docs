@@ -30,21 +30,21 @@ A port binding is the configuration information that determines where and how a 
   
  There are three types of port binding for ports that receive messages:  
   
--   Specify now  
+- Specify now  
   
--   Specify later  
+- Specify later  
   
--   Direct  
+- Direct  
   
- There are four types of port binding for ports that send messages:  
+  There are four types of port binding for ports that send messages:  
   
--   Specify now  
+- Specify now  
   
--   Specify later  
+- Specify later  
   
--   Direct  
+- Direct  
   
--   Dynamic  
+- Dynamic  
   
 ## Binding at Deployment Time  
  You can bind your port to a receive location or to a send port. If you do not have all of the information you need to specify a physical location, you can select the **Specify later** port binding option in Orchestration Designer, and you only need to specify the port type that describes the port. After the application has been deployed, you can specify information about the location by using the BizTalk Server Administration console, or you can configure the location information programmatically.  
@@ -57,13 +57,13 @@ A port binding is the configuration information that determines where and how a 
   
  There are three types of direct bound ports:  
   
--   MessageBox direct bound port  
+- MessageBox direct bound port  
   
--   Self-correlating direct bound port  
+- Self-correlating direct bound port  
   
--   Partner orchestration direct bound port  
+- Partner orchestration direct bound port  
   
- For more information about how to work with direct bound ports, see [Working with Direct Bound Ports in Orchestrations](../core/working-with-direct-bound-ports-in-orchestrations.md).  
+  For more information about how to work with direct bound ports, see [Working with Direct Bound Ports in Orchestrations](../core/working-with-direct-bound-ports-in-orchestrations.md).  
   
 > [!NOTE]
 >  When you use direct binding, you cannot exchange messages between one request-response port and two one-way ports.  

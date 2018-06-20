@@ -25,15 +25,15 @@ This topic describes how to view instance information for an orchestration by us
   
 ### To view instance information for an orchestration  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration for which you want to view instance information.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration for which you want to view instance information.  
   
-3.  Click **Orchestrations**, select the orchestration for which you want to view instance information, click **View**, and then select **Instance Information**.  
+3. Click **Orchestrations**, select the orchestration for which you want to view instance information, click **View**, and then select **Instance Information**.  
   
-     The query results panel in the lower section of the page displays all instances of the orchestration.  
+    The query results panel in the lower section of the page displays all instances of the orchestration.  
   
-     To refine the query and view different instance information for the orchestration, click the box under **Value** for the Search For field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
+    To refine the query and view different instance information for the orchestration, click the box under **Value** for the Search For field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
   
 ## See Also  
  [Managing Orchestrations](../core/managing-orchestrations.md)   

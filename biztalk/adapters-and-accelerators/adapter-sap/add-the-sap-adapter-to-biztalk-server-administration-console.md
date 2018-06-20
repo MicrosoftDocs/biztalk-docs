@@ -24,19 +24,19 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] can be u
   
 ## Add the SAP Adapter  
   
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  In the console tree, expand the **BizTalk Group**, expand **Platform Settings**, and then click **Adapters**.  
+2. In the console tree, expand the **BizTalk Group**, expand **Platform Settings**, and then click **Adapters**.  
   
-3.  Right-click **Adapters**, point to **New**, and click **Adapter**.  
+3. Right-click **Adapters**, point to **New**, and click **Adapter**.  
   
-     ![Add an adapter](../../adapters-and-accelerators/media/c9610d42-8465-4099-b403-87df6dcd0d99.gif "c9610d42-8465-4099-b403-87df6dcd0d99")  
+    ![Add an adapter](../../adapters-and-accelerators/media/c9610d42-8465-4099-b403-87df6dcd0d99.gif "c9610d42-8465-4099-b403-87df6dcd0d99")  
   
-4.  In the **Adapter Properties** dialog box, specify a name for the adapter and from the **Adapter** list, select **WCF-SAP**.  
+4. In the **Adapter Properties** dialog box, specify a name for the adapter and from the **Adapter** list, select **WCF-SAP**.  
   
-     ![Add SAP Adapter to BizTalk](../../adapters-and-accelerators/media/a1235b38-ab93-4233-924d-42710540b951.gif "a1235b38-ab93-4233-924d-42710540b951")  
+    ![Add SAP Adapter to BizTalk](../../adapters-and-accelerators/media/a1235b38-ab93-4233-924d-42710540b951.gif "a1235b38-ab93-4233-924d-42710540b951")  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 ## See Also  
 [Building blocks to create SAP applications](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md)

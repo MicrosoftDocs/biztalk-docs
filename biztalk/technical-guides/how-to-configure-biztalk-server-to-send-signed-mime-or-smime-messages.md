@@ -21,40 +21,40 @@ This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../in
   
 ### To configure BizTalk Server to send signed messages  
   
-1.  Create a pipeline to send signed messages, as follows:  
+1. Create a pipeline to send signed messages, as follows:  
   
-    > [!NOTE]
-    >  This step is not necessary when configuring AS2 transport for sending signed messages because the AS2Send and AS2EdiSend pipelines that are included in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] serve this function.  
+   > [!NOTE]
+   >  This step is not necessary when configuring AS2 transport for sending signed messages because the AS2Send and AS2EdiSend pipelines that are included in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] serve this function.  
   
-    1.  Create a send pipeline and then drag the MIME/SMIME Encoder pipeline component into the Encode stage of the pipeline.  
+   1. Create a send pipeline and then drag the MIME/SMIME Encoder pipeline component into the Encode stage of the pipeline.  
   
-    2.  In the **Properties** window, configure the MIME/SMIME Encoder pipeline component Signature type property to ClearSign or BlobSign.  
+   2. In the **Properties** window, configure the MIME/SMIME Encoder pipeline component Signature type property to ClearSign or BlobSign.  
   
-        > [!NOTE]
-        >  If you are also using encryption, you can only select BlobSign.  
+      > [!NOTE]
+      >  If you are also using encryption, you can only select BlobSign.  
+      > 
+      > [!NOTE]
+      >  You can configure the send pipeline component properties using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console after the pipeline has been deployed into a BizTalk group.  
+      > 
+      > [!NOTE]
+      >  The MIME/SMIME Encoder pipeline component performs both encryption and digital signing (when configured to perform both functions). Therefore, if you are configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send encrypted and signed messages, you can use the same send pipeline. In other words, you do not have to create separate pipelines for encryption and digital signing.  
   
-        > [!NOTE]
-        >  You can configure the send pipeline component properties using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console after the pipeline has been deployed into a BizTalk group.  
+   3. Build and deploy the send pipeline.  
   
-        > [!NOTE]
-        >  The MIME/SMIME Encoder pipeline component performs both encryption and digital signing (when configured to perform both functions). Therefore, if you are configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send encrypted and signed messages, you can use the same send pipeline. In other words, you do not have to create separate pipelines for encryption and digital signing.  
+2. Configure the send port for sending signed messages, as follows:  
   
-    3.  Build and deploy the send pipeline.  
+   1. Add the BizTalk assembly that you created containing the send pipeline to the BizTalk application that includes the send ports to send signed messages.  
   
-2.  Configure the send port for sending signed messages, as follows:  
+      > [!NOTE]
+      >  This step is not necessary when configuring AS2 transport for sending signed messages because the AS2Send and AS2EdiSend pipelines are included in the BizTalk EDI Application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    1.  Add the BizTalk assembly that you created containing the send pipeline to the BizTalk application that includes the send ports to send signed messages.  
+   2. Configure the send port in the BizTalk application with the send pipeline that you created in the previous procedure.  
   
-        > [!NOTE]
-        >  This step is not necessary when configuring AS2 transport for sending signed messages because the AS2Send and AS2EdiSend pipelines are included in the BizTalk EDI Application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+3. Configure the group with a certificate for sending signed messages, as follows:  
   
-    2.  Configure the send port in the BizTalk application with the send pipeline that you created in the previous procedure.  
+   1. Configure the BizTalk group with the signing certificate that you installed by expanding the BizTalk group in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-clicking **BizTalk Group**, and then clicking **Properties**.  
   
-3.  Configure the group with a certificate for sending signed messages, as follows:  
-  
-    1.  Configure the BizTalk group with the signing certificate that you installed by expanding the BizTalk group in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-clicking **BizTalk Group**, and then clicking **Properties**.  
-  
-    2.  Click the Certificate tab, click **Browse**, select the appropriate certificate, and then click **OK**.  
+   2. Click the Certificate tab, click **Browse**, select the appropriate certificate, and then click **OK**.  
   
 ## See Also  
  [Configuring Certificates for MIME or SMIME Messages](../technical-guides/configuring-certificates-for-mime-or-smime-messages.md)

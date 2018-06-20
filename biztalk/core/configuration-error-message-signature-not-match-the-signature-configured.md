@@ -17,15 +17,15 @@ manager: "anneta"
 # Configuration error. The message signature doesn&#39;t match the signature configured for this party
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|-|  
-|Message Text|Configuration error. The message signature doesn't match the signature configured for this party. Contact the sending partner and verify the certificate used. AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}"|  
+|                 |                                                                                                                                                                                                            |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                             |
+| Product Version |                                                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                         |
+|    Event ID     |                                                                                                     -                                                                                                      |
+|  Event Source   |                                                           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                           |
+|    Component    |                                                                                                 AS2 Engine                                                                                                 |
+|  Symbolic Name  |                                                                                                     -                                                                                                      |
+|  Message Text   | Configuration error. The message signature doesn't match the signature configured for this party. Contact the sending partner and verify the certificate used. AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}" |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the AS2 receive pipeline could not verify the signature when performing MIME processing. This could result from using a different certificate to process the received message than the sender used to sign the message. This can occur if BizTalk Server uses the settings of the wrong party to verify the signature of the incoming AS2 message.  

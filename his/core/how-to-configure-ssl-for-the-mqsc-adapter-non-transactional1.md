@@ -18,29 +18,29 @@ This topic lists the steps to configure the MQSeries Client (MQSC) adapter to ex
   
  Configuration is performed in the following steps:  
   
--   Configure the Queue Manager and the client computer.  
+- Configure the Queue Manager and the client computer.  
   
--   Add SSL to the configuration.  
+- Add SSL to the configuration.  
   
--   Configure the MQSC adapter.  
+- Configure the MQSC adapter.  
   
- The IBM WebSphere MQ documentation provides more information.  
+  The IBM WebSphere MQ documentation provides more information.  
   
 ## Configure the Queue Manager and the Client  
  The following steps create a new Queue Manager. These steps can also be applied to existing Queue Managers.  
   
 #### To set up the Queue Manager and the Client  
   
-1.  Create a Queue Manager named **QM1**. Define a listener on the required port.  
+1. Create a Queue Manager named **QM1**. Define a listener on the required port.  
   
-2.  Define a SVRCONN channel TO.QM1.  
+2. Define a SVRCONN channel TO.QM1.  
   
-3.  Create a local queue on the MQSeries server Queue Manager named TESTQUEUE. This is used for testing the client connections from the MQSC adapter.  
+3. Create a local queue on the MQSeries server Queue Manager named TESTQUEUE. This is used for testing the client connections from the MQSC adapter.  
   
-4.  Test the connection by running amqsputc.exe on your client computer: **amqsputc.exe TESTQUEUE.*QManagerName***.  
+4. Test the connection by running amqsputc.exe on your client computer: **amqsputc.exe TESTQUEUE.*QManagerName***.  
   
-    > [!IMPORTANT]
-    >  This syntax is case-sensitive. Be sure to enter the correct case.  
+   > [!IMPORTANT]
+   >  This syntax is case-sensitive. Be sure to enter the correct case.  
   
 ## Add SSL to the configuration  
  The following steps add an SSL certificate to your MQ configuration.  

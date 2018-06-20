@@ -44,16 +44,16 @@ You can view SSO database information by using the MMC Snap-In or the command li
   
 ### To display the SSO database the SSO Server is connected to using the command line  
   
-1.  On the **Start** menu, click **Run**, and then type **cmd**.  
+1. On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.  
+2. At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage –showdb**.  
+3. Type **ssomanage –showdb**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
- The following table describes the values displayed by these procedures.  
+   The following table describes the values displayed by these procedures.  
   
 |Property|Value|  
 |--------------|-----------|  

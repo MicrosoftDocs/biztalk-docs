@@ -19,19 +19,19 @@ This tutorial requires [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Win
   
  You must have the following utilities and samples installed on your computer:  
   
--   **MllpSend Tool**  
+- **MllpSend Tool**  
   
-     This command-line utility sends a message over the Minimal Lower Layer Protocol (MLLP) protocol to an MLLP receive location. You use it to test your tutorial results. For more information, see [MllpSend Tool](../../adapters-and-accelerators/accelerator-hl7/mllpsend-tool.md).  
+   This command-line utility sends a message over the Minimal Lower Layer Protocol (MLLP) protocol to an MLLP receive location. You use it to test your tutorial results. For more information, see [MllpSend Tool](../../adapters-and-accelerators/accelerator-hl7/mllpsend-tool.md).  
   
--   **MllpPReceive Tool**  
+- **MllpPReceive Tool**  
   
-     This command-line utility receives messages over the MLLP protocol, serving as a receive-location listener. You use it to test your tutorial results, displaying messages and acknowledgments received. For more information, see [MllpReceive Tool](../../adapters-and-accelerators/accelerator-hl7/mllpreceive-tool.md).  
+   This command-line utility receives messages over the MLLP protocol, serving as a receive-location listener. You use it to test your tutorial results, displaying messages and acknowledgments received. For more information, see [MllpReceive Tool](../../adapters-and-accelerators/accelerator-hl7/mllpreceive-tool.md).  
   
--   **Sample Application Accept ACK.txt**  
+- **Sample Application Accept ACK.txt**  
   
-     This sample file contains the text of an application-accept acknowledgment message. The sample works with the MllpReceive tool, which receives and displays messages, then sends back the acknowledgment(s) in the sample file.  
+   This sample file contains the text of an application-accept acknowledgment message. The sample works with the MllpReceive tool, which receives and displays messages, then sends back the acknowledgment(s) in the sample file.  
   
- You need to install the two tools and the sample file by using the BTAHL7 Custom installation process. The Typical installation process does not install these tools. To install these tools, run the BTAHL7 custom installation, at the **Custom Setup** screen, select **MLLP Test Tool** from the **Adapter** folder, and select **Test Instances** from the **Artifacts** folder. For more information, see [Install BizTalk Accelerator for HL7](../../adapters-and-accelerators/accelerator-hl7/install-biztalk-accelerator-for-hl7.md).  
+  You need to install the two tools and the sample file by using the BTAHL7 Custom installation process. The Typical installation process does not install these tools. To install these tools, run the BTAHL7 custom installation, at the **Custom Setup** screen, select **MLLP Test Tool** from the **Adapter** folder, and select **Test Instances** from the **Artifacts** folder. For more information, see [Install BizTalk Accelerator for HL7](../../adapters-and-accelerators/accelerator-hl7/install-biztalk-accelerator-for-hl7.md).  
   
 ## See Also  
  [Preparing to Use the Batching Tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)

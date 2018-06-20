@@ -33,13 +33,13 @@ This topic describes how to use the BizTalk Server Administration console to rem
   
 ### To remove a send port from a send port group  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application in which you want to remove a send port from a send port group.  
+2. In the console tree, expand the BizTalk group and the BizTalk application in which you want to remove a send port from a send port group.  
   
-3.  Click **Send Port Groups**, right-click the send port group, and then click **Properties**.  
+3. Click **Send Port Groups**, right-click the send port group, and then click **Properties**.  
   
-4.  Under **Name**, click the send port to remove, and then click **Remove**.  
+4. Under **Name**, click the send port to remove, and then click **Remove**.  
   
 ## See Also  
  [Creating and Configuring Send Port Groups](../core/creating-and-configuring-send-port-groups.md)   

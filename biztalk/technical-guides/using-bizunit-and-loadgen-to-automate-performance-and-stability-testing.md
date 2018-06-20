@@ -19,21 +19,21 @@ This topic provides information about how to use the Microsoft BizTalk LoadGen 2
 ## BizTalk Server performance testing, step-by-step  
  Before investigating how to automate BizTalk Server performance testing, it is useful to know what steps are typically performed in a performance test. The following steps are representative of a “typical” BizTalk Server performance testing process:  
   
-1.  Create a test results directory to store results and data collected, for example, event logs, trace logs, Performance Monitor data.  
+1. Create a test results directory to store results and data collected, for example, event logs, trace logs, Performance Monitor data.  
   
-2.  Clear the event logs on all servers within the test environment.  
+2. Clear the event logs on all servers within the test environment.  
   
-3.  Stop all BizTalk host instances.  
+3. Stop all BizTalk host instances.  
   
-4.  Stop any IIS instances that are running isolated BizTalk hosts such as the SOAP and HTTP receive adapter handlers.  
+4. Stop any IIS instances that are running isolated BizTalk hosts such as the SOAP and HTTP receive adapter handlers.  
   
-5.  Restart all instances of SQL Server used by the computers running BizTalk Server.  
+5. Restart all instances of SQL Server used by the computers running BizTalk Server.  
   
-6.  Clean up the MessageBox database to ensure that there is no leftover data from previous tests runs. This is important because any leftover data could skew test results.  
+6. Clean up the MessageBox database to ensure that there is no leftover data from previous tests runs. This is important because any leftover data could skew test results.  
   
-7.  Start the BizTalk host instances.  
+7. Start the BizTalk host instances.  
   
-8.  Start the relevant Performance Monitor counters on all servers in the test environment.  
+8. Start the relevant Performance Monitor counters on all servers in the test environment.  
   
 9. Send “priming” messages through the system to initialize the system caches.  
   
@@ -51,44 +51,44 @@ This topic provides information about how to use the Microsoft BizTalk LoadGen 2
   
 16. Perform any necessary cleanup for the next test run.  
   
- Each and every one of the steps just listed can be automated using BizUnit. By utilizing the existing test step assets that BizUnit provides, you can quickly and easily generate an automated performance test for a BizTalk Server solution. One of the primary benefits of automating performance testing by using BizUnit is the flexibility to run tests overnight – meaning that the results are ready for analysis in the morning. This greatly reduces the burden of performance testing on a project team.  
+    Each and every one of the steps just listed can be automated using BizUnit. By utilizing the existing test step assets that BizUnit provides, you can quickly and easily generate an automated performance test for a BizTalk Server solution. One of the primary benefits of automating performance testing by using BizUnit is the flexibility to run tests overnight – meaning that the results are ready for analysis in the morning. This greatly reduces the burden of performance testing on a project team.  
   
 ## The Microsoft BizTalk LoadGen 2007 tool  
  The BizTalk LoadGen 2007 tool (LoadGen) is a load testing tool that was developed by the Stress and Performance Testing team in the BizTalk Server 2006 product group. LoadGen was designed to quickly, easily, and reliably define load tests that simulate production level message volumes. LoadGen is multi-threaded, configuration-driven, and supports multiple transports. The BizTalk product group uses LoadGen on a daily basis; therefore you can have a high degree of confidence that the tool is durable, fit for the purpose, and able to simulate a wide variety of BizTalk scenarios.  
   
  LoadGen employs a modular design that consists of three layers: **presentation**, **framework** and **component**. The presentation layer consists of a command-line driver, which is responsible for driving the framework. The framework layer reads a configuration file and then executes the components specified therein. The component layer consists of three types of components: **load generators**, **message creators** and **throttle controllers**. Each of these components is extensible, so you can create your own and plug them into LoadGen to address the needs of your scenario. Because LoadGen was developed by the BizTalk Server product group, you should find that the out-of-the-box components will fulfill most of your load testing requirements. Each of these components is described in greater detail here.  
   
--   **Load generators** are responsible for transmitting messages via a particular transport. Load generators are provided for the following transports:  
+- **Load generators** are responsible for transmitting messages via a particular transport. Load generators are provided for the following transports:  
   
-    -   File  
+  -   File  
   
-    -   HTTP  
+  -   HTTP  
   
-    -   MQSeries  
+  -   MQSeries  
   
-    -   MSMQLarge  
+  -   MSMQLarge  
   
-    -   MSMQ  
+  -   MSMQ  
   
-    -   SOAP  
+  -   SOAP  
   
-    -   Web Services Enhancements (WSE)  
+  -   Web Services Enhancements (WSE)  
   
-    -   Windows SharePoint Services (WSS)  
+  -   Windows SharePoint Services (WSS)  
   
-    -   Windows Communication Foundation (WCF)  
+  -   Windows Communication Foundation (WCF)  
   
--   **Message creators** are an optional component that can be used when you need to generate messages that contain unique data. Message creators use one of two modes of creation; synchronous and asynchronous. If the synchronous message creation mode is specified, LoadGen uses only a single thread to create messages to ensure that each message contains a unique payload. While the synchronous mode guarantees unique data within each message, this mode also limits scalability. LoadGen also provides asynchronous message creators that use multiple execution threads; this enables LoadGen to meet the target message rate (because it can simply create more threads). In asynchronous mode, the message creator may be configured to randomly modify data for each individual message. However, because it uses multiple threads, it does not guarantee that all message generated during the test will contain a unique payload.  
+- **Message creators** are an optional component that can be used when you need to generate messages that contain unique data. Message creators use one of two modes of creation; synchronous and asynchronous. If the synchronous message creation mode is specified, LoadGen uses only a single thread to create messages to ensure that each message contains a unique payload. While the synchronous mode guarantees unique data within each message, this mode also limits scalability. LoadGen also provides asynchronous message creators that use multiple execution threads; this enables LoadGen to meet the target message rate (because it can simply create more threads). In asynchronous mode, the message creator may be configured to randomly modify data for each individual message. However, because it uses multiple threads, it does not guarantee that all message generated during the test will contain a unique payload.  
   
--   **Throttle controllers** ensure that messages are transmitted at a steady rate by governing the load generators while the test is running. LoadGen also exposes custom throttling, which enables you to control the flow of messages based on criteria including:  
+- **Throttle controllers** ensure that messages are transmitted at a steady rate by governing the load generators while the test is running. LoadGen also exposes custom throttling, which enables you to control the flow of messages based on criteria including:  
   
-    -   Number of files in a folder  
+  -   Number of files in a folder  
   
-    -   Number of rows in a database table  
+  -   Number of rows in a database table  
   
-    -   Depth of an MSMQ or MQSeries message queue  
+  -   Depth of an MSMQ or MQSeries message queue  
   
- The Microsoft [BizTalk LoadGen 2007 tool](http://go.microsoft.com/fwlink/?LinkId=59841) is available for download at [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841) (http://go.microsoft.com/fwlink/?LinkId=59841).  
+  The Microsoft [BizTalk LoadGen 2007 tool](http://go.microsoft.com/fwlink/?LinkId=59841) is available for download at [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841) (http://go.microsoft.com/fwlink/?LinkId=59841).  
   
 ### Sample LoadGen configuration file  
  All LoadGen configuration information is stored in an xml file. The LoadGen configuration file contains a \<CommonSection\> element that configures the default settings for all LoadGen tasks in the LoadGen scenario. The LoadGen configuration file can also contain one or more \<Section\> elements that provide configuration settings for a specific LoadGen task. Entries in a \<Section\> element supersede any default values specified in the \<CommonSection\> element.  

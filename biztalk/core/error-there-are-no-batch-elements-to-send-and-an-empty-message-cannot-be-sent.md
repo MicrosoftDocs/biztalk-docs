@@ -17,15 +17,15 @@ manager: "anneta"
 # There are no batch elements to send and an empty message cannot be sent as it is not configured for party
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|EmptyMessageNotAllowed|  
-|Message Text|There are no batch elements to send and an empty message cannot be sent as it is not configured for party {0}|  
+|                 |                                                                                                               |
+|-----------------|---------------------------------------------------------------------------------------------------------------|
+|  Product Name   |              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
+| Product Version |                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                           |
+|    Event ID     |                                                       -                                                       |
+|  Event Source   |            [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI             |
+|    Component    |                                                Batching Engine                                                |
+|  Symbolic Name  |                                            EmptyMessageNotAllowed                                             |
+|  Message Text   | There are no batch elements to send and an empty message cannot be sent as it is not configured for party {0} |
   
 ## Explanation  
  This Warning indicates that no batch message was sent in a schedule-based batching process because no batch elements had been received when the batch release was scheduled, and the empty batch signal has not been enabled.  

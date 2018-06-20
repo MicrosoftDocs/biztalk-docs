@@ -29,13 +29,13 @@ manager: "anneta"
   
  For an agreement based on a CIDX PIP, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] will validate the following in a message:  
   
--   RNIF 1.1 version only  
+- RNIF 1.1 version only  
   
--   No 0A1  
+- No 0A1  
   
--   Only Single Action  
+- Only Single Action  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] will not prevent you from setting the `Standard` property for a process configuration to "CIDX", after you have set the `0A1 agreement` property for an agreement that uses that profile to "0A1" (which is not supported for CIDX). [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not perform the cross-field validation that would prevent this.  
+  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] will not prevent you from setting the `Standard` property for a process configuration to "CIDX", after you have set the `0A1 agreement` property for an agreement that uses that profile to "0A1" (which is not supported for CIDX). [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not perform the cross-field validation that would prevent this.  
   
 ## Applying a PIP to a CIDX Implementation  
  To apply a PIP to a CIDX implementation, set the `Standard` property in the process configuration profile to **CIDX**. After you have finished, you will be able to enter values for the Message standard, Standard version, and Payload binding ID. You can find these values in the CIDX Chem eStandards specification.  

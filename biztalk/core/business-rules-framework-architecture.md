@@ -65,25 +65,25 @@ Microsoft Business Rules Framework Architecture
   
  The following steps describe the process when a new **Policy** instance is instantiated (either with a call on the API or execution of the **Call Rules** shape):  
   
-1.  The **Policy** object requests a **RuleEngine** instance from the rule engine cache.  
+1. The **Policy** object requests a **RuleEngine** instance from the rule engine cache.  
   
-2.  If a **RuleEngine** instance for the policy version exists in the cache, the **RuleEngine** instance is returned to the **Policy** object. If a **RuleEngine** instance is not available, the cache creates a new instance. When a **RuleEngine** instance is instantiated, it does, in turn, create a new fact retriever instance if one is configured for the policy version.  
+2. If a **RuleEngine** instance for the policy version exists in the cache, the **RuleEngine** instance is returned to the **Policy** object. If a **RuleEngine** instance is not available, the cache creates a new instance. When a **RuleEngine** instance is instantiated, it does, in turn, create a new fact retriever instance if one is configured for the policy version.  
   
- When the **Execute** method is called on the **Policy** object, the following steps occur:  
+   When the **Execute** method is called on the **Policy** object, the following steps occur:  
   
-1.  The Policy object calls the **UpdateFacts**method on the fact retriever instance if a fact retriever exists. The fact retriever's implementation of the method may assert long term facts into the working memory of the **RuleEngine**.  
+3. The Policy object calls the **UpdateFacts**method on the fact retriever instance if a fact retriever exists. The fact retriever's implementation of the method may assert long term facts into the working memory of the **RuleEngine**.  
   
-2.  The **Policy** object asserts the short term facts contained in the **Array** that was passed in the **Execute** call.  
+4. The **Policy** object asserts the short term facts contained in the **Array** that was passed in the **Execute** call.  
   
-3.  The **Policy** object calls **Execute** on the **RuleEngine**.  
+5. The **Policy** object calls **Execute** on the **RuleEngine**.  
   
-4.  The **RuleEngine** completes execution and returns control to the **Policy**object.  
+6. The **RuleEngine** completes execution and returns control to the **Policy**object.  
   
-5.  The**Policy**object retracts the short term facts from the **RuleEngine**. The long term facts asserted by the fact retriever will remain in the working memory of the rule engine.  
+7. The**Policy**object retracts the short term facts from the **RuleEngine**. The long term facts asserted by the fact retriever will remain in the working memory of the rule engine.  
   
- After the **Dispose** method is called on the **Policy** object, the **RuleEngine** instance is released back to the rule engine cache.  
+   After the **Dispose** method is called on the **Policy** object, the **RuleEngine** instance is released back to the rule engine cache.  
   
- The rule engine cache will have multiple rule engine instances for a given policy version if the load requires it, and each rule engine instance has its own fact retriever instance.  
+   The rule engine cache will have multiple rule engine instances for a given policy version if the load requires it, and each rule engine instance has its own fact retriever instance.  
   
 ## See Also  
  [Business Rules Engine](../core/business-rules-engine.md)

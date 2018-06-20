@@ -17,15 +17,15 @@ manager: "anneta"
 # A security exception occurred while reflecting a BizTalk assembly
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|A security exception occurred while reflecting BizTalk assembly "{0}". This problem may occur if the assembly is located in a shared network folder. To correct this problem, try one of the following: 1. Copy the assembly and its dependencies to the local machine. 2. Adjust the .NET Configuration Runtime Security policy to permit access.|  
+|                 |                                                                                                                                                                                                                                                                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                                                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                                                                 |
+| Product Version |                                                                                                                                             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                                                                                                             |
+|    Event ID     |                                                                                                                                                                         0                                                                                                                                                                          |
+|  Event Source   |                                                                                                                                                                         0                                                                                                                                                                          |
+|    Component    |                                                                                                                                                                         0                                                                                                                                                                          |
+|  Symbolic Name  |                                                                                                                                                                         0                                                                                                                                                                          |
+|  Message Text   | A security exception occurred while reflecting BizTalk assembly "{0}". This problem may occur if the assembly is located in a shared network folder. To correct this problem, try one of the following: 1. Copy the assembly and its dependencies to the local machine. 2. Adjust the .NET Configuration Runtime Security policy to permit access. |
   
 ## Explanation  
  This error will occur when trying to publish a BizTalk assembly that is on a network share without the right .NET policy.  

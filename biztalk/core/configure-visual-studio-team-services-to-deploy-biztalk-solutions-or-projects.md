@@ -70,13 +70,13 @@ This topic shows you how to set up and configure Visual Studio Team Service (VST
 8. Review your settings, and select **Create**.
 
 9. Delete the steps you don't need. For this tutorial, you can delete the following: 
-* NuGet Restore
-* Test assemblies
-* Publish symbols path 
+10. NuGet Restore
+11. Test assemblies
+12. Publish symbols path 
 
-    ![Delete steps not needed](../core/media/delete-steps-not-needed.png)
+      ![Delete steps not needed](../core/media/delete-steps-not-needed.png)
 
-10. **Optional**. If you want to enable Continous Integration (CI), select **Triggers** in the menu, and check **Continous integration (CI)**.
+13. **Optional**. If you want to enable Continous Integration (CI), select **Triggers** in the menu, and check **Continous integration (CI)**.
 
 Next, install the agent on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. 
 

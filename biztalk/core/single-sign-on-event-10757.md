@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10757
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10757|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_MAPPING|  
-|Message Text|The mapping does not exist. For Config Store applications, the config info has not been set.|  
+|                 |                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------|
+|  Product Name   |                                  Enterprise Single Sign-On                                   |
+| Product Version |                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                  |
+|    Event ID     |                                            10757                                             |
+|  Event Source   |                                            ENTSSO                                            |
+|    Component    |                                             N/A                                              |
+|  Symbolic Name  |                                     ENTSSO_E_NO_MAPPING                                      |
+|  Message Text   | The mapping does not exist. For Config Store applications, the config info has not been set. |
   
 ## Explanation  
  If this is an Individual or Group type application, then the mapping does not exist.  

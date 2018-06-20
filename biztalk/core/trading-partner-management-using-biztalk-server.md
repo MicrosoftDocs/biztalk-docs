@@ -66,9 +66,9 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
 
 - [Troubleshooting EDI and AS2 Solutions](../core/troubleshooting-edi-and-as2-solutions.md)
   
--   View UI details [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)] 
+- View UI details [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)] 
   
--   [EDI and AS2 Events and Errors](../core/edi-and-as2-events-and-errors.md)
+- [EDI and AS2 Events and Errors](../core/edi-and-as2-events-and-errors.md)
  
 
 

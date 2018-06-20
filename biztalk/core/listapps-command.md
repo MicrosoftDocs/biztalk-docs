@@ -18,7 +18,7 @@ manager: "anneta"
 Prints to the console the name and description of all of the BizTalk applications in the specified BizTalk Management database.  
   
 ## Usage  
- **BTSTask ListApps** [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask ListApps** [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

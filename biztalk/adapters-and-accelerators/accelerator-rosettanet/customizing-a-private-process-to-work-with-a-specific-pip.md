@@ -28,27 +28,27 @@ You can create a filter expression that will cause a responder private-process o
   
 ### To customize a responder private process to work with a specific PIP  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], create a custom responder private-process orchestration for working with a specific PIP. You can base the orchestration on the default BTARN responder private-process orchestration.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], create a custom responder private-process orchestration for working with a specific PIP. You can base the orchestration on the default BTARN responder private-process orchestration.  
   
-    > [!NOTE]
-    >  You can find the default responder private-process orchestration, named PrivateResponder.odx, in the BTARN SDK. It is located at *\<drive\>*:\Program Files\BizTalk \<version\> Accelerator for RosettaNet\SDK\PrivateResponder.  
+   > [!NOTE]
+   >  You can find the default responder private-process orchestration, named PrivateResponder.odx, in the BTARN SDK. It is located at *\<drive\>*:\Program Files\BizTalk \<version\> Accelerator for RosettaNet\SDK\PrivateResponder.  
   
-2.  Add the custom orchestration to your BizTalk project. Make sure that your project has a reference to the Microsoft.Solutions.BTARN.GlobalSchemas.dll file.  
+2. Add the custom orchestration to your BizTalk project. Make sure that your project has a reference to the Microsoft.Solutions.BTARN.GlobalSchemas.dll file.  
   
-3.  Open the custom orchestration in Orchestration Designer.  
+3. Open the custom orchestration in Orchestration Designer.  
   
-4.  Right-click the first **Receive** shape that activates the orchestration, and then click **Edit Filter Expression**.  
+4. Right-click the first **Receive** shape that activates the orchestration, and then click **Edit Filter Expression**.  
   
-    > [!NOTE]
-    >  The receive shape for the default BTARN responder private-process orchestration has two filter conditions: Microsoft.Solutions.BTARN.GlobalSchemas.SCCategory == "AsyncAction" or Microsoft.Solutions.BTARN.GlobalSchemas.SCCategory == "SyncAction". This expression makes sure that the orchestration processes RosettaNet messages. Retain this filter expression in your custom orchestration.  
+   > [!NOTE]
+   >  The receive shape for the default BTARN responder private-process orchestration has two filter conditions: Microsoft.Solutions.BTARN.GlobalSchemas.SCCategory == "AsyncAction" or Microsoft.Solutions.BTARN.GlobalSchemas.SCCategory == "SyncAction". This expression makes sure that the orchestration processes RosettaNet messages. Retain this filter expression in your custom orchestration.  
   
-5.  In the **Filter Expression** dialog box, in the Property column in the first open row, select **Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode** from the drop-down list, in the Operator column, select **==** from the drop-down list, in the Value column, type the three-digit PIP code, for example, type **3A4**.  
+5. In the **Filter Expression** dialog box, in the Property column in the first open row, select **Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode** from the drop-down list, in the Operator column, select **==** from the drop-down list, in the Value column, type the three-digit PIP code, for example, type **3A4**.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
-7.  Open the default responder private-process orchestration project (PrivateResponder.btproj) in Orchestration Designer. Make sure that the project has a working reference to the Microsoft.Solutions.BTARN.GlobalSchemas.dll file.  
+7. Open the default responder private-process orchestration project (PrivateResponder.btproj) in Orchestration Designer. Make sure that the project has a working reference to the Microsoft.Solutions.BTARN.GlobalSchemas.dll file.  
   
-8.  Double-click **PrivateResponder.odx**.  
+8. Double-click **PrivateResponder.odx**.  
   
 9. Right-click the **ReceiveFromPublicProcessResponder** receive shape, and then click **Edit Filter Expression**.  
   

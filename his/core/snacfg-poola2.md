@@ -17,7 +17,7 @@ manager: "anneta"
 ## Purpose  
  Allows you to view, add, delete, or modify LUA LU pools.  
   
- To assign existing LUA LUs to an LUA LU pool, first configure the pool with the **snacfg poola** command (including options), then add the LUs with the **snacfg lua** command (using the **/pool:***poolname* option).  
+ To assign existing LUA LUs to an LUA LU pool, first configure the pool with the **snacfg poola** command (including options), then add the LUs with the **snacfg lua** command (using the **/pool:**<em>poolname</em> option).  
   
 > [!NOTE]
 >  Configuration settings specified with snacfg poola correspond to LUA LU pool settings configured with the SNA Manager.  

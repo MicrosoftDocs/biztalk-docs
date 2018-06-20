@@ -17,22 +17,22 @@ manager: "anneta"
 # Interfaces for a Synchronous Send Adapter
 An adapter sends messages synchronously when it blocks the incoming Messaging Engine calling thread while performing its send operation. To be able to send messages synchronously, an adapter needs to implement the following interfaces:  
   
--   **IBTTransport**  
+- **IBTTransport**  
   
--   **IBaseComponent**  
+- **IBaseComponent**  
   
--   **IBTTransportControl**  
+- **IBTTransportControl**  
   
--   **IPersistPropertyBag**  
+- **IPersistPropertyBag**  
   
--   **IBTTransmitter**  
+- **IBTTransmitter**  
   
- In a synchronous send, the adapter sends the message while blocking **TransmitMessage**, and after successful transmission returns `True.`  
+  In a synchronous send, the adapter sends the message while blocking **TransmitMessage**, and after successful transmission returns `True.`  
   
- The following figure shows the object interactions involved in creating a synchronous send adapter.  
+  The following figure shows the object interactions involved in creating a synchronous send adapter.  
   
- ![](../core/media/ebiz-sdk-devadapter4.gif "ebiz_sdk_devadapter4")  
-Workflow for sending a message synchronously  
+  ![](../core/media/ebiz-sdk-devadapter4.gif "ebiz_sdk_devadapter4")  
+  Workflow for sending a message synchronously  
   
 ## See Also  
  [Adapter Variables](../core/adapter-variables.md)   

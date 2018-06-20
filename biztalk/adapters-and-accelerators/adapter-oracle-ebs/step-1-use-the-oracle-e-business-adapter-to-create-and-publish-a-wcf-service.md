@@ -24,11 +24,11 @@ manager: "anneta"
 ## Prerequisites  
  Before running the wizard, install the following:  
   
--   [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] either with the **Complete** option or the **Custom** option (and choosing **Tools** within this option). This installs the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] template for the [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)].  
+- [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] either with the **Complete** option or the **Custom** option (and choosing **Tools** within this option). This installs the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] template for the [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)].  
   
--   [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] from the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
+- [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] from the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
   
- For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide. The installation guide is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+  For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide. The installation guide is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
 > [!NOTE]
 >  You must also run the create_apps_artifacts.sql script provided with the Microsoft Office SharePoint Server sample to create the **MS_SAMPLE_EMPLOYEE** interface table in the **Application Object Library** application. This interface table is used in this tutorial.  
@@ -40,80 +40,80 @@ manager: "anneta"
   
 #### To Create a WCF Service for the Select Operation on the MS_SAMPLE EMPLOYEE Interface Table  
   
-1.  Start [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], and then create a project.  
+1. Start [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], and then create a project.  
   
-2.  In the **New Project** dialog box, from the **Project types** pane, select **Visual C#**. From the **Templates** pane, select **WCF Adapter Service**.  
+2. In the **New Project** dialog box, from the **Project types** pane, select **Visual C#**. From the **Templates** pane, select **WCF Adapter Service**.  
   
-     Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**. From the **Templates** pane, select **WCF Adapter Service**.  
+    Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**. From the **Templates** pane, select **WCF Adapter Service**.  
   
-     ![New Project dialog box](../../adapters-and-accelerators/adapter-oracle-ebs/media/01-new-project.gif "01_New_Project")  
+    ![New Project dialog box](../../adapters-and-accelerators/adapter-oracle-ebs/media/01-new-project.gif "01_New_Project")  
   
-    > [!NOTE]
-    >  If you installed [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] with the Web Development component, the **WCF Adapter Service** template is also available from the **New Web Site** option (**File** > **New** > **Web Site**).  
-    >   
-    >  However, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] only supports Web sites that are created on the file system. Therefore, while creating a Web site in the New Web Site dialog box, you must click File System in the Location list.  
+   > [!NOTE]
+   >  If you installed [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] with the Web Development component, the **WCF Adapter Service** template is also available from the **New Web Site** option (**File** > **New** > **Web Site**).  
+   > 
+   >  However, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] only supports Web sites that are created on the file system. Therefore, while creating a Web site in the New Web Site dialog box, you must click File System in the Location list.  
   
-3.  Specify a name and location for the solution, and then click **OK**. The WCF [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)] starts.  
+3. Specify a name and location for the solution, and then click **OK**. The WCF [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)] starts.  
   
-4.  On the Welcome page, click **Next**.  
+4. On the Welcome page, click **Next**.  
   
-5.  On the Choose Operations page, specify a connection string to connect to Oracle E-Business Suite. To do so:  
+5. On the Choose Operations page, specify a connection string to connect to Oracle E-Business Suite. To do so:  
   
-    1.  In the **Select a binding** list, click **oracleEBSBinding**, and then click **Configure**.  
+   1. In the **Select a binding** list, click **oracleEBSBinding**, and then click **Configure**.  
   
-    2.  In the **Configure Adapter** dialog box, click the **Binding Properties** tab.  
+   2. In the **Configure Adapter** dialog box, click the **Binding Properties** tab.  
   
-        1.  Under the **General** category, for the **ClientCredentialType** binding property, select **EBusiness**.  
+      1.  Under the **General** category, for the **ClientCredentialType** binding property, select **EBusiness**.  
   
-        2.  Under the **OracleEBS** category, specify appropriate values for the **OracleUserName**, **OraclePassword**, and **OracleEBSResponsibilityName** binding properties. In this case, you need to provide database credentials for the **OracleUserName** and **OraclePassword** binding properties.  
+      2.  Under the **OracleEBS** category, specify appropriate values for the **OracleUserName**, **OraclePassword**, and **OracleEBSResponsibilityName** binding properties. In this case, you need to provide database credentials for the **OracleUserName** and **OraclePassword** binding properties.  
   
-        3.  Under the **Metadata** category, for the **EnableSafeTyping** binding property, select **True**. If you are retrieving values for the date column, we recommend that you set the **EnableSafeTyping** binding property to **True** when generating the metadata.  
+      3.  Under the **Metadata** category, for the **EnableSafeTyping** binding property, select **True**. If you are retrieving values for the date column, we recommend that you set the **EnableSafeTyping** binding property to **True** when generating the metadata.  
   
-    3.  Click the **URI Properties** tab, and then specify values for the connection parameters. For more information about the connection URI for the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Create the Oracle E-Business Suite Connection URI](../../adapters-and-accelerators/adapter-oracle-ebs/create-the-oracle-e-business-suite-connection-uri.md).  
+   3. Click the **URI Properties** tab, and then specify values for the connection parameters. For more information about the connection URI for the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Create the Oracle E-Business Suite Connection URI](../../adapters-and-accelerators/adapter-oracle-ebs/create-the-oracle-e-business-suite-connection-uri.md).  
   
-    4.  Click the **Security** tab, and in the **Client credential type** list, select **Username**. Specify a valid Oracle E-Business Suite user name and password to connect to Oracle E-Business Suite.  
+   4. Click the **Security** tab, and in the **Client credential type** list, select **Username**. Specify a valid Oracle E-Business Suite user name and password to connect to Oracle E-Business Suite.  
   
-    5.  Click **OK** to close the Configure Adapter dialog box, and then click **Connect**. After Visual Studio successfully establishes a connection with Oracle E-Business Suite, the connection status is shown as **Connected**. You can also see the Oracle E-Business Suite metadata being displayed on the Choose Operations page.  
+   5. Click **OK** to close the Configure Adapter dialog box, and then click **Connect**. After Visual Studio successfully establishes a connection with Oracle E-Business Suite, the connection status is shown as **Connected**. You can also see the Oracle E-Business Suite metadata being displayed on the Choose Operations page.  
   
-6.  On the Choose Operations page, in the **Select contract type** list, click **Client (Outbound operations)**.  
+6. On the Choose Operations page, in the **Select contract type** list, click **Client (Outbound operations)**.  
   
-7.  In the **Select a category** box, browse to the MS_SAMPLE_EMPLOYEE interface table in Application Object library application. For information about browsing to an artifact in the adapter, see [Browse, Search, and Retrieve Metadata for Oracle E-Business Operations](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md).  
+7. In the **Select a category** box, browse to the MS_SAMPLE_EMPLOYEE interface table in Application Object library application. For information about browsing to an artifact in the adapter, see [Browse, Search, and Retrieve Metadata for Oracle E-Business Operations](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md).  
   
-8.  In the **Available categories and operations** box, select the **Select** operation, and then click **Add**. The Select operation is added to the **Added categories and operations** box.  
+8. In the **Available categories and operations** box, select the **Select** operation, and then click **Add**. The Select operation is added to the **Added categories and operations** box.  
   
-     ![Adding the Select Operation](../../adapters-and-accelerators/adapter-oracle-ebs/media/02-msb-gui.gif "02_MSB_GUI")  
+    ![Adding the Select Operation](../../adapters-and-accelerators/adapter-oracle-ebs/media/02-msb-gui.gif "02_MSB_GUI")  
   
-    > [!NOTE]
-    >  You can add more than one operation for each artifact. You can also add operations for different Oracle E-Business Suite artifacts. For example, you can add one operation for an interface table and another for a concurrent program. In addition, you can search for specific operations by specifying wildcard characters in search expressions. For more information about the supported special characters and the node levels at which you can search for the operations, see [Search for Oracle E-Business Suite operations](../../adapters-and-accelerators/adapter-oracle-ebs/search-for-oracle-e-business-suite-operations.md).  
+   > [!NOTE]
+   >  You can add more than one operation for each artifact. You can also add operations for different Oracle E-Business Suite artifacts. For example, you can add one operation for an interface table and another for a concurrent program. In addition, you can search for specific operations by specifying wildcard characters in search expressions. For more information about the supported special characters and the node levels at which you can search for the operations, see [Search for Oracle E-Business Suite operations](../../adapters-and-accelerators/adapter-oracle-ebs/search-for-oracle-e-business-suite-operations.md).  
   
 9. On the Choose Operations page, click **Next**.  
   
 10. On the Configure Service and Endpoint Behaviors page, specify values to configure the service and endpoint behavior.  
   
-    1.  In the **Service Behavior Configuration** box, specify values for the following:  
+    1. In the **Service Behavior Configuration** box, specify values for the following:  
   
-        |For the property|Specify the value|  
-        |----------------------|-----------------------|  
-        |EnableMetadataExchange|Set this to **True** to create a metadata exchange endpoint. By setting this to **True**, you make the service metadata available using standardized protocols, such as WS-Metadata Exchange (MEX) and HTTP/GET requests. Default is **False**.|  
-        |IncludeExceptionDetailsinFault|Set this to **True** to include managed exception information in detail of SOAP faults returned to the client for debugging purposes. Default is **False**.|  
-        |Name|Name for the service behavior configuration. For this tutorial, type **customServiceBehavior**.|  
-        |UseServiceCertificate|Specifies whether you want to use the message level security mode of WCF. Default is **True**. For this tutorial, you must set this to **False**.|  
+       |For the property|Specify the value|  
+       |----------------------|-----------------------|  
+       |EnableMetadataExchange|Set this to **True** to create a metadata exchange endpoint. By setting this to **True**, you make the service metadata available using standardized protocols, such as WS-Metadata Exchange (MEX) and HTTP/GET requests. Default is **False**.|  
+       |IncludeExceptionDetailsinFault|Set this to **True** to include managed exception information in detail of SOAP faults returned to the client for debugging purposes. Default is **False**.|  
+       |Name|Name for the service behavior configuration. For this tutorial, type **customServiceBehavior**.|  
+       |UseServiceCertificate|Specifies whether you want to use the message level security mode of WCF. Default is **True**. For this tutorial, you must set this to **False**.|  
   
-        > [!NOTE]
-        >  Because we are not using service certificates for this tutorial, you do not need to provide values for the **FindValue**, **StoreLocation**, **StoreName**, and **X509FindType** properties. For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771).  
+       > [!NOTE]
+       >  Because we are not using service certificates for this tutorial, you do not need to provide values for the **FindValue**, **StoreLocation**, **StoreName**, and **X509FindType** properties. For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771).  
   
-    2.  In the **Endpoint Behavior Configuration** box, specify values for the following:  
+    2. In the **Endpoint Behavior Configuration** box, specify values for the following:  
   
-        |For the property|Specify the value|  
-        |----------------------|-----------------------|  
-        |Authentication Type|For Microsoft Office SharePoint Server to consume the WCF service, you should set this as **HTTPUserNamePassword**. This enables clients to specify user name and password as part of the HTTP header.|  
-        |Name|Specify a name for the endpoint behavior configuration. For this tutorial, type **customEndpointBehavior**.|  
-        |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|  
-        |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|  
+       |For the property|Specify the value|  
+       |----------------------|-----------------------|  
+       |Authentication Type|For Microsoft Office SharePoint Server to consume the WCF service, you should set this as **HTTPUserNamePassword**. This enables clients to specify user name and password as part of the HTTP header.|  
+       |Name|Specify a name for the endpoint behavior configuration. For this tutorial, type **customEndpointBehavior**.|  
+       |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|  
+       |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|  
   
-     The following figure shows the Configure Service and Endpoint Behaviors page with the specified values.  
+       The following figure shows the Configure Service and Endpoint Behaviors page with the specified values.  
   
-     ![Configure Service and Endpoint Behaviors page](../../adapters-and-accelerators/adapter-oracle-ebs/media/03-service-and-endpoint-behavior.gif "03_Service_and_EndPoint_Behavior")  
+       ![Configure Service and Endpoint Behaviors page](../../adapters-and-accelerators/adapter-oracle-ebs/media/03-service-and-endpoint-behavior.gif "03_Service_and_EndPoint_Behavior")  
   
 11. On the Configure Service and Endpoint Behaviors page, click **Next**.  
   

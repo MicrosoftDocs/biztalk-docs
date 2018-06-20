@@ -30,15 +30,15 @@ Session Integrator can be used to interact with TN3270 sessions. The behavior fo
   
  **SECURITY** - Indicates the type of security used for the connection.  
   
--   NONE- The connection is not encrypted.  
+- NONE- The connection is not encrypted.  
   
--   TLS1- The connection negotiates encryption using TLS v1.0.  
+- TLS1- The connection negotiates encryption using TLS v1.0.  
   
- **CERTIFICATECHECK** – Indicates how the certificate is verified if security is set to TLS1.  
+  **CERTIFICATECHECK** – Indicates how the certificate is verified if security is set to TLS1.  
   
--   NONE- The data is encrypted, but the server certificate is not verified.  
+- NONE- The data is encrypted, but the server certificate is not verified.  
   
--   VERIFIED- The server certificate will be verified by the Schannel security support provider during the TLS negotiation.  
+- VERIFIED- The server certificate will be verified by the Schannel security support provider during the TLS negotiation.  
   
 ```  
 m_Handler.Connect("TRANSPORT=TN3270;TN3270SERVER=SYS1;TN3270Port=23;DeviceType=IBM-3278-2;SECURITY=TLS1;CERTIFICATECHECK=VERIFIED”);  
@@ -48,15 +48,15 @@ m_Handler.Connect("TRANSPORT=TN3270;TN3270SERVER=SYS1;TN3270Port=23;DeviceType=I
   
  **Security** [enum] – Indicates the type of security used for the connection.  
   
--   TNSecurity.None- The connection is not encrypted.  
+- TNSecurity.None- The connection is not encrypted.  
   
--   TNSecurity.TLS1- The connection negotiates encryption using TLS v1.0.  
+- TNSecurity.TLS1- The connection negotiates encryption using TLS v1.0.  
   
- **CertificateCheck** [enum] - Indicates how the certificate is verified if security is set to TLS1.  
+  **CertificateCheck** [enum] - Indicates how the certificate is verified if security is set to TLS1.  
   
--   TNCertificateCheck .None-The data is encrypted, but the server certificate is not verified.  
+- TNCertificateCheck .None-The data is encrypted, but the server certificate is not verified.  
   
--   TNCertificateCheck .Verified-The server certificate will be verified by the Schannel security support provider during the TLS negotiation.  
+- TNCertificateCheck .Verified-The server certificate will be verified by the Schannel security support provider during the TLS negotiation.  
   
 ## See Also  
  [Working with Session Integrator](../core/working-with-session-integrator1.md)

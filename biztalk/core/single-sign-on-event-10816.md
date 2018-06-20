@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10816
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10816|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_EXTERNAL_UPDATE_FAILED_MORE_RECENT|  
-|Message Text|The external credentials in the SSO database are more recent.|  
+|                 |                                                               |
+|-----------------|---------------------------------------------------------------|
+|  Product Name   |                   Enterprise Single Sign-On                   |
+| Product Version |  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]   |
+|    Event ID     |                             10816                             |
+|  Event Source   |                            ENTSSO                             |
+|    Component    |                              N/A                              |
+|  Symbolic Name  |          ENTSSO_E_EXTERNAL_UPDATE_FAILED_MORE_RECENT          |
+|  Message Text   | The external credentials in the SSO database are more recent. |
   
 ## Explanation  
  An outdated password has been received from the external system and will be ignored.  

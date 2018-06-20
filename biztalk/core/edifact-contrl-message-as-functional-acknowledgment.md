@@ -19,27 +19,27 @@ If you have selected to generate a functional acknowledgment in business profile
   
  The CONTRL functional ACK includes the following segments:  
   
--   UNH message header (mandatory)  
+- UNH message header (mandatory)  
   
--   A UCI segment that identifies the subject interchange and indicates the status interchange receipt, and contains references to the UNA, UNB, and UNZ segments of the received interchange (mandatory). The UCI segment has a max occurrence of 1; as a result, it reports the first error encountered in one of the control segments.  
+- A UCI segment that identifies the subject interchange and indicates the status interchange receipt, and contains references to the UNA, UNB, and UNZ segments of the received interchange (mandatory). The UCI segment has a max occurrence of 1; as a result, it reports the first error encountered in one of the control segments.  
   
--   A UCF segment that identifies a group segment (encapsulated by the UNG header and UNE trailer) and indicates the nature of any error (mandatory if the UNG segment exists)  
+- A UCF segment that identifies a group segment (encapsulated by the UNG header and UNE trailer) and indicates the nature of any error (mandatory if the UNG segment exists)  
   
--   A UCM segment that identifies a message segment (encapsulated by the UNH header and UNT trailer) and indicates the nature of any error (mandatory)  
+- A UCM segment that identifies a message segment (encapsulated by the UNH header and UNT trailer) and indicates the nature of any error (mandatory)  
   
--   A UCS segment that identifies a transaction set and indicates the nature of any error (mandatory)  
+- A UCS segment that identifies a transaction set and indicates the nature of any error (mandatory)  
   
--   A UCD segment that identifies an erroneous composite or component data element and indicates the nature of the error (conditional)  
+- A UCD segment that identifies an erroneous composite or component data element and indicates the nature of the error (conditional)  
   
--   UNT message trailer (mandatory).  
+- UNT message trailer (mandatory).  
   
- If a received CONTRL functional acknowledgment only contains UNH, UCI, and UNT segments, the EDIReceive pipeline will process the acknowledgment as a CONTRL receipt (technical) acknowledgment.  
+  If a received CONTRL functional acknowledgment only contains UNH, UCI, and UNT segments, the EDIReceive pipeline will process the acknowledgment as a CONTRL receipt (technical) acknowledgment.  
   
- Each instance of a segment at a reporting level (i.e., the UCI, UCF, UCM, UCS, and UCD segments) can report only one error.  
+  Each instance of a segment at a reporting level (i.e., the UCI, UCF, UCM, UCS, and UCD segments) can report only one error.  
   
 > [!NOTE]
 >  The CONTRL message contains several mandatory data elements that will be copied from the received interchange. If the data element in the interchange is missing or is syntactically invalid, a syntactically valid CONTRL message cannot be generated. The error must then be reported by some means other than a CONTRL message.  
-  
+> 
 > [!NOTE]
 >  In BizTalk Server, a CONTRL message (receipt acknowledgment, acceptance, or rejection) is sent in response to a received interchange that contains only one or more CONTRL messages. In [!INCLUDE[bts2010R2](../includes/bts2010r2-md.md)], no CONTRL message (receipt acknowledgment, acceptance, or rejection) is sent in response to a received interchange that contains only one or more CONTRL messages. Errors in received CONTRL messages must be reported by a means other than a CONTRL message. If one or more CONTRL messages are contained in an interchange that contains data messages, the CONTRL message generated as a response to that interchange will be generated as if no CONTRL messages were contained in the received interchange.  
   

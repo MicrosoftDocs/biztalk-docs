@@ -17,13 +17,13 @@ manager: "anneta"
 # Browse, search, and get metadata for Oracle E-Business Suite operations
 This section provides information about how to use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] and the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. By using these [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components, you can:  
   
--   Browse for operations to retrieve metadata.  
+- Browse for operations to retrieve metadata.  
   
--   Search for operations to retrieve metadata.  
+- Search for operations to retrieve metadata.  
   
--   Add message schemas for selected operations and port binding configuration files to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] project when using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+- Add message schemas for selected operations and port binding configuration files to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] project when using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
--   Add a WCF client class or a WCF service contract (interface) for selected operations and a configuration file (app.config) to a non-BizTalk programming project when using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
+- Add a WCF client class or a WCF service contract (interface) for selected operations and a configuration file (app.config) to a non-BizTalk programming project when using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
   
 ## How is the Metadata Categorized?  
  The [!INCLUDE[consumeadapterservshort_md](../../includes/consumeadapterservshort-md.md)] or the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] gives three different views of the artifacts available in the Oracle E-Business Suite server you connect to—**Application-based view**, **Artifact-based view**, and the **Schema-based view**. Why do you need three different views for the same set of artifacts? The following table lists the reasons why you should you use a specific view.  

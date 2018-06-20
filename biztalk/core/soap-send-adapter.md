@@ -20,17 +20,17 @@ You use the SOAP send adapter to call a Web service. The SOAP send adapter reads
 ## Client Authentication for the SOAP Send Adapter  
  The SOAP send adapter authenticates with the destination server by using one of the following authentication types:  
   
--   **Anonymous.** The default setting.  
+- **Anonymous.** The default setting.  
   
--   **Basic.** The SOAP connection sends the user name and password in plain text.  
+- **Basic.** The SOAP connection sends the user name and password in plain text.  
   
--   **Digest.** The SOAP connection sends the user name and password in an encrypted format.  
+- **Digest.** The SOAP connection sends the user name and password in an encrypted format.  
   
--   **Kerberos or NTLM.** Neither the user name nor the password is sent over a SOAP connection. The SOAP adapter always uses the credentials of the process under which the SOAP send adapter runs for this authentication type.  
+- **Kerberos or NTLM.** Neither the user name nor the password is sent over a SOAP connection. The SOAP adapter always uses the credentials of the process under which the SOAP send adapter runs for this authentication type.  
   
- Additionally, the SOAP send adapter can provide a client Secure Sockets Layer (SSL) certificate to the Web server if the server requires or accepts it.  
+  Additionally, the SOAP send adapter can provide a client Secure Sockets Layer (SSL) certificate to the Web server if the server requires or accepts it.  
   
- If you enabled Enterprise Single Sign-On (SSO), when the SOAP send adapter receives a message with the request to the **SSOTicket** property, the adapter connects to an SSO server to validate and redeem the ticket. After the SOAP adapter validates the ticket, it is decrypted and the credentials for the affiliate system are retrieved from the credential store. The SOAP adapter then uses the credentials to connect to the affiliate system, and the SOAP request is processed.  
+  If you enabled Enterprise Single Sign-On (SSO), when the SOAP send adapter receives a message with the request to the **SSOTicket** property, the adapter connects to an SSO server to validate and redeem the ticket. After the SOAP adapter validates the ticket, it is decrypted and the credentials for the affiliate system are retrieved from the credential store. The SOAP adapter then uses the credentials to connect to the affiliate system, and the SOAP request is processed.  
   
 ## Client Certificates for the SOAP Send Adapter  
  The SOAP send adapter can establish a secure connection with servers that accept or require client certificates. If you specify a client certificate, the SOAP send adapter uses the certificate when connecting with servers that require or accept client certificates. If you do not specify a client certificate and the destination server requires client certificates, the SOAP send adapter fails to send the message and follows the standard retry logic.  
@@ -74,34 +74,34 @@ You use the SOAP send adapter to call a Web service. The SOAP send adapter reads
   
  To subscribe to a NACK message, you can do one of the following:  
   
-1.  Create a send port with a filter for the appropriate message context property. See **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)] for a listing of system message context properties including those related to message acknowledgment.  
+1. Create a send port with a filter for the appropriate message context property. See **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)] for a listing of system message context properties including those related to message acknowledgment.  
   
-2.  Send from an orchestration port marked with **Delivery Notification = Transmitted**. If an orchestration port is marked with **Delivery Notification = Transmitted**, the orchestration will wait until it receives either an ACK or a NACK for the message that was transmitted. If a NACK is generated then it will be routed to the orchestration and the orchestration will throw a DeliveryFailureException. The DeliveryFailureException is deserialized from the SOAP fault that is contained within the NACK message body. To retrieve the exception message string from the SOAP fault that is returned to the orchestration, cast the DeliveryFailureException to a SoapException and then access the InnerXml from the SOAP Detail section. The following code sample demonstrates how to do this:  
+2. Send from an orchestration port marked with **Delivery Notification = Transmitted**. If an orchestration port is marked with **Delivery Notification = Transmitted**, the orchestration will wait until it receives either an ACK or a NACK for the message that was transmitted. If a NACK is generated then it will be routed to the orchestration and the orchestration will throw a DeliveryFailureException. The DeliveryFailureException is deserialized from the SOAP fault that is contained within the NACK message body. To retrieve the exception message string from the SOAP fault that is returned to the orchestration, cast the DeliveryFailureException to a SoapException and then access the InnerXml from the SOAP Detail section. The following code sample demonstrates how to do this:  
   
-    ```  
-    // Cast the DeliveryFailureException to a SoapException…  
-    System.Web.Services.Protocols.SoapException se = (System.Web.Services.Protocols.SoapException)e.InnerException;  
-    System.Diagnostics.Trace.WriteLine(se.Detail.InnerXml);  
-    //e is an Microsoft.XLANGs.BaseTypes.DeliveryFailureException  
-    //object type created in an Exception handler  
-    ```  
+   ```  
+   // Cast the DeliveryFailureException to a SoapException…  
+   System.Web.Services.Protocols.SoapException se = (System.Web.Services.Protocols.SoapException)e.InnerException;  
+   System.Diagnostics.Trace.WriteLine(se.Detail.InnerXml);  
+   //e is an Microsoft.XLANGs.BaseTypes.DeliveryFailureException  
+   //object type created in an Exception handler  
+   ```  
   
-     The code sample above will return an XML fragment similar to the following:  
+    The code sample above will return an XML fragment similar to the following:  
   
-    ```  
-    <ns0:NACK Type="NACK" xmlns:ns0="http://schema.microsoft.com/BizTalk/2003/NACKMessage.xsd">  
-    <NAckID>{4E646707-03AA-4493-95C7-A64B09E2987D}</NAckID>  
-    <ErrorCode>0x80131600</ErrorCode>  
-    <ErrorCategory>0</ErrorCategory>  
-    <ErrorDescription>The remote server returned an error: (404) Not Found.</ErrorDescription>  
-    <ErrorDetail>  
-    <HttpErrorDetail xmlns="http://schema.microsoft.com/BizTalk/2006/HttpErrorDetails.xsd">  
-       <Headers>Server: Microsoft-IIS/5.1 Date: Wed, 21 Apr 2005 00:27:47 GMT X-Powered-By: ASP.NET Connection: close Content-Type: text/html Content-Length: 67 </Headers>  
-       <Body>We could not locate the page you requested. Please check the URL.</Body>  
-    </HttpErrorDetail>  
-    </ErrorDetail>  
-    </ns0:NACK>  
-    ```  
+   ```  
+   <ns0:NACK Type="NACK" xmlns:ns0="http://schema.microsoft.com/BizTalk/2003/NACKMessage.xsd">  
+   <NAckID>{4E646707-03AA-4493-95C7-A64B09E2987D}</NAckID>  
+   <ErrorCode>0x80131600</ErrorCode>  
+   <ErrorCategory>0</ErrorCategory>  
+   <ErrorDescription>The remote server returned an error: (404) Not Found.</ErrorDescription>  
+   <ErrorDetail>  
+   <HttpErrorDetail xmlns="http://schema.microsoft.com/BizTalk/2006/HttpErrorDetails.xsd">  
+      <Headers>Server: Microsoft-IIS/5.1 Date: Wed, 21 Apr 2005 00:27:47 GMT X-Powered-By: ASP.NET Connection: close Content-Type: text/html Content-Length: 67 </Headers>  
+      <Body>We could not locate the page you requested. Please check the URL.</Body>  
+   </HttpErrorDetail>  
+   </ErrorDetail>  
+   </ns0:NACK>  
+   ```  
   
 ## See Also  
  [What Is the SOAP Adapter?](../core/what-is-the-soap-adapter.md)   

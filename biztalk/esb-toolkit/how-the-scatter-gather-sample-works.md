@@ -61,21 +61,21 @@ The sample application builds a set of SOAP headers containing the itinerary loa
   
  The Broker orchestration analyzes the settings for its itinerary step and retrieves a collection of resolvers associated with the itinerary step. For each of these resolvers, the orchestration uses the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Framework to resolve the service endpoint. The Broker orchestration then activates n number of ServiceDispatcher orchestrations asynchronously (where n is the number of resolvers associated with the ScatterGather service in the itinerary) to dispatch the request message with following parameters:  
   
--   **TransportLocation**. The resolver populates this parameter.  
+- **TransportLocation**. The resolver populates this parameter.  
   
--   **TransportType**. The resolver populates this parameter.  
+- **TransportType**. The resolver populates this parameter.  
   
--   **ResolverDictionary**. This parameter contains a collection of resolver facts populated by the concrete resolver instance.  
+- **ResolverDictionary**. This parameter contains a collection of resolver facts populated by the concrete resolver instance.  
   
--   **InboundMessage**. This parameter contains the original message that contains the itinerary.  
+- **InboundMessage**. This parameter contains the original message that contains the itinerary.  
   
--   **ServiceResponsePort**. This parameter is the name of the self-correlating response port that will receive responses from the instances of the ServiceDispatcher orchestration.  
+- **ServiceResponsePort**. This parameter is the name of the self-correlating response port that will receive responses from the instances of the ServiceDispatcher orchestration.  
   
- Each instance of the ServiceDispatcher orchestration uses the ResolveMapScatterGather policy to resolve the Microsoft BizTalk map types for the request and response message, based on **TransportType** and **TransportLocation** properties. The orchestration instances use the resolved maps to transform the inbound message into the request message for the Web service call.  
+  Each instance of the ServiceDispatcher orchestration uses the ResolveMapScatterGather policy to resolve the Microsoft BizTalk map types for the request and response message, based on **TransportType** and **TransportLocation** properties. The orchestration instances use the resolved maps to transform the inbound message into the request message for the Web service call.  
   
- The ESB Adapter Manager sets the outbound transport context properties on the request message, which BizTalk then forwards to the solicit-response port named ServiceRequestPort.  
+  The ESB Adapter Manager sets the outbound transport context properties on the request message, which BizTalk then forwards to the solicit-response port named ServiceRequestPort.  
   
- When it receives a response message from a service, the ServiceDispatcher orchestration uses the resolved map information to transform the inbound response message to a canonical format. It then wraps the modified response within the ServiceResponse envelope and forwards it to the Broker orchestration through the self-correlating port. The Broker orchestration aggregates all incoming responses and prepares the final response message using GlobalBank.ESB.ScatterGather.Processes.AggregatingPipeline, as shown in the following code.  
+  When it receives a response message from a service, the ServiceDispatcher orchestration uses the resolved map information to transform the inbound response message to a canonical format. It then wraps the modified response within the ServiceResponse envelope and forwards it to the Broker orchestration through the self-correlating port. The Broker orchestration aggregates all incoming responses and prepares the final response message using GlobalBank.ESB.ScatterGather.Processes.AggregatingPipeline, as shown in the following code.  
   
 ```csharp  
 AggregatedResponse.Body = null;  

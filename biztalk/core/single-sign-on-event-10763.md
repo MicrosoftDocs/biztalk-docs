@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10763
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10763|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_TRACKING_ID_MISMATCH|  
-|Message Text|The tracking ID does not match the transaction ID.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10763                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |               ENTSSO_E_TRACKING_ID_MISMATCH                |
+|  Message Text   |     The tracking ID does not match the transaction ID.     |
   
 ## Explanation  
  The tracking ID does not match the transaction ID.  

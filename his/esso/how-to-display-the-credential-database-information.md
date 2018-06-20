@@ -38,15 +38,15 @@ You can view Single Sign-On (SSO) credential database information by using the s
   
 ### To display the Credential database that the SSO server is connected to  
   
-1.  Click **Start**, click **Run**, and then type `cmd`.  
+1. Click **Start**, click **Run**, and then type `cmd`.  
   
-2.  At the command prompt, go to the Enterprise Single Sign-On installation directory.  
+2. At the command prompt, go to the Enterprise Single Sign-On installation directory.  
   
-     The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+    The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type `ssomanage –showdb`.  
+3. Type `ssomanage –showdb`.  
   
- The following table describes the values that are displayed.  
+   The following table describes the values that are displayed.  
   
 |Property|Value|  
 |--------------|-----------|  

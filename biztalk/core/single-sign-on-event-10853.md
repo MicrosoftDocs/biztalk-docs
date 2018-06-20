@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10853
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10853|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPING_NO_ACCESS|  
-|Message Text|The mapping cannot be created because the specified user is not a member of the Application Users account.|  
+|                 |                                                                                                            |
+|-----------------|------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                         Enterprise Single Sign-On                                          |
+| Product Version |                         [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                         |
+|    Event ID     |                                                   10853                                                    |
+|  Event Source   |                                                   ENTSSO                                                   |
+|    Component    |                                                    N/A                                                     |
+|  Symbolic Name  |                                         ENTSSO_E_MAPPING_NO_ACCESS                                         |
+|  Message Text   | The mapping cannot be created because the specified user is not a member of the Application Users account. |
   
 ## Explanation  
  The mapping cannot be created because the specified user is not a member of the Application Users account.  

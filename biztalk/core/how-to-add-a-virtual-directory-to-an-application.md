@@ -45,25 +45,25 @@ This topic describes how to use the BTSTask command-line tool to add a virtual d
   
 ### To add a virtual directory to an application  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask AddResource** [/**ApplicationName:***value*] **/Type:System.BizTalk:WebDirectory**[**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask AddResource** [/**ApplicationName:**<em>value</em>] **/Type:System.BizTalk:WebDirectory**[**/Overwrite**] **/Source:**<em>value</em> [**/Destination:**<em>value</em>] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-     Example:  
+    Example:  
   
-     **BTSTask AddResource /ApplicationName:MyApplication /Type: System.BizTalk:WebDirectory /Overwrite /Source:http://Host1:90/MyVirtualDirectory /Destination:http://Host2:90/MyVirtualDirectory /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+    **BTSTask AddResource /ApplicationName:MyApplication /Type: System.BizTalk:WebDirectory /Overwrite /Source:<http://Host1:90/MyVirtualDirectory> /Destination:<http://Host2:90/MyVirtualDirectory> /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
-    |Parameter|Value|  
-    |---------------|-----------|  
-    |**/ApplicationName**|Name of the BizTalk application to which to add the virtual directory. If the application name is not specified, the default BizTalk application for the group is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
-    |**/Type**|**System.BizTalk:WebDirectory** (This value is not case-sensitive.)|  
-    |**/Overwrite**|Option to update an existing virtual directory. If not specified, and a virtual directory already exists in the application that has the same name as the virtual directory being added, the AddResources operation fails.|  
-    |**/Source**|URI of the source virtual directory.|  
-    |**/Destination**|URI to be assigned to the virtual directory when the application is installed from the .msi file. If this parameter is not specified, then the value of the Source parameter is used with localhost as the host.|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
-    |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
+   |Parameter|Value|  
+   |---------------|-----------|  
+   |**/ApplicationName**|Name of the BizTalk application to which to add the virtual directory. If the application name is not specified, the default BizTalk application for the group is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
+   |**/Type**|**System.BizTalk:WebDirectory** (This value is not case-sensitive.)|  
+   |**/Overwrite**|Option to update an existing virtual directory. If not specified, and a virtual directory already exists in the application that has the same name as the virtual directory being added, the AddResources operation fails.|  
+   |**/Source**|URI of the source virtual directory.|  
+   |**/Destination**|URI to be assigned to the virtual directory when the application is installed from the .msi file. If this parameter is not specified, then the value of the Source parameter is used with localhost as the host.|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
+   |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
   
 ## See Also  
  [Managing .NET Assemblies, Certificates, and Other Resources](../core/managing-net-assemblies-certificates-and-other-resources.md)   

@@ -33,23 +33,23 @@ BAM Real-time Aggregations
   
  The following statements also apply to real-time aggregations:  
   
--   Real-time aggregations significantly affect the speed at which BAM can write data. Thus, you should only define the most important slices of the aggregation structure as RTA.  
+- Real-time aggregations significantly affect the speed at which BAM can write data. Thus, you should only define the most important slices of the aggregation structure as RTA.  
   
--   The limitation of the dimension levels for real-time aggregations is 14. For example, if you create a Data Dimension Location for State and City, this counts as two levels (State and City). For Progress Dimensions the number of levels is the depth of the tree, and for Time Dimensions it is the count of all sub-units. For example, a Time Dimension for Year, Month, Day, Hour will count as four levels.  
+- The limitation of the dimension levels for real-time aggregations is 14. For example, if you create a Data Dimension Location for State and City, this counts as two levels (State and City). For Progress Dimensions the number of levels is the depth of the tree, and for Time Dimensions it is the count of all sub-units. For example, a Time Dimension for Year, Month, Day, Hour will count as four levels.  
   
--   BAM does not support real-time aggregations of type **Min** and **Max**. The aggregations that BAM supports are **Count**, **Sum**, and **Average**.  
+- BAM does not support real-time aggregations of type **Min** and **Max**. The aggregations that BAM supports are **Count**, **Sum**, and **Average**.  
   
--   You must always create a time dimension for RTA and always use it in all data slices, because the data in RTA is aged based on the server time stamp, and not on any specific business milestone.  
+- You must always create a time dimension for RTA and always use it in all data slices, because the data in RTA is aged based on the server time stamp, and not on any specific business milestone.  
   
--   Do not define multiple RTAs that use the same BAM activity. If you do so, the RTA data will be incorrect when you archive the BAM data.  
+- Do not define multiple RTAs that use the same BAM activity. If you do so, the RTA data will be incorrect when you archive the BAM data.  
   
- Real-time aggregations significantly affect the speed at which BAM can write data. Thus, you should only define the most important slices of the aggregation structure as RTA.  
+  Real-time aggregations significantly affect the speed at which BAM can write data. Thus, you should only define the most important slices of the aggregation structure as RTA.  
   
- The limitation of the dimension levels for real-time aggregations is 14. For example, if you create a Data Dimension Location for State and City, this counts as two levels (State and City). For Progress Dimensions the number of levels is the depth of the tree, and for Time Dimensions it is the count of all sub-units. For example, a Time Dimension for Year, Month, Day, Hour will count as four levels.  
+  The limitation of the dimension levels for real-time aggregations is 14. For example, if you create a Data Dimension Location for State and City, this counts as two levels (State and City). For Progress Dimensions the number of levels is the depth of the tree, and for Time Dimensions it is the count of all sub-units. For example, a Time Dimension for Year, Month, Day, Hour will count as four levels.  
   
- BAM does not support real-time aggregations of type **Min** and **Max**. The aggregations that BAM supports are **Count**, **Sum**, and **Average**.  
+  BAM does not support real-time aggregations of type **Min** and **Max**. The aggregations that BAM supports are **Count**, **Sum**, and **Average**.  
   
- Do not define multiple RTAs that use the same BAM activity. If you do so, the RTA data will be incorrect when you archive the BAM data.  
+  Do not define multiple RTAs that use the same BAM activity. If you do so, the RTA data will be incorrect when you archive the BAM data.  
   
 ## See Also  
  [What Is an Aggregation?](../core/what-is-an-aggregation.md)

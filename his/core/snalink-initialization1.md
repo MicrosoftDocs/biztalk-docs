@@ -22,10 +22,10 @@ When the SNALink is loaded into memory, the Base/DMOD performs all initializatio
   
  The **SNALinkInitialize** function should also:  
   
--   Read in the Host Integration Server configuration information for the SNALink. For details, see [SNALink Configuration Information](../core/snalink-configuration-information1.md).  
+- Read in the Host Integration Server configuration information for the SNALink. For details, see [SNALink Configuration Information](../core/snalink-configuration-information1.md).  
   
--   Set up any required data structures.  
+- Set up any required data structures.  
   
--   Register with the driver that provides the support for the hardware adapter, initializing this if necessary.  
+- Register with the driver that provides the support for the hardware adapter, initializing this if necessary.  
   
- If initialization fails for any reason (for example, if an associated driver is not installed), the function should report the failure to the administrator by calling **SNAReportStatus**.
+  If initialization fails for any reason (for example, if an associated driver is not installed), the function should report the failure to the administrator by calling **SNAReportStatus**.

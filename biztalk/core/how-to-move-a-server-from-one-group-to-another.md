@@ -29,26 +29,26 @@ A server can only be associated with one BizTalk Server group. To move a server 
   
 ### To move a server from one BizTalk group to another  
   
-1.  On the computer that you want to move from the BizTalk group to another, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
+1. On the computer that you want to move from the BizTalk group to another, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
   
-2.  On the menu bar, click **Unconfigure Features**.  
+2. On the menu bar, click **Unconfigure Features**.  
   
-3.  In the **Unconfigure Features** dialog box, select **Enterprise SSO**, select **Group**, and then click **OK**.  
+3. In the **Unconfigure Features** dialog box, select **Enterprise SSO**, select **Group**, and then click **OK**.  
   
-    > [!CAUTION]
-    >  Unconfiguring a group will also unconfigure all dependent features that are already configured on that computer.  
+   > [!CAUTION]
+   >  Unconfiguring a group will also unconfigure all dependent features that are already configured on that computer.  
   
-4.  Click **Yes**.  
+4. Click **Yes**.  
   
-5.  In the **Microsoft BizTalk Server Configuration** window, click **Next**.  
+5. In the **Microsoft BizTalk Server Configuration** window, click **Next**.  
   
-     Enterprise SSO, the Group, and their dependent features are unconfigured.  
+    Enterprise SSO, the Group, and their dependent features are unconfigured.  
   
-6.  Click **Finish**.  
+6. Click **Finish**.  
   
-7.  In the **Microsoft BizTalk Server Configuration** window, select **Custom configuration**.  
+7. In the **Microsoft BizTalk Server Configuration** window, select **Custom configuration**.  
   
-8.  In **Database server name**, type the name of the SQL server for the BizTalk Group where you are moving the server.  
+8. In **Database server name**, type the name of the SQL server for the BizTalk Group where you are moving the server.  
   
 9. In **Service credential**, type the appropriate user name and password that the services will use, and then click **Configure**.  
   

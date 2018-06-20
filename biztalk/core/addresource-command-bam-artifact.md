@@ -20,7 +20,7 @@ To add a BAM artifact to a BizTalk application, you use the **AddResource** comm
  Adding a BAM definition by using the AddResource command does not deploy the BAM definition. When an .msi file that includes a BAM definition is imported into an application by using the Import Wizard, however, the BAM definition is deployed to the local computer.  
   
 ## Usage  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Bam**[**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddResource** [**/ApplicationName:**<em>value</em>] **/Type:System.BizTalk:Bam**[**/Overwrite**] **/Source:**<em>value</em> [**/Destination:**<em>value</em>] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

@@ -19,15 +19,15 @@ This topic summarizes the results from the test scenarios.
 ## Summary of Test Results  
  The [Testing BizTalk Server Virtualization Performance](../technical-guides/testing-biztalk-server-virtualization-performance.md) section of this guide describes the test application used and the configuration of the various [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environments against which the test application was run. The testing was performed to compare the performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] / [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] environment running on physical hardware to the performance of the environment running on Hyper-V virtual machines. Key Performance Indicators (KPIs) measured during testing included the following;  
   
-1.  Message throughput measured on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers.  
+1. Message throughput measured on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers.  
   
-2.  Request-response latency measured on the Visual Studio Test client which submitted synchronous requests to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+2. Request-response latency measured on the Visual Studio Test client which submitted synchronous requests to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-3.  Processor utilization and Batch requests per second observed on [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
+3. Processor utilization and Batch requests per second observed on [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
   
-4.  Network throughput observed on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computers.  
+4. Network throughput observed on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computers.  
   
-5.  Available memory for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computers.  
+5. Available memory for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computers.  
   
 ### Throughput Comparison Sample Results  
  With all other factors being equal, throughput of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution as measured by the "BizTalk:Messaging/Documents processed/Sec" performance monitor counter ranged from 67% to 94.3% of the throughput attainable when both the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers and the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computers in the environment were installed on physical hardware.  

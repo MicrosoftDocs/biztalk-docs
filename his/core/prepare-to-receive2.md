@@ -153,88 +153,88 @@ struct prepare_to_receive {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- When this return code is used with [ALLOCATE](../core/allocate2.md), it can indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **ALLOCATE** request.  
+  When this return code is used with [ALLOCATE](../core/allocate2.md), it can indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **ALLOCATE** request.  
   
- When **ALLOCATE** produces this return code for a Host Integration Server Client system configured with multiple nodes, there are two secondary return codes as follows:  
+  When **ALLOCATE** produces this return code for a Host Integration Server Client system configured with multiple nodes, there are two secondary return codes as follows:  
   
- 0xF0000001  
+  0xF0000001  
   
- Secondary return code; no nodes have been started.  
+  Secondary return code; no nodes have been started.  
   
- 0xF0000002  
+  0xF0000002  
   
- Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
+  Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
   
--   The node with the local LU is not started.  
+- The node with the local LU is not started.  
   
--   The local LU is not configured.  
+- The local LU is not configured.  
   
- AP_CONV_FAILURE_NO_RETRY  
- Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
+  AP_CONV_FAILURE_NO_RETRY  
+  Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
   
- AP_CONV_FAILURE_RETRY  
- Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
+  AP_CONV_FAILURE_RETRY  
+  Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG. Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG. Data sent but not yet received is purged.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
- AP_DEALLOC_ABEND_PROG  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND_PROG  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP issued [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_ABEND_PROG.  
+- The partner TP issued [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_ABEND_PROG.  
   
--   The partner TP has encountered an ABEND, causing the partner LU to send a **DEALLOCATE** request.  
+- The partner TP has encountered an ABEND, causing the partner LU to send a **DEALLOCATE** request.  
   
- AP_DEALLOC_ABEND_SVC  
- Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_SVC.  
+  AP_DEALLOC_ABEND_SVC  
+  Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_SVC.  
   
- AP_DEALLOC_ABEND_TIMER  
- Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_TIMER.  
+  AP_DEALLOC_ABEND_TIMER  
+  Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_TIMER.  
   
- AP_SVC_ERROR_PURGING  
- Primary return code; the partner TP (or partner LU) issued a [SEND_ERROR](../core/send-error2.md) verb with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
+  AP_SVC_ERROR_PURGING  
+  Primary return code; the partner TP (or partner LU) issued a [SEND_ERROR](../core/send-error2.md) verb with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
   
 ## Remarks  
  Before changing the conversation state, this verb performs the equivalent of one of the following:  
   
--   [FLUSH](../core/flush2.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
+- [FLUSH](../core/flush2.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
   
--   [CONFIRM](../core/confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
+- [CONFIRM](../core/confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
   
- After this verb has successfully executed, the local TP can receive data.  
+  After this verb has successfully executed, the local TP can receive data.  
   
- The conversation must be in SEND state when the TP issues this verb.  
+  The conversation must be in SEND state when the TP issues this verb.  
   
- State changes, summarized in the following table, are based on the value of **primary_rc**.  
+  State changes, summarized in the following table, are based on the value of **primary_rc**.  
   
 |primary_rc|New state|  
 |-----------------|---------------|  
@@ -251,12 +251,12 @@ struct prepare_to_receive {
   
  The conversation does not change to SEND state for the partner TP until the partner TP receives one of the following values through the **what_rcvd** parameter of a subsequent receive verb:  
   
--   AP_SEND  
+- AP_SEND  
   
--   AP_CONFIRM_SEND and replies with [CONFIRMED](../core/confirmed1.md)  
+- AP_CONFIRM_SEND and replies with [CONFIRMED](../core/confirmed1.md)  
   
--   AP_DATA_COMPLETE_CONFIRM_SEND and replies with **CONFIRMED**  
+- AP_DATA_COMPLETE_CONFIRM_SEND and replies with **CONFIRMED**  
   
--   AP_DATA_CONFIRM_SEND and replies with **CONFIRMED**  
+- AP_DATA_CONFIRM_SEND and replies with **CONFIRMED**  
   
- The receive verbs are [RECEIVE_AND_POST](../core/receive-and-post1.md), [RECEIVE_IMMEDIATE](../core/receive-immediate1.md), and [RECEIVE_AND_WAIT](../core/receive-and-wait2.md).
+  The receive verbs are [RECEIVE_AND_POST](../core/receive-and-post1.md), [RECEIVE_IMMEDIATE](../core/receive-immediate1.md), and [RECEIVE_AND_WAIT](../core/receive-and-wait2.md).

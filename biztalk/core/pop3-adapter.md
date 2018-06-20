@@ -32,29 +32,29 @@ You use the Post Office Protocol 3 (POP3) adapter to retrieve data from a server
   
  The POP3 receive adapter retrieves e-mail from a specified mailbox on a specified POP3 server. By default, the POP3 receive adapter applies MIME processing to the e-mail messages that it downloads and submits these messages to BizTalk Server as multipart BizTalk messages. The POP3 receive adapter can receive and process e-mail in the following formats:  
   
--   Plain text  
+- Plain text  
   
--   MIME encoded  
+- MIME encoded  
   
--   MIME encrypted  
+- MIME encrypted  
   
--   MIME encoded and signed  
+- MIME encoded and signed  
   
--   MIME encrypted and signed  
+- MIME encrypted and signed  
   
- **Batching Support for the POP3 Receive Adapter**  
+  **Batching Support for the POP3 Receive Adapter**  
   
- The POP3 receive adapter does not support batching.  
+  The POP3 receive adapter does not support batching.  
   
- **Authentication with POP3 Server**  
+  **Authentication with POP3 Server**  
   
- The following authentication methods are supported for use with the POP3 adapter:  
+  The following authentication methods are supported for use with the POP3 adapter:  
   
--   **Basic.** The POP3 server uses user provided credentials for authentication.  These credentials are sent in clear text.  
+- **Basic.** The POP3 server uses user provided credentials for authentication.  These credentials are sent in clear text.  
   
--   **Digest (APOP).** The POP3 server uses a digest string for authentication.  
+- **Digest (APOP).** The POP3 server uses a digest string for authentication.  
   
--   **Secure Password Authentication (SPA).** The POP3 server uses current process credentials for authentication.  
+- **Secure Password Authentication (SPA).** The POP3 server uses current process credentials for authentication.  
   
 ## In This Section  
   

@@ -68,43 +68,43 @@ struct mc_send_data {
  *rts_rcvd*  
  Returned parameter. Provides the request-to-send-received indicator.  
   
--   AP_YES indicates that the partner TP has issued [MC_REQUEST_TO_SEND](../core/mc-request-to-send1.md), which requests that the local TP change the conversation to RECEIVE state. To change to RECEIVE state, the local TP can use [MC_PREPARE_TO_RECEIVE](../core/mc-prepare-to-receive1.md), [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md), or [MC_RECEIVE_AND_POST](../core/mc-receive-and-post2.md).  
+- AP_YES indicates that the partner TP has issued [MC_REQUEST_TO_SEND](../core/mc-request-to-send1.md), which requests that the local TP change the conversation to RECEIVE state. To change to RECEIVE state, the local TP can use [MC_PREPARE_TO_RECEIVE](../core/mc-prepare-to-receive1.md), [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md), or [MC_RECEIVE_AND_POST](../core/mc-receive-and-post2.md).  
   
--   AP_NO indicates that the partner TP has not issued **MC_REQUEST_TO_SEND**.  
+- AP_NO indicates that the partner TP has not issued **MC_REQUEST_TO_SEND**.  
   
- *data_type*  
- Supplied parameter. Specifies the type of data to be sent if Sync Point is supported. Valid parameters are:  
+  *data_type*  
+  Supplied parameter. Specifies the type of data to be sent if Sync Point is supported. Valid parameters are:  
   
- AP_APPLICATION  
+  AP_APPLICATION  
   
- AP_USER_CONTROL_DATA  
+  AP_USER_CONTROL_DATA  
   
- AP_PS_HEADER  
+  AP_PS_HEADER  
   
- *dlen*  
- Supplied parameter. Specifies the number of bytes of data to be put in the local LU's send buffer. The range is from 0 through 65535.  
+  *dlen*  
+  Supplied parameter. Specifies the number of bytes of data to be put in the local LU's send buffer. The range is from 0 through 65535.  
   
- *dptr*  
- Supplied parameter. Specifies the address of the buffer containing the data to be put in the local LU's send buffer.  
+  *dptr*  
+  Supplied parameter. Specifies the address of the buffer containing the data to be put in the local LU's send buffer.  
   
- For the Windows operating system, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
+  For the Windows operating system, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
   
- *type*  
- Supplied parameter. Allows a TP to send data and perform other functions within one API call. For example, you can combine **MC_SEND_DATA** with **type** set to CONFIRM to accomplish the same objective as issuing **MC_SEND_DATA** followed by [MC_CONFIRM](../core/mc-confirm2.md).  
+  *type*  
+  Supplied parameter. Allows a TP to send data and perform other functions within one API call. For example, you can combine **MC_SEND_DATA** with **type** set to CONFIRM to accomplish the same objective as issuing **MC_SEND_DATA** followed by [MC_CONFIRM](../core/mc-confirm2.md).  
   
--   AP_SEND_DATA_CONFIRM corresponds to **MC_SEND_DATA** followed by **MC_CONFIRM**.  
+- AP_SEND_DATA_CONFIRM corresponds to **MC_SEND_DATA** followed by **MC_CONFIRM**.  
   
--   AP_SEND_DATA_FLUSH corresponds to **MC_SEND_DATA** followed by [MC_FLUSH](../core/mc-flush1.md).  
+- AP_SEND_DATA_FLUSH corresponds to **MC_SEND_DATA** followed by [MC_FLUSH](../core/mc-flush1.md).  
   
--   AP_SEND_DATA_DEALLOC_ABEND corresponds to **MC_SEND_DATA** followed by [MC_DEALLOCATE](../core/mc-deallocate2.md) with a **dealloc_type** of AP_ABEND.  
+- AP_SEND_DATA_DEALLOC_ABEND corresponds to **MC_SEND_DATA** followed by [MC_DEALLOCATE](../core/mc-deallocate2.md) with a **dealloc_type** of AP_ABEND.  
   
--   AP_SEND_DATA_DEALLOC_FLUSH corresponds to **MC_SEND_DATA** followed by **MC_DEALLOCATE** with a **dealloc_type** of AP_FLUSH.  
+- AP_SEND_DATA_DEALLOC_FLUSH corresponds to **MC_SEND_DATA** followed by **MC_DEALLOCATE** with a **dealloc_type** of AP_FLUSH.  
   
--   AP_SEND_DATA_DEALLOC_SYNC_LEVEL corresponds to **MC_SEND_DATA** followed by **MC_DEALLOCATE** with a **dealloc_type** of AP_SYNC_LEVEL.  
+- AP_SEND_DATA_DEALLOC_SYNC_LEVEL corresponds to **MC_SEND_DATA** followed by **MC_DEALLOCATE** with a **dealloc_type** of AP_SYNC_LEVEL.  
   
--   AP_SEND_DATA_P_TO_R_FLUSH corresponds to **MC_SEND_DATA** followed by [MC_PREPARE_TO_RECEIVE](../core/mc-prepare-to-receive1.md) with a **ptr_type** of AP_FLUSH.  
+- AP_SEND_DATA_P_TO_R_FLUSH corresponds to **MC_SEND_DATA** followed by [MC_PREPARE_TO_RECEIVE](../core/mc-prepare-to-receive1.md) with a **ptr_type** of AP_FLUSH.  
   
--   AP_SEND_DATA_P_TO_R_SYNC_LEVEL corresponds to **MC_SEND_DATA** followed by **MC_PREPARE_TO_RECEIVE** with a **ptr_type** of AP_SYNC_LEVEL and **locks** set to AP_SHORT.  
+- AP_SEND_DATA_P_TO_R_SYNC_LEVEL corresponds to **MC_SEND_DATA** followed by **MC_PREPARE_TO_RECEIVE** with a **ptr_type** of AP_SYNC_LEVEL and **locks** set to AP_SHORT.  
   
 ## Return Codes  
  AP_OK  
@@ -188,66 +188,66 @@ struct mc_send_data {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- When this return code is used with [MC_ALLOCATE](../core/mc-allocate2.md), it may indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **MC_ALLOCATE** request.  
+  When this return code is used with [MC_ALLOCATE](../core/mc-allocate2.md), it may indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **MC_ALLOCATE** request.  
   
- When **MC_ALLOCATE** produces this return code for a Microsoft Host Integration Server Client system configured with multiple nodes, there are two secondary return codes as follows:  
+  When **MC_ALLOCATE** produces this return code for a Microsoft Host Integration Server Client system configured with multiple nodes, there are two secondary return codes as follows:  
   
- 0xF0000001  
+  0xF0000001  
   
- Secondary return code; no nodes have been started.  
+  Secondary return code; no nodes have been started.  
   
- 0xF0000002  
+  0xF0000002  
   
- Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
+  Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
   
--   The node with the local LU is not started.  
+- The node with the local LU is not started.  
   
--   The local LU is not configured.  
+- The local LU is not configured.  
   
- AP_CONV_FAILURE_NO_RETRY  
- Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
+  AP_CONV_FAILURE_NO_RETRY  
+  Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
   
- AP_CONV_FAILURE_RETRY  
- Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
+  AP_CONV_FAILURE_RETRY  
+  Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued **MC_SEND_ERROR**. Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued **MC_SEND_ERROR**. Data sent but not yet received is purged.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
- AP_DEALLOC_ABEND  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND.  
+- The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND.  
   
--   The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
+- The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
   
 ## Remarks  
  The conversation must be in SEND state when the TP issues this verb. State changes, based on **primary_rc**, are summarized in the following table.  

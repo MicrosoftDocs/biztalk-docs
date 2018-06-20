@@ -28,11 +28,11 @@ This topic describes how to use the BizTalk Server Administration console to vie
   
 ### To view the maps for an application  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the application whose maps you want to view, and then expand the application.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the application whose maps you want to view, and then expand the application.  
   
-3.  Click the **Maps** folder.  
+3. Click the **Maps** folder.  
   
 ## See Also  
  [Managing Maps](../core/managing-maps.md)

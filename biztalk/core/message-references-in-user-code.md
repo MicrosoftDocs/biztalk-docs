@@ -19,15 +19,15 @@ When a message is constructed, a representation of the message is in the Message
   
  Moreover, the orchestration engine does not invalidate the message part data that is in the representation in the MessageBox database. Message part data has the following modes of representation:  
   
--   XmlDocument representation  
+- XmlDocument representation  
   
--   Object representation  
+- Object representation  
   
--   Stream representation  
+- Stream representation  
   
--   UnderlyingPart representation  
+- UnderlyingPart representation  
   
- How the message part data is represented in memory depends on the message construction and whether the type is a .NET class or an XML Schema definition language (XSD) schema. However, the UnderlyingPart representation is always a stream pointing into the MessageBox database. Because messages in BizTalk Server are immutable after the message is committed to the MessageBox database, the orchestration engine uses the representation in the MessageBox database to reference message part data.  
+  How the message part data is represented in memory depends on the message construction and whether the type is a .NET class or an XML Schema definition language (XSD) schema. However, the UnderlyingPart representation is always a stream pointing into the MessageBox database. Because messages in BizTalk Server are immutable after the message is committed to the MessageBox database, the orchestration engine uses the representation in the MessageBox database to reference message part data.  
   
 > [!NOTE]
 >  A constructed message may already have a representation in the MessageBox database if you assign parts from a message that is already committed.  

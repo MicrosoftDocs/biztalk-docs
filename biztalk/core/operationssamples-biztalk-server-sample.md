@@ -20,15 +20,15 @@ The OperationsSamples sample demonstrates how to perform operational activities 
 ## What This Sample Does  
  This sample demonstrates the following:  
   
--   How to use a tracking profile to comment an orchestration with activities.  
+- How to use a tracking profile to comment an orchestration with activities.  
   
--   How to use the BAM tracking database to find an activity ID and then use the ID to find a related orchestration instance.  
+- How to use the BAM tracking database to find an activity ID and then use the ID to find a related orchestration instance.  
   
--   How to find and work with message flows by using the **MessageFlow** class and other Operations object model classes and APIs.  
+- How to find and work with message flows by using the **MessageFlow** class and other Operations object model classes and APIs.  
   
--   How to access ports, messages, and other instances by using classes derived from the **Instance** class.  
+- How to access ports, messages, and other instances by using classes derived from the **Instance** class.  
   
- The sample contains many useful helper classes and methods to support the operations above. These and other code highlights are discussed in the next section.  
+  The sample contains many useful helper classes and methods to support the operations above. These and other code highlights are discussed in the next section.  
   
 ## How This Sample Is Designed and Why  
  This sample is designed to demonstrate several of the key classes and methods in the Operations object model and to show how to query the publicly available BAM tracking database.  
@@ -38,13 +38,13 @@ The OperationsSamples sample demonstrates how to perform operational activities 
 ### Using a BAM Activity ID  
  This sample shows how to interact with BAM and how to use the publicly available views in the tracking database to locate a live message in the message box by using business data. The sample does this by retrieving an orchestration ID corresponding to a purchase order number. For this task to succeed, it must do the following:  
   
-1.  Use business data (a purchase order number) to find an activity ID. This step maps business data to an internal ID that can be used to find additional information.  
+1. Use business data (a purchase order number) to find an activity ID. This step maps business data to an internal ID that can be used to find additional information.  
   
-2.  Retrieve the BAM references related to the activity ID.  
+2. Retrieve the BAM references related to the activity ID.  
   
-3.  Find a reference that has a type of "BizTalkService" and refers to an orchestration. If one is found, return its instance ID.  
+3. Find a reference that has a type of "BizTalkService" and refers to an orchestration. If one is found, return its instance ID.  
   
- This functionality is provided by the **BAMWebService.GetOrchestrationID** static method and associated helper methods including classes and methods in the BamManagementService.cs source file.  
+   This functionality is provided by the **BAMWebService.GetOrchestrationID** static method and associated helper methods including classes and methods in the BamManagementService.cs source file.  
   
 ### Suspending, Terminating, and Resuming an Instance  
  The sample program includes a **Samples.OperateOnInstance** method that takes an operation and instance ID and performs the specified operation on the instance. Valid operations are defined by the **InstanceOperation** enumeration and include Suspend, Terminate, and Resume. These operations map directly to methods of the BizTalkOperations class—**SuspendInstance**, **TerminateInstance**, and **ResumeInstance**.  

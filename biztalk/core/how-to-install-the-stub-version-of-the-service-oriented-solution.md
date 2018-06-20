@@ -51,65 +51,65 @@ The following steps describe how to prepare your computer before you install the
   
 #### To prepare the computer for installing the stub version of the Service Oriented Solution  
   
-1.  Make sure that the **Default Web Site** is configured to use ASP.NET 2.X.  
+1. Make sure that the **Default Web Site** is configured to use ASP.NET 2.X.  
   
-    1.  Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+   1.  Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-    2.  In the **Internet Information Services (IIS) Manager**, the machine name, expand  **Sites**, expand **Default Web Site**, expand **aspnet_client**, expand **system_web**.  
+   2.  In the **Internet Information Services (IIS) Manager**, the machine name, expand  **Sites**, expand **Default Web Site**, expand **aspnet_client**, expand **system_web**.  
   
-    3.  Make sure that the sub-folder is 2.X.  
+   3.  Make sure that the sub-folder is 2.X.  
   
-2.  Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Services**. Using the **Services** console, make sure that the following services are running:  
+2. Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Services**. Using the **Services** console, make sure that the following services are running:  
   
-    -   **World Wide Web Publishing**  
+   -   **World Wide Web Publishing**  
   
-3.  Click **Start**, point to **All Programs**, point to **Administrative Tools**, click **Computer Management** console, and then add the BizTalk service account to the local Administrators group.  
+3. Click **Start**, point to **All Programs**, point to **Administrative Tools**, click **Computer Management** console, and then add the BizTalk service account to the local Administrators group.  
   
-4.  If you installed Windows SharePoint Services, exclude the (root) of the **Default Web Site** from Windows SharePoint Services Managed Paths as follows: Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **SharePoint Central Administration**.  
+4. If you installed Windows SharePoint Services, exclude the (root) of the **Default Web Site** from Windows SharePoint Services Managed Paths as follows: Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **SharePoint Central Administration**.  
   
-    1.  Under **Virtual Server Configuration**, select **Configure virtual server settings**.  
+   1.  Under **Virtual Server Configuration**, select **Configure virtual server settings**.  
   
-    2.  On the **Virtual Server List** page, click **Default Web Site**.  
+   2.  On the **Virtual Server List** page, click **Default Web Site**.  
   
-    3.  On the **Virtual Server Settings** page, click **Define managed paths**.  
+   3.  On the **Virtual Server Settings** page, click **Define managed paths**.  
   
-    4.  In the **Included Paths** section of the **Defined Managed Path** page, select **Root** and then click **Remove selected paths**.  
+   4.  In the **Included Paths** section of the **Defined Managed Path** page, select **Root** and then click **Remove selected paths**.  
   
-    5.  At a command prompt, perform an IISReset.  
+   5.  At a command prompt, perform an IISReset.  
   
-5.  Log off the computer, and then log on to the computer as the BizTalk service account.  
+5. Log off the computer, and then log on to the computer as the BizTalk service account.  
   
-6.  Open a command prompt, type the following command, and then press ENTER to set the %BTSSolutionsPath% environment. Then, exit the command prompt.  
+6. Open a command prompt, type the following command, and then press ENTER to set the %BTSSolutionsPath% environment. Then, exit the command prompt.  
   
-    -   setx BTSSolutionsPath "[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios"  
+   - setx BTSSolutionsPath "[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios"  
   
-        > [!NOTE]
-        >  If you are using a 64-bit computer, use %ProgramFiles(x86)% instead of %ProgramFiles%.  
+     > [!NOTE]
+     >  If you are using a 64-bit computer, use %ProgramFiles(x86)% instead of %ProgramFiles%.  
   
-        > [!NOTE]
-        >  For more information about the SETX command, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67831](http://go.microsoft.com/fwlink/?LinkId=67831).  
+     > [!NOTE]
+     >  For more information about the SETX command, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67831](http://go.microsoft.com/fwlink/?LinkId=67831).  
   
 ##  <a name="step3"></a> Install the IBM WebSphere MQ Client for Windows  
   
 #### To install the IBM WebSphere MQ Client for Windows  
   
-1.  Download the latest version of IBM WebSphere MQ Client for Windows.  
+1. Download the latest version of IBM WebSphere MQ Client for Windows.  
   
-    > [!NOTE]
-    >  Even if the stub version of the solution doesn't require IBM WebSphere Server, the client application references the amqmdnet.dll file provided by IBM WebSphere MQ Client for Windows, so you must install it. The client of the stub version does not actually call an API in the DLL. It is required only for compiling and running the client application. You can download IBM WebSphere MQ Client for Windows from the IBM Web site.  
+   > [!NOTE]
+   >  Even if the stub version of the solution doesn't require IBM WebSphere Server, the client application references the amqmdnet.dll file provided by IBM WebSphere MQ Client for Windows, so you must install it. The client of the stub version does not actually call an API in the DLL. It is required only for compiling and running the client application. You can download IBM WebSphere MQ Client for Windows from the IBM Web site.  
   
-2.  Install IBM WebSphere MQ Client for Windows.  
+2. Install IBM WebSphere MQ Client for Windows.  
   
-    > [!NOTE]
-    >  You don't need to configure IBM WebSphere MQ Client for Windows. Keep all of the default settings.  
+   > [!NOTE]
+   >  You don't need to configure IBM WebSphere MQ Client for Windows. Keep all of the default settings.  
   
-3.  Add WebSphere MQ classes for the .NET assembly to the global assembly cache (GAC).  
+3. Add WebSphere MQ classes for the .NET assembly to the global assembly cache (GAC).  
   
-    1.  At the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, navigate to the directory \<IBM MQSeries Installation Directory\>\bin.  
+   1. At the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, navigate to the directory \<IBM MQSeries Installation Directory\>\bin.  
   
-    2.  Run the following command (make sure gacutil.exe is in the path environment):  
+   2. Run the following command (make sure gacutil.exe is in the path environment):  
   
-         `gacutil.exe /i amqmdnet.dll`  
+       `gacutil.exe /i amqmdnet.dll`  
   
 ##  <a name="step5"></a> Create the virtual directories in IIS for the Service Oriented Solution  
   
@@ -198,24 +198,24 @@ The following steps describe how to prepare your computer before you install the
   
 #### To build the Service Oriented Solution  
   
-1.  Start **Visual Studio Command Prompt**.  
+1. Start **Visual Studio Command Prompt**.  
   
-    > [!NOTE]
-    >  In the files **%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Inline\app_code\customerserviceport.asmx.cs** and **%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Stub\app_code\customerserviceport.asmx.cs**, replace all the instances of 17f20caea2afcc8c with a1054514fc67bded.  
+   > [!NOTE]
+   >  In the files **%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Inline\app_code\customerserviceport.asmx.cs** and **%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Stub\app_code\customerserviceport.asmx.cs**, replace all the instances of 17f20caea2afcc8c with a1054514fc67bded.  
   
-2.  At the Visual Studio Command Prompt, change the directory to the %BTSSolutionsPath%\SO\BTSSoln folder, and then run the following command to build the stub version of service-oriented solution.  
+2. At the Visual Studio Command Prompt, change the directory to the %BTSSolutionsPath%\SO\BTSSoln folder, and then run the following command to build the stub version of service-oriented solution.  
   
-    -   `SetupBTSSoln.bat`  
+   -   `SetupBTSSoln.bat`  
   
-    > [!NOTE]
-    >  In the files listed below, replace all the instances of 17f20caea2afcc8c with the current public key token.  
-    >   
-    >  -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\Aggregate_To_CustomerServiceResponse.btm.cs  
-    > -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\Aggregate_To_ErrorResponse.btm.cs  
-    > -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_CreditLimitResponse.btm.cs  
-    > -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_CustomerServiceResponseDenied.btm.cs  
-    > -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_LastPaymentResponseTimeout.btm.cs  
-    > -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_PendingTransactionResponse.btm.cs  
+   > [!NOTE]
+   >  In the files listed below, replace all the instances of 17f20caea2afcc8c with the current public key token.  
+   > 
+   > - %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\Aggregate_To_CustomerServiceResponse.btm.cs  
+   >   -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\Aggregate_To_ErrorResponse.btm.cs  
+   >   -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_CreditLimitResponse.btm.cs  
+   >   -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_CustomerServiceResponseDenied.btm.cs  
+   >   -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_LastPaymentResponseTimeout.btm.cs  
+   >   -   %BTSInstallPath%\Scenarios\SO\BTSSoln\Maps\CustomerServiceRequest_To_PendingTransactionResponse.btm.cs  
   
 ##  <a name="step9"></a> Create the Enterprise Single Sign-On (SSO) entries and values in the SSO database  
   

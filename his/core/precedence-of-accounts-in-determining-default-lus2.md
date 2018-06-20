@@ -16,15 +16,15 @@ manager: "anneta"
 # Precedence of Accounts in Determining Default LUs
 When user and group account memberships overlap, the highest-priority account that contains a default local APPC LU determines that LU for the user, and the highest-priority account that contains a default remote APPC LU determines that LU for the user. Accounts are prioritized as follows:  
   
-1.  User accounts (highest priority)  
+1. User accounts (highest priority)  
   
-2.  Subdomain groups  
+2. Subdomain groups  
   
-3.  Local groups  
+3. Local groups  
   
-4.  Well-known groups such as Everyone (lowest priority)  
+4. Well-known groups such as Everyone (lowest priority)  
   
- For example, suppose a user account (a high-priority account) called JOHND contains LOCLU1 as the default local APPC LU, but no default remote APPC LU. At the same time, suppose a local group (a low-priority account) of which JOHND is a member contains LOCLU2 as the default local APPC LU, and REMLU2 as the default remote APPC LU. For JOHND, the high-priority assignment, a default local APPC LU of LOCLU1, will be combined with the only other available assignment, a default remote APPC LU of REMLU2.  
+   For example, suppose a user account (a high-priority account) called JOHND contains LOCLU1 as the default local APPC LU, but no default remote APPC LU. At the same time, suppose a local group (a low-priority account) of which JOHND is a member contains LOCLU2 as the default local APPC LU, and REMLU2 as the default remote APPC LU. For JOHND, the high-priority assignment, a default local APPC LU of LOCLU1, will be combined with the only other available assignment, a default remote APPC LU of REMLU2.  
   
 ### To assign or edit CPI-C information  
   

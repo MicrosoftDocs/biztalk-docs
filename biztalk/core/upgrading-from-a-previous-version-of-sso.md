@@ -20,15 +20,15 @@ manager: "anneta"
 # Upgrading from a Previous Version of SSO
 If you are installing the Enterprise Single Sign-on feature and you already have a previous version deployed on your computer (for example, from Microsoft BizTalk Server 2009), you must complete the steps below.  
   
-1.  Back up the SSO database to a secure location  
+1. Back up the SSO database to a secure location  
   
-2.  Back up the master secret key on the master secret server  
+2. Back up the master secret key on the master secret server  
   
-3.  Update the master secret server by running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup, choosing **Custom Installation**, and then selecting **Enterprise Single Sign-On**.  
+3. Update the master secret server by running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup, choosing **Custom Installation**, and then selecting **Enterprise Single Sign-On**.  
   
-4.  After selecting **Enable Enterprise Single Sign-on on this computer**, select **Join an existing SSO system**.  
+4. After selecting **Enable Enterprise Single Sign-on on this computer**, select **Join an existing SSO system**.  
   
- It is not necessary to update the other SSO servers (non-master secret servers) from your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. However, if you want the new Enterprise Single Sign-On features to be available on those servers, you must update them by using the same procedure outlined above.  
+   It is not necessary to update the other SSO servers (non-master secret servers) from your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. However, if you want the new Enterprise Single Sign-On features to be available on those servers, you must update them by using the same procedure outlined above.  
   
 > [!NOTE]
 >  These considerations also apply if you are installing Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a computer with an existing installation of Host Integration Server 2009 Enterprise Single Sign-On, and you want to update the servers.  

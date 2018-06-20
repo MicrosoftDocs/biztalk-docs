@@ -23,47 +23,47 @@ Many functoids are very simple to use. These are referred to here as basic funct
   
 ## Add a basic functoid to a map  
   
-1.  With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the appropriate tab to select the category of the functoid you want to use.  
+1. With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the appropriate tab to select the category of the functoid you want to use.  
   
-     The list of available functoids in the chosen category appears.  
+    The list of available functoids in the chosen category appears.  
   
-2.  Drag the functoid you want to use from the Toolbox to the appropriate location on a grid page.  
+2. Drag the functoid you want to use from the Toolbox to the appropriate location on a grid page.  
   
-    > [!NOTE]
-    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  
+   > [!NOTE]
+   >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  
   
-    > [!NOTE]
-    >  If you are constructing a map using more than one functoid together, you need to consider their relative left to right placement. Functoids are executed from left to right. The output of a functoid can only be input to another functoid that is farther to the right.  
+   > [!NOTE]
+   >  If you are constructing a map using more than one functoid together, you need to consider their relative left to right placement. Functoids are executed from left to right. The output of a functoid can only be input to another functoid that is farther to the right.  
   
 ## Create input links to a basic functoid  
   
-1.  Drag a record or field node from the source schema to the basic functoid in the displayed grid page.  
+1. Drag a record or field node from the source schema to the basic functoid in the displayed grid page.  
   
-     **- Or -**  
+    **- Or -**  
   
-     In the displayed grid page, drag another functoid, which is located farther to the left, to the basic functoid to which you want to create an input link.  
+    In the displayed grid page, drag another functoid, which is located farther to the left, to the basic functoid to which you want to create an input link.  
   
-     **- Or -**  
+    **- Or -**  
   
-     Drag the basic functoid in the displayed grid page to a record or field node in the source schema.  
+    Drag the basic functoid in the displayed grid page to a record or field node in the source schema.  
   
-     **- Or -**  
+    **- Or -**  
   
-     In the displayed grid page, drag the basic functoid to which you want to create an input link to another functoid that is located farther to the left.  
+    In the displayed grid page, drag the basic functoid to which you want to create an input link to another functoid that is located farther to the left.  
   
-    > [!NOTE]
-    >  While dragging, the moving endpoint of the link, as opposed to the anchored endpoint of the link, changes to a crosshair icon to allow more accurate targeting of the second endpoint. If you hover the moving endpoint of the link over an object that is not an appropriate second endpoint for the link, such as might occur when there is a data type mismatch, the crosshair icon changes to an icon showing a circle with a diagonal slash through it.  
+   > [!NOTE]
+   >  While dragging, the moving endpoint of the link, as opposed to the anchored endpoint of the link, changes to a crosshair icon to allow more accurate targeting of the second endpoint. If you hover the moving endpoint of the link over an object that is not an appropriate second endpoint for the link, such as might occur when there is a data type mismatch, the crosshair icon changes to an icon showing a circle with a diagonal slash through it.  
   
-2.  Repeat step 1 as necessary to establish the complete set of input links (though perhaps not the entire set of input parameters) to the basic functoid.  
+2. Repeat step 1 as necessary to establish the complete set of input links (though perhaps not the entire set of input parameters) to the basic functoid.  
   
-    > [!NOTE]
-    >  There are a few functoids that do not require any input links. For example, the **Date**, **Time**, and **Date and Time** functoids in the **Date and Time** functoid category provide the current date, time, or date and time, respectively, at which an instance message is being processed. Thus, they do not require any input parameters from the source schema.  
-  
-    > [!NOTE]
-    >  The order of input parameters to many functoids is significant, as indicated in the corresponding functoid reference topic (see **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]). The order in which you create links sets the order of input parameters to the functoid. For more information about functoid properties and specifying the order of functoid input parameters, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md). For information about how to configure the input parameters of a functoid, see [How to Configure Functoid Input Parameters](../core/how-to-configure-functoid-input-parameters.md).  
-  
-    > [!NOTE]
-    >  Ensure the functoids or source schema node you want to link are visible in the displayed grid page or source schema window before you begin linking.  
+   > [!NOTE]
+   >  There are a few functoids that do not require any input links. For example, the **Date**, **Time**, and **Date and Time** functoids in the **Date and Time** functoid category provide the current date, time, or date and time, respectively, at which an instance message is being processed. Thus, they do not require any input parameters from the source schema.  
+   > 
+   > [!NOTE]
+   >  The order of input parameters to many functoids is significant, as indicated in the corresponding functoid reference topic (see **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]). The order in which you create links sets the order of input parameters to the functoid. For more information about functoid properties and specifying the order of functoid input parameters, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md). For information about how to configure the input parameters of a functoid, see [How to Configure Functoid Input Parameters](../core/how-to-configure-functoid-input-parameters.md).  
+   > 
+   > [!NOTE]
+   >  Ensure the functoids or source schema node you want to link are visible in the displayed grid page or source schema window before you begin linking.  
   
 ## Create the output link from a basic functoid  
   

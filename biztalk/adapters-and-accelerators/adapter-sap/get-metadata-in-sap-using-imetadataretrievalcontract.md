@@ -41,26 +41,26 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes an **IMetada
 ### Metadata Node IDs  
  The adapter organizes its metadata as a hierarchical tree of nodes. Within this tree structure there are two types of metadata nodes:  
   
--   **Operation nodes** represent operations that the adapter surfaces on SAP artifacts. Operation nodes are the leaves of the tree.  
+- **Operation nodes** represent operations that the adapter surfaces on SAP artifacts. Operation nodes are the leaves of the tree.  
   
--   **Category nodes** represent SAP artifacts and groupings of SAP artifacts that do not directly correspond to an operation on the adapter. Category nodes are the branches of the tree; they contain other category nodes and/or operation nodes. For example, RFC functional groups or SAP business objects are represented as category nodes.  
+- **Category nodes** represent SAP artifacts and groupings of SAP artifacts that do not directly correspond to an operation on the adapter. Category nodes are the branches of the tree; they contain other category nodes and/or operation nodes. For example, RFC functional groups or SAP business objects are represented as category nodes.  
   
- Each metadata node surfaced by the adapter is identified by a unique node ID. For more information about the metadata node IDs surfaced by the adapter, see [Metadata Node IDs](../../adapters-and-accelerators/adapter-sap/metadata-node-ids4.md). You use these node IDs to specify target SAP artifacts when you use the **IMetadataRetrievalContract** interface to browse, search, and retrieve metadata. You can use the constants defined in `Microsoft.Adapters.SAP.SAPAdapterConstants.MetadataConstants` and `Microsoft.Adapters.SAP.SAPAdapterConstants.ActionConstants` to help you construct metadata node IDs.  
+  Each metadata node surfaced by the adapter is identified by a unique node ID. For more information about the metadata node IDs surfaced by the adapter, see [Metadata Node IDs](../../adapters-and-accelerators/adapter-sap/metadata-node-ids4.md). You use these node IDs to specify target SAP artifacts when you use the **IMetadataRetrievalContract** interface to browse, search, and retrieve metadata. You can use the constants defined in `Microsoft.Adapters.SAP.SAPAdapterConstants.MetadataConstants` and `Microsoft.Adapters.SAP.SAPAdapterConstants.ActionConstants` to help you construct metadata node IDs.  
   
 ### Binding Properties  
  Whether you use an **IMetadataRetrievalContract** channel or an **IMetadataRetrievalClient** to work with metadata, you must specify an **SAPBinding** when you create the instance.  
   
  There are several binding properties that affect how the adapter generates metadata. These properties are:  
   
--   **GenerateFlatfileCompatibleIdocSchema**  
+- **GenerateFlatfileCompatibleIdocSchema**  
   
--   **ReceiveIDocFormat**  
+- **ReceiveIDocFormat**  
   
--   **EnableSafeTyping**  
+- **EnableSafeTyping**  
   
--   **FlatFileSegmentIndicator**  
+- **FlatFileSegmentIndicator**  
   
- You should ensure that these binding properties are set to the values required for your application before you open the metadata retrieval object. For more information about the SAP adapter binding properties, see [Read about  BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+  You should ensure that these binding properties are set to the values required for your application before you open the metadata retrieval object. For more information about the SAP adapter binding properties, see [Read about  BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
 ### Browsing Metadata Nodes  
  You use the **Browse** method to return all the metadata nodes that are contained in a parent node. The following example browses for the first three RFC functional groups on the SAP system. In this example, **client** is an instance of **MetadataRetrievalClient**.  

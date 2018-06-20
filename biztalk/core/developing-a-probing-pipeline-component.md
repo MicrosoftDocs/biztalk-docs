@@ -23,15 +23,15 @@ Any pipeline component (general, assembling, or disassembling) can implement the
   
  The **IProbeMessage** interface exposes a single method, **Probe**, which enables the component to check the beginning part of the message. The return value determines whether this component is run. The following steps outline how the BizTalk Messaging Engine runs a stage that requires recognition:  
   
-1.  If the stage does not contain any components, the stage is not run and the message is given to the subsequent stages for processing.  
+1. If the stage does not contain any components, the stage is not run and the message is given to the subsequent stages for processing.  
   
-2.  Check if the component implements the **IProbeMessage** interface. If not, the Messaging Engine invokes the component. The stage processing is done and the message is given to the next stage.  
+2. Check if the component implements the **IProbeMessage** interface. If not, the Messaging Engine invokes the component. The stage processing is done and the message is given to the next stage.  
   
-3.  The **Probe** method is invoked. If the return value is **True**, the component is run. Then the stage processing is done and the message is given to a next stage.  
+3. The **Probe** method is invoked. If the return value is **True**, the component is run. Then the stage processing is done and the message is given to a next stage.  
   
-4.  The Messaging Engine gets the next component in the stage. If there are no more components and none of the components have been run, it generates an error that pipeline processing has failed. If there are no more components and at least one component has been run, the processing is done.  
+4. The Messaging Engine gets the next component in the stage. If there are no more components and none of the components have been run, it generates an error that pipeline processing has failed. If there are no more components and at least one component has been run, the processing is done.  
   
- If a stage does not require recognition (for example, the execution mode is **All**), the Messaging Engine invokes the component without first querying for the **IProbeMessage** interface and calling the **Probe** method.  
+   If a stage does not require recognition (for example, the execution mode is **All**), the Messaging Engine invokes the component without first querying for the **IProbeMessage** interface and calling the **Probe** method.  
   
 ## See Also  
  [Developing a General Pipeline Component](../core/developing-a-general-pipeline-component.md)   

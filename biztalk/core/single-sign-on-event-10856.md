@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10856
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10856|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPING_CREATE_RESTRICTED|  
-|Message Text|Application Users cannot create mappings for this application.|  
+|                 |                                                                |
+|-----------------|----------------------------------------------------------------|
+|  Product Name   |                   Enterprise Single Sign-On                    |
+| Product Version |   [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]   |
+|    Event ID     |                             10856                              |
+|  Event Source   |                             ENTSSO                             |
+|    Component    |                              N/A                               |
+|  Symbolic Name  |               ENTSSO_E_MAPPING_CREATE_RESTRICTED               |
+|  Message Text   | Application Users cannot create mappings for this application. |
   
 ## Explanation  
  This application was configured in such a way that members of the Application Users group are not permitted to create mappings.  

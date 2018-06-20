@@ -22,20 +22,20 @@ In this lesson, you add a new BizTalk project for SWIFT pipelines to the solutio
   
 ### To add a new SWIFT pipelines project to the solution  
   
-1.  In Visual Studio, click **File**, point to **New**, and then click **Project**.  
+1. In Visual Studio, click **File**, point to **New**, and then click **Project**.  
   
-2.  In the New Project dialog box, in the **Project types** pane, select the **BizTalk Projects** folder.  
+2. In the New Project dialog box, in the **Project types** pane, select the **BizTalk Projects** folder.  
   
-3.  In the **Templates** pane, select **Empty BizTalk Server Project**.  
+3. In the **Templates** pane, select **Empty BizTalk Server Project**.  
   
-4.  In the **Name** box, type **SWIFTPipelines** as the project name.  
+4. In the **Name** box, type **SWIFTPipelines** as the project name.  
   
-5.  In the **Solution** box, select **Add to Solution**. In the **Location** box, browse to select **\<*drive*:\>\labs\SWIFTProject** is selected.  
+5. In the **Solution** box, select **Add to Solution**. In the **Location** box, browse to select **\<*drive*:\>\labs\SWIFTProject** is selected.  
   
-6.  Click **OK** to open the new project.  
+6. Click **OK** to open the new project.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds a new project to Solution Explorer, and creates the project folder and files in the \<*drive*\>:\Labs\SWIFTProject folder.  
+    [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds a new project to Solution Explorer, and creates the project folder and files in the \<*drive*\>:\Labs\SWIFTProject folder.  
   
-7.  Apply the assembly key file that you created in lesson 2 of module 2 to the SWIFTPipelines project. For more information, see [Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project](../../adapters-and-accelerators/accelerator-swift/lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project.md).  
+7. Apply the assembly key file that you created in lesson 2 of module 2 to the SWIFTPipelines project. For more information, see [Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project](../../adapters-and-accelerators/accelerator-swift/lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project.md).  
   
- Proceed to [Lesson 2: Adding Project References](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-project-references.md).
+   Proceed to [Lesson 2: Adding Project References](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-project-references.md).

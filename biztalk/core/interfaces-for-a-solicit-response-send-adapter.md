@@ -22,34 +22,34 @@ Send adapters use the same batch mechanism as receive adapters to submit respons
   
  Send adapters need to implement the following interfaces to work in solicit-response mode:  
   
--   **IBTTransport**  
+- **IBTTransport**  
   
--   **IBaseComponent**  
+- **IBaseComponent**  
   
--   **IBTTransportControl**  
+- **IBTTransportControl**  
   
--   **IPersistPropertyBag**  
+- **IPersistPropertyBag**  
   
--   **IBTTransmitter**  
+- **IBTTransmitter**  
   
--   **IBTTransmitterBatch** and **IBTBatchTransmitter** (if send batching is required)  
+- **IBTTransmitterBatch** and **IBTBatchTransmitter** (if send batching is required)  
   
--   **IBTBatchCallBack**  
+- **IBTBatchCallBack**  
   
- The steps involved in the object interaction are as follows:  
+  The steps involved in the object interaction are as follows:  
   
-1.  After the adapter sends a solicit message, it receives back a response message from that destination server. It then obtains a batch from the transport proxy.  
+1. After the adapter sends a solicit message, it receives back a response message from that destination server. It then obtains a batch from the transport proxy.  
   
-2.  The adapter adds the response message to the batch by calling **IBTTransportProxy::SubmitResponseMessage**.  
+2. The adapter adds the response message to the batch by calling **IBTTransportProxy::SubmitResponseMessage**.  
   
-3.  The adapter submits the batch by calling **IBTTransportProxy::Done** passing in a pointer to its **IBTBatchComplete** interface for the callback from the Messaging Engine.  
+3. The adapter submits the batch by calling **IBTTransportProxy::Done** passing in a pointer to its **IBTBatchComplete** interface for the callback from the Messaging Engine.  
   
-4.  The Messaging Engine calls the adapter's **IBTBatchCallBack::BatchComplete** callback method using the transport proxy notifying it of the result of submission operation.  
+4. The Messaging Engine calls the adapter's **IBTBatchCallBack::BatchComplete** callback method using the transport proxy notifying it of the result of submission operation.  
   
- The following figure shows the object interactions involved in creating a solicit-response send adapter.  
+   The following figure shows the object interactions involved in creating a solicit-response send adapter.  
   
- ![](../core/media/ebiz-sdk-devadapter13.gif "ebiz_sdk_devadapter13")  
-Interaction diagram for a solicit-response send adapter  
+   ![](../core/media/ebiz-sdk-devadapter13.gif "ebiz_sdk_devadapter13")  
+   Interaction diagram for a solicit-response send adapter  
   
 ## See Also  
  [Adapter Variables](../core/adapter-variables.md)   

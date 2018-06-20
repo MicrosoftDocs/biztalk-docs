@@ -27,39 +27,39 @@ AS/400 model flow
 ## Summary Workflow Diagram for the OS/400 DPC Programming Model  
  The OS/400 DPC programming model works as follows:  
   
-1.  An application invokes a method in a TI component configured in Component Services or the .NET Framework.  
+1. An application invokes a method in a TI component configured in Component Services or the .NET Framework.  
   
-2.  The TI runtime calls the TI Automation proxy.  
+2. The TI runtime calls the TI Automation proxy.  
   
-3.  If the application is COM+ component, the TI Automation proxy:  
+3. If the application is COM+ component, the TI Automation proxy:  
   
-    1.  Reads in the type libraries previously created by the TI Designer.  
+   1. Reads in the type libraries previously created by the TI Designer.  
   
-    2.  Maps the automation data types to AS/400 RPG data types.  
+   2. Maps the automation data types to AS/400 RPG data types.  
   
-     If the application is a .NET Framework assembly, the TI Automation proxy:  
+      If the application is a .NET Framework assembly, the TI Automation proxy:  
   
-    1.  Reads in the assembly and metadata previously created by the TI Designer.  
+   3. Reads in the assembly and metadata previously created by the TI Designer.  
   
-    2.  Maps the .NET Framework data types to AS/400 RPG data types.  
+   4. Maps the .NET Framework data types to AS/400 RPG data types.  
   
-     The TI Automation proxy then:  
+      The TI Automation proxy then:  
   
-    1.  Calls the conversion routines to convert the application data to AS/400 RPG types.  
+   5. Calls the conversion routines to convert the application data to AS/400 RPG types.  
   
-    2.  Builds the parameterized message buffer that represents the RPG PLIST.  
+   6. Builds the parameterized message buffer that represents the RPG PLIST.  
   
-    3.  Passes the message to the AS/400 DPC transport component.  
+   7. Passes the message to the AS/400 DPC transport component.  
   
-4.  The TI TCP transport sends a connection request to the DPC Server system using the Internet Protocol (IP) address of the AS/400 computer and the port address of the server. The TI TCP transport then waits for a reply.  
+4. The TI TCP transport sends a connection request to the DPC Server system using the Internet Protocol (IP) address of the AS/400 computer and the port address of the server. The TI TCP transport then waits for a reply.  
   
-5.  The DPC Server on the AS/400 accepts the session request and issues a receive. The DPC Server then waits for the start server request.  
+5. The DPC Server on the AS/400 accepts the session request and issues a receive. The DPC Server then waits for the start server request.  
   
-6.  The TI automation proxy sends the DPC Server a start server request and issues a receive. The TI TCP transport then waits for a start server reply.  
+6. The TI automation proxy sends the DPC Server a start server request and issues a receive. The TI TCP transport then waits for a start server reply.  
   
-7.  The DPC server processes the start server request, sends a start server reply, and then issues a receive. The DPC Server then waits for an exchange attributes request.  
+7. The DPC server processes the start server request, sends a start server reply, and then issues a receive. The DPC Server then waits for an exchange attributes request.  
   
-8.  The TI runtime processes the start server reply, sends the attributes request, and issues a receive. The TI runtime then waits for an exchange attributes reply.  
+8. The TI runtime processes the start server reply, sends the attributes request, and issues a receive. The TI runtime then waits for an exchange attributes reply.  
   
 9. The DPC server processes the exchange attributes request, sends a exchange attributes reply, and then issues a receive. The DPC then waits for a remote program call  request.  
   
@@ -69,21 +69,21 @@ AS/400 model flow
   
 12. The TI Automation proxy receives the reply data and processes the reply. The TI Automation proxy:  
   
-    1.  Receives the message from the TCP transport component.  
+    1. Receives the message from the TCP transport component.  
   
-    2.  Reads the message buffer.  
+    2. Reads the message buffer.  
   
-     If the application is a COM+ component, the TI Automation proxy:  
+       If the application is a COM+ component, the TI Automation proxy:  
   
-    1.  Maps the OS/400 data types to the automation data.  
+    3. Maps the OS/400 data types to the automation data.  
   
-    2.  Calls the conversion routines to convert the OS/400 RPG types to the application data.  
+    4. Calls the conversion routines to convert the OS/400 RPG types to the application data.  
   
-     If the application is a .NET assembly, the TI Automation proxy:  
+       If the application is a .NET assembly, the TI Automation proxy:  
   
-    1.  Maps the AS/400 data types to the .NET Framework data types.  
+    5. Maps the AS/400 data types to the .NET Framework data types.  
   
-    2.  Calls the conversion routines to convert the OS/400 RPG types to the application data.  
+    6. Calls the conversion routines to convert the OS/400 RPG types to the application data.  
   
 13. The TI runtime sends the converted data back to the COM or .NET Framework application that invoked the method.  
   
@@ -93,9 +93,9 @@ AS/400 model flow
     > [!NOTE]
     >  The RMTPGMCALL can pass maximum 35 parameters as IN or OUT, or as IN/OUT in any combination.  
   
- [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] includes sample code showing how to implement the IMS Connect programming model. The sample code is located at **\\***installation directory***\SDK\Samples\AppInt**. Start Microsoft Visual Studio, open the tutorial you want to use, and follow the instructions in the **Readme**.  
+    [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] includes sample code showing how to implement the IMS Connect programming model. The sample code is located at **\\**<em>installation directory</em>**\SDK\Samples\AppInt**. Start Microsoft Visual Studio, open the tutorial you want to use, and follow the instructions in the **Readme**.  
   
- For information about configuring the mainframe and writing server applications for IBM AS/400e, see the ILE RPG/400 Programmers Guide Version 4 (IBM Document #SC09-2507-02) and the ILE RPG/400 Reference Version 3 (IBM Document #SC09-2077-01).  
+    For information about configuring the mainframe and writing server applications for IBM AS/400e, see the ILE RPG/400 Programmers Guide Version 4 (IBM Document #SC09-2507-02) and the ILE RPG/400 Reference Version 3 (IBM Document #SC09-2077-01).  
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   

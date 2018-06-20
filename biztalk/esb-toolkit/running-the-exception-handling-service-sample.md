@@ -18,14 +18,14 @@ The Exception Handling Service sample demonstrates how to consume the Exception 
   
  **To run the Exception Handling Service sample**  
   
-1.  In Windows Explorer, open the folder \Source\Samples\ExceptionHandlingService, where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples, and then open the Visual Studio solution file named ExceptionHandlingService.sln.  
+1. In Windows Explorer, open the folder \Source\Samples\ExceptionHandlingService, where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples, and then open the Visual Studio solution file named ExceptionHandlingService.sln.  
   
-2.  In Visual Studio, click **Start Debugging** on the Toolbar.  
+2. In Visual Studio, click **Start Debugging** on the Toolbar.  
   
-3.  On the form that loads, click the **Generate Exception** button.  
+3. On the form that loads, click the **Generate Exception** button.  
   
-4.  In Windows Explorer, open the folder \Samples\Exception Handling\Test\Filedrop\All_Exceptions, and then open the most recent Exceptions_{GUID}.xml file.  
+4. In Windows Explorer, open the folder \Samples\Exception Handling\Test\Filedrop\All_Exceptions, and then open the most recent Exceptions_{GUID}.xml file.  
   
-5.  Examine the contents of the generated exception.  
+5. Examine the contents of the generated exception.  
   
- For more information about how the Exception Handling Service sample uses the Exception Management service, see [How the Exception Handling Service Sample Works](../esb-toolkit/how-the-exception-handling-service-sample-works.md).
+   For more information about how the Exception Handling Service sample uses the Exception Management service, see [How the Exception Handling Service Sample Works](../esb-toolkit/how-the-exception-handling-service-sample-works.md).

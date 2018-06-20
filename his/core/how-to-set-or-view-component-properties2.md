@@ -32,12 +32,12 @@ A property sheet displays basic information about a Transaction Integrator (TI) 
   
 ### To view or set an item's properties  
   
-1.  In HIS Designer, right-click the item, and then click **Properties**.  
+1. In HIS Designer, right-click the item, and then click **Properties**.  
   
-    > [!NOTE]
-    >  After you deploy a TI-created component in a COM+ application, that component acquires additional properties. For a complete view of a component's properties, use TI Manager to view the properties for the component and the properties for the COM+ application where the component is located.  
+   > [!NOTE]
+   >  After you deploy a TI-created component in a COM+ application, that component acquires additional properties. For a complete view of a component's properties, use TI Manager to view the properties for the component and the properties for the COM+ application where the component is located.  
   
- Some properties are informational only, so you cannot change them. However, there are many properties that you can change. When you are viewing properties in HIS Designer, you can protect against inadvertently changing a component definition by locking the definition. Doing so makes property settings read-only until you unlock them.  
+   Some properties are informational only, so you cannot change them. However, there are many properties that you can change. When you are viewing properties in HIS Designer, you can protect against inadvertently changing a component definition by locking the definition. Doing so makes property settings read-only until you unlock them.  
   
 ### To lock or unlock a component definition in HIS Designer  
   

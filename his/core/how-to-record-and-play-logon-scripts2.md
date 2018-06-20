@@ -26,19 +26,19 @@ The 3270 logon scripts make it easy for users and administrators to automate the
   
 ### To create your own logon script  
   
-1.  Start the 3270 Client.  
+1. Start the 3270 Client.  
   
-2.  On the **Session** menu, click **Connect**. The **logon** dialog box appears, ready for you to enter your user ID and password.  
+2. On the **Session** menu, click **Connect**. The **logon** dialog box appears, ready for you to enter your user ID and password.  
   
-3.  On the **Script** menu, click **Record**.  
+3. On the **Script** menu, click **Record**.  
   
-4.  Logon to the host using the 3270 screens and keyboard. The **Record** facility converts these actions into a logon script. (Click here to see a [Sample Logon Script](../core/sample-logon-script2.md).)  
+4. Logon to the host using the 3270 screens and keyboard. The **Record** facility converts these actions into a logon script. (Click here to see a [Sample Logon Script](../core/sample-logon-script2.md).)  
   
- When you are finished recording your logon script, on the **Script** menu, click **Stop**.  
+   When you are finished recording your logon script, on the **Script** menu, click **Stop**.  
   
-1.  To run your logon script, on the **Script** menu, click **Play**.  
+5. To run your logon script, on the **Script** menu, click **Play**.  
   
- The scripts can be modified using any text editor, such as Notepad.  
+   The scripts can be modified using any text editor, such as Notepad.  
   
 ### To run the logon script automatically each time you connect  
   

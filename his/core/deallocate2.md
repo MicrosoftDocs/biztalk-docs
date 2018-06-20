@@ -70,46 +70,46 @@ struct deallocate {
   
  Using one of the following values deallocates the conversation abnormally:  
   
--   AP_ABEND_PROG  
+- AP_ABEND_PROG  
   
--   AP_ABEND_SVC  
+- AP_ABEND_SVC  
   
--   AP_ABEND_TIMER  
+- AP_ABEND_TIMER  
   
- If the conversation is in SEND state when the local TP issues **DEALLOCATE**, APPC sends the contents of the local logical unit's (LU) send buffer to the partner TP before deallocating the conversation. If the conversation is in RECEIVE or PENDING_POST state, APPC purges any incoming data before deallocating the conversation.  
+  If the conversation is in SEND state when the local TP issues **DEALLOCATE**, APPC sends the contents of the local logical unit's (LU) send buffer to the partner TP before deallocating the conversation. If the conversation is in RECEIVE or PENDING_POST state, APPC purges any incoming data before deallocating the conversation.  
   
- An application or service TP should specify AP_ABEND_PROG when it encounters an error preventing the successful completion of a transaction.  
+  An application or service TP should specify AP_ABEND_PROG when it encounters an error preventing the successful completion of a transaction.  
   
- A service TP should specify AP_ABEND_SVC when it encounters an error caused by its partner service TP (for example, a format error in control information sent by the partner service TP). A service TP should specify AP_ABEND_TIMER when it encounters an error requiring immediate deallocation (for example, an operator ending the program prematurely).  
+  A service TP should specify AP_ABEND_SVC when it encounters an error caused by its partner service TP (for example, a format error in control information sent by the partner service TP). A service TP should specify AP_ABEND_TIMER when it encounters an error requiring immediate deallocation (for example, an operator ending the program prematurely).  
   
- AP_FLUSH sends the contents of the local LU's send buffer to the partner TP before deallocating the conversation. This value is allowed only if the conversation is in SEND state.  
+  AP_FLUSH sends the contents of the local LU's send buffer to the partner TP before deallocating the conversation. This value is allowed only if the conversation is in SEND state.  
   
- AP_SYNC_LEVEL uses the conversation's synchronization level (established by [ALLOCATE](../core/allocate2.md)) to determine how to deallocate the conversation. This value is allowed only if the conversation is in SEND state.  
+  AP_SYNC_LEVEL uses the conversation's synchronization level (established by [ALLOCATE](../core/allocate2.md)) to determine how to deallocate the conversation. This value is allowed only if the conversation is in SEND state.  
   
- If the synchronization level of the conversation is AP_NONE, APPC sends the contents of the local LU's send buffer to the partner TP before deallocating the conversation.  
+  If the synchronization level of the conversation is AP_NONE, APPC sends the contents of the local LU's send buffer to the partner TP before deallocating the conversation.  
   
- If the synchronization level is AP_CONFIRM_SYNC_LEVEL, APPC sends the contents of the local LU's send buffer and a confirmation request to the partner TP. Upon receiving confirmation from the partner TP, APPC deallocates the conversation. If, however, the partner TP reports an error, the conversation remains allocated.  
+  If the synchronization level is AP_CONFIRM_SYNC_LEVEL, APPC sends the contents of the local LU's send buffer and a confirmation request to the partner TP. Upon receiving confirmation from the partner TP, APPC deallocates the conversation. If, however, the partner TP reports an error, the conversation remains allocated.  
   
- *log_dlen*  
- Supplied parameter. Specifies the number of bytes of data to be sent to the error log file. The range is from 0 through 32767.  
+  *log_dlen*  
+  Supplied parameter. Specifies the number of bytes of data to be sent to the error log file. The range is from 0 through 32767.  
   
- You can set this parameter to a number greater than zero if **dealloc_type** is set to AP_ABEND_PGM, AP_ABEND_SVC, or AP_ABEND_TIMER. Otherwise, this parameter must be zero.  
+  You can set this parameter to a number greater than zero if **dealloc_type** is set to AP_ABEND_PGM, AP_ABEND_SVC, or AP_ABEND_TIMER. Otherwise, this parameter must be zero.  
   
- *log_dptr*  
- Supplied parameter. Provides the address of the data buffer containing error information. The data is sent to the local error log and to the partner LU.  
+  *log_dptr*  
+  Supplied parameter. Provides the address of the data buffer containing error information. The data is sent to the local error log and to the partner LU.  
   
- This parameter is used by **DEALLOCATE** if **log_dlen** is greater than zero.  
+  This parameter is used by **DEALLOCATE** if **log_dlen** is greater than zero.  
   
- For Microsoft Windows, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
+  For Microsoft Windows, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
   
- For OS/2, the log data buffer must reside on an unnamed, shared segment, which is allocated by the function **DosAllocSeg** with Flags equal to 1. The log data buffer must fit entirely on the segment.  
+  For OS/2, the log data buffer must reside on an unnamed, shared segment, which is allocated by the function **DosAllocSeg** with Flags equal to 1. The log data buffer must fit entirely on the segment.  
   
- The TP must format the error data as a GDS error log variable. For more information, see your IBM SNA manual(s).  
+  The TP must format the error data as a GDS error log variable. For more information, see your IBM SNA manual(s).  
   
- *callback*  
- Supplied parameter. Only present if the AP_EXTD_VCB bit is set in the **opext** member, indicating support for Sync Point. This parameter is the address of a user-supplied callback function. If this field is NULL, no notification will be provided.  
+  *callback*  
+  Supplied parameter. Only present if the AP_EXTD_VCB bit is set in the **opext** member, indicating support for Sync Point. This parameter is the address of a user-supplied callback function. If this field is NULL, no notification will be provided.  
   
- The prototype of the callback routine is as follows:  
+  The prototype of the callback routine is as follows:  
   
 ```  
 void WINAPI callback_proc(  
@@ -251,59 +251,59 @@ void WINAPI callback_proc(
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- AP_CONV_FAILURE_NO_RETRY  
- Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
+  AP_CONV_FAILURE_NO_RETRY  
+  Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
   
- AP_CONV_FAILURE_RETRY  
- Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
+  AP_CONV_FAILURE_RETRY  
+  Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG. Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG. Data sent but not yet received is purged.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
- AP_DEALLOC_ABEND_PROG  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND_PROG  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_PROG.  
+- The partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_PROG.  
   
--   The partner TP has encountered an ABEND, causing the partner LU to send a **DEALLOCATE** request.  
+- The partner TP has encountered an ABEND, causing the partner LU to send a **DEALLOCATE** request.  
   
- AP_DEALLOC_ABEND_SVC  
- Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_SVC.  
+  AP_DEALLOC_ABEND_SVC  
+  Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_SVC.  
   
- AP_DEALLOC_ABEND_TIMER  
- Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_TIMER.  
+  AP_DEALLOC_ABEND_TIMER  
+  Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_TIMER.  
   
- AP_SVC_ERROR_PURGING  
- Primary return code; the partner TP (or partner LU) issued **SEND_ERROR** with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
+  AP_SVC_ERROR_PURGING  
+  Primary return code; the partner TP (or partner LU) issued **SEND_ERROR** with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
   
 ## Remarks  
  Depending on the value of the **dealloc_type** parameter, the conversation can be in one of the states indicated in the following table when the TP issues **DEALLOCATE**.  
@@ -334,26 +334,26 @@ void WINAPI callback_proc(
   
  Before deallocating the conversation, this verb performs the equivalent of one of the following:  
   
--   [FLUSH](../core/flush2.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
+- [FLUSH](../core/flush2.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
   
--   [CONFIRM](../core/confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
+- [CONFIRM](../core/confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
   
- After this verb has successfully executed, the conversation identifier is no longer valid.  
+  After this verb has successfully executed, the conversation identifier is no longer valid.  
   
- LU 6.2 Sync Point can use an optimization of the message flows known as implied forget. When the protocol specifies that a FORGET PS header is required, the next data flow on the session implies that a FORGET has been received. In the normal situation, the TP is aware of the next data flow when data is received or sent on one of its Sync Point conversations.  
+  LU 6.2 Sync Point can use an optimization of the message flows known as implied forget. When the protocol specifies that a FORGET PS header is required, the next data flow on the session implies that a FORGET has been received. In the normal situation, the TP is aware of the next data flow when data is received or sent on one of its Sync Point conversations.  
   
- However, it is possible that the last message to flow is caused by the conversation being deallocated. In this case, the TP is unaware when the next data flow on the session occurs. To provide the TP with this notification, the **DEALLOCATE** verb is modified to allow the TP to register a callback function which will be called:  
+  However, it is possible that the last message to flow is caused by the conversation being deallocated. In this case, the TP is unaware when the next data flow on the session occurs. To provide the TP with this notification, the **DEALLOCATE** verb is modified to allow the TP to register a callback function which will be called:  
   
--   On the first normal flow transmission (request or response) over the session used by the conversation.  
+- On the first normal flow transmission (request or response) over the session used by the conversation.  
   
--   If the session is unbound before any other data flows.  
+- If the session is unbound before any other data flows.  
   
--   If the session is terminated abnormally due to a DLC outage.  
+- If the session is terminated abnormally due to a DLC outage.  
   
- The **DEALLOCATE** verb also contains a **correlator** field member that is returned as one of the parameters when the callback function is invoked. The application can use this parameter in any way (for example, as a pointer to a control block within the application).  
+  The **DEALLOCATE** verb also contains a **correlator** field member that is returned as one of the parameters when the callback function is invoked. The application can use this parameter in any way (for example, as a pointer to a control block within the application).  
   
- The TP can use the *type* parameter passed to the callback function to determine whether the message flow indicates an implied forget has been received.  
+  The TP can use the *type* parameter passed to the callback function to determine whether the message flow indicates an implied forget has been received.  
   
- Note that the **DEALLOCATE** verb will probably complete before the callback routine is called. The conversation is considered to be in RESET state and no further verbs can be issued using the conversation identifier. If the application issues a [TP_ENDED](../core/tp-ended1.md) verb before the next data flow on the session, the callback routine will not be invoked.  
+  Note that the **DEALLOCATE** verb will probably complete before the callback routine is called. The conversation is considered to be in RESET state and no further verbs can be issued using the conversation identifier. If the application issues a [TP_ENDED](../core/tp-ended1.md) verb before the next data flow on the session, the callback routine will not be invoked.  
   
- Host Integration Server allows TPs to deallocate conversations immediately after sending data by specifying the **type** parameter on [SEND_DATA](../core/send-data1.md) as AP_SEND_DATA_DEALLOC_\*. However, the SEND_DATA verbs do not contain the implied forget callback function. TPs that want to receive implied forget notification must issue **DEALLOCATE** explicitly.
+  Host Integration Server allows TPs to deallocate conversations immediately after sending data by specifying the **type** parameter on [SEND_DATA](../core/send-data1.md) as AP_SEND_DATA_DEALLOC_\*. However, the SEND_DATA verbs do not contain the implied forget callback function. TPs that want to receive implied forget notification must issue **DEALLOCATE** explicitly.

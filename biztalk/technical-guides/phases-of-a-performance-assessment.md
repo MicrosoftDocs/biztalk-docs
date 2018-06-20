@@ -18,20 +18,20 @@ One of the primary goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/bts
   
  This section describes the methodology that should be used to optimize the performance of a BizTalk Server solution by engaging in a BizTalk Server performance assessment. A BizTalk Server performance assessment is used to maximize the performance of a particular BizTalk Server solution. In order to gain the maximum benefit from a BizTalk Server performance assessment, the performance assessment should be divided into the following five distinct steps/phases:  
   
-1.  Scope  
+1. Scope  
   
-2.  Plan  
+2. Plan  
   
-3.  Prepare  
+3. Prepare  
   
-4.  Build lab  
+4. Build lab  
   
-5.  Execute  
+5. Execute  
   
- This topic describes each of these phases in greater detail.  
+   This topic describes each of these phases in greater detail.  
   
- ![Phases of a performance assessment process](../technical-guides/media/assessmentprocess.gif "AssessmentProcess")  
-Phases of a BizTalk Server performance assessment  
+   ![Phases of a performance assessment process](../technical-guides/media/assessmentprocess.gif "AssessmentProcess")  
+   Phases of a BizTalk Server performance assessment  
   
 ## In This Section  
   

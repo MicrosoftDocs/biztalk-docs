@@ -81,13 +81,13 @@ This topic describes how to use the Template sample for application deployment.
   
 ### To create a new application  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] and expand the BizTalk group.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] and expand the BizTalk group.  
   
-3.  Right-click **Applications** and then click **New**.  
+3. Right-click **Applications** and then click **New**.  
   
-4.  In **Application name**, type `SamplesTemplate`, and then click **OK**.  
+4. In **Application name**, type `SamplesTemplate`, and then click **OK**.  
   
 ### To add the scripts to the application  
   

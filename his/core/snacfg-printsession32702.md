@@ -44,7 +44,7 @@ manager: "anneta"
  Displays a list of the configuration settings of a print session. The displayed command does not contain the word **snacfg**, so that it can be redirected to a command file. Command files are discussed earlier in this section.  
   
  **/add**  
- Adds a print session to the Host Print Service. To configure the print session, you must specify the server name and the configured 3270 printer LU name after the **/add** using the **/server:***servername* and **/luname:***Luname* options.  
+ Adds a print session to the Host Print Service. To configure the print session, you must specify the server name and the configured 3270 printer LU name after the **/add** using the **/server:**<em>servername</em> and **/luname:**<em>Luname</em> options.  
   
  **/delete**  
  Deletes the printer session. To delete the print session, you must specify the server name and the configured 3270 printer LU name after the **/delete**.  
@@ -59,7 +59,7 @@ manager: "anneta"
  **/codepage: {Country &#124; Custom}**  
  This defines the host code page language in which the print jobs are output. The default is **Country** and the default language is **English (United States) [037]**. To change the default language, provide the number of the host code page of the country/region you want with the **/country** option.  
   
- If you want to use a custom file for the host code page, you must use **/customfile:***text,* where the *text* value is the name of the file containing the specifications for the print job.  
+ If you want to use a custom file for the host code page, you must use **/customfile:**<em>text,</em> where the *text* value is the name of the file containing the specifications for the print job.  
   
  **Host Code Page Numbers and Corresponding Language**  
   
@@ -299,7 +299,7 @@ manager: "anneta"
  **/paperlength:** *value*  
  Specifies the length of the paper for printing. The values for paperlength and paperwidth are in tenths of a millimeter, and override the papersize setting.  
   
- **/paperwidth:**value  
+ <strong>/paperwidth:</strong>value  
  Specifies the width of the paper. The values for paperlength and paperwidth are in tenths of a millimeter, and override the papersize setting.  
   
  **/pdtfile:**" *text*"  

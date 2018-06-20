@@ -159,11 +159,11 @@ Microsoft Host Integration Server TN3270 is graphical user interface to work wit
 ### Connect and Disconnect  
  To connect a host session:  
   
-1.  Click **Session** menu, and then click **Connect**.  
+1. Click **Session** menu, and then click **Connect**.  
   
- To disconnect a host session:  
+   To disconnect a host session:  
   
-1.  Click **Session** menu, and then click **Disconnect**.  
+2. Click **Session** menu, and then click **Disconnect**.  
   
 ### Font  
  To set font options:  
@@ -193,15 +193,15 @@ Microsoft Host Integration Server TN3270 is graphical user interface to work wit
 ### Cursor  
  To set a block cursor:  
   
-1.  Click **Session** menu, click **Cursor**, and then click **Block**.  
+1. Click **Session** menu, click **Cursor**, and then click **Block**.  
   
-2.  The emulator will display a block cursor.  
+2. The emulator will display a block cursor.  
   
- To set a blinking cursor:  
+   To set a blinking cursor:  
   
-1.  Click **Session** menu, click **Cursor**, and then click **Blink**.  
+3. Click **Session** menu, click **Cursor**, and then click **Blink**.  
   
-2.  The emulator will display a blinking cursor.  
+4. The emulator will display a blinking cursor.  
   
 ### Title  
  To set a custom session title:  

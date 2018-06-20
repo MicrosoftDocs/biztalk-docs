@@ -18,13 +18,13 @@ You can set the **Use Already Verified or Persistent Verification authentication
   
 ### To view or modify the Security properties for an RE  
   
-1.  Start TI Manager.  
+1. Start TI Manager.  
   
-2.  Right-click the RE, and then click **Properties**.  
+2. Right-click the RE, and then click **Properties**.  
   
-3.  Click the **Security** tab, and then select the **Set security on** check box.  
+3. Click the **Security** tab, and then select the **Set security on** check box.  
   
- When you select the **Use Already Verified or Persistent Verification authentication** check box, only a user ID is sent to the mainframe; that is, no password is sent, provided the mainframe partner allows it. The mainframe relies on the assumption that this user ID has already been authenticated and does not require a password. The SNA mode on the mainframe must specify this type of authentication. For CICS applications, the mode setting is determined by the ATTACHSEC=IDENTIFY parameter of the Sessions definition used for the connection.  
+   When you select the **Use Already Verified or Persistent Verification authentication** check box, only a user ID is sent to the mainframe; that is, no password is sent, provided the mainframe partner allows it. The mainframe relies on the assumption that this user ID has already been authenticated and does not require a password. The SNA mode on the mainframe must specify this type of authentication. For CICS applications, the mode setting is determined by the ATTACHSEC=IDENTIFY parameter of the Sessions definition used for the connection.  
   
 ## See Also  
  [Security Implications](../core/security-implications1.md)

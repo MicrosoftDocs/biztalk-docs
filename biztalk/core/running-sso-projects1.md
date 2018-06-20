@@ -25,19 +25,19 @@ You can run the sample  from Internet Explorer.
   
 #### To run the sample from the Internet Explorer  
   
-1.  Open your browser.  
+1. Open your browser.  
   
-2.  Use the following syntax:  
+2. Use the following syntax:  
   
-    ```  
-    http://localhost/SSODemo/BTSHTTPReceive.dll?[Insert XML Instance body]   
-    ```  
+   ```  
+   http://localhost/SSODemo/BTSHTTPReceive.dll?[Insert XML Instance body]   
+   ```  
   
-     For example:  
+    For example:  
   
-     http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1"><ns0:method_list_method><ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object"><ns1:comp_code></ns1:comp_code><ns1:comp_name></ns1:comp_name></ns1:object_1></ns0:method_list></ns0:method_list_method>  
+    http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1"><ns0:method_list_method><ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object"><ns1:comp_code></ns1:comp_code><ns1:comp_name></ns1:comp_name></ns1:object_1></ns0:method_list></ns0:method_list_method>  
   
-     In this case you do not have to provide the credentials.  
+    In this case you do not have to provide the credentials.  
   
 ## See Also  
  [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

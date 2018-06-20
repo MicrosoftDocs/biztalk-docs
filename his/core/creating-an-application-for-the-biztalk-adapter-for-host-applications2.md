@@ -16,27 +16,27 @@ manager: "anneta"
 # Creating an Application for the BizTalk Adapter for Host Applications
 The following list describes the steps that you must follow to create an application that uses the BizTalk Adapter for Host Applications:  
   
-1.  Set your mainframe environment and communications protocols to run your application.  
+1. Set your mainframe environment and communications protocols to run your application.  
   
-2.  Create a Visual Studio solution to contain all the necessary BizTalk and Host Integration Server projects for your application.  
+2. Create a Visual Studio solution to contain all the necessary BizTalk and Host Integration Server projects for your application.  
   
-3.  Create a Transaction Integrator (TI) project that will hold the interface definition of the host application.  
+3. Create a Transaction Integrator (TI) project that will hold the interface definition of the host application.  
   
-     If necessary, you may modify the generated XML file to pass client context information.  
+    If necessary, you may modify the generated XML file to pass client context information.  
   
-4.  Create a BizTalk project that will hold your BizTalk application, using the created interface definition and associated schema.  
+4. Create a BizTalk project that will hold your BizTalk application, using the created interface definition and associated schema.  
   
-5.  Create your BizTalk application, using the ports and settings that were defined earlier.  
+5. Create your BizTalk application, using the ports and settings that were defined earlier.  
   
-6.  Associate the interface definition with the mainframe environment using TI Manager.  
+6. Associate the interface definition with the mainframe environment using TI Manager.  
   
-7.  Deploy the schema.  
+7. Deploy the schema.  
   
-8.  Build the BizTalk Server deployment MSI package.  
+8. Build the BizTalk Server deployment MSI package.  
   
- After you create the export package, you can move the solution to a staging or production server and import the package.  
+   After you create the export package, you can move the solution to a staging or production server and import the package.  
   
- For more information, see [Application Integration Programmer’s Guide](./application-integration-programmer’s-guide2.md).  
+   For more information, see [Application Integration Programmer’s Guide](./application-integration-programmer’s-guide2.md).  
   
 ## In This Section  
  [Mainframe Setup](../core/mainframe-setup2.md)  

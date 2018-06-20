@@ -17,28 +17,28 @@ manager: "anneta"
 # Create a channel using the SQL adapter
 In the WCF channel model, you invoke operations on the SQL Server database and receive the results by exchanging SOAP messages with the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] over a WCF channel.  
   
--   You invoke outbound operations by using either an **IRequestChannel** or an **IOutputChannel** to send messages to the adapter.  
+- You invoke outbound operations by using either an **IRequestChannel** or an **IOutputChannel** to send messages to the adapter.  
   
--   You receive messages for inbound operations by receiving messages over an **IInputChannel** for **Polling**, **TypedPolling**, or **Notification** operations.  
+- You receive messages for inbound operations by receiving messages over an **IInputChannel** for **Polling**, **TypedPolling**, or **Notification** operations.  
   
- The procedures in this topic provide information about how to create and configure channel shapes that are used for inbound and outbound operations.  
+  The procedures in this topic provide information about how to create and configure channel shapes that are used for inbound and outbound operations.  
   
 ## Creating Outbound (Client) Channels  
  You can use either an **IRequestChannel** or an **IOutputChannel** to invoke operations on the SQL Server database. In either case, you first create a **System.ServiceModel.ChannelFactory** using the appropriate interface. You then use the factory to create the channel. After you have created the channel you can use it to invoke operations on the adapter.  
   
 #### To create and open an outbound channel  
   
-1.  Create and initialize an instance of **ChannelFactory** for the desired channel shape by using an endpoint and a binding. The endpoint specifies a SQL Server connection URI and the binding is an instance of **sqlBinding**.  
+1. Create and initialize an instance of **ChannelFactory** for the desired channel shape by using an endpoint and a binding. The endpoint specifies a SQL Server connection URI and the binding is an instance of **sqlBinding**.  
   
-2.  Provide SQL Server credentials for the channel factory by using the **Credentials** property.  
+2. Provide SQL Server credentials for the channel factory by using the **Credentials** property.  
   
-3.  Open the channel factory.  
+3. Open the channel factory.  
   
-4.  Get an instance of the channel by invoking the **CreateChannel** method on the channel factory.  
+4. Get an instance of the channel by invoking the **CreateChannel** method on the channel factory.  
   
-5.  Open the channel.  
+5. Open the channel.  
   
- You can specify the binding and endpoint address in your code or from configuration.  
+   You can specify the binding and endpoint address in your code or from configuration.  
   
 ### Specifying the Binding and Endpoint Address in Code  
  The following code example shows how to create an **IRequestChannel** by specifying the binding and endpoint address in code. The code to create an **IOutputChannel** is the same except that you must specify an **IOutputChannel** interface for the **ChannelFactory** and channel type.  
@@ -120,19 +120,19 @@ channel.Open();
   
 #### To create and open an IInputChannel to receive inbound operations  
   
-1.  Create an instance of **SQLBinding**.  
+1. Create an instance of **SQLBinding**.  
   
-2.  Set the binding properties required for inbound operation. For example, for a **Polling** operation, at a minimum you must set the **InboundOperationType**, **PolledDataAvailableStatement**, and **PollingStatement** binding properties to configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to poll the SQL Server database.  
+2. Set the binding properties required for inbound operation. For example, for a **Polling** operation, at a minimum you must set the **InboundOperationType**, **PolledDataAvailableStatement**, and **PollingStatement** binding properties to configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to poll the SQL Server database.  
   
-3.  Create a channel listener by invoking **BuildChannelListener\<IInputChannel\>** method on the **SQLBinding**. You specify the SQL Server connection URI as one of the parameters to this method.  
+3. Create a channel listener by invoking **BuildChannelListener\<IInputChannel\>** method on the **SQLBinding**. You specify the SQL Server connection URI as one of the parameters to this method.  
   
-4.  Open the listener.  
+4. Open the listener.  
   
-5.  Get an **IInputChannel** channel by invoking the **AcceptChannel** method on listener.  
+5. Get an **IInputChannel** channel by invoking the **AcceptChannel** method on listener.  
   
-6.  Open the channel.  
+6. Open the channel.  
   
- The following code shows how to create a channel listener and get an **IInputChannel** to receive data-changed messages from the adapter.  
+   The following code shows how to create a channel listener and get an **IInputChannel** to receive data-changed messages from the adapter.  
   
 > [!IMPORTANT]
 >  The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] only supports one-way receive. So, you must use **IInputChannel** to receive messages for inbound operations from SQL Server.  

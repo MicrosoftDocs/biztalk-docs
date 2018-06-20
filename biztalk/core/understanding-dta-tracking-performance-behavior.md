@@ -17,15 +17,15 @@ manager: "anneta"
 # Understanding DTA Tracking Performance Behavior
 The primary factors that determine maximum sustainable throughput (MST) for DTA tracking are:  
   
--   The desired message throughput, that is, messages received per unit time, for the system.  
+- The desired message throughput, that is, messages received per unit time, for the system.  
   
--   How much data is being tracked for each message.  
+- How much data is being tracked for each message.  
   
--   How long the data is to live in the BizTalkDTADb database before being purged, that is, the data retention window.  
+- How long the data is to live in the BizTalkDTADb database before being purged, that is, the data retention window.  
   
--   Whether or not the BizTalkDTADb data is archived as well as purged. Archiving is optional but purging must be performed periodically.  
+- Whether or not the BizTalkDTADb data is archived as well as purged. Archiving is optional but purging must be performed periodically.  
   
- There is one thing that all of these factors have in common: the speed at which the DTA can accept and process (archive and purge) data.  
+  There is one thing that all of these factors have in common: the speed at which the DTA can accept and process (archive and purge) data.  
   
 ## How the BizTalkDTADb Insert and Processing Speed Affects Your System  
  Now, let’s walk through the tracking data pathway that is described in [Measuring Maximum Sustainable Tracking Throughput](../core/measuring-maximum-sustainable-tracking-throughput.md), and evaluate the affect of BizTalkDTADb insert and processing speed on the various components of the system.  

@@ -21,17 +21,17 @@ In this step, you create the schema used by a trigger event message. For example
   
 ### To create the project for the trigger event message  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the New Project dialog box, in the **Project Types** list, expand **BizTalk Projects**, and then click **BTAHL7Projects**.  
+2. In the New Project dialog box, in the **Project Types** list, expand **BizTalk Projects**, and then click **BTAHL7Projects**.  
   
-3.  In the **Templates** list, click **Empty BTAHL7 Project**.  
+3. In the **Templates** list, click **Empty BTAHL7 Project**.  
   
-4.  In the **Name** field, type **BTAHL7V24Body Project**, and then click **OK**.  
+4. In the **Name** field, type **BTAHL7V24Body Project**, and then click **OK**.  
   
-5.  In Solution Explorer, under the node for your new **BTAHL7V24Body** project, right-click **References**, and then click **Add Reference**.  
+5. In Solution Explorer, under the node for your new **BTAHL7V24Body** project, right-click **References**, and then click **Add Reference**.  
   
-6.  In the Add Reference dialog box, click the **Projects** tab, select **Interrogative_24Schemas**, click **Add**, and then click **OK**.  
+6. In the Add Reference dialog box, click the **Projects** tab, select **Interrogative_24Schemas**, click **Add**, and then click **OK**.  
   
 ## Step 3A: Add the Schemas  
  Use the following procedure to add the new schemas to the project.  
@@ -78,19 +78,19 @@ In this step, you create the schema used by a trigger event message. For example
   
 #### To assign a strong key and deploy the assembly  
   
-1.  In Solution Explorer, right-click **BTAHL7V24Body** project, and then click **Properties**.  
+1. In Solution Explorer, right-click **BTAHL7V24Body** project, and then click **Properties**.  
   
-2.  In the **BTAHL7V24Body Property Pages** dialog box, click **Assembly**.  
+2. In the **BTAHL7V24Body Property Pages** dialog box, click **Assembly**.  
   
-3.  In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.  
+3. In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.  
   
-4.  In the **Assembly Key File** dialog box, browse to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial, click **key.snk**, and then click **Open**.  
+4. In the **Assembly Key File** dialog box, browse to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial, click **key.snk**, and then click **Open**.  
   
-5.  In the **BTAHL7V24Body Property Pages** dialog box, click **OK** to save your changes.  
+5. In the **BTAHL7V24Body Property Pages** dialog box, click **OK** to save your changes.  
   
-6.  In Solution Explorer right-click **BTAHL7V24Body Project**, and then click **Deploy**. Ensure a success message appears in the output window.  
+6. In Solution Explorer right-click **BTAHL7V24Body Project**, and then click **Deploy**. Ensure a success message appears in the output window.  
   
-    > [!NOTE]
-    >  If a successful deploy message does not appear, use [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to troubleshoot your schemas.  
+   > [!NOTE]
+   >  If a successful deploy message does not appear, use [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to troubleshoot your schemas.  
   
- Proceed to [Step 4: Create the Receive Port for Accepting ADT Query Messages](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md).
+   Proceed to [Step 4: Create the Receive Port for Accepting ADT Query Messages](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md).

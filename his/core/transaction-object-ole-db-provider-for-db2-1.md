@@ -18,8 +18,8 @@ The **Transaction** object is created by a **Session** object. The **Transaction
   
  The following interfaces of the **Transaction** object are supported by the current version of Microsoft OLE DB Provider for DB2:  
   
--   **ISupportErrorInfo**  
+- **ISupportErrorInfo**  
   
--   **ITransaction**  
+- **ITransaction**  
   
- The current implementation of OLE DB Provider for DB2 services all OLE DB **Session**, **Command**, and **Rowset** objects present in a given instance of the **DataSource** object through a single Advanced Program-to-Program Communications (APPC) conversation or TCP/IP connection. One implication of this design is that if two **Rowset** objects, each created from a different OLE DB **Session** object, use explicit commitment control through the **ITransaction** interface, they will interfere with each other. When a **Commit** or **Abort** for one instance is invoked, all work for the **DataSource** object will be either committed or aborted. This may yield undesirable results. The work around to this problem is to instantiate two instances of the **DataSource** object.
+  The current implementation of OLE DB Provider for DB2 services all OLE DB **Session**, **Command**, and **Rowset** objects present in a given instance of the **DataSource** object through a single Advanced Program-to-Program Communications (APPC) conversation or TCP/IP connection. One implication of this design is that if two **Rowset** objects, each created from a different OLE DB **Session** object, use explicit commitment control through the **ITransaction** interface, they will interfere with each other. When a **Commit** or **Abort** for one instance is invoked, all work for the **DataSource** object will be either committed or aborted. This may yield undesirable results. The work around to this problem is to instantiate two instances of the **DataSource** object.

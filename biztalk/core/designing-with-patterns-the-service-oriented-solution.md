@@ -24,15 +24,15 @@ The service-oriented solution shows how to expose a BizTalk application as a ser
   
  The solution is a credit information application that provides the information as a Web service response, after aggregating relevant information from three other applications. The application consolidates the results and returns a single message containing the summarized credit information. The three back-end systems are as follows:  
   
--   **SAP Enterprise System.** The SAP back end provides the customer's overall credit limit. The solution communicates with this backend system using the SAP adapter in [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].  
+- **SAP Enterprise System.** The SAP back end provides the customer's overall credit limit. The solution communicates with this backend system using the SAP adapter in [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].  
   
--   **Pending Transactions System.** The Pending Transactions system reports the total amount of transactions outstanding against the account. The solution uses Microsoft Host Integration Server (HIS) to communicate with the mainframe from Windows Server. It also uses the Transaction Integrator technology of HIS. These enable the system to interact with the mainframe as a Web service. The BizTalk orchestration consumes this Web service.  
+- **Pending Transactions System.** The Pending Transactions system reports the total amount of transactions outstanding against the account. The solution uses Microsoft Host Integration Server (HIS) to communicate with the mainframe from Windows Server. It also uses the Transaction Integrator technology of HIS. These enable the system to interact with the mainframe as a Web service. The BizTalk orchestration consumes this Web service.  
   
--   **Payment Tracking System.** The Payment Tracking system reports the last payment the individual made. This system uses MQSeries.  
+- **Payment Tracking System.** The Payment Tracking system reports the last payment the individual made. This system uses MQSeries.  
   
- As you may recall from the overview of the solution, you can also use a non-Web service interface through MQSeries queues. (For more information about the general structure of the application, see [Understanding the Service Oriented Solution](../core/understanding-the-service-oriented-solution.md)). Although Web services are the most common way to construct service oriented architectures, not all applications can use them. With BizTalk Server solutions you can provide, along with Web services, alternate ways for legacy applications to use the service.  
+  As you may recall from the overview of the solution, you can also use a non-Web service interface through MQSeries queues. (For more information about the general structure of the application, see [Understanding the Service Oriented Solution](../core/understanding-the-service-oriented-solution.md)). Although Web services are the most common way to construct service oriented architectures, not all applications can use them. With BizTalk Server solutions you can provide, along with Web services, alternate ways for legacy applications to use the service.  
   
- The MQSeries access simulates how a legacy interactive voice response system might use the solution. The MQSeries access, along with the Web service access, shows how a single solution can be used by both legacy applications and new applications.  
+  The MQSeries access simulates how a legacy interactive voice response system might use the solution. The MQSeries access, along with the Web service access, shows how a single solution can be used by both legacy applications and new applications.  
   
 ## Patterns Used in the Service Oriented Solution  
  The following diagram shows a simplified version of the patterns in the service-oriented solution.  

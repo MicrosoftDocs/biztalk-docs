@@ -29,7 +29,7 @@ Use the BizTalk Server Administration console to configure transport advanced op
 > Consider six messages: M1, M2, M3, M4, M5, and M6. M1, M3, M5 are meant for a file location. M2, M4, and M6 are meant for FTP. The ordered delivery dynamic send port makes sure that M1, M3, and M5 are ordered; and M2, M4, and M6 are ordered respectively. 
 > 
 > For those adapter types that don't support ordered delivery, there aren't any dynamic send port properties available to configure. Their transport options are automatically determined at run time.  
->
+> 
 > **For previous BizTalk versions** that use dynamic ports, there aren't any properties available to configure because the transport options are automatically determined at run time.
 
   

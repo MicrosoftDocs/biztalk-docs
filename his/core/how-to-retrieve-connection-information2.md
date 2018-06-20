@@ -18,13 +18,13 @@ Another common task you may want to perform with Windows Management Instrumentat
   
 ### To retrieve connection information  
   
-1.  Connect to the namespace using **GetObject** with a moniker in the parameter.  
+1. Connect to the namespace using **GetObject** with a moniker in the parameter.  
   
-2.  Retrieve all connection information objects using **ExecQuery**.  
+2. Retrieve all connection information objects using **ExecQuery**.  
   
-3.  Display the information as appropriate.  
+3. Display the information as appropriate.  
   
- The following code sample shows how to retrieve information about an SDLC connection:  
+   The following code sample shows how to retrieve information about an SDLC connection:  
   
 ```  
 On Error Resume Next  

@@ -24,23 +24,23 @@ In the process of developing an assembly, you often need to deploy, test, modify
   
  When redeploying an assembly, bear in mind the following important points:  
   
--   **You must install the new assembly in the GAC.** When you redeploy an assembly, you must always install the new version of the assembly in the GAC, as described in [How to Install an Assembly in the GAC](../core/how-to-install-an-assembly-in-the-gac.md). You can do this after you redeploy it.  
+- **You must install the new assembly in the GAC.** When you redeploy an assembly, you must always install the new version of the assembly in the GAC, as described in [How to Install an Assembly in the GAC](../core/how-to-install-an-assembly-in-the-gac.md). You can do this after you redeploy it.  
   
--   **You should always redeploy at the solution level when there are dependencies.** If you have multiple assemblies in a solution, and one or more assemblies in the solution has a dependency on the assembly that you want to redeploy, you should redeploy your assemblies at the solution level. This is because when you redeploy an assembly at the project level, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will stop, unenlist, unbind, and remove the artifacts in all assemblies that either depend on this assembly on upon which this assembly depends. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will not take the additional steps to deploy, bind, enlist, and start the artifacts. When you redeploy the entire solution, however, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] automatically takes the steps required to undeploy and redeploy all of the artifacts in the solution based on their dependencies.  
+- **You should always redeploy at the solution level when there are dependencies.** If you have multiple assemblies in a solution, and one or more assemblies in the solution has a dependency on the assembly that you want to redeploy, you should redeploy your assemblies at the solution level. This is because when you redeploy an assembly at the project level, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will stop, unenlist, unbind, and remove the artifacts in all assemblies that either depend on this assembly on upon which this assembly depends. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will not take the additional steps to deploy, bind, enlist, and start the artifacts. When you redeploy the entire solution, however, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] automatically takes the steps required to undeploy and redeploy all of the artifacts in the solution based on their dependencies.  
   
--   **You may need to manually redeploy dependent assemblies.** [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] always undeploys dependent assemblies, but in the following cases, you must take the additional steps to deploy, bind, and enlist the artifacts in each dependent assembly after redeploying the assembly on which the assembly depends:  
+- **You may need to manually redeploy dependent assemblies.** [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] always undeploys dependent assemblies, but in the following cases, you must take the additional steps to deploy, bind, and enlist the artifacts in each dependent assembly after redeploying the assembly on which the assembly depends:  
   
-    -   If you redeploy an assembly at the project level and another assembly in the same solution depends on it.  
+  - If you redeploy an assembly at the project level and another assembly in the same solution depends on it.  
   
-    -   If you redeploy an assembly at the solution level, but a dependent assembly exists in a different solution.  
+  - If you redeploy an assembly at the solution level, but a dependent assembly exists in a different solution.  
   
-     For example, if you were to redeploy only Assembly 3 shown in the following diagram, following redeployment you would need to deploy, bind, and enlist the artifacts in Assembly 2, and then deploy, bind, and enlist the artifacts in Assembly 1.  
+    For example, if you were to redeploy only Assembly 3 shown in the following diagram, following redeployment you would need to deploy, bind, and enlist the artifacts in Assembly 2, and then deploy, bind, and enlist the artifacts in Assembly 1.  
   
-     ![Assemblies with dependencies](../core/media/assemblydependencies.gif "AssemblyDependencies")  
+    ![Assemblies with dependencies](../core/media/assemblydependencies.gif "AssemblyDependencies")  
   
-     An alternative approach is to avoid unnecessary deployment of core assemblies that have not changed.  For example in the diagram above, if there are other assemblies that depend on Assembly 2 and Assembly 3 and neither of these assemblies have been updated.  Uncheck the **Deploy** option in configuration manager for the Assembly 2 and the Assembly 3 projects. This way external assemblies that depended on them will not be undeployed requiring redeployment. For more information, see [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md).  
+    An alternative approach is to avoid unnecessary deployment of core assemblies that have not changed.  For example in the diagram above, if there are other assemblies that depend on Assembly 2 and Assembly 3 and neither of these assemblies have been updated.  Uncheck the **Deploy** option in configuration manager for the Assembly 2 and the Assembly 3 projects. This way external assemblies that depended on them will not be undeployed requiring redeployment. For more information, see [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md).  
   
--   **You must restart host instances.** When you redeploy an assembly that contains an orchestration without changing the assembly version number, the existing assembly is overwritten in the BizTalk Management database. Before the change will take effect, however, you must restart each host instance of the host to which the orchestration is bound. You can specify the option that all host instances on the local computer restart automatically when you redeploy an assembly. For instructions, see [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). You can also manually stop and start each host instance, as described in [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md) and [How to Start a Host Instance](../core/how-to-start-a-host-instance.md).  
+- **You must restart host instances.** When you redeploy an assembly that contains an orchestration without changing the assembly version number, the existing assembly is overwritten in the BizTalk Management database. Before the change will take effect, however, you must restart each host instance of the host to which the orchestration is bound. You can specify the option that all host instances on the local computer restart automatically when you redeploy an assembly. For instructions, see [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). You can also manually stop and start each host instance, as described in [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md) and [How to Start a Host Instance](../core/how-to-start-a-host-instance.md).  
   
 > [!IMPORTANT]
 >  Because the Redeploy option bypasses version control, we recommend that you use it only during development.  
@@ -52,11 +52,11 @@ In the process of developing an assembly, you often need to deploy, test, modify
   
 #### Using Visual Studio Solution Explorer  
   
-1.  Ensure that the Redeploy option is enabled in Deployment properties for each project in the solution, as described in [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). This option is enabled by default.  
+1. Ensure that the Redeploy option is enabled in Deployment properties for each project in the solution, as described in [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md). This option is enabled by default.  
   
-2.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click a BizTalk solution, and then click **Deploy**.  
+2. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click a BizTalk solution, and then click **Deploy**.  
   
-     The assemblies in the solution are deployed into the specified BizTalk application. The status of the build and deployment process displays in the lower left corner of the page.  
+    The assemblies in the solution are deployed into the specified BizTalk application. The status of the build and deployment process displays in the lower left corner of the page.  
   
 #### Using the Visual Studio command prompt  
   

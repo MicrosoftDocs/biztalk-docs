@@ -46,43 +46,43 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extends the capabilitie
 ## Core capabilities  
  The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extends the functionality of BizTalk Server to provide a range of new capabilities focused on building robust, connected, service-oriented applications. The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] treats BizTalk Server components as individual units of work that can be connected, as desired, to form loosely coupled solutions. The following are some of the core capabilities that the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] provides to enhance the capabilities of BizTalk Server:  
   
--   **Policy driven mediation.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
+- **Policy driven mediation.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
   
-    -   It provides itinerary-based routing that supports lightweight service composition at the time of message publication. This approach allows dynamic discovery of service endpoints and mediation requirements for message routing using a service registry or the business rules policy.  
+  - It provides itinerary-based routing that supports lightweight service composition at the time of message publication. This approach allows dynamic discovery of service endpoints and mediation requirements for message routing using a service registry or the business rules policy.  
   
-    -   It adds support for policy centralization for itinerary-based routing using server-side itineraries that are dynamically resolved and added to the message context after a message is received. Managing itineraries in a central location enables the processing of messages from clients that are completely unaware of how their requests are being routed.  
+  - It adds support for policy centralization for itinerary-based routing using server-side itineraries that are dynamically resolved and added to the message context after a message is received. Managing itineraries in a central location enables the processing of messages from clients that are completely unaware of how their requests are being routed.  
   
-    -   It uses an enhanced version of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework, which enables dynamic resolution of endpoints and transformation requirements; this effectively decouples the consumer from the services.  
+  - It uses an enhanced version of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Resolver and Adapter Provider Framework, which enables dynamic resolution of endpoints and transformation requirements; this effectively decouples the consumer from the services.  
   
--   **Connecting systems.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
+- **Connecting systems.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
   
-    -   It provides pipeline components that normalize XML message namespaces.  
+  -   It provides pipeline components that normalize XML message namespaces.  
   
-    -   It integrates with JMS through the WebSphere MQ adapter for BizTalk Server.  
+  -   It integrates with JMS through the WebSphere MQ adapter for BizTalk Server.  
   
-    -   It facilitates message exchange patterns that enable dynamic service aggregation, message routing, message validation, and message transformation.  
+  -   It facilitates message exchange patterns that enable dynamic service aggregation, message routing, message validation, and message transformation.  
   
-    -   It supports service endpoint discovery from registry and repository integration using UDDI 3.0.  
+  -   It supports service endpoint discovery from registry and repository integration using UDDI 3.0.  
   
-    -   It supports message routing through line-of-business (LOB) adapters by using the WCF-Custom BizTalk Adapter for BizTalk Server.  
+  -   It supports message routing through line-of-business (LOB) adapters by using the WCF-Custom BizTalk Adapter for BizTalk Server.  
   
--   **Management and monitoring.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
+- **Management and monitoring.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
   
-    -   It provides exception management framework and tools.  
+  -   It provides exception management framework and tools.  
   
-    -   It facilitates message repair and resubmission using a management portal, shipped as a sample application. This Web application also supports customizable e-mail notifications when a specific error occurs.  
+  -   It facilitates message repair and resubmission using a management portal, shipped as a sample application. This Web application also supports customizable e-mail notifications when a specific error occurs.  
   
-    -   It allows BizTalk Server endpoint and registry integration, management, and publication.  
+  -   It allows BizTalk Server endpoint and registry integration, management, and publication.  
   
-    -   It provides a centralized repository of versioned server-side itineraries.  
+  -   It provides a centralized repository of versioned server-side itineraries.  
   
-    -   It supports reporting and analytics for BizTalk Server applications.  
+  -   It supports reporting and analytics for BizTalk Server applications.  
   
-    -   It includes Business Activity Monitoring components to track itinerary service execution, including start time, end time, and service mediation sequence.  
+  -   It includes Business Activity Monitoring components to track itinerary service execution, including start time, end time, and service mediation sequence.  
   
--   **SOA governance.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
+- **SOA governance.** The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] does the following:  
   
-    -   It integrates with third-party SOA governance solutions, including embedded management agents for BizTalk Server from AmberPoint and SOA Software.  
+  -   It integrates with third-party SOA governance solutions, including embedded management agents for BizTalk Server from AmberPoint and SOA Software.  
 
 > [!TIP]
 > [Understanding BizTalk Server](../core/understanding-biztalk-server.md) provides more details on the messaging engine, and more.

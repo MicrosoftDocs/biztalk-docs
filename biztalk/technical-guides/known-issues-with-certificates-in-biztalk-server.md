@@ -26,7 +26,7 @@ This section describes known issues with managing digital certificates used with
 ### The Other People Certificate store is not initialized until accessed  
  This issue involves the following certificate store error when you try to add or modify send/receive ports/locations using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrator console remotely: “Could not open certificate store.” and “The system cannot find the file specified. (System)”.  
   
-> [!NOTE]  
+> [!NOTE]
 >  You can modify these artifacts using the administration console if you log on directly to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
  On a newly installed computer, the **Other People Certificate** store is not initialized unless you access it once. During the group configuration, you can initialize this **Other People Certificate** store, and as a result not see this error on a computer on which group configuration has been done.  

@@ -33,17 +33,17 @@ To undeploy an adapter from a computer, the user needs to perform the following 
   
 #### Use the command line  
   
-1.  Open a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt.  
+1. Open a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt.  
   
-2.  At the command prompt, type the following command:  
+2. At the command prompt, type the following command:  
   
-     **gacutil /u** \<*fully qualified**assembly name*\>  
+    **gacutil /u** \<*fully qualified*<em>assembly name</em>\>  
   
-     In this command, the assembly name is the name of the assembly to uninstall from the GAC.  
+    In this command, the assembly name is the name of the assembly to uninstall from the GAC.  
   
-     The following example removes an assembly named hello.dll from the GAC.  
+    The following example removes an assembly named hello.dll from the GAC.  
   
-     `gacutil /u "MyAdapter,Version=1.0.0.0, Culture=neutral, PublicKeyToken=fafafafafafafafa"`
+    `gacutil /u "MyAdapter,Version=1.0.0.0, Culture=neutral, PublicKeyToken=fafafafafafafafa"`
   
 ## Remove the Adapter Binding from the Machine.config File  
  You can manually edit the machine.config file to remove the adapter binding, or use the Service Configuration Editor. This section lists both steps. 

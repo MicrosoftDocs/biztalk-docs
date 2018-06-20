@@ -35,15 +35,15 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  When you start the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] loads the adapter bindings for all the installed adapters. In turn, the adapter bindings are dependent on the specific client software for the enterprise application. You might face this issue for one or both of the following reasons:  
   
--   The required LOB client software is not installed on the computer where you installed the adapter.  
+- The required LOB client software is not installed on the computer where you installed the adapter.  
   
--   You did a Typical or Complete installation of the adapter, which installs all the adapters contained in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. However, the LOB client libraries might be installed for only one enterprise application. As a result, the GUI fails to load the bindings for the other adapters.  
+- You did a Typical or Complete installation of the adapter, which installs all the adapters contained in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. However, the LOB client libraries might be installed for only one enterprise application. As a result, the GUI fails to load the bindings for the other adapters.  
   
- **Resolution**  
+  **Resolution**  
   
--   Make sure you do a Custom installation of the adapters to install only the adapter you need.  
+- Make sure you do a Custom installation of the adapters to install only the adapter you need.  
   
--   Make sure the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. [Supported LOB systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported versions. The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] also requires certain DLLs to interface with the SAP system. For more information about the DLLs required by the adapter, see [Install Custom RFCs for the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).
+- Make sure the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. [Supported LOB systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported versions. The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] also requires certain DLLs to interface with the SAP system. For more information about the DLLs required by the adapter, see [Install Custom RFCs for the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).
   
 ##  <a name="BKMK_SAPDisplay"></a> The SAP adapter is missing in BizTalk Administration console  
  **Problem**  
@@ -89,21 +89,21 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
   
  You can fix this issue by setting the `maxItemsInObjectGraph` parameter in either of the following two ways:  
   
--   Set this parameter by changing the `maxItemsInObjectGraph` parameter in the `ServiceBehavior` attribute on your service class.  
+- Set this parameter by changing the `maxItemsInObjectGraph` parameter in the `ServiceBehavior` attribute on your service class.  
   
--   Add the following to your application's app.config file.  
+- Add the following to your application's app.config file.  
   
-    ```  
-    <behaviors>  
-      <endpointBehaviors>  
-        <behavior name="NewBehavior">  
-          <dataContractSerializer maxItemsInObjectGraph="65536000" />  
-        </behavior>  
-      </endpointBehaviors>  
-    </behaviors>  
-    ```  
+  ```  
+  <behaviors>  
+    <endpointBehaviors>  
+      <behavior name="NewBehavior">  
+        <dataContractSerializer maxItemsInObjectGraph="65536000" />  
+      </behavior>  
+    </endpointBehaviors>  
+  </behaviors>  
+  ```  
   
- A sample app.config will look like the following.  
+  A sample app.config will look like the following.  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -209,11 +209,11 @@ ERROR       max no of 100 conversations exceeded
   
  To increase the maximum number of connections, you must create an environment variable on the computer that has the SAP client libraries installed and set it to a numeric value. The value you specify for this environment variable is the maximum number of connections that can be made into the SAP system. Create the environment variable with the following details:  
   
--   **Variable name**: CPIC_MAX_CONV  
+- **Variable name**: CPIC_MAX_CONV  
   
--   **Variable value**: any positive numeric value. For example, to enable 200 connections into the SAP system, specify the value as 200.  
+- **Variable value**: any positive numeric value. For example, to enable 200 connections into the SAP system, specify the value as 200.  
   
- For instructions on creating an environment variable, see "How To Create System Variables in Windows 2000" at [http://go.microsoft.com/fwlink/?LinkId=95020](http://go.microsoft.com/fwlink/?LinkId=95020).  
+  For instructions on creating an environment variable, see "How To Create System Variables in Windows 2000" at [http://go.microsoft.com/fwlink/?LinkId=95020](http://go.microsoft.com/fwlink/?LinkId=95020).  
   
 ##  <a name="BKMK_SAPIDOCMetadata"></a> Error generating or retrieving metadata for IDOCs  
  **Problem**  
@@ -290,17 +290,17 @@ System.Exception: Loading property information list by namespace failed or prope
   
 #### Add an assembly as a resource in BizTalk application  
   
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  In the console tree, expand **BizTalk Group**, expand **Applications**, and then the application to which you want to add a BizTalk assembly.  
+2. In the console tree, expand **BizTalk Group**, expand **Applications**, and then the application to which you want to add a BizTalk assembly.  
   
-3.  Expand **Applications** and the application to which you want to add a BizTalk assembly.  
+3. Expand **Applications** and the application to which you want to add a BizTalk assembly.  
   
-4.  Right-click **Resources**, point to **Add**, and then click **BizTalk Assemblies**.  
+4. Right-click **Resources**, point to **Add**, and then click **BizTalk Assemblies**.  
   
-5.  Click **Add**, navigate to the folder containing the BizTalk assembly file, select the BizTalk assembly file, and then click **Open**.  
+5. Click **Add**, navigate to the folder containing the BizTalk assembly file, select the BizTalk assembly file, and then click **Open**.  
   
-6.  In **Options**, specify the options for installing the BizTalk assembly to the GAC, and then click **OK**.  
+6. In **Options**, specify the options for installing the BizTalk assembly to the GAC, and then click **OK**.  
   
 ##  <a name="BKMK_SAPIDOCValidate"></a> Error in validation while receiving IDOCs from an SAP system  
  **Problem**  
@@ -335,9 +335,9 @@ Reason: The document failed to validate because of the following error:
   
  In the schema used to convert the flat-file to XML and vice-versa, within the "Send" or "Receive" node definition, do the following:  
   
-1.  Set the **suppress_empty_nodes** property to **false** and set the **generate_empty_nodes** property to **true**. By default, the **suppress_empty_nodes** property is set to **true** and the **generate_empty_nodes** property is set to **false**, and hence all empty nodes are not reflected in the XML.  
+1. Set the **suppress_empty_nodes** property to **false** and set the **generate_empty_nodes** property to **true**. By default, the **suppress_empty_nodes** property is set to **true** and the **generate_empty_nodes** property is set to **false**, and hence all empty nodes are not reflected in the XML.  
   
-2.  The flat-file may contain an extra carriage return at the end. You can set the **suppress_trailing_delimiters** property to **Yes** to avoid this extra carriage return. This property is also exposed as the **Suppress Trailing Delimiters** property if you open the schema in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
+2. The flat-file may contain an extra carriage return at the end. You can set the **suppress_trailing_delimiters** property to **Yes** to avoid this extra carriage return. This property is also exposed as the **Suppress Trailing Delimiters** property if you open the schema in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
 ##  <a name="BKMK_SAPAction"></a> Incorrect Action error using a physical port creating with a binding file  
  **Problem**  
@@ -450,13 +450,13 @@ The element 'bindings' has invalid child element 'sapBinding'. List of possible 
   
  This happens because of either of the following:  
   
--   You have generated more than one schema of a generic operation (such as SendIdoc and ReceiveIdoc) in a BizTalk Server project, deployed it to a BizTalk Server application, and then ran the application to perform respective operations on an SAP system. Because the schemas are common, there is a conflict between the schemas that are deployed in the BizTalk Server application.  
+- You have generated more than one schema of a generic operation (such as SendIdoc and ReceiveIdoc) in a BizTalk Server project, deployed it to a BizTalk Server application, and then ran the application to perform respective operations on an SAP system. Because the schemas are common, there is a conflict between the schemas that are deployed in the BizTalk Server application.  
   
--   In case of multiple projects, you have generated a generic operation schema for each of the BizTalk Server projects, deployed each project to a separate BizTalk Server application on the same host, and then ran an application or applications to perform respective operations on an SAP system. Because the schemas and assemblies are accessible across the applications in BizTalk Server, there is a conflict between the common schemas deployed under various BizTalk Server applications and assemblies.  
+- In case of multiple projects, you have generated a generic operation schema for each of the BizTalk Server projects, deployed each project to a separate BizTalk Server application on the same host, and then ran an application or applications to perform respective operations on an SAP system. Because the schemas and assemblies are accessible across the applications in BizTalk Server, there is a conflict between the common schemas deployed under various BizTalk Server applications and assemblies.  
   
- **Resolution**  
+  **Resolution**  
   
- Use a single generic operation schema file for a BizTalk Server application. If you need to use a generic operation schema in multiple BizTalk Server applications on the same host, create an application containing a single generic operation schema, and then use the generic operation schema from all other applications in BizTalk Server.  
+  Use a single generic operation schema file for a BizTalk Server application. If you need to use a generic operation schema in multiple BizTalk Server applications on the same host, create an application containing a single generic operation schema, and then use the generic operation schema from all other applications in BizTalk Server.  
   
 ## See Also  
 [Troubleshoot the SAP adapter](../../adapters-and-accelerators/adapter-sap/troubleshoot-the-sap-adapter.md)

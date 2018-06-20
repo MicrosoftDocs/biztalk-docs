@@ -23,46 +23,46 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 ## Deploy adapters to send messages to Oracle Database  
   
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  Add the WCF-OracleDB adapter to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For instructions, see [Adding the Oracle Database Adapter to BizTalk Server Administration Console](../../adapters-and-accelerators/adapter-oracle-database/adding-the-oracle-database-adapter-to-biztalk-server-administration-console.md).  
+2. Add the WCF-OracleDB adapter to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For instructions, see [Adding the Oracle Database Adapter to BizTalk Server Administration Console](../../adapters-and-accelerators/adapter-oracle-database/adding-the-oracle-database-adapter-to-biztalk-server-administration-console.md).  
   
-3.  In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
+3. In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
   
-4.  Expand the application under which you want to deploy the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
+4. Expand the application under which you want to deploy the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
   
-5.  Right-click **Send Ports**, point to **New**, and then point to the type of port you want to configure depending on the mode of communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and the Oracle database.  
+5. Right-click **Send Ports**, point to **New**, and then point to the type of port you want to configure depending on the mode of communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and the Oracle database.  
   
-6.  In the **Send Port Properties** dialog box, on the **General** tab, type a name for the send port.  
+6. In the **Send Port Properties** dialog box, on the **General** tab, type a name for the send port.  
   
-7.  From the **Type** drop-down list, select WCF-OracleDB, and then click **Configure**.  
+7. From the **Type** drop-down list, select WCF-OracleDB, and then click **Configure**.  
   
-8.  In the transport properties dialog box, do the following:  
+8. In the transport properties dialog box, do the following:  
   
-    1.  Click the **General** tab, click the **Configure** button and provide values for the connection parameters. For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
+   1. Click the **General** tab, click the **Configure** button and provide values for the connection parameters. For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) for a list of actions for each operation. For example, the action to invoke the Insert operation an EMPLOYEE table under the HR schema in an Oracle database is:  
+   2. On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) for a list of actions for each operation. For example, the action to invoke the Insert operation an EMPLOYEE table under the HR schema in an Oracle database is:  
   
-        ```  
-        http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEE/Select  
-        ```  
+      ```  
+      http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEE/Select  
+      ```  
   
-    3.  Click the **Binding** tab and specify values for the binding properties exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. For more information about binding properties, see [Read about the Oracle Database adapter binding properties](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md).
+   3. Click the **Binding** tab and specify values for the binding properties exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. For more information about binding properties, see [Read about the Oracle Database adapter binding properties](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md).
   
-        > [!NOTE]
-        >  The binding properties are displayed based on whether you are configuring a send port or a receive port. For example, binding properties related to notifications are not available while configuring a send port because notifications are inbound operations and require a receive port configuration.  
+      > [!NOTE]
+      >  The binding properties are displayed based on whether you are configuring a send port or a receive port. For example, binding properties related to notifications are not available while configuring a send port because notifications are inbound operations and require a receive port configuration.  
   
-    4.  Click the **Credentials** tab, and then do one of the following:  
+   4. Click the **Credentials** tab, and then do one of the following:  
   
-        -   Select the **Do not use Single Sign-On** option, and specify the user name and password to connect to the Oracle database.  
+      -   Select the **Do not use Single Sign-On** option, and specify the user name and password to connect to the Oracle database.  
   
-            -   To connect using the Oracle database credentials, type the database credentials in the **User name** and **Password** text boxes.  
+          -   To connect using the Oracle database credentials, type the database credentials in the **User name** and **Password** text boxes.  
   
-            -   To connect using Windows Authentication, type **/** in the **User name** text box and leave the **Password** text box blank.  
+          -   To connect using Windows Authentication, type **/** in the **User name** text box and leave the **Password** text box blank.  
   
-        -   Select the **Use Single Sign-On** option, and specify an affiliate Enterprise Single Sign-on (SSO) application.  
+      -   Select the **Use Single Sign-On** option, and specify an affiliate Enterprise Single Sign-on (SSO) application.  
   
-    5.  To return to the **Send Port Properties** dialog box, click **OK**.  
+   5. To return to the **Send Port Properties** dialog box, click **OK**.  
   
 9. From the **Send handler** list, select **BizTalkServerApplication**.  
   
@@ -78,48 +78,48 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 ## Deploy adapters to receive messages from Oracle Database  
   
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  Add the WCF-OracleDB adapter to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For instructions, see [Adding the Oracle Database Adapter to BizTalk Server Administration Console](../../adapters-and-accelerators/adapter-oracle-database/adding-the-oracle-database-adapter-to-biztalk-server-administration-console.md).  
+2. Add the WCF-OracleDB adapter to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For instructions, see [Adding the Oracle Database Adapter to BizTalk Server Administration Console](../../adapters-and-accelerators/adapter-oracle-database/adding-the-oracle-database-adapter-to-biztalk-server-administration-console.md).  
   
-3.  In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
+3. In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
   
-4.  Expand the application under which you want to deploy the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
+4. Expand the application under which you want to deploy the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
   
-5.  Right-click **Receive Ports**, point to **New**, and click **One-way Receive Port** or **Request Response Receive Port**, depending on the mode of communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and the Oracle database.  
+5. Right-click **Receive Ports**, point to **New**, and click **One-way Receive Port** or **Request Response Receive Port**, depending on the mode of communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and the Oracle database.  
   
-6.  In the **Receive Port Properties** dialog box, on the **General** tab, type a name for the receive port.  
+6. In the **Receive Port Properties** dialog box, on the **General** tab, type a name for the receive port.  
   
-7.  On the **Receive Locations** tab, click **New**. The **Receive Location Properties** dialog box appears.  
+7. On the **Receive Locations** tab, click **New**. The **Receive Location Properties** dialog box appears.  
   
-8.  In the **Receive Location Properties** dialog box, do the following:  
+8. In the **Receive Location Properties** dialog box, do the following:  
   
-    1.  Specify a name for the receive location.  
+   1.  Specify a name for the receive location.  
   
-    2.  From the **Type** drop-down list, select WCF-OracleDB, and then click **Configure**.  
+   2.  From the **Type** drop-down list, select WCF-OracleDB, and then click **Configure**.  
   
 9. In the transport properties dialog box, do the following:  
   
-    1.  Click the **General** tab, click the **Configure** button, and provide values for the connection parameters. For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
+   1. Click the **General** tab, click the **Configure** button, and provide values for the connection parameters. For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
   
-    2.  Click the **Binding** tab and specify values for binding properties exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. For more information about binding properties, see [Read about the Oracle Database adapter binding properties](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md).
+   2. Click the **Binding** tab and specify values for binding properties exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. For more information about binding properties, see [Read about the Oracle Database adapter binding properties](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md).
   
-        > [!NOTE]
-        >  The binding properties are displayed based on whether you are configuring a send port or a receive port. For example, binding properties related to notifications are not available while configuring a send port because notifications are inbound operations and require a receive port configuration.  
+      > [!NOTE]
+      >  The binding properties are displayed based on whether you are configuring a send port or a receive port. For example, binding properties related to notifications are not available while configuring a send port because notifications are inbound operations and require a receive port configuration.  
   
-    3.  Click the **Behavior** tab to set the transaction isolation level. For more information about setting transaction isolation level, see [Configure transaction isolation level and transaction timeout](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md).  
+   3. Click the **Behavior** tab to set the transaction isolation level. For more information about setting transaction isolation level, see [Configure transaction isolation level and transaction timeout](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md).  
   
-    4.  Click the **Others** tab, and do one of the following:  
+   4. Click the **Others** tab, and do one of the following:  
   
-        -   Select **User account** option, and specify the user name and password to connect to the Oracle database.  
+      -   Select **User account** option, and specify the user name and password to connect to the Oracle database.  
   
-            -   To connect using the Oracle database credentials, type the database credentials in the **User name** and **Password** text boxes.  
+          -   To connect using the Oracle database credentials, type the database credentials in the **User name** and **Password** text boxes.  
   
-            -   To connect using Windows Authentication, type **/** in the **User name** text box and leave the **Password** text box blank.  
+          -   To connect using Windows Authentication, type **/** in the **User name** text box and leave the **Password** text box blank.  
   
-        -   Select **Get credentials from affiliate application** option, and specify an affiliate SSO application.  
+      -   Select **Get credentials from affiliate application** option, and specify an affiliate SSO application.  
   
-    5.  To return to the **Receive Location Properties** dialog box, click **OK**.  
+   5. To return to the **Receive Location Properties** dialog box, click **OK**.  
   
 10. From the **Receive handler** drop-down list, select **BizTalkServerApplication**.  
   

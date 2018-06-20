@@ -24,17 +24,17 @@ Use a remote environment (RE) to describe each CICS or IMS mainframe environment
   
 ### To select a different code page for an RE  
   
-1.  On the **Start** menu, point to **Programs**, then **Microsoft Host Integration Server**, and then click **TI Manager**.  
+1. On the **Start** menu, point to **Programs**, then **Microsoft Host Integration Server**, and then click **TI Manager**.  
   
-2.  Expand the **Remote Environments** node.  
+2. Expand the **Remote Environments** node.  
   
-3.  Right-click the remote environment to be modified, and then click **Properties**.  
+3. Right-click the remote environment to be modified, and then click **Properties**.  
   
-4.  On the **Locale** tab, clear the check box **Use default code page for the selected locale**.  
+4. On the **Locale** tab, clear the check box **Use default code page for the selected locale**.  
   
-5.  On the **Locale** tab, select the new code page from the **Code page** dropdown list.  
+5. On the **Locale** tab, select the new code page from the **Code page** dropdown list.  
   
- Only the code page value is significant to the TI run-time environment when it converts character data. Although you can use the locale displayed on the **Locale** property page to select the code page, the TI run-time environment ignores it and uses only the code page value that is associated with that locale.  
+   Only the code page value is significant to the TI run-time environment when it converts character data. Although you can use the locale displayed on the **Locale** property page to select the code page, the TI run-time environment ignores it and uses only the code page value that is associated with that locale.  
   
 ## See Also  
  [Mainframe Character Strings and Code Pages](../core/mainframe-character-strings-and-code-pages2.md)

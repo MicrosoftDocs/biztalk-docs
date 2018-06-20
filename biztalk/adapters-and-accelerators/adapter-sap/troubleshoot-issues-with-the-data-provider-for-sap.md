@@ -46,15 +46,15 @@ Microsoft.Data.SAPClient.SAPException: Failed to retrieve data from SAP server -
   
  By default, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] retrieves 10,000 rows at a time. Also, each batch of rows retrieved from the SAP system is stored in the memory. So,  
   
--   If the table from which data is being retrieved contains a large number of rows, or  
+- If the table from which data is being retrieved contains a large number of rows, or  
   
--   If the table contains columns of data types that consume a significant amount of memory,  
+- If the table contains columns of data types that consume a significant amount of memory,  
   
- The memory consumption by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] increases significantly and may result in an out of memory exception.  
+  The memory consumption by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] increases significantly and may result in an out of memory exception.  
   
- **Resolution**  
+  **Resolution**  
   
- You can change the maximum number of rows retrieved from the SAP system. You can do so by specifying a 'batchsize' option with the SELECT statement. For example:  
+  You can change the maximum number of rows retrieved from the SAP system. You can do so by specifying a 'batchsize' option with the SELECT statement. For example:  
   
 ```  
 SELECT * FROM <tablename> OPTION 'batchsize 1000'  
@@ -98,23 +98,23 @@ AdapterErrorMessage=Error returned by RfcCallReceiveEx while calling RFC: <RFC n
   
  There can be two probable causes for this exception:  
   
-1.  The query you are trying to execute has variants defined in the SAP system. Variants refer to a saved set of selection criteria that you can specify while executing an SAP query. For example, you can use variants to specify default values for queries.  
+1. The query you are trying to execute has variants defined in the SAP system. Variants refer to a saved set of selection criteria that you can specify while executing an SAP query. For example, you can use variants to specify default values for queries.  
   
-2.  The query you are trying to execute neither has a variant defined nor it expects a parameter value to be passed.  
+2. The query you are trying to execute neither has a variant defined nor it expects a parameter value to be passed.  
   
- **Resolution**  
+   **Resolution**  
   
-1.  For reason 1, make sure you specify the name of the variant associated with the query. For example:  
+3. For reason 1, make sure you specify the name of the variant associated with the query. For example:  
   
-    ```  
-    EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024', @variant =  ‘variant1’  
-    ```  
+   ```  
+   EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024', @variant =  ‘variant1’  
+   ```  
   
-2.  For reason 2, make sure you provide a dummy parameter name and value while specifying the query command. For example, if “myquery” query does not require any parameter to execute, the EXECQUERY command must be specified as:  
+4. For reason 2, make sure you provide a dummy parameter name and value while specifying the query command. For example, if “myquery” query does not require any parameter to execute, the EXECQUERY command must be specified as:  
   
-    ```  
-    EXECQUERY myquery @usergroup='mygroup',@P1 = 'dummy_value'  
-    ```  
+   ```  
+   EXECQUERY myquery @usergroup='mygroup',@P1 = 'dummy_value'  
+   ```  
   
 ## See Also  
 [Troubleshoot the SAP adapter](../../adapters-and-accelerators/adapter-sap/troubleshoot-the-sap-adapter.md)

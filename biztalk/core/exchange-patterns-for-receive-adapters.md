@@ -58,15 +58,15 @@ msg.Context.Write(
   
  Because the engine is processing messages asynchronously, it is possible for the following to happen:  
   
--   The **BatchComplete** callback might occur before **Done** has returned.  
+- The **BatchComplete** callback might occur before **Done** has returned.  
   
--   The call to TransmitMessage might be made before BatchComplete and even before Done.  
+- The call to TransmitMessage might be made before BatchComplete and even before Done.  
   
- While both of these scenarios are rare, the adapter should protect itself against this.  
+  While both of these scenarios are rare, the adapter should protect itself against this.  
   
- It is recommended that the response message is transmitted using an asynchronous non-blocking call.  
+  It is recommended that the response message is transmitted using an asynchronous non-blocking call.  
   
- The BaseAdapter project has a utility class, **StandardRequestResponseHandler**, that encapsulates the request-response semantics explained in this topic.  
+  The BaseAdapter project has a utility class, **StandardRequestResponseHandler**, that encapsulates the request-response semantics explained in this topic.  
   
 ## Request-Response Message Time-Outs  
  When an adapter submits a request-request message, it needs to specify the time-out of the request message on the **IBTTransportBatch.SubmitRequestMessage Method (COM)** API [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. A response message will be delivered to the adapter only within this time-out period. After the time-out expires, a negative acknowledgment (NACK) will be delivered to the adapter instead of the response message. If the adapter does not specify a time-out value, the engine uses the default value of 20 minutes.  

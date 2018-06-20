@@ -21,31 +21,31 @@ In this step, you modify the private process orchestration to integrate with the
   
 ### To add a reference to the Contoso PriceAndAvailability and RNPIPs assemblies  
   
-1.  With the Contoso solution displayed in Solution Explorer, right-click the **PrivateResponder** project, and then click **Add Reference**.  
+1. With the Contoso solution displayed in Solution Explorer, right-click the **PrivateResponder** project, and then click **Add Reference**.  
   
-2.  In the Add Reference dialog box, click **Browse**. Move to *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin folder, and then select the following assemblies**:**  
+2. In the Add Reference dialog box, click **Browse**. Move to *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin folder, and then select the following assemblies<strong>:</strong>  
   
-    -   Microsoft.Solutions.BTARN.CommonTypes.dll  
+   -   Microsoft.Solutions.BTARN.CommonTypes.dll  
   
-    -   Microsoft.Solutions.BTARN.ConfigurationManager.dll  
+   -   Microsoft.Solutions.BTARN.ConfigurationManager.dll  
   
-    -   Microsoft.Solutions.BTARN.GlobalSchemas.dll  
+   -   Microsoft.Solutions.BTARN.GlobalSchemas.dll  
   
-    -   Microsoft.Solutions.BTARN.PublicResponder.dll  
+   -   Microsoft.Solutions.BTARN.PublicResponder.dll  
   
-    -   Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll  
+   -   Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll  
   
-    -   Microsoft.Solutions.BTARN.Shared.dll  
+   -   Microsoft.Solutions.BTARN.Shared.dll  
   
-    -   Microsoft.Solutions.BTARN.XSDClasses.GlobalSchemas.dll  
+   -   Microsoft.Solutions.BTARN.XSDClasses.GlobalSchemas.dll  
   
-3.  Click **Add**.  
+3. Click **Add**.  
   
-4.  In the Add Reference dialog box, click the **Projects** tab, select the **ContosoPriceAndAvailability** and **HeaderHelper** projects, and then click **Add**.  
+4. In the Add Reference dialog box, click the **Projects** tab, select the **ContosoPriceAndAvailability** and **HeaderHelper** projects, and then click **Add**.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
-6.  In the Microsoft Development Environment dialog box, click **OK**.  
+6. In the Microsoft Development Environment dialog box, click **OK**.  
   
 ### To create new message types  
   
@@ -113,21 +113,21 @@ In this step, you modify the private process orchestration to integrate with the
   
 ### To modify the business process workflow  
   
-1.  Drag a **Message Assignment** shape from the Toolbox to the design surface and drop it under the **ReceiveFromPublicProcessResponder** shape. Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructPIP3A2RequestMessage**.  
+1. Drag a **Message Assignment** shape from the Toolbox to the design surface and drop it under the **ReceiveFromPublicProcessResponder** shape. Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructPIP3A2RequestMessage**.  
   
-2.  Drag a **Transform** shape to the design surface and drop it under the **ConstructPIP3A2RequestMessage** shape. Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructContoso3A2RequestMessage**.  
+2. Drag a **Transform** shape to the design surface and drop it under the **ConstructPIP3A2RequestMessage** shape. Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructContoso3A2RequestMessage**.  
   
-3.  Drag a **Send** shape to the design surface and drop it under the **ConstructContoso3A2RequestMessage** shape.  
+3. Drag a **Send** shape to the design surface and drop it under the **ConstructContoso3A2RequestMessage** shape.  
   
-4.  Drag a **Receive** shape to the design surface and drop it under the **Send_1** shape.  
+4. Drag a **Receive** shape to the design surface and drop it under the **Send_1** shape.  
   
-5.  On the orchestration design surface, click an empty area.  
+5. On the orchestration design surface, click an empty area.  
   
-6.  In the Properties window, select the **Transaction Type** property, and then click **Long Running**.  
+6. In the Properties window, select the **Transaction Type** property, and then click **Long Running**.  
   
-7.  Drag a **Scope** shape to the design surface and drop it under the **Receive_1** shape.  
+7. Drag a **Scope** shape to the design surface and drop it under the **Receive_1** shape.  
   
-8.  In the Properties window, from the **Transaction Type** property drop-down list, select **Atomic** for the **Scope** shape.  
+8. In the Properties window, from the **Transaction Type** property drop-down list, select **Atomic** for the **Scope** shape.  
   
 9. Drag a **Call Rules** shape to the design surface and drop it on the label that says **Drop a shape from the toolbox here** inside the **Scope** shape. In the Properties window for the **Call Rules** shape, in the **Name** box, type **Execute3A2Vocabulary**.  
   

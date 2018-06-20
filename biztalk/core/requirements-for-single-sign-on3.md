@@ -31,11 +31,11 @@ To use Single Sign-On (SSO), you must have the following:
   
 ## Enable SSO  
   
-1.  In the **Transport Properties** window, select **Yes** for **Use SSO**.  
+1. In the **Transport Properties** window, select **Yes** for **Use SSO**.  
   
-2.  Select an appropriate affiliate application when specifying transport properties.  
+2. Select an appropriate affiliate application when specifying transport properties.  
   
- For more information, see [Creating Affiliate Applications](../core/creating-affiliate-applications1.md).  
+   For more information, see [Creating Affiliate Applications](../core/creating-affiliate-applications1.md).  
   
 > [!NOTE]
 >  After performing work using SSO, remember to reset any Web-Sharing folder to **Do not share**. Applications that use that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.  

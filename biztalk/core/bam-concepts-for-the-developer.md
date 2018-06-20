@@ -31,11 +31,11 @@ As a BAM developer, you need to be familiar with important BAM concepts, such as
 ## What Is a Continuation?  
  Continuations provide guidance to the BAM infrastructure about the following information:  
   
--   The order in which events are expected to occur  
+- The order in which events are expected to occur  
   
--   A way to handle any change in the unique ID to which event items are correlated  
+- A way to handle any change in the unique ID to which event items are correlated  
   
- For more information about Continuations and how they are used, see [Continuation and ContinuationID Nodes](../core/continuation-and-continuationid-nodes.md).  
+  For more information about Continuations and how they are used, see [Continuation and ContinuationID Nodes](../core/continuation-and-continuationid-nodes.md).  
   
 ## What Is a Reference?  
  A reference (also known as a related activity) specifies a relationship between an activity and some other item. Examples of items that can be related are another activity or a document location.  

@@ -55,12 +55,12 @@ CM_ENTRY Set_Sync_Level( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The value specified by *conversation_ID* or *sync_level* is invalid.  
+- The value specified by *conversation_ID* or *sync_level* is invalid.  
   
--   The *sync_level* parameter specifies CM_NONE but one of the following has occurred: the *send_type* parameter is set to CM_SEND_AND_CONFIRM, the *prepare_to_receive_type* parameter is set to CM_PREP_TO_RECEIVE_CONFIRM, or the *deallocate_type* is set to CM_DEALLOCATE_CONFIRM.  
+- The *sync_level* parameter specifies CM_NONE but one of the following has occurred: the *send_type* parameter is set to CM_SEND_AND_CONFIRM, the *prepare_to_receive_type* parameter is set to CM_PREP_TO_RECEIVE_CONFIRM, or the *deallocate_type* is set to CM_DEALLOCATE_CONFIRM.  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
 ## State Changes  
  The conversation must be in INITIALIZE state.  

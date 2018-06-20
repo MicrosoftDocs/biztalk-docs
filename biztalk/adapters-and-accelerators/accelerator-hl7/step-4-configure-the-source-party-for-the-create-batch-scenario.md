@@ -22,14 +22,14 @@ In this step, you configure the source party for the Create-Batch scenario. You 
   
 ### To configure the source party for the Create-Batch scenario  
   
-1.  In BTAHL7 Configuration Explorer, on the **Parties** tab in the console tree, click **Tutorial_BatchSource**.  
+1. In BTAHL7 Configuration Explorer, on the **Parties** tab in the console tree, click **Tutorial_BatchSource**.  
   
-2.  Click the **Acknowledgment** tab in the Details pane. Verify that the **Acknowledgment type** is **OriginalMode**.  
+2. Click the **Acknowledgment** tab in the Details pane. Verify that the **Acknowledgment type** is **OriginalMode**.  
   
-3.  Click the **Batch Definition** tab. Under **Available Message Acks**, click **BTAHL7Schemas.ADT_A03_231_GLO_DEF**, click the Move to the right arrow (**>>**) to add this schema to **Selected Message Acks**, and then click **Save**.  
+3. Click the **Batch Definition** tab. Under **Available Message Acks**, click **BTAHL7Schemas.ADT_A03_231_GLO_DEF**, click the Move to the right arrow (**>>**) to add this schema to **Selected Message Acks**, and then click **Save**.  
   
-4.  Click the **Batch Schedule** tab. In the **Repeat Batch After** section, select **Messages**, and then type **2** in the **Messages** box.  
+4. Click the **Batch Schedule** tab. In the **Repeat Batch After** section, select **Messages**, and then type **2** in the **Messages** box.  
   
-5.  Click **Start Schedule**.  
+5. Click **Start Schedule**.  
   
- Proceed to [Step 5: Create the Send Port for the Message Batch](../../adapters-and-accelerators/accelerator-hl7/step-5-create-the-send-port-for-the-message-batch.md).
+   Proceed to [Step 5: Create the Send Port for the Message Batch](../../adapters-and-accelerators/accelerator-hl7/step-5-create-the-send-port-for-the-message-batch.md).

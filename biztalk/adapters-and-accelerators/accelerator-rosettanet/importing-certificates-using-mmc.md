@@ -29,42 +29,42 @@ This topic describes how to import a digital certificate that [!INCLUDE[btsCoNam
   
 ### To import a public-key certificate  
   
-1.  Copy the public-key (.cer) certificate file to a location on the hard disk of the server to which you are copying certificates.  
+1. Copy the public-key (.cer) certificate file to a location on the hard disk of the server to which you are copying certificates.  
   
-2.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
+2. Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   
-3.  In the [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console, expand **Certificates (Local Computer)**. The logged-in user must have administrative permissions to the computer.  
+3. In the [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console, expand **Certificates (Local Computer)**. The logged-in user must have administrative permissions to the computer.  
   
-4.  Right-click **Other People**, point to **All Tasks**, and then click **Import**.  
+4. Right-click **Other People**, point to **All Tasks**, and then click **Import**.  
   
-5.  On the **Certificate Import Wizard Welcome** page, click **Next**.  
+5. On the **Certificate Import Wizard Welcome** page, click **Next**.  
   
-6.  On the **File to Import** page, click **Browse** and locate the folder that contains the certificate files. Select the file from which you want to import the certificate, and then click **Open**.  
+6. On the **File to Import** page, click **Browse** and locate the folder that contains the certificate files. Select the file from which you want to import the certificate, and then click **Open**.  
   
-7.  On the **Certificate store** page, select either **Automatically select the certificate based on the type of certificate** or **Place all certificates in the following store**. If you select **Place all certificates in the following store**, click **Browse**, select the certificate store, click **OK**, and then click **Next**.  
+7. On the **Certificate store** page, select either **Automatically select the certificate based on the type of certificate** or **Place all certificates in the following store**. If you select **Place all certificates in the following store**, click **Browse**, select the certificate store, click **OK**, and then click **Next**.  
   
-8.  Click **Finish**.  
+8. Click **Finish**.  
   
 ### To import a private-key certificate  
   
-1.  Copy private-key (.pfx) certificate files to a location on the hard disk of the server to which you are copying certificates.  
+1. Copy private-key (.pfx) certificate files to a location on the hard disk of the server to which you are copying certificates.  
   
-2.  Click **Start**, click **Run**, type **run as /user:\<host service\> mmc**, and then click **OK**.  
+2. Click **Start**, click **Run**, type **run as /user:\<host service\> mmc**, and then click **OK**.  
   
-    > [!NOTE]
-    >  For \<*host service*\>, type the name of the service that was automatically selected for the host service when you installed [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+   > [!NOTE]
+   >  For \<*host service*\>, type the name of the service that was automatically selected for the host service when you installed [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
-3.  Type the password for \<*host service*\>, and then press **Enter**.  
+3. Type the password for \<*host service*\>, and then press **Enter**.  
   
-4.  In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console, on the **File** menu, click **Add/Remove Snap-in**.  
+4. In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console, on the **File** menu, click **Add/Remove Snap-in**.  
   
-5.  In the Add/Remove Snap-in dialog box, click **Add**.  
+5. In the Add/Remove Snap-in dialog box, click **Add**.  
   
-6.  In the Add Standalone Snap-in dialog box, select **Certificates**, click **Add**, click **Close**, and then click **OK**.  
+6. In the Add Standalone Snap-in dialog box, select **Certificates**, click **Add**, click **Close**, and then click **OK**.  
   
-7.  In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console, expand **Certificates - Current User**, right-click **Personal**, point to **All Tasks**, and then click **Import**.  
+7. In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console, expand **Certificates - Current User**, right-click **Personal**, point to **All Tasks**, and then click **Import**.  
   
-8.  On the **Certificate Import Wizard Welcome** page, click **Next**.  
+8. On the **Certificate Import Wizard Welcome** page, click **Next**.  
   
 9. On the **File to Import** page, click **Browse** and locate the folder that contains the .pfx certificate file that contains the certificate that you want to import. Select the appropriate file, and then click **Open**.  
   

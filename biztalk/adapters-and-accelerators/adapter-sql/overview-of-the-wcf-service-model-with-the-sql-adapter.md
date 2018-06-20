@@ -26,37 +26,37 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes a SQL Server
   
 #### To invoke operations on the SQL adapter  
   
-1.  Generate a WCF client class and helper code. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]to generate a WCF client class targeted at the SQL Server database artifacts with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or WCF Service Contract for SQL Server Artifacts](../../adapters-and-accelerators/adapter-sql/generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts.md).  
+1. Generate a WCF client class and helper code. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]to generate a WCF client class targeted at the SQL Server database artifacts with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or WCF Service Contract for SQL Server Artifacts](../../adapters-and-accelerators/adapter-sql/generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts.md).  
   
-2.  Create a WCF client instance and configure the WCF client. Configuring the WCF client involves specifying the binding and endpoint address (connection URI) that the client will use. You can do this either imperatively in code or declaratively in configuration. The following code creates a WCF client that targets the **Select** operation on the **Employee** table in a SQL Server database. It also sets the credentials for the SQL Server database. The WCF client is initialized from configuration.  
+2. Create a WCF client instance and configure the WCF client. Configuring the WCF client involves specifying the binding and endpoint address (connection URI) that the client will use. You can do this either imperatively in code or declaratively in configuration. The following code creates a WCF client that targets the **Select** operation on the **Employee** table in a SQL Server database. It also sets the credentials for the SQL Server database. The WCF client is initialized from configuration.  
   
-    ```  
-    TableOp_dbo_EmployeeClient client = new TableOp_dbo_EmployeeClient("SqlAdapterBinding_TableOp_dbo_Employee"); //picking the binding and address from the app.config  
+   ```  
+   TableOp_dbo_EmployeeClient client = new TableOp_dbo_EmployeeClient("SqlAdapterBinding_TableOp_dbo_Employee"); //picking the binding and address from the app.config  
   
-    client.ClientCredentials.UserName.UserName = "myuser";  
-    client.ClientCredentials.UserName.Password = "mypassword";  
-    ```  
+   client.ClientCredentials.UserName.UserName = "myuser";  
+   client.ClientCredentials.UserName.Password = "mypassword";  
+   ```  
   
-    > [!NOTE]
-    >  You can either specify the client binding and endpoint address in the code or declare it in the app.config configuration file. The preceding code snippet uses the latter. For more information on how to use either approaches, see [Configure a Client Binding for the SQL Adapter](../../adapters-and-accelerators/adapter-sql/configure-a-client-binding-for-the-sql-adapter.md).  
+   > [!NOTE]
+   >  You can either specify the client binding and endpoint address in the code or declare it in the app.config configuration file. The preceding code snippet uses the latter. For more information on how to use either approaches, see [Configure a Client Binding for the SQL Adapter](../../adapters-and-accelerators/adapter-sql/configure-a-client-binding-for-the-sql-adapter.md).  
   
-3.  Open the WCF client.  
+3. Open the WCF client.  
   
-    ```  
-    client.Open();  
-    ```  
+   ```  
+   client.Open();  
+   ```  
   
-4.  Invoke methods on the WCF client created in preceding step to perform a Select operation on the SQL server database. The following code invokes the Select method of the WCF client to invoke the SELECT statement on a SQL Server database table.  
+4. Invoke methods on the WCF client created in preceding step to perform a Select operation on the SQL server database. The following code invokes the Select method of the WCF client to invoke the SELECT statement on a SQL Server database table.  
   
-    ```  
-    client.Select("*", "where [Name] = ‘John Smith’");  
-    ```  
+   ```  
+   client.Select("*", "where [Name] = ‘John Smith’");  
+   ```  
   
-5.  Close the WCF client.  
+5. Close the WCF client.  
   
-    ```  
-    client.Close();  
-    ```  
+   ```  
+   client.Close();  
+   ```  
   
 ## See Also  
 [Develop SQL applications using the WCF Service model](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

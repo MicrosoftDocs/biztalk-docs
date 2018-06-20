@@ -16,23 +16,23 @@ The Transport Adapter password is stored as stars (******) in the binding file t
 ## Password Limitation Workaround  
  To work around this password limitation, you can use one of the following methods:  
   
--   Edit the binding file before importing by replacing the stars with plain text.  
+- Edit the binding file before importing by replacing the stars with plain text.  
   
-    > [!CAUTION]
-    >  This practice is not recommended for security reasons.  
+  > [!CAUTION]
+  >  This practice is not recommended for security reasons.  
   
--   Edit the binding file before importing by replacing the stars with some junk value (that is, not the correct password). Enter the correct password using the **Transport Properties** page in the BizTalk Server Administration Console after importing the binding file.  
+- Edit the binding file before importing by replacing the stars with some junk value (that is, not the correct password). Enter the correct password using the **Transport Properties** page in the BizTalk Server Administration Console after importing the binding file.  
   
-    > [!NOTE]
-    >  This work-around can be used only if Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] is installed on the target computer, or if you develop a custom tool.  
+  > [!NOTE]
+  >  This work-around can be used only if Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] is installed on the target computer, or if you develop a custom tool.  
   
- -or-  
+  -or-  
   
--   Use Enterprise Single Sign-On (SSO) instead of using passwords.  
+- Use Enterprise Single Sign-On (SSO) instead of using passwords.  
   
-     Using the SSO option requires an import of the binding file.  
+   Using the SSO option requires an import of the binding file.  
   
- Verify the logical system and the Transmit and Receive services.  
+  Verify the logical system and the Transmit and Receive services.  
   
 ## See Also  
 [Import bindings & limitations](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)

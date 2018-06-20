@@ -37,11 +37,11 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes an **I
 ### Metadata Node IDs  
  The adapter organizes its metadata as a hierarchical tree of nodes. Within this tree structure there are two types of metadata nodes:  
   
--   **Operation nodes** represent operations that the adapter surfaces on Oracle database artifacts. Operation nodes are the leaves of the tree.  
+- **Operation nodes** represent operations that the adapter surfaces on Oracle database artifacts. Operation nodes are the leaves of the tree.  
   
--   **Category nodes** represent Oracle database artifacts and groupings of Oracle database artifacts that do not directly correspond to an operation on the adapter. Category nodes are the branches of the tree; they contain other category nodes and/or operation nodes. For example, Oracle tables and packages are represented as category nodes.  
+- **Category nodes** represent Oracle database artifacts and groupings of Oracle database artifacts that do not directly correspond to an operation on the adapter. Category nodes are the branches of the tree; they contain other category nodes and/or operation nodes. For example, Oracle tables and packages are represented as category nodes.  
   
- Each metadata node surfaced by the adapter is identified by a unique node ID. For more information about the metadata node IDs surfaced by the adapter, see [Metadata Node IDs](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md). You use these node IDs to specify target Oracle database artifacts when you use the **IMetadataRetrievalContract** interface to browse, search, and retrieve metadata.  
+  Each metadata node surfaced by the adapter is identified by a unique node ID. For more information about the metadata node IDs surfaced by the adapter, see [Metadata Node IDs](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md). You use these node IDs to specify target Oracle database artifacts when you use the **IMetadataRetrievalContract** interface to browse, search, and retrieve metadata.  
   
 ### Binding Properties  
  Whether you use an **IMetadataRetrievalContract** channel or an **IMetadataRetrievalClient** to work with metadata, you must specify an **OracleDBBinding** when you create the instance.  

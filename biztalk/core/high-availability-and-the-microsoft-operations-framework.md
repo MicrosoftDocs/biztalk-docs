@@ -24,17 +24,17 @@ Applying the Microsoft Operations Framework (MOF) process model to the planning 
   
  The MOF process model enables companies to:  
   
--   Facilitate consistent IT service management across service solutions.  
+- Facilitate consistent IT service management across service solutions.  
   
--   Establish a structure for IT functions, processes, and procedures.  
+- Establish a structure for IT functions, processes, and procedures.  
   
--   Represent a life-cycle approach.  
+- Represent a life-cycle approach.  
   
- Central to the MOF process model is its division into four quadrants of operational processes and procedures, named service management functions (SMFs). The SMFs are the foundation-level best practices and prescriptive guidance for operating and maintaining an IT environment.  
+  Central to the MOF process model is its division into four quadrants of operational processes and procedures, named service management functions (SMFs). The SMFs are the foundation-level best practices and prescriptive guidance for operating and maintaining an IT environment.  
   
- The following figure shows the MOF processes where you have to consider high availability.  
+  The following figure shows the MOF processes where you have to consider high availability.  
   
- ![MOF Processes](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
+  ![MOF Processes](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
   
 ## Changing Quadrant  
  The changing quadrant includes the service management functions (SMFs) required to identify, review, approve, and incorporate change into a managed IT environment. This includes changes in software, hardware, documentation, roles and responsibilities, and also specific process and procedural changes.  

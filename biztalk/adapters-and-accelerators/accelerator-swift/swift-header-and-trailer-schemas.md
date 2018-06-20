@@ -24,15 +24,15 @@ manager: "anneta"
   
  The SWIFT header schema (SWIFT Header.xsd) contains the formats for the following:  
   
--   Basic Header  
+- Basic Header  
   
--   Application Header (choice of Input or Output)  
+- Application Header (choice of Input or Output)  
   
--   User Header  
+- User Header  
   
--   Beginning delimiter of the text block  
+- Beginning delimiter of the text block  
   
- The Basic Header contains information about the source of the message. The Application Header contains information about the message type and the destination of the message. The resolution of the message type by the SWIFT disassembler in a receive pipeline is based upon the contents of the field in the appropriate Application Header. The User Header is optional, and contains special processing instructions.  
+  The Basic Header contains information about the source of the message. The Application Header contains information about the message type and the destination of the message. The resolution of the message type by the SWIFT disassembler in a receive pipeline is based upon the contents of the field in the appropriate Application Header. The User Header is optional, and contains special processing instructions.  
   
 > [!NOTE]
 >  A few message types have variable formats based upon the contents of field 119 in the User Header. These are "dual message types" in A4SWIFT. The A4SWIFT disassembler uses the message type in the Application Header in conjunction with the contents of field 119 to select the appropriate schema for a message instance.  
@@ -47,15 +47,15 @@ manager: "anneta"
   
  The SWIFT Trailer schema (**SWIFT Trailer.xsd**) contains the format for the following:  
   
--   Ending delimiter of the text block  
+- Ending delimiter of the text block  
   
--   User trailers (user and system information)  
+- User trailers (user and system information)  
   
--   System trailers  
+- System trailers  
   
- The ending delimiter of the text block is "-}". The trailer block begins with "{5:". The contents of the trailer block include both user information (checksum, message authentication, proprietary authentication, and so on) and system information (delayed message, message reference, possible duplicate message, and so on). Trailers added by SWIFT also provide a third block, delimited by "{S:". The *SWIFT User Handbook*, under "FIN Service Description", describes in detail the contents of block 5. A4SWIFT does not validate the contents of block S.  
+  The ending delimiter of the text block is "-}". The trailer block begins with "{5:". The contents of the trailer block include both user information (checksum, message authentication, proprietary authentication, and so on) and system information (delayed message, message reference, possible duplicate message, and so on). Trailers added by SWIFT also provide a third block, delimited by "{S:". The *SWIFT User Handbook*, under "FIN Service Description", describes in detail the contents of block 5. A4SWIFT does not validate the contents of block S.  
   
- The actual FIN interface or the SWIFT network appends the trailers. If a message contains a trailer when A4SWIFT receives the message, A4SWIFT carries the trailer with the message. A4SWIFT does not raise an error if a message does not contain a trailer when A4SWIFT receives the message. As with headers, all of the trailer entries, including the blocks themselves, are optional in A4SWIFT.  
+  The actual FIN interface or the SWIFT network appends the trailers. If a message contains a trailer when A4SWIFT receives the message, A4SWIFT carries the trailer with the message. A4SWIFT does not raise an error if a message does not contain a trailer when A4SWIFT receives the message. As with headers, all of the trailer entries, including the blocks themselves, are optional in A4SWIFT.  
   
 ## See Also  
  [Working with Schemas](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)

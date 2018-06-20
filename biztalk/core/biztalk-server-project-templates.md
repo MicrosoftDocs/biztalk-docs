@@ -22,12 +22,13 @@ When you install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserv
 
 ## Available templates
 The following table describes these project templates.  
-  
-|Use this|To do this|  
-|--------------|----------------|  
-|**Empty BizTalk Server Project**|Creates a new empty BizTalk Server project.|  
-|**BizTalk Server BPEL Import Project**|Imports Business Process Execution Language (BPEL), Web Services Description Language (WSDL), or XML Schema Definition Language (XSD) files into a BizTalk project.|  
-|**BizTalk Server Application Project (.btaproj)**|Starting with [!INCLUDE[bts2016](../includes/bts2016-md.md)] [Feature Pack 1](../core/configure-the-feature-pack.md), or later. <br/><br/>Used to automatically deploy and update applications using Visual Studio Team Services (VSTS). The project contains a `BizTalkServerInventory.json` file that is used by VSTS during the deployment. |  
-  
+
+
+|                     Use this                      |                                                                                                                                                                   To do this                                                                                                                                                                   |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|         **Empty BizTalk Server Project**          |                                                                                                                                                  Creates a new empty BizTalk Server project.                                                                                                                                                   |
+|      **BizTalk Server BPEL Import Project**       |                                                                                      Imports Business Process Execution Language (BPEL), Web Services Description Language (WSDL), or XML Schema Definition Language (XSD) files into a BizTalk project.                                                                                       |
+| **BizTalk Server Application Project (.btaproj)** | Starting with [!INCLUDE[bts2016](../includes/bts2016-md.md)] [Feature Pack 1](../core/configure-the-feature-pack.md), or later. <br/><br/>Used to automatically deploy and update applications using Visual Studio Team Services (VSTS). The project contains a `BizTalkServerInventory.json` file that is used by VSTS during the deployment. |
+
 ## See Also  
  [Working with BizTalk Projects](../core/working-with-biztalk-projects.md)

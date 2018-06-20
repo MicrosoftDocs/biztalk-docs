@@ -17,17 +17,17 @@ manager: "anneta"
 # Step 2: Create the Orchestration
 The orchestration setup is as follows using a project called BeginDocTest:  
   
--   Ports  
+- Ports  
   
--   Messages  
+- Messages  
   
--   Send and Receive  
+- Send and Receive  
   
--   Construct Message  
+- Construct Message  
   
--   Transforms  
+- Transforms  
   
- The orchestration does not do any exception handling. J.D. Edwards OneWorld performs the BeginDoc and subsequent operations within an implicit transaction that it will rollback if the connection times out. The BizTalk orchestration thus does not need to do anything to rollback changes J.D. Edwards OneWorld makes. However, a time out will cause an exception in the BizTalk orchestration. BizTalk will record the exception in the event log. If you want to add exception handling to the orchestration, see "How to Add a Catch Exception Block" and "How to Add a Compensation Block" in the Microsoft BizTalk Server Help.  
+  The orchestration does not do any exception handling. J.D. Edwards OneWorld performs the BeginDoc and subsequent operations within an implicit transaction that it will rollback if the connection times out. The BizTalk orchestration thus does not need to do anything to rollback changes J.D. Edwards OneWorld makes. However, a time out will cause an exception in the BizTalk orchestration. BizTalk will record the exception in the event log. If you want to add exception handling to the orchestration, see "How to Add a Catch Exception Block" and "How to Add a Compensation Block" in the Microsoft BizTalk Server Help.  
   
 ## In This Section  
   

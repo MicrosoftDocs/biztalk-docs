@@ -194,10 +194,10 @@ manager: "anneta"
 #### SQL Server Replication Services  
  SQL Server Replication may convert data incorrectly, based on the default mappings from SQL Server to DB2 data types. We recommend that the administrator and developer review and revise the Replication data type mappings using the following SQL Server system stored procedures.  
   
--   ·sp_helpdatatypemap  
+- ·sp_helpdatatypemap  
   
--   ·sp_getdefaultdatatypemapping  
+- ·sp_getdefaultdatatypemapping  
   
--   ·sp_setdefaultdatatypemapping  
+- ·sp_setdefaultdatatypemapping  
   
- For more information, see the [System Stored Procedures (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=180765) (http://go.microsoft.com/fwlink/?LinkID=180765) topic in SQL Server Books Online.
+  For more information, see the [System Stored Procedures (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=180765) (http://go.microsoft.com/fwlink/?LinkID=180765) topic in SQL Server Books Online.

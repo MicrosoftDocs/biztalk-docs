@@ -24,15 +24,15 @@ The BizTalk Framework is one approach for doing exactly-once guaranteed delivery
   
  The BizTalk Framework assumes that, however disparate the systems trading data, they both understand the BizTalk Framework protocol requirements of:  
   
--   Using a predictable envelope format for wrapping transmissions.  
+- Using a predictable envelope format for wrapping transmissions.  
   
--   Tagging every outbound transmission with a globally unique identifier.  
+- Tagging every outbound transmission with a globally unique identifier.  
   
--   Always returning to the sender an acknowledgment of receipt that includes the globally unique identifier, even for data already received, acknowledged, and processed.  
+- Always returning to the sender an acknowledgment of receipt that includes the globally unique identifier, even for data already received, acknowledged, and processed.  
   
--   Some means by which the sender can repeat transmission until either a receipt arrives from the receiver, or some time period passes beyond which the transmission is no longer valid.  
+- Some means by which the sender can repeat transmission until either a receipt arrives from the receiver, or some time period passes beyond which the transmission is no longer valid.  
   
- The BizTalk Framework Assembler pipeline component is responsible for serializing the BizTalk Framework envelope and contents onto the message before transmission and resending in the event that a receipt does not arrive in the allotted time period. It is also responsible for receiving and processing the receipts and deleting the message instance. (A copy of the message instance of the sent message is kept in the MessageBox database until BizTalk receives a confirmation receipt from the destination. After the confirmation receipt is received, the message instance is deleted by the Messaging Engine.)  
+  The BizTalk Framework Assembler pipeline component is responsible for serializing the BizTalk Framework envelope and contents onto the message before transmission and resending in the event that a receipt does not arrive in the allotted time period. It is also responsible for receiving and processing the receipts and deleting the message instance. (A copy of the message instance of the sent message is kept in the MessageBox database until BizTalk receives a confirmation receipt from the destination. After the confirmation receipt is received, the message instance is deleted by the Messaging Engine.)  
   
 ## See Also  
  [How to Configure the BizTalk Framework Assembler Pipeline Component](../core/how-to-configure-the-biztalk-framework-assembler-pipeline-component.md)   

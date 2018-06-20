@@ -17,15 +17,15 @@ manager: "anneta"
 # Receive location for metadata not found
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Receive location "{0}" for metadata not found. (Check receive location mapping in Web.config and verify the receive location exists.)|  
+|                 |                                                                                                                                       |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                           |
+| Product Version |                                      [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                       |
+|    Event ID     |                                                                   0                                                                   |
+|  Event Source   |                                                                   0                                                                   |
+|    Component    |                                                                   0                                                                   |
+|  Symbolic Name  |                                                                   0                                                                   |
+|  Message Text   | Receive location "{0}" for metadata not found. (Check receive location mapping in Web.config and verify the receive location exists.) |
   
 ## Explanation  
  This error indicates that a published isolated WCF receive location could not find the corresponding receive location for metadata.  

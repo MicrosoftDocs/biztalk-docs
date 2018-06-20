@@ -16,168 +16,169 @@ manager: "anneta"
 ---
 # Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform operations on interface tables and views with large data types such as BLOB, CLOB, NCLOB, and BFILE.  
-  
--   For columns of type BLOB, CLOB, and NCLOB, the adapter enables clients to read as well as update data. The adapter exposes Read_\<*LOBColName*\> and Update_\<*LOBColName*\> operations to read and update data respectively, where \<*LOBColName*\> is the name of column with large data type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read and update operations for that interface table.  
-  
--   For columns of type BFILE, adapter clients can only read data. The adapter exposes Read_\<*LOBColName*\> operation to read data from columns of BFILE type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read operations for the interface table.  
-  
- For more information about these operations, see [Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md).  
-  
+
+- For columns of type BLOB, CLOB, and NCLOB, the adapter enables clients to read as well as update data. The adapter exposes Read_\<*LOBColName*\> and Update_\<*LOBColName*\> operations to read and update data respectively, where \<*LOBColName*\> is the name of column with large data type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read and update operations for that interface table.  
+
+- For columns of type BFILE, adapter clients can only read data. The adapter exposes Read_\<*LOBColName*\> operation to read data from columns of BFILE type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read operations for the interface table.  
+
+  For more information about these operations, see [Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md).  
+
 ## About the Examples Used in this Topic  
  The example in this topic updates a BLOB column (PHOTO) in the CUSTOMER database table and then retrieves the data from the same column. The table is created by running the script provided with the samples. For more information about samples, see [Samples for the Oracle EBS adapter](../../adapters-and-accelerators/adapter-oracle-ebs/samples-for-the-oracle-ebs-adapter.md). A sample, **LargeDataTypes_ServiceModel**, which is based on this topic, is also provided with the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] samples.  
-  
+
 > [!NOTE]
 >  This topic lists detailed tasks for updating and reading columns of large data types in a base database table. You must perform the same set of tasks for updating and reading columns of large data types in an interface table.  
-  
+
 ## The WCF Client Class  
  The name of the WCF client generated for the operations on tables with large data types by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] is based on the name of the table, as listed in the following table.  
-  
-|Artifact|WCF Client Name|  
-|--------------|---------------------|  
-|Interface tables|InterfaceTables_[APP_NAME]_[SCHEMA]\_[TABLE_NAME]Client|  
-  
+
+
+|     Artifact     |                     WCF Client Name                      |
+|------------------|----------------------------------------------------------|
+| Interface tables | InterfaceTables_[APP_NAME]*[SCHEMA]\\*[TABLE_NAME]Client |
+
  [APP_NAME] = Actual name of the Oracle E-Business Suite application; for example, FND.  
-  
+
  [SCHEMA] = Collection of artifacts; for example, APPS.  
-  
+
  [TABLE_NAME] = The name of the table; for example, MS_SAMPLE_EMPLOYEE.  
-  
+
  [VIEW_NAME] = The name of the view; for example, MS_SAMPLE_EMPLOYEE_View.  
-  
+
 ### Method Signature for Invoking Operations on Tables  
  The following table shows the method signatures for the basic operations on a table. The signatures are the same for a view, except that the view namespace and name replace those of the table.  
-  
+
 |Operation|Method Signature|  
 |---------------|----------------------|  
 |Update_\<*column_name*\>|public void Update_\<*column_name*\>(string FILTER, byte[] DATA);|  
 |Read_\<*column_name*\>|public System.IO.Stream Read_\<*column_name*\>(string FILTER);|  
-  
+
  As an example, the following code shows the method signatures for a WCF client class generated for the Update_PHOTO and Read_PHOTO operations on the CUSTOMER database table under the APPS schema.  
-  
+
 ```  
 public partial class Tables_APPS_CUSTOMERClient : System.ServiceModel.ClientBase<Tables_APPS_CUSTOMER>, Tables_APPS_CUSTOMER {      
-  
+
     public void Update_PHOTO(string FILTER, byte[] DATA);  
-  
+
     public System.IO.Stream Read_PHOTO(string FILTER);  
 }  
 ```  
-  
+
  In this snippet, **Tables_APPS_CUSTOMERClient** is the name of the WCF class in the OracleEBSBindingClient.cs generated by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. Update_PHOTO and Read_PHOTO are methods that can be invoked to update and read columns of large data types in a table.  
-  
+
 ### Parameters for Table Operations  
  This section provides the parameters required by the Update_\<*column_name*\> and Read_\<*column_name*\> operation.  
-  
+
 |Operation name|Parameters|  
 |--------------------|----------------|  
 |Update_\<*column_name*\>|Requires the following parameters:<br /><br /> -   `string FILTER`. This parameter must contain the where clause that denotes the record for which data has to be updated. For example, `"WHERE Name='Mindy Martin'"`.<br />-   `byte[] DATA`. Contains a byte array of data to be update in a column of large data type.|  
 |Read_\<*column_name*\>|Requires the following parameters:<br /><br /> -   `string FILTER`. This parameter must contain the where clause that denotes the record from which the data has to be read. For example, `"WHERE Name='Mindy Martin'"`.|  
-  
+
 ## Creating a WCF Client to Invoke Operations on Tables with Columns of Large Data Types  
  The generic set of actions required to perform an operation on Oracle E-Business Suite using a WCF client involves a set of tasks described in [Overview of the WCF service model with the Oracle E-Business Suite adapter](../../adapters-and-accelerators/adapter-oracle-ebs/overview-of-the-wcf-service-model-with-the-oracle-e-business-suite-adapter.md). This section describes how to create a WCF client to invoke Update_PHOTO and Read_PHOTO operations on a CUSTOMER database table.  
-  
+
 #### To create a WCF client  
-  
-1.  Create a Visual C# project in Visual Studio. For this topic, create a console application.  
-  
-2.  Generate the WCF client class for the Update_PHOTO and Read_PHOTO operations on the CUSTOMER database table. For more information about generating a WCF client class, see [Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/create-a-wcf-client-or-wcf-service-contract-for-oracle-ebs-solution-artifacts.md).  
-  
-    > [!IMPORTANT]
-    >  Before generating the WCF client class, make sure you set the **EnableBizTalkCompatibilityMode** binding property to false.  
-  
-3.  In the Solution Explorer, add reference to `Microsoft.Adapters.OracleEBS` and `Microsoft.ServiceModel.Channels`, `System.Transactions`.  
-  
-4.  Open the Program.cs file and add the following namespaces:  
-  
-    -   `Microsoft.Adapters.OracleEBS`  
-  
-    -   `System.ServiceModel`  
-  
-    -   `System.Transactions`  
-  
-    -   `System.IO`  
-  
-5.  Open the Program.cs file and create a client as described in the snippet below.  
-  
-    ```  
-  
-              Tables_APPS_CUSTOMERClient client = new Tables_APPS_CUSTOMERClient("OracleEBSBinding_Tables_APPS_CUSTOMER");  
-  
-    client.ClientCredentials.UserName.UserName = "<Enter user name here>";  
-    client.ClientCredentials.UserName.Password = "<Enter password here>";  
-    ```  
-  
-     In this snippet, `Tables_APPS_CUSTOMERClient` is the WCF client defined in OracleEBSBindingClient.cs. This file is generated by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
-  
-    > [!NOTE]
-    >  In this snippet, you use the binding and endpoint address from the configuration file app.config. You can also explicitly specify these values in your code. For more information on the different ways of specifying client binding, see [Configure a client binding for the Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-client-binding-for-the-oracle-e-business-suite.md).  
-  
-6.  Set the credentials for the client.  
-  
-    ```  
-    client.ClientCredentials.UserName.UserName = "myuser";  
-    client.ClientCredentials.UserName.Password = "mypassword";  
-    ```  
-  
-    > [!IMPORTANT]
-    >  In this example, you are performing operations on a database table. However, if you are performing operations on an interface table, you must set the application context by specifying appropriate values for the **OracleUserName**, **OraclePassword**, and **OracleEBSResponsibilityName** binding properties. You must specify these binding properties before opening the client. For more information about application context, see [Set application context](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md).  
-  
-7.  Open the client as described in the snippet below:  
-  
-    ```  
-    try  
-    {  
-       Console.WriteLine("Opening Client...");  
-       client.Open();  
-    }  
-    catch (Exception ex)  
-    {  
-       Console.WriteLine("Exception: " + ex.Message);  
-       throw;  
-    }  
-    ```  
-  
-8.  Invoke the Update_PHOTO operation on the CUSTOMER table.  
-  
-     The Update_PHOTO operation requires a byte array for the data to be updated. In this code snippet, you use the FileStream class to create a byte array for a photo, SamplePhoto.jpg. For this application to work, the file must be copied to the project’s bin directory.  
-  
-    > [!IMPORTANT]
-    >  The Update_PHOTO operation must be performed in a transaction, so the **UseAmbientTransaction** binding property must be set to **true** and the Update_PHOTO operation must be performed within a transaction scope. You can set the **UseAmbientTransaction** binding property either in the app.config or by explicitly setting it in your application as `binding.UseAmbientTransaction = true`. Note that if you are specifying the binding property explicitly in the code, you must do so before opening the client.  
-  
-    ```  
-    byte[] photo;  
-  
-    using (FileStream fs = new FileStream("SamplePhoto.jpg", FileMode.Open))  
-    {  
-        try  
-        {  
-            Console.WriteLine("Reading the photo");  
-            int count = 0;  
-            photo = new byte[fs.Length];  
-            while ((count += fs.Read(photo, count, (int)(((fs.Length - count) > 4096) ? 4096 : fs.Length - count))) < fs.Length) ;  
-        }  
-        catch(Exception ex)  
-        {  
-            Console.WriteLine("Exception: " + ex.Message);  
-            throw;  
-        }  
-    }  
-  
-    Console.WriteLine("Updating data for the 'PHOTO' column");  
-    // Invoking the Update_PHOTO operation inside a transaction scope  
-    using (TransactionScope tx = new TransactionScope())  
-    {  
-        string filter = "WHERE Name='Mindy Martin'";  
-        client.Update_PHOTO(filter, photo);  
-        tx.Complete();  
-    }  
-  
-    ```  
-  
+
+1. Create a Visual C# project in Visual Studio. For this topic, create a console application.  
+
+2. Generate the WCF client class for the Update_PHOTO and Read_PHOTO operations on the CUSTOMER database table. For more information about generating a WCF client class, see [Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/create-a-wcf-client-or-wcf-service-contract-for-oracle-ebs-solution-artifacts.md).  
+
+   > [!IMPORTANT]
+   >  Before generating the WCF client class, make sure you set the **EnableBizTalkCompatibilityMode** binding property to false.  
+
+3. In the Solution Explorer, add reference to `Microsoft.Adapters.OracleEBS` and `Microsoft.ServiceModel.Channels`, `System.Transactions`.  
+
+4. Open the Program.cs file and add the following namespaces:  
+
+   -   `Microsoft.Adapters.OracleEBS`  
+
+   -   `System.ServiceModel`  
+
+   -   `System.Transactions`  
+
+   -   `System.IO`  
+
+5. Open the Program.cs file and create a client as described in the snippet below.  
+
+   ```  
+
+             Tables_APPS_CUSTOMERClient client = new Tables_APPS_CUSTOMERClient("OracleEBSBinding_Tables_APPS_CUSTOMER");  
+
+   client.ClientCredentials.UserName.UserName = "<Enter user name here>";  
+   client.ClientCredentials.UserName.Password = "<Enter password here>";  
+   ```  
+
+    In this snippet, `Tables_APPS_CUSTOMERClient` is the WCF client defined in OracleEBSBindingClient.cs. This file is generated by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
+
+   > [!NOTE]
+   >  In this snippet, you use the binding and endpoint address from the configuration file app.config. You can also explicitly specify these values in your code. For more information on the different ways of specifying client binding, see [Configure a client binding for the Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-client-binding-for-the-oracle-e-business-suite.md).  
+
+6. Set the credentials for the client.  
+
+   ```  
+   client.ClientCredentials.UserName.UserName = "myuser";  
+   client.ClientCredentials.UserName.Password = "mypassword";  
+   ```  
+
+   > [!IMPORTANT]
+   >  In this example, you are performing operations on a database table. However, if you are performing operations on an interface table, you must set the application context by specifying appropriate values for the **OracleUserName**, **OraclePassword**, and **OracleEBSResponsibilityName** binding properties. You must specify these binding properties before opening the client. For more information about application context, see [Set application context](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md).  
+
+7. Open the client as described in the snippet below:  
+
+   ```  
+   try  
+   {  
+      Console.WriteLine("Opening Client...");  
+      client.Open();  
+   }  
+   catch (Exception ex)  
+   {  
+      Console.WriteLine("Exception: " + ex.Message);  
+      throw;  
+   }  
+   ```  
+
+8. Invoke the Update_PHOTO operation on the CUSTOMER table.  
+
+    The Update_PHOTO operation requires a byte array for the data to be updated. In this code snippet, you use the FileStream class to create a byte array for a photo, SamplePhoto.jpg. For this application to work, the file must be copied to the project’s bin directory.  
+
+   > [!IMPORTANT]
+   >  The Update_PHOTO operation must be performed in a transaction, so the **UseAmbientTransaction** binding property must be set to **true** and the Update_PHOTO operation must be performed within a transaction scope. You can set the **UseAmbientTransaction** binding property either in the app.config or by explicitly setting it in your application as `binding.UseAmbientTransaction = true`. Note that if you are specifying the binding property explicitly in the code, you must do so before opening the client.  
+
+   ```  
+   byte[] photo;  
+
+   using (FileStream fs = new FileStream("SamplePhoto.jpg", FileMode.Open))  
+   {  
+       try  
+       {  
+           Console.WriteLine("Reading the photo");  
+           int count = 0;  
+           photo = new byte[fs.Length];  
+           while ((count += fs.Read(photo, count, (int)(((fs.Length - count) > 4096) ? 4096 : fs.Length - count))) < fs.Length) ;  
+       }  
+       catch(Exception ex)  
+       {  
+           Console.WriteLine("Exception: " + ex.Message);  
+           throw;  
+       }  
+   }  
+
+   Console.WriteLine("Updating data for the 'PHOTO' column");  
+   // Invoking the Update_PHOTO operation inside a transaction scope  
+   using (TransactionScope tx = new TransactionScope())  
+   {  
+       string filter = "WHERE Name='Mindy Martin'";  
+       client.Update_PHOTO(filter, photo);  
+       tx.Complete();  
+   }  
+
+   ```  
+
 9. Invoke the Read_PHOTO operation on the CUSTOMER table.  
-  
+
      The Read_PHOTO gives the output in the form of System.IO.Stream. The adapter client must implement the FileStream class to read the data from Read_PHOTO operation. After the Read_PHOTO operation is complete, a file PhotoCopy.jpg is copied under the project’s bin directory.  
-  
+
     ```  
     using (FileStream fs = new FileStream("PhotoCopy.jpg", FileMode.Create))  
     {  
@@ -185,7 +186,7 @@ public partial class Tables_APPS_CUSTOMERClient : System.ServiceModel.ClientBase
         String ReadFilter = "WHERE NAME='Mindy Martin'";  
         Stream photoStream = client.Read_PHOTO(ReadFilter);  
         Console.WriteLine("Photo data read -- writing to PhotoCopy.jpg");  
-  
+
         int count;  
         int length = 0;  
         byte[] buffer = new byte[4096];  
@@ -196,20 +197,20 @@ public partial class Tables_APPS_CUSTOMERClient : System.ServiceModel.ClientBase
         }  
         Console.WriteLine("{0} bytes written to PhotoCopy.jpg", length);  
     }  
-  
+
     Console.WriteLine("Photo updated and read back -- Hit <RETURN> to end");  
     Console.ReadLine();  
     ```  
-  
+
 10. Close the client as described in the snippet below:  
-  
+
     ```  
     client.Close();  
     Console.WriteLine("Press any key to exit...");  
     Console.ReadLine();  
     ```  
-  
+
 11. Build the project and then run it. The application updates the PHOTO column of the CUSTOMER table and then reads the content of the PHOTO column.  
-  
+
 ## See Also  
  [Develop Oracle E-Business Suite applications using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-ebs/develop-oracle-e-business-suite-applications-using-the-wcf-service-model.md)

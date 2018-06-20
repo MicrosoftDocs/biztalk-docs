@@ -25,31 +25,31 @@ When the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_
   
  You can identify a message that A4SWIFT has published to the MessageBox database as failed or erroneous by its promoted properties. When processing a failed message, the SWIFT disassembler populates and promotes the **A4SWIFT_Failed** property, and one or more of the other following properties, before publishing the message to the MessageBox database:  
   
--   **A4SWIFT_ParseErrors** indicates the number of parsing errors (such as malformed data) encountered during processing.  
+- **A4SWIFT_ParseErrors** indicates the number of parsing errors (such as malformed data) encountered during processing.  
   
--   **A4SWIFT_XmlValidationErrors** indicates the number of XML validation errors (such as invalid data or incorrect type with respect to the schema) encountered during processing.  
+- **A4SWIFT_XmlValidationErrors** indicates the number of XML validation errors (such as invalid data or incorrect type with respect to the schema) encountered during processing.  
   
--   **A4SWIFT_BreValidationErrors** indicates the number of Business Rule Engine (BRE) validation errors (such as data that breaks a SWIFT network rule) encountered during processing.  
+- **A4SWIFT_BreValidationErrors** indicates the number of Business Rule Engine (BRE) validation errors (such as data that breaks a SWIFT network rule) encountered during processing.  
   
--   **A4SWIFT_Failed** is **true** when the count of any the above properties is greater than zero, or **false** when the count is equal to zero.  
+- **A4SWIFT_Failed** is **true** when the count of any the above properties is greater than zero, or **false** when the count is equal to zero.  
   
- These properties are all part of the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property namespace. For more information about these and other promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).  
+  These properties are all part of the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property namespace. For more information about these and other promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).  
   
- To catch or retrieve failed messages, you need to create filter expressions (subscriptions) for send ports or orchestration receive shapes that include some of the properties listed above, as **AND** clauses of the expression.  
+  To catch or retrieve failed messages, you need to create filter expressions (subscriptions) for send ports or orchestration receive shapes that include some of the properties listed above, as **AND** clauses of the expression.  
   
- For example, to subscribe to all failed messages, you add the following clause (as an **AND** clause if there are other clauses):  
+  For example, to subscribe to all failed messages, you add the following clause (as an **AND** clause if there are other clauses):  
   
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_Failed == **true**  
+  [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_Failed == **true**  
   
- To subscribe to messages with only parse failures, you add the following clauses together:  
+  To subscribe to messages with only parse failures, you add the following clauses together:  
   
- **AND** [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_Failed == **true**,**AND**[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_XmlValidationErrors == 0,**AND**[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_BreValidationErrors == 0;  
+  **AND** [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_Failed == **true**,**AND**[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_XmlValidationErrors == 0,**AND**[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_BreValidationErrors == 0;  
   
- Conversely, for send ports or orchestrations designed to handle only valid messages, include "**AND**[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_Failed == **false**" as a clause in their filter expressions.  
+  Conversely, for send ports or orchestrations designed to handle only valid messages, include "**AND**[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property.A4SWIFT_Failed == **false**" as a clause in their filter expressions.  
   
 > [!NOTE]
 >  If subscriptions overlap, A4SWIFT will fulfill all subscriptions. That is, if more than one service (send port or orchestration) has filter expressions fulfilled by a particular message, all such services will receive the same message. For example, if a send port subscribes to all failed messages and an orchestration subscribes to only messages with parse failures, both subscriptions will be satisfied when A4SWIFT encounters parse errors when processing a message. Be sure to eliminate unwanted overlaps in subscriptions across services.  
-  
+> 
 > [!NOTE]
 >  If A4SWIFT receives and processes a message, and publishes that message to the MessageBox database, but the message does not satisfy any subscription, A4SWIFT will suspend the message with a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] error indicating a lack of subscribers. For example, if you have a service subscribing to all messages "A4SWIFT_Failed == false", but no services subscribe to messages where "A4SWIFT_Failed == true", then messages that fail parsing or validation will indeed be suspended due to a lack of subscribers. This scenario actually enables you to mimic traditional suspension of failed messages. Be sure to subscribe to all messages that you do not want to have suspended. See BizTalk Server Help for additional details about MessageBox database subscriptions, send ports, orchestrations, and filter expressions.  
   

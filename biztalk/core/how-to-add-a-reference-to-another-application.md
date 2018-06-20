@@ -30,17 +30,17 @@ This topic describes how to use the BizTalk Server Administration console to add
   
 ### To add a reference to another application  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and right-click the application in which you want to create a reference. This is the application in which you want to use an artifact that is contained in another application.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and right-click the application in which you want to create a reference. This is the application in which you want to use an artifact that is contained in another application.  
   
-3.  Point to **Add** and then click **References**.  
+3. Point to **Add** and then click **References**.  
   
-4.  In **Applications**, select the check box of the application to which you want to add a reference (the application containing the artifact or artifacts that you want to use), and then click **OK**.  
+4. In **Applications**, select the check box of the application to which you want to add a reference (the application containing the artifact or artifacts that you want to use), and then click **OK**.  
   
-     The reference is added to the current application. In the console tree, a hand icon is added to the application that you referred from this application to indicate that it is referenced by one or more other applications.  
+    The reference is added to the current application. In the console tree, a hand icon is added to the application that you referred from this application to indicate that it is referenced by one or more other applications.  
   
-     ![Shared application icon](../core/media/sharedapplicationicon.gif "SharedApplicationIcon")  
+    ![Shared application icon](../core/media/sharedapplicationicon.gif "SharedApplicationIcon")  
   
 ## See Also  
  [Creating and Modifying BizTalk Applications](../core/creating-and-modifying-biztalk-applications.md)

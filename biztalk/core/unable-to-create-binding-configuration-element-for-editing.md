@@ -17,15 +17,15 @@ manager: "anneta"
 # Unable to create binding configuration element for editing
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Unable to create binding configuration element for editing. Check the values of the BindingType and BindingConfiguration properties.|  
+|                 |                                                                                                                                      |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                          |
+| Product Version |                                      [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                      |
+|    Event ID     |                                                                  0                                                                   |
+|  Event Source   |                                                                  0                                                                   |
+|    Component    |                                                                  0                                                                   |
+|  Symbolic Name  |                                                                  0                                                                   |
+|  Message Text   | Unable to create binding configuration element for editing. Check the values of the BindingType and BindingConfiguration properties. |
   
 ## Explanation  
  There was an error loading a binding element for display in the user interface. This error often occurs with custom binding. The binding element is probably missing in the configuration file and is therefore not available on the drop-down list for binding.  

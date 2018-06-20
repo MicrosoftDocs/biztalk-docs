@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10854
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10854|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_INVALID_STRING_FORMAT|  
-|Message Text|The string format is incorrect for this function.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10854                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |               ENTSSO_E_INVALID_STRING_FORMAT               |
+|  Message Text   |     The string format is incorrect for this function.      |
   
 ## Explanation  
  The string format is incorrect for this function.  

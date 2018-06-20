@@ -20,13 +20,13 @@ As with other connections, configuration requires setting parameters on the **Co
   
 #### To configure an IP-DLC connection  
   
-1.  If you have just created an IP-DLC link service connection, the **Connection** properties dialog box displays. If it does not appear, or if you are configuring an already-existing IP-DLC link service connection, right-click the IP-DLC link service connection in the results pane of the MCC snap-in, and click **Properties**.  
+1. If you have just created an IP-DLC link service connection, the **Connection** properties dialog box displays. If it does not appear, or if you are configuring an already-existing IP-DLC link service connection, right-click the IP-DLC link service connection in the results pane of the MCC snap-in, and click **Properties**.  
   
-2.  Add the required parameters according to the tables below.  
+2. Add the required parameters according to the tables below.  
   
- **General Page**  
+   **General Page**  
   
- The **General** page is similar to that used for other connections in Microsoft® Host Integration Server.  
+   The **General** page is similar to that used for other connections in Microsoft® Host Integration Server.  
   
 |||  
 |-|-|  

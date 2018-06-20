@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10565
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10565|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_SECRET_VALIDATE_FAILED|  
-|Message Text|The secret could not be loaded from the registry. The service account for the SSO service may have been changed or the secret may be corrupted. Restore the secret from a backup file.%r<br /><br /> MSID: %1|  
+|                 |                                                                                                                                                                                                               |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                           Enterprise Single Sign-On                                                                                           |
+| Product Version |                                                                          [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                           |
+|    Event ID     |                                                                                                     10565                                                                                                     |
+|  Event Source   |                                                                                                    ENTSSO                                                                                                     |
+|    Component    |                                                                                                      N/A                                                                                                      |
+|  Symbolic Name  |                                                                                       SSO_ERROR_SECRET_VALIDATE_FAILED                                                                                        |
+|  Message Text   | The secret could not be loaded from the registry. The service account for the SSO service may have been changed or the secret may be corrupted. Restore the secret from a backup file.%r<br /><br /> MSID: %1 |
   
 ## Explanation  
  It is likely that an administrator in the system has changed the SSO Service account, making decryption impossible.  

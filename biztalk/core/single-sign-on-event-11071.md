@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11071
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11071|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_PS_WIN_CHANGE_DISCARDED_ZERO_LENGTH|  
-|Message Text|A Windows password change was discarded because the Windows password length is zero characters.%r<br /><br /> Tracking ID: %1%r<br /><br /> Windows Account: %2%r<br /><br /> Client User: %3|  
+|                 |                                                                                                                                                                                               |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                   Enterprise Single Sign-On                                                                                   |
+| Product Version |                                                                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                   |
+|    Event ID     |                                                                                             11071                                                                                             |
+|  Event Source   |                                                                                            ENTSSO                                                                                             |
+|    Component    |                                                                                              N/A                                                                                              |
+|  Symbolic Name  |                                                                         SSO_WARN_PS_WIN_CHANGE_DISCARDED_ZERO_LENGTH                                                                          |
+|  Message Text   | A Windows password change was discarded because the Windows password length is zero characters.%r<br /><br /> Tracking ID: %1%r<br /><br /> Windows Account: %2%r<br /><br /> Client User: %3 |
   
 ## Explanation  
  A Windows password change was discarded because the Windows password length is zero characters. The Windows account and client user name are provided.  

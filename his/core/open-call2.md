@@ -18,12 +18,12 @@ The **OPEN** call has no parameters. It grants access to the driver from a parti
   
  After a successful **OPEN** request, the driver expects to receive the following IOCTL commands:  
   
--   **SET_EVENT_HANDLE**  
+- **SET_EVENT_HANDLE**  
   
--   **SET_INTERFACE_RECORD**  
+- **SET_INTERFACE_RECORD**  
   
--   **SET_LINK_CHARACTERISTICS**  
+- **SET_LINK_CHARACTERISTICS**  
   
- Of these, the first two can be performed in any order, but both should be issued before calling **SET_LINK_CHARACTERISTICS**.  
+  Of these, the first two can be performed in any order, but both should be issued before calling **SET_LINK_CHARACTERISTICS**.  
   
- When these three calls have been successfully performed by the SNALink, the driver is ready for information transfer.
+  When these three calls have been successfully performed by the SNALink, the driver is ready for information transfer.

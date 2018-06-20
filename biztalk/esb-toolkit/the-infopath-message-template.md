@@ -18,32 +18,32 @@ As an alternative to viewing ESB fault messages in the ESB Management Portal, us
   
  The ESB Exception Management Framework can persist messages in a serialized format that, together with the ESB Exception Message Viewer template, will display several views of the fault message and the original messages it contains. The ESB Exception Message Viewer provides the following views:  
   
--   General view  
+- General view  
   
--   Exception Object view  
+- Exception Object view  
   
--   Messages view  
+- Messages view  
   
- Figure 1 shows the General view of the ESB Exception Message Viewer, which displays most ambient properties of the exception.  
+  Figure 1 shows the General view of the ESB Exception Message Viewer, which displays most ambient properties of the exception.  
   
- ![Exception Message General View](../esb-toolkit/media/ch4-exceptionmessagegeneralview.gif "Ch4-ExceptionMessageGeneralView")  
+  ![Exception Message General View](../esb-toolkit/media/ch4-exceptionmessagegeneralview.gif "Ch4-ExceptionMessageGeneralView")  
   
- **Figure 1**  
+  **Figure 1**  
   
- **The ESB Exception Message Viewer showing the General view**  
+  **The ESB Exception Message Viewer showing the General view**  
   
- Figure 2 shows the Exception Object view, which displays the properties and the stack trace from the **System.Exception** object.  
+  Figure 2 shows the Exception Object view, which displays the properties and the stack trace from the **System.Exception** object.  
   
- ![Exception Message Exception Object](../esb-toolkit/media/ch4-exceptionmessageexceptionobject.gif "Ch4-ExceptionMessageExceptionObject")  
+  ![Exception Message Exception Object](../esb-toolkit/media/ch4-exceptionmessageexceptionobject.gif "Ch4-ExceptionMessageExceptionObject")  
   
- **Figure 2**  
+  **Figure 2**  
   
- **The ESB Exception Message Viewer showing the Exception Object view**  
+  **The ESB Exception Message Viewer showing the Exception Object view**  
   
- Figure 3 shows the Messages view, which provides a drop-down list from which the user can select from available persisted messages. The view displays the values of the context properties of the persisted message and the XML message content.  
+  Figure 3 shows the Messages view, which provides a drop-down list from which the user can select from available persisted messages. The view displays the values of the context properties of the persisted message and the XML message content.  
   
- ![Exception Message Messages View](../esb-toolkit/media/ch4-exceptionmessagemessagesview.gif "Ch4-ExceptionMessageMessagesView")  
+  ![Exception Message Messages View](../esb-toolkit/media/ch4-exceptionmessagemessagesview.gif "Ch4-ExceptionMessageMessagesView")  
   
- **Figure 3**  
+  **Figure 3**  
   
- **The ESB Exception Message Viewer showing the Messages view**
+  **The ESB Exception Message Viewer showing the Messages view**

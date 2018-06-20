@@ -39,15 +39,15 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  When you start the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], WCF loads the adapter bindings for all the installed adapters. In turn, the adapter bindings are dependent on the specific enterprise application client software. So, you could face this issue for one or both of the following reasons:  
   
--   The required LOB client software is not installed on the computer where you installed the adapter.  
+- The required LOB client software is not installed on the computer where you installed the adapter.  
   
--   You did a "Typical" or "Complete" installation of the adapter, which installs all the adapters in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. However, the client libraries might be installed for only one enterprise application. As a result, the GUI fails to load the bindings for the other adapters.  
+- You did a "Typical" or "Complete" installation of the adapter, which installs all the adapters in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. However, the client libraries might be installed for only one enterprise application. As a result, the GUI fails to load the bindings for the other adapters.  
   
- **Resolution**  
+  **Resolution**  
   
--   Make sure the required client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
+- Make sure the required client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
   
--   Make sure you do a custom installation of the adapters to install only the adapter you need.  
+- Make sure you do a custom installation of the adapters to install only the adapter you need.  
   
 ###  <a name="BKMK_SiebelDispAdap"></a> The Siebel adapter does not display in the list of adapters in BizTalk Server Administration console  
  **Problem**  
@@ -97,21 +97,21 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
   
  You can fix this issue by setting the `maxItemsInObjectGraph` parameter. You can set this in any of the following two ways:  
   
--   Set this parameter by changing the `maxItemsInObjectGraph` parameter in the `ServiceBehavior` attribute on your service class.  
+- Set this parameter by changing the `maxItemsInObjectGraph` parameter in the `ServiceBehavior` attribute on your service class.  
   
--   Add the following to your application's app.config file.  
+- Add the following to your application's app.config file.  
   
-    ```  
-    <behaviors>  
-      <endpointBehaviors>  
-        <behavior name="NewBehavior">  
-          <dataContractSerializer maxItemsInObjectGraph="65536000" />  
-        </behavior>  
-      </endpointBehaviors>  
-    </behaviors>  
-    ```  
+  ```  
+  <behaviors>  
+    <endpointBehaviors>  
+      <behavior name="NewBehavior">  
+        <dataContractSerializer maxItemsInObjectGraph="65536000" />  
+      </behavior>  
+    </endpointBehaviors>  
+  </behaviors>  
+  ```  
   
- A sample app.config will look like:  
+  A sample app.config will look like:  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -157,19 +157,19 @@ Error saving properties.
   
  The adapter gives the following error when performing any operation on the Siebel system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **For BizTalk Server**  
+- **For BizTalk Server**  
   
-    ```  
-    System.ArgumentNullException: Value cannot be null.  
-    ```  
+  ```  
+  System.ArgumentNullException: Value cannot be null.  
+  ```  
   
- **Cause**  
+  **Cause**  
   
- The WCF action for the message is not specified. WCF requires a SOAP action to be specified for every operation, which informs the adapter about the operation to be performed on the LOB application.  
+  The WCF action for the message is not specified. WCF requires a SOAP action to be specified for every operation, which informs the adapter about the operation to be performed on the LOB application.  
   
- **Resolution**  
+  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Siebel](../../adapters-and-accelerators/adapter-siebel/configure-the-soap-action-for-siebel.md). See [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) for a list of actions for each operation.  
+  Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Siebel](../../adapters-and-accelerators/adapter-siebel/configure-the-soap-action-for-siebel.md). See [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) for a list of actions for each operation.  
   
 ###  <a name="BKMK_SiebelXmlParsing"></a> XmlReaderParsingException due to an incorrect operation name in the specified action  
  **Problem**  

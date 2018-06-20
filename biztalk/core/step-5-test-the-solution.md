@@ -19,20 +19,20 @@ This solution aims at automating the process of sending notifications to [!INCLU
   
 ### To test the solution  
   
-1.  Log in to `https://login.salesforce.com/?lt=de`, using the Salesforce developer login credentials.  
+1. Log in to `https://login.salesforce.com/?lt=de`, using the Salesforce developer login credentials.  
   
-2.  In the navigation bar, click **Opportunities**, and then click **Opportunity with Customer 1**. You had created this opportunity in [Step 2: Set up the Salesforce System](../core/step-2-set-up-the-salesforce-system.md).  
+2. In the navigation bar, click **Opportunities**, and then click **Opportunity with Customer 1**. You had created this opportunity in [Step 2: Set up the Salesforce System](../core/step-2-set-up-the-salesforce-system.md).  
   
-3.  In the **Opportunity Detail** section, take a note of the associated products in the **Products (Standard)** section. The values you under this section will finally get inserted into the SQL Server database. Under the **Opportunity Detail** section click the **Edit** button and change the value of **Stage** field to **Closed Won**. Click **Save**.  
+3. In the **Opportunity Detail** section, take a note of the associated products in the **Products (Standard)** section. The values you under this section will finally get inserted into the SQL Server database. Under the **Opportunity Detail** section click the **Edit** button and change the value of **Stage** field to **Closed Won**. Click **Save**.  
   
-     ![Edit an existing opportunity](../core/media/bts-sf-edit-opp.jpg "BTS_SF_Edit_Opp")  
+    ![Edit an existing opportunity](../core/media/bts-sf-edit-opp.jpg "BTS_SF_Edit_Opp")  
   
-4.  In SQL Server Management Studio, run a query on the **OrderDetails** table to select all rows.  
+4. In SQL Server Management Studio, run a query on the **OrderDetails** table to select all rows.  
   
-     ![SQL Query output](../core/media/bts-sf-sql-query.jpg "BTS_SF_SQL_Query")  
+    ![SQL Query output](../core/media/bts-sf-sql-query.jpg "BTS_SF_SQL_Query")  
   
-     Notice that it lists the products that are listed in the opportunity for which you changed the stage.  
+    Notice that it lists the products that are listed in the opportunity for which you changed the stage.  
   
-     ![Add products to an opportunity](../core/media/bts-sf-add-product.gif "BTS_SF_Add_Product")  
+    ![Add products to an opportunity](../core/media/bts-sf-add-product.gif "BTS_SF_Add_Product")  
   
- You can see that the records entered in the **OrderDetails** table correspond to the sales opportunity created in Salesforce for a given set of products. You can repeat these steps by creating new opportunities and associating new products with the opportunity.
+   You can see that the records entered in the **OrderDetails** table correspond to the sales opportunity created in Salesforce for a given set of products. You can repeat these steps by creating new opportunities and associating new products with the opportunity.

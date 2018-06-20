@@ -25,19 +25,19 @@ This section contains instructions for configuring Enterprise Single Sign-On (SS
   
 ### To configure the master secret server and create the Credential database on Computer A  
   
-1.  Perform a custom installation of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], and install only the Enterprise Single Sign-On runtime component.  
+1. Perform a custom installation of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], and install only the Enterprise Single Sign-On runtime component.  
   
-2.  Run the Configuration Wizard to configure SSO on the master secret server.  
+2. Run the Configuration Wizard to configure SSO on the master secret server.  
   
-     On the **Configuration Questions** page, in the **Is this the master secret server** list, select **Yes**, and then click **Next**.  
+    On the **Configuration Questions** page, in the **Is this the master secret server** list, select **Yes**, and then click **Next**.  
   
-3.  On the **Windows Accounts** page, specify the service account credentials for the SSO service. This must be a member of the SSO Administrators group.  
+3. On the **Windows Accounts** page, specify the service account credentials for the SSO service. This must be a member of the SSO Administrators group.  
   
-4.  On the **Database Configurations** page, specify the location of the SQL server (computer C) and the name of the Credential database (SSODB).  
+4. On the **Database Configurations** page, specify the location of the SQL server (computer C) and the name of the Credential database (SSODB).  
   
-5.  Back up the master secret.  
+5. Back up the master secret.  
   
-     For more information, see [How to Back Up the Master Secret](../esso/how-to-back-up-the-master-secret.md).  
+    For more information, see [How to Back Up the Master Secret](../esso/how-to-back-up-the-master-secret.md).  
   
 ### To configure the SSO server on Computer B  
   

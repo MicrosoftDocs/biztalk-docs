@@ -16,24 +16,24 @@ manager: "anneta"
 ---
 # Single Sign-On: Event 10505
 ## Details  
-  
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10505|  
-|Event Source|ENTSSO|  
-|Component|N\A|  
-|Symbolic Name|SSO_INFO_SERVICE_STOPPED|  
-|Message Text|The SSO service has stopped.|  
-  
+
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10505                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N\A                             |
+|  Symbolic Name  |                  SSO_INFO_SERVICE_STOPPED                  |
+|  Message Text   |                The SSO service has stopped.                |
+
 ## Explanation  
  This Information event indicates that the ENTSSO service has stopped.  
-  
+
 ## User Action  
-  
--   No user action is necessary.  
-  
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
-  
--   [Using SSO](../core/using-sso.md)
+
+- No user action is necessary.  
+
+  For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+
+- [Using SSO](../core/using-sso.md)

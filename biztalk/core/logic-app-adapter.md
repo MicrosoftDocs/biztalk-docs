@@ -258,14 +258,14 @@ For BizTalk Server to send messages to a logic app, the logic app must have a **
 
 	**Option 1** : Paste the HTTP POST URL you copied in the previous step in the **Trigger (Callback URI)** property. You can also copy the URI using the following steps:  
   
-	  1. In the [Azure portal](https://portal.azure.com), open your logic app in the Logic Apps designer (edit mode). 
-	  2. Select the **When an HTTP request is received** card, and copy the **URL**. 
-	  3. In your send port, paste this URL in the **Trigger (Callback URI)** property.
+   1. In the [Azure portal](https://portal.azure.com), open your logic app in the Logic Apps designer (edit mode). 
+   2. Select the **When an HTTP request is received** card, and copy the **URL**. 
+   3. In your send port, paste this URL in the **Trigger (Callback URI)** property.
 
-	> [!TIP] 
-	> You can also use your management APIs to get this URI.
+      > [!TIP] 
+      > You can also use your management APIs to get this URI.
 
-	**Option 2** : If you don't know the Callback URI for your trigger, select **Configure**, and sign-in to Azure. Then, use the drop-down lists to choose your **Subscription**, **Resource Group**, **Logic App**, and **Trigger**.
+      **Option 2** : If you don't know the Callback URI for your trigger, select **Configure**, and sign-in to Azure. Then, use the drop-down lists to choose your **Subscription**, **Resource Group**, **Logic App**, and **Trigger**.
  
 6. **Optional**. In the **Binding** tab, configure any timeout and encoding-related properties of the underlying WCF-WebHttp binding. These properties are helpful when dealing with large messages.
 

@@ -32,7 +32,7 @@ This tutorial provides step-by-step procedures for using [!INCLUDE[btsCoName](..
   
 > [!NOTE]
 >  This tutorial requires Windows Server Standard, Enterprise, Datacenter, or Web Edition, and a custom BTAHL7 installation that includes the MLLP test tools. Additionally, you should be familiar with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] development in [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] and the information found in [learn about the HL7 accelerator and the BizTalk tools available](../../adapters-and-accelerators/accelerator-hl7/learn-the-hl7-accelerator-and-the-biztalk-tools-available.md).  
-  
+> 
 > [!NOTE]
 >  You can avoid errors by undeploying assemblies, stopping send ports, and disabling receive locations that you used in previous tutorials.  
   

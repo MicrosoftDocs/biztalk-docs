@@ -99,11 +99,11 @@ manager: "anneta"
 ### Schema Resolution  
  There are two schema lookup algorithms that are supported when executing a pipeline from an orchestration:  
   
--   Resolution by type  
+- Resolution by type  
   
--   Resolution by name  
+- Resolution by name  
   
- In cases where duplicate schemas are deployed, the algorithm's logic for selecting the appropriate schema is identical to that used when executing in the context of the messaging infrastructure.  
+  In cases where duplicate schemas are deployed, the algorithm's logic for selecting the appropriate schema is identical to that used when executing in the context of the messaging infrastructure.  
   
 ### Transactional Pipelines  
  Pipelines whose stages call transactional components will not have a transactional context available.  Any call to **IPipelineContext.GetTransaction()** will throw **NotSupportedException**.  This does not preclude execution of such a pipeline from an orchestration, but it does mean that the pipeline will have to detect and handle this situation.  
@@ -131,15 +131,15 @@ manager: "anneta"
 ## Restrictions  
  The following types of pipelines **cannot** be executed from within an orchestration:  
   
--   Transactional pipelines  
+- Transactional pipelines  
   
--   Recoverable pipelines  
+- Recoverable pipelines  
   
--   Pipelines which call the BAM interceptor API (a **NotSupportedException** will be thrown).  
+- Pipelines which call the BAM interceptor API (a **NotSupportedException** will be thrown).  
   
--   The same pipeline instance cannot be executed in different branches of the parallel shape unless it is placed in a synchronized scope in every branch.  
+- The same pipeline instance cannot be executed in different branches of the parallel shape unless it is placed in a synchronized scope in every branch.  
   
--   Existing pipelines (assemblies) that were built against the [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] SDK.  
+- Existing pipelines (assemblies) that were built against the [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] SDK.  
   
 ## Failure Modes and Effects  
  Any failure in pipeline execution which would have resulted in a suspended message were this pipeline to be called from within the BizTalk Server Messaging Infrastructure will instead result in an exception being thrown.  The exception thrown is of type **Microsoft.XLANGs.Pipeline.XLANGPipelineManagerException**.  This thrown exception can be handled in a catch block within the calling orchestration.  If the orchestration does not catch the thrown exception, the XLANGs engine reports an error the text of which includes the exception information in the thrown exception.  
@@ -148,11 +148,11 @@ manager: "anneta"
   
  The **Message** property of the **XLANGPipelineManagerException** class contains details of the pipeline's execution error. This detail is in the following format:  
   
--   There was a failure executing pipeline \<pipeline type\>.  Error details \<formatted error message\>.  
+- There was a failure executing pipeline \<pipeline type\>.  Error details \<formatted error message\>.  
   
- In this message, \<pipeline type\> is the name of the pipeline class and \<formatted error message\> is a description of the specific failure that occurred during pipeline execution.  
+  In this message, \<pipeline type\> is the name of the pipeline class and \<formatted error message\> is a description of the specific failure that occurred during pipeline execution.  
   
- For example, if an orchestration calls a receive pipeline and that pipeline's execution fails because none of the pipeline's components recognizes the message, the values of the **XLANGPipelineManagerException**'s properties would be:  
+  For example, if an orchestration calls a receive pipeline and that pipeline's execution fails because none of the pipeline's components recognizes the message, the values of the **XLANGPipelineManagerException**'s properties would be:  
   
 |XLANGPipelineManagerException property|Value|  
 |--------------------------------------------|-----------|  

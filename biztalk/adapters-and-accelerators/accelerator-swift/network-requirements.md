@@ -19,5 +19,5 @@ manager: "anneta"
 ---
 # Network Requirements
 You will need the following network components to build the prescribed deployment architecture:  
-  
--   A firewall server such as the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Security and Acceleration (ISA) Server.
+
+- A firewall server such as the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Security and Acceleration (ISA) Server.

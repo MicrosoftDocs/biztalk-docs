@@ -57,11 +57,11 @@ BizTalk Mapper provides solutions for a variety of mapping scenarios ranging fro
   
  In these fragments:  
   
--   **SrcLoopingRecord**, a **Record** node in input instance messages, can occur from one to five times. It also contains the child **Field Element** nodes **Field1** (a string) and **Field2** (an integer) that occur once for each instance of their parent.  
+- **SrcLoopingRecord**, a **Record** node in input instance messages, can occur from one to five times. It also contains the child **Field Element** nodes **Field1** (a string) and **Field2** (an integer) that occur once for each instance of their parent.  
   
--   **DstLoopingRecord**, a **Record** node in output instance messages, can occur zero (0) or more times, unbounded. It also contains the child **Field Element** nodes **FieldA** (a string) and **FieldB** (an integer) that occur once for each instance of their parent.  
+- **DstLoopingRecord**, a **Record** node in output instance messages, can occur zero (0) or more times, unbounded. It also contains the child **Field Element** nodes **FieldA** (a string) and **FieldB** (an integer) that occur once for each instance of their parent.  
   
- Assuming that Field1 is mapped to FieldA and Field2 is mapped to FieldB, and that the following fragment from an input instance message has processed those mappings, the following fragment from an output instance message would be produced.  
+  Assuming that Field1 is mapped to FieldA and Field2 is mapped to FieldB, and that the following fragment from an input instance message has processed those mappings, the following fragment from an output instance message would be produced.  
   
 ### Input Instance Message Fragment  
   

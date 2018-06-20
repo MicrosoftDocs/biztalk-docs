@@ -193,11 +193,11 @@ A transport-level error has occurred when sending the request to the server. (pr
 ##### Problem  
  You may not be able to delete a MessageBox database. If the deletion fails, one of the following issues may be responsible:  
   
--   The cache refresh interval has not expired.  
+- The cache refresh interval has not expired.  
   
--   The MessageBox database contains incomplete instances.  
+- The MessageBox database contains incomplete instances.  
   
- If the cache refresh interval has not yet expired, the following error message appears when the deletion fails: "MessageBox cannot be deleted since there could be remaining work in the MessageBox. Please ensure that there are no more incomplete instances in the MessageBox, and try again."  
+  If the cache refresh interval has not yet expired, the following error message appears when the deletion fails: "MessageBox cannot be deleted since there could be remaining work in the MessageBox. Please ensure that there are no more incomplete instances in the MessageBox, and try again."  
   
 ##### Cause  
  The cache refresh interval must expire between the time you disable new message publication in the MessageBox database and the time you delete the database. By default, the cache refresh interval is 60 seconds.  

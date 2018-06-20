@@ -22,17 +22,17 @@ This topic discusses the following common problems that can arise when using BAM
 ## You Receive a SQL Exception Concerning a Completed Distributed Transaction or a Transaction Descriptor  
  You may see one of the following exceptions when running the BAM Windows Communication Framework (WCF) interceptor:  
   
--   Distributed transaction completed. Either enlist this session in a new transaction or the NULL transaction.  
+- Distributed transaction completed. Either enlist this session in a new transaction or the NULL transaction.  
   
--   New request is not allowed to start because it should come with a valid transaction descriptor.  
+- New request is not allowed to start because it should come with a valid transaction descriptor.  
   
- Some suggestions for troubleshooting this problem are:  
+  Some suggestions for troubleshooting this problem are:  
   
--   Enable BAM tracing. This trace will include all relevant messages including the root cause of the error. For more information about BAM tracing, see [How to Enable Tracing in BAM](../core/how-to-enable-tracing-in-bam.md).  
+- Enable BAM tracing. This trace will include all relevant messages including the root cause of the error. For more information about BAM tracing, see [How to Enable Tracing in BAM](../core/how-to-enable-tracing-in-bam.md).  
   
--   When you see this distributed transaction coordinator (DTC) exception, try to rerun exactly the same scenario without transactions.  
+- When you see this distributed transaction coordinator (DTC) exception, try to rerun exactly the same scenario without transactions.  
   
--   Use SQL Server Profiler and look for errors in the trace that will cause the transaction to be aborted.  
+- Use SQL Server Profiler and look for errors in the trace that will cause the transaction to be aborted.  
   
 ## You receive an error similar to "interceptor configuration polling interval '0' must be at least '5' seconds" when using the WCF Interceptor  
  You may encounter this error when you do not explicitly provide an interceptor configuration polling interval value in the application configuration file, or when you provide a value but it is less than 5 seconds, the required minimum.  

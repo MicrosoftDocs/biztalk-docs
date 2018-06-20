@@ -24,19 +24,19 @@ The following topics cover localization issues that you may encounter when devel
   
  If your adapter has globalization or localization requirements, you can implement the XSD schema in one of two ways.  
   
--   Use separate XSD files outside the design-time binary. Make the whole text of the schema a manifest resource.  
+- Use separate XSD files outside the design-time binary. Make the whole text of the schema a manifest resource.  
   
--   Dynamically replace the Property Names and Description from the resource:  
+- Dynamically replace the Property Names and Description from the resource:  
   
-    -   Add a _locID to each element that you want to localize.  
+  -   Add a _locID to each element that you want to localize.  
   
-    -   Use an xpath to pull back all the nodes in the schema that have a _locID attribute.  
+  -   Use an xpath to pull back all the nodes in the schema that have a _locID attribute.  
   
-    -   Look up the resources for a string indexed by the value of the _locID.  
+  -   Look up the resources for a string indexed by the value of the _locID.  
   
-    -   Replace the node text with the result.  
+  -   Replace the node text with the result.  
   
- The following is sample code for the second option:  
+  The following is sample code for the second option:  
   
 ```  
 string mySchema = GetSchemaFromResource(“mySchema”);  

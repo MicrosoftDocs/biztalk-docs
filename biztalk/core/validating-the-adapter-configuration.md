@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Validating the Adapter Configuration
-While adding the receive location and send port, you will be asked to configure your custom properties in the **\<***Adapter Name***\> Transport Properties** dialog box. The XSD schema files in the AdapterHarness project define these properties.  
+While adding the receive location and send port, you will be asked to configure your custom properties in the **\<**<em>Adapter Name</em>**\> Transport Properties** dialog box. The XSD schema files in the AdapterHarness project define these properties.  
   
  Validation of the configuration schema occurs in three parts:  
   

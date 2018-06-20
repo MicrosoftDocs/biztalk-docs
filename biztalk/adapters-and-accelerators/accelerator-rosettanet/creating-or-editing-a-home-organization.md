@@ -43,29 +43,29 @@ This topic describes how to create or edit a home organization. The home organiz
   
 ### To create a home organization definition  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
+1. Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   
-2.  In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
+2. In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
   
-3.  Right-click **Home Organizations**, point to **New**, and then click **Home Organization**.  
+3. Right-click **Home Organizations**, point to **New**, and then click **Home Organization**.  
   
-4.  In the New Home Organization Properties dialog box, on the **General** and **Contact Properties** tabs, enter values for settings. For information about these settings, see the preceding table.  
+4. In the New Home Organization Properties dialog box, on the **General** and **Contact Properties** tabs, enter values for settings. For information about these settings, see the preceding table.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 ### To edit a home organization  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
+1. Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   
-2.  In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
+2. In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
   
-3.  Click **Home Organizations**.  
+3. Click **Home Organizations**.  
   
-4.  Right-click the home organization you want to edit, and then click **Properties**.  
+4. Right-click the home organization you want to edit, and then click **Properties**.  
   
-5.  In the *\<home organization\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed. For information about these settings, see the preceding table.  
+5. In the *\<home organization\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed. For information about these settings, see the preceding table.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
 ## See Also  
  [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)   

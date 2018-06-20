@@ -20,14 +20,15 @@ manager: "anneta"
 ---
 # Exceptions and Error Handling with the SAP adapter
 Lists the exceptions that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] throws. These can contain:  
-  
--   An inner exception, which is a system exception that the .NET Framework throws  
-  
--   An LOB exception that the LOB client library throws.  
-  
- For more information about the inner exception, see the .NET Framework or SAP documentation. Exceptions also contain a detailed error message that may help resolve the problem.  
+
+- An inner exception, which is a system exception that the .NET Framework throws  
+
+- An LOB exception that the LOB client library throws.  
+
+  For more information about the inner exception, see the .NET Framework or SAP documentation. Exceptions also contain a detailed error message that may help resolve the problem.  
 
 ## Exception descriptions  
+
 |Exception|Possible Cause/Description|  
 |---------------|---------------------------------|  
 |ObjectDisposedException|The adapter throws this exception when the adapter client is trying to access the response XMLReader after it has been disposed.|  
@@ -39,6 +40,6 @@ Lists the exceptions that the [!INCLUDE[adaptersap](../../includes/adaptersap-md
 |RFCException (derived from AdapterException)|The adapter throws this exception if there is an error received from the SAP system. The inner exception is the actual exception received from the SAP system.|  
 |UnsupportedOperationException|The adapter throws this exception when the adapter client specifies an invalid action.|  
 |MetadataException|The adapter throws this exception if there is an error during metadata retrieval, browse, or search.|  
-  
+
 ## See Also  
 [Troubleshoot the SAP adapter](../../adapters-and-accelerators/adapter-sap/troubleshoot-the-sap-adapter.md)

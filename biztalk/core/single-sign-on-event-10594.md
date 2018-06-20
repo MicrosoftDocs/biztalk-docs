@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10594
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10594|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_TICKET_VALIDATE_FAILED|  
-|Message Text|Validation of the ticket failed. The sender name must match that of the ticket issuer.%r<br /><br /> Application Name: %1%r<br /><br /> Ticket Issued By: %2%r<br /><br /> Sender Name: %3|  
+|                 |                                                                                                                                                                                            |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                 Enterprise Single Sign-On                                                                                  |
+| Product Version |                                                                 [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                 |
+|    Event ID     |                                                                                           10594                                                                                            |
+|  Event Source   |                                                                                           ENTSSO                                                                                           |
+|    Component    |                                                                                            N/A                                                                                             |
+|  Symbolic Name  |                                                                              SSO_WARN_TICKET_VALIDATE_FAILED                                                                               |
+|  Message Text   | Validation of the ticket failed. The sender name must match that of the ticket issuer.%r<br /><br /> Application Name: %1%r<br /><br /> Ticket Issued By: %2%r<br /><br /> Sender Name: %3 |
   
 ## Explanation  
  In order for a ticket to be validated, the Ticket Issued By and Sender Name fields (in the warning message) must match. If, however, the message is sent through a BizTalk untrusted host, the Sender Name gets changed to the name of the BizTalk untrusted host, and the ticket will not validate.  

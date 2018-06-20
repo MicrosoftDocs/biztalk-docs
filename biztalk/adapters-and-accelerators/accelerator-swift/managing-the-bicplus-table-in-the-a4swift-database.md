@@ -36,23 +36,23 @@ manager: "anneta"
   
 #### To import BIC data from the SWIFT Bicplus database  
   
-1.  Click **Start**, point to **All Programs**, point to the inistalled version of SQL Server, and then click **SQL Server Management Studio**.  
+1. Click **Start**, point to **All Programs**, point to the inistalled version of SQL Server, and then click **SQL Server Management Studio**.  
   
-2.  In the Connect to Server dialog box, click **Connect**.  
+2. In the Connect to Server dialog box, click **Connect**.  
   
-3.  In the Microsoft SQL Server Management Studio window, expand your server node, and then **Databases**.  
+3. In the Microsoft SQL Server Management Studio window, expand your server node, and then **Databases**.  
   
-4.  Right-click **A4SWIFT**, point to **Tasks**, and then click **Import Data**.  
+4. Right-click **A4SWIFT**, point to **Tasks**, and then click **Import Data**.  
   
-5.  On the SQL Server Import and Export Wizard welcome page, click **Next**.  
+5. On the SQL Server Import and Export Wizard welcome page, click **Next**.  
   
-6.  On the **Choose a Data Source** page, if importing BIC data from the SWIFT Bicplus [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] spreadsheet, select **Microsoft Excel** in the **Data Source** text box. Browse to the location of the spreadsheet, and select the file name of the spreadsheet in the **Excel file path** text box. Click **Next**.  
+6. On the **Choose a Data Source** page, if importing BIC data from the SWIFT Bicplus [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] spreadsheet, select **Microsoft Excel** in the **Data Source** text box. Browse to the location of the spreadsheet, and select the file name of the spreadsheet in the **Excel file path** text box. Click **Next**.  
   
-     If importing BIC data from the Oracle database, select **Microsoft ODBC Driver for Oracle** in the **Data Source** text box. Enter the server with the Oracle database, and the user name and password required to connect to that server, and then click **Next**.  
+    If importing BIC data from the Oracle database, select **Microsoft ODBC Driver for Oracle** in the **Data Source** text box. Enter the server with the Oracle database, and the user name and password required to connect to that server, and then click **Next**.  
   
-7.  On the **Choose a Destination** page, verify that **Microsoft OLE DB Provider for SQL Server** is entered in the **Destination** text box, and that **Use Windows Authentication** is selected. If you are populating the Bicplus table in the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database, verify that **A4SWIFT** is entered in the **Database** text box. If you are using a custom database, enter the name of that database in the **Database** text box. Click **Next**.  
+7. On the **Choose a Destination** page, verify that **Microsoft OLE DB Provider for SQL Server** is entered in the **Destination** text box, and that **Use Windows Authentication** is selected. If you are populating the Bicplus table in the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database, verify that **A4SWIFT** is entered in the **Database** text box. If you are using a custom database, enter the name of that database in the **Database** text box. Click **Next**.  
   
-8.  On the **Select Table Copy or Query** page, verify that **Copy data from one or more tables or views** is selected. If you need to use a query to specify the data, select **Write a query to specify the data to transfer**. Click **Next**.  
+8. On the **Select Table Copy or Query** page, verify that **Copy data from one or more tables or views** is selected. If you need to use a query to specify the data, select **Write a query to specify the data to transfer**. Click **Next**.  
   
 9. On the **Select Source Tables and Views** page, click **Bicplus** in the **Source** column, select **Bicplus** in the **Destination** column, and then click **Next**.  
   

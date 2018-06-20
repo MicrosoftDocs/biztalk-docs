@@ -32,15 +32,15 @@ This topic describes what happens when you deploy assemblies from [!INCLUDE[btsV
   
  To work around this issue, use the following procedure:  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the assembly.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the assembly.  
   
-2.  After the assembly is deployed, open BizTalk Administrator.  
+2. After the assembly is deployed, open BizTalk Administrator.  
   
-3.  Modify the destination location as appropriate. For example, change the destination location to %BTAD_InstallDir%.  
+3. Modify the destination location as appropriate. For example, change the destination location to %BTAD_InstallDir%.  
   
- Once you modify the destination location, this new location will be used as default for subsequent redeploys of the same assembly.  
+   Once you modify the destination location, this new location will be used as default for subsequent redeploys of the same assembly.  
   
- For more information, see [How to Deploy a BizTalk Assembly from Visual Studio](../core/how-to-deploy-a-biztalk-assembly-from-visual-studio.md).  
+   For more information, see [How to Deploy a BizTalk Assembly from Visual Studio](../core/how-to-deploy-a-biztalk-assembly-from-visual-studio.md).  
   
 ## Deploying Solutions vs. Projects  
  We strongly recommend that you always deploy a solution rather than an individual project. When you deploy an individual project and there are dependencies between an assembly you are deploying and another assembly, you must take a number of manual steps to complete the deployment. When you deploy a solution, however, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] automatically take all of the steps to manage dependencies between assemblies. For more information, see [How to Redeploy a BizTalk Assembly from Visual Studio](../core/how-to-redeploy-a-biztalk-assembly-from-visual-studio.md).  

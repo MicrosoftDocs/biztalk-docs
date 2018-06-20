@@ -27,21 +27,21 @@ Below are some frequently asked general and conceptual questions about Windows®
 ## What are the WCF adapter bindings?  
  WCF bindings fall into one of two categories:  
   
--   **Custom Bindings:** For increased binding flexibility, the special custom binding exists. This covers communication situations that require deviations from the standard bindings. The WCF-Custom and WCF-CustomIsolated adapters allow development of extensive binding customizations. This is done by allowing the composition of existing binding elements (the BindingElement class) and the application of behaviors (the Behavior class).  
+- **Custom Bindings:** For increased binding flexibility, the special custom binding exists. This covers communication situations that require deviations from the standard bindings. The WCF-Custom and WCF-CustomIsolated adapters allow development of extensive binding customizations. This is done by allowing the composition of existing binding elements (the BindingElement class) and the application of behaviors (the Behavior class).  
   
--   **Standard bindings:** Microsoft’s goal is to develop adapters focused on the most common communication scenarios. Using standard bindings simplifies the developer’s experience by hiding many details of the communication protocols. The set of WCF adapters in BizTalk Server reflects the set of bindings available in the .NET Framework 4.0 WCF libraries. Standard bindings were introduced to the .NET WCF libraries to make typical binding patterns easier to use. They cover the most commonly used communication scenarios and include:  
+- **Standard bindings:** Microsoft’s goal is to develop adapters focused on the most common communication scenarios. Using standard bindings simplifies the developer’s experience by hiding many details of the communication protocols. The set of WCF adapters in BizTalk Server reflects the set of bindings available in the .NET Framework 4.0 WCF libraries. Standard bindings were introduced to the .NET WCF libraries to make typical binding patterns easier to use. They cover the most commonly used communication scenarios and include:  
   
-    -   WCF-WsHttp  
+  -   WCF-WsHttp  
   
-    -   WCF-BasicHttp  
+  -   WCF-BasicHttp  
   
-    -   WCF-NetTcp  
+  -   WCF-NetTcp  
   
-    -   WCF-NetMsmg  
+  -   WCF-NetMsmg  
   
-    -   WCF-NetNamedPipe  
+  -   WCF-NetNamedPipe  
   
- BizTalk Server R2 ships with the following WCF adapters:  
+  BizTalk Server R2 ships with the following WCF adapters:  
   
 1.  **WCF-WSHttp adapter:**  Provides the WS-* standards support over the HTTP transport. The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication. The transport is HTTP or HTTPS, and message encoding is a text or Message Transmission Optimization Mechanism (MTOM) encoding.  
   
@@ -64,13 +64,13 @@ Below are some frequently asked general and conceptual questions about Windows®
   
  A binding is made up of a collection of binding elements. Each element describes some aspect of how the endpoint communicates with clients. A binding must include:  
   
--   At least one transport binding element.  
+- At least one transport binding element.  
   
--   At least one message-encoding binding element (which the transport binding element can provide by default).  
+- At least one message-encoding binding element (which the transport binding element can provide by default).  
   
--   Any number of other protocol binding elements.  
+- Any number of other protocol binding elements.  
   
- The process that builds a runtime environment out of this description allows each binding element to contribute code to that environment. It is generally required for a client to match the same binding types and adapter that the called WCF Service supports. At the WCF level, a binding can be defined declaratively in a configuration file or explicitly through code. A WCF adapter facilitates communication using a specific WCF binding, and thus the terms “adapter” and “binding” tend to become almost identical in their usage.  
+  The process that builds a runtime environment out of this description allows each binding element to contribute code to that environment. It is generally required for a client to match the same binding types and adapter that the called WCF Service supports. At the WCF level, a binding can be defined declaratively in a configuration file or explicitly through code. A WCF adapter facilitates communication using a specific WCF binding, and thus the terms “adapter” and “binding” tend to become almost identical in their usage.  
   
 ## When using the WCF adapters, how do you decide which WCF binding to use?  
  You can make this decision based upon the messaging pattern, external constraints, and performance, in that order.  
@@ -107,12 +107,12 @@ Below are some frequently asked general and conceptual questions about Windows®
   
  The actual endpoint exists as a receive location to which WCF messages are sent.  There are multiple ways to expose a WCF endpoint in a BizTalk Server application:  
   
--   You can use the BizTalk WCF Service Publishing Wizard to publish a BizTalk orchestration as a WCF endpoint.  
+- You can use the BizTalk WCF Service Publishing Wizard to publish a BizTalk orchestration as a WCF endpoint.  
   
--   You can use the BizTalk WCF Service Publishing Wizard to create a receive location in an existing BizTalk application.  
+- You can use the BizTalk WCF Service Publishing Wizard to create a receive location in an existing BizTalk application.  
   
--   You can manually create a WCF endpoint by configuring a receive location’s binding and address in code.  In this case the receive location is actually un-typed.  It has a contract that is specified purely in terms of the WCF Message class, allowing it to receive any message format into the MessageBox database.  
+- You can manually create a WCF endpoint by configuring a receive location’s binding and address in code.  In this case the receive location is actually un-typed.  It has a contract that is specified purely in terms of the WCF Message class, allowing it to receive any message format into the MessageBox database.  
   
- Each BizTalk receive location that uses a WCF adapter is exposed as a WCF endpoint into which a WCF client can make a call.  A receive location internally uses its own WCF ServiceHost to allow the different receive locations to be enabled or disabled independently of each other. The lifetime of the service endpoint exists as long as that receive location is enabled. It is because of this lifetime issue that WCF ServiceHosts correspond to receive locations rather than to receive ports. The design of WCF ensures that individual ServiceHosts are not expensive in terms of runtime resources and many can be run within the same executable without any trouble.  
+  Each BizTalk receive location that uses a WCF adapter is exposed as a WCF endpoint into which a WCF client can make a call.  A receive location internally uses its own WCF ServiceHost to allow the different receive locations to be enabled or disabled independently of each other. The lifetime of the service endpoint exists as long as that receive location is enabled. It is because of this lifetime issue that WCF ServiceHosts correspond to receive locations rather than to receive ports. The design of WCF ensures that individual ServiceHosts are not expensive in terms of runtime resources and many can be run within the same executable without any trouble.  
   
- Each BizTalk send port that uses a WCF adapter corresponds to a call made to a WCF service. When there are messages to be sent, BizTalk Server gives the adapter those messages that correspond to the creation of the WCF client proxy within the BizTalk WCF adapter. After the messages are sent the WCF client proxy is released. The WCF lifetime on a send port constantly comes and goes as a proxy is created, used, and torn down.
+  Each BizTalk send port that uses a WCF adapter corresponds to a call made to a WCF service. When there are messages to be sent, BizTalk Server gives the adapter those messages that correspond to the creation of the WCF client proxy within the BizTalk WCF adapter. After the messages are sent the WCF client proxy is released. The WCF lifetime on a send port constantly comes and goes as a proxy is created, used, and torn down.

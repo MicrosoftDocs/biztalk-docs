@@ -26,31 +26,31 @@ The HubScenario sample demonstrates how to manage message transmission in a hub 
   
 ### To build and initialize this sample  
   
-1.  In Visual Studio, open \<drive\>:\Program Files\Microsoft Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario\HubScenario.btproj. In Solution Explorer, right-click the HubScenario project, and then click Properties. In the Properties page for the HubScenario project, in the Signing tab select **Sign the assembly** checkbox, and select **HubScenario.snk** in **Choose a strong name key file** and click **Ok**.  
+1. In Visual Studio, open \<drive\>:\Program Files\Microsoft Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario\HubScenario.btproj. In Solution Explorer, right-click the HubScenario project, and then click Properties. In the Properties page for the HubScenario project, in the Signing tab select **Sign the assembly** checkbox, and select **HubScenario.snk** in **Choose a strong name key file** and click **Ok**.  
   
-2.  In Solution Explorer, right-click the HubHelper project, and then click Properties. In the Properties page for the HubHelper project, in the Signing tab check Sign the assembly checkbox. In Choose a strong name key file field, select new type **HubHelper.snk** as Key file name and click **OK**.  
+2. In Solution Explorer, right-click the HubHelper project, and then click Properties. In the Properties page for the HubHelper project, in the Signing tab check Sign the assembly checkbox. In Choose a strong name key file field, select new type **HubHelper.snk** as Key file name and click **OK**.  
   
-    > [!NOTE]
-    >  If you do not manually enter the assembly key file in the HubScenario and HubHelper projects, the assemblies will not deploy.  
+   > [!NOTE]
+   >  If you do not manually enter the assembly key file in the HubScenario and HubHelper projects, the assemblies will not deploy.  
   
-3.  At a command prompt, move to *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario folder. Run the file Setup.bat (or on a 64-bit computer, run Setupx64.bat).  
+3. At a command prompt, move to *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario folder. Run the file Setup.bat (or on a 64-bit computer, run Setupx64.bat).  
   
 ## Demonstrates  
  The HubScenario.ods orchestration demonstrates how to perform the following tasks:  
   
-1.  Receives the message from the line-of-business application.  
+1. Receives the message from the line-of-business application.  
   
-2.  Removes the `CDATA` element from the service content, returning the XML string.  
+2. Removes the `CDATA` element from the service content, returning the XML string.  
   
-3.  Retrieves the destination party name, PIPCode, PIPInstanceID, and PIPVersion for the final message.  
+3. Retrieves the destination party name, PIPCode, PIPInstanceID, and PIPVersion for the final message.  
   
-4.  Retrieves the DUNS number for the final recipient.  
+4. Retrieves the DUNS number for the final recipient.  
   
-5.  Determines the category of the message, and adds the DOCTYPE element that contains a reference to the appropriate schema to the service content.  
+5. Determines the category of the message, and adds the DOCTYPE element that contains a reference to the appropriate schema to the service content.  
   
-6.  Constructs a message with the new destination party name, DUNS number, PIP code information, and service content.  
+6. Constructs a message with the new destination party name, DUNS number, PIP code information, and service content.  
   
-7.  Submits the message for processing by [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]. This is a call to `SubmitRNIF.SubmitMessage`.  
+7. Submits the message for processing by [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]. This is a call to `SubmitRNIF.SubmitMessage`.  
   
 ## See Also  
  [Sample Hub-Based Scenario](../../adapters-and-accelerators/accelerator-rosettanet/sample-hub-based-scenario.md)   

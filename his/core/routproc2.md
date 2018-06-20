@@ -51,16 +51,16 @@ USHORT retstat 
 ## Remarks  
  The routing procedure should first call [sbpurcvx](../core/sbpurcvx1.md), which handles any Open response messages, as follows:  
   
- **sbpurcvx(**&*msgptr*, *locl*, *retstat***)**  
+ <strong>sbpurcvx(</strong>&*msgptr*, *locl*, <em>retstat</em>**)**  
   
  A return code of TRUE from **sbpurcvx** indicates that **sbpurcvx** has accepted the message; an Open error response has been received for this application, and resource location is continuing. The routing procedure should not process the message any further and should return **TRUE** to prevent the DMOD from calling further routing procedures.  
   
  A return code of **FALSE** from **sbpurcvx** indicates that the routing procedure should:  
   
--   If the message is for this application, take responsibility for the message and return **TRUE** to prevent the DMOD from calling further routing procedures.  
+- If the message is for this application, take responsibility for the message and return **TRUE** to prevent the DMOD from calling further routing procedures.  
   
--   If the message is not for this application, return **FALSE** so that the DMOD tries further routing procedures.  
+- If the message is not for this application, return **FALSE** so that the DMOD tries further routing procedures.  
   
- If a path error is returned, *msgptr* will not point to a valid message, and no more function management interface (FMI) messages will be returned for the locality value indicated. The application is responsible for ending all sessions using this locality. The routing procedure must return **FALSE**. This ensures that the lost locality is reported to all other routing procedures.  
+  If a path error is returned, *msgptr* will not point to a valid message, and no more function management interface (FMI) messages will be returned for the locality value indicated. The application is responsible for ending all sessions using this locality. The routing procedure must return **FALSE**. This ensures that the lost locality is reported to all other routing procedures.  
   
- If the message is for this application, the routing procedure can either process the message immediately or put the message on an application queue, and then post the application using a semaphore. For more information, see [Receiving Messages](./receiving-messages1.md).
+  If the message is for this application, the routing procedure can either process the message immediately or put the message on an application queue, and then post the application using a semaphore. For more information, see [Receiving Messages](./receiving-messages1.md).

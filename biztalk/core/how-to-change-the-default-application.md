@@ -32,11 +32,11 @@ This topic describes how to change the default application by editing the proper
   
 ### To change the default application  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, right-click the application that you want to make the default, and then click **Properties**.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, right-click the application that you want to make the default, and then click **Properties**.  
   
-3.  Select the **Make this the default application** check box, and click **OK**.  
+3. Select the **Make this the default application** check box, and click **OK**.  
   
 ## See Also  
  [Creating and Modifying BizTalk Applications](../core/creating-and-modifying-biztalk-applications.md)

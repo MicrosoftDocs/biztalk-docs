@@ -18,13 +18,13 @@ A message always contains fixed-format header information such as a message type
   
  Messages are saved in buffers that consist of one header and zero or more elements:  
   
--   The header contains the fixed-format information and a pointer to an element. (This pointer will be NULL if there are no elements associated with the message.)  
+- The header contains the fixed-format information and a pointer to an element. (This pointer will be NULL if there are no elements associated with the message.)  
   
--   An element contains any extra data for a message and a pointer to another element if the data continues into another element.  
+- An element contains any extra data for a message and a pointer to another element if the data continues into another element.  
   
- Buffer headers and elements are regarded as contiguous (8-bit) byte sequences. Messages of any length can be built up by chaining sufficient elements to a header.  
+  Buffer headers and elements are regarded as contiguous (8-bit) byte sequences. Messages of any length can be built up by chaining sufficient elements to a header.  
   
- The following figure shows a typical message with two elements.  
+  The following figure shows a typical message with two elements.  
   
- ![](../core/media/his-dev1d.gif "his_dev1d")  
-Typical message with two elements
+  ![](../core/media/his-dev1d.gif "his_dev1d")  
+  Typical message with two elements

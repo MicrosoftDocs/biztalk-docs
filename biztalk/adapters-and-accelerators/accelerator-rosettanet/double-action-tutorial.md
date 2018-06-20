@@ -26,15 +26,15 @@ This tutorial covers an end-to-end solution using [!INCLUDE[btsCoName](../../inc
   
  This tutorial uses four different Partner Interface Processes (PIPs):  
   
--   0C2 - Asynchronous Test Request  
+- 0C2 - Asynchronous Test Request  
   
--   0C4 - Synchronous Test Query  
+- 0C4 - Synchronous Test Query  
   
--   3A2 - Request Price and Availability  
+- 3A2 - Request Price and Availability  
   
--   3A4 - Request Purchase Order  
+- 3A4 - Request Purchase Order  
   
- This tutorial addresses several distinct areas of a RosettaNet-based solution, including working with the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console, creating line-of-business (LOB) applications, and creating custom orchestrations that you can use to integrate Enterprise Resource Planning (ERP) systems.  
+  This tutorial addresses several distinct areas of a RosettaNet-based solution, including working with the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console, creating line-of-business (LOB) applications, and creating custom orchestrations that you can use to integrate Enterprise Resource Planning (ERP) systems.  
   
 ## In This Section  
   

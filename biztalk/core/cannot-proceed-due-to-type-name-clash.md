@@ -17,15 +17,15 @@ manager: "anneta"
 # Cannot proceed due to type name clash
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Cannot proceed due to type name clash. The name "{0}" already exists in the namespace|  
+|                 |                                                                                       |
+|-----------------|---------------------------------------------------------------------------------------|
+|  Product Name   |  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |              [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]               |
+|    Event ID     |                                           0                                           |
+|  Event Source   |                                           0                                           |
+|    Component    |                                           0                                           |
+|  Symbolic Name  |                                           0                                           |
+|  Message Text   | Cannot proceed due to type name clash. The name "{0}" already exists in the namespace |
   
 ## Explanation  
  This error indicates multiple artifacts in the same defined namespace have the same name.  

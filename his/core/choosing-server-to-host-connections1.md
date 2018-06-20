@@ -24,19 +24,19 @@ In [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)
   
  Several factors should be taken into account when determining a physical connection method to your mainframe:  
   
--   Performance requirements  
+- Performance requirements  
   
--   Expected server loads  
+- Expected server loads  
   
--   Existing network infrastructure  
+- Existing network infrastructure  
   
--   Chosen Host Integration Server deployment model  
+- Chosen Host Integration Server deployment model  
   
--   Cost  
+- Cost  
   
- You should plan for enough future capacity to support additional connections to your host system. Ethernet connections are the best choice for an all-purpose connection to a host.  
+  You should plan for enough future capacity to support additional connections to your host system. Ethernet connections are the best choice for an all-purpose connection to a host.  
   
- For some link services, multiple host connections are possible using a single adapter, most notably the IP-DLC link service. Host Integration Server supports up to 250 host connections per server. Up to four instances of Host Integration Server are supported on a single computer.  
+  For some link services, multiple host connections are possible using a single adapter, most notably the IP-DLC link service. Host Integration Server supports up to 250 host connections per server. Up to four instances of Host Integration Server are supported on a single computer.  
   
 ## In This Section  
  [Mainframe Connection Summary](../core/mainframe-connection-summary1.md)  

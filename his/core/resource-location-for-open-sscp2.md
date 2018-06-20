@@ -31,23 +31,23 @@ Sample message flow for two local nodes
   
  The **Open(SSCP) Request** specifies the following:  
   
--   The source application name.  
+- The source application name.  
   
--   A resource identifier that can be used by the application to correlate the [Open(PLU) Request](./open-plu-request2.md) that is sent to the application. (For more information, see [Opening the PLU Connection](../core/opening-the-plu-connection1.md).)  
+- A resource identifier that can be used by the application to correlate the [Open(PLU) Request](./open-plu-request2.md) that is sent to the application. (For more information, see [Opening the PLU Connection](../core/opening-the-plu-connection1.md).)  
   
--   A connection information control block, which specifies the response header usage, checks that the local node should perform for the LU. If the field for a code is set to 0x01, that receive check will be carried out by the data flow control layer of the local node on data arriving from the host. The corresponding send checks are unaffected and are always performed. The connection information control block is provided because these receive checks are optional in SNA. However, it is anticipated that most applications will require all these checks to be performed (all values set to 0x01).  
+- A connection information control block, which specifies the response header usage, checks that the local node should perform for the LU. If the field for a code is set to 0x01, that receive check will be carried out by the data flow control layer of the local node on data arriving from the host. The corresponding send checks are unaffected and are always performed. The connection information control block is provided because these receive checks are optional in SNA. However, it is anticipated that most applications will require all these checks to be performed (all values set to 0x01).  
   
--   An indicator that specifies whether the application is to be treated as high or low priority. All SNA server 3270 LUs are marked as high priority (printers do not send significant data inbound). The effect of high priority is to enable data to be progressed faster to the host when the link is busy.  
+- An indicator that specifies whether the application is to be treated as high or low priority. All SNA server 3270 LUs are marked as high priority (printers do not send significant data inbound). The effect of high priority is to enable data to be progressed faster to the host when the link is busy.  
   
--   An indicator that specifies whether the application is an LUA. This determines whether the local node and the application will communicate using the LUA variant of the function management interface (FMI). (For more information, see [FMI Concepts](../core/fmi-concepts1.md).)  
+- An indicator that specifies whether the application is an LUA. This determines whether the local node and the application will communicate using the LUA variant of the function management interface (FMI). (For more information, see [FMI Concepts](../core/fmi-concepts1.md).)  
   
--   An indicator that specifies a nonforced or forced Open. This determines whether the local node will attempt to activate the SSCP session if it is not currently active.  
+- An indicator that specifies a nonforced or forced Open. This determines whether the local node will attempt to activate the SSCP session if it is not currently active.  
   
- The [Open(SSCP) Request](./open-sscp-request2.md) can fail for one of several reasons, which can be determined from the error codes on the [Open(SSCP) Response](./open-sscp-response1.md) sent to the application, as detailed in the following list:  
+  The [Open(SSCP) Request](./open-sscp-request2.md) can fail for one of several reasons, which can be determined from the error codes on the [Open(SSCP) Response](./open-sscp-response1.md) sent to the application, as detailed in the following list:  
   
--   The local node may still be initializing (retrieving information from the configuration file). In this case, the application can retry immediately.  
+- The local node may still be initializing (retrieving information from the configuration file). In this case, the application can retry immediately.  
   
--   The configuration file may not have an entry for the application, or the application record in the configuration file may not point to an LU or LU group record.  
+- The configuration file may not have an entry for the application, or the application record in the configuration file may not point to an LU or LU group record.  
   
--   For a nonforced Open, the SSCP session may be inactive.  
+- For a nonforced Open, the SSCP session may be inactive.  
   

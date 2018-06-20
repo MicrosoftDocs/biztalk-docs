@@ -39,33 +39,33 @@ manager: "anneta"
 # Permissions Required for Deploying and Managing a BizTalk Application
 Application deployment includes deploying BizTalk assemblies from Visual Studio as well as importing, exporting, and installing BizTalk applications. The basic permissions you need to perform these tasks are as follows:  
   
--   As a member of the BizTalk Server Administrators group, you are granted the permissions required to deploy BizTalk assemblies from Visual Studio.  
+- As a member of the BizTalk Server Administrators group, you are granted the permissions required to deploy BizTalk assemblies from Visual Studio.  
   
--   As a member of the BizTalk Server Administrators group, you are granted the permissions required to import BizTalk applications into a BizTalk group. If the option to add an assembly included in the application to the global assembly cache (GAC) on import has been specified, you must also have Write permissions on the assembly folder. As a member of the local Administrators group, you have this permission.  
+- As a member of the BizTalk Server Administrators group, you are granted the permissions required to import BizTalk applications into a BizTalk group. If the option to add an assembly included in the application to the global assembly cache (GAC) on import has been specified, you must also have Write permissions on the assembly folder. As a member of the local Administrators group, you have this permission.  
   
--   As a member of the BizTalk Server Administrators or BizTalk Server Operators group, you are granted the permissions required to:  
+- As a member of the BizTalk Server Administrators or BizTalk Server Operators group, you are granted the permissions required to:  
   
-    -   Export BizTalk applications  
+  -   Export BizTalk applications  
   
-    -   Start and stop send ports, send port groups, and orchestrations  
+  -   Start and stop send ports, send port groups, and orchestrations  
   
-    -   Enable and disable receive locations  
+  -   Enable and disable receive locations  
   
-    -   Suspend, resume, and terminate instances  
+  -   Suspend, resume, and terminate instances  
   
-    -   Start and stop applications  
+  -   Start and stop applications  
   
--   As a member of the local Administrators group you are granted permissions to install BizTalk applications on the local computer.  
+- As a member of the local Administrators group you are granted permissions to install BizTalk applications on the local computer.  
   
- You may want to provide the most restrictive permissions for users to perform these tasks. The remainder of this topic provides more details on the required permissions, as follows.  
+  You may want to provide the most restrictive permissions for users to perform these tasks. The remainder of this topic provides more details on the required permissions, as follows.  
   
--   [Permissions for deploying BizTalk assemblies from Visual Studio](#BKMK_Permissions_for_deploying)  
+- [Permissions for deploying BizTalk assemblies from Visual Studio](#BKMK_Permissions_for_deploying)  
   
--   [Permissions for importing an application](#BKMK_Permissions_for_importing)  
+- [Permissions for importing an application](#BKMK_Permissions_for_importing)  
   
--   [Permissions for exporting an application](#BKMK_Permissions_for_exporting)  
+- [Permissions for exporting an application](#BKMK_Permissions_for_exporting)  
   
--   [Permissions for installing an application](#BKMK_Permissions_for_installing_an_application)  
+- [Permissions for installing an application](#BKMK_Permissions_for_installing_an_application)  
   
 ##  <a name="BKMK_Permissions_for_deploying"></a> Permissions for deploying BizTalk assemblies from Visual Studio  
  To deploy BizTalk assemblies from within Visual Studio, you must have Write permission on the BizTalk Management database, at a minimum. You are granted this permission as a member of the BizTalk Server Administrators group.  

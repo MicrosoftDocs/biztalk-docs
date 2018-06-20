@@ -27,39 +27,39 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
 ## Where to Find This Sample  
   
--   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
+- *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
   
--   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
+- *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
   
- The following table shows the files in this sample and describes their purpose.  
+  The following table shows the files in this sample and describes their purpose.  
   
-|**File**|**Description**|  
-|--------------|---------------------|  
-|SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.sln,<br /><br /> SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.csproj|The project and solution files for the pipeline component.|  
-|SetMQSeriesHeaderPropertyComponent\CSetMQSeriesHeaderPropertyComponent.cs|The Visual C#® source file for the pipeline component.|  
-|SetMQSeriesHeaderPropertyComponent\SetMQSMQMDHdrProps.xml|The MQSeries properties read and used by the pipeline component.|  
-|SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.btproj,<br /><br /> SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.sln|The project and solution files for the BizTalk pipeline.|  
-|SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.snk|The strong naming key file for the BizTalk pipeline project.|  
-|SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.btp|The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline.|  
+|                                                                              **File**                                                                               |                                         **Description**                                          |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.sln,<br /><br /> SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.csproj |                    The project and solution files for the pipeline component.                    |
+|                                              SetMQSeriesHeaderPropertyComponent\CSetMQSeriesHeaderPropertyComponent.cs                                              |                      The Visual C#® source file for the pipeline component.                      |
+|                                                      SetMQSeriesHeaderPropertyComponent\SetMQSMQMDHdrProps.xml                                                      |                 The MQSeries properties read and used by the pipeline component.                 |
+|   SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.btproj,<br /><br /> SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.sln   |                     The project and solution files for the BizTalk pipeline.                     |
+|                                               SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.snk                                               |                   The strong naming key file for the BizTalk pipeline project.                   |
+|                                               SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.btp                                               | The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline. |
   
 ## How to Use This Sample  
  To create the application, you must complete the following steps:  
   
-1.  Create the folders for the application.  
+1. Create the folders for the application.  
   
-2.  Modify and compile the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for the pipeline component.  
+2. Modify and compile the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for the pipeline component.  
   
-3.  Copy the compiled assembly and the header file to the appropriate folders.  
+3. Copy the compiled assembly and the header file to the appropriate folders.  
   
-4.  Modify the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline.  
+4. Modify the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline.  
   
-5.  Compile and deploy the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline project.  
+5. Compile and deploy the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline project.  
   
-6.  Set up a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location.  
+6. Set up a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location.  
   
-7.  Create a MQSeries queue.  
+7. Create a MQSeries queue.  
   
-8.  Set up a send port.  
+8. Set up a send port.  
   
 9. Enable the receive location and start the send port.  
   
@@ -77,61 +77,61 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
 #### To modify and compile the project for the pipeline component  
   
-1.  Double-click the solution file, **SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.sln** to open the solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Double-click the solution file, **SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.sln** to open the solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Double-click the class file **CSetMQSeriesHeaderPropertyComponent.cs** to open the class file in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+2. Double-click the class file **CSetMQSeriesHeaderPropertyComponent.cs** to open the class file in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-3.  Locate the variable **samplesDir**, verify that this variable is set to the location **C:\temp**.  
+3. Locate the variable **samplesDir**, verify that this variable is set to the location **C:\temp**.  
   
-4.  Right-click the solution in the Solution Explorer and click **Build**. This will compile the project into a dll located in the **SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent\bin\Debug\\** directory.  
+4. Right-click the solution in the Solution Explorer and click **Build**. This will compile the project into a dll located in the **SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent\bin\Debug\\** directory.  
   
 ## Copying the Assembly and Header File to Appropriate Folders  
  This procedure copies the compiled assembly and the header file to the appropriate folders.  
   
 #### To copy the compiled assembly and header file to the appropriate folders  
   
-1.  Copy the compiled assembly **SetMQSeriesHeaderPropertyComponent.dll** to the BizTalk pipeline components folder. The default location for the BizTalk pipeline components folder is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Pipeline Components.  
+1. Copy the compiled assembly **SetMQSeriesHeaderPropertyComponent.dll** to the BizTalk pipeline components folder. The default location for the BizTalk pipeline components folder is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Pipeline Components.  
   
-2.  Copy the MQHeader properties file **SetMQSMQMDHdrProps.xml** to the **C:\temp** directory.  
+2. Copy the MQHeader properties file **SetMQSMQMDHdrProps.xml** to the **C:\temp** directory.  
   
 ## Modifying the Project for the BizTalk Server Pipeline  
  This procedure modifies the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline.  
   
 #### To modify the project for the BizTalk Server pipeline  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution by double-clicking the solution file, **SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.sln**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution by double-clicking the solution file, **SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.sln**.  
   
-2.  Create a strong name key file for the project. To do that, do the following:  
+2. Create a strong name key file for the project. To do that, do the following:  
   
-    1.  Open a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command prompt.  
+   1. Open a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command prompt.  
   
-    2.  Change directories to \<SamplesPath\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent.  
+   2. Change directories to \<SamplesPath\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent.  
   
-    3.  Type the following:  
+   3. Type the following:  
   
-         `sn -k MQSSendPipelineComponent.snk`  
+       `sn -k MQSSendPipelineComponent.snk`  
   
-    4.  Press ENTER. This will create the key file.  
+   4. Press ENTER. This will create the key file.  
   
-3.  In **Solution Explorer**, right-click the project and click **Properties** to launch Project Designer for the project (in the center window).  
+3. In **Solution Explorer**, right-click the project and click **Properties** to launch Project Designer for the project (in the center window).  
   
-    1.  In the Project Designer, click **Signing** tab.  
+   1.  In the Project Designer, click **Signing** tab.  
   
-    2.  In the right-hand pane, select the **Sign the assembly** option..  
+   2.  In the right-hand pane, select the **Sign the assembly** option..  
   
-    3.  Click drop-down list for the **Choose a strong name key file** option, and click **Browse**.  
+   3.  Click drop-down list for the **Choose a strong name key file** option, and click **Browse**.  
   
-    4.  Browse to \<SamplesPath\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk, click **Open**.  
+   4.  Browse to \<SamplesPath\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk, click **Open**.  
   
-4.  The pipeline component that you created earlier is already added to the **Pre-Assemble** stage of this pipeline project. If this component was not already added you would need to complete the following steps to add it:  
+4. The pipeline component that you created earlier is already added to the **Pre-Assemble** stage of this pipeline project. If this component was not already added you would need to complete the following steps to add it:  
   
-    1.  In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] IDE, click the **Toolbox** tab on the left side.  
+   1. In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] IDE, click the **Toolbox** tab on the left side.  
   
-    2.  Right-click the **Toolbox**, and click **Choose Items**.  
+   2. Right-click the **Toolbox**, and click **Choose Items**.  
   
-    3.  In the **Choose Toolbox Items** dialog box, click the **BizTalk Pipeline Components** tab, select the **Custom Component to Set MQseries header properties**component, and then click **OK**.  
+   3. In the **Choose Toolbox Items** dialog box, click the **BizTalk Pipeline Components** tab, select the **Custom Component to Set MQseries header properties**component, and then click **OK**.  
   
-    4.  Drag the **Custom Component to Set MQseries header properties**component to the **Pre-Assemble** stage of this pipeline.  
+   4. Drag the **Custom Component to Set MQseries header properties**component to the **Pre-Assemble** stage of this pipeline.  
   
 ## Compiling and Deploying the Pipeline Project  
  This procedure compiles and deploys the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipeline project.  

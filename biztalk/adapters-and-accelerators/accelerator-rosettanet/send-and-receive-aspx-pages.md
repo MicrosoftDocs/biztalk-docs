@@ -48,13 +48,13 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
  The query string includes the following data that the send page needs to send the message to the partner, and the data that the partner must have to process the message:  
   
--   The trading-partner URL: http://www.\<*address*\>.com/RNIFReceive.aspx  
+- The trading-partner URL: http://www.\<*address*\>.com/RNIFReceive.aspx  
   
--   The response type: sync or async  
+- The response type: sync or async  
   
--   The RNIF version: 1.1 or 2.0.  
+- The RNIF version: 1.1 or 2.0.  
   
- The BizTalk HTTP adapter sends a MIME message produced by the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] send pipeline to the initiator RNIFSend.aspx page. RNIFSend.aspx processes the message as follows:  
+  The BizTalk HTTP adapter sends a MIME message produced by the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] send pipeline to the initiator RNIFSend.aspx page. RNIFSend.aspx processes the message as follows:  
   
 1.  The send page performs validation on the message.  
   
@@ -100,40 +100,40 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
  This scenario involves four separate HTTP connections, one for each step:  
   
-1.  The initiator send page sends the action request message to the responder receive page.  
+1. The initiator send page sends the action request message to the responder receive page.  
   
-    > [!NOTE]
-    >  Steps 2 and 3 below may occur in the reverse order, depending upon system load.  
+   > [!NOTE]
+   >  Steps 2 and 3 below may occur in the reverse order, depending upon system load.  
   
-2.  The responder send page sends a request signal message to the initiator receive page.  
+2. The responder send page sends a request signal message to the initiator receive page.  
   
-3.  The responder send page sends an action response message to the initiator receive page.  
+3. The responder send page sends an action response message to the initiator receive page.  
   
-4.  The initiator send page sends a response signal message to the responder receive page.  
+4. The initiator send page sends a response signal message to the responder receive page.  
   
- **Single-Action Asynchronous**  
+   **Single-Action Asynchronous**  
   
- This scenario involves two separate HTTP connections, one for each step. Note that this scenario consists of step 1 and 2 of the double-action asynchronous scenario.  
+   This scenario involves two separate HTTP connections, one for each step. Note that this scenario consists of step 1 and 2 of the double-action asynchronous scenario.  
   
-1.  The initiator send page sends the action request message to the responder receive page.  
+5. The initiator send page sends the action request message to the responder receive page.  
   
-2.  The responder send page sends a request signal message to the initiator receive page.  
+6. The responder send page sends a request signal message to the initiator receive page.  
   
- **Double-Action Synchronous**  
+   **Double-Action Synchronous**  
   
- This scenario involves one HTTP connection:  
+   This scenario involves one HTTP connection:  
   
-1.  The initiator send page sends the action request message to the responder receive page.  
+7. The initiator send page sends the action request message to the responder receive page.  
   
-2.  The responder receive page sends an action response message (or an exception, if there is a problem) to the initiator send page on the same connection used in step 1.  
+8. The responder receive page sends an action response message (or an exception, if there is a problem) to the initiator send page on the same connection used in step 1.  
   
- **Single-Action Synchronous**  
+   **Single-Action Synchronous**  
   
- This scenario involves one HTTP connection:  
+   This scenario involves one HTTP connection:  
   
-1.  The initiator send page sends the action request message to the responder receive page.  
+9. The initiator send page sends the action request message to the responder receive page.  
   
-2.  The responder receive page sends a request signal message (or an exception, if there is a problem) to the initiator send page on the same connection.  
+10. The responder receive page sends a request signal message (or an exception, if there is a problem) to the initiator send page on the same connection.  
   
 ## See Also  
  [Message Processing in BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md)   

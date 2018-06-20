@@ -32,21 +32,21 @@ This topic describes how to use the BizTalk Server Administration console to con
   
 ### To specify transport options for a send port  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure backup transport options for a send port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure backup transport options for a send port.  
   
-3.  Expand **Send Ports**, right-click the send port to configure, click **Properties**, and then click **Backup Transport**.  
+3. Expand **Send Ports**, right-click the send port to configure, click **Properties**, and then click **Backup Transport**.  
   
-4.  Configure backup transport properties as described in the following table, and then click **OK**.  
+4. Configure backup transport properties as described in the following table, and then click **OK**.  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Type**|From the drop-down list, select the appropriate backup transport type, or transport protocol. If the port is a solicit-response port, only transport types that support solicit-response are available in the list.|  
-    |**Configure**|After you select the backup transport type, click **Configure**, and then configure transport properties. For more information about configuring the properties, click **Help**.|  
-    |**Send handler**|From the drop-down list, select the host instance on which the send adapter is running.|  
-    |**Retry count**|Specify the number of times for the send port to resend a message on message failure. The default is 3; the allowed range is from 0 to 1,000.|  
-    |**Retry interval**|Specify the interval in minutes between message resend attempts. The default is 5; the allowed range is from 0 to 525,600.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Type**|From the drop-down list, select the appropriate backup transport type, or transport protocol. If the port is a solicit-response port, only transport types that support solicit-response are available in the list.|  
+   |**Configure**|After you select the backup transport type, click **Configure**, and then configure transport properties. For more information about configuring the properties, click **Help**.|  
+   |**Send handler**|From the drop-down list, select the host instance on which the send adapter is running.|  
+   |**Retry count**|Specify the number of times for the send port to resend a message on message failure. The default is 3; the allowed range is from 0 to 1,000.|  
+   |**Retry interval**|Specify the interval in minutes between message resend attempts. The default is 5; the allowed range is from 0 to 525,600.|  
   
 ## See Also  
  [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)

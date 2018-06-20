@@ -22,15 +22,15 @@ manager: "anneta"
   
  The SWIFT header schema (SWIFT Header.xsd) contains the formats for the following:  
   
--   Basic Header  
+- Basic Header  
   
--   Application Header (choice of Input or Output)  
+- Application Header (choice of Input or Output)  
   
--   User Header  
+- User Header  
   
--   Beginning delimiter of the text block  
+- Beginning delimiter of the text block  
   
- The Basic Header contains information about the source of the message. The Application Header contains information about the message type and the destination of the message. The resolution of the message type by the SWIFT disassembler in a receive pipeline is based on the contents of the field in the appropriate Application Header. The User Header is optional, and contains special processing instructions.  
+  The Basic Header contains information about the source of the message. The Application Header contains information about the message type and the destination of the message. The resolution of the message type by the SWIFT disassembler in a receive pipeline is based on the contents of the field in the appropriate Application Header. The User Header is optional, and contains special processing instructions.  
   
 > [!NOTE]
 >  A few message types have variable formats based on the contents of field 119 in the User Header. These are "dual message types" in A4SWIFT. The A4SWIFT disassembler uses the message type in the Application Header in conjunction with the contents of field 119 to select the appropriate schema for a message instance.  

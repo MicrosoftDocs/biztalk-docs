@@ -31,24 +31,24 @@ This topic discusses multiserver setup and deployment considerations for the [!I
   
  The Windows SharePoint Services Adapter has three components:  
   
--   Runtime components  
+- Runtime components  
   
--   Design time components  
+- Design time components  
   
--   Adapter Web service  
+- Adapter Web service  
   
- The adapter runtime is installed and configured automatically by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Runtime feature. The adapter design time components are installed and configured with other [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features. You interact with the design time components by creating Windows SharePoint Services ports through tools that are included in the Administration Tools, Developer Tools, and SDK or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Runtime features. You cannot customize any configuration options for runtime and design time components. You can customize only the Windows SharePoint Services adapter Web Service options.  
+  The adapter runtime is installed and configured automatically by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Runtime feature. The adapter design time components are installed and configured with other [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features. You interact with the design time components by creating Windows SharePoint Services ports through tools that are included in the Administration Tools, Developer Tools, and SDK or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Runtime features. You cannot customize any configuration options for runtime and design time components. You can customize only the Windows SharePoint Services adapter Web Service options.  
   
- Only members of the SharePoint Enabled Hosts group will have permissions to invoke the adapter Web service. For more information about the Windows SharePoint Services permissions needed by the Windows SharePoint Services adapter runtime, see the security section in [What Is the Windows SharePoint Services Adapter?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
+  Only members of the SharePoint Enabled Hosts group will have permissions to invoke the adapter Web service. For more information about the Windows SharePoint Services permissions needed by the Windows SharePoint Services adapter runtime, see the security section in [What Is the Windows SharePoint Services Adapter?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
   
 > [!NOTE]
 >  The Windows SharePoint Services adapter Web service component will be automatically selected if you choose to install BAS.  
   
 #### To install the Windows SharePoint Services adapter  
   
-1.  Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+1. Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
-2.  On the **Component Installation** screen, under **Available Components**, under **Additional Software**, select **Windows SharePoint Services Adapter Web service**.  
+2. On the **Component Installation** screen, under **Available Components**, under **Additional Software**, select **Windows SharePoint Services Adapter Web service**.  
   
 > [!NOTE]
 >  You must run setup and configuration on the computer that hosts the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime and the computer running Windows SharePoint Services.  
@@ -80,24 +80,24 @@ This topic discusses multiserver setup and deployment considerations for the [!I
 > [!NOTE]
 >  If this virtual directory already exists, configuration will not update the properties in the metabase. You must delete the virtual directory and run configuration again.  
   
--   The BTSharePointAdapterWS virtual application contains the Web service  
+- The BTSharePointAdapterWS virtual application contains the Web service  
   
- For more information about the BizTalk Server Configuration, see [Import and Export BizTalk Server Configuration](../install-and-config-guides/import-and-export-biztalk-server-configuration.md).  
+  For more information about the BizTalk Server Configuration, see [Import and Export BizTalk Server Configuration](../install-and-config-guides/import-and-export-biztalk-server-configuration.md).  
   
 ##### To configure the Windows SharePoint Services adapter by using custom configuration  
   
-1.  In the **BizTalk Server Configuration**, select the **SharePoint adapter** node.  
+1. In the **BizTalk Server Configuration**, select the **SharePoint adapter** node.  
   
-2.  Select **Enable Windows SharePoint Services Adapter on this computer**.  
+2. Select **Enable Windows SharePoint Services Adapter on this computer**.  
   
-3.  Under **Windows Group**, select the Windows group you will be using for the Windows SharePoint Services adapter. By default, this is SharePoint Enabled Hosts.  
+3. Under **Windows Group**, select the Windows group you will be using for the Windows SharePoint Services adapter. By default, this is SharePoint Enabled Hosts.  
   
-4.  In the **Windows SharePoint Services Adapter Web Site** drop-down box, select the Web site where the adapter components will be installed. By default, this is the Default Web Site.  
+4. In the **Windows SharePoint Services Adapter Web Site** drop-down box, select the Web site where the adapter components will be installed. By default, this is the Default Web Site.  
   
-    > [!NOTE]
-    >  The installation of the Windows SharePoint Services Adapter Web site on a remote SharePoint Server computer that does not have any other [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] components installed is a fully supported configuration.  
+   > [!NOTE]
+   >  The installation of the Windows SharePoint Services Adapter Web site on a remote SharePoint Server computer that does not have any other [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] components installed is a fully supported configuration.  
   
-5.  Click **Apply Configuration**.  
+5. Click **Apply Configuration**.  
   
 ## Considerations for a multiserver deployment  
  ![](../core/media/adapters-wss-multiserver-screenshot01.gif "Adapters_WSS_Multiserver_Screenshot01")  
@@ -105,25 +105,25 @@ This topic discusses multiserver setup and deployment considerations for the [!I
 ### General considerations  
  When you set up and deploy the Windows SharePoint Services adapter in a multiserver environment, consider the following:  
   
--   Add the BizTalk Service account to the SharePoint Enabled Hosts Windows group on each server.  
+- Add the BizTalk Service account to the SharePoint Enabled Hosts Windows group on each server.  
   
--   Add the SharePoint Enabled Hosts group to the SharePoint Contributors role using the SharePoint Central Administration tool.  
+- Add the SharePoint Enabled Hosts group to the SharePoint Contributors role using the SharePoint Central Administration tool.  
   
--   On [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], the identity under which the SharePoint Adapter Web Service runs needs the following permissions:  
+- On [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], the identity under which the SharePoint Adapter Web Service runs needs the following permissions:  
   
-     **Read** permissions on the **Program Files\Microsoft BizTalk Server \<version\>\Business Activity Services\BTSharePointV3AdapterWS** folder. If using a 64-bit version of Windows and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], permissions need to be set on the **Program Files (x86)\Microsoft BizTalk Server \<version\>\Business Activity Services\BTSharePointV3AdapterWS**  
+   **Read** permissions on the **Program Files\Microsoft BizTalk Server \<version\>\Business Activity Services\BTSharePointV3AdapterWS** folder. If using a 64-bit version of Windows and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], permissions need to be set on the **Program Files (x86)\Microsoft BizTalk Server \<version\>\Business Activity Services\BTSharePointV3AdapterWS**  
   
-     **Read** permission on the following registry key: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
+   **Read** permission on the following registry key: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
   
-     Logon permissions on the SQL Server that contains the Sharepoint databases.  
+   Logon permissions on the SQL Server that contains the Sharepoint databases.  
   
-     A member of the **Public** and **WSS_Content_Application_Pools** roles within the SharePoint configuration database.  
+   A member of the **Public** and **WSS_Content_Application_Pools** roles within the SharePoint configuration database.  
   
-     A member of the **Public** and **db owner** roles within the SharePoint content database.  
+   A member of the **Public** and **db owner** roles within the SharePoint content database.  
   
--   The Web site that you install the Web service on must be extended as a SharePoint Services Web site.  
+- The Web site that you install the Web service on must be extended as a SharePoint Services Web site.  
   
--   You can install and configure the Windows SharePoint Services adapter using a silent installation. For more information, see [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md).  
+- You can install and configure the Windows SharePoint Services adapter using a silent installation. For more information, see [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md).  
   
 ### Considerations for network load balancing (NLB)  
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services supports NLB clustering of the Windows SharePoint Services servers along with multiple BizTalk servers that are configured in the same group. For this, Windows SharePoint Services must be installed on the NLB cluster as recommended by SharePoint documentation.  

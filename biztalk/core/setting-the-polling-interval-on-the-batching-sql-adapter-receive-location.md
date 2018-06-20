@@ -30,15 +30,15 @@ You can set the polling interval on the batching SQL adapter receive location (*
   
 ### To set the Polling Interval on the Batching SQL Adapter Receive Location  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click **BizTalk EDI Application**, and then click **Receive Locations**. Right-click **BatchControlMessageRecvLoc**, and click **Properties**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click **BizTalk EDI Application**, and then click **Receive Locations**. Right-click **BatchControlMessageRecvLoc**, and click **Properties**.  
   
-2.  In the **Receive Location Properties** dialog box, in the **Transport** section, click **Configure**.  
+2. In the **Receive Location Properties** dialog box, in the **Transport** section, click **Configure**.  
   
-3.  In the **SQL Transport Properties** dialog box, change the value for **Polling Interval** from the default value of "30" to the desired value. The recommended value for a production server is "5".  
+3. In the **SQL Transport Properties** dialog box, change the value for **Polling Interval** from the default value of "30" to the desired value. The recommended value for a production server is "5".  
   
-4.  Change the value of **Polling Unit of Measure** from the default value of **Seconds** to **Minutes**.  
+4. Change the value of **Polling Unit of Measure** from the default value of **Seconds** to **Minutes**.  
   
-5.  Click **OK**, and then click **OK** again  
+5. Click **OK**, and then click **OK** again  
   
 ## See Also  
  [Managing EDI and AS2 Solutions](../core/managing-edi-and-as2-solutions.md)

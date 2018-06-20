@@ -17,15 +17,15 @@ manager: "anneta"
 # The agreement associated with BatchId is not enabled or has expired. Batching cannot continue
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|ErrorBatchAgreementDisabled|  
-|Message Text|The agreement associated with BatchId {0} is not enabled or has expired. Batching cannot continue.|  
+|                 |                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------|
+|  Product Name   |         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]         |
+| Product Version |                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                     |
+|    Event ID     |                                                 -                                                  |
+|  Event Source   |       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI       |
+|    Component    |                                             EDI Engine                                             |
+|  Symbolic Name  |                                    ErrorBatchAgreementDisabled                                     |
+|  Message Text   | The agreement associated with BatchId {0} is not enabled or has expired. Batching cannot continue. |
   
 ## Explanation  
  This Error/Warning/Information event indicates BizTalk Server was not able to start a batch or process a batch message because of Agreement getting expired.  

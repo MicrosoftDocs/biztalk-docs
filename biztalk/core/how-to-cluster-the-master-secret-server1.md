@@ -31,39 +31,39 @@ We recommended that you follow the instructions in this section to cluster the E
   
 ### To install and configure Enterprise SSO on the cluster nodes  
   
-1.  Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on each cluster node. In **Component Installation**, select **Enterprise Single Sign-On Administration Module** and **Enterprise Single Sign-On Master Secret Server**. After installation has completed successfully, do **not** run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration.  
+1. Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on each cluster node. In **Component Installation**, select **Enterprise Single Sign-On Administration Module** and **Enterprise Single Sign-On Master Secret Server**. After installation has completed successfully, do **not** run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration.  
   
-2.  Create **SSO Administrators** and **SSO Affiliate Administrators** domain groups. To create a clustered instance of the Enterprise SSO service, you must create these groups as domain groups.  
+2. Create **SSO Administrators** and **SSO Affiliate Administrators** domain groups. To create a clustered instance of the Enterprise SSO service, you must create these groups as domain groups.  
   
-3.  Create or designate a domain account that is a member of the **SSO Administrators** domain group. The Enterprise SSO service on each node is configured to log on as this domain account. This account must have the **Log on as a service** right on each node in the cluster.  
+3. Create or designate a domain account that is a member of the **SSO Administrators** domain group. The Enterprise SSO service on each node is configured to log on as this domain account. This account must have the **Log on as a service** right on each node in the cluster.  
   
-4.  Add the account that you are using to log on during the configuration process to the domain **SSO Administrators** group.  
+4. Add the account that you are using to log on during the configuration process to the domain **SSO Administrators** group.  
   
-    > [!IMPORTANT]
-    >  Configuration of the Enterprise SSO service fails if steps 3 and 4 are not completed.  
+   > [!IMPORTANT]
+   >  Configuration of the Enterprise SSO service fails if steps 3 and 4 are not completed.  
   
-5.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration.  
+5. Start the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration.  
   
-6.  Select **Custom Configuration** option and enter the **Database server name**, **User name**, and **Password** values. Select **Configure** to continue.  
+6. Select **Custom Configuration** option and enter the **Database server name**, **User name**, and **Password** values. Select **Configure** to continue.  
   
-    > [!NOTE]
-    >  Since you are only be configuring the Enterprise SSO service at this time, you can just enter the domain account that you created earlier here.  
+   > [!NOTE]
+   >  Since you are only be configuring the Enterprise SSO service at this time, you can just enter the domain account that you created earlier here.  
   
-7.  Select the **Enterprise SSO** option from the left pane and set the following options for the Enterprise SSO feature:  
+7. Select the **Enterprise SSO** option from the left pane and set the following options for the Enterprise SSO feature:  
   
-    1.  Select the **Enable Enterprise Single Sign-On on this computer** check box.  
+   1.  Select the **Enable Enterprise Single Sign-On on this computer** check box.  
   
-    2.  Select **Create a new SSO system**.  
+   2.  Select **Create a new SSO system**.  
   
-    3.  Enter the **Data stores** for **Server Name** and **Database Name** values.  
+   3.  Enter the **Data stores** for **Server Name** and **Database Name** values.  
   
-    4.  Verify that the domain account that you created earlier is the account that is associated with the Enterprise SSO service.  
+   4.  Verify that the domain account that you created earlier is the account that is associated with the Enterprise SSO service.  
   
-    5.  Enter the domain SSO Administrators group that you created earlier as the group associated with the SSO Administrator(s) role.  
+   5.  Enter the domain SSO Administrators group that you created earlier as the group associated with the SSO Administrator(s) role.  
   
-    6.  Enter the domain SSO Affiliate Administrators group that you created earlier as the group associated with the SSO Affiliate Administrator(s) role.  
+   6.  Enter the domain SSO Affiliate Administrators group that you created earlier as the group associated with the SSO Affiliate Administrator(s) role.  
   
-8.  Select the **Enterprise SSO Secret Backup** option from the left pane and provide the appropriate parameters for backing up the Enterprise SSO secret. By default, the Enterprise SSO secret is backed up to *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On\\*SSOxxxx*.bak.  
+8. Select the **Enterprise SSO Secret Backup** option from the left pane and provide the appropriate parameters for backing up the Enterprise SSO secret. By default, the Enterprise SSO secret is backed up to *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On\\*SSOxxxx*.bak.  
   
 9. Click the **Apply Configuration** and review the Summary.  
   

@@ -19,20 +19,20 @@ There may be times when you want to add an existing map to a BizTalk project. Be
   
 ### To add an existing map to a BizTalk project  
   
-1.  Right-click a BizTalk project in Solution Explorer, point to **Add**, and then click **Existing Item**.  
+1. Right-click a BizTalk project in Solution Explorer, point to **Add**, and then click **Existing Item**.  
   
-2.  In the **Add Existing Item** dialog box, browse to the folder containing the map to be added, select it, and then click **Add**.  
+2. In the **Add Existing Item** dialog box, browse to the folder containing the map to be added, select it, and then click **Add**.  
   
-     The map opens in BizTalk Mapper. The newly added map also appears as a child of the current BizTalk project in Solution Explorer.  
+    The map opens in BizTalk Mapper. The newly added map also appears as a child of the current BizTalk project in Solution Explorer.  
   
-    > [!NOTE]
-    >  If you browsed to a folder other than the BizTalk project folder, a copy of the map you added was created in the project folder, and it was this copy of the map that was added to the project. Subsequent changes to the map are made to this copy, not to the original map in the other folder.  
-  
-    > [!IMPORTANT]
-    >  BizTalk maps can only be opened by BizTalk Mapper, which is hosted within the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. If you double-click a map in Windows Explorer, a new instance of [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] will be opened, and then the map will be opened by BizTalk Mapper, provided the corresponding schemas are loaded properly.  
-  
-    > [!NOTE]
-    >  If the existing map contains custom functoids, then the corresponding DLLs must be copied to the folder “%BTSINSTALLPATH%\Developer Tools\Mapper Extensions”. Else, the map will not load and throws an error because of failure to load custom functoids.  
+   > [!NOTE]
+   >  If you browsed to a folder other than the BizTalk project folder, a copy of the map you added was created in the project folder, and it was this copy of the map that was added to the project. Subsequent changes to the map are made to this copy, not to the original map in the other folder.  
+   > 
+   > [!IMPORTANT]
+   >  BizTalk maps can only be opened by BizTalk Mapper, which is hosted within the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. If you double-click a map in Windows Explorer, a new instance of [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] will be opened, and then the map will be opened by BizTalk Mapper, provided the corresponding schemas are loaded properly.  
+   > 
+   > [!NOTE]
+   >  If the existing map contains custom functoids, then the corresponding DLLs must be copied to the folder “%BTSINSTALLPATH%\Developer Tools\Mapper Extensions”. Else, the map will not load and throws an error because of failure to load custom functoids.  
   
 ## See Also  
  [Managing Maps Within Projects](../core/managing-maps-within-projects.md)   

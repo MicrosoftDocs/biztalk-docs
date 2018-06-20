@@ -134,15 +134,15 @@ This topic provides recommendations for optimizing performance of the [!INCLUDE[
 ### Manually load Microsoft Certificate Revocation lists  
  When starting a .NET application, the .NET Framework will attempt to download the Certificate Revocation list (CRL) for any signed assembly. If your system does not have direct access to the Internet, or is restricted from accessing the Microsoft.com domain, this may delay startup of BizTalk Server. To avoid this delay at application startup, you can use the following steps to manually download and install the code signing Certificate Revocation Lists on your system.  
   
-1.  Download the latest CRL updates from [http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl](http://go.microsoft.com/fwlink/?LinkID=117794) and [http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl](http://go.microsoft.com/fwlink/?LinkId=117795).  
+1. Download the latest CRL updates from [http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl](http://go.microsoft.com/fwlink/?LinkID=117794) and [http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl](http://go.microsoft.com/fwlink/?LinkId=117795).  
   
-2.  Move the CodeSignPCA.crl and CodeSignPCA2.crl files to the isolated system.  
+2. Move the CodeSignPCA.crl and CodeSignPCA2.crl files to the isolated system.  
   
-3.  From a command prompt, enter the following command to use the certutil utility to update the local certificate store with the CRL downloaded in step 1:  
+3. From a command prompt, enter the following command to use the certutil utility to update the local certificate store with the CRL downloaded in step 1:  
   
-     certutil –addstore CA c:\CodeSignPCA.crl  
+    certutil –addstore CA c:\CodeSignPCA.crl  
   
- The CRL files are updated regularly, so you should consider setting a reoccurring task of downloading and installing the CRL updates. To view the next update time, double-click the .crl file and view the value of the **Next Update** field.  
+   The CRL files are updated regularly, so you should consider setting a reoccurring task of downloading and installing the CRL updates. To view the next update time, double-click the .crl file and view the value of the **Next Update** field.  
   
 ### Synchronize time on all servers  
  Many operations involving tickets, receipts and logging rely on the local system clock being accurate. This is especially true in a distributed environment, where time discrepancies between systems may cause logs to be out of sync or tickets issued by one system to be rejected by another as expired or not yet valid.  

@@ -56,15 +56,15 @@ PF 1 HELP 2 COM 3 END   6 CRSR 7 SBH 8 SFH 9 MSG 10 SB 11 SF 12 CNCL
   
  In the sample CICS screen, the parameter called Maximum has two values, 250 and 125, separated by commas. The first value (250) is the parallel session limit. The second value (125) is the host minimum contention winner limit. On Host Integration Server, this corresponds to Partner Min Contention Winner Limit in the mode. In addition, because the host is the contention winner on 125 sessions (out of a total of 250), Host Integration Server should be configured as the contention winner on the remaining 125 sessions. In this case, Host Integration Server mode would have the following values:  
   
--   Parallel Session Limit 250  
+- Parallel Session Limit 250  
   
--   Minimum Contention Winner Limit 125  
+- Minimum Contention Winner Limit 125  
   
--   Partner Min Contention Winner Limit 125  
+- Partner Min Contention Winner Limit 125  
   
--   Automatic Activation Limit 0  
+- Automatic Activation Limit 0  
   
- The remaining screens in this section show more information about how CICS could be configured for independent APPC through VTAM.  
+  The remaining screens in this section show more information about how CICS could be configured for independent APPC through VTAM.  
   
 ```  
 OVERTYPE TO MODIFY                    CICS RELEASE = 0330  

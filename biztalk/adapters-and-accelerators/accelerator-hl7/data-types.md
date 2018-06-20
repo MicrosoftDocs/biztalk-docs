@@ -24,9 +24,9 @@ The data type specification is an important tool for partitioning the complexity
   
  The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] supports standard data types for all HL7 versions from V2.1 on.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] supports standard data types for all HL7 versions from V2.1 on.  
   
--   You can restrict data types where appropriate when developing interfaces.  
+- You can restrict data types where appropriate when developing interfaces.  
   
 ## In This Section  
   

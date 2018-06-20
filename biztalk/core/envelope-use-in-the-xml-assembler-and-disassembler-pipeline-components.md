@@ -34,15 +34,15 @@ An XML message can include zero or more envelopes. The following example shows a
   
  Envelopes serve two purposes:  
   
--   They can include field values to use for property promotion and demotion.  
+- They can include field values to use for property promotion and demotion.  
   
-     The XML Disassembler component promotes properties, and the XML Assembler component demotes properties. Property promotion and demotion can also occur in XML documents.  
+   The XML Disassembler component promotes properties, and the XML Assembler component demotes properties. Property promotion and demotion can also occur in XML documents.  
   
--   They can combine several XML documents into a single interchange.  
+- They can combine several XML documents into a single interchange.  
   
-     Because a well-formed XML document can have only one root element, an envelope enables you to combine multiple XML documents to share one root element.  
+   Because a well-formed XML document can have only one root element, an envelope enables you to combine multiple XML documents to share one root element.  
   
- You can enforce the canonical form by specifying the envelope order by using the **Schema Collection Property Editor** dialog which is accessed by clicking the ellipses for the **Envelope schemas** design-time property in the XML Assembler. You can also use the **XMLNORM.EnvelopeSpecNames** message context property before the XML Assembler is run. The XML Assembler produces an enveloped document in canonical form.  
+  You can enforce the canonical form by specifying the envelope order by using the **Schema Collection Property Editor** dialog which is accessed by clicking the ellipses for the **Envelope schemas** design-time property in the XML Assembler. You can also use the **XMLNORM.EnvelopeSpecNames** message context property before the XML Assembler is run. The XML Assembler produces an enveloped document in canonical form.  
   
 ## Nesting envelopes  
  You can nest envelopes to form complex document structures where several enveloped XML documents can be combined into a larger interchange. The following example shows an interchange wrapped by two envelopes.  

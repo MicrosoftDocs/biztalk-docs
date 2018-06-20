@@ -39,30 +39,30 @@ The BizTalk application is a feature of [!INCLUDE[btsBizTalkServerNoVersion](../
 ## Artifacts  
  Artifacts include the following:  
   
--   BizTalk assemblies and the BizTalk-specific resources that they contain – orchestrations, pipelines, schemas, and maps  
+- BizTalk assemblies and the BizTalk-specific resources that they contain – orchestrations, pipelines, schemas, and maps  
   
--   .NET assemblies that do not contain BizTalk-specific resources  
+- .NET assemblies that do not contain BizTalk-specific resources  
   
--   Policies  
+- Policies  
   
--   Send ports, send port groups, receive locations, and receive ports  
+- Send ports, send port groups, receive locations, and receive ports  
   
--   Other items that are used by the solution, such as certificates, COM components, and scripts  
+- Other items that are used by the solution, such as certificates, COM components, and scripts  
   
- For background information about each type of artifact, see [Runtime Architecture](../core/runtime-architecture.md). For more information about adding, removing, and configuring artifacts, see [Managing Artifacts](../core/managing-artifacts.md).  
+  For background information about each type of artifact, see [Runtime Architecture](../core/runtime-architecture.md). For more information about adding, removing, and configuring artifacts, see [Managing Artifacts](../core/managing-artifacts.md).  
   
- An application can contain all of the artifacts used in a business solution or only some of them. Depending on how you want to deploy the artifacts, you may want to place them into a single application or into two or more applications. For more information about deciding how to group artifacts, see [Best Practices for Deploying a BizTalk Application](../core/best-practices-for-deploying-a-biztalk-application.md).  
+  An application can contain all of the artifacts used in a business solution or only some of them. Depending on how you want to deploy the artifacts, you may want to place them into a single application or into two or more applications. For more information about deciding how to group artifacts, see [Best Practices for Deploying a BizTalk Application](../core/best-practices-for-deploying-a-biztalk-application.md).  
   
 ## The default application  
  When BizTalk Server is configured following installation, a default application named BizTalk Application 1 is automatically created. For information about best practices for grouping artifacts into different applications, see [Best Practices for Deploying a BizTalk Application](../core/best-practices-for-deploying-a-biztalk-application.md). You can also change the default application or rename the default application.  
   
  In the following scenarios, artifacts are automatically added to the default application:  
   
--   When you deploy an assembly from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] without specifying an application name. For more information, see [How to Deploy a BizTalk Assembly from Visual Studio](../core/how-to-deploy-a-biztalk-assembly-from-visual-studio.md).  
+- When you deploy an assembly from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] without specifying an application name. For more information, see [How to Deploy a BizTalk Assembly from Visual Studio](../core/how-to-deploy-a-biztalk-assembly-from-visual-studio.md).  
   
--   When you use BTSTask to add an artifact to an application without specifying an application name. For more information, see [AddResource Command](../core/addresource-command.md).  
+- When you use BTSTask to add an artifact to an application without specifying an application name. For more information, see [AddResource Command](../core/addresource-command.md).  
   
--   When you use BTSTask to import an application .msi file without specifying an application name. For more information, see [ImportApp Command](../core/importapp-command.md).  
+- When you use BTSTask to import an application .msi file without specifying an application name. For more information, see [ImportApp Command](../core/importapp-command.md).  
   
 ## The BizTalk.System application  
  When BizTalk Server is configured following installation, an application named BizTalk.System is automatically created and populated with common artifacts that are used by all BizTalk applications, such as the default schemas and pipelines. BizTalk.System and its artifacts are read-only. You cannot delete or rename BizTalk.System, nor can you delete, rename, or move any of the artifacts that it contains.  

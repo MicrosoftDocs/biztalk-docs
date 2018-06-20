@@ -17,15 +17,15 @@ manager: "anneta"
 # The certificate used for signing a message cannot be located in the local certificate store
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|CertificateMissingError|  
-|Message Text|The certificate used for signing a message cannot be located in the local certificate store. Certificate thumbprint: {0}|  
+|                 |                                                                                                                          |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                    |
+| Product Version |                                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                |
+|    Event ID     |                                                            -                                                             |
+|  Event Source   |                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                  |
+|    Component    |                                                        AS2 Engine                                                        |
+|  Symbolic Name  |                                                 CertificateMissingError                                                  |
+|  Message Text   | The certificate used for signing a message cannot be located in the local certificate store. Certificate thumbprint: {0} |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process the outgoing message because the certificate identified as the signing certificate was not in the required certificate store.  

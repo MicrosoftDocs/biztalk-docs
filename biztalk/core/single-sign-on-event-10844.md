@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10844
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10844|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPING_EXISTS2|  
-|Message Text|The mapping already exists. See the event log (on computer ‘%1’) for more details.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   |                             Enterprise Single Sign-On                              |
+| Product Version |             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]             |
+|    Event ID     |                                       10844                                        |
+|  Event Source   |                                       ENTSSO                                       |
+|    Component    |                                        N/A                                         |
+|  Symbolic Name  |                              ENTSSO_E_MAPPING_EXISTS2                              |
+|  Message Text   | The mapping already exists. See the event log (on computer ‘%1’) for more details. |
   
 ## Explanation  
  The mapping already exists.  

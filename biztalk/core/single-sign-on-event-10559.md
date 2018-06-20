@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10559
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10559|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_INFO_BACKUP_SECRET_OK|  
-|Message Text|The master secrets were successfully backed up.%r<br /><br /> File Name: %1%r<br /><br /> Current MSID: %2%r<br /><br /> Previous MSID: %3%r<br /><br /> Client User: %4%r<br /><br /> Client Computer: %5|  
+|                 |                                                                                                                                                                                                            |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                         Enterprise Single Sign-On                                                                                          |
+| Product Version |                                                                         [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                         |
+|    Event ID     |                                                                                                   10559                                                                                                    |
+|  Event Source   |                                                                                                   ENTSSO                                                                                                   |
+|    Component    |                                                                                                    N/A                                                                                                     |
+|  Symbolic Name  |                                                                                         SSO_INFO_BACKUP_SECRET_OK                                                                                          |
+|  Message Text   | The master secrets were successfully backed up.%r<br /><br /> File Name: %1%r<br /><br /> Current MSID: %2%r<br /><br /> Previous MSID: %3%r<br /><br /> Client User: %4%r<br /><br /> Client Computer: %5 |
   
 ## Explanation  
  The event occurred successfully.  

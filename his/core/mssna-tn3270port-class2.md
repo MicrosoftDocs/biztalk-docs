@@ -36,7 +36,7 @@ class MsSna_TN3270Port : MsSna_Config
   
 ## Properties  
  **Service**  
- Data Type: **String**Qualifiers: **Key, MAXLEN(20)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>Key, MAXLEN(20)</strong>Access Type: Read/Write  
   
  The TN service to which this LU belongs.  
   
@@ -46,7 +46,7 @@ class MsSna_TN3270Port : MsSna_Config
  The port number.  
   
  **Comment**  
- Data Type: **String**Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An option comment field.  
   
@@ -68,7 +68,7 @@ class MsSna_TN3270Port : MsSna_Config
  **true** to indicate that the client ceritificate should be validated; otherwise, **false**.  
   
  **Default**  
- Data Type: **Boolean**Qualifiers: **(TRUE)**Access Type: Read-Only  
+ Data Type: **Boolean**Qualifiers: <strong>(TRUE)</strong>Access Type: Read-Only  
   
  **true** to indicate a default port; otherwise, **false**.  
   

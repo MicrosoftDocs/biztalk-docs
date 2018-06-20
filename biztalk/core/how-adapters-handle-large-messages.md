@@ -20,17 +20,17 @@ The BizTalk Messaging Engine can process very large messages and imposes no rest
 ## Stream-Based Processing  
  It is important to keep large message handling in mind when developing adapters. Loading the entire data stream into memory regardless of its size is strongly discouraged because this could potentially stop the BizTalk Server process. Depending on the size and number of messages that the engine is processing at any given time, low virtual memory could become a problem. Instead, messages should be processed in a streaming fashion as follows:  
   
--   **Inbound messages.** For inbound messages the network stream is attached to the BizTalk message by the receive adapter leaving the "pulling" of the stream to the BizTalk Messaging Engine.  
+- **Inbound messages.** For inbound messages the network stream is attached to the BizTalk message by the receive adapter leaving the "pulling" of the stream to the BizTalk Messaging Engine.  
   
--   **Outbound messages.** For outbound messages the adapter is responsible for pulling the stream. This effectively pulls the stream from the MessageBox database and though the send pipeline. The adapter should send the data over the wire in a streaming fashion.  
+- **Outbound messages.** For outbound messages the adapter is responsible for pulling the stream. This effectively pulls the stream from the MessageBox database and though the send pipeline. The adapter should send the data over the wire in a streaming fashion.  
   
- The following figure shows stream-based processing on the receive side of the Messaging Engine.  
+  The following figure shows stream-based processing on the receive side of the Messaging Engine.  
   
- ![](../core/media/streambasedprocessing.gif "Streambasedprocessing")  
+  ![](../core/media/streambasedprocessing.gif "Streambasedprocessing")  
   
- When an adapter submits a message to the engine it should attach its data stream to the BizTalk message. For some adapters this may mean implementing a network stream. When the message is submitted, the engine executes the receive pipeline. During pipeline execution, the pipeline components that want to change the data clone the message, wiring up the stream from the new message to the stream on the previous message. After the pipeline has been executed, the Messaging Engine takes a message out of the pipeline and executes a loop reading the stream on that message. This reading of the stream invokes a read on the previous stream, which in turn invokes a read on the previous stream, and so on back to the network stream. The engine periodically flushes the data to the MessageBox to maintain a flat memory model.  
+  When an adapter submits a message to the engine it should attach its data stream to the BizTalk message. For some adapters this may mean implementing a network stream. When the message is submitted, the engine executes the receive pipeline. During pipeline execution, the pipeline components that want to change the data clone the message, wiring up the stream from the new message to the stream on the previous message. After the pipeline has been executed, the Messaging Engine takes a message out of the pipeline and executes a loop reading the stream on that message. This reading of the stream invokes a read on the previous stream, which in turn invokes a read on the previous stream, and so on back to the network stream. The engine periodically flushes the data to the MessageBox to maintain a flat memory model.  
   
- **Troubleshooting Tip:** On the send side, the adapter is responsible for reading the stream. If the send adapter wants to read any message context properties that are promoted or written in the send pipeline, these properties may not be written until the entire stream is read. Only when the stream has been completely read can the adapter be sure that all of the pipeline components have finished executing.  
+  **Troubleshooting Tip:** On the send side, the adapter is responsible for reading the stream. If the send adapter wants to read any message context properties that are promoted or written in the send pipeline, these properties may not be written until the entire stream is read. Only when the stream has been completely read can the adapter be sure that all of the pipeline components have finished executing.  
   
 ## Locating a Specific Byte in the Stream  
  There are scenarios in which an adapter may need to locate the stream back to the beginning to handle failed messages that need to be suspended. An example of this is an HTTP adapter that is receiving data using chunked encoding to submit the response message in a solicit-response pair.  

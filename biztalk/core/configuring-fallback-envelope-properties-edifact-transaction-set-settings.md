@@ -24,35 +24,35 @@ In the **Envelopes** page of the **Transaction Set Settings** section, you defin
   
 ### To define the UNG segments  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **EDIFACT Fallback Settings**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **EDIFACT Fallback Settings**.  
   
-2.  In the **EDIFACT Fallback Settings** dialog box, in the **EDIFACT Agreement Pages** tab, under the **Transaction Set Settings** section, click **Envelopes**.  
+2. In the **EDIFACT Fallback Settings** dialog box, in the **EDIFACT Agreement Pages** tab, under the **Transaction Set Settings** section, click **Envelopes**.  
   
-3.  For **Functional group ID (UNG1)**, enter an alphanumeric value with a minimum of one character and a maximum of six characters. This is a required field.  
+3. For **Functional group ID (UNG1)**, enter an alphanumeric value with a minimum of one character and a maximum of six characters. This is a required field.  
   
-4.  Enter values to identify **Application sender (UNG2)**.  
+4. Enter values to identify **Application sender (UNG2)**.  
   
-    -   For **Identification (UNG2.1)**, enter an alphanumeric value with a minimum of one character and a maximum of 35 characters. This is a required field.  
+   -   For **Identification (UNG2.1)**, enter an alphanumeric value with a minimum of one character and a maximum of 35 characters. This is a required field.  
   
-    -   For **Code qualifier (UNG2.2)**, enter an alphanumeric value with a minimum of one character and a maximum of four characters. This is an optional field.  
+   -   For **Code qualifier (UNG2.2)**, enter an alphanumeric value with a minimum of one character and a maximum of four characters. This is an optional field.  
   
-5.  Enter values to identify **Application recipient (UNG3)**.  
+5. Enter values to identify **Application recipient (UNG3)**.  
   
-    -   For **Identification (UNG3.1)**, enter an alphanumeric value with a minimum of one character and a maximum of 35 characters. This is a required field.  
+   -   For **Identification (UNG3.1)**, enter an alphanumeric value with a minimum of one character and a maximum of 35 characters. This is a required field.  
   
-    -   For **Code qualifier (UNG3.2)**, enter an alphanumeric value with a minimum of one character and a maximum of four characters. This is an optional field.  
+   -   For **Code qualifier (UNG3.2)**, enter an alphanumeric value with a minimum of one character and a maximum of four characters. This is an optional field.  
   
-6.  For **Controlling agency (UNG6)**, enter an alphanumeric value with a minimum of one character and a maximum of two characters. This is a required field.  
+6. For **Controlling agency (UNG6)**, enter an alphanumeric value with a minimum of one character and a maximum of two characters. This is a required field.  
   
-7.  Enter values to identify **Message version (UNG7)**.  
+7. Enter values to identify **Message version (UNG7)**.  
   
-    -   For **Version (UNG7.1)**, enter an alphanumeric value with a minimum of one character and a maximum of three characters. This is a required field.  
+   -   For **Version (UNG7.1)**, enter an alphanumeric value with a minimum of one character and a maximum of three characters. This is a required field.  
   
-    -   For **Release (UNG7.2)**, enter an alphanumeric value with a minimum of one character and a maximum of three characters. This is a required field.  
+   -   For **Release (UNG7.2)**, enter an alphanumeric value with a minimum of one character and a maximum of three characters. This is a required field.  
   
-    -   For **Association assigned code (UNG7.3)**, enter an alphanumeric value with a minimum of 1 character and a maximum of 6 characters. This is an optional field.  
+   -   For **Association assigned code (UNG7.3)**, enter an alphanumeric value with a minimum of 1 character and a maximum of 6 characters. This is an optional field.  
   
-8.  For **Application password (UNG8)**, enter an alphanumeric value with a minimum of one character and a maximum of 14 characters. This is a required field.  
+8. For **Application password (UNG8)**, enter an alphanumeric value with a minimum of one character and a maximum of 14 characters. This is a required field.  
   
 9. Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate the changes and then close the dialog box.  
   

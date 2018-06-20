@@ -171,97 +171,97 @@ The following steps describe how to prepare the computer for installing the Busi
   
 #### To install the Business Process Management Solution  
   
-1.  At a command prompt, change the current folder to %BTSSolutionsPath%\BPM, type `SetupBPM.bat`, and then press ENTER.  
+1. At a command prompt, change the current folder to %BTSSolutionsPath%\BPM, type `SetupBPM.bat`, and then press ENTER.  
   
-    > [!NOTE]
-    >  Before running SetupBPM.bat, in the files **%BTSInstallPath%/SDK/Scenarios/BPM/CSDWebApp/App_WebReferences/SouthridgeVideo_OrderBroker/OrderBrokerOrch_OrderPort.wsdl** and **%BTSInstallPath%/SDK/Scenarios/BPM/OrderBroker_Proxy/App_Code/OrderBrokerOrch_OrderPort.asmx.cs**, replace all instances of 8f8bbebbb3fb375a with XXXXXXXXXXXXXXXX.  
+   > [!NOTE]
+   >  Before running SetupBPM.bat, in the files **%BTSInstallPath%/SDK/Scenarios/BPM/CSDWebApp/App_WebReferences/SouthridgeVideo_OrderBroker/OrderBrokerOrch_OrderPort.wsdl** and **%BTSInstallPath%/SDK/Scenarios/BPM/OrderBroker_Proxy/App_Code/OrderBrokerOrch_OrderPort.asmx.cs**, replace all instances of 8f8bbebbb3fb375a with XXXXXXXXXXXXXXXX.  
   
-     The SetupBPM.bat performs the following tasks:  
+    The SetupBPM.bat performs the following tasks:  
   
-    1.  Creates a unique strong name key (SNK) for signing the assemblies of the BPM Solution.  
+   1.  Creates a unique strong name key (SNK) for signing the assemblies of the BPM Solution.  
   
-    2.  Extracts the public key token from the SNK.  
+   2.  Extracts the public key token from the SNK.  
   
-    3.  Updates the binding files with the public token.  
+   3.  Updates the binding files with the public token.  
   
-    4.  Builds the BPM solution, and installs OpsAdapter.  
+   4.  Builds the BPM solution, and installs OpsAdapter.  
   
-    5.  Builds the SSOApplicationConfig in the %BTSSolutionsPath%\Common folder.  
+   5.  Builds the SSOApplicationConfig in the %BTSSolutionsPath%\Common folder.  
   
-2.  Deploy the Southridge Video business rules using the Business Rule Engine Deployment Wizard:  
+2. Deploy the Southridge Video business rules using the Business Rule Engine Deployment Wizard:  
   
-    1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **Business Rules Engine Deployment Wizard**.  
+   1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **Business Rules Engine Deployment Wizard**.  
   
-        > [!NOTE]
-        >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
+      > [!NOTE]
+      >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
   
-    2.  On the **Welcome** page, click **Next**.  
+   2. On the **Welcome** page, click **Next**.  
   
-    3.  On the **Deployment Task** page, select **Import and publish Policy/Vocabulary to database from file**, and then click **Next**.  
+   3. On the **Deployment Task** page, select **Import and publish Policy/Vocabulary to database from file**, and then click **Next**.  
   
-    4.  On the **Policy Store** page, keep all other default settings, and then click **Next**.  
+   4. On the **Policy Store** page, keep all other default settings, and then click **Next**.  
   
-    5.  On the **Import Rules Engine Policy/Vocabulary file** page, click **Browse**, select the DecodeAndValidateOrderRules.xml file in the %BTSSolutionsPath%\BPM\Rules folder, and then click **Next**.  
+   5. On the **Import Rules Engine Policy/Vocabulary file** page, click **Browse**, select the DecodeAndValidateOrderRules.xml file in the %BTSSolutionsPath%\BPM\Rules folder, and then click **Next**.  
   
-    6.  On the **Ready** page, click **Next**, and then on the **Importing Policy/Vocabulary** page, click **Next**  
+   6. On the **Ready** page, click **Next**, and then on the **Importing Policy/Vocabulary** page, click **Next**  
   
-    7.  On the Completion page, select **Run the wizard again** to open the Wizard again, and then click **Finish**.  
+   7. On the Completion page, select **Run the wizard again** to open the Wizard again, and then click **Finish**.  
   
-    8.  On the **Welcome** page, click **Next**.  
+   8. On the **Welcome** page, click **Next**.  
   
-    9. On the **Deployment Task** page, select **DeployPolicy**, and then click **Next**.  
+   9. On the **Deployment Task** page, select **DeployPolicy**, and then click **Next**.  
   
-    10. On the **Policy Store** page, keep all other default settings, and then click **Next**.  
+   10. On the **Policy Store** page, keep all other default settings, and then click **Next**.  
   
-    11. On the **Deploy Policy** page, select **DecodeAndValidateOrder 1.0** in the **Rule Engine Policy** drop-down list, and then click **Next**.  
+   11. On the **Deploy Policy** page, select **DecodeAndValidateOrder 1.0** in the **Rule Engine Policy** drop-down list, and then click **Next**.  
   
-    12. On the **Ready** page, click **Next**, and then on the **Deploying Policy** page, click **Next**.  
+   12. On the **Ready** page, click **Next**, and then on the **Deploying Policy** page, click **Next**.  
   
-    13. On the Completion page, click **Finish**.  
+   13. On the Completion page, click **Finish**.  
   
-3.  If you install the BPM solution on a 64-bit computer, then  
+3. If you install the BPM solution on a 64-bit computer, then  
   
-    1.  Open a 32-bit command prompt as follow: Click **Start**, click **Run**, type `%SYSTEMROOT%\SYSWOW64\CMD.EXE`, and then press ENTER.  
+   1.  Open a 32-bit command prompt as follow: Click **Start**, click **Run**, type `%SYSTEMROOT%\SYSWOW64\CMD.EXE`, and then press ENTER.  
   
-    2.  At the 32-bit command prompt, change the directory to the %BTSSolutionsPath%\BPM\Scripts folder.  
+   2.  At the 32-bit command prompt, change the directory to the %BTSSolutionsPath%\BPM\Scripts folder.  
   
-    3.  Using Notepad, open the CreateSouthridgeVideoApplication.cmd, and then replace "%CommonProgramFiles%\Enterprise Single Sign-On\ssomanage.exe" with "%SystemDrive%\Program Files\Common Files\Enterprise Single Sign-On\ssomanage.exe".  
+   3.  Using Notepad, open the CreateSouthridgeVideoApplication.cmd, and then replace "%CommonProgramFiles%\Enterprise Single Sign-On\ssomanage.exe" with "%SystemDrive%\Program Files\Common Files\Enterprise Single Sign-On\ssomanage.exe".  
   
-        > [!NOTE]
-        >  At a 32-bit command prompt, the %CommonProgramFiles% variable is changed to "%ProgramFiles(x86)%\Common Files". Because the SSO administrative utility is installed in the %ProgramFiles% even on a 64-bit computer, you must fix the path. The DeployBPM.cmd calls CreateSouthridgeVideoApplication.cmd.  
+       > [!NOTE]
+       >  At a 32-bit command prompt, the %CommonProgramFiles% variable is changed to "%ProgramFiles(x86)%\Common Files". Because the SSO administrative utility is installed in the %ProgramFiles% even on a 64-bit computer, you must fix the path. The DeployBPM.cmd calls CreateSouthridgeVideoApplication.cmd.  
   
-    4.  At the 32-bit command prompt, type type `DeployBPM.cmd`, and then press ENTER.  
+   4.  At the 32-bit command prompt, type type `DeployBPM.cmd`, and then press ENTER.  
   
-        > [!NOTE]
-        >  The DeployBPM.cmd must be run at a 32-bit command prompt because it includes the VB Script accessing x86 objects that requires the x86 version of cscript.exe.  
+       > [!NOTE]
+       >  The DeployBPM.cmd must be run at a 32-bit command prompt because it includes the VB Script accessing x86 objects that requires the x86 version of cscript.exe.  
   
-4.  At a command prompt, change the current folder to %BTSSolutionsPath%\BPM\Scripts, type `DeployBPM.cmd`, and then press ENTER. The DeployBPM.cmd performs the following tasks:  
+4. At a command prompt, change the current folder to %BTSSolutionsPath%\BPM\Scripts, type `DeployBPM.cmd`, and then press ENTER. The DeployBPM.cmd performs the following tasks:  
   
-    1.  Creates BizTalk Applications for the BPM Solution.  
+   1.  Creates BizTalk Applications for the BPM Solution.  
   
-    2.  Adds references between the applications.  
+   2.  Adds references between the applications.  
   
-    3.  Imports the binding files.  
+   3.  Imports the binding files.  
   
-    4.  Deploys the BAM definition files.  
+   4.  Deploys the BAM definition files.  
   
-    5.  Registers the SouthridgeVideo event source.  
+   5.  Registers the SouthridgeVideo event source.  
   
-    6.  Creates a Single Sign-On (SSO) affiliated application, and saves configuration values to the SSO application.  
+   6.  Creates a Single Sign-On (SSO) affiliated application, and saves configuration values to the SSO application.  
   
-5.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
+5. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
   
-    1.  In the **BizTalk Server Administration Console**, expand **BizTalk Group**, expand **Applications**, expand **BTSScn.BPM.OrderBrokerApp**, expand **Receive Locations**, right-click **Vendor-RP-RL**, and then click Properties.  
+   1.  In the **BizTalk Server Administration Console**, expand **BizTalk Group**, expand **Applications**, expand **BTSScn.BPM.OrderBrokerApp**, expand **Receive Locations**, right-click **Vendor-RP-RL**, and then click Properties.  
   
-    2.  On the **Properties** dialog box, click **Configure**, and then enter values as the following table on the **Transport Properties** dialog box:  
+   2.  On the **Properties** dialog box, click **Configure**, and then enter values as the following table on the **Transport Properties** dialog box:  
   
-        |Property Name|Value|  
-        |-------------------|-----------|  
-        |**Server**|`localhost`|  
-        |**User Name**|\<*BizTalk service account name*\>|  
-        |**Password**|\<*BizTalk service account password*\>|  
+       |Property Name|Value|  
+       |-------------------|-----------|  
+       |**Server**|`localhost`|  
+       |**User Name**|\<*BizTalk service account name*\>|  
+       |**Password**|\<*BizTalk service account password*\>|  
   
-6.  Run the BPM Solution. For more information about running the solution, see [How to Run the Business Process Management Solution](../core/how-to-run-the-business-process-management-solution.md).  
+6. Run the BPM Solution. For more information about running the solution, see [How to Run the Business Process Management Solution](../core/how-to-run-the-business-process-management-solution.md).  
   
 ## Next Steps  
  You test how the Business Management Solution works in [How to Run the Business Process Management Solution](../core/how-to-run-the-business-process-management-solution.md).  

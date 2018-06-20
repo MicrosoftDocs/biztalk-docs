@@ -28,13 +28,13 @@ manager: "anneta"
   
  Messages that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] receives or sends on an MLLP adapter require the following wrappers:  
   
--   \<SB\> Start Block character  
+- \<SB\> Start Block character  
   
--   \<EB\> End Block character  
+- \<EB\> End Block character  
   
--   \<CR\> Carriage Return Byte (optional)  
+- \<CR\> Carriage Return Byte (optional)  
   
- MLLP adapters provide error handling for missing \<SB\> or \<EB\> wrappers, dropped connections, or timeouts. With an MLLP adapter, you can configure a limitation on the number of connections. You can use an assortment of acknowledgments with an MLLP adapter.  
+  MLLP adapters provide error handling for missing \<SB\> or \<EB\> wrappers, dropped connections, or timeouts. With an MLLP adapter, you can configure a limitation on the number of connections. You can use an assortment of acknowledgments with an MLLP adapter.  
   
 ## See Also  
  [Processing MLLP-encoded Messages](../../adapters-and-accelerators/accelerator-hl7/processing-mllp-encoded-messages.md)   

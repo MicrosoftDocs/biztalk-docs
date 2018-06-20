@@ -18,46 +18,46 @@ manager: "anneta"
 ## What is the message flow within the WCF and BizTalk systems?  
  Here is a description of the flow of an incoming WCF message to BizTalk Server:  
   
-1.  A WCF message arrives at a receive location, and BizTalk Server instantiates a hosted WCF service.  
+1. A WCF message arrives at a receive location, and BizTalk Server instantiates a hosted WCF service.  
   
-2.  The WCF runtime instantiates the service’s channel stack and its channel listeners. A channel stack is a sequence of stages that handle differing processing tasks. Each channel stack consists of at least a transport channel, most often a message encoder, and zero or more protocol channels. The transport channel reads the incoming message stream upon arrival. It invokes an encoder to interpret the message and to produce a WCF Message object. At this point each protocol channel will have an opportunity to operate on the WCF message in order.  
+2. The WCF runtime instantiates the service’s channel stack and its channel listeners. A channel stack is a sequence of stages that handle differing processing tasks. Each channel stack consists of at least a transport channel, most often a message encoder, and zero or more protocol channels. The transport channel reads the incoming message stream upon arrival. It invokes an encoder to interpret the message and to produce a WCF Message object. At this point each protocol channel will have an opportunity to operate on the WCF message in order.  
   
-3.  The WCF message is received by a listener that forwards it through the configured WCF channel stack and dispatches it to the proper service instance. At this point the WCF message is converted (mapped) to a BizTalk message. Briefly stated, the WCF message headers are written into the BizTalk message context, and the WCF message body is written into the  BizTalk message body part. Mapping controls what part of the WCF message becomes the BizTalk message body: Envelope, body, or sub-element.  
+3. The WCF message is received by a listener that forwards it through the configured WCF channel stack and dispatches it to the proper service instance. At this point the WCF message is converted (mapped) to a BizTalk message. Briefly stated, the WCF message headers are written into the BizTalk message context, and the WCF message body is written into the  BizTalk message body part. Mapping controls what part of the WCF message becomes the BizTalk message body: Envelope, body, or sub-element.  
   
-4.  Any pipeline components configured in the receive location processes the BizTalk message.  
+4. Any pipeline components configured in the receive location processes the BizTalk message.  
   
-5.  The BizTalk message is stored in the MessageBox database.  
+5. The BizTalk message is stored in the MessageBox database.  
   
- Here is a description of the flow of an outgoing WCF message from BizTalk Server:  
+   Here is a description of the flow of an outgoing WCF message from BizTalk Server:  
   
-1.  A BizTalk message is received by a send port according to its subscription.  
+6. A BizTalk message is received by a send port according to its subscription.  
   
-2.  Any pipeline components configured in the send port process the BizTalk message.  
+7. Any pipeline components configured in the send port process the BizTalk message.  
   
-3.  A WCF channel stack is instantiated, and the BizTalk message is converted (mapped) into a WCF message based upon the service’s external visible contract.  
+8. A WCF channel stack is instantiated, and the BizTalk message is converted (mapped) into a WCF message based upon the service’s external visible contract.  
   
-4.  The WCF channel stack transmits the WCF message to the external WCF service.  
+9. The WCF channel stack transmits the WCF message to the external WCF service.  
   
 ## How is a WCF message converted (mapped) into a BizTalk message?  
  In order to understand the mapping, we need to look at the structure of a WCF message and a BizTalk message.  
   
  A WCF message is modeled on the SOAP message structure and consists of message properties, message headers, and a single message body.  
   
--   The **message properties** are Common Language Runtime (CLR) objects that are attached to the Message object. Properties are internal to the WCF stack and the user’s application at each end of the communication. They are never directly transferred between client and server.  
+- The **message properties** are Common Language Runtime (CLR) objects that are attached to the Message object. Properties are internal to the WCF stack and the user’s application at each end of the communication. They are never directly transferred between client and server.  
   
--   **Message headers**, however, are transferred between client and server. There can be many headers on a message, but there is only one message body, and unlike the headers the message body is streamed. Both the message headers and the message body are defined as an XML Infoset.  
+- **Message headers**, however, are transferred between client and server. There can be many headers on a message, but there is only one message body, and unlike the headers the message body is streamed. Both the message headers and the message body are defined as an XML Infoset.  
   
--   The **body** of a WCF message is the main content of the message for which the properties and headers provide more information.  
+- The **body** of a WCF message is the main content of the message for which the properties and headers provide more information.  
   
- A BizTalk message has a different structure.  
+  A BizTalk message has a different structure.  
   
--   There is a single set of context properties on each message. Each context property consists of a namespace name/value pair. Context properties can be either promoted or written. If they are promoted, they can take part in the routing rules that execute within BizTalk Server.  
+- There is a single set of context properties on each message. Each context property consists of a namespace name/value pair. Context properties can be either promoted or written. If they are promoted, they can take part in the routing rules that execute within BizTalk Server.  
   
--   The data of a message in BizTalk Server can consist of multiple streams. A BizTalk message is multipart because each stream can be read independently. One of the message parts is special and it is referred to as the body part.  
+- The data of a message in BizTalk Server can consist of multiple streams. A BizTalk message is multipart because each stream can be read independently. One of the message parts is special and it is referred to as the body part.  
   
- Because the communication can sometimes be two-way, the WCF adapter allows the particular translation or mapping to be configured for both inbound and outbound directions of message exchange. This can be done for both the receive locations and send ports within BizTalk Server.  
+  Because the communication can sometimes be two-way, the WCF adapter allows the particular translation or mapping to be configured for both inbound and outbound directions of message exchange. This can be done for both the receive locations and send ports within BizTalk Server.  
   
- The BizTalk WCF adapters support a number of permutations of translating at run time between these two message structures. Mapping is controlled through the **Messages** tab in the **Transport Properties** dialog box for a WCF adapter. For example, the most obvious translation, and the default, is when the body of an inbound WCF message becomes the body of the BizTalk message. For more information about mapping modes, see [http://go.microsoft.com/fwlink/?LinkID=119792](http://go.microsoft.com/fwlink/?LinkID=119792).  
+  The BizTalk WCF adapters support a number of permutations of translating at run time between these two message structures. Mapping is controlled through the **Messages** tab in the **Transport Properties** dialog box for a WCF adapter. For example, the most obvious translation, and the default, is when the body of an inbound WCF message becomes the body of the BizTalk message. For more information about mapping modes, see [http://go.microsoft.com/fwlink/?LinkID=119792](http://go.microsoft.com/fwlink/?LinkID=119792).  
   
 ## How can you preserve the complete incoming WCF message inside the BizTalk message?  
  One of the inbound BizTalk message body options is the **Envelope** option. Choosing this option takes the entire SOAP message contained within the soap:Envelope element into the incoming BizTalk message body. The resulting BizTalk message contains the Envelope tags, all the headers, and the body.  

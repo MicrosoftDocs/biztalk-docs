@@ -24,28 +24,28 @@ manager: "anneta"
   
 ### To create the Send_Payload_EdiXml send port  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-Way Send Port**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click **Send Ports**, point to **New**, and then click **Static One-Way Send Port**.  
   
-2.  In the **Send Port Properties** dialog box, name your send port as **Send_Payload_EdiXml**. Select **FILE** for **Type**, and then click **Configure**.  
+2. In the **Send Port Properties** dialog box, name your send port as **Send_Payload_EdiXml**. Select **FILE** for **Type**, and then click **Configure**.  
   
-    > [!NOTE]
-    >  The FILE type is specified because the send pipeline is not performing AS2 processing on the payload file. It is just routing the payload file to a local folder so you can see the EDI transaction set.  
+   > [!NOTE]
+   >  The FILE type is specified because the send pipeline is not performing AS2 processing on the payload file. It is just routing the payload file to a local folder so you can see the EDI transaction set.  
   
-3.  In the **FILE Transport Properties** dialog box, for **Destination folder**, browse to and select [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso. Leave **File name** as **%MessageID%.xml**. Click **OK**.  
+3. In the **FILE Transport Properties** dialog box, for **Destination folder**, browse to and select [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso. Leave **File name** as **%MessageID%.xml**. Click **OK**.  
   
-4.  Accept the default of **PassThruTransmit** for **Send Pipeline**.  
+4. Accept the default of **PassThruTransmit** for **Send Pipeline**.  
   
-    > [!NOTE]
-    >  Because the PassThruTransmit send pipeline is used, the pipeline will not perform any EDI processing on the payload message, but will be sent to the local folder in the XML format produced by the AS2EdiReceive receive pipeline.  
+   > [!NOTE]
+   >  Because the PassThruTransmit send pipeline is used, the pipeline will not perform any EDI processing on the payload message, but will be sent to the local folder in the XML format produced by the AS2EdiReceive receive pipeline.  
   
-5.  Click **Filters** in the console tree. For **Property**, enter **BTS.MessageType**. For **Operator**, enter **==**. For **Value**, enter `http://schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_864`.  
+5. Click **Filters** in the console tree. For **Property**, enter **BTS.MessageType**. For **Operator**, enter **==**. For **Value**, enter `http://schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_864`.  
   
-    > [!NOTE]
-    >  This filter ensures that this send port will only pick up X12 864 payload messages from the MessageBox.  
+   > [!NOTE]
+   >  This filter ensures that this send port will only pick up X12 864 payload messages from the MessageBox.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
-7.  In the **Send Ports** pane of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Send_Payload_EdiXml** send port, and then click **Start**.  
+7. In the **Send Ports** pane of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Send_Payload_EdiXml** send port, and then click **Start**.  
   
 ## Next Steps  
  You create an AS2 and X12 agreement between the two trading partners, as described in [Step 10: Configure the X12 and AS2 Trading Partner Agreement](../core/step-10-configure-the-x12-and-as2-trading-partner-agreement.md)  

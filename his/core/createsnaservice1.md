@@ -45,15 +45,15 @@ The **CreateSNAService** function creates the necessary entries for an instance 
  *Return 0*  
  Status of the operation:  
   
--   STATUS_SUCCESSFUL: Operation succeeded.  
+- STATUS_SUCCESSFUL: Operation succeeded.  
   
--   STATUS_FAILED: Operation failed.  
+- STATUS_FAILED: Operation failed.  
   
- *Return 1*  
- Handle to the service key.  
+  *Return 1*  
+  Handle to the service key.  
   
- *Return 2*  
- Handle to the **Parameters** key under the service key.  
+  *Return 2*  
+  Handle to the **Parameters** key under the service key.  
   
- *Return 3*  
- Handle to the **ExtraParameters** key under the **Parameters** key.
+  *Return 3*  
+  Handle to the **ExtraParameters** key under the **Parameters** key.

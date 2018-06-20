@@ -29,15 +29,15 @@ This topic describes how to use the BizTalk Server Administration console to vie
   
 ### To view the dependencies of a BizTalk assembly  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group containing the BizTalk assembly for which you want to view dependencies, and then expand the application containing the BizTalk assembly.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group containing the BizTalk assembly for which you want to view dependencies, and then expand the application containing the BizTalk assembly.  
   
-3.  Click the **Resources** folder, right-click the BizTalk assembly, and then click **Modify**.  
+3. Click the **Resources** folder, right-click the BizTalk assembly, and then click **Modify**.  
   
-4.  Click the **Dependencies** tab.  
+4. Click the **Dependencies** tab.  
   
-     The name and status of the artifacts that have dependencies on this BizTalk assembly are displayed in the list.  
+    The name and status of the artifacts that have dependencies on this BizTalk assembly are displayed in the list.  
   
 ## See Also  
  [Managing BizTalk Assemblies](../core/managing-biztalk-assemblies.md)

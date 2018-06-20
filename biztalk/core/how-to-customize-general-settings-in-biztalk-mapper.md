@@ -26,34 +26,34 @@ You can change the default settings of certain view options in a map. These sett
   
 ### To customize the general settings  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
   
-     Alternatively, you can hold down the ALT key and press TO from the keyboard. For a list of Mapper keyboard shortcuts, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
+    Alternatively, you can hold down the ALT key and press TO from the keyboard. For a list of Mapper keyboard shortcuts, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
   
-2.  In the **Options** dialog box, in the left pane, expand the **BizTalk Mapper** node, and then click **General**.  
+2. In the **Options** dialog box, in the left pane, expand the **BizTalk Mapper** node, and then click **General**.  
   
-3.  Click the checkbox to enable/disable one or more of the following view options:  
+3. Click the checkbox to enable/disable one or more of the following view options:  
   
-    -   Automatic scrolling  
+   -   Automatic scrolling  
   
-    -   Optimized display of links  
+   -   Optimized display of links  
   
-    -   Highlighting the relevant links for an item  
+   -   Highlighting the relevant links for an item  
   
-    -   Relevance view  
+   -   Relevance view  
   
-    -   Confirmation message for moving a relationship to another grid page  
+   -   Confirmation message for moving a relationship to another grid page  
   
-    -   Confirmation message for search traversal from beginning/end.  
+   -   Confirmation message for search traversal from beginning/end.  
   
-    -   Preferred script for script functoids  
+   -   Preferred script for script functoids  
   
-    -   Search defaults for source schema, destination schema, and also functoid names, labels, comments, inputs, and scripts.  
+   -   Search defaults for source schema, destination schema, and also functoid names, labels, comments, inputs, and scripts.  
   
-4.  Click **OK**. The settings are saved as default.  
+4. Click **OK**. The settings are saved as default.  
   
-    > [!IMPORTANT]
-    >  If you do not want to use the customized settings, click **Restore Defaults** in the **Options** dialog box.  
+   > [!IMPORTANT]
+   >  If you do not want to use the customized settings, click **Restore Defaults** in the **Options** dialog box.  
   
 ## See Also  
  [Using BizTalk Mapper](../core/using-biztalk-mapper.md)

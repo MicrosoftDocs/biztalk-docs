@@ -17,15 +17,15 @@ manager: "anneta"
 # An invalid quoted HTTP header encountered
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|-|  
-|Message Text|An invalid quoted HTTP header encountered.  Details are as follows:  Header Name: "{0}"  Header Value: "{1}"|  
+|                 |                                                                                                              |
+|-----------------|--------------------------------------------------------------------------------------------------------------|
+|  Product Name   |              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]              |
+| Product Version |                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                          |
+|    Event ID     |                                                      -                                                       |
+|  Event Source   |            [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI            |
+|    Component    |                                                  AS2 Engine                                                  |
+|  Symbolic Name  |                                                      -                                                       |
+|  Message Text   | An invalid quoted HTTP header encountered.  Details are as follows:  Header Name: "{0}"  Header Value: "{1}" |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the AS2 receive pipeline or the AS2 send pipeline could not process the AS2 message because the name of the AS2-From or AS2-To HTTP header in the message was not quoted correctly. The header name is quoted in order to accommodate a space, backslash, or double quotes within the name.  

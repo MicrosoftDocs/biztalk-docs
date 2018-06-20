@@ -29,27 +29,27 @@ manager: "anneta"
 # Using Message Variables to Size the Tracking Database
 In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can use a number of variables to determine how large the BizTalk Tracking (BizTalkDTADb) database will become over a given period of time. These variables are:  
   
--   Number of pipelines used  
+- Number of pipelines used  
   
--   Number of orchestrations involved  
+- Number of orchestrations involved  
   
--   Number of events generated  
+- Number of events generated  
   
--   Number of message properties tracked  
+- Number of message properties tracked  
   
--   Number of additional messages created  
+- Number of additional messages created  
   
--   Estimated number of messages received in the specified timeframe  
+- Estimated number of messages received in the specified timeframe  
   
- While the equation you use to estimate the size of the BizTalk Tracking database is straightforward, you must apply it to each incoming and outgoing message process that uses the BizTalk Server implementation. In other words, you will need to apply this equation for every distinct message scenario and then add up the results to obtain the final estimated database size. In this document we will look at two scenarios. The scenarios are:  
+  While the equation you use to estimate the size of the BizTalk Tracking database is straightforward, you must apply it to each incoming and outgoing message process that uses the BizTalk Server implementation. In other words, you will need to apply this equation for every distinct message scenario and then add up the results to obtain the final estimated database size. In this document we will look at two scenarios. The scenarios are:  
   
-1.  Receiving a message, transforming the message, and then sending the resulting message  
+1. Receiving a message, transforming the message, and then sending the resulting message  
   
-2.  Receiving a message, running a business process using the message, and then sending the resulting message.  
+2. Receiving a message, running a business process using the message, and then sending the resulting message.  
   
- Both of these scenarios may be present in a BizTalk Server installation, and each scenario generates a different amount of tracking data. The total tracking data generated for the BizTalk Server installation is the sum of all the scenarios.  
+   Both of these scenarios may be present in a BizTalk Server installation, and each scenario generates a different amount of tracking data. The total tracking data generated for the BizTalk Server installation is the sum of all the scenarios.  
   
- The following are some variables used in the equation:  
+   The following are some variables used in the equation:  
   
 |Variable|Description|  
 |--------------|-----------------|  

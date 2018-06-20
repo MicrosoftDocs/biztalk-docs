@@ -28,42 +28,42 @@ Message flow on a responder computer starts with receiving a message over the In
 ## BTARN Components on the Responder Computer  
  As a message flows through [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] on the responder computer, the following components will process the message:  
   
--   RNIFReceive.aspx page  
+- RNIFReceive.aspx page  
   
--   HTTP adapter  
+- HTTP adapter  
   
--   Receive pipeline  
+- Receive pipeline  
   
--   Responder public process  
+- Responder public process  
   
--   Responder private process  
+- Responder private process  
   
--   SQL adapter  
+- SQL adapter  
   
--   Send pipeline  
+- Send pipeline  
   
- For more information about these components, and how they process a message, see [Message Processing in BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md).  
+  For more information about these components, and how they process a message, see [Message Processing in BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md).  
   
 ## Message Flow on the Responder Computer  
  The message flow of a received message through the responder [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] computer is as follows:  
   
  ![](../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-responder-receive-message-flow.gif "RN3_Responder_Receive_Message_Flow")  
   
-1.  The RNIFReceive aspx page receives the incoming message from the initiator.  
+1. The RNIFReceive aspx page receives the incoming message from the initiator.  
   
-2.  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] submits the message to the HTTP adapter, which submits it to the receive pipeline.  
+2. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] submits the message to the HTTP adapter, which submits it to the receive pipeline.  
   
-3.  The receive pipeline decodes, disassembles, and performs party resolution on the message, and then converts the message into the proprietary format of the back-end line-of-business application.  
+3. The receive pipeline decodes, disassembles, and performs party resolution on the message, and then converts the message into the proprietary format of the back-end line-of-business application.  
   
-4.  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message to the MessageBox database.  
+4. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message to the MessageBox database.  
   
-5.  The public process processes the RNIF headers of the message.  
+5. The public process processes the RNIF headers of the message.  
   
-6.  The private process processes the service content of the message. It generates an acknowledgement that is returned to the public process, to the MessageBox database, to the send pipeline, and then to the HTTP adapter for return over the Internet to the initiator.  
+6. The private process processes the service content of the message. It generates an acknowledgement that is returned to the public process, to the MessageBox database, to the send pipeline, and then to the HTTP adapter for return over the Internet to the initiator.  
   
-7.  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message to the MessageBox database.  
+7. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message to the MessageBox database.  
   
-8.  The send pipeline assembles, and then signs/encrypts/encodes the message.  
+8. The send pipeline assembles, and then signs/encrypts/encodes the message.  
   
 9. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message to the SQL adapter.  
   

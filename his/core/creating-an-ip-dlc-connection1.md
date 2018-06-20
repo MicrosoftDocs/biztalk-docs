@@ -18,15 +18,15 @@ You create and configure an IP-DLC link service connection as you would create a
   
 ### To create an IP-DLC connection  
   
-1.  In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer on which you want to create the IP-DLC link service connection.  
+1. In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer on which you want to create the IP-DLC link service connection.  
   
-2.  Under that computer, expand **SNA Service**.  
+2. Under that computer, expand **SNA Service**.  
   
-3.  Right-click the **Connections** folder under that computer.  
+3. Right-click the **Connections** folder under that computer.  
   
-4.  On the context menu, click **New**, and then click **IP-DLC**.  
+4. On the context menu, click **New**, and then click **IP-DLC**.  
   
-5.  To configure the new link service connection, follow the steps for [Configuring an IP-DLC Connection](./configuring-an-ip-dlc-connection2.md).  
+5. To configure the new link service connection, follow the steps for [Configuring an IP-DLC Connection](./configuring-an-ip-dlc-connection2.md).  
   
 ## See Also  
  [Viewing Connections](../core/viewing-connections1.md)   

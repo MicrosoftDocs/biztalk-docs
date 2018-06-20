@@ -19,14 +19,14 @@ This section consists of events and errors for BizTalk Server technologies. It d
   
 ## In This Section  
   
--   [WCF Events and Errors](../core/wcf-events-and-errors.md)  
+- [WCF Events and Errors](../core/wcf-events-and-errors.md)  
   
--   [EDI and AS2 Events and Errors](../core/edi-and-as2-events-and-errors.md)  
+- [EDI and AS2 Events and Errors](../core/edi-and-as2-events-and-errors.md)  
   
--   [SSO Events and Errors](../core/sso-events-and-errors.md)  
+- [SSO Events and Errors](../core/sso-events-and-errors.md)  
   
--   [BizTalk Editor Errors](../core/biztalk-editor-errors.md)  
+- [BizTalk Editor Errors](../core/biztalk-editor-errors.md)  
   
--   [BizTalk Mapper Errors](../core/biztalk-mapper-errors.md)  
+- [BizTalk Mapper Errors](../core/biztalk-mapper-errors.md)  
   
- For the RFID Events and Errors, download [BizTalk RFID Help](http://www.microsoft.com/download/details.aspx?id=38167).
+  For the RFID Events and Errors, download [BizTalk RFID Help](http://www.microsoft.com/download/details.aspx?id=38167).

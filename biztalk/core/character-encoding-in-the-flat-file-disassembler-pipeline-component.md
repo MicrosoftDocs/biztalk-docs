@@ -22,15 +22,15 @@ manager: "anneta"
 # Character Encoding in the Flat File Disassembler Pipeline Component
 The following algorithm is used by the Flat File Disassembler component to determine which encoding to use for processing an incoming message:  
   
-1.  If a byte order mark exists in the data, encoding information is determined from it. This encoding information is not preserved by the disassembler (that is, it is not saved to the **XMLNorm.SourceCharset** property).  
+1. If a byte order mark exists in the data, encoding information is determined from it. This encoding information is not preserved by the disassembler (that is, it is not saved to the **XMLNorm.SourceCharset** property).  
   
-2.  Otherwise, if the **IBaseMessagePart.Charset** property is set, the encoding specified there is used.  
+2. Otherwise, if the **IBaseMessagePart.Charset** property is set, the encoding specified there is used.  
   
-3.  Otherwise, if the header or document schema contains codepage information, it is used.  
+3. Otherwise, if the header or document schema contains codepage information, it is used.  
   
-4.  Otherwise, UTF-8 encoding is used.  
+4. Otherwise, UTF-8 encoding is used.  
   
- For the preceding cases 2, 3, and 4, the disassembler saves the encoding information on the message context in the **XMLNorm.SourceCharset** property.  
+   For the preceding cases 2, 3, and 4, the disassembler saves the encoding information on the message context in the **XMLNorm.SourceCharset** property.  
   
 ## See Also  
  [Flat File Disassembler Pipeline Component](../core/flat-file-disassembler-pipeline-component.md)   

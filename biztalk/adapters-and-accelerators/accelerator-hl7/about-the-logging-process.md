@@ -22,18 +22,18 @@ manager: "anneta"
 # About the Logging Process
 Since your applications handle critical, time sensitive and monetary data, auditing becomes a critical part of the application. To enable enterprise level manageability and availability, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)] relies on the following shared run time and administrative components:  
   
--   **Logging**: to collect and route all log events in a managed way to a designated database  
+- **Logging**: to collect and route all log events in a managed way to a designated database  
   
--   **Event Monitoring and Service Debugging**: to configure logging behavior and to investigate/manage collected information for system administrators and other IT professionals  
+- **Event Monitoring and Service Debugging**: to configure logging behavior and to investigate/manage collected information for system administrators and other IT professionals  
   
- With the enhanced auditing features in [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)], you can optimize your operational efficiency, security, and performance to ensure compliance with HL7 regulations.  
+  With the enhanced auditing features in [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)], you can optimize your operational efficiency, security, and performance to ensure compliance with HL7 regulations.  
   
 ## Types of Data  
  This topic describes different types of logging data used by the logging feature and where this data is stored:  
   
--   Configuration data: Logging configuration data is stored in the Configuration database (also known as the BizTalk Management database) and includes SQL auditing information and audit data ([!INCLUDE[btsWinNTNoVersion](../../includes/btswinntnoversion-md.md)] Event viewer, centralized database WMI) location.  
+- Configuration data: Logging configuration data is stored in the Configuration database (also known as the BizTalk Management database) and includes SQL auditing information and audit data ([!INCLUDE[btsWinNTNoVersion](../../includes/btswinntnoversion-md.md)] Event viewer, centralized database WMI) location.  
   
--   Archival data: The EventLog table in the SQL log stores the 'Logging' data.  
+- Archival data: The EventLog table in the SQL log stores the 'Logging' data.  
   
 ## How Logging Works  
  This topic describes the three types of events the software logs, as well as the three locations where you can store the logged data.  
@@ -47,21 +47,21 @@ Since your applications handle critical, time sensitive and monetary data, audit
 ### Types of Logging  
  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] logs three types of errors:  
   
--   Informational events, such a service started or stopped or an event failed.  
+- Informational events, such a service started or stopped or an event failed.  
   
--   Warning events such as non-critical errors and warnings in [!INCLUDE[btsWinNTNoVersion](../../includes/btswinntnoversion-md.md)] Event logs. For example, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] suspends a message because data validation failed.  
+- Warning events such as non-critical errors and warnings in [!INCLUDE[btsWinNTNoVersion](../../includes/btswinntnoversion-md.md)] Event logs. For example, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] suspends a message because data validation failed.  
   
--   Error events for critical failures in a component. For example, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] suspends a message because of parser failures.  
+- Error events for critical failures in a component. For example, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] suspends a message because of parser failures.  
   
- The system can log [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] events into following configurable locations:  
+  The system can log [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] events into following configurable locations:  
   
--   [!INCLUDE[btsWinNTNoVersion](../../includes/btswinntnoversion-md.md)] Event viewer  
+- [!INCLUDE[btsWinNTNoVersion](../../includes/btswinntnoversion-md.md)] Event viewer  
   
--   WMI events  
+- WMI events  
   
--   Centralized database (SQL logging database)  
+- Centralized database (SQL logging database)  
   
- An event broker receives all [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] logging events and, based on the configuration information, sends them to the appropriate location.  
+  An event broker receives all [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] logging events and, based on the configuration information, sends them to the appropriate location.  
   
 ### Overview of Features  
  The [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] logging feature provides:  

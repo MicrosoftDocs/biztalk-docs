@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10852
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10852|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_CREATE_FIELD_NO_DIRECT_PASSWORD_SYNC|  
-|Message Text|The field cannot be created because this application has the 'direct password sync' flag set.|  
+|                 |                                                                                               |
+|-----------------|-----------------------------------------------------------------------------------------------|
+|  Product Name   |                                   Enterprise Single Sign-On                                   |
+| Product Version |                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                   |
+|    Event ID     |                                             10852                                             |
+|  Event Source   |                                            ENTSSO                                             |
+|    Component    |                                              N/A                                              |
+|  Symbolic Name  |                         ENTSSO_E_CREATE_FIELD_NO_DIRECT_PASSWORD_SYNC                         |
+|  Message Text   | The field cannot be created because this application has the 'direct password sync' flag set. |
   
 ## Explanation  
  When an application has the direct password sync flag set, you cannot create any fields.  

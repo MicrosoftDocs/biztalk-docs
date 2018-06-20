@@ -22,11 +22,11 @@ Enterprise Single Sign-On (SSO) provides services to store and transmit encrypte
 ## How Receive Adapters Work with SSO  
  Receive adapters that support SSO perform the following steps after receiving a message and before publishing it to BizTalk Server:  
   
-1.  The adapter impersonates the sender and obtains the SSO ticket on behalf of the sender by using the **ISSOTicket.IssueTicket** API.  
+1. The adapter impersonates the sender and obtains the SSO ticket on behalf of the sender by using the **ISSOTicket.IssueTicket** API.  
   
-2.  After successfully obtaining an SSO ticket the adapter stores it on the message context property “SSOTicket” under the system namespace.  
+2. After successfully obtaining an SSO ticket the adapter stores it on the message context property “SSOTicket” under the system namespace.  
   
- The following code fragment demonstrates how the ticket is obtained and how it is stored on the message context.  
+   The following code fragment demonstrates how the ticket is obtained and how it is stored on the message context.  
   
 ```  
 public class MyAdapter : IBTTransport,   

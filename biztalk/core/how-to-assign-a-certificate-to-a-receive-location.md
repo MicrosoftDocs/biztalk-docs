@@ -26,18 +26,18 @@ This topic describes how to use the BizTalk Server Administration console to ass
   
 ### To assign a certificate to a receive location  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to assign a certificate to a receive location.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to assign a certificate to a receive location.  
   
-3.  Expand **Receive Locations**, right-click the receive location, click **Properties**, and then click **Certificate**.  
+3. Expand **Receive Locations**, right-click the receive location, click **Properties**, and then click **Certificate**.  
   
-4.  If the certificate exists on the local computer, click **Browse**, browse to the certificate that you want to assign to this receive location, and then click **OK**. Otherwise, skip this step.  
+4. If the certificate exists on the local computer, click **Browse**, browse to the certificate that you want to assign to this receive location, and then click **OK**. Otherwise, skip this step.  
   
-    > [!NOTE]
-    >  If you are performing this operation from a remote computer, make sure that the certificate exists on the computer running BizTalk Server, and not only on the local computer. Otherwise, the receive location will not be able to process messages.  
+   > [!NOTE]
+   >  If you are performing this operation from a remote computer, make sure that the certificate exists on the computer running BizTalk Server, and not only on the local computer. Otherwise, the receive location will not be able to process messages.  
   
-5.  If the certificate does not exist on the local computer, in the **Thumbprint** box, type or paste the certificate thumbprint, and then click **OK**. The certificate thumbprint has the format HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH, where H is a hexadecimal digit.  
+5. If the certificate does not exist on the local computer, in the **Thumbprint** box, type or paste the certificate thumbprint, and then click **OK**. The certificate thumbprint has the format HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH, where H is a hexadecimal digit.  
   
 ## See Also  
  [Managing Receive Locations](../core/managing-receive-locations.md)

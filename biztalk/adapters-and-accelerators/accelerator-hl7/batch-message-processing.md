@@ -21,17 +21,17 @@ manager: "anneta"
 # Batch Message Processing
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) handles three types of HL7 2.X batch scenarios:  
   
--   Fragmented inbound batch scenario. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] parses these batches into separate output messages. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends acknowledgments (ACKs) for each message in a fragmented batch.  
+- Fragmented inbound batch scenario. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] parses these batches into separate output messages. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends acknowledgments (ACKs) for each message in a fragmented batch.  
   
--   Batch in/batch out scenario. These are in-bound batches that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] does not fragment, but passes through and sends as an intact batch. If [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends an ACK for the batch, the ACK includes a version ID.  
+- Batch in/batch out scenario. These are in-bound batches that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] does not fragment, but passes through and sends as an intact batch. If [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends an ACK for the batch, the ACK includes a version ID.  
   
--   Create-batch scenario. In this scenario, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] combines separate input messages into an output batch.  
+- Create-batch scenario. In this scenario, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] combines separate input messages into an output batch.  
   
- You can format batches in either of two ways:  
+  You can format batches in either of two ways:  
   
--   With a file header and trailer (FHS/FTS) and a batch header and trailer (BHS/BTS).  
+- With a file header and trailer (FHS/FTS) and a batch header and trailer (BHS/BTS).  
   
--   With no file or batch headers/trailers.  
+- With no file or batch headers/trailers.  
   
 ## See Also  
  [Message Batching](../../adapters-and-accelerators/accelerator-hl7/message-batching.md)   

@@ -10,21 +10,21 @@ This topic provides some information concerning the import process when you depl
   
 ### To clean the target computer  
   
--   Remove Send ports and Receive locations bound to the orchestration.  
+- Remove Send ports and Receive locations bound to the orchestration.  
   
-     If you do not have Visual Studio installed on the target computer, you can remove the ports by running the scripts:  
+   If you do not have Visual Studio installed on the target computer, you can remove the ports by running the scripts:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\  
+   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\  
   
-     Remove Send Port\VBScript\RemoveSendPort.vbs  
+   Remove Send Port\VBScript\RemoveSendPort.vbs  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\  
+   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\  
   
-     Remove Receive Port\VBScript\RemoveReceivePort.vbs  
+   Remove Receive Port\VBScript\RemoveReceivePort.vbs  
   
-     For example, from a command prompt run:  
+   For example, from a command prompt run:  
   
-     **cscript RemoveSendPort.vbs \<Send port name\>**  
+   **cscript RemoveSendPort.vbs \<Send port name\>**  
   
 ## See Also  
  [Import the JD Edwards EnterpriseOne app](../core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone.md)

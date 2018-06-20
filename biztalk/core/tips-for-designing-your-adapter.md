@@ -50,11 +50,11 @@ This section contains hints and tips that adapter developers have learned while 
   
  The solution in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to:  
   
--   Use correlation sets in orchestration  
+- Use correlation sets in orchestration  
   
--   Configure two separate ports: one for the send and one for the receive  
+- Configure two separate ports: one for the send and one for the receive  
   
- In a simple case the orchestration specifies the correlation ID that is associated with the message by the adapter. This is passed to the adapter as a context property on the message. In a more complex case, the scenario calls for the external messaging system to allocate the ID. In this case it can be passed back from the send port to the orchestration with a response message. This response message is just to pass back the ID and is not the true message response.  
+  In a simple case the orchestration specifies the correlation ID that is associated with the message by the adapter. This is passed to the adapter as a context property on the message. In a more complex case, the scenario calls for the external messaging system to allocate the ID. In this case it can be passed back from the send port to the orchestration with a response message. This response message is just to pass back the ID and is not the true message response.  
   
 > [!NOTE]
 >  There is a race condition in the orchestration engine such that the true response to the message could win against the ID response from the send. This race condition must be handled in the orchestration itself.

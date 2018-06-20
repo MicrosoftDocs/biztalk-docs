@@ -24,17 +24,17 @@ The purpose of this sample is to build a composed message processor application 
   
  Specifically we will build an orchestration schedule that:  
   
-1.  Receives a batched interchange message consisting of multiple purchase orders.  
+1. Receives a batched interchange message consisting of multiple purchase orders.  
   
-2.  Disassembles the interchange message into individual purchase order documents.  
+2. Disassembles the interchange message into individual purchase order documents.  
   
-3.  Processes each document – converts each purchase order into an invoice message.  
+3. Processes each document – converts each purchase order into an invoice message.  
   
-4.  Assembles all the invoice messages into a batched interchange.  
+4. Assembles all the invoice messages into a batched interchange.  
   
- Step #3 is simplified for the sample purposes. For example, in more complex applications, an orchestration may send disassembled purchase orders to different back-end inventory systems and then after collecting all the responses, aggregate them into one batched invoice message.  
+   Step #3 is simplified for the sample purposes. For example, in more complex applications, an orchestration may send disassembled purchase orders to different back-end inventory systems and then after collecting all the responses, aggregate them into one batched invoice message.  
   
- For more information on the composed message processor pattern refer to [1].  
+   For more information on the composed message processor pattern refer to [1].  
   
 ## What This Sample Does  
  There are two projects within the sample solution, both of which are described in detail in the following sections.  
@@ -130,15 +130,15 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
   
  First thing we need to create flat file schemas for:  
   
--   Purchase order document (PO.xsd)  
+- Purchase order document (PO.xsd)  
   
--   Invoice document (Invoice.xsd)  
+- Invoice document (Invoice.xsd)  
   
--   Purchase order header (POHeader.xsd)  
+- Purchase order header (POHeader.xsd)  
   
--   Invoice header (InvoiceHeader.xsd)  
+- Invoice header (InvoiceHeader.xsd)  
   
- For this sample, we are not going to explain the process of creating flat file schemas. To learn how to create flat file schemas from document instances, refer to the "Creating flat file schemas from document instance" documentation section.  
+  For this sample, we are not going to explain the process of creating flat file schemas. To learn how to create flat file schemas from document instances, refer to the "Creating flat file schemas from document instance" documentation section.  
   
 #### Map to Transform Purchase Order Document Into Invoice Document  
  The map (PO2Invoice.btm) transforms an instance of the purchase order into an invoice document.  
@@ -148,31 +148,31 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
   
  The flat file disassembler in the receive pipeline is configured as shown:  
   
--   **Document schema:** PipelinesAndSchemas.PO  
+- **Document schema:** PipelinesAndSchemas.PO  
   
--   **Header schema:** PipelinesAndSchemas.POHeader  
+- **Header schema:** PipelinesAndSchemas.POHeader  
   
--   **Preserve header:** False  
+- **Preserve header:** False  
   
--   **Recoverable interchange:** False  
+- **Recoverable interchange:** False  
   
--   **Trailer schema:** (None)  
+- **Trailer schema:** (None)  
   
--   **Validate document structure:** False  
+- **Validate document structure:** False  
   
- The send pipeline (FFSendPipeline.btp) contains a flat file assembler component that is used to create aggregated invoice interchange.  
+  The send pipeline (FFSendPipeline.btp) contains a flat file assembler component that is used to create aggregated invoice interchange.  
   
- The flat file assembler in send pipeline is configured as shown:  
+  The flat file assembler in send pipeline is configured as shown:  
   
--   **Document schema:** PipelinesandSchemas.Invoice  
+- **Document schema:** PipelinesandSchemas.Invoice  
   
--   **Header schema:** PipelinesAndSchemas.InvoiceHeader  
+- **Header schema:** PipelinesAndSchemas.InvoiceHeader  
   
--   **Preserve byte order mark:** False  
+- **Preserve byte order mark:** False  
   
--   **Target charset:** (None)  
+- **Target charset:** (None)  
   
--   **Trailer schema:** (None)  
+- **Trailer schema:** (None)  
   
 ### Orchestration Schedule  
  Orchestration schedule (CMP.odx) is where all the main processing happens. Specifically the following actions are performed:  
@@ -191,13 +191,13 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
 #### Executing Receive Pipeline  
  As a next step, we will add logic to execute a receive pipeline for the message that was received in orchestration. To do this, first we declare a variable (called RcvPipeOutput) of type Microsoft.XLANGs.Pipeline.ReceivePipelineOutputMessages within the scope. This variable is an enumerator that allows us to cycle through the receive pipeline output messages. Note that in order to access this type, as well as all the other types for execution of pipelines from orchestration, you need to add references to the following assemblies:  
   
--   Microsoft.XLANGs.Pipeline.dll  
+- Microsoft.XLANGs.Pipeline.dll  
   
--   Microsoft.BizTalk.Pipeline.dll  
+- Microsoft.BizTalk.Pipeline.dll  
   
- There is no guarantee that the receive pipeline will always execute successfully. Sometimes messages may be malformed, which would cause the pipeline processing to fail. When a pipeline fails execution in the orchestration, there is an exception thrown that can be caught and the error handling logic can be performed. In order for us to catch the exception thrown by pipeline, we need to execute the pipeline within a non-atomic scope with an exception handling. The actual code to execute pipeline is invoked from an expression shape within that scope.  
+  There is no guarantee that the receive pipeline will always execute successfully. Sometimes messages may be malformed, which would cause the pipeline processing to fail. When a pipeline fails execution in the orchestration, there is an exception thrown that can be caught and the error handling logic can be performed. In order for us to catch the exception thrown by pipeline, we need to execute the pipeline within a non-atomic scope with an exception handling. The actual code to execute pipeline is invoked from an expression shape within that scope.  
   
- In the ExecuteRcvPipe expression shape, write the following line of code to execute the receive pipeline:  
+  In the ExecuteRcvPipe expression shape, write the following line of code to execute the receive pipeline:  
   
 ```  
 RcvPipeOutput = Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteReceivePipeline(typeof(PipelinesAndSchemas.FFReceivePipeline), InputInterchange);  

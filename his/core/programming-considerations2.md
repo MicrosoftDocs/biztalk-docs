@@ -70,17 +70,17 @@ This topic summarizes information about developing transaction programs (TPs) us
  **Run-time linking**  
  For a TP to be dynamically linked to APPC at run time, the TP must issue the following calls:  
   
--   **LoadLibrary** to load the dynamic-link libraries WINAPPC.DLL or WAPPC32.DLL.  
+- **LoadLibrary** to load the dynamic-link libraries WINAPPC.DLL or WAPPC32.DLL.  
   
--   **GetProcAddress** to specify APPC on all the desired entry points to the DLL such as **APPC**, **WinAsyncAPPC**, **WinAPPCStartup**, and **WinAPPCCleanup**.  
+- **GetProcAddress** to specify APPC on all the desired entry points to the DLL such as **APPC**, **WinAsyncAPPC**, **WinAPPCStartup**, and **WinAPPCCleanup**.  
   
- For a TP to be dynamically linked to CSV at run time, the TP must issue the following calls:  
+  For a TP to be dynamically linked to CSV at run time, the TP must issue the following calls:  
   
--   **LoadLibrary** to load WINCSV.DLL or WINCSV32.DLL, the dynamic-link libraries for Windows CSV.  
+- **LoadLibrary** to load WINCSV.DLL or WINCSV32.DLL, the dynamic-link libraries for Windows CSV.  
   
--   **GetProcAddress** to specify CSV on all the desired entry points to the DLL such as **ACSSVC**, **WinAsyncCSV**, **WinCSVStartup**, and **WinCSVCleanup**.  
+- **GetProcAddress** to specify CSV on all the desired entry points to the DLL such as **ACSSVC**, **WinAsyncCSV**, **WinCSVStartup**, and **WinCSVCleanup**.  
   
- The TP must issue the **FreeLibrary** call when the APPC or CSV library is no longer required.  
+  The TP must issue the **FreeLibrary** call when the APPC or CSV library is no longer required.  
   
- **Yielding to other components**  
- Because the Windows environments are multithreaded, there is no need to yield to other components.
+  **Yielding to other components**  
+  Because the Windows environments are multithreaded, there is no need to yield to other components.

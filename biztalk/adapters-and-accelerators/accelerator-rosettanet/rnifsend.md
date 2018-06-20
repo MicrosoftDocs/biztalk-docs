@@ -16,13 +16,13 @@ manager: "anneta"
 # RNIFSend
 This sample provides a working [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFSend.aspx file that prepares a message for RNIF processing, and sends the message to the RNIFReceive.aspx page at the responder. You can customize the ASPX page to do the following:  
   
--   Add or remove performance counters  
+- Add or remove performance counters  
   
--   Add functionality to the page, such as writing data to a database or customizing tracking functionality  
+- Add functionality to the page, such as writing data to a database or customizing tracking functionality  
   
--   Add validation to the page  
+- Add validation to the page  
   
- This sample is located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\WebApplication\RNIFSender.  
+  This sample is located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\WebApplication\RNIFSender.  
   
 ## Demonstrates  
  This sample demonstrates how to prepare outgoing messages for RNIF processing, including the following:  

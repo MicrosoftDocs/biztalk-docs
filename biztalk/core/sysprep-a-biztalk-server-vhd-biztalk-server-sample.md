@@ -52,37 +52,37 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
   
 #### To create the answer files  
   
-1.  Install and configure BizTalk Server on a virtual machine. Be sure to use default installation and configuration options, since Sysprep does not support customized installation.  
+1. Install and configure BizTalk Server on a virtual machine. Be sure to use default installation and configuration options, since Sysprep does not support customized installation.  
   
-2.  Copy the contents of the included “scripts” folder to C:\Scripts on the virtual machine.  
+2. Copy the contents of the included “scripts” folder to C:\Scripts on the virtual machine.  
   
-3.  Prepare a sysprep answer file by modifying the following lines in Sysprep.xml. (Note: These lines are marked with a “!” before them.) You can use these as a template, or make your own and copy over the \<FirstLogonCommands\> section.  
+3. Prepare a sysprep answer file by modifying the following lines in Sysprep.xml. (Note: These lines are marked with a “!” before them.) You can use these as a template, or make your own and copy over the \<FirstLogonCommands\> section.  
   
-    -   $(OLDCOMPUTERNAME) Replace with the current computer name of the virtual machine.  
+   - $(OLDCOMPUTERNAME) Replace with the current computer name of the virtual machine.  
   
-    -   User accounts  
+   - User accounts  
   
-    -   Passwords  
+   - Passwords  
   
-    -   Any company details should also be updated in UpdateSqlServerAndInstance.cmd and your Sysprep.xml.  
+   - Any company details should also be updated in UpdateSqlServerAndInstance.cmd and your Sysprep.xml.  
   
      Alternatively, you can create a Sysprep answer file from scratch using use the [Automated Installation Kit (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) on Windows Server 2008. Ensure that your \<FirstLogonCommands\> section matches the samples so the BizTalk scripts will run on the first boot.  
   
 #### To run Sysprep  
   
-1.  Open a command prompt and run Sysprep. The command will look something like:  
+1. Open a command prompt and run Sysprep. The command will look something like:  
   
-    ```  
-    C:\windows\system32\sysprep\sysprep.exe /oobe /generalize /shutdown /unattend:c:\scripts\unattend_Win2K8x64.xml  
-    ```  
+   ```  
+   C:\windows\system32\sysprep\sysprep.exe /oobe /generalize /shutdown /unattend:c:\scripts\unattend_Win2K8x64.xml  
+   ```  
   
-2.  Sysprep takes about half an hour to run. When it is complete, it will automatically shut down the virtual machine.  
+2. Sysprep takes about half an hour to run. When it is complete, it will automatically shut down the virtual machine.  
   
-3.  After the virtual machine has been shut down, merge any snapshots, and copy your VHD file to a safe location.  
+3. After the virtual machine has been shut down, merge any snapshots, and copy your VHD file to a safe location.  
   
-4.  Your VHD is now ready to be deployed on other virtual machines, complete with operating system, BizTalk Server, and all prerequisites.  
+4. Your VHD is now ready to be deployed on other virtual machines, complete with operating system, BizTalk Server, and all prerequisites.  
   
- **SetupCompletecmd.txt**  
+   **SetupCompletecmd.txt**  
   
 ```  
 del /Q /F c:\windows\system32\sysprep\sysprep.xml  

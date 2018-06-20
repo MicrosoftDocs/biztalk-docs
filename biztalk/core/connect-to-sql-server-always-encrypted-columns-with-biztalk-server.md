@@ -21,7 +21,7 @@ Enable Always Encrypted in the WCF-SQL adapter in [!INCLUDE[btsBizTalkServerNoVe
 
 This topic shows you how to enable or disable this feature in [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
 
-> [!TIP] 
+> [!TIP]
 > [Always Encrypted (Database Engine)](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) is a great resource to understand and learn more about this [!INCLUDE[btsSQLServerNoVersion_md](../includes/btssqlservernoversion-md.md)] feature.
 
 ## Prerequisites

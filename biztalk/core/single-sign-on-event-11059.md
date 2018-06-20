@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11059
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11059|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_INFO_INVALID_USER_NOT_IN_GROUP|  
-|Message Text|A mapping could not be created because the specified user is not a member of the Application Users account.%r<br /><br /> Windows Account: %1\\%2%r<br /><br /> Application Name: %3%r<br /><br /> Application Users: %4%r<br /><br /> Error Code: %5|  
+|                 |                                                                                                                                                                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                                               Enterprise Single Sign-On                                                                                                               |
+| Product Version |                                                                                              [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                               |
+|    Event ID     |                                                                                                                         11059                                                                                                                         |
+|  Event Source   |                                                                                                                        ENTSSO                                                                                                                         |
+|    Component    |                                                                                                                          N/A                                                                                                                          |
+|  Symbolic Name  |                                                                                                          SSO_INFO_INVALID_USER_NOT_IN_GROUP                                                                                                           |
+|  Message Text   | A mapping could not be created because the specified user is not a member of the Application Users account.%r<br /><br /> Windows Account: %1\\%2%r<br /><br /> Application Name: %3%r<br /><br /> Application Users: %4%r<br /><br /> Error Code: %5 |
   
 ## Explanation  
  The mapping could not be created because the specified user is not a member of the Application Users account.  

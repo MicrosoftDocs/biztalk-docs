@@ -24,45 +24,45 @@ You can use the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a tra
   
  You can find more information about using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC server in the following topics:  
   
--   For an overview of support for tRFCs on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md). You should read this topic before continuing.  
+- For an overview of support for tRFCs on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md). You should read this topic before continuing.  
   
--   For more information about the message schemas for tRFC server operations, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).  
+- For more information about the message schemas for tRFC server operations, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).  
   
 ## The WCF Service Contract for a tRFC  
  You use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a WCF service contract for the tRFCs that you want to receive from the SAP system. The contract generated for an inbound tRFC is similar to that generated for an inbound RFC except that:  
   
--   tRFC operations are surfaced under the TRFC node.  
+- tRFC operations are surfaced under the TRFC node.  
   
--   The WCF service contract (interface) generated for incoming tRFCs is named "Trfc". You must specify this interface when you add the service endpoint to the service host. This is also the interface that your WCF service must implement.  
+- The WCF service contract (interface) generated for incoming tRFCs is named "Trfc". You must specify this interface when you add the service endpoint to the service host. This is also the interface that your WCF service must implement.  
   
-    ```  
-    public interface Trfc {  
+  ```  
+  public interface Trfc {  
   
-        // CODEGEN: Generating message contract since the wrapper namespace (http://Microsoft.LobServices.Sap/2007/03/Trfc/) of message Z_RFC_MKD_ADDRequest does not match the default value (http://Microsoft.LobServices.Sap/2007/03/)  
-        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.LobServices.Sap/2007/03/Trfc/Z_RFC_MKD_ADD", ReplyAction="http://Microsoft.LobServices.Sap/2007/03/Trfc/Z_RFC_MKD_ADD/response")]  
-        Z_RFC_MKD_ADDResponse Z_RFC_MKD_ADD(Z_RFC_MKD_ADDRequest request);  
-    }  
-    ```  
+      // CODEGEN: Generating message contract since the wrapper namespace (http://Microsoft.LobServices.Sap/2007/03/Trfc/) of message Z_RFC_MKD_ADDRequest does not match the default value (http://Microsoft.LobServices.Sap/2007/03/)  
+      [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.LobServices.Sap/2007/03/Trfc/Z_RFC_MKD_ADD", ReplyAction="http://Microsoft.LobServices.Sap/2007/03/Trfc/Z_RFC_MKD_ADD/response")]  
+      Z_RFC_MKD_ADDResponse Z_RFC_MKD_ADD(Z_RFC_MKD_ADDRequest request);  
+  }  
+  ```  
   
--   The request message contract for TRFC operations has a GUID parameter. This is the GUID that maps to the SAP TID for the tRFC. In tRFC server operations, the adapter manages all calls to commit, rollback, and confirm the TID by the SAP system so there is no reason for you to explicitly use this GUID. However, you can use it to retrieve the SAP TID from the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] by calling **SapAdapterUtilities.ConvertGuidToTid**. This can be useful to help you troubleshoot issues on the SAP system.  
+- The request message contract for TRFC operations has a GUID parameter. This is the GUID that maps to the SAP TID for the tRFC. In tRFC server operations, the adapter manages all calls to commit, rollback, and confirm the TID by the SAP system so there is no reason for you to explicitly use this GUID. However, you can use it to retrieve the SAP TID from the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] by calling **SapAdapterUtilities.ConvertGuidToTid**. This can be useful to help you troubleshoot issues on the SAP system.  
   
-    ```  
-    [System.Diagnostics.DebuggerStepThroughAttribute()]  
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]  
-    [System.ServiceModel.MessageContractAttribute(WrapperName="Z_RFC_MKD_ADD", WrapperNamespace="http://Microsoft.LobServices.Sap/2007/03/Trfc/", IsWrapped=true)]  
-    public partial class Z_RFC_MKD_ADDRequest {  
+  ```  
+  [System.Diagnostics.DebuggerStepThroughAttribute()]  
+  [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]  
+  [System.ServiceModel.MessageContractAttribute(WrapperName="Z_RFC_MKD_ADD", WrapperNamespace="http://Microsoft.LobServices.Sap/2007/03/Trfc/", IsWrapped=true)]  
+  public partial class Z_RFC_MKD_ADDRequest {  
   
-        ...  
+      ...  
   
-        public Z_RFC_MKD_ADDRequest(string DEST, System.Nullable<int> X, System.Nullable<int> Y, System.Guid TransactionalRfcOperationIdentifier) {  
-            this.DEST = DEST;  
-            this.X = X;  
-            this.Y = Y;  
-            this.TransactionalRfcOperationIdentifier = TransactionalRfcOperationIdentifier;  
-        }  
-    }  
+      public Z_RFC_MKD_ADDRequest(string DEST, System.Nullable<int> X, System.Nullable<int> Y, System.Guid TransactionalRfcOperationIdentifier) {  
+          this.DEST = DEST;  
+          this.X = X;  
+          this.Y = Y;  
+          this.TransactionalRfcOperationIdentifier = TransactionalRfcOperationIdentifier;  
+      }  
+  }  
   
-    ```  
+  ```  
   
 ## How do I Enable the Adapter to Act as a tRFC Server?  
  To enable the adapter to act as a tRFC server, you must set the **TidDatabaseConnectionString** binding property to the connection string for the TID database. You should do this before you open the service host. This is the database in which the adapter stores the SAP transaction ID (TID) for each tRFC. For more information about this binding property, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
@@ -72,11 +72,11 @@ You can use the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a tra
   
  To enlist in the ambient transaction in an operation method, you must:  
   
-1.  Annotate the operation method with the **TransactionScopeRequired** property of the **OperationBehavior** attribute. This tells WCF that you want access to the ambient transaction from inside the operation.  
+1. Annotate the operation method with the **TransactionScopeRequired** property of the **OperationBehavior** attribute. This tells WCF that you want access to the ambient transaction from inside the operation.  
   
-2.  Create a transaction scope either by annotating the operation method with the **TransactionAutoComplete** property of the **OperationBehavior** attribute or by explicitly using a **TransactionScope** inside the operation method.  
+2. Create a transaction scope either by annotating the operation method with the **TransactionAutoComplete** property of the **OperationBehavior** attribute or by explicitly using a **TransactionScope** inside the operation method.  
   
- The following example shows a service that implements two operations. Both operation methods are annotated with the **TransactionScopeRequired** property to access the ambient transaction.  
+   The following example shows a service that implements two operations. Both operation methods are annotated with the **TransactionScopeRequired** property to access the ambient transaction.  
   
 -   **Z_TRFC_EXAMPLE1** explicitly enlists in the transaction by using a **TransactionScope** object.  
   

@@ -21,24 +21,24 @@ The **Record Count** functoid enables you to generate a count of the number of t
   
 ### To add the Record Count functoid to a map and configure it  
   
-1.  With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the **Advanced Functoids** tab to select that category of functoids.  
+1. With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the **Advanced Functoids** tab to select that category of functoids.  
   
-     The list of advanced functoids in the chosen category appears.  
+    The list of advanced functoids in the chosen category appears.  
   
-2.  Drag the **Record Count** functoid (![](../core/media/bts-tls-recordcount.gif "bts_tls_recordcount")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Record Count** functoid (![](../core/media/bts-tls-recordcount.gif "bts_tls_recordcount")) from the Toolbox to the appropriate location on a grid page.  
   
-    > [!NOTE]
-    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display the other grid page first.  
+   > [!NOTE]
+   >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display the other grid page first.  
   
-    > [!NOTE]
-    >  If you are constructing a map using more than one functoid together, you need to consider their relative left to right placement. Functoids are executed from left to right. The output of a functoid can only be input to another functoid that is farther to the right.  
+   > [!NOTE]
+   >  If you are constructing a map using more than one functoid together, you need to consider their relative left to right placement. Functoids are executed from left to right. The output of a functoid can only be input to another functoid that is farther to the right.  
   
-3.  To establish the input parameter for the **Record Count** functoid, create an input link by dragging a looping record from the source schema to the **Record Count** functoid, or dragging the **Record Count** functoid to a looping record in the source schema.  
+3. To establish the input parameter for the **Record Count** functoid, create an input link by dragging a looping record from the source schema to the **Record Count** functoid, or dragging the **Record Count** functoid to a looping record in the source schema.  
   
-4.  To use the output parameter from the **Record Count** functoid, create an output link by dragging the **Record Count** functoid to a field in the destination schema, or by dragging a field in the destination schema to the **Record Count** functoid.  
+4. To use the output parameter from the **Record Count** functoid, create an output link by dragging the **Record Count** functoid to a field in the destination schema, or by dragging a field in the destination schema to the **Record Count** functoid.  
   
-    > [!NOTE]
-    >  As with other functoids, the output of the **Record Count** functoid can be used as input to another functoid.  
+   > [!NOTE]
+   >  As with other functoids, the output of the **Record Count** functoid can be used as input to another functoid.  
   
 ## See Also  
  [Adding Advanced Functoids to a Map](../core/adding-advanced-functoids-to-a-map.md)

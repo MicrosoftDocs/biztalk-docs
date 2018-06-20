@@ -18,20 +18,20 @@ Trace capturing refers to the process of viewing trace logs. For Host Integratio
   
 ### To capture a trace  
   
-1.  Connect to the namespace using **GetObject** with a moniker in the parameter.  
+1. Connect to the namespace using **GetObject** with a moniker in the parameter.  
   
-2.  Retrieve the objects representing the SNA Application using **ExecQuery**.  
+2. Retrieve the objects representing the SNA Application using **ExecQuery**.  
   
-     The core functionality of capturing a trace can be described in the following code:  
+    The core functionality of capturing a trace can be described in the following code:  
   
-    ```  
-    Set colItems = objWMIService.ExecQuery("Select * from MsHisTrace_SNAApplication",,48)  
-    Set colItems = objWMIService.ExecQuery("Select * from MsHisTrace_SNABase",,48)  
-    ```  
+   ```  
+   Set colItems = objWMIService.ExecQuery("Select * from MsHisTrace_SNAApplication",,48)  
+   Set colItems = objWMIService.ExecQuery("Select * from MsHisTrace_SNABase",,48)  
+   ```  
   
-     Everything else in this sample is to support logging to a file.  
+    Everything else in this sample is to support logging to a file.  
   
- The following code example shows how to capture a trace:  
+   The following code example shows how to capture a trace:  
   
 ```  
 On Error Resume Next  

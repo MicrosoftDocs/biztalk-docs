@@ -18,17 +18,17 @@ To ensure excellent performance out of the box, Microsoft has run performance te
   
  Many factors can affect performance:  
   
--   Security.  
+- Security.  
   
--   Whether you are using two-phase commit.  
+- Whether you are using two-phase commit.  
   
--   Sharing the server with other Microsoft BackOffice applications.  
+- Sharing the server with other Microsoft BackOffice applications.  
   
--   Sizing the server initially.  
+- Sizing the server initially.  
   
--   Planning for future growth.  
+- Planning for future growth.  
   
- This section will help you handle various load conditions and help you tune your system to give the best possible TI performance while avoiding performance pitfalls, especially with transactions that run for a long time.  
+  This section will help you handle various load conditions and help you tune your system to give the best possible TI performance while avoiding performance pitfalls, especially with transactions that run for a long time.  
   
 ## In This Section  
  [Major Elements Affecting Overall Performance](../core/major-elements-affecting-overall-performance1.md)  

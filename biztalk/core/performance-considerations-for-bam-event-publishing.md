@@ -24,16 +24,16 @@ manager: "anneta"
 # Performance Considerations for BAM Event Publishing
 BAM supports two forms of business event publishing:  
   
--   Synchronous  
+- Synchronous  
   
--   Asynchronous  
+- Asynchronous  
   
- The following diagram illustrates the two models.  
+  The following diagram illustrates the two models.  
   
- ![](../core/media/bam-topologies.gif "bam_topologies")  
-BAM Topologies  
+  ![](../core/media/bam-topologies.gif "bam_topologies")  
+  BAM Topologies  
   
- The synchronous approach is much simpler for management and using from code, while the asynchronous approach allows for better performance.  
+  The synchronous approach is much simpler for management and using from code, while the asynchronous approach allows for better performance.  
   
 ## In This Section  
   

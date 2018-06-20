@@ -16,13 +16,13 @@ manager: "anneta"
 # Changing Conversation States (CPI-C)
 A change in the conversation state can result from:  
   
--   A call made by the local transaction program (TP).  
+- A call made by the local transaction program (TP).  
   
--   A call made by the partner TP.  
+- A call made by the partner TP.  
   
--   An error condition.  
+- An error condition.  
   
- The following example shows how Common Programming Interface for Communications (CPI-C) calls can change the state of the conversation from SEND to RECEIVE and from RECEIVE to SEND.  
+  The following example shows how Common Programming Interface for Communications (CPI-C) calls can change the state of the conversation from SEND to RECEIVE and from RECEIVE to SEND.  
   
 > [!NOTE]
 >  Any TP can send or receive data, regardless of whether it is the invoking TP (the TP that started the conversation) or the invokable TP (the TP that responded to a request to start a conversation).  

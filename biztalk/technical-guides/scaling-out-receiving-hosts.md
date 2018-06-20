@@ -53,7 +53,7 @@ To make receiving hosts highly available, you must have two or more [!INCLUDE[bt
   
  ![Scaling out isolated receive host](../technical-guides/media/cb38ec25-bfb0-4a55-8464-b7918b6fc746.gif "cb38ec25-bfb0-4a55-8464-b7918b6fc746")  
   
- For more information about the high-availability guidelines for the most common adapters in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see "Scaling the BizTalk Server Receive Adapters" section in [Scaled-Out Receiving Hosts](http://go.microsoft.com/fwlink/?LinkId=151283) (http://go.microsoft.com/fwlink/?LinkId=151283) in BizTalk Server Help.  
+ For more information about the high-availability guidelines for the most common adapters in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see "Scaling the BizTalk Server Receive Adapters" section in [Scaled-Out Receiving Hosts](http://go.microsoft.com/fwlink/?LinkId=151283) (<http://go.microsoft.com/fwlink/?LinkId=151283>) in BizTalk Server Help.  
   
 ## See Also  
  [Clustering Receiving Hosts](../technical-guides/clustering-receiving-hosts.md)   

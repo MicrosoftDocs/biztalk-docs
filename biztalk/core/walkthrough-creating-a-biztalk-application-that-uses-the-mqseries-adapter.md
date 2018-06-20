@@ -38,19 +38,19 @@ This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkS
 ## To create the IBM WebSphere MQ queues through the IBM WebSphere MQ Explorer  
  Follow these steps to create the IBM WebSphere MQ queues through the IBM WebSphere MQ Explorer:  
   
-1.  Click **Start**, point to **Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.  
+1. Click **Start**, point to **Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.  
   
-2.  Double-click **Queue Managers**, and then double-click the default queue manager. The default queue manager is typically named **QM_***<machine_name>* where *machine_name* is the name of your computer.  
+2. Double-click **Queue Managers**, and then double-click the default queue manager. The default queue manager is typically named **QM_***<machine_name>* where *machine_name* is the name of your computer.  
   
-3.  Right-click **Queues**, point to **New**, and then click **Local Queue**.  
+3. Right-click **Queues**, point to **New**, and then click **Local Queue**.  
   
-4.  In **Create Local Queue** dialog box, in **Queue Name**, type **BTStoMQS**, and then click **OK**.  
+4. In **Create Local Queue** dialog box, in **Queue Name**, type **BTStoMQS**, and then click **OK**.  
   
-5.  Right-click **Queues**, point to **New**, and then click **Local Queue**.  
+5. Right-click **Queues**, point to **New**, and then click **Local Queue**.  
   
-6.  In **Create Local Queue** dialog box, in **Queue Name**, type **MQStoBTS**, and then click **OK**.  
+6. In **Create Local Queue** dialog box, in **Queue Name**, type **MQStoBTS**, and then click **OK**.  
   
- The next steps create the receive location and the send port, and start the send port and enable the receive location. They also create the IBM WebSphere MQ queues.  
+   The next steps create the receive location and the send port, and start the send port and enable the receive location. They also create the IBM WebSphere MQ queues.  
   
 ## To create the receive location and the MQSeries queue  
  Follow these steps to create the receive location and the MQSeries queue:  
@@ -121,22 +121,22 @@ This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkS
 ## To enable the receive location and start the send port  
  Follow these steps to enable the receive location and start the send port:  
   
-1.  Right-click the **MQStoBTS** receive location, and then click **Enable**.  
+1. Right-click the **MQStoBTS** receive location, and then click **Enable**.  
   
-2.  Right-click the **BTStoMQS** send port, and then click **Start**.  
+2. Right-click the **BTStoMQS** send port, and then click **Start**.  
   
- The next step is to test the application by sending a test message to the receive queue.  
+   The next step is to test the application by sending a test message to the receive queue.  
   
 ## To test the application  
  Follow these steps to test the application:  
   
-1.  Click **Start**, point to **Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.  
+1. Click **Start**, point to **Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.  
   
-2.  Right-click **MQStoBTS**, and then click **Put Test Message**.  
+2. Right-click **MQStoBTS**, and then click **Put Test Message**.  
   
-3.  In the **Message Data** box, type a test message. Click **OK**.  
+3. In the **Message Data** box, type a test message. Click **OK**.  
   
- After you enter the data, the **Current Depth** for the **MQStoBTS** queue is one (1). When the application processes the message, the count returns to zero (0) and the **Current Depth** for **BTStoMQS** becomes one (1). You can also view the content of the message.  
+   After you enter the data, the **Current Depth** for the **MQStoBTS** queue is one (1). When the application processes the message, the count returns to zero (0) and the **Current Depth** for **BTStoMQS** becomes one (1). You can also view the content of the message.  
   
 ## To view the message  
  Follow these steps to view the message:  

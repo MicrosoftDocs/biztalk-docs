@@ -23,13 +23,13 @@ During [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommf
   
  Fault handling is provided by the fault track points defined in [GetServiceContractCallPoint](../core/getservicecontractcallpoint.md):  
   
--   ServiceFault  
+- ServiceFault  
   
--   ClientFault  
+- ClientFault  
   
--   CallbackFault  
+- CallbackFault  
   
- When using these fault track points, fault data is always persisted, even when operating in a transaction-based scenario. Transactional integrity is maintained on all non-fault tracked data and non-fault tracked data is rolled back as a response to the fault.  
+  When using these fault track points, fault data is always persisted, even when operating in a transaction-based scenario. Transactional integrity is maintained on all non-fault tracked data and non-fault tracked data is rolled back as a response to the fault.  
   
 > [!NOTE]
 >  These track points are applied to the reply path and apply only to the ServiceReply, ClientReply and CallbackReply service contract call points provided by [GetServiceContractCallPoint](../core/getservicecontractcallpoint.md).  

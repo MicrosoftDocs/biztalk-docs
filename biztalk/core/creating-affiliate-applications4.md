@@ -28,46 +28,46 @@ The following steps describe how to get started with affiliate applications usin
   
 ### To create an affiliate application  
   
-1.  In Control Panel, open **Services**, and verify that the Enterprise Single Sign-On service is running.  
+1. In Control Panel, open **Services**, and verify that the Enterprise Single Sign-On service is running.  
   
-2.  In a command prompt, change directories to the Enterprise Single Sign On folder.  
+2. In a command prompt, change directories to the Enterprise Single Sign On folder.  
+  
+    For example:  
+  
+    **C:\Program Files\Common Files\Enterprise Single Sign-On>**  
+  
+3. Use the Enterprise Single Sign-On commands. For a list of commands, use the **-help** switch.  
+  
+4. To create the affiliate application using *.XML as a beginning, type the following command:  
+  
+    `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
+  
+    where:  
+  
+   - C:\SSOtest is the folder that contains your application XML.  
+  
+   - AffiliateApplication.xml is the application XML you created that contains the Sign-On information.  
   
      For example:  
   
-     **C:\Program Files\Common Files\Enterprise Single Sign-On>**  
+   ```  
+   <?xml version="1.0"?>  
+   <SSO>  
+       <application name="JDEdwardsApp">  
+           <description>JDEdwards SSO Application</description>  
+           <contact>someone@microsoft.com</contact>  
+           <userGroup>ibi\Domain Users</userGroup>  
+           <!—an existing group on the domain controller - >   
+           <appAdminGroup>ibi\YourID</appAdminGroup>  
+           <!-- an existing account within the domain group - >   
   
-3.  Use the Enterprise Single Sign-On commands. For a list of commands, use the **-help** switch.  
+           <field ordinal="0" label="User ID" masked="no" />  
+           <field ordinal="1" label="Password" masked="yes" />  
+           <flags groupApp="no" allowTickets="yes" enableApp="yes"/>  
   
-4.  To create the affiliate application using *.XML as a beginning, type the following command:  
-  
-     `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
-  
-     where:  
-  
-    -   C:\SSOtest is the folder that contains your application XML.  
-  
-    -   AffiliateApplication.xml is the application XML you created that contains the Sign-On information.  
-  
-     For example:  
-  
-    ```  
-    <?xml version="1.0"?>  
-    <SSO>  
-        <application name="JDEdwardsApp">  
-            <description>JDEdwards SSO Application</description>  
-            <contact>someone@microsoft.com</contact>  
-            <userGroup>ibi\Domain Users</userGroup>  
-            <!—an existing group on the domain controller - >   
-            <appAdminGroup>ibi\YourID</appAdminGroup>  
-            <!-- an existing account within the domain group - >   
-  
-            <field ordinal="0" label="User ID" masked="no" />  
-            <field ordinal="1" label="Password" masked="yes" />  
-            <flags groupApp="no" allowTickets="yes" enableApp="yes"/>  
-  
-        </application>  
-    </SSO>  
-    ```  
+       </application>  
+   </SSO>  
+   ```  
   
 ### To create Single Sign-On tickets  
   
@@ -85,31 +85,31 @@ The following steps describe how to get started with affiliate applications usin
   
 ### To enable affiliate application XML  
   
-1.  Type the following command:  
+1. Type the following command:  
   
-     `ssomanage -enableapp JDEdwardsApp`  
+    `ssomanage -enableapp JDEdwardsApp`  
   
-2.  Type the following command to list the applications and to verify that the application was created:  
+2. Type the following command to list the applications and to verify that the application was created:  
   
-     `ssoclient.exe –listapps`  
+    `ssoclient.exe –listapps`  
   
-     The affiliate applications that are available for use display in a list:  
+    The affiliate applications that are available for use display in a list:  
   
-     **Applications available for IBI\YourID - JDEdwardsApp**  
+    **Applications available for IBI\YourID - JDEdwardsApp**  
   
-3.  Type the following command to set the affiliate application credentials:  
+3. Type the following command to set the affiliate application credentials:  
   
-     `ssoclient.exe -setcredentials JDEdwardsApp`  
+    `ssoclient.exe -setcredentials JDEdwardsApp`  
   
-4.  Enter the user name and password at the prompts. Enter the logon credentials for the JDEdwardsApp affiliate application.  
+4. Enter the user name and password at the prompts. Enter the logon credentials for the JDEdwardsApp affiliate application.  
   
-     For example, enter the user identification and the password for that user to enter into the system through the SSO server.  
+    For example, enter the user identification and the password for that user to enter into the system through the SSO server.  
   
-    -   User ID: **user**  
+   - User ID: **user**  
   
-    -   Password: `******`  
+   - Password: `******`  
   
-    -   Confirm? Password: `******`  
+   - Confirm? Password: `******`  
   
      The affiliate application appears in the BizTalk Adapter for JD Edwards EnterpriseOne **Transport Properties** dialog box.  
   

@@ -20,17 +20,17 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
 ## What This Sample Does  
  The sample works as follows:  
   
-1.  A user uses SendLargeMessage.exe to send a large .xml file to a queue on a local computer.  
+1. A user uses SendLargeMessage.exe to send a large .xml file to a queue on a local computer.  
   
-2.  BizTalk Server receives the large .xml file from the queue and copies it to a local directory.  
+2. BizTalk Server receives the large .xml file from the queue and copies it to a local directory.  
   
- Many operations in Message Queuing are asynchronous. That is, many MSMQ API calls (for example, **MQSendLargeMessage**) return to the caller before the requested operation has fully completed.  
+   Many operations in Message Queuing are asynchronous. That is, many MSMQ API calls (for example, **MQSendLargeMessage**) return to the caller before the requested operation has fully completed.  
   
- MSMQ provides a mechanism to deliver feedback to the application after the operation has completed. This mechanism involves the use of an "Admin Queue." MSMQ returns feedback in the form of a message in the Admin Queue. The Admin Queue to which MSMQ will return feedback is specified when the original MSMQ API call is made. So, for example, when sending a message using the **MQSendLargeMessage** API, the application can specify the name of an Admin Queue by using the **PROPID_M_ADMIN_QUEUE** message property on the message passed in the call to **MQSendLargeMessage**. Even though the application may get a successful return code on the **MQSendLargeMessage** call, if the message send operation subsequently fails, MSMQ writes a message to that effect to the specified Admin Queue.  
+   MSMQ provides a mechanism to deliver feedback to the application after the operation has completed. This mechanism involves the use of an "Admin Queue." MSMQ returns feedback in the form of a message in the Admin Queue. The Admin Queue to which MSMQ will return feedback is specified when the original MSMQ API call is made. So, for example, when sending a message using the **MQSendLargeMessage** API, the application can specify the name of an Admin Queue by using the **PROPID_M_ADMIN_QUEUE** message property on the message passed in the call to **MQSendLargeMessage**. Even though the application may get a successful return code on the **MQSendLargeMessage** call, if the message send operation subsequently fails, MSMQ writes a message to that effect to the specified Admin Queue.  
   
- If the application does not specify an Admin Queue, a send failure results in the message being lost and no diagnostics captured — in effect, the message disappears without any evidence. A number of error situations in MSMQ can cause this to happen, for example, doing a non-transactional send to a transactional queue.  
+   If the application does not specify an Admin Queue, a send failure results in the message being lost and no diagnostics captured — in effect, the message disappears without any evidence. A number of error situations in MSMQ can cause this to happen, for example, doing a non-transactional send to a transactional queue.  
   
- In the context of this sample, it is important that the code specify a transaction type in the call to **MQSendLargeMessage** that is consistent with the transaction support specified for the queue to which the message is sent. If this is not done and if no Admin Queue is specified (as is the case in this sample), then MSMQ discards the sent message with no indication that it has done so (that is, no error code returned to the application, no diagnostics written to the event log, and so on).  
+   In the context of this sample, it is important that the code specify a transaction type in the call to **MQSendLargeMessage** that is consistent with the transaction support specified for the queue to which the message is sent. If this is not done and if no Admin Queue is specified (as is the case in this sample), then MSMQ discards the sent message with no indication that it has done so (that is, no error code returned to the application, no diagnostics written to the event log, and so on).  
   
 ## Where to Find This Sample  
  \<Samples Path\>\AdaptersUsage\MSMQLarge  
@@ -52,23 +52,23 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 #### To configure BizTalk Server  
   
-1.  In Visual Studio, open the **C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** solution file.  Build the sample.  
+1. In Visual Studio, open the **C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** solution file.  Build the sample.  
   
-2.  Create a **C:\Demo** directory where BizTalk Server will place the messages from MSMQ.  
+2. Create a **C:\Demo** directory where BizTalk Server will place the messages from MSMQ.  
   
-3.  Open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+3. Open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-4.  Create a send port for the sample to write the message.  
+4. Create a send port for the sample to write the message.  
   
-    -   Expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, right-click **Send Ports**, click **New**, and then click **Static One-Way Send Port**.  
+   -   Expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, right-click **Send Ports**, click **New**, and then click **Static One-Way Send Port**.  
   
-5.  In the **Static One-Way Send Port Properties** dialog box, set the name of the port to **MySendPort**.  
+5. In the **Static One-Way Send Port Properties** dialog box, set the name of the port to **MySendPort**.  
   
-6.  Set the transport type to **File**.  
+6. Set the transport type to **File**.  
   
-7.  Click the **Configure** button to open the **File Transport Properties** form. Enter **C:\Demo** in **Destination Folder**. Ensure that the host instance identity has access to the C:\Demo folder.  
+7. Click the **Configure** button to open the **File Transport Properties** form. Enter **C:\Demo** in **Destination Folder**. Ensure that the host instance identity has access to the C:\Demo folder.  
   
-8.  Ensure that **File Name** is set to **%MessageID%.xml**. Click **OK**.  
+8. Ensure that **File Name** is set to **%MessageID%.xml**. Click **OK**.  
   
 9. Click **Filters**.  
   
@@ -82,27 +82,27 @@ The Large Message to MSMQ sample demonstrates how to send an .xml document large
   
 10. Create a receive port to accept the message from MSMQ.  
   
-    1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **Receive Ports**.  
+    1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **Receive Ports**.  
   
-    2.  Click **New**, and then click **One-way Receive Port**.  
+    2. Click **New**, and then click **One-way Receive Port**.  
   
 11. In the **Receive Port Properties** dialog box, set the name of the port to **MyReceivePort**, and then click **OK**.  
   
 12. After creating a receive port for the sample, you must create a receive location.  
   
-    1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **Receive Locations**.  
+    1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **Receive Locations**.  
   
-    2.  Click **New**, and then click **One-way Receive Location**.  
+    2. Click **New**, and then click **One-way Receive Location**.  
   
-    3.  Set the name of the receive location to **MSMQReceiveLocation**.  
+    3. Set the name of the receive location to **MSMQReceiveLocation**.  
   
-    4.  In the **Select a Receive Port** dialog box, select **MyReceivePort**.  
+    4. In the **Select a Receive Port** dialog box, select **MyReceivePort**.  
   
-    5.  In the **Receive Location Properties** dialog box, set **Transport Type** to **MSMQ**.  
+    5. In the **Receive Location Properties** dialog box, set **Transport Type** to **MSMQ**.  
   
-    6.  In the **Address (URI)** section, click **Configure** to open the **MSMQ Transport Properties** form. Set **Queue** to **localhost\private$\test**.  
+    6. In the **Address (URI)** section, click **Configure** to open the **MSMQ Transport Properties** form. Set **Queue** to **localhost\private$\test**.  
   
-    7.  Set **Transactional** to `True`, and then click **OK**.  
+    7. Set **Transactional** to `True`, and then click **OK**.  
   
 13. You must make the ports and receive locations available for use through the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   

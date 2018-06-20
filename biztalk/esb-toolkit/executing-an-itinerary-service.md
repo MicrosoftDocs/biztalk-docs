@@ -16,25 +16,25 @@ manager: "anneta"
 # Executing an Itinerary Service
 An ESB itinerary can contain any itinerary service that may be implemented as orchestration or messaging to perform the following tasks:  
   
--   It can receive the message containing the itinerary.  
+- It can receive the message containing the itinerary.  
   
--   It can retrieve the current itinerary step.  
+- It can retrieve the current itinerary step.  
   
--   It can process the service.  
+- It can process the service.  
   
--   It can advance the itinerary on the outgoing message by calling the **Advance** method.  
+- It can advance the itinerary on the outgoing message by calling the **Advance** method.  
   
--   It can publish the processed message back into the Microsoft BizTalk Message Box database.  
+- It can publish the processed message back into the Microsoft BizTalk Message Box database.  
   
- For example, an orchestration can receive a message that contains an itinerary by implementing a filter defined on the activated receive shape, as shown in Figure 1 of [Using an Orchestration as an Itinerary Service Subscriber](../esb-toolkit/using-an-orchestration-as-an-itinerary-service-subscriber.md). However, messaging is slightly different: the pipeline component calls the **GetItineraryStep** method to determine whether an itinerary exists in an incoming message. It also examines the message properties to check whether it should process it.  
+  For example, an orchestration can receive a message that contains an itinerary by implementing a filter defined on the activated receive shape, as shown in Figure 1 of [Using an Orchestration as an Itinerary Service Subscriber](../esb-toolkit/using-an-orchestration-as-an-itinerary-service-subscriber.md). However, messaging is slightly different: the pipeline component calls the **GetItineraryStep** method to determine whether an itinerary exists in an incoming message. It also examines the message properties to check whether it should process it.  
   
- ![Orchestration](../esb-toolkit/media/ch4-orchestration.jpg "Ch4-Orchestration")  
+  ![Orchestration](../esb-toolkit/media/ch4-orchestration.jpg "Ch4-Orchestration")  
   
- **Figure 1**  
+  **Figure 1**  
   
- **Example filter expression for an orchestration that will participate in an itinerary as a subscriber**  
+  **Example filter expression for an orchestration that will participate in an itinerary as a subscriber**  
   
- After the service obtains the message, it must call the **GetItineraryStep** method, which returns an instance of the **ItineraryStep** class. The following listings demonstrate how you can call the methods of the itinerary API from both an orchestration and a custom pipeline component. The following code executes the **GetItineraryStep** method from an orchestration Expression shape.  
+  After the service obtains the message, it must call the **GetItineraryStep** method, which returns an instance of the **ItineraryStep** class. The following listings demonstrate how you can call the methods of the itinerary API from both an orchestration and a custom pipeline component. The following code executes the **GetItineraryStep** method from an orchestration Expression shape.  
   
 ```  
   

@@ -23,11 +23,11 @@ Using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion
   
  You use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to perform these tasks:  
   
--   Deploy or remove [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] assemblies in a BizTalk Configuration database.  
+- Deploy or remove [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] assemblies in a BizTalk Configuration database.  
   
--   Install or uninstall the assemblies in the global assembly cache (GAC).  
+- Install or uninstall the assemblies in the global assembly cache (GAC).  
   
--   Import or export [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] assembly binding information to and from binding files.  
+- Import or export [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] assembly binding information to and from binding files.  
   
 To use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to deploy ports and assemblies, see [How to Export Bindings for a BizTalk Application](../core/how-to-export-bindings-for-a-biztalk-application.md).  
   
@@ -73,15 +73,15 @@ The Transport Adapter password is stored as asterisks (******) in the binding fi
 
 **Option 1**   
   
--   Before you import, update the binding file by replacing the asterisks with plain text.  
+- Before you import, update the binding file by replacing the asterisks with plain text.  
   
-    > [!CAUTION]
-    >  This practice is not recommended for security reasons.  
+  > [!CAUTION]
+  >  This practice is not recommended for security reasons.  
   
--   Before you import, update the binding fileby replacing the asterisks with some junk value (that is, not the correct password). After you import, enter the correct password in the **Transport Properties** in BizTalk Server Administration.  
+- Before you import, update the binding fileby replacing the asterisks with some junk value (that is, not the correct password). After you import, enter the correct password in the **Transport Properties** in BizTalk Server Administration.  
   
-    > [!NOTE]
-    >  This work-around can be used only if Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] is installed on the target computer, or if you develop a custom tool.  
+  > [!NOTE]
+  >  This work-around can be used only if Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] is installed on the target computer, or if you develop a custom tool.  
   
 **Option 2**  
   

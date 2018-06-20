@@ -17,15 +17,15 @@ manager: "anneta"
 # Import-Copy failed as there are active-pending batches
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|Err_ActiveBatchFound|  
-|Message Text|Import/Copy failed as there are active/pending batches. Stop active/pending batches and try importing/copying.|  
+|                 |                                                                                                                |
+|-----------------|----------------------------------------------------------------------------------------------------------------|
+|  Product Name   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
+| Product Version |                           [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                           |
+|    Event ID     |                                                       -                                                        |
+|  Event Source   |             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI             |
+|    Component    |                                                   EDI Engine                                                   |
+|  Symbolic Name  |                                              Err_ActiveBatchFound                                              |
+|  Message Text   | Import/Copy failed as there are active/pending batches. Stop active/pending batches and try importing/copying. |
   
 ## Explanation  
  This Error/Warning/Information event indicates BizTalk Server was unable to Import a binding file or copy the settings as the affected Agreement(s) have one or more active or pending batch.  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10781
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10781|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_LOCAL_ACCOUNTS|  
-|Message Text|Local accounts are not allowed for this application. Check your application flags.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   |                             Enterprise Single Sign-On                              |
+| Product Version |             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]             |
+|    Event ID     |                                       10781                                        |
+|  Event Source   |                                       ENTSSO                                       |
+|    Component    |                                        N/A                                         |
+|  Symbolic Name  |                             ENTSSO_E_NO_LOCAL_ACCOUNTS                             |
+|  Message Text   | Local accounts are not allowed for this application. Check your application flags. |
   
 ## Explanation  
  Local accounts are not allowed for this application.  

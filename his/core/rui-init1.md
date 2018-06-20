@@ -257,45 +257,45 @@ struct LUA_COMMON {
  LUA_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_SESSION_FAILURE  
- Primary return code; a required Host Integration Server component has terminated.  
+  LUA_SESSION_FAILURE  
+  Primary return code; a required Host Integration Server component has terminated.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; indicates that the LUA session failed because of a problem with the link service or with the host LU.  
+  Secondary return code; indicates that the LUA session failed because of a problem with the link service or with the host LU.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
- LUA_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  LUA_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- LUA_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  LUA_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
 ## Remarks  
  This verb must be the first LUA verb issued for the session. Until this verb has completed successfully, the only other LUA verb that can be issued for this session is [RUI_TERM](../core/rui-term2.md) (which terminates a pending **RUI_INIT**).  
   
  All other verbs issued on this session must identify the session using one of the following parameters from this verb:  
   
--   The session identifier, returned to the application in **lua_sid**.  
+- The session identifier, returned to the application in **lua_sid**.  
   
--   The LU name or LU pool name, supplied by the application in the **lua_luname** parameter.  
+- The LU name or LU pool name, supplied by the application in the **lua_luname** parameter.  
   
- **RUI_INIT** completes after an ACTLU message is received from the host. If necessary, the verb waits indefinitely. If an ACTLU has already been received prior to **RUI_INIT**, LUA sends a NOTIFY to the host to inform it that the LU is ready for use.  
+  **RUI_INIT** completes after an ACTLU message is received from the host. If necessary, the verb waits indefinitely. If an ACTLU has already been received prior to **RUI_INIT**, LUA sends a NOTIFY to the host to inform it that the LU is ready for use.  
   
- Neither ACTLU nor NOTIFY is visible to the LUA application.  
+  Neither ACTLU nor NOTIFY is visible to the LUA application.  
   
- After **RUI_INIT** has completed successfully, this session uses the LU for which the session was started. No other LUA session (from this or any other application) can use the LU until **RUI_TERM** is issued, or until an LUA_SESSION_FAILURE primary return code is received.  
+  After **RUI_INIT** has completed successfully, this session uses the LU for which the session was started. No other LUA session (from this or any other application) can use the LU until **RUI_TERM** is issued, or until an LUA_SESSION_FAILURE primary return code is received.  
   
 ## Using 3270 LUs  
  To provide 3270 emulator users the ability to use the Emulator Interface Specification (EIS) configuration call with the RUI API, a Host Integration Server extension has been added to the RUI. This extension allows you to use 3270 LUs rather than LUA LUs. If an application sets **lua_resv56[1]** to a nonzero value on the **RUI_INIT** call, 3270 LUs can be used.  
@@ -319,13 +319,13 @@ struct LUA_COMMON {
   
  For **RUI_INIT**, the following options are supported:  
   
--   **lua_encr_decr_option** = 0  
+- **lua_encr_decr_option** = 0  
   
--   **lua_encr_decr_option** = 128  
+- **lua_encr_decr_option** = 128  
   
- Values from 1 through 127 (ACSRENCR and ACSROECR routines) are not supported.  
+  Values from 1 through 127 (ACSRENCR and ACSROECR routines) are not supported.  
   
- The sending application is responsible for padding data to a multiple of eight bytes and for setting the padded data indicator bit in the RH as well as for encryption. The receiving application is responsible for removing the padding after decryption.  
+  The sending application is responsible for padding data to a multiple of eight bytes and for setting the padded data indicator bit in the RH as well as for encryption. The receiving application is responsible for removing the padding after decryption.  
   
 ## See Also  
  [RUI_TERM](../core/rui-term2.md)   

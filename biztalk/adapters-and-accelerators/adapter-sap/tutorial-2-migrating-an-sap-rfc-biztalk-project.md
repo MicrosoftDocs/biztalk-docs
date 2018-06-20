@@ -21,23 +21,23 @@ manager: "anneta"
 # Tutorial 2: Migrating an SAP RFC BizTalk Project
 The previous version of the SAP adapter that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in many aspects, including:  
   
--   The design-time experience of creating a BizTalk project.  
+- The design-time experience of creating a BizTalk project.  
   
--   The metadata retrieval experience.  
+- The metadata retrieval experience.  
   
--   Schema file name and namespace.  
+- Schema file name and namespace.  
   
--   Data type mappings.  
+- Data type mappings.  
   
--   The operations that can be performed using the adapter.  
+- The operations that can be performed using the adapter.  
   
--   Physical port configuration in the BizTalk Server Administration console.  
+- Physical port configuration in the BizTalk Server Administration console.  
   
- These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the SAP Adapter](http://msdn.microsoft.com/library/a486bac9-8952-43fd-8099-413f1491de37).  
+  These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the SAP Adapter](http://msdn.microsoft.com/library/a486bac9-8952-43fd-8099-413f1491de37).  
   
- However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
- This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
+  This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
   
 > [!NOTE]
 >  In this tutorial, for the sake of brevity, the previous version of the SAP adapter will be referred to as vPrev SAP adapter. Similarly, a BizTalk project that uses the vPrev SAP adapter will be referred to as vPrev BizTalk project.  
@@ -67,15 +67,15 @@ The previous version of the SAP adapter that shipped with Microsoft BizTalk Serv
   
  However, to be able to configure the WCF-Custom port appropriately, you must perform the following tasks:  
   
--   Generate metadata for the SD_RFC_CUSTOMER_GET RFC using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- Generate metadata for the SD_RFC_CUSTOMER_GET RFC using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   Map the request message for invoking the RFC using the vPrev SAP adapter to a request message for invoking the RFC using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- Map the request message for invoking the RFC using the vPrev SAP adapter to a request message for invoking the RFC using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   Map the response message received using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to the response message for the vPrev SAP adapter.  
+- Map the response message received using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to the response message for the vPrev SAP adapter.  
   
--   Create a WCF-Custom SAP send-receive port in the BizTalk Server Administration console.  
+- Create a WCF-Custom SAP send-receive port in the BizTalk Server Administration console.  
   
--   Configure the WCF-Custom port to use the request and response mappings.  
+- Configure the WCF-Custom port to use the request and response mappings.  
   
 ## In This Section  
   

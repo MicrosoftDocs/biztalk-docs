@@ -31,15 +31,15 @@ IDOCs are standardized EDI-like documents that SAP supports for asynchronously c
   
  After the call to send the IDOC is completed, the TID must be confirmed on the SAP system. This enables the SAP system to delete the TID from its database. The adapter client can confirm the TID on the SAP system.  
   
--   Explicitly, by invoking the **RfcConfirmTransID** operation on the adapter. This operation takes a GUID (returned in the response message above) and causes the adapter to confirm the associated TID on the SAP system.  
+- Explicitly, by invoking the **RfcConfirmTransID** operation on the adapter. This operation takes a GUID (returned in the response message above) and causes the adapter to confirm the associated TID on the SAP system.  
   
--   Implicitly, by setting the **AutoConfirmSentIdocs** binding property. If this binding property is true, the adapter automatically commits the TID after it sends the IDOC to the SAP system. See [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md) for more information.  
+- Implicitly, by setting the **AutoConfirmSentIdocs** binding property. If this binding property is true, the adapter automatically commits the TID after it sends the IDOC to the SAP system. See [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md) for more information.  
   
- The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the following RFCs to send an IDOC:  
+  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the following RFCs to send an IDOC:  
   
--   INBOUND_IDOC_PROCESS. This function module is used for SAP releases before 4.0.  
+- INBOUND_IDOC_PROCESS. This function module is used for SAP releases before 4.0.  
   
--   IDOC_INBOUND_ASYNCHRONOUS. This function module is used for SAP release 4.0 and later.  
+- IDOC_INBOUND_ASYNCHRONOUS. This function module is used for SAP release 4.0 and later.  
   
 ### Sending IDOCs with Segment Data Across Multiple Lines  
  IDOCs are constituted of segments. Each segment entry in an IDOC flat-file contains the segment header info (containing the DOCNUM field) and the segment data. In some IDOCs, the segment data can be split across multiple lines. For example:  
@@ -61,63 +61,63 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
 ### Operations to Send an IDOC  
  The following operations are supported for sending IDOCs to an SAP system:  
   
--   **Send**. Use this operation to send an IDOC to the SAP system using a strongly-typed schema. The schema for this operation exposes control record fields and data record fields, including segment headers and segment fields. The Send operation is specific to an IDocType + CimType + ReleaseNumber + Version combination.  
+- **Send**. Use this operation to send an IDOC to the SAP system using a strongly-typed schema. The schema for this operation exposes control record fields and data record fields, including segment headers and segment fields. The Send operation is specific to an IDocType + CimType + ReleaseNumber + Version combination.  
   
-     This operation is surfaced for each IDOC and is available under a specific IDOC node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+   This operation is surfaced for each IDOC and is available under a specific IDOC node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
-    > [!NOTE]
-    >  To be able to successfully perform a **Send** operation, you must have relevant authorization in the SAP system. For more information.  
+  > [!NOTE]
+  >  To be able to successfully perform a **Send** operation, you must have relevant authorization in the SAP system. For more information.  
   
--   **SendIdoc**. Use this operation to send an IDOC to the SAP system using a weakly-typed schema. The schema for this operation exposes IDOCs as a single string field consisting the control record and data record. The SendIdoc operation takes an IDOC string and a GUID as a parameter.  
+- **SendIdoc**. Use this operation to send an IDOC to the SAP system using a weakly-typed schema. The schema for this operation exposes IDOCs as a single string field consisting the control record and data record. The SendIdoc operation takes an IDOC string and a GUID as a parameter.  
   
-     This is a single operation surfaced for all IDOCs exposed by the SAP system and is available under the root **IDOC** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+   This is a single operation surfaced for all IDOCs exposed by the SAP system and is available under the root **IDOC** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
- For more information about:  
+  For more information about:  
   
--   Sending an IDOC to an SAP system using BizTalk Server, see [Send IDOCs to SAP by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/send-idocs-to-sap-using-biztalk-server.md).  
+- Sending an IDOC to an SAP system using BizTalk Server, see [Send IDOCs to SAP by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/send-idocs-to-sap-using-biztalk-server.md).  
   
--   Sending an IDOC to an SAP system using WCF service model, see [Send IDOCs to SAP by Using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/send-idocs-to-sap-using-the-wcf-service-model.md).  
+- Sending an IDOC to an SAP system using WCF service model, see [Send IDOCs to SAP by Using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/send-idocs-to-sap-using-the-wcf-service-model.md).  
   
--   Message structures and SOAP action for sending an IDOC, see [Message Schemas for IDOC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-idoc-operations.md).  
+- Message structures and SOAP action for sending an IDOC, see [Message Schemas for IDOC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-idoc-operations.md).  
   
 ## Operations to Receive an IDOC  
  To receive an IDOC, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] can behave either as a tRFC server or an RFC server:  
   
--   For the adapter to behave as a tRFC server, the binding property **TidDatabaseConnectionString** must be set to the connection string for the TID database on your computer. For a tRFC server scenario, the adapter accepts a tRFC client call from the SAP system to receive the IDOC.  
+- For the adapter to behave as a tRFC server, the binding property **TidDatabaseConnectionString** must be set to the connection string for the TID database on your computer. For a tRFC server scenario, the adapter accepts a tRFC client call from the SAP system to receive the IDOC.  
   
--   For the adapter to behave as an RFC server, the **TidDatabaseConnectionString** should be null (default). For an RFC server scenario, the adapter accepts an RFC client call from the SAP system to receive the IDOC.  
+- For the adapter to behave as an RFC server, the **TidDatabaseConnectionString** should be null (default). For an RFC server scenario, the adapter accepts an RFC client call from the SAP system to receive the IDOC.  
   
- The following RFCs are used to send and receive IDOCs; when sending IDOCs, the adapter uses these RFCs, whereas when receiving IDOCS, the SAP system uses them.  
+  The following RFCs are used to send and receive IDOCs; when sending IDOCs, the adapter uses these RFCs, whereas when receiving IDOCS, the SAP system uses them.  
   
--   INBOUND_IDOC_PROCESS. This function module is used for SAP releases before 4.0.  
+- INBOUND_IDOC_PROCESS. This function module is used for SAP releases before 4.0.  
   
--   IDOC_INBOUND_ASYNCHRONOUS. This function module is used for SAP release 4.0 and later.  
+- IDOC_INBOUND_ASYNCHRONOUS. This function module is used for SAP release 4.0 and later.  
   
- The following operations are supported for receiving IDOCs from an SAP system:  
+  The following operations are supported for receiving IDOCs from an SAP system:  
   
--   **Receive**. Use this operation to receive an IDOC from the SAP system using a strongly-typed schema. The schema for this operation exposes control record fields and data record fields including segment headers and segment fields.  
+- **Receive**. Use this operation to receive an IDOC from the SAP system using a strongly-typed schema. The schema for this operation exposes control record fields and data record fields including segment headers and segment fields.  
   
-     This operation is surfaced for each IDOC and is available under a specific IDOC node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+   This operation is surfaced for each IDOC and is available under a specific IDOC node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
-    > [!NOTE]
-    >  To be able to successfully perform a **Receive** operation, you must have relevant authorization in the SAP system. For more information.  
+  > [!NOTE]
+  >  To be able to successfully perform a **Receive** operation, you must have relevant authorization in the SAP system. For more information.  
   
-    > [!NOTE]
-    >  Using the **Receive** operation, you can also receive multiple IDOCs.  
+  > [!NOTE]
+  >  Using the **Receive** operation, you can also receive multiple IDOCs.  
   
--   **ReceiveIdoc**. Use this operation to receive an IDOC from the SAP system using a weakly-typed schema. The schema for this operation exposes IDOCs as a single string field consisting of the control record and data record. This operation receives IDOCs as a string in an XML message under the \<idocData\> tag.  
+- **ReceiveIdoc**. Use this operation to receive an IDOC from the SAP system using a weakly-typed schema. The schema for this operation exposes IDOCs as a single string field consisting of the control record and data record. This operation receives IDOCs as a string in an XML message under the \<idocData\> tag.  
   
-     This is a single operation surfaced for all IDOCs exposed by the SAP system and is available under the root **IDOC** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+   This is a single operation surfaced for all IDOCs exposed by the SAP system and is available under the root **IDOC** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
- When receiving IDOCs, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports different message formats, which can be specified as a value for the binding property, **ReceiveIDocFormat** exposed by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  When receiving IDOCs, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports different message formats, which can be specified as a value for the binding property, **ReceiveIDocFormat** exposed by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   If set to "Typed", the XML schema is strongly typed to the specific IDOC being received. (The schema for this message can be seen from the Receive operations. Note that the schema is different for different IDOCs). This yields an XML IDOC.  
+- If set to "Typed", the XML schema is strongly typed to the specific IDOC being received. (The schema for this message can be seen from the Receive operations. Note that the schema is different for different IDOCs). This yields an XML IDOC.  
   
--   If set to "String", the incoming IDOC data is returned as a String value. (The schema for this message can be seen from the ReceiveIdoc operation). This yields an XML message with the \<idocData\> tag.  
+- If set to "String", the incoming IDOC data is returned as a String value. (The schema for this message can be seen from the ReceiveIdoc operation). This yields an XML message with the \<idocData\> tag.  
   
--   If set to "Rfc", the message schema matches the RFC (or tRFC) schema for the RFC operations IDOC_INBOUND_ASYNCHRONOUS or INBOUND_IDOC_PROCESS, depending on the incoming IDOC version. If you specify this binding property you should use the IDOC_INBOUND_ASYNCHRONOUS or INBOUND_IDOC_PROCESS RFC to receive the IDOC. In the first two options, the adapter internally uses this RFC. In this option, you explicitly use this RFC to receive an IDOC.  
+- If set to "Rfc", the message schema matches the RFC (or tRFC) schema for the RFC operations IDOC_INBOUND_ASYNCHRONOUS or INBOUND_IDOC_PROCESS, depending on the incoming IDOC version. If you specify this binding property you should use the IDOC_INBOUND_ASYNCHRONOUS or INBOUND_IDOC_PROCESS RFC to receive the IDOC. In the first two options, the adapter internally uses this RFC. In this option, you explicitly use this RFC to receive an IDOC.  
   
- The operation that you use to receive an IDOC must match the format of the IDOC data emitted by the adapter. The following table provides a summary of the different combinations in which you can receive an IDOC from SAP.  
+  The operation that you use to receive an IDOC must match the format of the IDOC data emitted by the adapter. The following table provides a summary of the different combinations in which you can receive an IDOC from SAP.  
   
 |To receive an IDOC using|Set the binding property ReceiveIDOCFormat to|  
 |------------------------------|---------------------------------------------------|  

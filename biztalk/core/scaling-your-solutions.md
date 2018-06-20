@@ -27,13 +27,13 @@ BizTalk Server architecture provides a very good support for scalability. The sc
 ## Scaling Out and Scaling Up  
  There are two ways to scale your BizTalk Server system:  
   
--   Scaling-out is the process of adding additional computers. For example, if BizTalk Server is bottlenecked by CPU resources, adding another server provides double the CPU resources which may provide double the throughput.  
+- Scaling-out is the process of adding additional computers. For example, if BizTalk Server is bottlenecked by CPU resources, adding another server provides double the CPU resources which may provide double the throughput.  
   
--   Scaling-up is process of upgrading the existing computer. For example, you can upgrade a BizTalk Server computer from a 4 processor machine to an 8 processor.  
+- Scaling-up is process of upgrading the existing computer. For example, you can upgrade a BizTalk Server computer from a 4 processor machine to an 8 processor.  
   
- A BizTalk Server system has two tiers: the BizTalk Server tier and the SQL Server tier, which contains your MessageBox databases. In any scenario, you can scale out or scale up each tier. That is, you can scale-out BizTalk Server and the MessageBox database, or scale up both of them.  
+  A BizTalk Server system has two tiers: the BizTalk Server tier and the SQL Server tier, which contains your MessageBox databases. In any scenario, you can scale out or scale up each tier. That is, you can scale-out BizTalk Server and the MessageBox database, or scale up both of them.  
   
- In most cases, the BizTalk tier becomes a bottleneck first, and you start improving performance by scaling it out. But, at some point, depending on complexity of your system and the hardware you use, you can’t scale out the BizTalk tier anymore and the SQL Server tier becomes the bottleneck. Then, you scale up the SQL Server tier, and next scale it out by adding more MessageBox databases.  
+  In most cases, the BizTalk tier becomes a bottleneck first, and you start improving performance by scaling it out. But, at some point, depending on complexity of your system and the hardware you use, you can’t scale out the BizTalk tier anymore and the SQL Server tier becomes the bottleneck. Then, you scale up the SQL Server tier, and next scale it out by adding more MessageBox databases.  
   
 > [!NOTE]
 >  A new MessageBox database does not necessarily mean another server here. A single SQL server can have multiple MessageBox databases. Also, multiple MessageBox databases incur DTC cost and network hop if the databases are on different computers.  

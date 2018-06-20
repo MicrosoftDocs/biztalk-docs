@@ -17,15 +17,15 @@ manager: "anneta"
 # Agreement found for the Protocol is in Disabled or Expired state
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|AgreementResolutionAgreementDiasbledOrExpired|  
-|Message Text|Agreement found for the {0} Protocol is in either Disabled or Expired state.|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                       EDI Engine                                       |
+|  Symbolic Name  |                     AgreementResolutionAgreementDiasbledOrExpired                      |
+|  Message Text   |      Agreement found for the {0} Protocol is in either Disabled or Expired state.      |
   
 ## Explanation  
  This Error/Warning/Information event indicates BizTalk Server was able to resolve to an agreement but it is in disabled or expired state.  

@@ -23,19 +23,19 @@ The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../in
 ## What This Sample Does  
  The sample includes a purchase order (PO) XML document to process, DocInstance.xml. The sample uses the following steps to process DocInstance.xml:  
   
-1.  DocInstance.xml is retrieved by a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive port and processed by a custom pipeline component called Arbitrary XPath Property Handler.  
+1. DocInstance.xml is retrieved by a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive port and processed by a custom pipeline component called Arbitrary XPath Property Handler.  
   
-2.  The arbitrary XPath property handler component promotes all \<Price\> and \<Quantity\> elements with an arbitrary XPath expression as defined in the PO schema. The XPath expression also contains the position construct for use with ambiguous child elements of the PO document root element.  
+2. The arbitrary XPath property handler component promotes all \<Price\> and \<Quantity\> elements with an arbitrary XPath expression as defined in the PO schema. The XPath expression also contains the position construct for use with ambiguous child elements of the PO document root element.  
   
-3.  The arbitrary XPath property handler component determines the message type and promotes it into the message context.  
+3. The arbitrary XPath property handler component determines the message type and promotes it into the message context.  
   
-4.  The component then sends the XML document with the promoted elements to an orchestration for further processing.  
+4. The component then sends the XML document with the promoted elements to an orchestration for further processing.  
   
-5.  The orchestration accesses the promoted elements in the PO document and calculates the total number of items in the PO.  
+5. The orchestration accesses the promoted elements in the PO document and calculates the total number of items in the PO.  
   
-6.  The orchestration creates a new PO document that contains the information from the original PO as well as the updated total.  
+6. The orchestration creates a new PO document that contains the information from the original PO as well as the updated total.  
   
-7.  The new PO document is written to a file in the \Output directory.  
+7. The new PO document is written to a file in the \Output directory.  
   
 ## Where to Find This Sample  
  *\<Samples Path\>*\Pipelines\ArbitraryXPathPropertyHandler  
@@ -78,31 +78,31 @@ The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../in
   
 #### To build and initialize this sample  
   
-1.  In a command window, change directories (**cd**) to the following folder:  
+1. In a command window, change directories (**cd**) to the following folder:  
   
-     *\<Samples Path\>*\Pipelines\ArbitraryXPathPropertyHandler  
+    *\<Samples Path\>*\Pipelines\ArbitraryXPathPropertyHandler  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    -   Builds the Arbitrary XPath Property Handler pipeline component.  
+   - Builds the Arbitrary XPath Property Handler pipeline component.  
   
-    -   Copies built pipeline component to the *\<Installation Path\>*\Pipeline Components directory.  
+   - Copies built pipeline component to the *\<Installation Path\>*\Pipeline Components directory.  
   
-    -   Creates the send and receive ports.  
+   - Creates the send and receive ports.  
   
-    -   Creates the input and output directories used in the sample.  
+   - Creates the input and output directories used in the sample.  
   
-    -   Installs the sample [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration ArbitraryXPathSample.  
+   - Installs the sample [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration ArbitraryXPathSample.  
   
-    -   Binds the ports to the sample orchestration.  
+   - Binds the ports to the sample orchestration.  
   
-    -   Starts the orchestration.  
+   - Starts the orchestration.  
   
-    > [!NOTE]
-    >  No errors should be reported during the build and initialization. If any errors occur, make sure that you have all necessary software installed and that Microsoft build tools are available on the path.  
-  
-    > [!NOTE]
-    >  To undo changes made by Setup.bat, you must first stop and restart the host instance from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. Next, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
+   > [!NOTE]
+   >  No errors should be reported during the build and initialization. If any errors occur, make sure that you have all necessary software installed and that Microsoft build tools are available on the path.  
+   > 
+   > [!NOTE]
+   >  To undo changes made by Setup.bat, you must first stop and restart the host instance from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. Next, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
   
 ## Running This Sample  
  Use the following procedure to run the Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Sample).  

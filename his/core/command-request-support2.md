@@ -18,15 +18,15 @@ The next three tables list the SNA command requests supported by [!INCLUDE[hisHo
   
  The following three tables categorize requests in the following order:  
   
-1.  Session control requests  
+1. Session control requests  
   
-2.  Function management data requests: network services (maintenance) and network services (session)  
+2. Function management data requests: network services (maintenance) and network services (session)  
   
-3.  Data flow control requests  
+3. Data flow control requests  
   
- The three tables denote the category for each request by the setting of the request/response unit (RU) category bits in the request/response header (RH), and by the function of the request. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] does not support commands that fall in the network control request category.  
+   The three tables denote the category for each request by the setting of the request/response unit (RU) category bits in the request/response header (RH), and by the function of the request. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] does not support commands that fall in the network control request category.  
   
- For more information about command requests, see your IBM documentation.  
+   For more information about command requests, see your IBM documentation.  
   
 ### SNA Request Support for Session Control Requests  
   

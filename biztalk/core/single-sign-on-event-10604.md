@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10604
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10604|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_SSOCSTX_OUT_OF_PROC|  
-|Message Text|The 'ENTSSO Server' COM+ application is not configured correctly. It must be a COM+ library application.|  
+|                 |                                                                                                          |
+|-----------------|----------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                        Enterprise Single Sign-On                                         |
+| Product Version |                        [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                        |
+|    Event ID     |                                                  10604                                                   |
+|  Event Source   |                                                  ENTSSO                                                  |
+|    Component    |                                                   N/A                                                    |
+|  Symbolic Name  |                                      SSO_ERROR_SSOCSTX_OUT_OF_PROC                                       |
+|  Message Text   | The 'ENTSSO Server' COM+ application is not configured correctly. It must be a COM+ library application. |
   
 ## Explanation  
  The COM+ application must be configured as a COM+ library application.  

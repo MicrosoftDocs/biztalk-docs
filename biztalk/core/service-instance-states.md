@@ -21,26 +21,26 @@ manager: "anneta"
 # Service Instance States
 As a message is processed, the following actions take place:  
   
--   In the receive location, the receive adapter—or transport component—receives the message from an external application and submits it to BizTalk Server for processing.  
+- In the receive location, the receive adapter—or transport component—receives the message from an external application and submits it to BizTalk Server for processing.  
   
-    > [!NOTE]
-    >  A message is received by the system in a variety of formats: XML, a flat file, or as an electronic data interchange (EDI) between companies.  
+  > [!NOTE]
+  >  A message is received by the system in a variety of formats: XML, a flat file, or as an electronic data interchange (EDI) between companies.  
   
--   The receive pipeline decrypts, decodes, and disassembles the message.  
+- The receive pipeline decrypts, decodes, and disassembles the message.  
   
--   The message engine sends the message and its shortcut properties—such as message type and origin—to the MessageBox database.  
+- The message engine sends the message and its shortcut properties—such as message type and origin—to the MessageBox database.  
   
--   When a matching subscription is found, the message is processed according to a set of schemas and maps, and sometimes business rules or policies that reside on the host server.  
+- When a matching subscription is found, the message is processed according to a set of schemas and maps, and sometimes business rules or policies that reside on the host server.  
   
--   After it is processed, the resulting message is persisted (written) to the MessageBox database. The shortcut properties have been modified to indicate where to send the message, for example, which send port to use.  
+- After it is processed, the resulting message is persisted (written) to the MessageBox database. The shortcut properties have been modified to indicate where to send the message, for example, which send port to use.  
   
--   The shortcut properties of the message are evaluated against the filter expressions defined for the send port, and the MessageBox database delivers the message to the appropriate send port.  
+- The shortcut properties of the message are evaluated against the filter expressions defined for the send port, and the MessageBox database delivers the message to the appropriate send port.  
   
--   A subscription to a send pipeline and/or send port must be met for the message to be sent. The message is encrypted and transmitted.  
+- A subscription to a send pipeline and/or send port must be met for the message to be sent. The message is encrypted and transmitted.  
   
- Each process in this cycle generates its own set of events.  
+  Each process in this cycle generates its own set of events.  
   
- As service instances (receive ports, orchestrations, send ports) process messages moving through BizTalk Server, these service instances can be in one of several states. This section discusses what those states are, and shows examples of states at different times in their lifecycle.  
+  As service instances (receive ports, orchestrations, send ports) process messages moving through BizTalk Server, these service instances can be in one of several states. This section discusses what those states are, and shows examples of states at different times in their lifecycle.  
   
 ## Service Instance States  
  The following table shows the various possible states of a service instance, with an explanation for each state.  

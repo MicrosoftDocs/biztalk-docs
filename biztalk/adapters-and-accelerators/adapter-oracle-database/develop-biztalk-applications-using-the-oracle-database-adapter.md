@@ -26,7 +26,7 @@ Developing BizTalk applications involves creating a BizTalk project in [!INCLUDE
   
 > [!IMPORTANT]
 >  To use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must always set the **EnableBizTalkCompatibilityMode** binding property to **True**. For instructions about how to set the binding properties, see [Configure the binding properties for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).  
-  
+> 
 > [!IMPORTANT]
 >  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] included with [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] is not listed in the BizTalk Server Administration console. The adapters in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] are WCF-based, and use a WCF custom binding. The BizTalk Server Administration console displays the [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]. It does not automatically display the WCF custom bindings and therefore does not display the WCF based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
 > 

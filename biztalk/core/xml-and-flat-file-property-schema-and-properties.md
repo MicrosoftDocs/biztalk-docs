@@ -18,7 +18,7 @@ manager: "anneta"
 The **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** namespace contains properties you can use to configure Flat File Assembler and Flat File Disassembler pipeline components. The properties are described in the following table.  
 
 ## Properties list
-  
+
 |Property|Type|Description|  
 |--------------|----------|-----------------|  
 |**FlatFileHeaderDocument**|xs:string|The header of an incoming flat file document can be stored with this property.|  
@@ -33,11 +33,11 @@ The **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** namespace c
 |**HeaderSpecName**|xs:string|Specifies a flat file document header.|  
 |**TrailerSpecName**|xs:string|Specifies a flat file document trailer.|  
 |**PromotePropertiesOnly**|xs:boolean|When set to **True**, the XML Disassembler component does not remove a message envelope or disassemble it. Only property promotion is performed.|  
-  
+
 ## See Also  
--  [Configure the Flat File Assembler Pipeline Component](../core/how-to-configure-the-flat-file-assembler-pipeline-component.md)   
--  [Configure the Flat File Disassembler Pipeline Component](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
--  [Configure the XML Assembler Pipeline Component](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
--  [Configure the XML Disassembler Pipeline Component](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
--  [Configure Native Pipeline Components](../core/configuring-native-pipeline-components.md)   
--  **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+- [Configure the Flat File Assembler Pipeline Component](../core/how-to-configure-the-flat-file-assembler-pipeline-component.md)   
+- [Configure the Flat File Disassembler Pipeline Component](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
+- [Configure the XML Assembler Pipeline Component](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
+- [Configure the XML Disassembler Pipeline Component](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
+- [Configure Native Pipeline Components](../core/configuring-native-pipeline-components.md)   
+- **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

@@ -25,29 +25,29 @@ You can configure an HTTP send port either programmatically or by using the BizT
   
  The HTTP adapter stores its configuration information in the BizTalk Management database (also known as the Configuration database). You store configuration information in a custom XML property bag. During initialization of the HTTP adapter and during its run time, the server passes the configuration to the adapter as follows:  
   
--   For the HTTP send handler, configuration information passes to the adapter by calling the **Load** method of the **IPersistPropertyBag** interface.  
+- For the HTTP send handler, configuration information passes to the adapter by calling the **Load** method of the **IPersistPropertyBag** interface.  
   
--   For the HTTP send ports, configuration information passes to the adapter as a set of properties on a message context. The HTTP namespace groups these properties together.  
+- For the HTTP send ports, configuration information passes to the adapter as a set of properties on a message context. The HTTP namespace groups these properties together.  
   
- The BizTalk Explorer object model exposes the `ItransportInfo` adapter configuration interface for send ports, which contains the `TransportTypeData` read/write property. This property accepts the HTTP send port configuration property bag as a name/value pair XML string. Note that to set this property in the BizTalk Explorer object model, it must first be set on the `Address` property of the **ITransportInfo** interface.  
+  The BizTalk Explorer object model exposes the `ItransportInfo` adapter configuration interface for send ports, which contains the `TransportTypeData` read/write property. This property accepts the HTTP send port configuration property bag as a name/value pair XML string. Note that to set this property in the BizTalk Explorer object model, it must first be set on the `Address` property of the **ITransportInfo** interface.  
   
- Setting the **TransportTypeData** property of the **ITransportInfo** interface is not required. If it is not set, the HTTP adapter will use the default values for the HTTP send handler.  
+  Setting the **TransportTypeData** property of the **ITransportInfo** interface is not required. If it is not set, the HTTP adapter will use the default values for the HTTP send handler.  
   
- If send port configuration properties that duplicate the configuration for the handler are not defined, configuration properties for the handler are used. If the HTTP send handler does not have configuration values, the HTTP send adapter logs an error in the event log and moves the message to the backup adapter.  
+  If send port configuration properties that duplicate the configuration for the handler are not defined, configuration properties for the handler are used. If the HTTP send handler does not have configuration values, the HTTP send adapter logs an error in the event log and moves the message to the backup adapter.  
   
- You can set configuration properties programmatically on a message context. You can set these properties in a BizTalk Server orchestration schedule or in custom pipeline components. The following rules apply when using these properties:  
+  You can set configuration properties programmatically on a message context. You can set these properties in a BizTalk Server orchestration schedule or in custom pipeline components. The following rules apply when using these properties:  
   
--   If the configuration property is set on an orchestration or in a custom pipeline component in a receive pipeline, then:  
+- If the configuration property is set on an orchestration or in a custom pipeline component in a receive pipeline, then:  
   
-    -   If a message is sent to a static send port, the property value will be overwritten with the value configured for that send port.  
+  -   If a message is sent to a static send port, the property value will be overwritten with the value configured for that send port.  
   
-    -   If a message is sent to a dynamic send port, the property value will not be overwritten.  
+  -   If a message is sent to a dynamic send port, the property value will not be overwritten.  
   
--   If the configuration property is set in a custom pipeline component in a send pipeline, then:  
+- If the configuration property is set in a custom pipeline component in a send pipeline, then:  
   
-    -   The value will not be overwritten regardless of whether the message is sent to a static or dynamic send port.  
+  -   The value will not be overwritten regardless of whether the message is sent to a static or dynamic send port.  
   
- The following table lists the configuration properties that you can set in the BizTalk Explorer object model for the HTTP send location.  
+  The following table lists the configuration properties that you can set in the BizTalk Explorer object model for the HTTP send location.  
   
 |Property name|Type|Description|Restrictions|Comments|  
 |-------------------|----------|-----------------|------------------|--------------|  

@@ -38,49 +38,49 @@ The BizTalk Host object represents a logical set of zero or more runtime process
   
  Items—such as adapter handlers, receive locations (including pipelines), and orchestrations—contained in BizTalk hosts can perform the following functions:  
   
--   **Receiving**. These items do the initial processing of messages after they are picked up in a receive location. When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host.  
+- **Receiving**. These items do the initial processing of messages after they are picked up in a receive location. When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host.  
   
--   **Sending**. These items do the final processing of messages before they are sent out to the send port. When a host contains a sending item, such as a send port or pipeline, the host acts as a security boundary, and the message signing and encryption occurs in a pipeline within the host.  
+- **Sending**. These items do the final processing of messages before they are sent out to the send port. When a host contains a sending item, such as a send port or pipeline, the host acts as a security boundary, and the message signing and encryption occurs in a pipeline within the host.  
   
--   **Processing**. These items process messages based on the instructions in an orchestration.  
+- **Processing**. These items process messages based on the instructions in an orchestration.  
   
- One BizTalk Host can contain items that receive, send, and process messages. It is recommended that you create different hosts for each function to create security boundaries and facilitate management. In particular, it is recommended that you use different hosts for processing and for receive/send, and that you separate trusted and non-trusted items.  
+  One BizTalk Host can contain items that receive, send, and process messages. It is recommended that you create different hosts for each function to create security boundaries and facilitate management. In particular, it is recommended that you use different hosts for processing and for receive/send, and that you separate trusted and non-trusted items.  
   
- The following figure shows the relationship between servers, hosts, and host instances.  
+  The following figure shows the relationship between servers, hosts, and host instances.  
   
- ![Hosts, host instances, and server relationships](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")  
-Relationship between hosts, host instances, and servers  
+  ![Hosts, host instances, and server relationships](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")  
+  Relationship between hosts, host instances, and servers  
   
- For more information about Host Instances, see [Host Instances](../core/host-instances.md).  
+  For more information about Host Instances, see [Host Instances](../core/host-instances.md).  
   
- Based on the physical configuration and type of adapter hosted, there are two types of hosts: in-process hosts and isolated hosts.  
+  Based on the physical configuration and type of adapter hosted, there are two types of hosts: in-process hosts and isolated hosts.  
   
 ## In-process Hosts  
  In-process hosts represent service instances that an administrator creates, deletes, and fully controls with Windows Management Instrumentation (WMI) and the BizTalk Administration Console.  
   
  In-process hosts have the following characteristics:  
   
--   You can enlist any orchestration into an in-process host.  
+- You can enlist any orchestration into an in-process host.  
   
--   An in-process host can host any send handler.  
+- An in-process host can host any send handler.  
   
--   An in-process host can host any of the receive handlers except for SOAP and HTTP:  
+- An in-process host can host any of the receive handlers except for SOAP and HTTP:  
   
-    -   FILE  
+  -   FILE  
   
-    -   FTP  
+  -   FTP  
   
-    -   MQSeries  
+  -   MQSeries  
   
-    -   MSMQ  
+  -   MSMQ  
   
-    -   POP3  
+  -   POP3  
   
-    -   SQL  
+  -   SQL  
   
-    -   Windows SharePoint Services  
+  -   Windows SharePoint Services  
   
--   The first in-process host you create in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment is the **default host** and you cannot delete it. The BizTalk Message Queuing adapter uses the default host for static handler configuration. Adding an adapter automatically creates receive and send ports for the default host.  
+- The first in-process host you create in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment is the **default host** and you cannot delete it. The BizTalk Message Queuing adapter uses the default host for static handler configuration. Adding an adapter automatically creates receive and send ports for the default host.  
   
 ## Isolated Hosts  
  Isolated hosts represent service instances that a solutions developer programmatically creates, deletes, and controls. An administrator uses WMI and the BizTalk Administration Console to configure these hosts (for example, to configure the host service account and authentication trust).  

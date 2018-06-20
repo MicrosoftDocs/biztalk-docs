@@ -28,38 +28,38 @@ When creating a Dynamic Send Port, an adapter Send Handler is configurable for *
 ## Select a Send Handler  
  When creating a Dynamic One-Way Send Port or Dynamic Solicit-Response Send Port, the Send Handler is configurable for every installed adapter. Steps:  
   
-1.  In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the send port.  
+1. In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the send port.  
   
-2.  Right-click **Send Ports**, click **New**, and then click **Dynamic One-way Send Port** or **Dynamic Solicit-Response Send Port**.  
+2. Right-click **Send Ports**, click **New**, and then click **Dynamic One-way Send Port** or **Dynamic Solicit-Response Send Port**.  
   
-3.  In  **Properties**, click **Configure**.  
+3. In  **Properties**, click **Configure**.  
   
-     The adapters are listed with the default Send Handler. Click the down arrow to select a different host.  
+    The adapters are listed with the default Send Handler. Click the down arrow to select a different host.  
   
-4.  Click **OK** save the settings.  
+4. Click **OK** save the settings.  
   
-5.  Unenlist and reenlist the new dynamic send port.  
+5. Unenlist and reenlist the new dynamic send port.  
   
-6.  Restart the original host instance.  
+6. Restart the original host instance.  
   
-7.  Restart the new host instance.  
+7. Restart the new host instance.  
   
- Additional Send Port configuration options include:  
+   Additional Send Port configuration options include:  
   
--   [How to Configure Transport Advanced Options for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267697)  
+- [How to Configure Transport Advanced Options for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267697)  
   
--   [How to Configure Backup Transport Options for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267698)  
+- [How to Configure Backup Transport Options for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267698)  
   
--   [How to Configure Outbound Maps for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267699)  
+- [How to Configure Outbound Maps for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267699)  
   
--   [How to Configure Filters for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267700)  
+- [How to Configure Filters for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267700)  
   
--   [How to Assign a Certificate to a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267701)  
+- [How to Assign a Certificate to a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267701)  
   
--   [How to Configure Tracking for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267702)  
+- [How to Configure Tracking for a Send Port](http://go.microsoft.com/fwlink/p/?LinkId=267702)  
   
- The different hosts can be fine-tuned. The following links discuss performance optimization:  
+  The different hosts can be fine-tuned. The following links discuss performance optimization:  
   
- [General BizTalk Server Optimizations](http://go.microsoft.com/fwlink/p/?LinkId=267703)  
+  [General BizTalk Server Optimizations](http://go.microsoft.com/fwlink/p/?LinkId=267703)  
   
- [Managing BizTalk Server Performance Settings](http://go.microsoft.com/fwlink/p/?LinkId=267704)
+  [Managing BizTalk Server Performance Settings](http://go.microsoft.com/fwlink/p/?LinkId=267704)

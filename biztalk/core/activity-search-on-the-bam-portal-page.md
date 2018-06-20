@@ -31,13 +31,13 @@ Business end users, developers, and business analysts can use the BAM portal pag
 ## The Activity Search page  
  The Activity Search page is divided into three main sections inside the Content frame:  
   
--   **Query**: This section allows users to search for activities by building search clauses based on specific tracked data items. The user can add and remove clauses as required.  
+- **Query**: This section allows users to search for activities by building search clauses based on specific tracked data items. The user can add and remove clauses as required.  
   
--   **Column Chooser**: This section allows users to specify which items of data, from those available in that view, to return if any records match the search criteria.  
+- **Column Chooser**: This section allows users to specify which items of data, from those available in that view, to return if any records match the search criteria.  
   
--   **Results**: Results of the query display in this section.  
+- **Results**: Results of the query display in this section.  
   
- For more information about activity searches and the Activity Search page, see [Activity Searches in the BAM Portal](../core/activity-searches-in-the-bam-portal.md).  
+  For more information about activity searches and the Activity Search page, see [Activity Searches in the BAM Portal](../core/activity-searches-in-the-bam-portal.md).  
   
 ## See Also  
  [BAM Portal](../core/bam-portal.md)   

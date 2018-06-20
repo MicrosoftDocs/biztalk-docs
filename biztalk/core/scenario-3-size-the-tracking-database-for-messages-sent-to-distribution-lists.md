@@ -25,25 +25,25 @@ In the following figure, you have a message that proceeds through an orchestrati
   
  Here are some of the facts concerning this scenario:  
   
--   The message size is 10K.  
+- The message size is 10K.  
   
--   You are not promoting any properties.  
+- You are not promoting any properties.  
   
--   The number of messages you receive in a year is 3.5 million.  
+- The number of messages you receive in a year is 3.5 million.  
   
--   Tracking is turned on for all events. There are five events in this scenario:  
+- Tracking is turned on for all events. There are five events in this scenario:  
   
-    -   Receipt of message M0  
+  -   Receipt of message M0  
   
-    -   Output of message M1 from the receive port  
+  -   Output of message M1 from the receive port  
   
-    -   Output of message M3 by the send port  
+  -   Output of message M3 by the send port  
   
-    -   Output of message M4 by the send port  
+  -   Output of message M4 by the send port  
   
-    -   Output of message M5 by the send port  
+  -   Output of message M5 by the send port  
   
- Applying this information to the equation gives the following:  
+  Applying this information to the equation gives the following:  
   
 ```  
 [(5*252 bytes) + (10*182 bytes) + (0*5(40 bytes + 0) * 3,500,000]/1024/1024  

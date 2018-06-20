@@ -20,22 +20,22 @@ In the hierarchical SNA network model most frequently associated with a mainfram
   
  The 3270 LU is further classified by the type of service provided over the connection. Like physical units (PUs), numbers designate LU types. For example, 3270 display data streams are known as LU 2 streams. Within Host Integration Server, a 3270 LU can be configured as one of the following types:  
   
--   Display (LU 2)  
+- Display (LU 2)  
   
--   Printer (LU 1 or LU 3)  
+- Printer (LU 1 or LU 3)  
   
--   Application (LUA)  
+- Application (LUA)  
   
--   Downstream  
+- Downstream  
   
- After the LUs are configured, they are accessed from client computers and applications using Host Integration Server client software that is installed on the client workstation. The client software manages communications between a 3270 application (like a terminal emulator) and the Host Integration Server computer. Applications designed for the Host Integration Server client API use the LUs defined within Host Integration Server to establish a communications link from the client workstation to the mainframe by means of Host Integration Server.  
+  After the LUs are configured, they are accessed from client computers and applications using Host Integration Server client software that is installed on the client workstation. The client software manages communications between a 3270 application (like a terminal emulator) and the Host Integration Server computer. Applications designed for the Host Integration Server client API use the LUs defined within Host Integration Server to establish a communications link from the client workstation to the mainframe by means of Host Integration Server.  
   
- ![](../core/media/srvc03.gif "srvc03")  
-3270 users connecting through Host Integration Server to a mainframe  
+  ![](../core/media/srvc03.gif "srvc03")  
+  3270 users connecting through Host Integration Server to a mainframe  
   
- The link between the LU definition in Host Integration Server and the host LU resource is called a session. Sessions can be permanent and automatically started during initialization, or established on an as-needed basis. Concurrent sessions can share the same physical devices and communications links.  
+  The link between the LU definition in Host Integration Server and the host LU resource is called a session. Sessions can be permanent and automatically started during initialization, or established on an as-needed basis. Concurrent sessions can share the same physical devices and communications links.  
   
- A 3270 user communicating with a host uses a 3270 LU. The 3270 LU has a specific name (recognized by the host), is associated with a specific connection, and supports a specific use (either printing, or terminal emulation of a particular size). A collection of 3270 LUs that will be used by a group of users can be placed in an LU pool, so that whenever a user needs an LU, the next one in the pool will be made available. The connection, the 3270 LU, the 3270 LU pool, and the list of users (or groups) are the basic elements to configure when supporting 3270 users in a Host Integration Server installation.  
+  A 3270 user communicating with a host uses a 3270 LU. The 3270 LU has a specific name (recognized by the host), is associated with a specific connection, and supports a specific use (either printing, or terminal emulation of a particular size). A collection of 3270 LUs that will be used by a group of users can be placed in an LU pool, so that whenever a user needs an LU, the next one in the pool will be made available. The connection, the 3270 LU, the 3270 LU pool, and the list of users (or groups) are the basic elements to configure when supporting 3270 users in a Host Integration Server installation.  
   
 ## See Also  
  [LUA Access](../core/lua-access2.md)   

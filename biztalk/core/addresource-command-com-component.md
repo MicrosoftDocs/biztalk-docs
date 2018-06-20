@@ -21,7 +21,7 @@ To add an unmanaged COM component to a BizTalk application, you use the **AddRes
 >  If you add a 64-bit unmanaged COM or COM+ component, and you attempt to install the application that includes the COM or COM+ component on a 32-bit computer, the component will not be installed. It will install only on a 64-bit computer.  
   
 ## Usage  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Com** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:Regsvr32OnInstall**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddResource** [**/ApplicationName:**<em>value</em>] **/Type:System.BizTalk:Com** [**/Overwrite**] **/Source:**<em>value</em> [**/Destination:**<em>value</em>] [**/Options:Regsvr32OnInstall**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

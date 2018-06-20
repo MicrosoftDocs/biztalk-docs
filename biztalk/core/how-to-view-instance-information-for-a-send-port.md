@@ -26,15 +26,15 @@ This topic describes how to use the BizTalk Server Administration console to vie
   
 ### To view instance information for a send port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to view service instance information for a send port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to view service instance information for a send port.  
   
-3.  Click **Send Ports**, right-click the send port, point to **View**, and then click **Instance Information**.  
+3. Click **Send Ports**, right-click the send port, point to **View**, and then click **Instance Information**.  
   
-     The query results panel in the lower section of the page displays all running instances of the send port.  
+    The query results panel in the lower section of the page displays all running instances of the send port.  
   
-4.  To refine the query and view different service instance information for the send port, click the box under **Value** for the Search For field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
+4. To refine the query and view different service instance information for the send port, click the box under **Value** for the Search For field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
   
 ## See Also  
  [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)   

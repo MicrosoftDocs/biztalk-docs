@@ -60,13 +60,13 @@ This topic describes how to use the BizTalk Server Administration console to sta
   
 ### To start or stop a BizTalk application  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, and then expand **Applications**.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, and then expand **Applications**.  
   
-3.  Right-click the BizTalk application that you want to start or stop, and then click **Start** or **Stop**.  
+3. Right-click the BizTalk application that you want to start or stop, and then click **Start** or **Stop**.  
   
-4.  Select the start or stop options you want and click **Start** or **Stop**.  
+4. Select the start or stop options you want and click **Start** or **Stop**.  
   
 ## See Also  
  [Deploying and Managing BizTalk Applications](../core/deploying-and-managing-biztalk-applications.md)   

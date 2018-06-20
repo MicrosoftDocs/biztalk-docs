@@ -86,145 +86,145 @@ CM_ENTRY Send_Error( 
  CM_PROGRAM_ERROR_PURGING  
  Primary return code; one of the following occurred:  
   
--   While in RECEIVE or CONFIRM state, the partner program issued **Send_Error**. Data sent but not yet received is purged.  
+- While in RECEIVE or CONFIRM state, the partner program issued **Send_Error**. Data sent but not yet received is purged.  
   
--   While in SEND_PENDING state with the error direction set to CM_RECEIVE_ERROR, the partner program issued **Send_Error**. Data was not purged.  
+- While in SEND_PENDING state with the error direction set to CM_RECEIVE_ERROR, the partner program issued **Send_Error**. Data was not purged.  
   
- CM_RESOURCE_FAILURE_NO_RETRY  
- Primary return code; one of the following occurred:  
+  CM_RESOURCE_FAILURE_NO_RETRY  
+  Primary return code; one of the following occurred:  
   
--   The conversation was terminated prematurely because of a permanent condition. Do not retry until the error has been corrected.  
+- The conversation was terminated prematurely because of a permanent condition. Do not retry until the error has been corrected.  
   
--   The partner program did not deallocate the conversation before terminating normally.  
+- The partner program did not deallocate the conversation before terminating normally.  
   
- CM_RESOURCE_FAILURE_RETRY  
- Primary return code; the conversation was terminated prematurely because of a temporary condition, such as modem failure. Retry the conversation.  
+  CM_RESOURCE_FAILURE_RETRY  
+  Primary return code; the conversation was terminated prematurely because of a temporary condition, such as modem failure. Retry the conversation.  
   
- CM_DEALLOCATED_ABEND  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  CM_DEALLOCATED_ABEND  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The remote program issued [Deallocate](../core/deallocate-cpi-c-1.md) with the type parameterset to CM_DEALLOCATE_ABEND, or the remote LU has done so because of a remote program abnormal-ending condition. If the conversation for the remote program was in RECEIVE state when the call was issued, information sent by the local program and not yet received by the remote program is purged.  
+- The remote program issued [Deallocate](../core/deallocate-cpi-c-1.md) with the type parameterset to CM_DEALLOCATE_ABEND, or the remote LU has done so because of a remote program abnormal-ending condition. If the conversation for the remote program was in RECEIVE state when the call was issued, information sent by the local program and not yet received by the remote program is purged.  
   
--   The remote TP terminated normally but did not deallocate the conversation before terminating. Node services at the remote LU deallocated the conversation on behalf of the remote TP.  
+- The remote TP terminated normally but did not deallocate the conversation before terminating. Node services at the remote LU deallocated the conversation on behalf of the remote TP.  
   
- CM_DEALLOCATED_ABEND_SVC  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  CM_DEALLOCATED_ABEND_SVC  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner program issued **Deallocate** with the type parameter set to ABEND_SVC.  
+- The partner program issued **Deallocate** with the type parameter set to ABEND_SVC.  
   
--   The partner program did not deallocate the conversation before terminating.  
+- The partner program did not deallocate the conversation before terminating.  
   
- If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
+  If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
   
- CM_DEALLOCATED_ABEND_TIMER  
- Primary return code; the conversation has been deallocated because the partner program issued **Deallocate** with the type parameter set to ABEND_TIMER. If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
+  CM_DEALLOCATED_ABEND_TIMER  
+  Primary return code; the conversation has been deallocated because the partner program issued **Deallocate** with the type parameter set to ABEND_TIMER. If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
   
- CM_SVC_ERROR_PURGING  
- Primary return code; while in SEND state, the partner program or partner LU issued **Send_Error** with the type parameter set to SVC. Data sent to the partner program may have been purged.  
+  CM_SVC_ERROR_PURGING  
+  Primary return code; while in SEND state, the partner program or partner LU issued **Send_Error** with the type parameter set to SVC. Data sent to the partner program may have been purged.  
   
- **RECEIVE State**  
+  **RECEIVE State**  
   
- If the call is issued in RECEIVE state, the following return codes are possible:  
+  If the call is issued in RECEIVE state, the following return codes are possible:  
   
- CM_OK  
- Primary return code; because incoming information is purged when the **Send_Error** call is issued in RECEIVE state, CM_OK is generated instead of the following:  
+  CM_OK  
+  Primary return code; because incoming information is purged when the **Send_Error** call is issued in RECEIVE state, CM_OK is generated instead of the following:  
   
--   CM_PROGRAM_ERROR_NO_TRUNC  
+- CM_PROGRAM_ERROR_NO_TRUNC  
   
--   CM_PROGRAM_ERROR_PURGING  
+- CM_PROGRAM_ERROR_PURGING  
   
--   CM_SVC_ERROR_NO_TRUNC  
+- CM_SVC_ERROR_NO_TRUNC  
   
--   CM_SVC_ERROR_PURGING  
+- CM_SVC_ERROR_PURGING  
   
--   CM_PROGRAM_ERROR_TRUNC  
+- CM_PROGRAM_ERROR_TRUNC  
   
--   CM_SVC_ERROR_TRUNC (basic conversation only)  
+- CM_SVC_ERROR_TRUNC (basic conversation only)  
   
--   CM_PRODUCT_SPECIFIC_ERROR  
+- CM_PRODUCT_SPECIFIC_ERROR  
   
--   CM_RESOURCE_FAILURE_NO_RETRY  
+- CM_RESOURCE_FAILURE_NO_RETRY  
   
--   CM_RESOURCE_FAILURE_RETRY  
+- CM_RESOURCE_FAILURE_RETRY  
   
- For an explanation of these return codes, see [CPI-C Common Return Codes](../core/cpi-c-common-return-codes2.md).  
+  For an explanation of these return codes, see [CPI-C Common Return Codes](../core/cpi-c-common-return-codes2.md).  
   
- CM_DEALLOCATED_NORMAL  
- Primary return code; because incoming information is purged when **Send_Error** is issued in RECEIVE state, CM_DEALLOCATED_NORMAL is generated instead of the following:  
+  CM_DEALLOCATED_NORMAL  
+  Primary return code; because incoming information is purged when **Send_Error** is issued in RECEIVE state, CM_DEALLOCATED_NORMAL is generated instead of the following:  
   
--   CM_CONVERSATION_TYPE_MISMATCH  
+- CM_CONVERSATION_TYPE_MISMATCH  
   
--   CM_PIP_NOT_SPECIFIED_CORRECTLY  
+- CM_PIP_NOT_SPECIFIED_CORRECTLY  
   
--   CM_SECURITY_NOT_VALID  
+- CM_SECURITY_NOT_VALID  
   
--   CM_SYNC_LEVEL_NOT_SUPPORTED_PGM  
+- CM_SYNC_LEVEL_NOT_SUPPORTED_PGM  
   
--   CM_TPN_NOT_RECOGNIZED  
+- CM_TPN_NOT_RECOGNIZED  
   
--   CM_TP_NOT_AVAILABLE_NO_RETRY  
+- CM_TP_NOT_AVAILABLE_NO_RETRY  
   
--   CM_TP_NOT_AVAILABLE_RETRY  
+- CM_TP_NOT_AVAILABLE_RETRY  
   
--   CM_DEALLOCATED_ABEND  
+- CM_DEALLOCATED_ABEND  
   
--   CM_DEALLOCATED_ABEND_SVC  
+- CM_DEALLOCATED_ABEND_SVC  
   
--   CM_DEALLOCATED_ABEND_TIMER  
+- CM_DEALLOCATED_ABEND_TIMER  
   
- **SEND_PENDING State**  
+  **SEND_PENDING State**  
   
- If the call is issued in SEND_PENDING state, the following return codes are possible:  
+  If the call is issued in SEND_PENDING state, the following return codes are possible:  
   
--   CM_OK (Primary return code; the call executed successfully.)  
+- CM_OK (Primary return code; the call executed successfully.)  
   
--   CM_PRODUCT_SPECIFIC_ERROR  
+- CM_PRODUCT_SPECIFIC_ERROR  
   
--   CM_PROGRAM_ERROR_PURGING  
+- CM_PROGRAM_ERROR_PURGING  
   
--   CM_RESOURCE_FAILURE_NO_RETRY  
+- CM_RESOURCE_FAILURE_NO_RETRY  
   
--   CM_RESOURCE_FAILURE_RETRY  
+- CM_RESOURCE_FAILURE_RETRY  
   
--   CM_DEALLOCATED_ABEND  
+- CM_DEALLOCATED_ABEND  
   
--   CM_DEALLOCATED_ABEND_SVC  
+- CM_DEALLOCATED_ABEND_SVC  
   
--   CM_DEALLOCATED_ABEND_TIMER  
+- CM_DEALLOCATED_ABEND_TIMER  
   
--   CM_SVC_ERROR_PURGING  
+- CM_SVC_ERROR_PURGING  
   
- For an explanation of these return codes, see [CPI-C Common Return Codes](../core/cpi-c-common-return-codes2.md).  
+  For an explanation of these return codes, see [CPI-C Common Return Codes](../core/cpi-c-common-return-codes2.md).  
   
- **CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE State**  
+  **CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE State**  
   
- If the call is issued in CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the following return codes are possible:  
+  If the call is issued in CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the following return codes are possible:  
   
--   CM_OK (Primary return code; the call executed successfully.)  
+- CM_OK (Primary return code; the call executed successfully.)  
   
--   CM_PRODUCT_SPECIFIC_ERROR  
+- CM_PRODUCT_SPECIFIC_ERROR  
   
--   CM_RESOURCE_FAILURE_NO_RETRY  
+- CM_RESOURCE_FAILURE_NO_RETRY  
   
--   CM_RESOURCE_FAILURE_RETRY  
+- CM_RESOURCE_FAILURE_RETRY  
   
- For an explanation of these return codes, see [CPI-C Common Return Codes](../core/cpi-c-common-return-codes2.md).  
+  For an explanation of these return codes, see [CPI-C Common Return Codes](../core/cpi-c-common-return-codes2.md).  
   
- **Other States**  
+  **Other States**  
   
- Issuing **Send_Error** with the conversation in RESET or INITIALIZE state is illegal. The following return codes are possible:  
+  Issuing **Send_Error** with the conversation in RESET or INITIALIZE state is illegal. The following return codes are possible:  
   
- CM_PROGRAM_PARAMETER_CHECK  
- Primary return code; the value specified by *conversation_ID* is invalid.  
+  CM_PROGRAM_PARAMETER_CHECK  
+  Primary return code; the value specified by *conversation_ID* is invalid.  
   
- CM_PROGRAM_STATE_CHECK  
- Primary return code; the conversation state is not SEND, RECEIVE, CONFIRM, CONFIRM_SEND, CONFIRM_DEALLOCATE, or SEND_PENDING.  
+  CM_PROGRAM_STATE_CHECK  
+  Primary return code; the conversation state is not SEND, RECEIVE, CONFIRM, CONFIRM_SEND, CONFIRM_DEALLOCATE, or SEND_PENDING.  
   
- **State Changes**  
+  **State Changes**  
   
- The conversation can be in any state except INITIALIZE or RESET.  
+  The conversation can be in any state except INITIALIZE or RESET.  
   
- State changes, summarized in the following table, are based on the value of the *return_code* parameter.  
+  State changes, summarized in the following table, are based on the value of the *return_code* parameter.  
   
 |*return_code*|New state|  
 |--------------------|---------------|  
@@ -255,15 +255,15 @@ CM_SVC_ERROR_PURGING|RECEIVE|
   
  If the conversation is in RECEIVE state when the program issues **Send_Error**, incoming data is purged by CPI-C. This data includes:  
   
--   Data sent by [Send_Data](../core/send-data-cpi-c-2.md).  
+- Data sent by [Send_Data](../core/send-data-cpi-c-2.md).  
   
--   Confirmation requests.  
+- Confirmation requests.  
   
--   Deallocation requests if the conversations deallocate type is set to CM_DEALLOCATE_CONFIRM or to CM_DEALLOCATE_SYNC_LEVEL with the synchronization level set to CM_CONFIRM.  
+- Deallocation requests if the conversations deallocate type is set to CM_DEALLOCATE_CONFIRM or to CM_DEALLOCATE_SYNC_LEVEL with the synchronization level set to CM_CONFIRM.  
   
- CPI-C does notpurge an incoming request-to-send indicator.  
+  CPI-C does notpurge an incoming request-to-send indicator.  
   
- If the conversation is in SEND_PENDING state, the local program can issue [Set_Error_Direction](../core/set-error-direction-cpi-c-1.md) to specify whether the error being reported resulted from the received data or from the processing of the local program after successfully receiving the data.  
+  If the conversation is in SEND_PENDING state, the local program can issue [Set_Error_Direction](../core/set-error-direction-cpi-c-1.md) to specify whether the error being reported resulted from the received data or from the processing of the local program after successfully receiving the data.  
   
 ## Remarks  
  The local program can use **Send_Error** for such purposes as informing the partner program of an error encountered in received data, rejecting a confirmation request, or truncating an incomplete logical record it is sending.  

@@ -53,30 +53,30 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
 #### To search metadata in Oracle E-Business Suite  
   
-1.  Connect to Oracle E-Business Suite using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. See [Connect to the Oracle E-Business Suite in Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-the-oracle-e-business-suite-in-visual-studio.md) for instructions.  
+1. Connect to Oracle E-Business Suite using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. See [Connect to the Oracle E-Business Suite in Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-the-oracle-e-business-suite-in-visual-studio.md) for instructions.  
   
-2.  From the **Select contract type** list, select the type of contract based on whether you are searching for inbound or outbound operations.  
+2. From the **Select contract type** list, select the type of contract based on whether you are searching for inbound or outbound operations.  
   
-3.  In the **Select a category** box, click the category node under which you want to search for a specific artifact. For example, to search for an Oracle application, click the **Application-Based View** node.  
+3. In the **Select a category** box, click the category node under which you want to search for a specific artifact. For example, to search for an Oracle application, click the **Application-Based View** node.  
   
-    > [!NOTE]
-    >  To search for an application you can specify the friendly name or the short name of the application. For example, to search for the **Receivables** application you can specify the search string as either `Receive%` or `AR`. AR is the application short name.  
+   > [!NOTE]
+   >  To search for an application you can specify the friendly name or the short name of the application. For example, to search for the **Receivables** application you can specify the search string as either `Receive%` or `AR`. AR is the application short name.  
   
-4.  In the **Search in category** box, type a search expression to search for a specific artifact. For example, to search for Oracle applications that has "Customer" in their name, type `%Customer%`.  
+4. In the **Search in category** box, type a search expression to search for a specific artifact. For example, to search for Oracle applications that has "Customer" in their name, type `%Customer%`.  
   
-    > [!NOTE]
-    >  The search string is case-sensitive.  
+   > [!NOTE]
+   >  The search string is case-sensitive.  
   
-5.  To start the search, click the button with the right-arrow icon. After the search is complete, the **Available categories and operations** box lists the artifacts that satisfy the search criteria.  
+5. To start the search, click the button with the right-arrow icon. After the search is complete, the **Available categories and operations** box lists the artifacts that satisfy the search criteria.  
   
-     The following figure shows the Oracle applications tables that contain “Customer” in their name.  
+    The following figure shows the Oracle applications tables that contain “Customer” in their name.  
   
-     ![Search metadata in Oracle E&#45;Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/media/e6278992-a475-4a35-8371-db862f25a720.gif "e6278992-a475-4a35-8371-db862f25a720")  
+    ![Search metadata in Oracle E&#45;Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/media/e6278992-a475-4a35-8371-db862f25a720.gif "e6278992-a475-4a35-8371-db862f25a720")  
   
-    > [!NOTE]
-    >  To search for a concurrent program you can specify the friendly name or the actual name of the concurrent program. For example, to search for the **Customer Interface** concurrent program you can specify the search string as either `%Customer Interface%` or `%RACUST%`. RACUST is the actual name of the concurrent program.  
-    >   
-    >  Also, the search result will always contain the standard concurrent programs irrespective of whether their name matches with the specified search string.  
+   > [!NOTE]
+   >  To search for a concurrent program you can specify the friendly name or the actual name of the concurrent program. For example, to search for the **Customer Interface** concurrent program you can specify the search string as either `%Customer Interface%` or `%RACUST%`. RACUST is the actual name of the concurrent program.  
+   >   
+   >  Also, the search result will always contain the standard concurrent programs irrespective of whether their name matches with the specified search string.  
   
 ## See Also  
  [Browse, search, and get metadata for Oracle E-Business Suite operations](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md)

@@ -17,15 +17,15 @@ manager: "anneta"
 # The Signing Certificate has not been configured for AS2 party
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|SigningCertNotConfiguredError|  
-|Message Text|The Signing Certificate has not been configured for AS2 party.  AS2-From: {0} AS2-To: {1}|  
+|                 |                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------|
+|  Product Name   |    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]     |
+| Product Version |                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                 |
+|    Event ID     |                                             -                                             |
+|  Event Source   |  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI   |
+|    Component    |                                        AS2 Engine                                         |
+|  Symbolic Name  |                               SigningCertNotConfiguredError                               |
+|  Message Text   | The Signing Certificate has not been configured for AS2 party.  AS2-From: {0} AS2-To: {1} |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process the outgoing message because the signing certificate was not configured for the group.  

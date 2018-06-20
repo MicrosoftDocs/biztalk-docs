@@ -32,16 +32,16 @@ BizTalk Technical Article
   
  MSIT viewed this as an opportunity to:  
   
--   Get to the newer technology platforms  
+- Get to the newer technology platforms  
   
--   Remove the supportability constraints  
+- Remove the supportability constraints  
   
--   Simplify the overall architecture of the integration platform  
+- Simplify the overall architecture of the integration platform  
   
--   Make the integration platform more cost effective and robust  
+- Make the integration platform more cost effective and robust  
   
- BizTalk Server 2010 is a proven integration platform, has numerous capabilities and features, and supports the new platform technologies.  
+  BizTalk Server 2010 is a proven integration platform, has numerous capabilities and features, and supports the new platform technologies.  
   
- This white paper discusses the strategy and steps taken to migrate from Gentran 5.1 to BizTalk Server.  
+  This white paper discusses the strategy and steps taken to migrate from Gentran 5.1 to BizTalk Server.  
   
- To review the document, please download the [MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010](http://download.microsoft.com/download/6/D/E/6DEE8EE9-0F26-4991-8FE5-B0E5239C0980/Real%20World%20Migration%20Story%20from%20Gentran%20to%20BizTalk.docx) Word document.
+  To review the document, please download the [MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010](http://download.microsoft.com/download/6/D/E/6DEE8EE9-0F26-4991-8FE5-B0E5239C0980/Real%20World%20Migration%20Story%20from%20Gentran%20to%20BizTalk.docx) Word document.

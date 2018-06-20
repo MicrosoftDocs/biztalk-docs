@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10592
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10592|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_TICKET_DECRYPT_FAILED|  
-|Message Text|The ticket could not be decrypted. The ticket is not valid or it may have expired.%r<br /><br /> Application Name: %1%r<br /><br /> Error Code: %2|  
+|                 |                                                                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                             Enterprise Single Sign-On                                                              |
+| Product Version |                                             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                             |
+|    Event ID     |                                                                       10592                                                                        |
+|  Event Source   |                                                                       ENTSSO                                                                       |
+|    Component    |                                                                        N/A                                                                         |
+|  Symbolic Name  |                                                           SSO_WARN_TICKET_DECRYPT_FAILED                                                           |
+|  Message Text   | The ticket could not be decrypted. The ticket is not valid or it may have expired.%r<br /><br /> Application Name: %1%r<br /><br /> Error Code: %2 |
   
 ## Explanation  
  The ticket is not valid or may have expired.  

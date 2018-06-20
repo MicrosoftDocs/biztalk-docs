@@ -16,13 +16,13 @@ manager: "anneta"
 # How to Check the Windows Event Logs for Errors
 The Windows Event Log keeps a record of the system's behavior. It contains:  
   
--   Informational events that signal normal system function. For instance, certain services log an event whenever they start or shut down.  
+- Informational events that signal normal system function. For instance, certain services log an event whenever they start or shut down.  
   
--   Warning events that signal issues that can be problematic but are not actual errors.  
+- Warning events that signal issues that can be problematic but are not actual errors.  
   
--   Errors. If you find any error events in your logs, this indicates a problem.  
+- Errors. If you find any error events in your logs, this indicates a problem.  
   
- .NET sometimes logs error events when a problem is detected in an application. This is the main way of signaling a problem or giving diagnostic information. Therefore, understanding a .NET problem begins with searching the event log for errors.  
+  .NET sometimes logs error events when a problem is detected in an application. This is the main way of signaling a problem or giving diagnostic information. Therefore, understanding a .NET problem begins with searching the event log for errors.  
   
 ### To search for errors in the event logs  
   

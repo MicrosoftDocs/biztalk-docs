@@ -24,23 +24,23 @@ After you configure the connection, you can create the 3270 LUs. The LUs can be 
   
  For procedures about creating LUs, see the following:  
   
--   [How to Create LU Pools](../core/how-to-create-lu-pools1.md)  
+- [How to Create LU Pools](../core/how-to-create-lu-pools1.md)  
   
- For procedures about configuring LUs, see the following:  
+  For procedures about configuring LUs, see the following:  
   
--   [How to Configure a Range of 3270 LUs](../core/how-to-configure-a-range-of-3270-lus2.md)  
+- [How to Configure a Range of 3270 LUs](../core/how-to-configure-a-range-of-3270-lus2.md)  
   
--   [How to Assign LUs to Workstations](../core/how-to-assign-lus-to-workstations1.md)  
+- [How to Assign LUs to Workstations](../core/how-to-assign-lus-to-workstations1.md)  
   
--   [How to Associate 3270 Printer LUs with 3270 Display LUs](../core/how-to-associate-3270-printer-lus-with-3270-display-lus2.md)  
+- [How to Associate 3270 Printer LUs with 3270 Display LUs](../core/how-to-associate-3270-printer-lus-with-3270-display-lus2.md)  
   
--   [How to Configure Downstream Connections](../core/how-to-configure-downstream-connections1.md)  
+- [How to Configure Downstream Connections](../core/how-to-configure-downstream-connections1.md)  
   
--   [How to Reorder Downstream Connections](../core/how-to-reorder-downstream-lus1.md)  
+- [How to Reorder Downstream Connections](../core/how-to-reorder-downstream-lus1.md)  
   
--   [How to Configure APPC LUs for TPs or 5250 Emulation](../core/how-to-configure-appc-lus-for-tps-or-5250-emulation2.md)  
+- [How to Configure APPC LUs for TPs or 5250 Emulation](../core/how-to-configure-appc-lus-for-tps-or-5250-emulation2.md)  
   
--   [Precedence of Accounts in Determining Default LUs](../core/precedence-of-accounts-in-determining-default-lus2.md)  
+- [Precedence of Accounts in Determining Default LUs](../core/precedence-of-accounts-in-determining-default-lus2.md)  
   
 ### To modify a 3270 LU  
   

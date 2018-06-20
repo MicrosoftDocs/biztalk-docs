@@ -18,29 +18,29 @@ The following procedure details creating a 3270 connection manually.
   
 ### To create a 3270 connection manually  
   
-1.  In SNA Manager, expand the server on which to create the connection, and then expand **SNA Service**.  
+1. In SNA Manager, expand the server on which to create the connection, and then expand **SNA Service**.  
   
-2.  Right-click **Connections**, point to **New**, and then click the type of connection (802.2) to be created.  
+2. Right-click **Connections**, point to **New**, and then click the type of connection (802.2) to be created.  
   
-3.  Configure the **Connection Properties**. You are required to specify which link service to use for the connection, as well as the name of the connection and additional information. The choices you make depend on the purpose of the connection.  
+3. Configure the **Connection Properties**. You are required to specify which link service to use for the connection, as well as the name of the connection and additional information. The choices you make depend on the purpose of the connection.  
   
-     The following information must be configured correctly to make a connection:  
+    The following information must be configured correctly to make a connection:  
   
-    -   General Tab  
+   -   General Tab  
   
-    -   Address Tab  
+   -   Address Tab  
   
-    -   System Identification Tab  
+   -   System Identification Tab  
   
-    -   DLC 802.2 Tab  
+   -   DLC 802.2 Tab  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
-5.  Right-click **SNA Service**, and then click **Save configuration**.  
+5. Right-click **SNA Service**, and then click **Save configuration**.  
   
-6.  Stop and then start SNA service.  
+6. Stop and then start SNA service.  
   
- To display this dialog box after the connection has been created, double-click the connection in the tree view, or select the connection, and click **Properties** in the **View** menu.  
+   To display this dialog box after the connection has been created, double-click the connection in the tree view, or select the connection, and click **Properties** in the **View** menu.  
   
 ## See Also  
  [IP-DLC Link Service](./ip-dlc-link-service2.md)   

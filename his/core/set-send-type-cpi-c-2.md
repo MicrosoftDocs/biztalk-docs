@@ -61,18 +61,18 @@ CM_ENTRY Set_Send_Type( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The value specified by *conversation_ID* or *send_type* is invalid.  
+- The value specified by *conversation_ID* or *send_type* is invalid.  
   
--   The *send_type* parameter is set to CM_SEND_AND_CONFIRM, but the conversations synchronization level is set to CM_NONE.  
+- The *send_type* parameter is set to CM_SEND_AND_CONFIRM, but the conversations synchronization level is set to CM_NONE.  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
- **State Changes**  
+  **State Changes**  
   
- The conversation can be in any state except RESET.  
+  The conversation can be in any state except RESET.  
   
- There is no state change.  
+  There is no state change.  
   
 ## Remarks  
  The *send_type* values that cause additional information to be sent with the data pointed to by [Send_Data](../core/send-data-cpi-c-2.md) let you economize on the number of calls issued. The following table summarizes **Send_Data** equivalences.  

@@ -28,13 +28,13 @@ The HL7 disassembler and assembler provide support for HL7-encoded messages. Sin
   
  The assembler can serialize the following acknowledgment (ACK) messages:  
   
--   Static  
+- Static  
   
--   Original mode  
+- Original mode  
   
--   Enhanced mode  
+- Enhanced mode  
   
- The HL7 assembler also has the ability to route deferred ACK messages.  
+  The HL7 assembler also has the ability to route deferred ACK messages.  
   
 ## See Also  
  [BTAHL72X Flat File Processing](../../adapters-and-accelerators/accelerator-hl7/btahl72x-flat-file-processing.md)   

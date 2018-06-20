@@ -25,26 +25,26 @@ The following table lists Added Headers and Subvectors.
 |LL LL|Length of Major Vector|  
 |00 00 or 00 25|Alert major vector (for the data type ALERT_SUBVECTORS), or Problem Determination Statistics major vector (for the data type PSTATS_SUBVECTORS)|  
   
-|Product set ID subvector||  
-|------------------------------|------|  
-|4D 10|Product set ID subvector|  
-|00|Unused field|  
-|34 11|Product ID subvector|  
-|0C|Product classification: non-IBM software|  
-|08 04|Software product common level subfield|  
-|F0 F2|Version identifier: 02|  
-|F0 F0|Release identifier: 00|  
-|F0 F0|Modification identifier: 00|  
-|20 06|Software product common name subfield|  
-|C4 C3 C1 61 D4 E2 40 C3 D6 D4 D4 40 E2 C5 D9 E5 D9|Product name: Microsoft [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]|  
-|00 .. 00|Name padded with nulls to 30 characters|  
-|09 08|Software product program number subfield|  
-|F0 F0 F0 F0 F0 F0 F0|Product program number: zeros|  
-|16 11|Product ID subvector|  
-|03|Product classification: hardware|  
-|13 00|Hardware product ID subfield|  
-|00|Format type: undefined|  
-|*hh*...*hh*|Server: Windows-based computer name|  
+|              Product set ID subvector              |                                                                                                        |
+|----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+|                       4D 10                        |                                        Product set ID subvector                                        |
+|                         00                         |                                              Unused field                                              |
+|                       34 11                        |                                          Product ID subvector                                          |
+|                         0C                         |                                Product classification: non-IBM software                                |
+|                       08 04                        |                                 Software product common level subfield                                 |
+|                       F0 F2                        |                                         Version identifier: 02                                         |
+|                       F0 F0                        |                                         Release identifier: 00                                         |
+|                       F0 F0                        |                                      Modification identifier: 00                                       |
+|                       20 06                        |                                 Software product common name subfield                                  |
+| C4 C3 C1 61 D4 E2 40 C3 D6 D4 D4 40 E2 C5 D9 E5 D9 | Product name: Microsoft [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] |
+|                      00 .. 00                      |                                Name padded with nulls to 30 characters                                 |
+|                       09 08                        |                                Software product program number subfield                                |
+|                F0 F0 F0 F0 F0 F0 F0                |                                     Product program number: zeros                                      |
+|                       16 11                        |                                          Product ID subvector                                          |
+|                         03                         |                                    Product classification: hardware                                    |
+|                       13 00                        |                                      Hardware product ID subfield                                      |
+|                         00                         |                                         Format type: undefined                                         |
+|                    *hh*...*hh*                     |                                  Server: Windows-based computer name                                   |
   
 |Date/time subvector||  
 |--------------------------|------|  

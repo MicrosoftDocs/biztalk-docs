@@ -43,13 +43,13 @@ BAM Alert execution can be modified through three avenues, The BAM Portal, the B
   
  To modify the ADF associated with BAM you can follow these general steps:  
   
-1.  Run the script to obtain the current configuration and ADF files.  
+1. Run the script to obtain the current configuration and ADF files.  
   
-2.  Modify the files.  
+2. Modify the files.  
   
-3.  Run the script to apply the changes.  
+3. Run the script to apply the changes.  
   
- For more information on the ProcessBamNSFiles.vbs script, see [BAM Command-Line Script for Notification Services Configuration Files](../core/bam-command-line-script-for-notification-services-configuration-files.md).  
+   For more information on the ProcessBamNSFiles.vbs script, see [BAM Command-Line Script for Notification Services Configuration Files](../core/bam-command-line-script-for-notification-services-configuration-files.md).  
   
 ## See Also  
  [Managing the BAM Portal](../core/managing-the-bam-portal.md)   

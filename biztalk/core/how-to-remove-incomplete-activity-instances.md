@@ -18,23 +18,23 @@ manager: "anneta"
 # Remove Incomplete Activity Instances
 When a BAM definition file is deployed, five tables are created in the BAM Primary Import database for each activity defined in the definition file. These tables are:  
   
--   bam_`ActivityName`_Active  
+- bam_`ActivityName`_Active  
   
--   bam_`ActivityName`_Completed  
+- bam_`ActivityName`_Completed  
   
--   bam_`ActivityName`_ActiveRelationships  
+- bam_`ActivityName`_ActiveRelationships  
   
--   bam_`ActivityName`_CompletedRelationships  
+- bam_`ActivityName`_CompletedRelationships  
   
--   bam_`ActivityName`_Continuations  
+- bam_`ActivityName`_Continuations  
   
- Where `ActivityName` is the name of the activity that the user has defined.  
+  Where `ActivityName` is the name of the activity that the user has defined.  
   
- During normal execution, incomplete data remains in the bam_`ActivityName`_Active table. If the data has relations and references, then there will be data in the bam\_`ActivityName`_ActiveRelationships table.  
+  During normal execution, incomplete data remains in the bam_`ActivityName`*Active table. If the data has relations and references, then there will be data in the bam\\*`ActivityName`_ActiveRelationships table.  
   
- During the tracking of activities that use continuations, there may be instances in which an activity is left in an incomplete state in the BAM databases. You can use the stored procedure creation script at the end of this topic to create a stored procedure that will purge the incomplete records.  
+  During the tracking of activities that use continuations, there may be instances in which an activity is left in an incomplete state in the BAM databases. You can use the stored procedure creation script at the end of this topic to create a stored procedure that will purge the incomplete records.  
   
- To create the stored procedure, copy the script and execute it against the BAM Primary Import database by using SQL Server Management. The script will generate a stored procedure named **RemoveDanglingInstances** in the database.  
+  To create the stored procedure, copy the script and execute it against the BAM Primary Import database by using SQL Server Management. The script will generate a stored procedure named **RemoveDanglingInstances** in the database.  
   
 ## Create the RemoveDanglingInstances stored procedure  
   

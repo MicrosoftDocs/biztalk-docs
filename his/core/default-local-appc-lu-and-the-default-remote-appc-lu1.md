@@ -20,21 +20,21 @@ If a user or group uses transaction programs, 5250 emulators, or APPC applicatio
   
  There are two steps before assigning default APPC LUs to a user or group:  
   
-1.  The user or group must have an account on the local area network.  
+1. The user or group must have an account on the local area network.  
   
-2.  The user or group must be added to the list used by Host Integration Server.  
+2. The user or group must be added to the list used by Host Integration Server.  
   
- If a user is assigned LUs through one or more accounts, such as group accounts and the user's individual account, one account determines the access for that user. The account that determines this access is the account found first when searching is performed in this order:  
+   If a user is assigned LUs through one or more accounts, such as group accounts and the user's individual account, one account determines the access for that user. The account that determines this access is the account found first when searching is performed in this order:  
   
--   User accounts (highest priority)  
+- User accounts (highest priority)  
   
--   Domain groups  
+- Domain groups  
   
--   Local groups  
+- Local groups  
   
--   Well-known groups such as Everyone (lowest priority)  
+- Well-known groups such as Everyone (lowest priority)  
   
- For example, suppose a user account (a high-priority account) called JOHND contains LOCLU1 as the default local APPC LU, but no default remote APPC LU. At the same time, suppose a local group (a low-priority account) of which JOHND is a member contains LOCLU2 as the default local APPC LU, and REMLU2 as the default remote APPC LU. For JOHND, the high-priority assignment, the default local APPC LU of LOCLU1 will be combined with the only other available assignment, the default remote APPC LU of REMLU2.  
+  For example, suppose a user account (a high-priority account) called JOHND contains LOCLU1 as the default local APPC LU, but no default remote APPC LU. At the same time, suppose a local group (a low-priority account) of which JOHND is a member contains LOCLU2 as the default local APPC LU, and REMLU2 as the default remote APPC LU. For JOHND, the high-priority assignment, the default local APPC LU of LOCLU1 will be combined with the only other available assignment, the default remote APPC LU of REMLU2.  
   
 ## See Also  
  [APPC Mode Definition](../core/appc-mode-definition2.md)   

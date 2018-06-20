@@ -37,27 +37,27 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
   
 ### To configure tracking for a receive port  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure tracking for a receive port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure tracking for a receive port.  
   
-3.  Click **Receive Ports**, right-click the receive port and click **Tracking**.  
+3. Click **Receive Ports**, right-click the receive port and click **Tracking**.  
   
-    > [!NOTE]
-    >  Before enabling the message body tracking on a receive port, ensure if you want to track the receive port at all; it could be an overhead. For example, a receive pipeline RcvPipe is used at several receive locations in different receive ports. If you enable the message body tracking option on RcvPipe, it leads to message body tracking on all the receive locations, which you might not want to do. Hence, set the message body tracking on receive ports as per your requirement.  
+   > [!NOTE]
+   >  Before enabling the message body tracking on a receive port, ensure if you want to track the receive port at all; it could be an overhead. For example, a receive pipeline RcvPipe is used at several receive locations in different receive ports. If you enable the message body tracking option on RcvPipe, it leads to message body tracking on all the receive locations, which you might not want to do. Hence, set the message body tracking on receive ports as per your requirement.  
   
-4.  Configure the tracking options you want, as described in the following table, and then click **OK**.  
+4. Configure the tracking options you want, as described in the following table, and then click **OK**.  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Track Message Bodies - Request message before port processing**|Select this check box to save and track message content before the message is received.|  
-    |**Track Message Bodies - Request message after port processing**|Select this check box to save and track message content after the message is received.|  
-    |||  
-    |||  
-    |**Track Message Properties - Request message before port processing**|Select this check box to track the promoted properties of an inbound message.|  
-    |**Track Message Properties - Request message after port processing**|Select this check box if you want to track the promoted properties of an outbound message.|  
-    |||  
-    |||  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Track Message Bodies - Request message before port processing**|Select this check box to save and track message content before the message is received.|  
+   |**Track Message Bodies - Request message after port processing**|Select this check box to save and track message content after the message is received.|  
+   |||  
+   |||  
+   |**Track Message Properties - Request message before port processing**|Select this check box to track the promoted properties of an inbound message.|  
+   |**Track Message Properties - Request message after port processing**|Select this check box if you want to track the promoted properties of an outbound message.|  
+   |||  
+   |||  
   
 ## See Also  
  [Managing Receive Ports](../core/managing-receive-ports.md)

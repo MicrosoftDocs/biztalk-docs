@@ -28,15 +28,15 @@ manager: "anneta"
 ## BizTalk Accelerator for RosettaNet Management Console  
  You use the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console to manage the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] implementation, including the following:  
   
--   Process configuration settings, home organizations, partners, and agreements  
+- Process configuration settings, home organizations, partners, and agreements  
   
--   Certificates  
+- Certificates  
   
--   BizTalk and [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] databases  
+- BizTalk and [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] databases  
   
--   Events  
+- Events  
   
--   Performance logs and alerts  
+- Performance logs and alerts  
   
 ## Business Rule Engine  
  The BizTalk Business Rule Engine (BRE) is a run-time inference engine that you can use to evaluate rules against facts and initiate actions based on the results of the evaluation.  

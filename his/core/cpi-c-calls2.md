@@ -16,39 +16,39 @@ manager: "anneta"
 # CPI-C Calls
 This section describes the Common Programming Interface for Communications (CPI-C) calls. The following information is supplied for each call:  
   
--   The pseudonym for the call and the actual C function name.  
+- The pseudonym for the call and the actual C function name.  
   
--   A definition of the call.  
+- A definition of the call.  
   
--   A list of the parameters used by the call and the data type for each parameter. The prototype of each function is declared in the WINCPIC.H file.  
+- A list of the parameters used by the call and the data type for each parameter. The prototype of each function is declared in the WINCPIC.H file.  
   
--   A description of each input and output parameter. The parameter names are pseudonyms and the actual names for these parameters are declared by the application program. The description includes the possible values of the parameter.  
+- A description of each input and output parameter. The parameter names are pseudonyms and the actual names for these parameters are declared by the application program. The description includes the possible values of the parameter.  
   
--   The conversation states in which the call can be issued.  
+- The conversation states in which the call can be issued.  
   
--   The states to which the conversation can change upon return from the call. Conditions that do not cause a state change are not noted. For example, parameter checks and state checks do not cause a state change.  
+- The states to which the conversation can change upon return from the call. Conditions that do not cause a state change are not noted. For example, parameter checks and state checks do not cause a state change.  
   
--   Additional information describing the use of the call.  
+- Additional information describing the use of the call.  
   
- **Data Types**  
+  **Data Types**  
   
- The data types for the parameters supplied to and received from CPI-C are established as symbolic constants by **#define** statements in the WINCPIC.H file. For example, CM_INT32 represents **signed long int** and CM_PTR represents **far \***. Using symbolic constants improves the portability of CPI-C applications.  
+  The data types for the parameters supplied to and received from CPI-C are established as symbolic constants by **#define** statements in the WINCPIC.H file. For example, CM_INT32 represents **signed long int** and CM_PTR represents **far \\***. Using symbolic constants improves the portability of CPI-C applications.  
   
- For ease of understanding, this reference presents the data types in absolute (not **#defined**) terms.  
+  For ease of understanding, this reference presents the data types in absolute (not **#defined**) terms.  
   
- In writing applications, you should use the symbolic constants from the WINCPIC.H file.  
+  In writing applications, you should use the symbolic constants from the WINCPIC.H file.  
   
- **Symbolic Constants**  
+  **Symbolic Constants**  
   
- Most parameters supplied to and returned by CPI-C are 32-bit integers. To simplify coding, the values for these parameters are represented by meaningful symbolic constants, which are established by **#define** statements in the WINCPIC.H header file. For example, the value CM_MAPPED_CONVERSATION represents the integer 1. For the sake of readability, use only the symbolic constants when writing programs.  
+  Most parameters supplied to and returned by CPI-C are 32-bit integers. To simplify coding, the values for these parameters are represented by meaningful symbolic constants, which are established by **#define** statements in the WINCPIC.H header file. For example, the value CM_MAPPED_CONVERSATION represents the integer 1. For the sake of readability, use only the symbolic constants when writing programs.  
   
- **Strings**  
+  **Strings**  
   
- All strings are in ASCII format when passed across the CPI-C interface.  
+  All strings are in ASCII format when passed across the CPI-C interface.  
   
- **Validity of output parameters**  
+  **Validity of output parameters**  
   
- The parameters returned by CPI-C are valid only if the CPI-C call is executed successfully, as indicated by a return code of CM_OK.  
+  The parameters returned by CPI-C are valid only if the CPI-C call is executed successfully, as indicated by a return code of CM_OK.  
   
 ## In This Section  
   

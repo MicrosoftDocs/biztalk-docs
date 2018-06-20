@@ -29,26 +29,26 @@ Before you can recover BizTalk Server, you must first recover Enterprise Single 
   
 ### To recover Enterprise Single Sign-On  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
   
-2.  In Microsoft BizTalk Server Configuration, in the console tree, click **Enterprise SSO**.  
+2. In Microsoft BizTalk Server Configuration, in the console tree, click **Enterprise SSO**.  
   
-3.  In the details pane, select **Enable Enterprise Single Sign-On on this computer**, and then click **Join an existing SSO system**.  
+3. In the details pane, select **Enable Enterprise Single Sign-On on this computer**, and then click **Join an existing SSO system**.  
   
-4.  In **Data stores**, enter the name of the SQL server hosting the SSO database and the name of the SSO database.  
+4. In **Data stores**, enter the name of the SQL server hosting the SSO database and the name of the SSO database.  
   
-5.  In **Windows service**, enter the user name and password for the SSO service account that you used when you originally installed and configured BizTalk Server.  
+5. In **Windows service**, enter the user name and password for the SSO service account that you used when you originally installed and configured BizTalk Server.  
   
-    > [!NOTE]
-    >  You can use a different account, but it must be a member of the Single Sign-On Administrators group.  
+   > [!NOTE]
+   >  You can use a different account, but it must be a member of the Single Sign-On Administrators group.  
   
-6.  Click **Apply Configuration**.  
+6. Click **Apply Configuration**.  
   
-     A warning that no master secrets were retrieved is displayed. You can use Event Viewer to verify that the Enterprise Single Sign-On service is now started and running on the computer.  
+    A warning that no master secrets were retrieved is displayed. You can use Event Viewer to verify that the Enterprise Single Sign-On service is now started and running on the computer.  
   
-7.  Click **File**, and then click **Exit**.  
+7. Click **File**, and then click **Exit**.  
   
-8.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+8. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
 9. At the command prompt, type:  
   

@@ -19,29 +19,29 @@ The operations performed on SQL Server using the [!INCLUDE[adaptersqlshort](../.
   
 > [!NOTE]
 >  Performing operations on SQL Server using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] always involves two resources—the adapter connecting to SQL Server and the BizTalk Message Box residing on SQL Server. Hence, all operations performed using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] are performed within the scope of an MSDTC transaction. So, to use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must always enable MSDTC.  
-  
+> 
 > [!NOTE]
 >  For operations where the adapter client does not write any data to the SQL Server database, such as a Select operation, you might not want the additional overhead of performing the operations inside a transaction. In such cases, you can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to perform operations without a transactional context by setting the **UseAmbientTransaction** binding property to **false**. For more information about the binding property, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). In such cases, you do not need to configure MSDTC as well.  
   
 ## Configure MSDTC  
   
-1.  Open **Component Services**.  
+1. Open **Component Services**.  
 
-    Or, In **Server Manager**, select **Tools**, and then select **Component Services**.  
+   Or, In **Server Manager**, select **Tools**, and then select **Component Services**.  
   
-2.  Expand **Component Services**, expand **Computers**, expand **My Computer**, expand **Distributed Transaction Coordinator**, right-click **Local DTC**, and select **Properties**.  
+2. Expand **Component Services**, expand **Computers**, expand **My Computer**, expand **Distributed Transaction Coordinator**, right-click **Local DTC**, and select **Properties**.  
   
-3.  Select the **Security** tab. In this tab, select all of the following: 
+3. Select the **Security** tab. In this tab, select all of the following: 
 
-  - **Network DTC Access**
-  - **Allow Remote Clients** 
-  - **Allow Inbound** 
-  - **Allow Outbound** 
-  - **No Authetnication Required**
+   - **Network DTC Access**
+   - **Allow Remote Clients** 
+   - **Allow Inbound** 
+   - **Allow Outbound** 
+   - **No Authetnication Required**
   
-4.  Select **OK** to save your changes.  
+4. Select **OK** to save your changes.  
   
-5.  If prompted to restarted the MSDTC service, select **Yes**. After the MSDTC service is restarted, close the properties and the Component Services MMC. 
+5. If prompted to restarted the MSDTC service, select **Yes**. After the MSDTC service is restarted, close the properties and the Component Services MMC. 
   
 ## Add MSDTC to Windows Firewall exceptions list  
 

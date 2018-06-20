@@ -20,12 +20,12 @@ For an autostarted invokable transaction program (TP) called **BounceTP** and ru
 >  In the following list, the parameters listed directly under the **BounceTP** key (such as **DisplayName** and **ErrorControl**) are service parameters created when TPSETUP or similar code is run to install the TP. These parameters should be created by TPSETUP or similar code. They should not be set manually. 
   
  **BounceTP**  
- **DisplayName:**REG_SZ:BounceTP**ErrorControl:**REG_DWORD:0x1**ImagePath:**REG_EXPAND_SZ:c:\sna\system\bouncetp.exe**ObjectName:**REG_SZ:LocalSystem**Start:**REG_DWORD:0x3**Type:**REG_DWORD:0x10  
+ <strong>DisplayName:</strong>REG_SZ:BounceTP<strong>ErrorControl:</strong>REG_DWORD:0x1<strong>ImagePath:</strong>REG_EXPAND_SZ:c:\sna\system\bouncetp.exe<strong>ObjectName:</strong>REG_SZ:LocalSystem<strong>Start:</strong>REG_DWORD:0x3<strong>Type:</strong>REG_DWORD:0x10  
   
  **Linkage**  
   
- **OtherDependencies:**REG_MULTI_SZ:SnaBase  
+ <strong>OtherDependencies:</strong>REG_MULTI_SZ:SnaBase  
   
  **Parameters**  
   
- **SNAServiceType:**REG_DWORD:0x5**LocalLU:**REG_SZ:JohnDoe**Parameters:**REG_SZ:Arg1 Arg2 Arg3**Timeout:**REG_DWORD:0x100**ConversationSecurity:**REG_SZ:yes**AlreadyVerified:**REG_SZ:no**JohnDoe:**REG_SZ:SecretPassword
+ <strong>SNAServiceType:</strong>REG_DWORD:0x5<strong>LocalLU:</strong>REG_SZ:JohnDoe<strong>Parameters:</strong>REG_SZ:Arg1 Arg2 Arg3<strong>Timeout:</strong>REG_DWORD:0x100<strong>ConversationSecurity:</strong>REG_SZ:yes<strong>AlreadyVerified:</strong>REG_SZ:no<strong>JohnDoe:</strong>REG_SZ:SecretPassword

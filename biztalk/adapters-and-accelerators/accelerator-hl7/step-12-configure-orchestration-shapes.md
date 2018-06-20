@@ -25,21 +25,21 @@ In this step, you complete the configuration of the orchestration shapes in orde
   
 ### To configure orchestration shapes  
   
-1.  On the orchestration Design view surface of Visual Studio, click the **ConstructMessage_1** shape.  
+1. On the orchestration Design view surface of Visual Studio, click the **ConstructMessage_1** shape.  
   
-2.  In the **Properties** window, click the **Messages Constructed** property, select **DoorbellOutputMessage** from the drop-down list, and then press **Enter**.  
+2. In the **Properties** window, click the **Messages Constructed** property, select **DoorbellOutputMessage** from the drop-down list, and then press **Enter**.  
   
-3.  On the orchestration Design view surface, click the **DoorbellTransform** shape inside of the **ConstructMessage_1** shape. In the **Properties** window, click **Map Name**, and then click the ellipsis (…) button in the attribute field.  
+3. On the orchestration Design view surface, click the **DoorbellTransform** shape inside of the **ConstructMessage_1** shape. In the **Properties** window, click **Map Name**, and then click the ellipsis (…) button in the attribute field.  
   
-4.  In the Transform Configuration dialog box, select **Existing Map**. In the **Fully Qualified Map Name** drop-down list, click **BTAHL7_Project.DoorbellMap**.  
+4. In the Transform Configuration dialog box, select **Existing Map**. In the **Fully Qualified Map Name** drop-down list, click **BTAHL7_Project.DoorbellMap**.  
   
-5.  Click **Source** in the left pane.  
+5. Click **Source** in the left pane.  
   
-6.  Click the empty box under **Variable Name** and click **DoorBellInputMessage** from the drop-down list.  
+6. Click the empty box under **Variable Name** and click **DoorBellInputMessage** from the drop-down list.  
   
-7.  Click **Destination** in the left pane.  
+7. Click **Destination** in the left pane.  
   
-8.  Click the empty box under **Variable Name** and click **DoorbellOutputMessage** from the drop-down list.  
+8. Click the empty box under **Variable Name** and click **DoorbellOutputMessage** from the drop-down list.  
   
 9. Click **OK** to save changes.  
   
@@ -85,11 +85,11 @@ In this step, you complete the configuration of the orchestration shapes in orde
   
     > [!IMPORTANT]
     >  In the "HeaderInfo.LoadXml" expression, delete the carriage returns and spaces within the expression. The "HeaderInfo.LoadXml" statement should be on one line.  
-  
+    > 
     > [!NOTE]
     >  The first block of the preceding text is an example of a hard-coded XML header. The [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializer requires a header segment. You can customize these header values according to the needs of your environment. The second block of the preceding text defines the three message parts required in a multipart message. The [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializer requires a multipart message. The third block of the preceding text contains the promoted properties that the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] serializer examines in order to serialize an XML message into an HL7 flat-file message.  
   
- Proceed to [Step 13: Create and Configure Ports](../../adapters-and-accelerators/accelerator-hl7/step-13-create-and-configure-ports.md).  
+    Proceed to [Step 13: Create and Configure Ports](../../adapters-and-accelerators/accelerator-hl7/step-13-create-and-configure-ports.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

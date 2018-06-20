@@ -19,16 +19,16 @@ manager: "anneta"
   
 ### To configure and enable BatchControlPort  
   
-1.  Start **BizTalk Server Administration**.  
+1. Start **BizTalk Server Administration**.  
   
-2.  In the BizTalk Server Administration Console, expand **BizTalk Server Administration**, **BizTalk Group**, **Applications**, and **BizTalk Application 1**. Click **Receive Locations**.  
+2. In the BizTalk Server Administration Console, expand **BizTalk Server Administration**, **BizTalk Group**, **Applications**, and **BizTalk Application 1**. Click **Receive Locations**.  
   
-3.  Right-click **BatchControlLocation**, and then click **Disable**.  
+3. Right-click **BatchControlLocation**, and then click **Disable**.  
   
-4.  Right-click **BatchControlLocation**, and then click **Properties**.  
+4. Right-click **BatchControlLocation**, and then click **Properties**.  
   
-5.  In the Receive Location Properties dialog box, for **Receive Pipeline**, select **BTAHL72XPipelines.BTAHL72XReceivePipeline**.Click **OK**.  
+5. In the Receive Location Properties dialog box, for **Receive Pipeline**, select **BTAHL72XPipelines.BTAHL72XReceivePipeline**.Click **OK**.  
   
-6.  In the BizTalk Administration Console, right-click **BatchControlLocation**, and then click **Enable**.  
+6. In the BizTalk Administration Console, right-click **BatchControlLocation**, and then click **Enable**.  
   
- Proceed to [Step 2: Enable the Batch Orchestration](../../adapters-and-accelerators/accelerator-hl7/step-2-enable-the-batch-orchestration.md).
+   Proceed to [Step 2: Enable the Batch Orchestration](../../adapters-and-accelerators/accelerator-hl7/step-2-enable-the-batch-orchestration.md).

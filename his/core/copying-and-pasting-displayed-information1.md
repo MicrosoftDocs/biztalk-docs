@@ -20,29 +20,29 @@ The 3270 Client allows you to make a copy of the information in the display, so 
   
  **To copy and paste displayed information**  
   
-1.  Select the portion of the displayed information that you want to copy  
+1. Select the portion of the displayed information that you want to copy  
   
-     -or-  
+    -or-  
   
-     on the **Edit** menu, click **Select All**.  
+    on the **Edit** menu, click **Select All**.  
   
-2.  On the **Edit** menu, click **Copy**. The selection is copied to the Clipboard.  
+2. On the **Edit** menu, click **Copy**. The selection is copied to the Clipboard.  
   
-3.  Change to the program in which you will insert the contents of the Clipboard.  
+3. Change to the program in which you will insert the contents of the Clipboard.  
   
-4.  Position the cursor at the location where you want to insert the contents of the Clipboard.  
+4. Position the cursor at the location where you want to insert the contents of the Clipboard.  
   
-5.  On the **Edit** menu, click **Paste**.  
+5. On the **Edit** menu, click **Paste**.  
   
- **To copy information from an application and paste it into the Client window**  
+   **To copy information from an application and paste it into the Client window**  
   
-1.  From the application, copy information to the Clipboard by using the application’s standard copy command(s).  
+6. From the application, copy information to the Clipboard by using the application’s standard copy command(s).  
   
-2.  Change to an active Client session, or start the Client and begin a session.  
+7. Change to an active Client session, or start the Client and begin a session.  
   
-3.  Check to see that the session is in a state in which keystrokes can be received.  
+8. Check to see that the session is in a state in which keystrokes can be received.  
   
-4.  On the **Edit** menu, click **Paste**. The copied information is entered as a series of keystrokes.  
+9. On the **Edit** menu, click **Paste**. The copied information is entered as a series of keystrokes.  
   
 ## See Also  
  [3270 Client](../core/3270-client2.md)

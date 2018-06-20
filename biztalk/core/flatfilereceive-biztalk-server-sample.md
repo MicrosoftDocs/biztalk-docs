@@ -16,110 +16,112 @@ manager: "anneta"
 ---
 # FlatFileReceive (BizTalk Server Sample)
 The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process a flat file into the equivalent .xml file.  
-  
+
 ## What This Sample Does  
  This sample configures the folder FFInput as a receive location. When you place a file, such as the sample file FlatFileReceive_in.txt, into this folder, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the message in this file using the following sequence of steps:  
-  
+
 1.  Reads the message from the input file in the receive location folder FFInput.  
-  
+
 2.  In the receive pipeline, the Flat File Disassembler component converts the message from flat file format to the equivalent XML message.  
-  
+
 3.  In the MessageBox database, the message is routed to a FILE send port that writes the XML message to a file in the send adapter folder FFOutput.  
-  
+
 ## How This Sample is Designed and Why  
  The sample message dictates much of the basic design in this sample. Flat file messages must be disassembled using the Flat File Disassembler and a flat file schema within a custom receive pipeline. These and other design elements are summarized in the following table.  
-  
-|Design element|Reason(s) selected|  
-|--------------------|--------------------------|  
-|Custom receive pipeline|-   The custom pipeline uses the Flat File Disassembler and a flat file schema to translate inbound purchase order messages. The Flat File Disassembler is not itself a pipeline and cannot be used when configuring a receive pipeline in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management console.|  
-|Flat file schema|-   Define all of the same record and field characteristics (including structure) as an XML schema and provide a mechanism for defining all of the flat file characteristics that are required to translate a flat file instance message into an equivalent XML instance message (or vice versa).|  
-|Subscription filter|-   The subscription filter performs the actual routing by capturing messages that meet one or more criteria based on property fields.|  
-|XMLTransmit|-   Performs basic assembly of outgoing XML messages where needed. The PassThruTransmit pipeline provides no additional support.|  
-  
+
+
+|     Design element      |                                                                                                                                                                  Reason(s) selected                                                                                                                                                                   |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Custom receive pipeline | -   The custom pipeline uses the Flat File Disassembler and a flat file schema to translate inbound purchase order messages. The Flat File Disassembler is not itself a pipeline and cannot be used when configuring a receive pipeline in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management console. |
+|    Flat file schema     |                           -   Define all of the same record and field characteristics (including structure) as an XML schema and provide a mechanism for defining all of the flat file characteristics that are required to translate a flat file instance message into an equivalent XML instance message (or vice versa).                           |
+|   Subscription filter   |                                                                                                        -   The subscription filter performs the actual routing by capturing messages that meet one or more criteria based on property fields.                                                                                                         |
+|       XMLTransmit       |                                                                                                           -   Performs basic assembly of outgoing XML messages where needed. The PassThruTransmit pipeline provides no additional support.                                                                                                            |
+
  These elements are combined to produce a solution that accepts purchase order messages in flat file format from the receive location and writes out the resulting XML representation to the send location.  
-  
+
  The following considerations apply to the design of this sample:  
-  
+
 -   The flat file schema (PO.xsd) contains extended annotations describing the structure of the purchase order flat file. These files can be created by hand, but many can be generated by using the Flat File Wizard.  
-  
+
 -   The flat file schema uses an elementFormDefault value of Unqualified. This produces correct results but with additional and unexpected XML namespace (xmlns) qualifications. Use an elementFormDefault of Qualified to avoid this issue.  
-  
+
 -   XmlTransmit is used as the send pipeline. Use the PassThruTransmit pipeline when property demotion or other messaging processing is not required in the send port.  
-  
+
 ## Where to Find This Sample  
  *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
-  
+
  The following table shows the files in this sample and describes their purpose.  
-  
-|File(s)|Description|  
-|---------------|-----------------|  
-|Cleanup.bat|Used to undeploy assemblies and remove them from the global assembly cache. Removes send and receive ports. Removes Microsoft Internet Information Services (IIS) virtual directories as needed.|  
-|FFReceivePipeline.btp|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive pipeline file with the Flat File Disassembler component.|  
-|FlatFileReceive.btproj, FlatFileReceive.sln|Project and solution files for this sample.|  
-|FlatFileReceive_in.txt|Sample input file.|  
-|FlatFileReceiveBinding.xml|Used for automated setup such as port binding.|  
-|PO.xsd|Schema for the inbound flat file.|  
-|Setup.bat|Used to build and initialize this sample.|  
-  
+
+
+|                   File(s)                   |                                                                                           Description                                                                                            |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 Cleanup.bat                 | Used to undeploy assemblies and remove them from the global assembly cache. Removes send and receive ports. Removes Microsoft Internet Information Services (IIS) virtual directories as needed. |
+|            FFReceivePipeline.btp            |                       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive pipeline file with the Flat File Disassembler component.                        |
+| FlatFileReceive.btproj, FlatFileReceive.sln |                                                                           Project and solution files for this sample.                                                                            |
+|           FlatFileReceive_in.txt            |                                                                                        Sample input file.                                                                                        |
+|         FlatFileReceiveBinding.xml          |                                                                          Used for automated setup such as port binding.                                                                          |
+|                   PO.xsd                    |                                                                                Schema for the inbound flat file.                                                                                 |
+|                  Setup.bat                  |                                                                            Used to build and initialize this sample.                                                                             |
+
 ## How to Use This Sample  
  Use this sample as the basis for your own flat file processing solution. You can extend many of the design elements used in this sample to fit your own requirements.  
-  
+
 ## Building and Initializing This Sample  
-  
-1.  In a command window, navigate to the following folder:  
-  
-     *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
-  
-2.  Run the file Setup.bat, which performs the following actions:  
-  
-    -   Creates the input (FFInput) and output (FFOutput) folders for this sample in the folder:  
-  
-         *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
-  
-    -   Compiles and deploys the Visual Studio project for this sample.  
-  
-    -   Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.  
-  
-        > [!NOTE]
-        >  This sample displays the following warning when creating and binding ports: `Warning: Receive handler not specified for receive location "FlatFileReceive_RL"; updating with first receive handler with matching transport type.` You can safely ignore these warnings. (To accommodate for possible naming differences in user installations, the host name and receive handler have been omitted from the binding file.)  
-  
-    -   Enables the receive location, and starts the send port.  
-  
+
+1. In a command window, navigate to the following folder:  
+
+    *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+
+2. Run the file Setup.bat, which performs the following actions:  
+
+   - Creates the input (FFInput) and output (FFOutput) folders for this sample in the folder:  
+
+      *\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+
+   - Compiles and deploys the Visual Studio project for this sample.  
+
+   - Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.  
+
+     > [!NOTE]
+     >  This sample displays the following warning when creating and binding ports: `Warning: Receive handler not specified for receive location "FlatFileReceive_RL"; updating with first receive handler with matching transport type.` You can safely ignore these warnings. (To accommodate for possible naming differences in user installations, the host name and receive handler have been omitted from the binding file.)  
+
+   - Enables the receive location, and starts the send port.  
+
 > [!NOTE]
 >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
-  
+> 
 > [!NOTE]
 >  If you choose to open and build the project in this sample without running Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assembly.  
-  
+> 
 > [!NOTE]
 >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
-  
+
 ## Running This Sample  
-  
+
 1.  Put a copy of the file FlatFileReceive_in.txt into the folder FFInput.  
-  
+
 2.  Observe the .xml file created in the folder FFOutput. The name of the output file is based on the message ID GUID. This file contains XML equivalent of the flat file placed in the receive folder.  
-  
+
 ## Classes or Methods Used in This Sample  
  The configuration scripts Setup.bat and Cleanup.bat rely on the following administrative Windows Management Instrumentation (WMI) scripts:  
-  
--   Start Send Port\StartSendPort.vbs  
-  
--   Enable Receive Location\EnableRecLoc  
-  
--   Remove Send Port\RemoveSendPort  
-  
- The setup and cleanup batch files use BTSTask as follows:  
-  
--   **BTSTask ImportBindings** to apply the binding file and create the application, ports, and bindings  
-  
--   **BTSTask RemoveApp** to remove the FlatFileReceiveApplication  
-  
+
+- Start Send Port\StartSendPort.vbs  
+
+- Enable Receive Location\EnableRecLoc  
+
+- Remove Send Port\RemoveSendPort  
+
+  The setup and cleanup batch files use BTSTask as follows:  
+
+- **BTSTask ImportBindings** to apply the binding file and create the application, ports, and bindings  
+
+- **BTSTask RemoveApp** to remove the FlatFileReceiveApplication  
+
 ## See Also  
--  [Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
--  [Flat File Disassembler Pipeline Component](../core/flat-file-disassembler-pipeline-component.md)   
--  [Flat File Schemas](../core/flat-file-schemas.md)   
--  [Default Pipelines](../core/default-pipelines.md)   
--  **WMI Script Samples** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
--  [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md)   
--  [FlatFileSend (BizTalk Server Sample)](../core/flatfilesend-biztalk-server-sample.md)
+- [Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
+- [Flat File Disassembler Pipeline Component](../core/flat-file-disassembler-pipeline-component.md)   
+- [Flat File Schemas](../core/flat-file-schemas.md)   
+- [Default Pipelines](../core/default-pipelines.md)   
+- **WMI Script Samples** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+- [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md)   
+- [FlatFileSend (BizTalk Server Sample)](../core/flatfilesend-biztalk-server-sample.md)

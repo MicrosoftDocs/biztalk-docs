@@ -69,20 +69,20 @@ The Data Access Tool enables administrators and developers to be more efficient 
 ### Running a Sample Query  
  You can use the **Sample Query** command on the **Actions** and context menu to execute a sample query against the remote data source. The sample query retrieves a list of tables from the system catalog by using the default schema property configured in the data source. The data is displayed in the results pane as two tabs: an **Output** window.  
   
-1.  In the Data Source Browser window, select the data source and click the **Actions** menu.  
+1. In the Data Source Browser window, select the data source and click the **Actions** menu.  
   
-2.  Click **Sample Query**. The **Output** window and **Grid** window display the results of the sample query.  
+2. Click **Sample Query**. The **Output** window and **Grid** window display the results of the sample query.  
   
- Successfully retrieved 1000 rows from data source 'DB2DSN1'.  
+   Successfully retrieved 1000 rows from data source 'DB2DSN1'.  
   
 ### Creating Packages  
  You can use the **Create Packages** command on the Actions and context menu to create packages on a remote DB2 relational database server.  
   
-1.  In the Data Source Browser window, click the **Actions** menu.  
+1. In the Data Source Browser window, click the **Actions** menu.  
   
-2.  Click Create Packages. The Create Packages dialog box will appear.  
+2. Click Create Packages. The Create Packages dialog box will appear.  
   
- If you did not save the user name and password in the connection configuration, an Authentication dialog box appears, prompting you to enter a valid user name and password.  
+   If you did not save the user name and password in the connection configuration, an Authentication dialog box appears, prompting you to enter a valid user name and password.  
   
 ### Displaying a Connection String  
  When you select a data source in the Data Source Browser, the Output pane displays the Connection String dialog box. You can copy the connection string from the dialog box and paste it into other applications. You can use this technique in SQL Server Management Studio to define a Linked Server for use with the Query Processor.  
@@ -90,15 +90,15 @@ The Data Access Tool enables administrators and developers to be more efficient 
 ### Changing a Password  
  You can replace your current password using **Change Password** command on the Actions and context menu to access the DB2 password change management (PCM) function.  
   
-1.  In the Data Source Browser window, select the data source, and then click the Actions menu.  
+1. In the Data Source Browser window, select the data source, and then click the Actions menu.  
   
-2.  Click **Change Password**. The Authentication dialog appears.  
+2. Click **Change Password**. The Authentication dialog appears.  
   
-3.  Enter the current credentials in the **User name** and **Password** text boxes.  
+3. Enter the current credentials in the **User name** and **Password** text boxes.  
   
-4.  Enter the new password in both the **New password** and **Confirm password** text boxes. The Output window displays the results of the Change Password command.  
+4. Enter the new password in both the **New password** and **Confirm password** text boxes. The Output window displays the results of the Change Password command.  
   
- Successfully changed the password on data source 'DB2DSN1'.  
+   Successfully changed the password on data source 'DB2DSN1'.  
   
 ### Locating a Connection Definition  
  The Locate command on the context menu enables you to navigate to a Universal Data Link (*.udl) file using the Windows Explorer dialog box.  

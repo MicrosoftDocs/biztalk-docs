@@ -16,13 +16,13 @@ manager: "anneta"
 # Errors Returned by the ODBC Driver for DB2
 The ODBC Driver for DB2 generates errors in the following areas:  
   
--   ODBC Driver Manager  
+- ODBC Driver Manager  
   
--   Microsoft ODBC Driver for DB2  
+- Microsoft ODBC Driver for DB2  
   
--   DRDA Application Requester network client  
+- DRDA Application Requester network client  
   
- The ODBC Driver Manager is a shared library that establishes connections with ODBC drivers, submits requests to ODBC drivers, and returns results to applications. An ODBC Driver Manager error has the following format:  
+  The ODBC Driver Manager is a shared library that establishes connections with ODBC drivers, submits requests to ODBC drivers, and returns results to applications. An ODBC Driver Manager error has the following format:  
   
 ```  
 [vendor] [ODBC DLL] message  

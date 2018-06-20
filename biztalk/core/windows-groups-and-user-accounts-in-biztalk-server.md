@@ -97,15 +97,15 @@ Information about BizTalk Server local and domain group and user accounts. The C
   
 #### To create Windows Group and User Accounts in BizTalk Server  
   
-1.  Using Active Directory, from the **Start** menu, point to **Programs**, point to **Administrative Tools**, and select **Active Directory Users and Computers**.  
+1. Using Active Directory, from the **Start** menu, point to **Programs**, point to **Administrative Tools**, and select **Active Directory Users and Computers**.  
   
-2.  In the Active Directory Users and Computers window, right-click at the bottom of the right pane, or right-click the **Users** folder in the navigation tree in the left pane.  
+2. In the Active Directory Users and Computers window, right-click at the bottom of the right pane, or right-click the **Users** folder in the navigation tree in the left pane.  
   
-3.  Select **New**, then select **Group** or **User**.  
+3. Select **New**, then select **Group** or **User**.  
   
-4.  Enter the group or user information outlined in the following table.  
+4. Enter the group or user information outlined in the following table.  
   
- The following table lists the Windows group and their membership used by BizTalk Server. It also identifies the SQL Server Roles or Database Roles for the group.  
+   The following table lists the Windows group and their membership used by BizTalk Server. It also identifies the SQL Server Roles or Database Roles for the group.  
   
 |Group|Group Description|Membership|SQL Server Roles or Database Roles|  
 |-----------|-----------------------|----------------|----------------------------------------|  

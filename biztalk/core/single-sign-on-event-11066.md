@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11066
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11066|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_INFO_PASSWORD_SYNC_MIIS_STARTED|  
-|Message Text|Password sync for Windows (from MIIS) has started.%r|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           11066                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |            SSO_INFO_PASSWORD_SYNC_MIIS_STARTED             |
+|  Message Text   |    Password sync for Windows (from MIIS) has started.%r    |
   
 ## Explanation  
  This is an informational message stating that password sync for Windows (from MIIS) has started.  

@@ -26,29 +26,29 @@ In this step, you promote schema properties so that a [!INCLUDE[btsBizTalkServer
   
 ### To promote schema properties  
   
-1.  In Solution Explorer, under **BTAHL7 Project**, double-click the **DoorBell.xsd** node to open the schema.  
+1. In Solution Explorer, under **BTAHL7 Project**, double-click the **DoorBell.xsd** node to open the schema.  
   
-2.  Right-click the **FirstName** field element, point to **Promote**, and then click **Quick Promotion**.  
+2. Right-click the **FirstName** field element, point to **Promote**, and then click **Quick Promotion**.  
   
-3.  Click **OK** to add the property schema to the project.  
+3. Click **OK** to add the property schema to the project.  
   
-    > [!NOTE]
-    >  [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds an orange circle to the icon for the **FirstName** element, indicating that the element has been promoted.  
+   > [!NOTE]
+   >  [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds an orange circle to the icon for the **FirstName** element, indicating that the element has been promoted.  
   
-4.  Repeat these steps to promote the following field elements:  
+4. Repeat these steps to promote the following field elements:  
   
-    -   **MiddleName**  
+   -   **MiddleName**  
   
-    -   **LastName**  
+   -   **LastName**  
   
-    -   **SSN**  
+   -   **SSN**  
   
-    > [!IMPORTANT]
-    >  It is important to note that promoting a patient ID (PID) such as a social security number (SSN) causes [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] to track that property for every inbound message through the system. The side effect of this situation is that the message-tracking database keeps a copy of patient SSNs. This can create a significant security issue. You must either protect this data store with extreme care or avoid the promotion of PID data completely.  
+   > [!IMPORTANT]
+   >  It is important to note that promoting a patient ID (PID) such as a social security number (SSN) causes [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] to track that property for every inbound message through the system. The side effect of this situation is that the message-tracking database keeps a copy of patient SSNs. This can create a significant security issue. You must either protect this data store with extreme care or avoid the promotion of PID data completely.  
   
-     For more information about tracking documents based on the schema elements that you promoted, see BizTalk Server Help for information on Health and Activity Tracking.  
+    For more information about tracking documents based on the schema elements that you promoted, see BizTalk Server Help for information on Health and Activity Tracking.  
   
- Proceed to [Step 6: Validate the Schemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md).  
+   Proceed to [Step 6: Validate the Schemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

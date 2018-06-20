@@ -25,13 +25,13 @@ This topic describes how to use the BizTalk Server Administration console to vie
   
 ### To view the references for an application  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click the application whose references you want to view, and click **Properties**.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click the application whose references you want to view, and click **Properties**.  
   
-3.  In the left pane of the properties page, click **References**.  
+3. In the left pane of the properties page, click **References**.  
   
-     The applications to which this application refers are listed in the upper section of the right pane. The applications that refer to this application are listed in the lower section of the right pane.  
+    The applications to which this application refers are listed in the upper section of the right pane. The applications that refer to this application are listed in the lower section of the right pane.  
   
 ## See Also  
  [Creating and Modifying BizTalk Applications](../core/creating-and-modifying-biztalk-applications.md)

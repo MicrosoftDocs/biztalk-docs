@@ -31,42 +31,42 @@ To invoke operations on the [!INCLUDE[adapteroracle](../../includes/adapteroracl
 ## Supported Channel Shapes for the Oracle Database Adapter  
  The adapter implements the following WCF channel shapes:  
   
--   **IRequestChannel** (**System.ServiceModel.Channels.IRequestChannel**). The **IRequestChannel** interface implements the client side of a request-reply message exchange. You can use an **IRequestChannel** to perform operations for which you want to consume a response, for example to perform a SELECT query on an Oracle table.  
+- **IRequestChannel** (**System.ServiceModel.Channels.IRequestChannel**). The **IRequestChannel** interface implements the client side of a request-reply message exchange. You can use an **IRequestChannel** to perform operations for which you want to consume a response, for example to perform a SELECT query on an Oracle table.  
   
--   **IOutputChannel** (**System.ServiceModel.Channels.IOutputChannel**). This shape implements the client side of a one-way message exchange. You can use an **IOutputChannel** to invoke an operation for which you do not need to consume a response, for example to call an Oracle procedure that has no OUT parameters.  
+- **IOutputChannel** (**System.ServiceModel.Channels.IOutputChannel**). This shape implements the client side of a one-way message exchange. You can use an **IOutputChannel** to invoke an operation for which you do not need to consume a response, for example to call an Oracle procedure that has no OUT parameters.  
   
-    > [!IMPORTANT]
-    >  All underlying calls by the adapter to the Oracle client are synchronous. This includes calls to the Oracle client that are the result of operations invoked over an **IOutputChannel**. When you use an **IOutputChannel**, the adapter discards the response received from the Oracle client.  
+  > [!IMPORTANT]
+  >  All underlying calls by the adapter to the Oracle client are synchronous. This includes calls to the Oracle client that are the result of operations invoked over an **IOutputChannel**. When you use an **IOutputChannel**, the adapter discards the response received from the Oracle client.  
   
--   **IInputChannel** (**System.ServiceModel.Channels.IInputChannel**). This shape implements the service side of a one-way message exchange. You use an **IInputChannel** to receive messages for inbound operations from the adapter.  
+- **IInputChannel** (**System.ServiceModel.Channels.IInputChannel**). This shape implements the service side of a one-way message exchange. You use an **IInputChannel** to receive messages for inbound operations from the adapter.  
   
- Like any WCF binding, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses a factory pattern to provide channels to application code. You use a **Microsoft.Adapters.OracleDBBinding** object to create instances of:  
+  Like any WCF binding, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses a factory pattern to provide channels to application code. You use a **Microsoft.Adapters.OracleDBBinding** object to create instances of:  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel\>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
+- **System.ServiceModel.ChannelFactory\<IRequestChannel\>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel\>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
+- **System.ServiceModel.ChannelFactory\<IOutputChannel\>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
   
--   **System.ServiceModel.IChannelListener\<IInputChannel\>** to provide **IInputChannel** channels you can use to receive inbound messages (e.g. POLLINGSTMT operation) from the adapter.  
+- **System.ServiceModel.IChannelListener\<IInputChannel\>** to provide **IInputChannel** channels you can use to receive inbound messages (e.g. POLLINGSTMT operation) from the adapter.  
   
 ### Creating Messages for the Oracle Database Adapter in the WCF Channel Model  
  In WCF the **System.ServiceModel.Channels.Message** class provides an in memory representation of a SOAP message. You create a **Message** instance by invoking the static **Message.Create** method.  
   
  There are two important parts to the SOAP message that you must specify when you create a **Message** instance to send to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
   
--   The message action is a string that is part of the SOAP message header. The message action identifies the operation that should be invoked on the Oracle database. The following shows the message action specified to invoke the Select operation on the /SCOTT/EMP table: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select`.  
+- The message action is a string that is part of the SOAP message header. The message action identifies the operation that should be invoked on the Oracle database. The following shows the message action specified to invoke the Select operation on the /SCOTT/EMP table: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select`.  
   
--   The message body contains the parameter data for the operation. The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] for the requested operation. The following message body specifies a Select operation on the SCOTT.EMP table (SELECT * FROM EMP).  
+- The message body contains the parameter data for the operation. The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] for the requested operation. The following message body specifies a Select operation on the SCOTT.EMP table (SELECT * FROM EMP).  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8" ?>  
-    <Select xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP">  
-        <COLUMN_NAMES>*</COLUMN_NAMES>  
-    </Select>  
-    ```  
+  ```  
+  <?xml version="1.0" encoding="utf-8" ?>  
+  <Select xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP">  
+      <COLUMN_NAMES>*</COLUMN_NAMES>  
+  </Select>  
+  ```  
   
- For information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] message schemas and message actions for operations, see [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md).  
+  For information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] message schemas and message actions for operations, see [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md).  
   
- This **Create** method is overloaded and offers many different options for providing the message body. The following code shows how to create a **Message** instance by using an **XmlReader** to supply the message body. In this code, the message body is read from a file.  
+  This **Create** method is overloaded and offers many different options for providing the message body. The following code shows how to create a **Message** instance by using an **XmlReader** to supply the message body. In this code, the message body is read from a file.  
   
 ```  
 XmlReader readerIn = XmlReader.Create("SelectAllActivity.xml");  

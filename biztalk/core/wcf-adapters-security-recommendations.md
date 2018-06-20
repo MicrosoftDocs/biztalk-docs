@@ -37,11 +37,11 @@ manager: "anneta"
   
 ## Security Recommendations for the Isolated WCF Adapters  
   
--   For security recommendations for publishing Web services, see [Enabling Web Services](../core/enabling-web-services.md).  
+- For security recommendations for publishing Web services, see [Enabling Web Services](../core/enabling-web-services.md).  
   
--   The isolated WCF adapters such as the WCF-CustomIsolated, WCF-BasicHttp, and WCF-WSHttp adapters leverage the Hypertext Transfer Protocol (HTTP) to send and receive messages to and from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Therefore, you must follow the security recommendations for securing Internet Information Services (IIS).  
+- The isolated WCF adapters such as the WCF-CustomIsolated, WCF-BasicHttp, and WCF-WSHttp adapters leverage the Hypertext Transfer Protocol (HTTP) to send and receive messages to and from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Therefore, you must follow the security recommendations for securing Internet Information Services (IIS).  
   
--   When you create an application pool for an isolated WCF receive location, you must configure it to run under an account that is a member of the [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] group for the isolated host running the WCF receive adapter and the Internet Information Services Worker Process group (IIS_WPG group). You must then configure the host instance for the WCF receive adapter to use this account. If you change the account for the IIS_WPG group, you must ensure that you also update the host instance to run under the new account.  
+- When you create an application pool for an isolated WCF receive location, you must configure it to run under an account that is a member of the [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] group for the isolated host running the WCF receive adapter and the Internet Information Services Worker Process group (IIS_WPG group). You must then configure the host instance for the WCF receive adapter to use this account. If you change the account for the IIS_WPG group, you must ensure that you also update the host instance to run under the new account.  
   
 ## Security Recommendations for the WCF-Custom Adapter  
   
@@ -57,42 +57,42 @@ manager: "anneta"
   
 ## Security Auditing for the WCF Adapters  
   
--   The WCF adapters do not use the WCF security auditing features by default. There are several ways to enable the WCF security auditing features for the WCF adapters. For more information about the WCF security auditing features, see "Auditing Security Events" at [http://go.microsoft.com/fwlink/?LinkId=88975](http://go.microsoft.com/fwlink/?LinkId=88975).  
+- The WCF adapters do not use the WCF security auditing features by default. There are several ways to enable the WCF security auditing features for the WCF adapters. For more information about the WCF security auditing features, see "Auditing Security Events" at [http://go.microsoft.com/fwlink/?LinkId=88975](http://go.microsoft.com/fwlink/?LinkId=88975).  
   
--   To use the WCF security auditing features with the WCF-Custom receive adapter, you can configure the **ServiceSecurityAuditBehavior** for the receive locations.  
+- To use the WCF security auditing features with the WCF-Custom receive adapter, you can configure the **ServiceSecurityAuditBehavior** for the receive locations.  
   
--   For the in-process WCF adapters, you can enable the performance counters through the BTSNTSvc.exe.config file. For the isolated WCF adapters, you can enable WCF tracing by modifying the Web.config file that the BizTalk WCF Service Publishing Wizard creates in the Web application folder. To modify BTSNtSvc.exe.config or Web.config, open the configuration file, and then configure WCF tracing, as indicated in the following configuration example:  
+- For the in-process WCF adapters, you can enable the performance counters through the BTSNTSvc.exe.config file. For the isolated WCF adapters, you can enable WCF tracing by modifying the Web.config file that the BizTalk WCF Service Publishing Wizard creates in the Web application folder. To modify BTSNtSvc.exe.config or Web.config, open the configuration file, and then configure WCF tracing, as indicated in the following configuration example:  
   
-    > [!NOTE]
-    >  The BTSNTSvc.exe.config file is always located in the same directory as the BTSNTSvc.exe file, which is usually [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
+  > [!NOTE]
+  >  The BTSNTSvc.exe.config file is always located in the same directory as the BTSNTSvc.exe file, which is usually [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
+  > 
+  > [!NOTE]
+  >  After modifying the BTSNTSvc.exe.config file, you must restart the host instances running the in-process WCF receive locations.  
   
-    > [!NOTE]
-    >  After modifying the BTSNTSvc.exe.config file, you must restart the host instances running the in-process WCF receive locations.  
+  ```  
+  <configuration>  
+      <system.serviceModel>  
+        <diagnostics performanceCounters="All" />  
+        <behaviors>  
+          <serviceBehaviors>  
+            <behavior name="ServiceBehaviorConfiguration">  
+              <serviceSecurityAudit  
+                        auditLogLocation="Application"  
+                        suppressAuditFailure="true"  
+                        serviceAuthorizationAuditLevel="SuccessOrFailure"  
+  messageAuthenticationAuditLevel="SuccessOrFailure" />  
+            </behavior>  
+          </serviceBehaviors>  
+        </behaviors>  
+        <services>  
+          <service name="Microsoft.BizTalk.Adapter.Wcf.Runtime.BizTalkServiceInstance" behaviorConfiguration="ServiceBehaviorConfiguration">  
+          </service>  
+        </services>        
+      </system.serviceModel>  
+  </configuration>  
+  ```  
   
-    ```  
-    <configuration>  
-        <system.serviceModel>  
-          <diagnostics performanceCounters="All" />  
-          <behaviors>  
-            <serviceBehaviors>  
-              <behavior name="ServiceBehaviorConfiguration">  
-                <serviceSecurityAudit  
-                          auditLogLocation="Application"  
-                          suppressAuditFailure="true"  
-                          serviceAuthorizationAuditLevel="SuccessOrFailure"  
-    messageAuthenticationAuditLevel="SuccessOrFailure" />  
-              </behavior>  
-            </serviceBehaviors>  
-          </behaviors>  
-          <services>  
-            <service name="Microsoft.BizTalk.Adapter.Wcf.Runtime.BizTalkServiceInstance" behaviorConfiguration="ServiceBehaviorConfiguration">  
-            </service>  
-          </services>        
-        </system.serviceModel>  
-    </configuration>  
-    ```  
-  
--   You can also use a security-related performance counter such as Security Calls Not Authorized to monitor the WCF adapters. For more information about how to enable the WCF performance counters, see [WCF Adapters Performance Counters](../core/wcf-adapters-performance-counters.md).  
+- You can also use a security-related performance counter such as Security Calls Not Authorized to monitor the WCF adapters. For more information about how to enable the WCF performance counters, see [WCF Adapters Performance Counters](../core/wcf-adapters-performance-counters.md).  
   
 ## See Also  
  [Planning for Security](../core/planning-for-security.md)

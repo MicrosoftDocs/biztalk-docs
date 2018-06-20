@@ -33,17 +33,17 @@ You can create a script to perform actions when an application is deployed, and 
   
  Pre- and post-processing scripts run as follows:  
   
--   Pre-processing scripts run at the beginning of the import or installation process.  
+- Pre-processing scripts run at the beginning of the import or installation process.  
   
--   Post-processing scripts run at the end of the import or installation process.  
+- Post-processing scripts run at the end of the import or installation process.  
   
--   During uninstallation, all scripts run in the opposite order that they run during installation. Therefore, post-processing scripts run at the beginning of uninstallation and pre-processing scripts at the end of uninstallation.  
+- During uninstallation, all scripts run in the opposite order that they run during installation. Therefore, post-processing scripts run at the beginning of uninstallation and pre-processing scripts at the end of uninstallation.  
   
--   If an installation fails, scripts are called in reverse order with the appropriate rollback action.  
+- If an installation fails, scripts are called in reverse order with the appropriate rollback action.  
   
- Once invoked, a pre- or post-processing script determines which deployment state (install, import, delete, uninstall, import rollback, or install rollback) it is running in by checking the environment variables BTAD_ChangeRequestAction, BTAD_InstallMode, and BTAD_HostClass, as described in [How Environment Variables Indicate Deployment State](../core/how-environment-variables-indicate-deployment-state.md). For reference information about the variables, see [Pre- and Post-processing Script Environment Variables](../core/pre-and-post-processing-script-environment-variables.md).  
+  Once invoked, a pre- or post-processing script determines which deployment state (install, import, delete, uninstall, import rollback, or install rollback) it is running in by checking the environment variables BTAD_ChangeRequestAction, BTAD_InstallMode, and BTAD_HostClass, as described in [How Environment Variables Indicate Deployment State](../core/how-environment-variables-indicate-deployment-state.md). For reference information about the variables, see [Pre- and Post-processing Script Environment Variables](../core/pre-and-post-processing-script-environment-variables.md).  
   
- For instructions on adding a script to an application, see [How to Add a Pre- or Post-processing Script to an Application](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
+  For instructions on adding a script to an application, see [How to Add a Pre- or Post-processing Script to an Application](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
   
 > [!NOTE]
 >  If you want to include command-line arguments in a script, as discussed later in this topic, you must use the AddResource command to add the script.  

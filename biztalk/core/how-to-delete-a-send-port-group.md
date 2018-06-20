@@ -34,11 +34,11 @@ This topic describes how use the BizTalk Server Administration console to delete
   
 ### To delete a send port group  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, expand **Applications**, and then expand the application containing the send port group that you want to delete.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, expand **Applications**, and then expand the application containing the send port group that you want to delete.  
   
-3.  Click **Send Port Groups**, right-click the send port group, and then click **Delete**.  
+3. Click **Send Port Groups**, right-click the send port group, and then click **Delete**.  
   
 ## See Also  
  [Creating and Configuring Send Port Groups](../core/creating-and-configuring-send-port-groups.md)

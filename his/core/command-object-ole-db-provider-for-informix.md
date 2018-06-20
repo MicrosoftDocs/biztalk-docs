@@ -26,34 +26,34 @@ The **Command** object is created by an OLE DB consumer, or by a service provide
   
  Valid SQL commands are documented in the following publications published by IBM:  
   
--   *IBM Informix Guide to SQL: Reference*  
+- *IBM Informix Guide to SQL: Reference*  
   
--   *IBM Informix Guide to SQL: Syntax*  
+- *IBM Informix Guide to SQL: Syntax*  
   
--   *IBM Informix Guide to SQL: Tutorial*  
+- *IBM Informix Guide to SQL: Tutorial*  
   
- To execute the command, the consumer calls **ICommand::Execute**. If the command text specifies the command to open a rowset, **Execute** instantiates the rowset and returns an interface pointer to it.  
+  To execute the command, the consumer calls **ICommand::Execute**. If the command text specifies the command to open a rowset, **Execute** instantiates the rowset and returns an interface pointer to it.  
   
- The following interfaces of the **Command** object are supported by the current version of OLE DB Provider for Informix:  
+  The following interfaces of the **Command** object are supported by the current version of OLE DB Provider for Informix:  
   
--   **IAccessor**  
+- **IAccessor**  
   
--   **IColumnsInfo**  
+- **IColumnsInfo**  
   
--   **ICommand**  
+- **ICommand**  
   
--   **ICommandPrepare**  
+- **ICommandPrepare**  
   
--   **ICommandProperties**  
+- **ICommandProperties**  
   
--   **ICommandText**  
+- **ICommandText**  
   
--   **ICommandWithParameters**  
+- **ICommandWithParameters**  
   
--   **IConvertType**  
+- **IConvertType**  
   
--   **ISupportErrorInfo**  
+- **ISupportErrorInfo**  
   
- When using the **ICommand** object, Microsoft OLE DB Provider for Informix may not derive parameter type information from the data store, depending on the Informix platform and version. The OLE DB client application can supply the native parameter type information through **ICommandWithParameters::SetParameterInfo** function. The OLE DB provider uses the type information specified by **SetParameterInfo** to determine how to convert parameter data from the type supplied by the consumer (as indicated by the wType value in the binding structure) to the native type used by the data store. When the consumer specifies a data type with known precision, scale, and size values, any information supplied by the consumer for precision, scale, or size is ignored by OLE DB Provider for Informix.  
+  When using the **ICommand** object, Microsoft OLE DB Provider for Informix may not derive parameter type information from the data store, depending on the Informix platform and version. The OLE DB client application can supply the native parameter type information through **ICommandWithParameters::SetParameterInfo** function. The OLE DB provider uses the type information specified by **SetParameterInfo** to determine how to convert parameter data from the type supplied by the consumer (as indicated by the wType value in the binding structure) to the native type used by the data store. When the consumer specifies a data type with known precision, scale, and size values, any information supplied by the consumer for precision, scale, or size is ignored by OLE DB Provider for Informix.  
   
- The information that the consumer supplies should be correct and should be supplied for all parameters. OLE DB Provider for Informix may verify the supplied information against the parameter metadata, depending on the Informix platform and version, although the OLE DB provider will always determine that the specified values are legal values for the provider. The information that the consumer supplies must be correct and must be supplied for all parameters. OLE DB Provider for Informix cannot verify the supplied information against the parameter metadata, although the OLE DB provider can determine that the specified values are legal values for the provider. The result of executing a command using incorrect parameter information or passing parameter information for the wrong number of parameters is undefined. For example, if the parameter type is **LONG** and the consumer specifies a type indicator of DBTYPE_STR in **ICommandWithParameters::SetParameterInfo**, OLE DB Provider for Informix converts the data to a string before sending it to the data store. Because the data store is not expecting a **LONG**, this will likely result in an error.
+  The information that the consumer supplies should be correct and should be supplied for all parameters. OLE DB Provider for Informix may verify the supplied information against the parameter metadata, depending on the Informix platform and version, although the OLE DB provider will always determine that the specified values are legal values for the provider. The information that the consumer supplies must be correct and must be supplied for all parameters. OLE DB Provider for Informix cannot verify the supplied information against the parameter metadata, although the OLE DB provider can determine that the specified values are legal values for the provider. The result of executing a command using incorrect parameter information or passing parameter information for the wrong number of parameters is undefined. For example, if the parameter type is **LONG** and the consumer specifies a type indicator of DBTYPE_STR in **ICommandWithParameters::SetParameterInfo**, OLE DB Provider for Informix converts the data to a string before sending it to the data store. Because the data store is not expecting a **LONG**, this will likely result in an error.

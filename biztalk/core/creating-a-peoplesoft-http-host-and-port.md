@@ -20,15 +20,15 @@ manager: "anneta"
 # Creating a PeopleSoft HTTP Host and Port
 The Message publication architecture in PeopleSoft is known as Integration Broker. The main components of Integration Broker are as follows:  
   
--   Gateway  
+- Gateway  
   
--   Publishing node  
+- Publishing node  
   
--   Subscriber node  
+- Subscriber node  
   
- All three work together to publish a message to a URL for an HTTP listener. You must set the Publishing node. PeopleSoft has a default publishing node, also known as local message node. You must activate the node and the transactions for the publishing node. You must set the Subscription node with the type as external node, and then activate the node and the transactions. For this node, you also set the type to be HTTP and set the connection information.  
+  All three work together to publish a message to a URL for an HTTP listener. You must set the Publishing node. PeopleSoft has a default publishing node, also known as local message node. You must activate the node and the transactions for the publishing node. You must set the Subscription node with the type as external node, and then activate the node and the transactions. For this node, you also set the type to be HTTP and set the connection information.  
   
- You use PeopleSoft Integration Broker to create a PeopleSoft HTTP Host and Port where PeopleSoft sends events. You make sure that the message is active and routed by using the procedure in [How to Verify Activity Status of a Message](../core/how-to-verify-activity-status-of-a-message.md).  
+  You use PeopleSoft Integration Broker to create a PeopleSoft HTTP Host and Port where PeopleSoft sends events. You make sure that the message is active and routed by using the procedure in [How to Verify Activity Status of a Message](../core/how-to-verify-activity-status-of-a-message.md).  
   
 ## In This Section  
   

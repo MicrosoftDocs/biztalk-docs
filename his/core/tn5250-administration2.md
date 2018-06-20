@@ -34,25 +34,25 @@ The local LU, remote LU, and mode must match the configuration information in [!
   
 ### To add and configure LUs for TN5250 service  
   
-1.  Before LUs can be added to the TN5250 service, you must first install a link service, add a connection to an AS/400 on this link service, and create local and remote LUs for accessing this AS/400.  
+1. Before LUs can be added to the TN5250 service, you must first install a link service, add a connection to an AS/400 on this link service, and create local and remote LUs for accessing this AS/400.  
   
-2.  Right-click **TN5250**, point to **New**, and then click **TN5250 AS/400 Definition**.  
+2. Right-click **TN5250**, point to **New**, and then click **TN5250 AS/400 Definition**.  
   
-3.  Configure the properties of this TN5250 AS/400 definition.  
+3. Configure the properties of this TN5250 AS/400 definition.  
   
-     If you do not specify an IP address for an LU, the default value will allow any TN5250 client computer access to this LU.  
+    If you do not specify an IP address for an LU, the default value will allow any TN5250 client computer access to this LU.  
   
-     Click **Help** for information on the property options.  
+    Click **Help** for information on the property options.  
   
-4.  Click **OK** to close the **AS/400 Definition Properties** dialog box.  
+4. Click **OK** to close the **AS/400 Definition Properties** dialog box.  
   
-5.  On the **Action** menu, click **Save Configuration** to put the changes into effect.  
+5. On the **Action** menu, click **Save Configuration** to put the changes into effect.  
   
- Configuration changes are apparent only to users who establish a connection after the configuration changes are saved. Users who were connected at the time that the configuration changes were made will not be affected.  
+   Configuration changes are apparent only to users who establish a connection after the configuration changes are saved. Users who were connected at the time that the configuration changes were made will not be affected.  
   
- You can modify, delete, or add IP addresses and subnet masks to AS/400 definitions. If you want to change the configuration of multiple AS/400 definitions, you can only change properties such as display types, the IP address, and subnet mask that the AS/400 definitions have in common. You cannot change properties such as the local or remote LUs, because these values are unique for each AS/400 definition.  
+   You can modify, delete, or add IP addresses and subnet masks to AS/400 definitions. If you want to change the configuration of multiple AS/400 definitions, you can only change properties such as display types, the IP address, and subnet mask that the AS/400 definitions have in common. You cannot change properties such as the local or remote LUs, because these values are unique for each AS/400 definition.  
   
- You can add new IP addresses and subnet masks to a range of AS/400 definitions. If the new IP address or subnet mask already exists on some of the AS/400 definitions, but not on others, the addition will occur without duplication in the ones that already have the IP address or subnet mask. You can also modify or delete the IP addresses that the AS/400 definitions have in common and that appear on the IP address list.  
+   You can add new IP addresses and subnet masks to a range of AS/400 definitions. If the new IP address or subnet mask already exists on some of the AS/400 definitions, but not on others, the addition will occur without duplication in the ones that already have the IP address or subnet mask. You can also modify or delete the IP addresses that the AS/400 definitions have in common and that appear on the IP address list.  
   
 #### To edit an AS/400 definition for TN5250 service  
   
@@ -71,19 +71,19 @@ The local LU, remote LU, and mode must match the configuration information in [!
   
 #### To start, pause, continue, and stop TN5250 service  
   
-1.  Right-click **TN5250**, and then click **Start** or **Stop**.  
+1. Right-click **TN5250**, and then click **Start** or **Stop**.  
   
-     \- or -  
+    \- or -  
   
-2.  In the **Services** utility of the Windows **Administrative Tools**, select **TN5250 Service** and click **Start**, **Pause**, **Continue**, or **Stop**.  
+2. In the **Services** utility of the Windows **Administrative Tools**, select **TN5250 Service** and click **Start**, **Pause**, **Continue**, or **Stop**.  
   
- The TN5250 service is set to start manually by default. You can change this to automatic if you are not running either the TN5250 service on this server, or if you have configured the TCP ports for more than one of these services.  
+   The TN5250 service is set to start manually by default. You can change this to automatic if you are not running either the TN5250 service on this server, or if you have configured the TCP ports for more than one of these services.  
   
- After TN5250 service has stopped, it can no longer be accessed. You may need to start the TN5250 service after you have paused or stopped it. TN5250 service can be restarted only on the local system.  
+   After TN5250 service has stopped, it can no longer be accessed. You may need to start the TN5250 service after you have paused or stopped it. TN5250 service can be restarted only on the local system.  
   
- Pausing allows you to prevent new users from establishing a connection with TN5250 service without disconnecting current users. You can then view session status in the Active TN5250 Sessions folder and notify connected users to disconnect from TN5250 service.  
+   Pausing allows you to prevent new users from establishing a connection with TN5250 service without disconnecting current users. You can then view session status in the Active TN5250 Sessions folder and notify connected users to disconnect from TN5250 service.  
   
- Before stopping TN5250 service, notify all connected users that they will be disconnected within a specified time period. Stop the service after expiration of your warning period.  
+   Before stopping TN5250 service, notify all connected users that they will be disconnected within a specified time period. Stop the service after expiration of your warning period.  
   
 ### Tips  
   

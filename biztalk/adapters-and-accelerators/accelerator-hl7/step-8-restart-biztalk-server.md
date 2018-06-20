@@ -19,10 +19,10 @@ In this step, you restart the [!INCLUDE[btsBizTalkServerNoVersion](../../include
   
 ### To restart BizTalk Server  
   
-1.  Start **BizTalk Server Administration**.  
+1. Start **BizTalk Server Administration**.  
   
-2.  In the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, and then expand **Platform Settings**. Click **Hosts**, and then click **BizTalkServerApplication**.  
+2. In the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, and then expand **Platform Settings**. Click **Hosts**, and then click **BizTalkServerApplication**.  
   
-3.  Right-click your server, and then click **Restart**.  
+3. Right-click your server, and then click **Restart**.  
   
- Proceed to [Step 9: Verify the Fragmented Inbound Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/step-9-verify-the-fragmented-inbound-batch-scenario.md).
+   Proceed to [Step 9: Verify the Fragmented Inbound Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/step-9-verify-the-fragmented-inbound-batch-scenario.md).

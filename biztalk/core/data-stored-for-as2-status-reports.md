@@ -22,13 +22,13 @@ Two levels of reporting are available in AS2 status reporting: the first if the 
   
  For a received AS2 message, BizTalk Server will store the following information:  
   
--   A record of the AS2 message.  
+- A record of the AS2 message.  
   
- For a received or sent MDN (synchronous or asynchronous), BizTalk Server will store the following information:  
+  For a received or sent MDN (synchronous or asynchronous), BizTalk Server will store the following information:  
   
--   A record of the MDN.  
+- A record of the MDN.  
   
- The status reporting UI enables correlation of the AS2 message record to the appropriate MDN record.  
+  The status reporting UI enables correlation of the AS2 message record to the appropriate MDN record.  
   
 ## Data Stored If Resend AS2 Message If MDN Not Received Is Enabled  
  If the **Resend AS2 message if MDN not received** property is selected for an agreement, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will record the following information:  
@@ -42,21 +42,21 @@ Two levels of reporting are available in AS2 status reporting: the first if the 
 ## Data Stored If Non-Repudiation Database Storage Is Enabled  
  Non-repudiation database storage is enabled by the following agreement properties is selected:  
   
--   NRR enabled for outbound encoded AS2 messages  
+- NRR enabled for outbound encoded AS2 messages  
   
--   NRR enabled for outbound decoded AS2 messages  
+- NRR enabled for outbound decoded AS2 messages  
   
--   NRR enabled for inbound MDN  
+- NRR enabled for inbound MDN  
   
--   NRR enabled for inbound encoded AS2 messages  
+- NRR enabled for inbound encoded AS2 messages  
   
--   NRR enabled for inbound decoded AS2 messages  
+- NRR enabled for inbound decoded AS2 messages  
   
--   NRR enabled for outbound MDN  
+- NRR enabled for outbound MDN  
   
- If one or more of the above properties is selected, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will store the following information:  
+  If one or more of the above properties is selected, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will store the following information:  
   
--   The content of any AS2 message and the content of any MDN (with or without AS2 headers).  
+- The content of any AS2 message and the content of any MDN (with or without AS2 headers).  
   
 ## Data Stored For EDI Over AS2  
  If the **Turn ON Reporting** property is selected both for an EDI agreement as well as an AS2 agreement, then you can correlate an AS2 message record (containing EDI payload) with an EDI message record.  

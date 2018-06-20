@@ -26,13 +26,13 @@ This topic describes how to use the BizTalk Server Administration console to rem
   
 ### To remove a certificate from a receive location  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to remove a certificate from a receive location.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to remove a certificate from a receive location.  
   
-3.  Expand **Receive Locations**, right-click the receive location, click **Properties**, and then click **Certificates**.  
+3. Expand **Receive Locations**, right-click the receive location, click **Properties**, and then click **Certificates**.  
   
-4.  Click **Remove certificate**, and then click **OK**.  
+4. Click **Remove certificate**, and then click **OK**.  
   
 ## See Also  
  [Managing Receive Locations](../core/managing-receive-locations.md)

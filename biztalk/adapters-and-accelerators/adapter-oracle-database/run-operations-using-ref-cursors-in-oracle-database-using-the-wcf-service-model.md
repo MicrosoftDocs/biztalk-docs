@@ -52,11 +52,11 @@ public System.Nullable<decimal> GET_ACTIVITY(string INRECS, string INOUTRECS_IN,
   
  In the **GET_ACTIVITY** method, the IN OUT parameter INOUTRECS is split into two parameters:  
   
--   INOUTRECS_IN is a string that represents an IN REF CURSOR parameter.  
+- INOUTRECS_IN is a string that represents an IN REF CURSOR parameter.  
   
--   INOUTRECS is a strongly-typed record set that represents an OUT REF CURSOR parameter.  
+- INOUTRECS is a strongly-typed record set that represents an OUT REF CURSOR parameter.  
   
- The weakly-typed OUT parameter, OUTRECS, is represented as a generic record set. The weakly-typed IN parameter, INRECS, is represented as a string.  
+  The weakly-typed OUT parameter, OUTRECS, is represented as a generic record set. The weakly-typed IN parameter, INRECS, is represented as a string.  
   
 ### Strongly-Typed OUT REF CURSOR Parameters  
  Strongly-typed OUT (or IN OUT) REF CURSOR parameters are generated in a unique namespace based on the SCHEMA, PACKAGE, and name of the procedure or function in which they are used. For the /SCOTT/Package/ACCOUNT_PKG/GET_ACTIVITY procedure, this namespace is `microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET_ACTIVITY`. The class name is formed by appending the name of the parameter with "RECORD" and the class is composed of properties that represent the Oracle fields. The following shows a part of the class that represents the strongly-typed records generated for the INOUTRECS REF CURSOR parameter.  
@@ -183,19 +183,19 @@ namespace microsoft.lobservices.oracledb._2007._03 {
 ## Using REF CURSOR Parameters with a WCF Client  
  To invoke a procedure or function with REF CURSOR parameters by using a WCF client, you do the following:  
   
-1.  Pass a string for each IN or IN OUT REF CURSOR parameter that contains the PL/SQL block to open the REF CURSOR. This block can either execute an OPEN FOR SELECT statement or invoke a function or procedure that returns an opened REF CURSOR in an OUT parameter.  
+1. Pass a string for each IN or IN OUT REF CURSOR parameter that contains the PL/SQL block to open the REF CURSOR. This block can either execute an OPEN FOR SELECT statement or invoke a function or procedure that returns an opened REF CURSOR in an OUT parameter.  
   
-2.  When the procedure or function returns, operate on the data in the record sets returned for any OUT or IN OUT REF CURSOR parameters. The record set will be a generic record set for weakly-typed REF CURSOR parameters or a strongly-typed record set for strongly-typed REF CURSOR parameters.  
+2. When the procedure or function returns, operate on the data in the record sets returned for any OUT or IN OUT REF CURSOR parameters. The record set will be a generic record set for weakly-typed REF CURSOR parameters or a strongly-typed record set for strongly-typed REF CURSOR parameters.  
   
- For more information about how to invoke procedures and functions by using the WCF service model, see [Invoke Functions and Procedures in Oracle Database using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md).  
+   For more information about how to invoke procedures and functions by using the WCF service model, see [Invoke Functions and Procedures in Oracle Database using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md).  
   
- The following example calls the GET_ACTIVITY procedure. It demonstrates both ways of specifying an IN REF CURSOR parameter:  
+   The following example calls the GET_ACTIVITY procedure. It demonstrates both ways of specifying an IN REF CURSOR parameter:  
   
--   For the IN REF CURSOR parameter, an OPEN FOR SELECT statement is specified to return activity for ACCOUNT 100001.  
+- For the IN REF CURSOR parameter, an OPEN FOR SELECT statement is specified to return activity for ACCOUNT 100001.  
   
--   For the IN OUT REF CURSOR parameter, the /SCOTT/Package/ACCOUNT_PKG/GET_ALL_ACTIVITY procedure is invoked. This procedure opens a REF CURSOR that contains all of the activity in the ACCOUNTACTIVITY table and returns it as an OUT parameter.  
+- For the IN OUT REF CURSOR parameter, the /SCOTT/Package/ACCOUNT_PKG/GET_ALL_ACTIVITY procedure is invoked. This procedure opens a REF CURSOR that contains all of the activity in the ACCOUNTACTIVITY table and returns it as an OUT parameter.  
   
- The example also demonstrates how to read data from the record set returned for both strongly-typed and weakly-typed REF CURSOR parameters.  
+  The example also demonstrates how to read data from the record set returned for both strongly-typed and weakly-typed REF CURSOR parameters.  
   
 ```  
 using System;  

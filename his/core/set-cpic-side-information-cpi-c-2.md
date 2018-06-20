@@ -68,12 +68,12 @@ CM_ENTRY Set_CPIC_Side_Information( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   A value specified in the *side_info_entry* structure is invalid.  
+- A value specified in the *side_info_entry* structure is invalid.  
   
--   The left character of the *side_info_entry* contains a space.  
+- The left character of the *side_info_entry* contains a space.  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
 ## State Changes  
  The conversation can be in any state.  

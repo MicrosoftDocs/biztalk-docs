@@ -22,26 +22,26 @@ Microsoft Host Integration Server Trace Viewer is graphical user interface to cr
 ## Open a Trace File  
  To open a trace file:  
   
-1.  On the **File** menu, click **Open**, and then click **Trace File**.  
+1. On the **File** menu, click **Open**, and then click **Trace File**.  
   
-2.  In the **Open File** dialog box, select the trace data file you want to open.  
+2. In the **Open File** dialog box, select the trace data file you want to open.  
   
- To open a recent trace file:  
+   To open a recent trace file:  
   
-1.  On the **File** menu, click **Recent Files**, and then click a recent trace data file.  
+3. On the **File** menu, click **Recent Files**, and then click a recent trace data file.  
   
 ## Save Trace Results to a File  
  To save trace results to a text file:  
   
-1.  On the **File** menu, click **Save As**, and then click **Text**.  
+1. On the **File** menu, click **Save As**, and then click **Text**.  
   
-2.  In the **Save As** dialog, specify a path and filename, and then click Save.  
+2. In the **Save As** dialog, specify a path and filename, and then click Save.  
   
- To save trace results to a comma separated file:  
+   To save trace results to a comma separated file:  
   
-1.  On the **File** menu, click **Save As**, and then click **Comma Separated**.  
+3. On the **File** menu, click **Save As**, and then click **Comma Separated**.  
   
-2.  In the **Save As** dialog, specify a path and filename, and then click **Save**.  
+4. In the **Save As** dialog, specify a path and filename, and then click **Save**.  
   
 ## File Menu Keyboard Shortcuts  
   
@@ -119,21 +119,21 @@ Microsoft Host Integration Server Trace Viewer is graphical user interface to cr
 ## Trace Viewer Options  
  To set Trace Viewer tracing font options:  
   
-1.  Click **Tools** menu, click **Options**, and then click **Tracing Font**.  
+1. Click **Tools** menu, click **Options**, and then click **Tracing Font**.  
   
-2.  In the **Font** dialog, optionally select choice of **Font**, **Font style**, **Size**, **Effects**, **Script**, and then click **OK**.  
+2. In the **Font** dialog, optionally select choice of **Font**, **Font style**, **Size**, **Effects**, **Script**, and then click **OK**.  
   
- To set Trace Viewer editor font options:  
+   To set Trace Viewer editor font options:  
   
-1.  Click **Tools** menu, click **Options**, and then click **Editor Font**.  
+3. Click **Tools** menu, click **Options**, and then click **Editor Font**.  
   
-2.  In the **Font** dialog, optionally select choice of **Font**, **Font style**, **Size**, **Effects**, **Script**, and then click **OK**.  
+4. In the **Font** dialog, optionally select choice of **Font**, **Font style**, **Size**, **Effects**, **Script**, and then click **OK**.  
   
- To set Trace Viewer display columns options:  
+   To set Trace Viewer display columns options:  
   
-1.  Click **Tools** menu, click **Options**, and then click **Display Columns**.  
+5. Click **Tools** menu, click **Options**, and then click **Display Columns**.  
   
-2.  In the **Display Columns** dialog, optionally select from **Available Columns**, and then click **OK**.  
+6. In the **Display Columns** dialog, optionally select from **Available Columns**, and then click **OK**.  
   
 ## Trace File Options  
  To split a large trace file:  

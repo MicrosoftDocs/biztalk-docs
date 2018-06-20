@@ -35,22 +35,22 @@ This topic describes how to use the BizTalk Server Administration console to con
   
 ### To configure per-instance pipeline properties for a send port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the send port for which you want to configure pipeline properties, expand **Applications**, and then expand the application containing the send port.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the send port for which you want to configure pipeline properties, expand **Applications**, and then expand the application containing the send port.  
   
-3.  Click the **Send Ports** folder, right-click the send port, and then click **Properties**.  
+3. Click the **Send Ports** folder, right-click the send port, and then click **Properties**.  
   
-4.  Click the ellipsis (**…**) button to the right of the **Send Pipeline** box.  
+4. Click the ellipsis (**…**) button to the right of the **Send Pipeline** box.  
   
-5.  Configure the properties you want, and then click **OK**. Click **Help** on the properties page for more information.  
+5. Configure the properties you want, and then click **OK**. Click **Help** on the properties page for more information.  
   
-    > [!IMPORTANT]
-    >  Make sure that you enter correct information for pipelines properties. If you enter an invalid value, for example a string rather than a number, it will generate an error.  
+   > [!IMPORTANT]
+   >  Make sure that you enter correct information for pipelines properties. If you enter an invalid value, for example a string rather than a number, it will generate an error.  
   
-6.  If this is a solicit-response send port, click the ellipsis (**…**) button to the right of the **Receive Pipeline** box.  
+6. If this is a solicit-response send port, click the ellipsis (**…**) button to the right of the **Receive Pipeline** box.  
   
-7.  Configure the properties you want, and then click **OK** twice. Click **Help** on the properties page for more information.  
+7. Configure the properties you want, and then click **OK** twice. Click **Help** on the properties page for more information.  
   
 ## See Also  
  [Managing Pipelines](../core/managing-pipelines.md)   

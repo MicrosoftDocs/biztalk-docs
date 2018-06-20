@@ -18,34 +18,34 @@ The FileTransport sample demonstrates how to configure [!INCLUDE[btsCoName](../.
   
 > [!NOTE]
 >  This document assumes that you are installing [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] for internal testing or demonstration purposes only. It does not prescribe any minimum-security account or set up. You must use an account that has local administrative permissions throughout the procedures in this topic.  
-  
+> 
 > [!NOTE]
 >  This sample does not support message attachments.  
   
 ## FileTransport Binding Files  
  The FileTransport sample includes two binding files. You can use each of these binding files to set up File ports for use with a BTARN orchestration. These binding files are located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet \SDK\FileTransport. Open each binding file in an editor like Notepad to see the settings for the orchestration, send port, receive port, and receive location, as listed below.  
   
--   PrivateInitiatorusingFileDrops.xml  
+- PrivateInitiatorusingFileDrops.xml  
   
-    -   Orchestration: Microsoft.Solutions.BTARN.PrivateInitiator.PrivateInitiatorProcess  
+  -   Orchestration: Microsoft.Solutions.BTARN.PrivateInitiator.PrivateInitiatorProcess  
   
-    -   Send port: PrivateInitiator_To_File  
+  -   Send port: PrivateInitiator_To_File  
   
-    -   Receive port: File_To_PrivateInitiator  
+  -   Receive port: File_To_PrivateInitiator  
   
-    -   Receive location: File_To_PrivateInitiator  
+  -   Receive location: File_To_PrivateInitiator  
   
--   PrivateResponderusingFileDrops.xml  
+- PrivateResponderusingFileDrops.xml  
   
-    -   Orchestration: Microsoft.Solutions.BTARN.PrivateResponder.PrivateResponderProcess  
+  -   Orchestration: Microsoft.Solutions.BTARN.PrivateResponder.PrivateResponderProcess  
   
-    -   Send port: PrivateResponder_To_File  
+  -   Send port: PrivateResponder_To_File  
   
-    -   Receive port: File_To_PrivateResponder  
+  -   Receive port: File_To_PrivateResponder  
   
-    -   Receive location: File_To_PrivateResponder  
+  -   Receive location: File_To_PrivateResponder  
   
- The following procedure describes how to import the bindings from the binding files using the BTSTask command. For more information, see the "ImportBindings Command" topic in BizTalk Server Help.  
+  The following procedure describes how to import the bindings from the binding files using the BTSTask command. For more information, see the "ImportBindings Command" topic in BizTalk Server Help.  
   
 ## Procedure  
   

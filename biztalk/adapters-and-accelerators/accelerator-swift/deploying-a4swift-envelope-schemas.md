@@ -26,14 +26,14 @@ You must include envelope schemas in schema projects whenever you set up Message
   
  Add envelope schemas to your project, as follows:  
   
--   In Visual Studio, to the project that contains your message schemas, add an envelope schema for each message schema.  
+- In Visual Studio, to the project that contains your message schemas, add an envelope schema for each message schema.  
   
--   Add a reference to RuntimeSchemas.dll to any project that contains one or more envelope schemas.  
+- Add a reference to RuntimeSchemas.dll to any project that contains one or more envelope schemas.  
   
-    > [!NOTE]
-    >  Adding a reference to RuntimeSchemas.dll is required for an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] project only when you have added an envelope schema for Message Repair and New Submission to the project.  
+  > [!NOTE]
+  >  Adding a reference to RuntimeSchemas.dll is required for an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] project only when you have added an envelope schema for Message Repair and New Submission to the project.  
   
--   Add the Unparsed Message envelope schema (EnvelopeUnparsedMessage.xsd) to the project.  
+- Add the Unparsed Message envelope schema (EnvelopeUnparsedMessage.xsd) to the project.  
   
 ### To add a SWIFT envelope schema  
   

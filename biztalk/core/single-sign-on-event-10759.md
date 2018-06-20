@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10759
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10759|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_BACKUP_RESTORE_FAILED_MEDIA|  
-|Message Text|The file specified for backup or restore of the master secrets must be on an NTFS file system or removable media.|  
+|                 |                                                                                                                   |
+|-----------------|-------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                             Enterprise Single Sign-On                                             |
+| Product Version |                            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                             |
+|    Event ID     |                                                       10759                                                       |
+|  Event Source   |                                                      ENTSSO                                                       |
+|    Component    |                                                        N/A                                                        |
+|  Symbolic Name  |                                       ENTSSO_E_BACKUP_RESTORE_FAILED_MEDIA                                        |
+|  Message Text   | The file specified for backup or restore of the master secrets must be on an NTFS file system or removable media. |
   
 ## Explanation  
  Only NTFS file systems or removable media can be secured.  

@@ -145,17 +145,17 @@ This walkthrough provides step-by-step procedures for creating a vocabulary and 
   
 ## Comments  
   
--   After you save the vocabulary, you can still modify it. After you publish the vocabulary, you cannot modify it.  
+- After you save the vocabulary, you can still modify it. After you publish the vocabulary, you cannot modify it.  
   
--   If you need to modify a definition, add a new definition, or delete a definition, you should create a new version of the vocabulary.  
+- If you need to modify a definition, add a new definition, or delete a definition, you should create a new version of the vocabulary.  
   
--   Only published vocabularies can be used in policies.  
+- Only published vocabularies can be used in policies.  
   
--   In the "To create the POVocabulary vocabulary" procedure, you changed the document type to **RuleTest.PO**. To see the results of this change, in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, click **PO.xsd**. In the Properties window, note that **RuleTest** is the name of the namespace, and **PO** is the name of the **Type**.  
+- In the "To create the POVocabulary vocabulary" procedure, you changed the document type to **RuleTest.PO**. To see the results of this change, in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, click **PO.xsd**. In the Properties window, note that **RuleTest** is the name of the namespace, and **PO** is the name of the **Type**.  
   
--   In this walkthrough, you used only an XML document as a fact to the policy. You can also use .NET facts and database facts when you create policies  
+- In this walkthrough, you used only an XML document as a fact to the policy. You can also use .NET facts and database facts when you create policies  
   
--   When you select **Perform "Set" operation** on the second page of the Vocabulary Definition Wizard, you can specify a **Display format string** on the page that follows. For example, you could change the display format string from **Request Status {0}** to **Request status is: {0}** before clicking **Finish** in the step 20 of the "create vocabulary" procedure.  
+- When you select **Perform "Set" operation** on the second page of the Vocabulary Definition Wizard, you can specify a **Display format string** on the page that follows. For example, you could change the display format string from **Request Status {0}** to **Request status is: {0}** before clicking **Finish** in the step 20 of the "create vocabulary" procedure.  
   
 ## Next Steps  
  Now that you have completed this walkthrough, perform the [Walkthrough: Adding a Rule to the Policy](../core/walkthrough-adding-a-rule-to-the-policy.md) walkthrough, which gives you step-by-step instructions for adding a new rule to the **ProcessPurchaseOrder** policy.  

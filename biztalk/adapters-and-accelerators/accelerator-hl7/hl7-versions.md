@@ -22,25 +22,25 @@ HL7 Version 2 is a family of closely related standards rather than a single stan
   
  It is important to note that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]):  
   
--   Supports all live HL7 versions from Version 2.1 through Version 2.5  
+- Supports all live HL7 versions from Version 2.1 through Version 2.5  
   
--   Provides the functionality needed to map between HL7 versions, and enables the interoperability of multiple versions at a single site  
+- Provides the functionality needed to map between HL7 versions, and enables the interoperability of multiple versions at a single site  
   
--   Supports localization by supporting Z segments, and enables mapping between alternate interpretations or uses of the standard messages  
+- Supports localization by supporting Z segments, and enables mapping between alternate interpretations or uses of the standard messages  
   
- It is important to note the difference between the versions of the messaging standard:  
+  It is important to note the difference between the versions of the messaging standard:  
   
--   Version 1 functioned as a proof of concept  
+- Version 1 functioned as a proof of concept  
   
--   Version 2 provides a collection of message specifications to support message exchange between applications  
+- Version 2 provides a collection of message specifications to support message exchange between applications  
   
--   Version 3 will provide a model-based integrated set of specifications to support a range of interoperability needs  
+- Version 3 will provide a model-based integrated set of specifications to support a range of interoperability needs  
   
- In essence, Version 2 focuses on a pragmatic approach to providing users with the specifications they need to carry out specified tasks, while Version 3 focuses on assuring consistency and long-term extensibility for the body of message specifications taken as a whole.  
+  In essence, Version 2 focuses on a pragmatic approach to providing users with the specifications they need to carry out specified tasks, while Version 3 focuses on assuring consistency and long-term extensibility for the body of message specifications taken as a whole.  
   
- The Clinical Document Architecture provides a significant extension to the HL7 standard by introducing standards for the representation of clinical documents using XML.  
+  The Clinical Document Architecture provides a significant extension to the HL7 standard by introducing standards for the representation of clinical documents using XML.  
   
- The following table shows the HL7 standard development progression.  
+  The following table shows the HL7 standard development progression.  
   
 |Event|Year|Details|  
 |-----------|----------|-------------|  

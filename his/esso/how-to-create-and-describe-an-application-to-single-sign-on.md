@@ -21,23 +21,23 @@ A common administrative task that you might need to perform is adding an affilia
   
 ### To create and describe an application in the SSO database  
   
-1.  Create a new `ISSOAdmin` object.  
+1. Create a new `ISSOAdmin` object.  
   
-2.  Create a new application with a call to `ISSOAdmin.CreateApplication`.  
+2. Create a new application with a call to `ISSOAdmin.CreateApplication`.  
   
-3.  Add the relevant fields describing the application with a call to `ISSOAdmin.CreateFieldInfo`.  
+3. Add the relevant fields describing the application with a call to `ISSOAdmin.CreateFieldInfo`.  
   
-     During this step, you tell the database that an application has users and associated passwords.  
+    During this step, you tell the database that an application has users and associated passwords.  
   
-4.  Push the newly created description out to the server with a call to `ISSOAdmin.UpdateApplication` or `ISSOAdmin2.UpdateApplication2`.  
+4. Push the newly created description out to the server with a call to `ISSOAdmin.UpdateApplication` or `ISSOAdmin2.UpdateApplication2`.  
   
-     The difference between the two methods is that `UpdateApplication2` uses an `IPropertyBag` as the way to describe the application updates, while `UpdateApplication` has multiple parameters.  
+    The difference between the two methods is that `UpdateApplication2` uses an `IPropertyBag` as the way to describe the application updates, while `UpdateApplication` has multiple parameters.  
   
-5.  Purge the local cache for the changes you made by calling `ISSOAdmin.PurgeCacheForApplication`.  
+5. Purge the local cache for the changes you made by calling `ISSOAdmin.PurgeCacheForApplication`.  
   
-     Purging the local cache is a security measure that prevents having the names and passwords that you describe in step 3 to exist in an unsecured location.  
+    Purging the local cache is a security measure that prevents having the names and passwords that you describe in step 3 to exist in an unsecured location.  
   
- The following example shows how to create an application and add field information.  
+   The following example shows how to create an application and add field information.  
   
 ```  
 public static bool AddApplication(string name, string admins, string users)  

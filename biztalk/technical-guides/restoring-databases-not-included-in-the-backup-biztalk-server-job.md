@@ -16,11 +16,11 @@ manager: "anneta"
 # Restoring Databases Not Included in the Backup BizTalk Server Job
 This section describes how to restore databases that are part of the overall BizTalk solution but are not backed up by the Backup BizTalk Server job. All databases that are part of a BizTalk solution will be backed up by using the Backup BizTalk Server job except for the following:  
   
--   [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Analysis Services databases  
+- [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Analysis Services databases  
   
--   BAM databases when BAM is enabled and configured using BM.exe  
+- BAM databases when BAM is enabled and configured using BM.exe  
   
- This section also describes how to update database references after restoring the databases listed above and includes information about resolving incomplete BAM activity instances.  
+  This section also describes how to update database references after restoring the databases listed above and includes information about resolving incomplete BAM activity instances.  
   
 ## In This Section  
   

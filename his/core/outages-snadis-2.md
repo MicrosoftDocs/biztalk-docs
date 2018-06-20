@@ -18,20 +18,20 @@ If the SNALink detects a link or station failure, it reports the failure by send
   
  When the local node receives an Outage message, it:  
   
--   Logs an error containing the outage code.  
+- Logs an error containing the outage code.  
   
--   Cleans up each session using the connection and informs applications of the failure (for instance, with a Comm Check code on a 3270 emulator).  
+- Cleans up each session using the connection and informs applications of the failure (for instance, with a Comm Check code on a 3270 emulator).  
   
--   Sends a [Close(LINK) Request](./close-link-request1.md) to the SNALink.  
+- Sends a [Close(LINK) Request](./close-link-request1.md) to the SNALink.  
   
- On receipt of the **Close(LINK) Request**, the SNALink should clear up its internal resources for the connection and send back a [Close(LINK) Response](./close-link-response2.md).  
+  On receipt of the **Close(LINK) Request**, the SNALink should clear up its internal resources for the connection and send back a [Close(LINK) Response](./close-link-response2.md).  
   
- ![](../core/media/dev3p.gif "dev3p")  
-Local node receiving an Outage message and sending a Close(LINK) Request and a Close(LINK) response  
+  ![](../core/media/dev3p.gif "dev3p")  
+  Local node receiving an Outage message and sending a Close(LINK) Request and a Close(LINK) response  
   
- There is a special case when the node loses contact with the SNALink software. In this case, the node is notified of this event (a lost locality) and performs outage processing apart from sending messages to the SNALink.  
+  There is a special case when the node loses contact with the SNALink software. In this case, the node is notified of this event (a lost locality) and performs outage processing apart from sending messages to the SNALink.  
   
- The outage codes are not distinguished by the node, but they are logged. For the sake of consistency across SNALink implementations, the values listed in the following topics should be used.  
+  The outage codes are not distinguished by the node, but they are logged. For the sake of consistency across SNALink implementations, the values listed in the following topics should be used.  
   
 ## In This Section  
   

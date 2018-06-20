@@ -23,13 +23,13 @@ When you deploy a BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonum
   
 ### To undeploy an assembly  
   
-1.  Unenlist orchestrations used in the assembly that you want to undeploy by clicking the orchestration in BizTalk Explorer of Visual Studio, and then clicking **Unenlist**.  
+1. Unenlist orchestrations used in the assembly that you want to undeploy by clicking the orchestration in BizTalk Explorer of Visual Studio, and then clicking **Unenlist**.  
   
-2.  In any assembly that you want to keep deployed, remove references to assemblies that you want to undeploy. Right click the reference in Solution Explorer, and then click **Remove**.  
+2. In any assembly that you want to keep deployed, remove references to assemblies that you want to undeploy. Right click the reference in Solution Explorer, and then click **Remove**.  
   
-3.  Open BizTalk Explorer, right-click the assembly that you want to undeploy, and then click **Undeploy**.  
+3. Open BizTalk Explorer, right-click the assembly that you want to undeploy, and then click **Undeploy**.  
   
- For more information about undeploying an assembly, see "Undeploying an Assembly Using BizTalk Explorer" in BizTalk Server Help.  
+   For more information about undeploying an assembly, see "Undeploying an Assembly Using BizTalk Explorer" in BizTalk Server Help.  
   
 ## See Also  
  [Preparing to Use the Batching Tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)

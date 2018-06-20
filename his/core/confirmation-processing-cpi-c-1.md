@@ -16,17 +16,17 @@ manager: "anneta"
 # Confirmation Processing (CPI-C)
 The sequence of events for confirmation processing is as follows:  
   
-1.  Establish the synchronization level.  
+1. Establish the synchronization level.  
   
-2.  Send a confirmation request.  
+2. Send a confirmation request.  
   
-3.  Receive data and confirmation request.  
+3. Receive data and confirmation request.  
   
-4.  Respond to the confirmation request.  
+4. Respond to the confirmation request.  
   
-5.  Deallocate the conversation.  
+5. Deallocate the conversation.  
   
- Using confirmation processing, a transaction program (TP) sends a confirmation request with the data. The partner TP confirms receipt of the data or indicates that an error occurred. Each time the two TPs exchange a confirmation request and response, they are synchronized.  
+   Using confirmation processing, a transaction program (TP) sends a confirmation request with the data. The partner TP confirms receipt of the data or indicates that an error occurred. Each time the two TPs exchange a confirmation request and response, they are synchronized.  
   
 > [!NOTE]
 >  Although the example in this section does not show this, any TP can send or receive data, regardless of whether the TP is the invoking TP or the invokable TP.  
@@ -54,20 +54,20 @@ The sequence of events for confirmation processing is as follows:
 ## Establishing the Synchronization Level  
  The [Set_Sync_Level](./set-sync-level-cpi-c-1.md) call lets you override the default synchronization level of the conversation. The synchronization level is one of the conversation's characteristics. There are two possible synchronization levels:  
   
--   CM_CONFIRM, under which the TPs can request confirmation of receipt of data and respond to such requests.  
+- CM_CONFIRM, under which the TPs can request confirmation of receipt of data and respond to such requests.  
   
--   CM_NONE, the default, under which confirmation processing does not occur.  
+- CM_NONE, the default, under which confirmation processing does not occur.  
   
- The [Initialize_Conversation](./initialize-conversation-cpi-c-1.md) call sets the default characteristics of a conversation. There are several calls that begin with **Set_**. These calls let you override the default conversation characteristics.  
+  The [Initialize_Conversation](./initialize-conversation-cpi-c-1.md) call sets the default characteristics of a conversation. There are several calls that begin with **Set_**. These calls let you override the default conversation characteristics.  
   
 ## Sending a Confirmation Request  
  Issuing the [Confirm](./confirm-cpi-c-2.md) call has two effects:  
   
--   It flushes the local LU's send buffer and sends any data contained in the buffer to the partner TP.  
+- It flushes the local LU's send buffer and sends any data contained in the buffer to the partner TP.  
   
--   It sends a confirmation request that the partner TP receives through the *status_received* parameter of a [Receive](./receive-cpi-c-2.md) call.  
+- It sends a confirmation request that the partner TP receives through the *status_received* parameter of a [Receive](./receive-cpi-c-2.md) call.  
   
- After issuing **Confirm**, the local TP waits for confirmation from the partner TP.  
+  After issuing **Confirm**, the local TP waits for confirmation from the partner TP.  
   
 ## Receiving a Confirmation Request  
  The *status_received* parameter of the [Receive](./receive-cpi-c-2.md) call indicates any future action required by the local TP.  

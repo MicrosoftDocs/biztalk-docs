@@ -43,24 +43,24 @@ See [https://www.swift.com/our-solutions/interfaces-and-integration/alliance-gat
   
 1. Run the **Setup.exe** as administrator to start the installation.  
   
-2.  Select **Install**.  
+2. Select **Install**.  
   
-3.  Enter your user name and organization name, and then select **Next**.  
+3. Enter your user name and organization name, and then select **Next**.  
   
-4.  **Accept** the license agreement.
+4. **Accept** the license agreement.
   
-5.  On the **Installation Options** page, do one of the following:  
+5. On the **Installation Options** page, do one of the following:  
   
-    -   Select the **Complete** option to install all components of the FileAct and InterAct adapters.  
+   - Select the **Complete** option to install all components of the FileAct and InterAct adapters.  
   
-    -   Select the **Custom** option to choose which components to install.  
+   - Select the **Custom** option to choose which components to install.  
   
      Verify the installation location, or select **Browse** to select a different installation location. Select **Next**.  
   
-6.  On the **Summary** page, select **Install** to install the listed components.  
+6. On the **Summary** page, select **Install** to install the listed components.  
   
-    > [!NOTE]
-    >  When **Run Configuration Wizard** is selected (the default), the **Microsoft BizTalk FileAct and InterAct Adapter Configuration** wizard runs automatically when you select **Finish**.  
+   > [!NOTE]
+   >  When **Run Configuration Wizard** is selected (the default), the **Microsoft BizTalk FileAct and InterAct Adapter Configuration** wizard runs automatically when you select **Finish**.  
   
 7. When the installation completes, select **Finish**. 
 

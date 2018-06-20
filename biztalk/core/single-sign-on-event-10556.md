@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10556
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10556|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_INVALID_GROUP_USER|  
-|Message Text|The mapping specified for a Group application is not valid. The mapping must specify one of the Application Users accounts for this application.%r<br /><br /> Domain Name: %1%r<br /><br /> User Name: %2%r<br /><br /> Application Name: %3%r<br /><br /> Application Users: %4|  
+|                 |                                                                                                                                                                                                                                                                                   |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                                                             Enterprise Single Sign-On                                                                                                                             |
+| Product Version |                                                                                                            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                                             |
+|    Event ID     |                                                                                                                                       10556                                                                                                                                       |
+|  Event Source   |                                                                                                                                      ENTSSO                                                                                                                                       |
+|    Component    |                                                                                                                                        N/A                                                                                                                                        |
+|  Symbolic Name  |                                                                                                                            SSO_WARN_INVALID_GROUP_USER                                                                                                                            |
+|  Message Text   | The mapping specified for a Group application is not valid. The mapping must specify one of the Application Users accounts for this application.%r<br /><br /> Domain Name: %1%r<br /><br /> User Name: %2%r<br /><br /> Application Name: %3%r<br /><br /> Application Users: %4 |
   
 ## Explanation  
  The mapping is not valid.  

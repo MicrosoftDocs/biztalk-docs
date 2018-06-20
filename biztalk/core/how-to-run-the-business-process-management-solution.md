@@ -33,49 +33,49 @@ The following steps describe how to run and validate the Business Process Manage
   
 #### To start the Business Process Management Solution  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the **BizTalk Server Administration Console**, expand **BizTalk Group**, expand **Platform Settings**, expand **Host Instances**, right-click **BizTalkServerApplication**, and then click **Start**.  
+2. In the **BizTalk Server Administration Console**, expand **BizTalk Group**, expand **Platform Settings**, expand **Host Instances**, right-click **BizTalkServerApplication**, and then click **Start**.  
   
-3.  In the **BizTalk Server Administration Console**, expand **BizTalk Group**, and then expand **Applications**.  
+3. In the **BizTalk Server Administration Console**, expand **BizTalk Group**, and then expand **Applications**.  
   
-    1.  Right-click BTSScn.BPM.MessagingApp, click **Start**, and then click **Start** on the **Start Application** dialog box.  
+   1.  Right-click BTSScn.BPM.MessagingApp, click **Start**, and then click **Start** on the **Start Application** dialog box.  
   
-    2.  Right-click BTSScn.BPM.OrderBrokerApp, click **Start**, and then click **Start** on the **Start Application** dialog box.  
+   2.  Right-click BTSScn.BPM.OrderBrokerApp, click **Start**, and then click **Start** on the **Start Application** dialog box.  
   
-    3.  Right-click BTSScn.BPM.CableOrderApp, click **Start**, and then click **Start** on the **Start Application** dialog box.  
+   3.  Right-click BTSScn.BPM.CableOrderApp, click **Start**, and then click **Start** on the **Start Application** dialog box.  
   
-    4.  Right-click BTSScn.BPM.OrderBrokerApp.Test, and click **Stop**. In the **Stop Application** dialog box, select **Full Stop - Terminate instance**, and then click **Stop**.  
+   4.  Right-click BTSScn.BPM.OrderBrokerApp.Test, and click **Stop**. In the **Stop Application** dialog box, select **Full Stop - Terminate instance**, and then click **Stop**.  
   
-    > [!NOTE]
-    >  To insert information in the history database. the OrderBroker orchestration uses the HistoryPort send port of which the **Delivery Notification** property is set **Transmitted**. The send port is bounded to the HistoryInsert-SPG send group which includes the HistoryInsert-SP and HistoryInsert-Test-SP send ports. For these two send ports the message engine will publish two acknowledgment messages to the OrderBroker orchestration. It makes the orchestration suspended due to unconsumed messages. To avoid this situation, you must unenlist one of the send ports. In this walkthrough, unenlist HistoryInsert-Test-SP send port by fully stopping the BTSScn.BPM.OrderBrokerApp.Test application. For more information about the OrderBroker orchestration, see [Processing in the OrderBroker Orchestration](../core/processing-in-the-orderbroker-orchestration.md). For more information about **Delivery Notification** property, see [Using Acknowledgments](../core/using-acknowledgments.md).  
+   > [!NOTE]
+   >  To insert information in the history database. the OrderBroker orchestration uses the HistoryPort send port of which the **Delivery Notification** property is set **Transmitted**. The send port is bounded to the HistoryInsert-SPG send group which includes the HistoryInsert-SP and HistoryInsert-Test-SP send ports. For these two send ports the message engine will publish two acknowledgment messages to the OrderBroker orchestration. It makes the orchestration suspended due to unconsumed messages. To avoid this situation, you must unenlist one of the send ports. In this walkthrough, unenlist HistoryInsert-Test-SP send port by fully stopping the BTSScn.BPM.OrderBrokerApp.Test application. For more information about the OrderBroker orchestration, see [Processing in the OrderBroker Orchestration](../core/processing-in-the-orderbroker-orchestration.md). For more information about **Delivery Notification** property, see [Using Acknowledgments](../core/using-acknowledgments.md).  
   
-4.  Run the Facilities Simulator as follows:  
+4. Run the Facilities Simulator as follows:  
   
-    1.  Open a command prompt, change the directory to the %BTSSolutionsPath%\BPM\FacilitiesSimulator\bin\debug folder.  
+   1.  Open a command prompt, change the directory to the %BTSSolutionsPath%\BPM\FacilitiesSimulator\bin\debug folder.  
   
-    2.  Type `BTSScnBPMFacilities.exe`, and then press ENTER. Keep the FacilitiesSimulator running. This application simulates the facilities processing back-end systems at Southridge Video.  
+   2.  Type `BTSScnBPMFacilities.exe`, and then press ENTER. Keep the FacilitiesSimulator running. This application simulates the facilities processing back-end systems at Southridge Video.  
   
-    3.  In the FacilitiesSimulator, type the following receive and transmit queues:  
+   3.  In the FacilitiesSimulator, type the following receive and transmit queues:  
   
-        |Name|Value|  
-        |----------|-----------|  
-        |**Receive Queue**|`.\private$\ToFacilitiesQ`|  
-        |**Transmit Queue**|`.\private$\FromFacilitiesQ`|  
+       |Name|Value|  
+       |----------|-----------|  
+       |**Receive Queue**|`.\private$\ToFacilitiesQ`|  
+       |**Transmit Queue**|`.\private$\FromFacilitiesQ`|  
   
-    4.  In the FacilitiesSimulator, Click **Start**.  
+   4.  In the FacilitiesSimulator, Click **Start**.  
   
-5.  Run the Operation Server as follows:  
+5. Run the Operation Server as follows:  
   
-    1.  Open a new command prompt, change the current directory to the %BTSSolutionsPath%\BPM\OperationsServer\bin\debug folder.  
+   1.  Open a new command prompt, change the current directory to the %BTSSolutionsPath%\BPM\OperationsServer\bin\debug folder.  
   
-    2.  Type `BTSScnBPMOperations.exe 8881` at the command prompt, and then press ENTER. Keep the Operation Server running. The Operation Server listens on the TCP port, 8881, to receive error messages from the Ops Adapter. It displays the error messages received by the Ops Adapter.  
+   2.  Type `BTSScnBPMOperations.exe 8881` at the command prompt, and then press ENTER. Keep the Operation Server running. The Operation Server listens on the TCP port, 8881, to receive error messages from the Ops Adapter. It displays the error messages received by the Ops Adapter.  
   
-6.  Run the Cable Provisioning System as follows:  
+6. Run the Cable Provisioning System as follows:  
   
-    1.  Open a new command prompt, change the current directory to the %BTSSolutionsPath%\BPM\CableProvisioningSystemServer\bin\debug folder.  
+   1.  Open a new command prompt, change the current directory to the %BTSSolutionsPath%\BPM\CableProvisioningSystemServer\bin\debug folder.  
   
-    2.  Type `BTSScnBPMProvisioning.exe 8880`, and then press ENTER. Then, keep the Cable Provisioning System running. The Cable Provisioning System listens on the TCP port, 8880. This application simulates a back-end order system, and displays the final orders.  
+   2.  Type `BTSScnBPMProvisioning.exe 8880`, and then press ENTER. Then, keep the Cable Provisioning System running. The Cable Provisioning System listens on the TCP port, 8880. This application simulates a back-end order system, and displays the final orders.  
   
 ##  <a name="step3"></a> Run and validate the Business Process Management Solution  
   

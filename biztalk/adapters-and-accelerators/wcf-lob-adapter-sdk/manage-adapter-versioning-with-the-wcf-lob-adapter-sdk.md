@@ -23,13 +23,13 @@ After initial deployment of adapters and potentially several times during their 
 ## Versioning Scenarios  
  There are two primary versioning scenarios:  
   
--   One adapter version supports multiple versions of the target system.  
+- One adapter version supports multiple versions of the target system.  
   
--   Two or more adapter versions support the same system or two or more different systems.  
+- Two or more adapter versions support the same system or two or more different systems.  
   
- You may also need to release a new version of your adapter if updates to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] affect existing functionality.  
+  You may also need to release a new version of your adapter if updates to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] affect existing functionality.  
   
- Each of these scenarios requires a different versioning strategy.  
+  Each of these scenarios requires a different versioning strategy.  
   
 > [!NOTE]
 >  The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] does not enforce any specific versioning scenarios. It is left to the developer to determine versioning requirements for an adapter.  

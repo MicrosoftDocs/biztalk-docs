@@ -31,21 +31,21 @@ This topic describes how to set up a send port that you can use to delete orphan
   
 ### To create a send port to handle orphan or duplicate messages  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **View** menu, click **BizTalk Explorer**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **View** menu, click **BizTalk Explorer**.  
   
-2.  In BizTalk Explorer, expand **BizTalk Management Database**, and then expand **Send Ports**.  
+2. In BizTalk Explorer, expand **BizTalk Management Database**, and then expand **Send Ports**.  
   
-3.  Right-click **Send Ports**, and then click **Add Send Port**.  
+3. Right-click **Send Ports**, and then click **Add Send Port**.  
   
-4.  In the Create New Send Port window, select **Static One-Way Port**, and then click **OK**.  
+4. In the Create New Send Port window, select **Static One-Way Port**, and then click **OK**.  
   
-5.  In the Static One-Way Send Port Properties window, in the **Name** box, type a name for the send port.  
+5. In the Static One-Way Send Port Properties window, in the **Name** box, type a name for the send port.  
   
-6.  In the left pane, click **Transport**. In the right pane, click **Transport Type**, and select **FILE** for the transport type. Click the ellipsis button (...) next to **Address (URI)**, type a location on your hard disk, and then click **OK**.  
+6. In the left pane, click **Transport**. In the right pane, click **Transport Type**, and select **FILE** for the transport type. Click the ellipsis button (...) next to **Address (URI)**, type a location on your hard disk, and then click **OK**.  
   
-7.  In the left pane, click **Send**, click **Send Pipeline**, and then select **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**.  
+7. In the left pane, click **Send**, click **Send Pipeline**, and then select **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**.  
   
-8.  In the left pane, click **Filters and Maps**, and then click **Filters**.  
+8. In the left pane, click **Filters and Maps**, and then click **Filters**.  
   
 9. On the first line in the right pane, for **Property**, select **Microsoft.Solutions.BTARN.GlobalSchemas.IsDuplicateMessage** from the drop-down list, leave the **Operator** as **==**, enter **True** for **Value**, and then select **Or** from the drop-down list for **Group**.  
   

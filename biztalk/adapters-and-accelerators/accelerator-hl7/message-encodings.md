@@ -26,21 +26,21 @@ It is not sufficient to define message semantics in order for HL7 to be useful. 
   
  The original HL7 encoding defines five delimiters, which each message declares within the MSH segment. These indicate:  
   
--   Segments  
+- Segments  
   
--   Fields  
+- Fields  
   
--   Components  
+- Components  
   
--   Subcomponents  
+- Subcomponents  
   
--   Repetition (of a field, component, or subcomponent)  
+- Repetition (of a field, component, or subcomponent)  
   
- Note that since delimiters are a fundamental aspect of the encoding, you must define them first. One result of this is that there can be no sub-sub-delimiter. At times, this limitation has unfortunate effects upon the design of new data types.  
+  Note that since delimiters are a fundamental aspect of the encoding, you must define them first. One result of this is that there can be no sub-sub-delimiter. At times, this limitation has unfortunate effects upon the design of new data types.  
   
- In June 2003, HL7 published HL7 Version 2, XML Encoding Syntax, Release 1. This standard defines alternate encoding rules for HL7 Version 2.3.1 and 2.4 messages, and provides a mechanism for determining alternate encoding rules for subsequent HL7 2.X versions. In essence, this new standard defines XML element tags for the Version 2.3.1 and V2.4 abstract messages, segments, fields, and data types, and creates rules for defining the tags needed for any new structures created for subsequent versions of the Version 2 standard. The process of defining this standard led to a series of improvements in versions 2.4 and 2.5. This happened because creation of XML tags led to the need to address some longstanding ambiguities in the underlying standard. As a result, a) well-defined message structure codes were created to indicate variations in the abstract messages associated with trigger events, b) repeating groups of segments with an abstract message were formally identified and named, and c) the locally defined data type, CM was replaced with more specific types.  
+  In June 2003, HL7 published HL7 Version 2, XML Encoding Syntax, Release 1. This standard defines alternate encoding rules for HL7 Version 2.3.1 and 2.4 messages, and provides a mechanism for determining alternate encoding rules for subsequent HL7 2.X versions. In essence, this new standard defines XML element tags for the Version 2.3.1 and V2.4 abstract messages, segments, fields, and data types, and creates rules for defining the tags needed for any new structures created for subsequent versions of the Version 2 standard. The process of defining this standard led to a series of improvements in versions 2.4 and 2.5. This happened because creation of XML tags led to the need to address some longstanding ambiguities in the underlying standard. As a result, a) well-defined message structure codes were created to indicate variations in the abstract messages associated with trigger events, b) repeating groups of segments with an abstract message were formally identified and named, and c) the locally defined data type, CM was replaced with more specific types.  
   
- For example, the following is a simple acknowledgment message using the traditional pipe delimited format:  
+  For example, the following is a simple acknowledgment message using the traditional pipe delimited format:  
   
 ```  
 MSH|^~\&|LAB|767543|ADT|767543|199003141304-0500||ACK^^ACK|XX3657|P|2.4  

@@ -24,18 +24,18 @@ When you create a link in a map, the BizTalk Mapper automatically creates compil
   
 ### To set the Target Links property  
   
-1.  On the map grid page, click a link to which you want to set the target links property.  
+1. On the map grid page, click a link to which you want to set the target links property.  
   
-2.  In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]**Properties** window, set the **Target Links** property to one of the following choices:  
+2. In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]**Properties** window, set the **Target Links** property to one of the following choices:  
   
-    -   **Flatten Links.** The hierarchy in the source record node is flattened to the linked-to-record node in the destination schema.  
+   -   **Flatten Links.** The hierarchy in the source record node is flattened to the linked-to-record node in the destination schema.  
   
-        > [!NOTE]
-        >  By default, the BizTalk Mapper sets the **Target Links** property to **Flatten**.  
+       > [!NOTE]
+       >  By default, the BizTalk Mapper sets the **Target Links** property to **Flatten**.  
   
-    -   **Match Links Top Down.** Node matching is performed level-to-level from the top down.  
+   -   **Match Links Top Down.** Node matching is performed level-to-level from the top down.  
   
-    -   **Match Links Bottom Up.** Node matching is performed level-to-level from the bottom up.  
+   -   **Match Links Bottom Up.** Node matching is performed level-to-level from the bottom up.  
   
 ## See Also  
  [Node-Hierarchy Level Matching](../core/node-hierarchy-level-matching.md)   

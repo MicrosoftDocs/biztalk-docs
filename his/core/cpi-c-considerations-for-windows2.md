@@ -44,22 +44,22 @@ This topic summarizes information you should keep in mind when you develop progr
  *Run-time linking*  
  For a TP to be dynamically linked to CPI-C at run time, the TP must issue:  
   
--   **LoadLibrary** to dynamically load WINCPIC.DLL or WINCPIC32.DLL, the libraries for WINCPIC.  
+- **LoadLibrary** to dynamically load WINCPIC.DLL or WINCPIC32.DLL, the libraries for WINCPIC.  
   
--   **GetProcAddress** to specify WINCPIC as the desired entry point to the dynamic-link library (DLL).  
+- **GetProcAddress** to specify WINCPIC as the desired entry point to the dynamic-link library (DLL).  
   
--   **FreeLibrary** when the CPI-C library is no longer required.  
+- **FreeLibrary** when the CPI-C library is no longer required.  
   
- *Simultaneous conversations*  
- A program can simultaneously participate in as many as 64 conversations per process.  
+  *Simultaneous conversations*  
+  A program can simultaneously participate in as many as 64 conversations per process.  
   
- *Terminating applications*  
- In Windows operating systems, CPI-C cannot tell when an application terminates. Therefore, if an application must close (for example, it receives a WM_CLOSE message as a result of an ALT+F4 from a user), the application should call [WinCPICCleanup](./wincpiccleanup2.md).  
+  *Terminating applications*  
+  In Windows operating systems, CPI-C cannot tell when an application terminates. Therefore, if an application must close (for example, it receives a WM_CLOSE message as a result of an ALT+F4 from a user), the application should call [WinCPICCleanup](./wincpiccleanup2.md).  
   
- *Yielding to other components*  
- When processing CPI-C and Common Service Verbs (CSV), it may be necessary for the library code to yield to enable another component, such as the SnaBase, to receive messages and pass them to the application. This can be accomplished by using the Windows extensions [WinCPICSetBlockingHook](./wincpicsetblockinghook2.md) and [WinCPICUnhookBlockingHook](./wincpicunhookblockinghook2.md).  
+  *Yielding to other components*  
+  When processing CPI-C and Common Service Verbs (CSV), it may be necessary for the library code to yield to enable another component, such as the SnaBase, to receive messages and pass them to the application. This can be accomplished by using the Windows extensions [WinCPICSetBlockingHook](./wincpicsetblockinghook2.md) and [WinCPICUnhookBlockingHook](./wincpicunhookblockinghook2.md).  
   
- **WinCPICSetBlockingHook** enables a Windows CPI-C implementation to block CPI-C function calls by means of a new function. To call **WinCPICSetBlockingHook**:  
+  **WinCPICSetBlockingHook** enables a Windows CPI-C implementation to block CPI-C function calls by means of a new function. To call **WinCPICSetBlockingHook**:  
   
 ```  
 FARPROC WINAPI WinCPICSetBlockingHook (FARPROC 1pBlockFunc)  

@@ -21,17 +21,17 @@ In this lesson, you create and build the first project in the enterprise applica
   
  In the EAI solution, a warehouse system sends a request message for inventory replenishment to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] for processing. In this lesson, you create the following items:  
   
--   The EAI solution, to hold the project.  
+- The EAI solution, to hold the project.  
   
--   The project, to hold the schemas and the map.  
+- The project, to hold the schemas and the map.  
   
--   The schema, for the message the warehouse sends to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to request inventory replenishment.  
+- The schema, for the message the warehouse sends to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to request inventory replenishment.  
   
--   The schema, for the message that the warehouse is expecting when a request is rejected.  
+- The schema, for the message that the warehouse is expecting when a request is rejected.  
   
--   A map, for reformatting a request message to create a request decline message.  
+- A map, for reformatting a request message to create a request decline message.  
   
- Finally you build the project before starting [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md). In Lesson 2, you create the business process that routes the messages and evaluates the contents of the inventory replenishment request message against approval criteria.  
+  Finally you build the project before starting [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md). In Lesson 2, you create the business process that routes the messages and evaluates the contents of the inventory replenishment request message against approval criteria.  
   
 ## In This Section  
   

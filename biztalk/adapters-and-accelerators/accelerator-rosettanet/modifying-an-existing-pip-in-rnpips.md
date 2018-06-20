@@ -23,24 +23,24 @@ This topic describes how to change and re-deploy one of the Partner Interface Pr
   
 ### To modify an existing PIP in RNPIPs  
   
-1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Locate the \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Utilities\Schema Generator folder.  
+2. Locate the \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Utilities\Schema Generator folder.  
   
-3.  At the command prompt, type **CScript InstallDTD.vbs**, and then press ENTER.  
+3. At the command prompt, type **CScript InstallDTD.vbs**, and then press ENTER.  
   
-    > [!NOTE]
-    >  You only have to do steps 1 and 2 one time after you install BizTalk Server.  
+   > [!NOTE]
+   >  You only have to do steps 1 and 2 one time after you install BizTalk Server.  
   
-4.  Start **Microsoft Visual Studio 2012**.  
+4. Start **Microsoft Visual Studio 2012**.  
   
-5.  In the **File** menu, point to **Open**, and then click **Project**.  
+5. In the **File** menu, point to **Open**, and then click **Project**.  
   
-6.  In the **Open Project** dialog box, move to \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas, and then select **RNPIPs.btproj**.  
+6. In the **Open Project** dialog box, move to \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas, and then select **RNPIPs.btproj**.  
   
-7.  In the **View** menu, click **BizTalk Explorer**. Expand **Assemblies**, and then right-click **Microsoft.Solutions.BTARN.Schemas.RNPIPs(3.3.0.0)**. Click **Undeploy**.  
+7. In the **View** menu, click **BizTalk Explorer**. Expand **Assemblies**, and then right-click **Microsoft.Solutions.BTARN.Schemas.RNPIPs(3.3.0.0)**. Click **Undeploy**.  
   
-8.  Start **Visual Studio 2012 Command Prompt**.  
+8. Start **Visual Studio 2012 Command Prompt**.  
   
 9. Move to the location entered in step 6, at the command prompt, type **sn -k RNPIPs.snk**, and then press **Enter**.  
   

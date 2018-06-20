@@ -16,17 +16,17 @@ The Transport Adapter password is stored as asterisks (\*\*\*\*\*\*) in the bind
   
 #### To work around the password limitation  
   
-1.  Edit the binding file before importing by replacing the stars with plain text.  
+1. Edit the binding file before importing by replacing the stars with plain text.  
   
-    > [!CAUTION]
-    >  This is not recommended for security reasons.  
+   > [!CAUTION]
+   >  This is not recommended for security reasons.  
   
-2.  Edit the binding file before importing by replacing the stars with some junk value (that is, not the correct password). Enter the correct password using the **Transport Properties** page after importing the binding file.  
+2. Edit the binding file before importing by replacing the stars with some junk value (that is, not the correct password). Enter the correct password using the **Transport Properties** page after importing the binding file.  
   
-    > [!NOTE]
-    >  This work-around can be used only if Microsoft Visual Studio is installed on the target computer or by developing a custom tool.  
+   > [!NOTE]
+   >  This work-around can be used only if Microsoft Visual Studio is installed on the target computer or by developing a custom tool.  
   
- **-OR-**  
+   **-OR-**  
   
 #### To work around the password limitation  
   

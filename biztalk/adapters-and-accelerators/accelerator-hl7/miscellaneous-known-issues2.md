@@ -31,11 +31,11 @@ This section contains useful information about miscellaneous errors.
 ## Access Database Errors  
  The HL7 Access databases contained the following errors:  
   
--   Field 27 of the OBR segment in the HL7 V2.3 Access database was incorrectly marked as non-repeatable and required. A change has occurred in this [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] schemas field to the correct values of repeatable and optional.  
+- Field 27 of the OBR segment in the HL7 V2.3 Access database was incorrectly marked as non-repeatable and required. A change has occurred in this [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] schemas field to the correct values of repeatable and optional.  
   
--   Field 2 of the OBX segment in the HL7 V2.3 Access database was incorrectly marked as required, and field 10 of the OBX segment in the HL7 V2.3 Access database was incorrectly marked as non-repeatable. In the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] schemas, field 2 is marked as optional and field 10 is marked as repeatable.  
+- Field 2 of the OBX segment in the HL7 V2.3 Access database was incorrectly marked as required, and field 10 of the OBX segment in the HL7 V2.3 Access database was incorrectly marked as non-repeatable. In the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] schemas, field 2 is marked as optional and field 10 is marked as repeatable.  
   
--   Field 4 of the OBX segment in the HL7 V2.3.1 Access database was incorrectly marked as required. This field in the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] schemas is marked correctly as optional.  
+- Field 4 of the OBX segment in the HL7 V2.3.1 Access database was incorrectly marked as required. This field in the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] schemas is marked correctly as optional.  
   
 ## Logging service account may not have access to databases that are not created by the setup program  
  When you configure the Logging store to point to a newly created database, which the setup program did not create, the new database may not have the Logging service account listed for access. Ensure that the Logging service account has access to all newly created Logging databases.  

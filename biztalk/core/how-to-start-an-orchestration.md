@@ -37,17 +37,17 @@ This topic describes how to use the BizTalk Server Administration console to sta
   
 ### To start an orchestration  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to start.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to start.  
   
-3.  Click **Orchestrations**, right-click the orchestration, and then click **Start**.  
+3. Click **Orchestrations**, right-click the orchestration, and then click **Start**.  
   
-    > [!IMPORTANT]
-    >  If you did not first enlist the associated send port and send port groups before starting the orchestration, you will see an error message.  
+   > [!IMPORTANT]
+   >  If you did not first enlist the associated send port and send port groups before starting the orchestration, you will see an error message.  
   
-    > [!NOTE]
-    >  To start multiple orchestrations at once, hold down the shift key and select each orchestration, right-click an orchestration, and then click **Start**.  
+   > [!NOTE]
+   >  To start multiple orchestrations at once, hold down the shift key and select each orchestration, right-click an orchestration, and then click **Start**.  
   
 ## See Also  
  [Managing Orchestrations](../core/managing-orchestrations.md)   

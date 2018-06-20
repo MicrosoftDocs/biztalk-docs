@@ -77,50 +77,50 @@ NOTE: The following fields are present when the high bit of opext is set (opext 
  *sync_level*  
  Returned parameter. Specifies the level of synchronization processing for the conversation. This parameter determines whether the TPs can request confirmation of receipt of data and confirm receipt of data.  
   
--   AP_NONE indicates that confirmation processing will not be used in this conversation.  
+- AP_NONE indicates that confirmation processing will not be used in this conversation.  
   
--   AP_CONFIRM_SYNC_LEVEL indicates that TPs can use confirmation processing in this conversation.  
+- AP_CONFIRM_SYNC_LEVEL indicates that TPs can use confirmation processing in this conversation.  
   
--   AP_SYNCPT indicates that TPs can use Sync Point Level 2 confirmation processing in this conversation.  
+- AP_SYNCPT indicates that TPs can use Sync Point Level 2 confirmation processing in this conversation.  
   
- *mode_name*  
- Returned parameter. Specifies the name of a set of networking characteristics. It is a type A EBCDIC character string.  
+  *mode_name*  
+  Returned parameter. Specifies the name of a set of networking characteristics. It is a type A EBCDIC character string.  
   
- *net_name*  
- Returned parameter. Specifies the name of the SNA network containing the local logical unit (LU) used by this TP. It is a type A EBCDIC character string.  
+  *net_name*  
+  Returned parameter. Specifies the name of the SNA network containing the local logical unit (LU) used by this TP. It is a type A EBCDIC character string.  
   
- *lu_name*  
- Returned parameter. Provides the name of the local LU.  
+  *lu_name*  
+  Returned parameter. Provides the name of the local LU.  
   
- *lu_alias*  
- Returned parameter. Provides the alias by which the local LU is known to the local TP. It is an ASCII character string.  
+  *lu_alias*  
+  Returned parameter. Provides the alias by which the local LU is known to the local TP. It is an ASCII character string.  
   
- *plu_alias*  
- Returned parameter. Provides the alias by which the partner LU is known to the local TP. It is an ASCII character string.  
+  *plu_alias*  
+  Returned parameter. Provides the alias by which the partner LU is known to the local TP. It is an ASCII character string.  
   
- *plu_un_name*  
- Returned parameter. Specifies the uninterpreted name of the partner LU—the name of the partner LU as defined to the system services control point (SSCP). It is a type AE EBCDIC character string. This parameter is returned only if the local LU is dependent.  
+  *plu_un_name*  
+  Returned parameter. Specifies the uninterpreted name of the partner LU—the name of the partner LU as defined to the system services control point (SSCP). It is a type AE EBCDIC character string. This parameter is returned only if the local LU is dependent.  
   
- *fqplu_name*  
- Returned parameter. Provides the fully qualified name of the partner LU. It is a type A EBCDIC character string. The field contains the network name, an EBCDIC period, and the partner-LU name.  
+  *fqplu_name*  
+  Returned parameter. Provides the fully qualified name of the partner LU. It is a type A EBCDIC character string. The field contains the network name, an EBCDIC period, and the partner-LU name.  
   
- *user_id*  
- Returned parameter. Specifies the user identifier sent by the invoking TP through [ALLOCATE](../core/allocate2.md) to access the invoked TP (if applicable). It is a type AE EBCDIC character string. The field contains the user identifier if the following conditions are true:  
+  *user_id*  
+  Returned parameter. Specifies the user identifier sent by the invoking TP through [ALLOCATE](../core/allocate2.md) to access the invoked TP (if applicable). It is a type AE EBCDIC character string. The field contains the user identifier if the following conditions are true:  
   
--   The invoked TP requires conversation security.  
+- The invoked TP requires conversation security.  
   
--   **GET_ATTRIBUTES** was issued by the invoked TP.  
+- **GET_ATTRIBUTES** was issued by the invoked TP.  
   
- Otherwise, the field contains spaces.  
+  Otherwise, the field contains spaces.  
   
- *conv_group_id*  
- Returned parameter. Specifies the conversation group identifier for the session to which the conversation has been allocated. This is also returned on [ALLOCATE](../core/allocate2.md) and [RECEIVE_ALLOCATE](../core/receive-allocate1.md).  
+  *conv_group_id*  
+  Returned parameter. Specifies the conversation group identifier for the session to which the conversation has been allocated. This is also returned on [ALLOCATE](../core/allocate2.md) and [RECEIVE_ALLOCATE](../core/receive-allocate1.md).  
   
- *conv_corr_len*  
- Returned parameter. Specifies the length of the conversation correlator identifier that is returned.  
+  *conv_corr_len*  
+  Returned parameter. Specifies the length of the conversation correlator identifier that is returned.  
   
- *conv_corr*  
- Returned parameter. Specifies the conversation correlator identifier (if any) that the source LU assigns to identify the conversation, which is unique for the source/partner LU pair. It is sent by the source LU on the allocation request.  
+  *conv_corr*  
+  Returned parameter. Specifies the conversation correlator identifier (if any) that the source LU assigns to identify the conversation, which is unique for the source/partner LU pair. It is sent by the source LU on the allocation request.  
   
 > [!NOTE]
 >  The following fields are present when the high bit of **opext** is set(**opext** & AP_EXTD_VCB) != 0.These fields are only present when using Sync Point Level 2 support.  
@@ -149,28 +149,28 @@ NOTE: The following fields are present when the high bit of opext is set (opext 
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
 ## Remarks  
  The conversation can be in any state except RESET when the TP issues this verb.  

@@ -18,10 +18,10 @@ Most vendor management packs are sealed so that you cannot change any of the ori
   
  Creating a new management pack for storing overrides has the following advantages:  
   
--   It simplifies the process of exporting customizations that were created in your test and pre-production environments to your production environment. For example, instead of exporting the Default Management Pack that contains customizations from multiple management packs, you can export just the management pack that contains customizations of a single management pack.  
+- It simplifies the process of exporting customizations that were created in your test and pre-production environments to your production environment. For example, instead of exporting the Default Management Pack that contains customizations from multiple management packs, you can export just the management pack that contains customizations of a single management pack.  
   
--   You can delete the original management pack without first having to delete the Default Management Pack. A management pack that contains customizations depends on the original management pack. This dependency requires you to delete the management pack with customizations before you can delete the original management pack. If all of your customizations are saved to the Default Management Pack, you must delete the Default Management Pack before you can delete an original management pack.  
+- You can delete the original management pack without first having to delete the Default Management Pack. A management pack that contains customizations depends on the original management pack. This dependency requires you to delete the management pack with customizations before you can delete the original management pack. If all of your customizations are saved to the Default Management Pack, you must delete the Default Management Pack before you can delete an original management pack.  
   
--   It is easier to track and update customizations to individual management packs.  
+- It is easier to track and update customizations to individual management packs.  
   
- For more information about sealed and unsealed management packs, see [Management Pack Formats](http://go.microsoft.com/fwlink/?LinkID=198193) (http://go.microsoft.com/fwlink/?LinkId=198193). For more information about management pack customizations, see [Customizing Management Packs](http://go.microsoft.com/fwlink/?LinkID=198194) (http://go.microsoft.com/fwlink/?LinkID=198194).
+  For more information about sealed and unsealed management packs, see [Management Pack Formats](http://go.microsoft.com/fwlink/?LinkID=198193) (http://go.microsoft.com/fwlink/?LinkId=198193). For more information about management pack customizations, see [Customizing Management Packs](http://go.microsoft.com/fwlink/?LinkID=198194) (http://go.microsoft.com/fwlink/?LinkID=198194).

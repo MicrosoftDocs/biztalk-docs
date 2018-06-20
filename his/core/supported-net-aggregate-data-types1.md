@@ -22,20 +22,20 @@ manager: "anneta"
   
  The distributed program call (DPC) programming model for the AS/400 supports:  
   
--   Only single-level .NET structures.  
+- Only single-level .NET structures.  
   
--   Arrays of .NET structures.  
+- Arrays of .NET structures.  
   
- The DPC programming model for the AS/400 does not support:  
+  The DPC programming model for the AS/400 does not support:  
   
--   Nesting of structures.  
+- Nesting of structures.  
   
--   Arrays within structures.  
+- Arrays within structures.  
   
--   Variable sized structures in which the last parameter is a string.  
+- Variable sized structures in which the last parameter is a string.  
   
- **Array**  
- A set of sequentially indexed elements that have the same intrinsic data type. Transaction Integrator (TI) supports an array of any of the .NET data types in this topic. Each element of an array has a unique identifying index number. Changes made to one element of an array do not affect the other elements. TI supports multidimensional arrays. However, only the outermost array of a multidimensional array can vary in size; all the other arrays must be fixed in size.  
+  **Array**  
+  A set of sequentially indexed elements that have the same intrinsic data type. Transaction Integrator (TI) supports an array of any of the .NET data types in this topic. Each element of an array has a unique identifying index number. Changes made to one element of an array do not affect the other elements. TI supports multidimensional arrays. However, only the outermost array of a multidimensional array can vary in size; all the other arrays must be fixed in size.  
   
 ## See Also  
  [Supported TI Data Types](../core/supported-ti-data-types2.md)

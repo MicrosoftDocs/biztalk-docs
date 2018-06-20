@@ -24,11 +24,11 @@ The stand-alone SSO client utility (command-line utility and user interface-base
   
  To install the SSO client utility, you must be running one of the following operating systems on the client computer:  
   
--   [!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)]  
+- [!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)]  
   
--   [!INCLUDE[btsDotNetFramework3.5](../includes/btsdotnetframework3-5-md.md)] or [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] (only necessary if you are using the UI-based SSO Client Utility or for leveraging the managed interoperability component of Enterprise SSO).  
+- [!INCLUDE[btsDotNetFramework3.5](../includes/btsdotnetframework3-5-md.md)] or [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] (only necessary if you are using the UI-based SSO Client Utility or for leveraging the managed interoperability component of Enterprise SSO).  
   
- After installing the SSO Client Utility, you can launch it from the **Start** menu by clicking **Programs**, **Microsoft Enterprise Single Sign-On**, and then **SSO Client Utility**.  
+  After installing the SSO Client Utility, you can launch it from the **Start** menu by clicking **Programs**, **Microsoft Enterprise Single Sign-On**, and then **SSO Client Utility**.  
   
 ### To install the SSO client utility  
   

@@ -33,17 +33,17 @@ After you configure BizTalk Server, you must manage Windows groups and user acco
   
  You must be a Windows administrator to perform the following tasks:  
   
--   Create a host Windows group  
+- Create a host Windows group  
   
--   Create service accounts for each host instance  
+- Create service accounts for each host instance  
   
--   Add the service accounts to the host Windows group  
+- Add the service accounts to the host Windows group  
   
--   Modify the Windows group associated with the host  
+- Modify the Windows group associated with the host  
   
- For a complete list and description of the groups and their affiliated user accounts in the BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
+  For a complete list and description of the groups and their affiliated user accounts in the BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
   
- For more information the minimum security user rights for administrative tasks, see [Minimum Security User Rights](../core/minimum-security-user-rights.md).  
+  For more information the minimum security user rights for administrative tasks, see [Minimum Security User Rights](../core/minimum-security-user-rights.md).  
   
 ## In This Section  
   

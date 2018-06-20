@@ -85,98 +85,98 @@ HRESULT DeleteQueue (
   
 ##### Create a C# console application to manage MQSeries Server queues  
   
-1.  Create a new Visual C# Console Application in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] with the name **MQSeriesQueues**.  
+1. Create a new Visual C# Console Application in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] with the name **MQSeriesQueues**.  
   
-2.  Replace any existing code in the Program.cs file that is generated with the code below:  
+2. Replace any existing code in the Program.cs file that is generated with the code below:  
   
-    ```  
-    using System;  
-    using System.Collections.Generic;  
-    using System.Text;  
-    using MQSAgentLib;  
+   ```  
+   using System;  
+   using System.Collections.Generic;  
+   using System.Text;  
+   using MQSAgentLib;  
   
-    namespace MQSeriesQueues  
-    {  
-        class ManageQueues  
-        {  
-            public static void Main(string[] args)  
-            {  
-                // The first argument should be "c" (without quotes)  
-                // to create a queue, anything else to delete a queue.  
-                // The 2nd and 3rd arguments should be the name of   
-                // the MQSeries Queue Manager and the name of   
-                // the queue to be created or deleted for example  
-                // the following usage will create the local   
-                // queue testq for the Queue Manager QM_Test  
-                // MQSeriesQueues c QM_Test testq  
-                createordeleteQs(args[0], args[1], args[2]);  
+   namespace MQSeriesQueues  
+   {  
+       class ManageQueues  
+       {  
+           public static void Main(string[] args)  
+           {  
+               // The first argument should be "c" (without quotes)  
+               // to create a queue, anything else to delete a queue.  
+               // The 2nd and 3rd arguments should be the name of   
+               // the MQSeries Queue Manager and the name of   
+               // the queue to be created or deleted for example  
+               // the following usage will create the local   
+               // queue testq for the Queue Manager QM_Test  
+               // MQSeriesQueues c QM_Test testq  
+               createordeleteQs(args[0], args[1], args[2]);  
+           }  
+  
+           static void createordeleteQs(string Qswitch, string QMgr, string QName)  
+           {   
+           if ((Qswitch =="c" & (QMgr != null & QName != null)))  
+               {  
+                   CreateQueue(QMgr, QName);  
+               }  
+               else if(QMgr != null & QName != null)  
+               {  
+                   DeleteQueue(QMgr, QName);  
+               }  
             }  
   
-            static void createordeleteQs(string Qswitch, string QMgr, string QName)  
-            {   
-            if ((Qswitch =="c" & (QMgr != null & QName != null)))  
-                {  
-                    CreateQueue(QMgr, QName);  
-                }  
-                else if(QMgr != null & QName != null)  
-                {  
-                    DeleteQueue(QMgr, QName);  
-                }  
-             }  
+           static void CreateQueue(string Qmgr, string Qname)  
+           {  
+               MQSAdmin admin = new MQSAdmin();    
   
-            static void CreateQueue(string Qmgr, string Qname)  
-            {  
-                MQSAdmin admin = new MQSAdmin();    
+               ResultCode resultCode = admin.CreateQueue(Qmgr, Qname, 0, "", "", "", 0);  
   
-                ResultCode resultCode = admin.CreateQueue(Qmgr, Qname, 0, "", "", "", 0);  
+               if ((resultCode & ResultCode.QueueCreated) == ResultCode.QueueCreated)  
+               {  
+                   Console.WriteLine("Queue Created.");  
+               }  
+               else if ((resultCode & ResultCode.QueueAlreadyExists) == ResultCode.QueueAlreadyExists)  
+               {  
+                   Console.WriteLine("Queue Already Exists.");  
+               }  
+           }  
   
-                if ((resultCode & ResultCode.QueueCreated) == ResultCode.QueueCreated)  
-                {  
-                    Console.WriteLine("Queue Created.");  
-                }  
-                else if ((resultCode & ResultCode.QueueAlreadyExists) == ResultCode.QueueAlreadyExists)  
-                {  
-                    Console.WriteLine("Queue Already Exists.");  
-                }  
-            }  
+           static void DeleteQueue(string Qmgr, string Qname)  
+           {  
+               MQSAdmin admin = new MQSAdmin();  
   
-            static void DeleteQueue(string Qmgr, string Qname)  
-            {  
-                MQSAdmin admin = new MQSAdmin();  
+               ResultCode resultCode = admin.DeleteQueue(Qmgr, Qname);  
   
-                ResultCode resultCode = admin.DeleteQueue(Qmgr, Qname);  
+               if ((resultCode & ResultCode.QueueDeleted) == ResultCode.QueueDeleted)  
+               {  
+                   Console.WriteLine("Queue successfully deleted.");  
+               }  
+               if ((resultCode & ResultCode.QueueDoesNotExist) == ResultCode.QueueDoesNotExist)  
+               {  
+                   Console.WriteLine("Queue did not exist anyway!");  
+               }  
+           }  
   
-                if ((resultCode & ResultCode.QueueDeleted) == ResultCode.QueueDeleted)  
-                {  
-                    Console.WriteLine("Queue successfully deleted.");  
-                }  
-                if ((resultCode & ResultCode.QueueDoesNotExist) == ResultCode.QueueDoesNotExist)  
-                {  
-                    Console.WriteLine("Queue did not exist anyway!");  
-                }  
-            }  
+       }  
+   }  
+   ```  
   
-        }  
-    }  
-    ```  
+3. Add a reference to this project to the **MQSAgent 1.0 Type Library**. The **MQSAgent 1.0 Type Library** is available on the **COM** tab of the **Add reference** dialog box.  
   
-3.  Add a reference to this project to the **MQSAgent 1.0 Type Library**. The **MQSAgent 1.0 Type Library** is available on the **COM** tab of the **Add reference** dialog box.  
+   > [!NOTE]
+   >  The MQSAgent COM+ component must be installed on the computer that you are running this console application from. For more information about installing the MQSAgent COM+ component see [Using the MQSAgent COM+ Configuration Wizard](../core/using-the-mqsagent-com-configuration-wizard.md).  
   
-    > [!NOTE]
-    >  The MQSAgent COM+ component must be installed on the computer that you are running this console application from. For more information about installing the MQSAgent COM+ component see [Using the MQSAgent COM+ Configuration Wizard](../core/using-the-mqsagent-com-configuration-wizard.md).  
+4. Build the console application.  
   
-4.  Build the console application.  
+5. Open a command prompt in the same directory as the compiled console application.  
   
-5.  Open a command prompt in the same directory as the compiled console application.  
+6. Type the name of the compiled console application with the appropriate arguments and press ENTER. For example, to delete the queue **testq** for the Queue Manager **QM_Test** you would type the following text at the command prompt and press ENTER:  
   
-6.  Type the name of the compiled console application with the appropriate arguments and press ENTER. For example, to delete the queue **testq** for the Queue Manager **QM_Test** you would type the following text at the command prompt and press ENTER:  
+   ```  
+   MQSeriesQueues d QM_Test testq  
+   ```  
   
-    ```  
-    MQSeriesQueues d QM_Test testq  
-    ```  
+7. To create the queue **testq** for the Queue Manager **QM_Test** you would type the following text at the command prompt and press ENTER:  
   
-7.  To create the queue **testq** for the Queue Manager **QM_Test** you would type the following text at the command prompt and press ENTER:  
-  
-    ```  
-    MQSeriesQueues c QM_Test testq  
-    ```
+   ```  
+   MQSeriesQueues c QM_Test testq  
+   ```

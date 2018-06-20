@@ -27,12 +27,12 @@ int WINAPI WinSLI(HWND handle, struct LUA_VERB_RECORD FAR * verb);
   
  The only parameter passed to the **RUI** or **SLI** function is the address of a verb control block (VCB). The VCB is a structure made up of variables that:  
   
--   Identify the logical unit application (LUA) verb to be executed.  
+- Identify the logical unit application (LUA) verb to be executed.  
   
--   Supply information used by the verb.  
+- Supply information used by the verb.  
   
--   Contain information returned by the verb when execution is complete.  
+- Contain information returned by the verb when execution is complete.  
   
- The parameters passed to the [WinRUI](./winrui1.md)or [WinSLI](./winsli1.md) function are a window handle and the address of a VCB. The window handle is used for message notification when the issued verb has completed.  
+  The parameters passed to the [WinRUI](./winrui1.md)or [WinSLI](./winsli1.md) function are a window handle and the address of a VCB. The window handle is used for message notification when the issued verb has completed.  
   
- The VCB structure is declared in the WINLUA.H header file. For general VCB information, see [LUA VCB Format](../core/lua-vcb-format1.md). For verb-specific VCB information, see the reference documentation for each verb.
+  The VCB structure is declared in the WINLUA.H header file. For general VCB information, see [LUA VCB Format](../core/lua-vcb-format1.md). For verb-specific VCB information, see the reference documentation for each verb.

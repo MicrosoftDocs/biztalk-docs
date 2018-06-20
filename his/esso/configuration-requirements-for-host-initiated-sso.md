@@ -16,17 +16,17 @@ manager: "anneta"
 # Configuration Requirements for Host Initiated SSO
 Although Enterprise Single Sign-On (SSO) and host-initiated SSO have certain aspects in common, certain platform and Active Directory requirements are unique to host-initiated SSO. This topic discusses those requirements, and lists the steps to check or create them on your system.  
   
--   Host-initiated SSO can be executed only on a native Windows Server domain environment.  
+- Host-initiated SSO can be executed only on a native Windows Server domain environment.  
   
--   The service account for SSO Service that is performing host-initiated SSO must be configured to have Trusted Computing Base (TCB) privileges. (You can configure this for the service account in the domain security policy.)  
+- The service account for SSO Service that is performing host-initiated SSO must be configured to have Trusted Computing Base (TCB) privileges. (You can configure this for the service account in the domain security policy.)  
   
- In addition, certain requirements are necessary when using Transaction Integrator for Host-Initiated Processing (TI for HIP). TI for HIP uses host-initiated SSO to achieve Single Sign-On for non-Windows users.  
+  In addition, certain requirements are necessary when using Transaction Integrator for Host-Initiated Processing (TI for HIP). TI for HIP uses host-initiated SSO to achieve Single Sign-On for non-Windows users.  
   
- For example, a service account for TI for HIP service runs under a service account *domainname\hipsvc*. This service can host applications that want to access remote or local resources on Windows with the Windows account that corresponds to the non-Windows account.  
+  For example, a service account for TI for HIP service runs under a service account *domainname\hipsvc*. This service can host applications that want to access remote or local resources on Windows with the Windows account that corresponds to the non-Windows account.  
   
- The *domainname\hipsvc* account must belong to the Application Administrator group account for the affiliate application that is being used for Single Sign-On.  
+  The *domainname\hipsvc* account must belong to the Application Administrator group account for the affiliate application that is being used for Single Sign-On.  
   
- The *domainname\hipsvc* account must have constrained delegation privileges to use host-initiated Single Sign-On. This can be configured by the domain administrator in Active Directory. Delegation can be configured for accounts that have registered service principal names (SPN). Constrained delegation allows the service account to access only components that are specified by the administrator.  
+  The *domainname\hipsvc* account must have constrained delegation privileges to use host-initiated Single Sign-On. This can be configured by the domain administrator in Active Directory. Delegation can be configured for accounts that have registered service principal names (SPN). Constrained delegation allows the service account to access only components that are specified by the administrator.  
   
 ### To check your domain function level  
   

@@ -17,15 +17,15 @@ manager: "anneta"
 # How to Capture a Memory Dump of a Process that is Non Responsive
 The BizTalk process BTSNTSvc.exe is defined as **hanging** when the process seems to stop responding. Common symptoms of a process hang include:  
   
--   Orchestrations appear to stop running.  
+- Orchestrations appear to stop running.  
   
--   Messages aren’t being processed.  
+- Messages aren’t being processed.  
   
--   General timeout issues occur.  
+- General timeout issues occur.  
   
--   The BizTalk process BTSNTSvc.exe consumes an unusually high amount of CPU cycles as viewed in the **Processes** tab of **Task Manager**.  
+- The BizTalk process BTSNTSvc.exe consumes an unusually high amount of CPU cycles as viewed in the **Processes** tab of **Task Manager**.  
   
- To capture a memory dump of a hanging BTSNTSvc.exe process, follow these steps.  
+  To capture a memory dump of a hanging BTSNTSvc.exe process, follow these steps.  
   
 ### To configure the Debug Diagnostics tool to capture a hang dump  
   

@@ -20,39 +20,39 @@ Custom inline functoids provide functionality by copying implementation code dir
 ## Building Inline Script  
  There are two ways to provide script for inclusion into the map. Choose from the following methods, based on whether your custom functoid supports a variable number of parameters:  
   
--   Override **GetInlineScriptBuffer** when your custom functoid accepts a variable number of input parameters and you have set the **HasVariableInputs** property to `true`. For example, use this method if you want to concatenate a variable number of strings or find the largest value in a set of values.  
+- Override **GetInlineScriptBuffer** when your custom functoid accepts a variable number of input parameters and you have set the **HasVariableInputs** property to `true`. For example, use this method if you want to concatenate a variable number of strings or find the largest value in a set of values.  
   
--   Use **SetScriptBuffer** when you do not need to support a variable number of input parameters. You can still use optional parameters, but the total number of parameters is fixed.  
+- Use **SetScriptBuffer** when you do not need to support a variable number of input parameters. You can still use optional parameters, but the total number of parameters is fixed.  
   
- These two methods require different implementations.  
+  These two methods require different implementations.  
   
 ### Providing Inline Code with SetScriptBuffer  
  To configure your custom functoid to use inline script:  
   
-1.  Call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) to enable inline code and set the supported script type.  
+1. Call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) to enable inline code and set the supported script type.  
   
-2.  Invoke **SetScriptBuffer** to set the code to use for the custom functoid. You will call this function three times with the `functionNumber` parameter for custom cumulative functoids and once for custom noncumulative functoids.  
+2. Invoke **SetScriptBuffer** to set the code to use for the custom functoid. You will call this function three times with the `functionNumber` parameter for custom cumulative functoids and once for custom noncumulative functoids.  
   
-3.  Use **SetScriptGlobalBuffer** to declare any global variables that your inline code uses.  
+3. Use **SetScriptGlobalBuffer** to declare any global variables that your inline code uses.  
   
-4.  Use **RequiredGlobalHelperFunctions** to indicate the helper functions that your custom inline functoid requires.  
+4. Use **RequiredGlobalHelperFunctions** to indicate the helper functions that your custom inline functoid requires.  
   
- You can build your script by using StringBuilder or constants. One approach to writing script code is to write a custom referenced functoid first and, when all bugs are eliminated, convert it to inline by copying your functions into string constants.  
+   You can build your script by using StringBuilder or constants. One approach to writing script code is to write a custom referenced functoid first and, when all bugs are eliminated, convert it to inline by copying your functions into string constants.  
   
 ### Providing Inline Code with GetInlineScriptBuffer  
  If your custom inline functoid supports a variable number of parameters, you will override **GetInlineScriptBuffer**. To configure your custom functoid to use inline script:  
   
-1.  In the constructor, declare that your custom functoid has variable inputs by setting **HasVariableInputs** to `true`.  
+1. In the constructor, declare that your custom functoid has variable inputs by setting **HasVariableInputs** to `true`.  
   
-2.  In the constructor, call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) to enable inline code and set the supported script type.  
+2. In the constructor, call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) to enable inline code and set the supported script type.  
   
-3.  Override **GetInlineScriptBuffer** to construct and return the code to use in the map for your custom functoid. Use the parameters to build the correct code by checking the `scriptType` and `numParams`. The final parameter, `functionNumber`, should be 0. This is because cumulative functions have a fixed number of inputs and do not use this mechanism.  
+3. Override **GetInlineScriptBuffer** to construct and return the code to use in the map for your custom functoid. Use the parameters to build the correct code by checking the `scriptType` and `numParams`. The final parameter, `functionNumber`, should be 0. This is because cumulative functions have a fixed number of inputs and do not use this mechanism.  
   
-4.  Use **SetScriptGlobalBuffer** to declare global variables that your inline code uses.  
+4. Use **SetScriptGlobalBuffer** to declare global variables that your inline code uses.  
   
-5.  Use **RequiredGlobalHelperFunctions** to indicate the helper functions that your custom inline functoid requires.  
+5. Use **RequiredGlobalHelperFunctions** to indicate the helper functions that your custom inline functoid requires.  
   
- The following code fragment builds a C# function with the number of parameters passed in `numParams` but with no function body. To use this code fragment, copy the example to your solution and add code to do something with the parameters and return a value.  
+   The following code fragment builds a C# function with the number of parameters passed in `numParams` but with no function body. To use this code fragment, copy the example to your solution and add code to do something with the parameters and return a value.  
   
 ```  
 // Override GetInlineScriptBuffer  
@@ -110,11 +110,11 @@ protected override string GetInlineScriptBuffer(ScriptType scriptType, int numPa
   
  To test a map:  
   
-1.  From a Visual Studio BizTalk project, click the **Solution Explorer** tab, right-click a map that uses your custom inline functoid, and then click **Test Map**.  
+1. From a Visual Studio BizTalk project, click the **Solution Explorer** tab, right-click a map that uses your custom inline functoid, and then click **Test Map**.  
   
-2.  Scroll the Output window to find the URL for the output file. Press CTRL and click the URL to view the file.  
+2. Scroll the Output window to find the URL for the output file. Press CTRL and click the URL to view the file.  
   
- You can check input and output values to verify that the map behaved as expected.  
+   You can check input and output values to verify that the map behaved as expected.  
   
 ## Example  
  The following example illustrates how to create a custom inline functoid for concatenating two strings. It relies on a resource file containing three string resources and a 16x16-pixel bitmap resource.  

@@ -73,15 +73,15 @@ In addition to following the recommendations in [Pre-Configuration Database Opti
 ## Separate the MessageBox and Tracking Databases  
  Because the BizTalk MessageBox and BizTalk Tracking databases are the most active, we recommend you place the data files and transaction log files for each of these on dedicated drives to reduce the likelihood of problems with disk I/O contention. For example, you would need four drives for the MessageBox and BizTalk Tracking database files, one drive for each of the following:  
   
--   MessageBox data file(s)  
+- MessageBox data file(s)  
   
--   MessageBox transaction log file(s)  
+- MessageBox transaction log file(s)  
   
--   BizTalk Tracking (DTA) data file(s)  
+- BizTalk Tracking (DTA) data file(s)  
   
--   BizTalk Tracking (DTA) transaction log file(s)  
+- BizTalk Tracking (DTA) transaction log file(s)  
   
- Separating the BizTalk MessageBox and BizTalk Tracking databases and separating the database files and transaction log files on different physical disks are considered best practices for reducing disk I/O contention. Try to spread the disk I/O across as many physical spindles as possible. You can also reduce disk I/O contention by placing the BizTalk Tracking database on a dedicated SQL Server, however, you should still follow the practices above with regards to separating data files and transaction log files.  
+  Separating the BizTalk MessageBox and BizTalk Tracking databases and separating the database files and transaction log files on different physical disks are considered best practices for reducing disk I/O contention. Try to spread the disk I/O across as many physical spindles as possible. You can also reduce disk I/O contention by placing the BizTalk Tracking database on a dedicated SQL Server, however, you should still follow the practices above with regards to separating data files and transaction log files.  
   
 ## Optimize filegroups for the BizTalk Server databases  
  Follow the steps in [Optimizing Filegroups for the Databases1](../technical-guides/optimizing-filegroups-for-the-databases1.md) and the "BizTalk Server Database Optimization" whitepaper at [http://go.microsoft.com/fwlink/?LinkId=101578](http://go.microsoft.com/fwlink/?LinkId=101578) to create additional filegroups and files for the BizTalk Server databases. This will greatly increase the performance of the BizTalk Server databases from a single disk configuration.

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10811
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10811|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_HISSO_LSA_INITIALIZATION_FAILED|  
-|Message Text|Failed to connect to the LSA server.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10811                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |          ENTSSO_E_HISSO_LSA_INITIALIZATION_FAILED          |
+|  Message Text   |            Failed to connect to the LSA server.            |
   
 ## Explanation  
  This is an internal error.  

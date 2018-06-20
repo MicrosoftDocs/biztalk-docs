@@ -44,42 +44,42 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 #### Using the BizTalk Server Administration console  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand BizTalk Server Administration and the BizTalk Group containing the application to which you want to add the BizTalk assembly.  
+2. In the console tree, expand BizTalk Server Administration and the BizTalk Group containing the application to which you want to add the BizTalk assembly.  
   
-3.  Expand Applications and the application to which you want to add a BizTalk assembly.  
+3. Expand Applications and the application to which you want to add a BizTalk assembly.  
   
-4.  Right-click **Resources**, point to **Add** and then click **BizTalk Assemblies**.  
+4. Right-click **Resources**, point to **Add** and then click **BizTalk Assemblies**.  
   
-5.  Click **Add**, select the BizTalk assembly file, and then click **Open**.  
+5. Click **Add**, select the BizTalk assembly file, and then click **Open**.  
   
-6.  In **Destination**, type the full path of the location where the assembly file is to be copied when the application is installed from the .msi file, including the file name. If not provided, the assembly file is not copied to the local file system during installation.  
+6. In **Destination**, type the full path of the location where the assembly file is to be copied when the application is installed from the .msi file, including the file name. If not provided, the assembly file is not copied to the local file system during installation.  
   
-7.  In **Options**, specify the options for installing the BizTalk assembly to the GAC, and then click **OK**.  
+7. In **Options**, specify the options for installing the BizTalk assembly to the GAC, and then click **OK**.  
   
 #### Using the command line  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd**&#124;**GacOnInstall**&#124;**GacOnImport**] [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask AddResource** [**/ApplicationName:**<em>value</em>] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:**<em>value</em> [**/Destination:**<em>value</em>] [**/Options:GacOnAdd**&#124;**GacOnInstall**&#124;**GacOnImport**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-     Example:  
+    Example:  
   
-     **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:BizTalkAssembly /Overwrite /Source:"C:\BizTalk Assemblies\MyOrchestration.dll" /Destination:"C:\New BizTalk Assemblies\ MyOrchestration.dll " /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+    **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:BizTalkAssembly /Overwrite /Source:"C:\BizTalk Assemblies\MyOrchestration.dll" /Destination:"C:\New BizTalk Assemblies\ MyOrchestration.dll " /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
-    |Parameter|Value|  
-    |---------------|-----------|  
-    |**/ApplicationName**|Name of the BizTalk application to which to add the BizTalk assembly. If the application name is not specified, the default BizTalk application is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
-    |**/Type**|**System.BizTalk:BizTalkAssembly**|  
-    |**/Overwrite**|Option to update an existing assembly. If not specified, and an assembly already exists in the application that has the same LUID as the assembly being added, the AddResource operation fails. You can view the LUIDs for the artifacts in an application by using the [ListApp Command](../core/listapp-command.md). If another application depends on the assembly being overwritten, the AddResource operation fails, even when this parameter is specified.|  
-    |**/Source**|Full path of the assembly file, including the file name. If the path includes spaces, you must enclose it in double quotation marks (").|  
-    |**/Destination**|Full path of the location where the assembly file is to be copied when the application is installed from the .msi file. If not provided, the assembly file is not copied to the local file system during installation. If the path includes spaces, you must enclose it in double quotation marks (").|  
-    |**/Options**|-   **GacOnAdd**: Specify to install the assembly to the global assembly cache (GAC) on the local computer during the AddResource operation.<br />-   **GacOnInstall**: Specify to install the assembly to the GAC when the application is installed from the .msi file.<br />-   **GacOnImport**: Specify to install the assembly to the GAC when the application .msi file is imported.<br /><br /> You must separate multiple options with a comma.|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
-    |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
+   |Parameter|Value|  
+   |---------------|-----------|  
+   |**/ApplicationName**|Name of the BizTalk application to which to add the BizTalk assembly. If the application name is not specified, the default BizTalk application is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
+   |**/Type**|**System.BizTalk:BizTalkAssembly**|  
+   |**/Overwrite**|Option to update an existing assembly. If not specified, and an assembly already exists in the application that has the same LUID as the assembly being added, the AddResource operation fails. You can view the LUIDs for the artifacts in an application by using the [ListApp Command](../core/listapp-command.md). If another application depends on the assembly being overwritten, the AddResource operation fails, even when this parameter is specified.|  
+   |**/Source**|Full path of the assembly file, including the file name. If the path includes spaces, you must enclose it in double quotation marks (").|  
+   |**/Destination**|Full path of the location where the assembly file is to be copied when the application is installed from the .msi file. If not provided, the assembly file is not copied to the local file system during installation. If the path includes spaces, you must enclose it in double quotation marks (").|  
+   |**/Options**|-   **GacOnAdd**: Specify to install the assembly to the global assembly cache (GAC) on the local computer during the AddResource operation.<br />-   **GacOnInstall**: Specify to install the assembly to the GAC when the application is installed from the .msi file.<br />-   **GacOnImport**: Specify to install the assembly to the GAC when the application .msi file is imported.<br /><br /> You must separate multiple options with a comma.|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
+   |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
   
 ## See Also  
  [Managing BizTalk Assemblies](../core/managing-biztalk-assemblies.md)   

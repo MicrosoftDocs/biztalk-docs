@@ -144,51 +144,51 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
   
  Together with the properties listed earlier in this topic, the adapter populates the following Message Descriptor values following the same rules. The adapter prefixes these property names with MQXQH_ instead of MQMD_, but otherwise they map directly to those properties defined in the Message Descriptor table:  
   
--   **MQXQH_MsgDesc_AccountingToken**  
+- **MQXQH_MsgDesc_AccountingToken**  
   
--   **MQXQH_MsgDesc_ApplIdentityData**  
+- **MQXQH_MsgDesc_ApplIdentityData**  
   
--   **MQXQH_MsgDesc_ApplOriginData**  
+- **MQXQH_MsgDesc_ApplOriginData**  
   
--   **MQXQH_MsgDesc_BackoutCount**  
+- **MQXQH_MsgDesc_BackoutCount**  
   
--   **MQXQH_MsgDesc_CodedCharSetId**  
+- **MQXQH_MsgDesc_CodedCharSetId**  
   
--   **MQXQH_MsgDesc_CorrelId**  
+- **MQXQH_MsgDesc_CorrelId**  
   
--   **MQXQH_MsgDesc_Encoding**  
+- **MQXQH_MsgDesc_Encoding**  
   
--   **MQXQH_MsgDesc_Expiry**  
+- **MQXQH_MsgDesc_Expiry**  
   
--   **MQXQH_MsgDesc_Feedback**  
+- **MQXQH_MsgDesc_Feedback**  
   
--   **MQXQH_MsgDesc_Format**  
+- **MQXQH_MsgDesc_Format**  
   
--   **MQXQH_MsgDesc_MsgId**  
+- **MQXQH_MsgDesc_MsgId**  
   
--   **MQXQH_MsgDesc_MsgType**  
+- **MQXQH_MsgDesc_MsgType**  
   
--   **MQXQH_MsgDesc_Persistence**  
+- **MQXQH_MsgDesc_Persistence**  
   
--   **MQXQH_MsgDesc_Priority**  
+- **MQXQH_MsgDesc_Priority**  
   
--   **MQXQH_MsgDesc_PutApplName**  
+- **MQXQH_MsgDesc_PutApplName**  
   
--   **MQXQH_MsgDesc_PutApplType**  
+- **MQXQH_MsgDesc_PutApplType**  
   
--   **MQXQH_MsgDesc_PutDate**  
+- **MQXQH_MsgDesc_PutDate**  
   
--   **MQXQH_MsgDesc_PutTime**  
+- **MQXQH_MsgDesc_PutTime**  
   
--   **MQXQH_MsgDesc_ReplyToQ**  
+- **MQXQH_MsgDesc_ReplyToQ**  
   
--   **MQXQH_MsgDesc_ReplyToQMgr**  
+- **MQXQH_MsgDesc_ReplyToQMgr**  
   
--   **MQXQH_MsgDesc_Report**  
+- **MQXQH_MsgDesc_Report**  
   
--   **MQXQH_MsgDesc_UserIdentifier**  
+- **MQXQH_MsgDesc_UserIdentifier**  
   
- There are additional MQSeries-related properties included in the property schema and available for use in filtering expressions. The following table lists these properties.  
+  There are additional MQSeries-related properties included in the property schema and available for use in filtering expressions. The following table lists these properties.  
   
 |Name|Type|Length|Value|  
 |----------|----------|------------|-----------|  

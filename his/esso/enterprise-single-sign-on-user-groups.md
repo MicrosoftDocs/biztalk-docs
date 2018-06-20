@@ -25,21 +25,21 @@ To configure and manage the Enterprise Single Sign-On (SSO) system, you must cre
 ## Single Sign-On Administrators  
  SSO administrators have the highest level user rights in the SSO system. They can do the following:  
   
--   Create and manage the Credential database.  
+- Create and manage the Credential database.  
   
--   Create and manage the master secret.  
+- Create and manage the master secret.  
   
--   Enable and disable the SSO system.  
+- Enable and disable the SSO system.  
   
--   Create password synchronization adapters.  
+- Create password synchronization adapters.  
   
--   Enable and disable password synchronization in the SSO system.  
+- Enable and disable password synchronization in the SSO system.  
   
--   Enable and disable host-initiated SSO.  
+- Enable and disable host-initiated SSO.  
   
--   Perform all administration tasks.  
+- Perform all administration tasks.  
   
- The SSO administrators account can be either a Windows group account or an individual account. The SSO administrators account can also be either a domain or local group or individual account. When you use an individual account, you cannot change it to another individual account. Therefore, it is recommended that you do not use an individual account. You can change this account to a group account as long as the original account is a member of the new group.  
+  The SSO administrators account can be either a Windows group account or an individual account. The SSO administrators account can also be either a domain or local group or individual account. When you use an individual account, you cannot change it to another individual account. Therefore, it is recommended that you do not use an individual account. You can change this account to a group account as long as the original account is a member of the new group.  
   
 > [!IMPORTANT]
 >  The service account that runs the Enterprise Single Sign-On service must be a member of this group. To help secure your environment, ensure that no other service is using the same service account.  
@@ -47,13 +47,13 @@ To configure and manage the Enterprise Single Sign-On (SSO) system, you must cre
 ## Single Sign-On Affiliate Administrators  
  The SSO affiliate administrator defines the affiliate applications that the SSO system contains. Affiliate applications are a logical entity that represents the back-end system to which you are connecting using SSO. SSO affiliate administrators can do the following:  
   
--   Create and manage affiliate applications.  
+- Create and manage affiliate applications.  
   
--   Specify the application administrators account for each affiliate application.  
+- Specify the application administrators account for each affiliate application.  
   
--   Perform all the administration tasks that the application administrators and application users can.  
+- Perform all the administration tasks that the application administrators and application users can.  
   
- The SSO Affiliate Administrator account can be either a Windows group account or an individual account. The SSO Affiliate Administrator account can also be either a domain or local group or account.  
+  The SSO Affiliate Administrator account can be either a Windows group account or an individual account. The SSO Affiliate Administrator account can also be either a domain or local group or account.  
   
 ## Application Administrators  
  There is one application administrators group per affiliate application.  

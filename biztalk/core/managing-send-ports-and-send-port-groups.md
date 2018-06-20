@@ -24,7 +24,7 @@ This section provides instructions on using the [!INCLUDE[btsBizTalkServerNoVers
   
 > [!NOTE]
 >  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
-  
+> 
 > [!NOTE]
 >  While developing a BizTalk application, the developer can use BizTalk design tools in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], such as Orchestration Designer, to create and configure send ports and send port groups. For more information, see [Using Ports in Orchestrations](../core/using-ports-in-orchestrations.md).  
   

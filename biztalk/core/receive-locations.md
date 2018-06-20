@@ -38,10 +38,10 @@ Creating a receive location involves specifying an address at which inbound mess
   
 > [!NOTE]
 >  Changes to receive locations made by using Windows Management Instrumentation (WMI) affect how receive locations appear in the BizTalk Administration Console. For example, if an administrator uses WMI to create a new receive location, that receive location appears in the BizTalk Administration Console. Similarly, if an administrator deletes a receive location, the receive location disappears from the BizTalk Administration Console.  
-  
+> 
 > [!IMPORTANT]
 >  Each receive location must have a unique name. Two receive locations cannot have the same name in the same [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]deployment.  
-  
+> 
 > [!IMPORTANT]
 >  We recommend that you set strong access control lists (ACL) in the drop location for the receive locations. For example, you must set strong ACLs for the directory where the file receive location picks up messages, so that only authorized users can drop messages in this location.  
   

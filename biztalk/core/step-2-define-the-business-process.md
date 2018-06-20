@@ -33,24 +33,24 @@ manager: "anneta"
   
 #### To create the EAI business process workflow  
   
-1.  From Visual Studio, in Solution Explorer, double-click **EAIProcess.odx** to open the orchestration.  
+1. From Visual Studio, in Solution Explorer, double-click **EAIProcess.odx** to open the orchestration.  
   
-2.  In Orchestration Designer, from the orchestration Toolbox, drag the **Receive** shape, and drop it between the **Begin** (green circle) and **End** (red octagon) shapes.  
+2. In Orchestration Designer, from the orchestration Toolbox, drag the **Receive** shape, and drop it between the **Begin** (green circle) and **End** (red octagon) shapes.  
   
-    > [!NOTE]
-    >  If the Toolbox is not open, in the **View** menu, click **Toolbox**. To anchor it on the screen, click the thumbtack icon.  
+   > [!NOTE]
+   >  If the Toolbox is not open, in the **View** menu, click **Toolbox**. To anchor it on the screen, click the thumbtack icon.  
   
-3.  From the toolbox, drag the **Decide** shape beneath the Receive shape.  
+3. From the toolbox, drag the **Decide** shape beneath the Receive shape.  
   
-4.  From the toolbox, drag the **Transform** shape to the left branch of the Decide shape. The Transform shape is nested inside the Construct Message shape.  
+4. From the toolbox, drag the **Transform** shape to the left branch of the Decide shape. The Transform shape is nested inside the Construct Message shape.  
   
-5.  From the toolbox, drag the **Send** shape beneath the Transform shape.  
+5. From the toolbox, drag the **Send** shape beneath the Transform shape.  
   
-6.  From the toolbox, drag the **Send** shape to the right branch of the Decide shape.  The orchestration looks like the following after you added the action shapes:  
+6. From the toolbox, drag the **Send** shape to the right branch of the Decide shape.  The orchestration looks like the following after you added the action shapes:  
   
-     ![EAI process](../core/media/eaiprocess.gif "EAIProcess")  
+    ![EAI process](../core/media/eaiprocess.gif "EAIProcess")  
   
- The next step is to define message variables.  Several action shapes have a message property that needs to be specified.  
+   The next step is to define message variables.  Several action shapes have a message property that needs to be specified.  
   
 #### To define message variables  
   

@@ -24,7 +24,7 @@ IBM DB2 and Microsoft SQL Server databases utilize different terminology for nam
 |SQL Server|DATABASE|SCHEMA|TABLENAME|  
 |DRDA|RELATIONAL DATABASE NAME (RDBNAM)|COLLECTION|TABLENAME|  
   
- ***Table.** Three-part table naming conventions.*  
+ <em>**Table.</em>* Three-part table naming conventions.*  
   
  The **databaseAliases** element instructs the DRDA Service to map in-bound catalog and schema names to outbound catalog and schema names, for use when executing static SQL packages for DB2 commands mapped to SQL Server stored procedures. The **databaseAlias** element contains a **sourceLocation**, **sourceCollection**, **targetDatabase**, and **targetSchema** to define one or more optional object name mappings.  
   
@@ -61,7 +61,7 @@ IBM DB2 and Microsoft SQL Server databases utilize different terminology for nam
 </databaseAliases>  
 ```  
   
- ***Example.** DRDA Service can map DB2 catalog and schema names to SQL Server names.*  
+ <em>**Example.</em>* DRDA Service can map DB2 catalog and schema names to SQL Server names.*  
   
 ```  
 DrdaAs Information: 1 : [<timestamp>] Processing ACCRDB  

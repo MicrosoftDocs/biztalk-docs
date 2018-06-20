@@ -21,14 +21,14 @@ ms.author: "mandia"
 ## Prerequisites
 Before starting the tutorial:
   
--   Do a full installation of BizTalk Server and [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] on two computers. For more information, see [Install and configure](install-configure-biztalk-accelerator-for-rosettanet.md).  
+- Do a full installation of BizTalk Server and [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] on two computers. For more information, see [Install and configure](install-configure-biztalk-accelerator-for-rosettanet.md).  
   
-    > [!IMPORTANT]
-    >  Be sure that you fully configure the RosettaNet accelerator, including starting the BTARN orchestrations. See [Install and configure](install-configure-biztalk-accelerator-for-rosettanet.md). You may also have to add the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] virtual directories (including btarnhttpreceive) to the Microsoft Windows® SharePoint™ Services managed path exclusion list. 
+  > [!IMPORTANT]
+  >  Be sure that you fully configure the RosettaNet accelerator, including starting the BTARN orchestrations. See [Install and configure](install-configure-biztalk-accelerator-for-rosettanet.md). You may also have to add the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] virtual directories (including btarnhttpreceive) to the Microsoft Windows® SharePoint™ Services managed path exclusion list. 
   
--   This tutorial simulates a real-world scenario by using two computers instead of a single computer with a loop-back agreement. Whenever this tutorial uses computer names, it uses a placeholder as the computer name. Replace that placeholder with the actual computer name you chose. For example, if the computer that is running your Contoso solution is named **Contoso**, replace any occurrences in the tutorial of \\\\<contoso**_***computer*\> with that computer name.  
+- This tutorial simulates a real-world scenario by using two computers instead of a single computer with a loop-back agreement. Whenever this tutorial uses computer names, it uses a placeholder as the computer name. Replace that placeholder with the actual computer name you chose. For example, if the computer that is running your Contoso solution is named **Contoso**, replace any occurrences in the tutorial of \\\\<contoso<strong>_</strong>*computer*\> with that computer name.  
   
- This tutorial promotes secure communication through certificates between Contoso and Fabrikam. You must generate any certificates you require, and install them on the respective computers.  
+  This tutorial promotes secure communication through certificates between Contoso and Fabrikam. You must generate any certificates you require, and install them on the respective computers.  
   
 ## Next steps
   

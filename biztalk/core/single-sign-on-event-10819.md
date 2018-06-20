@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10819
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10819|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPING_CONFLICT|  
-|Message Text|The external account was not updated because there is a mapping conflict.|  
+|                 |                                                                           |
+|-----------------|---------------------------------------------------------------------------|
+|  Product Name   |                         Enterprise Single Sign-On                         |
+| Product Version |        [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]         |
+|    Event ID     |                                   10819                                   |
+|  Event Source   |                                  ENTSSO                                   |
+|    Component    |                                    N/A                                    |
+|  Symbolic Name  |                         ENTSSO_E_MAPPING_CONFLICT                         |
+|  Message Text   | The external account was not updated because there is a mapping conflict. |
   
 ## Explanation  
  The external account was not updated because there is a mapping conflict.  

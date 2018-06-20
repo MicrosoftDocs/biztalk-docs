@@ -33,21 +33,21 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] al
 ## Working with Synonyms in the Adapter  
  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes the synonyms in Oracle for:  
   
--   Tables  
+- Tables  
   
--   Views  
+- Views  
   
--   Stored Procedures  
+- Stored Procedures  
   
--   Functions  
+- Functions  
   
--   Packages  
+- Packages  
   
- The synonyms for each of these artifacts are exposed alongside the respective underlying artifact in the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. For example, the **Table** node under a schema will display all the synonyms for tables along with the database tables in a schema, the **View** node under a schema will display all the synonyms for views along with the database views in a schema, and so on.  
+  The synonyms for each of these artifacts are exposed alongside the respective underlying artifact in the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. For example, the **Table** node under a schema will display all the synonyms for tables along with the database tables in a schema, the **View** node under a schema will display all the synonyms for views along with the database views in a schema, and so on.  
   
--   For synonyms created on tables and views, the same operations are exposed as for the underlying tables and views respectively. For example, if the underlying tables and views contain LOB columns, the synonyms for those tables and views will also expose the ReadLOB and UpdateLOB operations.  
+- For synonyms created on tables and views, the same operations are exposed as for the underlying tables and views respectively. For example, if the underlying tables and views contain LOB columns, the synonyms for those tables and views will also expose the ReadLOB and UpdateLOB operations.  
   
--   For synonyms created on stored procedures, functions, and packages, the synonyms are exposed as operations alongside the respective underlying stored procedures, functions, and packages in a schema.  
+- For synonyms created on stored procedures, functions, and packages, the synonyms are exposed as operations alongside the respective underlying stored procedures, functions, and packages in a schema.  
   
 > [!NOTE]
 >  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports only local synonyms. This implies that only those synonyms are supported by the adapter that target the artifacts on the local server.  

@@ -17,31 +17,31 @@ manager: "anneta"
 # BTSTask Command-Line Reference
 The topics in this section provide reference information for the BTSTask command-line tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You can use BTSTask to perform many application deployment tasks from the command line, as follows:  
   
--   Add a BizTalk application to the BizTalk Management database by using the AddApp command.  
+- Add a BizTalk application to the BizTalk Management database by using the AddApp command.  
   
--   Add an artifact to an application by using the AddResource command.  
+- Add an artifact to an application by using the AddResource command.  
   
--   Export an application and its artifacts to an .msi file by using the ExportApp command.  
+- Export an application and its artifacts to an .msi file by using the ExportApp command.  
   
--   Export binding information to an .xml file by using the ExportBindings command.  
+- Export binding information to an .xml file by using the ExportBindings command.  
   
--   Import an application from an .msi file by using the ImportApp command.  
+- Import an application from an .msi file by using the ImportApp command.  
   
--   Import binding information from an .xml file by using the ImportBindings command.  
+- Import binding information from an .xml file by using the ImportBindings command.  
   
--   List the artifacts included in an application along with their locally unique identifiers (LUIDs) by using the ListApp command.  
+- List the artifacts included in an application along with their locally unique identifiers (LUIDs) by using the ListApp command.  
   
--   List all applications in the BizTalk Management database for the BizTalk group by using the ListApps command.  
+- List all applications in the BizTalk Management database for the BizTalk group by using the ListApps command.  
   
--   List the resources in an .msi file by using the ListPackage command.  
+- List the resources in an .msi file by using the ListPackage command.  
   
--   List all of the artifact types supported by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] by using the ListTypes command.  
+- List all of the artifact types supported by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] by using the ListTypes command.  
   
--   Remove an application from the BizTalk Management database and the BizTalk Administration console by using the RemoveApp command.  
+- Remove an application from the BizTalk Management database and the BizTalk Administration console by using the RemoveApp command.  
   
--   Remove an artifact from an application by using the RemoveResource command.  
+- Remove an artifact from an application by using the RemoveResource command.  
   
--   Uninstall an application from the local computer by using the UninstallApp command.  
+- Uninstall an application from the local computer by using the UninstallApp command.  
   
 > [!IMPORTANT]
 >  You cannot use BTSTask commands in a preprocessing or postprocessing script that will run during application import. If you do, the import may fail. This is because changes being made during import are not visible to scripts.  

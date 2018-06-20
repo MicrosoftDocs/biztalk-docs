@@ -52,9 +52,9 @@ To connect to SQL Server using Windows Authentication within Visual Studio, see 
     > [!NOTE]
     > [Server and Database Roles in SQL Server](https://msdn.microsoft.com/library/bb669065.aspx) provides good info on the roles. 
   
-6.  Select **OK** to save your changes.
+6. Select **OK** to save your changes.
   
- After you have added the user, the user can connect and authenticate to SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], logging in with a blank username and password.  
+   After you have added the user, the user can connect and authenticate to SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], logging in with a blank username and password.  
 
 
 

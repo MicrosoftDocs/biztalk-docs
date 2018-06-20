@@ -17,13 +17,13 @@ manager: "anneta"
 # How to Avoid Throttling Correlated Messages
 Messages that are en-queued into BizTalk Server, for example through a receive location or by orchestrations, can be processed in one of the following ways:  
   
--   They can activate new instances of subscribers (that is, orchestrations or send ports)  
+- They can activate new instances of subscribers (that is, orchestrations or send ports)  
   
--   They can be routed to an existing subscriber instance via correlation. For more information about correlation, see [Using Correlations in Orchestrations](../core/using-correlations-in-orchestrations.md).  
+- They can be routed to an existing subscriber instance via correlation. For more information about correlation, see [Using Correlations in Orchestrations](../core/using-correlations-in-orchestrations.md).  
   
- A lot of developers think about the receive locations for a solution as receiving both activation and correlated messages for the solution through the same port. This is natural as it minimizes the number of addresses that message senders need to keep track of. However, with throttling in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], there can be advantages to thinking about the stream of activation messages and the stream of correlated messages separately when it comes to throttling.  
+  A lot of developers think about the receive locations for a solution as receiving both activation and correlated messages for the solution through the same port. This is natural as it minimizes the number of addresses that message senders need to keep track of. However, with throttling in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], there can be advantages to thinking about the stream of activation messages and the stream of correlated messages separately when it comes to throttling.  
   
- When both activation and correlation messages arrive through the same receive location, they are subject to the same throttling state because throttling is applied at the host level. As a result, all messages arriving at receive locations in the host will be throttled as a unit. This is not an issue for many scenarios, but there are cases where throttling correlations with activations can result in a type of system deadlock.  
+  When both activation and correlation messages arrive through the same receive location, they are subject to the same throttling state because throttling is applied at the host level. As a result, all messages arriving at receive locations in the host will be throttled as a unit. This is not an issue for many scenarios, but there are cases where throttling correlations with activations can result in a type of system deadlock.  
   
 ## Example  
  For example, let's assume you have a scenario containing an orchestration that receives one activation, uses it to initialize a correlation set, then receives a convoy of 10 additional messages that follow the correlation set. In addition, assume that, under load, a backlog builds up in the spool as the mix of activation and correlation messages arrive that results in throttling the amount of messages that can be received. Unfortunately, the correlation messages are throttled along with the activations, which slows down the completion of orchestrations, causing further backlog and additional throttling. Allowed to continue, this would result in throttling the system down to near zero throughput.  

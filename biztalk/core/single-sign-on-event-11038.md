@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11038
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11038|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_NO_LOCAL_SYSTEM|  
-|Message Text|The SSO service cannot run under the Local System account.%r|  
+|                 |                                                              |
+|-----------------|--------------------------------------------------------------|
+|  Product Name   |                  Enterprise Single Sign-On                   |
+| Product Version |  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]  |
+|    Event ID     |                            11038                             |
+|  Event Source   |                            ENTSSO                            |
+|    Component    |                             N/A                              |
+|  Symbolic Name  |                  SSO_ERROR_NO_LOCAL_SYSTEM                   |
+|  Message Text   | The SSO service cannot run under the Local System account.%r |
   
 ## Explanation  
  The SSO service cannot run under the Local System account.  

@@ -30,15 +30,15 @@ This topic describes how to use the BizTalk Server Administration console to add
   
 ### To add a send port to a send port group  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application in which you want to add a send port to a send port group.  
+2. In the console tree, expand the BizTalk group and the BizTalk application in which you want to add a send port to a send port group.  
   
-3.  Click **Send Port Groups**, right-click the send port group, and then click **Properties**.  
+3. Click **Send Port Groups**, right-click the send port group, and then click **Properties**.  
   
-4.  In **Send ports**, click the drop-down list under **Name**, and click the send port to add to the send port group. Repeat for each send port you want to add to the group. To create a new send port and add it, click **\<New send port…\>** and then follow the instructions in [How to Create a Send Port](../core/how-to-create-a-send-port2.md).  
+4. In **Send ports**, click the drop-down list under **Name**, and click the send port to add to the send port group. Repeat for each send port you want to add to the group. To create a new send port and add it, click **\<New send port…\>** and then follow the instructions in [How to Create a Send Port](../core/how-to-create-a-send-port2.md).  
   
-5.  When finished adding send ports to the send port group, click **OK**.  
+5. When finished adding send ports to the send port group, click **OK**.  
   
 ## See Also  
  [Creating and Configuring Send Port Groups](../core/creating-and-configuring-send-port-groups.md)   

@@ -31,30 +31,30 @@ This walkthrough shows you how to configure Windows SharePoint Services and [!IN
 ## Prerequisites  
  The following are prerequisites for performing the procedures in this topic:  
   
--   You must have a single-server deployment with a complete installation of BizTalk Server running on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
+- You must have a single-server deployment with a complete installation of BizTalk Server running on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
   
- For information about using the Windows SharePoint Services adapter in a multiserver deployment, see [Setting Up and Deploying the Windows SharePoint Services Adapter](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
+  For information about using the Windows SharePoint Services adapter in a multiserver deployment, see [Setting Up and Deploying the Windows SharePoint Services Adapter](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
   
 ## Configure Windows SharePoint Services  
  In this procedure you create a SharePoint top-level Web site that contains three document libraries. The Windows SharePoint Services adapter uses these libraries to move a message from a source library to a destination library. This message is also archived in a document library. This procedure must be done to provide the Windows Sharepoint Services site that is accessed by the Windows Sharepoint Services adapter in this walkthrough and to set user rights to enable access to this site.  
   
 #### Create a Windows SharePoint Services site  
   
-1.  Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **SharePoint Central Administration.**  
+1. Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **SharePoint Central Administration.**  
   
-2.  Under **Virtual Server Configuration**, click **Create a top-level Web site**.  
+2. Under **Virtual Server Configuration**, click **Create a top-level Web site**.  
   
-3.  Under **Virtual Server List**, select the Web site that you installed the Windows SharePoint Services Adapter on. For example, `Default Web Site`.  
+3. Under **Virtual Server List**, select the Web site that you installed the Windows SharePoint Services Adapter on. For example, `Default Web Site`.  
   
-4.  In the **Web Site Address** section, in the **URL name** field, type `WSSAdapterWalkthrough`.  
+4. In the **Web Site Address** section, in the **URL name** field, type `WSSAdapterWalkthrough`.  
   
-5.  In the **Site Collection Owner** section, in the **User name field,** type a user name. This user will be the owner for the Web site and does not need special permissions in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+5. In the **Site Collection Owner** section, in the **User name field,** type a user name. This user will be the owner for the Web site and does not need special permissions in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-6.  In the **Site Collection Owner** section, in the **E-mail** field, type in an e-mail address.  
+6. In the **Site Collection Owner** section, in the **E-mail** field, type in an e-mail address.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
-8.  On the **Top-Level Site Successfully Created** page, click the new top-level Web site you just created. For example, `http://<server_name>/sites/WSSAdapterWalkthrough`.  
+8. On the **Top-Level Site Successfully Created** page, click the new top-level Web site you just created. For example, `http://<server_name>/sites/WSSAdapterWalkthrough`.  
   
 9. Select the **Team Site** template from the list of templates, and then click **OK**. This will open the Team Web Site Home page.  
   
@@ -128,21 +128,21 @@ This walkthrough shows you how to configure Windows SharePoint Services and [!IN
   
 #### Configure SharePoint security  
   
-1.  Open a Web browser and navigate to the URL of the site you created. For example, `http://<server_name>/sites/WSSAdapterWalkthrough`.  
+1. Open a Web browser and navigate to the URL of the site you created. For example, `http://<server_name>/sites/WSSAdapterWalkthrough`.  
   
-2.  On the Team Web Site Home page, on the top navigation bar, click **Site Settings**.  
+2. On the Team Web Site Home page, on the top navigation bar, click **Site Settings**.  
   
-3.  Under **Administration**, click **Manage users**.  
+3. Under **Administration**, click **Manage users**.  
   
-4.  Click **Add Users**.  
+4. Click **Add Users**.  
   
-5.  In **Step 1: Choose Users**, type the name of the account that the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Host Instance is running under.  
+5. In **Step 1: Choose Users**, type the name of the account that the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Host Instance is running under.  
   
-6.  In **Step 2: Choose Site Groups**, select the **Reader** and **Contributor** check boxes.  
+6. In **Step 2: Choose Site Groups**, select the **Reader** and **Contributor** check boxes.  
   
-7.  Click **Next**.  
+7. Click **Next**.  
   
-8.  Clear the **Send the following e-mail to let these users now they've been added** check box, and then click **Finish**.  
+8. Clear the **Send the following e-mail to let these users now they've been added** check box, and then click **Finish**.  
   
 9. Close the `WSSAdapterWalkthrough` Web site.  
   
@@ -151,13 +151,13 @@ This walkthrough shows you how to configure Windows SharePoint Services and [!IN
   
 #### Create the receive port  
   
-1.  Click **Start**, **All Programs**, [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration.**  
+1. Click **Start**, **All Programs**, [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration.**  
   
-2.  Expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, right-click **Receive Ports**, click **New**, and then click **One-way Receive Port…**  
+2. Expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, right-click **Receive Ports**, click **New**, and then click **One-way Receive Port…**  
   
-3.  In the **Receive Port Properties** dialog box, under **General**, type `FromSource` in the **Name** field.  
+3. In the **Receive Port Properties** dialog box, under **General**, type `FromSource` in the **Name** field.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 #### Create the receive location  
   
@@ -271,27 +271,27 @@ This walkthrough shows you how to configure Windows SharePoint Services and [!IN
   
 #### Upload the XML file  
   
-1.  Open a Web browser and navigate to the URL of the site you created in the last task. For example, `http://<server_name>/sites/WSSAdapterWalkthrough`.  
+1. Open a Web browser and navigate to the URL of the site you created in the last task. For example, `http://<server_name>/sites/WSSAdapterWalkthrough`.  
   
-2.  On the left side, under **Documents**, click **Source**.  
+2. On the left side, under **Documents**, click **Source**.  
   
-3.  Click **Upload Document**.  
+3. Click **Upload Document**.  
   
-4.  In the **Name** box, type or browse to the XML file you created above. For example, `C:\WSSAdapterWalkthrough\PurchaseOrder1.xml`, and then click **Save and Close**. You should now be able to see the file in the list.  
+4. In the **Name** box, type or browse to the XML file you created above. For example, `C:\WSSAdapterWalkthrough\PurchaseOrder1.xml`, and then click **Save and Close**. You should now be able to see the file in the list.  
   
-5.  Refresh the browser window. The `PurchaseOrder1.xml` file will no longer be listed in this library.  
+5. Refresh the browser window. The `PurchaseOrder1.xml` file will no longer be listed in this library.  
   
-    > [!NOTE]
-    >  You may have to refresh the browser a few times since the polling interval is set at 10 seconds.  
+   > [!NOTE]
+   >  You may have to refresh the browser a few times since the polling interval is set at 10 seconds.  
   
-6.  On the top navigation bar, click **Documents and Lists**.  
+6. On the top navigation bar, click **Documents and Lists**.  
   
-7.  Under **Document Libraries**, click **Destination**.  
+7. Under **Document Libraries**, click **Destination**.  
   
-8.  In the Destination Document Library, you will now see your message listed. You will also find a copy archived in the Archive Document Library.  
+8. In the Destination Document Library, you will now see your message listed. You will also find a copy archived in the Archive Document Library.  
   
-    > [!NOTE]
-    >  If the message does not appear in the Destination Document Library, refer to "Troubleshooting the Windows SharePoint Services Adapter" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+   > [!NOTE]
+   >  If the message does not appear in the Destination Document Library, refer to "Troubleshooting the Windows SharePoint Services Adapter" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
 ## Summary  
  In this walkthrough you have seen how to configure Windows SharePoint Services and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] so you can send and receive a message using the Windows SharePoint Services adapter and content-based routing (CBR).  

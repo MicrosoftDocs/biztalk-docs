@@ -17,7 +17,7 @@ manager: "anneta"
 ## Purpose  
  Allows you to view, add, delete, or modify 3270 LU pools.  
   
- To assign existing 3270 LUs to a 3270 LU pool, first configure the pool with the **snacfg pool** command (including options), then add the LUs with the **snacfg lu** command (using the **/pool:***poolname* option).  
+ To assign existing 3270 LUs to a 3270 LU pool, first configure the pool with the **snacfg pool** command (including options), then add the LUs with the **snacfg lu** command (using the **/pool:**<em>poolname</em> option).  
   
 > [!NOTE]
 >  Configuration settings specified with snacfg pool correspond to 3270 LU pool settings configured with the SNA Manager.  
@@ -54,32 +54,32 @@ manager: "anneta"
  **/displaymodel:{ mod2 &#124; mod3 &#124; mod4 &#124; mod5 &#124; 2 &#124; 3 &#124; 4 &#124; 5 }**  
  Specifies the model number of the LUs that will be added to this pool. (Only display LUs can be pooled; printer LUs cannot be pooled.) The following display models are available:  
   
--   Model 2 is 24 lines by 80 characters.  
+- Model 2 is 24 lines by 80 characters.  
   
--   Model 3 is 32 lines by 80 characters.  
+- Model 3 is 32 lines by 80 characters.  
   
--   Model 4 is 43 lines by 80 characters.  
+- Model 4 is 43 lines by 80 characters.  
   
--   Model 5 is 27 lines by 132 characters.  
+- Model 5 is 27 lines by 132 characters.  
   
- Some emulators can only emulate certain display models. For more information, see your emulator documentation.  
+  Some emulators can only emulate certain display models. For more information, see your emulator documentation.  
   
- The display model setting of a pool overwrites the setting of any 3270 LU assigned to the pool.  
+  The display model setting of a pool overwrites the setting of any 3270 LU assigned to the pool.  
   
- If no display model has been specified for a pool, the default is Model 2.  
+  If no display model has been specified for a pool, the default is Model 2.  
   
- **/allowmodeloverride:{ yes &#124; no }**  
- Specifies whether the user is allowed to override the display model type of the LU by using the 3270 terminal emulation program.  
+  **/allowmodeloverride:{ yes &#124; no }**  
+  Specifies whether the user is allowed to override the display model type of the LU by using the 3270 terminal emulation program.  
   
- The model override setting of a pool overwrites the setting of any 3270 LU assigned to the pool.  
+  The model override setting of a pool overwrites the setting of any 3270 LU assigned to the pool.  
   
- If no setting has been specified for this parameter, the default is **no**.  
+  If no setting has been specified for this parameter, the default is **no**.  
   
- **/comment:**" *text*"  
- Adds an optional comment to the specified 3270 LU pool. The comment can contain as many as 25 characters; enclose the comment in quotes.  
+  **/comment:**" *text*"  
+  Adds an optional comment to the specified 3270 LU pool. The comment can contain as many as 25 characters; enclose the comment in quotes.  
   
- **/assocprint:{ yes &#124; no }**  
- Specifies that the LU pool contains display LUs with associated 3270 printers.  
+  **/assocprint:{ yes &#124; no }**  
+  Specifies that the LU pool contains display LUs with associated 3270 printers.  
   
 ## See Also  
  [Snacfg Reference](../core/snacfg-reference2.md)

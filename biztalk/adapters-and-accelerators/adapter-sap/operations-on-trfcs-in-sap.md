@@ -51,28 +51,28 @@ Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit o
   
  A GUID parameter is surfaced by the adapter for tRFC operations. This GUID is mapped by the adapter to the SAP transaction ID (TID) that is associated with the tRFC. You can use this GUID parameter to:  
   
--   Confirm the tRFC on the SAP system in tRFC client calls. You do this by invoking the RfcConfirmTransId operation. This is a special operation surfaced by the adapter to confirm a TID on the SAP system.  
+- Confirm the tRFC on the SAP system in tRFC client calls. You do this by invoking the RfcConfirmTransId operation. This is a special operation surfaced by the adapter to confirm a TID on the SAP system.  
   
--   Get the actual SAP TID used for a tRFC from the adapter in both tRFC client and tRFC server scenarios. You do this by invoking the SAP utility method, ConvertGuidToTid.  
+- Get the actual SAP TID used for a tRFC from the adapter in both tRFC client and tRFC server scenarios. You do this by invoking the SAP utility method, ConvertGuidToTid.  
   
- For more information about these operations, see [Special Operations](../../adapters-and-accelerators/adapter-sap/special-operations.md). For more information about the message structures and SOAP actions used for tRFCs by the adapter, see [Message Schemas for tRFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-trfc-operations.md).  
+  For more information about these operations, see [Special Operations](../../adapters-and-accelerators/adapter-sap/special-operations.md). For more information about the message structures and SOAP actions used for tRFCs by the adapter, see [Message Schemas for tRFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-trfc-operations.md).  
   
 ## Invoking Transactional RFCs in an SAP System  
  Typically, tRFCs are used to execute one or more RFC calls inside a single LUW; however, due to limitations in the SAP RFC SDK, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports only a single tRFC per LUW. For this reason, the adapter creates an LUW (SAP TID) for each tRFC. For such clients, SAP defines an LUW as a mechanism to guarantee "one-time" execution of the RFC and does not imply commit and rollback-based transactions.  
   
  The following steps summarize the tasks that are performed in an RFC client call using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Some of these steps are performed by the adapter client, and some are performed by the adapter.  
   
-1.  The adapter client sends a request message for the tRFC operation. The adapter client can optionally supply a GUID in this message.  
+1. The adapter client sends a request message for the tRFC operation. The adapter client can optionally supply a GUID in this message.  
   
-2.  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] receives the request message and uses the RFC SDK to get a transaction ID (TID) from the SAP system. If the request message contains a GUID, the adapter maps this GUID to the SAP TID; otherwise, the adapter creates a new GUID and maps it to the SAP TID  
+2. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] receives the request message and uses the RFC SDK to get a transaction ID (TID) from the SAP system. If the request message contains a GUID, the adapter maps this GUID to the SAP TID; otherwise, the adapter creates a new GUID and maps it to the SAP TID  
   
-3.  The adapter uses the TID to make the tRFC call to the SAP server. The status of the TID is marked as **FINISHED** on the SAP system.  
+3. The adapter uses the TID to make the tRFC call to the SAP server. The status of the TID is marked as **FINISHED** on the SAP system.  
   
-4.  The adapter returns the GUID (that is mapped to the TID) to the adapter client in the response message.  
+4. The adapter returns the GUID (that is mapped to the TID) to the adapter client in the response message.  
   
-5.  The adapter client invokes the RfcConfirmTransID operation on the adapter with the GUID returned in the previous step.  
+5. The adapter client invokes the RfcConfirmTransID operation on the adapter with the GUID returned in the previous step.  
   
-6.  The adapter uses the GUID in the RfcConfirmTransID request message to identify the SAP TID and confirms the tRFC call on the SAP system. This causes the SAP server to delete the TID entry from its database.  
+6. The adapter uses the GUID in the RfcConfirmTransID request message to identify the SAP TID and confirms the tRFC call on the SAP system. This causes the SAP server to delete the TID entry from its database.  
   
 > [!NOTE]
 >  tRFC client calls do not return EXPORT or CHANGING parameters.  
@@ -88,17 +88,17 @@ Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit o
 ## Receiving Inbound Transactional RFC Calls from an SAP System  
  You can use the adapter as a tRFC server to receive tRFCs from SAP. As a tRFC server, when the adapter receives a tRFC, it invokes the corresponding tRFC operation on your application. The adapter supports the following functionality when it acts as a tRFC server:  
   
--   An LUW (identified by a SAP TID) can contain multiple tRFCs (RFC calls).  
+- An LUW (identified by a SAP TID) can contain multiple tRFCs (RFC calls).  
   
--   The adapter creates a committable transaction for each SAP TID. Your application code can enlist in this transaction.  
+- The adapter creates a committable transaction for each SAP TID. Your application code can enlist in this transaction.  
   
--   Commit and roll back are supported.  
+- Commit and roll back are supported.  
   
- The rest of this section provides general information about using the adapter as a tRFC server. For more specific information about:  
+  The rest of this section provides general information about using the adapter as a tRFC server. For more specific information about:  
   
--   Receiving a inbound tRFC calls using BizTalk Server, see [Receive Inbound tRFC Calls from SAP using BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-inbound-trfc-calls-from-sap-using-biztalk-server.md).  
+- Receiving a inbound tRFC calls using BizTalk Server, see [Receive Inbound tRFC Calls from SAP using BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-inbound-trfc-calls-from-sap-using-biztalk-server.md).  
   
--   Receiving a inbound tRFC calls using the WCF service model, see [Receive Inbound tRFC Calls in SAP using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/receive-inbound-trfc-calls-in-sap-using-the-wcf-service-model.md).  
+- Receiving a inbound tRFC calls using the WCF service model, see [Receive Inbound tRFC Calls in SAP using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/receive-inbound-trfc-calls-in-sap-using-the-wcf-service-model.md).  
   
 ### The TID Database  
  When it acts as a tRFC server, the adapter uses a SQL Server database—the TID database—to manage the transaction IDs that it receives from the SAP system. For example, it uses the TID database to help manage calls from the SAP system to commit, rollback, and confirm the TID. The adapter also stores the GUID that it creates and associates with each SAP TID in the TID database.  
@@ -106,13 +106,13 @@ Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit o
 ### Prerequisites  
  For the adapter to perform as a tRFC server, you must ensure that the following are true:  
   
--   The RFC must be declared on the SAP system. This is so the adapter can retrieve metadata that describes the RFC from the SAP system. The RFC is actually implemented in your application.  
+- The RFC must be declared on the SAP system. This is so the adapter can retrieve metadata that describes the RFC from the SAP system. The RFC is actually implemented in your application.  
   
--   The adapter must register with an RFC destination on an SAP gateway. The registration is based on a logical name called a program ID. You supply parameters in the connection URI to specify the program ID, SAP gateway, and SAP server for this registration.  
+- The adapter must register with an RFC destination on an SAP gateway. The registration is based on a logical name called a program ID. You supply parameters in the connection URI to specify the program ID, SAP gateway, and SAP server for this registration.  
   
--   The TID database must be created in SQL Server. To do this, you must run a SQL script that is installed by the setup. The SQL script is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information see, [Installing the BizTalk Adapter Pack](http://msdn.microsoft.com/library/2ae27db5-b11b-42c3-a568-e2331badf80e).  
+- The TID database must be created in SQL Server. To do this, you must run a SQL script that is installed by the setup. The SQL script is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information see, [Installing the BizTalk Adapter Pack](http://msdn.microsoft.com/library/2ae27db5-b11b-42c3-a568-e2331badf80e).  
   
--   The **TidDatabaseConnectionString** binding property must be set to the SQL database connection string for the TID database. For more information about the **TidDatabaseConnectionString** binding property, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+- The **TidDatabaseConnectionString** binding property must be set to the SQL database connection string for the TID database. For more information about the **TidDatabaseConnectionString** binding property, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
 > [!NOTE]
 >  Setting the **TidDatabaseConnectionString** binding property configures the adapter to act as a tRFC server rather than as an RFC server. If the **TidDatabaseConnectionString** binding property is set and you specify an RFC destination in the connection URI, the adapter acts as a tRFC server for incoming calls from the RFC destination. If this binding property is not set, the adapter acts as an RFC server.  
@@ -143,9 +143,9 @@ Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit o
 ## Special tRFC Operations  
  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] can also perform certain special tRFC operations on the SAP system. One such operation is RfcConfirmTransID.  
   
--   **RfcConfirmTransID.** You invoke this operation on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to confirm tRFC calls made to the SAP server. RfcConfirmTransID might be required in scenarios where the adapter is used to send IDOCs to the SAP server as a tRFC. The operation is available under the **TRFC** node when using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+- **RfcConfirmTransID.** You invoke this operation on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to confirm tRFC calls made to the SAP server. RfcConfirmTransID might be required in scenarios where the adapter is used to send IDOCs to the SAP server as a tRFC. The operation is available under the **TRFC** node when using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
- For more information about the message structure and SOAP action for the RfcConfirmTransID operation, see [Message Schemas for tRFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-trfc-operations.md).  
+  For more information about the message structure and SOAP action for the RfcConfirmTransID operation, see [Message Schemas for tRFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-trfc-operations.md).  
   
 ## See Also  
  [Connect to an SAP system using the adapter](../../adapters-and-accelerators/adapter-sap/connect-to-an-sap-system-using-the-adapter.md)

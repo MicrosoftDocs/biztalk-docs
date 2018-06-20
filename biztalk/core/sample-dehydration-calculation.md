@@ -19,17 +19,17 @@ Here is an example of a sample calculation, using private bytes, to determine if
   
  Assume the following values for the dehydration properties:  
   
--   **TimeBlocked** = 60 (example time blocked in seconds)  
+- **TimeBlocked** = 60 (example time blocked in seconds)  
   
--   **WaitingHistory** = 90 (example waiting history in seconds)  
+- **WaitingHistory** = 90 (example waiting history in seconds)  
   
--   **ActualPrivateBytes** = 250 (example value for private bytes)  
+- **ActualPrivateBytes** = 250 (example value for private bytes)  
   
--   **OptimalUsage** = 50 (default configuration value)  
+- **OptimalUsage** = 50 (default configuration value)  
   
--   **MaximalUsage** = 350 (default configuration value)  
+- **MaximalUsage** = 350 (default configuration value)  
   
- Since the **ActualPrivateBytes** are between **OptimalUsage** and **MaximalUsage**, alpha is calculated as:  
+  Since the **ActualPrivateBytes** are between **OptimalUsage** and **MaximalUsage**, alpha is calculated as:  
   
 ```  
 alpha(private) = (350 – 250) / 350 – 50)  

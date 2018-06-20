@@ -18,15 +18,15 @@ manager: "anneta"
 ## Batch Callbacks  
  Batches submitted by receive adapters to the Messaging Engine are processed asynchronously. Therefore the adapter needs a mechanism to tie a callback to some state in the adapter so it can be notified of success or failure and perform any necessary cleanup actions. The callback semantics are flexible such that adapters can use one or a combination of three approaches. These are:  
   
--   All callbacks are made on the same object instance that implements **IBTBatchCallBack**.  
+- All callbacks are made on the same object instance that implements **IBTBatchCallBack**.  
   
--   The cookie passed into the engine when requesting a new batch is used to correlate the callback to the state in the adapters.  
+- The cookie passed into the engine when requesting a new batch is used to correlate the callback to the state in the adapters.  
   
--   There is a different callback object for each batch that implements **IBTBatchCallBack**. Here each object holds its own private state.  
+- There is a different callback object for each batch that implements **IBTBatchCallBack**. Here each object holds its own private state.  
   
- When the batch has been processed, the adapter is called back on its implementation of **IBTBatchCallBack.BatchComplete**. The overall status of the batch is indicated by the first parameter, the HRESULT status. If this value is greater than or equal to zero, then the batch was successful in the sense that the engine has ownership of the data and the adapter is free to delete that data from the wire. A negative status indicates that the batch failed: None of the operations in the batch were successful and the adapter is responsible for handling the failure.  
+  When the batch has been processed, the adapter is called back on its implementation of **IBTBatchCallBack.BatchComplete**. The overall status of the batch is indicated by the first parameter, the HRESULT status. If this value is greater than or equal to zero, then the batch was successful in the sense that the engine has ownership of the data and the adapter is free to delete that data from the wire. A negative status indicates that the batch failed: None of the operations in the batch were successful and the adapter is responsible for handling the failure.  
   
- If the batch failed, then the adapter needs to know which item in which operation failed. For example, suppose that the adapter was reading 20 files from disk and submitting them into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using a single batch. If the tenth file was corrupted, the adapter would need to suspend that one file and resubmit the remaining 19. This information is available to the adapter in the second and third parameters—`opCount` (operation count) of type short and `operationStatus`, which is of type BTBatchOperationStatus[].  
+  If the batch failed, then the adapter needs to know which item in which operation failed. For example, suppose that the adapter was reading 20 files from disk and submitting them into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using a single batch. If the tenth file was corrupted, the adapter would need to suspend that one file and resubmit the remaining 19. This information is available to the adapter in the second and third parameters—`opCount` (operation count) of type short and `operationStatus`, which is of type BTBatchOperationStatus[].  
   
 > [!NOTE]
 >  On a single batch object you should never submit a message more than once. Submitting the same message object more than once on the same batch will result in engine errors.  
@@ -90,15 +90,15 @@ public class MyAdapter :
 ## Race Condition  
  The two tasks of resolving errors and deciding the final outcome of a submitted batch seem simple enough, but in fact they rely on information from different threads:  
   
--   The adapter processes errors based on information passed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the adapter's **BatchComplete** callback method. This callback executes on the adapter's thread.  
+- The adapter processes errors based on information passed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the adapter's **BatchComplete** callback method. This callback executes on the adapter's thread.  
   
--   **DTCCommitConfirm** is a method on the **IBTDTCCommitConfirm** object. An instance of the **IBTDTCCommitConfirm** object is returned by the batch **IBTTransportBatch::Done** call. This instance is on the same thread as the **IBTTransportBatch::Done** call, which is different from the adapter's callback thread.  
+- **DTCCommitConfirm** is a method on the **IBTDTCCommitConfirm** object. An instance of the **IBTDTCCommitConfirm** object is returned by the batch **IBTTransportBatch::Done** call. This instance is on the same thread as the **IBTTransportBatch::Done** call, which is different from the adapter's callback thread.  
   
- For every call that the adapter makes to **IBTTransportBatch::Done** the Messaging Engine makes a corresponding call to the callback method **BatchComplete** in a separate thread to report the result of the batch submission. In **BatchComplete** the adapter needs to commit or roll back the transaction based on whether the batch passed or failed. In either case, the adapter should then call **DTCCommitConfirm** to report the status of the transaction.  
+  For every call that the adapter makes to **IBTTransportBatch::Done** the Messaging Engine makes a corresponding call to the callback method **BatchComplete** in a separate thread to report the result of the batch submission. In **BatchComplete** the adapter needs to commit or roll back the transaction based on whether the batch passed or failed. In either case, the adapter should then call **DTCCommitConfirm** to report the status of the transaction.  
   
- A possible race condition exists because the adapter’s implementation of **BatchComplete** can assume that the **IBTDTCCommitConfirm** object returned by **IBTTransportBatch::Done** is always available when **BatchComplete** executes. However, **BatchComplete** can be called in a separate Messaging Engine thread, even before **IBTTransportBatch::Done** returns. It is possible that when the adapter tries to access the **IBTDTCCommitConfirm** object as a part of the **BatchComplete** implementation, there is an access violation because that calling thread no longer exists. Use the following solution to avoid this condition.  
+  A possible race condition exists because the adapter’s implementation of **BatchComplete** can assume that the **IBTDTCCommitConfirm** object returned by **IBTTransportBatch::Done** is always available when **BatchComplete** executes. However, **BatchComplete** can be called in a separate Messaging Engine thread, even before **IBTTransportBatch::Done** returns. It is possible that when the adapter tries to access the **IBTDTCCommitConfirm** object as a part of the **BatchComplete** implementation, there is an access violation because that calling thread no longer exists. Use the following solution to avoid this condition.  
   
- In the following example, the problem is solved by using an event. Here the interface pointer is accessed through a property that uses the event. The get always waits for the set to complete before proceeding.  
+  In the following example, the problem is solved by using an event. Here the interface pointer is accessed through a property that uses the event. The get always waits for the set to complete before proceeding.  
   
 ```  
 protected IBTDTCCommitConfirm CommitConfirm  
@@ -161,8 +161,8 @@ private ManualResetEvent commitConfirmEvent = new ManualResetEvent(false);
 ## Transactional Batches  
  When you write an adapter that creates a transaction object and hands it to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you are accepting responsibility for writing code that does the following:  
   
--   Decides the final outcome of the batch operation: to either commit or end the transaction. This may depend upon other transactional branches within the scope of this one transaction that are not [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] dependent, such as writing to an Message Queuing (MSMQ) queue or a transactional database operation.  
+- Decides the final outcome of the batch operation: to either commit or end the transaction. This may depend upon other transactional branches within the scope of this one transaction that are not [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] dependent, such as writing to an Message Queuing (MSMQ) queue or a transactional database operation.  
   
--   Informs [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] of the final outcome by calling the **IBTDTCCommitConfirm.DTCCommitConfirm** method. Returning `true` indicates a successful commit of the transaction; returning `false` signifies failure and rollback of the transaction.  
+- Informs [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] of the final outcome by calling the **IBTDTCCommitConfirm.DTCCommitConfirm** method. Returning `true` indicates a successful commit of the transaction; returning `false` signifies failure and rollback of the transaction.  
   
- The adapter must inform [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] about the final outcome of the transaction to maintain its internal tracking data. The adapter informs [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] of the outcome by calling **DTCCommitConfirm**. If the adapter does not do this, a significant memory leak occurs and the MSDTC transaction could time out and fail despite its operations completing successfully.
+  The adapter must inform [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] about the final outcome of the transaction to maintain its internal tracking data. The adapter informs [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] of the outcome by calling **DTCCommitConfirm**. If the adapter does not do this, a significant memory leak occurs and the MSDTC transaction could time out and fail despite its operations completing successfully.

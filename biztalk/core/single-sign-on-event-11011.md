@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11011
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11011|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_NOT_APP_ADMIN|  
-|Message Text|Client user is not a member of the Application Administrators account.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client User: %2\\%3%r<br /><br /> Application Name: %4%r<br /><br /> Application Administrators: %5|  
+|                 |                                                                                                                                                                                                                        |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                               Enterprise Single Sign-On                                                                                                |
+| Product Version |                                                                               [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                               |
+|    Event ID     |                                                                                                         11011                                                                                                          |
+|  Event Source   |                                                                                                         ENTSSO                                                                                                         |
+|    Component    |                                                                                                          N/A                                                                                                           |
+|  Symbolic Name  |                                                                                                 SSO_WARN_NOT_APP_ADMIN                                                                                                 |
+|  Message Text   | Client user is not a member of the Application Administrators account.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client User: %2\\%3%r<br /><br /> Application Name: %4%r<br /><br /> Application Administrators: %5 |
   
 ## Explanation  
  The client user is not a member of the Application Administrators account. This warning only appears when the audit levels are set to high.  

@@ -34,7 +34,7 @@ The Backup BizTalk Server Job creates synchronized backups of all BizTalk Server
 ## Transaction log backups  
  The second process that the Backup BizTalk Server job performs is *MarkAndBackupLog*. This process places a mark in all BizTalk Server databases and performs a transaction log backup every time the job executes.  
   
- The mark is the string created by using *\<ServerName\>*_*\<DatabaseName\>*_Log\_*\<LogMarkName\>*\_*\<Timestamp\>*.bak, where the *\<Log Mark Name\>* is configured in the SQL Server Agent job. This mark must be used when restoring the last log to each database.  
+ The mark is the string created by using *\<ServerName\>*<em>*\<DatabaseName\>*_Log\\</em>*\<LogMarkName\>*\_*\<Timestamp\>*.bak, where the *\<Log Mark Name\>* is configured in the SQL Server Agent job. This mark must be used when restoring the last log to each database.  
   
  For more information, see "Transaction Log Backups" and "Backup and Recovery of Related Databases" in SQL Server Books Online.  
   

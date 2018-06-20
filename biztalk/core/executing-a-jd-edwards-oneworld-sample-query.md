@@ -21,15 +21,15 @@ The JD Edwards OneWorld (JDEOW) system is accessible from a [!INCLUDE[btsBizTalk
   
 ## Prerequisites  
   
--   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]
+- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]
   
--   Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 
+- Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 
   
--   JD Edwards OneWorld Client software  
+- JD Edwards OneWorld Client software  
   
--   Network connectivity to a JD Edwards OneWorld system on another server  
+- Network connectivity to a JD Edwards OneWorld system on another server  
   
--   Microsoft BizTalk Adapters for Enterprise Applications  
+- Microsoft BizTalk Adapters for Enterprise Applications  
   
 > [!NOTE]
 >  See [Install and configure the adapters for enterprise applications](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md) for key configuration information for the JD Edwards, PeopleSoft, and TIBCO adapters.  
@@ -37,21 +37,21 @@ The JD Edwards OneWorld (JDEOW) system is accessible from a [!INCLUDE[btsBizTalk
 ## Lab 2 - Executing a JD Edwards OneWorld Sample Query  
  In this lab, you will execute a **Get** operation against the JD Edwards OneWorld system. Specifically you will perform the following tasks:  
   
--   Verify the JD Edwards OneWorld prerequisites  
+- Verify the JD Edwards OneWorld prerequisites  
   
--   Set up a JD Edwards OneWorld send port in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- Set up a JD Edwards OneWorld send port in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Create a BizTalk orchestration project  
+- Create a BizTalk orchestration project  
   
--   Build and deploy the project  
+- Build and deploy the project  
   
--   Test the application and view the XML output  
+- Test the application and view the XML output  
   
- You will use the JD Edwards OneWorld adapter to access data on the JD Edwards OneWorld system from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+  You will use the JD Edwards OneWorld adapter to access data on the JD Edwards OneWorld system from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
- This adapter enables the processing of JD Edwards OneWorld objects by using requests and responses executed by an orchestration. Many methods are available for a schema object. This lab demonstrates how to use the **Address Book MBF** method.  
+  This adapter enables the processing of JD Edwards OneWorld objects by using requests and responses executed by an orchestration. Many methods are available for a schema object. This lab demonstrates how to use the **Address Book MBF** method.  
   
- Before running a service request, you must create service request and response schemas for the specific JD Edwards OneWorld object. The Add Generated Items/Add Adapter Wizard creates these schemas by directly interrogating the supporting metadata object in JD Edwards OneWorld. This lab illustrates the steps required to create schemas for the **Address Book MBF** method and to process a query.  
+  Before running a service request, you must create service request and response schemas for the specific JD Edwards OneWorld object. The Add Generated Items/Add Adapter Wizard creates these schemas by directly interrogating the supporting metadata object in JD Edwards OneWorld. This lab illustrates the steps required to create schemas for the **Address Book MBF** method and to process a query.  
   
 ## Step 1: Verify the JD Edwards OneWorld prerequisites  
  Before you start creating a BizTalk project for use with the JD Edwards OneWorld adapter, you need to be sure the files and the adapter are set up correctly to access the JD Edwards OneWorld system. On the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, the JD Edwards OneWorld adapter communicates with the JD Edwards OneWorld system by using the Java interface.    
@@ -71,149 +71,149 @@ The JD Edwards OneWorld (JDEOW) system is accessible from a [!INCLUDE[btsBizTalk
 ## Step 2: Configure BizTalk send ports  
 Next, verify that the JD Edwards OneWorld adapter is installed, and create the send port.  
 
-1.  Open **BizTalk Server Administration**, expand **Console Root**, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.  
+1. Open **BizTalk Server Administration**, expand **Console Root**, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.  
   
-    Confirm the **JDE_OneWorld** adapter is listed. If the JD Edwards OneWorld adapter is not installed, install the BizTalk Adapters for Enterprise Applications (see the earlier "Prerequisites" section). After the adapters are installed, right-click **Adapters** and then click **New - Adapter** to install the JD Edwards OneWorld adapter. Restart the host instance for this to take effect.  
+   Confirm the **JDE_OneWorld** adapter is listed. If the JD Edwards OneWorld adapter is not installed, install the BizTalk Adapters for Enterprise Applications (see the earlier "Prerequisites" section). After the adapters are installed, right-click **Adapters** and then click **New - Adapter** to install the JD Edwards OneWorld adapter. Restart the host instance for this to take effect.  
   
 2. Expand **Applications**, and then expand **BizTalk Application 1**.  
   
-3.  Right-click **Send Ports**, click **New**, and then click **Static Solicit-Response Send Port**.Enter the following values for these fields:  
+3. Right-click **Send Ports**, click **New**, and then click **Static Solicit-Response Send Port**.Enter the following values for these fields:  
   
-    1.  **Name:**  `JDE_OneWorldPort`  
+   1.  **Name:**  `JDE_OneWorldPort`  
   
-    2.  **Type:**  `JDE_OneWorld`  
+   2.  **Type:**  `JDE_OneWorld`  
   
-    3.  **Send handler:**  `BizTalkServerApplication`  
+   3.  **Send handler:**  `BizTalkServerApplication`  
   
-    4.  **Send pipeline:**  `XMLTransmit`  
+   4.  **Send pipeline:**  `XMLTransmit`  
   
-    5.  **Receive pipeline:**  `XMLReceive`  
+   5.  **Receive pipeline:**  `XMLReceive`  
   
-4.  Click **Configure**, and then enter the following property values:  
+4. Click **Configure**, and then enter the following property values:  
   
-    1.  **Host:** \<enter your JDEOW host name\>  
+   1. **Host:** \<enter your JDEOW host name\>  
   
-    2.  **JAVA_HOME:** `C:\j2sdk1.4.2_08`  
+   2. **JAVA_HOME:** `C:\j2sdk1.4.2_08`  
   
-    3.  **JDEdwards Environment:** \<enter your JDEOW environment\>  
+   3. **JDEdwards Environment:** \<enter your JDEOW environment\>  
   
-    4.  **JDEdwards JAR files:** \<enter full path of JAR files\>  
+   4. **JDEdwards JAR files:** \<enter full path of JAR files\>  
   
-         `C:\JDEOWJars\BTSLIBInterop.jar; C:\JDEOWJars\Connector.jar; C:\JDEOWJars\Kernel.jar;C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld®\Classes\JDEJAccess.jar`  
+       `C:\JDEOWJars\BTSLIBInterop.jar; C:\JDEOWJars\Connector.jar; C:\JDEOWJars\Kernel.jar;C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld®\Classes\JDEJAccess.jar`  
   
-    5.  **Password:** Use the drop-down list and then enter your JD Edwards OneWorld password.  
+   5. **Password:** Use the drop-down list and then enter your JD Edwards OneWorld password.  
   
-    6.  **Port:**  `6009`  
+   6. **Port:**  `6009`  
   
-    7.  **User Name:** \<enter your JD Edwards User Name\>  
+   7. **User Name:** \<enter your JD Edwards User Name\>  
   
-     ![](../core/media/jdeow-transportproperties-configurebutton.gif "JDEOW_TransportProperties_ConfigureButton")  
+      ![](../core/media/jdeow-transportproperties-configurebutton.gif "JDEOW_TransportProperties_ConfigureButton")  
   
-5.  Select **OK** to close the **Send Port Properties**.  
+5. Select **OK** to close the **Send Port Properties**.  
   
 ## Step 3: Create a BizTalk Orchestration Project  
 Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and configure an orchestration in the project to handle communication between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the JD Edwards OneWorld system. You will add send and receive ports, build the project, and then deploy the project.  
 
   
-1.  Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and create a new BizTalk project in the C:\LABS folder. On the **File** menu, click **New**. The **New Project** dialog box appears. In the **Templates** section, select **Empty BizTalk Server project.** Enter `JDE_OW_Test` as the unique project name, and then click **OK**.  
+1. Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and create a new BizTalk project in the C:\LABS folder. On the **File** menu, click **New**. The **New Project** dialog box appears. In the **Templates** section, select **Empty BizTalk Server project.** Enter `JDE_OW_Test` as the unique project name, and then click **OK**.  
   
-2.  In Solution Explorer, right-click the project, click **Add**, and then click **Add Generated Items**. In the Categories pane, select **Add Adapter Metadata**, in the Templates pane, select **Add Adapter Metadata**, and then click **Add**.  
+2. In Solution Explorer, right-click the project, click **Add**, and then click **Add Generated Items**. In the Categories pane, select **Add Adapter Metadata**, in the Templates pane, select **Add Adapter Metadata**, and then click **Add**.  
   
-3.  In the Add Adapter Wizard, select the **JD Edwards OneWorld** adapter, select the **JDE_OneWorldPort** send port that you created in the preceding procedure, and then click **Next**.  
+3. In the Add Adapter Wizard, select the **JD Edwards OneWorld** adapter, select the **JDE_OneWorldPort** send port that you created in the preceding procedure, and then click **Next**.  
   
-     ![](../core/media/jdeow-addadapterwizardselectadapter.gif "JDEOW_AddAdapterWizardSelectAdapter")  
+    ![](../core/media/jdeow-addadapterwizardselectadapter.gif "JDEOW_AddAdapterWizardSelectAdapter")  
   
-4.  On the **Select Services to Import** page, open **JD Edwards OneWorld**. The JDEOW system is contacted through the adapter by using the BrowsingAgent program. The BrowsingAgent returns the following services.  
+4. On the **Select Services to Import** page, open **JD Edwards OneWorld**. The JDEOW system is contacted through the adapter by using the BrowsingAgent program. The BrowsingAgent returns the following services.  
   
-     ![](../core/media/jdeow-callbsfn.gif "JDEOW_CALLBSFN")  
+    ![](../core/media/jdeow-callbsfn.gif "JDEOW_CALLBSFN")  
   
-5.  Expand **CALLBSFN** and scroll down to **N0100041 - Address Book MBF**. Select N0100041 and then click **Finish**.  
+5. Expand **CALLBSFN** and scroll down to **N0100041 - Address Book MBF**. Select N0100041 and then click **Finish**.  
   
-6.  In Solution Explorer, there is a new BizTalk orchestration with two new associated schema files. These files are created by the Add Adapter Wizard. Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
+6. In Solution Explorer, there is a new BizTalk orchestration with two new associated schema files. These files are created by the Add Adapter Wizard. Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
   
-     ![](../core/media/jdeow-solution-explorer-jde-ow-test-schemas.gif "JDEOW_Solution_Explorer_JDE_OW_TEST_Schemas")  
+    ![](../core/media/jdeow-solution-explorer-jde-ow-test-schemas.gif "JDEOW_Solution_Explorer_JDE_OW_TEST_Schemas")  
   
- This orchestration accepts as input from the File adapter an XML file formatted for the JD Edwards OneWorld system. The orchestration uses the JD Edwards OneWorld adapter to send the XML file to the JD Edwards OneWorld system. JD Edwards OneWorld processes the query and generates an output XML file containing the results. This XML file returns to the orchestration through the JD Edwards OneWorld adapter, and the File adapter writes the XML file to the output location on disk.  
+   This orchestration accepts as input from the File adapter an XML file formatted for the JD Edwards OneWorld system. The orchestration uses the JD Edwards OneWorld adapter to send the XML file to the JD Edwards OneWorld system. JD Edwards OneWorld processes the query and generates an output XML file containing the results. This XML file returns to the orchestration through the JD Edwards OneWorld adapter, and the File adapter writes the XML file to the output location on disk.  
   
- To complete the orchestration, you need to create and configure ports to receive and send the XML files. First, configure a receive port to be used by the File adapter to input the XML containing the query into the orchestration from disk.  
+   To complete the orchestration, you need to create and configure ports to receive and send the XML files. First, configure a receive port to be used by the File adapter to input the XML containing the query into the orchestration from disk.  
   
 #### Configure a receive port to accept the input XML file  
   
-1.  Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
+1. Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
   
-2.  In the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
+2. In the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
   
-3.  On the **Port Properties** page, enter `JDE_File_In` for **Name**, and then click **Next**.  
+3. On the **Port Properties** page, enter `JDE_File_In` for **Name**, and then click **Next**.  
   
-4.  On the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
+4. On the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
   
-     **Port Type Name**: `JDE_FileIn_Port`  
+    **Port Type Name**: `JDE_FileIn_Port`  
   
-     **Communication Pattern**: **One Way**  
+    **Communication Pattern**: **One Way**  
   
-     **Access Restrictions**: **Internal - limited to this project**  
+    **Access Restrictions**: **Internal - limited to this project**  
   
-5.  Click **Next** to go to the **Port Binding** page, and then select the following property values:  
+5. Click **Next** to go to the **Port Binding** page, and then select the following property values:  
   
-     **Port direction of communication**: **I'll always be receiving messages on this port**  
+    **Port direction of communication**: **I'll always be receiving messages on this port**  
   
-     **Port binding**: **Specify later**  
+    **Port binding**: **Specify later**  
   
-6.  Click **Next**, and then click **Finish**.  
+6. Click **Next**, and then click **Finish**.  
   
- Next, create a send/receive port to send the initial XML input file containing the query to the JD Edwards OneWorld system. This port will also receive an output XML file containing the query results from the call to the JD Edwards OneWorld system.  
+   Next, create a send/receive port to send the initial XML input file containing the query to the JD Edwards OneWorld system. This port will also receive an output XML file containing the query results from the call to the JD Edwards OneWorld system.  
   
 #### Configure a send/receive port to interface with JD Edwards OneWorld  
   
-1.  In the BizTalk Orchestration.odx file, right-click the right port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
+1. In the BizTalk Orchestration.odx file, right-click the right port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
   
-2.  On the **Select a Port Type** page, select **Use an existing Port Type**. Under **Available Port Types**, select **JD_OW_Test.N0100041**,and then click **Next**.  
+2. On the **Select a Port Type** page, select **Use an existing Port Type**. Under **Available Port Types**, select **JD_OW_Test.N0100041**,and then click **Next**.  
   
-     ![](../core/media/a421358c-6e90-4fe0-b243-6beb1b51955a.gif "a421358c-6e90-4fe0-b243-6beb1b51955a")  
+    ![](../core/media/a421358c-6e90-4fe0-b243-6beb1b51955a.gif "a421358c-6e90-4fe0-b243-6beb1b51955a")  
   
-3.  Select the following property values:  
+3. Select the following property values:  
   
-     **Port direction of communication**: **I'll be sending a request and receiving a response**  
+    **Port direction of communication**: **I'll be sending a request and receiving a response**  
   
-     **Port binding**: **Specify later**  
+    **Port binding**: **Specify later**  
   
-4.  Click **Next**, and then click **Finish**. On the port surface you will see the port and the available methods.  
+4. Click **Next**, and then click **Finish**. On the port surface you will see the port and the available methods.  
   
- Finally, configure a send port to be used by the File adapter to output the XML containing the query results to disk.  
+   Finally, configure a send port to be used by the File adapter to output the XML containing the query results to disk.  
   
 #### Configure a send port to output the XML file to disk  
   
-1.  In the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
+1. In the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
   
-2.  On the **Port Properties** page, enter `JDE_FileOut` for **Name**, and then click **Next**.  
+2. On the **Port Properties** page, enter `JDE_FileOut` for **Name**, and then click **Next**.  
   
-3.  On the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
+3. On the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
   
-     **Port Type Name**: `JDE_FileOut_Port`  
+    **Port Type Name**: `JDE_FileOut_Port`  
   
-     **Communication Pattern**: **One Way**  
+    **Communication Pattern**: **One Way**  
   
-     **Access Restrictions**: **Internal - limited to this project**  
+    **Access Restrictions**: **Internal - limited to this project**  
   
-4.  Click **Next** to go to the **Port Binding** page, and then select the following property values:  
+4. Click **Next** to go to the **Port Binding** page, and then select the following property values:  
   
-     **Port direction of communication**: **I'll always be sending messages on this port**  
+    **Port direction of communication**: **I'll always be sending messages on this port**  
   
-     **Port binding**: **Specify later**  
+    **Port binding**: **Specify later**  
   
-5.  Click **Next**, and then click **Finish**.  
+5. Click **Next**, and then click **Finish**.  
   
- Displayed on the port surface are the new ports and the available methods for the JD Edwards OneWorld services. Later you will specify the JD Edwards OneWorld adapter to send and receive files from the JD Edwards OneWorld system.  
+   Displayed on the port surface are the new ports and the available methods for the JD Edwards OneWorld services. Later you will specify the JD Edwards OneWorld adapter to send and receive files from the JD Edwards OneWorld system.  
   
- The **JDE_File_In** and **JDE_File_Out** ports you just created need associated message types.  
+   The **JDE_File_In** and **JDE_File_Out** ports you just created need associated message types.  
   
 #### Assign message types to the ports  
   
-1.  On the left port surface, on the **JDE_File_In** port, click **Request**. In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **JDE_OW_TestAddressBookMasterMBF**.  
+1. On the left port surface, on the **JDE_File_In** port, click **Request**. In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **JDE_OW_TestAddressBookMasterMBF**.  
   
-2.  On the left port surface, on the **JDE_File_Out** port, click **Request**. In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **JDE_OW_TestAddressBookMasterMBFResponse**.  
+2. On the left port surface, on the **JDE_File_Out** port, click **Request**. In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **JDE_OW_TestAddressBookMasterMBFResponse**.  
   
- Insert two **Send** shapes and two **Receive** shapes into the orchestration to link to the ports.  
+   Insert two **Send** shapes and two **Receive** shapes into the orchestration to link to the ports.  
   
 #### Add Send and Receive shapes  
   
@@ -291,37 +291,37 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 #### Configure and start the BizTalk application  
   
-1.  Configure folders for receiving the incoming files and sending the outgoing files. Go to **C:\LABS\JDE_OW_Test** and create two new subfolders named `FileIn` and `FileOut`.  
+1. Configure folders for receiving the incoming files and sending the outgoing files. Go to **C:\LABS\JDE_OW_Test** and create two new subfolders named `FileIn` and `FileOut`.  
   
-2.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,expand **Console Root**, expand**BizTalk Server Administration**, expand **BizTalk Group**, and expand **Applications**.  
+2. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,expand **Console Root**, expand**BizTalk Server Administration**, expand **BizTalk Group**, and expand **Applications**.  
   
-3.  Right-click **JDE_OW_Test**, and then click **Configure**.  
+3. Right-click **JDE_OW_Test**, and then click **Configure**.  
   
-     ![](../core/media/jdeow-configureapplicationjde-ow-test.gif "JDEOW_ConfigureApplicationJDE_OW_Test")  
+    ![](../core/media/jdeow-configureapplicationjde-ow-test.gif "JDEOW_ConfigureApplicationJDE_OW_Test")  
   
-4.  Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
+4. Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
   
-5.  Under **Receive Ports**, click **\<None\>**. In the drop-down list, select **New Receive Port**.  
+5. Under **Receive Ports**, click **\<None\>**. In the drop-down list, select **New Receive Port**.  
   
-6.  For **Name**, type `JDE_FileIn_Port`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
+6. For **Name**, type `JDE_FileIn_Port`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
   
-     ![](../core/media/jdeow-filein-port-receiveportproperties.gif "JDEOW_FileIn_Port_ReceivePortProperties")  
+    ![](../core/media/jdeow-filein-port-receiveportproperties.gif "JDEOW_FileIn_Port_ReceivePortProperties")  
   
-7.  Type or select the following values for the properties:  
+7. Type or select the following values for the properties:  
   
-     **Name**: JDE_`FileInLoc`  
+    **Name**: JDE_`FileInLoc`  
   
-     **Type**: **File**  
+    **Type**: **File**  
   
-     **Receive Handler**: **BizTalkServerApplication**  
+    **Receive Handler**: **BizTalkServerApplication**  
   
-     **Receive Pipeline**: **XMLReceive**  
+    **Receive Pipeline**: **XMLReceive**  
   
-     ![](../core/media/jdeow-filein-loc-receivelocationproperties.gif "JDEOW_FileIn_Loc_ReceiveLocationProperties")  
+    ![](../core/media/jdeow-filein-loc-receivelocationproperties.gif "JDEOW_FileIn_Loc_ReceiveLocationProperties")  
   
-8.  Click **Configure**, type `C:\LABS\JDE_OW_Test\FileIn` for **Receive Folder**, and then click **OK** three times.  
+8. Click **Configure**, type `C:\LABS\JDE_OW_Test\FileIn` for **Receive Folder**, and then click **OK** three times.  
   
-     ![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
+    ![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
   
 9. Click **\<None\>** for **JDE_OW_Port** in the drop-down list.  
   

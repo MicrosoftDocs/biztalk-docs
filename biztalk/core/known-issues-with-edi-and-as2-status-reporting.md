@@ -76,13 +76,13 @@ This topic describes known issues with EDI status reporting in BizTalk Server.
 ## Enabling AS2 status reporting and send port body tracking simultaneously may cause an error  
  If you enable AS2 status reporting and send port body tracking simultaneously, the following error might be displayed in the Event Viewer: "The Messaging Engine encountered an error while deleting one or more messages." This occurs when the send port is a static solicit-response AS2 send port with AS2Send and AS2Receive pipelines. It occurs when the following properties are enabled:  
   
--   The "Activate AS2 Reporting" property in the General pane of the AS2 Properties dialog box.  
+- The "Activate AS2 Reporting" property in the General pane of the AS2 Properties dialog box.  
   
--   The "Store outbound encoded AS2 messages in non-repudiation database" property in the Party as AS2 Message Receiver pane of the AS2 Properties dialog box.  
+- The "Store outbound encoded AS2 messages in non-repudiation database" property in the Party as AS2 Message Receiver pane of the AS2 Properties dialog box.  
   
--   The "Request message after port processing" property in the Tracking pane of the Send Port Properties dialog box.  
+- The "Request message after port processing" property in the Tracking pane of the Send Port Properties dialog box.  
   
- The workaround for this issue is to clear the "Store outbound encoded AS2 messages in non-repudiation database" property or the "Request message after port processing" property. We recommend that you disable "Request message after port processing" so that AS2 tracking can capture the body information along with other pieces of information for AS2 status reporting.  
+  The workaround for this issue is to clear the "Store outbound encoded AS2 messages in non-repudiation database" property or the "Request message after port processing" property. We recommend that you disable "Request message after port processing" so that AS2 tracking can capture the body information along with other pieces of information for AS2 status reporting.  
   
 ## EDI and AS2 message context properties are not available after upgrading to BizTalk 2009  
  After upgrading to BizTalk Server, no context properties are displayed in status reporting for any EDI or AS2 messages received before the upgrade occurred.  Messages received after the upgrade will correctly display the context properties.  
@@ -92,11 +92,11 @@ This topic describes known issues with EDI status reporting in BizTalk Server.
 ## Interchange date for received documents may display the wrong year in status reports  
  If a received document specified the date in YYMMDD format, BizTalk Server uses the following logic to determine the year value:  
   
--   If YY is greater than or equal to 75, the year will be displayed as 19YY.  
+- If YY is greater than or equal to 75, the year will be displayed as 19YY.  
   
--   If YY is less than 75, the year will be displayed as 20YY.  
+- If YY is less than 75, the year will be displayed as 20YY.  
   
- For example, if the value of ISA09 of an incoming message contains 991113, the status report will display the date as 11/13/1999.  
+  For example, if the value of ISA09 of an incoming message contains 991113, the status report will display the date as 11/13/1999.  
   
 ## Error message may be displayed as a string of question marks.  
  In BizTalk Server localized builds, if an error message is displayed as a string of question marks, you need to change the system locale according to the Operating System language to get the expected error message. For more information on changing the system locale, see [Change the system locale](http://windows.microsoft.com/en-IN/windows-vista/Change-the-system-locale).  

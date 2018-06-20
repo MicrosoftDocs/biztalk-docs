@@ -141,7 +141,7 @@ manager: "anneta"
 |Cmdlet|Start-HisDrdaTraceListener|Microsoft.HostIntegration.PowerShell|  
 |Cmdlet|Stop-HisDrdaTraceListener|Microsoft.HostIntegration.PowerShell|  
   
- ***Table 1.** List of DRDA Service PowerShell commands.*  
+ <em>**Table 1.</em>* List of DRDA Service PowerShell commands.*  
   
 ## DRDA Service Connectivity and Package Bind Processing  
  DRDA Service connectivity and package binding comprises: (1) DRDA Client-to-DRDA Service connections, (2) DRDA Service-to-SQL Server connections, (3) DRDA Service-to-DRDA Service connections, and (4) DRDA Service package bind processing (including SQL syntax transformations).  
@@ -953,7 +953,7 @@ Remove-HisDrdaCollationName -From UCA400R1_LEN_AN
 |3|Output information messages, warning messages and error messages.|  
 |4|Output all messages.|  
   
- ***Table  AUTONUM  \\\* Arabic**  Trace Levels.*  
+ ***Table  AUTONUM  \\\\* Arabic**  Trace Levels.*  
   
 #### Example  
  The following example command sets sample values.  
@@ -979,7 +979,7 @@ Set-HisDrdaConsoleTraceListener -Level 3
 |3|Output information messages, warning messages and error messages.|  
 |4|Output all messages.|  
   
- ***Table  AUTONUM  \\\* Arabic**  Trace Levels.*  
+ ***Table  AUTONUM  \\\\* Arabic**  Trace Levels.*  
   
 #### Example  
  The following example command sets sample values.  
@@ -1003,7 +1003,7 @@ Set-HisDrdaEtwTraceListener -Level 3
 |Warning|This value instructs the DRDA Service to log only the warning level data.|  
 |Information|This value instructs the DRDA Service to log only the information level data|  
   
- ***Table  AUTONUM  \\\* Arabic**  Event Log Levels.*  
+ ***Table  AUTONUM  \\\\* Arabic**  Event Log Levels.*  
   
 #### Example  
  The following example command sets sample values.  
@@ -1029,7 +1029,7 @@ Set-HisDrdaEventLogTraceListener -InitializeData Warning
 |3|Output information messages, warning messages and error messages.|  
 |4|Output all messages.|  
   
- ***Table x.** Trace Levels.*  
+ <em>**Table x.</em>* Trace Levels.*  
   
  The **AutoFlush** parameter instructs the DRDA Service to flush data automatically to the trace listener. This **required** parameter accepts a **Boolean** value. The default is **false**.  
   

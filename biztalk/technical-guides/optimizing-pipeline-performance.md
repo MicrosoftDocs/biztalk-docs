@@ -18,37 +18,37 @@ This topic describes guidelines for optimizing performance of pipelines in a [!I
   
 ## Best practices for optimizing performance of BizTalk Server pipelines  
   
-1.  Because pipeline components have a significant impact on performance (for example, a pass-through pipeline component performs up to 30 percent better than an XML assembler/disassembler pipeline component), make sure that any custom pipeline components perform optimally before implementing them in your deployment. Minimize the number of pipeline components in your custom pipelines if you want to maximize the overall performance of your BizTalk application.  
+1. Because pipeline components have a significant impact on performance (for example, a pass-through pipeline component performs up to 30 percent better than an XML assembler/disassembler pipeline component), make sure that any custom pipeline components perform optimally before implementing them in your deployment. Minimize the number of pipeline components in your custom pipelines if you want to maximize the overall performance of your BizTalk application.  
   
-2.  You also can improve overall performance by reducing the message persistence frequency in your pipeline component and by coding your component to minimize redundancy. Every custom assembly and in particular artifacts that could potentially disrupt performance, like custom tracking components, should be tested separately under heavy load condition to observe their behavior when the system is working at full capacity and to find any possible bottlenecks.  
+2. You also can improve overall performance by reducing the message persistence frequency in your pipeline component and by coding your component to minimize redundancy. Every custom assembly and in particular artifacts that could potentially disrupt performance, like custom tracking components, should be tested separately under heavy load condition to observe their behavior when the system is working at full capacity and to find any possible bottlenecks.  
   
-3.  If you need to read the inbound message inside a pipeline component, avoid loading the entire document into memory using an **XmlDocument** object. The amount of space required by an instance of the **XmlDocument** class to load and create an in-memory representation of a XML document is up to 10 times the actual message size. In order to read a message, you should use an **XmlTextReader** object along with an instance of the following classes:  
+3. If you need to read the inbound message inside a pipeline component, avoid loading the entire document into memory using an **XmlDocument** object. The amount of space required by an instance of the **XmlDocument** class to load and create an in-memory representation of a XML document is up to 10 times the actual message size. In order to read a message, you should use an **XmlTextReader** object along with an instance of the following classes:  
   
-    -   **VirtualStream (Microsoft.BizTalk.Streaming.dll)** - The source code for this class is located in two locations under the Pipelines SDK as follows: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler and SDK\Samples\Pipelines\SchemaResolverComponent\SchemaResolverFlatFileDasm.  
+   -   **VirtualStream (Microsoft.BizTalk.Streaming.dll)** - The source code for this class is located in two locations under the Pipelines SDK as follows: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler and SDK\Samples\Pipelines\SchemaResolverComponent\SchemaResolverFlatFileDasm.  
   
-    -   **ReadOnlySeekableStream (Microsoft.BizTalk.Streaming.dll)**.  
+   -   **ReadOnlySeekableStream (Microsoft.BizTalk.Streaming.dll)**.  
   
-    -   **SeekAbleReadOnlyStream** - The source code for this class is located in two locations under the Pipelines SDK as follows: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler and SDK\Samples\Pipelines\SchemaResolverComponent\SchemaResolverFlatFileDasm.  
+   -   **SeekAbleReadOnlyStream** - The source code for this class is located in two locations under the Pipelines SDK as follows: SDK\Samples\Pipelines\ArbitraryXPathPropertyHandler and SDK\Samples\Pipelines\SchemaResolverComponent\SchemaResolverFlatFileDasm.  
   
-4.  Use the PassThruReceive and the PassThruTransmit standard pipelines whenever possible. They do not contain any pipeline component and do not perform any processing of the message. For this reason, they ensure maximum performance in receiving or sending messages. You can use a PassThruReceive pipeline on a receive location if you need to publish a binary document to the BizTalk MessageBox and a PassThruTransmit pipeline on a send port if you need to send out a binary message. You can also use the PassThruTransmit pipeline on a physical send port bound to an orchestration if the message has been formatted and is ready to be transmitted. You will need to use a different approach if you need to accomplish one of the following actions:  
+4. Use the PassThruReceive and the PassThruTransmit standard pipelines whenever possible. They do not contain any pipeline component and do not perform any processing of the message. For this reason, they ensure maximum performance in receiving or sending messages. You can use a PassThruReceive pipeline on a receive location if you need to publish a binary document to the BizTalk MessageBox and a PassThruTransmit pipeline on a send port if you need to send out a binary message. You can also use the PassThruTransmit pipeline on a physical send port bound to an orchestration if the message has been formatted and is ready to be transmitted. You will need to use a different approach if you need to accomplish one of the following actions:  
   
-    -   Promote properties on the context of an inbound XML or Flat File message.  
+   - Promote properties on the context of an inbound XML or Flat File message.  
   
-    -   Apply a map inside a receive location.  
+   - Apply a map inside a receive location.  
   
-    -   Apply a map in an orchestration that subscribes to a message.  
+   - Apply a map in an orchestration that subscribes to a message.  
   
-    -   Apply a map on a send port that subscribes to a message.  
+   - Apply a map on a send port that subscribes to a message.  
   
      To accomplish one of these actions, you must probe and discover the document type inside the receive pipeline and assign the (namespace#root-name) value to the MessageType context property. This operation is typically accomplished by a disassembler component such as the Xml Disassembler component (XmlDasmComp) or the Flat File disassembler component (FFDasmComp). In this case, you need to use a standard (for instance, XmlReceive pipeline) or a custom pipeline that contains a standard or a custom disassembler component.  
   
-5.  Acquire resources as late as possible and release them as early as possible. For example, if you need to access data on a database, open the connection as late as possible and close it as soon as possible. Use the C# using statement to implicitly release disposable objects or the finally block of a try-catch-finally statement to explicitly dispose your objects. Instrument your source code to make your components simple to debug.  
+5. Acquire resources as late as possible and release them as early as possible. For example, if you need to access data on a database, open the connection as late as possible and close it as soon as possible. Use the C# using statement to implicitly release disposable objects or the finally block of a try-catch-finally statement to explicitly dispose your objects. Instrument your source code to make your components simple to debug.  
   
-6.  Eliminate any components from your pipelines that are not strictly required to speed up message processing.  
+6. Eliminate any components from your pipelines that are not strictly required to speed up message processing.  
   
-7.  Inside a receive pipeline, you should promote items to the message context only if you need them for message routing (Orchestrations, Send Ports) or demotion of message context properties (Send Ports).  
+7. Inside a receive pipeline, you should promote items to the message context only if you need them for message routing (Orchestrations, Send Ports) or demotion of message context properties (Send Ports).  
   
-8.  If you need to include metadata with a message, and you don't use the metadata for routing or demotion purposes, use the **IBaseMessageContext.Write** method instead of the **IBaseMessageContext.Promote** method.  
+8. If you need to include metadata with a message, and you don't use the metadata for routing or demotion purposes, use the **IBaseMessageContext.Write** method instead of the **IBaseMessageContext.Promote** method.  
   
 9. If you need to extract information from a message using an XPath expression, avoid loading the entire document into memory using an **XmlDocument** object just to use the **SelectNodes** or **SelectSingleNode** methods. Alternatively, use the techniques described in [Optimizing Memory Usage with Streaming](../technical-guides/optimizing-memory-usage-with-streaming.md).  
   
@@ -166,21 +166,21 @@ public IBaseMessage Execute(IPipelineContext context, IBaseMessage message)
   
  The resource tracker is used for the following types of objects:  
   
--   Stream objects  
+- Stream objects  
   
--   COM objects  
+- COM objects  
   
--   IDisposable objects  
+- IDisposable objects  
   
- The message engine ensures that all the native resources that are added to the resource tracker are released at an appropriate time, that is after the pipeline is completely executed, regardless of whether it was successful or failed. The lifetime of the Resource Tracker instance and the objects that it is tracking is managed by the pipeline context object. The pipeline context is made available to all types of pipeline components through an object that implements the IPipelineContext interface.  
+  The message engine ensures that all the native resources that are added to the resource tracker are released at an appropriate time, that is after the pipeline is completely executed, regardless of whether it was successful or failed. The lifetime of the Resource Tracker instance and the objects that it is tracking is managed by the pipeline context object. The pipeline context is made available to all types of pipeline components through an object that implements the IPipelineContext interface.  
   
- For example, the following code snippet is a sample that illustrates how to use ResourceTracker property in custom pipeline components. To use ResourceTracker property, the code snippet uses the following parameter `IPipelineContext.ResourceTracker.AddResource`. In this parameter:  
+  For example, the following code snippet is a sample that illustrates how to use ResourceTracker property in custom pipeline components. To use ResourceTracker property, the code snippet uses the following parameter `IPipelineContext.ResourceTracker.AddResource`. In this parameter:  
   
--   IPipelineContext interface defines the methods used to access all document processing-specific interfaces.  
+- IPipelineContext interface defines the methods used to access all document processing-specific interfaces.  
   
--   ResourceTracker property references IPipelineContext and is used to keep track of objects that will be explicitly disposed at the end of pipeline processing.  
+- ResourceTracker property references IPipelineContext and is used to keep track of objects that will be explicitly disposed at the end of pipeline processing.  
   
--   ResourceTracker.AddResource method is used to keep track of COM objects, Disposable objects and Streams, and should always be used inside a custom pipeline component to explicitly close (streams), dispose (IDisposable objects) or release (COM objects) these types of resources when a message is published to the BizTalk MessageBox.  
+- ResourceTracker.AddResource method is used to keep track of COM objects, Disposable objects and Streams, and should always be used inside a custom pipeline component to explicitly close (streams), dispose (IDisposable objects) or release (COM objects) these types of resources when a message is published to the BizTalk MessageBox.  
   
 ```  
 public IBaseMessage Execute(IPipelineContext pContext, IBaseMessage pInMsg)  

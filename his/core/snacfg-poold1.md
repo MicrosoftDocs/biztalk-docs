@@ -17,7 +17,7 @@ manager: "anneta"
 ## Purpose  
  Allows you to view, add, or delete downstream LU pools. Also allows you to view the command that would create a specified downstream LU pool.  
   
- To assign existing downstream LUs to a downstream LU pool, first configure the pool with the **snacfg poold** command; then add the LUs with the **snacfg lud** command (using the **/pool:***poolname* option).  
+ To assign existing downstream LUs to a downstream LU pool, first configure the pool with the **snacfg poold** command; then add the LUs with the **snacfg lud** command (using the **/pool:**<em>poolname</em> option).  
   
 ## Syntax  
   

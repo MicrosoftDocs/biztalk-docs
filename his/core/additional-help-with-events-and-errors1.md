@@ -18,13 +18,13 @@ We provide troubleshooting information about specific product event and error me
   
  The information provided on the Web site includes:  
   
--   The text of the event or error message, so you can confirm you have located the correct message  
+- The text of the event or error message, so you can confirm you have located the correct message  
   
--   A detailed explanation of what caused the event or error  
+- A detailed explanation of what caused the event or error  
   
--   Recommended actions, if any, for you to take to correct the problem.  
+- Recommended actions, if any, for you to take to correct the problem.  
   
- For Windows operating systems, you can also access additional information about an event by using the Event Viewer or additional information about an error directly from the Microsoft Web site.  
+  For Windows operating systems, you can also access additional information about an event by using the Event Viewer or additional information about an error directly from the Microsoft Web site.  
   
 ### To access additional information about events through the Windows Event Viewer  
   

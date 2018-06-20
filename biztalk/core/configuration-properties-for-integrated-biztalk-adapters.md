@@ -87,17 +87,17 @@ gt;<bodyPartIndex>1</bodyPartIndex><errorThreshold>10
   
  The integrated adapters that were created with the Adapter Framework include the following:  
   
--   FTP Adapter  
+- FTP Adapter  
   
--   MQSeries Adapter  
+- MQSeries Adapter  
   
--   MSMQ Adapter  
+- MSMQ Adapter  
   
--   POP3 Adapter  
+- POP3 Adapter  
   
--   Windows Sharepoint Services Adapter  
+- Windows Sharepoint Services Adapter  
   
- To view a sample string used as the TransportTypeData configuration data for each integrated adapter, please see the configuration properties topic that is associated with the adapter in this section.  
+  To view a sample string used as the TransportTypeData configuration data for each integrated adapter, please see the configuration properties topic that is associated with the adapter in this section.  
   
 ## In This Section  
  [Configuration Property Variable Types](../core/configuration-property-variable-types.md)  

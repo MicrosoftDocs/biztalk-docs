@@ -26,21 +26,21 @@ This component lets you edit automatically any part of a multipart message withi
   
 #### To add the Message Editor Pipeline Component to an existing pipeline  
   
-1.  Start Visual Studio.  
+1. Start Visual Studio.  
   
-2.  On the **File** menu, point to **Open**, and then click **Project**.  
+2. On the **File** menu, point to **Open**, and then click **Project**.  
   
-3.  Move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, select **MessageEditor.csproj**, and then click **Open**.  
+3. Move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, select **MessageEditor.csproj**, and then click **Open**.  
   
-4.  Start Visual Studio command prompt.  
+4. Start Visual Studio command prompt.  
   
-5.  At the command prompt, move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
+5. At the command prompt, move to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
   
-6.  At the command prompt, type **sn -k MessageEditor.snk** to create a key, and then press ENTER.  
+6. At the command prompt, type **sn -k MessageEditor.snk** to create a key, and then press ENTER.  
   
-7.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], in Solution Explorer, right-click **MessageEditor**, and then click **Properties**.  
+7. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], in Solution Explorer, right-click **MessageEditor**, and then click **Properties**.  
   
-8.  In the **MessageEditor Property** page, click **Signing** tab, and then click **Sign the assembly** checkbox.  
+8. In the **MessageEditor Property** page, click **Signing** tab, and then click **Sign the assembly** checkbox.  
   
 9. In **Choose a strong name key file** drop-down, browse to C:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\ SDK\Message Editor Pipeline Component\obj\debug and select **MessageEditor.snk** and then click **Open**.  
   

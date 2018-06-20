@@ -37,19 +37,19 @@ This topic describes how to use the BizTalk Server Administration console to enl
   
 ### To enlist or unenlist a party for a role  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the role link for which you want to enlist or unenlist a party.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the role link for which you want to enlist or unenlist a party.  
   
-3.  Click **Role Links**, right-click the role link for which you want to enlist or unenlist a party, and then click **Properties**.  
+3. Click **Role Links**, right-click the role link for which you want to enlist or unenlist a party, and then click **Properties**.  
   
-4.  To enlist a party, do the following:  
+4. To enlist a party, do the following:  
   
-    -   Click **Enlist** and click the party to enlist.  
+   -   Click **Enlist** and click the party to enlist.  
   
-    -   Click **Bind**, in the **Send Port** drop-down list, click the send port to use for this party, and then click **OK** twice.  
+   -   Click **Bind**, in the **Send Port** drop-down list, click the send port to use for this party, and then click **OK** twice.  
   
-5.  To unenlist a party, click the party, click **Unenlist**, and then click **OK**.  
+5. To unenlist a party, click the party, click **Unenlist**, and then click **OK**.  
   
 ## See Also  
  [Managing Role Links](../core/managing-role-links.md)

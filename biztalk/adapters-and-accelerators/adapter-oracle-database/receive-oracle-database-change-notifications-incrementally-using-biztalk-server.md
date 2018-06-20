@@ -20,11 +20,11 @@ manager: "anneta"
   
  This topic demonstrates how to configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive incremental query notification messages from Oracle. To demonstrate incremental notifications, we consider a table, ACCOUNTACTIVITY, with a “Processed” column. When a new record is inserted to this table, the value of the “Processed” column is set to ‘n’. You can configure the adapter to receive incremental notifications by doing the following:  
   
--   Register for notifications using a SELECT statement that retrieves all records that have “Processed” column as ‘n’. You can do so by specifying the SELECT statement for the **NotificationStatement** binding property.  
+- Register for notifications using a SELECT statement that retrieves all records that have “Processed” column as ‘n’. You can do so by specifying the SELECT statement for the **NotificationStatement** binding property.  
   
--   For rows which have been notified for, update the “Processed” column to ‘y’.  
+- For rows which have been notified for, update the “Processed” column to ‘y’.  
   
- This topic demonstrates how to create a BizTalk orchestration and configure a BizTalk application to achieve this.  
+  This topic demonstrates how to create a BizTalk orchestration and configure a BizTalk application to achieve this.  
   
 ## Configuring Notifications with the Oracle Database Adapter Binding Properties  
  The following table summarizes the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties that you use to configure receiving notifications from the Oracle database. You must specify these binding properties while configuring the receive port in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -44,56 +44,56 @@ manager: "anneta"
 ## How This Topic Demonstrates Receiving Notification Messages  
  In this topic, to demonstrate how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports receiving incremental database change notification messages from the Oracle database, we will configure the adapter to receive notifications for changes to the ACCOUNTACTIVTY table. Let us assume that the ACCOUNTACTIVITY table has columns “TID”, “Account”, and “Processed”. Whenever a new record is added, the value of the “Processed” column is set to ‘n’. So, to get incremental notifications you will have to do the following tasks as part of the BizTalk orchestration:  
   
--   Get notification for all records where “Processed” is ‘n’. You can do this by specifying a SELECT statement as a notification statement.  
+- Get notification for all records where “Processed” is ‘n’. You can do this by specifying a SELECT statement as a notification statement.  
   
--   After the notification is received for a certain record, set “Processed” to ‘y’. You can do this by executing a stored procedure, PROCESS_RECORDS, which updates the “Processed” column.  
+- After the notification is received for a certain record, set “Processed” to ‘y’. You can do this by executing a stored procedure, PROCESS_RECORDS, which updates the “Processed” column.  
   
- To demonstrate receiving incremental notifications, we do the following:  
+  To demonstrate receiving incremental notifications, we do the following:  
   
--   Generate schema for the **Notification** (inbound operation), and **PROCESS_RECORDS** (outbound operation) on the ACCOUNTACTIVITY table.  
+- Generate schema for the **Notification** (inbound operation), and **PROCESS_RECORDS** (outbound operation) on the ACCOUNTACTIVITY table.  
   
--   Create an orchestration that has the following:  
+- Create an orchestration that has the following:  
   
-    -   A receive location to receive notification messages. You can configure for notification by specifying the SELECT statement as:  
+  -   A receive location to receive notification messages. You can configure for notification by specifying the SELECT statement as:  
   
-        ```  
-        SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’  
-        ```  
+      ```  
+      SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’  
+      ```  
   
-        > [!NOTE]
-        >  You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.  
+      > [!NOTE]
+      >  You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.  
   
-    -   A send port to update the rows for which notification has already been sent. You will execute the PROCESS_RECORDS stored procedure on this port to set the value of “Processed” column to ‘y’ for the records for which notification is received.  
+  -   A send port to update the rows for which notification has already been sent. You will execute the PROCESS_RECORDS stored procedure on this port to set the value of “Processed” column to ‘y’ for the records for which notification is received.  
   
-         Note that this operation must be executed after receiving the notification messages so that the processed rows are updated. To do away with the overhead of waiting to get the notification response and then manually dropping a request message to execute the PROCESS_RECORDS procedure, you will generate the request message for PROCESS_RECORDS procedure within the orchestration itself. You can do so by using the **Construct Message** shape within an orchestration.  
+       Note that this operation must be executed after receiving the notification messages so that the processed rows are updated. To do away with the overhead of waiting to get the notification response and then manually dropping a request message to execute the PROCESS_RECORDS procedure, you will generate the request message for PROCESS_RECORDS procedure within the orchestration itself. You can do so by using the **Construct Message** shape within an orchestration.  
   
 ## How to Receive Notification Messages from the Oracle database  
  Performing an operation on the Oracle database using [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves the procedural tasks described in [Building blocks to develop BizTalk Applications with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md). To configure the adapter to receive notification messages, these tasks are:  
   
-1.  Create a BizTalk project, and then generate schema for the **Notification** (inbound operation) and **PROCESS_RECORDS** procedure (outbound operation) on the ACCOUNTACTIVITY table. Optionally, you can specify values for the **InboundOperationType**, **NotificationPort**, and **NotificationStatement** binding properties.  
+1. Create a BizTalk project, and then generate schema for the **Notification** (inbound operation) and **PROCESS_RECORDS** procedure (outbound operation) on the ACCOUNTACTIVITY table. Optionally, you can specify values for the **InboundOperationType**, **NotificationPort**, and **NotificationStatement** binding properties.  
   
-2.  Create a message in the BizTalk project for receiving notification from the Oracle database.  
+2. Create a message in the BizTalk project for receiving notification from the Oracle database.  
   
-3.  Create messages in the BizTalk project for executing the PROCESS_RECORDS stored procedure and receiving response messages.  
+3. Create messages in the BizTalk project for executing the PROCESS_RECORDS stored procedure and receiving response messages.  
   
-4.  Create an orchestration that does the following:  
+4. Create an orchestration that does the following:  
   
-    -   Receives notification message from the Oracle database.  
+   -   Receives notification message from the Oracle database.  
   
-    -   Creates a message to execute the PROCESS_RECORDS procedure.  
+   -   Creates a message to execute the PROCESS_RECORDS procedure.  
   
-    -   Sends this message to the Oracle database to select and update the records and receive a response.  
+   -   Sends this message to the Oracle database to select and update the records and receive a response.  
   
-5.  Build and deploy the BizTalk project.  
+5. Build and deploy the BizTalk project.  
   
-6.  Configure the BizTalk application by creating physical send and receive ports.  
+6. Configure the BizTalk application by creating physical send and receive ports.  
   
-    > [!NOTE]
-    >  For inbound operations, like receiving notification messages, you must only configure a one-way WCF-Custom or WCF-OracleDB receive port. Two-way receive ports are not supported for inbound operations.  
+   > [!NOTE]
+   >  For inbound operations, like receiving notification messages, you must only configure a one-way WCF-Custom or WCF-OracleDB receive port. Two-way receive ports are not supported for inbound operations.  
   
-7.  Start the BizTalk application.  
+7. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Generating Schema  
  You must generate the schema for the **Notification** operation and **PROCESS_RECORDS** procedure. See [Retrieve metadata for Oracle operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md) for more information about how to generate the schema. Perform the following tasks when generating the schema. Skip the first step if you do not want to specify the binding properties at design-time.  
@@ -144,19 +144,19 @@ manager: "anneta"
   
  So, your orchestration must contain the following:  
   
--   A one-way WCF-Custom or WCF-OracleDB receive port to receive notification messages.  
+- A one-way WCF-Custom or WCF-OracleDB receive port to receive notification messages.  
   
--   A two-way WCF-Custom or WCF-OracleDB send port to send messages to execute the PROCESS_RECORDS procedure.  
+- A two-way WCF-Custom or WCF-OracleDB send port to send messages to execute the PROCESS_RECORDS procedure.  
   
--   A **Construct Message** shape to construct messages, to execute PROCESS_RECORDS procedure, within the orchestration.  
+- A **Construct Message** shape to construct messages, to execute PROCESS_RECORDS procedure, within the orchestration.  
   
--   A FILE send port to save the notification message and the response for the PROCESS_RECORDS procedure.  
+- A FILE send port to save the notification message and the response for the PROCESS_RECORDS procedure.  
   
--   Receive and send shapes.  
+- Receive and send shapes.  
   
- A sample orchestration resembles the following.  
+  A sample orchestration resembles the following.  
   
- ![Orchestration to receive notifications from Oracle](../../adapters-and-accelerators/adapter-oracle-database/media/cef49414-490a-4bd5-a32d-b3f4cde5950a.gif "cef49414-490a-4bd5-a32d-b3f4cde5950a")  
+  ![Orchestration to receive notifications from Oracle](../../adapters-and-accelerators/adapter-oracle-database/media/cef49414-490a-4bd5-a32d-b3f4cde5950a.gif "cef49414-490a-4bd5-a32d-b3f4cde5950a")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
@@ -249,30 +249,30 @@ Procedure(WCF.Action) = "http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Pac
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
   
-    -   Define a physical WCF-Custom or WCF-OracleDB one-way receive port. This port listens for notifications coming from the Oracle database. For information about how to create receive ports, see [Manually configure a physical port binding to the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md). Make sure you specify the following binding properties for the receive port.  
+  - Define a physical WCF-Custom or WCF-OracleDB one-way receive port. This port listens for notifications coming from the Oracle database. For information about how to create receive ports, see [Manually configure a physical port binding to the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md). Make sure you specify the following binding properties for the receive port.  
   
-        > [!IMPORTANT]
-        >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information see [Configure a physical port binding using a port binding file to Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md).  
+    > [!IMPORTANT]
+    >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information see [Configure a physical port binding using a port binding file to Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md).  
   
-        |Binding Property|Value|  
-        |----------------------|-----------|  
-        |**InboundOperationType**|Set this to **Notification**.|  
-        |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959).<br /><br /> **Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|  
-        |**NotificationStatement**|Set this to:<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **Note:** You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.|  
-        |**NotifyOnListenerStart**|Set this to **True**.|  
+    |Binding Property|Value|  
+    |----------------------|-----------|  
+    |**InboundOperationType**|Set this to **Notification**.|  
+    |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959).<br /><br /> **Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|  
+    |**NotificationStatement**|Set this to:<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **Note:** You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.|  
+    |**NotifyOnListenerStart**|Set this to **True**.|  
   
-         For more information about the different binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](https://msdn.microsoft.com/library/dd788467.aspx).  
+     For more information about the different binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](https://msdn.microsoft.com/library/dd788467.aspx).  
   
-        > [!NOTE]
-        >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-OracleDB receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md).  
+    > [!NOTE]
+    >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-OracleDB receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md).  
   
-    -   Define a physical WCF-Custom or WCF-OracleDB send port to send messages to the Oracle database to execute the PROCESS_REOCRDS procedure. You must also specify the action in the send port.  
+  - Define a physical WCF-Custom or WCF-OracleDB send port to send messages to the Oracle database to execute the PROCESS_REOCRDS procedure. You must also specify the action in the send port.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the messages from the Oracle database. These will be the notification messages received from the Oracle database and messages for the PROCESS_RECORDS procedure you execute through the WCF-Custom or WCF-OracleDB send port.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the messages from the Oracle database. These will be the notification messages received from the Oracle database and messages for the PROCESS_RECORDS procedure you execute through the WCF-Custom or WCF-OracleDB send port.  
   
 ## Starting the Application  
  You must start the BizTalk application for receiving notification messages from the Oracle database and for executing the PROCESS_RECORDS procedure. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).  

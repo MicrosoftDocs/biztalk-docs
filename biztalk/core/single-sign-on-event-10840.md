@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10840
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10840|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAX_PASSWORD_REMINDER|  
-|Message Text|The maximum password reminder length is 512 characters.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10840                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |               ENTSSO_E_MAX_PASSWORD_REMINDER               |
+|  Message Text   |  The maximum password reminder length is 512 characters.   |
   
 ## Explanation  
  The maximum password reminder length is 512 characters.  

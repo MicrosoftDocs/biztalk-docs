@@ -21,46 +21,46 @@ The **Table Looping** and **Table Extractor** functoids are used together. The *
   
 ### To add the Table Looping and Table Extractor functoids to a map and configure them  
   
-1.  With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the **Advanced Functoids** tab to select that category of functoids.  
+1. With the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox active, click the **Advanced Functoids** tab to select that category of functoids.  
   
-     The list of advanced functoids in the chosen category appears.  
+    The list of advanced functoids in the chosen category appears.  
   
-2.  Drag the **Table Looping** functoid (![](../core/media/advtablelooping.gif "advtablelooping")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Table Looping** functoid (![](../core/media/advtablelooping.gif "advtablelooping")) from the Toolbox to the appropriate location on a grid page.  
   
-    > [!NOTE]
-    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that grid page first.  
+   > [!NOTE]
+   >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that grid page first.  
   
-    > [!NOTE]
-    >  Because the output of the **Table Looping** functoid serves as input to one or more associated **Table Extractor** functoids, make sure you leave room to the right of the **Table Looping** functoid for the **Table Extractor** functoids.  
+   > [!NOTE]
+   >  Because the output of the **Table Looping** functoid serves as input to one or more associated **Table Extractor** functoids, make sure you leave room to the right of the **Table Looping** functoid for the **Table Extractor** functoids.  
   
-3.  Drag a record or field from the source schema to the newly added **Table Looping** functoid. As the first input parameter to the **Table Looping** functoid, the number of occurrences of this record or field in an instance message will control the number of times this functoid produces output. For example, if a looping record is dragged to the functoid, and an instance message that has 10 occurrences of this record is processed, and the table grid has been configured with one row of sources of column data, the **Table Looping** functoid will iterate 10 times, producing 10 output rows for extraction by a **Table Extractor** functoid, and allowing 10 destination records to be easily constructed.  
+3. Drag a record or field from the source schema to the newly added **Table Looping** functoid. As the first input parameter to the **Table Looping** functoid, the number of occurrences of this record or field in an instance message will control the number of times this functoid produces output. For example, if a looping record is dragged to the functoid, and an instance message that has 10 occurrences of this record is processed, and the table grid has been configured with one row of sources of column data, the **Table Looping** functoid will iterate 10 times, producing 10 output rows for extraction by a **Table Extractor** functoid, and allowing 10 destination records to be easily constructed.  
   
-    > [!NOTE]
-    >  If you configure multiple rows in the table grid, each such row will be output for each iteration of the **Table Looping** functoid. So, the number of occurrences of an input record times the number of rows configured in the table grid yields the number of output table rows available for data extraction.  
+   > [!NOTE]
+   >  If you configure multiple rows in the table grid, each such row will be output for each iteration of the **Table Looping** functoid. So, the number of occurrences of an input record times the number of rows configured in the table grid yields the number of output table rows available for data extraction.  
   
-4.  Drag a record or field from the destination schema to the **Table Looping** functoid. This link ensures the creation of the node in the destination schema.  
+4. Drag a record or field from the destination schema to the **Table Looping** functoid. This link ensures the creation of the node in the destination schema.  
   
-5.  Select the newly added **Table Looping** functoid, and in the **Properties** window, click the ellipsis (**...**) button associated with its **Input Parameters** property.  
+5. Select the newly added **Table Looping** functoid, and in the **Properties** window, click the ellipsis (**...**) button associated with its **Input Parameters** property.  
   
-    > [!NOTE]
-    >  Alternatively, you can select the functoid and then press CTRL+M, CTRL+T from the keyboard. For a list of Mapper keyboard shortcuts see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
+   > [!NOTE]
+   >  Alternatively, you can select the functoid and then press CTRL+M, CTRL+T from the keyboard. For a list of Mapper keyboard shortcuts see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
   
-6.  In the **Configure Table Looping Functoid** dialog box, click the ![Adding constant input parameters to a functoid](../core/media/add-input-parameters.gif "Add_input_parameters") button to create the second input parameter. Type a number that represents the number of columns that will be available in the table you are creating for this **Table Looping** functoid.  
+6. In the **Configure Table Looping Functoid** dialog box, click the ![Adding constant input parameters to a functoid](../core/media/add-input-parameters.gif "Add_input_parameters") button to create the second input parameter. Type a number that represents the number of columns that will be available in the table you are creating for this **Table Looping** functoid.  
   
-    > [!NOTE]
-    >  The maximum number of columns in the table is 228.  
+   > [!NOTE]
+   >  The maximum number of columns in the table is 228.  
   
-7.  In the **Configure Table Looping Functoid** dialog box, click the ![Adding constant input parameters to a functoid](../core/media/add-input-parameters.gif "Add_input_parameters") button to enter any constant values that appears in your configured table grid. The order in which you create these constants is not important in this dialog box as long as the first and second parameter values, the number of rows and columns, respectively, retain their positions at the beginning of the input parameter list. When complete, click **OK**.  
+7. In the **Configure Table Looping Functoid** dialog box, click the ![Adding constant input parameters to a functoid](../core/media/add-input-parameters.gif "Add_input_parameters") button to enter any constant values that appears in your configured table grid. The order in which you create these constants is not important in this dialog box as long as the first and second parameter values, the number of rows and columns, respectively, retain their positions at the beginning of the input parameter list. When complete, click **OK**.  
   
-     The **Configure Table Looping Functoid** dialog box closes.  
+    The **Configure Table Looping Functoid** dialog box closes.  
   
-8.  Drag zero or more record or field nodes from the source schema to the **Table Looping** functoid that you recently added. Each of these record and field nodes is added to the end of the input parameter list, and therefore will be available when the table grid is configured in a latter step. Like the table data constants added earlier (not the row and column count constants), the order in which these record and field nodes are added is not ultimately relevant.  
+8. Drag zero or more record or field nodes from the source schema to the **Table Looping** functoid that you recently added. Each of these record and field nodes is added to the end of the input parameter list, and therefore will be available when the table grid is configured in a latter step. Like the table data constants added earlier (not the row and column count constants), the order in which these record and field nodes are added is not ultimately relevant.  
   
 9. To label a link, follow these steps:  
   
-    -   Select a link in the displayed grid page.  
+   - Select a link in the displayed grid page.  
   
-    -   In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, provide a descriptive name for the **Label** property. For example, you might give a name like "link2ndAuthor" to a link coming from a field called "Second Author".  
+   - In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, provide a descriptive name for the **Label** property. For example, you might give a name like "link2ndAuthor" to a link coming from a field called "Second Author".  
   
 10. Select the newly added **Table Looping** functoid, and in the **Properties** window, click the ellipsis (**...**) button associated with the **Table Looping Grid** property associated with that functoid.  
   

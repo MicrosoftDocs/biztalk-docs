@@ -16,13 +16,13 @@ manager: "anneta"
 # Structure of 3270 Client Access Components
 The components of Host Integration Server that apply to 3270 client access are:  
   
--   Local nodes  
+- Local nodes  
   
--   Link services  
+- Link services  
   
--   3270 emulation program  
+- 3270 emulation program  
   
- This section introduces the structure of these components and explains specialized terms.  
+  This section introduces the structure of these components and explains specialized terms.  
   
 ## In This Section  
  [Role of the Base](../core/role-of-the-base1.md)  

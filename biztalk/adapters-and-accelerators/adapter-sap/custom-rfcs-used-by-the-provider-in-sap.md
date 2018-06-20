@@ -23,13 +23,13 @@ manager: "anneta"
 # Custom RFCs Used by the Provider in SAP
 The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] provides the following custom RFCs that it internally uses to perform operations on the SAP system.  
   
--   **Z_EXTRACT_DATA_OO RFC**. The data extraction RFC, Z_EXTRACT_DATA_OO, extracts data from tables or views in the SAP R/3 system, converts the data, and either returns the data synchronously in a SQL Server table or dumps data to a flat file. The Z_EXTRACT_DATA_OO is used to perform SELECT operation with WHERE clauses. The performance of this RFC is dependent on your SAP system hardware.  
+- **Z_EXTRACT_DATA_OO RFC**. The data extraction RFC, Z_EXTRACT_DATA_OO, extracts data from tables or views in the SAP R/3 system, converts the data, and either returns the data synchronously in a SQL Server table or dumps data to a flat file. The Z_EXTRACT_DATA_OO is used to perform SELECT operation with WHERE clauses. The performance of this RFC is dependent on your SAP system hardware.  
   
-     For information on how the .NET and SAP data types are mapped for Z_EXTRACT_DATA_OO RFC, see [Data Type Mapping for Custom RFCs](../../adapters-and-accelerators/adapter-sap/data-type-mapping-for-custom-rfcs.md).  
+   For information on how the .NET and SAP data types are mapped for Z_EXTRACT_DATA_OO RFC, see [Data Type Mapping for Custom RFCs](../../adapters-and-accelerators/adapter-sap/data-type-mapping-for-custom-rfcs.md).  
   
--   **Z_EXECUTE_SAP_QUERY RFC**. This RFC is used by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] to execute queries that are already defined in the SAP system. This RFC internally executes the SAP RFC, RSAQ_REMOTE_QUERY_CALL. SAP queries are queries that are graphically created using the SAP GUI by selecting the tables, columns, input parameters, sort order of the result set, etc. Using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] you can now execute such SAP queries from an ADO.NET client.  
+- **Z_EXECUTE_SAP_QUERY RFC**. This RFC is used by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] to execute queries that are already defined in the SAP system. This RFC internally executes the SAP RFC, RSAQ_REMOTE_QUERY_CALL. SAP queries are queries that are graphically created using the SAP GUI by selecting the tables, columns, input parameters, sort order of the result set, etc. Using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] you can now execute such SAP queries from an ADO.NET client.  
   
-     All values returned by the EXECQUERY operation are of string type.  
+   All values returned by the EXECQUERY operation are of string type.  
   
 ## Limitations Related to the Z_EXTRACT_DATA_OO RFC  
   

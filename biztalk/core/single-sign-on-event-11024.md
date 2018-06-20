@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11024
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11024|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_PS_ADMIN_CALLBACK_ACCESS_DENIED|  
-|Message Text|Password sync server (for admin) access denied.%r<br /><br /> Client User: %1|  
+|                 |                                                                               |
+|-----------------|-------------------------------------------------------------------------------|
+|  Product Name   |                           Enterprise Single Sign-On                           |
+| Product Version |          [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]           |
+|    Event ID     |                                     11024                                     |
+|  Event Source   |                                    ENTSSO                                     |
+|    Component    |                                      N/A                                      |
+|  Symbolic Name  |                   SSO_ERROR_PS_ADMIN_CALLBACK_ACCESS_DENIED                   |
+|  Message Text   | Password sync server (for admin) access denied.%r<br /><br /> Client User: %1 |
   
 ## Explanation  
  RPC failure.  

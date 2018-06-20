@@ -17,23 +17,23 @@ manager: "anneta"
 # Tutorial 2: Migrating BizTalk Projects in Siebel
 The previous version of the Siebel adapter that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] in many aspects, including:  
   
--   The design-time experience of creating a BizTalk project.  
+- The design-time experience of creating a BizTalk project.  
   
--   The metadata retrieval experience.  
+- The metadata retrieval experience.  
   
--   Schema file name and namespace.  
+- Schema file name and namespace.  
   
--   Data type mappings.  
+- Data type mappings.  
   
--   The operations that can be performed using the adapter.  
+- The operations that can be performed using the adapter.  
   
--   Physical port configuration in the BizTalk Server Administration console  
+- Physical port configuration in the BizTalk Server Administration console  
   
- These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the Siebel Adapter](http://msdn.microsoft.com/library/ae61d3df-c5ca-4891-86b1-9f0dd6d3a59e).  
+  These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the Siebel Adapter](http://msdn.microsoft.com/library/ae61d3df-c5ca-4891-86b1-9f0dd6d3a59e).  
   
- However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
+  However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
- This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
+  This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
   
 > [!NOTE]
 >  In this tutorial, for the sake of brevity, the previous version of the Siebel adapter will be referred to as vPrev Siebel adapter. Similarly, a BizTalk project that uses the vPrev Siebel adapter will be referred to as vPrev BizTalk project.  
@@ -52,29 +52,29 @@ The previous version of the Siebel adapter that shipped with Microsoft BizTalk S
 ## Understanding a BizTalk Project Created Using the Previous Version of the Adapter  
  The key constituents of a vPrev BizTalk project created are:  
   
--   **BizTalk orchestration**. This is a simple orchestration that picks request messages from a file location, sends the request message to the Siebel system using a Siebel send-receive port, receives the response, and saves it to another file location.  
+- **BizTalk orchestration**. This is a simple orchestration that picks request messages from a file location, sends the request message to the Siebel system using a Siebel send-receive port, receives the response, and saves it to another file location.  
   
--   **Schema for the operation you wish to perform on the Siebel business component**. This tutorial involves a BizTalk project that performs an Insert operation on the Account business component. The schema generated for the Account business component is AccountService_Account_x5d.xsd. This schema is generated using the vPrev Siebel adapter.  
+- **Schema for the operation you wish to perform on the Siebel business component**. This tutorial involves a BizTalk project that performs an Insert operation on the Account business component. The schema generated for the Account business component is AccountService_Account_x5d.xsd. This schema is generated using the vPrev Siebel adapter.  
   
-    > [!NOTE]
-    >  Unlike the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], the vPrev Siebel adapter does not support generating metadata for specific operations on a business component. By default, the adapter generates schema for all the operations supported on the business component. For more such differences between the vPrev Siebel adapter and the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], see [Migrating BizTalk Projects Created Using the Previous Version of the Siebel Adapter](http://msdn.microsoft.com/library/ae61d3df-c5ca-4891-86b1-9f0dd6d3a59e).  
+  > [!NOTE]
+  >  Unlike the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], the vPrev Siebel adapter does not support generating metadata for specific operations on a business component. By default, the adapter generates schema for all the operations supported on the business component. For more such differences between the vPrev Siebel adapter and the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], see [Migrating BizTalk Projects Created Using the Previous Version of the Siebel Adapter](http://msdn.microsoft.com/library/ae61d3df-c5ca-4891-86b1-9f0dd6d3a59e).  
   
--   **Request message**. The request message to perform an Insert operation on the Account business component. The schema of the request message conforms to the schema of the Insert operation as surfaced by the vPrev Siebel adapter.  
+- **Request message**. The request message to perform an Insert operation on the Account business component. The schema of the request message conforms to the schema of the Insert operation as surfaced by the vPrev Siebel adapter.  
   
 ## How to Migrate a BizTalk Project Created Using the Previous Version of the Adapter  
  The goal of this migration tutorial is to enable you to send a request message, which conforms to schema generated by the vPrev Siebel adapter, using a WCF-Custom port that can only process messages conforming to the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. So, in short, the migration exercise involves configuring the WCF-Custom port to process messages that do not conform to the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]'s schema.  
   
  However, to be able to configure the WCF-Custom port appropriately, you must perform the following tasks:  
   
--   Generate metadata for the Insert operation on the Account business component using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
+- Generate metadata for the Insert operation on the Account business component using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
--   Map the request message for performing an Insert operation using the vPrev Siebel adapter to a request message for performing an Insert operation using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
+- Map the request message for performing an Insert operation using the vPrev Siebel adapter to a request message for performing an Insert operation using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
--   Map the response message received using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] to the response message for the vPrev Siebel adapter.  
+- Map the response message received using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] to the response message for the vPrev Siebel adapter.  
   
--   Create a WCF-Custom Siebel send-receive port in the BizTalk Server Administration console.  
+- Create a WCF-Custom Siebel send-receive port in the BizTalk Server Administration console.  
   
--   Configure the WCF-Custom port to use the request and response mappings.  
+- Configure the WCF-Custom port to use the request and response mappings.  
   
 ## In This Section  
   

@@ -27,33 +27,33 @@ The following procedure describes how to use PeopleSoft Enterprise to create an 
   
 ### To generate XML or Schema in PeopleSoft  
   
-1.  In the PeopleSoft application, point to **Set up Financials**, point to **Supply Chain**, point to **Common Definitions**, point to **Location**, and then select **Location**.  
+1. In the PeopleSoft application, point to **Set up Financials**, point to **Supply Chain**, point to **Common Definitions**, point to **Location**, and then select **Location**.  
   
-2.  On the **Location** screen, enter the following information:  
+2. On the **Location** screen, enter the following information:  
   
-    -   **Set ID:** Enter **SHARE**.  
+   - **Set ID:** Enter **SHARE**.  
   
-    -   **Location Code:** Enter a code that starts with `WKLOC`.  
+   - **Location Code:** Enter a code that starts with `WKLOC`.  
   
      ![](../core/media/psadapter-18-task-sharesearch.gif "PSAdapter_18_Task_ShareSearch")  
   
-3.  Click **Search**, and then click **Correct History** to put the screen in **Edit** mode.  
+3. Click **Search**, and then click **Correct History** to put the screen in **Edit** mode.  
   
-     ![](../core/media/psadapter-19-task-correcthistory.gif "PSAdapter_19_Task_CorrectHistory")  
+    ![](../core/media/psadapter-19-task-correcthistory.gif "PSAdapter_19_Task_CorrectHistory")  
   
-4.  Make a change to a field on the screen, and then click **Save**.  
+4. Make a change to a field on the screen, and then click **Save**.  
   
-5.  Point to **PeopleTools**, point to **Integration Broker**, point to **Monitor**, and then select **Monitor Message**.  
+5. Point to **PeopleTools**, point to **Integration Broker**, point to **Monitor**, and then select **Monitor Message**.  
   
-     ![](../core/media/psadapter-20-task-monitormessage.gif "PSAdapter_20_Task_MonitorMessage")  
+    ![](../core/media/psadapter-20-task-monitormessage.gif "PSAdapter_20_Task_MonitorMessage")  
   
-6.  Make sure that **Channel Type** is **Message Instance**, and then click **Refresh**.  
+6. Make sure that **Channel Type** is **Message Instance**, and then click **Refresh**.  
   
-7.  In the **Done** column, click the number.  
+7. In the **Done** column, click the number.  
   
-8.  Scroll to the bottom of the list and click the **Details** link on a **LOCATION_SYNC** message.  
+8. Scroll to the bottom of the list and click the **Details** link on a **LOCATION_SYNC** message.  
   
-     ![](../core/media/psadapter-21-task-detailslink.gif "PSAdapter_21_Task_DetailsLink")  
+    ![](../core/media/psadapter-21-task-detailslink.gif "PSAdapter_21_Task_DetailsLink")  
   
 9. Click **View XML** on a **MSEXTERNAL** Node.  
   

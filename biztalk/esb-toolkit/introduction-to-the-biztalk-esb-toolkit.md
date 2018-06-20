@@ -17,16 +17,16 @@ manager: "anneta"
 ---
 # Introduction to the BizTalk ESB Toolkit
 Explains the architecture and contents of the Microsoft [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. The documentation also demonstrates how to apply an Enterprise Service Bus (ESB) architecture pattern to develop enterprise applications that enable flexible, secure, and reusable services and rapid organization of existing services into new end-to-end business processes.  
-  
+
 ## What Is an Enterprise Service Bus?  
  The term Enterprise Service Bus is widely used in the context of implementing an infrastructure for enabling Service-Oriented Architecture (SOA). However, real-world experience with the deployment of SOA solutions has demonstrated that an ESB is only one of many components required to build a comprehensive Service-Oriented Infrastructure (SOI). The term "ESB" has evolved in a number of directions—its definition varies with the interpretation of individual ESB and integration platform vendors and with the requirements of particular SOA initiatives.  
-  
+
  Based on the experience Microsoft has gathered from many successful real-world SOI implementations, Microsoft considers an Enterprise Service Bus to be a collection of architectural patterns based on traditional Enterprise Application Integration (EAI), message-oriented middleware, Web services, .NET and Java interoperability, host system integration, and interoperability with service registries and asset repositories. Figure 1 illustrates the architecture of an Enterprise Service Bus.  
-  
+
  ![ESB Overview](../esb-toolkit/media/esboverview.gif "ESBOverview")  
-  
+
  **Figure 1**  
-  
+
  **A high-level representation of the connectivity provided by the Enterprise Service Bus architecture**  
 
 <!---  Old text with old links
@@ -49,30 +49,30 @@ Explains the architecture and contents of the Microsoft [!INCLUDE[esbToolkit](..
 -   Chappell, David. Enterprise Service Bus. Sebastopol, CA: O'Reilly Media, Inc. 2004.  
 -->
 
-  
+
 ## The BizTalk ESB Toolkit
  This documentation, as a whole, introduces architects and developers to ESB architectural concepts as addressed by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)], and explains the functionality of the ESB components through a set of commonly accepted ESB use cases.  
-  
+
  This section provides an introduction to the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)], and includes the following topics:  
-  
--   [Overview of the BizTalk ESB Toolkit](../esb-toolkit/overview-of-the-biztalk-esb-toolkit.md)  
-  
--   [Contents of the BizTalk ESB Toolkit](../esb-toolkit/contents-of-the-biztalk-esb-toolkit.md)  
-  
- This documentation also includes the following topic sections:  
-  
--   [Getting Started with the BizTalk ESB Toolkit](../esb-toolkit/getting-started-with-the-biztalk-esb-toolkit.md)  
-  
--   [Key Scenarios and Development Tasks](../esb-toolkit/key-scenarios-and-development-tasks.md)  
-  
--   [Creating Itineraries Using Itinerary Designer](../esb-toolkit/creating-itineraries-using-itinerary-designer.md)  
-  
--   [BizTalk ESB Toolkit Sample Applications](../esb-toolkit/biztalk-esb-toolkit-sample-applications.md)  
-  
--   [Modifying and Extending the BizTalk ESB Toolkit](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)  
-  
--   [Administration with the BizTalk ESB Toolkit](../esb-toolkit/administration-with-the-biztalk-esb-toolkit.md)  
-  
--   [SOA Governance Integration](../esb-toolkit/soa-governance-integration.md)  
-  
--   [Troubleshooting](../esb-toolkit/troubleshooting-the-biztalk-esb-toolkit.md)
+
+- [Overview of the BizTalk ESB Toolkit](../esb-toolkit/overview-of-the-biztalk-esb-toolkit.md)  
+
+- [Contents of the BizTalk ESB Toolkit](../esb-toolkit/contents-of-the-biztalk-esb-toolkit.md)  
+
+  This documentation also includes the following topic sections:  
+
+- [Getting Started with the BizTalk ESB Toolkit](../esb-toolkit/getting-started-with-the-biztalk-esb-toolkit.md)  
+
+- [Key Scenarios and Development Tasks](../esb-toolkit/key-scenarios-and-development-tasks.md)  
+
+- [Creating Itineraries Using Itinerary Designer](../esb-toolkit/creating-itineraries-using-itinerary-designer.md)  
+
+- [BizTalk ESB Toolkit Sample Applications](../esb-toolkit/biztalk-esb-toolkit-sample-applications.md)  
+
+- [Modifying and Extending the BizTalk ESB Toolkit](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)  
+
+- [Administration with the BizTalk ESB Toolkit](../esb-toolkit/administration-with-the-biztalk-esb-toolkit.md)  
+
+- [SOA Governance Integration](../esb-toolkit/soa-governance-integration.md)  
+
+- [Troubleshooting](../esb-toolkit/troubleshooting-the-biztalk-esb-toolkit.md)

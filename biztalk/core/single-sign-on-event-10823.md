@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10823
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10823|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_PSADMIN_INVALID_APP_TYPE|  
-|Message Text|Invalid application type for application. Valid application types are ‘Individual’, ‘Group’ or ‘Host Group’.|  
+|                 |                                                                                                              |
+|-----------------|--------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                          Enterprise Single Sign-On                                           |
+| Product Version |                          [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                          |
+|    Event ID     |                                                    10823                                                     |
+|  Event Source   |                                                    ENTSSO                                                    |
+|    Component    |                                                     N/A                                                      |
+|  Symbolic Name  |                                      ENTSSO_E_PSADMIN_INVALID_APP_TYPE                                       |
+|  Message Text   | Invalid application type for application. Valid application types are ‘Individual’, ‘Group’ or ‘Host Group’. |
   
 ## Explanation  
  Invalid application type for application. Valid application types are ‘Individual’, ‘Group’ or ‘Host Group’.  

@@ -24,38 +24,38 @@ manager: "anneta"
 # What Is Sustainable Performance?
 When planning for and estimating system sustainability, it is critical to think in terms of sustainability over the long term. The primary considerations are:  
   
--   **Load Profiles and Performance Goals**: You can't have too much detail when it comes to load profiles and performance goals. Testing and readiness certification will be based on being able to handle these loads long term.  
+- **Load Profiles and Performance Goals**: You can't have too much detail when it comes to load profiles and performance goals. Testing and readiness certification will be based on being able to handle these loads long term.  
   
--   **Other Activities and Processes that Compete for Server Resources**: It isn’t just about the message load. There are other processes and activities taking place on the servers that affect performance such as database maintenance and MessageBox queries.  
+- **Other Activities and Processes that Compete for Server Resources**: It isn’t just about the message load. There are other processes and activities taking place on the servers that affect performance such as database maintenance and MessageBox queries.  
   
--   **Planned and Unplanned System Outages and Downtime**: Floodgate events and message backlog can change the effective load profile.  
+- **Planned and Unplanned System Outages and Downtime**: Floodgate events and message backlog can change the effective load profile.  
   
- When thinking about building sustainable systems and the tests to certify them, be sure to take these factors into account and plan for them.  
+  When thinking about building sustainable systems and the tests to certify them, be sure to take these factors into account and plan for them.  
   
 ## Is Your Performance Sustainable?  
  When discussing performance for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], we define maximum sustainable performance as follows:  
   
--   The highest load of message traffic that a system can handle indefinitely in a production environment.  
+- The highest load of message traffic that a system can handle indefinitely in a production environment.  
   
- While this seems simple, there are many factors that you must consider when evaluating whether or not a solution - running on a particular set of hardware - will be able to support the loads experienced day in and day out after you put the solution into production.  
+  While this seems simple, there are many factors that you must consider when evaluating whether or not a solution - running on a particular set of hardware - will be able to support the loads experienced day in and day out after you put the solution into production.  
   
- Before you put your solution into production, consider the following factors to evaluate whether the solution can handle the highest load of message traffic indefinitely:  
+  Before you put your solution into production, consider the following factors to evaluate whether the solution can handle the highest load of message traffic indefinitely:  
   
--   Desired Performance Goals and Throughput/Latency profiles.  
+- Desired Performance Goals and Throughput/Latency profiles.  
   
--   Other Processes Running on the Same Hardware such as:  
+- Other Processes Running on the Same Hardware such as:  
   
-    -   Normal Monitoring and Troubleshooting  
+  -   Normal Monitoring and Troubleshooting  
   
-    -   Operational database maintenance such as log shipping, backup, purging, index maintenance, and statistics updates.  
+  -   Operational database maintenance such as log shipping, backup, purging, index maintenance, and statistics updates.  
   
-    -   Other Applications  
+  -   Other Applications  
   
--   Planned and Unplanned System Outages such as:  
+- Planned and Unplanned System Outages such as:  
   
-    -   Partner sites down which blocks sending or receiving messages  
+  -   Partner sites down which blocks sending or receiving messages  
   
-    -   Regular system maintenance down time  
+  -   Regular system maintenance down time  
   
 ## Know Your Performance Goals  
  Before you can evaluate your solution for sustainability, you must have a detailed understanding of the expected production loads. Without a well understood goal, you can't evaluate readiness. A well formed set of performance goals is critical as it will drive your strategies around system testing and certification. Your performance goals should have the following elements:  
@@ -114,28 +114,28 @@ When planning for and estimating system sustainability, it is critical to think 
   
  Following is a list of activities that will typically have the most effect on overall sustainability in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
--   **Log Shipping and Backup**. As part of most disaster recovery plans involving SQL Server, you must perform log shipping and backup periodically for all of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group databases. For more information, see [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server-databases.md). Also see [Log Shipping](../core/log-shipping.md).  
+- **Log Shipping and Backup**. As part of most disaster recovery plans involving SQL Server, you must perform log shipping and backup periodically for all of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group databases. For more information, see [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server-databases.md). Also see [Log Shipping](../core/log-shipping.md).  
   
--   **Archiving and Purging Tracking Data**. In addition to the overall log shipping and backup plan, the BizTalk Tracking (BizTalkDTADb) database has its own archive and purge regimes; for more information, see [Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md). The speed at which data can be archived and purged from the BizTalk Tracking database is especially important since archiving and purging of the BizTalk Tracking database is typically a bottleneck when tracking is in use.  
+- **Archiving and Purging Tracking Data**. In addition to the overall log shipping and backup plan, the BizTalk Tracking (BizTalkDTADb) database has its own archive and purge regimes; for more information, see [Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md). The speed at which data can be archived and purged from the BizTalk Tracking database is especially important since archiving and purging of the BizTalk Tracking database is typically a bottleneck when tracking is in use.  
   
--   **System Queries**. Using APIs or the BizTalk Server Administration Console UI to run various types of queries against the system will affect sustainable performance.  
+- **System Queries**. Using APIs or the BizTalk Server Administration Console UI to run various types of queries against the system will affect sustainable performance.  
   
--   **MessageBox Maintenance**. There are a number of SQL jobs that are part of the core functionality of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that maintain the MessageBox database by cleaning up messages and instances that have finished processing. As part of the core engine, the speed at which these jobs can complete is a key factor in gauging sustainability. For more information about these jobs and their role, see [Maintaining BizTalk Server1](../core/maintaining-biztalk-server1.md).  
+- **MessageBox Maintenance**. There are a number of SQL jobs that are part of the core functionality of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that maintain the MessageBox database by cleaning up messages and instances that have finished processing. As part of the core engine, the speed at which these jobs can complete is a key factor in gauging sustainability. For more information about these jobs and their role, see [Maintaining BizTalk Server1](../core/maintaining-biztalk-server1.md).  
   
--   **Solution Deployment Activities**. When deploying, binding, and starting new applications or new versions of existing applications, additional load is placed on BizTalk such as the creation of new subscriptions on the MessageBox database(s). After applications are deployed, the messages being processed will compete for resources and thereby affect the performance of the existing applications.  
+- **Solution Deployment Activities**. When deploying, binding, and starting new applications or new versions of existing applications, additional load is placed on BizTalk such as the creation of new subscriptions on the MessageBox database(s). After applications are deployed, the messages being processed will compete for resources and thereby affect the performance of the existing applications.  
   
- For each of these areas, you need to ask: What is your recommendation to minimize the impact of these activities? For example, should they plan to run them at 3am?  
+  For each of these areas, you need to ask: What is your recommendation to minimize the impact of these activities? For example, should they plan to run them at 3am?  
   
 ## Considering Planned and Unplanned Outages  
  The effects that outages have on the system performance will vary depending on the system experiencing the outage, however the most common consequences are:  
   
--   **Floodgate Events**. When systems are down for some length of time, messages can build up and then arrive all at once for processing once the systems are functional again.  For example, if an application running on BizTalk receives messages via MSMQ, and that application is down for some time, messages build up in the queues waiting to be picked up. When the application is started up again, it is as if a large number of messages arrived "all at once."  
+- **Floodgate Events**. When systems are down for some length of time, messages can build up and then arrive all at once for processing once the systems are functional again.  For example, if an application running on BizTalk receives messages via MSMQ, and that application is down for some time, messages build up in the queues waiting to be picked up. When the application is started up again, it is as if a large number of messages arrived "all at once."  
   
--   **Message Backlog**. When systems to which messages are sent are down, there is typically a retry cycle that is employed that uses additional resources. After the retry cycle is exhausted, then messages are typically suspended. Then the downed systems come back on line, a type of floodgate event occurs where large numbers of messages can now be resumed and/or successfully sent.  
+- **Message Backlog**. When systems to which messages are sent are down, there is typically a retry cycle that is employed that uses additional resources. After the retry cycle is exhausted, then messages are typically suspended. Then the downed systems come back on line, a type of floodgate event occurs where large numbers of messages can now be resumed and/or successfully sent.  
   
- Certainly any planned outages such as regularly scheduled maintenance must be taken into consideration when designing and certifying a system. It is also recommended that an analysis of unplanned outages and their effects be considered.  
+  Certainly any planned outages such as regularly scheduled maintenance must be taken into consideration when designing and certifying a system. It is also recommended that an analysis of unplanned outages and their effects be considered.  
   
- Identifying the types of outages that can occur, ranking them by estimated risk level (that is, probability times severity), and estimating the duration and effect (for example, floodgate events, suspended message volume, backlog, etc.) of the higher risk outages will indicate a desired system capability should the outages take place. Any store-and-forward, messaging-based asynchronous system, such as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], should be designed will processing "headroom" sufficient to cope with planned and unplanned outages.  
+  Identifying the types of outages that can occur, ranking them by estimated risk level (that is, probability times severity), and estimating the duration and effect (for example, floodgate events, suspended message volume, backlog, etc.) of the higher risk outages will indicate a desired system capability should the outages take place. Any store-and-forward, messaging-based asynchronous system, such as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], should be designed will processing "headroom" sufficient to cope with planned and unplanned outages.  
   
 ## See Also  
  [Engine Persistence and Durability](../core/engine-persistence-and-durability.md)   

@@ -35,52 +35,52 @@ This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../in
   
 ##  <a name="BKMK_Proc"></a> To configure BizTalk Server to send AS2 messages over a dynamic send port  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, create a dynamic one-way send port (if an MDN is not requested) or a dynamic solicit response send port (if an MDN is requested) with the above configuration.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, create a dynamic one-way send port (if an MDN is not requested) or a dynamic solicit response send port (if an MDN is requested) with the above configuration.  
   
-2.  For the agreement that applies to this message, set the AS2 and EDI properties required.  
+2. For the agreement that applies to this message, set the AS2 and EDI properties required.  
   
-3.  Promote the following properties to the message context:  
+3. Promote the following properties to the message context:  
   
-    -   `BTS.MessageType`  
+   -   `BTS.MessageType`  
   
-    -   `EdiIntAS.MessageID`  
+   -   `EdiIntAS.MessageID`  
   
-4.  Add functionality to a backend application to write the following properties to the message context, setting them to the appropriate values:  
+4. Add functionality to a backend application to write the following properties to the message context, setting them to the appropriate values:  
   
-    -   `EdiIntAS.AS2To`  
+   -   `EdiIntAS.AS2To`  
   
-    -   `BTS.OutboundTransportLocation`  
+   -   `BTS.OutboundTransportLocation`  
   
-    -   `HTTP.EnableChunkedEncoding`  
+   -   `HTTP.EnableChunkedEncoding`  
   
-    -   `BTS.EncryptionCert`  
+   -   `BTS.EncryptionCert`  
   
-    > [!NOTE]
-    >  The `AS2To` context property and the `OutboundTransportLocation` context property must be written to the message context for the dynamic send port to function properly. The `AS2To` property is required for the port to determine the agreement to use in processing the outgoing message and the `OutboundTransportLocation` property is required for the send port to determine the destination of the message. For more information, see [Generating an Outgoing AS2 Message](../core/generating-an-outgoing-as2-message.md).  
+   > [!NOTE]
+   >  The `AS2To` context property and the `OutboundTransportLocation` context property must be written to the message context for the dynamic send port to function properly. The `AS2To` property is required for the port to determine the agreement to use in processing the outgoing message and the `OutboundTransportLocation` property is required for the send port to determine the destination of the message. For more information, see [Generating an Outgoing AS2 Message](../core/generating-an-outgoing-as2-message.md).  
   
 ## Functionality  
  The dynamic send port and pipeline does the following to send a synchronous EDI or non-EDI message or acknowledgment over AS2 and process the returned MDN:  
   
--   If sending an EDI message, picks up the EDI message by filtering on the property `BTS.MessageType` set to the message schema in the `http://schemas.microsoft.com/BizTalk/EDI/X12/2006 namespace` (for example, X12_00401_864 for an 864 message).  
+- If sending an EDI message, picks up the EDI message by filtering on the property `BTS.MessageType` set to the message schema in the `http://schemas.microsoft.com/BizTalk/EDI/X12/2006 namespace` (for example, X12_00401_864 for an 864 message).  
   
--   If sending an EDI acknowledgment, picks up the acknowledgment by filtering on the property `BTS.MessageType` set to one of the following control schema:  
+- If sending an EDI acknowledgment, picks up the acknowledgment by filtering on the property `BTS.MessageType` set to one of the following control schema:  
   
-    -   `http://schemas.microsoft.com/BizTalk/EDI/X12#X12_997_Root` for a 997 acknowledgment  
+  -   `http://schemas.microsoft.com/BizTalk/EDI/X12#X12_997_Root` for a 997 acknowledgment  
   
-    -   `http://schemas.microsoft.com/BizTalk/EDI/X12#X12_TA1_Root` for a TA1 acknowledgment  
+  -   `http://schemas.microsoft.com/BizTalk/EDI/X12#X12_TA1_Root` for a TA1 acknowledgment  
   
-    -   `http://schemas.microsoft.com/BizTalk/EDI/Efact#Efact_Contrl_Root` for a CONTRL acknowledgment  
+  -   `http://schemas.microsoft.com/BizTalk/EDI/Efact#Efact_Contrl_Root` for a CONTRL acknowledgment  
   
--   If sending a non-EDI message, picks up the message using an appropriate filter.  
+- If sending a non-EDI message, picks up the message using an appropriate filter.  
   
--   Builds an AS2 message. For more information about this process, see [Generating an Outgoing AS2 Message](../core/generating-an-outgoing-as2-message.md).  
+- Builds an AS2 message. For more information about this process, see [Generating an Outgoing AS2 Message](../core/generating-an-outgoing-as2-message.md).  
   
-    > [!NOTE]
-    >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] determines the transport type to be used by the dynamic send port from the format of the URL, i.e., http, smtp, ftp, etc.  
+  > [!NOTE]
+  >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] determines the transport type to be used by the dynamic send port from the format of the URL, i.e., http, smtp, ftp, etc.  
   
--   Routes the message or acknowledgment to the destination URL for the send port.  
+- Routes the message or acknowledgment to the destination URL for the send port.  
   
--   Receives the MDN response to the message or acknowledgment, if enabled and if a solicit-response send port. For more information about this process, see [Processing an Incoming MDN](../core/processing-an-incoming-mdn.md).  
+- Receives the MDN response to the message or acknowledgment, if enabled and if a solicit-response send port. For more information about this process, see [Processing an Incoming MDN](../core/processing-an-incoming-mdn.md).  
   
 ## See Also  
  [Configuring Ports for an AS2 Solution](../core/configuring-ports-for-an-as2-solution.md)

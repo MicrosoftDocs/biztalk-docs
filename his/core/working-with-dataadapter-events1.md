@@ -26,17 +26,17 @@ manager: "anneta"
 ## Arguments  
  The `MsDb2RowUpdatingEventArgs` and `MsDb2RowUpdatedEventArgs` arguments that are passed to the `RowUpdating` and `RowUpdated` events include the following:  
   
--   A `Command` property that references the `Command` object that is used to perform the update.  
+- A `Command` property that references the `Command` object that is used to perform the update.  
   
--   A `Row` property that references the `DataRow` object containing the updated information.  
+- A `Row` property that references the `DataRow` object containing the updated information.  
   
--   A `StatementType` property for what type of update is being performed.  
+- A `StatementType` property for what type of update is being performed.  
   
--   The `TableMapping`, if applicable.  
+- The `TableMapping`, if applicable.  
   
--   The `Status` of the operation.  
+- The `Status` of the operation.  
   
- You can use the `Status` property to determine whether an error has occurred during the operation and, if you want, to control the actions against the current and resulting rows. When the event occurs, the `Status` property equals either `Continue` or `ErrorsOccurred`.  
+  You can use the `Status` property to determine whether an error has occurred during the operation and, if you want, to control the actions against the current and resulting rows. When the event occurs, the `Status` property equals either `Continue` or `ErrorsOccurred`.  
   
 ## Status Property Values  
  The following table shows the values to which you can set the `Status` property in order to control subsequent actions during the update.  

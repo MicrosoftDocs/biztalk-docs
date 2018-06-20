@@ -21,33 +21,33 @@ In BizTalk, messages are immutable. Therefore, to change a property value you mu
   
 ### To reference the schema DLL  
   
-1.  Create a working folder, for example, c:\class\JDE\BeginDoc, for your project and a folder in which you will put the test XML, for example, c:\class\JDE\input.  
+1. Create a working folder, for example, c:\class\JDE\BeginDoc, for your project and a folder in which you will put the test XML, for example, c:\class\JDE\input.  
   
-2.  Create a Static Solicit-Response Send Port to send the request to J.D. Edwards EnterpriseOne.  
+2. Create a Static Solicit-Response Send Port to send the request to J.D. Edwards EnterpriseOne.  
   
-     ![JDOneWorld Transport Properties](../core/media/example-2waysendport-ow.gif "example_2waysendport_OW")  
+    ![JDOneWorld Transport Properties](../core/media/example-2waysendport-ow.gif "example_2waysendport_OW")  
   
-3.  In the Solution Editor, right-click your project.  
+3. In the Solution Editor, right-click your project.  
   
-    1.  Select **Add**, select **Add Generated Items**, and then click **Add Adapter**.  
+   1. Select **Add**, select **Add Generated Items**, and then click **Add Adapter**.  
   
-    2.  Select the Microsoft BizTalk Adapter for J.D. Edwards EnterpriseOne and the port you just created.  
+   2. Select the Microsoft BizTalk Adapter for J.D. Edwards EnterpriseOne and the port you just created.  
   
-    3.  In the **Add Adapter Wizard**, select **CSALES\B4200310**.  
+   3. In the **Add Adapter Wizard**, select **CSALES\B4200310**.  
   
-    4.  Click **Finish** to generate the schema containing the format for the Message.  
+   4. Click **Finish** to generate the schema containing the format for the Message.  
   
-     ![Add Adapter Wizard](../core/media/add-adapter-wizard.gif "add_adapter_wizard")  
+      ![Add Adapter Wizard](../core/media/add-adapter-wizard.gif "add_adapter_wizard")  
   
-4.  In Visual Studio, open the Solution Explorer.  
+4. In Visual Studio, open the Solution Explorer.  
   
-5.  Right-click **References**, and then select **Add Reference**.  
+5. Right-click **References**, and then select **Add Reference**.  
   
-6.  On the **Add Reference** screen, click the **Browse** button.  
+6. On the **Add Reference** screen, click the **Browse** button.  
   
-7.  On the **Select Component** screen, navigate to %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin.  
+7. On the **Select Component** screen, navigate to %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin.  
   
-8.  Select **Microsoft.Adapters.JDEProperties.dll**, and then click **Open**.  
+8. Select **Microsoft.Adapters.JDEProperties.dll**, and then click **Open**.  
   
 9. On the **Add Reference** screen, the DLL appears in the **Selected Components** section.  
   

@@ -17,15 +17,15 @@ manager: "anneta"
 # Fatal error encountered in EDI Disassembler
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|BizTalk Server EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|EdiDasmFatalError|  
-|Message Text|Fatal error encountered in EDI Disassembler, error information is {0}|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]             |
+|    Event ID     |                                         -                                          |
+|  Event Source   |                                 BizTalk Server EDI                                 |
+|    Component    |                                     EDI Engine                                     |
+|  Symbolic Name  |                                 EdiDasmFatalError                                  |
+|  Message Text   |       Fatal error encountered in EDI Disassembler, error information is {0}        |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline could not process the incoming interchange because of the indicated error in the EDI Disassembler.  

@@ -23,15 +23,15 @@ You can use the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref
   
  Another key advantage that the WCF channel model provides over the WCF service model is more comprehensive support for data streaming. By using the WCF channel model you can perform:  
   
--   Message node streaming on all messages exchanged between your code and the adapter.  
+- Message node streaming on all messages exchanged between your code and the adapter.  
   
--   Message node-value streaming on the SendIdoc and ReceiveIdoc operations.  
+- Message node-value streaming on the SendIdoc and ReceiveIdoc operations.  
   
- This is because in the WCF channel model you directly control how you provide the message body on messages that you send to the adapter and how you consume the message body on messages that you receive from the adapter.  
+  This is because in the WCF channel model you directly control how you provide the message body on messages that you send to the adapter and how you consume the message body on messages that you receive from the adapter.  
   
- In contrast, the adapter provides no support for streaming in the WCF service model. Because, in the WCF service model, the WCF runtime serializes and deserializes messages between their XML and managed code object representations, a complete in-memory copy of each message that you exchange with the adapter is made.  
+  In contrast, the adapter provides no support for streaming in the WCF service model. Because, in the WCF service model, the WCF runtime serializes and deserializes messages between their XML and managed code object representations, a complete in-memory copy of each message that you exchange with the adapter is made.  
   
- The sections in this topic explain how to perform operations on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] by using the WCF channel model.  
+  The sections in this topic explain how to perform operations on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] by using the WCF channel model.  
   
 ## In This Section  
   

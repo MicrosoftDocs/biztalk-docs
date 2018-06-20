@@ -17,27 +17,27 @@ manager: "anneta"
 # Tutorial 1: Migrate BizTalk Projects to the SQL adapter
 The previous version of the SQL adapter that shipped with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] differs from the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in many aspects, including:  
   
--   The design-time experience of creating a BizTalk project.  
+- The design-time experience of creating a BizTalk project.  
   
--   The metadata retrieval experience.  
+- The metadata retrieval experience.  
   
--   Schema file name and namespace.  
+- Schema file name and namespace.  
   
--   Data type mappings.  
+- Data type mappings.  
   
--   The operations that can be performed using the adapter.  
+- The operations that can be performed using the adapter.  
   
--   Physical port configuration in the BizTalk Server Administration console  
+- Physical port configuration in the BizTalk Server Administration console  
   
- These differences are explained in the topics within Migrating BizTalk Projects Created Using the Previous Version of the SQLadapter.  
+  These differences are explained in the topics within Migrating BizTalk Projects Created Using the Previous Version of the SQLadapter.  
   
- However, you can make changes to the BizTalk project that was created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
+  However, you can make changes to the BizTalk project that was created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
   
- This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
+  This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
   
 > [!NOTE]
 >  In this tutorial, for the sake of brevity, the previous version of the SQL adapter will be referred to as vPrev SQL adapter. Similarly, a BizTalk project that uses the vPrev SQL adapter will be referred to as vPrev BizTalk project.  
-  
+> 
 > [!IMPORTANT]
 >  This tutorial provides guidance on how to migrate a vPrev SQL adapter BizTalk project that performs a basic insert operation on a SQL Server database table. This tutorial does not cover all possible scenarios for migration from the vPrev SQL adapter to the new WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. You must use this migration tutorial as a foundation and modify accordingly to make changes that are relevant to your existing project.  
   
@@ -71,15 +71,15 @@ The previous version of the SQL adapter that shipped with Microsoft [!INCLUDE[bt
   
  However, to be able to configure the WCF-Custom port appropriately, you must perform the following tasks:  
   
--   Generate metadata for the Insert operation on the Customer table using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
+- Generate metadata for the Insert operation on the Customer table using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
   
--   Map the request message for performing an Insert operation using the vPrev SQL adapter to a request message for performing an Insert operation using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
+- Map the request message for performing an Insert operation using the vPrev SQL adapter to a request message for performing an Insert operation using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
   
--   Map the response message received using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to the response message for the vPrev SQL adapter.  
+- Map the response message received using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to the response message for the vPrev SQL adapter.  
   
--   Create a WCF-Custom SQL send-receive port in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+- Create a WCF-Custom SQL send-receive port in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
--   Configure the WCF-Custom port to use the request and response mappings.  
+- Configure the WCF-Custom port to use the request and response mappings.  
   
 ## In This Section  
   

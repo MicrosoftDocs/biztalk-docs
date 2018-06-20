@@ -21,7 +21,7 @@ This section describes AS2 transport agreement properties. As part of the transp
   
 > [!NOTE]
 >  Configuring an AS2 agreement is optional. An AS2 agreement defines how the messages are transferred using the AS2 protocol. If the trading partners decide to use any other transport protocol to transfer messages, they can choose not to define an AS2 agreement. However, the trading partners must define an encoding agreement that governs how the messages are formed and encoded. For more information about encoding agreements, see [Configuring Encoding Agreement Properties](../core/configuring-encoding-agreement-properties.md).  
-  
+> 
 > [!IMPORTANT]
 >  Every time you change an AS2 setting in an agreement, you must restart the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Host Instance for the changes to take effect.  
   

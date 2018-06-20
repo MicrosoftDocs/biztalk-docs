@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11017
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11017|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_PS_WARN_NOT_IN_GROUP_DELETE_OK|  
-|Message Text|The mapping is not valid because the Windows account is not in the Application Users account for the application. The mapping has been deleted.%r<br /><br /> Tracking ID: %1%r<br /><br /> Windows Account: %2%r<br /><br /> Application Name: %3%r<br /><br /> Application Users: %4|  
+|                 |                                                                                                                                                                                                                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                                                               Enterprise Single Sign-On                                                                                                                                |
+| Product Version |                                                                                                               [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                                               |
+|    Event ID     |                                                                                                                                         11017                                                                                                                                          |
+|  Event Source   |                                                                                                                                         ENTSSO                                                                                                                                         |
+|    Component    |                                                                                                                                          N/A                                                                                                                                           |
+|  Symbolic Name  |                                                                                                                           SSO_PS_WARN_NOT_IN_GROUP_DELETE_OK                                                                                                                           |
+|  Message Text   | The mapping is not valid because the Windows account is not in the Application Users account for the application. The mapping has been deleted.%r<br /><br /> Tracking ID: %1%r<br /><br /> Windows Account: %2%r<br /><br /> Application Name: %3%r<br /><br /> Application Users: %4 |
   
 ## Explanation  
  Either the Windows account specified was never a part of the Application Users account for this application, or it was at one time, but has been changed or removed. The mapping has been deleted.  

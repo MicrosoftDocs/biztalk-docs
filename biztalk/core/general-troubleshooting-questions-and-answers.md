@@ -38,13 +38,13 @@ This topic has questions and answers to help you resolve issues with the BizTalk
 ## Why isn't my database functoid working?  
  The database functoids **Database Lookup** and **Value Extractor** do not directly return error information; rather, they capture the information and supply it to the **Error Return** functoid for use by your map. You can use the **Error Return** functoid for error detection as in the following scenarios:  
   
--   When your map has a **Database Lookup** or **Value Extractor** functoid that is not behaving as expected. To see the error message, temporarily map the functoid to a field in the output schema.  
+- When your map has a **Database Lookup** or **Value Extractor** functoid that is not behaving as expected. To see the error message, temporarily map the functoid to a field in the output schema.  
   
--   If your application expects different message content when database operations fail. You can use the **Error Return** functoid to detect an error and map the error message to an alternate structure so that downstream applications can react in a controlled manner.  
+- If your application expects different message content when database operations fail. You can use the **Error Return** functoid to detect an error and map the error message to an alternate structure so that downstream applications can react in a controlled manner.  
   
- To avoid errors that are detected only at run time, make sure that the first parameter to the **Error Return** functoid is the output of a **Database Lookup** functoid and not the output of any other functoid in the Database category.  
+  To avoid errors that are detected only at run time, make sure that the first parameter to the **Error Return** functoid is the output of a **Database Lookup** functoid and not the output of any other functoid in the Database category.  
   
- For more information about using the **Error Return** functoid (including a sample), see the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+  For more information about using the **Error Return** functoid (including a sample), see the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Why is my map failing when calling my custom functoid?  
  Custom functoids must be installed into the global assembly cache (GAC) on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer before they can be invoked by a map. Verify that the assembly containing your custom functoid has been signed and placed into the GAC. Also, copy the assembly into the folder “%BTSINSTALLPATH%\Developer Tools\Mapper Extensions”.  

@@ -47,23 +47,23 @@ The following recommendations can be used to increase BizTalk Server performance
   
  Using a dedicated tracking host also allows you to stop other BizTalk hosts without interfering with BizTalk Server tracking. The movement of tracking data out of the MessageBox database is critical for a healthy BizTalk Server system. If the BizTalk Host responsible for moving tracking data in the BizTalk group is stopped, the Tracking Data Decode service will not run. The impact of this is as follows:  
   
--   HAT tracking data will not be moved from the MessageBox database to the BizTalk Tracking database.  
+- HAT tracking data will not be moved from the MessageBox database to the BizTalk Tracking database.  
   
--   BAM tracking data will not be moved from the MessageBox database to the BAM Primary Import database.  
+- BAM tracking data will not be moved from the MessageBox database to the BAM Primary Import database.  
   
--   Because data is not moved, it cannot be deleted from the MessageBox database.  
+- Because data is not moved, it cannot be deleted from the MessageBox database.  
   
--   When the Tracking Data Decode service is stopped, tracking interceptors will still fire and write tracking data to the MessageBox database. If the data is not moved, this will cause the MessageBox database to become bloated, which will impact performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see [How to Turn Off Global Tracking](http://go.microsoft.com/fwlink/?LinkID=154193) (http://go.microsoft.com/fwlink/?LinkID=154193) in BizTalk Server 2010 Help. Use the BizTalk Server Administration console to selectively disable tracking events.  
+- When the Tracking Data Decode service is stopped, tracking interceptors will still fire and write tracking data to the MessageBox database. If the data is not moved, this will cause the MessageBox database to become bloated, which will impact performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see [How to Turn Off Global Tracking](http://go.microsoft.com/fwlink/?LinkID=154193) (http://go.microsoft.com/fwlink/?LinkID=154193) in BizTalk Server 2010 Help. Use the BizTalk Server Administration console to selectively disable tracking events.  
   
- The tracking host should be run on at least two computers running BizTalk Server (for redundancy in case one fails). For optimal performance, you should have at least one tracking host instance per MessageBox database. The actual number of tracking host instances should be (N + 1), where N = the number of MessageBox databases. The "+ 1" is for redundancy, in case one of the computers hosting tracking fails.  
+  The tracking host should be run on at least two computers running BizTalk Server (for redundancy in case one fails). For optimal performance, you should have at least one tracking host instance per MessageBox database. The actual number of tracking host instances should be (N + 1), where N = the number of MessageBox databases. The "+ 1" is for redundancy, in case one of the computers hosting tracking fails.  
   
- A tracking host instance moves tracking data for specific MessageBox databases, but there will never be more than one tracking host instance moving data for a specific MessageBox database. For example, if you have three MessageBox databases, and only two tracking host instances, then one of the host instances needs to move data for two of the MessageBox databases. Adding a third tracking host instance distributes the tracking host work to another computer running BizTalk Server. In this scenario, adding a fourth tracking host instance would not distribute any more tracking host work, but would provide an extra tracking host instance for fault tolerance.  
+  A tracking host instance moves tracking data for specific MessageBox databases, but there will never be more than one tracking host instance moving data for a specific MessageBox database. For example, if you have three MessageBox databases, and only two tracking host instances, then one of the host instances needs to move data for two of the MessageBox databases. Adding a third tracking host instance distributes the tracking host work to another computer running BizTalk Server. In this scenario, adding a fourth tracking host instance would not distribute any more tracking host work, but would provide an extra tracking host instance for fault tolerance.  
   
- For more information about the BAM Event Bus service, see the following topics in BizTalk Server 2010 Help:  
+  For more information about the BAM Event Bus service, see the following topics in BizTalk Server 2010 Help:  
   
--   [Managing the BAM Event Bus Service](http://go.microsoft.com/fwlink/?LinkID=154194) (http://go.microsoft.com/fwlink/?LinkID=154194).  
+- [Managing the BAM Event Bus Service](http://go.microsoft.com/fwlink/?LinkID=154194) (http://go.microsoft.com/fwlink/?LinkID=154194).  
   
--   [Creating Instances of the BAM Event Bus Service](http://go.microsoft.com/fwlink/?LinkID=154195) (http://go.microsoft.com/fwlink/?LinkID=154195).  
+- [Creating Instances of the BAM Event Bus Service](http://go.microsoft.com/fwlink/?LinkID=154195) (http://go.microsoft.com/fwlink/?LinkID=154195).  
   
 ### Do not cluster BizTalk hosts unless absolutely necessary  
  While BizTalk Server 2010 allows you to configure a BizTalk host as a cluster resource, you should only consider doing this if you need to provide high availability to a resource that cannot be hosted across multiple BizTalk computers. As an example, ports using the FTP adapter should only reside on one host instance, as the FTP protocol does not provide file locking. However, this introduces a single point of failure, which would benefit from clustering. Hosts that contain adapters, such as file, SQL, HTTP or processing only hosts, can be internally load balanced across computers, and do not benefit from clustering.  
@@ -93,9 +93,9 @@ The following recommendations can be used to increase BizTalk Server performance
   
  When setting the maxconnection property, HTTP, HTTPS, the web site IP address, and the port number can be specified. Other examples include:  
   
- **\<add address="https://www.contoso.com" maxconnection="24" /\>**   
-**\<add address="http://www.contoso.com:8080" maxconnection="24" /\>**   
-**\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200) in BizTalk Server 2010 Help.  
+ **\<add address="<https://www.contoso.com>" maxconnection="24" /\>**   
+**\<add address="<http://www.contoso.com:8080>" maxconnection="24" /\>**   
+**\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](http://go.microsoft.com/fwlink/?LinkID=154200) (<http://go.microsoft.com/fwlink/?LinkID=154200>) in BizTalk Server 2010 Help.  
   
 ## Manage ASP.NET thread usage or concurrently executing requests for Web applications that can host  isolated received locations, back-end Web services and WCF services  
  The number of worker and I/O threads (IIS 7.5 and IIS 7.0 in classic mode) or the number of concurrently executing requests (IIS 7.5 and 7.0 integrated mode) for an ASP.NET Web application that hosts isolated received locations, back-end Web services and WCF services should be modified under the following conditions:  
@@ -151,21 +151,21 @@ The following recommendations can be used to increase BizTalk Server performance
 > [!NOTE]  
 >  This setting is global and cannot be changed for individual application pools or applications.  
   
-1.  Click **Start**, click **Run**, type **regedit.exe**, and then click **OK** to start Registry Editor.  
+1. Click **Start**, click **Run**, type **regedit.exe**, and then click **OK** to start Registry Editor.  
   
-2.  Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\2.0.50727.0**  
+2. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\2.0.50727.0**  
   
-3.  Create the key by following these steps:  
+3. Create the key by following these steps:  
   
-    1.  On the **Edit** menu, click **New**, and then click **Key**.  
+   1.  On the **Edit** menu, click **New**, and then click **Key**.  
   
-    2.  Type **maxConcurrentRequestsPerCPU**, and then press **ENTER**.  
+   2.  Type **maxConcurrentRequestsPerCPU**, and then press **ENTER**.  
   
-    3.  Under the **maxConcurrentRequestsPerCPU** key, create a DWORD entry with the new value for maxConcurrentRequestsPerCPU.  
+   3.  Under the **maxConcurrentRequestsPerCPU** key, create a DWORD entry with the new value for maxConcurrentRequestsPerCPU.  
   
-    4.  Close Registry Editor.  
+   4.  Close Registry Editor.  
   
- **To set the maxConcurrentRequestsPerCPU value for an application pool in the config section of an aspnet.config file**  
+   **To set the maxConcurrentRequestsPerCPU value for an application pool in the config section of an aspnet.config file**  
   
 > [!NOTE]  
 >  Microsoft .NET Framework 3.5 Service Pack 1 must be installed to accommodate setting the values below via configuration file. You can download Microsoft .NET Framework 3.5 Service Pack 1 from [Microsoft .NET Framework 3.5 Service Pack 1](http://go.microsoft.com/fwlink/?LinkID=136345) (http://go.microsoft.com/fwlink/?LinkID=136345).  
@@ -196,21 +196,21 @@ The following recommendations can be used to increase BizTalk Server performance
 > [!NOTE]  
 >  This setting is global and cannot be changed for individual application pools or applications.  
   
-1.  Click **Start**, click **Run**, type **regedit.exe**, and then click **OK** to start Registry Editor.  
+1. Click **Start**, click **Run**, type **regedit.exe**, and then click **OK** to start Registry Editor.  
   
-2.  Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0**.  
+2. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0**.  
   
-3.  Create the key by following these steps:  
+3. Create the key by following these steps:  
   
-    1.  On the **Edit** menu, click **New**, and then click **Key**.  
+   1.  On the **Edit** menu, click **New**, and then click **Key**.  
   
-    2.  Type **maxConcurrentRequestsPerCPU**, and then press **ENTER**.  
+   2.  Type **maxConcurrentRequestsPerCPU**, and then press **ENTER**.  
   
-    3.  Under the **maxConcurrentRequestsPerCPU** key, create a DWORD entry with the new value for maxConcurrentRequestsPerCPU.  
+   3.  Under the **maxConcurrentRequestsPerCPU** key, create a DWORD entry with the new value for maxConcurrentRequestsPerCPU.  
   
-    4.  Close Registry Editor.  
+   4.  Close Registry Editor.  
   
- **To set the maxConcurrentRequestsPerCPU value for an application pool in the config section of an aspnet.config file**  
+   **To set the maxConcurrentRequestsPerCPU value for an application pool in the config section of an aspnet.config file**  
   
 > [!NOTE]  
 >  Microsoft .NET Framework 4 must be installed to accommodate setting the values below via configuration file. You can download Microsoft .NET Framework 4 from [Microsoft .NET Framework 4 (Web Installer)](http://go.microsoft.com/fwlink/?LinkID=189318) (http://go.microsoft.com/fwlink/?LinkID=189318).  
@@ -252,29 +252,29 @@ The following recommendations can be used to increase BizTalk Server performance
 ## Disable BizTalk Server Group-level tracking  
  Tracking incurs performance overhead within BizTalk Server as data has to be written to the MessageBox database and then asynchronously moved to the BizTalk Tracking database. The following considerations apply when configuring tracking in a production BizTalk Server environment:  
   
--   As a rule of thumb, if tracking is not a business requirement, then disable group-level tracking to reduce overhead and increase performance.  
+- As a rule of thumb, if tracking is not a business requirement, then disable group-level tracking to reduce overhead and increase performance.  
   
-     To disable BizTalk Server group-level tracking, perform the following steps:  
+   To disable BizTalk Server group-level tracking, perform the following steps:  
   
-    1.  In the **BizTalk Server Administration Console**, expand **BizTalk Server Administration**, right-click **BizTalk Group**, and then click **Settings**.  
+  1.  In the **BizTalk Server Administration Console**, expand **BizTalk Server Administration**, right-click **BizTalk Group**, and then click **Settings**.  
   
-    2.  In the BizTalk Settings Dashboard dialog box, on the Group page, clear the **Enable group-level tracking** check box.  
+  2.  In the BizTalk Settings Dashboard dialog box, on the Group page, clear the **Enable group-level tracking** check box.  
   
-    3.  Click **OK** to apply the modifications and exit the Settings Dashboard.  
+  3.  Click **OK** to apply the modifications and exit the Settings Dashboard.  
   
--   Only use message body tracking if necessary. Depending on message throughput and message size, message body tracking can cause significant overhead. While BizTalk activity tracking has obvious benefits for debugging and auditing, it also has considerable performance and scalability implications. Therefore, you should track only data that is strictly necessary for debugging and security reasons, and avoids tracking redundant information.  
+- Only use message body tracking if necessary. Depending on message throughput and message size, message body tracking can cause significant overhead. While BizTalk activity tracking has obvious benefits for debugging and auditing, it also has considerable performance and scalability implications. Therefore, you should track only data that is strictly necessary for debugging and security reasons, and avoids tracking redundant information.  
   
--   By default, the following tracking options are enabled for orchestrations:  
+- By default, the following tracking options are enabled for orchestrations:  
   
-    -   Orchestration start and end  
+  - Orchestration start and end  
   
-    -   Message send and receive  
+  - Message send and receive  
   
-    -   Shape start and end  
+  - Shape start and end  
   
-     The orchestration tracking option “Shape start and end” incurs significant overhead and should not be enabled in a production environment where high throughput is necessary. Orchestration tracking options are accessible in the BizTalk Administration console on the **Tracking** page of the Orchestration Properties dialog box.  
+    The orchestration tracking option “Shape start and end” incurs significant overhead and should not be enabled in a production environment where high throughput is necessary. Orchestration tracking options are accessible in the BizTalk Administration console on the **Tracking** page of the Orchestration Properties dialog box.  
   
- For more information about configuring tracking, see [Configuring Tracking Using the BizTalk Server Administration Console](http://go.microsoft.com/fwlink/?LinkId=158021) (http://go.microsoft.com/fwlink/?LinkId=158021).  
+  For more information about configuring tracking, see [Configuring Tracking Using the BizTalk Server Administration Console](http://go.microsoft.com/fwlink/?LinkId=158021) (http://go.microsoft.com/fwlink/?LinkId=158021).  
   
 ## Decrease the purging period for the DTA Purge and Archive job from 7 days to 2 days in high throughput scenarios  
  By default, the purging interval for tracking data in BizTalk Server is set to 7 days. In a high throughput scenario, this can result in an excessive build up of data in the Tracking database, which will eventually impact the performance of the MessageBox and in turn negatively impact message processing throughput.  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10851
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10851|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_PSADMIN_NO_DIRECT_PASSWORD_SYNC|  
-|Message Text|The application cannot be assigned to a password sync adapter because it has the 'direct password sync' flag set.|  
+|                 |                                                                                                                   |
+|-----------------|-------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                             Enterprise Single Sign-On                                             |
+| Product Version |                            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                             |
+|    Event ID     |                                                       10851                                                       |
+|  Event Source   |                                                      ENTSSO                                                       |
+|    Component    |                                                        N/A                                                        |
+|  Symbolic Name  |                                     ENTSSO_E_PSADMIN_NO_DIRECT_PASSWORD_SYNC                                      |
+|  Message Text   | The application cannot be assigned to a password sync adapter because it has the 'direct password sync' flag set. |
   
 ## Explanation  
  An application cannot use both direct password sync and a password sync adapter.  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10762
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10762|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_WRONG_THREAD|  
-|Message Text|The SSO client component has been called on the wrong thread. It is currently locked to a thread because it has a transaction.|  
+|                 |                                                                                                                                |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                   Enterprise Single Sign-On                                                    |
+| Product Version |                                   [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                   |
+|    Event ID     |                                                             10762                                                              |
+|  Event Source   |                                                             ENTSSO                                                             |
+|    Component    |                                                              N/A                                                               |
+|  Symbolic Name  |                                                     ENTSSO_E_WRONG_THREAD                                                      |
+|  Message Text   | The SSO client component has been called on the wrong thread. It is currently locked to a thread because it has a transaction. |
   
 ## Explanation  
  Components can only be multi-threaded when they do not have a transaction. This component has a transaction so it is locked to a thread.  

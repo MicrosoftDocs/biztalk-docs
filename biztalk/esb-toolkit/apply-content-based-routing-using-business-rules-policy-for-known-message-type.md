@@ -31,11 +31,11 @@ manager: "anneta"
 ## Before You Begin  
  Complete the following tasks before you perform the steps later in this How-to topic:  
   
--   Create the GlobalBank West test message.  
+- Create the GlobalBank West test message.  
   
--   Create the GlobalBank East test message.  
+- Create the GlobalBank East test message.  
   
- The following procedures describe how to do each of these.  
+  The following procedures describe how to do each of these.  
   
 #### To create the GlobalBank West test message  
   
@@ -68,32 +68,32 @@ manager: "anneta"
   
 #### To add a routing rule for customer GlobalBank West  
   
-1.  In the **RouteBasedOnCustomerKnownType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**. Name the rule **SetWestEndpoint**.  
+1. In the **RouteBasedOnCustomerKnownType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**. Name the rule **SetWestEndpoint**.  
   
-2.  In Facts Explorer, click the **XML Schemas** tab, right-click **Schemas**, and then click **Browse**.  
+2. In Facts Explorer, click the **XML Schemas** tab, right-click **Schemas**, and then click **Browse**.  
   
-3.  In the **Schema Files** dialog box, browse to C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Source\ESB.DynamicResolution.Schemas, select **NAOrderDoc.xsd**, and then click **Open**.  
+3. In the **Schema Files** dialog box, browse to C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Source\ESB.DynamicResolution.Schemas, select **NAOrderDoc.xsd**, and then click **Open**.  
   
-    > [!NOTE]
-    >  This is the schema that defines the NAOrderDoc.xml message, which was used to create the West and East messages you will use for testing.  
+   > [!NOTE]
+   >  This is the schema that defines the NAOrderDoc.xml message, which was used to create the West and East messages you will use for testing.  
   
-4.  In Facts Explorer, click **NAOrderDoc.xsd**, and then in the Properties pane, click the **Document Type** property, and then type **GlobalBank.ESB.DynamicResolution.Schemas.NAOrderDoc**.  
+4. In Facts Explorer, click **NAOrderDoc.xsd**, and then in the Properties pane, click the **Document Type** property, and then type **GlobalBank.ESB.DynamicResolution.Schemas.NAOrderDoc**.  
   
-    > [!NOTE]
-    >  This is the fully qualified name of the schema.  
+   > [!NOTE]
+   >  This is the fully qualified name of the schema.  
   
-5.  In Facts Explorer, expand **NAOrderDoc.xsd**, and then expand **OrderDoc**.  
+5. In Facts Explorer, expand **NAOrderDoc.xsd**, and then expand **OrderDoc**.  
   
-6.  In the Rule window, right-click **Conditions**, point to **Predicates**, and then click **Equal**.  
+6. In the Rule window, right-click **Conditions**, point to **Predicates**, and then click **Equal**.  
   
-7.  From Facts Explorer, drag the **customerName** element to the **argument1** node under **Conditions**.  
+7. From Facts Explorer, drag the **customerName** element to the **argument1** node under **Conditions**.  
   
-8.  Click the **argument2** node, and then type **GlobalBankWest**.  
+8. Click the **argument2** node, and then type **GlobalBankWest**.  
   
 9. In Facts Explorer, click the **Vocabularies** tab, expand **ESB.EndPointInfo**, and then expand **Version 1.0**.  
   
-    > [!NOTE]
-    >  The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several vocabularies that can be used for creating rules for use in the ESB. Some of these should be replaced or augmented with your own vocabularies. For example, the **DynamicRunTimeMaptypes** has definitions for the maps provided in the **GlobalBank** samples.  
+   > [!NOTE]
+   >  The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several vocabularies that can be used for creating rules for use in the ESB. Some of these should be replaced or augmented with your own vocabularies. For example, the **DynamicRunTimeMaptypes** has definitions for the maps provided in the **GlobalBank** samples.  
   
 10. From Facts Explorer, drag the **Set End Point Outbound Transport Location** definition to **Actions**.  
   

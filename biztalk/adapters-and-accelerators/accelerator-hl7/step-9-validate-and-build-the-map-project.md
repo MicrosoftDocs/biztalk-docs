@@ -32,11 +32,11 @@ In this step, you use the **Validate Map** command to determine if the map conta
   
 ### To build the map project  
   
--   In Solution Explorer, right-click **BTAHL7 Project**, and then click **Build**. Ensure that a success message appears in the output window.  
+- In Solution Explorer, right-click **BTAHL7 Project**, and then click **Build**. Ensure that a success message appears in the output window.  
   
-     If no success message appears, troubleshoot the map project.  
+   If no success message appears, troubleshoot the map project.  
   
- Proceed to [Step 10: Create an Orchestration](../../adapters-and-accelerators/accelerator-hl7/step-10-create-an-orchestration.md).  
+  Proceed to [Step 10: Create an Orchestration](../../adapters-and-accelerators/accelerator-hl7/step-10-create-an-orchestration.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

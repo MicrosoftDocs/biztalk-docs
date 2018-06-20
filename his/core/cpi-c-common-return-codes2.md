@@ -128,11 +128,11 @@ This section describes the return codes for Common Programming Interface for Com
  CM_DEALLOCATED_ABEND_SVC  
  The conversation has been deallocated for one of the following reasons:  
   
--   The partner program issued [Deallocate](../core/deallocate-cpi-c-1.md) with the type parameter set to ABEND_SVC.  
+- The partner program issued [Deallocate](../core/deallocate-cpi-c-1.md) with the type parameter set to ABEND_SVC.  
   
--   The partner program did not deallocate the conversation before terminating.  
+- The partner program did not deallocate the conversation before terminating.  
   
- If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
+  If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
   
 ## 31  
  CM_DEALLOCATED_ABEND_TIMER  

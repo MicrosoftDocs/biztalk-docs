@@ -27,35 +27,35 @@ This section discusses browsing a JD Edwards EnterpriseOne server and importing 
   
 ## Import schemas into Visual Studio
   
-1.  Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Right-click the name of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project, point to **Add**, and select **Add Generated Items**.  
+2. Right-click the name of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project, point to **Add**, and select **Add Generated Items**.  
   
-3.  Click **Add** to open the **Add Adapter Wizard**.  
+3. Click **Add** to open the **Add Adapter Wizard**.  
   
-4.  On the **Select Adapter** page, select the name of the adapter for which you want to import schemas (for example, **JDEEnterpriseOne**).  
+4. On the **Select Adapter** page, select the name of the adapter for which you want to import schemas (for example, **JDEEnterpriseOne**).  
   
-5.  In the **SQL Server** box, select a SQL server.  
+5. In the **SQL Server** box, select a SQL server.  
   
-6.  In the **Database** box, select a database.  
+6. In the **Database** box, select a database.  
   
-     The default database is the same one as your SQL server.  
+    The default database is the same one as your SQL server.  
   
-7.  In the **Port** box, select a SQL server, and then click **Next**.  
+7. In the **Port** box, select a SQL server, and then click **Next**.  
   
-     The JD Edwards EnterpriseOne system displays in the browser.  
+    The JD Edwards EnterpriseOne system displays in the browser.  
   
-8.  Continue with the next procedure below.  
+8. Continue with the next procedure below.  
   
- The Add Adapter Wizard displays a tree of all of the defined systems. JD Edwards EnterpriseOne has many modules. The modules are grouped together according to the first three characters of their name.  
+   The Add Adapter Wizard displays a tree of all of the defined systems. JD Edwards EnterpriseOne has many modules. The modules are grouped together according to the first three characters of their name.  
   
--   The first level of the hierarchy is the list of all three-character prefixes for the module names.  
+- The first level of the hierarchy is the list of all three-character prefixes for the module names.  
   
--   The second level lists all the modules that share the same three-character prefix.  
+- The second level lists all the modules that share the same three-character prefix.  
   
--   The last level lists the business functions belonging to a module. When you expand the services icon, you can view its operations.  
+- The last level lists the business functions belonging to a module. When you expand the services icon, you can view its operations.  
   
- Expanding an operation displays the input/output arguments. You can expand the input/output arguments to view the data types of the arguments.  
+  Expanding an operation displays the input/output arguments. You can expand the input/output arguments to view the data types of the arguments.  
   
 > [!NOTE]
 >  If the server object definitions change, you must regenerate the schema to refresh the data it contains.  
@@ -65,11 +65,11 @@ This section discusses browsing a JD Edwards EnterpriseOne server and importing 
   
 ## Select the schemas  
   
-1.  In the **Select Services to Import** page, expand the top level node of the **Business Objects** node or the **Business Services** node.  
+1. In the **Select Services to Import** page, expand the top level node of the **Business Objects** node or the **Business Services** node.  
   
-2.  Select the check box next to the items that you want to import, and then click **OK**.  
+2. Select the check box next to the items that you want to import, and then click **OK**.  
   
-3.  Schemas generated for the selected JD Edwards EnterpriseOne items are imported into your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  
+3. Schemas generated for the selected JD Edwards EnterpriseOne items are imported into your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  
   
 > [!NOTE]
 >  When using AddressBook (N0100041) the field name is **cActionCode**. The action is part of the XML file itself. The codes are:  

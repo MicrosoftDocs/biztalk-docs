@@ -26,23 +26,23 @@ manager: "anneta"
   
 ## Compile and deploy the Web project  
   
-1.  In Visual Studio, load the EchoWeb project created previously.  
+1. In Visual Studio, load the EchoWeb project created previously.  
   
-2.  Open a Visual Studio command prompt.  
+2. Open a Visual Studio command prompt.  
   
-3.  At the command prompt, from the C:\tutorials\echoweb folder, type the following command, and then press ENTER:  
+3. At the command prompt, from the C:\tutorials\echoweb folder, type the following command, and then press ENTER:  
   
-     **sn /k EchoWebKey.snk**  
+    **sn /k EchoWebKey.snk**  
   
-     A confirmation message, **Key pair written to EchoWebKey.snk**, displays on the command line.  
+    A confirmation message, **Key pair written to EchoWebKey.snk**, displays on the command line.  
   
-4.  Close the command prompt.  
+4. Close the command prompt.  
   
-5.  In **Solution Explorer**, right click the EchoWeb project, and then select **Publish Web Site**.  
+5. In **Solution Explorer**, right click the EchoWeb project, and then select **Publish Web Site**.  
   
-6.  In the **Publish Web Site** dialog box, for **Target location**, enter **http://machinename/EchoWeb**. Select **Allow this precompiled site to be updatable**, **Use fixed naming and single page assemblies**, and **Enable strong naming on precompiled assemblies**. In the **Key file location** field, click the ellipsis **(…)** button, select the EchoWebKey.snk file created previously, and then click **OK**.  
+6. In the **Publish Web Site** dialog box, for **Target location**, enter **http://machinename/EchoWeb**. Select **Allow this precompiled site to be updatable**, **Use fixed naming and single page assemblies**, and **Enable strong naming on precompiled assemblies**. In the **Key file location** field, click the ellipsis **(…)** button, select the EchoWebKey.snk file created previously, and then click **OK**.  
   
-7.  To verify that the Web site was correctly created, start Internet Explorer, enter  **"http://localhost/EchoWeb/EchoOutboundContract.svc"** in the address bar, and then press ENTER. A Web page that describes the EchoOutboundContractClient should appear.  
+7. To verify that the Web site was correctly created, start Internet Explorer, enter  **"<http://localhost/EchoWeb/EchoOutboundContract.svc>"** in the address bar, and then press ENTER. A Web page that describes the EchoOutboundContractClient should appear.  
   
 ## What did I just do?  
  You have just published your Web project to IIS.  

@@ -50,21 +50,21 @@ Install BizTalk Server on a single computer.
 
     Select **Next**.   
   
- 7. Depending on the components you choose, there may be some additional prerequisites, such as ADOMD.NET. The setup can install all the redistributable prerequisites automatically for you. Your options include:
-* **Manually install the redistributable prerequisites** : The installation wizard closes so you can manually install the missing prerequisites.
-* **Automatically install the redistributable prerequisites from the web** : Default. Requires internet access.
-* **Download the redistributable prerequisites CAB file** : Downloads a CAB file, which you can install later.
-* **Automatically install the redistributable prerequisites from a CAB file**: If you previously downloaded the CAB files, you can select this option to use those CAB files. 
+   7. Depending on the components you choose, there may be some additional prerequisites, such as ADOMD.NET. The setup can install all the redistributable prerequisites automatically for you. Your options include:
+7. **Manually install the redistributable prerequisites** : The installation wizard closes so you can manually install the missing prerequisites.
+8. **Automatically install the redistributable prerequisites from the web** : Default. Requires internet access.
+9. **Download the redistributable prerequisites CAB file** : Downloads a CAB file, which you can install later.
+10. **Automatically install the redistributable prerequisites from a CAB file**: If you previously downloaded the CAB files, you can select this option to use those CAB files. 
 
-  Select **Next**.
+    Select **Next**.
   
-8. Review the summary page. To make any changes, select **Back** to check or uncheck any components. 
+11. Review the summary page. To make any changes, select **Back** to check or uncheck any components. 
 
-     To enable auto-logon after a system reboot, select **Set**, and enter the sign-in account. This is only enabled during the BizTalk setup. When setup is complete, this setting is disabled. 
+      To enable auto-logon after a system reboot, select **Set**, and enter the sign-in account. This is only enabled during the BizTalk setup. When setup is complete, this setting is disabled. 
 
-    Select **Install**.
+     Select **Install**.
   
-9. To configure BizTalk now, check **Launch BizTalk Server Configuration**. If you don't want to configure BizTalk now, then uncheck this option, and select **Finish** to close the installation wizard. 
+12. To configure BizTalk now, check **Launch BizTalk Server Configuration**. If you don't want to configure BizTalk now, then uncheck this option, and select **Finish** to close the installation wizard. 
 
 A setup log file is generated in a temp folder, similar to: `C:\Users\*username*\AppData\Local\Setup(011217 xxxxxx).htm`
   

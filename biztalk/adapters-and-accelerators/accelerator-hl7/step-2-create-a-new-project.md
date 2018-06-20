@@ -23,32 +23,32 @@ In this step, you build a new solution by using the [!INCLUDE[btsCoName](../../i
   
 ### To create a new project  
   
-1.  Start **Visual Studio**.  
+1. Start **Visual Studio**.  
   
-2.  On the **File** menu, point to **New**, and then click **Project**.  
+2. On the **File** menu, point to **New**, and then click **Project**.  
   
-3.  In the New Project dialog box, expand the **BizTalk Projects** folder, and then click the **BTAHL7Projects** folder.  
+3. In the New Project dialog box, expand the **BizTalk Projects** folder, and then click the **BTAHL7Projects** folder.  
   
-4.  In the **Templates** pane, click **BTAHL7V22Common Project**.  
+4. In the **Templates** pane, click **BTAHL7V22Common Project**.  
   
-5.  In the **Name** field, type **BTAHL7V22Common** as the project name.  
+5. In the **Name** field, type **BTAHL7V22Common** as the project name.  
   
-6.  In the **Location** field, type *\<drive\>***:\Tutorial** as the path, and then click **OK** to open the new project.  
+6. In the **Location** field, type *\<drive\>***:\Tutorial** as the path, and then click **OK** to open the new project.  
   
-    > [!NOTE]
-    >  BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) adds a new project to Solution Explorer with the three common schemas:  
+   > [!NOTE]
+   >  BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) adds a new project to Solution Explorer with the three common schemas:  
   
-    -   datatypes_22.xsd  
+   - datatypes_22.xsd  
   
-    -   segments_22.xsd  
+   - segments_22.xsd  
   
-    -   tablevalues_22.xsd  
+   - tablevalues_22.xsd  
   
      [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates the project folder and files in the \<*drive*\>:\Tutorial\BTAHL7V22Common folder.  
   
-7.  On the **File** menu, point to **New**, and then click **Project**.  
+7. On the **File** menu, point to **New**, and then click **Project**.  
   
-8.  In the New Project dialog box, expand the **BizTalk Projects** folder, and then click the **BTAHL7Projects** folder.  
+8. In the New Project dialog box, expand the **BizTalk Projects** folder, and then click the **BTAHL7Projects** folder.  
   
 9. In the **Templates** pane, click **BTAHL7V2XCommon Project**.  
   
@@ -61,15 +61,15 @@ In this step, you build a new solution by using the [!INCLUDE[btsCoName](../../i
     > [!NOTE]
     >  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] adds a new project to Solution Explorer with the following schemas:  
   
-    -   ACK_24_GLO_DEF.xsd  
+    - ACK_24_GLO_DEF.xsd  
   
-    -   ACK_25_GLO_DEF.xsd  
+    - ACK_25_GLO_DEF.xsd  
   
-    -   MSH_25_GLO_DEF.xsd  
+    - MSH_25_GLO_DEF.xsd  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates the project folder and files in the **\<drive\>:\Tutorial\BTAHL7V22Common\BTAHL72XCommon** folder.  
+      [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates the project folder and files in the **\<drive\>:\Tutorial\BTAHL7V22Common\BTAHL72XCommon** folder.  
   
- Proceed to [Step 3: Assign a Strong Name to the Assembly](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md).  
+    Proceed to [Step 3: Assign a Strong Name to the Assembly](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

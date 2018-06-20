@@ -42,13 +42,13 @@ manager: "anneta"
 ## MIME/SMIME Encoder  
  The MIME/SMIME encoder is based on the BizTalk Server MIME/SMIME Encoder. Depending on the protocol settings in the trading partner agreement, and the settings of the BizTalk Server MIME/SMIME Encoder, the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] encoder performs the following:  
   
--   Adds an 8-byte binary header to the message, as required for RNIF 1.1 messages.  
+- Adds an 8-byte binary header to the message, as required for RNIF 1.1 messages.  
   
--   Encodes the message parts, and calculates the digest.  
+- Encodes the message parts, and calculates the digest.  
   
--   Encrypts the payload (service content plus attachments), or the payload container (service content plus service header plus attachments). If you have set the **Encode all ports** setting on the **Protocol** tab of the trading partner agreement to `False`, the encoder will encrypt only the payload. If you have set the **Encode all ports** setting to `True`, the encoder will encrypt the payload container.  
+- Encrypts the payload (service content plus attachments), or the payload container (service content plus service header plus attachments). If you have set the **Encode all ports** setting on the **Protocol** tab of the trading partner agreement to `False`, the encoder will encrypt only the payload. If you have set the **Encode all ports** setting to `True`, the encoder will encrypt the payload container.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] MIME/SMIME Encoder, see "MIME/SMIME Encoder Pipeline Component" in BizTalk Server Help.  
+  For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] MIME/SMIME Encoder, see "MIME/SMIME Encoder Pipeline Component" in BizTalk Server Help.  
   
 ## Message Flow  
  The message flow through the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] send pipeline is as follows:  

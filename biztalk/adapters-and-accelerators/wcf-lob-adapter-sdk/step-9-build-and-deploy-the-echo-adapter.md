@@ -21,13 +21,13 @@ manager: "anneta"
   
  In this step, you will perform the tasks necessary to deploy the Echo Adapter. This involves all of the following:  
   
--   Create a strong name file and assign it to the Echo Adapter assembly  
+- Create a strong name file and assign it to the Echo Adapter assembly  
   
--   Build the Echo Adapter  
+- Build the Echo Adapter  
   
--   Publish the assembly into the GAC  
+- Publish the assembly into the GAC  
   
--   Register the Echo Adapter with the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]  
+- Register the Echo Adapter with the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]  
   
 ## Prerequisites  
  To successfully complete this step, you should be familiar with strong name files and the GAC. A basic understanding of [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] configuration is helpful but not required.  
@@ -62,53 +62,53 @@ manager: "anneta"
   
 ### To register the Echo Adapter with Windows Communication Foundation  
   
-1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type **notepad \<Windows install path\>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config**, and then click **OK**.  
+1. Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type **notepad \<Windows install path\>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config**, and then click **OK**.  
   
-2.  Update the machine.config file. If your machine.config does not contain a system.serviceModel section, add the following section at the end of the configuration file but before the closing root tag.  
+2. Update the machine.config file. If your machine.config does not contain a system.serviceModel section, add the following section at the end of the configuration file but before the closing root tag.  
   
-    > [!NOTE]
-    >  Replace the version, culture, public key token and other assembly-specific information with your adapter's information.  
+   > [!NOTE]
+   >  Replace the version, culture, public key token and other assembly-specific information with your adapter's information.  
   
-    ```  
-    <system.serviceModel>  
-      <client>  
-        <endpoint binding="echoAdapterBindingV2" contract="IMetadataExchange"  
-          name="echov2" />  
-      </client>  
-      <extensions>  
-        <bindingElementExtensions>  
-          <add name="echoAdapterV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingElementExtensionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
-        </bindingElementExtensions>  
-        <bindingExtensions>  
-          <add name="echoAdapterBindingV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingCollectionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
-        </bindingExtensions>  
-      </extensions>  
-    </system.serviceModel>  
-    ```  
+   ```  
+   <system.serviceModel>  
+     <client>  
+       <endpoint binding="echoAdapterBindingV2" contract="IMetadataExchange"  
+         name="echov2" />  
+     </client>  
+     <extensions>  
+       <bindingElementExtensions>  
+         <add name="echoAdapterV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingElementExtensionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
+       </bindingElementExtensions>  
+       <bindingExtensions>  
+         <add name="echoAdapterBindingV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingCollectionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
+       </bindingExtensions>  
+     </extensions>  
+   </system.serviceModel>  
+   ```  
   
-     - OR -  
+   - OR -  
   
      If your machine.config contains a system.serviceModel section, determine which elements are missing and add them.  
   
-    > [!NOTE]
-    >  Replace the version, culture, public key token and other assembly-specific information with your adapter's information.  
+   > [!NOTE]
+   >  Replace the version, culture, public key token and other assembly-specific information with your adapter's information.  
   
-    ```  
-    <client>  
-      <endpoint binding="echoAdapterBindingV2" contract="IMetadataExchange"  
-        name="echov2" />  
-    </client>  
-    <extensions>  
-      <bindingElementExtensions>  
-        <add name="echoAdapterV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingElementExtensionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
-      </bindingElementExtensions>  
-      <bindingExtensions>  
-        <add name="echoAdapterBindingV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingCollectionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
-      </bindingExtensions>  
-    </extensions>  
-    ```  
+   ```  
+   <client>  
+     <endpoint binding="echoAdapterBindingV2" contract="IMetadataExchange"  
+       name="echov2" />  
+   </client>  
+   <extensions>  
+     <bindingElementExtensions>  
+       <add name="echoAdapterV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingElementExtensionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
+     </bindingElementExtensions>  
+     <bindingExtensions>  
+       <add name="echoAdapterBindingV2" type="Microsoft.Adapters.Samples.EchoV2.EchoAdapterBindingCollectionElement,Microsoft.Adapters.Samples.EchoV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxxxxx" />  
+     </bindingExtensions>  
+   </extensions>  
+   ```  
   
-3.  Save the machine.config file.  
+3. Save the machine.config file.  
   
 ## What Did I Just Do?  
  In this final step of the Echo Adapter tutorial, you added a strong name to the Echo Adapter, built and deployed the adapter, then modified Machine.config to include information about the adapter. At this point, the Echo Adapter should be available to consuming applications.  

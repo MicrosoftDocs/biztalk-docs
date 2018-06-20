@@ -24,18 +24,18 @@ In this module, you create a blank BizTalk solution. In the first lesson, you cr
   
 ### To create a blank BizTalk solution  
   
-1.  Start **Visual Studio**.  
+1. Start **Visual Studio**.  
   
-2.  On the **File** menu, point to **New**, and then click **Project**.  
+2. On the **File** menu, point to **New**, and then click **Project**.  
   
-3.  In the **Project Types** pane of the New Project dialog box, select the **BizTalk Projects**. In the Templates pane, select **Empty BizTalk Server Project**.  
+3. In the **Project Types** pane of the New Project dialog box, select the **BizTalk Projects**. In the Templates pane, select **Empty BizTalk Server Project**.  
   
-4.  In the **Name** box, type **SWIFTProject** as the solution name.  
+4. In the **Name** box, type **SWIFTProject** as the solution name.  
   
-5.  In the **Location** box, type **\<*drive*\>:\labs**.  
+5. In the **Location** box, type **\<*drive*\>:\labs**.  
   
-6.  Click **OK** to open the new project.  
+6. Click **OK** to open the new project.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates an empty solution in Solution Explorer and a new blank solution in the \<*drive*:\>\labs folder.  
+    [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] creates an empty solution in Solution Explorer and a new blank solution in the \<*drive*:\>\labs folder.  
   
- Proceed to [Module 2: Adding a New Schemas Project](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md).
+   Proceed to [Module 2: Adding a New Schemas Project](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md).

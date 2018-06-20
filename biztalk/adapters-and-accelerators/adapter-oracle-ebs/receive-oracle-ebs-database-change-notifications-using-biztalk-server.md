@@ -19,11 +19,11 @@ You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapt
   
  Following are some scenarios in which you can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to receive notifications from Oracle E-Business Suite:  
   
--   Adapter clients get only “incremental” notification, for example, only for those changes that were made to a database table since the last notification.  
+- Adapter clients get only “incremental” notification, for example, only for those changes that were made to a database table since the last notification.  
   
--   If a large number of rows are inserted into a database table, the adapter clients can configure multiple receive locations to load-balance receiving notifications.  
+- If a large number of rows are inserted into a database table, the adapter clients can configure multiple receive locations to load-balance receiving notifications.  
   
- After the adapter clients receive a notification message, they can perform specific tasks based on the kind of notification received. For example, a BizTalk orchestration can be designed in such a way that it performs one set of tasks if an insert notification is received and another set of tasks if an update notification is received.  
+  After the adapter clients receive a notification message, they can perform specific tasks based on the kind of notification received. For example, a BizTalk orchestration can be designed in such a way that it performs one set of tasks if an insert notification is received and another set of tasks if an update notification is received.  
   
 > [!CAUTION]
 >  If there is a network outage between the Oracle database and the adapter client, the notifications will not be sent to the adapter clients for the changes done on the Oracle database during the period of network outage, and thereafter. Therefore, you must use the Polling operation instead of the Notification operation for critical scenarios.  

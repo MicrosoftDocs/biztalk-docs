@@ -35,15 +35,15 @@ Change, repair or uninstall the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btab
   
 1. Run the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] **setup.exe** as an administrator 
   
-2.  On the welcome page, select **Next**.  
+2. On the welcome page, select **Next**.  
   
-3.  In **Program Maintenance**, select **Modify**, and then select **Next**.  
+3. In **Program Maintenance**, select **Modify**, and then select **Next**.  
   
-4.  In **Custom Setup**, select the features that you want to install, clear the features you don't want, and then select **Next**.  
+4. In **Custom Setup**, select the features that you want to install, clear the features you don't want, and then select **Next**.  
   
-5.  In the summary, select **Next**.  
+5. In the summary, select **Next**.  
   
-6.  Select **Install**.  
+6. Select **Install**.  
   
 7. When complete, select **Finish**.  
 
@@ -52,17 +52,17 @@ The [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] Wizard
   
 1. Run the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] **setup.exe** as administrator.  
   
-2.  On the welcome page, select **Next**.  
+2. On the welcome page, select **Next**.  
   
-3.  In **Program Maintenance**, select **Repair**, and then select **Next**.  
+3. In **Program Maintenance**, select **Repair**, and then select **Next**.  
   
-4.  In **Logging Service Account**, re-enter the user account, and then select **OK**.  
+4. In **Logging Service Account**, re-enter the user account, and then select **OK**.  
   
-4.  If prompted **The account name has been granted logon as a service right**, then select **OK** to continue.  
+5. If prompted **The account name has been granted logon as a service right**, then select **OK** to continue.  
   
-5.  When ready to repair, select **Install**.  
+6. When ready to repair, select **Install**.  
   
-6. When completed, select **Finish**. 
+7. When completed, select **Finish**. 
 
   
 ## Uninstall BTAHL7  
@@ -70,16 +70,16 @@ The [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] Wizard
 > [!IMPORTANT]
 >  If there is a receive location or send port using the MLLP transport type, the BTAHL7 setup does not remove the MLLP adapter during the uninstall of BTAHL7. Before you uninstall, remove all receive locations or send ports using the MLLP transport. Or, change the transport type from MLLP to another type. Then, the uninstall will remove the MLLP adapter.  
       
-1.  Open **Programs and Features**.  
+1. Open **Programs and Features**.  
   
-2.  Select [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], and then select **Uninstall**.  
+2. Select [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], and then select **Uninstall**.  
   
-4.  Select **Yes** if asked to confirm. 
+3. Select **Yes** if asked to confirm. 
   
-5.  When completed, select **Finish**.  
+4. When completed, select **Finish**.  
   
-    > [!NOTE]
-    >  BTAHL7 does not automatically uninstall [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] artifacts and assemblies.  
+   > [!NOTE]
+   >  BTAHL7 does not automatically uninstall [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] artifacts and assemblies.  
   
 
   
@@ -90,11 +90,11 @@ The [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] Wizard
   
 To continue with uninstallation, do the following:  
   
-1.  Sign in to the server as a local administrator.  
+1. Sign in to the server as a local administrator.  
   
-2.  Uninstall [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
+2. Uninstall [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
-3.  Uninstall [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)].  
+3. Uninstall [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)].  
   
 ## See Also  
 [Install or upgrade Microsoft BizTalk Accelerator for HL7](../../adapters-and-accelerators/accelerator-hl7/install-or-upgrade-microsoft-biztalk-accelerator-for-hl7.md)

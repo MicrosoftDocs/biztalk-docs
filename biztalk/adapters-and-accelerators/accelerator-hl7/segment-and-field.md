@@ -39,13 +39,13 @@ A segment table defines an HL7 segment. Each segment definition follows the patt
   
  The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] supports the standard segments for all HL7 versions from V2.1 on.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] supports the standard segments for all HL7 versions from V2.1 on.  
   
--   When you construct interface specifications and implement interfaces, you can label fields that are optional in the standard as either mandatory or not supported, based on functional requirements.  
+- When you construct interface specifications and implement interfaces, you can label fields that are optional in the standard as either mandatory or not supported, based on functional requirements.  
   
--   You can create Z segments where needed for localization.  
+- You can create Z segments where needed for localization.  
   
--   You can redefine the semantics of fields or add fields to segments where needed for localization. Note that this falls under the heading of illegitimate localization. However, in some cases you need this functionality to support legacy interfaces or interfaces to legacy systems.  
+- You can redefine the semantics of fields or add fields to segments where needed for localization. Note that this falls under the heading of illegitimate localization. However, in some cases you need this functionality to support legacy interfaces or interfaces to legacy systems.  
   
 ## See Also  
  [Processing HL7 Messages](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10834
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10834|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_SSO_NOT_SSO_ADMIN|  
-|Message Text|The current user is not a member of the specified SSO Administrators account.|  
+|                 |                                                                               |
+|-----------------|-------------------------------------------------------------------------------|
+|  Product Name   |                           Enterprise Single Sign-On                           |
+| Product Version |          [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]           |
+|    Event ID     |                                     10834                                     |
+|  Event Source   |                                    ENTSSO                                     |
+|    Component    |                                      N/A                                      |
+|  Symbolic Name  |                          ENTSSO_E_SSO_NOT_SSO_ADMIN                           |
+|  Message Text   | The current user is not a member of the specified SSO Administrators account. |
   
 ## Explanation  
  To perform this action, the user must be a member of the specified SSO Administrators account.  

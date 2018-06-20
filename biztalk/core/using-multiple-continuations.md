@@ -36,25 +36,25 @@ Using the Tracking Profile Editor (TPE) in environments in which there are multi
   
  The process to create the continuation is as follows:  
   
-1.  Create a continuation in the folder activity tree view of the tracking profile.  
+1. Create a continuation in the folder activity tree view of the tracking profile.  
   
-2.  Choose the context property schema by clicking the **Select Event Source** button, and then clicking the **Select Context Property** menu item.  
+2. Choose the context property schema by clicking the **Select Event Source** button, and then clicking the **Select Context Property** menu item.  
   
-3.  Locate the **interchangeId property** in the **Context Property Name** list, and then select it.  
+3. Locate the **interchangeId property** in the **Context Property Name** list, and then select it.  
   
-4.  From the property schema, map the interchangeID to the continuation folder that you just created.  
+4. From the property schema, map the interchangeID to the continuation folder that you just created.  
   
-5.  Right-click the newly created interchangeID node in the activity tree, and then select the ports from which to map.  
+5. Right-click the newly created interchangeID node in the activity tree, and then select the ports from which to map.  
   
-6.  In the **Select Ports** dialog box that is displayed, select all **N** receive ports.  
+6. In the **Select Ports** dialog box that is displayed, select all **N** receive ports.  
   
-7.  Create a continuationID folder in the folder activity tree.  
+7. Create a continuationID folder in the folder activity tree.  
   
-8.  Open each orchestration by clicking the **Select Event Source** button, and then clicking the **Select Orchestration Schedule** menu item. From each orchestration, right-click a shape in the orchestration, and then map the interchangeID context property to the newly created continuationID.  
+8. Open each orchestration by clicking the **Select Event Source** button, and then clicking the **Select Orchestration Schedule** menu item. From each orchestration, right-click a shape in the orchestration, and then map the interchangeID context property to the newly created continuationID.  
   
- In a deployment with three orchestrations, your tracking profile would look similar to this:  
+   In a deployment with three orchestrations, your tracking profile would look similar to this:  
   
- ![TPE multiple continuation scenario 1](../core/media/4761d680-7218-4404-a636-06739f70f344.gif "4761d680-7218-4404-a636-06739f70f344")  
+   ![TPE multiple continuation scenario 1](../core/media/4761d680-7218-4404-a636-06739f70f344.gif "4761d680-7218-4404-a636-06739f70f344")  
   
 #### Scenario Solution 2 - One Receive Port and Multiple Orchestrations  
  In this scenario, a message arrives at exactly one of the receive ports and is processed by each and every orchestration. This happens as the message is simultaneously sent to each of the orchestrations.  

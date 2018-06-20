@@ -22,19 +22,19 @@ manager: "anneta"
 ## Trading Partner Agreement Contents  
  Each trading partner agreement includes the following information:  
   
--   The identities of the trading partners  
+- The identities of the trading partners  
   
--   The public process, as defined by the RosettaNet Implementation Framework (RNIF) version—each TPA references a single public process to initiate or respond to PIP actions  
+- The public process, as defined by the RosettaNet Implementation Framework (RNIF) version—each TPA references a single public process to initiate or respond to PIP actions  
   
--   The process configuration profile, the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] implementation of the PIP  
+- The process configuration profile, the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] implementation of the PIP  
   
--   ASPX settings, including the action, signal, and synchronous URLs  
+- ASPX settings, including the action, signal, and synchronous URLs  
   
--   Protocols for encoding and encryption  
+- Protocols for encoding and encryption  
   
--   Custom properties  
+- Custom properties  
   
- To create a trading partner agreement, you must use the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console to create a process configuration. You typically base this configuration on a RosettaNet PIP, but you can also base it on a custom schema. You must also use the console to create a home organization and a partner. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not support message exchange between unknown parties. After you create the configuration and the organization, you can then use the Management Console to create a partner agreement.  
+  To create a trading partner agreement, you must use the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console to create a process configuration. You typically base this configuration on a RosettaNet PIP, but you can also base it on a custom schema. You must also use the console to create a home organization and a partner. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not support message exchange between unknown parties. After you create the configuration and the organization, you can then use the Management Console to create a partner agreement.  
   
 ### Process Configuration  
  These settings determine how [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] processes message content. They specify the RosettaNet PIP, and indicate how [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] will implement the PIP. To do this, they provide specific values for the behavioral settings that the PIP specifies, for example, time-out and retry values. Therefore, two different sets of partners, or the same set of partners, can implement the same PIP in two different ways.  

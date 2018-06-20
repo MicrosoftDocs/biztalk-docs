@@ -26,33 +26,33 @@ The copy/cut/paste feature in the BizTalk Mapper enables the reusability of a re
   
  You can copy/cut only these map items:  
   
--   Link from source to target schema.  
+- Link from source to target schema.  
   
--   Link from functoid to schema node, if and only if the “functoid” is also selected along with the link.  
+- Link from functoid to schema node, if and only if the “functoid” is also selected along with the link.  
   
--   Link from functoid to functoid, if and only if both the functoids are selected along with the link.  
+- Link from functoid to functoid, if and only if both the functoids are selected along with the link.  
   
- You can copy/cut functoids and/or links from:  
+  You can copy/cut functoids and/or links from:  
   
--   Within the same grid page of a map  
+- Within the same grid page of a map  
   
--   One grid page to the other in the same map  
+- One grid page to the other in the same map  
   
--   One map to the other in the same instance of Visual Studio  
+- One map to the other in the same instance of Visual Studio  
   
--   Across different instances of Visual Studio  
+- Across different instances of Visual Studio  
   
- You can undo or redo the cut and paste operations. For more information, see [How to Undo or Redo User Operations](../core/how-to-undo-or-redo-user-operations.md).  
+  You can undo or redo the cut and paste operations. For more information, see [How to Undo or Redo User Operations](../core/how-to-undo-or-redo-user-operations.md).  
   
- In addition to this, you must consider the following points while pasting links:  
+  In addition to this, you must consider the following points while pasting links:  
   
--   A link between the source and target schema can be pasted if and only if the current map, where the link is being pasted, contains a source node as well as a target node whose XPath is identical to the XPath of the source and target nodes for the link being pasted.  
+- A link between the source and target schema can be pasted if and only if the current map, where the link is being pasted, contains a source node as well as a target node whose XPath is identical to the XPath of the source and target nodes for the link being pasted.  
   
--   A link between the source and target schema can be pasted if and only if there is no existing link between the aforesaid source and target nodes.  
+- A link between the source and target schema can be pasted if and only if there is no existing link between the aforesaid source and target nodes.  
   
--   A link from a functoid to target schema can be pasted if and only if there exists a target node whose XPath is same as the XPath of the target node of the link being pasted.  
+- A link from a functoid to target schema can be pasted if and only if there exists a target node whose XPath is same as the XPath of the target node of the link being pasted.  
   
--   A link from a source schema to a functoid can be pasted if and only if there exists a source node whose XPath is same as the XPath of the source node of the link being pasted.  
+- A link from a source schema to a functoid can be pasted if and only if there exists a source node whose XPath is same as the XPath of the source node of the link being pasted.  
   
 > [!NOTE]
 >  When you select multiple items (links and/or functoids) such that some of them cannot be cut/copied, then on executing the cut/copy command, the status bar in Visual Studio displays a warning message “Some of the selected items could not be cut/copied.” The message also displays relevant details.  

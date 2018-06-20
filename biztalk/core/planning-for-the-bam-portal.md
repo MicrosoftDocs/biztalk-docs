@@ -47,28 +47,28 @@ This topic describes items that you should consider when planning your Business 
   
  **Databases**. Consider the following information when planning for databases:  
   
--   You will need to plan for indexes of your databases to enhance performance. Date and time columns generally require an index on the progress dimension. Queries on progress dimensions with no indexes are slow and will negatively impact performance on the BAM Primary Import table.  
+- You will need to plan for indexes of your databases to enhance performance. Date and time columns generally require an index on the progress dimension. Queries on progress dimensions with no indexes are slow and will negatively impact performance on the BAM Primary Import table.  
   
--   You will need to consider whether you should set up BAM without alerts.  
+- You will need to consider whether you should set up BAM without alerts.  
   
- **SQL Server Notification Services**. SQL Server Notification Services does not support local host or IP addresses for server names to identify servers.  You may encounter this in two locations:  
+  **SQL Server Notification Services**. SQL Server Notification Services does not support local host or IP addresses for server names to identify servers.  You may encounter this in two locations:  
   
-1.  During configuration - If you selected BAM and turned on alerts, the configuration process will ask for a server name.  
+1. During configuration - If you selected BAM and turned on alerts, the configuration process will ask for a server name.  
   
-2.  Modifying the configuration .xml file - If you attempt to modify the configuration .xml file left over from the configuration process in order to reuse it.  
+2. Modifying the configuration .xml file - If you attempt to modify the configuration .xml file left over from the configuration process in order to reuse it.  
   
- **IIS installation**. BAM Portal only runs on a 32-bit mode. If you are installing IIS on a 64-bit machine then you must ensure that ASP.NET 2.0 is enabled on 32-bit mode. To do this, open IIS Manager, open **Application Pool**, select the application pool (BAMAppPool), and then click **Advanced Settings**. In **Enable 32-bit applications**, select **True**. For more information, see BizTalk Server Upgrade Guide.  
+   **IIS installation**. BAM Portal only runs on a 32-bit mode. If you are installing IIS on a 64-bit machine then you must ensure that ASP.NET 2.0 is enabled on 32-bit mode. To do this, open IIS Manager, open **Application Pool**, select the application pool (BAMAppPool), and then click **Advanced Settings**. In **Enable 32-bit applications**, select **True**. For more information, see BizTalk Server Upgrade Guide.  
   
 ## Deployment planning  
  **Multicomputer deployment**. Is your deployment of BizTalk Server across a multicomputer environment? If your BAM portal is configured on a different server than your alerts database, you must increase the query service timeout value in a multiserver environment. For additional configuration information, see [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md).  
   
--   **Multiculture deployment**. Is your deployment of BizTalk Server across a multiculture environment? When you install BizTalk Server the user interface (UI) is in the language of the version that you installed and the BAM portal acquires the culture settings of the user who configures it. To modify the BAM portal web.config file to reflect the proper culture setting, see [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md).  
+- **Multiculture deployment**. Is your deployment of BizTalk Server across a multiculture environment? When you install BizTalk Server the user interface (UI) is in the language of the version that you installed and the BAM portal acquires the culture settings of the user who configures it. To modify the BAM portal web.config file to reflect the proper culture setting, see [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md).  
   
- **Cluster deployment**. Are you deploying in a network load balancing (NLB) cluster? See [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md) for additional configuration information.  
+  **Cluster deployment**. Are you deploying in a network load balancing (NLB) cluster? See [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md) for additional configuration information.  
   
- **SSL**. Are you deploying the BAM portal on an IIS installation using SSL? See the [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md) topic for additional configuration information.  
+  **SSL**. Are you deploying the BAM portal on an IIS installation using SSL? See the [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md) topic for additional configuration information.  
   
- Users who are creating views must have the BAM Add-In for Excel installed.  
+  Users who are creating views must have the BAM Add-In for Excel installed.  
   
 ## Permissions  
  **BAM Manager**. The add-account command of the BAM Manager (bm.exe) does not automatically grant database permissions to the user added. This is due to the fact that to run the BAM Manager you only need dbo permissions. As a result, accessing real-time aggregations (RTAs) from the BAM portal causes SQL Server to fail unless you belong to certain groups within SQL Server, as described next.  
@@ -90,21 +90,21 @@ This topic describes items that you should consider when planning your Business 
   
  For BizTalk Server ports that use pass-through pipelines, it is not possible to track data from the message payload. Pass-through pipelines do not evaluate the message types into the schema names, which results in all the messages having null schemas.  
   
--   Since the tracking profile is mapped to a port and schema pair, attempting to track message payload data for a pass-through pipeline results in nothing being tracked.  
+- Since the tracking profile is mapped to a port and schema pair, attempting to track message payload data for a pass-through pipeline results in nothing being tracked.  
   
- **Names for PivotTables**: When planning for and developing the user experience in the aggregations task of the BAM portal, you should create user friendly names for the PivotTables that you create in Excel.  You can customize the name by right-clicking on a PivotTable and selecting Table options from the context menu.  
+  **Names for PivotTables**: When planning for and developing the user experience in the aggregations task of the BAM portal, you should create user friendly names for the PivotTables that you create in Excel.  You can customize the name by right-clicking on a PivotTable and selecting Table options from the context menu.  
   
- **Date ranges**. When creating queries and instance alerts using the Activity Search page keep in mind that if the @@DateFirst value in your SQL queries does not match the CultureInfo.CurrentCulture.DateTimeFormat.FirstDayOfWeek value, then the date ranges shown on the search page will not match the week boundaries used to generate the aggregations.  
+  **Date ranges**. When creating queries and instance alerts using the Activity Search page keep in mind that if the @@DateFirst value in your SQL queries does not match the CultureInfo.CurrentCulture.DateTimeFormat.FirstDayOfWeek value, then the date ranges shown on the search page will not match the week boundaries used to generate the aggregations.  
   
- For example, if the week start day in SQL Server is set to Sunday, then the date range for the second week of 2005 is from 1/2/2005 through 1/8/2005 and aggregations in SQL Server and OLAP shown for week 2 are based on this date range. However, if the BAM portal specifies a week start date of Saturday, then a user performing drill down on week 2, 2005 will see a date range of from 1/8/2005 through 1/14/2005 on the search page. As a result, the value returned by the search query may not match the aggregate value shown in the PivotTable.  
+  For example, if the week start day in SQL Server is set to Sunday, then the date range for the second week of 2005 is from 1/2/2005 through 1/8/2005 and aggregations in SQL Server and OLAP shown for week 2 are based on this date range. However, if the BAM portal specifies a week start date of Saturday, then a user performing drill down on week 2, 2005 will see a date range of from 1/8/2005 through 1/14/2005 on the search page. As a result, the value returned by the search query may not match the aggregate value shown in the PivotTable.  
   
- To obtain the desired result adjust the time range in the query to retrieve the desired date range.  
+  To obtain the desired result adjust the time range in the query to retrieve the desired date range.  
   
- **Distributed navigation**. The BAM portal distributed navigation feature allows users to see activity relationships across remote boundaries. When developing activities consider the following:  
+  **Distributed navigation**. The BAM portal distributed navigation feature allows users to see activity relationships across remote boundaries. When developing activities consider the following:  
   
--   There may be situations in which you will place related activities from separate BAM Primary Import databases into the same view. It is possible that the activities could have the same names but exist on separate servers, such as two different departments, that both have a Purchase Order activity. When the BAM portal user selects View in the My View pane on the portal they will see both activities listed under each task.  
+- There may be situations in which you will place related activities from separate BAM Primary Import databases into the same view. It is possible that the activities could have the same names but exist on separate servers, such as two different departments, that both have a Purchase Order activity. When the BAM portal user selects View in the My View pane on the portal they will see both activities listed under each task.  
   
--   If users are using BAM portals on different servers to view the deployed views, references need to be enabled symmetrically in order for two portal experiences, each running against its local BAM Primary Import database, to be the same.  
+- If users are using BAM portals on different servers to view the deployed views, references need to be enabled symmetrically in order for two portal experiences, each running against its local BAM Primary Import database, to be the same.  
   
 ## See Also  
  [Customizing the BAM Portal Configuration](../core/customizing-the-bam-portal-configuration.md)

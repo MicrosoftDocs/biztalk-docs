@@ -19,21 +19,21 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
  The accounts created herein do not need permissions in the domain beyond those of ordinary users. The domain accounts may need elevated privileges within the trust boundary that includes:  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Microsoft [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] (on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] server)  
+- Microsoft [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] (on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] server)  
   
--   Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]  
+- Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]  
   
--   External Database One  
+- External Database One  
   
--   External Database Two  
+- External Database Two  
   
--   External Database *N*  
+- External Database *N*  
   
- For example, a domain account may need to be granted rights to perform certain actions on the systems hosting external databases. In another case, an account may need to write a file to a file drop folder, requiring write access to the folder.  
+  For example, a domain account may need to be granted rights to perform certain actions on the systems hosting external databases. In another case, an account may need to write a file to a file drop folder, requiring write access to the folder.  
   
- Use the **Active Directory Users and Computers** console to create and manage domain user and group accounts. Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Active Directory Users and Computers** to start the **Active Directory Users and Computers** console.  
+  Use the **Active Directory Users and Computers** console to create and manage domain user and group accounts. Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Active Directory Users and Computers** to start the **Active Directory Users and Computers** console.  
   
 ## BizTalk Server Installation and Configuration Account  
  In the development environment, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation program and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration Wizard require the use of an account with administrative rights on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] systems. Rights can be revoked or the account disabled as soon as setup and configuration are complete. The account must also belong to several BizTalk groups, covered in the following sections.  
@@ -63,19 +63,19 @@ This topic describes guidelines for creating Active Directory Organizational Uni
 ## SQL Server Service Accounts  
  The service running the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance must belong to the same Active Directory domain as the accounts installing, developing, and deploying [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] components.  
   
--   Use **SQLAdmin** for administrative functions (interactive logon).  
+- Use **SQLAdmin** for administrative functions (interactive logon).  
   
--   Use **SQLService** to manage the service (no interactive logon).  
+- Use **SQLService** to manage the service (no interactive logon).  
   
--   Use **SQLAccess** to access external databases.  
+- Use **SQLAccess** to access external databases.  
   
--   SQLAdmin must be a member of the local Administrators group on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] system.  
+- SQLAdmin must be a member of the local Administrators group on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] system.  
   
--   SQLService must be a member of the local Administrators group on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] system and needs to be granted the **Log on as a service** user right.  
+- SQLService must be a member of the local Administrators group on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] system and needs to be granted the **Log on as a service** user right.  
   
--   SQLAccess needs appropriate rights on the remote database servers.  
+- SQLAccess needs appropriate rights on the remote database servers.  
   
- **SQL Accounts:**  
+  **SQL Accounts:**  
   
 |**User name**|**First Name**|**Last Name**|**Full Name**|  
 |-------------------|--------------------|-------------------|-------------------|  
@@ -87,7 +87,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
 > [!IMPORTANT]
 >  On the computer running [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], modify the startup parameters for the SQL Server and SQLServerAgent services to use the SQLService account and credentials.  
-  
+> 
 > [!NOTE]
 >  The Username fields are samples; you may need to change the names to avoid conflicting with other Active Directory accounts.  
   
@@ -96,15 +96,15 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
  Recommendations and notes on the [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] account:  
   
--   Use the SharePoint Admin Account (SPAdmin) for administrative functions, SharePoint Timer Service and all [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] access.  
+- Use the SharePoint Admin Account (SPAdmin) for administrative functions, SharePoint Timer Service and all [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] access.  
   
--   SPAdmin is the site owner and will need an e-mail alias.  
+- SPAdmin is the site owner and will need an e-mail alias.  
   
--   SPAdmin must be a member of the local administrators group on the local [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer (Windows SharePoint Services setup does this).  
+- SPAdmin must be a member of the local administrators group on the local [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer (Windows SharePoint Services setup does this).  
   
--   SPAdmin must have the security administrator and database creator roles on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer (Windows SharePoint Services setup does this).  
+- SPAdmin must have the security administrator and database creator roles on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer (Windows SharePoint Services setup does this).  
   
- **Sharepoint Accounts:**  
+  **Sharepoint Accounts:**  
   
 |**User name**|**First Name**|**Last Name**|**Full Name**|  
 |-------------------|--------------------|-------------------|-------------------|  
@@ -114,7 +114,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
 > [!NOTE]
 >  This Username field is a sample; you may need to change this name to protect other AD accounts.  
-  
+> 
 > [!IMPORTANT]
 >  After installing Windows SharePoint Services on the computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], confirm that the startup parameters for the SharePoint Timer Service is using the SPAdmin account and credentials.  
   
@@ -126,17 +126,17 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
  Recommendations and notes on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] service and user accounts:  
   
--   Create an Organizational Unit (OU) for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. All accounts and groups will belong to this OU.  
+- Create an Organizational Unit (OU) for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. All accounts and groups will belong to this OU.  
   
--   Be descriptive with full names; the names in the following lists should enable the installer to select the proper groups/accounts/users during configuration.  
+- Be descriptive with full names; the names in the following lists should enable the installer to select the proper groups/accounts/users during configuration.  
   
--   First name and last name are optional; included for consistency only.  
+- First name and last name are optional; included for consistency only.  
   
--   The differentiator **BTService** and **BTUser** refers to service accounts (automatons) and generic/shared human users.  
+- The differentiator **BTService** and **BTUser** refers to service accounts (automatons) and generic/shared human users.  
   
--   Create domain accounts and populate them via an ADSI script for user and group account creation for up line environments.  
+- Create domain accounts and populate them via an ADSI script for user and group account creation for up line environments.  
   
- **BizTalk Service Accounts**  
+  **BizTalk Service Accounts**  
   
 |**User name**|**First Name**|**Last Name**|**Full Name**|  
 |-------------------|--------------------|-------------------|-------------------|  
@@ -154,25 +154,25 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
 #### To set the appropriate account options  
   
-1.  In the **Active Directory Users and Computers** console, click to expand the domain, and then click to expand the **Users** container.  
+1. In the **Active Directory Users and Computers** console, click to expand the domain, and then click to expand the **Users** container.  
   
-2.  Right-click the account and then select **Properties** to display the **Properties** dialog box for the account.  
+2. Right-click the account and then select **Properties** to display the **Properties** dialog box for the account.  
   
-3.  Click the **Account** tab of the **Properties** dialog box.  
+3. Click the **Account** tab of the **Properties** dialog box.  
   
-4.  Click to check the following options:  
+4. Click to check the following options:  
   
-    -   **User cannot change password** (enterprise security will batch change the passwords).  
+   -   **User cannot change password** (enterprise security will batch change the passwords).  
   
-    -   **Password never expires**  
+   -   **Password never expires**  
   
-5.  Click the **Log On To** button to display the **Logon Workstations** dialog box.  
+5. Click the **Log On To** button to display the **Logon Workstations** dialog box.  
   
-6.  Click the option for **The following computers**, add each computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], and then click **OK**.  
+6. Click the option for **The following computers**, add each computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], and then click **OK**.  
   
-7.  Click the **Remote Control** tab of the **Properties** dialog box, and then click to clear the option to **Enable remote control**.  
+7. Click the **Remote Control** tab of the **Properties** dialog box, and then click to clear the option to **Enable remote control**.  
   
-8.  Click the **Terminal Services Profile** tab of the **Properties** dialog box.  
+8. Click the **Terminal Services Profile** tab of the **Properties** dialog box.  
   
 9. Click to check the option to **Deny this user permissions to log on to any Terminal Server**.  
   
@@ -180,7 +180,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
 11. Repeat steps 3 through 10 for each service account.  
   
- **BizTalk User Accounts**  
+    **BizTalk User Accounts**  
   
 |**User name**|**First Name**|**Last Name**|**Full Name**|  
 |-------------------|--------------------|-------------------|-------------------|  
@@ -193,25 +193,25 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
 #### To set the appropriate account options follow these steps  
   
-1.  In the **Active Directory Users and Computers** console click to expand the domain, and then click to expand the **Users** container.  
+1. In the **Active Directory Users and Computers** console click to expand the domain, and then click to expand the **Users** container.  
   
-2.  Right-click the account and then select **Properties** to display the **Properties** dialog box for the account.  
+2. Right-click the account and then select **Properties** to display the **Properties** dialog box for the account.  
   
-3.  Click the **Account** tab of the **Properties** dialog box.  
+3. Click the **Account** tab of the **Properties** dialog box.  
   
-4.  Click to check the following options:  
+4. Click to check the following options:  
   
-    -   **User cannot change password** (enterprise security will batch change the passwords).  
+   -   **User cannot change password** (enterprise security will batch change the passwords).  
   
-    -   **Password never expires**  
+   -   **Password never expires**  
   
-5.  Click the **Log On To** button to display the **Logon Workstations** dialog box.  
+5. Click the **Log On To** button to display the **Logon Workstations** dialog box.  
   
-6.  Click the option for **The following computers**, add each computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], and then click **OK**.  
+6. Click the option for **The following computers**, add each computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], and then click **OK**.  
   
-7.  Click the **Remote Control** tab of the **Properties** dialog box, and then click to check the option to **Enable remote control**.  
+7. Click the **Remote Control** tab of the **Properties** dialog box, and then click to check the option to **Enable remote control**.  
   
-8.  Click the **Terminal Services Profile** tab of the **Properties** dialog box.  
+8. Click the **Terminal Services Profile** tab of the **Properties** dialog box.  
   
 9. Click to clear the option to **Deny this user permissions to log on to any Terminal Server**.  
   
@@ -222,7 +222,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
     > [!NOTE]
     >  Any of these accounts can be disabled if the roles they are to provide are assigned to actual users. In the early stages of release one and release two, it is assumed that these accounts are used in the development, alpha test, and beta test environments.  
   
- **BizTalk Group Accounts**  
+    **BizTalk Group Accounts**  
   
 |**Group Name**|**Group Type**|**Members**|  
 |--------------------|--------------------|-----------------|  
@@ -239,67 +239,67 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
  Recommendations and notes on domain groups:  
   
--   Create the groups and add members prior to installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Create the groups and add members prior to installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   Domain groups can be Global or Universal groups.  
+- Domain groups can be Global or Universal groups.  
   
--   Use *\<DomainName\>\\<UserName\>* when specifying domain account information in the Configuration Wizard.  
+- Use *\<DomainName\>\\<UserName\>* when specifying domain account information in the Configuration Wizard.  
   
--   Groups and user/service accounts must belong to the domain in which the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer belongs (the Configuration Wizard checks this and will not display accounts or groups containing accounts from other domains).  
+- Groups and user/service accounts must belong to the domain in which the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer belongs (the Configuration Wizard checks this and will not display accounts or groups containing accounts from other domains).  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] requires domain accounts for all clustering scenarios.  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] requires domain accounts for all clustering scenarios.  
   
--   When installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the console user needs to be a member of the following groups:  
+- When installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the console user needs to be a member of the following groups:  
   
-    -   BizTalk Server Administrators  
+  - BizTalk Server Administrators  
   
-    -   SSO Administrators (only when configuring the master secret server)  
+  - SSO Administrators (only when configuring the master secret server)  
   
-    -   Windows administrator  
+  - Windows administrator  
   
-    -   [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] administrator  
+  - [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] administrator  
   
-    -   OLAP administrator  
+  - OLAP administrator  
   
-     The BTUserInstall account should be used for installation and configuration and should be disabled after configuration is complete.  
+    The BTUserInstall account should be used for installation and configuration and should be disabled after configuration is complete.  
   
--   To allow message event and service instance tracking to attach orchestrations to the debugger, the developer needs to belong to the BizTalk Server Administrators group, as outlined above in the section **BizTalk Development Accounts**.  
+- To allow message event and service instance tracking to attach orchestrations to the debugger, the developer needs to belong to the BizTalk Server Administrators group, as outlined above in the section **BizTalk Development Accounts**.  
   
 ## Local Administrator Accounts  
  Confirm or add the following accounts and groups to the Local Administrators group on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer:  
   
--   Domain\BTUserInstall (disable when configuration is complete)  
+- Domain\BTUserInstall (disable when configuration is complete)  
   
--   Domain\BTUserDeploy (disable in production when deployment is complete)  
+- Domain\BTUserDeploy (disable in production when deployment is complete)  
   
--   Domain\SPAdmin  
+- Domain\SPAdmin  
   
--   Domain\SQLAdmin  
+- Domain\SQLAdmin  
   
--   Domain\SQLService  
+- Domain\SQLService  
   
--   Domain\BizTalk Development Users (omit in up line environments)  
+- Domain\BizTalk Development Users (omit in up line environments)  
   
--   Domain\BizTalk Deployment Users (omit in development environments)  
+- Domain\BizTalk Deployment Users (omit in development environments)  
   
- Confirm or add the following accounts and groups to the Local Administrators group on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer:  
+  Confirm or add the following accounts and groups to the Local Administrators group on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer:  
   
--   Domain\BTUserInstall (disable when configuration is complete)  
+- Domain\BTUserInstall (disable when configuration is complete)  
   
--   Domain\BTUserDeploy (disable in production when deployment is complete)  
+- Domain\BTUserDeploy (disable in production when deployment is complete)  
   
--   Domain\BTUserSupport  
+- Domain\BTUserSupport  
   
--   Domain\SPAdmin  
+- Domain\SPAdmin  
   
--   Domain\BizTalk Development Users (omit in upline environments)  
+- Domain\BizTalk Development Users (omit in upline environments)  
   
--   Domain\BizTalk Deployment Users (omit in development environments)  
+- Domain\BizTalk Deployment Users (omit in development environments)  
   
 ## SQL Server Administrator Accounts  
  Setup programs accept input from the installer and assigns SQL roles to users and groups:  
   
--   During [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] setup, the SPAdmin account is granted Security Administrator and Database Creator rights on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer. These rights can be removed if the SPAdmin account is a member of the Local Administrators group.  
+- During [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] setup, the SPAdmin account is granted Security Administrator and Database Creator rights on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer. These rights can be removed if the SPAdmin account is a member of the Local Administrators group.  
   
 ## E-Mail Account  
  [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] will send mail based on certain system events. Setup prompts for an e-mail address during the configuration process. Create e-mail aliases for this purpose and monitor the alias during setup and unit testing. In the production environment, this account should be accessible by a system administrator who is monitoring the system.  
@@ -311,23 +311,23 @@ This topic describes guidelines for creating Active Directory Organizational Uni
   
  For example:  
   
--   Windows SharePoint Services (SharePoint) Service and admin account (SPAdmin) passwords: 'SPServ'.  
+- Windows SharePoint Services (SharePoint) Service and admin account (SPAdmin) passwords: 'SPServ'.  
   
--   BizTalk Service account passwords: 'BTServ'.  
+- BizTalk Service account passwords: 'BTServ'.  
   
--   BizTalk User account passwords: 'BTUser'.  
+- BizTalk User account passwords: 'BTUser'.  
   
- Some IT environments require passwords to contain non-alpha and/or numeric characters. In this scenario you could substitute a dollar sign ($) for "s", and an 'at' sign (@) for "a". The symbols are samples; develop a pattern that works best for you for shared accounts with semi-public passwords.  
+  Some IT environments require passwords to contain non-alpha and/or numeric characters. In this scenario you could substitute a dollar sign ($) for "s", and an 'at' sign (@) for "a". The symbols are samples; develop a pattern that works best for you for shared accounts with semi-public passwords.  
   
- Sample redistributable passwords in use in the development environment are:  
+  Sample redistributable passwords in use in the development environment are:  
   
--   BT$erv99           BizTalk Service Accounts  
+- BT$erv99           BizTalk Service Accounts  
   
--   BTU$er99          BizTalk User Accounts  
+- BTU$er99          BizTalk User Accounts  
   
--   SP$erv99           WSS Service Account (SPAdmin)  
+- SP$erv99           WSS Service Account (SPAdmin)  
   
--   SQL$erv99         SQL Service/Access/Admin Account  
+- SQL$erv99         SQL Service/Access/Admin Account  
   
 > [!NOTE]
 >  These recommendations are for development and shared environments only and do not recommend or discourage the use of corporate password policies. See your network administrator for password requirements.  

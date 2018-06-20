@@ -26,24 +26,24 @@ Delay shape
   
  There are two ways to specify the timeout for a **Delay**:  
   
--   You can use **System.DateTime**, which causes your orchestration to pause until the specified date and time is reached.  
+- You can use **System.DateTime**, which causes your orchestration to pause until the specified date and time is reached.  
   
-     System.DateTime.UtcNow.AddSeconds(60)  
+   System.DateTime.UtcNow.AddSeconds(60)  
   
-    > [!NOTE]
-    >  Delays must be expressed in Coordinated Universal Time (UTC) when using **DateTime**.  
+  > [!NOTE]
+  >  Delays must be expressed in Coordinated Universal Time (UTC) when using **DateTime**.  
   
--   You can use **System.TimeSpan**, which causes your orchestration to pause for the specified length of time.  
+- You can use **System.TimeSpan**, which causes your orchestration to pause for the specified length of time.  
   
-     System.TimeSpan(0, 1, 0)  
+   System.TimeSpan(0, 1, 0)  
   
- If your **Delay** shape is inside a **Listen** shape, you do not need to add a semicolon at the end of the expression.  
+  If your **Delay** shape is inside a **Listen** shape, you do not need to add a semicolon at the end of the expression.  
   
- For more information about **System.DateTime** and **System.TimeSpan**, see "DateTime Structure" and "TimeSpan Structure" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.  
+  For more information about **System.DateTime** and **System.TimeSpan**, see "DateTime Structure" and "TimeSpan Structure" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.  
   
 > [!NOTE]
 >  In a multiple machines installation environment where [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and SQL Server are installed on separated machines, the **Delay** shape may end earlier than expected because of the times on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] machines are unsynchronized.  
-  
+> 
 > [!NOTE]
 >  Under the stress condition, the timeout specified in the **Delay** shape may occur later than what you have specified. This is because of the thread starvation under the stress condition.  
   

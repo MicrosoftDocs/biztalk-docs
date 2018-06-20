@@ -33,11 +33,11 @@ manager: "anneta"
 ## Before You Begin  
  Complete the following tasks before you perform the steps later in this How-to topic:  
   
--   Deploy the **DataFormatTransformation** itinerary.  
+- Deploy the **DataFormatTransformation** itinerary.  
   
--   Create the test message.  
+- Create the test message.  
   
- The following procedures describe how to do each of these.  
+  The following procedures describe how to do each of these.  
   
 #### To deploy the DataFormatTransformation itinerary  
   

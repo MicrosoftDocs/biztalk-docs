@@ -18,11 +18,11 @@ You can use any text editor (such as Notepad) to create the source text file. Th
   
  The PDF file consists of two sections:  
   
--   The [Macro Definition Section](../core/macro-definition-section1.md)  
+- The [Macro Definition Section](../core/macro-definition-section1.md)  
   
--   The [Parameter Definition Section](../core/parameter-definition-section2.md)  
+- The [Parameter Definition Section](../core/parameter-definition-section2.md)  
   
- All text bounded by the C-language comment markers (**/\*** and **\*/**) is treated as comments and ignored by the compiler.  
+  All text bounded by the C-language comment markers (**/\\*** and **\*/**) is treated as comments and ignored by the compiler.  
   
 ## See Also  
  [Sample Source Text File](../core/sample-source-text-file2.md)   

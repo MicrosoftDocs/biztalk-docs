@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10586
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10586|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_CRED_CACHE_OFF|  
-|Message Text|The credential cache has been disabled for this SSO server.|  
+|                 |                                                             |
+|-----------------|-------------------------------------------------------------|
+|  Product Name   |                  Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]  |
+|    Event ID     |                            10586                            |
+|  Event Source   |                           ENTSSO                            |
+|    Component    |                             N/A                             |
+|  Symbolic Name  |                   SSO_WARN_CRED_CACHE_OFF                   |
+|  Message Text   | The credential cache has been disabled for this SSO server. |
   
 ## Explanation  
  The credential cache, which is generally enabled, has been disabled. Only a system administrator can enable or disable the credential cache. Disabling the credential cache will sometimes result in more current credentials from the ENTSSO system, although it could slow down peformance.  

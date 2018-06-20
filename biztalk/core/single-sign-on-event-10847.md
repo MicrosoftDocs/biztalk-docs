@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10847
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10847|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPINGS_ONLY_FOR_DOMAIN_USER_ACCOUNTS|  
-|Message Text|For Individual applications, mappings can be created for Windows domain users only (not local accounts or group accounts).|  
+|                 |                                                                                                                            |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                 Enterprise Single Sign-On                                                  |
+| Product Version |                                 [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                 |
+|    Event ID     |                                                           10847                                                            |
+|  Event Source   |                                                           ENTSSO                                                           |
+|    Component    |                                                            N/A                                                             |
+|  Symbolic Name  |                                      ENTSSO_E_MAPPINGS_ONLY_FOR_DOMAIN_USER_ACCOUNTS                                       |
+|  Message Text   | For Individual applications, mappings can be created for Windows domain users only (not local accounts or group accounts). |
   
 ## Explanation  
  For Individual applications, mappings can be created for Windows domain users only (not local accounts or group accounts).  

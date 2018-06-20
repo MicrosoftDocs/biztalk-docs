@@ -22,19 +22,19 @@ For a peer connection, there is an activation sequence that involves the two sta
   
  [Fixed Link Roles](../core/fixed-link-roles2.md) and [Negotiable Link Roles](../core/negotiable-link-roles1.md) show examples of XID exchange for the two cases:  
   
--   The link roles are explicitly configured for the two stations.  
+- The link roles are explicitly configured for the two stations.  
   
--   The link roles of both stations are negotiable.  
+- The link roles of both stations are negotiable.  
   
- Points to note are:  
+  Points to note are:  
   
--   The [Open(LINK) Request](open-link-request1.md) is supplied with a NULL XID that is sent when the end-to-end connection is established.  
+- The [Open(LINK) Request](open-link-request1.md) is supplied with a NULL XID that is sent when the end-to-end connection is established.  
   
--   After the first NULL XID, all XIDs are format 3.  
+- After the first NULL XID, all XIDs are format 3.  
   
--   If both stations are set up to be negotiable, the station with the higher node identifier becomes the primary.  
+- If both stations are set up to be negotiable, the station with the higher node identifier becomes the primary.  
   
--   If both stations are negotiable and have the same node identifier, both stations produce randomized node identifiers that are compared as before.  
+- If both stations are negotiable and have the same node identifier, both stations produce randomized node identifiers that are compared as before.  
   
 ## Next steps
   

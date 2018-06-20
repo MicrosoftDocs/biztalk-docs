@@ -42,33 +42,33 @@ manager: "anneta"
 ## RNMimeDecoder  
  This component is based on the native BizTalk Server MIME Preprocessor/Decoder. RNMimeDecoder adds the following functionality for RNIF processing:  
   
--   For RNIF 2.01, decrypts the service content and attachments, if they are present.  
+- For RNIF 2.01, decrypts the service content and attachments, if they are present.  
   
--   For RNIF 1.1, handles the 8-byte header and the detached signature header at the end of the payload.  
+- For RNIF 1.1, handles the 8-byte header and the detached signature header at the end of the payload.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] preprocessor/decoder, see "MIME/SMIME Decoder Pipeline Component" in BizTalk Server Help.  
+  For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] preprocessor/decoder, see "MIME/SMIME Decoder Pipeline Component" in BizTalk Server Help.  
   
 ## RNDAsm  
  This component is based on the native BizTalk Server XML Disassembler. RNDAsm adds the following functionality for RNIF processing:  
   
--   If an incoming document has a DOCTYPE header, this component generates a namespace from it and moves all nodes in the incoming document to that namespace.  
+- If an incoming document has a DOCTYPE header, this component generates a namespace from it and moves all nodes in the incoming document to that namespace.  
   
--   Performs message correlation to determine whether an incoming message is a duplicate, and generates an error message if the message is a duplicate.  
+- Performs message correlation to determine whether an incoming message is a duplicate, and generates an error message if the message is a duplicate.  
   
--   Stores attachments as additional parts of the message.  
+- Stores attachments as additional parts of the message.  
   
--   Promotes message properties.  
+- Promotes message properties.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Disassembler, see "XML Disassembler Pipeline Component" in BizTalk Server Help.  
+  For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Disassembler, see "XML Disassembler Pipeline Component" in BizTalk Server Help.  
   
 ## RNPartyRes  
  This component is based on the native BizTalk Server Party Resolution component. RNPartyRes adds the following functionality for RNIF processing:  
   
--   Maps the sender certificate if the incoming message is signed to a BizTalk party. If the incoming message is not signed, and the trading partner agreement allows for it, this component retrieves the sender party from the Delivery header for RNIF 2.01 or the Service header for RNIF 1.1.  
+- Maps the sender certificate if the incoming message is signed to a BizTalk party. If the incoming message is not signed, and the trading partner agreement allows for it, this component retrieves the sender party from the Delivery header for RNIF 2.01 or the Service header for RNIF 1.1.  
   
--   Validates that the sender exists and that the sender has a trading partner agreement with the home organization.  
+- Validates that the sender exists and that the sender has a trading partner agreement with the home organization.  
   
- For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] party resolution component, see "Party Resolution Pipeline Component" in BizTalk Server Help.  
+  For more information about the native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] party resolution component, see "Party Resolution Pipeline Component" in BizTalk Server Help.  
   
 ## MessageUpdater  
  This component adds the following functionality for RNIF processing:  
@@ -80,21 +80,21 @@ manager: "anneta"
 ## Message Flow  
  The message flow through the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] receive pipeline is as follows:  
   
-1.  The HTTP adapter receives an RNIF 1.1 object or an RNIF 2.01 business message through HTTP POST.  
+1. The HTTP adapter receives an RNIF 1.1 object or an RNIF 2.01 business message through HTTP POST.  
   
-2.  If the adapter successfully receives the message, the adapter extracts the RosettaNet object or business message, and routes it to the receive pipeline.  
+2. If the adapter successfully receives the message, the adapter extracts the RosettaNet object or business message, and routes it to the receive pipeline.  
   
-3.  If the object or business message is signed, the MIME Preprocessor/Decoder removes the signature.  
+3. If the object or business message is signed, the MIME Preprocessor/Decoder removes the signature.  
   
-4.  If the signature is valid, the disassembler reads the preamble.  
+4. If the signature is valid, the disassembler reads the preamble.  
   
-5.  If the message is an action message, and non-repudiation is required (the **Non-Repudiation of Origin and Content** setting in the process configuration settings is `True`), the Decoder calculates and persists the digest.  
+5. If the message is an action message, and non-repudiation is required (the **Non-Repudiation of Origin and Content** setting in the process configuration settings is `True`), the Decoder calculates and persists the digest.  
   
-6.  The disassembler validates the preamble (with message (MSG) guidelines and the preamble schema in the global variables).  
+6. The disassembler validates the preamble (with message (MSG) guidelines and the preamble schema in the global variables).  
   
-7.  For RNIF 2.01, the disassembler reads the delivery header, and validates the header using the MSG guidelines and the delivery header schema in the global variables.  
+7. For RNIF 2.01, the disassembler reads the delivery header, and validates the header using the MSG guidelines and the delivery header schema in the global variables.  
   
-8.  For RNIF 2.01, the disassembler extracts the partner information from the delivery header, and examines the signature to verify that it belongs to the partner.  
+8. For RNIF 2.01, the disassembler extracts the partner information from the delivery header, and examines the signature to verify that it belongs to the partner.  
   
 9. For RNIF 2.01, if the payload is encrypted, the decoder decrypts the payload container.  
   

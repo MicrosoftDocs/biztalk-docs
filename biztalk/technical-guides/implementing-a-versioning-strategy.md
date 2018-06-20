@@ -24,11 +24,11 @@ Versioning is the act of updating the implementation of an artifact and incremen
 ## Versioning an Assembly  
  When you update an assembly, you have a choice between the following:  
   
--   Choosing a fixed assembly version for a given deliverable and incrementing only the file version number.  
+- Choosing a fixed assembly version for a given deliverable and incrementing only the file version number.  
   
--   Incrementing both the assembly version and the file version during the course of development.  
+- Incrementing both the assembly version and the file version during the course of development.  
   
- These approaches are compared in the following table:  
+  These approaches are compared in the following table:  
   
 |**Fixed assembly version, dynamic file version**|**Dynamic assembly version, fixed or dynamic file version**|  
 |------------------------------------------------------|-----------------------------------------------------------------|  
@@ -40,9 +40,9 @@ Versioning is the act of updating the implementation of an artifact and incremen
   
  You may choose to use the fixed assembly version and dynamic file version approach if you are prototyping a system or developing any other type of project that will not be released. If you do not intend to deliver the application to an end user, you can streamline deployment tasks and reduce broken dependencies by fixing the assembly version and incrementing the file version number. For version tracking, you must remember to increment the file version number for each build.  
   
- If you are building a project that will be delivered to an end user, you should consider incrementing the assembly version number and, optionally, storing a meaningful file version number. While this approach incurs the added effort of modifying build numbers and associated dependencies, it ensures that the latest versions of your assemblies are used. By using automated deployment scripts, you can lessen the impact of versioning. To view deployment samples, see [Application Deployment (BizTalk Server Samples Folder)](http://go.microsoft.com/fwlink/?LinkId=155134) (http://go.microsoft.com/fwlink/?LinkId=155134) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+ If you are building a project that will be delivered to an end user, you should consider incrementing the assembly version number and, optionally, storing a meaningful file version number. While this approach incurs the added effort of modifying build numbers and associated dependencies, it ensures that the latest versions of your assemblies are used. By using automated deployment scripts, you can lessen the impact of versioning. To view deployment samples, see [Application Deployment (BizTalk Server Samples Folder)](http://go.microsoft.com/fwlink/?LinkId=155134) (<http://go.microsoft.com/fwlink/?LinkId=155134>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
 > [!NOTE]  
 >  You should choose the versioning mechanism that ensures that the proper files are delivered and that simplifies maintenance and enhancement.  
   
- For more information about versioning issues, see [BizTalk Server Project Versioning](http://go.microsoft.com/fwlink/?LinkID=154209) (http://go.microsoft.com/fwlink/?LinkID=154209) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+ For more information about versioning issues, see [BizTalk Server Project Versioning](http://go.microsoft.com/fwlink/?LinkID=154209) (<http://go.microsoft.com/fwlink/?LinkID=154209>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.

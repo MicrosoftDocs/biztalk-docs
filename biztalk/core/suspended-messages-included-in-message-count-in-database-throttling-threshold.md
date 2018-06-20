@@ -17,11 +17,11 @@ manager: "anneta"
 # Suspended Messages are Included in the Message Count in Database Throttling Threshold
 By default the host **Message count in DB** throttling threshold is set to a value of 50,000, which will trigger a throttling condition under the following circumstances:  
   
--   The total number of messages published by the host instance to the work, state, and suspended queues of the subscribing hosts exceeds 50,000.  
+- The total number of messages published by the host instance to the work, state, and suspended queues of the subscribing hosts exceeds 50,000.  
   
--   The number of messages in the spool table or the tracking tables exceeds 500,000 messages.  
+- The number of messages in the spool table or the tracking tables exceeds 500,000 messages.  
   
- Since suspended messages are included in the **Message count in DB** calculation, throttling of message publishing can occur even if the BizTalk server is experiencing low or no load.  
+  Since suspended messages are included in the **Message count in DB** calculation, throttling of message publishing can occur even if the BizTalk server is experiencing low or no load.  
   
 ## Recommendations  
   

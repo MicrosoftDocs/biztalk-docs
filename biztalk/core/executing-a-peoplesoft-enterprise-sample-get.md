@@ -21,13 +21,13 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 ## Prerequisites  
   
--   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]
+- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]
   
--   Microsoft BizTalk Adapters for Enterprise Applications  
+- Microsoft BizTalk Adapters for Enterprise Applications  
   
--   Microsoft Visual Studio  
+- Microsoft Visual Studio  
   
--   Sun Systems Java Development Kit (JDK) version 1.4 or higher  
+- Sun Systems Java Development Kit (JDK) version 1.4 or higher  
   
 > [!NOTE]
 >  See [Install and configure the adapters for enterprise applications](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md) for key configuration information for the JD Edwards, PeopleSoft, and TIBCO adapters.  
@@ -35,15 +35,15 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
 ## Lab 2 - Executing a PeopleSoft Sample Get  
  In this lab, you will execute a **Get** operation against the PeopleSoft system. Specifically you will perform the following tasks:  
   
--   Verify the PeopleSoft prerequisites  
+- Verify the PeopleSoft prerequisites  
   
--   Set up a PeopleSoft send port in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- Set up a PeopleSoft send port in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Create a BizTalk orchestration project  
+- Create a BizTalk orchestration project  
   
--   Build and deploy the project  
+- Build and deploy the project  
   
--   Test the application and view the XML output  
+- Test the application and view the XML output  
   
 ## Procedures for Lab 2- Executing a PeopleSoft Sample Get  
  Two files are necessary for proper interface access to a PeopleSoft system: PSJOA.JAR and GET_CI_INFO.PC. On the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, the PeopleSoft adapter communicates with the PeopleSoft system by using the PeopleSoft Java interface. This interface is supplied by the PSJOA.JAR file. A copy of this file placed onto the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] typically comes from the administrator of the PeopleSoft server system that is being accessed. In this lab, a copy of PSJOA.JAR exists in the C:\PSJars\Ver841\ folder on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The location of this file is specified in the PeopleSoft adapter configuration properties.  
@@ -59,166 +59,166 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
 ## Step 1: Confirm the PeopleSoft rerequisites  
  Before you start creating a BizTalk project for use with the PeopleSoft adapter, you need to be sure that everything is set up correctly to access PeopleSoft.  
   
-1.  Confirm that the PSJOA.JAR file exists on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer in the C:\psjars\ver841 folder. (This file can exist at a different location on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In the configuration given below, it is assumed the file is at this location.)  
+1. Confirm that the PSJOA.JAR file exists on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer in the C:\psjars\ver841 folder. (This file can exist at a different location on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In the configuration given below, it is assumed the file is at this location.)  
   
-2.  Confirm that the get_ci_info.pc file exists in the C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config folder.  
+2. Confirm that the get_ci_info.pc file exists in the C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config folder.  
   
-3.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**. Ensure that the PeopleSoft adapter is installed and on the list.  
+3. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**. Ensure that the PeopleSoft adapter is installed and on the list.  
   
-     If the PeopleSoft adapter is not installed, install the BizTalk Adapters for Enterprise Applications (see the earlier "Prerequisites" section). After the adapters are installed, right-click **Adapters** and then click **New - Adapter** to install the PeopleSoft adapter. Restart the host instance for this to take effect.  
+    If the PeopleSoft adapter is not installed, install the BizTalk Adapters for Enterprise Applications (see the earlier "Prerequisites" section). After the adapters are installed, right-click **Adapters** and then click **New - Adapter** to install the PeopleSoft adapter. Restart the host instance for this to take effect.  
   
 ## Step 2: Create a Send Port for PeopleSoft  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] needs to have a send port to use for communicating with the PeopleSoft system. This send port will eventually be bound to the orchestration's logical ports.  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand **BizTalk.EnterpriseApplication.**  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand **BizTalk.EnterpriseApplication.**  
   
-2.  Right-click **Send Ports**, click **New**, and then select **Static Solicit-Response Send Port**. In the **Send Port Properties** dialog box, enter the following values for the properties:  
+2. Right-click **Send Ports**, click **New**, and then select **Static Solicit-Response Send Port**. In the **Send Port Properties** dialog box, enter the following values for the properties:  
   
-    1.  **Name:**  `PeopleSoftSamplePort`  
+   1.  **Name:**  `PeopleSoftSamplePort`  
   
-    2.  **Type:**  `PeopleSoft`  
+   2.  **Type:**  `PeopleSoft`  
   
-    3.  **Send handler:**  `BizTalkServerApplication`  
+   3.  **Send handler:**  `BizTalkServerApplication`  
   
-    4.  **Send pipeline:**  `XMLTransmit`  
+   4.  **Send pipeline:**  `XMLTransmit`  
   
-    5.  **Receive pipeline:**  `XMLReceive`  
+   5.  **Receive pipeline:**  `XMLReceive`  
   
-3.  Click **Configure**, and then enter the following property values:  
+3. Click **Configure**, and then enter the following property values:  
   
-    1.  **Application server path**: **//Servername:9000**  
+   1. **Application server path**: **//Servername:9000**  
   
-         Servername is your application server. This is the specific server name or IP address and port number for this PeopleSoft system.  
+       Servername is your application server. This is the specific server name or IP address and port number for this PeopleSoft system.  
   
-    2.  **JAVA_HOME**: **C:\J2SDK1.4.2_08**  
+   2. **JAVA_HOME**: **C:\J2SDK1.4.2_08**  
   
-         This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+       This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    3.  **Password**: \<enter your PeopleSoft password\>  
+   3. **Password**: \<enter your PeopleSoft password\>  
   
-    4.  **PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**  
+   4. **PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**  
   
-    5.  **User name:** \<enter your PeopleSoft UserID\>  
+   5. **User name:** \<enter your PeopleSoft UserID\>  
   
-     ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
+      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
-4.  Click **OK** twice to close the dialog boxes.  
+4. Click **OK** twice to close the dialog boxes.  
   
 ## Step 3: Create a BizTalk Orchestration Project  
  Now you will create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and configure an orchestration in the project to handle communication between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the PeopleSoft system. You will add send and receive ports, build the project, and then deploy the project.  
   
-1.  Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and create a new BizTalk project in the C:\LABS folder. On the **File** menu, click **New**. The **New Project** dialog box appears. In the **Templates** section, select **Empty BizTalk Server project.** Enter `PS_Test` as the unique project name, and then click **OK**.  
+1. Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and create a new BizTalk project in the C:\LABS folder. On the **File** menu, click **New**. The **New Project** dialog box appears. In the **Templates** section, select **Empty BizTalk Server project.** Enter `PS_Test` as the unique project name, and then click **OK**.  
   
-2.  In Solution Explorer, right-click the project, click **Add**, and then click **Add Generated Items**. Select **Add Adapter Metadata** in the **Categories** pane, select **Add Adapter Metadata** on the **Templates** side, and then click **Add**.  
+2. In Solution Explorer, right-click the project, click **Add**, and then click **Add Generated Items**. Select **Add Adapter Metadata** in the **Categories** pane, select **Add Adapter Metadata** on the **Templates** side, and then click **Add**.  
   
-3.  In the Add Adapter Wizard, select the **PeopleSoft Enterprise** adapter, select the **PeopleSoftSamplePort** send port that you created in the preceding procedure, and then click **Next**.  
+3. In the Add Adapter Wizard, select the **PeopleSoft Enterprise** adapter, select the **PeopleSoftSamplePort** send port that you created in the preceding procedure, and then click **Next**.  
   
-     ![](../core/media/ed0dedc5-a8fb-444c-b884-e310cf56462c.gif "ed0dedc5-a8fb-444c-b884-e310cf56462c")  
+    ![](../core/media/ed0dedc5-a8fb-444c-b884-e310cf56462c.gif "ed0dedc5-a8fb-444c-b884-e310cf56462c")  
   
-4.  On the **Select Services to Import** page, expand **PeopleSoft**, and then expand **CI**.  
+4. On the **Select Services to Import** page, expand **PeopleSoft**, and then expand **CI**.  
   
-     The PeopleSoft system is interrogated by the adapter using the Browsing Agent. When you expand **CI**, the BrowsingAgent.exe process starts (you can view it as running in Task Manager) and returns the services shown in the following figure.  
+    The PeopleSoft system is interrogated by the adapter using the Browsing Agent. When you expand **CI**, the BrowsingAgent.exe process starts (you can view it as running in Task Manager) and returns the services shown in the following figure.  
   
-     ![](../core/media/6988104c-6483-4df2-a637-3301628ea665.gif "6988104c-6483-4df2-a637-3301628ea665")  
+    ![](../core/media/6988104c-6483-4df2-a637-3301628ea665.gif "6988104c-6483-4df2-a637-3301628ea665")  
   
-    > [!NOTE]
-    >  The PeopleSoft services obtained and displayed from your PeopleSoft system may be slightly different than the services displayed here.  
+   > [!NOTE]
+   >  The PeopleSoft services obtained and displayed from your PeopleSoft system may be slightly different than the services displayed here.  
   
-5.  Scroll down, select **LOCATION**, and then click **Finish**.  
+5. Scroll down, select **LOCATION**, and then click **Finish**.  
   
-     ![](../core/media/0506affd-3caa-47cb-9c25-f49c8a0ad614.gif "0506affd-3caa-47cb-9c25-f49c8a0ad614")  
+    ![](../core/media/0506affd-3caa-47cb-9c25-f49c8a0ad614.gif "0506affd-3caa-47cb-9c25-f49c8a0ad614")  
   
-6.  In Solution Explorer, there is a new BizTalk orchestration and two new associated schema files. These files are created by the Add Adapter Wizard. Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
+6. In Solution Explorer, there is a new BizTalk orchestration and two new associated schema files. These files are created by the Add Adapter Wizard. Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
   
-     ![](../core/media/825c5690-78eb-4048-9a47-cd3fc7310b7b.gif "825c5690-78eb-4048-9a47-cd3fc7310b7b")  
+    ![](../core/media/825c5690-78eb-4048-9a47-cd3fc7310b7b.gif "825c5690-78eb-4048-9a47-cd3fc7310b7b")  
   
- This orchestration accepts as input an XML file formatted for the PeopleSoft **Get** method and sends the XML file to the PeopleSoft system. The **Get** method retrieves location information from the PeopleSoft system and returns it to the BizTalk orchestration. The orchestration uses ports to facilitate this communication with the adapter and the PeopleSoft system. The ports you will configure here are for receiving and sending XML files. The outgoing XML file tells the PeopleSoft system that this is a **Get** operation. The incoming XML file returns the location information to the orchestration.  
+   This orchestration accepts as input an XML file formatted for the PeopleSoft **Get** method and sends the XML file to the PeopleSoft system. The **Get** method retrieves location information from the PeopleSoft system and returns it to the BizTalk orchestration. The orchestration uses ports to facilitate this communication with the adapter and the PeopleSoft system. The ports you will configure here are for receiving and sending XML files. The outgoing XML file tells the PeopleSoft system that this is a **Get** operation. The incoming XML file returns the location information to the orchestration.  
   
- To complete the orchestration, you need to create and configure ports to receive and send the XML files. First, set up a new receive port to accept the initial XML input file that contains the **Get** method to start the orchestration.  
+   To complete the orchestration, you need to create and configure ports to receive and send the XML files. First, set up a new receive port to accept the initial XML input file that contains the **Get** method to start the orchestration.  
   
 #### Configure a receive port  
   
-1.  Within the BizTalk Orchestration.odx file that you opened in the previous step, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
+1. Within the BizTalk Orchestration.odx file that you opened in the previous step, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
   
-2.  On the **Port Properties** page, enter `FileIn` for **Name**, and then click **Next**.  
+2. On the **Port Properties** page, enter `FileIn` for **Name**, and then click **Next**.  
   
-3.  In the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
+3. In the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
   
-     **Port Type Name**: `FileInPort`  
+    **Port Type Name**: `FileInPort`  
   
-     **Communication Pattern**: **One Way**  
+    **Communication Pattern**: **One Way**  
   
-     **Access Restrictions**: **Internal - limited to this project**  
+    **Access Restrictions**: **Internal - limited to this project**  
   
-4.  Click **Next** to go to the **Port Binding** page, and then select the following property values:  
+4. Click **Next** to go to the **Port Binding** page, and then select the following property values:  
   
-     **Port direction of communication**: **I'll always be receiving messages on this port**  
+    **Port direction of communication**: **I'll always be receiving messages on this port**  
   
-     **Port binding**: **Specify later**  
+    **Port binding**: **Specify later**  
   
-5.  Click **Next**, and then click **Finish**. You will use the File adapter to accept this file as input from disk.  
+5. Click **Next**, and then click **Finish**. You will use the File adapter to accept this file as input from disk.  
   
- Next, create a send port to accept the XML file containing the location results from the call to the PeopleSoft **Get** method. The orchestration uses the File adapter to write that XML file to disk through this send port.  
+   Next, create a send port to accept the XML file containing the location results from the call to the PeopleSoft **Get** method. The orchestration uses the File adapter to write that XML file to disk through this send port.  
   
 #### Configure a send port  
   
-1.  Within the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page click **Next**.  
+1. Within the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page click **Next**.  
   
-2.  On the **Port Properties** page, enter `FileOut` for **Name**, and then click **Next**.  
+2. On the **Port Properties** page, enter `FileOut` for **Name**, and then click **Next**.  
   
-3.  On the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
+3. On the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:  
   
-     **Port Type Name**: `FileOutPort`  
+    **Port Type Name**: `FileOutPort`  
   
-     **Communication Pattern**: **One Way**  
+    **Communication Pattern**: **One Way**  
   
-     **Access Restrictions**: **Internal - limited to this project**  
+    **Access Restrictions**: **Internal - limited to this project**  
   
-4.  Click **Next** to go to the **Port Binding** page, and then select the following property values:  
+4. Click **Next** to go to the **Port Binding** page, and then select the following property values:  
   
-     **Port direction of communication**: **I'll always be sending messages on this port**  
+    **Port direction of communication**: **I'll always be sending messages on this port**  
   
-     **Port binding**: **Specify later**  
+    **Port binding**: **Specify later**  
   
-5.  Click **Next**, and then click **Finish**.  
+5. Click **Next**, and then click **Finish**.  
   
- Finally, create a send/receive port to send the initial XML input file containing the **Get** method to the PeopleSoft system. This port will also receive an XML file containing the location information that results from the **Get** method call on the PeopleSoft system.  
+   Finally, create a send/receive port to send the initial XML input file containing the **Get** method to the PeopleSoft system. This port will also receive an XML file containing the location information that results from the **Get** method call on the PeopleSoft system.  
   
 #### Configure a send/receive port  
   
-1.  Within the BizTalk Orchestration.odx file, right-click the right port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
+1. Within the BizTalk Orchestration.odx file, right-click the right port surface and then click **New Configured Port**. This starts the Port Configuration Wizard. On the **Welcome to the Port Configuration Wizard** page, click **Next**.  
   
-2.  On the **Port Properties** page, enter `PeopleSoft_Port` for **Name**, and then click **Next**.  
+2. On the **Port Properties** page, enter `PeopleSoft_Port` for **Name**, and then click **Next**.  
   
-3.  On the **Select a Port Type** page, select **Use an existing Port Type**. For **Available Port Types**, select **PS_Test.LOCATION**, and then click **Next**.  
+3. On the **Select a Port Type** page, select **Use an existing Port Type**. For **Available Port Types**, select **PS_Test.LOCATION**, and then click **Next**.  
   
-     ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
+    ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
   
-4.  Click **Next** to go to the **Port Binding** page, and then select the following property values:  
+4. Click **Next** to go to the **Port Binding** page, and then select the following property values:  
   
-     **Port direction of communication**: **I'll always be sending a request and receiving a response**  
+    **Port direction of communication**: **I'll always be sending a request and receiving a response**  
   
-     **Port binding**: **Specify later**  
+    **Port binding**: **Specify later**  
   
-5.  Click **Next**, and then click **Finish**.  
+5. Click **Next**, and then click **Finish**.  
   
- Displayed on the port surface are the new port and the available methods for the PeopleSoft Location service. Later you will specify the PeopleSoft adapter to send and receive files from the PeopleSoft system.  
+   Displayed on the port surface are the new port and the available methods for the PeopleSoft Location service. Later you will specify the PeopleSoft adapter to send and receive files from the PeopleSoft system.  
   
- Now insert two **Send** shapes and two **Receive** shapes into the orchestration to link to the ports you just created.  
+   Now insert two **Send** shapes and two **Receive** shapes into the orchestration to link to the ports you just created.  
   
 #### Add Send and Receive shapes  
   
-1.  Drag a **Receive** component from the Toolbox and drop it immediately below the start of the orchestration (the green circle). Click the **Receive** shape, and in the Properties window, enter `FromDisk` for the **Name**, and set **Activate** to `true`. Doing so will activate the orchestration when an incoming document is received on this receive port.  
+1. Drag a **Receive** component from the Toolbox and drop it immediately below the start of the orchestration (the green circle). Click the **Receive** shape, and in the Properties window, enter `FromDisk` for the **Name**, and set **Activate** to `true`. Doing so will activate the orchestration when an incoming document is received on this receive port.  
   
-2.  Drag a **Send** component from the Toolbox and drop it immediately below the **FromDiskReceive** shape. Click the new **Send** shape, and in the Properties window, enter `ToPS` for the **Name**.  
+2. Drag a **Send** component from the Toolbox and drop it immediately below the **FromDiskReceive** shape. Click the new **Send** shape, and in the Properties window, enter `ToPS` for the **Name**.  
   
-3.  Drag a **Receive** component from the Toolbox and drop it immediately below the **To_PS****Send** shape. Click the **Receive** shape, and in the Properties window, enter `FromPS` for the **Name**.  
+3. Drag a **Receive** component from the Toolbox and drop it immediately below the **To_PS**<strong>Send</strong> shape. Click the **Receive** shape, and in the Properties window, enter `FromPS` for the **Name**.  
   
-4.  Drag a **Send** component from the Toolbox and drop it immediately below the **From_PSReceive** shape. Click the new **Send** shape, and in the Properties window, enter `ToDisk` for the **Name**.  
+4. Drag a **Send** component from the Toolbox and drop it immediately below the **From_PSReceive** shape. Click the new **Send** shape, and in the Properties window, enter `ToDisk` for the **Name**.  
   
- Before you can connect these shapes to logical ports, you need to define the message types to be processed. The adapter needs both an incoming (**Request** method) message and an outgoing (**Response** method) message. The messages for each of the methods are different.  
+   Before you can connect these shapes to logical ports, you need to define the message types to be processed. The adapter needs both an incoming (**Request** method) message and an outgoing (**Response** method) message. The messages for each of the methods are different.  
   
- In this orchestration, you are only using the **Get-Request** and **Get-Response** messages. If the orchestration were updating the data, say by using the **UpdateEx** method, it would require different Request/Response messages.  
+   In this orchestration, you are only using the **Get-Request** and **Get-Response** messages. If the orchestration were updating the data, say by using the **UpdateEx** method, it would require different Request/Response messages.  
   
 #### Define and assign messages to ports  
   
@@ -292,37 +292,37 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 #### Configure and start the BizTalk application  
   
-1.  Configure folders for receiving the incoming files and sending the outgoing files. Go to **C:\LABS\PS_TEST** and create two new subfolders named `FileIn` and `FileOut`.  
+1. Configure folders for receiving the incoming files and sending the outgoing files. Go to **C:\LABS\PS_TEST** and create two new subfolders named `FileIn` and `FileOut`.  
   
-2.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration**, expand **BizTalk Group**, expand **Applications**, right-click **PS_Test** and then click **Configure**.  
+2. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration**, expand **BizTalk Group**, expand **Applications**, right-click **PS_Test** and then click **Configure**.  
   
-     ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
+    ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
   
-3.  Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
+3. Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
   
-4.  Under **Receive Ports**, click **\<None\>**. In the drop-down list, select **New Receive Port**.  
+4. Under **Receive Ports**, click **\<None\>**. In the drop-down list, select **New Receive Port**.  
   
-5.  For **Name**, type `FileInPort`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
+5. For **Name**, type `FileInPort`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
   
-     ![](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")  
+    ![](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")  
   
-6.  Type or select the following values for the properties:  
+6. Type or select the following values for the properties:  
   
-     **Name**: `FileInLoc`  
+    **Name**: `FileInLoc`  
   
-     **Type**: **File**  
+    **Type**: **File**  
   
-     **Receive Handler**: **BizTalkServerApplication**  
+    **Receive Handler**: **BizTalkServerApplication**  
   
-     **Receive Pipeline**: **XMLReceive**  
+    **Receive Pipeline**: **XMLReceive**  
   
-     ![](../core/media/613a5dbc-effe-4827-a72b-d16eef8d0e8a.gif "613a5dbc-effe-4827-a72b-d16eef8d0e8a")  
+    ![](../core/media/613a5dbc-effe-4827-a72b-d16eef8d0e8a.gif "613a5dbc-effe-4827-a72b-d16eef8d0e8a")  
   
-7.  Click **Configure** and type `C:\LABS\PS_TEST\FILEIN` for **Receive Folder**, and then click **OK** three times.  
+7. Click **Configure** and type `C:\LABS\PS_TEST\FILEIN` for **Receive Folder**, and then click **OK** three times.  
   
-     ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
+    ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
   
-8.  Click **\<None\>** for **PeopleSoft_Port** in the drop-down list.  
+8. Click **\<None\>** for **PeopleSoft_Port** in the drop-down list.  
   
 9. Select **New Send Port** and then select or type the following values for the properties.  
   
@@ -336,19 +336,19 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 10. Click **Configure**, and then enter the following property values:  
   
-    1.  **Application server path**: **//Servername:9000**  
+    1. **Application server path**: **//Servername:9000**  
   
-         Servername is your application server. This is the specific server name or IP address and port number for this PeopleSoft system.  
+        Servername is your application server. This is the specific server name or IP address and port number for this PeopleSoft system.  
   
-    2.  **JAVA_HOME**: **C:\J2SDK1.4.2_08**  
+    2. **JAVA_HOME**: **C:\J2SDK1.4.2_08**  
   
-         This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+        This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    3.  **Password**: \<enter your PeopleSoft password\>  
+    3. **Password**: \<enter your PeopleSoft password\>  
   
-    4.  **PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**  
+    4. **PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**  
   
-     **User name:** \<enter your PeopleSoft UserID\>  
+       **User name:** \<enter your PeopleSoft UserID\>  
   
 11. Click **OK** twice to close the dialog boxes.  
   

@@ -40,22 +40,22 @@ This topic describes how to suspend, resume, and terminate one or more running s
   
 ### To view start, stop, or terminate an instance of an orchestration  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  Select the BizTalk Group to display the Group Hub page.  
+2. Select the BizTalk Group to display the Group Hub page.  
   
-3.  Under **Work in Progress**, click **Running service instances**.  
+3. Under **Work in Progress**, click **Running service instances**.  
   
-     The query results panel in the lower section of the page displays all instances of the orchestration.  
+    The query results panel in the lower section of the page displays all instances of the orchestration.  
   
-4.  To refine the query and view different instances for the orchestration, click the box under **Value** for the **Search For** field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
+4. To refine the query and view different instances for the orchestration, click the box under **Value** for the **Search For** field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
   
-5.  Right-click the instance you want and click **Suspend**, **Resume**, or **Terminate**. This functionality allows you to select which instances to resume.  
+5. Right-click the instance you want and click **Suspend**, **Resume**, or **Terminate**. This functionality allows you to select which instances to resume.  
   
-    > [!NOTE]
-    >  To perform the operation on multiple instances, hold down the CTRL key and click the instances you want. Then right-click an instance and click **Suspend**, **Resume**, or **Terminate**.  
+   > [!NOTE]
+   >  To perform the operation on multiple instances, hold down the CTRL key and click the instances you want. Then right-click an instance and click **Suspend**, **Resume**, or **Terminate**.  
   
-     [Service Instance States](../core/service-instance-states.md) provides more information on the suspended state.  
+    [Service Instance States](../core/service-instance-states.md) provides more information on the suspended state.  
   
 ## See Also  
  [Managing Orchestrations](../core/managing-orchestrations.md)   

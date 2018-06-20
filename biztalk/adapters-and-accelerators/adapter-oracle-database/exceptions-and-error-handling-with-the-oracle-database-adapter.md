@@ -22,11 +22,11 @@ manager: "anneta"
 # Exceptions and error handling with the Oracle Database adapter
 This section lists the exceptions that the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] throws. These can contain:  
   
--   An inner exception, which is a system exception that the .NET Framework throws.  
+- An inner exception, which is a system exception that the .NET Framework throws.  
   
--   An LOB exception that the LOB client library throws.  
+- An LOB exception that the LOB client library throws.  
   
- For more information about the inner exception, see the respective .NET Framework or Oracle documentation. Exceptions also contain a detailed error message that helps in resolving the problem.  
+  For more information about the inner exception, see the respective .NET Framework or Oracle documentation. Exceptions also contain a detailed error message that helps in resolving the problem.  
   
 |Exception|Possible Cause/Description|  
 |---------------|---------------------------------|  

@@ -29,21 +29,21 @@ The amount of data stored in the [!INCLUDE[btsBizTalkServerNoVersion](../include
   
  The same scenario can be configured to produce vastly different amount of tracking data based on how many tracking points are present, how many different messages are used, size of the messages and the level of message body tracking used. Following are some important factors to monitor:  
   
--   Number of tracking points - such as pipelines, orchestrations, and ports  
+- Number of tracking points - such as pipelines, orchestrations, and ports  
   
--   Number of message properties tracked  
+- Number of message properties tracked  
   
--   Number of messages per incoming message  
+- Number of messages per incoming message  
   
--   Message size  
+- Message size  
   
--   Traffic rate (average and peak)  
+- Traffic rate (average and peak)  
   
--   Message body tracking configuration  
+- Message body tracking configuration  
   
- When considering automatic archiving and purging of data consider how much live data you need to keep in your tracking database. You need to tune the DTA Purge and Archive job parameters as appropriate for your environment so that the targeted amount of live data can be supported by the purging performance without degradation.  
+  When considering automatic archiving and purging of data consider how much live data you need to keep in your tracking database. You need to tune the DTA Purge and Archive job parameters as appropriate for your environment so that the targeted amount of live data can be supported by the purging performance without degradation.  
   
- The DTA Purge and Archive job can purge a certain amount of data within a given time interval. The capacity of the job depends on the scenarios running, the current database size, and the hardware. In order to have a stable environment, you must have a balance between the incoming tracking data generation and purging. In your test environment, you can find the balance by varying the live window of data and the frequency of the purging job. In a balanced state, your system will deliver sustainable throughput. Your goal is to have enough of a buffer before the BizTalk Tracking database table size causes sustained, significant performance issues.  
+  The DTA Purge and Archive job can purge a certain amount of data within a given time interval. The capacity of the job depends on the scenarios running, the current database size, and the hardware. In order to have a stable environment, you must have a balance between the incoming tracking data generation and purging. In your test environment, you can find the balance by varying the live window of data and the frequency of the purging job. In a balanced state, your system will deliver sustainable throughput. Your goal is to have enough of a buffer before the BizTalk Tracking database table size causes sustained, significant performance issues.  
   
 ## Performance limitations  
  Purging performance will not scale for all scenarios. For any scenario, it is possible to generate increasing amounts of tracking data. When tracking data is purged at a consistently slower rate, there is a buildup of the tracking database size, which worsens the purging performance further.  

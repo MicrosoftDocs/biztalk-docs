@@ -45,35 +45,35 @@ manager: "anneta"
 # Defining a Business Rule for a Private Process Orchestration
 You can define a business rule for use in an acknowledgement private process. This lets you to modify the business rule dynamically without stopping the private-process orchestration. This process uses the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Business Rule Engine. This process involves the following steps:  
   
-1.  Adding a new vocabulary. This involves defining at least one vocabulary constant value. This sets a business-rule threshold. It also involves defining XML document `Get` and `Set` elements. This establishes how [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] uses the threshold.  
+1. Adding a new vocabulary. This involves defining at least one vocabulary constant value. This sets a business-rule threshold. It also involves defining XML document `Get` and `Set` elements. This establishes how [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] uses the threshold.  
   
-2.  Adding a new policy. This involves creating a policy, creating a set of rules, and then saving, publishing, and deploying the policy.  
+2. Adding a new policy. This involves creating a policy, creating a set of rules, and then saving, publishing, and deploying the policy.  
   
-3.  Calling the business rule from the private-process orchestration. This involves adding a **Call Rules** shape to the orchestration.  
+3. Calling the business rule from the private-process orchestration. This involves adding a **Call Rules** shape to the orchestration.  
   
- The [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK includes a sample [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] business policy, samplebtarnpolicy.xml, in \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\PipAutomation\3A4. For more information, see [Sample BTARN Business Policy](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md).  
+   The [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK includes a sample [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] business policy, samplebtarnpolicy.xml, in \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\PipAutomation\3A4. For more information, see [Sample BTARN Business Policy](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md).  
   
- PIP3A4PrivateResponder.odx orchestration is a sample private-process orchestration that demonstrates how to implement a Partner Interface Process (PIP)-specific responder private process incorporating a business rule. For more information about this sample, see [3A4 Private Responder Orchestration Using a Business Rule](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
+   PIP3A4PrivateResponder.odx orchestration is a sample private-process orchestration that demonstrates how to implement a Partner Interface Process (PIP)-specific responder private process incorporating a business rule. For more information about this sample, see [3A4 Private Responder Orchestration Using a Business Rule](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
   
- For more information about vocabularies and policies, see the "Developing with Business Rules" topic in BizTalk Server.  
+   For more information about vocabularies and policies, see the "Developing with Business Rules" topic in BizTalk Server.  
   
 ### To add a new vocabulary  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)], and then click **Business Rule Composer**.  
+1. Click **Start**, point to **All Programs**, point to **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)], and then click **Business Rule Composer**.  
   
-2.  If the **Open Rule Store** dialog box opens, select the **BizTalk Rule Engine** database that you set up on the current server, and then click **OK**.  
+2. If the **Open Rule Store** dialog box opens, select the **BizTalk Rule Engine** database that you set up on the current server, and then click **OK**.  
   
-3.  In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Business Rule Composer, in the Facts Explorer pane, right-click **Vocabularies**, and then click **Add New Vocabulary**.  
+3. In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Business Rule Composer, in the Facts Explorer pane, right-click **Vocabularies**, and then click **Add New Vocabulary**.  
   
-4.  In the Property pane (lower left), set the **Name** property to the name of the appropriate vocabulary, and then press **Enter**.  
+4. In the Property pane (lower left), set the **Name** property to the name of the appropriate vocabulary, and then press **Enter**.  
   
-5.  Expand the vocabulary folder you just created, right-click **Version 1.0 (not saved)**, and then click **Add New Definition**.  
+5. Expand the vocabulary folder you just created, right-click **Version 1.0 (not saved)**, and then click **Add New Definition**.  
   
-6.  On the **Vocabulary Definition Wizard** page, select **Constant Value, Range of Values, or Set of Values**, and then click **Next**.  
+6. On the **Vocabulary Definition Wizard** page, select **Constant Value, Range of Values, or Set of Values**, and then click **Next**.  
   
-7.  On the **Constant Value, Range of Values, or Set of Values** page, in the **Definition Name** box, type the name of the appropriate vocabulary constant value, such as **Maximum Quantity Allowed**, and then click **Next**.  
+7. On the **Constant Value, Range of Values, or Set of Values** page, in the **Definition Name** box, type the name of the appropriate vocabulary constant value, such as **Maximum Quantity Allowed**, and then click **Next**.  
   
-8.  On the **Define a Constant Value** page, in the **Value Field** box, type the threshold, and then click **Finish**.  
+8. On the **Define a Constant Value** page, in the **Value Field** box, type the threshold, and then click **Finish**.  
   
 ### To define Get and Set elements  
   

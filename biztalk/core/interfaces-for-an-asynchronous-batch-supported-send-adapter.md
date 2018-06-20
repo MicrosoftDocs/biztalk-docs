@@ -17,24 +17,24 @@ manager: "anneta"
 # Interfaces for an Asynchronous Batch-Supported Send Adapter
 Batch-aware adapters may send messages synchronously or asynchronously, and may perform transacted sends. To send batches of messages, a send adapter must implement the following interfaces:  
   
--   **IBTTransport**  
+- **IBTTransport**  
   
--   **IBaseComponent**  
+- **IBaseComponent**  
   
--   **IBTTransportControl**  
+- **IBTTransportControl**  
   
--   **IPersistPropertyBag**  
+- **IPersistPropertyBag**  
   
--   **IBTBatchTransmitter**  
+- **IBTBatchTransmitter**  
   
--   **IBTTransmitterBatch**  
+- **IBTTransmitterBatch**  
   
- For the asynchronous batch send, the Messaging Engine gets a batch from the adapter and adds messages to be transmitted to that batch. The messages are only sent when the Messaging Engine calls the **Done** method on the batch. The adapter returns `False` for each message that it intends to transmit asynchronously. The adapter then gets a batch from the adapter proxy and deletes those messages that it successfully transmitted.  
+  For the asynchronous batch send, the Messaging Engine gets a batch from the adapter and adds messages to be transmitted to that batch. The messages are only sent when the Messaging Engine calls the **Done** method on the batch. The adapter returns `False` for each message that it intends to transmit asynchronously. The adapter then gets a batch from the adapter proxy and deletes those messages that it successfully transmitted.  
   
- The following figure shows the object interactions involved in creating an asynchronous batch-supported send adapter.  
+  The following figure shows the object interactions involved in creating an asynchronous batch-supported send adapter.  
   
- ![](../core/media/ebiz-sdk-devadapter7.gif "ebiz_sdk_devadapter7")  
-Workflow for sending a message asynchronously  
+  ![](../core/media/ebiz-sdk-devadapter7.gif "ebiz_sdk_devadapter7")  
+  Workflow for sending a message asynchronously  
   
 ## See Also  
  [Adapter Variables](../core/adapter-variables.md)   

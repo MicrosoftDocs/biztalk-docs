@@ -28,38 +28,38 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 ##  <a name="BKMK_ConfigureSvcutil"></a> Configuring svcutil.exe for the SAP Adapter  
  To configure svcutil.exe to use a non-default binding, you must create a local copy of svcutil.exe and then create or modify a local copy of the svcutil.exe.config configuration file.  
   
-1.  Create a folder, and copy svcutil.exe into the new folder. You can typically find svcutil.exe at the Windows SDK installation location, specifically, C:\Program Files\Microsoft SDKs\Windows\v6.0\Bin.  
+1. Create a folder, and copy svcutil.exe into the new folder. You can typically find svcutil.exe at the Windows SDK installation location, specifically, C:\Program Files\Microsoft SDKs\Windows\v6.0\Bin.  
   
-2.  Create a file named svcutil.exe.config in the new folder.  
+2. Create a file named svcutil.exe.config in the new folder.  
   
-3.  Add a binding and a client endpoint to the svcutil.exe.config file. You must run svcutil.exe from the new folder to ensure that the correct configuration is used.  
+3. Add a binding and a client endpoint to the svcutil.exe.config file. You must run svcutil.exe from the new folder to ensure that the correct configuration is used.  
   
-    > [!IMPORTANT]
-    >  The name attribute of the client endpoint must specify the scheme used in the connection URI. This value is case-sensitive.  
+   > [!IMPORTANT]
+   >  The name attribute of the client endpoint must specify the scheme used in the connection URI. This value is case-sensitive.  
   
-    ```  
-    <configuration>  
-      <system.serviceModel>  
-        <client>  
-          <!-- the name should match the required scheme of the WS-Metadata Exchange endpoint   
-          and the contract should be "IMetadataExchange" -->  
-          <endpoint name="sap"  
-                    binding="sapBinding"  
-                    bindingConfiguration="SAPBinding"  
-                    contract="IMetadataExchange" />  
-        </client>  
-        <bindings>  
-          <sapBinding>  
-            <binding name="SAPBinding" acceptCredentialsInUri="true"/>  
-          </sapBinding>  
-        </bindings>  
+   ```  
+   <configuration>  
+     <system.serviceModel>  
+       <client>  
+         <!-- the name should match the required scheme of the WS-Metadata Exchange endpoint   
+         and the contract should be "IMetadataExchange" -->  
+         <endpoint name="sap"  
+                   binding="sapBinding"  
+                   bindingConfiguration="SAPBinding"  
+                   contract="IMetadataExchange" />  
+       </client>  
+       <bindings>  
+         <sapBinding>  
+           <binding name="SAPBinding" acceptCredentialsInUri="true"/>  
+         </sapBinding>  
+       </bindings>  
   
-      </system.serviceModel>  
+     </system.serviceModel>  
   
-    </configuration>  
-    ```  
+   </configuration>  
+   ```  
   
- You can set any of the binding properties of the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in the binding configuration. For example, you could specify the following non-default binding to use svcutil.exe to generate a WCF client for BAPI operations.  
+   You can set any of the binding properties of the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in the binding configuration. For example, you could specify the following non-default binding to use svcutil.exe to generate a WCF client for BAPI operations.  
   
 ```  
 <bindings>  
@@ -79,23 +79,23 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
  You specify a MEX endpoint and target operations in the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] connection URI in the following manner:  
   
--   You must include the "wsdl" parameter in the query string. If it is the first parameter in the query string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
+- You must include the "wsdl" parameter in the query string. If it is the first parameter in the query string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
   
--   You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the node ID of a target operation.  
+- You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the node ID of a target operation.  
   
- The following three examples show how to target various operations by using svcutil.exe.  
+  The following three examples show how to target various operations by using svcutil.exe.  
   
- This example creates a WCF client class for RFC_CALCULATE_TAXES.  
+  This example creates a WCF client class for RFC_CALCULATE_TAXES.  
   
- **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CALCULATE_TAXES"**  
+  **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CALCULATE_TAXES"**  
   
- This example creates a WCF client class for both the SALESORDER_CREATEFROMDAT201 and SALESORDER_CREATEFROMDAT202 IDOC.  
+  This example creates a WCF client class for both the SALESORDER_CREATEFROMDAT201 and SALESORDER_CREATEFROMDAT202 IDOC.  
   
- **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Send&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT202//620/Send"**  
+  **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Send&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT202//620/Send"**  
   
- This example creates a WCF service contract to receive the SALESORDER_CREATEFROMDAT201 IDOC from the SAP system. The NODE ID specifies a Receive operation. Because this example deals with retrieving metadata, there is no need to specify the listener parameters in the query_string of the connection URI.  
+  This example creates a WCF service contract to receive the SALESORDER_CREATEFROMDAT201 IDOC from the SAP system. The NODE ID specifies a Receive operation. Because this example deals with retrieving metadata, there is no need to specify the listener parameters in the query_string of the connection URI.  
   
- **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Receive"**  
+  **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Receive"**  
   
 > [!IMPORTANT]
 >  You must place the connection URI in quotation marks on the command line. Otherwise, svcutil.exe attempts to retrieve metadata for operations that the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] does not support. The results of such an attempt are undefined.  

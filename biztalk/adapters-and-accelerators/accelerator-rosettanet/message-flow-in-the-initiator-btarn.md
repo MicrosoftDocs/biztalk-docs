@@ -28,42 +28,42 @@ Message flow on an initiator computer starts with receiving a message from the b
 ## BTARN Components on the Initiator Computer  
  As a message flows through [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] on the initiator computer, the following components will process the message:  
   
--   SQL adapter  
+- SQL adapter  
   
--   XML receive pipeline  
+- XML receive pipeline  
   
--   Initiator private process  
+- Initiator private process  
   
--   Initiator public process  
+- Initiator public process  
   
--   XML send pipeline  
+- XML send pipeline  
   
--   HTTP adapter  
+- HTTP adapter  
   
--   RNIFSend.aspx page  
+- RNIFSend.aspx page  
   
- For more information about these components, and how they process a message, see [Message Processing in BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md).  
+  For more information about these components, and how they process a message, see [Message Processing in BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md).  
   
 ## Flow of an Initiated Message  
  The following steps describe the message flow of an initiated message through the initiator [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] computer. The following figure shows this process.  
   
  ![](../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-initiator-send-message-flow.gif "RN3_Initiator_Send_Message_Flow")  
   
-1.  The line-of-business application sends the message to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].  
+1. The line-of-business application sends the message to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].  
   
-2.  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] sends the message from the [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] database to the SQL adapter.  
+2. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] sends the message from the [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] database to the SQL adapter.  
   
-3.  The XML receive pipeline does simple XML validation of the message.  
+3. The XML receive pipeline does simple XML validation of the message.  
   
-4.  [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] routes the message to the MessageBox database.  
+4. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] routes the message to the MessageBox database.  
   
-5.  The private process processes the service content of the message.  
+5. The private process processes the service content of the message.  
   
-6.  The public process processes the RNIF headers of the message.  
+6. The public process processes the RNIF headers of the message.  
   
-7.  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message back to the MessageBox database.  
+7. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message back to the MessageBox database.  
   
-8.  The send pipeline performs assembly and signing/encryption/encoding of the message.  
+8. The send pipeline performs assembly and signing/encryption/encoding of the message.  
   
 9. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the message to the HTTP adapter.  
   

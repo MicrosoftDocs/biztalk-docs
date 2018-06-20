@@ -58,14 +58,14 @@ CM_ENTRY Extract_CPIC_Side_Information( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The *entry_number* specified a number larger than the maximum number of entries in the side information table or a number that is less than zero.  
+- The *entry_number* specified a number larger than the maximum number of entries in the side information table or a number that is less than zero.  
   
--   The *sym_dest_name* parameter is invalid and *entry_number* is set to zero.  
+- The *sym_dest_name* parameter is invalid and *entry_number* is set to zero.  
   
--   The *side_info_entry_length* parameter is not set to 124.  
+- The *side_info_entry_length* parameter is not set to 124.  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
 ## State Changes  
  This call is not associated with a conversation and can be in any state.  

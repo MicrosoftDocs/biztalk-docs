@@ -15,11 +15,11 @@ manager: "anneta"
 ---
 # Common Schema Collections for the Host File System
 The common schema collection is the schema collection that is implemented by the Managed Provider for Host Files. You can query the managed provider to determine the list of supported schema collections by calling the `GetSchema` method with no arguments, or with the schema collection name "MetaDataCollections". This returns a `DataTable` object with a list of the supported schema collections, the number of restrictions that they each support, and the number of identifier parts that they use.  
-  
+
  The following tables describe the common schema collections for the Host File System.  
-  
+
  **Columns**  
-  
+
 |Column Name|Data Type|Description|  
 |-----------------|---------------|-----------------|  
 |table_catalog|String|Catalog of the table.|  
@@ -40,47 +40,48 @@ The common schema collection is the schema collection that is implemented by the
 |character_set_schema|String|Always returns NULL.|  
 |character_set_name|String|Returns the unique name for the character set if this column is character data or text data type. Otherwise, NULL is returned.|  
 |collation_catalog|String|Returns master, indicating the database in which the collation is defined, if the column is character data or text data type. Otherwise, this column is NULL.|  
-  
+
  **DataSourceInformation**  
-  
-||||  
-|-|-|-|  
-|CompositeIdentifierSeparatorPattern|string|The regular expression to match the composite separators in a composite identifier. For example, “\\.” (for SQL Server) or “@&#124;\\.” (for Oracle).|  
-|||A composite identifier is typically what is used for a database object name, for example: pubs.dbo.authors or pubs@dbo.authors.|  
-|||For SQL Server, use the regular expression “\\.”. For OracleClient, use “@&#124;\\.”.|  
-||||  
-|||For OLE DB use DBLITERAL_CATALOG_SEPARATOR or DBLITERAL_SCHEMA_SEPARATOR.|  
-|DataSourceProductName|string|The name of the product accessed by the provider, such as "Oracle" or "SQLServer".|  
-|DataSourceProductVersion|string|The version of the product accessed by the provider, in the data sources native format and not in Microsoft format.|  
-|||In some cases DataSourceProductVersion and DataSourceProductVersionNormalized are the same value. With OLE DB, these are always the same because they are mapped to the same function call in the underlying native API.|  
-|DataSourceProductVersionNormalized|string|A normalized version for the data source, such that it can be compared with `String.Compare()`. The format of this is consistent for all versions of the provider to prevent version 10 from sorting between version 1 and version 2.|  
-|||For example, the Oracle provider uses a format of “nn.nn.nn.nn.nn” for its normalized version, which causes an Oracle 8i data source to return “08.01.07.04.01”. SQL Server uses the typical Microsoft “nn.nn.nnnn” format.|  
-|||In some cases, DataSourceProductVersion and DataSourceProductVersionNormalized will be the same value. In the case of OLE DB, these will always be the same as they are mapped to the same function call in the underlying native API.|  
-|GroupByBehavior|GroupByBehavior|Specifies the relationship between the columns in a GROUP BY clause and the non-aggregated columns in the select list.|  
-|IdentifierPattern|String|A regular expression that matches an identifier and has a match value of the identifier. For example “[A-Za-z0-9_#$]”.|  
-|IdentifierCase|IdentifierCase|Indicates whether non-quoted identifiers are treated as case sensitive.|  
-|OrderByColumnsInSelect|bool|Specifies whether columns in an ORDER BY clause must be in the select list. A value of true indicates that they are required to be in the select list, a value of false indicates that they are not required to be in the select list.|  
-|ParameterMarkerFormat|string|A format string that represents how to format a parameter.|  
-|||If named parameters are supported by the data source, the first placeholder in this string should be where the parameter name should be formatted.|  
-|||For example, if the data source expects parameters to be named and prefixed with an ‘:’ this would be “:{0}”. When formatting this with a parameter name of “p1” the resulting string is “:p1”.|  
-|||If the data source expects parameters to be prefixed with the ‘@’, but the names already include them, this would be ‘{0}’, and the result of formatting a parameter named “@p1” would just be “@p1”.|  
-|||For data sources that do not expect named parameters and expect the use of the ‘?’ character, the format string can be specified as just ‘?’, which would ignore the parameter name. For OLE DB we return ‘?’.|  
-|ParameterMarkerPattern|string|A regular expression that matches a parameter marker. It has a match value of the parameter name, if any.|  
-|||For example, if named parameters are supported with an ‘@’ lead-in character that will be included in the parameter name, this would be: “(@[A-Za-z0-9_$#]*)”.|  
-|||However, if named parameters are supported with a ‘:’ as the lead-in character and it is not part of the parameter name, this would be: “:([A-Za-z0-9_$#]*)”.|  
-|||Of course, if the data source does not support named parameters, this would just be “?”.|  
-|ParameterNameMaxLength|int|The maximum length of a parameter name in characters. Visual Studio expects that if parameter names are supported, the minimum value for the maximum length is 30 characters.|  
-|||If the data source does not support named parameters, this property returns zero.|  
-|ParameterNamePattern|string|A regular expression that matches the valid parameter names. Different data sources have different rules regarding the characters that may be used for parameter names.|  
-|||Visual Studio expects that if parameter names are supported, the characters "\p{Lu}\p{Ll}\p{Lt}\p{Lm}\p{Lo}\p{Nl}\p{Nd}" are the minimum supported set of characters that are valid for parameter names.|  
-|QuotedIdentifierPattern|string|A regular expression that matches a quoted identifier and has a match value of the identifier itself without the quotes. For example, if the data source uses double-quotes to identify quoted identifiers, this would be: "(([^\\"]&#124;\\"\\")*)".|  
-|QuotedIdentifierCase|IdentifierCase|Indicates whether quoted identifiers are treated as case sensitive.|  
-|StatementSeparatorPattern|string|A regular expression that matches the statement separator.|  
-|StringLiteralPattern|string|A regular expression that matches a string literal and has a match value of the literal itself. For example, if the data source used single-quotes to identify strings, this would be: "('([^']&#124;'')*')"'|  
-|SupportedJoinOperators|SupportedJoinOperators|Specifies what types of SQL join statements are supported by the data source.|  
-  
+
+
+|                                     |                        |                                                                                                                                                                                                                                                        |
+|-------------------------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CompositeIdentifierSeparatorPattern |         string         |                                                 The regular expression to match the composite separators in a composite identifier. For example, “\\.” (for SQL Server) or “@&#124;\\.” (for Oracle).                                                  |
+|                                     |                        |                                                            A composite identifier is typically what is used for a database object name, for example: pubs.dbo.authors or pubs@dbo.authors.                                                             |
+|                                     |                        |                                                                                 For SQL Server, use the regular expression “\\.”. For OracleClient, use “@&#124;\\.”.                                                                                  |
+|                                     |                        |                                                                                                                                                                                                                                                        |
+|                                     |                        |                                                                                       For OLE DB use DBLITERAL_CATALOG_SEPARATOR or DBLITERAL_SCHEMA_SEPARATOR.                                                                                        |
+|        DataSourceProductName        |         string         |                                                                                   The name of the product accessed by the provider, such as "Oracle" or "SQLServer".                                                                                   |
+|      DataSourceProductVersion       |         string         |                                                                  The version of the product accessed by the provider, in the data sources native format and not in Microsoft format.                                                                   |
+|                                     |                        |                In some cases DataSourceProductVersion and DataSourceProductVersionNormalized are the same value. With OLE DB, these are always the same because they are mapped to the same function call in the underlying native API.                |
+| DataSourceProductVersionNormalized  |         string         |         A normalized version for the data source, such that it can be compared with `String.Compare()`. The format of this is consistent for all versions of the provider to prevent version 10 from sorting between version 1 and version 2.          |
+|                                     |                        |              For example, the Oracle provider uses a format of “nn.nn.nn.nn.nn” for its normalized version, which causes an Oracle 8i data source to return “08.01.07.04.01”. SQL Server uses the typical Microsoft “nn.nn.nnnn” format.               |
+|                                     |                        |         In some cases, DataSourceProductVersion and DataSourceProductVersionNormalized will be the same value. In the case of OLE DB, these will always be the same as they are mapped to the same function call in the underlying native API.         |
+|           GroupByBehavior           |    GroupByBehavior     |                                                                 Specifies the relationship between the columns in a GROUP BY clause and the non-aggregated columns in the select list.                                                                 |
+|          IdentifierPattern          |         String         |                                                                 A regular expression that matches an identifier and has a match value of the identifier. For example “[A-Za-z0-9_#$]”.                                                                 |
+|           IdentifierCase            |     IdentifierCase     |                                                                                        Indicates whether non-quoted identifiers are treated as case sensitive.                                                                                         |
+|       OrderByColumnsInSelect        |          bool          |         Specifies whether columns in an ORDER BY clause must be in the select list. A value of true indicates that they are required to be in the select list, a value of false indicates that they are not required to be in the select list.         |
+|        ParameterMarkerFormat        |         string         |                                                                                               A format string that represents how to format a parameter.                                                                                               |
+|                                     |                        |                                                   If named parameters are supported by the data source, the first placeholder in this string should be where the parameter name should be formatted.                                                   |
+|                                     |                        |                            For example, if the data source expects parameters to be named and prefixed with an ‘:’ this would be “:{0}”. When formatting this with a parameter name of “p1” the resulting string is “:p1”.                             |
+|                                     |                        |                         If the data source expects parameters to be prefixed with the ‘@’, but the names already include them, this would be ‘{0}’, and the result of formatting a parameter named “@p1” would just be “@p1”.                          |
+|                                     |                        |                     For data sources that do not expect named parameters and expect the use of the ‘?’ character, the format string can be specified as just ‘?’, which would ignore the parameter name. For OLE DB we return ‘?’.                     |
+|       ParameterMarkerPattern        |         string         |                                                                       A regular expression that matches a parameter marker. It has a match value of the parameter name, if any.                                                                        |
+|                                     |                        |                                            For example, if named parameters are supported with an ‘@’ lead-in character that will be included in the parameter name, this would be: “(@[A-Za-z0-9_$#]\*)”.                                             |
+|                                     |                        |                                             However, if named parameters are supported with a ‘:’ as the lead-in character and it is not part of the parameter name, this would be: “:([A-Za-z0-9_$#]\*)”.                                             |
+|                                     |                        |                                                                                Of course, if the data source does not support named parameters, this would just be “?”.                                                                                |
+|       ParameterNameMaxLength        |          int           |                                     The maximum length of a parameter name in characters. Visual Studio expects that if parameter names are supported, the minimum value for the maximum length is 30 characters.                                      |
+|                                     |                        |                                                                                   If the data source does not support named parameters, this property returns zero.                                                                                    |
+|        ParameterNamePattern         |         string         |                                        A regular expression that matches the valid parameter names. Different data sources have different rules regarding the characters that may be used for parameter names.                                         |
+|                                     |                        |                        Visual Studio expects that if parameter names are supported, the characters "\p{Lu}\p{Ll}\p{Lt}\p{Lm}\p{Lo}\p{Nl}\p{Nd}" are the minimum supported set of characters that are valid for parameter names.                        |
+|       QuotedIdentifierPattern       |         string         | A regular expression that matches a quoted identifier and has a match value of the identifier itself without the quotes. For example, if the data source uses double-quotes to identify quoted identifiers, this would be: "(([^\\"]&#124;\\"\\")\*)". |
+|        QuotedIdentifierCase         |     IdentifierCase     |                                                                                          Indicates whether quoted identifiers are treated as case sensitive.                                                                                           |
+|      StatementSeparatorPattern      |         string         |                                                                                               A regular expression that matches the statement separator.                                                                                               |
+|        StringLiteralPattern         |         string         |                     A regular expression that matches a string literal and has a match value of the literal itself. For example, if the data source used single-quotes to identify strings, this would be: "('([^']&#124;'')\*')"'                     |
+|       SupportedJoinOperators        | SupportedJoinOperators |                                                                                     Specifies what types of SQL join statements are supported by the data source.                                                                                      |
+
  **DataTypes**  
-  
+
 |Column Name|Data Type|Description|  
 |-----------------|---------------|-----------------|  
 |TypeName|string|The provider-specific data type name.|  
@@ -116,36 +117,36 @@ The common schema collection is the schema collection that is implemented by the
 |LiteralPrefix|string|The prefix applied to a given literal.|  
 |LitteralSuffix|string|The suffix applied to a given literal.|  
 |NativeDataType|String|An OLE DB-specific column for exposing the OLE DB type of the data type .|  
-  
+
  **MetaDataCollections**  
-  
+
 |Column Name|Data Type|Description|  
 |-----------------|---------------|-----------------|  
 |CollectionName|string|The name of the collection to pass to the `GetSchema` method to return the collection.|  
 |NumberOfRestriction|int|The number of restrictions that can be specified for the collection.|  
 |NumberOfIdentifierParts|int|The number of parts in the composite identifier/database object name. For example, in SQL Server, this would be 3 for tables and 4 for columns. In Oracle, it would be 2 for tables and 3 for columns.|  
-    
- 
+
+
  **Restrictions**  
-  
+
 |Column Name|Data Type|Description|  
 |-----------------|---------------|-----------------|  
 |CollectionName|string|The name of the collection that these restrictions apply to.|  
 |RestrictionName|string|The name of the restriction in the collection.|  
 |RestrictionDefault|string|Ignored.|  
 |RestrictionNumber|int|The actual location in the collections restrictions that this particular restriction falls in.|  
-  
+
  **Tables**  
-  
+
 |Column Name|Data Type|Description|  
 |-----------------|---------------|-----------------|  
 |table_catalog|String|Catalog of the table.|  
 |table_schema|String|Schema that contains the table.|  
 |table_name|String|Table name.|  
 |table_type|String|Type of table. Can be VIEW or BASE TABLE.|  
-  
+
 ## Example  
-  
+
 ## See Also  
  [Obtaining Schema Information from the Host File System](../core/obtaining-schema-information-from-the-host-file-system1.md)   
  [BizTalk Adapter for Host Files Configuration](./biztalk-adapter-for-host-files-configuration1.md)

@@ -36,30 +36,30 @@ The ESB Management Portal, included as part of the [!INCLUDE[esbToolkit](../incl
 ## ESB Portal Technologies  
  The ESB Management Portal takes advantage of the following technologies:  
   
--   [!INCLUDE[btsSQLServerNoVersion_md](../includes/btssqlservernoversion-md.md)] 
+- [!INCLUDE[btsSQLServerNoVersion_md](../includes/btssqlservernoversion-md.md)] 
   
--   ASP.NET
+- ASP.NET
   
--   [Enterprise Library](http://go.microsoft.com/fwlink/?LinkId=188292) ([http://go.microsoft.com/fwlink/?LinkId=188292](http://go.microsoft.com/fwlink/?LinkId=188292)). The ESB Management Portal uses the following Enterprise Library assemblies:  
+- [Enterprise Library](http://go.microsoft.com/fwlink/?LinkId=188292) ([http://go.microsoft.com/fwlink/?LinkId=188292](http://go.microsoft.com/fwlink/?LinkId=188292)). The ESB Management Portal uses the following Enterprise Library assemblies:  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.Caching**  
+  -   **Microsoft.Practices.EnterpriseLibrary.Caching**  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.Common**  
+  -   **Microsoft.Practices.EnterpriseLibrary.Common**  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.Data**  
+  -   **Microsoft.Practices.EnterpriseLibrary.Data**  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.ExceptionHandling**  
+  -   **Microsoft.Practices.EnterpriseLibrary.ExceptionHandling**  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging**  
+  -   **Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging**  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.Logging**  
+  -   **Microsoft.Practices.EnterpriseLibrary.Logging**  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.ObjectBuilder2**  
+  -   **Microsoft.Practices.EnterpriseLibrary.ObjectBuilder2**  
   
-    -   **Microsoft.Practices.EnterpriseLibrary.Validation**  
+  -   **Microsoft.Practices.EnterpriseLibrary.Validation**  
   
-    -   Microsoft.Practices.Unity  
+  -   Microsoft.Practices.Unity  
   
--   [Microsoft Chart Controls](http://go.microsoft.com/fwlink/?LinkId=188293) (http://go.microsoft.com/fwlink/?LinkId=188293) for Microsoft .NET Framework 4  
+- [Microsoft Chart Controls](http://go.microsoft.com/fwlink/?LinkId=188293) (http://go.microsoft.com/fwlink/?LinkId=188293) for Microsoft .NET Framework 4  
   
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] metric tracking extends only to fault tracking for the exception management system.

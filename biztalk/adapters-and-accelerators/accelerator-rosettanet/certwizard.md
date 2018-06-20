@@ -27,11 +27,11 @@ You use the CertWizard utility to import a certificate from a .pfx or .cer file 
   
 #### To run CertWizard  
   
-1.  Open a command prompt.  
+1. Open a command prompt.  
   
-2.  Move to \<*drive*\>\ Program Files (x86)\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
+2. Move to \<*drive*\>\ Program Files (x86)\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
   
-3.  At the command prompt, type **CertWizard**, type the required and appropriate switches, and then press ENTER.  
+3. At the command prompt, type **CertWizard**, type the required and appropriate switches, and then press ENTER.  
   
 ## Syntax for CertWizard  
  The following shows the syntax that you use to start this command-line utility:  

@@ -19,21 +19,21 @@ manager: "anneta"
 ## Overview
 An escape character is a single character that suppresses any special meaning of the character that follows it. For example, if you define a flat file record as having the following characteristics:  
   
--   Name = Record1  
+- Name = Record1  
   
--   Delimited  
+- Delimited  
   
--   Child delimiter = comma character (,)  
+- Child delimiter = comma character (,)  
   
--   Child order = prefix  
+- Child order = prefix  
   
--   Escape character = backslash character (\\)  
+- Escape character = backslash character (\\)  
   
--   Tag = RECORD1  
+- Tag = RECORD1  
   
--   Two fields named Field1 and Field2  
+- Two fields named Field1 and Field2  
   
- Then the following flat file data applies for the record.  
+  Then the following flat file data applies for the record.  
   
 ```  
 RECORD1,testfield1\,testfield1,testfield2  

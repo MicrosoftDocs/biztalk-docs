@@ -28,15 +28,15 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ### Possible Cause  
  This error could be caused by one of the following reasons:  
   
--   Missing decryption certificate  
+- Missing decryption certificate  
   
--   Incorrectly encrypted message  
+- Incorrectly encrypted message  
   
--   Unauthorized message (source not recognized as a valid partner)  
+- Unauthorized message (source not recognized as a valid partner)  
   
--   Message failing validation of any header part: preamble, delivery header, or service header.  
+- Message failing validation of any header part: preamble, delivery header, or service header.  
   
- This message may be preceded by another error message that details the cause.  
+  This message may be preceded by another error message that details the cause.  
   
 ### Solution  
  Review the details provided with the error message for additional help. Restarting [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™ may resolve this issue.  
@@ -119,7 +119,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
  For example:  
   
- \<schemaInfo document_type="4A1" version="V02_00" xmlns="http://schemas.microsoft.com/BizTalk/2003" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" \>  
+ \<schemaInfo document_type="4A1" version="V02_00" xmlns="<http://schemas.microsoft.com/BizTalk/2003>" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" \>  
   
 ## 404 Not found error when sending a HTTP request  
   
@@ -138,13 +138,13 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
 ##### To configure the BizTalk ISAPI extension DLL in IIS  
   
-1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  Expand **\<computer name\> (local computer)**, and then click **Web Service Extensions**.  
+2. Expand **\<computer name\> (local computer)**, and then click **Web Service Extensions**.  
   
-3.  In the **Web Service Extension** pane, verify that the status for HwsMessages HttpReceive is Allowed. If not, right-click **HwsMessages HttpReceive**, and then click **Allow**.  
+3. In the **Web Service Extension** pane, verify that the status for HwsMessages HttpReceive is Allowed. If not, right-click **HwsMessages HttpReceive**, and then click **Allow**.  
   
- If the HwsMessages HttpReceive web service extension is not configured (it is not included in the Web Service Extensions list in IIS Manager), perform the following procedure.  
+   If the HwsMessages HttpReceive web service extension is not configured (it is not included in the Web Service Extensions list in IIS Manager), perform the following procedure.  
   
 ##### To configure the BizTalk ISAPI extension DLL in IIS  
   
@@ -240,13 +240,13 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
 ##### To avoid this error and complete the configuration process  
   
-1.  In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to C:\Windows\system32\drivers\etc, and open the hosts file using Notepad.  
+1. In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to C:\Windows\system32\drivers\etc, and open the hosts file using Notepad.  
   
-2.  Comment out the line "127.0.0.1        localhost" by placing "# " at the start of the line. Save the changed hosts file.  
+2. Comment out the line "127.0.0.1        localhost" by placing "# " at the start of the line. Save the changed hosts file.  
   
-3.  Click **Retry** in the error dialog box.  
+3. Click **Retry** in the error dialog box.  
   
-4.  After configuration has completed successfully, re-open the hosts file in Notepad, remove the comment mark at the start of the line mapping localhost, and then save the hosts file.  
+4. After configuration has completed successfully, re-open the hosts file in Notepad, remove the comment mark at the start of the line mapping localhost, and then save the hosts file.  
   
 ## You receive an error regarding incorrect signature length  
   

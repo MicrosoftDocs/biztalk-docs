@@ -22,27 +22,27 @@ The local node provides support on the primary logical unit (PLU) session for fu
   
  Most of the protocol descriptions in the remainder of this section are accompanied by figures to illustrate the important features. The figures show:  
   
--   The relevant response header flags in SNA requests/responses.  
+- The relevant response header flags in SNA requests/responses.  
   
--   The sequence number of SNA requests/responses.  
+- The sequence number of SNA requests/responses.  
   
--   Any sense data (shown as "SENSE=...") on SNA responses or **Data** messages.  
+- Any sense data (shown as "SENSE=...") on SNA responses or **Data** messages.  
   
--   The acknowledgment required (ACKRQD) field in [Data](./data1.md) and [Status-Control](./status-control1.md) messages.  
+- The acknowledgment required (ACKRQD) field in [Data](./data1.md) and [Status-Control](./status-control1.md) messages.  
   
--   The relevant application flags in **Data** and **Status-Control** messages. (For more information, see [Application Flags](../core/application-flags1.md).)  
+- The relevant application flags in **Data** and **Status-Control** messages. (For more information, see [Application Flags](../core/application-flags1.md).)  
   
--   The message key field in **Data** messages.  
+- The message key field in **Data** messages.  
   
--   Any error codes (shown as "ERROR=...") in [Status-Acknowledge](./status-acknowledge1.md) or **Status-Control** messages.  
+- Any error codes (shown as "ERROR=...") in [Status-Acknowledge](./status-acknowledge1.md) or **Status-Control** messages.  
   
- For simplicity, it is assumed that all messages are function management data flowing on the same PLU session that:  
+  For simplicity, it is assumed that all messages are function management data flowing on the same PLU session that:  
   
--   Uses half-duplex flip-flop protocols.  
+- Uses half-duplex flip-flop protocols.  
   
--   Uses brackets, with reset state of between-bracket.  
+- Uses brackets, with reset state of between-bracket.  
   
--   Does not use the PLU CICB segment delivery option. (For more information, see [Segment Delivery](../core/segment-delivery1.md)).  
+- Does not use the PLU CICB segment delivery option. (For more information, see [Segment Delivery](../core/segment-delivery1.md)).  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection1.md)   

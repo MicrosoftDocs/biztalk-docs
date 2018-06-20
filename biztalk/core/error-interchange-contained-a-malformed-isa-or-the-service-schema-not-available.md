@@ -17,15 +17,15 @@ manager: "anneta"
 # The interchange contained a malformed ISA or the Service schema was not available
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|MalformedIsaError|  
-|Message Text|The interchange contained a malformed ISA or the Service schema was not available, it is being rejected completely|  
+|                 |                                                                                                                    |
+|-----------------|--------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                 |
+| Product Version |                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                             |
+|    Event ID     |                                                         -                                                          |
+|  Event Source   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI               |
+|    Component    |                                                     EDI Engine                                                     |
+|  Symbolic Name  |                                                 MalformedIsaError                                                  |
+|  Message Text   | The interchange contained a malformed ISA or the Service schema was not available, it is being rejected completely |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline could not process the incoming interchange, because the ISA or IEA segments in the interchange did not conform to the X12ServiceSchema, or the X12ServiceSchema (in BaseArtifacts.dll) was not deployed.  

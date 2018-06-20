@@ -42,19 +42,19 @@ manager: "anneta"
 #### Stored Procedure Name  
  DRDA defines a fully-qualified static SQL package using a PKGNAMCT (Package Name and Consistency Token) that consists of these multiple parts.  
   
--   RDBNAM (Relational Database Name)  
+- RDBNAM (Relational Database Name)  
   
--   DRDA RDBCOLID (RDB Collection Identifier)  
+- DRDA RDBCOLID (RDB Collection Identifier)  
   
--   DRDA PKGID (RDB Package Identifier)  
+- DRDA PKGID (RDB Package Identifier)  
   
--   DRDA PKGCNSTKN (RDB Package Consistency Token)  
+- DRDA PKGCNSTKN (RDB Package Consistency Token)  
   
--   DRDA PKGSN (Package Section Number)  
+- DRDA PKGSN (Package Section Number)  
   
- The DRDA Service converts the DRDA package name into a SQL Server stored procedure name, removing the RDBNAM part, separating the RDBCOLID using a period, and then separating the remaining three parts using a single underscore character.  
+  The DRDA Service converts the DRDA package name into a SQL Server stored procedure name, removing the RDBNAM part, separating the RDBCOLID using a period, and then separating the remaining three parts using a single underscore character.  
   
- DRDA BGNBND static SQL package naming convention:  
+  DRDA BGNBND static SQL package naming convention:  
   
 ```  
 RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN  

@@ -20,25 +20,25 @@ The AS2 receive pipelines generate an MDN (Message Disposition Notification) res
 ## When and How an MDN is Generated  
  An MDN is normally generated based upon the AS2 headers in the original AS2 message, as follows:  
   
--   An MDN will be sent if the Disposition-Notification-To header is present in the AS2 message.  
+- An MDN will be sent if the Disposition-Notification-To header is present in the AS2 message.  
   
--   If the Disposition-Notification-To header and the Receipt-Delivery-Option header are present in the message, the MDN will be sent asynchronously. It will be sent to the URL in the Receipt-Delivery-Option header, over a different connection than the original message.  
+- If the Disposition-Notification-To header and the Receipt-Delivery-Option header are present in the message, the MDN will be sent asynchronously. It will be sent to the URL in the Receipt-Delivery-Option header, over a different connection than the original message.  
   
--   If the Disposition-Notification-To header is present in the message, but the Receipt-Delivery-Option header is not present in the message, the MDN will be sent synchronously over the same connection as the original message.  
+- If the Disposition-Notification-To header is present in the message, but the Receipt-Delivery-Option header is not present in the message, the MDN will be sent synchronously over the same connection as the original message.  
   
- The Disassembler creates the AS2-From header in the MDN from the AS2-To header in the received AS2 message, and it creates the AS2-To header in the MDN from the AS2-From header in the received AS2 message.  
+  The Disassembler creates the AS2-From header in the MDN from the AS2-To header in the received AS2 message, and it creates the AS2-To header in the MDN from the AS2-From header in the received AS2 message.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to override these settings, specifying whether an MDN will be generated and how it will be generated based upon a party's AS2 agreement properties. You override the AS2 header settings in the message using the **Use agreement settings for validation and MDN instead of message header** property in the one-way AS2 agreement tab of the **Agreement Properties** dialog box. This property enables you to send an MDN even if the AS2 header does not call for one, or to send the MDN asynchronously when the AS2 header specifies a synchronous connection.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to override these settings, specifying whether an MDN will be generated and how it will be generated based upon a party's AS2 agreement properties. You override the AS2 header settings in the message using the **Use agreement settings for validation and MDN instead of message header** property in the one-way AS2 agreement tab of the **Agreement Properties** dialog box. This property enables you to send an MDN even if the AS2 header does not call for one, or to send the MDN asynchronously when the AS2 header specifies a synchronous connection.  
   
- If you set the **Use agreement settings for validation and MDN instead of message header** property, the values in the **Request MDN** section of the **Sender MDN Settings** page in the one-way AS2 agreement tab of the **Agreement Properties** dialog box will be used for the MDN, as follows:  
+  If you set the **Use agreement settings for validation and MDN instead of message header** property, the values in the **Request MDN** section of the **Sender MDN Settings** page in the one-way AS2 agreement tab of the **Agreement Properties** dialog box will be used for the MDN, as follows:  
   
--   An MDN will be sent if the **Request MDN** property is selected.  
+- An MDN will be sent if the **Request MDN** property is selected.  
   
--   If the **Request MDN** property is selected, and the **Request asynchronous MDN** property is selected, the MDN will be sent asynchronously. The MDN will be sent to the URL that the **Receipt-Delivery-Option (URL)** property is set to, over a different connection than the original message.  
+- If the **Request MDN** property is selected, and the **Request asynchronous MDN** property is selected, the MDN will be sent asynchronously. The MDN will be sent to the URL that the **Receipt-Delivery-Option (URL)** property is set to, over a different connection than the original message.  
   
--   If the **Request MDN** property is selected, but the **Request asynchronous MDN** property is not selected, the MDN will be sent synchronously over the same connection as the original message.  
+- If the **Request MDN** property is selected, but the **Request asynchronous MDN** property is not selected, the MDN will be sent synchronously over the same connection as the original message.  
   
- If the **Use agreement settings for validation and MDN instead of message header** property is set, the AS2-From property in the message header will be used in generating the MDN, but AS2-To will be taken from the agreement properties, and the pipeline will sign the MDN according to the **Request Signed MDN** property. The AS2 headers correspond to the agreement properties as follows:  
+  If the **Use agreement settings for validation and MDN instead of message header** property is set, the AS2-From property in the message header will be used in generating the MDN, but AS2-To will be taken from the agreement properties, and the pipeline will sign the MDN according to the **Request Signed MDN** property. The AS2 headers correspond to the agreement properties as follows:  
   
 |Agreement Property|AS2 Header in the Message|  
 |------------------------|-------------------------------|  
@@ -48,15 +48,15 @@ The AS2 receive pipelines generate an MDN (Message Disposition Notification) res
   
  If an MDN is enabled, the receive pipeline will promote the following context properties:  
   
--   `EdiIntAS.DispositionMode`  
+- `EdiIntAS.DispositionMode`  
   
--   `EdiIntAS.DispositionType`  
+- `EdiIntAS.DispositionType`  
   
- Both of these context properties must be promoted in order for the MDN to be generated. For more information about these context properties, see [AS2 Context Properties](../core/as2-context-properties.md).  
+  Both of these context properties must be promoted in order for the MDN to be generated. For more information about these context properties, see [AS2 Context Properties](../core/as2-context-properties.md).  
   
- If the configuration settings and the headers in the incoming message are inconsistent, the pipeline will generate a negative MDN.  
+  If the configuration settings and the headers in the incoming message are inconsistent, the pipeline will generate a negative MDN.  
   
- If the MDN is requested in the agreement properties, the receive pipeline will attempt to send an MDN even if an error occurs in AS2 processing.  
+  If the MDN is requested in the agreement properties, the receive pipeline will attempt to send an MDN even if an error occurs in AS2 processing.  
   
 ## How the Receive Pipeline Processes a Generated MDN  
  If an MDN is generated according to the above rules, the AS2EDIReceive or AS2Receive receive pipeline will process the MDN as follows:  

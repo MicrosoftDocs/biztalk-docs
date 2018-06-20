@@ -35,11 +35,11 @@ This topic describes how to use the BizTalk Server Administration console to rem
   
 ### To remove a map  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the map to remove, and then expand the application containing the map.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the map to remove, and then expand the application containing the map.  
   
-3.  Click the **Maps** folder, right-click the map, and then click **Remove**.  
+3. Click the **Maps** folder, right-click the map, and then click **Remove**.  
   
 > [!NOTE]
 >  To remove multiple maps, hold down the shift key, click each map to remove, right-click one of the maps, and then click **Remove**.  

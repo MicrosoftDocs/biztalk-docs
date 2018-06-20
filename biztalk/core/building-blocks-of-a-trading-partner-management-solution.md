@@ -18,16 +18,16 @@ manager: "anneta"
 ## Overview
 One of the core value propositions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to empower customers to enable business-to-business (B2B) communication with their business partners. To fulfill such business needs, enterprises need to model, store, and manage information about:  
   
--   Partners and their businesses  
+- Partners and their businesses  
   
--   Rules of engagement with the partners – These include details such as which message encoding protocol to use (EDI standards), which transport protocol to use (AS2), etc.  
+- Rules of engagement with the partners – These include details such as which message encoding protocol to use (EDI standards), which transport protocol to use (AS2), etc.  
   
- While [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] continues to provide support for EDI and AS2, it adds to the fundamental concepts around how to manage and store information about partners and their business. EDI standards, AS2 messaging, and the concepts put together form the building blocks of a B2B communication or a Trading Partner Management (TPM) solution. This section provides detailed explanation about these concepts. 
+  While [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] continues to provide support for EDI and AS2, it adds to the fundamental concepts around how to manage and store information about partners and their business. EDI standards, AS2 messaging, and the concepts put together form the building blocks of a B2B communication or a Trading Partner Management (TPM) solution. This section provides detailed explanation about these concepts. 
  
- For information about how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports EDI and AS2, see:
+  For information about how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports EDI and AS2, see:
  
- - [BizTalk Server EDI functionality](../core/biztalk-server-edi-functionality.md)
- - [BizTalk Server AS2 functionality](../core/biztalk-server-as2-functionality.md)
+  - [BizTalk Server EDI functionality](../core/biztalk-server-edi-functionality.md)
+  - [BizTalk Server AS2 functionality](../core/biztalk-server-as2-functionality.md)
   
 ## In This Section  
   

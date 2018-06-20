@@ -23,15 +23,15 @@ The topics in this section describe how to create new component interfaces—and
   
  You can do the following:  
   
--   Use component interfaces supplied by PeopleSoft with your application.  
+- Use component interfaces supplied by PeopleSoft with your application.  
   
-     Component interfaces also are known as Enterprise Integration Points (EIP).  
+   Component interfaces also are known as Enterprise Integration Points (EIP).  
   
--   Modify an existing component interface.  
+- Modify an existing component interface.  
   
--   Create a new component interface.  
+- Create a new component interface.  
   
- Before using your component interface, you must apply and test security.  
+  Before using your component interface, you must apply and test security.  
   
 > [!NOTE]
 >  This section is intended as a helpful supplement; it is not a substitute for PeopleSoft documentation. For complete and up-to-date information about PeopleSoft component interfaces, see the PeopleSoft Online Library.  

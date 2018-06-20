@@ -24,25 +24,25 @@ Business Activity Monitoring (BAM) features use a dynamically generated SQL and 
   
  BizTalk Server creates the following BAM databases when you configure BizTalk Server:  
   
--   BAM Primary Import (BAMPrimaryImport) database  
+- BAM Primary Import (BAMPrimaryImport) database  
   
--   BAM Star Schema (BAMStarSchema) database (optional)  
+- BAM Star Schema (BAMStarSchema) database (optional)  
   
--   BAM Analysis (BAMAnalysis) database (optional)  
+- BAM Analysis (BAMAnalysis) database (optional)  
   
--   BAM Archive (BAMArchive) database  
+- BAM Archive (BAMArchive) database  
   
- For information about the BAM databases, see [Managing BAM Databases](../core/managing-bam-databases.md).  
+  For information about the BAM databases, see [Managing BAM Databases](../core/managing-bam-databases.md).  
   
- Administrators perform the following management tasks for the BAM infrastructure, which are described in this section:  
+  Administrators perform the following management tasks for the BAM infrastructure, which are described in this section:  
   
--   Deploy and undeploy BAM definitions and views  
+- Deploy and undeploy BAM definitions and views  
   
--   Manage user access to BAM views  
+- Manage user access to BAM views  
   
--   Run the BAM DTS packages  
+- Run the BAM DTS packages  
   
--   Back up the BAM databases  
+- Back up the BAM databases  
   
 ## In This Section  
   

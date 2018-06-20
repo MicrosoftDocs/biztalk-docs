@@ -56,11 +56,11 @@ This topic presents the threat model analysis (TMA) for the Enterprise Single Si
 ## Step 2. Create and Analyze the Threat Model (Enterprise Single Sign-On Scenario)  
  This section provides the results of the TMA we did for the Enterprise Single Sign-On scenario for the sample architecture.  
   
--   **Identify Entry Points, Trust Boundaries, and Flow of Data** - See background information described earlier in step 1 and in [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).  
+- **Identify Entry Points, Trust Boundaries, and Flow of Data** - See background information described earlier in step 1 and in [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).  
   
--   **Create a List of the Identified Threats** - We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges. The following table lists the threats we identified when you use Enterprise Single Sign-On (SSO) to send and receive messages to and from BizTalk Server.  
+- **Create a List of the Identified Threats** - We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges. The following table lists the threats we identified when you use Enterprise Single Sign-On (SSO) to send and receive messages to and from BizTalk Server.  
   
- **Table 1 List of identified threats**  
+  **Table 1 List of identified threats**  
   
 |Threat|Description|Asset|Impact|  
 |------------|-----------------|-----------|------------|  

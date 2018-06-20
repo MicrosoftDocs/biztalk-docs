@@ -22,18 +22,18 @@ Pipeline Designer is a graphical editor, hosted in Microsoft [!INCLUDE[btsVStudi
   
  Pipeline Designer uses three key tools of the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell as part of the design experience:  
   
--   The Properties window, where most of the characteristics of pipeline objects are viewed and modified.  
+- The Properties window, where most of the characteristics of pipeline objects are viewed and modified.  
   
--   The Toolbox, which is used as a source for the design surface.  
+- The Toolbox, which is used as a source for the design surface.  
   
--   The design surface, where components from the Toolbox are dragged and dropped.  
+- The design surface, where components from the Toolbox are dragged and dropped.  
   
- The following figure shows the Pipeline Designer environment.  
+  The following figure shows the Pipeline Designer environment.  
   
- ![The Pipeline Designer editing environment](../core/media/ebiz-prog-usepipe.gif "ebiz_prog_usepipe")  
-Depicts the Pipeline Designer environment.  
+  ![The Pipeline Designer editing environment](../core/media/ebiz-prog-usepipe.gif "ebiz_prog_usepipe")  
+  Depicts the Pipeline Designer environment.  
   
- Pipeline Designer is integrated with the BizTalk project template to enhance your development experience. After using the project system to create a new BizTalk project, you can use the **Add New Item** command on the **File** menu to add a pipeline to your solution. For more information about the BizTalk project template, see [Using the BizTalk Project System](../core/using-the-biztalk-project-system.md).  
+  Pipeline Designer is integrated with the BizTalk project template to enhance your development experience. After using the project system to create a new BizTalk project, you can use the **Add New Item** command on the **File** menu to add a pipeline to your solution. For more information about the BizTalk project template, see [Using the BizTalk Project System](../core/using-the-biztalk-project-system.md).  
   
 > [!NOTE]
 >  In previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the concept of a pipeline was encapsulated in message channels and ports, which defined a set order of specific components that were applied to a document. In this version, the pipeline is flexible because you are free to reorder the components in each stage of the pipeline and can easily insert multiple custom components throughout the pipeline.  

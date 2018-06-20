@@ -17,15 +17,15 @@ manager: "anneta"
 # Edifact interchange Xml serialization failed due to invalid structure, no FunctionalGroup or ServiceSchema
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|-|  
-|Message Text|Edifact interchange Xml serialization failed due to invalid structure. Looking for FunctionalGroup or ServiceSchema for UNZ, but none found.|  
+|                 |                                                                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                              |
+| Product Version |                                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                          |
+|    Event ID     |                                                                      -                                                                       |
+|  Event Source   |                            [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                            |
+|    Component    |                                                                  EDI Engine                                                                  |
+|  Symbolic Name  |                                                                      -                                                                       |
+|  Message Text   | Edifact interchange Xml serialization failed due to invalid structure. Looking for FunctionalGroup or ServiceSchema for UNZ, but none found. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process an EDIFACT batched interchange that was preserved because the TransactionSetGroup or FunctionalGroup tags were not included in the interchange XML file.  

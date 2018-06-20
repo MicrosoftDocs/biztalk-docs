@@ -30,15 +30,15 @@ This topic provides guidance to application teams for disaster recovery requirem
   
  This topic does not provide detailed disaster recovery procedures for the following areas:  
   
--   Non-BizTalk applications  
+- Non-BizTalk applications  
   
--   Application source code  
+- Application source code  
   
--   Certificates  
+- Certificates  
   
--   Application operations  
+- Application operations  
   
- There may be additional areas that require documentation in an application’s disaster recovery plan not listed above that must be addressed by each application team.  
+  There may be additional areas that require documentation in an application’s disaster recovery plan not listed above that must be addressed by each application team.  
   
 ## In This Section  
   

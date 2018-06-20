@@ -29,21 +29,21 @@ One of the most fundamental processes in the high-technology supply chain is the
 ## The Present Business Process  
  Without an integrated solution, the purchase-order process for the manufacturer and supplier works as follows:  
   
-1.  A customer of the high-tech equipment manufacturer sends an order to the manufacturer over a Web site.  
+1. A customer of the high-tech equipment manufacturer sends an order to the manufacturer over a Web site.  
   
-2.  In response to the original order, an employee of the manufacturer creates a purchase-order request in their LOB ERP application for the IC supplier.  
+2. In response to the original order, an employee of the manufacturer creates a purchase-order request in their LOB ERP application for the IC supplier.  
   
-3.  The purchase-order request traverses the various parties in the manufacturing company who have to record, process, review, and authorize the purchase-order request. This processing and routing is a combination of automated processes for users of the ERP system, and manual processes, such as e-mail with an attached [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] spreadsheet.  
+3. The purchase-order request traverses the various parties in the manufacturing company who have to record, process, review, and authorize the purchase-order request. This processing and routing is a combination of automated processes for users of the ERP system, and manual processes, such as e-mail with an attached [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] spreadsheet.  
   
-4.  An employee creates a purchase-order request in e-mail, and sends it to the supplier. A number of other employees communicating through e-mail, fax, or EDI to other suppliers repeat this process. Different departments use different processes. With those suppliers that use EDI, an employee of the manufacturer must still create a message manually from the ERP system.  
+4. An employee creates a purchase-order request in e-mail, and sends it to the supplier. A number of other employees communicating through e-mail, fax, or EDI to other suppliers repeat this process. Different departments use different processes. With those suppliers that use EDI, an employee of the manufacturer must still create a message manually from the ERP system.  
   
-5.  An employee at the supplier receives the message, and then manually keys it into their ERP system, changing the format of the data. By e-mail, the employee notifies other employees of the request.  
+5. An employee at the supplier receives the message, and then manually keys it into their ERP system, changing the format of the data. By e-mail, the employee notifies other employees of the request.  
   
-6.  The other employees analyze the request. If required, they notify their own parts suppliers of the need for parts. Depending on the supplier, they use telephone, fax, e-mail, or FTP to notify their suppliers.  
+6. The other employees analyze the request. If required, they notify their own parts suppliers of the need for parts. Depending on the supplier, they use telephone, fax, e-mail, or FTP to notify their suppliers.  
   
-7.  After conferring with their departments and suppliers, each employee accepts or rejects each purchase order product line item, and then confirms or rejects the purchase order, and indicates that it is pending. They perform these tasks in the ERP system.  
+7. After conferring with their departments and suppliers, each employee accepts or rejects each purchase order product line item, and then confirms or rejects the purchase order, and indicates that it is pending. They perform these tasks in the ERP system.  
   
-8.  An employee of the supplier creates a purchase-order response in e-mail, either confirming or rejecting each line item of the request, or creating a message indicating that the purchase order is pending. The employee of the supplier sends the response message to the manufacturer. If a line item is pending, they will later create another message indicating whether the pending item is accepted or rejected.  
+8. An employee of the supplier creates a purchase-order response in e-mail, either confirming or rejecting each line item of the request, or creating a message indicating that the purchase order is pending. The employee of the supplier sends the response message to the manufacturer. If a line item is pending, they will later create another message indicating whether the pending item is accepted or rejected.  
   
 9. An employee of the manufacturer receives the purchase-order response. They re-enter the order into their back-end ERP system.  
   
@@ -56,39 +56,39 @@ One of the most fundamental processes in the high-technology supply chain is the
   
  In this scenario, an integrated system changes the following processes:  
   
--   A RosettaNet Implementation Framework (RNIF) connection replaces the routine manual interactions between the manufacturer and the IC supplier. The system automatically sends and receives messages, routes data to back-end systems, and acknowledges and responds to the messages. Both the manufacturer and the supplier use [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] to implement the RNIF connection.  
+- A RosettaNet Implementation Framework (RNIF) connection replaces the routine manual interactions between the manufacturer and the IC supplier. The system automatically sends and receives messages, routes data to back-end systems, and acknowledges and responds to the messages. Both the manufacturer and the supplier use [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] to implement the RNIF connection.  
   
--   An RNIF connection replaces the EDI connection between the manufacturer, the IC supplier, and other trading partners. This lets the integration system route data automatically to the back-end systems of the trading partners. Some of the trading partners use [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] to implement the RNIF connection; others use a different RosettaNet-compliant solution.  
+- An RNIF connection replaces the EDI connection between the manufacturer, the IC supplier, and other trading partners. This lets the integration system route data automatically to the back-end systems of the trading partners. Some of the trading partners use [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] to implement the RNIF connection; others use a different RosettaNet-compliant solution.  
   
--   For those smaller partners that do not have a RosettaNet-compliant solution, the manufacturer and the IC supplier create Web services that the partner can access with a Web browser. The Web service uses a standard RNIF connection to communicate with the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system at either the manufacturer or the IC supplier.  
+- For those smaller partners that do not have a RosettaNet-compliant solution, the manufacturer and the IC supplier create Web services that the partner can access with a Web browser. The Web service uses a standard RNIF connection to communicate with the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system at either the manufacturer or the IC supplier.  
   
--   Messages exchanged by the manufacturers and the suppliers follow schemas that comply with standard RosettaNet Partner Interface Processes (PIPs). These schemas replace the formats used in EDI and FTP. All trading partners use the same schemas; they do not have to map data between messages.  
+- Messages exchanged by the manufacturers and the suppliers follow schemas that comply with standard RosettaNet Partner Interface Processes (PIPs). These schemas replace the formats used in EDI and FTP. All trading partners use the same schemas; they do not have to map data between messages.  
   
--   [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] automatically validates all messages against the schemas, diminishing the risk of data errors.  
+- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] automatically validates all messages against the schemas, diminishing the risk of data errors.  
   
--   Administrators can intervene on [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] servers using administrative software tools. Business decision-makers on client computers can use business-monitoring tools hosted in Microsoft Office-based applications or tools. Both these are efficient processes that keep the system operating effectively and provide more visibility into how the system—and how the business—is running.  
+- Administrators can intervene on [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] servers using administrative software tools. Business decision-makers on client computers can use business-monitoring tools hosted in Microsoft Office-based applications or tools. Both these are efficient processes that keep the system operating effectively and provide more visibility into how the system—and how the business—is running.  
   
 ### Message Flow  
  The business process now includes the following steps:  
   
-1.  A customer of the high-tech equipment manufacturer sends an order to the manufacturer over a Web site.  
+1. A customer of the high-tech equipment manufacturer sends an order to the manufacturer over a Web site.  
   
-2.  In response to the original order, an employee of the manufacturer generates a purchase-order request on the company's Order and Inventory Management System. This LOB application is an ERP system with a Web-based user interface.  
+2. In response to the original order, an employee of the manufacturer generates a purchase-order request on the company's Order and Inventory Management System. This LOB application is an ERP system with a Web-based user interface.  
   
-3.  The system sends the purchase-order request, still in the format native to the ERP system, to [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+3. The system sends the purchase-order request, still in the format native to the ERP system, to [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
-4.  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] automatically generates a purchase-order request message conforming to the 3A4 PIP defined by the RosettaNet organization. This purchase-order request is in XML format. The PIP defines the content of the message.  
+4. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] automatically generates a purchase-order request message conforming to the 3A4 PIP defined by the RosettaNet organization. This purchase-order request is in XML format. The PIP defines the content of the message.  
   
-    > [!NOTE]
-    >  The 3A4 PIP makes sure that all purchase-order requests and responses are the same in form. This PIP is part of a collection of RosettaNet-defined PIPs that form a complete, interconnected messaging system. For example, before sending the 3A4 message, the buyer may look for price and availability (PIP 3A2), request a quote (PIP 3A1), or transfer their shopping cart (PIP 3A3). After sending the purchase-order request, the buyer may change the purchase order (PIP 3A8), cancel the purchase order (PIP 3A9), query for purchase-order status (PIP 3A5), or distribute the purchase-order status (PIP 3A6). The RosettaNet organization has standardized all these messages.  
+   > [!NOTE]
+   >  The 3A4 PIP makes sure that all purchase-order requests and responses are the same in form. This PIP is part of a collection of RosettaNet-defined PIPs that form a complete, interconnected messaging system. For example, before sending the 3A4 message, the buyer may look for price and availability (PIP 3A2), request a quote (PIP 3A1), or transfer their shopping cart (PIP 3A3). After sending the purchase-order request, the buyer may change the purchase order (PIP 3A8), cancel the purchase order (PIP 3A9), query for purchase-order status (PIP 3A5), or distribute the purchase-order status (PIP 3A6). The RosettaNet organization has standardized all these messages.  
   
-5.  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] wraps the request message (named the service content) with RNIF headers that let [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] transmit the message over the Internet to another [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] computer at the supplier site. RNIF defines how partners exchange messages over the Internet.  
+5. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] wraps the request message (named the service content) with RNIF headers that let [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] transmit the message over the Internet to another [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] computer at the supplier site. RNIF defines how partners exchange messages over the Internet.  
   
-6.  The manufacturer's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system sends the purchase-order request to the IC supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system.  
+6. The manufacturer's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system sends the purchase-order request to the IC supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system.  
   
-7.  The supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] N system receives the purchase-order request. If this were a single-action request (one without a corresponding response), the supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system would return a signal message that acknowledges receipt of the message. However, because this is a double-action message, the supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system will return a receipt acknowledgement signal message followed by a response message as well.  
+7. The supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] N system receives the purchase-order request. If this were a single-action request (one without a corresponding response), the supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system would return a signal message that acknowledges receipt of the message. However, because this is a double-action message, the supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system will return a receipt acknowledgement signal message followed by a response message as well.  
   
-8.  The supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system removes the RNIF headers from the purchase-order request message, processes the service content of the message, and then routes the request to the supplier's ERP system.  
+8. The supplier's [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system removes the RNIF headers from the purchase-order request message, processes the service content of the message, and then routes the request to the supplier's ERP system.  
   
 9. Employees of the supplier work in the ERP system to process the order. If they have to send messages to their own parts suppliers, they do so using the same BizTalk and [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] system. The IT department can customize the system to respond to the manufacturer automatically.  
   

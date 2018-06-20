@@ -23,28 +23,28 @@ The XML disassembler and assembler ensure that [!INCLUDE[btsCoName](../../includ
 ## XML Disassembler  
  The XML disassembler parses incoming XML messages into XML segments for processing. As it parses the messages, the disassembler performs the following tasks:  
   
--   Handles escape sequences  
+- Handles escape sequences  
   
--   Handles checks of required/optional properties  
+- Handles checks of required/optional properties  
   
--   Handles declared Z segments  
+- Handles declared Z segments  
   
- As it parses the messages, the dissassembler performs the following:  
+  As it parses the messages, the dissassembler performs the following:  
   
--   Syntactic validation  
+- Syntactic validation  
   
--   Schema validation (if enabled)  
+- Schema validation (if enabled)  
   
 ## XML Assembler  
  The XML assembler serializes XML segments into an outgoing XML message. The XML assembler supports and creates the following acknowledgment (ACK) messages:  
   
--   Static  
+- Static  
   
--   Original mode  
+- Original mode  
   
--   Enhanced mode  
+- Enhanced mode  
   
- The XML assembler also has the ability to route deferred ACK messages.  
+  The XML assembler also has the ability to route deferred ACK messages.  
   
 ## See Also  
  [BTAHL72XML Processing](../../adapters-and-accelerators/accelerator-hl7/btahl72xml-processing.md)   

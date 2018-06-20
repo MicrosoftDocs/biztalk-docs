@@ -20,41 +20,41 @@ This report shows all EDI interchanges that are processed by the EDI send and re
 ## Fields in the Status Report  
  The EDI Interchange and Correlated ACK Status Report displays the following information for the received or sent interchanges and the acknowledgments that are correlated to them:  
   
--   Sender Party  
+- Sender Party  
   
-    > [!NOTE]
-    >  The sender party will be determined as follows:  
-    >   
-    >  -   If the party name in the interchange matches the name configured in the EDI Properties for a party, then the configured name is displayed.  
-    > -   If the party name in the interchange does not match any of the configured EDI Properties for existing parties, the party name specified in the interchange is displayed.  
+  > [!NOTE]
+  >  The sender party will be determined as follows:  
+  > 
+  > - If the party name in the interchange matches the name configured in the EDI Properties for a party, then the configured name is displayed.  
+  >   -   If the party name in the interchange does not match any of the configured EDI Properties for existing parties, the party name specified in the interchange is displayed.  
   
--   Receiver Party  
+- Receiver Party  
   
-    > [!NOTE]
-    >  The receiver party name will be determined as follows:  
-    >   
-    >  -   If the party name in the interchange matches the name configured in the EDI Properties for a party, then the configured name is displayed.  
-    > -   If the party name in the interchange does not match any of the configured EDI Properties for existing parties, the party name specified in the interchange is displayed.  
+  > [!NOTE]
+  >  The receiver party name will be determined as follows:  
+  > 
+  > - If the party name in the interchange matches the name configured in the EDI Properties for a party, then the configured name is displayed.  
+  >   -   If the party name in the interchange does not match any of the configured EDI Properties for existing parties, the party name specified in the interchange is displayed.  
   
--   Control ID  
+- Control ID  
   
--   Direction  
+- Direction  
   
--   Interchange Date Time  
+- Interchange Date Time  
   
--   EDI encoding type  
+- EDI encoding type  
   
--   Interchange Status  
+- Interchange Status  
   
--   Group Count  
+- Group Count  
   
--   Port ID  
+- Port ID  
   
--   Sender Party Alias  
+- Sender Party Alias  
   
--   Receiver Party Alias  
+- Receiver Party Alias  
   
--   Transaction Set Correlation ID  
+- Transaction Set Correlation ID  
   
 ## Fields in the Query Expression for the Status Report  
  You can customize the EDI Interchange and Correlated ACK Status Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  
@@ -74,22 +74,22 @@ This report shows all EDI interchanges that are processed by the EDI send and re
 ## Status Definitions  
  The status values used in EDI status reports have the following definitions:  
   
--   Accepted: Valid interchange  
+- Accepted: Valid interchange  
   
--   Accepted with Errors: Errors were noted in segments  
+- Accepted with Errors: Errors were noted in segments  
   
--   Sent: The interchange was sent successfully  
+- Sent: The interchange was sent successfully  
   
--   All: Display a message with any of the other values  
+- All: Display a message with any of the other values  
   
--   Ack Expected  
+- Ack Expected  
   
-    > [!NOTE]
-    >  The Interchange Status field in the Interchange Status and ACK Details status report will be set to "Ack Expected" for an outbound message when the message is sent if [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] expects a technical acknowledgment. This occurs if the **TA1 Expected** property is set in **Acknowledgements** page for the one-way agreement tab. The status will be changed to “Accepted” when the technical acknowledgment has been received and validated. Note that this only occurs for a technical acknowledgment, not a functional acknowledgment.  
+  > [!NOTE]
+  >  The Interchange Status field in the Interchange Status and ACK Details status report will be set to "Ack Expected" for an outbound message when the message is sent if [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] expects a technical acknowledgment. This occurs if the **TA1 Expected** property is set in **Acknowledgements** page for the one-way agreement tab. The status will be changed to “Accepted” when the technical acknowledgment has been received and validated. Note that this only occurs for a technical acknowledgment, not a functional acknowledgment.  
   
--   Ack Not Expected  
+- Ack Not Expected  
   
--   Rejected: The interchange was invalid due to errors.  
+- Rejected: The interchange was invalid due to errors.  
   
 ## Additional Reports Displayed from This Report  
  You can display the following additional status reports for a transaction set shown in the Transaction Set Details report. You access the reports by right-clicking an interchange or acknowledgment listed in the EDI Interchange and Correlated ACK Status report, and then clicking the appropriate command:  

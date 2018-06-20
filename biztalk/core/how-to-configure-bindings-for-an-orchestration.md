@@ -29,17 +29,17 @@ This topic describes how to use the BizTalk Server Administration console to con
   
 ## Configure bindings for an orchestration  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration for which you want to configure bindings  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration for which you want to configure bindings  
   
-3.  Click **Orchestrations**, right-click the orchestration for which you want to configure bindings, and then click **Properties**.  
+3. Click **Orchestrations**, right-click the orchestration for which you want to configure bindings, and then click **Properties**.  
   
-4.  Click the **Bindings** tab, and from the **Host** list, select the host on which to enlist an orchestration.  
+4. Click the **Bindings** tab, and from the **Host** list, select the host on which to enlist an orchestration.  
   
-5.  From the drop-down lists in the **Receive Ports** column, next to each inbound logical port, select the receive port to which you want to bind the logical port.  
+5. From the drop-down lists in the **Receive Ports** column, next to each inbound logical port, select the receive port to which you want to bind the logical port.  
   
-6.  From the drop-down list in the **Send Ports/Send Port Groups** column, next to each inbound logical port, select the send port to which you want to bind the logical port, and then click **OK**.  
+6. From the drop-down list in the **Send Ports/Send Port Groups** column, next to each inbound logical port, select the send port to which you want to bind the logical port, and then click **OK**.  
   
 ## See Also  
  [Managing Orchestrations](../core/managing-orchestrations.md)   

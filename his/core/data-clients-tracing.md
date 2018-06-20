@@ -151,7 +151,7 @@ There are multiple options for tracing, which can help to capture problems in th
 |Aggregate Converter|Host Integration Server Encoder Aggregate Converter|  
 |Primitive Converter|Host Integration Server Encoder Primitive Converter|  
   
- ***Table 1.** Host File trace source point names.*  
+ <em>**Table 1.</em>* Host File trace source point names.*  
   
  **Trace Level**  
   
@@ -168,7 +168,7 @@ There are multiple options for tracing, which can help to capture problems in th
 |Data|Output all messages, and user data.|  
 |Debug|Output all messages, user data, and debug data.|  
   
- ***Table 2.** Host File text trace listener levels.*  
+ <em>**Table 2.</em>* Host File text trace listener levels.*  
   
 ```  
 <containers>  

@@ -39,13 +39,13 @@ Interchanges are processed at the disassembly stage in two modes:
   
  This interchange contains five messages, all of which the disassembler successfully extracts from the interchange. They are processed as follows:  
   
--   The first, second, and third messages propagate through the pipeline and are ready to be published.  
+- The first, second, and third messages propagate through the pipeline and are ready to be published.  
   
--   The fourth message fails processing at the disassembling stage in the pipeline. This causes all the messages that have already been processed to roll back and the original interchange message to be suspended as resumable.  
+- The fourth message fails processing at the disassembling stage in the pipeline. This causes all the messages that have already been processed to roll back and the original interchange message to be suspended as resumable.  
   
- The result of submission is:  
+  The result of submission is:  
   
--   Nothing is published. The original interchange is suspended because in standard interchange processing, any extracted message that fails at any point during or after interchange processing results in all extracted messages being discarded and the original interchange being placed on the Suspended queue as resumable.  
+- Nothing is published. The original interchange is suspended because in standard interchange processing, any extracted message that fails at any point during or after interchange processing results in all extracted messages being discarded and the original interchange being placed on the Suspended queue as resumable.  
   
 ### Example 2  
  The example uses the same interchange processing and propagation scenario as the previous example, except that the disassembly stage is configured to do recoverable interchange processing.  

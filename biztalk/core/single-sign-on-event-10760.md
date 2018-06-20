@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10760
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10760|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_EXISTING_VALUE|  
-|Message Text|The property bag contained a VT_NULL value to indicate that the existing property value should be retained, but there is no existing value.|  
+|                 |                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                          Enterprise Single Sign-On                                                          |
+| Product Version |                                         [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                          |
+|    Event ID     |                                                                    10760                                                                    |
+|  Event Source   |                                                                   ENTSSO                                                                    |
+|    Component    |                                                                     N/A                                                                     |
+|  Symbolic Name  |                                                         ENTSSO_E_NO_EXISTING_VALUE                                                          |
+|  Message Text   | The property bag contained a VT_NULL value to indicate that the existing property value should be retained, but there is no existing value. |
   
 ## Explanation  
  This is an internal error.  

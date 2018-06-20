@@ -18,15 +18,15 @@ To prevent an attacker from spoofing their identity, tampering with the data, or
   
 ### To protect the HIP listener  
   
-1.  Click **Start**, click **Control Panel**, double-click **Administrative Tools**, and then double-click **Services**.  
+1. Click **Start**, click **Control Panel**, double-click **Administrative Tools**, and then double-click **Services**.  
   
-2.  In the details pane, right-click **HIPService**, and then click **Properties**.  
+2. In the details pane, right-click **HIPService**, and then click **Properties**.  
   
-3.  Click **This account**,and then specify a valid Windows privileged account.  
+3. Click **This account**,and then specify a valid Windows privileged account.  
   
-4.  Type the password for the user account in **Password** and in **Confirm password**, and then click **OK**. If you select the **Network Service** account, the password must be blank.  
+4. Type the password for the user account in **Password** and in **Confirm password**, and then click **OK**. If you select the **Network Service** account, the password must be blank.  
   
- You can also help mitigate this threat with the following deployment scenario:  
+   You can also help mitigate this threat with the following deployment scenario:  
   
 -   Service-based security  
   

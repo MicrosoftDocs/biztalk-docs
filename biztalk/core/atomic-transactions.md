@@ -28,37 +28,37 @@ manager: "anneta"
 # Atomic Transactions
 BizTalk orchestrations can be designed to run discrete pieces of work, following the classic 'ACID' concept of a transaction. These discrete or atomic units of work, when performed, move the business process from one consistent state to a new, consistent and durable state that is isolated from other units of work. This is typically done by using the **Scope** construct that encapsulates the units of work with the transactional semantics. The entire orchestration can also be defined as an atomic transaction without the use of scopes. The scopes, however, cannot be marked as transactional unless the orchestration itself is marked as a long running or atomic transaction type. Atomic transactions guarantee that any partial updates are rolled back automatically in the event of a failure during the transactional update, and that the effects of the transaction are erased (except for the effects of any .NET calls that are made in the transaction). Atomic transactions in BizTalk orchestrations are similar to distributed transaction coordinator (DTC) transactions in that they are generally short-lived and have the four "ACID" attributes (atomicity, consistency, isolation, and durability):  
   
--   **Atomicity**  
+- **Atomicity**  
   
-     A transaction represents an atomic unit of work. Either all modifications within a transaction are performed, or none of the modifications are performed.  
+   A transaction represents an atomic unit of work. Either all modifications within a transaction are performed, or none of the modifications are performed.  
   
--   **Consistency**  
+- **Consistency**  
   
-     When committed, a transaction must preserve the integrity of the data within the system. If a transaction performs a data modification on a database that was internally consistent before the transaction started, the database must still be internally consistent when the transaction is committed. Ensuring this property is largely the responsibility of the application developer.  
+   When committed, a transaction must preserve the integrity of the data within the system. If a transaction performs a data modification on a database that was internally consistent before the transaction started, the database must still be internally consistent when the transaction is committed. Ensuring this property is largely the responsibility of the application developer.  
   
--   **Isolation**  
+- **Isolation**  
   
-     Modifications made by concurrent transactions must be isolated from the modifications made by other concurrent transactions. Isolated transactions that run concurrently perform modifications that preserve internal database consistency exactly as they would if the transactions were run serially.  
+   Modifications made by concurrent transactions must be isolated from the modifications made by other concurrent transactions. Isolated transactions that run concurrently perform modifications that preserve internal database consistency exactly as they would if the transactions were run serially.  
   
--   **Durability**  
+- **Durability**  
   
-     After a transaction is committed, all modifications are permanently in place in the system by default. The modifications persist even if a system failure occurs.  
+   After a transaction is committed, all modifications are permanently in place in the system by default. The modifications persist even if a system failure occurs.  
   
- The following isolation levels are supported by the atomic transactions used in BizTalk Orchestrations:  
+  The following isolation levels are supported by the atomic transactions used in BizTalk Orchestrations:  
   
--   **Read Committed**  
+- **Read Committed**  
   
-     Shared locks are held while the data is being read to avoid dirty reads, but the data can be changed before the end of the transaction, resulting in non-repeatable reads or phantom data.  
+   Shared locks are held while the data is being read to avoid dirty reads, but the data can be changed before the end of the transaction, resulting in non-repeatable reads or phantom data.  
   
--   **Repeatable Read**  
+- **Repeatable Read**  
   
-     Locks are placed on all data that is used in a query, preventing other users from updating the data. This prevents non-repeatable reads, but phantom rows are still possible.  
+   Locks are placed on all data that is used in a query, preventing other users from updating the data. This prevents non-repeatable reads, but phantom rows are still possible.  
   
--   **Serializable**  
+- **Serializable**  
   
-     A range lock is placed preventing other users from updating or inserting rows into the database until the transaction is complete.  
+   A range lock is placed preventing other users from updating or inserting rows into the database until the transaction is complete.  
   
- BizTalk Server ensures that state changes within an atomic transaction—such as modifications to variables, messages, and objects—are visible outside the scope of the atomic transaction only upon commitment of the transaction. The intermediate state changes are isolated from other parts of an orchestration.  
+  BizTalk Server ensures that state changes within an atomic transaction—such as modifications to variables, messages, and objects—are visible outside the scope of the atomic transaction only upon commitment of the transaction. The intermediate state changes are isolated from other parts of an orchestration.  
   
 > [!NOTE]
 >  If an atomic transaction contains a **Receive** shape, a **Send** shape, or a **Start Orchestration** shape, the corresponding actions will not take place until the transaction has committed.  

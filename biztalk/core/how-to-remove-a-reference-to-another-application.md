@@ -29,13 +29,13 @@ This topic describes how to use the BizTalk Server Administration console to rem
   
 ### To remove a reference to another application  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand  **BizTalk Server Administration**, right-click the application from which you want to remove a reference (the one that refers to another application), and then click **Properties**.  
+2. In the console tree, expand  **BizTalk Server Administration**, right-click the application from which you want to remove a reference (the one that refers to another application), and then click **Properties**.  
   
-3.  In the left pane of the properties page, click **References**.  
+3. In the left pane of the properties page, click **References**.  
   
-4.  In the right pane, click the application that you no longer want to reference from this application, click **Remove**, and then click **OK**.  
+4. In the right pane, click the application that you no longer want to reference from this application, click **Remove**, and then click **OK**.  
   
 ## See Also  
  [Creating and Modifying BizTalk Applications](../core/creating-and-modifying-biztalk-applications.md)

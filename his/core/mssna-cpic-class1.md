@@ -46,12 +46,12 @@ class MsSna_Cpic : MsSna_Config
  The Symbolic Destination name.  
   
  **Comment**  
- Data Type: **String** Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   
  **ApplicationTPName**  
- Data Type: **String** Qualifiers: **MAXLEN(64)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(64)</strong>Access Type: Read/Write  
   
  The application TP name.  
   
@@ -66,7 +66,7 @@ class MsSna_Cpic : MsSna_Config
  The partner LU name. Valid only for identifying a partner LU with a fully qualified name.  
   
  **FullNetName**  
- Data Type: **String** Qualifiers: **MAXLEN(8)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(8)</strong>Access Type: Read/Write  
   
  The partner network name. Valid only for identifying a partner LU with a fully qualified name.  
   

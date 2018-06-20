@@ -21,7 +21,7 @@ Imports the business-to-business parties and agreements from a source XML bindin
 
 > [!IMPORTANT]
 > This command is new starting with **[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, and any newer versions.
-  
+> 
 > [!NOTE]
 >  Binding files generated in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] do not have an application specified. They are imported into the default application.  
   

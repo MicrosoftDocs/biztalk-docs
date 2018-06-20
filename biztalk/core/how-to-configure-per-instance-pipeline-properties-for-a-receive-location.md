@@ -36,22 +36,22 @@ This topic describes how to use the BizTalk Server Administration console to con
   
 ### To configure per-instance pipeline properties for a receive location  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the receive location for which to configure pipeline properties, expand **Applications**, and then expand the application containing the receive location.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the receive location for which to configure pipeline properties, expand **Applications**, and then expand the application containing the receive location.  
   
-3.  Click the **Receive Locations** folder, right-click the receive location, and then click **Properties**.  
+3. Click the **Receive Locations** folder, right-click the receive location, and then click **Properties**.  
   
-4.  Click the ellipsis (…) to the right of the **Receive Pipeline** box.  
+4. Click the ellipsis (…) to the right of the **Receive Pipeline** box.  
   
-5.  Configure the properties you want, and then click **OK**. For more information, click **Help** on the properties page.  
+5. Configure the properties you want, and then click **OK**. For more information, click **Help** on the properties page.  
   
-    > [!IMPORTANT]
-    >  Make sure that you enter correct information for pipelines properties. If you enter an invalid value, for example a string rather than a number, it will generate an error.  
+   > [!IMPORTANT]
+   >  Make sure that you enter correct information for pipelines properties. If you enter an invalid value, for example a string rather than a number, it will generate an error.  
   
-6.  If this is a request-response receive location, click the ellipsis (…) to the right of the **Send Pipeline** box.  
+6. If this is a request-response receive location, click the ellipsis (…) to the right of the **Send Pipeline** box.  
   
-7.  Configure the properties you want, and then click **OK** twice. For more information, click **Help** on the properties page.  
+7. Configure the properties you want, and then click **OK** twice. For more information, click **Help** on the properties page.  
   
 ## See Also  
  [Managing Pipelines](../core/managing-pipelines.md)   

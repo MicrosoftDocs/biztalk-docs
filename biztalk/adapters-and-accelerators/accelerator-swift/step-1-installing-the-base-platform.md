@@ -23,29 +23,29 @@ For the base platform, install [!INCLUDE[btsCoName](../../includes/btsconame-md.
   
 ## Pre-Installation  
   
--   Disable all antivirus software during software installation. Some antivirus software programs might prevent required software components from installing properly.  
+- Disable all antivirus software during software installation. Some antivirus software programs might prevent required software components from installing properly.  
   
--   Make sure that you enter the appropriate licensing information (maximum number of connections you have purchased per server). System performance can be affected by the number of available connections.  
+- Make sure that you enter the appropriate licensing information (maximum number of connections you have purchased per server). System performance can be affected by the number of available connections.  
   
--   Make sure that you have installed all the software prerequisites required for a BizTalk Server installation. For more information, see the BizTalk Server Installation Instructions at [http://go.microsoft.com/fwlink/?LinkId=81041](http://go.microsoft.com/fwlink/?LinkId=81041). [Installation Guide for BizTalk 2013 R2 Accelerator for SWIFT](http://msdn.microsoft.com/library/d2b4a9f3-baeb-4fbc-9fda-5e4178832cd1).  
+- Make sure that you have installed all the software prerequisites required for a BizTalk Server installation. For more information, see the BizTalk Server Installation Instructions at [http://go.microsoft.com/fwlink/?LinkId=81041](http://go.microsoft.com/fwlink/?LinkId=81041). [Installation Guide for BizTalk 2013 R2 Accelerator for SWIFT](http://msdn.microsoft.com/library/d2b4a9f3-baeb-4fbc-9fda-5e4178832cd1).  
   
--   Test all critical updates in an offline environment before installing them on your production servers.  
+- Test all critical updates in an offline environment before installing them on your production servers.  
   
--   Make sure that you install all the applicable hotfixes for all the products that you install as part of your deployment. For more information, see the following sources:  
+- Make sure that you install all the applicable hotfixes for all the products that you install as part of your deployment. For more information, see the following sources:  
   
-    -   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server Online Help  
+  - [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server Online Help  
   
-    -   BizTalk Server Installation Instructions at [http://go.microsoft.com/fwlink/?LinkId=81041](http://go.microsoft.com/fwlink/?LinkId=81041).  
+  - BizTalk Server Installation Instructions at [http://go.microsoft.com/fwlink/?LinkId=81041](http://go.microsoft.com/fwlink/?LinkId=81041).  
   
-    -   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?linkid=48685](http://go.microsoft.com/fwlink/?linkid=48685).  
+  - [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?linkid=48685](http://go.microsoft.com/fwlink/?linkid=48685).  
   
-    -   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Download Center Web site at [http://go.microsoft.com/fwlink/?linkid=48686](http://go.microsoft.com/fwlink/?linkid=48686).  
+  - [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Download Center Web site at [http://go.microsoft.com/fwlink/?linkid=48686](http://go.microsoft.com/fwlink/?linkid=48686).  
   
-    -   [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] Web site at [http://go.microsoft.com/fwlink/?linkid=48687](http://go.microsoft.com/fwlink/?linkid=48687).  
+  - [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] Web site at [http://go.microsoft.com/fwlink/?linkid=48687](http://go.microsoft.com/fwlink/?linkid=48687).  
   
--   To avoid virus attacks, install the platform from a CD and disconnect each server from the Internet by unplugging any cables and disabling any network adapters.  
+- To avoid virus attacks, install the platform from a CD and disconnect each server from the Internet by unplugging any cables and disabling any network adapters.  
   
--   Format a clean partition using the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] NTFS file system.  
+- Format a clean partition using the [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] NTFS file system.  
   
 ## Active Directory  
   

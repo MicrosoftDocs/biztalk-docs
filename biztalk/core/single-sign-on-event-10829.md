@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10829
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10829|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_PSADMIN_INVALID_ADAPTER_TYPE_2|  
-|Message Text|Invalid application type for adapter. Valid application types are ‘Password Sync Adapter’ or ‘Password Sync Group Adapter’.|  
+|                 |                                                                                                                             |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                  Enterprise Single Sign-On                                                  |
+| Product Version |                                 [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                  |
+|    Event ID     |                                                            10829                                                            |
+|  Event Source   |                                                           ENTSSO                                                            |
+|    Component    |                                                             N/A                                                             |
+|  Symbolic Name  |                                           ENTSSO_E_PSADMIN_INVALID_ADAPTER_TYPE_2                                           |
+|  Message Text   | Invalid application type for adapter. Valid application types are ‘Password Sync Adapter’ or ‘Password Sync Group Adapter’. |
   
 ## Explanation  
  Invalid application type for adapter. Valid application types are ‘Password Sync Adapter’ or ‘Password Sync Group Adapter’.  

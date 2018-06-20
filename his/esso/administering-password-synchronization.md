@@ -18,33 +18,33 @@ You can administer Password Synchronization in Enterprise Single Sign-On (SSO) t
   
  The MMC Snap-In displays a list of adapters and their properties. You can right-click an adapter and use the menu to perform the following commands:  
   
--   Create adapters  
+- Create adapters  
   
--   Set properties  
+- Set properties  
   
--   Update  
+- Update  
   
--   Delete  
+- Delete  
   
--   Enable  
+- Enable  
   
--   Disable  
+- Disable  
   
--   Add applications to an adapter  
+- Add applications to an adapter  
   
--   Delete applications from an adapter  
+- Delete applications from an adapter  
   
--   Reset notification  
+- Reset notification  
   
--   Add an adapter to an adapter group  
+- Add an adapter to an adapter group  
   
--   Delete an adapter from an adapter group  
+- Delete an adapter from an adapter group  
   
- You can also use the SSOPS command-line utility to administer your password synchronization. Most of the commands in this section are intended for use by an administrator only.  
+  You can also use the SSOPS command-line utility to administer your password synchronization. Most of the commands in this section are intended for use by an administrator only.  
   
- For many commands, the command output is displayed on the screen in two columns. Because certain screen settings could cause truncation of data, for best results you should change the screen buffer size/Windows size to 120 characters.  
+  For many commands, the command output is displayed on the screen in two columns. Because certain screen settings could cause truncation of data, for best results you should change the screen buffer size/Windows size to 120 characters.  
   
- The following table lists the SSOPS commands. Procedures and additional explanation are located throughout the rest of this topic.  
+  The following table lists the SSOPS commands. Procedures and additional explanation are located throughout the rest of this topic.  
   
 |Command|Function|  
 |-------------|--------------|  

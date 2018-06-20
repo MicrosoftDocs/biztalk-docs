@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10562
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10562|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_INFO_REENCRYPT_STARTING|  
-|Message Text|SSO database re-encryption is in progress.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10562                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                SSO_INFO_REENCRYPT_STARTING                 |
+|  Message Text   |         SSO database re-encryption is in progress.         |
   
 ## Explanation  
  This message is informational only. The secret has been changed, and the SSO system is now beginning to reencrypt the database with the new secret.  

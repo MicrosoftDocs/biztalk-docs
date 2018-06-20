@@ -17,15 +17,15 @@ manager: "anneta"
 # The interchange had a structural error in-before the first functional group
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|X12InterchangeStructuralErrorBefore1stGroup|  
-|Message Text|The interchange with id '{0}', with sender id '{1}', receiver id '{2}' had structural error in/before the first functional group|  
+|                 |                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                        |
+| Product Version |                                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                    |
+|    Event ID     |                                                                -                                                                 |
+|  Event Source   |                      [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                      |
+|    Component    |                                                            EDI Engine                                                            |
+|  Symbolic Name  |                                           X12InterchangeStructuralErrorBefore1stGroup                                            |
+|  Message Text   | The interchange with id '{0}', with sender id '{1}', receiver id '{2}' had structural error in/before the first functional group |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline could not process the incoming interchange, for one of the following reasons:  

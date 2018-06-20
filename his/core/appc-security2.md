@@ -18,13 +18,13 @@ Owners of APPC transaction programs may want to allow only a limited set of user
   
  There are three levels of security for client programs: None, Same, and Program:  
   
--   If the level of security is None, the client system sends no security information (user ID or password).  
+- If the level of security is None, the client system sends no security information (user ID or password).  
   
--   If the level of security is set to Same, APPC tries to determine a user ID for the client program. If the server system requires a password and the client system permits APPC to retrieve one for the user ID, APPC will also send the password to the server system. If no user ID is available, or if the server requires a password but the client system does not allow APPC to retrieve the password, no security information is sent to the server. This is sometimes referred to as downgraded to security NONE.  
+- If the level of security is set to Same, APPC tries to determine a user ID for the client program. If the server system requires a password and the client system permits APPC to retrieve one for the user ID, APPC will also send the password to the server system. If no user ID is available, or if the server requires a password but the client system does not allow APPC to retrieve the password, no security information is sent to the server. This is sometimes referred to as downgraded to security NONE.  
   
--   If the security level is set to Program, the client transaction program will override any security information that the local system may provide. The client program must supply both a user ID and a password. CPI-C programs may get the user ID and password by either prompting the user to enter the information or by checking the CPI-C side information. Not all systems allow this option.  
+- If the security level is set to Program, the client transaction program will override any security information that the local system may provide. The client program must supply both a user ID and a password. CPI-C programs may get the user ID and password by either prompting the user to enter the information or by checking the CPI-C side information. Not all systems allow this option.  
   
- If the client program uses SECURITY=SAME or SECURITY=PROGRAM, APPC on the server must check the user ID and password regardless of the server transaction's security requirements. This requirement can cause unexpected problems and is not recommended.  
+  If the client program uses SECURITY=SAME or SECURITY=PROGRAM, APPC on the server must check the user ID and password regardless of the server transaction's security requirements. This requirement can cause unexpected problems and is not recommended.  
   
 ### To configure session security for remote LUs  
   

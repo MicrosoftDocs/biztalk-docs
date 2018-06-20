@@ -30,13 +30,13 @@ This topic describes how to use the BizTalk Server Administration console to cha
   
 ### To modify the deployment properties of a pre- or post-processing script  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group containing the script to modify, and then expand the application containing the script.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group containing the script to modify, and then expand the application containing the script.  
   
-3.  Click the **Resources** folder, right-click the script, and then click **Modify**.  
+3. Click the **Resources** folder, right-click the script, and then click **Modify**.  
   
-4.  In **Destination location**, type the full path of the destination location, including the file name, and then click **OK**. (You can use the environment variable %BTAD_InstallDir% in the path to specify the application installation folder.)  
+4. In **Destination location**, type the full path of the destination location, including the file name, and then click **OK**. (You can use the environment variable %BTAD_InstallDir% in the path to specify the application installation folder.)  
   
 ## See Also  
  [Managing Pre- and Post-processing Scripts](../core/managing-pre-and-post-processing-scripts.md)

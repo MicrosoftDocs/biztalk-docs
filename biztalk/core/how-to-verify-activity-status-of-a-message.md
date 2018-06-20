@@ -24,45 +24,45 @@ You use the PeopleSoft Integration Broker to create a PeopleSoft HTTP Host and P
   
 ### To verify that a Message is active and routed correctly  
   
-1.  Click **Start**, point to **Programs**, point to **PeopleSoft Application Name**, and then select **Application Designer**.  
+1. Click **Start**, point to **Programs**, point to **PeopleSoft Application Name**, and then select **Application Designer**.  
   
-2.  On the **PeopleSoft Sign-on** screen, enter the **User ID** and **Password**, and then click **OK**.  
+2. On the **PeopleSoft Sign-on** screen, enter the **User ID** and **Password**, and then click **OK**.  
   
-     ![](../core/media/psadapter-24-task-userpass.gif "PSAdapter_24_Task_UserPass")  
+    ![](../core/media/psadapter-24-task-userpass.gif "PSAdapter_24_Task_UserPass")  
   
-     ![](../core/media/psadapter-25-task-emptydesigner.gif "PSAdapter_25_Task_EmptyDesigner")  
+    ![](../core/media/psadapter-25-task-emptydesigner.gif "PSAdapter_25_Task_EmptyDesigner")  
   
-3.  In the Application Designer, on the **File** menu, point to **Open**, and then select **Message**.  
+3. In the Application Designer, on the **File** menu, point to **Open**, and then select **Message**.  
   
-     ![](../core/media/psadapter-26-task-filemessage.gif "PSAdapter_26_Task_FileMessage")  
+    ![](../core/media/psadapter-26-task-filemessage.gif "PSAdapter_26_Task_FileMessage")  
   
-4.  In the **Open Definition** screen, in the **Name** field, enter `LOCATION_SYNC`, and then click **Open**.  
+4. In the **Open Definition** screen, in the **Name** field, enter `LOCATION_SYNC`, and then click **Open**.  
   
-     ![](../core/media/psadapter-27-task-locationsync.gif "PSAdapter_27_Task_LocationSync")  
+    ![](../core/media/psadapter-27-task-locationsync.gif "PSAdapter_27_Task_LocationSync")  
   
-5.  In the **Definitions matching selection criteria** section, double-click the **LOCATION_SYNC** message to view the properties.  
+5. In the **Definitions matching selection criteria** section, double-click the **LOCATION_SYNC** message to view the properties.  
   
-     ![](../core/media/psadapter-28-task-locationproperties.gif "PSAdapter_28_Task_LocationProperties")  
+    ![](../core/media/psadapter-28-task-locationproperties.gif "PSAdapter_28_Task_LocationProperties")  
   
-6.  In the Application Designer, right-click **LOCATION_TBL**, and select **Message Properties**.  
+6. In the Application Designer, right-click **LOCATION_TBL**, and select **Message Properties**.  
   
-     ![](../core/media/psadapter-29-task-loctionmenu.gif "PSAdapter_29_Task_LoctionMenu")  
+    ![](../core/media/psadapter-29-task-loctionmenu.gif "PSAdapter_29_Task_LoctionMenu")  
   
-7.  On the **Message Properties** screen, click the **Use** tab.  
+7. On the **Message Properties** screen, click the **Use** tab.  
   
-     Verify the following, and then click **OK**.  
+    Verify the following, and then click **OK**.  
   
-    1.  **Message:** Active  
+   1. **Message:** Active  
   
-    2.  **Message Channel:** ENTERPRISE_SETUP  
+   2. **Message Channel:** ENTERPRISE_SETUP  
   
-    3.  **Default Version:** VERSION_1  
+   3. **Default Version:** VERSION_1  
   
-     ![](../core/media/psadapter-30-task-messageuse.gif "PSAdapter_30_Task_MessageUse")  
+      ![](../core/media/psadapter-30-task-messageuse.gif "PSAdapter_30_Task_MessageUse")  
   
-8.  Exit the Application Designer.  
+8. Exit the Application Designer.  
   
-     This makes sure that the Message is in an active state, uses VERSION_1, and flows through the ENTERPRISE_SETUP channel in PeopleSoft.  
+    This makes sure that the Message is in an active state, uses VERSION_1, and flows through the ENTERPRISE_SETUP channel in PeopleSoft.  
   
 9. Configure the Integration.Gateway.properties file to communicate with the PeopleSoft application.  
   

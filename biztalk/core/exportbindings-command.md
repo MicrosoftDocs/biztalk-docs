@@ -18,7 +18,7 @@ manager: "anneta"
 Exports bindings for a BizTalk assembly, application, or group. You can also export global party bindings along with the assembly, application, or group bindings. (A party is all the entities, such as partners of your organization, that interact with an orchestration.)  
   
 ## Usage  
- **BTSTask ExportBindings /Destination:** *value* [**/GroupLevel**] [**/ApplicationName:***value*] [**/AssemblyName:***value* ] &#124; [**/GlobalParties**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask ExportBindings /Destination:** *value* [**/GroupLevel**] [**/ApplicationName:**<em>value</em>] [**/AssemblyName:**<em>value</em> ] &#124; [**/GlobalParties**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

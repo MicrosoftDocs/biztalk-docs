@@ -24,15 +24,15 @@ This section provides information on the tracking information that is displayed 
   
  There are four statement types that are displayed in the tracking output:  
   
--   Fact Activity  
+- Fact Activity  
   
--   Condition Evaluation  
+- Condition Evaluation  
   
--   Agenda Update  
+- Agenda Update  
   
--   Rule Fired  
+- Rule Fired  
   
- Each statement type is described below.  
+  Each statement type is described below.  
   
 ## Fact Activity  
  This statement indicates changes to the facts present in the working memory of the engine. The following is an example of a fact activity entry:  

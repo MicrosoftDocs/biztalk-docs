@@ -32,19 +32,19 @@ If the return value is discontiguous from the output area, you must calculate an
   
  In this case, because the return value follows the output area, filler must be added to the last output parameter. To do this, perform the following steps.  
   
-1.  Unlock the method.  
+1. Unlock the method.  
   
-2.  In the details pane, click **FIELD2**.  
+2. In the details pane, click **FIELD2**.  
   
-3.  On the **File** menu, click **Properties**, and then click the **COBOL Definition** tab.  
+3. On the **File** menu, click **Properties**, and then click the **COBOL Definition** tab.  
   
-4.  In the **From Host** box, type 14 as the trailing filler.  
+4. In the **From Host** box, type 14 as the trailing filler.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
- To verify your modified code, in **TI Project**, use the **Export** command on the **File** menu. You can then see your code in Notepad.  
+   To verify your modified code, in **TI Project**, use the **Export** command on the **File** menu. You can then see your code in Notepad.  
   
- The following is the output with the added filler:  
+   The following is the output with the added filler:  
   
 ```  
 01  DISCONTIGCBL-OUTPUT-AREA.  

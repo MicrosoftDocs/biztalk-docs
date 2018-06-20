@@ -19,21 +19,21 @@ The Transaction Integrator (TI) two-phase commit (2PC) thread pool is different 
 ## Default Maximum Thread Settings  
  You do not have to worry about overburdening this pool unless large numbers of 2PC transactions are processed. Only when `prepare` or `commit` times for the transactions become very long can queuing to interact with DTC occur.  
   
--   Default maximum threads for each CPU is 20.  
+- Default maximum threads for each CPU is 20.  
   
--   Default maximum active threads for each CPU is 19.  
+- Default maximum active threads for each CPU is 19.  
   
--   Default maximum total threads for each system is 80.  
+- Default maximum total threads for each system is 80.  
   
- You can adjust the default amounts by adding a TEXT string value to the registry location:  
+  You can adjust the default amounts by adding a TEXT string value to the registry location:  
   
- **HKLM\Software\Microsoft\Cedar\Defaults\Threads**  
+  **HKLM\Software\Microsoft\Cedar\Defaults\Threads**  
   
--   IOPortPoolFactor=20  
+- IOPortPoolFactor=20  
   
--   IOPortActive=19  
+- IOPortActive=19  
   
--   ThreadPoolMax=80  
+- ThreadPoolMax=80  
   
 ### Rules for Specifying Values  
  The following rules apply for specifying values:  

@@ -34,7 +34,7 @@ The following table shows the functoid categories, briefly describes the categor
   
 > [!NOTE]
 >  The purpose of a functoid is usually obvious from its name.  
-  
+> 
 > [!NOTE]
 >  All functoids included with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] are inline C#, except for the **Database** functoids.  
   

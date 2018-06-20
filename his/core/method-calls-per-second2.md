@@ -16,13 +16,13 @@ manager: "anneta"
 # Method Calls per Second
 The counter reports the method call volume going through the Transaction Integrator (TI) server. There are actually three counters implemented:  
   
--   Method calls using the CICS LINK mode.  
+- Method calls using the CICS LINK mode.  
   
--   Method calls using the CICS non-LINK or calls to IMS.  
+- Method calls using the CICS non-LINK or calls to IMS.  
   
--   Total method calls.  
+- Total method calls.  
   
- Assuming that the system is in somewhat stable condition, that is, the calls are returning at the same rate that they are made, these counters represent the transactions per second throughput number for TI.  
+  Assuming that the system is in somewhat stable condition, that is, the calls are returning at the same rate that they are made, these counters represent the transactions per second throughput number for TI.  
   
 ## See Also  
  [Performance Monitoring Counters](../core/performance-monitoring-counters2.md)

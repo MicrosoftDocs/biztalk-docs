@@ -16,13 +16,13 @@ manager: "anneta"
 # Status-Session Codes
 For the status codes used on [Status-Session](./status-session2.md) messages, the following table lists:  
   
--   The value for the status code.  
+- The value for the status code.  
   
--   The valid qualifying codes (if any) and their values.  
+- The valid qualifying codes (if any) and their values.  
   
--   On which sessions the combinations of primary and qualifying status codes can occur.  
+- On which sessions the combinations of primary and qualifying status codes can occur.  
   
- For an overall description of the role of the **Status-Session** message, see [Status-Session Message](../core/status-session-message1.md). The individual codes are discussed in [SSCP Connection](../core/sscp-connection1.md) and [PLU Connection](../core/plu-connection2.md).  
+  For an overall description of the role of the **Status-Session** message, see [Status-Session Message](../core/status-session-message1.md). The individual codes are discussed in [SSCP Connection](../core/sscp-connection1.md) and [PLU Connection](../core/plu-connection2.md).  
   
 |Status code|Value|Qualifying code|Value|Usage|  
 |-----------------|-----------|---------------------|-----------|-----------|  

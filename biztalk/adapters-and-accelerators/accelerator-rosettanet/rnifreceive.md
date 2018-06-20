@@ -16,13 +16,13 @@ manager: "anneta"
 # RNIFReceive
 This sample provides a working [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFReceive.aspx file that receives an RNIF message, and prepares it for processing by the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] public process. You can customize the ASPX page to do the following:  
   
--   Add or remove performance counters  
+- Add or remove performance counters  
   
--   Add functionality to the page, such as writing data to a database or customizing tracking functionality  
+- Add functionality to the page, such as writing data to a database or customizing tracking functionality  
   
--   Add validation to the page  
+- Add validation to the page  
   
- This sample is located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\WebApplication\RNIFReceiver.  
+  This sample is located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\WebApplication\RNIFReceiver.  
   
 ## Demonstrates  
  This sample demonstrates how to prepare incoming messages for the public process, including the following:  

@@ -17,17 +17,17 @@ manager: "anneta"
 # Interfaces for an Asynchronous Send Adapter
 Adapters sending messages one at a time may send messages either synchronously or asynchronously. An adapter sends messages asynchronously when it does not block the transport proxy thread but rather uses a separate thread while performing the send operations. To be able to send messages asynchronously, an adapter needs to implement the following interfaces:  
   
--   **IBTTransport**  
+- **IBTTransport**  
   
--   **IBaseComponent**  
+- **IBaseComponent**  
   
--   **IBTTransportControl**  
+- **IBTTransportControl**  
   
--   **IPersistPropertyBag**  
+- **IPersistPropertyBag**  
   
--   **IBTTransmitter**  
+- **IBTTransmitter**  
   
- The following steps describe the sequence of actions that the send adapter performs to transmit messages out of the server at the request of the Messaging Engine:  
+  The following steps describe the sequence of actions that the send adapter performs to transmit messages out of the server at the request of the Messaging Engine:  
   
 1.  The Messaging Engine uses the transport proxy to pass an outgoing message to a send adapter by calling the **TransmitMessage** method of the **IBTTransmitter** interface.  
   

@@ -25,35 +25,35 @@ This walkthrough is a continuation of [Walkthrough: Module 2 - Integrating Offic
 ## Prerequisites  
  The following are prerequisites for performing the procedures in this topic:  
   
--   You must have a single server deployment with a complete installation of BizTalk Server running on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
+- You must have a single server deployment with a complete installation of BizTalk Server running on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
   
--   You must complete the following walkthroughs: [Walkthrough: Module 1 - Sending and Receiving Messages with the Windows SharePoint Services Adapter](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) and [Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)  
+- You must complete the following walkthroughs: [Walkthrough: Module 1 - Sending and Receiving Messages with the Windows SharePoint Services Adapter](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) and [Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)  
   
- For information about using the Windows SharePoint Services Adapter in a multi server deployment, see [Setting Up and Deploying the Windows SharePoint Services Adapter](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
+  For information about using the Windows SharePoint Services Adapter in a multi server deployment, see [Setting Up and Deploying the Windows SharePoint Services Adapter](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
   
 ## Modify the BizTalk project  
  In this procedure you modify the PurchaseOrder schema from [Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md). This procedure illustrates how to promote a schema property for easy access in a BizTalk orchestration.  
   
 #### Modify the PurchaseOrder.xsd schema  
   
-1.  Start **Microsoft Visual Studio**.  
+1. Start **Microsoft Visual Studio**.  
   
-2.  Click **File**, click **Open**, and then click **Project/Solution**.  
+2. Click **File**, click **Open**, and then click **Project/Solution**.  
   
-3.  Browse to the `OrderProcess.sln` file, and then click **Open**.  
+3. Browse to the `OrderProcess.sln` file, and then click **Open**.  
   
-4.  In **Solution Explorer**, right-click the `OrderProcessSchema.xsd` file, and then click **Open**.  
+4. In **Solution Explorer**, right-click the `OrderProcessSchema.xsd` file, and then click **Open**.  
   
-5.  In **BizTalk Editor**, expand `PurchaseOrder`.  
+5. In **BizTalk Editor**, expand `PurchaseOrder`.  
   
-6.  Right-click `Amount`, click **Promote**, and then click **Quick Promotion**.  
+6. Right-click `Amount`, click **Promote**, and then click **Quick Promotion**.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
-    > [!NOTE]
-    >  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] creates a property schema for this in the current project.  
+   > [!NOTE]
+   >  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] creates a property schema for this in the current project.  
   
-8.  Save `PurchaseOrder.xsd`.  
+8. Save `PurchaseOrder.xsd`.  
   
 ## Create an orchestration  
  In this procedure you create a new BizTalk orchestration. This procedure creates the orchestration that is used to process a message received by the Windows Sharepoint Services adapter.  
@@ -272,26 +272,26 @@ This walkthrough is a continuation of [Walkthrough: Module 2 - Integrating Offic
   
 #### Build and deploy the solution  
   
-1.  Click **Build**, and then click **Build OrderProcess**.  
+1. Click **Build**, and then click **Build OrderProcess**.  
   
-2.  Click **Build**, and then click **Deploy OrderProcess**.  
+2. Click **Build**, and then click **Deploy OrderProcess**.  
   
-3.  Close Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+3. Close Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
 ## Modify the receive location and send port  
  In this procedure you modify the existing receive location and send port to use XML processing for the pipelines. The receive XML pipeline persists message properties used during orchestration processing and the send XML pipeline persists the message properties that were applied in the orchestration which are subsequently used for message routing.  
   
 #### Modify the receive location  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration.**  
+1. Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration.**  
   
-2.  Expand **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration SnapIn**, expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, and then click the **Receive Locations** node.  
+2. Expand **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration SnapIn**, expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, and then click the **Receive Locations** node.  
   
-3.  Right-click `SourceLocation`, and then click **Properties**.  
+3. Right-click `SourceLocation`, and then click **Properties**.  
   
-4.  In the **Receive Location Properties** dialog box, under **General**, select `XMLReceive` for the **Receive pipeline** property.  
+4. In the **Receive Location Properties** dialog box, under **General**, select `XMLReceive` for the **Receive pipeline** property.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 #### Modify the send port  
   
@@ -319,21 +319,21 @@ This walkthrough is a continuation of [Walkthrough: Module 2 - Integrating Offic
   
 #### Bind the orchestration  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, click the **Orchestrations** node.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, click the **Orchestrations** node.  
   
-2.  Right-click the `OrderProcess.MyCompanyOrderProcessing` orchestration, and then click **Properties**.  
+2. Right-click the `OrderProcess.MyCompanyOrderProcessing` orchestration, and then click **Properties**.  
   
-3.  Select the **Bindings** tab.  
+3. Select the **Bindings** tab.  
   
-4.  Under **Host**, select `BizTalkServerApplication` in the **Host** field.  
+4. Under **Host**, select `BizTalkServerApplication` in the **Host** field.  
   
-5.  Under **Bindings**, select `FromSource` for the `ReceivePurchaseOrder` Inbound Logical Port.  
+5. Under **Bindings**, select `FromSource` for the `ReceivePurchaseOrder` Inbound Logical Port.  
   
-6.  Under **Bindings**, select `SendToDestination` for the `SendPurchaseOrder` Outbound Logical Port.  
+6. Under **Bindings**, select `SendToDestination` for the `SendPurchaseOrder` Outbound Logical Port.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
-8.  Right click `OrderProcess.MyCompanyOrderProcessing` orchestration, and then click **Start**.  
+8. Right click `OrderProcess.MyCompanyOrderProcessing` orchestration, and then click **Start**.  
   
 ## Send a message through the system  
  In this procedure you create an InfoPath form and upload it to the Windows SharePoint Services Web site. The Windows SharePoint Services adapter will take that message, archive it in the Archive document library, and then send it to the Destination document library. During the processing of this message, Windows SharePoint Services context properties will be accessed that help determine the destination.  

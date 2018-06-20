@@ -68,87 +68,87 @@ CM_ENTRY Send_Data( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The value specified by *conversation_ID* is invalid.  
+- The value specified by *conversation_ID* is invalid.  
   
--   The value specified by *send_length* is out of range (greater than 32767).  
+- The value specified by *send_length* is out of range (greater than 32767).  
   
--   This is a basic conversation and the first two bytes of *buffer* contain an invalid logical record length (0x0000, 0x0001, 0x8000, or 0x8001).  
+- This is a basic conversation and the first two bytes of *buffer* contain an invalid logical record length (0x0000, 0x0001, 0x8000, or 0x8001).  
   
- CM_PROGRAM_STATE_CHECK  
- Primary return code; one of the following occurred:  
+  CM_PROGRAM_STATE_CHECK  
+  Primary return code; one of the following occurred:  
   
--   The conversation state is not SEND or SEND_PENDING.  
+- The conversation state is not SEND or SEND_PENDING.  
   
--   The basic conversation is in SEND state and *send_type* is set to CM_SEND_AND_CONFIRM, CM_SEND_AND_DEALLOCATE, or CM_SEND_AND_PREP_TO_RECEIVE. However, the data does not end on a logical record boundary. This condition is allowed only when *deallocate_type* is set to CM_DEALLOCATE_ABEND and the *send_type* is set to CM_SEND_AND_DEALLOCATE.  
+- The basic conversation is in SEND state and *send_type* is set to CM_SEND_AND_CONFIRM, CM_SEND_AND_DEALLOCATE, or CM_SEND_AND_PREP_TO_RECEIVE. However, the data does not end on a logical record boundary. This condition is allowed only when *deallocate_type* is set to CM_DEALLOCATE_ABEND and the *send_type* is set to CM_SEND_AND_DEALLOCATE.  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
- CM_CONVERSATION_TYPE_MISMATCH  
- Primary return code; the partner LU or program does not support the conversation type (basic or mapped) specified in the allocation request.  
+  CM_CONVERSATION_TYPE_MISMATCH  
+  Primary return code; the partner LU or program does not support the conversation type (basic or mapped) specified in the allocation request.  
   
- CM_PIP_NOT_SPECIFIED_CORRECTLY  
- Primary return code; the allocation request was rejected by a non-CPI-C LU 6.2 transaction program (TP). The partner program requires one or more PIP data variables, which are not supported by CPI-C.  
+  CM_PIP_NOT_SPECIFIED_CORRECTLY  
+  Primary return code; the allocation request was rejected by a non-CPI-C LU 6.2 transaction program (TP). The partner program requires one or more PIP data variables, which are not supported by CPI-C.  
   
- CM_SECURITY_NOT_VALID  
- Primary return code; the user identifier or password specified in the allocation request was not accepted by the partner LU.  
+  CM_SECURITY_NOT_VALID  
+  Primary return code; the user identifier or password specified in the allocation request was not accepted by the partner LU.  
   
- CM_SYNC_LEVEL_NOT_SUPPORTED_PGM  
- Primary return code; the partner program does not support the synchronization level specified in the allocation request.  
+  CM_SYNC_LEVEL_NOT_SUPPORTED_PGM  
+  Primary return code; the partner program does not support the synchronization level specified in the allocation request.  
   
- CM_TPN_NOT_RECOGNIZED  
- Primary return code; the partner LU does not recognize the program name specified in the allocation request.  
+  CM_TPN_NOT_RECOGNIZED  
+  Primary return code; the partner LU does not recognize the program name specified in the allocation request.  
   
- CM_TP_NOT_AVAILABLE_NO_RETRY  
- Primary return code; the partner LU cannot start the program specified in the allocation request because of a permanent condition. The reason for the error may be logged on the remote node. Do not retry the allocation until the error has been corrected.  
+  CM_TP_NOT_AVAILABLE_NO_RETRY  
+  Primary return code; the partner LU cannot start the program specified in the allocation request because of a permanent condition. The reason for the error may be logged on the remote node. Do not retry the allocation until the error has been corrected.  
   
- CM_TP_NOT_AVAILABLE_RETRY  
- Primary return code; the partner LU cannot start the program specified in the allocation request because of a temporary condition. The reason for the error may be logged on the remote node. Retry the allocation.  
+  CM_TP_NOT_AVAILABLE_RETRY  
+  Primary return code; the partner LU cannot start the program specified in the allocation request because of a temporary condition. The reason for the error may be logged on the remote node. Retry the allocation.  
   
- CM_PROGRAM_ERROR_PURGING  
- Primary return code; one of the following occurred:  
+  CM_PROGRAM_ERROR_PURGING  
+  Primary return code; one of the following occurred:  
   
--   While in RECEIVE or CONFIRM state, the partner program issued [Send_Error](../core/send-error-cpi-c-2.md). Data sent but not yet received is purged.  
+- While in RECEIVE or CONFIRM state, the partner program issued [Send_Error](../core/send-error-cpi-c-2.md). Data sent but not yet received is purged.  
   
--   While in SEND_PENDING state with the error direction set to CM_RECEIVE_ERROR, the partner program issued **Send_Error**. Data was not purged.  
+- While in SEND_PENDING state with the error direction set to CM_RECEIVE_ERROR, the partner program issued **Send_Error**. Data was not purged.  
   
- CM_RESOURCE_FAILURE_NO_RETRY  
- Primary return code; one of the following occurred:  
+  CM_RESOURCE_FAILURE_NO_RETRY  
+  Primary return code; one of the following occurred:  
   
--   The conversation was terminated prematurely because of a permanent condition. Do not retry until the error has been corrected.  
+- The conversation was terminated prematurely because of a permanent condition. Do not retry until the error has been corrected.  
   
--   The partner program did not deallocate the conversation before terminating normally.  
+- The partner program did not deallocate the conversation before terminating normally.  
   
- CM_RESOURCE_FAILURE_RETRY  
- Primary return code; the conversation was terminated prematurely because of a temporary condition, such as modem failure. Retry the conversation.  
+  CM_RESOURCE_FAILURE_RETRY  
+  Primary return code; the conversation was terminated prematurely because of a temporary condition, such as modem failure. Retry the conversation.  
   
- CM_DEALLOCATED_ABEND  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  CM_DEALLOCATED_ABEND  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The remote program issued [Deallocate](../core/deallocate-cpi-c-1.md) with the type parameter set to CM_DEALLOCATE_ABEND, or the remote LU did so because of a remote program abnormal-ending condition. If the conversation for the remote program was in RECEIVE state when the call was issued, information sent by the local program and not yet received by the remote program is purged.  
+- The remote program issued [Deallocate](../core/deallocate-cpi-c-1.md) with the type parameter set to CM_DEALLOCATE_ABEND, or the remote LU did so because of a remote program abnormal-ending condition. If the conversation for the remote program was in RECEIVE state when the call was issued, information sent by the local program and not yet received by the remote program is purged.  
   
--   The remote TP terminated normally but did not deallocate the conversation before terminating. Node services at the remote LU deallocated the conversation on behalf of the remote TP.  
+- The remote TP terminated normally but did not deallocate the conversation before terminating. Node services at the remote LU deallocated the conversation on behalf of the remote TP.  
   
- CM_DEALLOCATED_ABEND_SVC  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  CM_DEALLOCATED_ABEND_SVC  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner program issued **Deallocate** with the type parameter set to ABEND_SVC.  
+- The partner program issued **Deallocate** with the type parameter set to ABEND_SVC.  
   
--   The partner program did not deallocate the conversation before terminating.  
+- The partner program did not deallocate the conversation before terminating.  
   
- If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
+  If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
   
- CM_DEALLOCATED_ABEND_TIMER  
- Primary return code; the conversation has been deallocated because the partner program issued **Deallocate** with the type parameter set to ABEND_TIMER. If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
+  CM_DEALLOCATED_ABEND_TIMER  
+  Primary return code; the conversation has been deallocated because the partner program issued **Deallocate** with the type parameter set to ABEND_TIMER. If the conversation is in RECEIVE state for the partner program when this call is issued by the local program, data sent by the local program and not yet received by the partner program is purged.  
   
- CM_SVC_ERROR_PURGING  
- Primary return code; while in SEND state, the partner program or partner LU issued [Send_Error](../core/send-error-cpi-c-2.md) with the type parameter set to SVC. Data sent to the partner program may have been purged.  
+  CM_SVC_ERROR_PURGING  
+  Primary return code; while in SEND state, the partner program or partner LU issued [Send_Error](../core/send-error-cpi-c-2.md) with the type parameter set to SVC. Data sent to the partner program may have been purged.  
   
- **State Changes**  
+  **State Changes**  
   
- The conversation must be in SEND or SEND_PENDING state when the program issues this call.  
+  The conversation must be in SEND or SEND_PENDING state when the program issues this call.  
   
- The following table summarizes state changes that are possible when *return_code* is set to CM_OK.  
+  The following table summarizes state changes that are possible when *return_code* is set to CM_OK.  
   
 |*send_type*|Old state|New state|  
 |------------------|---------------|---------------|  
@@ -166,14 +166,14 @@ CM_ENTRY Send_Data( 
 ## Remarks  
  The data collected in the local LUs send buffer is transmitted to the partner LU and partner program when one of the following occurs:  
   
--   The send buffer fills up.  
+- The send buffer fills up.  
   
--   The local program issues a [Flush](../core/flush-cpi-c-2.md), [Confirm](../core/confirm-cpi-c-2.md), or [Deallocate](../core/deallocate-cpi-c-1.md) call or other call that flushes the LUs send buffer. (Some send types, set by [Set_Send_Type](../core/set-send-type-cpi-c-2.md), include flush functionality.)  
+- The local program issues a [Flush](../core/flush-cpi-c-2.md), [Confirm](../core/confirm-cpi-c-2.md), or [Deallocate](../core/deallocate-cpi-c-1.md) call or other call that flushes the LUs send buffer. (Some send types, set by [Set_Send_Type](../core/set-send-type-cpi-c-2.md), include flush functionality.)  
   
- The data to be sent can be either:  
+  The data to be sent can be either:  
   
--   A complete data record on a mapped conversation. A complete data record is a string of the length specified by the *send_length* parameter.  
+- A complete data record on a mapped conversation. A complete data record is a string of the length specified by the *send_length* parameter.  
   
--   A complete logical record or portion thereof on a basic conversation. A complete logical record is determined by the LL value. (One logical record can end and a new one begin in the middle of the string of data to be sent.)  
+- A complete logical record or portion thereof on a basic conversation. A complete logical record is determined by the LL value. (One logical record can end and a new one begin in the middle of the string of data to be sent.)  
   
- The LU does not automatically perform any conversion between ASCII and EBCDIC on the string of data to be sent. If necessary, the program can use the Common Service Verb (CSV) [CONVERT](../core/convert2.md) to translate a string from one character set to the other.
+  The LU does not automatically perform any conversion between ASCII and EBCDIC on the string of data to be sent. If necessary, the program can use the Common Service Verb (CSV) [CONVERT](../core/convert2.md) to translate a string from one character set to the other.

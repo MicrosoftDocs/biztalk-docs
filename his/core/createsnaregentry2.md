@@ -30,18 +30,18 @@ The **CreateSNARegEntry** function creates the necessary entries for an instance
  *Return 0*  
  Status of the operation:  
   
--   STATUS_SUCCESSFUL: Operation succeeded.  
+- STATUS_SUCCESSFUL: Operation succeeded.  
   
--   STATUS_FAILED: Operation failed.  
+- STATUS_FAILED: Operation failed.  
   
- *Return 1*  
- Handle to the top-level registry node.  
+  *Return 1*  
+  Handle to the top-level registry node.  
   
- *Return 2*  
- Handle to the products registry key under the top-level node.  
+  *Return 2*  
+  Handle to the products registry key under the top-level node.  
   
- *Return 3*  
- Handle to the instance entry under the product key.  
+  *Return 3*  
+  Handle to the instance entry under the product key.  
   
- *Return 4*  
- Handle to the NetRules entry under the instance key.
+  *Return 4*  
+  Handle to the NetRules entry under the instance key.

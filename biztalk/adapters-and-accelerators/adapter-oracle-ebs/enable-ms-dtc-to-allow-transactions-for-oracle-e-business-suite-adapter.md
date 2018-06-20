@@ -24,23 +24,23 @@ The operations performed on Oracle E-Business Suite using the [!INCLUDE[adaptero
   
 ## Configure MSDTC  
   
-1.  Open **Component Services**.  
+1. Open **Component Services**.  
 
-    Or, In **Server Manager**, select **Tools**, and then select **Component Services**.  
+   Or, In **Server Manager**, select **Tools**, and then select **Component Services**.  
   
-2.  Expand **Component Services**, expand **Computers**, expand **My Computer**, expand **Distributed Transaction Coordinator**, right-click **Local DTC**, and select **Properties**.  
+2. Expand **Component Services**, expand **Computers**, expand **My Computer**, expand **Distributed Transaction Coordinator**, right-click **Local DTC**, and select **Properties**.  
   
-3.  Select the **Security** tab. In this tab, select all of the following: 
+3. Select the **Security** tab. In this tab, select all of the following: 
 
-  - **Network DTC Access**
-  - **Allow Remote Clients** 
-  - **Allow Inbound** 
-  - **Allow Outbound** 
-  - **No Authetnication Required**
+   - **Network DTC Access**
+   - **Allow Remote Clients** 
+   - **Allow Inbound** 
+   - **Allow Outbound** 
+   - **No Authetnication Required**
   
-4.  Select **OK** to save your changes.  
+4. Select **OK** to save your changes.  
   
-5.  If prompted to restarted the MSDTC service, select **Yes**. After the MSDTC service is restarted, close the properties and the Component Services MMC. 
+5. If prompted to restarted the MSDTC service, select **Yes**. After the MSDTC service is restarted, close the properties and the Component Services MMC. 
   
 ## Add MSDTC to Windows Firewall exceptions list  
 

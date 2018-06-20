@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10841
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10841|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPINGS_ONLY_FOR_DOMAIN_ACCOUNTS|  
-|Message Text|Mappings can be created for Windows domain accounts only (not local accounts).|  
+|                 |                                                                                |
+|-----------------|--------------------------------------------------------------------------------|
+|  Product Name   |                           Enterprise Single Sign-On                            |
+| Product Version |           [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]           |
+|    Event ID     |                                     10841                                      |
+|  Event Source   |                                     ENTSSO                                     |
+|    Component    |                                      N/A                                       |
+|  Symbolic Name  |                   ENTSSO_E_MAPPINGS_ONLY_FOR_DOMAIN_ACCOUNTS                   |
+|  Message Text   | Mappings can be created for Windows domain accounts only (not local accounts). |
   
 ## Explanation  
  Mappings can be created for Windows domain accounts only (not local accounts).  

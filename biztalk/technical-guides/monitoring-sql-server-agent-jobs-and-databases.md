@@ -18,19 +18,19 @@ manager: "anneta"
   
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] management pack includes two disabled rules for monitoring the health of two of the most important BizTalk [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Agent jobs:  
   
--   Critical Error: A BizTalk SQL Server Agent job failed - Backup BizTalk Server  
+- Critical Error: A BizTalk SQL Server Agent job failed - Backup BizTalk Server  
   
--   Critical Error: A BizTalk SQL Server Agent job failed – Tracked Message Copy  
+- Critical Error: A BizTalk SQL Server Agent job failed – Tracked Message Copy  
   
- To monitor all BizTalk Server [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Agent jobs from within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] management pack, you must enable these rules and create additional rules for other jobs that you want to monitor using the following process.  
+  To monitor all BizTalk Server [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Agent jobs from within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] management pack, you must enable these rules and create additional rules for other jobs that you want to monitor using the following process.  
   
--   In the Operations Manager Administrator console, create a copy of either of the two preceding rules in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Core Rule group, and rename the rule appropriately.  
+- In the Operations Manager Administrator console, create a copy of either of the two preceding rules in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Core Rule group, and rename the rule appropriately.  
   
--   In the criteria section for the rule, change the wildcard comparison for Parameter 1 appropriately.  
+- In the criteria section for the rule, change the wildcard comparison for Parameter 1 appropriately.  
   
--   In some cases, job names are dependent on database names that the user creates, for example, the name of the MessageBox database.  
+- In some cases, job names are dependent on database names that the user creates, for example, the name of the MessageBox database.  
   
--   Your rule can be targeted either towards a job associated with a single MessageBox or all MessageBoxes.  
+- Your rule can be targeted either towards a job associated with a single MessageBox or all MessageBoxes.  
   
 ## See Also  
  [How to Start the SQL Server Agent](../technical-guides/how-to-start-the-sql-server-agent.md)

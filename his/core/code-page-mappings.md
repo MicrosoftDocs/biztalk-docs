@@ -39,51 +39,51 @@ You can specify service-level and application-level code page mapping overrides.
 #### Start Event Trace Session  
  The Windows administrator must start a DRDA Service ETW event trace session using Performance Monitor or the logman command line utility.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right **click Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control** dialog may appear. Click **Yes** to continue.  
+1. On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right **click Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control** dialog may appear. Click **Yes** to continue.  
   
-2.  In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **logman start MsDrdaService -p {3B4388CE-50E0-404C-A62B-E9C87D4F3BC4} -o c:\temp\MsDrdaServiceETW.etl -ets**, and then click **Enter**.  
+2. In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **logman start MsDrdaService -p {3B4388CE-50E0-404C-A62B-E9C87D4F3BC4} -o c:\temp\MsDrdaServiceETW.etl -ets**, and then click **Enter**.  
   
-    ```  
-    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>logman start MsDrdaService -p {3B4388CE-50E0-404C-A62B-E9C87D4F3BC4} -o c:\temp\MsDrdaServiceETW.etl -ets  
-    The command completed successfully.  
-    ```  
+   ```  
+   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>logman start MsDrdaService -p {3B4388CE-50E0-404C-A62B-E9C87D4F3BC4} -o c:\temp\MsDrdaServiceETW.etl -ets  
+   The command completed successfully.  
+   ```  
   
-     ***Example 1.** Start ETW event trace session command line argument with example property values.*  
+    <em>**Example 1.</em>* Start ETW event trace session command line argument with example property values.*  
   
 #### Stop Event Trace Session  
  The Windows administrator can stop a DRDA Service ETW event trace session using Performance Monitor or the logman command line utility.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
+1. On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
   
-2.  In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **logman stop MsDrdaService -ets**, and then click **Enter**.  
+2. In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **logman stop MsDrdaService -ets**, and then click **Enter**.  
   
-    ```  
-    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>logman stop MsDrdaService -ets  
-    The command completed successfully.  
-    ```  
+   ```  
+   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>logman stop MsDrdaService -ets  
+   The command completed successfully.  
+   ```  
   
-     ***Example 2.** Stop ETW event trace session command line argument with example property values.*  
+    <em>**Example 2.</em>* Stop ETW event trace session command line argument with example property values.*  
   
 #### Format Event Trace Session Data  
  The Windows administrator can format DRDA Service ETW event trace session data using [Service Trace Viewer Tool (SvcTraceViewer.exe)](https://docs.microsoft.com/en-us/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe) or the tracerpt command line utility.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
+1. On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
   
-2.  In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **tracerpt c:\temp\MsDrdaServiceETW.etl**, and then click **Enter**.  
+2. In the **Visual Studio x64 Win64 Command Prompt** window, locate the installation folder in which you downloaded the installation program, **tracerpt c:\temp\MsDrdaServiceETW.etl**, and then click **Enter**.  
   
-    ```  
-    C:\temp>tracerpt c:\temp\MsDrdaServiceETW.etl  
-    Input  
-    ----------------  
-    File(s):  
-         c:\temp\MsDrdaServiceETW.etl  
-    100.00%  
-    Output  
-    ----------------  
-    DumpFile:           dumpfile.xml  
-    Summary:            summary.txt  
-    The command completed successfully.  
+   ```  
+   C:\temp>tracerpt c:\temp\MsDrdaServiceETW.etl  
+   Input  
+   ----------------  
+   File(s):  
+        c:\temp\MsDrdaServiceETW.etl  
+   100.00%  
+   Output  
+   ----------------  
+   DumpFile:           dumpfile.xml  
+   Summary:            summary.txt  
+   The command completed successfully.  
   
-    ```  
+   ```  
   
-     ***Example 3.** Format ETW event trace session data command line argument with example property values.*
+    <em>**Example 3.</em>* Format ETW event trace session data command line argument with example property values.*

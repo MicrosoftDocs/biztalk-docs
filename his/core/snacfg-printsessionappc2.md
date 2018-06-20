@@ -41,7 +41,7 @@ manager: "anneta"
  Displays a list of the configuration settings of a print session. The displayed command does not contain the word **snacfg**, so that it can be redirected to a command file. Command files are discussed earlier in this section.  
   
  **/add**  
- Adds a print session to the Host Print Service. To configure the print session, you must specify the server name and the configured APPC local LU alias name after the **/add**. The required options are **/server:***servername*and **/localLUalias:***localLUname*  
+ Adds a print session to the Host Print Service. To configure the print session, you must specify the server name and the configured APPC local LU alias name after the **/add**. The required options are **/server:**<em>servername</em>and **/localLUalias:**<em>localLUname</em>  
   
  **/delete**  
  Deletes the printer session. To delete the print session, you must specify the server name and the configured local LU alias after the **/delete**.  
@@ -56,7 +56,7 @@ manager: "anneta"
  **/codepage: {Country &#124; Custom}**  
  This defines the host code page language in which the print jobs are printed. The default is **Country** and the default language is **English (United States) [037]**. To change the default language, provide the number of the host code page of the country/region you want using the **/country** option.  
   
- If you want to use a custom file for the host code page, you must use **/customfile:***text,* where the text value is the name of the file containing the specifications.  
+ If you want to use a custom file for the host code page, you must use **/customfile:**<em>text,</em> where the text value is the name of the file containing the specifications.  
   
  **/collate:{ yes &#124; no }**  
  Adds an option to collate pages sequentially.  
@@ -103,7 +103,7 @@ manager: "anneta"
  **/paperlength:** *value*  
  Specifies the length of the paper for printing. The values for paperlength and paperwidth are in tenths of a millimeter, and override the papersize setting.  
   
- **/paperwidth:**v *alue*  
+ <strong>/paperwidth:</strong>v *alue*  
  Specifies the width of the paper. The values for paperlength and paperwidth are in tenths of a millimeter, and override the papersize setting.  
   
  **/pdtfile:**" *text*"  

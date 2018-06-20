@@ -19,31 +19,31 @@ When running BAM in a multi-computer environment, you must enable Notification S
   
  Consider the following scenario:  
   
--   Group A consists of the following computers:  
+- Group A consists of the following computers:  
   
-    -   Computer 1 is used as a BAM administration computer.  
+  - Computer 1 is used as a BAM administration computer.  
   
-    -   Computer 2 hosts the BAM PIT and Star Schema database.  
+  - Computer 2 hosts the BAM PIT and Star Schema database.  
   
-    -   Computer 3 hosts the BAM Archive and Analysis databases.  
+  - Computer 3 hosts the BAM Archive and Analysis databases.  
   
-    -   Computer 4 hosts the BAM Alerts database.  
+  - Computer 4 hosts the BAM Alerts database.  
   
-    -   Computer 5 hosts the rest of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.  
+  - Computer 5 hosts the rest of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.  
   
--   Group B:  
+- Group B:  
   
-    -   Computer 6 is used as a BAM administration computer on which all the databases are shared with Group A.  
+  -   Computer 6 is used as a BAM administration computer on which all the databases are shared with Group A.  
   
- To be able to deploy an activity to the databases in group A from the computer in group B, you must first register the Notification Services with the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] hosting the notifications services. If the Notification Services are not registered, you will receive the following error:  
+  To be able to deploy an activity to the databases in group A from the computer in group B, you must first register the Notification Services with the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] hosting the notifications services. If the Notification Services are not registered, you will receive the following error:  
   
- Deploying Alert... ERROR: The BAM deployment failed.  
+  Deploying Alert... ERROR: The BAM deployment failed.  
   
- The alerts were not deployed.  
+  The alerts were not deployed.  
   
- Exception has been thrown by the target of an invocation.  
+  Exception has been thrown by the target of an invocation.  
   
- The registry entries for the specified instance of Notification Services could not be found.  
+  The registry entries for the specified instance of Notification Services could not be found.  
   
 ### To register notifications services additional computers  
   

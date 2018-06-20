@@ -24,23 +24,23 @@ You can use the BRE Deployment Utility to publish and deploy the Business Rule E
   
  The BRE Deployment Utility accomplishes the following:  
   
--   Examines the deployed assembly that you specify and determines the message schemas that you deployed for the assembly.  
+- Examines the deployed assembly that you specify and determines the message schemas that you deployed for the assembly.  
   
--   Publishes the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_CodeLists.xml and [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_Functions.xml vocabularies required for [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] business rules processing.  
+- Publishes the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_CodeLists.xml and [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_Functions.xml vocabularies required for [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] business rules processing.  
   
--   Publishes and deploys the SWIFT base policies (reference policy, party identifier policy, and network rule policies) associated with the message schemas.  
+- Publishes and deploys the SWIFT base policies (reference policy, party identifier policy, and network rule policies) associated with the message schemas.  
   
--   Publishes and deploys the master policy and validation policy associated with each message schema.  
+- Publishes and deploys the master policy and validation policy associated with each message schema.  
   
--   Generates a log file that indicates all the steps that it takes. This file is BREDeploymentLog.txt in the \<*drive*\>:\Documents and Settings\All Users\Application Data folder.  
+- Generates a log file that indicates all the steps that it takes. This file is BREDeploymentLog.txt in the \<*drive*\>:\Documents and Settings\All Users\Application Data folder.  
   
-    > [!NOTE]
-    >  The BRE Deployment Utility does not deploy the BIC Master Policy and BIC Validation Policy. You must deploy these using the Rule Engine Deployment wizard.  
+  > [!NOTE]
+  >  The BRE Deployment Utility does not deploy the BIC Master Policy and BIC Validation Policy. You must deploy these using the Rule Engine Deployment wizard.  
+  > 
+  > [!NOTE]
+  >  If you have installed [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] in a non-default directory (other than C:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]), or you are working on a 64-bit computer, the BRE Deployment Utility will not work correctly until you change the paths in the BREDeployment.exe.config file. This configuration file is located in the \<*drive*\>:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools folder. To update the utility's configuration, open BREDeployment.exe.config in Notepad, and change the folders for the base policies, schemas, and vocabulary directories.  
   
-    > [!NOTE]
-    >  If you have installed [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] in a non-default directory (other than C:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]), or you are working on a 64-bit computer, the BRE Deployment Utility will not work correctly until you change the paths in the BREDeployment.exe.config file. This configuration file is located in the \<*drive*\>:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools folder. To update the utility's configuration, open BREDeployment.exe.config in Notepad, and change the folders for the base policies, schemas, and vocabulary directories.  
-  
- You can also use the deployment utility to reverse this process, undeploying and unpublishing the policies and vocabularies. The utility has both deploy and undeploy functionality.  
+  You can also use the deployment utility to reverse this process, undeploying and unpublishing the policies and vocabularies. The utility has both deploy and undeploy functionality.  
   
 ### To use the BRE Deployment Utility  
   

@@ -31,27 +31,27 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 ### Initial catalog  
  The Data Provider uses this value to connect to an initial catalog on the DB2 database server.  
   
--   DB2 for z/OS accepts a 16 byte string (catalog is also known as a location).  
+- DB2 for z/OS accepts a 16 byte string (catalog is also known as a location).  
   
--   DB2 for i5/OS accepts an 18 byte string (catalog is also known as a relational database).  
+- DB2 for i5/OS accepts an 18 byte string (catalog is also known as a relational database).  
   
--   DB2 for LUW accepts an 8 byte string (catalog is also known as a database).   
-### Package collection  
- The package collection is required to instruct the Data Provider into which DB2 schema to create a set of packages. Each package is divided into sections with static SQL statements, such as CREATE CURSOR, used to retrieve data when querying the database.  
+- DB2 for LUW accepts an 8 byte string (catalog is also known as a database).   
+  ### Package collection  
+  The package collection is required to instruct the Data Provider into which DB2 schema to create a set of packages. Each package is divided into sections with static SQL statements, such as CREATE CURSOR, used to retrieve data when querying the database.  
   
--   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).  
+- DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).  
   
--   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).  
+- DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).  
   
--   DB2 for LUW accepts a 30 byte string.  
+- DB2 for LUW accepts a 30 byte string.  
   
- The Data Provider creates packages in one of two ways.  
+  The Data Provider creates packages in one of two ways.  
   
--   Automatic for single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute permissions to the current user.  
+- Automatic for single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute permissions to the current user.  
   
--   Manual for multi-user environment. At design-time when you use the Data Access Tool menu option, Data Source Wizard, Data Access Library or Data Links, the Data Provider creates and binds a set of 4 packages (5 packages for DB2 for i5/OS). The Data Provider grants execute permissions to the PUBLIC group.  
+- Manual for multi-user environment. At design-time when you use the Data Access Tool menu option, Data Source Wizard, Data Access Library or Data Links, the Data Provider creates and binds a set of 4 packages (5 packages for DB2 for i5/OS). The Data Provider grants execute permissions to the PUBLIC group.  
   
- The Data Provider creates 4-5 packages, depending on database server platform and environment. The following table describes the packages and isolation levels.  
+  The Data Provider creates 4-5 packages, depending on database server platform and environment. The following table describes the packages and isolation levels.  
   
 |Microsoft Package Name|DB2 Isolation Level Name|OLE DB Isolation Level Name|  
 |----------------------------|------------------------------|---------------------------------|  
@@ -93,27 +93,27 @@ You can use the Data Source Wizard to guide you through the steps to configure a
     
  **User name**  
   
--   DB2 for z/OS accepts an 8 byte string.  
+- DB2 for z/OS accepts an 8 byte string.  
   
--   DB2 for i5/OS accepts a 10 byte string.  
+- DB2 for i5/OS accepts a 10 byte string.  
   
--   DB2 for Linux or UNIX accepts an 8 byte string.  
+- DB2 for Linux or UNIX accepts an 8 byte string.  
   
--   DB2 for Windows accepts a 30 byte string.  
+- DB2 for Windows accepts a 30 byte string.  
   
- **Password**  
+  **Password**  
   
--   DB2 for z/OS accepts an 8 byte string.  
+- DB2 for z/OS accepts an 8 byte string.  
   
--   DB2 for i5/OS accepts a 128 byte string.  
+- DB2 for i5/OS accepts a 128 byte string.  
   
--   DB2 for Linux or UNIX accepts an 8 byte string.  
+- DB2 for Linux or UNIX accepts an 8 byte string.  
   
--   DB2 for Windows accepts a 32 byte string.  
+- DB2 for Windows accepts a 32 byte string.  
   
- **Save password**  
+  **Save password**  
   
- Optionally, you can save the password in the OLE DB Universal Data Link (UDL) or text file by clicking the **Allow saving password** check box. Choosing this option saves the user name and password in plain text. It is not possible to encrypt the user name or password using this method. Server security can be compromised if an attacker can gain access to the file share on which the UDL or text file is located.  
+  Optionally, you can save the password in the OLE DB Universal Data Link (UDL) or text file by clicking the **Allow saving password** check box. Choosing this option saves the user name and password in plain text. It is not possible to encrypt the user name or password using this method. Server security can be compromised if an attacker can gain access to the file share on which the UDL or text file is located.  
   
 ## All Properties  
  The All Properties dialog lets you configure more detailed and optional properties. These properties may be edited by selecting a property from the list, and then selecting or editing the value in the right column. You can edit the following properties from this dialog.  

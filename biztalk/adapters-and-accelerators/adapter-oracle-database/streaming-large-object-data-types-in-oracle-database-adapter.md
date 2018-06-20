@@ -24,17 +24,17 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports strea
   
  There are two kinds of message streaming that are supported by the adapter:  
   
--   **Node streaming**. In node streaming each node is buffered by the adapter before it is sent to the Oracle database (or returned to the client). This means that, for an LOB data type, the entire value is read into a buffer.  
+- **Node streaming**. In node streaming each node is buffered by the adapter before it is sent to the Oracle database (or returned to the client). This means that, for an LOB data type, the entire value is read into a buffer.  
   
--   **Node-value streaming**. In node-value streaming the actual value of the node can be streamed in chunks between the Oracle database and the client. Node-value streaming supports end-to-end streaming of LOB data types between the adapter client and the Oracle database.  
+- **Node-value streaming**. In node-value streaming the actual value of the node can be streamed in chunks between the Oracle database and the client. Node-value streaming supports end-to-end streaming of LOB data types between the adapter client and the Oracle database.  
   
- Both of these streaming modes rely on support for node streaming and node-value streaming on messages in WCF. For this reason, streaming for LOB types is tied closely to how messages are created and consumed both by the adapter and by a client application. One result of this is that support for streaming LOB types is not the same across all programming models.  
+  Both of these streaming modes rely on support for node streaming and node-value streaming on messages in WCF. For this reason, streaming for LOB types is tied closely to how messages are created and consumed both by the adapter and by a client application. One result of this is that support for streaming LOB types is not the same across all programming models.  
   
- The sections in this topic provide:  
+  The sections in this topic provide:  
   
--   Fundamental background information about how message streaming is supported in WCF and how it is implemented by the adapter.  
+- Fundamental background information about how message streaming is supported in WCF and how it is implemented by the adapter.  
   
--   Information about how streaming for LOB data types is supported when you use the adapter in each programming model.  
+- Information about how streaming for LOB data types is supported when you use the adapter in each programming model.  
   
 ## Streaming Fundamentals  
  The support for streaming implemented by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] is a combination of:  
@@ -48,19 +48,19 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports strea
 ### Message Streaming Support in WCF  
  How WCF supports streaming on a message depends both on how the message is created and how the message is consumed.  
   
--   A WCF message is created by using the static **Create** method of **System.ServiceModel.Channels.Message**. This method has several overloads that support different ways of passing the message body. A WCF message can be created by passing the message body using:  
+- A WCF message is created by using the static **Create** method of **System.ServiceModel.Channels.Message**. This method has several overloads that support different ways of passing the message body. A WCF message can be created by passing the message body using:  
   
-    -   A **System.Xml.XmlReader**, or  
+  -   A **System.Xml.XmlReader**, or  
   
-    -   A **System.ServiceModel.Channels.BodyWriter**.  
+  -   A **System.ServiceModel.Channels.BodyWriter**.  
   
--   A WCF message can be consumed using  
+- A WCF message can be consumed using  
   
-    -   An **XmlReader** by calling **Message.GetReaderAtBodyContents()**, or  
+  -   An **XmlReader** by calling **Message.GetReaderAtBodyContents()**, or  
   
-    -   An **XmlDictionaryWriter** by calling **Message.WriteBodyContents(XmlDictionaryWriter)**.  
+  -   An **XmlDictionaryWriter** by calling **Message.WriteBodyContents(XmlDictionaryWriter)**.  
   
- The following table shows how WCF behaves for different combinations of creating and consuming messages.  
+  The following table shows how WCF behaves for different combinations of creating and consuming messages.  
   
 |Message Created With|Message Consumed With|WCF Behavior|  
 |--------------------------|---------------------------|------------------|  

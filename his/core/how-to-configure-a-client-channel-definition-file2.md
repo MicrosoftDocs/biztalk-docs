@@ -22,19 +22,19 @@ To specify a channel definition, you must provide a client channel definition fi
   
 ### To configure a client channel definition file  
   
-1.  On your WebSphere MQ Server computer, create the client channel definition file.  
+1. On your WebSphere MQ Server computer, create the client channel definition file.  
   
-     For information about how to create a client channel definition file, refer to IBM WebSphere MQ product documentation.  
+    For information about how to create a client channel definition file, refer to IBM WebSphere MQ product documentation.  
   
-     After the file is defined, a binary format .TAB file is created. By default, this file is named AMQCLCHL.TAB, and it is typically located in the \<*WebSphere MQ Server installation folder*>\qmgrs\\<QueueManagerName\>\\@ipcc folder.  
+    After the file is defined, a binary format .TAB file is created. By default, this file is named AMQCLCHL.TAB, and it is typically located in the \<*WebSphere MQ Server installation folder*>\qmgrs\\<QueueManagerName\>\\@ipcc folder.  
   
-2.  Move the AMQCLCHL.TAB file to the WebSphere MQ client computer on which BizTalk Server is installed, and define the MQCHLLIB and MQCHLTAB environment variables on this computer.  
+2. Move the AMQCLCHL.TAB file to the WebSphere MQ client computer on which BizTalk Server is installed, and define the MQCHLLIB and MQCHLTAB environment variables on this computer.  
   
-    -   For MQCHLLIB, specify the folder that contains the AMQCLCHL.TAB file. By default, it is the WebSphere MQ client installation folder.  
+   -   For MQCHLLIB, specify the folder that contains the AMQCLCHL.TAB file. By default, it is the WebSphere MQ client installation folder.  
   
-    -   For MQCHLTAB, specify the name of the .TAB file (by default AMQCLCHL.TAB).  
+   -   For MQCHLTAB, specify the name of the .TAB file (by default AMQCLCHL.TAB).  
   
- When you are setting up SSL using a client channel definition file, the key repository environment variable (MQSSLKEYR) must also be set on the WebSphere MQ client computer on which BizTalk Server is installed. For MQSSLKEYR, specify the path of the key repository for the client.  
+   When you are setting up SSL using a client channel definition file, the key repository environment variable (MQSSLKEYR) must also be set on the WebSphere MQ client computer on which BizTalk Server is installed. For MQSSLKEYR, specify the path of the key repository for the client.  
   
 ## See Also  
  [BizTalk Adapter for WebSphere MQ](../core/biztalk-adapter-for-websphere-mq2.md)

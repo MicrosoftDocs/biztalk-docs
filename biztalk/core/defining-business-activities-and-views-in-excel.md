@@ -32,13 +32,13 @@ Your first step in creating any BAM solution is to identify what data you're int
   
  The BAM.XLA file is installed in one of the following locations:  
   
--   If Microsoft Office is not installed on the computer, then the BAM.xla is installed to the \Program Files\Microsoft BizTalk Server 20*xx*\ExcelDir\ folder.  
+- If Microsoft Office is not installed on the computer, then the BAM.xla is installed to the \Program Files\Microsoft BizTalk Server 20*xx*\ExcelDir\ folder.  
   
--   If Microsoft Office is installed, the BAM.xla is installed in the \Program Files\Microsoft Office\OFFICE*xx*\Library\ folder.  
+- If Microsoft Office is installed, the BAM.xla is installed in the \Program Files\Microsoft Office\OFFICE*xx*\Library\ folder.  
   
- You can also copy the BAM.xla to your computer from a shared folder on another computer. You can then register the XLA by selecting it from the location to which you copied it.  
+  You can also copy the BAM.xla to your computer from a shared folder on another computer. You can then register the XLA by selecting it from the location to which you copied it.  
   
- To enable the BAM Add-in on the Excel menu toolbar, click the **File** menu, then click **Options**, and then click **Add-Ins**. Select **Business Activity Monitoring**, then click **GO**, In the Ad-ins window, select the check box next to **Business Activity Monitoring**, and then click **OK**.  
+  To enable the BAM Add-in on the Excel menu toolbar, click the **File** menu, then click **Options**, and then click **Add-Ins**. Select **Business Activity Monitoring**, then click **GO**, In the Ad-ins window, select the check box next to **Business Activity Monitoring**, and then click **OK**.  
   
 > [!NOTE]
 >  Using the BAM Add-in precludes running Excel with two instances loaded into the same process.  When using the add-in, multiple instances in the same process can occur in the following situations:  

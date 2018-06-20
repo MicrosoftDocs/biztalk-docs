@@ -25,31 +25,31 @@ You can use this procedure to move the BAM Primary Import database to another se
   
 ### To move the BAM Primary Import database  
   
-1.  Stop all BizTalk Server services. For more information, see [How to Start, Stop, Pause, Resume, or Restart BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
+1. Stop all BizTalk Server services. For more information, see [How to Start, Stop, Pause, Resume, or Restart BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md).  
   
-2.  Stop the IIS service.  
+2. Stop the IIS service.  
   
-3.  Stop the BAM Alerts Notification Service:  
+3. Stop the BAM Alerts Notification Service:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  At the command prompt, type:  
+   2.  At the command prompt, type:  
   
-        ```  
-        Net stop NS$BamAlerts  
-        ```  
+       ```  
+       Net stop NS$BamAlerts  
+       ```  
   
-4.  Follow the instructions in SQL Server Books Online to back up the BAM Primary Import database on the old server.  
+4. Follow the instructions in SQL Server Books Online to back up the BAM Primary Import database on the old server.  
   
-5.  Copy the BAM Primary Import database to the new SQL Server.  
+5. Copy the BAM Primary Import database to the new SQL Server.  
   
-6.  Follow the instructions in SQL Server Books Online to restore the BAM Primary Import database on the new server.  
+6. Follow the instructions in SQL Server Books Online to restore the BAM Primary Import database on the new server.  
   
-7.  On a computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], browse to the following folder:  
+7. On a computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], browse to the following folder:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\Restore  
+    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\Restore  
   
-8.  Right-click **SampleUpdateInfo.xml**, and then click **Edit**.  
+8. Right-click **SampleUpdateInfo.xml**, and then click **Edit**.  
   
 9. In the Primary Import Database section of the file, replace **"SourceServer"** with the name of the source system, and then replace **"DestinationServer"** with the name of the destination system.  
   

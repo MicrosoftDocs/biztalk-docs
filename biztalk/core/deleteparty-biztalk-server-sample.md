@@ -32,9 +32,9 @@ The DeleteParty sample demonstrates how to delete a specified party.
   
 ## Prerequisites  
   
--   You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.  
+- You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.  
   
--   The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).  
+- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).  
   
 ## What This Sample Does  
  This sample, written in Microsoft Visual C#, using objects from the BizTalk Explorer object model (ExplorerOM), performs the following operations:  
@@ -58,34 +58,34 @@ The DeleteParty sample demonstrates how to delete a specified party.
   
 ### To build and initialize this sample  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file DeleteParty.sln.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file DeleteParty.sln.  
   
-2.  On the **Build** menu, click **Build Solution**.  
+2. On the **Build** menu, click **Build Solution**.  
   
 ### To run this sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
+    \<*Samples Path*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
   
-2.  Run the file DeleteParty.exe, passing one of the two following command-line arguments:  
+2. Run the file DeleteParty.exe, passing one of the two following command-line arguments:  
   
-    -   **\<**
-         ***PartyName* \>.** The name of a party to be deleted. If the party name contains spaces, enclose the name in quotes.  
+   - **\<**
+      ***PartyName* \>.** The name of a party to be deleted. If the party name contains spaces, enclose the name in quotes.  
   
-    -   **/?.** Displays help.  
+   - **/?.** Displays help.  
   
      For example:  
   
-    ```  
-    DeleteParty "My Party #3"  
-    ```  
+   ```  
+   DeleteParty "My Party #3"  
+   ```  
   
-     -OR-  
+    -OR-  
   
-    ```  
-    DeleteParty /?  
-    ```  
+   ```  
+   DeleteParty /?  
+   ```  
   
 ## Windows Powershell Script example  
  The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:  

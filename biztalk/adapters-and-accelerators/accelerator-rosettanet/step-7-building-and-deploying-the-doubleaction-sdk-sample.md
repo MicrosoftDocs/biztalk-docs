@@ -25,33 +25,33 @@ The DoubleAction.odx sample shows how to implement an orchestration to generate 
   
 ### To build and initialize the DoubleAction sample  
   
-1.  On the Contoso computer, in a command prompt window, move to the following folder:   
-    *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction\\.  
+1. On the Contoso computer, in a command prompt window, move to the following folder:   
+   *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction\\.  
   
-    > [!NOTE]
-    >  Before running the Setup program, open the DoubleAction.sql file (in the above folder) in Notepad. On the **File** menu, click **Save As**. In the **Encoding** box, select **ANSI** from the drop-down list, and then click **Save**. Click **Yes** to overwrite the existing file.  
+   > [!NOTE]
+   >  Before running the Setup program, open the DoubleAction.sql file (in the above folder) in Notepad. On the **File** menu, click **Save As**. In the **Encoding** box, select **ANSI** from the drop-down list, and then click **Save**. Click **Yes** to overwrite the existing file.  
   
-2.  If your BizTalk Server installation is running on SQL Server 2008 R2/2008 SP1, run setupx64.bat in the same folder. The batch file will perform the following actions:  
+2. If your BizTalk Server installation is running on SQL Server 2008 R2/2008 SP1, run setupx64.bat in the same folder. The batch file will perform the following actions:  
   
-    -   Creates a SQL stored procedure (`PipAutomationGetAction`) in the BTARNDATA database to retrieve the action message from the MessagesToLOB table.  
+   - Creates a SQL stored procedure (`PipAutomationGetAction`) in the BTARNDATA database to retrieve the action message from the MessagesToLOB table.  
   
-    -   Compiles the HeaderHelper .NET project and registers the assembly in the global assembly cache.  
+   - Compiles the HeaderHelper .NET project and registers the assembly in the global assembly cache.  
   
-    -   Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] SQL receive port (MessagesToLOB_Receive_Port).  
+   - Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] SQL receive port (MessagesToLOB_Receive_Port).  
   
-    -   Enables the receive location (MessagesToLOB_Receive_Location).  
+   - Enables the receive location (MessagesToLOB_Receive_Location).  
   
-    -   Compiles and deploys the double-action PIPAutomation orchestration (DoubleAction.odx).  
+   - Compiles and deploys the double-action PIPAutomation orchestration (DoubleAction.odx).  
   
-    -   Binds and starts the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] orchestration.  
+   - Binds and starts the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] orchestration.  
   
-        > [!NOTE]
-        >  The sample displays some warnings while compiling. You can ignore these warnings.  
+     > [!NOTE]
+     >  The sample displays some warnings while compiling. You can ignore these warnings.  
   
-        > [!NOTE]
-        >  Verify that DoubleAction.odx has been bound to **MessagesToLOB_Receive_Port**, and that the orchestration has been started.  
+     > [!NOTE]
+     >  Verify that DoubleAction.odx has been bound to **MessagesToLOB_Receive_Port**, and that the orchestration has been started.  
   
-3.  In BizTalk Server Administration Console, expand the **BizTalk Group**, **Applications**, and **BizTalk Application 1** nodes. Click the **Orchestrations** node. Right-click the **DoubleAction** orchestration, and then click **Properties**. In the Properties dialog box, click the **Bindings** node, and then set the **Host** to **BizTalkServerApplication** and set the **Receive Port** to **MessageToLOB_ReceivePort**. Click **OK**. Right-click the **DoubleAction** orchestration, and then click **Start**.  
+3. In BizTalk Server Administration Console, expand the **BizTalk Group**, **Applications**, and **BizTalk Application 1** nodes. Click the **Orchestrations** node. Right-click the **DoubleAction** orchestration, and then click **Properties**. In the Properties dialog box, click the **Bindings** node, and then set the **Host** to **BizTalkServerApplication** and set the **Receive Port** to **MessageToLOB_ReceivePort**. Click **OK**. Right-click the **DoubleAction** orchestration, and then click **Start**.  
   
 ## See Also  
  [Creating and Configuring the Fabrikam Solution](../../adapters-and-accelerators/accelerator-rosettanet/creating-and-configuring-the-fabrikam-solution.md)

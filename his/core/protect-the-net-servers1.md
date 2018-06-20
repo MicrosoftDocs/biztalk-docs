@@ -16,13 +16,13 @@ manager: "anneta"
 # Protect the .NET Servers
 To prevent an attacker from spoofing their identity, tampering with the data on the host, elevating their privileges, accessing restricted data, or denying service, you should:  
   
--   Use static IP addresses on the host  
+- Use static IP addresses on the host  
   
--   Run server components in-process with a HIP Service account.  
+- Run server components in-process with a HIP Service account.  
   
- You can also help mitigate this threat with the following deployment scenario:  
+  You can also help mitigate this threat with the following deployment scenario:  
   
--   Send properly-formatted messages (for example, ELM, TRM, DPL, SNA, IP)  
+- Send properly-formatted messages (for example, ELM, TRM, DPL, SNA, IP)  
   
 ## See Also  
  [Transaction Integrator Threat Mitigation](../core/transaction-integrator-threat-mitigation2.md)

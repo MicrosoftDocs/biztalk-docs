@@ -28,36 +28,36 @@ BizTalk Expression Editor in Orchestration Designer is a standard Visual Studio 
   
  The following is a list of limitations when using expressions in the BizTalk Expression Editor:  
   
--   Compound assignment such as "+=", "-=", or "*=" is not supported.  
+- Compound assignment such as "+=", "-=", or "*=" is not supported.  
   
--   More than one assignment operator in a statement is not supported.  
+- More than one assignment operator in a statement is not supported.  
   
--   Assignment within an “if” or “while” predicate is not supported.  
+- Assignment within an “if” or “while” predicate is not supported.  
   
--   Increment and decrement are not supported. For example, "++" and "--".  
+- Increment and decrement are not supported. For example, "++" and "--".  
   
--   For message parts, member access is allowed on public methods, nested types, static data fields, read-only .NET properties when annotated with Microsoft.XLANGs.BaseTypes.DistinguishedFieldAttribute, all public data fields, and non-read-only .NET properties.  
+- For message parts, member access is allowed on public methods, nested types, static data fields, read-only .NET properties when annotated with Microsoft.XLANGs.BaseTypes.DistinguishedFieldAttribute, all public data fields, and non-read-only .NET properties.  
   
--   Indexers or parameterized .NET properties are not supported.  
+- Indexers or parameterized .NET properties are not supported.  
   
--   Delegates and events are not supported.  
+- Delegates and events are not supported.  
   
--   Generics are not supported.  
+- Generics are not supported.  
   
--   Flow control syntax such as "foreach", "for", "do-while", "break", and "continue" are not supported.  
+- Flow control syntax such as "foreach", "for", "do-while", "break", and "continue" are not supported.  
   
--   Ternary operations are not supported. For example, "?:".  
+- Ternary operations are not supported. For example, "?:".  
   
--   You can add comments in the Expression shape, but the Expression shape must contain at least one statement.  
+- You can add comments in the Expression shape, but the Expression shape must contain at least one statement.  
   
--   Arrays are not supported.  
+- Arrays are not supported.  
   
--   When the Expression shape is placed in a Construct Message shape, you cannot do any control flow. For example, "if-then-else" or "while".  
+- When the Expression shape is placed in a Construct Message shape, you cannot do any control flow. For example, "if-then-else" or "while".  
   
--   All valid expression statements are of the form:  
+- All valid expression statements are of the form:  
   
-    -   Dotted-name = expression;  
+  -   Dotted-name = expression;  
   
-    -   Dotted-name = expression;  
+  -   Dotted-name = expression;  
   
- Though you can use BizTalk Expression Editor to enter complex expressions easily and quickly, you cannot use it to enter an arbitrary amount of code. The reason for this is to keep code for the business process separate from its implementation code.
+  Though you can use BizTalk Expression Editor to enter complex expressions easily and quickly, you cannot use it to enter an arbitrary amount of code. The reason for this is to keep code for the business process separate from its implementation code.

@@ -23,11 +23,11 @@ Diagram of a downstream system
   
  On the Host Integration Server computer, two connections are required to support downstream systems:  
   
--   A host connection between the server and the mainframe. This can be any standard physical connection method supported by the mainframe.  
+- A host connection between the server and the mainframe. This can be any standard physical connection method supported by the mainframe.  
   
--   A downstream connection between the server and the downstream system. This physical connection can be a DLC 802.2, SDLC, or X.25 connection.  
+- A downstream connection between the server and the downstream system. This physical connection can be a DLC 802.2, SDLC, or X.25 connection.  
   
- Once configured, Host Integration Server can manage the downstream LUs in a manner similar to other LUs, including assigning them to LU pools.  
+  Once configured, Host Integration Server can manage the downstream LUs in a manner similar to other LUs, including assigning them to LU pools.  
   
 ## See Also  
  [Deployment Strategies (Downstream Connections)](../core/deployment-strategies-downstream-connections-2.md)   

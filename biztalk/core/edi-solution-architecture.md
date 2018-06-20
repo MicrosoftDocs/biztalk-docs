@@ -17,13 +17,13 @@ manager: "anneta"
 # EDI Solution Architecture
 Electronic Data Interchange (EDI) is one of the most prevalent means by which business entities exchange data electronically. EDI usage entails message syntax and standards (including ANSI X12 and UN/EDIFACT), messaging protocol, and transports. The following are characteristics of EDI messaging:  
   
--   EDI messaging protocols ensure that data always arrives as expected, and corrupted or incorrect data is automatically detected and reported.  
+- EDI messaging protocols ensure that data always arrives as expected, and corrupted or incorrect data is automatically detected and reported.  
   
--   EDI mechanisms usually specify data aggregation schemes (batching).  
+- EDI mechanisms usually specify data aggregation schemes (batching).  
   
--   Users often customize EDI document definitions by implementing subset or specific implementation of an EDI guideline.  
+- Users often customize EDI document definitions by implementing subset or specific implementation of an EDI guideline.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes EDI messages using receive and send pipelines specific to EDI that can parse and serialize EDI messages. This section describes the architecture of EDI solutions on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], including specifics of receive-side and send-side processing, message validation, and status reporting.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes EDI messages using receive and send pipelines specific to EDI that can parse and serialize EDI messages. This section describes the architecture of EDI solutions on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], including specifics of receive-side and send-side processing, message validation, and status reporting.  
   
 ## In This Section  
   

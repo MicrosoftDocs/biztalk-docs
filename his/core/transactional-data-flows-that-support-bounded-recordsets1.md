@@ -24,13 +24,13 @@ Transaction Integrator sending and receiving a two-phase commit exchange from a 
 ## TI sending and receiving a two-phase commit  
  This transactional model does not support unbounded recordsets. (An unbounded recordset has no set maximum number of rows.) The transactional model is supported only by the LU 6.2 protocol, not the TCP/IP protocol. Therefore this model supports the following server models only:  
   
--   CICS LU6.2 Link  
+- CICS LU6.2 Link  
   
--   CICS LU6.2 User Data  
+- CICS LU6.2 User Data  
   
--   IMS LU6.2  
+- IMS LU6.2  
   
- Microsoft Distributed Transaction Coordinator (DTC) works with the TI run-time environment and with the SNA LU 6.2 Resync TP service to provide the necessary 2PC flows as well as transaction log synchronization and recovery services. TI Automation clients can remain completely uninvolved in transaction commit or rollback decisions, or they can participate as shown in the following Visual Basic code. TI Automation clients are never aware of, nor involved in, transaction recovery. The following code sample is for a Visual Basic client that is involved in transaction control.  
+  Microsoft Distributed Transaction Coordinator (DTC) works with the TI run-time environment and with the SNA LU 6.2 Resync TP service to provide the necessary 2PC flows as well as transaction log synchronization and recovery services. TI Automation clients can remain completely uninvolved in transaction commit or rollback decisions, or they can participate as shown in the following Visual Basic code. TI Automation clients are never aware of, nor involved in, transaction recovery. The following code sample is for a Visual Basic client that is involved in transaction control.  
   
 ```  
 'Get object context reference  

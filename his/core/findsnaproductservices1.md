@@ -27,20 +27,20 @@ The **FindSNAProductServices** function enumerates all instances of a product. I
  *Return 0*  
  Status of the operation:  
   
--   STATUS_SUCCESSFUL: Operation succeeded.  
+- STATUS_SUCCESSFUL: Operation succeeded.  
   
--   STATUS_NOSUCHPRODUCT: The product does not exist in the registry.  
+- STATUS_NOSUCHPRODUCT: The product does not exist in the registry.  
   
--   STATUS_FAILED: Operation failed.  
+- STATUS_FAILED: Operation failed.  
   
- *Return 1*  
- List of indexes for the instances of this product.  
+  *Return 1*  
+  List of indexes for the instances of this product.  
   
- *Return 2*  
- List of service names for the instances of this product.  
+  *Return 2*  
+  List of service names for the instances of this product.  
   
- *Return 3*  
- List of titles for the instances of this product.  
+  *Return 3*  
+  List of titles for the instances of this product.  
   
- *Return 4*  
- List of descriptions for the instances of this product.
+  *Return 4*  
+  List of descriptions for the instances of this product.

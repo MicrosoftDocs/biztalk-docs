@@ -25,21 +25,21 @@ manager: "anneta"
   
  To access data from an OLE DB data source, SQL Server requires the following information:  
   
-1.  The name of the OLE DB provider  
+1. The name of the OLE DB provider  
   
-2.  Connection information in the form of an OLE DB initialization string  
+2. Connection information in the form of an OLE DB initialization string  
   
-3.  The table name or SQL query string  
+3. The table name or SQL query string  
   
-4.  Authorization credentials  
+4. Authorization credentials  
   
- You can reference heterogeneous data sources using one of three methods:  
+   You can reference heterogeneous data sources using one of three methods:  
   
-1.  Ad Hoc Name  
+5. Ad Hoc Name  
   
-2.  Linked Server Names  
+6. Linked Server Names  
   
-3.  Pass-Through Queries  
+7. Pass-Through Queries  
   
 ## Ad Hoc Name Queries
   
@@ -317,27 +317,27 @@ GO
   
  Follow these steps to define a linked server from the SQL Server Management Studio:  
   
-1.  In the Object Explorer, expand **Server Objects**, click the **Linked Servers** folder, and then right click on **New Linked Server**.  
+1. In the Object Explorer, expand **Server Objects**, click the **Linked Servers** folder, and then right click on **New Linked Server**.  
   
-2.  In the **New Linked Server** dialog box, enter a Linked server name such as **DB2EXAMPLE**, and select **Microsoft OLE DB Provider for DB2** from the **Provider** list. Enter **HIS** in the **Product name** field. Paste a valid connection string that you defined using the Data Access Tool and Data Source Wizard into the **Provider string** field. Enter the DB2 catalog into the **Location** field.  
+2. In the **New Linked Server** dialog box, enter a Linked server name such as **DB2EXAMPLE**, and select **Microsoft OLE DB Provider for DB2** from the **Provider** list. Enter **HIS** in the **Product name** field. Paste a valid connection string that you defined using the Data Access Tool and Data Source Wizard into the **Provider string** field. Enter the DB2 catalog into the **Location** field.  
   
-3.  In the Select a page pane, click **Security** and select **Be made using this security context**. Enter a valid DB2 user name in **Remote login** and a password in **With password**.  
+3. In the Select a page pane, click **Security** and select **Be made using this security context**. Enter a valid DB2 user name in **Remote login** and a password in **With password**.  
   
-4.  In the Select a page pane, click **Server Options**, click **RPC Out** and select **True**. Click **OK**.  
+4. In the Select a page pane, click **Server Options**, click **RPC Out** and select **True**. Click **OK**.  
   
-5.  To display objects on the remote server, expand the **Linked Server** folder, expand the Linked Server that you defined, expand **Catalogs**, **Tables** and **Views**.  
+5. To display objects on the remote server, expand the **Linked Server** folder, expand the Linked Server that you defined, expand **Catalogs**, **Tables** and **Views**.  
   
-6.  To create a query, right click on a table and select **Script table as**. Choose **SELECT to** and select **New Query Editor Window**.  
+6. To create a query, right click on a table and select **Script table as**. Choose **SELECT to** and select **New Query Editor Window**.  
   
-7.  From the Query menu click **Execute (F5)**. You will see the rows of data in the Results pane.  
+7. From the Query menu click **Execute (F5)**. You will see the rows of data in the Results pane.  
   
- You can also alter the linked server definition or use it as a template for creating other linked server definitions.  
+   You can also alter the linked server definition or use it as a template for creating other linked server definitions.  
   
-1.  In the Object Explorer, right-click the Linked Server that you defined previously. Select **Script Linked Server as**, choose **DROP and CREATE to**, and click **New Query Editor Window**.  
+8. In the Object Explorer, right-click the Linked Server that you defined previously. Select **Script Linked Server as**, choose **DROP and CREATE to**, and click **New Query Editor Window**.  
   
-2.  Edit the Transact-SQL statements and click **Execute (F5)** from the Query menu.  
+9. Edit the Transact-SQL statements and click **Execute (F5)** from the Query menu.  
   
-3.  Right-click the re-defined or new Linked Server, and then click **Test Connection**.  
+10. Right-click the re-defined or new Linked Server, and then click **Test Connection**.  
   
 ## See Also  
  [SQL Server](../core/sql-server2.md)

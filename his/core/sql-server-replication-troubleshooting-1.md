@@ -31,7 +31,7 @@ This topic contains the following sections relating to troubleshooting issues be
   
  **sp_setdefaultdatatypemapping**  
   
- For more information, see the [System Stored Procedures (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=180765\)) topic in SQL Server Books Online (http://go.microsoft.com/fwlink/?LinkID=180765).  
+ For more information, see the [System Stored Procedures (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=180765\)) topic in SQL Server Books Online (<http://go.microsoft.com/fwlink/?LinkID=180765>).  
   
 ##  <a name="datetime2"></a> Failure to replicate DATETIME2 columns to DB2 TIMESTAMP columns  
  **Problem**  

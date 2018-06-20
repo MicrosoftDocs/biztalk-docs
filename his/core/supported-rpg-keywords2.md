@@ -16,75 +16,75 @@ manager: "anneta"
 # Supported RPG Keywords
 Transaction Integrator (TI) supports the following Report Program Generator (RPG) keywords:  
   
--   CONST  
+- CONST  
   
--   DATFMT  
+- DATFMT  
   
--   DIM  
+- DIM  
   
--   LIKE  
+- LIKE  
   
--   LIKEDS  
+- LIKEDS  
   
--   OCCURS  
+- OCCURS  
   
--   PACKEVEN  
+- PACKEVEN  
   
--   TIMFMT  
+- TIMFMT  
   
- TI does not support the following RPG keywords:  
+  TI does not support the following RPG keywords:  
   
--   ALIGN  
+- ALIGN  
   
--   ALT  
+- ALT  
   
--   ALTSEQ(*NONE)  
+- ALTSEQ(*NONE)  
   
--   ASCEND  
+- ASCEND  
   
--   BASED  
+- BASED  
   
--   CTDATA  
+- CTDATA  
   
--   DESCEND  
+- DESCEND  
   
--   DTAARA  
+- DTAARA  
   
--   EXPORT  
+- EXPORT  
   
--   EXFLD  
+- EXFLD  
   
--   EXTFMT  
+- EXTFMT  
   
--   EXTNAME  
+- EXTNAME  
   
--   EXTPGM  
+- EXTPGM  
   
--   EXTPROC  
+- EXTPROC  
   
--   FROMFILE  
+- FROMFILE  
   
--   IMPORT  
+- IMPORT  
   
--   INZ  
+- INZ  
   
--   NOOPT  
+- NOOPT  
   
--   OPDESC  
+- OPDESC  
   
--   OVERLAY  
+- OVERLAY  
   
--   PERRCD  
+- PERRCD  
   
--   PREFIX  
+- PREFIX  
   
--   PROCPTR  
+- PROCPTR  
   
--   STATIC  
+- STATIC  
   
--   TOFILE  
+- TOFILE  
   
--   VALUE  
+- VALUE  
   
 ## See Also  
  [Supported .NET Aggregate Data Types](../core/supported-net-aggregate-data-types1.md)   

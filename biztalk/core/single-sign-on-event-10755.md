@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10755
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10755|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_APP_DISABLED|  
-|Message Text|The application is currently disabled.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10755                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                   ENTSSO_E_APP_DISABLED                    |
+|  Message Text   |           The application is currently disabled.           |
   
 ## Explanation  
  The application is currently disabled.  

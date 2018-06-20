@@ -28,13 +28,13 @@ The use of certain structures in a schema may create variations in the Extensibl
   
  Another situation in which you might generate variations in the XSLT is when the following conditions are met:  
   
--   **Record A** has a child **Field Element B**.  
+- **Record A** has a child **Field Element B**.  
   
--   **Record A** and child **Field Element B** occur once.  
+- **Record A** and child **Field Element B** occur once.  
   
--   **Record A** is part of a **Choice Group** that repeats.  
+- **Record A** is part of a **Choice Group** that repeats.  
   
- In this situation, BizTalk Mapper generates XSLT that contains iteration logic to handle the possibility of the many variations of the source records.  
+  In this situation, BizTalk Mapper generates XSLT that contains iteration logic to handle the possibility of the many variations of the source records.  
   
 > [!NOTE]
 >  You must be explicit with respect to mappings involving groups. For example, if a destination schema contains a **Choice Group** node with child nodes A and B, it is not valid to have A and B simultaneously on the same iteration of their parent group. BizTalk Mapper does not prevent you from creating mappings that are not valid. Therefore, you must use logical functoids to set up mappings in which A and B can never occur at the same time.  

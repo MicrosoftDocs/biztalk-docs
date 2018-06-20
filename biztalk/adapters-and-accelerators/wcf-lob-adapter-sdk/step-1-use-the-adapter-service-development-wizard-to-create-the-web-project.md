@@ -116,13 +116,13 @@ manager: "anneta"
   
 ### To configure the binding  
   
-1.  On the **Configure the service endpoint binding and address** page, select the **BindingConfiguration** entry in **Configure the address and binding for the contract**, and then click the ellipsis (**…**) button.  
+1. On the **Configure the service endpoint binding and address** page, select the **BindingConfiguration** entry in **Configure the address and binding for the contract**, and then click the ellipsis (**…**) button.  
   
-2.  In the **Customize Binding** dialog box, set **Mode** to **TransportWithMessageCredential**, and then click **OK**.  
+2. In the **Customize Binding** dialog box, set **Mode** to **TransportWithMessageCredential**, and then click **OK**.  
   
-3.  Click **Apply**, and then click **Next**.  
+3. Click **Apply**, and then click **Next**.  
   
-4.  On the **Summary** page, review the contracts and operations selected for this project, and then click **Finish**. You will be presented with the EchoWeb solution, which contains the project files created by the [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)]  
+4. On the **Summary** page, review the contracts and operations selected for this project, and then click **Finish**. You will be presented with the EchoWeb solution, which contains the project files created by the [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)]  
   
 ## What did I just do?  
  In this step, you used the [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)] to generate a Web project that, when published to IIS, will host the Echo Adapter developed in [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md) in the IIS process. The resulting Web project allows Web Services and WCF clients to access the selected operations.  

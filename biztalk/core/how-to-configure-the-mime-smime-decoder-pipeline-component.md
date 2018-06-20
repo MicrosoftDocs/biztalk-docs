@@ -27,7 +27,7 @@ The MIME/SMIME Decoder pipeline component is used for decoding and decrypting MI
   
 > [!NOTE]
 >  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the MIME/SMIME decoder pipeline component does not have native 64-bit support.  This means that this component must be run in a 32-bit emulation mode process (WOW64).  This implies that the host instance in which this decoder component (or the receive pipeline of which it is a part) runs must be running in 32-bit emulation mode.  Be aware of the performance (and other) implications of this restriction for other elements of BizTalk running in this same host instance.  
-  
+> 
 > [!NOTE]
 >  The MIME/SMIME decoder component is also used within the POP3 adapter.  As a result, the same native 64-bit support restriction exists for the host instance in which the POP3 adapter runs.  See related information about the POP3 adapter in [POP3 Adapter](../core/pop3-adapter.md).  
   

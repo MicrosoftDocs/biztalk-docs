@@ -16,25 +16,25 @@ manager: "anneta"
 # How to Configure Downstream Connections
 You can configure [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] to enable downstream LUs to communicate with the host. Following are the general procedures:  
   
-1.  Gather needed information about the host and downstream systems, including information about identifiers, such as addresses and exchange identification (XID), and information about Max BTU Length.  
+1. Gather needed information about the host and downstream systems, including information about identifiers, such as addresses and exchange identification (XID), and information about Max BTU Length.  
   
-2.  Configure the host connection as you would configure any other host connection. When specifying the remote end for the connection, select **Host System**.  
+2. Configure the host connection as you would configure any other host connection. When specifying the remote end for the connection, select **Host System**.  
   
-3.  Select the host connection and assign and configure one or more new downstream LUs.  
+3. Select the host connection and assign and configure one or more new downstream LUs.  
   
-4.  Optionally, you can put downstream LUs into a pool to maximize their availability.  
+4. Optionally, you can put downstream LUs into a pool to maximize their availability.  
   
-5.  Configure the downstream connection. When specifying the remote end for the connection, select **Downstream**.  
+5. Configure the downstream connection. When specifying the remote end for the connection, select **Downstream**.  
   
-     The downstream connection can be an 802.2, SDLC, or X.25 connection. It cannot be a channel connection.  
+    The downstream connection can be an 802.2, SDLC, or X.25 connection. It cannot be a channel connection.  
   
-6.  Select the downstream connection and associate the downstream LUs (from step 3) and LU pools (from step 4) with that connection.  
+6. Select the downstream connection and associate the downstream LUs (from step 3) and LU pools (from step 4) with that connection.  
   
-7.  If necessary, reorder the downstream LU numbers; that is, the LU numbers used by the downstream system.  
+7. If necessary, reorder the downstream LU numbers; that is, the LU numbers used by the downstream system.  
   
-     A downstream LU has two LU numbers: one recognized by the downstream system and one recognized by the host. These numbers need not match.  
+    A downstream LU has two LU numbers: one recognized by the downstream system and one recognized by the host. These numbers need not match.  
   
- To put configuration changes into effect, save the configuration file and restart the server (if you have added a link service or connection).  
+   To put configuration changes into effect, save the configuration file and restart the server (if you have added a link service or connection).  
   
 > [!NOTE]
 >  It is recommended that you manually separate the sessions of your downstream pools if you are upgrading from SNA Server 4.0 or later. If this is not done, you may experience incorrect behavior from Host Integration Server when attempting to connect downstream client computers.  
@@ -43,15 +43,15 @@ You can configure [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservn
   
  Downstream LUs have two parameters:  
   
--   The LU number, which identifies the LU to the host.  
+- The LU number, which identifies the LU to the host.  
   
--   The downstream LU number, which identifies an LU or LU pool to the downstream system.  
+- The downstream LU number, which identifies an LU or LU pool to the downstream system.  
   
- The LU number and the downstream LU number need not match, and probably will not match. The downstream LU number should match the LU number on the downstream system.  
+  The LU number and the downstream LU number need not match, and probably will not match. The downstream LU number should match the LU number on the downstream system.  
   
- Check with the host administrator for the correct value of the LU number. It should match the LOCADDR= parameter of the LU definition in VTAM or in the NCP Gen. If the number you specify has already been assigned to an LU or an APPC LU-LU pair on the current connection, you must change the number. The range for LU numbers is 1 through 254.  
+  Check with the host administrator for the correct value of the LU number. It should match the LOCADDR= parameter of the LU definition in VTAM or in the NCP Gen. If the number you specify has already been assigned to an LU or an APPC LU-LU pair on the current connection, you must change the number. The range for LU numbers is 1 through 254.  
   
- Host Integration Server assigns a downstream LU number to each LU or LU pool assigned to the downstream connection. Host Integration Server assigns downstream LU numbers starting with 2 and ascending sequentially. Therefore, one way to change downstream LU numbers is to reorder the list of LUs for the downstream connection. Another way to change downstream LU numbers is to use empty LU pools to take up unwanted numbers, leaving the correct (larger) numbers for other LU pools or LUs.  
+  Host Integration Server assigns a downstream LU number to each LU or LU pool assigned to the downstream connection. Host Integration Server assigns downstream LU numbers starting with 2 and ascending sequentially. Therefore, one way to change downstream LU numbers is to reorder the list of LUs for the downstream connection. Another way to change downstream LU numbers is to use empty LU pools to take up unwanted numbers, leaving the correct (larger) numbers for other LU pools or LUs.  
   
 > [!NOTE]
 >  The LU numbers generated for an LU range are sequential. If the numbers assigned by your host administrator are not sequential, you can modify the numbers of individual LUs after they have been created.  

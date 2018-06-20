@@ -54,17 +54,17 @@ GUID* pguidTrackingId
   
  A password change from an external system can have several consequences:  
   
--   If a partial password sync is configured, then the SSO database might be updated, if a current mapping exists for the external account.  
+- If a partial password sync is configured, then the SSO database might be updated, if a current mapping exists for the external account.  
   
--   If a full password sync is configured, then the password change might also be made to a Windows account.  
+- If a full password sync is configured, then the password change might also be made to a Windows account.  
   
- If the external account has no current mapping in the SSO database, the password change might have no effect.  
+  If the external account has no current mapping in the SSO database, the password change might have no effect.  
   
- The password change complete notification is issued when the password change is considered complete from the ENTSSO point-of-view, which as discussed above, could mean different things. In some cases, it could mean no change was done, that only the SSO database was updated, or that the Windows password was changed.  
+  The password change complete notification is issued when the password change is considered complete from the ENTSSO point-of-view, which as discussed above, could mean different things. In some cases, it could mean no change was done, that only the SSO database was updated, or that the Windows password was changed.  
   
- Note that password change complete notifications sent back to the adapter are not completely reliable. Under some error conditions, Single Sign-On may never actually receives the requested notifications.  
+  Note that password change complete notifications sent back to the adapter are not completely reliable. Under some error conditions, Single Sign-On may never actually receives the requested notifications.  
   
- In ENTSSO, the definition of credentials, such as those sent by **SendNotification** for password updates, is more flexible than a simple password. When you define an SSO application, you also define the credential fields. The fields identify the labels to use for the UI fields, and whether those fields are masked or not. In addition, there is also a special flage which specifies whether the field should be synchronized or not. Field 0 is a special case and defines the label for the user ID. For more information, see the [ISSOAdmin Interface](../esso/issoadmin-interface-com.md).  
+  In ENTSSO, the definition of credentials, such as those sent by **SendNotification** for password updates, is more flexible than a simple password. When you define an SSO application, you also define the credential fields. The fields identify the labels to use for the UI fields, and whether those fields are masked or not. In addition, there is also a special flage which specifies whether the field should be synchronized or not. Field 0 is a special case and defines the label for the user ID. For more information, see the [ISSOAdmin Interface](../esso/issoadmin-interface-com.md).  
   
 ## Requirements  
  **Platforms:**  [!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)]  

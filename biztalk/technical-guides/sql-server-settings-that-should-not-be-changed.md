@@ -29,19 +29,19 @@ When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversi
 ## SQL Server Statistics on the MessageBox Database  
  The following options are turned off by default in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MessageBox database when it is created:  
   
--   Auto create statistics  
+- Auto create statistics  
   
--   Auto update statistics  
+- Auto update statistics  
   
- Do not enable these options on MessageBox databases. Enabling the "auto create statistics" and "auto update statistics" options can cause undesirable query execution delays, especially in a high-load environment.  
+  Do not enable these options on MessageBox databases. Enabling the "auto create statistics" and "auto update statistics" options can cause undesirable query execution delays, especially in a high-load environment.  
   
- In addition, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stored procedures have exact joins and lock hints specified on the queries. This is done to ensure that the optimal query plan is used by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] queries in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. The distributions and expected results for the queries are known; the approximate number of rows returned is known. Statistics are generally not needed.  
+  In addition, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stored procedures have exact joins and lock hints specified on the queries. This is done to ensure that the optimal query plan is used by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] queries in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. The distributions and expected results for the queries are known; the approximate number of rows returned is known. Statistics are generally not needed.  
   
- For more information, see the following Microsoft Knowledge Base articles:  
+  For more information, see the following Microsoft Knowledge Base articles:  
   
--   **912262**—["The auto update statistics option, the auto create statistics option, and the Parallelism setting are turned off in the SQL Server database instance that hosts the BizTalk Server BizTalkMsgBoxDB database"](https://support.microsoft.com/help/912262/the-auto-update-statistics-option-the-auto-create-statistics-option-an).  
+- **912262**—["The auto update statistics option, the auto create statistics option, and the Parallelism setting are turned off in the SQL Server database instance that hosts the BizTalk Server BizTalkMsgBoxDB database"](https://support.microsoft.com/help/912262/the-auto-update-statistics-option-the-auto-create-statistics-option-an).  
   
--   **917845**—["You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](https://support.microsoft.com/help/917845/you-experience-blocking--deadlock-conditions--or-other-sql-server-issu).  
+- **917845**—["You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](https://support.microsoft.com/help/917845/you-experience-blocking--deadlock-conditions--or-other-sql-server-issu).  
   
 ## Changes to the MessageBox Database  
  The MessageBox database should be treated like non-Microsoft application source code. That is, you should not “tweak” the MessageBox database via changes to tables, indexes, stored procedures, and most SQL Server database settings. For more information, in the BizTalk Core Engine's WebLog, see [What you can and can't do with the MessageBox Database server](http://go.microsoft.com/fwlink/p/?LinkId=101577).  

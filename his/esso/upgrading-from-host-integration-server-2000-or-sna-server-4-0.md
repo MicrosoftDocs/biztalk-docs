@@ -18,13 +18,13 @@ Older versions of Host Integration Server, such as Host Integration Server 2000 
   
  In [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], the Enterprise Single Sign-On (SSO) feature replaces host security as the source of Single Sign-On and password synchronization. Although some concepts are shared between the old and new features, there are important differences. In addition to the increased functionality, there are two primary conceptual differences in the new features:  
   
--   Host security domains are replaced by affiliate applications.  
+- Host security domains are replaced by affiliate applications.  
   
--   Security credential data is now stored in a SQL Server database.  
+- Security credential data is now stored in a SQL Server database.  
   
- To migrate your existing host security data into the new SSO environment, use the Migration Utility. This is a command-line tool (hissomig.exe) that migrates all necessary data from the old version to the new, enabling you to continue using Single Sign-On without modifying your applications.  
+  To migrate your existing host security data into the new SSO environment, use the Migration Utility. This is a command-line tool (hissomig.exe) that migrates all necessary data from the old version to the new, enabling you to continue using Single Sign-On without modifying your applications.  
   
- The topics in this section walk you through the migration process. It is important to follow these steps in the order given.  
+  The topics in this section walk you through the migration process. It is important to follow these steps in the order given.  
   
 ## In This Section  
  [Back up the Existing Security Data](../esso/back-up-the-existing-security-data.md)  

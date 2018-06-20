@@ -18,17 +18,17 @@ This implementation of Common Programming Interface for Communications (CPI-C) i
   
  The WINCPIC.H header file defines the prototypes for each CPI-C function. Other definitions include:  
   
--   Types specifically defined for use by CPI-C parameters.  
+- Types specifically defined for use by CPI-C parameters.  
   
--   The structure of the side information entries.  
+- The structure of the side information entries.  
   
--   Symbolic names defined for integer parameters.  
+- Symbolic names defined for integer parameters.  
   
- To use CPI-C calls, the C program must include WINCPIC.H and declare the variables to be used in passing parameters on CPI-C calls.  
+  To use CPI-C calls, the C program must include WINCPIC.H and declare the variables to be used in passing parameters on CPI-C calls.  
   
- Note that you must define WIN32® before including WINCPIC.H  
+  Note that you must define WIN32® before including WINCPIC.H  
   
- For example:  
+  For example:  
   
 ```  
 #define WIN32  

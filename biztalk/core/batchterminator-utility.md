@@ -76,11 +76,11 @@ BatchTerminator /<switch>
   
 ### To run the BatchTerminator utility  
   
-1.  In Windows Explorer, move to the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Utilities\MicrosoftEDI\BatchTerminator folder.  
+1. In Windows Explorer, move to the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Utilities\MicrosoftEDI\BatchTerminator folder.  
   
-2.  Enter **BatchTerminator**, including any desired switches, and then click **Enter**.  
+2. Enter **BatchTerminator**, including any desired switches, and then click **Enter**.  
   
-3.  In Windows Explorer, move to \<*drive*\>:\Documents and Settings\\<*user name*\>\Application Data folder, and open the batchterminator.log file to see a log of the results.  
+3. In Windows Explorer, move to \<*drive*\>:\Documents and Settings\\<*user name*\>\Application Data folder, and open the batchterminator.log file to see a log of the results.  
   
 ## See Also  
  [Utilities in the SDK](../core/utilities-in-the-sdk.md)

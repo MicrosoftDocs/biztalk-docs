@@ -25,21 +25,21 @@ For acknowledgment (ACK) messages, [!INCLUDE[btsCoName](../../includes/btsconame
 > [!NOTE]
 >  In the following list, the HL7 specification mandates items 1 through 3 and that they contain MSH15 and MSH16 values. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] defines item 4 to signify that an acknowledgment should not be generated.  
   
-1.  Original - One ACK sent after validating the header and body. This mode involves schema validation.  
+1. Original - One ACK sent after validating the header and body. This mode involves schema validation.  
   
-2.  Enhanced - Two ACK messages sent:  
+2. Enhanced - Two ACK messages sent:  
   
-    -   Accept ACK – The receiving system sends this type of ACK after validation of the header. This ACK signals to the initiating application that the message is committed to the database.  
+   -   Accept ACK – The receiving system sends this type of ACK after validation of the header. This ACK signals to the initiating application that the message is committed to the database.  
   
-    -   Application ACK- The receiving system sends this type of ACK after complete message validation, including the header and the body.  
+   -   Application ACK- The receiving system sends this type of ACK after complete message validation, including the header and the body.  
   
-3.  Deferred - Two ACK messages sent.  
+3. Deferred - Two ACK messages sent.  
   
-    -   Original Mode: The receiving system sends this type of ACK after validation of the header and body. This mode involves schema validation.  
+   - Original Mode: The receiving system sends this type of ACK after validation of the header and body. This mode involves schema validation.  
   
-    -   Deferred Mode: The line-of-business application acknowledges the message after processing it. The application delivers the deferred message to [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], which process it as a stand-alone message and delivers it to the destination.  
+   - Deferred Mode: The line-of-business application acknowledges the message after processing it. The application delivers the deferred message to [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], which process it as a stand-alone message and delivers it to the destination.  
   
-4.  Static - An on success or on failure ACK sent.  
+4. Static - An on success or on failure ACK sent.  
   
 ## See Also  
  [Creating and Processing Acknowledgments](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)   

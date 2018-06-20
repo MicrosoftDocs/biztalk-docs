@@ -62,12 +62,12 @@ struct copy_trace_to_file {
  *file_option*  
  Supplied parameter. Specifies the output file copy option:  
   
--   Use SV_NEW to copy the trace only if the specified file does not already exist.  
+- Use SV_NEW to copy the trace only if the specified file does not already exist.  
   
--   Use SV_OVERWRITE to copy the trace to an existing file, overwriting the current data. The size of the file is increased if necessary; and the file is created if it does not already exist.  
+- Use SV_OVERWRITE to copy the trace to an existing file, overwriting the current data. The size of the file is increased if necessary; and the file is created if it does not already exist.  
   
- *reserv4*  
- The address at which supplied data resides.  
+  *reserv4*  
+  The address at which supplied data resides.  
   
 ## Return Codes  
  SV_OK  

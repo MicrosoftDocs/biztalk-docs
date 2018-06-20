@@ -44,13 +44,13 @@ The Minimal Lower Layer Protocol (MLLP) send adapter supports one-way and two-wa
 ### Acknowledgments received by the one-way MLLP send adapter  
  When a one-way MLLP send adapter configured for ACKs receives one, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] deletes the original message from the MessageBox database, retries it, or suspends it, depending on the type of the ACK. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] parses the ACK in two phases:  
   
--   The first phase is done in the send adapter where [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] parses the field MSA1 to determine the type of the ACK.  
+- The first phase is done in the send adapter where [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] parses the field MSA1 to determine the type of the ACK.  
   
--   In the second phase, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] performs a complete parsing of the ACK, and then submits the ACK to the MessageBox database.  
+- In the second phase, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] performs a complete parsing of the ACK, and then submits the ACK to the MessageBox database.  
   
- You configure the ACK that the two-way send adapter expects in [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer.  
+  You configure the ACK that the two-way send adapter expects in [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer.  
   
- The following table shows the ACKs that an MLLP send adapter can receive and the resulting action on the original message.  
+  The following table shows the ACKs that an MLLP send adapter can receive and the resulting action on the original message.  
   
 |ACK received|Action on the original message|  
 |------------------|------------------------------------|  
@@ -71,17 +71,17 @@ The Minimal Lower Layer Protocol (MLLP) send adapter supports one-way and two-wa
 ### Error Conditions  
  The following can occur when there is an error condition or inactivity:  
   
--   If the outgoing message fails in serialization, the send adapter will not send the message, unless it is a batch message that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] is streaming. If that is the case, and [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] detects a serialization failure halfway through the message, the adapter will not send EB/CR since [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] has not sent the complete message. The pipeline logs an error, and the adapter tries to send the batch message again.  
+- If the outgoing message fails in serialization, the send adapter will not send the message, unless it is a batch message that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] is streaming. If that is the case, and [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] detects a serialization failure halfway through the message, the adapter will not send EB/CR since [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] has not sent the complete message. The pipeline logs an error, and the adapter tries to send the batch message again.  
   
--   If a send operation fails, the adapter tries to send the message again, up to the number of retries specified in the send-port configuration settings. After exhausting the retries, the message moves to the backup transport, if one exists. If all else fails, the message is suspended. The suspended message will be in the original (XML) form.  
+- If a send operation fails, the adapter tries to send the message again, up to the number of retries specified in the send-port configuration settings. After exhausting the retries, the message moves to the backup transport, if one exists. If all else fails, the message is suspended. The suspended message will be in the original (XML) form.  
   
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] can generate the following events to describe the error conditions:  
+  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] can generate the following events to describe the error conditions:  
   
-|Event|ID|Error Condition|  
-|-----------|--------|---------------------|  
-|ErrorSendingMessage|8450|Could not send a message to the remote party. The most common reasons are network failures or timeouts. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] may report this error if the send pipeline fails while serializing a large message.|  
-|ErrorReceivingAck|8451|Could not receive an acknowledgment, due to network failure or timeout.|  
-|ErrorConnecting|8453|Could not establish a TCP connect to the remote party—the host name could not be resolved, or the remote party is not listening on the port or is rejecting the connections.|  
+|        Event        |  ID  |                                                                                                                                   Error Condition                                                                                                                                   |
+|---------------------|------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ErrorSendingMessage | 8450 | Could not send a message to the remote party. The most common reasons are network failures or timeouts. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] may report this error if the send pipeline fails while serializing a large message. |
+|  ErrorReceivingAck  | 8451 |                                                                                                       Could not receive an acknowledgment, due to network failure or timeout.                                                                                                       |
+|   ErrorConnecting   | 8453 |                                                    Could not establish a TCP connect to the remote party—the host name could not be resolved, or the remote party is not listening on the port or is rejecting the connections.                                                     |
   
 > [!NOTE]
 >  The configuration of the destination party (in MSH5 of the original message) determines whether [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] expects an HL7 or static ACK. In case of a mismatch, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] treats the ACK as not valid.  

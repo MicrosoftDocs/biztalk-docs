@@ -33,14 +33,14 @@ You can use the MMC Snap-In or the command line to remove the contents of the cr
   
 ### To clear the cache using the command line  
   
-1.  On the **Start** menu, click **Run**, and then type **cmd**.  
+1. On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
+2. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage –purgecache *\<application name\>***, where \<*application name*\> is the name of the affiliate application you want to purge the cache for.  
+3. Type <strong>ssomanage –purgecache *\<application name\></strong><em>, where \<</em>application name*\> is the name of the affiliate application you want to purge the cache for.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
 ## See Also  
  [SSO Affiliate Applications](../core/sso-affiliate-applications.md)   

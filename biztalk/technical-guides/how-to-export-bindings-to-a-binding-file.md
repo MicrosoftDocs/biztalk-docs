@@ -21,29 +21,29 @@ You can export the bindings of a BizTalk application into another existing BizTa
 ## Why to Export to a Binding File  
  Binding files can speed deployment in the following scenarios by avoiding the need to manually configure bindings:  
   
--   **Moving an application from one deployment environment to another**  
+- **Moving an application from one deployment environment to another**  
   
-     Using a binding file can speed deployment by avoiding the need to manually configure bindings for different deployment environments, such as from a development environment to a test environment.  
+   Using a binding file can speed deployment by avoiding the need to manually configure bindings for different deployment environments, such as from a development environment to a test environment.  
   
--   **Updating an assembly**  
+- **Updating an assembly**  
   
-     You can use a binding file to automatically apply or reapply the bindings to an assembly after an update of the assembly.  
+   You can use a binding file to automatically apply or reapply the bindings to an assembly after an update of the assembly.  
   
--   **Deploying an assembly to multiple BizTalk groups**  
+- **Deploying an assembly to multiple BizTalk groups**  
   
-     You can avoid the need to separately configure the bindings for an assembly deployed into multiple BizTalk groups by using a binding file.  
+   You can avoid the need to separately configure the bindings for an assembly deployed into multiple BizTalk groups by using a binding file.  
   
- Using a binding file gives you flexibility in applying bindings to an application. When you export an application to an .msi file, you can only specify that all of the bindings for the application will be exported to the .msi file. With binding files you can do the following:  
+  Using a binding file gives you flexibility in applying bindings to an application. When you export an application to an .msi file, you can only specify that all of the bindings for the application will be exported to the .msi file. With binding files you can do the following:  
   
--   Export to a binding file all bindings from the current application, all bindings from the current group, or only the bindings for a single assembly. (You do so by using the Export Bindings command for an application in the Administration console.)  
+- Export to a binding file all bindings from the current application, all bindings from the current group, or only the bindings for a single assembly. (You do so by using the Export Bindings command for an application in the Administration console.)  
   
--   You can add a binding file to an application (using the Add Resources command) so that its bindings are applied immediately or so the bindings are applied when the application is imported into another group.  
+- You can add a binding file to an application (using the Add Resources command) so that its bindings are applied immediately or so the bindings are applied when the application is imported into another group.  
   
--   You can add multiple binding files to an application (using the Add Resources command) and specify a target deployment environment for each one. This enables you to use a single deployment package for multiple deployment environments. When you import the application, you can select which bindings to apply.  
+- You can add multiple binding files to an application (using the Add Resources command) and specify a target deployment environment for each one. This enables you to use a single deployment package for multiple deployment environments. When you import the application, you can select which bindings to apply.  
   
--   You can export separate binding files for multiple assemblies in an application.  
+- You can export separate binding files for multiple assemblies in an application.  
   
--   You can edit binding files after you generate them to change their binding information.  
+- You can edit binding files after you generate them to change their binding information.  
   
 ## How to Export to a Binding File  
  You export the bindings of an application to a binding file by executing the Export Bindings command for the application in the BizTalk Server Administration console, or by using the BTSTask ExportBindings command on the command line.  

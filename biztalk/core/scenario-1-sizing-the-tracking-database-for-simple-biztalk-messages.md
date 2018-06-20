@@ -25,25 +25,25 @@ In the following figure, a simple BizTalk Server message passes in and out of Bi
   
  Before you apply the formula in the previous section, you will need to gather some facts about this scenario. In this example, we use the following:  
   
--   The message size is 5K.  
+- The message size is 5K.  
   
--   No properties will be promoted.  
+- No properties will be promoted.  
   
--   The number of messages you receive in a year is 3.5 million.  
+- The number of messages you receive in a year is 3.5 million.  
   
--   Tracking is turned on for all events. There are four events in this scenario. The events are:  
+- Tracking is turned on for all events. There are four events in this scenario. The events are:  
   
-    -   Receipt of message M0  
+  -   Receipt of message M0  
   
-    -   Output of message M1 from the receive port  
+  -   Output of message M1 from the receive port  
   
-    -   Receipt of message M1 by the transmit pipeline  
+  -   Receipt of message M1 by the transmit pipeline  
   
-    -   Output of message M2 by the send pipeline  
+  -   Output of message M2 by the send pipeline  
   
--   Two additional messages are created in this scenario. Message M0 is the incoming message and is therefore not created by BizTalk Server. Message M1 is the output message from the receive port and M2 is the output from the transmit port. M1 and M2 are created by BizTalk Server.  
+- Two additional messages are created in this scenario. Message M0 is the incoming message and is therefore not created by BizTalk Server. Message M1 is the output message from the receive port and M2 is the output from the transmit port. M1 and M2 are created by BizTalk Server.  
   
- Applying this information to the formula gives the following:  
+  Applying this information to the formula gives the following:  
   
 ```  
 [(5*252 bytes) + (10*182 bytes) + (0*5(40 bytes + 0) * 3,500,000]/1024/1024  

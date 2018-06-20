@@ -26,13 +26,13 @@ Looping activities refers to actions that loop within an orchestration. It is po
   
  As shown in the figure, if you have a Purchase Order with multiple Line Items that process in a loop, questions like "Which purchase orders have item prices of $100?" are ambiguous. Unambiguous questions are:  
   
--   Which purchase orders have line items with a price of $100?  
+- Which purchase orders have line items with a price of $100?  
   
--   Which purchase orders have Total/Min/Max item prices of $100?  
+- Which purchase orders have Total/Min/Max item prices of $100?  
   
- Creating unambiguous questions requires thinking of the line items as something separate from the purchase order. In the Tracking Profile Editor, the root activity (for example, a purchase order) maps to all actions outside the loop. The child activity (for example, line item) maps to the actions inside the loop.  
+  Creating unambiguous questions requires thinking of the line items as something separate from the purchase order. In the Tracking Profile Editor, the root activity (for example, a purchase order) maps to all actions outside the loop. The child activity (for example, line item) maps to the actions inside the loop.  
   
- You need to use a payload item as ActivityID for the root activity. Have this payload item available in some of the messages inside the loop. Map the activity to the Relationship node that displays under the child activity and name it as the root activity.  
+  You need to use a payload item as ActivityID for the root activity. Have this payload item available in some of the messages inside the loop. Map the activity to the Relationship node that displays under the child activity and name it as the root activity.  
   
 ## See Also  
  [Implementing BAM Activities with Event Streams](../core/implementing-bam-activities-with-event-streams.md)

@@ -31,47 +31,47 @@ Business end users and other users who need to receive notification of events an
   
 ### To open a query  
   
-1.  Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
+1. Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
   
-2.  In the **My Views** frame of the portal, click an existing view to expand the menus available to that view.  
+2. In the **My Views** frame of the portal, click an existing view to expand the menus available to that view.  
   
-3.  Click **Activity Search** to expand the list of activities available for the view.  
+3. Click **Activity Search** to expand the list of activities available for the view.  
   
-4.  Click an activity from the list. This will load the Activity Search page for the selected activity.  
+4. Click an activity from the list. This will load the Activity Search page for the selected activity.  
   
-5.  In the content frame, at the top of the page, click the **Browse** button to open the **Choose file** dialog box.  
+5. In the content frame, at the top of the page, click the **Browse** button to open the **Choose file** dialog box.  
   
-6.  Browse to the folder where you have previously saved queries.  
+6. Browse to the folder where you have previously saved queries.  
   
-7.  Click a save query.  
+7. Click a save query.  
   
-8.  Click the **Open** button. This will load the path to the query in the text box to the left of the **Browse** button. You can also type the path to the query directly into the text box.  
+8. Click the **Open** button. This will load the path to the query in the text box to the left of the **Browse** button. You can also type the path to the query directly into the text box.  
   
 9. Click the **Open Query** button to the right of the **Browse** button.  
   
 ### To construct a query  
   
-1.  Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
+1. Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
   
-2.  In the **My Views** frame of the portal there is a list of currently configured views. Under each view there are three tasks that can be performed on the view. If the view is currently collapsed, click the existing view to expand the list of tasks.  
+2. In the **My Views** frame of the portal there is a list of currently configured views. Under each view there are three tasks that can be performed on the view. If the view is currently collapsed, click the existing view to expand the list of tasks.  
   
-3.  Click **Activity Search** to expand the list of activities available for the view.  
+3. Click **Activity Search** to expand the list of activities available for the view.  
   
-4.  Click an activity from the list. This will load the Activity Search page for the selected activity.  
+4. Click an activity from the list. This will load the Activity Search page for the selected activity.  
   
-5.  In the content frame, in the **Query** box, choose a field from the **Business Data** drop-down list to use for a comparison in the query.  
+5. In the content frame, in the **Query** box, choose a field from the **Business Data** drop-down list to use for a comparison in the query.  
   
-6.  From the **Operator** drop-down list, select the comparison operator to use.  
+6. From the **Operator** drop-down list, select the comparison operator to use.  
   
-7.  In the **Value** box, enter the value to compare against. You will only be able to enter a value appropriate to the field to which you are comparing. (If the business data item is a date field, then the comparison data is a date or date time formatted as appropriate for your culture settings.)  
+7. In the **Value** box, enter the value to compare against. You will only be able to enter a value appropriate to the field to which you are comparing. (If the business data item is a date field, then the comparison data is a date or date time formatted as appropriate for your culture settings.)  
   
-8.  If you have more clauses to add to the query, click the **Add** button to the right of the query box. This will add a new line for the next clause. You can select whether the clauses are join by using an AND or an OR.  
+8. If you have more clauses to add to the query, click the **Add** button to the right of the query box. This will add a new line for the next clause. You can select whether the clauses are join by using an AND or an OR.  
   
-    > [!NOTE]
-    >  You cannot group clauses to form more complex queries. A query is a simple set of clauses joined by an AND or an OR operator.  
+   > [!NOTE]
+   >  You cannot group clauses to form more complex queries. A query is a simple set of clauses joined by an AND or an OR operator.  
   
-    > [!NOTE]
-    >  If you click the back button during these procedures and receive a "warning: page has expired," you can press F5 to get your original contents back. You may have to press F5 several times.  
+   > [!NOTE]
+   >  If you click the back button during these procedures and receive a "warning: page has expired," you can press F5 to get your original contents back. You may have to press F5 several times.  
   
 9. In the Column Chooser select the data or milestones from the **Available Data and Milestones** list box for the query to return as data. You can select multiple items by holding down the SHIFT key and clicking the first and last items in the group you want to return. You can also select multiple items from the list by holding down the CTRL key and selecting the items to return.  
   
@@ -93,17 +93,17 @@ Business end users and other users who need to receive notification of events an
   
 ### To execute a query  
   
-1.  Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
+1. Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
   
-2.  In the **My Views** frame of the portal, click an existing view to expand the menus available to that view.  
+2. In the **My Views** frame of the portal, click an existing view to expand the menus available to that view.  
   
-3.  Click **Activity Search** to expand the list of activities available for the view.  
+3. Click **Activity Search** to expand the list of activities available for the view.  
   
-4.  Click an activity from the list. This will load the Activity Search page for the selected activity.  
+4. Click an activity from the list. This will load the Activity Search page for the selected activity.  
   
-5.  Either open an existing query or build a new query.  
+5. Either open an existing query or build a new query.  
   
-6.  In the content frame of the portal, click the **Execute Query** button.  
+6. In the content frame of the portal, click the **Execute Query** button.  
   
 ## See Also  
  [Activity Searches in the BAM Portal](../core/activity-searches-in-the-bam-portal.md)

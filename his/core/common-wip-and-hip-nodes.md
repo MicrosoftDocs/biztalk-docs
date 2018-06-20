@@ -48,7 +48,7 @@ The conversion behaviors affect how data conversion is done by the TI Runtime. M
 - **Trim Trailing Nulls**. The TI Runtime will remove trailing nulls when sending a string to the host.
 - **Convert Received Strings As Is**. The TI Runtime will ignore Null termination and space padding settings during unpack operations.
 - **Allow null for Simple Redefines**. The TI Runtime will accept null values for Simple REDEFINE statements when sending and receiving data.
-## Related Sections
- [Configuration for WIP](../core/configuration-for-wip.md)
+  ## Related Sections
+  [Configuration for WIP](../core/configuration-for-wip.md)
  
- [Configuration for HIP](../core/configuration-for-hip.md)
+  [Configuration for HIP](../core/configuration-for-hip.md)
