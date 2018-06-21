@@ -1,6 +1,6 @@
 ---
 title: "Use the Office 365 Outlook Email adapter | Microsoft Docs"
-description: Send and receive messages using the Office 365 Outlook adapters in BizTalk Server
+description: Send and receive messages using the Office 365 Outlook adapters in BizTalk Server, including Email, Calendar, and Contacts
 ms.custom: ""
 ms.date: "06/19/2018"
 ms.prod: "biztalk-server"
@@ -29,28 +29,31 @@ manager: "sangupt"
 * Install [Feature Pack 3](https://aka.ms/bts2016fp3) on your BizTalk Server
 * Use an account that is a member of the SSO Administrators group
 
-## BizTalk Server TMS
+## TMS overview
 
 BizTalk Server TMS is a service that refreshes the Office365 OAuth tokens used by BizTalk. It refreshes these tokens periodically, ensuring that the tokens always remain valid. It has a dependency on Enterprise Single Sign On service (ENT SSO), and must be installed on a computer that hosts the master secret server. 
 
 ## Install BizTalk Server TMS
 
-1. Install Feature Pack 3.
+1. Install [Feature Pack 3](https://aka.ms/bts2016fp3).
 2. In `\Program Files (x86)\Microsoft BizTalk Server <your version>`, run BizTalkTMS.msi.
 3. Enter the username and password of a user that's a member of the SSO Administrators group. 
 
 ![BizTalk Server TMS setup](../core/media/BizTalk-TMS.png)
 
-## Sign-in for Office 365 Adapters in BizTalk
+## Sign-in to Office 365
 
-1. In the BizTalk Administration console, create a [send port](how-to-create-a-send-port2.md) or [receive location](how-to-create-a-receive-location.md).
-2. While creating it, select **Configure**, and select **Sign-in...**.
-3. Select the Office 365 account to use:
+When you're creating a [send port](how-to-create-a-send-port2.md) or [receive location](how-to-create-a-receive-location.md) in BizTalk Administration, you can **Sign-in...** to your Office 365 account:
 
-    ![Office 365 Sign in](../core/media/office365-signin.png)
+  ![Office 365 Sign in](../core/media/office365-signin.png)
 
-4. Enter credentials, and confirm permissions. These credentials are used to authorize BizTalk to connect to and access the Office 365 account.
+You enter the Office 365 credentials, and confirm permissions. These credentials authorize BizTalk to connect to, and access the Office 365 account. In the following example, you see the permissions for Office 365 Outlook Calendar:
 
-In the following example, you see the permissions for Office 365 Outlook Calendar:
+  ![Office 365 Calendar permissions](../core/media/office365-calendar-permissions.png)
 
-![Office 365 Calendar permissions](../core/media/office365-calendar-permissions.png)
+## Get started
+After BizTalk Server TMS is installed, you're ready to create the artifacts, and start using the adapters: 
+
+- [Office365 Outlook Email adapter](./office365-mail-adapter.md)
+- [Office365 Outlook Calendar adapter](./office365-calendar-adapter.md)
+- [Office365 Outlook Contact adapter](./office365-contact-adapter.md)
