@@ -1,8 +1,8 @@
 ---
-title: "Use the Office 365 Outlook Email adapter | Microsoft Docs"
-description: Send and receive messages using the Office 365 Outlook Calendar adapter in BizTalk Server
+title: "Use the Office 365 Outlook Calendar adapter | Microsoft Docs"
+description: Send and receive messages using the Office 365 Outlook Calendar adapter in BizTalk Server. Use the adapter to create and receive calendar events using a receive port and send port, and use a sample XML message to create the calendar event.
 ms.custom: ""
-ms.date: "06/19/2018"
+ms.date: "06/22/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -11,53 +11,53 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "ribarua"
-manager: "sangupt"
+manager: dougeby
 ---
-# Office365 Outlook Calendar Adapter
 
-The Office365 Outlook Calendar Adapter allows you to create and receive calendar events from your Office 365 Outlook Calendar via BizTalk.
+# Create calendar events with the Office 365 Outlook Calendar adapter - BizTalk Server
 
-## Send mails via Office365 Outlook Calendar Adapter
+Use the Office 365 Outlook Calendar adapter in BizTalk Server to create and receive calendar events from your Office 365 Outlook Calendar.
 
-1.  In the BizTalk Server Administration console, right-click **Send Ports**, select **New**, and select **Static One-way send port**.
+## Create events using a send port
+
+1. In the BizTalk Server Administration console, right-click **Send Ports**, select **New**, and select **Static One-way send port**.
 
     [Create a Send Port](../core/how-to-create-a-send-port2.md) provides some guidance.
 
-2. Enter a **Name**. In **Transport**, set the **Type** to **Office365 Outlook Calendar**, and select **Configure**. 
+2. Enter a **Name**. In **Transport**, set the **Type** to **Office 365 Outlook Calendar**, and select **Configure**.
 
-3. Press the **[Sign in …](./office365-adapters.md)** button and sign into your Office 365 Account. You will see that the Account: will be auto-populated with your email address. 
+3. Select **[Sign in …**, and sign in to your Office 365 Account. The account is auto-populated with your email address.
 
-4. Allow BizTalk Server approval for permission to access.
+4. Allow BizTalk Server approval for permission to access:
 
     ![Office365 Calendar permissions](../core/media/office365-calendar-permissions.png)
 
-5. Configure your Office365 Outlook Calendar default properties: 
+5. Configure your Office365 Outlook Calendar default properties:
 
     |Use this|To do this|  
     |---|---|  
-    | **Calendar** | Select the calendar in which events will be created. |   
+    | **Calendar** | Select the calendar in which events will be created. |
     | **Subject** | Set the default subject for events created. (256 character max) |
-    | **Required Attendees** | Specify your default required attendees email addresses separated by ';'. (256 character max) |
-    | **Optional Attendees** | Specify your default optional attendees email addresses separated by ';'. (256 character max) |    
-    |||
+    | **Required Attendees** | Enter your default required attendees email addresses separated by ';'. (256 character max) |
+    | **Optional Attendees** | Enter your default optional attendees email addresses separated by ';'. (256 character max) |
 
-6. Selecting a calendar : 
+6. Select a calendar: 
 
     ![Office365 Calendars](../core/media/office365-calendars.png)
 
-    When finished, your properties look similar to the following: 
+    When finished, your properties look similar to the following:
 
     ![Endpoint properties](../core/media/office365-calendar-send-properties.png)
 
-7. Select **Ok** to save your changes. 
+7. Select **Ok** to save your changes.
 
-### Test your send port:
+### Test your send port
 
-You can use a simple File receive port and location to create an event on your Office 365 Outlook Calendar. 
+You can use a simple File receive port and location to create an event on your Office 365 Outlook Calendar.
 
 1. Create a receive port using the File adapter. Within your receive location,  set the **Receive folder** to **C:\Temp\In\**, and set the file mask to **\*.xml**.
-2. In your Office365 Outlook Calendar adapter send port properties, set the **Filters** to `BTS.ReceivePortName == <Receive Port Name>`.
-3. Paste the following into a text editor, and save the file as **Office365Calendar.xml**. This is your sample message. 
+2. In your Office 365 Outlook Calendar adapter send port properties, set the **Filters** to `BTS.ReceivePortName == <Receive Port Name>`.
+3. Paste the following into a text editor, and save the file as **Office365Calendar.xml**. This is your sample message.
 
     ```xml
     <Event xmlns="http://schemas.microsoft.com/BizTalk/Office365OutlookCalendar/Send"> 
@@ -79,54 +79,53 @@ You can use a simple File receive port and location to create an event on your O
     ```
     **The XML schema is provided as part of the SDK inside < BizTalk Installation Folder\SDK\Schemas >**
 
-4. Start the File receive location and the Office365 Outlook Calendar adapter send port.
-5. Copy **Office365Calendar.xml** sample message into the receive folder (C:\Temp\In\). The send port creates an event in your Office365 Outlook calendar based on the xml.
+4. Start the File receive location and the Office 365 Outlook Calendar adapter send port.
+5. Copy **Office365Calendar.xml** sample message into the receive folder (C:\Temp\In\). The send port creates an event in your Office 365 Outlook calendar based on the xml.
 
-## Receive calendar events from Office365 Outlook Calendar:
+## Receive events using a receive port
 
-1. In the BizTalk Server Administration console, right-click **Receive Ports**, select **New**, and select **One-Way receive port**. 
+1. In the BizTalk Server Administration console, right-click **Receive Ports**, select **New**, and select **One-Way receive port**.
 
     [Create a receive port](../core/how-to-create-a-receive-port.md) provides some guidance.
 
-2. Enter a name, and select **Receive Locations**. 
+2. Enter a name, and select **Receive Locations**.
 
-3. Select **New**, and **Name** the receive location. In **Transport**, select **Office365 Outlook Calendar** from the **Type** drop-down list, and then select **Configure**. 
+3. Select **New**, and **Name** the receive location. In **Transport**, select **Office 365 Outlook Calendar** from the **Type** drop-down list, and then select **Configure**.
 
-4. Press the  **[Sign in …](./office365-adapters.md)** button and sign into your Office365 Account. You will see that the **Account:** will be auto-populated with your email address. 
+4. Select **Sign in …**, and sign in to your Office 365 Account. The account is auto-populated with your email address.
 
-5. Allow BizTalk Server approval for permission to access.
+5. Allow BizTalk Server approval for permission to access:
 
-    ![Office365 Calendar permissions](../core/media/office365-calendar-permissions.png)
+    ![Office 365 Calendar permissions](../core/media/office365-calendar-permissions.png)
 
-6. Configure the **Endpoint** properties: 
+6. Configure the **Endpoint** properties:
 
     |Use this|To do this|  
     |---|---|  
     | **Calendar** | Select the calendar from which events will be fetched.  |
     | **Starting within** | Select the time interval within which a calendar event has to start in order to be received by BizTalk (default is 15 minutes).  |
-    |||
 
-7. Selecting a calendar : 
+7. Selecting a calendar:
 
-    ![Office365 Calendars](../core/media/office365-calendars.png)
+    ![Office 365 Calendars](../core/media/office365-calendars.png)
 
-    When finished, your properties look similar to the following: 
+    When finished, your properties look similar to the following:
 
     ![Endpoint properties](../core/media/office365-calendar-receive-properties.png)
 
-7. Select **Ok** to save your changes. 
+8. Select **Ok** to save your changes.
 
 ### Test your receive settings
 
-You can use a simple File send port to receive messages from your Office365 Outlook Calendar. 
+You can use a simple File send port to receive messages from your Office 365 Outlook Calendar.
 
 1. Create a send port using the File adapter. Within your send port properties, set the **Destination folder** to **C:\Temp\Out\**, and set the and **File name** to **%MessageID%.xml**.
 2. In your File send port properties, set the **Filters** to  `BTS.ReceivePortName == <Receive Port Name>`.
-3. Start the Office365 Outlook Calendar receive location and the File send port.
+3. Start the Office 365 Outlook Calendar receive location and the File send port.
 4. Look for messages in the destination folder (c:\temp\out). 
-**The XML schema is provided as part of the SDK inside < BizTalk Installation Folder\SDK\Schemas >**
+**The XML schema is included in the SDK at `\Program Files (x86)\Microsoft BizTalk Server <your version>\SDK\Schemas`.**
 
-### An example of a received calendar event xml is provided below:
+### Example of a received calendar event xml
 
 ```xml
 <ns0:Event xmlns:ns0="http://schemas.microsoft.com/BizTalk/Office365OutlookCalendar/Receive"> 
@@ -241,3 +240,7 @@ div.WordSection1
 </organizer> 
 </ns0:Event> 
 ```
+
+## Next steps
+[Office 365 adapters](office365-adapters.md)  
+Install [Feature Pack 3](https://aka.ms/bts2016fp3)

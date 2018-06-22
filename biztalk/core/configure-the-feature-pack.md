@@ -2,7 +2,7 @@
 title: "Configure the feature pack | Microsoft Docs"
 description: Install and configure feature pack 1, and feature pack 2. See the new features list, including API Management, team services deployment, new Azure adapters, backups, and more in BizTalk Server 2016 
 ms.custom: ""
-ms.date: "11/22/2017"
+ms.date: "06/22/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -31,7 +31,9 @@ manager: "anneta"
 
 ## Download and install
 
-The feature packs are cumulative. So when you install feature pack 2, you also get the features and updates in feature pack 1.
+The feature packs are cumulative. So when you install feature pack 3, you also get the features and updates in feature packs 2 and 1.
+
+* Download the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 3](https://aka.ms/bts2016fp3).
 
 * Download the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 2](https://aka.ms/bts2016fp2).
 
@@ -48,6 +50,25 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 
 >[!TIP]
 > For comprehensive guidance on the installation, see the [Feature Pack step-by-step installation](https://blog.sandro-pereira.com/2017/04/27/microsoft-biztalk-server-2016-feature-pack-1-step-by-step-installation/) blog post.
+
+## Feature Pack 3 updates
+
+**Office 365 Adapters**
+
+
+Microsoft Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. By combining best-in-class apps like Excel and Outlook with powerful cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
+
+Microsoft BizTalk Server Adapters for Office 365 enable IT professionals and enterprise developers to integrate Outlook mail, contacts, and schedules with new solutions based on BizTalk Server 2016.
+
+#### Office 365 Mail Adapter
+Using the BizTalk Adapter for Office 365 Mail, you can read, mark as read or delete, Outlook e-mail messages through one-way BizTalk Server receive locations. Using the Office 365 Mail Adapter, you can write e-mail message, including setting message priority, through one-way static or dynamic BizTalk Server send ports. 
+
+#### Office 365 Calendar Adapter
+Using the BizTalk Adapter for Office 365 Calendar, you can get future calendar events through one-way BizTalk Server receive locations. Using the Office 365 Calendar Adapter, you can create calendar events, including specifying required and optional attendees, through one-way static or dynamic BizTalk Server send ports.
+
+#### Office 365 Contact Adapter
+Using the BizTalk Adapter for Office 365 Contact, you can create contacts, by specifying all settings, through one-way static or dynamic BizTalk Server send ports. 
+
 
 ## Feature Pack 2 updates
 
