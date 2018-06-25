@@ -1,6 +1,6 @@
 ---
 title: "Use the Office 365 Outlook Email adapter | Microsoft Docs"
-description: Send and receive messages using the Office 365 Outlook adapters in BizTalk Server, including Email, Calendar, and Contacts
+description: Overview of sending and receiving messages using the Office 365 Outlook adapters in BizTalk Server, including Email, Calendar, and Contacts
 ms.custom: ""
 ms.date: "06/19/2018"
 ms.prod: "biztalk-server"
@@ -11,27 +11,27 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "ribarua"
-manager: "sangupt"
+manager: dougeby
 ---
 
 # Office 365 Outlook adapters in BizTalk
 
 ## Overview
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 3**, you can send and receive messages between BizTalk Server and Office365 Outlook features. The following adapters are included in Feature Pack 3:
+**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 3**, you can send and receive messages between BizTalk Server and Office 365 Outlook features. The following adapters are included in Feature Pack 3:
 
-- [Office365 Outlook Email adapter](./office365-mail-adapter.md)
-- [Office365 Outlook Calendar adapter](./office365-calendar-adapter.md)
-- [Office365 Outlook Contact adapter](./office365-contact-adapter.md)
+- [Office 365 Outlook Email adapter](office365-mail-adapter.md)
+- [Office 365 Outlook Calendar adapter](office365-calendar-adapter.md)
+- [Office 365 Outlook Contact adapter](office365-contact-adapter.md)
 
 ## Prerequisites
 
-* Have an [Office365 account](https://outlook.office365.com)
+* Have an [Office 365 account](https://outlook.office365.com)
 * Install [Feature Pack 3](https://aka.ms/bts2016fp3) on your BizTalk Server
 * Use an account that is a member of the SSO Administrators group
 
 ## TMS overview
 
-BizTalk Server TMS is a service that refreshes the Office365 OAuth tokens used by BizTalk. It refreshes these tokens periodically, ensuring that the tokens always remain valid. It has a dependency on Enterprise Single Sign On service (ENT SSO), and must be installed on a computer that hosts the master secret server. 
+BizTalk Server TMS is a service that refreshes the Office 365 OAuth tokens used by BizTalk. It refreshes these tokens periodically, ensuring that the tokens always remain valid. It has a dependency on Enterprise Single Sign On service (ENT SSO), and must be installed on a computer that hosts the master secret server. 
 
 ## Install BizTalk Server TMS
 
@@ -52,8 +52,8 @@ You enter the Office 365 credentials, and confirm permissions. These credentials
   ![Office 365 Calendar permissions](../core/media/office365-calendar-permissions.png)
 
 ## Get started
-After BizTalk Server TMS is installed, you're ready to create the artifacts, and start using the adapters: 
+After BizTalk Server TMS is installed, you're ready to create the artifacts, and start using the adapters:
 
-- [Office365 Outlook Email adapter](./office365-mail-adapter.md)
-- [Office365 Outlook Calendar adapter](./office365-calendar-adapter.md)
-- [Office365 Outlook Contact adapter](./office365-contact-adapter.md)
+- [Office 365 Outlook Email adapter](./office365-mail-adapter.md)
+- [Office 365 Outlook Calendar adapter](./office365-calendar-adapter.md)
+- [Office 365 Outlook Contact adapter](./office365-contact-adapter.md)
