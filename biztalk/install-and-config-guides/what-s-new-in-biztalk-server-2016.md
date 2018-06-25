@@ -3,7 +3,7 @@ title: "What's New in BizTalk Server 2016 | Microsoft Docs"
 description: Changes and improvements, including feature packs, adapters, security, tracking, performance, and more in BizTalk Server 2016
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "11/15/2017"
+ms.date: "6/22/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,6 +22,7 @@ Read about what's new in [!INCLUDE[bts2016](../includes/bts2016-md.md)].
 |Feature|Description|  
 |-------------|-----------------|  
 |Support for newer platforms|[!INCLUDE[bts2016](../includes/bts2016-md.md)] adds support for the following Microsoft platforms:<br /><br /> -   Visual Studio 2015<br />-   Windows Server 2016<br />-   [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]<br />-   Office 2016<br/><br/>[Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)|  
+| Feature Pack 3 | Includes Office 365 adapters to work with Email, Calendar and Contacts. <br/><br/>[Install the feature pack](https://aka.ms/bts2016fp3)<br/>[See what's included, and configure its features](../core/configure-the-feature-pack.md) |
 | Feature Pack 2 | Improvements include closer integration with API Management, an Azure Event Hubs adapter, backup to Azure blob storage account, support for Service Bus partitions, and more. <br/><br/>[Install the feature pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[See what's included, and configure its features](../core/configure-the-feature-pack.md) |
 | Feature Pack 1 | Includes support for automatic deployment using VSTS, send tracking data to Azure Application Insights and Power BI, advanced scheduling options on receive locations, and more.<br/><br/>[Install the feature pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[See what's included, and configure its features](../core/configure-the-feature-pack.md) |
 |[!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)] AlwaysOn Availability Groups|Support includes:<br /><br /> -   Using on-premises and in [!INCLUDE[winazure](../includes/winazure-md.md)] IaaS virtual machines<br />-   Using for  production workloads<br />-   Provides a high available (HA) solution in [!INCLUDE[winazure](../includes/winazure-md.md)] <br/><br/>[High Availability using SQL Server AlwaysOn](../core/high-availability-using-sql-server-always-on-availability-groups.md)<br/><br/> See [distributed transactions for Always On AG](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring) for any SQL-specific requirements and features.|  

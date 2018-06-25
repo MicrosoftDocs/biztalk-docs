@@ -47,6 +47,8 @@ This section contains comprehensive information about adapters. It describes how
 -   [MQSeries adapter](../core/mqseries-adapter.md)  
   
 -   [MSMQ adapter](../core/msmq-adapter.md)  
+
+-   [Office 365 adapters](office365-adapters.md)
   
 -   [POP3 adapter](../core/pop3-adapter.md)  
   
