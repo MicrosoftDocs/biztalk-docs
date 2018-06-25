@@ -2,7 +2,7 @@
 title: "Use the Office 365 Outlook Calendar adapter | Microsoft Docs"
 description: Send and receive messages using the Office 365 Outlook Calendar adapter in BizTalk Server. Use the adapter to create and receive calendar events using a receive port and send port, and use a sample XML message to create the calendar event.
 ms.custom: ""
-ms.date: "06/22/2018"
+ms.date: "06/25/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -242,5 +242,4 @@ div.WordSection1
 ```
 
 ## Next steps
-[Office 365 adapters](office365-adapters.md)  
-Install [Feature Pack 3](https://aka.ms/bts2016fp3)
+See all the [Office 365 adapters](office365-adapters.md), or install [Feature Pack 3](https://aka.ms/bts2016fp3).
