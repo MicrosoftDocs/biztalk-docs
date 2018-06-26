@@ -50,7 +50,7 @@ You can set up your [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-cu
   
 - Restarts the BizTalk Service  
   
-  If you have executed the end-to-end tutorial program, you can drop a test instance for HL7 in a pre-defined folder. The receive pipeline associated with the folder picks up the message and processes it. Based on filters, a send pipeline routes the document to the destination folder. This simple "round-trip" exercises the basic building blocks of the Microsoft[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) engine and confirms your installation.  
+  If you have executed the end-to-end tutorial program, you can drop a test instance for HL7 in a pre-defined folder. The receive pipeline associated with the folder picks up the message and processes it. Based on filters, a send pipeline routes the document to the destination folder. This simple "round-trip" exercises the basic building blocks of the Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) engine and confirms your installation.  
   
 ### To test your installation  
   

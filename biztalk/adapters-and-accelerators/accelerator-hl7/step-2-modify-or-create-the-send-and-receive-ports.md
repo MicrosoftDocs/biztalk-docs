@@ -33,7 +33,7 @@ You need FILE send and receive ports for the Batch In/Batch Out tutorial. If you
 
 6. Set **Group By** on the **BTS.ReceivePortName** line to **Or**, and then click **OK**.  
 
-7. In the Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration window, expand **Platform Settings**, and expand **Host Instances**. Right-click **BizTalkServerApplication**, and then click **Restart**.  
+7. In the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration window, expand **Platform Settings**, and expand **Host Instances**. Right-click **BizTalkServerApplication**, and then click **Restart**.  
 
    > [!NOTE]
    >  Only use the following procedures if you installed the Standard Edition of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)], or if you did not click the **Launch Tutorial** button when you set up [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)].  
