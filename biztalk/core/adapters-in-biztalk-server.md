@@ -2,7 +2,7 @@
 title: "Adapters in BizTalk Server | Microsoft Docs"
 description: Complete list of all available adapters in BizTalk Server, including built-in adapters, enterprise adapters, and the BizTalk Adapter Pack
 ms.custom: ""
-ms.date: "10/16/2017"
+ms.date: "06/22/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -52,8 +52,11 @@ One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../inclu
 |FTP|Is widely used for business-to-business communications.|No|No|No|Yes|BizTalk IP|  
 |HTTP(s)|Is widely used for business-to-business communications.|No|Request/Response and Solicit/Response|No|Yes|IIS OOP|  
 |MSMQ|Supports guaranteed once-only delivery of messages between BizTalk Server and Microsoft Message Queuing.|Yes|No|Yes|No|BizTalk IP|  
-|Logic App| Receive from, and send to an Azure Logic App. For on-premises and cloud environments, use this adapter to access many Azure services | Yes | Depends on your workflow design| | |Receive: BizTalk IP<br/>Send: IIS OOP| 
+|Logic App| Receive from, and send to an Azure Logic App. For on-premises and cloud environments, use this adapter to access many Azure services | Yes | Depends on your workflow design | No | No |Receive: BizTalk IP<br/>Send: IIS OOP| 
 |MQ Series|Supports guaranteed once-only delivery of messages between BizTalk Server and IBM WebSphere MQ for Windows platforms.|Yes|No|Yes|Yes|BizTalk IP|  
+|Office 365 Mail | Receive and send email to Office 365 | | No | No in order receive | No | BizTalk IP| 
+|Office 365 Calendar | Receive and create events in Office 365 | | No | No in order receive | No | BizTalk IP| 
+|Office 365 Contact | Create contacts in  Office 365 | | No | No in order receive | No | BizTalk IP| 
 |POP3|Supports receiving documents through e-mail.|No|No|No|No|BizTalk IP|  
 |SMTP|Supports sending documents through e-mail.|No|No|No|No|BizTalk IP|  
 |SOAP|Supports the use of Web services.|No|Request/Response and Solicit/Response|No|Yes|IIS OOP|  
