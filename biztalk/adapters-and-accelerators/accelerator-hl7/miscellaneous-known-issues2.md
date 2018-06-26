@@ -20,7 +20,7 @@ manager: "anneta"
 This section contains useful information about miscellaneous errors.  
   
 ## Duplicate errors logged for the same message segment, sequence, and field number  
- If there are errors in components of a field of complex data types, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) will report one error for each such error. The segment ID and field number will be identical. The error number and description may be different because the HL7 error reporting mechanism does not support reporting errors at the component and subcomponent level.  
+ If there are errors in components of a field of complex data types, Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) will report one error for each such error. The segment ID and field number will be identical. The error number and description may be different because the HL7 error reporting mechanism does not support reporting errors at the component and subcomponent level.  
   
 ## Segment sequence errors  
  If required message segments are missing, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] reports a "Segment sequence error (Unexpected end of message body found)" message in the last correct segment parsed by the engine.  

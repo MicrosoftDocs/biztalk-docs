@@ -25,7 +25,7 @@ In this part of the tutorial, you receive an HL7-encoded batch, fragment it into
   
  This scenario includes the following workflow:  
   
-1. The workflow begins when a line-of-business application sends a message batch to the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Integration Engine using the Minimal Lower Layer Protocol (MLLP) protocol. The batch contains two versions of an ADT^A03 message. The source application belongs to the Tutorial_BatchSource party.  
+1. The workflow begins when a line-of-business application sends a message batch to the Microsoft[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Integration Engine using the Minimal Lower Layer Protocol (MLLP) protocol. The batch contains two versions of an ADT^A03 message. The source application belongs to the Tutorial_BatchSource party.  
   
 2. The Interface Engine receives the batch on an MLLP receive port, and validates the message batch. (The level of validation depends on settings selected for the source party in BTAHL7 Configuration Explorer.)  
   

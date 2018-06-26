@@ -24,7 +24,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BTARN Receive Pipeline
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] performs RosettaNet Implementation Framework (RNIF) message reception with the RNIFReceive pipeline (RNIFReceive.btp). The receive pipeline includes the following components:  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] performs RosettaNet Implementation Framework (RNIF) message reception with the RNIFReceive pipeline (RNIFReceive.btp). The receive pipeline includes the following components:  
   
 -   ReceiveMessageNonRepudiate  
   

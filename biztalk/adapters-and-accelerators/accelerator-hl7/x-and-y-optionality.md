@@ -29,7 +29,7 @@ The SegmentDataElements table in the HL7 Access database contains several Data I
 |OBX|2.4|7.4.2.6|00574|X||0|ch07.htm#Heading107|  
 |OBX|2.4|7.4.2.17|00936|X|Y|0|ch07.htm#Heading121|  
   
- Since [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] does not specify trigger events, you decide what the required/optional rules, or optionality should be. Based on local site conditions, you may decide to enforce optionality rules. By default, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] provides the 23 fields listed as "X" as optional fields.  
+ Since Microsoft[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] does not specify trigger events, you decide what the required/optional rules, or optionality should be. Based on local site conditions, you may decide to enforce optionality rules. By default, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] provides the 23 fields listed as "X" as optional fields.  
   
 > [!NOTE]
 >  Value "Y" is an error in the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Access database. [!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)] assumes that all the values of **Y** and **Blank** are optional.  

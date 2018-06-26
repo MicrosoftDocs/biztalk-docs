@@ -61,7 +61,7 @@ Health care processes are often complex and involve many systems. An example is 
     3.  The Interface Engine sends out an e-mail message to the doctor, who receives the lab results on his wireless PDA.  
   
 ## The BTAHL7 Solution  
- The sample business scenario outlined above is an example of a health care system that needs integration. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a solution for this scenario that features the following functionality:  
+ The sample business scenario outlined above is an example of a health care system that needs integration. MicrosoftBizTalk Server with Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a solution for this scenario that features the following functionality:  
   
 1. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] integrates all of the systems involved in a hub-and-spoke arrangement. Each system communicates directly with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. They do not have to communicate directly to each other.  
   

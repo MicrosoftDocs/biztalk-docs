@@ -17,7 +17,7 @@ ms.author: "mandia"
 ---
 
 # Troubleshooting and known issues
-This section is made up of troubleshooting issues, resolutions, and known issues in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  
+This section is made up of troubleshooting issues, resolutions, and known issues in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  
   
 ## In This Section  
   

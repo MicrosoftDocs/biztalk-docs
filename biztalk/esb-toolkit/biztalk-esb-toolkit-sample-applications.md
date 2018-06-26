@@ -17,7 +17,7 @@ ms.author: "mandia"
 ---
 
 # BizTalk ESB Toolkit Sample Applications
-The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several sample applications that you can install and run to see how the ESB works and how it uses some of the ESB pipeline components. You can adapt and modify the code and techniques used in the samples for your own applications.  
+The ​Microsoft BizTalk ESB Toolkit includes several sample applications that you can install and run to see how the ESB works and how it uses some of the ESB pipeline components. You can adapt and modify the code and techniques used in the samples for your own applications.  
   
 ## Install the sample applications  
   
@@ -26,7 +26,7 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several sample
    > [!NOTE]
    >  In the current release, the supported installation is for the files to reside in the folder C:\Projects\Microsoft.Practices.ESB. The BizTalk binding files that ship with the samples depend on this path.  
   
-2. When you install the [ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md), it includes a .zip file called ESBSource.zip in the installation location you specified (by default, C:\Program Files\\[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]). Uncompress the ESBSource.zip file into the C:\Projects\Microsoft.Practices.ESB folder. This creates folders named **Keys** and **Source** that contain the sample key and the samples with source code. The Source folder contains the source code for the sample application, and the Keys folder contains the public keys used to sign the assemblies in the sample applications.  
+2. When you install the [ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md), it includes a .zip file called ESBSource.zip in the installation location you specified (by default, C:\Program Files\​Microsoft BizTalk ESB Toolkit). Uncompress the ESBSource.zip file into the C:\Projects\Microsoft.Practices.ESB folder. This creates folders named **Keys** and **Source** that contain the sample key and the samples with source code. The Source folder contains the source code for the sample application, and the Keys folder contains the public keys used to sign the assemblies in the sample applications.  
   
 3. Before you run the samples, remove the read-only attribute on the C:\Projects\Microsoft.Practices.ESB\ folder so that the samples install correctly.  
   

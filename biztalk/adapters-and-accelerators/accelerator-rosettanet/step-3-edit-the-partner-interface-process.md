@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 3: Edit the Partner Interface Process
-In this step, you edit the Partner Interface Process (PIP) configuration settings to disable secure transport if you do not have a Secure Sockets Layer (SSL) certificate configured in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Internet Information Services (IIS). Because the loopback scenario does not support signing for both incoming and outgoing messages, you must change the default settings to continue with the tutorial. You modify the STD_0C1_R01.02 PIP.  
+In this step, you edit the Partner Interface Process (PIP) configuration settings to disable secure transport if you do not have a Secure Sockets Layer (SSL) certificate configured in Microsoft® Internet Information Services (IIS). Because the loopback scenario does not support signing for both incoming and outgoing messages, you must change the default settings to continue with the tutorial. You modify the STD_0C1_R01.02 PIP.  
   
 ### To edit the STD_0C1_R01.02 PIP  
   

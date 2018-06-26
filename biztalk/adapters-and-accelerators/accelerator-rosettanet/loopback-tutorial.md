@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Loopback Tutorial
-This tutorial contains detailed steps that describe how you can use [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to simulate a process implementation between the home and partner organization on a single computer.  
+This tutorial contains detailed steps that describe how you can use Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to simulate a process implementation between the home and partner organization on a single computer.  
   
  In a real production environment, your partner organization implementation resides on a remote computer. This tutorial uses the Loopback utility to create a mirror trading agreement to simulate the trading partner on the same computer. Using a single computer loop-back scenario works for development and test purposes. It is recommended that you do not to use the Loopback utility in a production environment.  
   

@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SQL Processing in BTARN
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses a SQL adapter to route a message from the line-of-business (LOB) application. It uses a SQL send port to route a message to the LOB application.  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses a SQL adapter to route a message from the line-of-business (LOB) application. It uses a SQL send port to route a message to the LOB application.  
   
 ## Message Flow  
  On either the initiator or responder computer, the back-end LOB application routes a message to the MessagesFromLOB table of the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]DATA [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] database. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] uses a SQL adapter to move the message from the MessagesFromLOB table to the private process. For more information, see "SQL Adapter" in BizTalk Server Help.  

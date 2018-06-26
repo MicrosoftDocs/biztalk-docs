@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 6: Configuring Orchestration Shapes (Contoso)
-In this step, you configure the orchestration shapes you added to the PrivateResponder orchestration that you created in [Step 5: Modifying the Contoso Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). This includes setting up the communication between [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server and the Enterprise Resource Planning (ERP) system for Contoso.  
+In this step, you configure the orchestration shapes you added to the PrivateResponder orchestration that you created in [Step 5: Modifying the Contoso Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). This includes setting up the communication between Microsoft® BizTalk Server and the Enterprise Resource Planning (ERP) system for Contoso.  
   
 ### To configure the ConstructMessagePIP3A2RequestMessage shape  
   

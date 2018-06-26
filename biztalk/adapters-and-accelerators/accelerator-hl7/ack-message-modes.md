@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # ACK Message Modes
-For acknowledgment (ACK) messages, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) determines the acknowledgment mode and values to use for populating MSH15 and MSH16 fields of the ACK you want to generate. These values are present in the Trading Partner Management (TPM) configuration. The following values are possible for ACK mode:  
+For acknowledgment (ACK) messages, Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) determines the acknowledgment mode and values to use for populating MSH15 and MSH16 fields of the ACK you want to generate. These values are present in the Trading Partner Management (TPM) configuration. The following values are possible for ACK mode:  
   
 > [!NOTE]
 >  In the following list, the HL7 specification mandates items 1 through 3 and that they contain MSH15 and MSH16 values. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] defines item 4 to signify that an acknowledgment should not be generated.  

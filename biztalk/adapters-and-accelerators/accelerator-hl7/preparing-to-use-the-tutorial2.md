@@ -39,6 +39,6 @@ Before you use the tutorial, you need to create an ADT^A03.txt file.
    > [!NOTE]
    >  There should be five lines in the .txt file, one each starting with "MSH", "EVN", "PID", "PD1", and "PV1". You will need to remove the spaces within the "PID" line and the "PD1" line. If necessary, turn off word wrap in Notepad.  
   
-2. Save the file as **ADT^A03.txt** in the \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder, and then close Notepad.  
+2. Save the file as **ADT^A03.txt** in the \<*drive*\>:\Program Files\\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder, and then close Notepad.  
   
    Proceed to [Step 1: Create and Deploy Header and Acknowledgment Schemas](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md).

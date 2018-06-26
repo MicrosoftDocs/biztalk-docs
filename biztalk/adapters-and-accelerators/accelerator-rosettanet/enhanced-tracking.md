@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Enhanced Tracking
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides an enhanced ability to track processes and messages. The native functionality for Business Activity Monitoring (BAM) in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] is to track metadata only. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] tracks message content—both service content and headers.  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides an enhanced ability to track processes and messages. The native functionality for Business Activity Monitoring (BAM) in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] is to track metadata only. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] tracks message content—both service content and headers.  
 
  The following table shows the full range of data tracking in [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]. This topic addresses process and message tracking. For more information about non-repudiation data, see [RNIF Message Processing](../../adapters-and-accelerators/accelerator-rosettanet/rnif-message-processing.md).  
 
@@ -54,7 +54,7 @@ manager: "anneta"
 ### Tracking Databases  
  The process and message activities save tracking metadata in the BAMPrimaryImport [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] database. In this database, tables whose names start with the prefix "bam_Process" store process-activity tracking data, and tables whose names start with the prefix "bam_Message" store message-activity tracking data. Each separate process or message activity has a single record corresponding to it in the tables. Information about the two activities, and metadata tracking, is included in metadata tables whose names start with the prefix "bam_Metadata".  
 
- You can consume the data in the BAMPrimaryImport tracking database using the following views. These and other views are available in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] node of the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console.  
+ You can consume the data in the BAMPrimaryImport tracking database using the following views. These and other views are available in the Microsoft [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] node of the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console.  
 
 |Tracking View|Data|  
 |-------------------|----------|  

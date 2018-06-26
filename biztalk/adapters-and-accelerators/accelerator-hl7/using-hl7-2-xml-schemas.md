@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using HL7 2.XML Schemas
-This section discusses the 2.XML versions of the Health Level Seven (HL7) standard supported by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  
+This section discusses the 2.XML versions of the Health Level Seven (HL7) standard supported by Microsoft[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  
   
 ## In This Section  
   

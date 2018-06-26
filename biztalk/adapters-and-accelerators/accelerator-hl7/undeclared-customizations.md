@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Undeclared Customizations
-You can add data to a message without defining the format or nature of the data. You do so by using undeclared Z segments. Undeclared Z segments are unexpected instances at the end of a message. The parser/XML validator does not validate the segment. It is not defined by any schema. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) treats the segment as a binary large object (BLOB).  
+You can add data to a message without defining the format or nature of the data. You do so by using undeclared Z segments. Undeclared Z segments are unexpected instances at the end of a message. The parser/XML validator does not validate the segment. It is not defined by any schema. Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) treats the segment as a binary large object (BLOB).  
   
  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] passes undeclared Z segment data through as the third part of a three-part message. The three parts are the header, the body, and the undeclared Z segment, also called the Z part. A segment ID beginning with the letter "Z", for instance, "ZPD" for custom patient demographics information, identifies the Z part.  
   

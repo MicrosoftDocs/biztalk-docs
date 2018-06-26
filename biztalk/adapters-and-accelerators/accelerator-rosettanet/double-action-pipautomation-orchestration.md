@@ -22,7 +22,7 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
 > [!NOTE]
 >  You should extend this sample project to support double-action PIPs only, not single-action PIPs. This orchestration will return an error if you extend it to process a single-action PIP. To ensure that this orchestration will not process single-action PIPs, see the Filtering Out Single-Action Messages section below.  
   
- By default, the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Setup program installs this sample in \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft 2013 BizTalk Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction.  
+ By default, the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Setup program installs this sample in \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction.  
   
  This sample project includes:  
   
@@ -34,7 +34,7 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
   
 - A binding file (DoubleActionBinding.xml) that the file Setup.bat uses to create the MessagesToLOB_Receive_Port for use with the DoubleAction orchestration.  
   
-- A setup file to build and initialize the sample. If BizTalk Server is running on a 32-bit computer, run the file setup.bat in the \<drive\>:\Program Files\Microsoft Microsoft 2013 BizTalk Accelerator for RosettaNet \SDK\PIPAutomation\DoubleAction folder. If BizTalk Server is running on a 64-bit computer, run setupx64.bat in the same folder.  
+- A setup file to build and initialize the sample. If BizTalk Server is running on a 32-bit computer, run the file setup.bat in the \<drive\>:\Program Files\Microsoft BizTalk Accelerator for RosettaNet \SDK\PIPAutomation\DoubleAction folder. If BizTalk Server is running on a 64-bit computer, run setupx64.bat in the same folder.  
   
   The orchestration receives messages using the PipAutomationGetAction stored procedure in the BTARNData database (the source file is DoubleAction.sql in the DoubleAction directory). This stored procedure retrieves the messages from the MessagesToLOB table.  
   
@@ -42,12 +42,12 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
   
 ### To build and initialize this sample  
   
-1. At a command prompt, locate the *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction folder.  
+1. At a command prompt, locate the *\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction folder.  
   
    > [!NOTE]
    >  Before running the Setup program, open the file DoubleAction.sql (in the above folder) in Notepad. On the **File** menu, click **Save As**. In the **Encoding** list, select **ANSI**, and then click **Save**. Click **Yes** to overwrite the existing file.  
   
-2. If your BizTalk Server is running on a 32-bit computer, run the file setup.bat in the \<drive\>:\Program Files\Microsoft BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction folder. If your BizTalk Server 2013 installation is running on a 64-bit computer, run setupx64.bat in the same folder. The batch file will perform the following actions:  
+2. If your BizTalk Server is running on a 32-bit computer, run the file setup.bat in the \<drive\>:\Program Files\Microsoft BizTalk Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction folder. If your BizTalk Server installation is running on a 64-bit computer, run setupx64.bat in the same folder. The batch file will perform the following actions:  
   
    - Creates a SQL stored procedure (`PipAutomationGetAction`) in the BTARNDATA database to retrieve the action message from the MessagesToLOB table. This also ensures that the retrieved records will not be read again.  
   
@@ -89,7 +89,7 @@ The DoubleAction.odx sample illustrates how to implement an orchestration to aut
 ## Remarks  
  The public orchestration automatically generates acknowledgments (ACK and NACK signal messages). The line-of-business (LOB) application does not need to generate them.  
   
- The format of the message that is routed to the MessagesFromLOB table is called LOBMessage. The schema is available in C:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for RosettaNet 2013 \SDK\RNIFSchemas\GlobalSchemas\LOBMessage.xsd. If you use the `RNIFSubmit` method, you do not have to work with the message format. You only need to submit the ServiceContent with the additional information. `RNIFSubmit` populates the record in the MessagesFromLOB table.  
+ The format of the message that is routed to the MessagesFromLOB table is called LOBMessage. The schema is available in C:\Program Files\Microsoft BizTalk Accelerator for RosettaNet\SDK\RNIFSchemas\GlobalSchemas\LOBMessage.xsd. If you use the `RNIFSubmit` method, you do not have to work with the message format. You only need to submit the ServiceContent with the additional information. `RNIFSubmit` populates the record in the MessagesFromLOB table.  
   
 ## Filtering Out Single-Action Messages  
  This orchestration should receive only double-action messages. You should not extend this sample project to support single-action PIPs. BTARN will post errors if you use this orchestration to process single-action messages. In order to prevent the orchestration from receiving a single-action message, change the following line in the PIPAutomationGetAction stored procedure:  

@@ -26,7 +26,7 @@ The DoubleAction.odx sample shows how to implement an orchestration to generate 
 ### To build and initialize the DoubleAction sample  
   
 1. On the Contoso computer, in a command prompt window, move to the following folder:   
-   *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction\\.  
+   *\<drive\>*:\Program Files\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction\\.  
   
    > [!NOTE]
    >  Before running the Setup program, open the DoubleAction.sql file (in the above folder) in Notepad. On the **File** menu, click **Save As**. In the **Encoding** box, select **ANSI** from the drop-down list, and then click **Save**. Click **Yes** to overwrite the existing file.  

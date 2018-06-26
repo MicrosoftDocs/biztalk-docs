@@ -21,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Responder Private Process
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the responder private process (PrivateResponder.odx) to process service content at a responder computer. This includes the following:  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the responder private process (PrivateResponder.odx) to process service content at a responder computer. This includes the following:  
   
 - Routing an incoming message to the line-of-business (LOB) application  
   

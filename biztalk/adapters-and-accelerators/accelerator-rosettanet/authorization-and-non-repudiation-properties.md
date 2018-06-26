@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Authorization and Non-Repudiation Properties
-This topic describes the behavior of the `Is Authorization Required`, `Non-Repudiation of Origin and Content`, and `Non-Repudiation Required (Acknowledgement of Receipt)` properties of Partner Interface Processes (PIPs). It also describes the combinations of these properties that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] supports.  
+This topic describes the behavior of the `Is Authorization Required`, `Non-Repudiation of Origin and Content`, and `Non-Repudiation Required (Acknowledgement of Receipt)` properties of Partner Interface Processes (PIPs). It also describes the combinations of these properties that Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] supports.  
 
  You set these properties on the **Activity** tab of the Process Configuration properties in the Process Configuration Settings section of the [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console. For more information, see [How to Create or Edit a Process Configuration](../../adapters-and-accelerators/accelerator-rosettanet/how-to-create-or-edit-a-process-configuration.md).  
 

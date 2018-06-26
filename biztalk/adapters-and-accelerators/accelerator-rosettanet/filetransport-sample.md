@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # FileTransport Sample
-The FileTransport sample demonstrates how to configure [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to use File ports, instead of SQL ports. The FileTransport sample uses File Transport Protocol (FTP) to send and receive messages, instead of HTTP.  
+The FileTransport sample demonstrates how to configure Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to use File ports, instead of SQL ports. The FileTransport sample uses File Transport Protocol (FTP) to send and receive messages, instead of HTTP.  
   
 > [!NOTE]
 >  This document assumes that you are installing [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] for internal testing or demonstration purposes only. It does not prescribe any minimum-security account or set up. You must use an account that has local administrative permissions throughout the procedures in this topic.  

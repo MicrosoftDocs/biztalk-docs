@@ -24,9 +24,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Importing Certificates Using the CertWizard Utility
-This topic describes how to import a certificate by using CertWizard utility, a step-by-step command-line utility available in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. This topic discusses importing a private, public, or root key. It describes the switches that you use to configure the certificate.  
+This topic describes how to import a certificate by using CertWizard utility, a step-by-step command-line utility available in the Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. This topic discusses importing a private, public, or root key. It describes the switches that you use to configure the certificate.  
   
- The CertWizard utility automates many of the steps that you would have to do manually by using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC). The CertWizard utility performs the **runas** command to open MMC as the host service account. If you do not add a **Useridentity** switch, it will detect and use the host service account, prompting you for a password. It stores and configures the certificate.  
+ The CertWizard utility automates many of the steps that you would have to do manually by using the Microsoft Management Console (MMC). The CertWizard utility performs the **runas** command to open MMC as the host service account. If you do not add a **Useridentity** switch, it will detect and use the host service account, prompting you for a password. It stores and configures the certificate.  
   
  You can import multiple certificates at the same time by creating a batch file with multiple CertWizard utility commands.  
   

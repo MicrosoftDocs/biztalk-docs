@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Extending BTARN with a New PIP
-This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] with a new Partner Interface Process (PIP) schema. This lets you add a schema based on a RosettaNet PIP when that PIP is not associated with any of the schemas installed by the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Setup program.  
+This topic describes how to extend Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] with a new Partner Interface Process (PIP) schema. This lets you add a schema based on a RosettaNet PIP when that PIP is not associated with any of the schemas installed by the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Setup program.  
 
  When you extend [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] with a new PIP, you deploy the new schema in its own assembly. You can also modify an existing schema that is deployed within the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] RNPIPs assembly. For more information, see [Modifying an Existing PIP in RNPIPs](../../adapters-and-accelerators/accelerator-rosettanet/modifying-an-existing-pip-in-rnpips.md).  
 
@@ -26,7 +26,7 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
 
 1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
 
-2. At the command prompt, move to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Utilities\Schema Generator.  
+2. At the command prompt, move to \<*drive*\>:\Program Files\\Microsoft  BizTalk 2013 Accelerator for RosettaNet\SDK\Utilities\Schema Generator.  
 
 3. At the command prompt, type **CScript InstallDTD.vbs**, and then press **Enter**.  
 
@@ -57,13 +57,13 @@ This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame
 
 15. In Solution Explorer, right-click the project name, point to **Add**, and then click **Existing Item**.  
 
-16. In the **Add Existing Item** dialog box, move to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Schemas, select **xml.xsd**, then click **Add**.  
+16. In the **Add Existing Item** dialog box, move to \<*drive*\>:\Program Files\\Microsoft  BizTalk 2013 Accelerator for RosettaNet\SDK\Schemas, select **xml.xsd**, then click **Add**.  
 
 17. Download the PIP that you are going to extend RNPIPs with RosettaNet.org. For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).  
 
 18. In Solution Explorer, expand the project name, right-click **Reference**, and then click **Add Reference**.  
 
-19. In the **Add Reference** dialog box, click **Browse**, and move to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\Bin, and then select **Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll**. Click **Open**, and then click **OK**.  
+19. In the **Add Reference** dialog box, click **Browse**, and move to \<*drive*\>:\Program Files\\Microsoft  BizTalk 2013 Accelerator for RosettaNet\Bin, and then select **Microsoft.Solutions.BTARN.Schemas.RNPIPs.dll**. Click **Open**, and then click **OK**.  
 
 20. In Solution Explorer, right-click the project name, point to **Add**, and then click **Add Generated Items**.  
 

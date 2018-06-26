@@ -24,7 +24,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Mapping a Request to a Response in a Private Process
-This topic describes how to map a request message received by the private responder process—from the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] public responder process, to a response message that can be sent to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] public responder process.  
+This topic describes how to map a request message received by the private responder process—from the Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] public responder process, to a response message that can be sent to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] public responder process.  
   
  When a responder receives a request message, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] routes the request message from the public-process orchestration, to the private-process orchestration, to the line-of-business (LOB) program. The responder requires the response service content from the LOB program to generate a RosettaNet response message back to the initiator. Many of the elements in the response message are populated using the values from the request message. As a result, you can incorporate a map in the responder private-process orchestration to help the LOB program generate the response service-content message in the required format.  
   

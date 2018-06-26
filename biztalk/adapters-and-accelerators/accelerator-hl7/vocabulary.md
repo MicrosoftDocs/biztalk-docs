@@ -24,7 +24,7 @@ HL7 Version 2 provides some support for vocabularies for coded elements, but for
   
  In new versions, you cannot remove codes from HL7 defined tables, but you can add new codes. You can change user-defined tables at will.  
   
- The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
+ The following functions of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
   
 -   You can use all of the HL7 defined tables.  
   

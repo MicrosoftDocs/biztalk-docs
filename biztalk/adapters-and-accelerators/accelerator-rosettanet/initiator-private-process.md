@@ -23,7 +23,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Initiator Private Process
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the initiator private process (PrivateInitiator.odx) to process service content at an initiator computer. This includes the following:  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the initiator private process (PrivateInitiator.odx) to process service content at an initiator computer. This includes the following:  
   
 - Creating the service content of an original message and routing the message to the public process, in route to the trading partner  
   

@@ -32,7 +32,7 @@ To perform FIN Response Reconciliation, you need to create a series of send port
 |          Transport type          |                                               FILE                                               |
 | Destination folder (Address URI) |                         The folder that you want to send the message to                          |
 |     File name (Address URI)      |                                         %MessageID%.txt                                          |
-|          Send pipeline           | [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].BizTalk.DefaultPipelines. PassThruTransmit |
+|          Send pipeline           | Microsoft .BizTalk.DefaultPipelines. PassThruTransmit |
 |             Filters              |                                   As shown in the tables below                                   |
 
  The send ports for the different messages are distinguished by the value of BTS.Operation in the send port's filter.  

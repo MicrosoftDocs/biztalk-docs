@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BTAHL7 Pipelines
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a set of receive and send pipelines for both HL7-encoded and XML-encoded processing. These pipelines enhance BizTalk pipeline processing for health care solutions:  
+Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a set of receive and send pipelines for both HL7-encoded and XML-encoded processing. These pipelines enhance BizTalk pipeline processing for health care solutions:  
   
 - 2.X for HL7 FF (.BTP) providing [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2XReceive and [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2XSend pipelines  
   

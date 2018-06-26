@@ -31,7 +31,7 @@ The Minimal Lower Layer Protocol (MLLP) receive adapter supports both one-way an
 |*Max Accept Connection Limit*|Limits the number of concurrent open connections that the receive adapter will accept.|  
   
 ## Acknowledgments with the two-way MLLP receive adapter  
- When a two-way MLLP receive adapter receives a message, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) can generate the following types of ACKs:  
+ When a two-way MLLP receive adapter receives a message, Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) can generate the following types of ACKs:  
   
 - HL7 Enhanced Commit ACK: In this scenario, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends a Commit ACK on the same connection. It sends out an Application Accept ACK on a different send port.  
   

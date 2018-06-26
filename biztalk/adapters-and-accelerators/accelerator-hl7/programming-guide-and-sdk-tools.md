@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Programming guide and SDK tools
-This Software Development Kit (SDK) provides information for developers who are creating applications using any of the tools in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], the public application programming interfaces (API), or the samples and utilities provided in the BTAHL7 SDK.  
+This Software Development Kit (SDK) provides information for developers who are creating applications using any of the tools in Microsoft[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], the public application programming interfaces (API), or the samples and utilities provided in the BTAHL7 SDK.  
   
 ## Tips for using Help in a developer environment  
  BTAHL7 Help contains features that you can use to display the developer documentation in your preferred language and to link between BTAHL7 Help and Visual Studio Help.  

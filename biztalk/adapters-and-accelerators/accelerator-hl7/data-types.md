@@ -22,7 +22,7 @@ The data type specification is an important tool for partitioning the complexity
   
  In new HL7 versions, you can add but not remove data types. If you add content to a data type, by adding new components or subcomponents, you can only add them at the end of the structure within which they are nested. In some cases, the HL7 organization merged existing data types to form new ones. This led to the need to support items that were formerly subcomponents within the original data types.  
   
- The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
+ The following functions of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
   
 - [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] supports standard data types for all HL7 versions from V2.1 on.  
   

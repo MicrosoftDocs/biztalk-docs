@@ -29,7 +29,7 @@ There are two basic concepts that underlie all HL7 messages. These concepts addr
   
 - **Evolution**. The need to support sites with many interfaces and many applications by enabling interoperability between standard versions. This enables entities to stage interface upgrades, as opposed to requiring simultaneous upgrades of all interfaces.  
   
-  The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support the above requirements:  
+  The following functions of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support the above requirements:  
   
 - HL7 acknowledgment modes. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] supports the original acknowledgment mode by passing application acknowledgments back to the original message sender.  
   

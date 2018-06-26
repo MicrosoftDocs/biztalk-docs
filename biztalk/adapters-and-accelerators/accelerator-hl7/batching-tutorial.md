@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Batching Tutorial
-This tutorial provides step-by-step procedures for using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to receive and send batched messages. Batching involves receiving and/or sending a group of individual messages (or acknowledgments) as a single composite message.  
+This tutorial provides step-by-step procedures for using Microsoft[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to receive and send batched messages. Batching involves receiving and/or sending a group of individual messages (or acknowledgments) as a single composite message.  
   
  BTAHL7 supports the following three message batching scenarios:  
   

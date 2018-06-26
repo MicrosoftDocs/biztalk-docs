@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # A4SWIFT Component Configuration Guide
-This guide provides information about configuring [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Perform the steps in this configuration guide after you have installed A4SWIFT and completed the A4SWIFT Configuration Wizard (as described in the Installation Guide). This configuration guide includes the following instructions:  
+This guide provides information about configuring Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Perform the steps in this configuration guide after you have installed A4SWIFT and completed the A4SWIFT Configuration Wizard (as described in the Installation Guide). This configuration guide includes the following instructions:  
 
 - Post-installation steps for configuring the A4SWIFT runtime for messaging scenarios.  
 

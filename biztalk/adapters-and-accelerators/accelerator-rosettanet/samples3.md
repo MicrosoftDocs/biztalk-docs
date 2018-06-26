@@ -18,9 +18,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Samples
-This section describes the samples included in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK). This section provides detailed information about each sample, including how to build the sample, how to run it, and what results to expect.  
+This section describes the samples included in the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK). This section provides detailed information about each sample, including how to build the sample, how to run it, and what results to expect.  
 
- The samples are included in the \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\ folder.  
+ The samples are included in the \<*drive*\>:\Program Files\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\ folder.  
 
 ## In This Section  
 

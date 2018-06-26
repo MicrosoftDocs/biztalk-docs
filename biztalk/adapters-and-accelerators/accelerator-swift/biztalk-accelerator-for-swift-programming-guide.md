@@ -18,10 +18,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Accelerator for SWIFT Programming Guide
-This section explains concepts and procedures for developers writing code with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Use this guide in conjunction with the [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] documentation.  
+This section explains concepts and procedures for developers writing code with Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Use this guide in conjunction with the [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] documentation.  
   
 > [!NOTE]
->  Before reading this guide, you should be familiar with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] development, [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)], and [Runtime, message repair, FIN response, and messaging](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md).  
+>  Before reading this guide, you should be familiar with Microsoft [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] development, [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)], and [Runtime, message repair, FIN response, and messaging](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md).  
   
  This section contains:  
   

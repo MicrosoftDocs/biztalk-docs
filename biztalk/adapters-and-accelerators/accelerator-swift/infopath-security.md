@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # InfoPath Security
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007 uses XML Signatures to let you digitally sign a form using a digital certificate. XML Signatures defines a standard for XML-based digital signatures that you use to help secure the data contained in XML documents. XML Signatures is a standard governed by the World Wide Web Consortium (W3C).  
+Microsoft [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007 uses XML Signatures to let you digitally sign a form using a digital certificate. XML Signatures defines a standard for XML-based digital signatures that you use to help secure the data contained in XML documents. XML Signatures is a standard governed by the World Wide Web Consortium (W3C).  
   
  A digital signature is an electronic, encryption-based, secure stamp of authentication on a macro or document. When digitally signing an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form, the XML instance entered through the form is "stamped" with a digital signature (the signature public key and signed data digest is written to a dedicated node in the XML). This signature confirms that the XML document originated from the signer and has not been altered. [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] provides verifiable, non-repudiable signing, partial signing, cosigning and countersigning through enhanced digital signature support.  
   

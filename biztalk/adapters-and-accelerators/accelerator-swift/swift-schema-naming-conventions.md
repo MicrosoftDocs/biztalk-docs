@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SWIFT Schema Naming Conventions
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes schemas for Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages that were created using BizTalk Editor. These schemas conform to the following conventions throughout:  
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes schemas for Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages that were created using BizTalk Editor. These schemas conform to the following conventions throughout:  
   
 > [!NOTE]
 >  All schemas are versioned. To see the version, open [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], and right-click the schema in Solution Explorer. With the \<Schema\> node selected in BizTalk Editor, in the Properties pane scroll down to the Standard Version property.  

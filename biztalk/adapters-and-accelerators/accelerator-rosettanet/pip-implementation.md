@@ -29,7 +29,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # PIP Implementation
-RosettaNet Partner Interface Processes (PIPs) define business processes between trading partners in a supply chain. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides a set of PIPs out-of-the-box and you can create additional PIPs. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] supports all PIPs defined by the RosettaNet organization.  
+RosettaNet Partner Interface Processes (PIPs) define business processes between trading partners in a supply chain. Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides a set of PIPs out-of-the-box and you can create additional PIPs. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] supports all PIPs defined by the RosettaNet organization.  
   
  For more information, see [RosettaNet PIPs](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-pips.md).  
   

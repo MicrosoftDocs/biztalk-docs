@@ -17,7 +17,7 @@ ms.author: "mandia"
 ---
 
 # Programming guide, tools and samples in the RosettaNet SDK
-This Software Development Kit (SDK) provides information for developers who are creating applications using any one of the tools in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], the public application programming interfaces (API), or the samples and utilities provided in the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK.  
+This Software Development Kit (SDK) provides information for developers who are creating applications using any one of the tools in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], the public application programming interfaces (API), or the samples and utilities provided in the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK.  
   
  The [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Class Reference provides signatures and code examples in multiple programming languages. The following tags represent the language-specific information:  
   

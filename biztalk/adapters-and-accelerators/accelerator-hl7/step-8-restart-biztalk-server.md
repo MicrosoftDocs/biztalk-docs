@@ -21,7 +21,7 @@ In this step, you restart the [!INCLUDE[btsBizTalkServerNoVersion](../../include
   
 1. Start **BizTalk Server Administration**.  
   
-2. In the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, and then expand **Platform Settings**. Click **Hosts**, and then click **BizTalkServerApplication**.  
+2. In the Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, and then expand **Platform Settings**. Click **Hosts**, and then click **BizTalkServerApplication**.  
   
 3. Right-click your server, and then click **Restart**.  
   
