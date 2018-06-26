@@ -23,7 +23,7 @@ manager: "anneta"
 # Creating or Editing a Partner
 This topic describes how to create or edit a partner. The partner configuration describes and classifies the partner, sets the non-repudiation of origin period, configures certificates for the partner, and provides contact information.  
 
- When you first create a partner, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] creates two send ports to be used by that partner, one asynchronous and one synchronous. These send ports are named \<*partner name*\>.Async send port and \<*partner name*\>.Sync send port. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] automatically enlists and starts these send ports based upon the partner agreement. You can view these ports in the BizTalk Administration Console.  
+ When you first create a partner, Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] creates two send ports to be used by that partner, one asynchronous and one synchronous. These send ports are named \<*partner name*\>.Async send port and \<*partner name*\>.Sync send port. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] automatically enlists and starts these send ports based upon the partner agreement. You can view these ports in the BizTalk Administration Console.  
 
  Partner settings are as shown in the following table, arranged by tab. For instructions about how to create and edit a partner, see the procedures after the table.  
 

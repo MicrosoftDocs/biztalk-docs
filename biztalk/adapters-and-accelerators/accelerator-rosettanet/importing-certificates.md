@@ -19,9 +19,9 @@ manager: "anneta"
 # Importing Certificates
 This section describes how to import certificates, including where to import them from, where to store them, and what tools to use to import them.  
   
- There are two ways to import certificates. You can use the CertWizard tool or the Certificates snap-in for [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC).  
+ There are two ways to import certificates. You can use the CertWizard tool or the Certificates snap-in for Microsoft Management Console (MMC).  
   
-- CertWizard is a step-by-step command-line wizard that configures the use of the certificate based on the settings of switches. This tool is available in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK folder.  
+- CertWizard is a step-by-step command-line wizard that configures the use of the certificate based on the settings of switches. This tool is available in the Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK folder.  
   
 - With the Certificates snap-in in MMC, you can import a certificate into the certificate store. However, this manual process requires that you configure the use of the certificate separately.  
   

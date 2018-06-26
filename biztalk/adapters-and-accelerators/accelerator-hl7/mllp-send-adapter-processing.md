@@ -37,7 +37,7 @@ The Minimal Lower Layer Protocol (MLLP) send adapter supports one-way and two-wa
 ## One-way send MLLP adapter configured to receive ACKs  
  This adapter receives ACKs on the same socket connection that it sends the original message on, and delivers the ACKs to the receive location. The send adapter continuously maintains an open connection against the remote party (URL), even if no messages are waiting for [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to send them to it. If several ports are pointing to the same remote party, the send adapter maintains one connection for each send port.  
   
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) setup installs a default receive location, TwoWayAckReceiveLocation. You can use this receive location with the MLLP send adapter for receiving ACKs. This configuration of the send port using this adapter requires you to associate a receive location with the send port.  
+ Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) setup installs a default receive location, TwoWayAckReceiveLocation. You can use this receive location with the MLLP send adapter for receiving ACKs. This configuration of the send port using this adapter requires you to associate a receive location with the send port.  
   
  Use this send port if you are set up to receive a response message with an MSA field, or to support multiple destinations. The two-way solicit-response adapter does not work with the MSA field or with multiple destinations.  
   

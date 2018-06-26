@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 2: Creating the Fabrikam LOBWebApplication
-In this step, you create the LOB application that Fabrikam uses to submit a 3A2 PIP request to Contoso. The LOBWebApplication project is installed in the [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. To run the Web application, you have to create a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) virtual directory and build the LOBWebApplication project.  
+In this step, you create the LOB application that Fabrikam uses to submit a 3A2 PIP request to Contoso. The LOBWebApplication project is installed in the [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. To run the Web application, you have to create a Microsoft Internet Information Services (IIS) virtual directory and build the LOBWebApplication project.  
   
 > [!NOTE]
 >  If you completed the DoubleAction tutorial, you do not need to perform this step.  

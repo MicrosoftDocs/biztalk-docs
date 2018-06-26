@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting: Issues and Resolutions
-This topic addresses issues related to running [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Each issue details a specific symptom, a possible cause, and a solution.  
+This topic addresses issues related to running Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Each issue details a specific symptom, a possible cause, and a solution.  
   
  The issues and resolutions are grouped into the following areas:  
   

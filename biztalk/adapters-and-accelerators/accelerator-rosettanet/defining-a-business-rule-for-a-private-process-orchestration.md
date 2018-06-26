@@ -43,9 +43,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Defining a Business Rule for a Private Process Orchestration
-You can define a business rule for use in an acknowledgement private process. This lets you to modify the business rule dynamically without stopping the private-process orchestration. This process uses the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Business Rule Engine. This process involves the following steps:  
+You can define a business rule for use in an acknowledgement private process. This lets you to modify the business rule dynamically without stopping the private-process orchestration. This process uses the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Business Rule Engine. This process involves the following steps:  
   
-1. Adding a new vocabulary. This involves defining at least one vocabulary constant value. This sets a business-rule threshold. It also involves defining XML document `Get` and `Set` elements. This establishes how [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] uses the threshold.  
+1. Adding a new vocabulary. This involves defining at least one vocabulary constant value. This sets a business-rule threshold. It also involves defining XML document `Get` and `Set` elements. This establishes how Microsoft [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] uses the threshold.  
   
 2. Adding a new policy. This involves creating a policy, creating a set of rules, and then saving, publishing, and deploying the policy.  
   
@@ -63,7 +63,7 @@ You can define a business rule for use in an acknowledgement private process. Th
   
 2. If the **Open Rule Store** dialog box opens, select the **BizTalk Rule Engine** database that you set up on the current server, and then click **OK**.  
   
-3. In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Business Rule Composer, in the Facts Explorer pane, right-click **Vocabularies**, and then click **Add New Vocabulary**.  
+3. In Microsoft Business Rule Composer, in the Facts Explorer pane, right-click **Vocabularies**, and then click **Add New Vocabulary**.  
   
 4. In the Property pane (lower left), set the **Name** property to the name of the appropriate vocabulary, and then press **Enter**.  
   

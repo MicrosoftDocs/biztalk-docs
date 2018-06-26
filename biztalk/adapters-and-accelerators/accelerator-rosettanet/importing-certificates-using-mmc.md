@@ -21,9 +21,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Importing Certificates Using MMC
-This topic describes how to import a digital certificate that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses to authenticate a trading partner, decrypt an incoming message, or encrypt or sign an outgoing message.  
+This topic describes how to import a digital certificate that Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses to authenticate a trading partner, decrypt an incoming message, or encrypt or sign an outgoing message.  
   
- This procedure uses the Certificates snap-in for the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC). This manual process imports a certificate into the certificate store, requiring you to configure certificate use separately. You can also import a certificate by using the CertWizard utility that automatically configures certificate use for you.  
+ This procedure uses the Certificates snap-in for the Microsoft Management Console (MMC). This manual process imports a certificate into the certificate store, requiring you to configure certificate use separately. You can also import a certificate by using the CertWizard utility that automatically configures certificate use for you.  
   
  To import private certificates, you must use the user accounts under which the BizTalk Hosts run.  
   
@@ -56,13 +56,13 @@ This topic describes how to import a digital certificate that [!INCLUDE[btsCoNam
   
 3. Type the password for \<*host service*\>, and then press **Enter**.  
   
-4. In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console, on the **File** menu, click **Add/Remove Snap-in**.  
+4. In Microsoft Management Console, on the **File** menu, click **Add/Remove Snap-in**.  
   
 5. In the Add/Remove Snap-in dialog box, click **Add**.  
   
 6. In the Add Standalone Snap-in dialog box, select **Certificates**, click **Add**, click **Close**, and then click **OK**.  
   
-7. In [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console, expand **Certificates - Current User**, right-click **Personal**, point to **All Tasks**, and then click **Import**.  
+7. In Microsoft Management Console, expand **Certificates - Current User**, right-click **Personal**, point to **All Tasks**, and then click **Import**.  
   
 8. On the **Certificate Import Wizard Welcome** page, click **Next**.  
   

@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Learn the HL7 accelerator and the BizTalk tools available
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] is a highly versatile and performant complete health care solution for the exchange of data between health care computer applications based on the Health Level Seven (HL7) standard.  
+Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] is a highly versatile and performant complete health care solution for the exchange of data between health care computer applications based on the Health Level Seven (HL7) standard.  
   
  Use this documentation set to become familiar with the following services, capabilities, and features of BTAHL7.  
   

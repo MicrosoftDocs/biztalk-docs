@@ -37,7 +37,7 @@ A segment table defines an HL7 segment. Each segment definition follows the patt
   
  In new versions, you can only add fields at the end of a segment, and you cannot remove fields. If an added field replaces the functionality of an existing field, the first field remains for backward compatibility. (This can be seen by the "B" in the optionally column above for PID.2 and PID.3.)  
   
- The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
+ The following functions of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
   
 - [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] supports the standard segments for all HL7 versions from V2.1 on.  
   

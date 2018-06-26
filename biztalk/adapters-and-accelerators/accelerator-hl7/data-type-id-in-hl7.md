@@ -53,7 +53,7 @@ In the case of HL7 V2.1, the data type ID is a placeholder for undefined data ty
   |54.21^Laparoscopy^I9C^42112^^AS4|  
   ```  
   
-  This data type is localized and site-defined. Additionally, HL7 V2.1 does not provide the coverage for this data type in the HL7 Access database. For generating your schemas, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) assumes that the HL7 V2.2 data types are valid, and uses this information to build the schemas. Depending on the usage in the schema, an appropriate data type must be used, meaning that the data type must be replaced with CK, CQ, CE, ST^SI, and so on.  
+  This data type is localized and site-defined. Additionally, HL7 V2.1 does not provide the coverage for this data type in the HL7 Access database. For generating your schemas, Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) assumes that the HL7 V2.2 data types are valid, and uses this information to build the schemas. Depending on the usage in the schema, an appropriate data type must be used, meaning that the data type must be replaced with CK, CQ, CE, ST^SI, and so on.  
   
 ## See Also  
  [Data Types](../../adapters-and-accelerators/accelerator-hl7/data-types.md)   

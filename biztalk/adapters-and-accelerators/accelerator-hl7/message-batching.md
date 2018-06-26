@@ -22,7 +22,7 @@ manager: "anneta"
 # Message Batching
 Protocol standards, scheduling issues, or message size limitations may motivate the need to batch messages. A Health Level Seven (HL7) batch consists of messages enclosed by an HL7 batch header and batch trailer. Message separators separate the individual messages within the batch.  
   
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] supports the following three message batching scenarios:  
+ Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] supports the following three message batching scenarios:  
   
 -   **Fragmented inbound batch**. In this scenario, BTAHL7 receives an HL7 message batch, and then routes the individual messages to the destination system.  
   

@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Message Processing in BTARN
-This section describes how the major components of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] process messages. Where appropriate, the topics in this section include descriptions of the message flow through the component.  
+This section describes how the major components of Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] process messages. Where appropriate, the topics in this section include descriptions of the message flow through the component.  
   
 ## In This Section  
   

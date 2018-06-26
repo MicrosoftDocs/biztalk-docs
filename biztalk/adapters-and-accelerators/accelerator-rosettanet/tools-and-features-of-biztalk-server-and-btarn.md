@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Tools and Features of BizTalk Server and BTARN
-Users of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] have access to the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server role-based features and tools, as well as [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]-specific tools and features customized to the high-technology manufacturing industry. This section describes those features and tools.  
+Users of Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] have access to the Microsoft BizTalk Server role-based features and tools, as well as [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]-specific tools and features customized to the high-technology manufacturing industry. This section describes those features and tools.  
   
 ## In This Section  
   

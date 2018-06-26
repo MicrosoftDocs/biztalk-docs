@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 1: Installing the Base Platform
-For the base platform, install [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] and [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] Service Pack 2 on each server using the default installation options. Follow these recommendations:  
+For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] and [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] Service Pack 2 on each server using the default installation options. Follow these recommendations:  
   
 ## Pre-Installation  
   
@@ -33,13 +33,13 @@ For the base platform, install [!INCLUDE[btsCoName](../../includes/btsconame-md.
   
 - Make sure that you install all the applicable hotfixes for all the products that you install as part of your deployment. For more information, see the following sources:  
   
-  - [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server Online Help  
+  - Microsoft BizTalk Server Online Help  
   
   - BizTalk Server Installation Instructions at [http://go.microsoft.com/fwlink/?LinkId=81041](http://go.microsoft.com/fwlink/?LinkId=81041).  
   
-  - [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?linkid=48685](http://go.microsoft.com/fwlink/?linkid=48685).  
+  - Microsoft [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?linkid=48685](http://go.microsoft.com/fwlink/?linkid=48685).  
   
-  - [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Download Center Web site at [http://go.microsoft.com/fwlink/?linkid=48686](http://go.microsoft.com/fwlink/?linkid=48686).  
+  - Microsoft Download Center Web site at [http://go.microsoft.com/fwlink/?linkid=48686](http://go.microsoft.com/fwlink/?linkid=48686).  
   
   - [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] Web site at [http://go.microsoft.com/fwlink/?linkid=48687](http://go.microsoft.com/fwlink/?linkid=48687).  
   

@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Components
-You use [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] components to implement SWIFT-centric middleware solutions that facilitate trading partner relationships, enterprise application integration (EAI), and application and business workflow automation. These components include:  
+You use Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] components to implement SWIFT-centric middleware solutions that facilitate trading partner relationships, enterprise application integration (EAI), and application and business workflow automation. These components include:  
   
 - **SWIFT Message Schemas.** You use XML schema definition language (XSD)-compliant schemas to facilitate the parsing of native SWIFT flat file messages into XML using the SWIFT pipeline components and [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] runtime. After you convert SWIFT data into XML, you use a map to transform it into another format, such as delimited flat files or positional flat files. This transformation enables you to use these files in your existing applications. You can also use the XML data without any mapping, such as for validation-only scenarios. SWIFT schemas also enforce SWIFT-defined data and format rules. For a complete list of schemas provided in this release, see [Supported Messages](../../adapters-and-accelerators/accelerator-swift/supported-messages.md).  
   

@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Module 1: Creating a SWIFT Solution
-In this module, you create a blank BizTalk solution. In the first lesson, you create a new solution by using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. You also create the individual projects that contain your BizTalk solution components such as schema, maps, orchestrations, and pipeline components.  
+In this module, you create a blank BizTalk solution. In the first lesson, you create a new solution by using Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. You also create the individual projects that contain your BizTalk solution components such as schema, maps, orchestrations, and pipeline components.  
   
  Note that a solution may include only one BizTalk project, or it may include many BizTalk projects (if the solution consists of numerous projects, which you develop independently and which you must integrate later).  
   

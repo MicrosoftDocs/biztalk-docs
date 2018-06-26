@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 1: Configure Application Pool Identity
-In this tutorial, you use an application pool in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) to process the orchestration, which you publish as a Web service. An application pool is a grouping of one or more URLs served by a worker process.  
+In this tutorial, you use an application pool in Microsoft Internet Information Services (IIS) to process the orchestration, which you publish as a Web service. An application pool is a grouping of one or more URLs served by a worker process.  
 
  The identity of an application pool is the name of the service account under which the worker process of the application pool runs. By default, application pools operate under the Network Service user account, which has low-level user-access rights and is insufficient for this tutorial to function. For security reasons, you want to configure the application pool identity to a user account with the absolute minimum permissions, but at least permissions to write to the MessageBox database (BizTalkMsgBoxDb) and Configuration database (also known as the BizTalk Management database, or BizTalkMgmtDb).  
 

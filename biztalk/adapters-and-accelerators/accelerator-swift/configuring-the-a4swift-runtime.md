@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configuring the A4SWIFT Runtime
-After you have completed [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] configuration, you must perform the steps in the following sections to make sure that A4SWIFT is ready to exchange messages. This section does not include the configuration steps specific to the Message Repair and New Submission or FIN Response Reconciliation features, which are provided later.  
+After you have completed Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] configuration, you must perform the steps in the following sections to make sure that A4SWIFT is ready to exchange messages. This section does not include the configuration steps specific to the Message Repair and New Submission or FIN Response Reconciliation features, which are provided later.  
   
  This section contains:  
   

@@ -30,7 +30,7 @@ The Message Acknowledgment (MSA) segment of an acknowledgment (ACK) message iden
 |AR|Application Reject|Either a problem occurred at the receiving location related to the value in MSH9 (message type), MSH11 (processing ID), or MSH12 (version ID), in which case the sending system should diagnose and correct the problem before resending the message; or a problem occurred at the receiving system that was unrelated to the message or its structure, in which case the sending system should resend the message after an appropriate period, without change to the message.|  
 
 ## Message Control ID (MSA2)  
- The MSA2 field identifies the message that the ACK is acknowledging. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) generates the value in MSA2 based upon the acknowledgment mode. This value enables the sending and receiving applications to keep the message and the acknowledgment synchronized. The following table lists the available values for the MSA2 field.  
+ The MSA2 field identifies the message that the ACK is acknowledging. Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) generates the value in MSA2 based upon the acknowledgment mode. This value enables the sending and receiving applications to keep the message and the acknowledgment synchronized. The following table lists the available values for the MSA2 field.  
 
 
 |            Acknowledgment Mode            |                                                           Value in MSA2                                                            |

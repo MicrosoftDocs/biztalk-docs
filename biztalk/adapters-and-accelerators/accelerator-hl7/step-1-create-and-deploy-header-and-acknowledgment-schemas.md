@@ -39,7 +39,7 @@ You use the header schema to validate the header (MSH segment) of the message in
   
 1. Start **Visual Studio 2012 Command Prompt**.  
   
-2. At the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt, browse to the \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for HL7 \SDK\End-to-End Tutorial folder.  
+2. At the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt, browse to the \<*drive*\>:\Program Files\\Microsoft BizTalk \<version\> Accelerator for HL7 \SDK\End-to-End Tutorial folder.  
   
 3. At the command prompt, type **sn –k key.snk**, and then press ENTER. Ensure the following success message appears in the output window, and then close the command window.  
   
@@ -54,7 +54,7 @@ You use the header schema to validate the header (MSH segment) of the message in
   
 6. In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (**…**) button.  
   
-7. In the Assembly Key File dialog box, browse to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial, select **key.snk**, and then click **Open**.  
+7. In the Assembly Key File dialog box, browse to \<*drive*\>:\Program Files\\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial, select **key.snk**, and then click **Open**.  
   
 8. On the BTAHL7V2XCommon Project Property page, click **OK** to save your changes.  
   

@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Accelerator for HL7 Components
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) components include HL7 and XML disassemblers, HL7 and XML assemblers, receive and send ports, pipelines, and a batch orchestration. These components fit into the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] system to provide a seamless health care solution.  
+Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) components include HL7 and XML disassemblers, HL7 and XML assemblers, receive and send ports, pipelines, and a batch orchestration. These components fit into the Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] system to provide a seamless health care solution.  
   
 ## In This Section  
   

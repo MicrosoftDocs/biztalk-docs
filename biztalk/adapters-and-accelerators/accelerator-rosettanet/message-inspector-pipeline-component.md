@@ -24,7 +24,7 @@ This pipeline component lets you examine all the parts of a multi-part message, 
   
  The pipeline component drops XML files into a directory that you designate. Each of these files contains one of the four parts of an RNIFv2.0 message (Preamble Header, Delivery Header, Service Header, and Service Content) or the three parts of an RNIFv1.1 message (Preamble Header, Service Header, and Service Content). Another XML file contains the message context.  
   
- You build this component into a custom pipeline and attach it to a send port. You create a filter in the send port to subscribe to the messages that you want to monitor. This troubleshooting occurs in addition to the standard processing that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] already performs.  
+ You build this component into a custom pipeline and attach it to a send port. You create a filter in the send port to subscribe to the messages that you want to monitor. This troubleshooting occurs in addition to the standard processing that Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] already performs.  
   
 ## Building a Custom Pipeline Using the Message Inspector Pipeline Component  
  To use the Message Inspector Pipeline Component, you have to build and deploy a custom pipeline that includes the component. For more information, see "Creating Pipelines with Pipeline Designer" in BizTalk Server Help.  

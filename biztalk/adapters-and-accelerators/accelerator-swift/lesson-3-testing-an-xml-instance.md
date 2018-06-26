@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Lesson 3: Testing an XML Instance
-In this lesson, you submit a valid MT103 message in XML format to the file receive ports created in the previous lessons. This action tests the send pipelines that you created in previous modules. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] writes the output as a flat file to the output folder that you selected for the send port in the previous module.  
+In this lesson, you submit a valid MT103 message in XML format to the file receive ports created in the previous lessons. This action tests the send pipelines that you created in previous modules. Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] writes the output as a flat file to the output folder that you selected for the send port in the previous module.  
   
  You initiate the file receive adapter by copying a SWIFT XML-formatted file to the inbound folder. This action results in the system copying a valid SWIFT flat file to the outbound folder.  
   

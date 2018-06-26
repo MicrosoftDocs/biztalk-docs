@@ -22,7 +22,7 @@ manager: "anneta"
 
  The BAM definition file is MrsrActivities.xml in *\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT\BAMTracking. It defines a Message activity and a RepairView view. For more information about deploying MrsrActivities.xml by using the bm deploy utility, see BizTalk Server Help.  
 
- Create the custom view in the Business Activity Monitoring View Wizard from the BAM workbook. For more information about creating a custom view, see "Creating a BAM View" in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Information Worker Help.  
+ Create the custom view in the Business Activity Monitoring View Wizard from the BAM workbook. For more information about creating a custom view, see "Creating a BAM View" in MicrosoftBizTalk Server Information Worker Help.  
 
  The Message activity in MrsrActivities.xml includes the following items that you can add to the custom view:  
 

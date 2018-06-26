@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Administration and Run-Time Tools
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provide a set of tools for performing administrative and run-time tasks, such as deployment, configuration management, administration, business-rule management, and monitoring. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.  
+Microsoft BizTalk Server and Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provide a set of tools for performing administrative and run-time tasks, such as deployment, configuration management, administration, business-rule management, and monitoring. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see MicrosoftBizTalk Server Help.  
   
 ## BizTalk Explorer  
  You use BizTalk Explorer to configure and manage projects, parties, and orchestrations. BizTalk Explorer displays the contents of the Configuration database, showing items such as assemblies, ports, and parties.  

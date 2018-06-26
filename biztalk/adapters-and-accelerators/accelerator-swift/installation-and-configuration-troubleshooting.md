@@ -30,14 +30,14 @@ manager: "anneta"
   
 - The Runtime Schemas assembly was already deployed when you tried to perform an initial installation of A4SWIFT.  
   
-- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] was not started on the computer on which you tried to install A4SWIFT.  
+- Microsoft [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] was not started on the computer on which you tried to install A4SWIFT.  
   
 - The Runtime Schemas assembly was already deployed when you tried to upgrade A4SWIFT, and was referenced by another assembly. This prevented undeployment of the Runtime Schemas assembly by the A4SWIFT upgrade program.  
   
 ### Solution  
  Proceed as follows, depending upon the nature of the problem:  
   
-- If the Runtime Schemas assembly was already deployed when you attempted to run an initial installation of A4SWIFT, open BizTalk Explorer in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)], right-click the assembly [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.FinancialServices.SWIFT.RuntimeSchemas, and then click Undeploy. Use the BizTalk Deployment Wizard to deploy the latest version of RuntimeSchemas.dll from *%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies.  
+- If the Runtime Schemas assembly was already deployed when you attempted to run an initial installation of A4SWIFT, open BizTalk Explorer in Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)], right-click the assembly Microsoft .Solutions.FinancialServices.SWIFT.RuntimeSchemas, and then click Undeploy. Use the BizTalk Deployment Wizard to deploy the latest version of RuntimeSchemas.dll from *%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies.  
   
 - If [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] was not started, start [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] in the [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] Service Manager. Use the BizTalk Deployment Wizard to deploy the latest version of RuntimeSchemas.dll from *%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies.  
   
@@ -131,7 +131,7 @@ manager: "anneta"
   
 4. Upgrade to the latest version of A4SWIFT again. This time the upgrade will work, and no side-by-side installation will be created.  
   
-5. Using the BizTalk Deployment Utility, manually undeploy [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll, and then redeploy it from the Assemblies folder of your A4SWIFT installation location. For more information about this tool, see [BRE Deployment Utility](../../adapters-and-accelerators/accelerator-swift/bre-deployment-utility.md).  
+5. Using the BizTalk Deployment Utility, manually undeploy Microsoft .Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll, and then redeploy it from the Assemblies folder of your A4SWIFT installation location. For more information about this tool, see [BRE Deployment Utility](../../adapters-and-accelerators/accelerator-swift/bre-deployment-utility.md).  
   
 ## The uninstall or upgrade process may not complete correctly if you do not restart when prompted  
   

@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Software Development Kit
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] includes a software development kit (SDK) that includes a full programmer's reference and guide. Additionally, the SDK includes utilities and samples that could make your operations and back-end integration easier.  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] includes a software development kit (SDK) that includes a full programmer's reference and guide. Additionally, the SDK includes utilities and samples that could make your operations and back-end integration easier.  
 
 ## Utilities  
  The [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK includes the following samples:  

@@ -20,7 +20,7 @@ manager: "anneta"
 # HL7 Versions
 HL7 Version 2 is a family of closely related standards rather than a single standard. The HL7 organization has designed these standards to be upwards compatible through the application of the HL7 inter-version compatibility rules. These rules guarantee that, within the confines of Version 2, an interface defined under the rules of an HL7 version will still function within the definition of successor versions. So that a receiving system will be able to accept messages from later versions without breaking its implementation and a sending system will be able to continue to send messages to receivers who support later versions.  
   
- It is important to note that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]):  
+ It is important to note that Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]):  
   
 - Supports all live HL7 versions from Version 2.1 through Version 2.5  
   

@@ -104,7 +104,7 @@ xsi:schemaLocation="urn:hl7-org:v2xml ACK.xsd">
 </ACK>  
 ```  
   
- The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
+ The following functions of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
   
 -   Support of pipe delimited and XML encoding.  
   

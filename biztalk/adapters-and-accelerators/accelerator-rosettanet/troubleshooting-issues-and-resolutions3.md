@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting: Issues and Resolutions
-This topic addresses issues related to running [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The individual issues detail a specific symptom, a possible cause, and a solution.  
+This topic addresses issues related to running Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The individual issues detail a specific symptom, a possible cause, and a solution.  
   
 ## Error publishing a batch of "n" messages  
   
@@ -39,7 +39,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   This message may be preceded by another error message that details the cause.  
   
 ### Solution  
- Review the details provided with the error message for additional help. Restarting [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™ may resolve this issue.  
+ Review the details provided with the error message for additional help. Restarting Microsoft [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™ may resolve this issue.  
   
 ## You cannot unenlist all artifacts  
   
@@ -47,7 +47,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
  Running the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]Clean utility does not unenlist all artifacts.  
   
 ### Possible Cause  
- If you run the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]Clean utility before deleting agreements and partners from the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Management Console (MMC), the BtarnClean utility will not be able to unenlist all artifacts because they are still used.  
+ If you run the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]Clean utility before deleting agreements and partners from the Microsoft® Management Console (MMC), the BtarnClean utility will not be able to unenlist all artifacts because they are still used.  
   
 ### Solution  
   
@@ -66,7 +66,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ## Installing BTARN on a computer without BizTalk Server causes missing files  
   
 ### Symptom  
- Running the ConfigFramework.exe file yields no results on a computer that does not have [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server or [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] installed. You can only use this [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration as an HTTP client.  
+ Running the ConfigFramework.exe file yields no results on a computer that does not have MicrosoftBizTalk Server or Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] installed. You can only use this [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration as an HTTP client.  
   
 ### Possible Cause  
  Two DLL files are missing from the installation.  
@@ -299,7 +299,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ## The HubScenario sample will not be installed correctly if the assembly key files are not entered for the projects  
   
 ### Symptom  
- When you run setup.bat in *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario to set up the HubScenario sample, the operation fails.  
+ When you run setup.bat in *\<drive\>*:\Program Files\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario to set up the HubScenario sample, the operation fails.  
   
 ### Possible Cause  
  The HubScenario and HubHelper assemblies were not deployed correctly because the assembly key files were not set in the projects.  

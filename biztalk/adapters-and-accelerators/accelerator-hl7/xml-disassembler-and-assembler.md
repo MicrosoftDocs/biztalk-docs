@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # XML Disassembler and Assembler
-The XML disassembler and assembler ensure that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) not only supports HL7-encoded messages, but also supports incoming and/or outgoing XML messages.  
+The XML disassembler and assembler ensure that Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) not only supports HL7-encoded messages, but also supports incoming and/or outgoing XML messages.  
   
 ## XML Disassembler  
  The XML disassembler parses incoming XML messages into XML segments for processing. As it parses the messages, the disassembler performs the following tasks:  

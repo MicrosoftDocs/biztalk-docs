@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Modifying 2.XML Schemas to Work with BizTalk Editor
-HL7 2.XML schemas require modification to work properly with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]). The following describes how to modify HL7 V2.XML schemas to enable you to use them with BizTalk Editor.  
+HL7 2.XML schemas require modification to work properly with Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]). The following describes how to modify HL7 V2.XML schemas to enable you to use them with BizTalk Editor.  
   
 > [!IMPORTANT]
 >  The Update2XMLSchema tool performs these steps automatically. See [Update2XMLSchema Tool](../../adapters-and-accelerators/accelerator-hl7/update2xmlschema-tool.md) for more information.  
@@ -57,7 +57,7 @@ HL7 2.XML schemas require modification to work properly with [!INCLUDE[btsCoName
 3. For all schemas, under the tag xsd:schema, you must add the following line:  
   
    > [!NOTE]
-   >  Do not add this line if you have added the schema using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] because [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] does this for you automatically.  
+   >  Do not add this line if you have added the schema using Microsoft[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] because [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] does this for you automatically.  
   
    ```  
    xmlns:b="http://schemas.microsoft.com/BizTalk/2003"  

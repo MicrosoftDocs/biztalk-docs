@@ -28,7 +28,7 @@ This topic provides sample .aspx code that you can use to submit service content
 -   Generating the input attachment files array and remarks  
   
 ## Example  
- This code accepts input from a front-end application, such as a browser, [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]®, or [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Word, and generates the XML document that the initiator private process can consume.  
+ This code accepts input from a front-end application, such as a browser, [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]®, or Microsoft® Word, and generates the XML document that the initiator private process can consume.  
   
  The LOBWebApplication utility includes the following code. For more information, see [LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md).  
   

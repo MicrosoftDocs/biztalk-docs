@@ -24,7 +24,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # RNIF Message Processing
-The RosettaNet organization defines message exchange in the RosettaNet Implementation Framework (RNIF) specifications. RNIF defines how integration systems will transport messages. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] fully implements the RNIF specifications, adding that functionality to what [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] natively provides out-of-the-box.  
+The RosettaNet organization defines message exchange in the RosettaNet Implementation Framework (RNIF) specifications. RNIF defines how integration systems will transport messages. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] fully implements the RNIF specifications, adding that functionality to what Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] natively provides out-of-the-box.  
   
 RNIF communications are complex. The public processes that perform RNIF processing include a variety of validation checks and complex workflow logic. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] provides this functionality natively. This lets you use a RosettaNet-compliant system without developing or maintaining RNIF logic from scratch.  
   

@@ -21,7 +21,7 @@ Install [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-cur
 
 \<!--- Previous text
 - [Installation Guide for BizTalk Accelerator for SWIFT](http://go.microsoft.com/fwlink/?LinkId=198120)    
-- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] Readme, located in the \Program Files\Microsoft BizTalk Accelerator for SWIFT \Documentation folder.  
+- Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] Readme, located in the \Program Files\Microsoft BizTalk Accelerator for SWIFT \Documentation folder.  
   -->
 
 ## Hardware and software requirements
