@@ -383,34 +383,34 @@ union LUA_SPECIFIC {
  LUA_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_SESSION_FAILURE  
- Primary return code; a required Host Integration Server component has terminated.  
+  LUA_SESSION_FAILURE  
+  Primary return code; a required Host Integration Server component has terminated.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; indicates that the LUA session has failed because of a problem with the link service or with the host LU.  
+  Secondary return code; indicates that the LUA session has failed because of a problem with the link service or with the host LU.  
   
- LUA_RUI_LOGIC_ERROR  
+  LUA_RUI_LOGIC_ERROR  
   
- Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
+  Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
- LUA_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  LUA_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- LUA_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  LUA_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
 ## Remarks  
  **RUI_BID** is used by applications that require notification that a message is waiting to be read. This allows the application to determine how it will handle the message before issuing [RUI_READ](../core/rui-read2.md).  
@@ -421,17 +421,17 @@ union LUA_SPECIFIC {
   
  Note the following when using **RUI_BID**:  
   
--   [RUI_INIT](../core/rui-init1.md) must complete successfully before this verb is issued.  
+- [RUI_INIT](../core/rui-init1.md) must complete successfully before this verb is issued.  
   
--   Only one **RUI_BID** can be outstanding at any one time.  
+- Only one **RUI_BID** can be outstanding at any one time.  
   
--   After **RUI_BID** has completed successfully, it can be reissued by setting **lua_flag1.bid_enable** on a subsequent [RUI_READ](../core/rui-read2.md). If the verb is reissued in this way, the application must not free or modify the storage associated with the **RUI_BID** record.  
+- After **RUI_BID** has completed successfully, it can be reissued by setting **lua_flag1.bid_enable** on a subsequent [RUI_READ](../core/rui-read2.md). If the verb is reissued in this way, the application must not free or modify the storage associated with the **RUI_BID** record.  
   
--   If a message arrives from the host when **RUI_READ** and **RUI_BID** are both outstanding, **RUI_READ** completes and **RUI_BID** is left in progress.  
+- If a message arrives from the host when **RUI_READ** and **RUI_BID** are both outstanding, **RUI_READ** completes and **RUI_BID** is left in progress.  
   
- Each message that arrives is bid only once. After **RUI_BID** indicates that data is waiting on a particular session flow, the application issues **RUI_READ** to receive the data. Any subsequent **RUI_BID** does not report data arriving on that session flow until the message that was bid has been accepted by issuing **RUI_READ**.  
+  Each message that arrives is bid only once. After **RUI_BID** indicates that data is waiting on a particular session flow, the application issues **RUI_READ** to receive the data. Any subsequent **RUI_BID** does not report data arriving on that session flow until the message that was bid has been accepted by issuing **RUI_READ**.  
   
- In general, the **lua_data_length** parameter returned on this verb indicates only the length of data in **lua_peek_data**, not the total length of data on the waiting message (except when a value of less than 12 is returned). The application should ensure that the data length on **RUI_READ** that accepts the data is sufficient to contain the message.  
+  In general, the **lua_data_length** parameter returned on this verb indicates only the length of data in **lua_peek_data**, not the total length of data on the waiting message (except when a value of less than 12 is returned). The application should ensure that the data length on **RUI_READ** that accepts the data is sufficient to contain the message.  
   
 ## See Also  
  [RUI_INIT](../core/rui-init1.md)   

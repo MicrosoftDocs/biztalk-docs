@@ -27,24 +27,24 @@ The configuration information for all SNALinks on a computer is stored hierarchi
   
  Examples of possible parameters that may be required by an SNALink are as follows:  
   
--   PortNumber = 3  
+- PortNumber = 3  
   
--   LineType = SWITCHED  
+- LineType = SWITCHED  
   
--   L3PacketSize = 128  
+- L3PacketSize = 128  
   
--   T1Timeout = 30  
+- T1Timeout = 30  
   
- Note that to support more than one port on a multiport adapter, you must define multiple SNALinks. It is not possible to configure a single SNALink to support more than one physical link.  
+  Note that to support more than one port on a multiport adapter, you must define multiple SNALinks. It is not possible to configure a single SNALink to support more than one physical link.  
   
- The following figure shows a sample configuration for a computer with two SNALinks—SDLC1 and X25HOST.  
+  The following figure shows a sample configuration for a computer with two SNALinks—SDLC1 and X25HOST.  
   
- ![](../core/media/dev3a.gif "dev3a")  
-Sample configuration for a computer with two SNALinks  
+  ![](../core/media/dev3a.gif "dev3a")  
+  Sample configuration for a computer with two SNALinks  
   
- The configuration information is accessed using API calls that Host Integration Server provides.  
+  The configuration information is accessed using API calls that Host Integration Server provides.  
   
- The IHV Setup utility must write the configuration information for each SNALink supported. See [Setup Information (SNADIS)](../core/setup-information-snadis-1.md) for information about how this should be performed.  
+  The IHV Setup utility must write the configuration information for each SNALink supported. See [Setup Information (SNADIS)](../core/setup-information-snadis-1.md) for information about how this should be performed.  
   
 ## In This Section  
  [Accessing Configuration Information](../core/accessing-configuration-information2.md)

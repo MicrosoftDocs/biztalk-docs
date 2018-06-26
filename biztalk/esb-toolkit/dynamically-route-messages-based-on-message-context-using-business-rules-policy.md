@@ -31,50 +31,50 @@ manager: "anneta"
 ## Steps  
  **To create a BRE policy to route a message using message context properties**  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **Business Rule Composer**.  
+1. Click **Start** on the taskbar, point to **All Programs**, point to **BizTalk Server**, and then click **Business Rule Composer**.  
   
-2.  In Policy Explorer, right-click **Policies**, and then click **Add New Policy**. Name the policy **RouteBasedOnMessageType**.  
+2. In Policy Explorer, right-click **Policies**, and then click **Add New Policy**. Name the policy **RouteBasedOnMessageType**.  
   
- **To add a routing rule for North American orders**  
+   **To add a routing rule for North American orders**  
   
-1.  In the **RouteBasedOnMessageType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**. Name the rule **SetNAOrderEndpoint**.  
+3. In the **RouteBasedOnMessageType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**. Name the rule **SetNAOrderEndpoint**.  
   
-2.  In the Rule window, right-click **Conditions**, point to **Predicates**, and then click **Equal**.  
+4. In the Rule window, right-click **Conditions**, point to **Predicates**, and then click **Equal**.  
   
-3.  In Facts Explorer, expand the **ESB.ContextInfo** vocabulary, expand **Version 1.0**, and then drag the **Context Message Type** fact to the **argument1** node under **Conditions**.  
+5. In Facts Explorer, expand the **ESB.ContextInfo** vocabulary, expand **Version 1.0**, and then drag the **Context Message Type** fact to the **argument1** node under **Conditions**.  
   
-    > [!NOTE]
-    >  The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several vocabularies that can be used for creating rules. Some of these should be replaced or augmented with your own vocabularies. For example, the **DynamicRunTimeMaptypes** policy has definitions for the maps provided in the **GlobalBank** samples.  
+   > [!NOTE]
+   >  The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several vocabularies that can be used for creating rules. Some of these should be replaced or augmented with your own vocabularies. For example, the **DynamicRunTimeMaptypes** policy has definitions for the maps provided in the **GlobalBank** samples.  
   
-4.  Click the **argument2** node, and then type **http://globalbank.esb.dynamicresolution.com/northamericanservices/#OrderDoc**  
+6. Click the **argument2** node, and then type **http://globalbank.esb.dynamicresolution.com/northamericanservices/#OrderDoc**  
   
-5.  In Facts Explorer, expand the **ESB.EndPointInfo** vocabulary, expand **Version 1.0**, and then drag the **Set End Point Outbound Transport Location** definition to **Actions**.  
+7. In Facts Explorer, expand the **ESB.EndPointInfo** vocabulary, expand **Version 1.0**, and then drag the **Set End Point Outbound Transport Location** definition to **Actions**.  
   
-6.  Click **\<empty string\>**, and then type **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
+8. Click **\<empty string\>**, and then type **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
   
-7.  From Facts Explorer, drag the **Set End Point Outbound Transport Type** definition to **Actions**.  
+9. From Facts Explorer, drag the **Set End Point Outbound Transport Type** definition to **Actions**.  
   
-8.  In Facts Explorer, expand the **ESB.TansportTypes** vocabulary, expand **Version 1.0**, and then drag the **Adaptor Providers** definition to **\<empty string\>**.  
+10. In Facts Explorer, expand the **ESB.TansportTypes** vocabulary, expand **Version 1.0**, and then drag the **Adaptor Providers** definition to **\<empty string\>**.  
   
-9. In the Actions pane, expand the **Adaptor Providers** drop-down list, and then click **FILE**.  
+11. In the Actions pane, expand the **Adaptor Providers** drop-down list, and then click **FILE**.  
   
- **To publish and deploy the policy**  
+    **To publish and deploy the policy**  
   
-1.  In Policy Explorer, under the **RouteBasedOnMessageType** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.  
+12. In Policy Explorer, under the **RouteBasedOnMessageType** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.  
   
-2.  In Policy Explorer, under the **RouteBasedOnMessageType** policy, right click **Version 1.0 - Published**, and then click **Deploy**.  
+13. In Policy Explorer, under the **RouteBasedOnMessageType** policy, right click **Version 1.0 - Published**, and then click **Deploy**.  
   
- **To create an ESB itinerary domain-specific language (DSL) model**  
+    **To create an ESB itinerary domain-specific language (DSL) model**  
   
-1.  In Visual Studio, open C:\HowTos\Patterns\Patterns.sln.  
+14. In Visual Studio, open C:\HowTos\Patterns\Patterns.sln.  
   
-2.  In Solution Explorer, right-click the **ItineraryLibrary** project, point to **Add**, and then click **New Itinerary**.  
+15. In Solution Explorer, right-click the **ItineraryLibrary** project, point to **Add**, and then click **New Itinerary**.  
   
-3.  In the **Name** box, type **MessageType**, and then click **Add**.  
+16. In the **Name** box, type **MessageType**, and then click **Add**.  
   
- **To configure the properties of the itinerary**  
+    **To configure the properties of the itinerary**  
   
-1.  In Visual Studio, click the design surface of **MessageType.itinerary**. In the **MessageType** Properties window, configure the following properties:  
+17. In Visual Studio, click the design surface of **MessageType.itinerary**. In the **MessageType** Properties window, configure the following properties:  
   
     1.  In the **Model Exporter** drop-down list, click **XML Itinerary Exporter**.  
   
@@ -85,9 +85,9 @@ manager: "anneta"
         > [!NOTE]
         >  This step enables you to export the itinerary as XML to a local file location. Exporting an itinerary to a local file location, instead of to the itinerary database, enables testing of the itinerary using the ESB Test Client application. You will complete this process later in this How-to topic.  
   
- **To define the structure of the itinerary**  
+    **To define the structure of the itinerary**  
   
-1.  From the Toolbox, drag an **On-Ramp** model element to the design surface. In the **OnRamp1** Properties window, configure the following properties:  
+18. From the Toolbox, drag an **On-Ramp** model element to the design surface. In the **OnRamp1** Properties window, configure the following properties:  
   
     1.  Click the **Name** property, and then type **ReceiveOrders**.  
   
@@ -97,7 +97,7 @@ manager: "anneta"
   
     4.  In the **Receive Port** drop-down list, click **OnRamp.Itinerary**.  
   
-2.  From the Toolbox, drag an **Itinerary Service** model element to the design surface, and then place it to the right of the **On-Ramp** model element. In the **ItineraryService1** Properties window, configure the following properties:  
+19. From the Toolbox, drag an **Itinerary Service** model element to the design surface, and then place it to the right of the **On-Ramp** model element. In the **ItineraryService1** Properties window, configure the following properties:  
   
     1.  Click the **Name** property, and then type **BreRoute**.  
   
@@ -110,7 +110,7 @@ manager: "anneta"
   
     4.  In the **Service Name** drop-down list, click **Microsoft.Practices.ESB.Services.Routing**.  
   
-3.  Right-click the **Resolver** collection of the **BreRoute** model element, and then click **Add new Resolver**. In the **Resolver1** Properties window, configure the following properties:  
+20. Right-click the **Resolver** collection of the **BreRoute** model element, and then click **Add new Resolver**. In the **Resolver1** Properties window, configure the following properties:  
   
     1.  Click the **Name** property, and then type **ByMessageType**.  
   
@@ -118,9 +118,9 @@ manager: "anneta"
   
     3.  In the **Policy** drop-down list, click **RouteBasedOnMessageType v 1.0**.  
   
-4.  In the Toolbox, click **Connector**. Drag a connection from the **ReceiveOrders** model element to the **BreRoute** model element.  
+21. In the Toolbox, click **Connector**. Drag a connection from the **ReceiveOrders** model element to the **BreRoute** model element.  
   
-5.  From the Toolbox, drag an **Off-Ramp** model element to the design surface, and then place it to the right of the **BreRoute** model element. In the **OffRamp1** Properties window, configure the following properties:  
+22. From the Toolbox, drag an **Off-Ramp** model element to the design surface, and then place it to the right of the **BreRoute** model element. In the **OffRamp1** Properties window, configure the following properties:  
   
     1.  Click the **Name** property, and then type **SendBasedOnType**.  
   
@@ -130,7 +130,7 @@ manager: "anneta"
   
     4.  In the **Send Port** drop-down list, click **DynamicResolutionOneWay**.  
   
-6.  From the Toolbox, drag an **Itinerary Service** model element to the design surface, and then place it between the **BreRoute** model element and the **SendBasedOnType** model element. In the **ItineraryService1** Properties window, configure the following properties:  
+23. From the Toolbox, drag an **Itinerary Service** model element to the design surface, and then place it between the **BreRoute** model element and the **SendBasedOnType** model element. In the **ItineraryService1** Properties window, configure the following properties:  
   
     1.  Click the **Name** property, and then type **SendPortFilter**.  
   
@@ -138,38 +138,38 @@ manager: "anneta"
   
     3.  In the **Off-Ramp** drop-down list, expand **SendBasedOnType**, and then click **Send Handlers**.  
   
-7.  In the Toolbox, click **Connector**. Drag a connection from the **BreRoute** model element to the **SendPortFilter** model element.  
+24. In the Toolbox, click **Connector**. Drag a connection from the **BreRoute** model element to the **SendPortFilter** model element.  
   
-8.  In the Toolbox, click **Connector**. Drag a connection from the **SendPortFilter** model element to the **SendBasedOnType** model element.  
+25. In the Toolbox, click **Connector**. Drag a connection from the **SendPortFilter** model element to the **SendBasedOnType** model element.  
   
- **To export the model for use with the Itinerary Test Client**  
+    **To export the model for use with the Itinerary Test Client**  
   
-1.  In Visual Studio, right-click the design surface of the **MessageType** itinerary, and then click **Export Model**.  
+26. In Visual Studio, right-click the design surface of the **MessageType** itinerary, and then click **Export Model**.  
   
     > [!NOTE]
     >  The XML version of the itinerary opens in Visual Studio.  
   
-2.  Save all project artifacts.  
+27. Save all project artifacts.  
   
-3.  In Windows Explorer, browse to C:\HowTos\Itineraries and notice the creation of your itinerary XML (MessageType.xml).  
+28. In Windows Explorer, browse to C:\HowTos\Itineraries and notice the creation of your itinerary XML (MessageType.xml).  
   
- **To test the itinerary**  
+    **To test the itinerary**  
   
-1.  Open the Itinerary Test Client sample application using the shortcut created during the [Prerequisites for the Development Activities](../esb-toolkit/prerequisites-for-the-development-activities.md) (C:\HowTos\ESB.Itinerary.Test.exe - Shortcut).  
+29. Open the Itinerary Test Client sample application using the shortcut created during the [Prerequisites for the Development Activities](../esb-toolkit/prerequisites-for-the-development-activities.md) (C:\HowTos\ESB.Itinerary.Test.exe - Shortcut).  
   
-2.  In the Itinerary Test Client, clear the **Use WCF Service** check box, and then click **Load Itinerary**.  
+30. In the Itinerary Test Client, clear the **Use WCF Service** check box, and then click **Load Itinerary**.  
   
-3.  In the **Open Itinerary File** dialog box, browse to C:\HowTos\Itineraries. Select **MessageType.xml**, and then click **Open** to load the itinerary.  
+31. In the **Open Itinerary File** dialog box, browse to C:\HowTos\Itineraries. Select **MessageType.xml**, and then click **Open** to load the itinerary.  
   
-4.  Click **OK** to clear the **Itinerary Loaded Successfully** message.  
+32. Click **OK** to clear the **Itinerary Loaded Successfully** message.  
   
-5.  In the Itinerary Test Client, click the ellipsis button (...) next to the **Load Message** box.  
+33. In the Itinerary Test Client, click the ellipsis button (...) next to the **Load Message** box.  
   
-6.  In the **Select XML Document to load** dialog box, browse to C:\HowTos. Select **NAOrderDoc.xml**, and then click **Open** to load the test message.  
+34. In the **Select XML Document to load** dialog box, browse to C:\HowTos. Select **NAOrderDoc.xml**, and then click **Open** to load the test message.  
   
-7.  Click the **Submit Request** button. When the test completes, click **OK** to dismiss the confirmation that appears.  
+35. Click the **Submit Request** button. When the test completes, click **OK** to dismiss the confirmation that appears.  
   
-8.  In Windows Explorer, browse to C:\HowTos\Out\\. Verify that the NorthAmerica%MessageID%.xml message has been written to the directory.  
+36. In Windows Explorer, browse to C:\HowTos\Out\\. Verify that the NorthAmerica%MessageID%.xml message has been written to the directory.  
   
 ## Additional Resources  
  For more information, see the following related topics:  

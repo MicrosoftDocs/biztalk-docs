@@ -19,16 +19,16 @@ When you compile a map, BizTalk Mapper creates additional links, known as compil
   
 ### To show or hide compiler links  
   
-1.  In Solution Explorer, right-click the map whose complier links you want to view, and then click **Test Map**.  
+1. In Solution Explorer, right-click the map whose complier links you want to view, and then click **Test Map**.  
   
-2.  In the Visual Studio Error List window, scroll to the end and double-click the line that says **Double-click here to show/Hide compiler links**.  
+2. In the Visual Studio Error List window, scroll to the end and double-click the line that says **Double-click here to show/Hide compiler links**.  
   
-     To change the display state of compiler links from shown to hidden, or from hidden to shown, just double-click that line again.  
+    To change the display state of compiler links from shown to hidden, or from hidden to shown, just double-click that line again.  
   
-    > [!NOTE]
-    >  When you build/rebuild a BizTalk project or solution containing one or more maps, the message **Double-click here to show/Hide compiler links** is displayed in the **Error List** window of Visual Studio for all the maps in the project or solution.  
+   > [!NOTE]
+   >  When you build/rebuild a BizTalk project or solution containing one or more maps, the message **Double-click here to show/Hide compiler links** is displayed in the **Error List** window of Visual Studio for all the maps in the project or solution.  
   
- To test a map, you must configure the properties for the input and output instances. For more information about how to configure these properties, see [How to Configure Map Validation and Test Parameters](../core/how-to-configure-map-validation-and-test-parameters.md).  
+   To test a map, you must configure the properties for the input and output instances. For more information about how to configure these properties, see [How to Configure Map Validation and Test Parameters](../core/how-to-configure-map-validation-and-test-parameters.md).  
   
 ## See Also  
  [Using Links to Specify Record and Field Mappings](../core/using-links-to-specify-record-and-field-mappings.md)

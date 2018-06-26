@@ -16,25 +16,25 @@ manager: "anneta"
 # Creating a Custom Itinerary Messaging Service
 The itinerary framework that is part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports execution of itinerary steps using classes implementing the **IMessagingService** interface that execute itinerary messaging services. You can implement a custom messaging service when you want the service to be responsible for the following:  
   
--   Custom message validation configured in the itinerary  
+- Custom message validation configured in the itinerary  
   
--   Custom message transformation configured in the itinerary  
+- Custom message transformation configured in the itinerary  
   
--   Custom processing of the message  
+- Custom processing of the message  
   
- In all these cases, a custom itinerary service that you implement acts as an interceptor and is called by the Dispatcher pipeline component.  
+  In all these cases, a custom itinerary service that you implement acts as an interceptor and is called by the Dispatcher pipeline component.  
   
- Custom messaging-based itinerary services, or messaging services, all implement the **IMessagingService** interface. This interface exposes the **Name** and **SupportsDisassemble** properties and the **Execute** and **ShouldAdvanceStep** methods.  
+  Custom messaging-based itinerary services, or messaging services, all implement the **IMessagingService** interface. This interface exposes the **Name** and **SupportsDisassemble** properties and the **Execute** and **ShouldAdvanceStep** methods.  
   
- The **Name** property is the name of the service as it will appear in an itinerary. It must match the configured name in the itinerary services configuration in the Esb.config file.  
+  The **Name** property is the name of the service as it will appear in an itinerary. It must match the configured name in the itinerary services configuration in the Esb.config file.  
   
- The **SupportsDisassemble** property indicates whether the custom messaging service you are creating supports disassemble and the execution of multiple resolvers.  
+  The **SupportsDisassemble** property indicates whether the custom messaging service you are creating supports disassemble and the execution of multiple resolvers.  
   
- The **ShouldAdvanceStep** method takes in the current itinerary step, and the current message, and returns a Boolean value that indicates whether the dispatcher should advance the itinerary after the service executes. In almost all cases, this method should return **true**.  
+  The **ShouldAdvanceStep** method takes in the current itinerary step, and the current message, and returns a Boolean value that indicates whether the dispatcher should advance the itinerary after the service executes. In almost all cases, this method should return **true**.  
   
- The **Execute** method is of greatest importance for a messaging service and contains the logic that will be executed at run time. It takes in the pipeline context, the message, the resolver string, and the current itinerary step; and it returns the updated message.  
+  The **Execute** method is of greatest importance for a messaging service and contains the logic that will be executed at run time. It takes in the pipeline context, the message, the resolver string, and the current itinerary step; and it returns the updated message.  
   
- A reference implementation of the **Execute** method can be found in the RoutingService.cs file of the ESB.Itinerary.Services project, as shown in the following code.  
+  A reference implementation of the **Execute** method can be found in the RoutingService.cs file of the ESB.Itinerary.Services project, as shown in the following code.  
   
 ```csharp  
 public IBaseMessage ExecuteRoute(IPipelineContext context, IBaseMessage msg, string resolverString)  

@@ -30,11 +30,11 @@ The WCF send adapter enables you to call a WCF service through the typeless cont
 ## Specifying the WCF Message Body  
  The message body that needs to be sent from BizTalk Server can be inserted into the SOAP message by using one of the following options:  
   
--   Extract the content of the BizTalk message body  
+- Extract the content of the BizTalk message body  
   
--   Specify the content by using the template  
+- Specify the content by using the template  
   
- You can configure these options in the send port transport properties dialog box.  
+  You can configure these options in the send port transport properties dialog box.  
   
 #### Extract the Content of the BizTalk Message Body  
  When this option is selected, the content of the BizTalk message body is inserted into the SOAP Body element for the outbound WCF message body.  

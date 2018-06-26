@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10764
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10764|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPING_DISABLED|  
-|Message Text|The mapping is disabled.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10764                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                 ENTSSO_E_MAPPING_DISABLED                  |
+|  Message Text   |                  The mapping is disabled.                  |
   
 ## Explanation  
  The mapping is disabled.  

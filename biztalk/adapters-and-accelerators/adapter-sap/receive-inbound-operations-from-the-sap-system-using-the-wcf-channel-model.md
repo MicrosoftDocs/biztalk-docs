@@ -44,11 +44,11 @@ To act as an RFC server and receive operations invoked by the SAP system (such a
   
  If the SAP system invokes an operation that is not in the inbound action collection:  
   
--   The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] returns an EXCEPTION exception to the caller on the SAP system with the following message: "The incoming RFC call [RFC_NAME] on the Rfc Server is not handled". In this message, [RFC_NAME] is the name of the RFC (for example, IDOC_INBOUND_ASYNCHRONOUS).  
+- The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] returns an EXCEPTION exception to the caller on the SAP system with the following message: "The incoming RFC call [RFC_NAME] on the Rfc Server is not handled". In this message, [RFC_NAME] is the name of the RFC (for example, IDOC_INBOUND_ASYNCHRONOUS).  
   
--   The adapter throws a **Microsoft.ServiceModel.Channels.Common.AdapterException** with a message that indicates the operation that was received. For an example of how to use this exception, see the example at the end of this topic.  
+- The adapter throws a **Microsoft.ServiceModel.Channels.Common.AdapterException** with a message that indicates the operation that was received. For an example of how to use this exception, see the example at the end of this topic.  
   
- The following code example shows how to use an **InboundActionCollection** to create a channel listener that filters for a single RFC, Z_RFC_MKD_DIV.  
+  The following code example shows how to use an **InboundActionCollection** to create a channel listener that filters for a single RFC, Z_RFC_MKD_DIV.  
   
 ```  
 // The connection Uri must specify listener parameters (or an R-type destination in saprfc.ini)  
@@ -79,15 +79,15 @@ listener = binding.BuildChannelListener<IReplyChannel>(listeneraddress, bpcol);
   
  There may also be scenarios in which you want to filter an operation based on its content. For example if you are receiving IDOCs in:  
   
--   String format (the **ReceiveIDocFormat** binding property is **String**); all IDOCs are received using the ReceiveIdoc operation.  
+- String format (the **ReceiveIDocFormat** binding property is **String**); all IDOCs are received using the ReceiveIdoc operation.  
   
--   Rfc format (the **ReceiveIDocFormat** binding property is **Rfc**); all IDOCs are received using either the IDOC_INBOUND_ASYNCHRONOUS RFC or the INBOUND_IDOC_PROCESS RFC.  
+- Rfc format (the **ReceiveIDocFormat** binding property is **Rfc**); all IDOCs are received using either the IDOC_INBOUND_ASYNCHRONOUS RFC or the INBOUND_IDOC_PROCESS RFC.  
   
- In this scenario you may want to implement filtering based on specific IDOC parameters (such as the IDOC type) in your code.  
+  In this scenario you may want to implement filtering based on specific IDOC parameters (such as the IDOC type) in your code.  
   
- When you filter operations manually, you can return a fault to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] for operations that you don't handle. This will raise the EXCEPTION exception to the caller on the SAP System. You can also return an empty response if you don't want to raise an exception on SAP.  
+  When you filter operations manually, you can return a fault to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] for operations that you don't handle. This will raise the EXCEPTION exception to the caller on the SAP System. You can also return an empty response if you don't want to raise an exception on SAP.  
   
- The following code shows how to filter manually for the Z_RFC_MKD_DIV operation.  
+  The following code shows how to filter manually for the Z_RFC_MKD_DIV operation.  
   
 ```  
 // Get the message from the channel  

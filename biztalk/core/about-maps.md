@@ -24,13 +24,13 @@ manager: "anneta"
 # About Maps
 Using BizTalk Mapper, you define the relationship between an input and an output schema by using links and functoids. A link defines a direct data copy of a record or field. Links may directly connect to items in the other schema, or they may form connections to functoids. Functoids perform more complex data manipulations, such as:  
   
--   Adding the value of two fields in the source schema and copying the result to the destination schema.  
+- Adding the value of two fields in the source schema and copying the result to the destination schema.  
   
--   Converting a character to its ASCII format.  
+- Converting a character to its ASCII format.  
   
--   Returning the average of a field in a repeating record and copying the result to a field in the destination schema.  
+- Returning the average of a field in a repeating record and copying the result to a field in the destination schema.  
   
- BizTalk Mapper stores maps in a file with a .btm extension. The file saves design information about the map—the locations of icons representing functoids, the links between schema items and functoids, and other information about the map. When you build or compile the map, BizTalk Mapper converts the information about the map into the corresponding Extensible Language Stylesheet Transformations (XSLT) stylesheet.  
+  BizTalk Mapper stores maps in a file with a .btm extension. The file saves design information about the map—the locations of icons representing functoids, the links between schema items and functoids, and other information about the map. When you build or compile the map, BizTalk Mapper converts the information about the map into the corresponding Extensible Language Stylesheet Transformations (XSLT) stylesheet.  
   
 > [!NOTE]
 >  The [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] compiler has a 16-megabyte limitation on the total size of all strings in a single project. While compiling BizTalk projects, the compiler serializes schemas, maps, and orchestrations for creating the assemblies, and this increases the total size of all strings, which may exceed the limitation. To resolve this issue, you can reorganize your project by putting schemas and/or maps into different Biztalk projects (Typically, under the same solution), such that  the total size of all strings in each project is less than 16 MB.  

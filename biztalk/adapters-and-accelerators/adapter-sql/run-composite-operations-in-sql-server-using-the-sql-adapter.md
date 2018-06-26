@@ -17,17 +17,17 @@ manager: "anneta"
 # Run composite operations in SQL Server  using the SQL adapter
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] enables adapter clients to perform composite operations on the SQL Server database. A composite operation can include any number of the following operations, and in any order:  
   
--   The Insert, Update, and Delete operations on the tables and views.  
+- The Insert, Update, and Delete operations on the tables and views.  
   
--   Stored procedures that are surfaced as operations in the adapter.  
+- Stored procedures that are surfaced as operations in the adapter.  
   
- The operations in a composite operation *must* target tables and views only in a single database.  
+  The operations in a composite operation *must* target tables and views only in a single database.  
   
- For information about:  
+  For information about:  
   
--   How to perform composite operations in [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Run Composite Operations on SQL Server Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/run-composite-operations-on-sql-server-using-biztalk-server.md).  
+- How to perform composite operations in [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Run Composite Operations on SQL Server Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/run-composite-operations-on-sql-server-using-biztalk-server.md).  
   
--   Message schemas for the composite operation, see [Message Schemas for Composite Operations](../../adapters-and-accelerators/adapter-sql/message-schemas-for-composite-operations.md).  
+- Message schemas for the composite operation, see [Message Schemas for Composite Operations](../../adapters-and-accelerators/adapter-sql/message-schemas-for-composite-operations.md).  
   
 > [!IMPORTANT]
 >  If there are “n” number of operations in a composite operation that return a result set then “n+1” number of connections are required for the composite operation to be executed. Therefore, you must ensure that the value specified for the **MaxConnectionPoolSize** binding property is n+1 or greater. For more information about the **MaxConnectionPoolSize** binding property, see [Read about BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  

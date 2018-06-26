@@ -60,18 +60,18 @@ CertWizard /Rootkey <filename>.cer [/Thumbprint <thumbprint>]
 ## Prerequisites  
  The following are prerequisites for performing the procedures in this topic:  
   
--   You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
+- You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
 ### To run the certificate wizard  
   
-1.  Open a command prompt.  
+1. Open a command prompt.  
   
-2.  Move to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Utilities.  
+2. Move to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Utilities.  
   
-3.  At the command prompt, type **CertWizard**, type the required and appropriate switches, and then press **Enter**.  
+3. At the command prompt, type **CertWizard**, type the required and appropriate switches, and then press **Enter**.  
   
-    > [!NOTE]
-    >  If you do not give the full command at the command prompt, CertWizard will prompt you to provide the required values.  
+   > [!NOTE]
+   >  If you do not give the full command at the command prompt, CertWizard will prompt you to provide the required values.  
   
 ## See Also  
  [Utilities in the SDK](../core/utilities-in-the-sdk.md)

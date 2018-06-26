@@ -62,7 +62,7 @@ typedef struct lu62_overlay {
  Size of this LU entry.  
   
  lu62_overlay_len  
- This value contains **sizeof(**struct **lu62_overlay)**–**sizeof(lu62_entry_len)**.  
+ This value contains <strong>sizeof(</strong>struct **lu62_overlay)**–**sizeof(lu62_entry_len)**.  
   
  lu_name  
  LU name (EBCDIC type A).  
@@ -130,7 +130,7 @@ typedef struct plu62_overlay {
  Size of this partner LU entry.  
   
  plu62_overlay_len  
- This value contains **sizeof(**struct **plu62_overlay)**–**sizeof(plu62_entry_len)**.  
+ This value contains <strong>sizeof(</strong>struct **plu62_overlay)**–**sizeof(plu62_entry_len)**.  
   
  plu_alias  
  Partner LU alias (ASCII).  

@@ -44,14 +44,14 @@ Read about what's new in [!INCLUDE[bts2016](../includes/bts2016-md.md)].
   
 ## Deprecated & Removed List  
   
-|Program|Status|Replacement|  
-|-------------|------------|-----------------|  
-|RFID Mobile|Removed|None|  
-|RFID Server|Removed|None|  
-|SharePoint SSOM/Web Service adapter|Removed|Use the CSOM (Client Side Object Model) option.<br /><br /> [Windows SharePoint Services Adapter](../core/windows-sharepoint-services-adapter.md)<br /><br /> [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)|  
-|SOAP adapter|Deprecated|[WCF-BasicHttp Adapter](../core/wcf-basichttp-adapter.md)|  
-|Old SQL adapter|Deprecated|WCF-based SQL adapter in the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]|  
-|UDDI|Removed|None|  
+|               Program               |   Status   |                                                                                                                                                Replacement                                                                                                                                                |
+|-------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|             RFID Mobile             |  Removed   |                                                                                                                                                   None                                                                                                                                                    |
+|             RFID Server             |  Removed   |                                                                                                                                                   None                                                                                                                                                    |
+| SharePoint SSOM/Web Service adapter |  Removed   | Use the CSOM (Client Side Object Model) option.<br /><br /> [Windows SharePoint Services Adapter](../core/windows-sharepoint-services-adapter.md)<br /><br /> [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) |
+|            SOAP adapter             | Deprecated |                                                                                                                         [WCF-BasicHttp Adapter](../core/wcf-basichttp-adapter.md)                                                                                                                         |
+|           Old SQL adapter           | Deprecated |                                                                                                   WCF-based SQL adapter in the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]                                                                                                   |
+|                UDDI                 |  Removed   |                                                                                                                                                   None                                                                                                                                                    |
   
 > [!IMPORTANT]
 >  Some of these deprecated features may be found in newer versions of BizTalk. In these scenarios, consider the following:  

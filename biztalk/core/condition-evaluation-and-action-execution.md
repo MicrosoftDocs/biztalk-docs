@@ -29,43 +29,43 @@ The Business Rules Framework provides a highly efficient inference engine capabl
   
  The Business Rule Engine uses a three-stage algorithm for policy execution. The stages are as follows:  
   
--   **Match**. In the match stage, facts are matched against the predicates that use the fact type (object references maintained in the rule engine's working memory) using the predicates defined in the rule conditions. For the sake of efficiency, pattern matching occurs over all the rules in the policy, and conditions that are shared across rules are matched only once. Partial condition matches may be stored in working memory to expedite subsequent pattern-matching operations. The output of the pattern-matching phase consists of updates to the rule engine agenda.  
+- **Match**. In the match stage, facts are matched against the predicates that use the fact type (object references maintained in the rule engine's working memory) using the predicates defined in the rule conditions. For the sake of efficiency, pattern matching occurs over all the rules in the policy, and conditions that are shared across rules are matched only once. Partial condition matches may be stored in working memory to expedite subsequent pattern-matching operations. The output of the pattern-matching phase consists of updates to the rule engine agenda.  
   
--   **Conflict resolution**. In the conflict resolution stage, the rules that are candidates for execution are examined to determine the next set of rule actions to execute based on a predetermined resolution scheme. All candidate rules found during the matching stage are added to the rule engine's agenda.  
+- **Conflict resolution**. In the conflict resolution stage, the rules that are candidates for execution are examined to determine the next set of rule actions to execute based on a predetermined resolution scheme. All candidate rules found during the matching stage are added to the rule engine's agenda.  
   
-     The default conflict resolution scheme is based on rule priorities within a policy. The priority is a configurable property of a rule in the Business Rule Composer. The larger the number, the higher the priority; therefore if multiple rules are triggered, the higher-priority actions are executed first.  
+   The default conflict resolution scheme is based on rule priorities within a policy. The priority is a configurable property of a rule in the Business Rule Composer. The larger the number, the higher the priority; therefore if multiple rules are triggered, the higher-priority actions are executed first.  
   
--   **Action**. In the action stage, the actions in the resolved rule are executed. Note that rule actions can assert new facts into the rule engine, which causes the cycle to continue. This is also known as forward chaining. It is important to note that the algorithm never preempts the currently executing rule. All actions for the rule that is currently firing will be executed before the match phase is repeated. However, other rules on the agenda will not be fired before the match phase begins again. The match phase may cause those rules on the agenda to be removed from the agenda before they ever fire.  
+- **Action**. In the action stage, the actions in the resolved rule are executed. Note that rule actions can assert new facts into the rule engine, which causes the cycle to continue. This is also known as forward chaining. It is important to note that the algorithm never preempts the currently executing rule. All actions for the rule that is currently firing will be executed before the match phase is repeated. However, other rules on the agenda will not be fired before the match phase begins again. The match phase may cause those rules on the agenda to be removed from the agenda before they ever fire.  
   
- The following example shows the three-stage algorithm of match-conflict resolution-action.  
+  The following example shows the three-stage algorithm of match-conflict resolution-action.  
   
- **Rule 1: Evaluate income**  
+  **Rule 1: Evaluate income**  
   
--   Declarative representation:  
+- Declarative representation:  
   
-     An applicant's credit rating should be obtained only if the applicant's income-to-loan ratio is less than 0.2.  
+   An applicant's credit rating should be obtained only if the applicant's income-to-loan ratio is less than 0.2.  
   
--   IF—THEN representation using business objects:  
+- IF—THEN representation using business objects:  
   
-    ```  
-    IF Application.Income / Property.Price < 0.2    
-    THEN Assert new CreditRating( Application)   
-    ```  
+  ```  
+  IF Application.Income / Property.Price < 0.2    
+  THEN Assert new CreditRating( Application)   
+  ```  
   
- **Rule 2: Evaluate credit rating**  
+  **Rule 2: Evaluate credit rating**  
   
--   Declarative representation:  
+- Declarative representation:  
   
-     An applicant should be approved only if the applicant's credit rating is more than 725.  
+   An applicant should be approved only if the applicant's credit rating is more than 725.  
   
--   IF—THEN Representation using business objects:  
+- IF—THEN Representation using business objects:  
   
-    ```  
-    IF Application.SSN = CreditRating.SSN AND CreditRating.Value > 725    
-    THEN SendApprovalLetter(Application)    
-    ```  
+  ```  
+  IF Application.SSN = CreditRating.SSN AND CreditRating.Value > 725    
+  THEN SendApprovalLetter(Application)    
+  ```  
   
- The facts are summarized in the following table.  
+  The facts are summarized in the following table.  
   
 |Fact|Fields|  
 |----------|------------|  

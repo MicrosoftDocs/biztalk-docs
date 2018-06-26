@@ -17,7 +17,7 @@ ms.author: "mandia"
 ---
 
 # Known Issues
-This section contains useful information that may help you avoid errors with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
+This section contains useful information that may help you avoid errors with Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
   
 -   0A1 Notification of Failure  
   

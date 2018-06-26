@@ -23,15 +23,15 @@ manager: "anneta"
 # Developing a Disassembling Pipeline Component
 A disassembling pipeline component receives one message on input and produces zero or more messages on output. Disassembling components are used to split interchanges of messages into individual documents. Disassembler components must implement the following interfaces:  
   
--   `IBaseComponent`
+- `IBaseComponent`
   
--   `IDisassemblerComponent`
+- `IDisassemblerComponent`
   
--   `IComponentUI`
+- `IComponentUI`
   
--   **IPersistPropertyBag .** Refer to the .NET Framework SDK documentation for this interface.  
+- **IPersistPropertyBag .** Refer to the .NET Framework SDK documentation for this interface.  
   
- You can create your own disassembling component by extending the **FFDasmComp** or **XMLDasmComp** class.  
+  You can create your own disassembling component by extending the **FFDasmComp** or **XMLDasmComp** class.  
   
 > [!WARNING]
 >  If your custom disassembler will be setting the MessageDestination context property to SuspendQueue, the stream returned by the disassembler must to support Seek(0) for the suspension to work.  

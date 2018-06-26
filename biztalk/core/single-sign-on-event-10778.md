@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10778
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10778|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_DECRYPT_FAILED|  
-|Message Text|Decryption failed.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10778                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                  ENTSSO_E_DECRYPT_FAILED                   |
+|  Message Text   |                     Decryption failed.                     |
   
 ## Explanation  
  This is an internal error.  

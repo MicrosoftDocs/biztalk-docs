@@ -17,15 +17,15 @@ manager: "anneta"
 # Max limit of acceptable X12 transaction set control number has reached for party
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|PartyX12TsNumberError|  
-|Message Text|Max limit of acceptable X12 transaction set control number has reached for party {0}. Reset counter by navigating to Party in receiver role screen, field ST 2 in Partner Agreement manager|  
+|                 |                                                                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                      |
+| Product Version |                                                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                  |
+|    Event ID     |                                                                                              -                                                                                              |
+|  Event Source   |                                                   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                    |
+|    Component    |                                                                                         EDI Engine                                                                                          |
+|  Symbolic Name  |                                                                                    PartyX12TsNumberError                                                                                    |
+|  Message Text   | Max limit of acceptable X12 transaction set control number has reached for party {0}. Reset counter by navigating to Party in receiver role screen, field ST 2 in Partner Agreement manager |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process the outgoing X12 interchange because the transaction set control number in the ST02 field specified in the party settings, specifically the reference number in field ST02.2, was greater than the maximum allowable value. The maximum allowable value for the transaction set control number depends upon the values of the three fields in ST02. The maximum number of characters is 9 for the reference number in field ST02.2, 8 for the prefix in ST02.1 and 8 for the suffix in ST02.3, and 9 for all three fields combined.  

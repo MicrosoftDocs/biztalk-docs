@@ -16,15 +16,15 @@ manager: "anneta"
 # How to Set or View Remote Environment Properties
 Basic information about a remote environment (RE) is displayed on an item's property sheet. Property sheets are available for the following items:  
   
--   The Transaction Integrator (TI) folder  
+- The Transaction Integrator (TI) folder  
   
--   An RE of any type  
+- An RE of any type  
   
--   Any component associated with an RE  
+- Any component associated with an RE  
   
--   Any component present in the Unassigned Components folder  
+- Any component present in the Unassigned Components folder  
   
- In addition, Context-sensitive Help is available for all properties.  
+  In addition, Context-sensitive Help is available for all properties.  
   
 > [!NOTE]
 >  By default, no time-out value is specified when you create REs that use LU 6.2 or TCP/IP protocols. The TI run-time environment waits indefinitely for the mainframe transaction program to return output parameters. While waiting, the TI run-time environment also blocks the calling client application until a response is received. This behavior is typical for APPC applications. To avoid indefinite blocking, you can set a time-out value (in seconds) for REs using LU 6.2 or TCP/IP protocols. You set the value on the LU 6.2 or TCP/IP tab of the RE's properties page.  

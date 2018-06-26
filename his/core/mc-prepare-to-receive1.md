@@ -73,144 +73,144 @@ struct mc_prepare_to_receive {
   
  Use this parameter only if **ptr_type** is set to AP_SYNC_LEVEL and the synchronization level of the conversation, established by **MC_ALLOCATE**, is AP_CONFIRM_SYNC_LEVEL. (Otherwise, the parameter is ignored.)  
   
--   AP_LONG indicates that APPC returns control to the local TP when the confirmation and subsequent data from the partner TP arrive at the local LU. (This method results in more efficient use of the network but requires a longer time to return control to the local TP.)  
+- AP_LONG indicates that APPC returns control to the local TP when the confirmation and subsequent data from the partner TP arrive at the local LU. (This method results in more efficient use of the network but requires a longer time to return control to the local TP.)  
   
--   AP_SHORT indicates that APPC returns control to the local TP when the confirmation from the partner TP arrives at the local LU.  
+- AP_SHORT indicates that APPC returns control to the local TP when the confirmation from the partner TP arrives at the local LU.  
   
- **Return Codes**  
+  **Return Codes**  
   
- AP_OK  
- Primary return code; the verb executed successfully.  
+  AP_OK  
+  Primary return code; the verb executed successfully.  
   
- AP_PARAMETER_CHECK  
- Primary return code; the verb did not execute because of a parameter error.  
+  AP_PARAMETER_CHECK  
+  Primary return code; the verb did not execute because of a parameter error.  
   
- AP_BAD_CONV_ID  
+  AP_BAD_CONV_ID  
   
- Secondary return code; the value of **conv_id** did not match a conversation identifier assigned by APPC.  
+  Secondary return code; the value of **conv_id** did not match a conversation identifier assigned by APPC.  
   
- AP_BAD_TP_ID  
+  AP_BAD_TP_ID  
   
- Secondary return code; the value of **tp_id** did not match a TP identifier assigned by APPC.  
+  Secondary return code; the value of **tp_id** did not match a TP identifier assigned by APPC.  
   
- AP_P_TO_R_INVALID_TYPE  
+  AP_P_TO_R_INVALID_TYPE  
   
- Secondary return code; the **ptr_type** parameter was not set to a valid value.  
+  Secondary return code; the **ptr_type** parameter was not set to a valid value.  
   
- AP_STATE_CHECK  
- Primary return code; the verb did not execute because it was issued in an invalid state.  
+  AP_STATE_CHECK  
+  Primary return code; the verb did not execute because it was issued in an invalid state.  
   
- AP_P_TO_R_NOT_SEND_STATE  
+  AP_P_TO_R_NOT_SEND_STATE  
   
- Secondary return code; the conversation was not in SEND state.  
+  Secondary return code; the conversation was not in SEND state.  
   
- AP_P_TO_R_NOT_LL_BDY  
+  AP_P_TO_R_NOT_LL_BDY  
   
- Secondary return code; the local TP did not finish sending a logical record.  
+  Secondary return code; the local TP did not finish sending a logical record.  
   
- AP_ALLOCATION_ERROR  
- Primary return code; APPC has failed to allocate a conversation. The conversation state is set to RESET.  
+  AP_ALLOCATION_ERROR  
+  Primary return code; APPC has failed to allocate a conversation. The conversation state is set to RESET.  
   
- This code can be returned through a verb issued after [MC_ALLOCATE](../core/mc-allocate2.md).  
+  This code can be returned through a verb issued after [MC_ALLOCATE](../core/mc-allocate2.md).  
   
- AP_ALLOCATION_FAILURE_NO_RETRY  
+  AP_ALLOCATION_FAILURE_NO_RETRY  
   
- Secondary return code; the conversation cannot be allocated because of a permanent condition, such as a configuration error or session protocol error. To determine the error, the system administrator should examine the error log file. Do not retry the allocation until the error has been corrected.  
+  Secondary return code; the conversation cannot be allocated because of a permanent condition, such as a configuration error or session protocol error. To determine the error, the system administrator should examine the error log file. Do not retry the allocation until the error has been corrected.  
   
- AP_ALLOCATION_FAILURE_RETRY  
+  AP_ALLOCATION_FAILURE_RETRY  
   
- Secondary return code; the conversation could not be allocated because of a temporary condition, such as a link failure. The reason for the failure is logged in the system error log. Retry the allocation.  
+  Secondary return code; the conversation could not be allocated because of a temporary condition, such as a link failure. The reason for the failure is logged in the system error log. Retry the allocation.  
   
- AP_CONVERSATION_TYPE_MISMATCH  
+  AP_CONVERSATION_TYPE_MISMATCH  
   
- Secondary return code; the partner LU or TP does not support the conversation type (basic or mapped) specified in the allocation request.  
+  Secondary return code; the partner LU or TP does not support the conversation type (basic or mapped) specified in the allocation request.  
   
- AP_PIP_NOT_ALLOWED  
+  AP_PIP_NOT_ALLOWED  
   
- Secondary return code; the allocation request specified PIP data, but either the partner TP does not require this data, or the partner LU does not support it.  
+  Secondary return code; the allocation request specified PIP data, but either the partner TP does not require this data, or the partner LU does not support it.  
   
- AP_PIP_NOT_SPECIFIED_CORRECTLY  
+  AP_PIP_NOT_SPECIFIED_CORRECTLY  
   
- Secondary return code; the partner TP requires PIP data, but the allocation request specified either no PIP data or an incorrect number of parameters.  
+  Secondary return code; the partner TP requires PIP data, but the allocation request specified either no PIP data or an incorrect number of parameters.  
   
- AP_SECURITY_NOT_VALID  
+  AP_SECURITY_NOT_VALID  
   
- Secondary return code; the user identifier or password specified in the allocation request was not accepted by the partner LU.  
+  Secondary return code; the user identifier or password specified in the allocation request was not accepted by the partner LU.  
   
- AP_SYNC_LEVEL_NOT_SUPPORTED  
+  AP_SYNC_LEVEL_NOT_SUPPORTED  
   
- Secondary return code; the partner TP does not support the **sync_level** (AP_NONE or AP_CONFIRM_SYNC_LEVEL) specified in the allocation request, or the **sync_level** was not recognized.  
+  Secondary return code; the partner TP does not support the **sync_level** (AP_NONE or AP_CONFIRM_SYNC_LEVEL) specified in the allocation request, or the **sync_level** was not recognized.  
   
- AP_TP_NAME_NOT_RECOGNIZED  
+  AP_TP_NAME_NOT_RECOGNIZED  
   
- Secondary return code; the partner LU does not recognize the TP name specified in the allocation request.  
+  Secondary return code; the partner LU does not recognize the TP name specified in the allocation request.  
   
- AP_TRANS_PGM_NOT_AVAIL_NO_RETRY  
+  AP_TRANS_PGM_NOT_AVAIL_NO_RETRY  
   
- Secondary return code; the remote LU rejected the allocation request because it was unable to start the requested partner TP. The condition is permanent. The reason for the error may be logged on the remote node. Do not retry the allocation until the error has been corrected.  
+  Secondary return code; the remote LU rejected the allocation request because it was unable to start the requested partner TP. The condition is permanent. The reason for the error may be logged on the remote node. Do not retry the allocation until the error has been corrected.  
   
- AP_TRANS_PGM_NOT_AVAIL_RETRY  
+  AP_TRANS_PGM_NOT_AVAIL_RETRY  
   
- Secondary return code; the remote LU rejected the allocation request because it was unable to start the requested partner TP. The condition may be temporary, such as a time-out. The reason for the error may be logged on the remote node. Retry the allocation.  
+  Secondary return code; the remote LU rejected the allocation request because it was unable to start the requested partner TP. The condition may be temporary, such as a time-out. The reason for the error may be logged on the remote node. Retry the allocation.  
   
- AP_COMM_SUBSYSTEM_ABENDED  
- Primary return code; indicates one of the following conditions:  
+  AP_COMM_SUBSYSTEM_ABENDED  
+  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_CONV_FAILURE_NO_RETRY  
- Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
+  AP_CONV_FAILURE_NO_RETRY  
+  Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
   
- AP_CONV_FAILURE_RETRY  
- Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
+  AP_CONV_FAILURE_RETRY  
+  Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
- AP_DEALLOC_ABEND  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND.  
+- The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND.  
   
--   The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
+- The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
   
- **Remarks**  
+  **Remarks**  
   
- Before changing the conversation state, this verb performs the equivalent of one of the following:  
+  Before changing the conversation state, this verb performs the equivalent of one of the following:  
   
--   [MC_FLUSH](../core/mc-flush1.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
+- [MC_FLUSH](../core/mc-flush1.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
   
--   [MC_CONFIRM](../core/mc-confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
+- [MC_CONFIRM](../core/mc-confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
   
- After this verb has successfully executed, the local TP can receive data.  
+  After this verb has successfully executed, the local TP can receive data.  
   
- The conversation must be in SEND state when the TP issues this verb.  
+  The conversation must be in SEND state when the TP issues this verb.  
   
- State changes, summarized in the following table, are based on the value of **primary_rc**.  
+  State changes, summarized in the following table, are based on the value of **primary_rc**.  
   
 |primary_rc|New state|  
 |-----------------|---------------|  
@@ -227,12 +227,12 @@ struct mc_prepare_to_receive {
   
  The conversation does not change to SEND state for the partner TP until the partner TP receives one of the following values through the **what_rcvd** parameter of a subsequent receive verb:  
   
--   AP_SEND  
+- AP_SEND  
   
--   AP_CONFIRM_SEND and replies with [MC_CONFIRMED](../core/mc-confirmed1.md)  
+- AP_CONFIRM_SEND and replies with [MC_CONFIRMED](../core/mc-confirmed1.md)  
   
--   AP_DATA_COMPLETE_CONFIRM_SEND and replies with **MC_CONFIRMED**  
+- AP_DATA_COMPLETE_CONFIRM_SEND and replies with **MC_CONFIRMED**  
   
--   AP_DATA_CONFIRM_SEND and replies with **MC_CONFIRMED**  
+- AP_DATA_CONFIRM_SEND and replies with **MC_CONFIRMED**  
   
- The receive verbs are [MC_RECEIVE_AND_POST](../core/mc-receive-and-post2.md), [MC_RECEIVE_IMMEDIATE](../core/mc-receive-immediate2.md), and [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md).
+  The receive verbs are [MC_RECEIVE_AND_POST](../core/mc-receive-and-post2.md), [MC_RECEIVE_IMMEDIATE](../core/mc-receive-immediate2.md), and [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md).

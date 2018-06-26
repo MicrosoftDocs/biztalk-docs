@@ -18,23 +18,23 @@ The **RECEIVE_AND_WAIT** verb receives any data that is currently available from
   
  To allow full use to be made of the asynchronous support, asynchronously issued **RECEIVE_AND_WAIT** verbs have been altered to act like [RECEIVE_AND_POST](../core/receive-and-post1.md) verbs. Specifically, while an asynchronous **RECEIVE_AND_WAIT** is outstanding, the following verbs can be issued on the same conversation:  
   
--   [DEALLOCATE](../core/deallocate2.md)(AP_ABEND_PROG, AP_ABEND_SVC, or AP_ABEND_TIMER)  
+- [DEALLOCATE](../core/deallocate2.md)(AP_ABEND_PROG, AP_ABEND_SVC, or AP_ABEND_TIMER)  
   
--   [GET_ATTRIBUTES](../core/get-attributes2.md)  
+- [GET_ATTRIBUTES](../core/get-attributes2.md)  
   
--   [GET_TYPE](../core/get-type2.md)  
+- [GET_TYPE](../core/get-type2.md)  
   
--   [REQUEST_TO_SEND](../core/request-to-send1.md)  
+- [REQUEST_TO_SEND](../core/request-to-send1.md)  
   
--   [SEND_ERROR](../core/send-error2.md)  
+- [SEND_ERROR](../core/send-error2.md)  
   
--   [TEST_RTS](../core/test-rts2.md)  
+- [TEST_RTS](../core/test-rts2.md)  
   
--   [TP_ENDED](../core/tp-ended1.md)  
+- [TP_ENDED](../core/tp-ended1.md)  
   
- This allows an application, and in particular, a 5250 emulator, to use an asynchronous **RECEIVE_AND_WAIT** to receive data. While the **RECEIVE_AND_WAIT** is outstanding, it can still use **SEND_ERROR** and **REQUEST_TO_SEND**. It is recommended that you use this feature for full asynchronous support.  
+  This allows an application, and in particular, a 5250 emulator, to use an asynchronous **RECEIVE_AND_WAIT** to receive data. While the **RECEIVE_AND_WAIT** is outstanding, it can still use **SEND_ERROR** and **REQUEST_TO_SEND**. It is recommended that you use this feature for full asynchronous support.  
   
- The following structure describes the verb control block (VCB) used by the **RECEIVE_AND_WAIT** verb.  
+  The following structure describes the verb control block (VCB) used by the **RECEIVE_AND_WAIT** verb.  
   
 ## Syntax  
   
@@ -92,74 +92,74 @@ struct receive_and_wait {
  *rtn_status*  
  Supplied parameter. Indicates whether both data and conversation status indicators should be returned within one API call.  
   
--   AP_NO specifies that indicators should be returned individually on separate invocations of the verb.  
+- AP_NO specifies that indicators should be returned individually on separate invocations of the verb.  
   
--   AP_YES specifies that indicators should be returned together, provided both are available. Both can be returned when:  
+- AP_YES specifies that indicators should be returned together, provided both are available. Both can be returned when:  
   
-     The receive buffer is large enough to hold all of the data that precedes the status indicator.  
+   The receive buffer is large enough to hold all of the data that precedes the status indicator.  
   
-     The **fill** parameter specifies BUFFER or LL, and the data is the last logical record before the status indicator.  
+   The **fill** parameter specifies BUFFER or LL, and the data is the last logical record before the status indicator.  
   
- *fill*  
- Supplied parameter. Used in a basic conversation to specify how the local TP receives data. The following are allowed values:  
+  *fill*  
+  Supplied parameter. Used in a basic conversation to specify how the local TP receives data. The following are allowed values:  
   
--   AP_BUFFER specifies that the local TP receives data until the number of bytes specified by **max_len** is reached or until the end of the data. Data is received without regard for the logical-record format.  
+- AP_BUFFER specifies that the local TP receives data until the number of bytes specified by **max_len** is reached or until the end of the data. Data is received without regard for the logical-record format.  
   
--   AP_LL specifies that data is received in logical-record format. The data received can be a complete logical record, a **max_len** byte portion of a logical record, or the end of a logical record.  
+- AP_LL specifies that data is received in logical-record format. The data received can be a complete logical record, a **max_len** byte portion of a logical record, or the end of a logical record.  
   
- *rts_rcvd*  
- Returned parameter. Contains the request-to-send indicator. Possible values are:  
+  *rts_rcvd*  
+  Returned parameter. Contains the request-to-send indicator. Possible values are:  
   
--   AP_YES indicates that the partner TP has issued [REQUEST_TO_SEND](../core/request-to-send1.md), which requests that the local TP change the conversation to RECEIVE state.  
+- AP_YES indicates that the partner TP has issued [REQUEST_TO_SEND](../core/request-to-send1.md), which requests that the local TP change the conversation to RECEIVE state.  
   
--   AP_NO indicates that the partner TP has not issued **REQUEST_TO_SEND**.  
+- AP_NO indicates that the partner TP has not issued **REQUEST_TO_SEND**.  
   
- *max_len*  
- Supplied parameter. Indicates the maximum number of bytes of data the local TP can receive. The range is from 0 through 65535.  
+  *max_len*  
+  Supplied parameter. Indicates the maximum number of bytes of data the local TP can receive. The range is from 0 through 65535.  
   
- For the Microsoft Windows operating system, this value must not exceed the length of the buffer to contain the received data.  
+  For the Microsoft Windows operating system, this value must not exceed the length of the buffer to contain the received data.  
   
- By issuing **RECEIVE_AND_WAIT** with **max_len** set to zero, the local TP can determine whether the partner TP has data to send, seeks confirmation, or has changed the conversation state.  
+  By issuing **RECEIVE_AND_WAIT** with **max_len** set to zero, the local TP can determine whether the partner TP has data to send, seeks confirmation, or has changed the conversation state.  
   
- *dlen*  
- Returned parameter. Indicates the number of bytes of data received. Data is stored in the buffer specified by **dptr**. A length of zero indicates that no data was received.  
+  *dlen*  
+  Returned parameter. Indicates the number of bytes of data received. Data is stored in the buffer specified by **dptr**. A length of zero indicates that no data was received.  
   
- *dptr*  
- Supplied parameter. Provides the address of the buffer to contain the data received by the local TP.  
+  *dptr*  
+  Supplied parameter. Provides the address of the buffer to contain the data received by the local TP.  
   
- For the Windows operating system, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
+  For the Windows operating system, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
   
- **Values Returned by the what_rcvd Parameter**  
+  **Values Returned by the what_rcvd Parameter**  
   
--   AP_CONFIRM_DEALLOCATE indicates that the partner TP has issued [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_SYNC_LEVEL, and the conversation's synchronization level, established by **ALLOCATE**, is AP_CONFIRM_SYNC_LEVEL. Upon receiving this value, the local TP normally issues [CONFIRMED](../core/confirmed1.md).  
+- AP_CONFIRM_DEALLOCATE indicates that the partner TP has issued [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_SYNC_LEVEL, and the conversation's synchronization level, established by **ALLOCATE**, is AP_CONFIRM_SYNC_LEVEL. Upon receiving this value, the local TP normally issues [CONFIRMED](../core/confirmed1.md).  
   
--   AP_CONFIRM_SEND indicates that the partner TP has issued [PREPARE_TO_RECEIVE](../core/prepare-to-receive2.md) with **ptr_type** set to AP_SYNC_LEVEL, and the conversation's synchronization level, established by **ALLOCATE**, is AP_CONFIRM_SYNC_LEVEL. Upon receiving this value, the local TP normally issues **CONFIRMED** and begins to send data.  
+- AP_CONFIRM_SEND indicates that the partner TP has issued [PREPARE_TO_RECEIVE](../core/prepare-to-receive2.md) with **ptr_type** set to AP_SYNC_LEVEL, and the conversation's synchronization level, established by **ALLOCATE**, is AP_CONFIRM_SYNC_LEVEL. Upon receiving this value, the local TP normally issues **CONFIRMED** and begins to send data.  
   
--   AP_CONFIRM_WHAT_RECEIVED indicates that the partner TP has issued [CONFIRM](../core/confirm2.md). Upon receiving this value, the local TP normally issues **CONFIRMED**.  
+- AP_CONFIRM_WHAT_RECEIVED indicates that the partner TP has issued [CONFIRM](../core/confirm2.md). Upon receiving this value, the local TP normally issues **CONFIRMED**.  
   
--   AP_DATA can be returned in a basic conversation by **RECEIVE_AND_WAIT** if **fill** is set to AP_BUFFER. The local TP received data until **max_len** or end of data was reached. For more information, see "**RECEIVE_AND_WAIT** End of Data" at the end of this topic.  
+- AP_DATA can be returned in a basic conversation by **RECEIVE_AND_WAIT** if **fill** is set to AP_BUFFER. The local TP received data until **max_len** or end of data was reached. For more information, see "**RECEIVE_AND_WAIT** End of Data" at the end of this topic.  
   
--   AP_DATA_COMPLETE indicates, for **RECEIVE_AND_WAIT**, that the local TP has received a complete data record or the last part of a data record.  
+- AP_DATA_COMPLETE indicates, for **RECEIVE_AND_WAIT**, that the local TP has received a complete data record or the last part of a data record.  
   
-     For **RECEIVE_AND_WAIT** with **fill** set to AP_LL, this value indicates that the local TP has received a complete logical record or the end of a logical record.  
+   For **RECEIVE_AND_WAIT** with **fill** set to AP_LL, this value indicates that the local TP has received a complete logical record or the end of a logical record.  
   
-     Upon receiving this value, the local TP normally reissues **RECEIVE_AND_WAIT** or issues another receive verb. If the partner TP has sent more data, the local TP begins to receive a new unit of data.  
+   Upon receiving this value, the local TP normally reissues **RECEIVE_AND_WAIT** or issues another receive verb. If the partner TP has sent more data, the local TP begins to receive a new unit of data.  
   
-     Otherwise, the local TP examines status information, if **primary_rc** contains AP_OK and **what_rcvd** contains AP_SEND, AP_CONFIRM_SEND, AP_CONFIRM_DEALLOCATE, or AP_CONFIRM_WHAT_RECEIVED.  
+   Otherwise, the local TP examines status information, if **primary_rc** contains AP_OK and **what_rcvd** contains AP_SEND, AP_CONFIRM_SEND, AP_CONFIRM_DEALLOCATE, or AP_CONFIRM_WHAT_RECEIVED.  
   
-     See Return Codes in this topic for the next action the local TP normally takes.  
+   See Return Codes in this topic for the next action the local TP normally takes.  
   
-     If **primary_rc** contains AP_DEALLOC_NORMAL, the conversation has been deallocated in response to [DEALLOCATE](../core/deallocate2.md) issued by the partner TP.  
+   If **primary_rc** contains AP_DEALLOC_NORMAL, the conversation has been deallocated in response to [DEALLOCATE](../core/deallocate2.md) issued by the partner TP.  
   
--   AP_DATA_INCOMPLETE indicates, for **RECEIVE_AND_WAIT**, that the local TP has received an incomplete data record. The **max_len** parameter specified a value less than the length of the data record (or less than the remainder of the data record if this is not the first receive verb to read the record).  
+- AP_DATA_INCOMPLETE indicates, for **RECEIVE_AND_WAIT**, that the local TP has received an incomplete data record. The **max_len** parameter specified a value less than the length of the data record (or less than the remainder of the data record if this is not the first receive verb to read the record).  
   
-     For **RECEIVE_AND_WAIT** with **fill** set to AP_LL, this value indicates that the local TP has received an incomplete logical record.  
+   For **RECEIVE_AND_WAIT** with **fill** set to AP_LL, this value indicates that the local TP has received an incomplete logical record.  
   
-     Upon receiving this value, the local TP normally reissues **RECEIVE_AND_WAIT** (or issues another receive verb) to receive the next part of the record.  
+   Upon receiving this value, the local TP normally reissues **RECEIVE_AND_WAIT** (or issues another receive verb) to receive the next part of the record.  
   
--   AP_NONE indicates that the TP did not receive data or conversation status indicators.  
+- AP_NONE indicates that the TP did not receive data or conversation status indicators.  
   
--   AP_SEND indicates, for the partner TP, that the conversation has entered RECEIVE state. For the local TP, the conversation is now in SEND state. Upon receiving this value, the local TP normally uses [SEND_DATA](../core/send-data1.md) to begin sending data.  
+- AP_SEND indicates, for the partner TP, that the conversation has entered RECEIVE state. For the local TP, the conversation is now in SEND state. Upon receiving this value, the local TP normally uses [SEND_DATA](../core/send-data1.md) to begin sending data.  
   
 ## Return Codes  
  AP_OK  
@@ -284,130 +284,130 @@ struct receive_and_wait {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- When this return code is used with [ALLOCATE](../core/allocate2.md), it may indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **ALLOCATE** request.  
+  When this return code is used with [ALLOCATE](../core/allocate2.md), it may indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **ALLOCATE** request.  
   
- When **ALLOCATE** produces this return code for a Host Integration Server Client system configured with multiple nodes, there are two secondary return codes as follows:  
+  When **ALLOCATE** produces this return code for a Host Integration Server Client system configured with multiple nodes, there are two secondary return codes as follows:  
   
- 0xF0000001  
+  0xF0000001  
   
- Secondary return code; no nodes have been started.  
+  Secondary return code; no nodes have been started.  
   
- 0xF0000002  
+  0xF0000002  
   
- Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
+  Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
   
--   The node with the local LU is not started.  
+- The node with the local LU is not started.  
   
--   The local LU is not configured.  
+- The local LU is not configured.  
   
- AP_CONV_FAILURE_NO_RETRY  
- Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
+  AP_CONV_FAILURE_NO_RETRY  
+  Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
   
- AP_CONV_FAILURE_RETRY  
- Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
+  AP_CONV_FAILURE_RETRY  
+  Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_PROG_ERROR_NO_TRUNC  
- Primary return code; the partner TP has issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG while the conversation was in SEND state. Data was not truncated.  
+  AP_PROG_ERROR_NO_TRUNC  
+  Primary return code; the partner TP has issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG while the conversation was in SEND state. Data was not truncated.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued **SEND_ERROR** with **err_type** set to AP_PROG. Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued **SEND_ERROR** with **err_type** set to AP_PROG. Data sent but not yet received is purged.  
   
- AP_PROG_ERROR_TRUNC  
- Primary return code; in SEND state, after sending an incomplete logical record, the partner TP issued **SEND_ERROR** with **err_type** set to AP_PROG. The local TP may have received the first part of the logical record through a receive verb.  
+  AP_PROG_ERROR_TRUNC  
+  Primary return code; in SEND state, after sending an incomplete logical record, the partner TP issued **SEND_ERROR** with **err_type** set to AP_PROG. The local TP may have received the first part of the logical record through a receive verb.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
- AP_DEALLOC_ABEND_PROG  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND_PROG  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP has issued [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_ABEND_PROG.  
+- The partner TP has issued [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_ABEND_PROG.  
   
--   The partner TP has encountered an ABEND, causing the partner LU to send a **DEALLOCATE** request.  
+- The partner TP has encountered an ABEND, causing the partner LU to send a **DEALLOCATE** request.  
   
- AP_DEALLOC_ABEND_SVC  
- Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_SVC.  
+  AP_DEALLOC_ABEND_SVC  
+  Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_SVC.  
   
- AP_DEALLOC_ABEND_TIMER  
- Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_TIMER.  
+  AP_DEALLOC_ABEND_TIMER  
+  Primary return code; the conversation has been deallocated because the partner TP issued **DEALLOCATE** with **dealloc_type** set to AP_ABEND_TIMER.  
   
- AP_SVC_ERROR_NO_TRUNC  
- Primary return code; while in SEND state, the partner TP (or partner LU) issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_SVC. Data was not truncated.  
+  AP_SVC_ERROR_NO_TRUNC  
+  Primary return code; while in SEND state, the partner TP (or partner LU) issued [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_SVC. Data was not truncated.  
   
- AP_SVC_ERROR_PURGING  
- Primary return code; the partner TP (or partner LU) issued **SEND_ERROR** with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
+  AP_SVC_ERROR_PURGING  
+  Primary return code; the partner TP (or partner LU) issued **SEND_ERROR** with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
   
- AP_SVC_ERROR_NO_TRUNC  
- Primary return code; while in SEND state, after sending an incomplete logical record, the partner TP (or partner LU) issued **SEND_ERROR**. The local TP may have received the first part of the logical record.  
+  AP_SVC_ERROR_NO_TRUNC  
+  Primary return code; while in SEND state, after sending an incomplete logical record, the partner TP (or partner LU) issued **SEND_ERROR**. The local TP may have received the first part of the logical record.  
   
 ## Remarks  
  The local TP receives data through the following process:  
   
-1.  The local TP issues a receive verb until it finishes receiving a complete unit of data. The data received can be:  
+1. The local TP issues a receive verb until it finishes receiving a complete unit of data. The data received can be:  
   
-    -   One logical record.  
+   - One logical record.  
   
-    -   A buffer of data received independent of its logical-record format.  
+   - A buffer of data received independent of its logical-record format.  
   
      The local TP may need to issue the receive verb several times in order to receive a complete unit of data. After a complete unit of data has been received, the local TP can manipulate it.  
   
      The receive verbs are [RECEIVE_AND_POST](../core/receive-and-post1.md), **RECEIVE_AND_WAIT**, and [RECEIVE_IMMEDIATE](../core/receive-immediate1.md).  
   
-2.  The local TP issues the receive verb again. This has one of the following effects:  
+2. The local TP issues the receive verb again. This has one of the following effects:  
   
-    -   If the partner TP has sent more data, the local TP begins to receive a new unit of data.  
+   -   If the partner TP has sent more data, the local TP begins to receive a new unit of data.  
   
-    -   If the partner TP has finished sending data or is waiting for confirmation, status information (available through the **what_rcvd** parameter) indicates the next action the local TP normally takes.  
+   -   If the partner TP has finished sending data or is waiting for confirmation, status information (available through the **what_rcvd** parameter) indicates the next action the local TP normally takes.  
   
- The conversation must be in RECEIVE or SEND state when the TP issues this verb.  
+   The conversation must be in RECEIVE or SEND state when the TP issues this verb.  
   
- **Issuing the Verb in SEND State**  
+   **Issuing the Verb in SEND State**  
   
- Issuing **RECEIVE_AND_WAIT** while the conversation is in SEND state has the following effects:  
+   Issuing **RECEIVE_AND_WAIT** while the conversation is in SEND state has the following effects:  
   
--   The local LU sends the information in its send buffer and a SEND indicator to the partner TP.  
+- The local LU sends the information in its send buffer and a SEND indicator to the partner TP.  
   
--   The conversation changes to RECEIVE state; the local TP waits for the partner TP to send data.  
+- The conversation changes to RECEIVE state; the local TP waits for the partner TP to send data.  
   
- **State Change**  
+  **State Change**  
   
- The new conversation state is determined by the following factors:  
+  The new conversation state is determined by the following factors:  
   
--   The state the conversation is in when the TP issues the verb.  
+- The state the conversation is in when the TP issues the verb.  
   
--   The **primary_rc** parameter.  
+- The **primary_rc** parameter.  
   
--   The **what_rcvd** parameter if **primary_rc** contains AP_OK.  
+- The **what_rcvd** parameter if **primary_rc** contains AP_OK.  
   
- **Verb Issued in SEND State**  
+  **Verb Issued in SEND State**  
   
- The following table details the state changes when **RECEIVE_AND_WAIT** is issued in SEND state and **primary_rc** is AP_OK.  
+  The following table details the state changes when **RECEIVE_AND_WAIT** is issued in SEND state and **primary_rc** is AP_OK.  
   
 |what_rcvd|New state|  
 |----------------|---------------|  
@@ -486,24 +486,24 @@ struct receive_and_wait {
 ## RECEIVE_AND_WAIT End of Data  
  In basic conversations, if the local TP issues **RECEIVE_AND_WAIT** and sets **fill** to AP_BUFFER, the receipt of the data ends when **max_len** or the end of the data is reached. The end of the data is indicated by either:  
   
--   A **primary_rc** parameter with a value other than AP_OK (for example, AP_DEALLOC_NORMAL).  
+- A **primary_rc** parameter with a value other than AP_OK (for example, AP_DEALLOC_NORMAL).  
   
--   A **what_rcvd** parameter with one of the following values:  
+- A **what_rcvd** parameter with one of the following values:  
   
-     AP_SEND  
+   AP_SEND  
   
-     AP_CONFIRM_SEND  
+   AP_CONFIRM_SEND  
   
-     AP_CONFIRM_DEALLOCATE  
+   AP_CONFIRM_DEALLOCATE  
   
-     AP_CONFIRM_WHAT_RECEIVED  
+   AP_CONFIRM_WHAT_RECEIVED  
   
-     AP_DATA_CONFIRM_SEND  
+   AP_DATA_CONFIRM_SEND  
   
-     AP_DATA_CONFIRM_DEALLOCATE  
+   AP_DATA_CONFIRM_DEALLOCATE  
   
-     AP_DATA_CONFIRM  
+   AP_DATA_CONFIRM  
   
- To determine if the end of the data has been reached, the local TP reissues **RECEIVE_AND_WAIT**. If the new **primary_rc** contains AP_OK and **what_rcvd** contains AP_DATA, the end of the data has not been reached. If, however, the end of the data has been reached, **primary_rc** or **what_rcvd** will indicate the cause of the end of the data.  
+  To determine if the end of the data has been reached, the local TP reissues **RECEIVE_AND_WAIT**. If the new **primary_rc** contains AP_OK and **what_rcvd** contains AP_DATA, the end of the data has not been reached. If, however, the end of the data has been reached, **primary_rc** or **what_rcvd** will indicate the cause of the end of the data.  
   
- **RECEIVE_AND_WAIT** waits for data or an indicator to be sent by the partner TP. If you need the local TP to operate continuously, use [RECEIVE_IMMEDIATE](../core/receive-immediate1.md) instead.
+  **RECEIVE_AND_WAIT** waits for data or an indicator to be sent by the partner TP. If you need the local TP to operate continuously, use [RECEIVE_IMMEDIATE](../core/receive-immediate1.md) instead.

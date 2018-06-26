@@ -27,17 +27,17 @@ Before you can add a Web port, you need to add a Web reference to your BizTalk p
   
  A Web reference includes:  
   
--   A Universal Resource Locator (URL) for the Web service.  
+- A Universal Resource Locator (URL) for the Web service.  
   
--   A WSDL file that offers information about the service such as available methods, ports, and message types.  
+- A WSDL file that offers information about the service such as available methods, ports, and message types.  
   
--   A reference map (Reference.map).  
+- A reference map (Reference.map).  
   
- When you add a Web reference, all the Web methods for that Web service must be compatible with BizTalk Server. You cannot specify conditional attributes for specific Web methods in a Web service.  
+  When you add a Web reference, all the Web methods for that Web service must be compatible with BizTalk Server. You cannot specify conditional attributes for specific Web methods in a Web service.  
   
- You add a Web reference to your project by using the **Add Web Reference** dialog box. For more information about adding Web references, see [Using Visual Studio](../core/using-visual-studio.md).  
+  You add a Web reference to your project by using the **Add Web Reference** dialog box. For more information about adding Web references, see [Using Visual Studio](../core/using-visual-studio.md).  
   
- If you are planning to export your orchestration using the Business Process Execution Language (BPEL) export process, you cannot reference a Web reference from an existing BizTalk project. When you reference a Web reference from an existing BizTalk project, the BPEL export process will auto-generate a second WSDL file and you will lose your binding information.  
+  If you are planning to export your orchestration using the Business Process Execution Language (BPEL) export process, you cannot reference a Web reference from an existing BizTalk project. When you reference a Web reference from an existing BizTalk project, the BPEL export process will auto-generate a second WSDL file and you will lose your binding information.  
   
 ## See Also  
  [Creating Web Ports](../core/creating-web-ports.md)   

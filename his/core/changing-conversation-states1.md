@@ -16,13 +16,13 @@ manager: "anneta"
 # Changing Conversation States
 A change in the conversation state can result from:  
   
--   A verb issued by the local TP.  
+- A verb issued by the local TP.  
   
--   A verb issued by the partner TP.  
+- A verb issued by the partner TP.  
   
--   An error condition.  
+- An error condition.  
   
- The following example shows how APPC verbs can change the state of the conversation from SEND to RECEIVE and from RECEIVE to SEND.  
+  The following example shows how APPC verbs can change the state of the conversation from SEND to RECEIVE and from RECEIVE to SEND.  
   
 > [!NOTE]
 >  Any TP can send or receive data, regardless of whether it is the invoking TP (the TP that started the conversation) or the invokable TP (the TP that responded to a request to start a conversation).  
@@ -96,17 +96,17 @@ A change in the conversation state can result from:
 ## Changing to RECEIVE State  
  [MC_PREPARE_TO_RECEIVE](./mc-prepare-to-receive1.md) allows a TP to change the conversation from SEND to RECEIVE state. This verb:  
   
--   Flushes the local LU's send buffer.  
+- Flushes the local LU's send buffer.  
   
--   Sends the AP_CONFIRM_SEND indicator to the partner TP through the **what_rcvd** parameter of a receive verb. This indicator tells the partner TP that an [MC_CONFIRMED](./mc-confirmed1.md) response is expected before the partner TP can begin to send data.  
+- Sends the AP_CONFIRM_SEND indicator to the partner TP through the **what_rcvd** parameter of a receive verb. This indicator tells the partner TP that an [MC_CONFIRMED](./mc-confirmed1.md) response is expected before the partner TP can begin to send data.  
   
- Confirmation processing is performed when the following conditions are true:  
+  Confirmation processing is performed when the following conditions are true:  
   
--   The **ptr_type** parameter is set to AP_SYNC_LEVEL.  
+- The **ptr_type** parameter is set to AP_SYNC_LEVEL.  
   
--   The synchronization level of the conversation is set to AP_CONFIRM_SYNC_LEVEL.  
+- The synchronization level of the conversation is set to AP_CONFIRM_SYNC_LEVEL.  
   
- For more information about confirmation processing, see [Confirmation Processing](../core/confirmation-processing2.md).  
+  For more information about confirmation processing, see [Confirmation Processing](../core/confirmation-processing2.md).  
   
 > [!NOTE]
 >  Issuing [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md) while the conversation is in SEND state flushes the LU's send buffer and changes the conversation state to RECEIVE. Changing the conversation state in this manner does not support confirmation processing.  

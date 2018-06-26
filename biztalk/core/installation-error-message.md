@@ -45,11 +45,11 @@ After you install Microsoft BizTalk Adapter for TIBCO Enterprise Message Service
   
  Follow these steps to eliminate the error message:  
   
-1.  With any text editor, open the file BTSNTSVC.exe.config.  
+1. With any text editor, open the file BTSNTSVC.exe.config.  
   
-     The file is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] directory (the default installation location is: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]).  
+    The file is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] directory (the default installation location is: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]).  
   
-2.  Add the following entry to the BTSNTSVC.exe.config file, as a child of the \<assemblyBinding\> element:  
+2. Add the following entry to the BTSNTSVC.exe.config file, as a child of the \<assemblyBinding\> element:  
   
 ```  
 <dependentAssembly>  
@@ -75,18 +75,18 @@ After you install Microsoft BizTalk Adapter for TIBCO Enterprise Message Service
 </assemblyBinding>  
 ```  
   
-1.  In a command prompt, type the command: `GACUTIL /L TIBCO.EMS`.  
+1. In a command prompt, type the command: `GACUTIL /L TIBCO.EMS`.  
   
-2.  Copy the TIBCO.EMS assembly version number from the output.  
+2. Copy the TIBCO.EMS assembly version number from the output.  
   
-    > [!CAUTION]
-    >  Two version numbers appear: one is the version number of the gacutil utility. You want the second version number, which appears just after **Version=**.  
+   > [!CAUTION]
+   >  Two version numbers appear: one is the version number of the gacutil utility. You want the second version number, which appears just after **Version=**.  
   
-3.  Paste the version number in the BTSNTSVC.exe.config file, between the quotation marks, right after **newVersion=** (bold characters in the previous XML example).  
+3. Paste the version number in the BTSNTSVC.exe.config file, between the quotation marks, right after **newVersion=** (bold characters in the previous XML example).  
   
-4.  Save the modified BTSNTSVC.exe.config file.  
+4. Save the modified BTSNTSVC.exe.config file.  
   
-5.  Restart the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host.  
+5. Restart the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host.  
   
 ## See Also  
  [Troubleshooting TIBCO Enterprise Message Service](../core/troubleshooting-tibco-enterprise-message-service.md)

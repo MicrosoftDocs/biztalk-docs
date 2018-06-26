@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10753
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10753|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_MAPPING_EXISTS|  
-|Message Text|The mapping already exists.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10753                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                  ENTSSO_E_MAPPING_EXISTS                   |
+|  Message Text   |                The mapping already exists.                 |
   
 ## Explanation  
  This mapping already exists, either on the Windows account already in use or the external account.  

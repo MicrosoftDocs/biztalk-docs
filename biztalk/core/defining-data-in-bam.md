@@ -119,21 +119,21 @@ You use the BAM Excel Add-in to define the data you want BAM to collect, and def
 ### Dimensions and Measures  
  You use dimensions and measures to create data aggregations:  
   
--   Dimensions describe a fact.  
+- Dimensions describe a fact.  
   
--   Measures are fact values.  
+- Measures are fact values.  
   
- For example, a fact could be “3 red cars” in inventory. The description of the product: "car" and "red" are dimensions. The value of the fact "3" is a measure. If the price of each car is included in the fact, the car price is a dimension, but the average price of cars in inventory is a measure. Microsoft SQL Server Books Online describes a measure as "the central values that are aggregated and analyzed." In other words, if you can count it, average it, or otherwise perform mathematical functions to get it, it is a measure.  
+  For example, a fact could be “3 red cars” in inventory. The description of the product: "car" and "red" are dimensions. The value of the fact "3" is a measure. If the price of each car is included in the fact, the car price is a dimension, but the average price of cars in inventory is a measure. Microsoft SQL Server Books Online describes a measure as "the central values that are aggregated and analyzed." In other words, if you can count it, average it, or otherwise perform mathematical functions to get it, it is a measure.  
   
- You can create the following types of dimensions:  
+  You can create the following types of dimensions:  
   
--   Progress dimension  
+- Progress dimension  
   
--   Data dimension  
+- Data dimension  
   
--   Time dimension  
+- Time dimension  
   
--   Numeric range dimension  
+- Numeric range dimension  
   
 ## Progress dimensions  
  BAM introduces a new type of dimension: the progress dimension. You create progress dimensions to create aggregations that relate to the progress of activities still in process.  

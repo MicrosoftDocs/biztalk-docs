@@ -19,23 +19,23 @@ manager: "anneta"
 # Preparing for Deployment
 This section provides information about the planning and preparation phase of the deployment. Before implementing a deployment, make the following preparations:  
   
-1.  Read and understand any known issues, and prepare the equipment:  
+1. Read and understand any known issues, and prepare the equipment:  
   
-    -   Create a checklist of the hardware and software required for your deployment, and a network diagram and deployment worksheet that reflect your variation of the deployment (based on the network diagram and for the deployment architecture you have selected).  
+   -   Create a checklist of the hardware and software required for your deployment, and a network diagram and deployment worksheet that reflect your variation of the deployment (based on the network diagram and for the deployment architecture you have selected).  
   
-    -   Acquire the hardware and software on your checklist. This acquisition includes downloading all of the service packs, hotfixes, and software updates that are required for your deployment.  
+   -   Acquire the hardware and software on your checklist. This acquisition includes downloading all of the service packs, hotfixes, and software updates that are required for your deployment.  
   
-         Download these software components using a computer with Internet access and then copy these software components onto a CD-ROM for easier distribution.  
+        Download these software components using a computer with Internet access and then copy these software components onto a CD-ROM for easier distribution.  
   
-2.  Separate your deployment into different stages and identify the tasks associated with each stage. This strategy simplifies the deployment process by organizing the tasks according to a specific deployment stage. For example, the prescribed deployment includes the following server deployment stages:  
+2. Separate your deployment into different stages and identify the tasks associated with each stage. This strategy simplifies the deployment process by organizing the tasks according to a specific deployment stage. For example, the prescribed deployment includes the following server deployment stages:  
   
-3.  Configuring the domain controller.  
+3. Configuring the domain controller.  
   
-4.  Configuring the databases (including the run-time [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] cluster and design-time database server).  
+4. Configuring the databases (including the run-time [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] cluster and design-time database server).  
   
-5.  Configuring the BizTalk servers.  
+5. Configuring the BizTalk servers.  
   
- This section contains:  
+   This section contains:  
   
 -   [Network Requirements](../../adapters-and-accelerators/accelerator-swift/network-requirements.md)  
   

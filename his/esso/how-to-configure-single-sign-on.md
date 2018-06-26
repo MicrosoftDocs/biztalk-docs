@@ -18,17 +18,17 @@ Before accessing Enterprise Single Sign-On, you should make sure that Enterprise
   
 ### To enable ticketing  
   
-1.  Create a new instance of `ISSOAdmin`.  
+1. Create a new instance of `ISSOAdmin`.  
   
-2.  Retrieve the current settings through `ISSOAdmin.GetGlobalInfo`.  
+2. Retrieve the current settings through `ISSOAdmin.GetGlobalInfo`.  
   
-     If necessary, you may want to confirm that the flags are set to the correct values at this point.  
+    If necessary, you may want to confirm that the flags are set to the correct values at this point.  
   
-3.  Change any relevant flags using `ISSOAdmin.UpdateGlobalInfo`.  
+3. Change any relevant flags using `ISSOAdmin.UpdateGlobalInfo`.  
   
-     In this particular case, all the flags are being set to validate and enable tickets.  
+    In this particular case, all the flags are being set to validate and enable tickets.  
   
- The following example shows how to enable ticketing using Single Sign-On.  
+   The following example shows how to enable ticketing using Single Sign-On.  
   
 ```  
 public static bool EnableTickets()  

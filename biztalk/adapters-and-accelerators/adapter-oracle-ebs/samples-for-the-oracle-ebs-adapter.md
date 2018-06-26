@@ -18,15 +18,15 @@ manager: "anneta"
 # Samples for the Oracle EBS adapter
 Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] are categorized into:  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] samples  
+- [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] samples  
   
--   WCF service model samples  
+- WCF service model samples  
   
--   WCF channel model samples  
+- WCF channel model samples  
   
--   Microsoft Office SharePoint Server samples  
+- Microsoft Office SharePoint Server samples  
   
- The samples are available at [BizTalk Adapter Pack 2010: Oracle E-Business Suite adapter samples](https://www.microsoft.com/download/details.aspx?id=6464). The SQL scripts for creating the interface tables, concurrent programs, tables, and packages used in the samples are included. 
+  The samples are available at [BizTalk Adapter Pack 2010: Oracle E-Business Suite adapter samples](https://www.microsoft.com/download/details.aspx?id=6464). The SQL scripts for creating the interface tables, concurrent programs, tables, and packages used in the samples are included. 
   
 > [!NOTE]
 > [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
@@ -35,16 +35,16 @@ Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
   
 ## BizTalk Server samples  
   
-|Sample Directory Name|Description|  
-|---------------------------|-----------------|  
-|InterfaceTableInsert|Demonstrates how to insert records into an interface table in Oracle E-Business Suite using [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
-|ConcurrentProgram|Demonstrates how to invoke a concurrent program in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
-|RequestSet|Demonstrates how to invoke a request set in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
-|MsgContextProperty|Demonstrates how to use the message context properties exposed by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to set application context to perform operations on artifacts in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
-|OracleEBS_CompositeOperation|Demonstrates how to perform composite operations in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
-|OracleNotifyIncremental|Demonstrates how to receive “incremental” query notification messages from Oracle using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
-|PollingUsingSelectStatement|Demonstrates how to configure a polling query using a SELECT statement and receive the results using the   [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
-|PollingUsingStoredProc|Demonstrates how to configure a polling query using a stored procedure and receive the results using the   [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
+|    Sample Directory Name     |                                                                                                                                                                        Description                                                                                                                                                                        |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     InterfaceTableInsert     |                                                                                   Demonstrates how to insert records into an interface table in Oracle E-Business Suite using [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].                                                                                    |
+|      ConcurrentProgram       |                                                                                       Demonstrates how to invoke a concurrent program in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].                                                                                       |
+|          RequestSet          |                                                                                          Demonstrates how to invoke a request set in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].                                                                                           |
+|      MsgContextProperty      | Demonstrates how to use the message context properties exposed by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to set application context to perform operations on artifacts in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. |
+| OracleEBS_CompositeOperation |                                                                                      Demonstrates how to perform composite operations in Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].                                                                                       |
+|   OracleNotifyIncremental    |                                                                                   Demonstrates how to receive “incremental” query notification messages from Oracle using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].                                                                                    |
+| PollingUsingSelectStatement  |                                                                            Demonstrates how to configure a polling query using a SELECT statement and receive the results using the   [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].                                                                            |
+|    PollingUsingStoredProc    |                                                                            Demonstrates how to configure a polling query using a stored procedure and receive the results using the   [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].                                                                            |
   
 ## WCF Service model Sasamplesmples  
   
@@ -67,9 +67,9 @@ Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
   
 ## Microsoft Office SharePoint Server samples  
   
-|Sample Directory Name|Description|  
-|---------------------------|-----------------|  
-|MOSS_Sample|Demonstrates how to use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to create a Windows Communication Foundation (WCF) service from Oracle E-Business Suite artifacts, and then use the WCF service to display data in Microsoft Office SharePoint Server using a Business Data List Web Part.|  
+| Sample Directory Name |                                                                                                                                                                  Description                                                                                                                                                                   |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      MOSS_Sample      | Demonstrates how to use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to create a Windows Communication Foundation (WCF) service from Oracle E-Business Suite artifacts, and then use the WCF service to display data in Microsoft Office SharePoint Server using a Business Data List Web Part. |
   
 ## See Also  
 [Develop your Oracle E-Business Suite applications](../../adapters-and-accelerators/adapter-oracle-ebs/develop-your-oracle-e-business-suite-applications.md)

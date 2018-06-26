@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10789
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10789|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_DTC_IMPORT_FAILED2|  
-|Message Text|Could not import a DTC transaction. Please check that MSDTC is configured correctly for remote operation. See the event log (on computer ‘%1’) for more details.|  
+|                 |                                                                                                                                                                  |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                    Enterprise Single Sign-On                                                                     |
+| Product Version |                                                    [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                    |
+|    Event ID     |                                                                              10789                                                                               |
+|  Event Source   |                                                                              ENTSSO                                                                              |
+|    Component    |                                                                               N/A                                                                                |
+|  Symbolic Name  |                                                                   ENTSSO_E_DTC_IMPORT_FAILED2                                                                    |
+|  Message Text   | Could not import a DTC transaction. Please check that MSDTC is configured correctly for remote operation. See the event log (on computer ‘%1’) for more details. |
   
 ## Explanation  
  Could not import a DTC transaction.  

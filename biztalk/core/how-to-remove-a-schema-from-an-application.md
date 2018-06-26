@@ -39,11 +39,11 @@ This topic describes how to use the BizTalk Server Administration console to rem
   
 ### To remove a schema  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the schema to remove and the application containing the schema.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the schema to remove and the application containing the schema.  
   
-3.  Click **Schemas**, right-click the schema, and then click **Remove**.  
+3. Click **Schemas**, right-click the schema, and then click **Remove**.  
   
 ## See Also  
  [Managing Schemas](../core/managing-schemas.md)

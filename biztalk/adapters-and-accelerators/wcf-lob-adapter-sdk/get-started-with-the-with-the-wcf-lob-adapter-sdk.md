@@ -23,17 +23,17 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is i
   
  To create an adapter using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], we suggest being experienced with the following technologies:  
   
--   [!INCLUDE[btsVStudioNet](../../includes/btsvstudionet-md.md)] and the development of .NET solutions  
+- [!INCLUDE[btsVStudioNet](../../includes/btsvstudionet-md.md)] and the development of .NET solutions  
   
--   Programming with the .NET Framework  
+- Programming with the .NET Framework  
   
--   [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]  
+- [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]  
   
--   .NET XML Programming API  
+- .NET XML Programming API  
   
--   Web Service Description Language (WSDL) and XML Schema  
+- Web Service Description Language (WSDL) and XML Schema  
   
- You should also be familiar with the operation of the target system as well as the technology used to expose the target system API.    
+  You should also be familiar with the operation of the target system as well as the technology used to expose the target system API.    
 
   
 ## See Also  

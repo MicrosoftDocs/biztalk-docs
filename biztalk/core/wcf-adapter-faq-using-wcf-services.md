@@ -29,17 +29,17 @@ manager: "anneta"
   
  The BizTalk WCF Custom adapter not only allows you to build a new binding from BindingElements but also lets you configure a new binding directly. It also allows you to configure behaviors on standard bindings. This is particularly useful because writing custom behaviors is much easier than writing new BindingElements objects.  
   
- Building a BindingElement is an involved development exercise and the best source of reference for it is the WCF samples at  HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=142449" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=142449. To create a custom BindingElement you create a class that derives from BindingElement. A new BindingElement will have to be in a new assembly. This assembly must be installed into the Global Assembly Cache (GAC) of the administration computer where the BizTalk Host, send port, and receive location are configured. To associate a custom binding with a specific send port or receive location, you first need to add it to the \<bindingElementExtensions\> section of the machine.config file on the same computer.  
+ Building a BindingElement is an involved development exercise and the best source of reference for it is the WCF samples at  HYPERLINK "<http://go.microsoft.com/fwlink/?LinkId=142449>" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=142449. To create a custom BindingElement you create a class that derives from BindingElement. A new BindingElement will have to be in a new assembly. This assembly must be installed into the Global Assembly Cache (GAC) of the administration computer where the BizTalk Host, send port, and receive location are configured. To associate a custom binding with a specific send port or receive location, you first need to add it to the \<bindingElementExtensions\> section of the machine.config file on the same computer.  
   
  After making that change you can then bring up the **Transport Properties Configuration** dialog box to configure the binding.  
   
-1.  On the **Binding** tab, for Binding type, select **customBinding**.  
+1. On the **Binding** tab, for Binding type, select **customBinding**.  
   
-2.  In the **Binding** pane, right-click **CustomBindingElement**, and select **Add Extension**.  
+2. In the **Binding** pane, right-click **CustomBindingElement**, and select **Add Extension**.  
   
-3.  Select the binding element you specified in the machine.config file and configure the binding as required. It is now ready to use for message transmission or receipt.  
+3. Select the binding element you specified in the machine.config file and configure the binding as required. It is now ready to use for message transmission or receipt.  
   
- BizTalk does very limited validation for a custom binding when it has been added in this manner. Therefore, it is important to ensure the binding elements are listed in the correct order. The binding element you want invoked first at runtime must be on the bottom of the CustomBindingElement binding tree in the dialog box. The list of BindingElements must contain a Transport and that Transport must be at the bottom of the list. The set of BindingElements may also contain an Encoder. For more information, see the WCF documentation on binding elements at [http://go.microsoft.com/fwlink/?LinkId=142449](http://go.microsoft.com/fwlink/?LinkId=142449).  
+   BizTalk does very limited validation for a custom binding when it has been added in this manner. Therefore, it is important to ensure the binding elements are listed in the correct order. The binding element you want invoked first at runtime must be on the bottom of the CustomBindingElement binding tree in the dialog box. The list of BindingElements must contain a Transport and that Transport must be at the bottom of the list. The set of BindingElements may also contain an Encoder. For more information, see the WCF documentation on binding elements at [http://go.microsoft.com/fwlink/?LinkId=142449](http://go.microsoft.com/fwlink/?LinkId=142449).  
   
 ## What is a WCF custom behavior and how do I use one with BizTalk Server?  
  One of the advantages of using WCF as a message communication mechanism is the opportunity to extend the functionality of its services by using custom code. Custom behavior extensions are one of the features that differentiate WCF from other Web services technologies in the market.  

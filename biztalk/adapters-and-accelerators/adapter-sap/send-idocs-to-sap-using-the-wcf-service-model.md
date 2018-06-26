@@ -20,25 +20,25 @@ manager: "anneta"
 # Send IDOCs to SAP using the WCF Service Model
 Internally, the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] sends IDOCs to the SAP system by invoking one of the two following RFCs:  
   
--   IDOC_INBOUND_ASYNCHRONOUS for version 3 IDOCs.  
+- IDOC_INBOUND_ASYNCHRONOUS for version 3 IDOCs.  
   
--   INBOUND_IDOC_PROCESS for version 2 IDOCs.  
+- INBOUND_IDOC_PROCESS for version 2 IDOCs.  
   
- You can send an IDOC to the adapter by invoking the appropriate RFC (or tRFC); however, you can also use the two following operations to send IDOCs to the adapter:  
+  You can send an IDOC to the adapter by invoking the appropriate RFC (or tRFC); however, you can also use the two following operations to send IDOCs to the adapter:  
   
--   **SendIdoc** is surfaced directly under the IDOC root node. The SendIdoc operation sends the IDOC as string (weakly-typed) data to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- **SendIdoc** is surfaced directly under the IDOC root node. The SendIdoc operation sends the IDOC as string (weakly-typed) data to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   **Send** is surfaced individually for each IDOC. The Send operation sends the IDOC as strongly-typed data to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- **Send** is surfaced individually for each IDOC. The Send operation sends the IDOC as strongly-typed data to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
- These operations determine how the IDOC data is sent to the adapter, not how it is sent to the SAP system. The adapter always sends the IDOC to the SAP system by using the appropriate tRFC.  
+  These operations determine how the IDOC data is sent to the adapter, not how it is sent to the SAP system. The adapter always sends the IDOC to the SAP system by using the appropriate tRFC.  
   
- Because the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] sends the IDOC as a tRFC, both the Send and SendIdoc operations expose a GUID parameter that you use to confirm (commit) the IDOC. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] internally maps this GUID with the SAP transaction ID (TID) that is associated with the tRFC. You can confirm the IDOC in one of two ways:  
+  Because the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] sends the IDOC as a tRFC, both the Send and SendIdoc operations expose a GUID parameter that you use to confirm (commit) the IDOC. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] internally maps this GUID with the SAP transaction ID (TID) that is associated with the tRFC. You can confirm the IDOC in one of two ways:  
   
--   By using the **AutoConfirmSentIdocs** binding property. If this binding property is set to **true**, the adapter automatically confirms the tRFC used to send the IDOC.  
+- By using the **AutoConfirmSentIdocs** binding property. If this binding property is set to **true**, the adapter automatically confirms the tRFC used to send the IDOC.  
   
--   By invoking RfcConfirmTransID. You invoke this operation with the GUID associated with the IDOC.  
+- By invoking RfcConfirmTransID. You invoke this operation with the GUID associated with the IDOC.  
   
- The following sections show you how to send IDOCs to an SAP system by using the SendIdoc and Send operations. For more information to help you send an IDOC as a tRFC, see [Invoke tRFCs in SAP by using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/invoke-trfcs-in-sap-using-the-wcf-service-model.md).  
+  The following sections show you how to send IDOCs to an SAP system by using the SendIdoc and Send operations. For more information to help you send an IDOC as a tRFC, see [Invoke tRFCs in SAP by using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/invoke-trfcs-in-sap-using-the-wcf-service-model.md).  
   
 ## The WCF Client Class  
   
@@ -47,11 +47,11 @@ Internally, the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] sends ID
   
  You can send any IDOC to SAP by using this client. It contains a single method, **SendIdoc**, that takes two parameters:  
   
--   **idocData** is a string that contains the IDOC data  
+- **idocData** is a string that contains the IDOC data  
   
--   **guid** is the GUID that is mapped to the SAP TID.  
+- **guid** is the GUID that is mapped to the SAP TID.  
   
- The following code shows the WCF client that is generated for the SendIdoc operation.  
+  The following code shows the WCF client that is generated for the SendIdoc operation.  
   
 ```  
 [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -67,11 +67,11 @@ public partial class IdocClient : System.ServiceModel.ClientBase<Idoc>, Idoc {
   
  You must generate a unique client for each different type of IDOC. This client contains a single method, **Send**, that takes two parameters:  
   
--   **idocData** is a class that represents the strongly-typed IDOC data.  
+- **idocData** is a class that represents the strongly-typed IDOC data.  
   
--   **guid** is a string representation of the GUID that is mapped to the SAP TID.  
+- **guid** is a string representation of the GUID that is mapped to the SAP TID.  
   
- The following code shows the WCF client that is generated for the Send operation surfaced for the ORDERS03.v3.620 IDOC.  
+  The following code shows the WCF client that is generated for the Send operation surfaced for the ORDERS03.v3.620 IDOC.  
   
 ```  
 [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -89,69 +89,69 @@ public partial class IdocORDERS03V3R620Client : System.ServiceModel.ClientBase<I
   
 #### To send an IDOC to an SAP system  
   
-1.  Generate a WCF client class. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class that targets the IDOCs with which you want to work. For more information about how to generate a WCF client, see [Generating a WCF Client or a WCF Service Contract for SAP Solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md). If you want to explicitly confirm IDOCs, make sure that you generate the WCF client for the RfcConfirmTransID operation. Operations can be found under the following nodes:  
+1. Generate a WCF client class. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class that targets the IDOCs with which you want to work. For more information about how to generate a WCF client, see [Generating a WCF Client or a WCF Service Contract for SAP Solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md). If you want to explicitly confirm IDOCs, make sure that you generate the WCF client for the RfcConfirmTransID operation. Operations can be found under the following nodes:  
   
-    -   SendIdoc operation. Directly under the IDOC node.  
+   -   SendIdoc operation. Directly under the IDOC node.  
   
-    -   Send operation. Under the node corresponding to the type, version and release number of the target IDOC.  
+   -   Send operation. Under the node corresponding to the type, version and release number of the target IDOC.  
   
-    -   RfcConfirmTransID operation. Directly under the TRFC node.  
+   -   RfcConfirmTransID operation. Directly under the TRFC node.  
   
-2.  Create an instance of the WCF client class generated in step 1, and specify a client binding. Specifying a client binding involves specifying the binding and endpoint address that the WCF client will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). The following code initializes an IdocClient (for the Send operation) from configuration and sets the credentials for the SAP system.  
+2. Create an instance of the WCF client class generated in step 1, and specify a client binding. Specifying a client binding involves specifying the binding and endpoint address that the WCF client will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). The following code initializes an IdocClient (for the Send operation) from configuration and sets the credentials for the SAP system.  
   
-    ```  
-    SAPBinding binding = new SAPBinding();  
+   ```  
+   SAPBinding binding = new SAPBinding();  
   
-    // Set endpoint address  
-    EndpointAddress endpointAddress = new EndpointAddress("sap://CLIENT=800;LANG=EN;@a/YourSAPHost/00?RfcSdkTrace=False&AbapDebug=False&UseSapGui=Without");  
+   // Set endpoint address  
+   EndpointAddress endpointAddress = new EndpointAddress("sap://CLIENT=800;LANG=EN;@a/YourSAPHost/00?RfcSdkTrace=False&AbapDebug=False&UseSapGui=Without");  
   
-    // Create client and set credentials  
-    idocClient = new IdocClient(binding, endpointAddress);  
-    idocClient.ClientCredentials.UserName.UserName = "YourUserName";  
-    idocClient.ClientCredentials.UserName.Password = "YourPassword";;  
-    ```  
+   // Create client and set credentials  
+   idocClient = new IdocClient(binding, endpointAddress);  
+   idocClient.ClientCredentials.UserName.UserName = "YourUserName";  
+   idocClient.ClientCredentials.UserName.Password = "YourPassword";;  
+   ```  
   
-3.  If you want the adapter to confirm the tRFC on the SAP system after it sends the IDOC, set the **AutoConfirmSentIdocs** binding property to **true**. You must do this before you open the WCF client.  
+3. If you want the adapter to confirm the tRFC on the SAP system after it sends the IDOC, set the **AutoConfirmSentIdocs** binding property to **true**. You must do this before you open the WCF client.  
   
-    ```  
-    // Set AutoConfirmSentIdocs property to true  
-    binding.AutoConfirmSentIdocs = true;  
-    ```  
+   ```  
+   // Set AutoConfirmSentIdocs property to true  
+   binding.AutoConfirmSentIdocs = true;  
+   ```  
   
-4.  Open the WCF client.  
+4. Open the WCF client.  
   
-    ```  
-    idocClient.Open();  
-    ```  
+   ```  
+   idocClient.Open();  
+   ```  
   
-5.  Invoke the appropriate method on the WCF client created in step 2 to send the IDOC to the SAP system. You can pass a variable that contains a GUID or that is set to **null** for the **guid** parameter. If you do not specify a GUID, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] generates one for the operation (**guid** is a **ref** parameter). The following code reads an IDOC (in string format) from a file and sends it to the SAP system by using the SendIdoc operation.  
+5. Invoke the appropriate method on the WCF client created in step 2 to send the IDOC to the SAP system. You can pass a variable that contains a GUID or that is set to **null** for the **guid** parameter. If you do not specify a GUID, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] generates one for the operation (**guid** is a **ref** parameter). The following code reads an IDOC (in string format) from a file and sends it to the SAP system by using the SendIdoc operation.  
   
-    ```  
-    // Read IDOC into string variable  
-    using (StreamReader reader = new StreamReader("ORDERS03.txt"))  
-    {  
-    idocData = reader.ReadToEnd();  
-    }  
+   ```  
+   // Read IDOC into string variable  
+   using (StreamReader reader = new StreamReader("ORDERS03.txt"))  
+   {  
+   idocData = reader.ReadToEnd();  
+   }  
   
-    //Get a new GUID to pass to SendIdoc. You can also assign a null  
-    //value to have the adapter generate a GUID.  
-    adapterTxGuid = Guid.NewGuid();  
+   //Get a new GUID to pass to SendIdoc. You can also assign a null  
+   //value to have the adapter generate a GUID.  
+   adapterTxGuid = Guid.NewGuid();  
   
-    //Invoke SendIdoc on the client to send the IDOC to the SAP system  
-    idocClient.SendIdoc(idocData, ref adapterTxGuid);  
-    ```  
+   //Invoke SendIdoc on the client to send the IDOC to the SAP system  
+   idocClient.SendIdoc(idocData, ref adapterTxGuid);  
+   ```  
   
-6.  If you did not set the **AutoConfirmSentIdocs** binding property to **true** (in step 3), then you must confirm the tRFC on the SAP system. To do this you must invoke the **RfcConfirmTransID** method on a **TrfcClient** (creation not shown). Specify the GUID returned in step 4 for the parameter.  
+6. If you did not set the **AutoConfirmSentIdocs** binding property to **true** (in step 3), then you must confirm the tRFC on the SAP system. To do this you must invoke the **RfcConfirmTransID** method on a **TrfcClient** (creation not shown). Specify the GUID returned in step 4 for the parameter.  
   
-    ```  
-    trfcClient.RfcConfirmTransID(adapterTxGuid);  
-    ```  
+   ```  
+   trfcClient.RfcConfirmTransID(adapterTxGuid);  
+   ```  
   
-7.  Close the WCF client (and **TrfcClient**, if used) when you are done using it (after you have finished sending IDOCs).  
+7. Close the WCF client (and **TrfcClient**, if used) when you are done using it (after you have finished sending IDOCs).  
   
-    ```  
-    idocClient.Close();   
-    ```  
+   ```  
+   idocClient.Close();   
+   ```  
   
 ### Example  
  The following example sends an IDOC to an SAP system by using the SendIdoc method. The IDOC is read from a file, ORDERS03.txt. This file contains an ORDERS03.V3.620 IDOC and is included with the samples; however, the SendIdoc operation can be used to send any IDOC.  

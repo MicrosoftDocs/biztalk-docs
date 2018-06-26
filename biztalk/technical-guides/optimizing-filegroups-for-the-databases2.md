@@ -19,17 +19,17 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
 ## Overview  
  Every BizTalk Server solution will eventually encounter file I/O contention as throughput is increased. The I/O subsystem, or storage engine, is a key component of any relational database. A successful database implementation typically requires careful planning at the early stages of a project. This planning should include consideration of the following issues:  
   
--   What type of disk hardware to use, such as RAID (redundant array of independent disks) devices. 
+- What type of disk hardware to use, such as RAID (redundant array of independent disks) devices. 
   
--   How to apportion data on the disks using files and filegroups. For more information about using files and filegroups in SQL Server, see [Database Files and Filegroups](https://docs.microsoft.com/sql/relational-databases/databases/database-files-and-filegroups).
+- How to apportion data on the disks using files and filegroups. For more information about using files and filegroups in SQL Server, see [Database Files and Filegroups](https://docs.microsoft.com/sql/relational-databases/databases/database-files-and-filegroups).
   
--   Implementing the optimal index design for improving performance when accessing data. For more information about designing indexes, see [Designing Indexes](https://docs.microsoft.com/sql/relational-databases/sql-server-index-design-guide).
+- Implementing the optimal index design for improving performance when accessing data. For more information about designing indexes, see [Designing Indexes](https://docs.microsoft.com/sql/relational-databases/sql-server-index-design-guide).
   
--   How to set SQL Server configuration parameters for optimal performance. For more information about setting optimal configuration parameters for SQL Server, see [Server Configuration Options](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server).
+- How to set SQL Server configuration parameters for optimal performance. For more information about setting optimal configuration parameters for SQL Server, see [Server Configuration Options](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server).
   
- One of the primary design goals of BizTalk Server is to ensure that a message is **never** lost. In order to mitigate the possibility of message loss, messages are frequently written to the MessageBox database as the message is processed. When messages are processed by an orchestration, the message is written to the MessageBox database at every persistence point in the orchestration. These persistence points cause the MessageBox to write the message and related state to physical disk. At higher throughputs, this persistence can result in considerable disk contention and can potentially become a bottleneck.  
+  One of the primary design goals of BizTalk Server is to ensure that a message is **never** lost. In order to mitigate the possibility of message loss, messages are frequently written to the MessageBox database as the message is processed. When messages are processed by an orchestration, the message is written to the MessageBox database at every persistence point in the orchestration. These persistence points cause the MessageBox to write the message and related state to physical disk. At higher throughputs, this persistence can result in considerable disk contention and can potentially become a bottleneck.  
   
- Making optimal use of the files and filegroups feature in SQL Server has been shown to effectively address File IO bottlenecks and improve overall performance in BizTalk Server solutions.  
+  Making optimal use of the files and filegroups feature in SQL Server has been shown to effectively address File IO bottlenecks and improve overall performance in BizTalk Server solutions.  
   
 > [!NOTE]  
 >  This optimization should only be done by an experienced SQL Server database administrator and only after all BizTalk Server databases have been properly backed up. This optimization should be performed on all SQL Server computers in the BizTalk Server environment.  
@@ -44,14 +44,14 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
   
  This topic describes how to manually apply file and filegroup optimizations, but these optimizations can also be scripted. A sample SQL script is provided in [BizTalk Server MessageBox Database Filegroups SQL Script](../technical-guides/biztalk-server-messagebox-database-filegroups-sql-script.md).  
   
-> [!NOTE]  
+> [!NOTE]
 >  It is important to note that this script would need to be modified to accommodate the file, filegroup, and disk configuration used by the SQL Server databases for any given BizTalk Server solution.  
-  
-> [!NOTE]  
+> 
+> [!NOTE]
 >  This topic also describes how to create multiple files and filegroups for the BizTalk MessageBox database. For an exhaustive list of recommended files and filegroups for all of the BizTalk Server databases, see “Appendix B” of the [BizTalk Server Database Optimization](http://go.microsoft.com/fwlink/?LinkID=101578) white paper (http://go.microsoft.com/fwlink/?LinkID=101578).  
-  
-> [!NOTE]  
->  Even though the [BizTalk Server Database Optimization](http://go.microsoft.com/fwlink/?LinkID=101578) white paper (http://go.microsoft.com/fwlink/?LinkID=101578) was written with [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] in mind, the same principles apply to BizTalk Server.  
+> 
+> [!NOTE]
+>  Even though the [BizTalk Server Database Optimization](http://go.microsoft.com/fwlink/?LinkID=101578) white paper (<http://go.microsoft.com/fwlink/?LinkID=101578>) was written with [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] in mind, the same principles apply to BizTalk Server.  
   
 ## Databases created with a default BizTalk Server configuration  
  Depending on which features are enabled when configuring BizTalk Server, up to 13 different databases may be created in SQL Server and all of these databases are created in the default filegroup. The default filegroup for SQL Server is the PRIMARY filegroup unless the default filegroup is changed by using the ALTER DATABASE command. The following table lists the databases that are created in SQL Server if all features are enabled when configuring BizTalk Server.  
@@ -121,17 +121,17 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
   
  To run this script, follow these steps:  
   
-1.  Open **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
+1. Open **SQL Server Management Studio** to display the **Connect to Server** dialog box.  
   
-2.  In the **Server name** edit box of the **Connect to Server** dialog box, enter the name of the SQL Server instance that houses the BizTalk Server MessageBox databases and click **Connect** to display the SQL Server Management Studio dialog box.  
+2. In the **Server name** edit box of the **Connect to Server** dialog box, enter the name of the SQL Server instance that houses the BizTalk Server MessageBox databases and click **Connect** to display the SQL Server Management Studio dialog box.  
   
-3.  In SQL Server Management Studio, click the **File** menu, point to **New**, and then click **Query with Current Connection** to start the SQL Query Editor.  
+3. In SQL Server Management Studio, click the **File** menu, point to **New**, and then click **Query with Current Connection** to start the SQL Query Editor.  
   
-4.  Copy the sample script from [BizTalk Server MessageBox Database Filegroups SQL Script](../technical-guides/biztalk-server-messagebox-database-filegroups-sql-script.md) into the Query Editor.  
+4. Copy the sample script from [BizTalk Server MessageBox Database Filegroups SQL Script](../technical-guides/biztalk-server-messagebox-database-filegroups-sql-script.md) into the Query Editor.  
   
-5.  Edit the parameters in the script to match your BizTalk Server environment, and execute the script.  
+5. Edit the parameters in the script to match your BizTalk Server environment, and execute the script.  
   
- The advantage to scripting is that scripts can perform multiple tasks quickly, can be reproduced precisely, and reduce the possibility of human error. The disadvantage of scripting is that the execution of an incorrectly written script can potentially cause serious problems that could require the BizTalk Server databases to be re-configured from scratch.  
+   The advantage to scripting is that scripts can perform multiple tasks quickly, can be reproduced precisely, and reduce the possibility of human error. The disadvantage of scripting is that the execution of an incorrectly written script can potentially cause serious problems that could require the BizTalk Server databases to be re-configured from scratch.  
   
 > [!IMPORTANT]  
 >  It is of utmost importance that SQL scripts such as the sample script in this guide are thoroughly tested before being executed in a production environment.  

@@ -72,17 +72,17 @@ Interceptor.OnStep(approvePO, data2, es, callback)
   
  Where:  
   
--   *recvPO* and *approvePO* are arbitrary objects you use to identify the steps in your application.  
+- *recvPO* and *approvePO* are arbitrary objects you use to identify the steps in your application.  
   
--   *data1* and *data2* are arbitrary objects that you have at that point and may contain interesting data – for example the XML document of the purchase order.  
+- *data1* and *data2* are arbitrary objects that you have at that point and may contain interesting data – for example the XML document of the purchase order.  
   
--   *es* is either DirectEventStream or BufferedEvent stream depending on your performance requirements.  
+- *es* is either DirectEventStream or BufferedEvent stream depending on your performance requirements.  
   
--   *callback* is your implementation of the `IBAMDataExtractor Interface`.  
+- *callback* is your implementation of the `IBAMDataExtractor Interface`.  
   
- The SDK sample, [BAM API (BizTalk Server Sample)](../core/bam-api-biztalk-server-sample.md), demonstrates using the Interceptor, which contains both a configuration tool and example runtime application.  
+  The SDK sample, [BAM API (BizTalk Server Sample)](../core/bam-api-biztalk-server-sample.md), demonstrates using the Interceptor, which contains both a configuration tool and example runtime application.  
   
- The BizTalk Orchestration Engine accommodates interception, which allows changing what data is collected for BAM at runtime using the Tracking Profile Editor.  
+  The BizTalk Orchestration Engine accommodates interception, which allows changing what data is collected for BAM at runtime using the Tracking Profile Editor.  
   
 ## In This Section  
   

@@ -24,16 +24,16 @@ Imports the artifacts contained in an .msi file into a BizTalk application. If t
   
  If the import fails, BTSTask returns displaying the number of errors. Most of the actions taken during the operation are rolled back, except the following:  
   
--   Actions taken by custom scripts are not rolled back. You can write your scripts so that they roll back by using the Delete environment variable.  
+- Actions taken by custom scripts are not rolled back. You can write your scripts so that they roll back by using the Delete environment variable.  
   
--   If assemblies were installed in the global assembly cache (GAC), they are not removed.  
+- If assemblies were installed in the global assembly cache (GAC), they are not removed.  
   
--   Entries make in the Windows registry are not removed.  
+- Entries make in the Windows registry are not removed.  
   
- If the import is successful, BTSTask returns "0".  
+  If the import is successful, BTSTask returns "0".  
   
 ## Usage  
- **BTSTask ImportApp /Package:** *value* [**/Environment:***value*] [**/ApplicationName:***value*] [**/Overwrite**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask ImportApp /Package:** *value* [**/Environment:**<em>value</em>] [**/ApplicationName:**<em>value</em>] [**/Overwrite**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

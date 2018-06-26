@@ -17,15 +17,15 @@ manager: "anneta"
 # The first element of the batch exceeded the character count release criteria set
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|FirstElementExceededCharCount|  
-|Message Text|The first element of the batch exceeded the character count release criteria set. Please change the character count release criteria to be able to process this message. The message will need to be resent to the batching system after the settings are modified|  
+|                 |                                                                                                                                                                                                                                                                    |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                         |
+| Product Version |                                                                                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                                     |
+|    Event ID     |                                                                                                                                 -                                                                                                                                  |
+|  Event Source   |                                                                                       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                                                       |
+|    Component    |                                                                                                                          Batching Engine                                                                                                                           |
+|  Symbolic Name  |                                                                                                                   FirstElementExceededCharCount                                                                                                                    |
+|  Message Text   | The first element of the batch exceeded the character count release criteria set. Please change the character count release criteria to be able to process this message. The message will need to be resent to the batching system after the settings are modified |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the batching orchestration could not generate the batched interchange because the number of characters in the first batch element picked up by the batching orchestration exceeded the number of characters specified by the "Maximum number of characters in an interchange" property of the batch release criteria. Note that the number of characters compared to the maximum does not include the number of characters in the envelope.  

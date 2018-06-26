@@ -35,9 +35,9 @@ In this step, you assign a strong name and build the project to generate an asse
   
 ### To build the BTAHL7 Project  
   
--   In Solution Explorer, right-click **BTAHL7 Project**, and then click **Deploy**. [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] compiles the assembly into a DLL file and saves it in the \<*drive*\>:\Tutorial\BTAHL7V22Common\Bin\Development folder.  
+- In Solution Explorer, right-click **BTAHL7 Project**, and then click **Deploy**. [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] compiles the assembly into a DLL file and saves it in the \<*drive*\>:\Tutorial\BTAHL7V22Common\Bin\Development folder.  
   
- Proceed to [Step 8: Create a Map with BizTalk Mapper](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md).  
+  Proceed to [Step 8: Create a Map with BizTalk Mapper](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

@@ -69,7 +69,7 @@ manager: "anneta"
  If no options are specified after *linkname*, the result is a list of the configuration settings for the specified link.  
   
  **/add**  
- Adds a link service called *linkname*. To configure the link service, either specify other options after **/add**, or specify configuration options in additional **snacfg link** commands (using the same *servername***:***linkname* combination).  
+ Adds a link service called *linkname*. To configure the link service, either specify other options after **/add**, or specify configuration options in additional **snacfg link** commands (using the same <em>servername</em>**:**<em>linkname</em> combination).  
   
  For adding link services, the recommended method is to use the SNA Manager, not **snacfg link**.  
   
@@ -86,14 +86,14 @@ manager: "anneta"
  **/linetype:{ leased**&#124; **softdial**&#124; **manual}**(for SDLC lines only)  
  Specifies the type of SDLC line (and, where applicable, the modem) that the link service will use:  
   
--   A **leased** line is a telecommunications line committed solely to SDLC communications with a particular remote system.  
+- A **leased** line is a telecommunications line committed solely to SDLC communications with a particular remote system.  
   
--   A **softdial** line is a switched SDLC line on which the modem is dialed automatically by Host Integration Server. Such a modem must be attached to an SDLC adapter with a built-in serial (COM) port. Otherwise it is considered a **manual** modem.  
+- A **softdial** line is a switched SDLC line on which the modem is dialed automatically by Host Integration Server. Such a modem must be attached to an SDLC adapter with a built-in serial (COM) port. Otherwise it is considered a **manual** modem.  
   
--   A **manual** line is a switched SDLC line on which the modem stores a phone number, or on which the modem is dialed manually.  
+- A **manual** line is a switched SDLC line on which the modem stores a phone number, or on which the modem is dialed manually.  
   
- **/carrier:{ on**&#124; **off}**(for SDLC lines only)  
- Specifies whether the constant carrier option for an SDLC line is **on** or **off**.  
+  **/carrier:{ on**&#124; **off}**(for SDLC lines only)  
+  Specifies whether the constant carrier option for an SDLC line is **on** or **off**.  
   
 ## See Also  
  [Snacfg Reference](../core/snacfg-reference2.md)

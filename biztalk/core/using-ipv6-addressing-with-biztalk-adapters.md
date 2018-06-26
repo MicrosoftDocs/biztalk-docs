@@ -20,11 +20,11 @@ BizTalk Server adapters support the use of IPv6 addressing. This topic describes
 ## IPv6 Address Nomenclature Used for a UNC Path  
  Follow these steps when specifying a literal IPv6 address in a UNC path:  
   
-1.  Replace any colon ":" characters with a dash "-" character.  
+1. Replace any colon ":" characters with a dash "-" character.  
   
-2.  Append the text "**.ipv6-literal.net**" to the IP address.  
+2. Append the text "**.ipv6-literal.net**" to the IP address.  
   
- For example, the nomenclature for a URI that points to a file share on a computer with the IPv6 address 2001:DB8:2a:1005:230:48ff:fe73:989d would be:  
+   For example, the nomenclature for a URI that points to a file share on a computer with the IPv6 address 2001:DB8:2a:1005:230:48ff:fe73:989d would be:  
   
 ```  
 \\2001-DB8-2a-1005-230-48ff-fe73-989d.ipv6-literal.net\<sharename\>  

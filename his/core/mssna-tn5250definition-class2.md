@@ -39,7 +39,7 @@ class MsSna_TN5250Definition : MsSna_Config
   
 #### Parameters  
  **Name**  
- Data Type: **String** Qualifiers**: Key,MAXLEN(10)** Access Type: Read/Write  
+ Data Type: **String** Qualifiers<strong>: Key,MAXLEN(10)</strong> Access Type: Read/Write  
   
  The session name.  
   
@@ -49,7 +49,7 @@ class MsSna_TN5250Definition : MsSna_Config
  The SNA service to which this session belongs.  
   
  **RemoteLUAlias**  
- Data Type: **String** Qualifiers: **MAXLEN(8)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(8)</strong>Access Type: Read/Write  
   
  The local LU alias used in the session.  
   
@@ -59,17 +59,17 @@ class MsSna_TN5250Definition : MsSna_Config
  The local LU alias used in the session.  
   
  **Comment**  
- Data Type: **String** Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   
  **User**  
- Data Type: **String** Qualifiers: **MAXLEN(10)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(10)</strong>Access Type: Read/Write  
   
  The AS/400 user name used in the session.  
   
  **Password**  
- Data Type: **String** Qualifiers: **MAXLEN(10)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(10)</strong>Access Type: Read/Write  
   
  The AS/400 password used in the session.  
   
@@ -83,28 +83,28 @@ class MsSna_TN5250Definition : MsSna_Config
   
  The terminal types allowed for the session. The following list describes the possible values for **TermType.**  
   
--   5555_C01  
+- 5555_C01  
   
--   5555_B01  
+- 5555_B01  
   
--   3477_FC  
+- 3477_FC  
   
--   3180_2  
+- 3180_2  
   
--   3179_2  
+- 3179_2  
   
--   3196_A1  
+- 3196_A1  
   
--   5292_2  
+- 5292_2  
   
--   5291_1  
+- 5291_1  
   
--   5251_11  
+- 5251_11  
   
- **Port**  
- Data Type: **sint32** Qualifiers: **MINVALUE(0), MAXVALUE(9999)**Access Type: Read/Write  
+  **Port**  
+  Data Type: **sint32** Qualifiers: <strong>MINVALUE(0), MAXVALUE(9999)</strong>Access Type: Read/Write  
   
- The port used for the session. By default the value is 0.  
+  The port used for the session. By default the value is 0.  
   
 ## Requirements  
  **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  

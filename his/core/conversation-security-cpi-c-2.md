@@ -18,14 +18,14 @@ You can use conversation security to require that the invoking transaction progr
   
  For the invoking TP, conversation security is activated and configured (with user identifier and password) through the symbolic destination name in SNA Manager or by the following calls, which override the symbolic destination name:  
   
--   [Set_Conversation_Security_Type](./set-conversation-security-type-cpi-c-1.md)  
+- [Set_Conversation_Security_Type](./set-conversation-security-type-cpi-c-1.md)  
   
--   [Set_Conversation_Security_User_ID](./set-conversation-security-user-id-cpi-c-1.md)  
+- [Set_Conversation_Security_User_ID](./set-conversation-security-user-id-cpi-c-1.md)  
   
--   [Set_Conversation_Security_Password](./set-conversation-security-password-cpi-c-1.md)  
+- [Set_Conversation_Security_Password](./set-conversation-security-password-cpi-c-1.md)  
   
- For the invokable TP, conversation security is activated and configured through registry or environment variables on the computer where the invokable TP is located.  
+  For the invokable TP, conversation security is activated and configured through registry or environment variables on the computer where the invokable TP is located.  
   
- With communication involving more than two TPs, the verification of a user identifier and password can be passed from one TP to another. Suppose that TP A invokes TP B, which requires security information, and TP B in turn invokes TP C, which also requires security information. TP B can inform TP C that conversation security has already been verified.  
+  With communication involving more than two TPs, the verification of a user identifier and password can be passed from one TP to another. Suppose that TP A invokes TP B, which requires security information, and TP B in turn invokes TP C, which also requires security information. TP B can inform TP C that conversation security has already been verified.  
   
- For information about the registry or environment variables affecting conversation security, see [Configuring Invokable TPs](../core/configuring-invokable-tps-cpi-c-1.md). For information about symbolic destination names and side information, see [Side Information for CPI-C Programs](../core/side-information-for-cpi-c-programs1.md).
+  For information about the registry or environment variables affecting conversation security, see [Configuring Invokable TPs](../core/configuring-invokable-tps-cpi-c-1.md). For information about symbolic destination names and side information, see [Side Information for CPI-C Programs](../core/side-information-for-cpi-c-programs1.md).

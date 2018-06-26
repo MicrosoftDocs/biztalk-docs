@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 1: Creating a New BizTalk Solution for the Contoso Price and Availability Request
-In this step, you create a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] solution for the Contoso Price and Availability Request project. This project will contain the schemas and maps for the requests and responses for the 3A2 Price and Availability messages.  
+In this step, you create a Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] solution for the Contoso Price and Availability Request project. This project will contain the schemas and maps for the requests and responses for the 3A2 Price and Availability messages.  
   
 ### To create a blank solution  
   

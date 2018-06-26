@@ -45,21 +45,21 @@ EndDoc
 |EditLine|Copied from BeginDoc reply|true|  
 |EndDoc|Copied from BeginDoc reply|false|  
   
--   For the first call, the adapter is free to choose any available session (because the SessionID is zero).  
+- For the first call, the adapter is free to choose any available session (because the SessionID is zero).  
   
--   The adapter returns the SessionID that was used in the BeginDoc reply.  
+- The adapter returns the SessionID that was used in the BeginDoc reply.  
   
--   The ReserveSession property tells the adapter to reserve this session for following calls that explicitly requests this session. No other calls can accidentally re-use the session because it is reserved.  
+- The ReserveSession property tells the adapter to reserve this session for following calls that explicitly requests this session. No other calls can accidentally re-use the session because it is reserved.  
   
--   Subsequent calls request the session by setting the SessionID to the value returned in BeginDoc.  
+- Subsequent calls request the session by setting the SessionID to the value returned in BeginDoc.  
   
--   The ReserveSession property is set to true, at least until the last call in the series.  
+- The ReserveSession property is set to true, at least until the last call in the series.  
   
--   The last call sets ReserveSession to false to make the session available to any following call. However, the orchestration can elect to keep the session for more calls.  
+- The last call sets ReserveSession to false to make the session available to any following call. However, the orchestration can elect to keep the session for more calls.  
   
- If the session is not used for a while, it will be garbage-collected by the pool, even if the session is still reserved by mistake.  
+  If the session is not used for a while, it will be garbage-collected by the pool, even if the session is still reserved by mistake.  
   
- Refer to BizTalk Server documentation for more details on message context properties.  
+  Refer to BizTalk Server documentation for more details on message context properties.  
   
 ## See Also  
  [Using Message Context Properties](../core/using-message-context-properties2.md)   

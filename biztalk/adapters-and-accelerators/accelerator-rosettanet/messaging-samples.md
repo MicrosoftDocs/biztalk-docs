@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Messaging Samples
-The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK) includes samples that demonstrate messaging functionality. This section provides detailed information about the functionality demonstrated by these samples, instructions for building and running the samples, and the results that you can expect.  
+The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK) includes samples that demonstrate messaging functionality. This section provides detailed information about the functionality demonstrated by these samples, instructions for building and running the samples, and the results that you can expect.  
   
 ## In This Section  
   

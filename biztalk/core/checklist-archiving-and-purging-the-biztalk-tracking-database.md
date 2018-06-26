@@ -20,6 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Checklist: Archiving and Purging the BizTalk Tracking Database
+
 |Step|Reference|  
 |----------|---------------|  
 |Read the Archiving and Purging overview to become more familiar with the process of archiving and purging tracking data.|[Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md)|  
@@ -29,6 +30,6 @@ manager: "anneta"
 |Optionally, you can manually purge data from the BizTalk Tracking (BizTalkDTADb) database.|[How to Manually Purge Data from the BizTalk Tracking Database](../core/how-to-manually-purge-data-from-the-biztalk-tracking-database.md)|  
 |Enable automatic validation of the archived data from the BizTalk Tracking (BizTalkDTADb) database.|[How to Enable Automatic Archive Validation](../core/how-to-enable-automatic-archive-validation.md)|  
 |Copy tracked messages into the BizTalk Tracking (BizTalkDTADb) database. This is required in order to purge data using the DTA Purge and Archive job.|[How to Copy Tracked Messages into the BizTalk Tracking Database](../core/how-to-copy-tracked-messages-into-the-biztalk-tracking-database.md)|  
-  
+
 ## See Also  
  [Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md)

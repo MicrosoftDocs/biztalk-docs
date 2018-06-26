@@ -52,7 +52,7 @@ manager: "anneta"
  Causes the display of the **snacfg** command that would create the specified downstream LU. The displayed command does not contain the word **snacfg**, so it can be redirected to a command file. See the information about command files earlier in this section.  
   
 ## Options for Downstream LUs  
- **/connection:**connectionname  
+ <strong>/connection:</strong>connectionname  
  Specifies the connection to which the downstream LU should be assigned or moved. When **/add** is used, this option is required.  
   
  **/lunumber:** *value*  

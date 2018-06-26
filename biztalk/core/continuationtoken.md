@@ -17,13 +17,13 @@ manager: "anneta"
 # ContinuationToken
 A continuation token is used to correlate heterogeneous information within the BAM infrastructure. Consider a business process that constructs the following types of messages:  
   
--   Purchase order identified by a purchase order number  
+- Purchase order identified by a purchase order number  
   
--   Sales order identified by a sales order number  
+- Sales order identified by a sales order number  
   
--   Shipping order identified by a shipping order number  
+- Shipping order identified by a shipping order number  
   
- In this process, there are three important identifiers: purchase order ID, sales order ID and shipping order ID. Each of these identifiers signals an important event in the lifetime of the original order, but they cannot be directly correlated. To track events related to a purchase order, the information that is common between the messages must be identified to help the BAM tracking infrastructure accurately correlate the events.  
+  In this process, there are three important identifiers: purchase order ID, sales order ID and shipping order ID. Each of these identifiers signals an important event in the lifetime of the original order, but they cannot be directly correlated. To track events related to a purchase order, the information that is common between the messages must be identified to help the BAM tracking infrastructure accurately correlate the events.  
   
 ## Format  
  A continuation token consists of an expression element and one or more operations:  
@@ -39,11 +39,11 @@ A continuation token is used to correlate heterogeneous information within the B
 ## Remarks  
  The following common operations are not allowed in ContinuationToken expressions:  
   
--   And  
+- And  
   
--   Equals  
+- Equals  
   
- [Operations section header in WF/WCF should have similar chart and other charts as needed]  
+  [Operations section header in WF/WCF should have similar chart and other charts as needed]  
   
 ## Example  
  In this example, a continuation token for a WF process is retrieved from the workflow by using `GetWorkflowProperty`. Here the developer decided to provide support for continuation in the workflow by using custom code, probably because the process for determining the continuation token involves more than two or three expressions and may rely on external data.  

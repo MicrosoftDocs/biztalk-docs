@@ -20,39 +20,39 @@ Before setting up tracing, decide the software components you want to trace, and
   
  **Internal Trace** types:  
   
--   Fatal Conditions  
+- Fatal Conditions  
   
--   Error Conditions  
+- Error Conditions  
   
--   Debug Conditions  
+- Debug Conditions  
   
--   Function Entry/Exit  
+- Function Entry/Exit  
   
--   State Transition  
+- State Transition  
   
--   Custom Conditions  
+- Custom Conditions  
   
- **Message Trace** types:  
+  **Message Trace** types:  
   
--   Internal Messages  
+- Internal Messages  
   
--   3270 Messages  
+- 3270 Messages  
   
--   LU 6.2 Messages  
+- LU 6.2 Messages  
   
- **API Trace** types:  
+  **API Trace** types:  
   
--   APPC API  
+- APPC API  
   
--   CPI-C API  
+- CPI-C API  
   
--   LUA API  
+- LUA API  
   
--   CSV API  
+- CSV API  
   
- **TN3270 Internal Trace** types:  
+  **TN3270 Internal Trace** types:  
   
--   TN3270 Internal Trace  
+- TN3270 Internal Trace  
   
 ## See Also  
  [SNA Trace Utility Overview](../core/sna-trace-utility-overview2.md)   

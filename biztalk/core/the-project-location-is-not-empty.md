@@ -17,15 +17,15 @@ manager: "anneta"
 # The project location is not empty
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|The project location "{0}" is not empty. You need to do one of the following: 1. Choose a different location for the new project, 2. Specify overwrite to reuse the existing location, or 3. Manually delete the contents of the project location.|  
+|                 |                                                                                                                                                                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                 |
+| Product Version |                                                                                             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                                                             |
+|    Event ID     |                                                                                                                         0                                                                                                                          |
+|  Event Source   |                                                                                                                         0                                                                                                                          |
+|    Component    |                                                                                                                         0                                                                                                                          |
+|  Symbolic Name  |                                                                                                                         0                                                                                                                          |
+|  Message Text   | The project location "{0}" is not empty. You need to do one of the following: 1. Choose a different location for the new project, 2. Specify overwrite to reuse the existing location, or 3. Manually delete the contents of the project location. |
   
 ## Explanation  
  This error indicates the virtual directory where the service is trying to be published is not empty.  

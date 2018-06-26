@@ -24,19 +24,19 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] can be use
   
 ## Add the SQL Adapter  
   
-1.  Open the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Open the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  Expand the **BizTalk Group**, expand **Platform Settings**, and then select **Adapters**.  
+2. Expand the **BizTalk Group**, expand **Platform Settings**, and then select **Adapters**.  
   
-3.  Right-click **Adapters**, point to **New**, and select **Adapter**.  
+3. Right-click **Adapters**, point to **New**, and select **Adapter**.  
   
-     ![Add an adapter](../../adapters-and-accelerators/media/c9610d42-8465-4099-b403-87df6dcd0d99.gif "c9610d42-8465-4099-b403-87df6dcd0d99")  
+    ![Add an adapter](../../adapters-and-accelerators/media/c9610d42-8465-4099-b403-87df6dcd0d99.gif "c9610d42-8465-4099-b403-87df6dcd0d99")  
   
-4.  In the **Adapter Properties** dialog box, enter a name for the adapter, and from the **Adapter** list, select **WCF-SQL**.  
+4. In the **Adapter Properties** dialog box, enter a name for the adapter, and from the **Adapter** list, select **WCF-SQL**.  
   
-     ![Add WCF&#45;SQL adapter to BizTalk](../../adapters-and-accelerators/adapter-sql/media/4c6e2650-5d3a-4de8-a60a-a136d93a6fcf.gif "4c6e2650-5d3a-4de8-a60a-a136d93a6fcf")  
+    ![Add WCF&#45;SQL adapter to BizTalk](../../adapters-and-accelerators/adapter-sql/media/4c6e2650-5d3a-4de8-a60a-a136d93a6fcf.gif "4c6e2650-5d3a-4de8-a60a-a136d93a6fcf")  
   
-5.  Select **OK**.  
+5. Select **OK**.  
   
 ## See Also  
  [Building blocks to develop BizTalk applications with the SQL adapter](../../adapters-and-accelerators/adapter-sql/building-blocks-to-develop-biztalk-applications-with-the-sql-adapter.md)

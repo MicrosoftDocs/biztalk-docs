@@ -20,15 +20,15 @@ When gathering information about system difficulties, it is best to start with i
   
  When you report system problems to Microsoft Customer Service and Support, a technician may ask you for trace files and other system information:  
   
--   Trace files  
+- Trace files  
   
--   Windows Event Logs  
+- Windows Event Logs  
   
--   The current configuration file (Com.cfg)  
+- The current configuration file (Com.cfg)  
   
--   Dump files, which may be created by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] when a system trap (exception error) occurs  
+- Dump files, which may be created by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] when a system trap (exception error) occurs  
   
--   Datascope traces of protocol exchanges  
+- Datascope traces of protocol exchanges  
   
 ## See Also  
  [SNA Trace Utility Fundamentals](../core/sna-trace-utility-fundamentals1.md)

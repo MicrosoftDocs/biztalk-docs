@@ -32,12 +32,12 @@ class MsSna_ServiceSharedFolder : MsSna_Service
   
 ## Properties  
  **Name**  
- Data Type: **String**Qualifiers: **Key, MAXLEN(16)**Access Type: Read-Only  
+ Data Type: **String**Qualifiers: <strong>Key, MAXLEN(16)</strong>Access Type: Read-Only  
   
  The Shared Folder Gateway service name. **Name** is the same as the computer name.  
   
  **Comment**  
- Data Type: **String**Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   

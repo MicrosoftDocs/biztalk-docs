@@ -22,11 +22,11 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables 
 ## How Does the Adapter Enable Transactions Through BizTalk Server?  
  To enable transactions on an SAP system using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]:  
   
--   Provides message context properties OPEN, REUSE, CLOSE, and ABORT.  
+- Provides message context properties OPEN, REUSE, CLOSE, and ABORT.  
   
--   Uses BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK to commit or abort the operations. These are exposed by the SAP system.  
+- Uses BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK to commit or abort the operations. These are exposed by the SAP system.  
   
- The following table lists some guidelines on using the properties with BAPI_TRANSACTION_COMMIT or BAPI_TRANSACTION_ROLLBACK:  
+  The following table lists some guidelines on using the properties with BAPI_TRANSACTION_COMMIT or BAPI_TRANSACTION_ROLLBACK:  
   
 |Message|OPEN|REUSE|CLOSE|ABORT|  
 |-------------|----------|-----------|-----------|-----------|  
@@ -49,34 +49,34 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables 
   
 ## Key Considerations Related to Transactions Using BizTalk Server  
   
--   If there is more than one send port in an orchestration, the adapter automatically separates transaction for messages received from each port. That is, a transaction cannot span across ports.  
+- If there is more than one send port in an orchestration, the adapter automatically separates transaction for messages received from each port. That is, a transaction cannot span across ports.  
   
--   Message retry attempts are not supported for messages in an SAP transaction. Therefore, users should set the message retry attempt to zero.  
+- Message retry attempts are not supported for messages in an SAP transaction. Therefore, users should set the message retry attempt to zero.  
   
--   The adapter might produce undesirable results for the combinations marked as "No" in the preceding table. You should use combinations marked as "Yes".  
+- The adapter might produce undesirable results for the combinations marked as "No" in the preceding table. You should use combinations marked as "Yes".  
   
--   Messages sent to the adapter that do not have a message context property will be executed normally without being bound to the current transaction context.  
+- Messages sent to the adapter that do not have a message context property will be executed normally without being bound to the current transaction context.  
   
--   BAPI_TRANSACTION_COMMIT or BAPI_TRANSACTION_ROLLBACK should ideally be the last message in the current transaction context in the orchestration.  
+- BAPI_TRANSACTION_COMMIT or BAPI_TRANSACTION_ROLLBACK should ideally be the last message in the current transaction context in the orchestration.  
   
- The following sections provide instructions on how to perform transactions in SAP using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  The following sections provide instructions on how to perform transactions in SAP using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## How to Perform a Transaction on an SAP System?  
  Performing an operation on an SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create SAP applications](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md). To perform transactions on an SAP system, these tasks are:  
   
-1.  Create a BizTalk project and generate schema for the RFC on which you want to perform the transaction. Additionally, you must generate schema for BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK RFCs.  
+1. Create a BizTalk project and generate schema for the RFC on which you want to perform the transaction. Additionally, you must generate schema for BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK RFCs.  
   
-2.  Create messages in the BizTalk project for sending and receiving messages from the SAP system.  
+2. Create messages in the BizTalk project for sending and receiving messages from the SAP system.  
   
-3.  Create an orchestration that extracts individual "operation messages" from the request message and sends it to the SAP system. Based on the request message, the orchestration also decides whether to commit or roll back the transaction.  
+3. Create an orchestration that extracts individual "operation messages" from the request message and sends it to the SAP system. Based on the request message, the orchestration also decides whether to commit or roll back the transaction.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Sample Based On This Topic  
  A sample, SAPTransaction, based on this topic is provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SAP adapter](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
@@ -84,15 +84,15 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables 
 ## Generating Schema  
  To demonstrate how to perform transactions on an SAP system, you need the following schemas:  
   
--   For the "operation message" to perform operations on an SAP system. The request message sent to the adapter must conform to this schema. This can be any user-specific schema containing any number of operation nodes. In this topic, the schema MultipleOrders.xsd is used. The schema is also provided as part of the transaction sample shipped with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] samples. For more information, see [Schema Samples](../../adapters-and-accelerators/accelerator-rosettanet/schema-samples.md).  
+- For the "operation message" to perform operations on an SAP system. The request message sent to the adapter must conform to this schema. This can be any user-specific schema containing any number of operation nodes. In this topic, the schema MultipleOrders.xsd is used. The schema is also provided as part of the transaction sample shipped with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] samples. For more information, see [Schema Samples](../../adapters-and-accelerators/accelerator-rosettanet/schema-samples.md).  
   
--   For performing the operations on an SAP system, such as invoking an RFC. The request message to perform an operation must conform to this schema. This schema must be generated by using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]. In this topic, the BAPI_SALESORDER_CREATEFROMDAT2 RFC is invoked. For information about generating schema for RFC, see [Browse, search and get Metadata for RFC Operations in SAP](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-rfc-operations-in-sap.md).  
+- For performing the operations on an SAP system, such as invoking an RFC. The request message to perform an operation must conform to this schema. This schema must be generated by using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]. In this topic, the BAPI_SALESORDER_CREATEFROMDAT2 RFC is invoked. For information about generating schema for RFC, see [Browse, search and get Metadata for RFC Operations in SAP](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-rfc-operations-in-sap.md).  
   
--   For aborting or committing a transaction. The request to commit or abort a transaction must conform to this schema. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK RFC to commit and rollback the operations respectively. You must generate schema for these RFCs using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+- For aborting or committing a transaction. The request to commit or abort a transaction must conform to this schema. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK RFC to commit and rollback the operations respectively. You must generate schema for these RFCs using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
 > [!NOTE]
 >  You must ensure that all the required schemas are added to the BizTalk project.  
-  
+> 
 > [!IMPORTANT]
 >  You must add a reference to the BizTalk property schema for [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to your BizTalk project. The schema file, *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*, is installed by the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup, typically at \<installation drive\>:\Program Files\Microsoft BizTalk Adapter Pack\bin.  
   
@@ -103,15 +103,15 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables 
   
  You must create the following messages in the BizTalk project.  
   
--   A message, SendtoAdapter, for the request message that will be sent to the orchestration. This message must be mapped to the schema for the input message, MultipleOrders.xsd.  
+- A message, SendtoAdapter, for the request message that will be sent to the orchestration. This message must be mapped to the schema for the input message, MultipleOrders.xsd.  
   
--   A message, BAPIMessage, for the first operation sent to the SAP system. You must also create a response message, BAPIResponse, for the response of the first operation. The request and response messages must be mapped to the schema generated for the BAPI_SALESORDER_CREATEFROMDAT2 RFC.  
+- A message, BAPIMessage, for the first operation sent to the SAP system. You must also create a response message, BAPIResponse, for the response of the first operation. The request and response messages must be mapped to the schema generated for the BAPI_SALESORDER_CREATEFROMDAT2 RFC.  
   
--   A message, BAPICommitMessage, for the commit operation. You must also create a response message, BAPICommitResponse, for the corresponding response message. The request and response messages must be mapped to the schema of BAPI_TRANSACTION_COMMIT RFC.  
+- A message, BAPICommitMessage, for the commit operation. You must also create a response message, BAPICommitResponse, for the corresponding response message. The request and response messages must be mapped to the schema of BAPI_TRANSACTION_COMMIT RFC.  
   
--   A message, BAPIRollbackMessage, for the rollback operation. You must also create a response message, BAPIRollbackResponse, for the corresponding response message. The request and response messages must be mapped to the schema of BAPI_TRANSACTION_ROLLBACK RFC.  
+- A message, BAPIRollbackMessage, for the rollback operation. You must also create a response message, BAPIRollbackResponse, for the corresponding response message. The request and response messages must be mapped to the schema of BAPI_TRANSACTION_ROLLBACK RFC.  
   
- Perform the following steps to create messages and link them to the schema.  
+  Perform the following steps to create messages and link them to the schema.  
   
 #### To create messages and link to schema  
   
@@ -144,19 +144,19 @@ The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables 
   
  Another consideration to make when creating an orchestration is to:  
   
--   Map the schema of the request message to that of the BAPI_SALESORDER_CREATEFROMDAT2 RFC.  
+- Map the schema of the request message to that of the BAPI_SALESORDER_CREATEFROMDAT2 RFC.  
   
--   Map the schema of the request message to that of the BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK RFC.  
+- Map the schema of the request message to that of the BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK RFC.  
   
- You can map the schemas by using an XML transform via a BizTalk map. To achieve this, include Transform shapes in the orchestration.  
+  You can map the schemas by using an XML transform via a BizTalk map. To achieve this, include Transform shapes in the orchestration.  
   
- Finally, based on whether the request message has information to commit or abort the transaction, the orchestration must decide on the appropriate message to be sent to the SAP system. To achieve this, include a Decide shape in the orchestration.  
+  Finally, based on whether the request message has information to commit or abort the transaction, the orchestration must decide on the appropriate message to be sent to the SAP system. To achieve this, include a Decide shape in the orchestration.  
   
- For more information about the different shapes included in the orchestration, see the **Orchestration Designer UI** [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
+  For more information about the different shapes included in the orchestration, see the **Orchestration Designer UI** [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
- A sample orchestration for an SAP transaction resembles the following.  
+  A sample orchestration for an SAP transaction resembles the following.  
   
- ![Orchestrations to perform transactions in SAP](../../adapters-and-accelerators/adapter-sap/media/727f82e9-51a9-4a94-9d0a-d05c17904bde.gif "727f82e9-51a9-4a94-9d0a-d05c17904bde")  
+  ![Orchestrations to perform transactions in SAP](../../adapters-and-accelerators/adapter-sap/media/727f82e9-51a9-4a94-9d0a-d05c17904bde.gif "727f82e9-51a9-4a94-9d0a-d05c17904bde")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the preceding orchestration.  
@@ -208,25 +208,25 @@ SendToAdapter.isCommit == true
 #### The First Construct Message Shape  
  Suppose the first Construct Message shape is called "ReceiveXML." For this shape, specify the Messages Constructed property as "BAPIMessage". Double-click the Transform shape to open the **Transform Configuration** dialog box. In the dialog box:  
   
--   Choose to create a new map.  
+- Choose to create a new map.  
   
--   From the left pane, select **Source** and from the **Variable name** drop-down select *SendToAdapter*.  
+- From the left pane, select **Source** and from the **Variable name** drop-down select *SendToAdapter*.  
   
--   From the left pane, select **Destination** and from the **Variable name** drop-down select *BAPIMessage*.  
+- From the left pane, select **Destination** and from the **Variable name** drop-down select *BAPIMessage*.  
   
--   Click **OK** to start the mapper. Map the schema of the request message to the schema of the BAPI_SALESORDER_CREATEFROMDAT2. You can use the **Index** functoid to create a map between the source and the destination schemas. An **Index** functoid enables you to select information for a specific record in a series of records.  
+- Click **OK** to start the mapper. Map the schema of the request message to the schema of the BAPI_SALESORDER_CREATEFROMDAT2. You can use the **Index** functoid to create a map between the source and the destination schemas. An **Index** functoid enables you to select information for a specific record in a series of records.  
   
-     The following figure shows the schemas mapped using an **Index** functoid.  
+   The following figure shows the schemas mapped using an **Index** functoid.  
   
-     ![Schemas mapped using an Index functoid](../../adapters-and-accelerators/adapter-sap/media/d0ade577-ea74-4be3-a724-4ba19397d8d3.gif "d0ade577-ea74-4be3-a724-4ba19397d8d3")  
+   ![Schemas mapped using an Index functoid](../../adapters-and-accelerators/adapter-sap/media/d0ade577-ea74-4be3-a724-4ba19397d8d3.gif "d0ade577-ea74-4be3-a724-4ba19397d8d3")  
   
-     For more information about using the **Transform Configuration** dialog box, see the **Transform Configuration Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
+   For more information about using the **Transform Configuration** dialog box, see the **Transform Configuration Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
-     For more information about using the Index functoid, see [Index Functoid](../../core/index-functoid.md).
+   For more information about using the Index functoid, see [Index Functoid](../../core/index-functoid.md).
        
-     After you have mapped the schemas, you can test the mapping using the property page of the map file. For more information, see the **<Map File> Property Page Dialog Box, Test Map** tab [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
+   After you have mapped the schemas, you can test the mapping using the property page of the map file. For more information, see the **<Map File> Property Page Dialog Box, Test Map** tab [!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)].
   
- In the Message Assignment shape, specify the message context property to start the transaction. For example, the message context property for the first message could be:  
+  In the Message Assignment shape, specify the message context property to start the transaction. For example, the message context property for the first message could be:  
   
 ```  
 BAPIMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState) = "OPEN";  
@@ -235,15 +235,15 @@ BAPIMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState) = "OPE
 #### The Commit Construct Message Shape  
  Suppose the Construct Message shape for the commit operation is called "CommitMessage." For this shape, specify the Messages Constructed property as "BAPICommitMessage". Double-click the Transform shape to open the **Transform Configuration** dialog box. In the dialog box:  
   
--   Choose to create a new map.  
+- Choose to create a new map.  
   
--   From the left pane, select **Source** and from the **Variable name** drop-down select *SendToAdapter*.  
+- From the left pane, select **Source** and from the **Variable name** drop-down select *SendToAdapter*.  
   
--   From the left pane, select **Destination** and from the **Variable name** drop-down select *BAPICommitMessage*.  
+- From the left pane, select **Destination** and from the **Variable name** drop-down select *BAPICommitMessage*.  
   
--   Click OK to launch the mapper. Map the schema of the request message to the schema of BAPI_TRANSACTION_COMMIT. You need not include an Index functoid for this mapping because the BAPI_TRANSACTION_COMMIT node does not contain a record hierarchy.  
+- Click OK to launch the mapper. Map the schema of the request message to the schema of BAPI_TRANSACTION_COMMIT. You need not include an Index functoid for this mapping because the BAPI_TRANSACTION_COMMIT node does not contain a record hierarchy.  
   
- In the Message Assignment shape, specify the message context property to commit the transaction. For example, the message context property for the first message could be:  
+  In the Message Assignment shape, specify the message context property to commit the transaction. For example, the message context property for the first message could be:  
   
 ```  
 BAPICommitMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState) = "CLOSE";  
@@ -252,15 +252,15 @@ BAPICommitMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState) 
 #### The Rollback Construct Message Shape  
  Suppose the Construct Message shape for the rollback operation is called "RollbackMessage." For this shape, specify the Messages Constructed property as "BAPIRollbackMessage". Double-click the Transform shape to open the **Transform Configuration** dialog box. In the dialog box:  
   
--   Choose to create a new map.  
+- Choose to create a new map.  
   
--   From the left pane, select **Source** and from the **Variable name** drop-down select *SendToAdapter*.  
+- From the left pane, select **Source** and from the **Variable name** drop-down select *SendToAdapter*.  
   
--   From the left pane, select **Destination** and from the **Variable name** drop-down select *BAPIRollbackMessage*.  
+- From the left pane, select **Destination** and from the **Variable name** drop-down select *BAPIRollbackMessage*.  
   
--   Click OK to launch the mapper. Map the schema of the request message to the schema of BAPI_TRANSACTION_ROLLBACK. You need not include an Index functoid for this mapping because the BAPI_TRANSACTION_ROLLBACK node does not contain a record hierarchy.  
+- Click OK to launch the mapper. Map the schema of the request message to the schema of BAPI_TRANSACTION_ROLLBACK. You need not include an Index functoid for this mapping because the BAPI_TRANSACTION_ROLLBACK node does not contain a record hierarchy.  
   
- In the Message Assignment shape, specify the message context property to rollback the transaction. For example, the message context property for the first message could be:  
+  In the Message Assignment shape, specify the message context property to rollback the transaction. For example, the message context property for the first message could be:  
   
 ```  
 BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState) = "ABORT";  
@@ -311,57 +311,57 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
   
  To catch the exception, you must add a **Catch Exception** block to the orchestration. **Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer. In the case of BAPI transactions, you must add the “ABORT” routine to the **Catch Exception** block, that is, you must add the following to the “ABORT” routine:  
   
--   A Construct Message shape consisting of a Transform (to extract the request message from the input message) and a Message Assignment shape (to set the context property)  
+- A Construct Message shape consisting of a Transform (to extract the request message from the input message) and a Message Assignment shape (to set the context property)  
   
--   Send and Receive shapes.  
+- Send and Receive shapes.  
   
- The SAP transaction sample for [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] (SAPTransaction) shipped with [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] demonstrates exception handling, too. For more information about the sample, see [Samples for the SAP adapter](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
+  The SAP transaction sample for [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] (SAPTransaction) shipped with [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] demonstrates exception handling, too. For more information about the sample, see [Samples for the SAP adapter](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
   
- For more information about how to handle exceptions, in general, using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Using Transactions and Handling Exceptions](../../core/using-transactions-and-handling-exceptions.md).
+  For more information about how to handle exceptions, in general, using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Using Transactions and Handling Exceptions](../../core/using-transactions-and-handling-exceptions.md).
   
 ## Add the BizTalk Property Schema to BizTalk  
  In your BizTalk project, you added an assembly reference to the BizTalk property schema for [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You must add the same assembly as a resource in the BizTalk application, that is, the application where the BizTalk project will be deployed. The schema file, *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*, is installed by the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup typically under \<installation drive\>:\Program Files\Microsoft BizTalk Adapter Pack\bin. Without this resource, you will not be able to deploy your project.  
   
 #### To add an assembly as a resource in BizTalk  
   
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  In the console tree, expand **BizTalk Group**, expand **Applications**, and then the application to which you want to add a BizTalk assembly.  
+2. In the console tree, expand **BizTalk Group**, expand **Applications**, and then the application to which you want to add a BizTalk assembly.  
   
-3.  Right-click **Resources**, point to **Add** and then click **BizTalk Assemblies**.  
+3. Right-click **Resources**, point to **Add** and then click **BizTalk Assemblies**.  
   
-4.  In the **Add Resource** dialog box, click **Add**, navigate to the folder containing the BizTalk assembly file, select the BizTalk assembly file, and then click **Open**.  
+4. In the **Add Resource** dialog box, click **Add**, navigate to the folder containing the BizTalk assembly file, select the BizTalk assembly file, and then click **Open**.  
   
-5.  In **Options**, specify the options for installing the BizTalk assembly to the GAC, and then click **OK**.  
+5. In **Options**, specify the options for installing the BizTalk assembly to the GAC, and then click **OK**.  
   
- You must now build the BizTalk solution and then deploy it to a BizTalk Server. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).
+   You must now build the BizTalk solution and then deploy it to a BizTalk Server. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).
   
 ## Configuring the BizTalk Application  
  After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the BizTalk Server Administration console. You must use the BizTalk Server Administration console to configure the application. For more information about configuring an application, see [How to Configure an Application](../../core/how-to-configure-an-application.md).
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SAP system.  
+  - Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SAP system.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SAP system.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SAP system.  
   
-    -   Define a physical WCF-Custom or WCF-SAP send port to send messages to the SAP system. For information about how to create ports, see [Manually configure a physical port binding to the SAP adapter](../../adapters-and-accelerators/adapter-sap/manually-configure-a-physical-port-binding-to-the-sap-adapter.md). Because the send port sends and receive messages conforming to more than one schema and performs two operations, you must set dynamic action for both the operations. For more information about actions, see [Configure the SOAP action for the SAP system](../../adapters-and-accelerators/adapter-sap/configure-the-soap-action-for-the-sap-system.md). Make sure you adhere to the following key considerations while creating a WCF-Custom or WCF-SAP send port to perform transactions.  
+  - Define a physical WCF-Custom or WCF-SAP send port to send messages to the SAP system. For information about how to create ports, see [Manually configure a physical port binding to the SAP adapter](../../adapters-and-accelerators/adapter-sap/manually-configure-a-physical-port-binding-to-the-sap-adapter.md). Because the send port sends and receive messages conforming to more than one schema and performs two operations, you must set dynamic action for both the operations. For more information about actions, see [Configure the SOAP action for the SAP system](../../adapters-and-accelerators/adapter-sap/configure-the-soap-action-for-the-sap-system.md). Make sure you adhere to the following key considerations while creating a WCF-Custom or WCF-SAP send port to perform transactions.  
   
-        |Set the following|To this value|  
-        |-----------------------|-------------------|  
-        |Action|The send port sends and receives messages for more than one operation. So, the action on the send port must be set for each operation.<br /><br /> `<BtsActionMapping>   <Operation Name="BAPIMessage" Action="http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_SALESORDER_CREATEFROMDAT2" />   <Operation Name="CommitMessage" Action="http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_TRANSACTION_COMMIT" />   <Operation Name="RollbackMessage" Action="http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_TRANSACTION_ROLLBACK" /> </BtsActionMapping>`|  
-        |EnableBizTalkCompatibilityMode|Set this binding property to **True**.|  
-        |EnableConnectionPooling|Set this binding property to **False** before performing any transactions. In scenarios where the channel set up between the adapter and BizTalk is unexpectedly terminated, the corresponding connection is added to the connection pool. When another channel is opened, and the new channel picks the same connection object, the uncommitted transactions on the old connection object will also be committed when the transactions are committed over the new channel. To avoid this, connection pooling must be disabled while performing transactions.|  
+    |Set the following|To this value|  
+    |-----------------------|-------------------|  
+    |Action|The send port sends and receives messages for more than one operation. So, the action on the send port must be set for each operation.<br /><br /> `<BtsActionMapping>   <Operation Name="BAPIMessage" Action="http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_SALESORDER_CREATEFROMDAT2" />   <Operation Name="CommitMessage" Action="http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_TRANSACTION_COMMIT" />   <Operation Name="RollbackMessage" Action="http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_TRANSACTION_ROLLBACK" /> </BtsActionMapping>`|  
+    |EnableBizTalkCompatibilityMode|Set this binding property to **True**.|  
+    |EnableConnectionPooling|Set this binding property to **False** before performing any transactions. In scenarios where the channel set up between the adapter and BizTalk is unexpectedly terminated, the corresponding connection is added to the connection pool. When another channel is opened, and the new channel picks the same connection object, the uncommitted transactions on the old connection object will also be committed when the transactions are committed over the new channel. To avoid this, connection pooling must be disabled while performing transactions.|  
   
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Server Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
-  
-        > [!IMPORTANT]
-        >  You can configure a backup transport on a WCF-Custom or WCF-SAP send port that enables you to send messages to another SAP system if the primary transport fails to function. However, for performing transactions on an SAP system, the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] does not support specifying a backup transport pointing to another SAP server.  
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Server Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
+    > 
+    > [!IMPORTANT]
+    >  You can configure a backup transport on a WCF-Custom or WCF-SAP send port that enables you to send messages to another SAP system if the primary transport fails to function. However, for performing transactions on an SAP system, the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] does not support specifying a backup transport pointing to another SAP server.  
   
 ## Starting the Application  
  You must start the BizTalk application performing transactions an SAP system. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md), [How to Start an application](../../core/how-to-start-and-stop-a-biztalk-application.md).

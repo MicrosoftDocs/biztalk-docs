@@ -28,25 +28,25 @@ You can use this procedure to move the BAM Star Schema database to another serve
   
 #### To move the BAM Star Schema database  
   
-1.  Stop any BAM cube update and data maintenance SSIS packages, or prevent them from running until you have restored the BAM Star Schema database.  
+1. Stop any BAM cube update and data maintenance SSIS packages, or prevent them from running until you have restored the BAM Star Schema database.  
   
-2.  Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (http://go.microsoft.com/fwlink/?LinkId=154394) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+2. Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (<http://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
-3.  Stop the IIS service.  
+3. Stop the IIS service.  
   
-4.  Stop the BAM Alerts Notification service:  
+4. Stop the BAM Alerts Notification service:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  At the command prompt, type:  
+   2.  At the command prompt, type:  
   
-         **Net stop NS$BamAlerts**  
+        **Net stop NS$BamAlerts**  
   
-5.  Back up the BAM Star Schema database on the old server. For instructions on backing up a database, follow the instructions at [How to: Back Up a Database (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156510) (http://go.microsoft.com/fwlink/?LinkId=156510) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to back up a database.  
+5. Back up the BAM Star Schema database on the old server. For instructions on backing up a database, follow the instructions at [How to: Back Up a Database (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156510) (<http://go.microsoft.com/fwlink/?LinkId=156510>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to back up a database.  
   
-6.  Copy the BAM Star Schema database to the new [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
+6. Copy the BAM Star Schema database to the new [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
   
-7.  Restore the BAM Star Schema database on the new server. For instructions on restoring the database, follow the instructions at [How to: Restore a Database Backup (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (http://go.microsoft.com/fwlink/?LinkId=156511) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to restore a database.  
+7. Restore the BAM Star Schema database on the new server. For instructions on restoring the database, follow the instructions at [How to: Restore a Database Backup (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (<http://go.microsoft.com/fwlink/?LinkId=156511>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to restore a database.  
   
 ##  <a name="BKMK_StarUpdate"></a> Updating References to the New BAM Star Schema Database  
  After you have moved the database, you must update all the references to the new BAM Star Schema Database. The following references must be updated:  
@@ -59,46 +59,46 @@ You can use this procedure to move the BAM Star Schema database to another serve
   
 ###  <a name="BKMK_StarUpdateBAMConfig"></a> To update the BAM configuration  
   
-1.  Get a copy of the .xml file used for restoring BAM:  
+1. Get a copy of the .xml file used for restoring BAM:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  On a computer running BizTalk Server, browse to the following folder:  
+   2. On a computer running BizTalk Server, browse to the following folder:  
   
-        -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
-  
-             **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\Tracking**  
-  
-        -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
-  
-             **%ProgramFiles%\Microsoft BizTalk Server 2010\Tracking**  
-  
-    3.  At the command prompt, type:  
-  
-         **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername\> -database:\<database\>**  
-  
-        > [!NOTE]  
-        >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](http://go.microsoft.com/fwlink/?LinkId=156516) (http://go.microsoft.com/fwlink/?LinkId=156516) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
-  
-2.  Edit the BAMConfiguration.xml file and change the **ServerName** in the `<DeploymentUnit Name="StarSchemaDatabase">` section to the new server name.  
-  
-3.  Save and close the BAMConfiguration.xml file.  
-  
-4.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
-  
-5.  On a computer running BizTalk Server, browse to the following folder:  
-  
-    -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
+      - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
   
          **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\Tracking**  
   
-    -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
+      - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
   
          **%ProgramFiles%\Microsoft BizTalk Server 2010\Tracking**  
   
-6.  At the command prompt, type:  
+   3. At the command prompt, type:  
   
-     **bm.exe update-config -FileName:BAMConfiguration.xml**  
+       **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername\> -database:\<database\>**  
+  
+      > [!NOTE]
+      >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](http://go.microsoft.com/fwlink/?LinkId=156516) (<http://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+  
+2. Edit the BAMConfiguration.xml file and change the **ServerName** in the `<DeploymentUnit Name="StarSchemaDatabase">` section to the new server name.  
+  
+3. Save and close the BAMConfiguration.xml file.  
+  
+4. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+  
+5. On a computer running BizTalk Server, browse to the following folder:  
+  
+   - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
+  
+      **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\Tracking**  
+  
+   - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
+  
+      **%ProgramFiles%\Microsoft BizTalk Server 2010\Tracking**  
+  
+6. At the command prompt, type:  
+  
+    **bm.exe update-config -FileName:BAMConfiguration.xml**  
   
 ###  <a name="BKMK_StarUpdateRef"></a> To update server and database names in all BAM SSIS packages  
   
@@ -161,27 +161,27 @@ You can use this procedure to move the BAM Star Schema database to another serve
   
 ###  <a name="BKMK_UpdateDS_non_OLAP"></a> To update server and database names in data sources for all non-OLAP cubes  
   
-1.  Update the server and database names in data sources for all non-OLAP cubes. To do so, click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2** or **Microsoft SQL Server 2008 SP1**, and then click **SQL Server Management Studio**.  
+1. Update the server and database names in data sources for all non-OLAP cubes. To do so, click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2** or **Microsoft SQL Server 2008 SP1**, and then click **SQL Server Management Studio**.  
   
-2.  In the **Connect to Server** dialog box, for the **Server type** drop-down list select **Analysis Services**, provide the server name, select an authentication method (and provide credentials if required), and then click **Connect**.  
+2. In the **Connect to Server** dialog box, for the **Server type** drop-down list select **Analysis Services**, provide the server name, select an authentication method (and provide credentials if required), and then click **Connect**.  
   
-3.  In the Object Explorer, expand **Databases**, expand **BAMAnalysis**, expand **Data Sources**, and then double-click a data source.  
+3. In the Object Explorer, expand **Databases**, expand **BAMAnalysis**, expand **Data Sources**, and then double-click a data source.  
   
-4.  In the **Data Source Properties** dialog box, click the ellipsis button **(…)** against the **Connection String** property.  
+4. In the **Data Source Properties** dialog box, click the ellipsis button **(…)** against the **Connection String** property.  
   
-5.  In the **Connection Manager** dialog box, in the **Server name** box, enter the name of the server hosting the BAMStarSchema database, click **OK**, and then click **OK**.  
+5. In the **Connection Manager** dialog box, in the **Server name** box, enter the name of the server hosting the BAMStarSchema database, click **OK**, and then click **OK**.  
   
-6.  Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (http://go.microsoft.com/fwlink/?LinkId=154394) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+6. Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (<http://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
-7.  Start the IIS service.  
+7. Start the IIS service.  
   
-8.  Start the BAM Alerts Notification service:  
+8. Start the BAM Alerts Notification service:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  At the command prompt, type:  
+   2.  At the command prompt, type:  
   
-         **Net start NS$BamAlerts**  
+        **Net start NS$BamAlerts**  
   
 9. Resolve any incomplete trace instances.  For information about resolving incomplete BAM activity instances, see [How to Resolve Incomplete Activity Instances](http://go.microsoft.com/fwlink/?LinkId=151475) (http://go.microsoft.com/fwlink/?LinkId=151475).  
   

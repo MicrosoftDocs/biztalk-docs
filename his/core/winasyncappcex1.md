@@ -44,65 +44,65 @@ longlpVcb);
   
  APPC verbs used in basic conversations that can block are as follows:  
   
--   [ALLOCATE](../core/allocate2.md)  
+- [ALLOCATE](../core/allocate2.md)  
   
--   [CONFIRM](../core/confirm2.md)  
+- [CONFIRM](../core/confirm2.md)  
   
--   [CONFIRMED](../core/confirmed1.md)  
+- [CONFIRMED](../core/confirmed1.md)  
   
--   [DEALLOCATE](../core/deallocate2.md)  
+- [DEALLOCATE](../core/deallocate2.md)  
   
--   [FLUSH](../core/flush2.md)  
+- [FLUSH](../core/flush2.md)  
   
--   [PREPARE_TO_RECEIVE](../core/prepare-to-receive2.md)  
+- [PREPARE_TO_RECEIVE](../core/prepare-to-receive2.md)  
   
--   [RECEIVE_ALLOCATE](../core/receive-allocate1.md)  
+- [RECEIVE_ALLOCATE](../core/receive-allocate1.md)  
   
--   [RECEIVE_AND_WAIT](../core/receive-and-wait2.md)  
+- [RECEIVE_AND_WAIT](../core/receive-and-wait2.md)  
   
--   [REQUEST_TO_SEND](../core/request-to-send1.md)  
+- [REQUEST_TO_SEND](../core/request-to-send1.md)  
   
--   [SEND_CONVERSATION](../core/send-conversation2.md)  
+- [SEND_CONVERSATION](../core/send-conversation2.md)  
   
--   [SEND_DATA](../core/send-data1.md)  
+- [SEND_DATA](../core/send-data1.md)  
   
--   [SEND_ERROR](../core/send-error2.md)  
+- [SEND_ERROR](../core/send-error2.md)  
   
--   [TP_ENDED](../core/tp-ended1.md)  
+- [TP_ENDED](../core/tp-ended1.md)  
   
--   [TP_STARTED](../core/tp-started2.md)  
+- [TP_STARTED](../core/tp-started2.md)  
   
- APPC verbs used in mapped conversations that can block are as follows:  
+  APPC verbs used in mapped conversations that can block are as follows:  
   
--   [MC_ALLOCATE](../core/mc-allocate2.md)  
+- [MC_ALLOCATE](../core/mc-allocate2.md)  
   
--   [MC_CONFIRM](../core/mc-confirm2.md)  
+- [MC_CONFIRM](../core/mc-confirm2.md)  
   
--   [MC_CONFIRMED](../core/mc-confirmed1.md)  
+- [MC_CONFIRMED](../core/mc-confirmed1.md)  
   
--   [MC_DEALLOCATE](../core/mc-deallocate2.md)  
+- [MC_DEALLOCATE](../core/mc-deallocate2.md)  
   
--   [MC_FLUSH](../core/mc-flush1.md)  
+- [MC_FLUSH](../core/mc-flush1.md)  
   
--   [MC_PREPARE_TO_RECEIVE](../core/mc-prepare-to-receive1.md)  
+- [MC_PREPARE_TO_RECEIVE](../core/mc-prepare-to-receive1.md)  
   
--   [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md)  
+- [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md)  
   
--   [MC_REQUEST_TO_SEND](../core/mc-request-to-send1.md)  
+- [MC_REQUEST_TO_SEND](../core/mc-request-to-send1.md)  
   
--   [MC_SEND_CONVERSATION](../core/mc-send-conversation1.md)  
+- [MC_SEND_CONVERSATION](../core/mc-send-conversation1.md)  
   
--   [MC_SEND_DATA](../core/mc-send-data1.md)  
+- [MC_SEND_DATA](../core/mc-send-data1.md)  
   
--   [MC_SEND_ERROR](../core/mc-send-error2.md)  
+- [MC_SEND_ERROR](../core/mc-send-error2.md)  
   
--   [RECEIVE_ALLOCATE](../core/receive-allocate1.md)  
+- [RECEIVE_ALLOCATE](../core/receive-allocate1.md)  
   
--   [TP_ENDED](../core/tp-ended1.md)  
+- [TP_ENDED](../core/tp-ended1.md)  
   
--   [TP_STARTED](../core/tp-started2.md)  
+- [TP_STARTED](../core/tp-started2.md)  
   
- When using the synchronous or asynchronous versions of a verb, an application can only have one outstanding function in progress on a conversation at a time. An attempt to initiate a second function results in the error code AP_CONV_BUSY.  
+  When using the synchronous or asynchronous versions of a verb, an application can only have one outstanding function in progress on a conversation at a time. An attempt to initiate a second function results in the error code AP_CONV_BUSY.  
   
 > [!NOTE]
 >  The exceptions to the preceding paragraph are [RECEIVE_AND_POST](../core/receive-and-post1.md), [MC_RECEIVE_AND_POST](../core/mc-receive-and-post2.md), [RECEIVE_AND_WAIT](../core/receive-and-wait2.md), and [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md).  

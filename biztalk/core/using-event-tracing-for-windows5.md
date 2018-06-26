@@ -30,34 +30,34 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise logs error, warning, and inf
 ## ETW Components  
  Event Tracing for Windows has three components:  
   
--   **Controller application**: Activates and deactivates a provider (for example, tracelog.exe or logman.exe).  
+- **Controller application**: Activates and deactivates a provider (for example, tracelog.exe or logman.exe).  
   
-     You set your PATH environment variable to point to the location of tracelog.exe. This makes sure that `BTAPeopleSoftTrace` calls can locate tracelog.exe in the system. By default, BTAPeopleSoftTrace searches the current path.  
+   You set your PATH environment variable to point to the location of tracelog.exe. This makes sure that `BTAPeopleSoftTrace` calls can locate tracelog.exe in the system. By default, BTAPeopleSoftTrace searches the current path.  
   
-    > [!NOTE]
-    >  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by BizTalk Adapter for PeopleSoft Enterprise. To use logman.exe, see the logman documentation.  
+  > [!NOTE]
+  >  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by BizTalk Adapter for PeopleSoft Enterprise. To use logman.exe, see the logman documentation.  
   
--   **Consumer application**: Reads logged events.  
+- **Consumer application**: Reads logged events.  
   
-     For the consumer application to be able to read the event in the .etl file, Event Tracing for Windows must dump them into that file. Typically this is done when the controller deactivates the tracing.  
+   For the consumer application to be able to read the event in the .etl file, Event Tracing for Windows must dump them into that file. Typically this is done when the controller deactivates the tracing.  
   
-     To use the consumer without deactivating the trace, the controller must activate the trace with the real time option, \<Real time\> = -rt.  
+   To use the consumer without deactivating the trace, the controller must activate the trace with the real time option, \<Real time\> = -rt.  
   
--   **Provider:** Provides the event.  
+- **Provider:** Provides the event.  
   
-     BizTalk Adapter for PeopleSoft Enterprise has five different providers. They are registered in Windows Management Instrumentation (WMI). To find the registered providers in the **root\WMI\EventTrace** path, you can use tools such as WMI CIM Studio.  
+   BizTalk Adapter for PeopleSoft Enterprise has five different providers. They are registered in Windows Management Instrumentation (WMI). To find the registered providers in the **root\WMI\EventTrace** path, you can use tools such as WMI CIM Studio.  
   
- BizTalk Adapter for PeopleSoft Enterprise has five providers, allowing you to log different kinds of messages:  
+  BizTalk Adapter for PeopleSoft Enterprise has five providers, allowing you to log different kinds of messages:  
   
--   **Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.  
+- **Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.  
   
--   **Receiver CastDetails Provider**: The \<Trace element\> switch is **-castDetailsReceive**.  
+- **Receiver CastDetails Provider**: The \<Trace element\> switch is **-castDetailsReceive**.  
   
--   **Transmitter Logging Provider**: The \<Trace element\> switch is **-transmitter**.  
+- **Transmitter Logging Provider**: The \<Trace element\> switch is **-transmitter**.  
   
--   **Transmitter CastDetails Provider**: The \<Trace element\> switch is **-castDetailsTransmit**.  
+- **Transmitter CastDetails Provider**: The \<Trace element\> switch is **-castDetailsTransmit**.  
   
--   **Management Logging Provider**: The \<Trace element\> switch is **-management**.  
+- **Management Logging Provider**: The \<Trace element\> switch is **-management**.  
   
 ## BTAPeopleSoftTrace Command  
  To use ETW, run the adapter command, **BTAPeopleSoftTrace.cmd**. You use this command as follows:  
@@ -70,31 +70,31 @@ BTAPeopleSoftTrace <Trace element> -stop
   
  Where:  
   
--   \<Trace element\> (required) is the kind of provider.  
+- \<Trace element\> (required) is the kind of provider.  
   
-     Options are as follows:  
+   Options are as follows:  
   
-    -   **-castDetailsTransmit**  
+  -   **-castDetailsTransmit**  
   
-    -   **-transmitter**  
+  -   **-transmitter**  
   
-    -   **-castDetailsReceive**  
+  -   **-castDetailsReceive**  
   
-    -   **-receiver**  
+  -   **-receiver**  
   
-    -   **-management**  
+  -   **-management**  
   
-    -   **-start, -stop**: Activate or deactivate the provider.  
+  -   **-start, -stop**: Activate or deactivate the provider.  
   
--   **-cir \<MB\>**: Size and kind of file. -cir is a circular file. \<MB\>: Size in megabytes.  
+- **-cir \<MB\>**: Size and kind of file. -cir is a circular file. \<MB\>: Size in megabytes.  
   
--   **-seq \<MB\>**: Size and kind of file. -seq is a sequential file. \<MB\>: Size in megabytes.  
+- **-seq \<MB\>**: Size and kind of file. -seq is a sequential file. \<MB\>: Size in megabytes.  
   
--   **-rt**: Set the real time mode on.  
+- **-rt**: Set the real time mode on.  
   
--   **Logfile**: Name of the log file (C:\rtlog.etl is the default).  
+- **Logfile**: Name of the log file (C:\rtlog.etl is the default).  
   
- For example:  
+  For example:  
   
 ```  
 BTAPeopleSoftTrace -transmitter -start -cir 10 -rt C:\log\mylog.etl  

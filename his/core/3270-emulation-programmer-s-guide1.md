@@ -20,23 +20,23 @@ This section provides information for independent software vendors who are devel
   
  To use this section of the guide effectively, you should be familiar with:  
   
--   Host Integration Server  
+- Host Integration Server  
   
--   Windows operating system  
+- Windows operating system  
   
--   System Network Architecture (SNA) concepts  
+- System Network Architecture (SNA) concepts  
   
- **Operating systems support for 3270 development**  
+  **Operating systems support for 3270 development**  
   
- Host Integration Server supports the development of 3270 client applications for Windows operating systems.  
+  Host Integration Server supports the development of 3270 client applications for Windows operating systems.  
   
- **Network operating systems support for 3270 development**  
+  **Network operating systems support for 3270 development**  
   
- Host Integration Server supports the following network operating systems:  
+  Host Integration Server supports the following network operating systems:  
   
--   TCP/IP  
+- TCP/IP  
   
- For API references and other technical information about the 3270 Emulator, see the [3270 Emulator Programmer's Reference](3270-emulation-programmer-s-reference2.md) section of the SDK.  
+  For API references and other technical information about the 3270 Emulator, see the [3270 Emulator Programmer's Reference](3270-emulation-programmer-s-reference2.md) section of the SDK.  
   
 ## Next steps
   

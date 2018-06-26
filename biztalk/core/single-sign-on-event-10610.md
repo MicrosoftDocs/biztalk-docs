@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10610
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10610|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_CRED_CACHE_FAILED|  
-|Message Text|The credential cache has encountered an unexpected error and has shut down. This may affect performance.%r<br /><br /> Error Code: %1|  
+|                 |                                                                                                                                       |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                       Enterprise Single Sign-On                                                       |
+| Product Version |                                      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                       |
+|    Event ID     |                                                                 10610                                                                 |
+|  Event Source   |                                                                ENTSSO                                                                 |
+|    Component    |                                                                  N/A                                                                  |
+|  Symbolic Name  |                                                      SSO_WARN_CRED_CACHE_FAILED                                                       |
+|  Message Text   | The credential cache has encountered an unexpected error and has shut down. This may affect performance.%r<br /><br /> Error Code: %1 |
   
 ## Explanation  
  The credential cache has encountered an unexpected error and has shut down. While this may affect performance, it will not affect functionality.  

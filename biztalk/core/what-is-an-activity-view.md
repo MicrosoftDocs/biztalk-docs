@@ -27,26 +27,26 @@ An activity view contains the imported BAM activity definition that you create w
 ## Activity view elements  
  The activity view displays the overall structure of the tracking profile in tree view and includes the following elements:  
   
--   Milestones  
+- Milestones  
   
--   Data items for the activity  
+- Data items for the activity  
   
--   Event sources  
+- Event sources  
   
--   Data sources  
+- Data sources  
   
- **Milestones**: Milestones are objects which define a point in a given process. Milestones are accessed in one of three ways:  
+  **Milestones**: Milestones are objects which define a point in a given process. Milestones are accessed in one of three ways:  
   
--   You can drag a shape from an orchestration schedule, and the end-time for that shape’s execution is reported by BAM as the milestone value.  
+- You can drag a shape from an orchestration schedule, and the end-time for that shape’s execution is reported by BAM as the milestone value.  
   
--   You can drag a messaging property, from a schematic representation on the right, to a target milestone.  
+- You can drag a messaging property, from a schematic representation on the right, to a target milestone.  
   
--   You can drag a message payload schema node which contains a milestone value.  
+- You can drag a message payload schema node which contains a milestone value.  
   
-    > [!NOTE]
-    >  The DATETIME ONLY type schema nodes are evaluated at run time. Any conversion or casting problem at run time results in a tracking error being placed in the event log.  
+  > [!NOTE]
+  >  The DATETIME ONLY type schema nodes are evaluated at run time. Any conversion or casting problem at run time results in a tracking error being placed in the event log.  
   
- **Data items**: Data items are objects which define a particular element from an XML schema for a message instance, system, or promoted property. You access the data item by expanding the schema to find and select the element you are interested in and dragging the element to the correct data item type folder. Information about the data items (for example, XPath) is stored in the profile.  
+  **Data items**: Data items are objects which define a particular element from an XML schema for a message instance, system, or promoted property. You access the data item by expanding the schema to find and select the element you are interested in and dragging the element to the correct data item type folder. Information about the data items (for example, XPath) is stored in the profile.  
   
 > [!NOTE]
 >  TPE supports only data items that have a zero-to-one representation as defined in the message schema for a particular data field. Errors may occur in orchestration tracking when there are data items that have one-to-many representations. In these situations no data is stored in the BAM Primary Import database. If an error does not occur, then there is no guarantee which of the data item is tracked.  

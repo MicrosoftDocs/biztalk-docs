@@ -21,15 +21,15 @@ The remainder of this topic provides alternative methods for reading message con
 ## Use streaming when sending or receiving large messages with a WCF transport  
  When sending or receiving large messages with a WCF transport, use the WCF-Custom or WCF-CustomIsolated adapter and configure with a binding type that supports the **transferMode = Streamed** option, such as the following bindings:  
   
--   **basicHttpBinding + BasicHttpBindingElement, transferMode = Streamed**  
+- **basicHttpBinding + BasicHttpBindingElement, transferMode = Streamed**  
   
--   **netTcpBinding + NetTcpBindingElement, transferMode = Streamed**  
+- **netTcpBinding + NetTcpBindingElement, transferMode = Streamed**  
   
--   **customBinding + HttpTransportElement, transferMode = Streamed**  
+- **customBinding + HttpTransportElement, transferMode = Streamed**  
   
--   **customBinding +ConnectionOrientedTransportElement, transferMode = Streamed**  
+- **customBinding +ConnectionOrientedTransportElement, transferMode = Streamed**  
   
- Choosing a WCF-Custom or WCF-CustomIsolated adapter along with a binding that supports the **transferMode = Streamed** option will implement streaming of large messages to the file system as needed, and will mitigate potential out-of-memory issues.  
+  Choosing a WCF-Custom or WCF-CustomIsolated adapter along with a binding that supports the **transferMode = Streamed** option will implement streaming of large messages to the file system as needed, and will mitigate potential out-of-memory issues.  
   
 ## Use streaming to minimize the memory footprint required when loading messages in orchestrations  
  The following techniques describe how to minimize the memory footprint of a message when loading the message into an orchestration.  

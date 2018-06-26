@@ -19,15 +19,15 @@ Information for diagnosing and resolving WCF Communication Pattern errors.
 
 ## Fault messages are not supported on one-way ports
   
-||Error details|  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Fault messages are not supported on one-way ports. Correct service description "{0}" port type "{1}" and rerun the wizard|  
+|                 |                                                       Error details                                                       |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                     |
+| Product Version |                                [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                 |
+|    Event ID     |                                                             0                                                             |
+|  Event Source   |                                                             0                                                             |
+|    Component    |                                                             0                                                             |
+|  Symbolic Name  |                                                             0                                                             |
+|  Message Text   | Fault messages are not supported on one-way ports. Correct service description "{0}" port type "{1}" and rerun the wizard |
   
 ## Explanation  
  This error indicates the service trying to be consumed is a one-way service and has the fault specified.  

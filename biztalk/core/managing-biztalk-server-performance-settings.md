@@ -38,11 +38,11 @@ manager: "anneta"
 ## Where Do I Start?  
  You can access the [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] in any of the following ways:  
   
--   Start the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **BizTalk Group** in the console tree, and then select **Settings**.  
+- Start the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, right-click **BizTalk Group** in the console tree, and then select **Settings**.  
   
--   Right click any host under the **Platform Settings** node in MMC and click on **Settings**. This launches [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] and you can modify the settings related to that host.  
+- Right click any host under the **Platform Settings** node in MMC and click on **Settings**. This launches [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] and you can modify the settings related to that host.  
   
--   Right click any host instance under the **Platform Settings** node in MMC and click on **Settings**. This launches [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] and you can modify the settings related to that host instance.  
+- Right click any host instance under the **Platform Settings** node in MMC and click on **Settings**. This launches [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] and you can modify the settings related to that host instance.  
   
 ## Export and import settings  
  The [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] can be used to export settings from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment and import it into another [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, thereby reducing the overall time-to-solution. This is especially useful in scenarios where the administrators try to tune [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance in a test environment, and upon achieving the desired results, they can import the settings into a production environment.  
@@ -52,15 +52,15 @@ manager: "anneta"
 ## Scripting support
  The [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] not only provides a central user interface to manage BizTalk settings but also ensures that all settings and the import/export tasks are accessible via APIs and command-line options. This enables BizTalk Server administrators to automate tasks related to BizTalk Server settings. As part of the scripting support:  
   
--   All group settings can be accessed and modified via the WMI Class: `MSBTS_GroupSetting`  
+- All group settings can be accessed and modified via the WMI Class: `MSBTS_GroupSetting`  
   
--   All host settings can be accessed and modified via the WMI Class: `MSBTS_HostSetting`  
+- All host settings can be accessed and modified via the WMI Class: `MSBTS_HostSetting`  
   
--   All host instance settings can be accessed and modified via the WMI Class: `MSBTS_HostInstanceSetting`  
+- All host instance settings can be accessed and modified via the WMI Class: `MSBTS_HostInstanceSetting`  
   
--   Import and export operations can be accessed through **BTSTask.exe** commands: `ExportSettings` and `ImportSettings`  
+- Import and export operations can be accessed through **BTSTask.exe** commands: `ExportSettings` and `ImportSettings`  
   
- For details about how to import/export using the BTSTask.exe command-line utility, see [Import or export BizTalk Settings Using BTSTask](how-to-import-biztalk-settings-using-btstask.md).  
+  For details about how to import/export using the BTSTask.exe command-line utility, see [Import or export BizTalk Settings Using BTSTask](how-to-import-biztalk-settings-using-btstask.md).  
   
 ## Next  
   

@@ -16,11 +16,11 @@ manager: "anneta"
 # Run the Migration Utility
 You can migrate your existing host security data into the new Single Sign-On (SSO) environment by using the hissomig.exe command-line utility. Migration is essentially a two-step process:  
   
-1.  First, the tool **exports** data from the host security domain into an XML file. This file also contains validation data for the migration process. If mappings or file names conflict, an administrator can resolve them before the next step.  
+1. First, the tool **exports** data from the host security domain into an XML file. This file also contains validation data for the migration process. If mappings or file names conflict, an administrator can resolve them before the next step.  
   
-2.  Second, the tool **imports** data into the Single Sign-On (SSO) environment, and updates the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] credential database appropriately.  
+2. Second, the tool **imports** data into the Single Sign-On (SSO) environment, and updates the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] credential database appropriately.  
   
- The Migration Utility has the following restrictions:  
+   The Migration Utility has the following restrictions:  
   
 -   You must be an SSO administrator and have at least read privileges to the SNAUDB database to perform migration.  
   
@@ -63,19 +63,19 @@ You can migrate your existing host security data into the new Single Sign-On (SS
   
 ### To import into Host Integration Server  
   
-1.  Click **Start**, click **Run**, and then type `cmd` and press Enter.  
+1. Click **Start**, click **Run**, and then type `cmd` and press Enter.  
   
-2.  Type `hisssomig –import –key <key> -input <XML file>` where *\<key>* is the full path of the file that contains the encryption key, and *\<XML file>* is the full path of the XML file from which the data will be imported.  
+2. Type `hisssomig –import –key <key> -input <XML file>` where *\<key>* is the full path of the file that contains the encryption key, and *\<XML file>* is the full path of the XML file from which the data will be imported.  
   
-     For example:  
+    For example:  
   
-     `hisssomig –import –key Z:\hostseckey.bak -input c:\hostsecdb.xml`  
+    `hisssomig –import –key Z:\hostseckey.bak -input c:\hostsecdb.xml`  
   
-3.  Press Enter.  
+3. Press Enter.  
   
- **Other commands for Migration Utility**  
+   **Other commands for Migration Utility**  
   
- The following is a list of commands for the Migration Utility. These commands are also displayed during migration if you attempt to run the utility with incorrect data.  
+   The following is a list of commands for the Migration Utility. These commands are also displayed during migration if you attempt to run the utility with incorrect data.  
   
 |Command|Comment|  
 |-------------|-------------|  

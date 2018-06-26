@@ -19,23 +19,23 @@ There are several methods for creating BizTalk message schemas. This topic provi
   
 ### To create a new schema  
   
-1.  In **Solution Explorer**, select the BizTalk project to which you want to add a schema.  
+1. In **Solution Explorer**, select the BizTalk project to which you want to add a schema.  
   
-2.  On the **Project** menu, click **Add New Item**.  
+2. On the **Project** menu, click **Add New Item**.  
   
-3.  In the **Add New Item - \<*BizTalk ProjectName*\>** dialog box, in the **Templates** section, click **Schema**.  
+3. In the **Add New Item - \<*BizTalk ProjectName*\>** dialog box, in the **Templates** section, click **Schema**.  
   
-4.  In the **Name** box, type a name for the schema, and then click **Add**.  
+4. In the **Name** box, type a name for the schema, and then click **Add**.  
   
-5.  If necessary, press F4 to open the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.  
+5. If necessary, press F4 to open the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.  
   
-6.  In the schema tree view, select the **Schema** node, and then in the Properties window, select the **Target Namespace** property and type a name for the target namespace. It is important that you set this property in this initial phase of schema creation; avoid using the default **Target Namespace** property value.  
+6. In the schema tree view, select the **Schema** node, and then in the Properties window, select the **Target Namespace** property and type a name for the target namespace. It is important that you set this property in this initial phase of schema creation; avoid using the default **Target Namespace** property value.  
   
-    > [!NOTE]
-    >  Certain name choices for project member files, such as schema files, can cause compilation errors later on due to conflicts with C# reserved words and.NET Framework type and namespace names (such as System). Examples for schemas include schema.xsd, XmlContent, and RootNodes. This is because the **Type Name** property defaults to the base (non-extension) portion of the  **Filename** property. You can work around this type of compilation error by explicitly changing the value of the **Type Name** property to something that does not conflict.  
+   > [!NOTE]
+   >  Certain name choices for project member files, such as schema files, can cause compilation errors later on due to conflicts with C# reserved words and.NET Framework type and namespace names (such as System). Examples for schemas include schema.xsd, XmlContent, and RootNodes. This is because the **Type Name** property defaults to the base (non-extension) portion of the  **Filename** property. You can work around this type of compilation error by explicitly changing the value of the **Type Name** property to something that does not conflict.  
   
-    > [!NOTE]
-    >  You may need to add, delete, and modify the records and fields in your schema along with their associated properties. To learn more about this, see [Managing the Nodes Within a Schema](../core/managing-the-nodes-within-a-schema.md).  
+   > [!NOTE]
+   >  You may need to add, delete, and modify the records and fields in your schema along with their associated properties. To learn more about this, see [Managing the Nodes Within a Schema](../core/managing-the-nodes-within-a-schema.md).  
   
 ### To generate a schema from a non-XSD source  
   

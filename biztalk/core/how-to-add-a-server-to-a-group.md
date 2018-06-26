@@ -36,25 +36,25 @@ You can use BizTalk Server Configuration to add a server to a BizTalk group. You
   
 ### To add a server to a BizTalk group  
   
-1.  On the computer that you want to add to a BizTalk Server group to, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
+1. On the computer that you want to add to a BizTalk Server group to, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
   
-2.  In **Microsoft BizTalk Server Configuration**, select **Custom configuration**.  
+2. In **Microsoft BizTalk Server Configuration**, select **Custom configuration**.  
   
-3.  In **Database server name**, type the name of the SQL Server for the BizTalk Group the server is joining.  
+3. In **Database server name**, type the name of the SQL Server for the BizTalk Group the server is joining.  
   
-4.  In **Service credential**, type the appropriate user name and password that the services will use, and then click **Configure**.  
+4. In **Service credential**, type the appropriate user name and password that the services will use, and then click **Configure**.  
   
-5.  In the navigation tree on the left side of the screen, click **Enterprise SSO**.  
+5. In the navigation tree on the left side of the screen, click **Enterprise SSO**.  
   
-6.  On the **Enterprise Single Sign-On** page, click **Join an existing SSO system**.  
+6. On the **Enterprise Single Sign-On** page, click **Join an existing SSO system**.  
   
-     Ensure that the server name and database name point to the master SSO database server for the BizTalk Server group the server is joining.  
+    Ensure that the server name and database name point to the master SSO database server for the BizTalk Server group the server is joining.  
   
-7.  In the navigation tree on the left side of the screen, click **Group**.  
+7. In the navigation tree on the left side of the screen, click **Group**.  
   
-8.  On the **Group** page, click **Join an existing BizTalk Group**.  
+8. On the **Group** page, click **Join an existing BizTalk Group**.  
   
-     Ensure that the server name and database name point to the databases for the BizTalk Server group the server is joining.  
+    Ensure that the server name and database name point to the databases for the BizTalk Server group the server is joining.  
   
 9. On the menu bar, click **Apply Configuration** to configure both Enterprise Single Sign-On and the Group on this computer.  
   

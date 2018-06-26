@@ -24,27 +24,27 @@ More info on these properties, and the schema property reference [!INCLUDE[ui-gu
   
 ## Examine a node property value  
   
-1.  In BizTalk Editor, open the schema that contains the property you want to examine, and then select the node that contains that property.  
+1. In BizTalk Editor, open the schema that contains the property you want to examine, and then select the node that contains that property.  
   
-2.  If necessary, press F4 to open the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.  
+2. If necessary, press F4 to open the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.  
   
-3.  If necessary, scroll the Properties window to find the property of interest, and note its value.  
+3. If necessary, scroll the Properties window to find the property of interest, and note its value.  
   
-     You can use buttons at the top of the Properties window to change the way that the properties are sorted, either alphabetically within their categories, or alphabetically without regard for (or display of) their categories.  
+    You can use buttons at the top of the Properties window to change the way that the properties are sorted, either alphabetically within their categories, or alphabetically without regard for (or display of) their categories.  
   
 ## Set a node property value  
   
-1.  In BizTalk Editor, open the schema that contains the property you want to set, and then select the node that contains that property.  
+1. In BizTalk Editor, open the schema that contains the property you want to set, and then select the node that contains that property.  
   
-2.  If necessary, press F4 to open the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.  
+2. If necessary, press F4 to open the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.  
   
-3.  If necessary, scroll the Properties window to find the property of interest.  
+3. If necessary, scroll the Properties window to find the property of interest.  
   
-     You can use buttons at the top of the Properties window to change the way that the properties are sorted, either alphabetically within their categories, or alphabetically without regard for (or display of) their categories.  
+    You can use buttons at the top of the Properties window to change the way that the properties are sorted, either alphabetically within their categories, or alphabetically without regard for (or display of) their categories.  
   
-4.  Set the value of the property in the value field, which is to the right of the property name. Depending on the type of the property, you might type a value or choose a value from the drop-down list that is displayed when the value field is selected. Some properties allow either operation. Some properties display an ellipsis (**...**) button that when clicked opens a dialog box in which more complicated values, such as collections, can be set.  
+4. Set the value of the property in the value field, which is to the right of the property name. Depending on the type of the property, you might type a value or choose a value from the drop-down list that is displayed when the value field is selected. Some properties allow either operation. Some properties display an ellipsis (**...**) button that when clicked opens a dialog box in which more complicated values, such as collections, can be set.  
   
-5.  If you have typed a new value for the property, finish by pressing ENTER.  
+5. If you have typed a new value for the property, finish by pressing ENTER.  
   
 ##  Clear a node property value  
   

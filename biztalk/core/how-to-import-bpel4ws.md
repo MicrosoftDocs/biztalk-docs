@@ -24,17 +24,17 @@ You can import from existing BPEL4WS to create an orchestration.
   
 ## Import BPEL4WS into an orchestration  
   
-1.  Create a new project.  
+1. Create a new project.  
   
-2.  From the BizTalk Project types, double-click BizTalk Server BPEL Import Project, or select BizTalk Server BPEL Import Project and press OK.  
+2. From the BizTalk Project types, double-click BizTalk Server BPEL Import Project, or select BizTalk Server BPEL Import Project and press OK.  
   
-3.  In the wizard, select the BPEL, WSDL and XSD files that should be imported to form the new BizTalk project. Include all files that are referenced via import and include statements.  
+3. In the wizard, select the BPEL, WSDL and XSD files that should be imported to form the new BizTalk project. Include all files that are referenced via import and include statements.  
   
-4.  Select WSDL files for invoked Web services.  
+4. Select WSDL files for invoked Web services.  
   
-     You can now modify or deploy the new orchestration.  
+    You can now modify or deploy the new orchestration.  
   
- **Import restrictions on BPEL4WS**  
+   **Import restrictions on BPEL4WS**  
   
 -   When importing BPEL and WSDL, make sure that the Name property of the WSDL definition node and the BPEL process node do not match.  
   

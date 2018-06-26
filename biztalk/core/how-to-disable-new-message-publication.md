@@ -33,13 +33,13 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
 ## Disable steps
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, click **Platform Settings**, and then click **Message Boxes**.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, click **Platform Settings**, and then click **Message Boxes**.  
   
-3.  In the details pane, right-click the MessageBox database you want to disable, and then click **Properties**.  
+3. In the details pane, right-click the MessageBox database you want to disable, and then click **Properties**.  
   
-4.  In the **Message Box Properties** dialog box, select the **Disable new message publication** check box, and then click **OK**.  
+4. In the **Message Box Properties** dialog box, select the **Disable new message publication** check box, and then click **OK**.  
   
 ## See Also  
  [Managing MessageBox Databases](../core/managing-messagebox-databases.md)   

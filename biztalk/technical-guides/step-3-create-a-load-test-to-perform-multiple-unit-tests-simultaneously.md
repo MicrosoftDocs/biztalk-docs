@@ -16,15 +16,15 @@ manager: "anneta"
 # Step 3: Create a Load Test to Perform Multiple Unit Tests Simultaneously
 Load tests run multiple instances of one or more unit tests so that you can measure your application's performance and ability to handle load. The primary components of a Visual Studio 2010 load test include:  
   
--   **Scenarios** – The section of a load test where you configure the test load pattern, test mix model, test mix, network mix and Web browser mix. Scenarios accommodate the complexity of simulating complex real world work load profiles. For a comprehensive listing of all load test scenario properties see [Load Test Scenario Properties](http://go.microsoft.com/fwlink/?LinkId=208327) (http://go.microsoft.com/fwlink/?LinkId=208327).  
+- **Scenarios** – The section of a load test where you configure the test load pattern, test mix model, test mix, network mix and Web browser mix. Scenarios accommodate the complexity of simulating complex real world work load profiles. For a comprehensive listing of all load test scenario properties see [Load Test Scenario Properties](http://go.microsoft.com/fwlink/?LinkId=208327) (http://go.microsoft.com/fwlink/?LinkId=208327).  
   
--   **Counter Sets** – The section of a load test where you create particular groupings or “Sets” of performance counters to be collected while the load test is running. Several predefined counter sets are provided by default and custom counter sets can be added. For example to evaluate Network performance you can create a custom counter set, add the relevant Network performance counters and save it to the list of available counter sets. For more information about creating and saving counter sets for load tests see [Specifying the Counter Sets for Computers in a Load Test](http://go.microsoft.com/fwlink/?LinkId=208328) (http://go.microsoft.com/fwlink/?LinkId=208328).  
+- **Counter Sets** – The section of a load test where you create particular groupings or “Sets” of performance counters to be collected while the load test is running. Several predefined counter sets are provided by default and custom counter sets can be added. For example to evaluate Network performance you can create a custom counter set, add the relevant Network performance counters and save it to the list of available counter sets. For more information about creating and saving counter sets for load tests see [Specifying the Counter Sets for Computers in a Load Test](http://go.microsoft.com/fwlink/?LinkId=208328) (http://go.microsoft.com/fwlink/?LinkId=208328).  
   
--   **Run Settings** – Run settings define multiple aspects of a load test, including the test duration, the counter sets that are associated with various computers during the load test, various test validation options, and test results storage options. You can create and store multiple run settings for each load test, and then select a particular setting to use when you run the test. An initial run setting is added to your load test when you create your load test with the New Load Test Wizard. For a comprehensive listing of all load test run setting properties see [Load Test Run Setting Properties](http://go.microsoft.com/fwlink/?LinkId=208329) (http://go.microsoft.com/fwlink/?LinkId=208329).  
+- **Run Settings** – Run settings define multiple aspects of a load test, including the test duration, the counter sets that are associated with various computers during the load test, various test validation options, and test results storage options. You can create and store multiple run settings for each load test, and then select a particular setting to use when you run the test. An initial run setting is added to your load test when you create your load test with the New Load Test Wizard. For a comprehensive listing of all load test run setting properties see [Load Test Run Setting Properties](http://go.microsoft.com/fwlink/?LinkId=208329) (http://go.microsoft.com/fwlink/?LinkId=208329).  
   
- Load tests are created using the New Load Test Wizard, edited with the Load Test Editor, and analyzed in the Load Test Analyzer. All these tools are included in Microsoft Visual Studio Ultimate edition. For more information about creating and editing load tests in Visual Studio 2010 Ultimate edition see [Creating and Editing Load Tests](http://go.microsoft.com/fwlink/?LinkId=208308) (http://go.microsoft.com/fwlink/?LinkId=208308).  
+  Load tests are created using the New Load Test Wizard, edited with the Load Test Editor, and analyzed in the Load Test Analyzer. All these tools are included in Microsoft Visual Studio Ultimate edition. For more information about creating and editing load tests in Visual Studio 2010 Ultimate edition see [Creating and Editing Load Tests](http://go.microsoft.com/fwlink/?LinkId=208308) (http://go.microsoft.com/fwlink/?LinkId=208308).  
   
- Follow the steps in the sections below to add a load test to the test project described in [Step 1: Create a Unit Test to Submit Documents to BizTalk Server](../technical-guides/step-1-create-a-unit-test-to-submit-documents-to-biztalk-server.md). These steps also describe how to configure the **Scenarios**, **Counter Sets**, and **Run Settings** for a load test.  
+  Follow the steps in the sections below to add a load test to the test project described in [Step 1: Create a Unit Test to Submit Documents to BizTalk Server](../technical-guides/step-1-create-a-unit-test-to-submit-documents-to-biztalk-server.md). These steps also describe how to configure the **Scenarios**, **Counter Sets**, and **Run Settings** for a load test.  
   
 ##  <a name="BKMK_StepLoadTest"></a> Add a Load Test and Configure the Load Test Scenario, Counter Sets, and Run Settings  
  This topic describes how to use the **New Load Test Wizard** to add a load test to a test project and how to configure the load test to meet specific needs.  
@@ -99,36 +99,36 @@ Load tests run multiple instances of one or more unit tests so that you can meas
 ###  <a name="BKMK_BTSCounters"></a> Add a Custom Counter Set to Measure BizTalk Server Key Performance Indicators (KPI)  
  Follow these steps to add a counter set with performance counters that measure BizTalk Server KPI required for determining Maximum Sustainable Throughput (MST) of the BizTalk Server application:  
   
-1.  In Solution Explorer double-click the load test that you created in the previous section to view the load test in Load Test editor.  
+1. In Solution Explorer double-click the load test that you created in the previous section to view the load test in Load Test editor.  
   
-2.  In Load Test editor, click to expand **Counter Sets**. Notice that there is no predefined counter set for BizTalk Server, therefore a custom “BizTalk Server” counter set must be added to the list of counter sets.  
+2. In Load Test editor, click to expand **Counter Sets**. Notice that there is no predefined counter set for BizTalk Server, therefore a custom “BizTalk Server” counter set must be added to the list of counter sets.  
   
-3.  Right-click **Counter Sets** and select **Add Custom Counter Set**. By default this action will create a custom counter set with the name **Custom1**.  
+3. Right-click **Counter Sets** and select **Add Custom Counter Set**. By default this action will create a custom counter set with the name **Custom1**.  
   
-4.  Right-click the **Custom1** counter set and select **Properties** to set focus to the **Properties** dialog for the Custom1 counter set.  
+4. Right-click the **Custom1** counter set and select **Properties** to set focus to the **Properties** dialog for the Custom1 counter set.  
   
-5.  Double-click the name **Custom1** in the **Properties** dialog, type **BizTalk** and then press the ENTER key to rename the custom counter set to **BizTalk**.  
+5. Double-click the name **Custom1** in the **Properties** dialog, type **BizTalk** and then press the ENTER key to rename the custom counter set to **BizTalk**.  
   
-6.  In Load Test Editor, right-click the **BizTalk** counter set and select **Add Counters**.  
+6. In Load Test Editor, right-click the **BizTalk** counter set and select **Add Counters**.  
   
-7.  Under **Computer**, type the name of one of the BizTalk Server computers in the BizTalk Server group to display performance monitor categories that include BizTalk Server performance counters.  
+7. Under **Computer**, type the name of one of the BizTalk Server computers in the BizTalk Server group to display performance monitor categories that include BizTalk Server performance counters.  
   
-    > [!IMPORTANT]  
-    >  To ensure that all BizTalk Server performance categories and performance counters are listed, you may need to type in the fully qualified domain name (or IP Address) of a BizTalk Server in the group and you may also need to start the instances of the following hosts on the BizTalk Server computer.  
-    >   
-    >  -   Instances of BizTalk hosts which are bound to orchestrations that will run during the load test.  
-    > -   Instances of BizTalk hosts configured as send or receive handlers for adapters that will run during the load test.  
+   > [!IMPORTANT]
+   >  To ensure that all BizTalk Server performance categories and performance counters are listed, you may need to type in the fully qualified domain name (or IP Address) of a BizTalk Server in the group and you may also need to start the instances of the following hosts on the BizTalk Server computer.  
+   > 
+   > - Instances of BizTalk hosts which are bound to orchestrations that will run during the load test.  
+   >   -   Instances of BizTalk hosts configured as send or receive handlers for adapters that will run during the load test.  
   
-8.  BizTalk Server provides quite an extensive set of performance counters. For purposes of determining the Maximum Sustainable Performance (MST) of a BizTalk Server application you only need to add the following BizTalk Server performance counters to the **BizTalk** custom counter set:  
+8. BizTalk Server provides quite an extensive set of performance counters. For purposes of determining the Maximum Sustainable Performance (MST) of a BizTalk Server application you only need to add the following BizTalk Server performance counters to the **BizTalk** custom counter set:  
   
-    |Performance Category|Performance Counter|  
-    |--------------------------|-------------------------|  
-    |Processor|% Processor Time for the _Total counter instance.|  
-    |BizTalk:Message Box: General Counters|Spool Size for the *\<BizTalk MessageBox database name\>*:*\<SQL Server instance name\>* counter instance. **Note:**  *\<BizTalk MessageBox database name\>* and *\<SQL Server instance name\>* are just placeholders for the actual names of the BizTalk MessageBox database and the SQL Server instance that houses the BizTalk MessageBox database. These placeholders should be replaced with the actual names of the BizTalk MessageBox database and associated SQL Server instance.|  
-    |BizTalk:Messaging|Documents received/Sec for the receive host counter instance.<br /><br /> Documents processed/Sec for the transmit host counter instance.|  
-    |BizTalk:Message Agent|Message delivery incoming rate for the document receive host.|  
-    |BizTalk:Message Agent|Message publishing outgoing rate for the document transmit host.|  
-    |XLANG/s Orchestrations|Orchestrations completed/sec for the Orchestration processing host.|  
+   |Performance Category|Performance Counter|  
+   |--------------------------|-------------------------|  
+   |Processor|% Processor Time for the _Total counter instance.|  
+   |BizTalk:Message Box: General Counters|Spool Size for the *\<BizTalk MessageBox database name\>*:*\<SQL Server instance name\>* counter instance. **Note:**  *\<BizTalk MessageBox database name\>* and *\<SQL Server instance name\>* are just placeholders for the actual names of the BizTalk MessageBox database and the SQL Server instance that houses the BizTalk MessageBox database. These placeholders should be replaced with the actual names of the BizTalk MessageBox database and associated SQL Server instance.|  
+   |BizTalk:Messaging|Documents received/Sec for the receive host counter instance.<br /><br /> Documents processed/Sec for the transmit host counter instance.|  
+   |BizTalk:Message Agent|Message delivery incoming rate for the document receive host.|  
+   |BizTalk:Message Agent|Message publishing outgoing rate for the document transmit host.|  
+   |XLANG/s Orchestrations|Orchestrations completed/sec for the Orchestration processing host.|  
   
 ### Modify Run Settings to Map Counter Sets to Appropriate Computers  
  Follow these steps to map the appropriate counter sets with the appropriate computers for the load test:  

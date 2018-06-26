@@ -26,13 +26,13 @@ Servers used primarily for communications need to provide fast throughput, but d
   
  The options available for tasking are:  
   
--   Best Foreground Application Response Time  
+- Best Foreground Application Response Time  
   
--   Foreground Application More Responsive than Background  
+- Foreground Application More Responsive than Background  
   
--   Foreground and Background Applications Equally Responsive  
+- Foreground and Background Applications Equally Responsive  
   
- Choose the one that is best suited to your network configuration.  
+  Choose the one that is best suited to your network configuration.  
   
 ## See Also  
  [System Monitor Overview](../core/system-monitor-overview1.md)   

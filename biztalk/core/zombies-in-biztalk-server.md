@@ -26,13 +26,13 @@ manager: "anneta"
 ## Typical causes
 The occurrence of zombies typically falls into one of the following categories:  
   
-1.  **Terminate control messages** – The orchestration engine allows the use of control messages to cancel all currently running work in a specific orchestration instance. Since the control message immediately halts the running orchestration, zombie instances are not unexpected. A number of Human Workflow related designs tend to use this mechanism as well as some other designs.  
+1. **Terminate control messages** – The orchestration engine allows the use of control messages to cancel all currently running work in a specific orchestration instance. Since the control message immediately halts the running orchestration, zombie instances are not unexpected. A number of Human Workflow related designs tend to use this mechanism as well as some other designs.  
   
-2.  **Parallel listen receives** – In this scenario the service instance waits for 1 of n messages and when it receives certain messages it does some work and terminates. If messages are received on a parallel branch just as the service instance is terminating, zombies are created.  
+2. **Parallel listen receives** – In this scenario the service instance waits for 1 of n messages and when it receives certain messages it does some work and terminates. If messages are received on a parallel branch just as the service instance is terminating, zombies are created.  
   
-3.  **Sequential convoys with non-deterministic endpoints** – In this scenario, a master orchestration schedule is designed to handle all messages of a certain type in order to meet some type of system design requirement. These design requirements may include ordered delivery, resource dispenser, and batching. For this scenario, the tendency is to define a while loop surrounding a listen with one branch having a receive and the other having a delay shape followed by some construct which sets some variable to indicate that the while loop should stop. This is non-deterministic since the delay could be triggered, but a message could still be delivered. Non-deterministic endpoints like this are prone to generating zombies.  
+3. **Sequential convoys with non-deterministic endpoints** – In this scenario, a master orchestration schedule is designed to handle all messages of a certain type in order to meet some type of system design requirement. These design requirements may include ordered delivery, resource dispenser, and batching. For this scenario, the tendency is to define a while loop surrounding a listen with one branch having a receive and the other having a delay shape followed by some construct which sets some variable to indicate that the while loop should stop. This is non-deterministic since the delay could be triggered, but a message could still be delivered. Non-deterministic endpoints like this are prone to generating zombies.  
   
- When a zombie service instance is suspended,  the following error message is generated:  
+   When a zombie service instance is suspended,  the following error message is generated:  
   
 `0xC0C01B4C The instance completed without consuming all of its messages. The instance and its unconsumed messages have been suspended.`  
   

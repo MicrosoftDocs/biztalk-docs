@@ -34,16 +34,16 @@ CM_ENTRY Set_Error_Direction( 
  *error_direction*  
  Supplied parameter. Specifies the direction in which data was flowing when the program encountered an error. Possible values are:  
   
--   CM_RECEIVE_ERROR  
+- CM_RECEIVE_ERROR  
   
-     An error occurred in the data received from the partner program.  
+   An error occurred in the data received from the partner program.  
   
--   CM_SEND_ERROR  
+- CM_SEND_ERROR  
   
-     An error occurred while the local program prepared to send data to the partner program.  
+   An error occurred while the local program prepared to send data to the partner program.  
   
- *return_code*  
- The code returned from this call. The valid return codes are listed later in this topic.  
+  *return_code*  
+  The code returned from this call. The valid return codes are listed later in this topic.  
   
 ## Return Codes  
  CM_OK  

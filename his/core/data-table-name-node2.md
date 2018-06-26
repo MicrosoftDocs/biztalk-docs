@@ -20,27 +20,27 @@ Use the ***data table name*** node to view a list of the data table column names
   
  Double-click the ***data table name*** node to expand it. The right pane displays the following information about the data table columns:  
   
--   **Data Table Column Name**. The name of the table column.  
+- **Data Table Column Name**. The name of the table column.  
   
--   **Type**. The data type of the data table.  
+- **Type**. The data type of the data table.  
   
--   **Host Data Type**. The COBOL or RPG data type that best describes the data table type.  
+- **Host Data Type**. The COBOL or RPG data type that best describes the data table type.  
   
- Right-click the ***data table name*** node to display the following seven options:  
+  Right-click the ***data table name*** node to display the following seven options:  
   
--   **Add Data Table Column**. Adds a new column to the data table.  
+- **Add Data Table Column**. Adds a new column to the data table.  
   
--   **Cut**. Copies the contents of the data table to the Clipboard and deletes it.  
+- **Cut**. Copies the contents of the data table to the Clipboard and deletes it.  
   
--   **Copy**. Copies the contents of the data table to the Clipboard.  
+- **Copy**. Copies the contents of the data table to the Clipboard.  
   
--   **Paste**. Inserts the column from the Clipboard into the current data table definition.  
+- **Paste**. Inserts the column from the Clipboard into the current data table definition.  
   
--   **Delete**. Deletes the current data table.  
+- **Delete**. Deletes the current data table.  
   
--   **Rename**. Renames the current data table.  
+- **Rename**. Renames the current data table.  
   
--   **Properties**. Displays the **Properties** window.  
+- **Properties**. Displays the **Properties** window.  
   
 ## See Also  
  [Data Table Member Name Node](../core/data-table-member-name-node1.md)   

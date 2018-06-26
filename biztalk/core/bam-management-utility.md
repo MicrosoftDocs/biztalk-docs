@@ -45,37 +45,37 @@ Administrators of Business Activity Monitoring (BAM) definitions use the BAM Man
 ## BAM Management Utility Commands  
  The command descriptions use these conventions:  
   
--   The square brackets ([]) indicate an optional parameter.  
+- The square brackets ([]) indicate an optional parameter.  
   
--   The angled brackets (<>) indicate a required parameter.  
+- The angled brackets (<>) indicate a required parameter.  
   
--   The braces ({}) indicate that one item should be selected from the enumerated list.  
+- The braces ({}) indicate that one item should be selected from the enumerated list.  
   
--   A security account can be either an NT group or an individual NT user account.  
+- A security account can be either an NT group or an individual NT user account.  
   
--   A BAM definition file can be either an XML file or a BAM Excel workbook file (.xls).  
+- A BAM definition file can be either an XML file or a BAM Excel workbook file (.xls).  
   
--   If the BAM configuration file is not supplied, it defaults to BamConfiguration.xml in the current folder.  
+- If the BAM configuration file is not supplied, it defaults to BamConfiguration.xml in the current folder.  
   
- The Individual command descriptions are contained in the following topics:  
+  The Individual command descriptions are contained in the following topics:  
   
--   [Database Commands](../core/database-commands.md)  
+- [Database Commands](../core/database-commands.md)  
   
--   [Deployment of BAM Definition (Observation Model) Commands](../core/deployment-of-bam-definition-observation-model-commands.md)  
+- [Deployment of BAM Definition (Observation Model) Commands](../core/deployment-of-bam-definition-observation-model-commands.md)  
   
--   [Infrastructure Management Commands](../core/infrastructure-management-commands.md)  
+- [Infrastructure Management Commands](../core/infrastructure-management-commands.md)  
   
--   [Activity Management Commands](../core/activity-management-commands.md)  
+- [Activity Management Commands](../core/activity-management-commands.md)  
   
--   [View Management Commands](../core/view-management-commands.md)  
+- [View Management Commands](../core/view-management-commands.md)  
   
--   [Alert Management Commands](../core/alert-management-commands.md)  
+- [Alert Management Commands](../core/alert-management-commands.md)  
   
--   [User Management Commands](../core/user-management-commands.md)  
+- [User Management Commands](../core/user-management-commands.md)  
   
--   [Alert Subscription Management Commands](../core/alert-subscription-management-commands.md)  
+- [Alert Subscription Management Commands](../core/alert-subscription-management-commands.md)  
   
--   [Interceptor Management Commands](../core/interceptor-management-commands.md)  
+- [Interceptor Management Commands](../core/interceptor-management-commands.md)  
   
 ## Displaying the BAM Management Utility Help  
  You use the **/?** or the **help BAM Management utility** command to display the Help file for the BAM Management utility.  

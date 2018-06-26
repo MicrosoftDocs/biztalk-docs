@@ -43,37 +43,37 @@ struct transfer_ms_data {
  *data_type*  
  Supplied parameter. Specifies the type of data provided by this verb:  
   
--   Use SV_NMVT to generate an NMVT (including the NS header, the major network management vector, and subvectors).  
+- Use SV_NMVT to generate an NMVT (including the NS header, the major network management vector, and subvectors).  
   
--   Use SV_ALERT_SUBVECTORS to generate an RU containing data for an alert in the appropriate format, without the NS header or major NMVT vector.  
+- Use SV_ALERT_SUBVECTORS to generate an RU containing data for an alert in the appropriate format, without the NS header or major NMVT vector.  
   
--   Use SV_PDSTATS_SUBVECTORS to generate an RU containing data for problem determination statistics in the appropriate format, without the NS header or major NMVT vector.  
+- Use SV_PDSTATS_SUBVECTORS to generate an RU containing data for problem determination statistics in the appropriate format, without the NS header or major NMVT vector.  
   
--   Use SV_USER_DEFINED to generate user-defined data; this data is recorded in the error log but cannot be sent on the systems services control point-physical unit (SSCP-PU) session on the connection configured for diagnostics.  
+- Use SV_USER_DEFINED to generate user-defined data; this data is recorded in the error log but cannot be sent on the systems services control point-physical unit (SSCP-PU) session on the connection configured for diagnostics.  
   
- *reserv2*  
- A reserved field.  
+  *reserv2*  
+  A reserved field.  
   
- *primary_rc*  
- Returned parameter. Specifies the primary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
+  *primary_rc*  
+  Returned parameter. Specifies the primary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
   
- *secondary_rc*  
- Returned parameter. Specifies the secondary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
+  *secondary_rc*  
+  Returned parameter. Specifies the secondary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
   
- *options*  
- Supplied parameter. Specifies the desired options by turning individual bits on or off. (Bits 1, 2, and 3 are ignored if **data_type** is set to SV_USER_DEFINED.) See the Remarks section.  
+  *options*  
+  Supplied parameter. Specifies the desired options by turning individual bits on or off. (Bits 1, 2, and 3 are ignored if **data_type** is set to SV_USER_DEFINED.) See the Remarks section.  
   
- reserv3  
- A reserved field.  
+  reserv3  
+  A reserved field.  
   
- *origntr_id*  
- Supplied parameter. Specifies the name of the component issuing **TRANSFER_MS_DATA**. This parameter is optional. Set it to 0x00 if you want the system to ignore it.  
+  *origntr_id*  
+  Supplied parameter. Specifies the name of the component issuing **TRANSFER_MS_DATA**. This parameter is optional. Set it to 0x00 if you want the system to ignore it.  
   
- *dlen*  
- Supplied parameter. Specifies the length of data to be supplied to this verb. The total length of the data (user-supplied data and any added headers or subvectors) must fit into one RU. The maximum RU length is 512 bytes.  
+  *dlen*  
+  Supplied parameter. Specifies the length of data to be supplied to this verb. The total length of the data (user-supplied data and any added headers or subvectors) must fit into one RU. The maximum RU length is 512 bytes.  
   
- *dptr*  
- Supplied parameter. Specifies the address of the data to be sent.  
+  *dptr*  
+  Supplied parameter. Specifies the address of the data to be sent.  
   
 ## Return Codes  
  SV_OK  
@@ -113,27 +113,27 @@ struct transfer_ms_data {
  SV_UNEXPECTED_DOS_ERROR  
  Primary return code; one of the following conditions occurred:  
   
--   The Microsoft Windows operating system encountered an error while processing the verb. The operating system return code was returned through the secondary return code. If the problem persists, contact the system administrator for corrective action.  
+- The Microsoft Windows operating system encountered an error while processing the verb. The operating system return code was returned through the secondary return code. If the problem persists, contact the system administrator for corrective action.  
   
--   A CSV was issued from a message loop that was invoked by another application issuing a Windows **SendMessage** function call, rather than the more common Windows **PostMessage** function call. Verb processing cannot take place.  
+- A CSV was issued from a message loop that was invoked by another application issuing a Windows **SendMessage** function call, rather than the more common Windows **PostMessage** function call. Verb processing cannot take place.  
   
--   A CSV was issued when **SendMessage** invoked your application. You can determine whether your application has been invoked with **SendMessage** by using the **InSendMessage** Windows API function call.  
+- A CSV was issued when **SendMessage** invoked your application. You can determine whether your application has been invoked with **SendMessage** by using the **InSendMessage** Windows API function call.  
   
- SV_CANCELLED  
- Primary return code; this code is returned for an asynchronous verb when it has been shut down by a [WinCSVCleanup](../core/wincsvcleanup1.md) call.  
+  SV_CANCELLED  
+  Primary return code; this code is returned for an asynchronous verb when it has been shut down by a [WinCSVCleanup](../core/wincsvcleanup1.md) call.  
   
- SV_SERVER_RESOURCE_NOT_FOUND  
- Primary return code; no communication server was found that could provide the requested function.  
+  SV_SERVER_RESOURCE_NOT_FOUND  
+  Primary return code; no communication server was found that could provide the requested function.  
   
- SV_SERVER_RESOURCES_LOST  
- Primary return code; the communications server that was providing the function was lost due to a connection failure.  
+  SV_SERVER_RESOURCES_LOST  
+  Primary return code; the communications server that was providing the function was lost due to a connection failure.  
   
- SV_SERVER_CONN_FAILURE  
+  SV_SERVER_CONN_FAILURE  
   
- Secondary return code; the connection to the server was lost due to physical path problems; for example, the server may have been powered off.  
+  Secondary return code; the connection to the server was lost due to physical path problems; for example, the server may have been powered off.  
   
- SV_THREAD_BLOCKING  
- Primary return code; this verb exceeds the maximum number of simultaneous synchronous verbs allowed.  
+  SV_THREAD_BLOCKING  
+  Primary return code; this verb exceeds the maximum number of simultaneous synchronous verbs allowed.  
   
 ## Remarks  
  To specify options, turn bits on or off as follows:  

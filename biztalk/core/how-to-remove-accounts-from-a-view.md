@@ -25,16 +25,16 @@ Administrators use the **remove-account** command to remove users from BAM views
   
 ### To remove an account from a view  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
+2. Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
   
-3.  Type **bm remove-account -AccountName:\<account name\> -View:\<view name\>**.  
+3. Type **bm remove-account -AccountName:\<account name\> -View:\<view name\>**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-4.  Press **ENTER**.  
+4. Press **ENTER**.  
   
 ## See Also  
  [Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md)   

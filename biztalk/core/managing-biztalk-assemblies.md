@@ -22,7 +22,7 @@ This section provides instructions on using the [!INCLUDE[btsBizTalkServerNoVers
   
 > [!IMPORTANT]
 >  Deploying or undeploying a property schema may expose sensitive data, and subsequently expose sensitive information during tracking. Whenever an assembly containing a property schema is deployed or undeployed, the event viewer logs an event in the Windows Application Event Log. You should check the event log for these messages to ensure that all assembly deployment activities are in line with your policies for any sensitive data. (The message generated to the Event Log for deployment is: "The user "{1}" deployed the assembly "{0}" containing property schemas." The message generated to the Event Log for undeployment is: "The user "{1}" undeployed the assembly "{0}" containing property schemas.")  
-  
+> 
 > [!NOTE]
 >  You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   

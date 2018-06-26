@@ -26,45 +26,45 @@ In the fallback agreement, you can specify the character set (UNA) that [!INCLUD
   
 ### To configure the character set and separators  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **EDIFACT Fallback Settings**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **EDIFACT Fallback Settings**.  
   
-2.  In the **EDIFACT Fallback Settings** dialog box, in the **EDIFACT Agreement Pages** tab, under the **Interchange Settings** section, click **Charset and Separators**.  
+2. In the **EDIFACT Fallback Settings** dialog box, in the **EDIFACT Agreement Pages** tab, under the **Interchange Settings** section, click **Charset and Separators**.  
   
-3.  In the **Syntax (UNB1)** section, do the following:  
+3. In the **Syntax (UNB1)** section, do the following:  
   
-    1.  For **Identifier (UNB1.1)**, enter the EDIFACT character set to be applied on the outgoing interchange. This is a required field.  
+   1.  For **Identifier (UNB1.1)**, enter the EDIFACT character set to be applied on the outgoing interchange. This is a required field.  
   
-    2.  For **Version (UNB1.2)**, select a value between **1** and **4**. This is an optional field.  
+   2.  For **Version (UNB1.2)**, select a value between **1** and **4**. This is an optional field.  
   
-4.  In the **Separators** section, do the following:  
+4. In the **Separators** section, do the following:  
   
-    1.  For **Component data element separator (UNA1)**, enter a value for the component data element separator that separates simple data elements within composite data elements. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
+   1.  For **Component data element separator (UNA1)**, enter a value for the component data element separator that separates simple data elements within composite data elements. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
   
-    2.  For **Data element separator (UNA2)**, enter a value for the data element separator that separates composite data elements consisting of two or more simple data elements or simple data elements that are not part of a composite. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
+   2.  For **Data element separator (UNA2)**, enter a value for the data element separator that separates composite data elements consisting of two or more simple data elements or simple data elements that are not part of a composite. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
   
-    3.  For **Decimal notation (UNA3)**, select the decimal notation to be used in the outgoing interchange.  
+   3.  For **Decimal notation (UNA3)**, select the decimal notation to be used in the outgoing interchange.  
   
-    4.  For **Release indicator (UNA4)**, enter a value for the release indicator that indicates that the following character is not a syntax separator, terminator, or release character, but is part of the original data. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
+   4.  For **Release indicator (UNA4)**, enter a value for the release indicator that indicates that the following character is not a syntax separator, terminator, or release character, but is part of the original data. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
   
-    5.  For **Repetition separator (UNA5)**, enter a value for the repetition separator that is used to separate segments that repeat within a transaction set. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
+   5.  For **Repetition separator (UNA5)**, enter a value for the repetition separator that is used to separate segments that repeat within a transaction set. Select **Char** for a character data element or **Hex** for a hexadecimal data element. The character you entered will automatically change if you change its format.  
   
-    6.  For **Segment terminator (UNA6)**, enter a value for the segment terminator that indicates the end of an EDI segment.  
+   6.  For **Segment terminator (UNA6)**, enter a value for the segment terminator that indicates the end of an EDI segment.  
   
-    7.  For **UNA6 Suffix**, select the character that BizTalk Server will use with the Segment identifier, either **None**, **CR** (carriage return), **LF** (line feed), or **CR LF** (carriage return/line feed). If you designate a suffix, the segment terminator data element can be empty. If the segment terminator is left empty, you must designate a suffix. The combination of the segment terminator and suffix can be any of the following:  
+   7.  For **UNA6 Suffix**, select the character that BizTalk Server will use with the Segment identifier, either **None**, **CR** (carriage return), **LF** (line feed), or **CR LF** (carriage return/line feed). If you designate a suffix, the segment terminator data element can be empty. If the segment terminator is left empty, you must designate a suffix. The combination of the segment terminator and suffix can be any of the following:  
   
-        -   Segment terminator  
+       -   Segment terminator  
   
-        -   Segment terminator + carriage return  
+       -   Segment terminator + carriage return  
   
-        -   Segment terminator + carriage return/line feed  
+       -   Segment terminator + carriage return/line feed  
   
-        -   Carriage return  
+       -   Carriage return  
   
-        -   Line feed  
+       -   Line feed  
   
-        -   Carriage return/line feed  
+       -   Carriage return/line feed  
   
-5.  Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate and accept the changes and then close the dialog box.  
+5. Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate and accept the changes and then close the dialog box.  
   
 ## See Also  
  [Configuring EDIFACT Fallback Agreement Properties for Interchange Processing](../core/configuring-edifact-fallback-agreement-properties-for-interchange-processing.md)

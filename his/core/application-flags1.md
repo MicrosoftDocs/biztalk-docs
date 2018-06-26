@@ -16,35 +16,35 @@ manager: "anneta"
 # Application Flags
 Application flags are included on the following messages:  
   
--   All [Data](./data1.md) messages (both inbound and outbound)  
+- All [Data](./data1.md) messages (both inbound and outbound)  
   
--   [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md) (outbound only)  
+- [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md) (outbound only)  
   
--   [Status-Acknowledge(Nack-1)](./status-acknowledge-nack-1-1.md) (outbound only)  
+- [Status-Acknowledge(Nack-1)](./status-acknowledge-nack-1-1.md) (outbound only)  
   
--   All [Status-Control](./status-control1.md) messages (both inbound and outbound)  
+- All [Status-Control](./status-control1.md) messages (both inbound and outbound)  
   
- These flags represent key indicators of the state of the session to which the message relates and are closely related (but not always equivalent) to the request header or response header (RH) indicators in the SNA request or response. Note that for inbound messages, applications need to set the flags on **Data** messages and **Status-Control** messages only.  
+  These flags represent key indicators of the state of the session to which the message relates and are closely related (but not always equivalent) to the request header or response header (RH) indicators in the SNA request or response. Note that for inbound messages, applications need to set the flags on **Data** messages and **Status-Control** messages only.  
   
- For outbound messages, the local node sets the application flags to reflect the contents of the RH in the corresponding SNA message. The local node performs checks on the SNA message before sending it to the application. Therefore, the application can assume that the RH indicators follow the SNA protocols and need not perform its own checks. The application's task in interpreting the application flags is much simpler than if the local node presented the message with the uninterpreted RH. For example:  
+  For outbound messages, the local node sets the application flags to reflect the contents of the RH in the corresponding SNA message. The local node performs checks on the SNA message before sending it to the application. Therefore, the application can assume that the RH indicators follow the SNA protocols and need not perform its own checks. The application's task in interpreting the application flags is much simpler than if the local node presented the message with the uninterpreted RH. For example:  
   
--   If the application specified the segment delivery option when the primary logical unit (PLU) connection was opened, the end chain indicator (ECI) on an SNA request will occur on the first segment of the last request/response unit (RU) in a chain, but the chain is not complete until the last segment of that RU is received. In this case, the local node manipulates the application flags so that the ECI flag is set in the last segment rather than the first. (For more information, see [Opening the PLU Connection](../core/opening-the-plu-connection1.md).)  
+- If the application specified the segment delivery option when the primary logical unit (PLU) connection was opened, the end chain indicator (ECI) on an SNA request will occur on the first segment of the last request/response unit (RU) in a chain, but the chain is not complete until the last segment of that RU is received. In this case, the local node manipulates the application flags so that the ECI flag is set in the last segment rather than the first. (For more information, see [Opening the PLU Connection](../core/opening-the-plu-connection1.md).)  
   
--   Applications using Transmission Service profile 4 (TS profile 4) on the PLU session can receive the definite response 2 (DR2) RH indicator in combination with definite response 1 (DR1) or exception response (ER) to give RQD2, RQD3, RQE2, and RQE3 requests. The local node interprets the RH indicators and sets the **COMMIT** application flag accordingly.  
+- Applications using Transmission Service profile 4 (TS profile 4) on the PLU session can receive the definite response 2 (DR2) RH indicator in combination with definite response 1 (DR1) or exception response (ER) to give RQD2, RQD3, RQE2, and RQE3 requests. The local node interprets the RH indicators and sets the **COMMIT** application flag accordingly.  
   
- For inbound [Data](./data1.md) and [Status-Control](./status-control1.md) messages, you should set the application flags to control session characteristics such as chaining, direction control, and brackets. For **Status-Acknowledge** messages, the local node generates an SNA response and sets the RH indicators using information saved from the corresponding request. The application does not need to set the flags on this message.  
+  For inbound [Data](./data1.md) and [Status-Control](./status-control1.md) messages, you should set the application flags to control session characteristics such as chaining, direction control, and brackets. For **Status-Acknowledge** messages, the local node generates an SNA response and sets the RH indicators using information saved from the corresponding request. The application does not need to set the flags on this message.  
   
- For information about application flag usage when you are using function management interface (FMI) chunking, see [Chunking](../core/chunking2.md).  
+  For information about application flag usage when you are using function management interface (FMI) chunking, see [Chunking](../core/chunking2.md).  
   
- In most cases, the application does not need to use the application flags on [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md) messages, which derive from the response header indicators on the corresponding response. However, certain applications do require access to the response header flags on responses. For example, transaction-processing applications using TS profile 4 can receive the DR2 flag on responses, which appear as the **COMMIT** flag in the application flags.  
+  In most cases, the application does not need to use the application flags on [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md) messages, which derive from the response header indicators on the corresponding response. However, certain applications do require access to the response header flags on responses. For example, transaction-processing applications using TS profile 4 can receive the DR2 flag on responses, which appear as the **COMMIT** flag in the application flags.  
   
- Application flag usage on [Status-Control](./status-control1.md) (SC) messages is derived from the response header indicators in the corresponding data flow control or session control request unit. Applications may need to be aware of the response header flags for Status-Control messages. For example, LUSTAT request type 6 is a no-op used solely to enable response header flags to be sent when no other request is allowed. The local node delivers the request to the application as a Status-Control(LUSTAT) Request with the relevant application flags set. For summaries of valid request header usage for data flow control request units and of valid response header indicators for SC requests, see *SNA Format and Protocol Reference Manual: Architectural Logic* (IBM publication SC30-3112).  
+  Application flag usage on [Status-Control](./status-control1.md) (SC) messages is derived from the response header indicators in the corresponding data flow control or session control request unit. Applications may need to be aware of the response header flags for Status-Control messages. For example, LUSTAT request type 6 is a no-op used solely to enable response header flags to be sent when no other request is allowed. The local node delivers the request to the application as a Status-Control(LUSTAT) Request with the relevant application flags set. For summaries of valid request header usage for data flow control request units and of valid response header indicators for SC requests, see *SNA Format and Protocol Reference Manual: Architectural Logic* (IBM publication SC30-3112).  
   
- In the summary of the application flags in the table that follows, bits are numbered with bit 0 as the most significant bit in a byte and bit 7 as the least significant. An application flag is set if the relevant bit for the flag is 1 and not set if the bit is 0.  
+  In the summary of the application flags in the table that follows, bits are numbered with bit 0 as the most significant bit in a byte and bit 7 as the least significant. An application flag is set if the relevant bit for the flag is 1 and not set if the bit is 0.  
   
- Flag 1 occurs in all messages.  
+  Flag 1 occurs in all messages.  
   
- The following table lists the meanings of the individual bits.  
+  The following table lists the meanings of the individual bits.  
   
 |Bits in flag 1|Meaning|  
 |--------------------|-------------|  

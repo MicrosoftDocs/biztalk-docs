@@ -19,21 +19,21 @@ When you know that you have affiliated applications in your Enterprise Single Si
   
 ### To map between an affiliated application and user credentials  
   
-1.  Create new instances of `ISSOMapper` and `ISSOMapping`.  
+1. Create new instances of `ISSOMapper` and `ISSOMapping`.  
   
-2.  Set the `ISSOMapping` properties to the relevant values.  
+2. Set the `ISSOMapping` properties to the relevant values.  
   
-     The relevant properties for `ISSOMapping` are the Microsoft Windows domain name of the user, the Windows user name, the name of the affiliated application, and the external user name.  
+    The relevant properties for `ISSOMapping` are the Microsoft Windows domain name of the user, the Windows user name, the name of the affiliated application, and the external user name.  
   
-3.  Create the mapping with a call to ISSOMapping.Create.  
+3. Create the mapping with a call to ISSOMapping.Create.  
   
-     Calling `ISSOMapping.Create` propagates the local copy of the mapping out to the Enterprise Single Sign-On server.  
+    Calling `ISSOMapping.Create` propagates the local copy of the mapping out to the Enterprise Single Sign-On server.  
   
-4.  Set the credentials on the mapping with a call to `ISSOMapper.SetExternalCredentials`.  
+4. Set the credentials on the mapping with a call to `ISSOMapper.SetExternalCredentials`.  
   
-5.  Enable the mapping with a call to `ISSOMapping.Enable`.  
+5. Enable the mapping with a call to `ISSOMapping.Enable`.  
   
- The following example shows how to add mapping between a specified Enterprise Single Sign-On application and a user.  
+   The following example shows how to add mapping between a specified Enterprise Single Sign-On application and a user.  
   
 ```  
 public static bool AddMapping(string application, string user, string XU, string XP)  

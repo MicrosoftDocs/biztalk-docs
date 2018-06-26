@@ -42,14 +42,14 @@ This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../in
   
 ### To configure BizTalk Server to send AS2 messages over a static send port  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, create a static one-way or solicit response send port with the above configuration.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, create a static one-way or solicit response send port with the above configuration.  
   
-2.  In the send ports list on the **Send Ports** page of the one-way agreement tab in the **Agreement Properties** dialog box, enter the name of the static send port.  
+2. In the send ports list on the **Send Ports** page of the one-way agreement tab in the **Agreement Properties** dialog box, enter the name of the static send port.  
   
-    > [!NOTE]
-    >  Setting the send port enables [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to perform agreement resolution for an outbound AS2 message.  
+   > [!NOTE]
+   >  Setting the send port enables [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to perform agreement resolution for an outbound AS2 message.  
   
-3.  In the **Identifiers** page of the one-way agreement tab of the **Agreement Properties** dialog box, set the AS2-To property to the destination and then set other agreement properties as required in the different pages of the **Agreement Properties** dialog box.  
+3. In the **Identifiers** page of the one-way agreement tab of the **Agreement Properties** dialog box, set the AS2-To property to the destination and then set other agreement properties as required in the different pages of the **Agreement Properties** dialog box.  
   
 ## Functionality  
  The send port and pipeline does the following to send a synchronous EDI or non-EDI message or acknowledgment over AS2 and process the returned MDN:  

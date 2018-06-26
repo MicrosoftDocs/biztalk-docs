@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting Other Issues
-Addresses other issues related to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  
+Addresses other issues related to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  
   
 ## Message rejected by the BTAHL7 engine  
   
@@ -37,11 +37,11 @@ Addresses other issues related to [!INCLUDE[btsCoName](../../includes/btsconame-
 ## Cannot edit the HL7 schema using Visual Studio  
   
 ### Symptom  
- Cannot edit the HL7 schema using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
+ Cannot edit the HL7 schema using Microsoft[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
 **Possible Cause** : [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] does not support some HL7 schemas.  
   
-**Resolution** : Use other editors, such as [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Notepad, to edit HL7 schemas.  
+**Resolution** : Use other editors, such as Microsoft Notepad, to edit HL7 schemas.  
   
 ## Message handling fails with no errors logged  
   

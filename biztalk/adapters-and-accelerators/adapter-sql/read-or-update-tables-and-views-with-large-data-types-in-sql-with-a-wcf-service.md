@@ -27,19 +27,19 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
 ## Prerequisites  
  You must perform the following tasks on the computer running SQL Server and the computer running the adapter client.  
   
--   **On the computer running SQL Server**  
+- **On the computer running SQL Server**  
   
-    -   You must enable FILESTREAM on the SQL Server instance. See [Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream).
+  -   You must enable FILESTREAM on the SQL Server instance. See [Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream).
   
-    -   You must create a FILESTREAM-enabled database. See [Create a FILESTREAM-Enabled Database](https://docs.microsoft.com/sql/relational-databases/blob/create-a-filestream-enabled-database).
+  -   You must create a FILESTREAM-enabled database. See [Create a FILESTREAM-Enabled Database](https://docs.microsoft.com/sql/relational-databases/blob/create-a-filestream-enabled-database).
   
-    -   You must have a table for storing FILESTREAM data. See [Create a Table for Storing FILESTREAM Data](https://docs.microsoft.com/sql/relational-databases/blob/create-a-table-for-storing-filestream-data),
+  -   You must have a table for storing FILESTREAM data. See [Create a Table for Storing FILESTREAM Data](https://docs.microsoft.com/sql/relational-databases/blob/create-a-table-for-storing-filestream-data),
   
--   **On the computer running the adapter client**  
+- **On the computer running the adapter client**  
   
-    -   You must have the SQL Client Connectivity SDK installed. You can install the SQL Client Connectivity SDK by running the SQL Server setup and selecting **SQL Client Connectivity SDK** in the **Feature Selection** page of the wizard. The adapter uses the sqlncli10.dll, installed with the SQL Client Connectivity SDK, to perform FILESTREAM operations.  
+  -   You must have the SQL Client Connectivity SDK installed. You can install the SQL Client Connectivity SDK by running the SQL Server setup and selecting **SQL Client Connectivity SDK** in the **Feature Selection** page of the wizard. The adapter uses the sqlncli10.dll, installed with the SQL Client Connectivity SDK, to perform FILESTREAM operations.  
   
- After you have completed these tasks, you are all set to insert or update FILESTREAM data in SQL Server database tables.  
+  After you have completed these tasks, you are all set to insert or update FILESTREAM data in SQL Server database tables.  
   
 ## How This Topic Demonstrates Operations on Large Data Types  
  To demonstrate how to perform Set\<*column_name*\> operations on tables with large data types, take a table, **Records**, that has columns **Id** and **Document**:  
@@ -100,71 +100,71 @@ public partial class TableOp_dbo_RecordsClient : System.ServiceModel.ClientBase<
   
 #### To create a WCF client  
   
-1.  Create a Visual C# project in Visual Studio. For this topic, create a console application.  
+1. Create a Visual C# project in Visual Studio. For this topic, create a console application.  
   
-2.  Generate the WCF client class for the **SetDocument** operation on the **Records** table. For more information about generating a WCF client class, see [Generate a WCF Client or WCF Service Contract for SQL Server Artifacts](../../adapters-and-accelerators/adapter-sql/generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts.md).  
+2. Generate the WCF client class for the **SetDocument** operation on the **Records** table. For more information about generating a WCF client class, see [Generate a WCF Client or WCF Service Contract for SQL Server Artifacts](../../adapters-and-accelerators/adapter-sql/generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts.md).  
   
-3.  In the Solution Explorer, add reference to `Microsoft.Adapters.Sql`, `Microsoft.ServiceModel.Channels`, and `System.Transactions`.  
+3. In the Solution Explorer, add reference to `Microsoft.Adapters.Sql`, `Microsoft.ServiceModel.Channels`, and `System.Transactions`.  
   
-4.  Open the Program.cs file and add the `System.Transactions` namespace.  
+4. Open the Program.cs file and add the `System.Transactions` namespace.  
   
-5.  In the Program.cs, create a client as described in the snippet below.  
+5. In the Program.cs, create a client as described in the snippet below.  
   
-    ```  
+   ```  
   
-              TableOp_dbo_RecordsClient client = new TableOp_dbo_RecordsClient("SqlAdapterBinding_TableOp_dbo_Records");  
-    client.ClientCredentials.UserName.UserName = "";  
-    client.ClientCredentials.UserName.Password = "";  
+             TableOp_dbo_RecordsClient client = new TableOp_dbo_RecordsClient("SqlAdapterBinding_TableOp_dbo_Records");  
+   client.ClientCredentials.UserName.UserName = "";  
+   client.ClientCredentials.UserName.Password = "";  
   
-    ```  
+   ```  
   
-     In this snippet, `TableOp_dbo_RecordsClient` is the WCF client defined in SqlAdapterBindingClient.cs. This file is generated by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. `SqlAdapterBinding_TableOp_dbo_Records` is the name of the client endpoint configuration and is defined in the app.config. This file is also generated by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and contains the binding properties and other configuration settings.  
+    In this snippet, `TableOp_dbo_RecordsClient` is the WCF client defined in SqlAdapterBindingClient.cs. This file is generated by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. `SqlAdapterBinding_TableOp_dbo_Records` is the name of the client endpoint configuration and is defined in the app.config. This file is also generated by the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and contains the binding properties and other configuration settings.  
   
-    > [!CAUTION]
-    >  To perform operations on FILESTREAM data, you must always connect to SQL Server using Windows authentication. To connect using Windows authentication, you must provide empty username and password, as shown in the preceding snippet. Also, before using Windows authentication to connect to SQL Server, you must have performed the steps mentioned in [Connect to SQL Server Using Windows Authentication with the SQL adapter](../../adapters-and-accelerators/adapter-sql/connect-to-sql-server-using-windows-authentication-with-the-sql-adapter.md).  
+   > [!CAUTION]
+   >  To perform operations on FILESTREAM data, you must always connect to SQL Server using Windows authentication. To connect using Windows authentication, you must provide empty username and password, as shown in the preceding snippet. Also, before using Windows authentication to connect to SQL Server, you must have performed the steps mentioned in [Connect to SQL Server Using Windows Authentication with the SQL adapter](../../adapters-and-accelerators/adapter-sql/connect-to-sql-server-using-windows-authentication-with-the-sql-adapter.md).  
   
-    > [!NOTE]
-    >  In this snippet, you use the binding and endpoint address from the configuration file. You can also explicitly specify these values in your code. For more information on the different ways of specifying client binding, see [Configure a Client Binding for the SQL Adapter](../../adapters-and-accelerators/adapter-sql/configure-a-client-binding-for-the-sql-adapter.md).  
+   > [!NOTE]
+   >  In this snippet, you use the binding and endpoint address from the configuration file. You can also explicitly specify these values in your code. For more information on the different ways of specifying client binding, see [Configure a Client Binding for the SQL Adapter](../../adapters-and-accelerators/adapter-sql/configure-a-client-binding-for-the-sql-adapter.md).  
   
-6.  Open the client as described in the snippet below:  
+6. Open the client as described in the snippet below:  
   
-    ```  
-    try  
-    {  
-       Console.WriteLine("Opening Client...");  
-       client.Open();  
-    }  
-    catch (Exception ex)  
-    {  
-       Console.WriteLine("Exception: " + ex.Message);  
-       throw;  
-    }  
-    ```  
+   ```  
+   try  
+   {  
+      Console.WriteLine("Opening Client...");  
+      client.Open();  
+   }  
+   catch (Exception ex)  
+   {  
+      Console.WriteLine("Exception: " + ex.Message);  
+      throw;  
+   }  
+   ```  
   
-7.  Invoke the **SetDocument** operation on the **Records** table.  
+7. Invoke the **SetDocument** operation on the **Records** table.  
   
-    > [!CAUTION]
-    >  The Set*<column_name>* operations must always be performed in a transaction. To ensure this, the Set*<column_name>* operation must be invoked within a transaction scope and the **UseAmbientTransaction** binding property must be set to **true** in the app.config.  
+   > [!CAUTION]
+   >  The Set<em><column_name></em> operations must always be performed in a transaction. To ensure this, the Set<em><column_name></em> operation must be invoked within a transaction scope and the **UseAmbientTransaction** binding property must be set to **true** in the app.config.  
   
-    ```  
-    using (TransactionScope tx = new TransactionScope())  
-    {  
-        string filter = "WHERE Id='438B7B4C-5491-409F-BCC1-78817C399EC3'";  
-        byte[] data = ASCIIEncoding.ASCII.GetBytes("Sample data");  
-        client.SetDocument(filter, data);  
-        tx.Complete();  
-    }  
-    ```  
+   ```  
+   using (TransactionScope tx = new TransactionScope())  
+   {  
+       string filter = "WHERE Id='438B7B4C-5491-409F-BCC1-78817C399EC3'";  
+       byte[] data = ASCIIEncoding.ASCII.GetBytes("Sample data");  
+       client.SetDocument(filter, data);  
+       tx.Complete();  
+   }  
+   ```  
   
-     Here, the application converts the string “Sample data” into a base64 encoded string, and updates it in the record that satisfies the filter criteria.  
+    Here, the application converts the string “Sample data” into a base64 encoded string, and updates it in the record that satisfies the filter criteria.  
   
-8.  Close the client as described in the snippet below:  
+8. Close the client as described in the snippet below:  
   
-    ```  
-    client.Close();  
-    Console.WriteLine("Press any key to exit...");  
-    Console.ReadLine();  
-    ```  
+   ```  
+   client.Close();  
+   Console.WriteLine("Press any key to exit...");  
+   Console.ReadLine();  
+   ```  
   
 9. Build the project and then run it. The application updates the **Document** column in the **Records** table.  
   

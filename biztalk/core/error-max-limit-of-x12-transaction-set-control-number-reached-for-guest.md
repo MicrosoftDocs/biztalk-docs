@@ -17,15 +17,15 @@ manager: "anneta"
 # Max limit of acceptable X12 transaction set control number has reached for Guest settings
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|GlobalX12TsNumberError|  
-|Message Text|Max limit of acceptable X12 transaction set control number has reached for Guest settings. Reset counter by navigating to Global configuration sender role screen, field ST 2 in Partner Agreement manager|  
+|                 |                                                                                                                                                                                                            |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                             |
+| Product Version |                                                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                         |
+|    Event ID     |                                                                                                     -                                                                                                      |
+|  Event Source   |                                                           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                           |
+|    Component    |                                                                                                 EDI Engine                                                                                                 |
+|  Symbolic Name  |                                                                                           GlobalX12TsNumberError                                                                                           |
+|  Message Text   | Max limit of acceptable X12 transaction set control number has reached for Guest settings. Reset counter by navigating to Global configuration sender role screen, field ST 2 in Partner Agreement manager |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process the outgoing X12 interchange because the transaction set control number in the ST02 field specified in the global settings, specifically the reference number in field ST02.2, was greater than the maximum allowable value. The maximum allowable value for the transaction set control number depends upon the values of the three fields in ST02. The maximum number of characters is 9 for the reference number in field UNH1.2, 8 for the prefix in UNH1.1 and 8 for the suffix in UNH1.3, and 9 for all three fields combined.  

@@ -32,12 +32,12 @@ Even if you do not use the Enterprise Single-Sign-On (SSO) functionality for map
   
 > [!NOTE]
 >  If the master secret server becomes unavailable, then [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host instances can still perform run-time operations by using the in-memory cached copy of the master secret until:  
->   
->  -   The host instances are restarted.  
-> -   The SSO service on the computer running the BizTalk host instances is restarted.  
-> -   The SSO master secret is changed.  
->   
->  If the SSO service is restarted on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers or if the SSO master secret is changed, then the cached copy of the master secret is released from memory and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] must be able to contact the master secret server to obtain another copy of the master secret. If the master secret server is unavailable then any administrative operations that require access to the master secret server for purposes of encryption will fail.  
+> 
+> - The host instances are restarted.  
+>   -   The SSO service on the computer running the BizTalk host instances is restarted.  
+>   -   The SSO master secret is changed.  
+> 
+>   If the SSO service is restarted on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers or if the SSO master secret is changed, then the cached copy of the master secret is released from memory and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] must be able to contact the master secret server to obtain another copy of the master secret. If the master secret server is unavailable then any administrative operations that require access to the master secret server for purposes of encryption will fail.  
   
 ## Making the Master Secret Server Available  
  For availability of the SSO system, and therefore of the BizTalk Server environment, it is critical that you back up the master secret as soon as it is generated. If you lose it, you lose the data that the SSO system encrypted by using that master secret. For more information about backing up the master secret, see [How to Back Up the Master Secret](../core/how-to-back-up-the-master-secret.md).  

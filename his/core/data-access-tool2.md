@@ -40,127 +40,127 @@ The Data Access Tool enables you to define and test connections to remote IBM DB
   
 #### To Start the Data Access Tool  
   
-1.  Click the Data Access Tool shortcut in the Host Integration Server program folder.  
+1. Click the Data Access Tool shortcut in the Host Integration Server program folder.  
   
-2.  Or click **Start**, **Programs**, **Host Integration Server**, and then click **Data Access Tool**.  
+2. Or click **Start**, **Programs**, **Host Integration Server**, and then click **Data Access Tool**.  
   
- **Data Source Browser, Data Source Folder and Data Source Item**  
+   **Data Source Browser, Data Source Folder and Data Source Item**  
   
- The Data Access window is divided into the following three parts:  
+   The Data Access window is divided into the following three parts:  
   
--   A scope pane (folder browser) that offers a tree view of data sources, with separate folders for DB2 and Host Files.  
+- A scope pane (folder browser) that offers a tree view of data sources, with separate folders for DB2 and Host Files.  
   
--   A results pane (list item details) that offers a list view of data sources, with common details such as platform and date modified.  
+- A results pane (list item details) that offers a list view of data sources, with common details such as platform and date modified.  
   
--   A result pane view that displays either the output of a command or current connection string.  
+- A result pane view that displays either the output of a command or current connection string.  
   
- **Menu commands**  
+  **Menu commands**  
   
- Commands can be accessed through the main menu and context-sensitive menu, which appears when you right-click items displayed in the browser or details panes. For example, when you right-click a data source item, you can view, edit, test, delete, or rename that data source item.. In addition, the **F5** key updates the tree view, the **Delete** key deletes the currently selected item, and the **F1** key opens the online Help.  
+  Commands can be accessed through the main menu and context-sensitive menu, which appears when you right-click items displayed in the browser or details panes. For example, when you right-click a data source item, you can view, edit, test, delete, or rename that data source item.. In addition, the **F5** key updates the tree view, the **Delete** key deletes the currently selected item, and the **F1** key opens the online Help.  
   
- **Creating a Data Source**  
+  **Creating a Data Source**  
   
- To launch the Data Source Wizard, click **New Data Source** from the **File** or context menu.  
+  To launch the Data Source Wizard, click **New Data Source** from the **File** or context menu.  
   
-1.  In the Data Access Tool window, click the **File** menu.  
+1. In the Data Access Tool window, click the **File** menu.  
   
-2.  Click **NewData Source**. The Data Source Wizard appears.  
+2. Click **NewData Source**. The Data Source Wizard appears.  
   
- **Opening a Data Source**  
+   **Opening a Data Source**  
   
- You can use the **Open Data Source** command on the **File** menu) to select a Universal Data Link (\*.udl) file using the Windows **File Open** dialog box. This command opens the data source for editing within the Data Source Wizard.  
+   You can use the **Open Data Source** command on the **File** menu) to select a Universal Data Link (\*.udl) file using the Windows **File Open** dialog box. This command opens the data source for editing within the Data Source Wizard.  
   
-1.  In the Data Access Tool window, click the **File** menu.  
+3. In the Data Access Tool window, click the **File** menu.  
   
-2.  Click **Open Data Source.** The **File Open** dialog box appears.  
+4. Click **Open Data Source.** The **File Open** dialog box appears.  
   
-3.  Find the data source that you want, and then click **Open**. The Data Source Wizard appears.  
+5. Find the data source that you want, and then click **Open**. The Data Source Wizard appears.  
   
- **Importing a Data Source**  
+   **Importing a Data Source**  
   
- You can use the **Import DB2 Connect File** command (File menu) to import a configuration defined for use with  IBM DB2 Connect.  
+   You can use the **Import DB2 Connect File** command (File menu) to import a configuration defined for use with  IBM DB2 Connect.  
   
-1.  In the Data Source Browser, click the **File** menu.  
+6. In the Data Source Browser, click the **File** menu.  
   
-2.  Click **Import**, and then select the file that you want.  
+7. Click **Import**, and then select the file that you want.  
   
-3.  Click file, and the click **Open** to view item in Data Source Wizard. The Data Source Wizard appears.  
+8. Click file, and the click **Open** to view item in Data Source Wizard. The Data Source Wizard appears.  
   
- For more information about IBM DB2 Connect files, see the IBM DB2 Connect documentation.  
+   For more information about IBM DB2 Connect files, see the IBM DB2 Connect documentation.  
   
- **Editing a Data Source**  
+   **Editing a Data Source**  
   
- You can use the Edit Data Source command from the Action or context menu to select a Universal Data Link (*.udl) file. This command opens the data source for editing in the Data Source Wizard.  
+   You can use the Edit Data Source command from the Action or context menu to select a Universal Data Link (*.udl) file. This command opens the data source for editing in the Data Source Wizard.  
   
-1.  In the Data Source Browser window, click the **Actions** menu.  
+9. In the Data Source Browser window, click the **Actions** menu.  
   
-2.  Click **Edit Data Source**. The Data Source Wizard appears.  
+10. Click **Edit Data Source**. The Data Source Wizard appears.  
   
- **Testing a Connection**  
+    **Testing a Connection**  
   
- The **Test Connection** command on the **Action** or context menu enables you to verify the data source, and to display information such as the host platform and version.  
+    The **Test Connection** command on the **Action** or context menu enables you to verify the data source, and to display information such as the host platform and version.  
   
- `Successfully connected to data source 'DB2DSN1'.`  
+    `Successfully connected to data source 'DB2DSN1'.`  
   
- `Server class: DB2/MVS`  
+    `Server class: DB2/MVS`  
   
- `Server version: 09.01.0005`  
+    `Server version: 09.01.0005`  
   
- If you did not persist the user name and password into the connection configuration, an **Authentication** dialog box will appear, prompting you to enter a valid user name and password.  
+    If you did not persist the user name and password into the connection configuration, an **Authentication** dialog box will appear, prompting you to enter a valid user name and password.  
   
- **Running a Sample Query**  
+    **Running a Sample Query**  
   
- You can use the **Sample Query** command on the **Action** and context menu to execute a sample query against the remote data source. The sample query retrieves a list of tables from the system catalog by using the default schema property configured in the data source.  
+    You can use the **Sample Query** command on the **Action** and context menu to execute a sample query against the remote data source. The sample query retrieves a list of tables from the system catalog by using the default schema property configured in the data source.  
   
-1.  In the Data Source Browser window, select the data source and click the **Actions** menu.  
+11. In the Data Source Browser window, select the data source and click the **Actions** menu.  
   
-2.  Click **Sample Query**. The Output window and Grid window display the results of the sample query  
+12. Click **Sample Query**. The Output window and Grid window display the results of the sample query  
   
      `Successfully retrieved 1000 rows from data source 'DB2DSN1'.`  
   
- **Creating Packages**  
+    **Creating Packages**  
   
- You can use the **Create Packages** command on the Actions and context menu to create packages on a remote DB2 relational database server.  
+    You can use the **Create Packages** command on the Actions and context menu to create packages on a remote DB2 relational database server.  
   
-1.  In the Data Source Browser window, select the data source and then click the **Actions** menu.  
+13. In the Data Source Browser window, select the data source and then click the **Actions** menu.  
   
-2.  Click **Create Packages**. The Output widow displays the results of the sample query.  
+14. Click **Create Packages**. The Output widow displays the results of the sample query.  
   
- If you did not persist the user name and password into the connection configuration, an Authentication dialog box appears, prompting you to enter a valid user name and password.  
+    If you did not persist the user name and password into the connection configuration, an Authentication dialog box appears, prompting you to enter a valid user name and password.  
   
- **Displaying a Connection String**  
+    **Displaying a Connection String**  
   
- When you select a data source in the Data Source Browser, the Output pane displays the **Connection String** dialog box. You can copy the connection string from the dialog box and paste it into other applications. You can use this technique in  SQL Server Management Studio to define a Linked Server for use with the Query Processor.  
+    When you select a data source in the Data Source Browser, the Output pane displays the **Connection String** dialog box. You can copy the connection string from the dialog box and paste it into other applications. You can use this technique in  SQL Server Management Studio to define a Linked Server for use with the Query Processor.  
   
- **Change Password**  
+    **Change Password**  
   
- You can replace your current password using **Change Password** command  on the Actions and context menu to access the DB2 password change management (PCM) function.  
+    You can replace your current password using **Change Password** command  on the Actions and context menu to access the DB2 password change management (PCM) function.  
   
-1.  In the Data Source Browser window, select the data source, and then click the **Actions** menu.  
+15. In the Data Source Browser window, select the data source, and then click the **Actions** menu.  
   
-2.  Click **Change Password**. The Authentication dialog appears.  
+16. Click **Change Password**. The Authentication dialog appears.  
   
-3.  Enter the current credentials in the **User name** and **Password** text boxes.  
+17. Enter the current credentials in the **User name** and **Password** text boxes.  
   
-4.  Enter the new password in both the **New password** and **Confirm password** text boxes. The Output window displays the results of the Change Password command.  
+18. Enter the new password in both the **New password** and **Confirm password** text boxes. The Output window displays the results of the Change Password command.  
   
- `Successfully changed the password on data source 'DB2DSN1'.`  
+    `Successfully changed the password on data source 'DB2DSN1'.`  
   
- **Locate**  
+    **Locate**  
   
- The **Locate** command  on the context menu enables you to navigate to a Universal Data Link (*.udl) file using the Windows Explorer dialog box.  
+    The **Locate** command  on the context menu enables you to navigate to a Universal Data Link (*.udl) file using the Windows Explorer dialog box.  
   
- **Options**  
+    **Options**  
   
- You can use the **Options** dialog on the **View** menu to specify the directory that the Data Access Tool uses to view, edit and save Universal Data Link (*.udl) files.  
+    You can use the **Options** dialog on the **View** menu to specify the directory that the Data Access Tool uses to view, edit and save Universal Data Link (*.udl) files.  
   
- **Help**  
+    **Help**  
   
- You can use the **Help** command on the context menu and **Dynamic Help** on the **Help** menu to load the product documentation to learn more about using the Data Access Tool.  
+    You can use the **Help** command on the context menu and **Dynamic Help** on the **Help** menu to load the product documentation to learn more about using the Data Access Tool.  
   
- **Other Tasks**  
+    **Other Tasks**  
   
- In addition to the tasks described in the previous topics, you can also use the **Edit**, **View** and **Help** menus to perform the actions described in the following table.  
+    In addition to the tasks described in the previous topics, you can also use the **Edit**, **View** and **Help** menus to perform the actions described in the following table.  
   
 |||  
 |-|-|  

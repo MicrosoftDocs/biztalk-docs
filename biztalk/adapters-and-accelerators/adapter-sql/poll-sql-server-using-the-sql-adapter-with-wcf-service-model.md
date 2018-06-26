@@ -17,13 +17,13 @@ manager: "anneta"
 # Poll SQL Server using the SQL Adapter with WCF Service Model
 You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive polling-based data-changed messages from SQL Server. You can specify a polling statement that the adapter executes to poll the database. The polling statement can be a SELECT statement or a stored procedure that returns a result set. Based on the type of polling message received, the adapter exposes different polling operations:  
   
--   **Polling**. This operation returns a data set as part of the polling message.  
+- **Polling**. This operation returns a data set as part of the polling message.  
   
--   **TypedPolling**. This operation returns a strongly-typed polling message.  
+- **TypedPolling**. This operation returns a strongly-typed polling message.  
   
--   **XmlPolling**. This operation returns the polling message as an XML message. You must use this operation if you want to use SELECT statements or stored procedures that use the FOR XML clause to return data as XML messages. [FOR XML clause](https://docs.microsoft.com/sql/relational-databases/xml/for-xml-sql-server) provides more info. 
+- **XmlPolling**. This operation returns the polling message as an XML message. You must use this operation if you want to use SELECT statements or stored procedures that use the FOR XML clause to return data as XML messages. [FOR XML clause](https://docs.microsoft.com/sql/relational-databases/xml/for-xml-sql-server) provides more info. 
   
- For more information about these polling operations, see [Polling in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/polling-in-sql-server-using-the-sql-adapter.md).  
+  For more information about these polling operations, see [Polling in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/polling-in-sql-server-using-the-sql-adapter.md).  
   
 > [!NOTE]
 >  The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to have a single application with more than one Polling or TypedPolling operations for the same database or table. To support such a scenario, the adapter includes a unique ID— **InboundID**—in the connection URI. This ID, when added to the connection URI, makes it unique, thereby enabling multiple polling operations in a single application.  

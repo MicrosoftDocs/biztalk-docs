@@ -18,20 +18,20 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # CertWizard
-You use the CertWizard utility to import a certificate from a .pfx or .cer file into a private or public store for use with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  
+You use the CertWizard utility to import a certificate from a .pfx or .cer file into a private or public store for use with Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  
   
 ## Location in SDK  
- \<*drive*\>\Program Files (x86)\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\  
+ \<*drive*\>\Program Files (x86)\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\  
   
 ## Running CertWizard  
   
 #### To run CertWizard  
   
-1.  Open a command prompt.  
+1. Open a command prompt.  
   
-2.  Move to \<*drive*\>\ Program Files (x86)\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
+2. Move to \<*drive*\>\ Program Files (x86)\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\\.  
   
-3.  At the command prompt, type **CertWizard**, type the required and appropriate switches, and then press ENTER.  
+3. At the command prompt, type **CertWizard**, type the required and appropriate switches, and then press ENTER.  
   
 ## Syntax for CertWizard  
  The following shows the syntax that you use to start this command-line utility:  

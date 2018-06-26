@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10557
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10557|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_USER_NOT_ALLOWED_FOR_GROUPS|  
-|Message Text|Application Users are not allowed to control mappings for Group applications.%r<br /><br /> Domain Name: %1%r<br /><br /> User Name: %2%r<br /><br /> Application Name: %3%r<br /><br /> Client User: %4|  
+|                 |                                                                                                                                                                                                          |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                        Enterprise Single Sign-On                                                                                         |
+| Product Version |                                                                        [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                        |
+|    Event ID     |                                                                                                  10557                                                                                                   |
+|  Event Source   |                                                                                                  ENTSSO                                                                                                  |
+|    Component    |                                                                                                   N/A                                                                                                    |
+|  Symbolic Name  |                                                                                   SSO_WARN_USER_NOT_ALLOWED_FOR_GROUPS                                                                                   |
+|  Message Text   | Application Users are not allowed to control mappings for Group applications.%r<br /><br /> Domain Name: %1%r<br /><br /> User Name: %2%r<br /><br /> Application Name: %3%r<br /><br /> Client User: %4 |
   
 ## Explanation  
  An Application User does not have sufficient privileges to create or control mappings for Group applications.  

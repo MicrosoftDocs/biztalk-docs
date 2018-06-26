@@ -24,61 +24,61 @@ Process by which the client passes input data to the ITOC listener and the HWSIM
 ## Summary Workflow Diagram for the IMS Connect Programming Model  
  The IMS Connect programming model works as follows:  
   
-1.  An application invokes a method in a TI component configured in either Component Services or the .NET Framework.  
+1. An application invokes a method in a TI component configured in either Component Services or the .NET Framework.  
   
-2.  The TI runtime calls the TI Automation proxy.  
+2. The TI runtime calls the TI Automation proxy.  
   
-3.  If the application is a .NET Framework assembly, the TI Automation proxy:  
+3. If the application is a .NET Framework assembly, the TI Automation proxy:  
   
-    1.  Rreads in the assembly and meta data created previously by the TI Designer.  
+   1. Rreads in the assembly and meta data created previously by the TI Designer.  
   
-    2.  Maps the .NET data types to COBOL data types.  
+   2. Maps the .NET data types to COBOL data types.  
   
-     The TI Automation proxy then:  
+      The TI Automation proxy then:  
   
-    1.  Calls the conversion routines to convert the application data to mainframe COBOL types.  
+   3. Calls the conversion routines to convert the application data to mainframe COBOL types.  
   
-    2.  Builds the flattened data stream buffer that represents the COBOL declaration or copybook.  
+   4. Builds the flattened data stream buffer that represents the COBOL declaration or copybook.  
   
-    3.  Passes the message to the TCP transport component.  
+   5. Passes the message to the TCP transport component.  
   
-4.  The TI runtime sends an initial request message (IRM) to the IMS Connect, either HWSIMSO0 or HWSIMSO1, using the Internet Protocol (IP) address of the mainframe computer and the port address of the IMS Connect as stored in the TCP/IP profile data set (hlq.PROFILE.TCPIP) supplied by IBM.  
+4. The TI runtime sends an initial request message (IRM) to the IMS Connect, either HWSIMSO0 or HWSIMSO1, using the Internet Protocol (IP) address of the mainframe computer and the port address of the IMS Connect as stored in the TCP/IP profile data set (hlq.PROFILE.TCPIP) supplied by IBM.  
   
-     HWSIMSO0 and HWSIMSO1 are IBM-supplied host web server (HWS) exit routines that define the request and reply protocols between the TI Automation server (a TI .NET Framework application) and ITOC. The HWS runs in an MVS address space that is separate from the IMS regions and performs the listener services for the IMS connection.  
+    HWSIMSO0 and HWSIMSO1 are IBM-supplied host web server (HWS) exit routines that define the request and reply protocols between the TI Automation server (a TI .NET Framework application) and ITOC. The HWS runs in an MVS address space that is separate from the IMS regions and performs the listener services for the IMS connection.  
   
-5.  The IMS Connect exit routine takes control of the IMS application (referred to as the IMS TCP/IP Open Transaction Management Architecture (OTMA) Connection (ITOC)).  
+5. The IMS Connect exit routine takes control of the IMS application (referred to as the IMS TCP/IP Open Transaction Management Architecture (OTMA) Connection (ITOC)).  
   
-6.  The TI run-time environment sends an ITOC request header to ITOC and HWSIMSO0.  
+6. The TI run-time environment sends an ITOC request header to ITOC and HWSIMSO0.  
   
-7.  The HWSIMSO0 exit routine:  
+7. The HWSIMSO0 exit routine:  
   
-    -   Validates the ITOC request header  
+   -   Validates the ITOC request header  
   
-    -   Receives all request data from the TI run-time environment  
+   -   Receives all request data from the TI run-time environment  
   
-    -   Communicates with security routines  
+   -   Communicates with security routines  
   
-    -   Drives the OTMA process to connect to an IMS data store  
+   -   Drives the OTMA process to connect to an IMS data store  
   
-    -   Places and retrieves message segments into and from the IMS message queue through OTMA  
+   -   Places and retrieves message segments into and from the IMS message queue through OTMA  
   
-    -   Sends all reply data segments to the TI run-time environment  
+   -   Sends all reply data segments to the TI run-time environment  
   
-    -   Controls recovery operations within IMS  
+   -   Controls recovery operations within IMS  
   
-8.  ITOC reads the ITOC header information, locates the correct IMS region, and schedules the execution of an IMS transaction in that IMS region. The ITOC header must contain this information:  
+8. ITOC reads the ITOC header information, locates the correct IMS region, and schedules the execution of an IMS transaction in that IMS region. The ITOC header must contain this information:  
   
-    -   ITOC HWS exit routine identifier (default '*IRMREQ\*')  
+   -   ITOC HWS exit routine identifier (default '*IRMREQ\*')  
   
-    -   IMS data store identifier  
+   -   IMS data store identifier  
   
-    -   Transaction identifier  
+   -   Transaction identifier  
   
-    -   Flow control information  
+   -   Flow control information  
   
-    -   IBM's Resource Access Control Facility (RACF) security credentials  
+   -   IBM's Resource Access Control Facility (RACF) security credentials  
   
-    -   Protocol control flags  
+   -   Protocol control flags  
   
 9. HWSIMSO0 schedules the correct IMS message queue  
   
@@ -106,21 +106,21 @@ Process by which the client passes input data to the ITOC listener and the HWSIM
   
 17. The TI Automation proxy receives the reply data and processes the reply. The TI Automation proxy:  
   
-    1.  receives the message from the TCP transport component.  
+    1. receives the message from the TCP transport component.  
   
-    2.  reads the message buffer  
+    2. reads the message buffer  
   
-     If the application is a .NET Framework assembly, the TI Automation proxy:  
+       If the application is a .NET Framework assembly, the TI Automation proxy:  
   
-    1.  maps the COBOL data types to the .NET Framework data types  
+    3. maps the COBOL data types to the .NET Framework data types  
   
-    2.  calls the conversion routines to convert the COBOL data types to the application data  
+    4. calls the conversion routines to convert the COBOL data types to the application data  
   
 18. The TI runtime sends the converted data back to the .NET Framework application that invoked the method.  
   
- For information about configuring the mainframe and writing server applications for TCP/IP, see TCP/IP V3R2 for MVS: IMS TCP/IP Application Developers Guide (IBM Document #SC31-7186) and IMS Connect Guide and Reference V1R2 (IBM Document #SC27-0946).  
+    For information about configuring the mainframe and writing server applications for TCP/IP, see TCP/IP V3R2 for MVS: IMS TCP/IP Application Developers Guide (IBM Document #SC31-7186) and IMS Connect Guide and Reference V1R2 (IBM Document #SC27-0946).  
   
- [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] includes sample code showing how to implement the IMS Connect programming model. The sample code is located at **\\***installation directory***\SDK\Samples\AppInt**. Start Visual Studio, open the tutorial you want to use, and follow the instructions in the **Readme**.  
+    [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] includes sample code showing how to implement the IMS Connect programming model. The sample code is located at **\\**<em>installation directory</em>**\SDK\Samples\AppInt**. Start Visual Studio, open the tutorial you want to use, and follow the instructions in the **Readme**.  
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   

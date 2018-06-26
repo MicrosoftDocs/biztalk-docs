@@ -19,13 +19,13 @@ If you have selected to generate a technical acknowledgment in business profile 
   
  The CONTRL technical ACK includes the following segments:  
   
--   UNH message header (mandatory)  
+- UNH message header (mandatory)  
   
--   UCI interchange response that identifies the subject interchange and indicates the nature of interchange receipt (mandatory). The UCI segment has a max occurrence of 1; as a result, it reports the first error encountered in one of the control segments.  
+- UCI interchange response that identifies the subject interchange and indicates the nature of interchange receipt (mandatory). The UCI segment has a max occurrence of 1; as a result, it reports the first error encountered in one of the control segments.  
   
--   UNT message trailer (mandatory).  
+- UNT message trailer (mandatory).  
   
- An error is reported in the UCI5, "Syntax Error Code", data element. There is no "accepted with errors" condition for EDIFACT-encoded interchanges, as there is with X12-encoded interchanges.  
+  An error is reported in the UCI5, "Syntax Error Code", data element. There is no "accepted with errors" condition for EDIFACT-encoded interchanges, as there is with X12-encoded interchanges.  
   
 > [!NOTE]
 >  A CONTRL receipt (EDIFACT technical acknowledgment) reports a status of “Rejected” only when the incoming EDIFACT message is a duplicate or there are errors in the envelope (for example, an issue with the character set). EDIFACT does not report a state of “Interchange accepted with errors” in the CONTRL technical acknowledgment, as X12 does in the TA104 field in a TA1 acknowledgment. If part of the EDIFACT message is accepted, the CONTRL technical acknowledgment will report “Accepted”. In some scenarios, part of the message will be rejected, but the CONTRL acknowledgment will still report a status of “Accepted”. In such scenarios, the UCI5 element may report the error.  

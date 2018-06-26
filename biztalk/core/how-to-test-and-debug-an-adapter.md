@@ -31,37 +31,37 @@ Debugging run-time problems often requires a multifaceted approach. Data must be
 ### Function Testing  
  The adapter should be tested for all permutations of its functionality, including both positive tests and negative tests. Positive tests should include but not be limited to the following scenarios:  
   
--   Receive a message(s)  
+- Receive a message(s)  
   
--   Transmit a message(s)  
+- Transmit a message(s)  
   
--   Transmit a message using a dynamic port  
+- Transmit a message using a dynamic port  
   
--   Disable receive locations  
+- Disable receive locations  
   
--   Update configuration  
+- Update configuration  
   
--   Ensure service windows are working for both receive and send adapters  
+- Ensure service windows are working for both receive and send adapters  
   
--   Ensure transactional integrity for transacted adapters  
+- Ensure transactional integrity for transacted adapters  
   
- Negative tests should include but not be limited to:  
+  Negative tests should include but not be limited to:  
   
--   Receive a bad message(s)  
+- Receive a bad message(s)  
   
--   Receive a mixed batch of messages, some good and some bad  
+- Receive a mixed batch of messages, some good and some bad  
   
--   Transmit failure  
+- Transmit failure  
   
--   Retry successful  
+- Retry successful  
   
--   Retry fails, move to next transport successful  
+- Retry fails, move to next transport successful  
   
--   Move to next transport fails, suspend message  
+- Move to next transport fails, suspend message  
   
--   Transmit a mixed batch of messages  
+- Transmit a mixed batch of messages  
   
--   Database failover  
+- Database failover  
   
 ### Stress Testing  
  Adapters are run-time components and as such should meet the stringent requirements for run-time software. Typically stress testing is carried out by running scenarios under load for a period of time. Further high-stress and low-stress mean time between failure tests should be performed, whereby the adapter is run under load for a measured time period.  

@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Glossary
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 uses the following terms and definitions.
+Microsoft BizTalk Accelerator for HL7 uses the following terms and definitions.
 
 ## A    
  **artifact**    

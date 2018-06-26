@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # What BizTalk Accelerator for RosettaNet Adds to BizTalk Server
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] builds a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server integration system into a RosettaNet-compliant integration system. It adds everything you must have to implement a RosettaNet-compliant solution.  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] builds a Microsoft BizTalk Server integration system into a RosettaNet-compliant integration system. It adds everything you must have to implement a RosettaNet-compliant solution.  
   
 You install [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] on top of BizTalk Server and [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] adds functionality to the core BizTalk Server engine. It adds features, tools, and utilities to those that BizTalk Server provides. It also adds application programming interfaces (APIs) to what the BizTalk Server software development kit (SDK) provides.  
   

@@ -19,25 +19,25 @@ This topic describes best practices that you should consider using when updating
 ## Versioning  
  **Implement a versioning strategy**  
   
--   A good versioning strategy is essential if long-running transactions are used or the BizTalk application cannot be taken down to do upgrades or bug fixes. You should plan the versioning strategy of all BizTalk artifacts: schemas, maps, custom adapters, pipelines, pipeline components, orchestrations, business rules, BAM, and custom classes called in orchestrations and maps.  
+- A good versioning strategy is essential if long-running transactions are used or the BizTalk application cannot be taken down to do upgrades or bug fixes. You should plan the versioning strategy of all BizTalk artifacts: schemas, maps, custom adapters, pipelines, pipeline components, orchestrations, business rules, BAM, and custom classes called in orchestrations and maps.  
   
- **Match the assemblies in the BizTalk Management database and the global assembly cache (GAC)**  
+  **Match the assemblies in the BizTalk Management database and the global assembly cache (GAC)**  
   
--   Ensure that the same versions of assemblies are in the BizTalk Management database as in the GAC, so that your application functions properly. If you do not always install an assembly in the GAC when you deploy it, you might have different versions in the GAC and the BizTalk Management database, which will cause processing errors during run time.  
+- Ensure that the same versions of assemblies are in the BizTalk Management database as in the GAC, so that your application functions properly. If you do not always install an assembly in the GAC when you deploy it, you might have different versions in the GAC and the BizTalk Management database, which will cause processing errors during run time.  
   
- **Use the BizTalk Assembly Checker and Remote GAC tool to verify versioning**  
+  **Use the BizTalk Assembly Checker and Remote GAC tool to verify versioning**  
   
--   The **BizTalk Assembly Checker and Remote GAC tool** (BTSAssemblyChecker.exe) checks the versions of assemblies deployed to the BizTalk Management database and verifies that they are correctly registered in the GAC on all BizTalk Server computers. You can use this tool to verify that all the assemblies containing the artifacts of a certain BizTalk application are installed on all BizTalk nodes. The tool is particularly useful in conjunction with a solid versioning strategy to verify that the correct version of a set of assemblies is installed on each BizTalk machine, especially when side-by-side deployment approach is used.  
+- The **BizTalk Assembly Checker and Remote GAC tool** (BTSAssemblyChecker.exe) checks the versions of assemblies deployed to the BizTalk Management database and verifies that they are correctly registered in the GAC on all BizTalk Server computers. You can use this tool to verify that all the assemblies containing the artifacts of a certain BizTalk application are installed on all BizTalk nodes. The tool is particularly useful in conjunction with a solid versioning strategy to verify that the correct version of a set of assemblies is installed on each BizTalk machine, especially when side-by-side deployment approach is used.  
   
--   The tool is available with the BizTalk Server installation media at Support\Tools\x86\BTSAssemblyChecker.exe.  
+- The tool is available with the BizTalk Server installation media at Support\Tools\x86\BTSAssemblyChecker.exe.  
   
- **Use a Versioning Product**  
+  **Use a Versioning Product**  
   
--   You should use a versioning product, such as Microsoft Visual Studio® Team Foundation Server 2010, for tracking and versioning BizTalk artifacts. For more information about Microsoft Visual Studio® Team Foundation Server 2010 see [Microsoft Visual Studio® Team Foundation Server 2010](http://go.microsoft.com/fwlink/?LinkId=210637) (http://go.microsoft.com/fwlink/?LinkId=210637)  
+- You should use a versioning product, such as Microsoft Visual Studio® Team Foundation Server 2010, for tracking and versioning BizTalk artifacts. For more information about Microsoft Visual Studio® Team Foundation Server 2010 see [Microsoft Visual Studio® Team Foundation Server 2010](http://go.microsoft.com/fwlink/?LinkId=210637) (http://go.microsoft.com/fwlink/?LinkId=210637)  
   
- **Factor artifacts into multiple BizTalk applications**  
+  **Factor artifacts into multiple BizTalk applications**  
   
--   In order to perform assembly versioning of BizTalk artifacts, your BizTalk solution assemblies need to be factored (packaged) in such a way to allow for BizTalk Server versioning. For more information about factoring, see [Adding Artifacts to an Application](../technical-guides/adding-artifacts-to-an-application.md).  
+- In order to perform assembly versioning of BizTalk artifacts, your BizTalk solution assemblies need to be factored (packaged) in such a way to allow for BizTalk Server versioning. For more information about factoring, see [Adding Artifacts to an Application](../technical-guides/adding-artifacts-to-an-application.md).  
   
 ## Updating an Application  
  **Use an .msi file to update an application**  
@@ -51,31 +51,31 @@ This topic describes best practices that you should consider using when updating
 ## Updating an Assembly  
  **Increment the version of an assembly in a production environment**  
   
--   If you are updating an assembly that is running in a production environment, you should always increment the assembly version number.  
+- If you are updating an assembly that is running in a production environment, you should always increment the assembly version number.  
   
- **Update the GAC with an updated assembly**  
+  **Update the GAC with an updated assembly**  
   
--   When you update an assembly containing an orchestration, schema, or map, you must update the GAC with the assembly containing the new version. Otherwise, BizTalk Server will use the outdated version. To do this, on each computer that is running an instance of the host to which an application is bound, uninstall from the GAC the outdated version of the assembly containing the updated artifact and make sure that the new version is installed.  
+- When you update an assembly containing an orchestration, schema, or map, you must update the GAC with the assembly containing the new version. Otherwise, BizTalk Server will use the outdated version. To do this, on each computer that is running an instance of the host to which an application is bound, uninstall from the GAC the outdated version of the assembly containing the updated artifact and make sure that the new version is installed.  
   
- **Restart a host instance after updating an assembly**  
+  **Restart a host instance after updating an assembly**  
   
--   If a BizTalk assembly in an existing application is updated, you may need to restart host instances for the changes to take effect. Restarting a host instance stops all other applications that are running on the host instance.  
+- If a BizTalk assembly in an existing application is updated, you may need to restart host instances for the changes to take effect. Restarting a host instance stops all other applications that are running on the host instance.  
   
 ## Updating an Artifact  
  **Undeploy a dependent artifact before the artifact that it depends on**  
   
--   If you are undeploying an artifact on which another artifact depends, you must undeploy the dependent artifact first.  
+- If you are undeploying an artifact on which another artifact depends, you must undeploy the dependent artifact first.  
   
-    > [!NOTE]  
-    >  If you do not undeploy the dependent artifact first, the BizTalk Server Administration console will display a warning and prevent you from undeploying artifacts in the incorrect order.  
+  > [!NOTE]  
+  >  If you do not undeploy the dependent artifact first, the BizTalk Server Administration console will display a warning and prevent you from undeploying artifacts in the incorrect order.  
   
- **Do not stop an artifact that another application depends on**  
+  **Do not stop an artifact that another application depends on**  
   
--   If you stop an artifact in one application (which may result from stopping the entire application) that another application depends on, the dependent application will not function correctly. For more information about stopping an application, see [How to Start and Stop a BizTalk Application](http://go.microsoft.com/fwlink/?LinkID=154729) (http://go.microsoft.com/fwlink/?LinkID=154729).  
+- If you stop an artifact in one application (which may result from stopping the entire application) that another application depends on, the dependent application will not function correctly. For more information about stopping an application, see [How to Start and Stop a BizTalk Application](http://go.microsoft.com/fwlink/?LinkID=154729) (http://go.microsoft.com/fwlink/?LinkID=154729).  
   
- **Add a reference to an assembly before moving an artifact**  
+  **Add a reference to an assembly before moving an artifact**  
   
--   When you move an artifact to a new application, any other artifacts on which it has dependencies are also moved unless the new application has a reference to the application(s) containing the artifacts on which the moved artifact depends. Also, any artifacts that have dependencies on the moved artifact are moved unless the application(s) containing them have a reference to the new application. When moving an artifact, you are shown the list of other artifacts that will also be moved.  
+- When you move an artifact to a new application, any other artifacts on which it has dependencies are also moved unless the new application has a reference to the application(s) containing the artifacts on which the moved artifact depends. Also, any artifacts that have dependencies on the moved artifact are moved unless the application(s) containing them have a reference to the new application. When moving an artifact, you are shown the list of other artifacts that will also be moved.  
   
 ## Updating Bindings  
  **Automate the reconfiguration of bindings**  

@@ -49,11 +49,11 @@ To support the new BAM interceptor functionality, four new commands have been ad
   
  This command deploys the interceptor configuration to the specified server and database. During deployment, the BAM Management utility performs the following validations:  
   
--   XSD validation: The interceptor configuration is validated against the common interceptor configuration schema.  
+- XSD validation: The interceptor configuration is validated against the common interceptor configuration schema.  
   
--   Validation that the activity exists (is deployed in the Primary Import database) and that checkpoints are valid (exist and have a matching data type).  
+- Validation that the activity exists (is deployed in the Primary Import database) and that checkpoints are valid (exist and have a matching data type).  
   
- If a collision is detected in the event source name, a warning is thrown describing the collision. In the case of a collision, the deployment will fail unless the **–Force:True** parameter flag is used.  
+  If a collision is detected in the event source name, a warning is thrown describing the collision. In the case of a collision, the deployment will fail unless the **–Force:True** parameter flag is used.  
   
 > [!NOTE]
 >  The **–Force:True** parameter potentially removes interceptor configurations that reference event sources with the same name. You should use the **get-interceptor** command to create a backup of existing interceptor configurations before using the **–Force:True** parameter.  

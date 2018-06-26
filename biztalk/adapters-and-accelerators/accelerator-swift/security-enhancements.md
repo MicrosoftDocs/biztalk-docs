@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Security Enhancements
-Each step of this deployment guide has been designed as a secure deployment for your [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] installation.  
+Each step of this deployment guide has been designed as a secure deployment for your Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] installation.  
   
  For more information about A4SWIFT security, see [Security and privacy standards](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md).
   

@@ -33,19 +33,19 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld contains both the Receive Hand
  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, you can verify that the adapter is functioning correctly by looking at the **Logical System** window. On initial installation, this window is empty because you have not yet established a connection to the server system, nor have you created any logical systems.  
   
  
-1.  In **BizTalk Server Administration**, expand **Platform Settings**, expand **Adapters**, and then select **JDEOneWorld**.  
+1. In **BizTalk Server Administration**, expand **Platform Settings**, expand **Adapters**, and then select **JDEOneWorld**.  
   
-2.  In the details pane, right-click **BizTalkServerApplication**, and select **Properties**.  
+2. In the details pane, right-click **BizTalkServerApplication**, and select **Properties**.  
   
-3.  Select the **Properties** tab.  
+3. Select the **Properties** tab.  
   
-4.  Set the SQL Connection parameters.  
+4. Set the SQL Connection parameters.  
   
-    -   **Define SQL Database Parameters -** The SQL Server Name and Database are those you set at installation. This is the text area that you can redefine the server and database for this adapter.  
+   -   **Define SQL Database Parameters -** The SQL Server Name and Database are those you set at installation. This is the text area that you can redefine the server and database for this adapter.  
   
-5.  Select **Close** to exit the **Logical System** window.  
+5. Select **Close** to exit the **Logical System** window.  
   
-     Your next step is to add a logical system using [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+    Your next step is to add a logical system using [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
 
 ## Create the send port  
   

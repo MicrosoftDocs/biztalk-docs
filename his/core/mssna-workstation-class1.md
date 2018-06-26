@@ -35,7 +35,7 @@ class MsSna_Workstation : MsSna_Config
   
 ## Properties  
  **Name**  
- Data Type: **String**Qualifiers: **Key, MAXLEN(20)**Access Type: Read-Only  
+ Data Type: **String**Qualifiers: <strong>Key, MAXLEN(20)</strong>Access Type: Read-Only  
   
  The workstation ID. **Name** is usually the workstation name.  
   
@@ -61,7 +61,7 @@ class MsSna_Workstation : MsSna_Config
 |1|True|  
   
  **IPmask**  
- Data Type: **String**Qualifiers: **MAXLEN(20)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(20)</strong>Access Type: Read/Write  
   
  The IP Subnet mask. Use **IPmask** only if **WorkstationIdType** is set to **IPSubnet**.  
   
@@ -71,7 +71,7 @@ class MsSna_Workstation : MsSna_Config
  **true** to enable users access to remote APPC LU as they are created; otherwise, **false**.  
   
  **Comment**  
- Data Type: **String**Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   

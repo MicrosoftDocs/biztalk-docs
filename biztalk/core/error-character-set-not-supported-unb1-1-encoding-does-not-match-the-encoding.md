@@ -17,15 +17,15 @@ manager: "anneta"
 # Character set not supported because the encoding information in UNB1.1 does not match the actual encoding
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|-|  
-|Message Text|Character set not supported. It could be due to the fact that encoding information in UNB1.1 does not match the actual encoding of the interchange.|  
+|                 |                                                                                                                                                     |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                  |
+| Product Version |                                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                              |
+|    Event ID     |                                                                          -                                                                          |
+|  Event Source   |                               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                |
+|    Component    |                                                                     EDI Engine                                                                      |
+|  Symbolic Name  |                                                                          -                                                                          |
+|  Message Text   | Character set not supported. It could be due to the fact that encoding information in UNB1.1 does not match the actual encoding of the interchange. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the EDI receive pipeline could not process the incoming EDIFACT interchange because the characters used in the interchange did not conform to the character set identified in field UNB1.1 of the interchange.  

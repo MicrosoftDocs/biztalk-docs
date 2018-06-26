@@ -33,22 +33,22 @@ The following example of a mapped conversation shows the Common Programming Inte
 ## Calls for Starting a Mapped Conversation  
  To start a conversation, the invoking transaction program (TP) issues the following calls:  
   
--   [Initialize_Conversation](initialize-conversation-cpi-c-1.md), which requests CPI-C to set the values defining the characteristics of the conversation. The **Initialize_Conversation** call specifies a symbolic destination name that is associated with an entry in a side information table in memory. The side information specifies partner TP, partner LU, mode, security, and so on.  
+- [Initialize_Conversation](initialize-conversation-cpi-c-1.md), which requests CPI-C to set the values defining the characteristics of the conversation. The **Initialize_Conversation** call specifies a symbolic destination name that is associated with an entry in a side information table in memory. The side information specifies partner TP, partner LU, mode, security, and so on.  
   
--   [Allocate](allocate-cpi-c-2.md), which requests that CPI-C establish a conversation between the invoking TP and the invokable TP.  
+- [Allocate](allocate-cpi-c-2.md), which requests that CPI-C establish a conversation between the invoking TP and the invokable TP.  
   
- The invokable TP issues the [Accept_Conversation](accept-conversation-cpi-c-2.md) call, which informs CPI-C that it is ready to begin a conversation with the invoking TP.  
+  The invokable TP issues the [Accept_Conversation](accept-conversation-cpi-c-2.md) call, which informs CPI-C that it is ready to begin a conversation with the invoking TP.  
   
 ## Calls for Sending Data in a Mapped Conversation  
  The [Send_Data](send-data-cpi-c-2.md) call puts one data record (a record containing application data to be transmitted) in the send buffer of the local logical unit (LU). Data transmission to the partner TP does not happen until one of the following events occurs:  
   
--   The send buffer fills up.  
+- The send buffer fills up.  
   
--   The sending TP makes a call that forces CPI-C to flush the buffer and send data to the partner TP.  
+- The sending TP makes a call that forces CPI-C to flush the buffer and send data to the partner TP.  
   
- In addition to the data record, the send buffer also contains the allocation request (which precedes the data record).  
+  In addition to the data record, the send buffer also contains the allocation request (which precedes the data record).  
   
- In the preceding example, [Deallocate](deallocate-cpi-c-1.md) flushes the send buffer, sending the allocation request and data to the partner TP. Other calls that flush the buffer are [Confirm](confirm-cpi-c-2.md) and [Flush](flush-cpi-c-2.md).  
+  In the preceding example, [Deallocate](deallocate-cpi-c-1.md) flushes the send buffer, sending the allocation request and data to the partner TP. Other calls that flush the buffer are [Confirm](confirm-cpi-c-2.md) and [Flush](flush-cpi-c-2.md).  
   
 ## Calls for Receiving Data in a Mapped Conversation  
  The **Receive** call receives the data record and status information from the partner TP. If no data or status information is currently available, the local TP, by default, waits for data to arrive.  

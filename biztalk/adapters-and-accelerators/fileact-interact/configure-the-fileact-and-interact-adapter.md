@@ -20,11 +20,11 @@ Configure the different artifacts used by the [!INCLUDE[swift_adapter](../../inc
   
 ## Prerequisites  
    
--   Install the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]
+- Install the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]
   
--   Sign in as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators group
+- Sign in as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators group
   
--   Confirm SQL Server is running
+- Confirm SQL Server is running
   
 ## Step 1: Configure the FileAct and InterAct adapter  
   
@@ -62,27 +62,27 @@ Once created, the next step is to add the send handler, and use the Client Messa
 
 You use the FileAct and InterAct send handler properties as the send port configuration values, if the properties are not set on the individual FileAct or InterAct send port. 
   
-1.  In the **BizTalk Server Administration** console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.  
+1. In the **BizTalk Server Administration** console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.  
   
-2.  Select the **FileAct** or **InterAct** adapter. In the right pane, double-click the send handler.  
+2. Select the **FileAct** or **InterAct** adapter. In the right pane, double-click the send handler.  
   
-3.  In the **Host name** drop-down list, select the host you created in the previous section. Then select **Properties**.  
+3. In the **Host name** drop-down list, select the host you created in the previous section. Then select **Properties**.  
   
-4.  In the **Transport Properties**, select the **Argument** property, and enter the following argument as:  
+4. In the **Transport Properties**, select the **Argument** property, and enter the following argument as:  
   
-     `-SagMessagePartner <Client Message Partner created in SAG\>`
+    `-SagMessagePartner <Client Message Partner created in SAG\>`
   
-    > [!NOTE]
-    >  Replace <`Client Message Partner created in SAG`> with the name of the client message partner. Leave the default values for the Crypto Mode, FACrypto Mode, and LogMessages properties.  
+   > [!NOTE]
+   >  Replace <`Client Message Partner created in SAG`> with the name of the client message partner. Leave the default values for the Crypto Mode, FACrypto Mode, and LogMessages properties.  
   
-5.  Select **OK** to save your changes, and then to close the properties window. 
+5. Select **OK** to save your changes, and then to close the properties window. 
   
-6.  Under **Platform Settings**, select **Host Instances**.  
+6. Under **Platform Settings**, select **Host Instances**.  
   
 7. Restart the host instances: 
 
-  - Right-click the FileAct host instance, and **Restart**
-  - Right-click the InterAct host instance, and **Restart**.  
+   - Right-click the FileAct host instance, and **Restart**
+   - Right-click the InterAct host instance, and **Restart**.  
 
 Next, enter the server message partners in the SWIFTNet paramfile to enable the FileAct and InterAct receive adapters.
   
@@ -114,8 +114,8 @@ To enable the FileAct and InterAct receive adapters to initialize with the value
     stop_event:SNL002:subsystem SampleSubsystem is down  
    ```  
   
-   > [!NOTE]
-    >  Before you start SNLreceiver, enable the receive ports for the adapter you are using (FileAct or InterAct).  
+> [!NOTE]
+>  Before you start SNLreceiver, enable the receive ports for the adapter you are using (FileAct or InterAct).  
   
 2. Start and stop SnlReceiver.exe:
 

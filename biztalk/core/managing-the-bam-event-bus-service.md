@@ -35,26 +35,26 @@ The BAM Event Bus Service, also known as the Tracking Data Decode Service (TDDS)
   
  The BAM Event Bus service provides the following advantages:  
   
--   Event data always matches the state of the application, and it never exposes uncommitted progress.  
+- Event data always matches the state of the application, and it never exposes uncommitted progress.  
   
--   Performance impact on the running application is minimal because the event data saves as few records in the same local transaction as the application state change.  
+- Performance impact on the running application is minimal because the event data saves as few records in the same local transaction as the application state change.  
   
--   SQL Server storage for the application state is further optimized for execution performance. The data is decoded by TDDS and stored in a separate database, either the BAM Primary import database or the DTA database. When reports are generated the data is queried from the database and does impact the Message Box database, which stores the application state.  
+- SQL Server storage for the application state is further optimized for execution performance. The data is decoded by TDDS and stored in a separate database, either the BAM Primary import database or the DTA database. When reports are generated the data is queried from the database and does impact the Message Box database, which stores the application state.  
   
--   The work to store the event data in a form that you can query is not done in the application servers and databases. It is offloaded to the machines that run the BAM Event Bus service and the Destination SQL Server database.  
+- The work to store the event data in a form that you can query is not done in the application servers and databases. It is offloaded to the machines that run the BAM Event Bus service and the Destination SQL Server database.  
   
--   Event data is processed with low latency which allows TDDS queries process faster. The BAM Event Bus services coordinate their resources to achieve the minimum possible latency.  
+- Event data is processed with low latency which allows TDDS queries process faster. The BAM Event Bus services coordinate their resources to achieve the minimum possible latency.  
   
- The BAM Event Bus server coordinates its resources by using a connection to a central database, which contains the configuration information. Every minute, each active BAM Event Bus service sends a message to the central database, which contains the state of the BAM Event Bus service at that point in time.  
+  The BAM Event Bus server coordinates its resources by using a connection to a central database, which contains the configuration information. Every minute, each active BAM Event Bus service sends a message to the central database, which contains the state of the BAM Event Bus service at that point in time.  
   
- This message is referred to as a heartbeat message. Each BAM Event Bus service also checks for new work that needs to be done. For example, the BAM Event Bus service checks for sessions that are not owned, such as a MessageBox database that has been added.  
+  This message is referred to as a heartbeat message. Each BAM Event Bus service also checks for new work that needs to be done. For example, the BAM Event Bus service checks for sessions that are not owned, such as a MessageBox database that has been added.  
   
- The BAM Event Bus session is the movement of the event data from the source database, such as the MessageBox, to the destination database that contains the event data in a format that you can query. The same BAM Event Bus service can process one or more sessions.  
+  The BAM Event Bus session is the movement of the event data from the source database, such as the MessageBox, to the destination database that contains the event data in a format that you can query. The same BAM Event Bus service can process one or more sessions.  
   
- The following figure shows a group of BAM Event Bus servers, which make up a BAM Event Bus server pool.  
+  The following figure shows a group of BAM Event Bus servers, which make up a BAM Event Bus server pool.  
   
- ![](../core/media/ebiz-bam-admin-evntbuspool.gif "ebiz_bam_admin_evntbuspool")  
-Diagram of a BAM Event Bus server pool  
+  ![](../core/media/ebiz-bam-admin-evntbuspool.gif "ebiz_bam_admin_evntbuspool")  
+  Diagram of a BAM Event Bus server pool  
   
 ## In This Section  
   

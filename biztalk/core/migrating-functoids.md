@@ -38,22 +38,22 @@ When you migrate a map from previous versions of BizTalk Server to BizTalk Serve
   
 ### To migrate your custom functoids  
   
-1.  Re-create the functionality of the functoid in a .NET language, such as Microsoft Visual Basic .NET, JScript .NET, or Microsoft Visual C# .NET.  
+1. Re-create the functionality of the functoid in a .NET language, such as Microsoft Visual Basic .NET, JScript .NET, or Microsoft Visual C# .NET.  
   
-2.  Create an assembly to contain the new functionality.  
+2. Create an assembly to contain the new functionality.  
   
-3.  Register the assembly in the global assembly cache (GAC).  
+3. Register the assembly in the global assembly cache (GAC).  
   
-    > [!NOTE]
-    >  To register assemblies in the global assembly cache, they must be strong named and signed. For more information about registering assemblies, see "Global Assembly Cache" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.  
+   > [!NOTE]
+   >  To register assemblies in the global assembly cache, they must be strong named and signed. For more information about registering assemblies, see "Global Assembly Cache" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.  
   
-4.  Create a reference between the map that contains the **Scripting** functoid and the assembly that contains the rewritten functionality.  
+4. Create a reference between the map that contains the **Scripting** functoid and the assembly that contains the rewritten functionality.  
   
-5.  Configure the **Script** property for the **Scripting** functoid. This property determines what script the **Scripting** functoid calls during run time. You must match the value of this property to the language into which you converted your custom script. For more information about how to configure the Script property, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md). Also see [Scripting Functoid](../core/scripting-functoid.md).  
+5. Configure the **Script** property for the **Scripting** functoid. This property determines what script the **Scripting** functoid calls during run time. You must match the value of this property to the language into which you converted your custom script. For more information about how to configure the Script property, see [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md). Also see [Scripting Functoid](../core/scripting-functoid.md).  
   
-6.  Build the BizTalk project that contains the map with the **Scripting** functoid.  
+6. Build the BizTalk project that contains the map with the **Scripting** functoid.  
   
-7.  Validate and test the map.  
+7. Validate and test the map.  
   
 ## See Also  
  [Editing Functoid Properties and Input Parameters](../core/editing-functoid-properties-and-input-parameters.md)   

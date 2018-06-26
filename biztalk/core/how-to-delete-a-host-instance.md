@@ -43,16 +43,16 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
 ## Steps
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, click **Platform Settings**, and then click **Host Instances**.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, click **Platform Settings**, and then click **Host Instances**.  
   
-3.  In the details pane, right-click the host instance you want to delete, and then click **Delete**.  
+3. In the details pane, right-click the host instance you want to delete, and then click **Delete**.  
   
-4.  In the **Confirm delete host instance** dialog box, click **Yes**.  
+4. In the **Confirm delete host instance** dialog box, click **Yes**.  
   
-    > [!NOTE]
-    >  If BizTalk Server cannot delete the host instance, a dialog box appears in which you can force the deletion of the host instance. After reading the information provided, click **Yes** to delete the host instance.  
+   > [!NOTE]
+   >  If BizTalk Server cannot delete the host instance, a dialog box appears in which you can force the deletion of the host instance. After reading the information provided, click **Yes** to delete the host instance.  
   
 ## See Also  
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   

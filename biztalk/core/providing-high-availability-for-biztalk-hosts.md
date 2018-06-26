@@ -33,17 +33,17 @@ manager: "anneta"
   
  Items that are contained in BizTalk hosts can perform the following functions:  
   
--   **Receiving** These items do the initial processing of messages after they are picked up in a receive location. When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host.  
+- **Receiving** These items do the initial processing of messages after they are picked up in a receive location. When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host.  
   
--   **Sending** These items do the final processing of messages before they are sent out to the send port. When a host contains a sending item, such as a send port or pipeline, the host acts as a security boundary, and the message signing and encryption occurs in a pipeline within the host.  
+- **Sending** These items do the final processing of messages before they are sent out to the send port. When a host contains a sending item, such as a send port or pipeline, the host acts as a security boundary, and the message signing and encryption occurs in a pipeline within the host.  
   
--   **Processing** These items process messages based on the instructions in an orchestration.  
+- **Processing** These items process messages based on the instructions in an orchestration.  
   
- Although a single BizTalk Host can contain items that receive, send, and process messages, it is considered a best practice to create different hosts for each function to create security boundaries and for easier management and scalability. In particular, we recommend that you use different hosts for processing and for receive/send operations, and that you separate trusted and non-trusted items.  
+  Although a single BizTalk Host can contain items that receive, send, and process messages, it is considered a best practice to create different hosts for each function to create security boundaries and for easier management and scalability. In particular, we recommend that you use different hosts for processing and for receive/send operations, and that you separate trusted and non-trusted items.  
   
- For example, if you receive one message, run an orchestration, and send ten messages, you want to separate the receive and send functionality into two separate hosts because the send items will have ten times more traffic than the receive items. If you receive one message, run an orchestration, and send one message, you can think of these items as a unit of work and group them into one single host. Alternatively, you can separate them into three different hosts to increase performance and flexibility.  
+  For example, if you receive one message, run an orchestration, and send ten messages, you want to separate the receive and send functionality into two separate hosts because the send items will have ten times more traffic than the receive items. If you receive one message, run an orchestration, and send one message, you can think of these items as a unit of work and group them into one single host. Alternatively, you can separate them into three different hosts to increase performance and flexibility.  
   
- BizTalk hosts are one of two types, **In-process** or **Isolated**. In-process hosts run inside of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime process whereas Isolated hosts do not run in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime process. The following table lists the items that each of these host types may contain.  
+  BizTalk hosts are one of two types, **In-process** or **Isolated**. In-process hosts run inside of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime process whereas Isolated hosts do not run in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime process. The following table lists the items that each of these host types may contain.  
   
 |**Host Type**|**Logical container for**|  
 |-------------------|-------------------------------|  

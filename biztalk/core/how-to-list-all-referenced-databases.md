@@ -19,11 +19,11 @@ Administrators use the **get-references** command to list all of the BAM Primary
   
 ### To list all referenced databases  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
+2. Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type the following at the command line prompt: **bm.exe get-references**. Press **ENTER**.  
+3. Type the following at the command line prompt: **bm.exe get-references**. Press **ENTER**.  
   
 ## See Also  
  [BAM Management Utility](../core/bam-management-utility.md)

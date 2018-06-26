@@ -68,7 +68,7 @@ An HL7 message is a hierarchical structure associated with a trigger event. The 
   
  In Version 2, the inter-version compatibility rules support evolution of interfaces by requiring that subsequent versions of the standard not include structures that invalidate prior versions. This requires that you do not remove a trigger event and that you do not use a trigger event for a different purpose or with a different abstract message than originally intended. For abstract messages, this implies that you cannot remove a segment from a message, nor can you make a mandatory segment optional or a repeating segment non-repeating. If you add a segment, you must do so at the end of a message or at the end of a repeating group within a message.  
   
- The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
+ The following functions of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:  
   
 -   Support of all trigger events and message structures starting with V2.1 and continuing through V2.5.  
   

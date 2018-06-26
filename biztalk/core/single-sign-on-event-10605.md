@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10605
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10605|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_DTC_IMPORT|  
-|Message Text|Could not import a DTC transaction. Please check that MSDTC is configured correctly for remote operation. See documentation for details.%r<br /><br /> Error Code: %1|  
+|                 |                                                                                                                                                                       |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                       Enterprise Single Sign-On                                                                       |
+| Product Version |                                                      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                       |
+|    Event ID     |                                                                                 10605                                                                                 |
+|  Event Source   |                                                                                ENTSSO                                                                                 |
+|    Component    |                                                                                  N/A                                                                                  |
+|  Symbolic Name  |                                                                         SSO_ERROR_DTC_IMPORT                                                                          |
+|  Message Text   | Could not import a DTC transaction. Please check that MSDTC is configured correctly for remote operation. See documentation for details.%r<br /><br /> Error Code: %1 |
   
 ## Explanation  
  There is a problem with the Microsoft Distributed Transaction Coordinator (MSDTC).  

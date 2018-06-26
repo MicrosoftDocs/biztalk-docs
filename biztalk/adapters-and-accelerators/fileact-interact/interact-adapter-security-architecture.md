@@ -24,27 +24,27 @@ Security for the message transmission and receipt is implemented using the certi
 ## Signing/Encrypting Requests and Responses  
  The rules for applying cryptographic operations on SWIFTNet InterAct Request elements are as follows:  
   
--   RequestControl: this is destined to SWIFTNet only. SWIFTNet delivers a RequestDescriptor to the responder (and some elements also to the Requestor). Therefore, no client process to server process cryptographic operation can be performed on it.  
+- RequestControl: this is destined to SWIFTNet only. SWIFTNet delivers a RequestDescriptor to the responder (and some elements also to the Requestor). Therefore, no client process to server process cryptographic operation can be performed on it.  
   
--   RequestE2EControl: this element contains information to ensure reliable end-to-end messaging. No cryptographic operation can be performed on it.  
+- RequestE2EControl: this element contains information to ensure reliable end-to-end messaging. No cryptographic operation can be performed on it.  
   
--   RequestHeader: it is used by SWIFTNet and conveyed unchanged to the Responder. Therefore, this can only be signed.  
+- RequestHeader: it is used by SWIFTNet and conveyed unchanged to the Responder. Therefore, this can only be signed.  
   
--   RequestPayload: any cryptographic operations can be performed on this.  
+- RequestPayload: any cryptographic operations can be performed on this.  
   
--   Crypto element(s): these relate to previously activated cryptographic operations on this Request. No cryptographic operations can be performed on these.  
+- Crypto element(s): these relate to previously activated cryptographic operations on this Request. No cryptographic operations can be performed on these.  
   
- The rules for applying cryptographic functions on SWIFTNet InterAct responses are:  
+  The rules for applying cryptographic functions on SWIFTNet InterAct responses are:  
   
--   ResponseControl: this is destined to SWIFTNet only. SWIFTNet delivers a ResponseDescriptor to the Requestor. Therefore, no server process to client process cryptographic operation, can be performed on it.  
+- ResponseControl: this is destined to SWIFTNet only. SWIFTNet delivers a ResponseDescriptor to the Requestor. Therefore, no server process to client process cryptographic operation, can be performed on it.  
   
--   ResponseE2EControl: this element contains information to ensure reliable end-to-end messaging. No cryptographic operation can be performed on it.  
+- ResponseE2EControl: this element contains information to ensure reliable end-to-end messaging. No cryptographic operation can be performed on it.  
   
--   ResponseHeader: this element can be signed (it is transferred unchanged to the Requestor).  
+- ResponseHeader: this element can be signed (it is transferred unchanged to the Requestor).  
   
--   ResponsePayload: can be encrypted and/or signed.  
+- ResponsePayload: can be encrypted and/or signed.  
   
--   Crypto element(s): these relate to previously activated cryptographic operations on this Request. No cryptographic operations can be performed on these.  
+- Crypto element(s): these relate to previously activated cryptographic operations on this Request. No cryptographic operations can be performed on these.  
   
 ## Receiving Requests with Cryptography  
  A server process may receive Requests that were subjected to cryptographic operations by the Requestor. The incoming Request contains all relevant information to enable the reverse cryptographic operations. The CryptoInternal information is such that the decryption and verification function will now effectively operate.  

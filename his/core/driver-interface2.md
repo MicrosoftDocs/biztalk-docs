@@ -37,13 +37,13 @@ Application software running on Microsoft Windows Server normally does not inter
   
  The Host Integration Server dumb card interface uses the following operating system calls:  
   
--   **OpenFile**  
+- **OpenFile**  
   
--   **DeviceIOControl**  
+- **DeviceIOControl**  
   
--   **CloseFile**  
+- **CloseFile**  
   
- **DeviceIOControl** allows free-format information to be passed to the driver. The dumb card interface uses its own format of information to pass all requests to the driver (with the exception of Open and Close requests, which are handled differently by the operating system).  
+  **DeviceIOControl** allows free-format information to be passed to the driver. The dumb card interface uses its own format of information to pass all requests to the driver (with the exception of Open and Close requests, which are handled differently by the operating system).  
   
 ## In This Section  
   

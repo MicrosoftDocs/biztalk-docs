@@ -23,26 +23,26 @@ Overview of the adapter, prerequisites, and topics for users who are new to Micr
   
  The adapters in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] can be divided into two broad categories:  
   
--   **LOB adapters**: LOB adapters provide a service-oriented programming model to access LOB systems—for example, adapters for SAP or Siebel applications.  
+- **LOB adapters**: LOB adapters provide a service-oriented programming model to access LOB systems—for example, adapters for SAP or Siebel applications.  
   
--   **Data adapters**: Data adapters provide a service-oriented programming model to access databases — for example, adapters for the Oracle database or SQL Server.  
+- **Data adapters**: Data adapters provide a service-oriented programming model to access databases — for example, adapters for the Oracle database or SQL Server.  
   
- There are five adapters in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]:  
+  There are five adapters in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]:  
   
--   [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] ([!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)])  
+- [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] ([!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)])  
   
--   [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] ([!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)])  
+- [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] ([!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)])  
   
--   [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] ([!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)])  
+- [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] ([!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)])  
   
--   [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] ([!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)])  
+- [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] ([!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)])  
   
--   [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] ([!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)])  
+- [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] ([!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)])  
   
-    > [!NOTE]
-    >  The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] is not available for 64-bit platforms.  
+  > [!NOTE]
+  >  The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] is not available for 64-bit platforms.  
   
- If you are new to the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], then we recommend you start by exploring the features and functionality of the adapter described in [Understand BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/understand-biztalk-adapter-for-oracle-e-business-suite.md).  
+  If you are new to the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], then we recommend you start by exploring the features and functionality of the adapter described in [Understand BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/understand-biztalk-adapter-for-oracle-e-business-suite.md).  
   
 ## In this section  
   

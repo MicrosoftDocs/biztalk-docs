@@ -18,11 +18,11 @@ This section describes API extensions to Microsoft® Windows® Common Programmin
   
  Under Microsoft® Windows Server, two methods are available for handling asynchronous verb completion:  
   
--   Message posting using window handles.  
+- Message posting using window handles.  
   
--   Waiting on Win32® events.  
+- Waiting on Win32® events.  
   
- The first method uses messages posted to a window handle to notify an application of verb completion. There is one such window for each CPI-C application. Each CPI-C conversation can have one asynchronous verb outstanding at any time. When a verb completes, the posting to the window takes as parameters the CPI-C conversation identifier of the verb that has completed, and the return code of the verb.  
+  The first method uses messages posted to a window handle to notify an application of verb completion. There is one such window for each CPI-C application. Each CPI-C conversation can have one asynchronous verb outstanding at any time. When a verb completes, the posting to the window takes as parameters the CPI-C conversation identifier of the verb that has completed, and the return code of the verb.  
   
 > [!NOTE]
 >  The extensions using window handles and message posting described in this section were designed for all implementations and versions of Microsoft Windows. They are now supported only for Windows.  

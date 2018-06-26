@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10761
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10761|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_EMPTY_EXISTING_VALUE|  
-|Message Text|The property bag contained a VT_NULL value to indicate that the existing property value should be retained, but the existing value is empty.|  
+|                 |                                                                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                          Enterprise Single Sign-On                                                           |
+| Product Version |                                          [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                          |
+|    Event ID     |                                                                    10761                                                                     |
+|  Event Source   |                                                                    ENTSSO                                                                    |
+|    Component    |                                                                     N/A                                                                      |
+|  Symbolic Name  |                                                        ENTSSO_E_EMPTY_EXISTING_VALUE                                                         |
+|  Message Text   | The property bag contained a VT_NULL value to indicate that the existing property value should be retained, but the existing value is empty. |
   
 ## Explanation  
  This is an internal error.  

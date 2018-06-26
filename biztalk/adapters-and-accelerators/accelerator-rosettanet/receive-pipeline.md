@@ -14,22 +14,22 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Receive Pipeline
-This sample provides a working [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] receive pipeline that you can customize for your application.  
+This sample provides a working Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] receive pipeline that you can customize for your application.  
   
 ## Demonstrates  
  This sample demonstrates how to process an incoming RNIF message into the equivalent XML message using the BTARN receive pipeline (PipelineReceive.btp). PipelineReceive.btp is located in *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\RNPipelines. It includes the following stages:  
   
--   ReceiveMessageNonRepudiate  
+- ReceiveMessageNonRepudiate  
   
--   RNMimeDecoder (MIME Preprocessor/Decoder)  
+- RNMimeDecoder (MIME Preprocessor/Decoder)  
   
--   RNDAsm (XML Disassembler)  
+- RNDAsm (XML Disassembler)  
   
--   RNPartyRes (Party Resolution component)  
+- RNPartyRes (Party Resolution component)  
   
--   MessageUpdater  
+- MessageUpdater  
   
- For more information about the components of this pipeline, and the message flow in this pipeline, see [BTARN Receive Pipeline](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md).  
+  For more information about the components of this pipeline, and the message flow in this pipeline, see [BTARN Receive Pipeline](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md).  
   
 ## See Also  
  [Pipeline Samples](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)   

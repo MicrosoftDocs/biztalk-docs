@@ -31,25 +31,25 @@ You can use the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref
   
  Another key advantage that the WCF channel model provides over the WCF service model is more comprehensive support for end-to-end streaming of Oracle large object (LOB) data types. By using the WCF channel model you can perform end-to-end streaming:  
   
--   To update an LOB column in a table or view using the UpdateLOB operation.  
+- To update an LOB column in a table or view using the UpdateLOB operation.  
   
--   On OUT and IN OUT parameters containing LOB data that are returned by procedures and functions.  
+- On OUT and IN OUT parameters containing LOB data that are returned by procedures and functions.  
   
--   On LOB data that is contained in the result of a SQLEXECUTE operation.  
+- On LOB data that is contained in the result of a SQLEXECUTE operation.  
   
--   On LOB data columns that are returned in the POLLINGSTMT operation.  
+- On LOB data columns that are returned in the POLLINGSTMT operation.  
   
--   On LOB data columns that are returned by a Select operation on a table or view.  
+- On LOB data columns that are returned by a Select operation on a table or view.  
   
- This is because in the WCF channel model you directly control how you provide the message body on outgoing messages and how you process the message body on incoming messages.  
+  This is because in the WCF channel model you directly control how you provide the message body on outgoing messages and how you process the message body on incoming messages.  
   
- In contrast, the WCF service model only provides:  
+  In contrast, the WCF service model only provides:  
   
--   End-to-end streaming for LOB data on one operation, the ReadLOB operation.  
+- End-to-end streaming for LOB data on one operation, the ReadLOB operation.  
   
--   No capability to update LOB data on the Oracle database in a streamed fashion.  
+- No capability to update LOB data on the Oracle database in a streamed fashion.  
   
- The sections in this topic explain how to perform operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] by using the WCF channel model.  
+  The sections in this topic explain how to perform operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] by using the WCF channel model.  
   
 ## In This Section  
   

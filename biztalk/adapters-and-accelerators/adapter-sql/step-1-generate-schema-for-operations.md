@@ -36,47 +36,47 @@ manager: "anneta"
   
 ### To generate schema for operations  
   
-1.  Create a new BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For this tutorial, name the project as `Employee_PurchaseOrder`.  
+1. Create a new BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For this tutorial, name the project as `Employee_PurchaseOrder`.  
   
-2.  Connect to the ADAPTER_SAMPLES SQL Server database using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For instructions on how to connect using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], see [Connect to SQL Server in Visual Studio Using Consume Adapter Service Add-in](../../adapters-and-accelerators/adapter-sql/connect-to-sql-server-in-visual-studio-using-the-consume-adapter-service-add-in.md).  
+2. Connect to the ADAPTER_SAMPLES SQL Server database using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For instructions on how to connect using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], see [Connect to SQL Server in Visual Studio Using Consume Adapter Service Add-in](../../adapters-and-accelerators/adapter-sql/connect-to-sql-server-in-visual-studio-using-the-consume-adapter-service-add-in.md).  
   
-    > [!NOTE]
-    >  You can also connect to SQL Server using the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]. However, for this tutorial you will use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+   > [!NOTE]
+   >  You can also connect to SQL Server using the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]. However, for this tutorial you will use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
-3.  Generate schema for the **Notification** inbound operation.  
+3. Generate schema for the **Notification** inbound operation.  
   
-    1.  After connecting to the ADAPTER_SAMPLES database, in the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], from the **Select contract type** list, select **Service (Inbound operations)**.  
+   1. After connecting to the ADAPTER_SAMPLES database, in the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], from the **Select contract type** list, select **Service (Inbound operations)**.  
   
-    2.  From the **Select a category** box, click the root node (**/**).  
+   2. From the **Select a category** box, click the root node (**/**).  
   
-    3.  From the **Available categories and operations** box, select **Notification** and click **Add**. The **Notification** operation is now displayed in the **Added categories and operations** box. Click **OK**.  
+   3. From the **Available categories and operations** box, select **Notification** and click **Add**. The **Notification** operation is now displayed in the **Added categories and operations** box. Click **OK**.  
   
-4.  Generate schema for the **UPDATE_EMPLOYEE** stored procedure and the Insert operation on **Purchase_Order** table.  
+4. Generate schema for the **UPDATE_EMPLOYEE** stored procedure and the Insert operation on **Purchase_Order** table.  
   
-    1.  Repeat step 2 to connect to ADAPTER_SAMPLES database in SQL Server using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+   1. Repeat step 2 to connect to ADAPTER_SAMPLES database in SQL Server using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
-        > [!NOTE]
-        >  You cannot generate schema for inbound and outbound operations at the same time. Hence, in step 3, after you click **OK** to generate the schema for **Notification** operation, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] closes. You must reconnect to the SQL Server database to generate schema for outbound operations.  
+      > [!NOTE]
+      >  You cannot generate schema for inbound and outbound operations at the same time. Hence, in step 3, after you click **OK** to generate the schema for **Notification** operation, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] closes. You must reconnect to the SQL Server database to generate schema for outbound operations.  
   
-    2.  From the **Select contract type** list, select **Client (Outbound operations)**.  
+   2. From the **Select contract type** list, select **Client (Outbound operations)**.  
   
-    3.  From the **Select a category** box, click the **Strongly-Typed Procedures** node. From the **Available categories and operation**s box, select **UPDATE_EMPLOYEE**, and then click **Add**.  
+   3. From the **Select a category** box, click the **Strongly-Typed Procedures** node. From the **Available categories and operation**s box, select **UPDATE_EMPLOYEE**, and then click **Add**.  
   
-        > [!IMPORTANT]
-        >  The **UPDATE_EMPLOYEE** stored procedure is also available under the **Procedures** node. However, if you generate schema for the stored procedure from under the **Procedures** node, the response message schema is not available at design-time but is received with the response message after you execute the stored procedure.  
-        >   
-        >  In this tutorial, you will map the response schema of the stored procedure to the input schema of the Insert operation on the **Purchase_Order** table. Therefore, you will need the schema for the **UPDATE_EMPLOYEE** stored procedure at design-time and you must select the stored procedure from under the **Strongly-Typed Procedures**. By doing so, you will get the schema of the stored procedure at design-time.  
+      > [!IMPORTANT]
+      >  The **UPDATE_EMPLOYEE** stored procedure is also available under the **Procedures** node. However, if you generate schema for the stored procedure from under the **Procedures** node, the response message schema is not available at design-time but is received with the response message after you execute the stored procedure.  
+      >   
+      >  In this tutorial, you will map the response schema of the stored procedure to the input schema of the Insert operation on the **Purchase_Order** table. Therefore, you will need the schema for the **UPDATE_EMPLOYEE** stored procedure at design-time and you must select the stored procedure from under the **Strongly-Typed Procedures**. By doing so, you will get the schema of the stored procedure at design-time.  
   
-    4.  From the **Select a category** box, expand the **Tables** node, and click the node for **Purchase_Order** table. From the **Available categories and operation**s box, select **Insert**, click **Add**, and then click **OK**.  
+   4. From the **Select a category** box, expand the **Tables** node, and click the node for **Purchase_Order** table. From the **Available categories and operation**s box, select **Insert**, click **Add**, and then click **OK**.  
   
 ## What did I just do?  
  In this step, you generated schemas for **Notification** (inbound operation), **UPDATE_EMPLOYEE** stored procedure, and **Insert** operation on the **Purchase_Order** table. After you generate the schema, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] adds the following files to your BizTalk project:  
   
--   XSD files that contain schema for the request message to invoke operations on SQL Server.  
+- XSD files that contain schema for the request message to invoke operations on SQL Server.  
   
--   XML binding files that you can use to create WCF-Custom send and receive ports in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+- XML binding files that you can use to create WCF-Custom send and receive ports in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
- For more information about generating schemas, see [Browse, search, and get metadata for SQL operations using the SQL adapter](../../adapters-and-accelerators/adapter-sql/browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter.md).  
+  For more information about generating schemas, see [Browse, search, and get metadata for SQL operations using the SQL adapter](../../adapters-and-accelerators/adapter-sql/browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter.md).  
   
 ## Next Steps  
  You create messages in the BizTalk project for the schemas in [Step 2: Create Messages for BizTalk Orchestrations](../../adapters-and-accelerators/adapter-sql/step-2-create-messages-for-biztalk-orchestrations.md).  

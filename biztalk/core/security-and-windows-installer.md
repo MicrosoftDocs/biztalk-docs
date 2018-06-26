@@ -22,24 +22,24 @@ Windows Installer is a powerful tool for installing and updating BizTalk applica
   
  Administrators typically run .msi files, and therefore the processes that run during application installation or update have very high privileges. A malicious .msi file creator could exploit this fact in a number of ways, including the following:  
   
--   Running script files that make undesirable changes to your system or files.  
+- Running script files that make undesirable changes to your system or files.  
   
--   Overwriting the COM catalog.  
+- Overwriting the COM catalog.  
   
--   Overwriting registry values. These changes cannot be rolled back.  
+- Overwriting registry values. These changes cannot be rolled back.  
   
--   Flooding the file system.  
+- Flooding the file system.  
   
- When dealing with .msi files, you should take the following precautions at a minimum:  
+  When dealing with .msi files, you should take the following precautions at a minimum:  
   
--   Install only .msi files that you completely trust.  
+- Install only .msi files that you completely trust.  
   
-    > [!NOTE]
-    >  As a best practice, individuals who are responsible for generating .msi files should take additional steps to sign the .msi files so that users can verify that the source of the file is trusted.  
+  > [!NOTE]
+  >  As a best practice, individuals who are responsible for generating .msi files should take additional steps to sign the .msi files so that users can verify that the source of the file is trusted.  
   
--   Thoroughly test your .msi files before using them in a production environment.  
+- Thoroughly test your .msi files before using them in a production environment.  
   
--   Store the .msi files in protected folders that are secured with appropriate discretionary access control lists (DACLs).  
+- Store the .msi files in protected folders that are secured with appropriate discretionary access control lists (DACLs).  
   
 ## See Also  
  [Security Considerations for Application Deployment](../core/security-considerations-for-application-deployment.md)

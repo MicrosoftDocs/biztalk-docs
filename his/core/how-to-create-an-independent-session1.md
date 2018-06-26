@@ -18,13 +18,13 @@ After you have created the link service, you need to create an independent sessi
   
 ## To create an independent session  
   
-1.  Create the "Independent Sessions Connection" record.  
+1. Create the "Independent Sessions Connection" record.  
   
-2.  Validate that the session was created.  
+2. Validate that the session was created.  
   
-3.  Define the properties of the new connection.  
+3. Define the properties of the new connection.  
   
- The following code sample shows how to create an independent session:  
+   The following code sample shows how to create an independent session:  
   
 ```  
 Private Sub CreateIndependentSession  

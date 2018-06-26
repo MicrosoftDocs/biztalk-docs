@@ -29,19 +29,19 @@ manager: "anneta"
   
  **List of installation options**: Run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup program. Select **Custom Installation**, and then select the appropriate option from the following list:  
   
--   **Enterprise Single Sign-On Administration ―** Administration and client tools for mapping and connecting to Enterprise Single Sign-On Services.  
+- **Enterprise Single Sign-On Administration ―** Administration and client tools for mapping and connecting to Enterprise Single Sign-On Services.  
   
--   **Enterprise Single Sign-On Master Secret Server ―** Acts as the Master Secret Server in the SSO System. This is the first server in the SSO System that needs to deployed and this allows you to create the SSO database.  
+- **Enterprise Single Sign-On Master Secret Server ―** Acts as the Master Secret Server in the SSO System. This is the first server in the SSO System that needs to deployed and this allows you to create the SSO database.  
   
- You can also add the following after setup, by using the Add or Remove Programs utility:  
+  You can also add the following after setup, by using the Add or Remove Programs utility:  
   
--   **Server Runtime ―** Core services to enable single sign-on and to store/access configuration data securely.  
+- **Server Runtime ―** Core services to enable single sign-on and to store/access configuration data securely.  
   
--   **Enterprise Single Sign-On Administration ―** Administration and client tools for mapping and connecting to Enterprise Single Sign-On Services.  
+- **Enterprise Single Sign-On Administration ―** Administration and client tools for mapping and connecting to Enterprise Single Sign-On Services.  
   
--   **Enterprise Single Sign-On Services with Password Synchronization ―** Services to enable the Password Synchronization feature in the Enterprise SSO System. These services also integrate with the Microsoft Password Change Notification Service. Once you have installed the core Enterprise Single Sign-On services, you can install the Password Synchronization feature of Enterprise SSO from the BizTalk Server package by launching the \Platform\SSO\Setup.exe and selecting the Password Synchronization feature.  
+- **Enterprise Single Sign-On Services with Password Synchronization ―** Services to enable the Password Synchronization feature in the Enterprise SSO System. These services also integrate with the Microsoft Password Change Notification Service. Once you have installed the core Enterprise Single Sign-On services, you can install the Password Synchronization feature of Enterprise SSO from the BizTalk Server package by launching the \Platform\SSO\Setup.exe and selecting the Password Synchronization feature.  
   
--   **Software Development Kit** Programming and Reference information.  
+- **Software Development Kit** Programming and Reference information.  
   
 ## In This Section  
   

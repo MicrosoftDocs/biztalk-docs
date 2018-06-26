@@ -52,13 +52,13 @@ For an overview, refer to the topic [Connection Initialization Overview](../core
   
  What does this failure imply?  
   
-1.  The **Remote Network Address**, which is the host's network adapter address, is incorrectly configured on the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Connection Properties dialog box, Address Tab. It should match the **Local Adapter Address** defined in the AS/400 line description, or the **Switched Line** in the VTAM definition.  
+1. The **Remote Network Address**, which is the host's network adapter address, is incorrectly configured on the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Connection Properties dialog box, Address Tab. It should match the **Local Adapter Address** defined in the AS/400 line description, or the **Switched Line** in the VTAM definition.  
   
-2.  Multiple Network Adapter Cards: If the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer has multiple network adapter cards, say one for the SNA Link Service, and the other for Windows domain connectivity, and the SNA Link Service is configured to communicate over the NT domain adapter, there obviously will be no AS/400 response.  
+2. Multiple Network Adapter Cards: If the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer has multiple network adapter cards, say one for the SNA Link Service, and the other for Windows domain connectivity, and the SNA Link Service is configured to communicate over the NT domain adapter, there obviously will be no AS/400 response.  
   
-3.  Intermediate bridges or routers are not passing the DLC Protocol between the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer and the host. DLC traffic cannot reach the segment or ring on which the AS/400's network address resides because the intermediate locater is not forwarding the LLC frames.  
+3. Intermediate bridges or routers are not passing the DLC Protocol between the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer and the host. DLC traffic cannot reach the segment or ring on which the AS/400's network address resides because the intermediate locater is not forwarding the LLC frames.  
   
-4.  The host is not enabled for SNA communication (this occurs rarely).  
+4. The host is not enabled for SNA communication (this occurs rarely).  
   
 ## Step 3, outbound  
  Verify that the host's **LAN SSAP** matches the Host Integration Server **Remote SAP Address** property.  
@@ -72,13 +72,13 @@ For an overview, refer to the topic [Connection Initialization Overview](../core
   
  This indicates that the Host Integration Server timed out before the RQOS command was received, because:  
   
--   The Host Integration Server **Remote SAP Address** was incorrect.  
+- The Host Integration Server **Remote SAP Address** was incorrect.  
   
--   The AS/400 was unable to create a new APPC Controller for some reason. For example, AUTOCRTCTL is disabled.  
+- The AS/400 was unable to create a new APPC Controller for some reason. For example, AUTOCRTCTL is disabled.  
   
--   The AS/400 APPC Controller or VTAM PU is in an Error State, or Inactive Status.  
+- The AS/400 APPC Controller or VTAM PU is in an Error State, or Inactive Status.  
   
- On Ethernet and Token-Ring networks, if the host does not reply to the XID command, then the connection remains in a pending condition, and an Event 230 will be logged in the NT Event Viewer Application log. The Host Integration Server computer will continually attempt connection startup, though only the first Event ID 230 will be logged with the Event Viewer, to prevent the log from filling up.  
+  On Ethernet and Token-Ring networks, if the host does not reply to the XID command, then the connection remains in a pending condition, and an Event 230 will be logged in the NT Event Viewer Application log. The Host Integration Server computer will continually attempt connection startup, though only the first Event ID 230 will be logged with the Event Viewer, to prevent the log from filling up.  
   
 ## Step 5, outbound  
  Verify that the Host Integration Server computer's "Local Parameters" match an APPC Controller, or VTAM PU, description on the host.  
@@ -96,45 +96,45 @@ For an overview, refer to the topic [Connection Initialization Overview](../core
   
  For the purpose of discussion, lets assume an APPC Controller already exists on the host containing:  
   
--   The address of the network adapter in the Host Integration Server computer, which is referred to on the AS/400 as the **LAN remote adapter address** (ADPTADR).  
+- The address of the network adapter in the Host Integration Server computer, which is referred to on the AS/400 as the **LAN remote adapter address** (ADPTADR).  
   
--   A specific **Remote network identifier** (for example, APPN).  
+- A specific **Remote network identifier** (for example, APPN).  
   
--   A specific **Remote control point** (for example, TEST1).  
+- A specific **Remote control point** (for example, TEST1).  
   
- The XID sent in step 5 will be rejected under the following circumstances:  
+  The XID sent in step 5 will be rejected under the following circumstances:  
   
-1.  There is already an APPC controller defined on the AS/400 with the same name as the name defined in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Manager, but it has a different **LAN remote adapter address** (ADPTADR)" associated with it.  
+1. There is already an APPC controller defined on the AS/400 with the same name as the name defined in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Manager, but it has a different **LAN remote adapter address** (ADPTADR)" associated with it.  
   
-     Another way of saying the same thing is: The Host Integration Server computer attempted to connect with an invalid **"Local" Network Name**. For example: ESSLAB, where the AS/400 was expecting APPN.  
+    Another way of saying the same thing is: The Host Integration Server computer attempted to connect with an invalid **"Local" Network Name**. For example: ESSLAB, where the AS/400 was expecting APPN.  
   
-     (There is a source of potential confusion here. The **Remote Network Identifier** in the APPC Controller description corresponds to the **"Local" Network Name** on the Host Integration Server **Connection Properties** dialog box, **System** tab. However, on the AS/400 Display Networks Attributes screen, you will very likely see that the value for the **Local network ID** is identical to the APPC **Remote Network Identifier**. The confusion exists because the Host Integration Server **"Local" Network Name** is apparently referred to by two different field names on the AS/400. However, these two AS/400 fields *are not* the same. The AS/400 **Remote Network Identifier** *must* match the Host Integration Server **"Local" Network Name.** The AS/400 **Local network ID** does not have to match. It is usually defaulted to the same name as the **Remote Network Identifier** for the sake of convenience, however, the name actually refers to the AS/400's "local" network ID, *not* the "local" network name on Host Integration Server).  
+    (There is a source of potential confusion here. The **Remote Network Identifier** in the APPC Controller description corresponds to the **"Local" Network Name** on the Host Integration Server **Connection Properties** dialog box, **System** tab. However, on the AS/400 Display Networks Attributes screen, you will very likely see that the value for the **Local network ID** is identical to the APPC **Remote Network Identifier**. The confusion exists because the Host Integration Server **"Local" Network Name** is apparently referred to by two different field names on the AS/400. However, these two AS/400 fields *are not* the same. The AS/400 **Remote Network Identifier** *must* match the Host Integration Server **"Local" Network Name.** The AS/400 **Local network ID** does not have to match. It is usually defaulted to the same name as the **Remote Network Identifier** for the sake of convenience, however, the name actually refers to the AS/400's "local" network ID, *not* the "local" network name on Host Integration Server).  
   
-2.  There is already a different controller name defined on the AS/400 with the same "**LAN remote adapter address** (ADPTADR)" (Autocreate Controller (AUTOCRTCTL) is set to YES in the AS/400 Line Description).  
+2. There is already a different controller name defined on the AS/400 with the same "**LAN remote adapter address** (ADPTADR)" (Autocreate Controller (AUTOCRTCTL) is set to YES in the AS/400 Line Description).  
   
-     In other words, The Host Integration Server computer attempted to connect with an invalid **"Local" Control Point Name**. For example: TESTXXX, where the AS/400 was expecting TEST1.  
+    In other words, The Host Integration Server computer attempted to connect with an invalid **"Local" Control Point Name**. For example: TESTXXX, where the AS/400 was expecting TEST1.  
   
-3.  The **Remote Control Point Name** in the Host Integration Server **Connection Properties** dialog box does not match the **Local Control Point Name** in the AS/400 Network Attributes screen.  
+3. The **Remote Control Point Name** in the Host Integration Server **Connection Properties** dialog box does not match the **Local Control Point Name** in the AS/400 Network Attributes screen.  
   
-4.  The Host Integration Server computer is configured with XID Type: Format 0, when the AS/400 requires XID Type: Format 3.  
+4. The Host Integration Server computer is configured with XID Type: Format 0, when the AS/400 requires XID Type: Format 3.  
   
 ## Step 7  
  [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] uses a four-step algorithm to match the hosts "Local parameters". If a step succeeds, any remaining steps are bypassed, and the activation sequence continues to step 8.  
   
-1.  The **Network Name** and **Control Point Name** from the host XID are compared to the **Network Name** and **Control Point Name** in the "Remote" Node Name section of the Host Integration Server **Connection Properties** dialog box, **System Identification** tab.  
+1. The **Network Name** and **Control Point Name** from the host XID are compared to the **Network Name** and **Control Point Name** in the "Remote" Node Name section of the Host Integration Server **Connection Properties** dialog box, **System Identification** tab.  
   
-2.  If the host XID does not contain a network name and control point name (format 0 XID) or those fields are blank in the Host Integration Server **Connection Properties** dialog box, the matching will proceed to the next step. If the comparison fails, the XID will be rejected and event ID 49 is generated. If the comparison is successful, the XID will be responded to in step 8.  
+2. If the host XID does not contain a network name and control point name (format 0 XID) or those fields are blank in the Host Integration Server **Connection Properties** dialog box, the matching will proceed to the next step. If the comparison fails, the XID will be rejected and event ID 49 is generated. If the comparison is successful, the XID will be responded to in step 8.  
   
-3.  If Host Integration Server is unable to match the **Network Name** and **Control Point Name**, it will compare the IDBLK and IDNUM (Node ID) in the XID to the "Remote" Node ID field in the Host Integration Server **Connection Properties** dialog box. If this field is blank, the matching will proceed to the next step. If the comparison fails the XID is rejected and NT Event ID 49 is generated.  
+3. If Host Integration Server is unable to match the **Network Name** and **Control Point Name**, it will compare the IDBLK and IDNUM (Node ID) in the XID to the "Remote" Node ID field in the Host Integration Server **Connection Properties** dialog box. If this field is blank, the matching will proceed to the next step. If the comparison fails the XID is rejected and NT Event ID 49 is generated.  
   
-    > [!NOTE]
-    >  All XIDs must contain an IDBLK and IDNUM.  
+   > [!NOTE]
+   >  All XIDs must contain an IDBLK and IDNUM.  
   
-     If the comparison is successful, the XID will be responded to in step 8.  
+    If the comparison is successful, the XID will be responded to in step 8.  
   
-4.  Host Integration Server then compares the network address contained within the incoming XID to the **Remote Network Address** configured in the Host Integration Server **Connection Properties** dialog box. For x.25 the Remote X.25 address is used. If this comparison fails, the XID is rejected and NT Event ID 49 is generated. For SDLC the XID is simply accepted.  
+4. Host Integration Server then compares the network address contained within the incoming XID to the **Remote Network Address** configured in the Host Integration Server **Connection Properties** dialog box. For x.25 the Remote X.25 address is used. If this comparison fails, the XID is rejected and NT Event ID 49 is generated. For SDLC the XID is simply accepted.  
   
- If the comparison process fails, an Event 49 is generated by Host Integration Server, and logged with the NT Event Service.  
+   If the comparison process fails, an Event 49 is generated by Host Integration Server, and logged with the NT Event Service.  
   
 ## Step 8  
  The connection eventually goes active.

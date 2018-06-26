@@ -37,11 +37,11 @@ BizTalk Server is designed as a persistent system. For high throughput scenarios
   
  For more information about disk performance analysis, see the following resources:  
   
--   [Ruling Out Disk-Bound Problems](http://go.microsoft.com/fwlink/?LinkId=120947) (HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=120947" \t "_blank"http://go.microsoft.com/fwlink/?LinkId=120947).  
+- [Ruling Out Disk-Bound Problems](http://go.microsoft.com/fwlink/?LinkId=120947) (HYPERLINK "<http://go.microsoft.com/fwlink/?LinkId=120947>" \t "_blank"<http://go.microsoft.com/fwlink/?LinkId=120947>).  
   
--   [SQL Server Predeployment I/O Best Practices](http://go.microsoft.com/fwlink/?LinkId=120948) (http://go.microsoft.com/fwlink/?LinkId=120948).  
+- [SQL Server Predeployment I/O Best Practices](http://go.microsoft.com/fwlink/?LinkId=120948) (http://go.microsoft.com/fwlink/?LinkId=120948).  
   
--   “I/O Bottlenecks” section of [Troubleshooting Performance Problems in SQL Server 2008](http://go.microsoft.com/fwlink/?LinkID=153586) (http://go.microsoft.com/fwlink/?LinkID=153586).  
+- “I/O Bottlenecks” section of [Troubleshooting Performance Problems in SQL Server 2008](http://go.microsoft.com/fwlink/?LinkID=153586) (http://go.microsoft.com/fwlink/?LinkID=153586).  
   
 ## See Also  
  [Bottlenecks in the Database Tier](../technical-guides/bottlenecks-in-the-database-tier.md)

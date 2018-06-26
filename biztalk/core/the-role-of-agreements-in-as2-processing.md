@@ -26,10 +26,10 @@ An organization uses [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalk
   
 > [!NOTE]
 >  Unlike in EDI processing, there are no fallback AS2 agreements that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can use if it cannot determine the agreement. The AS2 receive or send pipeline will process the message only if an agreement is determined.  
-  
+> 
 > [!NOTE]
 >  The AS2 agreement is configured separately from the EDI agreement. When receiving documents, the AS2 agreement is resolved during AS2 processing, then the EDI agreement is resolved separately during EDI processing. Both the agreements together make a partnership. For more information see [Trading Partner Agreement](../core/trading-partner-agreement.md).  
-  
+> 
 > [!NOTE]
 >  Properties that define general aspects of the party, such as name and aliases, send ports, and signing certificate are specified as part of the trading partner’s properties.  
   

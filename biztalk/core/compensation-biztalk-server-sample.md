@@ -97,101 +97,101 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
 #### To build and initialize the Compensation sample  
   
-1.  In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
+1. In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Orchestrations\Compensation\  
+    \<*Samples Path*\>\Orchestrations\Compensation\  
   
-2.  Run Setup.bat, which performs the following actions:  
+2. Run Setup.bat, which performs the following actions:  
   
-    -   Build and deploy the sample assembly.  
+   -   Build and deploy the sample assembly.  
   
-    -   When the BizTalk Web Services Publishing Wizard launches, do the following manually:  
+   -   When the BizTalk Web Services Publishing Wizard launches, do the following manually:  
   
-    1.  On the **Welcome to the BizTalk Web Services Publishing Wizard** page, click **Next**.  
+   1.  On the **Welcome to the BizTalk Web Services Publishing Wizard** page, click **Next**.  
   
-    2.  On the **Create Web Service** page, select **Publish BizTalk orchestration as web services**, and then click **Next**.  
+   2.  On the **Create Web Service** page, select **Publish BizTalk orchestration as web services**, and then click **Next**.  
   
-    3.  On the **BizTalk Assembly** page, browse and select \<*Samples Path*\>\Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll, and then click **Next**.  
+   3.  On the **BizTalk Assembly** page, browse and select \<*Samples Path*\>\Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll, and then click **Next**.  
   
-    4.  On the **Orchestrations and Ports** page, click **Next**.  
+   4.  On the **Orchestrations and Ports** page, click **Next**.  
   
-    5.  On the **Web Service Properties** page, in **Target namespace of web service**, type **http://Microsoft.BizTalk.Samples.Compensation/**, and then click **Next**.  
+   5.  On the **Web Service Properties** page, in **Target namespace of web service**, type **http://Microsoft.BizTalk.Samples.Compensation/**, and then click **Next**.  
   
-    6.  On the **Web Service Project** page, in **Location**, type **http://localhost/CompensationOrchestrationWebServiceProxy**.  
+   6.  On the **Web Service Project** page, in **Location**, type **http://localhost/CompensationOrchestrationWebServiceProxy**.  
   
-    7.  Select the **Allow anonymous access to web service** check box.  
+   7.  Select the **Allow anonymous access to web service** check box.  
   
-    8.  Select the **Create BizTalk receive location in the following application** check box.  
+   8.  Select the **Create BizTalk receive location in the following application** check box.  
   
-    9. In the **Create BizTalk receive location in the following application** drop-down menu, select **BizTalk Application 1** from the drop-down list, and then click **Next**.  
+   9. In the **Create BizTalk receive location in the following application** drop-down menu, select **BizTalk Application 1** from the drop-down list, and then click **Next**.  
   
-    10. On the **Web Service Project Summary** page, click **Create**.  
+   10. On the **Web Service Project Summary** page, click **Create**.  
   
-    11. On the **Completing the BizTalk Web Services Publishing Wizard** page, click **Finish**.  
+   11. On the **Completing the BizTalk Web Services Publishing Wizard** page, click **Finish**.  
   
-3.  Setup creates and binds ports, creates the back-end database for the sample, and adds C# assemblies to the global assembly cache.  
+3. Setup creates and binds ports, creates the back-end database for the sample, and adds C# assemblies to the global assembly cache.  
   
-    > [!NOTE]
-    >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
+   > [!NOTE]
+   >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
   
 ## Running This Sample  
  After you build and initialize this sample, consider the following before you run it:  
   
--   If you are running this sample on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], you must create an IIS application pool and set its identity to an account that is a member of the BizTalk Application Users Windows group. You also need to update the orchestration Web service virtual directory to run within this application pool.  
+- If you are running this sample on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], you must create an IIS application pool and set its identity to an account that is a member of the BizTalk Application Users Windows group. You also need to update the orchestration Web service virtual directory to run within this application pool.  
   
--   Add the ASPNET account to the BizTalk Isolated Host Users group.  
+- Add the ASPNET account to the BizTalk Isolated Host Users group.  
   
--   Give the BizTalk Application Users group db_owner permission to the **BTSCompensationSampleMailingList** and **Northwind** databases.  
+- Give the BizTalk Application Users group db_owner permission to the **BTSCompensationSampleMailingList** and **Northwind** databases.  
   
--   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not installed in the default location (drive:\Program Files\Microsoft BizTalk Server \<version\>\\), you must publish the Contact Info Update.xsn form before using it. To do so, do the following.  
+- If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not installed in the default location (drive:\Program Files\Microsoft BizTalk Server \<version\>\\), you must publish the Contact Info Update.xsn form before using it. To do so, do the following.  
   
-    #### To publish the InfoPath form  
+  #### To publish the InfoPath form  
   
-    1.  In Internet Explorer, on the **Tools** menu, click **Internet Options**.  
+  1.  In Internet Explorer, on the **Tools** menu, click **Internet Options**.  
   
-    2.  On the **Security** tab, click **Internet**, and then click **Custom Level**.  
+  2.  On the **Security** tab, click **Internet**, and then click **Custom Level**.  
   
-    3.  In the **Miscellaneous** section, ensure that the **Access data sources across domains** setting is enabled, and then click **OK**. This setting is required for the InfoPath user interface solution scripting code to run.  
+  3.  In the **Miscellaneous** section, ensure that the **Access data sources across domains** setting is enabled, and then click **OK**. This setting is required for the InfoPath user interface solution scripting code to run.  
   
-    4.  In Windows Explorer, navigate to \<*Samples Path*\>\Orchestrations\Compensation\InfoPath, right-click **Contact Info Update.xsn** and then click **Design**.  
+  4.  In Windows Explorer, navigate to \<*Samples Path*\>\Orchestrations\Compensation\InfoPath, right-click **Contact Info Update.xsn** and then click **Design**.  
   
-    5.  The InfoPath Contact Info Update solution opens in design mode.  
+  5.  The InfoPath Contact Info Update solution opens in design mode.  
   
-    6.  In the InfoPath Contact Info Update application, on the **File** menu, click **Publish**.  
+  6.  In the InfoPath Contact Info Update application, on the **File** menu, click **Publish**.  
   
-    7.  The Publish Wizard appears.  
+  7.  The Publish Wizard appears.  
   
-    8.  Select **To a shared folder on this computer or on a network** and publish the solution to the path \<*Samples Path*\>\Orchestrations\Compensation\InfoPath\Contact Info Update.xsn.  
+  8.  Select **To a shared folder on this computer or on a network** and publish the solution to the path \<*Samples Path*\>\Orchestrations\Compensation\InfoPath\Contact Info Update.xsn.  
   
-    9. Close the design mode InfoPath.  
+  9. Close the design mode InfoPath.  
   
--   You are ready to run this sample.  
+- You are ready to run this sample.  
   
-    #### To run the Compensation sample  
+  #### To run the Compensation sample  
   
-    1.  Double-click **Contact Info Update.xsn** to open it in InfoPath.  
+  1.  Double-click **Contact Info Update.xsn** to open it in InfoPath.  
   
-    2.  Fill out the form for an account that exists in both databases. For example, use an existing account ID "ALFKI" from the Northwind Customers table.  
+  2.  Fill out the form for an account that exists in both databases. For example, use an existing account ID "ALFKI" from the Northwind Customers table.  
   
-    3.  On the **File** menu, select **Submit**, and click **Submit**.  
+  3.  On the **File** menu, select **Submit**, and click **Submit**.  
   
-    4.  The response document should appear in the \<*Samples Path*\>\Orchestrations\Compensation\Out folder, and both the Northwind and the BTSCompensationSampleMailingList databases should be updated with the new data from the InfoPath form.  
+  4.  The response document should appear in the \<*Samples Path*\>\Orchestrations\Compensation\Out folder, and both the Northwind and the BTSCompensationSampleMailingList databases should be updated with the new data from the InfoPath form.  
   
-        > [!NOTE]
-        >  You can detach the BTSCompensationSampleMailingList database or take it offline to test the compensation action that the orchestration performs. Observe that the record is updated in the Northwind database first. Then, when the orchestration tries to update the BTSCompensationSampleMailingList database, because that database is detached, the update fails. Therefore, an exception is raised and there is a ten-second delay before the compensation action takes place to write the original customer data back to the Northwind database.  
+      > [!NOTE]
+      >  You can detach the BTSCompensationSampleMailingList database or take it offline to test the compensation action that the orchestration performs. Observe that the record is updated in the Northwind database first. Then, when the orchestration tries to update the BTSCompensationSampleMailingList database, because that database is detached, the update fails. Therefore, an exception is raised and there is a ten-second delay before the compensation action takes place to write the original customer data back to the Northwind database.  
   
-        > [!NOTE]
-        >  You may get a "Login failed for user 'IIS APPPOOL\DefaultAppPool' error. It might be because of the token-based server access validation failure. To resolve this error, create a new application pool and use the administrator account in it.  
+      > [!NOTE]
+      >  You may get a "Login failed for user 'IIS APPPOOL\DefaultAppPool' error. It might be because of the token-based server access validation failure. To resolve this error, create a new application pool and use the administrator account in it.  
   
 ## Uninstalling This Sample  
   
 #### To uninstall the Compensation sample  
   
-1.  In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
+1. In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Orchestrations\Compensation\  
+    \<*Samples Path*\>\Orchestrations\Compensation\  
   
-2.  Run Cleanup.bat.  
+2. Run Cleanup.bat.  
   
 ## See Also  
  [Orchestrations (BizTalk Server Samples Folder)](../core/orchestrations-biztalk-server-samples-folder.md)

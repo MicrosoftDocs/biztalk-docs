@@ -18,15 +18,15 @@ Give users and groups access to the mainframe environment, install connections, 
   
 ## Install HIS
   
--   Verify Host connection information.  
+- Verify Host connection information.  
   
--   Verify Windows Server configuration information.  
+- Verify Windows Server configuration information.  
   
--   Verify Host Integration Server SNA service configuration information  
+- Verify Host Integration Server SNA service configuration information  
   
--   Install [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
+- Install [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
--   Install appropriate link services.  
+- Install appropriate link services.  
   
 ## Configure HIS
   

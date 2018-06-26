@@ -18,13 +18,13 @@ manager: "anneta"
 ## Overview
 CICS uses the following tables to define LU 6.2 information:  
   
--   Terminal Control Table (TCT)—defines the remote systems to CICS.  
+- Terminal Control Table (TCT)—defines the remote systems to CICS.  
   
--   Program Control Table (PCT)—defines the local TPs to CICS.  
+- Program Control Table (PCT)—defines the local TPs to CICS.  
   
--   Program Processing Table (PPT)—defines the load module characteristics to CICS.  
+- Program Processing Table (PPT)—defines the load module characteristics to CICS.  
   
- The following sections describe these tables, and include sample definitions to illustrate how they are used.  
+  The following sections describe these tables, and include sample definitions to illustrate how they are used.  
   
 > [!NOTE]
 >  These samples assume there are four TPs residing on CICS written in PL/I with the following names: TRAN0, TRAN1, TRAN2, and TRAN3.  

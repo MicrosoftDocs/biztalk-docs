@@ -19,35 +19,35 @@ Although [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernovers
   
  You should consider using a custom functoid in the following scenarios:  
   
--   You have special validation and conversion rules for a character code field using data that is only accessible through a proprietary legacy API.  
+- You have special validation and conversion rules for a character code field using data that is only accessible through a proprietary legacy API.  
   
--   You need to encrypt or decrypt fields using custom business logic and key management.  
+- You need to encrypt or decrypt fields using custom business logic and key management.  
   
--   You need to generate a hash code from part of the message for use in another application.  
+- You need to generate a hash code from part of the message for use in another application.  
   
--   Accounting requests that messages transmitted to their department include summary information about total sales by each product type.  
+- Accounting requests that messages transmitted to their department include summary information about total sales by each product type.  
   
--   You want to reduce the complexity of a map by combining several related steps, by using a different approach, or by using new class libraries.  
+- You want to reduce the complexity of a map by combining several related steps, by using a different approach, or by using new class libraries.  
   
--   More than one map is using the same script code in a script functoid.  
+- More than one map is using the same script code in a script functoid.  
   
--   You need to write to the event log when an operation fails.  
+- You need to write to the event log when an operation fails.  
   
- Custom functoids can be integrated into a solution directly by using inline code or indirectly by reference to a method in a class library deployed into the global assembly cache. Both types of integration rely on the **BizTalk.BaseFunctoid** class and follow the same set of general steps:  
+  Custom functoids can be integrated into a solution directly by using inline code or indirectly by reference to a method in a class library deployed into the global assembly cache. Both types of integration rely on the **BizTalk.BaseFunctoid** class and follow the same set of general steps:  
   
-1.  Create a new class library project using the .NET language of your choice.  
+1. Create a new class library project using the .NET language of your choice.  
   
-2.  Using the strong-naming utility sn.exe, create a keyfile and assign it to the project.  
+2. Using the strong-naming utility sn.exe, create a keyfile and assign it to the project.  
   
-3.  Add a reference to Microsoft.BizTalk.BaseFunctoids.dll. This assembly contains the **BaseFunctoid** base class.  
+3. Add a reference to Microsoft.BizTalk.BaseFunctoids.dll. This assembly contains the **BaseFunctoid** base class.  
   
-4.  Create a resource file and add it to the project. Add string resources for the functoid name, tooltip, and description. Add a 16x16-pixel image resource to represent the functoid on the map designer palette.  
+4. Create a resource file and add it to the project. Add string resources for the functoid name, tooltip, and description. Add a 16x16-pixel image resource to represent the functoid on the map designer palette.  
   
-5.  Implement the functoid class by deriving from **BaseFunctoid**, establishing basic parameters in the constructor, and then writing the functoid method and any supporting methods. The assembly can contain multiple custom functoids.  
+5. Implement the functoid class by deriving from **BaseFunctoid**, establishing basic parameters in the constructor, and then writing the functoid method and any supporting methods. The assembly can contain multiple custom functoids.  
   
-6.  Deploy the assembly and ensure the new functoid is available from the Toolbox palette. See [Adding and Removing Custom Functoids from the Visual Studio Toolbox](../core/adding-and-removing-custom-functoids-from-the-visual-studio-toolbox.md).  
+6. Deploy the assembly and ensure the new functoid is available from the Toolbox palette. See [Adding and Removing Custom Functoids from the Visual Studio Toolbox](../core/adding-and-removing-custom-functoids-from-the-visual-studio-toolbox.md).  
   
- The following is an illustration for Floor functoid.  
+   The following is an illustration for Floor functoid.  
   
 ```  
 /// <summary>  

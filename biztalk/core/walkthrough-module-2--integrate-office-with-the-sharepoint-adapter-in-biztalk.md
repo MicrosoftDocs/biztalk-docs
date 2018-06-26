@@ -27,11 +27,11 @@ This walkthrough is a continuation of [Walkthrough: Module 1 - Sending and Recei
 ## Prerequisites  
  The following are prerequisites for performing the procedures in this topic:  
   
--   You must have a single-server deployment with a complete installation of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- You must have a single-server deployment with a complete installation of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   You must complete the following walkthrough: [Walkthrough: Module 1 - Sending and Receiving Messages with the Windows SharePoint Services Adapter](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md)  
+- You must complete the following walkthrough: [Walkthrough: Module 1 - Sending and Receiving Messages with the Windows SharePoint Services Adapter](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md)  
   
- For information about using the Windows SharePoint Services Adapter in a multiserver deployment, see [Setting Up and Deploying the Windows SharePoint Services Adapter](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
+  For information about using the Windows SharePoint Services Adapter in a multiserver deployment, see [Setting Up and Deploying the Windows SharePoint Services Adapter](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
   
 ## Create a BizTalk project  
  In this procedure you create an empty BizTalk project and a schema using the BizTalk Editor. This procedure is required to create the schema for the InfoPath form that is used later.  
@@ -74,21 +74,21 @@ This walkthrough is a continuation of [Walkthrough: Module 1 - Sending and Recei
   
 #### Create an XSD schema by using the BizTalk Editor  
   
-1.  In Solution Explorer, right-click the `OrderProcess` project, click **Add**, and then click **New Item**.  
+1. In Solution Explorer, right-click the `OrderProcess` project, click **Add**, and then click **New Item**.  
   
-2.  Under **Categories**, click **Schema Files**.  
+2. Under **Categories**, click **Schema Files**.  
   
-3.  Under **Templates**, click **Schema**.  
+3. Under **Templates**, click **Schema**.  
   
-4.  Type `OrderProcessSchema` in the **Name** field, and then click **Add**.  
+4. Type `OrderProcessSchema` in the **Name** field, and then click **Add**.  
   
-5.  In the Properties Window for `OrderProcessSchema`, select `Qualified` for the **Element FormDefault** property.  
+5. In the Properties Window for `OrderProcessSchema`, select `Qualified` for the **Element FormDefault** property.  
   
-6.  In the Properties Window for `OrderProcessSchema`, type `http://OrderProcess.PurchaseOrder` in the **Target Namespace** field.  
+6. In the Properties Window for `OrderProcessSchema`, type `http://OrderProcess.PurchaseOrder` in the **Target Namespace** field.  
   
-7.  In the **BizTalk Editor**, right-click `Root`, click **Rename**, and then type `PurchaseOrder`.  
+7. In the **BizTalk Editor**, right-click `Root`, click **Rename**, and then type `PurchaseOrder`.  
   
-8.  Right-click the **PurchaseOrder** node, click **Insert Schema Node**, then click **Child Field Element**.  
+8. Right-click the **PurchaseOrder** node, click **Insert Schema Node**, then click **Child Field Element**.  
   
 9. Name it `PurchaseOrderID`.  
   
@@ -202,21 +202,21 @@ This walkthrough is a continuation of [Walkthrough: Module 1 - Sending and Recei
   
 #### Modify the send port  
   
-1.  Open **BizTalk Server Administration.**  
+1. Open **BizTalk Server Administration.**  
   
-2.  Expand **Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration**, expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, and then click the **Send Ports** node.  
+2. Expand **Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration**, expand **BizTalk Group**, expand **Applications**, expand **BizTalk Application 1**, and then click the **Send Ports** node.  
   
-3.  Right-click `SendToDestination`, and then click **Properties**.  
+3. Right-click `SendToDestination`, and then click **Properties**.  
   
-4.  Under **Transport**, click **Configure**.  
+4. Under **Transport**, click **Configure**.  
   
-5.  In the **Filename** field, type `PurchaseOrder2-%XPATH=//pons:PurchaseOrder/pons:PurchaseOrderID%.xml`.  
+5. In the **Filename** field, type `PurchaseOrder2-%XPATH=//pons:PurchaseOrder/pons:PurchaseOrderID%.xml`.  
   
-6.  In the **Namespace Aliases** field, type `pons="http://OrderProcess.PurchaseOrder"`.  
+6. In the **Namespace Aliases** field, type `pons="http://OrderProcess.PurchaseOrder"`.  
   
-7.  In the **Templates Document Library**, type `InfoPathSolutions`.  
+7. In the **Templates Document Library**, type `InfoPathSolutions`.  
   
-8.  In the **Templates Namespace Column**, type `Namespace`.  
+8. In the **Templates Namespace Column**, type `Namespace`.  
   
 9. Select `Yes` for the **Microsoft Office Integration** property.  
   

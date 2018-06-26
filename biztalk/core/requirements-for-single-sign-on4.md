@@ -21,15 +21,15 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides Si
   
  To use Single Sign-On, you must have:  
   
--   Microsoft BizTalk Server
+- Microsoft BizTalk Server
   
--   Visual Studio  
+- Visual Studio  
   
--   Enterprise Single Sign-On  
+- Enterprise Single Sign-On  
   
--   A server system that supports SSO  
+- A server system that supports SSO  
   
- The isolated host should be configured as authentication trusted.
+  The isolated host should be configured as authentication trusted.
   
 ## Enable SSO  
   

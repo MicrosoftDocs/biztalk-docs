@@ -22,13 +22,13 @@ In this scenario, Contoso implements a business policy that makes sure that inve
   
 ### To add a new vocabulary  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)], and then click **Business Rule Composer**.  
+1. Click **Start**, point to **All Programs**, point to **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)], and then click **Business Rule Composer**.  
   
-2.  In the Open Rule Store dialog box, click **OK**.  
+2. In the Open Rule Store dialog box, click **OK**.  
   
-3.  In the Facts Explorer pane, on the **Vocabularies** tab, right-click **Vocabularies**, and then click **Add New Vocabulary**.  
+3. In the Facts Explorer pane, on the **Vocabularies** tab, right-click **Vocabularies**, and then click **Add New Vocabulary**.  
   
-4.  Name the vocabulary **3A2PriceAvailabilityVocabulary**, and then press **Enter**.  
+4. Name the vocabulary **3A2PriceAvailabilityVocabulary**, and then press **Enter**.  
   
 ### To define a constant vocabulary value  
   

@@ -22,21 +22,21 @@ An application on a session with function management (FM) profile 3 or 4 can req
   
  After sending the **Status-Control(RSHUTD) Request**, the application must remain capable of accepting and responding to all outbound data it receives. The application can now expect one of two messages, depending on whether the state of the PLU session allows it to be terminated and whether the host wants to terminate the PLU session:  
   
--   If the state of the PLU session allows it to be terminated, and the host wants to terminate the PLU session, the host generates a positive response to the **RSHUTD** request, which can be followed by an **UNBIND** request. The local node closes the PLU connection. For more information, see [Closing the PLU Connection](../core/closing-the-plu-connection1.md).  
+- If the state of the PLU session allows it to be terminated, and the host wants to terminate the PLU session, the host generates a positive response to the **RSHUTD** request, which can be followed by an **UNBIND** request. The local node closes the PLU connection. For more information, see [Closing the PLU Connection](../core/closing-the-plu-connection1.md).  
   
--   If the state of the PLU session does not allow it to be terminated (for example, if the session is in-bracket), or the host does not want to terminate the PLU session at this time, the host generates a negative response to the **RSHUTD** request, which the local node presents to the application as a **Status-Control(RSHUTD) Negative-Acknowledge-1** carrying the sense codes supplied on the negative response. This indicates that the request to terminate the PLU session has been rejected by the host, and communication on the PLU session continues unaffected.  
+- If the state of the PLU session does not allow it to be terminated (for example, if the session is in-bracket), or the host does not want to terminate the PLU session at this time, the host generates a negative response to the **RSHUTD** request, which the local node presents to the application as a **Status-Control(RSHUTD) Negative-Acknowledge-1** carrying the sense codes supplied on the negative response. This indicates that the request to terminate the PLU session has been rejected by the host, and communication on the PLU session continues unaffected.  
   
- The following two figures illustrate the application-initiated termination protocol between the local node and the application and how this protocol relates to the underlying SNA protocols.  
+  The following two figures illustrate the application-initiated termination protocol between the local node and the application and how this protocol relates to the underlying SNA protocols.  
   
- In the first figure, the application requests termination of the PLU session, and the host sends **UNBIND**. The local node closes the PLU connection.  
+  In the first figure, the application requests termination of the PLU session, and the host sends **UNBIND**. The local node closes the PLU connection.  
   
- ![](../core/media/32703u.gif "32703u")  
-Application requests termination of the PLU session, and the host sends UNBIND  
+  ![](../core/media/32703u.gif "32703u")  
+  Application requests termination of the PLU session, and the host sends UNBIND  
   
- In the following figure, the application requests termination of the PLU session, but the session is not in an appropriate state. The host sends a negative response to the **RSHUTD** request, which the local node presents as **Status-Control(RSHUTD) Negative-Acknowledge-1**. Communication continues on the PLU session.  
+  In the following figure, the application requests termination of the PLU session, but the session is not in an appropriate state. The host sends a negative response to the **RSHUTD** request, which the local node presents as **Status-Control(RSHUTD) Negative-Acknowledge-1**. Communication continues on the PLU session.  
   
- ![](../core/media/32703ua.gif "32703ua")  
-Application requests termination of the PLU session, but the session is not in an appropriate state  
+  ![](../core/media/32703ua.gif "32703ua")  
+  Application requests termination of the PLU session, but the session is not in an appropriate state  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection1.md)   

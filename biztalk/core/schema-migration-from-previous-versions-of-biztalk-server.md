@@ -19,15 +19,15 @@ This version of BizTalk Server uses XML Schema definition (XSD) language to repr
   
  You need to perform the following tasks to convert a BizTalk schema from XDR syntax to XSD syntax:  
   
--   Change the extension of the schema file from.xdr to.xsd.  
+- Change the extension of the schema file from.xdr to.xsd.  
   
--   Add the renamed schema to the appropriate BizTalk project.  
+- Add the renamed schema to the appropriate BizTalk project.  
   
--   Convert the renamed schema from XDR to XSD by opening the schema in BizTalk Editor.  
+- Convert the renamed schema from XDR to XSD by opening the schema in BizTalk Editor.  
   
--   Make the conversion permanent by saving the schema.  
+- Make the conversion permanent by saving the schema.  
   
- For detailed information about how to perform these steps, see [How to Migrate XDR Schemas to XSD Schemas](../core/how-to-migrate-xdr-schemas-to-xsd-schemas.md).  
+  For detailed information about how to perform these steps, see [How to Migrate XDR Schemas to XSD Schemas](../core/how-to-migrate-xdr-schemas-to-xsd-schemas.md).  
   
 ## See Also  
  [About Schemas](../core/about-schemas.md)   

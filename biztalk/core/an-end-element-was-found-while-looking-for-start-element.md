@@ -17,15 +17,15 @@ manager: "anneta"
 # An End Element was found while looking for Start Element
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|EndElementFoundWhenLookingForStartElement|  
-|Message Text|An EndElement with name {0} was found, while looking for StartElement with name {1}, at depth {2}|  
+|                 |                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------|
+|  Product Name   |        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]         |
+| Product Version |                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                     |
+|    Event ID     |                                                 -                                                 |
+|  Event Source   |      [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI       |
+|    Component    |                                            EDI Engine                                             |
+|  Symbolic Name  |                             EndElementFoundWhenLookingForStartElement                             |
+|  Message Text   | An EndElement with name {0} was found, while looking for StartElement with name {1}, at depth {2} |
   
 ## Explanation  
  This Error/Warning/Information event indicates that BizTalk Server could not process an incoming XML message (after parsing) or an outgoing XML message (before serialization) because the XML message failed validation. The XML message did not contain an end tag for a header or data element.  

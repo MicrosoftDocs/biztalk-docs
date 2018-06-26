@@ -19,39 +19,39 @@ Use the following procedure to configure the Transform shape.
   
 ### To configure the Transform shape  
   
-1.  Drag a Construct Message shape after ReceiveBeginDocResponse.  
+1. Drag a Construct Message shape after ReceiveBeginDocResponse.  
   
-    -   **Messages Constructed:** EditLineMsg  
+   -   **Messages Constructed:** EditLineMsg  
   
-    -   **Name:** ConstructEditLineMessageWithData  
+   -   **Name:** ConstructEditLineMessageWithData  
   
-    1.  Right-click in the middle, select **Insert Shape**, and then select **Transform**.  
+   1. Right-click in the middle, select **Insert Shape**, and then select **Transform**.  
   
-         ![Insert Shape Transform](../core/media/insert-shape-transform.gif "insert_shape_transform")  
+       ![Insert Shape Transform](../core/media/insert-shape-transform.gif "insert_shape_transform")  
   
-    2.  Using Transform, map data from the data you are sending to the data that is sent.  
+   2. Using Transform, map data from the data you are sending to the data that is sent.  
   
-     For your work environment you would send a document (instead of BeginDoc) with all values possible allowing you to construct all possible messages, BeginDoc, EditLine, and EndDoc. For this example, however, there is only hard coded data.  
+      For your work environment you would send a document (instead of BeginDoc) with all values possible allowing you to construct all possible messages, BeginDoc, EditLine, and EndDoc. For this example, however, there is only hard coded data.  
   
-2.  Double-click Transform_1 to open.  
+2. Double-click Transform_1 to open.  
   
-    1.  Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
+   1.  Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
   
-         ![Transform Source](../core/media/transform-source.gif "transform_source")  
+        ![Transform Source](../core/media/transform-source.gif "transform_source")  
   
-    2.  Select **Destination** and click in the Add row under **Variable Name**, select **EditLineMsg**, and click **OK**.  
+   2.  Select **Destination** and click in the Add row under **Variable Name**, select **EditLineMsg**, and click **OK**.  
   
-         ![Transform Destination](../core/media/transform-destination.gif "transform_destination")  
+        ![Transform Destination](../core/media/transform-destination.gif "transform_destination")  
   
-3.  In the Solution Explorer, double-click **Transform_1.btm** to open the mapping tool. Link the following four items:  
+3. In the Solution Explorer, double-click **Transform_1.btm** to open the mapping tool. Link the following four items:  
   
-    -   mnCMJobNo  
+   - mnCMJobNo  
   
-    -   szCMComputerID  
+   - szCMComputerID  
   
-    -   mnProcessID  
+   - mnProcessID  
   
-    -   mnTransactionID  
+   - mnTransactionID  
   
      ![Example Transform Mapping](../core/media/example-transformmapping.gif "example_transformmapping")  
   
@@ -59,57 +59,57 @@ Use the following procedure to configure the Transform shape.
   
      ![Hard Coded Mapping](../core/media/hardcoded-mapping-example.gif "hardcoded_mapping_example")  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8"?>  
-    <ns0:F4211FSEditLine xmlns:ns0="http://schemas.microsoft.com/  
-          [JDE://CSALES/B4200310]">  
-       <ns0:cCMLineAction>A</ns0:cCMLineAction>  
-       <ns0:cCMProcessEdits>1</ns0:cCMProcessEdits>  
-       <ns0:cCMWriteToWFFlag>2</ns0:cCMWriteToWFFlag>  
-       <ns0:szItemNo>210</ns0:szItemNo>  
-       <ns0:mnQtyOrdered>1</ns0:mnQtyOrdered>  
-       <ns0:cSalesTaxableYN>N</ns0:cSalesTaxableYN>  
-       <ns0:szTransactionUOM>EA</ns0:szTransactionUOM>  
-       <ns0:szCMProgramID>XMLInterop</ns0:szCMProgramID>  
-       <ns0:szCMVersion>ZJDE0001</ns0:szCMVersion>  
-    </ns0:F4211FSEditLine>  
-    ```  
+   ```  
+   <?xml version="1.0" encoding="utf-8"?>  
+   <ns0:F4211FSEditLine xmlns:ns0="http://schemas.microsoft.com/  
+         [JDE://CSALES/B4200310]">  
+      <ns0:cCMLineAction>A</ns0:cCMLineAction>  
+      <ns0:cCMProcessEdits>1</ns0:cCMProcessEdits>  
+      <ns0:cCMWriteToWFFlag>2</ns0:cCMWriteToWFFlag>  
+      <ns0:szItemNo>210</ns0:szItemNo>  
+      <ns0:mnQtyOrdered>1</ns0:mnQtyOrdered>  
+      <ns0:cSalesTaxableYN>N</ns0:cSalesTaxableYN>  
+      <ns0:szTransactionUOM>EA</ns0:szTransactionUOM>  
+      <ns0:szCMProgramID>XMLInterop</ns0:szCMProgramID>  
+      <ns0:szCMVersion>ZJDE0001</ns0:szCMVersion>  
+   </ns0:F4211FSEditLine>  
+   ```  
   
-4.  Drag a Construct Message after ReceiveEditLine.  
+4. Drag a Construct Message after ReceiveEditLine.  
   
-    -   **Messages Constructed:** EndDocMsg  
+   -   **Messages Constructed:** EndDocMsg  
   
-    -   **Name:** ConstructEndDocMessageWithData  
+   -   **Name:** ConstructEndDocMessageWithData  
   
-         Right-click in the middle and select **Insert Shape**, and then select **Transform**.  
+        Right-click in the middle and select **Insert Shape**, and then select **Transform**.  
   
-5.  Double-click Transform_2 to open.  
+5. Double-click Transform_2 to open.  
   
-    1.  Select **Source** and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
+   1.  Select **Source** and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
   
-    2.  Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.  
+   2.  Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.  
   
-6.  In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool. Link the following four items:  
+6. In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool. Link the following four items:  
   
-    -   mnCMJobNo  
+   - mnCMJobNo  
   
-    -   szCMComputerID  
+   - szCMComputerID  
   
-    -   mnProcessID  
+   - mnProcessID  
   
-    -   mnTransactionID  
+   - mnTransactionID  
   
      For ease of use, this example has hardcoded values. Click the item in the Destination Schema and set the following Value.  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8"?>  
-    <ns0:F4211FSEndDoc xmlns:ns0="http://schemas.microsoft.com/  
-        [JDE://CSALES/B4200310]">  
-       <ns0:szCMProgramID>XMLInterop</ns0:szCMProgramID>  
-       <ns0:szCMVersion>ZJDE0001</ns0:szCMVersion>  
-       <ns0:cCMUseWorkFiles>2</ns0:cCMUseWorkFiles>  
-    </ns0:F4211FSEndDoc>  
-    ```  
+   ```  
+   <?xml version="1.0" encoding="utf-8"?>  
+   <ns0:F4211FSEndDoc xmlns:ns0="http://schemas.microsoft.com/  
+       [JDE://CSALES/B4200310]">  
+      <ns0:szCMProgramID>XMLInterop</ns0:szCMProgramID>  
+      <ns0:szCMVersion>ZJDE0001</ns0:szCMVersion>  
+      <ns0:cCMUseWorkFiles>2</ns0:cCMUseWorkFiles>  
+   </ns0:F4211FSEndDoc>  
+   ```  
   
 ## See Also  
  [Task 1: Create the Ports](../core/task-1-create-the-ports1.md)   

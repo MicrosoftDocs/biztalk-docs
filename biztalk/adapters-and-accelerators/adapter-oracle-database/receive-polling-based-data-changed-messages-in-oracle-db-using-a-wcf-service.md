@@ -23,13 +23,13 @@ You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.m
   
  To receive the POLLINGSTMT operation when you use the WCF service model, you must:  
   
--   Generate a WCF service contract (interface) for the POLLINGSTMT operation from the metadata exposed by the adapter. To do this, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe).  
+- Generate a WCF service contract (interface) for the POLLINGSTMT operation from the metadata exposed by the adapter. To do this, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe).  
   
--   Implement a WCF service from this interface.  
+- Implement a WCF service from this interface.  
   
--   Host this WCF service using a service host (**System.ServiceModel.ServiceHost**).  
+- Host this WCF service using a service host (**System.ServiceModel.ServiceHost**).  
   
- The topics in this section provide information and procedures to help you perform polling on Oracle database tables and views in the WCF service model.  
+  The topics in this section provide information and procedures to help you perform polling on Oracle database tables and views in the WCF service model.  
   
 ## About the Examples Used in this Topic  
  The examples in this topic use the /SCOTT/ACCOUNTACTIVITY table and the /SCOTT/Package/ACCOUNT_PKG/PROCESS_ACTIVITY function. A script to generate these artifacts is supplied with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] samples. For more information about the samples, see [Adapter Samples](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md).  
@@ -37,36 +37,36 @@ You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.m
 ## Configuring Polling in the WCF Service Model  
  You configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to perform polling on Oracle database tables and views by setting binding properties and an optional connection property (parameter). Some of these properties are mandatory, and some, to have an effect, must be set both at design-time and run-time.  
   
--   At design-time, you set connection parameters and binding properties when you connect to the Oracle Database to generate a WCF service contract.  
+- At design-time, you set connection parameters and binding properties when you connect to the Oracle Database to generate a WCF service contract.  
   
--   At runtime you set binding properties on the OracleDBBinding object that you use to create the service host. You set the connection parameter when you add a service listener to the service host.  
+- At runtime you set binding properties on the OracleDBBinding object that you use to create the service host. You set the connection parameter when you add a service listener to the service host.  
   
- The following list provides a brief overview of the binding properties and connection parameters used to configure polling:  
+  The following list provides a brief overview of the binding properties and connection parameters used to configure polling:  
   
--   The **PollingStatement** binding property. You must set this binding property both at design-time and at run-time.  
+- The **PollingStatement** binding property. You must set this binding property both at design-time and at run-time.  
   
--   Optional binding properties. These only have to be set at run-time.  
+- Optional binding properties. These only have to be set at run-time.  
   
--   The **AcceptCredentialsInUri** binding property. You must set this binding property to **true** during run-time if you want to enable credentials in the connection URI. The user name and password must be present in the connection URI when you add a service endpoint to the service host.  
+- The **AcceptCredentialsInUri** binding property. You must set this binding property to **true** during run-time if you want to enable credentials in the connection URI. The user name and password must be present in the connection URI when you add a service endpoint to the service host.  
   
--   The **PollingId** query string parameter in the connection URI. If you want to change the namespace of the POLLINGSTMT operation, you must set this connection property both at design-time and run-time.  
+- The **PollingId** query string parameter in the connection URI. If you want to change the namespace of the POLLINGSTMT operation, you must set this connection property both at design-time and run-time.  
   
- For a complete description of the binding properties and connection parameters used to configure polling, see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).  
+  For a complete description of the binding properties and connection parameters used to configure polling, see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).  
   
 ## The WCF Service Contract and Class  
  You use either the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to create a WCF service contract (interface) and supporting classes for the POLLINGSTMT operation.  
   
  When you connect to the Oracle database with either of these tools to generate a service contract for the POLLINGSTMT operation:  
   
--   You must specify the **PollingStatement** binding property. The adapter uses the SELECT statement in this binding property to generate the correct metadata for the strongly-typed result set returned by the POLLINGSTMT operation.  
+- You must specify the **PollingStatement** binding property. The adapter uses the SELECT statement in this binding property to generate the correct metadata for the strongly-typed result set returned by the POLLINGSTMT operation.  
   
--   You can optionally specify a PollingId parameter in the connection URI. The adapter uses this parameter to generate the namespace for the POLLINGSTMT operation.  
+- You can optionally specify a PollingId parameter in the connection URI. The adapter uses this parameter to generate the namespace for the POLLINGSTMT operation.  
   
- In the following examples:  
+  In the following examples:  
   
--   **PollingStatement** is set to "SELECT * FROM ACCOUNTACTIVITY FOR UPDATE".  
+- **PollingStatement** is set to "SELECT * FROM ACCOUNTACTIVITY FOR UPDATE".  
   
--   **PollingId** is set to "AcctActivity".  
+- **PollingId** is set to "AcctActivity".  
   
 ### The WCF Service Contract (Interface)  
  The following code shows the WCF service contract (interface) generated for the POLLINGSTMT operation.  
@@ -144,106 +144,106 @@ namespace OracleDBBindingNamespace {
   
 #### To receive polling data from the Oracle Database adapter  
   
-1.  Use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or svcutil.exe to generate a WCF service contract (interface) and helper classes for the POLLINGSTMT operation. For more information, see [Generate a WCF client or a WCF service contract for Oracle Database solution artifacts](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md). At a minimum, you must set the **PollingStatement** binding property when you connect to the adapter. You can optionally specify a PollingId parameter in the connection URI. If you are using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], you should set all of the binding parameters necessary for your configuration. This guarantees that they are properly set in the generated configuration file.  
+1. Use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or svcutil.exe to generate a WCF service contract (interface) and helper classes for the POLLINGSTMT operation. For more information, see [Generate a WCF client or a WCF service contract for Oracle Database solution artifacts](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md). At a minimum, you must set the **PollingStatement** binding property when you connect to the adapter. You can optionally specify a PollingId parameter in the connection URI. If you are using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], you should set all of the binding parameters necessary for your configuration. This guarantees that they are properly set in the generated configuration file.  
   
-2.  Implement a WCF service from the interface and helper classes generated in step 1. The POLLINGSTMT method of this class can throw an exception to abort the polling transaction, if an error is encountered processing the data received from the POLLINGSTMT operation; otherwise the method does not return anything. You must attribute the WCF service class as follows:  
+2. Implement a WCF service from the interface and helper classes generated in step 1. The POLLINGSTMT method of this class can throw an exception to abort the polling transaction, if an error is encountered processing the data received from the POLLINGSTMT operation; otherwise the method does not return anything. You must attribute the WCF service class as follows:  
   
-    ```  
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]  
-    ```  
+   ```  
+   [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]  
+   ```  
   
-    1.  If you used the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] to generate the interface, you can implement your logic directly in the **POLLINGSTMT** method in the generated **OracleDBBindingService** class. This class can be found in OracleDBBindingService.cs. This code in this example sub-classes the **OracleDBBindingService** class.  
+   1. If you used the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] to generate the interface, you can implement your logic directly in the **POLLINGSTMT** method in the generated **OracleDBBindingService** class. This class can be found in OracleDBBindingService.cs. This code in this example sub-classes the **OracleDBBindingService** class.  
   
-        ```  
-        [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]  
+      ```  
+      [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]  
   
-        public class PollingStmtService : OracleDBBindingService  
-        {  
-            public override void POLLINGSTMT(POLLINGSTMT request)  
-            {  
-                Console.WriteLine("\nNew Polling Records Received");  
-                Console.WriteLine("Tx Id\tAccount\tAmount\tDate\t\t\tDescription");  
-                for (int i = 0; i < request.POLLINGSTMTRECORD.Length; i++)  
-                {  
-                    Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}", request.POLLINGSTMTRECORD[i].TID,  
-                                        request.POLLINGSTMTRECORD[i].ACCOUNT,  
-                                        request.POLLINGSTMTRECORD[i].AMOUNT,  
-                                        request.POLLINGSTMTRECORD[i].TRANSDATE,  
-                                        request.POLLINGSTMTRECORD[i].DESCRIPTION);  
-                }  
-            }  
-        }  
-        ```  
+      public class PollingStmtService : OracleDBBindingService  
+      {  
+          public override void POLLINGSTMT(POLLINGSTMT request)  
+          {  
+              Console.WriteLine("\nNew Polling Records Received");  
+              Console.WriteLine("Tx Id\tAccount\tAmount\tDate\t\t\tDescription");  
+              for (int i = 0; i < request.POLLINGSTMTRECORD.Length; i++)  
+              {  
+                  Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}", request.POLLINGSTMTRECORD[i].TID,  
+                                      request.POLLINGSTMTRECORD[i].ACCOUNT,  
+                                      request.POLLINGSTMTRECORD[i].AMOUNT,  
+                                      request.POLLINGSTMTRECORD[i].TRANSDATE,  
+                                      request.POLLINGSTMTRECORD[i].DESCRIPTION);  
+              }  
+          }  
+      }  
+      ```  
   
-    2.  If you used svcutil.exe to generate the interface, you must create a WCF service that implements the interface and implement your logic in the **POLLINGSTMT** method of this class.  
+   2. If you used svcutil.exe to generate the interface, you must create a WCF service that implements the interface and implement your logic in the **POLLINGSTMT** method of this class.  
   
-3.  Create an instance of the WCF service created in step 2.  
+3. Create an instance of the WCF service created in step 2.  
   
-    ```  
-    // create service instance  
-    PollingStmtService pollingInstance = new PollingStmtService();  
-    ```  
+   ```  
+   // create service instance  
+   PollingStmtService pollingInstance = new PollingStmtService();  
+   ```  
   
-4.  Create an instance of **System.ServiceModel.ServiceHost** by using the WCF service and a base connection URI. The base connection URI cannot contain userinfoparams or a query_string.  
+4. Create an instance of **System.ServiceModel.ServiceHost** by using the WCF service and a base connection URI. The base connection URI cannot contain userinfoparams or a query_string.  
   
-    ```  
-    // Enable service host  
-    Uri[] baseUri = new Uri[] { new Uri("oracledb://Adapter") };  
-    ServiceHost srvHost = new ServiceHost(pollingInstance, baseUri);  
-    ```  
+   ```  
+   // Enable service host  
+   Uri[] baseUri = new Uri[] { new Uri("oracledb://Adapter") };  
+   ServiceHost srvHost = new ServiceHost(pollingInstance, baseUri);  
+   ```  
   
-5.  Create an **OracleDBBinding** and configure the polling operation by setting its binding properties. You can do this either explicitly in code or declaratively in configuration. At a minimum, you must specify the polling statement and polling interval. In this example, you specify the credentials as part of the URI so you must also set the **AcceptCredentialsInUri** to **true**.  
+5. Create an **OracleDBBinding** and configure the polling operation by setting its binding properties. You can do this either explicitly in code or declaratively in configuration. At a minimum, you must specify the polling statement and polling interval. In this example, you specify the credentials as part of the URI so you must also set the **AcceptCredentialsInUri** to **true**.  
   
-    ```  
-    // Create and configure a binding for the service endpoint. NOTE: binding  
-    // parameters are set here for clarity, but these are already set in the  
-    // the generated configuration file  
-    OracleDBBinding binding = new OracleDBBinding();  
+   ```  
+   // Create and configure a binding for the service endpoint. NOTE: binding  
+   // parameters are set here for clarity, but these are already set in the  
+   // the generated configuration file  
+   OracleDBBinding binding = new OracleDBBinding();  
   
-    // The credentials are included in the connection URI, so set this property to true  
-    binding.AcceptCredentialsInUri = true;  
+   // The credentials are included in the connection URI, so set this property to true  
+   binding.AcceptCredentialsInUri = true;  
   
-    // Same as statement specified in Configure Adapter dialog box  
-    binding.PollingStatement = "SELECT * FROM ACCOUNTACTIVITY FOR UPDATE";  
-    binding.PostPollStatement = "BEGIN ACCOUNT_PKG.PROCESS_ACTIVITY(); END;";  
+   // Same as statement specified in Configure Adapter dialog box  
+   binding.PollingStatement = "SELECT * FROM ACCOUNTACTIVITY FOR UPDATE";  
+   binding.PostPollStatement = "BEGIN ACCOUNT_PKG.PROCESS_ACTIVITY(); END;";  
   
-    // Be sure to set the interval long enough to complete processing before  
-    // the next poll  
-    binding.PollingInterval = 15;  
-    // Polling is transactional; be sure to set an adequate isolation level   
-    // for your environment  
-    binding.TransactionIsolationLevel = TransactionIsolationLevel.ReadCommitted;  
-    ```  
+   // Be sure to set the interval long enough to complete processing before  
+   // the next poll  
+   binding.PollingInterval = 15;  
+   // Polling is transactional; be sure to set an adequate isolation level   
+   // for your environment  
+   binding.TransactionIsolationLevel = TransactionIsolationLevel.ReadCommitted;  
+   ```  
   
-6.  Add a service endpoint to the service host. To do this:  
+6. Add a service endpoint to the service host. To do this:  
   
-    -   Use the binding created in step 5.  
+   -   Use the binding created in step 5.  
   
-    -   Specify a connection URI that contains credentials and, if needed, a PollingId.  
+   -   Specify a connection URI that contains credentials and, if needed, a PollingId.  
   
-    -   Specify the contract as "POLLINGSTMT_OperationGroup".  
+   -   Specify the contract as "POLLINGSTMT_OperationGroup".  
   
-    ```  
-    // Add service endpoint: be sure to specify POLLINGSTMT_OperationGroup as the contract  
-    Uri serviceUri = new Uri("oracledb://User=SCOTT;Password=TIGER@Adapter?PollingId=AcctActivity");  
-    srvHost.AddServiceEndpoint("POLLINGSTMT_OperationGroup", binding, serviceUri);  
-    ```  
+   ```  
+   // Add service endpoint: be sure to specify POLLINGSTMT_OperationGroup as the contract  
+   Uri serviceUri = new Uri("oracledb://User=SCOTT;Password=TIGER@Adapter?PollingId=AcctActivity");  
+   srvHost.AddServiceEndpoint("POLLINGSTMT_OperationGroup", binding, serviceUri);  
+   ```  
   
-7.  To receive polling data, open the service host. The adapter will return data whenever the query returns a result set.  
+7. To receive polling data, open the service host. The adapter will return data whenever the query returns a result set.  
   
-    ```  
-    // Open the service host to begin polling  
-    srvHost.Open();  
-    ```  
+   ```  
+   // Open the service host to begin polling  
+   srvHost.Open();  
+   ```  
   
-8.  To terminate polling, close the service host.  
+8. To terminate polling, close the service host.  
   
-    > [!IMPORTANT]
-    >  The adapter will continue to poll until the service host is closed.  
+   > [!IMPORTANT]
+   >  The adapter will continue to poll until the service host is closed.  
   
-    ```  
-    srvHost.Close();  
-    ```  
+   ```  
+   srvHost.Close();  
+   ```  
   
 ### Example  
  The following example shows a polling query that executes against the /SCOTT/ACCOUNTACTIVITY table. The post-poll statement invokes an Oracle function that moves the processed records to another table /SCOTT/ACCOUNTHISTORY. The namespace of the POLLINGSTMT operation is modified by setting the PollingId parameter to "AccountActivity" in the connection URI. In this example, the WCF service for the POLLINGSTMT operation is created by sub-classing the generated **OracleDBBindingService** class; however, you can implement your logic directly in the generated class.  

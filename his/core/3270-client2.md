@@ -16,21 +16,21 @@ manager: "anneta"
 # 3270 Client
 The Microsoft Host Integration Server 3270 Client enables your personal computer (PC) to access IBM hosts on the Systems Network Architecture (SNA) network. With the Host Integration Server 3270 Client, you can establish a single logical unit (LU) for your SNA session. You can connect to the following host application environments:  
   
--   Virtual Machine/Conversational Monitor System (VM/CMS)  
+- Virtual Machine/Conversational Monitor System (VM/CMS)  
   
--   Time-Sharing Options (TSO)  
+- Time-Sharing Options (TSO)  
   
--   Customer Information Control System (CICS)  
+- Customer Information Control System (CICS)  
   
- Once connected to a host application, you can transfer information between the host system and your computer without using an intermediate storage medium. This gives you the ability to:  
+  Once connected to a host application, you can transfer information between the host system and your computer without using an intermediate storage medium. This gives you the ability to:  
   
--   Transfer a file back and forth between your computer and the host. You can then continue working with the file even if the host is unavailable or slow.  
+- Transfer a file back and forth between your computer and the host. You can then continue working with the file even if the host is unavailable or slow.  
   
--   Edit a file and return it to the host, where it can be shared by other users.  
+- Edit a file and return it to the host, where it can be shared by other users.  
   
--   Print the information in the active window of a host application file.  
+- Print the information in the active window of a host application file.  
   
--   Extract information from the host for further analysis on your computer.  
+- Extract information from the host for further analysis on your computer.  
   
 ## In This Section  
  [Defining Session Settings](../core/defining-session-settings2.md)  

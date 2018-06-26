@@ -46,11 +46,11 @@ manager: "anneta"
   
 ### Problem  
   
--   The Business Rules Configuration Wizard fails with the error “Configuration failed for some components and no settings were applied for those components”.  
+- The Business Rules Configuration Wizard fails with the error “Configuration failed for some components and no settings were applied for those components”.  
   
--   On BizTalk Server computers for which the Business Rules Engine has already been successfully configured, the Rules Engine Update service fails to start and cannot be started manually.  
+- On BizTalk Server computers for which the Business Rules Engine has already been successfully configured, the Rules Engine Update service fails to start and cannot be started manually.  
   
- When this problem occurs, an error similar to the following may be generated in the BizTalk Server computer Application log:  
+  When this problem occurs, an error similar to the following may be generated in the BizTalk Server computer Application log:  
   
 ```  
 Service could not be started. : System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it ::1:3132  

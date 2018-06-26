@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10598
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10598|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_BACKUP_RESTORE_FILE_VERSION_1|  
-|Message Text|The master secrets were restored from an older format backup file.|  
+|                 |                                                                    |
+|-----------------|--------------------------------------------------------------------|
+|  Product Name   |                     Enterprise Single Sign-On                      |
+| Product Version |     [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]     |
+|    Event ID     |                               10598                                |
+|  Event Source   |                               ENTSSO                               |
+|    Component    |                                N/A                                 |
+|  Symbolic Name  |               SSO_WARN_BACKUP_RESTORE_FILE_VERSION_1               |
+|  Message Text   | The master secrets were restored from an older format backup file. |
   
 ## Explanation  
  This is an informational message only.  

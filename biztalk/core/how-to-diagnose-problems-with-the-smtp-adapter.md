@@ -19,15 +19,15 @@ This section contains steps that can be followed to help diagnose problems with 
   
 ### Check the SMTP log files of the SMTP Server for errors  
   
--   The target SMTP server log files can contain information that is helpful for troubleshooting problems with the SMTP adapter. By default the SMTP log files on [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] are located in the following directory:  
+- The target SMTP server log files can contain information that is helpful for troubleshooting problems with the SMTP adapter. By default the SMTP log files on [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] are located in the following directory:  
   
-     *%WinDir%\\*system32\LogFiles\SMTPSVC1\  
+   <em>%WinDir%\\</em>system32\LogFiles\SMTPSVC1\  
   
-    > [!NOTE]
-    >  *%WinDir%* is a placeholder for the location of the Windows directory on the SMTP server.  
-  
-    > [!NOTE]
-    >  SMTP logging is disabled by default on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. For information about enabling logging for SMTP, see the Windows Server documentation.  
+  > [!NOTE]
+  >  *%WinDir%* is a placeholder for the location of the Windows directory on the SMTP server.  
+  > 
+  > [!NOTE]
+  >  SMTP logging is disabled by default on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. For information about enabling logging for SMTP, see the Windows Server documentation.  
   
 ## See Also  
  [Tools and Utilities to Use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md)   

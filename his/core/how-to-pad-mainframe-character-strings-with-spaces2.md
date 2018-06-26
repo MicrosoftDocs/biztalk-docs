@@ -18,13 +18,13 @@ You can define the properties for a string such that the Transaction Integrator 
   
 ### To use either a space character or null termination character  
   
-1.  In Microsoft Visual Studio, right-click the object, and then click **Properties**.  
+1. In Microsoft Visual Studio, right-click the object, and then click **Properties**.  
   
-2.  Under **Host Data Type Information** in the **Properties** pane, click **String Delimiting**.  
+2. Under **Host Data Type Information** in the **Properties** pane, click **String Delimiting**.  
   
-3.  Select either **Space Padded** or **Null Terminated**.  
+3. Select either **Space Padded** or **Null Terminated**.  
   
- The following table describes what happens with each delimiting option (**Space Padded** or **Null terminated**) when converting to the type of string indicated.  
+   The following table describes what happens with each delimiting option (**Space Padded** or **Null terminated**) when converting to the type of string indicated.  
   
 |Type of string operation|What happens for each type of string delimiting operation|  
 |------------------------------|---------------------------------------------------------------|  
@@ -43,11 +43,11 @@ You can define the properties for a string such that the Transaction Integrator 
   
  Special handling occurs for a string that is last in the host buffer and that is flagged as *last is variable*. For example:  
   
--   **Space Padded.** Upon conversion to an Extended Binary Coded Decimal Interchange Code (EBCDIC) string, the string is terminated by the length count of the containing buffer, so it contains no additional space characters. Upon conversion from an EBCDIC string, the buffer is considered terminated by the length count of the containing buffer; then the string is examined for blank padding. The host can send this string blank padded beyond the significant data or not blank padded but with the last significant character of the string in the last position in the containing buffer. The space character is determined by the type of string (single, double, or intermixed).  
+- **Space Padded.** Upon conversion to an Extended Binary Coded Decimal Interchange Code (EBCDIC) string, the string is terminated by the length count of the containing buffer, so it contains no additional space characters. Upon conversion from an EBCDIC string, the buffer is considered terminated by the length count of the containing buffer; then the string is examined for blank padding. The host can send this string blank padded beyond the significant data or not blank padded but with the last significant character of the string in the last position in the containing buffer. The space character is determined by the type of string (single, double, or intermixed).  
   
--   **Null terminated.** Upon conversion to an EBCDIC string, the string is sent as is. The TI run-time environment checks the length of the string, and then checks that the exact number of characters is sent. In other words, the number of characters sent is equal to the length of the string. No null terminator or spaces are appended to the end of the string.  
+- **Null terminated.** Upon conversion to an EBCDIC string, the string is sent as is. The TI run-time environment checks the length of the string, and then checks that the exact number of characters is sent. In other words, the number of characters sent is equal to the length of the string. No null terminator or spaces are appended to the end of the string.  
   
- The following tables show how string delimiting works when the **String delimiting** property is set to **Space Padded** versus **Null terminated** in combination with the variable size setting. All examples assume the mainframe data declaration as PIC X(5). "b" represents a space,"?" represents unassigned data, and "\0" represents a null.  
+  The following tables show how string delimiting works when the **String delimiting** property is set to **Space Padded** versus **Null terminated** in combination with the variable size setting. All examples assume the mainframe data declaration as PIC X(5). "b" represents a space,"?" represents unassigned data, and "\0" represents a null.  
   
 ### String delimiting set to Space Padded and variable size not active  
   

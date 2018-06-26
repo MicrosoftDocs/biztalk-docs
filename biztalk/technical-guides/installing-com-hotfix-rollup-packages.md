@@ -23,15 +23,15 @@ manager: "anneta"
   
  The DTC issues that have been fixed are as follows:  
   
--   Unexpected DTC shutdown  
+- Unexpected DTC shutdown  
   
--   Memory fragmentation issues  
+- Memory fragmentation issues  
   
--   DTC may stop responding under load  
+- DTC may stop responding under load  
   
--   DTC may leak memory or stop responding when used with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- DTC may leak memory or stop responding when used with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Performance of DTC under load has been improved  
+- Performance of DTC under load has been improved  
   
 ## Installing the COM+ Rollup Package  
  COM+ is no longer releasing rollup packages. Follow this information to install the last COM+ package:  

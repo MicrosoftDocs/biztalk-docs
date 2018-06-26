@@ -20,13 +20,13 @@ Response time monitor (RTM) data is collected by comparing host response times a
   
  The response time is measured from the time the user presses ENTER until one of the following events occurs:  
   
--   The first character of host data reaches the 3270 display.  
+- The first character of host data reaches the 3270 display.  
   
--   The keyboard is unlocked.  
+- The keyboard is unlocked.  
   
--   The user is enabled to send data.  
+- The user is enabled to send data.  
   
- A host can override the default boundaries and other host response time settings for any or all logical units (LUs) it controls.  
+  A host can override the default boundaries and other host response time settings for any or all logical units (LUs) it controls.  
   
 ## See Also  
  [Specifying When RTM Data is Sent](../core/specifying-when-rtm-data-is-sent1.md)   

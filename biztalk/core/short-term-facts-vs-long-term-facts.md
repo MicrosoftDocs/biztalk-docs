@@ -39,11 +39,11 @@ Two types of facts are asserted into the working memory of the rule engine—sho
   
  To submit a fact as a long-term fact, you need to perform the following steps:  
   
-1.  Create a fact retriever component that implements the **IFactRetriever** interface. Create and assert the fact into the working memory of the rule engine when the **UpdateFacts** method is invoked for the first time, and update the fact when necessary on subsequent invocations of the **UpdateFacts** method.  
+1. Create a fact retriever component that implements the **IFactRetriever** interface. Create and assert the fact into the working memory of the rule engine when the **UpdateFacts** method is invoked for the first time, and update the fact when necessary on subsequent invocations of the **UpdateFacts** method.  
   
-2.  Configure the policy to use the fact retriever component by using the Business Rule Composer.  
+2. Configure the policy to use the fact retriever component by using the Business Rule Composer.  
   
- For more information about creating a fact retriever and using it in a policy, see [How to Create a Fact Retriever](../core/how-to-create-a-fact-retriever.md).  
+   For more information about creating a fact retriever and using it in a policy, see [How to Create a Fact Retriever](../core/how-to-create-a-fact-retriever.md).  
   
 ## See Also  
  [Facts](../core/facts.md)

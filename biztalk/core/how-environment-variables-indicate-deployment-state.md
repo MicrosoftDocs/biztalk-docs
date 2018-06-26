@@ -18,19 +18,20 @@ manager: "anneta"
 ---
 # How Environment Variables Indicate Deployment State
 Once invoked, a pre- or post-processing script can determine in which deployment state (install, import, delete, uninstall, import rollback, or install rollback) it is running by checking the environment variables BTAD_ChangeRequestAction, BTAD_InstallMode and BTAD_HostClass.  
-  
+
  The following table describes the combinations of the three variables that indicate the different deployment states.  
-  
-|Deployment State|Expected Values|  
-|----------------------|---------------------|  
-||BTAD_ChangeRequestAction|BTAD_InstallMode|BTAD_HostClass|  
-|Import without overwrite flag|Create|Import|ConfigurationDb|  
-|Import with overwrite flag|Update|Import|ConfigurationDb|  
-|Install|Update|Install|BizTalkHostInstance|  
-|Uninstall|Delete|Uninstall|BizTalkHostInstance|  
-|Import rollback|Delete|Import|ConfigurationDb|  
-|Install rollback|Delete|Install|BizTalkHostInstance|  
-  
+
+
+|       Deployment State        |     Expected Values      |
+|-------------------------------|--------------------------|
+|                               | BTAD_ChangeRequestAction |
+| Import without overwrite flag |          Create          |
+|  Import with overwrite flag   |          Update          |
+|            Install            |          Update          |
+|           Uninstall           |          Delete          |
+|        Import rollback        |          Delete          |
+|       Install rollback        |          Delete          |
+
 ## See Also  
  [Using Pre- and Post-processing Scripts to Customize Application Deployment](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md)   
  [BTAD_ChangeRequestAction](../core/btad-changerequestaction.md)   

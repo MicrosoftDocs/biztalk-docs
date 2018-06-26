@@ -32,19 +32,19 @@ Starting with [!INCLUDE[bts2013r2](../../includes/bts2013r2-md.md)], the MLLP ad
   
 ## Additional  
   
--   When creating a multipart message in an orchestration for HL7, create the message parts in this following order:  
+- When creating a multipart message in an orchestration for HL7, create the message parts in this following order:  
   
-    1.  MSH Segment  
+  1. MSH Segment  
   
-    2.  BodySegments  
+  2. BodySegments  
   
-    3.  ZSegments  
+  3. ZSegments  
   
      If you specify the message parts in a different order, the following error occurs:  
   
      WrongBodyPartException  
   
--   The adapter route properties can be specified on the orchestration to support dynamic routing.  
+- The adapter route properties can be specified on the orchestration to support dynamic routing.  
   
 ## See Also  
  [Configuration Parameters for Send and Receive Adapters](../../adapters-and-accelerators/accelerator-hl7/configuration-parameters-for-send-and-receive-adapters.md)   

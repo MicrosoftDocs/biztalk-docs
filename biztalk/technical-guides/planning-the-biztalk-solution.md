@@ -21,23 +21,23 @@ One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../inclu
 ### Performance Considerations  
  Consider the following when scoping your BizTalk solution:  
   
--   Which adapters and/or accelerators are required?  
+- Which adapters and/or accelerators are required?  
   
--   What are the requirements for implementing orchestrations in the solution?  
+- What are the requirements for implementing orchestrations in the solution?  
   
--   Document throughput requirements: What are the maximum sustainable throughput requirements for the solution?  
+- Document throughput requirements: What are the maximum sustainable throughput requirements for the solution?  
   
--   Latency requirements: How responsive does the solution need to be for solicit-response and request-response scenarios?  
+- Latency requirements: How responsive does the solution need to be for solicit-response and request-response scenarios?  
   
--   How well does the solution recover from periods of peak document load?  
+- How well does the solution recover from periods of peak document load?  
   
--   What are the high availability requirements of the solution?  
+- What are the high availability requirements of the solution?  
   
--   What are the document tracking requirements of the solution?  
+- What are the document tracking requirements of the solution?  
   
--   What are the performance characteristics of any dependent applications such as a remote Web service or other system? If dependent applications do not keep up with the required load then the overall system performance will be degraded accordingly.  
+- What are the performance characteristics of any dependent applications such as a remote Web service or other system? If dependent applications do not keep up with the required load then the overall system performance will be degraded accordingly.  
   
--   Would the BizTalk application be consuming databases not related to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]? For example, if the BizTalk application is consuming tables in a SQL Server database using the SQL adapter, are the tables efficiently configured?  
+- Would the BizTalk application be consuming databases not related to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]? For example, if the BizTalk application is consuming tables in a SQL Server database using the SQL adapter, are the tables efficiently configured?  
   
 ### Hardware Considerations  
  When scoping the solution, create a high-level hardware diagram that includes the following:  
@@ -84,101 +84,101 @@ One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../inclu
 ### Detailed Design of the Solution Platform  
  A detailed solution design facilitates communications and avoids assumptions, which will improve the agility and effectiveness of all activities. You should fully document the following elements:  
   
--   BizTalk Server databases and how they will be distributed across computers.  
+- BizTalk Server databases and how they will be distributed across computers.  
   
--   BizTalk Host design and descriptions of each host and their instances.  
+- BizTalk Host design and descriptions of each host and their instances.  
   
--   Description of each orchestration.  
+- Description of each orchestration.  
   
--   Description of each pipeline.  
+- Description of each pipeline.  
   
--   Description of custom components such as .NET assemblies and COM+ components.  
+- Description of custom components such as .NET assemblies and COM+ components.  
   
- **Message Flow Diagrams**  
+  **Message Flow Diagrams**  
   
- Create detailed message flow diagrams to help avoid any confusion or false assumptions regarding what is supposed to be happening to messages during processing. The following details should be considered when creating the message flow diagrams:  
+  Create detailed message flow diagrams to help avoid any confusion or false assumptions regarding what is supposed to be happening to messages during processing. The following details should be considered when creating the message flow diagrams:  
   
--   Describe the lifecycle of each type of message from the time it arrives at a receive location until all resulting messages are sent and all related processing is completed.  
+- Describe the lifecycle of each type of message from the time it arrives at a receive location until all resulting messages are sent and all related processing is completed.  
   
--   Describe how processing changes for error conditions.  
+- Describe how processing changes for error conditions.  
   
--   Include details about correlation, delivery notifications, and acknowledgements.  
+- Include details about correlation, delivery notifications, and acknowledgements.  
   
--   Include performance requirement information regarding latency and throughput.  
+- Include performance requirement information regarding latency and throughput.  
   
- **Non-Microsoft Software Details**  
+  **Non-Microsoft Software Details**  
   
- All non-Microsoft software that is used should be fully documented as part of the detailed solution design.  
+  All non-Microsoft software that is used should be fully documented as part of the detailed solution design.  
   
- **Detailed Hardware Stack**  
+  **Detailed Hardware Stack**  
   
- Building on the previously created high level hardware diagram, the following hardware information should be fully documented:  
+  Building on the previously created high level hardware diagram, the following hardware information should be fully documented:  
   
--   Processors  
+- Processors  
   
-    -   Type  
+  -   Type  
   
-    -   Speed  
+  -   Speed  
   
-    -   Number of cores  
+  -   Number of cores  
   
-    -   Hyperthreading  
+  -   Hyperthreading  
   
--   Memory  
+- Memory  
   
-    -   Amount  
+  -   Amount  
   
-    -   Speed  
+  -   Speed  
   
-    -   Parity  
+  -   Parity  
   
--   Network  
+- Network  
   
-    -   Number of network interface cards (NICs)  
+  -   Number of network interface cards (NICs)  
   
-    -   Speed of network  
+  -   Speed of network  
   
--   SAN  
+- SAN  
   
-    -   Number of SAN cards in each computer  
+  -   Number of SAN cards in each computer  
   
-    -   Number of logical unit numbers (LUNs) for each computer and purpose for each LUN  
+  -   Number of logical unit numbers (LUNs) for each computer and purpose for each LUN  
   
-    -   Speed of storage area network (SAN) Cards  
+  -   Speed of storage area network (SAN) Cards  
   
-    -   SAN card configuration details  
+  -   SAN card configuration details  
   
-    -   SAN disk allocation, formatting, and partitioning  
+  -   SAN disk allocation, formatting, and partitioning  
   
--   Disk  
+- Disk  
   
-    -   Local disk details for each computer  
+  -   Local disk details for each computer  
   
-    -   Formatting used for local disks  
+  -   Formatting used for local disks  
   
-    -   Partitioning details for local disks  
+  -   Partitioning details for local disks  
   
--   Cache  
+- Cache  
   
-    -   L2 Cache amount  
+  -   L2 Cache amount  
   
-    -   L3 Cache amount  
+  -   L3 Cache amount  
   
- **Detailed Software Stack**  
+  **Detailed Software Stack**  
   
- The following software information should be documented:  
+  The following software information should be documented:  
   
--   Specific operating system versions, editions, and architecture  
+- Specific operating system versions, editions, and architecture  
   
--   Specific operating system features  
+- Specific operating system features  
   
--   Specific software installed on each computer  
+- Specific software installed on each computer  
   
--   Specific drivers  
+- Specific drivers  
   
--   Service Packs and other updates  
+- Service Packs and other updates  
   
--   Configuration values for all software and operating system features used if they vary from default values  
+- Configuration values for all software and operating system features used if they vary from default values  
   
 ## Building Out the Environment for the Solution  
  Detailed instructions for installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the software requirements are in the [BizTalk Server Installation Guides](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).

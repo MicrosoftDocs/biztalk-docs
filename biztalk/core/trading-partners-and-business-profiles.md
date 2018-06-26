@@ -29,15 +29,15 @@ Each participating organization in a business relationship is a trading partner.
 
 A trading partner’s business profile, also called a business profile, is the business face of an organization. Each business division in an organization that trades with another business division in another organization is represented as a business profile in a TPM solution. All the properties that define the B2B messaging parameters specific to the business division, business unit, or a business system are captured in its business profile. For example, assume Fabrikam has two business divisions: “Payment” and “Shipping”. Contoso has a business division “Invoices”. Considering Fabrikam is using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], it must create:  
   
--   Two business profiles, one each for Payment and Shipping, under the trading partner, Fabrikam.  
+- Two business profiles, one each for Payment and Shipping, under the trading partner, Fabrikam.  
   
--   One business profile for Invoice under the trading partner, Contoso.  
+- One business profile for Invoice under the trading partner, Contoso.  
   
- The following figure illustrates how the partners and business profiles are managed in a TPM solution:  
+  The following figure illustrates how the partners and business profiles are managed in a TPM solution:  
   
- ![Trading partner's business profiles](../core/media/businessprofile.gif "BusinessProfile")  
+  ![Trading partner's business profiles](../core/media/businessprofile.gif "BusinessProfile")  
   
- After defining the business profiles, the business divisions can define the message encoding formats and transports that the business divisions adhere to while sending and receiving B2B messages. These communication patterns between business profiles are discussed in [Protocol Settings](../core/protocol-settings.md).  
+  After defining the business profiles, the business divisions can define the message encoding formats and transports that the business divisions adhere to while sending and receiving B2B messages. These communication patterns between business profiles are discussed in [Protocol Settings](../core/protocol-settings.md).  
   
 ### Why do I need Business Profiles?  
  Business profiles enable [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] users to better represent their business model in a TPM solution. An enterprise with multiple business divisions can be represented independently in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. More importantly, this model enables users to set properties for each business profile which define how a business profile transacts with other profiles. For example, consider an enterprise that has division in USA and Europe. The division in USA expects EDI messages only in X12 standard, while the division in Europe expects EDI messages only in EDIFACT standard. By creating parties, the enterprise can set the right messaging properties at the profile level, and at the same time use the properties that are already set at the partner level. Without business profiles, the enterprise would have to create trading partners for all business divisions, and then replicate a host of properties across those trading partners.  

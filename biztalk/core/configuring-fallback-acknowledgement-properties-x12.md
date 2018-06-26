@@ -25,15 +25,15 @@ In the fallback agreement, you can specify how [!INCLUDE[btsBizTalkServerNoVersi
   
 ### To configure X12 ACK properties  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **X12 Fallback Settings**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **X12 Fallback Settings**.  
   
-2.  In the **X12 Fallback Settings** dialog box, in the **X12 Agreement Pages** tab, under the **Interchange Settings** section, click **Acknowledgements**.  
+2. In the **X12 Fallback Settings** dialog box, in the **X12 Agreement Pages** tab, under the **Interchange Settings** section, click **Acknowledgements**.  
   
-3.  Select **TA1 Expected** to return a technical (TA1) acknowledgment to the interchange sender.  
+3. Select **TA1 Expected** to return a technical (TA1) acknowledgment to the interchange sender.  
   
-4.  Select **997 Expected** to return a functional (997) acknowledgment to the interchange sender.  
+4. Select **997 Expected** to return a functional (997) acknowledgment to the interchange sender.  
   
-5.  Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate the changes and then close the dialog box.  
+5. Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate the changes and then close the dialog box.  
   
 ## See Also  
  [Configuring X12 Fallback Agreement Properties for Interchange Processing](../core/configuring-x12-fallback-agreement-properties-for-interchange-processing.md)

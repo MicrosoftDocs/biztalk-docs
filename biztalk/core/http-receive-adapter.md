@@ -26,17 +26,17 @@ The receive location for the HTTP receive adapter is a distinct URL configured t
   
  When an HTTP receive adapter gets messages on an HTTP POST request, the following sequence of events occurs:  
   
-1.  The URL configured in BizTalk Server receives a new message on the receive location.  
+1. The URL configured in BizTalk Server receives a new message on the receive location.  
   
-2.  The receive adapter creates a BizTalk Message object so that the message can be submitted to the server.  
+2. The receive adapter creates a BizTalk Message object so that the message can be submitted to the server.  
   
-3.  The receive adapter creates the BizTalk Message object with only one part—the body part.  
+3. The receive adapter creates the BizTalk Message object with only one part—the body part.  
   
-4.  After the message has been read and successfully submitted to the server, the HTTP receive adapter sends an HTTP code 202 back to the client indicating that the request was accepted.  
+4. After the message has been read and successfully submitted to the server, the HTTP receive adapter sends an HTTP code 202 back to the client indicating that the request was accepted.  
   
-     Optionally, the HTTP receive adapter can send a message correlation token on the HTTP response. This correlation token represents the message within BizTalk Server. If the HTTP receive location is in a request-response port, the adapter returns success code 200 along with the response message.  
+    Optionally, the HTTP receive adapter can send a message correlation token on the HTTP response. This correlation token represents the message within BizTalk Server. If the HTTP receive location is in a request-response port, the adapter returns success code 200 along with the response message.  
   
- When an HTTP receive adapter processes messages from an HTTP GET request, the receive adapter creates a BizTalk Message object and puts the decoded query string of the HTTP GET request into the BizTalk message body part. The HTTP adapter selects the query string that is placed into the BizTalk message body part using the following algorithm:  
+   When an HTTP receive adapter processes messages from an HTTP GET request, the receive adapter creates a BizTalk Message object and puts the decoded query string of the HTTP GET request into the BizTalk message body part. The HTTP adapter selects the query string that is placed into the BizTalk message body part using the following algorithm:  
   
 -   If the HTTP receive adapter receives an HTTP GET request, it splits the incoming URI string into two parts, using the question mark (?) symbol as a delimiter.  
   

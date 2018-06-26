@@ -22,19 +22,19 @@ This topic provides instructions on how to add the WCF-OracleDB adapter to the [
   
 ## Add the Oracle Database Adapter  
   
-1.  Open the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Open the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  Expand the **BizTalk Group**, expand **Platform Settings**, and then select **Adapters**.  
+2. Expand the **BizTalk Group**, expand **Platform Settings**, and then select **Adapters**.  
   
-3.  Right-click **Adapters**, select **New**, and select **Adapter**.  
+3. Right-click **Adapters**, select **New**, and select **Adapter**.  
   
-     ![Add an adapter](../../adapters-and-accelerators/media/c9610d42-8465-4099-b403-87df6dcd0d99.gif "c9610d42-8465-4099-b403-87df6dcd0d99")  
+    ![Add an adapter](../../adapters-and-accelerators/media/c9610d42-8465-4099-b403-87df6dcd0d99.gif "c9610d42-8465-4099-b403-87df6dcd0d99")  
   
-4.  In the **Adapter Properties** dialog box, enter a name for the adapter and from the **Adapter** list, select **WCF-OracleDB**.  
+4. In the **Adapter Properties** dialog box, enter a name for the adapter and from the **Adapter** list, select **WCF-OracleDB**.  
   
-     ![Adding WCF&#45;OracleDB adapter to BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/media/wcf-oracledb.gif "WCF_OracleDB")  
+    ![Adding WCF&#45;OracleDB adapter to BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/media/wcf-oracledb.gif "WCF_OracleDB")  
   
-5.  Select **OK**.  
+5. Select **OK**.  
   
 ## See Also  
 [Building Blocks to develop BizTalk Applications with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)

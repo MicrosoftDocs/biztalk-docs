@@ -27,11 +27,11 @@ You invoke operations on the [!INCLUDE[adaptersap_short](../../includes/adapters
 ## Supporting BAPI Transactions in the WCF Channel Model  
  All BAPIs that are invoked using the same SAP connection are part of the same Logical Unit of Work (LUW) -- or transaction -- on the SAP system. Each WCF channel represents a unique connection to the SAP system. To support BAPI transactions using the WCF channel model:  
   
--   Ensure that every BAPI in an LUW (transaction) is sent over the same channel. This includes the BAPI_TRANSACTION COMMIT or the BAPI_TRANSACTION_ROLLBACK operations.  
+- Ensure that every BAPI in an LUW (transaction) is sent over the same channel. This includes the BAPI_TRANSACTION COMMIT or the BAPI_TRANSACTION_ROLLBACK operations.  
   
--   Ensure that you close any response message received for a BAPI before you invoke the next BAPI on the channel. (You should do this for every operation; but it is especially important for BAPIs.)  
+- Ensure that you close any response message received for a BAPI before you invoke the next BAPI on the channel. (You should do this for every operation; but it is especially important for BAPIs.)  
   
- For more information about BAPI transactions, see [Operations on BAPIs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).  
+  For more information about BAPI transactions, see [Operations on BAPIs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).  
   
 ## Streaming Flat File IDOCs to the SAP Adapter  
  You use the SendIdoc operation to send a flat file (string) IDOC to the adapter. The IDOC data is represented as a string under a single node in this operation. For this reason, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports node-value streaming on the request message. To perform node-value streaming, you must create the request message for the SendIdoc operation by using a **System.ServiceModel.Channels.BodyWriter** that is capable of streaming the IDOC data. For information about how to do this, see [Streaming Flat-File IDOCs in SAP using the WCF Channel Model](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md).  
@@ -41,74 +41,74 @@ You invoke operations on the [!INCLUDE[adaptersap_short](../../includes/adapters
   
 #### How to invoke an operation by using an instance of IRequestChannel  
   
-1.  Build a channel factory (**ChannelFactory\<IRequestChannel\>**). To do this, you must specify a binding (**SAPBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. You should set any binding properties required for the operations that you will send before you open the factory. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
+1. Build a channel factory (**ChannelFactory\<IRequestChannel\>**). To do this, you must specify a binding (**SAPBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. You should set any binding properties required for the operations that you will send before you open the factory. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
   
-    ```  
-    // Create a binding  
-    SAPBinding binding = new SAPBinding();  
-    // Create an endpoint address by using the connection URI  
-    EndpointAddress endpointAddress = new EndpointAddress("sap://Client=800;lang=EN@A/YourSAPHost/00");  
-    // Create the channel factory  
-    ChannelFactory<IRequestChannel> factory = new ChannelFactory<IRequestChannel>(binding, address);  
-    ```  
+   ```  
+   // Create a binding  
+   SAPBinding binding = new SAPBinding();  
+   // Create an endpoint address by using the connection URI  
+   EndpointAddress endpointAddress = new EndpointAddress("sap://Client=800;lang=EN@A/YourSAPHost/00");  
+   // Create the channel factory  
+   ChannelFactory<IRequestChannel> factory = new ChannelFactory<IRequestChannel>(binding, address);  
+   ```  
   
-2.  Set the user name password credentials for the channel factory by using the **ClientCredentials** property.  
+2. Set the user name password credentials for the channel factory by using the **ClientCredentials** property.  
   
-    ```  
-    factory.Credentials.UserName.UserName = "YourUserName";  
-    factory.Credentials.UserName.Password = "YourPassword";  
-    ```  
+   ```  
+   factory.Credentials.UserName.UserName = "YourUserName";  
+   factory.Credentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  Open the channel factory.  
+3. Open the channel factory.  
   
-    ```  
-    factory.Open();  
-    ```  
+   ```  
+   factory.Open();  
+   ```  
   
-4.  Get a channel from the factory and open it.  
+4. Get a channel from the factory and open it.  
   
-    ```  
-    IRequestChannel channel = factory.CreateChannel();  
-    channel.Open();  
-    ```  
+   ```  
+   IRequestChannel channel = factory.CreateChannel();  
+   channel.Open();  
+   ```  
   
-5.  Create a **Message** instance for the target operation. Be sure that the message action for the target operation is specified. In this example, the message body is passed by creating an **XmlReader** over a string. The target operation invokes the SD_RFC_CUSTOMER_GET RFC on an SAP system.  
+5. Create a **Message** instance for the target operation. Be sure that the message action for the target operation is specified. In this example, the message body is passed by creating an **XmlReader** over a string. The target operation invokes the SD_RFC_CUSTOMER_GET RFC on an SAP system.  
   
-    ```  
-    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+   ```  
+   string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
-    //create an XML reader from the input XML  
-    XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
+   //create an XML reader from the input XML  
+   XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
   
-    //create a WCF message from our XML reader  
-    Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Microsoft.LobServices.Sap/2007/03/Rfc/SD_RFC_CUSTOMER_GET", reader);  
-    ```  
+   //create a WCF message from our XML reader  
+   Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Microsoft.LobServices.Sap/2007/03/Rfc/SD_RFC_CUSTOMER_GET", reader);  
+   ```  
   
-6.  Invoke the **Request** method on the channel to send the message to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] and receive the reply. If the SAP system encounters an exception, the adapter throws a **TargetSystemException**. (Other exceptions are possible for non SAP exceptions.) You can get a description of the SAP error from the **InnerException.Message** property of the **TargetSystemException**.  
+6. Invoke the **Request** method on the channel to send the message to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] and receive the reply. If the SAP system encounters an exception, the adapter throws a **TargetSystemException**. (Other exceptions are possible for non SAP exceptions.) You can get a description of the SAP error from the **InnerException.Message** property of the **TargetSystemException**.  
   
-    ```  
-    try  
-    {  
-        Message messageOut = channel.Request(messageIn);  
-    }  
-    catch (Exception ex)  
-    {  
-        // handle exception  
-    }  
-    ```  
+   ```  
+   try  
+   {  
+       Message messageOut = channel.Request(messageIn);  
+   }  
+   catch (Exception ex)  
+   {  
+       // handle exception  
+   }  
+   ```  
   
-7.  Process the response. In this example, **GetReaderAtBodyContents** is called on the response message to get the message body.  
+7. Process the response. In this example, **GetReaderAtBodyContents** is called on the response message to get the message body.  
   
-    ```  
-    XmlReader readerOut = messageOut.GetReaderAtBodyContents();  
-    ```  
+   ```  
+   XmlReader readerOut = messageOut.GetReaderAtBodyContents();  
+   ```  
   
-8.  When you are done processing the response message, close the reader and the message.  
+8. When you are done processing the response message, close the reader and the message.  
   
-    ```  
-    readerOut.Close();  
-    messageOut.Close();  
-    ```  
+   ```  
+   readerOut.Close();  
+   messageOut.Close();  
+   ```  
   
 9. When you are done using the channel and the channel factory, close them. Closing the factory will close all channels that were created with it.  
   
@@ -117,9 +117,9 @@ You invoke operations on the [!INCLUDE[adaptersap_short](../../includes/adapters
     factory.Close();  
     ```  
   
-10.  
+10. 
   
- You follow the same steps to send a message using the **IOutputChannel** shape except:  
+    You follow the same steps to send a message using the **IOutputChannel** shape except:  
   
 -   You create a **ChannelFactory\<IOutputChannel\>** in step 1.  
   

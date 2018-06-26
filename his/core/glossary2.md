@@ -379,74 +379,74 @@ manager: "anneta"
  **connection**  
  The data communication path between a workstation or server and other computers on the SNA network. Host Integration Server offers a variety of connection types:  
   
--   802.2 (Token Ring or Ethernet)  
+- 802.2 (Token Ring or Ethernet)  
   
--   Synchronous Data Link Control (SDLC)  
+- Synchronous Data Link Control (SDLC)  
   
--   X.25  
+- X.25  
   
--   Distributed function terminal (DFT)  
+- Distributed function terminal (DFT)  
   
--   Channel  
+- Channel  
   
--   Twinax  
+- Twinax  
   
- **connection object**  
- In AFTP, a connection (not necessarily active) to a partner computer.  
+  **connection object**  
+  In AFTP, a connection (not necessarily active) to a partner computer.  
   
- **connectivity**  
- (1) The capability of a system or device to be attached to other systems or devices without modification. (2) The capability to attach a variety of functional units without modifying them.  
+  **connectivity**  
+  (1) The capability of a system or device to be attached to other systems or devices without modification. (2) The capability to attach a variety of functional units without modifying them.  
   
- **connectivity option**  
- A type of connection hardware and software through which one computer communicates with other computers.  
+  **connectivity option**  
+  A type of connection hardware and software through which one computer communicates with other computers.  
   
- **consistency**  
- A state in which durable data matches the state expected by the business rules that modified the data.  
+  **consistency**  
+  A state in which durable data matches the state expected by the business rules that modified the data.  
   
- **constructor**  
- In C, a special initialization function that is called automatically whenever an instance of a class is declared. This function prevents errors that result from the use of uninitialized objects. The constructor has the same name as the class itself and cannot return a value.  
+  **constructor**  
+  In C, a special initialization function that is called automatically whenever an instance of a class is declared. This function prevents errors that result from the use of uninitialized objects. The constructor has the same name as the class itself and cannot return a value.  
   
- **contention loser**  
- In an APPC LU-LU session, the LU that cannot start a conversation with its partner LU (the contention winner) without first requesting permission of the partner LU. *See also***contention winner**.  
+  **contention loser**  
+  In an APPC LU-LU session, the LU that cannot start a conversation with its partner LU (the contention winner) without first requesting permission of the partner LU. *See also***contention winner**.  
   
- **contention winner**  
- In an APPC LU-LU session, the LU that can start a conversation with its partner LU (the contention loser). If parallel sessions between the two LUs are being used, each LU may be the contention winner for some sessions and the contention loser for other sessions. *See also***contention loser**.  
+  **contention winner**  
+  In an APPC LU-LU session, the LU that can start a conversation with its partner LU (the contention loser). If parallel sessions between the two LUs are being used, each LU may be the contention winner for some sessions and the contention loser for other sessions. *See also***contention loser**.  
   
- **context**  
- The state that is implicitly associated with a given COM+ object. The context contains information about the execution environment of an object, such as the identity of the creator of an object and, optionally, the transaction encompassing the work of the object. The context of an object is similar in concept to the process context that an operating system maintains for an executing program. The COM+ run-time environment manages a context for each object.  
+  **context**  
+  The state that is implicitly associated with a given COM+ object. The context contains information about the execution environment of an object, such as the identity of the creator of an object and, optionally, the transaction encompassing the work of the object. The context of an object is similar in concept to the process context that an operating system maintains for an executing program. The COM+ run-time environment manages a context for each object.  
   
- **control point**  
- A node or other SNA component that controls network resources and coordinates the activation of sessions.  
+  **control point**  
+  A node or other SNA component that controls network resources and coordinates the activation of sessions.  
   
- **controller**  
- A device that directs the transmission of data over a network (for example, the IBM 3725 front-end processor).  
+  **controller**  
+  A device that directs the transmission of data over a network (for example, the IBM 3725 front-end processor).  
   
- **conversation**  
- The process used by network-based applications to communicate with each other and to exchange data to accomplish processing tasks. (1) A logical connection between two transaction programs using an LU 6.2 session. Conversations are delimited by brackets to gain exclusive use of a session. (2) The interaction between TPs carrying out a specific task. Each conversation requires an LU-LU session. A TP can be involved in several conversations simultaneously. *See also* **basic conversation**; **mapped conversation**.  
+  **conversation**  
+  The process used by network-based applications to communicate with each other and to exchange data to accomplish processing tasks. (1) A logical connection between two transaction programs using an LU 6.2 session. Conversations are delimited by brackets to gain exclusive use of a session. (2) The interaction between TPs carrying out a specific task. Each conversation requires an LU-LU session. A TP can be involved in several conversations simultaneously. *See also* **basic conversation**; **mapped conversation**.  
   
- **conversation characteristics**  
- Internal API values that define the overall operation for a conversation or for a specific call. *See also***application programming interface (API)**; **conversation**.  
+  **conversation characteristics**  
+  Internal API values that define the overall operation for a conversation or for a specific call. *See also***application programming interface (API)**; **conversation**.  
   
- **conversation ID**  
- A unique identifier for a conversation between two transaction programs (TPs).  
+  **conversation ID**  
+  A unique identifier for a conversation between two transaction programs (TPs).  
   
- **CPI-C**  
- *See* **Common Programming Interface for Communications (CPI-C)**.  
+  **CPI-C**  
+  *See* **Common Programming Interface for Communications (CPI-C)**.  
   
- **creator**  
- A client that creates an object provided by a component (using **CreateObject**, **CoCreateInstance**, or the **CreateInstance** method). When a client creates an object, it is given an object reference that can be used to call the methods of that object. *See also***caller**.  
+  **creator**  
+  A client that creates an object provided by a component (using **CreateObject**, **CoCreateInstance**, or the **CreateInstance** method). When a client creates an object, it is given an object reference that can be used to call the methods of that object. *See also***caller**.  
   
- **CSV**  
- *See* **Common Service Verb (CSV)**.  
+  **CSV**  
+  *See* **Common Service Verb (CSV)**.  
   
- **Currency**  
- An 8-byte, fixed-point data type that is useful for calculations involving money or for fixed-point calculations in which accuracy is extremely important. This data type is used to store numbers with up to 15 digits to the left of the decimal point and 4 digits to the right. The type-declaration character in Microsoft® Visual Basic® is an at sign (@). Currency can range from –922,337,203,685,477.5808 to 922,337,203,685,477.5807.  
+  **Currency**  
+  An 8-byte, fixed-point data type that is useful for calculations involving money or for fixed-point calculations in which accuracy is extremely important. This data type is used to store numbers with up to 15 digits to the left of the decimal point and 4 digits to the right. The type-declaration character in Microsoft® Visual Basic® is an at sign (@). Currency can range from –922,337,203,685,477.5808 to 922,337,203,685,477.5807.  
   
- **current directory**  
- The first directory in which the operating system looks for programs and data files and stores files for output.  
+  **current directory**  
+  The first directory in which the operating system looks for programs and data files and stores files for output.  
   
- **Customer Information Control System (CICS)**  
- An IBM transaction processing program that provides an environment on IBM mainframes in which applications can communicate with terminals or other applications.  
+  **Customer Information Control System (CICS)**  
+  An IBM transaction processing program that provides an environment on IBM mainframes in which applications can communicate with terminals or other applications.  
   
 ## -D-  
  **DACTLU**  
@@ -506,113 +506,113 @@ manager: "anneta"
  **display model**  
  One of several different sizes of display:  
   
--   Model 2 is 24 lines by 80 characters  
+- Model 2 is 24 lines by 80 characters  
   
--   Model 3 is 32 lines by 80 characters  
+- Model 3 is 32 lines by 80 characters  
   
--   Model 4 is 43 lines by 80 characters  
+- Model 4 is 43 lines by 80 characters  
   
--   Model 5 is 27 lines by 132 characters  
+- Model 5 is 27 lines by 132 characters  
   
- **display session**  
- A 3270 emulation session between a networked personal computer and a host. The session is used to emulate a 3278 or 3279 display. Also called a host display session.  
+  **display session**  
+  A 3270 emulation session between a networked personal computer and a host. The session is used to emulate a 3278 or 3279 display. Also called a host display session.  
   
- **DISPLAY verb**  
- An APPC verb that returns configuration information and current operating values for a computer running Host Integration Server.  
+  **DISPLAY verb**  
+  An APPC verb that returns configuration information and current operating values for a computer running Host Integration Server.  
   
- **distributed COM (DCOM)**  
- An object protocol that enables COM components to communicate directly with each other across a network. Because DCOM is language-neutral, any language that uses COM components can also produce DCOM applications.  
+  **distributed COM (DCOM)**  
+  An object protocol that enables COM components to communicate directly with each other across a network. Because DCOM is language-neutral, any language that uses COM components can also produce DCOM applications.  
   
- **distributed data management (DDM)**  
- A function of the operating system that enables an application program or user on one system to use database files stored on remote systems. A communications network must connect the systems, and the remote systems must also be using DDM.  
+  **distributed data management (DDM)**  
+  A function of the operating system that enables an application program or user on one system to use database files stored on remote systems. A communications network must connect the systems, and the remote systems must also be using DDM.  
   
- **distributed function terminal**( **DFT)**  
- A type of intelligent terminal supported by IBM 3270 control units, in which some of the terminal's functions are controlled by the terminal and some by the control unit. Enables multiple sessions, and connects to host systems or to peer systems through host systems. DFT terminals are often connected using coaxial cable.  
+  **distributed function terminal**( **DFT)**  
+  A type of intelligent terminal supported by IBM 3270 control units, in which some of the terminal's functions are controlled by the terminal and some by the control unit. Enables multiple sessions, and connects to host systems or to peer systems through host systems. DFT terminals are often connected using coaxial cable.  
   
- **distributed processing**  
- A form of information processing in which the work is performed by separate computers that are linked through a local or wide area network, using data-transfer mechanisms that enable different programs to use and share data.  
+  **distributed processing**  
+  A form of information processing in which the work is performed by separate computers that are linked through a local or wide area network, using data-transfer mechanisms that enable different programs to use and share data.  
   
- **distributed program call (DPC)**  
- An AS/400 remote communication model.  
+  **distributed program call (DPC)**  
+  An AS/400 remote communication model.  
   
- **Distributed Query Processor (DQP)**  
- Enables queries to access multiple data sources on multiple servers, even SQL and DB2, and combine views, create data warehouses, and so on. DQP supports an extended version of the SQL language that permits users to qualify table names with the databases in which they exist. This gives users the capability to formulate queries that span multiple distributed databases.  
+  **Distributed Query Processor (DQP)**  
+  Enables queries to access multiple data sources on multiple servers, even SQL and DB2, and combine views, create data warehouses, and so on. DQP supports an extended version of the SQL language that permits users to qualify table names with the databases in which they exist. This gives users the capability to formulate queries that span multiple distributed databases.  
   
- **Distributed Relational Data Architecture (DRDA)**  
- A connection protocol for distributed relational database processing that is used by IBM relational database products. The DRDA protocol comprises protocols for communication between an application and a remote database, and communication between databases. The DRDA protocol provides the connections for remote and distributed processing. The DRDA protocol is built on the Distributed Data Management Architecture.  
+  **Distributed Relational Data Architecture (DRDA)**  
+  A connection protocol for distributed relational database processing that is used by IBM relational database products. The DRDA protocol comprises protocols for communication between an application and a remote database, and communication between databases. The DRDA protocol provides the connections for remote and distributed processing. The DRDA protocol is built on the Distributed Data Management Architecture.  
   
- **Distributed Transaction Coordinator (DTC)**  
- A transaction manager that coordinates transactions spanning multiple resource managers. Work can be committed as an atomic transaction even if it spans multiple resource managers, even on separate computers.  
+  **Distributed Transaction Coordinator (DTC)**  
+  A transaction manager that coordinates transactions spanning multiple resource managers. Work can be committed as an atomic transaction even if it spans multiple resource managers, even on separate computers.  
   
- **distributed unit of work (DUW)**  
- In DB2 UDB for AS/400, this is a method of accessing distributed relational data in which a user or application can, within a single unit of work, read and update data on multiple database management systems (DBMSs). The user or application directs each SQL statement to a particular DBMS for execution at the DBMS. Each SQL statement may access only one DBMS.  
+  **distributed unit of work (DUW)**  
+  In DB2 UDB for AS/400, this is a method of accessing distributed relational data in which a user or application can, within a single unit of work, read and update data on multiple database management systems (DBMSs). The user or application directs each SQL statement to a particular DBMS for execution at the DBMS. Each SQL statement may access only one DBMS.  
   
- **DL-BASE**  
- The type of Base used by Host Integration Server 3270 emulation programs. It supports a single Host Integration Server component or a single user application and has entry points for initialization, sending messages, receiving messages, and termination. *See also***Base**.  
+  **DL-BASE**  
+  The type of Base used by Host Integration Server 3270 emulation programs. It supports a single Host Integration Server component or a single user application and has entry points for initialization, sending messages, receiving messages, and termination. *See also***Base**.  
   
- **DLC**  
- *See* **data link control (DLC)**.  
+  **DLC**  
+  *See* **data link control (DLC)**.  
   
- **DLL**  
- *See* **dynamic-link library (DLL)**.  
+  **DLL**  
+  *See* **dynamic-link library (DLL)**.  
   
- **DMOD**  
- *See* **Dynamic Access Module (DMOD)**.  
+  **DMOD**  
+  *See* **Dynamic Access Module (DMOD)**.  
   
- **document type definition (DTD)**  
- Can accompany a document, essentially defining the rules of the document, such as which elements are present and the structural relationship between the elements. It defines what tags can go in your document, what tags can contain other tags, the number and sequence of the tags, the attributes your tags can have, and optionally, the values those attributes can have.  
+  **document type definition (DTD)**  
+  Can accompany a document, essentially defining the rules of the document, such as which elements are present and the structural relationship between the elements. It defines what tags can go in your document, what tags can contain other tags, the number and sequence of the tags, the attributes your tags can have, and optionally, the values those attributes can have.  
   
- DTDs help to validate the data when the receiving application does not have a built-in description of the incoming data. The DTD is declared within the document type declaration production of the XML file. With XML, however, DTDs are optional.  
+  DTDs help to validate the data when the receiving application does not have a built-in description of the incoming data. The DTD is declared within the document type declaration production of the XML file. With XML, however, DTDs are optional.  
   
- **downstream connection**  
- A connection that enables a computer running Host Integration Server to support communication between hosts and clients. Even though such clients do not use the Host Integration Server client/server interface, with a downstream connection they can access host connections available through a computer running Host Integration Server.  
+  **downstream connection**  
+  A connection that enables a computer running Host Integration Server to support communication between hosts and clients. Even though such clients do not use the Host Integration Server client/server interface, with a downstream connection they can access host connections available through a computer running Host Integration Server.  
   
- Host Integration Server offers several types of downstream connection:  
+  Host Integration Server offers several types of downstream connection:  
   
--   802.2 (Token Ring or Ethernet)  
+- 802.2 (Token Ring or Ethernet)  
   
--   SDLC  
+- SDLC  
   
--   X.25  
+- X.25  
   
- **downstream LU**  
- A logical unit (LU) used by clients to access a host connection through a computer running Host Integration Server. Such clients do not use the Host Integration Server client/server interface, but by using a downstream LU, can receive access to connections on a computer running Host Integration Server. A downstream LU uses a downstream connection, and passes information between the client and the host.  
+  **downstream LU**  
+  A logical unit (LU) used by clients to access a host connection through a computer running Host Integration Server. Such clients do not use the Host Integration Server client/server interface, but by using a downstream LU, can receive access to connections on a computer running Host Integration Server. A downstream LU uses a downstream connection, and passes information between the client and the host.  
   
- **downstream system**  
- A client such as an IBM Communications Manager/2 system that can access host connections available on a computer running Host Integration Server. Even though such clients do not use the Host Integration Server client/server interface, they can use a downstream connection and a downstream LU to communicate with the host through Host Integration Server. Host Integration Server passes the information between the downstream system and the host. With Host Integration Server, downstream systems appear to the host as logical units, not physical units.  
+  **downstream system**  
+  A client such as an IBM Communications Manager/2 system that can access host connections available on a computer running Host Integration Server. Even though such clients do not use the Host Integration Server client/server interface, they can use a downstream connection and a downstream LU to communicate with the host through Host Integration Server. Host Integration Server passes the information between the downstream system and the host. With Host Integration Server, downstream systems appear to the host as logical units, not physical units.  
   
- **DPC**  
- *See* **distributed program call (DPC)**.  
+  **DPC**  
+  *See* **distributed program call (DPC)**.  
   
- **DPL-enabled**  
- Compatible with the IBM Distributed Program Link (DPL) protocol.  
+  **DPL-enabled**  
+  Compatible with the IBM Distributed Program Link (DPL) protocol.  
   
- **DQP**  
- *See* **Distributed Query Processor (DQP)**.  
+  **DQP**  
+  *See* **Distributed Query Processor (DQP)**.  
   
- **DRDA**  
- *See* **Distributed Relational Data Architecture (DRDA)**.  
+  **DRDA**  
+  *See* **Distributed Relational Data Architecture (DRDA)**.  
   
- **DTC**  
- *See* **Distributed Transaction Coordinator (DTC)**.  
+  **DTC**  
+  *See* **Distributed Transaction Coordinator (DTC)**.  
   
- **DTD**  
- *See* **document type definition (DTD)**.  
+  **DTD**  
+  *See* **document type definition (DTD)**.  
   
- **duplex**  
- Capable of simultaneously transmitting and receiving data. Also called **full-duplex** or **4-wire**. *Contrast with***half-duplex**.  
+  **duplex**  
+  Capable of simultaneously transmitting and receiving data. Also called **full-duplex** or **4-wire**. *Contrast with***half-duplex**.  
   
- **durability**  
- A state that survives failures.  
+  **durability**  
+  A state that survives failures.  
   
- **DUW**  
- *See* **distributed unit of work (DUW)**.  
+  **DUW**  
+  *See* **distributed unit of work (DUW)**.  
   
- **Dynamic Access Module (DMOD)**  
- An SNA component that provides the communications facilities needed to pass messages between the Bases.  
+  **Dynamic Access Module (DMOD)**  
+  An SNA component that provides the communications facilities needed to pass messages between the Bases.  
   
- **dynamic-link library (DLL)**  
- A binary file that contains one or more functions that are compiled, linked, and stored separately from the processes that use them. The operating system maps a DLL to the address space of the calling process when the process starts or while it is running. It uses the .dll file extension.  
+  **dynamic-link library (DLL)**  
+  A binary file that contains one or more functions that are compiled, linked, and stored separately from the processes that use them. The operating system maps a DLL to the address space of the calling process when the process starts or while it is running. It uses the .dll file extension.  
   
 ## -E-  
  **EBCDIC**  
@@ -839,21 +839,21 @@ manager: "anneta"
  **invoked TP**  
  A host transaction program (TP) started by:  
   
--   Another (the invoking) TP.  
+- Another (the invoking) TP.  
   
--   A Transaction Integrator Automation server working in conjunction with the TI run-time environment and Microsoft Distributed Transaction Server (DTS) included in COM+.  
+- A Transaction Integrator Automation server working in conjunction with the TI run-time environment and Microsoft Distributed Transaction Server (DTS) included in COM+.  
   
- **invoking program**  
- A program that uses a call or verb to activate another program. Also known as the calling program or the client. *See also***invoked program**.  
+  **invoking program**  
+  A program that uses a call or verb to activate another program. Also known as the calling program or the client. *See also***invoked program**.  
   
- **invoking TP**  
- A TP that initiates a conversation with another TP. The invoking TP starts the other TP by instructing the remote node to load the invokable TP.  
+  **invoking TP**  
+  A TP that initiates a conversation with another TP. The invoking TP starts the other TP by instructing the remote node to load the invokable TP.  
   
- **IP routed network**  
- *See* **Internet Protocol (IP) routed network**.  
+  **IP routed network**  
+  *See* **Internet Protocol (IP) routed network**.  
   
- **isolation**  
- A characteristic whereby two transactions running in parallel produce the illusion that there is no concurrency. It appears that the system is running one transaction at a time.  
+  **isolation**  
+  A characteristic whereby two transactions running in parallel produce the illusion that there is no concurrency. It appears that the system is running one transaction at a time.  
   
 ## -J-  
  No terms.  
@@ -992,28 +992,28 @@ manager: "anneta"
  **model**  
  One of several different sizes of display:  
   
--   Model 2 is 24 lines by 80 characters  
+- Model 2 is 24 lines by 80 characters  
   
--   Model 3 is 32 lines by 80 characters  
+- Model 3 is 32 lines by 80 characters  
   
--   Model 4 is 43 lines by 80 characters  
+- Model 4 is 43 lines by 80 characters  
   
--   Model 5 is 27 lines by 132 characters  
+- Model 5 is 27 lines by 132 characters  
   
- **Messaging-oriented middleware**  
- Messaging-oriented middleware (MOM) is a set of products that connects applications running on different systems by sending and receiving application data as messages. Examples are RPC, CPI-C, and message queuing.  
+  **Messaging-oriented middleware**  
+  Messaging-oriented middleware (MOM) is a set of products that connects applications running on different systems by sending and receiving application data as messages. Examples are RPC, CPI-C, and message queuing.  
   
- **multidrop**  
- A connection in which one primary node communicates with multiple secondary nodes concurrently over the same physical transmission medium.  
+  **multidrop**  
+  A connection in which one primary node communicates with multiple secondary nodes concurrently over the same physical transmission medium.  
   
- **multiple sessions**  
- In CPI-C, two or more concurrent sessions with different partner LUs. *Seealso***LU-LU session**.  
+  **multiple sessions**  
+  In CPI-C, two or more concurrent sessions with different partner LUs. *Seealso***LU-LU session**.  
   
- **Multiple Virtual Storage (MVS)**  
- An operating system for large IBM mainframe computers. Implies MVS/370, the MVS/XA product, and the MVS/ESA product.  
+  **Multiple Virtual Storage (MVS)**  
+  An operating system for large IBM mainframe computers. Implies MVS/370, the MVS/XA product, and the MVS/ESA product.  
   
- **MVS**  
- *See* **Multiple Virtual Storage (MVS)**.  
+  **MVS**  
+  *See* **Multiple Virtual Storage (MVS)**.  
   
 ## -N-  
  **NAU**  
@@ -1433,75 +1433,75 @@ manager: "anneta"
   
  A Windows Server domain:  
   
--   Can contain several SNA subdomains.  
+- Can contain several SNA subdomains.  
   
--   Can contain several primary servers, provided that each one is set up in its own subdomain.  
+- Can contain several primary servers, provided that each one is set up in its own subdomain.  
   
- With regard to Host Integration Server, each subdomain:  
+  With regard to Host Integration Server, each subdomain:  
   
--   Contains one primary server.  
+- Contains one primary server.  
   
--   Can contain up to 14 backup servers.  
+- Can contain up to 14 backup servers.  
   
--   Cannot contain computers running Host Integration Server from other Windows Server domains.  
+- Cannot contain computers running Host Integration Server from other Windows Server domains.  
   
- Host Integration Server Setup requires you to specify the name of the subdomain to which the server will belong. One of the SNA subdomains can have the same name as that of the Windows Server domain in which all the servers operate.  
+  Host Integration Server Setup requires you to specify the name of the subdomain to which the server will belong. One of the SNA subdomains can have the same name as that of the Windows Server domain in which all the servers operate.  
   
- Because each subdomain can have only one primary server, it is not advisable to implement an SNA subdomain across slow bridges or routers. Multiple servers in a single subdomain can produce unwanted traffic on the wide-area network.  
+  Because each subdomain can have only one primary server, it is not advisable to implement an SNA subdomain across slow bridges or routers. Multiple servers in a single subdomain can produce unwanted traffic on the wide-area network.  
   
- **SnaBase**  
- The SNA Workstation Process. It is present at all times on personal computers whose users want to participate in the SNA network and on personal computers where dynamic loading is to be performed.  
+  **SnaBase**  
+  The SNA Workstation Process. It is present at all times on personal computers whose users want to participate in the SNA network and on personal computers where dynamic loading is to be performed.  
   
- **SNALink**  
- Link support software that integrates hardware components into a Host Integration Server system. An SNALink is defined when a Host Integration Server system is installed. An SNALink can support only one physical connection from the server.  
+  **SNALink**  
+  Link support software that integrates hardware components into a Host Integration Server system. An SNALink is defined when a Host Integration Server system is installed. An SNALink can support only one physical connection from the server.  
   
- **source TP Name**  
- The host system attempts to identify the source of a request for monitoring, reporting, and so on. The source must be a TP name. MSTX is the default, because it is usually a Component Services process.  
+  **source TP Name**  
+  The host system attempts to identify the source of a request for monitoring, reporting, and so on. The source must be a TP name. MSTX is the default, because it is usually a Component Services process.  
   
- **SSCP**  
- *See* **system services control point (SSCP)**.  
+  **SSCP**  
+  *See* **system services control point (SSCP)**.  
   
- **string expression**  
- Any expression that evaluates to a sequence of contiguous characters.  
+  **string expression**  
+  Any expression that evaluates to a sequence of contiguous characters.  
   
- **stub**  
- An interface-specific object that provides the parameter marshaling and communication required for an application object to receive calls from a client that is running in a different execution environment, such as on a different thread or in another process. The stub is located with the application object and communicates with a corresponding proxy that is located with the client that calls it. In the case of TI, the TI run-time environment serves as the proxy.  
+  **stub**  
+  An interface-specific object that provides the parameter marshaling and communication required for an application object to receive calls from a client that is running in a different execution environment, such as on a different thread or in another process. The stub is located with the application object and communicates with a corresponding proxy that is located with the client that calls it. In the case of TI, the TI run-time environment serves as the proxy.  
   
- **subdirectory**  
- A directory contained within another directory in a file system hierarchy.  
+  **subdirectory**  
+  A directory contained within another directory in a file system hierarchy.  
   
- **subdomain**  
- A collection of computers running Host Integration Server that share a single configuration. A subdomain contains one primary server and can also contain one or more backup servers. All servers in a subdomain must belong to the same Windows domain. *See also***backup server**; **primary server**.  
+  **subdomain**  
+  A collection of computers running Host Integration Server that share a single configuration. A subdomain contains one primary server and can also contain one or more backup servers. All servers in a subdomain must belong to the same Windows domain. *See also***backup server**; **primary server**.  
   
- **SVC**  
- *See* **switched virtual circuit (SVC)**.  
+  **SVC**  
+  *See* **switched virtual circuit (SVC)**.  
   
- **switched SDLC line**  
- A standard telephone line used for SDLC connections on an SNA network. The line is dialed in one of three ways: manually, by a modem that stores the phone number, or by a modem that accepts a phone number string from the software.  
+  **switched SDLC line**  
+  A standard telephone line used for SDLC connections on an SNA network. The line is dialed in one of three ways: manually, by a modem that stores the phone number, or by a modem that accepts a phone number string from the software.  
   
- **switched virtual circuit (SVC)**  
- A type of circuit used by an X.25 connection, in which the circuit is not constantly active, but is called and cleared dynamically. The destination address is supplied when the circuit is called.  
+  **switched virtual circuit (SVC)**  
+  A type of circuit used by an X.25 connection, in which the circuit is not constantly active, but is called and cleared dynamically. The destination address is supplied when the circuit is called.  
   
- **Synchronous Data Link Control (SDLC)**  
- A type of link service used for managing synchronous data transfer over standard telephone lines (switched lines) or leased lines.  
+  **Synchronous Data Link Control (SDLC)**  
+  A type of link service used for managing synchronous data transfer over standard telephone lines (switched lines) or leased lines.  
   
- **synchronous transmission**  
- Transmission in which the data characters and bits are transmitted at a fixed rate, with the transmitter and receiver being synchronized. This eliminates the need for individual start and stop bits surrounding each byte. Both SDLC and X.25 use synchronous transmission.  
+  **synchronous transmission**  
+  Transmission in which the data characters and bits are transmitted at a fixed rate, with the transmitter and receiver being synchronized. This eliminates the need for individual start and stop bits surrounding each byte. Both SDLC and X.25 use synchronous transmission.  
   
- **synchronous verb completion**  
- Processing of an SNA verb where the operation of the program is blocked until processing completes. *Contrast with***asynchronous verb completion**.  
+  **synchronous verb completion**  
+  Processing of an SNA verb where the operation of the program is blocked until processing completes. *Contrast with***asynchronous verb completion**.  
   
- **system administrator**  
- A person who configures, maintains the configuration of, helps users diagnose problems with, and manages a computer system. With Host Integration Server, this person can also be the LAN administrator or a TI developer.  
+  **system administrator**  
+  A person who configures, maintains the configuration of, helps users diagnose problems with, and manages a computer system. With Host Integration Server, this person can also be the LAN administrator or a TI developer.  
   
- **system services control point (SSCP)**  
- (1) A host system network component that provides network services for dependent nodes. (2) An SNA network component that helps control and maintain communication flow between PUs and LUs on the network. Multiple SSCPs can work together to coordinate communications.  
+  **system services control point (SSCP)**  
+  (1) A host system network component that provides network services for dependent nodes. (2) An SNA network component that helps control and maintain communication flow between PUs and LUs on the network. Multiple SSCPs can work together to coordinate communications.  
   
- **Systems Application Architecture (SAA)**  
- Guidelines created by IBM to help developers standardize applications so they function in different operating environments with minimal program modification and retraining of users.  
+  **Systems Application Architecture (SAA)**  
+  Guidelines created by IBM to help developers standardize applications so they function in different operating environments with minimal program modification and retraining of users.  
   
- **Systems Network Architecture (SNA)**  
- The description of the logical structure, formats, protocols, and operational sequences for transmitting information units through, and controlling the configuration and operation of, networks  
+  **Systems Network Architecture (SNA)**  
+  The description of the logical structure, formats, protocols, and operational sequences for transmitting information units through, and controlling the configuration and operation of, networks  
   
 ## -T-  
  **TCP/IP**  

@@ -53,31 +53,31 @@ manager: "anneta"
 ## Data Stored by the Receive Pipeline for Each Technical Acknowledgment Received in Response to an Outbound Interchange  
  The receive pipeline creates a record in the status report data store for each technical acknowledgment that it receives. The receive pipeline creates a record of each interchange received in the status report data store. creates one technical acknowledgment status report entry in the data store for each technical ACK received as a response to an interchange sent to a trading partner. The technical acknowledge is the TA1 for X12 and the CONTRL message with only the UCI Segment for EDIFACT. The data stored includes:  
   
--   Record Type = Interchange ACK Status  
+- Record Type = Interchange ACK Status  
   
--   Interchange ACK Direction = Send – Update Data  
+- Interchange ACK Direction = Send – Update Data  
   
--   Interchange Receiver = Update Data (required for correlation)  
+- Interchange Receiver = Update Data (required for correlation)  
   
--   Interchange Sender = Update Data (required for correlation)  
+- Interchange Sender = Update Data (required for correlation)  
   
--   Interchange Date = Update Data (required for X12 correlation)  
+- Interchange Date = Update Data (required for X12 correlation)  
   
--   Interchange Control ID = Update Data (required for correlation)  
+- Interchange Control ID = Update Data (required for correlation)  
   
--   Interchange ACK Status = Generated or Not Applicable \<Refer Note 0\> - Update Data  
+- Interchange ACK Status = Generated or Not Applicable \<Refer Note 0\> - Update Data  
   
--   Interchange ACK Control ID= Not valued – will be applied by send side  
+- Interchange ACK Control ID= Not valued – will be applied by send side  
   
--   Interchange ACK Date = Not valued – will be applied by send side  
+- Interchange ACK Date = Not valued – will be applied by send side  
   
--   Interchange ACK Time = Not valued – will be applied by send side  
+- Interchange ACK Time = Not valued – will be applied by send side  
   
--   ACK/Action Code = Update Data  \<refer note 1\> (from X12-TA104 or EDIFACT-UCI4)*  
+- ACK/Action Code = Update Data  \<refer note 1\> (from X12-TA104 or EDIFACT-UCI4)*  
   
--   ACK Note Code = Update Data \<Refer Note 2\> (from X12-TA105, not applicable for EDIFACT)*  
+- ACK Note Code = Update Data \<Refer Note 2\> (from X12-TA105, not applicable for EDIFACT)*  
   
- The following ACK/Action Codes are used:  
+  The following ACK/Action Codes are used:  
   
 |Data in ACK/Action Code|Error description for Reporting|Comment (applicability)|  
 |------------------------------|-------------------------------------|-------------------------------|  
@@ -141,29 +141,29 @@ manager: "anneta"
   
  The data stored includes:  
   
--   Interchange ACK Direction = Receive – Existing Data  
+- Interchange ACK Direction = Receive – Existing Data  
   
--   Interchange ACK Status = Received  
+- Interchange ACK Status = Received  
   
--   Interchange Receiver = Existing Data  
+- Interchange Receiver = Existing Data  
   
--   Interchange Sender = Existing Data  
+- Interchange Sender = Existing Data  
   
--   Interchange Date = Existing Data  
+- Interchange Date = Existing Data  
   
--   Interchange Control ID = Existing Data  
+- Interchange Control ID = Existing Data  
   
--   Interchange ACK Control ID= Update Data  
+- Interchange ACK Control ID= Update Data  
   
--   Interchange ACK Date = Update Data  
+- Interchange ACK Date = Update Data  
   
--   Interchange ACK Time = Update Data  
+- Interchange ACK Time = Update Data  
   
--   ACK/Action Code = Update Data (from X12-TA104 or EDIFACT-UCI4)* \<Refer Note 1\>  
+- ACK/Action Code = Update Data (from X12-TA104 or EDIFACT-UCI4)* \<Refer Note 1\>  
   
--   ACK Note Code 2 = Update Data (from X12-TA105 and not valued for EDIFACT)* \<Refer Note 2\>  
+- ACK Note Code 2 = Update Data (from X12-TA105 and not valued for EDIFACT)* \<Refer Note 2\>  
   
- The data from the ACK X12:TA1-104 or EDIFACT UCI4 is to be mapped as follows:  
+  The data from the ACK X12:TA1-104 or EDIFACT UCI4 is to be mapped as follows:  
   
 |Data in ACK/Action Code|Mapped for Status Reporting|Comment|  
 |------------------------------|---------------------------------|-------------|  
@@ -214,49 +214,49 @@ manager: "anneta"
 ## Data Stored by the Receive Pipeline for Each Functional Acknowledgment Received in Response to Outbound Interchanges  
  The receive pipeline creates a record in the status report data store for each functional acknowledgment that it receives.  The technical acknowledge is the 997 for X12 and the full CONTRL message for EDIFACT. One entry per group will to be created. Data from the interchange and group headers is used while making this entry. The data stored includes:  
   
--   Record Type = Functional ACK Status  
+- Record Type = Functional ACK Status  
   
--   Functional ACK Direction = Send  
+- Functional ACK Direction = Send  
   
--   Functional ACK Status = \<Generated or Not Applicable, refer note 1\>  
+- Functional ACK Status = \<Generated or Not Applicable, refer note 1\>  
   
--   Interchange Receiver = Update Data (required for correlation)  
+- Interchange Receiver = Update Data (required for correlation)  
   
--   Interchange Sender = Update Data (required for correlation)  
+- Interchange Sender = Update Data (required for correlation)  
   
--   Interchange Date = Update Data (required for X12 correlation)  
+- Interchange Date = Update Data (required for X12 correlation)  
   
--   Interchange Control ID = Update Data (required for correlation)  
+- Interchange Control ID = Update Data (required for correlation)  
   
--   Group Control Number = Update Data (‘optional for EDIFACT’ and required for X12 correlation)  
+- Group Control Number = Update Data (‘optional for EDIFACT’ and required for X12 correlation)  
   
--   Functional ID Code = Update Data (GS01/UNG01)  
+- Functional ID Code = Update Data (GS01/UNG01)  
   
--   Count of Transaction Sets = Update Data (UNE1/UNZ1)  
+- Count of Transaction Sets = Update Data (UNE1/UNZ1)  
   
--   Functional ACK Interchange Control ID= Not value – will be applied by send side  
+- Functional ACK Interchange Control ID= Not value – will be applied by send side  
   
--   Functional ACK Interchange Date = Not valued – will be applied by send side  
+- Functional ACK Interchange Date = Not valued – will be applied by send side  
   
--   Functional ACK Interchange Time = Not valued – will be applied by send side  
+- Functional ACK Interchange Time = Not valued – will be applied by send side  
   
--   Count of Transaction Sets Received = Update Data (X12-AK903 and computed by Engine for EDIFACT encoding)  
+- Count of Transaction Sets Received = Update Data (X12-AK903 and computed by Engine for EDIFACT encoding)  
   
--   Count of Transaction Sets Accepted = Update Data (X12-AK904 and computed by Engine for EDIFACT engine)  
+- Count of Transaction Sets Accepted = Update Data (X12-AK904 and computed by Engine for EDIFACT engine)  
   
--   ACK/Action Code = Update Data  \<refer note 2\> (from X12-AK901 or EDIFACT-UCI4)*  
+- ACK/Action Code = Update Data  \<refer note 2\> (from X12-AK901 or EDIFACT-UCI4)*  
   
--   Error/Syntax Error Code  = Update Data (X12-AK905, EDIFACT UCI5) Note 3  
+- Error/Syntax Error Code  = Update Data (X12-AK905, EDIFACT UCI5) Note 3  
   
--   Additional X12 ACK Error Code 2 = Update Data (X12-AK906)  
+- Additional X12 ACK Error Code 2 = Update Data (X12-AK906)  
   
--   Additional X12 ACK Error Code 3 = Update Data (X12-AK907)  
+- Additional X12 ACK Error Code 3 = Update Data (X12-AK907)  
   
--   Additional X12 ACK Error Code 4 = Update Data (X12-AK908)  
+- Additional X12 ACK Error Code 4 = Update Data (X12-AK908)  
   
--   Additional X12 ACK Error Code 5 = Update Data (X12-AK909)  
+- Additional X12 ACK Error Code 5 = Update Data (X12-AK909)  
   
- The following ACK/Action Codes will be used:  
+  The following ACK/Action Codes will be used:  
   
 |Data in ACK/Action Code|Error description for Reporting|Comment (applicability)|  
 |------------------------------|-------------------------------------|-------------------------------|  
@@ -345,49 +345,49 @@ manager: "anneta"
   
  The data stored includes:  
   
--   Record Type = Functional ACK Status  
+- Record Type = Functional ACK Status  
   
--   Functional ACK Direction = Receive  
+- Functional ACK Direction = Receive  
   
--   Functional ACK Status =Update Data as Received  
+- Functional ACK Status =Update Data as Received  
   
--   Interchange Receiver = Existing Data  
+- Interchange Receiver = Existing Data  
   
--   Interchange Sender = Existing Data  
+- Interchange Sender = Existing Data  
   
--   Interchange Date = Existing Data  
+- Interchange Date = Existing Data  
   
--   Interchange Control ID = Existing Data  
+- Interchange Control ID = Existing Data  
   
--   Group Control Number = Existing Data  
+- Group Control Number = Existing Data  
   
--   Functional ID Code = Existing Data  
+- Functional ID Code = Existing Data  
   
--   Count of Transaction Sets = Existing Data  
+- Count of Transaction Sets = Existing Data  
   
--   Functional ACK Interchange Control ID= Update Data  
+- Functional ACK Interchange Control ID= Update Data  
   
--   Functional ACK Interchange Date = Update Data  
+- Functional ACK Interchange Date = Update Data  
   
--   Functional ACK Interchange Time = Update Data  
+- Functional ACK Interchange Time = Update Data  
   
--   Count of Transaction Sets Delivered = Update Data (X12 AK903 and not applicable for EDIFACT)  
+- Count of Transaction Sets Delivered = Update Data (X12 AK903 and not applicable for EDIFACT)  
   
--   Count of Transaction Sets Accepted = Update Data (X12 AK904 and not applicable for EDIFACT)  
+- Count of Transaction Sets Accepted = Update Data (X12 AK904 and not applicable for EDIFACT)  
   
--   ACK/Action Code = Update Data (X12 AK901 and UCI4) Refer Note 1  
+- ACK/Action Code = Update Data (X12 AK901 and UCI4) Refer Note 1  
   
--   Error/Syntax Error Code  = (X12 AK905 and UCI5) Refer Note 2  
+- Error/Syntax Error Code  = (X12 AK905 and UCI5) Refer Note 2  
   
--   Additional X12 ACK Error Code 2 = Update Data (X12-AK906)  
+- Additional X12 ACK Error Code 2 = Update Data (X12-AK906)  
   
--   Additional X12 ACK Error Code 3 = Update Data (X12-AK907)  
+- Additional X12 ACK Error Code 3 = Update Data (X12-AK907)  
   
--   Additional X12 ACK Error Code 4 = Update Data (X12-AK908)  
+- Additional X12 ACK Error Code 4 = Update Data (X12-AK908)  
   
--   Additional X12 ACK Error Code 5 = Update Data (X12-AK909)  
+- Additional X12 ACK Error Code 5 = Update Data (X12-AK909)  
   
- The following ACK/Action Codes will be used:  
+  The following ACK/Action Codes will be used:  
   
 |Data in ACK/Action Code|Mapped for Status Reporting|Comment|  
 |------------------------------|---------------------------------|-------------|  

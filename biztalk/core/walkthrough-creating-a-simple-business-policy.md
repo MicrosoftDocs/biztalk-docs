@@ -79,32 +79,32 @@ This walkthrough provides step-by-step procedures for using the Business Rule Co
   
 ### To create the ProcessPurchaseOrder business policy  
   
-1.  On the **Start** menu, open **Business Rule Composer**.  
+1. On the **Start** menu, open **Business Rule Composer**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
   
-    > [!NOTE]
-    >  The Business Rule Composer displays the **Open Rule Store** dialog box when it is opened for the first time on a computer. If you see the **Open Rule Store** dialog box, click **OK** after verifying the SQL server name and database name.  
+   > [!NOTE]
+   >  The Business Rule Composer displays the **Open Rule Store** dialog box when it is opened for the first time on a computer. If you see the **Open Rule Store** dialog box, click **OK** after verifying the SQL server name and database name.  
   
-2.  In the Policy Explorer window, right-click **Policies**, and then click **Add New Policy**.  
+2. In the Policy Explorer window, right-click **Policies**, and then click **Add New Policy**.  
   
-3.  Edit the name of the policy, **Policy1**, to **ProcessPurchaseOrder** and press ENTER. You can also change the name of the policy in the **Properties** window.  
+3. Edit the name of the policy, **Policy1**, to **ProcessPurchaseOrder** and press ENTER. You can also change the name of the policy in the **Properties** window.  
   
-4.  Right-click **Version 1.0**, and then click **AddNewRule**.  
+4. Right-click **Version 1.0**, and then click **AddNewRule**.  
   
-5.  Edit the name of the rule from **Rule1** to **ApprovalRule** and press ENTER**.** You can also change the name of the rule in the **Properties** window.  
+5. Edit the name of the rule from **Rule1** to **ApprovalRule** and press ENTER<strong>.</strong> You can also change the name of the rule in the **Properties** window.  
   
-6.  In the Facts Explorer window, click the **XML Schemas** tab.  
+6. In the Facts Explorer window, click the **XML Schemas** tab.  
   
-7.  Right-click **Schemas**, click **Browse**, and then select the **PO.xsd** file that you created earlier.  
+7. Right-click **Schemas**, click **Browse**, and then select the **PO.xsd** file that you created earlier.  
   
-8.  In the properties window, change the value of the **Document Type** property from **PO** to **RuleTest.PO**.  
+8. In the properties window, change the value of the **Document Type** property from **PO** to **RuleTest.PO**.  
   
-    > [!NOTE]
-    >  You will be creating a BizTalk project named **RuleTest** later in the [Walkthrough: Invoking the Policy from an Orchestration](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) walkthrough. In that walkthrough, you will add the **PO.xsd** file to the project, create an orchestration that invokes the **ProcessPurchaseOrder** policy, and then test the policy. To test the policy from the orchestration, you need to make sure that you change the **Document Type** property to **\<Project Name\>.\<SchemaName\>**, which is **RuleTest.PO** in this case.  
+   > [!NOTE]
+   >  You will be creating a BizTalk project named **RuleTest** later in the [Walkthrough: Invoking the Policy from an Orchestration](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) walkthrough. In that walkthrough, you will add the **PO.xsd** file to the project, create an orchestration that invokes the **ProcessPurchaseOrder** policy, and then test the policy. To test the policy from the orchestration, you need to make sure that you change the **Document Type** property to **\<Project Name\>.\<SchemaName\>**, which is **RuleTest.PO** in this case.  
   
-     ![BRE&#45;Walkthrough&#45;ChangeDocType](../core/media/e9a370fd-d9b2-48f0-ad0e-85a5428a9c21.gif "e9a370fd-d9b2-48f0-ad0e-85a5428a9c21")  
+    ![BRE&#45;Walkthrough&#45;ChangeDocType](../core/media/e9a370fd-d9b2-48f0-ad0e-85a5428a9c21.gif "e9a370fd-d9b2-48f0-ad0e-85a5428a9c21")  
   
 9. In the Facts Explorer window, expand **PurchaseOrder**, and then expand **Item**.  
   

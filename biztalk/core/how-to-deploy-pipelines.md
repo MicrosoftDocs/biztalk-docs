@@ -45,17 +45,17 @@ Pipelines are compiled and deployed as part of the solution build and deploy pro
   
  Per-instance pipeline configuration does not support the following:  
   
--   Rearranging stages within the pipeline  
+- Rearranging stages within the pipeline  
   
--   Adding or removing stages  
+- Adding or removing stages  
   
--   Rearranging components within stages  
+- Rearranging components within stages  
   
--   Adding or removing components  
+- Adding or removing components  
   
- The only supported changes are in the configuration of pipeline components. Per-instance configuration of a pipeline component overrides the common pipeline component configuration. If a parameter of a component is not specified in per-instance pipeline configuration, the common configuration for that parameter (as configured in Pipeline Designer) is used.  
+  The only supported changes are in the configuration of pipeline components. Per-instance configuration of a pipeline component overrides the common pipeline component configuration. If a parameter of a component is not specified in per-instance pipeline configuration, the common configuration for that parameter (as configured in Pipeline Designer) is used.  
   
- The following is an example of per-instance configuration data.  
+  The following is an example of per-instance configuration data.  
   
 ```  
 <?xml version="1.0" encoding="utf-16"?>  

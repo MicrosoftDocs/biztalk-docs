@@ -31,11 +31,11 @@ myRet=myCI.myMethod(parameter1, parameter2, ...)
   
  where:  
   
--   `parameter1`, `parameter2` are input parameters.  
+- `parameter1`, `parameter2` are input parameters.  
   
--   `myRet` is the return value.  
+- `myRet` is the return value.  
   
- The parameters can only be input parameters to the method. Only one value can be returned from the method as the return parameter.  
+  The parameters can only be input parameters to the method. Only one value can be returned from the method as the return parameter.  
   
 > [!NOTE]
 >  The component interface that contains user-defined methods should only have the PeopleSoft `Get` function enabled. If the component interface has keys, then custom methods will not work.  

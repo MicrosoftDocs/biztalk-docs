@@ -28,13 +28,13 @@ After you perform the steps necessary to restore the Business Activity Monitorin
   
  Registering an instance of Notification Services creates the NS$instance_name service, creates performance counters on the local server, and adds information to the registry. You must register the instance on the following servers:  
   
--   Each server that runs the NS$instance_name service. The service runs the event provider host, generator, and distributor components. For scaled-out configurations, the service runs on multiple servers.  
+- Each server that runs the NS$instance_name service. The service runs the event provider host, generator, and distributor components. For scaled-out configurations, the service runs on multiple servers.  
   
--   Each server that runs a subscription management application. If the subscription management application runs on its own server, do not create the NS$instance_name service when registering the instance.  
+- Each server that runs a subscription management application. If the subscription management application runs on its own server, do not create the NS$instance_name service when registering the instance.  
   
--   Each server that runs an independent event provider. If the independent event provider runs on its own server or the database server, do not create the NS$instance_name service when registering the instance.  
+- Each server that runs an independent event provider. If the independent event provider runs on its own server or the database server, do not create the NS$instance_name service when registering the instance.  
   
- If the database server does not also run the Notification Services instance or the client components, do not register the instance on this server.  
+  If the database server does not also run the Notification Services instance or the client components, do not register the instance on this server.  
   
 ## Prerequisites  
   
@@ -44,55 +44,55 @@ After you perform the steps necessary to restore the Business Activity Monitorin
   
 ### To update references to the BAM Notification Services databases (SQL Server 2008 R2/SP1)  
   
-1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
+2. At the command prompt, navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type: **bm.exe get-config –filename:config.xml**  
+3. Type: **bm.exe get-config –filename:config.xml**  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-4.  Open the xml file created in step 2 to obtain the list of the computers on which you must re-register Notification Services.  
+4. Open the xml file created in step 2 to obtain the list of the computers on which you must re-register Notification Services.  
   
-     The computer names are listed in the **\<Property Name\=\>** parameters in the **\<DeploymentUnit Name="Alert"\>** section of the xml file:  
+    The computer names are listed in the **\<Property Name\=\>** parameters in the **\<DeploymentUnit Name="Alert"\>** section of the xml file:  
   
-    ```  
-    -<DeploymentUnit Name="Alert">  
-    <Property Name="GeneratorServerName" />  
-    <Property Name="ProviderServerName" />  
-    <Property Name="DistributorServerName" />  
-      </DeploymentUnit>  
-    ```  
+   ```  
+   -<DeploymentUnit Name="Alert">  
+   <Property Name="GeneratorServerName" />  
+   <Property Name="ProviderServerName" />  
+   <Property Name="DistributorServerName" />  
+     </DeploymentUnit>  
+   ```  
   
-5.  On each computer listed in the xml file, stop the NS service and then unregister an instance of Notification Services:  
+5. On each computer listed in the xml file, stop the NS service and then unregister an instance of Notification Services:  
   
-    1.  Click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
+   1.  Click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
   
-    2.  At the command prompt, type: **net stop NS$BamAlerts**  
+   2.  At the command prompt, type: **net stop NS$BamAlerts**  
   
-    3.  Type the following command to unregister the instance:  
+   3.  Type the following command to unregister the instance:  
   
-         **nscontrol unregister  -name BamAlerts**  
+        **nscontrol unregister  -name BamAlerts**  
   
-         Unregistering an instance removes the registry entries, removes the NS$instance_name service (if present), and deletes the performance counters for the service.  
+        Unregistering an instance removes the registry entries, removes the NS$instance_name service (if present), and deletes the performance counters for the service.  
   
-6.  Re-register the Notification Service:  
+6. Re-register the Notification Service:  
   
-    1.  Click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
+   1.  Click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
   
-    2.  At the command prompt, type: **nscontrol register -name BamAlerts -server** *\<ServerName\>***-service -serviceusername "***\<ServiceUserName\>***" -servicepassword "***\<ServicePassword\>***"**  
+   2.  At the command prompt, type: **nscontrol register -name BamAlerts -server** *\<ServerName\>***-service -serviceusername "***\<ServiceUserName\>***" -servicepassword "***\<ServicePassword\>***"**  
   
-         This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service machine by nscontrol).  
+        This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service machine by nscontrol).  
   
-        > [!IMPORTANT]
-        >  Remember to use the new Notification Services databases server in the **-server** option when re-registering the service. In addition, you should use the same user name for the new Notification Services service as the old one.  
+       > [!IMPORTANT]
+       >  Remember to use the new Notification Services databases server in the **-server** option when re-registering the service. In addition, you should use the same user name for the new Notification Services service as the old one.  
   
-7.  On the computer that hosts the BAM portal, click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
+7. On the computer that hosts the BAM portal, click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
   
-8.  At the command prompt, type:  
+8. At the command prompt, type:  
   
-     **net stop NS$BamAlerts**  
+    **net stop NS$BamAlerts**  
   
 9. At the command prompt, type:  
   

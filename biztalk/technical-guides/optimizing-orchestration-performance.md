@@ -45,20 +45,20 @@ This topic describes best practices for using orchestrations in BizTalk Server s
   
      ![Depiction of BizTalk Orchestration Inline Send](../technical-guides/media/inlinesend.gif "InlineSend")  
   
-> [!NOTE]  
+> [!NOTE]
 >  Although using inline sends from orchestrations will significantly reduce latency, there are limitations to this approach. Because inline sends bypass the BizTalk messaging engine, the following functionality provided with the messaging engine is not available:  
->   
->  -   Transactional pipelines  
-> -   Recoverable pipelines  
-> -   Pipelines that call the BAM interceptor API  
-> -   BizTalk Server adapter support  
-> -   Batching  
-> -   Retries  
-> -   Correlation set initialization  
-> -   Declarative configuration  
-> -   Secondary transports  
-> -   Tracking  
-> -   Declarative use of BAM  
+> 
+> - Transactional pipelines  
+>   -   Recoverable pipelines  
+>   -   Pipelines that call the BAM interceptor API  
+>   -   BizTalk Server adapter support  
+>   -   Batching  
+>   -   Retries  
+>   -   Correlation set initialization  
+>   -   Declarative configuration  
+>   -   Secondary transports  
+>   -   Tracking  
+>   -   Declarative use of BAM  
   
  For more information about the types of pipelines that cannot be executed from within an orchestration, see the “Restrictions” section of the topic [How to Use Expressions to Execute Pipelines](http://go.microsoft.com/fwlink/?LinkId=158008) (http://go.microsoft.com/fwlink/?LinkId=158008) in the BizTalk Server 2010 documentation.  
   
@@ -74,21 +74,21 @@ Another recommendation is to always keep the internal state of an orchestration 
 ## Guidelines for using promoted properties to access message tags or attributes from an orchestration  
  If you do need to promote properties, promote only those properties that are used for message routing, filters, and message correlation. The promotion of each property requires the disassembler component (XML, Flat, custom) to recognize the document type and to retrieve data from the message using the XPath expression from the relative annotation contained in the XSD that defines the document type. In addition, each property promotion causes a separate call of the bts_InsertProperty stored procedure when the Message Agent publishes the message to the MessageBox database. If an orchestration needs to access a particular element or attribute contained by an XML document, use one of the following techniques:  
   
--   Reduce the number of written and promoted properties and eliminate those that are not strictly necessary.  
+- Reduce the number of written and promoted properties and eliminate those that are not strictly necessary.  
   
--   Eliminate unnecessary distinguished fields. The distinguished fields are written context properties and they can easily occupy significant space as their name is equal to the XPath expression that is used to retrieve data. The distinguished property is defined as annotations in the XSD that defines the document type. The disassembler component uses the same approach adopted for promoted properties and uses the XPath expression that defines a distinguished field to find it within in the incoming document. Then, the disassembler component writes a property in the context where:  
+- Eliminate unnecessary distinguished fields. The distinguished fields are written context properties and they can easily occupy significant space as their name is equal to the XPath expression that is used to retrieve data. The distinguished property is defined as annotations in the XSD that defines the document type. The disassembler component uses the same approach adopted for promoted properties and uses the XPath expression that defines a distinguished field to find it within in the incoming document. Then, the disassembler component writes a property in the context where:  
   
-    -   **Name**: XPath Expression defined in the annotation.  
+  - **Name**: XPath Expression defined in the annotation.  
   
-    -   **Value**: Value of the element identified by the XPath expression within an incoming document.  
+  - **Value**: Value of the element identified by the XPath expression within an incoming document.  
   
-     The XPath Expressions can be very long, especially when the element in question is very deep in the document schema. So, the more distinguished fields, the larger the context size. This in turn adversely affects the overall performance.  
+    The XPath Expressions can be very long, especially when the element in question is very deep in the document schema. So, the more distinguished fields, the larger the context size. This in turn adversely affects the overall performance.  
   
--   Use the XPath built-in function provided by the orchestration runtime.  
+- Use the XPath built-in function provided by the orchestration runtime.  
   
--   If messages are quite small (a few kilobytes) and XML-formatted, you can de-serialize the message into a .NET class instance and work with public fields and properties. If the message needs a complex elaboration (custom code, Business Rule Engine policies, etc.) accessing data using the properties exposed by an instance of a .NET class is much faster using XPath expressions. When the business logic invoked by the orchestration has completed, the entity object can be serialized back into a BizTalk message. You can create .NET classes from an XML schema using one of the following tools: XSD tool (.NET Framework 2.0) or SVCUTIL (.NET Framework 3.0).  
+- If messages are quite small (a few kilobytes) and XML-formatted, you can de-serialize the message into a .NET class instance and work with public fields and properties. If the message needs a complex elaboration (custom code, Business Rule Engine policies, etc.) accessing data using the properties exposed by an instance of a .NET class is much faster using XPath expressions. When the business logic invoked by the orchestration has completed, the entity object can be serialized back into a BizTalk message. You can create .NET classes from an XML schema using one of the following tools: XSD tool (.NET Framework 2.0) or SVCUTIL (.NET Framework 3.0).  
   
--   Enable a helper component from an orchestration. This technique has an advantage over using distinguished fields. In fact, an orchestration may read the XPath expression from a config store (config file, SSO Config Store, custom Db, and so on) so, when you have to change the XPath expression, you do not have to change and redeploy a schema, as you should do for promoted properties and distinguished fields. The following code sample provides an example of a helper component. The component uses the XPathReader class that is provided by the BizTalk runtime. This allows the code to read through the document stream until the XPath expression is found.  
+- Enable a helper component from an orchestration. This technique has an advantage over using distinguished fields. In fact, an orchestration may read the XPath expression from a config store (config file, SSO Config Store, custom Db, and so on) so, when you have to change the XPath expression, you do not have to change and redeploy a schema, as you should do for promoted properties and distinguished fields. The following code sample provides an example of a helper component. The component uses the XPathReader class that is provided by the BizTalk runtime. This allows the code to read through the document stream until the XPath expression is found.  
   
 ```  
 #region Copyright  
@@ -309,13 +309,13 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
 ## Improve performance by minimizing the use of logical ports bound to physical ports  
  You can increase performance by minimizing the use of logical ports bound to physical ports that use the following adapters:  
   
--   SQL Server, Oracle  
+- SQL Server, Oracle  
   
--   WSE, HTTP, WCF  
+- WSE, HTTP, WCF  
   
--   MSMQ, MQSeries  
+- MSMQ, MQSeries  
   
- In BizTalk Server 2010, send and receive pipelines can be directly invoked from an orchestration using the XLANGPipelineManager class contained in the Microsoft.XLANGs.Pipeline.dll. Thus, the processing of pipelines can be moved from ports to orchestrations; logical ports in an orchestration can be substituted with an Expression shape, which invokes an instance of a given .NET class (for example, a Data Access component using ADO.NET). Before adopting this technique, you should be aware that if you do not use adapters and physical ports, you lose the ability to leverage their functions, such as batching, retries, declarative configuration, and secondary transports.  
+  In BizTalk Server 2010, send and receive pipelines can be directly invoked from an orchestration using the XLANGPipelineManager class contained in the Microsoft.XLANGs.Pipeline.dll. Thus, the processing of pipelines can be moved from ports to orchestrations; logical ports in an orchestration can be substituted with an Expression shape, which invokes an instance of a given .NET class (for example, a Data Access component using ADO.NET). Before adopting this technique, you should be aware that if you do not use adapters and physical ports, you lose the ability to leverage their functions, such as batching, retries, declarative configuration, and secondary transports.  
   
 ## Orchestration Design Patterns  
  The Orchestration Designer allows developers to implement a wide range of enterprise integration patterns. Some common patterns include Aggregator, Exception Handling and Compensation, Message Broker, Scatter and Gather, and Sequential and Parallel Convoy. Those patterns can be utilized to develop complex Enterprise Application Integration (EAI), Service-Oriented Architecture (SOA), and Business Process Management (BPM) solutions with BizTalk Server. For more information about Orchestration Design Patterns, see the topic [Implementing Design Patterns in Orchestrations](http://go.microsoft.com/fwlink/?LinkId=140042) (http://go.microsoft.com/fwlink/?LinkId=140042) in the BizTalk Server documentation and [Patterns and Best Practices for Enterprise Integration](http://go.microsoft.com/fwlink/?LinkId=140043) (http://go.microsoft.com/fwlink/?LinkId=140043).  
@@ -333,18 +333,18 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
 ## Orchestration Exception Handler Blocks  
  When using Orchestration exception Handler blocks, include all orchestration shapes in one or multiple scopes (non transactional scopes whenever possible) and create at least the following exception handler blocks:  
   
--   An exception handler block for handling a generic System.Exception error.  
+- An exception handler block for handling a generic System.Exception error.  
   
--   An exception handler block for handling a general exception in order to catch and handle possible unmanaged errors, such as COM exceptions.  
+- An exception handler block for handling a general exception in order to catch and handle possible unmanaged errors, such as COM exceptions.  
   
- For more information about using Orchestration exception handling blocks, see the following articles:  
+  For more information about using Orchestration exception handling blocks, see the following articles:  
   
--   [Using BizTalk Server Exception Handling](http://msdn.microsoft.com/library/aa561229.aspx) (http://msdn.microsoft.com/library/aa561229.aspx).  
+- [Using BizTalk Server Exception Handling](http://msdn.microsoft.com/library/aa561229.aspx) (http://msdn.microsoft.com/library/aa561229.aspx).  
   
--   [Charles Young Blog, BizTalk Server 2006: The Compensation Model](http://go.microsoft.com/fwlink/?LinkId=158017) (http://go.microsoft.com/fwlink/?LinkId=158017).  
+- [Charles Young Blog, BizTalk Server 2006: The Compensation Model](http://go.microsoft.com/fwlink/?LinkId=158017) (http://go.microsoft.com/fwlink/?LinkId=158017).  
   
-    > [!NOTE]  
-    >  While this blog was written with [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] in mind, the principles described in the blog also apply to BizTalk Server.  
+  > [!NOTE]
+  >  While this blog was written with [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] in mind, the principles described in the blog also apply to BizTalk Server.  
   
 ## Considerations when using maps in orchestrations  
  The following considerations apply when using maps in orchestrations:  

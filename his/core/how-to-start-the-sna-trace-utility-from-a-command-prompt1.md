@@ -18,17 +18,17 @@ The following procedure details how to start the SNA Trace Utility from a comman
   
 ### To start the SNA Trace Utility from a command prompt  
   
-1.  From **Start**, click **Run**.  
+1. From **Start**, click **Run**.  
   
-2.  Type in **command**, and click **OK**.  
+2. Type in **command**, and click **OK**.  
   
-3.  Type in:  
+3. Type in:  
   
-    ```  
+   ```  
   
-    ```  
+   ```  
   
- **-or-**  
+   **-or-**  
   
 #### To run the SNA Trace Utility on a specific server  
   

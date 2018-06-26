@@ -31,23 +31,23 @@ Activity and ActivityID nodes are used to contain and identify an activity defin
 ## Working with Activity ID nodes  
  For example, consider the following scenario: the EquityLoan orchestration contains the activity folder LoanProcess. It references business events including the following:  
   
--   LoanApplicationReceived  
+- LoanApplicationReceived  
   
--   CHRequest  
+- CHRequest  
   
--   CHResponse  
+- CHResponse  
   
--   AppraisalRequest  
+- AppraisalRequest  
   
--   AppraisalResponse  
+- AppraisalResponse  
   
--   Approved  
+- Approved  
   
--   Denied  
+- Denied  
   
- The ActivityID node enables the solution developer to extract data that uniquely identifies the activity, such as a purchase order number, or, in the case of the sample scenario, the SSN field of the message. If you do not drag any data to the ActivityID node, an automatically generated GUID identifies the business activities.  
+  The ActivityID node enables the solution developer to extract data that uniquely identifies the activity, such as a purchase order number, or, in the case of the sample scenario, the SSN field of the message. If you do not drag any data to the ActivityID node, an automatically generated GUID identifies the business activities.  
   
- To define the relationship between business events or milestones in different orchestrations, the target orchestration must reference the ActivityID. For more information about how to implement relationships using TPE, see [Relationship Nodes](../core/relationship-nodes.md).  
+  To define the relationship between business events or milestones in different orchestrations, the target orchestration must reference the ActivityID. For more information about how to implement relationships using TPE, see [Relationship Nodes](../core/relationship-nodes.md).  
   
 ## See Also  
  [TPE Activity View Nodes](../core/tpe-activity-view-nodes.md)

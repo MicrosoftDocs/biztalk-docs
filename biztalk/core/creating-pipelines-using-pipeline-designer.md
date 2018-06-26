@@ -25,28 +25,28 @@ Microsoft BizTalk Server works mainly with the XML document format. For a messag
   
  Pipelines commonly perform:  
   
--   Data normalization from various formats to XML.  
+- Data normalization from various formats to XML.  
   
--   Data transformation from XML to various formats.  
+- Data transformation from XML to various formats.  
   
--   Property promotion and demotion.  
+- Property promotion and demotion.  
   
--   Document disassembly and assembly.  
+- Document disassembly and assembly.  
   
--   Document decoding and encoding.  
+- Document decoding and encoding.  
   
--   Document decryption and encryption.  
+- Document decryption and encryption.  
   
--   Document signing and digital signature verification.  
+- Document signing and digital signature verification.  
   
- The following figure shows the workflow involved in processing a message by using pipelines.  
+  The following figure shows the workflow involved in processing a message by using pipelines.  
   
- ![Diagram of workflow for processing a message.](../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
-Depicts the message processing workflow.  
+  ![Diagram of workflow for processing a message.](../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
+  Depicts the message processing workflow.  
   
- As shown in the figure, the message is passed from the adapter to the receive pipeline where it is transformed to XML. The message can then be used by orchestrations, or passed to a send pipeline, and then to a send adapter.  
+  As shown in the figure, the message is passed from the adapter to the receive pipeline where it is transformed to XML. The message can then be used by orchestrations, or passed to a send pipeline, and then to a send adapter.  
   
- For information about using the keyboard shortcuts for Pipeline Designer, see [Pipeline Designer Keyboard Shortcuts](../core/pipeline-designer-keyboard-shortcuts.md).  
+  For information about using the keyboard shortcuts for Pipeline Designer, see [Pipeline Designer Keyboard Shortcuts](../core/pipeline-designer-keyboard-shortcuts.md).  
   
 ## In This Section  
   

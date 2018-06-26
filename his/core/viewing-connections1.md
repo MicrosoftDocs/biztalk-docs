@@ -18,9 +18,9 @@ As with other connections, you can view IP-DLC link service connections in the l
   
 ### To view connections  
   
-1.  In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer with the link services that you want to view.  
+1. In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer with the link services that you want to view.  
   
-2.  Expand the list for that computer, expand **SNA Service**, and expand **Connections**. The link service connections for that computer will appear in the right pane.  
+2. Expand the list for that computer, expand **SNA Service**, and expand **Connections**. The link service connections for that computer will appear in the right pane.  
   
 ## See Also  
  [Creating an IP-DLC Connection](../core/creating-an-ip-dlc-connection1.md)   

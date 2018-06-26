@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10846
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10846|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_HOST_GROUP_ONE_ACCOUNT_ONLY|  
-|Message Text|Host Group applications cannot have multiple accounts specified for the Windows Account.|  
+|                 |                                                                                          |
+|-----------------|------------------------------------------------------------------------------------------|
+|  Product Name   |                                Enterprise Single Sign-On                                 |
+| Product Version |                [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                |
+|    Event ID     |                                          10846                                           |
+|  Event Source   |                                          ENTSSO                                          |
+|    Component    |                                           N/A                                            |
+|  Symbolic Name  |                           ENTSSO_E_HOST_GROUP_ONE_ACCOUNT_ONLY                           |
+|  Message Text   | Host Group applications cannot have multiple accounts specified for the Windows Account. |
   
 ## Explanation  
  Host Group applications cannot have multiple accounts specified for the Windows Account.  

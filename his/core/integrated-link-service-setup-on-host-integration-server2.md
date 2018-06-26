@@ -18,23 +18,23 @@ In Host Integration Server, the SNA Manager supports installation and configurat
   
  IHV MSI Packages contain two types of features:  
   
--   Features that can be installed and used independently of Host Integration Server.  
+- Features that can be installed and used independently of Host Integration Server.  
   
--   Features that require Host Integration Server to function.  
+- Features that require Host Integration Server to function.  
   
- Features that can be installed and used independently of Host Integration Server include drivers, utilities, and applications that can run without Host Integration Server support. These features should be represented in the package as one or more features in the MSI Select Features dialog box. (For more information, see the Generic Link Service sample feature "Generic Link Service" from the Generic.msi Featuretable.) Generic.msi can be found in the Host Integration Server SDK.  
+  Features that can be installed and used independently of Host Integration Server include drivers, utilities, and applications that can run without Host Integration Server support. These features should be represented in the package as one or more features in the MSI Select Features dialog box. (For more information, see the Generic Link Service sample feature "Generic Link Service" from the Generic.msi Featuretable.) Generic.msi can be found in the Host Integration Server SDK.  
   
- Features that require Host Integration Server include drivers, utilities, and applications that require Host Integration Server to function. These features should be represented in the package as one or more features in the MSI Select Features dialog box. These features should be hidden if Host Integration Server is not installed on the computer. (For more information, see the Generic Link Service sample feature "Host Integration Server Support" from the Generic.msi feature table.)  
+  Features that require Host Integration Server include drivers, utilities, and applications that require Host Integration Server to function. These features should be represented in the package as one or more features in the MSI Select Features dialog box. These features should be hidden if Host Integration Server is not installed on the computer. (For more information, see the Generic Link Service sample feature "Host Integration Server Support" from the Generic.msi feature table.)  
   
- Properties can be equated to a variable (either global or local) in a high-level programming language such as C or C++. Properties can be used as a placeholder for informational text, or as values used during an installation. (For more information, see the property SERVER_INSTALLED in the custom action source code GenSet.cpp, and the Condition table entry in the Generic.msi package.)  
+  Properties can be equated to a variable (either global or local) in a high-level programming language such as C or C++. Properties can be used as a placeholder for informational text, or as values used during an installation. (For more information, see the property SERVER_INSTALLED in the custom action source code GenSet.cpp, and the Condition table entry in the Generic.msi package.)  
   
- Custom Actions provide a method of extending the capabilities of MSI. Functions not supported in MSI, can be custom written, and invoked from within a sequence table or directly from a dialog control event. (For more information, see the Custom Actions SetHISPath and GetHISData in the GenSet.cpp source file.)  
+  Custom Actions provide a method of extending the capabilities of MSI. Functions not supported in MSI, can be custom written, and invoked from within a sequence table or directly from a dialog control event. (For more information, see the Custom Actions SetHISPath and GetHISData in the GenSet.cpp source file.)  
   
- Launch Conditions provide a method of preventing an install from launching. The sample MSI package included with the Host Integration Server SDK does not use a launch condition, however, if your package requires Host Integration Server to be installed for your features to function, you should include a launch condition that fails the installation if Host Integration Server is not detected.  
+  Launch Conditions provide a method of preventing an install from launching. The sample MSI package included with the Host Integration Server SDK does not use a launch condition, however, if your package requires Host Integration Server to be installed for your features to function, you should include a launch condition that fails the installation if Host Integration Server is not detected.  
   
- The Condition table provides a method of controlling the layout of the features listed in the select feature dialog box. The sample MSI package uses the Condition table to hide the "Host Integration Server Support" if Host Integration Server is not detected in the installation.  
+  The Condition table provides a method of controlling the layout of the features listed in the select feature dialog box. The sample MSI package uses the Condition table to hide the "Host Integration Server Support" if Host Integration Server is not detected in the installation.  
   
- For Host Integration Server to control the installed state of IHV features that require Host Integration Server to be installed, the following registry keys must be included in the package for each separate feature which requires Host Integration Server to be installed.  
+  For Host Integration Server to control the installed state of IHV features that require Host Integration Server to be installed, the following registry keys must be included in the package for each separate feature which requires Host Integration Server to be installed.  
   
 ```  
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SnaBase\IHVSupport\<ihv key>  
@@ -65,25 +65,25 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SnaBase\LinkServicesInstall
   
  The sample package contains two features:  
   
--   Generic Link Service  
+- Generic Link Service  
   
--   Host Integration Server Support  
+- Host Integration Server Support  
   
- The Generic Link Service is not dependent on Host Integration Server. This feature installs the following:  
+  The Generic Link Service is not dependent on Host Integration Server. This feature installs the following:  
   
--   gencfg.exe into the \<Generic Link Service> directory.  
+- gencfg.exe into the \<Generic Link Service> directory.  
   
--   generic.sys driver into the %windir%\system32\drivers directory.  
+- generic.sys driver into the %windir%\system32\drivers directory.  
   
--   generic.inf into the %windir%\inf directory  
+- generic.inf into the %windir%\inf directory  
   
- Host Integration Server Support is dependent on Host Integration Server. This feature installs the following:  
+  Host Integration Server Support is dependent on Host Integration Server. This feature installs the following:  
   
--   gendtct.dll into the HIS\system directory.  
+- gendtct.dll into the HIS\system directory.  
   
--   generic.dll into the HIS\system\hwsetup\i386 directory.  
+- generic.dll into the HIS\system\hwsetup\i386 directory.  
   
- This feature contains the following entry in the condition table to hide the feature if Host Integration Server is not detected  
+  This feature contains the following entry in the condition table to hide the feature if Host Integration Server is not detected  
   
 ```  
 HIS_RELATED_FEATURE  0  SERVER_INSTALLED="NO"  

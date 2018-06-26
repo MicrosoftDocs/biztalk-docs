@@ -81,23 +81,23 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
  You specify a MEX endpoint and target operations in the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] connection URI in the following manner:  
   
--   You must include the "wsdl" parameter in the query_string. If it is the first parameter in the query_string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
+- You must include the "wsdl" parameter in the query_string. If it is the first parameter in the query_string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
   
--   You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the node ID of a target operation.  
+- You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the node ID of a target operation.  
   
- The following three examples show how to target various operations by using svcutil.exe.  
+  The following three examples show how to target various operations by using svcutil.exe.  
   
- This example creates a WCF client class for an Insert operation on the /SCOTT/EMP table.  
+  This example creates a WCF client class for an Insert operation on the /SCOTT/EMP table.  
   
- **.\svcutil "oracledb://User=SCOTT;Password=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert"**  
+  **.\svcutil "oracledb://User=SCOTT;Password=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert"**  
   
- This example creates a WCF client class for the Insert and the Delete operations on the /SCOTT/EMP table.  
+  This example creates a WCF client class for the Insert and the Delete operations on the /SCOTT/EMP table.  
   
- **.\svcutil "oracledb://User=SCOTT;Password=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete"**  
+  **.\svcutil "oracledb://User=SCOTT;Password=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete"**  
   
- This example creates a WCF service contract for the POLLLINGSTMT operation. (To use svcutil.exe to generate a WCF service contract for the POLLINGSTMT operation, you must configure a non-default binding for svcutil.exe that includes a polling statement.)  
+  This example creates a WCF service contract for the POLLLINGSTMT operation. (To use svcutil.exe to generate a WCF service contract for the POLLINGSTMT operation, you must configure a non-default binding for svcutil.exe that includes a polling statement.)  
   
- **.\svcutil "oracledb://User=SCOTT;Password=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT"**  
+  **.\svcutil "oracledb://User=SCOTT;Password=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT"**  
   
 > [!IMPORTANT]
 >  You must place the connection URI in quotation marks on the command line. Otherwise, svcutil.exe attempts to retrieve metadata for operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] does not support. The results of such an attempt are undefined.  

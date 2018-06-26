@@ -21,9 +21,9 @@ Pipeline properties are used in processing an incoming or outgoing EDI interchan
   
  There are a few exceptions to this rule:  
   
--   For X12, the character set used at runtime is determined by the pipeline property, even if the agreement has been determined. The character set described in the agreement is used only to validate agreement property settings.  
+- For X12, the character set used at runtime is determined by the pipeline property, even if the agreement has been determined. The character set described in the agreement is used only to validate agreement property settings.  
   
--   For EDIFACT, if an incoming interchange does not have a UNA segment, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the delimiters specified in the EfactDelimiters pipeline property, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not use the properties defined in the agreement the message resolves to or the fallback agreement.  
+- For EDIFACT, if an incoming interchange does not have a UNA segment, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the delimiters specified in the EfactDelimiters pipeline property, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not use the properties defined in the agreement the message resolves to or the fallback agreement.  
   
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.  
@@ -50,11 +50,11 @@ IgnoreMessageEncoding|Specifies that the BatchMarker component will not set the 
   
 ### To set a pipeline property  
   
-1.  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the receive location or send port using the pipeline that you want to set properties for, and then click **Properties**.  
+1. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the receive location or send port using the pipeline that you want to set properties for, and then click **Properties**.  
   
-2.  Click the ellipsis button (…) next to the pipeline that you want to set properties for.  
+2. Click the ellipsis button (…) next to the pipeline that you want to set properties for.  
   
-3.  In the **Configure Pipeline** dialog box, enter the value for the property, and then click **OK**.  
+3. In the **Configure Pipeline** dialog box, enter the value for the property, and then click **OK**.  
   
 ## See Also  
  [How Validation of an EDI Interchange Is Configured](../core/how-validation-of-an-edi-interchange-is-configured.md)

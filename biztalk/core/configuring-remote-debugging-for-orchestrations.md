@@ -95,23 +95,23 @@ You can completely configure remote debugging between client and server. The cli
   
  The securityPackage attribute in the \<serverProviders/> element can have any of the following values:  
   
--   negotiate  
+- negotiate  
   
--   ntlm  
+- ntlm  
   
--   Kerberos  
+- Kerberos  
   
- The authenticationLevel attribute in the \<serverProviders/> element can have any of the following values:  
+  The authenticationLevel attribute in the \<serverProviders/> element can have any of the following values:  
   
--   packetPrivacy  - the messages will be encrypted/decrypted  
+- packetPrivacy  - the messages will be encrypted/decrypted  
   
--   packetIntegrity – the messages will be signed/verified  
+- packetIntegrity – the messages will be signed/verified  
   
--   call  - the messages will be sent as is  
+- call  - the messages will be sent as is  
   
- The ref attribute in the \<channel/> element can be changed to tcp or http. The port and name attribute in the \<channel/> element can be changed as well to explicit values.  
+  The ref attribute in the \<channel/> element can be changed to tcp or http. The port and name attribute in the \<channel/> element can be changed as well to explicit values.  
   
- For more information, see .NET Framework Developer's Guide (Channel and formatter configuration properties).  
+  For more information, see .NET Framework Developer's Guide (Channel and formatter configuration properties).  
   
 ## See Also  
  [Debugging Orchestrations](../core/debugging-orchestrations.md)

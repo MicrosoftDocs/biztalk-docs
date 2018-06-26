@@ -17,13 +17,13 @@ manager: "anneta"
 # Troubleshooting SQL Server
 The majority of Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] issues that affect Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] fall into one of the following categories:  
   
--   Connectivity-related problems  
+- Connectivity-related problems  
   
--   Permissions-related problems  
+- Permissions-related problems  
   
--   Database-sizing problems  
+- Database-sizing problems  
   
- This topic discusses each of these categories and steps that you can take to resolve the associated problems.  
+  This topic discusses each of these categories and steps that you can take to resolve the associated problems.  
   
 ## Connectivity-Related Problems  
  The following issues are most commonly associated with connectivity problems between the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer and the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer that houses the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.  
@@ -47,41 +47,41 @@ The majority of Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlser
 ##### Cause  
  This problem may occur if one or more of the following conditions is true:  
   
--   [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] is not configured to accept remote connections.  
+- [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] is not configured to accept remote connections.  
   
--   The necessary protocols for [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] are not enabled on either the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer or the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] client computer that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- The necessary protocols for [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] are not enabled on either the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer or the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] client computer that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ##### Resolution  
  Follow these steps to resolve this problem:  
   
--   The **SQL Server Surface Area Configuration** tool is not available on SQL Server 2008. To enable remote connections for [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] on a SQL Server 2008 computer follow the instructions in the SQL Server 2008 online help.  
+- The **SQL Server Surface Area Configuration** tool is not available on SQL Server 2008. To enable remote connections for [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] on a SQL Server 2008 computer follow the instructions in the SQL Server 2008 online help.  
   
--   Use the **SQL Server Configuration Manager** tool to enable the **TCP/IP** and/or the **Named Pipes** protocols on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
+- Use the **SQL Server Configuration Manager** tool to enable the **TCP/IP** and/or the **Named Pipes** protocols on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
   
-    1.  Click **Start**, point to **All Programs**, and click **SQL Server Configuration Manager**.  
+  1.  Click **Start**, point to **All Programs**, and click **SQL Server Configuration Manager**.  
   
-    2.  Click to expand **SQL Server Network Configuration** and then click **Protocols for MSSQLSERVER**.  
+  2.  Click to expand **SQL Server Network Configuration** and then click **Protocols for MSSQLSERVER**.  
   
-    3.  Right-click the **TCP/IP** protocol and then click **Enable**.  
+  3.  Right-click the **TCP/IP** protocol and then click **Enable**.  
   
-    4.  Right-click the **Named Pipes** protocol and then click **Enable**.  
+  4.  Right-click the **Named Pipes** protocol and then click **Enable**.  
   
-    5.  Close the **SQL Server Configuration Manager** tool.  
+  5.  Close the **SQL Server Configuration Manager** tool.  
   
--   Use the **SQL Server Configuration Manager** tool to enable the **TCP/IP** and/or the **Named Pipes** protocols on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] client computer that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Use the **SQL Server Configuration Manager** tool to enable the **TCP/IP** and/or the **Named Pipes** protocols on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] client computer that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    1.  Click **Start**, point to **All Programs**, and click **SQL Server Configuration Manager**.  
+  1.  Click **Start**, point to **All Programs**, and click **SQL Server Configuration Manager**.  
   
-    2.  Click to expand **SQL Server Network Configuration** and then click **ClientProtocols**.  
+  2.  Click to expand **SQL Server Network Configuration** and then click **ClientProtocols**.  
   
-    3.  Right-click the **TCP/IP** protocol and then click **Enable**.  
+  3.  Right-click the **TCP/IP** protocol and then click **Enable**.  
   
-    4.  Right-click the **Named Pipes** protocol and then click **Enable**.  
+  4.  Right-click the **Named Pipes** protocol and then click **Enable**.  
   
-    5.  Close the **SQL Server Configuration Manager** tool.  
+  5.  Close the **SQL Server Configuration Manager** tool.  
   
-    > [!NOTE]
-    >  Ensure that at least one of the protocols on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] client computer that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] matches the protocols enabled on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
+  > [!NOTE]
+  >  Ensure that at least one of the protocols on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] client computer that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] matches the protocols enabled on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
   
 #### A BizTalk host instance fails and a "General Network" error is written to the Application log when the BizTalk Server-based server processes a high volume of documents  
   

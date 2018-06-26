@@ -28,21 +28,21 @@ The TI run-time environment is a specialized run-time environment started by Win
   
  The TI run-time environment uses the information in the TI object (.dll) and the associated RE to:  
   
--   Activate the TP on the mainframe in the RE.  
+- Activate the TP on the mainframe in the RE.  
   
--   Pass the parameters specified by the TI component to the TP on the mainframe by way of the associated RE.  
+- Pass the parameters specified by the TI component to the TP on the mainframe by way of the associated RE.  
   
--   Run the TP.  
+- Run the TP.  
   
--   Return the results of the TP to the .NET application TI object, which in turn returns the results to the client application that called it.  
+- Return the results of the TP to the .NET application TI object, which in turn returns the results to the client application that called it.  
   
- This The TI runtime environment provides the proxy that the TI object uses to invoke the mainframe TP. The TI run-time environment provides these functions:  
+  This The TI runtime environment provides the proxy that the TI object uses to invoke the mainframe TP. The TI run-time environment provides these functions:  
   
--   Translates between Automation and COBOL data types.  
+- Translates between Automation and COBOL data types.  
   
--   Translates messages to and from the mainframe.  
+- Translates messages to and from the mainframe.  
   
--   Provides a generic object for .NET, the behavior of which is described by a TI object (.dll) for a specific instance.  
+- Provides a generic object for .NET, the behavior of which is described by a TI object (.dll) for a specific instance.  
   
 ## See Also  
  [Programming Models](../core/programming-models2.md)   

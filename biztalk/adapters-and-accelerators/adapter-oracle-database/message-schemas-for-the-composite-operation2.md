@@ -46,7 +46,7 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] enables you to
  [PRM1_NAME] = The name of the Oracle parameter in the stored procedure.  
   
 ## Message Action for the Composite Operation  
- The message action for the composite operation is “http://Microsoft.LobServices.OracleDB/2007/03/CompositeOperation.”  
+ The message action for the composite operation is “<http://Microsoft.LobServices.OracleDB/2007/03/CompositeOperation.”>  
   
 ## See Also  
  [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting: Issues and Resolutions
-This topic addresses issues related to running [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The individual issues detail a specific symptom, a possible cause, and a solution.  
+This topic addresses issues related to running Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The individual issues detail a specific symptom, a possible cause, and a solution.  
   
 ## Error publishing a batch of "n" messages  
   
@@ -28,18 +28,18 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ### Possible Cause  
  This error could be caused by one of the following reasons:  
   
--   Missing decryption certificate  
+- Missing decryption certificate  
   
--   Incorrectly encrypted message  
+- Incorrectly encrypted message  
   
--   Unauthorized message (source not recognized as a valid partner)  
+- Unauthorized message (source not recognized as a valid partner)  
   
--   Message failing validation of any header part: preamble, delivery header, or service header.  
+- Message failing validation of any header part: preamble, delivery header, or service header.  
   
- This message may be preceded by another error message that details the cause.  
+  This message may be preceded by another error message that details the cause.  
   
 ### Solution  
- Review the details provided with the error message for additional help. Restarting [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™ may resolve this issue.  
+ Review the details provided with the error message for additional help. Restarting Microsoft [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™ may resolve this issue.  
   
 ## You cannot unenlist all artifacts  
   
@@ -47,7 +47,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
  Running the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]Clean utility does not unenlist all artifacts.  
   
 ### Possible Cause  
- If you run the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]Clean utility before deleting agreements and partners from the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Management Console (MMC), the BtarnClean utility will not be able to unenlist all artifacts because they are still used.  
+ If you run the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]Clean utility before deleting agreements and partners from the Microsoft® Management Console (MMC), the BtarnClean utility will not be able to unenlist all artifacts because they are still used.  
   
 ### Solution  
   
@@ -66,7 +66,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ## Installing BTARN on a computer without BizTalk Server causes missing files  
   
 ### Symptom  
- Running the ConfigFramework.exe file yields no results on a computer that does not have [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server or [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] installed. You can only use this [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration as an HTTP client.  
+ Running the ConfigFramework.exe file yields no results on a computer that does not have MicrosoftBizTalk Server or Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] installed. You can only use this [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration as an HTTP client.  
   
 ### Possible Cause  
  Two DLL files are missing from the installation.  
@@ -119,7 +119,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
  For example:  
   
- \<schemaInfo document_type="4A1" version="V02_00" xmlns="http://schemas.microsoft.com/BizTalk/2003" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" \>  
+ \<schemaInfo document_type="4A1" version="V02_00" xmlns="<http://schemas.microsoft.com/BizTalk/2003>" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" \>  
   
 ## 404 Not found error when sending a HTTP request  
   
@@ -138,13 +138,13 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
 ##### To configure the BizTalk ISAPI extension DLL in IIS  
   
-1.  Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  Expand **\<computer name\> (local computer)**, and then click **Web Service Extensions**.  
+2. Expand **\<computer name\> (local computer)**, and then click **Web Service Extensions**.  
   
-3.  In the **Web Service Extension** pane, verify that the status for HwsMessages HttpReceive is Allowed. If not, right-click **HwsMessages HttpReceive**, and then click **Allow**.  
+3. In the **Web Service Extension** pane, verify that the status for HwsMessages HttpReceive is Allowed. If not, right-click **HwsMessages HttpReceive**, and then click **Allow**.  
   
- If the HwsMessages HttpReceive web service extension is not configured (it is not included in the Web Service Extensions list in IIS Manager), perform the following procedure.  
+   If the HwsMessages HttpReceive web service extension is not configured (it is not included in the Web Service Extensions list in IIS Manager), perform the following procedure.  
   
 ##### To configure the BizTalk ISAPI extension DLL in IIS  
   
@@ -240,13 +240,13 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
   
 ##### To avoid this error and complete the configuration process  
   
-1.  In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to C:\Windows\system32\drivers\etc, and open the hosts file using Notepad.  
+1. In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to C:\Windows\system32\drivers\etc, and open the hosts file using Notepad.  
   
-2.  Comment out the line "127.0.0.1        localhost" by placing "# " at the start of the line. Save the changed hosts file.  
+2. Comment out the line "127.0.0.1        localhost" by placing "# " at the start of the line. Save the changed hosts file.  
   
-3.  Click **Retry** in the error dialog box.  
+3. Click **Retry** in the error dialog box.  
   
-4.  After configuration has completed successfully, re-open the hosts file in Notepad, remove the comment mark at the start of the line mapping localhost, and then save the hosts file.  
+4. After configuration has completed successfully, re-open the hosts file in Notepad, remove the comment mark at the start of the line mapping localhost, and then save the hosts file.  
   
 ## You receive an error regarding incorrect signature length  
   
@@ -299,7 +299,7 @@ This topic addresses issues related to running [!INCLUDE[btsCoName](../../includ
 ## The HubScenario sample will not be installed correctly if the assembly key files are not entered for the projects  
   
 ### Symptom  
- When you run setup.bat in *\<drive\>*:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario to set up the HubScenario sample, the operation fails.  
+ When you run setup.bat in *\<drive\>*:\Program Files\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\HubScenario to set up the HubScenario sample, the operation fails.  
   
 ### Possible Cause  
  The HubScenario and HubHelper assemblies were not deployed correctly because the assembly key files were not set in the projects.  

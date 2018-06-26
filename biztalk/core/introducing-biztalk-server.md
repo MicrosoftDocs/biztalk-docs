@@ -36,19 +36,19 @@ BizTalk Server also uses the latest releases of other Microsoft technologies. It
   
  As the figure suggests, the heart of the product is the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Engine. The engine has two main parts:  
   
--   A messaging component that provides the ability to communicate with a range of other software. By relying on adapters for different kinds of communication, the engine can support a variety of protocols and data formats, including Web services and many others.  
+- A messaging component that provides the ability to communicate with a range of other software. By relying on adapters for different kinds of communication, the engine can support a variety of protocols and data formats, including Web services and many others.  
   
--   Support for creating and running graphically-defined processes called orchestrations. Built on top of the engine’s messaging components, orchestrations implement the logic that drives all or part of a business process.  
+- Support for creating and running graphically-defined processes called orchestrations. Built on top of the engine’s messaging components, orchestrations implement the logic that drives all or part of a business process.  
   
- Several other BizTalk components can also be used in concert with the engine, including:  
+  Several other BizTalk components can also be used in concert with the engine, including:  
   
--   A Business Rule Engine that evaluates complex sets of rules.  
+- A Business Rule Engine that evaluates complex sets of rules.  
   
--   A Group Hub that lets developers and administrators monitor and manage the engine and the orchestrations it runs.  
+- A Group Hub that lets developers and administrators monitor and manage the engine and the orchestrations it runs.  
   
--   An Enterprise Single Sign-On (SSO) facility that provides the ability to map authentication information between Windows and non-Windows systems.  
+- An Enterprise Single Sign-On (SSO) facility that provides the ability to map authentication information between Windows and non-Windows systems.  
   
- On top of this foundation, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes Business Activity Monitoring, which information workers use to monitor a running business process. The information is displayed in business rather than technical terms, and business users determine what information is displayed.  
+  On top of this foundation, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes Business Activity Monitoring, which information workers use to monitor a running business process. The information is displayed in business rather than technical terms, and business users determine what information is displayed.  
   
 ## Connecting Diverse Systems  
  The great majority of modern business processes depend at least in part on software. While some of these processes are supported by a single application, many others rely on diverse software systems. In many cases, this software has been created at different times, on different platforms, and using different technologies. Automating those business processes requires connecting diverse systems.  

@@ -41,16 +41,16 @@ This topic describes how to use the BizTalk Server Administration console to enl
   
 ### To enlist an orchestration  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to enlist.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to enlist.  
   
-3.  Click **Orchestrations**, right-click the orchestration to enlist, and then click **Enlist**.  
+3. Click **Orchestrations**, right-click the orchestration to enlist, and then click **Enlist**.  
   
-    > [!NOTE]
-    >  To enlist multiple orchestrations at once, hold down the shift key and select each orchestration to enlist, right-click an orchestration, and then click **Enlist**.  
+   > [!NOTE]
+   >  To enlist multiple orchestrations at once, hold down the shift key and select each orchestration to enlist, right-click an orchestration, and then click **Enlist**.  
   
-     The orchestration is enlisted and the appropriate subscriptions are created. The orchestration is in the stopped state. To start processing incoming messages, you must explicitly start the orchestration by right-clicking it and clicking **Start**. For more information, see [How to Start an Orchestration](../core/how-to-start-an-orchestration.md).  
+    The orchestration is enlisted and the appropriate subscriptions are created. The orchestration is in the stopped state. To start processing incoming messages, you must explicitly start the orchestration by right-clicking it and clicking **Start**. For more information, see [How to Start an Orchestration](../core/how-to-start-an-orchestration.md).  
   
 ## See Also  
  [Managing Orchestrations](../core/managing-orchestrations.md)   

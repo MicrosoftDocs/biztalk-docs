@@ -17,15 +17,15 @@ manager: "anneta"
 # Error encountered during instance generation--field can repeat but repetition delimiter has not been defined
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|-|  
-|Message Text|Error encountered during instance generation. The field {0} can repeat but repetition delimiter has not been defined.|  
+|                 |                                                                                                                       |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                   |
+| Product Version |                              [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                               |
+|    Event ID     |                                                           -                                                           |
+|  Event Source   |                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                 |
+|    Component    |                                                      EDI Engine                                                       |
+|  Symbolic Name  |                                                           -                                                           |
+|  Message Text   | Error encountered during instance generation. The field {0} can repeat but repetition delimiter has not been defined. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that BizTalk Server could not generate an X12 message instance because the indicated field can repeat (as specified by the schema), but no repetition separator has been defined. This occurs when a field in the schema has minOccurs equal to more than 1, but a Standard identifier has been defined, rather than a Repetition separator. (For EDIFACT interchanges, a repetition separator is defined by default.)  

@@ -22,11 +22,11 @@ manager: "anneta"
 ## Exception list
 The exceptions thrown by the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]. These can contain:  
   
--   An inner exception, which is a system exception that the .NET Framework throws  
+- An inner exception, which is a system exception that the .NET Framework throws  
   
--   An LOB exception that the LOB client library throws.  
+- An LOB exception that the LOB client library throws.  
   
- For more information about the inner exception, refer to the respective .NET Framework or Siebel documentation. The exception also contains a detailed error message that helps in resolving the problem. Note that the list of exceptions mentioned here is not comprehensive.  
+  For more information about the inner exception, refer to the respective .NET Framework or Siebel documentation. The exception also contains a detailed error message that helps in resolving the problem. Note that the list of exceptions mentioned here is not comprehensive.  
   
 |Exception|Possible Cause/Error Description|  
 |---------------|---------------------------------------|  

@@ -40,7 +40,7 @@ manager: "anneta"
 |Address|**Virtual Circuit Type or Remote X.25 Address**|**DIALNO=** parameter in the PORT definition|  
 |X.25|**Max BTU Length**|**MAXDATA=** parameter in the PU definition (set Max BTU Length less than or equal to MAXDATA)|  
   
--   Required parameter in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
+- Required parameter in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
 ## See Also  
  [SNA Manager Help](../core/sna-manager-help1.md)

@@ -20,11 +20,11 @@ This version of Enterprise Single Sign-On (SSO) contains a Management Agent (MA)
   
  You configure the Management Agent in three separate parts:  
   
--   A configuration file (ENTSSO.xml)  
+- A configuration file (ENTSSO.xml)  
   
--   The ENTSSO user interface  
+- The ENTSSO user interface  
   
- The topics in this section describe the configuration process.  
+  The topics in this section describe the configuration process.  
   
 ## In This Section  
  [How to Configure the XML File](../esso/how-to-configure-the-xml-file.md)  

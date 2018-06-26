@@ -45,18 +45,18 @@ CM_ENTRY Set_Conversation_Security_Type( 
   
  When CM_SECURITY_SAME is used, your application must always call [Set_Conversation_Security_User_ID](../core/set-conversation-security-user-id-cpi-c-1.md) and [Set_Conversation_Security_Password](../core/set-conversation-security-password-cpi-c-1.md) to provide values for the *security_user_ID* and *security_password* parameters. Depending on the properties negotiated between SNA Server and the peer LU, the **Allocate** function will send one of 3 kinds of Attach (FMH-5) messages, in this order of precedence:  
   
-1.  If the LUs have negotiated already verified security, the Attach sent by SNA Server will not include the contents of the security_password parameter field specified by Set_Conversation_Security_Password.  
+1. If the LUs have negotiated already verified security, the Attach sent by SNA Server will not include the contents of the security_password parameter field specified by Set_Conversation_Security_Password.  
   
-2.  If the LUs have negotiated persistent verification security, the Attach sent by SNA Server will include the security_password parameter specified by Set_Conversation_Security_Password, but only when the Attach is the first for the specified security_user_ID parameter set by Set_Conversation_Security_User_ID since the start of the LU-LU session, and will omit the security_password parameter on all subsequent Attaches (issued by your application or any other application using this LU-LU-mode triplet).  
+2. If the LUs have negotiated persistent verification security, the Attach sent by SNA Server will include the security_password parameter specified by Set_Conversation_Security_Password, but only when the Attach is the first for the specified security_user_ID parameter set by Set_Conversation_Security_User_ID since the start of the LU-LU session, and will omit the security_password parameter on all subsequent Attaches (issued by your application or any other application using this LU-LU-mode triplet).  
   
-3.  Your application cannot tell which mode of security has been negotiated between the LUs, nor can it tell whether the **Allocate** function it is issuing is the first for that LU-LU-mode triplet. So your application must always call Set_Conversation_Security_User_ID and Set_Conversation_Security_Password to set the security_user_ID and security_password parameters when conversation_security_type is set to CM_SECURITY_SAME.  
+3. Your application cannot tell which mode of security has been negotiated between the LUs, nor can it tell whether the **Allocate** function it is issuing is the first for that LU-LU-mode triplet. So your application must always call Set_Conversation_Security_User_ID and Set_Conversation_Security_Password to set the security_user_ID and security_password parameters when conversation_security_type is set to CM_SECURITY_SAME.  
   
- For more information on persistent verification and already verified security, see the SNA Formats Guide, section "FM Header 5: Attach (LU 6.2)."  
+   For more information on persistent verification and already verified security, see the SNA Formats Guide, section "FM Header 5: Attach (LU 6.2)."  
   
- If the CPI-C automatic logon feature is to be used, this parameter must be set to CM_SECURITY_PROGRAM. For details, see the Remarks section later in this topic.  
+   If the CPI-C automatic logon feature is to be used, this parameter must be set to CM_SECURITY_PROGRAM. For details, see the Remarks section later in this topic.  
   
- *return_code*  
- The code returned from this call. The valid return codes are listed later in this topic.  
+   *return_code*  
+   The code returned from this call. The valid return codes are listed later in this topic.  
   
 ## Return Codes  
  CM_OK  

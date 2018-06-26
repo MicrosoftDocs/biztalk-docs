@@ -34,11 +34,11 @@ As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincomm
 ### The Connection URI  
  To use the **MetadataExchangeClient** you must supply an Oracle connection URI that specifies a MEX endpoint and the operation or operations for which you want to retrieve metadata. You specify a MEX endpoint and target operations in the connection URI in the following manner:  
   
--   You must include the "wsdl" parameter in the query string. If it is the first parameter in the query string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
+- You must include the "wsdl" parameter in the query string. If it is the first parameter in the query string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
   
--   You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the message action (node ID) of a target operation.  
+- You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the message action (node ID) of a target operation.  
   
- For example, the following connection URI targets the Insert and Delete operations for the SCOTT.EMP table. The "wsdl" and "op" parameters are highlighted.  
+  For example, the following connection URI targets the Insert and Delete operations for the SCOTT.EMP table. The "wsdl" and "op" parameters are highlighted.  
   
 ```  
 "oracledb://ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete"  

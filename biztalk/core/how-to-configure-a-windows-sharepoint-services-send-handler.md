@@ -26,19 +26,19 @@ Use the following procedure to change the host with which the Windows SharePoint
   
 ### To change global variables for a Windows SharePoint Services send handler  
   
-1.  In the BizTalk Server Administration console, click to expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, and then click to expand **BizTalk Group [\<servername\>:\<management database\>]**, click to expand **Platform Settings**, and then click to expand **Adapters**. The list of adapters appears under the folder.  
+1. In the BizTalk Server Administration console, click to expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, and then click to expand **BizTalk Group [\<servername\>:\<management database\>]**, click to expand **Platform Settings**, and then click to expand **Adapters**. The list of adapters appears under the folder.  
   
-2.  Click **Windows SharePoint Services**, and in the right pane, right-click the send handler that you want to configure, and then click **Properties**.  
+2. Click **Windows SharePoint Services**, and in the right pane, right-click the send handler that you want to configure, and then click **Properties**.  
   
-3.  In the **Adapter Handler Properties** dialog box, on the **General** tab, in the **Host Name** list, select the host with which the send handler will be associated.  
+3. In the **Adapter Handler Properties** dialog box, on the **General** tab, in the **Host Name** list, select the host with which the send handler will be associated.  
   
-4.  On the **General** tab, click **Properties**.  
+4. On the **General** tab, click **Properties**.  
   
-5.  In the **Windows SharePoint Services Transport Properties** dialog box, do the following:  
+5. In the **Windows SharePoint Services Transport Properties** dialog box, do the following:  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |Send Batch Size|The maximum number of documents that the Windows SharePoint Services Web service will process as a batch. The default is 20. **Note:**  The minimum value is 1.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |Send Batch Size|The maximum number of documents that the Windows SharePoint Services Web service will process as a batch. The default is 20. **Note:**  The minimum value is 1.|  
   
 ## See Also  
  [How to Configure a Windows SharePoint Services Receive Location](../core/how-to-configure-a-windows-sharepoint-services-receive-location.md)   

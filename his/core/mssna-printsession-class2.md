@@ -66,12 +66,12 @@ class MsSna_PrintSession : MsSna_Config
  The session name, which distinguishes different printers on the network.  
   
  **Service**  
- Data Type: **String** Qualifiers: **MAXLEN(20)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(20)</strong>Access Type: Read/Write  
   
  The SNA service to which the print session belongs.  
   
  **Comment**  
- Data Type: **String** Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   
@@ -106,17 +106,17 @@ class MsSna_PrintSession : MsSna_Config
  The code page to be used in the print session. For more information about the possible values for **CodePageLanguage**, see the **Remarks** section.  
   
  **PrinterDeviceName**  
- Data Type: **String** Qualifiers: **MAXLEN(256)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(256)</strong>Access Type: Read/Write  
   
  The name of the destination printer.  
   
  **CodePageCustomFile**  
- Data Type: **String** Qualifiers: **MAXLEN(256)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(256)</strong>Access Type: Read/Write  
   
  The file name if a custom code page is to be used.  
   
  **PrinterFile**  
- Data Type: **String** Qualifiers: **MAXLEN(256)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(256)</strong>Access Type: Read/Write  
   
  The name of the file. Valid only when printing to a file.  
   
@@ -126,7 +126,7 @@ class MsSna_PrintSession : MsSna_Config
  **true** to indicate that the print job will be sent to a file; otherwise, **false**. Note that you must still configure a destination printer.  
   
  **FaceName**  
- Data Type: **String** Qualifiers: **MAXLEN(31)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(31)</strong>Access Type: Read/Write  
   
  The name of the face.  
   
@@ -136,7 +136,7 @@ class MsSna_PrintSession : MsSna_Config
  **true** to override the host commands; otherwise, **false**.  
   
  **LeftMargin**  
- Data Type: **sint32** Qualifiers: **MINVALUE(0), MAXVALUE(255)**Access Type: Read/Write  
+ Data Type: **sint32** Qualifiers: <strong>MINVALUE(0), MAXVALUE(255)</strong>Access Type: Read/Write  
   
  The left margin, in inches.  
   
@@ -151,7 +151,7 @@ class MsSna_PrintSession : MsSna_Config
  The top margin, in inches.  
   
  **BottomMargin**  
- Data Type: **sint32** Qualifiers: **MINVALUE(0), MAXVALUE(255)**Access Type: Read/Write  
+ Data Type: **sint32** Qualifiers: <strong>MINVALUE(0), MAXVALUE(255)</strong>Access Type: Read/Write  
   
  The bottom margin, in inches.  
   
@@ -166,7 +166,7 @@ class MsSna_PrintSession : MsSna_Config
  **true** to instruct the print service to give each file a unique extension when printing a file.  
   
  **PDTFile**  
- Data Type: **String** Qualifiers: **MAXLEN(256)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(256)</strong>Access Type: Read/Write  
   
  A PDT file used to format the print job.  
   
@@ -176,7 +176,7 @@ class MsSna_PrintSession : MsSna_Config
  **true** to indicate that a PDT file will be used to format the print job; otherwise, **false**.  
   
  **Filter**  
- Data Type: **String** Qualifiers: **MAXLEN(256)**Access Type: Read/Write  
+ Data Type: **String** Qualifiers: <strong>MAXLEN(256)</strong>Access Type: Read/Write  
   
  The filter DLL to be used to filter the printer data stream.  
   

@@ -17,17 +17,17 @@ manager: "anneta"
 # Identifying Bottlenecks in the BizTalk Tier
 The BizTalk tier can be divided into the following functional areas:  
   
--   Receiving  
+- Receiving  
   
--   Processing  
+- Processing  
   
--   Transmitting  
+- Transmitting  
   
--   Tracking  
+- Tracking  
   
--   Other  
+- Other  
   
- For these areas, if the system resources (CPU, memory, and disk) appear to be saturated, upgrade the server by scaling up. If the system resources are not saturated, perform the steps described in this section.  
+  For these areas, if the system resources (CPU, memory, and disk) appear to be saturated, upgrade the server by scaling up. If the system resources are not saturated, perform the steps described in this section.  
   
 ## Bottlenecks in the Receive Location  
  If messages start building up at the receive location (for example, file receive folder grows large or outgoing queue is not being drained fast enough) this is an indication that the system is unable to absorb data at a sufficiently fast rate to keep up with the incoming load either due to internal throttling (BizTalk reduces receiving rate if the subscribers are unable to process data fast enough causing backlog buildup in the database tables). In case the bottleneck is caused due to hardware limitations try scaling up. It is also possible to scale out by adding a Host Instance (server) to the Host mapped to the receive handler. Use Perfmon to monitor the resource utilization on the system. It is important to confirm that the external receive location is not the cause of the bottleneck. For example, remote file share is saturated due to high disk IO or the server hosting the remote outgoing queue is not saturated or the client used to generate HTTP/SOAP load is not starved on threads.  

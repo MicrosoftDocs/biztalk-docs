@@ -19,21 +19,21 @@ manager: "anneta"
 ## Requirements
 The following prerequisites must be installed to deploy the Business Process Management solution on a single computer:  
   
--   Microsoft Windows
+- Microsoft Windows
   
--   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Microsoft Message Queuing (MSMQ) with MSMQ HTTP Support
+- Microsoft Message Queuing (MSMQ) with MSMQ HTTP Support
   
--   Microsoft SQL Server
+- Microsoft SQL Server
   
--   Microsoft Internet Information Services with WWW and FTP  
+- Microsoft Internet Information Services with WWW and FTP  
   
--   ASP.NET enabled  
+- ASP.NET enabled  
   
--   Microsoft Visual Studio  
+- Microsoft Visual Studio  
   
--   Microsoft Excel  
+- Microsoft Excel  
   
 ## See Also  
  [How to Install the Business Process Management Solution](../core/how-to-install-the-business-process-management-solution.md)   

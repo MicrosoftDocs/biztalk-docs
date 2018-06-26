@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11070
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11070|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_PS_MIIS_NOT_ALLOWED|  
-|Message Text|This SSO server is currently not configured to allow Windows password changes from MIIS. Use 'ssoconfig -allowPS MIIS yes' or the SSO Administration MMC.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client User: %2|  
+|                 |                                                                                                                                                                                                                       |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                               Enterprise Single Sign-On                                                                                               |
+| Product Version |                                                                              [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                               |
+|    Event ID     |                                                                                                         11070                                                                                                         |
+|  Event Source   |                                                                                                        ENTSSO                                                                                                         |
+|    Component    |                                                                                                          N/A                                                                                                          |
+|  Symbolic Name  |                                                                                             SSO_WARN_PS_MIIS_NOT_ALLOWED                                                                                              |
+|  Message Text   | This SSO server is currently not configured to allow Windows password changes from MIIS. Use 'ssoconfig -allowPS MIIS yes' or the SSO Administration MMC.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client User: %2 |
   
 ## Explanation  
  This SSO server is currently not configured to allow Windows password changes from MIIS.  

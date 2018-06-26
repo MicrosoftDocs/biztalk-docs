@@ -23,7 +23,7 @@ manager: "anneta"
 ---
 # Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces basic Insert, Update, Delete, and Select operations for each table and view in the Oracle database. These operations perform the appropriate SQL statement qualified by a WHERE clause. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses strongly-typed records and record sets in these operations.  
-  
+
 ## Message Structure for Basic Table Operations  
  The following table shows the XML message structure for the basic table operations exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] on Oracle database tables. The target table for an operation is specified in the message action and also appears in the target namespace.  
 
@@ -155,7 +155,7 @@ The number of rows deleted is returned in the DeleteResult element.
 <DeleteResult>[rows inserted]</DeleteResult> 
 </DeleteResponse>
 ```
-  
+
   | Placeholder value| Description |
   | --- | --- |
   | [VERSION] | The message version string; for example, `http://Microsoft.LobServices.OracleDB/2007/03`|
@@ -165,32 +165,33 @@ The number of rows deleted is returned in the DeleteResult element.
   | [COLUMN_list] | Comma-separated list of columns; for example, `NAME`|
   | [SELECT_query] | A SQL SELECT statement specified in the QUERY element of a Bulk Insert operation; for example, `SELECT * from MyTable`|
   | [WHERE_clause] | WHERE_clause for the SELECT statement used for the operation; for example, `ID > 10`|
-  
+
 > [!IMPORTANT]
 >  The message structure for the basic table operations on views is the same as that on tables, but the namespace for the operation specifies a view rather than a table: `<Insert xmlns ="[VERSION]/[SCHEMA]/``View``/[VIEW_NAME]">`.  
-  
+
 ## Message Actions for Basic Table Operations  
  The following table shows the message actions that are used by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] for the basic table operations on tables. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses the table name specified in the message action to determine the target table of the operation.  
-  
-|Operation|Message Action|Example|  
-|---------------|--------------------|-------------|  
-|Insert|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert|  
-|Insert Response|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert/response|  
-|Select|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select|  
-|Select Response|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select/response|  
-|Update|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update|  
-|Update Response|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update/response|  
-|Delete|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete|  
-|Delete Response|[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete/response|  
-  
+
+
+|    Operation    |                    Message Action                     |                                    Example                                    |
+|-----------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
+|     Insert      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert      |
+| Insert Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert/response |
+|     Select      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select      |
+| Select Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select/response |
+|     Update      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update      |
+| Update Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update/response |
+|     Delete      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete      |
+| Delete Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete/response |
+
  [VERSION] = The message version string; for example, http://Microsoft.LobServices.OracleDB/2007/03.  
-  
+
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
-  
+
  [TABLE_NAME] = Name of the table; for example, EMP.  
-  
+
 > [!IMPORTANT]
 >  The message action for an operation on a view is the same as that for a table except that "View" replaces "Table"; for example, `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/``View``/EMPVIEW/Insert`.  
-  
+
 ## See Also  
  [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

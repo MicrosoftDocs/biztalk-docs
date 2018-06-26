@@ -24,28 +24,28 @@ manager: "anneta"
   
 ### To create the Send_Async_997 send port  
   
-1.  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the BizTalk Application 1 node, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
+1. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the BizTalk Application 1 node, right-click **Send Ports**, point to **New**, and then click **Static One-way Send Port**.  
   
-    > [!NOTE]
-    >  You will use a static one-way send port because no MDN has been set up for the Fabrikam party as an AS2 message receiver.  
+   > [!NOTE]
+   >  You will use a static one-way send port because no MDN has been set up for the Fabrikam party as an AS2 message receiver.  
   
-2.  In the **Send Port Properties** dialog box, name your send port **Send_Async_997**. Select **HTTP** for **Type**, and then click **Configure**.  
+2. In the **Send Port Properties** dialog box, name your send port **Send_Async_997**. Select **HTTP** for **Type**, and then click **Configure**.  
   
-3.  In the **HTTP Transport Properties** dialog box, for **Destination URL**, enter `http://localhost/Fabrikam/Default.aspx?Destination=_997ToFabrikam`. Clear **Enable chunked encoding** and then click **OK**.  
+3. In the **HTTP Transport Properties** dialog box, for **Destination URL**, enter `http://localhost/Fabrikam/Default.aspx?Destination=_997ToFabrikam`. Clear **Enable chunked encoding** and then click **OK**.  
   
-    > [!NOTE]
-    >  The **Destination URL** setting ensures that the send port will send the 997 message to the Fabrikam virtual directory. The Default.aspx.cs file associated with that virtual directory builds the 997 with an .msg extension, and sends it to the destination folder.  
+   > [!NOTE]
+   >  The **Destination URL** setting ensures that the send port will send the 997 message to the Fabrikam virtual directory. The Default.aspx.cs file associated with that virtual directory builds the 997 with an .msg extension, and sends it to the destination folder.  
   
-4.  In the **Send Port Properties** dialog box, select **AS2EdiSend** for **Send Pipeline**.  
+4. In the **Send Port Properties** dialog box, select **AS2EdiSend** for **Send Pipeline**.  
   
-5.  Click **Filters** in the console tree. For **Property**, select **BTS.MessageType**. For **Operator**, select **==**. For **Value**, enter `http://schemas.microsoft.com/Edi/X12#X12_997_Root`.  
+5. Click **Filters** in the console tree. For **Property**, select **BTS.MessageType**. For **Operator**, select **==**. For **Value**, enter `http://schemas.microsoft.com/Edi/X12#X12_997_Root`.  
   
-    > [!NOTE]
-    >  This filter ensures that the send port will only pick up 997 acknowledgments from the MessageBox.  
+   > [!NOTE]
+   >  This filter ensures that the send port will only pick up 997 acknowledgments from the MessageBox.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
-7.  In the **Send Ports** pane of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Send_Async_997** send port, and then click **Start**.  
+7. In the **Send Ports** pane of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Send_Async_997** send port, and then click **Start**.  
   
 ## Next Steps  
  You configure the send port (**Send_Payload_EdiXml**) to send the EDI payload to Contoso, as described in [Step 9: Configure the EDI Payload Send Port](../core/step-9-configure-the-edi-payload-send-port.md).  

@@ -42,7 +42,7 @@ To access information in DB2 servers using the Data Provider, you must first con
  
      > **NOTE:** To utilize Kerberos, Enterprise Single Sign-On, or encrypted crdentials, specify values on the Data Links **All** tab.  
   
-###User name  
+### User name  
   
 -   DB2 for z/OS accepts an 8 byte string.  
   
@@ -52,7 +52,7 @@ To access information in DB2 servers using the Data Provider, you must first con
   
 -   DB2 for Windows accepts a 30 byte string.  
   
-###Password  
+### Password  
   
 -   DB2 for z/OS accepts an 8 byte string.  
   
@@ -62,7 +62,7 @@ To access information in DB2 servers using the Data Provider, you must first con
   
 -   DB2 for Windows accepts a 32 byte string.  
 
-###Allow saving password  
+### Allow saving password  
  You can save the password in a UDL or text file by clicking the Allow saving password check box.  
   
 > [!WARNING]
@@ -82,19 +82,19 @@ To access information in DB2 servers using the Data Provider, you must first con
 ### Package collection  
  The Data Provider requires this value to create packages with static SQL statements (example: CREATE CURSOR), that are used to retrieve data when querying the database.  
   
--   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).  
+- DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).  
   
--   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).  
+- DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).  
   
--   DB2 for LUW accepts a 30 byte string.  
+- DB2 for LUW accepts a 30 byte string.  
   
- The Data Provider creates packages using one of the following options.  
+  The Data Provider creates packages using one of the following options.  
   
--   Automatic for single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute permissions to the current user.  
+- Automatic for single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute permissions to the current user.  
   
--   Manual for multi-user environment. At design-time when you use the Data Access Tool menu option, Data Source Wizard, Data Access Library or Data Links, the Data Provider creates and binds a set of 4 packages (5 packages for DB2 for i5/OS). The Data Provider grants execute permissions to the PUBLIC group.  
+- Manual for multi-user environment. At design-time when you use the Data Access Tool menu option, Data Source Wizard, Data Access Library or Data Links, the Data Provider creates and binds a set of 4 packages (5 packages for DB2 for i5/OS). The Data Provider grants execute permissions to the PUBLIC group.  
   
- The Data Provider creates 4-5 packages, depending on database server platform and environment. The following table describes the packages and isolation levels.  
+  The Data Provider creates 4-5 packages, depending on database server platform and environment. The following table describes the packages and isolation levels.  
   
 |Microsoft Package Name|DB2 Isolation Level Name|OLE DB Isolation Level Name|  
 |----------------------------|------------------------------|---------------------------------|  

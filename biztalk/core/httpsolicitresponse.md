@@ -55,49 +55,49 @@ The HTTPSolicitResponse sample demonstrates how to create a Microsoft [!INCLUDE[
   
 #### To build and initialize the sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\AdaptersUsage\HTTPSolicitResponse  
+    \<*Samples Path*\>\AdaptersUsage\HTTPSolicitResponse  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    -   Creates the input and output folders for this sample:  
+   - Creates the input and output folders for this sample:  
   
-         \<*Samples Path*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
+      \<*Samples Path*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
   
-         \<*Samples Path*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
+      \<*Samples Path*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
   
-    -   Compiles and configures the multiplier ASP.NET application used by this sample.  
+   - Compiles and configures the multiplier ASP.NET application used by this sample.  
   
-        > [!NOTE]
-        >  While creating application pool in IIS Manager, set the **DefaultAppPool** .NET Framework version to **.Net Framework v4.0**.  
+     > [!NOTE]
+     >  While creating application pool in IIS Manager, set the **DefaultAppPool** .NET Framework version to **.Net Framework v4.0**.  
   
-    -   Compiles and deploys the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration used in this sample.  
+   - Compiles and deploys the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration used in this sample.  
   
-    -   Creates and binds the necessary [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location and ports.  
+   - Creates and binds the necessary [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location and ports.  
   
-        > [!NOTE]
-        >  This sample displays the following warnings when creating and binding the ports:  
+     > [!NOTE]
+     >  This sample displays the following warnings when creating and binding the ports:  
   
-        > [!NOTE]
-        >  `Warning: Receive handler not specified for receive location "HttpSolicitResponseReceiveLocation"; updating with first receive handler with matching transport type.`  
+     > [!NOTE]
+     >  `Warning: Receive handler not specified for receive location "HttpSolicitResponseReceiveLocation"; updating with first receive handler with matching transport type.`  
   
-        > [!NOTE]
-        >  `Warning: Host not specified for orchestration "Microsoft.Samples.BizTalk.HttpSolicitResponse.MultiplyTwoIntegers"; updating with first available host.`  
+     > [!NOTE]
+     >  `Warning: Host not specified for orchestration "Microsoft.Samples.BizTalk.HttpSolicitResponse.MultiplyTwoIntegers"; updating with first available host.`  
   
-    -   Enables the receive location, and starts the send port.  
+   - Enables the receive location, and starts the send port.  
   
-        > [!NOTE]
-        >  The orchestration in this sample uses a two-way port for the HTTP interaction with the ASP.NET application.  
+     > [!NOTE]
+     >  The orchestration in this sample uses a two-way port for the HTTP interaction with the ASP.NET application.  
   
-        > [!NOTE]
-        >  You should confirm that BizTalk did not report any errors during the build and initialization process before attempting to run this sample.  
+     > [!NOTE]
+     >  You should confirm that BizTalk did not report any errors during the build and initialization process before attempting to run this sample.  
   
-        > [!NOTE]
-        >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name Utility (sn.exe). Use this key pair to sign the resulting assemblies.  
+     > [!NOTE]
+     >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name Utility (sn.exe). Use this key pair to sign the resulting assemblies.  
   
-        > [!NOTE]
-        >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
+     > [!NOTE]
+     >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
   
 ## Running the Sample  
  Use the following procedure to run the HTTPSolicitResponse sample.  

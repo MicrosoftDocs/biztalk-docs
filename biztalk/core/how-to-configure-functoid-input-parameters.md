@@ -19,19 +19,19 @@ manager: "anneta"
 # How to Configure Functoid Input Parameters
 Properly configuring the input parameters to the functoids in your map is one of the most important, and potentially error-prone, aspects of using functoids. You can configure the functoid input parameters as follows:  
   
--   Create visible input links by connecting schema nodes and respective functoids (drag-and-drop the mouse from schema node to the functoid).  
+- Create visible input links by connecting schema nodes and respective functoids (drag-and-drop the mouse from schema node to the functoid).  
   
--   Directly edit the list of input parameters using the **Configure \<Functoid\> Functoid** dialog box.  
+- Directly edit the list of input parameters using the **Configure \<Functoid\> Functoid** dialog box.  
   
- This topic provides step-by-step instructions for configuring the input parameters for a functoid using these methods.  
+  This topic provides step-by-step instructions for configuring the input parameters for a functoid using these methods.  
   
- The dragging method of establishing functoid input parameters provides a convenient way to specify input parameters that involve XPath specifications into the source schema. For information on creating a schema node and functoid input parameters, see [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md). However, the **Configure \<Functoid\> Functoid** dialog box is the definitive mechanism for viewing all the input parameters to a functoid, for creating and modifying any constant parameters, and for re-arranging the order of the input parameters when necessary.  
+  The dragging method of establishing functoid input parameters provides a convenient way to specify input parameters that involve XPath specifications into the source schema. For information on creating a schema node and functoid input parameters, see [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md). However, the **Configure \<Functoid\> Functoid** dialog box is the definitive mechanism for viewing all the input parameters to a functoid, for creating and modifying any constant parameters, and for re-arranging the order of the input parameters when necessary.  
   
- When you configure the input parameters for a functoid directly on the grid page (by drawing lines, using the mouse drag-and-drop, from the source schema node and linking it to the functoid), if the number of inputs reaches maximum, the cursor changes to a NO state. Also, the status bar displays the reason. The figure below shows a functoid which accepts only one input link.  
+  When you configure the input parameters for a functoid directly on the grid page (by drawing lines, using the mouse drag-and-drop, from the source schema node and linking it to the functoid), if the number of inputs reaches maximum, the cursor changes to a NO state. Also, the status bar displays the reason. The figure below shows a functoid which accepts only one input link.  
   
- ![NO state for configuring functoid input parameter](../core/media/configure-input-parameters-no-state.gif "Configure_input_parameters_NO_state")  
+  ![NO state for configuring functoid input parameter](../core/media/configure-input-parameters-no-state.gif "Configure_input_parameters_NO_state")  
   
- You can configure the Scripting and Table Looping functoids using the **Configure \<Functoid\> Functoid** dialog box. For information about how to configure the functoids, see [How to Configure the Scripting Functoid](../core/how-to-configure-the-scripting-functoid.md) and [How to Configure the Table Looping and Table Extractor Functoids](../core/how-to-configure-the-table-looping-and-table-extractor-functoids.md).  
+  You can configure the Scripting and Table Looping functoids using the **Configure \<Functoid\> Functoid** dialog box. For information about how to configure the functoids, see [How to Configure the Scripting Functoid](../core/how-to-configure-the-scripting-functoid.md) and [How to Configure the Table Looping and Table Extractor Functoids](../core/how-to-configure-the-table-looping-and-table-extractor-functoids.md).  
   
 ## Prerequisites  
  These instructions require that BizTalk Mapper is running.  

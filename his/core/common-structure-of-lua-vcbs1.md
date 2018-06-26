@@ -129,33 +129,33 @@ struct LUA_COMMON {
   
  When [SLI_OPEN](../core/sli-open2.md) is issued, this parameter can be one of the following:  
   
--   The logon message for the SSCP normal flow when the initialization type is secondary with an unformatted logon message.  
+- The logon message for the SSCP normal flow when the initialization type is secondary with an unformatted logon message.  
   
--   The request/response unit (RU) for INITSELF. When the initialization type is secondary with INITSELF, the necessary data for the application is provided.  
+- The request/response unit (RU) for INITSELF. When the initialization type is secondary with INITSELF, the necessary data for the application is provided.  
   
--   For all other open types, this field should be set to zero.  
+- For all other open types, this field should be set to zero.  
   
- For other RUI and Session Level Interface (SLI) verbs, this parameter is not used and should be set to zero. Both SNA commands and data are placed in this buffer, and they can be in an EBCDIC format.  
+  For other RUI and Session Level Interface (SLI) verbs, this parameter is not used and should be set to zero. Both SNA commands and data are placed in this buffer, and they can be in an EBCDIC format.  
   
- This information is provided by the Windows LUA application.  
+  This information is provided by the Windows LUA application.  
   
- *lua_post_handle*  
- Supplied parameter. Used under Windows if asynchronous notification is to be accomplished by events. This variable contains the handle of the event to be signaled or a window handle.  
+  *lua_post_handle*  
+  Supplied parameter. Used under Windows if asynchronous notification is to be accomplished by events. This variable contains the handle of the event to be signaled or a window handle.  
   
- *lua_th*  
- Returned parameter. Contains the SNA transmission header (TH) of the message sent or received. Various subparameters are set for write functions and returned for read and bid functions. The subparameters are as follows:  
+  *lua_th*  
+  Returned parameter. Contains the SNA transmission header (TH) of the message sent or received. Various subparameters are set for write functions and returned for read and bid functions. The subparameters are as follows:  
   
- lua_th.flags_fid  
+  lua_th.flags_fid  
   
- Format identification type 2, four bits.  
+  Format identification type 2, four bits.  
   
- lua_th.flags_mpf  
+  lua_th.flags_mpf  
   
- Segmenting mapping field, two bits. Defines the type of data segment. The following values are valid:  
-* **0x00** Middle segment
-* **0x01** Last segment
-* **0x02** First segment
-* **0x03** Only segment
+  Segmenting mapping field, two bits. Defines the type of data segment. The following values are valid:  
+- **0x00** Middle segment
+- **0x01** Last segment
+- **0x02** First segment
+- **0x03** Only segment
  
   
  lua_th.flags_odai  
@@ -368,8 +368,8 @@ struct LUA_COMMON {
  *lua_encr_decr_option*  
  This parameter is a field for cryptography options. On **RUI_INIT**, only the following are supported:  
   
--   **lua_encr_decr_option** = 0  
+- **lua_encr_decr_option** = 0  
   
--   **lua_encr_decr_option** = 128  
+- **lua_encr_decr_option** = 128  
   
- For all other LUA verbs, this parameter is reserved and should be set to zero.
+  For all other LUA verbs, this parameter is reserved and should be set to zero.

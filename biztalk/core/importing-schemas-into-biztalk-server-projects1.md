@@ -26,25 +26,25 @@ The following information describes how to import schemas into a BizTalk Server 
   
 #### To import schemas  
   
-1.  In Solution Explorer, right-click the project, point to **Add**, and select **Add Generated Items**.  
+1. In Solution Explorer, right-click the project, point to **Add**, and select **Add Generated Items**.  
   
-2.  Click **Add adapter**, and then select **Open**.  
+2. Click **Add adapter**, and then select **Open**.  
   
-3.  Select the adapter**, J.D. Edwards OneWorld XE**.  
+3. Select the adapter<strong>, J.D. Edwards OneWorld XE</strong>.  
   
-4.  In the drop-down list, select the port **SSOSendToJD Edwards OneWorld XE**, and then click **Next**.  
+4. In the drop-down list, select the port **SSOSendToJD Edwards OneWorld XE**, and then click **Next**.  
   
-     The myJ.D. Edwards OneWorld XESSO logical system appears in the browser (this logical system was created with the SSOSendToJ.D. Edwards OneWorld XE port).  
+    The myJ.D. Edwards OneWorld XESSO logical system appears in the browser (this logical system was created with the SSOSendToJ.D. Edwards OneWorld XE port).  
   
-5.  Expand **myJ.D. Edwards OneWorld XESSO**.  
+5. Expand **myJ.D. Edwards OneWorld XESSO**.  
   
-6.  Click the arrow icon to move the item (or simply drag it) into the **Transmit** window, and then click **OK**.  
+6. Click the arrow icon to move the item (or simply drag it) into the **Transmit** window, and then click **OK**.  
   
-     The schemas are added to the SSOSchedule project.  
+    The schemas are added to the SSOSchedule project.  
   
-7.  In Solution Explorer, expand **SSOSchedule project**.  
+7. In Solution Explorer, expand **SSOSchedule project**.  
   
-8.  Right-click **BizTalk orchestration.odx**, and then click **Delete**.  
+8. Right-click **BizTalk orchestration.odx**, and then click **Delete**.  
   
 9. In Solution Explorer, double-click **GetList.odx** to inspect the orchestration.  
   

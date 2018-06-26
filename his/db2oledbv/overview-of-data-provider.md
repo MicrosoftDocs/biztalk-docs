@@ -19,20 +19,20 @@ The Microsoft OLE DB Provider for DB2 (Data Provider) lets you create distribute
 ## Data Provider Features  
  The Data Provider offers the following features:  
   
--   Installation using an interactive and scriptable program.  
+- Installation using an interactive and scriptable program.  
   
--   Support for Windows 32-bit x86 and 64-bit x64 operating systems.  
+- Support for Windows 32-bit x86 and 64-bit x64 operating systems.  
   
--   Compatibility with SQL Server, SQL Server Data Tools, and SQL Server PowerPivot  
+- Compatibility with SQL Server, SQL Server Data Tools, and SQL Server PowerPivot  
   
--   Access to DB2 server computers across a TCP/IP network connection.  
+- Access to DB2 server computers across a TCP/IP network connection.  
   
--   Execution of DB2 dynamic SQL commands within remote unit of work transactions.  
+- Execution of DB2 dynamic SQL commands within remote unit of work transactions.  
   
--   Tools for creating, testing, modifying and storing data source definitions.  
+- Tools for creating, testing, modifying and storing data source definitions.  
   
--   A trace utility for recording flows and commands to enable troubleshooting of problems.  
+- A trace utility for recording flows and commands to enable troubleshooting of problems.  
   
--   Help through on-line user documentation.  
+- Help through on-line user documentation.  
   
- The Data Provider is designed and tested for use with multiple versions of Microsoft SQL Server and SQL Server Data Tools. The Data Provider is based on technology in Microsoft Host Integration Server (HIS). For more information about Microsoft HIS, see [Microsoft HIS Documentation](http://go.microsoft.com/fwlink/?LinkId=799230).
+  The Data Provider is designed and tested for use with multiple versions of Microsoft SQL Server and SQL Server Data Tools. The Data Provider is based on technology in Microsoft Host Integration Server (HIS). For more information about Microsoft HIS, see [Microsoft HIS Documentation](http://go.microsoft.com/fwlink/?LinkId=799230).

@@ -20,11 +20,11 @@ manager: "anneta"
 # BAM DTS Packages
 An administrator can update parameters for the following BAM DTS packages:  
   
--   The **CubeUpdate** Data Transformation Services (DTS) package is always located on the same server as the Star Schema database.  
+- The **CubeUpdate** Data Transformation Services (DTS) package is always located on the same server as the Star Schema database.  
   
--   The **DataMaintenance** DTS package is always located on the same server as the Primary Import database.  
+- The **DataMaintenance** DTS package is always located on the same server as the Primary Import database.  
   
- The DTS packages use the following parameters in the BAMConfiguration.xml file.  
+  The DTS packages use the following parameters in the BAMConfiguration.xml file.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -35,17 +35,17 @@ An administrator can update parameters for the following BAM DTS packages:
   
  The DTS packages use the following naming conventions in the BAMConfiguration.xml file:  
   
--   **CubeUpdate** DTS package  
+- **CubeUpdate** DTS package  
   
-     **bam_AN_\<**
-     ***CubeName* \>**, where CubeName is the name of the cube. The BAM workbook generates the cube name from the view name. If you modify the cube name in the BAM configuration XML document, the new cube name is used in the DTS package name.  
+   **bam_AN_\<**
+   ***CubeName* \>**, where CubeName is the name of the cube. The BAM workbook generates the cube name from the view name. If you modify the cube name in the BAM configuration XML document, the new cube name is used in the DTS package name.  
   
--   **DataMaintenance** DTS package  
+- **DataMaintenance** DTS package  
   
-     **bam_DM_\<**
-     ***ActivityName* \>**, where ActivityName is the name of the activity.  
+   **bam_DM_\<**
+   ***ActivityName* \>**, where ActivityName is the name of the activity.  
   
- You run the CubeUpdate DTS package to aggregate the scheduled aggregation. In the next section, you can specify the time window for real-time data aggregation.  
+  You run the CubeUpdate DTS package to aggregate the scheduled aggregation. In the next section, you can specify the time window for real-time data aggregation.  
   
 ## See Also  
  [BAM Configuration Schema](../core/bam-configuration-schema.md)   

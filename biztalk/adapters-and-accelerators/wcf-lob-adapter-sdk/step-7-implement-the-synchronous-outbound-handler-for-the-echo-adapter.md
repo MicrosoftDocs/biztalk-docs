@@ -48,29 +48,29 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
 ## Echo Adapter Synchronous Outbound  
  Depending on your target system's operations, there are many ways to implement the `Microsoft.ServiceModel.Channels.Common.IOutboundHandler.Execute%2A` method. For the Echo adapter, there are three outbound operations, and their assigned node IDs and display names are:  
   
--   string[] EchoStrings(string data), node ID = Echo/EchoString, display name=EchoString  
+- string[] EchoStrings(string data), node ID = Echo/EchoString, display name=EchoString  
   
--   Greeting[] EchoGreetings(Greeting greeting), node ID=Echo/EchoGreetings, display name=EchoGreetings  
+- Greeting[] EchoGreetings(Greeting greeting), node ID=Echo/EchoGreetings, display name=EchoGreetings  
   
--   CustomGreeting EchoCustomGreetingFromFile(Uri greetingInstancePath), nodeID=Echo/EchoCustomGreetingFromFile, display name=EchoGreetings  
+- CustomGreeting EchoCustomGreetingFromFile(Uri greetingInstancePath), nodeID=Echo/EchoCustomGreetingFromFile, display name=EchoGreetings  
   
- To correctly parse the incoming WCF request message and generate the outgoing WCF response message, you must be familiar with the following elements within the SOAP message used by the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]:  
+  To correctly parse the incoming WCF request message and generate the outgoing WCF response message, you must be familiar with the following elements within the SOAP message used by the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]:  
   
- For the incoming WCF request message:  
+  For the incoming WCF request message:  
   
--   The WCF input message action = operation's node ID  
+- The WCF input message action = operation's node ID  
   
--   Incoming message body = The start element of the body is \<displayname\>\<parameter name\>{data}\</parameter name\>\</displayname\>  
+- Incoming message body = The start element of the body is \<displayname\>\<parameter name\>{data}\</parameter name\>\</displayname\>  
   
- For the outgoing WCF response message:  
+  For the outgoing WCF response message:  
   
--   The WCF output message action = operation's node ID + "/response"  
+- The WCF output message action = operation's node ID + "/response"  
   
--   Outgoing message body = The start element of the body is \<displayname + "Response"\>, followed by \<displayname + "Result"\>, and followed by the \<datatype\>data\</datatype\>\</displayname+"Result\>\</displayname + "Response"\>  
+- Outgoing message body = The start element of the body is \<displayname + "Response"\>, followed by \<displayname + "Result"\>, and followed by the \<datatype\>data\</datatype\>\</displayname+"Result\>\</displayname + "Response"\>  
   
- For example, operation **string[] EchoStrings(string data)**, node ID = Echo/EchoStrings, and display name= EchoStrings:  
+  For example, operation **string[] EchoStrings(string data)**, node ID = Echo/EchoStrings, and display name= EchoStrings:  
   
- The WCF input message action = "Echo/EchoStrings"; and the input body looks as follows, since the parameter name is `data`.  
+  The WCF input message action = "Echo/EchoStrings"; and the input body looks as follows, since the parameter name is `data`.  
   
 ```  
 <EchoStrings>  

@@ -36,11 +36,11 @@ The Enlist Orchestration sample demonstrates how to enlist a BizTalk Server orch
 ## Where to Find This Sample  
  The samples are located in the following SDK locations:  
   
--   VBScript version: \<*Samples Path*\>\Admin\WMI\Enlist Orchestration\VBScript\  
+- VBScript version: \<*Samples Path*\>\Admin\WMI\Enlist Orchestration\VBScript\  
   
--   Visusal C# version: \<*Samples Path*\>\Admin\WMI\Enlist Orchestration\CSharp\  
+- Visusal C# version: \<*Samples Path*\>\Admin\WMI\Enlist Orchestration\CSharp\  
   
- The following table shows the files in this sample and describes their purpose.  
+  The following table shows the files in this sample and describes their purpose.  
   
 |File(s)|Description|  
 |---------------|-----------------|  
@@ -52,9 +52,9 @@ The Enlist Orchestration sample demonstrates how to enlist a BizTalk Server orch
   
 #### To build the Visual C# version of the Enlist Orchestration sample  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file BTSampleEnlistOrc.sln.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file BTSampleEnlistOrc.sln.  
   
-2.  In the **Build** menu, click **Build Solution**.  
+2. In the **Build** menu, click **Build Solution**.  
   
 #### To run the Enlist Orchestration sample.  
   

@@ -28,18 +28,18 @@ This topic shows you how to configure the [!INCLUDE[A4SWIFT_CurrentVersion_abbre
 2. Select **MCRR**. MCRR is available only if you installed the **Message Repair and New Submission** components.
 3. When asked **Do you want to create a new database group**:
 
-  * Select this option to create the new groups shown in the **Group** pane. 
-  * To join an existing database group, uncheck this option.
+   * Select this option to create the new groups shown in the **Group** pane. 
+   * To join an existing database group, uncheck this option.
 
-3. If you installed **Web Components for Message Repair and New Submission**, then select **WebService**.
-4. Select the web site to host the A4SWIFT Web service. By default, the Default Web Site is selected.
-5. Select **Apply Configuration**.
-6. In **Summary**, verify the configuration settings, and then click **Configure**. 
+4. If you installed **Web Components for Message Repair and New Submission**, then select **WebService**.
+5. Select the web site to host the A4SWIFT Web service. By default, the Default Web Site is selected.
+6. Select **Apply Configuration**.
+7. In **Summary**, verify the configuration settings, and then click **Configure**. 
 
     > [!TIP] 
     > You can save the configuration settings as an XML file, if desired.
 
-7. Select **Finish** when the configuration completes.
+8. Select **Finish** when the configuration completes.
 
 ## Export or import a configuration
 You can export the configuration settings of A4SWIFT to an XML file. These settings can then be imported to configure another A4SWIFT installation. 

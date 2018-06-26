@@ -25,15 +25,15 @@ manager: "anneta"
 # Using the MATH_NUMERIC Type
 This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits. It also includes a discussion on:  
   
--   Exponents  
+- Exponents  
   
--   Invalid Values  
+- Invalid Values  
   
--   Precision for Operations  
+- Precision for Operations  
   
--   Currency  
+- Currency  
   
- The MATH_NUMERIC type is a numeric string type. To use it, enter parameter values of the following format:  
+  The MATH_NUMERIC type is a numeric string type. To use it, enter parameter values of the following format:  
   
 ```  
 <OptionalSign><IntegerAndFractionalPart><OptionalExponentPart>  
@@ -82,13 +82,13 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
  Examples of **invalid** MATH_NUMERIC values:  
   
--   1034.00000000000000000000000000001023 - too many significant digits  
+- 1034.00000000000000000000000000001023 - too many significant digits  
   
--   1.023e-64 - exponent too small  
+- 1.023e-64 - exponent too small  
   
--   0.00317e64 - exponent too large  
+- 0.00317e64 - exponent too large  
   
- Any non-numeric characters other than those appropriate for signs and decimal symbols result in an invalid value.  
+  Any non-numeric characters other than those appropriate for signs and decimal symbols result in an invalid value.  
   
 ## Exponents  
  Exponents are provided by the JD Edwards EnterpriseOne MATH_NUMERIC as a convenience for entering values. However, most values return without exponents (with all 32 significant digits visible).  

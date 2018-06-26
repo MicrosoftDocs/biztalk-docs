@@ -22,69 +22,69 @@ manager: "anneta"
   
  For the logical unit application (LUA) variant of the function management interface (FMI), the message key field is used in a different way, as follows:  
   
--   For inbound expedited flow requests, the local node sets the SNA sequence number to the value supplied by the application in the message key field. The application must ensure that this field is set to the correct sequence number.  
+- For inbound expedited flow requests, the local node sets the SNA sequence number to the value supplied by the application in the message key field. The application must ensure that this field is set to the correct sequence number.  
   
--   For inbound **Status-Control** responses, the local node sets the SNA sequence number to the value supplied by the application in the message key field. The application must ensure that this field is set to the sequence number of the request for which a response is being sent.  
+- For inbound **Status-Control** responses, the local node sets the SNA sequence number to the value supplied by the application in the message key field. The application must ensure that this field is set to the sequence number of the request for which a response is being sent.  
   
- Except in the case of **Status-Control(LUSTAT)**, if a **Status-Control** request does not have **ACKRQD** set, the application should not reply, because a positive response has already been sent by the local node.  
+  Except in the case of **Status-Control(LUSTAT)**, if a **Status-Control** request does not have **ACKRQD** set, the application should not reply, because a positive response has already been sent by the local node.  
   
- For example, if the application sends a **Status-Control(QC) Request** with **ACKRQD** set (corresponding to an SNA request on the normal flow), this blocks further data and **Status-Control** requests corresponding to the inbound normal flow until the **Status-Control(QC)** response is received. It does not block other messages on the normal flow, or messages on the expedited flow. For example, the application could still send **Status-Control(SIGNAL)**.  
+  For example, if the application sends a **Status-Control(QC) Request** with **ACKRQD** set (corresponding to an SNA request on the normal flow), this blocks further data and **Status-Control** requests corresponding to the inbound normal flow until the **Status-Control(QC)** response is received. It does not block other messages on the normal flow, or messages on the expedited flow. For example, the application could still send **Status-Control(SIGNAL)**.  
   
- The receipt of the **Status-Control** response implies an acknowledgment to all outstanding messages (including **Data** messages) on the flow.  
+  The receipt of the **Status-Control** response implies an acknowledgment to all outstanding messages (including **Data** messages) on the flow.  
   
- The use of **ACKRQD** on **Status-Control** messages effectively enforces definite-response and immediate request mode. This is appropriate for:  
+  The use of **ACKRQD** on **Status-Control** messages effectively enforces definite-response and immediate request mode. This is appropriate for:  
   
--   **Status-Control** messages that correspond to the SNA requests **CLEAR** and **STSN** (because the expedited flow is **RQD**).  
+- **Status-Control** messages that correspond to the SNA requests **CLEAR** and **STSN** (because the expedited flow is **RQD**).  
   
--   **Status-Control** messages corresponding to all the **DFC** requests (which are **RQD**) except **LUSTAT** (which can be **RQE**).  
+- **Status-Control** messages corresponding to all the **DFC** requests (which are **RQD**) except **LUSTAT** (which can be **RQE**).  
   
- The application can set **ACKRQD** on **Status-Control** requests that correspond to SNA requests on the expedited flow, even where **ACKRQD** is not required. For example, when an application is signaling for direction (for example, a 3270 emulator with a terminal operator repeatedly pressing the ATTN key), it can generate multiple **Status-Control(SIGNAL) Request** messages, which would adversely affect the performance of other users. The application can set **ACKRQD** on the first **Status-Control(SIGNAL) Request** and ignore events that would cause further **Status-Control(SIGNAL) Request** messages until the **Status-Control(SIGNAL) Response** is received from the local node.  
+  The application can set **ACKRQD** on **Status-Control** requests that correspond to SNA requests on the expedited flow, even where **ACKRQD** is not required. For example, when an application is signaling for direction (for example, a 3270 emulator with a terminal operator repeatedly pressing the ATTN key), it can generate multiple **Status-Control(SIGNAL) Request** messages, which would adversely affect the performance of other users. The application can set **ACKRQD** on the first **Status-Control(SIGNAL) Request** and ignore events that would cause further **Status-Control(SIGNAL) Request** messages until the **Status-Control(SIGNAL) Response** is received from the local node.  
   
- The message flows in the following six figures show outbound and inbound **Status-Control** sequences with and without **ACKRQD** and the corresponding SNA RUs.  
+  The message flows in the following six figures show outbound and inbound **Status-Control** sequences with and without **ACKRQD** and the corresponding SNA RUs.  
   
- In the first figure, the application sends **Status-Control(CHASE)**.  
+  In the first figure, the application sends **Status-Control(CHASE)**.  
   
- ![](../core/media/32703z.gif "32703z")  
-Application sends Status-Control(CHASE)  
+  ![](../core/media/32703z.gif "32703z")  
+  Application sends Status-Control(CHASE)  
   
- In the following figure, the host sends **BID** request.  
+  In the following figure, the host sends **BID** request.  
   
- ![](../core/media/32703za.gif "32703za")  
-Host sends BID request  
+  ![](../core/media/32703za.gif "32703za")  
+  Host sends BID request  
   
- In the following figure, the application sends **Status-Control(SHUTC)**.  
+  In the following figure, the application sends **Status-Control(SHUTC)**.  
   
- ![](../core/media/32703zb.gif "32703zb")  
-Application sends Status-Control(SHUTC)  
+  ![](../core/media/32703zb.gif "32703zb")  
+  Application sends Status-Control(SHUTC)  
   
- In the following figure, the host sends SNA **SIGNAL** request.  
+  In the following figure, the host sends SNA **SIGNAL** request.  
   
- ![](../core/media/32703zc.gif "32703zc")  
-Host sends SNA SIGNAL request  
+  ![](../core/media/32703zc.gif "32703zc")  
+  Host sends SNA SIGNAL request  
   
- In the following figure, the host sends multiple **RQE LUSTAT** requests, and the application rejects the first one.  
+  In the following figure, the host sends multiple **RQE LUSTAT** requests, and the application rejects the first one.  
   
- ![](../core/media/32703zd.gif "32703zd")  
-Application rejects the first RQE LUSTAT request  
+  ![](../core/media/32703zd.gif "32703zd")  
+  Application rejects the first RQE LUSTAT request  
   
- In the following figure, the application sends **Status-Control(LUSTAT) NOACKRQD**.  
+  In the following figure, the application sends **Status-Control(LUSTAT) NOACKRQD**.  
   
- ![](../core/media/32703ze.gif "32703ze")  
-Application sends Status-Control(LUSTAT) NOACKRQD  
+  ![](../core/media/32703ze.gif "32703ze")  
+  Application sends Status-Control(LUSTAT) NOACKRQD  
   
- The following table summarizes the **Status-Control** requests supported by the local node and SNA session control (SC) and data flow control (DFC) requests. For each **Status-Control** request, the table gives:  
+  The following table summarizes the **Status-Control** requests supported by the local node and SNA session control (SC) and data flow control (DFC) requests. For each **Status-Control** request, the table gives:  
   
--   The SNA category of the corresponding SNA request (SC or DFC).  
+- The SNA category of the corresponding SNA request (SC or DFC).  
   
--   The flow used by the corresponding SNA request (normal or expedited).  
+- The flow used by the corresponding SNA request (normal or expedited).  
   
--   The TS or FM profiles on which the corresponding SNA request is supported.  
+- The TS or FM profiles on which the corresponding SNA request is supported.  
   
--   The directions for which it is valid (NODE \<–> APPL).  
+- The directions for which it is valid (NODE \<–> APPL).  
   
--   Whether it requires **ACKRQD**. Note that the application can set ACKRQD on a Status-Control request that does not require it.  
+- Whether it requires **ACKRQD**. Note that the application can set ACKRQD on a Status-Control request that does not require it.  
   
--   The hexadecimal code used in the control-type field of the Status-Control message. (For more information, see [FMI Message Formats](./fmi-message-formats2.md).)  
+- The hexadecimal code used in the control-type field of the Status-Control message. (For more information, see [FMI Message Formats](./fmi-message-formats2.md).)  
   
 |Status-Control|SNA RQ flow|TS profile|FM profile|Direction node–appl|ACKRQD|Code|  
 |---------------------|-----------------|----------------|----------------|-------------------------|------------|----------|  

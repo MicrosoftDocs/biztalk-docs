@@ -25,31 +25,31 @@ A threat model analysis (TMA) is an analysis that helps determine the security r
   
  Some of the benefits of a TMA are:  
   
--   Provides a better understanding of your application  
+- Provides a better understanding of your application  
   
--   Helps you find bugs  
+- Helps you find bugs  
   
--   Can help new team members understand the application in detail  
+- Can help new team members understand the application in detail  
   
--   Contains important information for other teams that build on your application  
+- Contains important information for other teams that build on your application  
   
--   Useful for testers  
+- Useful for testers  
   
- The high-level steps to perform a TMA are:  
+  The high-level steps to perform a TMA are:  
   
--   Step 1. Collect Background Information  
+- Step 1. Collect Background Information  
   
--   Step 2. Create and Analyze the Threat Model  
+- Step 2. Create and Analyze the Threat Model  
   
--   Step 3. Review Threats  
+- Step 3. Review Threats  
   
--   Step 4. Identify Mitigation Techniques and Technologies  
+- Step 4. Identify Mitigation Techniques and Technologies  
   
--   Step 5. Document Security Model and Deployment Considerations  
+- Step 5. Document Security Model and Deployment Considerations  
   
--   Step 6. Implement and Test Mitigations  
+- Step 6. Implement and Test Mitigations  
   
--   Step 7. Keep the Threat Model in Sync with Design  
+- Step 7. Keep the Threat Model in Sync with Design  
   
 ## Step 1. Collect Background Information  
  To prepare for a successful TMA, you have to collect some background information. It is useful to analyze your target environment (an application, program, or the whole infrastructure) as follows:  

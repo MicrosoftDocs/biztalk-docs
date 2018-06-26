@@ -16,13 +16,13 @@ manager: "anneta"
 # Opening a Connection (SNADIS)
 The 2.1 node is capable of supporting multiple connections through one or more SNALinks. For each connection, the node opens two Locality Partner Index (LPI) connections to the SNALink:  
   
--   LINK LPI connection to handle activation and deactivation of the connection.  
+- LINK LPI connection to handle activation and deactivation of the connection.  
   
--   STATION LPI connection to transfer data to and from the remote station.  
+- STATION LPI connection to transfer data to and from the remote station.  
   
- The one exception to this rule is the case of primary multipoint connections where there is a single LINK LPI connection and multiple STATION LPI connections. This special case is described in [SDLC Multipoint Connections](../core/sdlc-multipoint-connections1.md).  
+  The one exception to this rule is the case of primary multipoint connections where there is a single LINK LPI connection and multiple STATION LPI connections. This special case is described in [SDLC Multipoint Connections](../core/sdlc-multipoint-connections1.md).  
   
- The following messages flow over the data link control (DLC) interface and are used to activate a connection to a remote station.  
+  The following messages flow over the data link control (DLC) interface and are used to activate a connection to a remote station.  
   
 |Message|Description|  
 |-------------|-----------------|  

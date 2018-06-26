@@ -18,21 +18,21 @@ In the Concurrent model, the Listener and Server portions of the TP run under th
   
  The Listener must receive a TRM as the first data from the TI run-time environment. The TRM tells the Listener which TP to invoke and the characteristics of that program. After sending the TRM, the TI run-time environment must wait for a response before sending data. The Listener of the Concurrent model follows this sequence:  
   
-1.  Create a Listening socket  
+1. Create a Listening socket  
   
-2.  Bind it to a local address  
+2. Bind it to a local address  
   
-3.  Listen (make TCP/IP aware that the socket is available)  
+3. Listen (make TCP/IP aware that the socket is available)  
   
-4.  Select (wait for a connection request)  
+4. Select (wait for a connection request)  
   
-5.  Accept the connection  
+5. Accept the connection  
   
-6.  Read the TRM  
+6. Read the TRM  
   
-7.  Check the validity of the requested transaction ID (TRANID)  
+7. Check the validity of the requested transaction ID (TRANID)  
   
-8.  Give a socket (prepare TCP/IP for the transfer of the socket)  
+8. Give a socket (prepare TCP/IP for the transfer of the socket)  
   
 9. Start the task  
   
@@ -40,29 +40,29 @@ In the Concurrent model, the Listener and Server portions of the TP run under th
   
 11. Select (wait for connection request)  
   
- **The Worker task of the Concurrent model follows this procedure:**  
+    **The Worker task of the Concurrent model follows this procedure:**  
   
-1.  Take a socket (accept the socket request from the Listener).  
+12. Take a socket (accept the socket request from the Listener).  
   
-2.  Write a response to the TRM.  
+13. Write a response to the TRM.  
   
-3.  Read or write application data.  
+14. Read or write application data.  
   
-4.  Close.  
+15. Close.  
   
- **The advantages of the Concurrent model are:**  
+    **The advantages of the Concurrent model are:**  
   
--   Easy to implement concurrent access to TPs that run for a long time.  
+- Easy to implement concurrent access to TPs that run for a long time.  
   
--   One Listener is shared by many TPs.  
+- One Listener is shared by many TPs.  
   
--   Server TCP/IP logic is simple.  
+- Server TCP/IP logic is simple.  
   
- **The disadvantages of the Concurrent model are:**  
+  **The disadvantages of the Concurrent model are:**  
   
--   Increased network overhead and delays due to the requirement of the TRM exchange.  
+- Increased network overhead and delays due to the requirement of the TRM exchange.  
   
--   More CPU and resource intensive than is the Iterative model.  
+- More CPU and resource intensive than is the Iterative model.  
   
 ## See Also  
  [Iterative vs. Concurrent TCP/IP Models](../core/iterative-vs-concurrent-tcp-ip-models1.md)

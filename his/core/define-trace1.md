@@ -81,102 +81,102 @@ struct define_trace {
  *dt_set*  
  Supplied parameter. Sets the trace state.  
   
--   Use SV_ON to enable tracing for a particular API if the parameter pertaining to the API (such as **appc** or **comm_serv**) is set to SV_CHANGE.  
+- Use SV_ON to enable tracing for a particular API if the parameter pertaining to the API (such as **appc** or **comm_serv**) is set to SV_CHANGE.  
   
--   Use SV_OFF to disable tracing for a particular API if the parameter pertaining to the API is set to SV_CHANGE.  
+- Use SV_OFF to disable tracing for a particular API if the parameter pertaining to the API is set to SV_CHANGE.  
   
- *appc*  
- Supplied parameter. Indicates whether tracing of APPC is desired.  
+  *appc*  
+  Supplied parameter. Indicates whether tracing of APPC is desired.  
   
--   Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
+- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
   
--   Use SV_IGNORE to leave tracing in its current state for APPC.  
+- Use SV_IGNORE to leave tracing in its current state for APPC.  
   
- The allowed values turn bit 0 on or off; bits 1 through 7 are reserved.  
+  The allowed values turn bit 0 on or off; bits 1 through 7 are reserved.  
   
- *reserv4*  
- A reserved field.  
+  *reserv4*  
+  A reserved field.  
   
- *srpi*  
- Supplied parameter. Indicates whether tracing of SRPI is desired.  
+  *srpi*  
+  Supplied parameter. Indicates whether tracing of SRPI is desired.  
   
--   Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
+- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
   
--   Use SV_IGNORE to leave tracing in its current state for APPC.  
+- Use SV_IGNORE to leave tracing in its current state for APPC.  
   
- *sdlc*  
- A reserved field.  
+  *sdlc*  
+  A reserved field.  
   
- *tkn_rng_dlc*  
- A reserved field.  
+  *tkn_rng_dlc*  
+  A reserved field.  
   
- *pcnet_dlc*  
- A reserved field.  
+  *pcnet_dlc*  
+  A reserved field.  
   
- *dft*  
- A reserved field.  
+  *dft*  
+  A reserved field.  
   
- *acdi*  
- A reserved field.  
+  *acdi*  
+  A reserved field.  
   
- *reserv5*  
- A reserved field.  
+  *reserv5*  
+  A reserved field.  
   
- *comm_serv*  
- Supplied parameter. Indicates whether tracing of COMM_SERV_API is desired.  
+  *comm_serv*  
+  Supplied parameter. Indicates whether tracing of COMM_SERV_API is desired.  
   
--   Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
+- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
   
--   Use SV_IGNORE to leave tracing in its current state for APPC.  
+- Use SV_IGNORE to leave tracing in its current state for APPC.  
   
- *ehllapi*  
- A reserved field.  
+  *ehllapi*  
+  A reserved field.  
   
- *x25_api*  
- A reserved field.  
+  *x25_api*  
+  A reserved field.  
   
- *x25_dlc*  
- A reserved field.  
+  *x25_dlc*  
+  A reserved field.  
   
- *twinax*  
- A reserved field.  
+  *twinax*  
+  A reserved field.  
   
- reserv6  
- A reserved field.  
+  reserv6  
+  A reserved field.  
   
- *lua_api*  
- A reserved field.  
+  *lua_api*  
+  A reserved field.  
   
- *etherand*  
- A reserved field.  
+  *etherand*  
+  A reserved field.  
   
- *subsym*  
- A reserved field.  
+  *subsym*  
+  A reserved field.  
   
- *reserv7*  
- A reserved field.  
+  *reserv7*  
+  A reserved field.  
   
- *reset_trc*  
- Supplied parameter. Indicates whether the trace file pointer should be reset.  
+  *reset_trc*  
+  Supplied parameter. Indicates whether the trace file pointer should be reset.  
   
--   Use SV_NO to not reset the trace file pointer to the start of the trace file. Previous trace records are not overwritten.  
+- Use SV_NO to not reset the trace file pointer to the start of the trace file. Previous trace records are not overwritten.  
   
--   Use SV_YES to reset the trace file pointer to the start of the trace file. Previous trace records are overwritten.  
+- Use SV_YES to reset the trace file pointer to the start of the trace file. Previous trace records are overwritten.  
   
- *trunc*  
- Supplied parameter. Specifies the maximum number of bytes for each trace record. Excess bytes are truncated. Set this value to zero if you do not want truncation.  
+  *trunc*  
+  Supplied parameter. Specifies the maximum number of bytes for each trace record. Excess bytes are truncated. Set this value to zero if you do not want truncation.  
   
- *strg_size*  
- A reserved field.  
+  *strg_size*  
+  A reserved field.  
   
- *reserv8*  
- A reserved field.  
+  *reserv8*  
+  A reserved field.  
   
- *phys_link*  
- A reserved field.  
+  *phys_link*  
+  A reserved field.  
   
- *reserv9*  
- A reserved field.  
+  *reserv9*  
+  A reserved field.  
   
 ## Return Codes  
  SV_OK  

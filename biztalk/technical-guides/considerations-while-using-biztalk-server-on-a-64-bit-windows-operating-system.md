@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Considerations While Using BizTalk Server on a 64-bit Windows Operating System
-When using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a 64-bit Windows operating system, make sure you consider the issues described in this topic. For frequently asked questions related to 64-bit support for Microsoft BizTalk Server, see [BizTalk Server 64-bit Support](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).  
+When using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a 64-bit Windows operating system, make sure you consider the issues described in this topic. For frequently asked questions related to 64-bit support for Microsoft BizTalk Server, see [BizTalk Server 64-bit Support](http://go.microsoft.com/fwlink/?LinkID=155306) (<http://go.microsoft.com/fwlink/?LinkID=155306>).  
   
 ## Modify the Process Memory Usage Throttling Threshold  
  By default, the **Process memory usage** host throttling threshold is set to 25. If this value is exceeded and the BizTalk process memory usage is more than 300 MB, a throttling condition may occur. On a 64-bit server, you can increase this value to 100. This allows for more memory consumption by the BizTalk process before throttling occurs. For instructions on how to modify the process memory usage host throttling threshold, see [How to Modify the Default Host Throttling Settings](http://go.microsoft.com/fwlink/?LinkId=157210) (http://go.microsoft.com/fwlink/?LinkId=157210).  
@@ -25,11 +25,11 @@ When using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernove
 ## Adapters That Do Not Support 64-bit Hosts  
  The following adapters are not supported to run on 64-bit host instances:  
   
--   FTP adapter  
+- FTP adapter  
   
--   POP3 adapter  
+- POP3 adapter  
   
- Make sure you run these adapters in a 32-bit host instance.  
+  Make sure you run these adapters in a 32-bit host instance.  
   
 ## Configure the MIME/SMIME Encoder to run in 32-bit mode  
  In BizTalk Server, the MIME/SMIME encoder pipeline component dies not have native 64-bit support. This means that this component must be run in a 32-bit emulation mode process (WOW64). This implies that the host instance in which this encoder component (or the send pipeline of which it is a part) runs must be running in 32-bit emulation mode. Be aware of the performance (and other) implications of this restriction for other elements of BizTalk running in this same host instance.

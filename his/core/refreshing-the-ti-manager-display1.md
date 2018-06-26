@@ -18,11 +18,11 @@ The contents of TI (Transaction Integrator) Manager are automatically refreshed 
   
  You can refresh the TI Manager display in either of two ways:  
   
--   On the **Action** menu, click **Refresh**.  
+- On the **Action** menu, click **Refresh**.  
   
- -or-  
+  -or-  
   
--   On the MDI toolbar, click **Refresh**.  
+- On the MDI toolbar, click **Refresh**.  
   
 ## See Also  
  [Managing Transaction Integrator with TI Manager](../core/managing-transaction-integrator-with-ti-manager2.md)

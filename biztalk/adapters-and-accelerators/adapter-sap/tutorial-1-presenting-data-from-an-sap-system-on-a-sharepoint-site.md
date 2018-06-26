@@ -22,17 +22,17 @@ manager: "anneta"
 # Tutorial 1: Presenting Data from an SAP System on a SharePoint Site
 This tutorial provides detailed instructions on using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with Microsoft Office SharePoint Server to present business data from an SAP system on a SharePoint portal. To demonstrate how to use the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with Office SharePoint Server, consider the two most common entities in any business: customers and sales orders. In this example, an application is created in Office SharePoint Server, which uses the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to do the following:  
   
--   Retrieve a list of customers from the SAP system based on a search string.  
+- Retrieve a list of customers from the SAP system based on a search string.  
   
--   Select a customer from the list and present details for the customer.  
+- Select a customer from the list and present details for the customer.  
   
--   Retrieve the sales orders for the selected customer.  
+- Retrieve the sales orders for the selected customer.  
   
- To extract customer data from an SAP system, the example uses the SD_RFC_CUSTOMER_GET RFC. To extract information about sales orders for a specific customer, it uses the BAPI_SALESORDER_GETLIST RFC.  
+  To extract customer data from an SAP system, the example uses the SD_RFC_CUSTOMER_GET RFC. To extract information about sales orders for a specific customer, it uses the BAPI_SALESORDER_GETLIST RFC.  
   
 > [!NOTE]
 >  Some versions of the SAP system expose an RFC_CUSTOMER_GET RFC instead of SD_RFC_CUSTOMER_GET.  
-  
+> 
 > [!NOTE]
 >  Before proceeding with the tutorial, make sure you have installed all the prerequisites for using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with Office SharePoint Server. For more information about the prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide, typically installed at C:/Program Files/Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]/Documents.  
   

@@ -64,14 +64,14 @@ You can use global nodes to create reusable data typesâ€”fragments of structureâ
   
 ## Use a type or group that has been globally defined  
   
-1.  Select the node for which you want to use a globally defined type.  
+1. Select the node for which you want to use a globally defined type.  
   
-2.  In the Properties window, select the globally defined type from the drop-down list for the **Data Structure Type** property (**Record** nodes), **Data Type** property (**Field Element** and **Field Attribute** nodes), or **Group Reference** (**Sequence Group**, **Choice Group**, **All Group**, and **Attribute Group** nodes). More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+2. In the Properties window, select the globally defined type from the drop-down list for the **Data Structure Type** property (**Record** nodes), **Data Type** property (**Field Element** and **Field Attribute** nodes), or **Group Reference** (**Sequence Group**, **Choice Group**, **All Group**, and **Attribute Group** nodes). More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-    > [!NOTE]
-    >  Subsequent changes to the globally defined type or group can be made in any of the schema locations in which it appears. These changes will be applied in all such locations as you make them in the single, arbitrary location.  
+   > [!NOTE]
+   >  Subsequent changes to the globally defined type or group can be made in any of the schema locations in which it appears. These changes will be applied in all such locations as you make them in the single, arbitrary location.  
   
- After you have created a global declaration, you cannot delete it in a single step. However, you can delete it by using the **Cleanup Global DataTypes** dialog box when the schema is saved, using the following procedure.  
+   After you have created a global declaration, you cannot delete it in a single step. However, you can delete it by using the **Cleanup Global DataTypes** dialog box when the schema is saved, using the following procedure.  
   
 ## Delete a global declaration  
   

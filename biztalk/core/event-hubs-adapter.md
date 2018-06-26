@@ -68,7 +68,7 @@ Your event hub is now created, and you have the connection strings you need to s
 
 You can use a simple File receive port and location to send messages to your Azure Event Hub. 
 
-1. Create a receive port using the File adapter. Within your receive location,  set the **Receive folder** to **C:\Temp\In\**, and set the file mask to **\*.xml**.
+1. Create a receive port using the File adapter. Within your receive location,  set the **Receive folder** to **C:\Temp\In\\**, and set the file mask to **\*.xml**.
 2. In your Event Hub send port properties, set the **Filters** to `BTS.ReceivePortName == FileReceivePort`.
 3. Paste the following into a text editor, and save the file as **EventHubMessage.xml**. This is your sample message. 
 
@@ -135,7 +135,7 @@ You can use a simple File receive port and location to send messages to your Azu
 
 You can use a simple File send port to receive messages from your Azure Event Hub. 
 
-1. Create a send port using the File adapter. Within your send port properties, set the **Destination folder** to **C:\Temp\Out\**, and set the and **File name** to **%MessageID%.xml**.
+1. Create a send port using the File adapter. Within your send port properties, set the **Destination folder** to **C:\Temp\Out\\**, and set the and **File name** to **%MessageID%.xml**.
 2. In your File send port properties, set the **Filters** to  `BTS.ReceivePortName == EHReceivePort`.
 3. Start the Event Hub receive location and the File send port.
 4. Look for messages in the destination folder (c:\temp\out).

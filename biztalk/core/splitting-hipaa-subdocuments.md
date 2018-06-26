@@ -20,13 +20,13 @@ EDI interchanges for HIPAA commonly have multiple child/sub documents within a s
 ## Subdocument Splitting Schemas  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports splitting of the following HIPAA document types through native schemas:  
   
--   HIPAA version 4010 documents: 834 Enrollment, 835 Claim Payment and three variants of 837 Claim  
+- HIPAA version 4010 documents: 834 Enrollment, 835 Claim Payment and three variants of 837 Claim  
   
--   HIPAA version 5010 documents: 276/277 Claim Status – Request and Response, 834 Enrollment and three variants of 837 Claim  
+- HIPAA version 5010 documents: 276/277 Claim Status – Request and Response, 834 Enrollment and three variants of 837 Claim  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides two versions of schemas for each of these three document types. For each document type, the schema supporting splitting is identified by the ‘Multiple’ tag in the file name. The other schema does not support subdocument splitting.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides two versions of schemas for each of these three document types. For each document type, the schema supporting splitting is identified by the ‘Multiple’ tag in the file name. The other schema does not support subdocument splitting.  
   
- In some scenarios, both splitting and non splitting schemas may be required. This will be supported through the use of a custom target namespace for one variant of the schema.  
+  In some scenarios, both splitting and non splitting schemas may be required. This will be supported through the use of a custom target namespace for one variant of the schema.  
   
 ## How Subdocument Splitting Is Enabled  
  The splitting of HIPAA subdocuments is enabled by three annotation entries in the HIPAA schema. The first two are  entries for the schema in the appinfo annotation, which must be set to **yes**:  

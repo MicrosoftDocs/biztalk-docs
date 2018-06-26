@@ -20,19 +20,19 @@ manager: "anneta"
 # Handling Encoding in a Disassembler Pipeline Component
 Ensure that your custom disassembler component encodes outbound documents in one of the following formats:  
   
--   UTF-8  
+- UTF-8  
   
--   UTF-16  
+- UTF-16  
   
--   UTF-32  
+- UTF-32  
   
--   UTF-16LE  
+- UTF-16LE  
   
--   UTF-16BE  
+- UTF-16BE  
   
- The orchestration engine may not be able to process documents with other encoding formats.  
+  The orchestration engine may not be able to process documents with other encoding formats.  
   
- UTF-32LE and UTF-32BE are not supported by the .NET Framework; to use these formats, you must create a custom encoding implementation.  
+  UTF-32LE and UTF-32BE are not supported by the .NET Framework; to use these formats, you must create a custom encoding implementation.  
   
 ## See Also  
  [Developing a Disassembling Pipeline Component](../core/developing-a-disassembling-pipeline-component.md)

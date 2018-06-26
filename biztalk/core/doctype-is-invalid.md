@@ -17,15 +17,15 @@ manager: "anneta"
 # Doctype is invalid
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|DocTypeInvalidFormat|  
-|Message Text|Doctype {0} is invalid. It is not possible to determine one or more of namespace, version or transaction set id|  
+|                 |                                                                                                                 |
+|-----------------|-----------------------------------------------------------------------------------------------------------------|
+|  Product Name   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                |
+| Product Version |                           [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                            |
+|    Event ID     |                                                        -                                                        |
+|  Event Source   |             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI              |
+|    Component    |                                                   EDI Engine                                                    |
+|  Symbolic Name  |                                              DocTypeInvalidFormat                                               |
+|  Message Text   | Doctype {0} is invalid. It is not possible to determine one or more of namespace, version or transaction set id |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the EDI receive pipeline was not able to process the incoming interchange, because the schema was not discovered correctly.  

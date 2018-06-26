@@ -31,13 +31,13 @@ The WCF receive adapter enables you to receive WCF service requests.
 ## Extracting the BizTalk Message Body from the SOAP Message  
  The inbound BizTalk message body can be extracted from the SOAP message by using one of the following options:  
   
--   Extract the content of the SOAP Body element  
+- Extract the content of the SOAP Body element  
   
--   Extract the entire SOAP envelope  
+- Extract the entire SOAP envelope  
   
--   Extract the content of the element inside the SOAP envelope by using an XPath expression  
+- Extract the content of the element inside the SOAP envelope by using an XPath expression  
   
- You can configure these options in the transport properties dialog box.  
+  You can configure these options in the transport properties dialog box.  
   
 #### Extract the Content of the SOAP Body Element  
  When this option is selected, the inner content of the SOAP Body element is read from the SOAP message and placed into the body part of the BizTalk message.  

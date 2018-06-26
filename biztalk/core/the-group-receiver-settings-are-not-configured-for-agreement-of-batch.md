@@ -17,15 +17,15 @@ manager: "anneta"
 # The group receiver settings are not configured for agreement of batch
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|GroupReceiverNotSelected|  
-|Message Text|The group receiver settings are not configured for agreement of batch {0}. This needs to be configured before batching can proceed.|  
+|                 |                                                                                                                                     |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                          |
+| Product Version |                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                      |
+|    Event ID     |                                                                  -                                                                  |
+|  Event Source   |                       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                        |
+|    Component    |                                                           Batching Engine                                                           |
+|  Symbolic Name  |                                                      GroupReceiverNotSelected                                                       |
+|  Message Text   | The group receiver settings are not configured for agreement of batch {0}. This needs to be configured before batching can proceed. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that one of two conditions has occurred:  

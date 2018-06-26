@@ -53,7 +53,7 @@ snacfg [#configpath] appcrlu /list
  Generates a list of configured remote APPC LUs.  
   
  *connectionname* **:** *LUalias*  
- Specifies the connection and LU alias of the remote APPC LU on which to carry out actions. You should include *connectionname***:** in **snacfg appcrlu** commands (other than **/add** commands) that include *LUalias*. Without *connectionname***:**, if there is more than one remote LU called *LUalias* in the subdomain, it is difficult to predict which of these LUs will be affected by the command. The **snacfg appcrlu** command does not necessarily default to a connection on the local server if *connectionname* is omitted.  
+ Specifies the connection and LU alias of the remote APPC LU on which to carry out actions. You should include <em>connectionname</em>**:** in **snacfg appcrlu** commands (other than **/add** commands) that include *LUalias*. Without <em>connectionname</em>**:**, if there is more than one remote LU called *LUalias* in the subdomain, it is difficult to predict which of these LUs will be affected by the command. The **snacfg appcrlu** command does not necessarily default to a connection on the local server if *connectionname* is omitted.  
   
  See the following paragraphs for details about characters permitted in the LU alias.  
   
@@ -82,7 +82,7 @@ snacfg [#configpath] appcrlu /list
  **/netname:**" *text*"  
  Specifies a name for the network of this LU. The name can be from one through eight characters long, and can contain alphanumeric characters and the special characters $, #, and @.  
   
- If **/netname:***text* is not specified, the remote network name configured for the connection supporting this LU is used as the default.  
+ If **/netname:**<em>text</em> is not specified, the remote network name configured for the connection supporting this LU is used as the default.  
   
 > [!NOTE]
 >  /luname:*text* also has a default (the LU alias). Therefore, the fully qualified LU name (network name plus LU name) can potentially be created by default, if the LU alias and remote network name are configured appropriately. A fully qualified LU name is required for an APPC LU.  
@@ -90,7 +90,7 @@ snacfg [#configpath] appcrlu /list
  **/luname:**" *text*"  
  Specifies the LU name. The name can be from one through eight characters long, and can contain alphanumeric characters and the special characters $, #, and @. Lowercase letters are converted to uppercase. For a remote APPC LU, the fully qualified LU Name must be unique on the connection, and must not match that of a local LU on that server.  
   
- If **/luname:***text* is not specified, *LUalias* is used as the default LU name.  
+ If **/luname:**<em>text</em> is not specified, *LUalias* is used as the default LU name.  
   
 > [!NOTE]
 >  /netname:*text* also has a default (the remote network name configured for the connection supporting this LU). Therefore, the fully qualified LU name (LU name plus network name) can potentially be created by default, if the LU alias and remote control point name are configured appropriately. A fully qualified LU name is required for an APPC LU.  
@@ -112,8 +112,8 @@ snacfg [#configpath] appcrlu /list
  **/impmode:** *modename*  
  Designates *modename* as the implicit incoming mode for this LU. A mode must exist before being specified as an implicit incoming mode.  
   
- **/security:{ none**&#124; **hex,***text*&#124; **char,***text* **}**  
- Configures session security for a remote LU using a cleartext key. The **none** option turns off session-level security. The **hex,***text* option specifies a 16-digit security key in hexadecimal. The **char,***text* option specifies an eight-character security key that can include uppercase and lowercase alphanumeric characters, and the special characters $, @, #, and the period (.).  
+ **/security:{ none**&#124; **hex,**<em>text</em>&#124; **char,**<em>text</em> **}**  
+ Configures session security for a remote LU using a cleartext key. The **none** option turns off session-level security. The **hex,**<em>text</em> option specifies a 16-digit security key in hexadecimal. The **char,**<em>text</em> option specifies an eight-character security key that can include uppercase and lowercase alphanumeric characters, and the special characters $, @, #, and the period (.).  
   
  **/addpartner:** *LUalias* **,** *mode*  
  Partners the remote LU with the specified local LU and the specified mode. Both the local LU and the mode must exist before they can be specified as partners. *LUalias* should specify a local LU, not a remote LU; otherwise, an error message is displayed, indicating that no such local LU can be found.  
@@ -125,7 +125,7 @@ snacfg [#configpath] appcrlu /list
   
  Only one **/delpartner** option can be used in each command.  
   
- **/securityex:{ none**&#124; **hex,***text*&#124; **char,***text* **}**  
+ **/securityex:{ none**&#124; **hex,**<em>text</em>&#124; **char,**<em>text</em> **}**  
  Configures session security for a remote LU using a scrambled key. For security purposes, Snacfg displays the security key information in a scrambled format when the /securityex option is specified. To change the security key, use the /security option instead.  
   
 ## See Also  

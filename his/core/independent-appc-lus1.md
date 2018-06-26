@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Independent APPC LUs
-In APPC, an independent LU can communicate directly with a peer system and does not need the support of a host computer*.*  
+In APPC, an independent LU can communicate directly with a peer system and does not need the support of a host computer<em>.</em>  
   
  Independent APPC LUs provide the ability to run multiple, concurrent, parallel sessions between a single pair of LUs. Programs that use independent APPC LUs are referred to as transaction programs (TPs) and may provide any type of service: terminal emulation, data transfer, database query or update, and so on.  
   

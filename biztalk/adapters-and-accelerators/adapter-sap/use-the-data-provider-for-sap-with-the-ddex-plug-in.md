@@ -28,85 +28,85 @@ If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprov
   
 ### To connect to an SAP system using the DDEX plug-in  
   
-1.  Start Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
+1. Start Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
-2.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **View** menu, click **Server Explorer**.  
+2. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **View** menu, click **Server Explorer**.  
   
-3.  In the **Server Explorer**, right-click **Data Connections**, and select **Add Connection**.  
+3. In the **Server Explorer**, right-click **Data Connections**, and select **Add Connection**.  
   
-4.  In the **Change Data Source** dialog box, from the **Data source** box, select **\<other\>**.  
+4. In the **Change Data Source** dialog box, from the **Data source** box, select **\<other\>**.  
   
-5.  From the **Data provider** drop-down list, select **.NET Framework Data Provider for mySAP Business Suite** and click **OK**. The **Add Connection** dialog box opens.  
+5. From the **Data provider** drop-down list, select **.NET Framework Data Provider for mySAP Business Suite** and click **OK**. The **Add Connection** dialog box opens.  
   
-6.  The **Add Connection** dialog box lists the different connection parameters to connect to an SAP system. A typical connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires:  
+6. The **Add Connection** dialog box lists the different connection parameters to connect to an SAP system. A typical connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires:  
   
-    -   The connection parameters for a connection type. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports connection types A, B, and D. To connect to an SAP system you must provide connection parameters for any *one* of these connection types. For example, for connection type A, you must provide the name of the application server host and the system number.  
+   - The connection parameters for a connection type. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports connection types A, B, and D. To connect to an SAP system you must provide connection parameters for any *one* of these connection types. For example, for connection type A, you must provide the name of the application server host and the system number.  
   
-    -   The login information to connect to an SAP system such as username and password.  
+   - The login information to connect to an SAP system such as username and password.  
   
      For more information about the connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], see [Read about Data Provider types for the SAP Connection String](../../adapters-and-accelerators/adapter-sap/read-about-data-provider-types-for-the-sap-connection-string.md).  
   
      In the **Add Connection** dialog box, specify:  
   
-    -   The connection parameters for any one connection type.  
+   - The connection parameters for any one connection type.  
   
-    -   The login information to connect to an SAP system.  
+   - The login information to connect to an SAP system.  
   
-    -   Whether you want to enable SAP GUI debugging.  
+   - Whether you want to enable SAP GUI debugging.  
   
-    -   Whether you want to use RFC SDK tracing.  
+   - Whether you want to use RFC SDK tracing.  
   
      Click **OK**. A new connection node is created under the **Data Connections** node with the server name you specified in the previous step.  
   
-7.  Expand the new connection node to view the **Tables** and **Function Modules** nodes.  
+7. Expand the new connection node to view the **Tables** and **Function Modules** nodes.  
   
-     The following figure shows the Server Explorer after the connection is established.  
+    The following figure shows the Server Explorer after the connection is established.  
   
-     ![DDEX plug&#45;in for SAP ADO.NET Provider](../../adapters-and-accelerators/adapter-sap/media/158afc11-9c90-4333-bc62-5901f8d0c794.gif "158afc11-9c90-4333-bc62-5901f8d0c794")  
+    ![DDEX plug&#45;in for SAP ADO.NET Provider](../../adapters-and-accelerators/adapter-sap/media/158afc11-9c90-4333-bc62-5901f8d0c794.gif "158afc11-9c90-4333-bc62-5901f8d0c794")  
   
 ### To add tables from an SAP system using the DDEX plug-in  
   
-1.  In the **Server Explorer**, right-click the **Tables** node and click **Search and Add Tables**.  
+1. In the **Server Explorer**, right-click the **Tables** node and click **Search and Add Tables**.  
   
-2.  In the **Search table name** text box, specify a search string to search tables in the SAP system, and click **Search**.  
+2. In the **Search table name** text box, specify a search string to search tables in the SAP system, and click **Search**.  
   
-    > [!NOTE]
-    >  The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports the use of only the asterisk (*) wildcard character for searching tables.  
+   > [!NOTE]
+   >  The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports the use of only the asterisk (*) wildcard character for searching tables.  
   
-3.  The **Search results** box lists the table names that satisfy the search criteria.  
+3. The **Search results** box lists the table names that satisfy the search criteria.  
   
-     ![DDEX plug&#45;in Search and Add Tables name dialog box](../../adapters-and-accelerators/adapter-sap/media/737fc9c3-5258-4693-a2f3-5b5b8d2483e9.gif "737fc9c3-5258-4693-a2f3-5b5b8d2483e9")  
+    ![DDEX plug&#45;in Search and Add Tables name dialog box](../../adapters-and-accelerators/adapter-sap/media/737fc9c3-5258-4693-a2f3-5b5b8d2483e9.gif "737fc9c3-5258-4693-a2f3-5b5b8d2483e9")  
   
-4.  Select the check box corresponding to the tables you want to add and click **Add**. To select all the tables, click **Select All**. To clear all the selections, click **Clear All**.  
+4. Select the check box corresponding to the tables you want to add and click **Add**. To select all the tables, click **Select All**. To clear all the selections, click **Clear All**.  
   
-5.  A dialog box informs you that the added tables would be visible after you refresh the **Tables** node. Click **OK**.  
+5. A dialog box informs you that the added tables would be visible after you refresh the **Tables** node. Click **OK**.  
   
-6.  Right-click the **Tables** node and select **Refresh**. The selected tables appear under the **Tables** node. Click a table name to see the table properties in the **Properties** pane.  
+6. Right-click the **Tables** node and select **Refresh**. The selected tables appear under the **Tables** node. Click a table name to see the table properties in the **Properties** pane.  
   
-7.  Expand a table name to see the fields for the table. Click a field name to see the field properties in the **Properties** pane.  
+7. Expand a table name to see the fields for the table. Click a field name to see the field properties in the **Properties** pane.  
   
 ### To add RFCs from an SAP system using the DDEX plug-in  
   
-1.  In the **Server Explorer**, right-click the **Function Modules** node and click **Search and Add Function Modules**.  
+1. In the **Server Explorer**, right-click the **Function Modules** node and click **Search and Add Function Modules**.  
   
-2.  In the **Search function module** text box, specify a search string to search function modules in the SAP system, and click **Search**.  
+2. In the **Search function module** text box, specify a search string to search function modules in the SAP system, and click **Search**.  
   
-    > [!NOTE]
-    >  The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports the use of only the asterisk (*) wildcard character for searching functional modules.  
+   > [!NOTE]
+   >  The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports the use of only the asterisk (*) wildcard character for searching functional modules.  
   
-3.  The **Search results** box lists the function modules that satisfy the search criteria.  
+3. The **Search results** box lists the function modules that satisfy the search criteria.  
   
-     ![DDEX plug&#45;in Search and Add Modules dialog box](../../adapters-and-accelerators/adapter-sap/media/8c7f9081-80aa-4bfe-8f06-2c751758ddd0.gif "8c7f9081-80aa-4bfe-8f06-2c751758ddd0")  
+    ![DDEX plug&#45;in Search and Add Modules dialog box](../../adapters-and-accelerators/adapter-sap/media/8c7f9081-80aa-4bfe-8f06-2c751758ddd0.gif "8c7f9081-80aa-4bfe-8f06-2c751758ddd0")  
   
-4.  Select the check box corresponding to the function modules you want to add and click **Add**. To select all the modules, click **Select All**. To clear all the selections, click **Clear All**.  
+4. Select the check box corresponding to the function modules you want to add and click **Add**. To select all the modules, click **Select All**. To clear all the selections, click **Clear All**.  
   
-5.  A dialog box informs you that the added function modules would be visible after you refresh the **Function Modules** node. Click **OK**.  
+5. A dialog box informs you that the added function modules would be visible after you refresh the **Function Modules** node. Click **OK**.  
   
-6.  Right-click the **Function Modules** node and select **Refresh**. The selected function modules appear under the **Function Modules** node. Click a function module name to see the properties in the **Properties** pane.  
+6. Right-click the **Function Modules** node and select **Refresh**. The selected function modules appear under the **Function Modules** node. Click a function module name to see the properties in the **Properties** pane.  
   
-7.  Expand a function module name to see nodes for import, export, changing, and table parameters.  
+7. Expand a function module name to see nodes for import, export, changing, and table parameters.  
   
-8.  Expand the **Import** node to list the import parameters for the function module. Similarly, expand the **Export** and **Tables** nodes to see the list of export and table parameters for the function module.  
+8. Expand the **Import** node to list the import parameters for the function module. Similarly, expand the **Export** and **Tables** nodes to see the list of export and table parameters for the function module.  
   
 ## See Also  
  [Use the .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

@@ -20,13 +20,13 @@ manager: "anneta"
 # Use the .NET Framework Data Provider for Siebel eBusiness Applications
 This section provides instructions on using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]). This section provides information about:  
   
--   The connection string to connect to a Siebel system using an ADO.NET client.  
+- The connection string to connect to a Siebel system using an ADO.NET client.  
   
--   The syntax for SELECT and EXEC statements.  
+- The syntax for SELECT and EXEC statements.  
   
--   Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] with SSIS.  
+- Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] with SSIS.  
   
--   The ADO.NET interfaces that the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] extends.  
+- The ADO.NET interfaces that the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] extends.  
   
 ## In This Section  
   

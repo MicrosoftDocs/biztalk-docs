@@ -20,15 +20,15 @@ For a 3270 display application, the local node maintains statistics on host resp
   
  If the host specifies that response times are to be measured for this session, the application is responsible for measuring response times and for reporting them to the local node. This involves:  
   
--   Starting a timer when the user presses the ENTER key or an AID key to send data to the host.  
+- Starting a timer when the user presses the ENTER key or an AID key to send data to the host.  
   
--   Stopping the timer when the host's response to the inbound data is received, as defined by the RTM definition specified on the **Status-RTM** message.  
+- Stopping the timer when the host's response to the inbound data is received, as defined by the RTM definition specified on the **Status-RTM** message.  
   
--   Reporting the response time to the host on the [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md) message, which acknowledges the host's response. One of the fields on this message specifies the last response time measured by the application, or specifies that no response time is to be reported.  
+- Reporting the response time to the host on the [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md) message, which acknowledges the host's response. One of the fields on this message specifies the last response time measured by the application, or specifies that no response time is to be reported.  
   
--   Optionally displaying the most recent response time as a last transaction time indicator (LTTI) on the 3270 emulation status line.  
+- Optionally displaying the most recent response time as a last transaction time indicator (LTTI) on the 3270 emulation status line.  
   
- If the application wants to provide a local display of RTM data, it is responsible for maintaining its own response time statistics. It should use the same definition and boundaries as those specified on the [Status-RTM](./status-rtm1.md) message to ensure that the local data matches the data sent to the host by the local node. Note that the **Status-RTM** message can indicate that a local display of response times is not permitted. In this case, the application should not display either the response times or the LTTI.  
+  If the application wants to provide a local display of RTM data, it is responsible for maintaining its own response time statistics. It should use the same definition and boundaries as those specified on the [Status-RTM](./status-rtm1.md) message to ensure that the local data matches the data sent to the host by the local node. Note that the **Status-RTM** message can indicate that a local display of response times is not permitted. In this case, the application should not display either the response times or the LTTI.  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection1.md)   

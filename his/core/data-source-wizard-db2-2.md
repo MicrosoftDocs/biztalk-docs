@@ -265,17 +265,17 @@ You can use the Data Source Wizard to guide you through the steps to configure a
   
  Optionally, you can specify TRUE to instruct the Data Provider to optimize the processing of parameterized database commands. The default value is FALSE.  
   
--   For the **INSERT**, **UPDATE**, and **DELETE** commands, the Data Provider can combine **PREPARE**, **EXECUTE**, and **COMMIT** commands into one network flow to the remote database.  
+- For the **INSERT**, **UPDATE**, and **DELETE** commands, the Data Provider can combine **PREPARE**, **EXECUTE**, and **COMMIT** commands into one network flow to the remote database.  
   
--   For the **SELECT** command, the Data Provider can combine **PREPARE** and **EXECUTE** commands into one network flow. This minimizes network traffic and frequently improves overall performance.  
+- For the **SELECT** command, the Data Provider can combine **PREPARE** and **EXECUTE** commands into one network flow. This minimizes network traffic and frequently improves overall performance.  
   
- **Derive Parameters**  
+  **Derive Parameters**  
   
- Optionally, you can specify TRUE to instruct the Data Provider to verify and correct parameter lengths for character data types, on behalf of data consumers such as SQL Server Integration Services package designer and import/export wizard. The default is FALSE.  
+  Optionally, you can specify TRUE to instruct the Data Provider to verify and correct parameter lengths for character data types, on behalf of data consumers such as SQL Server Integration Services package designer and import/export wizard. The default is FALSE.  
   
- **Alternate TP name**  
+  **Alternate TP name**  
   
- You can use this to specify a DB2 transaction program (TP) name other than the default, which is `07F6C4C2`.  
+  You can use this to specify a DB2 transaction program (TP) name other than the default, which is `07F6C4C2`.  
   
 ##  <a name="all9"></a> All Properties  
  The All Properties screen enables you to configure more detailed and optional properties. You can edit these properties by selecting a property from the list, and then selecting or editing the value in the right column. You can edit the following properties from this screen.  

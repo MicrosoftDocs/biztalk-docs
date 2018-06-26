@@ -27,16 +27,16 @@ Once you have created or modified the tracking profile, the next step is to appl
   
 ### To apply the tracking profile from within the TPE  
   
-1.  Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Tracking Profile Editor**.  
+1. Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Tracking Profile Editor**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
   
-2.  On the **File** menu, click **Open**. Navigate to the correct .btt file on your hard drive. Click **Open** to load it.  
+2. On the **File** menu, click **Open**. Navigate to the correct .btt file on your hard drive. Click **Open** to load it.  
   
-3.  On the **Tools** menu, click **Apply Tracking Profile** to apply the .btt file to a management database that you have set from the **Set Management Database** menu item on the **Tools** menu. Verify the result through integration testing.  
+3. On the **Tools** menu, click **Apply Tracking Profile** to apply the .btt file to a management database that you have set from the **Set Management Database** menu item on the **Tools** menu. Verify the result through integration testing.  
   
-4.  Notify the person in your organization responsible for deployment that the tracking profile tests correctly and is ready for deployment.  
+4. Notify the person in your organization responsible for deployment that the tracking profile tests correctly and is ready for deployment.  
   
 ### To apply the tracking profile from the command line  
   
@@ -60,14 +60,14 @@ Once you have created or modified the tracking profile, the next step is to appl
   
 ### To remove a tracking profile  
   
-1.  Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Tracking Profile Editor**.  
+1. Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **Tracking Profile Editor**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges. To do this, right-click the application, and then select **Run as administrator**.  
   
-2.  On the **File** menu, click **Open**. Navigate to the correct .btt file on your hard drive. Click **Open** to load it.  
+2. On the **File** menu, click **Open**. Navigate to the correct .btt file on your hard drive. Click **Open** to load it.  
   
-3.  On the **Tools** menu, click **Remove Tracking Profile** to remove the tracking profile based on the .btt file from the BizTalk Management database.  
+3. On the **Tools** menu, click **Remove Tracking Profile** to remove the tracking profile based on the .btt file from the BizTalk Management database.  
   
 ## See Also  
  [Creating Tracking Profiles](../core/creating-tracking-profiles.md)

@@ -50,16 +50,16 @@ Send shape
 ## Delivery Notification  
  To test whether you have successfully sent a message over a send port, complete the following steps:  
   
-1.  Put your Send shape in a non-transactional, long-running or atomic scope.  
+1. Put your Send shape in a non-transactional, long-running or atomic scope.  
   
-2.  On your send port, set the DeliveryNotification property to **Transmitted**.  
+2. On your send port, set the DeliveryNotification property to **Transmitted**.  
   
-3.  Add a catch handler to your scope to handle a DeliveryFailureException.  
+3. Add a catch handler to your scope to handle a DeliveryFailureException.  
   
-    > [!NOTE]
-    >  If the Send shape is contained within an atomic scope, the DeliveryFailureException can still be caught, but will require an outer scope shape be added with a Transaction Type set to **Long Running** or **None**. Atomic scopes are not able to catch exceptions directly.  
+   > [!NOTE]
+   >  If the Send shape is contained within an atomic scope, the DeliveryFailureException can still be caught, but will require an outer scope shape be added with a Transaction Type set to **Long Running** or **None**. Atomic scopes are not able to catch exceptions directly.  
   
- The orchestration waits for acknowledgment at the end of the enclosing non-atomic scope, or the end of the orchestration, to receive the acknowledgment.  
+   The orchestration waits for acknowledgment at the end of the enclosing non-atomic scope, or the end of the orchestration, to receive the acknowledgment.  
   
 > [!NOTE]
 >  This applies only to one-way operations; failure in two-way (request-response) operations results in a SoapException (negative acknowledgement) even without the port attribute being set.  

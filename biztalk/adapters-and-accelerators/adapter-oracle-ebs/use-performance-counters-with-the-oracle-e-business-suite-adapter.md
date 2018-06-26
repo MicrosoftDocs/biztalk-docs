@@ -26,17 +26,17 @@ Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md
   
  Where "string" could be:  
   
--   Connection.Open  
+- Connection.Open  
   
--   Connection.Close  
+- Connection.Close  
   
--   Metadata  
+- Metadata  
   
--   Message action. For example, if the action is `InterfaceTables/Insert/FND/APPS/MS_SAMPLE_EMPLOYEE` then the string will be InterfaceTables.Insert.FND.APPS.MS_SAMPLE_EMPLOYEE.  
+- Message action. For example, if the action is `InterfaceTables/Insert/FND/APPS/MS_SAMPLE_EMPLOYEE` then the string will be InterfaceTables.Insert.FND.APPS.MS_SAMPLE_EMPLOYEE.  
   
- The Oracle data source is the same as specified in the connection URI.  
+  The Oracle data source is the same as specified in the connection URI.  
   
- The performance counter is initialized only after the adapter makes the first call to the Oracle database. Also, the InstanceLifetime property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates. 
+  The performance counter is initialized only after the adapter makes the first call to the Oracle database. Also, the InstanceLifetime property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates. 
   
 > [!NOTE]
 >  The precision of the LOB Time (Cumulative) performance counter is 16 milliseconds.  

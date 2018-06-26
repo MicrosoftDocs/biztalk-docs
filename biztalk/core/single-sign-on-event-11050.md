@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11050
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11050|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_INFO_LINE|  
-|Message Text|SSO: %1%r|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           11050                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                       SSO_INFO_LINE                        |
+|  Message Text   |                         SSO: %1%r                          |
   
 ## Explanation  
  This is an internal error.  

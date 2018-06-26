@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10842
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10842|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_ACCESS_DENIED|  
-|Message Text|Access denied. See the event log (on computer ‘%1’) for more details.|  
+|                 |                                                                       |
+|-----------------|-----------------------------------------------------------------------|
+|  Product Name   |                       Enterprise Single Sign-On                       |
+| Product Version |      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]       |
+|    Event ID     |                                 10842                                 |
+|  Event Source   |                                ENTSSO                                 |
+|    Component    |                                  N/A                                  |
+|  Symbolic Name  |                        ENTSSO_E_ACCESS_DENIED                         |
+|  Message Text   | Access denied. See the event log (on computer ‘%1’) for more details. |
   
 ## Explanation  
  Access is denied.  

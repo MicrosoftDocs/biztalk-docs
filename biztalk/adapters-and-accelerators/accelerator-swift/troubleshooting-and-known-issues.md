@@ -16,11 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting and known issues
-This section provides a centralized location for information related to troubleshooting [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  
+This section provides a centralized location for information related to troubleshooting Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  
 
 ## ReadMe
   
- Supplemental information related to issues discovered after this A4SWIFT documentation release is included in the Readme file located in the \<*drive:*\>\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for SWIFT\Documentation folder.  
+ Supplemental information related to issues discovered after this A4SWIFT documentation release is included in the Readme file located in the \<*drive:*\>\Program Files\\Microsoft  BizTalk Accelerator for SWIFT\Documentation folder.  
 
 ## Next steps  
  This section contains:  

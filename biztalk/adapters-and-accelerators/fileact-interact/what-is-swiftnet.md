@@ -49,17 +49,17 @@ Business software applications use the SWIFTNet Link (SNL) application programmi
   
  SNL provides a set of transport-level features designed for high availability and high throughput environments. These features include:  
   
--   Load balancing  
+- Load balancing  
   
--   Location transparency and routing, shielding application components from the underlying transport technology  
+- Location transparency and routing, shielding application components from the underlying transport technology  
   
--   Transport-level authentication and confidentiality, packaged within SNL and provided transparently to the application  
+- Transport-level authentication and confidentiality, packaged within SNL and provided transparently to the application  
   
--   Security functions by which business application software may establish end-to-end security (user application to user application), when required.  
+- Security functions by which business application software may establish end-to-end security (user application to user application), when required.  
   
- In terms of programming at the source code level using C++ or Java, there are only two functions: SwCall and SwCallback. SwCall is used by client applications to access server applications through SWIFTNet. SwCallback is used by server applications to respond to clients through SWIFTNet.  
+  In terms of programming at the source code level using C++ or Java, there are only two functions: SwCall and SwCallback. SwCall is used by client applications to access server applications through SWIFTNet. SwCallback is used by server applications to respond to clients through SWIFTNet.  
   
- The SwCall and SwCallback functions access the functionality of SWIFTNet by passing structured XML messages to and from SWIFTNet. At run-time, SNL includes both software libraries — the code of which executes within the same address space as business application client or server processes — and independent processes (daemons or services), which run in their own address spaces. The software libraries are accessible through the SNL APIs.  
+  The SwCall and SwCallback functions access the functionality of SWIFTNet by passing structured XML messages to and from SWIFTNet. At run-time, SNL includes both software libraries — the code of which executes within the same address space as business application client or server processes — and independent processes (daemons or services), which run in their own address spaces. The software libraries are accessible through the SNL APIs.  
 
 ## SWIFTAlliance Gateway overview
   

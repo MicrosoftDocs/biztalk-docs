@@ -112,26 +112,26 @@ IIS is included with the operating system as a **Role** or a **Feature**, depend
 2. Select **Internet Information Services** or **Web Server (IIS)**. In addition to the default checked options, also select the following: 
 
     **Windows 10**
-    - In **Web Management Tools**, also check:  
-        - IIS 6 Management Compatibility
-        - IIS 6 Management Console
-        - IIS 6 Scripting Tools (Installs adsutil.vbs)
-        - IIS Metabase and IIS 6 configuration compatibility
-        - IIS Management Console
-    - In **World Wide Web Services**, expand **Security** and also check:
-        - Basic Authentication
-        - Windows Authentication	
+   - In **Web Management Tools**, also check:  
+       - IIS 6 Management Compatibility
+       - IIS 6 Management Console
+       - IIS 6 Scripting Tools (Installs adsutil.vbs)
+       - IIS Metabase and IIS 6 configuration compatibility
+       - IIS Management Console
+   - In **World Wide Web Services**, expand **Security** and also check:
+       - Basic Authentication
+       - Windows Authentication    
 
-    **Windows Server**
-    - In **Security**, also check: 
-        - Basic Authentication
-        - Windows Authentication	
-    - In **Management Tools**, also check:  
-        - IIS Management Console
-        - IIS 6 Management Compatibility
-        - IIS 6 Metabase compatibility
-        - IIS 6 Management Console
-        - IIS 6 Scripting Tools (Installs adsutil.vbs)
+     **Windows Server**
+   - In **Security**, also check: 
+       - Basic Authentication
+       - Windows Authentication    
+   - In **Management Tools**, also check:  
+       - IIS Management Console
+       - IIS 6 Management Compatibility
+       - IIS 6 Metabase compatibility
+       - IIS 6 Management Console
+       - IIS 6 Scripting Tools (Installs adsutil.vbs)
 
 3. Continue with the installation, and restart the computer if prompted. 
 
@@ -282,18 +282,18 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
 
 1. Start the SQL Server installation. 
 2. During the Feature setup, select the following:
-    - Database Engine Services
-        - SQL Server Replication
-        - R Services (in-Database) (**optional**; info at [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
-        - Full-Text and Semantic Extractions for Search
-    - Analysis Services
-    - Reporting Services - Native
-    - Shared Features
-        - Client Tools Connectivity
-        - Integration Services
+   - Database Engine Services
+       - SQL Server Replication
+       - R Services (in-Database) (**optional**; info at [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
+       - Full-Text and Semantic Extractions for Search
+   - Analysis Services
+   - Reporting Services - Native
+   - Shared Features
+       - Client Tools Connectivity
+       - Integration Services
 
-    > [!NOTE]
-    > **SQL Server Data Tools** is not included in the default installation of SQL Server. It isn't required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. However, to connect to remote SSIS when using BAM, you need to install the same version of SSMS as the destination SSIS server. For example, [install SSMS 16.*x*](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) to install the related drivers to connect to SQL 2016 SSIS. SSMS 17.*x* cannot connect to SQL 2016 SSIS. You can have multiple versions of SSMS installed. 
+     > [!NOTE]
+     > **SQL Server Data Tools** is not included in the default installation of SQL Server. It isn't required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. However, to connect to remote SSIS when using BAM, you need to install the same version of SSMS as the destination SSIS server. For example, [install SSMS 16.*x*](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) to install the related drivers to connect to SQL 2016 SSIS. SSMS 17.*x* cannot connect to SQL 2016 SSIS. You can have multiple versions of SSMS installed. 
 
 3. Continue with the installation, and restart the computer if prompted.
 

@@ -27,13 +27,13 @@ The primary deliverables for the design phase are design specifications for both
   
  For example, assume that a legacy system uses FTP to communicate with other systems. However, looking at the level of throughput that the legacy FTP server can achieve in combination with the BizTalk Server FTP adapter, it is clear that the desired throughput (established as release criteria during the requirements phase) will not be achievable. To mitigate the risk to the project, the following alternatives are identified during the requirements phase:  
   
--   Scale up or out the FTP server and create multiple logical FTP addresses dedicated to specific message types to spread the load  
+- Scale up or out the FTP server and create multiple logical FTP addresses dedicated to specific message types to spread the load  
   
--   Modify the legacy system to deliver many messages in a single file as a batch to reduce the per-message transfer overhead  
+- Modify the legacy system to deliver many messages in a single file as a batch to reduce the per-message transfer overhead  
   
--   Modify the legacy system to use an alternative protocol that is known to be faster than FTP such as MSMQ  
+- Modify the legacy system to use an alternative protocol that is known to be faster than FTP such as MSMQ  
   
- The first investigation that needs to be done in this example is to prove that the risk exists by testing the current FTP system performance. A simple proof of concept solution that just receives messages from the FTP server would be built and deployed and the production load profile expected for the FTP pathway applied to it. If the server is capable of sustaining the desired load, then the risk is not realized and further investigation is not needed. If it is not able to sustain the desired load, then the alternative that is most likely to address the issue with the least amount of cost and project risk should be investigated via a proof of concept investigation.  
+  The first investigation that needs to be done in this example is to prove that the risk exists by testing the current FTP system performance. A simple proof of concept solution that just receives messages from the FTP server would be built and deployed and the production load profile expected for the FTP pathway applied to it. If the server is capable of sustaining the desired load, then the risk is not realized and further investigation is not needed. If it is not able to sustain the desired load, then the alternative that is most likely to address the issue with the least amount of cost and project risk should be investigated via a proof of concept investigation.  
   
 ## Refine System Size Estimate  
  Investigations conducted during the design phase provide valuable empirical information regarding the performance capabilities of your system.  

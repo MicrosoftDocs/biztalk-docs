@@ -23,13 +23,13 @@ manager: "anneta"
   
  **Purpose:** Ports specify how your orchestration will send messages to and receive messages from other business processes. Each port has a type, a direction, and a binding, which together determine the direction of communication, the pattern of communication, the location to or from which the message is sent or received, and how the communication takes place. The three ports you create and configure in this step fulfill the following roles:  
   
--   **ReceiveRequestPort** receives inventory replenishment request messages from the warehouse.  
+- **ReceiveRequestPort** receives inventory replenishment request messages from the warehouse.  
   
--   **SendToERP** forwards the request messages to the ERP system.  
+- **SendToERP** forwards the request messages to the ERP system.  
   
--   **SendDeclinePort** sends request decline messages back to the warehouse.  
+- **SendDeclinePort** sends request decline messages back to the warehouse.  
   
- For more information, see [Using Ports in Orchestrations](../core/using-ports-in-orchestrations.md).  
+  For more information, see [Using Ports in Orchestrations](../core/using-ports-in-orchestrations.md).  
   
 ## Prerequisites  
  Note the following requirements before you begin this step:  

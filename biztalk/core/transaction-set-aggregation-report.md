@@ -22,22 +22,22 @@ This report provides a single record that shows the number of EDI transaction se
 ## Fields in the Status Report  
  The Transaction Set Aggregation Report displays the following information for the received or sent interchanges:  
   
--   A count of how many transaction sets share the same Transaction Set ID, EDI encoding type, sender party, receiver party, and direction  
+- A count of how many transaction sets share the same Transaction Set ID, EDI encoding type, sender party, receiver party, and direction  
   
--   The Sender Party for each transaction set in the record  
+- The Sender Party for each transaction set in the record  
   
--   The Receiver Party for each transaction set in the record  
+- The Receiver Party for each transaction set in the record  
   
--   The Direction (receive or send) of each transaction set in the record  
+- The Direction (receive or send) of each transaction set in the record  
   
--   The date and time at which the earliest transaction set in the time range was sent or received (Earliest Started Date/Time)  
+- The date and time at which the earliest transaction set in the time range was sent or received (Earliest Started Date/Time)  
   
-    > [!NOTE]
-    >  For received documents, if the date specified in the interchange is YYMMDD format and YY is greater than or equal to 75, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the year as 19YY. If the date is less than 75, it will be displayed as 20YY.  
-    >   
-    >  For example, if you receive an interchange that contains the value 991113 in ISA09, the Earliest Started Date/Time will be listed in the report as 11/13/1999.  
+  > [!NOTE]
+  >  For received documents, if the date specified in the interchange is YYMMDD format and YY is greater than or equal to 75, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the year as 19YY. If the date is less than 75, it will be displayed as 20YY.  
+  > 
+  >  For example, if you receive an interchange that contains the value 991113 in ISA09, the Earliest Started Date/Time will be listed in the report as 11/13/1999.  
   
--   The date and time at which the latest transaction set in the time range was sent or received (Latest Ended Date/Time)  
+- The date and time at which the latest transaction set in the time range was sent or received (Latest Ended Date/Time)  
   
 ## Fields in the Query Expression for the Status Report  
  You can customize the Interchange Aggregation Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  

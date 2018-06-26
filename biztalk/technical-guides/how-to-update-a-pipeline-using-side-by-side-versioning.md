@@ -21,17 +21,17 @@ The simple way to use a new pipeline added by side-by-side versioning is to sele
   
 ### To add a new version of a pipeline component  
   
-1.  In Visual Studio, create a new version of the pipeline component, and sign the assembly.  
+1. In Visual Studio, create a new version of the pipeline component, and sign the assembly.  
   
-2.  Add the pipeline component in the **Pipeline Components** folder (\<*installation folder*\>\Pipeline Components).  
+2. Add the pipeline component in the **Pipeline Components** folder (\<*installation folder*\>\Pipeline Components).  
   
-3.  Add the pipeline component to your pipeline.  
+3. Add the pipeline component to your pipeline.  
   
-4.  After building the pipeline or deploying your solution, remove the pipeline component from the **Pipeline Components** folder.  
+4. After building the pipeline or deploying your solution, remove the pipeline component from the **Pipeline Components** folder.  
   
-5.  Add the pipeline component to the global assembly cache (GAC).  
+5. Add the pipeline component to the global assembly cache (GAC).  
   
- After you have completed these steps, the compiled pipeline assembly will refer to the correct version of the pipeline component, and the AppDomain used by BizTalk Server will find the new version of the pipeline component in the GAC, rather than finding the previous version of the pipeline component in the Pipeline Components folder.  
+   After you have completed these steps, the compiled pipeline assembly will refer to the correct version of the pipeline component, and the AppDomain used by BizTalk Server will find the new version of the pipeline component in the GAC, rather than finding the previous version of the pipeline component in the Pipeline Components folder.  
   
 ## See Also  
  [Updating Using Side-by-Side Versioning](../technical-guides/updating-using-side-by-side-versioning.md)

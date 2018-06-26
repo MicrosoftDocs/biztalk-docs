@@ -22,49 +22,49 @@ When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
   
  To perform agreement resolution, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proceeds as follows:  
   
-1.  Resolve the agreement by matching the sender qualifier and identifier, and the receiver qualifier and identifier, in the interchange header with those in the properties of an agreement.  
+1. Resolve the agreement by matching the sender qualifier and identifier, and the receiver qualifier and identifier, in the interchange header with those in the properties of an agreement.  
   
-2.  If step 1 does not succeed, resolve the agreement by matching just the sender qualifier and identifier in the interchange header with those in the properties of an agreement. Also, because the first step did not succeed, it is safe to assume that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will be receiving the message. Hence, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tries to match the receiver qualifier and identifier with the following:  
+2. If step 1 does not succeed, resolve the agreement by matching just the sender qualifier and identifier in the interchange header with those in the properties of an agreement. Also, because the first step did not succeed, it is safe to assume that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will be receiving the message. Hence, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tries to match the receiver qualifier and identifier with the following:  
   
-    -   Values “BT” and “HostX12Recvr” (for X12-encoded messages) and  
+   -   Values “BT” and “HostX12Recvr” (for X12-encoded messages) and  
   
-    -   Values “BT” and “HostEdifactRecvr” (for EDIFACT-encoded messages)  
+   -   Values “BT” and “HostEdifactRecvr” (for EDIFACT-encoded messages)  
   
-    > [!IMPORTANT]
-    >  -   **BizTalk Server 2013 R2, 2013, and 2010**: The ISA5, ISA6, ISA7, ISA8, UNB2.1, UNB2.2, UNB3.1, and UNB3.2 fields are mandatory in the agreement settings.  
-    > -   **BizTalk Server 2009 and 2006 R2**: The ISA7, ISA8, UNB3.1, and UNB3.2 fields are not mandatory in the party settings. If the fields are left blank, the EDI engine gives a resolution based on the values of ISA5, ISA6, UNB2.1, and UNB2.2.  
-    > -   To support the resolutions from BizTalk Server 2009 and 2006 R2 to newer versions of BizTalk Server, the hard coded IDs (HostX12Recvr and HostEdifactRecvr) and qualifiers (BT) are introduced.  
-    > -   Your EDIFACT messages should follow the [UNECE guidelines](http://www.unece.org/tradewelcome/areas-of-work/un-centre-for-trade-facilitation-and-e-business-uncefact/outputs/standards/unedifact/tradeedifactrules.html) for message syntax and rules.  
+   > [!IMPORTANT]
+   > - **BizTalk Server 2013 R2, 2013, and 2010**: The ISA5, ISA6, ISA7, ISA8, UNB2.1, UNB2.2, UNB3.1, and UNB3.2 fields are mandatory in the agreement settings.  
+   >   -   **BizTalk Server 2009 and 2006 R2**: The ISA7, ISA8, UNB3.1, and UNB3.2 fields are not mandatory in the party settings. If the fields are left blank, the EDI engine gives a resolution based on the values of ISA5, ISA6, UNB2.1, and UNB2.2.  
+   >   -   To support the resolutions from BizTalk Server 2009 and 2006 R2 to newer versions of BizTalk Server, the hard coded IDs (HostX12Recvr and HostEdifactRecvr) and qualifiers (BT) are introduced.  
+   >   -   Your EDIFACT messages should follow the [UNECE guidelines](http://www.unece.org/tradewelcome/areas-of-work/un-centre-for-trade-facilitation-and-e-business-uncefact/outputs/standards/unedifact/tradeedifactrules.html) for message syntax and rules.  
   
-3.  If step 2 does not succeed, use the fallback agreement properties.  
+3. If step 2 does not succeed, use the fallback agreement properties.  
   
- In the first step, for X12, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use the following values to make the match:  
+   In the first step, for X12, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use the following values to make the match:  
   
--   ISA05 (sender qualifier)  
+- ISA05 (sender qualifier)  
   
--   ISA06 (sender identifier)  
+- ISA06 (sender identifier)  
   
--   ISA07 (receiver qualifier)  
+- ISA07 (receiver qualifier)  
   
--   ISA08 (receiver identifier)  
+- ISA08 (receiver identifier)  
   
- For EDIFACT, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use the following values to make the match:  
+  For EDIFACT, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use the following values to make the match:  
   
--   UNB2.1 (sender identifier)  
+- UNB2.1 (sender identifier)  
   
--   UNB2.2 (sender qualifier)  
+- UNB2.2 (sender qualifier)  
   
--   UNB3.1 (receiver identifier)  
+- UNB3.1 (receiver identifier)  
   
--   UNB3.2 (receiver qualifier)  
+- UNB3.2 (receiver qualifier)  
   
- The agreement properties used for the match are defined in the **Identifiers** page of the direction-specific agreement tabs of the **Agreement Properties** dialog box.  
+  The agreement properties used for the match are defined in the **Identifiers** page of the direction-specific agreement tabs of the **Agreement Properties** dialog box.  
   
- These four receive-side and send-side properties uniquely identify the trading partner agreement. Using the four properties gives you more flexibility in receive-side processing. For example, this method of agreement resolution may enable you to send acknowledgments to multiple parties without creating multiple send ports.  
+  These four receive-side and send-side properties uniquely identify the trading partner agreement. Using the four properties gives you more flexibility in receive-side processing. For example, this method of agreement resolution may enable you to send acknowledgments to multiple parties without creating multiple send ports.  
   
- If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cannot resolve the agreement using all four sender and receiver qualifiers and identifiers, it will attempt to resolve the agreement using just the sender qualifier and identifier. For X12, these fields are ISA05 and ISA06; for EDIFACT, these fields are UNB2.1 and UNB2.2. As with a match of sender and receiver properties, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] matches the values in the interchange header with the agreement properties defined in the **Identifiers** page of the direction-specific agreement tabs of the **Agreement Properties** dialog box. If only the sender qualifier and identifier are used to resolve the agreement, the receiver qualifier and identifier should be undefined in the bi-directional agreement tab of the **Agreement Properties** dialog box.  
+  If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cannot resolve the agreement using all four sender and receiver qualifiers and identifiers, it will attempt to resolve the agreement using just the sender qualifier and identifier. For X12, these fields are ISA05 and ISA06; for EDIFACT, these fields are UNB2.1 and UNB2.2. As with a match of sender and receiver properties, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] matches the values in the interchange header with the agreement properties defined in the **Identifiers** page of the direction-specific agreement tabs of the **Agreement Properties** dialog box. If only the sender qualifier and identifier are used to resolve the agreement, the receiver qualifier and identifier should be undefined in the bi-directional agreement tab of the **Agreement Properties** dialog box.  
   
- If no agreement is found, then [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the fallback trading partner agreement, unless the port setting requires authentication. If the port setting requires authentication (if either **Drop messages if authentication fails** or **Keep messages if authentication fails** is selected on the **General** page of the **Receive Port Properties**), an agreement is required for any interchange received by the receive port. In this case, if the agreement is not resolved by matching the interchange header with agreement properties, using the fallback agreement properties to determine the agreement is not allowed. The interchange will be treated as though authentication had failed if no agreement is found, and will be suspended.  
+  If no agreement is found, then [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the fallback trading partner agreement, unless the port setting requires authentication. If the port setting requires authentication (if either **Drop messages if authentication fails** or **Keep messages if authentication fails** is selected on the **General** page of the **Receive Port Properties**), an agreement is required for any interchange received by the receive port. In this case, if the agreement is not resolved by matching the interchange header with agreement properties, using the fallback agreement properties to determine the agreement is not allowed. The interchange will be treated as though authentication had failed if no agreement is found, and will be suspended.  
   
 > [!NOTE]
 >  A message in the EDI pipeline goes to the succeeding step in Agreement Resolution till the message gets resolved with the step having Agreement in enable state. For example, if the message gets resolved in the first step of Agreement Resolution but the Agreement is in a disabled state then the message goes to the succeeding step for resolution.  
@@ -81,15 +81,15 @@ When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
   
  For X12 interchanges, after the target namespace is discovered, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] determines the schema using the following information:  
   
--   The target namespace just discovered  
+- The target namespace just discovered  
   
--   The version/release in the first five characters of ST03 (if GS07 == X - Accredited Standards Committee X12). If ST03 is not present/invalid or does not result in the schema resolution, then the version is determined by the first five characters of GS08 or of ISA12 (if GS07 != X).  
+- The version/release in the first five characters of ST03 (if GS07 == X - Accredited Standards Committee X12). If ST03 is not present/invalid or does not result in the schema resolution, then the version is determined by the first five characters of GS08 or of ISA12 (if GS07 != X).  
   
--   The DocType in ST01.  
+- The DocType in ST01.  
   
- The EDI Disassembler concatenates the encoding type, version/release, and DocType to determine the schema name, for example, "X12_00401_864". It then concatenates the target namespace with the schema name, for example, `http://schemas.microsoft.com/BizTalk/Edi/X12/2006/X12#X12_00401_864`.  
+  The EDI Disassembler concatenates the encoding type, version/release, and DocType to determine the schema name, for example, "X12_00401_864". It then concatenates the target namespace with the schema name, for example, `http://schemas.microsoft.com/BizTalk/Edi/X12/2006/X12#X12_00401_864`.  
   
- For an incoming HIPAA 837 interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports three HIPAA 837 schemas:  
+  For an incoming HIPAA 837 interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports three HIPAA 837 schemas:  
   
 |837 Schema|GS08 Value in version 4010|GS08/ST03 Value in version 5010|  
 |----------------|--------------------------------|--------------------------------------|  
@@ -99,28 +99,28 @@ When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
   
 > [!NOTE]
 >  In HIPAA versions, for the transaction set 278 (Health Care Services Review), both the request and response pairs share the same value for GS08 and ST01. Depending on the trigger values in BHT02 field you may differentiate between a 278 Request/ Response in version 5010:  
->   
->  1.  Any of the values 01, 13 and 36 in BHT02 indicates a Health Care Services Review Request  
-> 2.  11 in BHT02 indicates Health Care Services Review Response  
+> 
+> 1. Any of the values 01, 13 and 36 in BHT02 indicates a Health Care Services Review Request  
+>    2.  11 in BHT02 indicates Health Care Services Review Response  
   
 ### EDIFACT Schema Discovery  
  For EDIFACT-encoded messages, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] determines a custom namespace using the message type (UNH2.1), message version number (UNH2.2), message release number (UNH2.3), assigned code (UNH2.5), functional group ID (UNG2.1), and application send code qualifier (UNG2.2) from the header of the incoming interchange. It then attempts to find a match between these values and the values for the UNH2.1, UNH2.2, UNH2.3, UNH2.5, UNG2.1, and UNG2.2 properties in the **Customize target namespace** grid (under **Transaction Set Settings**) of the bi-directional agreement tab of the **Agreement Properties** dialog box. If it finds a match, it will use the target namespace identified in the same row of the grid to determine which schema to use to validate and process the message. If the target namespace is not determined, then the default target namespace will be used. If no namespace is identified in the **Target namespace** field marked for the default row, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use the target namespace identified in the fallback agreement properties for EDIFACT-encoded messages, which by default is `http://schemas.microsoft.com/BizTalk/Edi/EDIFACT/2006`.  
   
  For EDIFACT interchanges, once the target namespace is discovered, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] determines the schema using the following information:  
   
--   The target namespace just discovered.  
+- The target namespace just discovered.  
   
--   The message version number in UNH2.2.  
+- The message version number in UNH2.2.  
   
--   The message release number in UNH2.3.  
+- The message release number in UNH2.3.  
   
--   The message type in UNH2.1.  
+- The message type in UNH2.1.  
   
--   The assigned code in UNH2.5.  
+- The assigned code in UNH2.5.  
   
- The EDI Disassembler concatenates the encoding type, the version, the release, and the message type to determine the schema name, for example, " EFACT_D94A_CONTEN". It then concatenates the target namespace with the schema name, for example, `http://schemas.microsoft.com/BizTalk/Edi/Edifact/2006/EFACT#EFACT_D94A_CONTEN`.  
+  The EDI Disassembler concatenates the encoding type, the version, the release, and the message type to determine the schema name, for example, " EFACT_D94A_CONTEN". It then concatenates the target namespace with the schema name, for example, `http://schemas.microsoft.com/BizTalk/Edi/Edifact/2006/EFACT#EFACT_D94A_CONTEN`.  
   
- If UNH2.5 is present in the message, the EDI Disassembler will first attempt to find a matching schema by using the value of UNH2.5 as part of the schema name, for example “EFACT_D94A_CONTEN_TEST”. If no matching schema is found, the EDI Disassembler will fall back to finding the schema without the UNH2.5 value.  
+  If UNH2.5 is present in the message, the EDI Disassembler will first attempt to find a matching schema by using the value of UNH2.5 as part of the schema name, for example “EFACT_D94A_CONTEN_TEST”. If no matching schema is found, the EDI Disassembler will fall back to finding the schema without the UNH2.5 value.  
   
 ## Authorization  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] checks the values of the authorization and security fields defined for the agreement with the fields in the message. If there is a mismatch, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will suspend the interchange. For EDIFACT-encoded messages, these fields are the recipient reference password (UNB6.1 and UNB6.2). For X12-encoded messages, these fields are the Authorization qualifier and information (ISA1-2) and Security qualifier and information (ISA3-4).  

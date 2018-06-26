@@ -32,22 +32,22 @@ A server can only be associated with one BizTalk group. If a server already belo
   
 ### To remove a server from a group  
   
-1.  On the computer that you want to remove from a BizTalk Server group, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
+1. On the computer that you want to remove from a BizTalk Server group, click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
   
-2.  On the menu bar, click **Unconfigure Features**.  
+2. On the menu bar, click **Unconfigure Features**.  
   
-3.  In the **Unconfigure Features** dialog box, select **Group**, and then click **OK**.  
+3. In the **Unconfigure Features** dialog box, select **Group**, and then click **OK**.  
   
-    > [!CAUTION]
-    >  Unconfiguring a group will also unconfigure all dependent features that are already configured on that computer.  
+   > [!CAUTION]
+   >  Unconfiguring a group will also unconfigure all dependent features that are already configured on that computer.  
   
-4.  Click **Yes**.  
+4. Click **Yes**.  
   
-5.  In the Microsoft BizTalk Server Configuration Wizard, click **Next**.  
+5. In the Microsoft BizTalk Server Configuration Wizard, click **Next**.  
   
-     The Group and its dependent features are unconfigured.  
+    The Group and its dependent features are unconfigured.  
   
-6.  Click **Finish**.  
+6. Click **Finish**.  
   
 ## See Also  
  [Managing Groups](../core/managing-groups.md)   

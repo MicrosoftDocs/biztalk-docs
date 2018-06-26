@@ -42,13 +42,13 @@ The BizTalk Messaging Engine generates positive acknowledgments (ACK) and negati
 ## Why Use Acknowledgments?  
  Positive and negative acknowledgments provide strong feedback that you can use to determine if a message arrived at its destination or encountered one or more problems along the way. For example, acknowledgments are useful when:  
   
--   You want to monitor a receive port for a new trading partner for schema validation and other errors.  
+- You want to monitor a receive port for a new trading partner for schema validation and other errors.  
   
--   You want to mark the status of a loan request sent out for approval as "in process" if it is successfully sent to a partner for approval or "failed" if transmission fails (for example, if the partner's server is down).  
+- You want to mark the status of a loan request sent out for approval as "in process" if it is successfully sent to a partner for approval or "failed" if transmission fails (for example, if the partner's server is down).  
   
--   You process interchanges containing multiple purchase orders and want to track the number of orders that are transmitted or fail transmission.  
+- You process interchanges containing multiple purchase orders and want to track the number of orders that are transmitted or fail transmission.  
   
- You can accomplish each of these scenarios by using acknowledgments and content-based routing that uses filters.  
+  You can accomplish each of these scenarios by using acknowledgments and content-based routing that uses filters.  
   
 ## Routing Acknowledgments  
  When an ACK or NACK is published, all of the message context properties from the message that caused the ACK/NACK are demoted. Any properties that were promoted do not flow to the acknowledgment. To route an acknowledgment, build a filter using the following properties from the **BTS** namespace:  

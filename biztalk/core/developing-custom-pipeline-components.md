@@ -36,7 +36,7 @@ This section describes how to develop a pipeline component. You can create three
   
 > [!CAUTION]
 >  If you reference a custom pipeline component from a pipeline in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], a compile-time error may occur. To correct the error, close Pipeline Designer and reopen it before compiling. Alternatively, you can remove the component, and then add it.  
-  
+> 
 > [!IMPORTANT]
 >  When upgrading to BizTalk Server, ensure that any string variables in your existing custom pipeline components do not contain any newline characters such as ‘\n’. Otherwise, a “newline in constant” error will occur when compiling this component in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   

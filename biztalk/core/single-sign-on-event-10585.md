@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10585
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10585|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_EXPIRED_TICKET_REDEEMED|  
-|Message Text|A ticket is being redeemed after the ticket time-out period has expired. This is allowed because the ticket time-out is disabled for this application.%r<br /><br /> Application Name: %1|  
+|                 |                                                                                                                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                 Enterprise Single Sign-On                                                                                 |
+| Product Version |                                                                [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                 |
+|    Event ID     |                                                                                           10585                                                                                           |
+|  Event Source   |                                                                                          ENTSSO                                                                                           |
+|    Component    |                                                                                            N/A                                                                                            |
+|  Symbolic Name  |                                                                             SSO_WARN_EXPIRED_TICKET_REDEEMED                                                                              |
+|  Message Text   | A ticket is being redeemed after the ticket time-out period has expired. This is allowed because the ticket time-out is disabled for this application.%r<br /><br /> Application Name: %1 |
   
 ## Explanation  
  Ticket time-out can be enabled or disabled. In this case a ticket is being redeemed even though its time-out period has expired, because the time-out is disabled.  

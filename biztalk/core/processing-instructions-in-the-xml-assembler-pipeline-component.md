@@ -44,13 +44,13 @@ Processing instructions provide information to the application that processes an
 ## Processing Properties and Envelopes  
  Because processing instructions are not preserved for the envelopes, the following combination of flat file assembler settings results in only the outermost envelope having the processing instruction:  
   
--   **Processing instruction scope** property set to "Envelope."  
+- **Processing instruction scope** property set to "Envelope."  
   
--   **Add processing instructions** property set to "Append."  
+- **Add processing instructions** property set to "Append."  
   
- The envelope would use the processing instruction specified in the assembler's **Add Processing instructions text** property.  
+  The envelope would use the processing instruction specified in the assembler's **Add Processing instructions text** property.  
   
- Any existing processing instructions in either the outer or inner envelope(s), as specified in the incoming message, will not be present in the output message(s).  
+  Any existing processing instructions in either the outer or inner envelope(s), as specified in the incoming message, will not be present in the output message(s).  
   
 ## See Also  
  [XML Assembler Pipeline Component](../core/xml-assembler-pipeline-component.md)   

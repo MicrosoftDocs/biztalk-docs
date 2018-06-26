@@ -38,15 +38,15 @@ manager: "anneta"
 ## How to Create a SharePoint Application  
  Creating a SharePoint application involves the following steps:  
   
--   Create a single sign-on (SSO) application in SharePoint  
+- Create a single sign-on (SSO) application in SharePoint  
   
--   Create a Shared Services provider  
+- Create a Shared Services provider  
   
--   Import the application definition file  
+- Import the application definition file  
   
--   Create a Web Part page, and add Web Parts  
+- Create a Web Part page, and add Web Parts  
   
- This topic demonstrates how to perform these steps.  
+  This topic demonstrates how to perform these steps.  
   
 ## Creating an SSO Application in SharePoint  
  To access the data in an SAP system from a SharePoint application, you must set up an SSO application that maps a SharePoint user to an SAP user. Creating an SSO application in SharePoint involves the following steps:  
@@ -101,15 +101,15 @@ manager: "anneta"
   
  In this tutorial, Web Parts are created for the method instances that were created in the Business Data Catalog Definition Editor. Office SharePoint Server provides different kinds of Web Parts for specific use. The following Web Parts are used here:  
   
--   **Business Data List** Web Part for the **Finder** method instance. This Web Part enables you to specify a search expression to retrieve a list of customers from the SAP system. For this tutorial, this is called the Search Customers Web Part.  
+- **Business Data List** Web Part for the **Finder** method instance. This Web Part enables you to specify a search expression to retrieve a list of customers from the SAP system. For this tutorial, this is called the Search Customers Web Part.  
   
--   **Business Data Item** Web Part for the **Specific Finder** method instance. This Web Part presents the details for a specific customer that you select from the Search Customers Web Part. This Web Part is mapped to the Search Customer Web Part.  For this tutorial, this is called the Customer Details Web Part.  
+- **Business Data Item** Web Part for the **Specific Finder** method instance. This Web Part presents the details for a specific customer that you select from the Search Customers Web Part. This Web Part is mapped to the Search Customer Web Part.  For this tutorial, this is called the Customer Details Web Part.  
   
--   **Business Data Related List** Web Part for the **Association** method instance. This Web Part lists the sales orders for a specific customer that you select from the Search Customers Web Part. This Web Part is associated with the Search Customer Web Part.  For this tutorial, this is called the Sales Order Details Web Part.  
+- **Business Data Related List** Web Part for the **Association** method instance. This Web Part lists the sales orders for a specific customer that you select from the Search Customers Web Part. This Web Part is associated with the Search Customer Web Part.  For this tutorial, this is called the Sales Order Details Web Part.  
   
- This section provides instructions to create these Web Parts and to create associations between them. For more information about creating Web Parts, see "Customize business data lists, Web Parts, and sites" at [http://go.microsoft.com/fwlink/?LinkId=104131](http://go.microsoft.com/fwlink/?LinkId=104131).  
+  This section provides instructions to create these Web Parts and to create associations between them. For more information about creating Web Parts, see "Customize business data lists, Web Parts, and sites" at [http://go.microsoft.com/fwlink/?LinkId=104131](http://go.microsoft.com/fwlink/?LinkId=104131).  
   
- The Web Parts will be added to a single Web Part page. You must create a Web Part page before adding the Web Parts. For this tutorial, this Web Part page is called Customer_SalesOrders.  
+  The Web Parts will be added to a single Web Part page. You must create a Web Part page before adding the Web Parts. For this tutorial, this Web Part page is called Customer_SalesOrders.  
   
 ### Creating a Web Part Page  
  This section provides instructions to create a Web Part page.  

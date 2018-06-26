@@ -51,7 +51,7 @@ To define the way that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizta
   
 > [!NOTE]
 >  If you change the batch filter for an active batch, it will take 15 minutes for the new filter criteria to become active as this information is cached by Biztalk Server. This refresh interval cannot be modified.  
->   
+> 
 >  To force the new filter to become active immediately, restart the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host process.  
   
  Outgoing batches can include multiple groups, but only one group per transaction type. A group can contain multiple transaction sets, but each must have the same transaction type.  
@@ -67,34 +67,34 @@ To define the way that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizta
 ## Batch Release Criteria  
  Batches will be released according to criteria set in the **Batch Configuration** page of the one-way agreement tab in the **Agreement Properties** dialog box. Batches can be released in any of the following ways:  
   
--   According to a schedule, on an hourly, daily, or weekly basis.  
+- According to a schedule, on an hourly, daily, or weekly basis.  
   
--   When a specific number of transaction sets is available for a group.  
+- When a specific number of transaction sets is available for a group.  
   
--   When a specific number of transaction sets is available for an interchange.  
+- When a specific number of transaction sets is available for an interchange.  
   
--   When a specific number of characters is available for batch processing.  
+- When a specific number of characters is available for batch processing.  
   
--   When an external trigger is executed by an application external to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- When an external trigger is executed by an application external to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
- If you select the **Send empty batch signal** property on the **Batch Schedule** dialog box, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will send an empty batch message when the batch is scheduled to be sent even if no messages have been received by the batching orchestration.  
+  If you select the **Send empty batch signal** property on the **Batch Schedule** dialog box, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will send an empty batch message when the batch is scheduled to be sent even if no messages have been received by the batching orchestration.  
   
 ## Batch Activation Criteria  
  Batches will be released according to the batch release criteria only when the batch activation criterion has been met. To activate an instance of the orchestration, you must press the **Start** button in the **Batch Configuration** page of the one-way agreement tab in the **Agreement Properties** dialog box. This creates an instance of the orchestration for the batch configuration. If the **Start** button is available for clicking, an instance of the orchestration for the batch configuration is not currently activated.  
   
  After you press the **Start** button, messages will be collected for a batch only if the following are true:  
   
--   The messages meet the criteria in the batch filter.  
+- The messages meet the criteria in the batch filter.  
   
--   The date and time are after the datetime entered in the **Start** field.  
+- The date and time are after the datetime entered in the **Start** field.  
   
--   The date and time are before the value entered in the **End by** field, or the numbers of batches processed is less than or equal to the number of occurrences in the **End after (occurrences)** field, or the **No end date** option is selected. All the three options are available under the **Termination** section.  
+- The date and time are before the value entered in the **End by** field, or the numbers of batches processed is less than or equal to the number of occurrences in the **End after (occurrences)** field, or the **No end date** option is selected. All the three options are available under the **Termination** section.  
   
- The activation criteria are set in the **Batch Configuration** page of the one-way agreement tab in the **Agreement Properties** dialog box.  
+  The activation criteria are set in the **Batch Configuration** page of the one-way agreement tab in the **Agreement Properties** dialog box.  
   
- After you have pressed the **Start** button to activate an instance of the batching orchestration, messages will not be collected for a batch until the time mentioned for the **Start** property has passed.  In the **Batch Configuration** page, if **Start immediately** is not selected and the **Start** datetime is set to a value prior to the time at which you press the **Start** button, batching will start as soon as the orchestration is active. If the activation datetime is in the future, batching will start at that time.  
+  After you have pressed the **Start** button to activate an instance of the batching orchestration, messages will not be collected for a batch until the time mentioned for the **Start** property has passed.  In the **Batch Configuration** page, if **Start immediately** is not selected and the **Start** datetime is set to a value prior to the time at which you press the **Start** button, batching will start as soon as the orchestration is active. If the activation datetime is in the future, batching will start at that time.  
   
- You can set the **Start** datetime to be a datetime in the future. However, if you click the **Start** button when the **Start** datetime is in the future, the orchestration instance will be activated, but no messages will be collected until the start datetime occurs. The BatchMarker pipeline component will not promote the appropriate properties needed to route a message to the routing orchestration or the batching orchestration until the start datetime. As a result, the message will not be batched. However, the messages will be picked up by any send port or orchestration subscribing to them as individual messages. For more information on what the BatchMarker pipeline component does, see [Assembling a Batched EDI Interchange](../core/assembling-a-batched-edi-interchange.md).  
+  You can set the **Start** datetime to be a datetime in the future. However, if you click the **Start** button when the **Start** datetime is in the future, the orchestration instance will be activated, but no messages will be collected until the start datetime occurs. The BatchMarker pipeline component will not promote the appropriate properties needed to route a message to the routing orchestration or the batching orchestration until the start datetime. As a result, the message will not be batched. However, the messages will be picked up by any send port or orchestration subscribing to them as individual messages. For more information on what the BatchMarker pipeline component does, see [Assembling a Batched EDI Interchange](../core/assembling-a-batched-edi-interchange.md).  
   
 ## Batch Termination Criteria  
  Messages will cease to be collected for a batch after the **End by** datetime or after the number of occurrences in the **End after (occurrences)** property. If you do not want the batching orchestration to be deactivated, select the **No end date** option.  

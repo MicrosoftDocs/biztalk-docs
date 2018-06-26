@@ -17,17 +17,17 @@ manager: "anneta"
 # What You Should Know Before Programming Single Sign-On
 To use this documentation effectively, you should be familiar with the following:  
   
--   Microsoft [!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)] operating systems. You should be especially familiar with Windows Security features.  
+- Microsoft [!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)] operating systems. You should be especially familiar with Windows Security features.  
   
--   Administrative features of Enterprise Single Sign-On, especially how to perform administrative actions using the user interface.  
+- Administrative features of Enterprise Single Sign-On, especially how to perform administrative actions using the user interface.  
   
- Depending on the API and development that you are using, you should also be familiar with the following interfaces:  
+  Depending on the API and development that you are using, you should also be familiar with the following interfaces:  
   
--   COM  
+- COM  
   
--   The .NET Framework and the common language runtime  
+- The .NET Framework and the common language runtime  
   
--   Windows Networking, and specifically how to send and receive tickets  
+- Windows Networking, and specifically how to send and receive tickets  
   
 ## See Also  
  [Programming Single Sign-On Overview](../core/programming-single-sign-on-overview.md)

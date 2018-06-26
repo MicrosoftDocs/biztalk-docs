@@ -31,17 +31,17 @@ The XML Assembler pipeline component can produce messages in user-specified char
   
  The XML Assembler uses the following algorithm to determine output message encoding:  
   
-1.  If the **XMLNorm.TargetCharset** context property is set, its value is used.  
+1. If the **XMLNorm.TargetCharset** context property is set, its value is used.  
   
-2.  Otherwise, if the **Target charset** property is specified in Pipeline Designer, its value is used.  
+2. Otherwise, if the **Target charset** property is specified in Pipeline Designer, its value is used.  
   
-3.  Otherwise, if the **XMLNorm.SourceCharset** property is specified, its value is used.  
+3. Otherwise, if the **XMLNorm.SourceCharset** property is specified, its value is used.  
   
-4.  If none of the preceding properties is set, UTF-8 encoding is used.  
+4. If none of the preceding properties is set, UTF-8 encoding is used.  
   
- The XML Assembler saves the encoding information of a BizTalk message object in the `IBaseMessagePart.Charset` property. When using Unicode or UTF-8 encoding, the XML Assembler always adds the byte order mark (BOM) to outgoing messages.  
+   The XML Assembler saves the encoding information of a BizTalk message object in the `IBaseMessagePart.Charset` property. When using Unicode or UTF-8 encoding, the XML Assembler always adds the byte order mark (BOM) to outgoing messages.  
   
- Note that when using the default XML send pipeline, which contains the XML Assembler component, the produced documents may be encoded by using the same charset as when they were submitted into the server, or they may be encoded by using UTF-8 if documents were created within the server and **XMLNorm.TargetCharset** was not specified.  
+   Note that when using the default XML send pipeline, which contains the XML Assembler component, the produced documents may be encoded by using the same charset as when they were submitted into the server, or they may be encoded by using UTF-8 if documents were created within the server and **XMLNorm.TargetCharset** was not specified.  
   
 ## See Also  
  [XML Assembler Pipeline Component](../core/xml-assembler-pipeline-component.md)   

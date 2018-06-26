@@ -19,11 +19,11 @@ Acknowledgments indicate the status of EDI message transmission. After [!INCLUDE
   
  Based on the level of validation, EDI message acknowledgments fall into two types:  
   
--   A **Technical Acknowledgment** generated as a result of header validation. The technical acknowledgment reports the status of the processing of an interchange header and trailer by the address receiver.  
+- A **Technical Acknowledgment** generated as a result of header validation. The technical acknowledgment reports the status of the processing of an interchange header and trailer by the address receiver.  
   
--   A **Functional Acknowledgment** generated as a result of body validation. The functional acknowledgment reports each error encountered while processing the received document.  
+- A **Functional Acknowledgment** generated as a result of body validation. The functional acknowledgment reports each error encountered while processing the received document.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can return both technical and functional acknowledgments in response to a single interchange. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] returns a single technical acknowledgment for each interchange. For X12 interchanges, it will return a functional acknowledgment for each group received. For EDIFACT interchanges, it will return a functional acknowledgment for each interchange, no matter how many groups that interchange contains.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can return both technical and functional acknowledgments in response to a single interchange. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] returns a single technical acknowledgment for each interchange. For X12 interchanges, it will return a functional acknowledgment for each group received. For EDIFACT interchanges, it will return a functional acknowledgment for each interchange, no matter how many groups that interchange contains.  
   
 ## X12 Acknowledgments  
  **X12 Technical Acknowledgment**  
@@ -53,28 +53,28 @@ Acknowledgments indicate the status of EDI message transmission. After [!INCLUDE
 ## When an Acknowledgment Is Generated  
  The EDI receive pipeline will generate an acknowledgment if either of the following conditions are met:  
   
--   A data element in the received interchange prompts the acknowledgment. For X12-encoded messages, the receive pipeline will generate a technical TA1 ACK if the ISA14 data element is set to 1. For EDIFACT-encoded messages, the receive pipeline will generate a technical CONTRL ACK if the UNB9 data element is set to 2, and it will generate a functional CONTRL ACK if the UNB9 data element is set to 1.  
+- A data element in the received interchange prompts the acknowledgment. For X12-encoded messages, the receive pipeline will generate a technical TA1 ACK if the ISA14 data element is set to 1. For EDIFACT-encoded messages, the receive pipeline will generate a technical CONTRL ACK if the UNB9 data element is set to 2, and it will generate a functional CONTRL ACK if the UNB9 data element is set to 1.  
   
--   An agreement property prompts the acknowledgment. For X12 interchanges, these properties are the **TA1 Expected** and **997 Expected** properties in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box. For EDIFACT interchanges, these properties are the **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box. When you enable a type of acknowledgment, you can also indicate whether to batch that type of acknowledgment.  
+- An agreement property prompts the acknowledgment. For X12 interchanges, these properties are the **TA1 Expected** and **997 Expected** properties in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box. For EDIFACT interchanges, these properties are the **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box. When you enable a type of acknowledgment, you can also indicate whether to batch that type of acknowledgment.  
   
--   A global property prompts the acknowledgment when no agreement is determined for the interchange. These properties are the  
+- A global property prompts the acknowledgment when no agreement is determined for the interchange. These properties are the  
   
-    -   **TA1 Expected** and **997 Expected** properties in the **Acknowledgements** page of the agreement tab of the **X12 Fallback Settings** dialog box.  
+  -   **TA1 Expected** and **997 Expected** properties in the **Acknowledgements** page of the agreement tab of the **X12 Fallback Settings** dialog box.  
   
-    -   **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the agreement tab of the **EDIFACT Fallback Settings** dialog box.  
+  -   **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the agreement tab of the **EDIFACT Fallback Settings** dialog box.  
   
- For EDIFACT, the EDI receive pipeline will return two separate CONTRL acknowledgments if both a technical acknowledgment and a functional acknowledgment are prompted. The technical CONTRL ACK will include receipt acknowledgment information only. The functional CONTRL ACK will include both receipt information and functional acknowledgment information. For more information, see [EDIFACT CONTRL Acknowledgment](../core/edifact-contrl-acknowledgment.md).  
+  For EDIFACT, the EDI receive pipeline will return two separate CONTRL acknowledgments if both a technical acknowledgment and a functional acknowledgment are prompted. The technical CONTRL ACK will include receipt acknowledgment information only. The functional CONTRL ACK will include both receipt information and functional acknowledgment information. For more information, see [EDIFACT CONTRL Acknowledgment](../core/edifact-contrl-acknowledgment.md).  
   
 ## Identifying an Acknowledgment with a Control Number  
  Each acknowledgment needs to be identified by a transaction set control number for X12 (the ST2 data element) or a transaction set reference number for EDIFACT (the UNH1 data element). If an agreement is configured for the outgoing acknowledgment, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will set the transaction set control or reference number to the value set for the agreement based on the following:  
   
--   **For X12 acknowledgements** – (**ACK Control number (ST02)** property in **Local Host Settings** Page (**Receiver’s Settings** section) of the agreement tab in **Agreement Properties** dialog box  
+- **For X12 acknowledgements** – (**ACK Control number (ST02)** property in **Local Host Settings** Page (**Receiver’s Settings** section) of the agreement tab in **Agreement Properties** dialog box  
   
--   **For EDIFACT acknowledgements** – (**Edifact Ack Control number** property in **Local Host Settings** Page (**Receiver’s Settings** section) of the agreement tab in **Agreement Properties** dialog box  
+- **For EDIFACT acknowledgements** – (**Edifact Ack Control number** property in **Local Host Settings** Page (**Receiver’s Settings** section) of the agreement tab in **Agreement Properties** dialog box  
   
- If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not determine the agreement for the acknowledgment, it will use the same properties as mentioned above but available on the agreement tab in the **X12 Fallback Settings** ad **EDIFACT Fallback Settings** dialog boxes. This setting applies to both the technical and functional acknowledgments if both are configured. This integer will be incremented by one for each acknowledgment or interchange generated.  
+  If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not determine the agreement for the acknowledgment, it will use the same properties as mentioned above but available on the agreement tab in the **X12 Fallback Settings** ad **EDIFACT Fallback Settings** dialog boxes. This setting applies to both the technical and functional acknowledgments if both are configured. This integer will be incremented by one for each acknowledgment or interchange generated.  
   
- The envelope of an acknowledgment is built from data in the received message according to the acknowledgment control schema.  
+  The envelope of an acknowledgment is built from data in the received message according to the acknowledgment control schema.  
   
 ## Preparing the Acknowledgment  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] builds the envelope for an acknowledgment just as it builds an envelope for a message, by looking at the definitions of the Interchange Control Header and the Functional Group Header. For more information, see [Agreement Resolution and Schema Determination for Outgoing EDI Messages](../core/agreement-resolution-and-schema-determination-for-outgoing-edi-messages.md).  

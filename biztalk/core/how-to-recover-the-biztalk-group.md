@@ -24,21 +24,21 @@ You must rejoin the BizTalk Server to an existing BizTalk group as part of the s
   
 ## Recover the BizTalk group (Standard Edition)  
   
-1.  Click **Start**, type **cmd**, and then select **Command Prompt**.  
+1. Click **Start**, type **cmd**, and then select **Command Prompt**.  
   
-2.  At the command prompt, type:  
+2. At the command prompt, type:  
   
-     **RestoreConfig.vbe**  *\<SavedConfigXML\>*  
+    **RestoreConfig.vbe**  *\<SavedConfigXML\>*  
   
-     Where *\<SavedConfigXML\>* is the full path and filename of the saved configuration file.  
+    Where *\<SavedConfigXML\>* is the full path and filename of the saved configuration file.  
   
-     The above should exit without displaying any errors.  
+    The above should exit without displaying any errors.  
   
-    > [!NOTE]
-    >  To recover [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Standard Edition on a 64-bit computer, you must run **RestoreConfig.vbe** from the 32-bit command prompt so that it can update the 32-bit registry. To open the 32-bit command prompt, click **Start**, click **Run**, type **c:\windows\syswow64\cmd.exe**, and then click **OK**.  
-  
-    > [!NOTE]
-    >  The name of the computer that failed is contained in the saved configuration file. The name of the computer that you are restoring onto must have that same name. You must run the script above on a computer with that name. You can, however, change the name of the computer that failed in the saved configuration file. If you do so, you can run the script above onto a computer with a different name.  
+   > [!NOTE]
+   >  To recover [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Standard Edition on a 64-bit computer, you must run **RestoreConfig.vbe** from the 32-bit command prompt so that it can update the 32-bit registry. To open the 32-bit command prompt, click **Start**, click **Run**, type **c:\windows\syswow64\cmd.exe**, and then click **OK**.  
+   > 
+   > [!NOTE]
+   >  The name of the computer that failed is contained in the saved configuration file. The name of the computer that you are restoring onto must have that same name. You must run the script above on a computer with that name. You can, however, change the name of the computer that failed in the saved configuration file. If you do so, you can run the script above onto a computer with a different name.  
   
 ## Recover the BizTalk group (Developer Edition or Enterprise Edition)  
   

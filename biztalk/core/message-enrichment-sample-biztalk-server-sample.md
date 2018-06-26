@@ -71,47 +71,47 @@ The Message Enrichment sample demonstrates how to append interchange headers to 
   
 #### To build and deploy the BizTalk project for this sample  
   
-1.  Using Notepad.Exe, open [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\MessageEnrichment\  
-    MessageEnrichment\properties\AssemblyInfo.cs and add the following line at the bottom of the file:  
+1. Using Notepad.Exe, open [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\MessageEnrichment\  
+   MessageEnrichment\properties\AssemblyInfo.cs and add the following line at the bottom of the file:  
   
-    ```  
-    [assembly: Microsoft.XLANGs.BaseTypes.BizTalkAssembly(typeof(Microsoft.BizTalk.XLANGs.BTXEngine.BTXService))]  
-    ```  
+   ```  
+   [assembly: Microsoft.XLANGs.BaseTypes.BizTalkAssembly(typeof(Microsoft.BizTalk.XLANGs.BTXEngine.BTXService))]  
+   ```  
   
-2.  Save the modified AssemblyInfo.cs file and then exit Notepad.  
+2. Save the modified AssemblyInfo.cs file and then exit Notepad.  
   
-3.  In a command window, move to the following folder:  
+3. In a command window, move to the following folder:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\Message Enrichment  
+    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\Message Enrichment  
   
-4.  Run **Setup.bat**, which performs the following actions:  
+4. Run **Setup.bat**, which performs the following actions:  
   
-    -   Creates the receive (**in**) and send (**out**) folders for this sample in the \MessageEnrichment folder.  
+   -   Creates the receive (**in**) and send (**out**) folders for this sample in the \MessageEnrichment folder.  
   
-    -   Writes a key pair to MessageEnrichmentLibrary\testkey.snk  
+   -   Writes a key pair to MessageEnrichmentLibrary\testkey.snk  
   
-    -   Builds and deploys the MessageEnrichmentLibrary.btproj project.  
+   -   Builds and deploys the MessageEnrichmentLibrary.btproj project.  
   
-    -   Builds and deploys the MessageEnrichment.btproj project.  
+   -   Builds and deploys the MessageEnrichment.btproj project.  
   
-    -   Reads binding information in MessageEnrichmentBindings.xml.  
+   -   Reads binding information in MessageEnrichmentBindings.xml.  
   
-        > [!NOTE]
-        >  The binding for this project requires that the BizTalk host is marked as Authentication Trusted.  In order to use this with a host that is not trusted, modify the MessageEnrichmentBindings.xml and change the HostTrusted=”true” entries to HostTrusted=”false”.  
+       > [!NOTE]
+       >  The binding for this project requires that the BizTalk host is marked as Authentication Trusted.  In order to use this with a host that is not trusted, modify the MessageEnrichmentBindings.xml and change the HostTrusted=”true” entries to HostTrusted=”false”.  
   
-    -   Updates orchestration bindings.  
+   -   Updates orchestration bindings.  
   
-    -   Updates send ports, send port groups, and receive ports.  
+   -   Updates send ports, send port groups, and receive ports.  
   
-    -   Updates parties and enlistments.  
+   -   Updates parties and enlistments.  
   
-    -   Starts the send port.  
+   -   Starts the send port.  
   
-    -   Enables the receive location.  
+   -   Enables the receive location.  
   
-    -   Enlists and starts the orchestration.  
+   -   Enlists and starts the orchestration.  
   
- BizTalk Server is ready now to work with this sample.  
+   BizTalk Server is ready now to work with this sample.  
   
 ## Running This Sample  
  Use the following procedure to run the Message Enrichment sample.  

@@ -19,11 +19,11 @@ In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md
   
 ### To save a schema  
   
-1.  If necessary, activate BizTalk Editor for the schema to be saved by clicking the appropriate tab at the top of the main editing window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. If necessary, activate BizTalk Editor for the schema to be saved by clicking the appropriate tab at the top of the main editing window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  On the **File** menu, click **Save *\<Name of Schema\>***.  
+2. On the **File** menu, click **Save *\<Name of Schema\>***.  
   
-     If the schema had unsaved changes, its name as displayed on the tab at the top of the main editing window will no longer end with an asterisk (*), which is used to indicate unsaved changes.  
+    If the schema had unsaved changes, its name as displayed on the tab at the top of the main editing window will no longer end with an asterisk (*), which is used to indicate unsaved changes.  
   
 > [!NOTE]
 >  You can save the schema under a new name by clicking **Save *\<Name of Schema\>* As** on the **File** menu.  
@@ -48,11 +48,11 @@ In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md
   
 #### To close a schema  
   
-1.  If necessary, activate BizTalk Editor for the schema to be closed by clicking the appropriate tab at the top of the main editing window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. If necessary, activate BizTalk Editor for the schema to be closed by clicking the appropriate tab at the top of the main editing window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  On the **File** menu, click **Close**.  
+2. On the **File** menu, click **Close**.  
   
-     BizTalk Editor closes for the schema that has been closed.  
+    BizTalk Editor closes for the schema that has been closed.  
   
 ## See Also  
  [Managing Schemas Within Projects](../core/managing-schemas-within-projects.md)

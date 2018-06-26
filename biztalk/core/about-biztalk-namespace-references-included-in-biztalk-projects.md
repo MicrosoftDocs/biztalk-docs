@@ -29,15 +29,15 @@ manager: "anneta"
 # About BizTalk Namespace References Included in BizTalk Projects
 When you add a new BizTalk project, the following namespaces are included by default:  
   
--   **Microsoft.BizTalk.DefaultPipelines**  
+- **Microsoft.BizTalk.DefaultPipelines**  
   
--   **Microsoft.BizTalk.GlobalPropertySchemas**  
+- **Microsoft.BizTalk.GlobalPropertySchemas**  
   
--   **System**  
+- **System**  
   
--   **System.Xml**  
+- **System.Xml**  
   
- You can also add new references and Web references to your project. For more information about adding references using the **Project** menu, see [Using Visual Studio](../core/using-visual-studio.md). For information about adding Web references, see [Adding Web References](../core/adding-web-references.md).  
+  You can also add new references and Web references to your project. For more information about adding references using the **Project** menu, see [Using Visual Studio](../core/using-visual-studio.md). For information about adding Web references, see [Adding Web References](../core/adding-web-references.md).  
   
 > [!CAUTION]
 >  Do not remove the default references. If you remove the default references, you might encounter problems when referencing BizTalk items in your project. You can restore default references in Solution Explorer.  

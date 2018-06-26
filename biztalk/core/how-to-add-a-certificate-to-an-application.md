@@ -38,24 +38,24 @@ This topic describes how to use the command line to add a certificate to a BizTa
   
 ### To add a certificate to an application  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Certificate** [**/Overwrite**] **/Thumbprint:"***value***"** [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask AddResource** [**/ApplicationName:**<em>value</em>] **/Type:System.BizTalk:Certificate** [**/Overwrite**] **/Thumbprint:"**<em>value</em>**"** [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-     Example:  
+    Example:  
   
-     **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:Certificate /Overwrite /Thumbprint:"04 a2 8e 32 24 f9 36 b9 42 81 12 71 3a d2 ef db c7 9c 83 dc" /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+    **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:Certificate /Overwrite /Thumbprint:"04 a2 8e 32 24 f9 36 b9 42 81 12 71 3a d2 ef db c7 9c 83 dc" /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
-    |Parameter|Value|  
-    |---------------|-----------|  
-    |**/ApplicationName**|Name of the BizTalk application to which to add the certificate. If the application name is not specified, the default BizTalk application for the group is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
-    |**/Type**|**System.BizTalk:Certificate** (This value is not case-sensitive.)|  
-    |**/Overwrite**|Option to update an existing certificate. If not specified, and a certificate already exists in the application that has the same Thumbprint property as the certificate being added, the Add operation fails. You can view the Thumbprint property by double-clicking the certificate in the Certificates snap-in and clicking the Details tab. For more information, see "Viewing certificate information" in the documentation for the Certificates snap-in.|  
-    |**/Thumbprint**|Thumbprint property of the certificate (a *thumbprint* is a digest of data). This value must be enclosed in double quotation marks (").|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
-    |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
+   |Parameter|Value|  
+   |---------------|-----------|  
+   |**/ApplicationName**|Name of the BizTalk application to which to add the certificate. If the application name is not specified, the default BizTalk application for the group is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
+   |**/Type**|**System.BizTalk:Certificate** (This value is not case-sensitive.)|  
+   |**/Overwrite**|Option to update an existing certificate. If not specified, and a certificate already exists in the application that has the same Thumbprint property as the certificate being added, the Add operation fails. You can view the Thumbprint property by double-clicking the certificate in the Certificates snap-in and clicking the Details tab. For more information, see "Viewing certificate information" in the documentation for the Certificates snap-in.|  
+   |**/Thumbprint**|Thumbprint property of the certificate (a *thumbprint* is a digest of data). This value must be enclosed in double quotation marks (").|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
+   |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
   
 ## See Also  
  [Managing .NET Assemblies, Certificates, and Other Resources](../core/managing-net-assemblies-certificates-and-other-resources.md)   

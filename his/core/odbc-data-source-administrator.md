@@ -28,21 +28,21 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
   
  To open the ODBC Data Source Administrator in Windows 7 and Windows Server 2008 R2.  
   
-1.  On the **Start** menu, click **Control Panel**.  
+1. On the **Start** menu, click **Control Panel**.  
   
-2.  In Control Panel, click Administrative Tools.  
+2. In Control Panel, click Administrative Tools.  
   
-3.  In Administrative Tools, click Data Sources (ODBC).  
+3. In Administrative Tools, click Data Sources (ODBC).  
   
- To open the ODBC Data Source Administrator in Windows 8 and Windows Server 2012.  
+   To open the ODBC Data Source Administrator in Windows 8 and Windows Server 2012.  
   
-1.  On the **Start** menu, click **Control Panel**.  
+4. On the **Start** menu, click **Control Panel**.  
   
-2.  In Control Panel, click Administrative Tools.  
+5. In Control Panel, click Administrative Tools.  
   
-3.  In Administrative Tools, click ODBC Data Sources.  
+6. In Administrative Tools, click ODBC Data Sources.  
   
- Using the ODBC Data Source Administrator, you can add, modify, and delete data sources, as described in the following table.  
+   Using the ODBC Data Source Administrator, you can add, modify, and delete data sources, as described in the following table.  
   
 |Action|Description|  
 |------------|-----------------|  
@@ -52,11 +52,11 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
   
  To add a data source for the ODBC Driver for DB2 using the ODBC Data Source Administrator.  
   
-1.  In the **ODBC Data Source Administrator** dialog, click **Add**.  
+1. In the **ODBC Data Source Administrator** dialog, click **Add**.  
   
-2.  In the **Create New Data Source** dialog, click **Microsoft ODBC Driver for DB2**, and then click **Finish**.  
+2. In the **Create New Data Source** dialog, click **Microsoft ODBC Driver for DB2**, and then click **Finish**.  
   
- The Microsoft ODBC Driver for DB2 Configuration dialog contains five tabs.  
+   The Microsoft ODBC Driver for DB2 Configuration dialog contains five tabs.  
   
 -   [General](#General)  
   

@@ -18,11 +18,11 @@ If you install Host Integration Server onto an NTFS volume, you can control whic
   
  When you install Host Integration Server, you create a single directory tree that contains the files needed to configure and use Host Integration Server. To control access to the configuration files in these shares, use the following guidelines:  
   
--   Create domain user accounts to run the SnaBase and SnaServer services. A domain user account is one that is allowed to log on to the network.  
+- Create domain user accounts to run the SnaBase and SnaServer services. A domain user account is one that is allowed to log on to the network.  
   
--   Disable the Windows domain guest account.  
+- Disable the Windows domain guest account.  
   
- At least one domain user or group must have Full Control permissions over all the shares, preferably a trusted group such as Administrators. If no user or group has Full Control permissions, the only person who can change the share permissions is the owner of the share. If necessary, this individual can change his or her permissions to Full Control as needed.  
+  At least one domain user or group must have Full Control permissions over all the shares, preferably a trusted group such as Administrators. If no user or group has Full Control permissions, the only person who can change the share permissions is the owner of the share. If necessary, this individual can change his or her permissions to Full Control as needed.  
   
 ## See Also  
  [Understanding Windows Security](../core/understanding-windows-security1.md)

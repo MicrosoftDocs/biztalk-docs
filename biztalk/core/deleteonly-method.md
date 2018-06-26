@@ -40,65 +40,65 @@ DeleteOnly(key1, key2, ..., keyn, correctionMode, interactiveMode,
   
  The following demonstrates the use of the key values. If a collection contains the items:  
   
--   item0  
+- item0  
   
--   item1  
+- item1  
   
--   item2  
+- item2  
   
--   item3  
+- item3  
   
- You can delete item1 and item3 by providing the keys of item1 and item3 in the properties:  
+  You can delete item1 and item3 by providing the keys of item1 and item3 in the properties:  
   
--   item1  
+- item1  
   
--   item3  
+- item3  
   
- After the call, the server has the remaining items in the collection:  
+  After the call, the server has the remaining items in the collection:  
   
--   item0  
+- item0  
   
--   item2  
+- item2  
   
- The second example shows the items containing other collections:  
+  The second example shows the items containing other collections:  
   
--   item0  
+- item0  
   
-    -   item0a  
+  -   item0a  
   
--   item1  
+- item1  
   
-    -   item1a  
+  -   item1a  
   
-    -   item1b  
+  -   item1b  
   
-    -   item1c  
+  -   item1c  
   
--   item2  
+- item2  
   
-    -   item2a  
+  -   item2a  
   
-    -   item2b  
+  -   item2b  
   
- You can delete item1b and all of item2 by giving the keys to item1b and item2:  
+  You can delete item1b and all of item2 by giving the keys to item1b and item2:  
   
--   item1  
+- item1  
   
-    -   item1b  
+  -   item1b  
   
--   item2  
+- item2  
   
- By providing an empty sub-collection for item2, you turn it into a leaf and that entire sub-branch is deleted. After the call, the server has the remaining items:  
+  By providing an empty sub-collection for item2, you turn it into a leaf and that entire sub-branch is deleted. After the call, the server has the remaining items:  
   
--   item0  
+- item0  
   
-    -   item0a  
+  -   item0a  
   
--   item1  
+- item1  
   
-    -   item1a  
+  -   item1a  
   
-    -   item1c  
+  -   item1c  
   
 ## See Also  
  [Appendix A: Component Interface Methods](../core/appendix-a-component-interface-methods.md)

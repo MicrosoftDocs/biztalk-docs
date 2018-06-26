@@ -25,13 +25,13 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces RFCs on the
 ## The WCF Client Class  
  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces all RFC operations under a single service contract, "Rfc". This means that a single WCF client class, **RfcClient**, is created for all of the RFC operations that you want to invoke. Each target RFC is represented as a method of this class. In each method:  
   
--   SAP export parameters are surfaced as **out** parameters  
+- SAP export parameters are surfaced as **out** parameters  
   
--   SAP changing parameters are surfaced as **ref** parameters.  
+- SAP changing parameters are surfaced as **ref** parameters.  
   
--   Complex SAP types such as structures are surfaced as .NET classes with properties that correspond to the fields of the SAP type. These classes are defined in the following namespace: microsoft.lobservices.sap._2007._03.Types.Rfc.  
+- Complex SAP types such as structures are surfaced as .NET classes with properties that correspond to the fields of the SAP type. These classes are defined in the following namespace: microsoft.lobservices.sap._2007._03.Types.Rfc.  
   
- The following code shows part of the **RfcClient** class and the method that invokes SD_RFC_CUSTOMER_GET on the SAP system.  
+  The following code shows part of the **RfcClient** class and the method that invokes SD_RFC_CUSTOMER_GET on the SAP system.  
   
 ```  
  [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -54,37 +54,37 @@ public partial class RfcClient : System.ServiceModel.ClientBase<Rfc>, Rfc {
   
 #### To create an RFC client application  
   
-1.  Generate an **RfcClient** class. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate an **RfcClient** class that targets the RFCs with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF Service Contract for SAP Solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md).  
+1. Generate an **RfcClient** class. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate an **RfcClient** class that targets the RFCs with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF Service Contract for SAP Solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md).  
   
-2.  Create an instance of the **RfcClient** class generated in step 1, and specify a client binding. Specifying a client binding involves specifying the binding and endpoint address that the **RfcClient** will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). The following code initializes the **RfcClient** from configuration and sets the credentials for the SAP system.  
+2. Create an instance of the **RfcClient** class generated in step 1, and specify a client binding. Specifying a client binding involves specifying the binding and endpoint address that the **RfcClient** will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). The following code initializes the **RfcClient** from configuration and sets the credentials for the SAP system.  
   
-    ```  
-    RfcClient rfcClient = new RfcClient("SAPBinding_Rfc");  
+   ```  
+   RfcClient rfcClient = new RfcClient("SAPBinding_Rfc");  
   
-    rfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
-    rfcClient.ClientCredentials.UserName.Password = "YourPassword";  
-    ```  
+   rfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
+   rfcClient.ClientCredentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  Open the WCF client.  
+3. Open the WCF client.  
   
-    ```  
-    rfcClient.Open();  
-    ```  
+   ```  
+   rfcClient.Open();  
+   ```  
   
-4.  Invoke methods on the **RfcClient** created in step 2 to perform operations on the SAP system. The following code invokes the **SD_RFC_CUSTOMER_GET** method of the **RfcClient** to invoke the RFC on the SAP system.  
+4. Invoke methods on the **RfcClient** created in step 2 to perform operations on the SAP system. The following code invokes the **SD_RFC_CUSTOMER_GET** method of the **RfcClient** to invoke the RFC on the SAP system.  
   
-    ```  
-    microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[] customers =   
-        new microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[0];  
+   ```  
+   microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[] customers =   
+       new microsoft.lobservices.sap._2007._03.Types.Rfc.RFCCUST[0];  
   
-    rfcClient.SD_RFC_CUSTOMER_GET(string.Empty, "AB*", ref customers);  
-    ```  
+   rfcClient.SD_RFC_CUSTOMER_GET(string.Empty, "AB*", ref customers);  
+   ```  
   
-5.  Close the WCF client.  
+5. Close the WCF client.  
   
-    ```  
-    rfcClient.Close();   
-    ```  
+   ```  
+   rfcClient.Close();   
+   ```  
   
 ### Example  
  The following is a complete code example that invokes SD_RFC_CUSTOMER_GET to return a list of customers with names that begin with "AB" and then writes the name and ID for each customer to the console. This example creates the **RfcClient** inside a **using** statement. There is no need to explicitly close the **RfcClient**; it will be closed when the execution path exits the context.  

@@ -25,45 +25,45 @@ Reviewers: [Nick Hauenstein](http://social.msdn.microsoft.com/profile/nick.hauen
 ## Business Scenario  
  Northwind uses the Salesforce online CRM system as their solution for tracking customers through the sales pipeline. Every time a sales opportunity is created in the Salesforce system, Northwind wants its on-premise systems, such as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], to be notified so that other down-stream systems can pick up that data and start other relevant processes. Northwind plans to implement this solution using the new adapters available with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and also by including some components of [!INCLUDE[winazure](../includes/winazure-md.md)]. This is how the end-to-end data flow looks like for the solution:  
   
--   A sales representative creates an “opportunity” in the Salesforce system.  
+- A sales representative creates an “opportunity” in the Salesforce system.  
   
--   When the status of the opportunity is set to “Closed Won”, a notification is sent to a relay endpoint hosted on [!INCLUDE[winazure](../includes/winazure-md.md)].  
+- When the status of the opportunity is set to “Closed Won”, a notification is sent to a relay endpoint hosted on [!INCLUDE[winazure](../includes/winazure-md.md)].  
   
--   Using the new WCF-BasicHttpRelay adapter, the notification information is passed on to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system housed on-premise.  
+- Using the new WCF-BasicHttpRelay adapter, the notification information is passed on to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system housed on-premise.  
   
--   Using the information received as part of the notification, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] invokes a REST endpoint in Salesforce, using the new WCF-WebHttp adapter, to get more information about the opportunity.  
+- Using the information received as part of the notification, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] invokes a REST endpoint in Salesforce, using the new WCF-WebHttp adapter, to get more information about the opportunity.  
   
--   Finally, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the information received from Salesforce to create a purchase order entry in an in-house SQL Server database table.  
+- Finally, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the information received from Salesforce to create a purchase order entry in an in-house SQL Server database table.  
   
- These are the set of steps that you must perform to achieve the integration objective outlined in this solution. Each of these steps involves broad set of activities that we’ll look at as we proceed with creating the solution.  
+  These are the set of steps that you must perform to achieve the integration objective outlined in this solution. Each of these steps involves broad set of activities that we’ll look at as we proceed with creating the solution.  
   
- Here’s an illustration that describes the end-to-end integration solution:  
+  Here’s an illustration that describes the end-to-end integration solution:  
   
- ![BizTalk Server and Salesforce integration scenario](../core/media/bts-sf-scenario.gif "BTS_SF_Scenario")  
+  ![BizTalk Server and Salesforce integration scenario](../core/media/bts-sf-scenario.gif "BTS_SF_Scenario")  
   
 ## Prerequisites  
  You must have the following software installed on the computer where you set up this solution:  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]  
+- [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]  
   
--   [!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]  
+- [!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]  
   
--   [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]  
+- [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]  
   
- You must have the following service subscriptions:  
+  You must have the following service subscriptions:  
   
--   A [!INCLUDE[winazure](../includes/winazure-md.md)] subscription  
+- A [!INCLUDE[winazure](../includes/winazure-md.md)] subscription  
   
--   Salesforce Developer Edition account  
+- Salesforce Developer Edition account  
   
 ## More Resources  
  In addition to this tutorial, you can also look at the following resources to understand more about integrating [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] with Salesforce using the new adapters introduced in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   A virtual lab demonstrating [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Salesforce integration is available at [http://go.microsoft.com/fwlink/?LinkId=290930](http://go.microsoft.com/fwlink/?LinkId=290930).  
+- A virtual lab demonstrating [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Salesforce integration is available at [http://go.microsoft.com/fwlink/?LinkId=290930](http://go.microsoft.com/fwlink/?LinkId=290930).  
   
--   A sample based on this tutorial is available for download at [http://go.microsoft.com/fwlink/?LinkId=290932](http://go.microsoft.com/fwlink/?LinkId=290932).  
+- A sample based on this tutorial is available for download at [http://go.microsoft.com/fwlink/?LinkId=290932](http://go.microsoft.com/fwlink/?LinkId=290932).  
   
 ## Next steps
   

@@ -16,17 +16,17 @@ manager: "anneta"
 # Error Codes for Status-Error Messages
 The possible error codes delivered to the function management interface (FMI) application on [Status-Error](./status-error1.md) messages are tabulated in the following table. A **Status-Error** message is delivered to the application in one of several cases, as shown in the following list:  
   
--   The local node detects an error in a response sent from the application (as a **Status-Acknowledge** or **Status-Control Ack/Nack-1** message).  
+- The local node detects an error in a response sent from the application (as a **Status-Acknowledge** or **Status-Control Ack/Nack-1** message).  
   
--   The local node detects an error in some data from the host that will not be delivered to the application as an system detected error indicator (SDI) message (such as an expedited flow request).  
+- The local node detects an error in some data from the host that will not be delivered to the application as an system detected error indicator (SDI) message (such as an expedited flow request).  
   
--   The application sends an invalid **Status** message.  
+- The application sends an invalid **Status** message.  
   
- For inbound responses, the **Status-Error** codes have first byte 0x00. When the application is in error, the table indicates whether the error is critical, applying to the primary logical unit (PLU) connection only. If the error is critical, the application will receive a [Close(PLU) Request](./close-plu-request2.md) as the next message.  
+  For inbound responses, the **Status-Error** codes have first byte 0x00. When the application is in error, the table indicates whether the error is critical, applying to the primary logical unit (PLU) connection only. If the error is critical, the application will receive a [Close(PLU) Request](./close-plu-request2.md) as the next message.  
   
- The sense codes beginning with 0x40 will only be delivered if the corresponding receive check has been enabled in the connection information control block (CICB) on the [Open(SSCP) Request](./open-sscp-request2.md) from the application.  
+  The sense codes beginning with 0x40 will only be delivered if the corresponding receive check has been enabled in the connection information control block (CICB) on the [Open(SSCP) Request](./open-sscp-request2.md) from the application.  
   
- Where the sense code is marked with the * symbol, the second word of sense information carries the request code of the expedited flow request that was in error (for example 0x00C9 for SIGNAL).  
+  Where the sense code is marked with the * symbol, the second word of sense information carries the request code of the expedited flow request that was in error (for example 0x00C9 for SIGNAL).  
   
 |Error /<br /><br /> Sense code|Critical<br /><br /> YES/NO|Description|  
 |-----------------------------|--------------------------|-----------------|  

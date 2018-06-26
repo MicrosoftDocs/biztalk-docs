@@ -35,7 +35,7 @@ Any TIBCO Rendezvous system can send messages to their subject name of choice. T
   
 > [!IMPORTANT]
 >  Each receive location must have a unique name. Two receive locations cannot have the same name in the same [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment.  
-  
+> 
 > [!IMPORTANT]
 >  It is recommended that you set strong access control lists (ACL) in the receive locations drop locations. For example, you must set strong ACLs for the directory where the file receive location picks up messages, so that only authorized users can drop messages in this location. 
 

@@ -69,17 +69,17 @@ Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], the FTP adapter
 
 - **FTP Server Type** property – Set this property to use a server that doesn't require the SYST command.
    
- The following options are available for configuring the SSL-specific properties:  
+  The following options are available for configuring the SSL-specific properties:  
 
--   **Use SSL** property – Set this property so that FTP adapter must use SSL for each transfer session.  
+- **Use SSL** property – Set this property so that FTP adapter must use SSL for each transfer session.  
   
--   **Enable Data Protection** property – Set this property to turn on data encryption. The security policies of the FTPS server must allow for secure SSL connections with the adapter in order for this setting to work.  
+- **Enable Data Protection** property – Set this property to turn on data encryption. The security policies of the FTPS server must allow for secure SSL connections with the adapter in order for this setting to work.  
   
--   **FTPS Connection Mode** property – Set this property to determine when security is activated:  
+- **FTPS Connection Mode** property – Set this property to determine when security is activated:  
   
-    -   In **Implicit** mode, security is automatically turned on as soon as the adapter connects to the server.  
+  -   In **Implicit** mode, security is automatically turned on as soon as the adapter connects to the server.  
   
-    -   In **Explicit** mode, the adapter sends a command to initiate a secure control channel.  
+  -   In **Explicit** mode, the adapter sends a command to initiate a secure control channel.  
   
 > [!NOTE]
 >  The FTP adapter does not support revocation checks on the server certificates.  

@@ -32,13 +32,13 @@ manager: "anneta"
 ## Are service endpoints hosted in IIS and why?  
  Yes, a service endpoint is hosted in IIS using one of the three isolated adapters:  
   
--   WCF-WsHttp  
+- WCF-WsHttp  
   
--   WCF-BasicHttp  
+- WCF-BasicHttp  
   
--   WCF-CustomIsolated  
+- WCF-CustomIsolated  
   
- A service endpoint differs from a metadata-only endpoint in that its functionality can be called directly as a WCF service. Using the BizTalk WCF Service Publishing Wizard to create a service endpoint results in a new receive location in the specified BizTalk application. It defines a URI at which the orchestration can be accessed through IIS.  
+  A service endpoint differs from a metadata-only endpoint in that its functionality can be called directly as a WCF service. Using the BizTalk WCF Service Publishing Wizard to create a service endpoint results in a new receive location in the specified BizTalk application. It defines a URI at which the orchestration can be accessed through IIS.  
   
 ## When creating a service endpoint, why would I select to “Publish schemas as a WCF Service”?  
  Choose to publish schemas as a WCF service if your WCF receive location is part of a BizTalk application that is using BizTalk messaging only. This means there are no orchestrations being used, and all the functionality will be exposed through the receive location and send ports. Schemas are published to specify the contract information. This information can be obtained from a schema assembly, or even from an orchestration assembly (although the orchestration may not be used for this endpoint).

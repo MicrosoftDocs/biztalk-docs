@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10806
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10806|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_APP_ASSIGNED_TO_ADAPTER|  
-|Message Text|The application cannot be deleted because it is currently assigned to an adapter.|  
+|                 |                                                                                   |
+|-----------------|-----------------------------------------------------------------------------------|
+|  Product Name   |                             Enterprise Single Sign-On                             |
+| Product Version |            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]             |
+|    Event ID     |                                       10806                                       |
+|  Event Source   |                                      ENTSSO                                       |
+|    Component    |                                        N/A                                        |
+|  Symbolic Name  |                         ENTSSO_E_APP_ASSIGNED_TO_ADAPTER                          |
+|  Message Text   | The application cannot be deleted because it is currently assigned to an adapter. |
   
 ## Explanation  
  An application cannot be deleted when it is assigned to an adapter.  

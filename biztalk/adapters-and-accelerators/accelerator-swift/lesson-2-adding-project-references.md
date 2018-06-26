@@ -39,10 +39,10 @@ You add project references so your pipelines can access the default runtime sche
   
 #### To add a reference to the SWIFTPipelines schemas assembly  
   
-1.  In Solution Explorer, under the **SWIFTPipelines** project, right-click **References**, and then click **Add Reference**.  
+1. In Solution Explorer, under the **SWIFTPipelines** project, right-click **References**, and then click **Add Reference**.  
   
-2.  In the Add Reference dialog box, on the **Projects** tab, click the **SWIFTSchemas** project, click **Add**, and then click **OK**.  
+2. In the Add Reference dialog box, on the **Projects** tab, click the **SWIFTSchemas** project, click **Add**, and then click **OK**.  
   
-3.  On the **File** menu, click **Save All** to save your changes.  
+3. On the **File** menu, click **Save All** to save your changes.  
   
- Proceed to [Lesson 3: Adding a Custom Receive Pipeline](../../adapters-and-accelerators/accelerator-swift/lesson-3-adding-a-custom-receive-pipeline.md).
+   Proceed to [Lesson 3: Adding a Custom Receive Pipeline](../../adapters-and-accelerators/accelerator-swift/lesson-3-adding-a-custom-receive-pipeline.md).

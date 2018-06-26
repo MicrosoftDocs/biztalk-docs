@@ -16,26 +16,26 @@ manager: "anneta"
 ---
 # Single Sign-On: Event 10659
 ## Details  
-  
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10659|  
-|Event Source|ENTSSO|  
-|Component|N\A|  
-|Symbolic Name|SSO_INFO_PASSWORD_SYNC_WINDOWS_STARTING|  
-|Message Text|Password sync for Windows (from PCNS) is starting.%r|  
-  
+
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10659                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N\A                             |
+|  Symbolic Name  |          SSO_INFO_PASSWORD_SYNC_WINDOWS_STARTING           |
+|  Message Text   |    Password sync for Windows (from PCNS) is starting.%r    |
+
 ## Explanation  
  This Information event indicates that Password Sync for Windows is starting.  
-  
+
 ## User Action  
-  
--   No user action is necessary.  
-  
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
-  
--   [Password Synchronization](../core/password-synchronization2.md)  
-  
--   [How to Administer Password Synchronization](../core/how-to-administer-password-synchronization.md)
+
+- No user action is necessary.  
+
+  For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+
+- [Password Synchronization](../core/password-synchronization2.md)  
+
+- [How to Administer Password Synchronization](../core/how-to-administer-password-synchronization.md)

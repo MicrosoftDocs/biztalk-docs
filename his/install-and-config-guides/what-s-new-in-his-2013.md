@@ -16,17 +16,17 @@ manager: "anneta"
 # What's New in HIS 2013
 The following sections in this topic contain information about new features and enhancements in Host Integration Server.  
   
--   [Network Integration](../install-and-config-guides/what-s-new-in-his-2013.md#NetworkInteg)  
+- [Network Integration](../install-and-config-guides/what-s-new-in-his-2013.md#NetworkInteg)  
   
--   [Data Integration](../install-and-config-guides/what-s-new-in-his-2013.md#DatIntegration)  
+- [Data Integration](../install-and-config-guides/what-s-new-in-his-2013.md#DatIntegration)  
   
--   [Application Integration](../install-and-config-guides/what-s-new-in-his-2013.md#AppIntegration)  
+- [Application Integration](../install-and-config-guides/what-s-new-in-his-2013.md#AppIntegration)  
   
--   [Message Integration](../install-and-config-guides/what-s-new-in-his-2013.md#MessageIntegration)  
+- [Message Integration](../install-and-config-guides/what-s-new-in-his-2013.md#MessageIntegration)  
   
--   [Removed Features](../install-and-config-guides/what-s-new-in-his-2013.md#Removed)  
+- [Removed Features](../install-and-config-guides/what-s-new-in-his-2013.md#Removed)  
   
- For more information about all of the features and functionality in Host Integration Server, see [What is HIS](../what-is-his.md).  
+  For more information about all of the features and functionality in Host Integration Server, see [What is HIS](../what-is-his.md).  
   
 ## Platforms  
   

@@ -64,11 +64,11 @@ manager: "anneta"
  AP_PROG_ERROR_NO_TRUNC  
  The partner TP has issued one of the following verbs while the conversation was in SEND state:  
   
--   [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG  
+- [SEND_ERROR](../core/send-error2.md) with **err_type** set to AP_PROG  
   
--   [MC_SEND_ERROR](../core/mc-send-error2.md)  
+- [MC_SEND_ERROR](../core/mc-send-error2.md)  
   
- Data was not truncated.  
+  Data was not truncated.  
   
 ## 000F  
  AP_CONV_FAILURE_RETRY  
@@ -110,15 +110,15 @@ manager: "anneta"
  AP_CANCELED  
  The local TP issued one of the following verbs, which canceled [RECEIVE_AND_POST](../core/receive-and-post1.md) or [MC_RECEIVE_AND_POST](../core/mc-receive-and-post2.md):  
   
--   [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_ABEND_PROG, AP_ABEND_SVC, or AP_ABEND_TIMER  
+- [DEALLOCATE](../core/deallocate2.md) with **dealloc_type** set to AP_ABEND_PROG, AP_ABEND_SVC, or AP_ABEND_TIMER  
   
--   [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND  
+- [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND  
   
--   [SEND_ERROR](../core/send-error2.md) or [MC_SEND_ERROR](../core/mc-send-error2.md)  
+- [SEND_ERROR](../core/send-error2.md) or [MC_SEND_ERROR](../core/mc-send-error2.md)  
   
--   [TP_ENDED](../core/tp-ended1.md)  
+- [TP_ENDED](../core/tp-ended1.md)  
   
- Issuing one of these verbs causes the semaphore to be cleared.  
+  Issuing one of these verbs causes the semaphore to be cleared.  
   
 ## F002  
  AP_TP_BUSY  
@@ -128,13 +128,13 @@ manager: "anneta"
  AP_COMM_SUBSYSTEM_ABENDED  
  Indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
 ## F004  
  AP_COMM_SUBSYSTEM_NOT_LOADED  

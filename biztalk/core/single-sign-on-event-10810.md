@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10810
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10810|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_HISSO_INVALID_CREDENTIALS|  
-|Message Text|The specified credentials are invalid or do not match those in the SSO database.|  
+|                 |                                                                                  |
+|-----------------|----------------------------------------------------------------------------------|
+|  Product Name   |                            Enterprise Single Sign-On                             |
+| Product Version |            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]            |
+|    Event ID     |                                      10810                                       |
+|  Event Source   |                                      ENTSSO                                      |
+|    Component    |                                       N/A                                        |
+|  Symbolic Name  |                        ENTSSO_E_HISSO_INVALID_CREDENTIALS                        |
+|  Message Text   | The specified credentials are invalid or do not match those in the SSO database. |
   
 ## Explanation  
  The specified credentials are invalid or do not match those in the SSO database.  

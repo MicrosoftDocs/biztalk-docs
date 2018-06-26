@@ -21,15 +21,15 @@ To support security, the TN server needs to load a server authentication certifi
 > [!NOTE]
 >  The certificate-loading process incorporates several stages, such as opening a certificate store, finding the certificate, and acquiring credentials based on the certificate.  Obtaining credentials involves three steps:  
   
--   Opening the servers certificate store (using **CertOpenStore**)  
+- Opening the servers certificate store (using **CertOpenStore**)  
   
--   Obtaining the server authentication certificate (using **CertFindCertificateInStore**)  
+- Obtaining the server authentication certificate (using **CertFindCertificateInStore**)  
   
--   Getting a credential for each security setting (using **AcquireCredentialHandle**)  
+- Getting a credential for each security setting (using **AcquireCredentialHandle**)  
   
- The credential contains all the security options supported by the credential (such as maximum and minimum encryption strength, and algorithms supported). Client authentication is not a credential property. The credential is linked to the server authentication certificate.  
+  The credential contains all the security options supported by the credential (such as maximum and minimum encryption strength, and algorithms supported). Client authentication is not a credential property. The credential is linked to the server authentication certificate.  
   
- If security is specified but the TN3270 server fails to get the credentials, any ports that are defined as secure will be unavailable to clients. An error will be logged and the user can try to reload the credentials again.  
+  If security is specified but the TN3270 server fails to get the credentials, any ports that are defined as secure will be unavailable to clients. An error will be logged and the user can try to reload the credentials again.  
   
 ## See Also  
  [Configuring Certificates](../core/configuring-certificates2.md)   

@@ -25,26 +25,26 @@ When you decide how to instrument your application to use BAM, you should consid
 ## Instrumenting Your Application by Using the EventStream Object  
  This approach is simpler and applies when you are building a dedicated application with specific, well-known monitoring requirements. Before deciding to use this approach, you need to know the answers to the following questions:  
   
--   What are the BAM milestones, and where in the code do they occur?  
+- What are the BAM milestones, and where in the code do they occur?  
   
--   What data will be monitored, and when and where in the code is that data available?  
+- What data will be monitored, and when and where in the code is that data available?  
   
- If the answer to either of these questions is likely to change, you should consider instrumenting your application by using the [Microsoft.BizTalk.Bam.EventObservation.BAMInterceptor](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.baminterceptor.aspx)object instead.  
+  If the answer to either of these questions is likely to change, you should consider instrumenting your application by using the [Microsoft.BizTalk.Bam.EventObservation.BAMInterceptor](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.baminterceptor.aspx)object instead.  
   
- When you follow this “hard-coded” approach, you simply call methods on the [Microsoft.BizTalk.Bam.EventObservation.DirectEventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.directeventstream.aspx), [Microsoft.BizTalk.Bam.EventObservation.BufferedEventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.bufferedeventstream.aspx), **MessagingEventStream** (from pipeline implementations) or **OrchestrationEventStream** (from orchestration implementations) class, depending on your requirements.  
+  When you follow this “hard-coded” approach, you simply call methods on the [Microsoft.BizTalk.Bam.EventObservation.DirectEventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.directeventstream.aspx), [Microsoft.BizTalk.Bam.EventObservation.BufferedEventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.bufferedeventstream.aspx), **MessagingEventStream** (from pipeline implementations) or **OrchestrationEventStream** (from orchestration implementations) class, depending on your requirements.  
   
 ## Instrumenting Your Application by Using the BAMInterceptor Object  
  This approach is better when:  
   
--   You need to balance visibility of data with performance of the application, and you want to be able to control the data that is monitored at run time.  
+- You need to balance visibility of data with performance of the application, and you want to be able to control the data that is monitored at run time.  
   
--   The application processes large XML messages, in which any data may eventually become important for monitoring.  
+- The application processes large XML messages, in which any data may eventually become important for monitoring.  
   
--   It is unacceptable to stop the application and change the code to monitor different data.  
+- It is unacceptable to stop the application and change the code to monitor different data.  
   
- In this approach, you instrument the application in a generic way by using the methods of the [Microsoft.BizTalk.Bam.EventObservation.BAMInterceptor](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.baminterceptor.aspx)class. By passing different configurations to the interceptor, you can change the data that BAM monitors.  
+  In this approach, you instrument the application in a generic way by using the methods of the [Microsoft.BizTalk.Bam.EventObservation.BAMInterceptor](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.baminterceptor.aspx)class. By passing different configurations to the interceptor, you can change the data that BAM monitors.  
   
- You can use the Tracking Profile Editor (TPE) to change the data that BAM collects from a BizTalk orchestration.  
+  You can use the Tracking Profile Editor (TPE) to change the data that BAM collects from a BizTalk orchestration.  
   
 ## See Also  
  [Using an Activity](../core/using-an-activity.md)   

@@ -59,15 +59,15 @@ When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapter
 ##  <a name="BKMK_add_wcf_sap"></a> Configuring a WCF-SAP Port Using the Port Binding File Generated Using Consume Adapter Service Add-in  
  The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also creates a port binding file that you can import in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You can use the same port binding file to also create the BizTalk WCF-SAP port in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. However, before creating WCF-SAP port you must perform the following tasks to modify the port binding file.  
   
-1.  Open the port binding file in a text editor.  
+1. Open the port binding file in a text editor.  
   
-2.  Search and replace “WCF-Custom” with the name with which you added the WCF-SAP adapter in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For example, if you added the WCF-SAP adapter as “SAPAdapter”, replace “WCF-Custom” with “SAPAdapter”.  
+2. Search and replace “WCF-Custom” with the name with which you added the WCF-SAP adapter in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For example, if you added the WCF-SAP adapter as “SAPAdapter”, replace “WCF-Custom” with “SAPAdapter”.  
   
-3.  Search for the “ConfigurationClsid” attribute, and replace the existing value of the attribute with “A5F15999-8879-472d-8C62-3B5EA9406504”.  
+3. Search for the “ConfigurationClsid” attribute, and replace the existing value of the attribute with “A5F15999-8879-472d-8C62-3B5EA9406504”.  
   
-4.  Save and close the binding file.  
+4. Save and close the binding file.  
   
-5.  Import the binding file in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. [Reuse SAP adapter bindings](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md) lists the steps.
+5. Import the binding file in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. [Reuse SAP adapter bindings](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md) lists the steps.
   
 ## See Also  
 [Building blocks to create SAP applications](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md)

@@ -17,15 +17,15 @@ manager: "anneta"
 # Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|BizTalk Server EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|-|  
-|Message Text|Acknowledgement generation has failed as max limit of acceptable Edifact transaction set control number has reached for party {0}. Reset counter by navigating to Party in sender role screen, field UNH 1 in Partner Agreement manager.|  
+|                 |                                                                                                                                                                                                                                          |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                            [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                            |
+| Product Version |                                                                                        [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                        |
+|    Event ID     |                                                                                                                    -                                                                                                                     |
+|  Event Source   |                                                                                                            BizTalk Server EDI                                                                                                            |
+|    Component    |                                                                                                                EDI Engine                                                                                                                |
+|  Symbolic Name  |                                                                                                                    -                                                                                                                     |
+|  Message Text   | Acknowledgement generation has failed as max limit of acceptable Edifact transaction set control number has reached for party {0}. Reset counter by navigating to Party in sender role screen, field UNH 1 in Partner Agreement manager. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that BizTalk Server could not generate an acknowledgment to the EDIFACT interchange because the control number that it entered in the Transaction set reference number (UNH1) of the acknowledgment is greater than the maximum value allowed for UNH1. In this instance, BizTalk Server used the EDI party properties to create the acknowledgment.  

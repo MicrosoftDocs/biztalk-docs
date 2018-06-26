@@ -22,15 +22,15 @@ Use a custom cumulative functoid to perform accumulation operations for values t
 ## Writing a Thread-Safe Functoid  
  The functoid code must be thread-safe because under stress conditions multiple instances of a map may be running concurrently. Some of the points to remember include:  
   
--   Static state must be thread-safe.  
+- Static state must be thread-safe.  
   
--   Instance state does not always need to be thread-safe.  
+- Instance state does not always need to be thread-safe.  
   
--   Design with consideration for running under high-stress conditions. Avoid taking locks whenever possible.  
+- Design with consideration for running under high-stress conditions. Avoid taking locks whenever possible.  
   
--   Avoid the need for synchronization if possible.  
+- Avoid the need for synchronization if possible.  
   
- BizTalk Server provides a simple mechanism to reduce the complexity of writing a thread-safe cumulative functoid. All three functions have the same first parameter, an integer index value. BizTalk Server assigns a unique number to the index value when it calls your initialization function. You can use this value as an index into an array that holds accumulating values, as shown in the following code:  
+  BizTalk Server provides a simple mechanism to reduce the complexity of writing a thread-safe cumulative functoid. All three functions have the same first parameter, an integer index value. BizTalk Server assigns a unique number to the index value when it calls your initialization function. You can use this value as an index into an array that holds accumulating values, as shown in the following code:  
   
 ```  
 private HashTable cumulativeArray = new HashTable();  
@@ -63,13 +63,13 @@ public string InitCumulativeMultiply(int index)
 ### Cumulation  
  This is where you perform the accumulation operation appropriate for your functoid. BizTalk Server passes in the following three parameters:  
   
--   **Index.** An integer value representing a map instance. There may be multiple map instances running concurrently.  
+- **Index.** An integer value representing a map instance. There may be multiple map instances running concurrently.  
   
--   **Val.** A string containing the value that should be accumulated. Unless you are writing a string Cumulate functoid it is a numeric value.  
+- **Val.** A string containing the value that should be accumulated. Unless you are writing a string Cumulate functoid it is a numeric value.  
   
--   **Scope.** A string containing a number indicating which element or attribute value should be accumulated. Actual values are determined by an implementation.  
+- **Scope.** A string containing a number indicating which element or attribute value should be accumulated. Actual values are determined by an implementation.  
   
- You decide which values to accumulate and which values to ignore. For example, you may ignore values that are not below 0 but throw an exception when a value is not numeric. **BaseFunctoid** supplies two functions—**IsDate** and **IsNumeric**—to assist with validation.  
+  You decide which values to accumulate and which values to ignore. For example, you may ignore values that are not below 0 but throw an exception when a value is not numeric. **BaseFunctoid** supplies two functions—**IsDate** and **IsNumeric**—to assist with validation.  
   
 > [!NOTE]
 >  If you use **IsDate** or **IsNumeric** in an inline script, be sure to set **RequiredGlobalHelperFunctions** so that the functions are made available to your script.  

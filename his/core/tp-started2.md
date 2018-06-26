@@ -62,46 +62,46 @@ struct tp_started {
   
  This parameter is an 8-byte ASCII character string. It can consist of the following ASCII characters:  
   
--   Uppercase letters  
+- Uppercase letters  
   
--   Numerals from 0 through 9  
+- Numerals from 0 through 9  
   
--   Spaces  
+- Spaces  
   
--   Special characters $, #, % and @  
+- Special characters $, #, % and @  
   
- The first character of this string cannot be a space.  
+  The first character of this string cannot be a space.  
   
- If the value of this parameter is fewer than eight bytes in length, pad it on the right with ASCII spaces (0x20).  
+  If the value of this parameter is fewer than eight bytes in length, pad it on the right with ASCII spaces (0x20).  
   
- To use an LU from the default LU pool, set this field to eight hexadecimal zeros. For more information, see [Default LUs](../core/default-lus2.md).  
+  To use an LU from the default LU pool, set this field to eight hexadecimal zeros. For more information, see [Default LUs](../core/default-lus2.md).  
   
- *tp_id*  
- Returned parameter. Identifies the newly established TP.  
+  *tp_id*  
+  Returned parameter. Identifies the newly established TP.  
   
- *tp_name*  
- Supplied parameter. Specifies the name of the local TP.  
+  *tp_name*  
+  Supplied parameter. Specifies the name of the local TP.  
   
- Under the Host Integration Server implementation of APPC, this parameter is ignored when issued by **TP_STARTED**. However, this parameter is required if the program runs under the IBM ES for OS/2 version 1.0 implementation of APPC.  
+  Under the Host Integration Server implementation of APPC, this parameter is ignored when issued by **TP_STARTED**. However, this parameter is required if the program runs under the IBM ES for OS/2 version 1.0 implementation of APPC.  
   
- This parameter is a 64-byte EBCDIC character string and is case-sensitive. The **tp_name** parameter can consist of the following EDCDIC characters:  
+  This parameter is a 64-byte EBCDIC character string and is case-sensitive. The **tp_name** parameter can consist of the following EDCDIC characters:  
   
--   Uppercase and lowercase letters  
+- Uppercase and lowercase letters  
   
--   Numerals from 0 through 9  
+- Numerals from 0 through 9  
   
--   Special characters $, #, @, and period (.)  
+- Special characters $, #, @, and period (.)  
   
- If the TP name is fewer than 64 bytes in length, use EBCDIC spaces (0x40) to pad it on the right.  
+  If the TP name is fewer than 64 bytes in length, use EBCDIC spaces (0x40) to pad it on the right.  
   
- The SNA convention for a service TP name is up to four characters. The first character is a hexadecimal byte between 0x00 and 0x3F.  
+  The SNA convention for a service TP name is up to four characters. The first character is a hexadecimal byte between 0x00 and 0x3F.  
   
- *syncpoint_rqd*  
- This optional parameter is only applicable if the AP_EXTD_VCB bit is set in the **opext** parameter and Sync Point services are required.  
+  *syncpoint_rqd*  
+  This optional parameter is only applicable if the AP_EXTD_VCB bit is set in the **opext** parameter and Sync Point services are required.  
   
--   AP_YES if Sync Point is required.  
+- AP_YES if Sync Point is required.  
   
--   AP_NO if Sync Point is not required.  
+- AP_NO if Sync Point is not required.  
   
 ## Return Codes  
  AP_OK  
@@ -110,31 +110,31 @@ struct tp_started {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_TP_BUSY  
- Primary return code; the local TP has issued a call to APPC while APPC was processing another call for the same TP.  
+  AP_TP_BUSY  
+  Primary return code; the local TP has issued a call to APPC while APPC was processing another call for the same TP.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
 ## Remarks  
  In response to **TP_STARTED**, APPC generates a TP identifier for the invoking TP. This identifier is a required parameter for subsequent APPC verbs issued by the invoking TP.  

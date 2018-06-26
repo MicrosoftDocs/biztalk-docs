@@ -25,15 +25,15 @@ To manage the JD Edwards OneWorld connection session from a BizTalk orchestratio
   
 ### To assign a message context property value  
   
-1.  Create a new message.  
+1. Create a new message.  
   
-2.  Set the message content, for example, by assigning an existing message.  
+2. Set the message content, for example, by assigning an existing message.  
   
-3.  Set the properties.  
+3. Set the properties.  
   
- To assign context properties to a message destined to a send port that is bound to the Microsoft BizTalk Adapter for JD Edwards OneWorld, use the message assignment operator. Then, specify one of the available context properties within the JD Edwards OneWorld namespace.  
+   To assign context properties to a message destined to a send port that is bound to the Microsoft BizTalk Adapter for JD Edwards OneWorld, use the message assignment operator. Then, specify one of the available context properties within the JD Edwards OneWorld namespace.  
   
- The syntax is: `Message(JDE.Property) = value;`  
+   The syntax is: `Message(JDE.Property) = value;`  
   
 ## See Also  
  [Using Message Context Properties](../core/using-message-context-properties2.md)   

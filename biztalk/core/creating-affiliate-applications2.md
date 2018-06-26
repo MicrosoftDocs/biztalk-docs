@@ -22,46 +22,46 @@ The following steps show how to start using affiliate applications and Single Si
   
 ## Create an affiliate application  
   
-1.  In Control Panel, open **Services**, and verify that the Enterprise Single Sign-On service is running.  
+1. In Control Panel, open **Services**, and verify that the Enterprise Single Sign-On service is running.  
   
-2.  In a command prompt, change directories to the Enterprise Single Sign-On folder.  
+2. In a command prompt, change directories to the Enterprise Single Sign-On folder.  
+  
+    For example:  
+  
+    **C:\Program Files\Common Files\Enterprise Single Sign-On>**  
+  
+3. Use the Enterprise Single Sign-On commands. For a list of commands, use the **-help** switch.  
+  
+    ![](../core/media/siebeladapter-23-sso-commands.gif "SiebelAdapter_23_SSO_Commands")  
+  
+4. To create the affiliate application by using *.XML as a start, type the following command:  
+  
+    `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
+  
+    where:  
+  
+   - C:\SSOtest is the folder that contains your application XML.  
+  
+   - AffiliateApplication.xml is the application XML you created that contains the sign-on information.  
   
      For example:  
   
-     **C:\Program Files\Common Files\Enterprise Single Sign-On>**  
-  
-3.  Use the Enterprise Single Sign-On commands. For a list of commands, use the **-help** switch.  
-  
-     ![](../core/media/siebeladapter-23-sso-commands.gif "SiebelAdapter_23_SSO_Commands")  
-  
-4.  To create the affiliate application by using *.XML as a start, type the following command:  
-  
-     `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
-  
-     where:  
-  
-    -   C:\SSOtest is the folder that contains your application XML.  
-  
-    -   AffiliateApplication.xml is the application XML you created that contains the sign-on information.  
-  
-     For example:  
-  
-    ```  
-    <?xml version="1.0"?>  
-    <SSO>  
-         <application name="PeopleSoftApp">  
-              <description>PeopleSoft SSO Application</description>  
-              <contact>someone@microsoft.com</contact>  
-             <appUserAccount>DomainName\AppUserGroup</appUserAccount>  
-              <!—-an existing group on the domain controller - >   
-              <appAdminAccount>DomainName\AppAdminGroup<appAdminAccount>   
-              <!-- an existing account in the domain group - >   
-              <field ordinal="0" label="User ID" masked="no" />  
-              <field ordinal="1" label="Password" masked="yes" />  
-              <flags groupApp="no" allowTickets="yes" enableApp="yes"/>  
-         </application>  
-    </SSO>  
-    ```  
+   ```  
+   <?xml version="1.0"?>  
+   <SSO>  
+        <application name="PeopleSoftApp">  
+             <description>PeopleSoft SSO Application</description>  
+             <contact>someone@microsoft.com</contact>  
+            <appUserAccount>DomainName\AppUserGroup</appUserAccount>  
+             <!—-an existing group on the domain controller - >   
+             <appAdminAccount>DomainName\AppAdminGroup<appAdminAccount>   
+             <!-- an existing account in the domain group - >   
+             <field ordinal="0" label="User ID" masked="no" />  
+             <field ordinal="1" label="Password" masked="yes" />  
+             <flags groupApp="no" allowTickets="yes" enableApp="yes"/>  
+        </application>  
+   </SSO>  
+   ```  
   
 ## Create Single Sign-On Tickets  
   

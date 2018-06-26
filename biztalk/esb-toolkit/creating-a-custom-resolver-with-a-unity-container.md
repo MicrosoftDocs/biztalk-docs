@@ -206,11 +206,11 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
   
  First, in the Esb.config file, under the resolver declaration, a **resolverConfig** node must be added with the following two properties:  
   
--   **unitySectionName**. This property contains the name of the configuration section in the configuration file that contains the configuration for the Unity Application Block; by default, the value for this property is **esb.resolver**.  
+- **unitySectionName**. This property contains the name of the configuration section in the configuration file that contains the configuration for the Unity Application Block; by default, the value for this property is **esb.resolver**.  
   
--   **unityContainerName**. This property contains the name of the Unity container defined in the Unity configuration specific to your custom resolver.  
+- **unityContainerName**. This property contains the name of the Unity container defined in the Unity configuration specific to your custom resolver.  
   
- The following XML is an example of the configuration necessary in the **resolvers** node.  
+  The following XML is an example of the configuration necessary in the **resolvers** node.  
   
 ```xml  
 <resolver name="ITINERARY-STATIC" type="Microsoft.Practices.ESB.Resolver.Unity.ResolveProvider, Microsoft.Practices.ESB.Resolver.Unity, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22">  

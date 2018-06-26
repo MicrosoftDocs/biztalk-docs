@@ -29,39 +29,39 @@ The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] exposes a Sieb
   
 #### To invoke operations on the Siebel adapter  
   
-1.  Generate a WCF client class and helper code. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a WCF client class targeted at the Siebel system artifacts with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF service contract for Siebel Solution Artifacts](../../adapters-and-accelerators/adapter-siebel/generate-a-wcf-client-or-a-wcf-service-contract-for-siebel-solution-artifacts.md).  
+1. Generate a WCF client class and helper code. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a WCF client class targeted at the Siebel system artifacts with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF service contract for Siebel Solution Artifacts](../../adapters-and-accelerators/adapter-siebel/generate-a-wcf-client-or-a-wcf-service-contract-for-siebel-solution-artifacts.md).  
   
-2.  Create a WCF client instance and configure the WCF client. Configuring the WCF client involves specifying the binding and endpoint address (connection URI) that the client will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to configure the WCF client, see [Configure a WCF Client for a Siebel System](../../adapters-and-accelerators/adapter-siebel/configure-a-wcf-client-for-a-siebel-system.md). The following code creates a WCF client that targets the Siebel TimeStamp business service. It also sets the credentials for the Siebel system. The WCF client is initialized from configuration.  
+2. Create a WCF client instance and configure the WCF client. Configuring the WCF client involves specifying the binding and endpoint address (connection URI) that the client will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to configure the WCF client, see [Configure a WCF Client for a Siebel System](../../adapters-and-accelerators/adapter-siebel/configure-a-wcf-client-for-a-siebel-system.md). The following code creates a WCF client that targets the Siebel TimeStamp business service. It also sets the credentials for the Siebel system. The WCF client is initialized from configuration.  
   
-    ```  
-    BusinessServices_TimeStamp_OperationClient client =  
-        new BusinessServices_TimeStamp_OperationClient("SiebelBinding_BusinessServices_TimeStamp_Operation");  
+   ```  
+   BusinessServices_TimeStamp_OperationClient client =  
+       new BusinessServices_TimeStamp_OperationClient("SiebelBinding_BusinessServices_TimeStamp_Operation");  
   
-    client.ClientCredentials.UserName.UserName = "YourUserName";  
-    client.ClientCredentials.UserName.Password = "YourPassword";  
-    ```  
+   client.ClientCredentials.UserName.UserName = "YourUserName";  
+   client.ClientCredentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  Open the WCF client.  
+3. Open the WCF client.  
   
-    ```  
-    client.Open();  
-    ```  
+   ```  
+   client.Open();  
+   ```  
   
-4.  Invoke methods on the WCF client created in step 2 to perform operations on the Siebel system. The following code invokes the **Execute** method of the WCF client to invoke the **Execute** method of the TimeStamp business service on the Siebel system.  
+4. Invoke methods on the WCF client created in step 2 to perform operations on the Siebel system. The following code invokes the **Execute** method of the WCF client to invoke the **Execute** method of the TimeStamp business service on the Siebel system.  
   
-    ```  
-    // Create a parameter to hold the results and then invoke the Execute method of the TimeStamp business service.  
-    microsoft.lobservices.siebel._2007._03.BusinessServices.TimeStamp.ExecuteResponseRecord er;  
-    er = client.Execute();  
-    ```  
+   ```  
+   // Create a parameter to hold the results and then invoke the Execute method of the TimeStamp business service.  
+   microsoft.lobservices.siebel._2007._03.BusinessServices.TimeStamp.ExecuteResponseRecord er;  
+   er = client.Execute();  
+   ```  
   
-5.  Close the WCF client.  
+5. Close the WCF client.  
   
-    ```  
-    client.Close();  
-    ```  
+   ```  
+   client.Close();  
+   ```  
   
- For more information about invoking Siebel business service methods, see [Invoke Business Service Methods with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/run-business-service-methods-with-the-siebel-adapter-using-a-wcf-service.md) 
+   For more information about invoking Siebel business service methods, see [Invoke Business Service Methods with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/run-business-service-methods-with-the-siebel-adapter-using-a-wcf-service.md) 
   
 ## See Also  
  [Develop Siebel Applications using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/develop-siebel-applications-using-the-wcf-service-model.md)

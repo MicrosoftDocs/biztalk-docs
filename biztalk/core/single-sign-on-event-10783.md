@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10783
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10783|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_SECRET|  
-|Message Text|Cannot perform encryption or decryption because the secret is not available from the master secret server. See the event log for related errors.|  
+|                 |                                                                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                            Enterprise Single Sign-On                                                             |
+| Product Version |                                            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                            |
+|    Event ID     |                                                                      10783                                                                       |
+|  Event Source   |                                                                      ENTSSO                                                                      |
+|    Component    |                                                                       N/A                                                                        |
+|  Symbolic Name  |                                                                ENTSSO_E_NO_SECRET                                                                |
+|  Message Text   | Cannot perform encryption or decryption because the secret is not available from the master secret server. See the event log for related errors. |
   
 ## Explanation  
  There may have been a problem during configuration.  

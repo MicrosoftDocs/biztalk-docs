@@ -45,9 +45,9 @@ The DRDA Service provides cross-platform database access and interoperability th
 ### Local Security Policy  
  The service account requires these Local Security Policy settings to run as a service.  
   
-1.  The service account requires Log on as a service.  
+1. The service account requires Log on as a service.  
   
- The service account requires these Local Security Policy settings to utilize host-initiated Enterprise Single Sign-On.  
+   The service account requires these Local Security Policy settings to utilize host-initiated Enterprise Single Sign-On.  
   
 -   The service account requires Act as part of the operating system.  
   

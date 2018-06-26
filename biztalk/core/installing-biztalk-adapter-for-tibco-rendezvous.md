@@ -30,16 +30,16 @@ You must write a schema, and use **Add Existing Item** in Visual Studio to impor
 
 - Field name uniqueness is not guaranteed. If a TIBCO Rendezvous message contains two field names that are the same, the resulting XML is not valid.  
   
--   Field ordering/sorting is not provided.  
+- Field ordering/sorting is not provided.  
   
--   According to TIBCO Rendezvous documentation, non-printable characters are not used in subject names; however, it is still possible that such characters are used. BizTalk Adapter for TIBCO Rendezvous does not support subject names containing those characters.  
+- According to TIBCO Rendezvous documentation, non-printable characters are not used in subject names; however, it is still possible that such characters are used. BizTalk Adapter for TIBCO Rendezvous does not support subject names containing those characters.  
   
--   Secure connection to daemons is not supported.  
+- Secure connection to daemons is not supported.  
   
--   Custom data types are not supported.  
+- Custom data types are not supported.  
   
--   Certified Messaging is not supported on the transmit side.  
--   
-## Next step
+- Certified Messaging is not supported on the transmit side.  
+- 
+  ## Next step
 
 [Tutorials: Using the Microsoft BizTalk Adapter for TIBCO Rendezvous](../core/tutorials-using-the-microsoft-biztalk-adapter-for-tibco-rendezvous.md)  

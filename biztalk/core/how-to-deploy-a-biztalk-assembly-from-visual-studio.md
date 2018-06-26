@@ -35,7 +35,7 @@ This topic provides instructions on using [!INCLUDE[btsVStudioNoVersion](../incl
   
 > [!IMPORTANT]
 >  You should never perform the tasks described in this topic on a production computer. During the development process, the developer often must redeploy assemblies from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. To enable the redeployment, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] may undeploy, unbind, stop, and unenlist artifacts that exist in the same or different applications. Although this is necessary and appropriate in the development environment, it can cause unexpected and undesired consequences in a production environment. In addition, to avoid the possibility of anyone's attempting to deploy an assembly from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] on a production computer, we recommend that you not install [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] on a production computer.  
-  
+> 
 > [!NOTE]
 >  .NET Framework runtime security policy prevents deploying assemblies from a network share by default. If you attempt to deploy an assembly from a network share and experience difficulty, see your .NET Framework security administrator, or consult "Security Policy Management" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection.  
   
@@ -46,9 +46,9 @@ This topic provides instructions on using [!INCLUDE[btsVStudioNoVersion](../incl
   
 #### Using Visual Studio Solution Explorer  
   
--   In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click a BizTalk project or solution, and then click **Deploy**.  
+- In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click a BizTalk project or solution, and then click **Deploy**.  
   
-     The assembly in the project or assemblies in the solution are deployed into the specified BizTalk application. The status of the build and deployment process displays in the lower left corner of the page.  
+   The assembly in the project or assemblies in the solution are deployed into the specified BizTalk application. The status of the build and deployment process displays in the lower left corner of the page.  
   
 #### Using the Visual Studio command prompt  
   

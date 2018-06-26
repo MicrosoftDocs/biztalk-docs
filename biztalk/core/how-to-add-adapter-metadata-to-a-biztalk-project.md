@@ -21,28 +21,28 @@ The Add Adapter Metadata Wizard enables you to add adapter metadata to a BizTalk
   
 ### To add adapter metadata to a BizTalk project  
   
-1.  In your [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, in Solution Explorer, right-click your project, click **Add**, and then click **Add Generated Items**.  
+1. In your [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, in Solution Explorer, right-click your project, click **Add**, and then click **Add Generated Items**.  
   
-2.  In the **Add Generated Items - \<***Project name***\>** dialog box, in the **Templates** section, select **Add Adapter**, and then click **Open**.  
+2. In the **Add Generated Items - \<**<em>Project name</em>**\>** dialog box, in the **Templates** section, select **Add Adapter**, and then click **Open**.  
   
-3.  In the Add Adapter Metadata Wizard, on the **Select Adapter** page, do the following.  
+3. In the Add Adapter Metadata Wizard, on the **Select Adapter** page, do the following.  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |Adapter list box|Select the registered adapter to add to the project.|  
-    |SQL Server|Enter the BizTalk database server name.|  
-    |Database|Displays the list of BizTalk Management databases for the chosen server.|  
-    |Port|Optional. Displays the list of ports created and stored in the BizTalk Management database. Only ports configured to work with the selected adapter are shown.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |Adapter list box|Select the registered adapter to add to the project.|  
+   |SQL Server|Enter the BizTalk database server name.|  
+   |Database|Displays the list of BizTalk Management databases for the chosen server.|  
+   |Port|Optional. Displays the list of ports created and stored in the BizTalk Management database. Only ports configured to work with the selected adapter are shown.|  
   
-     Click **Next**.  
+    Click **Next**.  
   
-    > [!NOTE]
-    >  Attempting to add generated schemas that contain characters that the **System.XML.XMLConvert** class does not support results in a compilation error.  
+   > [!NOTE]
+   >  Attempting to add generated schemas that contain characters that the **System.XML.XMLConvert** class does not support results in a compilation error.  
   
-4.  If you are using a static adapter, on the **Select Services to Import** page, select a set of available services from the tree view, and then click **Finish**.  
+4. If you are using a static adapter, on the **Select Services to Import** page, select a set of available services from the tree view, and then click **Finish**.  
   
-     –Or–  
+    –Or–  
   
-     If you are using a dynamic adapter, follow the steps in the custom user interface to complete the wizard.  
+    If you are using a dynamic adapter, follow the steps in the custom user interface to complete the wizard.  
   
- After you complete the wizard, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] lists the .odx and .xsd files in Solution Explorer.
+   After you complete the wizard, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] lists the .odx and .xsd files in Solution Explorer.

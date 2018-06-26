@@ -26,25 +26,25 @@ manager: "anneta"
   
 ### To build the BizTalk orchestration project  
   
-1.  In the Solution Explorer, right-click the BizTalk project name, and then click **Properties**.  
+1. In the Solution Explorer, right-click the BizTalk project name, and then click **Properties**.  
   
-2.  In the property pages dialog box, in the tree pane, expand **Common Properties**, click **Assembly**, and then in the properties list, click the **Assembly Key File** ellipsis **[…]**.  
+2. In the property pages dialog box, in the tree pane, expand **Common Properties**, click **Assembly**, and then in the properties list, click the **Assembly Key File** ellipsis **[…]**.  
   
-3.  Specify a path to the assembly key file you created as described in [Prerequisites to create SQL applications using the SQL adapter](../../adapters-and-accelerators/adapter-sql/prerequisites-to-create-sql-applications-using-the-sql-adapter.md), and then click **Open**.  
+3. Specify a path to the assembly key file you created as described in [Prerequisites to create SQL applications using the SQL adapter](../../adapters-and-accelerators/adapter-sql/prerequisites-to-create-sql-applications-using-the-sql-adapter.md), and then click **Open**.  
   
-4.  In the property pages dialog box, in the tree pane, expand **Configuration Properties**, click **Deployment**, and then do the following:  
+4. In the property pages dialog box, in the tree pane, expand **Configuration Properties**, click **Deployment**, and then do the following:  
   
-    1.  For the **Application Name** property, type `SampleApplication`.  
+   1. For the **Application Name** property, type `SampleApplication`.  
   
-    2.  For the **Redeploy** property, select **True**.  
+   2. For the **Redeploy** property, select **True**.  
   
-     Click **OK**.  
+      Click **OK**.  
   
-5.  On the **File** menu, click **Save All**.  
+5. On the **File** menu, click **Save All**.  
   
-6.  In Solution Explorer, right-click the solution name, and then click **Build Solution**.  
+6. In Solution Explorer, right-click the solution name, and then click **Build Solution**.  
   
-     The Output pane at the bottom of the screen should read: **Build: 3 succeeded or up-to-date, 0 failed, 0 skipped.**  
+    The Output pane at the bottom of the screen should read: **Build: 3 succeeded or up-to-date, 0 failed, 0 skipped.**  
   
 ## What did I just do?  
  In this step, you compiled the solution containing the BizTalk project and two class library projects.  

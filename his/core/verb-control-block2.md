@@ -16,12 +16,12 @@ manager: "anneta"
 # Verb Control Block
 The only parameter passed to the **APPC** function is the address of a verb control block (VCB). The VCB is a structure made up of variables that:  
   
--   Identify the APPC verb to be executed.  
+- Identify the APPC verb to be executed.  
   
--   Supply information to be used by the verb.  
+- Supply information to be used by the verb.  
   
--   Contain information returned by the verb when execution is complete.  
+- Contain information returned by the verb when execution is complete.  
   
- Each APPC verb has its own VCB structure, which is declared in the WINAPPC.H header file. For compatibility with earlier versions, the APPC_C.H header file is also supported.  
+  Each APPC verb has its own VCB structure, which is declared in the WINAPPC.H header file. For compatibility with earlier versions, the APPC_C.H header file is also supported.  
   
- The WINAPPC.H file is supplied as part of the Host Integration Server Software Development Kit (SDK).
+  The WINAPPC.H file is supplied as part of the Host Integration Server Software Development Kit (SDK).

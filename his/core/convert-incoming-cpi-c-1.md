@@ -31,25 +31,25 @@ CM_ENTRY Convert_Incoming( 
  *string*  
  Supplied parameter. Specifies the EBCDIC string to be converted. The string may contain any of the following characters:  
   
--   Uppercase A–Z  
+- Uppercase A–Z  
   
--   Lowercase a–z  
+- Lowercase a–z  
   
--   Numbers 0–9  
+- Numbers 0–9  
   
--   The period (.)  
+- The period (.)  
   
--   Space characters  
+- Space characters  
   
--   The special characters \< > + - ( ) & * ; : , '  ? / _= ".  
+- The special characters \< > + - ( ) & * ; : , '  ? / _= ".  
   
- *string_length* characters of this string will be replaced by ASCII equivalents.  
+  *string_length* characters of this string will be replaced by ASCII equivalents.  
   
- *string_length*  
- Supplied parameter. Specifies the number of characters to be converted (1–32767).  
+  *string_length*  
+  Supplied parameter. Specifies the number of characters to be converted (1–32767).  
   
- *return_code*  
- The code returned from this call. The valid return codes are listed later in this topic.  
+  *return_code*  
+  The code returned from this call. The valid return codes are listed later in this topic.  
   
 ## Return Codes  
  CM_OK  

@@ -18,6 +18,6 @@ The **ErrorObject** object is created by any interface on any Informix OLE DB ob
   
  The following interface of the **ErrorObject** object is supported by the current version of Microsoft OLE DB Provider for Informix:  
   
--   **IErrorRecords**  
+- **IErrorRecords**  
   
- The **IErrorRecords** interface returns **ErrorRecord** objects with detailed information on the error that occurred.
+  The **IErrorRecords** interface returns **ErrorRecord** objects with detailed information on the error that occurred.

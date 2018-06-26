@@ -19,21 +19,21 @@ The simplest method for determining the Maximum Sustainable Throughput (MST) of 
 ## Configure the Load Test with a Step Load Pattern Appropriate for your Application  
  Follow the steps in the topic [Step 3: Create a Load Test to Perform Multiple Unit Tests Simultaneously](../technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md) to create a load test that uses a step load pattern. Factors that impact the ability of the BizTalk Server Application to process documents in a timely fashion include:  
   
--   **Number of BizTalk Server computers in your group** - Additional BizTalk Servers provide additional processing ability.  
+- **Number of BizTalk Server computers in your group** - Additional BizTalk Servers provide additional processing ability.  
   
--   **Size of the messages being processed** - Larger messages require additional processing resources.  
+- **Size of the messages being processed** - Larger messages require additional processing resources.  
   
--   **Amount of document mapping performed** -Mapping requires additional processing resources.  
+- **Amount of document mapping performed** -Mapping requires additional processing resources.  
   
--   **Receive or send pipelines required by the application**. - Complex pipelines require additional processing resources.  
+- **Receive or send pipelines required by the application**. - Complex pipelines require additional processing resources.  
   
--   **Adapters and/or Accelerators used by the BizTalk Server application** – Some adapters and/or accelerators require more processing resources than others.  
+- **Adapters and/or Accelerators used by the BizTalk Server application** – Some adapters and/or accelerators require more processing resources than others.  
   
--   **Amount of Message tracking required** – Message tracking is resource intensive.  
+- **Amount of Message tracking required** – Message tracking is resource intensive.  
   
--   **Number of and complexity of Orchestrations running in the BizTalk Server Application** – Orchestrations can be very resource intensive.  
+- **Number of and complexity of Orchestrations running in the BizTalk Server Application** – Orchestrations can be very resource intensive.  
   
- When configuring the Step Load Pattern Test, modify the values specified for **Start user count** and **Maximum user count** to ensure that the number of messages specified for Start user count can be easily handled by the BizTalk Server application over time and likewise, the number of messages specified for Maximum user count is more than the BizTalk Server application can handle over time. See [Add a Load Test and Configure the Load Test Scenario, Counter Sets, and Run Settings](../technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md#BKMK_StepLoadTest) for information about editing the load pattern settings for the load test.  
+  When configuring the Step Load Pattern Test, modify the values specified for **Start user count** and **Maximum user count** to ensure that the number of messages specified for Start user count can be easily handled by the BizTalk Server application over time and likewise, the number of messages specified for Maximum user count is more than the BizTalk Server application can handle over time. See [Add a Load Test and Configure the Load Test Scenario, Counter Sets, and Run Settings](../technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md#BKMK_StepLoadTest) for information about editing the load pattern settings for the load test.  
   
 ## Ensure that the Correct Test Settings are Used for the Step Pattern Load Test  
  Configure the Load Test to use the **Test Settings** that you created in [Add A Test Settings File to the Solution to Run Tests and Collect Data Remotely](../technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md#BKMK_TestSettings).  

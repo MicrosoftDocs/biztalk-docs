@@ -17,15 +17,15 @@ manager: "anneta"
 # Troubleshooting BizTalk Server Permissions
 Permissions problems in BizTalk Server typically fall into one of the following categories:  
   
--   SQL Server permissions  
+- SQL Server permissions  
   
--   Active Directory permissions on multiserver installations of BizTalk Server  
+- Active Directory permissions on multiserver installations of BizTalk Server  
   
--   Web services permissions  
+- Web services permissions  
   
--   IIS permissions  
+- IIS permissions  
   
- This topic provides some general guidelines for avoiding permissions problems and troubleshooting steps for specific scenarios.  
+  This topic provides some general guidelines for avoiding permissions problems and troubleshooting steps for specific scenarios.  
   
 ## In This Section  
   

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10563
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10563|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_PERFMON_FAILED|  
-|Message Text|Performance monitoring failed to start.%r<br /><br /> Error Code: %1|  
+|                 |                                                                      |
+|-----------------|----------------------------------------------------------------------|
+|  Product Name   |                      Enterprise Single Sign-On                       |
+| Product Version |      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]      |
+|    Event ID     |                                10563                                 |
+|  Event Source   |                                ENTSSO                                |
+|    Component    |                                 N/A                                  |
+|  Symbolic Name  |                       SSO_WARN_PERFMON_FAILED                        |
+|  Message Text   | Performance monitoring failed to start.%r<br /><br /> Error Code: %1 |
   
 ## Explanation  
  Performance monitoring failed to start. The system will continue to run normally but performance monitoring will not be available.  

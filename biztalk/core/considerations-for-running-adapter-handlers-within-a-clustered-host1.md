@@ -46,15 +46,15 @@ BizTalk host cluster support is available to provide high availability for the f
 ## Running MSMQ adapter handlers within a clustered BizTalk host  
  To ensure high availability for the MSMQ adapter and to ensure transactional consistency for messages sent or received by the MSMQ adapter, you should do the following:  
   
-1.  Configure Message Queuing (MSMQ) as a clustered resource in a Windows cluster group on your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers.  
+1. Configure Message Queuing (MSMQ) as a clustered resource in a Windows cluster group on your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers.  
   
-2.  Add the clustered MSMQ service to the list of Resource dependencies for the clustered BizTalk host. This ensures that the clustered BizTalk host always starts after the clustered MSMQ service in failover scenarios.  
+2. Add the clustered MSMQ service to the list of Resource dependencies for the clustered BizTalk host. This ensures that the clustered BizTalk host always starts after the clustered MSMQ service in failover scenarios.  
   
-3.  Configure the MSMQ adapter send and receive handlers in a BizTalk host instance that has been configured as a cluster resource in the same cluster group as the clustered MSMQ resource.  
+3. Configure the MSMQ adapter send and receive handlers in a BizTalk host instance that has been configured as a cluster resource in the same cluster group as the clustered MSMQ resource.  
   
- These steps are recommended for the following reasons:  
+   These steps are recommended for the following reasons:  
   
- **MSMQ adapter receive handler** – MSMQ versions prior to MSMQ 4.0 (Windows Server 2008) do not support remote transactional reads; only local transactional reads are supported. In this case, the MSMQ adapter receive handler must run in a host instance that is local to the clustered Message Queuing service to complete local transactional reads with the MSMQ adapter.  
+   **MSMQ adapter receive handler** – MSMQ versions prior to MSMQ 4.0 (Windows Server 2008) do not support remote transactional reads; only local transactional reads are supported. In this case, the MSMQ adapter receive handler must run in a host instance that is local to the clustered Message Queuing service to complete local transactional reads with the MSMQ adapter.  
   
 > [!IMPORTANT]
 >  The MSMQ adapter receive handler requires that a local non-clustered instance of the Message Queuing service is running on the same computer that the receive handler host instance is running on.  

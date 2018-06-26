@@ -33,17 +33,17 @@ This section describes the major BizTalk Server components of the Service Orient
   
  The Service Oriented solution has three versions of the orchestrations:  
   
--   A version in which all three of the back-end applications are stubbed out  
+- A version in which all three of the back-end applications are stubbed out  
   
--   One in which all three back-end applications are invoked inline  
+- One in which all three back-end applications are invoked inline  
   
--   A version that uses adapters to connect to the applications.  
+- A version that uses adapters to connect to the applications.  
   
- All versions of the orchestrations appear in the SDK\Senarios\SO\BTSSoln\Orchestrations directory.  
+  All versions of the orchestrations appear in the SDK\Senarios\SO\BTSSoln\Orchestrations directory.  
   
- The inline version of the orchestrations provides the lowest latency time within the solution between requests and responses.  
+  The inline version of the orchestrations provides the lowest latency time within the solution between requests and responses.  
   
- For information about the source files, see [File Inventory for the Service Oriented Solution](../core/file-inventory-for-the-service-oriented-solution.md).  
+  For information about the source files, see [File Inventory for the Service Oriented Solution](../core/file-inventory-for-the-service-oriented-solution.md).  
   
 ## Orchestrations in the Service Oriented Solution  
  Three orchestrations, **CustomerServiceReceiveSend**, **CustomerServiceNativeRequestResponse**, and **CustomerService** compose the bulk of the solution. The **CustomerServiceReceiveSend** and **CustomerServiceNativeRequestResponse** orchestrations act as front-ends that call the **CustomerService** orchestration. The **CustomerService** orchestration does most of the work—sending requests to the back-end applications, gathering the replies, combining the replies into a single message, and sending the message to the appropriate front-end orchestration. Because the front-end orchestrations call the **CustomerService** orchestration, the front-end orchestrations wait until the **CustomerService** orchestration finishes.  
@@ -53,11 +53,11 @@ This section describes the major BizTalk Server components of the Service Orient
 ## Back-end Applications  
  The Service Oriented solution communicates with three back-end applications:  
   
--   The **PaymentTracker** application returns a simulated list of recent payments. **PaymentTracker** reads the request from an MQSeries queue and sends the response to another MQSeries queue.  
+- The **PaymentTracker** application returns a simulated list of recent payments. **PaymentTracker** reads the request from an MQSeries queue and sends the response to another MQSeries queue.  
   
--   The **PendingTransaction** application reports the sum of transactions pending against the customer account. The application is a Web service that, in turn, uses Microsoft Host Integration Server (HIS) to communicate with a CICS/COBOL program on a mainframe computer.  
+- The **PendingTransaction** application reports the sum of transactions pending against the customer account. The application is a Web service that, in turn, uses Microsoft Host Integration Server (HIS) to communicate with a CICS/COBOL program on a mainframe computer.  
   
--   The SAP application provides information about the customer's overall credit limit. The solution connects to the SAP application as a Web service. The application uses the SAP adapter in [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] to communicate with a SAP system.  
+- The SAP application provides information about the customer's overall credit limit. The solution connects to the SAP application as a Web service. The application uses the SAP adapter in [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] to communicate with a SAP system.  
   
 ## Pipelines  
  The Service Oriented solution uses default pipelines except in two places: the receive pipeline for the **CustomerServiceReceiveSend** orchestration, and the **CustomerService** orchestration's send pipeline to the **PaymentTracker**. Both pipelines use custom components.  

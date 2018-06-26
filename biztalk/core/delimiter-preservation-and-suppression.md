@@ -19,40 +19,40 @@ manager: "anneta"
 ## Overview
 There are two properties that apply to delimited records: **Preserve Delimiter For Empty Data** and **Suppress Trailing Delimiters**. Use these properties to control how the flat file assembler handles delimiters associated with nonexistent data and trailing delimiters. When you set the **Preserve Delimiter For Empty Data** property to **Yes** (which is the default setting), delimiters are included in the translated flat file message for:  
   
--   Fields without data.  
+- Fields without data.  
   
--   Immediately subordinate records without data that do not have a tag associated with them.  
+- Immediately subordinate records without data that do not have a tag associated with them.  
   
- When you set the **Preserve Delimiter For Empty Data** property to **No**, delimiters are not included in the translated flat file for records and fields without data. Further, regardless of the setting of the **Preserve Delimiter For Empty Data** property, delimiters will not be included in the translated flat file message for immediately subordinate records without data for which a tag is defined.  
+  When you set the **Preserve Delimiter For Empty Data** property to **No**, delimiters are not included in the translated flat file for records and fields without data. Further, regardless of the setting of the **Preserve Delimiter For Empty Data** property, delimiters will not be included in the translated flat file message for immediately subordinate records without data for which a tag is defined.  
   
- When you set the **Suppress Trailing Delimiters** property to **No** (which is the default setting), one or more trailing delimiters may be included in the translated flat file message. When you set the **Suppress Trailing Delimiters** property to **Yes**, trailing delimiters are not included in the translated flat file message.  
+  When you set the **Suppress Trailing Delimiters** property to **No** (which is the default setting), one or more trailing delimiters may be included in the translated flat file message. When you set the **Suppress Trailing Delimiters** property to **Yes**, trailing delimiters are not included in the translated flat file message.  
 
 ## Special scenarios  
  There are some special cases where the behaviors caused by the settings of the **Preserve Delimiter For Empty Data** and **Suppress Trailing Delimiters** properties can conflict. In such cases, the behaviors associated with the latter property, **Suppress Trailing Delimiters**, will take precedence. Further, there are some special cases where you will be warned about potential conflicts between the settings you have chosen for these two properties.  
   
  For example, consider a **Record** node defined with the following property values:  
   
--   Node Name is MyRec  
+- Node Name is MyRec  
   
--   Tag Identifier is Rec  
+- Tag Identifier is Rec  
   
--   Child Delimiter is ,  
+- Child Delimiter is ,  
   
--   Child Order is Infix  
+- Child Order is Infix  
   
- And defined to contain five **Field Element** nodes with the following names (they could also be **Field Attribute** nodes or subordinate **Record** nodes):  
+  And defined to contain five **Field Element** nodes with the following names (they could also be **Field Attribute** nodes or subordinate **Record** nodes):  
   
--   FieldElem1  
+- FieldElem1  
   
--   FieldElem2  
+- FieldElem2  
   
--   FieldElem3  
+- FieldElem3  
   
--   FieldElem4  
+- FieldElem4  
   
--   FieldElem5  
+- FieldElem5  
   
- Next, assume that the following mainly empty XML fragment, representing this **Record** node, is passed to the flat file assembler.  
+  Next, assume that the following mainly empty XML fragment, representing this **Record** node, is passed to the flat file assembler.  
   
 ```  
 <MyRec>  
@@ -107,5 +107,5 @@ There are two properties that apply to delimited records: **Preserve Delimiter F
 ```  
   
 ## See Also  
--  [Delimited Record Considerations](../core/delimited-record-considerations.md)   
--  **Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)** and **Suppress Trailing Delimiters (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+- [Delimited Record Considerations](../core/delimited-record-considerations.md)   
+- **Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)** and **Suppress Trailing Delimiters (Node Property of Flat File Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

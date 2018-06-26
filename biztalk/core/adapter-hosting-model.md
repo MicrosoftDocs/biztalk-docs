@@ -20,24 +20,24 @@ In general BizTalk adapters are hosted in the BizTalk service, Btsntsvc.exe. Thi
 ## In-Process Adapters  
  Adapters that are managed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] are called in-process adapters. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does the following for these adapters:  
   
--   Instantiate the adapter when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is started  
+- Instantiate the adapter when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is started  
   
--   Passes the adapter's transport proxy to the adapter during initialization  
+- Passes the adapter's transport proxy to the adapter during initialization  
   
--   Services the adapter's requests  
+- Services the adapter's requests  
   
--   Terminates the adapter on shutdown of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] service  
+- Terminates the adapter on shutdown of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] service  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] delivers handler configuration and endpoint configuration information to the adapter at run time. Other aspects of configuration are specified, such as service windows that define specific time periods during which the adapter is enabled to actively handle requests.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] delivers handler configuration and endpoint configuration information to the adapter at run time. Other aspects of configuration are specified, such as service windows that define specific time periods during which the adapter is enabled to actively handle requests.  
   
- The BizTalk service may be manually shut down by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or by using the service control manager. If connectivity to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases is lost the service automatically recycles itself.  
+  The BizTalk service may be manually shut down by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or by using the service control manager. If connectivity to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases is lost the service automatically recycles itself.  
   
- In the typical hosting model, receive-side adapters and send-side adapters are hosted in the same process as the BizTalk service, along with the Messaging Engine and the Orchestration Engine. The hosting model is flexible enough to allow for separation of receive, send, and orchestration hosts and combinations of these. In the following figure, the host is executing all three in the same process.  
+  In the typical hosting model, receive-side adapters and send-side adapters are hosted in the same process as the BizTalk service, along with the Messaging Engine and the Orchestration Engine. The hosting model is flexible enough to allow for separation of receive, send, and orchestration hosts and combinations of these. In the following figure, the host is executing all three in the same process.  
   
- Because of the rich hosting model, it is important when developing adapters to remember that the send and receive adapters may never be configured in the same host. They may even be configured to run on different computers.  
+  Because of the rich hosting model, it is important when developing adapters to remember that the send and receive adapters may never be configured in the same host. They may even be configured to run on different computers.  
   
- ![](../core/media/regularadapterhostingmodel.gif "RegularAdapterHostingModel")  
-The in-process adapter hosting model  
+  ![](../core/media/regularadapterhostingmodel.gif "RegularAdapterHostingModel")  
+  The in-process adapter hosting model  
   
 ## Isolated Adapters  
  There are scenarios when hosting receive adapters in the BizTalk service is not possible. For example, the Internet Information Services (IIS) process model is such that IIS manages the lifetime of ASP.NET applications and ISAPI extensions. The BizTalk SOAP adapter must run within the same process space as IIS, thus making it impossible for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to control the lifetime of any instances of the SOAP adapter.  

@@ -24,24 +24,24 @@ A receive port is a logical grouping of similar receive locations. A receive loc
   
 ### To add a receive port  
   
-1.  Start **BizTalk Server Administration** console.  
+1. Start **BizTalk Server Administration** console.  
   
-    > [!NOTE]
-    >  The BizTalk Server Administration Console can also be opened from within Visual Studio by clicking **BizTalk Server Administration** in the **Tools** menu.  
+   > [!NOTE]
+   >  The BizTalk Server Administration Console can also be opened from within Visual Studio by clicking **BizTalk Server Administration** in the **Tools** menu.  
   
-2.  In the BizTalk Server Administration Console, expand the **BizTalk Server Administration** node, then the **BizTalk Group** node, then the **Applications** node, and then the **BizTalk Application 1** node.  
+2. In the BizTalk Server Administration Console, expand the **BizTalk Server Administration** node, then the **BizTalk Group** node, then the **Applications** node, and then the **BizTalk Application 1** node.  
   
-3.  Right-click **Receive Ports**, point to **New**, and then click **One-Way Receive Port**.  
+3. Right-click **Receive Ports**, point to **New**, and then click **One-Way Receive Port**.  
   
-4.  In the Receive Port Properties dialog box, in the **Name** box, type **MT103_XML_ReceivePort**.  
+4. In the Receive Port Properties dialog box, in the **Name** box, type **MT103_XML_ReceivePort**.  
   
-5.  Click **Apply** to bind the port, and then click **OK.**  
+5. Click **Apply** to bind the port, and then click **OK.**  
   
-6.  Right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.  
+6. Right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.  
   
-7.  In the Select a Receive Port dialog box, click **MT103_XML_ReceivePort**, and then click **OK**.  
+7. In the Select a Receive Port dialog box, click **MT103_XML_ReceivePort**, and then click **OK**.  
   
-8.  In the Receive Location Properties dialog box, in the **Name** box, type **MT103_XML_ReceiveLocation**.  
+8. In the Receive Location Properties dialog box, in the **Name** box, type **MT103_XML_ReceiveLocation**.  
   
 9. In the **Transport** section, for the **Type** text box, click the drop-down list, and then select **FILE**.  
   
@@ -64,4 +64,4 @@ A receive port is a logical grouping of similar receive locations. A receive loc
     > [!NOTE]
     >  After you enable the receive location, BizTalk actively polls your file folder.  
   
- Proceed to [Lesson 2: Adding the Flat File Send Port](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-a-flat-file-send-port.md).
+    Proceed to [Lesson 2: Adding the Flat File Send Port](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-a-flat-file-send-port.md).

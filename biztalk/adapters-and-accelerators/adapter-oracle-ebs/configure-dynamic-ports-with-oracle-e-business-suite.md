@@ -34,13 +34,13 @@ SendPort(Microsoft.XLANGs.BaseTypes.TransportType)="WCF-Custom";
   
  In the preceding example,  
   
--   Request2 message is being created from Request1 message. Both messages map to an operation schema, which is generated using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+- Request2 message is being created from Request1 message. Both messages map to an operation schema, which is generated using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
--   SendPort is the name of the logical send port in the BizTalk orchestration.  
+- SendPort is the name of the logical send port in the BizTalk orchestration.  
   
- The **Expression** shape is part of the BizTalk orchestration. Deploying the orchestration also creates a WCF-Custom send port.  
+  The **Expression** shape is part of the BizTalk orchestration. Deploying the orchestration also creates a WCF-Custom send port.  
   
- For more information about configuring dynamic ports, see [Configuring Dynamic Send Ports Using WCF Adapters Context Properties](../../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md).
+  For more information about configuring dynamic ports, see [Configuring Dynamic Send Ports Using WCF Adapters Context Properties](../../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md).
   
 ## See Also  
 [Building blocks to create Oracle E-Business Suite applications](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md)

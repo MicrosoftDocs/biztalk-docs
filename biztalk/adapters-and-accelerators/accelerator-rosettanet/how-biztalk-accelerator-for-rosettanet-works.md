@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How BizTalk Accelerator for RosettaNet Works
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides a high-technology manufacturing solution by building on [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. It does so by providing support for RosettaNet Implementation Framework (RNIF) and Partner Interface Processes (PIPs), and adding components that customize the message processing to high-technology manufacturing applications.  
+Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides a high-technology manufacturing solution by building on Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. It does so by providing support for RosettaNet Implementation Framework (RNIF) and Partner Interface Processes (PIPs), and adding components that customize the message processing to high-technology manufacturing applications.  
   
 ## In This Section  
   

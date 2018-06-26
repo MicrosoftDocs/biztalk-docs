@@ -40,13 +40,13 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a set
   
  For more information about:  
   
--   Performing these operations using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Insert, Update, Delete, and Select Operations by Using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-select-operations-using-biztalk-server-with-oracle-db.md).  
+- Performing these operations using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Insert, Update, Delete, and Select Operations by Using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-select-operations-using-biztalk-server-with-oracle-db.md).  
   
--   Performing these operations using the WCF service model, see [Insert, Update, Delete, and Select Operations by Using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-select-operations-in-oracle-db-using-a-wcf-service.md).  
+- Performing these operations using the WCF service model, see [Insert, Update, Delete, and Select Operations by Using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-select-operations-in-oracle-db-using-a-wcf-service.md).  
   
--   Performing these operations using the WCF channel model, see [Run an Insert Operation in Oracle Database using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model.md).  
+- Performing these operations using the WCF channel model, see [Run an Insert Operation in Oracle Database using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model.md).  
   
--   Message structures and SOAP action for performing DML operations, see [Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).  
+- Message structures and SOAP action for performing DML operations, see [Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).  
   
 ## See Also  
  [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

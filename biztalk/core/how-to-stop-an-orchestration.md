@@ -28,11 +28,11 @@ This topic describes how to use the BizTalk Server Administration console to sto
   
 ### To stop an orchestration  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to stop.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the orchestration that you want to stop.  
   
-3.  Click **Orchestrations**, right-click the orchestration, and then click **Stop**.  
+3. Click **Orchestrations**, right-click the orchestration, and then click **Stop**.  
   
 ## See Also  
  [Managing Orchestrations](../core/managing-orchestrations.md)   

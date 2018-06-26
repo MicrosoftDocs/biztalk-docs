@@ -25,38 +25,38 @@ You can use this procedure to move the BAM Analysis database to another server.
   
 ### To move the BAM Analysis database  
   
-1.  Get a copy of the .xml file used for restoring BAM:  
+1. Get a copy of the .xml file used for restoring BAM:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  At the command prompt, navigate to the following directory:  
+   2. At the command prompt, navigate to the following directory:  
   
-         [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
+       [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
   
-    3.  At the command prompt, type:  
+   3. At the command prompt, type:  
   
-        ```  
-        Bm.exe get-config –filename:BAMConfiguration.xml  
-        ```  
+      ```  
+      Bm.exe get-config –filename:BAMConfiguration.xml  
+      ```  
   
-        > [!NOTE]
-        >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+      > [!NOTE]
+      >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-2.  Follow the instructions in SQL Server Books Online on how to back up the database on the old server.  
+2. Follow the instructions in SQL Server Books Online on how to back up the database on the old server.  
   
-3.  Copy the BAM Analysis database to the new SQL Server.  
+3. Copy the BAM Analysis database to the new SQL Server.  
   
-4.  Follow the instructions in SQL Server Books Online on how to restore the database on the new server.  
+4. Follow the instructions in SQL Server Books Online on how to restore the database on the new server.  
   
-5.  Edit the BAMConfiguration.xml file and change the ServerName in the AnalysisDatabase DeploymentUnit section to the new server name.  
+5. Edit the BAMConfiguration.xml file and change the ServerName in the AnalysisDatabase DeploymentUnit section to the new server name.  
   
-6.  Save and close the BAMConfiguration.xml file.  
+6. Save and close the BAMConfiguration.xml file.  
   
-7.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+7. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-8.  At the command prompt, navigate to the following directory:  
+8. At the command prompt, navigate to the following directory:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
+    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
   
 9. At the command prompt, type:  
   

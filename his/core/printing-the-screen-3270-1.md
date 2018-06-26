@@ -18,9 +18,9 @@ After you have established a connection to the host, you can print the informati
   
  **To print the screen**  
   
--   On the **File** menu, click **Print**.  
+- On the **File** menu, click **Print**.  
   
- **To change printer options**  
+  **To change printer options**  
   
 1.  On the **File** menu, click **Printer Setup**.  
   

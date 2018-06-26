@@ -26,21 +26,21 @@ In this step, you use Orchestration Designer to create an orchestration to repre
   
 ### To create an orchestration  
   
-1.  In Solution Explorer, right-click **BTAHL7 Project**, point to **Add**, and then click **New Item**.  
+1. In Solution Explorer, right-click **BTAHL7 Project**, point to **Add**, and then click **New Item**.  
   
-2.  In the **Add New Item** dialog box, in the **Categories** pane, click **Orchestration Files**.  
+2. In the **Add New Item** dialog box, in the **Categories** pane, click **Orchestration Files**.  
   
-3.  In the **Templates** pane, click **BizTalk Orchestration**.  
+3. In the **Templates** pane, click **BizTalk Orchestration**.  
   
-4.  In the **Name** field, type **Doorbell Orchestration.odx** (note that there is a space between the word **Doorbell** and **Orchestration**) as the orchestration name, and then click **Add** to create a new orchestration file.  
+4. In the **Name** field, type **Doorbell Orchestration.odx** (note that there is a space between the word **Doorbell** and **Orchestration**) as the orchestration name, and then click **Add** to create a new orchestration file.  
   
-5.  In the **View** menu, click **Toolbox**.  
+5. In the **View** menu, click **Toolbox**.  
   
-6.  In the **Toolbox** pane, drag the **Receive** shape to the Design view surface and drop it on the area labeled **Drop a shape from the toolbox here**.  
+6. In the **Toolbox** pane, drag the **Receive** shape to the Design view surface and drop it on the area labeled **Drop a shape from the toolbox here**.  
   
-7.  In the Properties window (on the bottom right of your screen), click the **Name** property and type **DoorbellReceive** as the name of the **Receive** shape, and then press **Enter**.  
+7. In the Properties window (on the bottom right of your screen), click the **Name** property and type **DoorbellReceive** as the name of the **Receive** shape, and then press **Enter**.  
   
-8.  In the Properties window, change the **Activate** property to **True**.  
+8. In the Properties window, change the **Activate** property to **True**.  
   
 9. Drag the **Transform** shape from the Toolbox and drop it directly below the **DoorbellReceive** shape.  
   
@@ -54,7 +54,7 @@ In this step, you use Orchestration Designer to create an orchestration to repre
   
 14. In the Properties window (on the bottom right of your screen), click the **Name** property to change the name of the **Send** shape to **DoorbellSend**, and then press **Enter**.  
   
- Proceed to [Step 11: Create Orchestration Variables](../../adapters-and-accelerators/accelerator-hl7/step-11-create-orchestration-variables.md).  
+    Proceed to [Step 11: Create Orchestration Variables](../../adapters-and-accelerators/accelerator-hl7/step-11-create-orchestration-variables.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

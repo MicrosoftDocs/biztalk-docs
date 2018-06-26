@@ -25,31 +25,31 @@ One of the new enhancements for the SOAP adapter is ability to call Web services
   
 ### To create a proxy library and XML schemas for invoking Web services  
   
-1.  Determine the URL for the Web service.  
+1. Determine the URL for the Web service.  
   
-2.  Open an **Empty BizTalk Server Project** in a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] solution. For more information about how to create a BizTalk Server project, see [How to Create BizTalk Projects](../core/how-to-create-biztalk-projects.md).  
+2. Open an **Empty BizTalk Server Project** in a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] solution. For more information about how to create a BizTalk Server project, see [How to Create BizTalk Projects](../core/how-to-create-biztalk-projects.md).  
   
-    > [!NOTE]
-    >  This walkthrough uses a BizTalk Server project to generate proxy libraries and XML schemas that the Web service uses. You can also use the Wsdl.exe and Xsd.exe in the .NET Framework 4.0 SDK for the same purpose.  
+   > [!NOTE]
+   >  This walkthrough uses a BizTalk Server project to generate proxy libraries and XML schemas that the Web service uses. You can also use the Wsdl.exe and Xsd.exe in the .NET Framework 4.0 SDK for the same purpose.  
   
-3.  In Solution Explorer, right-click the BizTalk Server project name, and then click **Add Service Reference**.  
+3. In Solution Explorer, right-click the BizTalk Server project name, and then click **Add Service Reference**.  
   
-4.  In the **Add Service Reference** dialog box, click **Advanced**.  
+4. In the **Add Service Reference** dialog box, click **Advanced**.  
   
-5.  In the **Service Reference Settings** dialog box, Click **Add Web Reference** in the **Compatibility** section.  
+5. In the **Service Reference Settings** dialog box, Click **Add Web Reference** in the **Compatibility** section.  
   
-6.  In the **Add Web Reference** dialog box, do the following:  
+6. In the **Add Web Reference** dialog box, do the following:  
   
-    1.  In the **URL** field, type a Web service URL, and then click **Go**.  
+   1.  In the **URL** field, type a Web service URL, and then click **Go**.  
   
-    2.  In the **Web reference name** field, type a name for the namespace, and then click **Add Reference**.  
+   2.  In the **Web reference name** field, type a name for the namespace, and then click **Add Reference**.  
   
-7.  The Web reference will appear under **Web References** node in Solution Explorer.  
+7. The Web reference will appear under **Web References** node in Solution Explorer.  
   
-    > [!TIP]
-    >  Once you have a web reference added to a BizTalk project, the **Add Web Reference** command is directly available when you right-click the project name or **References** or **Web References**.  
+   > [!TIP]
+   >  Once you have a web reference added to a BizTalk project, the **Add Web Reference** command is directly available when you right-click the project name or **References** or **Web References**.  
   
-8.  In Solution Explorer, right-click the project name, and then click **Properties** to launch the Project Designer.  
+8. In Solution Explorer, right-click the project name, and then click **Properties** to launch the Project Designer.  
   
 9. In the Project Designer, click the **Signing** tab.  
   

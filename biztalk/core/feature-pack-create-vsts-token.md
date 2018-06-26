@@ -34,7 +34,7 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 
     ![Git or TFS](../core/media/git-or-team-foundation.png)
 
-2. Open your VSTS account (https://*YourAccountName*.visualstudio.com). Select your icon in the top right-side corner, and select **Security**: 
+2. Open your VSTS account (https://<em>YourAccountName</em>.visualstudio.com). Select your icon in the top right-side corner, and select **Security**: 
 
     ![Open your account security](../core/media/vsts-account-security.png)
 
@@ -71,41 +71,43 @@ The build agent is installed on the BizTalk development computer. If using deplo
 
 3. The install steps automatically open. Follow those steps for the most up-to-date details. Here is some guidance: 
 
-    1. Open Windows PowerShell as Administrator.
+   1. Open Windows PowerShell as Administrator.
 
-    2. To create the agent, enter: 
+   2. To create the agent, enter: 
 
-        ```powershell
-        PS C:\> mkdir agent ; cd agent  
+       ```powershell
+       PS C:\> mkdir agent ; cd agent  
 
-        PS C:\agent> Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$HOME\Downloads\vsts-agent-win7-x64-2.124.0.zip", "$PWD")
-        ```
-    
-        The vsts-agent file version changes. So follow the VSTS install steps for specific details. After you hit enter, it may take a couple of minutes for the prompt to return. 
+       PS C:\agent> Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$HOME\Downloads\vsts-agent-win7-x64-2.124.0.zip", "$PWD")
+       ```
 
-    3. To configure the agent, enter: 
+       The vsts-agent file version changes. So follow the VSTS install steps for specific details. After you hit enter, it may take a couple of minutes for the prompt to return. 
 
-        ```powershell
-        PS C:\agent> .\config.cmd
-        ```
+   3. To configure the agent, enter: 
 
-    4. Enter the following details:  
-        
-        | Property | Value |
-        | --- | --- |
-        | Server URL| https://{your-account}.visualstudio.com |
-        | Authentication Type | PAT |
-        | Personal access token | Paste your VSTS token |
-        | Agent pool | Enter for the default |
-        | Agent name | Enter for the default |
-        | Replace | *Only displays if you have an existing agent* |
-        | Work folder | Enter for the default |
-        | Run agent as a service | Y |
-        | User account | This is up to you, but you may run into a permissions issue. <br/><br/>Consider entering your current logged-on account, which is a local Admin. |
+       ```powershell
+       PS C:\agent> .\config.cmd
+       ```
 
-    5. When finished, your PowerShell window looks like the following:  
-    
-        ![Agent install](../core/media/vsts-agent-powershell-install.png)
+   4. Enter the following details:  
+
+
+      |        Property        |                                                                      Value                                                                       |
+      |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+      |       Server URL       |                                                     https://{your-account}.visualstudio.com                                                      |
+      |  Authentication Type   |                                                                       PAT                                                                        |
+      | Personal access token  |                                                              Paste your VSTS token                                                               |
+      |       Agent pool       |                                                              Enter for the default                                                               |
+      |       Agent name       |                                                              Enter for the default                                                               |
+      |        Replace         |                                                  *Only displays if you have an existing agent*                                                   |
+      |      Work folder       |                                                              Enter for the default                                                               |
+      | Run agent as a service |                                                                        Y                                                                         |
+      |      User account      | This is up to you, but you may run into a permissions issue. <br/><br/>Consider entering your current logged-on account, which is a local Admin. |
+
+
+   5. When finished, your PowerShell window looks like the following:  
+
+       ![Agent install](../core/media/vsts-agent-powershell-install.png)
 
 4. Open services.msc to see the new service. It should be running:  
 

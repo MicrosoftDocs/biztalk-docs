@@ -44,34 +44,34 @@ When you create a map, you add a source schema, and a destination schema. When y
   
 ## Collapse all or part of a schema tree  
   
-1.  Select the node under which you want to completely collapse the schema tree.  
+1. Select the node under which you want to completely collapse the schema tree.  
   
-     The selected node must be a node with a plus (+) or minus (-) icon next to it.  
+    The selected node must be a node with a plus (+) or minus (-) icon next to it.  
   
-2.  On the **BizTalk** menu, or on the shortcut menu for that node, click **Collapse Tree Node**.  
+2. On the **BizTalk** menu, or on the shortcut menu for that node, click **Collapse Tree Node**.  
   
-     All nodes below the selected node are completely collapsed.  
+    All nodes below the selected node are completely collapsed.  
   
-    > [!NOTE]
-    >  Alternatively you can press CTRL+M, C to collapse the schema tree nodes. For a list of keyboard shortcuts, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
+   > [!NOTE]
+   >  Alternatively you can press CTRL+M, C to collapse the schema tree nodes. For a list of keyboard shortcuts, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).  
   
-     If the schema tree below the selected node is already collapsed, the **Collapse Tree Node** menu item is disabled.  
+    If the schema tree below the selected node is already collapsed, the **Collapse Tree Node** menu item is disabled.  
   
- This operation will not remember the individual expand and collapse settings of the nodes below the selected node. When you re-expand the collapsed node, previous settings are lost, and you must expand the schema tree below that point node-by-node, or expand it entirely.  
+   This operation will not remember the individual expand and collapse settings of the nodes below the selected node. When you re-expand the collapsed node, previous settings are lost, and you must expand the schema tree below that point node-by-node, or expand it entirely.  
   
 ### Expand a node
   
--   Click the plus (+) icon next to the node you want to expand.  
+- Click the plus (+) icon next to the node you want to expand.  
   
- The selected node is expanded. Whether or not its descendent nodes are expanded or collapsed depends on how the selected node was collapsed and their previous expand and collapse settings.  
+  The selected node is expanded. Whether or not its descendent nodes are expanded or collapsed depends on how the selected node was collapsed and their previous expand and collapse settings.  
   
 ### Collapse a node
   
--   Click the minus (-) icon next to the node you want to collapse.  
+- Click the minus (-) icon next to the node you want to collapse.  
   
- The selected node is collapsed.  
+  The selected node is collapsed.  
   
- This operation will remember the individual expand and collapse settings of the nodes below the selected node. When you re-expand the collapsed node by using the plus (+) icon, the previous individual settings are not lost, and the schema tree below that point returns to its previous state.  
+  This operation will remember the individual expand and collapse settings of the nodes below the selected node. When you re-expand the collapsed node by using the plus (+) icon, the previous individual settings are not lost, and the schema tree below that point returns to its previous state.  
   
 ## See Also  
  [Using BizTalk Mapper](../core/using-biztalk-mapper.md)

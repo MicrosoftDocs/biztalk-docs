@@ -35,12 +35,12 @@ class MsSna_UserInfo : MsSna_Config
   
 ## Properties  
  **Name**  
- Data Type: **String**Qualifiers: **Key, MAXLEN(255)**Access Type: Read-Only  
+ Data Type: **String**Qualifiers: <strong>Key, MAXLEN(255)</strong>Access Type: Read-Only  
   
  The user name.  
   
  **Comment**  
- Data Type: **String**Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   
@@ -67,12 +67,12 @@ class MsSna_UserInfo : MsSna_Config
  **true** to let this user or group use dynamically created APPC LUs.  
   
  **DefLocalLu**  
- Data Type: **String**Qualifiers: **MAXLEN(8)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(8)</strong>Access Type: Read/Write  
   
  A default local APPC LU to be used when the user starts APPC programs.  
   
  **DefRemoteLu**  
- Data Type: **String**Qualifiers: **MAXLEN(8)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(8)</strong>Access Type: Read/Write  
   
  A default remote APPC LU to be used when the user starts APPC programs.  
   

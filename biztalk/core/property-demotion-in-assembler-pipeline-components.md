@@ -41,15 +41,15 @@ You can use property demotion to copy a property value from the message context 
 ## Property Demotion and Envelopes  
  It is often useful to demote values from one or more of the system namespaces -- or one of your own namespaces -- when assembling files within an envelope. Some common scenarios include:  
   
--   You want to include the original file name submitted to the system in outbound messages so back-end systems can track the origin of data.  
+- You want to include the original file name submitted to the system in outbound messages so back-end systems can track the origin of data.  
   
--   You want to write data from the body message to the header. For example, for a purchase order it might be useful to write the ship to name to the envelope for down-stream systems.  
+- You want to write data from the body message to the header. For example, for a purchase order it might be useful to write the ship to name to the envelope for down-stream systems.  
   
--   You want to combine many different fields into the header without writing custom code. Property demotion in the Xml assembler or flat file assembler can do the job.  
+- You want to combine many different fields into the header without writing custom code. Property demotion in the Xml assembler or flat file assembler can do the job.  
   
- It is important to remember that the XML and flat file assembler components both allow you to specify which schema to use for the envelope and document body. You can choose the same schemas used in disassembly or create a new envelope schema with different fields.  
+  It is important to remember that the XML and flat file assembler components both allow you to specify which schema to use for the envelope and document body. You can choose the same schemas used in disassembly or create a new envelope schema with different fields.  
   
- For an example of these concepts, see [EnvelopeProcessing (BizTalk Server Sample)](../core/envelopeprocessing-biztalk-server-sample.md).  
+  For an example of these concepts, see [EnvelopeProcessing (BizTalk Server Sample)](../core/envelopeprocessing-biztalk-server-sample.md).  
   
 ## See Also  
  [Flat File Assembler Pipeline Component](../core/flat-file-assembler-pipeline-component.md)   

@@ -18,13 +18,13 @@ TN3270 is a type of Telnet service that allows access to mainframe computers ove
   
  The TN3270 service supports these protocols:  
   
--   TN3270, for display sessions  
+- TN3270, for display sessions  
   
--   TN3287, for printer sessions  
+- TN3287, for printer sessions  
   
--   TN3270E, for extended display and print sessions  
+- TN3270E, for extended display and print sessions  
   
- The TN3270 service uses Host Integration Server features to provide mainframe access and to address issues such as security and redundancy when the data communications path between the client and server contains one or more nonsecured segments.  
+  The TN3270 service uses Host Integration Server features to provide mainframe access and to address issues such as security and redundancy when the data communications path between the client and server contains one or more nonsecured segments.  
   
 ## TN3270 Service  
  The TN3270 service communicates with Host Integration Server using the LUA (Logical Unit for Applications) API. Because of this, LUA-type connections and LUs must be configured on the server. Once configured, LUA LUs and LU pools can be assigned to the TN3270 service and made available for use by TN3270 clients requesting mainframe access.  

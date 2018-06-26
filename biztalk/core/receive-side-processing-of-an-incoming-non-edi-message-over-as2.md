@@ -30,30 +30,30 @@ The AS2 pipelines shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/
 ## Processing the Received AS2 message  
  The AS2 Decoder in the AS2Receive receive pipeline processes an incoming AS2 message. It does so using the `InboundHTTPHeaders` context property, which the HTTP adapter creates from the HTTP headers in the AS2 message. These headers include the following AS2 headers:  
   
--   AS2-To  
+- AS2-To  
   
--   AS2-From  
+- AS2-From  
   
--   AS2-Version  
+- AS2-Version  
   
--   MessageID  
+- MessageID  
   
--   OriginalMessageID (for MDNs only)  
+- OriginalMessageID (for MDNs only)  
   
--   Disposition-Notification-To (if an MDN is requested)  
+- Disposition-Notification-To (if an MDN is requested)  
   
--   Receipt-Delivery-Option (if an MDN is requested)  
+- Receipt-Delivery-Option (if an MDN is requested)  
   
--   Signed-Receipt-MICalg (if an MDN is requested)  
+- Signed-Receipt-MICalg (if an MDN is requested)  
   
- The AS2 Decoder will promote these headers to the context of the message. It then does the following:  
+  The AS2 Decoder will promote these headers to the context of the message. It then does the following:  
   
--   Performs agreement resolution to determine the properties to be used to process the incoming message. For more information, see [Agreement Resolution for Incoming AS2 Messages](../core/agreement-resolution-for-incoming-as2-messages.md).  
+- Performs agreement resolution to determine the properties to be used to process the incoming message. For more information, see [Agreement Resolution for Incoming AS2 Messages](../core/agreement-resolution-for-incoming-as2-messages.md).  
   
--   Authenticates the sender using the AS2-From and AS2-To properties.  
+- Authenticates the sender using the AS2-From and AS2-To properties.  
   
-    > [!NOTE]
-    >  For more information about the processing that the AS2 receive pipelines perform on incoming AS2 messages, see [Processing an Incoming AS2 Message](../core/processing-an-incoming-as2-message.md).  
+  > [!NOTE]
+  >  For more information about the processing that the AS2 receive pipelines perform on incoming AS2 messages, see [Processing an Incoming AS2 Message](../core/processing-an-incoming-as2-message.md).  
   
 ## Sending an MDN  
  If an MDN was enabled, the AS2Receive pipeline generates an MDN and drops it into the MessageBox. How the MDN is returned to the sender of the original message depends upon whether the AS2 transport is synchronous or asynchronous.  

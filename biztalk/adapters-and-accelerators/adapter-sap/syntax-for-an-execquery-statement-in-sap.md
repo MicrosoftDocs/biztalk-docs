@@ -35,20 +35,20 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
   
  where:  
   
--   **\<QueryName\>** is the name of the query defined in the SAP system.  
+- **\<QueryName\>** is the name of the query defined in the SAP system.  
   
--   **USERGROUP** refers to the user group in which the query is defined. This is a mandatory parameter.  
+- **USERGROUP** refers to the user group in which the query is defined. This is a mandatory parameter.  
   
--   **WORKSPACE** refers to the workspace in which the query is defined. In SAP, there are two workspaces—Standard and Global. Provide an empty space to specify the Standard workspace. Provide `X` to specify the Global workspace. Default is empty space.  
+- **WORKSPACE** refers to the workspace in which the query is defined. In SAP, there are two workspaces—Standard and Global. Provide an empty space to specify the Standard workspace. Provide `X` to specify the Global workspace. Default is empty space.  
   
--   **VARIANT** refers to a saved set of selection criteria that you can specify while executing an SAP query. For example, you can use variants to specify default values for queries.  
+- **VARIANT** refers to a saved set of selection criteria that you can specify while executing an SAP query. For example, you can use variants to specify default values for queries.  
   
--   **@Pn** refers to the n<sup>th</sup> selection field in the SAP query definition.  
+- <strong>@Pn</strong> refers to the n<sup>th</sup> selection field in the SAP query definition.  
   
--   **USEORIGINALCOLUMNNAMES** specifies whether the provider uses the original column names in the DataSet, as they exist in the SAP system. By default, the provider uses the friendly names defined in the SAP query. However, if the friendly names within the query are not unique, the ADO.NET client will throw an error while reading the data from the DataSet. In such scenarios, you must specify the USEORIGINALCOLUMNNAMES option, indicating that the provider uses the original column names in the DataSet.  
+- **USEORIGINALCOLUMNNAMES** specifies whether the provider uses the original column names in the DataSet, as they exist in the SAP system. By default, the provider uses the friendly names defined in the SAP query. However, if the friendly names within the query are not unique, the ADO.NET client will throw an error while reading the data from the DataSet. In such scenarios, you must specify the USEORIGINALCOLUMNNAMES option, indicating that the provider uses the original column names in the DataSet.  
   
-    > [!IMPORTANT]
-    >  You must always provide the value for the OPTION keyword within single quotes, for example, '*USEORIGINALCOLUMNNAMES*'.  
+  > [!IMPORTANT]
+  >  You must always provide the value for the OPTION keyword within single quotes, for example, '*USEORIGINALCOLUMNNAMES*'.  
   
 > [!NOTE]
 >  For information about how the parameters of an SAP Query translate into an EXECQUERY syntax, see [Translate SAP query parameters into EXECQUERY command](../../adapters-and-accelerators/adapter-sap/translate-sap-query-parameters-into-execquery-command.md).  
@@ -59,48 +59,48 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
 ### Additional Considerations While Using the EXECQUERY operation  
  This section lists the points that you must keep in mind when using the EXECQUERY statement with [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)].  
   
--   The values specified for USERGROUP, WORKSPACE, and VARIANT are passed on as-is to the standard SAP RFC, RSAQ_REMOTE_QUERY_CALL. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] does not validate the values specified for these parameters.  
+- The values specified for USERGROUP, WORKSPACE, and VARIANT are passed on as-is to the standard SAP RFC, RSAQ_REMOTE_QUERY_CALL. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] does not validate the values specified for these parameters.  
   
--   All values returned by the EXECQUERY operation are of string type.  
+- All values returned by the EXECQUERY operation are of string type.  
   
--   Keywords for query names, user group, workspace, and variants are not case sensitive. However, the parameter names must always be in upper caseP such as @P1, @P2, etc. For example:  
+- Keywords for query names, user group, workspace, and variants are not case sensitive. However, the parameter names must always be in upper caseP such as @P1, @P2, etc. For example:  
   
-    ```  
-    EXECQUERY xyz USERGROUP=’mygrp’, NOT @P1= 'somevalue'  
-    ```  
+  ```  
+  EXECQUERY xyz USERGROUP=’mygrp’, NOT @P1= 'somevalue'  
+  ```  
   
-     is the same as  
+   is the same as  
   
-    ```  
-    EXECQUERY xyz uSERgROUP=’mygrp’, NOT @P1= 'somevalue'  
-    ```  
+  ```  
+  EXECQUERY xyz uSERgROUP=’mygrp’, NOT @P1= 'somevalue'  
+  ```  
   
--   The operators supported by the EXECQUERY are >, <, >=, <=, !=, NOT, and BETWEEN.  
+- The operators supported by the EXECQUERY are >, <, >=, <=, !=, NOT, and BETWEEN.  
   
--   Wildcard characters are not supported by the EXECQUERY operation. For example, the following statement gives the expected output:  
+- Wildcard characters are not supported by the EXECQUERY operation. For example, the following statement gives the expected output:  
   
-    ```  
-    EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024',  @P1 = '0000003262',@P2 = 'La Quinta Hotel & Towers'  
-    ```  
+  ```  
+  EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024',  @P1 = '0000003262',@P2 = 'La Quinta Hotel & Towers'  
+  ```  
   
-     However, the same query when executed with a wildcard character gives an error. Notice the use of wildcard characters for **@P2**.  
+   However, the same query when executed with a wildcard character gives an error. Notice the use of wildcard characters for <strong>@P2</strong>.  
   
-    ```  
-    EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024',  @P1 = '0000003262',@P2 = '*&*'  
-    ```  
+  ```  
+  EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024',  @P1 = '0000003262',@P2 = '*&*'  
+  ```  
   
-     In this example, you might get an error stating that no data was found. This is because the query searches for **'\*&\*'** as a string and does not consider asterisk (*) as a wildcard character.  
+   In this example, you might get an error stating that no data was found. This is because the query searches for **'\*&\*'** as a string and does not consider asterisk (*) as a wildcard character.  
   
--   You must always specify a date values in YYYYMMDD format.  
+- You must always specify a date values in YYYYMMDD format.  
   
--   If you are executing a query that has a variant defined in the SAP system, you can specify the name of the variant as part of the command. For example:  
+- If you are executing a query that has a variant defined in the SAP system, you can specify the name of the variant as part of the command. For example:  
   
-    ```  
-    EXECQUERY myquery @usergroup='mygroup',@variant = 'variant1'  
-    ```  
+  ```  
+  EXECQUERY myquery @usergroup='mygroup',@variant = 'variant1'  
+  ```  
   
-    > [!NOTE]
-    >  You do not need to specify a variant name if a default variant is defined for the query in the SAP system.  
+  > [!NOTE]
+  >  You do not need to specify a variant name if a default variant is defined for the query in the SAP system.  
   
 ## See Also  
  [Use the .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

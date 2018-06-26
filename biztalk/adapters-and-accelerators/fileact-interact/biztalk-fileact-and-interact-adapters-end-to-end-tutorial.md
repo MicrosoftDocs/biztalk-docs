@@ -21,15 +21,15 @@ The Microsoft® [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] En
   
  The A4SWIFT end-to-end tutorial provides you with detailed steps to configure real-time and store-and-forward scenarios with both the FileAct and InterAct adapters for A4Swift. For each of the scenarios, you will do the following:  
   
--   Configure the SWIFT adapter  
+- Configure the SWIFT adapter  
   
--   Configure the SWIFTNet paramfile  
+- Configure the SWIFTNet paramfile  
   
--   Create send ports and receive ports  
+- Create send ports and receive ports  
   
--   Test the scenario  
+- Test the scenario  
   
- In this tutorial, you will play two roles: Sender and Receiver. You will create ports that send messages and receive them.  
+  In this tutorial, you will play two roles: Sender and Receiver. You will create ports that send messages and receive them.  
   
 ## In This Section  
   

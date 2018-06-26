@@ -27,19 +27,19 @@ The BAM Event Bus Service runs inside a BizTalk application host. You can use th
   
 ### To create the host that hosts the BAM Event Bus Service  
   
-1.  Click **Start**, point to **All Programs**, click **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, point to **All Programs**, click **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the BizTalk Administration Console window, expand the **BizTalk Server Administration** node, expand the **Biztalk Group** node and expand the **Platform Settings** node, right-click the **Hosts** node, select **New**, and then click **Host**.  
+2. In the BizTalk Administration Console window, expand the **BizTalk Server Administration** node, expand the **Biztalk Group** node and expand the **Platform Settings** node, right-click the **Hosts** node, select **New**, and then click **Host**.  
   
-3.  In the **Host Properties** dialog box, in the **Name** box, type a descriptive name for the host.  
+3. In the **Host Properties** dialog box, in the **Name** box, type a descriptive name for the host.  
   
-4.  On the **General** tab, select the **Allow Host Tracking** check box.  
+4. On the **General** tab, select the **Allow Host Tracking** check box.  
   
-     A new child node appears under the **Hosts** node with the name of the new host.  
+    A new child node appears under the **Hosts** node with the name of the new host.  
   
-5.  In the **Windows group** box, type the name of the Windows group to assign this host, and then click **OK**.  
+5. In the **Windows group** box, type the name of the Windows group to assign this host, and then click **OK**.  
   
-     A new child node appears under the **Hosts** node with the name of the new host.  
+    A new child node appears under the **Hosts** node with the name of the new host.  
   
 ### To create a new host instance of the host  
   

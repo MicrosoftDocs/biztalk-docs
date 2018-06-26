@@ -93,13 +93,13 @@ The message context properties in the EdiOverride global property schema can be 
   
  Values specified for EDIOverride context properties must be valid in accordance with the X12 or EDIFACT standards and any service schema extensions.  
   
--   Fields should contain valid values for that field type, including extensions to the service schema.  
+- Fields should contain valid values for that field type, including extensions to the service schema.  
   
--   Control numbers must be of a valid type, but do not need to be next in sequence with existing Party settings.  
+- Control numbers must be of a valid type, but do not need to be next in sequence with existing Party settings.  
   
--   Date and time fields should contain date and time values, and be valid according to the relevant EDI standard even if the value format does not match the format defined in Party settings.  
+- Date and time fields should contain date and time values, and be valid according to the relevant EDI standard even if the value format does not match the format defined in Party settings.  
   
- Some EDIOverride context properties are only supported when the message being sent by the EDI Send pipeline is a single transaction or a batch. The following table lists the supported context properties for each message type:  
+  Some EDIOverride context properties are only supported when the message being sent by the EDI Send pipeline is a single transaction or a batch. The following table lists the supported context properties for each message type:  
   
 |EDI transaction being sent|Supported EDIOverride context properties|  
 |--------------------------------|----------------------------------------------|  

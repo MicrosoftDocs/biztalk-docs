@@ -81,15 +81,15 @@ public partial class SCOTTTableACCOUNTACTIVITYClient : System.ServiceModel.Clien
 ## Invoking the Basic SQL Operations  
  To invoke the basic SQL operations on a table or view by using a WCF client, perform the following steps.  
   
-1.  Generate a WCF client class for the target table or view. This class should contain methods for the operations that you will invoke on the target artifact.  
+1. Generate a WCF client class for the target table or view. This class should contain methods for the operations that you will invoke on the target artifact.  
   
-2.  Create an instance of the WCF client class and invoke its methods to perform operations on the table or view.  
+2. Create an instance of the WCF client class and invoke its methods to perform operations on the table or view.  
   
- For more detailed information about how to create a WCF client class and invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Overview of the WCF Service Model with the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).  
+   For more detailed information about how to create a WCF client class and invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Overview of the WCF Service Model with the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).  
   
- The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] executes each operation inside of a transaction on the Oracle database. You can control the isolation level of this transaction by setting the **TransactionIsolationLevel** binding property. For more information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](https://msdn.microsoft.com/library/dd788467.aspx).  
+   The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] executes each operation inside of a transaction on the Oracle database. You can control the isolation level of this transaction by setting the **TransactionIsolationLevel** binding property. For more information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](https://msdn.microsoft.com/library/dd788467.aspx).  
   
- The following sections provide details about how to invoke each basic SQL operation in your code.  
+   The following sections provide details about how to invoke each basic SQL operation in your code.  
   
 ###  <a name="BKMK_InsertOperation"></a> Insert Operation  
  The following table shows how to set parameters for multiple record Insert and bulk Insert operations.  
@@ -307,25 +307,25 @@ Console.WriteLine("{0} records deleted", recsDeleted);
 ##  <a name="BKMK_LimitationsInvoking"></a> Limitations of Invoking the Basic SQL Operations by Using the WCF Service Model  
  The following limitations exist when you invoke the basic SQL operations by using a WCF client:  
   
--   **Insert operation.** The record set used in a multiple record Insert operation is strongly-typed and therefore includes all row columns. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a null value in a record to mean that the column should be excluded from the Insert operation; however, non-nillable columns cannot be excluded because you cannot set them to a null value. Therefore, you must specify values for non-nillable columns when you perform a multiple record Insert operation.  
+- **Insert operation.** The record set used in a multiple record Insert operation is strongly-typed and therefore includes all row columns. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a null value in a record to mean that the column should be excluded from the Insert operation; however, non-nillable columns cannot be excluded because you cannot set them to a null value. Therefore, you must specify values for non-nillable columns when you perform a multiple record Insert operation.  
   
--   **Insert operation.** The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a **DbNull** value in a nillable data column to mean that the column should be excluded from a multiple record Insert operation. This means that you cannot set a nillable column to **DbNull** on the Oracle database in a multiple record Insert operation.  
+- **Insert operation.** The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a **DbNull** value in a nillable data column to mean that the column should be excluded from a multiple record Insert operation. This means that you cannot set a nillable column to **DbNull** on the Oracle database in a multiple record Insert operation.  
   
--   **Insert operation.** There is no streaming support for multiple record insert operations that involve a large record set.  
+- **Insert operation.** There is no streaming support for multiple record insert operations that involve a large record set.  
   
--   **Update operation.** The template record used in an Update operation is strongly-typed and therefore includes all row columns. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a null value in this record to mean that the column should be excluded from the Update operation; however, non-nillable columns cannot be excluded because you cannot them to a null value. Therefore, you must specify values for non-nillable columns when you perform an Update operation.  
+- **Update operation.** The template record used in an Update operation is strongly-typed and therefore includes all row columns. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a null value in this record to mean that the column should be excluded from the Update operation; however, non-nillable columns cannot be excluded because you cannot them to a null value. Therefore, you must specify values for non-nillable columns when you perform an Update operation.  
   
--   **Update operation.** The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a **DbNull** value in a nillable data column in the template record to mean that the column should be excluded from the operation. This means that you cannot set a nillable column to **DbNull** on the Oracle database by using the Update operation.  
+- **Update operation.** The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a **DbNull** value in a nillable data column in the template record to mean that the column should be excluded from the operation. This means that you cannot set a nillable column to **DbNull** on the Oracle database by using the Update operation.  
   
--   **Select operation.** There is no streaming support for SELECT queries that return a large record set.  
+- **Select operation.** There is no streaming support for SELECT queries that return a large record set.  
   
- For scenarios where these limitations present challenges, you can invoke the operation by using the WCF channel model because:  
+  For scenarios where these limitations present challenges, you can invoke the operation by using the WCF channel model because:  
   
--   By using the WCF channel model, you can exclude specific data columns from Update and Insert operations.  
+- By using the WCF channel model, you can exclude specific data columns from Update and Insert operations.  
   
--   The WCF channel model provides node-level streaming support for the basic SQL operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes.  
+- The WCF channel model provides node-level streaming support for the basic SQL operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes.  
   
- For more information about using the WCF channel model with the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Develop Oracle Database Applications Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md).  
+  For more information about using the WCF channel model with the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Develop Oracle Database Applications Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md).  
   
 ## See Also  
  [Develop Oracle Database Applications Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)

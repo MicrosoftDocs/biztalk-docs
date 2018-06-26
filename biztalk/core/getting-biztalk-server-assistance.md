@@ -20,24 +20,24 @@ manager: "anneta"
 # Getting BizTalk Server Assistance
 There are three principal sources of information from Microsoft about [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
--   The documentation, tutorials, and samples installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- The documentation, tutorials, and samples installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sites on the Microsoft Developer Network (MSDN) and TechNet.  
+- The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sites on the Microsoft Developer Network (MSDN) and TechNet.  
   
--   BizTalk Server information on additional Microsoft Web sites.  
+- BizTalk Server information on additional Microsoft Web sites.  
   
- You can also get help from others either through the BizTalk Server community or directly from Microsoft support.  
+  You can also get help from others either through the BizTalk Server community or directly from Microsoft support.  
   
 ## BizTalk Server Documentation, Tutorials, and Samples  
  When you install BizTalk Server, you can install the SDK, sample applications, and tutorials. The core documentation, samples, and tutorials cover the concepts and procedures required to use BizTalk Server effectively. BizTalk Server help also includes reference material for the languages and programming interfaces for building applications using BizTalk Server.  
   
  If you install the SDK and tutorials using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Setup program, you can access them in two ways:  
   
--   Through the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] program group on the start menu.  
+- Through the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] program group on the start menu.  
   
--   Through the BizTalk Server tools and utilities media in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] install folder.  
+- Through the BizTalk Server tools and utilities media in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] install folder.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation is available on the web.  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation is available on the web.  
   
 ## Information on MSDN and TechNet  
  The Microsoft Developer Network (MSDN) provides online and offline services that help developers write applications using Microsoft products and technologies. The Microsoft TechNet Program delivers comprehensive technical resources that help IT professionals efficiently evaluate, deploy, and support Microsoft solutions.  

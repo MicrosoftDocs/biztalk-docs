@@ -21,55 +21,55 @@ manager: "anneta"
 # Operations on Business Components in Siebel
 A Siebel business component is a logical entity that associates columns from one or more database tables into a single structure. Adapter clients can perform the following operations on the Siebel business components by using the adapter:  
   
--   **Insert**. Adapter clients can insert one or more records into a business component.  
+- **Insert**. Adapter clients can insert one or more records into a business component.  
   
--   **Query**. Adapter clients can query one or more records from a business component. This operation takes the following parameters as input:  
+- **Query**. Adapter clients can query one or more records from a business component. This operation takes the following parameters as input:  
   
-    -   SearchExpr: Contains a search expression. All records under a specified business component are compared against this search expression, and matching records are returned to the adapter client.  
+  - SearchExpr: Contains a search expression. All records under a specified business component are compared against this search expression, and matching records are returned to the adapter client.  
   
-    -   SortSpec: If there are multiple records that match the search expression, this specification determines the order in which records are returned. This parameter is optional.  
+  - SortSpec: If there are multiple records that match the search expression, this specification determines the order in which records are returned. This parameter is optional.  
   
-    -   QueryFields: Enables adapter clients to retrieve values for only a subset of fields in returned records. This parameter is optional.  
-  
-        > [!NOTE]
-        >  The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports using original names in the QueryField parameter in the Query operation on the business component  
-  
--   **Update**. Adapter clients can update one or more records in a business component.  
-  
--   **Delete**. Adapter clients can delete one or more records in a business component by specifying a set of IDs or by providing a search expression.  
+  - QueryFields: Enables adapter clients to retrieve values for only a subset of fields in returned records. This parameter is optional.  
   
     > [!NOTE]
-    >  In addition to other parameters the Query, Update, and Delete operations also take a ViewMode parameter. This parameter takes an integer that determines the access permissions of the user. For more information about the ViewMode parameter and the other parameters for these operations, see the request message for business component operations under [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
+    >  The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports using original names in the QueryField parameter in the Query operation on the business component  
   
- For information about:  
+- **Update**. Adapter clients can update one or more records in a business component.  
   
--   Performing operations on business components using BizTalk Server, see [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md).  
+- **Delete**. Adapter clients can delete one or more records in a business component by specifying a set of IDs or by providing a search expression.  
   
--   Performing operations on business components using the WCF service model, see [Run Operations on Business Components with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-the-siebel-adapter-using-wcf-service.md).  
+  > [!NOTE]
+  >  In addition to other parameters the Query, Update, and Delete operations also take a ViewMode parameter. This parameter takes an integer that determines the access permissions of the user. For more information about the ViewMode parameter and the other parameters for these operations, see the request message for business component operations under [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
   
--   Performing Operations on business components using the WCF channel model, see [Run Operations on Business Components with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-the-siebel-adapter-using-wcf-service.md).  
+  For information about:  
   
--   Performing operations on business components using message structures and SOAP actions, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
+- Performing operations on business components using BizTalk Server, see [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md).  
+  
+- Performing operations on business components using the WCF service model, see [Run Operations on Business Components with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-the-siebel-adapter-using-wcf-service.md).  
+  
+- Performing Operations on business components using the WCF channel model, see [Run Operations on Business Components with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-the-siebel-adapter-using-wcf-service.md).  
+  
+- Performing operations on business components using message structures and SOAP actions, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
   
 ## Operations on Business Components with MVG Fields  
  A Siebel business component can also retrieve fields from other business components using joins or multivalued groups (MVG). In addition to the Insert, Query, Update, and Delete operations that are surfaced for all business components, adapter clients can perform the following operations on the Siebel business components by using the adapter:  
   
--   **Associate**. Adapter clients can associate records by specifying search expressions for parent and child records. This is applicable only for business components with MVG fields. The search expressions should filter exactly one record for both the parent and child business components.  
+- **Associate**. Adapter clients can associate records by specifying search expressions for parent and child records. This is applicable only for business components with MVG fields. The search expressions should filter exactly one record for both the parent and child business components.  
   
--   **Disassociate**. Adapter clients can dissociate records by specifying search expressions for parent and child records. This is applicable only for business components with MVG fields. The search expressions must filter exactly one record for both the parent and child business components.  
+- **Disassociate**. Adapter clients can dissociate records by specifying search expressions for parent and child records. This is applicable only for business components with MVG fields. The search expressions must filter exactly one record for both the parent and child business components.  
   
--   **Query_[MVG_Child_Business_Comp]**. Adapter clients can query the child records that are associated with a parent record by specifying the parent record and the MVG field name. This is applicable only for business components with MVG fields.  
+- **Query_[MVG_Child_Business_Comp]**. Adapter clients can query the child records that are associated with a parent record by specifying the parent record and the MVG field name. This is applicable only for business components with MVG fields.  
   
-    > [!NOTE]
-    >  In addition to other parameters, these operations also take a ViewMode parameter. This parameter takes an integer that determines the access permissions of the user. For more information about the ViewMode parameter and the other parameters for these operations, see the request message for business component operations under [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
+  > [!NOTE]
+  >  In addition to other parameters, these operations also take a ViewMode parameter. This parameter takes an integer that determines the access permissions of the user. For more information about the ViewMode parameter and the other parameters for these operations, see the request message for business component operations under [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
   
- For more information about:  
+  For more information about:  
   
--   Performing these operations on business components using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Run  Operations on Business Components with MVG Fields Using BizTalk Server and Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md).  
+- Performing these operations on business components using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Run  Operations on Business Components with MVG Fields Using BizTalk Server and Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md).  
   
--   Performing these operations on business components using WCF service model, see [Run Operations on Business Components with MVG Fields with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/work-with-mvp-fields-using-the-siebel-adapter-and-the-wcf-service-model.md).  
+- Performing these operations on business components using WCF service model, see [Run Operations on Business Components with MVG Fields with the Siebel adapter using the WCF Service Model](../../adapters-and-accelerators/adapter-siebel/work-with-mvp-fields-using-the-siebel-adapter-and-the-wcf-service-model.md).  
   
--   Message structures and SOAP actions for these operations, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
+- Message structures and SOAP actions for these operations, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
   
 ## Operations on Business Components with Picklist Fields  
  Picklist field types in business components constitute a collection of values from which users can pick specific values to pass to the Siebel system. The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on a business component with picklist fields. The operations on business components containing picklist fields are the same as operations on any other business component, as described in the preceding paragraph. However, depending on the kind of picklist, the input values to the business component may vary. For more information about picklists and their types, refer to Siebel documentation.  

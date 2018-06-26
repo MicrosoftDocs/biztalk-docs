@@ -24,22 +24,22 @@ manager: "anneta"
   
  This pipeline processes EDI messages received over AS2, including MDNs. The pipeline consists of the following pipeline components:  
   
--   AS2 Decoder  
+- AS2 Decoder  
   
--   EDI Disassembler  
+- EDI Disassembler  
   
--   BatchMarker.  
+- BatchMarker.  
   
-    > [!NOTE]
-    >  When using the AS2EdiReceive pipeline, you must add the user account that the BizTalk Isolated Host Instance process is running under to the BizTalk Application Users group. The AS2EdiReceive pipeline executes in the BizTalk Isolated Host Instance process. The AS2EdiReceive pipeline accesses the SSO store, which requires that the user is in the BizTalk Application Users group.  
+  > [!NOTE]
+  >  When using the AS2EdiReceive pipeline, you must add the user account that the BizTalk Isolated Host Instance process is running under to the BizTalk Application Users group. The AS2EdiReceive pipeline executes in the BizTalk Isolated Host Instance process. The AS2EdiReceive pipeline accesses the SSO store, which requires that the user is in the BizTalk Application Users group.  
   
- **AS2Receive Pipeline**  
+  **AS2Receive Pipeline**  
   
- This pipeline processes messages received over AS2 when the messages are not encoded in EDI. These messages are treated as binary messages. The pipeline also processes MDNs received over AS2. The pipeline consists of the following pipeline components:  
+  This pipeline processes messages received over AS2 when the messages are not encoded in EDI. These messages are treated as binary messages. The pipeline also processes MDNs received over AS2. The pipeline consists of the following pipeline components:  
   
--   AS2 Decoder  
+- AS2 Decoder  
   
--   AS2 Disassembler.  
+- AS2 Disassembler.  
   
 ## AS2 Receive Pipeline Components  
  The AS2 receive pipelines use the following pipeline components. These components are installed in `Microsoft.BizTalk.EdiInt.PipelineComponents.dll` in \Program Files\Microsoft BizTalk Server 20xx\Pipeline Components\\.  
@@ -51,45 +51,45 @@ manager: "anneta"
   
  The AS2 Decoder is included in the decode stage of both the AS2EDIReceivePipeline and AS2Receive receive pipelines. It uses the BizTalk S/MIME Pipeline Component to provide S/MIME decoding functionality to AS2 and MDN messages.  
   
--   Processes AS2/HTTP headers  
+- Processes AS2/HTTP headers  
   
--   Verifies the signature, if the message was signed  
+- Verifies the signature, if the message was signed  
   
--   Decrypts the messages, if the message was encrypted (for an EDI/AS2 message, not an MDN)  
+- Decrypts the messages, if the message was encrypted (for an EDI/AS2 message, not an MDN)  
   
--   Decompresses the message, if the message was compressed  
+- Decompresses the message, if the message was compressed  
   
--   Reconciles a received MDN with the original outbound message  
+- Reconciles a received MDN with the original outbound message  
   
--   Updates and correlates records in the non-repudiation database  
+- Updates and correlates records in the non-repudiation database  
   
--   Writes records for AS2 status reporting  
+- Writes records for AS2 status reporting  
   
-    > [!NOTE]
-    >  If an error occurs during receive-side processing of an AS2 message, the AS2 Decoder will stop further downstream message processing (for example, the EDI disassembler will not parse the interchange). However, the AS2 Disassembler or EDI Disassembler must still generate the MDN.  
+  > [!NOTE]
+  >  If an error occurs during receive-side processing of an AS2 message, the AS2 Decoder will stop further downstream message processing (for example, the EDI disassembler will not parse the interchange). However, the AS2 Disassembler or EDI Disassembler must still generate the MDN.  
   
-    > [!NOTE]
-    >  Eight-bit encoding is used on AS2 messages. Base64 encoding is only applied to signatures in AS2 messages and MDNs.  
+  > [!NOTE]
+  >  Eight-bit encoding is used on AS2 messages. Base64 encoding is only applied to signatures in AS2 messages and MDNs.  
   
- **AS2 Disassembler**  
+  **AS2 Disassembler**  
   
- In the AS2Receive receive pipeline, the AS2 Disassembler does the following:  
+  In the AS2Receive receive pipeline, the AS2 Disassembler does the following:  
   
--   Determines whether an MDN is required, and whether the MDN should be synchronous or asynchronous.  
+- Determines whether an MDN is required, and whether the MDN should be synchronous or asynchronous.  
   
--   Generates an AS2 MDN.  
+- Generates an AS2 MDN.  
   
--   If the MDN is synchronous, sets the `EdiIntAS.IsAS2AsynchronousMDN` property to False; if asynchronous, sets the property to True.  
+- If the MDN is synchronous, sets the `EdiIntAS.IsAS2AsynchronousMDN` property to False; if asynchronous, sets the property to True.  
   
--   Sets the correlation tokens and properties on the MDN.  
+- Sets the correlation tokens and properties on the MDN.  
   
- **EDI Disassembler**  
+  **EDI Disassembler**  
   
- In the AS2EDIReceivePipeline, the EDI Disassembler will parse the EDI message into intermediate XML message(s) for processing. For more information, see [How the EDI Disassembler Works](../core/how-the-edi-disassembler-works.md).  
+  In the AS2EDIReceivePipeline, the EDI Disassembler will parse the EDI message into intermediate XML message(s) for processing. For more information, see [How the EDI Disassembler Works](../core/how-the-edi-disassembler-works.md).  
   
- **BatchMarker**  
+  **BatchMarker**  
   
- In the AS2EDIReceivePipeline, the BatchMarker pipeline component sets the AgreementPartIdForSend and ToBeBatched context properties that are required for processing a batched interchange. This component is included in the last stage (agreement resolution) of the AS2EDIReceive pipeline. All pipelines that will batch EDI messages should include the BatchMarker pipeline component.  
+  In the AS2EDIReceivePipeline, the BatchMarker pipeline component sets the AgreementPartIdForSend and ToBeBatched context properties that are required for processing a batched interchange. This component is included in the last stage (agreement resolution) of the AS2EDIReceive pipeline. All pipelines that will batch EDI messages should include the BatchMarker pipeline component.  
   
 > [!NOTE]
 >  The BatchMarker pipeline component is not included in the AS2Receive pipeline that is used to process non-EDI messages. However, you can include the BatchMarker component in a custom receive pipeline that does not include the EDI Dissassembler. For more information, see "Processing Non-EDI Messages in the BatchMarker Component" in [Assembling a Batched EDI Interchange](../core/assembling-a-batched-edi-interchange.md).  

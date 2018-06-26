@@ -20,16 +20,16 @@ Just as with the SNA Manager, configuration tasks must be carried out in a certa
   
 ## Task Order for Configuration Tasks  
   
-|Configuration task (in order)|Command that carries out task|  
-|-------------------------------------|-----------------------------------|  
-|Add a server to the configuration|**snacfg server\***|  
-|Configure link service(s) for the server(s)|**snacfg link\***|  
-|Configure connection(s) for the server(s)|**snacfg connection**|  
-|Configure LU(s) for the connection(s)|**snacfg appcllu**,  **snacfg appcrlu**,  **snacfg lu**,  **snacfg lua**,  or  **snacfg lud**|  
-|Create LU pool(s)  (optional)|**snacfg pool**,  **snacfg poola**,  or  **snacfg poold**|  
-|Assign LUs to pool(s)  (optional)|**snacfg lu**,  **snacfg lua**,  or  **snacfg lud**|  
-|Add users to the list used by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]|**snacfg user\***|  
-|Assign LU(s) or LU pool(s) to users|**snacfg user**|  
+|                                        Configuration task (in order)                                         |                                 Command that carries out task                                 |
+|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+|                                      Add a server to the configuration                                       |                                     **snacfg server\\**\*                                     |
+|                                 Configure link service(s) for the server(s)                                  |                                      **snacfg link\\**\*                                      |
+|                                  Configure connection(s) for the server(s)                                   |                                     **snacfg connection**                                     |
+|                                    Configure LU(s) for the connection(s)                                     | **snacfg appcllu**,  **snacfg appcrlu**,  **snacfg lu**,  **snacfg lua**,  or  **snacfg lud** |
+|                                        Create LU pool(s)  (optional)                                         |                   **snacfg pool**,  **snacfg poola**,  or  **snacfg poold**                   |
+|                                      Assign LUs to pool(s)  (optional)                                       |                      **snacfg lu**,  **snacfg lua**,  or  **snacfg lud**                      |
+| Add users to the list used by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] |                                      **snacfg user\\**\*                                      |
+|                                     Assign LU(s) or LU pool(s) to users                                      |                                        **snacfg user**                                        |
   
  \* It is recommended that you use the SNA Manager, not the command-line interface, for these tasks. Any errors in the typing of commands for these tasks can result in a nonfunctioning configuration.  
   

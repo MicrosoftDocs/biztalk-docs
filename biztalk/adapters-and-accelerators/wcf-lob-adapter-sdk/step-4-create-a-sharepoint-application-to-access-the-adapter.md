@@ -30,13 +30,13 @@ manager: "anneta"
 ## How to Create a SharePoint Application  
  Creating a SharePoint application involves the following steps:  
   
--   Create a Single Sign-On (SSO) application in SharePoint.  
+- Create a Single Sign-On (SSO) application in SharePoint.  
   
--   Create a Shared Services Provider, and import the application definition file.  
+- Create a Shared Services Provider, and import the application definition file.  
   
--   Create a Web Part page, and add Web Parts.  
+- Create a Web Part page, and add Web Parts.  
   
- This topic demonstrates how to perform these steps.  
+  This topic demonstrates how to perform these steps.  
   
 ## Creating an SSO Application in SharePoint  
  To pass user credentials to the Echo adapter from a SharePoint application, you must set up an SSO application that maps to a user account or group.  

@@ -17,15 +17,15 @@ manager: "anneta"
 # The message cannot be routed to the batching orchestration as the Encoding type could not be determined
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|UnknownEncodingType|  
-|Message Text|The message cannot be routed to the batching orchestration as the Encoding type could not be determined. The encoding type needs to be either X12 or EDIFACT for the message to be batched.|  
+|                 |                                                                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                      |
+| Product Version |                                                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                  |
+|    Event ID     |                                                                                              -                                                                                              |
+|  Event Source   |                                                   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                    |
+|    Component    |                                                                                       Batching Engine                                                                                       |
+|  Symbolic Name  |                                                                                     UnknownEncodingType                                                                                     |
+|  Message Text   | The message cannot be routed to the batching orchestration as the Encoding type could not be determined. The encoding type needs to be either X12 or EDIFACT for the message to be batched. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that a non-EDI batch element was not routed to the batching orchestration instance, even though the transaction set meets the filter criteria for batching. The transaction set could not be routed to the batching orchestration instance because the EDI.EncodingType context property was not promoted with a value of 0 for X12 or 1 for EDIFACT. This error occurred when the batch element was routed by the BatchMarker pipeline component to the routing orchestration, but the non-EDI batch element was not converted by a map into an EDI message. As a result, the routing orchestration could not determine the encoding type from the EDI headers.  

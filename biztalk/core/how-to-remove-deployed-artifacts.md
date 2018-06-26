@@ -24,13 +24,13 @@ Administrators use the **remove-all** command to remove artifacts deployed in th
   
 ### To remove deployed artifacts  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
+2. Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type **bm remove-all -DefinitionFile:\<def file\>**.  
+3. Type **bm remove-all -DefinitionFile:\<def file\>**.  
   
-4.  Press **ENTER**.  
+4. Press **ENTER**.  
   
 ## See Also  
  [How to Add a BAM Artifact to an Application](../core/how-to-add-a-bam-artifact-to-an-application.md)   

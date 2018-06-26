@@ -31,23 +31,23 @@ After configuring the XML file and Microsoft Identity Integration Server (MIIS),
   
 ### To enable Password Sync on the system level  
   
-1.  In Enterprise Single Sign-On, right-click the **System** node.  
+1. In Enterprise Single Sign-On, right-click the **System** node.  
   
-2.  Click **Properties**.  
+2. Click **Properties**.  
   
-     The **Properties** dialog box appears.  
+    The **Properties** dialog box appears.  
   
-3.  Click the **Options** tab.  
+3. Click the **Options** tab.  
   
-4.  In the **Enable Password Sync** field, select **From Windows to Adapters**.  
+4. In the **Enable Password Sync** field, select **From Windows to Adapters**.  
   
-     **Additional Configuration**  
+    **Additional Configuration**  
   
-     Finally, you must configure one of the following:  
+    Finally, you must configure one of the following:  
   
-    -   A Password Sync Adapter that accepts Windows Password Sync.  
+   - A Password Sync Adapter that accepts Windows Password Sync.  
   
-    -   Direct Password Sync enabled on at least one application.  
+   - Direct Password Sync enabled on at least one application.  
   
      For information about how to do this, refer to your Password Sync documentation.  
   

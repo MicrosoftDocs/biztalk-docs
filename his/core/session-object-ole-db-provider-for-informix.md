@@ -18,43 +18,43 @@ The **Session** object is created by a **DataSource** object. The **Session** ob
   
  The following interfaces of the **Session** object are supported by the current version of Microsoft OLE DB Provider for Informix:  
   
--   **IDBCreateCommand**  
+- **IDBCreateCommand**  
   
--   **IDBSchemaRowset**  
+- **IDBSchemaRowset**  
   
--   **IGetDataSource**  
+- **IGetDataSource**  
   
--   **IOpenRowset**  
+- **IOpenRowset**  
   
--   **ISessionProperties**  
+- **ISessionProperties**  
   
--   **ISupportErrorInfo**  
+- **ISupportErrorInfo**  
   
--   **ITransaction**  
+- **ITransaction**  
   
--   **ITransactionLocal**  
+- **ITransactionLocal**  
   
--   **ITransactionObject**  
+- **ITransactionObject**  
   
- Consumers can get information about a data store without knowing its structure by using the **IDBSchemaRowset** methods. The methods on this interface can be used to retrieve advanced schema information. OLE DB Provider for Informix organizes each Informix database server in a set of schemas that contain tables for each schema. These schema rowsets are identified by globally unique identifiers (GUIDs).  
+  Consumers can get information about a data store without knowing its structure by using the **IDBSchemaRowset** methods. The methods on this interface can be used to retrieve advanced schema information. OLE DB Provider for Informix organizes each Informix database server in a set of schemas that contain tables for each schema. These schema rowsets are identified by globally unique identifiers (GUIDs).  
   
- The following schema rowset GUIDs are supported by OLE DB Provider for Informix:  
+  The following schema rowset GUIDs are supported by OLE DB Provider for Informix:  
   
--   DBSCHEMA_COLUMNS  
+- DBSCHEMA_COLUMNS  
   
--   DBSCHEMA_INDEXES  
+- DBSCHEMA_INDEXES  
   
--   DBSCHEMA_PRIMARY_KEYS  
+- DBSCHEMA_PRIMARY_KEYS  
   
--   DBSCHEMA_PROCEDURES  
+- DBSCHEMA_PROCEDURES  
   
--   DBSCHEMA_PROCEDURE_PARAMETERS  
+- DBSCHEMA_PROCEDURE_PARAMETERS  
   
--   DBSCHEMA_PROVIDER_TYPES  
+- DBSCHEMA_PROVIDER_TYPES  
   
--   DBSCHEMA_TABLES  
+- DBSCHEMA_TABLES  
   
- The following table lists these GUIDs and the columns for which restrictions can be specified on the schema rowset when using OLE DB Provider for Informix. The number of restriction columns for each schema rowset are defined as constants prefixed with CRESTRICTIONS_ in the OLE DB header files. Restriction values are treated as literals rather than as search patterns. For example, the restriction value "A_C" matches "A_C" but not "ABC".  
+  The following table lists these GUIDs and the columns for which restrictions can be specified on the schema rowset when using OLE DB Provider for Informix. The number of restriction columns for each schema rowset are defined as constants prefixed with CRESTRICTIONS_ in the OLE DB header files. Restriction values are treated as literals rather than as search patterns. For example, the restriction value "A_C" matches "A_C" but not "ABC".  
   
 |GUID|Number of restrictions|Restriction columns|  
 |----------|----------------------------|-------------------------|  

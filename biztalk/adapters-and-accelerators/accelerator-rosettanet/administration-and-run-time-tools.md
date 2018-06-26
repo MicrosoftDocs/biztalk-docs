@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Administration and Run-Time Tools
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provide a set of tools for performing administrative and run-time tasks, such as deployment, configuration management, administration, business-rule management, and monitoring. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.  
+Microsoft BizTalk Server and Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provide a set of tools for performing administrative and run-time tasks, such as deployment, configuration management, administration, business-rule management, and monitoring. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see MicrosoftBizTalk Server Help.  
   
 ## BizTalk Explorer  
  You use BizTalk Explorer to configure and manage projects, parties, and orchestrations. BizTalk Explorer displays the contents of the Configuration database, showing items such as assemblies, ports, and parties.  
@@ -28,15 +28,15 @@ manager: "anneta"
 ## BizTalk Accelerator for RosettaNet Management Console  
  You use the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console to manage the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] implementation, including the following:  
   
--   Process configuration settings, home organizations, partners, and agreements  
+- Process configuration settings, home organizations, partners, and agreements  
   
--   Certificates  
+- Certificates  
   
--   BizTalk and [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] databases  
+- BizTalk and [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] databases  
   
--   Events  
+- Events  
   
--   Performance logs and alerts  
+- Performance logs and alerts  
   
 ## Business Rule Engine  
  The BizTalk Business Rule Engine (BRE) is a run-time inference engine that you can use to evaluate rules against facts and initiate actions based on the results of the evaluation.  

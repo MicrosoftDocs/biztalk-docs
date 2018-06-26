@@ -22,19 +22,19 @@ Included with TIBCO Enterprise Message Service includes a client SDK (using the 
 ## Add the API to the GAC  
  BizTalk Adapter for TIBCO EMS requires the TIBCO EMS C# API, TIBCO.EMS.dll, to be added to the global assembly cache (GAC). The adapter triggers an exception and logs an appropriate message if this assembly is not installed.  
   
-1.  Copy the TIBCO EMS C#API to your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer.  
+1. Copy the TIBCO EMS C#API to your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer.  
   
-2.  Change directories to the location of the C# API file, TIBCO.EMS.DLL.  
+2. Change directories to the location of the C# API file, TIBCO.EMS.DLL.  
   
-     In the default installation, the path to this DLL is c:\tibco\ems\clients\cs\TIBCO.EMS.DLL.  
+    In the default installation, the path to this DLL is c:\tibco\ems\clients\cs\TIBCO.EMS.DLL.  
   
-3.  In a command prompt, type:  
+3. In a command prompt, type:  
   
-     `C:\bin> gacutil /i TIBCO.EMS.dll`  
+    `C:\bin> gacutil /i TIBCO.EMS.dll`  
   
-     The TIBCO.EMS.dll now shows the GAC.  
+    The TIBCO.EMS.dll now shows the GAC.  
   
-     To view the GAC list, in Control Panel, open **Administrative Tools**, open **Microsoft .NET Framework X.XConfiguration**, and then click **Assembly Cache**.  
+    To view the GAC list, in Control Panel, open **Administrative Tools**, open **Microsoft .NET Framework X.XConfiguration**, and then click **Assembly Cache**.  
   
 ## Limitations  
  BizTalk Adapter for TIBCO Enterprise Message Service uses TIBCO.EMS.dll to communicate with TIBCO Enterprise Message Service. You should consider the following limitations when you use the TIBCO EMS C# API:  

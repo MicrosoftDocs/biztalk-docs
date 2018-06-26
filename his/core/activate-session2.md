@@ -176,12 +176,12 @@ typedef struct activate_session {
   
  The active form of this verb results in Host Integration Server trying to initiate the session (by sending a BIND for independent LUs or an INIT-SELF for dependent LUs). The active form of this verb will also result in the following behavior:  
   
--   If the connection to the partner LU is inactive and is configured as on-demand, the Node will attempt to start the connection.  
+- If the connection to the partner LU is inactive and is configured as on-demand, the Node will attempt to start the connection.  
   
--   If dynamic partnering is being used, the Node will set up the LU-LU/MODE partnership.  
+- If dynamic partnering is being used, the Node will set up the LU-LU/MODE partnership.  
   
--   If CNOS has not run, the Node will start CNOS (but will not change any of the session limits).  
+- If CNOS has not run, the Node will start CNOS (but will not change any of the session limits).  
   
- The passive form does not attempt to start the session, but completes when the LU is started by a BIND from its partner LU. For independent LUs, multiple passive **ACTIVATE_SESSION** verbs can be queued up for the same LU-LU/MODE, and complete in turn as new sessions are started.  
+  The passive form does not attempt to start the session, but completes when the LU is started by a BIND from its partner LU. For independent LUs, multiple passive **ACTIVATE_SESSION** verbs can be queued up for the same LU-LU/MODE, and complete in turn as new sessions are started.  
   
- This verb also includes a deactivation event, which is posted when the session is deactivated by any method other than a **DEACTIVATE_SESSION** verb (for example, an unsolicited UNBIND from its partner LU results in this event being posted).
+  This verb also includes a deactivation event, which is posted when the session is deactivated by any method other than a **DEACTIVATE_SESSION** verb (for example, an unsolicited UNBIND from its partner LU results in this event being posted).

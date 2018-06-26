@@ -24,21 +24,21 @@ In this step, you use the BizTalk Mapper to create a map. You use this map to cr
   
 ### To create a map  
   
-1.  In Solution Explorer, right-click **BTAHL7 Project**, point to **Add**, and then click **New Item**.  
+1. In Solution Explorer, right-click **BTAHL7 Project**, point to **Add**, and then click **New Item**.  
   
-2.  In the **Add New Item** dialog box, in the **Categories** pane, click **Map Files**.  
+2. In the **Add New Item** dialog box, in the **Categories** pane, click **Map Files**.  
   
-3.  In the **Name** field, type **DoorbellMap** to name the map, and then click **Add** to start BizTalk Mapper.  
+3. In the **Name** field, type **DoorbellMap** to name the map, and then click **Add** to start BizTalk Mapper.  
   
-4.  In the **Source Schema** pane (left side), click **Open Source Schema**.  
+4. In the **Source Schema** pane (left side), click **Open Source Schema**.  
   
-5.  In the BizTalk Type Picker dialog box, expand **BTAHL7 Project**, expand **Schemas**, click **BTAHL7_Project.Doorbell**, and then click **OK**.  
+5. In the BizTalk Type Picker dialog box, expand **BTAHL7 Project**, expand **Schemas**, click **BTAHL7_Project.Doorbell**, and then click **OK**.  
   
-6.  In the **Destination Schema** pane (right side), click **Open Destination Schema**.  
+6. In the **Destination Schema** pane (right side), click **Open Destination Schema**.  
   
-7.  In the BizTalk Type Picker, expand **BTAHL7 Project**, expand **Schemas**, click **BTAHL7Schemas.ADT_A04_22_GLO_DEF**, and then click **OK**.  
+7. In the BizTalk Type Picker, expand **BTAHL7 Project**, expand **Schemas**, click **BTAHL7Schemas.ADT_A04_22_GLO_DEF**, and then click **OK**.  
   
-8.  In the **Destination Schema** pane (right side), expand **ADT_A04_22_GLO_DEF**, expand **PID_PatientIdentification**, and expand **PID.5_PatientName**.  
+8. In the **Destination Schema** pane (right side), expand **ADT_A04_22_GLO_DEF**, expand **PID_PatientIdentification**, and expand **PID.5_PatientName**.  
   
 9. In the **Source Schema** pane (left side), expand **DoorbellRoot**. Drag the **LastName** field to the **PN_0_FamilyName** field in the **Destination Schema** pane.  
   
@@ -52,9 +52,9 @@ In this step, you use the BizTalk Mapper to create a map. You use this map to cr
   
 14. In the **File** menu, click **Save All**.  
   
- In a typical message enrichment scenario, if any patient information were missing, you would make a call to a Patient Records database in your orchestration and add the missing information, then use the additional information to complete the mapping. For example, you might retrieve the home address of a patient from the Patient Records database, since the inbound XML doorbell trigger event message did not provide it.  
+    In a typical message enrichment scenario, if any patient information were missing, you would make a call to a Patient Records database in your orchestration and add the missing information, then use the additional information to complete the mapping. For example, you might retrieve the home address of a patient from the Patient Records database, since the inbound XML doorbell trigger event message did not provide it.  
   
- Proceed to [Step 9: Validate and Build the Map Project](../../adapters-and-accelerators/accelerator-hl7/step-9-validate-and-build-the-map-project.md).  
+    Proceed to [Step 9: Validate and Build the Map Project](../../adapters-and-accelerators/accelerator-hl7/step-9-validate-and-build-the-map-project.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

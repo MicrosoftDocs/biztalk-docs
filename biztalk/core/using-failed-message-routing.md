@@ -25,11 +25,11 @@ The error-handling facility allows the designer to designate automated handling 
 ## What Does Failed Message Routing Consist Of?  
  When failed message routing is enabled, BizTalk Server does not suspend the message—it routes the message instead. Failed message routing can be enabled on both receive and send ports, with the following results:  
   
--   If failed message routing is enabled on a receive port and a message fails in the receive pipeline or in routing, a failed message is generated. In the case where an error occurs in or before the disassembly phase, the error message is a clone of the original interchange.  
+- If failed message routing is enabled on a receive port and a message fails in the receive pipeline or in routing, a failed message is generated. In the case where an error occurs in or before the disassembly phase, the error message is a clone of the original interchange.  
   
--   If failed message routing is enabled on a send port and the message fails in the send pipeline, a failed message is generated.  
+- If failed message routing is enabled on a send port and the message fails in the send pipeline, a failed message is generated.  
   
- When a failed message is generated, BizTalk Server promotes error-report-related message context properties and demotes regular message context properties before publishing the failed message. Compare this to the default behavior when failed message routing is not enabled: Messages that fail are suspended.  
+  When a failed message is generated, BizTalk Server promotes error-report-related message context properties and demotes regular message context properties before publishing the failed message. Compare this to the default behavior when failed message routing is not enabled: Messages that fail are suspended.  
   
 ## What Kinds of Messaging Failures Trigger an Error Message?  
  Any failure that occurs in adapter processing, pipeline processing, mapping, or message routing results in an error message if routing for failed messages is enabled. When a messaging error occurs while an orchestration is receiving from a receive port or sending to a send port, the resulting error message is associated with the messaging ports to which the orchestration is bound.  

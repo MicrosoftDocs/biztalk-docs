@@ -31,49 +31,49 @@ Archive validation enables you to validate the archives as they are created. Bef
   
 ### To enable automatic archive validation  
   
-1.  On the validation server, click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 SP2**, and then click **SQL Server Management Studio**.  
+1. On the validation server, click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 SP2**, and then click **SQL Server Management Studio**.  
   
-2.  In the **Connect to Server** dialog box, specify the name of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] where you can validate the archive by performing a test of the restore process, and then click **Connect** to connect to the appropriate SQL Server.  
+2. In the **Connect to Server** dialog box, specify the name of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] where you can validate the archive by performing a test of the restore process, and then click **Connect** to connect to the appropriate SQL Server.  
   
-    > [!NOTE]
-    >  This server should not be another [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database server as it reduces system performance when validating the archive.  
+   > [!NOTE]
+   >  This server should not be another [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database server as it reduces system performance when validating the archive.  
   
-3.  In **Microsoft SQL Server Management Studio**, click **File**, click **Open**, and then click **File**.  
+3. In **Microsoft SQL Server Management Studio**, click **File**, click **Open**, and then click **File**.  
   
-4.  In the **Open File** dialog box, browse to the following SQL script:  
+4. In the **Open File** dialog box, browse to the following SQL script:  
   
-    ```  
-    %SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\BTS_Tracking_ValidateArchive.sql  
-    ```  
+   ```  
+   %SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\BTS_Tracking_ValidateArchive.sql  
+   ```  
   
-    > [!NOTE]
-    >  You might need to copy the script from the computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the validation server.  
+   > [!NOTE]
+   >  You might need to copy the script from the computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the validation server.  
   
-5.  Click the **Query** menu, and then click **Execute**.  
+5. Click the **Query** menu, and then click **Execute**.  
   
-    > [!NOTE]
-    >  The BTS_Tracking_ValidateArchive.sql script only works if the folder where you are archiving your BizTalk Tracking (BizTalkDTADb) database is a network share.  
+   > [!NOTE]
+   >  The BTS_Tracking_ValidateArchive.sql script only works if the folder where you are archiving your BizTalk Tracking (BizTalkDTADb) database is a network share.  
   
-     The BTS_Tracking_ValidateArchive.sql script creates a SQL Server Agent job called ValidateArchive.  
+    The BTS_Tracking_ValidateArchive.sql script creates a SQL Server Agent job called ValidateArchive.  
   
-6.  The archiving and purging process potentially accesses and/or updates databases in different SQL Servers, so you must set up linked servers between the involved SQL Server instances. In **SQL Server Management Studio**, double-click **Server Objects**, right-click **Linked Servers**, and then click **New Linked Server**.  
+6. The archiving and purging process potentially accesses and/or updates databases in different SQL Servers, so you must set up linked servers between the involved SQL Server instances. In **SQL Server Management Studio**, double-click **Server Objects**, right-click **Linked Servers**, and then click **New Linked Server**.  
   
-     You must set up linked server between:  
+    You must set up linked server between:  
   
-    -   Each of your BizTalk MessageBox (BizTalkMsgBoxDb) databases and the BizTalk Tracking (BizTalkDTADb) database if they reside on different servers.  
+   -   Each of your BizTalk MessageBox (BizTalkMsgBoxDb) databases and the BizTalk Tracking (BizTalkDTADb) database if they reside on different servers.  
   
-    -   The BizTalk Tracking (BizTalkDTADb) database and the validating server for archive validation.  
+   -   The BizTalk Tracking (BizTalkDTADb) database and the validating server for archive validation.  
   
-    -   The service accounts for the SQL Server Agent on the computer hosting the BizTalk MessageBox (BizTalkMsgBoxDb) database must have the db_datareader and db_datawriter permissions for the BizTalk Tracking (BizTalkDTADb) database on the linked server.  
+   -   The service accounts for the SQL Server Agent on the computer hosting the BizTalk MessageBox (BizTalkMsgBoxDb) database must have the db_datareader and db_datawriter permissions for the BizTalk Tracking (BizTalkDTADb) database on the linked server.  
   
-    > [!NOTE]
-    >  The account used for running the job should have Database Operator (DBO) privileges on both the databases.  
+   > [!NOTE]
+   >  The account used for running the job should have Database Operator (DBO) privileges on both the databases.  
   
-7.  In the **New Linked Server** dialog box, on the **General** page, in **Linked server**, enter the name of the server you want to link to.  
+7. In the **New Linked Server** dialog box, on the **General** page, in **Linked server**, enter the name of the server you want to link to.  
   
-     For example, the server hosting the BizTalk MessageBox (BizTalkMsgBoxDb) database, BizTalk Tracking (BizTalkDTADb) database, or the validation server.  
+    For example, the server hosting the BizTalk MessageBox (BizTalkMsgBoxDb) database, BizTalk Tracking (BizTalkDTADb) database, or the validation server.  
   
-8.  Under **Server type**, click **SQL Server**, and then click **OK**.  
+8. Under **Server type**, click **SQL Server**, and then click **OK**.  
   
 9. In **Microsoft SQL Server Management Studio**, double-click **SQL Server Agent**, and then click **Jobs**.  
   

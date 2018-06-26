@@ -34,21 +34,21 @@ The JD Edwards OneWorld communication architecture is a single-message, single-r
   
  The following is a list of techniques for controlling iteration:  
   
--   On the JD Edwards OneWorld side, write the result set to a temporary storage file, which returns an ID (such as a file name or job number) that can be given on successive calls, along with the record number to position the cursor. Any successive call is positioned within the list based on the passed-in record number.  
+- On the JD Edwards OneWorld side, write the result set to a temporary storage file, which returns an ID (such as a file name or job number) that can be given on successive calls, along with the record number to position the cursor. Any successive call is positioned within the list based on the passed-in record number.  
   
-    > [!NOTE]
-    >  Calls through BizTalk Adapter for JD Edwards OneWorld can be load-balanced; however, they are eventually served by a single application server based on the credentials and business function being called. Therefore, if a call creates a temporary file on a server, additional calls are served by the same server. For more information, see Object Configuration Mapping in the JD Edwards OneWorld CNC Guides.  
+  > [!NOTE]
+  >  Calls through BizTalk Adapter for JD Edwards OneWorld can be load-balanced; however, they are eventually served by a single application server based on the credentials and business function being called. Therefore, if a call creates a temporary file on a server, additional calls are served by the same server. For more information, see Object Configuration Mapping in the JD Edwards OneWorld CNC Guides.  
   
--   Position information (such as a primary key value) can be returned on the second and subsequent calls, and the query can be reissued based on the key as an additional parameter. This method is used in the repository browsing code for BizTalk Adapter for JD Edwards OneWorld.  
+- Position information (such as a primary key value) can be returned on the second and subsequent calls, and the query can be reissued based on the key as an additional parameter. This method is used in the repository browsing code for BizTalk Adapter for JD Edwards OneWorld.  
   
-    > [!NOTE]
-    >  Of the first two techniques, the recommended method is to use primary key values and reissue the query. This method requires the smallest amount of code and places the optimization and caching burden on the database.  
+  > [!NOTE]
+  >  Of the first two techniques, the recommended method is to use primary key values and reissue the query. This method requires the smallest amount of code and places the optimization and caching burden on the database.  
   
--   The calling application can store a list of primary keys (such as a cross reference). For example, if a customer relationship management (CRM) system creates a customer record and then adds it to JD Edwards OneWorld using a business function call, the business function that adds a customer record sets the value for the AN8 field (short address number) and is visible in the return buffer. This number can then be written to a reference field on the original customer record, or stored into a customized cross-reference table.  
+- The calling application can store a list of primary keys (such as a cross reference). For example, if a customer relationship management (CRM) system creates a customer record and then adds it to JD Edwards OneWorld using a business function call, the business function that adds a customer record sets the value for the AN8 field (short address number) and is visible in the return buffer. This number can then be written to a reference field on the original customer record, or stored into a customized cross-reference table.  
   
--   The majority of all master records in JD Edwards OneWorld have a concept of a lookup, or alternate key. This key can be used to store the key information from the calling system. Business functions can perform the lookup on the JD Edwards OneWorld side. When parameters are passed to the business function to create a customer record, the long key value is set.  
+- The majority of all master records in JD Edwards OneWorld have a concept of a lookup, or alternate key. This key can be used to store the key information from the calling system. Business functions can perform the lookup on the JD Edwards OneWorld side. When parameters are passed to the business function to create a customer record, the long key value is set.  
   
- For more information on these concepts, see the Interoperability topic in the JD Edwards OneWorld Help system.  
+  For more information on these concepts, see the Interoperability topic in the JD Edwards OneWorld Help system.  
   
 ## See Also  
  [Planning and Architecture](../core/planning-and-architecture17.md)

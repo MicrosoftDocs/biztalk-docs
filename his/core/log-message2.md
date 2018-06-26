@@ -67,17 +67,17 @@ struct log_message {
  *msg_act*  
  Supplied parameter. Specifies the action to be taken when processing the message:  
   
--   Use SV_INTRV to log the intervention with a severity level of 12 and display the message on the users screen. The user must press a key to remove the message from the screen.  
+- Use SV_INTRV to log the intervention with a severity level of 12 and display the message on the users screen. The user must press a key to remove the message from the screen.  
   
--   Use SV_NO_INTRV to log the intervention with a severity level of 12 but not display the message.  
+- Use SV_NO_INTRV to log the intervention with a severity level of 12 but not display the message.  
   
- *msg_ins_len*  
- Supplied parameter. Specifies the length of data to be inserted into the message. Set this parameter to zero if no data is to be inserted.  
+  *msg_ins_len*  
+  Supplied parameter. Specifies the length of data to be inserted into the message. Set this parameter to zero if no data is to be inserted.  
   
- msg_ins_ptr  
- Supplied parameter. Specifies the address of the data to be inserted into the message.  
+  msg_ins_ptr  
+  Supplied parameter. Specifies the address of the data to be inserted into the message.  
   
- Use this parameter only if **msg_ins_len** is greater than zero.  
+  Use this parameter only if **msg_ins_len** is greater than zero.  
   
 ## Return Codes  
  SV_OK  

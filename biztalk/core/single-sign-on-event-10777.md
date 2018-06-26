@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10777
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10777|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_BUILTIN_ACCOUNTS|  
-|Message Text|For security reasons the following accounts are not allowed: Built-in accounts; Everyone;|  
+|                 |                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------|
+|  Product Name   |                                 Enterprise Single Sign-On                                 |
+| Product Version |                [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                 |
+|    Event ID     |                                           10777                                           |
+|  Event Source   |                                          ENTSSO                                           |
+|    Component    |                                            N/A                                            |
+|  Symbolic Name  |                               ENTSSO_E_NO_BUILTIN_ACCOUNTS                                |
+|  Message Text   | For security reasons the following accounts are not allowed: Built-in accounts; Everyone; |
   
 ## Explanation  
  These accounts are not allowed.  

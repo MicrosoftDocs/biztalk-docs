@@ -17,15 +17,15 @@ manager: "anneta"
 # No matching transform found for DocType in Send Port
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|NoMatchingTransformFoundForSendPortAndDocType|  
-|Message Text|No matching transform found for DocType {0} in Send Port {1}. Inconsistent with ExplorerOM information|  
+|                 |                                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------------|
+|  Product Name   |           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]           |
+| Product Version |                       [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                       |
+|    Event ID     |                                                   -                                                    |
+|  Event Source   |         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI         |
+|    Component    |                                               EDI Engine                                               |
+|  Symbolic Name  |                             NoMatchingTransformFoundForSendPortAndDocType                              |
+|  Message Text   | No matching transform found for DocType {0} in Send Port {1}. Inconsistent with ExplorerOM information |
   
 ## Explanation  
  This error indicates that a matching transform was not found for a given DocType and SendPort.  

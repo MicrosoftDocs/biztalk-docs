@@ -47,17 +47,17 @@ In Store and Forward (SnF) mode, messages are delivered to a queue at send time,
 ### Push session SnF  
  The SnF sequence assumes the following:  
   
--   The client process has done its job and can now terminate. To do this, the open security contexts must be cleaned up by issuing an SwSec:DestroyContextRequest. After the Sw:TermRequest, the process may exit().  
+- The client process has done its job and can now terminate. To do this, the open security contexts must be cleaned up by issuing an SwSec:DestroyContextRequest. After the Sw:TermRequest, the process may exit().  
   
--   Another client is started. The initialization steps are the same as for the first client. The release of the queue is by performing an SwCall with the Sw:ReleaseSnFQueueRequest as input primitive.  
+- Another client is started. The initialization steps are the same as for the first client. The release of the queue is by performing an SwCall with the Sw:ReleaseSnFQueueRequest as input primitive.  
   
-     SWIFTNet stops delivery of messages from the queue as soon as it successfully processes the release of the queue.  
+   SWIFTNet stops delivery of messages from the queue as soon as it successfully processes the release of the queue.  
   
- The server processes one request at the time. SWIFTNet SnF delivers several requests out of the queue. These are buffered within the network and SWIFTNet Link until the server responds, or a timeout occurs.  
+  The server processes one request at the time. SWIFTNet SnF delivers several requests out of the queue. These are buffered within the network and SWIFTNet Link until the server responds, or a timeout occurs.  
   
- It is possible that some requests were already being delivered, but not yet acknowledged before releasing the queue. SWIFTNet SnF does not process any more acknowledgements for these messages until the queue is released. These messages will be re-delivered in a subsequent session.  
+  It is possible that some requests were already being delivered, but not yet acknowledged before releasing the queue. SWIFTNet SnF does not process any more acknowledgements for these messages until the queue is released. These messages will be re-delivered in a subsequent session.  
   
- It is left to the local implementation whether the server application still responds with a positive acknowledgement for requests delivered from a queue after the client has issued the release of that queue, but typically this would not be the case.  
+  It is left to the local implementation whether the server application still responds with a positive acknowledgement for requests delivered from a queue after the client has issued the release of that queue, but typically this would not be the case.  
   
 ## See Also  
  [InterAct Adapter Architecture](../../adapters-and-accelerators/fileact-interact/interact-adapter-architecture.md)   

@@ -90,21 +90,21 @@ Protecting your BizTalk project from unexpected system failures should be a top 
   
 ##### To enable Visual SourceSafe to work with BizTalk Server Unicode files  
   
-1.  Start Visual SourceSafe 8.0 Admin.  
+1. Start Visual SourceSafe 8.0 Admin.  
   
-2.  Select the SourceSafe database to be used.  
+2. Select the SourceSafe database to be used.  
   
-3.  On the **Tools** menu, click **Options**.  
+3. On the **Tools** menu, click **Options**.  
   
-4.  Click the **File Types** tab.  
+4. Click the **File Types** tab.  
   
-5.  Add the following to the end of the list of binary files. Verify there are semicolons between each file type:  
+5. Add the following to the end of the list of binary files. Verify there are semicolons between each file type:  
   
-     *.btm;\*.btp;\*.xsd;\*.odx  
+    *.btm;\*.btp;\*.xsd;\*.odx  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
- Now Visual SourceSafe will not inspect BizTalk Server files and attempt to change their formatting.  
+   Now Visual SourceSafe will not inspect BizTalk Server files and attempt to change their formatting.  
   
 ### Use Visual Studio for Source Control Operations  
  All project creation and manipulation within Visual SourceSafe should be performed by using the integrated Visual SourceSafe support menus within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Do not use Visual SourceSafe Explorer to perform these operations.  
@@ -112,13 +112,13 @@ Protecting your BizTalk project from unexpected system failures should be a top 
 ### When to Check in BizTalk Server Projects  
  The recommended approach to using Visual SourceSafe is to check in code only when it has successfully passed functional tests and the developer is confident that the code will successfully build without breaking any related code. Applying this model to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] results in the following guidelines:  
   
--   BizTalk projects that contain only message schemas should not be checked in until the schemas have been successfully tested against a variety of sample messages.  
+- BizTalk projects that contain only message schemas should not be checked in until the schemas have been successfully tested against a variety of sample messages.  
   
--   BizTalk projects that contain a business process should not be checked in until the solution has been successfully tested using the appropriate input and output messages and using the correct send and receive ports.  
+- BizTalk projects that contain a business process should not be checked in until the solution has been successfully tested using the appropriate input and output messages and using the correct send and receive ports.  
   
--   ASP.NET Web service projects should not be checked in until the Web service code has been tested against the initiating system or by using a test harness.  
+- ASP.NET Web service projects should not be checked in until the Web service code has been tested against the initiating system or by using a test harness.  
   
- If this model is followed, then the Visual SourceSafe repository will always hold a build that can be successfully built and tested. This principle is important if the approach of "nightly builds" is to be adhered to.  
+  If this model is followed, then the Visual SourceSafe repository will always hold a build that can be successfully built and tested. This principle is important if the approach of "nightly builds" is to be adhered to.  
   
 ### Checking in Intermediate Versions  
  An alternative approach to checking in files is that of checking in "intermediate" versions. In this approach an intermediate version has not yet successfully passed functional tests and can be thought of as "between builds." This is generally not a recommended approach because it breaks the general principle of always having a buildable version within the source control system. However some teams prefer this approach because it allows developers to use the source control system to check in and roll back versions without needing to fulfill the criteria for checking in a formal build.  
@@ -140,17 +140,17 @@ Protecting your BizTalk project from unexpected system failures should be a top 
 ### Version Controlling Non-BizTalk Server Project Files  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses additional files that can beneficially be versioned and stored in Visual SourceSafe. The following files are examples:  
   
--   Binding files (both development and test)  
+- Binding files (both development and test)  
   
--   Custom pipeline assemblies  
+- Custom pipeline assemblies  
   
--   Test data (for example, test messages)  
+- Test data (for example, test messages)  
   
--   Test harnesses (which may change over the project lifetime)  
+- Test harnesses (which may change over the project lifetime)  
   
--   Build, deployment, and start-and-stop scripts that may need to be shared between development and build teams  
+- Build, deployment, and start-and-stop scripts that may need to be shared between development and build teams  
   
- If these files are related to a specific [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, then they can be included within the BizTalk project and managed by using the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] integrated source control functions.  
+  If these files are related to a specific [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, then they can be included within the BizTalk project and managed by using the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] integrated source control functions.  
   
 ##### To include a file or folder into an existing Visual Studio project  
   

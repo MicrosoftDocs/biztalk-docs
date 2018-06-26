@@ -18,15 +18,15 @@ Transaction Integrator (TI) can use either LU 6.2 contention winner sessions or 
   
  The number of available sessions is negotiated with the host system. If increasing the number of sessions in the APPC Mode definition on the Host Integration Server does not result in more sessions available, then you will need to change the configuration for available sessions on the host system. Follow these steps to see the number of available contention winner and loser sessions that are negotiated.  
   
-1.  Open the SNA Manager, select the **Tools** menu, and then click **Diagnostics**.  
+1. Open the SNA Manager, select the **Tools** menu, and then click **Diagnostics**.  
   
-2.  On the APPC Test tab, select the **Local LU**, **Remote LU**, and **Mode** checkboxes.  
+2. On the APPC Test tab, select the **Local LU**, **Remote LU**, and **Mode** checkboxes.  
   
-3.  Click the **Test** button.  
+3. Click the **Test** button.  
   
- The output window displays the **Config Limit** that is configured on the HIS Server in addition to the **Curr Limit** that was negotiated with the host.  
+   The output window displays the **Config Limit** that is configured on the HIS Server in addition to the **Curr Limit** that was negotiated with the host.  
   
- To see the number of contention winner and loser sessions, select the **LU6.2 Sessions** tab, and then click the **Contention** button. The output window will show the current negotiated session. The last two columns are the number of winner sessions and the number of loser sessions.  
+   To see the number of contention winner and loser sessions, select the **LU6.2 Sessions** tab, and then click the **Contention** button. The output window will show the current negotiated session. The last two columns are the number of winner sessions and the number of loser sessions.  
   
 > [!NOTE]
 >  Other APPC applications can share the same Local APPC LU, Remote APPC LU, and Mode used by TI. If they do share, you must define sufficient sessions to handle the requirements of all applications.  

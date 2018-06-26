@@ -36,20 +36,20 @@ You can invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/a
 ### Creating the request message  
  You can create the request message in one of two ways:  
   
--   To create a message that can be used for node-value streaming you must pass the message body in an **XmlBodyWriter** that implements node-value streaming.  
+- To create a message that can be used for node-value streaming you must pass the message body in an **XmlBodyWriter** that implements node-value streaming.  
   
--   To create a message that can be used for node streaming you can pass the message body in an **XmlReader**.  
+- To create a message that can be used for node streaming you can pass the message body in an **XmlReader**.  
   
- You typically use node-value streaming to support end-to-end streaming of Oracle LOB data in the request message. The only operation that supports this feature is UpdateLOB.  
+  You typically use node-value streaming to support end-to-end streaming of Oracle LOB data in the request message. The only operation that supports this feature is UpdateLOB.  
   
 ### Consuming the response message  
  You can consume the response message in one of two ways:  
   
--   To consume the message using node-value streaming you must call the **WriteBodyContents** method on the response message and pass it an **XmlDictionaryWriter** that implements node-value streaming.  
+- To consume the message using node-value streaming you must call the **WriteBodyContents** method on the response message and pass it an **XmlDictionaryWriter** that implements node-value streaming.  
   
--   To consume the message using node streaming you can call **GetReaderAtBodyContents** on the response message to get an **XmlReader**.  
+- To consume the message using node streaming you can call **GetReaderAtBodyContents** on the response message to get an **XmlReader**.  
   
- You typically use node-value streaming to support end-to-end streaming of Oracle LOB data in the response message. There are many operations that support this feature.  
+  You typically use node-value streaming to support end-to-end streaming of Oracle LOB data in the response message. There are many operations that support this feature.  
   
 ### LOB Data and Message Streaming Support  
  For more information about how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports streaming on LOB data, see [Streaming large object data types in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/streaming-large-object-data-types-in-oracle-database-adapter.md).  
@@ -67,71 +67,71 @@ You can invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/a
   
 #### How to invoke an operation by using an instance of IRequestChannel  
   
-1.  Build a channel factory (**ChannelFactory\<IRequestChannel\>**). To do this, you must specify a binding (**OracleDBBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).  
+1. Build a channel factory (**ChannelFactory\<IRequestChannel\>**). To do this, you must specify a binding (**OracleDBBinding**) and an endpoint address. You can specify the binding and endpoint address either imperatively in your code or declaratively in configuration. For more information about how to specify the binding and endpoint address in configuration, see [Create a channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).  
   
-    ```  
-    // Create a binding  
-    OracleDBBinding binding = new OracleDBBinding();  
-    // Create an endpoint address by using the connection URI  
-    EndpointAddress address = new EndpointAddress("oracledb://ADAPTER");  
-    // Create the channel factory  
-    ChannelFactory<IRequestChannel> factory = new ChannelFactory<IRequestChannel>(binding, address);  
-    ```  
+   ```  
+   // Create a binding  
+   OracleDBBinding binding = new OracleDBBinding();  
+   // Create an endpoint address by using the connection URI  
+   EndpointAddress address = new EndpointAddress("oracledb://ADAPTER");  
+   // Create the channel factory  
+   ChannelFactory<IRequestChannel> factory = new ChannelFactory<IRequestChannel>(binding, address);  
+   ```  
   
-2.  Set the user name password credentials for the channel factory by using the **ClientCredentials** property.  
+2. Set the user name password credentials for the channel factory by using the **ClientCredentials** property.  
   
-    ```  
-    factory.Credentials.UserName.UserName = "SCOTT";  
-    factory.Credentials.UserName.Password = "TIGER";  
-    ```  
+   ```  
+   factory.Credentials.UserName.UserName = "SCOTT";  
+   factory.Credentials.UserName.Password = "TIGER";  
+   ```  
   
-3.  Open the channel factory.  
+3. Open the channel factory.  
   
-    ```  
-    factory.Open();  
-    ```  
+   ```  
+   factory.Open();  
+   ```  
   
-4.  Get a channel from the factory and open it.  
+4. Get a channel from the factory and open it.  
   
-    ```  
-    IRequestChannel channel = factory.CreateChannel();  
-    channel.Open();  
-    ```  
+   ```  
+   IRequestChannel channel = factory.CreateChannel();  
+   channel.Open();  
+   ```  
   
-5.  Create a **Message** instance for the target operation. Be sure that the message action for the target operation is specified. In this example, the message body is passed by creating an **XmlReader** over a file. The target operation is a Select operation on the SCOTT/EMP table.  
+5. Create a **Message** instance for the target operation. Be sure that the message action for the target operation is specified. In this example, the message body is passed by creating an **XmlReader** over a file. The target operation is a Select operation on the SCOTT/EMP table.  
   
-    ```  
-    XmlReader readerIn = XmlReader.Create("SelectAllActivity.xml");  
-    Message messageIn = Message.CreateMessage(MessageVersion.Default,  
-        "http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY/Select",  
-        readerIn);  
-    ```  
+   ```  
+   XmlReader readerIn = XmlReader.Create("SelectAllActivity.xml");  
+   Message messageIn = Message.CreateMessage(MessageVersion.Default,  
+       "http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY/Select",  
+       readerIn);  
+   ```  
   
-6.  Invoke the **Request** method on the channel to send the message to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] and receive the reply. If the Oracle database encounters an exception, the adapter throws a **TargetSystemException**. (Other exceptions are possible for non Oracle exceptions.) You can get a description of the Oracle error from the **InnerException.Message** property of the **TargetSystemException**.  
+6. Invoke the **Request** method on the channel to send the message to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] and receive the reply. If the Oracle database encounters an exception, the adapter throws a **TargetSystemException**. (Other exceptions are possible for non Oracle exceptions.) You can get a description of the Oracle error from the **InnerException.Message** property of the **TargetSystemException**.  
   
-    ```  
-    try  
-    {  
-        Message messageOut = channel.Request(messageIn);  
-    }  
-    catch (Exception ex)  
-    {  
-        // handle exception  
-    }  
-    ```  
+   ```  
+   try  
+   {  
+       Message messageOut = channel.Request(messageIn);  
+   }  
+   catch (Exception ex)  
+   {  
+       // handle exception  
+   }  
+   ```  
   
-7.  Process the response. In this example, **GetReaderAtBodyContents** is called on the response message to get the message body.  
+7. Process the response. In this example, **GetReaderAtBodyContents** is called on the response message to get the message body.  
   
-    ```  
-    XmlReader readerOut = messageOut.GetReaderAtBodyContents();  
-    ```  
+   ```  
+   XmlReader readerOut = messageOut.GetReaderAtBodyContents();  
+   ```  
   
-8.  When you are done processing the response message, close the reader and the message.  
+8. When you are done processing the response message, close the reader and the message.  
   
-    ```  
-    readerOut.Close();  
-    messageOut.Close();  
-    ```  
+   ```  
+   readerOut.Close();  
+   messageOut.Close();  
+   ```  
   
 9. When you are done using the channel and the channel factory, close them. Closing the factory will close all channels that were created with it.  
   
@@ -141,7 +141,7 @@ You can invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/a
   
     ```  
   
- You follow the same steps to send a message using the **IOutputChannel** shape except:  
+   You follow the same steps to send a message using the **IOutputChannel** shape except:  
   
 -   You create a **ChannelFactory\<IOutputChannel\>** in step 1.  
   

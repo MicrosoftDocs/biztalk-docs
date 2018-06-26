@@ -42,23 +42,23 @@ The Enterprise Single Sign-On (SSO) Affiliate applications are logical entities 
 ## Designing an Affiliate Application  
  Before creating an affiliate application, the SSO affiliate administrator or the SSO administrator has to make the following decisions:  
   
-1.  **What will this affiliate application represent?** You need to know the non-Windows application that the affiliate application will represent in the SSO system. For example,  
+1. **What will this affiliate application represent?** You need to know the non-Windows application that the affiliate application will represent in the SSO system. For example,  
   
-     Application name: APP1  
+    Application name: APP1  
   
-     Description: Application for Pay stub department  
+    Description: Application for Pay stub department  
   
-     Contact: administrator@companyname.com  
+    Contact: administrator@companyname.com  
   
-2.  **Who will administer this affiliate application?** You need to determine the administrators for this affiliate application. These form the Windows administrators group for this affiliate application. For example, Domain\APP1AdminGroup  
+2. **Who will administer this affiliate application?** You need to determine the administrators for this affiliate application. These form the Windows administrators group for this affiliate application. For example, Domain\APP1AdminGroup  
   
-3.  **Who will use this affiliate application?** You need to determine who the end-users are for this affiliate application. These users represent the Windows users group for this affiliate application; for example, Domain\DomainUsers. In the case of the application for Pay stubs, you might want all users to access their pay stub information, so you can specify the domain users group as the user group for this application.  
+3. **Who will use this affiliate application?** You need to determine who the end-users are for this affiliate application. These users represent the Windows users group for this affiliate application; for example, Domain\DomainUsers. In the case of the application for Pay stubs, you might want all users to access their pay stub information, so you can specify the domain users group as the user group for this application.  
   
-4.  **What credentials does the affiliate application use to authenticate its users?** Different applications user different credentials to authenticate users. For example, some applications may use user IDs, passwords, PINs, or a combination of these. You must also determine whether the system needs to mask these credentials as the user provides them.  
+4. **What credentials does the affiliate application use to authenticate its users?** Different applications user different credentials to authenticate users. For example, some applications may use user IDs, passwords, PINs, or a combination of these. You must also determine whether the system needs to mask these credentials as the user provides them.  
   
-5.  **Will you use individual mappings or a group mapping for this affiliate application?** Does each Windows user have an account in the back-end system, or does the back-end system have one account for all Windows users? In the case of the pay stub system, each user has their own account to access their pay stub information, and you would need to use individual mappings.  
+5. **Will you use individual mappings or a group mapping for this affiliate application?** Does each Windows user have an account in the back-end system, or does the back-end system have one account for all Windows users? In the case of the pay stub system, each user has their own account to access their pay stub information, and you would need to use individual mappings.  
   
- After you create an affiliate application, you cannot modify the following properties:  
+   After you create an affiliate application, you cannot modify the following properties:  
   
 -   Name of the affiliate application  
   

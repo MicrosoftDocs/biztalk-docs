@@ -20,17 +20,17 @@ A *domain*, as it pertains to Windows, is a group of computers that share a netw
   
  The domain model provides two key advantages over peer-to-peer networks with regards to security:  
   
--   You can manage user accounts from a central location.  
+- You can manage user accounts from a central location.  
   
--   You can set up one unified security system for all user accounts in the domain.  
+- You can set up one unified security system for all user accounts in the domain.  
   
- Host Integration Server relies on the PDC or BDC to provide authentication services to users requesting access to host resources. Only users who have been validated by the PDC or BDC can gain access to resources provided by servers in the subdomain.  
+  Host Integration Server relies on the PDC or BDC to provide authentication services to users requesting access to host resources. Only users who have been validated by the PDC or BDC can gain access to resources provided by servers in the subdomain.  
   
- You can use domain authentication to verify users who request resources provided by these services:  
+  You can use domain authentication to verify users who request resources provided by these services:  
   
--   3270 or 5250 terminal access from workstations using Host Integration Server client software  
+- 3270 or 5250 terminal access from workstations using Host Integration Server client software  
   
--   APPC, CPI-C, or LUA applications built using Host Integration Server APIs  
+- APPC, CPI-C, or LUA applications built using Host Integration Server APIs  
   
 ## See Also  
  [Understanding Windows Security](../core/understanding-windows-security1.md)   

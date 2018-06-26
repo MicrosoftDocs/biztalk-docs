@@ -66,31 +66,31 @@ There are multiple options for tracing, which can help to capture problems in th
   
  **Internal Trace** types:  
   
--   Fatal Conditions  
+- Fatal Conditions  
   
--   Error Conditions  
+- Error Conditions  
   
--   Debug Conditions  
+- Debug Conditions  
   
--   Function Entry/Exit  
+- Function Entry/Exit  
   
--   State Transition  
+- State Transition  
   
--   Custom Conditions  
+- Custom Conditions  
   
- **Message Trace** types:  
+  **Message Trace** types:  
   
--   Internal Messages  
+- Internal Messages  
   
--   Connection Info  
+- Connection Info  
   
--   Network Data Streams  
+- Network Data Streams  
   
- **API Trace** types:  
+  **API Trace** types:  
   
--   OLEDB API  
+- OLEDB API  
   
--   Network API (DRDA)  
+- Network API (DRDA)  
   
 ### Message Traces  
  The following table details Message traces.  
@@ -106,29 +106,29 @@ There are multiple options for tracing, which can help to capture problems in th
   
  On the **Start** menu, point to **Microsoft OLE DB Provider for DB2 Version 5.0**, and then point to **Trace Utility**.  
   
-1.  In the **Trace Items** dialog of the **HIS Trace Utility**, click **Properties**.  
+1. In the **Trace Items** dialog of the **HIS Trace Utility**, click **Properties**.  
   
-2.  In the **Internal Trace** dialog, click **Set All**, and then click **Message Trace**.  
+2. In the **Internal Trace** dialog, click **Set All**, and then click **Message Trace**.  
   
-3.  In the **Message Trace** dialog, click **Set All**, and then click **API Trace**.  
+3. In the **Message Trace** dialog, click **Set All**, and then click **API Trace**.  
   
-4.  In the **API Trace** dialog, click **Set All**, and then click **OK**.  
+4. In the **API Trace** dialog, click **Set All**, and then click **OK**.  
   
- When one or more trace items is enabled, the **Clear All Traces** button is enabled and tracing is started.  
+   When one or more trace items is enabled, the **Clear All Traces** button is enabled and tracing is started.  
   
- To stop tracing:  
+   To stop tracing:  
   
-1.  In the Trace Items dialog of the **HIS Trace Utility**, click **Clear All Traces**.  
+5. In the Trace Items dialog of the **HIS Trace Utility**, click **Clear All Traces**.  
   
- When no trace items are enabled, the **Clear All Traces** button is disabled and tracing is stopped.  
+   When no trace items are enabled, the **Clear All Traces** button is disabled and tracing is stopped.  
   
- To view trace files:  
+   To view trace files:  
   
-1.  In the **Trace Items** dialog of the **Explore Traces**.  
+6. In the **Trace Items** dialog of the **Explore Traces**.  
   
- To purge trace files:  
+   To purge trace files:  
   
-1.  In the **Trace Items** dialog of the **HIS Trace Utility**, click **Purge All Trace Files**.  
+7. In the **Trace Items** dialog of the **HIS Trace Utility**, click **Purge All Trace Files**.  
   
 ### Tracing Global Properties  
  The Tracing Global Properties tab has several items that can be modified to adjust how Trace runs. These items include:  

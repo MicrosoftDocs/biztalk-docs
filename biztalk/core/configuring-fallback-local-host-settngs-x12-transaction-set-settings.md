@@ -25,20 +25,20 @@ To process an incoming interchange, [!INCLUDE[btsBizTalkServerNoVersion](../incl
   
 ### To configure local host settings for transaction sets  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **X12 Fallback Settings**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **X12 Fallback Settings**.  
   
-2.  In the **X12 Fallback Settings** dialog box, in the **X12 Agreement Pages** tab, under the **Transaction Set Settings** section, click **Local Host Settings**.  
+2. In the **X12 Fallback Settings** dialog box, in the **X12 Agreement Pages** tab, under the **Transaction Set Settings** section, click **Local Host Settings**.  
   
-3.  Select **Convert implied decimal format Nn to base 10 numeric value** to convert an EDI number that is specified with the format Nn into a base-10 numeric value in the intermediate XML in BizTalk Server.  
+3. Select **Convert implied decimal format Nn to base 10 numeric value** to convert an EDI number that is specified with the format Nn into a base-10 numeric value in the intermediate XML in BizTalk Server.  
   
-    > [!NOTE]
-    >  After this conversion, the intermediate XML may fail length validation. This occurs because the number in the base-10 numeric format includes a decimal, making its length one greater than the number in Nn format. You can resolve this issue by adding a value of **1** to the minimum/maximum length value.  
+   > [!NOTE]
+   >  After this conversion, the intermediate XML may fail length validation. This occurs because the number in the base-10 numeric format includes a decimal, making its length one greater than the number in Nn format. You can resolve this issue by adding a value of **1** to the minimum/maximum length value.  
   
-4.  Select **Create empty XML tags for trailing separators** to have the interchange sender include empty XML tags for trailing separators.  
+4. Select **Create empty XML tags for trailing separators** to have the interchange sender include empty XML tags for trailing separators.  
   
-5.  For **Target Namespace**, enter (or select from the drop-down list) the target namespace that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses to determine the schema to process the received message with.  
+5. For **Target Namespace**, enter (or select from the drop-down list) the target namespace that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses to determine the schema to process the received message with.  
   
-6.  Click **Apply** to accept the changes, or click **OK** to enter and validate the changes, and then close the dialog box.  
+6. Click **Apply** to accept the changes, or click **OK** to enter and validate the changes, and then close the dialog box.  
   
 ## See Also  
  [Configuring X12 Fallback Agreement Properties for Transaction Set Settings](../core/configuring-x12-fallback-agreement-properties-for-transaction-set-settings.md)

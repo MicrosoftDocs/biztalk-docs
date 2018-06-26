@@ -16,13 +16,13 @@ manager: "anneta"
 # TI Application Cannot Reference FILLER
 There are at least three possible causes for why the application cannot reference FILLER data:  
   
--   Mainframe or COBOL specifics.  
+- Mainframe or COBOL specifics.  
   
--   Automation specifics.  
+- Automation specifics.  
   
--   Procedure using TI Project.  
+- Procedure using TI Project.  
   
- The following provides details of these three causes.  
+  The following provides details of these three causes.  
   
 ## Mainframe or COBOL Specifics  
  When a FILLER keyword is encountered in the import process, the Transaction Integrator (TI) run-time environment adjusts the offset for the position of the data that follows the filler in a send or receive buffer by the length of the filler. This leaves untranslated gaps in the buffers that are sent to (or received from) the host and allows your data to overlay correctly onto the data declaration that describes it.  

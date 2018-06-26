@@ -29,57 +29,57 @@ You can validate an instance against its EDI schema at design time. To do so, yo
   
 ### To validate an instance against its schema  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open a project.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open a project.  
   
-2.  In Solution Explorer, add to the project all schemas required for the message instance.  
+2. In Solution Explorer, add to the project all schemas required for the message instance.  
   
-    1.  If you are validating a single transaction set without interchange and group headers, add the document schema for that transaction set.  
+   1. If you are validating a single transaction set without interchange and group headers, add the document schema for that transaction set.  
   
-    2.  If you are validating an interchange with a single transaction set, add to the project the schema for the transaction and the batch schema for the type of encoding used for the message (either Edifact_BatchSchema.xsd or X12_BatchSchema.xsd in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI).  
+   2. If you are validating an interchange with a single transaction set, add to the project the schema for the transaction and the batch schema for the type of encoding used for the message (either Edifact_BatchSchema.xsd or X12_BatchSchema.xsd in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI).  
   
-        > [!NOTE]
-        >  The batch schema is required to validate the envelope of the instance. If you were to use only the message schema, the envelope would not be validated.  
+      > [!NOTE]
+      >  The batch schema is required to validate the envelope of the instance. If you were to use only the message schema, the envelope would not be validated.  
   
-    3.  If you are validating a batched interchange with multiple transaction sets, add to the project the schemas for each transaction set group in the message instance, and the batch schema for the type of encoding used for the message (either Edifact_BatchSchema.xsd or X12_BatchSchema.xsd in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI).  
+   3. If you are validating a batched interchange with multiple transaction sets, add to the project the schemas for each transaction set group in the message instance, and the batch schema for the type of encoding used for the message (either Edifact_BatchSchema.xsd or X12_BatchSchema.xsd in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI).  
   
-        > [!NOTE]
-        >  If you have customized the service schema, you will have to include the custom service schema in the BizTalk project, in addition to the document (transaction set) schema(s) and if necessary, the batch schema.  
+      > [!NOTE]
+      >  If you have customized the service schema, you will have to include the custom service schema in the BizTalk project, in addition to the document (transaction set) schema(s) and if necessary, the batch schema.  
   
-        > [!NOTE]
-        >  You do not have to build the project to validate an instance.  
+      > [!NOTE]
+      >  You do not have to build the project to validate an instance.  
   
-3.  Display the property page for the schema in Solution Explorer, as follows:  
+3. Display the property page for the schema in Solution Explorer, as follows:  
   
-    1.  If you are validating a single transaction set, right-click the document schema for that transaction set, and then click **Properties**.  
+   1.  If you are validating a single transaction set, right-click the document schema for that transaction set, and then click **Properties**.  
   
-    2.  If you are validating an interchange with a single transaction set or a batched interchange with multiple transaction sets, right-click the batch schema (Edifact_BatchSchema.xsd or X12_BatchSchema.xsd schema), and then click **Properties**.  
+   2.  If you are validating an interchange with a single transaction set or a batched interchange with multiple transaction sets, right-click the batch schema (Edifact_BatchSchema.xsd or X12_BatchSchema.xsd schema), and then click **Properties**.  
   
-4.  In Properties window for the schema, for **Input Instance Filename** enter the name and path of the message instance that you want to validate, or browse to the file, select it, and then click **OK**.  
+4. In Properties window for the schema, for **Input Instance Filename** enter the name and path of the message instance that you want to validate, or browse to the file, select it, and then click **OK**.  
   
-5.  For **Validate Instance Input Type**, enter the type of the file to be validate: **Native** for a EDI file or **XML** for an XML file.  
+5. For **Validate Instance Input Type**, enter the type of the file to be validate: **Native** for a EDI file or **XML** for an XML file.  
   
-    > [!NOTE]
-    >  Validation of an XML preserved interchange is not supported. If you select XML for the **Validate Instance Input Type** property when validating a preserved interchange, the operation will fail and nothing will be returned. However, if you select **Native** for the **Validate Instance Input Type** when validating a preserved interchange, the operation will succeed.  
+   > [!NOTE]
+   >  Validation of an XML preserved interchange is not supported. If you select XML for the **Validate Instance Input Type** property when validating a preserved interchange, the operation will fail and nothing will be returned. However, if you select **Native** for the **Validate Instance Input Type** when validating a preserved interchange, the operation will succeed.  
   
-6.  Right-click the message schema (Edifact_BatchSchema.xsd or X12_BatchSchema.xsd if validating an interchange with a single transaction set or a batched interchange) and then click **Validate Instance**.  
+6. Right-click the message schema (Edifact_BatchSchema.xsd or X12_BatchSchema.xsd if validating an interchange with a single transaction set or a batched interchange) and then click **Validate Instance**.  
   
-7.  In the **EDI Instance Properties** dialog box, do the following:  
+7. In the **EDI Instance Properties** dialog box, do the following:  
   
-    1.  If your instance should use a repetition separator, select **Repetition separator**.  
+   1.  If your instance should use a repetition separator, select **Repetition separator**.  
   
-    2.  If your instance should use trailing delimiters, select **Yes** for **Use trailing delimiters**.  
+   2.  If your instance should use trailing delimiters, select **Yes** for **Use trailing delimiters**.  
   
-    3.  If your instance should use a character set other than **Basic**, select **Extended** or **Unicode** in **Syntax identifier**.  
+   3.  If your instance should use a character set other than **Basic**, select **Extended** or **Unicode** in **Syntax identifier**.  
   
-    4.  Click **OK**.  
+   4.  Click **OK**.  
   
-        > [!NOTE]
-        >  The **EDI Instance Properties** dialog box might appear a second time after you have clicked **OK**. If so, click **OK** again.  
+       > [!NOTE]
+       >  The **EDI Instance Properties** dialog box might appear a second time after you have clicked **OK**. If so, click **OK** again.  
   
-        > [!NOTE]
-        >  The **EDI Instance Properties** dialog box will be populated with the same values used in the last validate-instance operation that was run for the same logged-in user.  
+       > [!NOTE]
+       >  The **EDI Instance Properties** dialog box will be populated with the same values used in the last validate-instance operation that was run for the same logged-in user.  
   
-8.  Verify that there is a message in the **Output** window indicating that the operation succeeded.  
+8. Verify that there is a message in the **Output** window indicating that the operation succeeded.  
   
 ## See Also  
  [Using Design-Time XML Tools](../core/using-design-time-xml-tools.md)   

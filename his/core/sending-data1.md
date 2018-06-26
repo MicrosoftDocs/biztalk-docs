@@ -34,12 +34,12 @@ The following calls are used to send data to the partner program:
  [Send_Data](./send-data-cpi-c-2.md)( **cmsend**)  
  Puts data in the local LU's send buffer for transmission to the partner program. The data collected in the local LU's send buffer is transmitted to the partner LU (and partner program) when one of the following occurs:  
   
--   The send buffer fills up.  
+- The send buffer fills up.  
   
--   The local program issues a **Flush**, **Confirm**, or [Deallocate](./deallocate-cpi-c-1.md) call or other call that flushes the LU's send buffer. (Some send types, set by **Set_Send_Type**, include flush functionality.)  
+- The local program issues a **Flush**, **Confirm**, or [Deallocate](./deallocate-cpi-c-1.md) call or other call that flushes the LU's send buffer. (Some send types, set by **Set_Send_Type**, include flush functionality.)  
   
- [Set_Prepare_To_Receive_Type](./set-prepare-to-receive-type-cpi-c-1.md)( **cmsptr**)  
- Sets the conversation's prepare-to-receive type, which specifies whether subsequent **Prepare_To_Receive** calls will include **Flush** or **Confirm** functionality. The prepare-to-receive type affects all subsequent **Prepare_To_Receive** calls. It can be changed by reissuing **Set_Prepare_To_Receive_Type**.  
+  [Set_Prepare_To_Receive_Type](./set-prepare-to-receive-type-cpi-c-1.md)( **cmsptr**)  
+  Sets the conversation's prepare-to-receive type, which specifies whether subsequent **Prepare_To_Receive** calls will include **Flush** or **Confirm** functionality. The prepare-to-receive type affects all subsequent **Prepare_To_Receive** calls. It can be changed by reissuing **Set_Prepare_To_Receive_Type**.  
   
- [Set_Send_Type](./set-send-type-cpi-c-2.md)( **cmsst**)  
- Sets the conversation's send type. The send type specifies how data will be sent by **Send_Data**. The send type can specify that only data be sent or that, in addition to sending data, Common Programming Interface for Communications (CPI-C) executes the equivalent of **Flush**, **Confirm**, **Prepare_To_Receive**, or [Deallocate](./deallocate-cpi-c-1.md). The send type value affects all subsequent **Send_Data** calls. It can be changed by reissuing **Set_Send_Type**.
+  [Set_Send_Type](./set-send-type-cpi-c-2.md)( **cmsst**)  
+  Sets the conversation's send type. The send type specifies how data will be sent by **Send_Data**. The send type can specify that only data be sent or that, in addition to sending data, Common Programming Interface for Communications (CPI-C) executes the equivalent of **Flush**, **Confirm**, **Prepare_To_Receive**, or [Deallocate](./deallocate-cpi-c-1.md). The send type value affects all subsequent **Send_Data** calls. It can be changed by reissuing **Set_Send_Type**.

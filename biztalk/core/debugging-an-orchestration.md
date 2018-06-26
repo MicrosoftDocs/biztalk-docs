@@ -29,26 +29,26 @@ The Orchestration Debugger enables you to track the activity of a single orchest
   
  The Orchestration Debugger provides the following functionality:  
   
--   Displays a rendered view of the orchestration in which you can replay each processing step for that particular orchestration.  
+- Displays a rendered view of the orchestration in which you can replay each processing step for that particular orchestration.  
   
--   Enables you to set breakpoints before any orchestration shape and continue execution.  
+- Enables you to set breakpoints before any orchestration shape and continue execution.  
   
--   Enables you to look at specific variables and message data.  
+- Enables you to look at specific variables and message data.  
   
--   Automatically enables all of the tracking options for a particular orchestration instance when that instance opens in the Orchestration Debugger.  
+- Automatically enables all of the tracking options for a particular orchestration instance when that instance opens in the Orchestration Debugger.  
   
--   It gives you the ability to continue, resume in debug, and terminate the particular orchestration instance.  
+- It gives you the ability to continue, resume in debug, and terminate the particular orchestration instance.  
   
-    > [!NOTE]
-    >  When you undeploy an assembly, the database maintains the tracking options and breakpoint information for the undeployed assembly. If you subsequently deploy the same assembly, the options and breakpoint information for that assembly are restored.  
+  > [!NOTE]
+  >  When you undeploy an assembly, the database maintains the tracking options and breakpoint information for the undeployed assembly. If you subsequently deploy the same assembly, the options and breakpoint information for that assembly are restored.  
   
- The two modes for using the Orchestration Debugger are:  
+  The two modes for using the Orchestration Debugger are:  
   
--   [Reporting Mode in Orchestration Debugger](../core/reporting-mode-in-orchestration-debugger.md)  
+- [Reporting Mode in Orchestration Debugger](../core/reporting-mode-in-orchestration-debugger.md)  
   
--   [Interactive Mode in Orchestration Debugger](../core/interactive-mode-in-orchestration-debugger.md)  
+- [Interactive Mode in Orchestration Debugger](../core/interactive-mode-in-orchestration-debugger.md)  
   
- The capabilities differ depending on the state of the service. You can perform interactive debugging by invoking any service instance currently in the In Breakpoint state, from any view. For information about debugging an orchestration, see [How to Invoke the Orchestration Debugger and the Message Flow Views](../core/how-to-invoke-the-orchestration-debugger-and-the-message-flow-views.md).  
+  The capabilities differ depending on the state of the service. You can perform interactive debugging by invoking any service instance currently in the In Breakpoint state, from any view. For information about debugging an orchestration, see [How to Invoke the Orchestration Debugger and the Message Flow Views](../core/how-to-invoke-the-orchestration-debugger-and-the-message-flow-views.md).  
   
 ## In This Section  
   

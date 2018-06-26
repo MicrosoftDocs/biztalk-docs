@@ -29,15 +29,15 @@ This topic describes how to configure certain string arguments as right-justifie
 ## Types of String Values  
  JD Edwards EnterpriseOne exposes two kinds of string values through its interoperability layer:  
   
--   char: a single character  
+- char: a single character  
   
--   maximum length string  
+- maximum length string  
   
- JD Edwards EnterpriseOne uses Hungarian notation to name the arguments of these types in the business functions. For example, arguments of these types begin with:  
+  JD Edwards EnterpriseOne uses Hungarian notation to name the arguments of these types in the business functions. For example, arguments of these types begin with:  
   
--   c  
+- c  
   
--   sz  
+- sz  
   
 ### Left-Justified Values  
  For a majority of sz-type arguments, maximum length string or char array, JD Edwards EnterpriseOne expects a left-justified value. For examples, for a street address line, which is of maximum length 40, JD Edwards EnterpriseOne expects (for example):  

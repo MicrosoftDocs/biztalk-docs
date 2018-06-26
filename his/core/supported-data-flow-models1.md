@@ -16,15 +16,15 @@ manager: "anneta"
 # Supported Data Flow Models
 Transaction Integrator (TI) supports the following four data flows:  
   
--   [Non-transactional Data Flows That Support Bounded Recordsets](../core/non-transactional-data-flows-that-support-bounded-recordsets2.md)  
+- [Non-transactional Data Flows That Support Bounded Recordsets](../core/non-transactional-data-flows-that-support-bounded-recordsets2.md)  
   
--   [Non-transactional Data Flows That Support Unbounded Recordsets](../core/non-transactional-data-flows-that-support-unbounded-recordsets2.md)  
+- [Non-transactional Data Flows That Support Unbounded Recordsets](../core/non-transactional-data-flows-that-support-unbounded-recordsets2.md)  
   
--   [Transactional Data Flows That Support Bounded Recordsets](../core/transactional-data-flows-that-support-bounded-recordsets1.md)  
+- [Transactional Data Flows That Support Bounded Recordsets](../core/transactional-data-flows-that-support-bounded-recordsets1.md)  
   
--   [Transactional Data Flows That Support Unbounded Recordsets](../core/transactional-data-flows-that-support-unbounded-recordsets1.md)  
+- [Transactional Data Flows That Support Unbounded Recordsets](../core/transactional-data-flows-that-support-unbounded-recordsets1.md)  
   
- The following table shows the mainframe-based programming models and the data flows that TI supports.  
+  The following table shows the mainframe-based programming models and the data flows that TI supports.  
   
 |Mainframe Programming Models|Non-transactional bounded recordsets|Non-transactional unbounded recordsets|Transactional bounded recordsets|Transactional unbounded recordsets|  
 |----------------------------------|-------------------------------------------|---------------------------------------------|--------------------------------------|----------------------------------------|  

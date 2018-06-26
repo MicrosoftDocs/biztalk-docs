@@ -47,25 +47,25 @@ Use this command to create one or more user mappings, as specified in the XML fi
   
 ### To create user mappings using the administration utility  
   
-1.  On the **Start** menu, click **Run**, and then type **cmd**.  
+1. On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
+2. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage –createmappings *\<mappings file name\>***, where *\<mappings file name\>* is the name of file that contains the user mapping(s) you want to create.  
+3. Type **ssomanage –createmappings *\<mappings file name\>**<em>, where *\<mappings file name\></em> is the name of file that contains the user mapping(s) you want to create.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
 ### To create user mappings using the client utility  
   
-1.  On the **Start** menu, click **Run**, and then type **cmd**.  
+1. On the **Start** menu, click **Run**, and then type **cmd**.  
   
-2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
+2. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssoclient –setcredentials *\<application name \>***, where *\<application name \>* is the name of affiliate application that the user wants to create a mapping for.  
+3. Type **ssoclient –setcredentials *\<application name \>**<em>, where *\<application name \></em> is the name of affiliate application that the user wants to create a mapping for.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
 ## See Also  
  [SSO Mappings](../core/sso-mappings.md)   

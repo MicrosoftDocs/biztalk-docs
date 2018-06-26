@@ -27,11 +27,11 @@ This topic describes how to use the BizTalk Server Administration console to sho
   
 ### To show or hide property schemas in the Schemas folder  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the schemas folder in which you want to show or hide property schemas, and then expand the application containing the schemas folder.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the schemas folder in which you want to show or hide property schemas, and then expand the application containing the schemas folder.  
   
-3.  Right-click the **Schemas** folder, and click either **Hide Property Schemas** or **Show Property Schemas**.  
+3. Right-click the **Schemas** folder, and click either **Hide Property Schemas** or **Show Property Schemas**.  
   
 ## See Also  
  [Managing Schemas](../core/managing-schemas.md)

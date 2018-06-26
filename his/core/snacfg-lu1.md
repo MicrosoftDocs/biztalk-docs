@@ -76,35 +76,35 @@ manager: "anneta"
  **/displaymodel:{ mod2 &#124; mod3 &#124; mod4 &#124; mod5 &#124; 2 &#124; 3 &#124; 4 &#124; 5 }**  
  Specifies the display model; applies only when the **lutype** is **display**. The following display types are available:  
   
--   Model 2 is 24 lines by 80 characters.  
+- Model 2 is 24 lines by 80 characters.  
   
--   Model 3 is 32 lines by 80 characters.  
+- Model 3 is 32 lines by 80 characters.  
   
--   Model 4 is 43 lines by 80 characters.  
+- Model 4 is 43 lines by 80 characters.  
   
--   Model 5 is 27 lines by 132 characters.  
+- Model 5 is 27 lines by 132 characters.  
   
- Some emulators can only emulate certain display models. For more information, see your emulator documentation.  
+  Some emulators can only emulate certain display models. For more information, see your emulator documentation.  
   
- When a 3270 display LU is assigned to a 3270 LU pool, the display model setting of the pool overrides the setting of the LU.  
+  When a 3270 display LU is assigned to a 3270 LU pool, the display model setting of the pool overrides the setting of the LU.  
   
- If no display model has been specified, the default is Model 2.  
+  If no display model has been specified, the default is Model 2.  
   
- **/allowmodeloverride:{ yes &#124; no }**  
- Specifies whether the user is allowed to override the display model type by using the 3270 terminal emulation program.  
+  **/allowmodeloverride:{ yes &#124; no }**  
+  Specifies whether the user is allowed to override the display model type by using the 3270 terminal emulation program.  
   
- When a 3270 display LU is assigned to a 3270 LU pool, the model override setting of the pool overwrites the setting of the LU.  
+  When a 3270 display LU is assigned to a 3270 LU pool, the model override setting of the pool overwrites the setting of the LU.  
   
- If no setting has been specified for this parameter, the default is **no**.  
+  If no setting has been specified for this parameter, the default is **no**.  
   
- **/associate:**" *text*"  
- This allows you to associate a specific 3270 printer LU with a 3270 display LU. Any user or group with permission to use the display LU will also have access to the associate printer LU. The text is the printer LU name.  
+  **/associate:**" *text*"  
+  This allows you to associate a specific 3270 printer LU with a 3270 display LU. Any user or group with permission to use the display LU will also have access to the associate printer LU. The text is the printer LU name.  
   
- **/unassociate:**" *text*"  
- This allows you to unassociate a 3270 printer LU from a 3270 display LU. It is not necessary to enter any text. **Snacfg** will ignore the text and unassociate the LU. To unassociate the printer LU, use the display LU name.  
+  **/unassociate:**" *text*"  
+  This allows you to unassociate a 3270 printer LU from a 3270 display LU. It is not necessary to enter any text. **Snacfg** will ignore the text and unassociate the LU. To unassociate the printer LU, use the display LU name.  
   
- **/comment:**" *text*"  
- Adds an optional comment for the specified LU. The comment can contain as many as 25 characters; enclose the comment in quotes.  
+  **/comment:**" *text*"  
+  Adds an optional comment for the specified LU. The comment can contain as many as 25 characters; enclose the comment in quotes.  
   
 ## See Also  
  [Snacfg Reference](../core/snacfg-reference2.md)

@@ -19,13 +19,13 @@ As you work with the BAM Interceptor for Windows Workflow Foundation (WF), you w
   
  This topic collects many of the common filter patterns used by interceptor configuration files written for WF applications. Patterns are grouped by Windows Workflow Foundation tracking event:  
   
--   Activity status events  
+- Activity status events  
   
--   Workflow status events  
+- Workflow status events  
   
--   User events  
+- User events  
   
- Each pattern can be copied into your interceptor configuration file and modified to suit your application.  
+  Each pattern can be copied into your interceptor configuration file and modified to suit your application.  
   
 ## Activity Status Event Filter Patterns  
  Activities are the fundamental building blocks of workflows. A workflow is a set of activities that are organized hierarchically in a tree structure. An activity represents an action in a workflow. It can be a simple action such as a delay, or it can be a composite activity that consists of several child activities.  
@@ -209,25 +209,25 @@ As you work with the BAM Interceptor for Windows Workflow Foundation (WF), you w
 ## User Event Filter Patterns  
  If your application tracks custom information using the TrackData method, you can filter based on the characteristics of the data using one or more of the following BAM Interceptor for WF custom user data operations:  
   
--   GetUserDataType  
+- GetUserDataType  
   
--   GetUserKey  
+- GetUserKey  
   
--   GetUserData  
+- GetUserData  
   
- The filter can combine these operations with the following to create a more complex expression:  
+  The filter can combine these operations with the following to create a more complex expression:  
   
--   GetActivityName  
+- GetActivityName  
   
--   GetActivityType  
+- GetActivityType  
   
--   GetActivityProperty  
+- GetActivityProperty  
   
--   GetWorkflowProperty  
+- GetWorkflowProperty  
   
--   GetContextProperty  
+- GetContextProperty  
   
- If your filter does not include at least one user data operation, your filter will not be a user event filter and the enclosing OnEvent will cause an error (if a user operation appears in a corresponding update expression) or will be identified as an activity track point and not a user track point.  
+  If your filter does not include at least one user data operation, your filter will not be a user event filter and the enclosing OnEvent will cause an error (if a user operation appears in a corresponding update expression) or will be identified as an activity track point and not a user track point.  
   
 ### Filter by Activity Name and User Data Type  
  Frequently you can identify an event by activity name and user data type. The following expression filters for an activity named "MyActivity" and a user data type that derives from `System.Object`.  

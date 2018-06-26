@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10836
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10836|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_FILE_PASSWORD_TOO_SHORT|  
-|Message Text|The specified password is too short, it must be at least 7 characters.|  
+|                 |                                                                        |
+|-----------------|------------------------------------------------------------------------|
+|  Product Name   |                       Enterprise Single Sign-On                        |
+| Product Version |       [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]       |
+|    Event ID     |                                 10836                                  |
+|  Event Source   |                                 ENTSSO                                 |
+|    Component    |                                  N/A                                   |
+|  Symbolic Name  |                    ENTSSO_E_FILE_PASSWORD_TOO_SHORT                    |
+|  Message Text   | The specified password is too short, it must be at least 7 characters. |
   
 ## Explanation  
  The password for a backup file must be at least seven characters.  

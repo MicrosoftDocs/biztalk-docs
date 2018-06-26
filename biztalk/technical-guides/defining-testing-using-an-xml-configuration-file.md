@@ -19,26 +19,26 @@ BizUnit offers two ways to define tests: via an XML configuration file and via a
 ## Overview of defining a BizUnit test case using XML configuration  
  As just stated, this scenario is simplified for purposes of illustration. Consider a sample messaging application such as the one illustrated below. Let’s assume that normal functional behavior for this application is that BizTalk receives an XML file via a file receive location, it then sends it to an appropriate subscriber based on a subscription. To validate this scenario effectively it is important that we perform the following steps in the test:  
   
-1.  Set up the environment to ensure that it is in a consistent state and ready for the test to be run:  
+1. Set up the environment to ensure that it is in a consistent state and ready for the test to be run:  
   
-    -   This is done by deleting any files that are present in the two file locations used.  
+   -   This is done by deleting any files that are present in the two file locations used.  
   
-2.  Run the test to verify functionality:  
+2. Run the test to verify functionality:  
   
-    -   Create a valid XML message in the folder that the file receive location polls.  
+   -   Create a valid XML message in the folder that the file receive location polls.  
   
-    -   Validate that the correct XML message is placed in the outbound folder location.  
+   -   Validate that the correct XML message is placed in the outbound folder location.  
   
-    -   The validation should cover both the schema and the payload information for the message. (Typically a couple of the key fields should be examined.)  
+   -   The validation should cover both the schema and the payload information for the message. (Typically a couple of the key fields should be examined.)  
   
-3.  Clean up the environment to ensure that the environment is in the same state as before the test executed:  
+3. Clean up the environment to ensure that the environment is in the same state as before the test executed:  
   
-    -   Delete any files that are present in the two file locations used.  
+   -   Delete any files that are present in the two file locations used.  
   
- ![Sample BizTalk Messaging Application](../technical-guides/media/440fa6d7-d3a0-476f-9484-fbea77d87e40.gif "440fa6d7-d3a0-476f-9484-fbea77d87e40")  
-Sample BizTalk Messaging application  
+   ![Sample BizTalk Messaging Application](../technical-guides/media/440fa6d7-d3a0-476f-9484-fbea77d87e40.gif "440fa6d7-d3a0-476f-9484-fbea77d87e40")  
+   Sample BizTalk Messaging application  
   
- Each test case begins and ends with the TestCase XML tag; the testName parameter is passed into this as indicated here.  
+   Each test case begins and ends with the TestCase XML tag; the testName parameter is passed into this as indicated here.  
   
 ```  
 <TestCase testName="Test_01_FILECopyWithXmlValidation">  

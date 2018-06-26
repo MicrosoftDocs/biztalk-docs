@@ -27,22 +27,22 @@ You can add a pipeline template to your project to create a new pipeline.
   
 ### To create a new pipeline  
   
-1.  In Solution Explorer, select the project in which you want to create the pipeline.  
+1. In Solution Explorer, select the project in which you want to create the pipeline.  
   
-2.  On the **Project** menu, click **Add New Item**.  
+2. On the **Project** menu, click **Add New Item**.  
   
-3.  In the **Add New Item** dialog box, select a **Receive Pipeline** or **Send Pipeline** template by clicking it once.  
+3. In the **Add New Item** dialog box, select a **Receive Pipeline** or **Send Pipeline** template by clicking it once.  
   
-    > [!NOTE]
-    >  If you double-click the template, the pipeline will automatically be created with the default name that appears in the **Name** field.  
+   > [!NOTE]
+   >  If you double-click the template, the pipeline will automatically be created with the default name that appears in the **Name** field.  
   
-4.  In the **Name** field, type a name for the pipeline.  
+4. In the **Name** field, type a name for the pipeline.  
   
-5.  Click **Open**.  
+5. Click **Open**.  
   
-     The new pipeline appears in Solution Explorer. The design surface displays pipeline stages and a default set of components.  
+    The new pipeline appears in Solution Explorer. The design surface displays pipeline stages and a default set of components.  
   
- For information about adding pipeline components to the pipeline, see [How to Add a Component to a Pipeline](../core/how-to-add-a-component-to-a-pipeline.md).  
+   For information about adding pipeline components to the pipeline, see [How to Add a Component to a Pipeline](../core/how-to-add-a-component-to-a-pipeline.md).  
   
 ## See Also  
  [How to Open a Pipeline](../core/how-to-open-a-pipeline.md)   

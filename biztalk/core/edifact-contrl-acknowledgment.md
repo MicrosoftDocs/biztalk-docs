@@ -35,23 +35,23 @@ The CONTRL acknowledgment (ACK) serves as both technical and functional acknowle
 ## Functional Acknowledgement  
  A functional ACK implies that the recipient of the interchange:  
   
--   has received the referenced levels(s) of the interchange acknowledged;  
+- has received the referenced levels(s) of the interchange acknowledged;  
   
--   has checked that there are no fatal syntactic errors in the acknowledged referenced level that prevents further processing of the interchange;  
+- has checked that there are no fatal syntactic errors in the acknowledged referenced level that prevents further processing of the interchange;  
   
--   has checked that all acknowledged parts of service segments are semantically correct (if no errors are reported);  
+- has checked that all acknowledged parts of service segments are semantically correct (if no errors are reported);  
   
--   will comply with the actions requested in the acknowledged referenced-levels of the service segments;  
+- will comply with the actions requested in the acknowledged referenced-levels of the service segments;  
   
--   has accepted responsibility for notifying the sender by other means than sending a CONTRL message if any syntactic or semantic errors as described above, are later detected in the relevant part, or the part cannot be processed for some other reason after the part has been acknowledged in a submitted CONTRL message;  
+- has accepted responsibility for notifying the sender by other means than sending a CONTRL message if any syntactic or semantic errors as described above, are later detected in the relevant part, or the part cannot be processed for some other reason after the part has been acknowledged in a submitted CONTRL message;  
   
--   and has taken reasonable precautions in order to ensure that such errors are detected and that the sender is notified.  
+- and has taken reasonable precautions in order to ensure that such errors are detected and that the sender is notified.  
   
- Rejection implies that the recipient of the interchange:  
+  Rejection implies that the recipient of the interchange:  
   
--   cannot acknowledge the subject interchange, or the relevant parts of it, for reasons indicated in the CONTRL message;  
+- cannot acknowledge the subject interchange, or the relevant parts of it, for reasons indicated in the CONTRL message;  
   
--   and will not take any further action on business information contained in the rejected part of the subject interchange.  
+- and will not take any further action on business information contained in the rejected part of the subject interchange.  
   
 ## In This Section  
   

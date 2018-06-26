@@ -16,13 +16,13 @@ manager: "anneta"
 # Programming Models
 A programming model defines the method(s) used to access and integrate server applications with host applications. A programming model is a combination of:  
   
--   The communication protocol that is used to exchange data with the remote application program.  
+- The communication protocol that is used to exchange data with the remote application program.  
   
--   The target host environment used to host the server application program.  
+- The target host environment used to host the server application program.  
   
--   The interaction semantics defined by the application to control connect, data exchange, and disconnect sequences.  
+- The interaction semantics defined by the application to control connect, data exchange, and disconnect sequences.  
   
- Transaction Integrator supports a set of predefined programming models for Windows-initiated processing and for host-initiated processing. The following table summarizes the 11 available WIP programming models depending on the protocol and the target environment.  
+  Transaction Integrator supports a set of predefined programming models for Windows-initiated processing and for host-initiated processing. The following table summarizes the 11 available WIP programming models depending on the protocol and the target environment.  
   
 |Protocol|Target/Host Environment|Host Integration Server Programming Model|Host Integration Server COMTI name|  
 |--------------|------------------------------|-----------------------------------------------|----------------------------------------|  

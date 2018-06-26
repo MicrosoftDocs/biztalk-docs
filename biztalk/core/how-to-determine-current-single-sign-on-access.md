@@ -19,15 +19,15 @@ One of the first tasks you might need to perform for a user is to determine what
   
 ### To query the Single Sign-On database for the applications available to the current user  
   
-1.  Create a new instance of `ISSOMapper`.  
+1. Create a new instance of `ISSOMapper`.  
   
-     In general, `ISSOMapper` is an interface designed to retrieve information from Single Sign-On (SSO). You will most likely use `ISSOMapper` in many similar queries.  
+    In general, `ISSOMapper` is an interface designed to retrieve information from Single Sign-On (SSO). You will most likely use `ISSOMapper` in many similar queries.  
   
-2.  Retrieve all applications that are affiliated with the current user by calling GetApplications.  
+2. Retrieve all applications that are affiliated with the current user by calling GetApplications.  
   
-     GetApplications automatically returns only the affiliated applications of the current user.  
+    GetApplications automatically returns only the affiliated applications of the current user.  
   
- The following code example demonstrates how to query the Single Sign-On database.  
+   The following code example demonstrates how to query the Single Sign-On database.  
   
 ```  
 private static string[] Applications=null;  

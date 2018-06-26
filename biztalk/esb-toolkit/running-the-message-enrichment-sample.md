@@ -18,18 +18,18 @@ The Message Enrichment sample uses a Windows Forms test client application provi
   
  **To run Message Enrichment sample**  
   
-1.  If the GlobalBank.ESB application is not already running, use the Microsoft BizTalk Administration Console to start it.  
+1. If the GlobalBank.ESB application is not already running, use the Microsoft BizTalk Administration Console to start it.  
   
-2.  In Windows Explorer, open the folder \Source\Samples\Itinerary\Source\ESB.Itinerary.Test where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples, and then start the application named Esb.Itinerary.Test.exe.  
+2. In Windows Explorer, open the folder \Source\Samples\Itinerary\Source\ESB.Itinerary.Test where you installed the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] samples, and then start the application named Esb.Itinerary.Test.exe.  
   
-3.  Clear the **Use WCF Service** check box so that a client-side itinerary can be utilized.  
+3. Clear the **Use WCF Service** check box so that a client-side itinerary can be utilized.  
   
-4.  Click the **Load Itinerary** button, and then select one of the sample itineraries located in the \Source\Samples\MessageEnrichment\Itineraries folder.  
+4. Click the **Load Itinerary** button, and then select one of the sample itineraries located in the \Source\Samples\MessageEnrichment\Itineraries folder.  
   
-5.  Click the **LoadMessage** button, and then select the OrderDoc.xml sample message from the \Source\Samples\MessageEnrichment\Test\ folder.  
+5. Click the **LoadMessage** button, and then select the OrderDoc.xml sample message from the \Source\Samples\MessageEnrichment\Test\ folder.  
   
-6.  Click the **SubmitRequest** button to send the request to the Itinerary On-Ramp service.  
+6. Click the **SubmitRequest** button to send the request to the Itinerary On-Ramp service.  
   
-7.  Browse to C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Test\Filedrop\Out\\%MessageID%.xml to see the output message.  
+7. Browse to C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Test\Filedrop\Out\\%MessageID%.xml to see the output message.  
   
- For information about how the Message Enrichment sample works, see [How the Message Enrichment Sample Works](../esb-toolkit/how-the-message-enrichment-sample-works.md).
+   For information about how the Message Enrichment sample works, see [How the Message Enrichment Sample Works](../esb-toolkit/how-the-message-enrichment-sample-works.md).

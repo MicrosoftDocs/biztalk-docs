@@ -34,13 +34,13 @@ manager: "anneta"
 ### Solution  
  Manually undeploy the four A4SWIFT assemblies in the following order:  
   
--   Microsoft.Solutions.FinancialServices.SWIFT.FrrOrchestration  
+- Microsoft.Solutions.FinancialServices.SWIFT.FrrOrchestration  
   
--   Microsoft.Solutions.FinancialServices.SWIFT.FrrSchemas  
+- Microsoft.Solutions.FinancialServices.SWIFT.FrrSchemas  
   
--   Microsoft.Solutions.FinancialServices.SWIFT.MrsrService.  
+- Microsoft.Solutions.FinancialServices.SWIFT.MrsrService.  
   
- After you have upgraded, redeploy these assemblies (using **BTSTask.exe**) in the reverse order.  
+  After you have upgraded, redeploy these assemblies (using **BTSTask.exe**) in the reverse order.  
   
 ## An upgrade removes access permissions for the Service folder  
   

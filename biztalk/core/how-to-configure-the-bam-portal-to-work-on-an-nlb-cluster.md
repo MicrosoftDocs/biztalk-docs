@@ -43,81 +43,81 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
   
 ### To update the BAM configuration to reflect the location of the cluster  
   
-1.  Use the BAM Management Utility to get the current BAM configuration. To do this, click **Start**, click **Run**, and type [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm get-config -FileName:MyConfig.xml.  
+1. Use the BAM Management Utility to get the current BAM configuration. To do this, click **Start**, click **Run**, and type [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm get-config -FileName:MyConfig.xml.  
   
-2.  Replace the local host name with the name of the NLB cluster. To do this, click **Start**, click **Run**, and type notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\MyConfig.xml.  
+2. Replace the local host name with the name of the NLB cluster. To do this, click **Start**, click **Run**, and type notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\MyConfig.xml.  
   
-3.  For hardware-based NLB only, verify the configuration file has the following:  
+3. For hardware-based NLB only, verify the configuration file has the following:  
   
-    ```  
-    <GlobalProperty Name="BAMVRoot">  
-    http://<NLB IP Address>:portname/BAM</GlobalProperty>  
-    ```  
+   ```  
+   <GlobalProperty Name="BAMVRoot">  
+   http://<NLB IP Address>:portname/BAM</GlobalProperty>  
+   ```  
   
-    > [!NOTE]
-    >  Steps 4 and 5 are not necessary when updating the BAM configuration on hardware-based NLB.  
+   > [!NOTE]
+   >  Steps 4 and 5 are not necessary when updating the BAM configuration on hardware-based NLB.  
   
-4.  Modify the following line to point to the NLB cluster by replacing the computer name (machinename) with the cluster name:  
+4. Modify the following line to point to the NLB cluster by replacing the computer name (machinename) with the cluster name:  
   
-    ```  
-    <GlobalProperty Name=" BAMVRoot">  http://machinename:portname/BAM  
-    </GlobalProperty>   
-    ```  
+   ```  
+   <GlobalProperty Name=" BAMVRoot">  http://machinename:portname/BAM  
+   </GlobalProperty>   
+   ```  
   
-5.  Save the new configuration. To do this, click **Start**, click **Run**, and type [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm update-config -FileName:MyConfig.xml.  
+5. Save the new configuration. To do this, click **Start**, click **Run**, and type [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm update-config -FileName:MyConfig.xml.  
   
 ### To edit the BAM portal web.config file to change the BAMmanagementService and QueryService URLs to point to the NLB server name. Note: This procedure is not necessary for hardware-based NLB.  
   
-1.  Open the web.config file using Notepad by clicking **Start**, clicking **Run**, typing notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config, and then clicking **OK**.  
+1. Open the web.config file using Notepad by clicking **Start**, clicking **Run**, typing notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config, and then clicking **OK**.  
   
-2.  Modify the following computer name (machinename) and the port name in the following two lines to point to the name of name of the cluster:  
+2. Modify the following computer name (machinename) and the port name in the following two lines to point to the name of name of the cluster:  
   
-    ```  
-    <add key="BamQueryWSUrl" value="http://machinename:portname /BAM/BAMQueryService/BamQueryService.asmx" />  
-    <add key="BamManagementWSUrl" value=" http://machinename:portname/BAM/BAMManagementService/BamManagementService.asmx" />   
-    ```  
+   ```  
+   <add key="BamQueryWSUrl" value="http://machinename:portname /BAM/BAMQueryService/BamQueryService.asmx" />  
+   <add key="BamManagementWSUrl" value=" http://machinename:portname/BAM/BAMManagementService/BamManagementService.asmx" />   
+   ```  
   
-3.  Save the file. To do this, click **File**, and then click **Save** on the Notepad menu bar.  
+3. Save the file. To do this, click **File**, and then click **Save** on the Notepad menu bar.  
   
 ### To configure each additional computer in the cluster  
   
-1.  Copy the web.config file to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal folder on each additional computer in the cluster.  
+1. Copy the web.config file to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal folder on each additional computer in the cluster.  
   
-    > [!NOTE]
-    >  In the following steps all references to the **Program Files** folder will be **Program Files (x86)** for 64 bit computers.  
+   > [!NOTE]
+   >  In the following steps all references to the **Program Files** folder will be **Program Files (x86)** for 64 bit computers.  
+   > 
+   > [!IMPORTANT]
+   >  In the following steps, when you are creating the virtual directories, check to make sure they have the exact settings as the three BAM virtual directories created by the BizTalk Server Configuration on first computer. Confirm your file paths, the ASP.NET version, your directory permissions, and application pool.  Use the same domain service account to run the BAMAppPool on the computer you are setting up as you used when setting up the first computer. Make sure the BAMAppPool is running on all of the computers. There are two web.config files you must copy.  
+   > 
+   >  In addition to the web.config file [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal, you must copy the web.config file in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BAMManagementService and [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BAMQueryService to the same folders on this computer.  
   
-    > [!IMPORTANT]
-    >  In the following steps, when you are creating the virtual directories, check to make sure they have the exact settings as the three BAM virtual directories created by the BizTalk Server Configuration on first computer. Confirm your file paths, the ASP.NET version, your directory permissions, and application pool.  Use the same domain service account to run the BAMAppPool on the computer you are setting up as you used when setting up the first computer. Make sure the BAMAppPool is running on all of the computers. There are two web.config files you must copy.  
-    >   
-    >  In addition to the web.config file [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal, you must copy the web.config file in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BAMManagementService and [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BAMQueryService to the same folders on this computer.  
+2. For hardware-based NLB only, modify the following computer name (machinename) and the port name in the following two lines to point to the name of name of the cluster:  
   
-2.  For hardware-based NLB only, modify the following computer name (machinename) and the port name in the following two lines to point to the name of name of the cluster:  
+   ```  
+   <add key="BamQueryWSUrl" value="http://machinename:portname /BAM/BAMQueryService/BamQueryService.asmx" />  
+   <add key="BamManagementWSUrl" value=" http://machinename:portname/BAM/BAMManagementService/BamManagementService.asmx" />  
+   ```  
   
-    ```  
-    <add key="BamQueryWSUrl" value="http://machinename:portname /BAM/BAMQueryService/BamQueryService.asmx" />  
-    <add key="BamManagementWSUrl" value=" http://machinename:portname/BAM/BAMManagementService/BamManagementService.asmx" />  
-    ```  
+3. Create an application pool called BAMAppPool.  
   
-3.  Create an application pool called BAMAppPool.  
+   > [!NOTE]
+   >  The directory path for the virtual directories should be %InstallationFolder%/BamPortal, %InstallationFolder%/BamPortal/BAMManagementService, and %InstallationFolder%/BamPortal/BAMQueryService.  
   
-    > [!NOTE]
-    >  The directory path for the virtual directories should be %InstallationFolder%/BamPortal, %InstallationFolder%/BamPortal/BAMManagementService, and %InstallationFolder%/BamPortal/BAMQueryService.  
+4. Create a virtual directory under the Default Website called BAM.  
   
-4.  Create a virtual directory under the Default Website called BAM.  
+5. Change the application pool of BAM virtual directory to BAMAppPool.  
   
-5.  Change the application pool of BAM virtual directory to BAMAppPool.  
+   > [!NOTE]
+   >  The directory path for the virtual directories should be %InstallationFolder%/BamPortal, %InstallationFolder%/BamPortal/BAMManagementService and %InstallationFolder%/BamPortal/BAMQueryService.  
   
-    > [!NOTE]
-    >  The directory path for the virtual directories should be %InstallationFolder%/BamPortal, %InstallationFolder%/BamPortal/BAMManagementService and %InstallationFolder%/BamPortal/BAMQueryService.  
+6. Create a virtual directory called BAMManagementService under BAM.  
   
-6.  Create a virtual directory called BAMManagementService under BAM.  
+7. Change the application pool of BAMManagementService to BAMAppPool.  
   
-7.  Change the application pool of BAMManagementService to BAMAppPool.  
+   > [!NOTE]
+   >  The directory path for the virtual directories should be %InstallationFolder%/BamPortal, %InstallationFolder%/BamPortal/BAMManagementService, and %InstallationFolder%/BamPortal/BAMQueryService.  
   
-    > [!NOTE]
-    >  The directory path for the virtual directories should be %InstallationFolder%/BamPortal, %InstallationFolder%/BamPortal/BAMManagementService, and %InstallationFolder%/BamPortal/BAMQueryService.  
-  
-8.  Create a virtual directory called BAMQueryService under BAM.  
+8. Create a virtual directory called BAMQueryService under BAM.  
   
 9. Change the application pool of BAMQueryService to BAMAppPool.  
   

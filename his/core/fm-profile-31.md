@@ -16,49 +16,49 @@ manager: "anneta"
 # FM Profile 3
 Function management (FM) Profile 3 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU types 0, 1, 2, or 3. This profile specifies the following session rules:  
   
--   PLU and SLU use immediate response mode.  
+- PLU and SLU use immediate response mode.  
   
--   PLU and SLU support the following data flow control (DFC) commands (an asterisk [*] indicates commands permitted by the FM profile that are never sent by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]):  
+- PLU and SLU support the following data flow control (DFC) commands (an asterisk [*] indicates commands permitted by the FM profile that are never sent by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]):  
   
-    -   **CANCEL**  
+  -   **CANCEL**  
   
-    -   **SIGNAL**  
+  -   **SIGNAL**  
   
-    -   **LUSTAT** (SLU-PLU only)  
+  -   **LUSTAT** (SLU-PLU only)  
   
-    -   **CHASE***  
+  -   **CHASE***  
   
-    -   **SHUTD**  
+  -   **SHUTD**  
   
-    -   **SHUTC**  
+  -   **SHUTC**  
   
-    -   **RSHUTD***  
+  -   **RSHUTD***  
   
-    -   **BID** and **RTR**  
+  -   **BID** and **RTR**  
   
- The following FM Usage fields define the options for Profile 3:  
+  The following FM Usage fields define the options for Profile 3:  
   
--   Chaining use (PLU and SLU)  
+- Chaining use (PLU and SLU)  
   
--   Request control mode selection (PLU and SLU)  
+- Request control mode selection (PLU and SLU)  
   
--   Chain response protocol (PLU and SLU)  
+- Chain response protocol (PLU and SLU)  
   
--   Compression indicator (PLU and SLU)  
+- Compression indicator (PLU and SLU)  
   
--   Send EB indicator (PLU and SLU)  
+- Send EB indicator (PLU and SLU)  
   
--   FM header usage  
+- FM header usage  
   
--   Bracket usage  
+- Bracket usage  
   
--   Bracket termination rule  
+- Bracket termination rule  
   
--   Alternate Code Set Allowed indicator  
+- Alternate Code Set Allowed indicator  
   
--   Normal-flow send/receive mode  
+- Normal-flow send/receive mode  
   
- The next three tables list the FM Profile 3 options that [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] supports. Host Integration Server rejects any BIND option that specifies an option value not listed in these tables.  
+  The next three tables list the FM Profile 3 options that [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] supports. Host Integration Server rejects any BIND option that specifies an option value not listed in these tables.  
   
 ### Supported options for BIND requests from primary LUs  
   

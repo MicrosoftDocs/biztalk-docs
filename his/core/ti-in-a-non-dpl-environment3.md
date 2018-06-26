@@ -18,17 +18,17 @@ A non-linked environment (that is, a non-DPL environment) is one that does not u
   
  TI supports the LU 6.2 model for both linked and nonlinked environments. You can create the following remote environment (RE) types to support each model:  
   
--   **CICS Link using LU 6.2**  
+- **CICS Link using LU 6.2**  
   
-     Use this in an IBM DPL environment that uses the Mirror TP.  
+   Use this in an IBM DPL environment that uses the Mirror TP.  
   
--   **CICS using LU 6.2**  
+- **CICS using LU 6.2**  
   
-     Use this in a non-DPL environment that bypasses the Mirror TP.  
+   Use this in a non-DPL environment that bypasses the Mirror TP.  
   
- Many customers use TI in a non-DPL environment. The only concern is whether terminal logic is embedded with the business logic. When a COBOL TP supports IBM DPL, the presentation logic has already been separated from the business logic, so you probably will not need to modify the COBOL. However, if the TP was written to communicate with a terminal, it is likely that you will need to modify the COBOL code to separate the business logic from the presentation logic.  
+  Many customers use TI in a non-DPL environment. The only concern is whether terminal logic is embedded with the business logic. When a COBOL TP supports IBM DPL, the presentation logic has already been separated from the business logic, so you probably will not need to modify the COBOL. However, if the TP was written to communicate with a terminal, it is likely that you will need to modify the COBOL code to separate the business logic from the presentation logic.  
   
- For example, the following sample COBOL code shows how to handle unbound recordsets by using the **EXEC CICS RECEIVE INTO** and **EXEC CICS SEND FROM** COBOL commands:  
+  For example, the following sample COBOL code shows how to handle unbound recordsets by using the **EXEC CICS RECEIVE INTO** and **EXEC CICS SEND FROM** COBOL commands:  
   
 ```  
 *****************************************************  

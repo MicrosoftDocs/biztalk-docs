@@ -15,15 +15,16 @@ manager: "anneta"
 ---
 # Tracing PU 2.1 Node
 The following table details PU 2.1 Node traces.  
-  
-|Trace option|Activity traced for the SnaServer (PU 2.1 node).|  
-|------------------|--------------------------------------------------------|  
-|Internal Messages|Messages between the SnaServer (PU 2.1 node) and the SNA Manager.|  
-|3270 Messages|Messages between the PU 2.1 node and all 3270 client computers (3270 emulators and/or LUA programs).|  
-|Data Link Control|Messages between the PU 2.1 node and link services.|  
-|SNA Formats|Data link control messages that are in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] formats. Understanding such messages requires knowledge of Host Integration Server formats and protocols.|  
-|LU 6.2 Messages|Messages between the PU 2.1 node and the APPC DLL.|  
-  
+
+
+|   Trace option    |                                                                                        Activity traced for the SnaServer (PU 2.1 node).                                                                                         |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Internal Messages |                                                                                Messages between the SnaServer (PU 2.1 node) and the SNA Manager.                                                                                |
+|   3270 Messages   |                                                              Messages between the PU 2.1 node and all 3270 client computers (3270 emulators and/or LUA programs).                                                               |
+| Data Link Control |                                                                                       Messages between the PU 2.1 node and link services.                                                                                       |
+|    SNA Formats    | Data link control messages that are in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] formats. Understanding such messages requires knowledge of Host Integration Server formats and protocols. |
+|  LU 6.2 Messages  |                                                                                       Messages between the PU 2.1 node and the APPC DLL.                                                                                        |
+
 ## See Also  
  [Tracing SNA APIs](../core/tracing-sna-apis2.md)   
  [Tracing SnaBase](../core/tracing-snabase2.md)   

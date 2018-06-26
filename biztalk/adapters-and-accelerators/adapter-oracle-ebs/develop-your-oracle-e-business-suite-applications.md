@@ -20,19 +20,19 @@ manager: "anneta"
 ## Overview
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] binding. Client applications can consume the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to invoke operations on Oracle E-Business Suite artifacts. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] can be consumed:  
   
--   Through a physical port binding in a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solution.  
+- Through a physical port binding in a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solution.  
   
--   By invoking methods on an instance of a client proxy.  
+- By invoking methods on an instance of a client proxy.  
   
--   By sending SOAP messages over a channel instance in code that uses the WCF channel model.  
+- By sending SOAP messages over a channel instance in code that uses the WCF channel model.  
 
 ## BizTalk vs WCF service vs WCF channel 
   
  The following table:  
   
--   Lists the different operations that can be performed on Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  
+- Lists the different operations that can be performed on Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  
   
--   Provides links to the topics containing information about performing the task using the chosen approach ([!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], WCF service model or WCF channel model).  
+- Provides links to the topics containing information about performing the task using the chosen approach ([!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], WCF service model or WCF channel model).  
   
 |Operation|BizTalk Server|WCF Service Model|WCF Channel Model|  
 |---|---|---|---|  

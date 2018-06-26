@@ -22,16 +22,16 @@ Another way to connect to a DB2 database is through a *connection pool*. Althoug
   
 ## Connect and disconnect to a DB2 connection pool Using Host Integration Server  
   
-1.  Connect to the DB2 server with MsDb2Connection, with the `Microsoft.HostIntegration.MsDb2Client.MsDb2Connection.ConnectionPooling%2A?displayProperty=fullName` set to `true`.  
+1. Connect to the DB2 server with MsDb2Connection, with the `Microsoft.HostIntegration.MsDb2Client.MsDb2Connection.ConnectionPooling%2A?displayProperty=fullName` set to `true`.  
   
-2.  Perform your queries as you would with a traditional DB2 connection.  
+2. Perform your queries as you would with a traditional DB2 connection.  
   
-3.  Use `MsDb2Connection.Close` or `MsDb2Connection.Dispose` to end your session.  
+3. Use `MsDb2Connection.Close` or `MsDb2Connection.Dispose` to end your session.  
   
-    > [!NOTE]
-    >  Calling `Close` or `Dispose` on a connection from a connection pool does not actually close or dispose the connection. Instead, the server returns the connection to the pool.  
+   > [!NOTE]
+   >  Calling `Close` or `Dispose` on a connection from a connection pool does not actually close or dispose the connection. Instead, the server returns the connection to the pool.  
   
- The following code example shows how to connect to a DB2 database using a connection pool.  
+   The following code example shows how to connect to a DB2 database using a connection pool.  
   
 ```  
 int GetNumberOfOrders()  

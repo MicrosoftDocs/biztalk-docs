@@ -38,11 +38,11 @@ The pipeline and pipeline components described in this topic process EDI message
 ### BatchMarker  
  The BatchMarker pipeline component prepares an interchange for batching by promoting the BatchId, ToBeBatched, and ToBeRouted context properties that are required for processing a batched interchange. How the BatchMarker component sets these properties depends upon how many trading partner agreements subscribes to the batch element.  
   
--   If only one agreement subscribes to the batch element, the BatchMarker component sets the ToBeBatched context property to True, so that the batching orchestration picks up the batch element.  
+- If only one agreement subscribes to the batch element, the BatchMarker component sets the ToBeBatched context property to True, so that the batching orchestration picks up the batch element.  
   
--   If more than one agreement subscribes to a batch element, the BatchMarker component sets the ToBeRouted context property to True, so that the routing orchestration picks up the batch element. It also sets the BatchIds context property to a space delimited list of batch IDs. The routing orchestration will then make one copy of the batch element for each batch ID, and set the ToBeBatched property to True on each copy of the batch element, so that the batching orchestration will pick up all copies.  
+- If more than one agreement subscribes to a batch element, the BatchMarker component sets the ToBeRouted context property to True, so that the routing orchestration picks up the batch element. It also sets the BatchIds context property to a space delimited list of batch IDs. The routing orchestration will then make one copy of the batch element for each batch ID, and set the ToBeBatched property to True on each copy of the batch element, so that the batching orchestration will pick up all copies.  
   
- The BatchMarker component is included in the last stage (trading partner agreement resolution) of the EDIReceive pipeline. All pipelines that will process EDI messages should include the BatchMarker pipeline component.  
+  The BatchMarker component is included in the last stage (trading partner agreement resolution) of the EDIReceive pipeline. All pipelines that will process EDI messages should include the BatchMarker pipeline component.  
   
 > [!NOTE]
 >  The BatchMarker component can be included in a receive pipeline that does not include the EDI Dissassembler, in order to perform trading partner agreement resolution without parsing the EDI message.  

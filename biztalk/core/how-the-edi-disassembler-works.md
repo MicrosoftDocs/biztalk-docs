@@ -17,73 +17,73 @@ manager: "anneta"
 # How the EDI Disassembler Works
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performs most processing for received EDI-encoded interchanges in the EDI Receive Pipeline (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`). This pipeline includes the EDI disassembler pipeline component, which performs the following processing:  
   
--   Splits multiple interchanges in a single message into separate interchanges (if the "DetectMID" pipeline property for the receive location is set to True). The EDI Disassembler does so by searching for an interchange control header (ISA, UNA, or UNB) even after an interchange control trailer (IEA or UNZ) has been encountered.  
+- Splits multiple interchanges in a single message into separate interchanges (if the "DetectMID" pipeline property for the receive location is set to True). The EDI Disassembler does so by searching for an interchange control header (ISA, UNA, or UNB) even after an interchange control trailer (IEA or UNZ) has been encountered.  
   
--   Validates the envelope.  
+- Validates the envelope.  
   
--   Disassembles the interchange.  
+- Disassembles the interchange.  
   
--   Processes trigger fields for HIPAA interchanges.  
+- Processes trigger fields for HIPAA interchanges.  
   
--   Validates EDI and partner-specific properties, as applicable. This includes EDI schema validation, cross-field validation for X12-encoded messages (if configured), EDI structural validation, and extended schema validation (if the schema was customized with a node that has a non-EDI data type). For more information, see [Validation of Received EDI Messages](../core/validation-of-received-edi-messages.md).  
+- Validates EDI and partner-specific properties, as applicable. This includes EDI schema validation, cross-field validation for X12-encoded messages (if configured), EDI structural validation, and extended schema validation (if the schema was customized with a node that has a non-EDI data type). For more information, see [Validation of Received EDI Messages](../core/validation-of-received-edi-messages.md).  
   
--   Verifies that the interchange, group, and transaction set control numbers are not duplicates, if the checks are enabled in the **Validation** page (under **Interchange Settings**) of the bi-directional agreement tab of the **Agreement Properties** dialog box. Check the interchange control number against previously received interchanges. Checks the group control number against other group control numbers in the interchange. Checks the transaction set control number against other transaction set control numbers in that group. If a duplicate is discovered, the status report will indicate that a duplicate record exists.  
+- Verifies that the interchange, group, and transaction set control numbers are not duplicates, if the checks are enabled in the **Validation** page (under **Interchange Settings**) of the bi-directional agreement tab of the **Agreement Properties** dialog box. Check the interchange control number against previously received interchanges. Checks the group control number against other group control numbers in the interchange. Checks the transaction set control number against other transaction set control numbers in that group. If a duplicate is discovered, the status report will indicate that a duplicate record exists.  
   
--   Generates an XML document for each transaction set. On each XML file, promotes the context property of BTS.MessageType, setting it to the schema name with namespace.  
+- Generates an XML document for each transaction set. On each XML file, promotes the context property of BTS.MessageType, setting it to the schema name with namespace.  
   
--   Converts the entire interchange to XML if the **Inbound batch processing option** property is set to one of the two **Preserve Interchange** values. This property can is set from the **Local Host Settings** page under **Interchange Settings** of the bi-directional agreement tab of the **Agreement Properties** dialog box. The receive pipeline promotes the property ReuseEnvelope to identify the interchange as preserved.  
+- Converts the entire interchange to XML if the **Inbound batch processing option** property is set to one of the two **Preserve Interchange** values. This property can is set from the **Local Host Settings** page under **Interchange Settings** of the bi-directional agreement tab of the **Agreement Properties** dialog box. The receive pipeline promotes the property ReuseEnvelope to identify the interchange as preserved.  
   
--   Generates a Technical and/or Functional acknowledgment (if configured). This can include batching the acknowledgments (if configured). Promotes the context property of BTS.MessageType, setting it equal to the control schema in the http://schemas.microsoft.com/EDI/\<X12 or EDIFACT\> namespace (for example, X12_997_Root for a 997 acknowledgment). Also promotes the EDI.DestinationPartyName context property, which ensures that the acknowledgment will be picked up for sending. For more information, see [Sending an EDI Acknowledgment](../core/sending-an-edi-acknowledgment.md).  
+- Generates a Technical and/or Functional acknowledgment (if configured). This can include batching the acknowledgments (if configured). Promotes the context property of BTS.MessageType, setting it equal to the control schema in the http://schemas.microsoft.com/EDI/\<X12 or EDIFACT\> namespace (for example, X12_997_Root for a 997 acknowledgment). Also promotes the EDI.DestinationPartyName context property, which ensures that the acknowledgment will be picked up for sending. For more information, see [Sending an EDI Acknowledgment](../core/sending-an-edi-acknowledgment.md).  
   
--   Performs HIPAA 276/277 (version 5010 only) 834, 835 (version 4010 only) and 837 document splitting, if applicable.  
+- Performs HIPAA 276/277 (version 5010 only) 834, 835 (version 4010 only) and 837 document splitting, if applicable.  
   
--   Promotes or writes properties to the message context (see next section).  
+- Promotes or writes properties to the message context (see next section).  
   
 ## Promoting or Writing Properties to the Context  
  When the EDI Disassembler processes a received message, it promotes or writes the following properties to the message context:  
   
--   For an X12-encoded unbatched message, promotes the following properties from the envelope: ISA06, ISA08, ISA15; GS01, GS02, GS03, GS08; ST03 and ST01.  
+- For an X12-encoded unbatched message, promotes the following properties from the envelope: ISA06, ISA08, ISA15; GS01, GS02, GS03, GS08; ST03 and ST01.  
   
-    > [!NOTE]
-    >  For an incoming HIPAA 837 interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports three HIPAA 837 schemas: Claim-Dental_837D, Claim-Institutional_837I, and Claim-Professional_837P. The ST01 for each of these is “837".These three schemas have different values for GS08 in version 5010: "005010X223A1" for 837I, "005010X224A1" for 837D, and "005010X222" for 837P. The schemas have different values for GS08 in version 4010: "004010X096A1" for 837I, "004010X097A1" for 837D, and "004010X098A1" for 837P.  
+  > [!NOTE]
+  >  For an incoming HIPAA 837 interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports three HIPAA 837 schemas: Claim-Dental_837D, Claim-Institutional_837I, and Claim-Professional_837P. The ST01 for each of these is “837".These three schemas have different values for GS08 in version 5010: "005010X223A1" for 837I, "005010X224A1" for 837D, and "005010X222" for 837P. The schemas have different values for GS08 in version 4010: "004010X096A1" for 837I, "004010X097A1" for 837D, and "004010X098A1" for 837P.  
   
--   For an EDIFACT-encoded unbatched message, promotes the following properties from the envelope: UNB2.1, UNB2.3, UNB3.1, UNB11; UNG1, UNG2.1, UNG3.1; UNH2.1, UNH2.2, UNH2.3.  
+- For an EDIFACT-encoded unbatched message, promotes the following properties from the envelope: UNB2.1, UNB2.3, UNB3.1, UNB11; UNG1, UNG2.1, UNG3.1; UNH2.1, UNH2.2, UNH2.3.  
   
--   If a batched interchange is split, writes ISA_Segment and GS_Segment to the context for X12-encoded messages, or writes UNA_Segment, UNB_Segment, and UNG_Segment to the context for EDIFACT-encoded messages.  
+- If a batched interchange is split, writes ISA_Segment and GS_Segment to the context for X12-encoded messages, or writes UNA_Segment, UNB_Segment, and UNG_Segment to the context for EDIFACT-encoded messages.  
   
-    > [!NOTE]
-    >  The above segments are written to the context. They are not promoted to the context. You can, however, append these segments to a transaction set using the Message Enrichment sample. You can also take the code that appends the samples and add it to a custom pipeline component. For more information, see [Message Enrichment Sample (BizTalk Server Sample)](../core/message-enrichment-sample-biztalk-server-sample.md).  
+  > [!NOTE]
+  >  The above segments are written to the context. They are not promoted to the context. You can, however, append these segments to a transaction set using the Message Enrichment sample. You can also take the code that appends the samples and add it to a custom pipeline component. For more information, see [Message Enrichment Sample (BizTalk Server Sample)](../core/message-enrichment-sample-biztalk-server-sample.md).  
   
-    > [!NOTE]
-    >  The ISA_Segment promoted property contains security/authorization information (ISA02, Authorization Information, and ISA04, Security Information) that may lead to information disclosure. You can use the **Mask security/authorization/password information property in context property** (in **Local Host Settings** page for **Interchange Settings** for bi-directional agreement properties) to replace the each character in the ISA02 and ISA04 fields with a ‘#’ character. This is a one-way process: the ‘#’ characters cannot be converted to actual characters.  
+  > [!NOTE]
+  >  The ISA_Segment promoted property contains security/authorization information (ISA02, Authorization Information, and ISA04, Security Information) that may lead to information disclosure. You can use the **Mask security/authorization/password information property in context property** (in **Local Host Settings** page for **Interchange Settings** for bi-directional agreement properties) to replace the each character in the ISA02 and ISA04 fields with a ‘#’ character. This is a one-way process: the ‘#’ characters cannot be converted to actual characters.  
   
--   For X12- and EDIFACT-encoded messages, promotes ReuseEnvelope, which indicates whether a batched interchange is split or preserved.  
+- For X12- and EDIFACT-encoded messages, promotes ReuseEnvelope, which indicates whether a batched interchange is split or preserved.  
   
--   If a batched interchange is preserved, promotes the following properties:  
+- If a batched interchange is preserved, promotes the following properties:  
   
-    -   InboundTransportatLocation  
+  -   InboundTransportatLocation  
   
-    -   InboundTransportType  
+  -   InboundTransportType  
   
-    -   ISA05  
+  -   ISA05  
   
-    -   ISA07  
+  -   ISA07  
   
-    -   ISA06  
+  -   ISA06  
   
-    -   ISA08  
+  -   ISA08  
   
-    -   ISA15  
+  -   ISA15  
   
-    -   LastInterchangeMessage = {True&#124;False}  
+  -   LastInterchangeMessage = {True&#124;False}  
   
-    -   MessageType  
+  -   MessageType  
   
-    -   ReceivePortID  
+  -   ReceivePortID  
   
-    -   ReceivePortName  
+  -   ReceivePortName  
   
-    -   ReuseEnvelope  
+  -   ReuseEnvelope  
   
 ## Parsing the Envelope  
  The EDI receive pipeline uses the header control schema to parse the envelope of a received EDI message and the EDI document schema to parse the transaction sets/messages in the interchange.  
@@ -128,9 +128,9 @@ manager: "anneta"
   
  If the EDI disassembler encounters an EDI processing error, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] posts the following two errors in the Event Viewer (if such posting is enabled):  
   
--   An error logged by the source [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] while it suspends the message. This is a required error relating to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processing.  
+- An error logged by the source [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] while it suspends the message. This is a required error relating to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processing.  
   
--   An error reporting problems in the transaction set, as logged by the source [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI. This error is EDI-specific.  
+- An error reporting problems in the transaction set, as logged by the source [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI. This error is EDI-specific.  
   
 ## Using Agreement Properties  
  The EDI Disassembler will use agreement properties if it can identify the agreement (see [Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages](../core/agreement-resolution-schema-discovery-and-authorization-for-received-edi.md)). If a matching agreement cannot be found and the corresponding values are not available in the fallback agreement as well, the EDI Disassembler properties set in the **Properties** window of Visual Studio will be used. However, this fallback will not occur if authentication is required in receive port properties (if either **Drop messages if authentication fails** or **Keep messages if authentication fails** are selected). In this case, an agreement must be configured; if not, the interchange will be suspended.  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10784
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10784|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_FILE_OPEN_FAILED|  
-|Message Text|Could not create or open the specified file. Check the file name and access permissions.|  
+|                 |                                                                                          |
+|-----------------|------------------------------------------------------------------------------------------|
+|  Product Name   |                                Enterprise Single Sign-On                                 |
+| Product Version |                [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                |
+|    Event ID     |                                          10784                                           |
+|  Event Source   |                                          ENTSSO                                          |
+|    Component    |                                           N/A                                            |
+|  Symbolic Name  |                                ENTSSO_E_FILE_OPEN_FAILED                                 |
+|  Message Text   | Could not create or open the specified file. Check the file name and access permissions. |
   
 ## Explanation  
  Could not create or open the specified file.  

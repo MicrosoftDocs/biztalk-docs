@@ -20,24 +20,24 @@ manager: "anneta"
 # Invoke tRFCs in SAP using the WCF Service Model
 Transactional Remote Function Calls (tRFCs) guarantee a *one-time* execution of an RFC on an SAP system. You can invoke any of the RFCs surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC. Invoking a tRFC in the WCF service model is similar to invoking an RFC with the following differences:  
   
--   The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces tRFCs under a different node (TRFC) than RFCs (RFC).  
+- The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces tRFCs under a different node (TRFC) than RFCs (RFC).  
   
--   tRFC client calls do not return values for SAP export and changing parameters.  
+- tRFC client calls do not return values for SAP export and changing parameters.  
   
--   tRFC operations include a GUID parameter that is mapped to the SAP transaction ID (TID) for the tRFC by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- tRFC operations include a GUID parameter that is mapped to the SAP transaction ID (TID) for the tRFC by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   After you invoke a tRFC, you must invoke the RfcConfirmTransID operation to confirm (commit) the tRFC on the SAP system. This operation is surfaced directly under the TRFC node.  
+- After you invoke a tRFC, you must invoke the RfcConfirmTransID operation to confirm (commit) the tRFC on the SAP system. This operation is surfaced directly under the TRFC node.  
   
- For more information about tRFC operations and the RfcConfirmTransID operation, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).  
+  For more information about tRFC operations and the RfcConfirmTransID operation, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).  
   
- The following sections show you how to invoke tRFCs on the SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  The following sections show you how to invoke tRFCs on the SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## The WCF Client Class  
  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces all tRFC operations under a single service contract, "Trfc". This means that a single WCF client class, **TrfcClient**, is created for all of the tRFC operations that you want to invoke. Each target tRFC is represented as a method of this class. For each method:  
   
--   Complex SAP types such as structures are surfaced as .NET classes with properties that correspond to the fields of the SAP type. These classes are defined in the following namespace: **microsoft.lobservices.sap._2007._03.Types.Rfc**.  
+- Complex SAP types such as structures are surfaced as .NET classes with properties that correspond to the fields of the SAP type. These classes are defined in the following namespace: **microsoft.lobservices.sap._2007._03.Types.Rfc**.  
   
- The following code shows part of the **TrfcClient** class and the method that invokes BAPI_SALESORDER_CREATEFROMDAT2 (as a tRFC) on the SAP system. The **TransactionalRfcOperationIdentifier** parameter contains the GUID that is mapped to the SAP TID. Not all of the parameters to the method are shown.  
+  The following code shows part of the **TrfcClient** class and the method that invokes BAPI_SALESORDER_CREATEFROMDAT2 (as a tRFC) on the SAP system. The **TransactionalRfcOperationIdentifier** parameter contains the GUID that is mapped to the SAP TID. Not all of the parameters to the method are shown.  
   
 ```  
 [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -80,50 +80,50 @@ public void RfcConfirmTransID(System.Guid TransactionalRfcOperationIdentifier) {
   
 #### To create a tRFC client application  
   
-1.  Generate a **TrfcClient** class. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a **TrfcClient** class that targets the RFCs with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF Service Contract for SAP solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md). Ensure that the RfcConfirmTransID operation is included in the **TrfcClient** class.  
+1. Generate a **TrfcClient** class. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a **TrfcClient** class that targets the RFCs with which you want to work. For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF Service Contract for SAP solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md). Ensure that the RfcConfirmTransID operation is included in the **TrfcClient** class.  
   
-2.  Create an instance of the **TrfcClient** class generated in step 1 and specify a client binding. Specifying a client binding involves specifying the binding and endpoint address that the **TrfcClient** will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). The following code initializes the **TrfcClient** from configuration and sets the credentials for the SAP system.  
+2. Create an instance of the **TrfcClient** class generated in step 1 and specify a client binding. Specifying a client binding involves specifying the binding and endpoint address that the **TrfcClient** will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md). The following code initializes the **TrfcClient** from configuration and sets the credentials for the SAP system.  
   
-    ```  
-    TrfcClient trfcClient = new TrfcClient("SAPBinding_Rfc");  
+   ```  
+   TrfcClient trfcClient = new TrfcClient("SAPBinding_Rfc");  
   
-    trfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
-    trfcClient.ClientCredentials.UserName.Password = "YourPassword";  
-    ```  
+   trfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
+   trfcClient.ClientCredentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  Open the **TrfcClient**.  
+3. Open the **TrfcClient**.  
   
-    ```  
-    trfcClient.Open();  
-    ```  
+   ```  
+   trfcClient.Open();  
+   ```  
   
-4.  Invoke the appropriate method on the **TrfcClient** created in step 2 to invoke the target tRFC on the SAP system. You can pass a variable that contains a GUID or that contains an empty GUID for the **TransactionalRrcOperationIdentifier** parameter. If you pass an empty GUID, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] generates one for you. The following code invokes BAPI_SALESORDER_CREATEFROMDAT2 as a tRFC on the SAP system (not all parameters to the method are shown). A GUID is specified.  
+4. Invoke the appropriate method on the **TrfcClient** created in step 2 to invoke the target tRFC on the SAP system. You can pass a variable that contains a GUID or that contains an empty GUID for the **TransactionalRrcOperationIdentifier** parameter. If you pass an empty GUID, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] generates one for you. The following code invokes BAPI_SALESORDER_CREATEFROMDAT2 as a tRFC on the SAP system (not all parameters to the method are shown). A GUID is specified.  
   
-    ```  
-    transactionalRfcOperationIdentifier = Guid.NewGuid();  
+   ```  
+   transactionalRfcOperationIdentifier = Guid.NewGuid();  
   
-    //invoke RFC_CUSTOMER_GET as a tRFC  
-    trfcClient.BAPI_SALESORDER_CREATEFROMDAT2(  
-                                    request.BEHAVE_WHEN_ERROR,  
-                                    request.BINARY_RELATIONSHIPTYPE,  
-                                    request.CONVERT,  
+   //invoke RFC_CUSTOMER_GET as a tRFC  
+   trfcClient.BAPI_SALESORDER_CREATEFROMDAT2(  
+                                   request.BEHAVE_WHEN_ERROR,  
+                                   request.BINARY_RELATIONSHIPTYPE,  
+                                   request.CONVERT,  
   
-                                    ...  
+                                   ...  
   
-                                    ref transactionalRfcOperationIdentifier);  
-    ```  
+                                   ref transactionalRfcOperationIdentifier);  
+   ```  
   
-5.  To confirm the TID associated with the tRFC on the SAP system, invoke the **RfcConfirmTransID** method on the **TrfcClient**. Specify the GUID returned in step 4 for the **TransactionRfcOperationIdentifier**parameter.  
+5. To confirm the TID associated with the tRFC on the SAP system, invoke the **RfcConfirmTransID** method on the **TrfcClient**. Specify the GUID returned in step 4 for the **TransactionRfcOperationIdentifier**parameter.  
   
-    ```  
-    trfcClient.RfcConfirmTransID(transactionalRfcOperationIdentifier);  
-    ```  
+   ```  
+   trfcClient.RfcConfirmTransID(transactionalRfcOperationIdentifier);  
+   ```  
   
-6.  Close the **TrfcClient** when you are done using it (after you have finished invoking all tRFCs).  
+6. Close the **TrfcClient** when you are done using it (after you have finished invoking all tRFCs).  
   
-    ```  
-    trfcClient.Close();   
-    ```  
+   ```  
+   trfcClient.Close();   
+   ```  
   
 ### Example  
  The following example shows how to invoke BAPI_SALESORDER_CREATE as a tRFC.  

@@ -32,35 +32,35 @@ This topic discusses browsing a JD Edwards OneWorld server and importing the sch
   
 ### To import schemas  
   
-1.  Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Right-click the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project, point to **Add**, and select **Add Generated Items**.  
+2. Right-click the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project, point to **Add**, and select **Add Generated Items**.  
   
-3.  Click **Add adapter**, and select **Open**.  
+3. Click **Add adapter**, and select **Open**.  
   
-4.  Select the adapter, and click **Next**.  
+4. Select the adapter, and click **Next**.  
   
-     The JD. Edwards OneWorld XE system appears in the browser.  
+    The JD. Edwards OneWorld XE system appears in the browser.  
   
-     ![](../core/media/jdedadapter-04-jdebrowse.gif "JDEdAdapter_04_JDEBrowse")  
+    ![](../core/media/jdedadapter-04-jdebrowse.gif "JDEdAdapter_04_JDEBrowse")  
   
-     The Adapter Wizard displays a tree of all of the defined systems. JD Edwards OneWorld has too many modules to show in one long list. The modules are grouped together according to the first three characters of their name.  
+    The Adapter Wizard displays a tree of all of the defined systems. JD Edwards OneWorld has too many modules to show in one long list. The modules are grouped together according to the first three characters of their name.  
   
-    -   The first level of the hierarchy is the list of all three-character prefixes for the module names.  
+   - The first level of the hierarchy is the list of all three-character prefixes for the module names.  
   
-    -   The second level lists all the modules that share the same three-character prefix.  
+   - The second level lists all the modules that share the same three-character prefix.  
   
-    -   The last level lists the business functions belonging to a module. When you expand the services icon you can view its operations.  
+   - The last level lists the business functions belonging to a module. When you expand the services icon you can view its operations.  
   
      Expanding an operation displays the input/output arguments.  
   
      You can expand the input/output arguments to view the data types of the arguments.  
   
-    > [!NOTE]
-    >  If the server object definitions change, you must regenerate the schema to refresh the data it contains.  
+   > [!NOTE]
+   >  If the server object definitions change, you must regenerate the schema to refresh the data it contains.  
   
-    > [!NOTE]
-    >  If you change jdearglist.txt after generating your schema, you must regenerate the schema to refresh the data it contains. For information on jdearglist.txt, see to [Handling String Values](../core/handling-string-values1.md).  
+   > [!NOTE]
+   >  If you change jdearglist.txt after generating your schema, you must regenerate the schema to refresh the data it contains. For information on jdearglist.txt, see to [Handling String Values](../core/handling-string-values1.md).  
   
 ## Generating Schemas  
  Use the following procedure to generate schemas.  

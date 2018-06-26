@@ -42,13 +42,13 @@ BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd
   
  If outgoing messages are routed with content-based routing (CBR) where the **http://schemas.microsoft.com/BizTalk/2003/system-properties#Operation** property is not set, WCF send adapters will set the whole action mapping string to the action of the outgoing WCF messages. To work around this, you can do one of the following:  
   
--   Set the action field on the send port to http://MyService/IMyContract/MyAction1.  
+- Set the action field on the send port to http://MyService/IMyContract/MyAction1.  
   
--   Set the **BTS.Operation** context property in a pipeline. For example, set the value of **http://schemas.microsoft.com/BizTalk/2003/system-properties#Operation** to Operation1.  
+- Set the **BTS.Operation** context property in a pipeline. For example, set the value of **http://schemas.microsoft.com/BizTalk/2003/system-properties#Operation** to Operation1.  
   
--   Leave the action field blank and use the action from the incoming message instead.  
+- Leave the action field blank and use the action from the incoming message instead.  
   
- You can also use the BizTalk WCF Service Consuming Wizard to consume the WCF services with single action or action mapping. For more details, see [How to Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service](../core/how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service.md).  
+  You can also use the BizTalk WCF Service Consuming Wizard to consume the WCF services with single action or action mapping. For more details, see [How to Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service](../core/how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service.md).  
   
 ## See Also  
  [Configuring Dynamic Send Ports Using WCF Adapters Context Properties](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)

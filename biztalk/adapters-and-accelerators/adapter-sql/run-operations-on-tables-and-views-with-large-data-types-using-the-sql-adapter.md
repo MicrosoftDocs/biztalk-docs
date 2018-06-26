@@ -28,23 +28,23 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
  You must perform the following tasks on the computer running SQL Server and the computer running the adapter client.  
 
   
--   **On the computer running SQL Server**  
+- **On the computer running SQL Server**  
   
-    -   You must enable FILESTREAM on the SQL Server instance. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122486](http://go.microsoft.com/fwlink/?LinkId=122486).  
+  -   You must enable FILESTREAM on the SQL Server instance. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122486](http://go.microsoft.com/fwlink/?LinkId=122486).  
   
-    -   You must create a FILESTREAM-enabled database. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122487](http://go.microsoft.com/fwlink/?LinkId=122487).  
+  -   You must create a FILESTREAM-enabled database. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122487](http://go.microsoft.com/fwlink/?LinkId=122487).  
   
-    -   You must have a table for storing FILESTREAM data. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122488](http://go.microsoft.com/fwlink/?LinkId=122488).  
+  -   You must have a table for storing FILESTREAM data. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122488](http://go.microsoft.com/fwlink/?LinkId=122488).  
   
-    -   You must configure MSDTC on the computer hosting the SQL Server database. For instruction on how to configure MSDTC, see [Configure MSDTC on SQL Server and adapter client](../../adapters-and-accelerators/adapter-sql/configure-msdtc-on-sql-server-and-adapter-client.md).  
+  -   You must configure MSDTC on the computer hosting the SQL Server database. For instruction on how to configure MSDTC, see [Configure MSDTC on SQL Server and adapter client](../../adapters-and-accelerators/adapter-sql/configure-msdtc-on-sql-server-and-adapter-client.md).  
   
--   **On the computer running the adapter client**  
+- **On the computer running the adapter client**  
   
-    -   You must have the SQL Client Connectivity SDK installed. You can install the SQL Client Connectivity SDK by running the SQL Server 2008 setup and selecting **SQL Client Connectivity SDK** in the **Feature Selection** page of the wizard. The adapter uses the sqlncli10.dll, installed with the SQL Client Connectivity SDK, to perform FILESTREAM operations.  
+  -   You must have the SQL Client Connectivity SDK installed. You can install the SQL Client Connectivity SDK by running the SQL Server 2008 setup and selecting **SQL Client Connectivity SDK** in the **Feature Selection** page of the wizard. The adapter uses the sqlncli10.dll, installed with the SQL Client Connectivity SDK, to perform FILESTREAM operations.  
   
-    -   You must configure MSDTC on the computer running the adapter client. For instruction on how to configure MSDTC, see [Configure MSDTC on SQL Server and adapter client](../../adapters-and-accelerators/adapter-sql/configure-msdtc-on-sql-server-and-adapter-client.md).  
+  -   You must configure MSDTC on the computer running the adapter client. For instruction on how to configure MSDTC, see [Configure MSDTC on SQL Server and adapter client](../../adapters-and-accelerators/adapter-sql/configure-msdtc-on-sql-server-and-adapter-client.md).  
   
- After you have completed these tasks, you are all set to insert or update FILESTREAM data in SQL Server 2008 database tables.  
+  After you have completed these tasks, you are all set to insert or update FILESTREAM data in SQL Server 2008 database tables.  
   
 ## How This Topic Demonstrates Operations on Large Data Types  
  To demonstrate how to perform Set<column_name> operations on tables with large data types, take a table, Records, that has columns Id and Document. The Id column is of type uniqueidentifier and takes a GUID. The Document column is of type VARBINARY(MAX). Assume that the Id column already has a GUID ‘`438B7B4C-5491-409F-BCC1-78817C399EC3`’. To update the Document column, the adapter exposes the SetDocument operation.  
@@ -55,19 +55,19 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
 ## How to Perform Operations on a SQL Server Database  
  Performing an operation on a SQL Server database by using [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to develop BizTalk applications with the SQL adapter](../../adapters-and-accelerators/adapter-sql/building-blocks-to-develop-biztalk-applications-with-the-sql-adapter.md). To perform operations on tables with large data types, these tasks are:  
   
-1.  Create a BizTalk project, and generate schema for the Set<column_name> operation. For this topic, generate schema for the **SetDocument** operation for the **Records** table.  
+1. Create a BizTalk project, and generate schema for the Set<column_name> operation. For this topic, generate schema for the **SetDocument** operation for the **Records** table.  
   
-2.  Create messages in the BizTalk project for sending and receiving messages from the SQL Server database.  
+2. Create messages in the BizTalk project for sending and receiving messages from the SQL Server database.  
   
-3.  Create an orchestration to invoke the SetDocument operation on the Records table.  
+3. Create an orchestration to invoke the SetDocument operation on the Records table.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Sample Based on This Topic  
  A sample, FILESTREAMOperation, based on this topic is provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SQL adapter](../../adapters-and-accelerators/adapter-sql/samples-for-the-sql-adapter.md).  
@@ -145,24 +145,24 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SQL Server database.  
+  - Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SQL Server database.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SQL Server database.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SQL Server database.  
   
-    -   Define a physical WCF-Custom or WCF-SQL send port to send messages to the SQL Server database. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md).
+  - Define a physical WCF-Custom or WCF-SQL send port to send messages to the SQL Server database. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md).
   
-        > [!IMPORTANT]
-        >  The operation to enter FILESTREAM data must be performed within a transaction. So, make sure the **UseAmbientTransaction** binding property is set to **True** on the WCF-Custom or WCF-SQL send port. For more information about the binding property, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
-  
-        > [!IMPORTANT]
-        >  For performing an operation to insert FILESTREAM data you must always use Windows Authentication to connect to SQL Server on the WCF-Custom or WCF-SQL send port. So, in the **Credentials** tab in the port properties dialog box, select the **Do not use single Sign-On** option, and leave the user name and password blank.  
-  
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).
+    > [!IMPORTANT]
+    >  The operation to enter FILESTREAM data must be performed within a transaction. So, make sure the **UseAmbientTransaction** binding property is set to **True** on the WCF-Custom or WCF-SQL send port. For more information about the binding property, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
+    > 
+    > [!IMPORTANT]
+    >  For performing an operation to insert FILESTREAM data you must always use Windows Authentication to connect to SQL Server on the WCF-Custom or WCF-SQL send port. So, in the **Credentials** tab in the port properties dialog box, select the **Do not use single Sign-On** option, and leave the user name and password blank.  
+    > 
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).
   
 ## Starting the Application  
  You must start the BizTalk application for performing the **SetDocument** operation on the **Records** table. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).

@@ -121,7 +121,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Get Started</h3>
-                                                    <p>Whether you're brand new to BizTalk, architecting a solution, or a seasoned
+                                                    <p>Whether you&#39;re brand new to BizTalk, architecting a solution, or a seasoned
                                                         pro, let us help you get started.</p>
                                                 </div>
                                             </div>
@@ -698,7 +698,7 @@ ms.author: mandia
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>What's New</h3>
+                                                    <h3>What&#39;s New</h3>
                                                     <p>See what’s new in your latest HIS sversion</p>
                                                 </div>
                                             </div>
@@ -737,7 +737,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Core documentation</h3>
-                                                    <p>Learn about network, data, application & message integration, and more.</p>
+                                                    <p>Learn about network, data, application &amp; message integration, and more.</p>
                                                 </div>
                                             </div>
                                         </div>

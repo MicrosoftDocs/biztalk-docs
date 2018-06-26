@@ -32,21 +32,21 @@ This topic discusses the design time and run-time control flows in Microsoft Biz
   
  The adapter enables applications in the enterprise to interact with the JD Edwards OneWorld application by extending functionality from the application in the form of one or more of the following:  
   
--   Native data formats  
+- Native data formats  
   
--   Procedures  
+- Procedures  
   
--   Methods  
+- Methods  
   
--   Messages  
+- Messages  
   
--   Properties  
+- Properties  
   
--   Application interfaces  
+- Application interfaces  
   
- At run time, BizTalk Adapter for JD Edwards OneWorld builds a description of application interfaces for client applications that interact with JD Edwards OneWorld. The adapter can create, delete, and invoke business objects as needed, to perform computations in the application and directly invoke methods. All calls into JD Edwards OneWorld are synchronous calls. The adapter receives the XML messages from BizTalk Server, encloses the messages in a SOAP envelope, and transforms the data for the call from SOAP messages into Java types.  
+  At run time, BizTalk Adapter for JD Edwards OneWorld builds a description of application interfaces for client applications that interact with JD Edwards OneWorld. The adapter can create, delete, and invoke business objects as needed, to perform computations in the application and directly invoke methods. All calls into JD Edwards OneWorld are synchronous calls. The adapter receives the XML messages from BizTalk Server, encloses the messages in a SOAP envelope, and transforms the data for the call from SOAP messages into Java types.  
   
- The reply is sent back following a similar process:  
+  The reply is sent back following a similar process:  
   
 1.  The Java types are transformed into SOAP messages.  
   

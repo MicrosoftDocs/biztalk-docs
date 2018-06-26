@@ -29,13 +29,13 @@ manager: "anneta"
   
  The purpose of the Microsoft Office SharePoint Server application that you are creating is to:  
   
--   Search for a customer in the SAP system based on a customer name.  
+- Search for a customer in the SAP system based on a customer name.  
   
--   Select a customer from the list of fetched customers and retrieve the details for the customer.  
+- Select a customer from the list of fetched customers and retrieve the details for the customer.  
   
--   Select a customer from the list of fetched customers and retrieve the sales orders for the customer.  
+- Select a customer from the list of fetched customers and retrieve the sales orders for the customer.  
   
- For each of these requirements, you must complete a set of tasks in the Business Data Catalog Definition Editor tool. This topic provides instructions on how to perform these tasks.  
+  For each of these requirements, you must complete a set of tasks in the Business Data Catalog Definition Editor tool. This topic provides instructions on how to perform these tasks.  
   
 ## Prerequisites  
   
@@ -51,39 +51,39 @@ manager: "anneta"
   
 ##### To connect to the WCF service and create entities  
   
-1.  Start the Business Data Catalog Definition Editor. On the **Start** menu, click **Microsoft Business Data Catalog Definition Editor**.  
+1. Start the Business Data Catalog Definition Editor. On the **Start** menu, click **Microsoft Business Data Catalog Definition Editor**.  
   
-2.  On the toolbar, click **Add LOB System**.  
+2. On the toolbar, click **Add LOB System**.  
   
-3.  In the Add LOB System window, click **Connect to Webservice**.  
+3. In the Add LOB System window, click **Connect to Webservice**.  
   
-4.  In the **URL** box, type the URL for the WCF service. The URL must be in the following format:  
+4. In the **URL** box, type the URL for the WCF service. The URL must be in the following format:  
   
-    ```  
-    https://<computer_name>/Customer_Order/Rfc.svc?wsdl  
-    ```  
+   ```  
+   https://<computer_name>/Customer_Order/Rfc.svc?wsdl  
+   ```  
   
-     where Rfc.svc is the file created for the Rfc contract.  
+    where Rfc.svc is the file created for the Rfc contract.  
   
-     The URL is available when you test whether the WCF service is published successfully, as described in the topic [Step 1: Publish the SAP Artifacts as a WCF Service](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md).  
+    The URL is available when you test whether the WCF service is published successfully, as described in the topic [Step 1: Publish the SAP Artifacts as a WCF Service](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md).  
   
-5.  Click **Connect**.  
+5. Click **Connect**.  
   
-6.  To see the operations you selected in the WCF Adapter Service Development Wizard, click the **Add Web Method** tab. You will see the following methods:  
+6. To see the operations you selected in the WCF Adapter Service Development Wizard, click the **Add Web Method** tab. You will see the following methods:  
   
-    -   SD_RFC_CUSTOMER_GET  
+   - SD_RFC_CUSTOMER_GET  
   
-    -   BAPI_SALESORDER_GETLIST  
+   - BAPI_SALESORDER_GETLIST  
   
-         ![Add web methods to the BDC application](../../adapters-and-accelerators/adapter-sap/media/ea411db2-5cf4-4486-83da-57d3fc332448.gif "ea411db2-5cf4-4486-83da-57d3fc332448")  
+      ![Add web methods to the BDC application](../../adapters-and-accelerators/adapter-sap/media/ea411db2-5cf4-4486-83da-57d3fc332448.gif "ea411db2-5cf4-4486-83da-57d3fc332448")  
   
      Drag the methods to the Design Surface. Make sure you drag both operations to the different entities.  
   
      ![Create entities for the web methods](../../adapters-and-accelerators/adapter-sap/media/ce4e9bc3-1eae-43ae-8375-e44cf19aaffc.gif "ce4e9bc3-1eae-43ae-8375-e44cf19aaffc")  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
-8.  In the **Enter the name for the LOB System** dialog box, type a name in the **LOB System Name** box. For this example, call it **Customer_Order**, and then click **OK**.  
+8. In the **Enter the name for the LOB System** dialog box, type a name in the **LOB System Name** box. For this example, call it **Customer_Order**, and then click **OK**.  
   
 9. In the Business Data Catalog Definition Editor, the two entities are listed as **Entity0** and **Entity1**. Give these entities friendly names. Rename the entity for SD_RFC_CUSTOMER_GET to **Customer**, and rename the entity for BAPI_SALESORDER_GETLIST to **SalesOrder**. Perform the following steps to rename the entities:  
   

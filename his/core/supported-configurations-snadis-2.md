@@ -16,34 +16,34 @@ manager: "anneta"
 # Supported Configurations (SNADIS)
 The 2.1 node supports the full range of station roles:  
   
--   Primary data link control (DLC) stations  
+- Primary data link control (DLC) stations  
   
--   Secondary DLC stations  
+- Secondary DLC stations  
   
--   DLC station role negotiation  
+- DLC station role negotiation  
   
- For Synchronous Data Link Control (SDLC) connections, the node allows:  
+  For Synchronous Data Link Control (SDLC) connections, the node allows:  
   
--   Leased lines configured as:  
+- Leased lines configured as:  
   
-    -   Secondary point-to-point  
+  -   Secondary point-to-point  
   
-    -   Primary point-to-point or multipoint  
+  -   Primary point-to-point or multipoint  
   
-    -   Negotiable point-to-point  
+  -   Negotiable point-to-point  
   
--   Switched lines (point-to-point only) with:  
+- Switched lines (point-to-point only) with:  
   
-    -   Remote physical unit (PU) identification through XID exchange  
+  -   Remote physical unit (PU) identification through XID exchange  
   
-    -   Auto dial (with suitable hardware support)  
+  -   Auto dial (with suitable hardware support)  
   
-    -   Incoming call support  
+  -   Incoming call support  
   
- For X.25 and 802.2, the node also supports:  
+  For X.25 and 802.2, the node also supports:  
   
--   Multiple connections over one physical link  
+- Multiple connections over one physical link  
   
--   Incoming calls with validation of caller's address  
+- Incoming calls with validation of caller's address  
   
- In addition, for X.25, the node supports permanent virtual circuits (PVCs) and switched virtual circuits (SVCs).
+  In addition, for X.25, the node supports permanent virtual circuits (PVCs) and switched virtual circuits (SVCs).

@@ -17,15 +17,15 @@ manager: "anneta"
 # Unable to import configuration
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Unable to import configuration from file "{0}"|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                         0                                          |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                                         0                                          |
+|  Message Text   |                   Unable to import configuration from file "{0}"                   |
   
 ## Explanation  
  There could be multiple reasons for this error:  
@@ -44,22 +44,22 @@ manager: "anneta"
   
 #### To import a valid configuration file  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and click **BizTalk Server Administration**.  
   
-2.  In the Console Root, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and expand  **Applications**.  
+2. In the Console Root, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and expand  **Applications**.  
   
-3.  Locate your application and then locate your transport.  
+3. Locate your application and then locate your transport.  
   
-4.  Right-click the transport name.  
+4. Right-click the transport name.  
   
-5.  Click **Properties**.  
+5. Click **Properties**.  
   
-6.  In the port **Type** list, select the correct port.  
+6. In the port **Type** list, select the correct port.  
   
-7.  Click **Configure**.  
+7. Click **Configure**.  
   
-8.  In the **WCF [***transport type***] Transport Properties** dialog box, click the **Import/Export** tab.  
+8. In the **WCF [**<em>transport type</em>**] Transport Properties** dialog box, click the **Import/Export** tab.  
   
 9. Click **Import**. Import a valid and complete configuration file.  
   
- You can also verify the validity of the configuration file by opening it with the Service Configuration Editor **(Start > All Programs > Windows SDK)** (this step assumes you have the Windows SDK installed.) Open **svcConfigEditor.exe** and verify each property of the configuration file.
+   You can also verify the validity of the configuration file by opening it with the Service Configuration Editor **(Start > All Programs > Windows SDK)** (this step assumes you have the Windows SDK installed.) Open **svcConfigEditor.exe** and verify each property of the configuration file.

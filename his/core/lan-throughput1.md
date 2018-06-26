@@ -40,11 +40,11 @@ Data flow control showing maximum sizes over an Ethernet: 1487/1484 bytes for RU
   
  The test results show that when sending 32000 bytes, and receiving 32,001 bytes back, TI can drive the 100baseT close to its maximum performance if there is only minimal data conversion and no other "business logic" or processing competing with TI on the server. This is, of course, with an isolated optimized network. The backbone network in the real world must endure a lot more overhead without becoming the bottleneck for the system. To be on the safe side, a prudent design criterion for 100baseT LAN would be to keep the planned load as follows:  
   
--   Less than 4 MBps for systems that mainly move data.  
+- Less than 4 MBps for systems that mainly move data.  
   
--   Less then 3 MBps for systems with short interactive transaction messages.  
+- Less then 3 MBps for systems with short interactive transaction messages.  
   
- The reason for designing the interactive LAN load to a lower limit is due to the higher number of frames per MBps. Observing these criteria will set the peak LAN load to a safe 50% of the LAN's capacity.  
+  The reason for designing the interactive LAN load to a lower limit is due to the higher number of frames per MBps. Observing these criteria will set the peak LAN load to a safe 50% of the LAN's capacity.  
   
 ## See Also  
  [System Sizing](../core/system-sizing1.md)

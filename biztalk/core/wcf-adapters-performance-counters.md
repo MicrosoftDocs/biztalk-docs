@@ -46,13 +46,13 @@ Performance counters enable you to monitor specific aspects of work performed on
   
  The **performanceCounters** attribute can be set to enable a specific type of performance counters. Valid values are  
   
--   **All**: All category counters (**ServiceModelService**, **ServiceModelEndpoint**, and **ServiceModelOperation**) are enabled.  
+- **All**: All category counters (**ServiceModelService**, **ServiceModelEndpoint**, and **ServiceModelOperation**) are enabled.  
   
--   **ServiceOnly**: Only **ServiceModelService** category counters are enabled.  
+- **ServiceOnly**: Only **ServiceModelService** category counters are enabled.  
   
--   **Off**: ServiceModel* performance counters are disabled. This is the default value.  
+- **Off**: ServiceModel* performance counters are disabled. This is the default value.  
   
- After modifying the BTSNTSvc.exe.config file, you must restart the host instances running the in-process WCF receive locations.  
+  After modifying the BTSNTSvc.exe.config file, you must restart the host instances running the in-process WCF receive locations.  
   
 ## Types of Performance Counters  
  WCF performance counters are scoped to three different levels: service, endpoint, and operation.  

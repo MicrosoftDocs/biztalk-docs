@@ -52,13 +52,13 @@ OLE DB error: OLE DB or ODBC error: Login failed for user <username>.; 42000. 
 ### BAM configuration might result in warnings related to the BAM Analysis logon account  
  BAM configuration adds the permissions for BAM Analysis logon account in all the databases related to BAM to be able to access them. However, the configuration might fail to do so and give a warning if any of the following prerequisites is not met:  
   
--   The user under which the BAM configuration is run should be an administrator on the computer where Analysis Service is installed.  
+- The user under which the BAM configuration is run should be an administrator on the computer where Analysis Service is installed.  
   
--   Remote administration through firewall must be allowed on that computer.  
+- Remote administration through firewall must be allowed on that computer.  
   
--   You might also get a warning if the BAM Analysis logon account is an administrator for the SQL Server where the BAM-related databases are installed. You can ignore the warning and move ahead.  
+- You might also get a warning if the BAM Analysis logon account is an administrator for the SQL Server where the BAM-related databases are installed. You can ignore the warning and move ahead.  
   
- **Workaround** – You must manually add the permission for the BAM Analysis logon account on all databases related to BAM.  
+  **Workaround** – You must manually add the permission for the BAM Analysis logon account on all databases related to BAM.  
   
 ### BAM Portal Compatibility with Internet Explorer 10  
  To use the BAM Portal with Internet Explorer 10, you must always use the browser in Compatibility mode.  

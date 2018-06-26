@@ -18,12 +18,12 @@ Use the **#include** command to include the WINCSV.H file in any application tha
   
  The WINCSV.H file, which is included with the Microsoft® Host Integration Server Software Development Kit (SDK), contains:  
   
--   The CSV function prototype.  
+- The CSV function prototype.  
   
--   The structure declarations for the CSV verb control blocks (VCBs).  
+- The structure declarations for the CSV verb control blocks (VCBs).  
   
--   The **#define** statements that substitute meaningful symbolic constants for hexadecimal values supplied to and returned by CSVs.  
+- The **#define** statements that substitute meaningful symbolic constants for hexadecimal values supplied to and returned by CSVs.  
   
- If a **#define** statement pertains to a hexadecimal value that is longer than one byte, a comment shows how the hexadecimal value is stored in memory.  
+  If a **#define** statement pertains to a hexadecimal value that is longer than one byte, a comment shows how the hexadecimal value is stored in memory.  
   
- When setting or testing CSV parameters, use the symbolic constants defined by the WINCSV.H file. When examining trace files or the contents of memory, use the hexadecimal values.
+  When setting or testing CSV parameters, use the symbolic constants defined by the WINCSV.H file. When examining trace files or the contents of memory, use the hexadecimal values.

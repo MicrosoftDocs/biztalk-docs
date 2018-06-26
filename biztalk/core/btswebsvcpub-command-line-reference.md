@@ -30,25 +30,25 @@ This topic provides reference information for the BTSWebSvcPub command-line tool
   
 ## Parameters  
   
-|Parameter|Required|Description|  
-|---------------|--------------|-----------------|  
-|**PathName**|Yes|Path and file name of BizTalk assembly (*.dll) or web service description (\*.xml) file.|  
-|**-Location**|No|Location in which to publish. (Syntax:"http://host[:port]/path")|  
-|**-Overwrite**|No|Overwrite specified location.|  
-|**-Anonymous**|No|Allow anonymous access to Web service.|  
-|**-Name**|No|Name of the solution and assembly (.sln and .dll files) that will contain the Web service.|  
-|**-Namespace**|No|Default namespace for Web service code.|  
-|**-Targetnamespace**|No|Target namespace of the Web service. (Example:'http://www.northwindtraders.com')|  
-|**-UnknownHeaders**|No|Support unknown SOAP headers.|  
-|**-SinglesSignon**|No|Support SharePoint Portal Server Single Sign-On SOAP headers.|  
-|**-ParameterStyle**|No|The SoapParameterStyle for messages: "Default", "Bare",or "Wrapped".|  
-|**-ConfirmanceClaims**|No|Web services interoperability (WSI) claim: "None" or"BasicProfile1_1".|  
-|**-ForceRequestResponse**|No|Expose one-way BizTalk operations as request-response web methods.|  
-|**-ReceiveLocation**|No|Create receive locations in the specified BizTalk application.|  
-|**-ApplicationName**|No|Name of the BizTalk application in which to create receive locations. If not specified, the default BizTalk application is used.|  
+|         Parameter         | Required |                                                           Description                                                            |
+|---------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------|
+|       **PathName**        |   Yes    |                    Path and file name of BizTalk assembly (\*.dll) or web service description (\*.xml) file.                     |
+|       **-Location**       |    No    |                                 Location in which to publish. (Syntax:"http://host[:port]/path")                                 |
+|      **-Overwrite**       |    No    |                                                  Overwrite specified location.                                                   |
+|      **-Anonymous**       |    No    |                                              Allow anonymous access to Web service.                                              |
+|         **-Name**         |    No    |                    Name of the solution and assembly (.sln and .dll files) that will contain the Web service.                    |
+|      **-Namespace**       |    No    |                                             Default namespace for Web service code.                                              |
+|   **-Targetnamespace**    |    No    |                        Target namespace of the Web service. (Example:'<http://www.northwindtraders.com>')                        |
+|    **-UnknownHeaders**    |    No    |                                                  Support unknown SOAP headers.                                                   |
+|    **-SinglesSignon**     |    No    |                                  Support SharePoint Portal Server Single Sign-On SOAP headers.                                   |
+|    **-ParameterStyle**    |    No    |                               The SoapParameterStyle for messages: "Default", "Bare",or "Wrapped".                               |
+|  **-ConfirmanceClaims**   |    No    |                              Web services interoperability (WSI) claim: "None" or"BasicProfile1_1".                              |
+| **-ForceRequestResponse** |    No    |                                Expose one-way BizTalk operations as request-response web methods.                                |
+|   **-ReceiveLocation**    |    No    |                                  Create receive locations in the specified BizTalk application.                                  |
+|   **-ApplicationName**    |    No    | Name of the BizTalk application in which to create receive locations. If not specified, the default BizTalk application is used. |
   
 ## Sample  
- BTSWebSvcPub.exe "MyAssembly.dll" -Location:http://localhost/MyVdir  
+ BTSWebSvcPub.exe "MyAssembly.dll" -Location:<http://localhost/MyVdir>  
   
  -Overwrite  
   

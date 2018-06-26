@@ -22,23 +22,23 @@ In the process of deploying a BizTalk solution, [!INCLUDE[btsVStudioNoVersion](.
   
 ### To configure a strong name assembly key file  
   
-1.  Start **Visual Studio Command Prompt**.  
+1. Start **Visual Studio Command Prompt**.  
   
-2.  At the command prompt, from the folder where you want to store the key file, type the following command, and then press ENTER:  
+2. At the command prompt, from the folder where you want to store the key file, type the following command, and then press ENTER:  
   
-     **sn /k**  *file_name* **.snk**  
+    **sn /k**  *file_name* **.snk**  
   
-     Example: **sn /k ErrorHandling.snk**  
+    Example: **sn /k ErrorHandling.snk**  
   
-     A confirmation message, **Key pair written to** \<*file_name*\>**.snk**`,` displays on the command line.  
+    A confirmation message, **Key pair written to** \<*file_name*\>**.snk**`,` displays on the command line.  
   
-3.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click the project and then click **Properties**.  
+3. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click the project and then click **Properties**.  
   
-4.  Click the **Signing** tab and choose **Browse** in the **Choose a strong name key file** drop down box.  
+4. Click the **Signing** tab and choose **Browse** in the **Choose a strong name key file** drop down box.  
   
-5.  Browse to the key file and click it. Click **Open**, and then close the project properties.  
+5. Browse to the key file and click it. Click **Open**, and then close the project properties.  
   
-6.  Repeat steps 3 through 6 for each project in the solution that you want to deploy using this strong name assembly key file.  
+6. Repeat steps 3 through 6 for each project in the solution that you want to deploy using this strong name assembly key file.  
   
 ## See Also  
  [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

@@ -17,17 +17,17 @@ manager: "anneta"
 # Implementing Message Security
 You can configure your Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to use certificates for sending and receiving signed and encrypted messages. By using certificates for encryption and digital signatures, BizTalk Server can:  
   
--   Send and receive data that can be trusted.  
+- Send and receive data that can be trusted.  
   
--   Make sure that the data it processes is secure.  
+- Make sure that the data it processes is secure.  
   
--   Make sure that authorized parties receive its messages.  
+- Make sure that authorized parties receive its messages.  
   
--   Make sure that it receives messages from authorized parties.  
+- Make sure that it receives messages from authorized parties.  
   
- This section provides information about how to configure BizTalk Server pipelines, receive locations, ports, and the BizTalk Server environment to implement message security.  
+  This section provides information about how to configure BizTalk Server pipelines, receive locations, ports, and the BizTalk Server environment to implement message security.  
   
- For more information about message security, see [Planning Message Security](../core/planning-message-security.md).  
+  For more information about message security, see [Planning Message Security](../core/planning-message-security.md).  
   
 ## In This Section  
   

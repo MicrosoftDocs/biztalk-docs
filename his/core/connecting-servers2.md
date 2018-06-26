@@ -18,11 +18,11 @@ After you have determined a suitable deployment model and subdomain configuratio
   
  This section explores how to choose:  
   
--   Connections between Host Integration Server computers and the host  
+- Connections between Host Integration Server computers and the host  
   
--   Network protocols for Host Integration Server computers and clients  
+- Network protocols for Host Integration Server computers and clients  
   
- To understand the connectivity options, you should first examine the different physical connections and network protocols that [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] supports.  
+  To understand the connectivity options, you should first examine the different physical connections and network protocols that [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] supports.  
   
 ## In This Section  
  [Connection Methods](../core/connection-methods2.md)  

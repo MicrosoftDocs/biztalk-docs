@@ -21,23 +21,23 @@ The V2.4 schemas are commonly referenced schemas, which you use to validate the 
   
 ### To create the common schemas for V2.4  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the New Project dialog box, in the **Project Types** list, expand **BizTalk Projects**, and then select **BTAHL7Projects**.  
+2. In the New Project dialog box, in the **Project Types** list, expand **BizTalk Projects**, and then select **BTAHL7Projects**.  
   
-3.  In the **Templates** list, select **BTAHL7V24Common Project**.  
+3. In the **Templates** list, select **BTAHL7V24Common Project**.  
   
-4.  In the **Name** field, type **Interrogative_24Schemas**.  
+4. In the **Name** field, type **Interrogative_24Schemas**.  
   
-5.  In the Solution field, select **Add to Solution**, and then click **OK**.  
+5. In the Solution field, select **Add to Solution**, and then click **OK**.  
   
-     In Solution Explorer, notice that three schemas (datatypes_24.xsd, segments_24.xsd, and tablevalues_24.xsd) are included in the project.  
+    In Solution Explorer, notice that three schemas (datatypes_24.xsd, segments_24.xsd, and tablevalues_24.xsd) are included in the project.  
   
-6.  In Solution Explorer, right-click **Interrogative_24Schemas** project,and then click **Properties**.  
+6. In Solution Explorer, right-click **Interrogative_24Schemas** project,and then click **Properties**.  
   
-7.  In the Interrogative_24Schemas Property Pages dialog box, click **Assembly**.  
+7. In the Interrogative_24Schemas Property Pages dialog box, click **Assembly**.  
   
-8.  In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.  
+8. In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.  
   
 9. In the **Assembly Key File** dialog box, browse to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\Interrogative Tutorial, click **key.snk**, and then click **Open**.  
   
@@ -48,4 +48,4 @@ The V2.4 schemas are commonly referenced schemas, which you use to validate the 
     > [!NOTE]
     >  If the correct message does not appear, use [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to troubleshoot your schemas.  
   
- Proceed to [Step 3: Create and Deploy a Trigger Event (Message) Project](../../adapters-and-accelerators/accelerator-hl7/step-3-create-and-deploy-a-trigger-event-message-project-hl7-main.md).
+    Proceed to [Step 3: Create and Deploy a Trigger Event (Message) Project](../../adapters-and-accelerators/accelerator-hl7/step-3-create-and-deploy-a-trigger-event-message-project-hl7-main.md).

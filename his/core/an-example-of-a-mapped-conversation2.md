@@ -38,20 +38,20 @@ For background information about mapped conversations, see [Basic and Mapped Con
 ## Verbs for Starting a Mapped Conversation  
  To start a mapped conversation, the invoking TP issues the following verbs:  
   
--   [TP_STARTED](tp-started2.md), which notifies APPC that the local TP is beginning a conversation.  
+- [TP_STARTED](tp-started2.md), which notifies APPC that the local TP is beginning a conversation.  
   
--   [MC_ALLOCATE](mc-allocate2.md), which requests that APPC establish a conversation between the local TP and the partner TP.  
+- [MC_ALLOCATE](mc-allocate2.md), which requests that APPC establish a conversation between the local TP and the partner TP.  
   
- The invokable TP issues [RECEIVE_ALLOCATE](receive-allocate1.md), which informs APPC that it is ready to begin a conversation with the invoking TP.  
+  The invokable TP issues [RECEIVE_ALLOCATE](receive-allocate1.md), which informs APPC that it is ready to begin a conversation with the invoking TP.  
   
 ## Verbs for Sending Data in a Mapped Conversation  
  [MC_SEND_DATA](mc-send-data1.md) puts one data record (a record containing application data to be transmitted) in the send buffer of the local LU. Data transmission to the partner TP does not happen until one of the following events occurs:  
   
--   The send buffer fills up.  
+- The send buffer fills up.  
   
--   The sending TP issues a verb that forces APPC to flush the buffer and send data to the partner TP.  
+- The sending TP issues a verb that forces APPC to flush the buffer and send data to the partner TP.  
   
- In the preceding example, the send buffer contains both the data record and the [MC_ALLOCATE](./mc-allocate2.md) request (which precedes the data record). Therefore, in the example, [MC_DEALLOCATE](./mc-deallocate2.md) flushes the buffer, sending the **MC_ALLOCATE** request and data record to the partner TP. Other verbs that flush the buffer are [MC_CONFIRM](./mc-confirm2.md) and [MC_FLUSH](./mc-flush1.md).  
+  In the preceding example, the send buffer contains both the data record and the [MC_ALLOCATE](./mc-allocate2.md) request (which precedes the data record). Therefore, in the example, [MC_DEALLOCATE](./mc-deallocate2.md) flushes the buffer, sending the **MC_ALLOCATE** request and data record to the partner TP. Other verbs that flush the buffer are [MC_CONFIRM](./mc-confirm2.md) and [MC_FLUSH](./mc-flush1.md).  
   
 ## Verbs for Receiving Data in a Mapped Conversation  
  The [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md) verb allows a TP to receive a data record or status information. If no data is currently available, the TP waits for data to arrive. For Windows systems, issue **MC_RECEIVE_AND_WAIT** in conjunction with [WinAsyncAPPC](./winasyncappc1.md) rather than the blocking version of this call.  

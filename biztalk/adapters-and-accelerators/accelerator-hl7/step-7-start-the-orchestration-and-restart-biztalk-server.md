@@ -19,8 +19,8 @@ In this step, you start the orchestration, and then restart [!INCLUDE[btsBizTalk
   
 ### To start the orchestration and restart BizTalk Server  
   
-1.  In the BizTalk Administration Console, click **Orchestrations**, right-click **BatchOrchestration.Orchestration_1**, and then click **Start**.  
+1. In the BizTalk Administration Console, click **Orchestrations**, right-click **BatchOrchestration.Orchestration_1**, and then click **Start**.  
   
-2.  Expand **Platform Settings**, and then click **Host Instances**. Right-click **BizTalkServerApplication**, and then click **Restart**. Verify that the status indicates **Stopped**, and then **Running**.  
+2. Expand **Platform Settings**, and then click **Host Instances**. Right-click **BizTalkServerApplication**, and then click **Restart**. Verify that the status indicates **Stopped**, and then **Running**.  
   
- Proceed to [Step 8: Test the Create-Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/step-8-test-the-create-batch-scenario.md).
+   Proceed to [Step 8: Test the Create-Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/step-8-test-the-create-batch-scenario.md).

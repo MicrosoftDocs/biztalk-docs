@@ -23,23 +23,23 @@ The **Scripting** functoid enables you to use custom script or code at run time 
   
  The **Scripting** functoid supports the following languages:  
   
--   C# .NET  
+- C# .NET  
   
--   JScript .NET  
+- JScript .NET  
   
--   Visual Basic .NET  
+- Visual Basic .NET  
   
--   Extensible Stylesheet Language Transformations (XSLT)  
+- Extensible Stylesheet Language Transformations (XSLT)  
   
--   XSLT Call Templates  
+- XSLT Call Templates  
   
- Another significant difference between the current **Scripting** functoid and earlier versions is that the script need no longer be created and stored in the functoid itself. Instead, you can create the script in a separate .NET assembly and reference the assembly through the **Script** property. Having the script in a separate assembly enables you to use the same script in more than one map. Additionally, you may be able to purchase **Scripting** functoid assemblies from third-party vendors.  
+  Another significant difference between the current **Scripting** functoid and earlier versions is that the script need no longer be created and stored in the functoid itself. Instead, you can create the script in a separate .NET assembly and reference the assembly through the **Script** property. Having the script in a separate assembly enables you to use the same script in more than one map. Additionally, you may be able to purchase **Scripting** functoid assemblies from third-party vendors.  
   
- You can use **Scripting** functoids created in previous versions of BizTalk Mapper with the current version of BizTalk Mapper. However, you must migrate the functoids first. For more information about how to migrate **Scripting** functoids, see [Migrating Functoids](../core/migrating-functoids.md).  
+  You can use **Scripting** functoids created in previous versions of BizTalk Mapper with the current version of BizTalk Mapper. However, you must migrate the functoids first. For more information about how to migrate **Scripting** functoids, see [Migrating Functoids](../core/migrating-functoids.md).  
   
- When you add a **Scripting** functoid to a map, you need to configure the script the functoid uses. If you select a **Scripting** functoid, the **Script** property is enabled in the **Properties** window. If you click the ellipsis (**...**) button for this property, the **Configure Scripting Functoid** dialog box opens. Alternatively, you can double-click the **Scripting** functoid.  
+  When you add a **Scripting** functoid to a map, you need to configure the script the functoid uses. If you select a **Scripting** functoid, the **Script** property is enabled in the **Properties** window. If you click the ellipsis (**...**) button for this property, the **Configure Scripting Functoid** dialog box opens. Alternatively, you can double-click the **Scripting** functoid.  
   
- The following table shows the fields of this dialog box.  
+  The following table shows the fields of this dialog box.  
   
 |Configure Scripting Functoid dialog box field|Description|  
 |---------------------------------------------------|-----------------|  

@@ -20,27 +20,27 @@ The primary deliverable associated with the requirements phase is a requirements
 ## Establish Performance Criteria  
  From a performance perspective, the most important part of the functional specification that is created during this phase is the definition of detailed performance goals for the project and the establishment of performance release criteria. There are three critical components to defining performance criteria:  
   
--   A curve that defines performance as a function of time.  
+- A curve that defines performance as a function of time.  
   
--   A performance requirement associated with the performance function.  
+- A performance requirement associated with the performance function.  
   
--   A distribution of file sizes and types.  
+- A distribution of file sizes and types.  
   
- These criteria are discussed in [What Is Sustainable Performance?](../core/what-is-sustainable-performance.md)  
+  These criteria are discussed in [What Is Sustainable Performance?](../core/what-is-sustainable-performance.md)  
   
- You derive the performance release criteria for an application from the performance goals. These criteria embody an achievable and measurable behavior that you can prove via testing. The application will not move into release unless and until all release criteria have been met or, if not achievable, identified as exceptions to the release criteria.  
+  You derive the performance release criteria for an application from the performance goals. These criteria embody an achievable and measurable behavior that you can prove via testing. The application will not move into release unless and until all release criteria have been met or, if not achievable, identified as exceptions to the release criteria.  
   
- It is very important to set the release criteria during the early phases of the product cycle. Doing so means everyone involved knows what the goals are and the consequences of not reaching them before design and implementation are signed off.  
+  It is very important to set the release criteria during the early phases of the product cycle. Doing so means everyone involved knows what the goals are and the consequences of not reaching them before design and implementation are signed off.  
   
- In addition, performance test cases will be based on how the release criteria are to be measured, so the criteria must be detailed enough to avoid confusion. For example, when stating a specific throughput is to be achieved, it should include:  
+  In addition, performance test cases will be based on how the release criteria are to be measured, so the criteria must be detailed enough to avoid confusion. For example, when stating a specific throughput is to be achieved, it should include:  
   
--   The hardware on which it must run, for example, the number and type of servers, disk speed/type, etc.  
+- The hardware on which it must run, for example, the number and type of servers, disk speed/type, etc.  
   
--   What scenario is to be tested, for example, what path messages will take through the application  
+- What scenario is to be tested, for example, what path messages will take through the application  
   
--   How it is to be measured, for example, performance counters, custom code, measuring times messages arrive in a share, etc.  
+- How it is to be measured, for example, performance counters, custom code, measuring times messages arrive in a share, etc.  
   
- To judge how well formed a release criteria is, anyone should be able look at the release criteria as documented and understand how to build a test case to prove the criteria.  
+  To judge how well formed a release criteria is, anyone should be able look at the release criteria as documented and understand how to build a test case to prove the criteria.  
   
 ## Identify Performance Risks  
  After the performance release goals and criteria have been sufficiently detailed, an initial assessment of performance risk areas can be performed. The purpose of this analysis is to identify parts of the application that may need special design attention, work-around alternatives or elimination in order to reach the desired criteria.  

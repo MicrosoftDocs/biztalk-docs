@@ -37,19 +37,19 @@ This topic provides a brief overview of HIPAA and how [!INCLUDE[btsBizTalkServer
   
  **Getting Started**  
   
--   [HIPAA Transaction Sets](../core/hipaa-transaction-sets.md)  
+- [HIPAA Transaction Sets](../core/hipaa-transaction-sets.md)  
   
- **Planning and Architecture**  
+  **Planning and Architecture**  
   
--   [HIPAA Document Schema Version 5010](../core/hipaa-document-schema-version-5010.md)  
+- [HIPAA Document Schema Version 5010](../core/hipaa-document-schema-version-5010.md)  
   
--   [HIPAA Schema Trigger Field Annotations](../core/hipaa-schema-trigger-field-annotations.md)  
+- [HIPAA Schema Trigger Field Annotations](../core/hipaa-schema-trigger-field-annotations.md)  
   
--   [Splitting HIPAA Subdocuments](../core/splitting-hipaa-subdocuments.md)  
+- [Splitting HIPAA Subdocuments](../core/splitting-hipaa-subdocuments.md)  
   
- **Development**  
+  **Development**  
   
--   [Modifying EDI Schemas](../core/modifying-edi-schemas.md) 
+- [Modifying EDI Schemas](../core/modifying-edi-schemas.md) 
 
 - [Customizing Enumerations in the Envelope Schema](../core/customizing-enumerations-in-the-envelope-schema.md)
 

@@ -72,19 +72,19 @@ manager: "anneta"
   
 #### To import the application definition file  
   
-1.  Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.  
+1. Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.  
   
-2.  In the left navigation pane, click the name of the SSP to which you want to import the application definition.  
+2. In the left navigation pane, click the name of the SSP to which you want to import the application definition.  
   
-3.  In the **Business Data Catalog** section, click **Import application definition**.  
+3. In the **Business Data Catalog** section, click **Import application definition**.  
   
-4.  On the Import Application Definition page that opens, browse to Siebel_Account.xml, select the file, and then click **Open**.  
+4. On the Import Application Definition page that opens, browse to Siebel_Account.xml, select the file, and then click **Open**.  
   
-5.  Click **Import**.  
+5. Click **Import**.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
- After importing the application, you can see your application by going to the **View Applications** link. Click the application name to see the entities in the application.  
+   After importing the application, you can see your application by going to the **View Applications** link. Click the application name to see the entities in the application.  
   
 ## Creating Web Parts  
  You must now create Web Parts in your SharePoint site to view and manage the business data that will be extracted from the Siebel system. Web Parts are reusable components that can contain any kind of Web-based information, including analytical, collaborative, and database information.  
@@ -100,31 +100,31 @@ manager: "anneta"
   
 ##### To create a web part page  
   
-1.  Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and click **SharePoint 3.0 Central Administration**.  
+1. Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and click **SharePoint 3.0 Central Administration**.  
   
-2.  In the left navigation pane, click the name of the SSP to which you want to import the application definition.  
+2. In the left navigation pane, click the name of the SSP to which you want to import the application definition.  
   
-3.  On the Shared Services Administration page, from the top right-hand corner, click **Site Actions**, and then click **Create**.  
+3. On the Shared Services Administration page, from the top right-hand corner, click **Site Actions**, and then click **Create**.  
   
-     ![Menu to create a web part](../../adapters-and-accelerators/adapter-oracle-ebs/media/a9872c3e-f823-4c47-a538-19242565d2e9.gif "a9872c3e-f823-4c47-a538-19242565d2e9")  
+    ![Menu to create a web part](../../adapters-and-accelerators/adapter-oracle-ebs/media/a9872c3e-f823-4c47-a538-19242565d2e9.gif "a9872c3e-f823-4c47-a538-19242565d2e9")  
   
-4.  On the Create page, under the **Web Pages** section, click **Web Part Page**.  
+4. On the Create page, under the **Web Pages** section, click **Web Part Page**.  
   
-5.  In the New Web Part page, do the following:  
+5. In the New Web Part page, do the following:  
   
-    1.  In the **Name** field, specify a name for the page. For this tutorial, specify the name as `Siebel Account`.  
+   1. In the **Name** field, specify a name for the page. For this tutorial, specify the name as `Siebel Account`.  
   
-    2.  Select the **Overwrite if file already exists** check box, if you want to overwrite old pages with the same name as the page you create.  
+   2. Select the **Overwrite if file already exists** check box, if you want to overwrite old pages with the same name as the page you create.  
   
-    3.  In the **Layout** section, from the **Choose a Layout Template** box, select a layout for the Web Part page. For this tutorial, select **Full Page, Vertical**.  
+   3. In the **Layout** section, from the **Choose a Layout Template** box, select a layout for the Web Part page. For this tutorial, select **Full Page, Vertical**.  
   
-    4.  In **the Save Location** section, in the **Document Library** list, select **Form Templates**.  
+   4. In **the Save Location** section, in the **Document Library** list, select **Form Templates**.  
   
-    5.  Click **Create**. The following figure shows a Web Part page after it is just created.  
+   5. Click **Create**. The following figure shows a Web Part page after it is just created.  
   
-         ![Empty Web Part page](../../adapters-and-accelerators/adapter-siebel/media/1fa218f5-de81-43be-b1b1-c46de422f112.gif "1fa218f5-de81-43be-b1b1-c46de422f112")  
+       ![Empty Web Part page](../../adapters-and-accelerators/adapter-siebel/media/1fa218f5-de81-43be-b1b1-c46de422f112.gif "1fa218f5-de81-43be-b1b1-c46de422f112")  
   
-     You must now add the different Web Parts to this page.  
+      You must now add the different Web Parts to this page.  
   
 ### Adding a Business Data List Web Part  
  You must now add a Business Data List Web Part to the Web Part page. Using this Web Part, you will query the Account business component using a search expression. This Web Part corresponds to the Finder method instance (QueryAccount) you created in the Business Data Catalog Definition Editor.  

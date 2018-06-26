@@ -25,7 +25,7 @@ Exports a BizTalk application to an .msi file. If an .msi file having the same f
 >  In addition, private keys are removed from certificate files.  
   
 ## Usage  
- **BTSTask ExportApp** [**/ApplicationName:***value*] **/Package:***value* [**/ResourceSpec:***value*] [**/GlobalParties**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask ExportApp** [**/ApplicationName:**<em>value</em>] **/Package:**<em>value</em> [**/ResourceSpec:**<em>value</em>] [**/GlobalParties**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

@@ -16,17 +16,17 @@ manager: "anneta"
 # How to Audit Enterprise Single Sign-On
 Use this command to set both the positive and negative auditing levels. Single Sign-On (SSO) administrators can set the positive and negative audit levels that suit their corporate policies. You can set positive and negative audits to one of the following levels:  
   
--   0 = None  
+- 0 = None  
   
--   1 = Low  
+- 1 = Low  
   
--   2 = Medium  
+- 2 = Medium  
   
--   3 = High - This level issues as many audit messages as possible.  
+- 3 = High - This level issues as many audit messages as possible.  
   
- The default value for positive auditing is 0 (none), and the default value for negative auditing is 1(low).  
+  The default value for positive auditing is 0 (none), and the default value for negative auditing is 1(low).  
   
- To change the database-level auditing, you must update the Credential database using an XML file. The following is an example XML file that is used for updating the Credential database:  
+  To change the database-level auditing, you must update the Credential database using an XML file. The following is an example XML file that is used for updating the Credential database:  
   
 ```  
 <sso>  

@@ -24,19 +24,19 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
   
  A reasonable definition for this record in a flat file schema can be described as a positional record named shipTo that contains the following fields:  
   
--   An attribute named country/region that is left-aligned, 10 characters in length, with a zero character offset.  
+- An attribute named country/region that is left-aligned, 10 characters in length, with a zero character offset.  
   
--   An element named name that is left-aligned, 20 characters in length, with a zero character offset.  
+- An element named name that is left-aligned, 20 characters in length, with a zero character offset.  
   
--   An element named street that is left-aligned, 20 characters in length, with a zero character offset.  
+- An element named street that is left-aligned, 20 characters in length, with a zero character offset.  
   
--   An element named city that is left-aligned, 15 characters in length, with a zero character offset.  
+- An element named city that is left-aligned, 15 characters in length, with a zero character offset.  
   
--   An element named state that is left-aligned, 2 characters in length, with a zero character offset.  
+- An element named state that is left-aligned, 2 characters in length, with a zero character offset.  
   
--   An element named zip that is left-aligned, 5 characters in length, with a one character offset.  
+- An element named zip that is left-aligned, 5 characters in length, with a one character offset.  
   
- Given these record and field definitions, the flat file disassembler will produce the following XML equivalent of this record.  
+  Given these record and field definitions, the flat file disassembler will produce the following XML equivalent of this record.  
   
 ```  
 <shipTo country/region="US">  
@@ -51,17 +51,17 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
   
  There are a number of considerations related to positional records that will affect how the record is parsed when received and constructed when sent, including:  
   
--   The character used to fill the unused portion of each field, known as the pad character. For more information, see [Field Padding](../core/field-padding.md).  
+- The character used to fill the unused portion of each field, known as the pad character. For more information, see [Field Padding](../core/field-padding.md).  
   
--   An optional tag within the record, used to distinguish the record from other similar records. Tags usually occur at the beginning of the record but allowable anywhere within it. For more information, see [Tag Handling in Positional Records](../core/tag-handling-in-positional-records.md). Positional records can be defined to have a tag or not have a tag, but once defined, the tag must be present or not, based on the definition.  
+- An optional tag within the record, used to distinguish the record from other similar records. Tags usually occur at the beginning of the record but allowable anywhere within it. For more information, see [Tag Handling in Positional Records](../core/tag-handling-in-positional-records.md). Positional records can be defined to have a tag or not have a tag, but once defined, the tag must be present or not, based on the definition.  
   
--   How data is justified within a fixed length field, relative to the accompanying pad characters. For more information, see [Field Justification](../core/field-justification.md).  
+- How data is justified within a fixed length field, relative to the accompanying pad characters. For more information, see [Field Justification](../core/field-justification.md).  
   
--   Positional records nested within other positional or delimited records. For more information, see [Nested Positional Records](../core/nested-positional-records.md).  
+- Positional records nested within other positional or delimited records. For more information, see [Nested Positional Records](../core/nested-positional-records.md).  
   
--   Positional records with field lengths specified as a specific number of bytes rather than a specific number of characters. For more information, see [Position Counting in Bytes](../core/position-counting-in-bytes.md).  
+- Positional records with field lengths specified as a specific number of bytes rather than a specific number of characters. For more information, see [Position Counting in Bytes](../core/position-counting-in-bytes.md).  
   
- To help you better understand how to work with positional flat files, see the samples in the FlatFileReceive and FlatFileSend folders located at \Program Files\Microsoft BizTalk Server\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
+  To help you better understand how to work with positional flat files, see the samples in the FlatFileReceive and FlatFileSend folders located at \Program Files\Microsoft BizTalk Server\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
   
 > [!NOTE]
 >  If your flat file contains both delimited and positional records, you must set the **Structure** property of the root node to **Delimited** and the **Structure** property of subordinate record nodes to either **Delimited** or **Positional** as appropriate.  

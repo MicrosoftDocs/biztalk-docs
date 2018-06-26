@@ -28,15 +28,15 @@ You can form the **Subject**, **To**, **From**, and **CC** properties on an SMTP
   
  The SMTP send handler does not substitute macros in the **To**, **From**, or **CC** header if any of the following are true:  
   
--   The corresponding system property is not set.  
+- The corresponding system property is not set.  
   
--   The macro is misspelled.  
+- The macro is misspelled.  
   
--   The value for the macro contains symbols that are not valid for the SMTP headers.  
+- The value for the macro contains symbols that are not valid for the SMTP headers.  
   
- If any of these conditions are met, the SMTP send handler leaves the macros as they are, for example, **%SourceParty%@somedomain.com** or **Message from %SourceParty%**.  
+  If any of these conditions are met, the SMTP send handler leaves the macros as they are, for example, <strong>%SourceParty%@somedomain.com</strong> or **Message from %SourceParty%**.  
   
- The following table lists the macros you can use to build the **To**, **CC**, and **Subject** headers.  
+  The following table lists the macros you can use to build the **To**, **CC**, and **Subject** headers.  
   
 |Macro|Description|For use with To|For use with CC|For use with Subject|  
 |-----------|-----------------|---------------------|---------------------|--------------------------|  

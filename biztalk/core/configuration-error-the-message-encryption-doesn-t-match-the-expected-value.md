@@ -17,15 +17,15 @@ manager: "anneta"
 # Configuration error. The message encryption doesn&#39;t match the expected value
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|AS2DecoderPartyEncryptionConfigurationError|  
-|Message Text|Configuration error. The message encryption doesn't match the expected value. Contact the sending partner and verify encryption use. AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}"|  
+|                 |                                                                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                |
+| Product Version |                                                            [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                            |
+|    Event ID     |                                                                                        -                                                                                         |
+|  Event Source   |                                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                              |
+|    Component    |                                                                                    AS2 Engine                                                                                    |
+|  Symbolic Name  |                                                                   AS2DecoderPartyEncryptionConfigurationError                                                                    |
+|  Message Text   | Configuration error. The message encryption doesn't match the expected value. Contact the sending partner and verify encryption use. AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}" |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the AS2 Decoder component of the receive pipeline could not process the AS2 message because encryption is specified in the party settings, but the AS2 message is not encrypted, or encryption is specified not to be enabled, but the message is encrypted.  

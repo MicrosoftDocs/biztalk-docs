@@ -18,6 +18,7 @@ manager: "anneta"
 The **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** namespace contains properties you can use to set message and part context properties for the BizTalk Framework Disassembler pipeline component. The BizTalk Framework Disassembler pipeline component uses these properties to generate the appropriate headers in the message that is created. The following table describes the BizTalk Framework properties.  
 
 ## Properties list  
+
 |Name|Type|Description|  
 |----------|----------|-----------------|  
 |**IsReliable**|xs:boolean|Indicates whether the BizTalk Framework message should be resent until an acknowledgment is received from a destination. This property is set internally by BizTalk Framework components and used by the engine. Do not change the value in this property from your code.|  
@@ -43,7 +44,7 @@ The **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** namespace cont
 |**commitmentRct_decidedAt**|xs:string|Specifies the processing decision timestamp for the document acknowledged by this receipt.|  
 |**commitmentRct_decision**|xs:string|Specifies the actual decision, with possible values of positive or negative.|  
 |**commitmentRct_commitmentCode**|xs:QName|Specifies the qualified name (in XSD) that specifies a more specific status regarding the processing decision.|  
-  
+
 ## See Also  
--  **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
--  [Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md)
+- **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+- [Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md)

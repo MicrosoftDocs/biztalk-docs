@@ -49,17 +49,17 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
 ## How the Windows SharePoint Services adapter works  
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services consists of three main components:  
   
--   Windows SharePoint Services adapter Web service  
+- Windows SharePoint Services adapter Web service  
   
--   Windows SharePoint Services receive adapter  
+- Windows SharePoint Services receive adapter  
   
--   Windows SharePoint Services send adapter  
+- Windows SharePoint Services send adapter  
   
- On the Windows SharePoint Services server, the Web service (BTSharePointAdapterWS.asmx) is installed to provide access to the Windows SharePoint Services libraries and lists. The Web service exposes methods to get, put, delete, and archive documents from a SharePoint library. The receive adapter retrieves files from the Web service and the send adapter posts files to it.  
+  On the Windows SharePoint Services server, the Web service (BTSharePointAdapterWS.asmx) is installed to provide access to the Windows SharePoint Services libraries and lists. The Web service exposes methods to get, put, delete, and archive documents from a SharePoint library. The receive adapter retrieves files from the Web service and the send adapter posts files to it.  
   
- The following figure shows the main components of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services that provide these capabilities.  
+  The following figure shows the main components of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services that provide these capabilities.  
   
- ![](../core/media/bts-dev-adapters-wss-architecture.gif "BTS_Dev_Adapters_WSS_Architecture")  
+  ![](../core/media/bts-dev-adapters-wss-architecture.gif "BTS_Dev_Adapters_WSS_Architecture")  
   
 ### Receiving documents from Windows SharePoint Services  
  The receive adapter polls Windows SharePoint Services document library views. It calls a Web method on the Windows SharePoint Services server which uses the Windows SharePoint Services object model to browse the library, check out the files and return the file data to the adapter. The adapter then submits the files to the BizTalk Server MessageBox and calls another Web method to delete or archive the files from Windows SharePoint Services. In order to filter files in a Windows SharePoint Services library, the adapter polls the Windows SharePoint Services library through a Windows SharePoint Services view.  

@@ -82,86 +82,86 @@ The Custom Functoid sample demonstrates how to write a custom functoid for BizTa
   
 #### To run this sample  
   
-1.  From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Tools** menu, and select **Choose Toolbox Items**.  
+1. From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Tools** menu, and select **Choose Toolbox Items**.  
   
-2.  In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.  
+2. In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.  
   
-3.  Click **Reset**, and then click **OK**.  
+3. Click **Reset**, and then click **OK**.  
   
-    > [!NOTE]
-    >  If your custom functoid does not expose any inline code, make sure its assembly is made available in the GAC.  
+   > [!NOTE]
+   >  If your custom functoid does not expose any inline code, make sure its assembly is made available in the GAC.  
   
-4.  From the **File** menu, select **Exit** to close [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+4. From the **File** menu, select **Exit** to close [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-5.  Start **Visual Studio Command Prompt**.  
+5. Start **Visual Studio Command Prompt**.  
   
-6.  At the command prompt, type **devenv /setup**.  
+6. At the command prompt, type **devenv /setup**.  
   
-7.  Start **Microsoft Visual Studio**.  
+7. Start **Microsoft Visual Studio**.  
   
-     The custom functoids (Custom concatenate functoid, Longest String, Build array functoid, and Extract array functoid) appear on the **String Functoids** tab of the Toolbox, and the Cumulative Multiply functoid appears on the **Cumulative Functoids** tab.  
+    The custom functoids (Custom concatenate functoid, Longest String, Build array functoid, and Extract array functoid) appear on the **String Functoids** tab of the Toolbox, and the Cumulative Multiply functoid appears on the **Cumulative Functoids** tab.  
   
 ## Removing This Sample  
  Use the following procedure to remove the Custom Functoid sample.  
   
 #### To remove this sample  
   
-1.  Remove the functoids from the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.  
+1. Remove the functoids from the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.  
   
-    > [!WARNING]
-    >  If after running Cleanup.bat, you still see the stale custom functoids in the toolbox (probably due to internal caching by Visual Studio), then follow the procedures below:  
+   > [!WARNING]
+   >  If after running Cleanup.bat, you still see the stale custom functoids in the toolbox (probably due to internal caching by Visual Studio), then follow the procedures below:  
   
-    1.  From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Tools** menu, and select **Choose Toolbox Items**.  
+   1. From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Tools** menu, and select **Choose Toolbox Items**.  
   
-    2.  In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.  
+   2. In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.  
   
-    3.  Find the custom functoids (Custom concatenate functoid, Longest String, Build array functoid, Extract array functoid, and Cumulative Multiply) in the list. Click the respective **check box** to remove the functoids, and then click **OK**.  
+   3. Find the custom functoids (Custom concatenate functoid, Longest String, Build array functoid, Extract array functoid, and Cumulative Multiply) in the list. Click the respective **check box** to remove the functoids, and then click **OK**.  
   
-     If the above procedure does not work, follow the below procedure.  
+      If the above procedure does not work, follow the below procedure.  
   
-    1.  From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Toolbox** tab while editing a map to bring up the Toolbox Palette.  
+   4. From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Toolbox** tab while editing a map to bring up the Toolbox Palette.  
   
-    2.  Right-click the tool box and select **Choose Items**.  
+   5. Right-click the tool box and select **Choose Items**.  
   
-    3.  In the Choose Items dialog box, click **Reset**, and then click **OK**.  
+   6. In the Choose Items dialog box, click **Reset**, and then click **OK**.  
   
-    4.  Close all instances of [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   7. Close all instances of [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-     If the above procedure does not work, follow the below procedure.  
+      If the above procedure does not work, follow the below procedure.  
   
-    1.  Start **Visual Studio Command Prompt** as an administrator.  
+   8. Start **Visual Studio Command Prompt** as an administrator.  
   
-    2.  Close all the running instances of Visual Studio.  
+   9. Close all the running instances of Visual Studio.  
   
-    3.  Give the following commands:  
+   10. Give the following commands:  
   
-         `devenv /resetsettings`  
+        `devenv /resetsettings`  
   
-         `devenv /setup`  
+        `devenv /setup`  
   
-    4.  You can manually select the unwanted functoids from the toolbox. Then, right click the functoid, and click **Delete**.  
+   11. You can manually select the unwanted functoids from the toolbox. Then, right click the functoid, and click **Delete**.  
   
-     If the above procedure does not work, follow the below procedure.  
+       If the above procedure does not work, follow the below procedure.  
   
-    1.  From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the Toolbox tab while editing a map to bring up the Toolbox Palette.  
+   12. From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the Toolbox tab while editing a map to bring up the Toolbox Palette.  
   
-    2.  Click the **Cumulative Functoids** group.  
+   13. Click the **Cumulative Functoids** group.  
   
-    3.  Right click the functoid you want to remove and then choose **Delete** or press the delete key.  
+   14. Right click the functoid you want to remove and then choose **Delete** or press the delete key.  
   
-    4.  Click the **String Functoids** group.  
+   15. Click the **String Functoids** group.  
   
-    5.  Right click the functoid you want to remove and then choose **Delete** or press the delete key.  
+   16. Right click the functoid you want to remove and then choose **Delete** or press the delete key.  
   
-2.  In a command window, change directory (**cd**) to the following folder:  
+2. In a command window, change directory (**cd**) to the following folder:  
   
-     \<*Samples Path*\>\XmlTools\CustomFunctoid  
+    \<*Samples Path*\>\XmlTools\CustomFunctoid  
   
-3.  Run the file Cleanup.bat, which performs the following actions:  
+3. Run the file Cleanup.bat, which performs the following actions:  
   
-    -   Deletes the assembly from the Developer Tools\Mapper Extensions directory.  
+   -   Deletes the assembly from the Developer Tools\Mapper Extensions directory.  
   
-    -   Removes the assembly from the GAC.  
+   -   Removes the assembly from the GAC.  
   
 ## Classes or Methods Used in This Sample  
  [Microsoft.BizTalk.BaseFunctoids.BaseFunctoid](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.basefunctoid.aspx)  

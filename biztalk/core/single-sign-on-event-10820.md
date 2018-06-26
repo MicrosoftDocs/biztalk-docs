@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10820
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10820|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_REQUIRE_OLD_PASSWORD|  
-|Message Text|When changing the password for an external account the adapter must supply the old password.|  
+|                 |                                                                                              |
+|-----------------|----------------------------------------------------------------------------------------------|
+|  Product Name   |                                  Enterprise Single Sign-On                                   |
+| Product Version |                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                  |
+|    Event ID     |                                            10820                                             |
+|  Event Source   |                                            ENTSSO                                            |
+|    Component    |                                             N/A                                              |
+|  Symbolic Name  |                                ENTSSO_E_REQUIRE_OLD_PASSWORD                                 |
+|  Message Text   | When changing the password for an external account the adapter must supply the old password. |
   
 ## Explanation  
  This application is configured in such a way that the password sync adapter is required to supply the old password.  

@@ -35,25 +35,25 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
   
 ### To configure tracking for a schema  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the schema for which you want to configure tracking, and then expand the application containing the schema.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the schema for which you want to configure tracking, and then expand the application containing the schema.  
   
-3.  Click **Schemas**, right-click the schema, and then click **Properties**.  
+3. Click **Schemas**, right-click the schema, and then click **Properties**.  
   
-4.  In the left pane, click **Tracking**.  
+4. In the left pane, click **Tracking**.  
   
-5.  Do one of the following to specify which properties to use for tracking messages, and then click **OK**:  
+5. Do one of the following to specify which properties to use for tracking messages, and then click **OK**:  
   
-    -   Select the **Select all message properties** check box to use all the listed properties.  
+   -   Select the **Select all message properties** check box to use all the listed properties.  
   
-        > [!NOTE]
-        >  This check box is available only for schemas that contain promoted properties.  
+       > [!NOTE]
+       >  This check box is available only for schemas that contain promoted properties.  
   
-    -   Select the check box of each property that you want to use.  
+   -   Select the check box of each property that you want to use.  
   
-        > [!NOTE]
-        >  This is available only for schemas that contain promoted properties.  
+       > [!NOTE]
+       >  This is available only for schemas that contain promoted properties.  
   
 > [!NOTE]
 >  You should select only the options you need, as tracking messages creates performance and storage overhead for your system.  

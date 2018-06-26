@@ -20,13 +20,13 @@ manager: "anneta"
 ## Overview
 This walkthrough demonstrates the use of schemas created by the Flat File Schema Wizard to perform flat file disassembly of a file containing a header, a trailer, and a repeating message body. In this walkthrough, you develop part of a fictitious error-tracking system that meets the following requirements:  
   
--   Error messages are logged at various physical sites within the company and sent to a central location for processing into various back-end systems.  
+- Error messages are logged at various physical sites within the company and sent to a central location for processing into various back-end systems.  
   
--   Error messages are written into a flat file format that contains a header indicating location, a body containing one or more error messages, and a trailer indicating the batch number.  
+- Error messages are written into a flat file format that contains a header indicating location, a body containing one or more error messages, and a trailer indicating the batch number.  
   
--   Messages are considered invalid if they do not have a header, body, and trailer.  
+- Messages are considered invalid if they do not have a header, body, and trailer.  
   
- When the walkthrough is completed you will have a BizTalk Server application that processes flat files and writes them out as XML for processing by a back-end system.  
+  When the walkthrough is completed you will have a BizTalk Server application that processes flat files and writes them out as XML for processing by a back-end system.  
   
 ## Prerequisites  
  For this example you need to be comfortable with creating BizTalk Server projects, signing an assembly, and using the BizTalk Server Administration console to view applications and ports. You should also be comfortable with the ideas presented in [Walkthrough: Deploying a Basic BizTalk Application](../core/walkthrough-deploying-a-basic-biztalk-application.md). Basic familiarity with the Flat File Schema Wizard is also helpful but not required.  
@@ -40,11 +40,11 @@ This walkthrough demonstrates the use of schemas created by the Flat File Schema
 ### Create a New BizTalk Project  
  Before building a solution you need to create a BizTalk project, ensure that it is strongly named, and assign it an application name. Assigning an application name prevents BizTalk Server from deploying the solution into the default BizTalk application.  
   
-1.  Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project. Call the project **FFDisassemblerWalkthrough**.  
+1. Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project. Call the project **FFDisassemblerWalkthrough**.  
   
-2.  Generate a key file and assign it to the project. For more information about this task, see [Signing Page, Project Designer](http://go.microsoft.com/fwlink/?LinkId=125876).  
+2. Generate a key file and assign it to the project. For more information about this task, see [Signing Page, Project Designer](http://go.microsoft.com/fwlink/?LinkId=125876).  
   
-3.  In the deployment properties for the project, set **Application Name** to “FlatFileExample” and set **Restart Host Instances** to `True`. Setting this flag tells the host to clear any cached instances of the assembly.  
+3. In the deployment properties for the project, set **Application Name** to “FlatFileExample” and set **Restart Host Instances** to `True`. Setting this flag tells the host to clear any cached instances of the assembly.  
   
 ### Create the Sample Data File  
 Before generating schemas, you need to create a test file.   
@@ -257,9 +257,9 @@ Before generating schemas, you need to create a test file.
  With the schemas and custom receive pipeline created, you need to compile and deploy the project. After it is deployed, you can use the BizTalk Server Administration console to configure the send and receive ports.  
 
 ##### Deploy  
-1.  From within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the solution by right-clicking on the project and then clicking **Deploy**.  
+1. From within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the solution by right-clicking on the project and then clicking **Deploy**.  
   
-2.  Using the BizTalk Server Administration console, expand the **Applications** group to verify that **FlatFileExample** is present as a custom application.  
+2. Using the BizTalk Server Administration console, expand the **Applications** group to verify that **FlatFileExample** is present as a custom application.  
   
 ##### Configure the receive port  
   

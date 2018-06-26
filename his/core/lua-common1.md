@@ -310,8 +310,8 @@ struct LUA_COMMON {
  *lua_encr_decr_option*  
  Field for cryptography options. On **RUI_INIT**, only the following are supported:  
   
--   **lua_encr_decr_option** = 0  
+- **lua_encr_decr_option** = 0  
   
--   **lua_encr_decr_option** = 128  
+- **lua_encr_decr_option** = 128  
   
- For all other LUA verbs, this parameter is reserved and should be set to zero.
+  For all other LUA verbs, this parameter is reserved and should be set to zero.

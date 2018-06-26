@@ -17,15 +17,15 @@ manager: "anneta"
 # Failed to register isolated receiver for address
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Failed to register isolated receiver for address "{0}"; receive location does not exist or is disabled.|  
+|                 |                                                                                                         |
+|-----------------|---------------------------------------------------------------------------------------------------------|
+|  Product Name   |           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]            |
+| Product Version |                       [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                        |
+|    Event ID     |                                                    0                                                    |
+|  Event Source   |                                                    0                                                    |
+|    Component    |                                                    0                                                    |
+|  Symbolic Name  |                                                    0                                                    |
+|  Message Text   | Failed to register isolated receiver for address "{0}"; receive location does not exist or is disabled. |
   
 ## Explanation  
  This error indicates that a published isolated WCF receive location could not find the corresponding receive location.  

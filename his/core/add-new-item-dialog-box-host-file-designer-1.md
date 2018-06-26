@@ -18,15 +18,15 @@ manager: "anneta"
 # Add New Item Dialog Box (Host File Designer)
 The Add New Item dialog box enables you to add a host file object the currently selected project. There are two panes in the dialog box:  
   
--   The **Categories** pane lists the project item hierarchy.  
+- The **Categories** pane lists the project item hierarchy.  
   
-     For Host File Designer, the only item in this pane is **Host Integration Project Items**.  
+   For Host File Designer, the only item in this pane is **Host Integration Project Items**.  
   
--   The **Templates** pane lists the related project item types.  
+- The **Templates** pane lists the related project item types.  
   
-     For Host File Designer, the only usable item in this pane is **Host Files Library**. A host files library is a .NET assembly that describes the host file system to your application.  
+   For Host File Designer, the only usable item in this pane is **Host Files Library**. A host files library is a .NET assembly that describes the host file system to your application.  
   
- **To add a new item**  
+  **To add a new item**  
   
 1.  On the **Project** menu, click **Add Host File Library** or **Add New Item…**.  
   

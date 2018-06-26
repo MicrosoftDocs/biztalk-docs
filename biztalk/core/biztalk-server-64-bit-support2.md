@@ -117,10 +117,10 @@ This topic answers some frequently asked questions about 64-bit support for Micr
   
 > [!NOTE]
 >  The MQSeries adapter is supported in both 32-bit and 64-bit processes. The adapter has a MQSeries Agent that runs on IBM WebSphere MQ Server on Windows. [Prepare Your Computer for Installation](../install-and-config-guides/prepare-your-computer-for-installation.md) lists the MQ requirements.  
-  
+> 
 > [!NOTE]
 >  If your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications connect to a Windows Server 2003 computer (like SSO, SQL adapter, MQSeries, MQSAgent, Oracle, and so on), then install [934016](http://support.microsoft.com/kb/934016) and [934849](http://support.microsoft.com/kb/934849) on these Windows Server 2003 servers.  
-  
+> 
 > [!NOTE]
 >  Running the FTP adapter, POP3 adapter, and MIME Decoder on 64-bit host instances is not supported.  
   

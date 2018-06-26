@@ -65,34 +65,34 @@ This topic discusses the base sample architecture. It describes the components i
   
  The sample architecture has two firewalls:  
   
--   **Firewall 1.** This firewall has three network interfaces: It routes traffic from the Internet, the intranet, and the perimeter networks.  
+- **Firewall 1.** This firewall has three network interfaces: It routes traffic from the Internet, the intranet, and the perimeter networks.  
   
--   **Firewall 2.** This firewall is dual-homed: It routes traffic from the perimeter networks (both Internet and intranet) and the E-Business domain.  
+- **Firewall 2.** This firewall is dual-homed: It routes traffic from the perimeter networks (both Internet and intranet) and the E-Business domain.  
   
- The computers in the perimeter networks are not members of any domain, and they do not communicate with each other.  
+  The computers in the perimeter networks are not members of any domain, and they do not communicate with each other.  
   
 ## IPsec  
  We recommend that you use Internet Protocol security (IPSec) to help secure the communication between all the servers in the E-Business domain. The IPsec rules are as follows:  
   
--   Allow authenticated traffic between BizTalk Server and the domain controller.  
+- Allow authenticated traffic between BizTalk Server and the domain controller.  
   
--   Allow authenticated traffic between BizTalk Server and the administration tools server.  
+- Allow authenticated traffic between BizTalk Server and the administration tools server.  
   
--   Allow authenticated traffic between BizTalk Server and the master secret server.  
+- Allow authenticated traffic between BizTalk Server and the master secret server.  
   
--   Allow authenticated traffic between BizTalk Server and the SQL Server.  
+- Allow authenticated traffic between BizTalk Server and the SQL Server.  
   
--   Allow authenticated traffic between the master secret server and the domain controller.  
+- Allow authenticated traffic between the master secret server and the domain controller.  
   
--   Allow authenticated traffic between the master secret server and the BizTalk Server (isolated, processing, in-process, and tracking hosts.)  
+- Allow authenticated traffic between the master secret server and the BizTalk Server (isolated, processing, in-process, and tracking hosts.)  
   
--   Allow authenticated traffic between the master secret server and the SQL Server (SSO databases).  
+- Allow authenticated traffic between the master secret server and the SQL Server (SSO databases).  
   
--   Allow authenticated traffic between the domain controller and all the servers in the domain.  
+- Allow authenticated traffic between the domain controller and all the servers in the domain.  
   
--   Allow authenticated traffic between the administration tools server and all the servers in the domain.  
+- Allow authenticated traffic between the administration tools server and all the servers in the domain.  
   
- If you have other applications in the domain that do not need access to the BizTalk Server, SQL Server, master secret server, or administration tools server, block traffic between those applications and the appropriate servers.  
+  If you have other applications in the domain that do not need access to the BizTalk Server, SQL Server, master secret server, or administration tools server, block traffic between those applications and the appropriate servers.  
   
 ## See Also  
  [Planning for Security](../core/planning-for-security.md)   

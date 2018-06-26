@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10827
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10827|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_PSADMIN_INVALID_GROUP_ADAPTER_TYPE|  
-|Message Text|Invalid application type for group adapter. Valid application type is ‘Password Sync Group Adapter’.|  
+|                 |                                                                                                      |
+|-----------------|------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                      Enterprise Single Sign-On                                       |
+| Product Version |                      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                      |
+|    Event ID     |                                                10827                                                 |
+|  Event Source   |                                                ENTSSO                                                |
+|    Component    |                                                 N/A                                                  |
+|  Symbolic Name  |                             ENTSSO_E_PSADMIN_INVALID_GROUP_ADAPTER_TYPE                              |
+|  Message Text   | Invalid application type for group adapter. Valid application type is ‘Password Sync Group Adapter’. |
   
 ## Explanation  
  Invalid application type for group adapter. Valid application type is ‘Password Sync Group Adapter’.  

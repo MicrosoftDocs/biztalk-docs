@@ -56,15 +56,15 @@ manager: "anneta"
 ## Correlation  
  *Correlation* in orchestrations is the mechanism for receiving related messages into the same running orchestration instance. In the Orchestration Designer a developer follows these general steps to use a correlation:  
   
--   Defines a correlation type that includes the promoted properties that are used to relate messages.  
+- Defines a correlation type that includes the promoted properties that are used to relate messages.  
   
--   Defines a correlation set that is an instance of the correlation type just defined.  
+- Defines a correlation set that is an instance of the correlation type just defined.  
   
--   For the send and receive ports, specifies whether they initiate or follow a given correlation set.  
+- For the send and receive ports, specifies whether they initiate or follow a given correlation set.  
   
- Instance subscriptions come into play when a correlation set is initiated, as this is when subscriptions are created for all of those ports that follow this correlation set to receive messages. Because the correlation type defines the properties to be used for correlation, the orchestration engine can extract these properties from the message being sent or received by the initiating action. These values are then used to define subscriptions for all of the remaining actions which follow this correlation set.  
+  Instance subscriptions come into play when a correlation set is initiated, as this is when subscriptions are created for all of those ports that follow this correlation set to receive messages. Because the correlation type defines the properties to be used for correlation, the orchestration engine can extract these properties from the message being sent or received by the initiating action. These values are then used to define subscriptions for all of the remaining actions which follow this correlation set.  
   
- It is important that messages received into BizTalk Server and intended for use in a correlation have their promoted properties correctly defined and promoted to the message context. Most properties get promoted when a disassembler component in a pipeline extracts the values when the message is initially received. For this reason, it is not possible to use the PassThrough receive pipeline to receive messages that must be correlated to a running instance of an orchestration. This issue arises when you use the SOAP receive adapter to receive correlated messages, because the PassThrough pipeline is the default value for the receive pipeline when using the Web Services Publishing Wizard.  
+  It is important that messages received into BizTalk Server and intended for use in a correlation have their promoted properties correctly defined and promoted to the message context. Most properties get promoted when a disassembler component in a pipeline extracts the values when the message is initially received. For this reason, it is not possible to use the PassThrough receive pipeline to receive messages that must be correlated to a running instance of an orchestration. This issue arises when you use the SOAP receive adapter to receive correlated messages, because the PassThrough pipeline is the default value for the receive pipeline when using the Web Services Publishing Wizard.  
   
 ## See Also  
  [Artifacts](../core/artifacts.md)   

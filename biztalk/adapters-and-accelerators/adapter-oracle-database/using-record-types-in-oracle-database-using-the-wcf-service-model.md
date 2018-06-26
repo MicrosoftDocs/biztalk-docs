@@ -22,17 +22,17 @@ Oracle RECORD types are used to represent hierarchical information in parameters
   
  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports the following kinds of RECORD types:  
   
--   RECORD types that are declared as TABLE%ROWTYPE parameters in stored procedures and functions.  
+- RECORD types that are declared as TABLE%ROWTYPE parameters in stored procedures and functions.  
   
--   RECORD types that are declared as TYPE of RECORD parameters in PL/SQL packages for example, `TYPE rec_type1 IS RECORD(name varchar2(100), age number(3));`  
+- RECORD types that are declared as TYPE of RECORD parameters in PL/SQL packages for example, `TYPE rec_type1 IS RECORD(name varchar2(100), age number(3));`  
   
--   RECORD types that contain nested records.  
+- RECORD types that contain nested records.  
   
--   RECORD types that appear as IN, OUT, or IN OUT parameters to procedures or functions.  
+- RECORD types that appear as IN, OUT, or IN OUT parameters to procedures or functions.  
   
--   RECORD types that are RETURN values of functions.  
+- RECORD types that are RETURN values of functions.  
   
- This topic shows how RECORD types are represented in the WCF service model. For information about how to call Oracle procedures and functions, see [Invoke Functions and Procedures in Oracle Database using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md).  
+  This topic shows how RECORD types are represented in the WCF service model. For information about how to call Oracle procedures and functions, see [Invoke Functions and Procedures in Oracle Database using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md).  
   
 ## About the Examples Used in this Topic  
  The examples in this topic use the /SCOTT/ACCOUNT_PKG Oracle PL/SQL PACKAGE. The following elements are used from ACCOUNT_PKG.  

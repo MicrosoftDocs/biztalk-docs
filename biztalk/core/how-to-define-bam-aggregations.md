@@ -23,13 +23,13 @@ manager: "anneta"
 # How to Define BAM Aggregations
 BAM supports two types of data aggregation:  
   
--   Online analytical processing (OLAP) aggregations  
+- Online analytical processing (OLAP) aggregations  
   
--   Real-time aggregations (RTA)  
+- Real-time aggregations (RTA)  
   
- BAM uses Microsoft SQL Server Analysis Services to implement OLAP aggregations.  
+  BAM uses Microsoft SQL Server Analysis Services to implement OLAP aggregations.  
   
- You must configure the triggers on the BAM Primary Import database that define RTA.  
+  You must configure the triggers on the BAM Primary Import database that define RTA.  
   
 ### To define OLAP aggregations  
   

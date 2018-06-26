@@ -213,47 +213,47 @@ void WINAPI callback_proc(
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_CONV_FAILURE_NO_RETRY  
- Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
+  AP_CONV_FAILURE_NO_RETRY  
+  Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
   
- AP_CONV_FAILURE_RETRY  
- Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
+  AP_CONV_FAILURE_RETRY  
+  Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
- AP_DEALLOC_ABEND  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP issued **MC_DEALLOCATE** with **dealloc_type** set to AP_ABEND.  
+- The partner TP issued **MC_DEALLOCATE** with **dealloc_type** set to AP_ABEND.  
   
--   The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
+- The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
   
 ## Remarks  
  Depending on the value of the **dealloc_type** parameter, the conversation can be in one of the states indicated in the following table when the TP issues **MC_DEALLOCATE**.  
@@ -283,26 +283,26 @@ void WINAPI callback_proc(
   
  Before deallocating the conversation, this verb performs the equivalent of one of the following:  
   
--   [MC_FLUSH](../core/mc-flush1.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
+- [MC_FLUSH](../core/mc-flush1.md), by sending the contents of the local LU's send buffer to the partner LU (and TP).  
   
--   [MC_CONFIRM](../core/mc-confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
+- [MC_CONFIRM](../core/mc-confirm2.md), by sending the contents of the local LU's send buffer and a confirmation request to the partner TP.  
   
- After this verb has successfully executed, the conversation identifier is no longer valid.  
+  After this verb has successfully executed, the conversation identifier is no longer valid.  
   
- LU 6.2 Sync Point can use an optimization of the message flows known as implied forget. When the protocol specifies that a FORGET PS header is required, the next data flow on the session implies that a FORGET has been received. In the normal situation, the TP is aware of the next data flow when data is received or sent on one of its Sync Point conversations.  
+  LU 6.2 Sync Point can use an optimization of the message flows known as implied forget. When the protocol specifies that a FORGET PS header is required, the next data flow on the session implies that a FORGET has been received. In the normal situation, the TP is aware of the next data flow when data is received or sent on one of its Sync Point conversations.  
   
- However, it is possible that the last message to flow is caused by the conversation being deallocated. In this case, the TP is unaware when the next data flow on the session occurs. In order to provide the TP with this notification, the **MC_DEALLOCATE** verb is modified to allow the TP to register a callback function which will be called:  
+  However, it is possible that the last message to flow is caused by the conversation being deallocated. In this case, the TP is unaware when the next data flow on the session occurs. In order to provide the TP with this notification, the **MC_DEALLOCATE** verb is modified to allow the TP to register a callback function which will be called:  
   
--   On the first normal flow transmission (request or response) over the session used by the conversation.  
+- On the first normal flow transmission (request or response) over the session used by the conversation.  
   
--   If the session is unbound before any other data flows.  
+- If the session is unbound before any other data flows.  
   
--   If the session is terminated abnormally due to a DLC outage.  
+- If the session is terminated abnormally due to a DLC outage.  
   
- The **MC_DEALLOCATE** verb also contains a **correlator** field member that is returned as one of the parameters when the callback function is invoked. The application can use this parameter in any way (for example, as a pointer to a control block within the application).  
+  The **MC_DEALLOCATE** verb also contains a **correlator** field member that is returned as one of the parameters when the callback function is invoked. The application can use this parameter in any way (for example, as a pointer to a control block within the application).  
   
- The TP can use the *type* parameter passed to the callback function to determine whether the message flow indicates an implied forget has been received.  
+  The TP can use the *type* parameter passed to the callback function to determine whether the message flow indicates an implied forget has been received.  
   
- Note that the **MC_DEALLOCATE** verb will probably complete before the callback routine is called. The conversation is considered to be in RESET state and no further verbs can be issued using the conversation identifier. If the application issues a [TP_ENDED](../core/tp-ended1.md) verb before the next data flow on the session, the callback routine will not be invoked.  
+  Note that the **MC_DEALLOCATE** verb will probably complete before the callback routine is called. The conversation is considered to be in RESET state and no further verbs can be issued using the conversation identifier. If the application issues a [TP_ENDED](../core/tp-ended1.md) verb before the next data flow on the session, the callback routine will not be invoked.  
   
- Host Integration Server allows TPs to deallocate conversations immediately after sending data by specifying the type parameter on [MC_SEND_DATA](../core/mc-send-data1.md) as AP_SEND_DATA_DEALLOC_\*. However, the **MC_SEND_DATA** verbs do not contain the implied forget callback function. TPs wishing to receive implied forget notification must issue **MC_DEALLOCATE** explicitly.
+  Host Integration Server allows TPs to deallocate conversations immediately after sending data by specifying the type parameter on [MC_SEND_DATA](../core/mc-send-data1.md) as AP_SEND_DATA_DEALLOC_\*. However, the **MC_SEND_DATA** verbs do not contain the implied forget callback function. TPs wishing to receive implied forget notification must issue **MC_DEALLOCATE** explicitly.

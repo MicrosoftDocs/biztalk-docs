@@ -17,11 +17,11 @@ manager: "anneta"
 # Receive Oracle E-Business Suite database change notifications after a receive location breakdown
 Consider a scenario where you have a BizTalk application that receives database change notification messages when changes are made to the ACCOUNTACTIVITY table. If the receive location configured as part of the BizTalk application breaks down, and simultaneously records are added into the ACCOUNTACTIVITY table, you will not receive notifications for the recently added records. You will also not know when the receive location is available again. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes a binding property, **NotifyOnListenerStart**, that you can configure to get a notification that the receive location has recovered. You can specify the following values for the **NotifyOnListenerStart** binding property:  
   
--   Set this property to **True**, to receive a notification informing that the receive location is available, as soon as the receive location recovers.  
+- Set this property to **True**, to receive a notification informing that the receive location is available, as soon as the receive location recovers.  
   
--   Set this property to **False**, to not receive a notification informing that the receive location is available, after the receive location recovers.  
+- Set this property to **False**, to not receive a notification informing that the receive location is available, after the receive location recovers.  
   
- Default is **True**.  
+  Default is **True**.  
   
 ## Configuring the Oracle E-Business Adapter Behavior  
  For either of the approaches, you do not need to perform any specific tasks while generating metadata or while configuring the BizTalk application. You only need to set the **NotifyOnListenerStart** binding property accordingly on the WCF-Custom or WCF-OracleEBS receive location. To create the BizTalk application, you must perform the same set of tasks as described in [Receive Oracle E-Business Suite Change Notifications Incrementally Using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-ebs/receive-oracle-ebs-change-notifications-incrementally-using-biztalk-server.md). However, when configuring the BizTalk application using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you can try changing the value of **NotifyOnListenerStart** binding property and see the difference in the two configurations.  

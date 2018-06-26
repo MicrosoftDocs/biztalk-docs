@@ -62,19 +62,19 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  The adapter gives the following error when performing any operation on a SQL Server database using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **For BizTalk Server**  
+- **For BizTalk Server**  
   
-    ```  
-    System.ArgumentNullException: Value cannot be null.  
-    ```  
+  ```  
+  System.ArgumentNullException: Value cannot be null.  
+  ```  
   
- **Cause**  
+  **Cause**  
   
- The WCF action for the message is not specified. WCF requires a SOAP action to be specified for every operation, which informs the adapter about the operation to be performed on the LOB application.  
+  The WCF action for the message is not specified. WCF requires a SOAP action to be specified for every operation, which informs the adapter about the operation to be performed on the LOB application.  
   
- **Resolution**  
+  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-soap-action-for-the-sql-adapter.md). See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md) to see a list of actions for each operation.  
+  Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-soap-action-for-the-sql-adapter.md). See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md) to see a list of actions for each operation.  
   
 ###  <a name="BKMK_SQLInvalidOp"></a> InvalidOperationException with ErrorCode=5 while performing FILESTREAM operations  
  **Problem**  
@@ -119,35 +119,35 @@ ErrorCode:5
   
  **Resolution**  
   
--   **For BizTalk Server**  
+- **For BizTalk Server**  
   
-    1.  Specify the timeout for the WCF adapter in the machine.config. Navigate to the machine.config file under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
+  1. Specify the timeout for the WCF adapter in the machine.config. Navigate to the machine.config file under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
   
-        ```  
-        <configuration>  
-         <system.transactions>  
-          <machineSettings maxTimeout="02:00:00" />  
+     ```  
+     <configuration>  
+      <system.transactions>  
+       <machineSettings maxTimeout="02:00:00" />  
+      </system.transactions>  
+     </configuration>  
+     ```  
+  
+      With this setting, the WCF adapter timeout is set to 2 hours.  
+  
+  2. Specify the timeout settings for MSDTC transactions in the machine.config. Navigate to the machine.config file under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
+  
+     ```  
+     <system.transactions>   
+             <defaultSettings distributedTransactionManagerName="<computer_name>" timeout="02:00:00"/>   
          </system.transactions>  
-        </configuration>  
-        ```  
   
-         With this setting, the WCF adapter timeout is set to 2 hours.  
+     ```  
   
-    2.  Specify the timeout settings for MSDTC transactions in the machine.config. Navigate to the machine.config file under \<system drive\>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG and add the excerpt that resembles the following.  
+      With this setting, the MSDTC timeout is set to 2 hours. The default value for MSDTC timeout is 10 minutes.  
   
-        ```  
-        <system.transactions>   
-                <defaultSettings distributedTransactionManagerName="<computer_name>" timeout="02:00:00"/>   
-            </system.transactions>  
+     > [!IMPORTANT]
+     >  You must make this change on the computers running the adapter client and SQL Server. In the excerpt, replace <computer_name> with the name of computer running the adapter client and SQL Server.  
   
-        ```  
-  
-         With this setting, the MSDTC timeout is set to 2 hours. The default value for MSDTC timeout is 10 minutes.  
-  
-        > [!IMPORTANT]
-        >  You must make this change on the computers running the adapter client and SQL Server. In the excerpt, replace <computer_name> with the name of computer running the adapter client and SQL Server.  
-  
-    3.  Set the **SendTimeout** binding property for the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to a fairly large value. For instructions on how to set the binding properties, see [Configure the binding properties for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-binding-properties-for-the-sql-adapter.md).  
+  3. Set the **SendTimeout** binding property for the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to a fairly large value. For instructions on how to set the binding properties, see [Configure the binding properties for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-binding-properties-for-the-sql-adapter.md).  
   
 ###  <a name="BKMK_SQLFullSchemaValidate"></a> Full schema validation in BizTalk Server fails for response messages containing DataSet  
  **Problem**  
@@ -222,13 +222,13 @@ The element 'bindings' has invalid child element 'sqlBinding'. List of possible 
   
  This happens because of either of the following:  
   
--   You have generated more than one Notification schema in a BizTalk Server project, deployed it to a BizTalk Server application, and then ran the application to receive notifications from the SQL Server database. Because the Notification schemas are common, there is a conflict between the schemas that are deployed in the BizTalk Server application.  
+- You have generated more than one Notification schema in a BizTalk Server project, deployed it to a BizTalk Server application, and then ran the application to receive notifications from the SQL Server database. Because the Notification schemas are common, there is a conflict between the schemas that are deployed in the BizTalk Server application.  
   
--   In case of multiple projects, you have generated a Notification schema for each of the BizTalk Server projects, deployed each project to a separate BizTalk Server application on the same host, and then ran an application or applications to receive notifications from the SQL Server database. Because the schemas and assemblies are accessible across the applications in BizTalk Server, there is a conflict between the common schemas deployed under various BizTalk Server applications and assemblies.  
+- In case of multiple projects, you have generated a Notification schema for each of the BizTalk Server projects, deployed each project to a separate BizTalk Server application on the same host, and then ran an application or applications to receive notifications from the SQL Server database. Because the schemas and assemblies are accessible across the applications in BizTalk Server, there is a conflict between the common schemas deployed under various BizTalk Server applications and assemblies.  
   
- **Resolution**  
+  **Resolution**  
   
- Use a single Notification schema file for a BizTalk Server application. If you need to use the Notification schema in multiple BizTalk Server applications on the same host, create an application containing a single Notification schema, and then use the notification schema from all other applications in BizTalk Server.  
+  Use a single Notification schema file for a BizTalk Server application. If you need to use the Notification schema in multiple BizTalk Server applications on the same host, create an application containing a single Notification schema, and then use the notification schema from all other applications in BizTalk Server.  
   
 ###  <a name="BKMK_SQLRestoreConn"></a> Adapter client throws an exception on performing an operation after the connectivity is restored between the adapter client and the SQL Server database  
  **Problem**  

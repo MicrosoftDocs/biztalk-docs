@@ -25,19 +25,19 @@ When message processing fails in your custom pipeline, you can use source level 
   
 ##### To Debug a Deployed Custom Pipeline using Visual Studio  
   
-1.  Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Change the output path for your solution to *\<Installation Folder\>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder\>*\Pipeline Components directory.  
+2. Change the output path for your solution to *\<Installation Folder\>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder\>*\Pipeline Components directory.  
   
-3.  From within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the solution by clicking **Build** &#124; **Deploy**.  
+3. From within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the solution by clicking **Build** &#124; **Deploy**.  
   
-4.  Restart the host instance that runs the pipeline. Using the BizTalk Server Management console, navigate to the host instance that runs the pipeline, right-click the host instance then click **Restart**.  
+4. Restart the host instance that runs the pipeline. Using the BizTalk Server Management console, navigate to the host instance that runs the pipeline, right-click the host instance then click **Restart**.  
   
-5.  Attach the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] debugger to BTSNTSVC.exe. This can be done by clicking **Debug** &#124; **Attach to Process**, click Show processes in all sessions, and then double-click BTSNTSVC.exe.  
+5. Attach the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] debugger to BTSNTSVC.exe. This can be done by clicking **Debug** &#124; **Attach to Process**, click Show processes in all sessions, and then double-click BTSNTSVC.exe.  
   
-6.  Set breakpoints.  
+6. Set breakpoints.  
   
-7.  Drop a message in the appropriate location to initiate the custom pipeline component. Processing should halt on the breakpoints you set.  
+7. Drop a message in the appropriate location to initiate the custom pipeline component. Processing should halt on the breakpoints you set.  
   
 > [!NOTE]
 >  If your code throws an exception, BizTalk Server will catch it and ultimately suspend the message. To avoid this behavior, you should break on first chance exceptions.  
@@ -50,19 +50,19 @@ When message processing fails in your custom pipeline, you can use source level 
   
 ##### To Debug a Custom Pipeline using Pipeline.exe and Visual Studio  
   
-1.  Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Change the output path for your solution to *\<Installation Folder\>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder\>*\Pipeline Components directory.  
+2. Change the output path for your solution to *\<Installation Folder\>*\Pipeline Components. In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder\>*\Pipeline Components directory.  
   
-3.  Change the start action for your solution. In Solution Explorer, right-click your project, click the Debug tab, click Start external program, then click **…** and navigate to *\<Installation Folder\>*\SDK\Utilities\PipelineTools and choose Pipeline.exe. Under Start Options, enter the command line arguments appropriate for your component. For more information on Pipeline.exe, see [Pipeline Tools](../core/pipeline-tools.md). A typical configuration specifies the pipeline and a sample file:  
+3. Change the start action for your solution. In Solution Explorer, right-click your project, click the Debug tab, click Start external program, then click **…** and navigate to *\<Installation Folder\>*\SDK\Utilities\PipelineTools and choose Pipeline.exe. Under Start Options, enter the command line arguments appropriate for your component. For more information on Pipeline.exe, see [Pipeline Tools](../core/pipeline-tools.md). A typical configuration specifies the pipeline and a sample file:  
   
-    ```  
-    <Path>\YourPipeline.btp -d <Path>\YourTestFile.txt -c  
-    ```  
+   ```  
+   <Path>\YourPipeline.btp -d <Path>\YourTestFile.txt -c  
+   ```  
   
-4.  Set your breakpoints.  
+4. Set your breakpoints.  
   
-5.  Press F5 to begin debugging.  
+5. Press F5 to begin debugging.  
   
 ## See Also  
  [Pipeline Tools](../core/pipeline-tools.md)

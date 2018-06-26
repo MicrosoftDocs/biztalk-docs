@@ -163,21 +163,21 @@ using(TransactionScope tx = new TransactionScope())
 ## Streaming Inbound Messages from the Adapter  
  The adapter supports end-to-end LOB data streaming for the following inbound messages:  
   
--   Response message for functions with OUT or IN OUT parameters that contain LOB data. Note that RECORD TYPE parameters can contain LOB data columns.  
+- Response message for functions with OUT or IN OUT parameters that contain LOB data. Note that RECORD TYPE parameters can contain LOB data columns.  
   
--   Response message for functions with OUT REF CURSOR parameters (or return values) that contain LOB data. This includes the output side of IN OUT REF CURSOR parameters.  
+- Response message for functions with OUT REF CURSOR parameters (or return values) that contain LOB data. This includes the output side of IN OUT REF CURSOR parameters.  
   
--   Response message for procedures with IN or IN OUT parameters that contain LOB data. Note that RECORD TYPE parameters can contain LOB data columns.  
+- Response message for procedures with IN or IN OUT parameters that contain LOB data. Note that RECORD TYPE parameters can contain LOB data columns.  
   
--   Response message for procedures with OUT REF CURSOR parameters that contain LOB data. This includes the output side of IN OUT REF CURSOR parameters  
+- Response message for procedures with OUT REF CURSOR parameters that contain LOB data. This includes the output side of IN OUT REF CURSOR parameters  
   
--   Response message for SQLEXECUTE operations that return result sets that contain LOB data.  
+- Response message for SQLEXECUTE operations that return result sets that contain LOB data.  
   
--   Response message for Table or view Select operations that return LOB data in the result set.  
+- Response message for Table or view Select operations that return LOB data in the result set.  
   
--   Request message for the (inbound) POLLINGSTMT operation  
+- Request message for the (inbound) POLLINGSTMT operation  
   
- To support end-to-end streaming on an inbound message in the WCF channel model, you must:  
+  To support end-to-end streaming on an inbound message in the WCF channel model, you must:  
   
 1.  Implement a **System.Xml.XmlDictionaryWriter** that is capable of streaming the LOB data (performing node-value streaming on the LOB data).  
   

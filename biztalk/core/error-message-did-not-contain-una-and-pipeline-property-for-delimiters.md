@@ -17,15 +17,15 @@ manager: "anneta"
 # Message did not contain UNA and pipeline property for delimiters was incorrect format
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|EfactDelimiterIncorrectFormat|  
-|Message Text|Message did not contain UNA and pipeline property for delimiters was incorrect format '{0}'|  
+|                 |                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------|
+|  Product Name   |     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]      |
+| Product Version |                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                  |
+|    Event ID     |                                              -                                              |
+|  Event Source   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI    |
+|    Component    |                                         EDI Engine                                          |
+|  Symbolic Name  |                                EfactDelimiterIncorrectFormat                                |
+|  Message Text   | Message did not contain UNA and pipeline property for delimiters was incorrect format '{0}' |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline could not process the incoming EDIFACT interchange because it could not determine the separators required to process the interchange. This can occur if the interchange does not have a UNA segment and the EfactDelimiters pipeline property does not adequately define the separators.  

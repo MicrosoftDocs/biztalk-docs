@@ -18,11 +18,11 @@ As with other link services, you can view IP-DLC link services in the list view 
   
 ### To view link services  
   
-1.  In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer with the link services that you want to view.  
+1. In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer with the link services that you want to view.  
   
-2.  Expand the list for that computer.  
+2. Expand the list for that computer.  
   
-3.  Select the **Link Services** folder. The link services for that computer will appear in the right pane.  
+3. Select the **Link Services** folder. The link services for that computer will appear in the right pane.  
   
 ## See Also  
  [Managing IP-DLC Link Services](../core/managing-ip-dlc-link-services2.md)

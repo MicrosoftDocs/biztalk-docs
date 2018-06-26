@@ -16,17 +16,17 @@ manager: "anneta"
 # BizTalk Server MessageBox Database Filegroups SQL Script
 This topic provides a SQL script that can be run on the SQL Server instances in a BizTalk Server environment to create multiple files and filegroups for the BizTalk MessageBox databases.  
   
-> [!IMPORTANT]  
+> [!IMPORTANT]
 >  This script is provided “as is,” is intended for demo or educational purposes only, and is to be used at your own risk. Use of this script is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this script.  
-  
-> [!IMPORTANT]  
+> 
+> [!IMPORTANT]
 >  The following considerations apply when using this SQL script to create multiple files and filegroups for the BizTalk MessageBox databases:  
->   
->  1.  **Rerun the MessageBox database filegroups SQL script under the following conditions:**  
->   
->      -   If you install a BizTalk Server hotfix or service pack that runs **msgboxlogic.sql**, you will need to run the MessageBox database filegroups SQL script again. This is necessary because msgboxlogic.sql reverts the MessageBox filegroups and files to default settings, which is to use the PRIMARY filegroup. To determine if a hotfix or service pack runs msgboxlogic.sql, check the **File Information** section of the hotfix KB article. Or check the setup.xml file that is included with the service pack files.  
->     -   If you add a new host to the BizTalk Server group, you will need to run the MessageBox database filegroups SQL script again. This is necessary because the stored procedure that creates new hosts configures the tables for the hosts to use the PRIMARY file group by default.  
-> 2.  **Applying the MessageBox database filegroups SQL script in a multi-MessageBox environment:** Though not a requirement, the MessageBox database filegroups SQL script can be executed against each MessageBox in a multi-Messagebox environment.  
+> 
+> 1. **Rerun the MessageBox database filegroups SQL script under the following conditions:**  
+> 
+>    - If you install a BizTalk Server hotfix or service pack that runs **msgboxlogic.sql**, you will need to run the MessageBox database filegroups SQL script again. This is necessary because msgboxlogic.sql reverts the MessageBox filegroups and files to default settings, which is to use the PRIMARY filegroup. To determine if a hotfix or service pack runs msgboxlogic.sql, check the **File Information** section of the hotfix KB article. Or check the setup.xml file that is included with the service pack files.  
+>    - If you add a new host to the BizTalk Server group, you will need to run the MessageBox database filegroups SQL script again. This is necessary because the stored procedure that creates new hosts configures the tables for the hosts to use the PRIMARY file group by default.  
+>    - **Applying the MessageBox database filegroups SQL script in a multi-MessageBox environment:** Though not a requirement, the MessageBox database filegroups SQL script can be executed against each MessageBox in a multi-Messagebox environment.  
   
 ## BizTalk MessageBox database filegroups SQL script  
  The following SQL script can be used to create multiple files and filegroups as described in the topic [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md).  

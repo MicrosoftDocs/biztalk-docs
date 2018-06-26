@@ -25,28 +25,28 @@ manager: "anneta"
  **Conversation Security**  
  Select a Conversation Security option:  
   
--   **None** turns off conversation security.  
+- **None** turns off conversation security.  
   
--   **Same** requires the same user ID and password as that of the Remote Partner LU.  
+- **Same** requires the same user ID and password as that of the Remote Partner LU.  
   
--   **Program** specifies the user ID and password, select Program, and then click **User ID**.  
+- **Program** specifies the user ID and password, select Program, and then click **User ID**.  
   
- **Mode Name**  
- Select a mode name from the drop-down list.  
+  **Mode Name**  
+  Select a mode name from the drop-down list.  
   
 ## CPI-C Symbolic Name: Partner Information  
   
 ### Partner TP Name  
   
--   **Application TP:** For an Application TP, select this option, and type the Application TP Name.  
+- **Application TP:** For an Application TP, select this option, and type the Application TP Name.  
   
--   **SNA service TP** (in hexadecimal)**:** For an SNA service TP select this option, and type the SNA service TP Number.Partner LU Name  
+- **SNA service TP** (in hexadecimal)**:** For an SNA service TP select this option, and type the SNA service TP Number.Partner LU Name  
   
--   **Alias:** To identify the **Partner LU by** Alias, select this option, and type the alias.  
+- **Alias:** To identify the **Partner LU by** Alias, select this option, and type the alias.  
   
--   **Fully Qualified:** To identify the partner LU by a Fully Qualified name, select this option, and type the name.  
+- **Fully Qualified:** To identify the partner LU by a Fully Qualified name, select this option, and type the name.  
   
- To accept the settings, click **OK**; to exit the dialog box without accepting the settings, click **Cancel**.  
+  To accept the settings, click **OK**; to exit the dialog box without accepting the settings, click **Cancel**.  
   
 ## See Also  
  [SNA Manager Help](../core/sna-manager-help1.md)

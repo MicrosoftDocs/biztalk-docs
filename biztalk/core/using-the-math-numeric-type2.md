@@ -22,15 +22,15 @@ manager: "anneta"
 # Using the MATH_NUMERIC Type
 This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits. It also includes a discussion on the following:  
   
--   Exponents  
+- Exponents  
   
--   Invalid Values  
+- Invalid Values  
   
--   Precision for Operations  
+- Precision for Operations  
   
--   Currency  
+- Currency  
   
- The MATH_NUMERIC type is a numeric string type. To use it, enter parameter values of the following format:  
+  The MATH_NUMERIC type is a numeric string type. To use it, enter parameter values of the following format:  
   
 ```  
 <OptionalSign><IntegerAndFractionalPart><OptionalExponentPart>  
@@ -38,21 +38,21 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
  Where  
   
--   `<OptionalSign>` can be `+` or `-`. `+` is the default.  
+- `<OptionalSign>` can be `+` or `-`. `+` is the default.  
   
--   `<IntegerAndFractionalPart>` is a maximum of 32 significant digits, not counting the decimal symbol. The decimal symbol is locale-specific to the JD Edwards OneWorld installation—typically a period (.) or a comma (,). The digits may be all integer, all fraction, or part integer and part fraction, but they cannot exceed 32.  
+- `<IntegerAndFractionalPart>` is a maximum of 32 significant digits, not counting the decimal symbol. The decimal symbol is locale-specific to the JD Edwards OneWorld installation—typically a period (.) or a comma (,). The digits may be all integer, all fraction, or part integer and part fraction, but they cannot exceed 32.  
   
--   `<OptionalExponentPart>` is equivalent to:  
+- `<OptionalExponentPart>` is equivalent to:  
   
-    ```  
-    'e' <OptionalSign><ExponentDigits>  
-    ```  
+  ```  
+  'e' <OptionalSign><ExponentDigits>  
+  ```  
   
- Where  
+  Where  
   
--   `<OptionalSign>` can be `+` or -. `+` is the default.  
+- `<OptionalSign>` can be `+` or -. `+` is the default.  
   
--   `<ExponentDigits>` are at most two digits. You are permitted values between 63 and -63 excluding zero.  
+- `<ExponentDigits>` are at most two digits. You are permitted values between 63 and -63 excluding zero.  
   
 ## Valid Values  
  Examples of valid MATH_NUMERIC values:  
@@ -82,13 +82,13 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
  Examples of invalid MATH_NUMERIC values:  
   
--   1034.00000000000000000000000000001023 - too many significant digits  
+- 1034.00000000000000000000000000001023 - too many significant digits  
   
--   1.023e-64 - exponent too small  
+- 1.023e-64 - exponent too small  
   
--   0.00317e64 - exponent too large  
+- 0.00317e64 - exponent too large  
   
- Any non-numeric characters other than those appropriate for signs and decimal symbols result in an invalid value.  
+  Any non-numeric characters other than those appropriate for signs and decimal symbols result in an invalid value.  
   
 ## Exponents  
  Exponents are provided by the JD Edwards OneWorld MATH_NUMERIC as a convenience for entering values. However, most values return without exponents (with all 32 significant digits visible).  

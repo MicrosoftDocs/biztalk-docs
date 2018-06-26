@@ -28,9 +28,9 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
   
 ## Prerequisites  
   
--   You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.  
+- You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.  
   
--   The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).  
+- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).  
   
 ## How This Sample is Designed and Why  
  This sample, written in Visual C# using objects from the BizTalk Explorer object model, performs the following operations:  
@@ -56,34 +56,34 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
   
 ### To build and initialize this sample  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file UnenlistParties.sln.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file UnenlistParties.sln.  
   
-2.  In the **Build** menu, select **Build Solution**.  
+2. In the **Build** menu, select **Build Solution**.  
   
 ### To run this sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
+    \<*Samples Path*\>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
   
-2.  Run the file UnenlistParties.exe, passing one of the two following command-line arguments:  
+2. Run the file UnenlistParties.exe, passing one of the two following command-line arguments:  
   
-    -   **\<**
-         ***AssemblyName* \>**. The name of an assembly from which all associated parties are to be unenlisted. If the assembly name contains spaces, enclose the name in quotes.  
+   - **\<**
+      ***AssemblyName* \>**. The name of an assembly from which all associated parties are to be unenlisted. If the assembly name contains spaces, enclose the name in quotes.  
   
-    -   **/?.** Displays help.  
+   - **/?.** Displays help.  
   
      For example:  
   
-    ```  
-    UnenlistParties "My BizTalk Assembly.dll"  
-    ```  
+   ```  
+   UnenlistParties "My BizTalk Assembly.dll"  
+   ```  
   
-     -OR-  
+    -OR-  
   
-    ```  
-    UnenlistParties /?  
-    ```  
+   ```  
+   UnenlistParties /?  
+   ```  
   
 ## Windows Powershell Script Example  
  The following Windows Powershell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:  

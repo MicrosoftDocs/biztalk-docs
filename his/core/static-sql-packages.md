@@ -107,38 +107,38 @@ GO
 ### Bind Package Creation Control  
  The DRDA Service supports the DRDA BGNBND BNDCRTCTL (Bind Package Creation Control), which instructs the MsDrdaService to skip over bind errors. The BNDCRTCTL code point supports an enumeration of values.  
   
--   BNDCHKONL(Bind Check Only)  
+- BNDCHKONL(Bind Check Only)  
   
--   BNDNERALW (Bind No Errors Allowed)  
+- BNDNERALW (Bind No Errors Allowed)  
   
--   BNDERRALW (Bind Errors Allowed)  
+- BNDERRALW (Bind Errors Allowed)  
   
--   BNDNERALW (Bind No Errors Allowed)  
+- BNDNERALW (Bind No Errors Allowed)  
   
- By default, the DRDA Service defaults to BNDNERALW (Bind No Errors Allowed). The DRDA Service returns a BGNBNDRM (BGNBND Reply Message) with an error indicating the problem, when one of the following instances occurs.  
+  By default, the DRDA Service defaults to BNDNERALW (Bind No Errors Allowed). The DRDA Service returns a BGNBNDRM (BGNBND Reply Message) with an error indicating the problem, when one of the following instances occurs.  
   
--   DRDA-to-XML conversion problem  
+- DRDA-to-XML conversion problem  
   
--   XML-to-DDL conversion problem  
+- XML-to-DDL conversion problem  
   
--   Custom bind listener does return DDL on the callback interface  
+- Custom bind listener does return DDL on the callback interface  
   
--   DRDA Service cannot execute the DDL statement  
+- DRDA Service cannot execute the DDL statement  
   
- To instruct the DRDA Service to ignore errors and continue processing a package, the DRDA AR client should specify BNDCRTCTL option BNDERRALW (Bind Errors Allowed).  
+  To instruct the DRDA Service to ignore errors and continue processing a package, the DRDA AR client should specify BNDCRTCTL option BNDERRALW (Bind Errors Allowed).  
   
- When using the DB2 Administrative tool with DB2 for z/OS, the DB2 administrator can specify the option SQLERROR “C” (Continue). When using the DB2 bind copy tool with DB2 for z/OS, the DB2 programmer can navigate to the DB2 BIND PACKAGE panel, specify CHANGE CURRENT DEFAULTS=YES, and then set SQLERROR PROCESSING=C.  
+  When using the DB2 Administrative tool with DB2 for z/OS, the DB2 administrator can specify the option SQLERROR “C” (Continue). When using the DB2 bind copy tool with DB2 for z/OS, the DB2 programmer can navigate to the DB2 BIND PACKAGE panel, specify CHANGE CURRENT DEFAULTS=YES, and then set SQLERROR PROCESSING=C.  
   
 ### Bind Package Replace  
  The DRDA Service supports the DRDA BGNBND PKGRPLOPT (Package Replacement Option), which instructs the MsDrdaService to drop and re-create the package stored procedure. The PKGRPLOPT code point supports a Boolean value.  
   
  Currently, we add but do not replace packages, when processing BGNBND (Begin Bind) BNDSQLSTT (Bind SQL Statement). This option instructs DB2 for z/OS to drop and create a new copy of the package.  
   
--   PKGRPLALW (Package Replacement Allowed)  
+- PKGRPLALW (Package Replacement Allowed)  
   
--   PKGRPLNA (Package Replacement Not Allowed)  
+- PKGRPLNA (Package Replacement Not Allowed)  
   
- By default, the DRDA Service defaults to PKGRPLALW (Package Replacement Allowed). The DRDA Service executes a DROP PROCEDURE statement prior to executing a CREATE PROCEDURE statement.  
+  By default, the DRDA Service defaults to PKGRPLALW (Package Replacement Allowed). The DRDA Service executes a DROP PROCEDURE statement prior to executing a CREATE PROCEDURE statement.  
   
 ### Bind Options List  
  The following are a list of the package bind options defined in the static SQL for DB2 package XML file. The format of these elements, types and values differ from version of Host Integration Server to another. In HIS 2010 (V8.5), the technology supported a version 8.5 format of these bind options. In HIS 2013 (V9.0), the technology supports a version 9.0 format of these bind options, which is more verbose and descriptive. The HIS 2013 technology includes an XSD schema file for use with the static SQL for DB2 package XML file  
@@ -147,15 +147,15 @@ GO
  The DRDA Service transforms static SQL for DB2 packages into SQL Server stored procedures, when processing DRDA begin bind and bind SQL statements commands, including embedded SQL DECLARE CURSOR statements. Depending on the cursor type, the DRDA Service defines the stored procedure to include additional input parameters (“INVOKE_TYPE”) to define the action on the cursor (e.g. open, fetch, close). The DRDA Service includes comments in the SQL Server stored procedure to denote the bind options (e.g. fixed row protocol) and cursor type (e.g. global, for update, read only).  
   
 ### Declare and Open a Cursor  
- The DRDA Service opens a cursor by calling a SQL Server stored procedure with an invoke type parameter argument “@__INVOKE_TYPE\_\_ = 0”, in response to a DRDA AR OPNQRY (Open Query) to support a consumer program’s DECLARE CURSOR and OPEN CURSOR commands, returning a single row to the DRDA AR in a reply to the DRDA OPNQRY command called a QRYDTA (Query Answer Data Set).  
+ The DRDA Service opens a cursor by calling a SQL Server stored procedure with an invoke type parameter argument “@*_INVOKE_TYPE\\*\_ = 0”, in response to a DRDA AR OPNQRY (Open Query) to support a consumer program’s DECLARE CURSOR and OPEN CURSOR commands, returning a single row to the DRDA AR in a reply to the DRDA OPNQRY command called a QRYDTA (Query Answer Data Set).  
   
 ### Fetch against a Cursor  
- The DRDA Service fetches against a cursor by calling a SQL Server stored procedure with an invoke type parameter argument “@__INVOKE_TYPE\_\_ = 1” and parameter argument @\__FETCH_ROW_COUNT\_\_ = n”, in response to a DRDA AR CNTQRY (Continue Query) to support a consumer program’s FETCH commands, returning a single row or multiple (n) rows to the DRDA AR in a reply to the DRDA CNTQRY command called a QRYDTA (Query Answer Data Set).  
+ The DRDA Service fetches against a cursor by calling a SQL Server stored procedure with an invoke type parameter argument “@*_INVOKE_TYPE\\*\_ = 1” and parameter argument @\_*FETCH_ROW_COUNT\\*\_ = n”, in response to a DRDA AR CNTQRY (Continue Query) to support a consumer program’s FETCH commands, returning a single row or multiple (n) rows to the DRDA AR in a reply to the DRDA CNTQRY command called a QRYDTA (Query Answer Data Set).  
   
  To improve performance, the DRDA Service returns multiple rows per fetch when possible, unless the package or cursor is defined for single row fetch to support concurrent updating. See description of SQL clause syntax and bind options below.  
   
 ### Close a Cursor  
- The DRDA Service closes a cursor by calling a SQL Server stored procedure with an invoke type parameter argument “@__INVOKE_TYPE\_\_ = 2”, in response to a DRDA AR CLSQRY (Close Query) to support a consumer program’s CLOSE CURSOR command, returning to the DRDA AR a reply to the DRDA CLSQRY command called a ENDQRYRM (End of Query Reply Message).  
+ The DRDA Service closes a cursor by calling a SQL Server stored procedure with an invoke type parameter argument “@*_INVOKE_TYPE\\*\_ = 2”, in response to a DRDA AR CLSQRY (Close Query) to support a consumer program’s CLOSE CURSOR command, returning to the DRDA AR a reply to the DRDA CLSQRY command called a ENDQRYRM (End of Query Reply Message).  
   
  If the DECLARE CURSOR statements includes a SQL clause WITH HOLD, then the DRDA Service defines the stored procedure with a DECLARE CURSOR GLOBAL option. In this case, and SQL Server will retain the cursor over close and commit requests for the duration of the DRDA AR to DRDA Service to SQL Server connection.  
   
@@ -164,9 +164,9 @@ GO
   
  The DRDA Service will include a CURSOR_WITH_HOLD comment in the stored procedure when the DECLARE CURSOR SQL statement includes the SQL clause WITH HOLD. The DRDA Service defines the stored procedure with a DECLARE CURSOR GLOBAL option, and SQL Server will retain the cursor over close and commit requests for the duration of the DRDA AR to DRDA Service to SQL Server connection.  
   
- The DRDA Service will include a CURSOR_FOR_UPDATE comment in the stored procedure when the DECLARE CURSOR SQL statement includes the SQL clause FOR UPDATE. The DRDA Service defines the stored procedure without the parameter argument @__FETCH_ROW_COUNT\_\_ = n”. The DRDA Service will return a single row per fetch only.  
+ The DRDA Service will include a CURSOR_FOR_UPDATE comment in the stored procedure when the DECLARE CURSOR SQL statement includes the SQL clause FOR UPDATE. The DRDA Service defines the stored procedure without the parameter argument @*_FETCH_ROW_COUNT\\*\_ = n”. The DRDA Service will return a single row per fetch only.  
   
- Depending on bind option, the DRDA Service interprets the SQL clause syntax FOR READ ONLY and FOR FETCH ONLY as denoting a non-updateable cursor, against which the DRDA Service can fetch multiple rows per CNTQRY. The DRDA Service defines the stored procedure with the parameter argument @__FETCH_ROW_COUNT\_\_ = n”. The DRDA Service will return a single row or multiple rows per fetch based on the bind option.  
+ Depending on bind option, the DRDA Service interprets the SQL clause syntax FOR READ ONLY and FOR FETCH ONLY as denoting a non-updateable cursor, against which the DRDA Service can fetch multiple rows per CNTQRY. The DRDA Service defines the stored procedure with the parameter argument @*_FETCH_ROW_COUNT\\*\_ = n”. The DRDA Service will return a single row or multiple rows per fetch based on the bind option.  
   
 ```  
 DECLARE C2 CURSOR WITH HOLD FOR SELECT SALESKEY FROM CONTOSO.DSN8910.BULKTST1 FOR READ ONLY  

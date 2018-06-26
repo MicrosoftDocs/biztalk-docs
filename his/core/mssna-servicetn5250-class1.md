@@ -33,17 +33,17 @@ class MsSna_ServiceTN5250 : MsSna_Service
   
 ## Remarks  
  **Name**  
- Data Type: **String**Qualifiers: **Key, MAXLEN(16)**Access Type: Read-Only  
+ Data Type: **String**Qualifiers: <strong>Key, MAXLEN(16)</strong>Access Type: Read-Only  
   
  The TN5250 service name. **Name** is the same as the computer name.  
   
  **Comment**  
- Data Type: **String**Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   
  **Port**  
- Data Type: **sint32**Qualifiers: **MINVALUE(0), MAXVALUE(9999)**Access Type: Read/Write  
+ Data Type: **sint32**Qualifiers: <strong>MINVALUE(0), MAXVALUE(9999)</strong>Access Type: Read/Write  
   
  The default port number for the TN5250 service. Port can be overridden on a per-session basis. Use 0 for the default TN5250 port.  
   

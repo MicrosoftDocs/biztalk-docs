@@ -139,50 +139,50 @@ struct mc_confirm {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer has encountered an ABEND.  
+- The SnaBase at the TP's computer has encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- AP_CONV_FAILURE_NO_RETRY  
- Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
+  AP_CONV_FAILURE_NO_RETRY  
+  Primary return code; the conversation was terminated because of a permanent condition, such as a session protocol error. The system administrator should examine the system error log to determine the cause of the error. Do not retry the conversation until the error has been corrected.  
   
- AP_CONV_FAILURE_RETRY  
- Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
+  AP_CONV_FAILURE_RETRY  
+  Primary return code; the conversation was terminated because of a temporary error. Restart the TP to see if the problem occurs again. If it does, the system administrator should examine the error log to determine the cause of the error.  
   
- AP_CONVERSATION_TYPE_MIXED  
- Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
+  AP_CONVERSATION_TYPE_MIXED  
+  Primary return code; the TP has issued both basic and mapped conversation verbs. Only one type can be issued in a single conversation.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
- AP_DEALLOC_ABEND  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with**dealloc_type**set to AP_ABEND.  
+- The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with**dealloc_type**set to AP_ABEND.  
   
--   The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
+- The partner TP encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
   
 ## Remarks  
  In response to **MC_CONFIRM**, the partner TP normally issues [MC_CONFIRMED](../core/mc-confirmed1.md) to confirm that it has received the data without error. (If the partner TP encounters an error, it issues [MC_SEND_ERROR](../core/mc-send-error2.md) or abnormally deallocates the conversation.)  
@@ -202,20 +202,20 @@ struct mc_confirm {
   
  **MC_CONFIRM** waits for a response from the partner TP. A response is generated by one of the following verbs in the partner TP:  
   
--   [MC_CONFIRMED](../core/mc-confirmed1.md)  
+- [MC_CONFIRMED](../core/mc-confirmed1.md)  
   
--   [MC_SEND_ERROR](../core/mc-send-error2.md)  
+- [MC_SEND_ERROR](../core/mc-send-error2.md)  
   
--   [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND  
+- [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to AP_ABEND  
   
--   [TP_ENDED](../core/tp-ended1.md)  
+- [TP_ENDED](../core/tp-ended1.md)  
   
- By issuing **MC_CONFIRM** after[MC_ALLOCATE](../core/mc-allocate2.md), the invoking TP can immediately determine whether the allocation was successful (if **synclevel** is set to AP_CONFIRM_SYNC_LEVEL).  
+  By issuing **MC_CONFIRM** after[MC_ALLOCATE](../core/mc-allocate2.md), the invoking TP can immediately determine whether the allocation was successful (if **synclevel** is set to AP_CONFIRM_SYNC_LEVEL).  
   
- Normally, the value of the **MC_ALLOCATE** verb's **mode_name** parameter must match the name of a mode configured for the invoked TP's node and associated during configuration with the partner LU.  
+  Normally, the value of the **MC_ALLOCATE** verb's **mode_name** parameter must match the name of a mode configured for the invoked TP's node and associated during configuration with the partner LU.  
   
- If one of the modes associated with the partner LU on the invoked TP's node is an implicit mode, the session established between the two LUs will be of the implicit mode when no mode name associated with the partner LU matches the value of **mode_name**. For more information, see Host Integration Server Help.  
+  If one of the modes associated with the partner LU on the invoked TP's node is an implicit mode, the session established between the two LUs will be of the implicit mode when no mode name associated with the partner LU matches the value of **mode_name**. For more information, see Host Integration Server Help.  
   
- Several parameters of **MC_ALLOCATE** are EBCDIC or ASCII strings. A TP can use the common service verb (CSV) [CONVERT](../core/convert2.md) to translate a string from one character set to the other.  
+  Several parameters of **MC_ALLOCATE** are EBCDIC or ASCII strings. A TP can use the common service verb (CSV) [CONVERT](../core/convert2.md) to translate a string from one character set to the other.  
   
- To send the **MC_ALLOCATE** request immediately, the invoking TP can issue [MC_FLUSH](../core/mc-flush1.md) or **MC_CONFIRM** immediately after **MC_ALLOCATE**. Otherwise, the **MC_ALLOCATE** request accumulates with other data in the local LU's send buffer until the buffer is full.
+  To send the **MC_ALLOCATE** request immediately, the invoking TP can issue [MC_FLUSH](../core/mc-flush1.md) or **MC_CONFIRM** immediately after **MC_ALLOCATE**. Otherwise, the **MC_ALLOCATE** request accumulates with other data in the local LU's send buffer until the buffer is full.

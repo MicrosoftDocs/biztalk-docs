@@ -29,65 +29,65 @@ manager: "anneta"
   
 ### To configure a WCF-Custom one-way receive port  
   
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
+2. In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
   
-3.  Expand the application under which you want create the receive port.  
+3. Expand the application under which you want create the receive port.  
   
-4.  Right-click **Receive Ports**, point to **New**, and click **One-way Receive Port**.  
+4. Right-click **Receive Ports**, point to **New**, and click **One-way Receive Port**.  
   
-5.  In the **Receive Port Properties** dialog box, on the **General** tab, type a name for the receive port.  
+5. In the **Receive Port Properties** dialog box, on the **General** tab, type a name for the receive port.  
   
-6.  On the **Receive Locations** tab, click **New**. The **Receive Location Properties** dialog box appears.  
+6. On the **Receive Locations** tab, click **New**. The **Receive Location Properties** dialog box appears.  
   
-7.  In the **Receive Location Properties** dialog box, do the following:  
+7. In the **Receive Location Properties** dialog box, do the following:  
   
-    1.  Specify a name for the receive location.  
+   1.  Specify a name for the receive location.  
   
-    2.  From the **Type** drop-down list, select **WCF-Custom**, and then click **Configure**.  
+   2.  From the **Type** drop-down list, select **WCF-Custom**, and then click **Configure**.  
   
-8.  In the **WCF-Custom Transport Properties** dialog box, do the following:  
+8. In the **WCF-Custom Transport Properties** dialog box, do the following:  
   
-    1.  Click the **General** tab, and in the **Address (URI)** field, specify the connection URI to receive messages from the SAP system. The connection URI to receive messages from the SAP system must be in the following format:  
+   1. Click the **General** tab, and in the **Address (URI)** field, specify the connection URI to receive messages from the SAP system. The connection URI to receive messages from the SAP system must be in the following format:  
   
-        ```  
-        sap://Client=800;lang=EN@A/YourSAPHOST/00?ListenerGwHost=YourSAPHOST&ListenerGwServ=SAPGW00&ListenerProgramId=MyProgramId  
-        ```  
+      ```  
+      sap://Client=800;lang=EN@A/YourSAPHOST/00?ListenerGwHost=YourSAPHOST&ListenerGwServ=SAPGW00&ListenerProgramId=MyProgramId  
+      ```  
   
-         The following figure shows the port properties dialog box with the URI specified:  
+       The following figure shows the port properties dialog box with the URI specified:  
   
-         ![Connection URI to receive messages from SAP](../../adapters-and-accelerators/adapter-sap/media/91e12582-aea3-4f13-8cdc-af69a9a11a5c.gif "91e12582-aea3-4f13-8cdc-af69a9a11a5c")  
+       ![Connection URI to receive messages from SAP](../../adapters-and-accelerators/adapter-sap/media/91e12582-aea3-4f13-8cdc-af69a9a11a5c.gif "91e12582-aea3-4f13-8cdc-af69a9a11a5c")  
   
-         For more information about the connection URI, see [Create a  connection to the SAP system](../../adapters-and-accelerators/adapter-sap/create-a-connection-to-the-sap-system.md).  
+       For more information about the connection URI, see [Create a  connection to the SAP system](../../adapters-and-accelerators/adapter-sap/create-a-connection-to-the-sap-system.md).  
   
-    2.  Click the **Binding** tab, and from the **Binding Type** drop-down list, select **sapBinding**. Make sure you specify the following binding properties for the receive port.  
+   2. Click the **Binding** tab, and from the **Binding Type** drop-down list, select **sapBinding**. Make sure you specify the following binding properties for the receive port.  
   
-        |Binding property|Set value to|  
-        |----------------------|------------------|  
-        |flatFileSegmentIndicator|**SegmentType**. This indicates that the flat files should contain the segment type for each segment in the IDOC.|  
-        |padReceivedIdocWithSpaces|**True**. Specifies whether each line in the IDOC is padded with spaces to the correct length.|  
-        |receiveIDocFormat|**String**. This specifies that the IDOC message should be represented as a single string field.|  
+      |Binding property|Set value to|  
+      |----------------------|------------------|  
+      |flatFileSegmentIndicator|**SegmentType**. This indicates that the flat files should contain the segment type for each segment in the IDOC.|  
+      |padReceivedIdocWithSpaces|**True**. Specifies whether each line in the IDOC is padded with spaces to the correct length.|  
+      |receiveIDocFormat|**String**. This specifies that the IDOC message should be represented as a single string field.|  
   
-         For more information about binding properties, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+       For more information about binding properties, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
-    3.  Click the **Others** tab, and specify the credentials to connect to an SAP system.  
+   3. Click the **Others** tab, and specify the credentials to connect to an SAP system.  
   
-    4.  Click the **Messages** tab, and in the **Inbound BizTalk message body** section, choose the **Path** option.  
+   4. Click the **Messages** tab, and in the **Inbound BizTalk message body** section, choose the **Path** option.  
   
-    5.  In the **Body path expression** text box, specify the XPath query to extract the flat-file IDOC from the XML message. By doing so, the receive port extracts the data from the IDOC and trims the XML tag that is part of the **ReceiveIdoc** operation for the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. For more information about the message schema for the **ReceiveIdoc** operation, see [Message Schemas for IDOC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-idoc-operations.md).  
+   5. In the **Body path expression** text box, specify the XPath query to extract the flat-file IDOC from the XML message. By doing so, the receive port extracts the data from the IDOC and trims the XML tag that is part of the **ReceiveIdoc** operation for the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. For more information about the message schema for the **ReceiveIdoc** operation, see [Message Schemas for IDOC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-idoc-operations.md).  
   
-         ![XPath query to extract the flat&#45;file IDOC](../../adapters-and-accelerators/adapter-sap/media/8b5b8165-a1e7-40ef-bcf7-de3149c6deb0.gif "8b5b8165-a1e7-40ef-bcf7-de3149c6deb0")  
+       ![XPath query to extract the flat&#45;file IDOC](../../adapters-and-accelerators/adapter-sap/media/8b5b8165-a1e7-40ef-bcf7-de3149c6deb0.gif "8b5b8165-a1e7-40ef-bcf7-de3149c6deb0")  
   
-         You must specify the following XPath query:  
+       You must specify the following XPath query:  
   
-        ```  
-        /*[local-name()='ReceiveIdoc']/*[local-name()='idocData']  
-        ```  
+      ```  
+      /*[local-name()='ReceiveIdoc']/*[local-name()='idocData']  
+      ```  
   
-    6.  From the **Node encoding** drop-down list, select **String**.  
+   6. From the **Node encoding** drop-down list, select **String**.  
   
-    7.  Click **Apply**, and then click **OK**.  
+   7. Click **Apply**, and then click **OK**.  
   
 9. In the Receive Location Properties dialog box, from the **Receive handler** drop-down list, select **BizTalkServerApplication**.  
   
@@ -97,21 +97,21 @@ manager: "anneta"
   
 ### To configure the BizTalk application  
   
-1.  In the BizTalk Server Administration console, expand **BizTalk Group**, expand **Applications**, and expand the BizTalk Application where the orchestration is deployed.  
+1. In the BizTalk Server Administration console, expand **BizTalk Group**, expand **Applications**, and expand the BizTalk Application where the orchestration is deployed.  
   
-2.  Right-click the BizTalk application, and then select **Configure**.  
+2. Right-click the BizTalk application, and then select **Configure**.  
   
-3.  From the left pane, click the orchestration to configure. From the right pane, from the **Host** drop-down list, select a BizTalk host instance.  
+3. From the left pane, click the orchestration to configure. From the right pane, from the **Host** drop-down list, select a BizTalk host instance.  
   
-4.  Under the **Bindings** box, map the logical ports of the BizTalk orchestration to the physical ports in the BizTalk Server Administration console.  
+4. Under the **Bindings** box, map the logical ports of the BizTalk orchestration to the physical ports in the BizTalk Server Administration console.  
   
-    1.  Select the WCF-Custom receive port you created earlier in this topic.  
+   1. Select the WCF-Custom receive port you created earlier in this topic.  
   
-    2.  Select a file port where you will receive the flat-file IDOC.  
+   2. Select a file port where you will receive the flat-file IDOC.  
   
-    3.  Click **OK**.  
+   3. Click **OK**.  
   
-     For more information about configuring an application, see [http://go.microsoft.com/fwlink/?LinkId=102360](http://go.microsoft.com/fwlink/?LinkId=102360).  
+      For more information about configuring an application, see [http://go.microsoft.com/fwlink/?LinkId=102360](http://go.microsoft.com/fwlink/?LinkId=102360).  
   
 ## Next Steps  
  You have now completed migration of your vPrev BizTalk project to a BizTalk project that receives IDOCs from an SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You must now test the migrated BizTalk application by receiving a flat-file IDOC, as described in [Step 3: Test the Migrated Application](../../adapters-and-accelerators/adapter-sap/step-3-test-the-migrated-application5.md).  

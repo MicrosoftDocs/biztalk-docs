@@ -19,30 +19,30 @@ manager: "anneta"
 # Invoke tRFCs in SAP using BizTalk Server
 Transactional Remote Function Calls (tRFCs) guarantee a one and only one time execution of an RFC on a SAP system. You can invoke any of the RFCs surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC. Invoking a tRFC is similar to invoking an RFC (see [Invoke RFCs in SAP by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md)) with the following differences:  
   
--   The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces tRFCs under a different node (**TRFC**) than RFCs (**RFC**).  
+- The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces tRFCs under a different node (**TRFC**) than RFCs (**RFC**).  
   
--   tRFC operations include a GUID parameter that is mapped to the SAP Transaction ID for the tRFC by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- tRFC operations include a GUID parameter that is mapped to the SAP Transaction ID for the tRFC by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   After you invoke a tRFC, you must invoke the RfcConfirmTransID operation to confirm (commit) the tRFC on the SAP system. This operation is surfaced directly under the **TRFC** node in [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
+- After you invoke a tRFC, you must invoke the RfcConfirmTransID operation to confirm (commit) the tRFC on the SAP system. This operation is surfaced directly under the **TRFC** node in [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
- For more information about how the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports invoking a tRFC, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md). For more information about the structure of SOAP messages for invoking a tRFC, see [Message Schemas for tRFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-trfc-operations.md).  
+  For more information about how the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports invoking a tRFC, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md). For more information about the structure of SOAP messages for invoking a tRFC, see [Message Schemas for tRFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-trfc-operations.md).  
   
 ## How to Invoke a tRFC in an SAP System Using BizTalk Server?  
  Performing an operation on an SAP system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create SAP applications](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md). To invoke a tRFC in an SAP system, these tasks are:  
   
-1.  Create a BizTalk project and generate schema for the tRFC you want to invoke in the SAP system. You must also generate schema for the **RfcConfirmTransID** operation to commit the TID in the SAP system.  
+1. Create a BizTalk project and generate schema for the tRFC you want to invoke in the SAP system. You must also generate schema for the **RfcConfirmTransID** operation to commit the TID in the SAP system.  
   
-2.  Create messages in the BizTalk project for sending and receiving messages from the SAP system.  
+2. Create messages in the BizTalk project for sending and receiving messages from the SAP system.  
   
-3.  Create an orchestration to invoke a tRFC in the SAP system and then commit the TID that is created in the SAP system in response to the tRFC call by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+3. Create an orchestration to invoke a tRFC in the SAP system and then commit the TID that is created in the SAP system in response to the tRFC call by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Sample Based On This Topic  
  A sample, tRFCClient, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples fro the SAP adapter](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
@@ -50,11 +50,11 @@ Transactional Remote Function Calls (tRFCs) guarantee a one and only one time ex
 ## Generating Schema  
  In this topic, to demonstrate how to invoke a tRFC using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], we will generate the schema for:  
   
--   *BAPI_SALESORDER_CREATEFROMDAT2* tRFC.  
+- *BAPI_SALESORDER_CREATEFROMDAT2* tRFC.  
   
--   RfcConfirmTransID operation. You must use this operation to commit the TID that is created in the SAP system. Once the SAP system receives this call it deletes the TID from the system.  
+- RfcConfirmTransID operation. You must use this operation to commit the TID that is created in the SAP system. Once the SAP system receives this call it deletes the TID from the system.  
   
- See [Browse, Search, and get Metadata for tRFC Operations in SAP](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-trfc-operations-in-sap.md) for more information about how to generate schema.  
+  See [Browse, Search, and get Metadata for tRFC Operations in SAP](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-trfc-operations-in-sap.md) for more information about how to generate schema.  
   
 ## Defining Messages and Message Types  
  The schema that you generated earlier describes the "types" required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. You must link the schema you generated to the messages from the Orchestration view of the BizTalk project.  
@@ -89,21 +89,21 @@ Transactional Remote Function Calls (tRFCs) guarantee a one and only one time ex
 ## Setting up the Orchestration  
  You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for invoking tRFCs in an SAP system. In this orchestration, you will be dropping a request message at a defined receive location. The orchestration consumes this message and passes it on to the SAP system. The response is received from SAP and is saved at another location. The response message contains a GUID. The orchestration includes a **Construct Message** shape to extract the GUID from the response and construct a message that conforms to the schema of the **RfcConfirmTransID** operation. The message to invoke the **RfcConfirmTransID** operation is sent to the SAP system with the GUID as a parameter _ A typical orchestration for invoking tRFCs in an SAP system, followed by a **RfcConfirmTransID** operation would contain:  
   
--   Send and Receive shapes to send messages to the SAP system and receive responses.  
+- Send and Receive shapes to send messages to the SAP system and receive responses.  
   
--   A Construct Message shape and within that a Message Assignment shape to construct a message for the **RfcConfirmTransID** operation.  
+- A Construct Message shape and within that a Message Assignment shape to construct a message for the **RfcConfirmTransID** operation.  
   
--   A one-way receive port to receive request messages to send to the SAP system to invoke the tRFC.  
+- A one-way receive port to receive request messages to send to the SAP system to invoke the tRFC.  
   
--   A two-way send port to send messages to invoke the tRFC and receive response.  
+- A two-way send port to send messages to invoke the tRFC and receive response.  
   
--   A two-way send port to send messages to invoke the **RfcConfirmTransID** operation and receive response.  
+- A two-way send port to send messages to invoke the **RfcConfirmTransID** operation and receive response.  
   
--   Two one-way send ports to send the responses from the SAP system to a folder.  
+- Two one-way send ports to send the responses from the SAP system to a folder.  
   
- A sample orchestration resembles the following:  
+  A sample orchestration resembles the following:  
   
- ![Orchestration to make a tRFC client call](../../adapters-and-accelerators/adapter-sap/media/369d62dd-9ae4-4673-b346-03d2acfb453a.gif "369d62dd-9ae4-4673-b346-03d2acfb453a")  
+  ![Orchestration to make a tRFC client call](../../adapters-and-accelerators/adapter-sap/media/369d62dd-9ae4-4673-b346-03d2acfb453a.gif "369d62dd-9ae4-4673-b346-03d2acfb453a")  
   
 ### Adding Message Shapes  
  Specify the following properties for each of the message shapes. The names listed in the *Shape* column are the names of the message shapes as displayed in the preceding orchestration.  
@@ -121,13 +121,13 @@ Transactional Remote Function Calls (tRFCs) guarantee a one and only one time ex
 ### Adding the Construct Message Shape  
  The response from the SAP system for the tRFC call contains a GUID. To commit the tRFC call, you must pass the same GUID to the RfcConfirmTransID operation. To do so, you must include a Construct Message shape, and within that a Message Assignment shape, in the orchestration. Here, the purpose of the Construct Message shape is:  
   
--   To extract the GUID from the response that is received from the SAP system for the tRFC call.  
+- To extract the GUID from the response that is received from the SAP system for the tRFC call.  
   
--   To construct a message that conforms to the message schema for the RfcConfirmTransID operation.  
+- To construct a message that conforms to the message schema for the RfcConfirmTransID operation.  
   
- For the Construct Message shape, you must set the **Message Constructed** property to **TIDRequest**.  
+  For the Construct Message shape, you must set the **Message Constructed** property to **TIDRequest**.  
   
- You must add the following code excerpt to the Message Assignment shape:  
+  You must add the following code excerpt to the Message Assignment shape:  
   
 ```  
 XmlDoc = new System.Xml.XmlDocument();  
@@ -175,18 +175,18 @@ TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message to send it to the SAP system.  
+  - Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message to send it to the SAP system.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SAP system.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SAP system.  
   
-    -   Define physical WCF-Custom or WCF-SAP send ports (one each for the tRFC request message and the RfcConfirmTransID message) to send messages to the SAP system. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the SAP adapter](../../adapters-and-accelerators/adapter-sap/manually-configure-a-physical-port-binding-to-the-sap-adapter.md).
+  - Define physical WCF-Custom or WCF-SAP send ports (one each for the tRFC request message and the RfcConfirmTransID message) to send messages to the SAP system. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the SAP adapter](../../adapters-and-accelerators/adapter-sap/manually-configure-a-physical-port-binding-to-the-sap-adapter.md).
   
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Server Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Server Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
   
 ## Starting the Application  
  You must start the BizTalk application for invoking tRFCs in an SAP system. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md), or [How to start an application](../../core/how-to-start-and-stop-a-biztalk-application.md).  

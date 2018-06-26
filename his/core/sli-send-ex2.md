@@ -675,17 +675,17 @@ union LUA_SPECIFIC {
   
  When sending a response, the type of response determines the SLI_SEND_EX information required. For all responses, you must:  
   
--   Set the selected **lua_flag1** flow flag.  
+- Set the selected **lua_flag1** flow flag.  
   
--   Provide the sequence number in lua_th.snf for the request to which you are responding.  
+- Provide the sequence number in lua_th.snf for the request to which you are responding.  
   
--   Set lua_message_type to LUA_MESSAGE_TYPE_RSP.  
+- Set lua_message_type to LUA_MESSAGE_TYPE_RSP.  
   
- For multichain message responses, the sequence number of the last received chain element must be used. For a response to a multichain message ending with a CANCEL command, the CANCEL command sequence number is used.  
+  For multichain message responses, the sequence number of the last received chain element must be used. For a response to a multichain message ending with a CANCEL command, the CANCEL command sequence number is used.  
   
- For positive responses that only require the request code, set lua_rh.ri to zero (indicating that the response is positive) and lua_data_length to zero (indicating no data is provided). The request code is filled in by the SLI, using the sequence number provided.  
+  For positive responses that only require the request code, set lua_rh.ri to zero (indicating that the response is positive) and lua_data_length to zero (indicating no data is provided). The request code is filled in by the SLI, using the sequence number provided.  
   
- For negative responses in which lua_rh.ri is set to 1, set the lua_data_ptr to the SNA sense code address and the lua_data_length to the SNA sense code length (four bytes). The sequence number is used by the SLI to fill in the request code.  
+  For negative responses in which lua_rh.ri is set to 1, set the lua_data_ptr to the SNA sense code address and the lua_data_length to the SNA sense code length (four bytes). The sequence number is used by the SLI to fill in the request code.  
   
 ## See Also  
  [RUI_INIT](../core/rui-init1.md)   

@@ -51,16 +51,16 @@ You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion
   
 ### To configure batching  
   
--   In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer, in the **BTAHL7 Configuration Explorer** dialog box, on the **Parties** tab, select the party you want to configure, and then on the **Batch Definition** tab, do the following:  
+- In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer, in the **BTAHL7 Configuration Explorer** dialog box, on the **Parties** tab, select the party you want to configure, and then on the **Batch Definition** tab, do the following:  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Fragmentation required**|Select one of the following options:<br /><br /> -   **Yes**. To enable fragmentation.<br />-   **No**. To disable fragmentation. **Note:**  For a new party, **Fragmentation Required** defaults to **No**.|  
-    |**Select Messages**|Select the message types you want to send as a batch from the **Available Messages** window, and then click the Move to the right arrow (**>>**).|  
-    |**Select Message Acknowledgments**|Select the message types for which you want the acknowledgments to send as a batch from the **Available Message Acks** window, and then click the Move to the right (**>>**).|  
+  |Use this|To do this|  
+  |--------------|----------------|  
+  |**Fragmentation required**|Select one of the following options:<br /><br /> -   **Yes**. To enable fragmentation.<br />-   **No**. To disable fragmentation. **Note:**  For a new party, **Fragmentation Required** defaults to **No**.|  
+  |**Select Messages**|Select the message types you want to send as a batch from the **Available Messages** window, and then click the Move to the right arrow (**>>**).|  
+  |**Select Message Acknowledgments**|Select the message types for which you want the acknowledgments to send as a batch from the **Available Message Acks** window, and then click the Move to the right (**>>**).|  
   
-    > [!NOTE]
-    >  You may not see schemas that you add to your In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] project while In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer is running. In order to view these files, you may need to restart In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer.  
+  > [!NOTE]
+  >  You may not see schemas that you add to your In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] project while In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer is running. In order to view these files, you may need to restart In [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer.  
   
 ## See Also  
  [Scheduling Batching](../../adapters-and-accelerators/accelerator-hl7/scheduling-batching.md)

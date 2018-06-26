@@ -22,15 +22,15 @@ The parameter definition section immediately follows the macro definition sectio
   
  The value list can be empty or can contain one or more of the following:  
   
--   A three-digit decimal value.  
+- A three-digit decimal value.  
   
--   A two-digit hexadecimal value.  
+- A two-digit hexadecimal value.  
   
--   A one-char character value.  
+- A one-char character value.  
   
--   The name of a macro specified in the macro definition section.  
+- The name of a macro specified in the macro definition section.  
   
- For example, the following shows a parameter defining the control sequence to be sent to the printer to begin a new line.  
+  For example, the following shows a parameter defining the control sequence to be sent to the printer to begin a new line.  
   
 ```  
 NEW_LINE = CRR LFF  

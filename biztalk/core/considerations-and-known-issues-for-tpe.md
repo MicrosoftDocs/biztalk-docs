@@ -31,35 +31,35 @@ You should consider the following issues when you work with tracking profiles an
 ## Developing Orchestrations for the TPE  
  You cannot map an orchestration to a business activity if it starts or ends with an invalid shape. The Orchestration engine does not allow tracking for some shapes. They are:  
   
--   Message Assignment  
+- Message Assignment  
   
--   Transform  
+- Transform  
   
--   Group (Task)  
+- Group (Task)  
   
--   Suspend  
+- Suspend  
   
--   Loop (While)  
+- Loop (While)  
   
--   Branch  
+- Branch  
   
--   Terminate  
+- Terminate  
   
--   Throw  
+- Throw  
   
--   Catch  
+- Catch  
   
--   While shape  
+- While shape  
   
- Use the following guidelines when mapping to business activities so that the Tracking Profile Editor and other BAM tools can use them:  
+  Use the following guidelines when mapping to business activities so that the Tracking Profile Editor and other BAM tools can use them:  
   
--   For the Group shape, use a non-transactional Scope shape.  
+- For the Group shape, use a non-transactional Scope shape.  
   
--   For the While shape, wrap it in a non-transactional Scope shape.  
+- For the While shape, wrap it in a non-transactional Scope shape.  
   
--   For the Terminate shapes, there is no workaround, because the end event of this shape never occurs in a normal scenario.  
+- For the Terminate shapes, there is no workaround, because the end event of this shape never occurs in a normal scenario.  
   
--   Do not start or end schedules with any of the shapes for which drag-and-drop operations are not permitted.  
+- Do not start or end schedules with any of the shapes for which drag-and-drop operations are not permitted.  
   
 ## Applying Tracking Profiles that Monitor Running Processes  
  Updating a tracking profile can impact activity instances in progress if the activity includes a BAM continuation. Specifically, if the update to the tracking profile specifies a downstream interception of data for an activity item already recorded, it is possible that the original value will be overwritten. In essence, any single event stream will not be affected by the application of tracking profile updates because each stream object is tied to the specific version of the profile which was in place at the time the activity/stream started. However, because continuations are the means of correlating multiple event streams, streams not yet begun at the time of a profile update will pick up the changes in the update, thus introducing the possible data overwrite described. For more information about continuations, see [Activity Continuation](../core/activity-continuation.md) and [How to Create a Continuation](../core/how-to-create-a-continuation.md).  
@@ -160,29 +160,29 @@ You should consider the following issues when you work with tracking profiles an
   
  During configuration it is possible to enter the server name in several formats. For example:  
   
--   mgmtsvr1316267,15001\inst  
+- mgmtsvr1316267,15001\inst  
   
--   MGMTSVR1316267\inst,15001  
+- MGMTSVR1316267\inst,15001  
   
- The TPE performs a basic string comparison when using the registry entry. To retrieve the deployed tracking profiles it is necessary to inspect the stored server and database names and enter them in the TPE **Set Management Database** dialog box.  
+  The TPE performs a basic string comparison when using the registry entry. To retrieve the deployed tracking profiles it is necessary to inspect the stored server and database names and enter them in the TPE **Set Management Database** dialog box.  
   
 #### To determine the syntax for server and database names and enter it in the BizTalk Management database.  
   
-1.  Open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**Custom Configuration Manager**. For information about using the **Custom Configuration Manager**, see [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).  
+1. Open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**Custom Configuration Manager**. For information about using the **Custom Configuration Manager**, see [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).  
   
-2.  In the navigation pane, select **Group** to open the group configuration page.  
+2. In the navigation pane, select **Group** to open the group configuration page.  
   
-3.  In the **Data Stores** grid, observe the formats of the **Server Name** and the **Database Name**.  
+3. In the **Data Stores** grid, observe the formats of the **Server Name** and the **Database Name**.  
   
-4.  Open the TPE and select the **Tools** menu item.  
+4. Open the TPE and select the **Tools** menu item.  
   
-5.  Select the **Set Management Database** menu item to open the **Set Management Database** dialog box.  
+5. Select the **Set Management Database** menu item to open the **Set Management Database** dialog box.  
   
-6.  In the **SQL Server** text box, enter the server name that was used in the **Server Name** field of the **Data Stores** gridon the **Custom Configuration Manager** group page.  
+6. In the **SQL Server** text box, enter the server name that was used in the **Server Name** field of the **Data Stores** gridon the **Custom Configuration Manager** group page.  
   
-7.  In the **Database name** text box, enter the database name that was used in the **Database Name** field of the **Data Stores** gridon the **Custom Configuration Manager** group page.  
+7. In the **Database name** text box, enter the database name that was used in the **Database Name** field of the **Data Stores** gridon the **Custom Configuration Manager** group page.  
   
-8.  Click the **OK** button to save the entries.  
+8. Click the **OK** button to save the entries.  
   
 ## See Also  
  [Using the TPE](../core/using-the-tpe.md)   

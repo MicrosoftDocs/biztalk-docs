@@ -22,17 +22,17 @@ Transaction Integrator (TI) can provide user ID and password credentials for aut
   
  There are three alternative sources of mainframe credentials.  
   
--   The identity of the COM+ application that contains the TI component.  
+- The identity of the COM+ application that contains the TI component.  
   
--   The identity of the Windows user of the TI application.  
+- The identity of the Windows user of the TI application.  
   
--   The optional explicit security override feature of TI.  
+- The optional explicit security override feature of TI.  
   
- Use of the explicit override feature dissociates mainframe security from Windows security; therefore, its use is not recommended over the first two alternatives. Using either of the first two alternatives integrates mainframe security with Windows security by using [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Enterprise Single Sign-On (ESSO) functionality.  
+  Use of the explicit override feature dissociates mainframe security from Windows security; therefore, its use is not recommended over the first two alternatives. Using either of the first two alternatives integrates mainframe security with Windows security by using [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Enterprise Single Sign-On (ESSO) functionality.  
   
- By default, passing credentials to the mainframe for authentication is not enabled. You must activate the TI remote environment (RE) security properties by selecting the **Set security on** check box. You must click either **Authenticate with package credentials** or **Authenticate with user credentials** even if you plan to use the explicit security override feature.  
+  By default, passing credentials to the mainframe for authentication is not enabled. You must activate the TI remote environment (RE) security properties by selecting the **Set security on** check box. You must click either **Authenticate with package credentials** or **Authenticate with user credentials** even if you plan to use the explicit security override feature.  
   
- To select the explicit security override, select the **Allow application override** check box. This option is the least recommended of the three. If **Allow application override** is selected but not implemented by the application, the security mechanism reverts to whichever of the other two security options you selected.  
+  To select the explicit security override, select the **Allow application override** check box. This option is the least recommended of the three. If **Allow application override** is selected but not implemented by the application, the security mechanism reverts to whichever of the other two security options you selected.  
   
 > [!NOTE]
 >  Explicit security override is not the preferred method of specifying credentials for a client. If possible, you should use the Client Context USERID and PASSWORD override keywords. For more information, see the [COMTIContext Keywords](./comticontext-keywords1.md).  

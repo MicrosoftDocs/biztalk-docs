@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10808
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10808|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_HISSO_SYSTEM_NOT_ENABLED|  
-|Message Text|The SSO system is not enabled for Host Initiated Single Sign-On.|  
+|                 |                                                                  |
+|-----------------|------------------------------------------------------------------|
+|  Product Name   |                    Enterprise Single Sign-On                     |
+| Product Version |    [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]    |
+|    Event ID     |                              10808                               |
+|  Event Source   |                              ENTSSO                              |
+|    Component    |                               N/A                                |
+|  Symbolic Name  |                ENTSSO_E_HISSO_SYSTEM_NOT_ENABLED                 |
+|  Message Text   | The SSO system is not enabled for Host Initiated Single Sign-On. |
   
 ## Explanation  
  The SSO system is not enabled for Host Initiated Single Sign-On.  

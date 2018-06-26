@@ -18,21 +18,21 @@ manager: "anneta"
 ---
 # Error - Functoid Variable Input Mismatch
 **Error Code**  
-  
+
  btm1011  
-  
+
  **Explanation**  
-  
+
  The indicated functoid does not have the correct number of input parameters specified. The number of input parameters must be in the specified range.  
-  
+
  **User Action**  
-  
+
  Use one or more of the following methods to provide the indicated number of input parameters to the indicated functoid, paying particular attention to the expected order of input parameters:  
-  
--   To create additional links, drag to create links between the indicated functoid and either nodes in the source schema or the output of other functoids that are located to the left of the indicated functoid in a map grid page.  
-  
--   To create additional links, select the indicated functoid, click the ellipsis (**...**) button associated with the **Input Parameters** property in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then configure and rearrange the order of the input parameters in the **Configure \<Functoid\> Functoid** dialog box. Constant input parameters can be created, given values, and put in the proper order relative to the other input parameters in this dialog box.  
-  
--   To remove existing links, for each link connected to the left side of the indicated functoid, right-click the link and then click **Delete**.  
-  
--   To remove existing links, select the indicated functoid, click the ellipsis (**...**) button associated with the **Input Parameters** property in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then in the **Configure \<Functoid\> Functoid** dialog box, delete all input parameters by selecting and clicking the ![](../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete") button for each of them. You must use this method to delete constant input parameters.
+
+- To create additional links, drag to create links between the indicated functoid and either nodes in the source schema or the output of other functoids that are located to the left of the indicated functoid in a map grid page.  
+
+- To create additional links, select the indicated functoid, click the ellipsis (**...**) button associated with the **Input Parameters** property in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then configure and rearrange the order of the input parameters in the **Configure \<Functoid\> Functoid** dialog box. Constant input parameters can be created, given values, and put in the proper order relative to the other input parameters in this dialog box.  
+
+- To remove existing links, for each link connected to the left side of the indicated functoid, right-click the link and then click **Delete**.  
+
+- To remove existing links, select the indicated functoid, click the ellipsis (**...**) button associated with the **Input Parameters** property in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then in the **Configure \<Functoid\> Functoid** dialog box, delete all input parameters by selecting and clicking the ![](../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete") button for each of them. You must use this method to delete constant input parameters.

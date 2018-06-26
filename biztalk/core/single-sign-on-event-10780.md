@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10780
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10780|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_INVALID_ACCOUNT|  
-|Message Text|The account name is not valid or does not exist.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10780                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                  ENTSSO_E_INVALID_ACCOUNT                  |
+|  Message Text   |      The account name is not valid or does not exist.      |
   
 ## Explanation  
  The account name is not valid or does not exist.  

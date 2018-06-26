@@ -35,11 +35,11 @@ Use the following tables as a guide when you set up the way you want Transaction
 > [!NOTE]
 >  For purposes of this example, the number 256 fits in 2 bytes of memory in both the PE and No PE option.  
   
-|Packed data type option|Byte 1|Byte 2|  
-|-----------------------------|------------|------------|  
-||High-order byte high-order nibble|High-order byte low-order nibble|Low-order byte high-order nibble|Low-order byte Sign|  
-|No PE|2|5|6|0xf|  
-|PE|ignored|5|6|0xf|  
+| Packed data type option |              Byte 1               |              Byte 2              |
+|-------------------------|-----------------------------------|----------------------------------|
+|                         | High-order byte high-order nibble | High-order byte low-order nibble |
+|          No PE          |                 2                 |                5                 |
+|           PE            |              ignored              |                5                 |
   
 |RPG data type|Spec-ification|RPG field length|TIP data type|TIP default error handling|TIP<br /><br /> default field length|TIP default decimals|TIP<br /><br /> default string<br /><br /> handling|  
 |-------------------|---------------------|----------------------|-------------------|--------------------------------|----------------------------------|--------------------------|-----------------------------------------|  

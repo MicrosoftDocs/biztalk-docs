@@ -16,13 +16,13 @@ manager: "anneta"
 # Defining an SNA Remote Environment
 You can define an SNA (APPC/LU 6.2) remote environment (RE) instance to fit each of the following three mainframe-based programming models:  
   
--   CICS Link Using LU 6.2  
+- CICS Link Using LU 6.2  
   
--   CICS Using LU 6.2  
+- CICS Using LU 6.2  
   
--   IMS Using LU 6.2  
+- IMS Using LU 6.2  
   
- Use TI Manager to define instances for any of these RE types.  
+  Use TI Manager to define instances for any of these RE types.  
   
 ## See Also  
  [Windows-Initiated Processing Overview](../core/windows-initiated-processing-overview2.md)   

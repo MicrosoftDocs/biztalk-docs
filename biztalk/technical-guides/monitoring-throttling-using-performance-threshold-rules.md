@@ -18,7 +18,7 @@ manager: "anneta"
   
  For example, high contention on the MessageBox database could be due to high CPU usage, which could be caused by excessively paging to disk, which in turn could be caused by low memory conditions. High contention on the MessageBox could also be caused by high lock contention, which could be due to saturated disk drives.  
   
- Monitoring the Message Delivery Throttling State and the Message Publishing Throttling State for each host instance is usually a good place to start when troubleshooting throttling. If the value of these counters is not zero, it is indicative that throttling is happening within the BizTalk Server system and it is possible to further analyze the cause of the bottleneck. For descriptions on the other performance counters, see [Identifying Bottlenecks in the Database Tier](http://go.microsoft.com/fwlink/?LinkID=154678) (http://go.microsoft.com/fwlink/?LinkID=154678) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+ Monitoring the Message Delivery Throttling State and the Message Publishing Throttling State for each host instance is usually a good place to start when troubleshooting throttling. If the value of these counters is not zero, it is indicative that throttling is happening within the BizTalk Server system and it is possible to further analyze the cause of the bottleneck. For descriptions on the other performance counters, see [Identifying Bottlenecks in the Database Tier](http://go.microsoft.com/fwlink/?LinkID=154678) (<http://go.microsoft.com/fwlink/?LinkID=154678>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
 ## BizTalk Server System Performance Counters  
   

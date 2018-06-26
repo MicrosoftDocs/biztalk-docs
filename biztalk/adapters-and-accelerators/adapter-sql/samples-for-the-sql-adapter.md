@@ -19,11 +19,11 @@ manager: "anneta"
 
 Samples for [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] are categorized into:  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] samples  
+- [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] samples  
   
--   WCF service model samples  
+- WCF service model samples  
   
--   WCF channel model samples  
+- WCF channel model samples  
   
 The samples are available at [BizTalk Adapter Pack 2010: SQL adapter samples](https://www.microsoft.com/download/details.aspx?id=22455). The SQL scripts for creating the objects used in the samples, such as database, tables, and procedures are included. 
 
@@ -34,15 +34,15 @@ The following list describes the samples.
   
 ## BizTalk Server samples  
   
-|Sample Directory Name|Description|  
-|---------------------------|-----------------|  
-|ExecuteStoredProcedure|Demonstrates how to invoke a stored procedure in SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] .|  
-|SelectTable|Demonstrates how to perform a Select operation on a SQL Server database table using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].|  
-|CompositeOperations|Demonstrates how to perform composite operations on a SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].|  
-|TypedPolling|Demonstrates how to perform strongly-typed polling on a SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].|  
-|FILESTREAMOperation|Demonstrates how to perform FILESTREAM operations on a SQL Server 2008 database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].|  
-|IncrementalNotification|Demonstrates how to receive incremental notification from a SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].|  
-|Employee_PurchaseOrder|Sample based on [Tutorial 2: Employee - Purchase Order Process using the SQL adapter](tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md).|  
+|  Sample Directory Name  |                                                                                          Description                                                                                          |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ExecuteStoredProcedure  |      Demonstrates how to invoke a stored procedure in SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] .      |
+|       SelectTable       |  Demonstrates how to perform a Select operation on a SQL Server database table using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  |
+|   CompositeOperations   |    Demonstrates how to perform composite operations on a SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].    |
+|      TypedPolling       |   Demonstrates how to perform strongly-typed polling on a SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].   |
+|   FILESTREAMOperation   | Demonstrates how to perform FILESTREAM operations on a SQL Server 2008 database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. |
+| IncrementalNotification | Demonstrates how to receive incremental notification from a SQL Server database using the adapter with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. |
+| Employee_PurchaseOrder  |                  Sample based on [Tutorial 2: Employee - Purchase Order Process using the SQL adapter](tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md).                  |
   
 ## WCF service model samples   
   

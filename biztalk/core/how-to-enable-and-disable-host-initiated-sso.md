@@ -36,18 +36,18 @@ By default, host initiated Single Sign-On is not enabled in the Single Sign-On s
   
 ### To enable host initiated SSO using the command line  
   
-1.  On the **Start** menu, click **Run**.  
+1. On the **Start** menu, click **Run**.  
   
-2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
+2. In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3. At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -enable hisso**.  
+4. Type **ssomanage -enable hisso**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
- Disabling SSO applies to the entire SSO system, and all operations related to host initiated SSO are turned off.  
+   Disabling SSO applies to the entire SSO system, and all operations related to host initiated SSO are turned off.  
   
 #### To disable host initiated SSO using the MMC Snap-In  
   

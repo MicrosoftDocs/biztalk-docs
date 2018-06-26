@@ -30,15 +30,15 @@ This topic describes how to use the BizTalk Server Administration console to add
   
 ### To add a receive location to a receive port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to add a receive location to a receive port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to add a receive location to a receive port.  
   
-3.  Click **Receive Ports**, right-click the receive port to which you want to add a receive location, point to **New**, and then click **Receive Location**.  
+3. Click **Receive Ports**, right-click the receive port to which you want to add a receive location, point to **New**, and then click **Receive Location**.  
   
-4.  In **Name**, type a name for the new receive location.  
+4. In **Name**, type a name for the new receive location.  
   
-5.  Configure properties for the receive location by following the instructions in [How to Create a Receive Location](../core/how-to-create-a-receive-location.md), and then click **OK**.  
+5. Configure properties for the receive location by following the instructions in [How to Create a Receive Location](../core/how-to-create-a-receive-location.md), and then click **OK**.  
   
 ## See Also  
  [Managing Receive Ports](../core/managing-receive-ports.md)

@@ -23,7 +23,7 @@ manager: "anneta"
 # Creating or Editing a Home Organization
 This topic describes how to create or edit a home organization. The home organization configuration describes and classifies the organization, sets the non-repudiation of origin period, and provides contact information.  
   
- The home organization configuration does not include signing and decryption certificates, as the partner configuration does. You configure the signing certificate for the BizTalk Group in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console. You configure the decryption certificate for the BizTalk Hosts (BizTalkServerApplication and BizTalkIsolatedHost) in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
+ The home organization configuration does not include signing and decryption certificates, as the partner configuration does. You configure the signing certificate for the BizTalk Group in the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console. You configure the decryption certificate for the BizTalk Hosts (BizTalkServerApplication and BizTalkIsolatedHost) in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
   
  You can create two home organizations within a single company or deployment. An example of this might be an instance in which you want to create priority handling of messages, in which messages bound for one organization would be a greater priority than messages bound for another. When you create multiple home organizations, you must provide each home organization with a separate DUNS number to identify them uniquely. The DUNS number is what defines the RosettaNet connection.  
   
@@ -43,29 +43,29 @@ This topic describes how to create or edit a home organization. The home organiz
   
 ### To create a home organization definition  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
+1. Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   
-2.  In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
+2. In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
   
-3.  Right-click **Home Organizations**, point to **New**, and then click **Home Organization**.  
+3. Right-click **Home Organizations**, point to **New**, and then click **Home Organization**.  
   
-4.  In the New Home Organization Properties dialog box, on the **General** and **Contact Properties** tabs, enter values for settings. For information about these settings, see the preceding table.  
+4. In the New Home Organization Properties dialog box, on the **General** and **Contact Properties** tabs, enter values for settings. For information about these settings, see the preceding table.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 ### To edit a home organization  
   
-1.  Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
+1. Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   
-2.  In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
+2. In the BTARN Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)].  
   
-3.  Click **Home Organizations**.  
+3. Click **Home Organizations**.  
   
-4.  Right-click the home organization you want to edit, and then click **Properties**.  
+4. Right-click the home organization you want to edit, and then click **Properties**.  
   
-5.  In the *\<home organization\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed. For information about these settings, see the preceding table.  
+5. In the *\<home organization\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed. For information about these settings, see the preceding table.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
 ## See Also  
  [Manage configuration, certificates, databases, and security](manage-configuration-certificates-databases-security.md)   

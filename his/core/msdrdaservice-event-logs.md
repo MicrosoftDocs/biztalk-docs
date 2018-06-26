@@ -21,39 +21,39 @@ The DRDA Server logs events to the Microsoft Windows application and service log
   
  Event Viewer enables you to perform the following tasks:  
   
--   View events from multiple event logs  
+- View events from multiple event logs  
   
--   Save useful event filters as custom views that can be reused  
+- Save useful event filters as custom views that can be reused  
   
--   Schedule a task to run in response to an event  
+- Schedule a task to run in response to an event  
   
--   Create and manage event subscriptions  
+- Create and manage event subscriptions  
   
- The Event Viewer is a Microsoft Management Console (MMC) snap-in. You can start Event Viewer by adding the snap-in to MMC or by double-clicking the snap-in file, Eventvwr.msc, which is located in the %SYSTEMROOT%\system32 folder. In addition, Event Viewer can be started from the Windows interface or the command line by using the following procedures.  
+  The Event Viewer is a Microsoft Management Console (MMC) snap-in. You can start Event Viewer by adding the snap-in to MMC or by double-clicking the snap-in file, Eventvwr.msc, which is located in the %SYSTEMROOT%\system32 folder. In addition, Event Viewer can be started from the Windows interface or the command line by using the following procedures.  
   
- To start Event Viewer by using the Windows interface:  
+  To start Event Viewer by using the Windows interface:  
   
-1.  Click the **Start** button.  
+1. Click the **Start** button.  
   
-2.  Click **Control Panel**.  
+2. Click **Control Panel**.  
   
-3.  Click **System and Maintenance**.  
+3. Click **System and Maintenance**.  
   
-4.  Click **Administrative Tools**.  
+4. Click **Administrative Tools**.  
   
-5.  Double-click **Event Viewer**.  
+5. Double-click **Event Viewer**.  
   
- To start Event Viewer by using a command line:  
+   To start Event Viewer by using a command line:  
   
-1.  Open a command prompt. To open a command prompt, click **Start**, click **All Programs**, click **Accessories** and then click **Command Prompt**.  
+6. Open a command prompt. To open a command prompt, click **Start**, click **All Programs**, click **Accessories** and then click **Command Prompt**.  
   
-2.  Type **eventvwr**.  
+7. Type **eventvwr**.  
   
- The eventvwr.exe command-line tool supports options that determine the computer the snap-in will connect to and the event logs it will display. When connecting to a computer running a previous version of Windows, the tool can be used to start the snap-in and connect to the remote computer, but the additional command-line options are ignored.  
+   The eventvwr.exe command-line tool supports options that determine the computer the snap-in will connect to and the event logs it will display. When connecting to a computer running a previous version of Windows, the tool can be used to start the snap-in and connect to the remote computer, but the additional command-line options are ignored.  
   
- To display additional help for the eventvwr command-line tool, type the following command at a command prompt: **eventvwr /?**.  
+   To display additional help for the eventvwr command-line tool, type the following command at a command prompt: **eventvwr /?**.  
   
- For the latest information about Event Viewer, see Event Viewer online ([http://go.microsoft.com/fwlink/?linkid=45698](http://go.microsoft.com/fwlink/?linkid=45698)).  
+   For the latest information about Event Viewer, see Event Viewer online ([http://go.microsoft.com/fwlink/?linkid=45698](http://go.microsoft.com/fwlink/?linkid=45698)).  
   
 ## MsDrdaService Logs  
  The following DRDA Server events are recorded in the Microsoft Windows application and service log named “DrdaService”.  

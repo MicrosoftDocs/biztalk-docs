@@ -16,13 +16,13 @@ manager: "anneta"
 # Status-Error Message
 [Status-Error](./status-error1.md) messages flow from the local node to the application to report request reject and response header (RH) usage error conditions for:  
   
--   Errors in outbound expedited data flow control (DFC) requests.  
+- Errors in outbound expedited data flow control (DFC) requests.  
   
--   Errors in outbound session control (SC) requests.  
+- Errors in outbound session control (SC) requests.  
   
--   Errors in inbound responses.  
+- Errors in inbound responses.  
   
- The **Status-Error** message contains four bytes of error code information that contain the appropriate SNA sense codes for the detected error. For a list of error codes, see [Error and Sense Codes](../core/error-and-sense-codes2.md).  
+  The **Status-Error** message contains four bytes of error code information that contain the appropriate SNA sense codes for the detected error. For a list of error codes, see [Error and Sense Codes](../core/error-and-sense-codes2.md).  
   
 ## See Also  
  [Status-Acknowledge Message](../core/status-acknowledge-message1.md)   

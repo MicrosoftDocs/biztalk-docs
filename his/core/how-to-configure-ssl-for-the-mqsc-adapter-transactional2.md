@@ -18,42 +18,42 @@ This topic lists the steps to configure the MQSeries Client (MQSC) adapter to ex
   
  Configuration is performed in the following steps:  
   
--   Configure the Queue Manager and the client computer.  
+- Configure the Queue Manager and the client computer.  
   
--   Add SSL to the configuration.  
+- Add SSL to the configuration.  
   
--   Configure the MQSC adapter.  
+- Configure the MQSC adapter.  
   
- The IBM WebSphere MQ documentation provides more information.  
+  The IBM WebSphere MQ documentation provides more information.  
   
 ## Configure the Queue Manager and the Client  
  The following steps create a new Queue Manager. These steps can also be applied to existing Queue Managers.  
   
 #### To set up the Queue Manager and the Client  
   
-1.  Create a Queue Manager named **QM1**. Define a listener on the required port.  
+1. Create a Queue Manager named **QM1**. Define a listener on the required port.  
   
-2.  Define a SVRCONN channel TO.QM1.  
+2. Define a SVRCONN channel TO.QM1.  
   
-3.  Define a CLNTCONN channel TO.QM1. Use the same name used for the SRVCONN channel.  
+3. Define a CLNTCONN channel TO.QM1. Use the same name used for the SRVCONN channel.  
   
-4.  Create a local queue on the MQSeries server Queue Manager named TESTQUEUE. This is used for testing the client connections from the MQSC adapter.  
+4. Create a local queue on the MQSeries server Queue Manager named TESTQUEUE. This is used for testing the client connections from the MQSC adapter.  
   
-5.  Copy the AMQCLCHL.TAB file from the MQSeries server onto the client computer. On most UNIX installations, this file is in \var\mqm\qmgrs\\*QueueManagerName*\\@IPCC. On most Windows installations, this file is in \Program Files\\*Websphere MQ Server installation folder*\qmgrs\\*QueueManagerName*\\@IPCC.  
+5. Copy the AMQCLCHL.TAB file from the MQSeries server onto the client computer. On most UNIX installations, this file is in \var\mqm\qmgrs\\*QueueManagerName*\\@IPCC. On most Windows installations, this file is in \Program Files\\*Websphere MQ Server installation folder*\qmgrs\\*QueueManagerName*\\@IPCC.  
   
-6.  On the client computer, set the following environment variables:  
+6. On the client computer, set the following environment variables:  
   
-    -   `MQCHLLIB=C:\sslclient\ssl\` where MQCHLLIB is the path of the client channel table.  
+   -   `MQCHLLIB=C:\sslclient\ssl\` where MQCHLLIB is the path of the client channel table.  
   
-    -   `MQCHLTAB=AMQCLCHL.TAB` where MQCHLTAB is the name of the client channel table.  
+   -   `MQCHLTAB=AMQCLCHL.TAB` where MQCHLTAB is the name of the client channel table.  
   
-    > [!NOTE]
-    >  The environment variables’ default values can also be used. Refer the WebSphere MQ Client manual for more information.  
+   > [!NOTE]
+   >  The environment variables’ default values can also be used. Refer the WebSphere MQ Client manual for more information.  
   
-7.  Test the connection by running amqsputc.exe on your client computer: **amqsputc.exe TESTQUEUE.*QManagerName***.  
+7. Test the connection by running amqsputc.exe on your client computer: **amqsputc.exe TESTQUEUE.*QManagerName***.  
   
-    > [!IMPORTANT]
-    >  This syntax is case-sensitive. Be sure to enter the correct case.  
+   > [!IMPORTANT]
+   >  This syntax is case-sensitive. Be sure to enter the correct case.  
   
 ## Add SSL to the configuration  
  The following steps add an SSL certificate to your MQ configuration.  

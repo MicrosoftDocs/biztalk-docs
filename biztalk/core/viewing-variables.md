@@ -17,19 +17,19 @@ manager: "anneta"
 # Viewing Variables
 You can view variables in two modes:  
   
--   When you are tracking archived data - offline  
+- When you are tracking archived data - offline  
   
--   When you are doing interactive debugging on live data  
+- When you are doing interactive debugging on live data  
   
- When working with archived data, the statuses of some variables that you can see are:  
+  When working with archived data, the statuses of some variables that you can see are:  
   
--   Variables not yet in scope  
+- Variables not yet in scope  
   
--   Currently active  
+- Currently active  
   
--   Values you can click for more details  
+- Values you can click for more details  
   
--   Values that have passed out of scope; you can no longer access any details  
+- Values that have passed out of scope; you can no longer access any details  
   
 ## See Also  
  [Working with the Orchestration Debugger View](../core/working-with-the-orchestration-debugger-view.md)

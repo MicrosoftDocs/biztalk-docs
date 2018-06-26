@@ -33,20 +33,20 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
   
 ### To configure tracking for a policy  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure tracking for a policy.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure tracking for a policy.  
   
-3.  Click **Policies**, right-click the policy, click **Properties**, and then click **Tracking**.  
+3. Click **Policies**, right-click the policy, click **Properties**, and then click **Tracking**.  
   
-4.  Select the tracking options you want, as described in the following table, and then click **OK**.  
+4. Select the tracking options you want, as described in the following table, and then click **OK**.  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Fast activity**|Select this check box to track the instance data on which the policy operates.|  
-    |**Condition evaluation**|Select this check box to track the true/false results of conditions in the selected policy.|  
-    |**Rule firings**|Select this check box to track the actions started as a result of the policy.|  
-    |**Agenda updates**|Select this check box to track updates to the agenda. The agenda contains a list of actions that are "true" and need to fire.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Fast activity**|Select this check box to track the instance data on which the policy operates.|  
+   |**Condition evaluation**|Select this check box to track the true/false results of conditions in the selected policy.|  
+   |**Rule firings**|Select this check box to track the actions started as a result of the policy.|  
+   |**Agenda updates**|Select this check box to track updates to the agenda. The agenda contains a list of actions that are "true" and need to fire.|  
   
 ## See Also  
  [Managing Policies](../core/managing-policies.md)

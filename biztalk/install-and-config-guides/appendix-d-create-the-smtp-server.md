@@ -22,7 +22,7 @@ SQL Server Database Mail is required to configure BAM Alerts when using any of t
 * [!INCLUDE[sqlserver2014](../includes/sqlserver2014-md.md)]
 * [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] 
   
- SQL Server Database Mail uses an SMTP Server to send BAM Alerts. SMTP Server is included with Internet Information Services (IIS). SMTP can be installed locally on the BizTalk Server or on another server with IIS installed.  
+  SQL Server Database Mail uses an SMTP Server to send BAM Alerts. SMTP Server is included with Internet Information Services (IIS). SMTP can be installed locally on the BizTalk Server or on another server with IIS installed.  
   
 > [!IMPORTANT]
 >  Typically, client operating systems like Windows 10, Windows 7, and so on, do not include SMTP Server capabilities. You can connect to an existing SMTP Server on a Windows Server using the *SMTP E-mail* feature within IIS. The *SMTP E-mail* feature is NOT an SMTP Server, which is required for SQL Server Database Mail. As a result, this topic does not include the steps to install and configure an SMTP Server on client operating systems.  
@@ -148,45 +148,45 @@ These steps apply to:
 ## Test the SMTP Server  
  Telnet can be used to test the SMTP Server configuration. The following steps send a message using your configured SMTP Server to an e-mail address. [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) provides descriptions of the telnet commands.  
   
-1.  Open a command window as Administrator.
+1. Open a command window as Administrator.
   
-2.  In the command prompt, type:  
+2. In the command prompt, type:  
   
-     `telnet localhost 25`  
+    `telnet localhost 25`  
   
-     If telnet is not installed, install it by typing:  
+    If telnet is not installed, install it by typing:  
   
-     `pkgmgr /iu:"TelnetClient"`  
+    `pkgmgr /iu:"TelnetClient"`  
   
-3.  Start communication by typing:  
+3. Start communication by typing:  
   
-     `EHLO server`  
+    `EHLO server`  
   
-4.  Enter the Mail From address:  
+4. Enter the Mail From address:  
   
-     `MAIL FROM: *YourEmailAddress*@*YourProvider*.com`  
+    `MAIL FROM: *YourEmailAddress*@*YourProvider*.com`  
   
-     For example, enter:  
+    For example, enter:  
   
-     `MAIL FROM: EmailAddress@outlook.com`  
+    `MAIL FROM: EmailAddress@outlook.com`  
   
-5.  Enter the Mail To address:  
+5. Enter the Mail To address:  
   
-     `RCPT TO: *YourEmailAddress*@*YourProvider*.com`  
+    `RCPT TO: *YourEmailAddress*@*YourProvider*.com`  
   
-     For example, enter:  
+    For example, enter:  
   
-     `RCPT TO: EmailAddress@outlook.com`  
+    `RCPT TO: EmailAddress@outlook.com`  
   
-6.  Tell the SMTP Server you are ready to send data by typing:  
+6. Tell the SMTP Server you are ready to send data by typing:  
   
-     `DATA`  
+    `DATA`  
   
-7.  Enter the Subject by typing:  
+7. Enter the Subject by typing:  
   
-     `Subject: Test Message`  
+    `Subject: Test Message`  
   
-8.  Hit Enter twice.  
+8. Hit Enter twice.  
   
 9. Enter the message body by typing:  
   
@@ -194,5 +194,5 @@ These steps apply to:
   
 10. Hit Enter, type a period (.), and hit Enter.  
   
- Check the RCPT TO address for the e-mail message. If the e-mail is not delivered (Check your Inbox and Spam folder), then the message was not successfully sent, and may reside in the SMTP Queue folder (C:\inetpub\mailroot\Queue).  
+    Check the RCPT TO address for the e-mail message. If the e-mail is not delivered (Check your Inbox and Spam folder), then the message was not successfully sent, and may reside in the SMTP Queue folder (C:\inetpub\mailroot\Queue).  
   

@@ -17,17 +17,17 @@ manager: "anneta"
 # Interfaces for an In-Process Receive Adapter
 The Messaging Engine instantiates and configures in-process adapters, passing in the transport proxy to allow the adapter to access its functionality. To enable configuration and binding to the transport proxy, adapters must implement the following configuration interfaces:  
   
--   **IBTTransport**  
+- **IBTTransport**  
   
--   **IBTTransportControl**  
+- **IBTTransportControl**  
   
--   **IBTTransportConfig**  
+- **IBTTransportConfig**  
   
--   **IBaseComponent**  
+- **IBaseComponent**  
   
- Optionally if the adapter wants to receive handler information during initialization it needs to implement **IPersistPropertyBag**.  
+  Optionally if the adapter wants to receive handler information during initialization it needs to implement **IPersistPropertyBag**.  
   
- The Messaging Engine creates an instance of an adapter, initializes it, and sets the configuration of receive locations. The Messaging Engine passes a property bag to an adapter on the **AddReceiveEndpoint** method call. The property bag contains the configuration for the receive location and receive handler. The configuration is stored in the database in the form of an XML-styled property bag. The Messaging Engine reads the XML and rehydrates a property bag from the XML. After at least one endpoint (receive location) is added, the adapter can start submitting messages.  
+  The Messaging Engine creates an instance of an adapter, initializes it, and sets the configuration of receive locations. The Messaging Engine passes a property bag to an adapter on the **AddReceiveEndpoint** method call. The property bag contains the configuration for the receive location and receive handler. The configuration is stored in the database in the form of an XML-styled property bag. The Messaging Engine reads the XML and rehydrates a property bag from the XML. After at least one endpoint (receive location) is added, the adapter can start submitting messages.  
   
 > [!NOTE]
 >  Adapters should not block Messaging Engine calls such as **IBTTransportControl.Initialize**, **IPersistPropertyBag.Load**, and **IBTTransportConfig.AddReceiveEndpoint**. Performing excessive processing in these calls will affect service startup time.  

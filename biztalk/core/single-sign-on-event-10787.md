@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10787
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10787|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_FLAGS_NOT_VALID|  
-|Message Text|The specified flags are not valid or are incompatible with each other. See the event log (on computer ‘%1’) for more details.|  
+|                 |                                                                                                                               |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                   Enterprise Single Sign-On                                                   |
+| Product Version |                                  [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                   |
+|    Event ID     |                                                             10787                                                             |
+|  Event Source   |                                                            ENTSSO                                                             |
+|    Component    |                                                              N/A                                                              |
+|  Symbolic Name  |                                                   ENTSSO_E_FLAGS_NOT_VALID                                                    |
+|  Message Text   | The specified flags are not valid or are incompatible with each other. See the event log (on computer ‘%1’) for more details. |
   
 ## Explanation  
  The specified flags are not valid or are incompatible with each other.  

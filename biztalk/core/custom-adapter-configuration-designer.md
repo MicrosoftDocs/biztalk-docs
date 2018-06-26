@@ -25,15 +25,15 @@ You need to build the custom designers into a .NET class library. You may incorp
 ## Global Assembly Cache Designer Use  
  The global assembly cache stores assemblies by assembly name, public key, version, and culture. Because of this, it is recommended that you:  
   
-1.  Generate a public key file and add this file to the AssemblyInfo.cs file.  
+1. Generate a public key file and add this file to the AssemblyInfo.cs file.  
   
-2.  Specify a specific version in the AssemblyInfo.cs file.  
+2. Specify a specific version in the AssemblyInfo.cs file.  
   
- You can either drag the assembly into the global assembly cache or use GACUTIL to add it to the global assembly cache.  
+   You can either drag the assembly into the global assembly cache or use GACUTIL to add it to the global assembly cache.  
   
- To use this designer, specify the fully qualified class name, a comma, and the global assembly cache assembly entry (assembly name, version, culture, and public key token) as the value of the decoration. Use \<editor\> decorations for **UITypeEditor** implementations and \<converter\> decorations for **TypeConverter** implementations.  
+   To use this designer, specify the fully qualified class name, a comma, and the global assembly cache assembly entry (assembly name, version, culture, and public key token) as the value of the decoration. Use \<editor\> decorations for **UITypeEditor** implementations and \<converter\> decorations for **TypeConverter** implementations.  
   
- The following code shows how to initialize the custom designers in an XSD file:  
+   The following code shows how to initialize the custom designers in an XSD file:  
   
 ```  
 <xs:element name="Global" type="xs:string">  

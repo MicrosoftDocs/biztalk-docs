@@ -16,13 +16,13 @@ manager: "anneta"
 # Run As Profiles
 When the BizTalk Server Core Library Management Pack is first imported, it creates two new Run As Profiles:  
   
--   **BizTalk Server Discovery Account**. This profile is associated with all discoveries of BizTalk Server role components.  
+- **BizTalk Server Discovery Account**. This profile is associated with all discoveries of BizTalk Server role components.  
   
--   **BizTalk Server Monitoring Account**. This profile is associated with all monitors and tasks.  
+- **BizTalk Server Monitoring Account**. This profile is associated with all monitors and tasks.  
   
- By default, all discoveries, monitors, and tasks defined in the BizTalk Server Management Packs default to using the accounts defined in the “Default Action Account” Run As Profile.  If the default action account for a given system does not have the necessary permissions to discover or monitor BizTalk, then those systems can be bound to more specific credentials in the BizTalk Server Run As Profiles, which do have access to BizTalk Server.  
+  By default, all discoveries, monitors, and tasks defined in the BizTalk Server Management Packs default to using the accounts defined in the “Default Action Account” Run As Profile.  If the default action account for a given system does not have the necessary permissions to discover or monitor BizTalk, then those systems can be bound to more specific credentials in the BizTalk Server Run As Profiles, which do have access to BizTalk Server.  
   
- The following are the generic steps to configure Run As Profiles for BizTalk Server:  
+  The following are the generic steps to configure Run As Profiles for BizTalk Server:  
   
 ### To configure Run As profiles  
   

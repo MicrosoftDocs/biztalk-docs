@@ -27,11 +27,11 @@ In general, adapters should suspend messages that they cannot process. For examp
 ## Use SetErrorInfo to Report Failure to BizTalk Server  
  If you are suspending a message, you must provide failure information to BizTalk Server from the previous message context. BizTalk Server provides error reporting capabilities using the **SetErrorInfo** method on both the **IBaseMessage** and **ITransportProxy** interfaces. You can report errors as follows:  
   
--   When a failure occurs while processing a message, set the exception using **SetErrorInfo(Exception e)** on the message (**IBaseMessage**) to be suspended. This allows the engine to preserve the error with the message for later diagnosis and logs it to the event log to alert the administrator.  
+- When a failure occurs while processing a message, set the exception using **SetErrorInfo(Exception e)** on the message (**IBaseMessage**) to be suspended. This allows the engine to preserve the error with the message for later diagnosis and logs it to the event log to alert the administrator.  
   
--   If you encounter an error during initialization or internal bookkeeping (not during message processing) you should call **SetErrorInfo(Exception e)** on the **ITransportProxy** pointer that was passed to you during initialization. If your adapter is based on the BaseAdapter implementation, you should always have access to this pointer. Otherwise, you should be certain that you cache it.  
+- If you encounter an error during initialization or internal bookkeeping (not during message processing) you should call **SetErrorInfo(Exception e)** on the **ITransportProxy** pointer that was passed to you during initialization. If your adapter is based on the BaseAdapter implementation, you should always have access to this pointer. Otherwise, you should be certain that you cache it.  
   
- Reporting an error with either of these methods results in the error message being written to the event log. It is important that you associate the error with the related message if you are able to do so.  
+  Reporting an error with either of these methods results in the error message being written to the event log. It is important that you associate the error with the related message if you are able to do so.  
   
 ## Handle a Database-Offline Condition  
  If one of the BizTalk Server databases goes offline, the BizTalk service recycles itself. The Messaging Engine makes a best effort to shut down all of the receive locations before recycling the service. If this takes longer than 60 seconds, the service terminates. Because the engine is transacted, this does not cause data loss.  
@@ -64,17 +64,17 @@ msg.SetErrorInfo(
 ### Handle Receive Failures  
  When an adapter submits an operation (or batch of operations) to BizTalk Server there can be various reasons for failure. The two most significant are:  
   
--   The receive pipeline failed.  
+- The receive pipeline failed.  
   
--   A routing failure occurred while publishing a message.  
+- A routing failure occurred while publishing a message.  
   
- The Messaging Engine automatically tries to suspend the message when it gets a receive pipeline failure. The suspend operation may not always be successful. For example, if the Messaging Engine hits a routing failure while publishing a message, then the engine does not even try to suspend the message.  
+  The Messaging Engine automatically tries to suspend the message when it gets a receive pipeline failure. The suspend operation may not always be successful. For example, if the Messaging Engine hits a routing failure while publishing a message, then the engine does not even try to suspend the message.  
   
- It is always possible that a message will fail. In such a situation, the adapter should explicitly call the **MoveToSuspendQ** API and should try to suspend the message. When an adapter tries to suspend a message, one of the following should be true:  
+  It is always possible that a message will fail. In such a situation, the adapter should explicitly call the **MoveToSuspendQ** API and should try to suspend the message. When an adapter tries to suspend a message, one of the following should be true:  
   
--   The same message object that the adapter submitted (recommended) should be suspended.  
+- The same message object that the adapter submitted (recommended) should be suspended.  
   
--   If the adapter has to create a new message, then it should set the message context of the new message with the pointer to the message context of the message that was originally submitted. This is because the message context of a message has a lot of valuable information about the message and the failure. This information is required to debug the failed message.  
+- If the adapter has to create a new message, then it should set the message context of the new message with the pointer to the message context of the message that was originally submitted. This is because the message context of a message has a lot of valuable information about the message and the failure. This information is required to debug the failed message.  
   
 > [!NOTE]
 >  If the adapter creates a new message object and suspends it, the adapter should copy the error information from the old message object to the new message object.  
@@ -157,61 +157,61 @@ msg.SetErrorInfo(
 ### Implement Receive Ordering by Using a Single Thread and Waiting on BatchComplete  
  The interface to BizTalk Server is designed for performance and the ability to scale out by supporting concurrency. However, if you want a strictly ordered receive of messages (as is sometimes required when receiving messages from a message queue product like MQSeries or MSMQ), then you must do some additional work in the adapter to disable some of that concurrency. This can be done in two steps:  
   
-1.  You must use a single thread for all the data processing in the adapter.  
+1. You must use a single thread for all the data processing in the adapter.  
   
-2.  You must wait for BizTalk Server to completely process each batch. This requirement is important and can be accomplished by using .NET thread synchronization primitives. For example, using an **AutoResetEvent**, you would:  
+2. You must wait for BizTalk Server to completely process each batch. This requirement is important and can be accomplished by using .NET thread synchronization primitives. For example, using an **AutoResetEvent**, you would:  
   
-    -   Declare the event object where it can be accessed by both the main worker thread and the **BatchComplete** callback object.  
+   -   Declare the event object where it can be accessed by both the main worker thread and the **BatchComplete** callback object.  
   
-    -   On the main worker thread, submit the messages to the batch as usual but then call **AutoResetEvent.Reset** on the event object just before the call to the batch **IBTTransportBatch::Done**.  
+   -   On the main worker thread, submit the messages to the batch as usual but then call **AutoResetEvent.Reset** on the event object just before the call to the batch **IBTTransportBatch::Done**.  
   
-    -   Call **AutoResetEvent.WaitOne** on the event object from this same thread. This causees the main worker thread to block. In the **BatchComplete** callback from BizTalk Server you then call **AutoResetEvent.Set** on the same event object to unblock the worker thread so it is ready to process another message.  
+   -   Call **AutoResetEvent.WaitOne** on the event object from this same thread. This causees the main worker thread to block. In the **BatchComplete** callback from BizTalk Server you then call **AutoResetEvent.Set** on the same event object to unblock the worker thread so it is ready to process another message.  
   
- It is strongly suggested that *receive ordering* like this be made configurable because it causes significant performance degradation. Many, if not most, user scenarios do not require ordering of messages. Suspending messages can also break ordering. Exactly what to do in this case is application-dependent, so the best thing for your adapter to do is to offer the user a configuration point.  
+   It is strongly suggested that *receive ordering* like this be made configurable because it causes significant performance degradation. Many, if not most, user scenarios do not require ordering of messages. Suspending messages can also break ordering. Exactly what to do in this case is application-dependent, so the best thing for your adapter to do is to offer the user a configuration point.  
   
- In ordered scenarios, some customers have stated that they would prefer to stop the processing, that is, disable the adapter, rather than break ordering. The MQSeries adapter, which supports ordered receive, provides this option to the user.  
+   In ordered scenarios, some customers have stated that they would prefer to stop the processing, that is, disable the adapter, rather than break ordering. The MQSeries adapter, which supports ordered receive, provides this option to the user.  
   
 ## Handle Send-Specific Batch Errors  
   
 ### Handle Send Retry and Batching  
  Here is a typical example of send-side batching:  
   
--   BizTalk Server gives a batch of messages to the adapter.  
+- BizTalk Server gives a batch of messages to the adapter.  
   
--   When the adapter determines that it has given the message to its destination correctly, it executes delete back on BizTalk Server indicating that it is done. (As usual, several delete messages can be arbitrarily batched up to improve performance.)  
+- When the adapter determines that it has given the message to its destination correctly, it executes delete back on BizTalk Server indicating that it is done. (As usual, several delete messages can be arbitrarily batched up to improve performance.)  
   
- If the send-side adapter fails to process a message, then it may do one of several things with that message:  
+  If the send-side adapter fails to process a message, then it may do one of several things with that message:  
   
--   The adapter should tell BizTalk Server that it wants a message retried. BizTalk Server does not automatically retry a message. BizTalk Server keeps a count of the retries, and this count can be seen in the message context.  
+- The adapter should tell BizTalk Server that it wants a message retried. BizTalk Server does not automatically retry a message. BizTalk Server keeps a count of the retries, and this count can be seen in the message context.  
   
--   The adapter may determine that it cannot process a message. In this case, the adapter might move the message to the next transport. The adapter does this with the **MoveToNextTransport** call on the **Batch** object.  
+- The adapter may determine that it cannot process a message. In this case, the adapter might move the message to the next transport. The adapter does this with the **MoveToNextTransport** call on the **Batch** object.  
   
--   The adapter may move the message to the Suspended queue.  
+- The adapter may move the message to the Suspended queue.  
   
- The adapter determines what happens to the message. However, it is recommended that you have adapters behave in a consistent manner because this makes a BizTalk Server installation easier to support.  
+  The adapter determines what happens to the message. However, it is recommended that you have adapters behave in a consistent manner because this makes a BizTalk Server installation easier to support.  
   
- It is highly recommended that adapters behave as described below. The adapters shipped with BizTalk Server behave like this.  
+  It is highly recommended that adapters behave as described below. The adapters shipped with BizTalk Server behave like this.  
   
 ### Recommended Behavior for Handling Send Errors in a Batch  
  The send adapter receives some messages and submits them to BizTalk Server.  
   
  For each successful message the adapter should delete that message on BizTalk Server. All communication back to BizTalk Server is done through batches, and the deletes can be batched up. They do not have to be the same batch that BizTalk Server created on the adapter. If there are any response messages (as in a SolicitResponse scenario), then they should be submitted back to BizTalk Server (with SubmitResponse) along with the associated delete.  
   
--   If the message processing in the adapter was unsuccessful, check the retry count.  
+- If the message processing in the adapter was unsuccessful, check the retry count.  
   
-    -   If the retry count was not exceeded, resubmit the message to BizTalk Server, remembering to set the retry time on the message. The message context provides the retry count and the retry interval the adapter should use.  
+  -   If the retry count was not exceeded, resubmit the message to BizTalk Server, remembering to set the retry time on the message. The message context provides the retry count and the retry interval the adapter should use.  
   
-    -   If the retry count was exceeded, then the adapter should attempt to move the message by using **MoveToNextTransport**. The resubmit and **MoveToNextTransport** messages can be mixed with the deletes in the same batch back to BizTalk Server. This is not required, but can be a useful step.  
+  -   If the retry count was exceeded, then the adapter should attempt to move the message by using **MoveToNextTransport**. The resubmit and **MoveToNextTransport** messages can be mixed with the deletes in the same batch back to BizTalk Server. This is not required, but can be a useful step.  
   
--   The resubmit and the **MoveToNextTransport** are ways for the adapter to deal with failures. But there can be a failure within the processing of the failure. In this case, in processing the response from BizTalk Server (in the **BatchComplete** method) the adapter must create another batch against BizTalk Server to indicate what to do with that failure.  
+- The resubmit and the **MoveToNextTransport** are ways for the adapter to deal with failures. But there can be a failure within the processing of the failure. In this case, in processing the response from BizTalk Server (in the **BatchComplete** method) the adapter must create another batch against BizTalk Server to indicate what to do with that failure.  
   
-     Follow these steps when processing a failure that occurs within the processing of another failure:  
+   Follow these steps when processing a failure that occurs within the processing of another failure:  
   
-    -   If the resubmit fails, use **MoveToNextTransport**.  
+  -   If the resubmit fails, use **MoveToNextTransport**.  
   
-    -   If the **MoveToNextTransport** fails, use **MoveToSuspendQ**.  
+  -   If the **MoveToNextTransport** fails, use **MoveToSuspendQ**.  
   
- You must keep creating batches on BizTalk Server until you receive a successful action back on BizTalk Server.  
+  You must keep creating batches on BizTalk Server until you receive a successful action back on BizTalk Server.  
   
 ### Serialization of Message Context Property  
  All objects assigned to a message context property must be serializable. Otherwise the Messaging Engine will throw an exception of type **E_NOINTERFACE**. This return value ambiguously represents a non-serializable object attempting to be assigned the message context.

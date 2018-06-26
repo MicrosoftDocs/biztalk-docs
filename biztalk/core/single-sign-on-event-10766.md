@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10766
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10766|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NOT_SECRET_SERVER|  
-|Message Text|This function can only be performed on the master secret server.|  
+|                 |                                                                  |
+|-----------------|------------------------------------------------------------------|
+|  Product Name   |                    Enterprise Single Sign-On                     |
+| Product Version |    [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]    |
+|    Event ID     |                              10766                               |
+|  Event Source   |                              ENTSSO                              |
+|    Component    |                               N/A                                |
+|  Symbolic Name  |                    ENTSSO_E_NOT_SECRET_SERVER                    |
+|  Message Text   | This function can only be performed on the master secret server. |
   
 ## Explanation  
  This function can only be performed on the master secret server.  

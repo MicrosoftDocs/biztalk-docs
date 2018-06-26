@@ -24,13 +24,13 @@ Administrators use the **update-all** command to update artifacts deployed in th
   
 ### To update BAM Artifacts  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
+2. Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type **bm update-all -DefinitionFile:\<def file\>**.  
+3. Type **bm update-all -DefinitionFile:\<def file\>**.  
   
-4.  Press **ENTER**.  
+4. Press **ENTER**.  
   
 ## See Also  
  [Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md)   

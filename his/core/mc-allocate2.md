@@ -83,30 +83,30 @@ struct mc_allocate {
  *synclevel*  
  Supplied parameter. Specifies the synchronization level of the conversation. It determines whether the TPs can request confirmation of receipt of data and confirm receipt of data.  
   
--   AP_NONE specifies that confirmation processing will not be used in this conversation.  
+- AP_NONE specifies that confirmation processing will not be used in this conversation.  
   
--   AP_CONFIRM_SYNC_LEVEL specifies that the TPs can use confirmation processing in this conversation.  
+- AP_CONFIRM_SYNC_LEVEL specifies that the TPs can use confirmation processing in this conversation.  
   
--   AP_SYNCPT specifies that TPs can use Sync Point Level 2 confirmation processing in this conversation.  
+- AP_SYNCPT specifies that TPs can use Sync Point Level 2 confirmation processing in this conversation.  
   
- *reserv4*  
- A reserved field.  
+  *reserv4*  
+  A reserved field.  
   
- *reserv5*  
- A reserved field.  
+  *reserv5*  
+  A reserved field.  
   
- *rtn_ctl*  
- Supplied parameter. Specifies when the local LU, acting on a session request from the local TP, should return control to the local TP. For information about sessions, see [Transaction Programs Overview](./transaction-programs-overview1.md).  
+  *rtn_ctl*  
+  Supplied parameter. Specifies when the local LU, acting on a session request from the local TP, should return control to the local TP. For information about sessions, see [Transaction Programs Overview](./transaction-programs-overview1.md).  
   
--   AP_IMMEDIATE specifies that the LU allocates a contention-winner session, if one is immediately available, and returns control to the TP.  
+- AP_IMMEDIATE specifies that the LU allocates a contention-winner session, if one is immediately available, and returns control to the TP.  
   
--   AP_WHEN_SESSION_ALLOCATED specifies that the LU does not return control to the TP until it allocates a session or encounters one of the errors documented in Return Codes in this topic. (If the session limit is zero, the LU returns control immediately.) If a session is not available, the TP waits for one.  
+- AP_WHEN_SESSION_ALLOCATED specifies that the LU does not return control to the TP until it allocates a session or encounters one of the errors documented in Return Codes in this topic. (If the session limit is zero, the LU returns control immediately.) If a session is not available, the TP waits for one.  
   
--   AP_WHEN_SESSION_FREE specifies that the LU allocates a contention-winner or contention-loser session, if one is available or able to be activated, and returns control to the TP. If an error occurs, (as documented in Return Codes in this topic) the call will return immediately with the error in the **primary_rc** and **secondary_rc** fields.  
+- AP_WHEN_SESSION_FREE specifies that the LU allocates a contention-winner or contention-loser session, if one is available or able to be activated, and returns control to the TP. If an error occurs, (as documented in Return Codes in this topic) the call will return immediately with the error in the **primary_rc** and **secondary_rc** fields.  
   
--   AP_WHEN_CONWINNER_ALLOC specifies that the LU does not return control until it allocates a contention-winner session or encounters one of the errors documented in Return Codes in this topic. (If the session limit is zero, the LU returns control immediately.) If a session is not available, the TP waits for one.  
+- AP_WHEN_CONWINNER_ALLOC specifies that the LU does not return control until it allocates a contention-winner session or encounters one of the errors documented in Return Codes in this topic. (If the session limit is zero, the LU returns control immediately.) If a session is not available, the TP waits for one.  
   
--   AP_WHEN_CONV_GROUP_ALLOC specifies that the LU does not return control to the TP until it allocates the session specified by **conv_group_id**or encounters one of the errors documented in Return Codes in this topic. If a session is not available, the TP waits for it to become free.  
+- AP_WHEN_CONV_GROUP_ALLOC specifies that the LU does not return control to the TP until it allocates the session specified by **conv_group_id**or encounters one of the errors documented in Return Codes in this topic. If a session is not available, the TP waits for it to become free.  
   
 > [!NOTE]
 >  AP_IMMEDIATE is the only value for **rtn_ctl** that never causes a new session to start. For values other than AP_IMMEDIATE, if an appropriate session is not immediately available, Microsoft® Host Integration Server  tries to start one. This causes the on-demand connection to be activated.  
@@ -124,131 +124,131 @@ struct mc_allocate {
   
  The parameter is an 8-byte ASCII character string. It can consist of the following ASCII characters:  
   
--   Uppercase letters  
+- Uppercase letters  
   
--   Numerals 0 through 9  
+- Numerals 0 through 9  
   
--   Spaces  
+- Spaces  
   
--   Special characters $, #, %, and @  
+- Special characters $, #, %, and @  
   
- The first character of this string cannot be a space.  
+  The first character of this string cannot be a space.  
   
- If the value of this parameter is fewer than eight bytes, pad it on the right with ASCII spaces (0x20).  
+  If the value of this parameter is fewer than eight bytes, pad it on the right with ASCII spaces (0x20).  
   
- If you want to specify the partner LU with the **fqplu_name** parameter, fill this parameter with binary zeros.  
+  If you want to specify the partner LU with the **fqplu_name** parameter, fill this parameter with binary zeros.  
   
- For a user or group using TPs, 5250 emulators, and/or APPC applications, the system administrator can assign default local and remote LUs. In this case, the field is left blank or null and the default LUs are accessed when the user or group member starts an APPC program.  
+  For a user or group using TPs, 5250 emulators, and/or APPC applications, the system administrator can assign default local and remote LUs. In this case, the field is left blank or null and the default LUs are accessed when the user or group member starts an APPC program.  
   
- *mode_name*  
- Supplied parameter. Specifies the name of a set of networking characteristics defined during configuration.  
+  *mode_name*  
+  Supplied parameter. Specifies the name of a set of networking characteristics defined during configuration.  
   
- The value of **mode_name** must match the name of a mode associated with the partner LU during configuration.  
+  The value of **mode_name** must match the name of a mode associated with the partner LU during configuration.  
   
- The parameter is an 8-byte EBCDIC character string. It can consist of characters from the type A EBCDIC character set:  
+  The parameter is an 8-byte EBCDIC character string. It can consist of characters from the type A EBCDIC character set:  
   
--   Uppercase letters  
+- Uppercase letters  
   
--   Numerals 0 through 9  
+- Numerals 0 through 9  
   
--   Special characters $, #, and @  
+- Special characters $, #, and @  
   
- The first character in the string must be an uppercase letter or a special character.  
+  The first character in the string must be an uppercase letter or a special character.  
   
- Do not use SNASVCMG in a mapped conversation. SNASVCMG is a reserved **mode_name** used internally by APPC.  
+  Do not use SNASVCMG in a mapped conversation. SNASVCMG is a reserved **mode_name** used internally by APPC.  
   
- *tp_name*  
- Supplied parameter. Specifies the name of the invoked TP. The value of **tp_name** specified by **MC_ALLOCATE** in the invoking TP must match the value of **tp_name** specified by [RECEIVE_ALLOCATE](../core/receive-allocate1.md) in the invoked TP.  
+  *tp_name*  
+  Supplied parameter. Specifies the name of the invoked TP. The value of **tp_name** specified by **MC_ALLOCATE** in the invoking TP must match the value of **tp_name** specified by [RECEIVE_ALLOCATE](../core/receive-allocate1.md) in the invoked TP.  
   
- The parameter is a 64-byte EBCDIC character string and is case-sensitive. The **tp_name** parameter can consist of the following EBCDIC characters:  
+  The parameter is a 64-byte EBCDIC character string and is case-sensitive. The **tp_name** parameter can consist of the following EBCDIC characters:  
   
--   Uppercase and lowercase letters  
+- Uppercase and lowercase letters  
   
--   Numerals 0 through 9  
+- Numerals 0 through 9  
   
--   Special characters $, #, @, and period (.)  
+- Special characters $, #, @, and period (.)  
   
- If **tp_name** is fewer than 64 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
+  If **tp_name** is fewer than 64 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
   
- The SNA convention is that a service TP name can have up to four characters. The first character is a hexadecimal byte between 0x00 and 0x3F. The other characters are from the type AE EBCDIC character set.  
+  The SNA convention is that a service TP name can have up to four characters. The first character is a hexadecimal byte between 0x00 and 0x3F. The other characters are from the type AE EBCDIC character set.  
   
- *security*  
- Supplied parameter. Provides the information that the partner LU requires to validate access to the invoked TP. See the section **Possible values for the Security parameter** in this topic.  
+  *security*  
+  Supplied parameter. Provides the information that the partner LU requires to validate access to the invoked TP. See the section **Possible values for the Security parameter** in this topic.  
   
- *Reserv6*  
- A reserved field.  
+  *Reserv6*  
+  A reserved field.  
   
- *pwd*  
- Supplied parameter. Specifies the password associated with **user_id**.  
+  *pwd*  
+  Supplied parameter. Specifies the password associated with **user_id**.  
   
- The **pwd** parameter is required only if **security** is set to AP_PGM or AP_SAME. It must match the password for **user_id** that was established during configuration.  
+  The **pwd** parameter is required only if **security** is set to AP_PGM or AP_SAME. It must match the password for **user_id** that was established during configuration.  
   
- The **pwd** parameter is a 10-byte EBCDIC character string and is case-sensitive. It can consist of the following EBCDIC characters:  
+  The **pwd** parameter is a 10-byte EBCDIC character string and is case-sensitive. It can consist of the following EBCDIC characters:  
   
--   Uppercase and lowercase letters  
+- Uppercase and lowercase letters  
   
--   Numerals 0 through 9  
+- Numerals 0 through 9  
   
--   Special characters $, #, @, and period (.)  
+- Special characters $, #, @, and period (.)  
   
- If the password is fewer than 10 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
+  If the password is fewer than 10 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
   
- If the APPC automatic logon feature is to be used, the **pwd** character string must be hard-coded to MS$SAME. See the Remarks section for details.  
+  If the APPC automatic logon feature is to be used, the **pwd** character string must be hard-coded to MS$SAME. See the Remarks section for details.  
   
- *user_id*  
- Supplied parameter. Specifies the user identifier required to access the partner TP. It is required only if the security parameter is set to AP_PGM or AP_SAME.  
+  *user_id*  
+  Supplied parameter. Specifies the user identifier required to access the partner TP. It is required only if the security parameter is set to AP_PGM or AP_SAME.  
   
- The **user_id** parameter is a 10-byte EBCDIC character string and is case-sensitive. It must match one of the user identifiers configured for the partner TP.  
+  The **user_id** parameter is a 10-byte EBCDIC character string and is case-sensitive. It must match one of the user identifiers configured for the partner TP.  
   
- The parameter can consist of the following EBCDIC characters:  
+  The parameter can consist of the following EBCDIC characters:  
   
--   Uppercase and lowercase letters  
+- Uppercase and lowercase letters  
   
--   Numerals 0 through 9  
+- Numerals 0 through 9  
   
--   Special characters $, #, @, and period (.)  
+- Special characters $, #, @, and period (.)  
   
- If **user_id** is fewer than 10 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
+  If **user_id** is fewer than 10 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
   
- If the APPC automatic logon feature is to be used, the **user_id** character string must be hard-coded to MS$SAME. See the Remarks section for details.  
+  If the APPC automatic logon feature is to be used, the **user_id** character string must be hard-coded to MS$SAME. See the Remarks section for details.  
   
- *pip_dlen*  
- Supplied parameter. Specifies the length of the program initialization parameters (PIP) to be passed to the partner TP. The range is from 0 through 32767.  
+  *pip_dlen*  
+  Supplied parameter. Specifies the length of the program initialization parameters (PIP) to be passed to the partner TP. The range is from 0 through 32767.  
   
- *pip_dptr*  
- Supplied parameter. Specifies the address of the buffer containing PIP data. Use this parameter only if **pip_dlen** is greater than zero.  
+  *pip_dptr*  
+  Supplied parameter. Specifies the address of the buffer containing PIP data. Use this parameter only if **pip_dlen** is greater than zero.  
   
- PIP data can consist of initialization parameters or environmental setup information required by a partner TP or remote operating system. The PIP data must follow the general data stream (GDS) format. For more information, see your IBM SNA manual(s).  
+  PIP data can consist of initialization parameters or environmental setup information required by a partner TP or remote operating system. The PIP data must follow the general data stream (GDS) format. For more information, see your IBM SNA manual(s).  
   
- For Microsoft Windows, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
+  For Microsoft Windows, the data buffer can reside in a static data area or in a globally allocated area. The data buffer must fit entirely within this area.  
   
- *reserv7*  
- A reserved field.  
+  *reserv7*  
+  A reserved field.  
   
- *fqplu_name*  
- Supplied parameter. Specifies the fully qualified name of the partner LU. This must match the fully qualified name of the local LU defined in the remote node. The parameter consists of two type A EBCDIC character strings for the NETID and the LU name of the partner LU. The names are separated by an EBCDIC period (.).  
+  *fqplu_name*  
+  Supplied parameter. Specifies the fully qualified name of the partner LU. This must match the fully qualified name of the local LU defined in the remote node. The parameter consists of two type A EBCDIC character strings for the NETID and the LU name of the partner LU. The names are separated by an EBCDIC period (.).  
   
- This name must be provided if no **plu_alias** is specified. It can consist of the following EBCDIC characters:  
+  This name must be provided if no **plu_alias** is specified. It can consist of the following EBCDIC characters:  
   
--   18Uppercase letters  
+- 18Uppercase letters  
   
--   Numerals 0 through 9  
+- Numerals 0 through 9  
   
--   Special characters $, #, and @  
+- Special characters $, #, and @  
   
- If the value of this parameter is fewer than 17 bytes, pad it on the right with EBCDIC spaces (0x40).  
+  If the value of this parameter is fewer than 17 bytes, pad it on the right with EBCDIC spaces (0x40).  
   
- *reserv8*  
- A reserved field.  
+  *reserv8*  
+  A reserved field.  
   
- *proxy_user*  
- Supplied parameter. Specifies a LPWSTR pointing to a Unicode string containing the user name to be impersonated using the privileged proxy feature. This field can only be used when the AP_EXTD_VCB bit is set on the **opext** field, indicating an extended VCB.  
+  *proxy_user*  
+  Supplied parameter. Specifies a LPWSTR pointing to a Unicode string containing the user name to be impersonated using the privileged proxy feature. This field can only be used when the AP_EXTD_VCB bit is set on the **opext** field, indicating an extended VCB.  
   
- *proxy_domain*  
- Supplied parameter. Specifies a LPWSTR pointing to a Unicode string containing the domain name of the user to be impersonated using the privileged proxy feature. This field can only be used when the AP_EXTD_VCB bit is set on the **opext** field, indicating an extended VCB.  
+  *proxy_domain*  
+  Supplied parameter. Specifies a LPWSTR pointing to a Unicode string containing the domain name of the user to be impersonated using the privileged proxy feature. This field can only be used when the AP_EXTD_VCB bit is set on the **opext** field, indicating an extended VCB.  
   
- *reserv9*  
- A reserved field.  
+  *reserv9*  
+  A reserved field.  
   
 ## Possible Values for the Security Parameter  
  Based on the conversation security established for the invoked TP during configuration, use one of the following values:  
@@ -347,47 +347,47 @@ struct mc_allocate {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- When this return code is used with **MC_ALLOCATE**, it can indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **MC_ALLOCATE** request.  
+  When this return code is used with **MC_ALLOCATE**, it can indicate that no communications system could be found to support the local LU. (For example, the local LU alias specified with [TP_STARTED](../core/tp-started2.md) is incorrect or has not been configured.) Note that if **lu_alias** or **mode_name** is fewer than eight characters, you must ensure that these fields are filled with spaces to the right. This error is returned if these parameters are not filled with spaces, since there is no node available that can satisfy the **MC_ALLOCATE** request.  
   
- When **MC_ALLOCATE** produces this return code for a Host Integration Server system configured with multiple nodes, there are two secondary return codes as follows:  
+  When **MC_ALLOCATE** produces this return code for a Host Integration Server system configured with multiple nodes, there are two secondary return codes as follows:  
   
- 0xF0000001  
+  0xF0000001  
   
- Secondary return code; no nodes have been started.  
+  Secondary return code; no nodes have been started.  
   
- 0xF0000002  
+  0xF0000002  
   
- Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
+  Secondary return code; at least one node has been started, but the local LU (when **TP_STARTED** is issued) is not configured on any active nodes. The problem could be either of the following:  
   
--   The node with the local LU is not started.  
+- The node with the local LU is not started.  
   
--   The local LU is not configured.  
+- The local LU is not configured.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation. This can occur if the local TP has multiple threads, and more than one thread is issuing APPC calls using the same **conv_id**.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
 ## Remarks  
  **MC_ALLOCATE** establishes a mapped conversation.  
@@ -421,41 +421,41 @@ struct mc_allocate {
   
  According to IBM, there are implementations of LU 6.2 password substitution that do not support password substitution but do echo the password substitution bit back to Host Integration Server, without specifying any random data. When they do this, Host Integration Server will UNBIND the session with the sense code 10060006.This sense code is interpreted as:  
   
--   1006 = Required field or parameter missing.  
+- 1006 = Required field or parameter missing.  
   
--   0006 = A required subfield of a control vector was omitted.  
+- 0006 = A required subfield of a control vector was omitted.  
   
- Host Integration Server should also log an Event 17 (APPC session activation failure: BIND negative response sent).  
+  Host Integration Server should also log an Event 17 (APPC session activation failure: BIND negative response sent).  
   
- The correct solution is for the failing implementation to be fixed. However, as a short-term workaround, the following Host Integration Server SNA Service registry setting can be set:   **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\snaservr\parameters\NOPWDSUB: REG_SZ: YES**  
+  The correct solution is for the failing implementation to be fixed. However, as a short-term workaround, the following Host Integration Server SNA Service registry setting can be set:   **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\snaservr\parameters\NOPWDSUB: REG_SZ: YES**  
   
- When this parameter is specified in the registry, Host Integration Server password substitution support will be disabled.  
+  When this parameter is specified in the registry, Host Integration Server password substitution support will be disabled.  
   
- Several updates have been made to Host Integration Server to allow a privileged APPC application to open an APPC conversation using the Single Sign-On feature on behalf of any defined Windows user. This is referred to as the privileged proxy feature. An extension has been added to the APPC **MC_ALLOCATE** verb to invoke this feature.  
+  Several updates have been made to Host Integration Server to allow a privileged APPC application to open an APPC conversation using the Single Sign-On feature on behalf of any defined Windows user. This is referred to as the privileged proxy feature. An extension has been added to the APPC **MC_ALLOCATE** verb to invoke this feature.  
   
- An APPC application becomes privileged by being started in a Windows user account that is a member of a special Windows group. When a Host Security Domain is configured, SNA Manager will define a second Windows group for use with the host security features of Host Integration Server. If the user account under which the actual client is running is a member of this second Windows group, the client is privileged to initiate an APPC conversation on behalf of any user account defined in the Host Account Cache.  
+  An APPC application becomes privileged by being started in a Windows user account that is a member of a special Windows group. When a Host Security Domain is configured, SNA Manager will define a second Windows group for use with the host security features of Host Integration Server. If the user account under which the actual client is running is a member of this second Windows group, the client is privileged to initiate an APPC conversation on behalf of any user account defined in the Host Account Cache.  
   
- The following illustrates how the privileged proxy feature works:  
+  The following illustrates how the privileged proxy feature works:  
   
- The Host Integration Server administrator creates a Host Security Domain called APP. SNA Manager now creates two Windows groups. The first group is called APP and the second is called APP_PROXY for this example. Users that are assigned to the APP group are enabled for Single Sign-On. Users assigned to the APP_PROXY group are privileged proxies. The administrator adds the Windows user AppcUser to the APP_PROXY group using the Users button on the Host Security Domain property dialog box in SNA Manager.  
+  The Host Integration Server administrator creates a Host Security Domain called APP. SNA Manager now creates two Windows groups. The first group is called APP and the second is called APP_PROXY for this example. Users that are assigned to the APP group are enabled for Single Sign-On. Users assigned to the APP_PROXY group are privileged proxies. The administrator adds the Windows user AppcUser to the APP_PROXY group using the Users button on the Host Security Domain property dialog box in SNA Manager.  
   
- The administrator then sets up an APPC application on the Host Integration Server server to run as a Windows service called APPCAPP, and that service has been set up to operate under the AppcUser user account. When APPCAPP runs, it opens an APPC session via an **ALLOCATE** verb using the extended VCB format and specifies the Windows user name of the desired user, UserA (for example).  
+  The administrator then sets up an APPC application on the Host Integration Server server to run as a Windows service called APPCAPP, and that service has been set up to operate under the AppcUser user account. When APPCAPP runs, it opens an APPC session via an **ALLOCATE** verb using the extended VCB format and specifies the Windows user name of the desired user, UserA (for example).  
   
- The SNA Service sees the session request coming from a connection that is a member of the Host Security Domain APP. The Client/Server interface tells the SNA Service that the actual client is AppcUser.  
+  The SNA Service sees the session request coming from a connection that is a member of the Host Security Domain APP. The Client/Server interface tells the SNA Service that the actual client is AppcUser.  
   
- The SNA Service checks to see if AppcUser is a member of the APP_PROXY group. Because AppcUser is a member of APP_PROXY, the SNA Service inserts the Username/Password for UserA in the APPC Attach (FMH-5) command and sends it off to the partner TP.  
+  The SNA Service checks to see if AppcUser is a member of the APP_PROXY group. Because AppcUser is a member of APP_PROXY, the SNA Service inserts the Username/Password for UserA in the APPC Attach (FMH-5) command and sends it off to the partner TP.  
   
- In order to support the privileged proxy feature, the APPC application must implement the following program logic:  
+  In order to support the privileged proxy feature, the APPC application must implement the following program logic:  
   
- The APPC application must determine the Windows user ID and domain name that it wishes to impersonate.  
+  The APPC application must determine the Windows user ID and domain name that it wishes to impersonate.  
   
- The APPC application must set the following parameters before calling the **MC_ALLOCATE** verb:  
+  The APPC application must set the following parameters before calling the **MC_ALLOCATE** verb:  
   
- Enable the use of the extended **MC_ALLOCATE** verb control block structure by setting the AP_EXTD_VCB flag in the **opext** field.  
+  Enable the use of the extended **MC_ALLOCATE** verb control block structure by setting the AP_EXTD_VCB flag in the **opext** field.  
   
- Set security to AP_PROXY_SAME, AP_PROXY_PGM, or AP_PROXY_STRONG.  
+  Set security to AP_PROXY_SAME, AP_PROXY_PGM, or AP_PROXY_STRONG.  
   
- Set up the pointers for **proxy_user** and **proxy_domain** to point to Unicode strings containing the user name and domain name of the user to be impersonated.  
+  Set up the pointers for **proxy_user** and **proxy_domain** to point to Unicode strings containing the user name and domain name of the user to be impersonated.  
   
 > [!NOTE]
 >  The application does not need to set up the **user_id** and **pwd** fields in the **MC_ALLOCATE** VCB.  

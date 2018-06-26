@@ -19,40 +19,40 @@ Removes (deletes) an artifact from the BizTalk Management database. Running this
   
  You can use this command to remove the following artifact types:  
   
--   .NET assembly (System.BizTalk:Assembly)  
+- .NET assembly (System.BizTalk:Assembly)  
   
--   BAM definition (System.BizTalk:Bam)  
+- BAM definition (System.BizTalk:Bam)  
   
--   BizTalk assembly (System.BizTalk:BizTalkAssembly  
+- BizTalk assembly (System.BizTalk:BizTalkAssembly  
   
--   BizTalk binding file (System.BizTalk:BizTalkBinding)  
+- BizTalk binding file (System.BizTalk:BizTalkBinding)  
   
--   Security certificate (System.BizTalk:Certificate)  
+- Security certificate (System.BizTalk:Certificate)  
   
--   COM component (System.BizTalk:Com)  
+- COM component (System.BizTalk:Com)  
   
--   Ad hoc file (System.BizTalk:File)  
+- Ad hoc file (System.BizTalk:File)  
   
--   Postprocessing script (System.BizTalk:PostProcessingScript)  
+- Postprocessing script (System.BizTalk:PostProcessingScript)  
   
--   Preprocessing script (System.BizTalk:PreProcessingScript)  
+- Preprocessing script (System.BizTalk:PreProcessingScript)  
   
--   Policy or rule (System.BizTalk:Rules)  
+- Policy or rule (System.BizTalk:Rules)  
   
--   Virtual directory (System.BizTalk:WebDirectory)  
+- Virtual directory (System.BizTalk:WebDirectory)  
   
- The remove operation will fail in the following cases:  
+  The remove operation will fail in the following cases:  
   
--   You attempt to remove a BizTalk assembly to which another assembly has a reference.  
+- You attempt to remove a BizTalk assembly to which another assembly has a reference.  
   
--   You attempt to remove a BizTalk assembly that includes a pipeline that is used by a send or receive port.  
+- You attempt to remove a BizTalk assembly that includes a pipeline that is used by a send or receive port.  
   
--   You attempt to remove a BizTalk assembly that includes a map used by a send port.  
+- You attempt to remove a BizTalk assembly that includes a map used by a send port.  
   
--   You attempt to remove a BizTalk assembly that includes an orchestration that is not in an unenlisted state or that has a suspended instance.  
+- You attempt to remove a BizTalk assembly that includes an orchestration that is not in an unenlisted state or that has a suspended instance.  
   
 ## Usage  
- **BTSTask RemoveResource /ApplicationName:** *value* **/Luid:** *value* [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask RemoveResource /ApplicationName:** *value* **/Luid:** *value* [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

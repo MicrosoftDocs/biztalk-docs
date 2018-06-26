@@ -16,23 +16,23 @@ manager: "anneta"
 # Changing the Default Values of the Security Parameters
 By default, the security levels are:  
   
--   High = 168-bit encryption (minimum)  
+- High = 168-bit encryption (minimum)  
   
--   Medium = 128-bit encryption (minimum)  
+- Medium = 128-bit encryption (minimum)  
   
--   Low = 40-bit encryption (minimum)  
+- Low = 40-bit encryption (minimum)  
   
--   Unsecured = TLS/SSL fully disabled  
+- Unsecured = TLS/SSL fully disabled  
   
- The default values of the first three of these levels can be overridden by the following registry entries (stored in **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/TN3270/Parameters**):  
+  The default values of the first three of these levels can be overridden by the following registry entries (stored in **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/TN3270/Parameters**):  
   
--   **SSLHighSecurity**  
+- **SSLHighSecurity**  
   
--   **SSLMediumSecurity**  
+- **SSLMediumSecurity**  
   
--   **SSLLowSecurity**  
+- **SSLLowSecurity**  
   
- Each registry entry will contain a numeric (DWORD) value. The registry is checked for entries only when the TN3270 server is started. For any changes in the registry entries to take effect, the TN3270 server must be restarted.  
+  Each registry entry will contain a numeric (DWORD) value. The registry is checked for entries only when the TN3270 server is started. For any changes in the registry entries to take effect, the TN3270 server must be restarted.  
   
 ## See Also  
  [Configuring Certificates](../core/configuring-certificates2.md)   

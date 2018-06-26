@@ -52,25 +52,25 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 #### Using the BizTalk Server Administration console  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration** and expand the BizTalk group.  
+2. In the console tree, expand **BizTalk Server Administration** and expand the BizTalk group.  
   
-3.  If you want to select the policies to export from all of the policies in a BizTalk group right-click the **Applications** folder, click **Export**, and then click **Policies**.  
+3. If you want to select the policies to export from all of the policies in a BizTalk group right-click the **Applications** folder, click **Export**, and then click **Policies**.  
   
-     OR  
+    OR  
   
-     If you want to export the policies in a particular application, expand the Applications folder, right-click the application, click **Export**, and then click **Policies**.  
+    If you want to export the policies in a particular application, expand the Applications folder, right-click the application, click **Export**, and then click **Policies**.  
   
-     OR  
+    OR  
   
-     If you want to export only a particular policy, click the Policies folder that contains the policy, right-click the policy, and then click **Export**.  
+    If you want to export only a particular policy, click the Policies folder that contains the policy, right-click the policy, and then click **Export**.  
   
-4.  On the Export Policies page, in **Policies to export**, select the policies to export.  
+4. On the Export Policies page, in **Policies to export**, select the policies to export.  
   
-5.  In **Vocabularies to export**, select the check boxes of the vocabularies to export, and clear the checkboxes of any vocabularies you do not want to export. The vocabularies used by this policy are automatically selected.  
+5. In **Vocabularies to export**, select the check boxes of the vocabularies to export, and clear the checkboxes of any vocabularies you do not want to export. The vocabularies used by this policy are automatically selected.  
   
-6.  In **File to export** into, type the path of the XML file to which to export the policy or policies, and then click **OK**.  
+6. In **File to export** into, type the path of the XML file to which to export the policy or policies, and then click **OK**.  
   
 #### Using the command line  
   

@@ -23,15 +23,15 @@ The **XML validator** pipeline component processes an interchange in two modes:
   
 ### To configure recoverable interchange processing  
   
-1.  Open a receive pipeline by using pipeline designer in Visual Studio.  
+1. Open a receive pipeline by using pipeline designer in Visual Studio.  
   
-2.  Drag **XML validator** component from the **Toolbox** to the **Validate** stage of the receive pipeline.  
+2. Drag **XML validator** component from the **Toolbox** to the **Validate** stage of the receive pipeline.  
   
-3.  In the Properties window, set the value of the **Recoverable Interchange Processing** property to **True** if you want the **XML validator** component to process interchanges in the recoverable mode, or set the property to **False** if you want the component to process interchanges in the standard mode. The default value of this property is `False`.  
+3. In the Properties window, set the value of the **Recoverable Interchange Processing** property to **True** if you want the **XML validator** component to process interchanges in the recoverable mode, or set the property to **False** if you want the component to process interchanges in the standard mode. The default value of this property is `False`.  
   
- The **XMLValidator** class in the object model, which corresponds to the **XML validator** pipeline component, has a public property named **RecoverableInterchangeProcessing** that you can use to get/set the mode programmatically. See documentation for [Microsoft.BizTalk.Component.XmlValidator](http://msdn.microsoft.com/library/microsoft.biztalk.component.xmlvalidator.aspx) class for more information.  
+   The **XMLValidator** class in the object model, which corresponds to the **XML validator** pipeline component, has a public property named **RecoverableInterchangeProcessing** that you can use to get/set the mode programmatically. See documentation for [Microsoft.BizTalk.Component.XmlValidator](http://msdn.microsoft.com/library/microsoft.biztalk.component.xmlvalidator.aspx) class for more information.  
   
- Messages that are successfully validated have their sending party identified according to the party configured for the receive port on which the parent interchange arrived. If party resolution for any message extracted from the interchange fails, then the party resolution is considered to have failed for the entire interchange.  
+   Messages that are successfully validated have their sending party identified according to the party configured for the receive port on which the parent interchange arrived. If party resolution for any message extracted from the interchange fails, then the party resolution is considered to have failed for the entire interchange.  
   
 ## See Also  
  [How to Configure the XML Validator Pipeline Component](../core/how-to-configure-the-xml-validator-pipeline-component.md)

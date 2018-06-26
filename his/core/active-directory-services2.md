@@ -18,17 +18,17 @@ Microsoft Active Directory is the Windows directory service. A directory service
   
  Active Directory provides the following services and benefits:  
   
--   **Simplified administration.** Active Directory provides a single point of administration for all network resources. It also provides a single point of logon for network users.  
+- **Simplified administration.** Active Directory provides a single point of administration for all network resources. It also provides a single point of logon for network users.  
   
--   **Network security.** Security policies can be implemented and enforced to help keep information and resources safe, and at the same time, make information and resources available to the right people.  
+- **Network security.** Security policies can be implemented and enforced to help keep information and resources safe, and at the same time, make information and resources available to the right people.  
   
--   **Scalability.** The Active Directory database can be expanded by dividing it into partitions. A partition is a logical division of objects. Using partitions, Active Directory can scale from small installations with a few objects, to large installations containing millions of objects.  
+- **Scalability.** The Active Directory database can be expanded by dividing it into partitions. A partition is a logical division of objects. Using partitions, Active Directory can scale from small installations with a few objects, to large installations containing millions of objects.  
   
--   **Directory replication and distribution.** Replicating and distributing the directory to other servers in the network ensures its availability and redundancy.  
+- **Directory replication and distribution.** Replicating and distributing the directory to other servers in the network ensures its availability and redundancy.  
   
--   **Open standards.** Active Directory supports industry standard naming conventions, such as the Domain Name System (DNS), and protocols, such as the Lightweight Directory Access Protocol (LDAP). This allows Active Directory to be integrated into networks that already have a directory. It also allows you to unify and manage the multiple namespaces that may exist in the heterogeneous environments of corporate networks.  
+- **Open standards.** Active Directory supports industry standard naming conventions, such as the Domain Name System (DNS), and protocols, such as the Lightweight Directory Access Protocol (LDAP). This allows Active Directory to be integrated into networks that already have a directory. It also allows you to unify and manage the multiple namespaces that may exist in the heterogeneous environments of corporate networks.  
   
- Complete Active Directory services information is available from many sources, including the Windows Server Help.
+  Complete Active Directory services information is available from many sources, including the Windows Server Help.
   
 ## In This Section  
  [How Host Integration Server Uses Active Directory](../core/how-host-integration-server-uses-active-directory2.md)  

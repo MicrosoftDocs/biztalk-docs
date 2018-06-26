@@ -26,23 +26,23 @@ The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] expo
   
 #### To invoke an RFC or BAPI  
   
-1.  Include a reference (and a using statement in your code) to **Microsoft.Data.SAPClient**.  
+1. Include a reference (and a using statement in your code) to **Microsoft.Data.SAPClient**.  
   
-2.  Create a **SAPConnection** object by using a Data Provider for SAP connection string. For more information about the connection string, see [Read about Data Provider types for the SAP Connection String](../../adapters-and-accelerators/adapter-sap/read-about-data-provider-types-for-the-sap-connection-string.md).  
+2. Create a **SAPConnection** object by using a Data Provider for SAP connection string. For more information about the connection string, see [Read about Data Provider types for the SAP Connection String](../../adapters-and-accelerators/adapter-sap/read-about-data-provider-types-for-the-sap-connection-string.md).  
   
-3.  Open a connection to the SAP system by invoking **Open** on the **SAPConnection**.  
+3. Open a connection to the SAP system by invoking **Open** on the **SAPConnection**.  
   
-4.  Create a **SAPCommand** object from the **SAPConnection**.  
+4. Create a **SAPCommand** object from the **SAPConnection**.  
   
-5.  Specify the BAPI or RFC call in the **CommandText** property of the **SAPCommand**. If necessary, you can specify parameters using **SAPParameter** objects. For more information about how to specify a BAPI or RFC call using an EXEC statement, see [Syntax for an EXEC Statement in SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-an-exec-statement-in-sap.md). For examples of how to specify a BAPI or RFC, see [Examples for EXEC Statement](../../adapters-and-accelerators/adapter-sap/examples-for-exec-statement.md).  
+5. Specify the BAPI or RFC call in the **CommandText** property of the **SAPCommand**. If necessary, you can specify parameters using **SAPParameter** objects. For more information about how to specify a BAPI or RFC call using an EXEC statement, see [Syntax for an EXEC Statement in SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-an-exec-statement-in-sap.md). For examples of how to specify a BAPI or RFC, see [Examples for EXEC Statement](../../adapters-and-accelerators/adapter-sap/examples-for-exec-statement.md).  
   
-6.  Execute the command to invoke the RFC or BAPI and obtain the results in a **SAPDataReader**.  
+6. Execute the command to invoke the RFC or BAPI and obtain the results in a **SAPDataReader**.  
   
-7.  Read the results from the **SAPDataReader**.  
+7. Read the results from the **SAPDataReader**.  
   
-8.  When you are finished using them, close (or dispose) the **SAPConnection** and the **SAPDataReader**.  
+8. When you are finished using them, close (or dispose) the **SAPConnection** and the **SAPDataReader**.  
   
- The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] also exposes a **SAPClientFactory** class, which you can use to create **SAPConnection**, **SAPCommand** and **SAPConnection** objects. For more information about the ADO.NET classes extended by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], see [Extend ADO.NET Interfaces with the SAP adapter](../../adapters-and-accelerators/adapter-sap/extend-ado-net-interfaces-with-the-sap-adapter.md).  
+   The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] also exposes a **SAPClientFactory** class, which you can use to create **SAPConnection**, **SAPCommand** and **SAPConnection** objects. For more information about the ADO.NET classes extended by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], see [Extend ADO.NET Interfaces with the SAP adapter](../../adapters-and-accelerators/adapter-sap/extend-ado-net-interfaces-with-the-sap-adapter.md).  
   
 ## Example  
  The following example invokes SD_RFC_CUSTOMER_GET to retrieve customer information for all customers whose names start with "AB". It then writes the customer records to the console.  

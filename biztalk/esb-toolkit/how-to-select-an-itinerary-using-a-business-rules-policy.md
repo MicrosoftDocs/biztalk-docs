@@ -31,11 +31,11 @@ manager: "anneta"
 ## Before You Begin  
  Complete the following tasks before you perform the steps later in this How-to topic:  
   
--   Create the GlobalBank West test message.  
+- Create the GlobalBank West test message.  
   
--   Create the GlobalBank East test message.  
+- Create the GlobalBank East test message.  
   
- The following procedures describe how to do each of these.  
+  The following procedures describe how to do each of these.  
   
 #### To create the GlobalBank West test message  
   

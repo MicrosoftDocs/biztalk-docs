@@ -43,13 +43,13 @@ A *send port* is the location to which Microsoft BizTalk Server sends messages o
 ## Send Port and Send Port Group States  
  The BizTalk Administration Console displays send ports and send port groups in one of the following states:  
   
--   **Bound**. Using the BizTalk Server Administration Console, an administrator binds the send port or send port group to an orchestration. Before BizTalk Server routes messages to this send port or send port group, the administrator must enlist and start the bound send port or send port group.  
+- **Bound**. Using the BizTalk Server Administration Console, an administrator binds the send port or send port group to an orchestration. Before BizTalk Server routes messages to this send port or send port group, the administrator must enlist and start the bound send port or send port group.  
   
--   **Started**. The subscription for this send port or send port group exists and is active. When the send port or send port group is in the started state, BizTalk Server delivers messages to the send port or send port group, and the send port or send port group processes them. Before you can start a send port or send port group, an administrator must use the BizTalk Administration Console to enlist the bound send port or send port group.  
+- **Started**. The subscription for this send port or send port group exists and is active. When the send port or send port group is in the started state, BizTalk Server delivers messages to the send port or send port group, and the send port or send port group processes them. Before you can start a send port or send port group, an administrator must use the BizTalk Administration Console to enlist the bound send port or send port group.  
   
--   **Stopped**. The send port or send port group is not currently running. If you started the send port or send port group and then stopped it, processing continues in the work queue. BizTalk Server sends all new messages routed to a stopped send port or send port group to the suspended queue of the host where the send handler is running.  
+- **Stopped**. The send port or send port group is not currently running. If you started the send port or send port group and then stopped it, processing continues in the work queue. BizTalk Server sends all new messages routed to a stopped send port or send port group to the suspended queue of the host where the send handler is running.  
   
- The following table shows the actions available from each state, and the result of each.  
+  The following table shows the actions available from each state, and the result of each.  
   
 ||Bound|Stopped|Started|  
 |------|-----------|-------------|-------------|  

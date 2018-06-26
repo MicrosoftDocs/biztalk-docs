@@ -22,11 +22,11 @@ manager: "anneta"
   
  Additionally, you must ensure that all of the nodes (server, lines, and bandwidth) are properly configured to avoid any data loss. Following are typical sample throughputs:  
   
--   Interact/Fileact Send under stressed computer: 20 messages/minute  
+- Interact/Fileact Send under stressed computer: 20 messages/minute  
   
--   Interact/Fileact Receive under stressed computer: 300-400 messages/minute  
+- Interact/Fileact Receive under stressed computer: 300-400 messages/minute  
   
- For more information, see your SWIFT documentation.  
+  For more information, see your SWIFT documentation.  
   
 ## Messages Not Pushed When Queue Is Open  
  When you are using InterAct or FileAct Store and Forward (SnF) mode, if the session with the queue is open and messages are not being pushed, then you must restart SNLreceiver.exe. This avoids an issue with SWIFT that can occur occasionally.  

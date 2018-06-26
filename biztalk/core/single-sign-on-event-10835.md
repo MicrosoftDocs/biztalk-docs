@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10835
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10835|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_MAPPING2|  
-|Message Text|The specified mapping could not be found.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10835                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                    ENTSSO_E_NO_MAPPING2                    |
+|  Message Text   |         The specified mapping could not be found.          |
   
 ## Explanation  
  The specified mapping could not be found.  

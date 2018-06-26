@@ -19,21 +19,21 @@ To implement BAM solutions using the BAM eventing APIs or configure your Windows
   
 ### To install the BAM-Eventing software  
   
-1.  Log on to the computer that will host the WF application using an account that has Administrator privileges.  
+1. Log on to the computer that will host the WF application using an account that has Administrator privileges.  
   
-2.  Run the Setup program on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Installation CD.  
+2. Run the Setup program on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Installation CD.  
   
-3.  Clear all selected options. If you do not perform this step, you may install software you do not need.  
+3. Clear all selected options. If you do not perform this step, you may install software you do not need.  
   
-4.  Expand **Additional Software**, and then select the **BAM-Eventing** check box.  
+4. Expand **Additional Software**, and then select the **BAM-Eventing** check box.  
   
-5.  Click **Next**.  
+5. Click **Next**.  
   
-6.  Click **Install**.  
+6. Click **Install**.  
   
-7.  When the installation procedure is complete, click **OK**.  
+7. When the installation procedure is complete, click **OK**.  
   
-     The BAM-Eventing software is now installed.  
+    The BAM-Eventing software is now installed.  
   
 > [!NOTE]
 >  Installing the BAM interceptor library using this method does not require the purchase of additional licenses.  
@@ -42,15 +42,15 @@ To implement BAM solutions using the BAM eventing APIs or configure your Windows
   
 ### To register BAM interceptor performance counters by using InstallUtil.exe  
   
-1.  Start **[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command Prompt** as an administrator.  
+1. Start **[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command Prompt** as an administrator.  
   
-2.  At the command prompt, enter the following command:  
+2. At the command prompt, enter the following command:  
   
-     InstallUtil [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\Microsoft.BizTalk.Bam.Interceptors.dll  
+    InstallUtil [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\Microsoft.BizTalk.Bam.Interceptors.dll  
   
-3.  Type **Exit**, and then press ENTER to close the command prompt.  
+3. Type **Exit**, and then press ENTER to close the command prompt.  
   
-     The BAM interceptor performance counters are now available.  
+    The BAM interceptor performance counters are now available.  
   
 > [!NOTE]
 >  By default, only Administrators and some system accounts have permission to log performance data. To enable access on [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], add the account used for running workflow applications to the Performance Log Users group.  

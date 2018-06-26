@@ -21,75 +21,75 @@ The Construct Messages hold messages assignments with the instructions for the B
   
 ### To configure the Construct Message shape  
   
-1.  Drag a Construct Message shape inbetween ReceiveBeginDoc and SendBeginDoc.  
+1. Drag a Construct Message shape inbetween ReceiveBeginDoc and SendBeginDoc.  
   
-    -   **Messages Constructed:** BeginDocSessionMsg  
+   -   **Messages Constructed:** BeginDocSessionMsg  
   
-    -   **Name:** ConstructBeginDocMessageWithSession  
+   -   **Name:** ConstructBeginDocMessageWithSession  
   
-    1.  Drag a Message Assignment shape into your orchestration where you want to create a new message.  
+   1.  Drag a Message Assignment shape into your orchestration where you want to create a new message.  
   
-    2.  Double-click the inner MessageAssignment_1 shape.  
+   2.  Double-click the inner MessageAssignment_1 shape.  
   
-         The BizTalk Expression Editor appears.  
+        The BizTalk Expression Editor appears.  
   
-    3.  Type in your code, for example:  
+   3.  Type in your code, for example:  
   
-    ```  
-    BeginDocSessionMsg = BeginDocMsg;  
-    BeginDocSessionMsg(JDE.ReserveSession) = true;  
-    BeginDocSessionMsg(JDE.SessionID) = 0;  
-    ```  
+   ```  
+   BeginDocSessionMsg = BeginDocMsg;  
+   BeginDocSessionMsg(JDE.ReserveSession) = true;  
+   BeginDocSessionMsg(JDE.SessionID) = 0;  
+   ```  
   
-     This tells the adapter you want to start a session. The SessionID is initialized as 0 but when the response comes back the ID will be assigned by the J.D. Edwards OneWorld Server.  
+    This tells the adapter you want to start a session. The SessionID is initialized as 0 but when the response comes back the ID will be assigned by the J.D. Edwards OneWorld Server.  
   
-     ![](../core/media/jde-message-expression-editor.gif "JDE_message_expression_editor")  
+    ![](../core/media/jde-message-expression-editor.gif "JDE_message_expression_editor")  
   
-2.  Drag a Construct Message before SendEditLine.  
+2. Drag a Construct Message before SendEditLine.  
   
-    -   **Messages Constructed:** EditLineSessionMsg  
+   - **Messages Constructed:** EditLineSessionMsg  
   
-    -   **Name:** ConstructEditLineMessageWithSession  
+   - **Name:** ConstructEditLineMessageWithSession  
   
      ![](../core/media/jde-constructoreditlinemessagewithsession.gif "JDE_constructoreditlinemessagewithsession")  
   
-    1.  Drag a Message Assignment shape into your orchestration where you want to create a new message.  
+   1.  Drag a Message Assignment shape into your orchestration where you want to create a new message.  
   
-    2.  Double-click the inner MessageAssignment_1 shape.  
+   2.  Double-click the inner MessageAssignment_1 shape.  
   
-         The BizTalk Expression Editor appears.  
+        The BizTalk Expression Editor appears.  
   
-    3.  Type in your code, for example:  
+   3.  Type in your code, for example:  
   
-    ```  
-    EditLineSessionMsg = EditLineMsg;  
-    EditLineSessionMsg(JDE.ReserveSession) = true;  
-    EditLineSessionMsg(JDE.SessionID) =  
-       BeginDocResponseMsg(JDE.SessionID);  
-    ```  
+   ```  
+   EditLineSessionMsg = EditLineMsg;  
+   EditLineSessionMsg(JDE.ReserveSession) = true;  
+   EditLineSessionMsg(JDE.SessionID) =  
+      BeginDocResponseMsg(JDE.SessionID);  
+   ```  
   
-     ![](../core/media/jde-editline-editor.gif "JDE_editline_editor")  
+    ![](../core/media/jde-editline-editor.gif "JDE_editline_editor")  
   
-3.  Drag a Construct Message before SendEndDoc.  
+3. Drag a Construct Message before SendEndDoc.  
   
-    -   **Messages Constructed:** EndDocSessionMsg  
+   -   **Messages Constructed:** EndDocSessionMsg  
   
-    -   **Name:** ConstructEndDocMessageWithSession  
+   -   **Name:** ConstructEndDocMessageWithSession  
   
-    1.  Drag a Message Assignment shape into your orchestration where you want to create a new message.  
+   1.  Drag a Message Assignment shape into your orchestration where you want to create a new message.  
   
-    2.  Double-click the inner MessageAssignment_1 shape.  
+   2.  Double-click the inner MessageAssignment_1 shape.  
   
-         The BizTalk Expression Editor appears.  
+        The BizTalk Expression Editor appears.  
   
-    3.  Type in your code, for example:  
+   3.  Type in your code, for example:  
   
-    ```  
-    EndDocSessionMsg = EndDocMsg;  
-    EndDocSessionMsg(JDE.ReserveSession) = false;  
-    EndDocSessionMsg(JDE.SessionID) =  
-       BeginDocResponseMsg(JDE.SessionID);  
-    ```  
+   ```  
+   EndDocSessionMsg = EndDocMsg;  
+   EndDocSessionMsg(JDE.ReserveSession) = false;  
+   EndDocSessionMsg(JDE.SessionID) =  
+      BeginDocResponseMsg(JDE.SessionID);  
+   ```  
   
 ## See Also  
  [Task 1: Create the Ports](../core/task-1-create-the-ports2.md)   

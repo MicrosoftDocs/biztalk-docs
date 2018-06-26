@@ -43,10 +43,10 @@ INTEGER locality 
 ## Remarks  
  The *function* parameter can have one of three values:  
   
--   0—Message received.  
+- 0—Message received.  
   
--   SBLOST—Contact lost with local node; L-value of locality.  
+- SBLOST—Contact lost with local node; L-value of locality.  
   
--   SBTICK—Base timer has expired; occurs every five seconds.  
+- SBTICK—Base timer has expired; occurs every five seconds.  
   
- For suggested usage of this function, see [Sample Code for SNALinkDispatchProc](./sample-code-for-snalinkdispatchproc2.md).
+  For suggested usage of this function, see [Sample Code for SNALinkDispatchProc](./sample-code-for-snalinkdispatchproc2.md).

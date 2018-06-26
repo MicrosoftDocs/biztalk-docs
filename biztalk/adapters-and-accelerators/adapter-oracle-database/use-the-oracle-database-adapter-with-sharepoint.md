@@ -20,19 +20,19 @@ The WCF Adapter Service Development Wizard for [!INCLUDE[btsVStudioNoVersion_md]
 ## SharePoint Operation Support  
  The Adapter Service Development wizard generates a special service contract for the Oracle adapters that is compatible with Microsoft SharePoint. The wizard will generate a service contract which includes the following operations for integrating the adapter with Microsoft SharePoint:  
   
--   **Create:** Supported by the CreateItem_ operation.  
+- **Create:** Supported by the CreateItem_ operation.  
   
--   **Read:** Supported by the ReadItem_ operation.  
+- **Read:** Supported by the ReadItem_ operation.  
   
--   **Update:** Supported by the UpdateItem_ operation.  
+- **Update:** Supported by the UpdateItem_ operation.  
   
--   **Delete:** Supported by the DeleteItem_ operation.  
+- **Delete:** Supported by the DeleteItem_ operation.  
   
--   **Query:** Supported by the ReadList operation.  
+- **Query:** Supported by the ReadList operation.  
   
--   **Associate:** Supported by the Associate_ operation.  
+- **Associate:** Supported by the Associate_ operation.  
   
- The following service contract was generated using for the Microsoft BizTalk Adapter for Oracle Database as an example. The adapter is configured to provide access to the EMP table  
+  The following service contract was generated using for the Microsoft BizTalk Adapter for Oracle Database as an example. The adapter is configured to provide access to the EMP table  
   
 ```  
     [System.ServiceModel.ServiceContractAttribute()]  
@@ -73,24 +73,24 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 #### Create the New Web Site Project  
   
-1.  Open Visual Studio.   
+1. Open Visual Studio.   
   
-2.  In Visual Studio, on the **File** menu, select **New** and then click **Project**.  
+2. In Visual Studio, on the **File** menu, select **New** and then click **Project**.  
   
-3.  In the **New Project** dialog box, expand **Other Languages** and click **Visual C#**. Find the **WCF Adapter Service** in the template list and click it to select it.  
+3. In the **New Project** dialog box, expand **Other Languages** and click **Visual C#**. Find the **WCF Adapter Service** in the template list and click it to select it.  
   
-    > [!NOTE]
-    >  The **WCF Adapter Service** template is not available if the [!INCLUDE[adapterpackcurrent](../../includes/adapterpackcurrent-md.md)] is not installed. On x64 systems, install both the x86 and x64 versions of the [!INCLUDE[adapterpackcurrent](../../includes/adapterpackcurrent-md.md)].  
+   > [!NOTE]
+   >  The **WCF Adapter Service** template is not available if the [!INCLUDE[adapterpackcurrent](../../includes/adapterpackcurrent-md.md)] is not installed. On x64 systems, install both the x86 and x64 versions of the [!INCLUDE[adapterpackcurrent](../../includes/adapterpackcurrent-md.md)].  
   
-4.  Specify **ScottEMP** for the name, and then click **OK**. The **WCF Adapter Service Development Wizard** starts.  
+4. Specify **ScottEMP** for the name, and then click **OK**. The **WCF Adapter Service Development Wizard** starts.  
   
-5.  On the **Introduction** page, click **Next**.  
+5. On the **Introduction** page, click **Next**.  
   
-6.  On the **Choose Operations** page, specify the **oracleDBBinding** binding.  
+6. On the **Choose Operations** page, specify the **oracleDBBinding** binding.  
   
-7.  Click the **Configure** button. The **Configure Adapter** dialog is displayed.  
+7. Click the **Configure** button. The **Configure Adapter** dialog is displayed.  
   
-8.  On the **Security** tab, select **Username** in the **Client credential type** dropdown list box.  
+8. On the **Security** tab, select **Username** in the **Client credential type** dropdown list box.  
   
 9. Enter **SCOTT** for the User name and enter the correct password for the SCOTT account. The default password for the SCOTT account is **tiger**.  
   

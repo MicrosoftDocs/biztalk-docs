@@ -37,13 +37,13 @@ SELECT COUNT(*) FROM Employee
   
  As part of the polling statement, perform the following operations:  
   
--   Select all the rows from the Employee table.  
+- Select all the rows from the Employee table.  
   
--   Execute a stored procedure (MOVE_EMP_DATA) to move all the records from the Employee table to an EmployeeHistory table.  
+- Execute a stored procedure (MOVE_EMP_DATA) to move all the records from the Employee table to an EmployeeHistory table.  
   
--   Execute a stored procedure (ADD_EMP_DETAILS) to add a new record to the Employee table. This procedure takes the employee name, designation, and salary as parameters.  
+- Execute a stored procedure (ADD_EMP_DETAILS) to add a new record to the Employee table. This procedure takes the employee name, designation, and salary as parameters.  
   
- To perform these operations, you must specify the following for the **PollingStatement** binding property:  
+  To perform these operations, you must specify the following for the **PollingStatement** binding property:  
   
 ```  
 SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100000   
@@ -57,35 +57,35 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 > [!NOTE]
 >  You may choose to specify these binding properties when generating the schema for the **Polling** operation, even though it is not mandatory. If you do so, the port binding file that the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] generates as part of the metadata generation also contains the values you specify for the binding properties. You can later import this binding file in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create the WCF-custom or WCF-SQL receive port with the binding properties already set. For more information about creating a port using the binding file, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).  
   
-|Binding Property|Description|  
-|---|---|  
-|**InboundOperationType**|Specifies whether you want to perform **Polling**, **TypedPolling**, or **Notification** inbound operation. Default is **Polling**.|  
-|**PolledDataAvailableStatement**|Specifies the SQL statement that the adapter executes to determine whether any data is available for polling. The SQL statement must return a result set consisting of rows and columns. Only if a row is available, the SQL statement specified for the **PollingStatement** binding property will be executed.|  
-|**PollingIntervalInSeconds**|Specifies the interval, in seconds, at which the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] executes the statement specified for the **PolledDataAvailableStatement** binding property. The default is 30 seconds. The polling interval determines the time interval between successive polls. If the statement is executed within the specified interval, the adapter waits for the remaining time in the interval.|  
-|**PollingStatement**|Specifies the SQL statement to poll the SQL Server database table. You can specify a simple SELECT statement or a stored procedure for the polling statement. The default is null. You must specify a value for **PollingStatement** to enable polling. The polling statement is executed only if there is data available for polling, which is determined by the **PolledDataAvailableStatement** binding property. You can specify any number of SQL statements separated by a semi-colon.|  
-|**PollWhileDataFound**|Specifies whether the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] ignores the polling interval and continuously executes the SQL statement specified for the **PolledDataAvailableStatement** binding property, if data is available in the table being polled. If no data is available in the table, the adapter reverts to execute the SQL statement at the specified polling interval. Default is **false**.|  
+|         Binding Property         |                                                                                                                                                                                                                                         Description                                                                                                                                                                                                                                          |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     **InboundOperationType**     |                                                                                                                                                                             Specifies whether you want to perform **Polling**, **TypedPolling**, or **Notification** inbound operation. Default is **Polling**.                                                                                                                                                                              |
+| **PolledDataAvailableStatement** |                                                                                       Specifies the SQL statement that the adapter executes to determine whether any data is available for polling. The SQL statement must return a result set consisting of rows and columns. Only if a row is available, the SQL statement specified for the **PollingStatement** binding property will be executed.                                                                                       |
+|   **PollingIntervalInSeconds**   |                         Specifies the interval, in seconds, at which the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] executes the statement specified for the **PolledDataAvailableStatement** binding property. The default is 30 seconds. The polling interval determines the time interval between successive polls. If the statement is executed within the specified interval, the adapter waits for the remaining time in the interval.                          |
+|       **PollingStatement**       | Specifies the SQL statement to poll the SQL Server database table. You can specify a simple SELECT statement or a stored procedure for the polling statement. The default is null. You must specify a value for **PollingStatement** to enable polling. The polling statement is executed only if there is data available for polling, which is determined by the **PolledDataAvailableStatement** binding property. You can specify any number of SQL statements separated by a semi-colon. |
+|      **PollWhileDataFound**      |                            Specifies whether the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] ignores the polling interval and continuously executes the SQL statement specified for the **PolledDataAvailableStatement** binding property, if data is available in the table being polled. If no data is available in the table, the adapter reverts to execute the SQL statement at the specified polling interval. Default is **false**.                             |
   
  For a more complete description of these properties, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). For a complete description of how to use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to poll SQL Server, read further.  
   
 ## How to Receive Data-change Messages from the SQL Server Database  
  Performing an operation on the SQL Server database using [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves the procedural tasks described in [Building blocks to develop BizTalk applications with the SQL adapter](../../adapters-and-accelerators/adapter-sql/building-blocks-to-develop-biztalk-applications-with-the-sql-adapter.md). To configure the adapter to receive data-change messages, these tasks are:  
   
-1.  Create a BizTalk project, and then generate schema for the **Polling** operation. Optionally, you can specify values for the **PolledDataAvailableStatement** and **PollingStatement** binding properties.  
+1. Create a BizTalk project, and then generate schema for the **Polling** operation. Optionally, you can specify values for the **PolledDataAvailableStatement** and **PollingStatement** binding properties.  
   
-2.  Create a message in the BizTalk project for receiving messages from the SQL Server database.  
+2. Create a message in the BizTalk project for receiving messages from the SQL Server database.  
   
-3.  Create an orchestration to receive messages from the SQL Server database and to save them to a folder.  
+3. Create an orchestration to receive messages from the SQL Server database and to save them to a folder.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-    > [!IMPORTANT]
-    >  For inbound polling scenarios you must always configure a one-way WCF-Custom or WCF-SQL receive port. Two-way WCF-Custom or WCF-SQL receive ports are not supported for inbound operations.  
+   > [!IMPORTANT]
+   >  For inbound polling scenarios you must always configure a one-way WCF-Custom or WCF-SQL receive port. Two-way WCF-Custom or WCF-SQL receive ports are not supported for inbound operations.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Generating Schema  
  You must generate the schema for the **Polling** operation. See [Retrieving Metadata for SQL Server Operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md) for more information about how to generate the schema. Perform the following tasks when generating the schema. Skip the first step if you do not want to specify the binding properties at design-time.  
@@ -125,18 +125,18 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 ## Setting up the Orchestration  
  You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for receiving polling-based data-change messages from the SQL Server database. In this orchestration, the adapter receives the response of the select statement specified for the **PollingStatement** binding property. The response for the SELECT statement is saved to a FILE location. A typical orchestration for polling a SQL Server database would contain:  
   
--   Receive and Send shapes to receive messages from SQL Server and send to a FILE port, respectively.  
+- Receive and Send shapes to receive messages from SQL Server and send to a FILE port, respectively.  
   
--   A one-way receive port to receive messages from SQL Server.  
+- A one-way receive port to receive messages from SQL Server.  
   
-    > [!IMPORTANT]
-    >  For inbound polling scenarios you must always configure a one-way receive port. Two-way receive ports are not supported for inbound operations.  
+  > [!IMPORTANT]
+  >  For inbound polling scenarios you must always configure a one-way receive port. Two-way receive ports are not supported for inbound operations.  
   
--   A one-way send port to send polling responses from a SQL Server database to a folder.  
+- A one-way send port to send polling responses from a SQL Server database to a folder.  
   
- A sample orchestration resembles the following.  
+  A sample orchestration resembles the following.  
   
- ![Orchestration for polling a SQL Server database](../../adapters-and-accelerators/adapter-sql/media/5cf65d53-d70d-444d-82f7-2561efcd9ee4.gif "5cf65d53-d70d-444d-82f7-2561efcd9ee4")  
+  ![Orchestration for polling a SQL Server database](../../adapters-and-accelerators/adapter-sql/media/5cf65d53-d70d-444d-82f7-2561efcd9ee4.gif "5cf65d53-d70d-444d-82f7-2561efcd9ee4")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
@@ -171,27 +171,27 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the messages from the SQL Server database. These messages will be in response to the polling statement that you specify for the receive port.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the messages from the SQL Server database. These messages will be in response to the polling statement that you specify for the receive port.  
   
-    -   Define a physical WCF-Custom or WCF-SQL one-way receive port. This port polls the SQL Server database with the polling statement you specify for the port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md). Make sure you specify the following binding properties for the receive port.  
+  - Define a physical WCF-Custom or WCF-SQL one-way receive port. This port polls the SQL Server database with the polling statement you specify for the port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md). Make sure you specify the following binding properties for the receive port.  
   
-        > [!IMPORTANT]
-        >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a WCF-custom or WCF-SQL receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).  
+    > [!IMPORTANT]
+    >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a WCF-custom or WCF-SQL receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).  
   
-        |Binding Property|Value|  
-        |----------------------|-----------|  
-        |**InboundOperationType**|Make sure you set this to **Polling**.|  
-        |**PolledDataAvailableStatement**|Make sure you specify a SQL statement. For this topic, specify:<br /><br /> `SELECT COUNT(*) FROM Employee`|  
-        |**PollingStatement**|Make sure you specify the polling statement. For this topic, specify:<br /><br /> `SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100000`|  
+    |Binding Property|Value|  
+    |----------------------|-----------|  
+    |**InboundOperationType**|Make sure you set this to **Polling**.|  
+    |**PolledDataAvailableStatement**|Make sure you specify a SQL statement. For this topic, specify:<br /><br /> `SELECT COUNT(*) FROM Employee`|  
+    |**PollingStatement**|Make sure you specify the polling statement. For this topic, specify:<br /><br /> `SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100000`|  
   
-         For more information about the different binding properties, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
+     For more information about the different binding properties, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
   
-        > [!NOTE]
-        >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-SQL receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout with SQL](../../adapters-and-accelerators/adapter-sql/configure-transaction-isolation-level-and-transaction-timeout-with-sql.md).  
+    > [!NOTE]
+    >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-SQL receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout with SQL](../../adapters-and-accelerators/adapter-sql/configure-transaction-isolation-level-and-transaction-timeout-with-sql.md).  
   
 ## Starting the Application  
  You must start the BizTalk application for receiving messages from the SQL Server database. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).  
@@ -207,101 +207,101 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 ## Executing the Operation  
  After you run the application, the following set of actions take place, in the same sequence:  
   
--   The adapter executes the **PolledDataAvailableStatement** on the Employee table and determines that the table has records for polling.  
+- The adapter executes the **PolledDataAvailableStatement** on the Employee table and determines that the table has records for polling.  
   
--   The adapter executes the polling statement. Because the polling statement consists of a SELECT statement and stored procedures, the adapter will execute all the statements one after the other.  
+- The adapter executes the polling statement. Because the polling statement consists of a SELECT statement and stored procedures, the adapter will execute all the statements one after the other.  
   
-    -   The adapter first executes the SELECT statement that returns all the records in the Employee table.  
+  - The adapter first executes the SELECT statement that returns all the records in the Employee table.  
   
-    -   The adapter then executes the MOVE_EMP_DATA stored procedure that moves all data from the Employee table to the EmployeeHistory table. This stored procedure does not return any value.  
+  - The adapter then executes the MOVE_EMP_DATA stored procedure that moves all data from the Employee table to the EmployeeHistory table. This stored procedure does not return any value.  
   
-    -   The adapter then executes the ADD_EMP_DETAILS stored procedure that adds one record to the Employee table. This stored procedure returns the Employee ID for the inserted record.  
+  - The adapter then executes the ADD_EMP_DETAILS stored procedure that adds one record to the Employee table. This stored procedure returns the Employee ID for the inserted record.  
   
-     So, the message received from SQL Server will contain multiple result sets (for SELECT statement and for ADD_EMP_DETAILS stored procedure), and will resemble the following:  
+    So, the message received from SQL Server will contain multiple result sets (for SELECT statement and for ADD_EMP_DETAILS stored procedure), and will resemble the following:  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8" ?>   
-    <Polling xmlns="http://schemas.microsoft.com/Sql/2008/05/Polling/">  
-      <PolledData>  
-        <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-          <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-            <xs:element msdata:IsDataSet="true" name="NewDataSet">  
-              <xs:complexType>  
-                <xs:sequence>  
-                  <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                    <xs:complexType>  
-                      <xs:sequence>  
-                        <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                        <xs:element minOccurs="0" name="Name" type="xs:string" />   
-                        <xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
-                        <xs:element minOccurs="0" name="Designation" type="xs:string" />   
-                        <xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
-                        <xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
-                        <xs:element minOccurs="0" name="Rating" type="xs:string" />   
-                        <xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
-                        <xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
-                      </xs:sequence>  
-                    </xs:complexType>  
-                  </xs:element>  
-                </xs:sequence>  
-              </xs:complexType>  
-            </xs:element>  
-          </xs:schema>  
-          <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
-            <NewDataSet xmlns="">  
-              <NewTable>  
-                <Employee_ID>10001</Employee_ID>   
-                <Name>John</Name>   
-                <Designation>Tester</Designation>   
-                <Salary>100000.00</Salary>   
-                <Last_Modified>AAAAAAAAF34=</Last_Modified>   
-              </NewTable>  
-              ........  
-              ........  
-              <NewTable>  
-                <Employee_ID>10005</Employee_ID>   
-                <Name>Wilson</Name>   
-                <Designation>Tester3</Designation>   
-                <Salary>100000.00</Salary>   
-                <Last_Modified>AAAAAAAAF4E=</Last_Modified>   
-              </NewTable>  
-            </NewDataSet>  
-          </diffgr:diffgram>  
-        </DataSet>  
-        <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-          <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-            <xs:element msdata:IsDataSet="true" name="NewDataSet">  
-              <xs:complexType>  
-                <xs:sequence>  
-                  <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                    <xs:complexType>  
-                      <xs:sequence>  
-                        <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                      </xs:sequence>  
-                    </xs:complexType>  
-                  </xs:element>  
-                </xs:sequence>  
-              </xs:complexType>  
-            </xs:element>  
-          </xs:schema>  
-          <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
-            <NewDataSet xmlns="">  
-              <NewTable>  
-                <Employee_ID>10006</Employee_ID>  
-              </NewTable>  
-            </NewDataSet>  
-          </diffgr:diffgram>  
-        </DataSet>  
-      </PolledData>  
-    </Polling>  
-    ```  
+  ```  
+  <?xml version="1.0" encoding="utf-8" ?>   
+  <Polling xmlns="http://schemas.microsoft.com/Sql/2008/05/Polling/">  
+    <PolledData>  
+      <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
+        <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+          <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+            <xs:complexType>  
+              <xs:sequence>  
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                  <xs:complexType>  
+                    <xs:sequence>  
+                      <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                      <xs:element minOccurs="0" name="Name" type="xs:string" />   
+                      <xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
+                      <xs:element minOccurs="0" name="Designation" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
+                      <xs:element minOccurs="0" name="Rating" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
+                      <xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
+                    </xs:sequence>  
+                  </xs:complexType>  
+                </xs:element>  
+              </xs:sequence>  
+            </xs:complexType>  
+          </xs:element>  
+        </xs:schema>  
+        <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+          <NewDataSet xmlns="">  
+            <NewTable>  
+              <Employee_ID>10001</Employee_ID>   
+              <Name>John</Name>   
+              <Designation>Tester</Designation>   
+              <Salary>100000.00</Salary>   
+              <Last_Modified>AAAAAAAAF34=</Last_Modified>   
+            </NewTable>  
+            ........  
+            ........  
+            <NewTable>  
+              <Employee_ID>10005</Employee_ID>   
+              <Name>Wilson</Name>   
+              <Designation>Tester3</Designation>   
+              <Salary>100000.00</Salary>   
+              <Last_Modified>AAAAAAAAF4E=</Last_Modified>   
+            </NewTable>  
+          </NewDataSet>  
+        </diffgr:diffgram>  
+      </DataSet>  
+      <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
+        <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+          <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+            <xs:complexType>  
+              <xs:sequence>  
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                  <xs:complexType>  
+                    <xs:sequence>  
+                      <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                    </xs:sequence>  
+                  </xs:complexType>  
+                </xs:element>  
+              </xs:sequence>  
+            </xs:complexType>  
+          </xs:element>  
+        </xs:schema>  
+        <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+          <NewDataSet xmlns="">  
+            <NewTable>  
+              <Employee_ID>10006</Employee_ID>  
+            </NewTable>  
+          </NewDataSet>  
+        </diffgr:diffgram>  
+      </DataSet>  
+    </PolledData>  
+  </Polling>  
+  ```  
   
-     The preceding response contains two data sets. The first data set contains the response for the SELECT statement. The SELECT statement selects all the records in the Employee table. The second data set is for the ADD_EMP_DETAILS stored procedure. This stored procedure adds a record to the Employee table and returns the employee ID for the new record.  
+   The preceding response contains two data sets. The first data set contains the response for the SELECT statement. The SELECT statement selects all the records in the Employee table. The second data set is for the ADD_EMP_DETAILS stored procedure. This stored procedure adds a record to the Employee table and returns the employee ID for the new record.  
   
-    > [!NOTE]
-    >  The MOVE_EMP_DATA stored procedure does not return a result set. So, there is no corresponding data set in the response message.  
+  > [!NOTE]
+  >  The MOVE_EMP_DATA stored procedure does not return a result set. So, there is no corresponding data set in the response message.  
   
--   When the adapter executes the **PollDataAvailableStatement** again, it finds one record that was inserted by the ADD_EMP_DETAILS stored procedure. The adapter then executes all three statements that are specified for the **PollingStatement** binding property. This time, the response from SQL Server contains just one record for the SELECT statement and one record for the ADD_EMP_DETAILS stored procedure. All subsequent polls will return similar responses.  
+- When the adapter executes the **PollDataAvailableStatement** again, it finds one record that was inserted by the ADD_EMP_DETAILS stored procedure. The adapter then executes all three statements that are specified for the **PollingStatement** binding property. This time, the response from SQL Server contains just one record for the SELECT statement and one record for the ADD_EMP_DETAILS stored procedure. All subsequent polls will return similar responses.  
   
 > [!NOTE]
 >  The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] will continue to poll until you explicitly disable the receive port from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  

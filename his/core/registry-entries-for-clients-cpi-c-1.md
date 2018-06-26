@@ -16,33 +16,33 @@ manager: "anneta"
 # Registry Entries for Clients (CPI-C)
 The following list gives details about registry entries for client computers. For each transaction program (TP) type, the applicable variables and their locations are shown in [Configuring Clients to Support TPs (CPI-C)](../core/configuring-clients-to-support-tps-cpi-c-1.md).  
   
- **OtherDependencies:**REG_MULTI_SZ:SnaBase  
+ <strong>OtherDependencies:</strong>REG_MULTI_SZ:SnaBase  
  For a TP running as a service, ensures that the SnaBase service is started before the TP is started. This entry belongs under the **Linkage** subkey.  
   
- **SNAServiceType:**REG_DWORD:{ 0x5 &#124; 0x6 &#124; 0x1A }  
+ <strong>SNAServiceType:</strong>REG_DWORD:{ 0x5 &#124; 0x6 &#124; 0x1A }  
  Indicates the type of TP. Use a value of 0x5 for an autostarted queued TP, 0x6 for an autostarted nonqueued TP, and 0x1A for an operator-started TP.  
   
  Note that the value for an autostarted TP running as a service must be 0x5, because these TPs are always queued, as described in [Invokable TPs](../core/invokable-tps-cpi-c-2.md).  
   
- **PathName:**REG_EXPAND_SZ: *path*  
+ <strong>PathName:</strong>REG_EXPAND_SZ: *path*  
  For an autostarted TP running as an application, specifies the path and file name of the TP. The data type of REG_EXPAND_SZ means that the path can contain an expandable data string For example, %SystemRoot% represents the directory containing the Windows system files. Note that for a TP running as a service, an equivalent entry is inserted by the **CreateService** call. No additional path entry is needed.  
   
- **LocalLU:**REG_SZ: *LUalias*  
+ <strong>LocalLU:</strong>REG_SZ: *LUalias*  
  Specifies the alias of the local LU to be used when this TP is started on this computer.  
   
- **Parameters:**REG_SZ: *ParameterList*  
+ <strong>Parameters:</strong>REG_SZ: *ParameterList*  
  Lists parameters to be used by the TP. Separate parameters with spaces.  
   
- **Timeout:**REG_DWORD: *number*  
+ <strong>Timeout:</strong>REG_DWORD: *number*  
  Specifies the time, in milliseconds, that an [Accept_Conversation](./accept-conversation-cpi-c-2.md) will wait before timing out. Specify *number* in decimal. The registry editor converts this to hexadecimal before displaying it. The default is infinity (no limit).  
   
- **AcceptNames:**REG_SZ: *TPNameList*  
+ <strong>AcceptNames:</strong>REG_SZ: *TPNameList*  
  Lists additional names under which the invokable TP can be invoked. Separate TP names with spaces. The default is none. If an invokable TP does not issue a [Specify_Local_TP_Name](./specify-local-tp-name-cpi-c-2.md) for each name configured under AcceptNames in the registry, that TP will fail.  
   
- **ConversationSecurity:**REG_SZ:{ YES &#124; NO }  
+ <strong>ConversationSecurity:</strong>REG_SZ:{ YES &#124; NO }  
  Indicates whether this TP supports conversation security. The default is NO.  
   
- **AlreadyVerified:**REG_SZ:{ YES &#124; NO }  
+ <strong>AlreadyVerified:</strong>REG_SZ:{ YES &#124; NO }  
  Indicates whether this TP can be invoked with a user identifier and password that have already been verified. **AlreadyVerified** is ignored if **ConversationSecurity** is set to NO.  
   
  For a diagram of three TPs in a conversation, where the third TP can be invoked with a password that is already verified by the second TP, see [Communication Between TPs](../core/communication-between-tps-cpi-c-2.md). The following table shows the requirements for using password verification in a chain of TPs.  

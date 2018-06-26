@@ -18,23 +18,23 @@ After you have defined the settings for transferring files, you can send a file 
   
  **To type the name of a specific file**  
   
-1.  On the **Transfer** menu, click **Send File** or **Receive File**. Either the Send File dialog box or Receive File dialog box appears.  
+1. On the **Transfer** menu, click **Send File** or **Receive File**. Either the Send File dialog box or Receive File dialog box appears.  
   
-2.  In the **PC File Name** box, type the name of the file to send or receive. Note that when receiving a file from the host application, if you type the name of an existing PC file, it will be overwritten by the host file.  
+2. In the **PC File Name** box, type the name of the file to send or receive. Note that when receiving a file from the host application, if you type the name of an existing PC file, it will be overwritten by the host file.  
   
-3.  To review your settings, click **Settings**.  
+3. To review your settings, click **Settings**.  
   
- **To browse through a list of available files**  
+   **To browse through a list of available files**  
   
-1.  On the **Transfer** menu, click **Send File** or **Receive File**. Either the Send File dialog box or Receive File dialog box appears.  
+4. On the **Transfer** menu, click **Send File** or **Receive File**. Either the Send File dialog box or Receive File dialog box appears.  
   
-2.  Click **Browse**. The **Open** dialog box appears.  
+5. Click **Browse**. The **Open** dialog box appears.  
   
-3.  In the **File Name** list, select the file you want to send or receive. To see files of another type, select the type from the **List Files of Type** box.  
+6. In the **File Name** list, select the file you want to send or receive. To see files of another type, select the type from the **List Files of Type** box.  
   
-4.  Click **OK**. The Send File or Receive File dialog box reappears with your selection in the PC File Name box.  
+7. Click **OK**. The Send File or Receive File dialog box reappears with your selection in the PC File Name box.  
   
-5.  To review your settings, click **Settings**; to continue.  
+8. To review your settings, click **Settings**; to continue.  
   
 ## See Also  
  [3270 Client](../core/3270-client2.md)

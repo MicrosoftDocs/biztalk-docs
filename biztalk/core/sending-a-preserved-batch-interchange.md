@@ -25,15 +25,15 @@ When the EDI send pipeline processes an outbound preserved batch interchange, it
 ## Send-Side Processing  
  When the EDI Assembler processes a preserved interchange, it normally uses the same interchange, group, and transaction-set headers that existed in the batched interchange when it was received.  
   
--   For X12 interchanges, the property settings on different pages in the one-way agreement tab in the **Agreement Properties** dialog box (which determine how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will create the ISA, GS, and ST headers of an outgoing interchange) do not normally apply.  
+- For X12 interchanges, the property settings on different pages in the one-way agreement tab in the **Agreement Properties** dialog box (which determine how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will create the ISA, GS, and ST headers of an outgoing interchange) do not normally apply.  
   
--   For EDIFACT interchanges, the UNA settings in the agreement properties are normally used. The UNA segment is optional in an EDIFACT-encoded message, but it is required for serializing a preserved batch interchange. If there is no value for the UNA segment in the XML instance, the default property values for the send pipeline component will be used. If the send pipeline component properties are not valued, then the preserved batch intermediate XML message will be suspended.  
+- For EDIFACT interchanges, the UNA settings in the agreement properties are normally used. The UNA segment is optional in an EDIFACT-encoded message, but it is required for serializing a preserved batch interchange. If there is no value for the UNA segment in the XML instance, the default property values for the send pipeline component will be used. If the send pipeline component properties are not valued, then the preserved batch intermediate XML message will be suspended.  
   
--   If you promote the `EDI.PopulateInterchangeValues` context property to "True" on the interchange being preserved (in a custom component), the EdiAssembler in the send port will populate all of the interchange, group, and transaction-set headers to the values set in the agreement properties.  
+- If you promote the `EDI.PopulateInterchangeValues` context property to "True" on the interchange being preserved (in a custom component), the EdiAssembler in the send port will populate all of the interchange, group, and transaction-set headers to the values set in the agreement properties.  
   
--   If you promote the `EDIOverride.OverrideEdiHeader` context property to “True” on the interchange before it is processed by the send pipeline, you can override the envelope values for the outbound document by setting the appropriate `EDIOverride` context property values. For more information, see [Overriding EDI Headers](../core/overriding-edi-headers.md).  
+- If you promote the `EDIOverride.OverrideEdiHeader` context property to “True” on the interchange before it is processed by the send pipeline, you can override the envelope values for the outbound document by setting the appropriate `EDIOverride` context property values. For more information, see [Overriding EDI Headers](../core/overriding-edi-headers.md).  
   
- For a preserved interchange that has no errors, the Assembler will preserve the sequence of transaction sets in a group of the interchange and the sequence of groups in the interchange.  
+  For a preserved interchange that has no errors, the Assembler will preserve the sequence of transaction sets in a group of the interchange and the sequence of groups in the interchange.  
   
 > [!NOTE]
 >  You can send a preserved batch with an XML send pipeline. However, to do so requires that you change the namespace for the batch schema. For more information, see [Sending a Preserved Batch with an XML Send Pipeline](../core/sending-a-preserved-batch-with-an-xml-send-pipeline.md).  

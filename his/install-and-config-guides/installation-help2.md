@@ -22,25 +22,25 @@ Use this topic to navigate through the Installation user interface.
   
  We recommend that you read the Host Integration Server [Installation Guide](../install-and-config-guides/installation-guide1.md), which covers the following topics:  
   
--   System requirements  
+- System requirements  
   
--   Feature installation and configuration prerequisites  
+- Feature installation and configuration prerequisites  
   
--   Supported host systems  
+- Supported host systems  
   
--   Product installation and configuration (upgrades and setup options)  
+- Product installation and configuration (upgrades and setup options)  
   
--   Installing and configuring HIS and Enterprise Single Sign-on (ESSO)  
+- Installing and configuring HIS and Enterprise Single Sign-on (ESSO)  
   
--   Uninstalling HIS and ESSO  
+- Uninstalling HIS and ESSO  
   
- **Installation**  
+  **Installation**  
   
- Click **Host Integration Server** to close launch the Installation Wizard.  
+  Click **Host Integration Server** to close launch the Installation Wizard.  
   
- **Exit**  
+  **Exit**  
   
- Click **Exit** to close the Autorun program.  
+  Click **Exit** to close the Autorun program.  
   
 ## Welcome  
  The Installation Wizard for Host Integration Server is similar to other Windows-based applications. The Installation Wizard calls Windows Installer and coordinates the installation process from beginning to end, terminating when the last component is installed. If you do not have the software prerequisites installed, then the Installation Wizard will install them from the Web or a pre-downloaded CAB file.  
@@ -59,31 +59,31 @@ Use this topic to navigate through the Installation user interface.
   
  **Available Components**  
   
-1.  Select to install either **Server** or **Client** components. By default, the Installation Wizard pre-selects Server components.  
+1. Select to install either **Server** or **Client** components. By default, the Installation Wizard pre-selects Server components.  
   
-     When installing Server, you may choose whether to install Enterprise Single Sign-On. The Installation Wizard installs all other server components.  
+    When installing Server, you may choose whether to install Enterprise Single Sign-On. The Installation Wizard installs all other server components.  
   
-     When installing Client, you may not choose whether to install individual components. The Installation Wizard installs all client components.  
+    When installing Client, you may not choose whether to install individual components. The Installation Wizard installs all client components.  
   
-2.  Optionally, click the plus sign (+) to expand the list of available components. If a software perquisite is not present on the computer, then the Installation Wizard will disable a component and display a disabled empty checkbox.  
+2. Optionally, click the plus sign (+) to expand the list of available components. If a software perquisite is not present on the computer, then the Installation Wizard will disable a component and display a disabled empty checkbox.  
   
- **Description**  
+   **Description**  
   
- In the **Description** field, the Installation Wizard displays additional information on the available components.  
+   In the **Description** field, the Installation Wizard displays additional information on the available components.  
   
- **Space allocation**  
+   **Space allocation**  
   
- The Installation Wizard displays the space required to install the product. Optionally, click **Space Allocated Details** to view available space on the selected storage drive.  
+   The Installation Wizard displays the space required to install the product. Optionally, click **Space Allocated Details** to view available space on the selected storage drive.  
   
- **Install to**  
+   **Install to**  
   
-1.  Choose an installation path. By default, the Installation Wizard will install the product into the folder `C:\Program Files\Microsoft Host Integration Server 20xx\`. Click **Browse** to select a different installation folder.  
+3. Choose an installation path. By default, the Installation Wizard will install the product into the folder `C:\Program Files\Microsoft Host Integration Server 20xx\`. Click **Browse** to select a different installation folder.  
   
-2.  Click **Back** to return to the previous dialog.  
+4. Click **Back** to return to the previous dialog.  
   
-3.  Click **Cancel** to close the Installation Wizard.  
+5. Click **Cancel** to close the Installation Wizard.  
   
-4.  Click **Next** to continue with the installation process.  
+6. Click **Next** to continue with the installation process.  
   
 ## Installation Summary  
  **Summary**  

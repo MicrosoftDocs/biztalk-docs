@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Adapter Samples
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] includes several adapter samples in its Software Development Kit (SDK). This section provides detailed information about the functionality demonstrated by each adapter sample, instructions for building and running the sample, and the results that you can expect.  
+Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] includes several adapter samples in its Software Development Kit (SDK). This section provides detailed information about the functionality demonstrated by each adapter sample, instructions for building and running the sample, and the results that you can expect.  
   
 ## In This Section  
   

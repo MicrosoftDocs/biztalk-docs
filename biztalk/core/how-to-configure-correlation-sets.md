@@ -27,19 +27,19 @@ To configure your correlation set, you can select an existing correlation type, 
   
 ### To assign a correlation type to a correlation set  
   
--   Select an existing correlation type.  
+- Select an existing correlation type.  
   
-     \- Or -  
+   \- Or -  
   
-     Right-click the new correlation type and select **Configure Correlation Properties**.  
+   Right-click the new correlation type and select **Configure Correlation Properties**.  
   
-     \- Or -  
+   \- Or -  
   
-     Click the Ellipsis (**...**) button on **Correlation** Properties in the **Properties** window.  
+   Click the Ellipsis (**...**) button on **Correlation** Properties in the **Properties** window.  
   
-     The **Correlation Properties** dialog box comes up. Add properties that you want to include in your correlation set. If a correlation type was not already assigned to your correlation set, a new correlation type will be created.  
+   The **Correlation Properties** dialog box comes up. Add properties that you want to include in your correlation set. If a correlation type was not already assigned to your correlation set, a new correlation type will be created.  
   
- If a correlation type already exists for your correlation set, and you add or remove properties with the **Correlation Properties** dialog box, the existing correlation type will be modified.  
+  If a correlation type already exists for your correlation set, and you add or remove properties with the **Correlation Properties** dialog box, the existing correlation type will be modified.  
   
 #### To associate send and receive activities with a correlation set  
   

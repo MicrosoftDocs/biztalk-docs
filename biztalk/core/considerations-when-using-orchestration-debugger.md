@@ -28,11 +28,11 @@ Following are some things to consider when you work with the Orchestration Debug
 ## Tracking atomic scopes  
  An orchestration can contain atomic scopes to include calls to the Rule Engine. When you attach to an instance in the orchestration debugger, any atomic scopes in the orchestration instance will cause gaps to appear in the tracked events list. This happens for two reasons:  
   
--   Because events for the shapes inside atomic transactions do not get persisted until the scope commits  
+- Because events for the shapes inside atomic transactions do not get persisted until the scope commits  
   
--   The debugger reloads events onto the end of the list, so any gaps remain unfilled during the live session.  
+- The debugger reloads events onto the end of the list, so any gaps remain unfilled during the live session.  
   
- You can eliminate the gaps if you refresh the view.  
+  You can eliminate the gaps if you refresh the view.  
   
 > [!NOTE]
 >  You cannot set a breakpoint on shapes inside an atomic scope.  

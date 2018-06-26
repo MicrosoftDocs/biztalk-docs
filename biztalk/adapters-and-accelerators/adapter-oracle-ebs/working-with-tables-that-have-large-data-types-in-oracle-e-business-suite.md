@@ -17,37 +17,37 @@ manager: "anneta"
 # Working with tables that have large data types in Oracle E-Business Suite
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform operations on interface tables and views with large data types such as BLOB, CLOB, NCLOB, and BFILE.  
   
--   For columns of type BLOB, CLOB, and NCLOB the adapter enables clients to read as well as update data. The adapter exposes Read_\<LOBColName\> and Update_\<LOBColName\> operations to read and update data respectively, where \<LOBColName\> is the name of column with large data type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read and update operations for that interface table.  
+- For columns of type BLOB, CLOB, and NCLOB the adapter enables clients to read as well as update data. The adapter exposes Read_\<LOBColName\> and Update_\<LOBColName\> operations to read and update data respectively, where \<LOBColName\> is the name of column with large data type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read and update operations for that interface table.  
   
--   For columns of type BFILE, adapter clients can only read data. The adapter exposes Read_\<LOBColName\> operation to read data from columns of BFILE type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read operations for the interface table.  
+- For columns of type BFILE, adapter clients can only read data. The adapter exposes Read_\<LOBColName\> operation to read data from columns of BFILE type. If there is more than one column with large data type in a single interface table, the adapter exposes as many read operations for the interface table.  
   
- For more information about these operations, see [Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md). For information about message schemas for performing these operations, see [Message Schemas for Special LOB Operations](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-special-lob-operations1.md).  
+  For more information about these operations, see [Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md). For information about message schemas for performing these operations, see [Message Schemas for Special LOB Operations](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-special-lob-operations1.md).  
   
 ## How to Perform Operations on Columns with Large Data Types  
  Performing an operation on Oracle E-Business Suite by using [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create Oracle E-Business Suite applications](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md). To perform operations on interface tables and interface views in Oracle E-Business Suite that contain large data types, these tasks are:  
   
-1.  Create a BizTalk project, and generate schema for the operation (Read_\<LOBColName\> or Update_\<LOBColName\>) you want to invoke on a table or view.  
+1. Create a BizTalk project, and generate schema for the operation (Read_\<LOBColName\> or Update_\<LOBColName\>) you want to invoke on a table or view.  
   
-2.  Create messages in the BizTalk project for sending and receiving messages from the Oracle E-Business Suite.  
+2. Create messages in the BizTalk project for sending and receiving messages from the Oracle E-Business Suite.  
   
-3.  Create an orchestration to invoke the operation on the interface table or view.  
+3. Create an orchestration to invoke the operation on the interface table or view.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## How This Topic Demonstrates Reading and Writing Data Into Columns of Large Data Types  
  To demonstrate reading and writing data into columns of large data types, this topic provides instructions to create an orchestration that does the following:  
   
--   Update the PHOTO column (of BLOB data type) of the CUSTOMER table.  
+- Update the PHOTO column (of BLOB data type) of the CUSTOMER table.  
   
--   Read the value for the PHOTO column for the updated record.  
+- Read the value for the PHOTO column for the updated record.  
   
- This orchestration is designed in such a way that you only provide the request message for the update operation at run-time. The message for the read operation will be constructed within the operation.  
+  This orchestration is designed in such a way that you only provide the request message for the update operation at run-time. The message for the read operation will be constructed within the operation.  
   
 > [!NOTE]
 >  The orchestration in this topic reads and updates data from the CUSTOMER table, which is a base database table created by running the scripts provided with the samples. You must perform similar procedures as described in this topic to perform read or update operations on any interface table or interface view.  
@@ -92,21 +92,21 @@ The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssh
   
  So, your orchestration must contain the following:  
   
--   A FILE receive port to drop a request message for **Update_PHOTO** operation.  
+- A FILE receive port to drop a request message for **Update_PHOTO** operation.  
   
--   A two-way WCF-Custom or WCF-OracleEBS send port to send messages to execute the **Update_PHOTO** operation.  
+- A two-way WCF-Custom or WCF-OracleEBS send port to send messages to execute the **Update_PHOTO** operation.  
   
--   A two-way WCF-Custom or WCF-OracleEBS send port to send messages to execute the **Read_PHOTO** operation. You can also perform both **Read_PHOTO** and **Update_PHOTO** using the same WCF-Custom or WCF-OracleEBS send port. In this topic, you will use a single send port for both the operations.  
+- A two-way WCF-Custom or WCF-OracleEBS send port to send messages to execute the **Read_PHOTO** operation. You can also perform both **Read_PHOTO** and **Update_PHOTO** using the same WCF-Custom or WCF-OracleEBS send port. In this topic, you will use a single send port for both the operations.  
   
--   A **Construct Message** shape to construct messages within the orchestration.  
+- A **Construct Message** shape to construct messages within the orchestration.  
   
--   A FILE send port to save the response messages for **Update_PHOTO** and **Read_PHOTO** operations.  
+- A FILE send port to save the response messages for **Update_PHOTO** and **Read_PHOTO** operations.  
   
--   Receive and send shapes.  
+- Receive and send shapes.  
   
- A sample orchestration resembles the following.  
+  A sample orchestration resembles the following.  
   
- ![Orchestration to operate on large data type column](../../adapters-and-accelerators/adapter-oracle-ebs/media/1976ab27-94c3-4039-a1ca-8790e8897ad5.gif "1976ab27-94c3-4039-a1ca-8790e8897ad5")  
+  ![Orchestration to operate on large data type column](../../adapters-and-accelerators/adapter-oracle-ebs/media/1976ab27-94c3-4039-a1ca-8790e8897ad5.gif "1976ab27-94c3-4039-a1ca-8790e8897ad5")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
@@ -203,35 +203,35 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding FILE port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to Oracle database.  
+  - Define a location on the hard disk and a corresponding FILE port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to Oracle database.  
   
-    -   Define a location on the hard disk and a corresponding FILE port where the BizTalk orchestration will drop the response message containing the response from Oracle database.  
+  - Define a location on the hard disk and a corresponding FILE port where the BizTalk orchestration will drop the response message containing the response from Oracle database.  
   
-    -   Define a physical WCF-Custom or WCF-OracleEBS send port to send messages to Oracle database. You must also specify the action in the send port. For information about how to create ports, see [Manually Configuring a Physical Port Binding to the Oracle E-Business Adapter](../../adapters-and-accelerators/adapter-oracle-ebs/manually-configure-a-physical-port-binding-to-the-oracle-e-business-adapter.md). You must make the following considerations while configuring the WCF-Custom or WCF-OracleEBS send port.  
+  - Define a physical WCF-Custom or WCF-OracleEBS send port to send messages to Oracle database. You must also specify the action in the send port. For information about how to create ports, see [Manually Configuring a Physical Port Binding to the Oracle E-Business Adapter](../../adapters-and-accelerators/adapter-oracle-ebs/manually-configure-a-physical-port-binding-to-the-oracle-e-business-adapter.md). You must make the following considerations while configuring the WCF-Custom or WCF-OracleEBS send port.  
   
-        -   An `Update_<LOBColName>` operation must be performed as part of transaction. To ensure this, the **UseAmbientTransaction** binding property must be set to **True**.  
+    -   An `Update_<LOBColName>` operation must be performed as part of transaction. To ensure this, the **UseAmbientTransaction** binding property must be set to **True**.  
   
-        -   Because the WCF-Custom or WCF-OracleEBS send port sends and receives messages conforming to more than one schema and performs two operations, you must set dynamic action for both the operations. For more information about actions, see [Configure the SOAP Action for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-soap-action-for-oracle-e-business-suite.md). For this orchestration, the action should be set as follows:  
+    -   Because the WCF-Custom or WCF-OracleEBS send port sends and receives messages conforming to more than one schema and performs two operations, you must set dynamic action for both the operations. For more information about actions, see [Configure the SOAP Action for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-soap-action-for-oracle-e-business-suite.md). For this orchestration, the action should be set as follows:  
   
-            ```  
-            <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
-              <Operation Name="Update_LOB" Action="Tables/UpdateBlob/SCOTT/CUSTOMER/PHOTO" />  
-              <Operation Name="Read_LOB" Action="Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO" />  
-            </BtsActionMapping>  
-            ```  
+        ```  
+        <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+          <Operation Name="Update_LOB" Action="Tables/UpdateBlob/SCOTT/CUSTOMER/PHOTO" />  
+          <Operation Name="Read_LOB" Action="Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO" />  
+        </BtsActionMapping>  
+        ```  
   
-            > [!IMPORTANT]
-            >  Note that the operation name in a dynamic action must be same as the operation name you specified on the logical ports while creating the BizTalk orchestration.  
+        > [!IMPORTANT]
+        >  Note that the operation name in a dynamic action must be same as the operation name you specified on the logical ports while creating the BizTalk orchestration.  
   
-        > [!NOTE]
-        >  To perform operations on interface tables or interface views you must also set the application context. For more information on how the adapter supports setting the application context, see [Set Application Context](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md). You can set the application context either by specifying the binding properties or by setting the message context properties exposed by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. For instructions on how to set the binding properties, see [Configure the Binding Properties for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-binding-properties-for-oracle-e-business-suite.md). For instructions on how to set the application context using message context properties, see [Configure the Application Context Using Message Context Properties in Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md).  
-  
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a Physical Port Binding Using a Port Binding File to Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-ebs.md).  
+    > [!NOTE]
+    >  To perform operations on interface tables or interface views you must also set the application context. For more information on how the adapter supports setting the application context, see [Set Application Context](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md). You can set the application context either by specifying the binding properties or by setting the message context properties exposed by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. For instructions on how to set the binding properties, see [Configure the Binding Properties for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-binding-properties-for-oracle-e-business-suite.md). For instructions on how to set the application context using message context properties, see [Configure the Application Context Using Message Context Properties in Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md).  
+    > 
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a Physical Port Binding Using a Port Binding File to Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-ebs.md).  
   
 ## Starting the Application  
  Before starting the BizTalk orchestration, make sure the request XML to invoke the **Read_PHOTO** operation is available at C:\TestLocation\MessageIn. The request XML must resemble the following:  

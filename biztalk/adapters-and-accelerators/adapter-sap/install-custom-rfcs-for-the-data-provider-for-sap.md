@@ -23,9 +23,9 @@ Install the custom RFCs if you want to use the .NET Framework Data Provider for 
 
 The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires custom RFCs to perform some operations on the SAP system to:
   
--   Run the SELECT operation, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires Z_EXTRACT_DATA_OO RFC.  
+- Run the SELECT operation, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires Z_EXTRACT_DATA_OO RFC.  
   
--   Run the EXECQUERY operation, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires Z_EXECUTE_SAP_QUERY RFC.  
+- Run the EXECQUERY operation, the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires Z_EXECUTE_SAP_QUERY RFC.  
   
 To perform these operations on the SAP system, you must install these custom RFCs on the SAP system. If you chose to install the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] along with the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], the Setup program copies the RFC transport for the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] as a compressed file (customRFC.zip) on the system where you install the adapter. The zip file is typically installed at *\<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft .NET Framework Data Provider for mySAP Business Suite*. 
   
@@ -33,123 +33,123 @@ To perform these operations on the SAP system, you must install these custom RFC
   
 
   
-1.  Copy the extracted files from the computer running the adapters to the SAP application server.  
+1. Copy the extracted files from the computer running the adapters to the SAP application server.  
   
-    1.  Log in as the SAP R/3 system administrator to the SAP application server of your development system.  
+   1.  Log in as the SAP R/3 system administrator to the SAP application server of your development system.  
   
-    2.  Copy the two transport files with the naming pattern K9*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
+   2.  Copy the two transport files with the naming pattern K9*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
   
-         `<drive>:\usr\sap\trans\cofiles`  
+        `<drive>:\usr\sap\trans\cofiles`  
   
-    3.  Copy the two transport files with the naming pattern R9*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
+   3.  Copy the two transport files with the naming pattern R9*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
   
-         `<drive>:\usr\sap\trans\data`  
+        `<drive>:\usr\sap\trans\data`  
   
-2.  Load the transport into the transport buffer on the SAP application server.  
+2. Load the transport into the transport buffer on the SAP application server.  
   
-    1.  At the command prompt, navigate to the transport program directory on the SAP application server:  
+   1.  At the command prompt, navigate to the transport program directory on the SAP application server:  
   
-         `<drive>:\usr\sap\trans\bin`  
+        `<drive>:\usr\sap\trans\bin`  
   
-    2.  To load the transport into the transport buffer, execute the following command at the `\usr\sap\trans\bin` directory and replace *sysid* with the system ID of your development system:  
+   2.  To load the transport into the transport buffer, execute the following command at the `\usr\sap\trans\bin` directory and replace *sysid* with the system ID of your development system:  
   
-        ```  
-        tp addtobuffer <TransportNumber> <sysid> pf=TP_DOMAIN_<sysid>.PFL  
-        ```  
+       ```  
+       tp addtobuffer <TransportNumber> <sysid> pf=TP_DOMAIN_<sysid>.PFL  
+       ```  
   
-         where, *TransportNumber* is the actual transport number (for example BI1K900534).  
+        where, *TransportNumber* is the actual transport number (for example BI1K900534).  
   
-    3.  After the `tp` command finishes, you will see a report similar to the following:  
+   3.  After the `tp` command finishes, you will see a report similar to the following:  
   
-        ```  
-        This is tp version 320.56.66 (release 620)  
-        Addtobuffer successful for TransportNumber  
-        tp finished with return code: 0  
-        ```  
+       ```  
+       This is tp version 320.56.66 (release 620)  
+       Addtobuffer successful for TransportNumber  
+       tp finished with return code: 0  
+       ```  
   
-         Return code "0" means that the operation succeeded.  
+        Return code "0" means that the operation succeeded.  
   
-         A return code of 0 or 4 is acceptable. Contact Microsoft Customer Service and Support, if you receive a return code of 8 or above.  
+        A return code of 0 or 4 is acceptable. Contact Microsoft Customer Service and Support, if you receive a return code of 8 or above.  
   
-        > [!IMPORTANT]
-        >  Repeat steps (b) and (c) for the second set of transport files.  
+       > [!IMPORTANT]
+       >  Repeat steps (b) and (c) for the second set of transport files.  
   
-        > [!NOTE]
-        >  You can easily derive the actual transport number from the cofile file name. For example, a cofile named K900534.BI1 provides a transport number of BI1K900534.  
+       > [!NOTE]
+       >  You can easily derive the actual transport number from the cofile file name. For example, a cofile named K900534.BI1 provides a transport number of BI1K900534.  
   
-3.  Import the transport into SAP.  
+3. Import the transport into SAP.  
   
-    1.  Execute the following command at the command prompt:  
+   1.  Execute the following command at the command prompt:  
   
-        ```  
-        tp import <TransportNumber> <sysid> client=<clientnumber> pf=TP_DOMAIN_<sysid>.PFL  
-        ```  
+       ```  
+       tp import <TransportNumber> <sysid> client=<clientnumber> pf=TP_DOMAIN_<sysid>.PFL  
+       ```  
   
-         Replace *sysid* with the system ID of your development system. Replace *clientnumber* with the client number of your development system.  
+        Replace *sysid* with the system ID of your development system. Replace *clientnumber* with the client number of your development system.  
   
-         You can use the U2 parameter to overwrite previously installed objects, as follows:  
+        You can use the U2 parameter to overwrite previously installed objects, as follows:  
   
-        ```  
-        tp import <TransportNumber> <sysid> client=<clientnumber> U2  
-        ```  
+       ```  
+       tp import <TransportNumber> <sysid> client=<clientnumber> U2  
+       ```  
   
-         or  
+        or  
   
-        ```  
-        tp import <TransportNumber> <sysid> client=<clientnumber> pf=TP_DOMAIN_<sysid>.PFL U2  
-        ```  
+       ```  
+       tp import <TransportNumber> <sysid> client=<clientnumber> pf=TP_DOMAIN_<sysid>.PFL U2  
+       ```  
   
-        > [!NOTE]
-        >  You can easily derive the actual transport number from the cofile file name. For example, a cofile named K900534.BI1 provides a transport number of BI1K900534.  
+       > [!NOTE]
+       >  You can easily derive the actual transport number from the cofile file name. For example, a cofile named K900534.BI1 provides a transport number of BI1K900534.  
   
-    2.  After the `tp` command finishes, you will see a report similar to the following:  
+   2.  After the `tp` command finishes, you will see a report similar to the following:  
   
-        ```  
-        This is tp version 320.56.66 (release 620)  
-        This is R3trans.exe version 6.08 (release 620 - 04.02.03 - 14:54:00).  
-        R3trans.exe finished (0000).  
-        This is R3trans.exe version 6.08 (release 620 - 04.02.03 - 14:54:00).  
-        R3trans.exe finished (0000).  
-        tp finished with return code: 0  
-        ```  
+       ```  
+       This is tp version 320.56.66 (release 620)  
+       This is R3trans.exe version 6.08 (release 620 - 04.02.03 - 14:54:00).  
+       R3trans.exe finished (0000).  
+       This is R3trans.exe version 6.08 (release 620 - 04.02.03 - 14:54:00).  
+       R3trans.exe finished (0000).  
+       tp finished with return code: 0  
+       ```  
   
-         Return code "0" means that the operation succeeded.  
+        Return code "0" means that the operation succeeded.  
   
-         A return code of 0 or 4 is acceptable. Contact Microsoft Customer Service and Support if you receive a return code of 8 or above.  
+        A return code of 0 or 4 is acceptable. Contact Microsoft Customer Service and Support if you receive a return code of 8 or above.  
   
-        > [!IMPORTANT]
-        >  Repeat steps (a) and (b) for the second set of transport files.  
+       > [!IMPORTANT]
+       >  Repeat steps (a) and (b) for the second set of transport files.  
   
-4.  Check the transport log.  
+4. Check the transport log.  
   
-5.  Check the transport log in SAP GUI Transport Organizer using transaction SE09 to verify that there are no errors.  
+5. Check the transport log in SAP GUI Transport Organizer using transaction SE09 to verify that there are no errors.  
   
- Setting User Authorization  
- The Z_EXTRACT_DATA_OO RFC requires user IDs with specific authorization objects. Use the SAP GUI authorization administration tools to set the minimum restrictions on the execution of the RFC:  
+   Setting User Authorization  
+   The Z_EXTRACT_DATA_OO RFC requires user IDs with specific authorization objects. Use the SAP GUI authorization administration tools to set the minimum restrictions on the execution of the RFC:  
   
 > [!NOTE]
 >  You do not need to set the authorization for the Z_EXECUTE_SAP_QUERY RFC.  
   
--   Z_EXTRACT_DATA_OO requires both S_TABU_DIS and Z_EIP_TABL. The following values provide the minimum restrictions for S_TABU_DIS, which allow users to view metadata for any table in the system.  
+- Z_EXTRACT_DATA_OO requires both S_TABU_DIS and Z_EIP_TABL. The following values provide the minimum restrictions for S_TABU_DIS, which allow users to view metadata for any table in the system.  
   
-    -   ACTVT: 03  
+  - ACTVT: 03  
   
-    -   DICBERCLS: *  
+  - DICBERCLS: *  
   
-     You can use DICBERCLS to restrict authorization to tables by authorization class.  
+    You can use DICBERCLS to restrict authorization to tables by authorization class.  
   
-     You can use the TDDAT table to view the authorization class for tables.  
+    You can use the TDDAT table to view the authorization class for tables.  
   
-    > [!NOTE]
-    >  To prevent changes to tables by table maintenance transactions, you should only grant display privileges in a production environment (ACTVT: 03 sets the permissible activity to display).  
+  > [!NOTE]
+  >  To prevent changes to tables by table maintenance transactions, you should only grant display privileges in a production environment (ACTVT: 03 sets the permissible activity to display).  
   
-     The minimum values for Z_EIP_TABL are:  
+   The minimum values for Z_EIP_TABL are:  
   
-    -   ACTVT: 03  
+  - ACTVT: 03  
   
-    -   TABLE: *  
+  - TABLE: *  
   
-     You can use TABLE to explicitly define the authorized tables. Note, too, that S_TABU_DIS is also used in other transactions.  
+    You can use TABLE to explicitly define the authorized tables. Note, too, that S_TABU_DIS is also used in other transactions.  
   
 ##### To set user authorization  
   
@@ -184,9 +184,9 @@ To perform these operations on the SAP system, you must install these custom RFC
 Verifying Custom RFC Installation  
  After you install the custom RFCs, you can verify whether the RFCs installed correctly.  
   
--   For Z_EXECUTE_SAP_QUERY RFC, you can do so by executing a pre-defined query in SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)].  
+- For Z_EXECUTE_SAP_QUERY RFC, you can do so by executing a pre-defined query in SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)].  
   
--   For Z_EXTRACT_DATA_OO RFC, you can do so by performing the following tests to confirm that the RFC operates and is ready for use in your system.  
+- For Z_EXTRACT_DATA_OO RFC, you can do so by performing the following tests to confirm that the RFC operates and is ready for use in your system.  
   
 ##### To test the installation of Z_EXTRACT_DATA_OO  
   

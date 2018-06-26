@@ -31,25 +31,25 @@ This topic describes the scenario of deploying an application into a new environ
   
  This imports artifacts into the various BizTalk Server databases as follows:  
   
--   The BizTalk assembly, .NET assembly, bindings, binding file, BAM template, COM component, certificate, and text file are all added to the BizTalk Management database.  
+- The BizTalk assembly, .NET assembly, bindings, binding file, BAM template, COM component, certificate, and text file are all added to the BizTalk Management database.  
   
--   The policy and vocabulary are added to the Rule Engine database.  
+- The policy and vocabulary are added to the Rule Engine database.  
   
--   The BAM template and BAM definition file are both added to the BAM Primary Import database.  
+- The BAM template and BAM definition file are both added to the BAM Primary Import database.  
   
- Each of these artifacts is also associated with Application1 in the BizTalk Management database.  
+  Each of these artifacts is also associated with Application1 in the BizTalk Management database.  
   
- The application is also installed on a local computer from the .msi file. This installs various artifacts that are included in the .msi file, as follows:  
+  The application is also installed on a local computer from the .msi file. This installs various artifacts that are included in the .msi file, as follows:  
   
--   The virtual directory, named VirtualDirectory, is created in the Internet Information Services (IIS) metabase.  
+- The virtual directory, named VirtualDirectory, is created in the Internet Information Services (IIS) metabase.  
   
--   The certificate is added to the local certificate store.  
+- The certificate is added to the local certificate store.  
   
--   The text file and COM component are copied to the local file system.  
+- The text file and COM component are copied to the local file system.  
   
--   The BizTalk assembly and .NET assembly are added to the global assembly cache (GAC), if this deployment option was selected for them.  
+- The BizTalk assembly and .NET assembly are added to the global assembly cache (GAC), if this deployment option was selected for them.  
   
--   The .NET assembly and COM component are added to the Windows registry, if that deployment option was selected for them.  
+- The .NET assembly and COM component are added to the Windows registry, if that deployment option was selected for them.  
   
 ## See Also  
  [Application Deployment and Management Scenarios](../core/application-deployment-and-management-scenarios.md)   

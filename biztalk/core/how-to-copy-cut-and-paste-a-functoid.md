@@ -26,13 +26,13 @@ The copy/cut/paste feature in the BizTalk Mapper enables the reusability of func
   
  You can copy/cut functoids from:  
   
--   Within the same grid page of a map  
+- Within the same grid page of a map  
   
--   One grid page to the other in the same map  
+- One grid page to the other in the same map  
   
--   One instance of Visual Studio to another  
+- One instance of Visual Studio to another  
   
- You can undo or redo the cut and paste operations. For more information, see [How to Undo or Redo User Operations](../core/how-to-undo-or-redo-user-operations.md).  
+  You can undo or redo the cut and paste operations. For more information, see [How to Undo or Redo User Operations](../core/how-to-undo-or-redo-user-operations.md).  
   
 ## Prerequisites  
  These instructions require that BizTalk Mapper is running.  

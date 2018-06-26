@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 6: Configuring Orchestration Shapes (Contoso)
-In this step, you configure the orchestration shapes you added to the PrivateResponder orchestration that you created in [Step 5: Modifying the Contoso Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). This includes setting up the communication between [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server and the Enterprise Resource Planning (ERP) system for Contoso.  
+In this step, you configure the orchestration shapes you added to the PrivateResponder orchestration that you created in [Step 5: Modifying the Contoso Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). This includes setting up the communication between Microsoft® BizTalk Server and the Enterprise Resource Planning (ERP) system for Contoso.  
   
 ### To configure the ConstructMessagePIP3A2RequestMessage shape  
   
@@ -67,21 +67,21 @@ In this step, you configure the orchestration shapes you added to the PrivateRes
   
 ### To configure the Construct3A2ResponseMessage Transform shape  
   
-1.  On the orchestration design surface, click the **Construct3A2ResponseMessage** shape.  
+1. On the orchestration design surface, click the **Construct3A2ResponseMessage** shape.  
   
-2.  In the Properties window, select the **Messages Constructed** property, and then select **PIP3A2ResponseMessage** from the drop-down list, and then press **Enter**.  
+2. In the Properties window, select the **Messages Constructed** property, and then select **PIP3A2ResponseMessage** from the drop-down list, and then press **Enter**.  
   
-3.  Select the **Transform_2** shape within the **Construct3A2ResponseMessage** shape.  
+3. Select the **Transform_2** shape within the **Construct3A2ResponseMessage** shape.  
   
-4.  In the Properties window, click **Map Name**, and then click the ellipsis button (**…**).  
+4. In the Properties window, click **Map Name**, and then click the ellipsis button (**…**).  
   
-5.  In the Transform Configuration dialog box, click **New Map.**  
+5. In the Transform Configuration dialog box, click **New Map.**  
   
-6.  In the **Fully Qualified Map Name** box, type **ContosoPriceAndAvailability.ContosoResponse3A2RequestMerge**.  
+6. In the **Fully Qualified Map Name** box, type **ContosoPriceAndAvailability.ContosoResponse3A2RequestMerge**.  
   
-7.  In the Transform Configuration dialog box, select **Source** in the left pane.  
+7. In the Transform Configuration dialog box, select **Source** in the left pane.  
   
-8.  Click the **Click here to add a new row** label under **Variable Name**, and then select **PIP3A2RequestMessage** from the drop-down list.  
+8. Click the **Click here to add a new row** label under **Variable Name**, and then select **PIP3A2RequestMessage** from the drop-down list.  
   
 9. Click the **Click here to add a new row** label under **Variable Name** on the next line, and then select **Contoso3A2ResponseMessage** from the drop-down list.  
   

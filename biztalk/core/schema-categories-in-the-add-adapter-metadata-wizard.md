@@ -72,15 +72,15 @@ Tree view of the schema categories in the Add Adapter Metadata Wizard
   
  The following node types appear in this schema instance:  
   
--   **CategoryTree.** Top-level structure of a model of system information. Contains zero or more of the CategoryTreeNode, ExpandableCategoryTreeNode, and ServiceTreeNode nodes.  
+- **CategoryTree.** Top-level structure of a model of system information. Contains zero or more of the CategoryTreeNode, ExpandableCategoryTreeNode, and ServiceTreeNode nodes.  
   
--   **CategoryTreeNode.** Contains zero or more CategoryTreeNode and ServiceTreeNode nodes. Use the CategoryTreeNode that appears as a folder in the user interface (UI) to group a set of related services. Typically this contains a display name and description of the services to be displayed. An adapter might use a CategoryTreeNode if the number of child nodes is small.  
+- **CategoryTreeNode.** Contains zero or more CategoryTreeNode and ServiceTreeNode nodes. Use the CategoryTreeNode that appears as a folder in the user interface (UI) to group a set of related services. Typically this contains a display name and description of the services to be displayed. An adapter might use a CategoryTreeNode if the number of child nodes is small.  
   
--   **ExpandableCategoryTreeNode.** A leaf node that is dynamically populated when expanded. The ExpandableCategoryTreeNode is used as a placeholder and appears as a folder in the UI. This can be used to defer populating a category node with subelements until the user clicks to expand the node. An adapter might use an ExpandableCategoryTreeNode if a category contains a large number of child nodes.  
+- **ExpandableCategoryTreeNode.** A leaf node that is dynamically populated when expanded. The ExpandableCategoryTreeNode is used as a placeholder and appears as a folder in the UI. This can be used to defer populating a category node with subelements until the user clicks to expand the node. An adapter might use an ExpandableCategoryTreeNode if a category contains a large number of child nodes.  
   
--   **ServiceTreeNode.** A ServiceTreeNode appears as a document, or leaf node, in the UI and represents a Web Services Description Language (WSDL) file.  
+- **ServiceTreeNode.** A ServiceTreeNode appears as a document, or leaf node, in the UI and represents a Web Services Description Language (WSDL) file.  
   
- When a user clicks the folder to expand a node, the Adapter Framework calls the **IStaticAdapterConfig.GetServiceOrganization** method on the adapter passing the name of the node as the value of the **NodeIdentifier** attribute. The adapter should return a CategoryTree containing the subnodes to add under the ExpandableCategoryTreeNode. The Adapter Framework replaces the ExpandableCategoryTreeNode with a CategoryTreeNode and adds to it the children of the returned CategoryTree.  
+  When a user clicks the folder to expand a node, the Adapter Framework calls the **IStaticAdapterConfig.GetServiceOrganization** method on the adapter passing the name of the node as the value of the **NodeIdentifier** attribute. The adapter should return a CategoryTree containing the subnodes to add under the ExpandableCategoryTreeNode. The Adapter Framework replaces the ExpandableCategoryTreeNode with a CategoryTreeNode and adds to it the children of the returned CategoryTree.  
   
 > [!NOTE]
 >  In the initial call to **IStaticAdapterConfig.GetServiceOrganization** the Adapter Framework passes null for the node identifier. This tells the adapter to return the root-level CategoryTree.  

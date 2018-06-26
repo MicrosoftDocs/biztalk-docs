@@ -35,13 +35,13 @@ This topic describes how to use the BizTalk Server Administration console to ena
   
 ### To enable routing for failed messages for a receive port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure failed message routing for a receive port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure failed message routing for a receive port.  
   
-3.  Click **Receive Ports**, right-click the receive port, and then click **Properties**.  
+3. Click **Receive Ports**, right-click the receive port, and then click **Properties**.  
   
-4.  Select the **Enable routing for failed messages** check box, and then click **OK**.  
+4. Select the **Enable routing for failed messages** check box, and then click **OK**.  
   
 ## See Also  
  [Managing Receive Ports](../core/managing-receive-ports.md)

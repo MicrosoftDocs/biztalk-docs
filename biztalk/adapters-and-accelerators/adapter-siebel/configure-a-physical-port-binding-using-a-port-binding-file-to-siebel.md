@@ -54,15 +54,15 @@ When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapter
 ## Configuring a WCF-Siebel Port Using the Port Binding File Generated Using Consume Adapter Service Add-in  
  The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also creates a port binding file that you can import in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You can use the same port binding file to also create the BizTalk WCF-Siebel port in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. However, before creating WCF-Siebel port you must perform the following tasks to modify the port binding file.  
   
-1.  Open the port binding file in a text editor.  
+1. Open the port binding file in a text editor.  
   
-2.  Search and replace “WCF-Custom” with the name with which you added the WCF-Siebel adapter in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For example, if you added the WCF-Siebel adapter as “SiebelAdapter”, replace “WCF-Custom” with “SiebelAdapter”.  
+2. Search and replace “WCF-Custom” with the name with which you added the WCF-Siebel adapter in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For example, if you added the WCF-Siebel adapter as “SiebelAdapter”, replace “WCF-Custom” with “SiebelAdapter”.  
   
-3.  Search for the “ConfigurationClsid” attribute, and replace the existing value of the attribute with “7971A78D-AE8F-42B4-834D-3A957FD945E9”.  
+3. Search for the “ConfigurationClsid” attribute, and replace the existing value of the attribute with “7971A78D-AE8F-42B4-834D-3A957FD945E9”.  
   
-4.  Save and close the binding file.  
+4. Save and close the binding file.  
   
-5.  Import the binding file in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. See [Reuse adapter bindings in the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md). 
+5. Import the binding file in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. See [Reuse adapter bindings in the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md). 
   
 ## See Also  
 [Building blocks to create BizTalk applications with the Siebel 

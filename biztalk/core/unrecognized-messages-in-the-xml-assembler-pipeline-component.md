@@ -36,21 +36,21 @@ The XML Assembler component treats a message as "unrecognized" if a message has:
   
  When **XMLNorm.AllowUnrecognizedMessage** is set to **True**, the XML Assembler handles XML documents as follows:  
   
--   A message with no body part or with an empty body part or empty data in the body part passes unchanged through the assembler.  
+- A message with no body part or with an empty body part or empty data in the body part passes unchanged through the assembler.  
   
--   A document that does not have a deployed schema associated with it passes unchanged through the assembler.  
+- A document that does not have a deployed schema associated with it passes unchanged through the assembler.  
   
--   A document with an associated deployed schema is processed by the assembler (regardless of whether the schema is explicitly referenced in a component property or found during the schema resolution process).  
+- A document with an associated deployed schema is processed by the assembler (regardless of whether the schema is explicitly referenced in a component property or found during the schema resolution process).  
   
- If **XMLNorm.AllowUnrecognizedMessage** is set to **False**, the XML Assembler handles XML documents as follows:  
+  If **XMLNorm.AllowUnrecognizedMessage** is set to **False**, the XML Assembler handles XML documents as follows:  
   
--   A message with no body part or with an empty body part or empty data in the body part is not processed. An error is reported and the message is suspended.  
+- A message with no body part or with an empty body part or empty data in the body part is not processed. An error is reported and the message is suspended.  
   
--   A message that does not have a deployed schema associated with it is not processed. An error is reported and the message is suspended.  
+- A message that does not have a deployed schema associated with it is not processed. An error is reported and the message is suspended.  
   
--   A document with an associated deployed schema is processed by the assembler (regardless of whether the schema is explicitly referenced in a component property or found during the schema resolution process).  
+- A document with an associated deployed schema is processed by the assembler (regardless of whether the schema is explicitly referenced in a component property or found during the schema resolution process).  
   
--   By default, the XML Assembler component does not allow unrecognized messages (that is, **XMLNorm.AllowUnrecognizedMessages** is considered **False** if it is not set on the message context).  
+- By default, the XML Assembler component does not allow unrecognized messages (that is, **XMLNorm.AllowUnrecognizedMessages** is considered **False** if it is not set on the message context).  
   
 ## See Also  
  [XML Assembler Pipeline Component](../core/xml-assembler-pipeline-component.md)   
